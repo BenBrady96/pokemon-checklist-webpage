@@ -107,45 +107,62 @@ const byRarity = (a, b) => RARITY_BY_ID.get(b.rarity).rank - RARITY_BY_ID.get(a.
 
 const pocketLabel = (card) => (card.section === 'classic' ? card.code : card.num);
 
-function binderSection(section, pockets, firstPage) {
+function binderPage(cards, number, pockets) {
+  const page = document.createElement('div');
+  page.className = 'page';
+  const first = pocketLabel(cards[0]);
+  const last = pocketLabel(cards[cards.length - 1]);
+  page.innerHTML = `<div class="page__label"><span>Page ${number}</span><span>${first}–${last}</span></div>`;
+  const ol = cardList(cards, 'pockets');
+  for (let i = cards.length; i < pockets; i++) {
+    const empty = document.createElement('li');
+    empty.className = 'pocket-empty';
+    empty.setAttribute('aria-hidden', 'true');
+    ol.append(empty);
+  }
+  page.append(ol);
+  return page;
+}
+
+function blankPage(cover, hint) {
+  const page = document.createElement('div');
+  page.className = cover ? 'page page--blank page--cover' : 'page page--blank';
+  page.setAttribute('aria-hidden', 'true');
+  page.innerHTML = cover
+    ? '<svg class="page__mark"><use href="#logo-mark"/></svg><span class="page__cover-title brand__gold">30th Celebration</span>'
+    : `<span class="page__hint">${hint}</span>`;
+  return page;
+}
+
+function binderSection(section, pockets, firstPage, lastSection) {
   const cards = SECTION_CARDS.get(section.id);
   const sec = sectionShell(section.id, section.name, section.range, cards.length);
   const binder = document.createElement('div');
   binder.className = 'binder';
   binder.style.setProperty('--pcols', pockets === 4 ? 2 : pockets === 12 ? 4 : 3);
-  const pages = [];
-  for (let i = 0; i < cards.length; i += pockets) pages.push(cards.slice(i, i + pockets));
-  for (let p = 0; p < pages.length; p += 2) {
-    const spread = document.createElement('div');
-    spread.className = 'spread';
-    for (const [offset, pageCards] of pages.slice(p, p + 2).entries()) {
-      const page = document.createElement('div');
-      page.className = 'page';
-      const first = pocketLabel(pageCards[0]);
-      const last = pocketLabel(pageCards[pageCards.length - 1]);
-      page.innerHTML = `<div class="page__label"><span>Page ${firstPage + p + offset}</span><span>${first}–${last}</span></div>`;
-      const ol = cardList(pageCards, 'pockets');
-      for (let i = pageCards.length; i < pockets; i++) {
-        const empty = document.createElement('li');
-        empty.className = 'pocket-empty';
-        empty.setAttribute('aria-hidden', 'true');
-        ol.append(empty);
-      }
-      page.append(ol);
-      spread.append(page);
+  let spread = null;
+  let number = firstPage;
+  for (let i = 0; i < cards.length; i += pockets, number++) {
+    const right = number % 2 === 1;
+    if (!spread || !right) {
+      spread = document.createElement('div');
+      spread.className = 'spread';
+      binder.append(spread);
+      if (right) spread.append(blankPage(number === 1, `↑ Page ${number - 1}`));
     }
-    binder.append(spread);
+    spread.append(binderPage(cards.slice(i, i + pockets), number, pockets));
   }
+  if (number % 2 === 1) spread.append(blankPage(lastSection, `Page ${number} ↓`));
   sec.append(binder);
-  return { sec, pages: pages.length };
+  return { sec, pages: number - firstPage };
 }
 
 export function mount(root, { view, sort, pockets }) {
   const frag = document.createDocumentFragment();
   if (view === 'binder') {
     let page = 1;
-    for (const section of SECTIONS) {
-      const { sec, pages } = binderSection(section, pockets, page);
+    for (const [i, section] of SECTIONS.entries()) {
+      const { sec, pages } = binderSection(section, pockets, page, i === SECTIONS.length - 1);
       page += pages;
       frag.append(sec);
     }
