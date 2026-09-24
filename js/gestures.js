@@ -7,7 +7,7 @@ const TOUCH_SLOP = 10;
 const EDGE_ZONE = 72;
 const MAX_SCROLL_STEP = 18;
 
-export function initGestures(root, { getMode, getInsets, onCommit, onOpen, onBlocked }) {
+export function initGestures(root, { getMode, getInsets, onCommit, onOpen, onInfo, onBlocked }) {
   let pending = null;
   let stroke = null;
   let suppressClickUntil = 0;
@@ -240,6 +240,10 @@ export function initGestures(root, { getMode, getInsets, onCommit, onOpen, onBlo
       onOpen(id);
       return;
     }
+    if (btn.classList.contains('card__info')) {
+      onInfo(id);
+      return;
+    }
     if (store.isPreview()) {
       onBlocked();
       return;
@@ -305,6 +309,7 @@ export function initGestures(root, { getMode, getInsets, onCommit, onOpen, onBlo
       case 'Home': focusCard(cards[0]); break;
       case 'End': focusCard(cards[cards.length - 1]); break;
       case 'v': case 'V': onOpen(id); break;
+      case 'i': case 'I': onInfo(id); break;
       case '+': case '=':
         if (store.isPreview()) onBlocked();
         else step(id, 1);

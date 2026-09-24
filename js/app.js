@@ -1,10 +1,11 @@
-import { CARDS, CARD_BY_ID, SECTIONS, RARITIES, GROUPS, normalize } from './cards.js';
+import { CARDS, CARD_BY_ID, SECTIONS, RARITIES, GROUPS, TIERS, getTier, inTier, normalize } from './cards.js';
 import * as store from './store.js';
 import {
-  refs, buildCards, updateCard, mount, applyVisibility, updateSectionCounts, updateImageSources, rarityIconById,
+  refs, buildCards, updateCard, mount, applyVisibility, updateSectionCounts, updateImageSources, rarityIconById, hasImage,
 } from './render.js';
 import { initGestures } from './gestures.js';
 import { initViewer } from './viewer.js';
+import { initInfo } from './info.js';
 import { compute, percent, renderStats, missingText, duplicatesText } from './stats.js';
 import { initQuickAdd } from './quickadd.js';
 import { shareUrl, renderQr, exportFile, parseBackup, decodeCollection, askIncoming } from './sync.js';
@@ -21,6 +22,7 @@ const appbar = document.getElementById('appbar');
 const toolbar = document.querySelector('.toolbar');
 const mobileSearch = document.getElementById('mobile-search');
 const jumpbar = document.getElementById('jumpbar');
+const tierPicker = document.getElementById('tier-picker');
 const refreshChip = document.getElementById('refresh-chip');
 const emptyState = document.getElementById('empty-state');
 const previewBanner = document.getElementById('preview-banner');
@@ -32,10 +34,13 @@ const DIALOGS = {
 };
 const JUMPS = [
   { id: 'main', label: 'Main Set' },
-  { id: 'pikachu', label: 'Pikachu Rares', icon: 'r-pikachu' },
+  { id: 'pikachu', label: 'Pikachu Rares', icon: 'r-pikachu', section: 'main' },
   { id: 'secret', label: 'Secret Rares' },
   { id: 'classic', label: 'Classic' },
   { id: 'energy', label: 'Energy' },
+  { id: 'promo', label: 'Promos' },
+  { id: 'variant', label: 'Variants' },
+  { id: 'partner', label: 'First Partners' },
 ];
 
 const desktopQuery = matchMedia('(min-width: 900px)');
@@ -45,11 +50,13 @@ const isTouch = matchMedia('(pointer: coarse)').matches;
 const filters = { status: 'all', rarities: new Set(), sections: new Set(), tokens: [] };
 let gestures;
 let viewer;
+let info;
 let previewCounts = null;
 let completedGroups = null;
 let celebrateNext = false;
 
 function matches(card) {
+  if (!inTier(card, store.getPrefs().tier)) return false;
   const q = store.getQty(card.id);
   if (filters.status === 'owned' && !q) return false;
   if (filters.status === 'missing' && q) return false;
@@ -162,7 +169,8 @@ function syncControls() {
 
 store.onPrefChange((key) => {
   applyPrefs();
-  if (key === 'view' || key === 'sort' || key === 'pockets') remount(true);
+  if (key === 'tier') changeTier();
+  else if (key === 'view' || key === 'sort' || key === 'pockets') remount(true);
   else if (key === 'size' || key === 'images') requestAnimationFrame(() => updateImageSources(root, store.getPrefs().images));
   if (key === 'mode') {
     const count = store.getPrefs().mode === 'count';
@@ -206,6 +214,32 @@ function onScroll() {
   }
   if (Math.abs(dy) > 10 || y < 80) lastScrollY = y;
   updateScrollSpy();
+}
+
+function buildTierPicker() {
+  tierPicker.innerHTML = TIERS.map((t) => `<button type="button" class="seg__btn" data-pref="tier" data-value="${t.id}">`
+    + `<b>${t.label}</b><small>${t.cards.length} cards</small></button>`).join('');
+}
+
+function updateTierChrome() {
+  const tier = getTier(store.getPrefs().tier);
+  const rarities = new Set(tier.cards.map((c) => c.rarity));
+  for (const id of filters.sections) if (!tier.sectionIds.has(id)) filters.sections.delete(id);
+  for (const id of filters.rarities) if (!rarities.has(id)) filters.rarities.delete(id);
+  for (const j of JUMPS) jumpbar.querySelector(`[data-jump="${j.id}"]`).hidden = !tier.sectionIds.has(j.section || j.id);
+  for (const chip of document.querySelectorAll('[data-filter-toggle]')) {
+    chip.hidden = !(chip.dataset.filterToggle === 'rarity' ? rarities : tier.sectionIds).has(chip.dataset.value);
+  }
+}
+
+function changeTier() {
+  const tier = getTier(store.getPrefs().tier);
+  completedGroups = null;
+  updateTierChrome();
+  syncControls();
+  remount(true);
+  refreshStats();
+  announce(`${tier.name}: ${tier.cards.length} cards`);
 }
 
 function buildJumpbar() {
@@ -285,14 +319,14 @@ function firstCardInView() {
 function remount(keepPosition = false) {
   const anchor = keepPosition ? firstCardInView() : null;
   const p = store.getPrefs();
-  mount(root, { view: p.view, sort: p.sort, pockets: p.pockets });
+  mount(root, { view: p.view, sort: p.sort, pockets: p.pockets, tier: p.tier });
   updateJumpbarVisibility();
   applyFilters();
   updateSectionCounts(root);
   requestAnimationFrame(() => {
     updateStickyTop();
     updateImageSources(root, p.images);
-    if (anchor && !anchor.hidden) scrollToElement(anchor, { smooth: false });
+    if (anchor?.isConnected && !anchor.hidden) scrollToElement(anchor, { smooth: false });
     updateScrollSpy();
   });
 }
@@ -309,12 +343,13 @@ function queueStats() {
 
 function refreshStats() {
   const s = compute();
-  const master = s.byGroup.master;
-  html.toggleAttribute('data-has-owned', master.owned > 0);
-  document.querySelector('[data-stat="owned"]').textContent = master.owned;
-  document.querySelector('[data-stat="total"]').textContent = master.total;
-  document.querySelector('[data-stat="pct"]').textContent = `${percent(master.owned, master.total)}%`;
-  document.querySelector('[data-stat="bar"]').style.setProperty('--p', master.owned / master.total);
+  const set = s.byGroup.set;
+  html.toggleAttribute('data-has-owned', set.owned > 0);
+  document.querySelector('[data-stat="owned"]').textContent = set.owned;
+  document.querySelector('[data-stat="total"]').textContent = set.total;
+  document.querySelector('[data-stat="pct"]').textContent = `${percent(set.owned, set.total)}%`;
+  document.querySelector('[data-stat="bar"]').style.setProperty('--p', set.owned / set.total);
+  document.querySelector('.progress-pill').setAttribute('aria-label', `${s.tier.name} progress — open statistics`);
   for (const el of jumpbar.querySelectorAll('[data-jump-count]')) {
     const g = s.byGroup[el.dataset.jumpCount];
     el.textContent = `${g.owned}/${g.total}`;
@@ -335,13 +370,15 @@ function refreshStats() {
 }
 
 function checkMilestones(s) {
-  const done = new Set(GROUPS.filter((g) => s.byGroup[g.id].owned === s.byGroup[g.id].total).map((g) => g.id));
+  const complete = ({ owned, total }) => total > 0 && owned === total;
+  const done = new Set(GROUPS.filter((g) => complete(s.byGroup[g.id])).map((g) => g.id));
   if (completedGroups && celebrateNext) {
     const fresh = GROUPS.filter((g) => done.has(g.id) && !completedGroups.has(g.id));
     if (fresh.length) {
       const best = fresh[fresh.length - 1];
-      toast(`${best.name} complete! Congratulations!`, { icon: 'i-sparkle', timeout: 6000 });
-      announce(`${best.name} complete`);
+      const name = best.id === 'set' ? s.tier.name : best.name;
+      toast(`${name} complete! Congratulations!`, { icon: 'i-sparkle', timeout: 6000 });
+      announce(`${name} complete`);
       if (!reducedMotion()) celebrate();
     }
   }
@@ -473,18 +510,21 @@ async function prepareMenu() {
   const item = document.querySelector('[data-offline-item]');
   item.hidden = !offlineSupported();
   if (!item.hidden) {
-    const saved = await countSavedImages(CARDS.map((c) => c.id));
-    document.querySelector('[data-offline-status]').textContent = saved >= CARDS.length
+    const ids = imageIds();
+    const saved = await countSavedImages(ids);
+    document.querySelector('[data-offline-status]').textContent = saved >= ids.length
       ? 'All card images saved ✓'
-      : saved ? `${saved} of ${CARDS.length} saved — tap to save the rest` : 'Use the checklist with no signal (about 6 MB)';
+      : saved ? `${saved} of ${ids.length} saved — tap to save the rest` : 'Use the checklist with no signal (about 7 MB)';
   }
 }
+
+const imageIds = () => CARDS.filter((c) => hasImage(c.id)).map((c) => c.id);
 
 async function saveOffline() {
   closeDialog(document.getElementById('dlg-menu'));
   const t = toast('Saving card images…', { icon: 'i-offline', timeout: 120000 });
   const msg = t.querySelector('.toast__msg');
-  const { failed } = await saveImagesOffline(CARDS.map((c) => c.id), (done, total) => {
+  const { failed } = await saveImagesOffline(imageIds(), (done, total) => {
     msg.textContent = `Saving card images… ${done}/${total}`;
   });
   toast(failed ? `Saved, but ${failed} images failed. Try again on a better connection.` : 'All card images are saved for offline use.', { icon: 'i-check' });
@@ -724,7 +764,7 @@ function wireControls() {
 }
 
 function buildFilterChips() {
-  document.getElementById('rarity-chips').innerHTML = RARITIES.filter((r) => r.id !== 'CC' && r.id !== 'E')
+  document.getElementById('rarity-chips').innerHTML = RARITIES.filter((r) => r.id !== 'CC' && r.id !== 'E' && r.id !== 'P')
     .map((r) => `<button type="button" class="chip" data-filter-toggle="rarity" data-value="${r.id}">${rarityIconById(r.id)}`
       + `<span>${r.name}</span><span class="chip__count" data-rarity-count="${r.id}"></span></button>`)
     .join('');
@@ -737,10 +777,13 @@ function buildFilterChips() {
 function init() {
   initDialogs();
   buildCards();
+  buildTierPicker();
   buildFilterChips();
   buildJumpbar();
+  updateTierChrome();
   applyPrefs();
 
+  info = initInfo();
   gestures = initGestures(root, {
     getMode: () => store.getPrefs().mode,
     getInsets: () => ({
@@ -749,6 +792,7 @@ function init() {
     }),
     onCommit,
     onOpen: (id) => viewer.open(id),
+    onInfo: (id) => info.open(id),
     onBlocked: blocked,
   });
   viewer = initViewer({
@@ -774,7 +818,7 @@ function init() {
   });
 
   const p = store.getPrefs();
-  mount(root, { view: p.view, sort: p.sort, pockets: p.pockets });
+  mount(root, { view: p.view, sort: p.sort, pockets: p.pockets, tier: p.tier });
   updateJumpbarVisibility();
   applyFilters();
   refreshStats();

@@ -2,12 +2,20 @@ import { CARD_BY_ID, PRINTED_TOTAL } from './cards.js';
 import { escapeHTML } from './ui.js';
 
 const MAIN_MAX = 158;
-const TOKEN = /^#?([ce])?(\d{1,3})(?:-([ce])?(\d{1,3}))?(?:x(\d{1,2}))?$/i;
+const TOKEN = /^#?([cepv])?(\d{1,3})(?:-([cepv])?(\d{1,3}))?(?:x(\d{1,2}))?$/i;
+const RGB_TOKEN = /^([rgb]?)\/?rgb(?:x(\d{1,2}))?$/i;
+
+const ID_FORMATS = {
+  '': (n) => `m${String(n).padStart(3, '0')}`,
+  c: (n) => `c${String(n).padStart(2, '0')}`,
+  e: (n) => `e${String(n).padStart(3, '0')}`,
+  p: (n) => `p${String(n).padStart(3, '0')}`,
+  v: (n) => `v${String(n).padStart(2, '0')}`,
+};
 
 function idFor(prefix, n) {
-  if (prefix === 'c') return n >= 1 && n <= 30 ? `c${String(n).padStart(2, '0')}` : null;
-  if (prefix === 'e') return n >= 9 && n <= 16 ? `e${String(n).padStart(3, '0')}` : null;
-  return n >= 1 && n <= MAIN_MAX ? `m${String(n).padStart(3, '0')}` : null;
+  const id = ID_FORMATS[prefix](n);
+  return CARD_BY_ID.has(id) ? id : null;
 }
 
 export function parseQuickAdd(text) {
@@ -19,6 +27,18 @@ export function parseQuickAdd(text) {
     .replace(/\s*[x×*]\s*(?=\d)/gi, 'x')
     .replace(/\/\s*\d+/g, '');
   for (const token of cleaned.split(/[\s,;]+/).filter(Boolean)) {
+    const rgb = RGB_TOKEN.exec(token);
+    if (rgb) {
+      const copies = rgb[2] ? Number(rgb[2]) : 1;
+      if (copies < 1) {
+        invalid.push(token);
+        continue;
+      }
+      for (const letter of rgb[1] ? [rgb[1].toLowerCase()] : ['r', 'g', 'b']) {
+        counts.set(`rgb-${letter}`, (counts.get(`rgb-${letter}`) || 0) + copies);
+      }
+      continue;
+    }
     const m = TOKEN.exec(token);
     if (!m) {
       invalid.push(token);
@@ -49,7 +69,7 @@ export function parseQuickAdd(text) {
   return { counts, invalid };
 }
 
-const chipLabel = (card) => (card.section === 'classic' ? `${card.code} ${card.name}` : `${card.num} ${card.name}`);
+const chipLabel = (card) => (['classic', 'promo', 'variant', 'partner'].includes(card.section) ? `${card.code} ${card.name}` : `${card.num} ${card.name}`);
 
 export function initQuickAdd({ onApply }) {
   const dlg = document.getElementById('dlg-quickadd');

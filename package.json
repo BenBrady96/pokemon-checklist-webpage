@@ -2,11 +2,12 @@
   "name": "pokemon-30th-celebration-checklist",
   "version": "1.0.0",
   "private": true,
-  "description": "Free, unofficial checklist for all 196 Pokémon TCG 30th Celebration cards. Works offline, no sign-up, and your collection stays in your browser.",
+  "description": "Free, unofficial checklist for all 199 Pokémon TCG 30th Celebration cards, plus the promos for a Grand Master set. Works offline, no sign-up, and your collection stays in your browser.",
   "license": "MIT",
   "type": "module",
   "scripts": {
     "build": "node tools/build.mjs",
+    "prices": "node tools/build-prices.mjs",
     "images": "node tools/build-images.mjs",
     "images:force": "node tools/build-images.mjs --force"
   },

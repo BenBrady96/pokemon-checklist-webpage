@@ -3,7 +3,7 @@ import { tmpdir } from 'node:os';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import sharp from 'sharp';
-import { CARDS } from '../js/cards.js';
+import { CARDS, CARD_BY_ID } from '../js/cards.js';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const FORCE = process.argv.includes('--force');
@@ -21,6 +21,29 @@ const ENERGY_SOURCES = {
   e014: `${SQUARESPACE}/70ac9a79-6487-4466-914d-c4bf62de9a9f/30th+fighting.webp`,
   e015: `${SQUARESPACE}/63306109-6abd-43fe-8b3b-24445a8e324b/darkness+30th.webp`,
   e016: `${SQUARESPACE}/193aae09-4545-4671-86a4-9be37604e72c/30th+celebration.webp`,
+};
+
+const PROMO_CDN = 'https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpci/MEP';
+
+const POKECOTTAGE = 'https://pokecottagecdn.com/card-library/images/en/mep';
+const POKECOTTAGE_SOURCES = {
+  p102: `${POKECOTTAGE}/0d485cfb-2843-4aeb-9c13-b2092ae98b67.jpg`,
+  p103: `${POKECOTTAGE}/42c63f17-8164-4151-b726-920265bab5a8.jpg`,
+  p104: `${POKECOTTAGE}/e37a3264-a849-4e6e-a42f-632057aee303.jpg`,
+  p105: `${POKECOTTAGE}/8bea4ddd-2b15-4668-aa9b-9dc3cc47a236.jpg`,
+  p106: `${POKECOTTAGE}/5b98e2a6-9680-488a-9695-2e2a372a1b54.jpg`,
+  p107: `${POKECOTTAGE}/d5448264-e17c-4140-83ad-72d4d7177e43.jpg`,
+  p108: `${POKECOTTAGE}/d5e3ca26-ee9c-4f12-b3af-b639dab9d397.jpg`,
+  p109: `${POKECOTTAGE}/cc7a7bff-cf7d-4983-b55c-557ca3b9bbee.jpg`,
+  p110: `${POKECOTTAGE}/7dfd91df-e64e-482f-a62b-e401853a0ecd.jpg`,
+  v03: `${POKECOTTAGE}/8d58bfd7-f450-4be8-a731-d8007e193d7c.jpg`,
+};
+
+const RGB_GALLERY = 'https://miketendo64.com/wp-content/uploads/2026/09/30th-Celebration_';
+const RGB_SOURCES = {
+  'rgb-r': `${RGB_GALLERY}Red-Mew.jpg`,
+  'rgb-g': `${RGB_GALLERY}Green-Mew.jpg`,
+  'rgb-b': `${RGB_GALLERY}Blue-Mew.jpg`,
 };
 
 const CLASSIC_IMAGE = {
@@ -50,8 +73,12 @@ const EMBLEM = `<circle cx="256" cy="256" r="188" fill="none" stroke="url(#gold)
     <path d="M114 362 l6 14 14 6 -14 6 -6 14 -6 -14 -14 -6 14 -6z" fill="#F2C14E" opacity=".8"/>`;
 
 function sourceFor(card) {
+  if (POKECOTTAGE_SOURCES[card.id]) return POKECOTTAGE_SOURCES[card.id];
+  if (card.base) return sourceFor(CARD_BY_ID.get(card.base));
   if (card.section === 'energy') return ENERGY_SOURCES[card.id];
   if (card.section === 'classic') return `${CDN}/2M6P_Classic_EN_${CLASSIC_IMAGE[card.id]}-2x.png`;
+  if (card.rarity === 'P') return `${PROMO_CDN}/MEP_${card.num}_R_EN_LG.png`;
+  if (card.rarity === 'RGB') return RGB_SOURCES[card.id];
   return `${CDN}/2M6P_EN_${Number(card.id.slice(1))}-2x.png`;
 }
 
@@ -115,7 +142,8 @@ async function buildCards() {
   await Promise.all(Array.from({ length: CONCURRENCY }, worker));
   process.stdout.write(`  (${fetched} downloaded)\n`);
 
-  const body = CARDS.filter((c) => colors[c.id]).map((c) => `  ${c.id}: '${colors[c.id]}',`).join('\n');
+  const key = (id) => (/^[a-z_$][\w$]*$/i.test(id) ? id : `'${id}'`);
+  const body = CARDS.filter((c) => colors[c.id]).map((c) => `  ${key(c.id)}: '${colors[c.id]}',`).join('\n');
   await writeFile(join(ROOT, 'js/card-colors.js'), `export default {\n${body}\n};\n`);
   return failures;
 }
@@ -223,7 +251,7 @@ async function buildSocialImage() {
   const kicker = await textImage(font, 'POKÉMON TCG', { size: 24, weight: 600, color: '#F7D774', spacing: 5120 });
   const title = await goldFill(await fittedText(font, '30th Celebration', { size: 80, weight: 800 }, textWidth));
   const subtitle = await fittedText(font, 'Card Checklist', { size: 66, weight: 700 }, textWidth);
-  const blurb = await textImage(font, 'Track all 196 cards: main set, secret rares, Classic Collection &amp; Basic Energy.', { size: 27, color: '#C4CAE6', wrap: 520 });
+  const blurb = await textImage(font, 'Track all 199 cards: main set, secret rares, RGB Mews, Classic Collection &amp; promos.', { size: 27, color: '#C4CAE6', wrap: 520 });
   const perks = await textImage(font, 'Free  ·  No sign-up  ·  Works offline', { size: 25, weight: 600, color: '#F2C14E' });
 
   const layers = [{ input: emblem, left, top: 60 }];

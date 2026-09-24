@@ -12,6 +12,7 @@ const DEFAULT_PREFS = {
   mode: 'check',
   sort: 'set',
   pockets: 9,
+  tier: 'master',
   dim: true,
   theme: 'system',
   tipSeen: false,
