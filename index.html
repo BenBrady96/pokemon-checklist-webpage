@@ -443,8 +443,8 @@
       </div>
       <div class="menu__group">
         <h3 class="menu__label">Backup</h3>
-        <button type="button" class="menu__item" data-action="export"><svg><use href="#i-download"/></svg><span><b>Export backup</b><small data-last-backup>Save your collection as a file</small></span></button>
-        <button type="button" class="menu__item" data-action="import"><svg><use href="#i-upload"/></svg><span><b>Import backup</b><small>Restore or merge a saved file</small></span></button>
+        <button type="button" class="menu__item" data-open="export"><svg><use href="#i-download"/></svg><span><b>Export backup</b><small data-last-backup>Copy a code or save a file</small></span></button>
+        <button type="button" class="menu__item" data-open="import"><svg><use href="#i-upload"/></svg><span><b>Import backup</b><small>Paste a code or link, or choose a file</small></span></button>
         <button type="button" class="menu__item" data-action="save-offline" data-offline-item hidden><svg><use href="#i-offline"/></svg><span><b>Save images for offline</b><small data-offline-status>Use the checklist with no signal</small></span></button>
       </div>
       <div class="menu__group desktop-only">
@@ -518,7 +518,44 @@
       </div>
       <button type="button" class="btn btn--ghost btn--block" data-action="native-share" hidden><svg><use href="#i-share"/></svg>Share…</button>
       <p class="hint hint--small">Scan the QR code with your phone’s camera to open your collection there. The link is a snapshot — share a new one after you update your collection.</p>
+      <p class="hint hint--small">Moving to a Home Screen app on iPhone or iPad? Links open in Safari, not the app, so copy the link and paste it into <b>Import backup</b> in the app.</p>
     </div>
+  </div>
+</dialog>
+
+<dialog class="sheet" id="dlg-export" aria-labelledby="export-title">
+  <div class="sheet__inner">
+    <header class="sheet__head">
+      <h2 class="sheet__title" id="export-title">Export backup</h2>
+      <button type="button" class="icon-btn" data-close aria-label="Close"><svg><use href="#i-close"/></svg></button>
+    </header>
+    <div class="sheet__body backup">
+      <p class="hint">This code holds your whole collection, including copy counts. Paste it into <b>Import backup</b> on another device to copy your cards there, including into a Home Screen app.</p>
+      <textarea class="textarea" id="export-code" rows="3" readonly spellcheck="false" aria-label="Sync code"></textarea>
+      <button type="button" class="btn btn--ghost btn--block" data-action="share-code" hidden><svg><use href="#i-share"/></svg>Share code…</button>
+    </div>
+    <footer class="sheet__foot">
+      <button type="button" class="btn btn--ghost" data-action="save-file"><svg><use href="#i-download"/></svg>Save as file</button>
+      <button type="button" class="btn btn--primary" data-action="copy-code" autofocus><svg><use href="#i-copy"/></svg>Copy code</button>
+    </footer>
+  </div>
+</dialog>
+
+<dialog class="sheet" id="dlg-import" aria-labelledby="import-title">
+  <div class="sheet__inner">
+    <header class="sheet__head">
+      <h2 class="sheet__title" id="import-title">Import backup</h2>
+      <button type="button" class="icon-btn" data-close aria-label="Close"><svg><use href="#i-close"/></svg></button>
+    </header>
+    <div class="sheet__body backup">
+      <p class="hint">Paste a sync code from <b>Export backup</b> or a sync link from <b>Share &amp; sync</b>. You can also restore a backup file.</p>
+      <textarea class="textarea" id="import-code" rows="3" placeholder="Paste a code or link" spellcheck="false" autocomplete="off" autocorrect="off" autocapitalize="off" enterkeyhint="go" aria-label="Sync code or link" aria-describedby="import-status"></textarea>
+      <p class="backup__status" id="import-status" aria-live="polite"></p>
+    </div>
+    <footer class="sheet__foot">
+      <button type="button" class="btn btn--ghost" data-action="choose-file"><svg><use href="#i-upload"/></svg>Choose file</button>
+      <button type="button" class="btn btn--primary" id="import-submit" disabled>Import</button>
+    </footer>
   </div>
 </dialog>
 
@@ -613,8 +650,8 @@
       <h3>Keeping your collection safe</h3>
       <ul>
         <li>Your collection is saved <b>only in this browser</b> on this device. Nothing is uploaded.</li>
-        <li>Use <b>Export backup</b> now and then, or a <b>sync link</b> to copy your collection to another device.</li>
-        <li><b>On iPhone and iPad</b>, tap Share → <b>Add to Home Screen</b>. Safari can clear saved data for websites you haven’t visited in a while, but not for apps on your Home Screen, and the app also works offline.</li>
+        <li>Use <b>Export backup</b> now and then to copy a sync code or save a file. <b>Import backup</b> on another device takes the code, a sync link or the file.</li>
+        <li><b>On iPhone and iPad</b>, tap Share → <b>Add to Home Screen</b>. Safari can clear saved data for websites you haven’t visited in a while, but not for apps on your Home Screen, and the app also works offline. The app keeps its own collection, separate from Safari’s, so use <b>Import backup</b> to move your cards into it.</li>
       </ul>
       <p class="hint hint--small">Read the <a href="privacy.html">privacy &amp; cookie policy</a> and <a href="terms.html">terms of use</a>.</p>
     </div>

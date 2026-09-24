@@ -57,6 +57,16 @@ export function shareUrl(counts) {
   return `${location.origin}${location.pathname}#sync=${encodeCollection(counts)}`;
 }
 
+export function parseSyncText(text) {
+  const link = /#sync=([A-Za-z0-9_-]+)/.exec(text);
+  const candidates = link ? [link[1]] : (text.match(/[A-Za-z0-9_-]+/g) || []).sort((a, b) => b.length - a.length);
+  for (const code of candidates) {
+    const counts = decodeCollection(code);
+    if (counts) return { counts, source: link ? 'link' : 'code' };
+  }
+  return null;
+}
+
 let qrLoader = null;
 
 function loadQrLibrary() {
@@ -126,6 +136,7 @@ export function parseBackup(text) {
 }
 
 const sum = (values) => values.reduce((a, b) => a + b, 0);
+const SOURCE_LABELS = { file: 'In the file', link: 'In the link', code: 'In the code' };
 
 export function askIncoming(counts, { source }) {
   const dlg = document.getElementById('dlg-sync');
@@ -133,7 +144,7 @@ export function askIncoming(counts, { source }) {
   const incomingCards = Object.keys(counts).length;
   const incomingCopies = sum(Object.values(counts));
   const currentCopies = sum(CARDS.map((c) => getQty(c.id)));
-  field('source-label').textContent = source === 'file' ? 'In the file' : 'In the link';
+  field('source-label').textContent = SOURCE_LABELS[source];
   field('incoming').textContent = `${incomingCards} / ${CARDS.length}`;
   field('incoming-copies').textContent = `${incomingCopies} cop${incomingCopies === 1 ? 'y' : 'ies'}`;
   field('current').textContent = `${ownedCount()} / ${CARDS.length}`;
@@ -154,5 +165,45 @@ export function askIncoming(counts, { source }) {
       resolve(choice);
     }, { once: true });
     openDialog(dlg);
+  });
+}
+
+export function initImport({ onImport }) {
+  const dlg = document.getElementById('dlg-import');
+  const input = document.getElementById('import-code');
+  const status = document.getElementById('import-status');
+  const submit = document.getElementById('import-submit');
+
+  function render() {
+    const text = input.value.trim();
+    const incoming = parseSyncText(text);
+    let message = '';
+    if (incoming) {
+      const cards = Object.keys(incoming.counts).length;
+      const copies = sum(Object.values(incoming.counts));
+      message = `✓ ${cards} card${cards === 1 ? '' : 's'} · ${copies} cop${copies === 1 ? 'y' : 'ies'}`;
+    } else if (text) {
+      message = 'That isn’t a valid sync code or link.';
+    }
+    status.textContent = message;
+    status.classList.toggle('is-ok', Boolean(incoming));
+    status.classList.toggle('is-bad', Boolean(text) && !incoming);
+    submit.disabled = !incoming;
+  }
+
+  input.addEventListener('input', render);
+  input.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter' && !e.shiftKey) {
+      e.preventDefault();
+      submit.click();
+    }
+  });
+  submit.addEventListener('click', async () => {
+    const incoming = parseSyncText(input.value);
+    if (incoming && await onImport(incoming)) input.value = '';
+  });
+  dlg.addEventListener('dialog:open', () => {
+    render();
+    setTimeout(() => input.focus(), 60);
   });
 }

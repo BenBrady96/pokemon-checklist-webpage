@@ -8,7 +8,9 @@ import { initViewer } from './viewer.js';
 import { initInfo } from './info.js';
 import { compute, percent, renderStats, missingText, duplicatesText } from './stats.js';
 import { initQuickAdd } from './quickadd.js';
-import { shareUrl, renderQr, exportFile, parseBackup, decodeCollection, askIncoming } from './sync.js';
+import {
+  shareUrl, renderQr, exportFile, parseBackup, encodeCollection, decodeCollection, askIncoming, initImport,
+} from './sync.js';
 import { celebrate } from './confetti.js';
 import { initPWA, offlineSupported, countSavedImages, saveImagesOffline } from './pwa.js';
 import {
@@ -30,7 +32,7 @@ const bottombar = document.querySelector('.bottombar');
 
 const DIALOGS = {
   filters: 'dlg-filters', view: 'dlg-view', menu: 'dlg-menu', stats: 'dlg-stats',
-  quickadd: 'dlg-quickadd', share: 'dlg-share', help: 'dlg-help',
+  quickadd: 'dlg-quickadd', share: 'dlg-share', help: 'dlg-help', export: 'dlg-export', import: 'dlg-import',
 };
 const JUMPS = [
   { id: 'main', label: 'Main Set' },
@@ -497,6 +499,11 @@ function prepareShare() {
   document.querySelector('[data-action="native-share"]').hidden = typeof navigator.share !== 'function';
 }
 
+function prepareExport() {
+  document.getElementById('export-code').value = encodeCollection(store.snapshot());
+  document.querySelector('[data-action="share-code"]').hidden = typeof navigator.share !== 'function';
+}
+
 const formatAgo = (ts) => {
   const days = Math.floor((Date.now() - ts) / 86400000);
   return days <= 0 ? 'today' : days === 1 ? 'yesterday' : `${days} days ago`;
@@ -506,7 +513,7 @@ async function prepareMenu() {
   const shown = shownIds().length;
   document.querySelector('[data-shown-count]').textContent = `Applies to the ${shown} card${shown === 1 ? '' : 's'} currently shown`;
   const last = store.getPrefs().lastBackup;
-  document.querySelector('[data-last-backup]').textContent = last ? `Last backup ${formatAgo(last)}` : 'Save your collection as a file';
+  document.querySelector('[data-last-backup]').textContent = last ? `Last backup ${formatAgo(last)}` : 'Copy a code or save a file';
   const item = document.querySelector('[data-offline-item]');
   item.hidden = !offlineSupported();
   if (!item.hidden) {
@@ -575,13 +582,24 @@ const actions = {
     closeDialog(document.getElementById('dlg-menu'));
     bulk(shownIds(), 'clear');
   },
-  export() {
+  async 'copy-code'() {
+    const box = document.getElementById('export-code');
+    const ok = await copyText(box.value);
+    if (ok) store.setPref('lastBackup', Date.now());
+    else box.select();
+    toast(ok ? 'Code copied. Paste it into Import backup on your other device.' : 'Select the code and copy it manually.', { icon: 'i-copy' });
+  },
+  'share-code'() {
+    navigator.share({ text: document.getElementById('export-code').value })
+      .then(() => store.setPref('lastBackup', Date.now()), () => {});
+  },
+  'save-file'() {
     exportFile(store.snapshot());
     store.setPref('lastBackup', Date.now());
-    closeDialog(document.getElementById('dlg-menu'));
+    closeDialog(document.getElementById('dlg-export'));
     toast('Backup saved to your downloads.', { icon: 'i-download' });
   },
-  import() {
+  'choose-file'() {
     document.getElementById('import-file').click();
   },
   'save-offline': saveOffline,
@@ -625,6 +643,7 @@ function openNamed(name) {
   if (!dlg) return;
   if (name === 'stats') document.getElementById('stats-body').innerHTML = renderStats(compute());
   if (name === 'share') prepareShare();
+  if (name === 'export') prepareExport();
   if (name === 'menu') prepareMenu();
   openDialog(dlg);
 }
@@ -814,6 +833,14 @@ function init() {
       if (entry) onCommit(entry, { kind: 'quickadd' });
       else toast('No changes — those cards were already marked that way.');
       return true;
+    },
+  });
+  initImport({
+    async onImport({ counts, source }) {
+      exitPreview({ quiet: true });
+      const choice = await askIncoming(counts, { source });
+      applyIncoming(choice, counts);
+      return Boolean(choice);
     },
   });
 
