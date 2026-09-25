@@ -194,9 +194,12 @@ function collapseDistance() {
   return appbar.offsetHeight + (isDesktop() ? toolbar.offsetHeight : 0);
 }
 
+// Set on the elements that read them: a custom property changed on <html> restyles every card.
 function updateStickyTop() {
-  html.style.setProperty('--topbar-shift', collapsed ? `${-collapseDistance()}px` : '0px');
-  html.style.setProperty('--sticky-top', `${stickyTop()}px`);
+  const shift = collapsed ? `${-collapseDistance()}px` : '0px';
+  const top = `${stickyTop()}px`;
+  topbar.style.setProperty('--topbar-shift', shift);
+  for (const el of [refreshChip, ...root.querySelectorAll('.sec__head')]) el.style.setProperty('--sticky-top', top);
 }
 
 function setCollapsed(value) {
