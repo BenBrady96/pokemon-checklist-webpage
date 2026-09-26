@@ -1,4 +1,5 @@
 import { loadCatalog, collectionUrl } from './catalog.js';
+import { fetchCollection } from './collection.js';
 import { normalize } from './model.js';
 import * as storage from './storage.js';
 import { parseSyncText, parseBackup, askIncoming, initImport, exportFile } from './sync.js';
@@ -22,12 +23,23 @@ function applyTheme() {
 }
 
 const tilesFor = (id) => document.querySelectorAll(`.set-tile[data-id="${CSS.escape(id)}"]`);
+const summaryTried = new Set();
+
+const summaryIsCurrent = (c, summary) => Boolean(summary) && c.tiers.some((t) => t.id === summary.tier && t.count === summary.total);
+
+async function refreshSummaries(ids) {
+  for (const id of ids) summaryTried.add(id);
+  const results = await Promise.allSettled(ids.map(async (id) => storage.refreshSummary(id, await fetchCollection(id))));
+  if (results.some((r) => r.value)) showProgress();
+}
 
 function showProgress() {
   const stored = storage.storedCollections().filter(({ id }) => catalog.collections.some((c) => c.id === id));
+  const stale = [];
   for (const c of catalog.collections) {
     const summary = storage.readRecord(c.id)?.summary;
     const owned = Object.keys(storage.readCounts(c.id)).length;
+    if (owned && !summaryTried.has(c.id) && !summaryIsCurrent(c, summary)) stale.push(c.id);
     for (const tile of tilesFor(c.id)) {
       const progress = tile.querySelector('.set-tile__progress');
       progress.hidden = !owned;
@@ -35,7 +47,9 @@ function showProgress() {
       const total = summary?.total;
       const count = summary ? summary.owned : owned;
       tile.querySelector('.set-tile__count').textContent = total ? `${count}/${total}` : `${plural(owned, 'card', 'cards')}`;
-      tile.querySelector('.bar i').style.setProperty('--p', total ? count / total : 0);
+      const bar = tile.querySelector('.bar');
+      bar.hidden = !total;
+      bar.firstElementChild.style.setProperty('--p', total ? count / total : 0);
       tile.classList.toggle('is-complete', Boolean(total) && count === total);
     }
   }
@@ -44,6 +58,7 @@ function showProgress() {
     return tile ? tile.cloneNode(true) : null;
   }).filter(Boolean));
   continueSection.hidden = !continueGrid.children.length;
+  if (stale.length) refreshSummaries(stale);
 }
 
 function filterSets() {

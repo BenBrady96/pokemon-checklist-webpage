@@ -131,3 +131,12 @@ export function summarise(model, q) {
   for (const card of tier.cards) if (q[card.id] > 0) owned++;
   return { tier: tier.id, owned, total: tier.cards.length };
 }
+
+export function refreshSummary(id, model) {
+  const record = read(collectionKey(id));
+  if (!record?.q || typeof record.q !== 'object') return false;
+  const summary = summarise(model, record.q);
+  const old = record.summary;
+  if (old && old.tier === summary.tier && old.owned === summary.owned && old.total === summary.total) return false;
+  return write(collectionKey(id), { ...record, summary });
+}
