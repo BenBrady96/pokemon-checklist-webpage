@@ -1,0 +1,201 @@
+{
+  "id": "pokemon/sv-energy",
+  "game": "pokemon",
+  "slug": "sv-energy",
+  "name": "Scarlet & Violet Energy",
+  "series": "Scarlet & Violet",
+  "kind": "energy",
+  "code": "SVE",
+  "syncKey": "SVE",
+  "released": "2023-03-31",
+  "printedTotal": null,
+  "defaultTier": "complete",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Basic Energy",
+      "range": "24 cards",
+      "tier": "standard",
+      "display": {
+        "number": "No. {num}"
+      }
+    },
+    {
+      "id": "reverse",
+      "name": "Reverse Holos",
+      "short": "Reverse Holos",
+      "range": "8 cards",
+      "tier": "master"
+    },
+    {
+      "id": "special",
+      "name": "Special Prints",
+      "short": "Special Prints",
+      "range": "stamps, Cosmos Holos & more",
+      "tier": "grand",
+      "display": {
+        "search": "Pokemon {set} {name} {printed} {badge}"
+      }
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Energy"
+    ],
+    [
+      "reverse",
+      "Reverse holos"
+    ],
+    [
+      "special",
+      "Special prints"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-22, 55, R12, 60x2",
+    "example": "1-22, 55x2, R12",
+    "hint": "Separate with commas or spaces. <b>1-22</b> is a range and <b>55x2</b> is two copies. <b>R12</b> is card 12’s reverse holo, and ranges work too (<b>R1-R20</b>). Special prints are marked by tapping them.",
+    "empty": "Cards are numbered 1–24."
+  },
+  "help": {
+    "tiers": "<b>Standard, Master or Grand Master:</b> pick what you’re collecting above the cards. Standard is the 24 cards, Master adds the 8 reverse holos and Grand Master adds the 72 special prints (stamped, Cosmos Holo and other product-exclusive cards). Cards you’ve marked are kept when you switch."
+  },
+  "info": {
+    "packSections": [],
+    "sectionText": {
+      "main": [
+        "<p><b>Basic Energy.</b> These come in Elite Trainer Boxes, theme decks and other products.</p>"
+      ],
+      "reverse": [
+        "<p><b>Reverse holo</b> Basic Energy.</p>"
+      ]
+    }
+  },
+  "seo": {
+    "title": "Pokémon TCG Scarlet & Violet Energy Checklist · All 24 Cards",
+    "description": "Free checklist for the 24 Pokémon TCG Scarlet & Violet Energy and their 72 special prints, with images, copy counts, binder pages and prices. No sign-up needed.",
+    "ogTitle": "Pokémon TCG Scarlet & Violet Energy Checklist",
+    "ogDescription": "Track all 24 Pokémon TCG Scarlet & Violet Energy. Free, no sign-up, works offline."
+  },
+  "about": {
+    "title": "About the Scarlet & Violet Energy",
+    "paragraphs": [
+      "The Scarlet & Violet Energy are the 24 Basic Energy cards printed for the Scarlet & Violet era. For a grand master set there are also 72 special prints (stamped, Cosmos Holo and other product-exclusive cards).",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device."
+    ]
+  },
+  "source": {
+    "tcgdex": "sve",
+    "tcgplayer": [
+      24382
+    ],
+    "serie": "sv"
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"001","code":"1","name":"Basic Grass Energy","rarity":"E","type":"grass","tcg":475425,"idx":0},
+    {"id":"001-normal-player-rewards-program","section":"special","num":"001","printed":"001","code":"","name":"Basic Grass Energy","rarity":"E","img":"001","badge":"Play! Pokémon","variant":"Play! Pokémon","foil":false,"note":"From Play! Pokémon Prize Packs, given out at league events.","type":"grass","tcg":515640,"grp":22880,"idx":1},
+    {"id":"001-reverse-cosmos","section":"special","num":"001","printed":"001","code":"","name":"Basic Grass Energy","rarity":"E","img":"001","badge":"Reverse Cosmos Holo","variant":"Reverse Cosmos Holo","foil":true,"note":"A Cosmos Holo print, from blister packs, collection boxes and other special products.","type":"grass","tcg":517177,"idx":2},
+    {"id":"001-reverse-cosmos-player-rewards-program","section":"special","num":"001","printed":"001","code":"","name":"Basic Grass Energy","rarity":"E","img":"001","badge":"Reverse Cosmos Holo · Play! Pokémon","variant":"Reverse Cosmos Holo · Play! Pokémon","foil":true,"note":"From Play! Pokémon Prize Packs, given out at league events.","type":"grass","tcg":622935,"grp":22880,"idx":3},
+    {"id":"001-reverse-cosmos-professor-program","section":"special","num":"001","printed":"001","code":"","name":"Basic Grass Energy","rarity":"E","img":"001","badge":"Reverse Cosmos Holo · Professor Program","variant":"Reverse Cosmos Holo · Professor Program","foil":true,"note":"Given to Pokémon Professors through the Professor Program.","type":"grass","tcg":599455,"grp":2332,"idx":4},
+    {"id":"002","section":"main","num":"002","printed":"002","code":"2","name":"Basic Fire Energy","rarity":"E","type":"fire","tcg":475426,"idx":5},
+    {"id":"002-normal-player-rewards-program","section":"special","num":"002","printed":"002","code":"","name":"Basic Fire Energy","rarity":"E","img":"002","badge":"Play! Pokémon","variant":"Play! Pokémon","foil":false,"note":"From Play! Pokémon Prize Packs, given out at league events.","type":"fire","tcg":515639,"grp":22880,"idx":6},
+    {"id":"002-reverse-cosmos","section":"special","num":"002","printed":"002","code":"","name":"Basic Fire Energy","rarity":"E","img":"002","badge":"Reverse Cosmos Holo","variant":"Reverse Cosmos Holo","foil":true,"note":"A Cosmos Holo print, from blister packs, collection boxes and other special products.","type":"fire","tcg":517178,"idx":7},
+    {"id":"002-reverse-cosmos-player-rewards-program","section":"special","num":"002","printed":"002","code":"","name":"Basic Fire Energy","rarity":"E","img":"002","badge":"Reverse Cosmos Holo · Play! Pokémon","variant":"Reverse Cosmos Holo · Play! Pokémon","foil":true,"note":"From Play! Pokémon Prize Packs, given out at league events.","type":"fire","tcg":651037,"grp":22880,"idx":8},
+    {"id":"002-reverse-cosmos-professor-program","section":"special","num":"002","printed":"002","code":"","name":"Basic Fire Energy","rarity":"E","img":"002","badge":"Reverse Cosmos Holo · Professor Program","variant":"Reverse Cosmos Holo · Professor Program","foil":true,"note":"Given to Pokémon Professors through the Professor Program.","type":"fire","tcg":599454,"grp":2332,"idx":9},
+    {"id":"003","section":"main","num":"003","printed":"003","code":"3","name":"Basic Water Energy","rarity":"E","type":"water","tcg":475427,"idx":10},
+    {"id":"003-reverse-cosmos","section":"special","num":"003","printed":"003","code":"","name":"Basic Water Energy","rarity":"E","img":"003","badge":"Reverse Cosmos Holo","variant":"Reverse Cosmos Holo","foil":true,"note":"A Cosmos Holo print, from blister packs, collection boxes and other special products.","type":"water","tcg":517179,"idx":11},
+    {"id":"003-normal-player-rewards-program","section":"special","num":"003","printed":"003","code":"","name":"Basic Water Energy","rarity":"E","img":"003","badge":"Play! Pokémon","variant":"Play! Pokémon","foil":false,"note":"From Play! Pokémon Prize Packs, given out at league events.","type":"water","tcg":515644,"grp":22880,"idx":12},
+    {"id":"003-reverse-cosmos-player-rewards-program","section":"special","num":"003","printed":"003","code":"","name":"Basic Water Energy","rarity":"E","img":"003","badge":"Reverse Cosmos Holo · Play! Pokémon","variant":"Reverse Cosmos Holo · Play! Pokémon","foil":true,"note":"From Play! Pokémon Prize Packs, given out at league events.","type":"water","tcg":622937,"grp":22880,"idx":13},
+    {"id":"003-reverse-cosmos-professor-program","section":"special","num":"003","printed":"003","code":"","name":"Basic Water Energy","rarity":"E","img":"003","badge":"Reverse Cosmos Holo · Professor Program","variant":"Reverse Cosmos Holo · Professor Program","foil":true,"note":"Given to Pokémon Professors through the Professor Program.","type":"water","tcg":599458,"grp":2332,"idx":14},
+    {"id":"004","section":"main","num":"004","printed":"004","code":"4","name":"Basic Lightning Energy","rarity":"E","type":"lightning","tcg":475428,"idx":15},
+    {"id":"004-reverse-cosmos","section":"special","num":"004","printed":"004","code":"","name":"Basic Lightning Energy","rarity":"E","img":"004","badge":"Reverse Cosmos Holo","variant":"Reverse Cosmos Holo","foil":true,"note":"A Cosmos Holo print, from blister packs, collection boxes and other special products.","type":"lightning","tcg":517180,"idx":16},
+    {"id":"004-normal-player-rewards-program","section":"special","num":"004","printed":"004","code":"","name":"Basic Lightning Energy","rarity":"E","img":"004","badge":"Play! Pokémon","variant":"Play! Pokémon","foil":false,"note":"From Play! Pokémon Prize Packs, given out at league events.","type":"lightning","tcg":515641,"grp":22880,"idx":17},
+    {"id":"004-reverse-cosmos-player-rewards-program","section":"special","num":"004","printed":"004","code":"","name":"Basic Lightning Energy","rarity":"E","img":"004","badge":"Reverse Cosmos Holo · Play! Pokémon","variant":"Reverse Cosmos Holo · Play! Pokémon","foil":true,"note":"From Play! Pokémon Prize Packs, given out at league events.","type":"lightning","tcg":622938,"grp":22880,"idx":18},
+    {"id":"004-reverse-cosmos-professor-program","section":"special","num":"004","printed":"004","code":"","name":"Basic Lightning Energy","rarity":"E","img":"004","badge":"Reverse Cosmos Holo · Professor Program","variant":"Reverse Cosmos Holo · Professor Program","foil":true,"note":"Given to Pokémon Professors through the Professor Program.","type":"lightning","tcg":599456,"grp":2332,"idx":19},
+    {"id":"005","section":"main","num":"005","printed":"005","code":"5","name":"Basic Psychic Energy","rarity":"E","type":"psychic","tcg":475429,"idx":20},
+    {"id":"005-reverse-cosmos","section":"special","num":"005","printed":"005","code":"","name":"Basic Psychic Energy","rarity":"E","img":"005","badge":"Reverse Cosmos Holo","variant":"Reverse Cosmos Holo","foil":true,"note":"A Cosmos Holo print, from blister packs, collection boxes and other special products.","type":"psychic","tcg":517181,"idx":21},
+    {"id":"005-normal-player-rewards-program","section":"special","num":"005","printed":"005","code":"","name":"Basic Psychic Energy","rarity":"E","img":"005","badge":"Play! Pokémon","variant":"Play! Pokémon","foil":false,"note":"From Play! Pokémon Prize Packs, given out at league events.","type":"psychic","tcg":515643,"grp":22880,"idx":22},
+    {"id":"005-reverse-cosmos-player-rewards-program","section":"special","num":"005","printed":"005","code":"","name":"Basic Psychic Energy","rarity":"E","img":"005","badge":"Reverse Cosmos Holo · Play! Pokémon","variant":"Reverse Cosmos Holo · Play! Pokémon","foil":true,"note":"From Play! Pokémon Prize Packs, given out at league events.","type":"psychic","tcg":622939,"grp":22880,"idx":23},
+    {"id":"005-reverse-cosmos-professor-program","section":"special","num":"005","printed":"005","code":"","name":"Basic Psychic Energy","rarity":"E","img":"005","badge":"Reverse Cosmos Holo · Professor Program","variant":"Reverse Cosmos Holo · Professor Program","foil":true,"note":"Given to Pokémon Professors through the Professor Program.","type":"psychic","tcg":599457,"grp":2332,"idx":24},
+    {"id":"006","section":"main","num":"006","printed":"006","code":"6","name":"Basic Fighting Energy","rarity":"E","type":"fighting","tcg":475430,"idx":25},
+    {"id":"006-reverse-cosmos","section":"special","num":"006","printed":"006","code":"","name":"Basic Fighting Energy","rarity":"E","img":"006","badge":"Reverse Cosmos Holo","variant":"Reverse Cosmos Holo","foil":true,"note":"A Cosmos Holo print, from blister packs, collection boxes and other special products.","type":"fighting","tcg":517182,"idx":26},
+    {"id":"006-normal-player-rewards-program","section":"special","num":"006","printed":"006","code":"","name":"Basic Fighting Energy","rarity":"E","img":"006","badge":"Play! Pokémon","variant":"Play! Pokémon","foil":false,"note":"From Play! Pokémon Prize Packs, given out at league events.","type":"fighting","tcg":515638,"grp":22880,"idx":27},
+    {"id":"006-reverse-cosmos-player-rewards-program","section":"special","num":"006","printed":"006","code":"","name":"Basic Fighting Energy","rarity":"E","img":"006","badge":"Reverse Cosmos Holo · Play! Pokémon","variant":"Reverse Cosmos Holo · Play! Pokémon","foil":true,"note":"From Play! Pokémon Prize Packs, given out at league events.","type":"fighting","tcg":622940,"grp":22880,"idx":28},
+    {"id":"006-reverse-cosmos-professor-program","section":"special","num":"006","printed":"006","code":"","name":"Basic Fighting Energy","rarity":"E","img":"006","badge":"Reverse Cosmos Holo · Professor Program","variant":"Reverse Cosmos Holo · Professor Program","foil":true,"note":"Given to Pokémon Professors through the Professor Program.","type":"fighting","tcg":599453,"grp":2332,"idx":29},
+    {"id":"007","section":"main","num":"007","printed":"007","code":"7","name":"Basic Darkness Energy","rarity":"E","type":"darkness","tcg":475431,"idx":30},
+    {"id":"007-reverse-cosmos","section":"special","num":"007","printed":"007","code":"","name":"Basic Darkness Energy","rarity":"E","img":"007","badge":"Reverse Cosmos Holo","variant":"Reverse Cosmos Holo","foil":true,"note":"A Cosmos Holo print, from blister packs, collection boxes and other special products.","type":"darkness","tcg":517183,"idx":31},
+    {"id":"007-normal-player-rewards-program","section":"special","num":"007","printed":"007","code":"","name":"Basic Darkness Energy","rarity":"E","img":"007","badge":"Play! Pokémon","variant":"Play! Pokémon","foil":false,"note":"From Play! Pokémon Prize Packs, given out at league events.","type":"darkness","tcg":515635,"grp":22880,"idx":32},
+    {"id":"007-reverse-cosmos-player-rewards-program","section":"special","num":"007","printed":"007","code":"","name":"Basic Darkness Energy","rarity":"E","img":"007","badge":"Reverse Cosmos Holo · Play! Pokémon","variant":"Reverse Cosmos Holo · Play! Pokémon","foil":true,"note":"From Play! Pokémon Prize Packs, given out at league events.","type":"darkness","tcg":622941,"grp":22880,"idx":33},
+    {"id":"007-reverse-cosmos-professor-program","section":"special","num":"007","printed":"007","code":"","name":"Basic Darkness Energy","rarity":"E","img":"007","badge":"Reverse Cosmos Holo · Professor Program","variant":"Reverse Cosmos Holo · Professor Program","foil":true,"note":"Given to Pokémon Professors through the Professor Program.","type":"darkness","tcg":599460,"grp":2332,"idx":34},
+    {"id":"008","section":"main","num":"008","printed":"008","code":"8","name":"Basic Metal Energy","rarity":"E","type":"metal","tcg":475432,"idx":35},
+    {"id":"008-reverse-cosmos","section":"special","num":"008","printed":"008","code":"","name":"Basic Metal Energy","rarity":"E","img":"008","badge":"Reverse Cosmos Holo","variant":"Reverse Cosmos Holo","foil":true,"note":"A Cosmos Holo print, from blister packs, collection boxes and other special products.","type":"metal","tcg":517184,"idx":36},
+    {"id":"008-normal-player-rewards-program","section":"special","num":"008","printed":"008","code":"","name":"Basic Metal Energy","rarity":"E","img":"008","badge":"Play! Pokémon","variant":"Play! Pokémon","foil":false,"note":"From Play! Pokémon Prize Packs, given out at league events.","type":"metal","tcg":515642,"grp":22880,"idx":37},
+    {"id":"008-reverse-cosmos-player-rewards-program","section":"special","num":"008","printed":"008","code":"","name":"Basic Metal Energy","rarity":"E","img":"008","badge":"Reverse Cosmos Holo · Play! Pokémon","variant":"Reverse Cosmos Holo · Play! Pokémon","foil":true,"note":"From Play! Pokémon Prize Packs, given out at league events.","type":"metal","tcg":622942,"grp":22880,"idx":38},
+    {"id":"008-reverse-cosmos-professor-program","section":"special","num":"008","printed":"008","code":"","name":"Basic Metal Energy","rarity":"E","img":"008","badge":"Reverse Cosmos Holo · Professor Program","variant":"Reverse Cosmos Holo · Professor Program","foil":true,"note":"Given to Pokémon Professors through the Professor Program.","type":"metal","tcg":599459,"grp":2332,"idx":39},
+    {"id":"009","section":"main","num":"009","printed":"009","code":"9","name":"Basic Grass Energy","rarity":"E","type":"grass","tcg":578864,"idx":40},
+    {"id":"009-reverse-cracked-ice","section":"special","num":"009","printed":"009","code":"","name":"Basic Grass Energy","rarity":"E","img":"009","badge":"Reverse Cracked Ice Holo","variant":"Reverse Cracked Ice Holo","foil":true,"note":"A Cracked Ice Holo print, from special products.","type":"grass","tcg":599740,"idx":41},
+    {"id":"009-normal-player-rewards-program","section":"special","num":"009","printed":"009","code":"","name":"Basic Grass Energy","rarity":"E","img":"009","badge":"Play! Pokémon","variant":"Play! Pokémon","foil":false,"note":"From Play! Pokémon Prize Packs, given out at league events.","type":"grass","tcg":623649,"grp":22880,"idx":42},
+    {"id":"009-reverse-cosmos-player-rewards-program","section":"special","num":"009","printed":"009","code":"","name":"Basic Grass Energy","rarity":"E","img":"009","badge":"Reverse Cosmos Holo · Play! Pokémon","variant":"Reverse Cosmos Holo · Play! Pokémon","foil":true,"note":"From Play! Pokémon Prize Packs, given out at league events.","type":"grass","tcg":651098,"grp":22880,"idx":43},
+    {"id":"009-reverse-cosmos-professor-program","section":"special","num":"009","printed":"009","code":"","name":"Basic Grass Energy","rarity":"E","img":"009","badge":"Reverse Cosmos Holo · Professor Program","variant":"Reverse Cosmos Holo · Professor Program","foil":true,"note":"Given to Pokémon Professors through the Professor Program.","type":"grass","idx":44},
+    {"id":"010","section":"main","num":"010","printed":"010","code":"10","name":"Basic Fire Energy","rarity":"E","type":"fire","tcg":578863,"idx":45},
+    {"id":"010-reverse-cracked-ice","section":"special","num":"010","printed":"010","code":"","name":"Basic Fire Energy","rarity":"E","img":"010","badge":"Reverse Cracked Ice Holo","variant":"Reverse Cracked Ice Holo","foil":true,"note":"A Cracked Ice Holo print, from special products.","type":"fire","tcg":599738,"idx":46},
+    {"id":"010-normal-player-rewards-program","section":"special","num":"010","printed":"010","code":"","name":"Basic Fire Energy","rarity":"E","img":"010","badge":"Play! Pokémon","variant":"Play! Pokémon","foil":false,"note":"From Play! Pokémon Prize Packs, given out at league events.","type":"fire","tcg":623650,"grp":22880,"idx":47},
+    {"id":"010-reverse-cosmos-player-rewards-program","section":"special","num":"010","printed":"010","code":"","name":"Basic Fire Energy","rarity":"E","img":"010","badge":"Reverse Cosmos Holo · Play! Pokémon","variant":"Reverse Cosmos Holo · Play! Pokémon","foil":true,"note":"From Play! Pokémon Prize Packs, given out at league events.","type":"fire","tcg":651037,"grp":22880,"idx":48},
+    {"id":"010-reverse-cosmos-professor-program","section":"special","num":"010","printed":"010","code":"","name":"Basic Fire Energy","rarity":"E","img":"010","badge":"Reverse Cosmos Holo · Professor Program","variant":"Reverse Cosmos Holo · Professor Program","foil":true,"note":"Given to Pokémon Professors through the Professor Program.","type":"fire","idx":49},
+    {"id":"011","section":"main","num":"011","printed":"011","code":"11","name":"Basic Water Energy","rarity":"E","type":"water","tcg":578862,"idx":50},
+    {"id":"011-reverse-cracked-ice","section":"special","num":"011","printed":"011","code":"","name":"Basic Water Energy","rarity":"E","img":"011","badge":"Reverse Cracked Ice Holo","variant":"Reverse Cracked Ice Holo","foil":true,"note":"A Cracked Ice Holo print, from special products.","type":"water","tcg":599745,"idx":51},
+    {"id":"011-normal-player-rewards-program","section":"special","num":"011","printed":"011","code":"","name":"Basic Water Energy","rarity":"E","img":"011","badge":"Play! Pokémon","variant":"Play! Pokémon","foil":false,"note":"From Play! Pokémon Prize Packs, given out at league events.","type":"water","tcg":623651,"grp":22880,"idx":52},
+    {"id":"011-reverse-cosmos-player-rewards-program","section":"special","num":"011","printed":"011","code":"","name":"Basic Water Energy","rarity":"E","img":"011","badge":"Reverse Cosmos Holo · Play! Pokémon","variant":"Reverse Cosmos Holo · Play! Pokémon","foil":true,"note":"From Play! Pokémon Prize Packs, given out at league events.","type":"water","tcg":651115,"grp":22880,"idx":53},
+    {"id":"011-reverse-cosmos-professor-program","section":"special","num":"011","printed":"011","code":"","name":"Basic Water Energy","rarity":"E","img":"011","badge":"Reverse Cosmos Holo · Professor Program","variant":"Reverse Cosmos Holo · Professor Program","foil":true,"note":"Given to Pokémon Professors through the Professor Program.","type":"water","idx":54},
+    {"id":"012","section":"main","num":"012","printed":"012","code":"12","name":"Basic Lightning Energy","rarity":"E","type":"lightning","tcg":578866,"idx":55},
+    {"id":"012-reverse-cracked-ice","section":"special","num":"012","printed":"012","code":"","name":"Basic Lightning Energy","rarity":"E","img":"012","badge":"Reverse Cracked Ice Holo","variant":"Reverse Cracked Ice Holo","foil":true,"note":"A Cracked Ice Holo print, from special products.","type":"lightning","tcg":599741,"idx":56},
+    {"id":"012-normal-player-rewards-program","section":"special","num":"012","printed":"012","code":"","name":"Basic Lightning Energy","rarity":"E","img":"012","badge":"Play! Pokémon","variant":"Play! Pokémon","foil":false,"note":"From Play! Pokémon Prize Packs, given out at league events.","type":"lightning","tcg":623652,"grp":22880,"idx":57},
+    {"id":"012-reverse-cosmos-player-rewards-program","section":"special","num":"012","printed":"012","code":"","name":"Basic Lightning Energy","rarity":"E","img":"012","badge":"Reverse Cosmos Holo · Play! Pokémon","variant":"Reverse Cosmos Holo · Play! Pokémon","foil":true,"note":"From Play! Pokémon Prize Packs, given out at league events.","type":"lightning","tcg":651100,"grp":22880,"idx":58},
+    {"id":"012-reverse-cosmos-professor-program","section":"special","num":"012","printed":"012","code":"","name":"Basic Lightning Energy","rarity":"E","img":"012","badge":"Reverse Cosmos Holo · Professor Program","variant":"Reverse Cosmos Holo · Professor Program","foil":true,"note":"Given to Pokémon Professors through the Professor Program.","type":"lightning","idx":59},
+    {"id":"013","section":"main","num":"013","printed":"013","code":"13","name":"Basic Psychic Energy","rarity":"E","type":"psychic","tcg":578865,"idx":60},
+    {"id":"013-reverse-cracked-ice","section":"special","num":"013","printed":"013","code":"","name":"Basic Psychic Energy","rarity":"E","img":"013","badge":"Reverse Cracked Ice Holo","variant":"Reverse Cracked Ice Holo","foil":true,"note":"A Cracked Ice Holo print, from special products.","type":"psychic","tcg":599743,"idx":61},
+    {"id":"013-normal-player-rewards-program","section":"special","num":"013","printed":"013","code":"","name":"Basic Psychic Energy","rarity":"E","img":"013","badge":"Play! Pokémon","variant":"Play! Pokémon","foil":false,"note":"From Play! Pokémon Prize Packs, given out at league events.","type":"psychic","tcg":623653,"grp":22880,"idx":62},
+    {"id":"013-reverse-cosmos-player-rewards-program","section":"special","num":"013","printed":"013","code":"","name":"Basic Psychic Energy","rarity":"E","img":"013","badge":"Reverse Cosmos Holo · Play! Pokémon","variant":"Reverse Cosmos Holo · Play! Pokémon","foil":true,"note":"From Play! Pokémon Prize Packs, given out at league events.","type":"psychic","tcg":651109,"grp":22880,"idx":63},
+    {"id":"013-reverse-cosmos-professor-program","section":"special","num":"013","printed":"013","code":"","name":"Basic Psychic Energy","rarity":"E","img":"013","badge":"Reverse Cosmos Holo · Professor Program","variant":"Reverse Cosmos Holo · Professor Program","foil":true,"note":"Given to Pokémon Professors through the Professor Program.","type":"psychic","idx":64},
+    {"id":"014","section":"main","num":"014","printed":"014","code":"14","name":"Basic Fighting Energy","rarity":"E","type":"fighting","tcg":578867,"idx":65},
+    {"id":"014-reverse-cracked-ice","section":"special","num":"014","printed":"014","code":"","name":"Basic Fighting Energy","rarity":"E","img":"014","badge":"Reverse Cracked Ice Holo","variant":"Reverse Cracked Ice Holo","foil":true,"note":"A Cracked Ice Holo print, from special products.","type":"fighting","tcg":599746,"idx":66},
+    {"id":"014-normal-player-rewards-program","section":"special","num":"014","printed":"014","code":"","name":"Basic Fighting Energy","rarity":"E","img":"014","badge":"Play! Pokémon","variant":"Play! Pokémon","foil":false,"note":"From Play! Pokémon Prize Packs, given out at league events.","type":"fighting","tcg":623654,"grp":22880,"idx":67},
+    {"id":"014-reverse-cosmos-player-rewards-program","section":"special","num":"014","printed":"014","code":"","name":"Basic Fighting Energy","rarity":"E","img":"014","badge":"Reverse Cosmos Holo · Play! Pokémon","variant":"Reverse Cosmos Holo · Play! Pokémon","foil":true,"note":"From Play! Pokémon Prize Packs, given out at league events.","type":"fighting","tcg":651096,"grp":22880,"idx":68},
+    {"id":"014-reverse-cosmos-professor-program","section":"special","num":"014","printed":"014","code":"","name":"Basic Fighting Energy","rarity":"E","img":"014","badge":"Reverse Cosmos Holo · Professor Program","variant":"Reverse Cosmos Holo · Professor Program","foil":true,"note":"Given to Pokémon Professors through the Professor Program.","type":"fighting","idx":69},
+    {"id":"015","section":"main","num":"015","printed":"015","code":"15","name":"Basic Darkness Energy","rarity":"E","type":"darkness","tcg":578868,"idx":70},
+    {"id":"015-reverse-cracked-ice","section":"special","num":"015","printed":"015","code":"","name":"Basic Darkness Energy","rarity":"E","img":"015","badge":"Reverse Cracked Ice Holo","variant":"Reverse Cracked Ice Holo","foil":true,"note":"A Cracked Ice Holo print, from special products.","type":"darkness","tcg":599747,"idx":71},
+    {"id":"015-normal-player-rewards-program","section":"special","num":"015","printed":"015","code":"","name":"Basic Darkness Energy","rarity":"E","img":"015","badge":"Play! Pokémon","variant":"Play! Pokémon","foil":false,"note":"From Play! Pokémon Prize Packs, given out at league events.","type":"darkness","tcg":623655,"grp":22880,"idx":72},
+    {"id":"015-reverse-cosmos-player-rewards-program","section":"special","num":"015","printed":"015","code":"","name":"Basic Darkness Energy","rarity":"E","img":"015","badge":"Reverse Cosmos Holo · Play! Pokémon","variant":"Reverse Cosmos Holo · Play! Pokémon","foil":true,"note":"From Play! Pokémon Prize Packs, given out at league events.","type":"darkness","tcg":651036,"grp":22880,"idx":73},
+    {"id":"015-reverse-cosmos-professor-program","section":"special","num":"015","printed":"015","code":"","name":"Basic Darkness Energy","rarity":"E","img":"015","badge":"Reverse Cosmos Holo · Professor Program","variant":"Reverse Cosmos Holo · Professor Program","foil":true,"note":"Given to Pokémon Professors through the Professor Program.","type":"darkness","idx":74},
+    {"id":"016","section":"main","num":"016","printed":"016","code":"16","name":"Basic Metal Energy","rarity":"E","type":"metal","tcg":578869,"idx":75},
+    {"id":"016-reverse-cracked-ice","section":"special","num":"016","printed":"016","code":"","name":"Basic Metal Energy","rarity":"E","img":"016","badge":"Reverse Cracked Ice Holo","variant":"Reverse Cracked Ice Holo","foil":true,"note":"A Cracked Ice Holo print, from special products.","type":"metal","tcg":599742,"idx":76},
+    {"id":"016-normal-player-rewards-program","section":"special","num":"016","printed":"016","code":"","name":"Basic Metal Energy","rarity":"E","img":"016","badge":"Play! Pokémon","variant":"Play! Pokémon","foil":false,"note":"From Play! Pokémon Prize Packs, given out at league events.","type":"metal","tcg":627701,"grp":22880,"idx":77},
+    {"id":"016-reverse-cosmos-player-rewards-program","section":"special","num":"016","printed":"016","code":"","name":"Basic Metal Energy","rarity":"E","img":"016","badge":"Reverse Cosmos Holo · Play! Pokémon","variant":"Reverse Cosmos Holo · Play! Pokémon","foil":true,"note":"From Play! Pokémon Prize Packs, given out at league events.","type":"metal","tcg":651102,"grp":22880,"idx":78},
+    {"id":"016-reverse-cosmos-professor-program","section":"special","num":"016","printed":"016","code":"","name":"Basic Metal Energy","rarity":"E","img":"016","badge":"Reverse Cosmos Holo · Professor Program","variant":"Reverse Cosmos Holo · Professor Program","foil":true,"note":"Given to Pokémon Professors through the Professor Program.","type":"metal","idx":79},
+    {"id":"017","section":"main","num":"017","printed":"017","code":"17","name":"Basic Grass Energy","rarity":"E","type":"grass","tcg":645286,"idx":80},
+    {"id":"017-rh","section":"reverse","num":"017","printed":"017","code":"R17","name":"Basic Grass Energy","rarity":"E","img":"017","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":645286,"sub":"Reverse Holofoil","type":"grass","idx":81},
+    {"id":"017-reverse-tinsel","section":"special","num":"017","printed":"017","code":"","name":"Basic Grass Energy","rarity":"E","img":"017","badge":"Reverse Tinsel Holo","variant":"Reverse Tinsel Holo","foil":true,"note":"A Tinsel Holo print, from special products.","type":"grass","idx":82},
+    {"id":"018","section":"main","num":"018","printed":"018","code":"18","name":"Basic Fire Energy","rarity":"E","type":"fire","tcg":645287,"idx":83},
+    {"id":"018-rh","section":"reverse","num":"018","printed":"018","code":"R18","name":"Basic Fire Energy","rarity":"E","img":"018","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":645287,"sub":"Reverse Holofoil","type":"fire","idx":84},
+    {"id":"018-reverse-tinsel","section":"special","num":"018","printed":"018","code":"","name":"Basic Fire Energy","rarity":"E","img":"018","badge":"Reverse Tinsel Holo","variant":"Reverse Tinsel Holo","foil":true,"note":"A Tinsel Holo print, from special products.","type":"fire","idx":85},
+    {"id":"019","section":"main","num":"019","printed":"019","code":"19","name":"Basic Water Energy","rarity":"E","type":"water","tcg":645288,"idx":86},
+    {"id":"019-rh","section":"reverse","num":"019","printed":"019","code":"R19","name":"Basic Water Energy","rarity":"E","img":"019","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":645288,"sub":"Reverse Holofoil","type":"water","idx":87},
+    {"id":"019-reverse-tinsel","section":"special","num":"019","printed":"019","code":"","name":"Basic Water Energy","rarity":"E","img":"019","badge":"Reverse Tinsel Holo","variant":"Reverse Tinsel Holo","foil":true,"note":"A Tinsel Holo print, from special products.","type":"water","idx":88},
+    {"id":"020","section":"main","num":"020","printed":"020","code":"20","name":"Basic Lightning Energy","rarity":"E","type":"lightning","tcg":645289,"idx":89},
+    {"id":"020-rh","section":"reverse","num":"020","printed":"020","code":"R20","name":"Basic Lightning Energy","rarity":"E","img":"020","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":645289,"sub":"Reverse Holofoil","type":"lightning","idx":90},
+    {"id":"020-reverse-tinsel","section":"special","num":"020","printed":"020","code":"","name":"Basic Lightning Energy","rarity":"E","img":"020","badge":"Reverse Tinsel Holo","variant":"Reverse Tinsel Holo","foil":true,"note":"A Tinsel Holo print, from special products.","type":"lightning","idx":91},
+    {"id":"021","section":"main","num":"021","printed":"021","code":"21","name":"Basic Psychic Energy","rarity":"E","type":"psychic","tcg":645301,"idx":92},
+    {"id":"021-rh","section":"reverse","num":"021","printed":"021","code":"R21","name":"Basic Psychic Energy","rarity":"E","img":"021","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":645301,"sub":"Reverse Holofoil","type":"psychic","idx":93},
+    {"id":"021-reverse-tinsel","section":"special","num":"021","printed":"021","code":"","name":"Basic Psychic Energy","rarity":"E","img":"021","badge":"Reverse Tinsel Holo","variant":"Reverse Tinsel Holo","foil":true,"note":"A Tinsel Holo print, from special products.","type":"psychic","idx":94},
+    {"id":"022","section":"main","num":"022","printed":"022","code":"22","name":"Basic Fighting Energy","rarity":"E","type":"fighting","tcg":645302,"idx":95},
+    {"id":"022-rh","section":"reverse","num":"022","printed":"022","code":"R22","name":"Basic Fighting Energy","rarity":"E","img":"022","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":645302,"sub":"Reverse Holofoil","type":"fighting","idx":96},
+    {"id":"022-reverse-tinsel","section":"special","num":"022","printed":"022","code":"","name":"Basic Fighting Energy","rarity":"E","img":"022","badge":"Reverse Tinsel Holo","variant":"Reverse Tinsel Holo","foil":true,"note":"A Tinsel Holo print, from special products.","type":"fighting","idx":97},
+    {"id":"023","section":"main","num":"023","printed":"023","code":"23","name":"Basic Darkness Energy","rarity":"E","type":"darkness","tcg":645303,"idx":98},
+    {"id":"023-rh","section":"reverse","num":"023","printed":"023","code":"R23","name":"Basic Darkness Energy","rarity":"E","img":"023","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":645303,"sub":"Reverse Holofoil","type":"darkness","idx":99},
+    {"id":"023-reverse-tinsel","section":"special","num":"023","printed":"023","code":"","name":"Basic Darkness Energy","rarity":"E","img":"023","badge":"Reverse Tinsel Holo","variant":"Reverse Tinsel Holo","foil":true,"note":"A Tinsel Holo print, from special products.","type":"darkness","idx":100},
+    {"id":"024","section":"main","num":"024","printed":"024","code":"24","name":"Basic Metal Energy","rarity":"E","type":"metal","tcg":645304,"idx":101},
+    {"id":"024-rh","section":"reverse","num":"024","printed":"024","code":"R24","name":"Basic Metal Energy","rarity":"E","img":"024","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":645304,"sub":"Reverse Holofoil","type":"metal","idx":102},
+    {"id":"024-reverse-tinsel","section":"special","num":"024","printed":"024","code":"","name":"Basic Metal Energy","rarity":"E","img":"024","badge":"Reverse Tinsel Holo","variant":"Reverse Tinsel Holo","foil":true,"note":"A Tinsel Holo print, from special products.","type":"metal","idx":103}
+  ]
+}

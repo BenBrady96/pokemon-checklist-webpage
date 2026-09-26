@@ -1,72 +1,25 @@
-import { CARDS, CARD_BY_ID } from './cards.js';
+import { COLLECTION, CARDS, CARD_BY_ID, getTier } from './collection.js';
+import * as storage from './storage.js';
 
-const DATA_KEY = 'p30c:v1';
-const PREFS_KEY = 'p30c:prefs:v1';
-export const MAX_QTY = 99;
+const ID = COLLECTION.id;
+const DATA_KEY = storage.collectionKey(ID);
 const UNDO_LIMIT = 50;
 
-const DEFAULT_PREFS = {
-  view: 'grid',
-  images: true,
-  size: 'm',
-  mode: 'check',
-  sort: 'set',
-  pockets: 9,
-  tier: 'master',
-  dim: true,
-  theme: 'system',
-  tipSeen: false,
-  lastBackup: 0,
-};
-
-let storageOk = true;
-
-function read(key) {
-  try {
-    const raw = localStorage.getItem(key);
-    return raw ? JSON.parse(raw) : null;
-  } catch {
-    return null;
-  }
-}
-
-function write(key, value) {
-  try {
-    localStorage.setItem(key, JSON.stringify(value));
-    return true;
-  } catch {
-    storageOk = false;
-    return false;
-  }
-}
-
-try {
-  localStorage.setItem('p30c:probe', '1');
-  localStorage.removeItem('p30c:probe');
-} catch {
-  storageOk = false;
-}
-
-export const isStorageOk = () => storageOk;
-
-export const clampQty = (n) => Math.max(0, Math.min(MAX_QTY, Math.floor(Number(n) || 0)));
+export const { MAX_QTY, clampQty, isStorageOk } = storage;
 
 const qty = new Map();
 
 function loadQty() {
   qty.clear();
-  const q = read(DATA_KEY)?.q;
-  if (!q || typeof q !== 'object') return;
-  for (const [id, n] of Object.entries(q)) {
-    const v = clampQty(n);
-    if (v > 0 && CARD_BY_ID.has(id)) qty.set(id, v);
+  for (const [id, n] of Object.entries(storage.readCounts(ID))) {
+    if (CARD_BY_ID.has(id)) qty.set(id, n);
   }
 }
 
 function persist() {
-  const q = {};
-  for (const card of CARDS) if (qty.has(card.id)) q[card.id] = qty.get(card.id);
-  write(DATA_KEY, { v: 1, q, updated: Date.now() });
+  const counts = {};
+  for (const card of CARDS) if (qty.has(card.id)) counts[card.id] = qty.get(card.id);
+  storage.writeCounts(ID, counts, COLLECTION);
 }
 
 let preview = null;
@@ -162,6 +115,8 @@ export function redo() {
   return entry;
 }
 
+export const lastEntry = () => undoStack[undoStack.length - 1] || null;
+
 export function update(changes) {
   begin();
   for (const [id, value] of changes) set(id, value);
@@ -213,22 +168,35 @@ export function exitPreview() {
   emit(null, { source: 'preview' });
 }
 
-let prefs = { ...DEFAULT_PREFS, ...(read(PREFS_KEY) || {}) };
-const prefListeners = new Set();
+let prefsSource = null;
+let prefsView = null;
 
-export const getPrefs = () => prefs;
+export function getPrefs() {
+  const p = storage.getPrefs();
+  if (p !== prefsSource) {
+    prefsSource = p;
+    prefsView = { ...p, tier: getTier(p.tiers[ID]).id };
+  }
+  return prefsView;
+}
 
 export function setPref(key, value) {
-  if (prefs[key] === value) return;
-  prefs = { ...prefs, [key]: value };
-  write(PREFS_KEY, prefs);
-  for (const fn of prefListeners) fn(key, value);
+  if (key !== 'tier') {
+    storage.setPref(key, value);
+    return;
+  }
+  const tiers = storage.getPrefs().tiers;
+  if (tiers[ID] === value) return;
+  storage.setPref('tiers', { ...tiers, [ID]: value });
 }
 
 export function onPrefChange(fn) {
-  prefListeners.add(fn);
-  return () => prefListeners.delete(fn);
+  return storage.onPrefChange((key, value) => fn(key === 'tiers' ? 'tier' : key, value));
 }
+
+storage.onPrefChange((key) => {
+  if (key === 'tiers' && qty.size) persist();
+});
 
 let persistRequested = false;
 
@@ -247,3 +215,4 @@ window.addEventListener('storage', (e) => {
 });
 
 loadQty();
+if (storage.getPrefs().lastCollection !== ID) storage.setPref('lastCollection', ID);

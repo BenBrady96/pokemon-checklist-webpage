@@ -1,78 +1,19 @@
-import { CARDS, CARD_BY_ID } from './cards.js';
-import { clampQty, getQty, ownedCount, MAX_QTY } from './store.js';
+import { asset } from './paths.js';
+import { codeSize, copiesOf, parseSyncText } from './codec.js';
 import { openDialog, closeDialog } from './ui.js';
 
-const VERSION = 1;
+export {
+  encodeCollection, decodeCode, resolveCode, codeSize, parseSyncText, parseBackup, copiesOf,
+} from './codec.js';
 
-function toBase64Url(bytes) {
-  let bin = '';
-  for (const b of bytes) bin += String.fromCharCode(b);
-  return btoa(bin).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
-}
-
-function fromBase64Url(text) {
-  try {
-    const bin = atob(text.replace(/-/g, '+').replace(/_/g, '/') + '==='.slice((text.length + 3) % 4));
-    return Uint8Array.from(bin, (c) => c.charCodeAt(0));
-  } catch {
-    return null;
-  }
-}
-
-export function encodeCollection(counts) {
-  const n = CARDS.length;
-  const bits = new Uint8Array(Math.ceil(n / 8));
-  const extras = [];
-  CARDS.forEach((card, i) => {
-    const q = clampQty(counts[card.id]);
-    if (q > 0) bits[i >> 3] |= 1 << (i & 7);
-    if (q > 1) extras.push(i, Math.min(q, 255));
-  });
-  const bytes = new Uint8Array(2 + bits.length + extras.length);
-  bytes[0] = VERSION;
-  bytes[1] = n;
-  bytes.set(bits, 2);
-  bytes.set(extras, 2 + bits.length);
-  return toBase64Url(bytes);
-}
-
-export function decodeCollection(code) {
-  const bytes = fromBase64Url(code);
-  if (!bytes || bytes.length < 2 || bytes[0] !== VERSION) return null;
-  const n = bytes[1];
-  const bitLength = Math.ceil(n / 8);
-  if (bytes.length < 2 + bitLength || (bytes.length - 2 - bitLength) % 2) return null;
-  const counts = {};
-  for (let i = 0; i < n && i < CARDS.length; i++) {
-    if (bytes[2 + (i >> 3)] & (1 << (i & 7))) counts[CARDS[i].id] = 1;
-  }
-  for (let j = 2 + bitLength; j < bytes.length; j += 2) {
-    const card = CARDS[bytes[j]];
-    if (card && counts[card.id]) counts[card.id] = Math.min(Math.max(bytes[j + 1], 1), MAX_QTY);
-  }
-  return counts;
-}
-
-export function shareUrl(counts) {
-  return `${location.origin}${location.pathname}#sync=${encodeCollection(counts)}`;
-}
-
-export function parseSyncText(text) {
-  const link = /#sync=([A-Za-z0-9_-]+)/.exec(text);
-  const candidates = link ? [link[1]] : (text.match(/[A-Za-z0-9_-]+/g) || []).sort((a, b) => b.length - a.length);
-  for (const code of candidates) {
-    const counts = decodeCollection(code);
-    if (counts) return { counts, source: link ? 'link' : 'code' };
-  }
-  return null;
-}
+export const shareUrl = (collectionId, code) => `${asset(`${collectionId}/`)}#sync=${code}`;
 
 let qrLoader = null;
 
 function loadQrLibrary() {
   qrLoader ||= new Promise((resolve, reject) => {
     const script = document.createElement('script');
-    script.src = 'js/vendor/qrcode.js';
+    script.src = asset('js/vendor/qrcode.js');
     script.onload = () => resolve(window.qrcode);
     script.onerror = () => {
       qrLoader = null;
@@ -100,56 +41,55 @@ export async function renderQr(container, text) {
   }
 }
 
-export function exportFile(counts) {
+export function exportFile(collections) {
   const data = {
-    app: '30th-celebration-checklist',
-    version: 1,
+    app: 'binder-tracker',
+    version: 2,
     exported: new Date().toISOString(),
-    cards: counts,
+    collections: Object.fromEntries(Object.entries(collections).map(([id, cards]) => [id, { cards }])),
   };
   const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
   const url = URL.createObjectURL(blob);
   const a = document.createElement('a');
   a.href = url;
-  a.download = `30th-celebration-collection-${new Date().toISOString().slice(0, 10)}.json`;
+  a.download = `binder-tracker-backup-${new Date().toISOString().slice(0, 10)}.json`;
   document.body.append(a);
   a.click();
   a.remove();
   setTimeout(() => URL.revokeObjectURL(url), 5000);
 }
 
-export function parseBackup(text) {
-  let data;
-  try {
-    data = JSON.parse(text);
-  } catch {
-    return null;
-  }
-  const cards = data?.cards ?? data?.q;
-  if (!cards || typeof cards !== 'object' || Array.isArray(cards)) return null;
-  const counts = {};
-  for (const [id, n] of Object.entries(cards)) {
-    const q = clampQty(n);
-    if (q > 0 && CARD_BY_ID.has(id)) counts[id] = q;
-  }
-  return counts;
-}
-
 const sum = (values) => values.reduce((a, b) => a + b, 0);
+const plural = (n, one, many) => `${n} ${n === 1 ? one : many}`;
+
 const SOURCE_LABELS = { file: 'In the file', link: 'In the link', code: 'In the code' };
 
-export function askIncoming(counts, { source }) {
+export function askIncoming({ source, single, multi }) {
   const dlg = document.getElementById('dlg-sync');
   const field = (name) => dlg.querySelector(`[data-sync="${name}"]`);
-  const incomingCards = Object.keys(counts).length;
-  const incomingCopies = sum(Object.values(counts));
-  const currentCopies = sum(CARDS.map((c) => getQty(c.id)));
   field('source-label').textContent = SOURCE_LABELS[source];
-  field('incoming').textContent = `${incomingCards} / ${CARDS.length}`;
-  field('incoming-copies').textContent = `${incomingCopies} cop${incomingCopies === 1 ? 'y' : 'ies'}`;
-  field('current').textContent = `${ownedCount()} / ${CARDS.length}`;
-  field('current-copies').textContent = `${currentCopies} cop${currentCopies === 1 ? 'y' : 'ies'}`;
-  dlg.querySelector('[data-sync-choice="view"]').hidden = source === 'file';
+  const names = field('names');
+  if (single) {
+    const incoming = Object.keys(single.incoming).length;
+    const current = Object.keys(single.current).length;
+    field('incoming').textContent = `${incoming} / ${single.total}`;
+    field('incoming-copies').textContent = plural(copiesOf(single.incoming), 'copy', 'copies');
+    field('current').textContent = `${current} / ${single.total}`;
+    field('current-copies').textContent = plural(copiesOf(single.current), 'copy', 'copies');
+    names.hidden = true;
+  } else {
+    const count = (key) => sum(multi.entries.map((e) => Object.keys(e[key]).length));
+    const copies = (key) => sum(multi.entries.map((e) => copiesOf(e[key])));
+    field('incoming').textContent = plural(count('incoming'), 'card', 'cards');
+    field('incoming-copies').textContent = `${plural(copies('incoming'), 'copy', 'copies')} · ${plural(multi.entries.length, 'set', 'sets')}`;
+    field('current').textContent = plural(count('current'), 'card', 'cards');
+    field('current-copies').textContent = plural(copies('current'), 'copy', 'copies');
+    names.textContent = multi.entries.map((e) => e.name).join(' · ');
+    names.hidden = false;
+  }
+  dlg.querySelector('[data-sync-choice="view"]').hidden = !single || source === 'file';
+  field('hint-single').hidden = !single;
+  field('hint-multi').hidden = Boolean(single);
 
   return new Promise((resolve) => {
     let choice = null;
@@ -168,7 +108,7 @@ export function askIncoming(counts, { source }) {
   });
 }
 
-export function initImport({ onImport }) {
+export function initImport({ onImport, describe }) {
   const dlg = document.getElementById('dlg-import');
   const input = document.getElementById('import-code');
   const status = document.getElementById('import-status');
@@ -179,9 +119,11 @@ export function initImport({ onImport }) {
     const incoming = parseSyncText(text);
     let message = '';
     if (incoming) {
-      const cards = Object.keys(incoming.counts).length;
-      const copies = sum(Object.values(incoming.counts));
-      message = `✓ ${cards} card${cards === 1 ? '' : 's'} · ${copies} cop${copies === 1 ? 'y' : 'ies'}`;
+      const sizes = incoming.decoded.map(codeSize);
+      const cards = sum(sizes.map((s) => s.cards));
+      const copies = sum(sizes.map((s) => s.copies));
+      const what = describe(incoming.decoded);
+      message = `✓ ${what ? `${what} · ` : ''}${plural(cards, 'card', 'cards')} · ${plural(copies, 'copy', 'copies')}`;
     } else if (text) {
       message = 'That isn’t a valid sync code or link.';
     }
@@ -206,4 +148,5 @@ export function initImport({ onImport }) {
     render();
     setTimeout(() => input.focus(), 60);
   });
+  return { render };
 }

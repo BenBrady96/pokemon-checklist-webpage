@@ -1,7 +1,9 @@
-import { CARDS, CARD_BY_ID, SECTIONS, RARITIES, GROUPS, TIERS, getTier, inTier, normalize } from './cards.js';
+import { COLLECTION, CARDS, CARD_BY_ID, SECTIONS, RARITIES, GROUPS, JUMPS, getTier, inTier } from './collection.js';
+import { normalize } from './model.js';
 import * as store from './store.js';
+import * as storage from './storage.js';
 import {
-  refs, buildCards, updateCard, mount, applyVisibility, updateSectionCounts, updateImageSources, rarityIconById, hasImage,
+  refs, buildCards, updateCard, mount, applyVisibility, updateSectionCounts, updateImageSources, rarityIconById,
 } from './render.js';
 import { initGestures } from './gestures.js';
 import { initViewer } from './viewer.js';
@@ -9,8 +11,10 @@ import { initInfo } from './info.js';
 import { compute, percent, renderStats, missingText, duplicatesText } from './stats.js';
 import { initQuickAdd } from './quickadd.js';
 import {
-  shareUrl, renderQr, exportFile, parseBackup, encodeCollection, decodeCollection, askIncoming, initImport,
+  shareUrl, renderQr, exportFile, parseBackup, encodeCollection, resolveCode, parseSyncText, askIncoming, initImport,
 } from './sync.js';
+import { resolveCodes, resolveBackup, allCounts, backupCode, applyEntries, catalogEntryFor } from './transfer.js';
+import { loadCatalog, collectionUrl } from './catalog.js';
 import { celebrate } from './confetti.js';
 import { initPWA, offlineSupported, countSavedImages, saveImagesOffline } from './pwa.js';
 import {
@@ -34,20 +38,12 @@ const DIALOGS = {
   filters: 'dlg-filters', view: 'dlg-view', menu: 'dlg-menu', stats: 'dlg-stats',
   quickadd: 'dlg-quickadd', share: 'dlg-share', help: 'dlg-help', export: 'dlg-export', import: 'dlg-import',
 };
-const JUMPS = [
-  { id: 'main', label: 'Main Set' },
-  { id: 'pikachu', label: 'Pikachu Rares', icon: 'r-pikachu', section: 'main' },
-  { id: 'secret', label: 'Secret Rares' },
-  { id: 'classic', label: 'Classic' },
-  { id: 'energy', label: 'Energy' },
-  { id: 'promo', label: 'Promos' },
-  { id: 'variant', label: 'Variants' },
-  { id: 'partner', label: 'First Partners' },
-];
+const RANGE_JUMPS = JUMPS.filter((j) => j.from && j.to);
 
 const desktopQuery = matchMedia('(min-width: 900px)');
 const isDesktop = () => desktopQuery.matches;
 const isTouch = matchMedia('(pointer: coarse)').matches;
+const plural = (n, one, many) => `${n} ${n === 1 ? one : many}`;
 
 const filters = { status: 'all', rarities: new Set(), sections: new Set(), tokens: [] };
 let gestures;
@@ -222,8 +218,10 @@ function onScroll() {
 }
 
 function buildTierPicker() {
-  tierPicker.innerHTML = TIERS.map((t) => `<button type="button" class="seg__btn" data-pref="tier" data-value="${t.id}">`
+  document.querySelector('.tier-bar').hidden = COLLECTION.single;
+  tierPicker.innerHTML = COLLECTION.visibleTiers.map((t) => `<button type="button" class="seg__btn" data-pref="tier" data-value="${t.id}">`
     + `<b>${t.label}</b><small>${t.cards.length} cards</small></button>`).join('');
+  tierPicker.classList.toggle('seg--four', COLLECTION.visibleTiers.length > 3);
 }
 
 function updateTierChrome() {
@@ -255,7 +253,7 @@ function buildJumpbar() {
 
 function updateJumpbarVisibility() {
   const p = store.getPrefs();
-  jumpbar.closest('.jumpbar').hidden = p.view !== 'binder' && p.sort !== 'set';
+  jumpbar.closest('.jumpbar').hidden = (p.view !== 'binder' && p.sort !== 'set') || JUMPS.length < 2;
 }
 
 let spyQueued = false;
@@ -271,10 +269,11 @@ function updateScrollSpy() {
       if (sec.getBoundingClientRect().top <= line) active = sec.dataset.section;
     }
     active ||= root.querySelector('.sec:not([hidden])')?.dataset.section;
-    if (active === 'main') {
-      const first = refs.get('m023').li;
-      const last = refs.get('m052').li;
-      if (!first.hidden && first.getBoundingClientRect().top <= line && last.getBoundingClientRect().bottom >= line) active = 'pikachu';
+    for (const j of RANGE_JUMPS) {
+      if (j.section !== active) continue;
+      const first = refs.get(j.from).li;
+      const last = refs.get(j.to).li;
+      if (!first.hidden && first.getBoundingClientRect().top <= line && last.getBoundingClientRect().bottom >= line) active = j.id;
     }
     for (const btn of jumpbar.children) {
       const on = btn.dataset.jump === active;
@@ -302,7 +301,8 @@ function scrollToElement(el, { smooth = true } = {}) {
 }
 
 function jumpTo(id) {
-  const target = id === 'pikachu' ? refs.get('m023').li : document.getElementById(`sec-${id}`);
+  const jump = JUMPS.find((j) => j.id === id);
+  const target = jump?.from ? refs.get(jump.from).li : document.getElementById(`sec-${id}`);
   if (!target || target.hidden || target.closest('[hidden]')) {
     toast('That part of the set is hidden by your filters.', {
       action: { label: 'Clear filters', onClick: () => { clearFilters(); jumpTo(id); } },
@@ -354,7 +354,7 @@ function refreshStats() {
   document.querySelector('[data-stat="total"]').textContent = set.total;
   document.querySelector('[data-stat="pct"]').textContent = `${percent(set.owned, set.total)}%`;
   document.querySelector('[data-stat="bar"]').style.setProperty('--p', set.owned / set.total);
-  document.querySelector('.progress-pill').setAttribute('aria-label', `${s.tier.name} progress — open statistics`);
+  document.querySelector('.progress-pill').setAttribute('aria-label', `${COLLECTION.single ? COLLECTION.name : s.tier.name} progress — open statistics`);
   for (const el of jumpbar.querySelectorAll('[data-jump-count]')) {
     const g = s.byGroup[el.dataset.jumpCount];
     el.textContent = `${g.owned}/${g.total}`;
@@ -482,35 +482,103 @@ function applyIncoming(choice, counts) {
   toast(choice === 'merge' ? `Merged: ${store.describe(entry).toLowerCase()}` : 'Collection replaced', { icon: 'i-check', action: undoAction() });
 }
 
+const askSingle = (counts, source) => askIncoming({ source, single: { incoming: counts, current: storage.readCounts(COLLECTION.id), total: CARDS.length } });
+
+async function importMany(entries, source) {
+  if (!entries.length) {
+    toast('None of those cards are from sets on this site.');
+    return false;
+  }
+  exitPreview({ quiet: true });
+  const choice = await askIncoming({
+    source,
+    multi: { entries: entries.map((e) => ({ name: e.name, incoming: e.counts, current: storage.readCounts(e.id) })) },
+  });
+  if (!choice) return false;
+  const result = applyEntries(entries, choice, {
+    currentId: COLLECTION.id,
+    applyCurrent: (counts, how) => (how === 'merge' ? store.mergeAll(counts) : store.replaceAll(counts)),
+  });
+  if (!result.changed) {
+    toast('Your collections already match.');
+    return true;
+  }
+  store.requestPersistence();
+  toast(`${choice === 'merge' ? 'Merged' : 'Replaced'} ${plural(result.changed, 'set', 'sets')}`, {
+    icon: 'i-check',
+    action: {
+      label: 'Undo',
+      onClick() {
+        result.undo();
+        if (result.currentEntry && store.lastEntry() === result.currentEntry) store.undo();
+        toast('Import undone', { icon: 'i-undo' });
+      },
+    },
+  });
+  return true;
+}
+
+async function handleIncoming({ decoded, codes }, source) {
+  if (decoded.length === 1) {
+    const d = decoded[0];
+    const ours = d.collection ? d.collection === COLLECTION.id : d.key === COLLECTION.syncKey;
+    if (ours) {
+      const counts = resolveCode(d, COLLECTION);
+      exitPreview({ quiet: true });
+      applyIncoming(await askSingle(counts, source), counts);
+      return true;
+    }
+    const entry = await catalogEntryFor(d);
+    if (!entry) {
+      toast('That code is for a set this site doesn’t have.');
+      return false;
+    }
+    location.href = `${collectionUrl(entry.id)}#sync=${codes[0]}`;
+    return true;
+  }
+  return importMany(await resolveCodes(decoded), source);
+}
+
 async function checkIncomingLink() {
-  const m = /^#sync=([A-Za-z0-9_-]+)$/.exec(location.hash);
+  const m = /^#sync=([A-Za-z0-9_.-]+)$/.exec(location.hash);
   if (!m) return;
   history.replaceState(null, '', location.pathname + location.search);
-  const counts = decodeCollection(m[1]);
-  if (!counts) {
+  const incoming = parseSyncText(`#sync=${m[1]}`);
+  if (!incoming) {
     toast('That sync link isn’t valid.');
     return;
   }
-  exitPreview({ quiet: true });
-  applyIncoming(await askIncoming(counts, { source: 'link' }), counts);
+  try {
+    await handleIncoming(incoming, 'link');
+  } catch {
+    toast('Couldn’t load that link. Check your connection and try again.');
+  }
 }
 
 function prepareShare() {
-  const url = shareUrl(store.snapshot());
+  const url = shareUrl(COLLECTION.id, encodeCollection(COLLECTION, store.snapshot()));
   document.getElementById('share-url').value = url;
   renderQr(document.getElementById('share-qr'), url);
   document.querySelector('[data-action="native-share"]').hidden = typeof navigator.share !== 'function';
 }
 
-function prepareExport() {
-  document.getElementById('export-code').value = encodeCollection(store.snapshot());
+async function prepareExport() {
+  const box = document.getElementById('export-code');
+  box.value = '';
   document.querySelector('[data-action="share-code"]').hidden = typeof navigator.share !== 'function';
+  try {
+    box.value = await backupCode();
+  } catch {
+    box.value = encodeCollection(COLLECTION, storage.readCounts(COLLECTION.id));
+  }
 }
 
 const formatAgo = (ts) => {
   const days = Math.floor((Date.now() - ts) / 86400000);
   return days <= 0 ? 'today' : days === 1 ? 'yesterday' : `${days} days ago`;
 };
+
+const imageUrls = () => [...new Set(CARDS.filter((c) => COLLECTION.hasImage(c)).map((c) => COLLECTION.imageUrl(c, 'sm')))];
 
 async function prepareMenu() {
   const shown = shownIds().length;
@@ -520,21 +588,20 @@ async function prepareMenu() {
   const item = document.querySelector('[data-offline-item]');
   item.hidden = !offlineSupported();
   if (!item.hidden) {
-    const ids = imageIds();
-    const saved = await countSavedImages(ids);
-    document.querySelector('[data-offline-status]').textContent = saved >= ids.length
+    const urls = imageUrls();
+    const saved = await countSavedImages(urls);
+    const mb = Math.max(1, Math.round((urls.length * 36) / 1024));
+    document.querySelector('[data-offline-status]').textContent = saved >= urls.length
       ? 'All card images saved ✓'
-      : saved ? `${saved} of ${ids.length} saved — tap to save the rest` : 'Use the checklist with no signal (about 7 MB)';
+      : saved ? `${saved} of ${urls.length} saved — tap to save the rest` : `Use the checklist with no signal (about ${mb} MB)`;
   }
 }
-
-const imageIds = () => CARDS.filter((c) => hasImage(c.id)).map((c) => c.id);
 
 async function saveOffline() {
   closeDialog(document.getElementById('dlg-menu'));
   const t = toast('Saving card images…', { icon: 'i-offline', timeout: 120000 });
   const msg = t.querySelector('.toast__msg');
-  const { failed } = await saveImagesOffline(imageIds(), (done, total) => {
+  const { failed } = await saveImagesOffline(imageUrls(), (done, total) => {
     msg.textContent = `Saving card images… ${done}/${total}`;
   });
   toast(failed ? `Saved, but ${failed} images failed. Try again on a better connection.` : 'All card images are saved for offline use.', { icon: 'i-check' });
@@ -548,8 +615,8 @@ async function doReset() {
     return;
   }
   const ok = await confirmAction({
-    title: 'Reset collection?',
-    text: `This unmarks all ${owned} cards on this device. You can undo it straight away.`,
+    title: `Reset ${COLLECTION.name}?`,
+    text: `This unmarks all ${owned} cards in this set on this device. Your other sets aren’t affected, and you can undo it straight away.`,
     confirmLabel: 'Reset',
   });
   if (!ok) return;
@@ -597,7 +664,7 @@ const actions = {
       .then(() => store.setPref('lastBackup', Date.now()), () => {});
   },
   'save-file'() {
-    exportFile(store.snapshot());
+    exportFile(allCounts());
     store.setPref('lastBackup', Date.now());
     closeDialog(document.getElementById('dlg-export'));
     toast('Backup saved to your downloads.', { icon: 'i-download' });
@@ -626,8 +693,8 @@ const actions = {
   },
   'native-share'() {
     navigator.share({
-      title: '30th Celebration checklist',
-      text: 'My Pokémon TCG 30th Celebration collection',
+      title: `${COLLECTION.name} checklist`,
+      text: `My ${COLLECTION.game.name} ${COLLECTION.name} collection`,
       url: document.getElementById('share-url').value,
     }).catch(() => {});
   },
@@ -704,12 +771,21 @@ function wireControls() {
     e.target.value = '';
     if (!file) return;
     if (store.isPreview()) return blocked();
-    const counts = parseBackup(await file.text());
-    if (!counts) {
+    const entries = parseBackup(await file.text());
+    if (!entries) {
       toast('That file isn’t a checklist backup.');
       return;
     }
-    applyIncoming(await askIncoming(counts, { source: 'file' }), counts);
+    try {
+      if (entries.length === 1 && entries[0].id === COLLECTION.id) {
+        const counts = Object.fromEntries(Object.entries(entries[0].counts).filter(([id]) => CARD_BY_ID.has(id)));
+        applyIncoming(await askSingle(counts, 'file'), counts);
+      } else {
+        await importMany(await resolveBackup(entries), 'file');
+      }
+    } catch {
+      toast('Couldn’t read that backup. Check your connection and try again.');
+    }
   });
 
   let searchTimer = 0;
@@ -786,7 +862,7 @@ function wireControls() {
 }
 
 function buildFilterChips() {
-  document.getElementById('rarity-chips').innerHTML = RARITIES.filter((r) => r.id !== 'CC' && r.id !== 'E' && r.id !== 'P')
+  document.getElementById('rarity-chips').innerHTML = RARITIES.filter((r) => r.filter !== false)
     .map((r) => `<button type="button" class="chip" data-filter-toggle="rarity" data-value="${r.id}">${rarityIconById(r.id)}`
       + `<span>${r.name}</span><span class="chip__count" data-rarity-count="${r.id}"></span></button>`)
     .join('');
@@ -794,6 +870,23 @@ function buildFilterChips() {
     .map((s) => `<button type="button" class="chip" data-filter-toggle="section" data-value="${s.id}">`
       + `<span>${s.name}</span><span class="chip__count" data-section-count="${s.id}"></span></button>`)
     .join('');
+  document.getElementById('rarity-field').hidden = !document.getElementById('rarity-chips').children.length;
+  document.getElementById('section-field').hidden = SECTIONS.length < 2;
+}
+
+function fillHelp() {
+  const tiers = COLLECTION.visibleTiers;
+  const tierHelp = document.querySelector('[data-help="tiers"]');
+  if (COLLECTION.single) tierHelp.remove();
+  else if (COLLECTION.help?.tiers) tierHelp.innerHTML = COLLECTION.help.tiers;
+  else {
+    const labels = tiers.map((t) => t.label);
+    tierHelp.innerHTML = `<b>${labels.slice(0, -1).join(', ')} or ${labels[labels.length - 1]}:</b> pick what you’re collecting above the cards. `
+      + `${tiers.map((t) => `${t.label} is ${t.cards.length} cards`).join(', ')}. Cards you’ve marked are kept when you switch.`;
+  }
+  const example = COLLECTION.quickAdd.example;
+  const qaHelp = document.querySelector('[data-help="quickadd"]');
+  if (example) qaHelp.innerHTML = `<b>Quick add</b> takes card numbers such as <code>${example}</code>.`;
 }
 
 function init() {
@@ -802,6 +895,7 @@ function init() {
   buildTierPicker();
   buildFilterChips();
   buildJumpbar();
+  fillHelp();
   updateTierChrome();
   applyPrefs();
 
@@ -838,12 +932,22 @@ function init() {
       return true;
     },
   });
+  let catalog = null;
+  loadCatalog().then((c) => { catalog = c; }, () => {});
   initImport({
-    async onImport({ counts, source }) {
-      exitPreview({ quiet: true });
-      const choice = await askIncoming(counts, { source });
-      applyIncoming(choice, counts);
-      return Boolean(choice);
+    async onImport(incoming) {
+      if (store.isPreview()) exitPreview({ quiet: true });
+      try {
+        return await handleIncoming(incoming, incoming.source);
+      } catch {
+        toast('Couldn’t read that code. Check your connection and try again.');
+        return false;
+      }
+    },
+    describe(decoded) {
+      if (!catalog) return '';
+      const names = decoded.map((d) => catalog.collections.find((c) => (d.collection ? c.id === d.collection : c.syncKey === d.key))?.name || 'an unknown set');
+      return names.length > 2 ? `${names.length} sets` : names.join(' and ');
     },
   });
 

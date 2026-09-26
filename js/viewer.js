@@ -1,11 +1,6 @@
-import { CARD_BY_ID, RARITY_BY_ID } from './cards.js';
-import colors from './card-colors.js';
+import { COLLECTION, CARD_BY_ID } from './collection.js';
 import * as store from './store.js';
-import { hasImage } from './render.js';
 import { openDialog, closeDialog, reducedMotion, escapeHTML } from './ui.js';
-
-const FOIL_RARITIES = new Set(['RR', 'PR', 'IR', 'SIR', 'FR', 'CC', 'RGB', 'P']);
-const WIDE_RARITIES = new Set(['RR', 'SIR', 'CC', 'RGB']);
 const SWIPE_DISTANCE = 70;
 const SWIPE_VELOCITY = 0.45;
 
@@ -29,23 +24,23 @@ export function initViewer({ getOrder, onCommit, onBlocked }) {
   el.high.addEventListener('load', () => el.high.classList.add('is-loaded'));
 
   function preload(id) {
-    if (id && hasImage(id)) new Image().src = `img/cards/lg/${id}.webp`;
+    const card = id && CARD_BY_ID.get(id);
+    if (card && COLLECTION.hasImage(card)) new Image().src = COLLECTION.imageUrl(card, 'lg');
   }
 
   function show(id) {
     currentId = id;
     index = order.indexOf(id);
     const card = CARD_BY_ID.get(id);
-    const rarity = RARITY_BY_ID.get(card.rarity);
 
-    el.card.style.setProperty('--ph', colors[id] || '#222a55');
-    const image = hasImage(id);
+    el.card.style.setProperty('--ph', COLLECTION.imageColor(card, '#222a55'));
+    const image = COLLECTION.hasImage(card);
     el.low.hidden = !image;
     el.high.hidden = !image;
     el.ph.hidden = image;
     if (image) {
-      el.low.src = `img/cards/sm/${id}.webp`;
-      const hi = `img/cards/lg/${id}.webp`;
+      el.low.src = COLLECTION.imageUrl(card, 'sm');
+      const hi = COLLECTION.imageUrl(card, 'lg');
       if (el.high.getAttribute('src') !== hi) {
         el.high.classList.remove('is-loaded');
         el.high.src = hi;
@@ -54,15 +49,12 @@ export function initViewer({ getOrder, onCommit, onBlocked }) {
     } else {
       el.ph.innerHTML = `${escapeHTML(card.printed)}<small>${escapeHTML(card.name)}</small><small>Image not released yet</small>`;
     }
-    el.card.toggleAttribute('data-foil', FOIL_RARITIES.has(card.rarity));
+    el.card.toggleAttribute('data-foil', card.foil);
 
-    if (card.section === 'classic') el.num.textContent = `Classic Collection · No. ${card.num}`;
-    else if (card.section === 'energy') el.num.textContent = `No. ${card.num}`;
-    else if (card.rarity === 'P') el.num.textContent = card.printed;
-    else el.num.textContent = `No. ${card.printed}`;
-    el.rarity.textContent = card.rarity === 'E' ? `${card.type[0].toUpperCase()}${card.type.slice(1)} Energy` : rarity.name;
-    el.rarityIcon.querySelector('use').setAttribute('href', card.rarity === 'E' ? `#e-${card.type}` : `#${rarity.icon}`);
-    el.rarityIcon.classList.toggle('rar--wide', WIDE_RARITIES.has(card.rarity));
+    el.num.textContent = card.numberText;
+    el.rarity.textContent = card.rarityName;
+    el.rarityIcon.querySelector('use').setAttribute('href', `#${card.rarityIcon}`);
+    el.rarityIcon.classList.toggle('rar--wide', card.wide);
     el.name.textContent = card.name;
     el.note.textContent = card.note || '';
     el.note.hidden = !card.note;

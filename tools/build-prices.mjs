@@ -1,33 +1,19 @@
-import { writeFile } from 'node:fs/promises';
-import { dirname, join } from 'node:path';
-import { fileURLToPath } from 'node:url';
-import { CARDS, normalize } from '../js/cards.js';
+import { join } from 'node:path';
+import { CONFIG, curatedModule, dataDir, loadModel, loadRaw } from './lib/collections.mjs';
+import { normalize } from '../js/model.js';
+import { lastUpdated, loadPrices, loadProducts, productNumber } from './lib/tcgcsv.mjs';
+import { download, readJson, writeJson } from './lib/util.mjs';
 
-const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
-const TCGCSV = 'https://tcgcsv.com/tcgplayer/3';
-const GROUPS = { set: 24722, classic: 24837, promos: 24451, energy: 24461 };
-const PRODUCT_OVERRIDES = { v03: 713261 };
 const FX_SOURCES = [
   ['https://api.frankfurter.dev/v1/latest?base=USD&symbols=GBP', (d) => d.rates?.GBP],
   ['https://open.er-api.com/v6/latest/USD', (d) => d.rates?.GBP],
 ];
-const MIN_PRICED = 200;
-
-async function get(url, type = 'json') {
-  const res = await fetch(url, { headers: { 'User-Agent': '30th-celebration-checklist price snapshot' } });
-  if (!res.ok) throw new Error(`${url}: HTTP ${res.status}`);
-  return type === 'json' ? res.json() : res.text();
-}
-
-async function loadGroup(id) {
-  const [products, prices] = await Promise.all([get(`${TCGCSV}/${id}/products`), get(`${TCGCSV}/${id}/prices`)]);
-  return { products: products.results, prices: prices.results };
-}
+const MIN_SHARE = 0.7;
 
 async function exchangeRate() {
   for (const [url, pick] of FX_SOURCES) {
     try {
-      const rate = pick(await get(url));
+      const rate = pick(await download(url, { type: 'json' }));
       if (rate > 0) return rate;
     } catch (err) {
       console.warn(`  ${err.message}`);
@@ -36,59 +22,76 @@ async function exchangeRate() {
   throw new Error('No USD to GBP exchange rate available');
 }
 
-const key = (id) => (/^[a-z_$][\w$]*$/i.test(id) ? id : `'${id}'`);
-const number = (p) => p.extendedData?.find((e) => e.name === 'Number')?.value || '';
+const groupCache = new Map();
+function loadGroup(id) {
+  if (!groupCache.has(id)) {
+    groupCache.set(id, Promise.all([loadProducts(id, { refresh: true }), loadPrices(id)]).then(([products, prices]) => ({ products, prices })));
+  }
+  return groupCache.get(id);
+}
+
 const firstWord = (s) => normalize(s).split(/[^a-z0-9]+/).find(Boolean);
 const only = (list) => (list.length === 1 ? list[0].productId : null);
+const helpers = { number: productNumber, firstWord, only };
 
-function productFor(card, groups) {
-  if (PRODUCT_OVERRIDES[card.id]) return PRODUCT_OVERRIDES[card.id];
-  if (card.base) return null;
-  if (card.section === 'classic') {
-    const sameNumber = groups.classic.products.filter((p) => parseInt(number(p), 10) === Number(card.num));
-    return only(sameNumber.length > 1 ? sameNumber.filter((p) => firstWord(p.name) === firstWord(card.name)) : sameNumber);
-  }
-  if (card.section === 'energy') return only(groups.energy.products.filter((p) => number(p) === card.num));
-  if (card.rarity === 'P') {
-    return only(groups.promos.products.filter((p) => number(p) === card.num && !/pokemon center|cosmos|stamp|staff|prerelease/i.test(p.name)));
-  }
-  return only(groups.set.products.filter((p) => number(p) === card.printed));
+function priceRow(rows, productId, sub) {
+  const mine = rows.filter((p) => p.productId === productId);
+  if (sub) return mine.find((p) => p.subTypeName === sub);
+  return mine.find((p) => p.subTypeName === 'Holofoil')
+    || mine.find((p) => p.subTypeName === 'Normal')
+    || mine.find((p) => p.subTypeName !== 'Reverse Holofoil' && p.marketPrice != null)
+    || mine[0];
 }
 
-function priceRow(productId, groups) {
-  const rows = Object.values(groups).flatMap((g) => g.prices).filter((p) => p.productId === productId);
-  return rows.find((p) => p.subTypeName === 'Holofoil') || rows.find((p) => p.marketPrice != null) || rows[0];
-}
+async function priceCollection(entry, { updated, gbpPerUsd }) {
+  const raw = await loadRaw(entry.id);
+  if (!raw) return;
+  const model = await loadModel(entry.id, { raw });
+  const curated = entry.curated ? await curatedModule(entry) : null;
+  const groupIds = curated
+    ? curated.tcgplayerGroups
+    : Object.fromEntries([...new Set([...entry.tcgplayer, ...model.cards.map((c) => c.grp).filter(Boolean)])].map((id) => [id, id]));
+  const groups = Object.fromEntries(await Promise.all(Object.entries(groupIds).map(async ([key, id]) => [key, await loadGroup(id)])));
+  const rows = Object.values(groups).flatMap((g) => g.prices);
 
-const groups = Object.fromEntries(await Promise.all(Object.entries(GROUPS).map(async ([key, id]) => [key, await loadGroup(id)])));
-const [updated, gbpPerUsd] = await Promise.all([get('https://tcgcsv.com/last-updated.txt', 'text'), exchangeRate()]);
-
-const entries = [];
-const unmatched = [];
-let priced = 0;
-for (const card of CARDS) {
-  const tcg = productFor(card, groups);
-  if (!tcg) {
-    unmatched.push(card.id);
-    continue;
+  const cards = {};
+  const unmatched = [];
+  let priced = 0;
+  for (const card of model.cards) {
+    const tcg = curated ? curated.productFor(card, groups, helpers) : card.tcg;
+    if (!tcg) {
+      unmatched.push(card.id);
+      continue;
+    }
+    const row = priceRow(rows, tcg, card.sub);
+    const price = { tcg, usd: row?.marketPrice ?? null };
+    if (price.usd == null && row?.lowPrice != null) price.from = row.lowPrice;
+    if (price.usd != null) priced++;
+    cards[card.id] = price;
   }
-  const row = priceRow(tcg, groups);
-  const entry = { tcg, usd: row?.marketPrice ?? null };
-  if (entry.usd == null && row?.lowPrice != null) entry.from = row.lowPrice;
-  if (entry.usd != null) priced++;
-  entries.push(`    ${key(card.id)}: { ${Object.entries(entry).map(([k, v]) => `${k}: ${v}`).join(', ')} },`);
+
+  const file = join(dataDir(entry.id), 'prices.json');
+  const previous = await readJson(file);
+  const previousPriced = previous ? Object.values(previous.cards).filter((p) => p.usd != null).length : 0;
+  if (priced < model.cards.length * MIN_SHARE && previousPriced > priced) {
+    console.warn(`${entry.id}: only ${priced} of ${model.cards.length} cards priced; keeping the previous file (${previousPriced} priced)`);
+    return;
+  }
+  await writeJson(file, { updated, gbpPerUsd: Number(gbpPerUsd.toFixed(5)), cards }, { lines: ['cards'] });
+  console.log(`${entry.id}: ${priced} of ${model.cards.length} priced${unmatched.length ? `, ${unmatched.length} not on TCGplayer` : ''}`);
 }
 
-if (priced < MIN_PRICED) throw new Error(`Only ${priced} cards have a price; not overwriting js/prices.js`);
-
-const body = `export default {
-  updated: '${updated.trim().slice(0, 10)}',
-  gbpPerUsd: ${Number(gbpPerUsd.toFixed(5))},
-  cards: {
-${entries.join('\n')}
-  },
-};
-`;
-await writeFile(join(ROOT, 'js/prices.js'), body);
-console.log(`Prices from ${updated.trim()}: ${priced} of ${CARDS.length} cards priced, $1 = £${gbpPerUsd.toFixed(4)}`);
-if (unmatched.length) console.log(`  No TCGplayer listing: ${unmatched.join(', ')}`);
+const [updated, gbpPerUsd] = await Promise.all([lastUpdated(), exchangeRate()]);
+const day = updated.slice(0, 10);
+console.log(`Prices from ${updated}, $1 = £${gbpPerUsd.toFixed(4)}`);
+let failed = 0;
+for (const entry of CONFIG) {
+  try {
+    await priceCollection(entry, { updated: day, gbpPerUsd });
+  } catch (err) {
+    failed++;
+    console.error(`${entry.id}: ${err.message}`);
+  }
+}
+if (failed === CONFIG.length) throw new Error('No prices could be downloaded');
+if (failed) process.exitCode = 1;

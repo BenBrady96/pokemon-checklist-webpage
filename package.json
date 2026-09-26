@@ -1,15 +1,18 @@
 {
-  "name": "pokemon-30th-celebration-checklist",
-  "version": "1.0.0",
+  "name": "binder-tracker",
+  "version": "2.0.0",
   "private": true,
-  "description": "Free, unofficial checklist for all 199 Pokémon TCG 30th Celebration cards, plus the promos for a Grand Master set. Works offline, no sign-up, and your collection stays in your browser.",
+  "description": "Binder Tracker: free, unofficial checklists for Pokémon TCG sets, with reverse holos, promos, copy counts and binder pages. Works offline, no sign-up, and your collection stays in your browser.",
   "license": "MIT",
   "type": "module",
   "scripts": {
+    "dev": "node tools/dev.mjs",
     "build": "node tools/build.mjs",
-    "prices": "node tools/build-prices.mjs",
+    "test": "node tools/check.mjs",
+    "sets": "node tools/build-sets.mjs",
     "images": "node tools/build-images.mjs",
-    "images:force": "node tools/build-images.mjs --force"
+    "images:force": "node tools/build-images.mjs --force",
+    "prices": "node tools/build-prices.mjs"
   },
   "devDependencies": {
     "sharp": "^0.35.4"

@@ -9,13 +9,10 @@
   </defs>
   <rect width="512" height="512" rx="112" fill="url(#bg)"/>
   <g transform="translate(0.0 0.0) scale(1)">
-    <circle cx="256" cy="256" r="188" fill="none" stroke="url(#gold)" stroke-width="14"/>
-    <circle cx="256" cy="256" r="164" fill="none" stroke="#F2C14E" stroke-opacity=".28" stroke-width="3"/>
-    <g fill="none" stroke="url(#gold)" stroke-width="42" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M138 196 C156 170 186 164 204 168 C234 175 242 205 232 226 C224 243 207 252 188 253 C214 254 240 268 240 296 C240 326 214 344 186 344 C164 344 146 334 136 316"/>
-      <rect x="290" y="170" width="92" height="174" rx="46"/>
-    </g>
-    <path d="M396 128 l9 22 22 9 -22 9 -9 22 -9 -22 -22 -9 22 -9z" fill="#FFE9A3"/>
-    <path d="M114 362 l6 14 14 6 -14 6 -6 14 -6 -14 -14 -6 14 -6z" fill="#F2C14E" opacity=".8"/>
+    <rect x="120" y="94" width="290" height="324" rx="40" fill="none" stroke="url(#gold)" stroke-width="22"/>
+    <path d="M92 172h56M92 256h56M92 340h56" stroke="url(#gold)" stroke-width="22" stroke-linecap="round"/>
+    <g fill="url(#gold)"><rect x="176" y="138" width="60" height="76" rx="10"/><rect x="250" y="138" width="60" height="76" rx="10"/><rect x="324" y="138" width="60" height="76" rx="10"/><rect x="176" y="226" width="60" height="76" rx="10"/><rect x="250" y="226" width="60" height="76" rx="10"/><rect x="176" y="314" width="60" height="76" rx="10"/></g>
+    <g fill="none" stroke="url(#gold)" stroke-width="8" opacity=".55"><rect x="328" y="230" width="52" height="68" rx="8"/><rect x="254" y="318" width="52" height="68" rx="8"/><rect x="328" y="318" width="52" height="68" rx="8"/></g>
+    <path d="M414 60 l10 26 26 10 -26 10 -10 26 -10 -26 -26 -10 26 -10z" fill="#FFE9A3"/>
   </g>
 </svg>

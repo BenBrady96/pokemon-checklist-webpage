@@ -1,7 +1,14 @@
-const COLORS = ['#FFE9A3', '#F7D774', '#F2C14E', '#E3A72F', '#FFFFFF', '#FFCB05', '#3B4CCA', '#FF7A6E'];
+const EXTRA_COLORS = ['#FFFFFF', '#FFCB05', '#3B4CCA', '#FF7A6E'];
+const THEME_VARS = ['--theme-pale', '--theme-bright', '--theme', '--theme-strong'];
+
+function palette() {
+  const style = getComputedStyle(document.documentElement);
+  const theme = THEME_VARS.map((v) => style.getPropertyValue(v).trim()).filter(Boolean);
+  return [...(theme.length ? theme : ['#FFE9A3', '#F7D774', '#F2C14E', '#E3A72F']), ...EXTRA_COLORS];
+}
 const DURATION = 2800;
 
-function launch(parts, { x, y, angle, spread, count }) {
+function launch(parts, colors, { x, y, angle, spread, count }) {
   for (let i = 0; i < count; i++) {
     const a = angle + (Math.random() - 0.5) * spread;
     const speed = 9 + Math.random() * 11;
@@ -15,7 +22,7 @@ function launch(parts, { x, y, angle, spread, count }) {
       rot: Math.random() * Math.PI,
       spin: (Math.random() - 0.5) * 0.4,
       wobble: Math.random() * Math.PI * 2,
-      color: COLORS[(Math.random() * COLORS.length) | 0],
+      color: colors[(Math.random() * colors.length) | 0],
       round: Math.random() < 0.25,
     });
   }
@@ -35,9 +42,10 @@ export function celebrate() {
   ctx.scale(dpr, dpr);
 
   const parts = [];
+  const colors = palette();
   const count = Math.round(Math.min(90, w / 8));
-  launch(parts, { x: 0, y: h * 0.85, angle: -Math.PI / 3, spread: 0.9, count });
-  launch(parts, { x: w, y: h * 0.85, angle: (-2 * Math.PI) / 3, spread: 0.9, count });
+  launch(parts, colors, { x: 0, y: h * 0.85, angle: -Math.PI / 3, spread: 0.9, count });
+  launch(parts, colors, { x: w, y: h * 0.85, angle: (-2 * Math.PI) / 3, spread: 0.9, count });
 
   const start = performance.now();
   let last = start;

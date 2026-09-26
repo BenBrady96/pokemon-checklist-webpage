@@ -1,48 +1,38 @@
-import { CARDS, SECTIONS, RARITY_BY_ID, CARD_BY_ID, getTier } from './cards.js';
-import colors from './card-colors.js';
+import { COLLECTION, CARDS, SECTIONS, RARITY_BY_ID, CARD_BY_ID, getTier } from './collection.js';
 import { getQty } from './store.js';
 import { escapeHTML } from './ui.js';
 import { marketUsd, formatGbp } from './pricing.js';
 
 export const refs = new Map();
 
-const WIDE_RARITIES = new Set(['RR', 'SIR', 'CC', 'RGB']);
-const SECTION_CARDS = new Map(SECTIONS.map((s) => [s.id, CARDS.filter((c) => c.section === s.id)]));
+const SECTION_CARDS = COLLECTION.cardsBySection;
 let mountedCards = CARDS;
 
-export const hasImage = (id) => Object.hasOwn(colors, id);
+export const hasImage = (id) => COLLECTION.hasImage(CARD_BY_ID.get(id));
+export const imageUrl = (id, size) => COLLECTION.imageUrl(CARD_BY_ID.get(id), size);
+export const imageColor = (id, fallback) => COLLECTION.imageColor(CARD_BY_ID.get(id), fallback);
 
-function rarityIcon(card, cls = 'rar') {
-  if (card.rarity === 'E') return `<svg class="${cls}" aria-hidden="true"><use href="#e-${card.type}"/></svg>`;
-  const wide = WIDE_RARITIES.has(card.rarity) ? ' rar--wide' : '';
-  return `<svg class="${cls}${wide}" aria-hidden="true"><use href="#${RARITY_BY_ID.get(card.rarity).icon}"/></svg>`;
+export function rarityIcon(card, cls = 'rar') {
+  return `<svg class="${cls}${card.wide ? ' rar--wide' : ''}" aria-hidden="true"><use href="#${card.rarityIcon}"/></svg>`;
 }
 
 export function rarityIconById(rarityId) {
-  const wide = WIDE_RARITIES.has(rarityId) ? ' rar--wide' : '';
-  return `<svg class="rar${wide}" aria-hidden="true"><use href="#${RARITY_BY_ID.get(rarityId).icon}"/></svg>`;
-}
-
-function cardLabel(card) {
-  const num = card.section === 'classic' ? `Classic Collection ${card.num}`
-    : card.rarity === 'P' || card.base ? card.printed : card.num;
-  const rarity = card.rarity === 'E' ? 'Basic Energy' : RARITY_BY_ID.get(card.rarity).name;
-  return `${num} ${card.name}, ${rarity}`;
+  const rarity = RARITY_BY_ID.get(rarityId);
+  return `<svg class="rar${rarity.wide ? ' rar--wide' : ''}" aria-hidden="true"><use href="#${rarity.icon}"/></svg>`;
 }
 
 function cardMarkup(card) {
-  const label = escapeHTML(cardLabel(card));
+  const label = escapeHTML(card.label);
   const name = escapeHTML(card.name);
-  const rarityName = card.rarity === 'E' ? 'Energy' : RARITY_BY_ID.get(card.rarity).name;
   const type = card.type ? ` data-type="${card.type}"` : '';
   const usd = marketUsd(card.id);
-  return `<li class="card${hasImage(card.id) ? '' : ' no-img'}" data-id="${card.id}" data-rarity="${card.rarity}"${type} style="--ph:${colors[card.id] || '#6a6f8f'}">`
+  return `<li class="card${COLLECTION.hasImage(card) ? '' : ' no-img'}" data-id="${card.id}" data-rarity="${card.rarity}"${type} style="--ph:${COLLECTION.imageColor(card)}">`
     + `<button class="card__hit" type="button" role="checkbox" aria-checked="false" tabindex="-1" aria-label="${label}">`
     + `<span class="card__art"><span class="card__ph">${card.num}<small>${name}</small></span>`
     + '<img alt="" width="330" height="460" loading="lazy" decoding="async" draggable="false">'
     + `${card.badge ? `<span class="card__badge">${escapeHTML(card.badge)}</span>` : ''}</span>`
     + `<span class="card__cap"><span class="card__num">${card.num}</span><span class="card__name">${name}</span>`
-    + `<span class="card__rarname">${rarityName}</span>${rarityIcon(card)}`
+    + `<span class="card__rarname">${escapeHTML(card.rarityShort)}</span>${rarityIcon(card)}`
     + `${usd == null ? '' : `<span class="card__price">${formatGbp(usd)}</span>`}</span>`
     + '</button>'
     + '<span class="card__ui">'
@@ -58,6 +48,11 @@ function cardMarkup(card) {
 }
 
 export function buildCards() {
+  if (COLLECTION.tileRules) {
+    const style = document.createElement('style');
+    style.textContent = COLLECTION.tileRules;
+    document.head.append(style);
+  }
   const tpl = document.createElement('template');
   tpl.innerHTML = CARDS.map(cardMarkup).join('');
   for (const li of tpl.content.querySelectorAll('.card')) {
@@ -71,7 +66,7 @@ export function buildCards() {
       qty: li.querySelector('.card__qty'),
       minus: li.querySelector('.card__minus'),
       plus: li.querySelector('.card__plus'),
-      label: cardLabel(card),
+      label: card.label,
     });
   }
   for (const id of refs.keys()) updateCard(id);
@@ -114,13 +109,11 @@ function cardList(cards, className = 'cards') {
 const byName = (a, b) => a.name.localeCompare(b.name, 'en', { sensitivity: 'base' }) || a.idx - b.idx;
 const byRarity = (a, b) => RARITY_BY_ID.get(b.rarity).rank - RARITY_BY_ID.get(a.rarity).rank || a.idx - b.idx;
 
-const pocketLabel = (card) => (card.section === 'classic' || card.section === 'variant' ? card.code : card.num);
-
 function binderPage(cards, number, pockets) {
   const page = document.createElement('div');
   page.className = 'page';
-  const first = pocketLabel(cards[0]);
-  const last = pocketLabel(cards[cards.length - 1]);
+  const first = cards[0].pocketText;
+  const last = cards[cards.length - 1].pocketText;
   page.innerHTML = `<div class="page__label"><span>Page ${number}</span><span>${first}–${last}</span></div>`;
   const ol = cardList(cards, 'pockets');
   for (let i = cards.length; i < pockets; i++) {
@@ -137,10 +130,15 @@ function blankPage(cover, hint) {
   const page = document.createElement('div');
   page.className = cover ? 'page page--blank page--cover' : 'page page--blank';
   page.setAttribute('aria-hidden', 'true');
-  page.innerHTML = cover
-    ? '<svg class="page__mark"><use href="#logo-mark"/></svg><span class="page__cover-title brand__gold">30th Celebration</span>'
-    : `<span class="page__hint">${hint}</span>`;
+  page.innerHTML = cover ? coverMarkup() : `<span class="page__hint">${hint}</span>`;
   return page;
+}
+
+function coverMarkup() {
+  const title = `<span class="page__cover-title brand__gold">${escapeHTML(COLLECTION.name)}</span>`;
+  if (COLLECTION.cover?.symbol) return `<svg class="page__mark"><use href="#${COLLECTION.cover.symbol}"/></svg>${title}`;
+  if (COLLECTION.logoUrl) return `<img class="page__logo" src="${COLLECTION.logoUrl}" alt="" loading="lazy">${title}`;
+  return `<svg class="page__mark"><use href="#logo-mark"/></svg>${title}`;
 }
 
 function binderSection(section, pockets, firstPage, lastSection) {
@@ -239,8 +237,8 @@ export function updateImageSources(root, imagesOn) {
     eagerDone = true;
   }
   for (const r of refs.values()) {
-    if (!r.li.isConnected || !hasImage(r.card.id)) continue;
-    const src = `img/cards/${large ? 'lg' : 'sm'}/${r.card.id}.webp`;
+    if (!r.li.isConnected || !COLLECTION.hasImage(r.card)) continue;
+    const src = COLLECTION.imageUrl(r.card, large ? 'lg' : 'sm');
     if (r.img.getAttribute('src') !== src) r.img.setAttribute('src', src);
   }
 }

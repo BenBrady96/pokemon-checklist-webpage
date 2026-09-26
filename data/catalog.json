@@ -1,0 +1,1294 @@
+{
+  "games": [
+    {
+      "id": "pokemon",
+      "name": "Pokémon TCG",
+      "series": [
+        "Mega Evolution",
+        "Scarlet & Violet"
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "pokemon/30th-celebration",
+      "game": "pokemon",
+      "slug": "30th-celebration",
+      "name": "30th Celebration",
+      "series": "Mega Evolution",
+      "kind": "expansion",
+      "code": "30C",
+      "syncKey": "30C",
+      "released": "2026-09-16",
+      "total": 199,
+      "tiers": [
+        {
+          "id": "standard",
+          "label": "Standard",
+          "count": 128
+        },
+        {
+          "id": "master",
+          "label": "Master",
+          "count": 199
+        },
+        {
+          "id": "grand",
+          "label": "Grand Master",
+          "count": 246
+        }
+      ],
+      "defaultTier": "master",
+      "logo": null,
+      "cover": {
+        "symbol": "emblem-30"
+      },
+      "tile": {
+        "--t-chrome-0": "#1D275C",
+        "--t-chrome-1": "#151D4A",
+        "--t-chrome-2": "#0D1334",
+        "--t-theme": "#F2C14E",
+        "--t-bright": "#F7D774",
+        "--t-hi": "#FFD978",
+        "--t-lo": "#E5AA33",
+        "--t-on-theme": "#1A1F45",
+        "--t-ink": "#EEF0FA"
+      },
+      "themeColor": "#0D1334"
+    },
+    {
+      "id": "pokemon/pitch-black",
+      "game": "pokemon",
+      "slug": "pitch-black",
+      "name": "Pitch Black",
+      "series": "Mega Evolution",
+      "kind": "expansion",
+      "code": "PBL",
+      "syncKey": "PBL",
+      "released": "2026-07-17",
+      "total": 120,
+      "tiers": [
+        {
+          "id": "standard",
+          "label": "Standard",
+          "count": 84
+        },
+        {
+          "id": "complete",
+          "label": "Complete",
+          "count": 120
+        },
+        {
+          "id": "master",
+          "label": "Master",
+          "count": 194
+        },
+        {
+          "id": "grand",
+          "label": "Grand Master",
+          "count": 195
+        }
+      ],
+      "defaultTier": "complete",
+      "logo": "img/sets/pokemon/pitch-black/logo.webp",
+      "cover": null,
+      "tile": {
+        "--t-chrome-0": "#20152C",
+        "--t-chrome-1": "#150C1F",
+        "--t-chrome-2": "#090411",
+        "--t-theme": "#C465E8",
+        "--t-bright": "#D07EF0",
+        "--t-hi": "#D481F4",
+        "--t-lo": "#BC5AE0",
+        "--t-on-theme": "#231A2E",
+        "--t-ink": "#F5EFFD"
+      },
+      "themeColor": "#090411"
+    },
+    {
+      "id": "pokemon/chaos-rising",
+      "game": "pokemon",
+      "slug": "chaos-rising",
+      "name": "Chaos Rising",
+      "series": "Mega Evolution",
+      "kind": "expansion",
+      "code": "CRI",
+      "syncKey": "CRI",
+      "released": "2026-05-22",
+      "total": 122,
+      "tiers": [
+        {
+          "id": "standard",
+          "label": "Standard",
+          "count": 86
+        },
+        {
+          "id": "complete",
+          "label": "Complete",
+          "count": 122
+        },
+        {
+          "id": "master",
+          "label": "Master",
+          "count": 198
+        },
+        {
+          "id": "grand",
+          "label": "Grand Master",
+          "count": 202
+        }
+      ],
+      "defaultTier": "complete",
+      "logo": "img/sets/pokemon/chaos-rising/logo.webp",
+      "cover": null,
+      "tile": {
+        "--t-chrome-0": "#231B64",
+        "--t-chrome-1": "#1A1250",
+        "--t-chrome-2": "#100A38",
+        "--t-theme": "#4FB6E0",
+        "--t-bright": "#70C5EB",
+        "--t-hi": "#74C9EF",
+        "--t-lo": "#34A3CE",
+        "--t-on-theme": "#1A1844",
+        "--t-ink": "#EFF1FF"
+      },
+      "themeColor": "#100A38"
+    },
+    {
+      "id": "pokemon/perfect-order",
+      "game": "pokemon",
+      "slug": "perfect-order",
+      "name": "Perfect Order",
+      "series": "Mega Evolution",
+      "kind": "expansion",
+      "code": "POR",
+      "syncKey": "POR",
+      "released": "2026-03-27",
+      "total": 124,
+      "tiers": [
+        {
+          "id": "standard",
+          "label": "Standard",
+          "count": 88
+        },
+        {
+          "id": "complete",
+          "label": "Complete",
+          "count": 124
+        },
+        {
+          "id": "master",
+          "label": "Master",
+          "count": 203
+        },
+        {
+          "id": "grand",
+          "label": "Grand Master",
+          "count": 230
+        }
+      ],
+      "defaultTier": "complete",
+      "logo": "img/sets/pokemon/perfect-order/logo.webp",
+      "cover": null,
+      "tile": {
+        "--t-chrome-0": "#202F1A",
+        "--t-chrome-1": "#172412",
+        "--t-chrome-2": "#0E170A",
+        "--t-theme": "#8DBA3F",
+        "--t-bright": "#A0C962",
+        "--t-hi": "#A4CD66",
+        "--t-lo": "#7AA721",
+        "--t-on-theme": "#162311",
+        "--t-ink": "#ECF5E8"
+      },
+      "themeColor": "#0E170A"
+    },
+    {
+      "id": "pokemon/ascended-heroes",
+      "game": "pokemon",
+      "slug": "ascended-heroes",
+      "name": "Ascended Heroes",
+      "series": "Mega Evolution",
+      "kind": "expansion",
+      "code": "ASC",
+      "syncKey": "ASC",
+      "released": "2026-01-30",
+      "total": 295,
+      "tiers": [
+        {
+          "id": "standard",
+          "label": "Standard",
+          "count": 217
+        },
+        {
+          "id": "complete",
+          "label": "Complete",
+          "count": 295
+        },
+        {
+          "id": "master",
+          "label": "Master",
+          "count": 613
+        },
+        {
+          "id": "grand",
+          "label": "Grand Master",
+          "count": 629
+        }
+      ],
+      "defaultTier": "complete",
+      "logo": "img/sets/pokemon/ascended-heroes/logo.webp",
+      "cover": null,
+      "tile": {
+        "--t-chrome-0": "#163A36",
+        "--t-chrome-1": "#0F2E2B",
+        "--t-chrome-2": "#0A211E",
+        "--t-theme": "#E7BD45",
+        "--t-bright": "#F4CF6D",
+        "--t-hi": "#F8D371",
+        "--t-lo": "#D4AA24",
+        "--t-on-theme": "#052522",
+        "--t-ink": "#E4F6F4"
+      },
+      "themeColor": "#0A211E"
+    },
+    {
+      "id": "pokemon/phantasmal-flames",
+      "game": "pokemon",
+      "slug": "phantasmal-flames",
+      "name": "Phantasmal Flames",
+      "series": "Mega Evolution",
+      "kind": "expansion",
+      "code": "PFL",
+      "syncKey": "PFL",
+      "released": "2025-11-14",
+      "total": 130,
+      "tiers": [
+        {
+          "id": "standard",
+          "label": "Standard",
+          "count": 94
+        },
+        {
+          "id": "complete",
+          "label": "Complete",
+          "count": 130
+        },
+        {
+          "id": "master",
+          "label": "Master",
+          "count": 214
+        },
+        {
+          "id": "grand",
+          "label": "Grand Master",
+          "count": 226
+        }
+      ],
+      "defaultTier": "complete",
+      "logo": "img/sets/pokemon/phantasmal-flames/logo.webp",
+      "cover": null,
+      "tile": {
+        "--t-chrome-0": "#251B48",
+        "--t-chrome-1": "#1B1238",
+        "--t-chrome-2": "#100925",
+        "--t-theme": "#7A8CF2",
+        "--t-bright": "#8C9EF9",
+        "--t-hi": "#90A2FD",
+        "--t-lo": "#6E7FE7",
+        "--t-on-theme": "#20173E",
+        "--t-ink": "#F1F0FF"
+      },
+      "themeColor": "#100925"
+    },
+    {
+      "id": "pokemon/mega-evolution",
+      "game": "pokemon",
+      "slug": "mega-evolution",
+      "name": "Mega Evolution",
+      "series": "Mega Evolution",
+      "kind": "expansion",
+      "code": "MEG",
+      "syncKey": "MEG",
+      "released": "2025-09-26",
+      "total": 188,
+      "tiers": [
+        {
+          "id": "standard",
+          "label": "Standard",
+          "count": 132
+        },
+        {
+          "id": "complete",
+          "label": "Complete",
+          "count": 188
+        },
+        {
+          "id": "master",
+          "label": "Master",
+          "count": 310
+        },
+        {
+          "id": "grand",
+          "label": "Grand Master",
+          "count": 355
+        }
+      ],
+      "defaultTier": "complete",
+      "logo": "img/sets/pokemon/mega-evolution/logo.webp",
+      "cover": null,
+      "tile": {
+        "--t-chrome-0": "#21222B",
+        "--t-chrome-1": "#17181F",
+        "--t-chrome-2": "#0C0D12",
+        "--t-theme": "#F0A43A",
+        "--t-bright": "#FBB862",
+        "--t-hi": "#FFBB66",
+        "--t-lo": "#DD9014",
+        "--t-on-theme": "#1D1F26",
+        "--t-ink": "#EFF1FB"
+      },
+      "themeColor": "#0C0D12"
+    },
+    {
+      "id": "pokemon/me-black-star-promos",
+      "game": "pokemon",
+      "slug": "me-black-star-promos",
+      "name": "ME Black Star Promos",
+      "series": "Mega Evolution",
+      "kind": "promo",
+      "code": "MEP",
+      "syncKey": "MEP",
+      "released": "2025-09-26",
+      "total": 112,
+      "tiers": [
+        {
+          "id": "master",
+          "label": "Master",
+          "count": 112
+        },
+        {
+          "id": "grand",
+          "label": "Grand Master",
+          "count": 128
+        }
+      ],
+      "defaultTier": "master",
+      "logo": null,
+      "cover": null,
+      "tile": {
+        "--t-chrome-0": "#28212C",
+        "--t-chrome-1": "#1D1720",
+        "--t-chrome-2": "#110D13",
+        "--t-theme": "#E0B45C",
+        "--t-bright": "#EDC67B",
+        "--t-hi": "#F1CA7F",
+        "--t-lo": "#CDA145",
+        "--t-on-theme": "#1C1F29",
+        "--t-ink": "#F7EEFB"
+      },
+      "themeColor": "#110D13"
+    },
+    {
+      "id": "pokemon/me-energy",
+      "game": "pokemon",
+      "slug": "me-energy",
+      "name": "Mega Evolution Energy",
+      "series": "Mega Evolution",
+      "kind": "energy",
+      "code": "MEE",
+      "syncKey": "MEE",
+      "released": "2025-09-25",
+      "total": 16,
+      "tiers": [
+        {
+          "id": "standard",
+          "label": "Standard",
+          "count": 16
+        },
+        {
+          "id": "master",
+          "label": "Master",
+          "count": 24
+        }
+      ],
+      "defaultTier": "standard",
+      "logo": null,
+      "cover": null,
+      "tile": {
+        "--t-chrome-0": "#262A37",
+        "--t-chrome-1": "#1C1F2A",
+        "--t-chrome-2": "#12141C",
+        "--t-theme": "#F3C433",
+        "--t-bright": "#FFD667",
+        "--t-hi": "#FFDB7B",
+        "--t-lo": "#DFB000",
+        "--t-on-theme": "#1C1F2A",
+        "--t-ink": "#EDF1FF"
+      },
+      "themeColor": "#12141C"
+    },
+    {
+      "id": "pokemon/black-bolt",
+      "game": "pokemon",
+      "slug": "black-bolt",
+      "name": "Black Bolt",
+      "series": "Scarlet & Violet",
+      "kind": "expansion",
+      "code": "BLK",
+      "syncKey": "BLK",
+      "released": "2025-07-17",
+      "total": 172,
+      "tiers": [
+        {
+          "id": "standard",
+          "label": "Standard",
+          "count": 86
+        },
+        {
+          "id": "complete",
+          "label": "Complete",
+          "count": 172
+        },
+        {
+          "id": "master",
+          "label": "Master",
+          "count": 404
+        },
+        {
+          "id": "grand",
+          "label": "Grand Master",
+          "count": 424
+        }
+      ],
+      "defaultTier": "complete",
+      "logo": "img/sets/pokemon/black-bolt/logo.webp",
+      "cover": null,
+      "tile": {
+        "--t-chrome-0": "#15181E",
+        "--t-chrome-1": "#0C0E13",
+        "--t-chrome-2": "#040508",
+        "--t-theme": "#1BA3D6",
+        "--t-bright": "#4EB2E0",
+        "--t-hi": "#52B6E3",
+        "--t-lo": "#0090BF",
+        "--t-on-theme": "#1D1F25",
+        "--t-ink": "#EEF2FA"
+      },
+      "themeColor": "#040508"
+    },
+    {
+      "id": "pokemon/white-flare",
+      "game": "pokemon",
+      "slug": "white-flare",
+      "name": "White Flare",
+      "series": "Scarlet & Violet",
+      "kind": "expansion",
+      "code": "WHT",
+      "syncKey": "WHT",
+      "released": "2025-07-17",
+      "total": 173,
+      "tiers": [
+        {
+          "id": "standard",
+          "label": "Standard",
+          "count": 86
+        },
+        {
+          "id": "complete",
+          "label": "Complete",
+          "count": 173
+        },
+        {
+          "id": "master",
+          "label": "Master",
+          "count": 405
+        },
+        {
+          "id": "grand",
+          "label": "Grand Master",
+          "count": 410
+        }
+      ],
+      "defaultTier": "complete",
+      "logo": "img/sets/pokemon/white-flare/logo.webp",
+      "cover": null,
+      "tile": {
+        "--t-chrome-0": "#46404F",
+        "--t-chrome-1": "#3A3542",
+        "--t-chrome-2": "#2D2933",
+        "--t-theme": "#D92D68",
+        "--t-bright": "#FF7196",
+        "--t-hi": "#D1406C",
+        "--t-lo": "#CC105C",
+        "--t-on-theme": "#FFFFFF",
+        "--t-ink": "#F4EFFD"
+      },
+      "themeColor": "#2D2933"
+    },
+    {
+      "id": "pokemon/destined-rivals",
+      "game": "pokemon",
+      "slug": "destined-rivals",
+      "name": "Destined Rivals",
+      "series": "Scarlet & Violet",
+      "kind": "expansion",
+      "code": "DRI",
+      "syncKey": "DRI",
+      "released": "2025-05-30",
+      "total": 244,
+      "tiers": [
+        {
+          "id": "standard",
+          "label": "Standard",
+          "count": 182
+        },
+        {
+          "id": "complete",
+          "label": "Complete",
+          "count": 244
+        },
+        {
+          "id": "master",
+          "label": "Master",
+          "count": 409
+        },
+        {
+          "id": "grand",
+          "label": "Grand Master",
+          "count": 426
+        }
+      ],
+      "defaultTier": "complete",
+      "logo": "img/sets/pokemon/destined-rivals/logo.webp",
+      "cover": null,
+      "tile": {
+        "--t-chrome-0": "#31192E",
+        "--t-chrome-1": "#241022",
+        "--t-chrome-2": "#160814",
+        "--t-theme": "#E0643A",
+        "--t-bright": "#EA7B57",
+        "--t-hi": "#ED7F5B",
+        "--t-lo": "#DF5F34",
+        "--t-on-theme": "#2B1729",
+        "--t-ink": "#FAEDF8"
+      },
+      "themeColor": "#160814"
+    },
+    {
+      "id": "pokemon/journey-together",
+      "game": "pokemon",
+      "slug": "journey-together",
+      "name": "Journey Together",
+      "series": "Scarlet & Violet",
+      "kind": "expansion",
+      "code": "JTG",
+      "syncKey": "JTG",
+      "released": "2025-03-28",
+      "total": 190,
+      "tiers": [
+        {
+          "id": "standard",
+          "label": "Standard",
+          "count": 159
+        },
+        {
+          "id": "complete",
+          "label": "Complete",
+          "count": 190
+        },
+        {
+          "id": "master",
+          "label": "Master",
+          "count": 333
+        },
+        {
+          "id": "grand",
+          "label": "Grand Master",
+          "count": 382
+        }
+      ],
+      "defaultTier": "complete",
+      "logo": "img/sets/pokemon/journey-together/logo.webp",
+      "cover": null,
+      "tile": {
+        "--t-chrome-0": "#193548",
+        "--t-chrome-1": "#122A3A",
+        "--t-chrome-2": "#0C1E29",
+        "--t-theme": "#3EB8B3",
+        "--t-bright": "#64C6C2",
+        "--t-hi": "#68CAC5",
+        "--t-lo": "#19A5A1",
+        "--t-on-theme": "#092231",
+        "--t-ink": "#E6F4FE"
+      },
+      "themeColor": "#0C1E29"
+    },
+    {
+      "id": "pokemon/prismatic-evolutions",
+      "game": "pokemon",
+      "slug": "prismatic-evolutions",
+      "name": "Prismatic Evolutions",
+      "series": "Scarlet & Violet",
+      "kind": "expansion",
+      "code": "PRE",
+      "syncKey": "PRE",
+      "released": "2025-01-17",
+      "total": 180,
+      "tiers": [
+        {
+          "id": "standard",
+          "label": "Standard",
+          "count": 131
+        },
+        {
+          "id": "complete",
+          "label": "Complete",
+          "count": 180
+        },
+        {
+          "id": "master",
+          "label": "Master",
+          "count": 447
+        },
+        {
+          "id": "grand",
+          "label": "Grand Master",
+          "count": 472
+        }
+      ],
+      "defaultTier": "complete",
+      "logo": "img/sets/pokemon/prismatic-evolutions/logo.webp",
+      "cover": null,
+      "tile": {
+        "--t-chrome-0": "#1C1B50",
+        "--t-chrome-1": "#13123F",
+        "--t-chrome-2": "#0A092A",
+        "--t-theme": "#E36BA6",
+        "--t-bright": "#ED83B5",
+        "--t-hi": "#F186B9",
+        "--t-lo": "#D35A97",
+        "--t-on-theme": "#181844",
+        "--t-ink": "#EEF1FF"
+      },
+      "themeColor": "#0A092A"
+    },
+    {
+      "id": "pokemon/surging-sparks",
+      "game": "pokemon",
+      "slug": "surging-sparks",
+      "name": "Surging Sparks",
+      "series": "Scarlet & Violet",
+      "kind": "expansion",
+      "code": "SSP",
+      "syncKey": "SSP",
+      "released": "2024-11-08",
+      "total": 252,
+      "tiers": [
+        {
+          "id": "standard",
+          "label": "Standard",
+          "count": 191
+        },
+        {
+          "id": "complete",
+          "label": "Complete",
+          "count": 252
+        },
+        {
+          "id": "master",
+          "label": "Master",
+          "count": 417
+        },
+        {
+          "id": "grand",
+          "label": "Grand Master",
+          "count": 447
+        }
+      ],
+      "defaultTier": "complete",
+      "logo": "img/sets/pokemon/surging-sparks/logo.webp",
+      "cover": null,
+      "tile": {
+        "--t-chrome-0": "#4D130C",
+        "--t-chrome-1": "#3D0B06",
+        "--t-chrome-2": "#2A0603",
+        "--t-theme": "#F5C518",
+        "--t-bright": "#FFD866",
+        "--t-hi": "#FFDD7B",
+        "--t-lo": "#DFB200",
+        "--t-on-theme": "#3D0B06",
+        "--t-ink": "#FFEDEA"
+      },
+      "themeColor": "#2A0603"
+    },
+    {
+      "id": "pokemon/stellar-crown",
+      "game": "pokemon",
+      "slug": "stellar-crown",
+      "name": "Stellar Crown",
+      "series": "Scarlet & Violet",
+      "kind": "expansion",
+      "code": "SCR",
+      "syncKey": "SCR",
+      "released": "2024-09-13",
+      "total": 175,
+      "tiers": [
+        {
+          "id": "standard",
+          "label": "Standard",
+          "count": 142
+        },
+        {
+          "id": "complete",
+          "label": "Complete",
+          "count": 175
+        },
+        {
+          "id": "master",
+          "label": "Master",
+          "count": 300
+        },
+        {
+          "id": "grand",
+          "label": "Grand Master",
+          "count": 317
+        }
+      ],
+      "defaultTier": "complete",
+      "logo": "img/sets/pokemon/stellar-crown/logo.webp",
+      "cover": null,
+      "tile": {
+        "--t-chrome-0": "#1D204E",
+        "--t-chrome-1": "#14163D",
+        "--t-chrome-2": "#0B0C29",
+        "--t-theme": "#55C7E8",
+        "--t-bright": "#78D6F3",
+        "--t-hi": "#7CDAF7",
+        "--t-lo": "#39B4D5",
+        "--t-on-theme": "#171A41",
+        "--t-ink": "#EEF1FF"
+      },
+      "themeColor": "#0B0C29"
+    },
+    {
+      "id": "pokemon/shrouded-fable",
+      "game": "pokemon",
+      "slug": "shrouded-fable",
+      "name": "Shrouded Fable",
+      "series": "Scarlet & Violet",
+      "kind": "expansion",
+      "code": "SFA",
+      "syncKey": "SFA",
+      "released": "2024-08-02",
+      "total": 99,
+      "tiers": [
+        {
+          "id": "standard",
+          "label": "Standard",
+          "count": 64
+        },
+        {
+          "id": "complete",
+          "label": "Complete",
+          "count": 99
+        },
+        {
+          "id": "master",
+          "label": "Master",
+          "count": 154
+        },
+        {
+          "id": "grand",
+          "label": "Grand Master",
+          "count": 157
+        }
+      ],
+      "defaultTier": "complete",
+      "logo": "img/sets/pokemon/shrouded-fable/logo.webp",
+      "cover": null,
+      "tile": {
+        "--t-chrome-0": "#28183D",
+        "--t-chrome-1": "#1D0F2E",
+        "--t-chrome-2": "#11071D",
+        "--t-theme": "#C565C9",
+        "--t-bright": "#D17CD3",
+        "--t-hi": "#D480D7",
+        "--t-lo": "#C261C7",
+        "--t-on-theme": "#251737",
+        "--t-ink": "#F4EFFD"
+      },
+      "themeColor": "#11071D"
+    },
+    {
+      "id": "pokemon/twilight-masquerade",
+      "game": "pokemon",
+      "slug": "twilight-masquerade",
+      "name": "Twilight Masquerade",
+      "series": "Scarlet & Violet",
+      "kind": "expansion",
+      "code": "TWM",
+      "syncKey": "TWM",
+      "released": "2024-05-24",
+      "total": 226,
+      "tiers": [
+        {
+          "id": "standard",
+          "label": "Standard",
+          "count": 167
+        },
+        {
+          "id": "complete",
+          "label": "Complete",
+          "count": 226
+        },
+        {
+          "id": "master",
+          "label": "Master",
+          "count": 373
+        },
+        {
+          "id": "grand",
+          "label": "Grand Master",
+          "count": 389
+        }
+      ],
+      "defaultTier": "complete",
+      "logo": "img/sets/pokemon/twilight-masquerade/logo.webp",
+      "cover": null,
+      "tile": {
+        "--t-chrome-0": "#371C63",
+        "--t-chrome-1": "#2B1450",
+        "--t-chrome-2": "#1E0D39",
+        "--t-theme": "#E9C24F",
+        "--t-bright": "#F6D474",
+        "--t-hi": "#FAD878",
+        "--t-lo": "#D6AE32",
+        "--t-on-theme": "#241440",
+        "--t-ink": "#F3EFFE"
+      },
+      "themeColor": "#1E0D39"
+    },
+    {
+      "id": "pokemon/temporal-forces",
+      "game": "pokemon",
+      "slug": "temporal-forces",
+      "name": "Temporal Forces",
+      "series": "Scarlet & Violet",
+      "kind": "expansion",
+      "code": "TEF",
+      "syncKey": "TEF",
+      "released": "2024-03-22",
+      "total": 218,
+      "tiers": [
+        {
+          "id": "standard",
+          "label": "Standard",
+          "count": 162
+        },
+        {
+          "id": "complete",
+          "label": "Complete",
+          "count": 218
+        },
+        {
+          "id": "master",
+          "label": "Master",
+          "count": 358
+        },
+        {
+          "id": "grand",
+          "label": "Grand Master",
+          "count": 410
+        }
+      ],
+      "defaultTier": "complete",
+      "logo": null,
+      "cover": null,
+      "tile": {
+        "--t-chrome-0": "#163640",
+        "--t-chrome-1": "#0F2A33",
+        "--t-chrome-2": "#0A1D24",
+        "--t-theme": "#37C2A5",
+        "--t-bright": "#62D0B6",
+        "--t-hi": "#66D4BA",
+        "--t-lo": "#00AF93",
+        "--t-on-theme": "#07232C",
+        "--t-ink": "#E4F5FC"
+      },
+      "themeColor": "#0A1D24"
+    },
+    {
+      "id": "pokemon/paldean-fates",
+      "game": "pokemon",
+      "slug": "paldean-fates",
+      "name": "Paldean Fates",
+      "series": "Scarlet & Violet",
+      "kind": "expansion",
+      "code": "PAF",
+      "syncKey": "PAF",
+      "released": "2024-01-26",
+      "total": 245,
+      "tiers": [
+        {
+          "id": "standard",
+          "label": "Standard",
+          "count": 91
+        },
+        {
+          "id": "complete",
+          "label": "Complete",
+          "count": 245
+        },
+        {
+          "id": "master",
+          "label": "Master",
+          "count": 326
+        },
+        {
+          "id": "grand",
+          "label": "Grand Master",
+          "count": 333
+        }
+      ],
+      "defaultTier": "complete",
+      "logo": "img/sets/pokemon/paldean-fates/logo.webp",
+      "cover": null,
+      "tile": {
+        "--t-chrome-0": "#153B45",
+        "--t-chrome-1": "#0F2F38",
+        "--t-chrome-2": "#0B2228",
+        "--t-theme": "#E2BD5A",
+        "--t-bright": "#EFCF7B",
+        "--t-hi": "#F3D37F",
+        "--t-lo": "#CFAA41",
+        "--t-on-theme": "#03242C",
+        "--t-ink": "#E4F5FB"
+      },
+      "themeColor": "#0B2228"
+    },
+    {
+      "id": "pokemon/paradox-rift",
+      "game": "pokemon",
+      "slug": "paradox-rift",
+      "name": "Paradox Rift",
+      "series": "Scarlet & Violet",
+      "kind": "expansion",
+      "code": "PAR",
+      "syncKey": "PAR",
+      "released": "2023-11-03",
+      "total": 266,
+      "tiers": [
+        {
+          "id": "standard",
+          "label": "Standard",
+          "count": 182
+        },
+        {
+          "id": "complete",
+          "label": "Complete",
+          "count": 266
+        },
+        {
+          "id": "master",
+          "label": "Master",
+          "count": 428
+        },
+        {
+          "id": "grand",
+          "label": "Grand Master",
+          "count": 447
+        }
+      ],
+      "defaultTier": "complete",
+      "logo": "img/sets/pokemon/paradox-rift/logo.webp",
+      "cover": null,
+      "tile": {
+        "--t-chrome-0": "#19244A",
+        "--t-chrome-1": "#111A3A",
+        "--t-chrome-2": "#091027",
+        "--t-theme": "#54A9E8",
+        "--t-bright": "#71B9F1",
+        "--t-hi": "#75BDF5",
+        "--t-lo": "#3D96D6",
+        "--t-on-theme": "#131D3D",
+        "--t-ink": "#ECF2FF"
+      },
+      "themeColor": "#091027"
+    },
+    {
+      "id": "pokemon/151",
+      "game": "pokemon",
+      "slug": "151",
+      "name": "151",
+      "series": "Scarlet & Violet",
+      "kind": "expansion",
+      "code": "MEW",
+      "syncKey": "MEW",
+      "released": "2023-09-22",
+      "total": 207,
+      "tiers": [
+        {
+          "id": "standard",
+          "label": "Standard",
+          "count": 165
+        },
+        {
+          "id": "complete",
+          "label": "Complete",
+          "count": 207
+        },
+        {
+          "id": "master",
+          "label": "Master",
+          "count": 360
+        },
+        {
+          "id": "grand",
+          "label": "Grand Master",
+          "count": 379
+        }
+      ],
+      "defaultTier": "complete",
+      "logo": "img/sets/pokemon/151/logo.webp",
+      "cover": null,
+      "tile": {
+        "--t-chrome-0": "#38141B",
+        "--t-chrome-1": "#2A0C12",
+        "--t-chrome-2": "#1A0509",
+        "--t-theme": "#DA323D",
+        "--t-bright": "#EA5A5B",
+        "--t-hi": "#D14348",
+        "--t-lo": "#CD192F",
+        "--t-on-theme": "#FFFFFF",
+        "--t-ink": "#FFEDEF"
+      },
+      "themeColor": "#1A0509"
+    },
+    {
+      "id": "pokemon/obsidian-flames",
+      "game": "pokemon",
+      "slug": "obsidian-flames",
+      "name": "Obsidian Flames",
+      "series": "Scarlet & Violet",
+      "kind": "expansion",
+      "code": "OBF",
+      "syncKey": "OBF",
+      "released": "2023-08-11",
+      "total": 230,
+      "tiers": [
+        {
+          "id": "standard",
+          "label": "Standard",
+          "count": 197
+        },
+        {
+          "id": "complete",
+          "label": "Complete",
+          "count": 230
+        },
+        {
+          "id": "master",
+          "label": "Master",
+          "count": 406
+        },
+        {
+          "id": "grand",
+          "label": "Grand Master",
+          "count": 450
+        }
+      ],
+      "defaultTier": "complete",
+      "logo": "img/sets/pokemon/obsidian-flames/logo.webp",
+      "cover": null,
+      "tile": {
+        "--t-chrome-0": "#2A171C",
+        "--t-chrome-1": "#1E0E12",
+        "--t-chrome-2": "#100608",
+        "--t-theme": "#F08A3C",
+        "--t-bright": "#FA9F5F",
+        "--t-hi": "#FEA363",
+        "--t-lo": "#DD761E",
+        "--t-on-theme": "#2B1A1E",
+        "--t-ink": "#FFEDF0"
+      },
+      "themeColor": "#100608"
+    },
+    {
+      "id": "pokemon/paldea-evolved",
+      "game": "pokemon",
+      "slug": "paldea-evolved",
+      "name": "Paldea Evolved",
+      "series": "Scarlet & Violet",
+      "kind": "expansion",
+      "code": "PAL",
+      "syncKey": "PAL",
+      "released": "2023-06-09",
+      "total": 279,
+      "tiers": [
+        {
+          "id": "standard",
+          "label": "Standard",
+          "count": 193
+        },
+        {
+          "id": "complete",
+          "label": "Complete",
+          "count": 279
+        },
+        {
+          "id": "master",
+          "label": "Master",
+          "count": 455
+        },
+        {
+          "id": "grand",
+          "label": "Grand Master",
+          "count": 481
+        }
+      ],
+      "defaultTier": "complete",
+      "logo": "img/sets/pokemon/paldea-evolved/logo.webp",
+      "cover": null,
+      "tile": {
+        "--t-chrome-0": "#49201A",
+        "--t-chrome-1": "#3A1712",
+        "--t-chrome-2": "#280F0B",
+        "--t-theme": "#E8874A",
+        "--t-bright": "#F29C68",
+        "--t-hi": "#F6A06C",
+        "--t-lo": "#D57332",
+        "--t-on-theme": "#36130E",
+        "--t-ink": "#FFEDEA"
+      },
+      "themeColor": "#280F0B"
+    },
+    {
+      "id": "pokemon/scarlet-violet",
+      "game": "pokemon",
+      "slug": "scarlet-violet",
+      "name": "Scarlet & Violet",
+      "series": "Scarlet & Violet",
+      "kind": "expansion",
+      "code": "SVI",
+      "syncKey": "SVI",
+      "released": "2023-03-31",
+      "total": 258,
+      "tiers": [
+        {
+          "id": "standard",
+          "label": "Standard",
+          "count": 198
+        },
+        {
+          "id": "complete",
+          "label": "Complete",
+          "count": 258
+        },
+        {
+          "id": "master",
+          "label": "Master",
+          "count": 444
+        }
+      ],
+      "defaultTier": "complete",
+      "logo": "img/sets/pokemon/scarlet-violet/logo.webp",
+      "cover": null,
+      "tile": {
+        "--t-chrome-0": "#381B55",
+        "--t-chrome-1": "#2C1344",
+        "--t-chrome-2": "#1E0C30",
+        "--t-theme": "#E64D6D",
+        "--t-bright": "#EB667D",
+        "--t-hi": "#EF6A81",
+        "--t-lo": "#E74B6C",
+        "--t-on-theme": "#28123D",
+        "--t-ink": "#F5EFFD"
+      },
+      "themeColor": "#1E0C30"
+    },
+    {
+      "id": "pokemon/sv-black-star-promos",
+      "game": "pokemon",
+      "slug": "sv-black-star-promos",
+      "name": "SV Black Star Promos",
+      "series": "Scarlet & Violet",
+      "kind": "promo",
+      "code": "SVP",
+      "syncKey": "SVP",
+      "released": "2023-03-31",
+      "total": 226,
+      "tiers": [
+        {
+          "id": "master",
+          "label": "Master",
+          "count": 226
+        },
+        {
+          "id": "grand",
+          "label": "Grand Master",
+          "count": 290
+        }
+      ],
+      "defaultTier": "master",
+      "logo": null,
+      "cover": null,
+      "tile": {
+        "--t-chrome-0": "#222530",
+        "--t-chrome-1": "#181B24",
+        "--t-chrome-2": "#0E1016",
+        "--t-theme": "#D2D7E0",
+        "--t-bright": "#E4E8F0",
+        "--t-hi": "#E7ECF4",
+        "--t-lo": "#BFC4CD",
+        "--t-on-theme": "#1C1F28",
+        "--t-ink": "#EDF2FF"
+      },
+      "themeColor": "#0E1016"
+    },
+    {
+      "id": "pokemon/sv-energy",
+      "game": "pokemon",
+      "slug": "sv-energy",
+      "name": "Scarlet & Violet Energy",
+      "series": "Scarlet & Violet",
+      "kind": "energy",
+      "code": "SVE",
+      "syncKey": "SVE",
+      "released": "2023-03-31",
+      "total": 24,
+      "tiers": [
+        {
+          "id": "standard",
+          "label": "Standard",
+          "count": 24
+        },
+        {
+          "id": "master",
+          "label": "Master",
+          "count": 32
+        },
+        {
+          "id": "grand",
+          "label": "Grand Master",
+          "count": 104
+        }
+      ],
+      "defaultTier": "standard",
+      "logo": null,
+      "cover": null,
+      "tile": {
+        "--t-chrome-0": "#1B3223",
+        "--t-chrome-1": "#13261A",
+        "--t-chrome-2": "#0B1910",
+        "--t-theme": "#6CC24A",
+        "--t-bright": "#85D06A",
+        "--t-hi": "#89D46E",
+        "--t-lo": "#57AF31",
+        "--t-on-theme": "#112418",
+        "--t-ink": "#E8F6EC"
+      },
+      "themeColor": "#0B1910"
+    }
+  ]
+}

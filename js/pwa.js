@@ -1,24 +1,24 @@
-const IMAGE_CACHE = 'p30c-img-v1';
+import { ROOT, asset } from './paths.js';
+
+const IMAGE_CACHE = 'bt-img-v1';
 
 export const offlineSupported = () => 'serviceWorker' in navigator && 'caches' in window && location.protocol !== 'file:';
 
 export function initPWA() {
   if (!offlineSupported()) return;
-  navigator.serviceWorker.register('sw.js').catch(() => {});
+  navigator.serviceWorker.register(asset('sw.js'), { scope: ROOT }).catch(() => {});
 }
 
-const thumbUrl = (id) => new URL(`img/cards/sm/${id}.webp`, location.href).href;
-
-export async function countSavedImages(ids) {
+export async function countSavedImages(urls) {
   if (!offlineSupported()) return 0;
   const cache = await caches.open(IMAGE_CACHE);
   const keys = new Set((await cache.keys()).map((r) => r.url));
-  return ids.filter((id) => keys.has(thumbUrl(id))).length;
+  return urls.filter((url) => keys.has(url)).length;
 }
 
-export async function saveImagesOffline(ids, onProgress) {
+export async function saveImagesOffline(urls, onProgress) {
   const cache = await caches.open(IMAGE_CACHE);
-  const queue = ids.map(thumbUrl);
+  const queue = [...urls];
   const total = queue.length;
   let done = 0;
   let failed = 0;

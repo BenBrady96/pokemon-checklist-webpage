@@ -36,6 +36,9 @@ jobs:
         run: npm run prices
         continue-on-error: true
 
+      - name: Check collection data
+        run: npm test
+
       - name: Build
         run: npm run build
         env:

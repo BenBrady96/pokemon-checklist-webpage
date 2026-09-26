@@ -1,0 +1,656 @@
+<!doctype html>
+<html lang="en-GB" data-collection="{{id}}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>{{title}}</title>
+  <meta name="description" content="{{description}}">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <link rel="canonical" href="{{url}}">
+  <meta name="theme-color" content="{{themeColor}}">
+  <meta name="color-scheme" content="light dark">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Binder Tracker">
+  <meta property="og:title" content="{{ogTitle}}">
+  <meta property="og:description" content="{{ogDescription}}">
+  <meta property="og:url" content="{{url}}">
+  <meta property="og:image" content="{{ogImage}}">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="{{imageAlt}}">
+  <meta property="og:locale" content="en_GB">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ogTitle}}">
+  <meta name="twitter:description" content="{{twitterDescription}}">
+  <meta name="twitter:image" content="{{ogImage}}">
+  <meta name="twitter:image:alt" content="{{imageAlt}}">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="img/icons/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="img/icons/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="img/icons/apple-touch-icon.png">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Binder Tracker">
+  <link rel="preload" href="fonts/outfit-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/styles.css">
+  {{{themeStyle}}}
+  <script type="application/ld+json">{{{jsonLd}}}</script>
+  <script>
+    try {
+      var p = JSON.parse(localStorage.getItem('bt:v1:prefs') || localStorage.getItem('p30c:prefs:v1') || '{}');
+      if (p.theme === 'light' || p.theme === 'dark') document.documentElement.dataset.theme = p.theme;
+    } catch (e) {}
+  </script>
+  <script type="module" src="js/main.js"></script>
+</head>
+<body>
+<svg class="sprite" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g-theme" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" style="stop-color:var(--theme-pale)"/><stop offset=".45" style="stop-color:var(--theme)"/><stop offset="1" style="stop-color:var(--theme-deep)"/>
+    </linearGradient>
+
+    <symbol id="logo-mark" viewBox="0 0 512 512">
+      <rect x="120" y="94" width="290" height="324" rx="40" fill="none" stroke="url(#g-theme)" stroke-width="22"/>
+      <path d="M92 172h56M92 256h56M92 340h56" stroke="url(#g-theme)" stroke-width="22" stroke-linecap="round"/>
+      <g fill="url(#g-theme)"><rect x="176" y="138" width="60" height="76" rx="10"/><rect x="250" y="138" width="60" height="76" rx="10"/><rect x="324" y="138" width="60" height="76" rx="10"/><rect x="176" y="226" width="60" height="76" rx="10"/><rect x="250" y="226" width="60" height="76" rx="10"/><rect x="176" y="314" width="60" height="76" rx="10"/></g>
+      <g fill="none" stroke="url(#g-theme)" stroke-width="8" opacity=".55"><rect x="328" y="230" width="52" height="68" rx="8"/><rect x="254" y="318" width="52" height="68" rx="8"/><rect x="328" y="318" width="52" height="68" rx="8"/></g>
+      <path d="M414 60 l10 26 26 10 -26 10 -10 26 -10 -26 -26 -10 26 -10z" style="fill:var(--theme-pale)"/>
+    </symbol>
+
+    <symbol id="emblem-30" viewBox="0 0 512 512">
+      <circle cx="256" cy="256" r="188" fill="none" stroke="url(#g-theme)" stroke-width="16"/>
+      <circle cx="256" cy="256" r="162" fill="none" stroke="#F2C14E" stroke-opacity=".3" stroke-width="4"/>
+      <g fill="none" stroke="url(#g-theme)" stroke-width="44" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M138 196 C156 170 186 164 204 168 C234 175 242 205 232 226 C224 243 207 252 188 253 C214 254 240 268 240 296 C240 326 214 344 186 344 C164 344 146 334 136 316"/>
+        <rect x="290" y="170" width="92" height="174" rx="46"/>
+      </g>
+      <path d="M396 128 l9 22 22 9 -22 9 -9 22 -9 -22 -22 -9 22 -9z" fill="#FFE9A3"/>
+    </symbol>
+
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></symbol>
+    <symbol id="i-minus" viewBox="0 0 24 24"><path d="M5 12h14" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></symbol>
+    <symbol id="i-info" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="12" cy="12" r="8.5"/><path d="M12 11v5.5"/><circle cx="12" cy="7.8" r=".7" fill="currentColor"/></g></symbol>
+    <symbol id="i-external" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13.5 5.5h5v5M18.5 5.5l-8 8"/><path d="M16.5 13.5v4a1.5 1.5 0 0 1-1.5 1.5H7a1.5 1.5 0 0 1-1.5-1.5V9A1.5 1.5 0 0 1 7 7.5h4"/></g></symbol>
+    <symbol id="i-expand" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6"/><path d="M19.5 19.5l-4.6-4.6M10.5 8v5M8 10.5h5"/></g></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M20 20l-4.4-4.4"/></g></symbol>
+    <symbol id="i-filter" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h9M17 7h3M4 17h3M11 17h9"/><circle cx="15" cy="7" r="2.2"/><circle cx="9" cy="17" r="2.2"/></g></symbol>
+    <symbol id="i-grid" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="6.5" height="6.5" rx="1.6"/><rect x="13.5" y="4" width="6.5" height="6.5" rx="1.6"/><rect x="4" y="13.5" width="6.5" height="6.5" rx="1.6"/><rect x="13.5" y="13.5" width="6.5" height="6.5" rx="1.6"/></g></symbol>
+    <symbol id="i-list" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M9.5 6.5H20M9.5 12H20M9.5 17.5H20"/><path d="M4 6.5l1.2 1.2L7 5.5M4 12l1.2 1.2L7 11"/><circle cx="5.3" cy="17.5" r="1.2"/></g></symbol>
+    <symbol id="i-binder" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M3 5.5c3-1 6-.7 9 1 3-1.7 6-2 9-1V19c-3-1-6-.7-9 1-3-1.7-6-2-9-1z"/><path d="M12 6.5V20"/></g></symbol>
+    <symbol id="i-image" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"><rect x="3.5" y="4.5" width="17" height="15" rx="2.5"/><circle cx="9" cy="10" r="1.7"/><path d="M20.5 16l-5-5L7 19.5"/></g></symbol>
+    <symbol id="i-image-off" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"><path d="M6 4.5h12a2.5 2.5 0 0 1 2.5 2.5v10M18 19.5H6A2.5 2.5 0 0 1 3.5 17V7"/><path d="M3 3l18 18"/></g></symbol>
+    <symbol id="i-sun" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M5.3 18.7l1.4-1.4M17.3 6.7l1.4-1.4"/></g></symbol>
+    <symbol id="i-moon" viewBox="0 0 24 24"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
+    <symbol id="i-monitor" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4.5" width="18" height="12" rx="2"/><path d="M9 20h6M12 16.5V20"/></g></symbol>
+    <symbol id="i-dots" viewBox="0 0 24 24"><g fill="currentColor"><circle cx="5.5" cy="12" r="1.9"/><circle cx="12" cy="12" r="1.9"/><circle cx="18.5" cy="12" r="1.9"/></g></symbol>
+    <symbol id="i-share" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="17.5" cy="5.5" r="2.5"/><circle cx="6.5" cy="12" r="2.5"/><circle cx="17.5" cy="18.5" r="2.5"/><path d="M8.7 10.7l6.6-3.9M8.7 13.3l6.6 3.9"/></g></symbol>
+    <symbol id="i-link" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l2.8-2.8a4.5 4.5 0 0 0-6.4-6.4L11.5 6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-2.8 2.8a4.5 4.5 0 0 0 6.4 6.4l1.3-1.2"/></g></symbol>
+    <symbol id="i-copy" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><rect x="8.5" y="8.5" width="11" height="11" rx="2.2"/><path d="M15.5 8.5V6.7a2.2 2.2 0 0 0-2.2-2.2H6.7a2.2 2.2 0 0 0-2.2 2.2v6.6a2.2 2.2 0 0 0 2.2 2.2h1.8"/></g></symbol>
+    <symbol id="i-download" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v11M7.5 10.5L12 15l4.5-4.5M5 19.5h14"/></g></symbol>
+    <symbol id="i-upload" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 15.5v-11M7.5 9L12 4.5 16.5 9M5 19.5h14"/></g></symbol>
+    <symbol id="i-bolt" viewBox="0 0 24 24"><path d="M13.5 3L5.5 13.5h6L10.5 21l8-10.5h-6z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
+    <symbol id="i-chart" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 20h16"/><path d="M7 16.5v-5M12 16.5V6M17 16.5v-8"/></g></symbol>
+    <symbol id="i-help" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="8.5"/><path d="M9.6 9.4a2.5 2.5 0 0 1 4.8.9c0 1.7-2.4 2.2-2.4 3.7"/><circle cx="12" cy="17" r=".6" fill="currentColor"/></g></symbol>
+    <symbol id="i-undo" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 7L4.5 11.5 9 16"/><path d="M5 11.5h9.5a5 5 0 0 1 0 10H12"/></g></symbol>
+    <symbol id="i-refresh" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19.5 12a7.5 7.5 0 1 1-2.2-5.3"/><path d="M19.5 4.5v4.2h-4.2"/></g></symbol>
+    <symbol id="i-trash" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 7h15M9.5 7V4.8h5V7M6.5 7l.9 12.2a1.5 1.5 0 0 0 1.5 1.3h6.2a1.5 1.5 0 0 0 1.5-1.3L17.5 7"/></g></symbol>
+    <symbol id="i-offline" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 18.5h10.5a4 4 0 0 0 .6-8 6 6 0 0 0-11.6-1.4A4.8 4.8 0 0 0 7 18.5z"/><path d="M12 10.5v5M9.8 13.5l2.2 2.2 2.2-2.2"/></g></symbol>
+    <symbol id="i-stack" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><rect x="8" y="3.5" width="11" height="15" rx="2"/><path d="M5 7v11.5a2 2 0 0 0 2 2h8.5"/></g></symbol>
+    <symbol id="i-sparkle" viewBox="0 0 24 24"><path d="M12 3l1.9 5.6L19.5 10l-5.6 1.9L12 17.5l-1.9-5.6L4.5 10l5.6-1.4z" fill="currentColor"/></symbol>
+    <symbol id="i-chevron-left" viewBox="0 0 24 24"><path d="M14.5 5.5L8 12l6.5 6.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-chevron-right" viewBox="0 0 24 24"><path d="M9.5 5.5L16 12l-6.5 6.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-mode-check" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="3.5" width="17" height="17" rx="4.5"/><path d="M8 12.3l2.7 2.7L16.2 9.5"/></g></symbol>
+    <symbol id="i-mode-count" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="3.5" width="17" height="17" rx="4.5"/><path d="M7 12h5M9.5 9.5v5M14.5 10l2-1.5v7"/></g></symbol>
+    <symbol id="i-motion" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="8" y="3.5" width="8" height="17" rx="2"/><path d="M4.5 8.5a6 6 0 0 0 0 7M19.5 8.5a6 6 0 0 1 0 7"/></g></symbol>
+
+    <symbol id="r-common" viewBox="0 0 16 16"><circle cx="8" cy="8" r="4.3" fill="currentColor"/></symbol>
+    <symbol id="r-rare" viewBox="0 0 16 16"><path d="M8 1.9l1.6 4.4 4.7.2-3.7 2.9 1.3 4.5L8 11.3l-3.9 2.6 1.3-4.5-3.7-2.9 4.7-.2z" fill="currentColor"/></symbol>
+    <symbol id="r-double" viewBox="0 0 26 16"><g fill="currentColor"><path d="M7.5 2.4l1.5 4.1 4.3.2-3.4 2.7 1.2 4.1-3.6-2.4-3.6 2.4 1.2-4.1L1.7 6.7 6 6.5z"/><path d="M18.5 2.4l1.5 4.1 4.3.2-3.4 2.7 1.2 4.1-3.6-2.4-3.6 2.4 1.2-4.1-3.4-2.7 4.3-.2z"/></g></symbol>
+    <symbol id="r-ir" viewBox="0 0 16 16"><path d="M8 1.9l1.6 4.4 4.7.2-3.7 2.9 1.3 4.5L8 11.3l-3.9 2.6 1.3-4.5-3.7-2.9 4.7-.2z" fill="#E3A72F"/></symbol>
+    <symbol id="r-sir" viewBox="0 0 26 16"><g fill="#E3A72F"><path d="M7.5 2.4l1.5 4.1 4.3.2-3.4 2.7 1.2 4.1-3.6-2.4-3.6 2.4 1.2-4.1L1.7 6.7 6 6.5z"/><path d="M18.5 2.4l1.5 4.1 4.3.2-3.4 2.7 1.2 4.1-3.6-2.4-3.6 2.4 1.2-4.1-3.4-2.7 4.3-.2z"/></g></symbol>
+    <symbol id="r-fr" viewBox="0 0 16 16"><path d="M8 1.9l1.6 4.4 4.7.2-3.7 2.9 1.3 4.5L8 11.3l-3.9 2.6 1.3-4.5-3.7-2.9 4.7-.2z" fill="#1BA99E"/></symbol>
+    <symbol id="r-classic" viewBox="0 0 26 16"><path d="M7.5 2.4l1.5 4.1 4.3.2-3.4 2.7 1.2 4.1-3.6-2.4-3.6 2.4 1.2-4.1L1.7 6.7 6 6.5z" fill="currentColor"/><path d="M23.4 5.1a4.1 4.1 0 1 0 0 5.8" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round"/></symbol>
+    <symbol id="r-pikachu" viewBox="0 0 16 16"><path d="M1 1.2l4.6 5.3c1.5-.6 3.3-.6 4.8 0L15 1.2l-1.7 7c.8 1.4.8 2.9-.1 4.2C12 14.2 10.2 15 8 15s-4-.8-5.2-2.6c-.9-1.3-.9-2.8-.1-4.2z" fill="currentColor"/></symbol>
+    <symbol id="r-rgb" viewBox="0 0 26 16"><g fill-opacity=".9"><circle cx="7.5" cy="8" r="5.3" fill="#E5484D"/><circle cx="13" cy="8" r="5.3" fill="#2FA86A"/><circle cx="18.5" cy="8" r="5.3" fill="#3E6BE0"/></g></symbol>
+    <symbol id="r-uncommon" viewBox="0 0 16 16"><path d="M8 2.2l5.4 5.8L8 13.8 2.6 8z" fill="currentColor"/></symbol>
+    <symbol id="r-ultra" viewBox="0 0 26 16"><g fill="#E4E9F1" stroke="currentColor" stroke-width="1.1" stroke-linejoin="round"><path d="M7.4 2.4L8.9 6.3L13.1 6.5L9.9 9.2L10.9 13.3L7.4 11.0L3.9 13.3L4.9 9.2L1.7 6.5L5.9 6.3z"/><path d="M18.6 2.4L20.1 6.3L24.3 6.5L21.1 9.2L22.1 13.3L18.6 11.0L15.1 13.3L16.1 9.2L12.9 6.5L17.1 6.3z"/></g></symbol>
+    <symbol id="r-ace" viewBox="0 0 16 16"><path d="M8.0 1.8L9.7 6.1L14.3 6.4L10.7 9.3L11.9 13.7L8.0 11.2L4.1 13.7L5.3 9.3L1.7 6.4L6.3 6.1z" fill="#D6457F"/></symbol>
+    <symbol id="r-shiny" viewBox="0 0 16 16"><path d="M7.4 2.6L9.0 6.6L13.3 6.9L9.9 9.6L11.0 13.8L7.4 11.5L3.8 13.8L4.9 9.6L1.5 6.9L5.8 6.6z" fill="#46B3C9"/><path d="M13.3 1.2l.6 1.6 1.6.6-1.6.6-.6 1.6-.6-1.6-1.6-.6 1.6-.6z" fill="#fff" stroke="currentColor" stroke-width=".5"/></symbol>
+    <symbol id="r-shiny-ultra" viewBox="0 0 26 16"><g fill="#46B3C9"><path d="M7.4 2.4L8.9 6.3L13.1 6.5L9.9 9.2L10.9 13.3L7.4 11.0L3.9 13.3L4.9 9.2L1.7 6.5L5.9 6.3z"/><path d="M18.6 2.4L20.1 6.3L24.3 6.5L21.1 9.2L22.1 13.3L18.6 11.0L15.1 13.3L16.1 9.2L12.9 6.5L17.1 6.3z"/></g></symbol>
+    <symbol id="r-mar" viewBox="0 0 16 16"><path d="M8.0 1.8L9.7 6.1L14.3 6.4L10.7 9.3L11.9 13.7L8.0 11.2L4.1 13.7L5.3 9.3L1.7 6.4L6.3 6.1z" fill="#E0663A" stroke="currentColor" stroke-width=".8" stroke-linejoin="round"/></symbol>
+    <symbol id="r-hyper" viewBox="0 0 26 16"><g fill="#E3A72F"><path d="M4.5 4.1L5.6 7.0L8.7 7.1L6.3 9.1L7.1 12.1L4.5 10.4L1.9 12.1L2.7 9.1L0.3 7.1L3.4 7.0z"/><path d="M13.0 4.1L14.1 7.0L17.2 7.1L14.8 9.1L15.6 12.1L13.0 10.4L10.4 12.1L11.2 9.1L8.8 7.1L11.9 7.0z"/><path d="M21.5 4.1L22.6 7.0L25.7 7.1L23.3 9.1L24.1 12.1L21.5 10.4L18.9 12.1L19.7 9.1L17.3 7.1L20.4 7.0z"/></g></symbol>
+    <symbol id="r-bwr" viewBox="0 0 26 16"><path d="M7.4 2.4L8.9 6.3L13.1 6.5L9.9 9.2L10.9 13.3L7.4 11.0L3.9 13.3L4.9 9.2L1.7 6.5L5.9 6.3z" fill="currentColor"/><path d="M18.6 2.4L20.1 6.3L24.3 6.5L21.1 9.2L22.1 13.3L18.6 11.0L15.1 13.3L16.1 9.2L12.9 6.5L17.1 6.3z" fill="#fff" stroke="currentColor" stroke-width="1.1" stroke-linejoin="round"/></symbol>
+    <symbol id="r-mhr" viewBox="0 0 26 16"><g fill="#E0663A"><path d="M4.5 4.1L5.6 7.0L8.7 7.1L6.3 9.1L7.1 12.1L4.5 10.4L1.9 12.1L2.7 9.1L0.3 7.1L3.4 7.0z"/><path d="M13.0 4.1L14.1 7.0L17.2 7.1L14.8 9.1L15.6 12.1L13.0 10.4L10.4 12.1L11.2 9.1L8.8 7.1L11.9 7.0z"/><path d="M21.5 4.1L22.6 7.0L25.7 7.1L23.3 9.1L24.1 12.1L21.5 10.4L18.9 12.1L19.7 9.1L17.3 7.1L20.4 7.0z"/></g></symbol>
+    <symbol id="r-promo" viewBox="0 0 16 16"><circle cx="8" cy="8" r="6.9" fill="none" stroke="currentColor" stroke-width="1.3"/><path d="M8 3.4l1.09 3.1 3.29.08-2.62 1.99.94 3.15L8 9.85l-2.7 1.87.94-3.15-2.62-1.99 3.29-.08z" fill="currentColor"/></symbol>
+
+    <symbol id="e-grass" viewBox="0 0 16 16"><circle cx="8" cy="8" r="7.5" fill="#3E9A45"/><path d="M4.6 11.4c0-4.3 2.8-6.8 7-7 0 4.3-2.6 7-7 7z" fill="#fff"/><path d="M4.6 11.4l4.4-4.4" stroke="#3E9A45" stroke-width="1.1" stroke-linecap="round"/></symbol>
+    <symbol id="e-fire" viewBox="0 0 16 16"><circle cx="8" cy="8" r="7.5" fill="#E2502B"/><path d="M8 2.8c.9 2.2 3.6 3.6 3.6 6.4a3.6 3.6 0 0 1-7.2 0c0-1.7 1.2-2.6 1.7-3.9.6 1 1 1.5 1.4 1.8.2-1.5-.1-2.8.5-4.3z" fill="#fff"/></symbol>
+    <symbol id="e-water" viewBox="0 0 16 16"><circle cx="8" cy="8" r="7.5" fill="#2C84D6"/><path d="M8 3c1.8 2.6 3.6 4.6 3.6 6.6a3.6 3.6 0 0 1-7.2 0C4.4 7.6 6.2 5.6 8 3z" fill="#fff"/></symbol>
+    <symbol id="e-lightning" viewBox="0 0 16 16"><circle cx="8" cy="8" r="7.5" fill="#F4C51D"/><path d="M9.2 2.6L4.8 8.9h2.8l-.8 4.5 4.4-6.3H8.4z" fill="#1A1F45"/></symbol>
+    <symbol id="e-psychic" viewBox="0 0 16 16"><circle cx="8" cy="8" r="7.5" fill="#8C4BC6"/><path d="M2.8 8c1.8-2.9 8.6-2.9 10.4 0-1.8 2.9-8.6 2.9-10.4 0z" fill="#fff"/><circle cx="8" cy="8" r="1.7" fill="#8C4BC6"/></symbol>
+    <symbol id="e-fighting" viewBox="0 0 16 16"><circle cx="8" cy="8" r="7.5" fill="#BE652E"/><rect x="4.4" y="5" width="7.2" height="6.4" rx="1.8" fill="#fff"/><path d="M6.8 5v3M9.2 5v3" stroke="#BE652E" stroke-width="1" stroke-linecap="round"/></symbol>
+    <symbol id="e-darkness" viewBox="0 0 16 16"><circle cx="8" cy="8" r="7.5" fill="#26394A"/><path d="M10.2 3.4a4.9 4.9 0 1 0 2.4 8.2 4 4 0 1 1-2.4-8.2z" fill="#fff"/></symbol>
+    <symbol id="e-metal" viewBox="0 0 16 16"><circle cx="8" cy="8" r="7.5" fill="#8A97A5"/><path d="M8 3.4l4.4 7.8H3.6z M8 6.3l-2 3.6h4z" fill="#fff" fill-rule="evenodd"/></symbol>
+  </defs>
+</svg>
+
+<a class="skip-link" href="#collection">Skip to cards</a>
+
+<div class="topbar" id="topbar">
+  <header class="appbar" id="appbar">
+    <div class="wrap appbar__inner">
+      <h1 class="brand-heading">
+        <a class="brand" href="./" title="Binder Tracker: all collections">
+          <svg class="brand__mark" aria-hidden="true"><use href="#logo-mark"/></svg>
+          <span class="brand__text">
+            <span class="brand__kicker">Binder Tracker<span class="brand__kicker-game"> · {{gameName}}</span></span>
+            <span class="brand__title"><span class="brand__gold">{{name}}</span> <span class="brand__rest">Checklist</span></span>
+          </span>
+        </a>
+      </h1>
+      <label class="search search--desktop desktop-only">
+        <svg class="search__icon" aria-hidden="true"><use href="#i-search"/></svg>
+        <input type="search" class="search__input" data-search placeholder="Search name, number or rarity…" aria-label="Search cards" autocomplete="off" enterkeyhint="search">
+        <kbd class="search__kbd">/</kbd>
+      </label>
+      <div class="appbar__actions">
+        <button class="progress-pill" type="button" data-open="stats" aria-label="Collection progress — open statistics">
+          <span class="progress-pill__nums"><b data-stat="owned">0</b><span class="progress-pill__total">/<span data-stat="total">0</span></span></span>
+          <span class="progress-pill__pct" data-stat="pct">0%</span>
+          <span class="progress-pill__bar" aria-hidden="true"><i data-stat="bar"></i></span>
+        </button>
+        <button class="icon-btn icon-btn--header desktop-only" type="button" data-open="quickadd" title="Quick add (Q)" aria-label="Quick add"><svg><use href="#i-bolt"/></svg></button>
+        <button class="icon-btn icon-btn--header desktop-only" type="button" data-open="share" title="Share &amp; sync" aria-label="Share and sync"><svg><use href="#i-share"/></svg></button>
+        <button class="icon-btn icon-btn--header desktop-only" type="button" data-open="menu" title="More" aria-label="More options"><svg><use href="#i-dots"/></svg></button>
+      </div>
+    </div>
+  </header>
+
+  <div class="toolbar desktop-only" role="toolbar" aria-label="View and filter controls">
+    <div class="wrap toolbar__inner">
+      <div class="seg" role="group" aria-label="Show">
+        <button type="button" class="seg__btn" data-filter="status" data-value="all">All</button>
+        <button type="button" class="seg__btn" data-filter="status" data-value="owned">Owned</button>
+        <button type="button" class="seg__btn" data-filter="status" data-value="missing">Missing</button>
+        <button type="button" class="seg__btn" data-filter="status" data-value="dupes">Duplicates</button>
+      </div>
+      <button type="button" class="btn btn--ghost" data-open="filters"><svg><use href="#i-filter"/></svg>Filters<span class="count-badge" data-filter-count hidden></span></button>
+      <label class="select">
+        <span class="select__label">Sort</span>
+        <select data-pref-select="sort" aria-label="Sort cards">
+          <option value="set">Set order</option>
+          <option value="name">Name</option>
+          <option value="rarity">Rarity</option>
+        </select>
+      </label>
+      <span class="toolbar__spacer"></span>
+      <div class="seg" role="group" aria-label="Layout">
+        <button type="button" class="seg__btn" data-pref="view" data-value="grid" title="Grid"><svg><use href="#i-grid"/></svg><span>Grid</span></button>
+        <button type="button" class="seg__btn" data-pref="view" data-value="list" title="List"><svg><use href="#i-list"/></svg><span>List</span></button>
+        <button type="button" class="seg__btn" data-pref="view" data-value="binder" title="Binder"><svg><use href="#i-binder"/></svg><span>Binder</span></button>
+      </div>
+      <button type="button" class="btn btn--ghost btn--toggle" data-pref-toggle="images" title="Show card images"><svg class="when-on"><use href="#i-image"/></svg><svg class="when-off"><use href="#i-image-off"/></svg>Images</button>
+      <div class="seg seg--compact" role="group" aria-label="Card size" data-show-for="grid">
+        <button type="button" class="seg__btn" data-pref="size" data-value="s" title="Small cards">S</button>
+        <button type="button" class="seg__btn" data-pref="size" data-value="m" title="Medium cards">M</button>
+        <button type="button" class="seg__btn" data-pref="size" data-value="l" title="Large cards">L</button>
+      </div>
+      <div class="seg seg--compact" role="group" aria-label="Pockets per page" data-show-for="binder">
+        <button type="button" class="seg__btn" data-pref="pockets" data-value="4" title="4-pocket pages">4</button>
+        <button type="button" class="seg__btn" data-pref="pockets" data-value="9" title="9-pocket pages">9</button>
+        <button type="button" class="seg__btn" data-pref="pockets" data-value="12" title="12-pocket pages">12</button>
+      </div>
+      <div class="seg seg--mode" role="group" aria-label="Tap mode">
+        <button type="button" class="seg__btn" data-pref="mode" data-value="check" title="Tap marks a card owned (M)"><svg><use href="#i-mode-check"/></svg><span>Check</span></button>
+        <button type="button" class="seg__btn" data-pref="mode" data-value="count" title="Tap adds a copy (M)"><svg><use href="#i-mode-count"/></svg><span>Count</span></button>
+      </div>
+    </div>
+  </div>
+
+  <div class="mobile-search mobile-only" id="mobile-search" hidden>
+    <div class="wrap mobile-search__inner">
+      <label class="search">
+        <svg class="search__icon" aria-hidden="true"><use href="#i-search"/></svg>
+        <input type="search" class="search__input" data-search placeholder="Search name, number, rarity…" aria-label="Search cards" autocomplete="off" enterkeyhint="search">
+      </label>
+      <button type="button" class="btn btn--ghost" data-action="close-search">Done</button>
+    </div>
+  </div>
+
+  <div class="preview-banner" id="preview-banner" hidden role="status">
+    <div class="wrap preview-banner__inner">
+      <span class="preview-banner__text"><b>Viewing a shared collection</b> <span data-preview-count></span></span>
+      <span class="preview-banner__actions">
+        <button type="button" class="btn btn--primary btn--sm" data-action="preview-merge">Merge into mine</button>
+        <button type="button" class="btn btn--ghost btn--sm" data-action="preview-exit">Exit</button>
+      </span>
+    </div>
+  </div>
+
+  <nav class="jumpbar" aria-label="Jump to section">
+    <div class="wrap jumpbar__inner" id="jumpbar"></div>
+  </nav>
+</div>
+
+<div class="banner" id="storage-banner" hidden role="status">
+  <div class="wrap">Your browser is blocking storage, so progress won’t be saved after you close this page. Use <b>Export backup</b> in the menu to keep a copy.</div>
+</div>
+
+<div class="banner banner--error" id="load-error" hidden role="alert">
+  <div class="wrap">This set couldn’t be loaded. Check your connection, then reload the page.</div>
+</div>
+
+<div class="tier-bar wrap">
+  <span class="tier-bar__label" id="tier-label">Collecting</span>
+  <div class="seg seg--full seg--tier" id="tier-picker" role="group" aria-labelledby="tier-label"></div>
+</div>
+
+<main id="collection" class="collection wrap" tabindex="-1" aria-label="Cards"></main>
+
+<div class="empty-state wrap" id="empty-state" hidden>
+  <svg class="empty-state__icon" aria-hidden="true"><use href="#i-search"/></svg>
+  <p class="empty-state__title">No cards match</p>
+  <p class="empty-state__text">Try a different search or clear your filters.</p>
+  <button type="button" class="btn btn--primary" data-action="clear-filters">Clear filters</button>
+</div>
+
+<button type="button" class="refresh-chip" id="refresh-chip" hidden data-action="refresh-filter"><svg><use href="#i-refresh"/></svg><span></span></button>
+
+<section class="about wrap" aria-labelledby="about-title">
+  <h2 class="about__title" id="about-title">{{aboutTitle}}</h2>
+  {{{aboutHtml}}}
+</section>
+
+<footer class="site-footer wrap">
+  <nav class="footer-links" aria-label="Site">
+    <a href="./">All collections</a>
+    <a href="privacy.html">Privacy &amp; cookies</a>
+    <a href="terms.html">Terms of use</a>
+    <a href="https://github.com/BenBrady96/pokemon-checklist-webpage" rel="noopener">Source on GitHub</a>
+  </nav>
+  <p><strong>Binder Tracker is an unofficial fan-made checklist.</strong> {{disclaimer}}</p>
+  <p>Your collection is stored only in this browser. Back it up from <button type="button" class="link-btn" data-open="menu">the menu</button> or move it between devices with a <button type="button" class="link-btn" data-open="share">sync link</button>.</p>
+</footer>
+
+<nav class="bottombar mobile-only" aria-label="Controls">
+  <button type="button" class="bottombar__btn" data-action="open-search"><svg><use href="#i-search"/></svg><span>Search</span></button>
+  <button type="button" class="bottombar__btn" data-open="filters"><svg><use href="#i-filter"/></svg><span>Filter</span><i class="dot-badge" data-filter-count hidden></i></button>
+  <button type="button" class="bottombar__btn" data-open="view"><svg data-view-icon><use href="#i-grid"/></svg><span>View</span></button>
+  <button type="button" class="bottombar__btn bottombar__mode" data-action="toggle-mode" aria-label="Tap mode"><svg data-mode-icon><use href="#i-mode-check"/></svg><span data-mode-label>Check</span></button>
+  <button type="button" class="bottombar__btn" data-open="menu"><svg><use href="#i-dots"/></svg><span>More</span></button>
+</nav>
+
+<dialog class="viewer" id="dlg-viewer" aria-labelledby="viewer-name">
+  <div class="viewer__inner">
+    <div class="viewer__bar">
+      <span class="viewer__pos" data-viewer="pos"></span>
+      <button type="button" class="viewer__motion" data-viewer="motion" hidden><svg><use href="#i-motion"/></svg>Tilt with motion</button>
+      <button type="button" class="icon-btn icon-btn--dark" data-close aria-label="Close viewer"><svg><use href="#i-close"/></svg></button>
+    </div>
+    <div class="viewer__stage" data-viewer="stage">
+      <button type="button" class="viewer__nav viewer__nav--prev" data-viewer="prev" aria-label="Previous card"><svg><use href="#i-chevron-left"/></svg></button>
+      <div class="viewer__card" data-viewer="card">
+        <img class="viewer__img viewer__img--low" data-viewer="low" alt="" draggable="false">
+        <img class="viewer__img viewer__img--high" data-viewer="high" alt="" draggable="false">
+        <span class="viewer__ph" data-viewer="ph" hidden></span>
+        <span class="viewer__foil" aria-hidden="true"></span>
+        <span class="viewer__glare" aria-hidden="true"></span>
+      </div>
+      <button type="button" class="viewer__nav viewer__nav--next" data-viewer="next" aria-label="Next card"><svg><use href="#i-chevron-right"/></svg></button>
+    </div>
+    <div class="viewer__info">
+      <p class="viewer__meta"><span data-viewer="num"></span><span class="viewer__rarity"><svg class="rar" data-viewer="rarity-icon"><use href="#r-common"/></svg><span data-viewer="rarity"></span></span></p>
+      <h2 class="viewer__name" id="viewer-name" data-viewer="name"></h2>
+      <p class="viewer__note" data-viewer="note" hidden></p>
+      <div class="viewer__actions">
+        <button type="button" class="owned-btn" role="switch" aria-checked="false" data-viewer="owned">
+          <span class="owned-btn__box"><svg><use href="#i-check"/></svg></span>
+          <span class="owned-btn__label" data-viewer="owned-label">Mark owned</span>
+        </button>
+        <div class="stepper" role="group" aria-label="Copies">
+          <button type="button" class="stepper__btn" data-viewer="minus" aria-label="Remove a copy"><svg><use href="#i-minus"/></svg></button>
+          <output class="stepper__value" data-viewer="qty" aria-live="polite">0</output>
+          <button type="button" class="stepper__btn" data-viewer="plus" aria-label="Add a copy"><svg><use href="#i-plus"/></svg></button>
+        </div>
+      </div>
+      <p class="viewer__hint desktop-only">← → to browse · Space to mark · +/− copies · Esc to close</p>
+    </div>
+  </div>
+</dialog>
+
+<dialog class="sheet" id="dlg-filters" aria-labelledby="filters-title">
+  <div class="sheet__inner">
+    <header class="sheet__head">
+      <h2 class="sheet__title" id="filters-title">Filters</h2>
+      <button type="button" class="icon-btn" data-close aria-label="Close"><svg><use href="#i-close"/></svg></button>
+    </header>
+    <div class="sheet__body">
+      <section class="field">
+        <h3 class="field__label">Show</h3>
+        <div class="seg seg--full" role="group" aria-label="Show">
+          <button type="button" class="seg__btn" data-filter="status" data-value="all">All</button>
+          <button type="button" class="seg__btn" data-filter="status" data-value="owned">Owned</button>
+          <button type="button" class="seg__btn" data-filter="status" data-value="missing">Missing</button>
+          <button type="button" class="seg__btn" data-filter="status" data-value="dupes">Dupes</button>
+        </div>
+      </section>
+      <section class="field" id="rarity-field">
+        <h3 class="field__label">Rarity</h3>
+        <div class="chips" id="rarity-chips"></div>
+      </section>
+      <section class="field" id="section-field">
+        <h3 class="field__label">Section</h3>
+        <div class="chips" id="section-chips"></div>
+      </section>
+      <section class="field mobile-only">
+        <h3 class="field__label">Sort</h3>
+        <div class="seg seg--full" role="group" aria-label="Sort">
+          <button type="button" class="seg__btn" data-pref="sort" data-value="set">Set order</button>
+          <button type="button" class="seg__btn" data-pref="sort" data-value="name">Name</button>
+          <button type="button" class="seg__btn" data-pref="sort" data-value="rarity">Rarity</button>
+        </div>
+      </section>
+    </div>
+    <footer class="sheet__foot">
+      <button type="button" class="btn btn--ghost" data-action="clear-filters">Reset</button>
+      <button type="button" class="btn btn--primary" data-close data-filter-result>Show cards</button>
+    </footer>
+  </div>
+</dialog>
+
+<dialog class="sheet" id="dlg-view" aria-labelledby="view-title">
+  <div class="sheet__inner">
+    <header class="sheet__head">
+      <h2 class="sheet__title" id="view-title">View</h2>
+      <button type="button" class="icon-btn" data-close aria-label="Close"><svg><use href="#i-close"/></svg></button>
+    </header>
+    <div class="sheet__body">
+      <div class="view-picker" role="group" aria-label="Layout">
+        <button type="button" class="view-picker__btn" data-pref="view" data-value="grid"><svg><use href="#i-grid"/></svg><span>Grid</span></button>
+        <button type="button" class="view-picker__btn" data-pref="view" data-value="list"><svg><use href="#i-list"/></svg><span>List</span></button>
+        <button type="button" class="view-picker__btn" data-pref="view" data-value="binder"><svg><use href="#i-binder"/></svg><span>Binder</span></button>
+      </div>
+      <section class="field" data-show-for="grid">
+        <h3 class="field__label">Card size</h3>
+        <div class="seg seg--full" role="group" aria-label="Card size">
+          <button type="button" class="seg__btn" data-pref="size" data-value="s">Small</button>
+          <button type="button" class="seg__btn" data-pref="size" data-value="m">Medium</button>
+          <button type="button" class="seg__btn" data-pref="size" data-value="l">Large</button>
+        </div>
+      </section>
+      <section class="field" data-show-for="binder">
+        <h3 class="field__label">Pockets per page</h3>
+        <div class="seg seg--full" role="group" aria-label="Pockets per page">
+          <button type="button" class="seg__btn" data-pref="pockets" data-value="4">4</button>
+          <button type="button" class="seg__btn" data-pref="pockets" data-value="9">9</button>
+          <button type="button" class="seg__btn" data-pref="pockets" data-value="12">12</button>
+        </div>
+      </section>
+      <div class="switch-row">
+        <span><b>Card images</b><small>Turn off for a compact text checklist</small></span>
+        <button type="button" class="switch" role="switch" data-pref-toggle="images" aria-label="Card images"></button>
+      </div>
+      <div class="switch-row">
+        <span><b>Fade missing cards</b><small>Owned cards stay in full colour</small></span>
+        <button type="button" class="switch" role="switch" data-pref-toggle="dim" aria-label="Fade missing cards"></button>
+      </div>
+      <section class="field">
+        <h3 class="field__label">Theme</h3>
+        <div class="seg seg--full" role="group" aria-label="Theme">
+          <button type="button" class="seg__btn" data-pref="theme" data-value="system"><svg><use href="#i-monitor"/></svg>Auto</button>
+          <button type="button" class="seg__btn" data-pref="theme" data-value="light"><svg><use href="#i-sun"/></svg>Light</button>
+          <button type="button" class="seg__btn" data-pref="theme" data-value="dark"><svg><use href="#i-moon"/></svg>Dark</button>
+        </div>
+      </section>
+    </div>
+  </div>
+</dialog>
+
+<dialog class="sheet" id="dlg-menu" aria-labelledby="menu-title">
+  <div class="sheet__inner">
+    <header class="sheet__head">
+      <h2 class="sheet__title" id="menu-title">Menu</h2>
+      <button type="button" class="icon-btn" data-close aria-label="Close"><svg><use href="#i-close"/></svg></button>
+    </header>
+    <div class="sheet__body menu">
+      <div class="menu__group">
+        <a class="menu__item" href="./"><svg><use href="#i-stack"/></svg><span><b>All collections</b><small>Switch to another set or start a new one</small></span></a>
+      </div>
+      <div class="menu__group">
+        <button type="button" class="menu__item" data-open="quickadd"><svg><use href="#i-bolt"/></svg><span><b>Quick add</b><small>Type card numbers, e.g. 1-22, 55x2</small></span></button>
+        <button type="button" class="menu__item" data-open="stats"><svg><use href="#i-chart"/></svg><span><b>Statistics</b><small>Progress by section and rarity, trade lists</small></span></button>
+        <button type="button" class="menu__item" data-open="share"><svg><use href="#i-share"/></svg><span><b>Share &amp; sync</b><small>Send this set to another device or a friend</small></span></button>
+      </div>
+      <div class="menu__group">
+        <h3 class="menu__label">Shown cards</h3>
+        <button type="button" class="menu__item" data-action="mark-shown"><svg><use href="#i-check"/></svg><span><b>Mark all shown as owned</b><small data-shown-count></small></span></button>
+        <button type="button" class="menu__item" data-action="clear-shown"><svg><use href="#i-minus"/></svg><span><b>Unmark all shown</b><small>Respects your current search and filters</small></span></button>
+      </div>
+      <div class="menu__group">
+        <h3 class="menu__label">Backup</h3>
+        <button type="button" class="menu__item" data-open="export"><svg><use href="#i-download"/></svg><span><b>Export backup</b><small data-last-backup>Copy a code or save a file</small></span></button>
+        <button type="button" class="menu__item" data-open="import"><svg><use href="#i-upload"/></svg><span><b>Import backup</b><small>Paste a code or link, or choose a file</small></span></button>
+        <button type="button" class="menu__item" data-action="save-offline" data-offline-item hidden><svg><use href="#i-offline"/></svg><span><b>Save images for offline</b><small data-offline-status>Use the checklist with no signal</small></span></button>
+      </div>
+      <div class="menu__group desktop-only">
+        <h3 class="menu__label">Appearance</h3>
+        <div class="switch-row">
+          <span><b>Fade missing cards</b><small>Owned cards stay in full colour</small></span>
+          <button type="button" class="switch" role="switch" data-pref-toggle="dim" aria-label="Fade missing cards"></button>
+        </div>
+        <div class="seg seg--full" role="group" aria-label="Theme">
+          <button type="button" class="seg__btn" data-pref="theme" data-value="system"><svg><use href="#i-monitor"/></svg>Auto</button>
+          <button type="button" class="seg__btn" data-pref="theme" data-value="light"><svg><use href="#i-sun"/></svg>Light</button>
+          <button type="button" class="seg__btn" data-pref="theme" data-value="dark"><svg><use href="#i-moon"/></svg>Dark</button>
+        </div>
+      </div>
+      <div class="menu__group">
+        <button type="button" class="menu__item" data-open="help"><svg><use href="#i-help"/></svg><span><b>Help &amp; shortcuts</b><small>Gestures, keyboard shortcuts and tips</small></span></button>
+        <button type="button" class="menu__item menu__item--danger" data-action="reset"><svg><use href="#i-trash"/></svg><span><b>Reset this set</b><small>Unmark every card in it (you can undo)</small></span></button>
+      </div>
+    </div>
+  </div>
+</dialog>
+
+<dialog class="sheet sheet--wide" id="dlg-stats" aria-labelledby="stats-title">
+  <div class="sheet__inner">
+    <header class="sheet__head">
+      <h2 class="sheet__title" id="stats-title">Statistics</h2>
+      <button type="button" class="icon-btn" data-close aria-label="Close"><svg><use href="#i-close"/></svg></button>
+    </header>
+    <div class="sheet__body" id="stats-body"></div>
+    <footer class="sheet__foot sheet__foot--wrap">
+      <button type="button" class="btn btn--ghost" data-action="copy-missing"><svg><use href="#i-copy"/></svg>Copy missing list</button>
+      <button type="button" class="btn btn--ghost" data-action="copy-dupes"><svg><use href="#i-copy"/></svg>Copy duplicates list</button>
+    </footer>
+  </div>
+</dialog>
+
+<dialog class="sheet" id="dlg-quickadd" aria-labelledby="quickadd-title">
+  <div class="sheet__inner">
+    <header class="sheet__head">
+      <h2 class="sheet__title" id="quickadd-title">Quick add</h2>
+      <button type="button" class="icon-btn" data-close aria-label="Close"><svg><use href="#i-close"/></svg></button>
+    </header>
+    <div class="sheet__body">
+      <label class="field">
+        <span class="field__label">Card numbers</span>
+        <textarea class="textarea" id="quickadd-input" rows="3" placeholder="e.g. 1-22, 55, 60x2" spellcheck="false" autocomplete="off" autocapitalize="characters"></textarea>
+      </label>
+      <p class="hint" id="quickadd-hint">Separate with commas or spaces. <b>1-22</b> is a range and <b>55x2</b> is two copies.</p>
+      <div class="qa-preview" id="quickadd-preview" aria-live="polite"></div>
+    </div>
+    <footer class="sheet__foot sheet__foot--wrap">
+      <button type="button" class="btn btn--ghost" data-qa="missing">Mark missing</button>
+      <button type="button" class="btn btn--ghost" data-qa="add">Add +1 each</button>
+      <button type="button" class="btn btn--primary" data-qa="owned">Mark owned</button>
+    </footer>
+  </div>
+</dialog>
+
+<dialog class="sheet" id="dlg-share" aria-labelledby="share-title">
+  <div class="sheet__inner">
+    <header class="sheet__head">
+      <h2 class="sheet__title" id="share-title">Share &amp; sync</h2>
+      <button type="button" class="icon-btn" data-close aria-label="Close"><svg><use href="#i-close"/></svg></button>
+    </header>
+    <div class="sheet__body share">
+      <p class="hint">This link contains your cards from this set, including copy counts. Open it on another phone or computer to copy your progress there, or send it to a friend to show off your binder.</p>
+      <div class="share__qr" id="share-qr" aria-label="QR code of your sync link" role="img"></div>
+      <div class="share__link">
+        <input class="input" id="share-url" readonly aria-label="Sync link">
+        <button type="button" class="btn btn--primary" data-action="copy-link"><svg><use href="#i-copy"/></svg>Copy</button>
+      </div>
+      <button type="button" class="btn btn--ghost btn--block" data-action="native-share" hidden><svg><use href="#i-share"/></svg>Share…</button>
+      <p class="hint hint--small">Scan the QR code with your phone’s camera to open your collection there. The link is a snapshot — share a new one after you update your collection.</p>
+      <p class="hint hint--small">Moving to a Home Screen app on iPhone or iPad? Links open in Safari, not the app, so copy the link and paste it into <b>Import backup</b> in the app.</p>
+    </div>
+  </div>
+</dialog>
+
+<dialog class="sheet" id="dlg-export" aria-labelledby="export-title">
+  <div class="sheet__inner">
+    <header class="sheet__head">
+      <h2 class="sheet__title" id="export-title">Export backup</h2>
+      <button type="button" class="icon-btn" data-close aria-label="Close"><svg><use href="#i-close"/></svg></button>
+    </header>
+    <div class="sheet__body backup">
+      <p class="hint">This code holds every set you’re collecting, including copy counts. Paste it into <b>Import backup</b> on another device to copy your cards there, including into a Home Screen app.</p>
+      <textarea class="textarea" id="export-code" rows="3" readonly spellcheck="false" aria-label="Sync code"></textarea>
+      <button type="button" class="btn btn--ghost btn--block" data-action="share-code" hidden><svg><use href="#i-share"/></svg>Share code…</button>
+    </div>
+    <footer class="sheet__foot">
+      <button type="button" class="btn btn--ghost" data-action="save-file"><svg><use href="#i-download"/></svg>Save as file</button>
+      <button type="button" class="btn btn--primary" data-action="copy-code" autofocus><svg><use href="#i-copy"/></svg>Copy code</button>
+    </footer>
+  </div>
+</dialog>
+
+<dialog class="sheet" id="dlg-import" aria-labelledby="import-title">
+  <div class="sheet__inner">
+    <header class="sheet__head">
+      <h2 class="sheet__title" id="import-title">Import backup</h2>
+      <button type="button" class="icon-btn" data-close aria-label="Close"><svg><use href="#i-close"/></svg></button>
+    </header>
+    <div class="sheet__body backup">
+      <p class="hint">Paste a sync code from <b>Export backup</b> or a sync link from <b>Share &amp; sync</b>. You can also restore a backup file.</p>
+      <textarea class="textarea" id="import-code" rows="3" placeholder="Paste a code or link" spellcheck="false" autocomplete="off" autocorrect="off" autocapitalize="off" enterkeyhint="go" aria-label="Sync code or link" aria-describedby="import-status"></textarea>
+      <p class="backup__status" id="import-status" aria-live="polite"></p>
+    </div>
+    <footer class="sheet__foot">
+      <button type="button" class="btn btn--ghost" data-action="choose-file"><svg><use href="#i-upload"/></svg>Choose file</button>
+      <button type="button" class="btn btn--primary" id="import-submit" disabled>Import</button>
+    </footer>
+  </div>
+</dialog>
+
+<dialog class="sheet sheet--small" id="dlg-sync" aria-labelledby="sync-title">
+  <div class="sheet__inner">
+    <header class="sheet__head">
+      <h2 class="sheet__title" id="sync-title">Load collection?</h2>
+      <button type="button" class="icon-btn" data-close aria-label="Close"><svg><use href="#i-close"/></svg></button>
+    </header>
+    <div class="sheet__body">
+      <div class="compare">
+        <div class="compare__col"><span class="compare__label" data-sync="source-label">From link</span><b data-sync="incoming"></b><small data-sync="incoming-copies"></small></div>
+        <div class="compare__col"><span class="compare__label">On this device</span><b data-sync="current"></b><small data-sync="current-copies"></small></div>
+      </div>
+      <p class="hint hint--small" data-sync="names" hidden></p>
+      <p class="hint" data-sync="hint-single"><b>View only</b> shows it without changing your own collection. <b>Merge</b> keeps the highest count for every card. <b>Replace</b> makes this device match exactly. You can undo a merge or replace.</p>
+      <p class="hint" data-sync="hint-multi" hidden><b>Merge</b> keeps the highest count for every card. <b>Replace</b> makes these sets on this device match exactly. Sets that aren’t in the backup aren’t touched, and you can undo straight away.</p>
+    </div>
+    <footer class="sheet__foot sheet__foot--wrap">
+      <button type="button" class="btn btn--ghost" data-sync-choice="view">View only</button>
+      <button type="button" class="btn btn--ghost" data-sync-choice="replace">Replace</button>
+      <button type="button" class="btn btn--primary" data-sync-choice="merge" autofocus>Merge</button>
+    </footer>
+  </div>
+</dialog>
+
+<dialog class="sheet sheet--small" id="dlg-confirm" aria-labelledby="confirm-title">
+  <div class="sheet__inner">
+    <header class="sheet__head">
+      <h2 class="sheet__title" id="confirm-title"></h2>
+    </header>
+    <div class="sheet__body"><p class="hint" id="confirm-text"></p></div>
+    <footer class="sheet__foot">
+      <button type="button" class="btn btn--ghost" data-confirm="no">Cancel</button>
+      <button type="button" class="btn btn--danger" data-confirm="yes"></button>
+    </footer>
+  </div>
+</dialog>
+
+<dialog class="sheet sheet--small" id="dlg-section" aria-labelledby="section-title">
+  <div class="sheet__inner">
+    <header class="sheet__head">
+      <h2 class="sheet__title" id="section-title"></h2>
+      <button type="button" class="icon-btn" data-close aria-label="Close"><svg><use href="#i-close"/></svg></button>
+    </header>
+    <div class="sheet__body menu">
+      <button type="button" class="menu__item" data-section-action="mark"><svg><use href="#i-check"/></svg><span><b>Mark all as owned</b><small>Existing copy counts are kept</small></span></button>
+      <button type="button" class="menu__item" data-section-action="clear"><svg><use href="#i-minus"/></svg><span><b>Unmark all</b><small>You can undo this</small></span></button>
+    </div>
+  </div>
+</dialog>
+
+<dialog class="sheet" id="dlg-info" aria-labelledby="info-title">
+  <div class="sheet__inner">
+    <header class="sheet__head">
+      <h2 class="sheet__title" id="info-title"></h2>
+      <button type="button" class="icon-btn" data-close aria-label="Close"><svg><use href="#i-close"/></svg></button>
+    </header>
+    <div class="sheet__body info" id="info-body"></div>
+  </div>
+</dialog>
+
+<dialog class="sheet" id="dlg-help" aria-labelledby="help-title">
+  <div class="sheet__inner">
+    <header class="sheet__head">
+      <h2 class="sheet__title" id="help-title">Help &amp; shortcuts</h2>
+      <button type="button" class="icon-btn" data-close aria-label="Close"><svg><use href="#i-close"/></svg></button>
+    </header>
+    <div class="sheet__body help">
+      <h3>Marking cards</h3>
+      <ul>
+        <li><b>Tap a card</b> to mark it owned, and tap again to unmark it.</li>
+        <li><b>Mark many at once:</b> on a phone, press and hold a card, then drag across others. With a mouse, click and drag. Hold near the top or bottom edge to keep scrolling.</li>
+        <li><b>Shift-click</b> marks every card between your last click and this one.</li>
+        <li><b>Count mode</b> (<svg class="inline-icon"><use href="#i-mode-count"/></svg>) makes each tap add a copy, which is handy when logging packs. Use <b>−</b> to remove one.</li>
+        <li data-help="quickadd"><b>Quick add</b> takes card numbers such as <code>1-22, 55x2</code>.</li>
+        <li data-help="tiers"></li>
+        <li><b>Card info</b> (<svg class="inline-icon"><use href="#i-info"/></svg>) shows where to get a card, rough pull odds and its market price, with links to check live prices.</li>
+        <li>Every change can be undone from the pop-up or with <kbd>Ctrl</kbd>+<kbd>Z</kbd>.</li>
+      </ul>
+      <h3>Keyboard</h3>
+      <dl class="keys">
+        <div><dt><kbd>/</kbd></dt><dd>Search</dd></div>
+        <div><dt><kbd>←</kbd><kbd>→</kbd><kbd>↑</kbd><kbd>↓</kbd></dt><dd>Move between cards</dd></div>
+        <div><dt><kbd>Space</kbd></dt><dd>Mark / unmark</dd></div>
+        <div><dt><kbd>V</kbd></dt><dd>View the card large</dd></div>
+        <div><dt><kbd>I</kbd></dt><dd>Card info and price</dd></div>
+        <div><dt><kbd>+</kbd><kbd>−</kbd></dt><dd>Add / remove a copy</dd></div>
+        <div><dt><kbd>M</kbd></dt><dd>Switch Check / Count mode</dd></div>
+        <div><dt><kbd>Q</kbd></dt><dd>Quick add</dd></div>
+        <div><dt><kbd>Ctrl</kbd><kbd>Z</kbd></dt><dd>Undo (add <kbd>Shift</kbd> to redo)</dd></div>
+        <div><dt><kbd>?</kbd></dt><dd>This help</dd></div>
+      </dl>
+      <h3>Keeping your collection safe</h3>
+      <ul>
+        <li>Your collection is saved <b>only in this browser</b> on this device. Nothing is uploaded.</li>
+        <li>Use <b>Export backup</b> now and then to copy a sync code or save a file. It covers every set you’ve started. <b>Import backup</b> on another device takes the code, a sync link or the file.</li>
+        <li><b>On iPhone and iPad</b>, tap Share → <b>Add to Home Screen</b>. Safari can clear saved data for websites you haven’t visited in a while, but not for apps on your Home Screen, and the app also works offline. The app keeps its own collection, separate from Safari’s, so use <b>Import backup</b> to move your cards into it.</li>
+      </ul>
+      <p class="hint hint--small">Read the <a href="privacy.html">privacy &amp; cookie policy</a> and <a href="terms.html">terms of use</a>.</p>
+    </div>
+  </div>
+</dialog>
+
+<input type="file" id="import-file" accept="application/json,.json" hidden>
+<div class="toasts" id="toasts"></div>
+<div class="sr-only" id="announcer" aria-live="polite" aria-atomic="true"></div>
+<noscript><p class="noscript">This checklist needs JavaScript to run. Please enable it and reload the page.</p></noscript>
+</body>
+</html>

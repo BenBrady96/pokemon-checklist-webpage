@@ -1,0 +1,107 @@
+{
+  "id": "pokemon/me-energy",
+  "game": "pokemon",
+  "slug": "me-energy",
+  "name": "Mega Evolution Energy",
+  "series": "Mega Evolution",
+  "kind": "energy",
+  "code": "MEE",
+  "syncKey": "MEE",
+  "released": "2025-09-25",
+  "printedTotal": null,
+  "defaultTier": "complete",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Basic Energy",
+      "range": "16 cards",
+      "tier": "standard",
+      "display": {
+        "number": "No. {num}"
+      }
+    },
+    {
+      "id": "reverse",
+      "name": "Reverse Holos",
+      "short": "Reverse Holos",
+      "range": "8 cards",
+      "tier": "master"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Energy"
+    ],
+    [
+      "reverse",
+      "Reverse holos"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-22, 55, R12, 60x2",
+    "example": "1-22, 55x2, R12",
+    "hint": "Separate with commas or spaces. <b>1-22</b> is a range and <b>55x2</b> is two copies. <b>R12</b> is card 12’s reverse holo, and ranges work too (<b>R1-R20</b>).",
+    "empty": "Cards are numbered 1–16."
+  },
+  "help": {
+    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 16 cards and Master adds the 8 reverse holos. Cards you’ve marked are kept when you switch."
+  },
+  "info": {
+    "packSections": [],
+    "sectionText": {
+      "main": [
+        "<p><b>Basic Energy.</b> These come in Elite Trainer Boxes, theme decks and other products.</p>"
+      ],
+      "reverse": [
+        "<p><b>Reverse holo</b> Basic Energy.</p>"
+      ]
+    }
+  },
+  "seo": {
+    "title": "Pokémon TCG Mega Evolution Energy Checklist · All 16 Cards",
+    "description": "Free checklist for the 16 Pokémon TCG Mega Evolution Energy, with images, copy counts, binder pages and prices. No sign-up needed.",
+    "ogTitle": "Pokémon TCG Mega Evolution Energy Checklist",
+    "ogDescription": "Track all 16 Pokémon TCG Mega Evolution Energy. Free, no sign-up, works offline."
+  },
+  "about": {
+    "title": "About the Mega Evolution Energy",
+    "paragraphs": [
+      "The Mega Evolution Energy are the 16 Basic Energy cards printed for the Mega Evolution era.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device."
+    ]
+  },
+  "source": {
+    "tcgdex": "mee",
+    "tcgplayer": [
+      24461
+    ],
+    "serie": "me"
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"001","code":"1","name":"Basic Grass Energy","rarity":"E","type":"grass","tcg":656263,"idx":0},
+    {"id":"001-rh","section":"reverse","num":"001","printed":"001","code":"R1","name":"Basic Grass Energy","rarity":"E","img":"001","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":656263,"sub":"Reverse Holofoil","type":"grass","idx":1},
+    {"id":"002","section":"main","num":"002","printed":"002","code":"2","name":"Basic Fire Energy","rarity":"E","type":"fire","tcg":656264,"idx":2},
+    {"id":"002-rh","section":"reverse","num":"002","printed":"002","code":"R2","name":"Basic Fire Energy","rarity":"E","img":"002","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":656264,"sub":"Reverse Holofoil","type":"fire","idx":3},
+    {"id":"003","section":"main","num":"003","printed":"003","code":"3","name":"Basic Water Energy","rarity":"E","type":"water","tcg":656265,"idx":4},
+    {"id":"003-rh","section":"reverse","num":"003","printed":"003","code":"R3","name":"Basic Water Energy","rarity":"E","img":"003","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":656265,"sub":"Reverse Holofoil","type":"water","idx":5},
+    {"id":"004","section":"main","num":"004","printed":"004","code":"4","name":"Basic Lightning Energy","rarity":"E","type":"lightning","tcg":656266,"idx":6},
+    {"id":"004-rh","section":"reverse","num":"004","printed":"004","code":"R4","name":"Basic Lightning Energy","rarity":"E","img":"004","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":656266,"sub":"Reverse Holofoil","type":"lightning","idx":7},
+    {"id":"005","section":"main","num":"005","printed":"005","code":"5","name":"Basic Psychic Energy","rarity":"E","type":"psychic","tcg":656267,"idx":8},
+    {"id":"005-rh","section":"reverse","num":"005","printed":"005","code":"R5","name":"Basic Psychic Energy","rarity":"E","img":"005","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":656267,"sub":"Reverse Holofoil","type":"psychic","idx":9},
+    {"id":"006","section":"main","num":"006","printed":"006","code":"6","name":"Basic Fighting Energy","rarity":"E","type":"fighting","tcg":656268,"idx":10},
+    {"id":"006-rh","section":"reverse","num":"006","printed":"006","code":"R6","name":"Basic Fighting Energy","rarity":"E","img":"006","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":656268,"sub":"Reverse Holofoil","type":"fighting","idx":11},
+    {"id":"007","section":"main","num":"007","printed":"007","code":"7","name":"Basic Darkness Energy","rarity":"E","type":"darkness","tcg":656269,"idx":12},
+    {"id":"007-rh","section":"reverse","num":"007","printed":"007","code":"R7","name":"Basic Darkness Energy","rarity":"E","img":"007","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":656269,"sub":"Reverse Holofoil","type":"darkness","idx":13},
+    {"id":"008","section":"main","num":"008","printed":"008","code":"8","name":"Basic Metal Energy","rarity":"E","type":"metal","tcg":656270,"idx":14},
+    {"id":"008-rh","section":"reverse","num":"008","printed":"008","code":"R8","name":"Basic Metal Energy","rarity":"E","img":"008","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":656270,"sub":"Reverse Holofoil","type":"metal","idx":15},
+    {"id":"009","section":"main","num":"009","printed":"009","code":"9","name":"Basic Grass Energy","rarity":"E","type":"grass","tcg":713248,"idx":16},
+    {"id":"010","section":"main","num":"010","printed":"010","code":"10","name":"Basic Fire Energy","rarity":"E","type":"fire","tcg":713249,"idx":17},
+    {"id":"011","section":"main","num":"011","printed":"011","code":"11","name":"Basic Water Energy","rarity":"E","type":"water","tcg":713250,"idx":18},
+    {"id":"012","section":"main","num":"012","printed":"012","code":"12","name":"Basic Lightning Energy","rarity":"E","type":"lightning","tcg":713251,"idx":19},
+    {"id":"013","section":"main","num":"013","printed":"013","code":"13","name":"Basic Psychic Energy","rarity":"E","type":"psychic","tcg":713252,"idx":20},
+    {"id":"014","section":"main","num":"014","printed":"014","code":"14","name":"Basic Fighting Energy","rarity":"E","type":"fighting","tcg":713253,"idx":21},
+    {"id":"015","section":"main","num":"015","printed":"015","code":"15","name":"Basic Darkness Energy","rarity":"E","type":"darkness","tcg":713254,"idx":22},
+    {"id":"016","section":"main","num":"016","printed":"016","code":"16","name":"Basic Metal Energy","rarity":"E","type":"metal","tcg":713255,"idx":23}
+  ]
+}

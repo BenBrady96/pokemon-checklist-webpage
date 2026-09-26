@@ -1,9 +1,13 @@
-import { SECTIONS, RARITIES, GROUPS, SET_NAME, getTier } from './cards.js';
+import { COLLECTION, GAME, SECTIONS, RARITIES, GROUPS, getTier } from './collection.js';
 import { getQty, getPrefs } from './store.js';
 import { rarityIconById } from './render.js';
-import { marketUsd, formatGbp, formatUsd, pricesUpdated } from './pricing.js';
+import { marketUsd, formatGbp, formatUsd, pricesUpdated, hasPrices } from './pricing.js';
 
 const currentTier = () => getTier(getPrefs().tier);
+
+const SUMMARY = COLLECTION.summary
+  || COLLECTION.sections.map((s) => [s.id, s.name.charAt(0) + s.name.slice(1).toLowerCase()]);
+const STAT_GROUPS = GROUPS.filter((g) => g.stat);
 
 export function compute() {
   const tier = currentTier();
@@ -56,6 +60,16 @@ function row(name, { owned, total }, icon = '') {
   </div>`;
 }
 
+function valueTiles(s) {
+  if (!hasPrices()) return '<p class="hint hint--small stat-note">No prices yet for this set.</p>';
+  return `
+    <div class="stat-tiles stat-tiles--value">
+      <div class="stat-tile"><b>≈ ${formatGbp(s.value)}</b><small>Collection value · ${formatUsd(s.value)}</small></div>
+      <div class="stat-tile"><b>≈ ${formatGbp(s.toComplete)}</b><small>Cost to complete · ${formatUsd(s.toComplete)}</small></div>
+    </div>
+    <p class="hint hint--small stat-note">TCGplayer market prices from ${pricesUpdated}, counting every copy you own.${s.unpriced ? ` ${s.unpriced} card${s.unpriced === 1 ? ' has' : 's have'} no price yet and ${s.unpriced === 1 ? 'isn’t' : 'aren’t'} included.` : ''}</p>`;
+}
+
 export function renderStats(s) {
   const set = s.byGroup.set;
   const pct = percent(set.owned, set.total);
@@ -63,14 +77,17 @@ export function renderStats(s) {
   const offset = circumference * (1 - set.owned / set.total);
   const main = s.byGroup.main;
   const headline = set.owned === set.total ? `${s.tier.name} complete!`
-    : main.owned === main.total ? 'Main set complete!'
+    : main && main.total < set.total && main.owned === main.total ? 'Main set complete!'
       : `${set.total - set.owned} cards to go`;
-  const progress = [['Main set', main], ['Secret rares', s.byGroup.secret], ['Promos', s.byGroup.promo], ['First Partners', s.byGroup.partner]]
-    .filter(([, g]) => g.total)
+  const progress = SUMMARY.map(([id, name]) => [name, s.byGroup[id]])
+    .filter(([, g]) => g?.total)
     .map(([name, g]) => `${name} ${g.owned}/${g.total}`);
-  const summary = [s.tier.name, ...progress].join(' · ');
+  const summary = (COLLECTION.single ? progress : [s.tier.name, ...progress]).join(' · ');
 
   const sectionRows = s.tier.sections.map((sec) => row(sec.name, s.bySection[sec.id])).join('');
+  const statRows = STAT_GROUPS.filter((g) => s.byGroup[g.id].total)
+    .map((g) => row(g.name, s.byGroup[g.id], g.match?.rarity ? rarityIconById([].concat(g.match.rarity)[0]) : ''))
+    .join('');
   const rarityRows = RARITIES.filter((r) => s.byRarity[r.id].total)
     .map((r) => row(r.name, s.byRarity[r.id], rarityIconById(r.id)))
     .join('');
@@ -94,13 +111,9 @@ export function renderStats(s) {
       <div class="stat-tile"><b>${s.copies}</b><small>Total copies</small></div>
       <div class="stat-tile"><b>${s.spare}</b><small>Spare copies</small></div>
     </div>
-    <div class="stat-tiles stat-tiles--value">
-      <div class="stat-tile"><b>≈ ${formatGbp(s.value)}</b><small>Collection value · ${formatUsd(s.value)}</small></div>
-      <div class="stat-tile"><b>≈ ${formatGbp(s.toComplete)}</b><small>Cost to complete · ${formatUsd(s.toComplete)}</small></div>
-    </div>
-    <p class="hint hint--small stat-note">TCGplayer market prices from ${pricesUpdated}, counting every copy you own.${s.unpriced ? ` ${s.unpriced} card${s.unpriced === 1 ? ' has' : 's have'} no price yet and ${s.unpriced === 1 ? 'isn’t' : 'aren’t'} included.` : ''}</p>
+    ${valueTiles(s)}
     <div class="stat-columns">
-      <section class="stat-group"><h3>By section</h3>${sectionRows}${row('Pikachu Rares', s.byGroup.pikachu, rarityIconById('PR'))}</section>
+      <section class="stat-group"><h3>By section</h3>${sectionRows}${statRows}</section>
       <section class="stat-group"><h3>By rarity</h3>${rarityRows}</section>
     </div>`;
 }
@@ -114,15 +127,14 @@ function groupedLines(tier, filter, format) {
   return lines;
 }
 
-const label = (c) => (c.section === 'classic' ? `${c.name} (${c.num})`
-  : c.rarity === 'P' || c.base ? `${c.printed} ${c.name}` : `${c.num} ${c.name}`);
+const title = `${GAME.name} ${COLLECTION.name}`;
 
 export function missingText() {
   const tier = currentTier();
   const missing = tier.cards.filter((c) => !getQty(c.id));
-  if (!missing.length) return `Pokémon TCG ${SET_NAME} (${tier.name}): I have every card!`;
-  return [`Pokémon TCG ${SET_NAME} (${tier.name}) — missing ${missing.length} of ${tier.cards.length}:`, '',
-    ...groupedLines(tier, (c) => !getQty(c.id), label)].join('\n');
+  if (!missing.length) return `${title} (${tier.name}): I have every card!`;
+  return [`${title} (${tier.name}) — missing ${missing.length} of ${tier.cards.length}:`, '',
+    ...groupedLines(tier, (c) => !getQty(c.id), (c) => c.listText)].join('\n');
 }
 
 export function duplicatesText() {
@@ -130,6 +142,6 @@ export function duplicatesText() {
   const dupes = tier.cards.filter((c) => getQty(c.id) > 1);
   if (!dupes.length) return '';
   const spare = dupes.reduce((n, c) => n + getQty(c.id) - 1, 0);
-  return [`Pokémon TCG ${SET_NAME} — ${spare} spare cop${spare === 1 ? 'y' : 'ies'} for trade:`, '',
-    ...groupedLines(tier, (c) => getQty(c.id) > 1, (c) => `${label(c)} ×${getQty(c.id) - 1}`)].join('\n');
+  return [`${title} — ${spare} spare cop${spare === 1 ? 'y' : 'ies'} for trade:`, '',
+    ...groupedLines(tier, (c) => getQty(c.id) > 1, (c) => `${c.listText} ×${getQty(c.id) - 1}`)].join('\n');
 }
