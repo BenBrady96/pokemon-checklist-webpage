@@ -38,7 +38,7 @@ async function refreshSummaries(ids) {
 function showProgress() {
   const stored = storage.storedCollections()
     .filter(({ id }) => catalog.collections.some((c) => c.id === id))
-    .sort((a, b) => collected(b) - collected(a) || cardsOwned(b) - cardsOwned(a));
+    .sort((a, b) => cardsOwned(b) - cardsOwned(a) || collected(b) - collected(a));
   const stale = [];
   for (const c of catalog.collections) {
     const summary = storage.readRecord(c.id)?.summary;
