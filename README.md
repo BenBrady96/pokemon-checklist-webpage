@@ -15,9 +15,9 @@ It is a static site built with plain HTML, CSS and JavaScript. There is no backe
   | Standard | The main set (001 to the printed total) |
   | Complete | Every card, including secret rares |
   | Master | Every card plus each reverse holo and pattern (Poké Ball, Master Ball, Energy Symbol and so on) |
-  | Grand Master | Every card plus its special prints: prerelease and other stamps, Cosmos Holo blister cards, Play! Pokémon Prize Pack prints and other product exclusives (for 30th Celebration, its curated promos and alternate prints) |
+  | Grand Master | Every card plus its special prints: prerelease and other stamps, Cosmos Holo blister cards, Play! Pokémon Prize Pack prints and other product exclusives (for 30th Celebration, its stamped and Cosmos Holo variants) |
 
-  Tiers that would add nothing are hidden: 30th Celebration has no reverse holos, so it shows Standard 128 / Master 199 / Grand Master 246, and the promo lists show just Master and Grand Master.
+  Tiers that would add nothing are hidden: 30th Celebration has no reverse holos, so it shows Standard 128 / Master 191 / Grand Master 193, the promo lists show just Master and Grand Master, and the Basic Energy lists (just their numbered cards) have no tiers.
 - **Views:** grid (S/M/L), list, or binder pages (4, 9 or 12 pockets), with or without images.
 - **Marking many cards at once:** tap, press-and-drag, shift-click, section menus, and **Quick add** (`1-22, 55x2, R12`; each set's help lists its codes). Everything can be undone.
 - **Copy counts, a Duplicates filter and trade lists; search, filters and sorting.**
@@ -50,8 +50,10 @@ Set pages are rendered from a template, so use `npm run dev` rather than a plain
    - `syncKey`: a short unique code, usually the set's official abbreviation. It goes into share links, so **never change it** once the set is live.
    - `gallery` (optional): `path/CODE` of the set on the official Pokémon TCG gallery CDN, for 660px images (for example `surging-sparks/SV08`). Without it, images come from TCGdex.
    - `theme`: two colours picked from the set's logo and packs. `accent` is for buttons and highlights, `chrome` for the dark header. `tools/lib/theme.mjs` derives the rest of the palette for light and dark mode and adjusts text colours to pass WCAG AA contrast.
-   - `kind: 'promo'` or `'energy'` for promo and energy lists, with a `name`.
+   - `kind: 'promo'` or `'energy'` for promo and energy lists, with a `name`. Energy lists have just their numbered cards, with no reverse holos or special prints.
    - `images` (optional): `{ cardId: url }` for cards that none of the usual sources has an image for yet. These URLs are tried first.
+   - `logo` (optional): the set logo's URL, for sets TCGdex has no logo for. `logoOutline: true` gives a dark logo a white edge so it shows on the dark set tiles (the Black Star Promos use this).
+   - `notes` and `details` (optional): `{ cardId: text }`. A note is shown in bold in the card's info panel and can be searched; a detail is an extra paragraph below it. ME Black Star Promos and ME Energy use them to say which 30th Celebration product a card comes from.
 2. Run:
 
    ```sh
@@ -69,13 +71,14 @@ The home page lists every collection from `data/catalog.json`, which `npm run se
 
 | | Source |
 |---|---|
-| Card lists, rarities, set logos | [TCGdex](https://tcgdex.dev), a free and open card database (responses are cached in `.cache/`) |
+| Card lists, rarities, set logos | [TCGdex](https://tcgdex.dev), a free and open card database (responses are cached in `.cache/`). Logos TCGdex doesn't have (30th Celebration, Temporal Forces, the promo and energy lists) come from [TCG Collector](https://www.tcgcollector.com), set with `logo` |
 | Which reverse holos and patterns exist | TCGplayer's catalogue via [tcgcsv.com](https://tcgcsv.com): a "Reverse Holofoil" price on a card's product, or a separate product such as "Card (Poke Ball Pattern)" |
 | Special prints (Grand Master) | TCGdex's list of each card's printings (stamps such as Prerelease, Play! Pokémon or Pokémon Center, and foils such as Cosmos Holo), plus products in the set's TCGplayer group named with a suffix such as "(Prerelease)" or "(Cosmos Holo)". Award cards (staff, judge and placement stamps) and jumbo cards are left out. Prices come from whichever TCGplayer group lists the print |
 | Card images, best first | The official Pokémon TCG gallery CDN (660px), TCGdex (600px), Limitless TCG (460px), then TCGplayer's listing photo. Two ME Black Star Promos (MEP 120 Celebratory Fanfare and Pikachu at the Museum) use images from [TCG Collector](https://www.tcgcollector.com), set with `images` |
 | Prices | TCGplayer market prices via tcgcsv.com, refreshed daily |
+| Pokémon logo (home page) | The international logo from [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:International_Pok%C3%A9mon_logo.svg) (public domain, a trademark of The Pokémon Company), set with `LOGO` in `collections/pokemon/sets.mjs` and saved to `img/games/` by `npm run images` |
 
-**30th Celebration** is curated by hand in `collections/pokemon/30th-celebration.mjs`, including its promos, pull odds, product notes, image sources and price matching.
+**30th Celebration** is curated by hand in `collections/pokemon/30th-celebration.mjs`, including pull odds, product notes, image sources and price matching. Its Black Star promos and Basic Energy are listed in ME Black Star Promos and ME Energy, which take their product notes from that file.
 
 ## Card images and the size budget
 
@@ -87,7 +90,7 @@ Everything comes to roughly 600 MB. GitHub Pages won't publish a site over 1 GB,
 
 Other options:
 
-- `npm run images`: `--skip-icons` and `--skip-og` leave the site icons or share images alone, and `--force-og` rebuilds the generated share images (30th Celebration's is hand-made and kept).
+- `npm run images`: `--skip-icons` and `--skip-og` leave the site icons or share images alone, and `--force-og` rebuilds the share images (30th Celebration's uses the cards and blurb in its `og` settings).
 - `npm run sets -- --refresh` ignores the download cache in `.cache/`.
 - `npm run build -- --sizes` lists the card image folders by size.
 
@@ -118,6 +121,8 @@ The build fails if a JS, CSS or HTML file is missing from the offline file list 
 | `bt:v1:c:<collectionId>` | `{ v, q: { cardId: copies }, updated, summary }`. The summary (`tier`, `owned`, `total`) is what the home page shows |
 
 Before the rename the site stored 30th Celebration under `p30c:v1` and `p30c:prefs:v1`. Those are copied across once and left in place.
+
+30th Celebration used to list its Black Star promos and Basic Energy as well. Cards marked there are moved once to ME Black Star Promos and ME Energy, keeping the higher count if a card was marked in both. Share links and backups made before the move bring in 30th Celebration without those cards.
 
 ### Sync codes
 
@@ -153,6 +158,7 @@ js/vendor/qrcode.js            QR code generator (MIT, Kazuhiko Arase)
 collections/pokemon/           build-time config: sets.mjs (every collection) and the curated 30th Celebration
 data/                          generated and committed: catalog.json, and per set cards/images/prices JSON
 img/cards/, img/sets/, img/og/ card images, set logos, share images
+img/games/                     game logos for the home page
 tools/                         build-sets, build-images, build-prices, build, dev, check; lib/ holds shared code
 ```
 

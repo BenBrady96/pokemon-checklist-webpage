@@ -78,8 +78,13 @@
     } catch (e) {}
   </script>
   <script type="module" src="js/home.js"></script>
+  <noscript><style>.page-loader { display: none; }</style></noscript>
 </head>
 <body class="home-page">
+<div class="page-loader" id="page-loader" role="status">
+  <svg class="page-loader__cog" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" fill-rule="evenodd" d="M10.27 4.09L10.68 1.08A11 11 0 0 1 13.32 1.08L13.73 4.09A8.1 8.1 0 0 1 16.37 5.18L18.79 3.35A11 11 0 0 1 20.65 5.21L18.82 7.63A8.1 8.1 0 0 1 19.91 10.27L22.92 10.68A11 11 0 0 1 22.92 13.32L19.91 13.73A8.1 8.1 0 0 1 18.82 16.37L20.65 18.79A11 11 0 0 1 18.79 20.65L16.37 18.82A8.1 8.1 0 0 1 13.73 19.91L13.32 22.92A11 11 0 0 1 10.68 22.92L10.27 19.91A8.1 8.1 0 0 1 7.63 18.82L5.21 20.65A11 11 0 0 1 3.35 18.79L5.18 16.37A8.1 8.1 0 0 1 4.09 13.73L1.08 13.32A11 11 0 0 1 1.08 10.68L4.09 10.27A8.1 8.1 0 0 1 5.18 7.63L3.35 5.21A11 11 0 0 1 5.21 3.35L7.63 5.18A8.1 8.1 0 0 1 10.27 4.09ZM15.4 12a3.4 3.4 0 1 0 -6.8 0a3.4 3.4 0 1 0 6.8 0Z"/></svg>
+  <p class="page-loader__text">Loading home…</p>
+</div>
 <svg class="sprite" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="g-theme" x1="0" y1="0" x2="1" y2="1">
@@ -92,16 +97,6 @@
       <g fill="url(#g-theme)"><rect x="176" y="138" width="60" height="76" rx="10"/><rect x="250" y="138" width="60" height="76" rx="10"/><rect x="324" y="138" width="60" height="76" rx="10"/><rect x="176" y="226" width="60" height="76" rx="10"/><rect x="250" y="226" width="60" height="76" rx="10"/><rect x="176" y="314" width="60" height="76" rx="10"/></g>
       <g fill="none" stroke="url(#g-theme)" stroke-width="8" opacity=".55"><rect x="328" y="230" width="52" height="68" rx="8"/><rect x="254" y="318" width="52" height="68" rx="8"/><rect x="328" y="318" width="52" height="68" rx="8"/></g>
       <path d="M414 60 l10 26 26 10 -26 10 -10 26 -10 -26 -26 -10 26 -10z" style="fill:var(--theme-pale)"/>
-    </symbol>
-
-    <symbol id="emblem-30" viewBox="0 0 512 512">
-      <circle cx="256" cy="256" r="188" fill="none" stroke="url(#g-theme)" stroke-width="16"/>
-      <circle cx="256" cy="256" r="162" fill="none" stroke="#F2C14E" stroke-opacity=".3" stroke-width="4"/>
-      <g fill="none" stroke="url(#g-theme)" stroke-width="44" stroke-linecap="round" stroke-linejoin="round">
-        <path d="M138 196 C156 170 186 164 204 168 C234 175 242 205 232 226 C224 243 207 252 188 253 C214 254 240 268 240 296 C240 326 214 344 186 344 C164 344 146 334 136 316"/>
-        <rect x="290" y="170" width="92" height="174" rx="46"/>
-      </g>
-      <path d="M396 128 l9 22 22 9 -22 9 -9 22 -9 -22 -22 -9 22 -9z" fill="#FFE9A3"/>
     </symbol>
 
     <symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></symbol>

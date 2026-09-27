@@ -1,5 +1,22 @@
 export const reducedMotion = () => matchMedia('(prefers-reduced-motion: reduce)').matches;
 
+const pageLoaded = () => (document.readyState === 'complete' ? Promise.resolve() : new Promise((resolve) => window.addEventListener('load', resolve, { once: true })));
+const loadingInView = (img) => {
+  const r = img.getBoundingClientRect();
+  return !img.complete && r.width > 0 && r.bottom > 0 && r.top < window.innerHeight;
+};
+
+export async function hideLoader({ wait = true } = {}) {
+  const loader = document.getElementById('page-loader');
+  if (!loader) return;
+  if (wait) {
+    const loaded = pageLoaded().then(() => Promise.allSettled([...document.images].filter(loadingInView).map((img) => img.decode())));
+    await Promise.race([loaded, new Promise((resolve) => setTimeout(resolve, 6000))]);
+  }
+  loader.classList.add('is-done');
+  setTimeout(() => loader.remove(), 300);
+}
+
 let historyArmed = false;
 let skipNextPop = false;
 

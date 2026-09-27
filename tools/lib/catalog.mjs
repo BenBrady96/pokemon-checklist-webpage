@@ -1,5 +1,5 @@
 import { join } from 'node:path';
-import { CONFIG, GAMES, SERIES, loadModel, loadRaw } from './collections.mjs';
+import { CONFIG, GAMES, SERIES, gameLogoPath, loadModel, loadRaw } from './collections.mjs';
 import { compileTheme, tileVars } from './theme.mjs';
 import { ROOT, exists, writeJson } from './util.mjs';
 
@@ -45,10 +45,12 @@ export async function writeCatalog() {
     || (KIND_ORDER[a.kind] ?? 3) - (KIND_ORDER[b.kind] ?? 3)
     || b.released.localeCompare(a.released)
     || a.name.localeCompare(b.name));
-  await writeJson(join(ROOT, 'data', 'catalog.json'), {
-    games: Object.values(GAMES).map((g) => ({ id: g.id, name: g.name, series: SERIES[g.id] })),
-    collections,
-  });
+  const games = [];
+  for (const g of Object.values(GAMES)) {
+    const logo = gameLogoPath(g.id);
+    games.push({ id: g.id, name: g.name, series: SERIES[g.id], logo: (await exists(join(ROOT, logo))) ? logo : null });
+  }
+  await writeJson(join(ROOT, 'data', 'catalog.json'), { games, collections });
   console.log(`data/catalog.json: ${collections.length} collection(s)`);
   return collections;
 }

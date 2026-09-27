@@ -6,7 +6,8 @@
       "series": [
         "Mega Evolution",
         "Scarlet & Violet"
-      ]
+      ],
+      "logo": "img/games/pokemon/logo.webp"
     }
   ],
   "collections": [
@@ -20,7 +21,7 @@
       "code": "30C",
       "syncKey": "30C",
       "released": "2026-09-16",
-      "total": 199,
+      "total": 191,
       "tiers": [
         {
           "id": "standard",
@@ -30,19 +31,17 @@
         {
           "id": "master",
           "label": "Master",
-          "count": 199
+          "count": 191
         },
         {
           "id": "grand",
           "label": "Grand Master",
-          "count": 246
+          "count": 193
         }
       ],
       "defaultTier": "master",
-      "logo": null,
-      "cover": {
-        "symbol": "emblem-30"
-      },
+      "logo": "img/sets/pokemon/30th-celebration/logo.webp",
+      "cover": null,
       "tile": {
         "--t-chrome-0": "#1D275C",
         "--t-chrome-1": "#151D4A",
@@ -374,7 +373,7 @@
         }
       ],
       "defaultTier": "master",
-      "logo": null,
+      "logo": "img/sets/pokemon/me-black-star-promos/logo.webp",
       "cover": null,
       "tile": {
         "--t-chrome-0": "#28212C",
@@ -393,7 +392,7 @@
       "id": "pokemon/me-energy",
       "game": "pokemon",
       "slug": "me-energy",
-      "name": "Mega Evolution Energy",
+      "name": "ME Energy",
       "series": "Mega Evolution",
       "kind": "energy",
       "code": "MEE",
@@ -402,18 +401,13 @@
       "total": 16,
       "tiers": [
         {
-          "id": "standard",
-          "label": "Standard",
-          "count": 16
-        },
-        {
           "id": "master",
-          "label": "Master",
-          "count": 24
+          "label": "All cards",
+          "count": 16
         }
       ],
-      "defaultTier": "standard",
-      "logo": null,
+      "defaultTier": "master",
+      "logo": "img/sets/pokemon/me-energy/logo.webp",
       "cover": null,
       "tile": {
         "--t-chrome-0": "#262A37",
@@ -903,7 +897,7 @@
         }
       ],
       "defaultTier": "complete",
-      "logo": null,
+      "logo": "img/sets/pokemon/temporal-forces/logo.webp",
       "cover": null,
       "tile": {
         "--t-chrome-0": "#163640",
@@ -1231,7 +1225,7 @@
         }
       ],
       "defaultTier": "master",
-      "logo": null,
+      "logo": "img/sets/pokemon/sv-black-star-promos/logo.webp",
       "cover": null,
       "tile": {
         "--t-chrome-0": "#222530",
@@ -1250,7 +1244,7 @@
       "id": "pokemon/sv-energy",
       "game": "pokemon",
       "slug": "sv-energy",
-      "name": "Scarlet & Violet Energy",
+      "name": "SV Energy",
       "series": "Scarlet & Violet",
       "kind": "energy",
       "code": "SVE",
@@ -1259,23 +1253,13 @@
       "total": 24,
       "tiers": [
         {
-          "id": "standard",
-          "label": "Standard",
-          "count": 24
-        },
-        {
           "id": "master",
-          "label": "Master",
-          "count": 32
-        },
-        {
-          "id": "grand",
-          "label": "Grand Master",
-          "count": 104
+          "label": "All cards",
+          "count": 24
         }
       ],
-      "defaultTier": "standard",
-      "logo": null,
+      "defaultTier": "master",
+      "logo": "img/sets/pokemon/sv-energy/logo.webp",
       "cover": null,
       "tile": {
         "--t-chrome-0": "#1B3223",

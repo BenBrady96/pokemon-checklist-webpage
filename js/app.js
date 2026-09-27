@@ -190,7 +190,6 @@ function collapseDistance() {
   return appbar.offsetHeight + (isDesktop() ? toolbar.offsetHeight : 0);
 }
 
-// Set on the elements that read them: a custom property changed on <html> restyles every card.
 function updateStickyTop() {
   const shift = collapsed ? `${-collapseDistance()}px` : '0px';
   const top = `${stickyTop()}px`;

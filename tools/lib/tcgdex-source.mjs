@@ -242,7 +242,9 @@ export async function generateCollection(entry, { refresh = false } = {}) {
     const card = { id: localId, section, num: localId, printed, code: String(Number.isFinite(n) ? n : localId), name: cardName, rarity };
     if (type) card.type = type;
     if (product) card.tcg = product.productId;
+    if (entry.notes?.[localId]) card.note = entry.notes[localId];
     cards.push(card);
+    if (kind === 'energy') continue;
 
     const versions = [];
     if (kind !== 'promo' && product && reverseProducts.has(product.productId)) versions.push({ variant: VARIANTS[0], product, sub: 'Reverse Holofoil' });
@@ -348,8 +350,8 @@ export async function generateCollection(entry, { refresh = false } = {}) {
     info.sectionText.main = ['<p><b>Black Star Promo.</b> Promos come in special products such as collection boxes, tins, blisters and Elite Trainer Boxes, and some are given out at events.</p>'];
   } else {
     info.sectionText.main = ['<p><b>Basic Energy.</b> These come in Elite Trainer Boxes, theme decks and other products.</p>'];
-    for (const v of variants) info.sectionText[v.section] = [`<p><b>${v.text}</b> Basic Energy.</p>`];
   }
+  if (entry.details) info.details = entry.details;
 
   const tierParts = kind === 'expansion'
     ? [['Standard', `is the ${mainCount} main set cards`], ['Complete', `is all ${all} cards`]]
@@ -377,6 +379,7 @@ export async function generateCollection(entry, { refresh = false } = {}) {
   const game = pokemon.name;
   const releasedText = DATE.format(new Date(`${released}T00:00:00Z`));
   const extraSentence = [variantCount && `every ${list(variantNames)}`, specialCount && 'every special print'].filter(Boolean);
+  const items = kind === 'energy' ? `${name} cards` : name;
   const seo = kind === 'expansion' ? {
     title: `${game} ${name} Checklist · All ${all} Cards`,
     description: `Free checklist for the ${game} ${name} set. Track all ${all} cards${extraSentence.length ? `, or go further with ${list(extraSentence)}` : ''}, with images, copy counts, binder pages and prices. No sign-up needed.`,
@@ -385,9 +388,9 @@ export async function generateCollection(entry, { refresh = false } = {}) {
     twitterDescription: `Track all ${all} cards in ${game} ${name}. Free, no sign-up, works offline.`,
   } : {
     title: `${game} ${name} Checklist · All ${all} Cards`,
-    description: `Free checklist for the ${all} ${game} ${name}${specialCount ? ` and their ${plural(specialCount, 'special print')}` : ''}, with images, copy counts, binder pages and prices. No sign-up needed.`,
+    description: `Free checklist for the ${all} ${game} ${items}${specialCount ? ` and their ${plural(specialCount, 'special print')}` : ''}, with images, copy counts, binder pages and prices. No sign-up needed.`,
     ogTitle: `${game} ${name} Checklist`,
-    ogDescription: `Track all ${all} ${game} ${name}. Free, no sign-up, works offline.`,
+    ogDescription: `Track all ${all} ${game} ${items}. Free, no sign-up, works offline.`,
   };
   const choices = [`the <b>Standard set</b> (the ${mainCount} main set cards)`, `the <b>Complete set</b> (all ${all} cards)`];
   if (variantCount) choices.push(`the <b>Master set</b> (${all + variantCount} cards, adding every ${list(variantNames)})`);
@@ -400,11 +403,11 @@ export async function generateCollection(entry, { refresh = false } = {}) {
       'This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.',
     ],
   } : {
-    title: `About the ${name}`,
+    title: `About the ${items}`,
     paragraphs: [
       kind === 'promo'
         ? `The ${name} are the ${all} numbered promo cards of the ${entry.series} era, from collection boxes, tins, blisters, Elite Trainer Boxes and events.${specialCount ? ` For a grand master set there are also ${specialText}.` : ''}`
-        : `The ${name} are the ${all} Basic Energy cards printed for the ${entry.series} era.${specialCount ? ` For a grand master set there are also ${specialText}.` : ''}`,
+        : `${name} covers the ${all} Basic Energy cards printed for the ${entry.series} era.`,
       'This free checklist lets you tick off the cards you own, count spare copies for trading and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.',
     ],
   };

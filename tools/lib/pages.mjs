@@ -122,7 +122,10 @@ export function collectionsHtml(catalog) {
   for (const game of catalog.games) {
     const sets = catalog.collections.filter((c) => c.game === game.id);
     if (!sets.length) continue;
-    parts.push(`<section class="home-game" aria-labelledby="game-${game.id}"><h2 class="home__heading" id="game-${game.id}">${escapeHtml(game.name)}</h2>`);
+    const title = game.logo
+      ? `<img class="home-game__logo" src="${game.logo}" alt="${escapeHtml(game.name)}"><span class="home-game__tagline" aria-hidden="true">Trading Card Game</span>`
+      : escapeHtml(game.name);
+    parts.push(`<section class="home-game" aria-labelledby="game-${game.id}"><h2 class="home-game__title" id="game-${game.id}">${title}</h2>`);
     for (const series of game.series) {
       const inSeries = sets.filter((c) => c.series === series);
       if (!inSeries.length) continue;

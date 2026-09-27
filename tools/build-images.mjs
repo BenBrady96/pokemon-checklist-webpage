@@ -2,7 +2,7 @@ import { mkdir, writeFile } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import sharp from 'sharp';
-import { curatedModule, dataDir, imageDir, loadModel, selectEntries } from './lib/collections.mjs';
+import { GAME_LOGOS, curatedModule, dataDir, gameLogoPath, imageDir, loadModel, selectEntries } from './lib/collections.mjs';
 import { writeCatalog } from './lib/catalog.mjs';
 import { ASSETS, loadSet, setLogoUrl } from './lib/tcgdex.mjs';
 import { compileTheme } from './lib/theme.mjs';
@@ -93,12 +93,10 @@ async function buildCollection(entry) {
 }
 
 async function buildLogo(entry, model) {
-  if (!model.source?.tcgdex) return null;
   const path = `img/sets/${entry.id}/logo.webp`;
   const file = join(ROOT, path);
   if (!FORCE && await exists(file)) return path;
-  const set = await loadSet(model.source.tcgdex);
-  const url = setLogoUrl(set);
+  const url = entry.logo || (model.source?.tcgdex ? setLogoUrl(await loadSet(model.source.tcgdex)) : null);
   if (!url) return null;
   let input;
   try {
@@ -107,8 +105,25 @@ async function buildLogo(entry, model) {
     return null;
   }
   await mkdir(join(ROOT, 'img/sets', ...entry.id.split('/')), { recursive: true });
-  await sharp(input).resize(600, 240, { fit: 'inside', withoutEnlargement: true }).webp({ quality: 88, alphaQuality: 95, effort: 6 }).toFile(file);
+  let logo = await sharp(input).resize(600, 240, { fit: 'inside', withoutEnlargement: true }).png().toBuffer();
+  if (entry.logoOutline) logo = await withOutline(logo);
+  await sharp(logo).webp({ quality: 88, alphaQuality: 95, effort: 6 }).toFile(file);
   return path;
+}
+
+async function buildGameLogo(game, url) {
+  const file = join(ROOT, gameLogoPath(game));
+  if (!FORCE && await exists(file)) return;
+  await mkdir(join(file, '..'), { recursive: true });
+  await sharp(await download(url), { density: 300 }).resize({ height: 180 }).webp({ quality: 90, alphaQuality: 95, effort: 6 }).toFile(file);
+}
+
+async function withOutline(input, size = 4) {
+  const logo = await sharp(input).extend({ top: size, bottom: size, left: size, right: size, background: { r: 0, g: 0, b: 0, alpha: 0 } }).png().toBuffer();
+  const { width, height } = await sharp(logo).metadata();
+  const alpha = await sharp(logo).extractChannel(3).blur(size / 2).linear(8, 0).toBuffer();
+  const edge = await sharp({ create: { width, height, channels: 3, background: '#FFFFFF' } }).joinChannel(alpha).png().toBuffer();
+  return sharp(edge).composite([{ input: logo }]).png().toBuffer();
 }
 
 const MARK = (grad) => `<rect x="120" y="94" width="290" height="324" rx="40" fill="none" stroke="url(#${grad})" stroke-width="22"/>
@@ -286,8 +301,7 @@ const cardFile = (model, card) => join(imageDir(model.id), 'lg', `${card.imageId
 const shareImagePath = (id) => `${join(ROOT, 'img/og', ...id.split('/'))}.jpg`;
 
 async function buildSetShareImage(entry) {
-  const keep = entry.curated ? !FORCE : !FORCE && !opts.has('force-og');
-  if (keep && await exists(shareImagePath(entry.id))) return;
+  if (!FORCE && !opts.has('force-og') && await exists(shareImagePath(entry.id))) return;
   const model = await loadModel(entry.id);
   const curated = entry.curated ? await curatedModule(entry) : null;
   const theme = compileTheme(entry.theme);
@@ -332,6 +346,13 @@ async function buildHomeShareImage(catalogEntries) {
 
 const failures = [];
 for (const entry of entries) failures.push(...await buildCollection(entry));
+for (const [game, url] of Object.entries(GAME_LOGOS)) {
+  try {
+    await buildGameLogo(game, url);
+  } catch (err) {
+    failures.push(`${game} logo: ${err.message}`);
+  }
+}
 const catalog = await writeCatalog();
 if (!opts.has('skip-icons')) {
   console.log('Building icons…');

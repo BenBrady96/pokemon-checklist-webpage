@@ -10,9 +10,6 @@
   "released": "2026-09-16",
   "printedTotal": 128,
   "defaultTier": "master",
-  "cover": {
-    "symbol": "emblem-30"
-  },
   "sections": [
     {
       "id": "main",
@@ -41,28 +38,6 @@
       }
     },
     {
-      "id": "energy",
-      "name": "Basic Energy",
-      "range": "009–016",
-      "tier": "complete",
-      "display": {
-        "number": "No. {num}"
-      }
-    },
-    {
-      "id": "promo",
-      "name": "Black Star Promos",
-      "range": "MEP 094–110",
-      "tier": "grand",
-      "display": {
-        "number": "{printed}",
-        "label": "{printed}",
-        "list": "{printed} {name}",
-        "chip": "{code} {name}",
-        "search": "Pokemon {name} {printed} promo"
-      }
-    },
-    {
       "id": "variant",
       "name": "Variants",
       "range": "stamped & alternate prints",
@@ -73,19 +48,6 @@
         "chip": "{code} {name}",
         "pocket": "{code}",
         "search": "Pokemon {baseName} {basePrinted} {badge}"
-      }
-    },
-    {
-      "id": "partner",
-      "name": "First Partner Promos",
-      "range": "MEP 037–063",
-      "tier": "grand",
-      "display": {
-        "number": "{printed}",
-        "label": "{printed}",
-        "list": "{printed} {name}",
-        "chip": "{code} {name}",
-        "search": "Pokemon {name} {printed} promo"
       }
     }
   ],
@@ -120,31 +82,10 @@
       }
     },
     {
-      "id": "energy",
-      "name": "Basic Energy",
-      "match": {
-        "section": "energy"
-      }
-    },
-    {
-      "id": "promo",
-      "name": "Black Star Promos",
-      "match": {
-        "section": "promo"
-      }
-    },
-    {
       "id": "variant",
       "name": "Variants",
       "match": {
         "section": "variant"
-      }
-    },
-    {
-      "id": "partner",
-      "name": "First Partner Promos",
-      "match": {
-        "section": "partner"
       }
     }
   ],
@@ -170,20 +111,8 @@
       "label": "Classic"
     },
     {
-      "id": "energy",
-      "label": "Energy"
-    },
-    {
-      "id": "promo",
-      "label": "Promos"
-    },
-    {
       "id": "variant",
       "label": "Variants"
-    },
-    {
-      "id": "partner",
-      "label": "First Partners"
     }
   ],
   "summary": [
@@ -196,12 +125,8 @@
       "Secret rares"
     ],
     [
-      "promo",
-      "Promos"
-    ],
-    [
-      "partner",
-      "First Partners"
+      "classic",
+      "Classic Collection"
     ]
   ],
   "searchAliases": {
@@ -211,9 +136,9 @@
     "Crobat G": "galactic"
   },
   "quickAdd": {
-    "placeholder": "e.g. 1-22, 55, 129x2, C1-C5, E9, RGB, P94",
-    "example": "1-22, 55x2, C3, E9, RGB, P94",
-    "hint": "Separate with commas or spaces. <b>1-22</b> is a range, <b>55x2</b> is two copies, <b>C1–C30</b> are Classic Collection cards in checklist order, and <b>E9–E16</b> are the Basic Energy cards. <b>RGB</b> adds all three RGB Mews (or one with <b>R/RGB</b>, <b>G/RGB</b>, <b>B/RGB</b>), <b>P37–P63</b> and <b>P94–P110</b> are the Black Star promos and <b>V1–V3</b> the variants.",
+    "placeholder": "e.g. 1-22, 55, 129x2, C1-C5, RGB",
+    "example": "1-22, 55x2, C3, RGB",
+    "hint": "Separate with commas or spaces. <b>1-22</b> is a range, <b>55x2</b> is two copies and <b>C1–C30</b> are Classic Collection cards in checklist order. <b>RGB</b> adds all three RGB Mews (or one with <b>R/RGB</b>, <b>G/RGB</b>, <b>B/RGB</b>), and <b>V1</b> and <b>V2</b> are the variants.",
     "empty": "Main set cards are 1–158 (secret rares start at 129).",
     "aliases": {
       "RGB": [
@@ -247,23 +172,19 @@
     }
   },
   "help": {
-    "tiers": "<b>Standard, Master or Grand Master:</b> pick what you’re collecting above the cards. Standard is the 128 main set cards, Master is all 199 cards, and Grand Master adds the Black Star promos, the First Partner promos and stamped or alternate prints. Cards you’ve marked are kept when you switch."
+    "tiers": "<b>Standard, Master or Grand Master:</b> pick what you’re collecting above the cards. Standard is the 128 main set cards, Master is all 191 cards, and Grand Master adds the stamped Mewtwo and the Cosmos Holo Eevee. Cards you’ve marked are kept when you switch."
   },
   "info": {
     "packSections": [
       "main",
       "secret",
-      "classic",
-      "energy"
+      "classic"
     ],
-    "packText": "<p><b>30th Celebration booster packs.</b> Every pack has 6 foil cards: a Pikachu Rare, four more cards from the set and a Basic Energy.</p>",
+    "packText": "<p><b>30th Celebration booster packs.</b> Every pack has 6 foil cards: a Pikachu Rare, four more cards from the set and a Basic Energy (listed in ME Energy).</p>",
     "sectionText": {
       "classic": [
         "<p><b>Classic Collection Packs</b>, which have 3 of the 30 cards each. There’s one in each Ultra-Premium Collection (Day and Night, 6 Nov 2026).</p>",
         "<p>They also turn up in about 1 in 10 regular 30th Celebration booster packs.</p>"
-      ],
-      "partner": [
-        "<p>Each collection has a promo pack with 3 of the series’ 9 cards at random, plus 2 booster packs.</p>"
       ]
     },
     "packProducts": [
@@ -285,7 +206,6 @@
     ],
     "pullOdds": {
       "PR": 1,
-      "E": 1,
       "R": 2.3,
       "RR": 4.5,
       "IR": 5.5,
@@ -299,30 +219,24 @@
       "RGB": "RGB Rares are extremely rare: roughly 1 in 4,000 packs, from the few found so far."
     },
     "details": {
-      "p099": "The box also has an oversize Jumbo version of this card.",
-      "p100": "The box also has an oversize Jumbo version of this card.",
-      "p101": "The Pokémon Center Elite Trainer Box has this card as well as a Pokémon Center-stamped version.",
-      "p104": "The collection also has an oversize Jumbo version of this card and a Mewtwo figure.",
-      "p105": "The collection also has an oversize Jumbo version of this card and a Mew figure.",
       "v01": "Given away with Pokémon TCG purchases of $15 or more at participating shops in the US, Canada, Australia and New Zealand, while stocks last.",
-      "v02": "The Cosmos Holo version only comes in these two products. The regular Eevee 116 is found in booster packs.",
-      "v03": "Only in the Pokémon Center Elite Trainer Box, which also has the regular Nidorina promo."
+      "v02": "The Cosmos Holo version only comes in these two products. The regular Eevee 116 is found in booster packs."
     }
   },
   "seo": {
-    "title": "Pokémon TCG 30th Celebration Checklist · All 199 Cards",
-    "description": "Free checklist for the Pokémon TCG 30th Celebration set. Track all 199 cards, or go for the Grand Master set with every promo, with images, copy counts, binder pages and offline use. No sign-up needed.",
+    "title": "Pokémon TCG 30th Celebration Checklist · All 191 Cards",
+    "description": "Free checklist for the Pokémon TCG 30th Celebration set. Track all 191 cards, including the Classic Collection and the RGB Mews, with images, copy counts, binder pages and offline use. No sign-up needed.",
     "ogTitle": "Pokémon TCG 30th Celebration Checklist",
-    "ogDescription": "Track all 199 cards in the Pokémon TCG 30th Celebration set, including secret rares, the RGB Mews, the Classic Collection and Basic Energy, plus every promo for a Grand Master set. Free, no sign-up, works offline.",
-    "twitterDescription": "Track all 199 cards in the Pokémon TCG 30th Celebration set, plus every promo. Free, no sign-up, works offline.",
+    "ogDescription": "Track all 191 cards in the Pokémon TCG 30th Celebration set, including secret rares, the RGB Mews and the Classic Collection. Free, no sign-up, works offline.",
+    "twitterDescription": "Track all 191 cards in the Pokémon TCG 30th Celebration set. Free, no sign-up, works offline.",
     "imageAlt": "30th Celebration Card Checklist with Pikachu ex, Mew ex, Mewtwo ex and Charizard cards",
-    "appDescription": "Track all 199 cards in the Pokémon TCG 30th Celebration set: the main set, secret rares, Classic Collection and Basic Energy, plus the promos for a Grand Master set."
+    "appDescription": "Track all 191 cards in the Pokémon TCG 30th Celebration set: the main set, secret rares and Classic Collection."
   },
   "about": {
     "title": "About the 30th Celebration set",
     "paragraphs": [
-      "Pokémon TCG: 30th Celebration marks 30 years of Pokémon. The set has 199 cards: 128 main set cards, including 30 special Pikachu Rares; 33 secret rares (18 Illustration Rares, 10 Special Illustration Rares, 2 Futuristic Rares and the 3 ultra-rare RGB Mews); 30 Classic Collection reprints of iconic cards from the game’s history; and 8 Basic Energy cards.",
-      "Choose what you’re collecting: the <b>Standard set</b> (the 128 main set cards), the <b>Master set</b> (all 199 cards) or the <b>Grand Master set</b> (246 cards: every card plus the 17 Black Star promos from 30th Celebration products, the 27 First Partner Illustration promos and 3 stamped or alternate prints).",
+      "Pokémon TCG: 30th Celebration marks 30 years of Pokémon. The set has 191 cards: 128 main set cards, including 30 special Pikachu Rares; 33 secret rares (18 Illustration Rares, 10 Special Illustration Rares, 2 Futuristic Rares and the 3 ultra-rare RGB Mews); and 30 Classic Collection reprints of iconic cards from the game’s history. Its 8 Basic Energy cards are listed in <a href=\"pokemon/me-energy/\">ME Energy</a>, and the promos from 30th Celebration products in <a href=\"pokemon/me-black-star-promos/\">ME Black Star Promos</a>.",
+      "Choose what you’re collecting: the <b>Standard set</b> (the 128 main set cards), the <b>Master set</b> (all 191 cards) or the <b>Grand Master set</b> (193 cards: every card plus the What’s Your Favorite? stamped Mewtwo and the Cosmos Holo Eevee).",
       "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device."
     ]
   },
@@ -515,63 +429,10 @@
     {"id":"c28","section":"classic","num":"114","printed":"114","code":"C28","name":"Mew VMAX","rarity":"CC","idx":185},
     {"id":"c29","section":"classic","num":"123","printed":"123","code":"C29","name":"Arceus VSTAR","rarity":"CC","idx":186},
     {"id":"c30","section":"classic","num":"203","printed":"203","code":"C30","name":"Magikarp","rarity":"CC","idx":187},
-    {"id":"e009","section":"energy","num":"009","printed":"009","code":"E9","name":"Basic Grass Energy","rarity":"E","type":"grass","idx":188},
-    {"id":"e010","section":"energy","num":"010","printed":"010","code":"E10","name":"Basic Fire Energy","rarity":"E","type":"fire","idx":189},
-    {"id":"e011","section":"energy","num":"011","printed":"011","code":"E11","name":"Basic Water Energy","rarity":"E","type":"water","idx":190},
-    {"id":"e012","section":"energy","num":"012","printed":"012","code":"E12","name":"Basic Lightning Energy","rarity":"E","type":"lightning","idx":191},
-    {"id":"e013","section":"energy","num":"013","printed":"013","code":"E13","name":"Basic Psychic Energy","rarity":"E","type":"psychic","idx":192},
-    {"id":"e014","section":"energy","num":"014","printed":"014","code":"E14","name":"Basic Fighting Energy","rarity":"E","type":"fighting","idx":193},
-    {"id":"e015","section":"energy","num":"015","printed":"015","code":"E15","name":"Basic Darkness Energy","rarity":"E","type":"darkness","idx":194},
-    {"id":"e016","section":"energy","num":"016","printed":"016","code":"E16","name":"Basic Metal Energy","rarity":"E","type":"metal","idx":195},
     {"id":"rgb-r","section":"secret","num":"R/RGB","printed":"R/RGB","code":"R/RGB","name":"Mew","rarity":"RGB","keywords":"Red","idx":196},
     {"id":"rgb-g","section":"secret","num":"G/RGB","printed":"G/RGB","code":"G/RGB","name":"Mew","rarity":"RGB","keywords":"Green","idx":197},
     {"id":"rgb-b","section":"secret","num":"B/RGB","printed":"B/RGB","code":"B/RGB","name":"Mew","rarity":"RGB","keywords":"Blue","idx":198},
-    {"id":"p094","section":"promo","num":"094","printed":"MEP 094","code":"P94","name":"Alolan Exeggutor","rarity":"P","note":"Tech Sticker Collection","idx":199},
-    {"id":"p095","section":"promo","num":"095","printed":"MEP 095","code":"P95","name":"Lucario","rarity":"P","note":"Tech Sticker Collection","idx":200},
-    {"id":"p096","section":"promo","num":"096","printed":"MEP 096","code":"P96","name":"Moltres","rarity":"P","note":"Poster Collection","idx":201},
-    {"id":"p097","section":"promo","num":"097","printed":"MEP 097","code":"P97","name":"Articuno","rarity":"P","note":"Poster Collection","idx":202},
-    {"id":"p098","section":"promo","num":"098","printed":"MEP 098","code":"P98","name":"Zapdos","rarity":"P","note":"Poster Collection","idx":203},
-    {"id":"p099","section":"promo","num":"099","printed":"MEP 099","code":"P99","name":"Greninja ex","rarity":"P","note":"Pokémon ex Box · Greninja ex Tin","idx":204},
-    {"id":"p100","section":"promo","num":"100","printed":"MEP 100","code":"P100","name":"Sylveon ex","rarity":"P","note":"Pokémon ex Box · Sylveon ex Tin","idx":205},
-    {"id":"p101","section":"promo","num":"101","printed":"MEP 101","code":"P101","name":"Nidorina","rarity":"P","note":"Elite Trainer Box","idx":206},
-    {"id":"p102","section":"promo","num":"102","printed":"MEP 102","code":"P102","name":"Victini","rarity":"P","note":"Espeon ex Battle Deck · 30 Oct 2026","idx":207},
-    {"id":"p103","section":"promo","num":"103","printed":"MEP 103","code":"P103","name":"Zeraora","rarity":"P","note":"Umbreon ex Battle Deck · 30 Oct 2026","idx":208},
-    {"id":"p104","section":"promo","num":"104","printed":"MEP 104","code":"P104","name":"Mewtwo","rarity":"P","note":"Mewtwo Figure Collection · 6 Nov 2026","idx":209},
-    {"id":"p105","section":"promo","num":"105","printed":"MEP 105","code":"P105","name":"Mew","rarity":"P","note":"Mew Figure Collection · 6 Nov 2026","idx":210},
-    {"id":"p106","section":"promo","num":"106","printed":"MEP 106","code":"P106","name":"Ditto","rarity":"P","note":"Ditto Premium Collection · 6 Nov 2026","idx":211},
-    {"id":"p107","section":"promo","num":"107","printed":"MEP 107","code":"P107","name":"Pikachu ex","rarity":"P","note":"Ultra-Premium Collection (Day) · 6 Nov 2026","idx":212},
-    {"id":"p108","section":"promo","num":"108","printed":"MEP 108","code":"P108","name":"Espeon ex","rarity":"P","note":"Ultra-Premium Collection (Day) · 6 Nov 2026","idx":213},
-    {"id":"p109","section":"promo","num":"109","printed":"MEP 109","code":"P109","name":"Pikachu ex","rarity":"P","note":"Ultra-Premium Collection (Night) · 6 Nov 2026","idx":214},
-    {"id":"p110","section":"promo","num":"110","printed":"MEP 110","code":"P110","name":"Umbreon ex","rarity":"P","note":"Ultra-Premium Collection (Night) · 6 Nov 2026","idx":215},
     {"id":"v01","section":"variant","num":"063","printed":"063/128","code":"V1","name":"Mewtwo (Stamped)","rarity":"R","base":"m063","badge":"Stamped","note":"What’s Your Favorite? stamp · retailer gift with purchase from 2 Oct 2026","idx":216},
-    {"id":"v02","section":"variant","num":"116","printed":"116/128","code":"V2","name":"Eevee (Cosmos Holo)","rarity":"C","base":"m116","badge":"Cosmos Holo","note":"Knock Out Collection · 2-Pack Blister","idx":217},
-    {"id":"v03","section":"variant","num":"101","printed":"MEP 101","code":"V3","name":"Nidorina (Pokémon Center)","rarity":"P","base":"p101","badge":"PC Stamp","note":"Pokémon Center stamp · Pokémon Center Elite Trainer Box","display":{"number":"{printed}"},"idx":218},
-    {"id":"p037","section":"partner","num":"037","printed":"MEP 037","code":"P37","name":"Bulbasaur","rarity":"P","note":"First Partner Illustration Collection · Series 1 · 30 Mar 2026","idx":219},
-    {"id":"p038","section":"partner","num":"038","printed":"MEP 038","code":"P38","name":"Charmander","rarity":"P","note":"First Partner Illustration Collection · Series 1 · 30 Mar 2026","idx":220},
-    {"id":"p039","section":"partner","num":"039","printed":"MEP 039","code":"P39","name":"Squirtle","rarity":"P","note":"First Partner Illustration Collection · Series 1 · 30 Mar 2026","idx":221},
-    {"id":"p040","section":"partner","num":"040","printed":"MEP 040","code":"P40","name":"Turtwig","rarity":"P","note":"First Partner Illustration Collection · Series 1 · 30 Mar 2026","idx":222},
-    {"id":"p041","section":"partner","num":"041","printed":"MEP 041","code":"P41","name":"Chimchar","rarity":"P","note":"First Partner Illustration Collection · Series 1 · 30 Mar 2026","idx":223},
-    {"id":"p042","section":"partner","num":"042","printed":"MEP 042","code":"P42","name":"Piplup","rarity":"P","note":"First Partner Illustration Collection · Series 1 · 30 Mar 2026","idx":224},
-    {"id":"p043","section":"partner","num":"043","printed":"MEP 043","code":"P43","name":"Rowlet","rarity":"P","note":"First Partner Illustration Collection · Series 1 · 30 Mar 2026","idx":225},
-    {"id":"p044","section":"partner","num":"044","printed":"MEP 044","code":"P44","name":"Litten","rarity":"P","note":"First Partner Illustration Collection · Series 1 · 30 Mar 2026","idx":226},
-    {"id":"p045","section":"partner","num":"045","printed":"MEP 045","code":"P45","name":"Popplio","rarity":"P","note":"First Partner Illustration Collection · Series 1 · 30 Mar 2026","idx":227},
-    {"id":"p046","section":"partner","num":"046","printed":"MEP 046","code":"P46","name":"Chikorita","rarity":"P","note":"First Partner Illustration Collection · Series 2 · 19 Jun 2026","idx":228},
-    {"id":"p047","section":"partner","num":"047","printed":"MEP 047","code":"P47","name":"Cyndaquil","rarity":"P","note":"First Partner Illustration Collection · Series 2 · 19 Jun 2026","idx":229},
-    {"id":"p048","section":"partner","num":"048","printed":"MEP 048","code":"P48","name":"Totodile","rarity":"P","note":"First Partner Illustration Collection · Series 2 · 19 Jun 2026","idx":230},
-    {"id":"p049","section":"partner","num":"049","printed":"MEP 049","code":"P49","name":"Snivy","rarity":"P","note":"First Partner Illustration Collection · Series 2 · 19 Jun 2026","idx":231},
-    {"id":"p050","section":"partner","num":"050","printed":"MEP 050","code":"P50","name":"Tepig","rarity":"P","note":"First Partner Illustration Collection · Series 2 · 19 Jun 2026","idx":232},
-    {"id":"p051","section":"partner","num":"051","printed":"MEP 051","code":"P51","name":"Oshawott","rarity":"P","note":"First Partner Illustration Collection · Series 2 · 19 Jun 2026","idx":233},
-    {"id":"p052","section":"partner","num":"052","printed":"MEP 052","code":"P52","name":"Grookey","rarity":"P","note":"First Partner Illustration Collection · Series 2 · 19 Jun 2026","idx":234},
-    {"id":"p053","section":"partner","num":"053","printed":"MEP 053","code":"P53","name":"Scorbunny","rarity":"P","note":"First Partner Illustration Collection · Series 2 · 19 Jun 2026","idx":235},
-    {"id":"p054","section":"partner","num":"054","printed":"MEP 054","code":"P54","name":"Sobble","rarity":"P","note":"First Partner Illustration Collection · Series 2 · 19 Jun 2026","idx":236},
-    {"id":"p055","section":"partner","num":"055","printed":"MEP 055","code":"P55","name":"Treecko","rarity":"P","note":"First Partner Illustration Collection · Series 3 · 7 Aug 2026","idx":237},
-    {"id":"p056","section":"partner","num":"056","printed":"MEP 056","code":"P56","name":"Torchic","rarity":"P","note":"First Partner Illustration Collection · Series 3 · 7 Aug 2026","idx":238},
-    {"id":"p057","section":"partner","num":"057","printed":"MEP 057","code":"P57","name":"Mudkip","rarity":"P","note":"First Partner Illustration Collection · Series 3 · 7 Aug 2026","idx":239},
-    {"id":"p058","section":"partner","num":"058","printed":"MEP 058","code":"P58","name":"Chespin","rarity":"P","note":"First Partner Illustration Collection · Series 3 · 7 Aug 2026","idx":240},
-    {"id":"p059","section":"partner","num":"059","printed":"MEP 059","code":"P59","name":"Fennekin","rarity":"P","note":"First Partner Illustration Collection · Series 3 · 7 Aug 2026","idx":241},
-    {"id":"p060","section":"partner","num":"060","printed":"MEP 060","code":"P60","name":"Froakie","rarity":"P","note":"First Partner Illustration Collection · Series 3 · 7 Aug 2026","idx":242},
-    {"id":"p061","section":"partner","num":"061","printed":"MEP 061","code":"P61","name":"Sprigatito","rarity":"P","note":"First Partner Illustration Collection · Series 3 · 7 Aug 2026","idx":243},
-    {"id":"p062","section":"partner","num":"062","printed":"MEP 062","code":"P62","name":"Fuecoco","rarity":"P","note":"First Partner Illustration Collection · Series 3 · 7 Aug 2026","idx":244},
-    {"id":"p063","section":"partner","num":"063","printed":"MEP 063","code":"P63","name":"Quaxly","rarity":"P","note":"First Partner Illustration Collection · Series 3 · 7 Aug 2026","idx":245}
+    {"id":"v02","section":"variant","num":"116","printed":"116/128","code":"V2","name":"Eevee (Cosmos Holo)","rarity":"C","base":"m116","badge":"Cosmos Holo","note":"Knock Out Collection · 2-Pack Blister","idx":217}
   ]
 }

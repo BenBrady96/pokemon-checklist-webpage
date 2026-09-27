@@ -39,6 +39,39 @@ export const isStorageOk = () => storageOk;
 
 const LEGACY_COLLECTION = 'pokemon/30th-celebration';
 
+function movedCard(id) {
+  if (id === 'v03') return ['pokemon/me-black-star-promos', '101-pokemon-center'];
+  const m = /^([pe])(\d{3})$/.exec(id);
+  return m && [m[1] === 'p' ? 'pokemon/me-black-star-promos' : 'pokemon/me-energy', m[2]];
+}
+
+function moveCards() {
+  const key = collectionKey(LEGACY_COLLECTION);
+  const record = read(key);
+  if (!record?.q || typeof record.q !== 'object') return;
+  const q = {};
+  const targets = new Map();
+  for (const [id, n] of Object.entries(record.q)) {
+    const to = movedCard(id);
+    if (!to) {
+      q[id] = n;
+      continue;
+    }
+    const [collection, cardId] = to;
+    if (!targets.has(collection)) {
+      const { summary, ...target } = read(collectionKey(collection)) || { v: 1, updated: record.updated || Date.now() };
+      targets.set(collection, { ...target, q: { ...target.q } });
+    }
+    const target = targets.get(collection);
+    const count = Math.max(clampQty(target.q[cardId]), clampQty(n));
+    if (count) target.q[cardId] = count;
+  }
+  if (!targets.size) return;
+  for (const [collection, target] of targets) write(collectionKey(collection), target);
+  const { summary, ...rest } = record;
+  write(key, { ...rest, q });
+}
+
 function migrate() {
   try {
     if (localStorage.getItem(PREFS_KEY) === null) {
@@ -53,6 +86,7 @@ function migrate() {
       const old = read('p30c:v1');
       if (old?.q && typeof old.q === 'object') write(key, { v: 1, q: old.q, updated: old.updated || Date.now() });
     }
+    moveCards();
   } catch {}
 }
 

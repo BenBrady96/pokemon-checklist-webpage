@@ -1,12 +1,14 @@
 import { join } from 'node:path';
 import { pathToFileURL } from 'node:url';
-import pokemonSets, { SERIES as POKEMON_SERIES } from '../../collections/pokemon/sets.mjs';
+import pokemonSets, { LOGO as POKEMON_LOGO, SERIES as POKEMON_SERIES } from '../../collections/pokemon/sets.mjs';
 import * as pokemon from '../../js/games/pokemon.js';
 import { buildCollection } from '../../js/model.js';
 import { ROOT, readJson } from './util.mjs';
 
 export const GAMES = { pokemon };
 export const SERIES = { pokemon: POKEMON_SERIES };
+export const GAME_LOGOS = { pokemon: POKEMON_LOGO };
+export const gameLogoPath = (game) => `img/games/${game}/logo.webp`;
 
 export const CONFIG = pokemonSets.map((entry) => ({ ...entry, game: 'pokemon', id: `pokemon/${entry.slug}` }));
 

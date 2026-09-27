@@ -4,7 +4,7 @@ import { normalize } from './model.js';
 import * as storage from './storage.js';
 import { parseSyncText, parseBackup, askIncoming, initImport, exportFile } from './sync.js';
 import { resolveCodes, resolveBackup, allCounts, backupCode, applyEntries, catalogEntryFor } from './transfer.js';
-import { initDialogs, openDialog, closeDialog, toast, copyText } from './ui.js';
+import { initDialogs, openDialog, closeDialog, toast, copyText, hideLoader } from './ui.js';
 import { initPWA } from './pwa.js';
 
 const html = document.documentElement;
@@ -264,6 +264,7 @@ async function init() {
   } catch {
   }
   showProgress();
+  hideLoader();
   if (search.value) filterSets();
   if (new URLSearchParams(location.search).has('offline')) {
     history.replaceState(null, '', location.pathname + location.hash);
