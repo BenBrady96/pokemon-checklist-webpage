@@ -26,6 +26,8 @@ const tilesFor = (id) => document.querySelectorAll(`.set-tile[data-id="${CSS.esc
 const summaryTried = new Set();
 
 const summaryIsCurrent = (c, summary) => Boolean(summary) && c.tiers.some((t) => t.id === summary.tier && t.count === summary.total);
+const collected = ({ record }) => (record.summary?.total ? record.summary.owned / record.summary.total : 0);
+const cardsOwned = ({ record }) => record.summary?.owned ?? Object.keys(record.q).length;
 
 async function refreshSummaries(ids) {
   for (const id of ids) summaryTried.add(id);
@@ -34,7 +36,9 @@ async function refreshSummaries(ids) {
 }
 
 function showProgress() {
-  const stored = storage.storedCollections().filter(({ id }) => catalog.collections.some((c) => c.id === id));
+  const stored = storage.storedCollections()
+    .filter(({ id }) => catalog.collections.some((c) => c.id === id))
+    .sort((a, b) => collected(b) - collected(a) || cardsOwned(b) - cardsOwned(a));
   const stale = [];
   for (const c of catalog.collections) {
     const summary = storage.readRecord(c.id)?.summary;
@@ -53,7 +57,7 @@ function showProgress() {
       tile.classList.toggle('is-complete', Boolean(total) && count === total);
     }
   }
-  continueGrid.replaceChildren(...stored.slice(0, 4).map(({ id }) => {
+  continueGrid.replaceChildren(...stored.map(({ id }) => {
     const tile = document.querySelector(`#catalog .set-tile[data-id="${CSS.escape(id)}"]`);
     return tile ? tile.cloneNode(true) : null;
   }).filter(Boolean));
