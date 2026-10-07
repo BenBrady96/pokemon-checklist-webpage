@@ -2,6 +2,7 @@
 <html lang="en-GB">
 <head>
   <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'wasm-unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; media-src 'self' blob:; connect-src 'self'; worker-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self';">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Binder Tracker · Free Pokémon TCG Set Checklists</title>
   <meta name="description" content="Free checklists for Pokémon TCG sets from Scarlet &amp; Violet to Mega Evolution. Tick off the cards you own, go for a master set with every reverse holo, count duplicates and plan your binder pages. No sign-up, works offline.">
@@ -71,12 +72,7 @@
     ]
   }
   </script>
-  <script>
-    try {
-      var p = JSON.parse(localStorage.getItem('bt:v1:prefs') || localStorage.getItem('p30c:prefs:v1') || '{}');
-      if (p.theme === 'light' || p.theme === 'dark') document.documentElement.dataset.theme = p.theme;
-    } catch (e) {}
-  </script>
+  <script src="js/theme-init.js"></script>
   <script type="module" src="js/home.js"></script>
   <noscript><style>.page-loader { display: none; }</style></noscript>
 </head>
@@ -112,6 +108,10 @@
     <symbol id="i-upload" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 15.5v-11M7.5 9L12 4.5 16.5 9M5 19.5h14"/></g></symbol>
     <symbol id="i-undo" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 7L4.5 11.5 9 16"/><path d="M5 11.5h9.5a5 5 0 0 1 0 10H12"/></g></symbol>
     <symbol id="i-sparkle" viewBox="0 0 24 24"><path d="M12 3l1.9 5.6L19.5 10l-5.6 1.9L12 17.5l-1.9-5.6L4.5 10l5.6-1.4z" fill="currentColor"/></symbol>
+    <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></symbol>
+    <symbol id="i-stack" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><rect x="8" y="3.5" width="11" height="15" rx="2"/><path d="M5 7v11.5a2 2 0 0 0 2 2h8.5"/></g></symbol>
+    <symbol id="i-image" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"><rect x="3.5" y="4.5" width="17" height="15" rx="2.5"/><circle cx="9" cy="10" r="1.7"/><path d="M20.5 16l-5-5L7 19.5"/></g></symbol>
+    <symbol id="i-camera" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M3.5 8.5a2 2 0 0 1 2-2h2.2l1.6-2.2h5.4l1.6 2.2h2.2a2 2 0 0 1 2 2V17.5a2 2 0 0 1-2 2h-13a2 2 0 0 1-2-2z"/><circle cx="12" cy="12.8" r="3.6"/></g></symbol>
   </defs>
 </svg>
 
@@ -127,6 +127,7 @@
       </span>
     </a>
     <div class="appbar__actions">
+      <button class="icon-btn icon-btn--header" type="button" data-open="scan" title="Scan a card" aria-label="Scan a card"><svg><use href="#i-camera"/></svg></button>
       <button class="icon-btn icon-btn--header" type="button" data-open="menu" title="Menu" aria-label="Menu"><svg><use href="#i-dots"/></svg></button>
     </div>
   </div>
@@ -144,6 +145,7 @@
       <svg class="search__icon" aria-hidden="true"><use href="#i-search"/></svg>
       <input type="search" class="search__input" id="set-search" placeholder="Find a set, e.g. Surging Sparks or SSP" aria-label="Find a set" autocomplete="off" enterkeyhint="search">
     </label>
+    <button type="button" class="btn btn--ghost home-scan" data-open="scan"><svg><use href="#i-camera"/></svg>Scan a card to add it</button>
   </section>
 
   <section class="home-continue" id="continue" hidden aria-labelledby="continue-title">
@@ -160,7 +162,7 @@
 <section class="about wrap" aria-labelledby="about-title">
   <h2 class="about__title" id="about-title">About Binder Tracker</h2>
   <p>Binder Tracker is a free checklist for Pokémon TCG collectors. Every Scarlet &amp; Violet and Mega Evolution expansion has its own page, with card images, rarities and TCGplayer prices, plus the Black Star promos and Basic Energy.</p>
-  <p>Pick what you’re collecting in each set: the <b>Standard set</b> (the main set), the <b>Complete set</b> (every card, including secret rares), the <b>Master set</b> (every card plus each reverse holo and Poké Ball or Master Ball pattern) or, where there are extra promos, the <b>Grand Master set</b>.</p>
+  <p>Pick what you’re collecting in each set: the <b>Standard set</b> (the main set), the <b>Master set</b> (the main set plus each reverse holo and Poké Ball or Master Ball pattern) or the <b>Grand Master set</b> (every card, adding the secret rares).</p>
   <p>Your collection stays on your device, it works on phones and computers even offline, and a sync link or backup moves it to another device.</p>
 </section>
 
@@ -181,6 +183,9 @@
       <button type="button" class="icon-btn" data-close aria-label="Close"><svg><use href="#i-close"/></svg></button>
     </header>
     <div class="sheet__body menu">
+      <div class="menu__group">
+        <button type="button" class="menu__item" data-open="scan"><svg><use href="#i-camera"/></svg><span><b>Scan a card</b><small>Point your camera at a card to add it to its set</small></span></button>
+      </div>
       <div class="menu__group">
         <h3 class="menu__label">Backup</h3>
         <button type="button" class="menu__item" data-open="export"><svg><use href="#i-download"/></svg><span><b>Export backup</b><small data-last-backup>Every set you’re collecting, as a code or a file</small></span></button>
@@ -255,6 +260,31 @@
       <button type="button" class="btn btn--primary" data-sync-choice="merge" autofocus>Merge</button>
     </footer>
   </div>
+</dialog>
+
+<dialog class="scanner" id="dlg-scan" aria-labelledby="scan-title">
+  <div class="scanner__inner">
+    <div class="scanner__bar">
+      <h2 class="scanner__title" id="scan-title">Scan a card</h2>
+      <button type="button" class="scanner__tally" data-scan="tally" hidden></button>
+      <button type="button" class="icon-btn icon-btn--dark" data-close aria-label="Close scanner"><svg><use href="#i-close"/></svg></button>
+    </div>
+    <div class="scanner__stage">
+      <video class="scanner__video" data-scan="video" playsinline muted></video>
+      <div class="scanner__guide" data-scan="guide" aria-hidden="true"></div>
+      <div class="scanner__flash" data-scan="flash" role="status" hidden></div>
+      <p class="scanner__status" data-scan="status" role="status"></p>
+      <div class="scanner__panel" data-scan="panel" hidden></div>
+    </div>
+    <div class="scanner__controls">
+      <button type="button" class="scanner__side" data-scan="photo"><svg><use href="#i-image"/></svg><span>Photo</span></button>
+      <button type="button" class="scanner__shutter" data-scan="shutter" aria-label="Scan the card in the frame" disabled></button>
+      <button type="button" class="scanner__side" data-scan="search"><svg><use href="#i-search"/></svg><span>Search</span></button>
+    </div>
+    <p class="scanner__note">Recognised on your device. Photos aren’t uploaded or saved.</p>
+    <p class="sr-only" data-scan="live" aria-live="polite"></p>
+  </div>
+  <input type="file" accept="image/*" data-scan="file" hidden>
 </dialog>
 
 <input type="file" id="import-file" accept="application/json,.json" hidden>

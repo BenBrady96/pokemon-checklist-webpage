@@ -40,7 +40,6 @@ export const isStorageOk = () => storageOk;
 const LEGACY_COLLECTION = 'pokemon/30th-celebration';
 
 function movedCard(id) {
-  if (id === 'v03') return ['pokemon/me-black-star-promos', '101-pokemon-center'];
   const m = /^([pe])(\d{3})$/.exec(id);
   return m && [m[1] === 'p' ? 'pokemon/me-black-star-promos' : 'pokemon/me-energy', m[2]];
 }
@@ -72,6 +71,16 @@ function moveCards() {
   write(key, { ...rest, q });
 }
 
+const TIER_SCHEME = 2;
+
+function remapTiers() {
+  const saved = read(PREFS_KEY);
+  if (!saved || typeof saved !== 'object' || saved.tierScheme === TIER_SCHEME) return;
+  const tiers = {};
+  for (const [id, tier] of Object.entries(saved.tiers || {})) tiers[id] = tier === 'complete' || tier === 'master' ? 'grand' : tier;
+  write(PREFS_KEY, { ...saved, tiers, tierScheme: TIER_SCHEME });
+}
+
 function migrate() {
   try {
     if (localStorage.getItem(PREFS_KEY) === null) {
@@ -87,6 +96,7 @@ function migrate() {
       if (old?.q && typeof old.q === 'object') write(key, { v: 1, q: old.q, updated: old.updated || Date.now() });
     }
     moveCards();
+    remapTiers();
   } catch {}
 }
 
@@ -105,6 +115,7 @@ const DEFAULT_PREFS = {
   lastBackup: 0,
   lastCollection: null,
   tiers: {},
+  tierScheme: TIER_SCHEME,
 };
 
 let prefs = { ...DEFAULT_PREFS, ...(read(PREFS_KEY) || {}) };

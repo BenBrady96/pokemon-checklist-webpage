@@ -12,9 +12,13 @@
     "sets": "node tools/build-sets.mjs",
     "images": "node tools/build-images.mjs",
     "images:force": "node tools/build-images.mjs --force",
-    "prices": "node tools/build-prices.mjs"
+    "prices": "node tools/build-prices.mjs",
+    "scan-index": "node tools/build-scan-index.mjs",
+    "scan-eval": "node tools/scan-eval.mjs"
   },
   "devDependencies": {
+    "onnxruntime-node": "1.30.0",
+    "onnxruntime-web": "1.30.0",
     "sharp": "^0.35.4"
   }
 }

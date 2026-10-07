@@ -9,19 +9,13 @@
   "syncKey": "PBL",
   "released": "2026-07-17",
   "printedTotal": 84,
-  "defaultTier": "complete",
+  "defaultTier": "grand",
   "sections": [
     {
       "id": "main",
       "name": "Main Set",
       "range": "001–084",
       "tier": "standard"
-    },
-    {
-      "id": "secret",
-      "name": "Secret Rares",
-      "range": "085–120",
-      "tier": "complete"
     },
     {
       "id": "reverse",
@@ -31,14 +25,10 @@
       "tier": "master"
     },
     {
-      "id": "special",
-      "name": "Special Prints",
-      "short": "Special Prints",
-      "range": "stamps, Cosmos Holos & more",
-      "tier": "grand",
-      "display": {
-        "search": "Pokemon {set} {name} {printed} {badge}"
-      }
+      "id": "secret",
+      "name": "Secret Rares",
+      "range": "085–120",
+      "tier": "grand"
     }
   ],
   "summary": [
@@ -47,32 +37,28 @@
       "Main set"
     ],
     [
-      "secret",
-      "Secret rares"
-    ],
-    [
       "reverse",
       "Reverse holos"
     ],
     [
-      "special",
-      "Special prints"
+      "secret",
+      "Secret rares"
     ]
   ],
   "quickAdd": {
     "placeholder": "e.g. 1-22, 55, R12, 60x2",
     "example": "1-22, 55x2, R12",
-    "hint": "Separate with commas or spaces. <b>1-22</b> is a range and <b>55x2</b> is two copies. <b>R12</b> is card 12’s reverse holo, and ranges work too (<b>R1-R20</b>). Special prints are marked by tapping them.",
+    "hint": "Separate with commas or spaces. <b>1-22</b> is a range and <b>55x2</b> is two copies. <b>R12</b> is card 12’s reverse holo, and ranges work too (<b>R1-R20</b>).",
     "empty": "Main set cards are 1–84 (secret rares start at 85)."
   },
   "help": {
-    "tiers": "<b>Standard, Complete, Master or Grand Master:</b> pick what you’re collecting above the cards. Standard is the 84 main set cards, Complete is all 120 cards, Master adds the 74 reverse holos and Grand Master adds the 1 special print (stamped, Cosmos Holo and other product-exclusive cards). Cards you’ve marked are kept when you switch."
+    "tiers": "<b>Standard, Master or Grand Master:</b> pick what you’re collecting above the cards. Standard is the 84 main set cards. Master adds the 74 reverse holos. Grand Master adds the 36 secret rares. Cards you’ve marked are kept when you switch."
   },
   "info": {
     "packSections": [
       "main",
-      "secret",
-      "reverse"
+      "reverse",
+      "secret"
     ],
     "sectionText": {
       "reverse": [
@@ -94,16 +80,16 @@
   },
   "seo": {
     "title": "Pokémon TCG Pitch Black Checklist · All 120 Cards",
-    "description": "Free checklist for the Pokémon TCG Pitch Black set. Track all 120 cards, or go further with every reverse holos and every special print, with images, copy counts, binder pages and prices. No sign-up needed.",
+    "description": "Free checklist for the Pokémon TCG Pitch Black set. Track all 120 cards, or go further with the reverse holos, with images, copy counts, binder pages and prices. No sign-up needed.",
     "ogTitle": "Pokémon TCG Pitch Black Checklist",
-    "ogDescription": "Track all 120 cards in Pokémon TCG Pitch Black: the 84-card main set and 36 secret rares, plus 74 reverse holos for a master set and 1 special print for a grand master set. Free, no sign-up, works offline.",
+    "ogDescription": "Track all 120 cards in Pokémon TCG Pitch Black: the 84-card main set and 36 secret rares, plus 74 reverse holos. Free, no sign-up, works offline.",
     "twitterDescription": "Track all 120 cards in Pokémon TCG Pitch Black. Free, no sign-up, works offline."
   },
   "about": {
     "title": "About the Pitch Black set",
     "paragraphs": [
-      "Pokémon TCG: Pitch Black is a Mega Evolution expansion released on 17 July 2026. It has 120 cards: 84 in the main set and 36 secret rares. For a master set there are also 74 reverse holos, and 1 special print from other products and events.",
-      "Choose what you’re collecting: the <b>Standard set</b> (the 84 main set cards), the <b>Complete set</b> (all 120 cards), the <b>Master set</b> (194 cards, adding every reverse holos) or the <b>Grand Master set</b> (195 cards, adding the 1 special print (stamped, Cosmos Holo and other product-exclusive cards)).",
+      "Pokémon TCG: Pitch Black is a Mega Evolution expansion released on 17 July 2026. It has 120 cards: 84 in the main set and 36 secret rares. There are also 74 reverse holos.",
+      "Choose what you’re collecting: the <b>Standard set</b> (the 84 main set cards), the <b>Master set</b> (158 cards, adding the reverse holos) or the <b>Grand Master set</b> (all 194 cards, adding the 36 secret rares).",
       "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device."
     ]
   },
@@ -218,7 +204,6 @@
     {"id":"055","section":"main","num":"055","printed":"055/084","code":"55","name":"Morpeko ex","rarity":"RR","tcg":704812,"idx":100},
     {"id":"056","section":"main","num":"056","printed":"056/084","code":"56","name":"Zarude","rarity":"R","tcg":704813,"idx":101},
     {"id":"056-rh","section":"reverse","num":"056","printed":"056/084","code":"R56","name":"Zarude","rarity":"R","img":"056","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":704813,"sub":"Reverse Holofoil","idx":102},
-    {"id":"056-cosmos","section":"special","num":"056","printed":"056/084","code":"","name":"Zarude","rarity":"R","img":"056","badge":"Cosmos Holo","variant":"Cosmos Holo","foil":true,"note":"A Cosmos Holo print, from blister packs, collection boxes and other special products.","tcg":706251,"grp":2289,"idx":103},
     {"id":"057","section":"main","num":"057","printed":"057/084","code":"57","name":"Maschiff","rarity":"C","tcg":704814,"idx":104},
     {"id":"057-rh","section":"reverse","num":"057","printed":"057/084","code":"R57","name":"Maschiff","rarity":"C","img":"057","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":704814,"sub":"Reverse Holofoil","idx":105},
     {"id":"058","section":"main","num":"058","printed":"058/084","code":"58","name":"Mabosstiff","rarity":"C","tcg":704815,"idx":106},

@@ -9,19 +9,13 @@
   "syncKey": "PAF",
   "released": "2024-01-26",
   "printedTotal": 91,
-  "defaultTier": "complete",
+  "defaultTier": "grand",
   "sections": [
     {
       "id": "main",
       "name": "Main Set",
       "range": "001–091",
       "tier": "standard"
-    },
-    {
-      "id": "secret",
-      "name": "Secret Rares",
-      "range": "092–245",
-      "tier": "complete"
     },
     {
       "id": "reverse",
@@ -31,14 +25,10 @@
       "tier": "master"
     },
     {
-      "id": "special",
-      "name": "Special Prints",
-      "short": "Special Prints",
-      "range": "stamps, Cosmos Holos & more",
-      "tier": "grand",
-      "display": {
-        "search": "Pokemon {set} {name} {printed} {badge}"
-      }
+      "id": "secret",
+      "name": "Secret Rares",
+      "range": "092–245",
+      "tier": "grand"
     }
   ],
   "summary": [
@@ -47,32 +37,28 @@
       "Main set"
     ],
     [
-      "secret",
-      "Secret rares"
-    ],
-    [
       "reverse",
       "Reverse holos"
     ],
     [
-      "special",
-      "Special prints"
+      "secret",
+      "Secret rares"
     ]
   ],
   "quickAdd": {
     "placeholder": "e.g. 1-22, 55, R12, 60x2",
     "example": "1-22, 55x2, R12",
-    "hint": "Separate with commas or spaces. <b>1-22</b> is a range and <b>55x2</b> is two copies. <b>R12</b> is card 12’s reverse holo, and ranges work too (<b>R1-R20</b>). Special prints are marked by tapping them.",
+    "hint": "Separate with commas or spaces. <b>1-22</b> is a range and <b>55x2</b> is two copies. <b>R12</b> is card 12’s reverse holo, and ranges work too (<b>R1-R20</b>).",
     "empty": "Main set cards are 1–91 (secret rares start at 92)."
   },
   "help": {
-    "tiers": "<b>Standard, Complete, Master or Grand Master:</b> pick what you’re collecting above the cards. Standard is the 91 main set cards, Complete is all 245 cards, Master adds the 81 reverse holos and Grand Master adds the 7 special prints (stamped, Cosmos Holo and other product-exclusive cards). Cards you’ve marked are kept when you switch."
+    "tiers": "<b>Standard, Master or Grand Master:</b> pick what you’re collecting above the cards. Standard is the 91 main set cards. Master adds the 81 reverse holos. Grand Master adds the 154 secret rares. Cards you’ve marked are kept when you switch."
   },
   "info": {
     "packSections": [
       "main",
-      "secret",
-      "reverse"
+      "reverse",
+      "secret"
     ],
     "sectionText": {
       "reverse": [
@@ -97,16 +83,16 @@
   },
   "seo": {
     "title": "Pokémon TCG Paldean Fates Checklist · All 245 Cards",
-    "description": "Free checklist for the Pokémon TCG Paldean Fates set. Track all 245 cards, or go further with every reverse holos and every special print, with images, copy counts, binder pages and prices. No sign-up needed.",
+    "description": "Free checklist for the Pokémon TCG Paldean Fates set. Track all 245 cards, or go further with the reverse holos, with images, copy counts, binder pages and prices. No sign-up needed.",
     "ogTitle": "Pokémon TCG Paldean Fates Checklist",
-    "ogDescription": "Track all 245 cards in Pokémon TCG Paldean Fates: the 91-card main set and 154 secret rares, plus 81 reverse holos for a master set and 7 special prints for a grand master set. Free, no sign-up, works offline.",
+    "ogDescription": "Track all 245 cards in Pokémon TCG Paldean Fates: the 91-card main set and 154 secret rares, plus 81 reverse holos. Free, no sign-up, works offline.",
     "twitterDescription": "Track all 245 cards in Pokémon TCG Paldean Fates. Free, no sign-up, works offline."
   },
   "about": {
     "title": "About the Paldean Fates set",
     "paragraphs": [
-      "Pokémon TCG: Paldean Fates is a Scarlet & Violet expansion released on 26 January 2024. It has 245 cards: 91 in the main set and 154 secret rares. For a master set there are also 81 reverse holos, and 7 special prints from other products and events.",
-      "Choose what you’re collecting: the <b>Standard set</b> (the 91 main set cards), the <b>Complete set</b> (all 245 cards), the <b>Master set</b> (326 cards, adding every reverse holos) or the <b>Grand Master set</b> (333 cards, adding the 7 special prints (stamped, Cosmos Holo and other product-exclusive cards)).",
+      "Pokémon TCG: Paldean Fates is a Scarlet & Violet expansion released on 26 January 2024. It has 245 cards: 91 in the main set and 154 secret rares. There are also 81 reverse holos.",
+      "Choose what you’re collecting: the <b>Standard set</b> (the 91 main set cards), the <b>Master set</b> (172 cards, adding the reverse holos) or the <b>Grand Master set</b> (all 326 cards, adding the 154 secret rares).",
       "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device."
     ]
   },
@@ -129,10 +115,8 @@
     {"id":"006","section":"main","num":"006","printed":"006/091","code":"6","name":"Espathra ex","rarity":"RR","tcg":534140,"idx":8},
     {"id":"007","section":"main","num":"007","printed":"007/091","code":"7","name":"Charmander","rarity":"C","tcg":534142,"idx":9},
     {"id":"007-rh","section":"reverse","num":"007","printed":"007/091","code":"R7","name":"Charmander","rarity":"C","img":"007","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":534142,"sub":"Reverse Holofoil","idx":10},
-    {"id":"007-cosmos","section":"special","num":"007","printed":"007/091","code":"","name":"Charmander","rarity":"C","img":"007","badge":"Cosmos Holo","variant":"Cosmos Holo","foil":true,"note":"A Cosmos Holo print, from blister packs, collection boxes and other special products.","idx":11},
     {"id":"008","section":"main","num":"008","printed":"008/091","code":"8","name":"Charmeleon","rarity":"U","tcg":534143,"idx":12},
     {"id":"008-rh","section":"reverse","num":"008","printed":"008/091","code":"R8","name":"Charmeleon","rarity":"U","img":"008","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":534143,"sub":"Reverse Holofoil","idx":13},
-    {"id":"008-cosmos","section":"special","num":"008","printed":"008/091","code":"","name":"Charmeleon","rarity":"U","img":"008","badge":"Cosmos Holo","variant":"Cosmos Holo","foil":true,"note":"A Cosmos Holo print, from blister packs, collection boxes and other special products.","idx":14},
     {"id":"009","section":"main","num":"009","printed":"009/091","code":"9","name":"Magmar","rarity":"C","tcg":534149,"idx":15},
     {"id":"009-rh","section":"reverse","num":"009","printed":"009/091","code":"R9","name":"Magmar","rarity":"C","img":"009","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":534149,"sub":"Reverse Holofoil","idx":16},
     {"id":"010","section":"main","num":"010","printed":"010/091","code":"10","name":"Magmortar","rarity":"R","tcg":534150,"idx":17},
@@ -153,7 +137,6 @@
     {"id":"017-rh","section":"reverse","num":"017","printed":"017/091","code":"R17","name":"Frigibax","rarity":"C","img":"017","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":534161,"sub":"Reverse Holofoil","idx":32},
     {"id":"018","section":"main","num":"018","printed":"018/091","code":"18","name":"Pikachu","rarity":"C","tcg":534163,"idx":33},
     {"id":"018-rh","section":"reverse","num":"018","printed":"018/091","code":"R18","name":"Pikachu","rarity":"C","img":"018","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":534163,"sub":"Reverse Holofoil","idx":34},
-    {"id":"018-reverse-cosmos","section":"special","num":"018","printed":"018/091","code":"","name":"Pikachu","rarity":"C","img":"018","badge":"Reverse Cosmos Holo","variant":"Reverse Cosmos Holo","foil":true,"note":"A Cosmos Holo print, from blister packs, collection boxes and other special products.","idx":35},
     {"id":"019","section":"main","num":"019","printed":"019/091","code":"19","name":"Raichu","rarity":"R","tcg":534165,"idx":36},
     {"id":"019-rh","section":"reverse","num":"019","printed":"019/091","code":"R19","name":"Raichu","rarity":"R","img":"019","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":534165,"sub":"Reverse Holofoil","idx":37},
     {"id":"020","section":"main","num":"020","printed":"020/091","code":"20","name":"Chinchou","rarity":"C","tcg":534166,"idx":38},
@@ -193,17 +176,14 @@
     {"id":"037-rh","section":"reverse","num":"037","printed":"037/091","code":"R37","name":"Mimikyu","rarity":"R","img":"037","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":534183,"sub":"Reverse Holofoil","idx":72},
     {"id":"038","section":"main","num":"038","printed":"038/091","code":"38","name":"Fidough","rarity":"C","tcg":534184,"idx":73},
     {"id":"038-rh","section":"reverse","num":"038","printed":"038/091","code":"R38","name":"Fidough","rarity":"C","img":"038","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":534184,"sub":"Reverse Holofoil","idx":74},
-    {"id":"038-reverse-cosmos","section":"special","num":"038","printed":"038/091","code":"","name":"Fidough","rarity":"C","img":"038","badge":"Reverse Cosmos Holo","variant":"Reverse Cosmos Holo","foil":true,"note":"A Cosmos Holo print, from blister packs, collection boxes and other special products.","idx":75},
     {"id":"039","section":"main","num":"039","printed":"039/091","code":"39","name":"Dachsbun","rarity":"U","tcg":534185,"idx":76},
     {"id":"039-rh","section":"reverse","num":"039","printed":"039/091","code":"R39","name":"Dachsbun","rarity":"U","img":"039","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":534185,"sub":"Reverse Holofoil","idx":77},
     {"id":"040","section":"main","num":"040","printed":"040/091","code":"40","name":"Ceruledge","rarity":"R","tcg":534186,"idx":78},
     {"id":"040-rh","section":"reverse","num":"040","printed":"040/091","code":"R40","name":"Ceruledge","rarity":"R","img":"040","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":534186,"sub":"Reverse Holofoil","idx":79},
-    {"id":"040-pokemon-day","section":"special","num":"040","printed":"040/091","code":"","name":"Ceruledge","rarity":"R","img":"040","badge":"Pokémon Day","variant":"Pokémon Day","foil":true,"note":"A Pokémon Day promo.","idx":80},
     {"id":"041","section":"main","num":"041","printed":"041/091","code":"41","name":"Flittle","rarity":"C","tcg":534187,"idx":81},
     {"id":"041-rh","section":"reverse","num":"041","printed":"041/091","code":"R41","name":"Flittle","rarity":"C","img":"041","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":534187,"sub":"Reverse Holofoil","idx":82},
     {"id":"042","section":"main","num":"042","printed":"042/091","code":"42","name":"Greavard","rarity":"C","tcg":534188,"idx":83},
     {"id":"042-rh","section":"reverse","num":"042","printed":"042/091","code":"R42","name":"Greavard","rarity":"C","img":"042","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":534188,"sub":"Reverse Holofoil","idx":84},
-    {"id":"042-reverse-cosmos","section":"special","num":"042","printed":"042/091","code":"","name":"Greavard","rarity":"C","img":"042","badge":"Reverse Cosmos Holo","variant":"Reverse Cosmos Holo","foil":true,"note":"A Cosmos Holo print, from blister packs, collection boxes and other special products.","idx":85},
     {"id":"043","section":"main","num":"043","printed":"043/091","code":"43","name":"Houndstone","rarity":"R","tcg":534190,"idx":86},
     {"id":"043-rh","section":"reverse","num":"043","printed":"043/091","code":"R43","name":"Houndstone","rarity":"R","img":"043","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":534190,"sub":"Reverse Holofoil","idx":87},
     {"id":"044","section":"main","num":"044","printed":"044/091","code":"44","name":"Gimmighoul","rarity":"C","tcg":534191,"idx":88},
@@ -241,7 +221,6 @@
     {"id":"061-rh","section":"reverse","num":"061","printed":"061/091","code":"R61","name":"Scrafty","rarity":"U","img":"061","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":534423,"sub":"Reverse Holofoil","idx":120},
     {"id":"062","section":"main","num":"062","printed":"062/091","code":"62","name":"Maschiff","rarity":"C","tcg":534424,"idx":121},
     {"id":"062-rh","section":"reverse","num":"062","printed":"062/091","code":"R62","name":"Maschiff","rarity":"C","img":"062","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":534424,"sub":"Reverse Holofoil","idx":122},
-    {"id":"062-reverse-cosmos","section":"special","num":"062","printed":"062/091","code":"","name":"Maschiff","rarity":"C","img":"062","badge":"Reverse Cosmos Holo","variant":"Reverse Cosmos Holo","foil":true,"note":"A Cosmos Holo print, from blister packs, collection boxes and other special products.","idx":123},
     {"id":"063","section":"main","num":"063","printed":"063/091","code":"63","name":"Mabosstiff","rarity":"R","tcg":534425,"idx":124},
     {"id":"063-rh","section":"reverse","num":"063","printed":"063/091","code":"R63","name":"Mabosstiff","rarity":"R","img":"063","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":534425,"sub":"Reverse Holofoil","idx":125},
     {"id":"064","section":"main","num":"064","printed":"064/091","code":"64","name":"Varoom","rarity":"C","tcg":534426,"idx":126},

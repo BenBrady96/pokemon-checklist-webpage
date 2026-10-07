@@ -151,7 +151,15 @@ const formatAgo = (ts) => {
   return days <= 0 ? 'today' : days === 1 ? 'yesterday' : `${days} days ago`;
 };
 
+function openScanner() {
+  import('./scan.js').then(
+    (m) => m.openScanner({ onSaved: showProgress }),
+    () => toast('Couldn’t load the scanner. Check your connection and try again.'),
+  );
+}
+
 async function openNamed(name) {
+  if (name === 'scan') return openScanner();
   const dlg = document.getElementById(`dlg-${name}`);
   if (!dlg) return;
   if (name === 'menu') {

@@ -9,19 +9,13 @@
   "syncKey": "TWM",
   "released": "2024-05-24",
   "printedTotal": 167,
-  "defaultTier": "complete",
+  "defaultTier": "grand",
   "sections": [
     {
       "id": "main",
       "name": "Main Set",
       "range": "001–167",
       "tier": "standard"
-    },
-    {
-      "id": "secret",
-      "name": "Secret Rares",
-      "range": "168–226",
-      "tier": "complete"
     },
     {
       "id": "reverse",
@@ -31,14 +25,10 @@
       "tier": "master"
     },
     {
-      "id": "special",
-      "name": "Special Prints",
-      "short": "Special Prints",
-      "range": "stamps, Cosmos Holos & more",
-      "tier": "grand",
-      "display": {
-        "search": "Pokemon {set} {name} {printed} {badge}"
-      }
+      "id": "secret",
+      "name": "Secret Rares",
+      "range": "168–226",
+      "tier": "grand"
     }
   ],
   "summary": [
@@ -47,32 +37,28 @@
       "Main set"
     ],
     [
-      "secret",
-      "Secret rares"
-    ],
-    [
       "reverse",
       "Reverse holos"
     ],
     [
-      "special",
-      "Special prints"
+      "secret",
+      "Secret rares"
     ]
   ],
   "quickAdd": {
     "placeholder": "e.g. 1-22, 55, R12, 60x2",
     "example": "1-22, 55x2, R12",
-    "hint": "Separate with commas or spaces. <b>1-22</b> is a range and <b>55x2</b> is two copies. <b>R12</b> is card 12’s reverse holo, and ranges work too (<b>R1-R20</b>). Special prints are marked by tapping them.",
+    "hint": "Separate with commas or spaces. <b>1-22</b> is a range and <b>55x2</b> is two copies. <b>R12</b> is card 12’s reverse holo, and ranges work too (<b>R1-R20</b>).",
     "empty": "Main set cards are 1–167 (secret rares start at 168)."
   },
   "help": {
-    "tiers": "<b>Standard, Complete, Master or Grand Master:</b> pick what you’re collecting above the cards. Standard is the 167 main set cards, Complete is all 226 cards, Master adds the 147 reverse holos and Grand Master adds the 16 special prints (stamped, Cosmos Holo and other product-exclusive cards). Cards you’ve marked are kept when you switch."
+    "tiers": "<b>Standard, Master or Grand Master:</b> pick what you’re collecting above the cards. Standard is the 167 main set cards. Master adds the 147 reverse holos. Grand Master adds the 59 secret rares. Cards you’ve marked are kept when you switch."
   },
   "info": {
     "packSections": [
       "main",
-      "secret",
-      "reverse"
+      "reverse",
+      "secret"
     ],
     "sectionText": {
       "reverse": [
@@ -94,16 +80,16 @@
   },
   "seo": {
     "title": "Pokémon TCG Twilight Masquerade Checklist · All 226 Cards",
-    "description": "Free checklist for the Pokémon TCG Twilight Masquerade set. Track all 226 cards, or go further with every reverse holos and every special print, with images, copy counts, binder pages and prices. No sign-up needed.",
+    "description": "Free checklist for the Pokémon TCG Twilight Masquerade set. Track all 226 cards, or go further with the reverse holos, with images, copy counts, binder pages and prices. No sign-up needed.",
     "ogTitle": "Pokémon TCG Twilight Masquerade Checklist",
-    "ogDescription": "Track all 226 cards in Pokémon TCG Twilight Masquerade: the 167-card main set and 59 secret rares, plus 147 reverse holos for a master set and 16 special prints for a grand master set. Free, no sign-up, works offline.",
+    "ogDescription": "Track all 226 cards in Pokémon TCG Twilight Masquerade: the 167-card main set and 59 secret rares, plus 147 reverse holos. Free, no sign-up, works offline.",
     "twitterDescription": "Track all 226 cards in Pokémon TCG Twilight Masquerade. Free, no sign-up, works offline."
   },
   "about": {
     "title": "About the Twilight Masquerade set",
     "paragraphs": [
-      "Pokémon TCG: Twilight Masquerade is a Scarlet & Violet expansion released on 24 May 2024. It has 226 cards: 167 in the main set and 59 secret rares. For a master set there are also 147 reverse holos, and 16 special prints from other products and events.",
-      "Choose what you’re collecting: the <b>Standard set</b> (the 167 main set cards), the <b>Complete set</b> (all 226 cards), the <b>Master set</b> (373 cards, adding every reverse holos) or the <b>Grand Master set</b> (389 cards, adding the 16 special prints (stamped, Cosmos Holo and other product-exclusive cards)).",
+      "Pokémon TCG: Twilight Masquerade is a Scarlet & Violet expansion released on 24 May 2024. It has 226 cards: 167 in the main set and 59 secret rares. There are also 147 reverse holos.",
+      "Choose what you’re collecting: the <b>Standard set</b> (the 167 main set cards), the <b>Master set</b> (314 cards, adding the reverse holos) or the <b>Grand Master set</b> (all 373 cards, adding the 59 secret rares).",
       "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device."
     ]
   },
@@ -151,7 +137,6 @@
     {"id":"017-rh","section":"reverse","num":"017","printed":"017/167","code":"R17","name":"Applin","rarity":"C","img":"017","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":550061,"sub":"Reverse Holofoil","idx":33},
     {"id":"018","section":"main","num":"018","printed":"018/167","code":"18","name":"Dipplin","rarity":"U","tcg":550062,"idx":34},
     {"id":"018-rh","section":"reverse","num":"018","printed":"018/167","code":"R18","name":"Dipplin","rarity":"U","img":"018","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":550062,"sub":"Reverse Holofoil","idx":35},
-    {"id":"018-cosmos","section":"special","num":"018","printed":"018/167","code":"","name":"Dipplin","rarity":"U","img":"018","badge":"Cosmos Holo","variant":"Cosmos Holo","foil":true,"note":"A Cosmos Holo print, from blister packs, collection boxes and other special products.","idx":36},
     {"id":"019","section":"main","num":"019","printed":"019/167","code":"19","name":"Iron Leaves","rarity":"R","tcg":550063,"idx":37},
     {"id":"019-rh","section":"reverse","num":"019","printed":"019/167","code":"R19","name":"Iron Leaves","rarity":"R","img":"019","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":550063,"sub":"Reverse Holofoil","idx":38},
     {"id":"020","section":"main","num":"020","printed":"020/167","code":"20","name":"Poltchageist","rarity":"C","tcg":550064,"idx":39},
@@ -160,15 +145,9 @@
     {"id":"021-rh","section":"reverse","num":"021","printed":"021/167","code":"R21","name":"Poltchageist","rarity":"C","img":"021","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":550065,"sub":"Reverse Holofoil","idx":42},
     {"id":"022","section":"main","num":"022","printed":"022/167","code":"22","name":"Sinistcha","rarity":"R","tcg":550066,"idx":43},
     {"id":"022-rh","section":"reverse","num":"022","printed":"022/167","code":"R22","name":"Sinistcha","rarity":"R","img":"022","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":550066,"sub":"Reverse Holofoil","idx":44},
-    {"id":"022-galaxy","section":"special","num":"022","printed":"022/167","code":"","name":"Sinistcha","rarity":"R","img":"022","badge":"Galaxy Holo","variant":"Galaxy Holo","foil":true,"note":"A Galaxy Holo print, from special products.","idx":45},
-    {"id":"022-cosmos","section":"special","num":"022","printed":"022/167","code":"","name":"Sinistcha","rarity":"R","img":"022","badge":"Cosmos Holo","variant":"Cosmos Holo","foil":true,"note":"A Cosmos Holo print, from blister packs, collection boxes and other special products.","idx":46},
     {"id":"023","section":"main","num":"023","printed":"023/167","code":"23","name":"Sinistcha ex","rarity":"RR","tcg":550067,"idx":47},
     {"id":"024","section":"main","num":"024","printed":"024/167","code":"24","name":"Teal Mask Ogerpon","rarity":"R","tcg":550068,"idx":48},
     {"id":"024-rh","section":"reverse","num":"024","printed":"024/167","code":"R24","name":"Teal Mask Ogerpon","rarity":"R","img":"024","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":550068,"sub":"Reverse Holofoil","idx":49},
-    {"id":"024-gamestop","section":"special","num":"024","printed":"024/167","code":"","name":"Teal Mask Ogerpon","rarity":"R","img":"024","badge":"GameStop","variant":"GameStop","foil":true,"note":"A GameStop exclusive.","idx":50},
-    {"id":"024-eb-games","section":"special","num":"024","printed":"024/167","code":"","name":"Teal Mask Ogerpon","rarity":"R","img":"024","badge":"EB Games","variant":"EB Games","foil":true,"note":"An EB Games exclusive.","idx":51},
-    {"id":"024-cosmos-set-logo","section":"special","num":"024","printed":"024/167","code":"","name":"Teal Mask Ogerpon","rarity":"R","img":"024","badge":"Cosmos Holo · Set Stamp","variant":"Cosmos Holo · Set Stamp","foil":true,"note":"Stamped with the set logo: a prerelease and Build & Battle Box promo.","idx":52},
-    {"id":"024-cosmos","section":"special","num":"024","printed":"024/167","code":"","name":"Teal Mask Ogerpon","rarity":"R","img":"024","badge":"Cosmos Holo","variant":"Cosmos Holo","foil":true,"note":"A Cosmos Holo print, from blister packs, collection boxes and other special products.","idx":53},
     {"id":"025","section":"main","num":"025","printed":"025/167","code":"25","name":"Teal Mask Ogerpon ex","rarity":"RR","tcg":550069,"idx":54},
     {"id":"026","section":"main","num":"026","printed":"026/167","code":"26","name":"Vulpix","rarity":"C","tcg":550070,"idx":55},
     {"id":"026-rh","section":"reverse","num":"026","printed":"026/167","code":"R26","name":"Vulpix","rarity":"C","img":"026","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":550070,"sub":"Reverse Holofoil","idx":56},
@@ -195,11 +174,9 @@
     {"id":"037-rh","section":"reverse","num":"037","printed":"037/167","code":"R37","name":"Lampent","rarity":"C","img":"037","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":550081,"sub":"Reverse Holofoil","idx":77},
     {"id":"038","section":"main","num":"038","printed":"038/167","code":"38","name":"Chandelure","rarity":"R","tcg":550082,"idx":78},
     {"id":"038-rh","section":"reverse","num":"038","printed":"038/167","code":"R38","name":"Chandelure","rarity":"R","img":"038","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":550082,"sub":"Reverse Holofoil","idx":79},
-    {"id":"038-cosmos","section":"special","num":"038","printed":"038/167","code":"","name":"Chandelure","rarity":"R","img":"038","badge":"Cosmos Holo","variant":"Cosmos Holo","foil":true,"note":"A Cosmos Holo print, from blister packs, collection boxes and other special products.","idx":80},
     {"id":"039","section":"main","num":"039","printed":"039/167","code":"39","name":"Chi-Yu","rarity":"U","tcg":550083,"idx":81},
     {"id":"039-rh","section":"reverse","num":"039","printed":"039/167","code":"R39","name":"Chi-Yu","rarity":"U","img":"039","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":550083,"sub":"Reverse Holofoil","idx":82},
     {"id":"040","section":"main","num":"040","printed":"040/167","code":"40","name":"Hearthflame Mask Ogerpon ex","rarity":"RR","tcg":550084,"idx":83},
-    {"id":"040-set-logo","section":"special","num":"040","printed":"040/167","code":"","name":"Hearthflame Mask Ogerpon ex","rarity":"RR","img":"040","badge":"Set Stamp","variant":"Set Stamp","foil":true,"note":"Stamped with the set logo: a prerelease and Build & Battle Box promo.","idx":84},
     {"id":"041","section":"main","num":"041","printed":"041/167","code":"41","name":"Poliwag","rarity":"C","tcg":550085,"idx":85},
     {"id":"041-rh","section":"reverse","num":"041","printed":"041/167","code":"R41","name":"Poliwag","rarity":"C","img":"041","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":550085,"sub":"Reverse Holofoil","idx":86},
     {"id":"042","section":"main","num":"042","printed":"042/167","code":"42","name":"Poliwhirl","rarity":"C","tcg":550086,"idx":87},
@@ -243,11 +220,9 @@
     {"id":"061","section":"main","num":"061","printed":"061/167","code":"61","name":"Palafin ex","rarity":"RR","tcg":550105,"idx":125},
     {"id":"062","section":"main","num":"062","printed":"062/167","code":"62","name":"Iron Bundle","rarity":"U","tcg":550106,"idx":126},
     {"id":"062-rh","section":"reverse","num":"062","printed":"062/167","code":"R62","name":"Iron Bundle","rarity":"U","img":"062","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":550106,"sub":"Reverse Holofoil","idx":127},
-    {"id":"062-cosmos-snowflake","section":"special","num":"062","printed":"062/167","code":"","name":"Iron Bundle","rarity":"U","img":"062","badge":"Cosmos Holo · Holiday","variant":"Cosmos Holo · Holiday","foil":true,"note":"From a Holiday Calendar, stamped with a snowflake.","idx":128},
     {"id":"063","section":"main","num":"063","printed":"063/167","code":"63","name":"Walking Wake","rarity":"R","tcg":550107,"idx":129},
     {"id":"063-rh","section":"reverse","num":"063","printed":"063/167","code":"R63","name":"Walking Wake","rarity":"R","img":"063","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":550107,"sub":"Reverse Holofoil","idx":130},
     {"id":"064","section":"main","num":"064","printed":"064/167","code":"64","name":"Wellspring Mask Ogerpon ex","rarity":"RR","tcg":550108,"idx":131},
-    {"id":"064-set-logo","section":"special","num":"064","printed":"064/167","code":"","name":"Wellspring Mask Ogerpon ex","rarity":"RR","img":"064","badge":"Set Stamp","variant":"Set Stamp","foil":true,"note":"Stamped with the set logo: a prerelease and Build & Battle Box promo.","idx":132},
     {"id":"065","section":"main","num":"065","printed":"065/167","code":"65","name":"Zapdos","rarity":"R","tcg":550109,"idx":133},
     {"id":"065-rh","section":"reverse","num":"065","printed":"065/167","code":"R65","name":"Zapdos","rarity":"R","img":"065","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":550109,"sub":"Reverse Holofoil","idx":134},
     {"id":"066","section":"main","num":"066","printed":"066/167","code":"66","name":"Shinx","rarity":"C","tcg":550110,"idx":135},
@@ -282,7 +257,6 @@
     {"id":"081-rh","section":"reverse","num":"081","printed":"081/167","code":"R81","name":"Kadabra","rarity":"C","img":"081","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":550125,"sub":"Reverse Holofoil","idx":164},
     {"id":"082","section":"main","num":"082","printed":"082/167","code":"82","name":"Alakazam","rarity":"R","tcg":550126,"idx":165},
     {"id":"082-rh","section":"reverse","num":"082","printed":"082/167","code":"R82","name":"Alakazam","rarity":"R","img":"082","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":550126,"sub":"Reverse Holofoil","idx":166},
-    {"id":"082-cosmos","section":"special","num":"082","printed":"082/167","code":"","name":"Alakazam","rarity":"R","img":"082","badge":"Cosmos Holo","variant":"Cosmos Holo","foil":true,"note":"A Cosmos Holo print, from blister packs, collection boxes and other special products.","idx":167},
     {"id":"083","section":"main","num":"083","printed":"083/167","code":"83","name":"Girafarig","rarity":"C","tcg":550127,"idx":168},
     {"id":"083-rh","section":"reverse","num":"083","printed":"083/167","code":"R83","name":"Girafarig","rarity":"C","img":"083","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":550127,"sub":"Reverse Holofoil","idx":169},
     {"id":"084","section":"main","num":"084","printed":"084/167","code":"84","name":"Farigiraf","rarity":"U","tcg":550128,"idx":170},
@@ -318,7 +292,6 @@
     {"id":"099-rh","section":"reverse","num":"099","printed":"099/167","code":"R99","name":"Hisuian Growlithe","rarity":"C","img":"099","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":550143,"sub":"Reverse Holofoil","idx":200},
     {"id":"100","section":"main","num":"100","printed":"100/167","code":"100","name":"Hisuian Arcanine","rarity":"R","tcg":550144,"idx":201},
     {"id":"100-rh","section":"reverse","num":"100","printed":"100/167","code":"R100","name":"Hisuian Arcanine","rarity":"R","img":"100","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":550144,"sub":"Reverse Holofoil","idx":202},
-    {"id":"100-cosmos","section":"special","num":"100","printed":"100/167","code":"","name":"Hisuian Arcanine","rarity":"R","img":"100","badge":"Cosmos Holo","variant":"Cosmos Holo","foil":true,"note":"A Cosmos Holo print, from blister packs, collection boxes and other special products.","idx":203},
     {"id":"101","section":"main","num":"101","printed":"101/167","code":"101","name":"Nosepass","rarity":"C","tcg":550145,"idx":204},
     {"id":"101-rh","section":"reverse","num":"101","printed":"101/167","code":"R101","name":"Nosepass","rarity":"C","img":"101","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":550145,"sub":"Reverse Holofoil","idx":205},
     {"id":"102","section":"main","num":"102","printed":"102/167","code":"102","name":"Probopass","rarity":"U","tcg":550146,"idx":206},
@@ -330,7 +303,6 @@
     {"id":"105","section":"main","num":"105","printed":"105/167","code":"105","name":"Conkeldurr","rarity":"U","tcg":550149,"idx":212},
     {"id":"105-rh","section":"reverse","num":"105","printed":"105/167","code":"R105","name":"Conkeldurr","rarity":"U","img":"105","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":550149,"sub":"Reverse Holofoil","idx":213},
     {"id":"106","section":"main","num":"106","printed":"106/167","code":"106","name":"Greninja ex","rarity":"RR","tcg":550150,"idx":214},
-    {"id":"106-metal","section":"special","num":"106","printed":"106/167","code":"","name":"Greninja ex","rarity":"RR","img":"106","badge":"Metal","variant":"Metal","foil":true,"note":"A metal card, from a premium collection.","idx":215},
     {"id":"107","section":"main","num":"107","printed":"107/167","code":"107","name":"Hawlucha","rarity":"C","tcg":550151,"idx":216},
     {"id":"107-rh","section":"reverse","num":"107","printed":"107/167","code":"R107","name":"Hawlucha","rarity":"C","img":"107","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":550151,"sub":"Reverse Holofoil","idx":217},
     {"id":"108","section":"main","num":"108","printed":"108/167","code":"108","name":"Glimmet","rarity":"C","tcg":550152,"idx":218},
@@ -384,7 +356,6 @@
     {"id":"133","section":"main","num":"133","printed":"133/167","code":"133","name":"Chansey","rarity":"C","tcg":550177,"idx":266},
     {"id":"133-rh","section":"reverse","num":"133","printed":"133/167","code":"R133","name":"Chansey","rarity":"C","img":"133","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":550177,"sub":"Reverse Holofoil","idx":267},
     {"id":"134","section":"main","num":"134","printed":"134/167","code":"134","name":"Blissey ex","rarity":"RR","tcg":550178,"idx":268},
-    {"id":"134-set-logo","section":"special","num":"134","printed":"134/167","code":"","name":"Blissey ex","rarity":"RR","img":"134","badge":"Set Stamp","variant":"Set Stamp","foil":true,"note":"Stamped with the set logo: a prerelease and Build & Battle Box promo.","idx":269},
     {"id":"135","section":"main","num":"135","printed":"135/167","code":"135","name":"Eevee","rarity":"C","tcg":550179,"idx":270},
     {"id":"135-rh","section":"reverse","num":"135","printed":"135/167","code":"R135","name":"Eevee","rarity":"C","img":"135","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":550179,"sub":"Reverse Holofoil","idx":271},
     {"id":"136","section":"main","num":"136","printed":"136/167","code":"136","name":"Snorlax","rarity":"U","tcg":550180,"idx":272},
@@ -433,7 +404,6 @@
     {"id":"158-rh","section":"reverse","num":"158","printed":"158/167","code":"R158","name":"Lucky Helmet","rarity":"U","img":"158","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":550202,"sub":"Reverse Holofoil","idx":315},
     {"id":"159","section":"main","num":"159","printed":"159/167","code":"159","name":"Ogre's Mask","rarity":"U","tcg":550203,"idx":316},
     {"id":"159-rh","section":"reverse","num":"159","printed":"159/167","code":"R159","name":"Ogre's Mask","rarity":"U","img":"159","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":550203,"sub":"Reverse Holofoil","idx":317},
-    {"id":"159-cosmos","section":"special","num":"159","printed":"159/167","code":"","name":"Ogre's Mask","rarity":"U","img":"159","badge":"Cosmos Holo","variant":"Cosmos Holo","foil":true,"note":"A Cosmos Holo print, from blister packs, collection boxes and other special products.","idx":318},
     {"id":"160","section":"main","num":"160","printed":"160/167","code":"160","name":"Perrin","rarity":"U","tcg":550204,"idx":319},
     {"id":"160-rh","section":"reverse","num":"160","printed":"160/167","code":"R160","name":"Perrin","rarity":"U","img":"160","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":550204,"sub":"Reverse Holofoil","idx":320},
     {"id":"161","section":"main","num":"161","printed":"161/167","code":"161","name":"Raifort","rarity":"U","tcg":550205,"idx":321},

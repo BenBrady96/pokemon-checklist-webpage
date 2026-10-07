@@ -2,6 +2,7 @@
 <html lang="en-GB" data-collection="{{id}}">
 <head>
   <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'wasm-unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; media-src 'self' blob:; connect-src 'self'; worker-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self';">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>{{title}}</title>
   <meta name="description" content="{{description}}">
@@ -35,12 +36,7 @@
   <link rel="stylesheet" href="css/styles.css">
   {{{themeStyle}}}
   <script type="application/ld+json">{{{jsonLd}}}</script>
-  <script>
-    try {
-      var p = JSON.parse(localStorage.getItem('bt:v1:prefs') || localStorage.getItem('p30c:prefs:v1') || '{}');
-      if (p.theme === 'light' || p.theme === 'dark') document.documentElement.dataset.theme = p.theme;
-    } catch (e) {}
-  </script>
+  <script src="js/theme-init.js"></script>
   <script type="module" src="js/main.js"></script>
   <noscript><style>.page-loader { display: none; }</style></noscript>
 </head>
@@ -76,6 +72,7 @@
     <symbol id="i-list" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M9.5 6.5H20M9.5 12H20M9.5 17.5H20"/><path d="M4 6.5l1.2 1.2L7 5.5M4 12l1.2 1.2L7 11"/><circle cx="5.3" cy="17.5" r="1.2"/></g></symbol>
     <symbol id="i-binder" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M3 5.5c3-1 6-.7 9 1 3-1.7 6-2 9-1V19c-3-1-6-.7-9 1-3-1.7-6-2-9-1z"/><path d="M12 6.5V20"/></g></symbol>
     <symbol id="i-image" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"><rect x="3.5" y="4.5" width="17" height="15" rx="2.5"/><circle cx="9" cy="10" r="1.7"/><path d="M20.5 16l-5-5L7 19.5"/></g></symbol>
+    <symbol id="i-camera" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M3.5 8.5a2 2 0 0 1 2-2h2.2l1.6-2.2h5.4l1.6 2.2h2.2a2 2 0 0 1 2 2V17.5a2 2 0 0 1-2 2h-13a2 2 0 0 1-2-2z"/><circle cx="12" cy="12.8" r="3.6"/></g></symbol>
     <symbol id="i-image-off" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"><path d="M6 4.5h12a2.5 2.5 0 0 1 2.5 2.5v10M18 19.5H6A2.5 2.5 0 0 1 3.5 17V7"/><path d="M3 3l18 18"/></g></symbol>
     <symbol id="i-sun" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M5.3 18.7l1.4-1.4M17.3 6.7l1.4-1.4"/></g></symbol>
     <symbol id="i-moon" viewBox="0 0 24 24"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
@@ -157,6 +154,7 @@
           <span class="progress-pill__pct" data-stat="pct">0%</span>
           <span class="progress-pill__bar" aria-hidden="true"><i data-stat="bar"></i></span>
         </button>
+        <button class="icon-btn icon-btn--header" type="button" data-open="scan" title="Scan a card" aria-label="Scan a card"><svg><use href="#i-camera"/></svg></button>
         <button class="icon-btn icon-btn--header desktop-only" type="button" data-open="quickadd" title="Quick add (Q)" aria-label="Quick add"><svg><use href="#i-bolt"/></svg></button>
         <button class="icon-btn icon-btn--header desktop-only" type="button" data-open="share" title="Share &amp; sync" aria-label="Share and sync"><svg><use href="#i-share"/></svg></button>
         <button class="icon-btn icon-btn--header desktop-only" type="button" data-open="menu" title="More" aria-label="More options"><svg><use href="#i-dots"/></svg></button>
@@ -415,6 +413,7 @@
         <a class="menu__item" href="./"><svg><use href="#i-stack"/></svg><span><b>All collections</b><small>Switch to another set or start a new one</small></span></a>
       </div>
       <div class="menu__group">
+        <button type="button" class="menu__item" data-open="scan"><svg><use href="#i-camera"/></svg><span><b>Scan a card</b><small>Point your camera at a card to add it</small></span></button>
         <button type="button" class="menu__item" data-open="quickadd"><svg><use href="#i-bolt"/></svg><span><b>Quick add</b><small>Type card numbers, e.g. 1-22, 55x2</small></span></button>
         <button type="button" class="menu__item" data-open="stats"><svg><use href="#i-chart"/></svg><span><b>Statistics</b><small>Progress by section and rarity, trade lists</small></span></button>
         <button type="button" class="menu__item" data-open="share"><svg><use href="#i-share"/></svg><span><b>Share &amp; sync</b><small>Send this set to another device or a friend</small></span></button>
@@ -641,6 +640,31 @@
       <p class="hint hint--small">Read the <a href="privacy.html">privacy &amp; cookie policy</a> and <a href="terms.html">terms of use</a>.</p>
     </div>
   </div>
+</dialog>
+
+<dialog class="scanner" id="dlg-scan" aria-labelledby="scan-title">
+  <div class="scanner__inner">
+    <div class="scanner__bar">
+      <h2 class="scanner__title" id="scan-title">Scan a card</h2>
+      <button type="button" class="scanner__tally" data-scan="tally" hidden></button>
+      <button type="button" class="icon-btn icon-btn--dark" data-close aria-label="Close scanner"><svg><use href="#i-close"/></svg></button>
+    </div>
+    <div class="scanner__stage">
+      <video class="scanner__video" data-scan="video" playsinline muted></video>
+      <div class="scanner__guide" data-scan="guide" aria-hidden="true"></div>
+      <div class="scanner__flash" data-scan="flash" role="status" hidden></div>
+      <p class="scanner__status" data-scan="status" role="status"></p>
+      <div class="scanner__panel" data-scan="panel" hidden></div>
+    </div>
+    <div class="scanner__controls">
+      <button type="button" class="scanner__side" data-scan="photo"><svg><use href="#i-image"/></svg><span>Photo</span></button>
+      <button type="button" class="scanner__shutter" data-scan="shutter" aria-label="Scan the card in the frame" disabled></button>
+      <button type="button" class="scanner__side" data-scan="search"><svg><use href="#i-search"/></svg><span>Search</span></button>
+    </div>
+    <p class="scanner__note">Recognised on your device. Photos aren’t uploaded or saved.</p>
+    <p class="sr-only" data-scan="live" aria-live="polite"></p>
+  </div>
+  <input type="file" accept="image/*" data-scan="file" hidden>
 </dialog>
 
 <input type="file" id="import-file" accept="application/json,.json" hidden>

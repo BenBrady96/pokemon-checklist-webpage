@@ -2,6 +2,7 @@ const VERSION = 'dev';
 const SHELL_CACHE = `bt-shell-${VERSION}`;
 const PAGE_CACHE = 'bt-pages-v1';
 const IMAGE_CACHE = 'bt-img-v1';
+const SCAN_CACHE = 'bt-scan-v1';
 const NETWORK_TIMEOUT_MS = 2500;
 
 const SHELL = [
@@ -28,10 +29,14 @@ const SHELL = [
   'js/pwa.js',
   'js/quickadd.js',
   'js/render.js',
+  'js/scan.js',
+  'js/scan-features.js',
+  'js/scan-match.js',
   'js/stats.js',
   'js/storage.js',
   'js/store.js',
   'js/sync.js',
+  'js/theme-init.js',
   'js/transfer.js',
   'js/ui.js',
   'js/viewer.js',
@@ -70,6 +75,7 @@ self.addEventListener('fetch', (event) => {
   const url = new URL(request.url);
   if (url.origin !== self.location.origin) return;
   if (url.pathname.includes('/img/cards/') || url.pathname.includes('/img/sets/')) event.respondWith(cacheFirst(request));
+  else if (/\.(onnx|wasm)$/.test(url.pathname)) event.respondWith(versionedFirst(request));
   else event.respondWith(networkFirst(request, SHELL_PATHS.has(url.pathname) ? SHELL_CACHE : PAGE_CACHE));
 });
 
@@ -79,6 +85,19 @@ async function cacheFirst(request) {
   if (cached) return cached;
   const response = await fetch(request);
   if (response.ok) cache.put(request, response.clone());
+  return response;
+}
+
+async function versionedFirst(request) {
+  const cache = await caches.open(SCAN_CACHE);
+  const cached = await cache.match(request);
+  if (cached) return cached;
+  const response = await fetch(request);
+  if (response.ok) {
+    const path = new URL(request.url).pathname;
+    for (const old of await cache.keys()) if (new URL(old.url).pathname === path) await cache.delete(old);
+    await cache.put(request, response.clone());
+  }
   return response;
 }
 

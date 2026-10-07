@@ -9,19 +9,13 @@
   "syncKey": "PRE",
   "released": "2025-01-17",
   "printedTotal": 131,
-  "defaultTier": "complete",
+  "defaultTier": "grand",
   "sections": [
     {
       "id": "main",
       "name": "Main Set",
       "range": "001–131",
       "tier": "standard"
-    },
-    {
-      "id": "secret",
-      "name": "Secret Rares",
-      "range": "132–180",
-      "tier": "complete"
     },
     {
       "id": "reverse",
@@ -45,24 +39,16 @@
       "tier": "master"
     },
     {
-      "id": "special",
-      "name": "Special Prints",
-      "short": "Special Prints",
-      "range": "stamps, Cosmos Holos & more",
-      "tier": "grand",
-      "display": {
-        "search": "Pokemon {set} {name} {printed} {badge}"
-      }
+      "id": "secret",
+      "name": "Secret Rares",
+      "range": "132–180",
+      "tier": "grand"
     }
   ],
   "summary": [
     [
       "main",
       "Main set"
-    ],
-    [
-      "secret",
-      "Secret rares"
     ],
     [
       "reverse",
@@ -77,26 +63,26 @@
       "Master Ball holos"
     ],
     [
-      "special",
-      "Special prints"
+      "secret",
+      "Secret rares"
     ]
   ],
   "quickAdd": {
     "placeholder": "e.g. 1-22, 55, R12, 60x2",
     "example": "1-22, 55x2, R12",
-    "hint": "Separate with commas or spaces. <b>1-22</b> is a range and <b>55x2</b> is two copies. <b>R12</b> is card 12’s reverse holo, <b>PB12</b> is card 12’s Poké Ball version and <b>MB12</b> is card 12’s Master Ball version, and ranges work too (<b>R1-R20</b>). Special prints are marked by tapping them.",
+    "hint": "Separate with commas or spaces. <b>1-22</b> is a range and <b>55x2</b> is two copies. <b>R12</b> is card 12’s reverse holo, <b>PB12</b> is card 12’s Poké Ball version and <b>MB12</b> is card 12’s Master Ball version, and ranges work too (<b>R1-R20</b>).",
     "empty": "Main set cards are 1–131 (secret rares start at 132)."
   },
   "help": {
-    "tiers": "<b>Standard, Complete, Master or Grand Master:</b> pick what you’re collecting above the cards. Standard is the 131 main set cards, Complete is all 180 cards, Master adds the 267 reverse holos, Poké Ball holos and Master Ball holos and Grand Master adds the 25 special prints (stamped, Cosmos Holo and other product-exclusive cards). Cards you’ve marked are kept when you switch."
+    "tiers": "<b>Standard, Master or Grand Master:</b> pick what you’re collecting above the cards. Standard is the 131 main set cards. Master adds the 267 reverse holos, Poké Ball holos and Master Ball holos. Grand Master adds the 49 secret rares. Cards you’ve marked are kept when you switch."
   },
   "info": {
     "packSections": [
       "main",
-      "secret",
       "reverse",
       "pokeball",
-      "masterball"
+      "masterball",
+      "secret"
     ],
     "sectionText": {
       "reverse": [
@@ -126,16 +112,16 @@
   },
   "seo": {
     "title": "Pokémon TCG Prismatic Evolutions Checklist · All 180 Cards",
-    "description": "Free checklist for the Pokémon TCG Prismatic Evolutions set. Track all 180 cards, or go further with every reverse holos, Poké Ball holos and Master Ball holos and every special print, with images, copy counts, binder pages and prices. No sign-up needed.",
+    "description": "Free checklist for the Pokémon TCG Prismatic Evolutions set. Track all 180 cards, or go further with the reverse holos, Poké Ball holos and Master Ball holos, with images, copy counts, binder pages and prices. No sign-up needed.",
     "ogTitle": "Pokémon TCG Prismatic Evolutions Checklist",
-    "ogDescription": "Track all 180 cards in Pokémon TCG Prismatic Evolutions: the 131-card main set and 49 secret rares, plus 267 reverse holos, Poké Ball holos and Master Ball holos for a master set and 25 special prints for a grand master set. Free, no sign-up, works offline.",
+    "ogDescription": "Track all 180 cards in Pokémon TCG Prismatic Evolutions: the 131-card main set and 49 secret rares, plus 267 reverse holos, Poké Ball holos and Master Ball holos. Free, no sign-up, works offline.",
     "twitterDescription": "Track all 180 cards in Pokémon TCG Prismatic Evolutions. Free, no sign-up, works offline."
   },
   "about": {
     "title": "About the Prismatic Evolutions set",
     "paragraphs": [
-      "Pokémon TCG: Prismatic Evolutions is a Scarlet & Violet expansion released on 17 January 2025. It has 180 cards: 131 in the main set and 49 secret rares. For a master set there are also 267 reverse holos, Poké Ball holos and Master Ball holos, and 25 special prints from other products and events.",
-      "Choose what you’re collecting: the <b>Standard set</b> (the 131 main set cards), the <b>Complete set</b> (all 180 cards), the <b>Master set</b> (447 cards, adding every reverse holos, Poké Ball holos and Master Ball holos) or the <b>Grand Master set</b> (472 cards, adding the 25 special prints (stamped, Cosmos Holo and other product-exclusive cards)).",
+      "Pokémon TCG: Prismatic Evolutions is a Scarlet & Violet expansion released on 17 January 2025. It has 180 cards: 131 in the main set and 49 secret rares. There are also 267 reverse holos, Poké Ball holos and Master Ball holos.",
+      "Choose what you’re collecting: the <b>Standard set</b> (the 131 main set cards), the <b>Master set</b> (398 cards, adding the reverse holos, Poké Ball holos and Master Ball holos) or the <b>Grand Master set</b> (all 447 cards, adding the 49 secret rares).",
       "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device."
     ]
   },
@@ -167,9 +153,7 @@
     {"id":"005-rh","section":"reverse","num":"005","printed":"005/131","code":"R5","name":"Leafeon","rarity":"R","img":"005","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":610360,"sub":"Reverse Holofoil","idx":17},
     {"id":"005-pb","section":"pokeball","num":"005","printed":"005/131","code":"PB5","name":"Leafeon","rarity":"R","img":"005","badge":"Poké Ball","variant":"Poké Ball","foil":true,"tcg":610540,"idx":18},
     {"id":"005-mb","section":"masterball","num":"005","printed":"005/131","code":"MB5","name":"Leafeon","rarity":"R","img":"005","badge":"Master Ball","variant":"Master Ball","foil":true,"tcg":610641,"idx":19},
-    {"id":"005-cosmos","section":"special","num":"005","printed":"005/131","code":"","name":"Leafeon","rarity":"R","img":"005","badge":"Cosmos Holo","variant":"Cosmos Holo","foil":true,"note":"A Cosmos Holo print, from blister packs, collection boxes and other special products.","idx":20},
     {"id":"006","section":"main","num":"006","printed":"006/131","code":"6","name":"Leafeon ex","rarity":"RR","tcg":610361,"idx":21},
-    {"id":"006-set-logo","section":"special","num":"006","printed":"006/131","code":"","name":"Leafeon ex","rarity":"RR","img":"006","badge":"Set Stamp","variant":"Set Stamp","foil":true,"note":"Stamped with the set logo: a prerelease and Build & Battle Box promo.","idx":22},
     {"id":"007","section":"main","num":"007","printed":"007/131","code":"7","name":"Cottonee","rarity":"C","tcg":610362,"idx":23},
     {"id":"007-rh","section":"reverse","num":"007","printed":"007/131","code":"R7","name":"Cottonee","rarity":"C","img":"007","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":610362,"sub":"Reverse Holofoil","idx":24},
     {"id":"007-pb","section":"pokeball","num":"007","printed":"007/131","code":"PB7","name":"Cottonee","rarity":"C","img":"007","badge":"Poké Ball","variant":"Poké Ball","foil":true,"tcg":610541,"idx":25},
@@ -192,9 +176,7 @@
     {"id":"013-rh","section":"reverse","num":"013","printed":"013/131","code":"R13","name":"Flareon","rarity":"R","img":"013","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":610368,"sub":"Reverse Holofoil","idx":42},
     {"id":"013-pb","section":"pokeball","num":"013","printed":"013/131","code":"PB13","name":"Flareon","rarity":"R","img":"013","badge":"Poké Ball","variant":"Poké Ball","foil":true,"tcg":610545,"idx":43},
     {"id":"013-mb","section":"masterball","num":"013","printed":"013/131","code":"MB13","name":"Flareon","rarity":"R","img":"013","badge":"Master Ball","variant":"Master Ball","foil":true,"tcg":610646,"idx":44},
-    {"id":"013-cosmos","section":"special","num":"013","printed":"013/131","code":"","name":"Flareon","rarity":"R","img":"013","badge":"Cosmos Holo","variant":"Cosmos Holo","foil":true,"note":"A Cosmos Holo print, from blister packs, collection boxes and other special products.","idx":45},
     {"id":"014","section":"main","num":"014","printed":"014/131","code":"14","name":"Flareon ex","rarity":"RR","tcg":610369,"idx":46},
-    {"id":"014-set-logo","section":"special","num":"014","printed":"014/131","code":"","name":"Flareon ex","rarity":"RR","img":"014","badge":"Set Stamp","variant":"Set Stamp","foil":true,"note":"Stamped with the set logo: a prerelease and Build & Battle Box promo.","idx":47},
     {"id":"015","section":"main","num":"015","printed":"015/131","code":"15","name":"Litleo","rarity":"C","tcg":610370,"idx":48},
     {"id":"015-rh","section":"reverse","num":"015","printed":"015/131","code":"R15","name":"Litleo","rarity":"C","img":"015","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":610370,"sub":"Reverse Holofoil","idx":49},
     {"id":"015-pb","section":"pokeball","num":"015","printed":"015/131","code":"PB15","name":"Litleo","rarity":"C","img":"015","badge":"Poké Ball","variant":"Poké Ball","foil":true,"tcg":610546,"idx":50},
@@ -224,9 +206,7 @@
     {"id":"022-rh","section":"reverse","num":"022","printed":"022/131","code":"R22","name":"Vaporeon","rarity":"R","img":"022","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":610377,"sub":"Reverse Holofoil","idx":74},
     {"id":"022-pb","section":"pokeball","num":"022","printed":"022/131","code":"PB22","name":"Vaporeon","rarity":"R","img":"022","badge":"Poké Ball","variant":"Poké Ball","foil":true,"tcg":610552,"idx":75},
     {"id":"022-mb","section":"masterball","num":"022","printed":"022/131","code":"MB22","name":"Vaporeon","rarity":"R","img":"022","badge":"Master Ball","variant":"Master Ball","foil":true,"tcg":610653,"idx":76},
-    {"id":"022-cosmos","section":"special","num":"022","printed":"022/131","code":"","name":"Vaporeon","rarity":"R","img":"022","badge":"Cosmos Holo","variant":"Cosmos Holo","foil":true,"note":"A Cosmos Holo print, from blister packs, collection boxes and other special products.","idx":77},
     {"id":"023","section":"main","num":"023","printed":"023/131","code":"23","name":"Vaporeon ex","rarity":"RR","tcg":610378,"idx":78},
-    {"id":"023-set-logo","section":"special","num":"023","printed":"023/131","code":"","name":"Vaporeon ex","rarity":"RR","img":"023","badge":"Set Stamp","variant":"Set Stamp","foil":true,"note":"Stamped with the set logo: a prerelease and Build & Battle Box promo.","idx":79},
     {"id":"024","section":"main","num":"024","printed":"024/131","code":"24","name":"Suicune","rarity":"U","tcg":610379,"idx":80},
     {"id":"024-rh","section":"reverse","num":"024","printed":"024/131","code":"R24","name":"Suicune","rarity":"U","img":"024","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":610379,"sub":"Reverse Holofoil","idx":81},
     {"id":"024-pb","section":"pokeball","num":"024","printed":"024/131","code":"PB24","name":"Suicune","rarity":"U","img":"024","badge":"Poké Ball","variant":"Poké Ball","foil":true,"tcg":610553,"idx":82},
@@ -235,28 +215,21 @@
     {"id":"025-rh","section":"reverse","num":"025","printed":"025/131","code":"R25","name":"Glaceon","rarity":"R","img":"025","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":610380,"sub":"Reverse Holofoil","idx":85},
     {"id":"025-pb","section":"pokeball","num":"025","printed":"025/131","code":"PB25","name":"Glaceon","rarity":"R","img":"025","badge":"Poké Ball","variant":"Poké Ball","foil":true,"tcg":610554,"idx":86},
     {"id":"025-mb","section":"masterball","num":"025","printed":"025/131","code":"MB25","name":"Glaceon","rarity":"R","img":"025","badge":"Master Ball","variant":"Master Ball","foil":true,"tcg":610655,"idx":87},
-    {"id":"025-cosmos","section":"special","num":"025","printed":"025/131","code":"","name":"Glaceon","rarity":"R","img":"025","badge":"Cosmos Holo","variant":"Cosmos Holo","foil":true,"note":"A Cosmos Holo print, from blister packs, collection boxes and other special products.","idx":88},
     {"id":"026","section":"main","num":"026","printed":"026/131","code":"26","name":"Glaceon ex","rarity":"RR","tcg":610381,"idx":89},
-    {"id":"026-set-logo","section":"special","num":"026","printed":"026/131","code":"","name":"Glaceon ex","rarity":"RR","img":"026","badge":"Set Stamp","variant":"Set Stamp","foil":true,"note":"Stamped with the set logo: a prerelease and Build & Battle Box promo.","idx":90},
-    {"id":"026-snowflake","section":"special","num":"026","printed":"026/131","code":"","name":"Glaceon ex","rarity":"RR","img":"026","badge":"Holiday","variant":"Holiday","foil":true,"note":"From a Holiday Calendar, stamped with a snowflake.","idx":91},
     {"id":"027","section":"main","num":"027","printed":"027/131","code":"27","name":"Wellspring Mask Ogerpon ex","rarity":"RR","tcg":610382,"idx":92},
     {"id":"028","section":"main","num":"028","printed":"028/131","code":"28","name":"Pikachu ex","rarity":"RR","tcg":610383,"idx":93},
     {"id":"029","section":"main","num":"029","printed":"029/131","code":"29","name":"Jolteon","rarity":"R","tcg":610384,"idx":94},
     {"id":"029-rh","section":"reverse","num":"029","printed":"029/131","code":"R29","name":"Jolteon","rarity":"R","img":"029","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":610384,"sub":"Reverse Holofoil","idx":95},
     {"id":"029-pb","section":"pokeball","num":"029","printed":"029/131","code":"PB29","name":"Jolteon","rarity":"R","img":"029","badge":"Poké Ball","variant":"Poké Ball","foil":true,"tcg":610555,"idx":96},
     {"id":"029-mb","section":"masterball","num":"029","printed":"029/131","code":"MB29","name":"Jolteon","rarity":"R","img":"029","badge":"Master Ball","variant":"Master Ball","foil":true,"tcg":610656,"idx":97},
-    {"id":"029-cosmos","section":"special","num":"029","printed":"029/131","code":"","name":"Jolteon","rarity":"R","img":"029","badge":"Cosmos Holo","variant":"Cosmos Holo","foil":true,"note":"A Cosmos Holo print, from blister packs, collection boxes and other special products.","idx":98},
     {"id":"030","section":"main","num":"030","printed":"030/131","code":"30","name":"Jolteon ex","rarity":"RR","tcg":610385,"idx":99},
-    {"id":"030-set-logo","section":"special","num":"030","printed":"030/131","code":"","name":"Jolteon ex","rarity":"RR","img":"030","badge":"Set Stamp","variant":"Set Stamp","foil":true,"note":"Stamped with the set logo: a prerelease and Build & Battle Box promo.","idx":100},
     {"id":"031","section":"main","num":"031","printed":"031/131","code":"31","name":"Iron Hands ex","rarity":"RR","tcg":610386,"idx":101},
     {"id":"032","section":"main","num":"032","printed":"032/131","code":"32","name":"Iron Thorns ex","rarity":"RR","tcg":610387,"idx":102},
     {"id":"033","section":"main","num":"033","printed":"033/131","code":"33","name":"Espeon","rarity":"R","tcg":610388,"idx":103},
     {"id":"033-rh","section":"reverse","num":"033","printed":"033/131","code":"R33","name":"Espeon","rarity":"R","img":"033","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":610388,"sub":"Reverse Holofoil","idx":104},
     {"id":"033-pb","section":"pokeball","num":"033","printed":"033/131","code":"PB33","name":"Espeon","rarity":"R","img":"033","badge":"Poké Ball","variant":"Poké Ball","foil":true,"tcg":610557,"idx":105},
     {"id":"033-mb","section":"masterball","num":"033","printed":"033/131","code":"MB33","name":"Espeon","rarity":"R","img":"033","badge":"Master Ball","variant":"Master Ball","foil":true,"tcg":610658,"idx":106},
-    {"id":"033-cosmos","section":"special","num":"033","printed":"033/131","code":"","name":"Espeon","rarity":"R","img":"033","badge":"Cosmos Holo","variant":"Cosmos Holo","foil":true,"note":"A Cosmos Holo print, from blister packs, collection boxes and other special products.","idx":107},
     {"id":"034","section":"main","num":"034","printed":"034/131","code":"34","name":"Espeon ex","rarity":"RR","tcg":610389,"idx":108},
-    {"id":"034-set-logo","section":"special","num":"034","printed":"034/131","code":"","name":"Espeon ex","rarity":"RR","img":"034","badge":"Set Stamp","variant":"Set Stamp","foil":true,"note":"Stamped with the set logo: a prerelease and Build & Battle Box promo.","idx":109},
     {"id":"035","section":"main","num":"035","printed":"035/131","code":"35","name":"Duskull","rarity":"C","tcg":610390,"idx":110},
     {"id":"035-rh","section":"reverse","num":"035","printed":"035/131","code":"R35","name":"Duskull","rarity":"C","img":"035","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":610390,"sub":"Reverse Holofoil","idx":111},
     {"id":"035-pb","section":"pokeball","num":"035","printed":"035/131","code":"PB35","name":"Duskull","rarity":"C","img":"035","badge":"Poké Ball","variant":"Poké Ball","foil":true,"tcg":610558,"idx":112},
@@ -281,10 +254,7 @@
     {"id":"040-rh","section":"reverse","num":"040","printed":"040/131","code":"R40","name":"Sylveon","rarity":"R","img":"040","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":610395,"sub":"Reverse Holofoil","idx":131},
     {"id":"040-pb","section":"pokeball","num":"040","printed":"040/131","code":"PB40","name":"Sylveon","rarity":"R","img":"040","badge":"Poké Ball","variant":"Poké Ball","foil":true,"tcg":610563,"idx":132},
     {"id":"040-mb","section":"masterball","num":"040","printed":"040/131","code":"MB40","name":"Sylveon","rarity":"R","img":"040","badge":"Master Ball","variant":"Master Ball","foil":true,"tcg":610664,"idx":133},
-    {"id":"040-30th-pokeday","section":"special","num":"040","printed":"040/131","code":"","name":"Sylveon","rarity":"R","img":"040","badge":"Pokémon Day","variant":"Pokémon Day","foil":true,"note":"A Pokémon Day promo from the 30th anniversary.","idx":134},
-    {"id":"040-cosmos","section":"special","num":"040","printed":"040/131","code":"","name":"Sylveon","rarity":"R","img":"040","badge":"Cosmos Holo","variant":"Cosmos Holo","foil":true,"note":"A Cosmos Holo print, from blister packs, collection boxes and other special products.","idx":135},
     {"id":"041","section":"main","num":"041","printed":"041/131","code":"41","name":"Sylveon ex","rarity":"RR","tcg":610396,"idx":136},
-    {"id":"041-set-logo","section":"special","num":"041","printed":"041/131","code":"","name":"Sylveon ex","rarity":"RR","img":"041","badge":"Set Stamp","variant":"Set Stamp","foil":true,"note":"Stamped with the set logo: a prerelease and Build & Battle Box promo.","idx":137},
     {"id":"042","section":"main","num":"042","printed":"042/131","code":"42","name":"Scream Tail","rarity":"U","tcg":610397,"idx":138},
     {"id":"042-rh","section":"reverse","num":"042","printed":"042/131","code":"R42","name":"Scream Tail","rarity":"U","img":"042","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":610397,"sub":"Reverse Holofoil","idx":139},
     {"id":"042-pb","section":"pokeball","num":"042","printed":"042/131","code":"PB42","name":"Scream Tail","rarity":"U","img":"042","badge":"Poké Ball","variant":"Poké Ball","foil":true,"tcg":610564,"idx":140},
@@ -322,7 +292,6 @@
     {"id":"050-pb","section":"pokeball","num":"050","printed":"050/131","code":"PB50","name":"Riolu","rarity":"C","img":"050","badge":"Poké Ball","variant":"Poké Ball","foil":true,"tcg":610572,"idx":172},
     {"id":"050-mb","section":"masterball","num":"050","printed":"050/131","code":"MB50","name":"Riolu","rarity":"C","img":"050","badge":"Master Ball","variant":"Master Ball","foil":true,"tcg":610673,"idx":173},
     {"id":"051","section":"main","num":"051","printed":"051/131","code":"51","name":"Lucario ex","rarity":"RR","tcg":610406,"idx":174},
-    {"id":"051-set-logo","section":"special","num":"051","printed":"051/131","code":"","name":"Lucario ex","rarity":"RR","img":"051","badge":"Set Stamp","variant":"Set Stamp","foil":true,"note":"Stamped with the set logo: a prerelease and Build & Battle Box promo.","idx":175},
     {"id":"052","section":"main","num":"052","printed":"052/131","code":"52","name":"Hippopotas","rarity":"C","tcg":610407,"idx":176},
     {"id":"052-rh","section":"reverse","num":"052","printed":"052/131","code":"R52","name":"Hippopotas","rarity":"C","img":"052","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":610407,"sub":"Reverse Holofoil","idx":177},
     {"id":"052-pb","section":"pokeball","num":"052","printed":"052/131","code":"PB52","name":"Hippopotas","rarity":"C","img":"052","badge":"Poké Ball","variant":"Poké Ball","foil":true,"tcg":610573,"idx":178},
@@ -349,9 +318,7 @@
     {"id":"059-rh","section":"reverse","num":"059","printed":"059/131","code":"R59","name":"Umbreon","rarity":"R","img":"059","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":610414,"sub":"Reverse Holofoil","idx":199},
     {"id":"059-pb","section":"pokeball","num":"059","printed":"059/131","code":"PB59","name":"Umbreon","rarity":"R","img":"059","badge":"Poké Ball","variant":"Poké Ball","foil":true,"tcg":610578,"idx":200},
     {"id":"059-mb","section":"masterball","num":"059","printed":"059/131","code":"MB59","name":"Umbreon","rarity":"R","img":"059","badge":"Master Ball","variant":"Master Ball","foil":true,"tcg":610679,"idx":201},
-    {"id":"059-cosmos","section":"special","num":"059","printed":"059/131","code":"","name":"Umbreon","rarity":"R","img":"059","badge":"Cosmos Holo","variant":"Cosmos Holo","foil":true,"note":"A Cosmos Holo print, from blister packs, collection boxes and other special products.","idx":202},
     {"id":"060","section":"main","num":"060","printed":"060/131","code":"60","name":"Umbreon ex","rarity":"RR","tcg":610415,"idx":203},
-    {"id":"060-set-logo","section":"special","num":"060","printed":"060/131","code":"","name":"Umbreon ex","rarity":"RR","img":"060","badge":"Set Stamp","variant":"Set Stamp","foil":true,"note":"Stamped with the set logo: a prerelease and Build & Battle Box promo.","idx":204},
     {"id":"061","section":"main","num":"061","printed":"061/131","code":"61","name":"Sneasel","rarity":"C","tcg":610416,"idx":205},
     {"id":"061-rh","section":"reverse","num":"061","printed":"061/131","code":"R61","name":"Sneasel","rarity":"C","img":"061","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":610416,"sub":"Reverse Holofoil","idx":206},
     {"id":"061-pb","section":"pokeball","num":"061","printed":"061/131","code":"PB61","name":"Sneasel","rarity":"C","img":"061","badge":"Poké Ball","variant":"Poké Ball","foil":true,"tcg":610579,"idx":207},
@@ -365,7 +332,6 @@
     {"id":"063-pb","section":"pokeball","num":"063","printed":"063/131","code":"PB63","name":"Houndoom","rarity":"C","img":"063","badge":"Poké Ball","variant":"Poké Ball","foil":true,"tcg":610581,"idx":215},
     {"id":"063-mb","section":"masterball","num":"063","printed":"063/131","code":"MB63","name":"Houndoom","rarity":"C","img":"063","badge":"Master Ball","variant":"Master Ball","foil":true,"tcg":610682,"idx":216},
     {"id":"064","section":"main","num":"064","printed":"064/131","code":"64","name":"Tyranitar ex","rarity":"RR","tcg":610419,"idx":217},
-    {"id":"064-set-logo","section":"special","num":"064","printed":"064/131","code":"","name":"Tyranitar ex","rarity":"RR","img":"064","badge":"Set Stamp","variant":"Set Stamp","foil":true,"note":"Stamped with the set logo: a prerelease and Build & Battle Box promo.","idx":218},
     {"id":"065","section":"main","num":"065","printed":"065/131","code":"65","name":"Roaring Moon","rarity":"R","tcg":610420,"idx":219},
     {"id":"065-rh","section":"reverse","num":"065","printed":"065/131","code":"R65","name":"Roaring Moon","rarity":"R","img":"065","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":610420,"sub":"Reverse Holofoil","idx":220},
     {"id":"065-pb","section":"pokeball","num":"065","printed":"065/131","code":"PB65","name":"Roaring Moon","rarity":"R","img":"065","badge":"Poké Ball","variant":"Poké Ball","foil":true,"tcg":610582,"idx":221},
@@ -403,11 +369,8 @@
     {"id":"074-rh","section":"reverse","num":"074","printed":"074/131","code":"R74","name":"Eevee","rarity":"C","img":"074","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":610429,"sub":"Reverse Holofoil","idx":253},
     {"id":"074-pb","section":"pokeball","num":"074","printed":"074/131","code":"PB74","name":"Eevee","rarity":"C","img":"074","badge":"Poké Ball","variant":"Poké Ball","foil":true,"tcg":610590,"idx":254},
     {"id":"074-mb","section":"masterball","num":"074","printed":"074/131","code":"MB74","name":"Eevee","rarity":"C","img":"074","badge":"Master Ball","variant":"Master Ball","foil":true,"tcg":610691,"idx":255},
-    {"id":"074-reverse-cosmos","section":"special","num":"074","printed":"074/131","code":"","name":"Eevee","rarity":"C","img":"074","badge":"Reverse Cosmos Holo","variant":"Reverse Cosmos Holo","foil":true,"note":"A Cosmos Holo print, from blister packs, collection boxes and other special products.","idx":256},
     {"id":"075","section":"main","num":"075","printed":"075/131","code":"75","name":"Eevee ex","rarity":"RR","tcg":610430,"idx":257},
-    {"id":"075-set-logo","section":"special","num":"075","printed":"075/131","code":"","name":"Eevee ex","rarity":"RR","img":"075","badge":"Set Stamp","variant":"Set Stamp","foil":true,"note":"Stamped with the set logo: a prerelease and Build & Battle Box promo.","idx":258},
     {"id":"076","section":"main","num":"076","printed":"076/131","code":"76","name":"Snorlax ex","rarity":"RR","tcg":610431,"idx":259},
-    {"id":"076-set-logo","section":"special","num":"076","printed":"076/131","code":"","name":"Snorlax ex","rarity":"RR","img":"076","badge":"Set Stamp","variant":"Set Stamp","foil":true,"note":"Stamped with the set logo: a prerelease and Build & Battle Box promo.","idx":260},
     {"id":"077","section":"main","num":"077","printed":"077/131","code":"77","name":"Hoothoot","rarity":"C","tcg":610432,"idx":261},
     {"id":"077-rh","section":"reverse","num":"077","printed":"077/131","code":"R77","name":"Hoothoot","rarity":"C","img":"077","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":610432,"sub":"Reverse Holofoil","idx":262},
     {"id":"077-pb","section":"pokeball","num":"077","printed":"077/131","code":"PB77","name":"Hoothoot","rarity":"C","img":"077","badge":"Poké Ball","variant":"Poké Ball","foil":true,"tcg":610591,"idx":263},
@@ -429,8 +392,6 @@
     {"id":"081-pb","section":"pokeball","num":"081","printed":"081/131","code":"PB81","name":"Miltank","rarity":"C","img":"081","badge":"Poké Ball","variant":"Poké Ball","foil":true,"tcg":610595,"idx":279},
     {"id":"081-mb","section":"masterball","num":"081","printed":"081/131","code":"MB81","name":"Miltank","rarity":"C","img":"081","badge":"Master Ball","variant":"Master Ball","foil":true,"tcg":610696,"idx":280},
     {"id":"082","section":"main","num":"082","printed":"082/131","code":"82","name":"Lugia ex","rarity":"RR","tcg":610437,"idx":281},
-    {"id":"082-normal-set-logo","section":"special","num":"082","printed":"082/131","code":"","name":"Lugia ex","rarity":"RR","img":"082","badge":"Set Stamp","variant":"Set Stamp","foil":false,"note":"Stamped with the set logo: a prerelease and Build & Battle Box promo.","idx":282},
-    {"id":"082-set-logo","section":"special","num":"082","printed":"082/131","code":"","name":"Lugia ex","rarity":"RR","img":"082","badge":"Set Stamp","variant":"Set Stamp","foil":true,"note":"Stamped with the set logo: a prerelease and Build & Battle Box promo.","idx":283},
     {"id":"083","section":"main","num":"083","printed":"083/131","code":"83","name":"Buneary","rarity":"C","tcg":610438,"idx":284},
     {"id":"083-rh","section":"reverse","num":"083","printed":"083/131","code":"R83","name":"Buneary","rarity":"C","img":"083","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":610438,"sub":"Reverse Holofoil","idx":285},
     {"id":"083-pb","section":"pokeball","num":"083","printed":"083/131","code":"PB83","name":"Buneary","rarity":"C","img":"083","badge":"Poké Ball","variant":"Poké Ball","foil":true,"tcg":610596,"idx":286},

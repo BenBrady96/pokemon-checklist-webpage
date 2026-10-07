@@ -9,7 +9,7 @@
   "syncKey": "SVI",
   "released": "2023-03-31",
   "printedTotal": 198,
-  "defaultTier": "complete",
+  "defaultTier": "grand",
   "sections": [
     {
       "id": "main",
@@ -18,17 +18,17 @@
       "tier": "standard"
     },
     {
-      "id": "secret",
-      "name": "Secret Rares",
-      "range": "199–258",
-      "tier": "complete"
-    },
-    {
       "id": "reverse",
       "name": "Reverse Holos",
       "short": "Reverse Holos",
       "range": "186 cards",
       "tier": "master"
+    },
+    {
+      "id": "secret",
+      "name": "Secret Rares",
+      "range": "199–258",
+      "tier": "grand"
     }
   ],
   "summary": [
@@ -37,12 +37,12 @@
       "Main set"
     ],
     [
-      "secret",
-      "Secret rares"
-    ],
-    [
       "reverse",
       "Reverse holos"
+    ],
+    [
+      "secret",
+      "Secret rares"
     ]
   ],
   "quickAdd": {
@@ -52,13 +52,13 @@
     "empty": "Main set cards are 1–198 (secret rares start at 199)."
   },
   "help": {
-    "tiers": "<b>Standard, Complete or Master:</b> pick what you’re collecting above the cards. Standard is the 198 main set cards, Complete is all 258 cards and Master adds the 186 reverse holos. Cards you’ve marked are kept when you switch."
+    "tiers": "<b>Standard, Master or Grand Master:</b> pick what you’re collecting above the cards. Standard is the 198 main set cards. Master adds the 186 reverse holos. Grand Master adds the 60 secret rares. Cards you’ve marked are kept when you switch."
   },
   "info": {
     "packSections": [
       "main",
-      "secret",
-      "reverse"
+      "reverse",
+      "secret"
     ],
     "sectionText": {
       "reverse": [
@@ -82,16 +82,16 @@
   },
   "seo": {
     "title": "Pokémon TCG Scarlet & Violet Checklist · All 258 Cards",
-    "description": "Free checklist for the Pokémon TCG Scarlet & Violet set. Track all 258 cards, or go further with every reverse holos, with images, copy counts, binder pages and prices. No sign-up needed.",
+    "description": "Free checklist for the Pokémon TCG Scarlet & Violet set. Track all 258 cards, or go further with the reverse holos, with images, copy counts, binder pages and prices. No sign-up needed.",
     "ogTitle": "Pokémon TCG Scarlet & Violet Checklist",
-    "ogDescription": "Track all 258 cards in Pokémon TCG Scarlet & Violet: the 198-card main set and 60 secret rares, plus 186 reverse holos for a master set. Free, no sign-up, works offline.",
+    "ogDescription": "Track all 258 cards in Pokémon TCG Scarlet & Violet: the 198-card main set and 60 secret rares, plus 186 reverse holos. Free, no sign-up, works offline.",
     "twitterDescription": "Track all 258 cards in Pokémon TCG Scarlet & Violet. Free, no sign-up, works offline."
   },
   "about": {
     "title": "About the Scarlet & Violet set",
     "paragraphs": [
-      "Pokémon TCG: Scarlet & Violet is a Scarlet & Violet expansion released on 31 March 2023. It has 258 cards: 198 in the main set and 60 secret rares. For a master set there are also 186 reverse holos.",
-      "Choose what you’re collecting: the <b>Standard set</b> (the 198 main set cards), the <b>Complete set</b> (all 258 cards) or the <b>Master set</b> (444 cards, adding every reverse holos).",
+      "Pokémon TCG: Scarlet & Violet is a Scarlet & Violet expansion released on 31 March 2023. It has 258 cards: 198 in the main set and 60 secret rares. There are also 186 reverse holos.",
+      "Choose what you’re collecting: the <b>Standard set</b> (the 198 main set cards), the <b>Master set</b> (384 cards, adding the reverse holos) or the <b>Grand Master set</b> (all 444 cards, adding the 60 secret rares).",
       "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device."
     ]
   },

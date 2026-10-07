@@ -9,19 +9,13 @@
   "syncKey": "ASC",
   "released": "2026-01-30",
   "printedTotal": 217,
-  "defaultTier": "complete",
+  "defaultTier": "grand",
   "sections": [
     {
       "id": "main",
       "name": "Main Set",
       "range": "001–217",
       "tier": "standard"
-    },
-    {
-      "id": "secret",
-      "name": "Secret Rares",
-      "range": "218–295",
-      "tier": "complete"
     },
     {
       "id": "reverse",
@@ -80,24 +74,16 @@
       "tier": "master"
     },
     {
-      "id": "special",
-      "name": "Special Prints",
-      "short": "Special Prints",
-      "range": "stamps, Cosmos Holos & more",
-      "tier": "grand",
-      "display": {
-        "search": "Pokemon {set} {name} {printed} {badge}"
-      }
+      "id": "secret",
+      "name": "Secret Rares",
+      "range": "218–295",
+      "tier": "grand"
     }
   ],
   "summary": [
     [
       "main",
       "Main set"
-    ],
-    [
-      "secret",
-      "Secret rares"
     ],
     [
       "reverse",
@@ -132,23 +118,22 @@
       "Energy Symbol holos"
     ],
     [
-      "special",
-      "Special prints"
+      "secret",
+      "Secret rares"
     ]
   ],
   "quickAdd": {
     "placeholder": "e.g. 1-22, 55, R12, 60x2",
     "example": "1-22, 55x2, R12",
-    "hint": "Separate with commas or spaces. <b>1-22</b> is a range and <b>55x2</b> is two copies. <b>R12</b> is card 12’s reverse holo, <b>PB12</b> is card 12’s Poké Ball version, <b>FB12</b> is card 12’s Friend Ball version, <b>LB12</b> is card 12’s Love Ball version, <b>QB12</b> is card 12’s Quick Ball version, <b>DB12</b> is card 12’s Dusk Ball version, <b>TR12</b> is card 12’s Team Rocket version and <b>EN12</b> is card 12’s Energy Symbol version, and ranges work too (<b>R1-R20</b>). Special prints are marked by tapping them.",
+    "hint": "Separate with commas or spaces. <b>1-22</b> is a range and <b>55x2</b> is two copies. <b>R12</b> is card 12’s reverse holo, <b>PB12</b> is card 12’s Poké Ball version, <b>FB12</b> is card 12’s Friend Ball version, <b>LB12</b> is card 12’s Love Ball version, <b>QB12</b> is card 12’s Quick Ball version, <b>DB12</b> is card 12’s Dusk Ball version, <b>TR12</b> is card 12’s Team Rocket version and <b>EN12</b> is card 12’s Energy Symbol version, and ranges work too (<b>R1-R20</b>).",
     "empty": "Main set cards are 1–217 (secret rares start at 218)."
   },
   "help": {
-    "tiers": "<b>Standard, Complete, Master or Grand Master:</b> pick what you’re collecting above the cards. Standard is the 217 main set cards, Complete is all 295 cards, Master adds the 318 reverse holos, Poké Ball holos, Friend Ball holos, Love Ball holos, Quick Ball holos, Dusk Ball holos, Team Rocket holos and Energy Symbol holos and Grand Master adds the 16 special prints (stamped, Cosmos Holo and other product-exclusive cards). Cards you’ve marked are kept when you switch."
+    "tiers": "<b>Standard, Master or Grand Master:</b> pick what you’re collecting above the cards. Standard is the 217 main set cards. Master adds the 318 reverse holos, Poké Ball holos, Friend Ball holos, Love Ball holos, Quick Ball holos, Dusk Ball holos, Team Rocket holos and Energy Symbol holos. Grand Master adds the 78 secret rares. Cards you’ve marked are kept when you switch."
   },
   "info": {
     "packSections": [
       "main",
-      "secret",
       "reverse",
       "pokeball",
       "friendball",
@@ -156,7 +141,8 @@
       "quickball",
       "duskball",
       "rocket",
-      "energy"
+      "energy",
+      "secret"
     ],
     "sectionText": {
       "reverse": [
@@ -204,16 +190,16 @@
   },
   "seo": {
     "title": "Pokémon TCG Ascended Heroes Checklist · All 295 Cards",
-    "description": "Free checklist for the Pokémon TCG Ascended Heroes set. Track all 295 cards, or go further with every reverse holos, Poké Ball holos, Friend Ball holos, Love Ball holos, Quick Ball holos, Dusk Ball holos, Team Rocket holos and Energy Symbol holos and every special print, with images, copy counts, binder pages and prices. No sign-up needed.",
+    "description": "Free checklist for the Pokémon TCG Ascended Heroes set. Track all 295 cards, or go further with the reverse holos, Poké Ball holos, Friend Ball holos, Love Ball holos, Quick Ball holos, Dusk Ball holos, Team Rocket holos and Energy Symbol holos, with images, copy counts, binder pages and prices. No sign-up needed.",
     "ogTitle": "Pokémon TCG Ascended Heroes Checklist",
-    "ogDescription": "Track all 295 cards in Pokémon TCG Ascended Heroes: the 217-card main set and 78 secret rares, plus 318 reverse holos, Poké Ball holos, Friend Ball holos, Love Ball holos, Quick Ball holos, Dusk Ball holos, Team Rocket holos and Energy Symbol holos for a master set and 16 special prints for a grand master set. Free, no sign-up, works offline.",
+    "ogDescription": "Track all 295 cards in Pokémon TCG Ascended Heroes: the 217-card main set and 78 secret rares, plus 318 reverse holos, Poké Ball holos, Friend Ball holos, Love Ball holos, Quick Ball holos, Dusk Ball holos, Team Rocket holos and Energy Symbol holos. Free, no sign-up, works offline.",
     "twitterDescription": "Track all 295 cards in Pokémon TCG Ascended Heroes. Free, no sign-up, works offline."
   },
   "about": {
     "title": "About the Ascended Heroes set",
     "paragraphs": [
-      "Pokémon TCG: Ascended Heroes is a Mega Evolution expansion released on 30 January 2026. It has 295 cards: 217 in the main set and 78 secret rares. For a master set there are also 318 reverse holos, Poké Ball holos, Friend Ball holos, Love Ball holos, Quick Ball holos, Dusk Ball holos, Team Rocket holos and Energy Symbol holos, and 16 special prints from other products and events.",
-      "Choose what you’re collecting: the <b>Standard set</b> (the 217 main set cards), the <b>Complete set</b> (all 295 cards), the <b>Master set</b> (613 cards, adding every reverse holos, Poké Ball holos, Friend Ball holos, Love Ball holos, Quick Ball holos, Dusk Ball holos, Team Rocket holos and Energy Symbol holos) or the <b>Grand Master set</b> (629 cards, adding the 16 special prints (stamped, Cosmos Holo and other product-exclusive cards)).",
+      "Pokémon TCG: Ascended Heroes is a Mega Evolution expansion released on 30 January 2026. It has 295 cards: 217 in the main set and 78 secret rares. There are also 318 reverse holos, Poké Ball holos, Friend Ball holos, Love Ball holos, Quick Ball holos, Dusk Ball holos, Team Rocket holos and Energy Symbol holos.",
+      "Choose what you’re collecting: the <b>Standard set</b> (the 217 main set cards), the <b>Master set</b> (535 cards, adding the reverse holos, Poké Ball holos, Friend Ball holos, Love Ball holos, Quick Ball holos, Dusk Ball holos, Team Rocket holos and Energy Symbol holos) or the <b>Grand Master set</b> (all 613 cards, adding the 78 secret rares).",
       "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device."
     ]
   },
@@ -244,11 +230,9 @@
     {"id":"007","section":"main","num":"007","printed":"007/217","code":"7","name":"Erika's Tangela","rarity":"C","tcg":675819,"idx":16},
     {"id":"007-pb","section":"pokeball","num":"007","printed":"007/217","code":"PB7","name":"Erika's Tangela","rarity":"C","img":"007","badge":"Poké Ball","variant":"Poké Ball","foil":true,"tcg":676857,"idx":17},
     {"id":"007-en","section":"energy","num":"007","printed":"007/217","code":"EN7","name":"Erika's Tangela","rarity":"C","img":"007","badge":"Energy Symbol","variant":"Energy Symbol","foil":true,"tcg":676997,"idx":18},
-    {"id":"007-cosmos","section":"special","num":"007","printed":"007/217","code":"","name":"Erika's Tangela","rarity":"C","img":"007","badge":"Cosmos Holo","variant":"Cosmos Holo","foil":true,"note":"A Cosmos Holo print, from blister packs, collection boxes and other special products.","tcg":679253,"grp":2374,"idx":19},
     {"id":"008","section":"main","num":"008","printed":"008/217","code":"8","name":"Chikorita","rarity":"C","tcg":675820,"idx":20},
     {"id":"008-fb","section":"friendball","num":"008","printed":"008/217","code":"FB8","name":"Chikorita","rarity":"C","img":"008","badge":"Friend Ball","variant":"Friend Ball","foil":true,"tcg":676858,"idx":21},
     {"id":"008-en","section":"energy","num":"008","printed":"008/217","code":"EN8","name":"Chikorita","rarity":"C","img":"008","badge":"Energy Symbol","variant":"Energy Symbol","foil":true,"tcg":676998,"idx":22},
-    {"id":"008-cosmos","section":"special","num":"008","printed":"008/217","code":"","name":"Chikorita","rarity":"C","img":"008","badge":"Cosmos Holo","variant":"Cosmos Holo","foil":true,"note":"A Cosmos Holo print, from blister packs, collection boxes and other special products.","tcg":680709,"grp":2374,"idx":23},
     {"id":"009","section":"main","num":"009","printed":"009/217","code":"9","name":"Bayleef","rarity":"U","tcg":675821,"idx":24},
     {"id":"009-fb","section":"friendball","num":"009","printed":"009/217","code":"FB9","name":"Bayleef","rarity":"U","img":"009","badge":"Friend Ball","variant":"Friend Ball","foil":true,"tcg":676859,"idx":25},
     {"id":"009-en","section":"energy","num":"009","printed":"009/217","code":"EN9","name":"Bayleef","rarity":"U","img":"009","badge":"Energy Symbol","variant":"Energy Symbol","foil":true,"tcg":676999,"idx":26},
@@ -283,7 +267,6 @@
     {"id":"020","section":"main","num":"020","printed":"020/217","code":"20","name":"Charmander","rarity":"C","tcg":675832,"idx":55},
     {"id":"020-fb","section":"friendball","num":"020","printed":"020/217","code":"FB20","name":"Charmander","rarity":"C","img":"020","badge":"Friend Ball","variant":"Friend Ball","foil":true,"tcg":676869,"idx":56},
     {"id":"020-en","section":"energy","num":"020","printed":"020/217","code":"EN20","name":"Charmander","rarity":"C","img":"020","badge":"Energy Symbol","variant":"Energy Symbol","foil":true,"tcg":677009,"idx":57},
-    {"id":"020-cosmos","section":"special","num":"020","printed":"020/217","code":"","name":"Charmander","rarity":"C","img":"020","badge":"Cosmos Holo","variant":"Cosmos Holo","foil":true,"note":"A Cosmos Holo print, from blister packs, collection boxes and other special products.","tcg":677398,"grp":2374,"idx":58},
     {"id":"021","section":"main","num":"021","printed":"021/217","code":"21","name":"Charmeleon","rarity":"U","tcg":675833,"idx":59},
     {"id":"021-fb","section":"friendball","num":"021","printed":"021/217","code":"FB21","name":"Charmeleon","rarity":"U","img":"021","badge":"Friend Ball","variant":"Friend Ball","foil":true,"tcg":676870,"idx":60},
     {"id":"021-en","section":"energy","num":"021","printed":"021/217","code":"EN21","name":"Charmeleon","rarity":"U","img":"021","badge":"Energy Symbol","variant":"Energy Symbol","foil":true,"tcg":677010,"idx":61},
@@ -307,7 +290,6 @@
     {"id":"029","section":"main","num":"029","printed":"029/217","code":"29","name":"Tepig","rarity":"C","tcg":675841,"idx":79},
     {"id":"029-fb","section":"friendball","num":"029","printed":"029/217","code":"FB29","name":"Tepig","rarity":"C","img":"029","badge":"Friend Ball","variant":"Friend Ball","foil":true,"tcg":676876,"idx":80},
     {"id":"029-en","section":"energy","num":"029","printed":"029/217","code":"EN29","name":"Tepig","rarity":"C","img":"029","badge":"Energy Symbol","variant":"Energy Symbol","foil":true,"tcg":677016,"idx":81},
-    {"id":"029-cosmos","section":"special","num":"029","printed":"029/217","code":"","name":"Tepig","rarity":"C","img":"029","badge":"Cosmos Holo","variant":"Cosmos Holo","foil":true,"note":"A Cosmos Holo print, from blister packs, collection boxes and other special products.","tcg":681895,"grp":2374,"idx":82},
     {"id":"030","section":"main","num":"030","printed":"030/217","code":"30","name":"Pignite","rarity":"U","tcg":675842,"idx":83},
     {"id":"030-fb","section":"friendball","num":"030","printed":"030/217","code":"FB30","name":"Pignite","rarity":"U","img":"030","badge":"Friend Ball","variant":"Friend Ball","foil":true,"tcg":676877,"idx":84},
     {"id":"030-en","section":"energy","num":"030","printed":"030/217","code":"EN30","name":"Pignite","rarity":"U","img":"030","badge":"Energy Symbol","variant":"Energy Symbol","foil":true,"tcg":677017,"idx":85},
@@ -334,15 +316,12 @@
     {"id":"039","section":"main","num":"039","printed":"039/217","code":"39","name":"Psyduck","rarity":"C","tcg":675851,"idx":106},
     {"id":"039-lb","section":"loveball","num":"039","printed":"039/217","code":"LB39","name":"Psyduck","rarity":"C","img":"039","badge":"Love Ball","variant":"Love Ball","foil":true,"tcg":676884,"idx":107},
     {"id":"039-en","section":"energy","num":"039","printed":"039/217","code":"EN39","name":"Psyduck","rarity":"C","img":"039","badge":"Energy Symbol","variant":"Energy Symbol","foil":true,"tcg":677024,"idx":108},
-    {"id":"039-normal-player-rewards-program","section":"special","num":"039","printed":"039/217","code":"","name":"Psyduck","rarity":"C","img":"039","badge":"Play! Pokémon","variant":"Play! Pokémon","foil":false,"note":"From Play! Pokémon Prize Packs, given out at league events.","tcg":704451,"grp":22880,"idx":109},
-    {"id":"039-cosmos-player-rewards-program","section":"special","num":"039","printed":"039/217","code":"","name":"Psyduck","rarity":"C","img":"039","badge":"Cosmos Holo · Play! Pokémon","variant":"Cosmos Holo · Play! Pokémon","foil":true,"note":"From Play! Pokémon Prize Packs, given out at league events.","tcg":704452,"grp":22880,"idx":110},
     {"id":"040","section":"main","num":"040","printed":"040/217","code":"40","name":"Golduck","rarity":"U","tcg":675852,"idx":111},
     {"id":"040-lb","section":"loveball","num":"040","printed":"040/217","code":"LB40","name":"Golduck","rarity":"U","img":"040","badge":"Love Ball","variant":"Love Ball","foil":true,"tcg":676885,"idx":112},
     {"id":"040-en","section":"energy","num":"040","printed":"040/217","code":"EN40","name":"Golduck","rarity":"U","img":"040","badge":"Energy Symbol","variant":"Energy Symbol","foil":true,"tcg":677025,"idx":113},
     {"id":"041","section":"main","num":"041","printed":"041/217","code":"41","name":"Totodile","rarity":"C","tcg":675853,"idx":114},
     {"id":"041-fb","section":"friendball","num":"041","printed":"041/217","code":"FB41","name":"Totodile","rarity":"C","img":"041","badge":"Friend Ball","variant":"Friend Ball","foil":true,"tcg":676886,"idx":115},
     {"id":"041-en","section":"energy","num":"041","printed":"041/217","code":"EN41","name":"Totodile","rarity":"C","img":"041","badge":"Energy Symbol","variant":"Energy Symbol","foil":true,"tcg":677026,"idx":116},
-    {"id":"041-cosmos","section":"special","num":"041","printed":"041/217","code":"","name":"Totodile","rarity":"C","img":"041","badge":"Cosmos Holo","variant":"Cosmos Holo","foil":true,"note":"A Cosmos Holo print, from blister packs, collection boxes and other special products.","tcg":680710,"grp":2374,"idx":117},
     {"id":"042","section":"main","num":"042","printed":"042/217","code":"42","name":"Croconaw","rarity":"U","tcg":675854,"idx":118},
     {"id":"042-fb","section":"friendball","num":"042","printed":"042/217","code":"FB42","name":"Croconaw","rarity":"U","img":"042","badge":"Friend Ball","variant":"Friend Ball","foil":true,"tcg":676887,"idx":119},
     {"id":"042-en","section":"energy","num":"042","printed":"042/217","code":"EN42","name":"Croconaw","rarity":"U","img":"042","badge":"Energy Symbol","variant":"Energy Symbol","foil":true,"tcg":677027,"idx":120},
@@ -454,7 +433,6 @@
     {"id":"086","section":"main","num":"086","printed":"086/217","code":"86","name":"Mismagius","rarity":"R","tcg":675898,"idx":226},
     {"id":"086-db","section":"duskball","num":"086","printed":"086/217","code":"DB86","name":"Mismagius","rarity":"R","img":"086","badge":"Dusk Ball","variant":"Dusk Ball","foil":true,"tcg":676919,"idx":227},
     {"id":"086-en","section":"energy","num":"086","printed":"086/217","code":"EN86","name":"Mismagius","rarity":"R","img":"086","badge":"Energy Symbol","variant":"Energy Symbol","foil":true,"tcg":677059,"idx":228},
-    {"id":"086-normal-player-rewards-program","section":"special","num":"086","printed":"086/217","code":"","name":"Mismagius","rarity":"R","img":"086","badge":"Play! Pokémon","variant":"Play! Pokémon","foil":false,"note":"From Play! Pokémon Prize Packs, given out at league events.","tcg":704442,"grp":22880,"idx":229},
     {"id":"087","section":"main","num":"087","printed":"087/217","code":"87","name":"Ralts","rarity":"C","tcg":675899,"idx":230},
     {"id":"087-lb","section":"loveball","num":"087","printed":"087/217","code":"LB87","name":"Ralts","rarity":"C","img":"087","badge":"Love Ball","variant":"Love Ball","foil":true,"tcg":676920,"idx":231},
     {"id":"087-en","section":"energy","num":"087","printed":"087/217","code":"EN87","name":"Ralts","rarity":"C","img":"087","badge":"Energy Symbol","variant":"Energy Symbol","foil":true,"tcg":677060,"idx":232},
@@ -552,7 +530,6 @@
     {"id":"123","section":"main","num":"123","printed":"123/217","code":"123","name":"Gastly","rarity":"C","tcg":675935,"idx":324},
     {"id":"123-db","section":"duskball","num":"123","printed":"123/217","code":"DB123","name":"Gastly","rarity":"C","img":"123","badge":"Dusk Ball","variant":"Dusk Ball","foil":true,"tcg":676949,"idx":325},
     {"id":"123-en","section":"energy","num":"123","printed":"123/217","code":"EN123","name":"Gastly","rarity":"C","img":"123","badge":"Energy Symbol","variant":"Energy Symbol","foil":true,"tcg":677089,"idx":326},
-    {"id":"123-cosmos","section":"special","num":"123","printed":"123/217","code":"","name":"Gastly","rarity":"C","img":"123","badge":"Cosmos Holo","variant":"Cosmos Holo","foil":true,"note":"A Cosmos Holo print, from blister packs, collection boxes and other special products.","tcg":677399,"grp":2374,"idx":327},
     {"id":"124","section":"main","num":"124","printed":"124/217","code":"124","name":"Haunter","rarity":"U","tcg":675936,"idx":328},
     {"id":"124-db","section":"duskball","num":"124","printed":"124/217","code":"DB124","name":"Haunter","rarity":"U","img":"124","badge":"Dusk Ball","variant":"Dusk Ball","foil":true,"tcg":676950,"idx":329},
     {"id":"124-en","section":"energy","num":"124","printed":"124/217","code":"EN124","name":"Haunter","rarity":"U","img":"124","badge":"Energy Symbol","variant":"Energy Symbol","foil":true,"tcg":677090,"idx":330},
@@ -620,7 +597,6 @@
     {"id":"150","section":"main","num":"150","printed":"150/217","code":"150","name":"Dratini","rarity":"C","tcg":675962,"idx":392},
     {"id":"150-lb","section":"loveball","num":"150","printed":"150/217","code":"LB150","name":"Dratini","rarity":"C","img":"150","badge":"Love Ball","variant":"Love Ball","foil":true,"tcg":676969,"idx":393},
     {"id":"150-en","section":"energy","num":"150","printed":"150/217","code":"EN150","name":"Dratini","rarity":"C","img":"150","badge":"Energy Symbol","variant":"Energy Symbol","foil":true,"tcg":677109,"idx":394},
-    {"id":"150-normal-player-rewards-program","section":"special","num":"150","printed":"150/217","code":"","name":"Dratini","rarity":"C","img":"150","badge":"Play! Pokémon","variant":"Play! Pokémon","foil":false,"note":"From Play! Pokémon Prize Packs, given out at league events.","tcg":704413,"grp":22880,"idx":395},
     {"id":"151","section":"main","num":"151","printed":"151/217","code":"151","name":"Dragonair","rarity":"U","tcg":675963,"idx":396},
     {"id":"151-lb","section":"loveball","num":"151","printed":"151/217","code":"LB151","name":"Dragonair","rarity":"U","img":"151","badge":"Love Ball","variant":"Love Ball","foil":true,"tcg":676970,"idx":397},
     {"id":"151-en","section":"energy","num":"151","printed":"151/217","code":"EN151","name":"Dragonair","rarity":"U","img":"151","badge":"Energy Symbol","variant":"Energy Symbol","foil":true,"tcg":677110,"idx":398},
@@ -634,8 +610,6 @@
     {"id":"155","section":"main","num":"155","printed":"155/217","code":"155","name":"N's Zekrom","rarity":"R","tcg":675967,"idx":406},
     {"id":"155-pb","section":"pokeball","num":"155","printed":"155/217","code":"PB155","name":"N's Zekrom","rarity":"R","img":"155","badge":"Poké Ball","variant":"Poké Ball","foil":true,"tcg":676973,"idx":407},
     {"id":"155-en","section":"energy","num":"155","printed":"155/217","code":"EN155","name":"N's Zekrom","rarity":"R","img":"155","badge":"Energy Symbol","variant":"Energy Symbol","foil":true,"tcg":677113,"idx":408},
-    {"id":"155-normal-player-rewards-program","section":"special","num":"155","printed":"155/217","code":"","name":"N's Zekrom","rarity":"R","img":"155","badge":"Play! Pokémon","variant":"Play! Pokémon","foil":false,"note":"From Play! Pokémon Prize Packs, given out at league events.","tcg":704446,"grp":22880,"idx":409},
-    {"id":"155-cosmos-player-rewards-program","section":"special","num":"155","printed":"155/217","code":"","name":"N's Zekrom","rarity":"R","img":"155","badge":"Cosmos Holo · Play! Pokémon","variant":"Cosmos Holo · Play! Pokémon","foil":true,"note":"From Play! Pokémon Prize Packs, given out at league events.","tcg":704447,"grp":22880,"idx":410},
     {"id":"156","section":"main","num":"156","printed":"156/217","code":"156","name":"Noibat","rarity":"C","tcg":675968,"idx":411},
     {"id":"156-fb","section":"friendball","num":"156","printed":"156/217","code":"FB156","name":"Noibat","rarity":"C","img":"156","badge":"Friend Ball","variant":"Friend Ball","foil":true,"tcg":676974,"idx":412},
     {"id":"156-en","section":"energy","num":"156","printed":"156/217","code":"EN156","name":"Noibat","rarity":"C","img":"156","badge":"Energy Symbol","variant":"Energy Symbol","foil":true,"tcg":677114,"idx":413},
@@ -686,7 +660,6 @@
     {"id":"175","section":"main","num":"175","printed":"175/217","code":"175","name":"Larry's Komala","rarity":"C","tcg":675987,"idx":458},
     {"id":"175-pb","section":"pokeball","num":"175","printed":"175/217","code":"PB175","name":"Larry's Komala","rarity":"C","img":"175","badge":"Poké Ball","variant":"Poké Ball","foil":true,"tcg":676988,"idx":459},
     {"id":"175-en","section":"energy","num":"175","printed":"175/217","code":"EN175","name":"Larry's Komala","rarity":"C","img":"175","badge":"Energy Symbol","variant":"Energy Symbol","foil":true,"tcg":677128,"idx":460},
-    {"id":"175-cosmos","section":"special","num":"175","printed":"175/217","code":"","name":"Larry's Komala","rarity":"C","img":"175","badge":"Cosmos Holo","variant":"Cosmos Holo","foil":true,"note":"A Cosmos Holo print, from blister packs, collection boxes and other special products.","tcg":679249,"grp":2374,"idx":461},
     {"id":"176","section":"main","num":"176","printed":"176/217","code":"176","name":"Drampa","rarity":"U","tcg":675988,"idx":462},
     {"id":"176-fb","section":"friendball","num":"176","printed":"176/217","code":"FB176","name":"Drampa","rarity":"U","img":"176","badge":"Friend Ball","variant":"Friend Ball","foil":true,"tcg":676989,"idx":463},
     {"id":"176-en","section":"energy","num":"176","printed":"176/217","code":"EN176","name":"Drampa","rarity":"U","img":"176","badge":"Energy Symbol","variant":"Energy Symbol","foil":true,"tcg":677129,"idx":464},
@@ -705,13 +678,10 @@
     {"id":"182-rh","section":"reverse","num":"182","printed":"182/217","code":"R182","name":"Anthea & Concordia","rarity":"U","img":"182","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":675994,"sub":"Reverse Holofoil","idx":477},
     {"id":"183","section":"main","num":"183","printed":"183/217","code":"183","name":"Boss's Orders","rarity":"U","tcg":675995,"idx":478},
     {"id":"183-rh","section":"reverse","num":"183","printed":"183/217","code":"R183","name":"Boss's Orders","rarity":"U","img":"183","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":675995,"sub":"Reverse Holofoil","idx":479},
-    {"id":"183-normal-player-rewards-program","section":"special","num":"183","printed":"183/217","code":"","name":"Boss's Orders","rarity":"U","img":"183","badge":"Play! Pokémon","variant":"Play! Pokémon","foil":false,"note":"From Play! Pokémon Prize Packs, given out at league events.","tcg":704398,"grp":22880,"idx":480},
-    {"id":"183-cosmos-player-rewards-program","section":"special","num":"183","printed":"183/217","code":"","name":"Boss's Orders","rarity":"U","img":"183","badge":"Cosmos Holo · Play! Pokémon","variant":"Cosmos Holo · Play! Pokémon","foil":true,"note":"From Play! Pokémon Prize Packs, given out at league events.","tcg":704399,"grp":22880,"idx":481},
     {"id":"184","section":"main","num":"184","printed":"184/217","code":"184","name":"Buddy-Buddy Poffin","rarity":"C","tcg":675996,"idx":482},
     {"id":"184-rh","section":"reverse","num":"184","printed":"184/217","code":"R184","name":"Buddy-Buddy Poffin","rarity":"C","img":"184","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":675996,"sub":"Reverse Holofoil","idx":483},
     {"id":"185","section":"main","num":"185","printed":"185/217","code":"185","name":"Canari","rarity":"U","tcg":675997,"idx":484},
     {"id":"185-rh","section":"reverse","num":"185","printed":"185/217","code":"R185","name":"Canari","rarity":"U","img":"185","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":675997,"sub":"Reverse Holofoil","idx":485},
-    {"id":"185-cosmos-player-rewards-program","section":"special","num":"185","printed":"185/217","code":"","name":"Canari","rarity":"U","img":"185","badge":"Cosmos Holo · Play! Pokémon","variant":"Cosmos Holo · Play! Pokémon","foil":true,"note":"From Play! Pokémon Prize Packs, given out at league events.","tcg":704401,"grp":22880,"idx":486},
     {"id":"186","section":"main","num":"186","printed":"186/217","code":"186","name":"Counter Gain","rarity":"C","tcg":675998,"idx":487},
     {"id":"186-rh","section":"reverse","num":"186","printed":"186/217","code":"R186","name":"Counter Gain","rarity":"C","img":"186","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":675998,"sub":"Reverse Holofoil","idx":488},
     {"id":"187","section":"main","num":"187","printed":"187/217","code":"187","name":"Fighting Gong","rarity":"U","tcg":675999,"idx":489},

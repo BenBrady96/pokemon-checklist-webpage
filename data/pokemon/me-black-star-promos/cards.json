@@ -9,7 +9,7 @@
   "syncKey": "MEP",
   "released": "2025-09-26",
   "printedTotal": null,
-  "defaultTier": "complete",
+  "defaultTier": "grand",
   "sections": [
     {
       "id": "main",
@@ -23,40 +23,19 @@
         "chip": "{printed} {name}",
         "search": "Pokemon {name} {printed} promo"
       }
-    },
-    {
-      "id": "special",
-      "name": "Special Prints",
-      "short": "Special Prints",
-      "range": "stamps, Cosmos Holos & more",
-      "tier": "grand",
-      "display": {
-        "number": "{printed}",
-        "label": "{printed}",
-        "list": "{printed} {name}",
-        "chip": "{printed} {name}",
-        "search": "Pokemon {name} {printed} {badge}"
-      }
     }
   ],
   "summary": [
     [
       "main",
       "Promos"
-    ],
-    [
-      "special",
-      "Special prints"
     ]
   ],
   "quickAdd": {
     "placeholder": "e.g. 1-22, 55, 60x2",
     "example": "1-22, 55x2",
-    "hint": "Separate with commas or spaces. <b>1-22</b> is a range and <b>55x2</b> is two copies. Special prints are marked by tapping them.",
+    "hint": "Separate with commas or spaces. <b>1-22</b> is a range and <b>55x2</b> is two copies.",
     "empty": "Cards are numbered 1–120."
-  },
-  "help": {
-    "tiers": "<b>Master or Grand Master:</b> pick what you’re collecting above the cards. Master is the 112 promos and Grand Master adds the 16 special prints (stamped, Cosmos Holo and other product-exclusive cards). Cards you’ve marked are kept when you switch."
   },
   "info": {
     "packSections": [],
@@ -97,20 +76,19 @@
       "061": "Each collection has a promo pack with 3 of the series’ 9 cards at random, plus 2 booster packs.",
       "062": "Each collection has a promo pack with 3 of the series’ 9 cards at random, plus 2 booster packs.",
       "063": "Each collection has a promo pack with 3 of the series’ 9 cards at random, plus 2 booster packs.",
-      "099": "The box also has an oversize Jumbo version of this card.",
-      "101-pokemon-center": "Only in the Pokémon Center Elite Trainer Box, which also has the regular Nidorina promo."
+      "099": "The box also has an oversize Jumbo version of this card."
     }
   },
   "seo": {
     "title": "Pokémon TCG ME Black Star Promos Checklist · All 112 Cards",
-    "description": "Free checklist for the 112 Pokémon TCG ME Black Star Promos and their 16 special prints, with images, copy counts, binder pages and prices. No sign-up needed.",
+    "description": "Free checklist for the 112 Pokémon TCG ME Black Star Promos, with images, copy counts, binder pages and prices. No sign-up needed.",
     "ogTitle": "Pokémon TCG ME Black Star Promos Checklist",
     "ogDescription": "Track all 112 Pokémon TCG ME Black Star Promos. Free, no sign-up, works offline."
   },
   "about": {
     "title": "About the ME Black Star Promos",
     "paragraphs": [
-      "The ME Black Star Promos are the 112 numbered promo cards of the Mega Evolution era, from collection boxes, tins, blisters, Elite Trainer Boxes and events. For a grand master set there are also 16 special prints (stamped, Cosmos Holo and other product-exclusive cards).",
+      "The ME Black Star Promos are the 112 numbered promo cards of the Mega Evolution era, from collection boxes, tins, blisters, Elite Trainer Boxes and events.",
       "This free checklist lets you tick off the cards you own, count spare copies for trading and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device."
     ]
   },
@@ -131,9 +109,7 @@
     {"id":"007","section":"main","num":"007","printed":"MEP 007","code":"7","name":"Psyduck","rarity":"P","tcg":656257,"idx":6},
     {"id":"008","section":"main","num":"008","printed":"MEP 008","code":"8","name":"Golduck","rarity":"P","tcg":656258,"idx":7},
     {"id":"009","section":"main","num":"009","printed":"MEP 009","code":"9","name":"Alakazam","rarity":"P","tcg":656259,"idx":8},
-    {"id":"009-pokemon-center","section":"special","num":"009","printed":"MEP 009","code":"","name":"Alakazam","rarity":"P","img":"009","badge":"Pokémon Center","variant":"Pokémon Center","foil":true,"note":"A Pokémon Center exclusive.","tcg":656261,"idx":9},
     {"id":"010","section":"main","num":"010","printed":"MEP 010","code":"10","name":"Riolu","rarity":"P","tcg":656260,"idx":10},
-    {"id":"010-pokemon-center","section":"special","num":"010","printed":"MEP 010","code":"","name":"Riolu","rarity":"P","img":"010","badge":"Pokémon Center","variant":"Pokémon Center","foil":true,"note":"A Pokémon Center exclusive.","tcg":656262,"idx":11},
     {"id":"011","section":"main","num":"011","printed":"MEP 011","code":"11","name":"Mega Latias ex","rarity":"P","tcg":657846,"idx":12},
     {"id":"012","section":"main","num":"012","printed":"MEP 012","code":"12","name":"Mega Lucario ex","rarity":"P","tcg":663177,"idx":13},
     {"id":"013","section":"main","num":"013","printed":"MEP 013","code":"13","name":"Mega Venusaur ex","rarity":"P","tcg":666905,"idx":14},
@@ -141,24 +117,20 @@
     {"id":"015","section":"main","num":"015","printed":"MEP 015","code":"15","name":"Zacian","rarity":"P","tcg":663189,"idx":16},
     {"id":"016","section":"main","num":"016","printed":"MEP 016","code":"16","name":"Flygon","rarity":"P","tcg":663191,"idx":17},
     {"id":"017","section":"main","num":"017","printed":"MEP 017","code":"17","name":"Toxtricity","rarity":"P","tcg":663194,"idx":18},
-    {"id":"017-prerelease","section":"special","num":"017","printed":"MEP 017","code":"","name":"Toxtricity","rarity":"P","img":"017","badge":"Prerelease","variant":"Prerelease","foil":true,"tcg":663193,"note":"A prerelease event promo.","idx":19},
     {"id":"018","section":"main","num":"018","printed":"MEP 018","code":"18","name":"Cottonee","rarity":"P","tcg":664051,"idx":20},
     {"id":"019","section":"main","num":"019","printed":"MEP 019","code":"19","name":"Whimsicott","rarity":"P","tcg":664054,"idx":21},
     {"id":"020","section":"main","num":"020","printed":"MEP 020","code":"20","name":"Sneasel","rarity":"P","tcg":664055,"idx":22},
     {"id":"021","section":"main","num":"021","printed":"MEP 021","code":"21","name":"Weavile","rarity":"P","tcg":664063,"idx":23},
     {"id":"022","section":"main","num":"022","printed":"MEP 022","code":"22","name":"Charcadet","rarity":"P","tcg":666538,"idx":24},
-    {"id":"022-pokemon-center","section":"special","num":"022","printed":"MEP 022","code":"","name":"Charcadet","rarity":"P","img":"022","badge":"Pokémon Center","variant":"Pokémon Center","foil":true,"note":"A Pokémon Center exclusive.","tcg":665053,"idx":25},
     {"id":"023","section":"main","num":"023","printed":"MEP 023","code":"23","name":"Mega Charizard X ex","rarity":"P","tcg":659612,"idx":26},
     {"id":"024","section":"main","num":"024","printed":"MEP 024","code":"24","name":"Oricorio ex","rarity":"P","tcg":664010,"idx":27},
     {"id":"025","section":"main","num":"025","printed":"MEP 025","code":"25","name":"Mega Kangaskhan ex","rarity":"P","tcg":668509,"idx":28},
     {"id":"026","section":"main","num":"026","printed":"MEP 026","code":"26","name":"Meloetta","rarity":"P","tcg":659231,"idx":29},
     {"id":"027","section":"main","num":"027","printed":"MEP 027","code":"27","name":"Haunter","rarity":"P","tcg":659232,"idx":30},
     {"id":"028","section":"main","num":"028","printed":"MEP 028","code":"28","name":"Celebratory Fanfare","rarity":"P","tcg":680449,"idx":31},
-    {"id":"028-ace-trainer","section":"special","num":"028","printed":"MEP 028","code":"","name":"Celebratory Fanfare","rarity":"P","img":"028","badge":"Ace Trainer","variant":"Ace Trainer","foil":true,"tcg":681244,"idx":32},
     {"id":"029","section":"main","num":"029","printed":"MEP 029","code":"29","name":"Mega Charizard X ex","rarity":"P","tcg":680639,"idx":33},
     {"id":"030","section":"main","num":"030","printed":"MEP 030","code":"30","name":"Mega Charizard Y ex","rarity":"P","tcg":680640,"idx":34},
     {"id":"031","section":"main","num":"031","printed":"MEP 031","code":"31","name":"N's Zekrom","rarity":"P","tcg":680480,"idx":35},
-    {"id":"031-pokemon-center","section":"special","num":"031","printed":"MEP 031","code":"","name":"N's Zekrom","rarity":"P","img":"031","badge":"Pokémon Center","variant":"Pokémon Center","foil":true,"note":"A Pokémon Center exclusive.","tcg":680481,"idx":36},
     {"id":"032","section":"main","num":"032","printed":"MEP 032","code":"32","name":"Mega Gardevoir ex","rarity":"P","tcg":685510,"idx":37},
     {"id":"033","section":"main","num":"033","printed":"MEP 033","code":"33","name":"Mega Lucario ex","rarity":"P","tcg":685511,"idx":38},
     {"id":"034","section":"main","num":"034","printed":"MEP 034","code":"34","name":"Mega Meganium ex","rarity":"P","tcg":692120,"idx":39},
@@ -192,14 +164,12 @@
     {"id":"062","section":"main","num":"062","printed":"MEP 062","code":"62","name":"Fuecoco","rarity":"P","tcg":709976,"note":"First Partner Illustration Collection · Series 3 · 7 Aug 2026","idx":67},
     {"id":"063","section":"main","num":"063","printed":"MEP 063","code":"63","name":"Quaxly","rarity":"P","tcg":709977,"note":"First Partner Illustration Collection · Series 3 · 7 Aug 2026","idx":68},
     {"id":"064","section":"main","num":"064","printed":"MEP 064","code":"64","name":"Serperior","rarity":"P","tcg":685494,"idx":69},
-    {"id":"064-set-logo","section":"special","num":"064","printed":"MEP 064","code":"","name":"Serperior","rarity":"P","img":"064","badge":"Set Stamp","variant":"Set Stamp","foil":true,"note":"Stamped with the set logo: a prerelease and Build & Battle Box promo.","idx":70},
     {"id":"065","section":"main","num":"065","printed":"MEP 065","code":"65","name":"Barbaracle","rarity":"P","tcg":685495,"idx":71},
     {"id":"066","section":"main","num":"066","printed":"MEP 066","code":"66","name":"Tyrantrum","rarity":"P","tcg":685496,"idx":72},
     {"id":"067","section":"main","num":"067","printed":"MEP 067","code":"67","name":"Doublade","rarity":"P","tcg":685497,"idx":73},
     {"id":"068","section":"main","num":"068","printed":"MEP 068","code":"68","name":"Makuhita","rarity":"P","tcg":686275,"idx":74},
     {"id":"069","section":"main","num":"069","printed":"MEP 069","code":"69","name":"Chikorita","rarity":"P","tcg":686342,"idx":75},
     {"id":"070","section":"main","num":"070","printed":"MEP 070","code":"70","name":"Tyrunt","rarity":"P","tcg":685562,"idx":76},
-    {"id":"070-pokemon-center","section":"special","num":"070","printed":"MEP 070","code":"","name":"Tyrunt","rarity":"P","img":"070","badge":"Pokémon Center","variant":"Pokémon Center","foil":true,"note":"A Pokémon Center exclusive.","tcg":685563,"idx":77},
     {"id":"071","section":"main","num":"071","printed":"MEP 071","code":"71","name":"Mega Zygarde ex","rarity":"P","tcg":695311,"idx":78},
     {"id":"072","section":"main","num":"072","printed":"MEP 072","code":"72","name":"Mega Clefable ex","rarity":"P","tcg":696607,"idx":79},
     {"id":"073","section":"main","num":"073","printed":"MEP 073","code":"73","name":"Mega Gengar ex","rarity":"P","tcg":696608,"idx":80},
@@ -210,25 +180,18 @@
     {"id":"078","section":"main","num":"078","printed":"MEP 078","code":"78","name":"Toxel","rarity":"P","tcg":694692,"idx":85},
     {"id":"079","section":"main","num":"079","printed":"MEP 079","code":"79","name":"Charmeleon","rarity":"P","tcg":694693,"idx":86},
     {"id":"080","section":"main","num":"080","printed":"MEP 080","code":"80","name":"Fennekin","rarity":"P","tcg":694694,"idx":87},
-    {"id":"080-pokemon-center","section":"special","num":"080","printed":"MEP 080","code":"","name":"Fennekin","rarity":"P","img":"080","badge":"Pokémon Center","variant":"Pokémon Center","foil":true,"note":"A Pokémon Center exclusive.","tcg":694695,"idx":88},
     {"id":"081","section":"main","num":"081","printed":"MEP 081","code":"81","name":"Mega Greninja ex","rarity":"P","tcg":704879,"idx":89},
     {"id":"082","section":"main","num":"082","printed":"MEP 082","code":"82","name":"Miraidon","rarity":"P","tcg":707534,"idx":90},
-    {"id":"082-set-logo","section":"special","num":"082","printed":"MEP 082","code":"","name":"Miraidon","rarity":"P","img":"082","badge":"Pitch Black Stamp","variant":"Pitch Black Stamp","foil":true,"tcg":706135,"note":"Stamped with the Pitch Black logo.","idx":91},
     {"id":"083","section":"main","num":"083","printed":"MEP 083","code":"83","name":"Slowbro","rarity":"P","tcg":707701,"idx":92},
-    {"id":"083-set-logo","section":"special","num":"083","printed":"MEP 083","code":"","name":"Slowbro","rarity":"P","img":"083","badge":"Pitch Black Stamp","variant":"Pitch Black Stamp","foil":true,"tcg":706129,"note":"Stamped with the Pitch Black logo.","idx":93},
     {"id":"084","section":"main","num":"084","printed":"MEP 084","code":"84","name":"Dhelmise","rarity":"P","tcg":707703,"idx":94},
-    {"id":"084-prerelease","section":"special","num":"084","printed":"MEP 084","code":"","name":"Dhelmise","rarity":"P","img":"084","badge":"Prerelease","variant":"Prerelease","foil":true,"tcg":706137,"note":"A prerelease event promo.","idx":95},
     {"id":"085","section":"main","num":"085","printed":"MEP 085","code":"85","name":"Bastiodon","rarity":"P","tcg":707702,"idx":96},
-    {"id":"085-set-logo","section":"special","num":"085","printed":"MEP 085","code":"","name":"Bastiodon","rarity":"P","img":"085","badge":"Pitch Black Stamp","variant":"Pitch Black Stamp","foil":true,"tcg":706133,"note":"Stamped with the Pitch Black logo.","idx":97},
     {"id":"086","section":"main","num":"086","printed":"MEP 086","code":"86","name":"Slowpoke","rarity":"P","tcg":706130,"idx":98},
     {"id":"087","section":"main","num":"087","printed":"MEP 087","code":"87","name":"Binacle","rarity":"P","tcg":706131,"idx":99},
     {"id":"088","section":"main","num":"088","printed":"MEP 088","code":"88","name":"Zarude","rarity":"P","tcg":706193,"idx":100},
-    {"id":"088-pokemon-center","section":"special","num":"088","printed":"MEP 088","code":"","name":"Zarude","rarity":"P","img":"088","badge":"Pokémon Center","variant":"Pokémon Center","foil":true,"note":"A Pokémon Center exclusive.","tcg":706199,"idx":101},
     {"id":"089","section":"main","num":"089","printed":"MEP 089","code":"89","name":"Mega Zeraora ex","rarity":"P","tcg":710754,"idx":102},
     {"id":"090","section":"main","num":"090","printed":"MEP 090","code":"90","name":"Mega Darkrai ex","rarity":"P","tcg":710756,"idx":103},
     {"id":"091","section":"main","num":"091","printed":"MEP 091","code":"91","name":"Mega Dragonite ex","rarity":"P","tcg":710757,"idx":104},
     {"id":"092","section":"main","num":"092","printed":"MEP 092","code":"92","name":"Paradise Resort","rarity":"P","tcg":714598,"idx":105},
-    {"id":"092-worlds-2026","section":"special","num":"092","printed":"MEP 092","code":"","name":"Paradise Resort","rarity":"P","img":"092","badge":"Worlds 2026","variant":"Worlds 2026","foil":true,"tcg":714597,"note":"Given to players at the 2026 World Championships.","idx":106},
     {"id":"093","section":"main","num":"093","printed":"MEP 093","code":"93","name":"Pikachu","rarity":"P","tcg":712963,"idx":107},
     {"id":"094","section":"main","num":"094","printed":"MEP 094","code":"94","name":"Alolan Exeggutor","rarity":"P","tcg":713262,"note":"30th Celebration Tech Sticker Collection","idx":108},
     {"id":"095","section":"main","num":"095","printed":"MEP 095","code":"95","name":"Lucario","rarity":"P","tcg":713263,"note":"30th Celebration Tech Sticker Collection","idx":109},
@@ -238,7 +201,6 @@
     {"id":"099","section":"main","num":"099","printed":"MEP 099","code":"99","name":"Greninja ex","rarity":"P","tcg":713268,"note":"30th Celebration Pokémon ex Box · Greninja ex Tin","idx":113},
     {"id":"100","section":"main","num":"100","printed":"MEP 100","code":"100","name":"Sylveon ex","rarity":"P","tcg":713267,"note":"30th Celebration Pokémon ex Box · Sylveon ex Tin","idx":114},
     {"id":"101","section":"main","num":"101","printed":"MEP 101","code":"101","name":"Nidorina","rarity":"P","tcg":713260,"note":"30th Celebration Elite Trainer Box","idx":115},
-    {"id":"101-pokemon-center","section":"special","num":"101","printed":"MEP 101","code":"","name":"Nidorina","rarity":"P","img":"101","badge":"Pokémon Center","variant":"Pokémon Center","foil":true,"note":"A Pokémon Center exclusive.","tcg":713261,"idx":116},
     {"id":"102","section":"main","num":"102","printed":"MEP 102","code":"102","name":"Victini","rarity":"P","tcg":713286,"note":"30th Celebration Espeon ex Battle Deck · 30 Oct 2026","idx":117},
     {"id":"103","section":"main","num":"103","printed":"MEP 103","code":"103","name":"Zeraora","rarity":"P","tcg":713285,"note":"30th Celebration Umbreon ex Battle Deck · 30 Oct 2026","idx":118},
     {"id":"104","section":"main","num":"104","printed":"MEP 104","code":"104","name":"Mewtwo","rarity":"P","tcg":713289,"note":"30th Celebration Mewtwo Figure Collection · 6 Nov 2026","idx":119},

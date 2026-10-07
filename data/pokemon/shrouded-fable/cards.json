@@ -9,19 +9,13 @@
   "syncKey": "SFA",
   "released": "2024-08-02",
   "printedTotal": 64,
-  "defaultTier": "complete",
+  "defaultTier": "grand",
   "sections": [
     {
       "id": "main",
       "name": "Main Set",
       "range": "001–064",
       "tier": "standard"
-    },
-    {
-      "id": "secret",
-      "name": "Secret Rares",
-      "range": "065–099",
-      "tier": "complete"
     },
     {
       "id": "reverse",
@@ -31,14 +25,10 @@
       "tier": "master"
     },
     {
-      "id": "special",
-      "name": "Special Prints",
-      "short": "Special Prints",
-      "range": "stamps, Cosmos Holos & more",
-      "tier": "grand",
-      "display": {
-        "search": "Pokemon {set} {name} {printed} {badge}"
-      }
+      "id": "secret",
+      "name": "Secret Rares",
+      "range": "065–099",
+      "tier": "grand"
     }
   ],
   "summary": [
@@ -47,32 +37,28 @@
       "Main set"
     ],
     [
-      "secret",
-      "Secret rares"
-    ],
-    [
       "reverse",
       "Reverse holos"
     ],
     [
-      "special",
-      "Special prints"
+      "secret",
+      "Secret rares"
     ]
   ],
   "quickAdd": {
     "placeholder": "e.g. 1-22, 55, R12, 60x2",
     "example": "1-22, 55x2, R12",
-    "hint": "Separate with commas or spaces. <b>1-22</b> is a range and <b>55x2</b> is two copies. <b>R12</b> is card 12’s reverse holo, and ranges work too (<b>R1-R20</b>). Special prints are marked by tapping them.",
+    "hint": "Separate with commas or spaces. <b>1-22</b> is a range and <b>55x2</b> is two copies. <b>R12</b> is card 12’s reverse holo, and ranges work too (<b>R1-R20</b>).",
     "empty": "Main set cards are 1–64 (secret rares start at 65)."
   },
   "help": {
-    "tiers": "<b>Standard, Complete, Master or Grand Master:</b> pick what you’re collecting above the cards. Standard is the 64 main set cards, Complete is all 99 cards, Master adds the 55 reverse holos and Grand Master adds the 3 special prints (stamped, Cosmos Holo and other product-exclusive cards). Cards you’ve marked are kept when you switch."
+    "tiers": "<b>Standard, Master or Grand Master:</b> pick what you’re collecting above the cards. Standard is the 64 main set cards. Master adds the 55 reverse holos. Grand Master adds the 35 secret rares. Cards you’ve marked are kept when you switch."
   },
   "info": {
     "packSections": [
       "main",
-      "secret",
-      "reverse"
+      "reverse",
+      "secret"
     ],
     "sectionText": {
       "reverse": [
@@ -93,16 +79,16 @@
   },
   "seo": {
     "title": "Pokémon TCG Shrouded Fable Checklist · All 99 Cards",
-    "description": "Free checklist for the Pokémon TCG Shrouded Fable set. Track all 99 cards, or go further with every reverse holos and every special print, with images, copy counts, binder pages and prices. No sign-up needed.",
+    "description": "Free checklist for the Pokémon TCG Shrouded Fable set. Track all 99 cards, or go further with the reverse holos, with images, copy counts, binder pages and prices. No sign-up needed.",
     "ogTitle": "Pokémon TCG Shrouded Fable Checklist",
-    "ogDescription": "Track all 99 cards in Pokémon TCG Shrouded Fable: the 64-card main set and 35 secret rares, plus 55 reverse holos for a master set and 3 special prints for a grand master set. Free, no sign-up, works offline.",
+    "ogDescription": "Track all 99 cards in Pokémon TCG Shrouded Fable: the 64-card main set and 35 secret rares, plus 55 reverse holos. Free, no sign-up, works offline.",
     "twitterDescription": "Track all 99 cards in Pokémon TCG Shrouded Fable. Free, no sign-up, works offline."
   },
   "about": {
     "title": "About the Shrouded Fable set",
     "paragraphs": [
-      "Pokémon TCG: Shrouded Fable is a Scarlet & Violet expansion released on 2 August 2024. It has 99 cards: 64 in the main set and 35 secret rares. For a master set there are also 55 reverse holos, and 3 special prints from other products and events.",
-      "Choose what you’re collecting: the <b>Standard set</b> (the 64 main set cards), the <b>Complete set</b> (all 99 cards), the <b>Master set</b> (154 cards, adding every reverse holos) or the <b>Grand Master set</b> (157 cards, adding the 3 special prints (stamped, Cosmos Holo and other product-exclusive cards)).",
+      "Pokémon TCG: Shrouded Fable is a Scarlet & Violet expansion released on 2 August 2024. It has 99 cards: 64 in the main set and 35 secret rares. There are also 55 reverse holos.",
+      "Choose what you’re collecting: the <b>Standard set</b> (the 64 main set cards), the <b>Master set</b> (119 cards, adding the reverse holos) or the <b>Grand Master set</b> (all 154 cards, adding the 35 secret rares).",
       "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device."
     ]
   },
@@ -134,12 +120,9 @@
     {"id":"009-rh","section":"reverse","num":"009","printed":"009/064","code":"R9","name":"Iron Moth","rarity":"U","img":"009","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":560319,"sub":"Reverse Holofoil","idx":17},
     {"id":"010","section":"main","num":"010","printed":"010/064","code":"10","name":"Horsea","rarity":"C","tcg":560320,"idx":18},
     {"id":"010-rh","section":"reverse","num":"010","printed":"010/064","code":"R10","name":"Horsea","rarity":"C","img":"010","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":560320,"sub":"Reverse Holofoil","idx":19},
-    {"id":"010-cosmos","section":"special","num":"010","printed":"010/064","code":"","name":"Horsea","rarity":"C","img":"010","badge":"Cosmos Holo","variant":"Cosmos Holo","foil":true,"note":"A Cosmos Holo print, from blister packs, collection boxes and other special products.","idx":20},
     {"id":"011","section":"main","num":"011","printed":"011/064","code":"11","name":"Seadra","rarity":"C","tcg":560321,"idx":21},
     {"id":"011-rh","section":"reverse","num":"011","printed":"011/064","code":"R11","name":"Seadra","rarity":"C","img":"011","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":560321,"sub":"Reverse Holofoil","idx":22},
-    {"id":"011-cosmos","section":"special","num":"011","printed":"011/064","code":"","name":"Seadra","rarity":"C","img":"011","badge":"Cosmos Holo","variant":"Cosmos Holo","foil":true,"note":"A Cosmos Holo print, from blister packs, collection boxes and other special products.","idx":23},
     {"id":"012","section":"main","num":"012","printed":"012/064","code":"12","name":"Kingdra ex","rarity":"RR","tcg":560322,"idx":24},
-    {"id":"012-set-logo","section":"special","num":"012","printed":"012/064","code":"","name":"Kingdra ex","rarity":"RR","img":"012","badge":"Set Stamp","variant":"Set Stamp","foil":true,"note":"Stamped with the set logo: a prerelease and Build & Battle Box promo.","idx":25},
     {"id":"013","section":"main","num":"013","printed":"013/064","code":"13","name":"Sneasel","rarity":"C","tcg":560323,"idx":26},
     {"id":"013-rh","section":"reverse","num":"013","printed":"013/064","code":"R13","name":"Sneasel","rarity":"C","img":"013","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":560323,"sub":"Reverse Holofoil","idx":27},
     {"id":"014","section":"main","num":"014","printed":"014/064","code":"14","name":"Weavile","rarity":"U","tcg":560324,"idx":28},

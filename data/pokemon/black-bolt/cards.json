@@ -9,19 +9,13 @@
   "syncKey": "BLK",
   "released": "2025-07-17",
   "printedTotal": 86,
-  "defaultTier": "complete",
+  "defaultTier": "grand",
   "sections": [
     {
       "id": "main",
       "name": "Main Set",
       "range": "001–086",
       "tier": "standard"
-    },
-    {
-      "id": "secret",
-      "name": "Secret Rares",
-      "range": "087–172",
-      "tier": "complete"
     },
     {
       "id": "reverse",
@@ -45,24 +39,16 @@
       "tier": "master"
     },
     {
-      "id": "special",
-      "name": "Special Prints",
-      "short": "Special Prints",
-      "range": "stamps, Cosmos Holos & more",
-      "tier": "grand",
-      "display": {
-        "search": "Pokemon {set} {name} {printed} {badge}"
-      }
+      "id": "secret",
+      "name": "Secret Rares",
+      "range": "087–172",
+      "tier": "grand"
     }
   ],
   "summary": [
     [
       "main",
       "Main set"
-    ],
-    [
-      "secret",
-      "Secret rares"
     ],
     [
       "reverse",
@@ -77,26 +63,26 @@
       "Master Ball holos"
     ],
     [
-      "special",
-      "Special prints"
+      "secret",
+      "Secret rares"
     ]
   ],
   "quickAdd": {
     "placeholder": "e.g. 1-22, 55, R12, 60x2",
     "example": "1-22, 55x2, R12",
-    "hint": "Separate with commas or spaces. <b>1-22</b> is a range and <b>55x2</b> is two copies. <b>R12</b> is card 12’s reverse holo, <b>PB12</b> is card 12’s Poké Ball version and <b>MB12</b> is card 12’s Master Ball version, and ranges work too (<b>R1-R20</b>). Special prints are marked by tapping them.",
+    "hint": "Separate with commas or spaces. <b>1-22</b> is a range and <b>55x2</b> is two copies. <b>R12</b> is card 12’s reverse holo, <b>PB12</b> is card 12’s Poké Ball version and <b>MB12</b> is card 12’s Master Ball version, and ranges work too (<b>R1-R20</b>).",
     "empty": "Main set cards are 1–86 (secret rares start at 87)."
   },
   "help": {
-    "tiers": "<b>Standard, Complete, Master or Grand Master:</b> pick what you’re collecting above the cards. Standard is the 86 main set cards, Complete is all 172 cards, Master adds the 232 reverse holos, Poké Ball holos and Master Ball holos and Grand Master adds the 20 special prints (stamped, Cosmos Holo and other product-exclusive cards). Cards you’ve marked are kept when you switch."
+    "tiers": "<b>Standard, Master or Grand Master:</b> pick what you’re collecting above the cards. Standard is the 86 main set cards. Master adds the 232 reverse holos, Poké Ball holos and Master Ball holos. Grand Master adds the 86 secret rares. Cards you’ve marked are kept when you switch."
   },
   "info": {
     "packSections": [
       "main",
-      "secret",
       "reverse",
       "pokeball",
-      "masterball"
+      "masterball",
+      "secret"
     ],
     "sectionText": {
       "reverse": [
@@ -123,16 +109,16 @@
   },
   "seo": {
     "title": "Pokémon TCG Black Bolt Checklist · All 172 Cards",
-    "description": "Free checklist for the Pokémon TCG Black Bolt set. Track all 172 cards, or go further with every reverse holos, Poké Ball holos and Master Ball holos and every special print, with images, copy counts, binder pages and prices. No sign-up needed.",
+    "description": "Free checklist for the Pokémon TCG Black Bolt set. Track all 172 cards, or go further with the reverse holos, Poké Ball holos and Master Ball holos, with images, copy counts, binder pages and prices. No sign-up needed.",
     "ogTitle": "Pokémon TCG Black Bolt Checklist",
-    "ogDescription": "Track all 172 cards in Pokémon TCG Black Bolt: the 86-card main set and 86 secret rares, plus 232 reverse holos, Poké Ball holos and Master Ball holos for a master set and 20 special prints for a grand master set. Free, no sign-up, works offline.",
+    "ogDescription": "Track all 172 cards in Pokémon TCG Black Bolt: the 86-card main set and 86 secret rares, plus 232 reverse holos, Poké Ball holos and Master Ball holos. Free, no sign-up, works offline.",
     "twitterDescription": "Track all 172 cards in Pokémon TCG Black Bolt. Free, no sign-up, works offline."
   },
   "about": {
     "title": "About the Black Bolt set",
     "paragraphs": [
-      "Pokémon TCG: Black Bolt is a Scarlet & Violet expansion released on 17 July 2025. It has 172 cards: 86 in the main set and 86 secret rares. For a master set there are also 232 reverse holos, Poké Ball holos and Master Ball holos, and 20 special prints from other products and events.",
-      "Choose what you’re collecting: the <b>Standard set</b> (the 86 main set cards), the <b>Complete set</b> (all 172 cards), the <b>Master set</b> (404 cards, adding every reverse holos, Poké Ball holos and Master Ball holos) or the <b>Grand Master set</b> (424 cards, adding the 20 special prints (stamped, Cosmos Holo and other product-exclusive cards)).",
+      "Pokémon TCG: Black Bolt is a Scarlet & Violet expansion released on 17 July 2025. It has 172 cards: 86 in the main set and 86 secret rares. There are also 232 reverse holos, Poké Ball holos and Master Ball holos.",
+      "Choose what you’re collecting: the <b>Standard set</b> (the 86 main set cards), the <b>Master set</b> (318 cards, adding the reverse holos, Poké Ball holos and Master Ball holos) or the <b>Grand Master set</b> (all 404 cards, adding the 86 secret rares).",
       "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device."
     ]
   },
@@ -148,7 +134,6 @@
     {"id":"001-rh","section":"reverse","num":"001","printed":"001/086","code":"R1","name":"Snivy","rarity":"C","img":"001","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":642450,"sub":"Reverse Holofoil","idx":1},
     {"id":"001-mb","section":"masterball","num":"001","printed":"001/086","code":"MB1","name":"Snivy","rarity":"C","img":"001","badge":"Master Ball","variant":"Master Ball","foil":true,"tcg":642624,"idx":2},
     {"id":"001-pb","section":"pokeball","num":"001","printed":"001/086","code":"PB1","name":"Snivy","rarity":"C","img":"001","badge":"Poké Ball","variant":"Poké Ball","foil":true,"tcg":642696,"idx":3},
-    {"id":"001-tinsel","section":"special","num":"001","printed":"001/086","code":"","name":"Snivy","rarity":"C","img":"001","badge":"Tinsel Holo","variant":"Tinsel Holo","foil":true,"note":"A Tinsel Holo print, from special products.","tcg":645571,"grp":2374,"idx":4},
     {"id":"002","section":"main","num":"002","printed":"002/086","code":"2","name":"Servine","rarity":"C","tcg":642451,"idx":5},
     {"id":"002-rh","section":"reverse","num":"002","printed":"002/086","code":"R2","name":"Servine","rarity":"C","img":"002","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":642451,"sub":"Reverse Holofoil","idx":6},
     {"id":"002-mb","section":"masterball","num":"002","printed":"002/086","code":"MB2","name":"Servine","rarity":"C","img":"002","badge":"Master Ball","variant":"Master Ball","foil":true,"tcg":642625,"idx":7},
@@ -190,7 +175,6 @@
     {"id":"012-rh","section":"reverse","num":"012","printed":"012/086","code":"R12","name":"Victini","rarity":"R","img":"012","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":642461,"sub":"Reverse Holofoil","idx":43},
     {"id":"012-mb","section":"masterball","num":"012","printed":"012/086","code":"MB12","name":"Victini","rarity":"R","img":"012","badge":"Master Ball","variant":"Master Ball","foil":true,"tcg":642634,"idx":44},
     {"id":"012-pb","section":"pokeball","num":"012","printed":"012/086","code":"PB12","name":"Victini","rarity":"R","img":"012","badge":"Poké Ball","variant":"Poké Ball","foil":true,"tcg":642706,"idx":45},
-    {"id":"012-cosmos-set-logo","section":"special","num":"012","printed":"012/086","code":"","name":"Victini","rarity":"R","img":"012","badge":"Cosmos Holo · Set Stamp","variant":"Cosmos Holo · Set Stamp","foil":true,"note":"Stamped with the set logo: a prerelease and Build & Battle Box promo.","tcg":668956,"grp":2374,"idx":46},
     {"id":"013","section":"main","num":"013","printed":"013/086","code":"13","name":"Darumaka","rarity":"C","tcg":642462,"idx":47},
     {"id":"013-rh","section":"reverse","num":"013","printed":"013/086","code":"R13","name":"Darumaka","rarity":"C","img":"013","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":642462,"sub":"Reverse Holofoil","idx":48},
     {"id":"013-mb","section":"masterball","num":"013","printed":"013/086","code":"MB13","name":"Darumaka","rarity":"C","img":"013","badge":"Master Ball","variant":"Master Ball","foil":true,"tcg":642635,"idx":49},
@@ -252,7 +236,6 @@
     {"id":"027-mb","section":"masterball","num":"027","printed":"027/086","code":"MB27","name":"Cryogonal","rarity":"U","img":"027","badge":"Master Ball","variant":"Master Ball","foil":true,"tcg":642652,"idx":105},
     {"id":"027-pb","section":"pokeball","num":"027","printed":"027/086","code":"PB27","name":"Cryogonal","rarity":"U","img":"027","badge":"Poké Ball","variant":"Poké Ball","foil":true,"tcg":642724,"idx":106},
     {"id":"028","section":"main","num":"028","printed":"028/086","code":"28","name":"Kyurem ex","rarity":"RR","tcg":642480,"idx":107},
-    {"id":"028-player-rewards-program","section":"special","num":"028","printed":"028/086","code":"","name":"Kyurem ex","rarity":"RR","img":"028","badge":"Play! Pokémon","variant":"Play! Pokémon","foil":true,"note":"From Play! Pokémon Prize Packs, given out at league events.","tcg":671619,"grp":22880,"idx":108},
     {"id":"029","section":"main","num":"029","printed":"029/086","code":"29","name":"Emolga","rarity":"C","tcg":642481,"idx":109},
     {"id":"029-rh","section":"reverse","num":"029","printed":"029/086","code":"R29","name":"Emolga","rarity":"C","img":"029","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":642481,"sub":"Reverse Holofoil","idx":110},
     {"id":"029-mb","section":"masterball","num":"029","printed":"029/086","code":"MB29","name":"Emolga","rarity":"C","img":"029","badge":"Master Ball","variant":"Master Ball","foil":true,"tcg":642653,"idx":111},
@@ -261,13 +244,10 @@
     {"id":"030-rh","section":"reverse","num":"030","printed":"030/086","code":"R30","name":"Tynamo","rarity":"C","img":"030","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":642482,"sub":"Reverse Holofoil","idx":114},
     {"id":"030-mb","section":"masterball","num":"030","printed":"030/086","code":"MB30","name":"Tynamo","rarity":"C","img":"030","badge":"Master Ball","variant":"Master Ball","foil":true,"tcg":642654,"idx":115},
     {"id":"030-pb","section":"pokeball","num":"030","printed":"030/086","code":"PB30","name":"Tynamo","rarity":"C","img":"030","badge":"Poké Ball","variant":"Poké Ball","foil":true,"tcg":642727,"idx":116},
-    {"id":"030-cosmos-player-rewards-program","section":"special","num":"030","printed":"030/086","code":"","name":"Tynamo","rarity":"C","img":"030","badge":"Cosmos Holo · Play! Pokémon","variant":"Cosmos Holo · Play! Pokémon","foil":true,"note":"From Play! Pokémon Prize Packs, given out at league events.","tcg":704465,"grp":22880,"idx":117},
     {"id":"031","section":"main","num":"031","printed":"031/086","code":"31","name":"Eelektrik","rarity":"U","tcg":642483,"idx":118},
     {"id":"031-rh","section":"reverse","num":"031","printed":"031/086","code":"R31","name":"Eelektrik","rarity":"U","img":"031","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":642483,"sub":"Reverse Holofoil","idx":119},
     {"id":"031-mb","section":"masterball","num":"031","printed":"031/086","code":"MB31","name":"Eelektrik","rarity":"U","img":"031","badge":"Master Ball","variant":"Master Ball","foil":true,"tcg":642655,"idx":120},
     {"id":"031-pb","section":"pokeball","num":"031","printed":"031/086","code":"PB31","name":"Eelektrik","rarity":"U","img":"031","badge":"Poké Ball","variant":"Poké Ball","foil":true,"tcg":642728,"idx":121},
-    {"id":"031-cosmos-player-rewards-program","section":"special","num":"031","printed":"031/086","code":"","name":"Eelektrik","rarity":"U","img":"031","badge":"Cosmos Holo · Play! Pokémon","variant":"Cosmos Holo · Play! Pokémon","foil":true,"note":"From Play! Pokémon Prize Packs, given out at league events.","tcg":671320,"grp":22880,"idx":122},
-    {"id":"031-normal-gym-challenge","section":"special","num":"031","printed":"031/086","code":"","name":"Eelektrik","rarity":"U","img":"031","badge":"Gym Challenge","variant":"Gym Challenge","foil":false,"note":"A Gym Challenge event promo.","tcg":714873,"grp":24864,"idx":123},
     {"id":"032","section":"main","num":"032","printed":"032/086","code":"32","name":"Eelektross","rarity":"U","tcg":642484,"idx":124},
     {"id":"032-rh","section":"reverse","num":"032","printed":"032/086","code":"R32","name":"Eelektross","rarity":"U","img":"032","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":642484,"sub":"Reverse Holofoil","idx":125},
     {"id":"032-mb","section":"masterball","num":"032","printed":"032/086","code":"MB32","name":"Eelektross","rarity":"U","img":"032","badge":"Master Ball","variant":"Master Ball","foil":true,"tcg":642656,"idx":126},
@@ -277,9 +257,6 @@
     {"id":"033-mb","section":"masterball","num":"033","printed":"033/086","code":"MB33","name":"Thundurus","rarity":"R","img":"033","badge":"Master Ball","variant":"Master Ball","foil":true,"tcg":642657,"idx":130},
     {"id":"033-pb","section":"pokeball","num":"033","printed":"033/086","code":"PB33","name":"Thundurus","rarity":"R","img":"033","badge":"Poké Ball","variant":"Poké Ball","foil":true,"tcg":642730,"idx":131},
     {"id":"034","section":"main","num":"034","printed":"034/086","code":"34","name":"Zekrom ex","rarity":"RR","tcg":642486,"idx":132},
-    {"id":"034-set-logo","section":"special","num":"034","printed":"034/086","code":"","name":"Zekrom ex","rarity":"RR","img":"034","badge":"Set Stamp","variant":"Set Stamp","foil":true,"note":"Stamped with the set logo: a prerelease and Build & Battle Box promo.","tcg":668957,"grp":2374,"idx":133},
-    {"id":"034-player-rewards-program","section":"special","num":"034","printed":"034/086","code":"","name":"Zekrom ex","rarity":"RR","img":"034","badge":"Play! Pokémon","variant":"Play! Pokémon","foil":true,"note":"From Play! Pokémon Prize Packs, given out at league events.","tcg":704471,"grp":22880,"idx":134},
-    {"id":"034-ultra-ball-league","section":"special","num":"034","printed":"034/086","code":"","name":"Zekrom ex","rarity":"RR","img":"034","badge":"Ultra Ball League","variant":"Ultra Ball League","foil":true,"note":"A Play! Pokémon league event promo.","idx":135},
     {"id":"035","section":"main","num":"035","printed":"035/086","code":"35","name":"Munna","rarity":"C","tcg":642487,"idx":136},
     {"id":"035-rh","section":"reverse","num":"035","printed":"035/086","code":"R35","name":"Munna","rarity":"C","img":"035","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":642487,"sub":"Reverse Holofoil","idx":137},
     {"id":"035-mb","section":"masterball","num":"035","printed":"035/086","code":"MB35","name":"Munna","rarity":"C","img":"035","badge":"Master Ball","variant":"Master Ball","foil":true,"tcg":642658,"idx":138},
@@ -334,7 +311,6 @@
     {"id":"049-rh","section":"reverse","num":"049","printed":"049/086","code":"R49","name":"Conkeldurr","rarity":"R","img":"049","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":642501,"sub":"Reverse Holofoil","idx":187},
     {"id":"049-mb","section":"masterball","num":"049","printed":"049/086","code":"MB49","name":"Conkeldurr","rarity":"R","img":"049","badge":"Master Ball","variant":"Master Ball","foil":true,"tcg":642670,"idx":188},
     {"id":"049-pb","section":"pokeball","num":"049","printed":"049/086","code":"PB49","name":"Conkeldurr","rarity":"R","img":"049","badge":"Poké Ball","variant":"Poké Ball","foil":true,"tcg":642743,"idx":189},
-    {"id":"049-normal-player-rewards-program","section":"special","num":"049","printed":"049/086","code":"","name":"Conkeldurr","rarity":"R","img":"049","badge":"Play! Pokémon","variant":"Play! Pokémon","foil":false,"note":"From Play! Pokémon Prize Packs, given out at league events.","tcg":671308,"grp":22880,"idx":190},
     {"id":"050","section":"main","num":"050","printed":"050/086","code":"50","name":"Throh","rarity":"U","tcg":642502,"idx":191},
     {"id":"050-rh","section":"reverse","num":"050","printed":"050/086","code":"R50","name":"Throh","rarity":"U","img":"050","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":642502,"sub":"Reverse Holofoil","idx":192},
     {"id":"050-mb","section":"masterball","num":"050","printed":"050/086","code":"MB50","name":"Throh","rarity":"U","img":"050","badge":"Master Ball","variant":"Master Ball","foil":true,"tcg":642671,"idx":193},
@@ -404,9 +380,6 @@
     {"id":"066-mb","section":"masterball","num":"066","printed":"066/086","code":"MB66","name":"Cobalion","rarity":"R","img":"066","badge":"Master Ball","variant":"Master Ball","foil":true,"tcg":642686,"idx":257},
     {"id":"066-pb","section":"pokeball","num":"066","printed":"066/086","code":"PB66","name":"Cobalion","rarity":"R","img":"066","badge":"Poké Ball","variant":"Poké Ball","foil":true,"tcg":642759,"idx":258},
     {"id":"067","section":"main","num":"067","printed":"067/086","code":"67","name":"Genesect ex","rarity":"RR","tcg":642518,"idx":259},
-    {"id":"067-player-rewards-program","section":"special","num":"067","printed":"067/086","code":"","name":"Genesect ex","rarity":"RR","img":"067","badge":"Play! Pokémon","variant":"Play! Pokémon","foil":true,"note":"From Play! Pokémon Prize Packs, given out at league events.","tcg":671556,"grp":22880,"idx":260},
-    {"id":"067-normal-liao-fu-guan","section":"special","num":"067","printed":"067/086","code":"","name":"Genesect ex","rarity":"RR","img":"067","badge":"Liao Fu Guan","variant":"Liao Fu Guan","foil":false,"tcg":689618,"idx":261},
-    {"id":"067-gym-challenge","section":"special","num":"067","printed":"067/086","code":"","name":"Genesect ex","rarity":"RR","img":"067","badge":"Gym Challenge","variant":"Gym Challenge","foil":true,"note":"A Gym Challenge event promo.","tcg":714874,"grp":24864,"idx":262},
     {"id":"068","section":"main","num":"068","printed":"068/086","code":"68","name":"Axew","rarity":"C","tcg":642519,"idx":263},
     {"id":"068-rh","section":"reverse","num":"068","printed":"068/086","code":"R68","name":"Axew","rarity":"C","img":"068","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":642519,"sub":"Reverse Holofoil","idx":264},
     {"id":"068-mb","section":"masterball","num":"068","printed":"068/086","code":"MB68","name":"Axew","rarity":"C","img":"068","badge":"Master Ball","variant":"Master Ball","foil":true,"tcg":642687,"idx":265},
@@ -454,11 +427,6 @@
     {"id":"079","section":"main","num":"079","printed":"079/086","code":"79","name":"Air Balloon","rarity":"U","tcg":642531,"idx":307},
     {"id":"079-rh","section":"reverse","num":"079","printed":"079/086","code":"R79","name":"Air Balloon","rarity":"U","img":"079","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":642531,"sub":"Reverse Holofoil","idx":308},
     {"id":"079-pb","section":"pokeball","num":"079","printed":"079/086","code":"PB79","name":"Air Balloon","rarity":"U","img":"079","badge":"Poké Ball","variant":"Poké Ball","foil":true,"tcg":642771,"idx":309},
-    {"id":"079-cosmos-player-rewards-program","section":"special","num":"079","printed":"079/086","code":"","name":"Air Balloon","rarity":"U","img":"079","badge":"Cosmos Holo · Play! Pokémon","variant":"Cosmos Holo · Play! Pokémon","foil":true,"note":"From Play! Pokémon Prize Packs, given out at league events.","tcg":675552,"grp":22880,"idx":310},
-    {"id":"079-cosmos-great-ball-league","section":"special","num":"079","printed":"079/086","code":"","name":"Air Balloon","rarity":"U","img":"079","badge":"Cosmos Holo · Great Ball League","variant":"Cosmos Holo · Great Ball League","foil":true,"note":"A Play! Pokémon league event promo.","tcg":696170,"grp":24864,"idx":311},
-    {"id":"079-normal-gym-challenge","section":"special","num":"079","printed":"079/086","code":"","name":"Air Balloon","rarity":"U","img":"079","badge":"Gym Challenge","variant":"Gym Challenge","foil":false,"note":"A Gym Challenge event promo.","tcg":714875,"grp":24864,"idx":312},
-    {"id":"079-normal-liao-fu-guan","section":"special","num":"079","printed":"079/086","code":"","name":"Air Balloon","rarity":"U","img":"079","badge":"Liao Fu Guan","variant":"Liao Fu Guan","foil":false,"tcg":690279,"idx":313},
-    {"id":"079-normal-jose-cruz-galindo-resendiz","section":"special","num":"079","printed":"079/086","code":"","name":"Air Balloon","rarity":"U","img":"079","badge":"Jose Cruz Galindo Resendiz","variant":"Jose Cruz Galindo Resendiz","foil":false,"tcg":690510,"idx":314},
     {"id":"080","section":"main","num":"080","printed":"080/086","code":"80","name":"Antique Cover Fossil","rarity":"C","tcg":642529,"idx":315},
     {"id":"080-rh","section":"reverse","num":"080","printed":"080/086","code":"R80","name":"Antique Cover Fossil","rarity":"C","img":"080","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":642529,"sub":"Reverse Holofoil","idx":316},
     {"id":"080-pb","section":"pokeball","num":"080","printed":"080/086","code":"PB80","name":"Antique Cover Fossil","rarity":"C","img":"080","badge":"Poké Ball","variant":"Poké Ball","foil":true,"tcg":644864,"idx":317},
@@ -474,11 +442,9 @@
     {"id":"084","section":"main","num":"084","printed":"084/086","code":"84","name":"Pokégear 3.0","rarity":"U","tcg":642530,"idx":327},
     {"id":"084-rh","section":"reverse","num":"084","printed":"084/086","code":"R84","name":"Pokégear 3.0","rarity":"U","img":"084","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":642530,"sub":"Reverse Holofoil","idx":328},
     {"id":"084-pb","section":"pokeball","num":"084","printed":"084/086","code":"PB84","name":"Pokégear 3.0","rarity":"U","img":"084","badge":"Poké Ball","variant":"Poké Ball","foil":true,"tcg":644830,"idx":329},
-    {"id":"084-normal-liao-fu-guan","section":"special","num":"084","printed":"084/086","code":"","name":"Pokégear 3.0","rarity":"U","img":"084","badge":"Liao Fu Guan","variant":"Liao Fu Guan","foil":false,"tcg":690277,"idx":330},
     {"id":"085","section":"main","num":"085","printed":"085/086","code":"85","name":"Professor's Research","rarity":"U","tcg":642533,"idx":331},
     {"id":"085-rh","section":"reverse","num":"085","printed":"085/086","code":"R85","name":"Professor's Research","rarity":"U","img":"085","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":642533,"sub":"Reverse Holofoil","idx":332},
     {"id":"085-pb","section":"pokeball","num":"085","printed":"085/086","code":"PB85","name":"Professor's Research","rarity":"U","img":"085","badge":"Poké Ball","variant":"Poké Ball","foil":true,"tcg":642772,"idx":333},
-    {"id":"085-reverse-pokeball-professor-program","section":"special","num":"085","printed":"085/086","code":"","name":"Professor's Research","rarity":"U","img":"085","badge":"Poké Ball Holo · Professor Program","variant":"Poké Ball Holo · Professor Program","foil":true,"note":"Given to Pokémon Professors through the Professor Program.","tcg":704476,"grp":2332,"idx":334},
     {"id":"086","section":"main","num":"086","printed":"086/086","code":"86","name":"Prism Energy","rarity":"U","tcg":642535,"idx":335},
     {"id":"086-rh","section":"reverse","num":"086","printed":"086/086","code":"R86","name":"Prism Energy","rarity":"U","img":"086","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":642535,"sub":"Reverse Holofoil","idx":336},
     {"id":"086-pb","section":"pokeball","num":"086","printed":"086/086","code":"PB86","name":"Prism Energy","rarity":"U","img":"086","badge":"Poké Ball","variant":"Poké Ball","foil":true,"tcg":642769,"idx":337},

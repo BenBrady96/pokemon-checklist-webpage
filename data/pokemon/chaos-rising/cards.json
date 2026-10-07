@@ -9,19 +9,13 @@
   "syncKey": "CRI",
   "released": "2026-05-22",
   "printedTotal": 86,
-  "defaultTier": "complete",
+  "defaultTier": "grand",
   "sections": [
     {
       "id": "main",
       "name": "Main Set",
       "range": "001–086",
       "tier": "standard"
-    },
-    {
-      "id": "secret",
-      "name": "Secret Rares",
-      "range": "087–122",
-      "tier": "complete"
     },
     {
       "id": "reverse",
@@ -31,14 +25,10 @@
       "tier": "master"
     },
     {
-      "id": "special",
-      "name": "Special Prints",
-      "short": "Special Prints",
-      "range": "stamps, Cosmos Holos & more",
-      "tier": "grand",
-      "display": {
-        "search": "Pokemon {set} {name} {printed} {badge}"
-      }
+      "id": "secret",
+      "name": "Secret Rares",
+      "range": "087–122",
+      "tier": "grand"
     }
   ],
   "summary": [
@@ -47,32 +37,28 @@
       "Main set"
     ],
     [
-      "secret",
-      "Secret rares"
-    ],
-    [
       "reverse",
       "Reverse holos"
     ],
     [
-      "special",
-      "Special prints"
+      "secret",
+      "Secret rares"
     ]
   ],
   "quickAdd": {
     "placeholder": "e.g. 1-22, 55, R12, 60x2",
     "example": "1-22, 55x2, R12",
-    "hint": "Separate with commas or spaces. <b>1-22</b> is a range and <b>55x2</b> is two copies. <b>R12</b> is card 12’s reverse holo, and ranges work too (<b>R1-R20</b>). Special prints are marked by tapping them.",
+    "hint": "Separate with commas or spaces. <b>1-22</b> is a range and <b>55x2</b> is two copies. <b>R12</b> is card 12’s reverse holo, and ranges work too (<b>R1-R20</b>).",
     "empty": "Main set cards are 1–86 (secret rares start at 87)."
   },
   "help": {
-    "tiers": "<b>Standard, Complete, Master or Grand Master:</b> pick what you’re collecting above the cards. Standard is the 86 main set cards, Complete is all 122 cards, Master adds the 76 reverse holos and Grand Master adds the 4 special prints (stamped, Cosmos Holo and other product-exclusive cards). Cards you’ve marked are kept when you switch."
+    "tiers": "<b>Standard, Master or Grand Master:</b> pick what you’re collecting above the cards. Standard is the 86 main set cards. Master adds the 76 reverse holos. Grand Master adds the 36 secret rares. Cards you’ve marked are kept when you switch."
   },
   "info": {
     "packSections": [
       "main",
-      "secret",
-      "reverse"
+      "reverse",
+      "secret"
     ],
     "sectionText": {
       "reverse": [
@@ -94,16 +80,16 @@
   },
   "seo": {
     "title": "Pokémon TCG Chaos Rising Checklist · All 122 Cards",
-    "description": "Free checklist for the Pokémon TCG Chaos Rising set. Track all 122 cards, or go further with every reverse holos and every special print, with images, copy counts, binder pages and prices. No sign-up needed.",
+    "description": "Free checklist for the Pokémon TCG Chaos Rising set. Track all 122 cards, or go further with the reverse holos, with images, copy counts, binder pages and prices. No sign-up needed.",
     "ogTitle": "Pokémon TCG Chaos Rising Checklist",
-    "ogDescription": "Track all 122 cards in Pokémon TCG Chaos Rising: the 86-card main set and 36 secret rares, plus 76 reverse holos for a master set and 4 special prints for a grand master set. Free, no sign-up, works offline.",
+    "ogDescription": "Track all 122 cards in Pokémon TCG Chaos Rising: the 86-card main set and 36 secret rares, plus 76 reverse holos. Free, no sign-up, works offline.",
     "twitterDescription": "Track all 122 cards in Pokémon TCG Chaos Rising. Free, no sign-up, works offline."
   },
   "about": {
     "title": "About the Chaos Rising set",
     "paragraphs": [
-      "Pokémon TCG: Chaos Rising is a Mega Evolution expansion released on 22 May 2026. It has 122 cards: 86 in the main set and 36 secret rares. For a master set there are also 76 reverse holos, and 4 special prints from other products and events.",
-      "Choose what you’re collecting: the <b>Standard set</b> (the 86 main set cards), the <b>Complete set</b> (all 122 cards), the <b>Master set</b> (198 cards, adding every reverse holos) or the <b>Grand Master set</b> (202 cards, adding the 4 special prints (stamped, Cosmos Holo and other product-exclusive cards)).",
+      "Pokémon TCG: Chaos Rising is a Mega Evolution expansion released on 22 May 2026. It has 122 cards: 86 in the main set and 36 secret rares. There are also 76 reverse holos.",
+      "Choose what you’re collecting: the <b>Standard set</b> (the 86 main set cards), the <b>Master set</b> (162 cards, adding the reverse holos) or the <b>Grand Master set</b> (all 198 cards, adding the 36 secret rares).",
       "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device."
     ]
   },
@@ -134,15 +120,12 @@
     {"id":"009-rh","section":"reverse","num":"009","printed":"009/086","code":"R9","name":"Ninetales","rarity":"U","img":"009","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":693526,"sub":"Reverse Holofoil","idx":16},
     {"id":"010","section":"main","num":"010","printed":"010/086","code":"10","name":"Ho-Oh","rarity":"R","tcg":693500,"idx":17},
     {"id":"010-rh","section":"reverse","num":"010","printed":"010/086","code":"R10","name":"Ho-Oh","rarity":"R","img":"010","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":693500,"sub":"Reverse Holofoil","idx":18},
-    {"id":"010-gamestop","section":"special","num":"010","printed":"010/086","code":"","name":"Ho-Oh","rarity":"R","img":"010","badge":"GameStop","variant":"GameStop","foil":true,"note":"A GameStop exclusive.","idx":19},
-    {"id":"010-eb-games","section":"special","num":"010","printed":"010/086","code":"","name":"Ho-Oh","rarity":"R","img":"010","badge":"EB Games","variant":"EB Games","foil":true,"note":"An EB Games exclusive.","idx":20},
     {"id":"011","section":"main","num":"011","printed":"011/086","code":"11","name":"Fennekin","rarity":"C","tcg":693484,"idx":21},
     {"id":"011-rh","section":"reverse","num":"011","printed":"011/086","code":"R11","name":"Fennekin","rarity":"C","img":"011","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":693484,"sub":"Reverse Holofoil","idx":22},
     {"id":"012","section":"main","num":"012","printed":"012/086","code":"12","name":"Braixen","rarity":"C","tcg":693457,"idx":23},
     {"id":"012-rh","section":"reverse","num":"012","printed":"012/086","code":"R12","name":"Braixen","rarity":"C","img":"012","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":693457,"sub":"Reverse Holofoil","idx":24},
     {"id":"013","section":"main","num":"013","printed":"013/086","code":"13","name":"Delphox","rarity":"R","tcg":693473,"idx":25},
     {"id":"013-rh","section":"reverse","num":"013","printed":"013/086","code":"R13","name":"Delphox","rarity":"R","img":"013","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":693473,"sub":"Reverse Holofoil","idx":26},
-    {"id":"013-set-logo","section":"special","num":"013","printed":"013/086","code":"","name":"Delphox","rarity":"R","img":"013","badge":"Set Stamp","variant":"Set Stamp","foil":true,"note":"Stamped with the set logo: a prerelease and Build & Battle Box promo.","tcg":694677,"grp":2374,"idx":27},
     {"id":"014","section":"main","num":"014","printed":"014/086","code":"14","name":"Litleo","rarity":"C","tcg":693505,"idx":28},
     {"id":"014-rh","section":"reverse","num":"014","printed":"014/086","code":"R14","name":"Litleo","rarity":"C","img":"014","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":693505,"sub":"Reverse Holofoil","idx":29},
     {"id":"015","section":"main","num":"015","printed":"015/086","code":"15","name":"Mega Pyroar ex","rarity":"RR","tcg":693519,"idx":30},
@@ -154,7 +137,6 @@
     {"id":"018-rh","section":"reverse","num":"018","printed":"018/086","code":"R18","name":"Delibird","rarity":"U","img":"018","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":693472,"sub":"Reverse Holofoil","idx":36},
     {"id":"019","section":"main","num":"019","printed":"019/086","code":"19","name":"Keldeo","rarity":"R","tcg":693503,"idx":37},
     {"id":"019-rh","section":"reverse","num":"019","printed":"019/086","code":"R19","name":"Keldeo","rarity":"R","img":"019","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":693503,"sub":"Reverse Holofoil","idx":38},
-    {"id":"019-set-logo","section":"special","num":"019","printed":"019/086","code":"","name":"Keldeo","rarity":"R","img":"019","badge":"Set Stamp","variant":"Set Stamp","foil":true,"note":"Stamped with the set logo: a prerelease and Build & Battle Box promo.","tcg":694630,"grp":2374,"idx":39},
     {"id":"020","section":"main","num":"020","printed":"020/086","code":"20","name":"Froakie","rarity":"C","tcg":693488,"idx":40},
     {"id":"020-rh","section":"reverse","num":"020","printed":"020/086","code":"R20","name":"Froakie","rarity":"C","img":"020","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":693488,"sub":"Reverse Holofoil","idx":41},
     {"id":"021","section":"main","num":"021","printed":"021/086","code":"21","name":"Frogadier","rarity":"C","tcg":693490,"idx":42},

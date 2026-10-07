@@ -9,19 +9,13 @@
   "syncKey": "POR",
   "released": "2026-03-27",
   "printedTotal": 88,
-  "defaultTier": "complete",
+  "defaultTier": "grand",
   "sections": [
     {
       "id": "main",
       "name": "Main Set",
       "range": "001–088",
       "tier": "standard"
-    },
-    {
-      "id": "secret",
-      "name": "Secret Rares",
-      "range": "089–124",
-      "tier": "complete"
     },
     {
       "id": "reverse",
@@ -31,14 +25,10 @@
       "tier": "master"
     },
     {
-      "id": "special",
-      "name": "Special Prints",
-      "short": "Special Prints",
-      "range": "stamps, Cosmos Holos & more",
-      "tier": "grand",
-      "display": {
-        "search": "Pokemon {set} {name} {printed} {badge}"
-      }
+      "id": "secret",
+      "name": "Secret Rares",
+      "range": "089–124",
+      "tier": "grand"
     }
   ],
   "summary": [
@@ -47,32 +37,28 @@
       "Main set"
     ],
     [
-      "secret",
-      "Secret rares"
-    ],
-    [
       "reverse",
       "Reverse holos"
     ],
     [
-      "special",
-      "Special prints"
+      "secret",
+      "Secret rares"
     ]
   ],
   "quickAdd": {
     "placeholder": "e.g. 1-22, 55, R12, 60x2",
     "example": "1-22, 55x2, R12",
-    "hint": "Separate with commas or spaces. <b>1-22</b> is a range and <b>55x2</b> is two copies. <b>R12</b> is card 12’s reverse holo, and ranges work too (<b>R1-R20</b>). Special prints are marked by tapping them.",
+    "hint": "Separate with commas or spaces. <b>1-22</b> is a range and <b>55x2</b> is two copies. <b>R12</b> is card 12’s reverse holo, and ranges work too (<b>R1-R20</b>).",
     "empty": "Main set cards are 1–88 (secret rares start at 89)."
   },
   "help": {
-    "tiers": "<b>Standard, Complete, Master or Grand Master:</b> pick what you’re collecting above the cards. Standard is the 88 main set cards, Complete is all 124 cards, Master adds the 79 reverse holos and Grand Master adds the 27 special prints (stamped, Cosmos Holo and other product-exclusive cards). Cards you’ve marked are kept when you switch."
+    "tiers": "<b>Standard, Master or Grand Master:</b> pick what you’re collecting above the cards. Standard is the 88 main set cards. Master adds the 79 reverse holos. Grand Master adds the 36 secret rares. Cards you’ve marked are kept when you switch."
   },
   "info": {
     "packSections": [
       "main",
-      "secret",
-      "reverse"
+      "reverse",
+      "secret"
     ],
     "sectionText": {
       "reverse": [
@@ -94,16 +80,16 @@
   },
   "seo": {
     "title": "Pokémon TCG Perfect Order Checklist · All 124 Cards",
-    "description": "Free checklist for the Pokémon TCG Perfect Order set. Track all 124 cards, or go further with every reverse holos and every special print, with images, copy counts, binder pages and prices. No sign-up needed.",
+    "description": "Free checklist for the Pokémon TCG Perfect Order set. Track all 124 cards, or go further with the reverse holos, with images, copy counts, binder pages and prices. No sign-up needed.",
     "ogTitle": "Pokémon TCG Perfect Order Checklist",
-    "ogDescription": "Track all 124 cards in Pokémon TCG Perfect Order: the 88-card main set and 36 secret rares, plus 79 reverse holos for a master set and 27 special prints for a grand master set. Free, no sign-up, works offline.",
+    "ogDescription": "Track all 124 cards in Pokémon TCG Perfect Order: the 88-card main set and 36 secret rares, plus 79 reverse holos. Free, no sign-up, works offline.",
     "twitterDescription": "Track all 124 cards in Pokémon TCG Perfect Order. Free, no sign-up, works offline."
   },
   "about": {
     "title": "About the Perfect Order set",
     "paragraphs": [
-      "Pokémon TCG: Perfect Order is a Mega Evolution expansion released on 27 March 2026. It has 124 cards: 88 in the main set and 36 secret rares. For a master set there are also 79 reverse holos, and 27 special prints from other products and events.",
-      "Choose what you’re collecting: the <b>Standard set</b> (the 88 main set cards), the <b>Complete set</b> (all 124 cards), the <b>Master set</b> (203 cards, adding every reverse holos) or the <b>Grand Master set</b> (230 cards, adding the 27 special prints (stamped, Cosmos Holo and other product-exclusive cards)).",
+      "Pokémon TCG: Perfect Order is a Mega Evolution expansion released on 27 March 2026. It has 124 cards: 88 in the main set and 36 secret rares. There are also 79 reverse holos.",
+      "Choose what you’re collecting: the <b>Standard set</b> (the 88 main set cards), the <b>Master set</b> (167 cards, adding the reverse holos) or the <b>Grand Master set</b> (all 203 cards, adding the 36 secret rares).",
       "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device."
     ]
   },
@@ -138,7 +124,6 @@
     {"id":"011","section":"main","num":"011","printed":"011/088","code":"11","name":"Dartrix","rarity":"C","tcg":684369,"idx":20},
     {"id":"011-rh","section":"reverse","num":"011","printed":"011/088","code":"R11","name":"Dartrix","rarity":"C","img":"011","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":684369,"sub":"Reverse Holofoil","idx":21},
     {"id":"012","section":"main","num":"012","printed":"012/088","code":"12","name":"Decidueye ex","rarity":"RR","tcg":684370,"idx":22},
-    {"id":"012-player-rewards-program","section":"special","num":"012","printed":"012/088","code":"","name":"Decidueye ex","rarity":"RR","img":"012","badge":"Play! Pokémon","variant":"Play! Pokémon","foil":true,"note":"From Play! Pokémon Prize Packs, given out at league events.","idx":23},
     {"id":"013","section":"main","num":"013","printed":"013/088","code":"13","name":"Fletchinder","rarity":"C","tcg":684404,"idx":24},
     {"id":"013-rh","section":"reverse","num":"013","printed":"013/088","code":"R13","name":"Fletchinder","rarity":"C","img":"013","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":684404,"sub":"Reverse Holofoil","idx":25},
     {"id":"014","section":"main","num":"014","printed":"014/088","code":"14","name":"Talonflame","rarity":"U","tcg":684405,"idx":26},
@@ -152,18 +137,14 @@
     {"id":"018-rh","section":"reverse","num":"018","printed":"018/088","code":"R18","name":"Seel","rarity":"C","img":"018","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":684372,"sub":"Reverse Holofoil","idx":34},
     {"id":"019","section":"main","num":"019","printed":"019/088","code":"19","name":"Dewgong","rarity":"R","tcg":684373,"idx":35},
     {"id":"019-rh","section":"reverse","num":"019","printed":"019/088","code":"R19","name":"Dewgong","rarity":"R","img":"019","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":684373,"sub":"Reverse Holofoil","idx":36},
-    {"id":"019-normal-player-rewards-program","section":"special","num":"019","printed":"019/088","code":"","name":"Dewgong","rarity":"R","img":"019","badge":"Play! Pokémon","variant":"Play! Pokémon","foil":false,"note":"From Play! Pokémon Prize Packs, given out at league events.","idx":37},
     {"id":"020","section":"main","num":"020","printed":"020/088","code":"20","name":"Staryu","rarity":"C","tcg":684374,"idx":38},
     {"id":"020-rh","section":"reverse","num":"020","printed":"020/088","code":"R20","name":"Staryu","rarity":"C","img":"020","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":684374,"sub":"Reverse Holofoil","idx":39},
     {"id":"021","section":"main","num":"021","printed":"021/088","code":"21","name":"Mega Starmie ex","rarity":"RR","tcg":684360,"idx":40},
-    {"id":"021-player-rewards-program","section":"special","num":"021","printed":"021/088","code":"","name":"Mega Starmie ex","rarity":"RR","img":"021","badge":"Play! Pokémon","variant":"Play! Pokémon","foil":true,"note":"From Play! Pokémon Prize Packs, given out at league events.","idx":41},
     {"id":"022","section":"main","num":"022","printed":"022/088","code":"22","name":"Lapras ex","rarity":"RR","tcg":684329,"idx":42},
     {"id":"023","section":"main","num":"023","printed":"023/088","code":"23","name":"Amaura","rarity":"C","tcg":684355,"idx":43},
     {"id":"023-rh","section":"reverse","num":"023","printed":"023/088","code":"R23","name":"Amaura","rarity":"C","img":"023","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":684355,"sub":"Reverse Holofoil","idx":44},
     {"id":"024","section":"main","num":"024","printed":"024/088","code":"24","name":"Aurorus","rarity":"R","tcg":684356,"idx":45},
     {"id":"024-rh","section":"reverse","num":"024","printed":"024/088","code":"R24","name":"Aurorus","rarity":"R","img":"024","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":684356,"sub":"Reverse Holofoil","idx":46},
-    {"id":"024-normal-set-logo","section":"special","num":"024","printed":"024/088","code":"","name":"Aurorus","rarity":"R","img":"024","badge":"Set Stamp","variant":"Set Stamp","foil":false,"note":"Stamped with the set logo: a prerelease and Build & Battle Box promo.","tcg":685559,"grp":2374,"idx":47},
-    {"id":"024-cosmos","section":"special","num":"024","printed":"024/088","code":"","name":"Aurorus","rarity":"R","img":"024","badge":"Cosmos Holo","variant":"Cosmos Holo","foil":true,"note":"A Cosmos Holo print, from blister packs, collection boxes and other special products.","tcg":709694,"grp":2289,"idx":48},
     {"id":"025","section":"main","num":"025","printed":"025/088","code":"25","name":"Volcanion","rarity":"U","tcg":684408,"idx":49},
     {"id":"025-rh","section":"reverse","num":"025","printed":"025/088","code":"R25","name":"Volcanion","rarity":"U","img":"025","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":684408,"sub":"Reverse Holofoil","idx":50},
     {"id":"026","section":"main","num":"026","printed":"026/088","code":"26","name":"Shinx","rarity":"C","tcg":684409,"idx":51},
@@ -172,8 +153,6 @@
     {"id":"027-rh","section":"reverse","num":"027","printed":"027/088","code":"R27","name":"Luxio","rarity":"U","img":"027","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":684410,"sub":"Reverse Holofoil","idx":54},
     {"id":"028","section":"main","num":"028","printed":"028/088","code":"28","name":"Luxray","rarity":"R","tcg":684411,"idx":55},
     {"id":"028-rh","section":"reverse","num":"028","printed":"028/088","code":"R28","name":"Luxray","rarity":"R","img":"028","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":684411,"sub":"Reverse Holofoil","idx":56},
-    {"id":"028-normal-set-logo","section":"special","num":"028","printed":"028/088","code":"","name":"Luxray","rarity":"R","img":"028","badge":"Set Stamp","variant":"Set Stamp","foil":false,"note":"Stamped with the set logo: a prerelease and Build & Battle Box promo.","tcg":685560,"grp":2374,"idx":57},
-    {"id":"028-cosmos","section":"special","num":"028","printed":"028/088","code":"","name":"Luxray","rarity":"R","img":"028","badge":"Cosmos Holo","variant":"Cosmos Holo","foil":true,"note":"A Cosmos Holo print, from blister packs, collection boxes and other special products.","tcg":709696,"grp":2289,"idx":58},
     {"id":"029","section":"main","num":"029","printed":"029/088","code":"29","name":"Dedenne","rarity":"C","tcg":684412,"idx":59},
     {"id":"029-rh","section":"reverse","num":"029","printed":"029/088","code":"R29","name":"Dedenne","rarity":"C","img":"029","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":684412,"sub":"Reverse Holofoil","idx":60},
     {"id":"030","section":"main","num":"030","printed":"030/088","code":"30","name":"Clefairy","rarity":"C","tcg":684414,"idx":61},
@@ -207,33 +186,23 @@
     {"id":"044-rh","section":"reverse","num":"044","printed":"044/088","code":"R44","name":"Tyrunt","rarity":"C","img":"044","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":684358,"sub":"Reverse Holofoil","idx":89},
     {"id":"045","section":"main","num":"045","printed":"045/088","code":"45","name":"Tyrantrum","rarity":"R","tcg":684359,"idx":90},
     {"id":"045-rh","section":"reverse","num":"045","printed":"045/088","code":"R45","name":"Tyrantrum","rarity":"R","img":"045","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":684359,"sub":"Reverse Holofoil","idx":91},
-    {"id":"045-cosmos","section":"special","num":"045","printed":"045/088","code":"","name":"Tyrantrum","rarity":"R","img":"045","badge":"Cosmos Holo","variant":"Cosmos Holo","foil":true,"note":"A Cosmos Holo print, from blister packs, collection boxes and other special products.","tcg":709698,"grp":2289,"idx":92},
     {"id":"046","section":"main","num":"046","printed":"046/088","code":"46","name":"Hawlucha","rarity":"C","tcg":684428,"idx":93},
     {"id":"046-rh","section":"reverse","num":"046","printed":"046/088","code":"R46","name":"Hawlucha","rarity":"C","img":"046","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":684428,"sub":"Reverse Holofoil","idx":94},
     {"id":"047","section":"main","num":"047","printed":"047/088","code":"47","name":"Mega Zygarde ex","rarity":"RR","tcg":684336,"idx":95},
-    {"id":"047-player-rewards-program","section":"special","num":"047","printed":"047/088","code":"","name":"Mega Zygarde ex","rarity":"RR","img":"047","badge":"Play! Pokémon","variant":"Play! Pokémon","foil":true,"note":"From Play! Pokémon Prize Packs, given out at league events.","idx":96},
     {"id":"048","section":"main","num":"048","printed":"048/088","code":"48","name":"Gastly","rarity":"C","tcg":684429,"idx":97},
     {"id":"048-rh","section":"reverse","num":"048","printed":"048/088","code":"R48","name":"Gastly","rarity":"C","img":"048","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":684429,"sub":"Reverse Holofoil","idx":98},
-    {"id":"048-normal-player-rewards-program","section":"special","num":"048","printed":"048/088","code":"","name":"Gastly","rarity":"C","img":"048","badge":"Play! Pokémon","variant":"Play! Pokémon","foil":false,"note":"From Play! Pokémon Prize Packs, given out at league events.","idx":99},
     {"id":"049","section":"main","num":"049","printed":"049/088","code":"49","name":"Haunter","rarity":"C","tcg":684430,"idx":100},
     {"id":"049-rh","section":"reverse","num":"049","printed":"049/088","code":"R49","name":"Haunter","rarity":"C","img":"049","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":684430,"sub":"Reverse Holofoil","idx":101},
-    {"id":"049-normal-player-rewards-program","section":"special","num":"049","printed":"049/088","code":"","name":"Haunter","rarity":"C","img":"049","badge":"Play! Pokémon","variant":"Play! Pokémon","foil":false,"note":"From Play! Pokémon Prize Packs, given out at league events.","idx":102},
     {"id":"050","section":"main","num":"050","printed":"050/088","code":"50","name":"Gengar","rarity":"R","tcg":684431,"idx":103},
     {"id":"050-rh","section":"reverse","num":"050","printed":"050/088","code":"R50","name":"Gengar","rarity":"R","img":"050","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":684431,"sub":"Reverse Holofoil","idx":104},
-    {"id":"050-normal-player-rewards-program","section":"special","num":"050","printed":"050/088","code":"","name":"Gengar","rarity":"R","img":"050","badge":"Play! Pokémon","variant":"Play! Pokémon","foil":false,"note":"From Play! Pokémon Prize Packs, given out at league events.","tcg":704418,"grp":22880,"idx":105},
-    {"id":"050-cosmos","section":"special","num":"050","printed":"050/088","code":"","name":"Gengar","rarity":"R","img":"050","badge":"Cosmos Holo","variant":"Cosmos Holo","foil":true,"note":"A Cosmos Holo print, from blister packs, collection boxes and other special products.","tcg":709697,"grp":2289,"idx":106},
-    {"id":"050-cosmos-gamestop","section":"special","num":"050","printed":"050/088","code":"","name":"Gengar","rarity":"R","img":"050","badge":"Cosmos Holo · GameStop","variant":"Cosmos Holo · GameStop","foil":true,"note":"A GameStop exclusive.","tcg":685555,"grp":2374,"idx":107},
-    {"id":"050-cosmos-eb-games","section":"special","num":"050","printed":"050/088","code":"","name":"Gengar","rarity":"R","img":"050","badge":"Cosmos Holo · EB Games","variant":"Cosmos Holo · EB Games","foil":true,"note":"An EB Games exclusive.","tcg":686505,"grp":2374,"idx":108},
     {"id":"051","section":"main","num":"051","printed":"051/088","code":"51","name":"Skorupi","rarity":"C","tcg":684432,"idx":109},
     {"id":"051-rh","section":"reverse","num":"051","printed":"051/088","code":"R51","name":"Skorupi","rarity":"C","img":"051","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":684432,"sub":"Reverse Holofoil","idx":110},
     {"id":"052","section":"main","num":"052","printed":"052/088","code":"52","name":"Drapion","rarity":"U","tcg":684433,"idx":111},
     {"id":"052-rh","section":"reverse","num":"052","printed":"052/088","code":"R52","name":"Drapion","rarity":"U","img":"052","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":684433,"sub":"Reverse Holofoil","idx":112},
     {"id":"053","section":"main","num":"053","printed":"053/088","code":"53","name":"Yveltal ex","rarity":"RR","tcg":684386,"idx":113},
-    {"id":"053-player-rewards-program","section":"special","num":"053","printed":"053/088","code":"","name":"Yveltal ex","rarity":"RR","img":"053","badge":"Play! Pokémon","variant":"Play! Pokémon","foil":true,"note":"From Play! Pokémon Prize Packs, given out at league events.","idx":114},
     {"id":"054","section":"main","num":"054","printed":"054/088","code":"54","name":"Chien-Pao","rarity":"R","tcg":684435,"idx":115},
     {"id":"054-rh","section":"reverse","num":"054","printed":"054/088","code":"R54","name":"Chien-Pao","rarity":"R","img":"054","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":684435,"sub":"Reverse Holofoil","idx":116},
     {"id":"055","section":"main","num":"055","printed":"055/088","code":"55","name":"Mega Skarmory ex","rarity":"RR","tcg":684351,"idx":117},
-    {"id":"055-player-rewards-program","section":"special","num":"055","printed":"055/088","code":"","name":"Mega Skarmory ex","rarity":"RR","img":"055","badge":"Play! Pokémon","variant":"Play! Pokémon","foil":true,"note":"From Play! Pokémon Prize Packs, given out at league events.","idx":118},
     {"id":"056","section":"main","num":"056","printed":"056/088","code":"56","name":"Honedge","rarity":"C","tcg":684378,"idx":119},
     {"id":"056-rh","section":"reverse","num":"056","printed":"056/088","code":"R56","name":"Honedge","rarity":"C","img":"056","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":684378,"sub":"Reverse Holofoil","idx":120},
     {"id":"057","section":"main","num":"057","printed":"057/088","code":"57","name":"Doublade","rarity":"C","tcg":684379,"idx":121},
@@ -247,7 +216,6 @@
     {"id":"061","section":"main","num":"061","printed":"061/088","code":"61","name":"Raticate","rarity":"U","tcg":684438,"idx":129},
     {"id":"061-rh","section":"reverse","num":"061","printed":"061/088","code":"R61","name":"Raticate","rarity":"U","img":"061","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":684438,"sub":"Reverse Holofoil","idx":130},
     {"id":"062","section":"main","num":"062","printed":"062/088","code":"62","name":"Meowth ex","rarity":"RR","tcg":684340,"idx":131},
-    {"id":"062-player-rewards-program","section":"special","num":"062","printed":"062/088","code":"","name":"Meowth ex","rarity":"RR","img":"062","badge":"Play! Pokémon","variant":"Play! Pokémon","foil":true,"note":"From Play! Pokémon Prize Packs, given out at league events.","idx":132},
     {"id":"063","section":"main","num":"063","printed":"063/088","code":"63","name":"Snorlax","rarity":"C","tcg":684440,"idx":133},
     {"id":"063-rh","section":"reverse","num":"063","printed":"063/088","code":"R63","name":"Snorlax","rarity":"C","img":"063","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":684440,"sub":"Reverse Holofoil","idx":134},
     {"id":"064","section":"main","num":"064","printed":"064/088","code":"64","name":"Bunnelby","rarity":"C","tcg":684441,"idx":135},
@@ -264,7 +232,6 @@
     {"id":"069-rh","section":"reverse","num":"069","printed":"069/088","code":"R69","name":"Antique Sail Fossil","rarity":"C","img":"069","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":684354,"sub":"Reverse Holofoil","idx":146},
     {"id":"070","section":"main","num":"070","printed":"070/088","code":"70","name":"Core Memory","rarity":"U","tcg":684343,"idx":147},
     {"id":"070-rh","section":"reverse","num":"070","printed":"070/088","code":"R70","name":"Core Memory","rarity":"U","img":"070","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":684343,"sub":"Reverse Holofoil","idx":148},
-    {"id":"070-normal-player-rewards-program","section":"special","num":"070","printed":"070/088","code":"","name":"Core Memory","rarity":"U","img":"070","badge":"Play! Pokémon","variant":"Play! Pokémon","foil":false,"note":"From Play! Pokémon Prize Packs, given out at league events.","idx":149},
     {"id":"071","section":"main","num":"071","printed":"071/088","code":"71","name":"Crushing Hammer","rarity":"C","tcg":684325,"idx":150},
     {"id":"071-rh","section":"reverse","num":"071","printed":"071/088","code":"R71","name":"Crushing Hammer","rarity":"C","img":"071","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":684325,"sub":"Reverse Holofoil","idx":151},
     {"id":"072","section":"main","num":"072","printed":"072/088","code":"72","name":"Energy Search","rarity":"C","tcg":684322,"idx":152},
@@ -277,7 +244,6 @@
     {"id":"075-rh","section":"reverse","num":"075","printed":"075/088","code":"R75","name":"Jacinthe","rarity":"U","img":"075","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":684393,"sub":"Reverse Holofoil","idx":159},
     {"id":"076","section":"main","num":"076","printed":"076/088","code":"76","name":"Judge","rarity":"U","tcg":684323,"idx":160},
     {"id":"076-rh","section":"reverse","num":"076","printed":"076/088","code":"R76","name":"Judge","rarity":"U","img":"076","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":684323,"sub":"Reverse Holofoil","idx":161},
-    {"id":"076-normal-regional-championships","section":"special","num":"076","printed":"076/088","code":"","name":"Judge","rarity":"U","img":"076","badge":"Regionals","variant":"Regionals","foil":false,"note":"Given to players at Regional Championships.","idx":162},
     {"id":"077","section":"main","num":"077","printed":"077/088","code":"77","name":"Lumiose City","rarity":"U","tcg":684348,"idx":163},
     {"id":"077-rh","section":"reverse","num":"077","printed":"077/088","code":"R77","name":"Lumiose City","rarity":"U","img":"077","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":684348,"sub":"Reverse Holofoil","idx":164},
     {"id":"078","section":"main","num":"078","printed":"078/088","code":"78","name":"Lumiose Galette","rarity":"U","tcg":684389,"idx":165},
@@ -294,21 +260,14 @@
     {"id":"083-rh","section":"reverse","num":"083","printed":"083/088","code":"R83","name":"Potion","rarity":"C","img":"083","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":684320,"sub":"Reverse Holofoil","idx":176},
     {"id":"084","section":"main","num":"084","printed":"084/088","code":"84","name":"Rosa's Encouragement","rarity":"U","tcg":684390,"idx":177},
     {"id":"084-rh","section":"reverse","num":"084","printed":"084/088","code":"R84","name":"Rosa's Encouragement","rarity":"U","img":"084","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":684390,"sub":"Reverse Holofoil","idx":178},
-    {"id":"084-normal-player-rewards-program","section":"special","num":"084","printed":"084/088","code":"","name":"Rosa's Encouragement","rarity":"U","img":"084","badge":"Play! Pokémon","variant":"Play! Pokémon","foil":false,"note":"From Play! Pokémon Prize Packs, given out at league events.","idx":179},
     {"id":"085","section":"main","num":"085","printed":"085/088","code":"85","name":"Tarragon","rarity":"U","tcg":684344,"idx":180},
     {"id":"085-rh","section":"reverse","num":"085","printed":"085/088","code":"R85","name":"Tarragon","rarity":"U","img":"085","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":684344,"sub":"Reverse Holofoil","idx":181},
     {"id":"086","section":"main","num":"086","printed":"086/088","code":"86","name":"Growing Grass Energy","rarity":"E","type":"grass","tcg":684375,"idx":182},
     {"id":"086-rh","section":"reverse","num":"086","printed":"086/088","code":"R86","name":"Growing Grass Energy","rarity":"E","img":"086","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":684375,"sub":"Reverse Holofoil","type":"grass","idx":183},
-    {"id":"086-normal-player-rewards-program","section":"special","num":"086","printed":"086/088","code":"","name":"Growing Grass Energy","rarity":"E","img":"086","badge":"Play! Pokémon","variant":"Play! Pokémon","foil":false,"note":"From Play! Pokémon Prize Packs, given out at league events.","type":"grass","tcg":704421,"grp":22880,"idx":184},
-    {"id":"086-cosmos-player-rewards-program","section":"special","num":"086","printed":"086/088","code":"","name":"Growing Grass Energy","rarity":"E","img":"086","badge":"Cosmos Holo · Play! Pokémon","variant":"Cosmos Holo · Play! Pokémon","foil":true,"note":"From Play! Pokémon Prize Packs, given out at league events.","type":"grass","tcg":704422,"grp":22880,"idx":185},
     {"id":"087","section":"main","num":"087","printed":"087/088","code":"87","name":"Rocky Fighting Energy","rarity":"E","type":"fighting","tcg":684350,"idx":186},
     {"id":"087-rh","section":"reverse","num":"087","printed":"087/088","code":"R87","name":"Rocky Fighting Energy","rarity":"E","img":"087","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":684350,"sub":"Reverse Holofoil","type":"fighting","idx":187},
-    {"id":"087-normal-player-rewards-program","section":"special","num":"087","printed":"087/088","code":"","name":"Rocky Fighting Energy","rarity":"E","img":"087","badge":"Play! Pokémon","variant":"Play! Pokémon","foil":false,"note":"From Play! Pokémon Prize Packs, given out at league events.","type":"fighting","tcg":704457,"grp":22880,"idx":188},
-    {"id":"087-cosmos-player-rewards-program","section":"special","num":"087","printed":"087/088","code":"","name":"Rocky Fighting Energy","rarity":"E","img":"087","badge":"Cosmos Holo · Play! Pokémon","variant":"Cosmos Holo · Play! Pokémon","foil":true,"note":"From Play! Pokémon Prize Packs, given out at league events.","type":"fighting","tcg":704458,"grp":22880,"idx":189},
     {"id":"088","section":"main","num":"088","printed":"088/088","code":"88","name":"Telepathic Psychic Energy","rarity":"E","type":"psychic","tcg":684396,"idx":190},
     {"id":"088-rh","section":"reverse","num":"088","printed":"088/088","code":"R88","name":"Telepathic Psychic Energy","rarity":"E","img":"088","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":684396,"sub":"Reverse Holofoil","type":"psychic","idx":191},
-    {"id":"088-normal-player-rewards-program","section":"special","num":"088","printed":"088/088","code":"","name":"Telepathic Psychic Energy","rarity":"E","img":"088","badge":"Play! Pokémon","variant":"Play! Pokémon","foil":false,"note":"From Play! Pokémon Prize Packs, given out at league events.","type":"psychic","tcg":704460,"grp":22880,"idx":192},
-    {"id":"088-cosmos-player-rewards-program","section":"special","num":"088","printed":"088/088","code":"","name":"Telepathic Psychic Energy","rarity":"E","img":"088","badge":"Cosmos Holo · Play! Pokémon","variant":"Cosmos Holo · Play! Pokémon","foil":true,"note":"From Play! Pokémon Prize Packs, given out at league events.","type":"psychic","tcg":704461,"grp":22880,"idx":193},
     {"id":"089","section":"secret","num":"089","printed":"089/088","code":"89","name":"Spewpa","rarity":"IR","tcg":684365,"idx":194},
     {"id":"090","section":"secret","num":"090","printed":"090/088","code":"90","name":"Rowlet","rarity":"IR","tcg":684368,"idx":195},
     {"id":"091","section":"secret","num":"091","printed":"091/088","code":"91","name":"Talonflame","rarity":"IR","tcg":684406,"idx":196},

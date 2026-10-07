@@ -220,7 +220,6 @@ function buildTierPicker() {
   document.querySelector('.tier-bar').hidden = COLLECTION.single;
   tierPicker.innerHTML = COLLECTION.visibleTiers.map((t) => `<button type="button" class="seg__btn" data-pref="tier" data-value="${t.id}">`
     + `<b>${t.label}</b><small>${t.cards.length} cards</small></button>`).join('');
-  tierPicker.classList.toggle('seg--four', COLLECTION.visibleTiers.length > 3);
 }
 
 function updateTierChrome() {
@@ -707,7 +706,21 @@ const actions = {
   },
 };
 
+function openScanner() {
+  import('./scan.js').then((m) => m.openScanner({
+    prefer: COLLECTION.id,
+    current(id, delta) {
+      if (store.isPreview()) return null;
+      const from = store.getQty(id);
+      store.set(id, from + delta);
+      store.requestPersistence();
+      return { from, to: store.getQty(id) };
+    },
+  }), () => toast('Couldn’t load the scanner. Check your connection and try again.'));
+}
+
 function openNamed(name) {
+  if (name === 'scan') return openScanner();
   const dlg = document.getElementById(DIALOGS[name]);
   if (!dlg) return;
   if (name === 'stats') document.getElementById('stats-body').innerHTML = renderStats(compute());

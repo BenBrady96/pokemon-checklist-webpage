@@ -9,19 +9,13 @@
   "syncKey": "WHT",
   "released": "2025-07-17",
   "printedTotal": 86,
-  "defaultTier": "complete",
+  "defaultTier": "grand",
   "sections": [
     {
       "id": "main",
       "name": "Main Set",
       "range": "001–086",
       "tier": "standard"
-    },
-    {
-      "id": "secret",
-      "name": "Secret Rares",
-      "range": "087–173",
-      "tier": "complete"
     },
     {
       "id": "reverse",
@@ -45,24 +39,16 @@
       "tier": "master"
     },
     {
-      "id": "special",
-      "name": "Special Prints",
-      "short": "Special Prints",
-      "range": "stamps, Cosmos Holos & more",
-      "tier": "grand",
-      "display": {
-        "search": "Pokemon {set} {name} {printed} {badge}"
-      }
+      "id": "secret",
+      "name": "Secret Rares",
+      "range": "087–173",
+      "tier": "grand"
     }
   ],
   "summary": [
     [
       "main",
       "Main set"
-    ],
-    [
-      "secret",
-      "Secret rares"
     ],
     [
       "reverse",
@@ -77,26 +63,26 @@
       "Master Ball holos"
     ],
     [
-      "special",
-      "Special prints"
+      "secret",
+      "Secret rares"
     ]
   ],
   "quickAdd": {
     "placeholder": "e.g. 1-22, 55, R12, 60x2",
     "example": "1-22, 55x2, R12",
-    "hint": "Separate with commas or spaces. <b>1-22</b> is a range and <b>55x2</b> is two copies. <b>R12</b> is card 12’s reverse holo, <b>PB12</b> is card 12’s Poké Ball version and <b>MB12</b> is card 12’s Master Ball version, and ranges work too (<b>R1-R20</b>). Special prints are marked by tapping them.",
+    "hint": "Separate with commas or spaces. <b>1-22</b> is a range and <b>55x2</b> is two copies. <b>R12</b> is card 12’s reverse holo, <b>PB12</b> is card 12’s Poké Ball version and <b>MB12</b> is card 12’s Master Ball version, and ranges work too (<b>R1-R20</b>).",
     "empty": "Main set cards are 1–86 (secret rares start at 87)."
   },
   "help": {
-    "tiers": "<b>Standard, Complete, Master or Grand Master:</b> pick what you’re collecting above the cards. Standard is the 86 main set cards, Complete is all 173 cards, Master adds the 232 reverse holos, Poké Ball holos and Master Ball holos and Grand Master adds the 5 special prints (stamped, Cosmos Holo and other product-exclusive cards). Cards you’ve marked are kept when you switch."
+    "tiers": "<b>Standard, Master or Grand Master:</b> pick what you’re collecting above the cards. Standard is the 86 main set cards. Master adds the 232 reverse holos, Poké Ball holos and Master Ball holos. Grand Master adds the 87 secret rares. Cards you’ve marked are kept when you switch."
   },
   "info": {
     "packSections": [
       "main",
-      "secret",
       "reverse",
       "pokeball",
-      "masterball"
+      "masterball",
+      "secret"
     ],
     "sectionText": {
       "reverse": [
@@ -119,16 +105,16 @@
   },
   "seo": {
     "title": "Pokémon TCG White Flare Checklist · All 173 Cards",
-    "description": "Free checklist for the Pokémon TCG White Flare set. Track all 173 cards, or go further with every reverse holos, Poké Ball holos and Master Ball holos and every special print, with images, copy counts, binder pages and prices. No sign-up needed.",
+    "description": "Free checklist for the Pokémon TCG White Flare set. Track all 173 cards, or go further with the reverse holos, Poké Ball holos and Master Ball holos, with images, copy counts, binder pages and prices. No sign-up needed.",
     "ogTitle": "Pokémon TCG White Flare Checklist",
-    "ogDescription": "Track all 173 cards in Pokémon TCG White Flare: the 86-card main set and 87 secret rares, plus 232 reverse holos, Poké Ball holos and Master Ball holos for a master set and 5 special prints for a grand master set. Free, no sign-up, works offline.",
+    "ogDescription": "Track all 173 cards in Pokémon TCG White Flare: the 86-card main set and 87 secret rares, plus 232 reverse holos, Poké Ball holos and Master Ball holos. Free, no sign-up, works offline.",
     "twitterDescription": "Track all 173 cards in Pokémon TCG White Flare. Free, no sign-up, works offline."
   },
   "about": {
     "title": "About the White Flare set",
     "paragraphs": [
-      "Pokémon TCG: White Flare is a Scarlet & Violet expansion released on 17 July 2025. It has 173 cards: 86 in the main set and 87 secret rares. For a master set there are also 232 reverse holos, Poké Ball holos and Master Ball holos, and 5 special prints from other products and events.",
-      "Choose what you’re collecting: the <b>Standard set</b> (the 86 main set cards), the <b>Complete set</b> (all 173 cards), the <b>Master set</b> (405 cards, adding every reverse holos, Poké Ball holos and Master Ball holos) or the <b>Grand Master set</b> (410 cards, adding the 5 special prints (stamped, Cosmos Holo and other product-exclusive cards)).",
+      "Pokémon TCG: White Flare is a Scarlet & Violet expansion released on 17 July 2025. It has 173 cards: 86 in the main set and 87 secret rares. There are also 232 reverse holos, Poké Ball holos and Master Ball holos.",
+      "Choose what you’re collecting: the <b>Standard set</b> (the 86 main set cards), the <b>Master set</b> (318 cards, adding the reverse holos, Poké Ball holos and Master Ball holos) or the <b>Grand Master set</b> (all 405 cards, adding the 87 secret rares).",
       "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device."
     ]
   },
@@ -181,7 +167,6 @@
     {"id":"011-rh","section":"reverse","num":"011","printed":"011/086","code":"R11","name":"Tepig","rarity":"C","img":"011","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":642126,"sub":"Reverse Holofoil","idx":38},
     {"id":"011-mb","section":"masterball","num":"011","printed":"011/086","code":"MB11","name":"Tepig","rarity":"C","img":"011","badge":"Master Ball","variant":"Master Ball","foil":true,"tcg":642299,"idx":39},
     {"id":"011-pb","section":"pokeball","num":"011","printed":"011/086","code":"PB11","name":"Tepig","rarity":"C","img":"011","badge":"Poké Ball","variant":"Poké Ball","foil":true,"tcg":642371,"idx":40},
-    {"id":"011-tinsel","section":"special","num":"011","printed":"011/086","code":"","name":"Tepig","rarity":"C","img":"011","badge":"Tinsel Holo","variant":"Tinsel Holo","foil":true,"note":"A Tinsel Holo print, from special products.","idx":41},
     {"id":"012","section":"main","num":"012","printed":"012/086","code":"12","name":"Pignite","rarity":"C","tcg":642127,"idx":42},
     {"id":"012-rh","section":"reverse","num":"012","printed":"012/086","code":"R12","name":"Pignite","rarity":"C","img":"012","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":642127,"sub":"Reverse Holofoil","idx":43},
     {"id":"012-mb","section":"masterball","num":"012","printed":"012/086","code":"MB12","name":"Pignite","rarity":"C","img":"012","badge":"Master Ball","variant":"Master Ball","foil":true,"tcg":642300,"idx":44},
@@ -215,12 +200,10 @@
     {"id":"019-mb","section":"masterball","num":"019","printed":"019/086","code":"MB19","name":"Heatmor","rarity":"U","img":"019","badge":"Master Ball","variant":"Master Ball","foil":true,"tcg":642304,"idx":72},
     {"id":"019-pb","section":"pokeball","num":"019","printed":"019/086","code":"PB19","name":"Heatmor","rarity":"U","img":"019","badge":"Poké Ball","variant":"Poké Ball","foil":true,"tcg":642376,"idx":73},
     {"id":"020","section":"main","num":"020","printed":"020/086","code":"20","name":"Reshiram ex","rarity":"RR","tcg":642132,"idx":74},
-    {"id":"020-set-logo","section":"special","num":"020","printed":"020/086","code":"","name":"Reshiram ex","rarity":"RR","img":"020","badge":"Set Stamp","variant":"Set Stamp","foil":true,"note":"Stamped with the set logo: a prerelease and Build & Battle Box promo.","tcg":668958,"grp":2374,"idx":75},
     {"id":"021","section":"main","num":"021","printed":"021/086","code":"21","name":"Oshawott","rarity":"C","tcg":642133,"idx":76},
     {"id":"021-rh","section":"reverse","num":"021","printed":"021/086","code":"R21","name":"Oshawott","rarity":"C","img":"021","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":642133,"sub":"Reverse Holofoil","idx":77},
     {"id":"021-mb","section":"masterball","num":"021","printed":"021/086","code":"MB21","name":"Oshawott","rarity":"C","img":"021","badge":"Master Ball","variant":"Master Ball","foil":true,"tcg":642305,"idx":78},
     {"id":"021-pb","section":"pokeball","num":"021","printed":"021/086","code":"PB21","name":"Oshawott","rarity":"C","img":"021","badge":"Poké Ball","variant":"Poké Ball","foil":true,"tcg":642377,"idx":79},
-    {"id":"021-tinsel","section":"special","num":"021","printed":"021/086","code":"","name":"Oshawott","rarity":"C","img":"021","badge":"Tinsel Holo","variant":"Tinsel Holo","foil":true,"note":"A Tinsel Holo print, from special products.","idx":80},
     {"id":"022","section":"main","num":"022","printed":"022/086","code":"22","name":"Dewott","rarity":"C","tcg":642134,"idx":81},
     {"id":"022-rh","section":"reverse","num":"022","printed":"022/086","code":"R22","name":"Dewott","rarity":"C","img":"022","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":642134,"sub":"Reverse Holofoil","idx":82},
     {"id":"022-mb","section":"masterball","num":"022","printed":"022/086","code":"MB22","name":"Dewott","rarity":"C","img":"022","badge":"Master Ball","variant":"Master Ball","foil":true,"tcg":642306,"idx":83},
@@ -335,7 +318,6 @@
     {"id":"051-rh","section":"reverse","num":"051","printed":"051/086","code":"R51","name":"Archeops","rarity":"R","img":"051","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":642163,"sub":"Reverse Holofoil","idx":192},
     {"id":"051-mb","section":"masterball","num":"051","printed":"051/086","code":"MB51","name":"Archeops","rarity":"R","img":"051","badge":"Master Ball","variant":"Master Ball","foil":true,"tcg":642333,"idx":193},
     {"id":"051-pb","section":"pokeball","num":"051","printed":"051/086","code":"PB51","name":"Archeops","rarity":"R","img":"051","badge":"Poké Ball","variant":"Poké Ball","foil":true,"tcg":642405,"idx":194},
-    {"id":"051-fossil-museum","section":"special","num":"051","printed":"051/086","code":"","name":"Archeops","rarity":"R","img":"051","badge":"Fossil Museum","variant":"Fossil Museum","foil":true,"note":"From the Pokémon Fossil Museum exhibition.","tcg":695136,"grp":2374,"idx":195},
     {"id":"052","section":"main","num":"052","printed":"052/086","code":"52","name":"Mienfoo","rarity":"C","tcg":642164,"idx":196},
     {"id":"052-rh","section":"reverse","num":"052","printed":"052/086","code":"R52","name":"Mienfoo","rarity":"C","img":"052","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":642164,"sub":"Reverse Holofoil","idx":197},
     {"id":"052-mb","section":"masterball","num":"052","printed":"052/086","code":"MB52","name":"Mienfoo","rarity":"C","img":"052","badge":"Master Ball","variant":"Master Ball","foil":true,"tcg":642334,"idx":198},
@@ -380,7 +362,6 @@
     {"id":"062-rh","section":"reverse","num":"062","printed":"062/086","code":"R62","name":"Zoroark","rarity":"R","img":"062","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":642174,"sub":"Reverse Holofoil","idx":237},
     {"id":"062-mb","section":"masterball","num":"062","printed":"062/086","code":"MB62","name":"Zoroark","rarity":"R","img":"062","badge":"Master Ball","variant":"Master Ball","foil":true,"tcg":642344,"idx":238},
     {"id":"062-pb","section":"pokeball","num":"062","printed":"062/086","code":"PB62","name":"Zoroark","rarity":"R","img":"062","badge":"Poké Ball","variant":"Poké Ball","foil":true,"tcg":642416,"idx":239},
-    {"id":"062-set-logo","section":"special","num":"062","printed":"062/086","code":"","name":"Zoroark","rarity":"R","img":"062","badge":"Set Stamp","variant":"Set Stamp","foil":true,"note":"Stamped with the set logo: a prerelease and Build & Battle Box promo.","tcg":668959,"grp":2374,"idx":240},
     {"id":"063","section":"main","num":"063","printed":"063/086","code":"63","name":"Vullaby","rarity":"C","tcg":642512,"idx":241},
     {"id":"063-rh","section":"reverse","num":"063","printed":"063/086","code":"R63","name":"Vullaby","rarity":"C","img":"063","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":642512,"sub":"Reverse Holofoil","idx":242},
     {"id":"063-mb","section":"masterball","num":"063","printed":"063/086","code":"MB63","name":"Vullaby","rarity":"C","img":"063","badge":"Master Ball","variant":"Master Ball","foil":true,"tcg":642681,"idx":243},

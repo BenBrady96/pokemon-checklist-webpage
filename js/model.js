@@ -1,6 +1,5 @@
 export const TIER_DEFS = [
   { id: 'standard', name: 'Standard Set', label: 'Standard' },
-  { id: 'complete', name: 'Complete Set', label: 'Complete' },
   { id: 'master', name: 'Master Set', label: 'Master' },
   { id: 'grand', name: 'Grand Master Set', label: 'Grand Master' },
 ];
@@ -20,13 +19,15 @@ function matcher(match = {}) {
 }
 
 function tierVisibility(tiers) {
-  const [standard, complete, master, grand] = tiers;
-  const n = (t) => t.cards.length;
-  master.visible = true;
-  standard.visible = n(standard) > 0 && n(standard) !== n(master);
-  complete.visible = n(complete) !== n(standard) && n(complete) !== n(master);
-  grand.visible = n(grand) !== n(master);
-  for (const t of tiers) t.as = t.visible ? t : tiers.find((v) => v.visible && n(v) === n(t)) || master;
+  let shown = null;
+  for (const t of tiers) {
+    t.visible = t.cards.length > (shown ? shown.cards.length : 0);
+    if (t.visible) shown = t;
+    t.as = shown;
+  }
+  const first = tiers.find((t) => t.visible) || tiers.at(-1);
+  first.visible = true;
+  for (const t of tiers) t.as ||= first;
 }
 
 export function buildCollection(raw, { game, colors = {}, imageBase = '', logo = null }) {
@@ -93,7 +94,7 @@ export function buildCollection(raw, { game, colors = {}, imageBase = '', logo =
   const single = visibleTiers.length === 1;
   if (single) Object.assign(visibleTiers[0], { name: 'Set', label: 'All cards' });
   const tierById = new Map(tiers.map((t) => [t.id, t]));
-  const defaultTier = (tierById.get(raw.defaultTier) || tierById.get('complete')).as.id;
+  const defaultTier = (tierById.get(raw.defaultTier) || tierById.get('grand')).as.id;
   const getTier = (id) => (tierById.get(id) || tierById.get(defaultTier)).as;
 
   const groups = (raw.groups || sections.map((s) => ({ id: s.id, name: s.name, match: { section: s.id } })))
@@ -122,6 +123,7 @@ export function buildCollection(raw, { game, colors = {}, imageBase = '', logo =
     rarityById,
     cards,
     cardById,
+    cardCount: cards.filter((c) => !c.variant).length,
     cardsBySection: new Map(sections.map((s) => [s.id, cards.filter((c) => c.section === s.id)])),
     tiers,
     visibleTiers,

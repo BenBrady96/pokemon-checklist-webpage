@@ -84,14 +84,10 @@ const FIRST_PARTNERS = [
   ['7 Aug 2026', ['Treecko', 'Torchic', 'Mudkip', 'Chespin', 'Fennekin', 'Froakie', 'Sprigatito', 'Fuecoco', 'Quaxly']],
 ];
 
-const VARIANTS = [
-  ['m063', 'Mewtwo (Stamped)', 'Stamped', 'What’s Your Favorite? stamp · retailer gift with purchase from 2 Oct 2026'],
-  ['m116', 'Eevee (Cosmos Holo)', 'Cosmos Holo', 'Knock Out Collection · 2-Pack Blister'],
-];
+// 216 and 217 belonged to the stamped Mewtwo and Cosmos Holo Eevee, which are no longer listed. Old share links still use them, so don't reuse them.
+const IDX = { main: 0, classic: 158, rgb: 196 };
 
-const IDX = { main: 0, classic: 158, rgb: 196, variant: 216 };
-
-const BASE_CARDS = [
+const CARDS = [
   ...MAIN_NAMES.map((name, i) => {
     const n = i + 1;
     const num = String(n).padStart(3, '0');
@@ -103,19 +99,6 @@ const BASE_CARDS = [
   ...RGB_MEWS.map(([letter, colour], i) => {
     const num = `${letter.toUpperCase()}/RGB`;
     return { id: `rgb-${letter}`, section: 'secret', num, printed: num, code: num, name: 'Mew', rarity: 'RGB', keywords: colour, idx: IDX.rgb + i };
-  }),
-];
-
-const BASE_BY_ID = new Map(BASE_CARDS.map((c) => [c.id, c]));
-
-const CARDS = [
-  ...BASE_CARDS,
-  ...VARIANTS.map(([baseId, name, badge, note], i) => {
-    const base = BASE_BY_ID.get(baseId);
-    return {
-      id: `v${String(i + 1).padStart(2, '0')}`, section: 'variant', num: base.num, printed: base.printed, code: `V${i + 1}`,
-      name, rarity: base.rarity, base: baseId, badge, note, idx: IDX.variant + i,
-    };
   }),
 ];
 
@@ -132,7 +115,6 @@ export const promoDetails = {
   '099': 'The box also has an oversize Jumbo version of this card.',
   '100': 'The box also has an oversize Jumbo version of this card.',
   '101': 'The Pokémon Center Elite Trainer Box has this card as well as a Pokémon Center-stamped version.',
-  '101-pokemon-center': 'Only in the Pokémon Center Elite Trainer Box, which also has the regular Nidorina promo.',
   '104': 'The collection also has an oversize Jumbo version of this card and a Mewtwo figure.',
   '105': 'The collection also has an oversize Jumbo version of this card and a Mew figure.',
 };
@@ -149,17 +131,13 @@ export default {
   syncKey: '30C',
   released: '2026-09-16',
   printedTotal: PRINTED_TOTAL,
-  defaultTier: 'master',
+  defaultTier: 'grand',
   sections: [
     { id: 'main', name: 'Main Set', range: '001–128', tier: 'standard' },
-    { id: 'secret', name: 'Secret Rares', range: '129–158 + RGB', tier: 'complete' },
+    { id: 'secret', name: 'Secret Rares', range: '129–158 + RGB', tier: 'grand' },
     {
-      id: 'classic', name: 'Classic Collection', range: '30 reprints', tier: 'complete',
+      id: 'classic', name: 'Classic Collection', range: '30 reprints', tier: 'grand',
       display: { number: 'Classic Collection · No. {num}', label: 'Classic Collection {num}', list: '{name} ({num})', chip: '{code} {name}', pocket: '{code}', search: 'Pokemon 30th Celebration Classic Collection {name}' },
-    },
-    {
-      id: 'variant', name: 'Variants', range: 'stamped & alternate prints', tier: 'grand',
-      display: { label: '{printed}', list: '{printed} {name}', chip: '{code} {name}', pocket: '{code}', search: 'Pokemon {baseName} {basePrinted} {badge}' },
     },
   ],
   groups: [
@@ -167,14 +145,12 @@ export default {
     { id: 'pikachu', name: 'Pikachu Rares', match: { rarity: 'PR' }, stat: true },
     { id: 'secret', name: 'Secret Rares', match: { section: 'secret' } },
     { id: 'classic', name: 'Classic Collection', match: { section: 'classic' } },
-    { id: 'variant', name: 'Variants', match: { section: 'variant' } },
   ],
   jumps: [
     { id: 'main', label: 'Main Set' },
     { id: 'pikachu', label: 'Pikachu Rares', icon: 'r-pikachu', section: 'main', from: 'm023', to: 'm052' },
     { id: 'secret', label: 'Secret Rares' },
     { id: 'classic', label: 'Classic' },
-    { id: 'variant', label: 'Variants' },
   ],
   summary: [['main', 'Main set'], ['secret', 'Secret rares'], ['classic', 'Classic Collection']],
   searchAliases: {
@@ -186,7 +162,7 @@ export default {
   quickAdd: {
     placeholder: 'e.g. 1-22, 55, 129x2, C1-C5, RGB',
     example: '1-22, 55x2, C3, RGB',
-    hint: 'Separate with commas or spaces. <b>1-22</b> is a range, <b>55x2</b> is two copies and <b>C1–C30</b> are Classic Collection cards in checklist order. <b>RGB</b> adds all three RGB Mews (or one with <b>R/RGB</b>, <b>G/RGB</b>, <b>B/RGB</b>), and <b>V1</b> and <b>V2</b> are the variants.',
+    hint: 'Separate with commas or spaces. <b>1-22</b> is a range, <b>55x2</b> is two copies and <b>C1–C30</b> are Classic Collection cards in checklist order. <b>RGB</b> adds all three RGB Mews (or one with <b>R/RGB</b>, <b>G/RGB</b>, <b>B/RGB</b>).',
     empty: 'Main set cards are 1–158 (secret rares start at 129).',
     aliases: {
       RGB: ['rgb-r', 'rgb-g', 'rgb-b'],
@@ -200,7 +176,7 @@ export default {
     },
   },
   help: {
-    tiers: '<b>Standard, Master or Grand Master:</b> pick what you’re collecting above the cards. Standard is the 128 main set cards, Master is all 191 cards, and Grand Master adds the stamped Mewtwo and the Cosmos Holo Eevee. Cards you’ve marked are kept when you switch.',
+    tiers: '<b>Standard or Grand Master:</b> pick what you’re collecting above the cards. Standard is the 128 main set cards and Grand Master is all 191 cards. Cards you’ve marked are kept when you switch.',
   },
   info: {
     packSections: ['main', 'secret', 'classic'],
@@ -222,10 +198,6 @@ export default {
       C: 'Commons make up most of each pack.',
       RGB: 'RGB Rares are extremely rare: roughly 1 in 4,000 packs, from the few found so far.',
     },
-    details: {
-      v01: 'Given away with Pokémon TCG purchases of $15 or more at participating shops in the US, Canada, Australia and New Zealand, while stocks last.',
-      v02: 'The Cosmos Holo version only comes in these two products. The regular Eevee 116 is found in booster packs.',
-    },
   },
   seo: {
     title: 'Pokémon TCG 30th Celebration Checklist · All 191 Cards',
@@ -240,7 +212,7 @@ export default {
     title: 'About the 30th Celebration set',
     paragraphs: [
       'Pokémon TCG: 30th Celebration marks 30 years of Pokémon. The set has 191 cards: 128 main set cards, including 30 special Pikachu Rares; 33 secret rares (18 Illustration Rares, 10 Special Illustration Rares, 2 Futuristic Rares and the 3 ultra-rare RGB Mews); and 30 Classic Collection reprints of iconic cards from the game’s history. Its 8 Basic Energy cards are listed in <a href="pokemon/me-energy/">ME Energy</a>, and the promos from 30th Celebration products in <a href="pokemon/me-black-star-promos/">ME Black Star Promos</a>.',
-      'Choose what you’re collecting: the <b>Standard set</b> (the 128 main set cards), the <b>Master set</b> (all 191 cards) or the <b>Grand Master set</b> (193 cards: every card plus the What’s Your Favorite? stamped Mewtwo and the Cosmos Holo Eevee).',
+      'Choose what you’re collecting: the <b>Standard set</b> (the 128 main set cards) or the <b>Grand Master set</b> (all 191 cards).',
       'This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.',
     ],
   },
@@ -260,8 +232,7 @@ const CLASSIC_IMAGE = {
   c21: 23, c22: 9, c23: 17, c24: 13, c25: 8, c26: 28, c27: 12, c28: 26, c29: 27, c30: 30,
 };
 
-export function imageSource(card, cardById) {
-  if (card.base) return imageSource(cardById.get(card.base), cardById);
+export function imageSource(card) {
   if (card.section === 'classic') return `${CDN}/2M6P_Classic_EN_${CLASSIC_IMAGE[card.id]}-2x.png`;
   if (card.rarity === 'RGB') return RGB_SOURCES[card.id];
   return `${CDN}/2M6P_EN_${Number(card.id.slice(1))}-2x.png`;
@@ -270,7 +241,6 @@ export function imageSource(card, cardById) {
 export const tcgplayerGroups = { set: 24722, classic: 24837 };
 
 export function productFor(card, groups, { number, firstWord, only }) {
-  if (card.base) return null;
   if (card.section === 'classic') {
     const sameNumber = groups.classic.products.filter((p) => parseInt(number(p), 10) === Number(card.num));
     return only(sameNumber.length > 1 ? sameNumber.filter((p) => firstWord(p.name) === firstWord(card.name)) : sameNumber);

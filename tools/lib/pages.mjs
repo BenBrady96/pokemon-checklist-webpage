@@ -38,7 +38,7 @@ export async function collectionPage(id, { siteUrl = DEFAULT_URL } = {}) {
   const url = `${siteUrl}${id}/`;
   const ogImage = `${siteUrl}${await ogImageFor(id)}`;
   const seo = raw.seo || {};
-  const complete = model.getTier('complete').cards.length;
+  const complete = model.cardCount;
   const title = seo.title || `${game.name} ${raw.name} Checklist · All ${complete} Cards`;
   const description = seo.description || `Free checklist for the ${game.name} ${raw.name} set.`;
   const ogTitle = seo.ogTitle || `${game.name} ${raw.name} Checklist`;
