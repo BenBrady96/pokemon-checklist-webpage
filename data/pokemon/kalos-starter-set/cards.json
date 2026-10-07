@@ -1,0 +1,103 @@
+{
+  "id": "pokemon/kalos-starter-set",
+  "game": "pokemon",
+  "slug": "kalos-starter-set",
+  "name": "Kalos Starter Set",
+  "series": "XY",
+  "kind": "expansion",
+  "code": "KSS",
+  "syncKey": "KSS",
+  "released": "2013-11-08",
+  "printedTotal": 39,
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Main Set",
+      "range": "001–039",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Main set"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-22, 55, 60x2",
+    "example": "1-22, 55x2",
+    "hint": "Separate with commas or spaces. <b>1-22</b> is a range and <b>55x2</b> is two copies.",
+    "empty": "Main set cards are 1–39."
+  },
+  "info": {
+    "packSections": [
+      "main"
+    ],
+    "sectionText": {},
+    "packText": "<p><b>Kalos Starter Set booster packs.</b></p>",
+    "packProducts": []
+  },
+  "seo": {
+    "title": "Pokémon TCG Kalos Starter Set Checklist · All 39 Cards",
+    "description": "Free checklist for the Pokémon TCG Kalos Starter Set set. Track all 39 cards, with images, copy counts, binder pages and prices. No sign-up needed.",
+    "ogTitle": "Pokémon TCG Kalos Starter Set Checklist",
+    "ogDescription": "Track all 39 cards in Pokémon TCG Kalos Starter Set: the 39-card main set and 0 secret rares. Free, no sign-up, works offline.",
+    "twitterDescription": "Track all 39 cards in Pokémon TCG Kalos Starter Set. Free, no sign-up, works offline."
+  },
+  "about": {
+    "title": "About the Kalos Starter Set set",
+    "paragraphs": [
+      "Pokémon TCG: Kalos Starter Set is a XY expansion released on 8 November 2013. It has 39 cards: 39 in the main set and 0 secret rares.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device."
+    ]
+  },
+  "source": {
+    "tcgdex": "xy0",
+    "tcgplayer": [
+      1522
+    ],
+    "serie": "xy"
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"001/039","code":"1","name":"Weedle","rarity":"C","tcg":90549,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"002/039","code":"2","name":"Pansage","rarity":"C","tcg":87939,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"003/039","code":"3","name":"Chespin","rarity":"C","tcg":84271,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"004/039","code":"4","name":"Quilladin","rarity":"C","tcg":88490,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"005/039","code":"5","name":"Chesnaught","rarity":"C","tcg":84268,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"006/039","code":"6","name":"Slugma","rarity":"C","tcg":89348,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"007/039","code":"7","name":"Pansear","rarity":"C","tcg":87946,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"008/039","code":"8","name":"Fennekin","rarity":"C","tcg":85411,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"009/039","code":"9","name":"Braixen","rarity":"C","tcg":83949,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"010/039","code":"10","name":"Delphox","rarity":"C","tcg":84753,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"011/039","code":"11","name":"Panpour","rarity":"C","tcg":87931,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"012/039","code":"12","name":"Froakie","rarity":"C","tcg":85569,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"013/039","code":"13","name":"Frogadier","rarity":"C","tcg":85571,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"014/039","code":"14","name":"Greninja","rarity":"C","tcg":85903,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"015/039","code":"15","name":"Clauncher","rarity":"C","tcg":84326,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"016/039","code":"16","name":"Poochyena","rarity":"C","tcg":88302,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"017/039","code":"17","name":"Mightyena","rarity":"C","tcg":87449,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"018/039","code":"18","name":"Inkay","rarity":"C","tcg":86285,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"019/039","code":"19","name":"Pawniard","rarity":"C","tcg":87973,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"020/039","code":"20","name":"Bisharp","rarity":"C","tcg":83847,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"021/039","code":"21","name":"Honedge","rarity":"C","tcg":86167,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"022/039","code":"22","name":"Snubbull","rarity":"C","tcg":89418,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"023/039","code":"23","name":"Granbull","rarity":"C","tcg":85867,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"024/039","code":"24","name":"Swirlix","rarity":"C","tcg":89708,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"025/039","code":"25","name":"Farfetch'd","rarity":"C","tcg":85390,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"026/039","code":"26","name":"Snorlax","rarity":"C","tcg":89394,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"027/039","code":"27","name":"Miltank","rarity":"C","tcg":87468,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"028/039","code":"28","name":"Skitty","rarity":"C","tcg":89272,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"029/039","code":"29","name":"Bidoof","rarity":"C","tcg":83831,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"030/039","code":"30","name":"Bunnelby","rarity":"C","tcg":84047,"idx":29},
+    {"id":"031","section":"main","num":"031","printed":"031/039","code":"31","name":"Fletchling","rarity":"C","tcg":85508,"idx":30},
+    {"id":"032","section":"main","num":"032","printed":"032/039","code":"32","name":"Furfrou","rarity":"C","tcg":85587,"idx":31},
+    {"id":"033","section":"main","num":"033","printed":"033/039","code":"33","name":"Furfrou","rarity":"C","tcg":85588,"idx":32},
+    {"id":"034","section":"main","num":"034","printed":"034/039","code":"34","name":"Crushing Hammer","rarity":"C","tcg":84507,"idx":33},
+    {"id":"035","section":"main","num":"035","printed":"035/039","code":"35","name":"Poké Ball","rarity":"C","tcg":88194,"idx":34},
+    {"id":"036","section":"main","num":"036","printed":"036/039","code":"36","name":"Pokémon Catcher","rarity":"C","tcg":88211,"idx":35},
+    {"id":"037","section":"main","num":"037","printed":"037/039","code":"37","name":"Potion","rarity":"C","tcg":88349,"idx":36},
+    {"id":"038","section":"main","num":"038","printed":"038/039","code":"38","name":"Switch","rarity":"C","tcg":89723,"idx":37},
+    {"id":"039","section":"main","num":"039","printed":"039/039","code":"39","name":"Tierno","rarity":"C","tcg":89911,"idx":38}
+  ]
+}

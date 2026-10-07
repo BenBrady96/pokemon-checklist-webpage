@@ -1,0 +1,92 @@
+{
+  "id": "pokemon/best-of-game",
+  "game": "pokemon",
+  "slug": "best-of-game",
+  "name": "Best of Game",
+  "series": "Other",
+  "kind": "collection",
+  "code": "BG",
+  "syncKey": "BG",
+  "released": "2002-12-01",
+  "printedTotal": 9,
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "001–009",
+      "tier": "standard"
+    },
+    {
+      "id": "reverse",
+      "name": "Reverse Holos",
+      "short": "Reverse Holos",
+      "range": "5 cards",
+      "tier": "master"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ],
+    [
+      "reverse",
+      "Reverse holos"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-22, 55, R12, 60x2",
+    "example": "1-22, 55x2, R12",
+    "hint": "Separate with commas or spaces. <b>1-22</b> is a range and <b>55x2</b> is two copies. <b>R12</b> is card 12’s reverse holo, and ranges work too (<b>R1-R20</b>).",
+    "empty": "Cards are 1–9."
+  },
+  "help": {
+    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 9 cards. Master adds the 5 reverse holos. Cards you’ve marked are kept when you switch."
+  },
+  "info": {
+    "packSections": [],
+    "sectionText": {
+      "main": [
+        "<p><b>From Best of Game.</b></p>"
+      ]
+    }
+  },
+  "seo": {
+    "title": "Pokémon TCG Best of Game Checklist · All 9 Cards",
+    "description": "Free checklist for the 9 Pokémon TCG Best of Game cards, with images, copy counts, binder pages and prices. No sign-up needed.",
+    "ogTitle": "Pokémon TCG Best of Game Checklist",
+    "ogDescription": "Track all 9 Pokémon TCG Best of Game cards. Free, no sign-up, works offline."
+  },
+  "about": {
+    "title": "About Best of Game",
+    "paragraphs": [
+      "Pokémon TCG: Best of Game came out on 1 December 2002 and has 9 cards, plus 5 reverse holos.",
+      "Choose what you’re collecting: the <b>Standard set</b> (the 9 cards) or the <b>Master set</b> (14 cards, adding the reverse holos).",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device."
+    ]
+  },
+  "source": {
+    "tcgdex": "bog",
+    "tcgplayer": [
+      1455
+    ],
+    "serie": "ecard"
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"001/009","code":"1","name":"Electabuzz","rarity":"P","tcg":85106,"idx":0},
+    {"id":"001-rh","section":"reverse","num":"001","printed":"001/009","code":"R1","name":"Electabuzz","rarity":"P","img":"001","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":85106,"sub":"Reverse Holofoil","idx":9},
+    {"id":"002","section":"main","num":"002","printed":"002/009","code":"2","name":"Hitmonchan","rarity":"P","tcg":86098,"idx":1},
+    {"id":"002-rh","section":"reverse","num":"002","printed":"002/009","code":"R2","name":"Hitmonchan","rarity":"P","img":"002","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":86098,"sub":"Reverse Holofoil","idx":10},
+    {"id":"003","section":"main","num":"003","printed":"003/009","code":"3","name":"Professor Elm","rarity":"P","tcg":88387,"idx":2},
+    {"id":"003-rh","section":"reverse","num":"003","printed":"003/009","code":"R3","name":"Professor Elm","rarity":"P","img":"003","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":88387,"sub":"Reverse Holofoil","idx":11},
+    {"id":"004","section":"main","num":"004","printed":"004/009","code":"4","name":"Rocket’s Scizor","rarity":"P","tcg":88786,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"005/009","code":"5","name":"Rocket’s Sneasel","rarity":"P","tcg":88793,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"006/009","code":"6","name":"Dark Ivysaur","rarity":"P","tcg":84616,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"007/009","code":"7","name":"Dark Venusaur","rarity":"P","tcg":84666,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"008/009","code":"8","name":"Rocket’s Mewtwo","rarity":"P","tcg":167080,"idx":7},
+    {"id":"008-rh","section":"reverse","num":"008","printed":"008/009","code":"R8","name":"Rocket’s Mewtwo","rarity":"P","img":"008","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":167080,"sub":"Reverse Holofoil","idx":12},
+    {"id":"009","section":"main","num":"009","printed":"009/009","code":"9","name":"Rocket’s Hitmonchan","rarity":"P","tcg":167079,"idx":8},
+    {"id":"009-rh","section":"reverse","num":"009","printed":"009/009","code":"R9","name":"Rocket’s Hitmonchan","rarity":"P","img":"009","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":167079,"sub":"Reverse Holofoil","idx":13}
+  ]
+}

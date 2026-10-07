@@ -1,5 +1,4 @@
 import { openDialog, vibrate } from './ui.js';
-import { asset } from './paths.js';
 import { loadCatalog } from './catalog.js';
 import { fetchCollection } from './collection.js';
 import * as storage from './storage.js';
@@ -56,7 +55,6 @@ const icon = (id) => {
 };
 
 const setInfo = (id) => catalog?.collections.find((c) => c.id === id) || { id, name: id };
-const imageSrc = (set, imageId) => asset(`img/cards/${set}/sm/${imageId}.webp`);
 
 function setPanel(open) {
   panel.hidden = !open;
@@ -279,13 +277,13 @@ async function renderPanel() {
         state.variant = null;
         renderPanel();
       },
-    }, el('img', { src: imageSrc(c.set, c.imageId), alt: '', loading: 'lazy', decoding: 'async' }),
+    }, el('img', { src: c.image, alt: '', loading: 'lazy', decoding: 'async' }),
     el('span', { class: 'scan-pick__name', text: c.name }),
     el('span', { class: 'scan-pick__set', text: `${setInfo(c.set).code || setInfo(c.set).name} · ${c.printed}` }))))
     : null;
 
   const detail = el('div', { class: 'scan-detail' },
-    el('img', { class: 'scan-detail__img', src: imageSrc(candidate.set, candidate.imageId), alt: '' }),
+    el('img', { class: 'scan-detail__img', src: candidate.image, alt: '' }),
     el('div', { class: 'scan-detail__text' },
       el('p', { class: 'scan-detail__name', text: candidate.name }),
       el('p', { class: 'scan-detail__set', text: `${setInfo(candidate.set).name} · ${candidate.printed}` }),
@@ -425,9 +423,9 @@ function openSearch(initial = '') {
       class: 'scan-search__row',
       role: 'listitem',
       onclick: () => openPanel({ title: 'Is it this card?', hint: '', list: [row], selected: 0 }),
-    }, el('img', { src: imageSrc(row.set, row.imageId), alt: '', loading: 'lazy', decoding: 'async' }),
+    }, el('img', { src: row.image, alt: '', loading: 'lazy', decoding: 'async' }),
     el('span', {}, el('b', { text: row.name }), el('small', { text: `${setInfo(row.set).name} · ${row.printed}` })))));
-    if (input.value.trim() && !rows.length) results.append(el('p', { class: 'hint', text: 'No cards match. This site covers Scarlet & Violet and Mega Evolution sets.' }));
+    if (input.value.trim() && !rows.length) results.append(el('p', { class: 'hint', text: 'No cards match. Try another spelling, or the number printed on the card.' }));
   };
   input.addEventListener('input', run);
   view = { search: true };

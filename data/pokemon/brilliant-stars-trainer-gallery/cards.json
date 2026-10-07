@@ -1,0 +1,94 @@
+{
+  "id": "pokemon/brilliant-stars-trainer-gallery",
+  "game": "pokemon",
+  "slug": "brilliant-stars-trainer-gallery",
+  "name": "Brilliant Stars (Trainer Gallery)",
+  "series": "Sword & Shield",
+  "kind": "expansion",
+  "code": "BRSTG",
+  "syncKey": "BRSTG",
+  "released": "2022-02-25",
+  "printedTotal": 30,
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Main Set",
+      "range": "TG01–TG30",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Main set"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-22, 55, 60x2",
+    "example": "1-22, 55x2",
+    "hint": "Separate with commas or spaces. <b>1-22</b> is a range and <b>55x2</b> is two copies.",
+    "empty": "Cards are TG1–TG30."
+  },
+  "info": {
+    "packSections": [
+      "main"
+    ],
+    "sectionText": {},
+    "packText": "<p><b>Brilliant Stars (Trainer Gallery) booster packs.</b></p>",
+    "packProducts": []
+  },
+  "seo": {
+    "title": "Pokémon TCG Brilliant Stars (Trainer Gallery) Checklist · All 30 Cards",
+    "description": "Free checklist for the Pokémon TCG Brilliant Stars (Trainer Gallery) set. Track all 30 cards, with images, copy counts, binder pages and prices. No sign-up needed.",
+    "ogTitle": "Pokémon TCG Brilliant Stars (Trainer Gallery) Checklist",
+    "ogDescription": "Track all 30 cards in Pokémon TCG Brilliant Stars (Trainer Gallery): the 30-card main set and 0 secret rares. Free, no sign-up, works offline.",
+    "twitterDescription": "Track all 30 cards in Pokémon TCG Brilliant Stars (Trainer Gallery). Free, no sign-up, works offline."
+  },
+  "about": {
+    "title": "About the Brilliant Stars (Trainer Gallery) set",
+    "paragraphs": [
+      "Pokémon TCG: Brilliant Stars (Trainer Gallery) is a Sword & Shield expansion released on 25 February 2022. It has 30 cards: 30 in the main set and 0 secret rares.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device."
+    ]
+  },
+  "source": {
+    "tcgdex": "swsh9tg",
+    "tcgplayer": [
+      3020
+    ],
+    "serie": "swsh"
+  },
+  "cards": [
+    {"id":"TG01","section":"main","num":"TG01","printed":"TG01","code":"TG1","name":"Flareon","rarity":"R","tcg":264210,"idx":0},
+    {"id":"TG02","section":"main","num":"TG02","printed":"TG02","code":"TG2","name":"Vaporeon","rarity":"R","tcg":264211,"idx":1},
+    {"id":"TG03","section":"main","num":"TG03","printed":"TG03","code":"TG3","name":"Octillery","rarity":"R","tcg":264212,"idx":2},
+    {"id":"TG04","section":"main","num":"TG04","printed":"TG04","code":"TG4","name":"Jolteon","rarity":"R","tcg":264213,"idx":3},
+    {"id":"TG05","section":"main","num":"TG05","printed":"TG05","code":"TG5","name":"Zekrom","rarity":"R","tcg":264205,"idx":4},
+    {"id":"TG06","section":"main","num":"TG06","printed":"TG06","code":"TG6","name":"Dusknoir","rarity":"R","tcg":264214,"idx":5},
+    {"id":"TG07","section":"main","num":"TG07","printed":"TG07","code":"TG7","name":"Dedenne","rarity":"R","tcg":264215,"idx":6},
+    {"id":"TG08","section":"main","num":"TG08","printed":"TG08","code":"TG8","name":"Alcremie","rarity":"R","tcg":264216,"idx":7},
+    {"id":"TG09","section":"main","num":"TG09","printed":"TG09","code":"TG9","name":"Ariados","rarity":"R","tcg":264204,"idx":8},
+    {"id":"TG10","section":"main","num":"TG10","printed":"TG10","code":"TG10","name":"Houndoom","rarity":"R","tcg":264217,"idx":9},
+    {"id":"TG11","section":"main","num":"TG11","printed":"TG11","code":"TG11","name":"Eevee","rarity":"R","tcg":264218,"idx":10},
+    {"id":"TG12","section":"main","num":"TG12","printed":"TG12","code":"TG12","name":"Oranguru","rarity":"R","tcg":264219,"idx":11},
+    {"id":"TG13","section":"main","num":"TG13","printed":"TG13","code":"TG13","name":"Boltund V","rarity":"UR","tcg":264202,"idx":12},
+    {"id":"TG14","section":"main","num":"TG14","printed":"TG14","code":"TG14","name":"Sylveon V","rarity":"UR","tcg":264209,"idx":13},
+    {"id":"TG15","section":"main","num":"TG15","printed":"TG15","code":"TG15","name":"Sylveon VMAX","rarity":"UR","tcg":264208,"idx":14},
+    {"id":"TG16","section":"main","num":"TG16","printed":"TG16","code":"TG16","name":"Mimikyu V","rarity":"UR","tcg":264221,"idx":15},
+    {"id":"TG17","section":"main","num":"TG17","printed":"TG17","code":"TG17","name":"Mimikyu VMAX","rarity":"UR","tcg":264222,"idx":16},
+    {"id":"TG18","section":"main","num":"TG18","printed":"TG18","code":"TG18","name":"Single Strike Urshifu V","rarity":"UR","tcg":264224,"idx":17},
+    {"id":"TG19","section":"main","num":"TG19","printed":"TG19","code":"TG19","name":"Single Strike Urshifu VMAX","rarity":"UR","tcg":264225,"idx":18},
+    {"id":"TG20","section":"main","num":"TG20","printed":"TG20","code":"TG20","name":"Rapid Strike Urshifu V","rarity":"UR","tcg":264226,"idx":19},
+    {"id":"TG21","section":"main","num":"TG21","printed":"TG21","code":"TG21","name":"Rapid Strike Urshifu VMAX","rarity":"UR","tcg":264227,"idx":20},
+    {"id":"TG22","section":"main","num":"TG22","printed":"TG22","code":"TG22","name":"Umbreon V","rarity":"UR","tcg":264207,"idx":21},
+    {"id":"TG23","section":"main","num":"TG23","printed":"TG23","code":"TG23","name":"Umbreon VMAX","rarity":"UR","tcg":264206,"idx":22},
+    {"id":"TG24","section":"main","num":"TG24","printed":"TG24","code":"TG24","name":"Acerola's Premonition","rarity":"UR","tcg":264228,"idx":23},
+    {"id":"TG25","section":"main","num":"TG25","printed":"TG25","code":"TG25","name":"Café Master","rarity":"UR","tcg":264203,"idx":24},
+    {"id":"TG26","section":"main","num":"TG26","printed":"TG26","code":"TG26","name":"Gloria","rarity":"UR","tcg":264229,"idx":25},
+    {"id":"TG27","section":"main","num":"TG27","printed":"TG27","code":"TG27","name":"Rapid Strike Style Mustard","rarity":"UR","tcg":264230,"idx":26},
+    {"id":"TG28","section":"main","num":"TG28","printed":"TG28","code":"TG28","name":"Single Strike Style Mustard","rarity":"UR","tcg":264231,"idx":27},
+    {"id":"TG29","section":"main","num":"TG29","printed":"TG29","code":"TG29","name":"Single Strike Urshifu VMAX","rarity":"SEC","tcg":264232,"idx":28},
+    {"id":"TG30","section":"main","num":"TG30","printed":"TG30","code":"TG30","name":"Rapid Strike Urshifu VMAX","rarity":"SEC","tcg":264234,"idx":29}
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "pokemon/ex-trainer-kit-latios",
+  "game": "pokemon",
+  "slug": "ex-trainer-kit-latios",
+  "name": "EX Trainer Kit (Latios)",
+  "series": "Trainer & Deck Kits",
+  "kind": "collection",
+  "code": "TK1O",
+  "syncKey": "TK1O",
+  "released": "2004-07-01",
+  "printedTotal": 10,
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "001–010",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-22, 55, 60x2",
+    "example": "1-22, 55x2",
+    "hint": "Separate with commas or spaces. <b>1-22</b> is a range and <b>55x2</b> is two copies.",
+    "empty": "Cards are 1–10."
+  },
+  "info": {
+    "packSections": [],
+    "sectionText": {
+      "main": [
+        "<p><b>From EX Trainer Kit (Latios).</b></p>"
+      ]
+    }
+  },
+  "seo": {
+    "title": "Pokémon TCG EX Trainer Kit (Latios) Checklist · All 10 Cards",
+    "description": "Free checklist for the 10 Pokémon TCG EX Trainer Kit (Latios) cards, with images, copy counts, binder pages and prices. No sign-up needed.",
+    "ogTitle": "Pokémon TCG EX Trainer Kit (Latios) Checklist",
+    "ogDescription": "Track all 10 Pokémon TCG EX Trainer Kit (Latios) cards. Free, no sign-up, works offline."
+  },
+  "about": {
+    "title": "About EX Trainer Kit (Latios)",
+    "paragraphs": [
+      "Pokémon TCG: EX Trainer Kit (Latios) came out on 1 July 2004 and has 10 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device."
+    ]
+  },
+  "source": {
+    "tcgdex": "tk-ex-latio",
+    "tcgplayer": [
+      1543
+    ],
+    "serie": "tk"
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"001/010","code":"1","name":"Electrike","rarity":"C","tcg":85131,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"002/010","code":"2","name":"Latios","rarity":"C","tcg":86664,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"003/010","code":"3","name":"Linoone","rarity":"C","tcg":86805,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"004/010","code":"4","name":"Magnemite","rarity":"C","tcg":87076,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"005/010","code":"5","name":"Magneton","rarity":"C","tcg":87103,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"006/010","code":"6","name":"Pikachu","rarity":"C","tcg":88079,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"007/010","code":"7","name":"Zigzagoon","rarity":"C","tcg":90746,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"008/010","code":"8","name":"Potion","rarity":"C","tcg":88335,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"009/010","code":"9","name":"Energy Search","rarity":"C","tcg":85239,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"010/010","code":"10","name":"Basic Lightning Energy","rarity":"E","type":"lightning","tcg":86760,"idx":9}
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "id": "pokemon/my-first-battle",
+  "game": "pokemon",
+  "slug": "my-first-battle",
+  "name": "My First Battle",
+  "series": "Trainer & Deck Kits",
+  "kind": "collection",
+  "code": "MFB",
+  "syncKey": "MFB",
+  "released": "2023-09-29",
+  "printedTotal": 48,
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "001–048",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-22, 55, 60x2",
+    "example": "1-22, 55x2",
+    "hint": "Separate with commas or spaces. <b>1-22</b> is a range and <b>55x2</b> is two copies.",
+    "empty": "Cards are 1–48."
+  },
+  "info": {
+    "packSections": [],
+    "sectionText": {
+      "main": [
+        "<p><b>From My First Battle.</b></p>"
+      ]
+    }
+  },
+  "seo": {
+    "title": "Pokémon TCG My First Battle Checklist · All 34 Cards",
+    "description": "Free checklist for the 34 Pokémon TCG My First Battle cards, with images, copy counts, binder pages and prices. No sign-up needed.",
+    "ogTitle": "Pokémon TCG My First Battle Checklist",
+    "ogDescription": "Track all 34 Pokémon TCG My First Battle cards. Free, no sign-up, works offline."
+  },
+  "about": {
+    "title": "About My First Battle",
+    "paragraphs": [
+      "Pokémon TCG: My First Battle came out on 29 September 2023 and has 34 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device."
+    ]
+  },
+  "source": {
+    "tcgdex": "mfb",
+    "tcgplayer": [],
+    "serie": "sv"
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"001/048","code":"1","name":"Bulbasaur","rarity":"NR","idx":0},
+    {"id":"002","section":"main","num":"002","printed":"002/048","code":"2","name":"Ivysaur","rarity":"NR","idx":1},
+    {"id":"003","section":"main","num":"003","printed":"003/048","code":"3","name":"Oddish","rarity":"NR","idx":2},
+    {"id":"004","section":"main","num":"004","printed":"004/048","code":"4","name":"Gloom","rarity":"NR","idx":3},
+    {"id":"005","section":"main","num":"005","printed":"005/048","code":"5","name":"Exeggcute","rarity":"NR","idx":4},
+    {"id":"006","section":"main","num":"006","printed":"006/048","code":"6","name":"Exeggutor","rarity":"NR","idx":5},
+    {"id":"007","section":"main","num":"007","printed":"007/048","code":"7","name":"Scyther","rarity":"NR","idx":6},
+    {"id":"008","section":"main","num":"008","printed":"008/048","code":"8","name":"Basic Grass Energy","rarity":"E","type":"grass","idx":7},
+    {"id":"009","section":"main","num":"009","printed":"009/048","code":"9","name":"Charmander","rarity":"NR","idx":8},
+    {"id":"010","section":"main","num":"010","printed":"010/048","code":"10","name":"Charmeleon","rarity":"NR","idx":9},
+    {"id":"011","section":"main","num":"011","printed":"011/048","code":"11","name":"Vulpix","rarity":"NR","idx":10},
+    {"id":"012","section":"main","num":"012","printed":"012/048","code":"12","name":"Ninetales","rarity":"NR","idx":11},
+    {"id":"013","section":"main","num":"013","printed":"013/048","code":"13","name":"Growlithe","rarity":"NR","idx":12},
+    {"id":"014","section":"main","num":"014","printed":"014/048","code":"14","name":"Arcanine","rarity":"NR","idx":13},
+    {"id":"015","section":"main","num":"015","printed":"015/048","code":"15","name":"Magmar","rarity":"NR","idx":14},
+    {"id":"016","section":"main","num":"016","printed":"016/048","code":"16","name":"Basic Fire Energy","rarity":"E","type":"fire","idx":15},
+    {"id":"017","section":"main","num":"017","printed":"017/048","code":"17","name":"Pikachu","rarity":"NR","idx":16},
+    {"id":"018","section":"main","num":"018","printed":"018/048","code":"18","name":"Raichu","rarity":"NR","idx":17},
+    {"id":"019","section":"main","num":"019","printed":"019/048","code":"19","name":"Magnemite","rarity":"NR","idx":18},
+    {"id":"020","section":"main","num":"020","printed":"020/048","code":"20","name":"Magneton","rarity":"NR","idx":19},
+    {"id":"021","section":"main","num":"021","printed":"021/048","code":"21","name":"Voltorb","rarity":"NR","idx":20},
+    {"id":"022","section":"main","num":"022","printed":"022/048","code":"22","name":"Electrode","rarity":"NR","idx":21},
+    {"id":"023","section":"main","num":"023","printed":"023/048","code":"23","name":"Electabuzz","rarity":"NR","idx":22},
+    {"id":"024","section":"main","num":"024","printed":"024/048","code":"24","name":"Basic Lightning Energy","rarity":"E","type":"lightning","idx":23},
+    {"id":"025","section":"main","num":"025","printed":"025/048","code":"25","name":"Squirtle","rarity":"NR","idx":24},
+    {"id":"026","section":"main","num":"026","printed":"026/048","code":"26","name":"Wartortle","rarity":"NR","idx":25},
+    {"id":"027","section":"main","num":"027","printed":"027/048","code":"27","name":"Poliwag","rarity":"NR","idx":26},
+    {"id":"028","section":"main","num":"028","printed":"028/048","code":"28","name":"Poliwhirl","rarity":"NR","idx":27},
+    {"id":"029","section":"main","num":"029","printed":"029/048","code":"29","name":"Magikarp","rarity":"NR","idx":28},
+    {"id":"030","section":"main","num":"030","printed":"030/048","code":"30","name":"Gyarados","rarity":"NR","idx":29},
+    {"id":"031","section":"main","num":"031","printed":"031/048","code":"31","name":"Lapras","rarity":"NR","idx":30},
+    {"id":"032","section":"main","num":"032","printed":"032/048","code":"32","name":"Basic Water Energy","rarity":"E","type":"water","idx":31},
+    {"id":"033","section":"main","num":"033","printed":"033/048","code":"33","name":"Potion","rarity":"NR","idx":32},
+    {"id":"034","section":"main","num":"034","printed":"034/048","code":"34","name":"Switch","rarity":"NR","idx":33}
+  ]
+}

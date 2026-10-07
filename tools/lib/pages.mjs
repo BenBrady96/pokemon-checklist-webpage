@@ -116,6 +116,7 @@ export function tileHtml(c) {
 }
 
 const KIND_HEADINGS = { promo: 'Promos', energy: 'Energy' };
+const OPEN_SERIES = 2;
 
 export function collectionsHtml(catalog) {
   const parts = [];
@@ -126,15 +127,19 @@ export function collectionsHtml(catalog) {
       ? `<img class="home-game__logo" src="${game.logo}" alt="${escapeHtml(game.name)}"><span class="home-game__tagline" aria-hidden="true">Trading Card Game</span>`
       : escapeHtml(game.name);
     parts.push(`<section class="home-game" aria-labelledby="game-${game.id}"><h2 class="home-game__title" id="game-${game.id}">${title}</h2>`);
+    let shown = 0;
     for (const series of game.series) {
       const inSeries = sets.filter((c) => c.series === series);
       if (!inSeries.length) continue;
-      const main = inSeries.filter((c) => c.kind === 'expansion');
-      const extras = inSeries.filter((c) => c.kind !== 'expansion');
-      parts.push(`<section class="home-series" data-series><h3 class="home-series__title">${escapeHtml(series)}</h3>`
+      const expansions = inSeries.filter((c) => c.kind === 'expansion');
+      const main = expansions.length ? expansions : inSeries;
+      const extras = expansions.length ? inSeries.filter((c) => c.kind !== 'expansion') : [];
+      const open = shown++ < OPEN_SERIES;
+      parts.push(`<details class="home-series" data-series${open ? ' open data-open' : ''}>`
+        + `<summary class="home-series__head"><h3 class="home-series__title">${escapeHtml(series)}</h3><span class="home-series__count">${inSeries.length === 1 ? '1 set' : `${inSeries.length} sets`}</span></summary>`
         + `<div class="set-grid">${main.map(tileHtml).join('')}</div>`
         + (extras.length ? `<h4 class="home-series__sub">${[...new Set(extras.map((c) => KIND_HEADINGS[c.kind] || 'More'))].join(' &amp; ')}</h4><div class="set-grid set-grid--small">${extras.map(tileHtml).join('')}</div>` : '')
-        + '</section>');
+        + '</details>');
     }
     parts.push('</section>');
   }

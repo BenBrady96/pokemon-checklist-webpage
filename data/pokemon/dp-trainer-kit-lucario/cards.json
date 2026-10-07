@@ -1,0 +1,74 @@
+{
+  "id": "pokemon/dp-trainer-kit-lucario",
+  "game": "pokemon",
+  "slug": "dp-trainer-kit-lucario",
+  "name": "DP Trainer Kit (Lucario)",
+  "series": "Trainer & Deck Kits",
+  "kind": "collection",
+  "code": "TK3L",
+  "syncKey": "TK3L",
+  "released": "2007-09-01",
+  "printedTotal": 11,
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "001–011",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-22, 55, 60x2",
+    "example": "1-22, 55x2",
+    "hint": "Separate with commas or spaces. <b>1-22</b> is a range and <b>55x2</b> is two copies.",
+    "empty": "Cards are 1–11."
+  },
+  "info": {
+    "packSections": [],
+    "sectionText": {
+      "main": [
+        "<p><b>From DP Trainer Kit (Lucario).</b></p>"
+      ]
+    }
+  },
+  "seo": {
+    "title": "Pokémon TCG DP Trainer Kit (Lucario) Checklist · All 11 Cards",
+    "description": "Free checklist for the 11 Pokémon TCG DP Trainer Kit (Lucario) cards, with images, copy counts, binder pages and prices. No sign-up needed.",
+    "ogTitle": "Pokémon TCG DP Trainer Kit (Lucario) Checklist",
+    "ogDescription": "Track all 11 Pokémon TCG DP Trainer Kit (Lucario) cards. Free, no sign-up, works offline."
+  },
+  "about": {
+    "title": "About DP Trainer Kit (Lucario)",
+    "paragraphs": [
+      "Pokémon TCG: DP Trainer Kit (Lucario) came out on 1 September 2007 and has 11 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device."
+    ]
+  },
+  "source": {
+    "tcgdex": "tk-dp-l",
+    "tcgplayer": [
+      1541
+    ],
+    "serie": "tk"
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"001/011","code":"1","name":"Geodude","rarity":"C","tcg":85691,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"002/011","code":"2","name":"Graveler","rarity":"C","tcg":85893,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"003/011","code":"3","name":"Lucario","rarity":"C","tcg":86875,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"004/011","code":"4","name":"Machoke","rarity":"C","tcg":86982,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"005/011","code":"5","name":"Machop","rarity":"C","tcg":86996,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"006/011","code":"6","name":"Riolu","rarity":"C","tcg":88753,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"007/011","code":"7","name":"Starly","rarity":"C","tcg":89522,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"008/011","code":"8","name":"Energy Search","rarity":"C","tcg":89999,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"009/011","code":"9","name":"Potion","rarity":"C","tcg":85034,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"010/011","code":"10","name":"Quick Ball","rarity":"C","tcg":88478,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"011/011","code":"11","name":"Basic Fighting Energy","rarity":"E","type":"fighting","tcg":85443,"idx":10}
+  ]
+}

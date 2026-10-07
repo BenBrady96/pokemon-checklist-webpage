@@ -1,0 +1,110 @@
+{
+  "id": "pokemon/nintendo-promos",
+  "game": "pokemon",
+  "slug": "nintendo-promos",
+  "name": "Nintendo Promos",
+  "series": "EX",
+  "kind": "promo",
+  "code": "NP",
+  "syncKey": "NP",
+  "released": "2003-10-01",
+  "printedTotal": null,
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Black Star Promos",
+      "range": "NP 001–040",
+      "tier": "standard",
+      "display": {
+        "number": "{printed}",
+        "label": "{printed}",
+        "list": "{printed} {name}",
+        "chip": "{printed} {name}",
+        "search": "Pokemon {name} {printed} promo"
+      }
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Promos"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-22, 55, 60x2",
+    "example": "1-22, 55x2",
+    "hint": "Separate with commas or spaces. <b>1-22</b> is a range and <b>55x2</b> is two copies.",
+    "empty": "Cards are numbered 1–40."
+  },
+  "info": {
+    "packSections": [],
+    "sectionText": {
+      "main": [
+        "<p><b>Black Star Promo.</b> Promos come in special products such as collection boxes, tins, blisters and Elite Trainer Boxes, and some are given out at events.</p>"
+      ]
+    }
+  },
+  "seo": {
+    "title": "Pokémon TCG Nintendo Promos Checklist · All 40 Cards",
+    "description": "Free checklist for the 40 Pokémon TCG Nintendo Promos, with images, copy counts, binder pages and prices. No sign-up needed.",
+    "ogTitle": "Pokémon TCG Nintendo Promos Checklist",
+    "ogDescription": "Track all 40 Pokémon TCG Nintendo Promos. Free, no sign-up, works offline."
+  },
+  "about": {
+    "title": "About the Nintendo Promos",
+    "paragraphs": [
+      "The Nintendo Promos are the 40 numbered promo cards of the EX era, from collection boxes, tins, blisters, Elite Trainer Boxes and events.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device."
+    ]
+  },
+  "source": {
+    "tcgdex": "np",
+    "tcgplayer": [
+      1423
+    ],
+    "serie": "pop"
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"NP 001","code":"1","name":"Kyogre ex","rarity":"P","tcg":86555,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"NP 002","code":"2","name":"Groudon ex","rarity":"P","tcg":85928,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"NP 003","code":"3","name":"Treecko","rarity":"P","tcg":90031,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"NP 004","code":"4","name":"Grovyle","rarity":"P","tcg":85934,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"NP 005","code":"5","name":"Mudkip","rarity":"P","tcg":87608,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"NP 006","code":"6","name":"Torchic","rarity":"P","tcg":89952,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"NP 007","code":"7","name":"Treecko","rarity":"P","tcg":90036,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"NP 008","code":"8","name":"Torchic","rarity":"P","tcg":89948,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"NP 009","code":"9","name":"Combusken","rarity":"P","tcg":84399,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"NP 010","code":"10","name":"Mudkip","rarity":"P","tcg":87604,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"NP 011","code":"11","name":"Marshtomp","rarity":"P","tcg":87231,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"NP 012","code":"12","name":"Pikachu","rarity":"P","tcg":88067,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"NP 013","code":"13","name":"Meowth","rarity":"P","tcg":87310,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"NP 014","code":"14","name":"Latias","rarity":"P","tcg":86649,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"NP 015","code":"15","name":"Latios","rarity":"P","tcg":86663,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"NP 016","code":"16","name":"Treecko","rarity":"P","tcg":90035,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"NP 017","code":"17","name":"Torchic","rarity":"P","tcg":228481,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"NP 018","code":"18","name":"Mudkip","rarity":"P","tcg":87609,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"NP 019","code":"19","name":"Whismur","rarity":"P","tcg":213024,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"NP 020","code":"20","name":"Ludicolo","rarity":"P","tcg":86896,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"NP 021","code":"21","name":"Jirachi","rarity":"P","tcg":86326,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"NP 022","code":"22","name":"Beldum","rarity":"P","tcg":83784,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"NP 023","code":"23","name":"Metang","rarity":"P","tcg":87374,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"NP 024","code":"24","name":"Chimecho","rarity":"P","tcg":228153,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"NP 025","code":"25","name":"Flygon","rarity":"P","tcg":228158,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"NP 026","code":"26","name":"Tropical Wind","rarity":"P","tcg":90053,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"NP 027","code":"27","name":"Tropical Tidal Wave","rarity":"P","tcg":90050,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"NP 028","code":"28","name":"Championship Arena","rarity":"P","tcg":213014,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"NP 029","code":"29","name":"Celebi","rarity":"P","tcg":84145,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"NP 030","code":"30","name":"Suicune","rarity":"P","tcg":89603,"idx":29},
+    {"id":"031","section":"main","num":"031","printed":"NP 031","code":"31","name":"Moltres ex","rarity":"P","tcg":87567,"idx":30},
+    {"id":"032","section":"main","num":"032","printed":"NP 032","code":"32","name":"Articuno ex","rarity":"P","tcg":83655,"idx":31},
+    {"id":"033","section":"main","num":"033","printed":"NP 033","code":"33","name":"Zapdos ex","rarity":"P","tcg":228494,"idx":32},
+    {"id":"034","section":"main","num":"034","printed":"NP 034","code":"34","name":"Typhlosion","rarity":"P","tcg":90104,"idx":33},
+    {"id":"035","section":"main","num":"035","printed":"NP 035","code":"35","name":"Pikachu δ","rarity":"P","tcg":88109,"idx":34},
+    {"id":"036","section":"main","num":"036","printed":"NP 036","code":"36","name":"Tropical Tidal Wave","rarity":"P","tcg":90051,"idx":35},
+    {"id":"037","section":"main","num":"037","printed":"NP 037","code":"37","name":"Kyogre ex","rarity":"P","tcg":86558,"idx":36},
+    {"id":"038","section":"main","num":"038","printed":"NP 038","code":"38","name":"Groudon ex","rarity":"P","tcg":85931,"idx":37},
+    {"id":"039","section":"main","num":"039","printed":"NP 039","code":"39","name":"Rayquaza ex","rarity":"P","tcg":88644,"idx":38},
+    {"id":"040","section":"main","num":"040","printed":"NP 040","code":"40","name":"Mew","rarity":"P","tcg":87402,"idx":39}
+  ]
+}

@@ -1,6 +1,6 @@
 import * as ort from './vendor/ort/ort.wasm.min.mjs';
 import { asset } from './paths.js';
-import { normalize } from './model.js';
+import { cardImageUrl, normalize } from './model.js';
 import { pixelTensor, embed } from './scan-features.js';
 
 const SAME_ART = 0.04;
@@ -57,8 +57,14 @@ async function load(onProgress) {
   ort.env.wasm.wasmBinary = runtime;
   ort.env.wasm.wasmPaths = { mjs: asset('js/vendor/ort/ort-wasm-simd-threaded.mjs') };
   const session = await ort.InferenceSession.create(model, { executionProviders: ['wasm'], graphOptimizationLevel: 'all' });
-  const rows = index.cards.map(([set, imageId, name, printed], i) => ({
-    i, set: index.sets[set], imageId, name, printed, search: ` ${normalize(`${name} ${printed}`)} `,
+  const rows = index.cards.map(([set, imageId, name, printed, remoteId], i) => ({
+    i,
+    set: index.sets[set],
+    imageId,
+    name,
+    printed,
+    image: cardImageUrl({ imageBase: asset(`img/cards/${index.sets[set]}`), imageId, remoteBase: index.remote?.[set], remoteId }),
+    search: ` ${normalize(`${name} ${printed}`)} `,
   }));
   return { index, session, rows, vectors: new Int8Array(packed.buffer, packed.byteOffset, packed.byteLength) };
 }
@@ -69,7 +75,7 @@ export function loadMatcher(onProgress) {
   return loading;
 }
 
-export async function match(matcher, canvas, { prefer = null, top = 8 } = {}) {
+export async function match(matcher, canvas, { prefer = null, top = 12 } = {}) {
   const { index, session, rows, vectors } = matcher;
   const { width, height, pool, dims } = index.model;
   const pixels = canvas.getContext('2d', { willReadFrequently: true }).getImageData(0, 0, width, height).data;

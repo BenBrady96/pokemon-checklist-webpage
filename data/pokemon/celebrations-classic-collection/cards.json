@@ -1,0 +1,89 @@
+{
+  "id": "pokemon/celebrations-classic-collection",
+  "game": "pokemon",
+  "slug": "celebrations-classic-collection",
+  "name": "Celebrations (Classic Collection)",
+  "series": "Sword & Shield",
+  "kind": "expansion",
+  "code": "CELCC",
+  "syncKey": "CELCC",
+  "released": "2021-10-08",
+  "printedTotal": 25,
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Main Set",
+      "range": "CC001–CC025",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Main set"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-22, 55, 60x2",
+    "example": "1-22, 55x2",
+    "hint": "Separate with commas or spaces. <b>1-22</b> is a range and <b>55x2</b> is two copies.",
+    "empty": "Cards are CC1–CC25."
+  },
+  "info": {
+    "packSections": [
+      "main"
+    ],
+    "sectionText": {},
+    "packText": "<p><b>Celebrations (Classic Collection) booster packs.</b></p>",
+    "packProducts": []
+  },
+  "seo": {
+    "title": "Pokémon TCG Celebrations (Classic Collection) Checklist · All 25 Cards",
+    "description": "Free checklist for the Pokémon TCG Celebrations (Classic Collection) set. Track all 25 cards, with images, copy counts, binder pages and prices. No sign-up needed.",
+    "ogTitle": "Pokémon TCG Celebrations (Classic Collection) Checklist",
+    "ogDescription": "Track all 25 cards in Pokémon TCG Celebrations (Classic Collection): the 25-card main set and 0 secret rares. Free, no sign-up, works offline.",
+    "twitterDescription": "Track all 25 cards in Pokémon TCG Celebrations (Classic Collection). Free, no sign-up, works offline."
+  },
+  "about": {
+    "title": "About the Celebrations (Classic Collection) set",
+    "paragraphs": [
+      "Pokémon TCG: Celebrations (Classic Collection) is a Sword & Shield expansion released on 8 October 2021. It has 25 cards: 25 in the main set and 0 secret rares.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device."
+    ]
+  },
+  "source": {
+    "tcgdex": "cel25cc",
+    "tcgplayer": [
+      2931
+    ],
+    "serie": "swsh"
+  },
+  "cards": [
+    {"id":"CC001","section":"main","num":"CC001","printed":"CC001","code":"CC1","name":"Blastoise","rarity":"CC","tcg":250319,"idx":0},
+    {"id":"CC002","section":"main","num":"CC002","printed":"CC002","code":"CC2","name":"Charizard","rarity":"CC","tcg":250320,"idx":1},
+    {"id":"CC003","section":"main","num":"CC003","printed":"CC003","code":"CC3","name":"Venusaur","rarity":"CC","tcg":250321,"idx":2},
+    {"id":"CC004","section":"main","num":"CC004","printed":"CC004","code":"CC4","name":"Imposter Professor Oak","rarity":"CC","tcg":250322,"idx":3},
+    {"id":"CC005","section":"main","num":"CC005","printed":"CC005","code":"CC5","name":"Dark Gyarados","rarity":"CC","tcg":250294,"idx":4},
+    {"id":"CC006","section":"main","num":"CC006","printed":"CC006","code":"CC6","name":"Here Comes Team Rocket!","rarity":"CC","tcg":250323,"idx":5},
+    {"id":"CC007","section":"main","num":"CC007","printed":"CC007","code":"CC7","name":"Rocket's Zapdos","rarity":"CC","tcg":250324,"idx":6},
+    {"id":"CC008","section":"main","num":"CC008","printed":"CC008","code":"CC8","name":"_____'s Pikachu","rarity":"CC","tcg":250325,"idx":7},
+    {"id":"CC009","section":"main","num":"CC009","printed":"CC009","code":"CC9","name":"Cleffa","rarity":"CC","tcg":250326,"idx":8},
+    {"id":"CC010","section":"main","num":"CC010","printed":"CC010","code":"CC10","name":"Shining Magikarp","rarity":"CC","tcg":250327,"idx":9},
+    {"id":"CC011","section":"main","num":"CC011","printed":"CC011","code":"CC11","name":"Team Magma's Groudon","rarity":"CC","tcg":250328,"idx":10},
+    {"id":"CC012","section":"main","num":"CC012","printed":"CC012","code":"CC12","name":"Rocket's Admin.","rarity":"CC","tcg":250329,"idx":11},
+    {"id":"CC013","section":"main","num":"CC013","printed":"CC013","code":"CC13","name":"Mew ex","rarity":"CC","tcg":250330,"idx":12},
+    {"id":"CC014","section":"main","num":"CC014","printed":"CC014","code":"CC14","name":"Gardevoir ex","rarity":"CC","tcg":250331,"idx":13},
+    {"id":"CC015","section":"main","num":"CC015","printed":"CC015","code":"CC15","name":"Umbreon ☆","rarity":"CC","idx":14},
+    {"id":"CC016","section":"main","num":"CC016","printed":"CC016","code":"CC16","name":"Claydol","rarity":"CC","tcg":250333,"idx":15},
+    {"id":"CC017","section":"main","num":"CC017","printed":"CC017","code":"CC17","name":"Luxray GL LV.X","rarity":"CC","tcg":250334,"idx":16},
+    {"id":"CC018","section":"main","num":"CC018","printed":"CC018","code":"CC18","name":"Garchomp C LV.X","rarity":"CC","tcg":250335,"idx":17},
+    {"id":"CC019","section":"main","num":"CC019","printed":"CC019","code":"CC19","name":"Donphan","rarity":"CC","tcg":250336,"idx":18},
+    {"id":"CC020","section":"main","num":"CC020","printed":"CC020","code":"CC20","name":"Reshiram","rarity":"CC","tcg":250337,"idx":19},
+    {"id":"CC021","section":"main","num":"CC021","printed":"CC021","code":"CC21","name":"Zekrom","rarity":"CC","tcg":250338,"idx":20},
+    {"id":"CC022","section":"main","num":"CC022","printed":"CC022","code":"CC22","name":"Mewtwo EX","rarity":"CC","tcg":250339,"idx":21},
+    {"id":"CC023","section":"main","num":"CC023","printed":"CC023","code":"CC23","name":"Xerneas EX","rarity":"CC","tcg":250340,"idx":22},
+    {"id":"CC024","section":"main","num":"CC024","printed":"CC024","code":"CC24","name":"M Rayquaza EX","rarity":"CC","tcg":250341,"idx":23},
+    {"id":"CC025","section":"main","num":"CC025","printed":"CC025","code":"CC25","name":"Tapu Lele GX","rarity":"CC","tcg":250342,"idx":24}
+  ]
+}

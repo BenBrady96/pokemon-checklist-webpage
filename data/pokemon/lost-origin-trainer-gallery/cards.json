@@ -1,0 +1,94 @@
+{
+  "id": "pokemon/lost-origin-trainer-gallery",
+  "game": "pokemon",
+  "slug": "lost-origin-trainer-gallery",
+  "name": "Lost Origin (Trainer Gallery)",
+  "series": "Sword & Shield",
+  "kind": "expansion",
+  "code": "LORTG",
+  "syncKey": "LORTG",
+  "released": "2022-09-09",
+  "printedTotal": 30,
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Main Set",
+      "range": "TG01–TG30",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Main set"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-22, 55, 60x2",
+    "example": "1-22, 55x2",
+    "hint": "Separate with commas or spaces. <b>1-22</b> is a range and <b>55x2</b> is two copies.",
+    "empty": "Cards are TG1–TG30."
+  },
+  "info": {
+    "packSections": [
+      "main"
+    ],
+    "sectionText": {},
+    "packText": "<p><b>Lost Origin (Trainer Gallery) booster packs.</b></p>",
+    "packProducts": []
+  },
+  "seo": {
+    "title": "Pokémon TCG Lost Origin (Trainer Gallery) Checklist · All 30 Cards",
+    "description": "Free checklist for the Pokémon TCG Lost Origin (Trainer Gallery) set. Track all 30 cards, with images, copy counts, binder pages and prices. No sign-up needed.",
+    "ogTitle": "Pokémon TCG Lost Origin (Trainer Gallery) Checklist",
+    "ogDescription": "Track all 30 cards in Pokémon TCG Lost Origin (Trainer Gallery): the 30-card main set and 0 secret rares. Free, no sign-up, works offline.",
+    "twitterDescription": "Track all 30 cards in Pokémon TCG Lost Origin (Trainer Gallery). Free, no sign-up, works offline."
+  },
+  "about": {
+    "title": "About the Lost Origin (Trainer Gallery) set",
+    "paragraphs": [
+      "Pokémon TCG: Lost Origin (Trainer Gallery) is a Sword & Shield expansion released on 9 September 2022. It has 30 cards: 30 in the main set and 0 secret rares.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device."
+    ]
+  },
+  "source": {
+    "tcgdex": "swsh11tg",
+    "tcgplayer": [
+      3172
+    ],
+    "serie": "swsh"
+  },
+  "cards": [
+    {"id":"TG01","section":"main","num":"TG01","printed":"TG01","code":"TG1","name":"Parasect","rarity":"R","tcg":284253,"idx":0},
+    {"id":"TG02","section":"main","num":"TG02","printed":"TG02","code":"TG2","name":"Roserade","rarity":"R","tcg":284254,"idx":1},
+    {"id":"TG03","section":"main","num":"TG03","printed":"TG03","code":"TG3","name":"Charizard","rarity":"R","tcg":284251,"idx":2},
+    {"id":"TG04","section":"main","num":"TG04","printed":"TG04","code":"TG4","name":"Chandelure","rarity":"R","tcg":284255,"idx":3},
+    {"id":"TG05","section":"main","num":"TG05","printed":"TG05","code":"TG5","name":"Pikachu","rarity":"R","tcg":284258,"idx":4},
+    {"id":"TG06","section":"main","num":"TG06","printed":"TG06","code":"TG6","name":"Gengar","rarity":"R","tcg":284266,"idx":5},
+    {"id":"TG07","section":"main","num":"TG07","printed":"TG07","code":"TG7","name":"Banette","rarity":"R","tcg":284267,"idx":6},
+    {"id":"TG08","section":"main","num":"TG08","printed":"TG08","code":"TG8","name":"Hisuian Arcanine","rarity":"R","tcg":284268,"idx":7},
+    {"id":"TG09","section":"main","num":"TG09","printed":"TG09","code":"TG9","name":"Spiritomb","rarity":"R","tcg":284269,"idx":8},
+    {"id":"TG10","section":"main","num":"TG10","printed":"TG10","code":"TG10","name":"Snorlax","rarity":"R","tcg":284270,"idx":9},
+    {"id":"TG11","section":"main","num":"TG11","printed":"TG11","code":"TG11","name":"Castform","rarity":"R","tcg":284271,"idx":10},
+    {"id":"TG12","section":"main","num":"TG12","printed":"TG12","code":"TG12","name":"Orbeetle V","rarity":"UR","tcg":284272,"idx":11},
+    {"id":"TG13","section":"main","num":"TG13","printed":"TG13","code":"TG13","name":"Orbeetle VMAX","rarity":"UR","tcg":284273,"idx":12},
+    {"id":"TG14","section":"main","num":"TG14","printed":"TG14","code":"TG14","name":"Centiskorch V","rarity":"UR","tcg":284275,"idx":13},
+    {"id":"TG15","section":"main","num":"TG15","printed":"TG15","code":"TG15","name":"Centiskorch VMAX","rarity":"UR","tcg":284276,"idx":14},
+    {"id":"TG16","section":"main","num":"TG16","printed":"TG16","code":"TG16","name":"Pikachu V","rarity":"UR","tcg":284278,"idx":15},
+    {"id":"TG17","section":"main","num":"TG17","printed":"TG17","code":"TG17","name":"Pikachu VMAX","rarity":"UR","tcg":284283,"idx":16},
+    {"id":"TG18","section":"main","num":"TG18","printed":"TG18","code":"TG18","name":"Enamorus V","rarity":"UR","tcg":284284,"idx":17},
+    {"id":"TG19","section":"main","num":"TG19","printed":"TG19","code":"TG19","name":"Gallade V","rarity":"UR","tcg":284286,"idx":18},
+    {"id":"TG20","section":"main","num":"TG20","printed":"TG20","code":"TG20","name":"Crobat V","rarity":"UR","tcg":284290,"idx":19},
+    {"id":"TG21","section":"main","num":"TG21","printed":"TG21","code":"TG21","name":"Eternatus V","rarity":"UR","tcg":284294,"idx":20},
+    {"id":"TG22","section":"main","num":"TG22","printed":"TG22","code":"TG22","name":"Eternatus VMAX","rarity":"UR","tcg":284295,"idx":21},
+    {"id":"TG23","section":"main","num":"TG23","printed":"TG23","code":"TG23","name":"Adventurer's Discovery","rarity":"UR","tcg":284296,"idx":22},
+    {"id":"TG24","section":"main","num":"TG24","printed":"TG24","code":"TG24","name":"Boss's Orders","rarity":"UR","tcg":284297,"idx":23},
+    {"id":"TG25","section":"main","num":"TG25","printed":"TG25","code":"TG25","name":"Cook","rarity":"UR","tcg":284298,"idx":24},
+    {"id":"TG26","section":"main","num":"TG26","printed":"TG26","code":"TG26","name":"Kabu","rarity":"UR","tcg":284299,"idx":25},
+    {"id":"TG27","section":"main","num":"TG27","printed":"TG27","code":"TG27","name":"Nessa","rarity":"UR","tcg":284300,"idx":26},
+    {"id":"TG28","section":"main","num":"TG28","printed":"TG28","code":"TG28","name":"Opal","rarity":"UR","tcg":284301,"idx":27},
+    {"id":"TG29","section":"main","num":"TG29","printed":"TG29","code":"TG29","name":"Pikachu VMAX","rarity":"SEC","tcg":284302,"idx":28},
+    {"id":"TG30","section":"main","num":"TG30","printed":"TG30","code":"TG30","name":"Mew VMAX","rarity":"SEC","tcg":284303,"idx":29}
+  ]
+}

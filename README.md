@@ -1,6 +1,6 @@
 # Binder Tracker
 
-Free, unofficial checklists for Pokémon TCG sets: every **Scarlet & Violet** and **Mega Evolution** expansion, their Black Star promos and Basic Energy, and a hand-curated **30th Celebration** (the site started as a checklist for that set alone). Each set has its own page in colours that match the set, with card images, rarities, copy counts, binder pages and TCGplayer prices. Other trading card games can be added later.
+Free, unofficial checklists for every English Pokémon TCG set from **Base Set** (1999) to **Mega Evolution**: the expansions and their subsets, Black Star promos, Basic Energy, trainer kits, McDonald's collections, POP Series, World Championships Decks, Prize Packs and more, plus a hand-curated **30th Celebration** (the site started as a checklist for that set alone). Each set has its own page in colours that match the set, with card images, rarities, copy counts, binder pages and TCGplayer prices. Other trading card games can be added later.
 
 It is a static site built with plain HTML, CSS and JavaScript. There is no backend: each visitor's collection is saved in their own browser (`localStorage`).
 
@@ -13,8 +13,8 @@ It is a static site built with plain HTML, CSS and JavaScript. There is no backe
   | Tier | What's in it |
   |---|---|
   | Standard | The main set (001 to the printed total) |
-  | Master | The main set plus each reverse holo and pattern (Poké Ball, Master Ball, Energy Symbol and so on) |
-  | Grand Master | Every card: the master set plus the secret rares (for 30th Celebration, the secret rares and the Classic Collection) |
+  | Master | The main set plus each reverse holo and pattern (Poké Ball, Master Ball, Energy Symbol and so on), and the 1st Edition prints of the 1999–2002 Wizards of the Coast sets |
+  | Grand Master | Every card: the master set plus the secret rares and any extra numbered runs, such as Holo Rares H1–H32, Shining Pokémon, Radiant Collection and Alternate Versions (for 30th Celebration, the secret rares and the Classic Collection) |
 
   Each tier adds the next block on the page, which runs main set, reverse holos, patterns, then secret rares. Like [TCG Collector](https://www.tcgcollector.com), the lists leave out special prints (prerelease and other stamps, Cosmos Holo blister cards, Play! Pokémon Prize Pack prints and so on). Tiers that would add nothing are hidden: 30th Celebration has no reverse holos, so it shows Standard 128 / Grand Master 191, and the promo and Basic Energy lists have no tiers.
 - **Views:** grid (S/M/L), list, or binder pages (4, 9 or 12 pockets), with or without images.
@@ -33,15 +33,27 @@ npm install      # sharp and onnxruntime, used only by the local build scripts
 npm run dev      # http://localhost:8080 (PORT=… to change)
 ```
 
-The scripts that only run on a maintainer's computer are kept out of the repository (see `.gitignore`): `tools/dev.mjs`, `tools/build-sets.mjs`, `tools/build-images.mjs`, `tools/build-scan-index.mjs`, `tools/scan-eval.mjs`, and `tools/lib/catalog.mjs`, `tcgdex.mjs` and `tcgdex-source.mjs`. So `npm run dev`, `sets`, `images`, `scan-index` and `scan-eval` need a copy of those files. Everything the deploy runs (`build`, `test`, `prices`) is in the repository.
+The scripts that only run on a maintainer's computer are kept out of the repository (see `.gitignore`): `tools/dev.mjs`, `tools/build-sets.mjs`, `tools/build-images.mjs`, `tools/build-scan-index.mjs`, `tools/scan-eval.mjs`, `tools/build-set-list.mjs`, and `tools/lib/catalog.mjs`, `tcgdex.mjs`, `tcgdex-source.mjs` and `tcgplayer-source.mjs`. So `npm run dev`, `set-list`, `sets`, `images`, `scan-index` and `scan-eval` need a copy of those files. Everything the deploy runs (`build`, `test`, `prices`) is in the repository.
 
 Set pages are rendered from a template, so use `npm run dev` rather than a plain static server. It renders pages on each request, so edits show on reload; restart it after changing `collections/pokemon/sets.mjs`. `npm run build` produces exactly what gets deployed, in `dist/`.
 
 `npm test` checks every collection's data: tiers, quick-add codes, missing images, that old share links still decode, and that no card has changed position since the last commit (see [Sync codes](#sync-codes)).
 
+## The set list
+
+`collections/pokemon/sets.mjs` merges two lists: the hand-written entries in `HAND` (the Scarlet & Violet and Mega Evolution sets, which have hand-picked colours and gallery images, and the curated 30th Celebration), and `collections/pokemon/generated-sets.json`, which `npm run set-list` (`tools/build-set-list.mjs`) writes. A hand-written entry wins if both have the same slug. `SERIES` sets the order of the series on the home page; it follows [TCG Collector](https://www.tcgcollector.com/sets/intl).
+
+`npm run set-list` reads TCG Collector's list of English sets (saved in `.cache/tcgcollector/`; `--refresh` downloads it again), matches each set to a TCGdex set and a TCGplayer group by name and release date, and works out a sync key and colours from the set logo. A set's sync key and colours are kept on later runs, so share links never change. It writes a report to `.cache/set-list-report.txt` listing the sets it merged, skipped (with the reason) or couldn't match. The tables at the top of the script handle the exceptions:
+
+- `FORCE`: fixed TCGdex ids, TCGplayer groups or sync keys for sets the name matching gets wrong, and `source: 'tcgplayer'` for sets TCGdex doesn't have.
+- `MERGED`: products TCG Collector splits into one set per deck but TCGplayer lists together (Battle Academy, TCG Classic, My First Battle, the SM Trainer Kit with Alolan Sandslash and Alolan Ninetales, Prize Packs). They become one checklist with a section per deck. World Championships Decks get one checklist per year, with a section per player.
+- `SKIP` and `SKIP_SERIES`: sets with no card list anywhere, sets in other languages and Topps cards.
+
+Entries with `source: 'tcgplayer'` are built by `tools/lib/tcgplayer-source.mjs` from TCGplayer's catalogue. `filter` and `exclude` are regular expressions on the product name, `clean` strips text from names, `deck` (a pattern with one group) or `restart` (deck names in order, a new deck starting at card 001) with `tags` split the cards into decks, `deckLabel` names the sections and `note` adds a sentence to the About text. Their card ids are `t` plus the TCGplayer product id, and their images are TCGplayer's photos, stored in the repo. `kind: 'collection'` marks products that aren't booster sets, such as trainer kits and McDonald's collections.
+
 ## Adding a set
 
-1. Add an entry to `collections/pokemon/sets.mjs`:
+1. Run `npm run set-list` to pick up new sets from TCG Collector, or add an entry to `HAND` in `collections/pokemon/sets.mjs`:
 
    ```js
    { slug: 'delta-reign', tcgdex: 'me06', series: MEGA, syncKey: 'DLR', tcgplayer: [24831], theme: { accent: '#…', chrome: '#…' } },
@@ -75,8 +87,11 @@ The home page lists every collection from `data/catalog.json`, which `npm run se
 | | Source |
 |---|---|
 | Card lists, rarities, set logos | [TCGdex](https://tcgdex.dev), a free and open card database (responses are cached in `.cache/`). Logos TCGdex doesn't have (30th Celebration, Temporal Forces, the promo and energy lists) come from [TCG Collector](https://www.tcgcollector.com), set with `logo` |
+| Which sets exist | [TCG Collector](https://www.tcgcollector.com/sets/intl)'s list of English sets, read by `npm run set-list` |
+| Sets TCGdex doesn't have | TCGplayer's catalogue via tcgcsv.com (Battle Academy, TCG Classic, Prize Packs, World Championships Decks, Trick or Trade and others) |
 | Which reverse holos and patterns exist | TCGplayer's catalogue via [tcgcsv.com](https://tcgcsv.com): a "Reverse Holofoil" price on a card's product, or a separate product such as "Card (Poke Ball Pattern)" |
-| Card images, best first | The official Pokémon TCG gallery CDN (660px), TCGdex (600px), Limitless TCG (460px), then TCGplayer's listing photo. Two ME Black Star Promos (MEP 120 Celebratory Fanfare and Pikachu at the Museum) use images from [TCG Collector](https://www.tcgcollector.com), set with `images` |
+| Card images | Linked from TCGdex (`assets.tcgdex.net`) whenever it has both sizes of a card, including the Trainer Gallery, Galarian Gallery and Shiny Vault images TCGdex keeps in the main set's folder without listing them. Otherwise downloaded into the repo, best first: the official Pokémon TCG gallery CDN (660px), Limitless TCG (460px), then TCGplayer's listing photo. In lists built from TCGplayer, a card with no TCGplayer photo links to the TCGdex image of the original card it reprints (matched by number, set size and name), so World Championships Decks from 2022 on show the artwork without the gold border. Cards with no image anywhere (some trainer kits and My First Battle) show a number-and-name placeholder. Two ME Black Star Promos (MEP 120 Celebratory Fanfare and Pikachu at the Museum) use images from [TCG Collector](https://www.tcgcollector.com), set with `images` |
+| 1st Edition prints | A "1st Edition" price on the card's TCGplayer product; the regular card uses the "Unlimited" price |
 | Prices | TCGplayer market prices via tcgcsv.com, refreshed daily |
 | Pokémon logo (home page) | The international logo from [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:International_Pok%C3%A9mon_logo.svg) (public domain, a trademark of The Pokémon Company), set with `LOGO` in `collections/pokemon/sets.mjs` and saved to `img/games/` by `npm run images` |
 
@@ -84,9 +99,11 @@ The home page lists every collection from `data/catalog.json`, which `npm run se
 
 ## Card images and the size budget
 
-Images are downloaded at build time and served from the site, as WebP in `img/cards/<game>/<set>/sm/` (330×460, used in the grid) and `lg/` (660×920, used in the viewer). Reverse holos and patterns use their base card's image with a label. A card only gets an image once it has an entry in `data/<game>/<set>/images.json`; until then a number-and-name placeholder is shown.
+Most card images are linked straight from TCGdex: `low.webp` (245×337, used in the grid) and `high.webp` (600×825, used in the viewer). `npm run images` checks that TCGdex has both for each card, and records the ones it links under `remote` in `data/<game>/<set>/images.json` (the set's TCGdex path and each card's TCGdex number). It saves a copy of each `low.webp` in `.cache/images/`, which isn't committed, to work out the card's placeholder colour and build the scanner's index.
 
-Everything comes to roughly 600 MB. GitHub Pages won't publish a site over 1 GB, so `npm run build` warns at 800 MB and stops at 950 MB. Past that point, card images need another host: each collection's image path is set in one place (`imageBase` in `js/collection.js`), so that's a small change.
+Cards TCGdex doesn't have, and curated sets such as 30th Celebration, are downloaded at build time and served from the site, as WebP in `img/cards/<game>/<set>/sm/` (330×460) and `lg/` (660×920). When a card that used to be stored becomes available on TCGdex, `npm run images` deletes its files. Reverse holos and patterns use their base card's image with a label. A card only gets an image once it has an entry in `colors` in `images.json`; until then a number-and-name placeholder is shown. `js/model.js` (`cardImageUrl`) picks the TCGdex or local address for each card.
+
+GitHub Pages won't publish a site over 1 GB, so `npm run build` warns at 800 MB and stops at 950 MB. `npm run images` reports how many cards are linked and how much is stored in `img/cards/`.
 
 `npm run images` only downloads images that are missing. Avoid `--force` for committed images: each regeneration adds a full copy to the git history.
 
@@ -103,14 +120,14 @@ Other options:
 How it works:
 
 - `data/scan/model.onnx` is DINOv2-small (Meta AI, Apache 2.0), the 8-bit version published by the Hugging Face onnx-community (24 MB, SHA-256 in `data/scan/NOTICE`). It turns a picture into 384 numbers that describe how it looks.
-- `npm run scan-index` (`tools/build-scan-index.mjs`) runs one image per artwork through the model with onnxruntime-node, so reverse holos and patterns share their card's entry. It writes `data/scan/index.bin` (the numbers, as 8-bit integers) and `data/scan/index.json` (set, image, name and printed number for each row, plus the model settings). Results are cached in `.cache/scan/`, so after adding a set only its new images are processed. It also copies ONNX Runtime Web's three browser files from `node_modules` into `js/vendor/ort/`.
+- `npm run scan-index` (`tools/build-scan-index.mjs`) runs one image per artwork through the model with onnxruntime-node, so reverse holos and patterns share their card's entry. It reads the cached TCGdex `low.webp` for linked cards and the `sm` file for stored ones. It writes `data/scan/index.bin` (the numbers, as 8-bit integers) and `data/scan/index.json` (set, image, name and printed number for each row, plus the TCGdex number for linked cards, each set's TCGdex path and the model settings). Results are cached in `.cache/scan/`, so after adding a set only its new images are processed. It also copies ONNX Runtime Web's three browser files from `node_modules` into `js/vendor/ort/`.
 - In the browser, `js/scan.js` (camera and screens) and `js/scan-match.js` (matching) load only when the scanner is opened. The model and the 14 MB WebAssembly runtime download once (about 39 MB) and the service worker keeps them, keyed by version. The model's SHA-256 is checked before it's used. Each scan crops the frame, runs the model on one thread (around a second on a phone) and compares the result with every card.
 - A photo can't tell a reverse holo or pattern from its card, so the collector picks the version. About 8% of artworks appear in more than one set; those matches are grouped and the collector checks the set code on the card.
 - `THRESHOLD` in `tools/build-scan-index.mjs` decides when the scanner says it isn't sure. `npm run scan-eval` measures accuracy on simulated phone photos and suggests a value. For real photos, use `npm run scan-eval -- --photos scan-photos`, with files named `<set-slug>_<cardId>.jpg` (for example `surging-sparks_025.jpg`). `scan-photos/` is ignored by git.
 - `npm test` fails if the index no longer matches the card lists, or if the model or runtime files don't match `index.json`.
 - To update ONNX Runtime, check [GitHub's advisory database](https://github.com/advisories) first, then run `npm install --save-dev --save-exact --ignore-scripts onnxruntime-web@<version> onnxruntime-node@<version>` and `npm run scan-index`. Its install script only downloads CUDA files on Linux, so `--ignore-scripts` loses nothing on Windows or macOS.
 
-Both page templates have a Content-Security-Policy that allows only the site's own files. `'wasm-unsafe-eval'` lets WebAssembly run, and inline styles are allowed because the pages use them for colours. The theme script that runs before the page draws is in `js/theme-init.js` rather than inline, so the policy can block inline scripts.
+Both page templates have a Content-Security-Policy that allows only the site's own files, plus card images from `https://assets.tcgdex.net` (`img-src`, and `connect-src` so they can be saved for offline use). `'wasm-unsafe-eval'` lets WebAssembly run, and inline styles are allowed because the pages use them for colours. The theme script that runs before the page draws is in `js/theme-init.js` rather than inline, so the policy can block inline scripts.
 
 ## Deploying (GitHub Pages)
 
@@ -180,9 +197,9 @@ js/theme-init.js               applies the saved theme before the page draws
 js/vendor/qrcode.js            QR code generator (MIT, Kazuhiko Arase)
 js/vendor/ort/                 ONNX Runtime Web (MIT, Microsoft), copied in by npm run scan-index
 data/scan/                     the scanner's model (DINOv2-small, Apache 2.0) and card index
-collections/pokemon/           build-time config: sets.mjs (every collection) and the curated 30th Celebration
+collections/pokemon/           build-time config: sets.mjs (hand-written sets and the series order), generated-sets.json (every other set) and the curated 30th Celebration
 data/                          generated and committed: catalog.json, and per set cards/images/prices JSON
-img/cards/, img/sets/, img/og/ card images, set logos, share images
+img/cards/, img/sets/, img/og/ card images TCGdex doesn't have, set logos, share images
 img/games/                     game logos for the home page
 tools/                         build-sets, build-images, build-prices, build, dev, check; lib/ holds shared code
 ```
@@ -191,7 +208,7 @@ Everything specific to Pokémon lives in `js/games/pokemon.js` and the build too
 
 ## Privacy
 
-The site sets no cookies, has no analytics or trackers, and loads nothing from third-party servers: card images and prices are downloaded at build time and served with the site. The card scanner's model and runtime are served from the site too, and the camera is used only while the scanner is open; pictures are processed on the device and never uploaded or saved. The TCGplayer and eBay buttons are ordinary links. Details are in `privacy.html` and `terms.html`. If you ever add analytics, update `privacy.html` first; anything that sets cookies needs a consent banner under UK/EU law.
+The site sets no cookies and has no analytics or trackers. Most card images load from TCGdex's servers (`assets.tcgdex.net`), which see visitors' IP addresses like any web host; everything else, including prices and the remaining card images, is downloaded at build time and served with the site. The card scanner's model and runtime are served from the site too, and the camera is used only while the scanner is open; pictures are processed on the device and never uploaded or saved. The TCGplayer and eBay buttons are ordinary links. Details are in `privacy.html` and `terms.html`. If you ever add analytics, update `privacy.html` first; anything that sets cookies needs a consent banner under UK/EU law.
 
 ## Licence
 

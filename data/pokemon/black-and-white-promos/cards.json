@@ -1,0 +1,171 @@
+{
+  "id": "pokemon/black-and-white-promos",
+  "game": "pokemon",
+  "slug": "black-and-white-promos",
+  "name": "Black & White Promos",
+  "series": "Black & White",
+  "kind": "promo",
+  "code": "BWP",
+  "syncKey": "BWP",
+  "released": "2011-04-26",
+  "printedTotal": null,
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Black Star Promos",
+      "range": "BW01–BW101",
+      "tier": "standard",
+      "display": {
+        "number": "{printed}",
+        "label": "{printed}",
+        "list": "{printed} {name}",
+        "chip": "{printed} {name}",
+        "search": "Pokemon {name} {printed} promo"
+      }
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Promos"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-22, 55, 60x2",
+    "example": "1-22, 55x2",
+    "hint": "Separate with commas or spaces. <b>1-22</b> is a range and <b>55x2</b> is two copies.",
+    "empty": "Cards are BW1–BW101."
+  },
+  "info": {
+    "packSections": [],
+    "sectionText": {
+      "main": [
+        "<p><b>Black Star Promo.</b> Promos come in special products such as collection boxes, tins, blisters and Elite Trainer Boxes, and some are given out at events.</p>"
+      ]
+    }
+  },
+  "seo": {
+    "title": "Pokémon TCG Black & White Promos Checklist · All 101 Cards",
+    "description": "Free checklist for the 101 Pokémon TCG Black & White Promos, with images, copy counts, binder pages and prices. No sign-up needed.",
+    "ogTitle": "Pokémon TCG Black & White Promos Checklist",
+    "ogDescription": "Track all 101 Pokémon TCG Black & White Promos. Free, no sign-up, works offline."
+  },
+  "about": {
+    "title": "About the Black & White Promos",
+    "paragraphs": [
+      "The Black & White Promos are the 101 numbered promo cards of the Black & White era, from collection boxes, tins, blisters, Elite Trainer Boxes and events.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device."
+    ]
+  },
+  "source": {
+    "tcgdex": "bwp",
+    "tcgplayer": [
+      1407
+    ],
+    "serie": "bw"
+  },
+  "cards": [
+    {"id":"BW01","section":"main","num":"BW01","printed":"BW01","code":"BW1","name":"Snivy","rarity":"P","tcg":89377,"idx":0},
+    {"id":"BW02","section":"main","num":"BW02","printed":"BW02","code":"BW2","name":"Tepig","rarity":"P","tcg":89881,"idx":1},
+    {"id":"BW03","section":"main","num":"BW03","printed":"BW03","code":"BW3","name":"Oshawott","rarity":"P","tcg":87892,"idx":2},
+    {"id":"BW04","section":"main","num":"BW04","printed":"BW04","code":"BW4","name":"Reshiram","rarity":"P","tcg":88705,"idx":3},
+    {"id":"BW05","section":"main","num":"BW05","printed":"BW05","code":"BW5","name":"Zekrom","rarity":"P","tcg":90733,"idx":4},
+    {"id":"BW06","section":"main","num":"BW06","printed":"BW06","code":"BW6","name":"Snivy","rarity":"P","tcg":89379,"idx":5},
+    {"id":"BW07","section":"main","num":"BW07","printed":"BW07","code":"BW7","name":"Tepig","rarity":"P","tcg":89883,"idx":6},
+    {"id":"BW08","section":"main","num":"BW08","printed":"BW08","code":"BW8","name":"Oshawott","rarity":"P","tcg":87894,"idx":7},
+    {"id":"BW09","section":"main","num":"BW09","printed":"BW09","code":"BW9","name":"Zoroark","rarity":"P","tcg":90751,"idx":8},
+    {"id":"BW10","section":"main","num":"BW10","printed":"BW10","code":"BW10","name":"Axew","rarity":"P","tcg":83666,"idx":9},
+    {"id":"BW11","section":"main","num":"BW11","printed":"BW11","code":"BW11","name":"Pansage","rarity":"P","tcg":87934,"idx":10},
+    {"id":"BW12","section":"main","num":"BW12","printed":"BW12","code":"BW12","name":"Zorua","rarity":"P","tcg":90760,"idx":11},
+    {"id":"BW13","section":"main","num":"BW13","printed":"BW13","code":"BW13","name":"Minccino","rarity":"P","tcg":87475,"idx":12},
+    {"id":"BW14","section":"main","num":"BW14","printed":"BW14","code":"BW14","name":"Pansage","rarity":"P","tcg":87935,"idx":13},
+    {"id":"BW15","section":"main","num":"BW15","printed":"BW15","code":"BW15","name":"Pidove","rarity":"P","tcg":88057,"idx":14},
+    {"id":"BW16","section":"main","num":"BW16","printed":"BW16","code":"BW16","name":"Axew","rarity":"P","tcg":83667,"idx":15},
+    {"id":"BW17","section":"main","num":"BW17","printed":"BW17","code":"BW17","name":"Ducklett","rarity":"P","tcg":84992,"idx":16},
+    {"id":"BW18","section":"main","num":"BW18","printed":"BW18","code":"BW18","name":"Darumaka","rarity":"P","tcg":84720,"idx":17},
+    {"id":"BW19","section":"main","num":"BW19","printed":"BW19","code":"BW19","name":"Zoroark","rarity":"P","tcg":90752,"idx":18},
+    {"id":"BW20","section":"main","num":"BW20","printed":"BW20","code":"BW20","name":"Serperior","rarity":"P","tcg":89071,"idx":19},
+    {"id":"BW21","section":"main","num":"BW21","printed":"BW21","code":"BW21","name":"Emboar","rarity":"P","tcg":85183,"idx":20},
+    {"id":"BW22","section":"main","num":"BW22","printed":"BW22","code":"BW22","name":"Samurott","rarity":"P","tcg":88909,"idx":21},
+    {"id":"BW23","section":"main","num":"BW23","printed":"BW23","code":"BW23","name":"Reshiram","rarity":"P","tcg":88706,"idx":22},
+    {"id":"BW24","section":"main","num":"BW24","printed":"BW24","code":"BW24","name":"Zekrom","rarity":"P","tcg":90734,"idx":23},
+    {"id":"BW25","section":"main","num":"BW25","printed":"BW25","code":"BW25","name":"Scraggy","rarity":"P","tcg":88982,"idx":24},
+    {"id":"BW26","section":"main","num":"BW26","printed":"BW26","code":"BW26","name":"Axew","rarity":"P","tcg":83669,"idx":25},
+    {"id":"BW27","section":"main","num":"BW27","printed":"BW27","code":"BW27","name":"Litwick","rarity":"P","tcg":86810,"idx":26},
+    {"id":"BW28","section":"main","num":"BW28","printed":"BW28","code":"BW28","name":"Tropical Beach","rarity":"P","tcg":96869,"idx":27},
+    {"id":"BW29","section":"main","num":"BW29","printed":"BW29","code":"BW29","name":"Victory Cup","rarity":"P","tcg":90355,"idx":28},
+    {"id":"BW30","section":"main","num":"BW30","printed":"BW30","code":"BW30","name":"Victory Cup","rarity":"P","tcg":90354,"idx":29},
+    {"id":"BW31","section":"main","num":"BW31","printed":"BW31","code":"BW31","name":"Victory Cup","rarity":"P","tcg":90353,"idx":30},
+    {"id":"BW32","section":"main","num":"BW32","printed":"BW32","code":"BW32","name":"Victini","rarity":"P","tcg":90346,"idx":31},
+    {"id":"BW33","section":"main","num":"BW33","printed":"BW33","code":"BW33","name":"Riolu","rarity":"P","tcg":96883,"idx":32},
+    {"id":"BW34","section":"main","num":"BW34","printed":"BW34","code":"BW34","name":"Luxio","rarity":"P","tcg":86945,"idx":33},
+    {"id":"BW35","section":"main","num":"BW35","printed":"BW35","code":"BW35","name":"Meowth","rarity":"P","tcg":87327,"idx":34},
+    {"id":"BW36","section":"main","num":"BW36","printed":"BW36","code":"BW36","name":"Reshiram-EX","rarity":"P","tcg":88714,"idx":35},
+    {"id":"BW37","section":"main","num":"BW37","printed":"BW37","code":"BW37","name":"Kyurem-EX","rarity":"P","tcg":86567,"idx":36},
+    {"id":"BW38","section":"main","num":"BW38","printed":"BW38","code":"BW38","name":"Zekrom-EX","rarity":"P","tcg":90741,"idx":37},
+    {"id":"BW39","section":"main","num":"BW39","printed":"BW39","code":"BW39","name":"Battle City","rarity":"P","tcg":83739,"idx":38},
+    {"id":"BW40","section":"main","num":"BW40","printed":"BW40","code":"BW40","name":"Volcarona","rarity":"P","tcg":97093,"idx":39},
+    {"id":"BW41","section":"main","num":"BW41","printed":"BW41","code":"BW41","name":"Thundurus","rarity":"P","tcg":89904,"idx":40},
+    {"id":"BW42","section":"main","num":"BW42","printed":"BW42","code":"BW42","name":"Tornadus","rarity":"P","tcg":89975,"idx":41},
+    {"id":"BW43","section":"main","num":"BW43","printed":"BW43","code":"BW43","name":"Landorus","rarity":"P","tcg":86592,"idx":42},
+    {"id":"BW44","section":"main","num":"BW44","printed":"BW44","code":"BW44","name":"Kyurem","rarity":"P","tcg":86562,"idx":43},
+    {"id":"BW45","section":"main","num":"BW45","printed":"BW45","code":"BW45","name":"Mewtwo-EX","rarity":"P","tcg":87430,"idx":44},
+    {"id":"BW46","section":"main","num":"BW46","printed":"BW46","code":"BW46","name":"Darkrai-EX","rarity":"P","tcg":84707,"idx":45},
+    {"id":"BW47","section":"main","num":"BW47","printed":"BW47","code":"BW47","name":"Rayquaza-EX","rarity":"P","tcg":88646,"idx":46},
+    {"id":"BW48","section":"main","num":"BW48","printed":"BW48","code":"BW48","name":"Altaria","rarity":"P","tcg":96566,"idx":47},
+    {"id":"BW49","section":"main","num":"BW49","printed":"BW49","code":"BW49","name":"Lilligant","rarity":"P","tcg":86795,"idx":48},
+    {"id":"BW50","section":"main","num":"BW50","printed":"BW50","code":"BW50","name":"Tropical Beach","rarity":"P","tcg":96875,"idx":49},
+    {"id":"BW51","section":"main","num":"BW51","printed":"BW51","code":"BW51","name":"Crobat","rarity":"P","tcg":96573,"idx":50},
+    {"id":"BW52","section":"main","num":"BW52","printed":"BW52","code":"BW52","name":"Lillipup","rarity":"P","tcg":86801,"idx":51},
+    {"id":"BW53","section":"main","num":"BW53","printed":"BW53","code":"BW53","name":"Flygon","rarity":"P","tcg":96574,"idx":52},
+    {"id":"BW54","section":"main","num":"BW54","printed":"BW54","code":"BW54","name":"Pikachu","rarity":"P","tcg":202379,"idx":53},
+    {"id":"BW55","section":"main","num":"BW55","printed":"BW55","code":"BW55","name":"Elgyem","rarity":"P","tcg":85178,"idx":54},
+    {"id":"BW56","section":"main","num":"BW56","printed":"BW56","code":"BW56","name":"Empoleon","rarity":"P","tcg":85202,"idx":55},
+    {"id":"BW57","section":"main","num":"BW57","printed":"BW57","code":"BW57","name":"Haxorus","rarity":"P","tcg":86035,"idx":56},
+    {"id":"BW58","section":"main","num":"BW58","printed":"BW58","code":"BW58","name":"Black Kyurem","rarity":"P","tcg":83852,"idx":57},
+    {"id":"BW59","section":"main","num":"BW59","printed":"BW59","code":"BW59","name":"White Kyurem","rarity":"P","tcg":90587,"idx":58},
+    {"id":"BW60","section":"main","num":"BW60","printed":"BW60","code":"BW60","name":"Keldeo","rarity":"P","tcg":96885,"idx":59},
+    {"id":"BW61","section":"main","num":"BW61","printed":"BW61","code":"BW61","name":"Keldeo-EX","rarity":"P","tcg":86437,"idx":60},
+    {"id":"BW62","section":"main","num":"BW62","printed":"BW62","code":"BW62","name":"Black Kyurem-EX","rarity":"P","tcg":83855,"idx":61},
+    {"id":"BW63","section":"main","num":"BW63","printed":"BW63","code":"BW63","name":"White Kyurem-EX","rarity":"P","tcg":90590,"idx":62},
+    {"id":"BW64","section":"main","num":"BW64","printed":"BW64","code":"BW64","name":"Drifblim","rarity":"P","tcg":84950,"idx":63},
+    {"id":"BW65","section":"main","num":"BW65","printed":"BW65","code":"BW65","name":"Jigglypuff","rarity":"P","tcg":86321,"idx":64},
+    {"id":"BW66","section":"main","num":"BW66","printed":"BW66","code":"BW66","name":"Ninetales","rarity":"P","tcg":87779,"idx":65},
+    {"id":"BW67","section":"main","num":"BW67","printed":"BW67","code":"BW67","name":"Ampharos","rarity":"P","tcg":83548,"idx":66},
+    {"id":"BW68","section":"main","num":"BW68","printed":"BW68","code":"BW68","name":"Meloetta","rarity":"P","tcg":87300,"idx":67},
+    {"id":"BW69","section":"main","num":"BW69","printed":"BW69","code":"BW69","name":"Meloetta","rarity":"P","tcg":87301,"idx":68},
+    {"id":"BW70","section":"main","num":"BW70","printed":"BW70","code":"BW70","name":"Virizion","rarity":"P","tcg":90389,"idx":69},
+    {"id":"BW71","section":"main","num":"BW71","printed":"BW71","code":"BW71","name":"Terrakion","rarity":"P","tcg":89889,"idx":70},
+    {"id":"BW72","section":"main","num":"BW72","printed":"BW72","code":"BW72","name":"Cobalion","rarity":"P","tcg":84379,"idx":71},
+    {"id":"BW73","section":"main","num":"BW73","printed":"BW73","code":"BW73","name":"Darkrai","rarity":"P","tcg":84703,"idx":72},
+    {"id":"BW74","section":"main","num":"BW74","printed":"BW74","code":"BW74","name":"Giratina","rarity":"P","tcg":85739,"idx":73},
+    {"id":"BW75","section":"main","num":"BW75","printed":"BW75","code":"BW75","name":"Metagross","rarity":"P","tcg":97090,"idx":74},
+    {"id":"BW76","section":"main","num":"BW76","printed":"BW76","code":"BW76","name":"Electrode","rarity":"P","tcg":85164,"idx":75},
+    {"id":"BW77","section":"main","num":"BW77","printed":"BW77","code":"BW77","name":"Pikachu","rarity":"P","tcg":202379,"idx":76},
+    {"id":"BW78","section":"main","num":"BW78","printed":"BW78","code":"BW78","name":"Raichu","rarity":"P","idx":77},
+    {"id":"BW79","section":"main","num":"BW79","printed":"BW79","code":"BW79","name":"Landorus","rarity":"P","tcg":86594,"idx":78},
+    {"id":"BW80","section":"main","num":"BW80","printed":"BW80","code":"BW80","name":"Druddigon","rarity":"P","tcg":84983,"idx":79},
+    {"id":"BW81","section":"main","num":"BW81","printed":"BW81","code":"BW81","name":"Thundurus-EX","rarity":"P","tcg":89908,"idx":80},
+    {"id":"BW82","section":"main","num":"BW82","printed":"BW82","code":"BW82","name":"Deoxys-EX","rarity":"P","tcg":84776,"idx":81},
+    {"id":"BW83","section":"main","num":"BW83","printed":"BW83","code":"BW83","name":"Lugia-EX","rarity":"P","tcg":86914,"idx":82},
+    {"id":"BW84","section":"main","num":"BW84","printed":"BW84","code":"BW84","name":"Porygon-Z","rarity":"P","tcg":97091,"idx":83},
+    {"id":"BW85","section":"main","num":"BW85","printed":"BW85","code":"BW85","name":"Lucario","rarity":"P","tcg":86885,"idx":84},
+    {"id":"BW86","section":"main","num":"BW86","printed":"BW86","code":"BW86","name":"Genesect","rarity":"P","tcg":85664,"idx":85},
+    {"id":"BW87","section":"main","num":"BW87","printed":"BW87","code":"BW87","name":"Leafeon","rarity":"P","tcg":91600,"idx":86},
+    {"id":"BW88","section":"main","num":"BW88","printed":"BW88","code":"BW88","name":"Flareon","rarity":"P","tcg":91599,"idx":87},
+    {"id":"BW89","section":"main","num":"BW89","printed":"BW89","code":"BW89","name":"Vaporeon","rarity":"P","tcg":90289,"idx":88},
+    {"id":"BW90","section":"main","num":"BW90","printed":"BW90","code":"BW90","name":"Glaceon","rarity":"P","tcg":85748,"idx":89},
+    {"id":"BW91","section":"main","num":"BW91","printed":"BW91","code":"BW91","name":"Jolteon","rarity":"P","tcg":86348,"idx":90},
+    {"id":"BW92","section":"main","num":"BW92","printed":"BW92","code":"BW92","name":"Espeon","rarity":"P","tcg":85326,"idx":91},
+    {"id":"BW93","section":"main","num":"BW93","printed":"BW93","code":"BW93","name":"Umbreon","rarity":"P","tcg":90150,"idx":92},
+    {"id":"BW94","section":"main","num":"BW94","printed":"BW94","code":"BW94","name":"Eevee","rarity":"P","tcg":85095,"idx":93},
+    {"id":"BW95","section":"main","num":"BW95","printed":"BW95","code":"BW95","name":"Champions Festival","rarity":"P","tcg":96567,"idx":94},
+    {"id":"BW96","section":"main","num":"BW96","printed":"BW96","code":"BW96","name":"Tornadus-EX","rarity":"P","tcg":97092,"idx":95},
+    {"id":"BW97","section":"main","num":"BW97","printed":"BW97","code":"BW97","name":"Eevee","rarity":"P","tcg":85096,"idx":96},
+    {"id":"BW98","section":"main","num":"BW98","printed":"BW98","code":"BW98","name":"Mew","rarity":"P","tcg":87406,"idx":97},
+    {"id":"BW99","section":"main","num":"BW99","printed":"BW99","code":"BW99","name":"Genesect","rarity":"P","tcg":85663,"idx":98},
+    {"id":"BW100","section":"main","num":"BW100","printed":"BW100","code":"BW100","name":"N","rarity":"P","tcg":87677,"idx":99},
+    {"id":"BW101","section":"main","num":"BW101","printed":"BW101","code":"BW101","name":"Genesect","rarity":"P","tcg":108421,"idx":100}
+  ]
+}

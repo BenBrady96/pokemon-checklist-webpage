@@ -1,0 +1,80 @@
+{
+  "id": "pokemon/pop-series-5",
+  "game": "pokemon",
+  "slug": "pop-series-5",
+  "name": "POP Series 5",
+  "series": "Play! Pokémon",
+  "kind": "collection",
+  "code": "POP5",
+  "syncKey": "POP5",
+  "released": "2007-03-01",
+  "printedTotal": 17,
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "001–017",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-22, 55, 60x2",
+    "example": "1-22, 55x2",
+    "hint": "Separate with commas or spaces. <b>1-22</b> is a range and <b>55x2</b> is two copies.",
+    "empty": "Cards are 1–17."
+  },
+  "info": {
+    "packSections": [],
+    "sectionText": {
+      "main": [
+        "<p><b>From POP Series 5.</b></p>"
+      ]
+    }
+  },
+  "seo": {
+    "title": "Pokémon TCG POP Series 5 Checklist · All 17 Cards",
+    "description": "Free checklist for the 17 Pokémon TCG POP Series 5 cards, with images, copy counts, binder pages and prices. No sign-up needed.",
+    "ogTitle": "Pokémon TCG POP Series 5 Checklist",
+    "ogDescription": "Track all 17 Pokémon TCG POP Series 5 cards. Free, no sign-up, works offline."
+  },
+  "about": {
+    "title": "About POP Series 5",
+    "paragraphs": [
+      "Pokémon TCG: POP Series 5 came out on 1 March 2007 and has 17 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device."
+    ]
+  },
+  "source": {
+    "tcgdex": "pop5",
+    "tcgplayer": [
+      1439
+    ],
+    "serie": "pop"
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"001/017","code":"1","name":"Ho-Oh","rarity":"R","tcg":86123,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"002/017","code":"2","name":"Lugia","rarity":"R","tcg":86907,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"003/017","code":"3","name":"Mew δ","rarity":"R","tcg":87407,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"004/017","code":"4","name":"Double Rainbow Energy","rarity":"R","tcg":84894,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"005/017","code":"5","name":"Charmeleon δ","rarity":"U","tcg":84237,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"006/017","code":"6","name":"Bill's Maintenance","rarity":"U","tcg":83840,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"007/017","code":"7","name":"Rare Candy","rarity":"U","tcg":88592,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"008/017","code":"8","name":"Boost Energy","rarity":"U","tcg":83941,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"009/017","code":"9","name":"δ Rainbow Energy","rarity":"U","tcg":84756,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"010/017","code":"10","name":"Charmander δ","rarity":"C","tcg":84221,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"011/017","code":"11","name":"Meowth δ","rarity":"C","tcg":87330,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"012/017","code":"12","name":"Pikachu","rarity":"C","tcg":88085,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"013/017","code":"13","name":"Pikachu δ","rarity":"C","tcg":88110,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"014/017","code":"14","name":"Pelipper δ","rarity":"C","tcg":87981,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"015/017","code":"15","name":"Zangoose δ","rarity":"C","tcg":90709,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"016/017","code":"16","name":"Espeon ★","rarity":"R","tcg":85329,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"017/017","code":"17","name":"Umbreon ★","rarity":"R","tcg":90153,"idx":16}
+  ]
+}

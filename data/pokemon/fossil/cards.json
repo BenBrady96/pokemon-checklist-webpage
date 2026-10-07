@@ -1,0 +1,211 @@
+{
+  "id": "pokemon/fossil",
+  "game": "pokemon",
+  "slug": "fossil",
+  "name": "Fossil",
+  "series": "Original",
+  "kind": "expansion",
+  "code": "FO",
+  "syncKey": "FO",
+  "released": "1999-10-10",
+  "printedTotal": 62,
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Main Set",
+      "range": "001–062",
+      "tier": "standard"
+    },
+    {
+      "id": "firstedition",
+      "name": "1st Edition",
+      "short": "1st Edition",
+      "range": "62 cards",
+      "tier": "master"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Main set"
+    ],
+    [
+      "firstedition",
+      "1st Edition cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-22, 55, FE12, 60x2",
+    "example": "1-22, 55x2, FE12",
+    "hint": "Separate with commas or spaces. <b>1-22</b> is a range and <b>55x2</b> is two copies. <b>FE12</b> is card 12’s 1st Edition version, and ranges work too (<b>FE1-FE20</b>).",
+    "empty": "Main set cards are 1–62."
+  },
+  "help": {
+    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 62 main set cards. Master adds the 62 1st Edition cards. Cards you’ve marked are kept when you switch."
+  },
+  "info": {
+    "packSections": [
+      "main",
+      "firstedition"
+    ],
+    "sectionText": {
+      "firstedition": [
+        "<p><b>1st Edition print</b>, from Fossil booster packs. These have the Edition 1 stamp and came from the first print run.</p>"
+      ]
+    },
+    "packText": "<p><b>Fossil booster packs.</b></p>",
+    "packProducts": [
+      "Blister Pack",
+      "Pokémon Booster Box"
+    ]
+  },
+  "seo": {
+    "title": "Pokémon TCG Fossil Checklist · All 62 Cards",
+    "description": "Free checklist for the Pokémon TCG Fossil set. Track all 62 cards, or go further with the 1st Edition cards, with images, copy counts, binder pages and prices. No sign-up needed.",
+    "ogTitle": "Pokémon TCG Fossil Checklist",
+    "ogDescription": "Track all 62 cards in Pokémon TCG Fossil: the 62-card main set and 0 secret rares, plus 62 1st Edition cards. Free, no sign-up, works offline.",
+    "twitterDescription": "Track all 62 cards in Pokémon TCG Fossil. Free, no sign-up, works offline."
+  },
+  "about": {
+    "title": "About the Fossil set",
+    "paragraphs": [
+      "Pokémon TCG: Fossil is a Original expansion released on 10 October 1999. It has 62 cards: 62 in the main set and 0 secret rares. There are also 62 1st Edition cards.",
+      "Choose what you’re collecting: the <b>Standard set</b> (the 62 main set cards) or the <b>Master set</b> (124 cards, adding the 1st Edition cards).",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device."
+    ]
+  },
+  "source": {
+    "tcgdex": "base3",
+    "tcgplayer": [
+      630
+    ],
+    "serie": "base"
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"001/062","code":"1","name":"Aerodactyl","rarity":"RH","tcg":44418,"sub":"Unlimited Holofoil","idx":0},
+    {"id":"001-fe","section":"firstedition","num":"001","printed":"001/062","code":"FE1","name":"Aerodactyl","rarity":"RH","img":"001","badge":"1st Edition","variant":"1st Edition","foil":true,"tcg":44418,"sub":"1st Edition Holofoil","idx":1},
+    {"id":"002","section":"main","num":"002","printed":"002/062","code":"2","name":"Articuno","rarity":"RH","tcg":106518,"sub":"Unlimited Holofoil","idx":2},
+    {"id":"002-fe","section":"firstedition","num":"002","printed":"002/062","code":"FE2","name":"Articuno","rarity":"RH","img":"002","badge":"1st Edition","variant":"1st Edition","foil":true,"tcg":106518,"sub":"1st Edition Holofoil","idx":3},
+    {"id":"003","section":"main","num":"003","printed":"003/062","code":"3","name":"Ditto","rarity":"RH","tcg":106519,"sub":"Unlimited Holofoil","idx":4},
+    {"id":"003-fe","section":"firstedition","num":"003","printed":"003/062","code":"FE3","name":"Ditto","rarity":"RH","img":"003","badge":"1st Edition","variant":"1st Edition","foil":true,"tcg":106519,"sub":"1st Edition Holofoil","idx":5},
+    {"id":"004","section":"main","num":"004","printed":"004/062","code":"4","name":"Dragonite","rarity":"RH","tcg":106520,"sub":"Unlimited Holofoil","idx":6},
+    {"id":"004-fe","section":"firstedition","num":"004","printed":"004/062","code":"FE4","name":"Dragonite","rarity":"RH","img":"004","badge":"1st Edition","variant":"1st Edition","foil":true,"tcg":106520,"sub":"1st Edition Holofoil","idx":7},
+    {"id":"005","section":"main","num":"005","printed":"005/062","code":"5","name":"Gengar","rarity":"RH","tcg":106521,"sub":"Unlimited Holofoil","idx":8},
+    {"id":"005-fe","section":"firstedition","num":"005","printed":"005/062","code":"FE5","name":"Gengar","rarity":"RH","img":"005","badge":"1st Edition","variant":"1st Edition","foil":true,"tcg":106521,"sub":"1st Edition Holofoil","idx":9},
+    {"id":"006","section":"main","num":"006","printed":"006/062","code":"6","name":"Haunter","rarity":"RH","tcg":106522,"sub":"Unlimited Holofoil","idx":10},
+    {"id":"006-fe","section":"firstedition","num":"006","printed":"006/062","code":"FE6","name":"Haunter","rarity":"RH","img":"006","badge":"1st Edition","variant":"1st Edition","foil":true,"tcg":106522,"sub":"1st Edition Holofoil","idx":11},
+    {"id":"007","section":"main","num":"007","printed":"007/062","code":"7","name":"Hitmonlee","rarity":"RH","tcg":106523,"sub":"Unlimited Holofoil","idx":12},
+    {"id":"007-fe","section":"firstedition","num":"007","printed":"007/062","code":"FE7","name":"Hitmonlee","rarity":"RH","img":"007","badge":"1st Edition","variant":"1st Edition","foil":true,"tcg":106523,"sub":"1st Edition Holofoil","idx":13},
+    {"id":"008","section":"main","num":"008","printed":"008/062","code":"8","name":"Hypno","rarity":"RH","tcg":106524,"sub":"Unlimited Holofoil","idx":14},
+    {"id":"008-fe","section":"firstedition","num":"008","printed":"008/062","code":"FE8","name":"Hypno","rarity":"RH","img":"008","badge":"1st Edition","variant":"1st Edition","foil":true,"tcg":106524,"sub":"1st Edition Holofoil","idx":15},
+    {"id":"009","section":"main","num":"009","printed":"009/062","code":"9","name":"Kabutops","rarity":"RH","tcg":106525,"sub":"Unlimited Holofoil","idx":16},
+    {"id":"009-fe","section":"firstedition","num":"009","printed":"009/062","code":"FE9","name":"Kabutops","rarity":"RH","img":"009","badge":"1st Edition","variant":"1st Edition","foil":true,"tcg":106525,"sub":"1st Edition Holofoil","idx":17},
+    {"id":"010","section":"main","num":"010","printed":"010/062","code":"10","name":"Lapras","rarity":"RH","tcg":44419,"sub":"Unlimited Holofoil","idx":18},
+    {"id":"010-fe","section":"firstedition","num":"010","printed":"010/062","code":"FE10","name":"Lapras","rarity":"RH","img":"010","badge":"1st Edition","variant":"1st Edition","foil":true,"tcg":44419,"sub":"1st Edition Holofoil","idx":19},
+    {"id":"011","section":"main","num":"011","printed":"011/062","code":"11","name":"Magneton","rarity":"RH","tcg":44420,"sub":"Unlimited Holofoil","idx":20},
+    {"id":"011-fe","section":"firstedition","num":"011","printed":"011/062","code":"FE11","name":"Magneton","rarity":"RH","img":"011","badge":"1st Edition","variant":"1st Edition","foil":true,"tcg":44420,"sub":"1st Edition Holofoil","idx":21},
+    {"id":"012","section":"main","num":"012","printed":"012/062","code":"12","name":"Moltres","rarity":"RH","tcg":44421,"sub":"Unlimited Holofoil","idx":22},
+    {"id":"012-fe","section":"firstedition","num":"012","printed":"012/062","code":"FE12","name":"Moltres","rarity":"RH","img":"012","badge":"1st Edition","variant":"1st Edition","foil":true,"tcg":44421,"sub":"1st Edition Holofoil","idx":23},
+    {"id":"013","section":"main","num":"013","printed":"013/062","code":"13","name":"Muk","rarity":"RH","tcg":44422,"sub":"Unlimited Holofoil","idx":24},
+    {"id":"013-fe","section":"firstedition","num":"013","printed":"013/062","code":"FE13","name":"Muk","rarity":"RH","img":"013","badge":"1st Edition","variant":"1st Edition","foil":true,"tcg":44422,"sub":"1st Edition Holofoil","idx":25},
+    {"id":"014","section":"main","num":"014","printed":"014/062","code":"14","name":"Raichu","rarity":"RH","tcg":44423,"sub":"Unlimited Holofoil","idx":26},
+    {"id":"014-fe","section":"firstedition","num":"014","printed":"014/062","code":"FE14","name":"Raichu","rarity":"RH","img":"014","badge":"1st Edition","variant":"1st Edition","foil":true,"tcg":44423,"sub":"1st Edition Holofoil","idx":27},
+    {"id":"015","section":"main","num":"015","printed":"015/062","code":"15","name":"Zapdos","rarity":"RH","tcg":44424,"sub":"Unlimited Holofoil","idx":28},
+    {"id":"015-fe","section":"firstedition","num":"015","printed":"015/062","code":"FE15","name":"Zapdos","rarity":"RH","img":"015","badge":"1st Edition","variant":"1st Edition","foil":true,"tcg":44424,"sub":"1st Edition Holofoil","idx":29},
+    {"id":"016","section":"main","num":"016","printed":"016/062","code":"16","name":"Aerodactyl","rarity":"R","tcg":106526,"sub":"Unlimited","idx":30},
+    {"id":"016-fe","section":"firstedition","num":"016","printed":"016/062","code":"FE16","name":"Aerodactyl","rarity":"R","img":"016","badge":"1st Edition","variant":"1st Edition","foil":true,"tcg":106526,"sub":"1st Edition","idx":31},
+    {"id":"017","section":"main","num":"017","printed":"017/062","code":"17","name":"Articuno","rarity":"R","tcg":44425,"sub":"Unlimited","idx":32},
+    {"id":"017-fe","section":"firstedition","num":"017","printed":"017/062","code":"FE17","name":"Articuno","rarity":"R","img":"017","badge":"1st Edition","variant":"1st Edition","foil":true,"tcg":44425,"sub":"1st Edition","idx":33},
+    {"id":"018","section":"main","num":"018","printed":"018/062","code":"18","name":"Ditto","rarity":"R","tcg":44426,"sub":"Unlimited","idx":34},
+    {"id":"018-fe","section":"firstedition","num":"018","printed":"018/062","code":"FE18","name":"Ditto","rarity":"R","img":"018","badge":"1st Edition","variant":"1st Edition","foil":true,"tcg":44426,"sub":"1st Edition","idx":35},
+    {"id":"019","section":"main","num":"019","printed":"019/062","code":"19","name":"Dragonite","rarity":"R","tcg":44427,"sub":"Unlimited","idx":36},
+    {"id":"019-fe","section":"firstedition","num":"019","printed":"019/062","code":"FE19","name":"Dragonite","rarity":"R","img":"019","badge":"1st Edition","variant":"1st Edition","foil":true,"tcg":44427,"sub":"1st Edition","idx":37},
+    {"id":"020","section":"main","num":"020","printed":"020/062","code":"20","name":"Gengar","rarity":"R","tcg":44428,"sub":"Unlimited","idx":38},
+    {"id":"020-fe","section":"firstedition","num":"020","printed":"020/062","code":"FE20","name":"Gengar","rarity":"R","img":"020","badge":"1st Edition","variant":"1st Edition","foil":true,"tcg":44428,"sub":"1st Edition","idx":39},
+    {"id":"021","section":"main","num":"021","printed":"021/062","code":"21","name":"Haunter","rarity":"R","tcg":44429,"sub":"Unlimited","idx":40},
+    {"id":"021-fe","section":"firstedition","num":"021","printed":"021/062","code":"FE21","name":"Haunter","rarity":"R","img":"021","badge":"1st Edition","variant":"1st Edition","foil":true,"tcg":44429,"sub":"1st Edition","idx":41},
+    {"id":"022","section":"main","num":"022","printed":"022/062","code":"22","name":"Hitmonlee","rarity":"R","tcg":44430,"sub":"Unlimited","idx":42},
+    {"id":"022-fe","section":"firstedition","num":"022","printed":"022/062","code":"FE22","name":"Hitmonlee","rarity":"R","img":"022","badge":"1st Edition","variant":"1st Edition","foil":true,"tcg":44430,"sub":"1st Edition","idx":43},
+    {"id":"023","section":"main","num":"023","printed":"023/062","code":"23","name":"Hypno","rarity":"R","tcg":44431,"sub":"Unlimited","idx":44},
+    {"id":"023-fe","section":"firstedition","num":"023","printed":"023/062","code":"FE23","name":"Hypno","rarity":"R","img":"023","badge":"1st Edition","variant":"1st Edition","foil":true,"tcg":44431,"sub":"1st Edition","idx":45},
+    {"id":"024","section":"main","num":"024","printed":"024/062","code":"24","name":"Kabutops","rarity":"R","tcg":44432,"sub":"Unlimited","idx":46},
+    {"id":"024-fe","section":"firstedition","num":"024","printed":"024/062","code":"FE24","name":"Kabutops","rarity":"R","img":"024","badge":"1st Edition","variant":"1st Edition","foil":true,"tcg":44432,"sub":"1st Edition","idx":47},
+    {"id":"025","section":"main","num":"025","printed":"025/062","code":"25","name":"Lapras","rarity":"R","tcg":106527,"sub":"Unlimited","idx":48},
+    {"id":"025-fe","section":"firstedition","num":"025","printed":"025/062","code":"FE25","name":"Lapras","rarity":"R","img":"025","badge":"1st Edition","variant":"1st Edition","foil":true,"tcg":106527,"sub":"1st Edition","idx":49},
+    {"id":"026","section":"main","num":"026","printed":"026/062","code":"26","name":"Magneton","rarity":"R","tcg":106528,"sub":"Unlimited","idx":50},
+    {"id":"026-fe","section":"firstedition","num":"026","printed":"026/062","code":"FE26","name":"Magneton","rarity":"R","img":"026","badge":"1st Edition","variant":"1st Edition","foil":true,"tcg":106528,"sub":"1st Edition","idx":51},
+    {"id":"027","section":"main","num":"027","printed":"027/062","code":"27","name":"Moltres","rarity":"R","tcg":106529,"sub":"Unlimited","idx":52},
+    {"id":"027-fe","section":"firstedition","num":"027","printed":"027/062","code":"FE27","name":"Moltres","rarity":"R","img":"027","badge":"1st Edition","variant":"1st Edition","foil":true,"tcg":106529,"sub":"1st Edition","idx":53},
+    {"id":"028","section":"main","num":"028","printed":"028/062","code":"28","name":"Muk","rarity":"R","tcg":106530,"sub":"Unlimited","idx":54},
+    {"id":"028-fe","section":"firstedition","num":"028","printed":"028/062","code":"FE28","name":"Muk","rarity":"R","img":"028","badge":"1st Edition","variant":"1st Edition","foil":true,"tcg":106530,"sub":"1st Edition","idx":55},
+    {"id":"029","section":"main","num":"029","printed":"029/062","code":"29","name":"Raichu","rarity":"R","tcg":106531,"sub":"Unlimited","idx":56},
+    {"id":"029-fe","section":"firstedition","num":"029","printed":"029/062","code":"FE29","name":"Raichu","rarity":"R","img":"029","badge":"1st Edition","variant":"1st Edition","foil":true,"tcg":106531,"sub":"1st Edition","idx":57},
+    {"id":"030","section":"main","num":"030","printed":"030/062","code":"30","name":"Zapdos","rarity":"R","tcg":106532,"sub":"Unlimited","idx":58},
+    {"id":"030-fe","section":"firstedition","num":"030","printed":"030/062","code":"FE30","name":"Zapdos","rarity":"R","img":"030","badge":"1st Edition","variant":"1st Edition","foil":true,"tcg":106532,"sub":"1st Edition","idx":59},
+    {"id":"031","section":"main","num":"031","printed":"031/062","code":"31","name":"Arbok","rarity":"U","tcg":44433,"sub":"Unlimited","idx":60},
+    {"id":"031-fe","section":"firstedition","num":"031","printed":"031/062","code":"FE31","name":"Arbok","rarity":"U","img":"031","badge":"1st Edition","variant":"1st Edition","foil":true,"tcg":44433,"sub":"1st Edition","idx":61},
+    {"id":"032","section":"main","num":"032","printed":"032/062","code":"32","name":"Cloyster","rarity":"U","tcg":44434,"sub":"Unlimited","idx":62},
+    {"id":"032-fe","section":"firstedition","num":"032","printed":"032/062","code":"FE32","name":"Cloyster","rarity":"U","img":"032","badge":"1st Edition","variant":"1st Edition","foil":true,"tcg":44434,"sub":"1st Edition","idx":63},
+    {"id":"033","section":"main","num":"033","printed":"033/062","code":"33","name":"Gastly","rarity":"U","tcg":44435,"sub":"Unlimited","idx":64},
+    {"id":"033-fe","section":"firstedition","num":"033","printed":"033/062","code":"FE33","name":"Gastly","rarity":"U","img":"033","badge":"1st Edition","variant":"1st Edition","foil":true,"tcg":44435,"sub":"1st Edition","idx":65},
+    {"id":"034","section":"main","num":"034","printed":"034/062","code":"34","name":"Golbat","rarity":"U","tcg":44436,"sub":"Unlimited","idx":66},
+    {"id":"034-fe","section":"firstedition","num":"034","printed":"034/062","code":"FE34","name":"Golbat","rarity":"U","img":"034","badge":"1st Edition","variant":"1st Edition","foil":true,"tcg":44436,"sub":"1st Edition","idx":67},
+    {"id":"035","section":"main","num":"035","printed":"035/062","code":"35","name":"Golduck","rarity":"U","tcg":44437,"sub":"Unlimited","idx":68},
+    {"id":"035-fe","section":"firstedition","num":"035","printed":"035/062","code":"FE35","name":"Golduck","rarity":"U","img":"035","badge":"1st Edition","variant":"1st Edition","foil":true,"tcg":44437,"sub":"1st Edition","idx":69},
+    {"id":"036","section":"main","num":"036","printed":"036/062","code":"36","name":"Golem","rarity":"U","tcg":44438,"sub":"Unlimited","idx":70},
+    {"id":"036-fe","section":"firstedition","num":"036","printed":"036/062","code":"FE36","name":"Golem","rarity":"U","img":"036","badge":"1st Edition","variant":"1st Edition","foil":true,"tcg":44438,"sub":"1st Edition","idx":71},
+    {"id":"037","section":"main","num":"037","printed":"037/062","code":"37","name":"Graveler","rarity":"U","tcg":44439,"sub":"Unlimited","idx":72},
+    {"id":"037-fe","section":"firstedition","num":"037","printed":"037/062","code":"FE37","name":"Graveler","rarity":"U","img":"037","badge":"1st Edition","variant":"1st Edition","foil":true,"tcg":44439,"sub":"1st Edition","idx":73},
+    {"id":"038","section":"main","num":"038","printed":"038/062","code":"38","name":"Kingler","rarity":"U","tcg":44440,"sub":"Unlimited","idx":74},
+    {"id":"038-fe","section":"firstedition","num":"038","printed":"038/062","code":"FE38","name":"Kingler","rarity":"U","img":"038","badge":"1st Edition","variant":"1st Edition","foil":true,"tcg":44440,"sub":"1st Edition","idx":75},
+    {"id":"039","section":"main","num":"039","printed":"039/062","code":"39","name":"Magmar","rarity":"U","tcg":44441,"sub":"Unlimited","idx":76},
+    {"id":"039-fe","section":"firstedition","num":"039","printed":"039/062","code":"FE39","name":"Magmar","rarity":"U","img":"039","badge":"1st Edition","variant":"1st Edition","foil":true,"tcg":44441,"sub":"1st Edition","idx":77},
+    {"id":"040","section":"main","num":"040","printed":"040/062","code":"40","name":"Omastar","rarity":"U","tcg":44442,"sub":"Unlimited","idx":78},
+    {"id":"040-fe","section":"firstedition","num":"040","printed":"040/062","code":"FE40","name":"Omastar","rarity":"U","img":"040","badge":"1st Edition","variant":"1st Edition","foil":true,"tcg":44442,"sub":"1st Edition","idx":79},
+    {"id":"041","section":"main","num":"041","printed":"041/062","code":"41","name":"Sandslash","rarity":"U","tcg":44443,"sub":"Unlimited","idx":80},
+    {"id":"041-fe","section":"firstedition","num":"041","printed":"041/062","code":"FE41","name":"Sandslash","rarity":"U","img":"041","badge":"1st Edition","variant":"1st Edition","foil":true,"tcg":44443,"sub":"1st Edition","idx":81},
+    {"id":"042","section":"main","num":"042","printed":"042/062","code":"42","name":"Seadra","rarity":"U","tcg":44444,"sub":"Unlimited","idx":82},
+    {"id":"042-fe","section":"firstedition","num":"042","printed":"042/062","code":"FE42","name":"Seadra","rarity":"U","img":"042","badge":"1st Edition","variant":"1st Edition","foil":true,"tcg":44444,"sub":"1st Edition","idx":83},
+    {"id":"043","section":"main","num":"043","printed":"043/062","code":"43","name":"Slowbro","rarity":"U","tcg":44445,"sub":"Unlimited","idx":84},
+    {"id":"043-fe","section":"firstedition","num":"043","printed":"043/062","code":"FE43","name":"Slowbro","rarity":"U","img":"043","badge":"1st Edition","variant":"1st Edition","foil":true,"tcg":44445,"sub":"1st Edition","idx":85},
+    {"id":"044","section":"main","num":"044","printed":"044/062","code":"44","name":"Tentacruel","rarity":"U","tcg":44446,"sub":"Unlimited","idx":86},
+    {"id":"044-fe","section":"firstedition","num":"044","printed":"044/062","code":"FE44","name":"Tentacruel","rarity":"U","img":"044","badge":"1st Edition","variant":"1st Edition","foil":true,"tcg":44446,"sub":"1st Edition","idx":87},
+    {"id":"045","section":"main","num":"045","printed":"045/062","code":"45","name":"Weezing","rarity":"U","tcg":44447,"sub":"Unlimited","idx":88},
+    {"id":"045-fe","section":"firstedition","num":"045","printed":"045/062","code":"FE45","name":"Weezing","rarity":"U","img":"045","badge":"1st Edition","variant":"1st Edition","foil":true,"tcg":44447,"sub":"1st Edition","idx":89},
+    {"id":"046","section":"main","num":"046","printed":"046/062","code":"46","name":"Ekans","rarity":"C","tcg":44448,"sub":"Unlimited","idx":90},
+    {"id":"046-fe","section":"firstedition","num":"046","printed":"046/062","code":"FE46","name":"Ekans","rarity":"C","img":"046","badge":"1st Edition","variant":"1st Edition","foil":true,"tcg":44448,"sub":"1st Edition","idx":91},
+    {"id":"047","section":"main","num":"047","printed":"047/062","code":"47","name":"Geodude","rarity":"C","tcg":44449,"sub":"Unlimited","idx":92},
+    {"id":"047-fe","section":"firstedition","num":"047","printed":"047/062","code":"FE47","name":"Geodude","rarity":"C","img":"047","badge":"1st Edition","variant":"1st Edition","foil":true,"tcg":44449,"sub":"1st Edition","idx":93},
+    {"id":"048","section":"main","num":"048","printed":"048/062","code":"48","name":"Grimer","rarity":"C","tcg":44450,"sub":"Unlimited","idx":94},
+    {"id":"048-fe","section":"firstedition","num":"048","printed":"048/062","code":"FE48","name":"Grimer","rarity":"C","img":"048","badge":"1st Edition","variant":"1st Edition","foil":true,"tcg":44450,"sub":"1st Edition","idx":95},
+    {"id":"049","section":"main","num":"049","printed":"049/062","code":"49","name":"Horsea","rarity":"C","tcg":44451,"sub":"Unlimited","idx":96},
+    {"id":"049-fe","section":"firstedition","num":"049","printed":"049/062","code":"FE49","name":"Horsea","rarity":"C","img":"049","badge":"1st Edition","variant":"1st Edition","foil":true,"tcg":44451,"sub":"1st Edition","idx":97},
+    {"id":"050","section":"main","num":"050","printed":"050/062","code":"50","name":"Kabuto","rarity":"C","tcg":44452,"sub":"Unlimited","idx":98},
+    {"id":"050-fe","section":"firstedition","num":"050","printed":"050/062","code":"FE50","name":"Kabuto","rarity":"C","img":"050","badge":"1st Edition","variant":"1st Edition","foil":true,"tcg":44452,"sub":"1st Edition","idx":99},
+    {"id":"051","section":"main","num":"051","printed":"051/062","code":"51","name":"Krabby","rarity":"C","tcg":44453,"sub":"Unlimited","idx":100},
+    {"id":"051-fe","section":"firstedition","num":"051","printed":"051/062","code":"FE51","name":"Krabby","rarity":"C","img":"051","badge":"1st Edition","variant":"1st Edition","foil":true,"tcg":44453,"sub":"1st Edition","idx":101},
+    {"id":"052","section":"main","num":"052","printed":"052/062","code":"52","name":"Omanyte","rarity":"C","tcg":44454,"sub":"Unlimited","idx":102},
+    {"id":"052-fe","section":"firstedition","num":"052","printed":"052/062","code":"FE52","name":"Omanyte","rarity":"C","img":"052","badge":"1st Edition","variant":"1st Edition","foil":true,"tcg":44454,"sub":"1st Edition","idx":103},
+    {"id":"053","section":"main","num":"053","printed":"053/062","code":"53","name":"Psyduck","rarity":"C","tcg":44455,"sub":"Unlimited","idx":104},
+    {"id":"053-fe","section":"firstedition","num":"053","printed":"053/062","code":"FE53","name":"Psyduck","rarity":"C","img":"053","badge":"1st Edition","variant":"1st Edition","foil":true,"tcg":44455,"sub":"1st Edition","idx":105},
+    {"id":"054","section":"main","num":"054","printed":"054/062","code":"54","name":"Shellder","rarity":"C","tcg":44456,"sub":"Unlimited","idx":106},
+    {"id":"054-fe","section":"firstedition","num":"054","printed":"054/062","code":"FE54","name":"Shellder","rarity":"C","img":"054","badge":"1st Edition","variant":"1st Edition","foil":true,"tcg":44456,"sub":"1st Edition","idx":107},
+    {"id":"055","section":"main","num":"055","printed":"055/062","code":"55","name":"Slowpoke","rarity":"C","tcg":44457,"sub":"Unlimited","idx":108},
+    {"id":"055-fe","section":"firstedition","num":"055","printed":"055/062","code":"FE55","name":"Slowpoke","rarity":"C","img":"055","badge":"1st Edition","variant":"1st Edition","foil":true,"tcg":44457,"sub":"1st Edition","idx":109},
+    {"id":"056","section":"main","num":"056","printed":"056/062","code":"56","name":"Tentacool","rarity":"C","tcg":44458,"sub":"Unlimited","idx":110},
+    {"id":"056-fe","section":"firstedition","num":"056","printed":"056/062","code":"FE56","name":"Tentacool","rarity":"C","img":"056","badge":"1st Edition","variant":"1st Edition","foil":true,"tcg":44458,"sub":"1st Edition","idx":111},
+    {"id":"057","section":"main","num":"057","printed":"057/062","code":"57","name":"Zubat","rarity":"C","tcg":44459,"sub":"Unlimited","idx":112},
+    {"id":"057-fe","section":"firstedition","num":"057","printed":"057/062","code":"FE57","name":"Zubat","rarity":"C","img":"057","badge":"1st Edition","variant":"1st Edition","foil":true,"tcg":44459,"sub":"1st Edition","idx":113},
+    {"id":"058","section":"main","num":"058","printed":"058/062","code":"58","name":"Mr. Fuji","rarity":"U","tcg":44460,"sub":"Unlimited","idx":114},
+    {"id":"058-fe","section":"firstedition","num":"058","printed":"058/062","code":"FE58","name":"Mr. Fuji","rarity":"U","img":"058","badge":"1st Edition","variant":"1st Edition","foil":true,"tcg":44460,"sub":"1st Edition","idx":115},
+    {"id":"059","section":"main","num":"059","printed":"059/062","code":"59","name":"Energy Search","rarity":"C","tcg":44461,"sub":"Unlimited","idx":116},
+    {"id":"059-fe","section":"firstedition","num":"059","printed":"059/062","code":"FE59","name":"Energy Search","rarity":"C","img":"059","badge":"1st Edition","variant":"1st Edition","foil":true,"tcg":44461,"sub":"1st Edition","idx":117},
+    {"id":"060","section":"main","num":"060","printed":"060/062","code":"60","name":"Gambler","rarity":"C","tcg":44462,"sub":"Unlimited","idx":118},
+    {"id":"060-fe","section":"firstedition","num":"060","printed":"060/062","code":"FE60","name":"Gambler","rarity":"C","img":"060","badge":"1st Edition","variant":"1st Edition","foil":true,"tcg":44462,"sub":"1st Edition","idx":119},
+    {"id":"061","section":"main","num":"061","printed":"061/062","code":"61","name":"Recycle","rarity":"C","tcg":44463,"sub":"Unlimited","idx":120},
+    {"id":"061-fe","section":"firstedition","num":"061","printed":"061/062","code":"FE61","name":"Recycle","rarity":"C","img":"061","badge":"1st Edition","variant":"1st Edition","foil":true,"tcg":44463,"sub":"1st Edition","idx":121},
+    {"id":"062","section":"main","num":"062","printed":"062/062","code":"62","name":"Mysterious Fossil","rarity":"C","tcg":44464,"sub":"Unlimited","idx":122},
+    {"id":"062-fe","section":"firstedition","num":"062","printed":"062/062","code":"FE62","name":"Mysterious Fossil","rarity":"C","img":"062","badge":"1st Edition","variant":"1st Edition","foil":true,"tcg":44464,"sub":"1st Edition","idx":123}
+  ]
+}

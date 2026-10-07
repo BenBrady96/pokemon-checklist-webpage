@@ -52,12 +52,15 @@
     <p>To work, the checklist saves a small amount of information in your web browser:</p>
     <ul>
       <li><b>Your collections and settings.</b> This covers which cards you have marked in each set, how many copies you own, and display choices such as your layout and theme. It is kept in your browser’s <i>local storage</i>.</li>
-      <li><b>Copies of the site’s files and card images.</b> These let the checklist load quickly and work without an internet connection. They are kept in your browser’s cache storage, which a <i>service worker</i> manages. If you use the card scanner, the card recogniser (about 40 MB) is saved there too, so it only downloads once.</li>
+      <li><b>Copies of the site’s files and card pictures.</b> These let the checklist load quickly and work without an internet connection. They are kept in your browser’s cache storage, which a <i>service worker</i> manages. If you use the card scanner, the card recogniser (about 40 MB) is saved there too, so it only downloads once.</li>
     </ul>
     <p>This information stays on your device. It isn’t sent to us or anyone else, and it isn’t used to identify or track you. Storing it is strictly necessary to give you the service you asked for, so under the UK Privacy and Electronic Communications Regulations (PECR) and equivalent EU rules it doesn’t need your consent.</p>
 
     <h2>Cookies</h2>
-    <p>The checklist doesn’t set any cookies, for analytics, advertising or anything else, so there is no cookie banner. We don’t use analytics, advertising, social media widgets or tracking pixels. The site doesn’t load fonts, scripts or images from other companies’ servers: everything is served from this website.</p>
+    <p>The checklist doesn’t set any cookies, for analytics, advertising or anything else, so there is no cookie banner. We don’t use analytics, advertising, social media widgets or tracking pixels. Fonts and scripts are served from this website, and most card pictures come from TCGdex (see below).</p>
+
+    <h2>Card pictures</h2>
+    <p>Most card pictures are loaded straight from <a href="https://tcgdex.dev" rel="noopener">TCGdex</a>, a free and open Pokémon card database, at <code>assets.tcgdex.net</code>. When your browser shows one of these pictures, it contacts TCGdex’s server, which, like any web host, receives technical information such as your IP address and browser type. Nothing about your collection is sent. Pictures that TCGdex doesn’t have are served from this website. Once a picture has loaded, the checklist keeps a copy on your device, so it isn’t downloaded again.</p>
 
     <h2>Camera and the card scanner</h2>
     <p>The <b>Scan a card</b> button uses your camera only after you open the scanner and your browser asks for, and you give, permission. Your browser shows that the camera is in use, and the scanner turns it off as soon as you close it or switch to another tab.</p>

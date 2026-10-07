@@ -1,0 +1,228 @@
+{
+  "id": "pokemon/hidden-fates",
+  "game": "pokemon",
+  "slug": "hidden-fates",
+  "name": "Hidden Fates",
+  "series": "Sun & Moon",
+  "kind": "expansion",
+  "code": "HIF",
+  "syncKey": "HIF",
+  "released": "2019-08-23",
+  "printedTotal": 68,
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Main Set",
+      "range": "001–068",
+      "tier": "standard"
+    },
+    {
+      "id": "reverse",
+      "name": "Reverse Holos",
+      "short": "Reverse Holos",
+      "range": "56 cards",
+      "tier": "master"
+    },
+    {
+      "id": "secret",
+      "name": "Secret Rares",
+      "range": "069–069",
+      "tier": "grand"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Main set"
+    ],
+    [
+      "reverse",
+      "Reverse holos"
+    ],
+    [
+      "secret",
+      "Secret rares"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-22, 55, R12, 60x2",
+    "example": "1-22, 55x2, R12",
+    "hint": "Separate with commas or spaces. <b>1-22</b> is a range and <b>55x2</b> is two copies. <b>R12</b> is card 12’s reverse holo, and ranges work too (<b>R1-R20</b>).",
+    "empty": "Main set cards are 1–68 (secret rares start at 69)."
+  },
+  "help": {
+    "tiers": "<b>Standard, Master or Grand Master:</b> pick what you’re collecting above the cards. Standard is the 68 main set cards. Master adds the 56 reverse holos. Grand Master adds the 1 secret rare. Cards you’ve marked are kept when you switch."
+  },
+  "info": {
+    "packSections": [
+      "main",
+      "reverse",
+      "secret"
+    ],
+    "sectionText": {
+      "reverse": [
+        "<p><b>Reverse holo</b>, from Hidden Fates booster packs.</p>"
+      ]
+    },
+    "packText": "<p><b>Hidden Fates booster packs.</b></p>",
+    "packProducts": [
+      "Collection",
+      "Elite Trainer Box",
+      "Pin Collection",
+      "Poke Ball Collection",
+      "Premium Powers Collection",
+      "Tin",
+      "Ultra-Premium Collection"
+    ]
+  },
+  "seo": {
+    "title": "Pokémon TCG Hidden Fates Checklist · All 69 Cards",
+    "description": "Free checklist for the Pokémon TCG Hidden Fates set. Track all 69 cards, or go further with the reverse holos, with images, copy counts, binder pages and prices. No sign-up needed.",
+    "ogTitle": "Pokémon TCG Hidden Fates Checklist",
+    "ogDescription": "Track all 69 cards in Pokémon TCG Hidden Fates: the 68-card main set and 1 secret rare, plus 56 reverse holos. Free, no sign-up, works offline.",
+    "twitterDescription": "Track all 69 cards in Pokémon TCG Hidden Fates. Free, no sign-up, works offline."
+  },
+  "about": {
+    "title": "About the Hidden Fates set",
+    "paragraphs": [
+      "Pokémon TCG: Hidden Fates is a Sun & Moon expansion released on 23 August 2019. It has 69 cards: 68 in the main set and 1 secret rare. There are also 56 reverse holos.",
+      "Choose what you’re collecting: the <b>Standard set</b> (the 68 main set cards), the <b>Master set</b> (124 cards, adding the reverse holos) or the <b>Grand Master set</b> (all 125 cards, adding the 1 secret rare).",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device."
+    ]
+  },
+  "source": {
+    "tcgdex": "sm115",
+    "tcgplayer": [
+      2480
+    ],
+    "serie": "sm"
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"001/068","code":"1","name":"Caterpie","rarity":"C","tcg":197643,"idx":0},
+    {"id":"001-rh","section":"reverse","num":"001","printed":"001/068","code":"R1","name":"Caterpie","rarity":"C","img":"001","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":197643,"sub":"Reverse Holofoil","idx":1},
+    {"id":"002","section":"main","num":"002","printed":"002/068","code":"2","name":"Metapod","rarity":"U","tcg":197644,"idx":2},
+    {"id":"002-rh","section":"reverse","num":"002","printed":"002/068","code":"R2","name":"Metapod","rarity":"U","img":"002","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":197644,"sub":"Reverse Holofoil","idx":3},
+    {"id":"003","section":"main","num":"003","printed":"003/068","code":"3","name":"Butterfree","rarity":"R","tcg":197645,"idx":4},
+    {"id":"003-rh","section":"reverse","num":"003","printed":"003/068","code":"R3","name":"Butterfree","rarity":"R","img":"003","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":197645,"sub":"Reverse Holofoil","idx":5},
+    {"id":"004","section":"main","num":"004","printed":"004/068","code":"4","name":"Paras","rarity":"C","tcg":197646,"idx":6},
+    {"id":"004-rh","section":"reverse","num":"004","printed":"004/068","code":"R4","name":"Paras","rarity":"C","img":"004","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":197646,"sub":"Reverse Holofoil","idx":7},
+    {"id":"005","section":"main","num":"005","printed":"005/068","code":"5","name":"Scyther","rarity":"U","tcg":197647,"idx":8},
+    {"id":"005-rh","section":"reverse","num":"005","printed":"005/068","code":"R5","name":"Scyther","rarity":"U","img":"005","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":197647,"sub":"Reverse Holofoil","idx":9},
+    {"id":"006","section":"main","num":"006","printed":"006/068","code":"6","name":"Pinsir GX","rarity":"UR","tcg":197648,"idx":10},
+    {"id":"007","section":"main","num":"007","printed":"007/068","code":"7","name":"Charmander","rarity":"C","tcg":197649,"idx":11},
+    {"id":"007-rh","section":"reverse","num":"007","printed":"007/068","code":"R7","name":"Charmander","rarity":"C","img":"007","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":197649,"sub":"Reverse Holofoil","idx":12},
+    {"id":"008","section":"main","num":"008","printed":"008/068","code":"8","name":"Charmeleon","rarity":"U","tcg":197650,"idx":13},
+    {"id":"008-rh","section":"reverse","num":"008","printed":"008/068","code":"R8","name":"Charmeleon","rarity":"U","img":"008","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":197650,"sub":"Reverse Holofoil","idx":14},
+    {"id":"009","section":"main","num":"009","printed":"009/068","code":"9","name":"Charizard GX","rarity":"UR","tcg":197651,"idx":15},
+    {"id":"010","section":"main","num":"010","printed":"010/068","code":"10","name":"Magmar","rarity":"U","tcg":197652,"idx":16},
+    {"id":"010-rh","section":"reverse","num":"010","printed":"010/068","code":"R10","name":"Magmar","rarity":"U","img":"010","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":197652,"sub":"Reverse Holofoil","idx":17},
+    {"id":"011","section":"main","num":"011","printed":"011/068","code":"11","name":"Psyduck","rarity":"C","tcg":197653,"idx":18},
+    {"id":"011-rh","section":"reverse","num":"011","printed":"011/068","code":"R11","name":"Psyduck","rarity":"C","img":"011","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":197653,"sub":"Reverse Holofoil","idx":19},
+    {"id":"012","section":"main","num":"012","printed":"012/068","code":"12","name":"Slowpoke","rarity":"C","tcg":197654,"idx":20},
+    {"id":"012-rh","section":"reverse","num":"012","printed":"012/068","code":"R12","name":"Slowpoke","rarity":"C","img":"012","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":197654,"sub":"Reverse Holofoil","idx":21},
+    {"id":"013","section":"main","num":"013","printed":"013/068","code":"13","name":"Staryu","rarity":"C","tcg":197657,"idx":22},
+    {"id":"013-rh","section":"reverse","num":"013","printed":"013/068","code":"R13","name":"Staryu","rarity":"C","img":"013","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":197657,"sub":"Reverse Holofoil","idx":23},
+    {"id":"014","section":"main","num":"014","printed":"014/068","code":"14","name":"Starmie GX","rarity":"UR","tcg":197658,"idx":24},
+    {"id":"015","section":"main","num":"015","printed":"015/068","code":"15","name":"Magikarp","rarity":"C","tcg":197659,"idx":25},
+    {"id":"015-rh","section":"reverse","num":"015","printed":"015/068","code":"R15","name":"Magikarp","rarity":"C","img":"015","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":197659,"sub":"Reverse Holofoil","idx":26},
+    {"id":"016","section":"main","num":"016","printed":"016/068","code":"16","name":"Gyarados GX","rarity":"UR","tcg":197660,"idx":27},
+    {"id":"017","section":"main","num":"017","printed":"017/068","code":"17","name":"Lapras","rarity":"R","tcg":197661,"idx":28},
+    {"id":"017-rh","section":"reverse","num":"017","printed":"017/068","code":"R17","name":"Lapras","rarity":"R","img":"017","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":197661,"sub":"Reverse Holofoil","idx":29},
+    {"id":"018","section":"main","num":"018","printed":"018/068","code":"18","name":"Vaporeon","rarity":"R","tcg":197662,"idx":30},
+    {"id":"018-rh","section":"reverse","num":"018","printed":"018/068","code":"R18","name":"Vaporeon","rarity":"R","img":"018","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":197662,"sub":"Reverse Holofoil","idx":31},
+    {"id":"019","section":"main","num":"019","printed":"019/068","code":"19","name":"Pikachu","rarity":"C","tcg":197663,"idx":32},
+    {"id":"019-rh","section":"reverse","num":"019","printed":"019/068","code":"R19","name":"Pikachu","rarity":"C","img":"019","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":197663,"sub":"Reverse Holofoil","idx":33},
+    {"id":"020","section":"main","num":"020","printed":"020/068","code":"20","name":"Raichu GX","rarity":"UR","tcg":197664,"idx":34},
+    {"id":"021","section":"main","num":"021","printed":"021/068","code":"21","name":"Voltorb","rarity":"C","tcg":197665,"idx":35},
+    {"id":"021-rh","section":"reverse","num":"021","printed":"021/068","code":"R21","name":"Voltorb","rarity":"C","img":"021","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":197665,"sub":"Reverse Holofoil","idx":36},
+    {"id":"022","section":"main","num":"022","printed":"022/068","code":"22","name":"Electrode","rarity":"R","tcg":197666,"idx":37},
+    {"id":"022-rh","section":"reverse","num":"022","printed":"022/068","code":"R22","name":"Electrode","rarity":"R","img":"022","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":197666,"sub":"Reverse Holofoil","idx":38},
+    {"id":"023","section":"main","num":"023","printed":"023/068","code":"23","name":"Jolteon","rarity":"R","tcg":197667,"idx":39},
+    {"id":"023-rh","section":"reverse","num":"023","printed":"023/068","code":"R23","name":"Jolteon","rarity":"R","img":"023","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":197667,"sub":"Reverse Holofoil","idx":40},
+    {"id":"024","section":"main","num":"024","printed":"024/068","code":"24","name":"Zapdos","rarity":"R","tcg":197668,"idx":41},
+    {"id":"024-rh","section":"reverse","num":"024","printed":"024/068","code":"R24","name":"Zapdos","rarity":"R","img":"024","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":197668,"sub":"Reverse Holofoil","idx":42},
+    {"id":"025","section":"main","num":"025","printed":"025/068","code":"25","name":"Ekans","rarity":"C","tcg":197669,"idx":43},
+    {"id":"025-rh","section":"reverse","num":"025","printed":"025/068","code":"R25","name":"Ekans","rarity":"C","img":"025","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":197669,"sub":"Reverse Holofoil","idx":44},
+    {"id":"026","section":"main","num":"026","printed":"026/068","code":"26","name":"Ekans","rarity":"C","tcg":197670,"idx":45},
+    {"id":"026-rh","section":"reverse","num":"026","printed":"026/068","code":"R26","name":"Ekans","rarity":"C","img":"026","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":197670,"sub":"Reverse Holofoil","idx":46},
+    {"id":"027","section":"main","num":"027","printed":"027/068","code":"27","name":"Arbok","rarity":"R","tcg":197671,"idx":47},
+    {"id":"027-rh","section":"reverse","num":"027","printed":"027/068","code":"R27","name":"Arbok","rarity":"R","img":"027","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":197671,"sub":"Reverse Holofoil","idx":48},
+    {"id":"028","section":"main","num":"028","printed":"028/068","code":"28","name":"Koffing","rarity":"C","tcg":197672,"idx":49},
+    {"id":"028-rh","section":"reverse","num":"028","printed":"028/068","code":"R28","name":"Koffing","rarity":"C","img":"028","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":197672,"sub":"Reverse Holofoil","idx":50},
+    {"id":"029","section":"main","num":"029","printed":"029/068","code":"29","name":"Weezing","rarity":"R","tcg":197673,"idx":51},
+    {"id":"029-rh","section":"reverse","num":"029","printed":"029/068","code":"R29","name":"Weezing","rarity":"R","img":"029","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":197673,"sub":"Reverse Holofoil","idx":52},
+    {"id":"030","section":"main","num":"030","printed":"030/068","code":"30","name":"Jynx","rarity":"U","tcg":197674,"idx":53},
+    {"id":"030-rh","section":"reverse","num":"030","printed":"030/068","code":"R30","name":"Jynx","rarity":"U","img":"030","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":197674,"sub":"Reverse Holofoil","idx":54},
+    {"id":"031","section":"main","num":"031","printed":"031/068","code":"31","name":"Mewtwo GX","rarity":"UR","tcg":197675,"idx":55},
+    {"id":"032","section":"main","num":"032","printed":"032/068","code":"32","name":"Mew","rarity":"R","tcg":197676,"idx":56},
+    {"id":"032-rh","section":"reverse","num":"032","printed":"032/068","code":"R32","name":"Mew","rarity":"R","img":"032","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":197676,"sub":"Reverse Holofoil","idx":57},
+    {"id":"033","section":"main","num":"033","printed":"033/068","code":"33","name":"Geodude","rarity":"C","tcg":197677,"idx":58},
+    {"id":"033-rh","section":"reverse","num":"033","printed":"033/068","code":"R33","name":"Geodude","rarity":"C","img":"033","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":197677,"sub":"Reverse Holofoil","idx":59},
+    {"id":"034","section":"main","num":"034","printed":"034/068","code":"34","name":"Graveler","rarity":"U","tcg":197678,"idx":60},
+    {"id":"034-rh","section":"reverse","num":"034","printed":"034/068","code":"R34","name":"Graveler","rarity":"U","img":"034","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":197678,"sub":"Reverse Holofoil","idx":61},
+    {"id":"035","section":"main","num":"035","printed":"035/068","code":"35","name":"Golem","rarity":"R","tcg":197679,"idx":62},
+    {"id":"035-rh","section":"reverse","num":"035","printed":"035/068","code":"R35","name":"Golem","rarity":"R","img":"035","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":197679,"sub":"Reverse Holofoil","idx":63},
+    {"id":"036","section":"main","num":"036","printed":"036/068","code":"36","name":"Onix GX","rarity":"UR","tcg":197680,"idx":64},
+    {"id":"037","section":"main","num":"037","printed":"037/068","code":"37","name":"Cubone","rarity":"C","tcg":197681,"idx":65},
+    {"id":"037-rh","section":"reverse","num":"037","printed":"037/068","code":"R37","name":"Cubone","rarity":"C","img":"037","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":197681,"sub":"Reverse Holofoil","idx":66},
+    {"id":"038","section":"main","num":"038","printed":"038/068","code":"38","name":"Clefairy","rarity":"C","tcg":197682,"idx":67},
+    {"id":"038-rh","section":"reverse","num":"038","printed":"038/068","code":"R38","name":"Clefairy","rarity":"C","img":"038","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":197682,"sub":"Reverse Holofoil","idx":68},
+    {"id":"039","section":"main","num":"039","printed":"039/068","code":"39","name":"Clefairy","rarity":"C","tcg":197683,"idx":69},
+    {"id":"039-rh","section":"reverse","num":"039","printed":"039/068","code":"R39","name":"Clefairy","rarity":"C","img":"039","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":197683,"sub":"Reverse Holofoil","idx":70},
+    {"id":"040","section":"main","num":"040","printed":"040/068","code":"40","name":"Clefable","rarity":"R","tcg":197684,"idx":71},
+    {"id":"040-rh","section":"reverse","num":"040","printed":"040/068","code":"R40","name":"Clefable","rarity":"R","img":"040","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":197684,"sub":"Reverse Holofoil","idx":72},
+    {"id":"041","section":"main","num":"041","printed":"041/068","code":"41","name":"Jigglypuff","rarity":"C","tcg":197685,"idx":73},
+    {"id":"041-rh","section":"reverse","num":"041","printed":"041/068","code":"R41","name":"Jigglypuff","rarity":"C","img":"041","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":197685,"sub":"Reverse Holofoil","idx":74},
+    {"id":"042","section":"main","num":"042","printed":"042/068","code":"42","name":"Wigglytuff GX","rarity":"UR","tcg":197686,"idx":75},
+    {"id":"043","section":"main","num":"043","printed":"043/068","code":"43","name":"Mr. Mime","rarity":"R","tcg":197687,"idx":76},
+    {"id":"043-rh","section":"reverse","num":"043","printed":"043/068","code":"R43","name":"Mr. Mime","rarity":"R","img":"043","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":197687,"sub":"Reverse Holofoil","idx":77},
+    {"id":"044","section":"main","num":"044","printed":"044/068","code":"44","name":"Moltres & Zapdos & Articuno GX","rarity":"UR","tcg":197688,"idx":78},
+    {"id":"045","section":"main","num":"045","printed":"045/068","code":"45","name":"Farfetch’d","rarity":"U","tcg":197689,"idx":79},
+    {"id":"045-rh","section":"reverse","num":"045","printed":"045/068","code":"R45","name":"Farfetch’d","rarity":"U","img":"045","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":197689,"sub":"Reverse Holofoil","idx":80},
+    {"id":"046","section":"main","num":"046","printed":"046/068","code":"46","name":"Chansey","rarity":"U","tcg":197691,"idx":81},
+    {"id":"046-rh","section":"reverse","num":"046","printed":"046/068","code":"R46","name":"Chansey","rarity":"U","img":"046","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":197691,"sub":"Reverse Holofoil","idx":82},
+    {"id":"047","section":"main","num":"047","printed":"047/068","code":"47","name":"Kangaskhan","rarity":"R","tcg":197692,"idx":83},
+    {"id":"047-rh","section":"reverse","num":"047","printed":"047/068","code":"R47","name":"Kangaskhan","rarity":"R","img":"047","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":197692,"sub":"Reverse Holofoil","idx":84},
+    {"id":"048","section":"main","num":"048","printed":"048/068","code":"48","name":"Eevee","rarity":"R","tcg":197693,"idx":85},
+    {"id":"048-rh","section":"reverse","num":"048","printed":"048/068","code":"R48","name":"Eevee","rarity":"R","img":"048","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":197693,"sub":"Reverse Holofoil","idx":86},
+    {"id":"049","section":"main","num":"049","printed":"049/068","code":"49","name":"Eevee","rarity":"C","tcg":197694,"idx":87},
+    {"id":"049-rh","section":"reverse","num":"049","printed":"049/068","code":"R49","name":"Eevee","rarity":"C","img":"049","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":197694,"sub":"Reverse Holofoil","idx":88},
+    {"id":"050","section":"main","num":"050","printed":"050/068","code":"50","name":"Snorlax","rarity":"R","tcg":197696,"idx":89},
+    {"id":"050-rh","section":"reverse","num":"050","printed":"050/068","code":"R50","name":"Snorlax","rarity":"R","img":"050","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":197696,"sub":"Reverse Holofoil","idx":90},
+    {"id":"051","section":"main","num":"051","printed":"051/068","code":"51","name":"Bill’s Analysis","rarity":"R","tcg":197697,"idx":91},
+    {"id":"051-rh","section":"reverse","num":"051","printed":"051/068","code":"R51","name":"Bill’s Analysis","rarity":"R","img":"051","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":197697,"sub":"Reverse Holofoil","idx":92},
+    {"id":"052","section":"main","num":"052","printed":"052/068","code":"52","name":"Blaine’s Last Stand","rarity":"R","tcg":197699,"idx":93},
+    {"id":"052-rh","section":"reverse","num":"052","printed":"052/068","code":"R52","name":"Blaine’s Last Stand","rarity":"R","img":"052","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":197699,"sub":"Reverse Holofoil","idx":94},
+    {"id":"053","section":"main","num":"053","printed":"053/068","code":"53","name":"Brock’s Grit","rarity":"U","tcg":197700,"idx":95},
+    {"id":"053-rh","section":"reverse","num":"053","printed":"053/068","code":"R53","name":"Brock’s Grit","rarity":"U","img":"053","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":197700,"sub":"Reverse Holofoil","idx":96},
+    {"id":"054","section":"main","num":"054","printed":"054/068","code":"54","name":"Brock’s Pewter City Gym","rarity":"U","tcg":197702,"idx":97},
+    {"id":"054-rh","section":"reverse","num":"054","printed":"054/068","code":"R54","name":"Brock’s Pewter City Gym","rarity":"U","img":"054","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":197702,"sub":"Reverse Holofoil","idx":98},
+    {"id":"055","section":"main","num":"055","printed":"055/068","code":"55","name":"Brock’s Training","rarity":"R","tcg":197704,"idx":99},
+    {"id":"055-rh","section":"reverse","num":"055","printed":"055/068","code":"R55","name":"Brock’s Training","rarity":"R","img":"055","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":197704,"sub":"Reverse Holofoil","idx":100},
+    {"id":"056","section":"main","num":"056","printed":"056/068","code":"56","name":"Erika’s Hospitality","rarity":"R","tcg":197706,"idx":101},
+    {"id":"056-rh","section":"reverse","num":"056","printed":"056/068","code":"R56","name":"Erika’s Hospitality","rarity":"R","img":"056","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":197706,"sub":"Reverse Holofoil","idx":102},
+    {"id":"057","section":"main","num":"057","printed":"057/068","code":"57","name":"Giovanni’s Exile","rarity":"U","tcg":197709,"idx":103},
+    {"id":"057-rh","section":"reverse","num":"057","printed":"057/068","code":"R57","name":"Giovanni’s Exile","rarity":"U","img":"057","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":197709,"sub":"Reverse Holofoil","idx":104},
+    {"id":"058","section":"main","num":"058","printed":"058/068","code":"58","name":"Jessie & James","rarity":"R","tcg":197711,"idx":105},
+    {"id":"058-rh","section":"reverse","num":"058","printed":"058/068","code":"R58","name":"Jessie & James","rarity":"R","img":"058","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":197711,"sub":"Reverse Holofoil","idx":106},
+    {"id":"059","section":"main","num":"059","printed":"059/068","code":"59","name":"Koga’s Trap","rarity":"U","tcg":197712,"idx":107},
+    {"id":"059-rh","section":"reverse","num":"059","printed":"059/068","code":"R59","name":"Koga’s Trap","rarity":"U","img":"059","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":197712,"sub":"Reverse Holofoil","idx":108},
+    {"id":"060","section":"main","num":"060","printed":"060/068","code":"60","name":"Lt. Surge’s Strategy","rarity":"U","tcg":197714,"idx":109},
+    {"id":"060-rh","section":"reverse","num":"060","printed":"060/068","code":"R60","name":"Lt. Surge’s Strategy","rarity":"U","img":"060","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":197714,"sub":"Reverse Holofoil","idx":110},
+    {"id":"061","section":"main","num":"061","printed":"061/068","code":"61","name":"Misty’s Cerulean City Gym","rarity":"U","tcg":197716,"idx":111},
+    {"id":"061-rh","section":"reverse","num":"061","printed":"061/068","code":"R61","name":"Misty’s Cerulean City Gym","rarity":"U","img":"061","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":197716,"sub":"Reverse Holofoil","idx":112},
+    {"id":"062","section":"main","num":"062","printed":"062/068","code":"62","name":"Misty’s Determination","rarity":"U","tcg":197717,"idx":113},
+    {"id":"062-rh","section":"reverse","num":"062","printed":"062/068","code":"R62","name":"Misty’s Determination","rarity":"U","img":"062","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":197717,"sub":"Reverse Holofoil","idx":114},
+    {"id":"063","section":"main","num":"063","printed":"063/068","code":"63","name":"Misty’s Water Command","rarity":"R","tcg":197720,"idx":115},
+    {"id":"063-rh","section":"reverse","num":"063","printed":"063/068","code":"R63","name":"Misty’s Water Command","rarity":"R","img":"063","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":197720,"sub":"Reverse Holofoil","idx":116},
+    {"id":"064","section":"main","num":"064","printed":"064/068","code":"64","name":"Pokémon Center Lady","rarity":"U","tcg":197724,"idx":117},
+    {"id":"064-rh","section":"reverse","num":"064","printed":"064/068","code":"R64","name":"Pokémon Center Lady","rarity":"U","img":"064","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":197724,"sub":"Reverse Holofoil","idx":118},
+    {"id":"065","section":"main","num":"065","printed":"065/068","code":"65","name":"Sabrina’s Suggestion","rarity":"U","tcg":197725,"idx":119},
+    {"id":"065-rh","section":"reverse","num":"065","printed":"065/068","code":"R65","name":"Sabrina’s Suggestion","rarity":"U","img":"065","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":197725,"sub":"Reverse Holofoil","idx":120},
+    {"id":"066","section":"main","num":"066","printed":"066/068","code":"66","name":"Moltres & Zapdos & Articuno GX","rarity":"UR","tcg":197726,"idx":121},
+    {"id":"067","section":"main","num":"067","printed":"067/068","code":"67","name":"Giovanni’s Exile","rarity":"UR","tcg":197730,"idx":122},
+    {"id":"068","section":"main","num":"068","printed":"068/068","code":"68","name":"Jessie & James","rarity":"UR","tcg":197732,"idx":123},
+    {"id":"069","section":"secret","num":"069","printed":"069/068","code":"69","name":"Moltres & Zapdos & Articuno GX","rarity":"SEC","tcg":197728,"idx":124}
+  ]
+}

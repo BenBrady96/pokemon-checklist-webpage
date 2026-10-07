@@ -30,6 +30,7 @@ export function fetchCollection(id, { images = false } = {}) {
         game: GAMES[raw.game],
         colors: imageData.colors || {},
         imageBase: asset(`img/cards/${id}`),
+        remote: imageData.remote || null,
         logo: imageData.logo ? asset(imageData.logo) : null,
       });
     })();

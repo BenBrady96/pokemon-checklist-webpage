@@ -1,0 +1,66 @@
+{
+  "id": "pokemon/poke-card-creator-pack",
+  "game": "pokemon",
+  "slug": "poke-card-creator-pack",
+  "name": "Poké Card Creator Pack",
+  "series": "Other",
+  "kind": "collection",
+  "code": "PCP",
+  "syncKey": "PCP",
+  "released": "2004-07-01",
+  "printedTotal": 5,
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "001–005",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-22, 55, 60x2",
+    "example": "1-22, 55x2",
+    "hint": "Separate with commas or spaces. <b>1-22</b> is a range and <b>55x2</b> is two copies.",
+    "empty": "Cards are 1–5."
+  },
+  "info": {
+    "packSections": [],
+    "sectionText": {
+      "main": [
+        "<p><b>From Poké Card Creator Pack.</b></p>"
+      ]
+    }
+  },
+  "seo": {
+    "title": "Pokémon TCG Poké Card Creator Pack Checklist · All 5 Cards",
+    "description": "Free checklist for the 5 Pokémon TCG Poké Card Creator Pack cards, with images, copy counts, binder pages and prices. No sign-up needed.",
+    "ogTitle": "Pokémon TCG Poké Card Creator Pack Checklist",
+    "ogDescription": "Track all 5 Pokémon TCG Poké Card Creator Pack cards. Free, no sign-up, works offline."
+  },
+  "about": {
+    "title": "About Poké Card Creator Pack",
+    "paragraphs": [
+      "Pokémon TCG: Poké Card Creator Pack came out on 1 July 2004 and has 5 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device."
+    ]
+  },
+  "source": {
+    "tcgdex": "ex5.5",
+    "tcgplayer": [],
+    "serie": "ex"
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"001/005","code":"1","name":"Treecko","rarity":"NR","idx":0},
+    {"id":"002","section":"main","num":"002","printed":"002/005","code":"2","name":"Wurmple","rarity":"NR","idx":1},
+    {"id":"003","section":"main","num":"003","printed":"003/005","code":"3","name":"Torchic","rarity":"NR","idx":2},
+    {"id":"004","section":"main","num":"004","printed":"004/005","code":"4","name":"Mudkip","rarity":"NR","idx":3},
+    {"id":"005","section":"main","num":"005","printed":"005/005","code":"5","name":"Pikachu","rarity":"NR","idx":4}
+  ]
+}

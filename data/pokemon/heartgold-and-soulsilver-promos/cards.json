@@ -1,0 +1,95 @@
+{
+  "id": "pokemon/heartgold-and-soulsilver-promos",
+  "game": "pokemon",
+  "slug": "heartgold-and-soulsilver-promos",
+  "name": "HeartGold & SoulSilver Promos",
+  "series": "HeartGold & SoulSilver",
+  "kind": "promo",
+  "code": "HSP",
+  "syncKey": "HSP",
+  "released": "2010-02-11",
+  "printedTotal": null,
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Black Star Promos",
+      "range": "HGSS01–HGSS25",
+      "tier": "standard",
+      "display": {
+        "number": "{printed}",
+        "label": "{printed}",
+        "list": "{printed} {name}",
+        "chip": "{printed} {name}",
+        "search": "Pokemon {name} {printed} promo"
+      }
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Promos"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-22, 55, 60x2",
+    "example": "1-22, 55x2",
+    "hint": "Separate with commas or spaces. <b>1-22</b> is a range and <b>55x2</b> is two copies.",
+    "empty": "Cards are HGSS1–HGSS25."
+  },
+  "info": {
+    "packSections": [],
+    "sectionText": {
+      "main": [
+        "<p><b>Black Star Promo.</b> Promos come in special products such as collection boxes, tins, blisters and Elite Trainer Boxes, and some are given out at events.</p>"
+      ]
+    }
+  },
+  "seo": {
+    "title": "Pokémon TCG HeartGold & SoulSilver Promos Checklist · All 25 Cards",
+    "description": "Free checklist for the 25 Pokémon TCG HeartGold & SoulSilver Promos, with images, copy counts, binder pages and prices. No sign-up needed.",
+    "ogTitle": "Pokémon TCG HeartGold & SoulSilver Promos Checklist",
+    "ogDescription": "Track all 25 Pokémon TCG HeartGold & SoulSilver Promos. Free, no sign-up, works offline."
+  },
+  "about": {
+    "title": "About the HeartGold & SoulSilver Promos",
+    "paragraphs": [
+      "The HeartGold & SoulSilver Promos are the 25 numbered promo cards of the HeartGold & SoulSilver era, from collection boxes, tins, blisters, Elite Trainer Boxes and events.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device."
+    ]
+  },
+  "source": {
+    "tcgdex": "hgssp",
+    "tcgplayer": [
+      1453
+    ],
+    "serie": "hgss"
+  },
+  "cards": [
+    {"id":"HGSS01","section":"main","num":"HGSS01","printed":"HGSS01","code":"HGSS1","name":"Ho-Oh","rarity":"P","tcg":86125,"idx":0},
+    {"id":"HGSS02","section":"main","num":"HGSS02","printed":"HGSS02","code":"HGSS2","name":"Lugia","rarity":"P","tcg":86909,"idx":1},
+    {"id":"HGSS03","section":"main","num":"HGSS03","printed":"HGSS03","code":"HGSS3","name":"Pikachu","rarity":"P","tcg":88098,"idx":2},
+    {"id":"HGSS04","section":"main","num":"HGSS04","printed":"HGSS04","code":"HGSS4","name":"Wobbuffet","rarity":"P","tcg":90622,"idx":3},
+    {"id":"HGSS05","section":"main","num":"HGSS05","printed":"HGSS05","code":"HGSS5","name":"Hoothoot","rarity":"P","tcg":86174,"idx":4},
+    {"id":"HGSS06","section":"main","num":"HGSS06","printed":"HGSS06","code":"HGSS6","name":"Noctowl","rarity":"P","tcg":87795,"idx":5},
+    {"id":"HGSS07","section":"main","num":"HGSS07","printed":"HGSS07","code":"HGSS7","name":"Feraligatr","rarity":"P","tcg":85421,"idx":6},
+    {"id":"HGSS08","section":"main","num":"HGSS08","printed":"HGSS08","code":"HGSS8","name":"Meganium","rarity":"P","tcg":87295,"idx":7},
+    {"id":"HGSS09","section":"main","num":"HGSS09","printed":"HGSS09","code":"HGSS9","name":"Typhlosion","rarity":"P","tcg":90108,"idx":8},
+    {"id":"HGSS10","section":"main","num":"HGSS10","printed":"HGSS10","code":"HGSS10","name":"Latias","rarity":"P","tcg":86653,"idx":9},
+    {"id":"HGSS11","section":"main","num":"HGSS11","printed":"HGSS11","code":"HGSS11","name":"Latios","rarity":"P","tcg":86667,"idx":10},
+    {"id":"HGSS12","section":"main","num":"HGSS12","printed":"HGSS12","code":"HGSS12","name":"Cleffa","rarity":"P","tcg":84368,"idx":11},
+    {"id":"HGSS13","section":"main","num":"HGSS13","printed":"HGSS13","code":"HGSS13","name":"Smoochum","rarity":"P","tcg":89364,"idx":12},
+    {"id":"HGSS14","section":"main","num":"HGSS14","printed":"HGSS14","code":"HGSS14","name":"Lapras","rarity":"P","tcg":86621,"idx":13},
+    {"id":"HGSS15","section":"main","num":"HGSS15","printed":"HGSS15","code":"HGSS15","name":"Shuckle","rarity":"P","tcg":89193,"idx":14},
+    {"id":"HGSS16","section":"main","num":"HGSS16","printed":"HGSS16","code":"HGSS16","name":"Plusle","rarity":"P","tcg":88172,"idx":15},
+    {"id":"HGSS17","section":"main","num":"HGSS17","printed":"HGSS17","code":"HGSS17","name":"Minun","rarity":"P","tcg":87492,"idx":16},
+    {"id":"HGSS18","section":"main","num":"HGSS18","printed":"HGSS18","code":"HGSS18","name":"Tropical Tidal Wave","rarity":"P","tcg":90052,"idx":17},
+    {"id":"HGSS19","section":"main","num":"HGSS19","printed":"HGSS19","code":"HGSS19","name":"Raikou","rarity":"P","tcg":88535,"idx":18},
+    {"id":"HGSS20","section":"main","num":"HGSS20","printed":"HGSS20","code":"HGSS20","name":"Entei","rarity":"P","tcg":85273,"idx":19},
+    {"id":"HGSS21","section":"main","num":"HGSS21","printed":"HGSS21","code":"HGSS21","name":"Suicune","rarity":"P","tcg":89605,"idx":20},
+    {"id":"HGSS22","section":"main","num":"HGSS22","printed":"HGSS22","code":"HGSS22","name":"Porygon","rarity":"P","tcg":88313,"idx":21},
+    {"id":"HGSS23","section":"main","num":"HGSS23","printed":"HGSS23","code":"HGSS23","name":"Porygon2","rarity":"P","tcg":88328,"idx":22},
+    {"id":"HGSS24","section":"main","num":"HGSS24","printed":"HGSS24","code":"HGSS24","name":"Hitmonchan","rarity":"P","tcg":86097,"idx":23},
+    {"id":"HGSS25","section":"main","num":"HGSS25","printed":"HGSS25","code":"HGSS25","name":"Hitmonlee","rarity":"P","tcg":86109,"idx":24}
+  ]
+}

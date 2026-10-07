@@ -7,7 +7,12 @@ export async function loadProducts(groupId, { refresh = false } = {}) {
 }
 
 export async function loadPrices(groupId) {
-  return (await download(`${TCGCSV}/${groupId}/prices`, { type: 'json' })).results;
+  try {
+    return (await download(`${TCGCSV}/${groupId}/prices`, { type: 'json' })).results;
+  } catch (err) {
+    if ([401, 403, 404].includes(err.status)) return [];
+    throw err;
+  }
 }
 
 export const lastUpdated = async () => (await download('https://tcgcsv.com/last-updated.txt', { type: 'text' })).trim();

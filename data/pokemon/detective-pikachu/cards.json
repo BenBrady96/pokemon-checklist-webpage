@@ -1,0 +1,86 @@
+{
+  "id": "pokemon/detective-pikachu",
+  "game": "pokemon",
+  "slug": "detective-pikachu",
+  "name": "Detective Pikachu",
+  "series": "Sun & Moon",
+  "kind": "expansion",
+  "code": "DET",
+  "syncKey": "DET",
+  "released": "2019-03-29",
+  "printedTotal": 18,
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Main Set",
+      "range": "001–018",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Main set"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-22, 55, 60x2",
+    "example": "1-22, 55x2",
+    "hint": "Separate with commas or spaces. <b>1-22</b> is a range and <b>55x2</b> is two copies.",
+    "empty": "Main set cards are 1–18."
+  },
+  "info": {
+    "packSections": [
+      "main"
+    ],
+    "sectionText": {},
+    "packText": "<p><b>Detective Pikachu booster packs.</b></p>",
+    "packProducts": [
+      "Cafe Figure Collection",
+      "Tin",
+      "Two Pack Blister"
+    ]
+  },
+  "seo": {
+    "title": "Pokémon TCG Detective Pikachu Checklist · All 18 Cards",
+    "description": "Free checklist for the Pokémon TCG Detective Pikachu set. Track all 18 cards, with images, copy counts, binder pages and prices. No sign-up needed.",
+    "ogTitle": "Pokémon TCG Detective Pikachu Checklist",
+    "ogDescription": "Track all 18 cards in Pokémon TCG Detective Pikachu: the 18-card main set and 0 secret rares. Free, no sign-up, works offline.",
+    "twitterDescription": "Track all 18 cards in Pokémon TCG Detective Pikachu. Free, no sign-up, works offline."
+  },
+  "about": {
+    "title": "About the Detective Pikachu set",
+    "paragraphs": [
+      "Pokémon TCG: Detective Pikachu is a Sun & Moon expansion released on 29 March 2019. It has 18 cards: 18 in the main set and 0 secret rares.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device."
+    ]
+  },
+  "source": {
+    "tcgdex": "det1",
+    "tcgplayer": [
+      2409
+    ],
+    "serie": "sm"
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"001/018","code":"1","name":"Bulbasaur","rarity":"C","tcg":186001,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"002/018","code":"2","name":"Ludicolo","rarity":"R","tcg":186003,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"003/018","code":"3","name":"Morelull","rarity":"C","tcg":186004,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"004/018","code":"4","name":"Charmander","rarity":"C","tcg":186005,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"005/018","code":"5","name":"Charizard","rarity":"UR","tcg":186007,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"006/018","code":"6","name":"Arcanine","rarity":"R","tcg":186009,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"007/018","code":"7","name":"Psyduck","rarity":"C","tcg":186010,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"008/018","code":"8","name":"Magikarp","rarity":"C","tcg":186012,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"009/018","code":"9","name":"Greninja","rarity":"UR","tcg":186013,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"010/018","code":"10","name":"Detective Pikachu","rarity":"R","tcg":186015,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"011/018","code":"11","name":"Mr. Mime","rarity":"R","tcg":186019,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"012/018","code":"12","name":"Mewtwo","rarity":"UR","tcg":186020,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"013/018","code":"13","name":"Machamp","rarity":"R","tcg":186021,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"014/018","code":"14","name":"Jigglypuff","rarity":"C","tcg":186022,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"015/018","code":"15","name":"Snubbull","rarity":"C","tcg":186023,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"016/018","code":"16","name":"Lickitung","rarity":"C","tcg":186024,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"017/018","code":"17","name":"Ditto","rarity":"UR","tcg":186025,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"018/018","code":"18","name":"Slaking","rarity":"R","tcg":186026,"idx":17}
+  ]
+}

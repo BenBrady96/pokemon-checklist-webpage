@@ -1,0 +1,78 @@
+{
+  "id": "pokemon/mcdonalds-dragon-discovery-2024",
+  "game": "pokemon",
+  "slug": "mcdonalds-dragon-discovery-2024",
+  "name": "McDonald's Dragon Discovery 2024",
+  "series": "McDonald's",
+  "kind": "collection",
+  "code": "M24",
+  "syncKey": "M24",
+  "released": "2024-12-04",
+  "printedTotal": 15,
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "001–015",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-22, 55, 60x2",
+    "example": "1-22, 55x2",
+    "hint": "Separate with commas or spaces. <b>1-22</b> is a range and <b>55x2</b> is two copies.",
+    "empty": "Cards are 1–15."
+  },
+  "info": {
+    "packSections": [],
+    "sectionText": {
+      "main": [
+        "<p><b>From McDonald's Dragon Discovery 2024.</b></p>"
+      ]
+    }
+  },
+  "seo": {
+    "title": "Pokémon TCG McDonald's Dragon Discovery 2024 Checklist · All 15 Cards",
+    "description": "Free checklist for the 15 Pokémon TCG McDonald's Dragon Discovery 2024 cards, with images, copy counts, binder pages and prices. No sign-up needed.",
+    "ogTitle": "Pokémon TCG McDonald's Dragon Discovery 2024 Checklist",
+    "ogDescription": "Track all 15 Pokémon TCG McDonald's Dragon Discovery 2024 cards. Free, no sign-up, works offline."
+  },
+  "about": {
+    "title": "About McDonald's Dragon Discovery 2024",
+    "paragraphs": [
+      "Pokémon TCG: McDonald's Dragon Discovery 2024 came out on 4 December 2024 and has 15 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device."
+    ]
+  },
+  "source": {
+    "tcgdex": "2024sv",
+    "tcgplayer": [
+      24163
+    ],
+    "serie": "mc"
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"001/015","code":"1","name":"Charizard","rarity":"P","tcg":614370,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"002/015","code":"2","name":"Pikachu","rarity":"P","tcg":614371,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"003/015","code":"3","name":"Miraidon","rarity":"P","tcg":614372,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"004/015","code":"4","name":"Jigglypuff","rarity":"P","tcg":614373,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"005/015","code":"5","name":"Hatenna","rarity":"P","tcg":614374,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"006/015","code":"6","name":"Dragapult","rarity":"P","tcg":614375,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"007/015","code":"7","name":"Quagsire","rarity":"P","tcg":614376,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"008/015","code":"8","name":"Koraidon","rarity":"P","tcg":614377,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"009/015","code":"9","name":"Umbreon","rarity":"P","tcg":614378,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"010/015","code":"10","name":"Hydreigon","rarity":"P","tcg":614379,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"011/015","code":"11","name":"Roaring Moon","rarity":"P","tcg":614380,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"012/015","code":"12","name":"Dragonite","rarity":"P","tcg":614381,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"013/015","code":"13","name":"Eevee","rarity":"P","tcg":614382,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"014/015","code":"14","name":"Rayquaza","rarity":"P","tcg":614383,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"015/015","code":"15","name":"Drampa","rarity":"P","tcg":614384,"idx":14}
+  ]
+}

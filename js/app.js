@@ -587,7 +587,7 @@ async function prepareMenu() {
   if (!item.hidden) {
     const urls = imageUrls();
     const saved = await countSavedImages(urls);
-    const mb = Math.max(1, Math.round((urls.length * 36) / 1024));
+    const mb = Math.max(1, Math.round((urls.length * 21) / 1024));
     document.querySelector('[data-offline-status]').textContent = saved >= urls.length
       ? 'All card images saved ✓'
       : saved ? `${saved} of ${urls.length} saved — tap to save the rest` : `Use the checklist with no signal (about ${mb} MB)`;

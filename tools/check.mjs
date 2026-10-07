@@ -120,11 +120,12 @@ check(models.get('pokemon/me-energy')?.cards.length === 16 && models.get('pokemo
 for (const model of models.values()) {
   const ids = model.sections.map((s) => s.id);
   check(!ids.includes('special') && !ids.includes('variant') && !model.cards.some((c) => c.base), `${model.id}: no stamped or other special prints`);
-  check(model.getTier('master').sections.every((s) => s.id === 'main' || model.cardsBySection.get(s.id).every((c) => c.variant)) && model.cardsBySection.get('main').every((c) => !c.variant), `${model.id}: Master adds only reverse holos and patterns`);
+  const tierCards = (tier) => model.sections.filter((s) => s.tier === tier).flatMap((s) => model.cardsBySection.get(s.id));
+  check(tierCards('master').every((c) => c.variant) && tierCards('standard').every((c) => !c.variant), `${model.id}: Master adds only reverse holos, patterns and 1st Editions`);
   if (ids.includes('secret')) {
     check(model.getTier('master').sections.every((s) => ids.indexOf(s.id) < ids.indexOf('secret')) && model.lowestTier('secret')?.id === 'grand', `${model.id}: secret rares come after the reverse holos and patterns, in Grand Master`);
   }
-  if (model.kind !== 'promo') check(!model.cards.some((c) => c.rarity === 'P'), `${model.id}: Black Star promos are only in the promo lists`);
+  if (model.kind === 'expansion' || model.kind === 'energy') check(!model.cards.some((c) => c.rarity === 'P'), `${model.id}: promos are only in the promo lists and special collections`);
   if (model.kind === 'energy') check(model.sections.every((s) => s.id === 'main'), `${model.id}: energy lists have only their numbered cards`);
 }
 check(models.get('pokemon/me-black-star-promos')?.cardById.get('094')?.note === '30th Celebration Tech Sticker Collection', 'ME Black Star Promos have the 30th Celebration product notes');

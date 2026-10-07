@@ -1,0 +1,91 @@
+{
+  "id": "pokemon/trick-or-trade-2023",
+  "game": "pokemon",
+  "slug": "trick-or-trade-2023",
+  "name": "Trick or Trade 2023",
+  "series": "Other",
+  "kind": "collection",
+  "code": "TOT23",
+  "syncKey": "TOT23",
+  "released": "2023-09-01",
+  "printedTotal": null,
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "30 cards",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-10, 12, 15x2",
+    "example": "1-10, 12x2",
+    "hint": "Separate with commas or spaces. Cards are numbered 1–30 in the order shown. <b>1-10</b> is a range and <b>12x2</b> is two copies.",
+    "empty": "Cards are numbered 1–30 in the order shown."
+  },
+  "info": {
+    "packSections": [],
+    "sectionText": {
+      "main": [
+        "<p><b>From Trick or Trade 2023.</b></p>"
+      ]
+    }
+  },
+  "seo": {
+    "title": "Pokémon TCG Trick or Trade 2023 Checklist · All 30 Cards",
+    "description": "Free checklist for the 30 Pokémon TCG Trick or Trade 2023 cards, with images, copy counts, binder pages and prices. No sign-up needed.",
+    "ogTitle": "Pokémon TCG Trick or Trade 2023 Checklist",
+    "ogDescription": "Track all 30 Pokémon TCG Trick or Trade 2023 cards. Free, no sign-up, works offline."
+  },
+  "about": {
+    "title": "About Trick or Trade 2023",
+    "paragraphs": [
+      "Pokémon TCG: Trick or Trade 2023 came out on 1 September 2023 and has 30 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device."
+    ]
+  },
+  "source": {
+    "tcgplayer": [
+      23266
+    ]
+  },
+  "cards": [
+    {"id":"t515649","section":"main","num":"019/185","printed":"019/185","code":"1","name":"Dhelmise","rarity":"U","tcg":515649,"idx":0},
+    {"id":"t515662","section":"main","num":"069/185","printed":"069/185","code":"2","name":"Duskull","rarity":"C","tcg":515662,"idx":1},
+    {"id":"t515663","section":"main","num":"070/185","printed":"070/185","code":"3","name":"Dusclops","rarity":"U","tcg":515663,"idx":2},
+    {"id":"t515664","section":"main","num":"071/185","printed":"071/185","code":"4","name":"Dusknoir","rarity":"RH","tcg":515664,"idx":3},
+    {"id":"t515655","section":"main","num":"095/185","printed":"095/185","code":"5","name":"Lycanroc","rarity":"R","tcg":515655,"idx":4},
+    {"id":"t515656","section":"main","num":"102/192","printed":"102/192","code":"6","name":"Galarian Runerigus","rarity":"R","tcg":515656,"idx":5},
+    {"id":"t515654","section":"main","num":"062/193","printed":"062/193","code":"7","name":"Pikachu","rarity":"C","tcg":515654,"idx":6},
+    {"id":"t515668","section":"main","num":"088/193","printed":"088/193","code":"8","name":"Mismagius","rarity":"U","tcg":515668,"idx":7},
+    {"id":"t515672","section":"main","num":"097/193","printed":"097/193","code":"9","name":"Mimikyu","rarity":"RH","tcg":515672,"idx":8},
+    {"id":"t515680","section":"main","num":"131/193","printed":"131/193","code":"10","name":"Murkrow","rarity":"C","tcg":515680,"idx":9},
+    {"id":"t515679","section":"main","num":"103/195","printed":"103/195","code":"11","name":"Zubat","rarity":"C","tcg":515679,"idx":10},
+    {"id":"t515647","section":"main","num":"016/196","printed":"016/196","code":"12","name":"Phantump","rarity":"C","tcg":515647,"idx":11},
+    {"id":"t515648","section":"main","num":"017/196","printed":"017/196","code":"13","name":"Trevenant","rarity":"RH","tcg":515648,"idx":12},
+    {"id":"t515651","section":"main","num":"024/196","printed":"024/196","code":"14","name":"Litwick","rarity":"C","tcg":515651,"idx":13},
+    {"id":"t515652","section":"main","num":"025/196","printed":"025/196","code":"15","name":"Lampent","rarity":"U","tcg":515652,"idx":14},
+    {"id":"t515653","section":"main","num":"026/196","printed":"026/196","code":"16","name":"Chandelure","rarity":"RH","tcg":515653,"idx":15},
+    {"id":"t515659","section":"main","num":"064/196","printed":"064/196","code":"17","name":"Gastly","rarity":"C","tcg":515659,"idx":16},
+    {"id":"t515660","section":"main","num":"065/196","printed":"065/196","code":"18","name":"Haunter","rarity":"U","tcg":515660,"idx":17},
+    {"id":"t515661","section":"main","num":"066/196","printed":"066/196","code":"19","name":"Gengar (2022 Copyright Date)","rarity":"RH","tcg":515661,"idx":18},
+    {"id":"t515666","section":"main","num":"073/196","printed":"073/196","code":"20","name":"Banette","rarity":"R","tcg":515666,"idx":19},
+    {"id":"t515674","section":"main","num":"081/196","printed":"081/196","code":"21","name":"Spectrier","rarity":"RH","tcg":515674,"idx":20},
+    {"id":"t515650","section":"main","num":"034/198","printed":"034/198","code":"22","name":"Houndoom","rarity":"C","tcg":515650,"idx":21},
+    {"id":"t515665","section":"main","num":"087/198","printed":"087/198","code":"23","name":"Shuppet","rarity":"C","tcg":515665,"idx":22},
+    {"id":"t515670","section":"main","num":"089/198","printed":"089/198","code":"24","name":"Drifloon","rarity":"C","tcg":515670,"idx":23},
+    {"id":"t515671","section":"main","num":"090/198","printed":"090/198","code":"25","name":"Drifblim","rarity":"U","tcg":515671,"idx":24},
+    {"id":"t515677","section":"main","num":"104/198","printed":"104/198","code":"26","name":"Greavard","rarity":"C","tcg":515677,"idx":25},
+    {"id":"t515678","section":"main","num":"106/198","printed":"106/198","code":"27","name":"Houndstone","rarity":"R","tcg":515678,"idx":26},
+    {"id":"t515675","section":"main","num":"089/202","printed":"089/202","code":"28","name":"Sinistea","rarity":"C","tcg":515675,"idx":27},
+    {"id":"t515676","section":"main","num":"090/202","printed":"090/202","code":"29","name":"Polteageist","rarity":"R","tcg":515676,"idx":28},
+    {"id":"t515673","section":"main","num":"080/203","printed":"080/203","code":"30","name":"Marshadow","rarity":"RH","tcg":515673,"idx":29}
+  ]
+}

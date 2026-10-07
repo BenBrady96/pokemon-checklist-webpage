@@ -1,0 +1,72 @@
+{
+  "id": "pokemon/pikachu-world-collection",
+  "game": "pokemon",
+  "slug": "pikachu-world-collection",
+  "name": "Pikachu World Collection",
+  "series": "Other",
+  "kind": "collection",
+  "code": "PW",
+  "syncKey": "PW",
+  "released": "2010-11-01",
+  "printedTotal": null,
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "11 cards",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-10, 12, 15x2",
+    "example": "1-10, 12x2",
+    "hint": "Separate with commas or spaces. Cards are numbered 1–11 in the order shown. <b>1-10</b> is a range and <b>12x2</b> is two copies.",
+    "empty": "Cards are numbered 1–11 in the order shown."
+  },
+  "info": {
+    "packSections": [],
+    "sectionText": {
+      "main": [
+        "<p><b>From Pikachu World Collection.</b></p>"
+      ]
+    }
+  },
+  "seo": {
+    "title": "Pokémon TCG Pikachu World Collection Checklist · All 11 Cards",
+    "description": "Free checklist for the 11 Pokémon TCG Pikachu World Collection cards, with images, copy counts, binder pages and prices. No sign-up needed.",
+    "ogTitle": "Pokémon TCG Pikachu World Collection Checklist",
+    "ogDescription": "Track all 11 Pokémon TCG Pikachu World Collection cards. Free, no sign-up, works offline."
+  },
+  "about": {
+    "title": "About Pikachu World Collection",
+    "paragraphs": [
+      "Pokémon TCG: Pikachu World Collection came out on 1 November 2010 and has 11 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device."
+    ]
+  },
+  "source": {
+    "tcgplayer": [
+      2205
+    ]
+  },
+  "cards": [
+    {"id":"t161750","section":"main","num":"1","printed":"1","code":"1","name":"Pikachu (Ivy)","rarity":"P","tcg":161750,"idx":0},
+    {"id":"t215153","section":"main","num":"PW 1","printed":"PW 1","code":"2","name":"Pikachu (English)","rarity":"P","tcg":215153,"idx":1},
+    {"id":"t161752","section":"main","num":"4","printed":"4","code":"3","name":"Pikachu (Movie)","rarity":"P","tcg":161752,"idx":2},
+    {"id":"t161753","section":"main","num":"4","printed":"4","code":"4","name":"Pikachu (Snap)","rarity":"P","tcg":161753,"idx":3},
+    {"id":"t215160","section":"main","num":"PW 8","printed":"PW 8","code":"5","name":"Pikachu (Polish)","rarity":"P","tcg":215160,"idx":4},
+    {"id":"t159115","section":"main","num":"24","printed":"24","code":"6","name":"______'s Pikachu","rarity":"P","tcg":159115,"idx":5},
+    {"id":"t161749","section":"main","num":"25","printed":"25","code":"7","name":"Pikachu (Flying)","rarity":"P","tcg":161749,"idx":6},
+    {"id":"t161747","section":"main","num":"27","printed":"27","code":"8","name":"Pikachu (Baby)","rarity":"P","tcg":161747,"idx":7},
+    {"id":"t161754","section":"main","num":"28","printed":"28","code":"9","name":"Pikachu (Surfing)","rarity":"P","tcg":161754,"idx":8},
+    {"id":"t161748","section":"main","num":"58","printed":"58","code":"10","name":"Pikachu (Base Set)","rarity":"P","tcg":161748,"idx":9},
+    {"id":"t161751","section":"main","num":"60","printed":"60","code":"11","name":"Pikachu (Jungle)","rarity":"P","tcg":161751,"idx":10}
+  ]
+}

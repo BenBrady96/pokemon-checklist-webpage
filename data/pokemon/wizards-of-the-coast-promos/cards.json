@@ -1,0 +1,123 @@
+{
+  "id": "pokemon/wizards-of-the-coast-promos",
+  "game": "pokemon",
+  "slug": "wizards-of-the-coast-promos",
+  "name": "Wizards of the Coast Promos",
+  "series": "Original",
+  "kind": "promo",
+  "code": "WP",
+  "syncKey": "WP",
+  "released": "1999-07-01",
+  "printedTotal": null,
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Black Star Promos",
+      "range": "WP 001–053",
+      "tier": "standard",
+      "display": {
+        "number": "{printed}",
+        "label": "{printed}",
+        "list": "{printed} {name}",
+        "chip": "{printed} {name}",
+        "search": "Pokemon {name} {printed} promo"
+      }
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Promos"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-22, 55, 60x2",
+    "example": "1-22, 55x2",
+    "hint": "Separate with commas or spaces. <b>1-22</b> is a range and <b>55x2</b> is two copies.",
+    "empty": "Cards are numbered 1–53."
+  },
+  "info": {
+    "packSections": [],
+    "sectionText": {
+      "main": [
+        "<p><b>Black Star Promo.</b> Promos come in special products such as collection boxes, tins, blisters and Elite Trainer Boxes, and some are given out at events.</p>"
+      ]
+    }
+  },
+  "seo": {
+    "title": "Pokémon TCG Wizards of the Coast Promos Checklist · All 53 Cards",
+    "description": "Free checklist for the 53 Pokémon TCG Wizards of the Coast Promos, with images, copy counts, binder pages and prices. No sign-up needed.",
+    "ogTitle": "Pokémon TCG Wizards of the Coast Promos Checklist",
+    "ogDescription": "Track all 53 Pokémon TCG Wizards of the Coast Promos. Free, no sign-up, works offline."
+  },
+  "about": {
+    "title": "About the Wizards of the Coast Promos",
+    "paragraphs": [
+      "The Wizards of the Coast Promos are the 53 numbered promo cards of the Original era, from collection boxes, tins, blisters, Elite Trainer Boxes and events.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device."
+    ]
+  },
+  "source": {
+    "tcgdex": "basep",
+    "tcgplayer": [
+      1418
+    ],
+    "serie": "base"
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"WP 001","code":"1","name":"Pikachu","rarity":"P","tcg":88065,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"WP 002","code":"2","name":"Electabuzz","rarity":"P","tcg":85107,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"WP 003","code":"3","name":"Mewtwo","rarity":"P","tcg":87414,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"WP 004","code":"4","name":"Pikachu","rarity":"P","tcg":88066,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"WP 005","code":"5","name":"Dragonite","rarity":"P","tcg":84909,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"WP 006","code":"6","name":"Arcanine","rarity":"P","tcg":83578,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"WP 007","code":"7","name":"Jigglypuff","rarity":"P","tcg":86309,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"WP 008","code":"8","name":"Mew","rarity":"P","tcg":87394,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"WP 009","code":"9","name":"Mew","rarity":"P","tcg":87395,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"WP 010","code":"10","name":"Meowth","rarity":"P","tcg":87309,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"WP 011","code":"11","name":"Eevee","rarity":"P","tcg":85074,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"WP 012","code":"12","name":"Mewtwo","rarity":"P","tcg":87416,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"WP 013","code":"13","name":"Venusaur","rarity":"P","tcg":90311,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"WP 014","code":"14","name":"Mewtwo","rarity":"P","tcg":87417,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"WP 015","code":"15","name":"Cool Porygon","rarity":"P","tcg":84422,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"WP 016","code":"16","name":"Computer Error","rarity":"P","tcg":84414,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"WP 017","code":"17","name":"Dark Persian","rarity":"P","tcg":84638,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"WP 018","code":"18","name":"Team Rocket's Meowth","rarity":"P","tcg":89851,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"WP 019","code":"19","name":"Sabrina's Abra","rarity":"P","tcg":88862,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"WP 020","code":"20","name":"Psyduck","rarity":"P","tcg":88429,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"WP 021","code":"21","name":"Moltres","rarity":"P","tcg":87557,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"WP 022","code":"22","name":"Articuno","rarity":"P","tcg":83647,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"WP 023","code":"23","name":"Zapdos","rarity":"P","tcg":90713,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"WP 024","code":"24","name":"___________'s Pikachu","rarity":"P","tcg":90784,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"WP 025","code":"25","name":"Flying Pikachu","rarity":"P","tcg":85534,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"WP 026","code":"26","name":"Pikachu","rarity":"P","tcg":88068,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"WP 027","code":"27","name":"Pikachu","rarity":"P","tcg":88069,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"WP 028","code":"28","name":"Surfing Pikachu","rarity":"P","tcg":89643,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"WP 029","code":"29","name":"Marill","rarity":"P","tcg":87211,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"WP 030","code":"30","name":"Togepi","rarity":"P","tcg":89928,"idx":29},
+    {"id":"031","section":"main","num":"031","printed":"WP 031","code":"31","name":"Cleffa","rarity":"P","tcg":84363,"idx":30},
+    {"id":"032","section":"main","num":"032","printed":"WP 032","code":"32","name":"Smeargle","rarity":"P","tcg":89353,"idx":31},
+    {"id":"033","section":"main","num":"033","printed":"WP 033","code":"33","name":"Scizor","rarity":"P","tcg":88960,"idx":32},
+    {"id":"034","section":"main","num":"034","printed":"WP 034","code":"34","name":"Entei","rarity":"P","tcg":85270,"idx":33},
+    {"id":"035","section":"main","num":"035","printed":"WP 035","code":"35","name":"Pichu","rarity":"P","tcg":88014,"idx":34},
+    {"id":"036","section":"main","num":"036","printed":"WP 036","code":"36","name":"Igglybuff","rarity":"P","tcg":86259,"idx":35},
+    {"id":"037","section":"main","num":"037","printed":"WP 037","code":"37","name":"Hitmontop","rarity":"P","tcg":86112,"idx":36},
+    {"id":"038","section":"main","num":"038","printed":"WP 038","code":"38","name":"Unown [J]","rarity":"P","tcg":90215,"idx":37},
+    {"id":"039","section":"main","num":"039","printed":"WP 039","code":"39","name":"Misdreavus","rarity":"P","tcg":87503,"idx":38},
+    {"id":"040","section":"main","num":"040","printed":"WP 040","code":"40","name":"Pokémon Center","rarity":"P","tcg":88213,"idx":39},
+    {"id":"041","section":"main","num":"041","printed":"WP 041","code":"41","name":"Lucky Stadium","rarity":"P","tcg":86894,"idx":40},
+    {"id":"042","section":"main","num":"042","printed":"WP 042","code":"42","name":"Pokémon Tower","rarity":"P","tcg":88240,"idx":41},
+    {"id":"043","section":"main","num":"043","printed":"WP 043","code":"43","name":"Machamp","rarity":"P","tcg":86961,"idx":42},
+    {"id":"044","section":"main","num":"044","printed":"WP 044","code":"44","name":"Magmar","rarity":"P","tcg":87043,"idx":43},
+    {"id":"045","section":"main","num":"045","printed":"WP 045","code":"45","name":"Scyther","rarity":"P","tcg":88993,"idx":44},
+    {"id":"046","section":"main","num":"046","printed":"WP 046","code":"46","name":"Electabuzz","rarity":"P","tcg":85111,"idx":45},
+    {"id":"047","section":"main","num":"047","printed":"WP 047","code":"47","name":"Mew","rarity":"P","tcg":87397,"idx":46},
+    {"id":"048","section":"main","num":"048","printed":"WP 048","code":"48","name":"Articuno","rarity":"P","tcg":83648,"idx":47},
+    {"id":"049","section":"main","num":"049","printed":"WP 049","code":"49","name":"Snorlax","rarity":"P","tcg":89385,"idx":48},
+    {"id":"050","section":"main","num":"050","printed":"WP 050","code":"50","name":"Celebi","rarity":"P","tcg":84143,"idx":49},
+    {"id":"051","section":"main","num":"051","printed":"WP 051","code":"51","name":"Rapidash","rarity":"P","tcg":244347,"idx":50},
+    {"id":"052","section":"main","num":"052","printed":"WP 052","code":"52","name":"Ho-oh","rarity":"P","tcg":86120,"idx":51},
+    {"id":"053","section":"main","num":"053","printed":"WP 053","code":"53","name":"Suicune","rarity":"P","tcg":89601,"idx":52}
+  ]
+}

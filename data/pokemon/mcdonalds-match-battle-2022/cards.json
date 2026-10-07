@@ -1,0 +1,78 @@
+{
+  "id": "pokemon/mcdonalds-match-battle-2022",
+  "game": "pokemon",
+  "slug": "mcdonalds-match-battle-2022",
+  "name": "McDonald's Match Battle 2022",
+  "series": "McDonald's",
+  "kind": "collection",
+  "code": "M22",
+  "syncKey": "M22",
+  "released": "2022-08-03",
+  "printedTotal": 15,
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "001–015",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-22, 55, 60x2",
+    "example": "1-22, 55x2",
+    "hint": "Separate with commas or spaces. <b>1-22</b> is a range and <b>55x2</b> is two copies.",
+    "empty": "Cards are 1–15."
+  },
+  "info": {
+    "packSections": [],
+    "sectionText": {
+      "main": [
+        "<p><b>From McDonald's Match Battle 2022.</b></p>"
+      ]
+    }
+  },
+  "seo": {
+    "title": "Pokémon TCG McDonald's Match Battle 2022 Checklist · All 15 Cards",
+    "description": "Free checklist for the 15 Pokémon TCG McDonald's Match Battle 2022 cards, with images, copy counts, binder pages and prices. No sign-up needed.",
+    "ogTitle": "Pokémon TCG McDonald's Match Battle 2022 Checklist",
+    "ogDescription": "Track all 15 Pokémon TCG McDonald's Match Battle 2022 cards. Free, no sign-up, works offline."
+  },
+  "about": {
+    "title": "About McDonald's Match Battle 2022",
+    "paragraphs": [
+      "Pokémon TCG: McDonald's Match Battle 2022 came out on 3 August 2022 and has 15 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device."
+    ]
+  },
+  "source": {
+    "tcgdex": "2022swsh",
+    "tcgplayer": [
+      3150
+    ],
+    "serie": "mc"
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"001/015","code":"1","name":"Ledyba","rarity":"P","tcg":281476,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"002/015","code":"2","name":"Rowlet","rarity":"P","tcg":281473,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"003/015","code":"3","name":"Gossifleur","rarity":"P","tcg":281482,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"004/015","code":"4","name":"Growlithe","rarity":"P","tcg":281503,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"005/015","code":"5","name":"Victini","rarity":"P","tcg":281493,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"006/015","code":"6","name":"Lapras","rarity":"P","tcg":281485,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"007/015","code":"7","name":"Pikachu","rarity":"P","tcg":282523,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"008/015","code":"8","name":"Chinchou","rarity":"P","tcg":281491,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"009/015","code":"9","name":"Flaaffy","rarity":"P","tcg":281478,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"010/015","code":"10","name":"Tynamo","rarity":"P","tcg":281472,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"011/015","code":"11","name":"Cutiefly","rarity":"P","tcg":281494,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"012/015","code":"12","name":"Bewear","rarity":"P","tcg":281504,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"013/015","code":"13","name":"Pangoro","rarity":"P","tcg":281505,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"014/015","code":"14","name":"Drampa","rarity":"P","tcg":281497,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"015/015","code":"15","name":"Smeargle","rarity":"P","tcg":281500,"idx":14}
+  ]
+}

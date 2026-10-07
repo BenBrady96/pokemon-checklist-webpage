@@ -78,6 +78,9 @@ function filterSets() {
   for (const group of document.querySelectorAll('#catalog [data-series], #catalog .home-game')) {
     group.hidden = !group.querySelector('.set-tile:not([hidden])');
   }
+  for (const series of document.querySelectorAll('#catalog details[data-series]')) {
+    series.open = tokens.length ? !series.hidden : series.hasAttribute('data-open');
+  }
   for (const sub of document.querySelectorAll('#catalog .home-series__sub')) {
     sub.hidden = !sub.nextElementSibling?.querySelector('.set-tile:not([hidden])');
   }

@@ -1,0 +1,126 @@
+{
+  "id": "pokemon/diamond-and-pearl-promos",
+  "game": "pokemon",
+  "slug": "diamond-and-pearl-promos",
+  "name": "Diamond & Pearl Promos",
+  "series": "Diamond & Pearl",
+  "kind": "promo",
+  "code": "DPP",
+  "syncKey": "DPP",
+  "released": "2007-05-01",
+  "printedTotal": null,
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Black Star Promos",
+      "range": "DP01–DP56",
+      "tier": "standard",
+      "display": {
+        "number": "{printed}",
+        "label": "{printed}",
+        "list": "{printed} {name}",
+        "chip": "{printed} {name}",
+        "search": "Pokemon {name} {printed} promo"
+      }
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Promos"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-22, 55, 60x2",
+    "example": "1-22, 55x2",
+    "hint": "Separate with commas or spaces. <b>1-22</b> is a range and <b>55x2</b> is two copies.",
+    "empty": "Cards are DP1–DP56."
+  },
+  "info": {
+    "packSections": [],
+    "sectionText": {
+      "main": [
+        "<p><b>Black Star Promo.</b> Promos come in special products such as collection boxes, tins, blisters and Elite Trainer Boxes, and some are given out at events.</p>"
+      ]
+    }
+  },
+  "seo": {
+    "title": "Pokémon TCG Diamond & Pearl Promos Checklist · All 56 Cards",
+    "description": "Free checklist for the 56 Pokémon TCG Diamond & Pearl Promos, with images, copy counts, binder pages and prices. No sign-up needed.",
+    "ogTitle": "Pokémon TCG Diamond & Pearl Promos Checklist",
+    "ogDescription": "Track all 56 Pokémon TCG Diamond & Pearl Promos. Free, no sign-up, works offline."
+  },
+  "about": {
+    "title": "About the Diamond & Pearl Promos",
+    "paragraphs": [
+      "The Diamond & Pearl Promos are the 56 numbered promo cards of the Diamond & Pearl era, from collection boxes, tins, blisters, Elite Trainer Boxes and events.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device."
+    ]
+  },
+  "source": {
+    "tcgdex": "dpp",
+    "tcgplayer": [
+      1421
+    ],
+    "serie": "dp"
+  },
+  "cards": [
+    {"id":"DP01","section":"main","num":"DP01","printed":"DP01","code":"DP1","name":"Turtwig","rarity":"P","tcg":90075,"idx":0},
+    {"id":"DP02","section":"main","num":"DP02","printed":"DP02","code":"DP2","name":"Chimchar","rarity":"P","tcg":84286,"idx":1},
+    {"id":"DP03","section":"main","num":"DP03","printed":"DP03","code":"DP3","name":"Piplup","rarity":"P","tcg":88147,"idx":2},
+    {"id":"DP04","section":"main","num":"DP04","printed":"DP04","code":"DP4","name":"Pachirisu","rarity":"P","tcg":87901,"idx":3},
+    {"id":"DP05","section":"main","num":"DP05","printed":"DP05","code":"DP5","name":"Tropical Wind","rarity":"P","tcg":97810,"idx":4},
+    {"id":"DP06","section":"main","num":"DP06","printed":"DP06","code":"DP6","name":"Buneary","rarity":"P","tcg":84041,"idx":5},
+    {"id":"DP07","section":"main","num":"DP07","printed":"DP07","code":"DP7","name":"Cranidos","rarity":"P","tcg":84459,"idx":6},
+    {"id":"DP08","section":"main","num":"DP08","printed":"DP08","code":"DP8","name":"Shieldon","rarity":"P","tcg":89150,"idx":7},
+    {"id":"DP09","section":"main","num":"DP09","printed":"DP09","code":"DP9","name":"Torterra","rarity":"P","tcg":89990,"idx":8},
+    {"id":"DP10","section":"main","num":"DP10","printed":"DP10","code":"DP10","name":"Infernape","rarity":"P","tcg":86282,"idx":9},
+    {"id":"DP11","section":"main","num":"DP11","printed":"DP11","code":"DP11","name":"Empoleon","rarity":"P","tcg":85207,"idx":10},
+    {"id":"DP12","section":"main","num":"DP12","printed":"DP12","code":"DP12","name":"Lucario","rarity":"P","tcg":86890,"idx":11},
+    {"id":"DP13","section":"main","num":"DP13","printed":"DP13","code":"DP13","name":"Buizel","rarity":"P","tcg":84019,"idx":12},
+    {"id":"DP14","section":"main","num":"DP14","printed":"DP14","code":"DP14","name":"Chatot","rarity":"P","tcg":84241,"idx":13},
+    {"id":"DP15","section":"main","num":"DP15","printed":"DP15","code":"DP15","name":"Shinx","rarity":"P","tcg":89175,"idx":14},
+    {"id":"DP16","section":"main","num":"DP16","printed":"DP16","code":"DP16","name":"Pikachu","rarity":"P","tcg":88089,"idx":15},
+    {"id":"DP17","section":"main","num":"DP17","printed":"DP17","code":"DP17","name":"Dialga","rarity":"P","tcg":84813,"idx":16},
+    {"id":"DP18","section":"main","num":"DP18","printed":"DP18","code":"DP18","name":"Palkia","rarity":"P","tcg":87920,"idx":17},
+    {"id":"DP19","section":"main","num":"DP19","printed":"DP19","code":"DP19","name":"Darkrai","rarity":"P","tcg":84712,"idx":18},
+    {"id":"DP20","section":"main","num":"DP20","printed":"DP20","code":"DP20","name":"Magmortar","rarity":"P","tcg":87057,"idx":19},
+    {"id":"DP21","section":"main","num":"DP21","printed":"DP21","code":"DP21","name":"Raichu","rarity":"P","tcg":88512,"idx":20},
+    {"id":"DP22","section":"main","num":"DP22","printed":"DP22","code":"DP22","name":"Mime Jr.","rarity":"P","tcg":87470,"idx":21},
+    {"id":"DP23","section":"main","num":"DP23","printed":"DP23","code":"DP23","name":"Glameow","rarity":"P","tcg":85761,"idx":22},
+    {"id":"DP24","section":"main","num":"DP24","printed":"DP24","code":"DP24","name":"Darkrai","rarity":"P","tcg":84701,"idx":23},
+    {"id":"DP25","section":"main","num":"DP25","printed":"DP25","code":"DP25","name":"Tropical Wind","rarity":"P","tcg":97811,"idx":24},
+    {"id":"DP26","section":"main","num":"DP26","printed":"DP26","code":"DP26","name":"Dialga","rarity":"P","tcg":84801,"idx":25},
+    {"id":"DP27","section":"main","num":"DP27","printed":"DP27","code":"DP27","name":"Palkia","rarity":"P","tcg":87909,"idx":26},
+    {"id":"DP28","section":"main","num":"DP28","printed":"DP28","code":"DP28","name":"Mewtwo","rarity":"P","tcg":87434,"idx":27},
+    {"id":"DP29","section":"main","num":"DP29","printed":"DP29","code":"DP29","name":"Rhyperior","rarity":"P","tcg":88750,"idx":28},
+    {"id":"DP30","section":"main","num":"DP30","printed":"DP30","code":"DP30","name":"Regigigas","rarity":"P","tcg":88670,"idx":29},
+    {"id":"DP31","section":"main","num":"DP31","printed":"DP31","code":"DP31","name":"Heatran","rarity":"P","tcg":86055,"idx":30},
+    {"id":"DP32","section":"main","num":"DP32","printed":"DP32","code":"DP32","name":"Magnezone","rarity":"P","tcg":87116,"idx":31},
+    {"id":"DP33","section":"main","num":"DP33","printed":"DP33","code":"DP33","name":"Dusknoir","rarity":"P","tcg":85039,"idx":32},
+    {"id":"DP34","section":"main","num":"DP34","printed":"DP34","code":"DP34","name":"Drifblim","rarity":"P","tcg":84946,"idx":33},
+    {"id":"DP35","section":"main","num":"DP35","printed":"DP35","code":"DP35","name":"Porygon-Z","rarity":"P","tcg":88316,"idx":34},
+    {"id":"DP36","section":"main","num":"DP36","printed":"DP36","code":"DP36","name":"Gliscor","rarity":"P","tcg":85773,"idx":35},
+    {"id":"DP37","section":"main","num":"DP37","printed":"DP37","code":"DP37","name":"Dialga","rarity":"P","tcg":84814,"idx":36},
+    {"id":"DP38","section":"main","num":"DP38","printed":"DP38","code":"DP38","name":"Giratina","rarity":"P","tcg":85743,"idx":37},
+    {"id":"DP39","section":"main","num":"DP39","printed":"DP39","code":"DP39","name":"Shaymin","rarity":"P","tcg":89116,"idx":38},
+    {"id":"DP40","section":"main","num":"DP40","printed":"DP40","code":"DP40","name":"Regigigas","rarity":"P","tcg":88665,"idx":39},
+    {"id":"DP41","section":"main","num":"DP41","printed":"DP41","code":"DP41","name":"Toxicroak G","rarity":"P","tcg":90013,"idx":40},
+    {"id":"DP42","section":"main","num":"DP42","printed":"DP42","code":"DP42","name":"Carnivine G","rarity":"P","tcg":84108,"idx":41},
+    {"id":"DP43","section":"main","num":"DP43","printed":"DP43","code":"DP43","name":"Probopass G","rarity":"P","tcg":88380,"idx":42},
+    {"id":"DP44","section":"main","num":"DP44","printed":"DP44","code":"DP44","name":"Magnezone","rarity":"P","tcg":87117,"idx":43},
+    {"id":"DP45","section":"main","num":"DP45","printed":"DP45","code":"DP45","name":"Charizard G","rarity":"P","tcg":84202,"idx":44},
+    {"id":"DP46","section":"main","num":"DP46","printed":"DP46","code":"DP46","name":"Garchomp C","rarity":"P","tcg":85630,"idx":45},
+    {"id":"DP47","section":"main","num":"DP47","printed":"DP47","code":"DP47","name":"Rayquaza C","rarity":"P","tcg":88641,"idx":46},
+    {"id":"DP48","section":"main","num":"DP48","printed":"DP48","code":"DP48","name":"Tropical Wind","rarity":"P","tcg":97812,"idx":47},
+    {"id":"DP49","section":"main","num":"DP49","printed":"DP49","code":"DP49","name":"Dialga","rarity":"P","tcg":84805,"idx":48},
+    {"id":"DP50","section":"main","num":"DP50","printed":"DP50","code":"DP50","name":"Arceus","rarity":"P","tcg":83601,"idx":49},
+    {"id":"DP51","section":"main","num":"DP51","printed":"DP51","code":"DP51","name":"Cresselia","rarity":"P","tcg":84469,"idx":50},
+    {"id":"DP52","section":"main","num":"DP52","printed":"DP52","code":"DP52","name":"Darkrai","rarity":"P","tcg":84702,"idx":51},
+    {"id":"DP53","section":"main","num":"DP53","printed":"DP53","code":"DP53","name":"Arceus","rarity":"P","tcg":83605,"idx":52},
+    {"id":"DP54","section":"main","num":"DP54","printed":"DP54","code":"DP54","name":"Beginning Door","rarity":"P","idx":53},
+    {"id":"DP55","section":"main","num":"DP55","printed":"DP55","code":"DP55","name":"Ultimate Zone","rarity":"P","idx":54},
+    {"id":"DP56","section":"main","num":"DP56","printed":"DP56","code":"DP56","name":"Arceus","rarity":"P","tcg":83606,"idx":55}
+  ]
+}

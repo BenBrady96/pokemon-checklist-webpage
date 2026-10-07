@@ -4,6 +4,7 @@ const PAGE_CACHE = 'bt-pages-v1';
 const IMAGE_CACHE = 'bt-img-v1';
 const SCAN_CACHE = 'bt-scan-v1';
 const NETWORK_TIMEOUT_MS = 2500;
+const REMOTE_IMAGES = 'https://assets.tcgdex.net';
 
 const SHELL = [
   './',
@@ -73,17 +74,23 @@ self.addEventListener('fetch', (event) => {
   const { request } = event;
   if (request.method !== 'GET') return;
   const url = new URL(request.url);
+  if (url.origin === REMOTE_IMAGES) {
+    event.respondWith(cacheFirst(request, fetchRemoteImage));
+    return;
+  }
   if (url.origin !== self.location.origin) return;
   if (url.pathname.includes('/img/cards/') || url.pathname.includes('/img/sets/')) event.respondWith(cacheFirst(request));
   else if (/\.(onnx|wasm)$/.test(url.pathname)) event.respondWith(versionedFirst(request));
   else event.respondWith(networkFirst(request, SHELL_PATHS.has(url.pathname) ? SHELL_CACHE : PAGE_CACHE));
 });
 
-async function cacheFirst(request) {
+const fetchRemoteImage = (request) => fetch(request.url, { mode: 'cors', credentials: 'omit' }).catch(() => fetch(request));
+
+async function cacheFirst(request, load = fetch) {
   const cache = await caches.open(IMAGE_CACHE);
   const cached = await cache.match(request);
   if (cached) return cached;
-  const response = await fetch(request);
+  const response = await load(request);
   if (response.ok) cache.put(request, response.clone());
   return response;
 }

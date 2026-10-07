@@ -8,6 +8,10 @@ const TIER_RANK = new Map(TIER_DEFS.map((t, i) => [t.id, i]));
 export const normalize = (s) =>
   s.normalize('NFD').replace(/\p{M}/gu, '').replace(/[‘’]/g, "'").toLowerCase();
 
+export const cardImageUrl = ({ imageBase, imageId, remoteBase, remoteId }, size = 'sm') => (remoteId
+  ? `${remoteBase}/${remoteId}/${size === 'lg' ? 'high' : 'low'}.webp`
+  : `${imageBase}/${size}/${imageId}.webp`);
+
 const fill = (template, fields) => template.replace(/\{(\w+)\}/g, (_, key) => fields[key] ?? '');
 
 const capitalise = (s) => `${s[0].toUpperCase()}${s.slice(1)}`;
@@ -30,7 +34,7 @@ function tierVisibility(tiers) {
   for (const t of tiers) t.as ||= first;
 }
 
-export function buildCollection(raw, { game, colors = {}, imageBase = '', logo = null }) {
+export function buildCollection(raw, { game, colors = {}, imageBase = '', remote = null, logo = null }) {
   const rarityById = new Map(game.RARITIES.map((r) => [r.id, r]));
   for (const r of raw.rarities || []) rarityById.set(r.id, { ...rarityById.get(r.id), ...r });
   const display = { ...game.DISPLAY, ...raw.display };
@@ -143,6 +147,8 @@ export function buildCollection(raw, { game, colors = {}, imageBase = '', logo =
     logoUrl: logo,
     hasImage: (card) => Object.hasOwn(colors, card.imageId),
     imageColor: (card, fallback = '#6a6f8f') => colors[card.imageId] || fallback,
-    imageUrl: (card, size = 'sm') => `${imageBase}/${size}/${card.imageId}.webp`,
+    remoteBase: remote?.base || null,
+    remoteImageId: (card) => remote?.ids?.[card.imageId] || null,
+    imageUrl: (card, size = 'sm') => cardImageUrl({ imageBase, imageId: card.imageId, remoteBase: remote?.base, remoteId: remote?.ids?.[card.imageId] }, size),
   };
 }

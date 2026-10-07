@@ -1,0 +1,85 @@
+{
+  "id": "pokemon/countdown-calendar",
+  "game": "pokemon",
+  "slug": "countdown-calendar",
+  "name": "Countdown Calendar",
+  "series": "Other",
+  "kind": "collection",
+  "code": "CC",
+  "syncKey": "CC",
+  "released": "2008-10-01",
+  "printedTotal": null,
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "24 cards",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-10, 12, 15x2",
+    "example": "1-10, 12x2",
+    "hint": "Separate with commas or spaces. Cards are numbered 1–24 in the order shown. <b>1-10</b> is a range and <b>12x2</b> is two copies.",
+    "empty": "Cards are numbered 1–24 in the order shown."
+  },
+  "info": {
+    "packSections": [],
+    "sectionText": {
+      "main": [
+        "<p><b>From Countdown Calendar.</b></p>"
+      ]
+    }
+  },
+  "seo": {
+    "title": "Pokémon TCG Countdown Calendar Checklist · All 24 Cards",
+    "description": "Free checklist for the 24 Pokémon TCG Countdown Calendar cards, with images, copy counts, binder pages and prices. No sign-up needed.",
+    "ogTitle": "Pokémon TCG Countdown Calendar Checklist",
+    "ogDescription": "Track all 24 Pokémon TCG Countdown Calendar cards. Free, no sign-up, works offline."
+  },
+  "about": {
+    "title": "About Countdown Calendar",
+    "paragraphs": [
+      "Pokémon TCG: Countdown Calendar came out on 1 October 2008 and has 24 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device."
+    ]
+  },
+  "source": {
+    "tcgplayer": [
+      2155
+    ]
+  },
+  "cards": [
+    {"id":"t153100","section":"main","num":"DP16","printed":"DP16","code":"1","name":"Pikachu","rarity":"P","tcg":153100,"idx":0},
+    {"id":"t153093","section":"main","num":"020/100","printed":"020/100","code":"2","name":"Glaceon","rarity":"P","tcg":153093,"idx":1},
+    {"id":"t153088","section":"main","num":"057/100","printed":"057/100","code":"3","name":"Chimchar","rarity":"P","tcg":153088,"idx":2},
+    {"id":"t153090","section":"main","num":"059/100","printed":"059/100","code":"4","name":"Combee","rarity":"P","tcg":153090,"idx":3},
+    {"id":"t153097","section":"main","num":"068/100","printed":"068/100","code":"5","name":"Munchlax","rarity":"P","tcg":153097,"idx":4},
+    {"id":"t153102","section":"main","num":"072/100","printed":"072/100","code":"6","name":"Piplup","rarity":"P","tcg":153102,"idx":5},
+    {"id":"t153109","section":"main","num":"078/100","printed":"078/100","code":"7","name":"Turtwig","rarity":"P","tcg":153109,"idx":6},
+    {"id":"t153091","section":"main","num":"037/106","printed":"037/106","code":"8","name":"Floatzel","rarity":"P","tcg":153091,"idx":7},
+    {"id":"t153086","section":"main","num":"061/106","printed":"061/106","code":"9","name":"Buizel","rarity":"P","tcg":153086,"idx":8},
+    {"id":"t153083","section":"main","num":"019/123","printed":"019/123","code":"10","name":"Abomasnow","rarity":"P","tcg":153083,"idx":9},
+    {"id":"t153089","section":"main","num":"042/123","printed":"042/123","code":"11","name":"Chingling","rarity":"P","tcg":153089,"idx":10},
+    {"id":"t153092","section":"main","num":"048/123","printed":"048/123","code":"12","name":"Gabite","rarity":"P","tcg":153092,"idx":11},
+    {"id":"t153095","section":"main","num":"052/123","printed":"052/123","code":"13","name":"Happiny","rarity":"P","tcg":153095,"idx":12},
+    {"id":"t153084","section":"main","num":"073/123","printed":"073/123","code":"14","name":"Bidoof","rarity":"P","tcg":153084,"idx":13},
+    {"id":"t153085","section":"main","num":"074/123","printed":"074/123","code":"15","name":"Bronzor","rarity":"P","tcg":153085,"idx":14},
+    {"id":"t153096","section":"main","num":"086/123","printed":"086/123","code":"16","name":"Kricketot","rarity":"P","tcg":153096,"idx":15},
+    {"id":"t153105","section":"main","num":"098/123","printed":"098/123","code":"17","name":"Shinx","rarity":"P","tcg":153105,"idx":16},
+    {"id":"t153107","section":"main","num":"101/123","printed":"101/123","code":"18","name":"Snover","rarity":"P","tcg":153107,"idx":17},
+    {"id":"t153104","section":"main","num":"061/130","printed":"061/130","code":"19","name":"Riolu","rarity":"P","tcg":153104,"idx":18},
+    {"id":"t153094","section":"main","num":"083/130","printed":"083/130","code":"20","name":"Glameow 83/130","rarity":"P","tcg":153094,"idx":19},
+    {"id":"t153106","section":"main","num":"099/130","printed":"099/130","code":"21","name":"Skorupi","rarity":"P","tcg":153106,"idx":20},
+    {"id":"t153108","section":"main","num":"102/130","printed":"102/130","code":"22","name":"Stunky","rarity":"P","tcg":153108,"idx":21},
+    {"id":"t153110","section":"main","num":"040/132","printed":"040/132","code":"23","name":"Weavile","rarity":"P","tcg":153110,"idx":22},
+    {"id":"t153087","section":"main","num":"078/132","printed":"078/132","code":"24","name":"Burmy (Plant Cloak)","rarity":"P","tcg":153087,"idx":23}
+  ]
+}

@@ -63,6 +63,16 @@ export async function download(url, { attempts = 3, type = 'buffer' } = {}) {
   }
 }
 
+export async function urlExists(url, { attempts = 4 } = {}) {
+  for (let i = 1; ; i++) {
+    const res = await fetch(url, { method: 'HEAD', headers: { 'User-Agent': USER_AGENT } }).catch(() => null);
+    if (res?.ok) return true;
+    if (res?.status === 404) return false;
+    if (i >= attempts) throw new Error(`${url}: ${res ? `HTTP ${res.status}` : 'no response'}`);
+    await sleep(1500 * i);
+  }
+}
+
 export async function cachedJson(url, { refresh = false } = {}) {
   const file = join(CACHE, 'http', `${createHash('sha1').update(url).digest('hex')}.json`);
   if (!refresh) {

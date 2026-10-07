@@ -1,0 +1,78 @@
+{
+  "id": "pokemon/mcdonalds-match-battle-2023",
+  "game": "pokemon",
+  "slug": "mcdonalds-match-battle-2023",
+  "name": "McDonald's Match Battle 2023",
+  "series": "McDonald's",
+  "kind": "collection",
+  "code": "M23",
+  "syncKey": "M23",
+  "released": "2023-08-01",
+  "printedTotal": 15,
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "001–015",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-22, 55, 60x2",
+    "example": "1-22, 55x2",
+    "hint": "Separate with commas or spaces. <b>1-22</b> is a range and <b>55x2</b> is two copies.",
+    "empty": "Cards are 1–15."
+  },
+  "info": {
+    "packSections": [],
+    "sectionText": {
+      "main": [
+        "<p><b>From McDonald's Match Battle 2023.</b></p>"
+      ]
+    }
+  },
+  "seo": {
+    "title": "Pokémon TCG McDonald's Match Battle 2023 Checklist · All 15 Cards",
+    "description": "Free checklist for the 15 Pokémon TCG McDonald's Match Battle 2023 cards, with images, copy counts, binder pages and prices. No sign-up needed.",
+    "ogTitle": "Pokémon TCG McDonald's Match Battle 2023 Checklist",
+    "ogDescription": "Track all 15 Pokémon TCG McDonald's Match Battle 2023 cards. Free, no sign-up, works offline."
+  },
+  "about": {
+    "title": "About McDonald's Match Battle 2023",
+    "paragraphs": [
+      "Pokémon TCG: McDonald's Match Battle 2023 came out on 1 August 2023 and has 15 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device."
+    ]
+  },
+  "source": {
+    "tcgdex": "2023sv",
+    "tcgplayer": [
+      23306
+    ],
+    "serie": "mc"
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"001/015","code":"1","name":"Sprigatito","rarity":"P","tcg":516512,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"002/015","code":"2","name":"Fuecoco","rarity":"P","tcg":516513,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"003/015","code":"3","name":"Quaxly","rarity":"P","tcg":516514,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"004/015","code":"4","name":"Cetoddle","rarity":"P","tcg":516515,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"005/015","code":"5","name":"Cetitan","rarity":"P","tcg":516516,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"006/015","code":"6","name":"Pikachu","rarity":"P","tcg":516517,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"007/015","code":"7","name":"Pawmi","rarity":"P","tcg":516518,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"008/015","code":"8","name":"Kilowattrel","rarity":"P","tcg":516519,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"009/015","code":"9","name":"Flittle","rarity":"P","tcg":516520,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"010/015","code":"10","name":"Sandaconda","rarity":"P","tcg":516521,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"011/015","code":"11","name":"Klawf","rarity":"P","tcg":516522,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"012/015","code":"12","name":"Blissey","rarity":"P","tcg":516523,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"013/015","code":"13","name":"Tandemaus","rarity":"P","tcg":516524,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"014/015","code":"14","name":"Cyclizar","rarity":"P","tcg":516525,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"015/015","code":"15","name":"Kirlia","rarity":"P","tcg":516526,"idx":14}
+  ]
+}

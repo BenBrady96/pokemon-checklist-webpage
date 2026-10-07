@@ -1,0 +1,66 @@
+{
+  "id": "pokemon/pokemon-futsal",
+  "game": "pokemon",
+  "slug": "pokemon-futsal",
+  "name": "Pokémon Futsal",
+  "series": "Other",
+  "kind": "collection",
+  "code": "FUT20",
+  "syncKey": "FUT20",
+  "released": "2020-09-11",
+  "printedTotal": 5,
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "001–005",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-22, 55, 60x2",
+    "example": "1-22, 55x2",
+    "hint": "Separate with commas or spaces. <b>1-22</b> is a range and <b>55x2</b> is two copies.",
+    "empty": "Cards are 1–5."
+  },
+  "info": {
+    "packSections": [],
+    "sectionText": {
+      "main": [
+        "<p><b>From Pokémon Futsal.</b></p>"
+      ]
+    }
+  },
+  "seo": {
+    "title": "Pokémon TCG Pokémon Futsal Checklist · All 5 Cards",
+    "description": "Free checklist for the 5 Pokémon TCG Pokémon Futsal cards, with images, copy counts, binder pages and prices. No sign-up needed.",
+    "ogTitle": "Pokémon TCG Pokémon Futsal Checklist",
+    "ogDescription": "Track all 5 Pokémon TCG Pokémon Futsal cards. Free, no sign-up, works offline."
+  },
+  "about": {
+    "title": "About Pokémon Futsal",
+    "paragraphs": [
+      "Pokémon TCG: Pokémon Futsal came out on 11 September 2020 and has 5 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device."
+    ]
+  },
+  "source": {
+    "tcgdex": "fut2020",
+    "tcgplayer": [],
+    "serie": "swsh"
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"001/005","code":"1","name":"Pikachu on the Ball","rarity":"NR","idx":0},
+    {"id":"002","section":"main","num":"002","printed":"002/005","code":"2","name":"Eevee on the Ball","rarity":"NR","idx":1},
+    {"id":"003","section":"main","num":"003","printed":"003/005","code":"3","name":"Grookey on the Ball","rarity":"NR","idx":2},
+    {"id":"004","section":"main","num":"004","printed":"004/005","code":"4","name":"Scorbunny on the Ball","rarity":"NR","idx":3},
+    {"id":"005","section":"main","num":"005","printed":"005/005","code":"5","name":"Sobble on the Ball","rarity":"NR","idx":4}
+  ]
+}

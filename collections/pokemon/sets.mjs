@@ -1,6 +1,11 @@
 import { energyNotes, promoDetails, promoNotes } from './30th-celebration.mjs';
+import generated from './generated-sets.json' with { type: 'json' };
 
-export const SERIES = ['Mega Evolution', 'Scarlet & Violet'];
+export const SERIES = [
+  'Mega Evolution', 'Scarlet & Violet', 'Sword & Shield', 'Sun & Moon', 'XY', 'Black & White', 'Call of Legends',
+  'HeartGold & SoulSilver', 'Platinum', 'Diamond & Pearl', 'EX', 'e-Card', 'Legendary Collection', 'Neo', 'Original',
+  'Trainer & Deck Kits', 'Play! Pokémon', 'World Championships Decks', "McDonald's", 'Other',
+];
 
 export const LOGO = 'https://upload.wikimedia.org/wikipedia/commons/9/98/International_Pok%C3%A9mon_logo.svg';
 
@@ -11,7 +16,7 @@ const LOGOS = 'https://static.tcgcollector.com/content/images';
 const PROMO_LOGO = `${LOGOS}/20/3c/e8/203ce8c06beccda388cff66bd34b8ac33738912709348a186fd6c196a6553596.png`;
 const ENERGY_LOGO = `${LOGOS}/cf/4f/28/cf4f284b390ff11d4b4cd4af16f2157e443a00c6fee9fb30ec07469b05f460a9.png`;
 
-export default [
+export const HAND = [
   { slug: '30th-celebration', curated: '30th-celebration.mjs', logo: `${LOGOS}/0d/39/4a/0d394a144b948f620fe8c44caf11cc24602f0be11ee721eaa0eae3543cdbca9d.webp`, theme: { preset: 'default' } },
   { slug: 'pitch-black', tcgdex: 'me05', series: MEGA, syncKey: 'PBL', tcgplayer: [24688], theme: { accent: '#C465E8', chrome: '#150C1F' } },
   { slug: 'chaos-rising', tcgdex: 'me04', series: MEGA, syncKey: 'CRI', tcgplayer: [24655], theme: { accent: '#4FB6E0', chrome: '#1A1250' } },
@@ -49,3 +54,5 @@ export default [
   { slug: 'sv-black-star-promos', tcgdex: 'svp', series: SV, kind: 'promo', name: 'SV Black Star Promos', syncKey: 'SVP', tcgplayer: [22872], logo: PROMO_LOGO, logoOutline: true, theme: { accent: '#D2D7E0', chrome: '#181B24' } },
   { slug: 'sv-energy', tcgdex: 'sve', series: SV, kind: 'energy', name: 'SV Energy', syncKey: 'SVE', tcgplayer: [24382], logo: ENERGY_LOGO, theme: { accent: '#6CC24A', chrome: '#13261A' } },
 ];
+
+export default [...HAND, ...generated.filter((g) => !HAND.some((h) => h.slug === g.slug))];

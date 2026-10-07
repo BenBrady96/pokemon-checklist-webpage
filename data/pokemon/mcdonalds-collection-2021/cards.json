@@ -1,0 +1,88 @@
+{
+  "id": "pokemon/mcdonalds-collection-2021",
+  "game": "pokemon",
+  "slug": "mcdonalds-collection-2021",
+  "name": "McDonald's Collection 2021",
+  "series": "McDonald's",
+  "kind": "collection",
+  "code": "M21",
+  "syncKey": "M21",
+  "released": "2021-02-09",
+  "printedTotal": 25,
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "001–025",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-22, 55, 60x2",
+    "example": "1-22, 55x2",
+    "hint": "Separate with commas or spaces. <b>1-22</b> is a range and <b>55x2</b> is two copies.",
+    "empty": "Cards are 1–25."
+  },
+  "info": {
+    "packSections": [],
+    "sectionText": {
+      "main": [
+        "<p><b>From McDonald's Collection 2021.</b></p>"
+      ]
+    }
+  },
+  "seo": {
+    "title": "Pokémon TCG McDonald's Collection 2021 Checklist · All 25 Cards",
+    "description": "Free checklist for the 25 Pokémon TCG McDonald's Collection 2021 cards, with images, copy counts, binder pages and prices. No sign-up needed.",
+    "ogTitle": "Pokémon TCG McDonald's Collection 2021 Checklist",
+    "ogDescription": "Track all 25 Pokémon TCG McDonald's Collection 2021 cards. Free, no sign-up, works offline."
+  },
+  "about": {
+    "title": "About McDonald's Collection 2021",
+    "paragraphs": [
+      "Pokémon TCG: McDonald's Collection 2021 came out on 9 February 2021 and has 25 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device."
+    ]
+  },
+  "source": {
+    "tcgdex": "2021swsh",
+    "tcgplayer": [
+      2782
+    ],
+    "serie": "mc"
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"001/025","code":"1","name":"Bulbasaur","rarity":"P","tcg":232316,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"002/025","code":"2","name":"Chikorita","rarity":"P","tcg":232317,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"003/025","code":"3","name":"Treecko","rarity":"P","tcg":232318,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"004/025","code":"4","name":"Turtwig","rarity":"P","tcg":232319,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"005/025","code":"5","name":"Snivy","rarity":"P","tcg":232320,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"006/025","code":"6","name":"Chespin","rarity":"P","tcg":232321,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"007/025","code":"7","name":"Rowlet","rarity":"P","tcg":232322,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"008/025","code":"8","name":"Grookey","rarity":"P","tcg":232323,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"009/025","code":"9","name":"Charmander","rarity":"P","tcg":232324,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"010/025","code":"10","name":"Cyndaquil","rarity":"P","tcg":232325,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"011/025","code":"11","name":"Torchic","rarity":"P","tcg":232326,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"012/025","code":"12","name":"Chimchar","rarity":"P","tcg":232327,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"013/025","code":"13","name":"Tepig","rarity":"P","tcg":232328,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"014/025","code":"14","name":"Fennekin","rarity":"P","tcg":232329,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"015/025","code":"15","name":"Litten","rarity":"P","tcg":232341,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"016/025","code":"16","name":"Scorbunny","rarity":"P","tcg":232330,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"017/025","code":"17","name":"Squirtle","rarity":"P","tcg":232331,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"018/025","code":"18","name":"Totodile","rarity":"P","tcg":232332,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"019/025","code":"19","name":"Mudkip","rarity":"P","tcg":232333,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"020/025","code":"20","name":"Piplup","rarity":"P","tcg":232334,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"021/025","code":"21","name":"Oshawott","rarity":"P","tcg":232335,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"022/025","code":"22","name":"Froakie","rarity":"P","tcg":232336,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"023/025","code":"23","name":"Popplio","rarity":"P","tcg":232337,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"024/025","code":"24","name":"Sobble","rarity":"P","tcg":232338,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"025/025","code":"25","name":"Pikachu","rarity":"P","tcg":232339,"idx":24}
+  ]
+}

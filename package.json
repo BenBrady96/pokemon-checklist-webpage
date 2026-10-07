@@ -9,6 +9,7 @@
     "dev": "node tools/dev.mjs",
     "build": "node tools/build.mjs",
     "test": "node tools/check.mjs",
+    "set-list": "node tools/build-set-list.mjs",
     "sets": "node tools/build-sets.mjs",
     "images": "node tools/build-images.mjs",
     "images:force": "node tools/build-images.mjs --force",

@@ -1,0 +1,99 @@
+{
+  "id": "pokemon/pop-series-8",
+  "game": "pokemon",
+  "slug": "pop-series-8",
+  "name": "POP Series 8",
+  "series": "Play! Pokémon",
+  "kind": "collection",
+  "code": "POP8",
+  "syncKey": "POP8",
+  "released": "2008-09-01",
+  "printedTotal": 17,
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "001–017",
+      "tier": "standard"
+    },
+    {
+      "id": "reverse",
+      "name": "Reverse Holos",
+      "short": "Reverse Holos",
+      "range": "4 cards",
+      "tier": "master"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ],
+    [
+      "reverse",
+      "Reverse holos"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-22, 55, R12, 60x2",
+    "example": "1-22, 55x2, R12",
+    "hint": "Separate with commas or spaces. <b>1-22</b> is a range and <b>55x2</b> is two copies. <b>R12</b> is card 12’s reverse holo, and ranges work too (<b>R1-R20</b>).",
+    "empty": "Cards are 1–17."
+  },
+  "help": {
+    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 17 cards. Master adds the 4 reverse holos. Cards you’ve marked are kept when you switch."
+  },
+  "info": {
+    "packSections": [],
+    "sectionText": {
+      "main": [
+        "<p><b>From POP Series 8.</b></p>"
+      ]
+    }
+  },
+  "seo": {
+    "title": "Pokémon TCG POP Series 8 Checklist · All 17 Cards",
+    "description": "Free checklist for the 17 Pokémon TCG POP Series 8 cards, with images, copy counts, binder pages and prices. No sign-up needed.",
+    "ogTitle": "Pokémon TCG POP Series 8 Checklist",
+    "ogDescription": "Track all 17 Pokémon TCG POP Series 8 cards. Free, no sign-up, works offline."
+  },
+  "about": {
+    "title": "About POP Series 8",
+    "paragraphs": [
+      "Pokémon TCG: POP Series 8 came out on 1 September 2008 and has 17 cards, plus 4 reverse holos.",
+      "Choose what you’re collecting: the <b>Standard set</b> (the 17 cards) or the <b>Master set</b> (21 cards, adding the reverse holos).",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device."
+    ]
+  },
+  "source": {
+    "tcgdex": "pop8",
+    "tcgplayer": [
+      1450
+    ],
+    "serie": "pop"
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"001/017","code":"1","name":"Heatran","rarity":"R","tcg":86049,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"002/017","code":"2","name":"Lucario","rarity":"R","tcg":86877,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"003/017","code":"3","name":"Luxray","rarity":"R","tcg":86948,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"004/017","code":"4","name":"Probopass","rarity":"R","tcg":88376,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"005/017","code":"5","name":"Yanmega","rarity":"R","tcg":90691,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"006/017","code":"6","name":"Cherrim","rarity":"U","tcg":84253,"idx":5},
+    {"id":"006-rh","section":"reverse","num":"006","printed":"006/017","code":"R6","name":"Cherrim","rarity":"U","img":"006","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":84253,"sub":"Reverse Holofoil","idx":17},
+    {"id":"007","section":"main","num":"007","printed":"007/017","code":"7","name":"Carnivine","rarity":"U","tcg":84100,"idx":6},
+    {"id":"007-rh","section":"reverse","num":"007","printed":"007/017","code":"R7","name":"Carnivine","rarity":"U","img":"007","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":84100,"sub":"Reverse Holofoil","idx":18},
+    {"id":"008","section":"main","num":"008","printed":"008/017","code":"8","name":"Luxio","rarity":"U","tcg":86941,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"009/017","code":"9","name":"Night Maintenance","rarity":"U","tcg":87752,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"010/017","code":"10","name":"Rare Candy","rarity":"U","tcg":88594,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"011/017","code":"11","name":"Roseanne’s Research","rarity":"U","tcg":88816,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"012/017","code":"12","name":"Chimchar","rarity":"C","tcg":84287,"idx":11},
+    {"id":"012-rh","section":"reverse","num":"012","printed":"012/017","code":"R12","name":"Chimchar","rarity":"C","img":"012","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":84287,"sub":"Reverse Holofoil","idx":19},
+    {"id":"013","section":"main","num":"013","printed":"013/017","code":"13","name":"Croagunk","rarity":"C","tcg":84475,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"014/017","code":"14","name":"Happiny","rarity":"C","tcg":86007,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"015/017","code":"15","name":"Piplup","rarity":"C","tcg":88148,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"016/017","code":"16","name":"Riolu","rarity":"C","tcg":88755,"idx":15},
+    {"id":"016-rh","section":"reverse","num":"016","printed":"016/017","code":"R16","name":"Riolu","rarity":"C","img":"016","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":88755,"sub":"Reverse Holofoil","idx":20},
+    {"id":"017","section":"main","num":"017","printed":"017/017","code":"17","name":"Turtwig","rarity":"C","tcg":90076,"idx":16}
+  ]
+}
