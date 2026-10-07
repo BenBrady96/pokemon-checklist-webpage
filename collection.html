@@ -154,7 +154,7 @@
           <span class="progress-pill__pct" data-stat="pct">0%</span>
           <span class="progress-pill__bar" aria-hidden="true"><i data-stat="bar"></i></span>
         </button>
-        <button class="icon-btn icon-btn--header" type="button" data-open="scan" title="Scan a card" aria-label="Scan a card"><svg><use href="#i-camera"/></svg></button>
+        <button class="icon-btn icon-btn--header desktop-only" type="button" data-open="scan" title="Scan a card" aria-label="Scan a card"><svg><use href="#i-camera"/></svg></button>
         <button class="icon-btn icon-btn--header desktop-only" type="button" data-open="quickadd" title="Quick add (Q)" aria-label="Quick add"><svg><use href="#i-bolt"/></svg></button>
         <button class="icon-btn icon-btn--header desktop-only" type="button" data-open="share" title="Share &amp; sync" aria-label="Share and sync"><svg><use href="#i-share"/></svg></button>
         <button class="icon-btn icon-btn--header desktop-only" type="button" data-open="menu" title="More" aria-label="More options"><svg><use href="#i-dots"/></svg></button>
@@ -270,8 +270,8 @@
 
 <nav class="bottombar mobile-only" aria-label="Controls">
   <button type="button" class="bottombar__btn" data-action="open-search"><svg><use href="#i-search"/></svg><span>Search</span></button>
-  <button type="button" class="bottombar__btn" data-open="filters"><svg><use href="#i-filter"/></svg><span>Filter</span><i class="dot-badge" data-filter-count hidden></i></button>
-  <button type="button" class="bottombar__btn" data-open="view"><svg data-view-icon><use href="#i-grid"/></svg><span>View</span></button>
+  <button type="button" class="bottombar__btn" data-open="filters"><svg><use href="#i-filter"/></svg><span>View</span><i class="dot-badge" data-filter-count hidden></i></button>
+  <button type="button" class="bottombar__btn bottombar__scan" data-open="scan" aria-label="Scan a card"><span class="bottombar__scan-ring"><svg><use href="#i-camera"/></svg></span></button>
   <button type="button" class="bottombar__btn bottombar__mode" data-action="toggle-mode" aria-label="Tap mode"><svg data-mode-icon><use href="#i-mode-check"/></svg><span data-mode-label>Check</span></button>
   <button type="button" class="bottombar__btn" data-open="menu"><svg><use href="#i-dots"/></svg><span>More</span></button>
 </nav>
@@ -317,10 +317,14 @@
 <dialog class="sheet" id="dlg-filters" aria-labelledby="filters-title">
   <div class="sheet__inner">
     <header class="sheet__head">
-      <h2 class="sheet__title" id="filters-title">Filters</h2>
+      <h2 class="sheet__title desktop-only" id="filters-title">Filters</h2>
+      <div class="seg sheet-tabs mobile-only" role="tablist" aria-label="View and filter">
+        <button type="button" class="seg__btn" role="tab" id="tab-filter" aria-controls="panel-filter" aria-selected="true" data-sheet-tab="filter">Filter</button>
+        <button type="button" class="seg__btn" role="tab" id="tab-view" aria-controls="panel-view" aria-selected="false" tabindex="-1" data-sheet-tab="view">View</button>
+      </div>
       <button type="button" class="icon-btn" data-close aria-label="Close"><svg><use href="#i-close"/></svg></button>
     </header>
-    <div class="sheet__body">
+    <div class="sheet__body" id="panel-filter" role="tabpanel" aria-labelledby="tab-filter" data-tab-panel="filter">
       <section class="field">
         <h3 class="field__label">Show</h3>
         <div class="seg seg--full" role="group" aria-label="Show">
@@ -347,20 +351,7 @@
         </div>
       </section>
     </div>
-    <footer class="sheet__foot">
-      <button type="button" class="btn btn--ghost" data-action="clear-filters">Reset</button>
-      <button type="button" class="btn btn--primary" data-close data-filter-result>Show cards</button>
-    </footer>
-  </div>
-</dialog>
-
-<dialog class="sheet" id="dlg-view" aria-labelledby="view-title">
-  <div class="sheet__inner">
-    <header class="sheet__head">
-      <h2 class="sheet__title" id="view-title">View</h2>
-      <button type="button" class="icon-btn" data-close aria-label="Close"><svg><use href="#i-close"/></svg></button>
-    </header>
-    <div class="sheet__body">
+    <div class="sheet__body mobile-only" id="panel-view" role="tabpanel" aria-labelledby="tab-view" data-tab-panel="view" hidden>
       <div class="view-picker" role="group" aria-label="Layout">
         <button type="button" class="view-picker__btn" data-pref="view" data-value="grid"><svg><use href="#i-grid"/></svg><span>Grid</span></button>
         <button type="button" class="view-picker__btn" data-pref="view" data-value="list"><svg><use href="#i-list"/></svg><span>List</span></button>
@@ -399,6 +390,13 @@
         </div>
       </section>
     </div>
+    <footer class="sheet__foot" data-tab-panel="filter">
+      <button type="button" class="btn btn--ghost" data-action="clear-filters">Reset</button>
+      <button type="button" class="btn btn--primary" data-close data-filter-result>Show cards</button>
+    </footer>
+    <footer class="sheet__foot mobile-only" data-tab-panel="view" hidden>
+      <button type="button" class="btn btn--primary" data-close>Done</button>
+    </footer>
   </div>
 </dialog>
 

@@ -35,7 +35,7 @@ const previewBanner = document.getElementById('preview-banner');
 const bottombar = document.querySelector('.bottombar');
 
 const DIALOGS = {
-  filters: 'dlg-filters', view: 'dlg-view', menu: 'dlg-menu', stats: 'dlg-stats',
+  filters: 'dlg-filters', menu: 'dlg-menu', stats: 'dlg-stats',
   quickadd: 'dlg-quickadd', share: 'dlg-share', help: 'dlg-help', export: 'dlg-export', import: 'dlg-import',
 };
 const RANGE_JUMPS = JUMPS.filter((j) => j.from && j.to);
@@ -157,7 +157,6 @@ function syncControls() {
   modeBtn.querySelector('use').setAttribute('href', p.mode === 'count' ? '#i-mode-count' : '#i-mode-check');
   modeBtn.querySelector('[data-mode-label]').textContent = p.mode === 'count' ? 'Count' : 'Check';
   modeBtn.setAttribute('aria-label', `Tap mode: ${p.mode === 'count' ? 'count copies' : 'check off'}. Switch mode`);
-  document.querySelector('[data-view-icon] use').setAttribute('href', `#i-${p.view}`);
   const n = activeFilterCount();
   for (const el of document.querySelectorAll('[data-filter-count]')) {
     el.hidden = !n;
@@ -719,10 +718,22 @@ function openScanner() {
   }), () => toast('Couldn’t load the scanner. Check your connection and try again.'));
 }
 
+function selectSheetTab(name, { focus = false } = {}) {
+  const dlg = document.getElementById('dlg-filters');
+  for (const tab of dlg.querySelectorAll('[data-sheet-tab]')) {
+    const on = tab.dataset.sheetTab === name;
+    tab.setAttribute('aria-selected', String(on));
+    tab.tabIndex = on ? 0 : -1;
+    if (on && focus) tab.focus();
+  }
+  for (const el of dlg.querySelectorAll('[data-tab-panel]')) el.hidden = el.dataset.tabPanel !== name;
+}
+
 function openNamed(name) {
   if (name === 'scan') return openScanner();
   const dlg = document.getElementById(DIALOGS[name]);
   if (!dlg) return;
+  if (name === 'filters') selectSheetTab('filter');
   if (name === 'stats') document.getElementById('stats-body').innerHTML = renderStats(compute());
   if (name === 'share') prepareShare();
   if (name === 'export') prepareExport();
@@ -739,7 +750,7 @@ function openSectionMenu(id) {
 
 function wireControls() {
   document.addEventListener('click', (e) => {
-    const t = e.target.closest('[data-pref][data-value], [data-pref-toggle], [data-filter], [data-filter-toggle], [data-open], [data-action], [data-section-menu], [data-jump]');
+    const t = e.target.closest('[data-pref][data-value], [data-pref-toggle], [data-filter], [data-filter-toggle], [data-open], [data-action], [data-section-menu], [data-jump], [data-sheet-tab]');
     if (!t) return;
     if (t.matches('[data-pref][data-value]')) {
       const key = t.dataset.pref;
@@ -763,8 +774,17 @@ function wireControls() {
       openSectionMenu(t.dataset.sectionMenu);
     } else if (t.matches('[data-jump]')) {
       jumpTo(t.dataset.jump);
+    } else if (t.matches('[data-sheet-tab]')) {
+      selectSheetTab(t.dataset.sheetTab);
     }
   });
+
+  document.querySelector('.sheet-tabs').addEventListener('keydown', (e) => {
+    if (e.key !== 'ArrowLeft' && e.key !== 'ArrowRight') return;
+    e.preventDefault();
+    selectSheetTab(e.target.dataset.sheetTab === 'filter' ? 'view' : 'filter', { focus: true });
+  });
+  desktopQuery.addEventListener('change', () => selectSheetTab('filter'));
 
   for (const select of document.querySelectorAll('[data-pref-select]')) {
     select.addEventListener('change', () => store.setPref(select.dataset.prefSelect, select.value));

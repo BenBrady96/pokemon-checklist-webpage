@@ -1020,6 +1020,26 @@ a.btn { text-decoration: none; }
 .bottombar__btn svg { width: 24px; height: 24px; }
 .bottombar__btn:active { background: var(--surface-2); }
 .bottombar__mode[data-mode="count"] { color: var(--theme-ink); }
+.bottombar__scan:active { background: none; }
+.bottombar__scan-ring {
+  position: absolute; left: 50%; top: -18px;
+  display: grid; place-items: center;
+  width: 60px; height: 60px;
+  border-radius: 50%;
+  background: var(--theme-fill); color: var(--on-theme);
+  box-shadow: 0 0 0 5px var(--bg-raised), 0 6px 18px var(--theme-glow);
+  transform: translateX(-50%);
+  transition: transform .12s;
+}
+.bottombar__scan:active .bottombar__scan-ring { transform: translateX(-50%) scale(.93); }
+.bottombar__scan-ring svg { width: 28px; height: 28px; }
+
+.sheet-tabs { flex: 1; max-width: 280px; }
+.sheet-tabs .seg__btn { flex: 1; min-height: 38px; font-size: .92rem; }
+.sheet-tabs .seg__btn[aria-selected="true"] {
+  background: var(--bg-raised); color: var(--text);
+  box-shadow: var(--shadow-sm), 0 0 0 1px var(--line);
+}
 .dot-badge {
   position: absolute; top: 5px; left: calc(50% + 6px);
   display: grid; place-items: center;
@@ -1465,7 +1485,6 @@ a.menu__item { color: inherit; text-decoration: none; }
   font-weight: 600; font-size: .9rem;
   animation: toast-in .22s var(--ease-out);
 }
-.scanner__flash[hidden] { display: none; }
 .scanner__flash svg { flex: none; width: 20px; height: 20px; color: var(--theme-bright); }
 .scanner__flash-text { flex: 1; }
 .scanner__flash-undo {
