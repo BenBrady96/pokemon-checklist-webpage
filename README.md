@@ -23,6 +23,7 @@ It is a static site built with plain HTML, CSS and JavaScript. There is no backe
 - **Copy counts, a Duplicates filter and trade lists; search, filters and sorting.**
 - **Card viewer** with a holo tilt, and a **card info** panel: where to get the card, pull odds (30th Celebration), and its price with TCGplayer and eBay UK links.
 - **Stats:** progress by section and rarity, collection value and cost to complete.
+- **Trade** (`/trade/`): two sides, *You give* and *You get*, with TCGplayer values, a fairness meter and a verdict ("You're up £12.40"). Swap trade codes (a link or QR) with a friend to see what they have that you need and what you have that they need, using each person's tier for the sets they've started. Spares are copies beyond the first, with a switch to offer single copies. Cards go into the trade from those lists or straight from the scanner (**I give** / **I get**), a proposed trade can be sent as a link that the other person sees mirrored, and **Complete trade** updates the collection (with undo) and keeps a history.
 - **Share and sync:** a link and QR code for one set; **Export backup** gives a code or file covering every set you've started.
 - **Works offline** and installs to the home screen. Light and dark themes, keyboard shortcuts (`?`), screen-reader labels and reduced-motion support.
 
@@ -154,6 +155,7 @@ The build fails if a JS, CSS or HTML file is missing from the offline file list 
 |---|---|
 | `bt:v1:prefs` | Site-wide preferences, plus `tiers: { collectionId: tier }` |
 | `bt:v1:c:<collectionId>` | `{ v, q: { cardId: copies }, updated, summary }`. The summary (`tier`, `owned`, `total`) is what the home page shows |
+| `bt:v1:trade` | The Trade page: the current draft (`give`/`get` lines of `{ set, card, qty }`), the friend's resolved counts, past trades, the chosen name and list settings. Not included in backups |
 
 Before the rename the site stored 30th Celebration under `p30c:v1` and `p30c:prefs:v1`. Those are copied across once and left in place.
 
@@ -166,6 +168,8 @@ The tiers used to be Standard, Complete (with secret rares), Master (every card 
 Each card has an `idx`: its permanent position in share links and sync codes. `npm run sets` keeps the `idx` of every card already in a collection and appends new cards, and `npm test` fails if a card's `idx` changes.
 
 A **v2 code** is base64url: `[2] [key length] [syncKey] [varint n] [bitset of n cards]`, then `[varint idx] [copies]` for each card with 2+ copies. Share links hold one collection (`pokemon/<set>/#sync=…`). An **Export backup** code joins one code per collection with `.`, and the backup file is `{ app: 'binder-tracker', version: 2, collections: { id: { cards } } }`.
+
+**Trade codes** (`trade/#t=…`) are base64url of `['T'] [version | 0x80 if deflated]`, then `[varint minutes since 1970] [varint name length] [UTF-8 name] [varint set count]` and, for each set, `[tier 0/1/2] [varint length] [v2 code bytes]`. **Proposed trades** (`trade/#p=…`) are `['P'] [version | flag] [4-byte id] [varint minutes] [name]`, then for each set `[key length] [syncKey] [varint count] ([varint idx] [copies])…` for the sender's give side and again for their get side. Both are compressed with `deflate-raw` when that's shorter, and `js/trade-code.js` rejects anything malformed or that inflates past 512 KB.
 
 Old **v1 codes** (`[1] [n] [bitset] [idx, copies]…`, 30th Celebration only) and old backup files still load. Old `/#sync=` links at the site root are forwarded to the 30th Celebration page.
 
@@ -190,6 +194,9 @@ js/home.js                     home page
 js/store.js, js/storage.js     collection, undo/redo, preferences, storage keys and migration
 js/codec.js, js/sync.js        sync codes and backups; share, QR and import dialogs
 js/transfer.js                 backups and imports that cover several sets
+trade.html, js/trade.js        Trade page template and page script
+js/trade-data.js               trade state, needs and spares, values, the fairness check and completing a trade
+js/trade-code.js               trade codes and proposed-trade links
 js/render.js, gestures.js, viewer.js, info.js, stats.js, quickadd.js, pricing.js, pwa.js, ui.js, confetti.js
 js/scan.js, scan-match.js      card scanner: camera and screens, matching (loaded only when opened)
 js/scan-features.js            image maths shared by the scanner and npm run scan-index

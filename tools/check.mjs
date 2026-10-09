@@ -188,5 +188,82 @@ if (scan) {
 const big = models.get('pokemon/ascended-heroes');
 check(big && big.cards.length > 255, 'a set with more than 255 entries exists and round-trips (Ascended Heroes)');
 
+const { encodeTrade, decodeTrade, encodeProposal, decodeProposal, readTradeText, cleanName, inflate } = await import('../js/trade-code.js');
+const { balance, standing, spareOf, buildLists, bump, emptyDraft } = await import('../js/trade-data.js');
+const tradeSets = ['pokemon/151', 'pokemon/mega-evolution', 'pokemon/30th-celebration'].map((id, i) => {
+  const model = models.get(id);
+  const counts = {};
+  for (const card of model?.cards || []) {
+    const r = random();
+    if (r < 0.35) counts[card.id] = r < 0.06 ? 2 + Math.floor(random() * 120) : 1;
+  }
+  return { model, counts, tier: ['standard', 'master', 'grand'][i] };
+}).filter((s) => s.model);
+const capped = (counts) => Object.fromEntries(Object.entries(counts).map(([k, n]) => [k, Math.min(99, n)]));
+const created = Date.UTC(2026, 9, 9, 12, 30);
+let plainTrade = '';
+for (const compress of [true, false]) {
+  const code = await encodeTrade({ name: '  Zoë \n Smith ', created, sets: tradeSets }, { compress });
+  if (!compress) plainTrade = code;
+  const back = await decodeTrade(code);
+  check(back?.kind === 'trade' && back.name === 'Zoë Smith' && back.created === created && back.sets.length === tradeSets.length
+    && back.sets.every((s, i) => s.tier === tradeSets[i].tier && s.decoded.key === tradeSets[i].model.syncKey && s.decoded.n === tradeSets[i].model.maxIdx + 1
+      && sameCounts(resolveCode(s.decoded, tradeSets[i].model), capped(tradeSets[i].counts))), `trade code round trip (${compress ? 'compressed' : 'uncompressed'})`);
+  check((await readTradeText(`Here you go https://example.com/trade/#t=${code}`))?.sets?.length === tradeSets.length, `a pasted trade link is read (${compress ? 'compressed' : 'uncompressed'})`);
+}
+check((await readTradeText(plainTrade))?.kind === 'trade', 'a bare trade code is read');
+check(await decodeTrade(plainTrade.slice(0, Math.floor(plainTrade.length / 2))) === null, 'a cut-off trade code is rejected');
+check(await decodeProposal(plainTrade) === null, 'a trade code isn’t read as a proposed trade');
+check(await readTradeText('hello there, no code here') === null, 'text without a trade code is rejected');
+const fromSync = await readTradeText(`https://example.com/#sync=${V1}`);
+check(fromSync?.kind === 'trade' && fromSync.source === 'sync' && fromSync.sets[0].decoded.collection === 'pokemon/30th-celebration', 'a set share link is read as a one-set trade code');
+check(cleanName(`a\u0000b ${'x'.repeat(40)}`) === `ab ${'x'.repeat(21)}`, 'trade names lose control characters and are capped at 24 characters');
+const bomb = new Uint8Array(await new Response(new Blob([new Uint8Array(2 * 1024 * 1024)]).stream().pipeThrough(new CompressionStream('deflate-raw'))).arrayBuffer());
+check(await inflate(bomb).then(() => false, () => true), 'a code that inflates past the limit is rejected');
+
+if (tradeSets.length >= 2) {
+  const [a, b] = tradeSets.map((s) => s.model);
+  const proposal = {
+    id: 'a1b2c3d4', name: 'Sam', created,
+    sets: [
+      { key: a.syncKey, give: [[a.cards[0].idx, 1], [a.cards[5].idx, 3]], get: [] },
+      { key: b.syncKey, give: [], get: [[b.cards[2].idx, 2]] },
+    ],
+  };
+  const code = await encodeProposal(proposal);
+  const back = await decodeProposal(code);
+  check(back?.kind === 'proposal' && back.id === proposal.id && back.name === 'Sam' && back.created === created && JSON.stringify(back.sets) === JSON.stringify(proposal.sets), 'proposed trade round trip');
+  check((await readTradeText(`#p=${code}`))?.kind === 'proposal' && await decodeTrade(code) === null, 'a proposed trade link is read, and isn’t a trade code');
+}
+
+check(balance(0.99, 0).dir === 'even' && balance(100, 104.99).dir === 'even' && balance(100, 106).dir === 'up' && balance(106, 100).dir === 'down' && balance(0, 0).dir === 'none', 'trade fairness: even within 5% or 1 unit');
+check(balance(10, 30).lean === 2 / 3 && balance(30, 10).lean === -2 / 3, 'the fairness meter leans toward whoever is ahead');
+check(spareOf(3, false) === 2 && spareOf(1, false) === 0 && spareOf(1, true) === 1 && spareOf(0, true) === 0, 'spares are copies beyond the first, or every copy with single copies on');
+if (meg) {
+  const main = meg.cardsBySection.get('main');
+  const reverse = meg.cards.find((c) => c.variant);
+  const me = { sets: { [meg.id]: { tier: 'standard', n: null, q: { [main[0].id]: 3, [main[1].id]: 1 } } } };
+  const friend = { sets: { [meg.id]: { tier: 'master', n: null, q: { [main[2].id]: 2, [main[3].id]: 1 } } } };
+  check(standing(me, meg.id, main[2], meg).need && !standing(me, meg.id, reverse, meg).need && standing(friend, meg.id, reverse, meg).need, 'needs follow each person’s tier');
+  check(!standing(me, 'pokemon/151', main[2], meg).started && !standing(me, 'pokemon/151', main[2], meg).need, 'cards in sets you haven’t started aren’t needed');
+  const older = { sets: { [meg.id]: { tier: 'grand', n: main[4].idx, q: {} } } };
+  check(standing(older, meg.id, main[0], meg).need && standing(older, meg.id, main[4], meg).unknown && !standing(older, meg.id, main[4], meg).need, 'cards newer than a friend’s code aren’t counted as needed');
+  const sets = new Map([[meg.id, { id: meg.id, model: meg }]]);
+  const ids = (list) => list.map((i) => i.card.id).sort().join();
+  const plain = buildLists({ me, friend, sets, singles: { mine: false, theirs: false } });
+  check(ids(plain.mySpares) === main[0].id && plain.mySpares[0].avail === 2 && ids(plain.theirSpares) === main[2].id, 'spare lists');
+  check(ids(plain.theyHave) === main[2].id && ids(plain.youHave) === main[0].id, 'they have what you need, and you have what they need');
+  const singles = buildLists({ me, friend, sets, singles: { mine: true, theirs: true } });
+  check(ids(singles.youHave) === [main[0].id, main[1].id].sort().join() && ids(singles.theyHave) === [main[2].id, main[3].id].sort().join(), 'single copies are offered when turned on');
+  check(plain.myNeeds.length === main.length - 2 && plain.myNeeds.every((i) => !i.card.variant), 'your needs are the missing cards in your tier');
+  const draft = emptyDraft();
+  bump(draft, 'give', meg.id, main[0].id, 1);
+  bump(draft, 'give', meg.id, main[0].id, 2);
+  bump(draft, 'get', meg.id, main[2].id, 1);
+  const peak = draft.give[0].qty;
+  bump(draft, 'give', meg.id, main[0].id, -3);
+  check(peak === 3 && !draft.give.length && draft.get[0].qty === 1 && bump(draft, 'get', meg.id, main[2].id, 500) === 99, 'trade lines add up, drop at zero and stop at 99');
+}
+
 console.log(failures ? `\n${failures} of ${checks} checks failed` : `All ${checks} checks passed (${models.size} collections)`);
 process.exitCode = failures ? 1 : 0;

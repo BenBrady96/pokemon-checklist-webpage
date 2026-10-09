@@ -4,13 +4,13 @@ const V1 = 1;
 const V2 = 2;
 const V1_COLLECTION = 'pokemon/30th-celebration';
 
-function toBase64Url(bytes) {
+export function toBase64Url(bytes) {
   let bin = '';
   for (const b of bytes) bin += String.fromCharCode(b);
   return btoa(bin).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
 }
 
-function fromBase64Url(text) {
+export function fromBase64Url(text) {
   try {
     const bin = atob(text.replace(/-/g, '+').replace(/_/g, '/') + '==='.slice((text.length + 3) % 4));
     return Uint8Array.from(bin, (c) => c.charCodeAt(0));
@@ -19,7 +19,7 @@ function fromBase64Url(text) {
   }
 }
 
-function pushVarint(out, n) {
+export function pushVarint(out, n) {
   while (n > 127) {
     out.push((n & 127) | 128);
     n >>>= 7;
@@ -27,7 +27,7 @@ function pushVarint(out, n) {
   out.push(n);
 }
 
-function readVarint(bytes, pos) {
+export function readVarint(bytes, pos) {
   let value = 0;
   for (let shift = 0; shift < 28; shift += 7) {
     if (pos >= bytes.length) return null;
@@ -38,7 +38,7 @@ function readVarint(bytes, pos) {
   return null;
 }
 
-export function encodeCollection(model, counts) {
+export function collectionBytes(model, counts) {
   const n = model.maxIdx + 1;
   const bits = new Uint8Array(Math.ceil(n / 8));
   const extras = [];
@@ -56,11 +56,12 @@ export function encodeCollection(model, counts) {
   bytes.set(head);
   bytes.set(bits, head.length);
   bytes.set(extras, head.length + bits.length);
-  return toBase64Url(bytes);
+  return bytes;
 }
 
-export function decodeCode(code) {
-  const bytes = fromBase64Url(code);
+export const encodeCollection = (model, counts) => toBase64Url(collectionBytes(model, counts));
+
+export function decodeBytes(bytes) {
   if (!bytes || bytes.length < 2) return null;
   const owned = [];
   const extra = new Map();
@@ -92,8 +93,10 @@ export function decodeCode(code) {
     extra.set(entry[0], bytes[entry[1]]);
     pos = entry[1] + 1;
   }
-  return { key, owned, extra };
+  return { key, n, owned, extra };
 }
+
+export const decodeCode = (code) => decodeBytes(fromBase64Url(code));
 
 export function resolveCode(decoded, model) {
   const byIdx = new Map(model.cards.map((c) => [c.idx, c]));

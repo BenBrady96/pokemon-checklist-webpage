@@ -7,6 +7,10 @@ import { loadMatcher, match, search } from './scan-match.js';
 
 const CARD_ASPECT = 63 / 88;
 const REGULAR = 'Regular';
+const SIDES = [
+  { side: 'give', label: 'I give', doing: 'Giving', iconId: 'i-upload' },
+  { side: 'get', label: 'I get', doing: 'Getting', iconId: 'i-download' },
+];
 const COMPANION = /-(trainer-gallery|galarian-gallery|shiny-vault|radiant-collection|classic-collection)$/;
 
 const dlg = document.getElementById('dlg-scan');
@@ -22,6 +26,7 @@ const tallyBtn = $('tally');
 const flashBox = $('flash');
 const live = $('live');
 const scopeBox = $('scope');
+const heading = dlg.querySelector('.scanner__title');
 const plural = (n, one, many) => `${n} ${n === 1 ? one : many}`;
 
 let options = {};
@@ -329,7 +334,9 @@ async function renderPanel() {
       el('p', { class: 'scan-detail__owned', 'data-scan': 'owned' }),
       el('p', { class: 'scan-detail__price', 'data-scan': 'price', hidden: true })));
 
-  const add = el('button', { type: 'button', class: 'btn btn--primary', disabled: true, onclick: () => addSelected(add) }, icon('i-plus'), 'Add to collection');
+  const trade = options.trade;
+  const add = trade ? null : el('button', { type: 'button', class: 'btn btn--primary', disabled: true, onclick: () => addSelected(add) }, icon('i-plus'), 'Add to collection');
+  const sides = trade ? SIDES.map(({ side, label, iconId }) => el('button', { type: 'button', class: 'btn btn--ghost', 'data-side': side, disabled: true, onclick: () => pickSelected(side) }, icon(iconId), label)) : [];
   const wider = state.widen ? el('button', {
     type: 'button',
     class: 'btn btn--ghost',
@@ -348,7 +355,8 @@ async function renderPanel() {
       el('button', { type: 'button', class: 'btn btn--ghost', onclick: () => openSearch() }, icon('i-search'), 'Search'),
       wider,
       el('button', { type: 'button', class: 'btn btn--ghost', onclick: resume }, 'Scan again'),
-      add)));
+      add,
+      trade ? el('div', { class: 'scan-trade' }, ...sides) : null)));
   speak(`${state.title}. ${candidate.name}, ${setInfo(candidate.set).name}, ${candidate.printed}`);
 
   let found;
@@ -373,7 +381,14 @@ async function renderPanel() {
     const card = found.model.cardById.get(state.variant);
     const n = counts[card.id] || 0;
     const which = found.cards.length > 1 ? `the ${labelOf(card)} version` : 'this card';
-    owned.textContent = n ? `You have ${plural(n, 'copy', 'copies')} of ${which}.` : `You don’t have ${which} yet.`;
+    if (trade) {
+      const ctx = { set: candidate.set, card, model: found.model };
+      owned.replaceChildren(...trade.status(ctx).map((line) => el('span', { class: 'scan-status', text: line })));
+      const suggest = trade.suggest(ctx);
+      for (const b of sides) b.className = `btn ${b.dataset.side === suggest ? 'btn--primary' : 'btn--ghost'}`;
+    } else {
+      owned.textContent = n ? `You have ${plural(n, 'copy', 'copies')} of ${which}.` : `You don’t have ${which} yet.`;
+    }
     const line = priceLine(prices, card.id);
     price.replaceChildren(...line);
     price.hidden = !line.length;
@@ -391,7 +406,7 @@ async function renderPanel() {
     }, labelOf(card), counts[card.id] ? el('span', { class: 'scan-count', text: `×${counts[card.id]}` }) : null)))
     : el('span', { class: 'hint hint--small', text: labelOf(found.cards[0]) === REGULAR ? '' : labelOf(found.cards[0]) }));
   paint();
-  add.disabled = false;
+  for (const b of [add, ...sides]) if (b) b.disabled = false;
   state.found = found;
 }
 
@@ -420,6 +435,12 @@ async function writeOne(set, cardId, delta) {
 }
 
 function updateTally() {
+  if (options.trade) {
+    const text = options.trade.tally();
+    tallyBtn.hidden = !text;
+    tallyBtn.textContent = text || '';
+    return;
+  }
   const live = session.filter((s) => !s.undone);
   const fresh = live.filter((s) => s.from === 0).length;
   const dupes = live.length - fresh;
@@ -477,6 +498,27 @@ async function addSelected(button) {
   resume();
 }
 
+function pickSelected(side) {
+  const state = view;
+  const card = state.found.model.cardById.get(state.variant);
+  const candidate = state.list[state.selected];
+  const ctx = { set: candidate.set, card, model: state.found.model, side };
+  const qty = options.trade.add(ctx);
+  const { doing, iconId } = SIDES.find((s) => s.side === side);
+  lastVariant = card.variant || REGULAR;
+  const what = `${card.name}${card.variant ? ` (${card.variant})` : ''}`;
+  updateTally();
+  vibrate(12);
+  flash(`${doing} ${what}${qty > 1 ? ` ×${qty}` : ''}`, {
+    iconId,
+    undo() {
+      options.trade.remove(ctx);
+      updateTally();
+    },
+  });
+  resume();
+}
+
 function openSearch(initial = '') {
   const input = el('input', { type: 'search', class: 'input', placeholder: 'Card name or number, e.g. Pikachu or 025/165', autocomplete: 'off', enterkeyhint: 'search' });
   const results = el('div', { class: 'scan-search__results', role: 'list' });
@@ -515,7 +557,38 @@ function openSearch(initial = '') {
   input.focus();
 }
 
+function renderTradeSession() {
+  view = { session: true };
+  setPanel(true);
+  say('');
+  const groups = options.trade.items();
+  panel.replaceChildren(el('div', { class: 'scan-panel' },
+    el('header', { class: 'scan-panel__head' },
+      el('h3', { class: 'scan-panel__title', text: 'This trade' }),
+      el('p', { class: 'hint hint--small', text: options.trade.summary() })),
+    ...groups.map((group) => el('section', { class: 'scan-trade-group' },
+      el('h4', { class: 'scan-trade-group__title', text: `${group.title} · ${group.total}` }),
+      group.lines.length
+        ? el('div', { class: 'scan-session', role: 'list' }, ...group.lines.map((line) => el('div', { class: 'scan-session__row', role: 'listitem' },
+          el('span', {}, el('b', { text: `${line.name}${line.qty > 1 ? ` ×${line.qty}` : ''}` }), el('small', { text: line.sub })),
+          el('button', {
+            type: 'button',
+            class: 'btn btn--ghost btn--sm',
+            onclick() {
+              line.remove();
+              updateTally();
+              renderTradeSession();
+            },
+          }, 'Remove one'))))
+        : el('p', { class: 'hint hint--small', text: 'Nothing yet.' }))),
+    el('div', { class: 'scan-panel__foot' }, el('button', { type: 'button', class: 'btn btn--primary', onclick: resume }, 'Back to camera'))));
+}
+
 function renderSession() {
+  if (options.trade) {
+    renderTradeSession();
+    return;
+  }
   view = { session: true };
   setPanel(true);
   say('');
@@ -554,6 +627,7 @@ let wired = false;
 
 export function openScanner(opts = {}) {
   options = opts;
+  heading.textContent = opts.title || 'Scan a card';
   if (!wired) {
     wire();
     wired = true;

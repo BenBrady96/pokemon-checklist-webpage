@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'wasm-unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https://assets.tcgdex.net; media-src 'self' blob:; connect-src 'self' https://assets.tcgdex.net; worker-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self';">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Trade · Binder Tracker</title>
+  <meta name="description" content="Compare Pokémon TCG collections with a friend, see what each of you needs and check a trade is fair with TCGplayer market prices. Saved on your device.">
+  <meta name="robots" content="noindex">
+  <link rel="canonical" href="https://benbrady96.github.io/pokemon-checklist-webpage/trade/">
+  <meta name="theme-color" content="#F7F7F8" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0B0B0D" media="(prefers-color-scheme: dark)">
+  <meta name="color-scheme" content="light dark">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="img/icons/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="img/icons/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="img/icons/apple-touch-icon.png">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Binder Tracker">
+  <link rel="preload" href="fonts/outfit-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/theme-init.js"></script>
+  <script type="module" src="js/trade.js"></script>
+  <noscript><style>.page-loader { display: none; }</style></noscript>
+</head>
+<body class="trade-page">
+<div class="page-loader" id="page-loader" role="status">
+  <svg class="page-loader__cog" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" fill-rule="evenodd" d="M10.27 4.09L10.68 1.08A11 11 0 0 1 13.32 1.08L13.73 4.09A8.1 8.1 0 0 1 16.37 5.18L18.79 3.35A11 11 0 0 1 20.65 5.21L18.82 7.63A8.1 8.1 0 0 1 19.91 10.27L22.92 10.68A11 11 0 0 1 22.92 13.32L19.91 13.73A8.1 8.1 0 0 1 18.82 16.37L20.65 18.79A11 11 0 0 1 18.79 20.65L16.37 18.82A8.1 8.1 0 0 1 13.73 19.91L13.32 22.92A11 11 0 0 1 10.68 22.92L10.27 19.91A8.1 8.1 0 0 1 7.63 18.82L5.21 20.65A11 11 0 0 1 3.35 18.79L5.18 16.37A8.1 8.1 0 0 1 4.09 13.73L1.08 13.32A11 11 0 0 1 1.08 10.68L4.09 10.27A8.1 8.1 0 0 1 5.18 7.63L3.35 5.21A11 11 0 0 1 5.21 3.35L7.63 5.18A8.1 8.1 0 0 1 10.27 4.09ZM15.4 12a3.4 3.4 0 1 0 -6.8 0a3.4 3.4 0 1 0 6.8 0Z"/></svg>
+  <p class="page-loader__text">Loading your trades…</p>
+</div>
+<svg class="sprite" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g-theme" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" style="stop-color:var(--theme-pale)"/><stop offset=".45" style="stop-color:var(--theme)"/><stop offset="1" style="stop-color:var(--theme-deep)"/>
+    </linearGradient>
+
+    <symbol id="logo-mark" viewBox="0 0 512 512">
+      <rect x="120" y="94" width="290" height="324" rx="40" fill="none" stroke="url(#g-theme)" stroke-width="22"/>
+      <path d="M92 172h56M92 256h56M92 340h56" stroke="url(#g-theme)" stroke-width="22" stroke-linecap="round"/>
+      <g fill="url(#g-theme)"><rect x="176" y="138" width="60" height="76" rx="10"/><rect x="250" y="138" width="60" height="76" rx="10"/><rect x="324" y="138" width="60" height="76" rx="10"/><rect x="176" y="226" width="60" height="76" rx="10"/><rect x="250" y="226" width="60" height="76" rx="10"/><rect x="176" y="314" width="60" height="76" rx="10"/></g>
+      <g fill="none" stroke="url(#g-theme)" stroke-width="8" opacity=".55"><rect x="328" y="230" width="52" height="68" rx="8"/><rect x="254" y="318" width="52" height="68" rx="8"/><rect x="328" y="318" width="52" height="68" rx="8"/></g>
+      <path d="M414 60 l10 26 26 10 -26 10 -10 26 -10 -26 -26 -10 26 -10z" style="fill:var(--theme-pale)"/>
+    </symbol>
+    <symbol id="i-home" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 10.5L12 4l8 6.5"/><path d="M6 9v10.5h4.5V14h3v5.5H18V9"/></g></symbol>
+    <symbol id="i-swap" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 8h15M15 4l4 4-4 4"/><path d="M20 16H5M9 12l-4 4 4 4"/></g></symbol>
+    <symbol id="i-caret" viewBox="0 0 24 24"><path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-arrow-left" viewBox="0 0 24 24"><path d="M19 12H5.5M11 6l-6 6 6 6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-sun" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M5.3 18.7l1.4-1.4M17.3 6.7l1.4-1.4"/></g></symbol>
+    <symbol id="i-moon" viewBox="0 0 24 24"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
+    <symbol id="i-monitor" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4.5" width="18" height="12" rx="2"/><path d="M9 20h6M12 16.5V20"/></g></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M20 20l-4.4-4.4"/></g></symbol>
+    <symbol id="i-share" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="17.5" cy="5.5" r="2.5"/><circle cx="6.5" cy="12" r="2.5"/><circle cx="17.5" cy="18.5" r="2.5"/><path d="M8.7 10.7l6.6-3.9M8.7 13.3l6.6 3.9"/></g></symbol>
+    <symbol id="i-copy" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><rect x="8.5" y="8.5" width="11" height="11" rx="2.2"/><path d="M15.5 8.5V6.7a2.2 2.2 0 0 0-2.2-2.2H6.7a2.2 2.2 0 0 0-2.2 2.2v6.6a2.2 2.2 0 0 0 2.2 2.2h1.8"/></g></symbol>
+    <symbol id="i-download" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v11M7.5 10.5L12 15l4.5-4.5M5 19.5h14"/></g></symbol>
+    <symbol id="i-upload" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 15.5v-11M7.5 9L12 4.5 16.5 9M5 19.5h14"/></g></symbol>
+    <symbol id="i-undo" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 7L4.5 11.5 9 16"/><path d="M5 11.5h9.5a5 5 0 0 1 0 10H12"/></g></symbol>
+    <symbol id="i-sparkle" viewBox="0 0 24 24"><path d="M12 3l1.9 5.6L19.5 10l-5.6 1.9L12 17.5l-1.9-5.6L4.5 10l5.6-1.4z" fill="currentColor"/></symbol>
+    <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></symbol>
+    <symbol id="i-minus" viewBox="0 0 24 24"><path d="M5 12h14" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></symbol>
+    <symbol id="i-stack" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><rect x="8" y="3.5" width="11" height="15" rx="2"/><path d="M5 7v11.5a2 2 0 0 0 2 2h8.5"/></g></symbol>
+    <symbol id="i-image" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"><rect x="3.5" y="4.5" width="17" height="15" rx="2.5"/><circle cx="9" cy="10" r="1.7"/><path d="M20.5 16l-5-5L7 19.5"/></g></symbol>
+    <symbol id="i-camera" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M3.5 8.5a2 2 0 0 1 2-2h2.2l1.6-2.2h5.4l1.6 2.2h2.2a2 2 0 0 1 2 2V17.5a2 2 0 0 1-2 2h-13a2 2 0 0 1-2-2z"/><circle cx="12" cy="12.8" r="3.6"/></g></symbol>
+    <symbol id="i-trash" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 7h15M9.5 7V4.8h5V7M6.5 7l.9 12.2a1.5 1.5 0 0 0 1.5 1.3h6.2a1.5 1.5 0 0 0 1.5-1.3L17.5 7"/></g></symbol>
+    <symbol id="i-link" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l2.8-2.8a4.5 4.5 0 0 0-6.4-6.4L11.5 6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-2.8 2.8a4.5 4.5 0 0 0 6.4 6.4l1.3-1.2"/></g></symbol>
+    <symbol id="i-qr" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><rect x="4" y="4" width="6" height="6" rx="1"/><rect x="14" y="4" width="6" height="6" rx="1"/><rect x="4" y="14" width="6" height="6" rx="1"/></g><g fill="currentColor"><rect x="13.5" y="13.5" width="3" height="3" rx=".6"/><rect x="17.5" y="17.5" width="3" height="3" rx=".6"/><rect x="17.5" y="13.5" width="3" height="3" rx=".6"/><rect x="13.5" y="17.5" width="3" height="3" rx=".6"/></g></symbol>
+  </defs>
+</svg>
+
+<a class="skip-link" href="#trade">Skip to your trade</a>
+
+<header class="appbar">
+  <div class="wrap appbar__inner">
+    <a class="brand" href="./">
+      <svg class="brand__mark" aria-hidden="true"><use href="#logo-mark"/></svg>
+      <span class="brand__title">Binder Tracker</span>
+    </a>
+    <nav class="site-nav" aria-label="Main">
+      <a href="./" title="Home"><svg aria-hidden="true"><use href="#i-home"/></svg><span class="site-nav__label">Home</span></a>
+      <a href="trade/" aria-current="page"><svg aria-hidden="true"><use href="#i-swap"/></svg><span class="site-nav__label">Trade</span></a>
+    </nav>
+    <div class="appbar__actions">
+      <span class="appbar__tools desktop-only">
+        <button class="icon-btn icon-btn--header" type="button" data-tr-action="scan" title="Scan cards into this trade" aria-label="Scan cards into this trade"><svg><use href="#i-camera"/></svg></button>
+      </span>
+      <button class="icon-btn icon-btn--header" type="button" popovertarget="pop-theme" title="Theme" aria-label="Theme"><svg data-theme-icon><use href="#i-monitor"/></svg></button>
+      <button class="hdr-btn" type="button" popovertarget="pop-currency" title="Currency" aria-label="Currency"><span data-currency-label>£ GBP</span><svg class="hdr-btn__caret" aria-hidden="true"><use href="#i-caret"/></svg></button>
+      <a class="pf-pill" href="./" data-back><svg aria-hidden="true"><use href="#i-arrow-left"/></svg><span>Back</span></a>
+    </div>
+  </div>
+</header>
+
+<div class="pop" id="pop-theme" popover>
+  <p class="pop__label">Theme</p>
+  <button type="button" class="pop__item" data-theme-choice="system"><svg><use href="#i-monitor"/></svg>Auto</button>
+  <button type="button" class="pop__item" data-theme-choice="light"><svg><use href="#i-sun"/></svg>Light</button>
+  <button type="button" class="pop__item" data-theme-choice="dark"><svg><use href="#i-moon"/></svg>Dark</button>
+</div>
+<div class="pop" id="pop-currency" popover>
+  <p class="pop__label">Currency</p>
+  <button type="button" class="pop__item" data-currency-choice="gbp">£ Pounds</button>
+  <button type="button" class="pop__item" data-currency-choice="usd">$ Dollars</button>
+  <button type="button" class="pop__item" data-currency-choice="eur">€ Euros</button>
+</div>
+
+<div class="banner" id="storage-banner" hidden role="status">
+  <div class="wrap">Your browser is blocking storage, so trades can’t be saved or completed.</div>
+</div>
+
+<main id="trade" class="trade wrap" tabindex="-1">
+  <section class="tr-hero" aria-labelledby="tr-title">
+    <h1 class="tr-hero__title" id="tr-title">Trade</h1>
+    <p class="tr-hero__text">Compare collections with a friend and check a trade is fair.</p>
+  </section>
+
+  <div class="tr-layout">
+    <div class="tr-aside">
+      <section class="tr-friend" data-tr="friend" aria-label="Who you’re trading with"></section>
+
+      <section class="tr-summary" data-tr="summary" aria-labelledby="tr-summary-title">
+        <h2 class="tr-section__title" id="tr-summary-title">Is it fair?</h2>
+        <p class="tr-proposal" data-tr="proposal" hidden></p>
+        <div class="compare tr-totals" data-tr="totals"></div>
+        <div class="tr-meter" data-tr="meter" role="img">
+          <span class="tr-meter__track"><i class="tr-meter__band" data-tr="meter-band"></i><i class="tr-meter__fill" data-tr="meter-fill"></i><i class="tr-meter__knob" data-tr="meter-knob"></i></span>
+          <span class="tr-meter__labels" aria-hidden="true"><span data-tr="meter-them">They’re ahead</span><span>Fair</span><span>You’re ahead</span></span>
+        </div>
+        <p class="tr-verdict" data-tr="verdict" aria-live="polite"></p>
+        <p class="tr-summary__note" data-tr="summary-note" hidden></p>
+        <div class="tr-actions">
+          <button type="button" class="btn btn--primary" data-tr-action="complete"><svg><use href="#i-check"/></svg>Complete trade</button>
+          <button type="button" class="btn btn--ghost" data-tr-action="send"><svg><use href="#i-share"/></svg><span data-tr="send-label">Send trade</span></button>
+          <button type="button" class="btn btn--ghost" data-tr-action="clear"><svg><use href="#i-trash"/></svg>Clear</button>
+        </div>
+      </section>
+    </div>
+
+    <div class="tr-main">
+      <div class="tr-sides">
+        <section class="tr-side tr-side--give" aria-labelledby="tr-give-title">
+          <header class="tr-side__head">
+            <h2 class="tr-section__title" id="tr-give-title"><svg aria-hidden="true"><use href="#i-upload"/></svg>You give</h2>
+            <b class="tr-side__total" data-tr="give-total"></b>
+          </header>
+          <ul class="pf-list tr-lines" data-tr="give"></ul>
+        </section>
+        <section class="tr-side tr-side--get" aria-labelledby="tr-get-title">
+          <header class="tr-side__head">
+            <h2 class="tr-section__title" id="tr-get-title"><svg aria-hidden="true"><use href="#i-download"/></svg>You get</h2>
+            <b class="tr-side__total" data-tr="get-total"></b>
+          </header>
+          <ul class="pf-list tr-lines" data-tr="get"></ul>
+        </section>
+      </div>
+
+      <section class="tr-browse" aria-labelledby="tr-browse-title">
+        <div class="tr-browse__head">
+          <h2 class="tr-section__title" id="tr-browse-title">Find cards</h2>
+          <button type="button" class="btn btn--ghost btn--sm" data-tr-action="scan"><svg><use href="#i-camera"/></svg>Scan</button>
+        </div>
+        <div class="seg tr-tabs" role="group" aria-label="Which cards" data-tr="tabs"></div>
+        <div class="tr-tools">
+          <label class="search tr-search">
+            <svg class="search__icon" aria-hidden="true"><use href="#i-search"/></svg>
+            <input type="search" class="search__input" data-tr="search" placeholder="Filter by name, number or set" aria-label="Filter cards" autocomplete="off" enterkeyhint="search">
+          </label>
+          <div class="seg tr-sort" role="group" aria-label="Sort" data-tr="sort">
+            <button type="button" class="seg__btn" data-sort="value">By value</button>
+            <button type="button" class="seg__btn" data-sort="set">By set</button>
+          </div>
+        </div>
+        <div class="switch-row tr-singles" data-tr="singles-row">
+          <span><b id="tr-singles-label" data-tr="singles-label">Include single copies</b><small data-tr="singles-hint">Offer cards you only have one of</small></span>
+          <button type="button" class="switch" role="switch" aria-checked="false" data-tr="singles" aria-labelledby="tr-singles-label"></button>
+        </div>
+        <p class="tr-browse__hint" data-tr="browse-hint"></p>
+        <ul class="pf-list tr-picks" data-tr="browse"></ul>
+        <button type="button" class="btn btn--ghost btn--block tr-more" data-tr="more" hidden>Show more</button>
+      </section>
+
+      <details class="pf-table tr-history" data-tr="history-box" hidden>
+        <summary data-tr="history-title">Past trades</summary>
+        <ul class="pf-list" data-tr="history"></ul>
+      </details>
+
+      <p class="pf-note" data-tr="note"></p>
+    </div>
+  </div>
+</main>
+
+<div class="tr-dock mobile-only" data-tr="dock">
+  <i class="tr-dock__meter" aria-hidden="true"><i data-tr="dock-meter"></i></i>
+  <button type="button" class="tr-dock__summary" data-tr-action="to-summary">
+    <b class="tr-dock__verdict" data-tr="dock-verdict"></b>
+    <small class="tr-dock__totals" data-tr="dock-totals"></small>
+  </button>
+  <button type="button" class="tr-dock__scan" data-tr-action="scan" aria-label="Scan cards into this trade"><span class="bottombar__scan-ring"><svg><use href="#i-camera"/></svg></span></button>
+</div>
+
+<footer class="site-footer wrap">
+  <nav class="footer-links" aria-label="Site">
+    <a href="privacy.html">Privacy &amp; cookies</a>
+    <a href="terms.html">Terms of use</a>
+    <a href="https://github.com/BenBrady96/pokemon-checklist-webpage" rel="noopener">Source on GitHub</a>
+  </nav>
+  <p>Trades and trade codes stay in this browser until you share a link. Prices are TCGplayer market prices, so agree the final values with the person you’re trading with.</p>
+</footer>
+
+<dialog class="sheet" id="dlg-trade-share" aria-labelledby="trade-share-title">
+  <div class="sheet__inner">
+    <header class="sheet__head">
+      <h2 class="sheet__title" id="trade-share-title">Your trade code</h2>
+      <button type="button" class="icon-btn" data-close aria-label="Close"><svg><use href="#i-close"/></svg></button>
+    </header>
+    <div class="sheet__body share">
+      <p class="hint">Your friend scans this with their phone camera. Their Trade page then shows what you have that they need, and what they have that you need.</p>
+      <label class="field tr-name">
+        <span class="field__label">Your name (optional)</span>
+        <input class="input" data-share="name" maxlength="24" autocomplete="nickname" placeholder="So your friend knows whose cards these are">
+      </label>
+      <div class="share__qr tr-qr" data-share="qr" role="img" aria-label="QR code of your trade link"></div>
+      <p class="hint hint--small tr-qr__note" data-share="qr-note" hidden></p>
+      <details class="tr-sets" data-share="sets-box" hidden>
+        <summary data-share="sets-title"></summary>
+        <div class="chips" data-share="sets"></div>
+      </details>
+      <div class="share__link">
+        <input class="input" data-share="url" readonly aria-label="Trade link">
+        <button type="button" class="btn btn--primary" data-share-action="copy"><svg><use href="#i-copy"/></svg>Copy</button>
+      </div>
+      <button type="button" class="btn btn--ghost btn--block" data-share-action="share" hidden><svg><use href="#i-share"/></svg>Share…</button>
+      <p class="hint hint--small">The code is a snapshot of your collection. Show a new one after you change it.</p>
+      <p class="hint hint--small">Does your friend use the Home Screen app on iPhone or iPad? Links open in Safari, not the app, so send them the link to paste into <b>Add a friend’s code</b> instead.</p>
+    </div>
+  </div>
+</dialog>
+
+<dialog class="sheet" id="dlg-trade-add" aria-labelledby="trade-add-title">
+  <div class="sheet__inner">
+    <header class="sheet__head">
+      <h2 class="sheet__title" id="trade-add-title">Compare with a friend</h2>
+      <button type="button" class="icon-btn" data-close aria-label="Close"><svg><use href="#i-close"/></svg></button>
+    </header>
+    <div class="sheet__body backup">
+      <p class="hint">Paste your friend’s trade link or code. They get one by opening <b>Trade</b> and tapping <b>Show my trade code</b>. A proposed trade, or a share link for one set, works too.</p>
+      <textarea class="textarea" data-add="code" rows="3" placeholder="Paste a trade link or code" spellcheck="false" autocomplete="off" autocorrect="off" autocapitalize="off" enterkeyhint="go" aria-label="Trade link or code" aria-describedby="trade-add-status"></textarea>
+      <p class="backup__status" id="trade-add-status" data-add="status" aria-live="polite"></p>
+    </div>
+    <footer class="sheet__foot">
+      <button type="button" class="btn btn--primary" data-add="submit" disabled>Compare</button>
+    </footer>
+  </div>
+</dialog>
+
+<dialog class="sheet" id="dlg-trade-send" aria-labelledby="trade-send-title">
+  <div class="sheet__inner">
+    <header class="sheet__head">
+      <h2 class="sheet__title" id="trade-send-title">Send this trade</h2>
+      <button type="button" class="icon-btn" data-close aria-label="Close"><svg><use href="#i-close"/></svg></button>
+    </header>
+    <div class="sheet__body share">
+      <p class="hint" data-send="hint">Your friend scans this to see the same trade from their side. They can change it and complete it there.</p>
+      <label class="field tr-name">
+        <span class="field__label">Your name (optional)</span>
+        <input class="input" data-send="name" maxlength="24" autocomplete="nickname" placeholder="So your friend knows who it’s from">
+      </label>
+      <div class="share__qr tr-qr" data-send="qr" role="img" aria-label="QR code of this trade"></div>
+      <div class="share__link">
+        <input class="input" data-send="url" readonly aria-label="Trade link">
+        <button type="button" class="btn btn--primary" data-send-action="copy"><svg><use href="#i-copy"/></svg>Copy</button>
+      </div>
+      <button type="button" class="btn btn--ghost btn--block" data-send-action="share" hidden><svg><use href="#i-share"/></svg>Share…</button>
+      <p class="hint hint--small">The link holds the cards in this trade and your name. Prices are worked out on their device.</p>
+    </div>
+  </div>
+</dialog>
+
+<dialog class="sheet sheet--small" id="dlg-confirm" aria-labelledby="confirm-title">
+  <div class="sheet__inner">
+    <header class="sheet__head">
+      <h2 class="sheet__title" id="confirm-title"></h2>
+    </header>
+    <div class="sheet__body"><p class="hint" id="confirm-text"></p></div>
+    <footer class="sheet__foot">
+      <button type="button" class="btn btn--ghost" data-confirm="no">Cancel</button>
+      <button type="button" class="btn btn--primary" data-confirm="yes"></button>
+    </footer>
+  </div>
+</dialog>
+
+<dialog class="scanner" id="dlg-scan" aria-labelledby="scan-title">
+  <div class="scanner__inner">
+    <div class="scanner__bar">
+      <h2 class="scanner__title" id="scan-title">Scan a card</h2>
+      <button type="button" class="scanner__tally" data-scan="tally" hidden></button>
+      <button type="button" class="icon-btn icon-btn--dark" data-close aria-label="Close scanner"><svg><use href="#i-close"/></svg></button>
+    </div>
+    <div class="scanner__stage">
+      <video class="scanner__video" data-scan="video" playsinline muted></video>
+      <div class="scanner__guide" data-scan="guide" aria-hidden="true"></div>
+      <div class="scanner__flash" data-scan="flash" role="status" hidden></div>
+      <p class="scanner__status" data-scan="status" role="status"></p>
+      <div class="scanner__panel" data-scan="panel" hidden></div>
+    </div>
+    <div class="scanner__controls">
+      <div class="scanner__scope" data-scan="scope" hidden></div>
+      <button type="button" class="scanner__side" data-scan="photo"><svg><use href="#i-image"/></svg><span>Photo</span></button>
+      <button type="button" class="scanner__shutter" data-scan="shutter" aria-label="Scan the card in the frame" disabled></button>
+      <button type="button" class="scanner__side" data-scan="search"><svg><use href="#i-search"/></svg><span>Search</span></button>
+    </div>
+    <p class="scanner__note">Recognised on your device. Photos aren’t uploaded or saved.</p>
+    <p class="sr-only" data-scan="live" aria-live="polite"></p>
+  </div>
+  <input type="file" accept="image/*" data-scan="file" hidden>
+</dialog>
+
+<div class="toasts" id="toasts"></div>
+<div class="sr-only" id="announcer" aria-live="polite" aria-atomic="true"></div>
+<noscript><p class="noscript">Binder Tracker needs JavaScript to run. Please enable it and reload the page.</p></noscript>
+</body>
+</html>

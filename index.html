@@ -113,6 +113,7 @@
     <symbol id="i-stack" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><rect x="8" y="3.5" width="11" height="15" rx="2"/><path d="M5 7v11.5a2 2 0 0 0 2 2h8.5"/></g></symbol>
     <symbol id="i-image" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"><rect x="3.5" y="4.5" width="17" height="15" rx="2.5"/><circle cx="9" cy="10" r="1.7"/><path d="M20.5 16l-5-5L7 19.5"/></g></symbol>
     <symbol id="i-chart" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 20h16"/><path d="M7 16.5v-5M12 16.5V6M17 16.5v-8"/></g></symbol>
+    <symbol id="i-swap" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 8h15M15 4l4 4-4 4"/><path d="M20 16H5M9 12l-4 4 4 4"/></g></symbol>
     <symbol id="i-home" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 10.5L12 4l8 6.5"/><path d="M6 9v10.5h4.5V14h3v5.5H18V9"/></g></symbol>
     <symbol id="i-caret" viewBox="0 0 24 24"><path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
     <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
@@ -131,6 +132,7 @@
     </a>
     <nav class="site-nav" aria-label="Main">
       <a href="./" aria-current="page"><svg aria-hidden="true"><use href="#i-home"/></svg><span class="site-nav__label">Home</span></a>
+      <a class="desktop-only" href="trade/" title="Trade"><svg aria-hidden="true"><use href="#i-swap"/></svg><span class="site-nav__label">Trade</span></a>
     </nav>
     <div class="appbar__actions">
       <span class="appbar__tools desktop-only">
@@ -175,6 +177,7 @@
       <input type="search" class="search__input" id="set-search" placeholder="Find a set, e.g. Surging Sparks or SSP" aria-label="Find a set" autocomplete="off" enterkeyhint="search">
     </label>
     <button type="button" class="btn btn--ghost home-scan" data-open="scan"><svg><use href="#i-camera"/></svg>Scan a card to add it</button>
+    <a class="btn btn--ghost home-scan" href="trade/"><svg><use href="#i-swap"/></svg>Trade with a friend</a>
   </section>
 
   <section class="home-continue" id="continue" hidden aria-labelledby="continue-title">
@@ -214,6 +217,7 @@
     <div class="sheet__body menu">
       <div class="menu__group">
         <button type="button" class="menu__item" data-open="scan"><svg><use href="#i-camera"/></svg><span><b>Scan a card</b><small>Point your camera at a card to add it to its set</small></span></button>
+        <a class="menu__item" href="trade/"><svg><use href="#i-swap"/></svg><span><b>Trade with a friend</b><small>Compare collections and check a trade is fair</small></span></a>
       </div>
       <div class="menu__group">
         <h3 class="menu__label">Backup</h3>

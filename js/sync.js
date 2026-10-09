@@ -25,20 +25,29 @@ function loadQrLibrary() {
   return qrLoader;
 }
 
-export async function renderQr(container, text) {
+export async function renderQr(container, text, { level = 'M', maxModules = 177 } = {}) {
+  let qrcode;
   try {
-    const qrcode = await loadQrLibrary();
-    const qr = qrcode(0, 'M');
+    qrcode = await loadQrLibrary();
+  } catch {
+    container.innerHTML = '<p class="hint hint--small">QR code unavailable offline — copy the link instead.</p>';
+    return 'offline';
+  }
+  try {
+    const qr = qrcode(0, level);
     qr.addData(text);
     qr.make();
     const size = qr.getModuleCount();
+    if (size > maxModules) throw new Error('Too big');
     let d = '';
     for (let r = 0; r < size; r++) {
       for (let c = 0; c < size; c++) if (qr.isDark(r, c)) d += `M${c} ${r}h1v1h-1z`;
     }
     container.innerHTML = `<svg viewBox="-2 -2 ${size + 4} ${size + 4}" shape-rendering="crispEdges" aria-hidden="true"><path d="${d}" fill="#0E1433"/></svg>`;
+    return 'ok';
   } catch {
-    container.innerHTML = '<p class="hint hint--small">QR code unavailable offline — copy the link instead.</p>';
+    container.innerHTML = '<p class="hint hint--small">Too much to fit in a QR code — copy the link instead.</p>';
+    return 'big';
   }
 }
 
