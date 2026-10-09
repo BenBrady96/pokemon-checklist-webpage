@@ -3,7 +3,7 @@ import { normalize } from './model.js';
 import * as store from './store.js';
 import * as storage from './storage.js';
 import {
-  refs, buildCards, updateCard, mount, applyVisibility, updateSectionCounts, updateImageSources, rarityIconById,
+  refs, buildCards, updateCard, updatePrices, mount, applyVisibility, updateSectionCounts, updateImageSources, rarityIconById,
 } from './render.js';
 import { initGestures } from './gestures.js';
 import { initViewer } from './viewer.js';
@@ -17,6 +17,8 @@ import { resolveCodes, resolveBackup, allCounts, backupCode, applyEntries, catal
 import { loadCatalog, collectionUrl } from './catalog.js';
 import { celebrate } from './confetti.js';
 import { initPWA, offlineSupported, countSavedImages, saveImagesOffline } from './pwa.js';
+import { mergeBackupHistory } from './history.js';
+import { setCurrency } from './pricing.js';
 import {
   initDialogs, openDialog, closeDialog, openDialogs, toast, announce, confirmAction, copyText, reducedMotion,
 } from './ui.js';
@@ -126,6 +128,7 @@ function queueStaleCheck() {
 
 function applyPrefs() {
   const p = store.getPrefs();
+  setCurrency(p.currency);
   html.dataset.view = p.view;
   html.dataset.size = p.size;
   html.dataset.mode = p.mode;
@@ -168,6 +171,10 @@ store.onPrefChange((key) => {
   applyPrefs();
   if (key === 'tier') changeTier();
   else if (key === 'view' || key === 'sort' || key === 'pockets') remount(true);
+  else if (key === 'currency') {
+    updatePrices();
+    queueStats();
+  }
   else if (key === 'size' || key === 'images') requestAnimationFrame(() => updateImageSources(root, store.getPrefs().images));
   if (key === 'mode') {
     const count = store.getPrefs().mode === 'count';
@@ -726,7 +733,12 @@ function selectSheetTab(name, { focus = false } = {}) {
     tab.tabIndex = on ? 0 : -1;
     if (on && focus) tab.focus();
   }
-  for (const el of dlg.querySelectorAll('[data-tab-panel]')) el.hidden = el.dataset.tabPanel !== name;
+  for (const el of dlg.querySelectorAll('[data-tab-panel]')) {
+    const off = el.dataset.tabPanel !== name;
+    if (el.classList.contains('sheet__body')) el.toggleAttribute('data-inactive', off);
+    else el.hidden = off;
+  }
+  dlg.querySelector('.sheet__panes').scrollTop = 0;
 }
 
 function openNamed(name) {
@@ -803,7 +815,8 @@ function wireControls() {
     e.target.value = '';
     if (!file) return;
     if (store.isPreview()) return blocked();
-    const entries = parseBackup(await file.text());
+    const text = await file.text();
+    const entries = parseBackup(text);
     if (!entries) {
       toast('That file isn’t a checklist backup.');
       return;
@@ -811,9 +824,11 @@ function wireControls() {
     try {
       if (entries.length === 1 && entries[0].id === COLLECTION.id) {
         const counts = Object.fromEntries(Object.entries(entries[0].counts).filter(([id]) => CARD_BY_ID.has(id)));
-        applyIncoming(await askSingle(counts, 'file'), counts);
-      } else {
-        await importMany(await resolveBackup(entries), 'file');
+        const choice = await askSingle(counts, 'file');
+        applyIncoming(choice, counts);
+        if (choice && choice !== 'view') mergeBackupHistory(text);
+      } else if (await importMany(await resolveBackup(entries), 'file')) {
+        mergeBackupHistory(text);
       }
     } catch {
       toast('Couldn’t read that backup. Check your connection and try again.');
@@ -923,6 +938,7 @@ function fillHelp() {
 
 function init() {
   initDialogs();
+  setCurrency(store.getPrefs().currency);
   buildCards();
   buildTierPicker();
   buildFilterChips();

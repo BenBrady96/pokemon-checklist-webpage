@@ -1,7 +1,7 @@
 import { COLLECTION, CARDS, SECTIONS, RARITY_BY_ID, CARD_BY_ID, getTier } from './collection.js';
 import { getQty } from './store.js';
 import { escapeHTML } from './ui.js';
-import { marketUsd, formatGbp } from './pricing.js';
+import { marketUsd, formatPrice } from './pricing.js';
 
 export const refs = new Map();
 
@@ -33,7 +33,7 @@ function cardMarkup(card) {
     + `${card.badge ? `<span class="card__badge">${escapeHTML(card.badge)}</span>` : ''}</span>`
     + `<span class="card__cap"><span class="card__num">${card.num}</span><span class="card__name">${name}</span>`
     + `<span class="card__rarname">${escapeHTML(card.rarityShort)}</span>${rarityIcon(card)}`
-    + `${usd == null ? '' : `<span class="card__price">${formatGbp(usd)}</span>`}</span>`
+    + `${usd == null ? '' : `<span class="card__price">${formatPrice(usd)}</span>`}</span>`
     + '</button>'
     + '<span class="card__ui">'
     + '<span class="card__check" aria-hidden="true"><svg><use href="#i-check"/></svg></span>'
@@ -45,6 +45,13 @@ function cardMarkup(card) {
     + `<button class="card__zoom" type="button" tabindex="-1" aria-label="View ${label}"><svg><use href="#i-expand"/></svg></button>`
     + `<button class="card__info" type="button" tabindex="-1" aria-label="About ${label}"><svg><use href="#i-info"/></svg></button>`
     + '</span></li>';
+}
+
+export function updatePrices() {
+  for (const { card, li } of refs.values()) {
+    const price = li.querySelector('.card__price');
+    if (price) price.textContent = formatPrice(marketUsd(card.id));
+  }
 }
 
 export function buildCards() {

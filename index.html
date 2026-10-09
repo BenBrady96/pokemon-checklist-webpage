@@ -111,6 +111,7 @@
     <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></symbol>
     <symbol id="i-stack" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><rect x="8" y="3.5" width="11" height="15" rx="2"/><path d="M5 7v11.5a2 2 0 0 0 2 2h8.5"/></g></symbol>
     <symbol id="i-image" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"><rect x="3.5" y="4.5" width="17" height="15" rx="2.5"/><circle cx="9" cy="10" r="1.7"/><path d="M20.5 16l-5-5L7 19.5"/></g></symbol>
+    <symbol id="i-chart" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 20h16"/><path d="M7 16.5v-5M12 16.5V6M17 16.5v-8"/></g></symbol>
     <symbol id="i-camera" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M3.5 8.5a2 2 0 0 1 2-2h2.2l1.6-2.2h5.4l1.6 2.2h2.2a2 2 0 0 1 2 2V17.5a2 2 0 0 1-2 2h-13a2 2 0 0 1-2-2z"/><circle cx="12" cy="12.8" r="3.6"/></g></symbol>
   </defs>
 </svg>
@@ -185,6 +186,7 @@
     <div class="sheet__body menu">
       <div class="menu__group">
         <button type="button" class="menu__item" data-open="scan"><svg><use href="#i-camera"/></svg><span><b>Scan a card</b><small>Point your camera at a card to add it to its set</small></span></button>
+        <a class="menu__item" href="portfolio/"><svg><use href="#i-chart"/></svg><span><b>Portfolio</b><small>What your collection is worth, and how it’s changed</small></span></a>
       </div>
       <div class="menu__group">
         <h3 class="menu__label">Backup</h3>
@@ -197,6 +199,14 @@
           <button type="button" class="seg__btn" data-theme-choice="system"><svg><use href="#i-monitor"/></svg>Auto</button>
           <button type="button" class="seg__btn" data-theme-choice="light"><svg><use href="#i-sun"/></svg>Light</button>
           <button type="button" class="seg__btn" data-theme-choice="dark"><svg><use href="#i-moon"/></svg>Dark</button>
+        </div>
+      </div>
+      <div class="menu__group">
+        <h3 class="menu__label">Currency</h3>
+        <div class="seg seg--full" role="group" aria-label="Currency">
+          <button type="button" class="seg__btn" data-currency-choice="gbp">£ Pounds</button>
+          <button type="button" class="seg__btn" data-currency-choice="usd">$ Dollars</button>
+          <button type="button" class="seg__btn" data-currency-choice="eur">€ Euros</button>
         </div>
       </div>
     </div>
@@ -277,6 +287,7 @@
       <div class="scanner__panel" data-scan="panel" hidden></div>
     </div>
     <div class="scanner__controls">
+      <div class="scanner__scope" data-scan="scope" hidden></div>
       <button type="button" class="scanner__side" data-scan="photo"><svg><use href="#i-image"/></svg><span>Photo</span></button>
       <button type="button" class="scanner__shutter" data-scan="shutter" aria-label="Scan the card in the frame" disabled></button>
       <button type="button" class="scanner__side" data-scan="search"><svg><use href="#i-search"/></svg><span>Search</span></button>

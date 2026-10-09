@@ -1,7 +1,7 @@
 import { COLLECTION, GAME, SECTIONS, RARITIES, GROUPS, getTier } from './collection.js';
 import { getQty, getPrefs } from './store.js';
 import { rarityIconById } from './render.js';
-import { marketUsd, formatGbp, formatUsd, pricesUpdated, hasPrices } from './pricing.js';
+import { marketUsd, formatPrice, formatUsd, pricesUpdated, hasPrices, isConverted } from './pricing.js';
 
 const currentTier = () => getTier(getPrefs().tier);
 
@@ -60,12 +60,16 @@ function row(name, { owned, total }, icon = '') {
   </div>`;
 }
 
+const valueTile = (usd, label) => (isConverted()
+  ? `<div class="stat-tile"><b>${formatPrice(usd, { approx: true })}</b><small>${label} · ${formatUsd(usd)}</small></div>`
+  : `<div class="stat-tile"><b>${formatUsd(usd)}</b><small>${label}</small></div>`);
+
 function valueTiles(s) {
   if (!hasPrices()) return '<p class="hint hint--small stat-note">No prices yet for this set.</p>';
   return `
     <div class="stat-tiles stat-tiles--value">
-      <div class="stat-tile"><b>≈ ${formatGbp(s.value)}</b><small>Collection value · ${formatUsd(s.value)}</small></div>
-      <div class="stat-tile"><b>≈ ${formatGbp(s.toComplete)}</b><small>Cost to complete · ${formatUsd(s.toComplete)}</small></div>
+      ${valueTile(s.value, 'Collection value')}
+      ${valueTile(s.toComplete, 'Cost to complete')}
     </div>
     <p class="hint hint--small stat-note">TCGplayer market prices from ${pricesUpdated}, counting every copy you own.${s.unpriced ? ` ${s.unpriced} card${s.unpriced === 1 ? ' has' : 's have'} no price yet and ${s.unpriced === 1 ? 'isn’t' : 'aren’t'} included.` : ''}</p>`;
 }

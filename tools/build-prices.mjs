@@ -5,22 +5,24 @@ import { lastUpdated, loadPrices, loadProducts, productNumber } from './lib/tcgc
 import { download, readJson, writeJson } from './lib/util.mjs';
 
 const FX_SOURCES = [
-  ['https://api.frankfurter.dev/v1/latest?base=USD&symbols=GBP', (d) => d.rates?.GBP],
-  ['https://open.er-api.com/v6/latest/USD', (d) => d.rates?.GBP],
+  'https://api.frankfurter.dev/v1/latest?base=USD&symbols=GBP,EUR',
+  'https://open.er-api.com/v6/latest/USD',
 ];
 const MIN_SHARE = 0.7;
 
-async function exchangeRate() {
-  for (const [url, pick] of FX_SOURCES) {
+async function exchangeRates() {
+  for (const url of FX_SOURCES) {
     try {
-      const rate = pick(await download(url, { type: 'json' }));
-      if (rate > 0) return rate;
+      const { rates } = await download(url, { type: 'json' });
+      if (rates?.GBP > 0 && rates?.EUR > 0) return { gbp: rates.GBP, eur: rates.EUR };
     } catch (err) {
       console.warn(`  ${err.message}`);
     }
   }
-  throw new Error('No USD to GBP exchange rate available');
+  throw new Error('No USD to GBP and EUR exchange rates available');
 }
+
+const fx = (rate) => Number(rate.toFixed(5));
 
 const groupCache = new Map();
 function loadGroup(id) {
@@ -43,7 +45,7 @@ function priceRow(rows, productId, sub) {
     || mine[0];
 }
 
-async function priceCollection(entry, { updated, gbpPerUsd }) {
+async function priceCollection(entry, { updated, rates }) {
   const raw = await loadRaw(entry.id);
   if (!raw) return;
   const model = await loadModel(entry.id, { raw });
@@ -74,20 +76,21 @@ async function priceCollection(entry, { updated, gbpPerUsd }) {
   const previous = await readJson(file);
   const previousPriced = previous ? Object.values(previous.cards).filter((p) => p.usd != null).length : 0;
   if (priced < model.cards.length * MIN_SHARE && previousPriced > priced) {
-    console.warn(`${entry.id}: only ${priced} of ${model.cards.length} cards priced; keeping the previous file (${previousPriced} priced)`);
+    console.warn(`${entry.id}: only ${priced} of ${model.cards.length} cards priced; keeping the previous prices (${previousPriced} priced)`);
+    await writeJson(file, { updated: previous.updated, gbpPerUsd: fx(rates.gbp), eurPerUsd: fx(rates.eur), cards: previous.cards }, { lines: ['cards'] });
     return;
   }
-  await writeJson(file, { updated, gbpPerUsd: Number(gbpPerUsd.toFixed(5)), cards }, { lines: ['cards'] });
+  await writeJson(file, { updated, gbpPerUsd: fx(rates.gbp), eurPerUsd: fx(rates.eur), cards }, { lines: ['cards'] });
   console.log(`${entry.id}: ${priced} of ${model.cards.length} priced${unmatched.length ? `, ${unmatched.length} not on TCGplayer` : ''}`);
 }
 
-const [updated, gbpPerUsd] = await Promise.all([lastUpdated(), exchangeRate()]);
+const [updated, rates] = await Promise.all([lastUpdated(), exchangeRates()]);
 const day = updated.slice(0, 10);
-console.log(`Prices from ${updated}, $1 = £${gbpPerUsd.toFixed(4)}`);
+console.log(`Prices from ${updated}, $1 = £${rates.gbp.toFixed(4)} = €${rates.eur.toFixed(4)}`);
 let failed = 0;
 for (const entry of CONFIG) {
   try {
-    await priceCollection(entry, { updated: day, gbpPerUsd });
+    await priceCollection(entry, { updated: day, rates });
   } catch (err) {
     failed++;
     console.error(`${entry.id}: ${err.message}`);

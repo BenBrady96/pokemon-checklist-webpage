@@ -40,6 +40,17 @@ export function fetchCollection(id, { images = false } = {}) {
   return cache.get(key);
 }
 
+const priceCache = new Map();
+
+export function fetchPrices(id) {
+  if (!priceCache.has(id)) {
+    const promise = getJson(`data/${id}/prices.json`, null);
+    priceCache.set(id, promise);
+    promise.then((data) => { if (!data) priceCache.delete(id); });
+  }
+  return priceCache.get(id);
+}
+
 export let COLLECTION = null;
 export let GAME = null;
 export let CARDS = [];
@@ -55,7 +66,7 @@ export let inTier = () => false;
 export async function loadCollection(id) {
   const [model, prices] = await Promise.all([
     fetchCollection(id, { images: true }),
-    getJson(`data/${id}/prices.json`, null),
+    fetchPrices(id),
   ]);
   setPrices(prices);
   COLLECTION = model;

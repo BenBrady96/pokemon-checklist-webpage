@@ -75,7 +75,7 @@ export function loadMatcher(onProgress) {
   return loading;
 }
 
-export async function match(matcher, canvas, { prefer = null, top = 12 } = {}) {
+export async function match(matcher, canvas, { prefer = null, within = null, top = 12 } = {}) {
   const { index, session, rows, vectors } = matcher;
   const { width, height, pool, dims } = index.model;
   const pixels = canvas.getContext('2d', { willReadFrequently: true }).getImageData(0, 0, width, height).data;
@@ -86,6 +86,7 @@ export async function match(matcher, canvas, { prefer = null, top = 12 } = {}) {
 
   const scored = [];
   for (const row of rows) {
+    if (within && !within(row.set)) continue;
     const base = row.i * dims;
     let dot = 0;
     for (let d = 0; d < dims; d++) dot += query[d] * vectors[base + d];
@@ -99,11 +100,12 @@ export async function match(matcher, canvas, { prefer = null, top = 12 } = {}) {
   return { candidates, sameArt, confident: best.score >= index.threshold };
 }
 
-export function search(matcher, text, limit = 40) {
+export function search(matcher, text, { within = null, limit = 40 } = {}) {
   const tokens = normalize(text).split(/\s+/).filter(Boolean);
   if (!tokens.length) return [];
   const out = [];
   for (const row of matcher.rows) {
+    if (within && !within(row.set)) continue;
     if (tokens.every((t) => row.search.includes(t))) out.push(row);
     if (out.length >= limit) break;
   }

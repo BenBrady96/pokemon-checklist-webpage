@@ -6,6 +6,9 @@ import { parseSyncText, parseBackup, askIncoming, initImport, exportFile } from 
 import { resolveCodes, resolveBackup, allCounts, backupCode, applyEntries, catalogEntryFor } from './transfer.js';
 import { initDialogs, openDialog, closeDialog, toast, copyText, hideLoader } from './ui.js';
 import { initPWA } from './pwa.js';
+import { mergeBackupHistory, recordSnapshot } from './history.js';
+import { formatMoney } from './pricing.js';
+import { collectionWorth } from './worth.js';
 
 const html = document.documentElement;
 const search = document.getElementById('set-search');
@@ -22,8 +25,62 @@ function applyTheme() {
   for (const b of document.querySelectorAll('[data-theme-choice]')) b.setAttribute('aria-pressed', String(b.dataset.themeChoice === theme));
 }
 
+function applyCurrency() {
+  const { currency } = storage.getPrefs();
+  for (const b of document.querySelectorAll('[data-currency-choice]')) b.setAttribute('aria-pressed', String(b.dataset.currencyChoice === currency));
+}
+
 const tilesFor = (id) => document.querySelectorAll(`.set-tile[data-id="${CSS.escape(id)}"]`);
 const summaryTried = new Set();
+const worthById = new Map();
+const setValues = new Map();
+let worthRun = 0;
+
+function setValueOf(c) {
+  if (!setValues.has(c.id)) {
+    let value = null;
+    try {
+      value = JSON.parse(tilesFor(c.id)[0]?.dataset.values || 'null');
+    } catch {}
+    setValues.set(c.id, value);
+  }
+  return setValues.get(c.id);
+}
+
+function valueText(c) {
+  const { currency, tiers } = storage.getPrefs();
+  const value = setValueOf(c);
+  const total = value && (value.tiers[tiers[c.id]] ?? value.tiers[c.defaultTier]);
+  const whole = total == null ? '' : formatMoney(total, { currency, rates: value.rates, short: true, approx: true });
+  const worth = worthById.get(c.id);
+  if (!worth?.loaded || !worth.unique) return whole;
+  const mine = formatMoney(worth.usd, { currency, rates: worth.rates, short: true });
+  return whole ? `${mine} of ${whole}` : mine;
+}
+
+function paintValues() {
+  for (const c of catalog.collections) {
+    const text = valueText(c);
+    for (const tile of tilesFor(c.id)) {
+      const box = tile.querySelector('.set-tile__value');
+      if (!box) continue;
+      box.textContent = text;
+      box.hidden = !text;
+    }
+  }
+}
+
+async function refreshWorth() {
+  if (!catalog.collections.length) return;
+  const run = ++worthRun;
+  const ids = storage.storedCollections().map(({ id }) => id).filter((id) => catalog.collections.some((c) => c.id === id));
+  const worth = await collectionWorth(ids);
+  if (run !== worthRun) return;
+  worthById.clear();
+  for (const s of worth.sets) worthById.set(s.id, s);
+  paintValues();
+  if (worth.loaded) recordSnapshot(worth);
+}
 
 const summaryIsCurrent = (c, summary) => Boolean(summary) && c.tiers.some((t) => t.id === summary.tier && t.count === summary.total);
 const collected = ({ record }) => (record.summary?.total ? record.summary.owned / record.summary.total : 0);
@@ -62,6 +119,8 @@ function showProgress() {
     return tile ? tile.cloneNode(true) : null;
   }).filter(Boolean));
   continueSection.hidden = !continueGrid.children.length;
+  paintValues();
+  refreshWorth();
   if (stale.length) refreshSummaries(stale);
 }
 
@@ -213,14 +272,19 @@ const actions = {
 
 function wire() {
   document.addEventListener('click', (e) => {
-    const t = e.target.closest('[data-open], [data-action], [data-theme-choice]');
+    const t = e.target.closest('[data-open], [data-action], [data-theme-choice], [data-currency-choice]');
     if (!t) return;
     if (t.dataset.open) openNamed(t.dataset.open);
     else if (t.dataset.action) actions[t.dataset.action]?.();
+    else if (t.dataset.currencyChoice) storage.setPref('currency', t.dataset.currencyChoice);
     else storage.setPref('theme', t.dataset.themeChoice);
   });
   storage.onPrefChange((key) => {
     if (key === 'theme') applyTheme();
+    if (key === 'currency') {
+      applyCurrency();
+      paintValues();
+    }
   });
   search.addEventListener('input', filterSets);
   search.addEventListener('keydown', (e) => {
@@ -235,13 +299,14 @@ function wire() {
     const file = e.target.files[0];
     e.target.value = '';
     if (!file) return;
-    const entries = parseBackup(await file.text());
+    const text = await file.text();
+    const entries = parseBackup(text);
     if (!entries) {
       toast('That file isn’t a checklist backup.');
       return;
     }
     try {
-      await importMany(await resolveBackup(entries), 'file');
+      if (await importMany(await resolveBackup(entries), 'file')) mergeBackupHistory(text);
     } catch {
       toast('Couldn’t read that backup. Check your connection and try again.');
     }
@@ -258,6 +323,7 @@ function wire() {
 async function init() {
   initDialogs();
   applyTheme();
+  applyCurrency();
   wire();
   if (!storage.isStorageOk()) document.getElementById('storage-banner').hidden = false;
   initImport({

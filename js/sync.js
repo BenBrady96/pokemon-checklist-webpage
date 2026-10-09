@@ -1,6 +1,7 @@
 import { asset } from './paths.js';
 import { codeSize, copiesOf, parseSyncText } from './codec.js';
 import { openDialog, closeDialog } from './ui.js';
+import { readHistory } from './history.js';
 
 export {
   encodeCollection, decodeCode, resolveCode, codeSize, parseSyncText, parseBackup, copiesOf,
@@ -47,6 +48,7 @@ export function exportFile(collections) {
     version: 2,
     exported: new Date().toISOString(),
     collections: Object.fromEntries(Object.entries(collections).map(([id, cards]) => [id, { cards }])),
+    history: readHistory(),
   };
   const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
   const url = URL.createObjectURL(blob);

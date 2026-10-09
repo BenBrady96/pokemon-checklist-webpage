@@ -324,71 +324,83 @@
       </div>
       <button type="button" class="icon-btn" data-close aria-label="Close"><svg><use href="#i-close"/></svg></button>
     </header>
-    <div class="sheet__body" id="panel-filter" role="tabpanel" aria-labelledby="tab-filter" data-tab-panel="filter">
-      <section class="field">
-        <h3 class="field__label">Show</h3>
-        <div class="seg seg--full" role="group" aria-label="Show">
-          <button type="button" class="seg__btn" data-filter="status" data-value="all">All</button>
-          <button type="button" class="seg__btn" data-filter="status" data-value="owned">Owned</button>
-          <button type="button" class="seg__btn" data-filter="status" data-value="missing">Missing</button>
-          <button type="button" class="seg__btn" data-filter="status" data-value="dupes">Dupes</button>
-        </div>
-      </section>
-      <section class="field" id="rarity-field">
-        <h3 class="field__label">Rarity</h3>
-        <div class="chips" id="rarity-chips"></div>
-      </section>
-      <section class="field" id="section-field">
-        <h3 class="field__label">Section</h3>
-        <div class="chips" id="section-chips"></div>
-      </section>
-      <section class="field mobile-only">
-        <h3 class="field__label">Sort</h3>
-        <div class="seg seg--full" role="group" aria-label="Sort">
-          <button type="button" class="seg__btn" data-pref="sort" data-value="set">Set order</button>
-          <button type="button" class="seg__btn" data-pref="sort" data-value="name">Name</button>
-          <button type="button" class="seg__btn" data-pref="sort" data-value="rarity">Rarity</button>
-        </div>
-      </section>
-    </div>
-    <div class="sheet__body mobile-only" id="panel-view" role="tabpanel" aria-labelledby="tab-view" data-tab-panel="view" hidden>
-      <div class="view-picker" role="group" aria-label="Layout">
-        <button type="button" class="view-picker__btn" data-pref="view" data-value="grid"><svg><use href="#i-grid"/></svg><span>Grid</span></button>
-        <button type="button" class="view-picker__btn" data-pref="view" data-value="list"><svg><use href="#i-list"/></svg><span>List</span></button>
-        <button type="button" class="view-picker__btn" data-pref="view" data-value="binder"><svg><use href="#i-binder"/></svg><span>Binder</span></button>
+    <div class="sheet__panes">
+      <div class="sheet__body" id="panel-filter" role="tabpanel" aria-labelledby="tab-filter" data-tab-panel="filter">
+        <section class="field">
+          <h3 class="field__label">Show</h3>
+          <div class="seg seg--full" role="group" aria-label="Show">
+            <button type="button" class="seg__btn" data-filter="status" data-value="all">All</button>
+            <button type="button" class="seg__btn" data-filter="status" data-value="owned">Owned</button>
+            <button type="button" class="seg__btn" data-filter="status" data-value="missing">Missing</button>
+            <button type="button" class="seg__btn" data-filter="status" data-value="dupes">Dupes</button>
+          </div>
+        </section>
+        <section class="field" id="rarity-field">
+          <h3 class="field__label">Rarity</h3>
+          <div class="chips" id="rarity-chips"></div>
+        </section>
+        <section class="field" id="section-field">
+          <h3 class="field__label">Section</h3>
+          <div class="chips" id="section-chips"></div>
+        </section>
+        <section class="field mobile-only">
+          <h3 class="field__label">Sort</h3>
+          <div class="seg seg--full" role="group" aria-label="Sort">
+            <button type="button" class="seg__btn" data-pref="sort" data-value="set">Set order</button>
+            <button type="button" class="seg__btn" data-pref="sort" data-value="name">Name</button>
+            <button type="button" class="seg__btn" data-pref="sort" data-value="rarity">Rarity</button>
+          </div>
+        </section>
       </div>
-      <section class="field" data-show-for="grid">
-        <h3 class="field__label">Card size</h3>
-        <div class="seg seg--full" role="group" aria-label="Card size">
-          <button type="button" class="seg__btn" data-pref="size" data-value="s">Small</button>
-          <button type="button" class="seg__btn" data-pref="size" data-value="m">Medium</button>
-          <button type="button" class="seg__btn" data-pref="size" data-value="l">Large</button>
+      <div class="sheet__body mobile-only" id="panel-view" role="tabpanel" aria-labelledby="tab-view" data-tab-panel="view" data-inactive>
+        <div class="view-picker" role="group" aria-label="Layout">
+          <button type="button" class="view-picker__btn" data-pref="view" data-value="grid"><svg><use href="#i-grid"/></svg><span>Grid</span></button>
+          <button type="button" class="view-picker__btn" data-pref="view" data-value="list"><svg><use href="#i-list"/></svg><span>List</span></button>
+          <button type="button" class="view-picker__btn" data-pref="view" data-value="binder"><svg><use href="#i-binder"/></svg><span>Binder</span></button>
         </div>
-      </section>
-      <section class="field" data-show-for="binder">
-        <h3 class="field__label">Pockets per page</h3>
-        <div class="seg seg--full" role="group" aria-label="Pockets per page">
-          <button type="button" class="seg__btn" data-pref="pockets" data-value="4">4</button>
-          <button type="button" class="seg__btn" data-pref="pockets" data-value="9">9</button>
-          <button type="button" class="seg__btn" data-pref="pockets" data-value="12">12</button>
+        <div class="view-options">
+          <section class="field" data-show-for="grid">
+            <h3 class="field__label">Card size</h3>
+            <div class="seg seg--full" role="group" aria-label="Card size">
+              <button type="button" class="seg__btn" data-pref="size" data-value="s">Small</button>
+              <button type="button" class="seg__btn" data-pref="size" data-value="m">Medium</button>
+              <button type="button" class="seg__btn" data-pref="size" data-value="l">Large</button>
+            </div>
+          </section>
+          <section class="field" data-show-for="binder">
+            <h3 class="field__label">Pockets per page</h3>
+            <div class="seg seg--full" role="group" aria-label="Pockets per page">
+              <button type="button" class="seg__btn" data-pref="pockets" data-value="4">4</button>
+              <button type="button" class="seg__btn" data-pref="pockets" data-value="9">9</button>
+              <button type="button" class="seg__btn" data-pref="pockets" data-value="12">12</button>
+            </div>
+          </section>
         </div>
-      </section>
-      <div class="switch-row">
-        <span><b>Card images</b><small>Turn off for a compact text checklist</small></span>
-        <button type="button" class="switch" role="switch" data-pref-toggle="images" aria-label="Card images"></button>
+        <div class="switch-row">
+          <span><b>Card images</b><small>Turn off for a compact text checklist</small></span>
+          <button type="button" class="switch" role="switch" data-pref-toggle="images" aria-label="Card images"></button>
+        </div>
+        <div class="switch-row">
+          <span><b>Fade missing cards</b><small>Owned cards stay in full colour</small></span>
+          <button type="button" class="switch" role="switch" data-pref-toggle="dim" aria-label="Fade missing cards"></button>
+        </div>
+        <section class="field">
+          <h3 class="field__label">Theme</h3>
+          <div class="seg seg--full" role="group" aria-label="Theme">
+            <button type="button" class="seg__btn" data-pref="theme" data-value="system"><svg><use href="#i-monitor"/></svg>Auto</button>
+            <button type="button" class="seg__btn" data-pref="theme" data-value="light"><svg><use href="#i-sun"/></svg>Light</button>
+            <button type="button" class="seg__btn" data-pref="theme" data-value="dark"><svg><use href="#i-moon"/></svg>Dark</button>
+          </div>
+        </section>
+        <section class="field">
+          <h3 class="field__label">Currency</h3>
+          <div class="seg seg--full" role="group" aria-label="Currency">
+            <button type="button" class="seg__btn" data-pref="currency" data-value="gbp">£ Pounds</button>
+            <button type="button" class="seg__btn" data-pref="currency" data-value="usd">$ Dollars</button>
+            <button type="button" class="seg__btn" data-pref="currency" data-value="eur">€ Euros</button>
+          </div>
+        </section>
       </div>
-      <div class="switch-row">
-        <span><b>Fade missing cards</b><small>Owned cards stay in full colour</small></span>
-        <button type="button" class="switch" role="switch" data-pref-toggle="dim" aria-label="Fade missing cards"></button>
-      </div>
-      <section class="field">
-        <h3 class="field__label">Theme</h3>
-        <div class="seg seg--full" role="group" aria-label="Theme">
-          <button type="button" class="seg__btn" data-pref="theme" data-value="system"><svg><use href="#i-monitor"/></svg>Auto</button>
-          <button type="button" class="seg__btn" data-pref="theme" data-value="light"><svg><use href="#i-sun"/></svg>Light</button>
-          <button type="button" class="seg__btn" data-pref="theme" data-value="dark"><svg><use href="#i-moon"/></svg>Dark</button>
-        </div>
-      </section>
     </div>
     <footer class="sheet__foot" data-tab-panel="filter">
       <button type="button" class="btn btn--ghost" data-action="clear-filters">Reset</button>
@@ -409,6 +421,7 @@
     <div class="sheet__body menu">
       <div class="menu__group">
         <a class="menu__item" href="./"><svg><use href="#i-stack"/></svg><span><b>All collections</b><small>Switch to another set or start a new one</small></span></a>
+        <a class="menu__item" href="portfolio/"><svg><use href="#i-chart"/></svg><span><b>Portfolio</b><small>What your whole collection is worth, and how it’s changed</small></span></a>
       </div>
       <div class="menu__group">
         <button type="button" class="menu__item" data-open="scan"><svg><use href="#i-camera"/></svg><span><b>Scan a card</b><small>Point your camera at a card to add it</small></span></button>
@@ -437,6 +450,14 @@
           <button type="button" class="seg__btn" data-pref="theme" data-value="system"><svg><use href="#i-monitor"/></svg>Auto</button>
           <button type="button" class="seg__btn" data-pref="theme" data-value="light"><svg><use href="#i-sun"/></svg>Light</button>
           <button type="button" class="seg__btn" data-pref="theme" data-value="dark"><svg><use href="#i-moon"/></svg>Dark</button>
+        </div>
+      </div>
+      <div class="menu__group desktop-only">
+        <h3 class="menu__label">Currency</h3>
+        <div class="seg seg--full" role="group" aria-label="Currency">
+          <button type="button" class="seg__btn" data-pref="currency" data-value="gbp">£ Pounds</button>
+          <button type="button" class="seg__btn" data-pref="currency" data-value="usd">$ Dollars</button>
+          <button type="button" class="seg__btn" data-pref="currency" data-value="eur">€ Euros</button>
         </div>
       </div>
       <div class="menu__group">
@@ -655,6 +676,7 @@
       <div class="scanner__panel" data-scan="panel" hidden></div>
     </div>
     <div class="scanner__controls">
+      <div class="scanner__scope" data-scan="scope" hidden></div>
       <button type="button" class="scanner__side" data-scan="photo"><svg><use href="#i-image"/></svg><span>Photo</span></button>
       <button type="button" class="scanner__shutter" data-scan="shutter" aria-label="Scan the card in the frame" disabled></button>
       <button type="button" class="scanner__side" data-scan="search"><svg><use href="#i-search"/></svg><span>Search</span></button>

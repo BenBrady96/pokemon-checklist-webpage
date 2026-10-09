@@ -1,7 +1,7 @@
 import { access, cp, mkdir, readdir, readFile, rm, stat, writeFile } from 'node:fs/promises';
 import { dirname, join, relative, sep } from 'node:path';
 import { CONFIG } from './lib/collections.mjs';
-import { DEFAULT_URL, collectionPage, homePage, sitemap } from './lib/pages.mjs';
+import { DEFAULT_URL, collectionPage, homePage, portfolioPage, sitemap } from './lib/pages.mjs';
 import { ROOT } from './lib/util.mjs';
 
 const OUT = join(ROOT, 'dist');
@@ -44,6 +44,7 @@ for (const file of URL_FILES) {
 }
 
 await emit('index.html', await homePage({ siteUrl: SITE_URL }));
+await emit('portfolio/index.html', await portfolioPage({ siteUrl: SITE_URL }));
 for (const entry of CONFIG) await emit(`${entry.id}/index.html`, await collectionPage(entry.id, { siteUrl: SITE_URL }));
 await emit('sitemap.xml', await sitemap({ siteUrl: SITE_URL, today: TODAY }));
 

@@ -1,8 +1,10 @@
 import { readFile } from 'node:fs/promises';
 import { join } from 'node:path';
-import { CONFIG, GAMES, loadCatalog, loadModel, loadRaw } from './collections.mjs';
+import { CONFIG, GAMES, dataDir, loadCatalog, loadModel, loadRaw } from './collections.mjs';
 import { compileTheme, themeCss } from './theme.mjs';
-import { ROOT, exists } from './util.mjs';
+import { ROOT, exists, readJson } from './util.mjs';
+import { TIER_DEFS } from '../../js/model.js';
+import { formatMoney, ratesOf } from '../../js/pricing.js';
 
 export const DEFAULT_URL = 'https://benbrady96.github.io/pokemon-checklist-webpage/';
 
@@ -100,25 +102,52 @@ export const releaseText = (date) => MONTH.format(new Date(`${date}T00:00:00Z`))
 
 const tileStyle = (c) => Object.entries(c.tile).map(([k, v]) => `${k}:${v}`).join(';');
 
-export function tileHtml(c) {
+const PRICED_SHARE = 0.7;
+
+export async function setValues(catalog) {
+  const values = new Map();
+  await Promise.all(catalog.collections.map(async (c) => {
+    const [model, prices] = await Promise.all([loadModel(c.id), readJson(join(dataDir(c.id), 'prices.json'))]);
+    if (!prices?.cards || !prices.gbpPerUsd) return;
+    const tiers = {};
+    for (const def of TIER_DEFS) {
+      const { cards } = model.getTier(def.id);
+      let usd = 0;
+      let priced = 0;
+      for (const card of cards) {
+        const price = prices.cards[card.id]?.usd;
+        if (price == null) continue;
+        usd += price;
+        priced++;
+      }
+      if (cards.length && priced >= cards.length * PRICED_SHARE) tiers[def.id] = Math.round(usd * 100) / 100;
+    }
+    if (Object.keys(tiers).length) values.set(c.id, { rates: ratesOf(prices), tiers });
+  }));
+  return values;
+}
+
+export function tileHtml(c, value) {
+  const total = value?.tiers[c.defaultTier];
   const art = c.logo
     ? `<img class="set-tile__logo" src="${c.logo}" alt="" loading="lazy" decoding="async">`
     : c.cover?.symbol
       ? `<svg class="set-tile__mark" aria-hidden="true"><use href="#${c.cover.symbol}"/></svg>`
       : `<span class="set-tile__wordmark">${escapeHtml(c.name)}</span>`;
-  return `<a class="set-tile" href="${c.id}/" data-id="${escapeHtml(c.id)}" style="${tileStyle(c)}">`
+  return `<a class="set-tile" href="${c.id}/" data-id="${escapeHtml(c.id)}"${value ? ` data-values="${escapeHtml(JSON.stringify(value))}"` : ''} style="${tileStyle(c)}">`
     + `<span class="set-tile__art">${art}</span>`
     + '<span class="set-tile__body">'
     + `<span class="set-tile__name">${escapeHtml(c.name)}</span>`
     + `<span class="set-tile__meta">${releaseText(c.released)} · ${c.total} cards</span>`
     + '<span class="set-tile__progress" hidden><span class="bar" aria-hidden="true"><i></i></span><span class="set-tile__count"></span></span>'
+    + `<span class="set-tile__value"${total == null ? ' hidden>' : `>${formatMoney(total, { rates: value.rates, short: true, approx: true })}`}</span>`
     + '</span></a>';
 }
 
 const KIND_HEADINGS = { promo: 'Promos', energy: 'Energy' };
 const OPEN_SERIES = 2;
 
-export function collectionsHtml(catalog) {
+export function collectionsHtml(catalog, values = new Map()) {
   const parts = [];
   for (const game of catalog.games) {
     const sets = catalog.collections.filter((c) => c.game === game.id);
@@ -137,8 +166,8 @@ export function collectionsHtml(catalog) {
       const open = shown++ < OPEN_SERIES;
       parts.push(`<details class="home-series" data-series${open ? ' open data-open' : ''}>`
         + `<summary class="home-series__head"><h3 class="home-series__title">${escapeHtml(series)}</h3><span class="home-series__count">${inSeries.length === 1 ? '1 set' : `${inSeries.length} sets`}</span></summary>`
-        + `<div class="set-grid">${main.map(tileHtml).join('')}</div>`
-        + (extras.length ? `<h4 class="home-series__sub">${[...new Set(extras.map((c) => KIND_HEADINGS[c.kind] || 'More'))].join(' &amp; ')}</h4><div class="set-grid set-grid--small">${extras.map(tileHtml).join('')}</div>` : '')
+        + `<div class="set-grid">${main.map((c) => tileHtml(c, values.get(c.id))).join('')}</div>`
+        + (extras.length ? `<h4 class="home-series__sub">${[...new Set(extras.map((c) => KIND_HEADINGS[c.kind] || 'More'))].join(' &amp; ')}</h4><div class="set-grid set-grid--small">${extras.map((c) => tileHtml(c, values.get(c.id))).join('')}</div>` : '')
         + '</details>');
     }
     parts.push('</section>');
@@ -149,7 +178,12 @@ export function collectionsHtml(catalog) {
 export async function homePage({ siteUrl = DEFAULT_URL } = {}) {
   const [template, catalog] = await Promise.all([readFile(join(ROOT, 'index.html'), 'utf8'), loadCatalog()]);
   const setCount = catalog.collections.filter((c) => c.kind === 'expansion').length;
-  return fill(template, { collections: collectionsHtml(catalog), setCount }).split(DEFAULT_URL).join(siteUrl);
+  return fill(template, { collections: collectionsHtml(catalog, await setValues(catalog)), setCount }).split(DEFAULT_URL).join(siteUrl);
+}
+
+export async function portfolioPage({ siteUrl = DEFAULT_URL } = {}) {
+  const template = await readFile(join(ROOT, 'portfolio.html'), 'utf8');
+  return prefixUrls(template.split(DEFAULT_URL).join(siteUrl), '../');
 }
 
 export async function sitemap({ siteUrl = DEFAULT_URL, today = new Date().toISOString().slice(0, 10) } = {}) {

@@ -1,7 +1,7 @@
 import { COLLECTION, GAME, CARDS, CARD_BY_ID, RARITY_BY_ID } from './collection.js';
 import { getQty } from './store.js';
 import { rarityIcon } from './render.js';
-import { priceOf, formatGbp, formatUsd, pricesUpdated } from './pricing.js';
+import { priceOf, formatPrice, formatUsd, pricesUpdated, isConverted, priceCurrency, SYMBOLS } from './pricing.js';
 import { openDialog, escapeHTML } from './ui.js';
 
 const INFO = COLLECTION.info;
@@ -40,13 +40,14 @@ function pullOdds(card) {
 
 function price(card) {
   const entry = priceOf(card.id);
+  const converted = isConverted();
   let figure;
   if (entry?.usd != null) {
-    figure = `<p class="info__price">≈ ${formatGbp(entry.usd)}<small>${formatUsd(entry.usd)}</small></p>`
-      + `<p class="hint hint--small">TCGplayer market price, ${pricesUpdated}. The £ figure is converted, so it’s approximate.</p>`;
+    figure = `<p class="info__price">${converted ? `${formatPrice(entry.usd, { approx: true })}<small>${formatUsd(entry.usd)}</small>` : formatUsd(entry.usd)}</p>`
+      + `<p class="hint hint--small">TCGplayer market price, ${pricesUpdated}.${converted ? ` The ${SYMBOLS[priceCurrency()]} figure is converted, so it’s approximate.` : ''}</p>`;
   } else if (entry?.from != null) {
     figure = '<p class="info__price">No sales yet</p>'
-      + `<p class="hint hint--small">Listed on TCGplayer from ≈ ${formatGbp(entry.from)} (${formatUsd(entry.from)}), ${pricesUpdated}.</p>`;
+      + `<p class="hint hint--small">Listed on TCGplayer from ${converted ? `${formatPrice(entry.from, { approx: true })} (${formatUsd(entry.from)})` : formatUsd(entry.from)}, ${pricesUpdated}.</p>`;
   } else {
     figure = '<p class="info__price">No price yet</p><p class="hint hint--small">TCGplayer doesn’t list this card yet.</p>';
   }

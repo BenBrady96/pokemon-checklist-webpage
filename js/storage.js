@@ -116,6 +116,8 @@ const DEFAULT_PREFS = {
   lastCollection: null,
   tiers: {},
   tierScheme: TIER_SCHEME,
+  scanScope: 'set',
+  currency: 'gbp',
 };
 
 let prefs = { ...DEFAULT_PREFS, ...(read(PREFS_KEY) || {}) };

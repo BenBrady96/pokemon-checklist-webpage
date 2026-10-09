@@ -1,11 +1,13 @@
 import { openDialog, vibrate } from './ui.js';
 import { loadCatalog } from './catalog.js';
-import { fetchCollection } from './collection.js';
+import { fetchCollection, fetchPrices } from './collection.js';
+import { formatMoney, formatUsd, ratesOf, shownCurrency } from './pricing.js';
 import * as storage from './storage.js';
 import { loadMatcher, match, search } from './scan-match.js';
 
 const CARD_ASPECT = 63 / 88;
 const REGULAR = 'Regular';
+const COMPANION = /-(trainer-gallery|galarian-gallery|shiny-vault|radiant-collection|classic-collection)$/;
 
 const dlg = document.getElementById('dlg-scan');
 const $ = (name) => dlg.querySelector(`[data-scan="${name}"]`);
@@ -19,6 +21,7 @@ const fileInput = $('file');
 const tallyBtn = $('tally');
 const flashBox = $('flash');
 const live = $('live');
+const scopeBox = $('scope');
 const plural = (n, one, many) => `${n} ${n === 1 ? one : many}`;
 
 let options = {};
@@ -30,6 +33,7 @@ let busy = false;
 let lastVariant = REGULAR;
 let view = null;
 let flashTimer = 0;
+let lastShot = null;
 const session = [];
 
 const el = (tag, attrs = {}, ...children) => {
@@ -55,6 +59,33 @@ const icon = (id) => {
 };
 
 const setInfo = (id) => catalog?.collections.find((c) => c.id === id) || { id, name: id };
+const familyOf = (id) => id.replace(COMPANION, '');
+const scoped = () => Boolean(options.prefer) && storage.getPrefs().scanScope !== 'all';
+const within = () => (scoped() ? (set) => familyOf(set) === familyOf(options.prefer) : null);
+const scopeName = () => catalog?.collections.find((c) => c.id === familyOf(options.prefer))?.name || 'This set';
+
+function paintScope() {
+  for (const b of dlg.querySelectorAll('[data-scope]')) b.setAttribute('aria-pressed', String((b.dataset.scope === 'set') === scoped()));
+}
+
+function scopeToggle(onChange) {
+  return el('div', { class: 'seg scan-scope', role: 'group', 'aria-label': 'Where to look' }, ...[['set', scopeName()], ['all', 'All sets']].map(([value, label]) => el('button', {
+    type: 'button',
+    class: 'seg__btn',
+    'data-scope': value,
+    onclick() {
+      storage.setPref('scanScope', value);
+      paintScope();
+      onChange?.();
+    },
+  }, el('span', { class: 'scan-scope__label', text: label }))));
+}
+
+function renderScope() {
+  scopeBox.hidden = !options.prefer;
+  if (options.prefer) scopeBox.replaceChildren(scopeToggle());
+  paintScope();
+}
 
 function setPanel(open) {
   panel.hidden = !open;
@@ -183,7 +214,7 @@ function centreCrop(w, h) {
   return [(w - cw) / 2, (h - ch) / 2, cw, ch];
 }
 
-async function recognise(source, crop) {
+async function recognise(source, crop, scope) {
   if (busy || !matcher) return;
   busy = true;
   shutter.disabled = true;
@@ -191,8 +222,9 @@ async function recognise(source, crop) {
   try {
     const { canvas, ctx } = canvasFor();
     ctx.drawImage(source, ...crop, 0, 0, canvas.width, canvas.height);
-    const result = await match(matcher, canvas, { prefer: options.prefer });
-    if (dlg.open) await showMatches(result);
+    lastShot = canvas;
+    const result = await match(matcher, canvas, { prefer: options.prefer, within: scope });
+    if (dlg.open) await showMatches(result, Boolean(scope));
   } catch {
     resume();
     flash('Something went wrong. Try again.');
@@ -205,7 +237,7 @@ function capture() {
   if (!stream || !video.videoWidth) return;
   video.pause();
   vibrate(8);
-  recognise(video, frameCrop());
+  recognise(video, frameCrop(), within());
 }
 
 async function fromFile(file) {
@@ -216,12 +248,16 @@ async function fromFile(file) {
   }
   try {
     const bitmap = await createImageBitmap(file);
-    await recognise(bitmap, centreCrop(bitmap.width, bitmap.height));
+    await recognise(bitmap, centreCrop(bitmap.width, bitmap.height), within());
     bitmap.close();
   } catch {
     resume();
     flash('Couldn’t read that picture.');
   }
+}
+
+function widen() {
+  if (lastShot) recognise(lastShot, [0, 0, lastShot.width, lastShot.height], null);
 }
 
 function resume() {
@@ -237,7 +273,7 @@ function orderCandidates({ candidates, sameArt }) {
   return [...twins, ...candidates.filter((c) => !sameArt.includes(c))];
 }
 
-async function showMatches(result) {
+async function showMatches(result, narrowed) {
   catalog ||= await loadCatalog().catch(() => null);
   const list = orderCandidates(result);
   const twins = result.sameArt.length > 1;
@@ -248,8 +284,10 @@ async function showMatches(result) {
       : 'Is it this card?';
   const hint = twins && result.confident
     ? 'Check the set code and number at the bottom of your card, then pick the matching set.'
-    : !result.confident ? 'Try again with the card filling the frame and less glare, or search by name.' : '';
-  openPanel({ title, hint, list, selected: 0 });
+    : result.confident ? ''
+      : narrowed ? `Only ${scopeName()} cards were checked. Try all sets if it’s from somewhere else, or scan again with less glare.`
+        : 'Try again with the card filling the frame and less glare, or search by name.';
+  openPanel({ title, hint, list, selected: 0, widen: narrowed && !result.confident });
 }
 
 function openPanel(state) {
@@ -288,9 +326,18 @@ async function renderPanel() {
       el('p', { class: 'scan-detail__name', text: candidate.name }),
       el('p', { class: 'scan-detail__set', text: `${setInfo(candidate.set).name} · ${candidate.printed}` }),
       el('div', { class: 'scan-detail__variants', 'data-scan': 'variants' }, el('span', { class: 'hint hint--small', text: 'Loading…' })),
-      el('p', { class: 'scan-detail__owned', 'data-scan': 'owned' })));
+      el('p', { class: 'scan-detail__owned', 'data-scan': 'owned' }),
+      el('p', { class: 'scan-detail__price', 'data-scan': 'price', hidden: true })));
 
   const add = el('button', { type: 'button', class: 'btn btn--primary', disabled: true, onclick: () => addSelected(add) }, icon('i-plus'), 'Add to collection');
+  const wider = state.widen ? el('button', {
+    type: 'button',
+    class: 'btn btn--ghost',
+    onclick() {
+      wider.disabled = true;
+      widen();
+    },
+  }, 'Try all sets') : null;
   panel.replaceChildren(el('div', { class: 'scan-panel' },
     el('header', { class: 'scan-panel__head' },
       el('h3', { class: 'scan-panel__title', text: state.title }),
@@ -299,13 +346,15 @@ async function renderPanel() {
     detail,
     el('div', { class: 'scan-panel__foot' },
       el('button', { type: 'button', class: 'btn btn--ghost', onclick: () => openSearch() }, icon('i-search'), 'Search'),
+      wider,
       el('button', { type: 'button', class: 'btn btn--ghost', onclick: resume }, 'Scan again'),
       add)));
   speak(`${state.title}. ${candidate.name}, ${setInfo(candidate.set).name}, ${candidate.printed}`);
 
   let found;
+  let prices;
   try {
-    found = await variantsFor(candidate);
+    [found, prices] = await Promise.all([variantsFor(candidate), fetchPrices(candidate.set)]);
   } catch {
     if (view !== state) return;
     panel.querySelector('[data-scan="variants"]').replaceChildren(el('span', { class: 'hint hint--small', text: 'Connect to the internet to add cards from this set for the first time.' }));
@@ -319,11 +368,15 @@ async function renderPanel() {
   }
   const box = panel.querySelector('[data-scan="variants"]');
   const owned = panel.querySelector('[data-scan="owned"]');
+  const price = panel.querySelector('[data-scan="price"]');
   const paint = () => {
     const card = found.model.cardById.get(state.variant);
     const n = counts[card.id] || 0;
     const which = found.cards.length > 1 ? `the ${labelOf(card)} version` : 'this card';
     owned.textContent = n ? `You have ${plural(n, 'copy', 'copies')} of ${which}.` : `You don’t have ${which} yet.`;
+    const line = priceLine(prices, card.id);
+    price.replaceChildren(...line);
+    price.hidden = !line.length;
     for (const b of box.querySelectorAll('button')) b.setAttribute('aria-pressed', String(b.dataset.id === state.variant));
   };
   box.replaceChildren(found.cards.length > 1
@@ -340,6 +393,17 @@ async function renderPanel() {
   paint();
   add.disabled = false;
   state.found = found;
+}
+
+function priceLine(prices, id) {
+  const entry = prices?.cards?.[id];
+  const { currency } = storage.getPrefs();
+  const rates = ratesOf(prices);
+  const shown = (usd) => formatMoney(usd, { currency, rates, approx: true });
+  const dollars = (usd) => (shownCurrency(currency, rates) === 'usd' ? '' : ` (${formatUsd(usd)})`);
+  if (entry?.usd != null) return ['Market price ', el('b', { text: shown(entry.usd) }), dollars(entry.usd)];
+  if (entry?.from != null) return [`No sales yet. Listed from ${shown(entry.from)}${dollars(entry.from)}.`];
+  return prices ? ['No price yet.'] : [];
 }
 
 async function writeOne(set, cardId, delta) {
@@ -414,10 +478,14 @@ async function addSelected(button) {
 }
 
 function openSearch(initial = '') {
-  const input = el('input', { type: 'search', class: 'input', placeholder: 'Card name or number, e.g. Pikachu or 025/165', 'aria-label': 'Search every set', autocomplete: 'off', enterkeyhint: 'search' });
+  const input = el('input', { type: 'search', class: 'input', placeholder: 'Card name or number, e.g. Pikachu or 025/165', autocomplete: 'off', enterkeyhint: 'search' });
   const results = el('div', { class: 'scan-search__results', role: 'list' });
+  const heading = el('h3', { class: 'scan-panel__title' });
   const run = () => {
-    const rows = search(matcher, input.value);
+    const name = scoped() ? scopeName() : null;
+    heading.textContent = name ? `Search ${name}` : 'Search every set';
+    input.setAttribute('aria-label', heading.textContent);
+    const rows = search(matcher, input.value, { within: within() });
     results.replaceChildren(...rows.map((row) => el('button', {
       type: 'button',
       class: 'scan-search__row',
@@ -425,19 +493,25 @@ function openSearch(initial = '') {
       onclick: () => openPanel({ title: 'Is it this card?', hint: '', list: [row], selected: 0 }),
     }, el('img', { src: row.image, alt: '', loading: 'lazy', decoding: 'async' }),
     el('span', {}, el('b', { text: row.name }), el('small', { text: `${setInfo(row.set).name} · ${row.printed}` })))));
-    if (input.value.trim() && !rows.length) results.append(el('p', { class: 'hint', text: 'No cards match. Try another spelling, or the number printed on the card.' }));
+    if (input.value.trim() && !rows.length) {
+      results.append(el('p', { class: 'hint', text: name
+        ? `No ${name} cards match. Try All sets, another spelling, or the number printed on the card.`
+        : 'No cards match. Try another spelling, or the number printed on the card.' }));
+    }
   };
   input.addEventListener('input', run);
   view = { search: true };
   setPanel(true);
   say('');
   panel.replaceChildren(el('div', { class: 'scan-panel' },
-    el('header', { class: 'scan-panel__head' }, el('h3', { class: 'scan-panel__title', text: 'Search every set' })),
+    el('header', { class: 'scan-panel__head' }, heading),
+    options.prefer ? scopeToggle(run) : null,
     input,
     results,
     el('div', { class: 'scan-panel__foot' }, el('button', { type: 'button', class: 'btn btn--ghost', onclick: resume }, 'Back to camera'))));
   input.value = initial;
-  if (initial) run();
+  run();
+  paintScope();
   input.focus();
 }
 
@@ -487,7 +561,11 @@ export function openScanner(opts = {}) {
   openDialog(dlg);
   setPanel(false);
   updateTally();
-  loadCatalog().then((c) => { catalog = c; }, () => {});
+  renderScope();
+  loadCatalog().then((c) => {
+    catalog = c;
+    renderScope();
+  }, () => {});
   if (matcher) ready();
   else prepareMatcher();
   startCamera();
