@@ -55,11 +55,6 @@ export function updatePrices() {
 }
 
 export function buildCards() {
-  if (COLLECTION.tileRules) {
-    const style = document.createElement('style');
-    style.textContent = COLLECTION.tileRules;
-    document.head.append(style);
-  }
   const tpl = document.createElement('template');
   tpl.innerHTML = CARDS.map(cardMarkup).join('');
   for (const li of tpl.content.querySelectorAll('.card')) {
@@ -230,8 +225,7 @@ export function applyVisibility(root, matches, { dimOnly }) {
 
 let eagerDone = false;
 
-export function updateImageSources(root, imagesOn) {
-  if (!imagesOn) return;
+export function updateImageSources(root) {
   const probe = root.querySelector('.card:not([hidden]) .card__art');
   const width = probe ? probe.getBoundingClientRect().width : 0;
   const large = width * Math.min(window.devicePixelRatio || 1, 2) > 380;

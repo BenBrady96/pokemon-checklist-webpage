@@ -8,7 +8,8 @@
   <meta name="description" content="Free checklists for every English Pokémon TCG set from Base Set to Mega Evolution. Tick off the cards you own, go for a master set with every reverse holo, count duplicates and plan your binder pages. No sign-up, works offline.">
   <meta name="robots" content="index, follow, max-image-preview:large">
   <link rel="canonical" href="https://benbrady96.github.io/pokemon-checklist-webpage/">
-  <meta name="theme-color" content="#0D1334">
+  <meta name="theme-color" content="#F7F7F8" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0B0B0D" media="(prefers-color-scheme: dark)">
   <meta name="color-scheme" content="light dark">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Binder Tracker">
@@ -30,7 +31,7 @@
   <link rel="icon" href="img/icons/favicon-32.png" sizes="32x32" type="image/png">
   <link rel="apple-touch-icon" href="img/icons/apple-touch-icon.png">
   <meta name="mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <meta name="apple-mobile-web-app-title" content="Binder Tracker">
   <link rel="preload" href="fonts/outfit-latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="css/styles.css">
@@ -112,6 +113,10 @@
     <symbol id="i-stack" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><rect x="8" y="3.5" width="11" height="15" rx="2"/><path d="M5 7v11.5a2 2 0 0 0 2 2h8.5"/></g></symbol>
     <symbol id="i-image" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"><rect x="3.5" y="4.5" width="17" height="15" rx="2.5"/><circle cx="9" cy="10" r="1.7"/><path d="M20.5 16l-5-5L7 19.5"/></g></symbol>
     <symbol id="i-chart" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 20h16"/><path d="M7 16.5v-5M12 16.5V6M17 16.5v-8"/></g></symbol>
+    <symbol id="i-home" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 10.5L12 4l8 6.5"/><path d="M6 9v10.5h4.5V14h3v5.5H18V9"/></g></symbol>
+    <symbol id="i-caret" viewBox="0 0 24 24"><path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+    <symbol id="i-portfolio" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 16.5l5.5-5.5 4 4 7.5-7.5"/><path d="M15 7.5h5.5V13"/></g></symbol>
     <symbol id="i-camera" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M3.5 8.5a2 2 0 0 1 2-2h2.2l1.6-2.2h5.4l1.6 2.2h2.2a2 2 0 0 1 2 2V17.5a2 2 0 0 1-2 2h-13a2 2 0 0 1-2-2z"/><circle cx="12" cy="12.8" r="3.6"/></g></symbol>
   </defs>
 </svg>
@@ -122,17 +127,40 @@
   <div class="wrap appbar__inner">
     <a class="brand" href="./">
       <svg class="brand__mark" aria-hidden="true"><use href="#logo-mark"/></svg>
-      <span class="brand__text">
-        <span class="brand__kicker">Card collection checklists</span>
-        <span class="brand__title"><span class="brand__gold">Binder</span> Tracker</span>
-      </span>
+      <span class="brand__title">Binder Tracker</span>
     </a>
+    <nav class="site-nav" aria-label="Main">
+      <a href="./" aria-current="page"><svg aria-hidden="true"><use href="#i-home"/></svg><span class="site-nav__label">Home</span></a>
+    </nav>
     <div class="appbar__actions">
-      <button class="icon-btn icon-btn--header" type="button" data-open="scan" title="Scan a card" aria-label="Scan a card"><svg><use href="#i-camera"/></svg></button>
-      <button class="icon-btn icon-btn--header" type="button" data-open="menu" title="Menu" aria-label="Menu"><svg><use href="#i-dots"/></svg></button>
+      <span class="appbar__tools desktop-only">
+        <button class="icon-btn icon-btn--header" type="button" data-open="scan" title="Scan a card" aria-label="Scan a card"><svg><use href="#i-camera"/></svg></button>
+        <button class="icon-btn icon-btn--header" type="button" popovertarget="pop-backup" title="Backup" aria-label="Backup"><svg><use href="#i-download"/></svg></button>
+      </span>
+      <button class="icon-btn icon-btn--header" type="button" popovertarget="pop-theme" title="Theme" aria-label="Theme"><svg data-theme-icon><use href="#i-monitor"/></svg></button>
+      <button class="hdr-btn" type="button" popovertarget="pop-currency" title="Currency" aria-label="Currency"><span data-currency-label>£ GBP</span><svg class="hdr-btn__caret" aria-hidden="true"><use href="#i-caret"/></svg></button>
+      <a class="pf-pill" href="portfolio/" data-portfolio-pill aria-label="Portfolio"><svg aria-hidden="true"><use href="#i-portfolio"/></svg><span data-portfolio-value>Portfolio</span></a>
+      <button class="icon-btn icon-btn--header mobile-only" type="button" data-open="menu" title="Menu" aria-label="Menu"><svg><use href="#i-menu"/></svg></button>
     </div>
   </div>
 </header>
+
+<div class="pop" id="pop-theme" popover>
+  <p class="pop__label">Theme</p>
+  <button type="button" class="pop__item" data-theme-choice="system"><svg><use href="#i-monitor"/></svg>Auto</button>
+  <button type="button" class="pop__item" data-theme-choice="light"><svg><use href="#i-sun"/></svg>Light</button>
+  <button type="button" class="pop__item" data-theme-choice="dark"><svg><use href="#i-moon"/></svg>Dark</button>
+</div>
+<div class="pop" id="pop-currency" popover>
+  <p class="pop__label">Currency</p>
+  <button type="button" class="pop__item" data-currency-choice="gbp">£ Pounds</button>
+  <button type="button" class="pop__item" data-currency-choice="usd">$ Dollars</button>
+  <button type="button" class="pop__item" data-currency-choice="eur">€ Euros</button>
+</div>
+<div class="pop" id="pop-backup" popover>
+  <button type="button" class="pop__item" data-open="export"><svg><use href="#i-download"/></svg><span><b>Export backup</b><small data-last-backup>Every set you’re collecting, as a code or a file</small></span></button>
+  <button type="button" class="pop__item" data-open="import"><svg><use href="#i-upload"/></svg><span><b>Import backup</b><small>Paste a code or link, or choose a file</small></span></button>
+</div>
 
 <div class="banner" id="storage-banner" hidden role="status">
   <div class="wrap">Your browser is blocking storage, so progress won’t be saved after you close this page.</div>
@@ -141,7 +169,7 @@
 <main id="sets" class="home wrap" tabindex="-1">
   <section class="home-hero">
     <h1 class="home-hero__title">Every card in your binder, <span class="brand__gold">ticked off</span></h1>
-    <p class="home-hero__text">Free checklists for {{setCount}} Pokémon TCG sets, their promos, trainer kits and more. Mark the cards you own, count spare copies, plan binder pages and see what your collection is worth. No sign-up, and it works offline.</p>
+    <p class="home-hero__text">Free checklists for {{setCount}} Pokémon TCG sets. Tick off what you own, track spare copies and see what your collection is worth. No sign-up, works offline.</p>
     <label class="search home-search">
       <svg class="search__icon" aria-hidden="true"><use href="#i-search"/></svg>
       <input type="search" class="search__input" id="set-search" placeholder="Find a set, e.g. Surging Sparks or SSP" aria-label="Find a set" autocomplete="off" enterkeyhint="search">
@@ -186,28 +214,11 @@
     <div class="sheet__body menu">
       <div class="menu__group">
         <button type="button" class="menu__item" data-open="scan"><svg><use href="#i-camera"/></svg><span><b>Scan a card</b><small>Point your camera at a card to add it to its set</small></span></button>
-        <a class="menu__item" href="portfolio/"><svg><use href="#i-chart"/></svg><span><b>Portfolio</b><small>What your collection is worth, and how it’s changed</small></span></a>
       </div>
       <div class="menu__group">
         <h3 class="menu__label">Backup</h3>
         <button type="button" class="menu__item" data-open="export"><svg><use href="#i-download"/></svg><span><b>Export backup</b><small data-last-backup>Every set you’re collecting, as a code or a file</small></span></button>
         <button type="button" class="menu__item" data-open="import"><svg><use href="#i-upload"/></svg><span><b>Import backup</b><small>Paste a code or link, or choose a file</small></span></button>
-      </div>
-      <div class="menu__group">
-        <h3 class="menu__label">Appearance</h3>
-        <div class="seg seg--full" role="group" aria-label="Theme">
-          <button type="button" class="seg__btn" data-theme-choice="system"><svg><use href="#i-monitor"/></svg>Auto</button>
-          <button type="button" class="seg__btn" data-theme-choice="light"><svg><use href="#i-sun"/></svg>Light</button>
-          <button type="button" class="seg__btn" data-theme-choice="dark"><svg><use href="#i-moon"/></svg>Dark</button>
-        </div>
-      </div>
-      <div class="menu__group">
-        <h3 class="menu__label">Currency</h3>
-        <div class="seg seg--full" role="group" aria-label="Currency">
-          <button type="button" class="seg__btn" data-currency-choice="gbp">£ Pounds</button>
-          <button type="button" class="seg__btn" data-currency-choice="usd">$ Dollars</button>
-          <button type="button" class="seg__btn" data-currency-choice="eur">€ Euros</button>
-        </div>
       </div>
     </div>
   </div>

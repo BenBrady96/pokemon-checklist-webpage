@@ -1,7 +1,6 @@
 import { readFile } from 'node:fs/promises';
 import { join } from 'node:path';
-import { CONFIG, GAMES, dataDir, loadCatalog, loadModel, loadRaw } from './collections.mjs';
-import { compileTheme, themeCss } from './theme.mjs';
+import { GAMES, dataDir, loadCatalog, loadModel, loadRaw } from './collections.mjs';
 import { ROOT, exists, readJson } from './util.mjs';
 import { TIER_DEFS } from '../../js/model.js';
 import { formatMoney, ratesOf } from '../../js/pricing.js';
@@ -34,9 +33,7 @@ export async function ogImageFor(id) {
 export async function collectionPage(id, { siteUrl = DEFAULT_URL } = {}) {
   const [template, raw] = await Promise.all([readFile(join(ROOT, 'collection.html'), 'utf8'), loadRaw(id)]);
   const model = await loadModel(id, { raw });
-  const entry = CONFIG.find((e) => e.id === id);
   const game = GAMES[raw.game];
-  const theme = compileTheme(entry.theme);
   const url = `${siteUrl}${id}/`;
   const ogImage = `${siteUrl}${await ogImageFor(id)}`;
   const seo = raw.seo || {};
@@ -74,33 +71,30 @@ export async function collectionPage(id, { siteUrl = DEFAULT_URL } = {}) {
       },
     ],
   };
-  const css = themeCss(theme);
   const html = fill(template, {
     id,
     title: `${title} | Binder Tracker`,
     description,
     url,
-    themeColor: theme.themeColor,
     ogTitle,
     ogDescription: seo.ogDescription || description,
     twitterDescription: seo.twitterDescription || seo.ogDescription || description,
     ogImage,
     imageAlt: seo.imageAlt || `${raw.name} card checklist`,
-    themeStyle: css ? `<style>${css}</style>` : '',
     jsonLd: jsonScript(jsonLd),
     gameName: game.name,
     name: raw.name,
     aboutTitle: raw.about?.title || `About the ${raw.name} set`,
     aboutHtml: (raw.about?.paragraphs || []).map((p) => `<p>${p}</p>`).join('\n  '),
     disclaimer: game.disclaimer,
+    setArt: (await exists(join(ROOT, `img/sets/${id}/logo.webp`))) ? `<img class="set-hero__logo" src="img/sets/${id}/logo.webp" alt="" decoding="async">` : '',
+    setMeta: [game.name, model.released ? releaseText(model.released) : '', `${complete} cards`].filter(Boolean).join(' · '),
   });
   return prefixUrls(html, '../'.repeat(id.split('/').length));
 }
 
 const MONTH = new Intl.DateTimeFormat('en-GB', { month: 'short', year: 'numeric', timeZone: 'UTC' });
 export const releaseText = (date) => MONTH.format(new Date(`${date}T00:00:00Z`));
-
-const tileStyle = (c) => Object.entries(c.tile).map(([k, v]) => `${k}:${v}`).join(';');
 
 const PRICED_SHARE = 0.7;
 
@@ -134,13 +128,13 @@ export function tileHtml(c, value) {
     : c.cover?.symbol
       ? `<svg class="set-tile__mark" aria-hidden="true"><use href="#${c.cover.symbol}"/></svg>`
       : `<span class="set-tile__wordmark">${escapeHtml(c.name)}</span>`;
-  return `<a class="set-tile" href="${c.id}/" data-id="${escapeHtml(c.id)}"${value ? ` data-values="${escapeHtml(JSON.stringify(value))}"` : ''} style="${tileStyle(c)}">`
+  return `<a class="set-tile" href="${c.id}/" data-id="${escapeHtml(c.id)}"${value ? ` data-values="${escapeHtml(JSON.stringify(value))}"` : ''}>`
     + `<span class="set-tile__art">${art}</span>`
     + '<span class="set-tile__body">'
     + `<span class="set-tile__name">${escapeHtml(c.name)}</span>`
     + `<span class="set-tile__meta">${releaseText(c.released)} · ${c.total} cards</span>`
-    + '<span class="set-tile__progress" hidden><span class="bar" aria-hidden="true"><i></i></span><span class="set-tile__count"></span></span>'
-    + `<span class="set-tile__value"${total == null ? ' hidden>' : `>${formatMoney(total, { rates: value.rates, short: true, approx: true })}`}</span>`
+    + '<span class="set-tile__progress"><span class="bar" aria-hidden="true"><i></i></span><span class="set-tile__count"></span><span class="set-tile__none">No cards collected</span></span>'
+    + `<span class="set-tile__value value-pill"${total == null ? ' hidden>' : `>${formatMoney(total, { rates: value.rates, short: true, approx: true })}`}</span>`
     + '</span></a>';
 }
 

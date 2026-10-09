@@ -9,26 +9,14 @@ import { initPWA } from './pwa.js';
 import { mergeBackupHistory, recordSnapshot } from './history.js';
 import { formatMoney } from './pricing.js';
 import { collectionWorth } from './worth.js';
+import { initHeader, showWorth } from './header.js';
 
-const html = document.documentElement;
 const search = document.getElementById('set-search');
 const continueSection = document.getElementById('continue');
 const continueGrid = document.getElementById('continue-grid');
 const noMatch = document.getElementById('no-match');
 const plural = (n, one, many) => `${n} ${n === 1 ? one : many}`;
 let catalog = { games: [], collections: [] };
-
-function applyTheme() {
-  const { theme } = storage.getPrefs();
-  if (theme === 'light' || theme === 'dark') html.dataset.theme = theme;
-  else delete html.dataset.theme;
-  for (const b of document.querySelectorAll('[data-theme-choice]')) b.setAttribute('aria-pressed', String(b.dataset.themeChoice === theme));
-}
-
-function applyCurrency() {
-  const { currency } = storage.getPrefs();
-  for (const b of document.querySelectorAll('[data-currency-choice]')) b.setAttribute('aria-pressed', String(b.dataset.currencyChoice === currency));
-}
 
 const tilesFor = (id) => document.querySelectorAll(`.set-tile[data-id="${CSS.escape(id)}"]`);
 const summaryTried = new Set();
@@ -80,6 +68,7 @@ async function refreshWorth() {
   for (const s of worth.sets) worthById.set(s.id, s);
   paintValues();
   if (worth.loaded) recordSnapshot(worth);
+  showWorth(worth);
 }
 
 const summaryIsCurrent = (c, summary) => Boolean(summary) && c.tiers.some((t) => t.id === summary.tier && t.count === summary.total);
@@ -103,7 +92,7 @@ function showProgress() {
     if (owned && !summaryTried.has(c.id) && !summaryIsCurrent(c, summary)) stale.push(c.id);
     for (const tile of tilesFor(c.id)) {
       const progress = tile.querySelector('.set-tile__progress');
-      progress.hidden = !owned;
+      progress.classList.toggle('has-cards', Boolean(owned));
       if (!owned) continue;
       const total = summary?.total;
       const count = summary ? summary.owned : owned;
@@ -220,14 +209,18 @@ function openScanner() {
   );
 }
 
+function paintLastBackup() {
+  const last = storage.getPrefs().lastBackup;
+  for (const el of document.querySelectorAll('[data-last-backup]')) {
+    el.textContent = last ? `Last backup ${formatAgo(last)}` : 'Every set you’re collecting, as a code or a file';
+  }
+}
+
 async function openNamed(name) {
   if (name === 'scan') return openScanner();
   const dlg = document.getElementById(`dlg-${name}`);
   if (!dlg) return;
-  if (name === 'menu') {
-    const last = storage.getPrefs().lastBackup;
-    dlg.querySelector('[data-last-backup]').textContent = last ? `Last backup ${formatAgo(last)}` : 'Every set you’re collecting, as a code or a file';
-  }
+  if (name === 'menu') paintLastBackup();
   if (name === 'export') {
     const box = document.getElementById('export-code');
     box.value = '';
@@ -272,19 +265,14 @@ const actions = {
 
 function wire() {
   document.addEventListener('click', (e) => {
-    const t = e.target.closest('[data-open], [data-action], [data-theme-choice], [data-currency-choice]');
+    const t = e.target.closest('[data-open], [data-action]');
     if (!t) return;
     if (t.dataset.open) openNamed(t.dataset.open);
-    else if (t.dataset.action) actions[t.dataset.action]?.();
-    else if (t.dataset.currencyChoice) storage.setPref('currency', t.dataset.currencyChoice);
-    else storage.setPref('theme', t.dataset.themeChoice);
+    else actions[t.dataset.action]?.();
   });
   storage.onPrefChange((key) => {
-    if (key === 'theme') applyTheme();
-    if (key === 'currency') {
-      applyCurrency();
-      paintValues();
-    }
+    if (key === 'currency') paintValues();
+    if (key === 'lastBackup') paintLastBackup();
   });
   search.addEventListener('input', filterSets);
   search.addEventListener('keydown', (e) => {
@@ -322,8 +310,8 @@ function wire() {
 
 async function init() {
   initDialogs();
-  applyTheme();
-  applyCurrency();
+  initHeader();
+  paintLastBackup();
   wire();
   if (!storage.isStorageOk()) document.getElementById('storage-banner').hidden = false;
   initImport({

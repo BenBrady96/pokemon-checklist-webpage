@@ -104,7 +104,6 @@ migrate();
 
 const DEFAULT_PREFS = {
   view: 'grid',
-  images: true,
   size: 'm',
   mode: 'check',
   sort: 'set',

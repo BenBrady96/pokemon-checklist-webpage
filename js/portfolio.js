@@ -7,6 +7,7 @@ import { readHistory, recordSnapshot, today, addDays, parseDay } from './history
 import { convert, formatAmount, formatMoney, priceDate, ratesOf, shownCurrency } from './pricing.js';
 import { lineChart } from './chart.js';
 import { hideLoader } from './ui.js';
+import { initHeader } from './header.js';
 
 const RANGES = [
   { id: '7d', label: '7D', days: 7, phrase: 'in the past week' },
@@ -282,7 +283,6 @@ function renderNote() {
 }
 
 function render() {
-  for (const b of document.querySelectorAll('[data-currency]')) b.setAttribute('aria-pressed', String(b.dataset.currency === chosen()));
   renderRange();
   renderTop();
   renderSets();
@@ -300,15 +300,13 @@ function wire() {
       renderRange();
     },
   }, r.label)));
-  for (const b of document.querySelectorAll('[data-currency]')) {
-    b.addEventListener('click', () => {
-      storage.setPref('currency', b.dataset.currency);
-      render();
-    });
-  }
+  storage.onPrefChange((key) => {
+    if (key === 'currency' && worth) render();
+  });
 }
 
 async function init() {
+  initHeader();
   if (!storage.isStorageOk()) document.getElementById('storage-banner').hidden = false;
   wire();
   catalog = await loadCatalog().catch(() => catalog);

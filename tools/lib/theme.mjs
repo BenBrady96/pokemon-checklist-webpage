@@ -152,21 +152,3 @@ export function compileTheme(input = {}) {
 
   return { light, dark, themeColor: light['--chrome-2'], isDefault: false };
 }
-
-const declarations = (vars) => Object.entries(vars).map(([k, v]) => `${k}:${v}`).join(';');
-
-export function themeCss(theme) {
-  if (!theme || theme.isDefault) return '';
-  return `:root{${declarations(theme.light)}}`
-    + `@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){${declarations(theme.dark)}}}`
-    + `:root[data-theme="dark"]{${declarations(theme.dark)}}`;
-}
-
-export function tileVars(theme) {
-  const l = theme.light;
-  return {
-    '--t-chrome-0': l['--chrome-0'], '--t-chrome-1': l['--chrome-1'], '--t-chrome-2': l['--chrome-2'],
-    '--t-theme': l['--theme'], '--t-bright': l['--theme-bright'], '--t-hi': l['--theme-hi'], '--t-lo': l['--theme-lo'],
-    '--t-on-theme': l['--on-theme'], '--t-ink': l['--chrome-ink'],
-  };
-}

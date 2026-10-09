@@ -18,7 +18,8 @@ import { loadCatalog, collectionUrl } from './catalog.js';
 import { celebrate } from './confetti.js';
 import { initPWA, offlineSupported, countSavedImages, saveImagesOffline } from './pwa.js';
 import { mergeBackupHistory } from './history.js';
-import { setCurrency } from './pricing.js';
+import { setCurrency, formatPrice, hasPrices } from './pricing.js';
+import { initHeader, refreshWorth } from './header.js';
 import {
   initDialogs, openDialog, closeDialog, openDialogs, toast, announce, confirmAction, copyText, reducedMotion,
 } from './ui.js';
@@ -86,7 +87,7 @@ const activeFilterCount = () => (filters.status !== 'all' ? 1 : 0) + filters.rar
 function filtersChanged() {
   applyFilters();
   syncControls();
-  requestAnimationFrame(() => updateImageSources(root, store.getPrefs().images));
+  requestAnimationFrame(() => updateImageSources(root));
 }
 
 function clearFilters() {
@@ -104,7 +105,7 @@ function setQuery(text) {
   syncControls();
   const top = root.getBoundingClientRect().top + window.scrollY - stickyTop() - 8;
   if (window.scrollY > top) window.scrollTo({ top: Math.max(0, top) });
-  requestAnimationFrame(() => updateImageSources(root, store.getPrefs().images));
+  requestAnimationFrame(() => updateImageSources(root));
 }
 
 let staleQueued = false;
@@ -132,10 +133,7 @@ function applyPrefs() {
   html.dataset.view = p.view;
   html.dataset.size = p.size;
   html.dataset.mode = p.mode;
-  html.dataset.images = p.images ? 'on' : 'off';
   html.dataset.dim = p.dim ? 'on' : 'off';
-  if (p.theme === 'light' || p.theme === 'dark') html.dataset.theme = p.theme;
-  else delete html.dataset.theme;
   syncControls();
 }
 
@@ -175,7 +173,7 @@ store.onPrefChange((key) => {
     updatePrices();
     queueStats();
   }
-  else if (key === 'size' || key === 'images') requestAnimationFrame(() => updateImageSources(root, store.getPrefs().images));
+  else if (key === 'size') requestAnimationFrame(() => updateImageSources(root));
   if (key === 'mode') {
     const count = store.getPrefs().mode === 'count';
     toast(count ? 'Count mode: each tap adds a copy. Use − to remove one.' : 'Check mode: tap to mark cards owned.', {
@@ -334,7 +332,7 @@ function remount(keepPosition = false) {
   updateSectionCounts(root);
   requestAnimationFrame(() => {
     updateStickyTop();
-    updateImageSources(root, p.images);
+    updateImageSources(root);
     if (anchor?.isConnected && !anchor.hidden) scrollToElement(anchor, { smooth: false });
     updateScrollSpy();
   });
@@ -358,7 +356,10 @@ function refreshStats() {
   document.querySelector('[data-stat="total"]').textContent = set.total;
   document.querySelector('[data-stat="pct"]').textContent = `${percent(set.owned, set.total)}%`;
   document.querySelector('[data-stat="bar"]').style.setProperty('--p', set.owned / set.total);
-  document.querySelector('.progress-pill').setAttribute('aria-label', `${COLLECTION.single ? COLLECTION.name : s.tier.name} progress — open statistics`);
+  document.querySelector('.set-progress').setAttribute('aria-label', `${COLLECTION.single ? COLLECTION.name : s.tier.name}: ${set.owned} of ${set.total} cards. Open statistics`);
+  const value = document.querySelector('[data-stat="value"]');
+  value.hidden = !hasPrices() || !(s.value > 0);
+  value.textContent = value.hidden ? '' : formatPrice(s.value, { short: true, approx: true });
   for (const el of jumpbar.querySelectorAll('[data-jump-count]')) {
     const g = s.byGroup[el.dataset.jumpCount];
     el.textContent = `${g.owned}/${g.total}`;
@@ -445,7 +446,13 @@ function bulk(ids, kind) {
   onCommit(entry, { kind: 'bulk' });
 }
 
+let worthTimer = 0;
+
 store.subscribe((ids, meta) => {
+  if (meta.source !== 'preview') {
+    clearTimeout(worthTimer);
+    worthTimer = setTimeout(refreshWorth, 1200);
+  }
   if (ids) for (const id of ids) updateCard(id);
   else for (const id of refs.keys()) updateCard(id);
   if (meta.source !== 'external' && meta.source !== 'preview') celebrateNext = true;
@@ -584,20 +591,24 @@ const formatAgo = (ts) => {
 
 const imageUrls = () => [...new Set(CARDS.filter((c) => COLLECTION.hasImage(c)).map((c) => COLLECTION.imageUrl(c, 'sm')))];
 
+const setText = (selector, text) => {
+  for (const el of document.querySelectorAll(selector)) el.textContent = text;
+};
+
 async function prepareMenu() {
   const shown = shownIds().length;
-  document.querySelector('[data-shown-count]').textContent = `Applies to the ${shown} card${shown === 1 ? '' : 's'} currently shown`;
+  setText('[data-shown-count]', `Applies to the ${shown} card${shown === 1 ? '' : 's'} currently shown`);
   const last = store.getPrefs().lastBackup;
-  document.querySelector('[data-last-backup]').textContent = last ? `Last backup ${formatAgo(last)}` : 'Copy a code or save a file';
-  const item = document.querySelector('[data-offline-item]');
-  item.hidden = !offlineSupported();
-  if (!item.hidden) {
+  setText('[data-last-backup]', last ? `Last backup ${formatAgo(last)}` : 'Copy a code or save a file');
+  const supported = offlineSupported();
+  for (const item of document.querySelectorAll('[data-offline-item]')) item.hidden = !supported;
+  if (supported) {
     const urls = imageUrls();
     const saved = await countSavedImages(urls);
     const mb = Math.max(1, Math.round((urls.length * 21) / 1024));
-    document.querySelector('[data-offline-status]').textContent = saved >= urls.length
+    setText('[data-offline-status]', saved >= urls.length
       ? 'All card images saved ✓'
-      : saved ? `${saved} of ${urls.length} saved — tap to save the rest` : `Use the checklist with no signal (about ${mb} MB)`;
+      : saved ? `${saved} of ${urls.length} saved — tap to save the rest` : `Use the checklist with no signal (about ${mb} MB)`);
   }
 }
 
@@ -767,6 +778,7 @@ function wireControls() {
     if (t.matches('[data-pref][data-value]')) {
       const key = t.dataset.pref;
       store.setPref(key, key === 'pockets' ? Number(t.dataset.value) : t.dataset.value);
+      if (t.dataset.setView) store.setPref('view', t.dataset.setView);
     } else if (t.matches('[data-pref-toggle]')) {
       const key = t.dataset.prefToggle;
       store.setPref(key, !store.getPrefs()[key]);
@@ -797,6 +809,11 @@ function wireControls() {
     selectSheetTab(e.target.dataset.sheetTab === 'filter' ? 'view' : 'filter', { focus: true });
   });
   desktopQuery.addEventListener('change', () => selectSheetTab('filter'));
+  for (const id of ['pop-backup', 'pop-actions']) {
+    document.getElementById(id).addEventListener('beforetoggle', (e) => {
+      if (e.newState === 'open') prepareMenu();
+    });
+  }
 
   for (const select of document.querySelectorAll('[data-pref-select]')) {
     select.addEventListener('change', () => store.setPref(select.dataset.prefSelect, select.value));
@@ -891,7 +908,7 @@ function wireControls() {
     clearTimeout(resizeTimer);
     resizeTimer = setTimeout(() => {
       updateStickyTop();
-      updateImageSources(root, store.getPrefs().images);
+      updateImageSources(root);
     }, 150);
   });
   new ResizeObserver(updateStickyTop).observe(topbar);
@@ -938,6 +955,7 @@ function fillHelp() {
 
 function init() {
   initDialogs();
+  initHeader();
   setCurrency(store.getPrefs().currency);
   buildCards();
   buildTierPicker();
@@ -1008,9 +1026,10 @@ function init() {
   updateStickyTop();
   requestAnimationFrame(() => {
     updateStickyTop();
-    updateImageSources(root, p.images);
+    updateImageSources(root);
     updateScrollSpy();
   });
+  setTimeout(refreshWorth, 1500);
 
   if (!store.isStorageOk()) document.getElementById('storage-banner').hidden = false;
   checkIncomingLink();

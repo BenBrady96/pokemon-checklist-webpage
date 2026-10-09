@@ -111,13 +111,6 @@ export function buildCollection(raw, { game, colors = {}, imageBase = '', remote
   for (const c of cards) if (c.code) codes.set(c.code.toUpperCase(), c.id);
   const sparseCodes = new Set(cards.filter((c) => c.variant && c.code).map((c) => c.code.replace(/\d+$/, '').toUpperCase()));
 
-  const tiles = new Map();
-  for (const r of rarities) if (r.tile) tiles.set(`[data-rarity="${r.id}"]`, r.tile);
-  for (const c of cards) {
-    const type = c.type && game.ENERGY_TYPES?.[c.type];
-    if (type?.tile) tiles.set(`[data-type="${c.type}"]`, type.tile);
-  }
-
   return {
     ...raw,
     game,
@@ -143,7 +136,6 @@ export function buildCollection(raw, { game, colors = {}, imageBase = '', remote
     quickAdd: raw.quickAdd || {},
     info: raw.info || {},
     maxIdx: cards.reduce((m, c) => Math.max(m, c.idx), -1),
-    tileRules: [...tiles].map(([selector, tile]) => `.card${selector}{--tile:${tile}}`).join(''),
     logoUrl: logo,
     hasImage: (card) => Object.hasOwn(colors, card.imageId),
     imageColor: (card, fallback = '#6a6f8f') => colors[card.imageId] || fallback,

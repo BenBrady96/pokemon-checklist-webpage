@@ -24,6 +24,7 @@ const SHELL = [
   'js/collection.js',
   'js/confetti.js',
   'js/gestures.js',
+  'js/header.js',
   'js/history.js',
   'js/home.js',
   'js/info.js',

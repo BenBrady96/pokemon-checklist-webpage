@@ -7,7 +7,8 @@
   <meta name="description" content="How Binder Tracker handles your data: no cookies, no tracking and no accounts. Your collections are stored only on your own device.">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://benbrady96.github.io/pokemon-checklist-webpage/privacy.html">
-  <meta name="theme-color" content="#0E1433">
+  <meta name="theme-color" content="#F7F7F8" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0B0B0D" media="(prefers-color-scheme: dark)">
   <meta name="color-scheme" content="light dark">
   <link rel="icon" href="img/icons/favicon.svg" type="image/svg+xml">
   <link rel="icon" href="img/icons/favicon-32.png" sizes="32x32" type="image/png">
@@ -25,13 +26,22 @@
 <header class="appbar">
   <div class="wrap appbar__inner">
     <a class="brand" href="./">
-      <img class="brand__mark" src="img/icons/favicon.svg" alt="" width="40" height="40">
-      <span class="brand__text">
-        <span class="brand__kicker">Card collection checklists</span>
-        <span class="brand__title"><span class="brand__gold">Binder</span> Tracker</span>
-      </span>
+      <svg class="brand__mark" viewBox="0 0 512 512" aria-hidden="true">
+        <defs><linearGradient id="g-mark" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFE9A3"/><stop offset=".45" stop-color="#F2C14E"/><stop offset="1" stop-color="#C98E1E"/></linearGradient></defs>
+        <rect x="120" y="94" width="290" height="324" rx="40" fill="none" stroke="url(#g-mark)" stroke-width="22"/>
+        <path d="M92 172h56M92 256h56M92 340h56" stroke="url(#g-mark)" stroke-width="22" stroke-linecap="round"/>
+        <g fill="url(#g-mark)"><rect x="176" y="138" width="60" height="76" rx="10"/><rect x="250" y="138" width="60" height="76" rx="10"/><rect x="324" y="138" width="60" height="76" rx="10"/><rect x="176" y="226" width="60" height="76" rx="10"/><rect x="250" y="226" width="60" height="76" rx="10"/><rect x="176" y="314" width="60" height="76" rx="10"/></g>
+        <g fill="none" stroke="url(#g-mark)" stroke-width="8" opacity=".55"><rect x="328" y="230" width="52" height="68" rx="8"/><rect x="254" y="318" width="52" height="68" rx="8"/><rect x="328" y="318" width="52" height="68" rx="8"/></g>
+        <path d="M414 60 l10 26 26 10 -26 10 -10 26 -10 -26 -26 -10 26 -10z" fill="#FFE9A3"/>
+      </svg>
+      <span class="brand__title">Binder Tracker</span>
     </a>
-    <a class="btn btn--primary btn--sm" href="./">Browse sets</a>
+    <nav class="site-nav" aria-label="Main">
+      <a href="./" title="Home"><svg viewBox="0 0 24 24" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 10.5L12 4l8 6.5"/><path d="M6 9v10.5h4.5V14h3v5.5H18V9"/></g></svg><span class="site-nav__label">Home</span></a>
+    </nav>
+    <div class="appbar__actions">
+      <a class="pf-pill" href="portfolio/"><svg viewBox="0 0 24 24" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 16.5l5.5-5.5 4 4 7.5-7.5"/><path d="M15 7.5h5.5V13"/></g></svg><span>Portfolio</span></a>
+    </div>
   </div>
 </header>
 
