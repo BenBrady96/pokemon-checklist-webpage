@@ -6,6 +6,7 @@ import { decodeList, UNSUPPORTED } from './trade-code.js';
 import { loadSets, makeValuer } from './trade-data.js';
 import { initDialogs, openDialog, hideLoader } from './ui.js';
 import { initHeader } from './header.js';
+import { initInstallBanner } from './pwa.js';
 
 const KEY = 'bt:v1:lists';
 const TABS = [
@@ -351,6 +352,7 @@ function wire() {
 async function init() {
   initDialogs();
   initHeader();
+  initInstallBanner();
   wire();
   try {
     await load();

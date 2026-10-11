@@ -616,6 +616,16 @@ a.btn { text-decoration: none; }
 .preview-banner__text span { color: rgba(255, 255, 255, .75); }
 .preview-banner__actions { display: flex; gap: 8px; }
 .preview-banner .btn--ghost { background: rgba(255, 255, 255, .1); border-color: rgba(255, 255, 255, .2); color: #fff; }
+
+.install-banner { background: var(--chrome-1); color: var(--chrome-ink); border-bottom: 1px solid var(--line); }
+.install-banner__inner { display: flex; align-items: flex-start; gap: 12px; padding-block: 10px; }
+.install-banner__mark { display: none; flex: none; width: 36px; height: 36px; padding: 6px; border-radius: 10px; background: var(--mark-bg); box-shadow: inset 0 0 0 1px rgba(255, 255, 255, .14); }
+@media (min-width: 600px) { .install-banner__mark { display: block; } }
+.install-banner__text { flex: 1; min-width: 0; margin: 2px 0 0; font-size: .88rem; line-height: 1.45; }
+.install-banner__text span { color: rgba(255, 255, 255, .75); }
+.install-banner__text span b { color: var(--chrome-ink); }
+.install-banner__glyph { width: 15px; height: 15px; vertical-align: -2px; }
+.install-banner__actions { display: flex; flex: none; align-items: center; gap: 4px; }
 .btn--sm { min-height: 34px; padding: 0 14px; font-size: .84rem; }
 
 .card__qty::before { content: "×"; margin-right: 1px; }

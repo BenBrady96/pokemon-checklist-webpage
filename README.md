@@ -157,7 +157,7 @@ The build fails if a JS, CSS or HTML file is missing from the offline file list 
 
 | Key | Contents |
 |---|---|
-| `bt:v1:prefs` | Site-wide preferences, plus `tiers: { collectionId: tier }` |
+| `bt:v1:prefs` | Site-wide preferences, plus `tiers: { collectionId: tier }` and `installBanner: { closes, at }` (the Home Screen banner comes back once, 30 days after it's first closed) |
 | `bt:v1:c:<collectionId>` | `{ v, q: { cardId: copies }, updated, summary }`. The summary (`tier`, `owned`, `total`) is what the home page shows |
 | `bt:v1:trade` | The Trade page: the current draft (`give`/`get` lines of `{ set, card, qty }`), the friend's resolved counts, past trades, the chosen name and list settings. Not included in backups |
 

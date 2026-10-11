@@ -6,7 +6,7 @@ import { convert, formatAmount, priceDate } from './pricing.js';
 import { renderQr } from './sync.js';
 import { initDialogs, openDialog, closeDialog, confirmAction, toast, announce, copyText, hideLoader, reducedMotion } from './ui.js';
 import { initHeader } from './header.js';
-import { initPWA } from './pwa.js';
+import { initPWA, initInstallBanner } from './pwa.js';
 import { encodeTrade, encodeProposal, readTradeText, cleanName, newId, UNSUPPORTED } from './trade-code.js';
 import {
   SIDES, readTrade, saveTrade, isTradeKey, loadSets, mySide, resolveFriend, resolveProposal, standing, buildLists,
@@ -1060,6 +1060,7 @@ async function init() {
   initDialogs();
   initHeader();
   if (!storage.isStorageOk()) document.getElementById('storage-banner').hidden = false;
+  initInstallBanner();
   wire();
   try {
     catalog = await loadCatalog();

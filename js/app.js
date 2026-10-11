@@ -16,7 +16,7 @@ import {
 import { resolveCodes, resolveBackup, allCounts, backupCode, applyEntries, catalogEntryFor } from './transfer.js';
 import { loadCatalog, collectionUrl } from './catalog.js';
 import { celebrate } from './confetti.js';
-import { initPWA, offlineSupported, countSavedImages, saveImagesOffline } from './pwa.js';
+import { initPWA, initInstallBanner, offlineSupported, countSavedImages, saveImagesOffline } from './pwa.js';
 import { mergeBackupHistory } from './history.js';
 import { setCurrency, formatPrice, hasPrices } from './pricing.js';
 import { initHeader, refreshWorth } from './header.js';
@@ -1039,6 +1039,7 @@ function init() {
   setTimeout(refreshWorth, 1500);
 
   if (!store.isStorageOk()) document.getElementById('storage-banner').hidden = false;
+  initInstallBanner();
   checkIncomingLink();
   initPWA();
 

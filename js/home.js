@@ -5,7 +5,7 @@ import * as storage from './storage.js';
 import { parseSyncText, parseBackup, askIncoming, initImport, exportFile } from './sync.js';
 import { resolveCodes, resolveBackup, allCounts, backupCode, applyEntries, catalogEntryFor } from './transfer.js';
 import { initDialogs, openDialog, closeDialog, toast, copyText, hideLoader } from './ui.js';
-import { initPWA } from './pwa.js';
+import { initPWA, initInstallBanner } from './pwa.js';
 import { mergeBackupHistory, recordSnapshot } from './history.js';
 import { formatMoney } from './pricing.js';
 import { collectionWorth } from './worth.js';
@@ -314,6 +314,7 @@ async function init() {
   paintLastBackup();
   wire();
   if (!storage.isStorageOk()) document.getElementById('storage-banner').hidden = false;
+  initInstallBanner();
   initImport({
     async onImport(incoming) {
       try {

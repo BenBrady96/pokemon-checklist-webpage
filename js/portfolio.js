@@ -8,6 +8,7 @@ import { convert, formatAmount, formatMoney, priceDate, ratesOf, shownCurrency }
 import { lineChart } from './chart.js';
 import { hideLoader } from './ui.js';
 import { initHeader } from './header.js';
+import { initInstallBanner } from './pwa.js';
 
 const RANGES = [
   { id: '7d', label: '7D', days: 7, phrase: 'in the past week' },
@@ -308,6 +309,7 @@ function wire() {
 async function init() {
   initHeader();
   if (!storage.isStorageOk()) document.getElementById('storage-banner').hidden = false;
+  initInstallBanner();
   wire();
   catalog = await loadCatalog().catch(() => catalog);
   const ids = storage.storedCollections().map(({ id }) => id).filter((id) => catalog.collections.some((c) => c.id === id));

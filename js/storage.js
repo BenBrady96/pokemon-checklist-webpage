@@ -117,6 +117,7 @@ const DEFAULT_PREFS = {
   tierScheme: TIER_SCHEME,
   scanScope: 'set',
   currency: 'gbp',
+  installBanner: null,
 };
 
 let prefs = { ...DEFAULT_PREFS, ...(read(PREFS_KEY) || {}) };
