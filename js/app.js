@@ -20,6 +20,7 @@ import { initPWA, offlineSupported, countSavedImages, saveImagesOffline } from '
 import { mergeBackupHistory } from './history.js';
 import { setCurrency, formatPrice, hasPrices } from './pricing.js';
 import { initHeader, refreshWorth } from './header.js';
+import { initListShare, prepareListShare } from './list-share.js';
 import {
   initDialogs, openDialog, closeDialog, openDialogs, toast, announce, confirmAction, copyText, reducedMotion,
 } from './ui.js';
@@ -40,6 +41,7 @@ const bottombar = document.querySelector('.bottombar');
 const DIALOGS = {
   filters: 'dlg-filters', menu: 'dlg-menu', stats: 'dlg-stats',
   quickadd: 'dlg-quickadd', share: 'dlg-share', help: 'dlg-help', export: 'dlg-export', import: 'dlg-import',
+  list: 'dlg-list',
 };
 const RANGE_JUMPS = JUMPS.filter((j) => j.from && j.to);
 
@@ -759,6 +761,10 @@ function openNamed(name) {
   if (name === 'filters') selectSheetTab('filter');
   if (name === 'stats') document.getElementById('stats-body').innerHTML = renderStats(compute());
   if (name === 'share') prepareShare();
+  if (name === 'list') {
+    if (store.isPreview()) return blocked();
+    prepareListShare();
+  }
   if (name === 'export') prepareExport();
   if (name === 'menu') prepareMenu();
   openDialog(dlg);
@@ -998,6 +1004,7 @@ function init() {
       return true;
     },
   });
+  initListShare();
   let catalog = null;
   loadCatalog().then((c) => { catalog = c; }, () => {});
   initImport({

@@ -79,6 +79,7 @@
     <symbol id="i-dots" viewBox="0 0 24 24"><g fill="currentColor"><circle cx="5.5" cy="12" r="1.9"/><circle cx="12" cy="12" r="1.9"/><circle cx="18.5" cy="12" r="1.9"/></g></symbol>
     <symbol id="i-share" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="17.5" cy="5.5" r="2.5"/><circle cx="6.5" cy="12" r="2.5"/><circle cx="17.5" cy="18.5" r="2.5"/><path d="M8.7 10.7l6.6-3.9M8.7 13.3l6.6 3.9"/></g></symbol>
     <symbol id="i-link" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l2.8-2.8a4.5 4.5 0 0 0-6.4-6.4L11.5 6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-2.8 2.8a4.5 4.5 0 0 0 6.4 6.4l1.3-1.2"/></g></symbol>
+    <symbol id="i-eye-off" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4l16 16"/><path d="M10.4 5.6A9 9 0 0 1 12 5.5c5 0 8.4 4.3 9.5 6.5a15 15 0 0 1-2.8 3.7M6.7 6.7A15 15 0 0 0 2.5 12c1.1 2.2 4.5 6.5 9.5 6.5a9 9 0 0 0 4.6-1.3"/><path d="M9.9 9.9a3 3 0 0 0 4.2 4.2"/></g></symbol>
     <symbol id="i-copy" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><rect x="8.5" y="8.5" width="11" height="11" rx="2.2"/><path d="M15.5 8.5V6.7a2.2 2.2 0 0 0-2.2-2.2H6.7a2.2 2.2 0 0 0-2.2 2.2v6.6a2.2 2.2 0 0 0 2.2 2.2h1.8"/></g></symbol>
     <symbol id="i-download" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v11M7.5 10.5L12 15l4.5-4.5M5 19.5h14"/></g></symbol>
     <symbol id="i-upload" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 15.5v-11M7.5 9L12 4.5 16.5 9M5 19.5h14"/></g></symbol>
@@ -461,6 +462,7 @@
         <button type="button" class="menu__item" data-open="quickadd"><svg><use href="#i-bolt"/></svg><span><b>Quick add</b><small>Type card numbers, e.g. 1-22, 55x2</small></span></button>
         <button type="button" class="menu__item" data-open="stats"><svg><use href="#i-chart"/></svg><span><b>Statistics</b><small>Progress by section and rarity, trade lists</small></span></button>
         <button type="button" class="menu__item" data-open="share"><svg><use href="#i-share"/></svg><span><b>Share &amp; sync</b><small>Send this set to another device or a friend</small></span></button>
+        <button type="button" class="menu__item" data-open="list"><svg><use href="#i-link"/></svg><span><b>Trade list link</b><small>Show anyone your spares and the cards you need</small></span></button>
       </div>
       <div class="menu__group">
         <h3 class="menu__label">Shown cards</h3>
@@ -491,6 +493,7 @@
     <footer class="sheet__foot sheet__foot--wrap">
       <button type="button" class="btn btn--ghost" data-action="copy-missing"><svg><use href="#i-copy"/></svg>Copy missing list</button>
       <button type="button" class="btn btn--ghost" data-action="copy-dupes"><svg><use href="#i-copy"/></svg>Copy duplicates list</button>
+      <button type="button" class="btn btn--primary" data-open="list"><svg><use href="#i-link"/></svg>Trade list link</button>
     </footer>
   </div>
 </dialog>
@@ -533,7 +536,71 @@
       <button type="button" class="btn btn--ghost btn--block" data-action="native-share" hidden><svg><use href="#i-share"/></svg>Share…</button>
       <p class="hint hint--small">Scan the QR code with your phone’s camera to open your collection there. The link is a snapshot — share a new one after you update your collection.</p>
       <p class="hint hint--small">Moving to a Home Screen app on iPhone or iPad? Links open in Safari, not the app, so copy the link and paste it into <b>Import backup</b> in the app.</p>
+      <p class="hint hint--small">Want to show someone what you can trade and what you need? Make a <button type="button" class="link-btn" data-open="list">trade list link</button> instead.</p>
     </div>
+  </div>
+</dialog>
+
+<dialog class="sheet sheet--wide" id="dlg-list" aria-labelledby="list-title">
+  <div class="sheet__inner">
+    <header class="sheet__head">
+      <h2 class="sheet__title" id="list-title">Trade list link</h2>
+      <button type="button" class="icon-btn" data-close aria-label="Close"><svg><use href="#i-close"/></svg></button>
+    </header>
+    <div class="sheet__body ls">
+      <p class="hint">A page for anyone, even if they don’t use Binder Tracker. It shows the cards you can trade and the ones you need from this set, with market prices.</p>
+      <label class="field ls-name">
+        <span class="field__label">Your name (optional)</span>
+        <input class="input" data-ls="name" maxlength="24" autocomplete="nickname" placeholder="So they know whose list it is">
+      </label>
+      <div class="ls-switches">
+        <div class="switch-row">
+          <span><b id="ls-spares-label">Cards I can trade</b><small data-ls="spares-hint"></small></span>
+          <button type="button" class="switch" role="switch" aria-checked="true" data-ls="spares" aria-labelledby="ls-spares-label"></button>
+        </div>
+        <div class="switch-row" data-ls="singles-row">
+          <span><b id="ls-singles-label">Include my single copies</b><small>Offer cards you only have one of</small></span>
+          <button type="button" class="switch" role="switch" aria-checked="false" data-ls="singles" aria-labelledby="ls-singles-label"></button>
+        </div>
+        <div class="switch-row">
+          <span><b id="ls-missing-label">Cards I need</b><small data-ls="missing-hint"></small></span>
+          <button type="button" class="switch" role="switch" aria-checked="true" data-ls="missing" aria-labelledby="ls-missing-label"></button>
+        </div>
+      </div>
+      <section class="ls-group" data-ls="have-box" aria-labelledby="ls-have-title">
+        <header class="ls-group__head">
+          <h3 class="ls-group__title" id="ls-have-title">Up for trade</h3>
+          <span class="ls-group__count" data-ls="have-count"></span>
+          <button type="button" class="link-btn ls-group__reset" data-ls="have-reset" hidden>Show all</button>
+        </header>
+        <p class="hint hint--small" data-ls="have-tip">Tap a card to leave it out of the link.</p>
+        <ul class="ls-thumbs" data-ls="have-list"></ul>
+      </section>
+      <section class="ls-group" data-ls="missing-box" aria-labelledby="ls-missing-title">
+        <header class="ls-group__head">
+          <h3 class="ls-group__title" id="ls-missing-title">Looking for</h3>
+          <span class="ls-group__count" data-ls="missing-count"></span>
+          <button type="button" class="link-btn ls-group__reset" data-ls="missing-reset" hidden>Show all</button>
+        </header>
+        <p class="hint hint--small" data-ls="missing-tip">Tap a card to leave it out of the link.</p>
+        <ul class="ls-thumbs" data-ls="missing-list"></ul>
+      </section>
+      <p class="ls-empty" data-ls="empty" hidden></p>
+      <section class="ls-link" data-ls="link-box" aria-labelledby="ls-link-title" hidden>
+        <h3 class="ls-group__title" id="ls-link-title">Your link</h3>
+        <input class="input" data-ls="url" readonly aria-label="Trade list link">
+        <details class="ls-qr" data-ls="qr-box">
+          <summary>Show a QR code</summary>
+          <div class="share__qr tr-qr" data-ls="qr" role="img" aria-label="QR code of your trade list link"></div>
+        </details>
+        <p class="hint hint--small">The link is a snapshot of this set. Make a new one after you change your collection.</p>
+      </section>
+    </div>
+    <footer class="sheet__foot sheet__foot--wrap ls-foot">
+      <a class="btn btn--ghost" data-ls="open" target="_blank" rel="noopener" aria-disabled="true"><svg><use href="#i-external"/></svg>Preview</a>
+      <button type="button" class="btn btn--ghost" data-ls="share" hidden><svg><use href="#i-share"/></svg>Share…</button>
+      <button type="button" class="btn btn--primary" data-ls="copy" disabled><svg><use href="#i-copy"/></svg>Copy link</button>
+    </footer>
   </div>
 </dialog>
 

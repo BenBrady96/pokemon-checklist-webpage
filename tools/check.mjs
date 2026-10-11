@@ -188,7 +188,7 @@ if (scan) {
 const big = models.get('pokemon/ascended-heroes');
 check(big && big.cards.length > 255, 'a set with more than 255 entries exists and round-trips (Ascended Heroes)');
 
-const { encodeTrade, decodeTrade, encodeProposal, decodeProposal, readTradeText, cleanName, inflate } = await import('../js/trade-code.js');
+const { encodeTrade, decodeTrade, encodeProposal, decodeProposal, encodeList, decodeList, readTradeText, cleanName, inflate } = await import('../js/trade-code.js');
 const { balance, standing, spareOf, buildLists, bump, emptyDraft } = await import('../js/trade-data.js');
 const tradeSets = ['pokemon/151', 'pokemon/mega-evolution', 'pokemon/30th-celebration'].map((id, i) => {
   const model = models.get(id);
@@ -235,6 +235,32 @@ if (tradeSets.length >= 2) {
   check(back?.kind === 'proposal' && back.id === proposal.id && back.name === 'Sam' && back.created === created && JSON.stringify(back.sets) === JSON.stringify(proposal.sets), 'proposed trade round trip');
   check((await readTradeText(`#p=${code}`))?.kind === 'proposal' && await decodeTrade(code) === null, 'a proposed trade link is read, and isn’t a trade code');
 }
+
+const byIdx = (a, b) => a[0] - b[0];
+for (const model of [meg, big].filter(Boolean)) {
+  const have = [];
+  const missing = [];
+  for (const card of model.cards) {
+    const r = random();
+    if (r < 0.2) have.push([card.idx, r < 0.05 ? 2 + Math.floor(random() * 120) : 1]);
+    else if (r < 0.5) missing.push(card.idx);
+  }
+  const n = model.maxIdx + 1;
+  const wantHave = JSON.stringify(have.map(([i, q]) => [i, Math.min(99, q)]).sort(byIdx));
+  const wantMissing = JSON.stringify(missing.slice().sort((a, b) => a - b));
+  for (const compress of [true, false]) {
+    const back = await decodeList(await encodeList({ name: ' Ben ', created, key: model.syncKey, n, tier: 'master', have, missing }, { compress }));
+    check(back?.kind === 'list' && back.name === 'Ben' && back.created === created && back.key === model.syncKey && back.n === n && back.tier === 'master'
+      && JSON.stringify([...back.have].sort(byIdx)) === wantHave && JSON.stringify(back.missing) === wantMissing, `${model.id}: trade list round trip (${compress ? 'compressed' : 'uncompressed'})`);
+  }
+}
+const listCode = await encodeList({ key: 'MEG', n: 20, tier: 'standard', have: [[3, 2], [7, 1]], missing: null }, { compress: false });
+const onlyHave = await decodeList(listCode);
+check(onlyHave?.missing === null && onlyHave.have.size === 2 && onlyHave.have.get(3) === 2 && onlyHave.have.get(7) === 1, 'a trade list without its missing section reads it as left out');
+const emptyMissing = await decodeList(await encodeList({ key: 'MEG', n: 20, tier: 'standard', have: null, missing: [] }));
+check(emptyMissing?.have === null && Array.isArray(emptyMissing.missing) && !emptyMissing.missing.length, 'an empty missing section is kept apart from a left-out one');
+check(await decodeList(listCode.slice(0, Math.floor(listCode.length / 2))) === null, 'a cut-off trade list is rejected');
+check(await decodeTrade(listCode) === null && await readTradeText(`https://example.com/list/#l=${listCode}`) === null, 'a trade list isn’t read as a trade code');
 
 check(balance(0.99, 0).dir === 'even' && balance(100, 104.99).dir === 'even' && balance(100, 106).dir === 'up' && balance(106, 100).dir === 'down' && balance(0, 0).dir === 'none', 'trade fairness: even within 5% or 1 unit');
 check(balance(10, 30).lean === 2 / 3 && balance(30, 10).lean === -2 / 3, 'the fairness meter leans toward whoever is ahead');

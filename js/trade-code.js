@@ -3,10 +3,14 @@ import { MAX_QTY } from './storage.js';
 
 const TRADE = 0x54;
 const PROPOSAL = 0x50;
+const LIST = 0x4C;
 const VERSION = 1;
 const DEFLATED = 0x80;
 const TIERS = ['standard', 'master', 'grand'];
 const MAX_SETS = 512;
+const MAX_CARDS = 65536;
+const LIST_HAVE = 1;
+const LIST_MISSING = 2;
 const MAX_LINES = 500;
 const MAX_NAME_BYTES = 96;
 const MAX_NAME_CHARS = 24;
@@ -130,6 +134,19 @@ function readName(r) {
   }
 }
 
+function pushKey(out, key) {
+  out.push(key.length);
+  pushBytes(out, [...key].map((ch) => ch.charCodeAt(0)));
+}
+
+function readKey(r) {
+  const length = r.byte();
+  if (length < 1 || length > 16) throw BAD;
+  const key = String.fromCharCode(...r.take(length));
+  if (!/^[A-Za-z0-9]+$/.test(key)) throw BAD;
+  return key;
+}
+
 const minutes = (time) => Math.max(0, Math.floor((Number(time) || Date.now()) / MINUTE));
 
 export function encodeTrade({ name = '', created = Date.now(), sets }, { compress = true } = {}) {
@@ -171,8 +188,7 @@ export function encodeProposal({ id, name = '', created = Date.now(), sets }, { 
   pushName(out, name);
   pushVarint(out, sets.length);
   for (const { key, give, get } of sets) {
-    out.push(key.length);
-    pushBytes(out, [...key].map((ch) => ch.charCodeAt(0)));
+    pushKey(out, key);
     for (const lines of [give, get]) {
       pushVarint(out, lines.length);
       for (const [idx, q] of lines) {
@@ -194,10 +210,7 @@ function readProposal(body) {
   const sets = [];
   let total = 0;
   for (let i = 0; i < count; i++) {
-    const length = r.byte();
-    if (length < 1 || length > 16) throw BAD;
-    const key = String.fromCharCode(...r.take(length));
-    if (!/^[A-Za-z0-9]+$/.test(key)) throw BAD;
+    const key = readKey(r);
     const [give, get] = [0, 1].map(() => {
       const lines = [];
       const n = r.varint();
@@ -217,11 +230,65 @@ function readProposal(body) {
   return { kind: 'proposal', id, created, name, sets };
 }
 
+function bitsOf(n, indexes) {
+  const bits = new Uint8Array(Math.ceil(n / 8));
+  for (const i of indexes) if (i >= 0 && i < n) bits[i >> 3] |= 1 << (i & 7);
+  return bits;
+}
+
+function readBits(bytes, n) {
+  const out = [];
+  for (let i = 0; i < n; i++) if (bytes[i >> 3] & (1 << (i & 7))) out.push(i);
+  return out;
+}
+
+export function encodeList({ name = '', created = Date.now(), key, n, tier, have = null, missing = null }, { compress = true } = {}) {
+  const out = [];
+  pushVarint(out, minutes(created));
+  pushName(out, name);
+  pushKey(out, key);
+  pushVarint(out, n);
+  out.push(Math.max(0, TIERS.indexOf(tier)));
+  out.push((have ? LIST_HAVE : 0) | (missing ? LIST_MISSING : 0));
+  if (have) pushBytes(out, bitsOf(n, have.map(([idx]) => idx)));
+  if (missing) pushBytes(out, bitsOf(n, missing));
+  for (const [idx, q] of have || []) {
+    if (q < 2 || idx >= n) continue;
+    pushVarint(out, idx);
+    out.push(Math.min(MAX_QTY, q));
+  }
+  return pack(LIST, out, compress);
+}
+
+function readList(body) {
+  const r = reader(body);
+  const created = r.varint() * MINUTE;
+  const name = readName(r);
+  const key = readKey(r);
+  const n = r.varint();
+  if (n > MAX_CARDS) throw BAD;
+  const tier = TIERS[r.byte()];
+  const flags = r.byte();
+  if (!tier || flags & ~(LIST_HAVE | LIST_MISSING)) throw BAD;
+  const size = Math.ceil(n / 8);
+  const have = flags & LIST_HAVE ? new Map(readBits(r.take(size), n).map((i) => [i, 1])) : null;
+  const missing = flags & LIST_MISSING ? readBits(r.take(size), n) : null;
+  while (!r.done()) {
+    const idx = r.varint();
+    const q = r.byte();
+    if (!have?.has(idx) || q < 2 || q > MAX_QTY) throw BAD;
+    have.set(idx, q);
+  }
+  return { kind: 'list', created, name, key, n, tier, have, missing };
+}
+
+const READERS = { [TRADE]: readTrade, [PROPOSAL]: readProposal, [LIST]: readList };
+
 async function decodeAs(kind, code) {
   const body = await unpack(fromBase64Url(code), kind);
   if (!body || body === UNSUPPORTED) return body;
   try {
-    return kind === TRADE ? readTrade(body) : readProposal(body);
+    return READERS[kind](body);
   } catch {
     return null;
   }
@@ -229,6 +296,7 @@ async function decodeAs(kind, code) {
 
 export const decodeTrade = (code) => decodeAs(TRADE, code);
 export const decodeProposal = (code) => decodeAs(PROPOSAL, code);
+export const decodeList = (code) => decodeAs(LIST, code);
 
 const KIND_OF = { t: TRADE, p: PROPOSAL };
 

@@ -185,6 +185,11 @@ export async function tradePage({ siteUrl = DEFAULT_URL } = {}) {
   return prefixUrls(template.split(DEFAULT_URL).join(siteUrl), '../');
 }
 
+export async function listPage({ siteUrl = DEFAULT_URL } = {}) {
+  const template = await readFile(join(ROOT, 'list.html'), 'utf8');
+  return prefixUrls(template.split(DEFAULT_URL).join(siteUrl), '../');
+}
+
 export async function sitemap({ siteUrl = DEFAULT_URL, today = new Date().toISOString().slice(0, 10) } = {}) {
   const catalog = await loadCatalog();
   const urls = [
