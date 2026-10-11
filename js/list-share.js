@@ -35,6 +35,7 @@ function readOptions() {
     spares: s?.spares !== false,
     missing: s?.missing !== false,
     singles: s?.singles === true,
+    counts: s?.counts !== false,
     hide: { have: new Set(idList(s?.hide?.have)), missing: new Set(idList(s?.hide?.missing)) },
   };
 }
@@ -46,6 +47,7 @@ function saveOptions() {
     spares: opts.spares,
     missing: opts.missing,
     singles: opts.singles,
+    counts: opts.counts,
     hide: {
       have: [...opts.hide.have].filter((id) => store.getQty(id) > 0),
       missing: [...opts.hide.missing].filter((id) => !store.getQty(id)),
@@ -75,6 +77,7 @@ const shown = (group) => picks[group].filter((p) => !opts.hide[group].has(p.card
 const isOn = (group) => (group === 'have' ? opts.spares : opts.missing);
 
 function thumb(group, { card, qty }) {
+  const many = opts.counts && qty > 1;
   const hidden = opts.hide[group].has(card.id);
   const button = document.createElement('button');
   button.type = 'button';
@@ -82,7 +85,7 @@ function thumb(group, { card, qty }) {
   button.dataset.group = group;
   button.dataset.id = card.id;
   button.setAttribute('aria-pressed', String(!hidden));
-  button.setAttribute('aria-label', `${card.name}, ${card.printed}${card.variant ? `, ${card.variant}` : ''}${qty > 1 ? `, ${qty} copies` : ''}`);
+  button.setAttribute('aria-label', `${card.name}, ${card.printed}${card.variant ? `, ${card.variant}` : ''}${many ? `, ${qty} copies` : ''}`);
   button.title = `${card.listText}${card.variant ? ` (${card.variant})` : ''}`;
   const art = document.createElement('span');
   art.className = 'ls-thumb__art';
@@ -99,7 +102,7 @@ function thumb(group, { card, qty }) {
   } else {
     art.textContent = card.num;
   }
-  if (qty > 1) {
+  if (many) {
     const badge = document.createElement('span');
     badge.className = 'ls-thumb__qty';
     badge.textContent = `×${qty}`;
@@ -125,7 +128,7 @@ function groupTitle(group) {
   const copies = visible.reduce((n, p) => n + p.qty, 0);
   if (group === 'have') {
     $('have-count').textContent = all.length
-      ? `${visible.length < all.length ? `${count.format(visible.length)} of ${count.format(all.length)} cards` : plural(all.length, 'card', 'cards')}${copies > visible.length ? ` · ${plural(copies, 'copy', 'copies')}` : ''}`
+      ? `${visible.length < all.length ? `${count.format(visible.length)} of ${count.format(all.length)} cards` : plural(all.length, 'card', 'cards')}${opts.counts && copies > visible.length ? ` · ${plural(copies, 'copy', 'copies')}` : ''}`
       : '';
   } else {
     $('missing-count').textContent = all.length
@@ -171,7 +174,9 @@ function renderSwitches() {
   $('spares').setAttribute('aria-checked', String(opts.spares));
   $('missing').setAttribute('aria-checked', String(opts.missing));
   $('singles').setAttribute('aria-checked', String(opts.singles));
+  $('counts').setAttribute('aria-checked', String(opts.counts));
   $('singles-row').hidden = !opts.spares;
+  $('counts-row').hidden = !opts.spares;
   $('spares-hint').textContent = opts.singles ? 'Every card you have, including your only copies' : 'Your spare copies, beyond the first of each card';
   $('missing-hint').textContent = COLLECTION.single ? 'Every card in this set you don’t have yet' : `Cards you don’t have from your ${tier.name}`;
 }
@@ -225,6 +230,7 @@ async function renderLink() {
     tier: currentTier().id,
     have: opts.spares ? shown('have').map(({ card, qty }) => [card.idx, qty]) : null,
     missing: opts.missing ? shown('missing').map(({ card }) => card.idx) : null,
+    counts: opts.counts,
   });
   if (run !== linkRun) return;
   url = `${asset('list/')}#l=${code}`;
@@ -268,7 +274,7 @@ export function prepareListShare() {
 }
 
 export function initListShare() {
-  for (const key of ['spares', 'missing', 'singles']) $(key).addEventListener('click', () => flip(key));
+  for (const key of ['spares', 'missing', 'singles', 'counts']) $(key).addEventListener('click', () => flip(key));
   for (const group of GROUPS) {
     $(`${group}-list`).addEventListener('click', (e) => {
       const button = e.target.closest('.ls-thumb');

@@ -256,7 +256,9 @@ for (const model of [meg, big].filter(Boolean)) {
 }
 const listCode = await encodeList({ key: 'MEG', n: 20, tier: 'standard', have: [[3, 2], [7, 1]], missing: null }, { compress: false });
 const onlyHave = await decodeList(listCode);
-check(onlyHave?.missing === null && onlyHave.have.size === 2 && onlyHave.have.get(3) === 2 && onlyHave.have.get(7) === 1, 'a trade list without its missing section reads it as left out');
+check(onlyHave?.missing === null && onlyHave.counts === true && onlyHave.have.size === 2 && onlyHave.have.get(3) === 2 && onlyHave.have.get(7) === 1, 'a trade list without its missing section reads it as left out');
+const noCounts = await decodeList(await encodeList({ key: 'MEG', n: 20, tier: 'standard', have: [[3, 5], [7, 1]], missing: [9], counts: false }, { compress: false }));
+check(noCounts?.counts === false && noCounts.have.size === 2 && [...noCounts.have.values()].every((q) => q === 1) && noCounts.missing.join() === '9', 'a trade list with copy counts hidden carries no counts');
 const emptyMissing = await decodeList(await encodeList({ key: 'MEG', n: 20, tier: 'standard', have: null, missing: [] }));
 check(emptyMissing?.have === null && Array.isArray(emptyMissing.missing) && !emptyMissing.missing.length, 'an empty missing section is kept apart from a left-out one');
 check(await decodeList(listCode.slice(0, Math.floor(listCode.length / 2))) === null, 'a cut-off trade list is rejected');

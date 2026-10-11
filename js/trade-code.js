@@ -11,6 +11,7 @@ const MAX_SETS = 512;
 const MAX_CARDS = 65536;
 const LIST_HAVE = 1;
 const LIST_MISSING = 2;
+const LIST_NO_COUNTS = 4;
 const MAX_LINES = 500;
 const MAX_NAME_BYTES = 96;
 const MAX_NAME_CHARS = 24;
@@ -242,17 +243,17 @@ function readBits(bytes, n) {
   return out;
 }
 
-export function encodeList({ name = '', created = Date.now(), key, n, tier, have = null, missing = null }, { compress = true } = {}) {
+export function encodeList({ name = '', created = Date.now(), key, n, tier, have = null, missing = null, counts = true }, { compress = true } = {}) {
   const out = [];
   pushVarint(out, minutes(created));
   pushName(out, name);
   pushKey(out, key);
   pushVarint(out, n);
   out.push(Math.max(0, TIERS.indexOf(tier)));
-  out.push((have ? LIST_HAVE : 0) | (missing ? LIST_MISSING : 0));
+  out.push((have ? LIST_HAVE : 0) | (missing ? LIST_MISSING : 0) | (counts ? 0 : LIST_NO_COUNTS));
   if (have) pushBytes(out, bitsOf(n, have.map(([idx]) => idx)));
   if (missing) pushBytes(out, bitsOf(n, missing));
-  for (const [idx, q] of have || []) {
+  for (const [idx, q] of counts ? have || [] : []) {
     if (q < 2 || idx >= n) continue;
     pushVarint(out, idx);
     out.push(Math.min(MAX_QTY, q));
@@ -269,17 +270,18 @@ function readList(body) {
   if (n > MAX_CARDS) throw BAD;
   const tier = TIERS[r.byte()];
   const flags = r.byte();
-  if (!tier || flags & ~(LIST_HAVE | LIST_MISSING)) throw BAD;
+  if (!tier || flags & ~(LIST_HAVE | LIST_MISSING | LIST_NO_COUNTS)) throw BAD;
+  const counts = !(flags & LIST_NO_COUNTS);
   const size = Math.ceil(n / 8);
   const have = flags & LIST_HAVE ? new Map(readBits(r.take(size), n).map((i) => [i, 1])) : null;
   const missing = flags & LIST_MISSING ? readBits(r.take(size), n) : null;
   while (!r.done()) {
     const idx = r.varint();
     const q = r.byte();
-    if (!have?.has(idx) || q < 2 || q > MAX_QTY) throw BAD;
+    if (!counts || !have?.has(idx) || q < 2 || q > MAX_QTY) throw BAD;
     have.set(idx, q);
   }
-  return { kind: 'list', created, name, key, n, tier, have, missing };
+  return { kind: 'list', created, name, key, n, tier, have, missing, counts };
 }
 
 const READERS = { [TRADE]: readTrade, [PROPOSAL]: readProposal, [LIST]: readList };
