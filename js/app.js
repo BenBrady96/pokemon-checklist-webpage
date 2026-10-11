@@ -1,4 +1,4 @@
-import { COLLECTION, CARDS, CARD_BY_ID, SECTIONS, RARITIES, GROUPS, JUMPS, getTier, inTier } from './collection.js';
+import { COLLECTION } from './collection.js';
 import { normalize } from './model.js';
 import * as store from './store.js';
 import * as storage from './storage.js';
@@ -10,20 +10,19 @@ import { initViewer } from './viewer.js';
 import { initInfo } from './info.js';
 import { compute, percent, renderStats, missingText, duplicatesText } from './stats.js';
 import { initQuickAdd } from './quickadd.js';
-import {
-  shareUrl, renderQr, exportFile, parseBackup, encodeCollection, resolveCode, parseSyncText, askIncoming, initImport,
-} from './sync.js';
-import { resolveCodes, resolveBackup, allCounts, backupCode, applyEntries, catalogEntryFor } from './transfer.js';
-import { loadCatalog, collectionUrl } from './catalog.js';
+import { shareUrl, renderQr, encodeCollection, resolveCode, askIncoming, initImport } from './sync.js';
+import { resolveCodes, resolveBackup, backupCode } from './transfer.js';
+import { loadCatalog } from './catalog.js';
 import { celebrate } from './confetti.js';
 import { initPWA, initInstallBanner, offlineSupported, countSavedImages, saveImagesOffline } from './pwa.js';
-import { mergeBackupHistory } from './history.js';
 import { setCurrency, formatPrice, hasPrices } from './pricing.js';
 import { initHeader, refreshWorth } from './header.js';
 import { initListShare, prepareListShare } from './list-share.js';
 import {
   initDialogs, openDialog, closeDialog, openDialogs, toast, announce, confirmAction, copyText, reducedMotion,
 } from './ui.js';
+import { formatAgo } from './format.js';
+import { importMany, openInSet, checkIncomingLink, describeCodes, watchBackupFile, backupActions } from './backup.js';
 
 const html = document.documentElement;
 const root = document.getElementById('collection');
@@ -43,12 +42,11 @@ const DIALOGS = {
   quickadd: 'dlg-quickadd', share: 'dlg-share', help: 'dlg-help', export: 'dlg-export', import: 'dlg-import',
   list: 'dlg-list',
 };
-const RANGE_JUMPS = JUMPS.filter((j) => j.from && j.to);
+const RANGE_JUMPS = COLLECTION.jumps.filter((j) => j.from && j.to);
 
 const desktopQuery = matchMedia('(min-width: 900px)');
 const isDesktop = () => desktopQuery.matches;
 const isTouch = matchMedia('(pointer: coarse)').matches;
-const plural = (n, one, many) => `${n} ${n === 1 ? one : many}`;
 
 const filters = { status: 'all', rarities: new Set(), sections: new Set(), tokens: [] };
 let gestures;
@@ -59,7 +57,7 @@ let completedGroups = null;
 let celebrateNext = false;
 
 function matches(card) {
-  if (!inTier(card, store.getPrefs().tier)) return false;
+  if (!COLLECTION.inTier(card, store.getPrefs().tier)) return false;
   const q = store.getQty(card.id);
   if (filters.status === 'owned' && !q) return false;
   if (filters.status === 'missing' && q) return false;
@@ -229,18 +227,18 @@ function buildTierPicker() {
 }
 
 function updateTierChrome() {
-  const tier = getTier(store.getPrefs().tier);
+  const tier = COLLECTION.getTier(store.getPrefs().tier);
   const rarities = new Set(tier.cards.map((c) => c.rarity));
   for (const id of filters.sections) if (!tier.sectionIds.has(id)) filters.sections.delete(id);
   for (const id of filters.rarities) if (!rarities.has(id)) filters.rarities.delete(id);
-  for (const j of JUMPS) jumpbar.querySelector(`[data-jump="${j.id}"]`).hidden = !tier.sectionIds.has(j.section || j.id);
+  for (const j of COLLECTION.jumps) jumpbar.querySelector(`[data-jump="${j.id}"]`).hidden = !tier.sectionIds.has(j.section || j.id);
   for (const chip of document.querySelectorAll('[data-filter-toggle]')) {
     chip.hidden = !(chip.dataset.filterToggle === 'rarity' ? rarities : tier.sectionIds).has(chip.dataset.value);
   }
 }
 
 function changeTier() {
-  const tier = getTier(store.getPrefs().tier);
+  const tier = COLLECTION.getTier(store.getPrefs().tier);
   completedGroups = null;
   updateTierChrome();
   syncControls();
@@ -250,14 +248,14 @@ function changeTier() {
 }
 
 function buildJumpbar() {
-  jumpbar.innerHTML = JUMPS.map((j) => `<button type="button" class="jump" data-jump="${j.id}" aria-current="false">`
+  jumpbar.innerHTML = COLLECTION.jumps.map((j) => `<button type="button" class="jump" data-jump="${j.id}" aria-current="false">`
     + `${j.icon ? `<svg class="rar" aria-hidden="true"><use href="#${j.icon}"/></svg>` : ''}`
     + `<span>${j.label}</span><span class="jump__count" data-jump-count="${j.id}"></span></button>`).join('');
 }
 
 function updateJumpbarVisibility() {
   const p = store.getPrefs();
-  jumpbar.closest('.jumpbar').hidden = (p.view !== 'binder' && p.sort !== 'set') || JUMPS.length < 2;
+  jumpbar.closest('.jumpbar').hidden = (p.view !== 'binder' && p.sort !== 'set') || COLLECTION.jumps.length < 2;
 }
 
 let spyQueued = false;
@@ -305,7 +303,7 @@ function scrollToElement(el, { smooth = true } = {}) {
 }
 
 function jumpTo(id) {
-  const jump = JUMPS.find((j) => j.id === id);
+  const jump = COLLECTION.jumps.find((j) => j.id === id);
   const target = jump?.from ? refs.get(jump.from).li : document.getElementById(`sec-${id}`);
   if (!target || target.hidden || target.closest('[hidden]')) {
     toast('That part of the set is hidden by your filters.', {
@@ -383,9 +381,9 @@ function refreshStats() {
 
 function checkMilestones(s) {
   const complete = ({ owned, total }) => total > 0 && owned === total;
-  const done = new Set(GROUPS.filter((g) => complete(s.byGroup[g.id])).map((g) => g.id));
+  const done = new Set(COLLECTION.groups.filter((g) => complete(s.byGroup[g.id])).map((g) => g.id));
   if (completedGroups && celebrateNext) {
-    const fresh = GROUPS.filter((g) => done.has(g.id) && !completedGroups.has(g.id));
+    const fresh = COLLECTION.groups.filter((g) => done.has(g.id) && !completedGroups.has(g.id));
     if (fresh.length) {
       const best = fresh[fresh.length - 1];
       const name = best.id === 'set' ? s.tier.name : best.name;
@@ -424,13 +422,13 @@ function blocked() {
 
 function onCommit(entry, info) {
   if (!entry) return;
-  store.requestPersistence();
+  storage.requestPersistence();
   const summary = store.describe(entry);
   announce(summary);
   if (entry.diffs.size === 1 && info.kind !== 'quickadd' && info.kind !== 'bulk') {
     const [[id, d]] = entry.diffs;
     if (d.from > 1 && d.to === 0) {
-      toast(`Unmarked ${CARD_BY_ID.get(id).name} (had ${d.from} copies)`, { action: undoAction() });
+      toast(`Unmarked ${COLLECTION.cardById.get(id).name} (had ${d.from} copies)`, { action: undoAction() });
     }
   } else {
     toast(summary, { icon: 'i-check', action: undoAction() });
@@ -491,81 +489,35 @@ function applyIncoming(choice, counts) {
     toast('Your collection already matches.');
     return;
   }
-  store.requestPersistence();
+  storage.requestPersistence();
   toast(choice === 'merge' ? `Merged: ${store.describe(entry).toLowerCase()}` : 'Collection replaced', { icon: 'i-check', action: undoAction() });
 }
 
-const askSingle = (counts, source) => askIncoming({ source, single: { incoming: counts, current: storage.readCounts(COLLECTION.id), total: CARDS.length } });
+const askSingle = (counts, source) => askIncoming({ source, single: { incoming: counts, current: storage.readCounts(COLLECTION.id), total: COLLECTION.cards.length } });
 
-async function importMany(entries, source) {
-  if (!entries.length) {
-    toast('None of those cards are from sets on this site.');
-    return false;
-  }
-  exitPreview({ quiet: true });
-  const choice = await askIncoming({
-    source,
-    multi: { entries: entries.map((e) => ({ name: e.name, incoming: e.counts, current: storage.readCounts(e.id) })) },
-  });
-  if (!choice) return false;
-  const result = applyEntries(entries, choice, {
+const importHooks = {
+  before: () => exitPreview({ quiet: true }),
+  current: {
     currentId: COLLECTION.id,
     applyCurrent: (counts, how) => (how === 'merge' ? store.mergeAll(counts) : store.replaceAll(counts)),
-  });
-  if (!result.changed) {
-    toast('Your collections already match.');
-    return true;
-  }
-  store.requestPersistence();
-  toast(`${choice === 'merge' ? 'Merged' : 'Replaced'} ${plural(result.changed, 'set', 'sets')}`, {
-    icon: 'i-check',
-    action: {
-      label: 'Undo',
-      onClick() {
-        result.undo();
-        if (result.currentEntry && store.lastEntry() === result.currentEntry) store.undo();
-        toast('Import undone', { icon: 'i-undo' });
-      },
-    },
-  });
-  return true;
-}
+  },
+  undo(result) {
+    if (result.currentEntry && store.lastEntry() === result.currentEntry) store.undo();
+  },
+};
 
 async function handleIncoming({ decoded, codes }, source) {
   if (decoded.length === 1) {
     const d = decoded[0];
-    const ours = d.collection ? d.collection === COLLECTION.id : d.key === COLLECTION.syncKey;
-    if (ours) {
+    if (d.key === COLLECTION.syncKey) {
       const counts = resolveCode(d, COLLECTION);
       exitPreview({ quiet: true });
       applyIncoming(await askSingle(counts, source), counts);
       return true;
     }
-    const entry = await catalogEntryFor(d);
-    if (!entry) {
-      toast('That code is for a set this site doesn’t have.');
-      return false;
-    }
-    location.href = `${collectionUrl(entry.id)}#sync=${codes[0]}`;
-    return true;
+    return openInSet(d, codes[0]);
   }
-  return importMany(await resolveCodes(decoded), source);
-}
-
-async function checkIncomingLink() {
-  const m = /^#sync=([A-Za-z0-9_.-]+)$/.exec(location.hash);
-  if (!m) return;
-  history.replaceState(null, '', location.pathname + location.search);
-  const incoming = parseSyncText(`#sync=${m[1]}`);
-  if (!incoming) {
-    toast('That sync link isn’t valid.');
-    return;
-  }
-  try {
-    await handleIncoming(incoming, 'link');
-  } catch {
-    toast('Couldn’t load that link. Check your connection and try again.');
-  }
+  return importMany(await resolveCodes(decoded), source, importHooks);
 }
 
 function prepareShare() {
@@ -586,12 +538,7 @@ async function prepareExport() {
   }
 }
 
-const formatAgo = (ts) => {
-  const days = Math.floor((Date.now() - ts) / 86400000);
-  return days <= 0 ? 'today' : days === 1 ? 'yesterday' : `${days} days ago`;
-};
-
-const imageUrls = () => [...new Set(CARDS.filter((c) => COLLECTION.hasImage(c)).map((c) => COLLECTION.imageUrl(c, 'sm')))];
+const imageUrls = () => [...new Set(COLLECTION.cards.filter((c) => COLLECTION.hasImage(c)).map((c) => COLLECTION.imageUrl(c, 'sm')))];
 
 const setText = (selector, text) => {
   for (const el of document.querySelectorAll(selector)) el.textContent = text;
@@ -610,7 +557,7 @@ async function prepareMenu() {
     const mb = Math.max(1, Math.round((urls.length * 21) / 1024));
     setText('[data-offline-status]', saved >= urls.length
       ? 'All card images saved ✓'
-      : saved ? `${saved} of ${urls.length} saved — tap to save the rest` : `Use the checklist with no signal (about ${mb} MB)`);
+      : saved ? `${saved} of ${urls.length} saved. Tap to save the rest` : `Use the checklist with no signal (about ${mb} MB)`);
   }
 }
 
@@ -669,26 +616,7 @@ const actions = {
     closeDialog(document.getElementById('dlg-menu'));
     bulk(shownIds(), 'clear');
   },
-  async 'copy-code'() {
-    const box = document.getElementById('export-code');
-    const ok = await copyText(box.value);
-    if (ok) store.setPref('lastBackup', Date.now());
-    else box.select();
-    toast(ok ? 'Code copied. Paste it into Import backup on your other device.' : 'Select the code and copy it manually.', { icon: 'i-copy' });
-  },
-  'share-code'() {
-    navigator.share({ text: document.getElementById('export-code').value })
-      .then(() => store.setPref('lastBackup', Date.now()), () => {});
-  },
-  'save-file'() {
-    exportFile(allCounts());
-    store.setPref('lastBackup', Date.now());
-    closeDialog(document.getElementById('dlg-export'));
-    toast('Backup saved to your downloads.', { icon: 'i-download' });
-  },
-  'choose-file'() {
-    document.getElementById('import-file').click();
-  },
+  ...backupActions,
   'save-offline': saveOffline,
   reset: doReset,
   async 'copy-missing'() {
@@ -732,7 +660,7 @@ function openScanner() {
       if (store.isPreview()) return null;
       const from = store.getQty(id);
       store.set(id, from + delta);
-      store.requestPersistence();
+      storage.requestPersistence();
       return { from, to: store.getQty(id) };
     },
   }), () => toast('Couldn’t load the scanner. Check your connection and try again.'));
@@ -773,7 +701,7 @@ function openNamed(name) {
 let sectionTarget = null;
 function openSectionMenu(id) {
   sectionTarget = id;
-  document.getElementById('section-title').textContent = id === 'all' ? 'All shown cards' : SECTIONS.find((s) => s.id === id).name;
+  document.getElementById('section-title').textContent = id === 'all' ? 'All shown cards' : COLLECTION.sections.find((s) => s.id === id).name;
   openDialog(document.getElementById('dlg-section'));
 }
 
@@ -828,34 +756,26 @@ function wireControls() {
   document.getElementById('dlg-section').addEventListener('click', (e) => {
     const btn = e.target.closest('[data-section-action]');
     if (!btn) return;
-    const ids = shownIds().filter((id) => sectionTarget === 'all' || CARD_BY_ID.get(id).section === sectionTarget);
+    const ids = shownIds().filter((id) => sectionTarget === 'all' || COLLECTION.cardById.get(id).section === sectionTarget);
     closeDialog(document.getElementById('dlg-section'));
     bulk(ids, btn.dataset.sectionAction);
   });
 
-  document.getElementById('import-file').addEventListener('change', async (e) => {
-    const file = e.target.files[0];
-    e.target.value = '';
-    if (!file) return;
-    if (store.isPreview()) return blocked();
-    const text = await file.text();
-    const entries = parseBackup(text);
-    if (!entries) {
-      toast('That file isn’t a checklist backup.');
-      return;
-    }
-    try {
+  watchBackupFile({
+    allowed() {
+      if (!store.isPreview()) return true;
+      blocked();
+      return false;
+    },
+    async onEntries(entries) {
       if (entries.length === 1 && entries[0].id === COLLECTION.id) {
-        const counts = Object.fromEntries(Object.entries(entries[0].counts).filter(([id]) => CARD_BY_ID.has(id)));
+        const counts = Object.fromEntries(Object.entries(entries[0].counts).filter(([id]) => COLLECTION.cardById.has(id)));
         const choice = await askSingle(counts, 'file');
         applyIncoming(choice, counts);
-        if (choice && choice !== 'view') mergeBackupHistory(text);
-      } else if (await importMany(await resolveBackup(entries), 'file')) {
-        mergeBackupHistory(text);
+        return choice && choice !== 'view';
       }
-    } catch {
-      toast('Couldn’t read that backup. Check your connection and try again.');
-    }
+      return importMany(await resolveBackup(entries), 'file', importHooks);
+    },
   });
 
   let searchTimer = 0;
@@ -918,7 +838,7 @@ function wireControls() {
     }, 150);
   });
   new ResizeObserver(updateStickyTop).observe(topbar);
-  window.addEventListener('hashchange', checkIncomingLink);
+  window.addEventListener('hashchange', () => checkIncomingLink(handleIncoming));
 
   root.addEventListener('load', (e) => {
     if (e.target.tagName === 'IMG') e.target.parentElement.classList.add('is-loaded');
@@ -932,16 +852,16 @@ function wireControls() {
 }
 
 function buildFilterChips() {
-  document.getElementById('rarity-chips').innerHTML = RARITIES.filter((r) => r.filter !== false)
+  document.getElementById('rarity-chips').innerHTML = COLLECTION.rarities.filter((r) => r.filter !== false)
     .map((r) => `<button type="button" class="chip" data-filter-toggle="rarity" data-value="${r.id}">${rarityIconById(r.id)}`
       + `<span>${r.name}</span><span class="chip__count" data-rarity-count="${r.id}"></span></button>`)
     .join('');
-  document.getElementById('section-chips').innerHTML = SECTIONS
+  document.getElementById('section-chips').innerHTML = COLLECTION.sections
     .map((s) => `<button type="button" class="chip" data-filter-toggle="section" data-value="${s.id}">`
       + `<span>${s.name}</span><span class="chip__count" data-section-count="${s.id}"></span></button>`)
     .join('');
   document.getElementById('rarity-field').hidden = !document.getElementById('rarity-chips').children.length;
-  document.getElementById('section-field').hidden = SECTIONS.length < 2;
+  document.getElementById('section-field').hidden = COLLECTION.sections.length < 2;
 }
 
 function fillHelp() {
@@ -1000,7 +920,7 @@ function init() {
       }));
       closeDialog(document.getElementById('dlg-quickadd'));
       if (entry) onCommit(entry, { kind: 'quickadd' });
-      else toast('No changes — those cards were already marked that way.');
+      else toast('No changes. Those cards were already marked that way.');
       return true;
     },
   });
@@ -1017,11 +937,7 @@ function init() {
         return false;
       }
     },
-    describe(decoded) {
-      if (!catalog) return '';
-      const names = decoded.map((d) => catalog.collections.find((c) => (d.collection ? c.id === d.collection : c.syncKey === d.key))?.name || 'an unknown set');
-      return names.length > 2 ? `${names.length} sets` : names.join(' and ');
-    },
+    describe: (decoded) => (catalog ? describeCodes(catalog, decoded) : ''),
   });
 
   const p = store.getPrefs();
@@ -1040,7 +956,7 @@ function init() {
 
   if (!store.isStorageOk()) document.getElementById('storage-banner').hidden = false;
   initInstallBanner();
-  checkIncomingLink();
+  checkIncomingLink(handleIncoming);
   initPWA();
 
   if (!p.tipSeen) {

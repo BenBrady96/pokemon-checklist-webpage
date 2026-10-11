@@ -1,20 +1,17 @@
-import { COLLECTION, getTier } from './collection.js';
+import { COLLECTION } from './collection.js';
 import * as store from './store.js';
 import * as storage from './storage.js';
 import { asset } from './paths.js';
 import { renderQr } from './sync.js';
 import { encodeList, cleanName } from './trade-code.js';
-import { readTrade, saveTrade, spareOf } from './trade-data.js';
+import { readTrade, saveTrade, spareOf, readListPrefs, saveListPrefs } from './trade-data.js';
 import { toast, copyText } from './ui.js';
+import { count, plural } from './format.js';
 
-const KEY = 'bt:v1:lists';
 const GROUPS = ['have', 'missing'];
 
 const dlg = document.getElementById('dlg-list');
 const $ = (name) => dlg.querySelector(`[data-ls="${name}"]`);
-const count = new Intl.NumberFormat('en-GB');
-const plural = (n, one, many) => `${count.format(n)} ${n === 1 ? one : many}`;
-const isObject = (v) => Boolean(v) && typeof v === 'object' && !Array.isArray(v);
 const idList = (v) => (Array.isArray(v) ? v.filter((id) => typeof id === 'string') : []);
 const variantMark = (variant) => variant.split(/\s+/).map((w) => w[0]).join('').toUpperCase();
 
@@ -24,13 +21,8 @@ let url = '';
 let linkRun = 0;
 let linkTimer = 0;
 
-function readAll() {
-  const saved = storage.read(KEY);
-  return isObject(saved) ? saved : {};
-}
-
 function readOptions() {
-  const s = readAll().sets?.[COLLECTION.id];
+  const s = readListPrefs().sets?.[COLLECTION.id];
   return {
     spares: s?.spares !== false,
     missing: s?.missing !== false,
@@ -41,8 +33,8 @@ function readOptions() {
 }
 
 function saveOptions() {
-  const all = readAll();
-  const sets = isObject(all.sets) ? all.sets : {};
+  const all = readListPrefs();
+  const sets = storage.isObject(all.sets) ? all.sets : {};
   sets[COLLECTION.id] = {
     spares: opts.spares,
     missing: opts.missing,
@@ -53,10 +45,10 @@ function saveOptions() {
       missing: [...opts.hide.missing].filter((id) => !store.getQty(id)),
     },
   };
-  storage.write(KEY, { ...all, sets });
+  saveListPrefs({ ...all, sets });
 }
 
-const currentTier = () => getTier(store.getPrefs().tier);
+const currentTier = () => COLLECTION.getTier(store.getPrefs().tier);
 
 function candidates() {
   const tier = currentTier();

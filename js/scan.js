@@ -4,6 +4,8 @@ import { fetchCollection, fetchPrices } from './collection.js';
 import { formatMoney, formatUsd, ratesOf, shownCurrency } from './pricing.js';
 import * as storage from './storage.js';
 import { loadMatcher, match, search } from './scan-match.js';
+import { el, icon } from './dom.js';
+import { plural } from './format.js';
 
 const CARD_ASPECT = 63 / 88;
 const REGULAR = 'Regular';
@@ -27,7 +29,6 @@ const flashBox = $('flash');
 const live = $('live');
 const scopeBox = $('scope');
 const heading = dlg.querySelector('.scanner__title');
-const plural = (n, one, many) => `${n} ${n === 1 ? one : many}`;
 
 let options = {};
 let stream = null;
@@ -40,28 +41,6 @@ let view = null;
 let flashTimer = 0;
 let lastShot = null;
 const session = [];
-
-const el = (tag, attrs = {}, ...children) => {
-  const node = document.createElement(tag);
-  for (const [k, v] of Object.entries(attrs)) {
-    if (v === false || v == null) continue;
-    if (k === 'class') node.className = v;
-    else if (k === 'text') node.textContent = v;
-    else if (k.startsWith('on')) node.addEventListener(k.slice(2), v);
-    else node.setAttribute(k, v === true ? '' : v);
-  }
-  node.append(...children.filter((c) => c != null && c !== false));
-  return node;
-};
-
-const icon = (id) => {
-  const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
-  svg.setAttribute('aria-hidden', 'true');
-  const use = document.createElementNS('http://www.w3.org/2000/svg', 'use');
-  use.setAttribute('href', `#${id}`);
-  svg.append(use);
-  return svg;
-};
 
 const setInfo = (id) => catalog?.collections.find((c) => c.id === id) || { id, name: id };
 const familyOf = (id) => id.replace(COMPANION, '');
@@ -487,7 +466,7 @@ async function addSelected(button) {
   session.unshift(entry);
   updateTally();
   options.onSaved?.();
-  navigator.storage?.persist?.().catch(() => {});
+  storage.requestPersistence();
   vibrate(result.from ? 12 : [12, 60, 12]);
   const counts = storage.readCounts(candidate.set);
   const other = state.found.cards.find((c) => c.id !== card.id && counts[c.id]);

@@ -22,7 +22,7 @@ let skipNextPop = false;
 
 function armHistory() {
   if (historyArmed) return;
-  history.pushState({ p30cDialog: true }, '');
+  history.pushState({ dialog: true }, '');
   historyArmed = true;
 }
 

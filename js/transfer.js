@@ -3,7 +3,7 @@ import { fetchCollection } from './collection.js';
 import * as storage from './storage.js';
 import { encodeCollection, resolveCode } from './codec.js';
 
-const findEntry = (catalog, decoded) => catalog.collections.find((c) => (decoded.collection ? c.id === decoded.collection : c.syncKey === decoded.key));
+export const findEntry = (catalog, decoded) => catalog.collections.find((c) => c.syncKey === decoded.key);
 
 export async function catalogEntryFor(decoded) {
   return findEntry(await loadCatalog(), decoded) || null;

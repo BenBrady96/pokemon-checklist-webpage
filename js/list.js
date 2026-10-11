@@ -3,12 +3,13 @@ import { normalize } from './model.js';
 import * as storage from './storage.js';
 import { formatAmount, priceDate } from './pricing.js';
 import { decodeList, UNSUPPORTED } from './trade-code.js';
-import { loadSets, makeValuer } from './trade-data.js';
+import { loadSets, makeValuer, readListPrefs, saveListPrefs } from './trade-data.js';
 import { initDialogs, openDialog, hideLoader } from './ui.js';
 import { initHeader } from './header.js';
 import { initInstallBanner } from './pwa.js';
+import { el, icon } from './dom.js';
+import { count, plural, DAY_MONTH_YEAR } from './format.js';
 
-const KEY = 'bt:v1:lists';
 const TABS = [
   { id: 'have', label: 'Up for trade', empty: 'Nothing is up for trade in this list.' },
   { id: 'missing', label: 'Looking for', empty: 'Nothing on the wanted list. This set might be complete!' },
@@ -23,32 +24,6 @@ const MESSAGES = {
 };
 
 const $ = (name) => document.querySelector(`[data-lst="${name}"]`);
-const count = new Intl.NumberFormat('en-GB');
-const plural = (n, one, many) => `${count.format(n)} ${n === 1 ? one : many}`;
-const DATE = new Intl.DateTimeFormat('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
-const isObject = (v) => Boolean(v) && typeof v === 'object' && !Array.isArray(v);
-
-const el = (tag, attrs = {}, ...children) => {
-  const node = document.createElement(tag);
-  for (const [k, v] of Object.entries(attrs)) {
-    if (v === false || v == null) continue;
-    if (k === 'class') node.className = v;
-    else if (k === 'text') node.textContent = v;
-    else if (k.startsWith('on')) node.addEventListener(k.slice(2), v);
-    else node.setAttribute(k, v === true ? '' : v);
-  }
-  node.append(...children.filter((c) => c != null && c !== false));
-  return node;
-};
-
-const icon = (id) => {
-  const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
-  svg.setAttribute('aria-hidden', 'true');
-  const use = document.createElementNS('http://www.w3.org/2000/svg', 'use');
-  use.setAttribute('href', `#${id}`);
-  svg.append(use);
-  return svg;
-};
 
 let page = null;
 let valuer = null;
@@ -56,17 +31,12 @@ let tab = 'have';
 let view = readView();
 let query = '';
 
-function readAll() {
-  const saved = storage.read(KEY);
-  return isObject(saved) ? saved : {};
-}
-
 function readView() {
-  return readAll().view === 'list' ? 'list' : 'grid';
+  return readListPrefs().view === 'list' ? 'list' : 'grid';
 }
 
 function saveView() {
-  storage.write(KEY, { ...readAll(), view });
+  saveListPrefs({ ...readListPrefs(), view });
 }
 
 const money = (n) => formatAmount(n, valuer.cur);
@@ -153,7 +123,7 @@ function renderHero() {
   $('meta').replaceChildren(...[
     el('b', { text: model.name }),
     model.game?.name ? ` · ${model.game.name}` : null,
-    list.created ? ` · made ${DATE.format(list.created)}` : null,
+    list.created ? ` · made ${DAY_MONTH_YEAR.format(list.created)}` : null,
   ].filter(Boolean));
 }
 

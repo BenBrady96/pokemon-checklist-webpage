@@ -1,4 +1,4 @@
-export const DEFAULT = {
+const DEFAULT = {
   accent: '#F2C14E',
   chrome: '#151D4A',
   light: {
@@ -25,7 +25,7 @@ const DARK_NEUTRALS = ['--bg', '--bg-raised', '--surface', '--surface-2', '--sur
 const toLinear = (c) => (c <= 0.04045 ? c / 12.92 : ((c + 0.055) / 1.055) ** 2.4);
 const toGamma = (c) => (c <= 0.0031308 ? 12.92 * c : 1.055 * c ** (1 / 2.4) - 0.055);
 
-export function hexToRgb(hex) {
+function hexToRgb(hex) {
   const h = hex.replace('#', '');
   const full = h.length === 3 ? [...h].map((x) => x + x).join('') : h;
   return [0, 2, 4].map((i) => parseInt(full.slice(i, i + 2), 16) / 255);
@@ -74,7 +74,7 @@ export function oklchToHex({ l, c, h }) {
   return rgbToHex(oklchToLinear({ l: L, c: hi, h }).map(toGamma));
 }
 
-export function luminance(hex) {
+function luminance(hex) {
   const [r, g, b] = hexToRgb(hex).map(toLinear);
   return 0.2126 * r + 0.7152 * g + 0.0722 * b;
 }

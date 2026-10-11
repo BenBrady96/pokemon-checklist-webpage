@@ -1,22 +1,22 @@
 import { fetchCollection, fetchPrices } from './collection.js';
 import { resolveCode } from './codec.js';
-import { applyEntries } from './transfer.js';
+import { applyEntries, findEntry } from './transfer.js';
 import * as storage from './storage.js';
 import { convert, ratesOf, shownCurrency } from './pricing.js';
 
 const KEY = 'bt:v1:trade';
+const LISTS_KEY = 'bt:v1:lists';
 const MAX_HISTORY = 50;
 const TABS = ['theyHave', 'youHave', 'mySpares', 'myNeeds', 'theirSpares'];
 export const SIDES = ['give', 'get'];
 
 export const emptyDraft = () => ({ give: [], get: [], id: null, proposal: null, updated: 0 });
 
-const isObject = (v) => Boolean(v) && typeof v === 'object' && !Array.isArray(v);
 const text = (v, max = 80) => (typeof v === 'string' ? v.slice(0, max) : '');
 
 function cleanCounts(q) {
   const out = {};
-  if (!isObject(q)) return out;
+  if (!storage.isObject(q)) return out;
   for (const [id, n] of Object.entries(q)) {
     const v = storage.clampQty(n);
     if (v > 0) out[id] = v;
@@ -27,16 +27,16 @@ function cleanCounts(q) {
 function cleanLines(list) {
   if (!Array.isArray(list)) return [];
   return list
-    .filter((l) => isObject(l) && typeof l.set === 'string' && typeof l.card === 'string')
+    .filter((l) => storage.isObject(l) && typeof l.set === 'string' && typeof l.card === 'string')
     .map((l) => ({ set: l.set, card: l.card, qty: storage.clampQty(l.qty) }))
     .filter((l) => l.qty > 0);
 }
 
 function cleanFriend(f) {
-  if (!isObject(f) || !isObject(f.sets)) return null;
+  if (!storage.isObject(f) || !storage.isObject(f.sets)) return null;
   const sets = {};
   for (const [id, s] of Object.entries(f.sets)) {
-    if (!isObject(s)) continue;
+    if (!storage.isObject(s)) continue;
     sets[id] = { tier: typeof s.tier === 'string' ? s.tier : null, n: Number.isFinite(s.n) ? s.n : null, q: cleanCounts(s.q) };
   }
   return { name: text(f.name, 40), created: Number(f.created) || 0, received: Number(f.received) || 0, unknown: Number(f.unknown) || 0, sets };
@@ -44,7 +44,7 @@ function cleanFriend(f) {
 
 function cleanHistoryLines(list) {
   if (!Array.isArray(list)) return [];
-  return list.filter(isObject).map((l) => ({
+  return list.filter(storage.isObject).map((l) => ({
     set: text(l.set, 120), card: text(l.card, 40), qty: storage.clampQty(l.qty) || 1,
     name: text(l.name), printed: text(l.printed, 40), variant: text(l.variant, 40), setName: text(l.setName),
     usd: Number.isFinite(l.usd) ? l.usd : null,
@@ -53,7 +53,7 @@ function cleanHistoryLines(list) {
 
 function cleanHistory(list) {
   if (!Array.isArray(list)) return [];
-  return list.filter(isObject).slice(0, MAX_HISTORY).map((h) => ({
+  return list.filter(storage.isObject).slice(0, MAX_HISTORY).map((h) => ({
     id: text(h.id, 16), at: Number(h.at) || 0, with: text(h.with, 40),
     give: cleanHistoryLines(h.give), get: cleanHistoryLines(h.get),
     rates: { gbp: Number(h.rates?.gbp) || 0, eur: Number(h.rates?.eur) || 0 },
@@ -62,8 +62,8 @@ function cleanHistory(list) {
 
 export function readTrade() {
   const saved = storage.read(KEY);
-  const s = isObject(saved) ? saved : {};
-  const draft = isObject(s.draft) ? s.draft : {};
+  const s = storage.isObject(saved) ? saved : {};
+  const draft = storage.isObject(s.draft) ? s.draft : {};
   return {
     v: 1,
     name: text(s.name, 40),
@@ -76,7 +76,7 @@ export function readTrade() {
       give: cleanLines(draft.give),
       get: cleanLines(draft.get),
       id: /^[0-9a-f]{8}$/.test(draft.id) ? draft.id : null,
-      proposal: isObject(draft.proposal) ? { id: text(draft.proposal.id, 16), from: text(draft.proposal.from, 40) } : null,
+      proposal: storage.isObject(draft.proposal) ? { id: text(draft.proposal.id, 16), from: text(draft.proposal.from, 40) } : null,
       updated: Number(draft.updated) || 0,
     },
     history: cleanHistory(s.history),
@@ -85,6 +85,13 @@ export function readTrade() {
 
 export const saveTrade = (state) => storage.write(KEY, state);
 export const isTradeKey = (key) => key === KEY;
+
+export function readListPrefs() {
+  const saved = storage.read(LISTS_KEY);
+  return storage.isObject(saved) ? saved : {};
+}
+
+export const saveListPrefs = (prefs) => storage.write(LISTS_KEY, prefs);
 
 export async function loadSets(ids) {
   const sets = new Map();
@@ -108,8 +115,6 @@ export function mySide(known) {
   }
   return { sets };
 }
-
-const findEntry = (catalog, decoded) => catalog.collections.find((c) => (decoded.collection ? c.id === decoded.collection : c.syncKey === decoded.key));
 
 export async function resolveFriend(decoded, catalog) {
   const sets = {};
@@ -150,8 +155,6 @@ export async function resolveProposal(decoded, catalog) {
   }));
   return { id: decoded.id, from: decoded.name, give, get, unknown };
 }
-
-export const countOf = (side, setId, cardId) => side?.sets[setId]?.q[cardId] || 0;
 
 export function standing(side, setId, card, model) {
   const s = side?.sets[setId];
@@ -257,7 +260,7 @@ export function balance(give, get) {
   };
 }
 
-export const lineOf = (draft, side, set, card) => draft[side].find((l) => l.set === set && l.card === card) || null;
+const lineOf = (draft, side, set, card) => draft[side].find((l) => l.set === set && l.card === card) || null;
 export const qtyIn = (draft, side, set, card) => lineOf(draft, side, set, card)?.qty || 0;
 export const hasLines = (draft) => draft.give.length + draft.get.length > 0;
 

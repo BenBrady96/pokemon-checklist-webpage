@@ -1,4 +1,4 @@
-import { COLLECTION, GAME, CARDS, CARD_BY_ID, RARITY_BY_ID } from './collection.js';
+import { COLLECTION } from './collection.js';
 import { getQty } from './store.js';
 import { rarityIcon } from './render.js';
 import { priceOf, formatPrice, formatUsd, pricesUpdated, isConverted, priceCurrency, SYMBOLS } from './pricing.js';
@@ -6,7 +6,7 @@ import { openDialog, escapeHTML } from './ui.js';
 
 const INFO = COLLECTION.info;
 const PACK_SECTIONS = new Set(INFO.packSections || []);
-const PACK_COUNTS = CARDS.filter((c) => PACK_SECTIONS.has(c.section))
+const PACK_COUNTS = COLLECTION.cards.filter((c) => PACK_SECTIONS.has(c.section))
   .reduce((m, c) => m.set(c.rarity, (m.get(c.rarity) || 0) + 1), new Map());
 
 const roundOdds = (n) => (n < 10 ? Math.round(n) : n < 100 ? Math.round(n / 5) * 5 : n < 1000 ? Math.round(n / 50) * 50 : Math.round(n / 500) * 500);
@@ -26,7 +26,7 @@ function whereToGet(card) {
 
 function pullOdds(card) {
   if (!PACK_SECTIONS.has(card.section) || !INFO.pullOdds) return '';
-  const rarity = RARITY_BY_ID.get(card.rarity);
+  const rarity = COLLECTION.rarityById.get(card.rarity);
   const odds = INFO.pullOdds[card.rarity];
   const lines = [];
   if (INFO.oddsText?.[card.rarity]) lines.push(INFO.oddsText[card.rarity]);
@@ -51,7 +51,7 @@ function price(card) {
   } else {
     figure = '<p class="info__price">No price yet</p><p class="hint hint--small">TCGplayer doesn’t list this card yet.</p>';
   }
-  const links = GAME.priceLinks(card, entry, card.searchQuery)
+  const links = COLLECTION.game.priceLinks(card, entry, card.searchQuery)
     .map((l) => `<a class="btn btn--ghost btn--sm" href="${l.href}" target="_blank" rel="noopener noreferrer">${l.label}<svg><use href="#i-external"/></svg></a>`);
   return `<section class="info__block"><h3 class="field__label">Market price</h3>${figure}`
     + `<div class="info__links">${links.join('')}</div></section>`;
@@ -87,7 +87,7 @@ export function initInfo() {
   const body = document.getElementById('info-body');
   return {
     open(id) {
-      const card = CARD_BY_ID.get(id);
+      const card = COLLECTION.cardById.get(id);
       title.textContent = card.name;
       body.innerHTML = render(card);
       openDialog(dlg);

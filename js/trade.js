@@ -12,6 +12,8 @@ import {
   SIDES, readTrade, saveTrade, isTradeKey, loadSets, mySide, resolveFriend, resolveProposal, standing, buildLists,
   makeValuer, totalOf, balance, qtyIn, hasLines, bump, planTrade, applyTrade, adjustFriend, pushHistory, emptyDraft,
 } from './trade-data.js';
+import { el, icon } from './dom.js';
+import { count, plural, shortDate } from './format.js';
 
 const PAGE = 60;
 const TABS = [
@@ -28,43 +30,12 @@ const SIDE_TEXT = {
 const CONVERTED = { gbp: 'Pound', eur: 'Euro' };
 
 const $ = (name) => document.querySelector(`[data-tr="${name}"]`);
-const count = new Intl.NumberFormat('en-GB');
 const percent = new Intl.NumberFormat('en-GB', { style: 'percent', maximumFractionDigits: 0 });
 const times = new Intl.NumberFormat('en-GB', { maximumFractionDigits: 1 });
-const plural = (n, one, many) => `${count.format(n)} ${n === 1 ? one : many}`;
-const DAY_MONTH = new Intl.DateTimeFormat('en-GB', { day: 'numeric', month: 'short' });
-const DAY_MONTH_YEAR = new Intl.DateTimeFormat('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
-
-const shortDate = (t) => {
-  const date = new Date(t);
-  return (date.getFullYear() === new Date().getFullYear() ? DAY_MONTH : DAY_MONTH_YEAR).format(date);
-};
 
 const ago = (t) => {
   const days = Math.floor((Date.now() - t) / 86400000);
   return days <= 0 ? 'today' : days === 1 ? 'yesterday' : `${days} days ago`;
-};
-
-const el = (tag, attrs = {}, ...children) => {
-  const node = document.createElement(tag);
-  for (const [k, v] of Object.entries(attrs)) {
-    if (v === false || v == null) continue;
-    if (k === 'class') node.className = v;
-    else if (k === 'text') node.textContent = v;
-    else if (k.startsWith('on')) node.addEventListener(k.slice(2), v);
-    else node.setAttribute(k, v === true ? '' : v);
-  }
-  node.append(...children.filter((c) => c != null && c !== false));
-  return node;
-};
-
-const icon = (id) => {
-  const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
-  svg.setAttribute('aria-hidden', 'true');
-  const use = document.createElementNS('http://www.w3.org/2000/svg', 'use');
-  use.setAttribute('href', `#${id}`);
-  svg.append(use);
-  return svg;
 };
 
 let catalog = { collections: [] };
@@ -260,7 +231,7 @@ function lineRow(side, line) {
       el('small', { text: card ? subText(line.set, card) : `${setInfo(line.set).name}. Connect to the internet to load it.` }),
       flags.length ? el('span', { class: 'tr-flags' }, ...flags) : null),
     el('span', { class: 'tr-line__side' },
-      el('b', { text: price.value != null ? money(price.value * line.qty) : '—' }),
+      el('b', { text: price.value != null ? money(price.value * line.qty) : 'n/a' }),
       each,
       stepper(side, line, card)));
 }
@@ -361,7 +332,7 @@ function pickRow(tab, item) {
       el('small', { text: subText(set, card) }),
       el('span', { class: 'tr-flags' }, ...metaFor(tab, item), inTrade ? flag('in', `${inTrade} in trade`) : null)),
     el('span', { class: 'tr-pick__side' },
-      el('b', { text: price.value != null ? money(price.value) : '—' }),
+      el('b', { text: price.value != null ? money(price.value) : 'n/a' }),
       el('button', {
         type: 'button',
         class: `btn btn--sm ${inTrade ? 'btn--primary' : 'btn--ghost'}`,
@@ -807,7 +778,7 @@ async function complete() {
   if (state.friend) adjustFriend(state.friend, state.draft);
   state.draft = emptyDraft();
   save();
-  navigator.storage?.persist?.().catch(() => {});
+  storage.requestPersistence();
   await refreshAll();
   toast(`Trade complete. You gave ${plural(gave, 'card', 'cards')} and got ${plural(got, 'card', 'cards')}.`, {
     icon: 'i-check',

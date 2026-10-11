@@ -1,4 +1,4 @@
-import { COLLECTION, CARDS, SECTIONS, RARITY_BY_ID, CARD_BY_ID, getTier } from './collection.js';
+import { COLLECTION } from './collection.js';
 import { getQty } from './store.js';
 import { escapeHTML } from './ui.js';
 import { marketUsd, formatPrice } from './pricing.js';
@@ -6,18 +6,18 @@ import { marketUsd, formatPrice } from './pricing.js';
 export const refs = new Map();
 
 const SECTION_CARDS = COLLECTION.cardsBySection;
-let mountedCards = CARDS;
+let mountedCards = COLLECTION.cards;
 
-export const hasImage = (id) => COLLECTION.hasImage(CARD_BY_ID.get(id));
-export const imageUrl = (id, size) => COLLECTION.imageUrl(CARD_BY_ID.get(id), size);
-export const imageColor = (id, fallback) => COLLECTION.imageColor(CARD_BY_ID.get(id), fallback);
+export const hasImage = (id) => COLLECTION.hasImage(COLLECTION.cardById.get(id));
+export const imageUrl = (id, size) => COLLECTION.imageUrl(COLLECTION.cardById.get(id), size);
+export const imageColor = (id, fallback) => COLLECTION.imageColor(COLLECTION.cardById.get(id), fallback);
 
 export function rarityIcon(card, cls = 'rar') {
   return `<svg class="${cls}${card.wide ? ' rar--wide' : ''}" aria-hidden="true"><use href="#${card.rarityIcon}"/></svg>`;
 }
 
 export function rarityIconById(rarityId) {
-  const rarity = RARITY_BY_ID.get(rarityId);
+  const rarity = COLLECTION.rarityById.get(rarityId);
   return `<svg class="rar${rarity.wide ? ' rar--wide' : ''}" aria-hidden="true"><use href="#${rarity.icon}"/></svg>`;
 }
 
@@ -56,9 +56,9 @@ export function updatePrices() {
 
 export function buildCards() {
   const tpl = document.createElement('template');
-  tpl.innerHTML = CARDS.map(cardMarkup).join('');
+  tpl.innerHTML = COLLECTION.cards.map(cardMarkup).join('');
   for (const li of tpl.content.querySelectorAll('.card')) {
-    const card = CARD_BY_ID.get(li.dataset.id);
+    const card = COLLECTION.cardById.get(li.dataset.id);
     refs.set(card.id, {
       card,
       li,
@@ -109,7 +109,7 @@ function cardList(cards, className = 'cards') {
 }
 
 const byName = (a, b) => a.name.localeCompare(b.name, 'en', { sensitivity: 'base' }) || a.idx - b.idx;
-const byRarity = (a, b) => RARITY_BY_ID.get(b.rarity).rank - RARITY_BY_ID.get(a.rarity).rank || a.idx - b.idx;
+const byRarity = (a, b) => COLLECTION.rarityById.get(b.rarity).rank - COLLECTION.rarityById.get(a.rarity).rank || a.idx - b.idx;
 
 function binderPage(cards, number, pockets) {
   const page = document.createElement('div');
@@ -138,7 +138,6 @@ function blankPage(cover, hint) {
 
 function coverMarkup() {
   const title = `<span class="page__cover-title brand__gold">${escapeHTML(COLLECTION.name)}</span>`;
-  if (COLLECTION.cover?.symbol) return `<svg class="page__mark"><use href="#${COLLECTION.cover.symbol}"/></svg>${title}`;
   if (COLLECTION.logoUrl) return `<img class="page__logo" src="${COLLECTION.logoUrl}" alt="" loading="lazy">${title}`;
   return `<svg class="page__mark"><use href="#logo-mark"/></svg>${title}`;
 }
@@ -167,7 +166,7 @@ function binderSection(section, pockets, firstPage, lastSection) {
 }
 
 export function mount(root, { view, sort, pockets, tier }) {
-  const { sections, cards } = getTier(tier);
+  const { sections, cards } = COLLECTION.getTier(tier);
   mountedCards = cards;
   const frag = document.createDocumentFragment();
   if (view === 'binder') {

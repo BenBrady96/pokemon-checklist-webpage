@@ -52,16 +52,6 @@ export function fetchPrices(id) {
 }
 
 export let COLLECTION = null;
-export let GAME = null;
-export let CARDS = [];
-export let CARD_BY_ID = new Map();
-export let SECTIONS = [];
-export let RARITIES = [];
-export let RARITY_BY_ID = new Map();
-export let GROUPS = [];
-export let JUMPS = [];
-export let getTier = () => null;
-export let inTier = () => false;
 
 export async function loadCollection(id) {
   const [model, prices] = await Promise.all([
@@ -70,15 +60,5 @@ export async function loadCollection(id) {
   ]);
   setPrices(prices);
   COLLECTION = model;
-  GAME = model.game;
-  CARDS = model.cards;
-  CARD_BY_ID = model.cardById;
-  SECTIONS = model.sections;
-  RARITIES = model.rarities;
-  RARITY_BY_ID = model.rarityById;
-  GROUPS = model.groups;
-  JUMPS = model.jumps;
-  getTier = model.getTier;
-  inTier = model.inTier;
   return model;
 }

@@ -6,10 +6,10 @@ const DAILY_DAYS = 7;
 const WEEKLY_DAYS = 31;
 
 const pad = (n) => String(n).padStart(2, '0');
-export const dayOf = (date) => `${date.getFullYear()}-${pad(date.getMonth() + 1)}-${pad(date.getDate())}`;
+const dayOf = (date) => `${date.getFullYear()}-${pad(date.getMonth() + 1)}-${pad(date.getDate())}`;
 export const today = () => dayOf(new Date());
 export const parseDay = (day) => new Date(`${day}T00:00:00`);
-export const daysBetween = (from, to) => Math.round((parseDay(to) - parseDay(from)) / 86400000);
+const daysBetween = (from, to) => Math.round((parseDay(to) - parseDay(from)) / 86400000);
 
 export function addDays(day, n) {
   const date = parseDay(day);
@@ -28,7 +28,7 @@ function bucket(day, now) {
 
 const byDay = (a, b) => a.d.localeCompare(b.d);
 
-export function compact(points, now = today()) {
+function compact(points, now = today()) {
   const kept = new Map();
   for (const p of [...points].sort(byDay)) kept.set(bucket(p.d, now), p);
   return [...kept.values()].sort(byDay);
@@ -66,7 +66,7 @@ export function recordSnapshot(worth) {
   return next;
 }
 
-export function mergeHistory(incoming) {
+function mergeHistory(incoming) {
   if (!Array.isArray(incoming)) return false;
   const local = readHistory();
   const days = new Set(local.map((p) => p.d));

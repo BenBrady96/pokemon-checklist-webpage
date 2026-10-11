@@ -1,21 +1,22 @@
-import { loadCatalog, collectionUrl } from './catalog.js';
+import { loadCatalog } from './catalog.js';
 import { fetchCollection } from './collection.js';
 import { normalize } from './model.js';
 import * as storage from './storage.js';
-import { parseSyncText, parseBackup, askIncoming, initImport, exportFile } from './sync.js';
-import { resolveCodes, resolveBackup, allCounts, backupCode, applyEntries, catalogEntryFor } from './transfer.js';
-import { initDialogs, openDialog, closeDialog, toast, copyText, hideLoader } from './ui.js';
+import { initImport } from './sync.js';
+import { resolveCodes, resolveBackup, backupCode } from './transfer.js';
+import { initDialogs, openDialog, toast, hideLoader } from './ui.js';
 import { initPWA, initInstallBanner } from './pwa.js';
-import { mergeBackupHistory, recordSnapshot } from './history.js';
+import { recordSnapshot } from './history.js';
 import { formatMoney } from './pricing.js';
 import { collectionWorth } from './worth.js';
 import { initHeader, showWorth } from './header.js';
+import { plural, formatAgo } from './format.js';
+import { importMany, openInSet, checkIncomingLink, describeCodes, watchBackupFile, backupActions } from './backup.js';
 
 const search = document.getElementById('set-search');
 const continueSection = document.getElementById('continue');
 const continueGrid = document.getElementById('continue-grid');
 const noMatch = document.getElementById('no-match');
-const plural = (n, one, many) => `${n} ${n === 1 ? one : many}`;
 let catalog = { games: [], collections: [] };
 
 const tilesFor = (id) => document.querySelectorAll(`.set-tile[data-id="${CSS.escape(id)}"]`);
@@ -137,70 +138,12 @@ function filterSets() {
   noMatch.querySelector('span').textContent = search.value.trim();
 }
 
-async function importMany(entries, source) {
-  if (!entries.length) {
-    toast('None of those cards are from sets on this site.');
-    return false;
-  }
-  const choice = await askIncoming({
-    source,
-    multi: { entries: entries.map((e) => ({ name: e.name, incoming: e.counts, current: storage.readCounts(e.id) })) },
-  });
-  if (!choice) return false;
-  const result = applyEntries(entries, choice);
-  showProgress();
-  if (!result.changed) {
-    toast('Your collections already match.');
-    return true;
-  }
-  navigator.storage?.persist?.().catch(() => {});
-  toast(`${choice === 'merge' ? 'Merged' : 'Replaced'} ${plural(result.changed, 'set', 'sets')}`, {
-    icon: 'i-check',
-    action: {
-      label: 'Undo',
-      onClick() {
-        result.undo();
-        showProgress();
-        toast('Import undone', { icon: 'i-undo' });
-      },
-    },
-  });
-  return true;
-}
+const importHooks = { refresh: showProgress };
 
 async function handleIncoming({ decoded, codes }, source) {
-  if (decoded.length === 1) {
-    const entry = await catalogEntryFor(decoded[0]);
-    if (!entry) {
-      toast('That code is for a set this site doesn’t have.');
-      return false;
-    }
-    location.href = `${collectionUrl(entry.id)}#sync=${codes[0]}`;
-    return true;
-  }
-  return importMany(await resolveCodes(decoded), source);
+  if (decoded.length === 1) return openInSet(decoded[0], codes[0]);
+  return importMany(await resolveCodes(decoded), source, importHooks);
 }
-
-async function checkIncomingLink() {
-  const m = /^#sync=([A-Za-z0-9_.-]+)$/.exec(location.hash);
-  if (!m) return;
-  history.replaceState(null, '', location.pathname + location.search);
-  const incoming = parseSyncText(`#sync=${m[1]}`);
-  if (!incoming) {
-    toast('That sync link isn’t valid.');
-    return;
-  }
-  try {
-    await handleIncoming(incoming, 'link');
-  } catch {
-    toast('Couldn’t load that link. Check your connection and try again.');
-  }
-}
-
-const formatAgo = (ts) => {
-  const days = Math.floor((Date.now() - ts) / 86400000);
-  return days <= 0 ? 'today' : days === 1 ? 'yesterday' : `${days} days ago`;
-};
 
 function openScanner() {
   import('./scan.js').then(
@@ -236,32 +179,7 @@ async function openNamed(name) {
   openDialog(dlg);
 }
 
-const actions = {
-  async 'copy-code'() {
-    const box = document.getElementById('export-code');
-    if (!box.value) {
-      toast('You haven’t marked any cards yet.');
-      return;
-    }
-    const ok = await copyText(box.value);
-    if (ok) storage.setPref('lastBackup', Date.now());
-    else box.select();
-    toast(ok ? 'Code copied. Paste it into Import backup on your other device.' : 'Select the code and copy it manually.', { icon: 'i-copy' });
-  },
-  'share-code'() {
-    navigator.share({ text: document.getElementById('export-code').value })
-      .then(() => storage.setPref('lastBackup', Date.now()), () => {});
-  },
-  'save-file'() {
-    exportFile(allCounts());
-    storage.setPref('lastBackup', Date.now());
-    closeDialog(document.getElementById('dlg-export'));
-    toast('Backup saved to your downloads.', { icon: 'i-download' });
-  },
-  'choose-file'() {
-    document.getElementById('import-file').click();
-  },
-};
+const actions = { ...backupActions };
 
 function wire() {
   document.addEventListener('click', (e) => {
@@ -283,23 +201,8 @@ function wire() {
       document.querySelector('#catalog .set-tile:not([hidden])')?.focus();
     }
   });
-  document.getElementById('import-file').addEventListener('change', async (e) => {
-    const file = e.target.files[0];
-    e.target.value = '';
-    if (!file) return;
-    const text = await file.text();
-    const entries = parseBackup(text);
-    if (!entries) {
-      toast('That file isn’t a checklist backup.');
-      return;
-    }
-    try {
-      if (await importMany(await resolveBackup(entries), 'file')) mergeBackupHistory(text);
-    } catch {
-      toast('Couldn’t read that backup. Check your connection and try again.');
-    }
-  });
-  window.addEventListener('hashchange', checkIncomingLink);
+  watchBackupFile({ onEntries: async (entries) => importMany(await resolveBackup(entries), 'file', importHooks) });
+  window.addEventListener('hashchange', () => checkIncomingLink(handleIncoming));
   window.addEventListener('storage', (e) => {
     if (storage.isCollectionKey(e.key)) showProgress();
   });
@@ -324,10 +227,7 @@ async function init() {
         return false;
       }
     },
-    describe(decoded) {
-      const names = decoded.map((d) => catalog.collections.find((c) => (d.collection ? c.id === d.collection : c.syncKey === d.key))?.name || 'an unknown set');
-      return names.length > 2 ? `${names.length} sets` : names.join(' and ');
-    },
+    describe: (decoded) => describeCodes(catalog, decoded),
   });
   try {
     catalog = await loadCatalog();
@@ -340,7 +240,7 @@ async function init() {
     history.replaceState(null, '', location.pathname + location.hash);
     toast('You’re offline, and that set isn’t saved on this device yet. Sets you’ve opened before still work.', { timeout: 8000 });
   }
-  checkIncomingLink();
+  checkIncomingLink(handleIncoming);
   initPWA();
 }
 

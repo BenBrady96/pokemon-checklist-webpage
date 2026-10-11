@@ -10,11 +10,7 @@ globalThis.window ??= { addEventListener() {} };
 globalThis.document ??= { getElementById: element, querySelector: element, querySelectorAll: () => [], createElement: element, documentElement: element(), head: element() };
 globalThis.matchMedia ??= () => ({ matches: false });
 
-const stored = new Map([
-  ['bt:v1:prefs', JSON.stringify({ view: 'list', tiers: { 'pokemon/151': 'complete', 'pokemon/mega-evolution': 'master', 'pokemon/surging-sparks': 'standard' } })],
-  ['bt:v1:c:pokemon/30th-celebration', JSON.stringify({ v: 1, q: { m001: 1, p094: 2, p044: 1, e009: 3 }, updated: 1, summary: { tier: 'grand', owned: 4, total: 246 } })],
-  ['bt:v1:c:pokemon/me-black-star-promos', JSON.stringify({ v: 1, q: { '001': 1, '094': 5 }, updated: 2 })],
-]);
+const stored = new Map();
 Object.defineProperty(globalThis, 'localStorage', {
   configurable: true,
   value: {
@@ -39,13 +35,6 @@ function check(ok, message) {
   }
 }
 const sameCounts = (a, b) => JSON.stringify(Object.entries(a).sort()) === JSON.stringify(Object.entries(b).sort());
-
-const saved = (id) => JSON.parse(stored.get(`bt:v1:c:${id}`) || '{}');
-check(sameCounts(saved('pokemon/30th-celebration').q, { m001: 1 }) && !saved('pokemon/30th-celebration').summary, 'saved 30th Celebration promos and Basic Energy move out of 30th Celebration');
-check(sameCounts(saved('pokemon/me-black-star-promos').q, { '001': 1, '094': 5, '044': 1 }), 'saved 30th Celebration promos move to ME Black Star Promos, keeping the higher count');
-check(sameCounts(saved('pokemon/me-energy').q, { '009': 3 }), 'saved 30th Celebration Basic Energy moves to ME Energy');
-const prefs = JSON.parse(stored.get('bt:v1:prefs'));
-check(prefs.tierScheme === 2 && prefs.view === 'list' && sameCounts(prefs.tiers, { 'pokemon/151': 'grand', 'pokemon/mega-evolution': 'grand', 'pokemon/surging-sparks': 'standard' }), 'saved Complete and old Master (every card) tier choices become Grand Master');
 
 let seed = 42;
 const random = () => {
@@ -135,19 +124,12 @@ const thirty = models.get('pokemon/30th-celebration');
 check(thirty?.visibleTiers.map((t) => t.cards.length).join() === '128,191', '30th Celebration tier sizes are 128 and 191');
 check(thirty?.sections.map((s) => s.id).join() === 'main,secret,classic', '30th Celebration order is main set, secret rares, Classic Collection');
 
-const V1 = 'AfZSpHmUctAoCjgRdTaI4AAPVlCAAigQoCAwzX3Ad8QgBDMGYxw8H1kzHkUzUF1WKG0YjAOlY6wL4mM';
-const v1 = decodeCode(V1);
-check(v1?.collection === 'pokemon/30th-celebration', 'old v1 code is recognised as 30th Celebration');
-if (v1 && thirty) {
-  const counts = resolveCode(v1, thirty);
-  const copies = Object.values(counts).reduce((a, b) => a + b, 0);
-  check(Object.keys(counts).length === 63 && copies === 701, `old v1 code: 63 cards, 701 copies without the moved promos and Basic Energy (got ${Object.keys(counts).length}, ${copies})`);
-  check(counts.m005 === 51 && counts.m007 === 99 && counts.c08 === 99 && !('p044' in counts) && counts.m141 === 3 && counts.m002 === 1, 'old v1 code: copy counts');
-}
-check(parseSyncText(`https://example.com/#sync=${V1}`)?.source === 'link', 'a pasted link is read');
+const shareCode = thirty ? encodeCollection(thirty, { m001: 1, m005: 3, c08: 2 }) : '';
+check(parseSyncText(`https://example.com/pokemon/30th-celebration/#sync=${shareCode}`)?.source === 'link', 'a pasted link is read');
 check(parseSyncText('not a code at all') === null, 'text without a code is rejected');
-const oldFile = parseBackup(JSON.stringify({ app: '30th-celebration-checklist', version: 1, cards: { m001: 2 } }));
-check(oldFile?.[0].id === 'pokemon/30th-celebration' && oldFile[0].counts.m001 === 2, 'old backup files load into 30th Celebration');
+const backupFile = parseBackup(JSON.stringify({ app: 'binder-tracker', version: 2, collections: { 'pokemon/151': { cards: { '001': 2, '004': 0 } } } }));
+check(backupFile?.length === 1 && backupFile[0].id === 'pokemon/151' && sameCounts(backupFile[0].counts, { '001': 2 }), 'backup files load');
+check(parseBackup(JSON.stringify({ cards: { m001: 2 } })) === null, 'a file without collections isn’t read as a backup');
 
 if (thirty) {
   const qa = (text) => parseQuickAdd(text, thirty);
@@ -155,6 +137,7 @@ if (thirty) {
   check(qa('RGB').counts.size === 3 && qa('R/RGB').counts.get('rgb-r') === 1 && qa('g/rgb x3').counts.get('rgb-g') === 3, '30th quick add RGB Mews');
   check(qa('V1').invalid.length === 1 && qa('E9').invalid.length === 1 && qa('P94').invalid.length === 1, '30th quick add has no variant, Basic Energy or promo codes');
   check(qa('159').invalid.length === 1 && qa('12/158').counts.has('m012') && qa('55x2').counts.get('m055') === 2, '30th quick add edge cases');
+  check(qa('1\u201422').counts.size === 22 && qa('3 \u2013 5').counts.size === 3, '30th quick add reads en and em dashes from phone keyboards as ranges');
 }
 if (meg) {
   const r = parseQuickAdd('1-3, R1-R3, 188x2', meg);
@@ -215,8 +198,8 @@ check((await readTradeText(plainTrade))?.kind === 'trade', 'a bare trade code is
 check(await decodeTrade(plainTrade.slice(0, Math.floor(plainTrade.length / 2))) === null, 'a cut-off trade code is rejected');
 check(await decodeProposal(plainTrade) === null, 'a trade code isn’t read as a proposed trade');
 check(await readTradeText('hello there, no code here') === null, 'text without a trade code is rejected');
-const fromSync = await readTradeText(`https://example.com/#sync=${V1}`);
-check(fromSync?.kind === 'trade' && fromSync.source === 'sync' && fromSync.sets[0].decoded.collection === 'pokemon/30th-celebration', 'a set share link is read as a one-set trade code');
+const fromSync = await readTradeText(`https://example.com/pokemon/30th-celebration/#sync=${shareCode}`);
+check(fromSync?.kind === 'trade' && fromSync.source === 'sync' && fromSync.sets[0].decoded.key === thirty?.syncKey, 'a set share link is read as a one-set trade code');
 check(cleanName(`a\u0000b ${'x'.repeat(40)}`) === `ab ${'x'.repeat(21)}`, 'trade names lose control characters and are capped at 24 characters');
 const bomb = new Uint8Array(await new Response(new Blob([new Uint8Array(2 * 1024 * 1024)]).stream().pipeThrough(new CompressionStream('deflate-raw'))).arrayBuffer());
 check(await inflate(bomb).then(() => false, () => true), 'a code that inflates past the limit is rejected');

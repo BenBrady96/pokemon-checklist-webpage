@@ -1,20 +1,20 @@
-import { COLLECTION, GAME, SECTIONS, RARITIES, GROUPS, getTier } from './collection.js';
+import { COLLECTION } from './collection.js';
 import { getQty, getPrefs } from './store.js';
 import { rarityIconById } from './render.js';
 import { marketUsd, formatPrice, formatUsd, pricesUpdated, hasPrices, isConverted } from './pricing.js';
 
-const currentTier = () => getTier(getPrefs().tier);
+const currentTier = () => COLLECTION.getTier(getPrefs().tier);
 
 const SUMMARY = COLLECTION.summary
   || COLLECTION.sections.map((s) => [s.id, s.name.charAt(0) + s.name.slice(1).toLowerCase()]);
-const STAT_GROUPS = GROUPS.filter((g) => g.stat);
+const STAT_GROUPS = COLLECTION.groups.filter((g) => g.stat);
 
 export function compute() {
   const tier = currentTier();
   const blank = (list) => Object.fromEntries(list.map((x) => [x.id, { owned: 0, total: 0 }]));
-  const bySection = blank(SECTIONS);
-  const byRarity = blank(RARITIES);
-  const byGroup = blank(GROUPS);
+  const bySection = blank(COLLECTION.sections);
+  const byRarity = blank(COLLECTION.rarities);
+  const byGroup = blank(COLLECTION.groups);
   let owned = 0;
   let copies = 0;
   let spare = 0;
@@ -35,7 +35,7 @@ export function compute() {
     };
     tally(bySection[card.section]);
     tally(byRarity[card.rarity]);
-    for (const g of GROUPS) if (g.test(card)) tally(byGroup[g.id]);
+    for (const g of COLLECTION.groups) if (g.test(card)) tally(byGroup[g.id]);
     if (q) {
       owned++;
       copies += q;
@@ -92,7 +92,7 @@ export function renderStats(s) {
   const statRows = STAT_GROUPS.filter((g) => s.byGroup[g.id].total)
     .map((g) => row(g.name, s.byGroup[g.id], g.match?.rarity ? rarityIconById([].concat(g.match.rarity)[0]) : ''))
     .join('');
-  const rarityRows = RARITIES.filter((r) => s.byRarity[r.id].total)
+  const rarityRows = COLLECTION.rarities.filter((r) => s.byRarity[r.id].total)
     .map((r) => row(r.name, s.byRarity[r.id], rarityIconById(r.id)))
     .join('');
 
@@ -131,13 +131,13 @@ function groupedLines(tier, filter, format) {
   return lines;
 }
 
-const title = `${GAME.name} ${COLLECTION.name}`;
+const title = `${COLLECTION.game.name} ${COLLECTION.name}`;
 
 export function missingText() {
   const tier = currentTier();
   const missing = tier.cards.filter((c) => !getQty(c.id));
   if (!missing.length) return `${title} (${tier.name}): I have every card!`;
-  return [`${title} (${tier.name}) — missing ${missing.length} of ${tier.cards.length}:`, '',
+  return [`${title} (${tier.name}), missing ${missing.length} of ${tier.cards.length}:`, '',
     ...groupedLines(tier, (c) => !getQty(c.id), (c) => c.listText)].join('\n');
 }
 
@@ -146,6 +146,6 @@ export function duplicatesText() {
   const dupes = tier.cards.filter((c) => getQty(c.id) > 1);
   if (!dupes.length) return '';
   const spare = dupes.reduce((n, c) => n + getQty(c.id) - 1, 0);
-  return [`${title} — ${spare} spare cop${spare === 1 ? 'y' : 'ies'} for trade:`, '',
+  return [`${title}, ${spare} spare cop${spare === 1 ? 'y' : 'ies'} for trade:`, '',
     ...groupedLines(tier, (c) => getQty(c.id) > 1, (c) => `${c.listText} ×${getQty(c.id) - 1}`)].join('\n');
 }

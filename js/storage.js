@@ -6,6 +6,7 @@ export const collectionKey = (id) => `${COLLECTION_PREFIX}${id}`;
 export const isCollectionKey = (key) => key?.startsWith(COLLECTION_PREFIX);
 export const MAX_QTY = 99;
 export const clampQty = (n) => Math.max(0, Math.min(MAX_QTY, Math.floor(Number(n) || 0)));
+export const isObject = (v) => Boolean(v) && typeof v === 'object' && !Array.isArray(v);
 
 let storageOk = true;
 
@@ -37,70 +38,13 @@ try {
 
 export const isStorageOk = () => storageOk;
 
-const LEGACY_COLLECTION = 'pokemon/30th-celebration';
+let persistRequested = false;
 
-function movedCard(id) {
-  const m = /^([pe])(\d{3})$/.exec(id);
-  return m && [m[1] === 'p' ? 'pokemon/me-black-star-promos' : 'pokemon/me-energy', m[2]];
+export function requestPersistence() {
+  if (persistRequested) return;
+  persistRequested = true;
+  navigator.storage?.persist?.().catch(() => {});
 }
-
-function moveCards() {
-  const key = collectionKey(LEGACY_COLLECTION);
-  const record = read(key);
-  if (!record?.q || typeof record.q !== 'object') return;
-  const q = {};
-  const targets = new Map();
-  for (const [id, n] of Object.entries(record.q)) {
-    const to = movedCard(id);
-    if (!to) {
-      q[id] = n;
-      continue;
-    }
-    const [collection, cardId] = to;
-    if (!targets.has(collection)) {
-      const { summary, ...target } = read(collectionKey(collection)) || { v: 1, updated: record.updated || Date.now() };
-      targets.set(collection, { ...target, q: { ...target.q } });
-    }
-    const target = targets.get(collection);
-    const count = Math.max(clampQty(target.q[cardId]), clampQty(n));
-    if (count) target.q[cardId] = count;
-  }
-  if (!targets.size) return;
-  for (const [collection, target] of targets) write(collectionKey(collection), target);
-  const { summary, ...rest } = record;
-  write(key, { ...rest, q });
-}
-
-const TIER_SCHEME = 2;
-
-function remapTiers() {
-  const saved = read(PREFS_KEY);
-  if (!saved || typeof saved !== 'object' || saved.tierScheme === TIER_SCHEME) return;
-  const tiers = {};
-  for (const [id, tier] of Object.entries(saved.tiers || {})) tiers[id] = tier === 'complete' || tier === 'master' ? 'grand' : tier;
-  write(PREFS_KEY, { ...saved, tiers, tierScheme: TIER_SCHEME });
-}
-
-function migrate() {
-  try {
-    if (localStorage.getItem(PREFS_KEY) === null) {
-      const old = read('p30c:prefs:v1');
-      if (old && typeof old === 'object') {
-        const { tier, ...rest } = old;
-        write(PREFS_KEY, { ...rest, tiers: tier ? { [LEGACY_COLLECTION]: tier } : {} });
-      }
-    }
-    const key = collectionKey(LEGACY_COLLECTION);
-    if (localStorage.getItem(key) === null) {
-      const old = read('p30c:v1');
-      if (old?.q && typeof old.q === 'object') write(key, { v: 1, q: old.q, updated: old.updated || Date.now() });
-    }
-    moveCards();
-    remapTiers();
-  } catch {}
-}
-
-migrate();
 
 const DEFAULT_PREFS = {
   view: 'grid',
@@ -114,7 +58,6 @@ const DEFAULT_PREFS = {
   lastBackup: 0,
   lastCollection: null,
   tiers: {},
-  tierScheme: TIER_SCHEME,
   scanScope: 'set',
   currency: 'gbp',
   installBanner: null,
@@ -172,7 +115,7 @@ export function writeCounts(id, counts, model) {
   return write(collectionKey(id), record);
 }
 
-export function summarise(model, q) {
+function summarise(model, q) {
   const tier = model.getTier(prefs.tiers[model.id]);
   let owned = 0;
   for (const card of tier.cards) if (q[card.id] > 0) owned++;

@@ -22,7 +22,7 @@ export async function writeText(path, text) {
   await writeFile(path, text);
 }
 
-export function formatJson(value, { lines = [] } = {}) {
+function formatJson(value, { lines = [] } = {}) {
   const entries = Object.entries(value).map(([key, v]) => {
     let body;
     if (lines.includes(key) && Array.isArray(v)) {
@@ -40,7 +40,7 @@ export function formatJson(value, { lines = [] } = {}) {
 
 export const writeJson = (path, value, options) => writeText(path, formatJson(value, options));
 
-export const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 const USER_AGENT = 'Mozilla/5.0 (Binder Tracker build; +https://github.com/BenBrady96/pokemon-checklist-webpage)';
 

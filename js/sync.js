@@ -2,6 +2,7 @@ import { asset } from './paths.js';
 import { codeSize, copiesOf, parseSyncText } from './codec.js';
 import { openDialog, closeDialog } from './ui.js';
 import { readHistory } from './history.js';
+import { plural } from './format.js';
 
 export {
   encodeCollection, decodeCode, resolveCode, codeSize, parseSyncText, parseBackup, copiesOf,
@@ -30,7 +31,7 @@ export async function renderQr(container, text, { level = 'M', maxModules = 177 
   try {
     qrcode = await loadQrLibrary();
   } catch {
-    container.innerHTML = '<p class="hint hint--small">QR code unavailable offline — copy the link instead.</p>';
+    container.innerHTML = '<p class="hint hint--small">QR code unavailable offline. Copy the link instead.</p>';
     return 'offline';
   }
   try {
@@ -46,7 +47,7 @@ export async function renderQr(container, text, { level = 'M', maxModules = 177 
     container.innerHTML = `<svg viewBox="-2 -2 ${size + 4} ${size + 4}" shape-rendering="crispEdges" aria-hidden="true"><path d="${d}" fill="#0E1433"/></svg>`;
     return 'ok';
   } catch {
-    container.innerHTML = '<p class="hint hint--small">Too much to fit in a QR code — copy the link instead.</p>';
+    container.innerHTML = '<p class="hint hint--small">Too much to fit in a QR code. Copy the link instead.</p>';
     return 'big';
   }
 }
@@ -71,7 +72,6 @@ export function exportFile(collections) {
 }
 
 const sum = (values) => values.reduce((a, b) => a + b, 0);
-const plural = (n, one, many) => `${n} ${n === 1 ? one : many}`;
 
 const SOURCE_LABELS = { file: 'In the file', link: 'In the link', code: 'In the code' };
 

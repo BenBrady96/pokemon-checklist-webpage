@@ -1,6 +1,5 @@
 import { mkdir, writeFile } from 'node:fs/promises';
 import { dirname, join } from 'node:path';
-import { pathToFileURL } from 'node:url';
 import pokemonSets, { LOGO as POKEMON_LOGO, SERIES as POKEMON_SERIES } from '../../collections/pokemon/sets.mjs';
 import * as pokemon from '../../js/games/pokemon.js';
 import { buildCollection } from '../../js/model.js';
@@ -36,8 +35,6 @@ export function selectEntries(only = []) {
   if (unknown.length) throw new Error(`Unknown collection: ${unknown.join(', ')}`);
   return picked;
 }
-
-export const curatedModule = (entry) => import(pathToFileURL(join(ROOT, 'collections', entry.game, entry.curated)).href);
 
 export const loadRaw = (id) => readJson(join(dataDir(id), 'cards.json'));
 

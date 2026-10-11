@@ -2,7 +2,7 @@ import { fetchPrices } from './collection.js';
 import * as storage from './storage.js';
 import { CURRENCIES, ratesOf } from './pricing.js';
 
-export async function setWorth(id) {
+async function setWorth(id) {
   const prices = await fetchPrices(id);
   const worth = { id, usd: 0, rates: ratesOf(prices), unique: 0, copies: 0, unpriced: 0, loaded: Boolean(prices?.cards), updated: prices?.updated || null };
   for (const [cardId, n] of Object.entries(storage.readCounts(id))) {

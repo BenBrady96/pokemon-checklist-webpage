@@ -1,8 +1,6 @@
 import { clampQty, MAX_QTY } from './storage.js';
 
-const V1 = 1;
 const V2 = 2;
-const V1_COLLECTION = 'pokemon/30th-celebration';
 
 export function toBase64Url(bytes) {
   let bin = '';
@@ -62,21 +60,12 @@ export function collectionBytes(model, counts) {
 export const encodeCollection = (model, counts) => toBase64Url(collectionBytes(model, counts));
 
 export function decodeBytes(bytes) {
-  if (!bytes || bytes.length < 2) return null;
+  if (!bytes || bytes.length < 2 || bytes[0] !== V2) return null;
   const owned = [];
   const extra = new Map();
   const readBits = (from, n) => {
     for (let i = 0; i < n; i++) if (bytes[from + (i >> 3)] & (1 << (i & 7))) owned.push(i);
   };
-  if (bytes[0] === V1) {
-    const n = bytes[1];
-    const bitLength = Math.ceil(n / 8);
-    if (bytes.length < 2 + bitLength || (bytes.length - 2 - bitLength) % 2) return null;
-    readBits(2, n);
-    for (let j = 2 + bitLength; j < bytes.length; j += 2) extra.set(bytes[j], bytes[j + 1]);
-    return { collection: V1_COLLECTION, owned, extra };
-  }
-  if (bytes[0] !== V2) return null;
   const keyLength = bytes[1];
   if (keyLength < 1 || keyLength > 16 || bytes.length < 2 + keyLength) return null;
   const key = String.fromCharCode(...bytes.subarray(2, 2 + keyLength));
@@ -147,14 +136,11 @@ export function parseBackup(text) {
   } catch {
     return null;
   }
-  if (data?.collections && typeof data.collections === 'object') {
-    const entries = Object.entries(data.collections)
-      .map(([id, value]) => ({ id, counts: cleanCounts(value?.cards) }))
-      .filter((e) => e.counts);
-    return entries.length ? entries : null;
-  }
-  const counts = cleanCounts(data?.cards ?? data?.q);
-  return counts ? [{ id: V1_COLLECTION, counts }] : null;
+  if (!data?.collections || typeof data.collections !== 'object') return null;
+  const entries = Object.entries(data.collections)
+    .map(([id, value]) => ({ id, counts: cleanCounts(value?.cards) }))
+    .filter((e) => e.counts);
+  return entries.length ? entries : null;
 }
 
 export const copiesOf = (counts) => Object.values(counts).reduce((a, b) => a + b, 0);

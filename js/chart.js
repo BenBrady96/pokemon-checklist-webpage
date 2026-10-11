@@ -20,7 +20,7 @@ function niceStep(range, count, integer) {
   return integer ? Math.max(1, Math.round(step)) : step;
 }
 
-export function niceTicks(min, max, { count = 3, integer = false } = {}) {
+function niceTicks(min, max, { count = 3, integer = false } = {}) {
   let lo = min;
   let hi = max;
   if (lo === hi) {

@@ -1,4 +1,4 @@
-import { COLLECTION, CARDS, CARD_BY_ID, getTier } from './collection.js';
+import { COLLECTION } from './collection.js';
 import * as storage from './storage.js';
 
 const ID = COLLECTION.id;
@@ -12,13 +12,13 @@ const qty = new Map();
 function loadQty() {
   qty.clear();
   for (const [id, n] of Object.entries(storage.readCounts(ID))) {
-    if (CARD_BY_ID.has(id)) qty.set(id, n);
+    if (COLLECTION.cardById.has(id)) qty.set(id, n);
   }
 }
 
 function persist() {
   const counts = {};
-  for (const card of CARDS) if (qty.has(card.id)) counts[card.id] = qty.get(card.id);
+  for (const card of COLLECTION.cards) if (qty.has(card.id)) counts[card.id] = qty.get(card.id);
   storage.writeCounts(ID, counts, COLLECTION);
 }
 
@@ -145,17 +145,17 @@ export function describe(entry) {
 }
 
 export function replaceAll(counts) {
-  return update(CARDS.map((c) => [c.id, counts[c.id] || 0]));
+  return update(COLLECTION.cards.map((c) => [c.id, counts[c.id] || 0]));
 }
 
 export function mergeAll(counts) {
-  return update(CARDS.filter((c) => (counts[c.id] || 0) > getQty(c.id)).map((c) => [c.id, counts[c.id]]));
+  return update(COLLECTION.cards.filter((c) => (counts[c.id] || 0) > getQty(c.id)).map((c) => [c.id, counts[c.id]]));
 }
 
 export function enterPreview(counts) {
   if (tx) commit();
   preview = new Map();
-  for (const card of CARDS) {
+  for (const card of COLLECTION.cards) {
     const v = clampQty(counts[card.id]);
     if (v > 0) preview.set(card.id, v);
   }
@@ -175,7 +175,7 @@ export function getPrefs() {
   const p = storage.getPrefs();
   if (p !== prefsSource) {
     prefsSource = p;
-    prefsView = { ...p, tier: getTier(p.tiers[ID]).id };
+    prefsView = { ...p, tier: COLLECTION.getTier(p.tiers[ID]).id };
   }
   return prefsView;
 }
@@ -197,14 +197,6 @@ export function onPrefChange(fn) {
 storage.onPrefChange((key) => {
   if (key === 'tiers' && qty.size) persist();
 });
-
-let persistRequested = false;
-
-export function requestPersistence() {
-  if (persistRequested) return;
-  persistRequested = true;
-  navigator.storage?.persist?.().catch(() => {});
-}
 
 window.addEventListener('storage', (e) => {
   if (e.key !== DATA_KEY) return;

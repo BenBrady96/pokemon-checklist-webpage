@@ -1,4 +1,4 @@
-import { COLLECTION, CARD_BY_ID } from './collection.js';
+import { COLLECTION } from './collection.js';
 import { escapeHTML } from './ui.js';
 
 const TOKEN = /^#?([A-Z]*)(\d{1,4})(?:-([A-Z]*)(\d{1,4}))?(?:X(\d{1,2}))?$/;
@@ -8,7 +8,7 @@ export function parseQuickAdd(text, collection = COLLECTION) {
   const counts = new Map();
   const invalid = [];
   const cleaned = text
-    .replace(/[–—]/g, '-')
+    .replace(/[\u2013\u2014]/g, '-')
     .replace(/\s*-\s*/g, '-')
     .replace(/\s*[x×*]\s*(?=\d)/gi, 'x')
     .replace(/\/\s*\d+/g, '');
@@ -73,7 +73,7 @@ export function initQuickAdd({ onApply }) {
       parts.push(`<p class="qa-summary">${counts.size} card${counts.size === 1 ? '' : 's'}${copies !== counts.size ? ` · ${copies} copies` : ''}</p>`);
       const shown = [...counts].slice(0, 40);
       for (const [id, n] of shown) {
-        parts.push(`<span class="qa-chip"><b>${escapeHTML(CARD_BY_ID.get(id).chipText)}</b>${n > 1 ? ` ×${n}` : ''}</span>`);
+        parts.push(`<span class="qa-chip"><b>${escapeHTML(COLLECTION.cardById.get(id).chipText)}</b>${n > 1 ? ` ×${n}` : ''}</span>`);
       }
       if (counts.size > shown.length) parts.push(`<span class="qa-chip">+${counts.size - shown.length} more</span>`);
     }

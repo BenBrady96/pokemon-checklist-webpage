@@ -15,12 +15,7 @@
   <link rel="apple-touch-icon" href="img/icons/apple-touch-icon.png">
   <link rel="preload" href="fonts/outfit-latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="css/styles.css">
-  <script>
-    try {
-      var p = JSON.parse(localStorage.getItem('bt:v1:prefs') || localStorage.getItem('p30c:prefs:v1') || '{}');
-      if (p.theme === 'light' || p.theme === 'dark') document.documentElement.dataset.theme = p.theme;
-    } catch (e) {}
-  </script>
+  <script src="js/theme-init.js"></script>
 </head>
 <body class="doc-page">
 <header class="appbar">
@@ -53,7 +48,7 @@
     <p class="doc__lead">The short version: this site doesn’t use cookies, doesn’t track you and doesn’t collect personal information. Your checklist is saved on your own device, and nobody else can see it unless you share a link.</p>
 
     <h2>Who we are</h2>
-    <p>Binder Tracker (“the checklist”, “we”, “us”) is a free, unofficial, fan-made website for keeping track of cards from Pokémon Trading Card Game sets. It used to be called the 30th Celebration Card Checklist. It is run by an individual hobbyist, and you can get in touch through <a href="https://github.com/BenBrady96" rel="noopener">GitHub</a>.</p>
+    <p>Binder Tracker (“the checklist”, “we”, “us”) is a free, unofficial, fan-made website for keeping track of cards from Pokémon Trading Card Game sets. It is run by an individual hobbyist, and you can get in touch through <a href="https://github.com/BenBrady96" rel="noopener">GitHub</a>.</p>
 
     <h2>Information we collect</h2>
     <p>None. There are no accounts and no sign-up, and we never ask for your name, email address or anything else about you. The checklist has no server or database of its own, so your collection and settings are never sent to us.</p>

@@ -22,11 +22,14 @@ const SHELL = [
   'fonts/outfit-latin.woff2',
   'data/catalog.json',
   'js/app.js',
+  'js/backup.js',
   'js/catalog.js',
   'js/chart.js',
   'js/codec.js',
   'js/collection.js',
   'js/confetti.js',
+  'js/dom.js',
+  'js/format.js',
   'js/gestures.js',
   'js/header.js',
   'js/history.js',
@@ -80,7 +83,7 @@ self.addEventListener('install', (event) => {
 self.addEventListener('activate', (event) => {
   event.waitUntil((async () => {
     for (const key of await caches.keys()) {
-      if (key.startsWith('p30c-') || (key.startsWith('bt-shell-') && key !== SHELL_CACHE)) await caches.delete(key);
+      if (key.startsWith('bt-shell-') && key !== SHELL_CACHE) await caches.delete(key);
     }
     await self.clients.claim();
   })());

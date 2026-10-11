@@ -7,7 +7,7 @@ import { formatMoney, priceDate, ratesOf } from '../../js/pricing.js';
 
 export const DEFAULT_URL = 'https://bindertracker.co.uk/';
 
-export const escapeHtml = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
+const escapeHtml = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
 
 export function fill(template, values) {
   return template
@@ -21,11 +21,11 @@ export function fill(template, values) {
     });
 }
 
-export const prefixUrls = (html, prefix) => html.replace(/\b(href|src)="(?![a-z][a-z0-9+.-]*:|#|\/)([^"]*)"/gi, (_, attr, url) => `${attr}="${prefix}${url === './' ? '' : url}"`);
+const prefixUrls = (html, prefix) => html.replace(/\b(href|src)="(?![a-z][a-z0-9+.-]*:|#|\/)([^"]*)"/gi, (_, attr, url) => `${attr}="${prefix}${url === './' ? '' : url}"`);
 
 const jsonScript = (data) => JSON.stringify(data).replace(/</g, '\\u003c');
 
-export async function ogImageFor(id) {
+async function ogImageFor(id) {
   const path = `img/og/${id}.jpg`;
   return (await exists(join(ROOT, path))) ? path : 'img/og-image.jpg';
 }
@@ -101,7 +101,7 @@ function faqHtml(model, sections) {
   return `<h3 class="about__sub">${name} FAQ</h3>${items.map(([q, a]) => `<h4 class="about__q">${q}</h4>${a}`).join('')}`;
 }
 
-export function setGuideHtml(model, prices) {
+function setGuideHtml(model, prices) {
   const sections = model.sections.filter((s) => model.cardsBySection.get(s.id).length);
   if (!sections.length) return '';
   return [topCardsHtml(model, prices), cardListHtml(model, sections), faqHtml(model, sections)].join('\n  ');
@@ -174,7 +174,7 @@ export async function collectionPage(id, { siteUrl = DEFAULT_URL } = {}) {
 }
 
 const MONTH = new Intl.DateTimeFormat('en-GB', { month: 'short', year: 'numeric', timeZone: 'UTC' });
-export const releaseText = (date) => MONTH.format(new Date(`${date}T00:00:00Z`));
+const releaseText = (date) => MONTH.format(new Date(`${date}T00:00:00Z`));
 
 const PRICED_SHARE = 0.7;
 
@@ -201,13 +201,11 @@ export async function setValues(catalog) {
   return values;
 }
 
-export function tileHtml(c, value) {
+function tileHtml(c, value) {
   const total = value?.tiers[c.defaultTier];
   const art = c.logo
     ? `<img class="set-tile__logo" src="${c.logo}" alt="" loading="lazy" decoding="async">`
-    : c.cover?.symbol
-      ? `<svg class="set-tile__mark" aria-hidden="true"><use href="#${c.cover.symbol}"/></svg>`
-      : `<span class="set-tile__wordmark">${escapeHtml(c.name)}</span>`;
+    : `<span class="set-tile__wordmark">${escapeHtml(c.name)}</span>`;
   return `<a class="set-tile" href="${c.id}/" data-id="${escapeHtml(c.id)}"${value ? ` data-values="${escapeHtml(JSON.stringify(value))}"` : ''}>`
     + `<span class="set-tile__art">${art}</span>`
     + '<span class="set-tile__body">'
@@ -221,7 +219,7 @@ export function tileHtml(c, value) {
 const KIND_HEADINGS = { promo: 'Promos', energy: 'Energy' };
 const OPEN_SERIES = 2;
 
-export function collectionsHtml(catalog, values = new Map()) {
+function collectionsHtml(catalog, values = new Map()) {
   const parts = [];
   for (const game of catalog.games) {
     const sets = catalog.collections.filter((c) => c.game === game.id);

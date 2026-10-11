@@ -1,5 +1,5 @@
 import { join } from 'node:path';
-import { CONFIG, curatedModule, dataDir, loadModel, loadRaw } from './lib/collections.mjs';
+import { CONFIG, dataDir, loadModel, loadRaw } from './lib/collections.mjs';
 import { normalize } from '../js/model.js';
 import { lastUpdated, loadPrices, loadProducts, productNumber } from './lib/tcgcsv.mjs';
 import { download, readJson, writeJson } from './lib/util.mjs';
@@ -49,7 +49,7 @@ async function priceCollection(entry, { updated, rates }) {
   const raw = await loadRaw(entry.id);
   if (!raw) return;
   const model = await loadModel(entry.id, { raw });
-  const curated = entry.curated ? await curatedModule(entry) : null;
+  const { curated } = entry;
   const groupIds = curated
     ? curated.tcgplayerGroups
     : Object.fromEntries([...new Set([...entry.tcgplayer, ...model.cards.map((c) => c.grp).filter(Boolean)])].map((id) => [id, id]));

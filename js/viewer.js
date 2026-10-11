@@ -1,4 +1,4 @@
-import { COLLECTION, CARD_BY_ID } from './collection.js';
+import { COLLECTION } from './collection.js';
 import * as store from './store.js';
 import { openDialog, closeDialog, reducedMotion, escapeHTML } from './ui.js';
 const SWIPE_DISTANCE = 70;
@@ -24,14 +24,14 @@ export function initViewer({ getOrder, onCommit, onBlocked }) {
   el.high.addEventListener('load', () => el.high.classList.add('is-loaded'));
 
   function preload(id) {
-    const card = id && CARD_BY_ID.get(id);
+    const card = id && COLLECTION.cardById.get(id);
     if (card && COLLECTION.hasImage(card)) new Image().src = COLLECTION.imageUrl(card, 'lg');
   }
 
   function show(id) {
     currentId = id;
     index = order.indexOf(id);
-    const card = CARD_BY_ID.get(id);
+    const card = COLLECTION.cardById.get(id);
 
     el.card.style.setProperty('--ph', COLLECTION.imageColor(card, '#222a55'));
     const image = COLLECTION.hasImage(card);

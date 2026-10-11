@@ -18,7 +18,7 @@ let bannerReady = false;
 
 export const offlineSupported = () => 'serviceWorker' in navigator && 'caches' in window && location.protocol !== 'file:';
 
-export const isInstalled = () => navigator.standalone === true
+const isInstalled = () => navigator.standalone === true
   || matchMedia('(display-mode: standalone), (display-mode: fullscreen), (display-mode: minimal-ui)').matches;
 
 export function initPWA() {

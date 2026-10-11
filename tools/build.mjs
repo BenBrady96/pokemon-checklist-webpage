@@ -79,7 +79,7 @@ for (const file of files) {
   if (folder.startsWith('img/cards/')) byFolder.set(folder, (byFolder.get(folder) || 0) + size);
 }
 const mb = (n) => `${(n / 1048576).toFixed(1)} MB`;
-console.log(`Built dist/ — ${files.length} files, ${mb(bytes)} (${CONFIG.length} collections)`);
+console.log(`Built dist/: ${files.length} files, ${mb(bytes)} (${CONFIG.length} collections)`);
 console.log(`Site URL: ${SITE_URL}`);
 console.log(`Service worker version: ${VERSION}`);
 if (process.argv.includes('--sizes')) {

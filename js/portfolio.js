@@ -9,6 +9,8 @@ import { lineChart } from './chart.js';
 import { hideLoader } from './ui.js';
 import { initHeader } from './header.js';
 import { initInstallBanner } from './pwa.js';
+import { el, icon } from './dom.js';
+import { count, plural, DAY_MONTH, DAY_MONTH_YEAR, shortDate } from './format.js';
 
 const RANGES = [
   { id: '7d', label: '7D', days: 7, phrase: 'in the past week' },
@@ -22,39 +24,8 @@ const TOP = 10;
 const LONG_RANGE_DAYS = 120;
 
 const $ = (name) => document.querySelector(`[data-pf="${name}"]`);
-const plural = (n, one, many) => `${count.format(n)} ${n === 1 ? one : many}`;
-const count = new Intl.NumberFormat('en-GB');
 const percent = new Intl.NumberFormat('en-GB', { style: 'percent', maximumFractionDigits: 1 });
-const DAY_MONTH = new Intl.DateTimeFormat('en-GB', { day: 'numeric', month: 'short' });
-const DAY_MONTH_YEAR = new Intl.DateTimeFormat('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
 const MONTH_YEAR = new Intl.DateTimeFormat('en-GB', { month: 'short', year: 'numeric' });
-
-const shortDate = (t) => {
-  const date = new Date(t);
-  return (date.getFullYear() === new Date().getFullYear() ? DAY_MONTH : DAY_MONTH_YEAR).format(date);
-};
-
-const el = (tag, attrs = {}, ...children) => {
-  const node = document.createElement(tag);
-  for (const [k, v] of Object.entries(attrs)) {
-    if (v === false || v == null) continue;
-    if (k === 'class') node.className = v;
-    else if (k === 'text') node.textContent = v;
-    else if (k.startsWith('on')) node.addEventListener(k.slice(2), v);
-    else node.setAttribute(k, v === true ? '' : v);
-  }
-  node.append(...children.filter((c) => c != null && c !== false));
-  return node;
-};
-
-const icon = (id) => {
-  const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
-  svg.setAttribute('aria-hidden', 'true');
-  const use = document.createElementNS('http://www.w3.org/2000/svg', 'use');
-  use.setAttribute('href', `#${id}`);
-  svg.append(use);
-  return svg;
-};
 
 let catalog = { collections: [] };
 let worth = null;
@@ -270,7 +241,7 @@ function renderSets() {
       el('a', { class: 'pf-row', href: collectionUrl(s.id) },
         el('span', { class: 'pf-row__logo' }, info.logo ? el('img', { src: asset(info.logo), alt: '', loading: 'lazy', decoding: 'async' }) : null),
         el('span', { class: 'pf-row__main' }, el('b', { text: info.name }), el('small', { text: `${progress}${extra}` })),
-        el('span', { class: 'pf-row__side' }, el('b', { text: s.loaded ? money(s.usd, setRates(s)) : '—' }), change)));
+        el('span', { class: 'pf-row__side' }, el('b', { text: s.loaded ? money(s.usd, setRates(s)) : 'n/a' }), change)));
   }));
 }
 
