@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>{{title}}</title>
   <meta name="description" content="{{description}}">
-  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="robots" content="{{robots}}">
   <link rel="canonical" href="{{url}}">
   <meta name="theme-color" content="#F7F7F8" media="(prefers-color-scheme: light)">
   <meta name="theme-color" content="#0B0B0D" media="(prefers-color-scheme: dark)">
@@ -309,6 +309,7 @@
 <section class="about wrap" aria-labelledby="about-title">
   <h2 class="about__title" id="about-title">{{aboutTitle}}</h2>
   {{{aboutHtml}}}
+  {{{setGuide}}}
 </section>
 
 <footer class="site-footer wrap">

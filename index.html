@@ -4,8 +4,8 @@
   <meta charset="utf-8">
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'wasm-unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https://assets.tcgdex.net; media-src 'self' blob:; connect-src 'self' https://assets.tcgdex.net; worker-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self';">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>Binder Tracker · Free Pokémon TCG Set Checklists</title>
-  <meta name="description" content="Free checklists for every English Pokémon TCG set from Base Set to Mega Evolution. Tick off the cards you own, go for a master set with every reverse holo, count duplicates and plan your binder pages. No sign-up, works offline.">
+  <title>Free Pokémon Card Checklist &amp; Collection Tracker | Binder Tracker</title>
+  <meta name="description" content="Free Pokémon card checklists for every English set from Base Set to Mega Evolution, with no ads, no sign-up and no tracking. Tick off your cards, chase master sets and reverse holos, count duplicates and see what your collection is worth.">
   <meta name="robots" content="index, follow, max-image-preview:large">
   <link rel="canonical" href="https://bindertracker.co.uk/">
   <meta name="theme-color" content="#F7F7F8" media="(prefers-color-scheme: light)">
@@ -13,8 +13,8 @@
   <meta name="color-scheme" content="light dark">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Binder Tracker">
-  <meta property="og:title" content="Binder Tracker · Pokémon TCG Set Checklists">
-  <meta property="og:description" content="Free checklists for every English Pokémon TCG set from Base Set to Mega Evolution: track standard, master and grand master sets with reverse holos and 1st Editions, count duplicates and plan binder pages. No sign-up, works offline.">
+  <meta property="og:title" content="Binder Tracker · Free Pokémon Card Checklist &amp; Collection Tracker">
+  <meta property="og:description" content="Free checklists for every English Pokémon TCG set from Base Set to Mega Evolution, with no ads, no sign-up and no tracking. Track standard, master and grand master sets with reverse holos and 1st Editions, count duplicates and plan binder pages. Works offline.">
   <meta property="og:url" content="https://bindertracker.co.uk/">
   <meta property="og:image" content="https://bindertracker.co.uk/img/og-image.jpg">
   <meta property="og:image:width" content="1200">
@@ -22,8 +22,8 @@
   <meta property="og:image:alt" content="Binder Tracker: card checklists for Pokémon TCG sets">
   <meta property="og:locale" content="en_GB">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Binder Tracker · Pokémon TCG Set Checklists">
-  <meta name="twitter:description" content="Free checklists for every English Pokémon TCG set from Base Set to Mega Evolution. No sign-up, works offline.">
+  <meta name="twitter:title" content="Binder Tracker · Free Pokémon Card Checklist &amp; Collection Tracker">
+  <meta name="twitter:description" content="Free checklists for every English Pokémon TCG set from Base Set to Mega Evolution. No ads, no sign-up, no tracking.">
   <meta name="twitter:image" content="https://bindertracker.co.uk/img/og-image.jpg">
   <meta name="twitter:image:alt" content="Binder Tracker: card checklists for Pokémon TCG sets">
   <link rel="manifest" href="manifest.webmanifest">
@@ -40,13 +40,21 @@
     "@context": "https://schema.org",
     "@graph": [
       {
+        "@type": "Organization",
+        "@id": "https://bindertracker.co.uk/#organization",
+        "name": "Binder Tracker",
+        "url": "https://bindertracker.co.uk/",
+        "logo": "https://bindertracker.co.uk/img/icons/icon-512.png"
+      },
+      {
         "@type": "WebSite",
         "@id": "https://bindertracker.co.uk/#website",
         "url": "https://bindertracker.co.uk/",
         "name": "Binder Tracker",
         "alternateName": "Binder Tracker Pokémon TCG Checklists",
-        "description": "Free card checklists for Pokémon TCG sets.",
-        "inLanguage": "en-GB"
+        "description": "Free Pokémon card checklists and collection tracker, with no ads, no sign-up and no tracking.",
+        "inLanguage": "en-GB",
+        "publisher": { "@id": "https://bindertracker.co.uk/#organization" }
       },
       {
         "@type": "WebApplication",
@@ -62,10 +70,14 @@
         "image": "https://bindertracker.co.uk/img/og-image.jpg",
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "GBP" },
         "featureList": [
+          "No ads, no sign-up and no tracking",
           "Checklists for every English set from Base Set to Mega Evolution",
           "Standard, complete, master and grand master sets, including reverse holos",
           "Copy counts for duplicates and trades",
           "Grid, list and binder page views",
+          "Card scanner that runs on your device",
+          "Collection value from TCGplayer market prices",
+          "Trade codes to compare collections with friends",
           "Works offline",
           "Share and sync links"
         ]
@@ -170,8 +182,8 @@
 
 <main id="sets" class="home wrap" tabindex="-1">
   <section class="home-hero">
-    <h1 class="home-hero__title">Every card in your binder, <span class="brand__gold">ticked off</span></h1>
-    <p class="home-hero__text">Free checklists for {{setCount}} Pokémon TCG sets. Tick off what you own, track spare copies and see what your collection is worth. No sign-up, works offline.</p>
+    <h1 class="home-hero__title">Every Pokémon card in your binder, <span class="brand__gold">ticked off</span></h1>
+    <p class="home-hero__text">Free Pokémon card checklists for {{setCount}} sets, from Base Set to Mega Evolution. Tick off what you own, track spare copies and see what your collection is worth. No ads, no sign-up, no tracking.</p>
     <label class="search home-search">
       <svg class="search__icon" aria-hidden="true"><use href="#i-search"/></svg>
       <input type="search" class="search__input" id="set-search" placeholder="Find a set, e.g. Surging Sparks or SSP" aria-label="Find a set" autocomplete="off" enterkeyhint="search">
@@ -193,9 +205,10 @@
 
 <section class="about wrap" aria-labelledby="about-title">
   <h2 class="about__title" id="about-title">About Binder Tracker</h2>
-  <p>Binder Tracker is a free checklist for Pokémon TCG collectors. Every English expansion from Base Set to Mega Evolution has its own page, with card images, rarities and TCGplayer prices, plus the Black Star promos, trainer kits, McDonald’s collections, World Championships Decks and more.</p>
+  <p>Binder Tracker is a free Pokémon card checklist and collection tracker. Every English Pokémon TCG expansion from Base Set to Mega Evolution has its own checklist, with card images, rarities and TCGplayer prices, plus the Black Star promos, trainer kits, McDonald’s collections, World Championships Decks and more.</p>
   <p>Pick what you’re collecting in each set: the <b>Standard set</b> (the main set), the <b>Master set</b> (the main set plus each reverse holo and Poké Ball or Master Ball pattern) or the <b>Grand Master set</b> (every card, adding the secret rares).</p>
-  <p>Your collection stays on your device, it works on phones and computers even offline, and a sync link or backup moves it to another device.</p>
+  <p>Scan a card with your camera to add it, count your duplicates, see what your collection is worth in pounds, dollars or euros, and swap trade codes with friends to check a trade is fair.</p>
+  <p>There are <b>no ads, no sign-up and no tracking</b>. Your collection stays on your device, it works on phones and computers even offline, and a sync link or backup moves it to another device.</p>
 </section>
 
 <footer class="site-footer wrap">

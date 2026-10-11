@@ -201,10 +201,10 @@ export default {
   },
   seo: {
     title: 'Pokémon TCG 30th Celebration Checklist · All 191 Cards',
-    description: 'Free checklist for the Pokémon TCG 30th Celebration set. Track all 191 cards, including the Classic Collection and the RGB Mews, with images, copy counts, binder pages and offline use. No sign-up needed.',
+    description: 'Free Pokémon TCG 30th Celebration checklist with no ads, no sign-up and no tracking. Track all 191 cards, including the Classic Collection and the RGB Mews, with images, copy counts, binder pages and offline use.',
     ogTitle: 'Pokémon TCG 30th Celebration Checklist',
-    ogDescription: 'Track all 191 cards in the Pokémon TCG 30th Celebration set, including secret rares, the RGB Mews and the Classic Collection. Free, no sign-up, works offline.',
-    twitterDescription: 'Track all 191 cards in the Pokémon TCG 30th Celebration set. Free, no sign-up, works offline.',
+    ogDescription: 'Track all 191 cards in the Pokémon TCG 30th Celebration set, including secret rares, the RGB Mews and the Classic Collection. Free, with no ads, no sign-up and no tracking.',
+    twitterDescription: 'Track all 191 cards in the Pokémon TCG 30th Celebration set. Free, with no ads, no sign-up and no tracking.',
     imageAlt: '30th Celebration Card Checklist with Pikachu ex, Mew ex, Mewtwo ex and Charizard cards',
     appDescription: 'Track all 191 cards in the Pokémon TCG 30th Celebration set: the main set, secret rares and Classic Collection.',
   },

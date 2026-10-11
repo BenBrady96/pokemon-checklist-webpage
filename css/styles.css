@@ -982,6 +982,25 @@ a.btn { text-decoration: none; }
 .about { margin-top: var(--space-8); padding-block: var(--space-7) var(--space-5); border-top: 1px solid var(--line); color: var(--text-2); }
 .about__title { margin: 0 0 var(--space-3); font-size: 1.05rem; font-weight: 600; color: var(--text); }
 .about p { max-width: 680px; margin: 0 0 var(--space-3); font-size: .92rem; line-height: 1.65; }
+.about__sub { margin: var(--space-6) 0 var(--space-3); font-size: 1rem; font-weight: 600; color: var(--text); }
+.about__q { margin: var(--space-5) 0 var(--space-2); font-size: .92rem; font-weight: 600; color: var(--text); }
+.about .about__note { color: var(--text-3); font-size: .8rem; }
+.top-cards { max-width: 680px; margin: 0 0 var(--space-2); padding: 0; list-style: none; counter-reset: top; }
+.top-cards li { display: flex; align-items: center; gap: var(--space-3); padding: 10px 0; border-bottom: 1px solid var(--line); counter-increment: top; }
+.top-cards li::before { content: counter(top); width: 1.4em; flex: none; color: var(--text-3); font-size: .82rem; font-variant-numeric: tabular-nums; }
+.top-cards__card { display: grid; flex: 1; min-width: 0; font-size: .92rem; }
+.top-cards__card b { color: var(--text); font-weight: 600; }
+.top-cards__price { display: grid; justify-items: end; color: var(--text); font-size: .92rem; font-weight: 600; font-variant-numeric: tabular-nums; }
+.top-cards small { color: var(--text-3); font-size: .78rem; font-weight: 400; }
+.tally { display: flex; flex-wrap: wrap; gap: 6px; max-width: 680px; margin: 0 0 var(--space-3); padding: 0; list-style: none; }
+.tally li { padding: 3px 10px; border-radius: 999px; background: var(--surface-2); font-size: .8rem; }
+.card-index { max-width: 680px; margin: var(--space-5) 0 0; }
+.card-index summary { width: fit-content; color: var(--text); font-size: .95rem; font-weight: 600; cursor: pointer; }
+.card-index small { margin-left: 4px; color: var(--text-3); font-weight: 400; }
+.card-index__title { margin: var(--space-4) 0 var(--space-2); color: var(--text); font-size: .88rem; font-weight: 600; }
+.card-index__list { margin: 0; padding: 0; list-style: none; columns: 2 240px; column-gap: var(--space-5); font-size: .84rem; line-height: 1.75; }
+.card-index__list li { break-inside: avoid; }
+.card-index__list span { display: inline-block; min-width: 4.6em; color: var(--text-3); font-variant-numeric: tabular-nums; }
 
 .site-footer { padding-block: var(--space-4) var(--space-8); color: var(--text-3); font-size: .8rem; line-height: 1.6; }
 .site-footer p { max-width: 680px; margin: 0 0 8px; }

@@ -143,6 +143,8 @@ The workflow:
 - runs `npm run build` (`tools/build.mjs`, no dependencies), which:
   - copies the public files into `dist/`;
   - renders the home page, one page per set (`dist/pokemon/<set>/index.html`) and `sitemap.xml`;
+  - adds a guide under each set's About text, built from its cards and prices: the most valuable cards, a collapsible full card list and an FAQ, so search engines can read them without running JavaScript;
+  - marks sets with no cards `noindex` and leaves them out of the sitemap;
   - sets the real site URL in the SEO tags;
   - stamps the service worker with the commit ID;
 - publishes `dist/`.

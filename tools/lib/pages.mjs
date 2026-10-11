@@ -3,7 +3,7 @@ import { join } from 'node:path';
 import { GAMES, dataDir, loadCatalog, loadModel, loadRaw } from './collections.mjs';
 import { ROOT, exists, readJson } from './util.mjs';
 import { TIER_DEFS } from '../../js/model.js';
-import { formatMoney, ratesOf } from '../../js/pricing.js';
+import { formatMoney, priceDate, ratesOf } from '../../js/pricing.js';
 
 export const DEFAULT_URL = 'https://bindertracker.co.uk/';
 
@@ -30,8 +30,85 @@ export async function ogImageFor(id) {
   return (await exists(join(ROOT, path))) ? path : 'img/og-image.jpg';
 }
 
+const LONG_DATE = new Intl.DateTimeFormat('en-GB', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' });
+const longDate = (date) => LONG_DATE.format(new Date(`${date}T00:00:00Z`));
+const plural = (n, one) => `${n} ${n === 1 ? one : `${one}s`}`;
+const list = (items) => (items.length < 2 ? items.join('') : `${items.slice(0, -1).join(', ')} and ${items.at(-1)}`);
+const capitalise = (s) => `${s[0].toUpperCase()}${s.slice(1)}`;
+const TOP_CARDS = 10;
+
+const tally = (rows) => `<ul class="tally">${rows.map(([label, n]) => `<li>${escapeHtml(label)} <b>${n}</b></li>`).join('')}</ul>`;
+
+function rarityRows(model, cards) {
+  const order = (card) => model.rarities.findIndex((r) => r.id === card.rarity);
+  const counts = new Map();
+  for (const card of [...cards].sort((a, b) => order(a) - order(b))) counts.set(card.rarityName, (counts.get(card.rarityName) || 0) + 1);
+  return [...counts];
+}
+
+function topCardsHtml(model, prices) {
+  const rates = ratesOf(prices);
+  const top = model.cards
+    .map((card) => ({ card, usd: prices?.cards?.[card.id]?.usd }))
+    .filter((p) => p.usd > 0)
+    .sort((a, b) => b.usd - a.usd)
+    .slice(0, TOP_CARDS);
+  if (top.length < 3) return '';
+  const rows = top.map(({ card, usd }) => '<li>'
+    + `<span class="top-cards__card"><b>${escapeHtml(card.name)}</b><small>${escapeHtml(card.printed || card.num)} · ${escapeHtml(card.rarityShort)}</small></span>`
+    + `<span class="top-cards__price">${formatMoney(usd, { currency: 'gbp', rates })}<small>${formatMoney(usd, { currency: 'usd' })}</small></span>`
+    + '</li>').join('');
+  return `<h3 class="about__sub">Most valuable ${escapeHtml(model.name)} cards</h3>`
+    + `<ol class="top-cards">${rows}</ol>`
+    + `<p class="about__note">TCGplayer market prices${prices.updated ? `, updated ${priceDate(prices.updated)}` : ''}. Pounds are converted from US dollars.</p>`;
+}
+
+function cardListHtml(model, sections) {
+  const lists = sections.map((s) => `<h4 class="card-index__title">${escapeHtml(s.name)}${s.range ? ` <small>${escapeHtml(s.range)}</small>` : ''}</h4>`
+    + `<ol class="card-index__list">${model.cardsBySection.get(s.id).map((c) => `<li><span>${escapeHtml(c.printed || c.num)}</span> ${escapeHtml(c.name)} <small>${escapeHtml(c.rarityShort)}</small></li>`).join('')}</ol>`);
+  return `<details class="card-index"><summary>${escapeHtml(model.name)} card list <small>${plural(model.cards.length, 'card')}</small></summary>${lists.join('')}</details>`;
+}
+
+function faqHtml(model, sections) {
+  const name = escapeHtml(model.name);
+  const count = (s) => model.cardsBySection.get(s.id).length;
+  const variants = model.cards.length - model.cardCount;
+  const items = [[
+    `How many cards are in ${name}?`,
+    `<p>${name} has ${plural(model.cardCount, 'card')}${variants ? `, plus ${plural(variants, 'variant')}, so there are ${model.cards.length} to collect in all` : ''}.</p>`
+      + (sections.length > 1 ? tally(sections.map((s) => [s.name, count(s)])) : ''),
+  ]];
+  if (model.visibleTiers.length > 1) {
+    const tiers = model.visibleTiers.map((t) => `the ${t.name} has ${plural(t.cards.length, 'card')}`);
+    items.push([`How many cards are in the ${name} master set?`, `<p>${capitalise(list(tiers))}. Pick the one you’re collecting at the top of the checklist and your progress counts towards it.</p>`]);
+  }
+  const secret = sections.find((s) => s.id === 'secret');
+  if (secret) {
+    const cards = model.cardsBySection.get('secret');
+    const numbered = /^(\d+)–(\d+)$/.exec(secret.range || '');
+    items.push([
+      `What are the secret rares in ${name}?`,
+      `<p>${name} has ${plural(cards.length, 'secret rare')}${numbered && numbered[1] !== numbered[2] ? `, numbered ${numbered[1]} to ${numbered[2]}` : ''}. By rarity:</p>${tally(rarityRows(model, cards))}`,
+    ]);
+  }
+  const rarities = rarityRows(model, model.cards.filter((c) => !c.variant));
+  if (rarities.length > 1) items.push([`What rarities are in ${name}?`, `<p>Counting each card once, without variants:</p>${tally(rarities)}`]);
+  if (model.released && (model.kind === 'expansion' || model.kind === 'collection')) {
+    const series = model.kind === 'expansion' && model.series && model.series !== 'Other' ? `, as part of the ${escapeHtml(model.series)} series` : '';
+    items.push([`When did ${name} come out?`, `<p>${name} was released on ${longDate(model.released)}${series}.</p>`]);
+  }
+  items.push([`Is this ${name} checklist free?`, '<p>Yes. Binder Tracker is free, with <b>no ads, no sign-up and no tracking</b>. Your collection is saved on your own device and works offline, and a sync link or backup moves it to another device.</p>']);
+  return `<h3 class="about__sub">${name} FAQ</h3>${items.map(([q, a]) => `<h4 class="about__q">${q}</h4>${a}`).join('')}`;
+}
+
+export function setGuideHtml(model, prices) {
+  const sections = model.sections.filter((s) => model.cardsBySection.get(s.id).length);
+  if (!sections.length) return '';
+  return [topCardsHtml(model, prices), cardListHtml(model, sections), faqHtml(model, sections)].join('\n  ');
+}
+
 export async function collectionPage(id, { siteUrl = DEFAULT_URL } = {}) {
-  const [template, raw] = await Promise.all([readFile(join(ROOT, 'collection.html'), 'utf8'), loadRaw(id)]);
+  const [template, raw, prices] = await Promise.all([readFile(join(ROOT, 'collection.html'), 'utf8'), loadRaw(id), readJson(join(dataDir(id), 'prices.json'))]);
   const model = await loadModel(id, { raw });
   const game = GAMES[raw.game];
   const url = `${siteUrl}${id}/`;
@@ -42,6 +119,7 @@ export async function collectionPage(id, { siteUrl = DEFAULT_URL } = {}) {
   const description = seo.description || `Free checklist for the ${game.name} ${raw.name} set.`;
   const ogTitle = seo.ogTitle || `${game.name} ${raw.name} Checklist`;
   const features = [
+    'No ads, no sign-up and no tracking',
     `Checklist for all ${complete} cards`,
     `${model.visibleTiers.map((t) => t.label).join(', ')} set tracking`,
     'Copy counts for duplicates and trades',
@@ -86,6 +164,8 @@ export async function collectionPage(id, { siteUrl = DEFAULT_URL } = {}) {
     name: raw.name,
     aboutTitle: raw.about?.title || `About the ${raw.name} set`,
     aboutHtml: (raw.about?.paragraphs || []).map((p) => `<p>${p}</p>`).join('\n  '),
+    setGuide: setGuideHtml(model, prices),
+    robots: model.cards.length ? 'index, follow, max-image-preview:large' : 'noindex',
     disclaimer: game.disclaimer,
     setArt: (await exists(join(ROOT, `img/sets/${id}/logo.webp`))) ? `<img class="set-hero__logo" src="img/sets/${id}/logo.webp" alt="" decoding="async">` : '',
     setMeta: [game.name, model.released ? releaseText(model.released) : '', `${complete} cards`].filter(Boolean).join(' · '),
@@ -190,19 +270,27 @@ export async function listPage({ siteUrl = DEFAULT_URL } = {}) {
   return prefixUrls(template.split(DEFAULT_URL).join(siteUrl), '../');
 }
 
+async function docUpdated(file) {
+  const m = /Last updated: (\d{1,2}) (\w+) (\d{4})/.exec(await readFile(join(ROOT, file), 'utf8'));
+  if (!m) throw new Error(`${file}: "Last updated" date not found`);
+  const month = new Date(`${m[2]} 1, 2000`).getMonth();
+  if (Number.isNaN(month)) throw new Error(`${file}: unknown month ${m[2]}`);
+  return new Date(Date.UTC(Number(m[3]), month, Number(m[1]))).toISOString().slice(0, 10);
+}
+
 export async function sitemap({ siteUrl = DEFAULT_URL, today = new Date().toISOString().slice(0, 10) } = {}) {
   const catalog = await loadCatalog();
   const urls = [
-    ['', 'weekly', '1.0'],
-    ...catalog.collections.map((c) => [`${c.id}/`, 'weekly', '0.9']),
-    ['privacy.html', 'yearly', '0.3'],
-    ['terms.html', 'yearly', '0.3'],
+    ['', 'weekly', '1.0', today],
+    ...catalog.collections.filter((c) => c.total > 0).map((c) => [`${c.id}/`, 'weekly', '0.9', today]),
+    ['privacy.html', 'yearly', '0.3', await docUpdated('privacy.html')],
+    ['terms.html', 'yearly', '0.3', await docUpdated('terms.html')],
   ];
   return `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-${urls.map(([path, freq, priority]) => `  <url>
+${urls.map(([path, freq, priority, lastmod]) => `  <url>
     <loc>${siteUrl}${path}</loc>
-    <lastmod>${today}</lastmod>
+    <lastmod>${lastmod}</lastmod>
     <changefreq>${freq}</changefreq>
     <priority>${priority}</priority>
   </url>`).join('\n')}
