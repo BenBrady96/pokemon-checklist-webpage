@@ -5,7 +5,7 @@ import { ROOT, exists, readJson } from './util.mjs';
 import { TIER_DEFS } from '../../js/model.js';
 import { formatMoney, ratesOf } from '../../js/pricing.js';
 
-export const DEFAULT_URL = 'https://benbrady96.github.io/pokemon-checklist-webpage/';
+export const DEFAULT_URL = 'https://bindertracker.co.uk/';
 
 export const escapeHtml = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
 

@@ -4,7 +4,7 @@ Free, unofficial checklists for every English Pokémon TCG set from **Base Set**
 
 It is a static site built with plain HTML, CSS and JavaScript. There is no backend: each visitor's collection is saved in their own browser (`localStorage`).
 
-**Live site:** <https://benbrady96.github.io/pokemon-checklist-webpage/>
+**Live site:** <https://bindertracker.co.uk/>
 
 ## What collectors can do
 
@@ -133,6 +133,8 @@ Both page templates have a Content-Security-Policy that allows only the site's o
 ## Deploying (GitHub Pages)
 
 Deployment is automatic. `.github/workflows/deploy.yml` builds and publishes the site every time you push to `main`, and every morning at 05:30 UTC to refresh prices. In repository **Settings → Pages**, **Source** must be **GitHub Actions**. GitHub switches scheduled workflows off after 60 days without activity in a public repository. If that happens, re-enable it from the **Actions** tab.
+
+The site is served from the custom domain `bindertracker.co.uk`, which is set in **Settings → Pages → Custom domain** (GitHub ignores `CNAME` files for Actions deployments, so there isn't one). The workflow passes Pages' `base_url` to the build as `SITE_URL`, so the canonical, social and sitemap URLs follow whatever domain is configured there. `DEFAULT_URL` in `tools/lib/pages.mjs` is the fallback for local builds.
 
 The workflow:
 
