@@ -155,8 +155,8 @@ export function encodeTrade({ name = '', created = Date.now(), sets }, { compres
   pushVarint(out, minutes(created));
   pushName(out, name);
   pushVarint(out, sets.length);
-  for (const { model, counts, tier } of sets) {
-    const block = collectionBytes(model, counts);
+  for (const { model, counts, tier, n } of sets) {
+    const block = collectionBytes(model, counts, n ?? undefined);
     out.push(Math.max(0, TIERS.indexOf(tier)));
     pushVarint(out, block.length);
     pushBytes(out, block);

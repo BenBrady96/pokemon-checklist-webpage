@@ -22,7 +22,8 @@ Object.defineProperty(globalThis, 'localStorage', {
   },
 });
 
-const { encodeCollection, decodeCode, resolveCode, parseSyncText, parseBackup } = await import('../public/js/core/codec.js');
+const { encodeCollection, decodeCode, resolveCode, parseSyncText, parseBackup, collectionBytes, toBase64Url } = await import('../public/js/core/codec.js');
+const { backupFile } = await import('../public/js/core/transfer.js');
 const { parseQuickAdd } = await import('../public/js/set/quickadd.js');
 
 let failures = 0;
@@ -127,8 +128,11 @@ check(thirty?.sections.map((s) => s.id).join() === 'main,secret,classic', '30th 
 const shareCode = thirty ? encodeCollection(thirty, { m001: 1, m005: 3, c08: 2 }) : '';
 check(parseSyncText(`https://example.com/pokemon/30th-celebration/#sync=${shareCode}`)?.source === 'link', 'a pasted link is read');
 check(parseSyncText('not a code at all') === null, 'text without a code is rejected');
-const backupFile = parseBackup(JSON.stringify({ app: 'binder-tracker', version: 2, collections: { 'pokemon/151': { cards: { '001': 2, '004': 0 } } } }));
-check(backupFile?.length === 1 && backupFile[0].id === 'pokemon/151' && sameCounts(backupFile[0].counts, { '001': 2 }), 'backup files load');
+const oldFile = parseBackup(JSON.stringify({ app: 'binder-tracker', version: 2, collections: { 'pokemon/151': { cards: { '001': 2, '004': 0 } } } }));
+check(oldFile?.entries.length === 1 && oldFile.entries[0].id === 'pokemon/151' && oldFile.entries[0].tier === null && oldFile.name === '' && sameCounts(oldFile.entries[0].counts, { '001': 2 }), 'older backup files load');
+const exportedAt = new Date(Date.UTC(2026, 9, 12, 9, 0));
+const newFile = parseBackup(JSON.stringify(backupFile([{ id: 'pokemon/151', counts: { '001': 2, '004': 1 }, tier: 'master' }], { name: 'Sam', history: [], exported: exportedAt })));
+check(newFile?.name === 'Sam' && newFile.created === exportedAt.getTime() && newFile.entries.length === 1 && newFile.entries[0].tier === 'master' && sameCounts(newFile.entries[0].counts, { '001': 2, '004': 1 }), 'export files round trip with name and tier');
 check(parseBackup(JSON.stringify({ cards: { m001: 2 } })) === null, 'a file without collections isn’t read as a backup');
 
 if (thirty) {
@@ -236,6 +240,24 @@ check(fromSync?.kind === 'trade' && fromSync.source === 'sync' && fromSync.sets[
 check(cleanName(`a\u0000b ${'x'.repeat(40)}`) === `ab ${'x'.repeat(21)}`, 'trade names lose control characters and are capped at 24 characters');
 const bomb = new Uint8Array(await new Response(new Blob([new Uint8Array(2 * 1024 * 1024)]).stream().pipeThrough(new CompressionStream('deflate-raw'))).arrayBuffer());
 check(await inflate(bomb).then(() => false, () => true), 'a code that inflates past the limit is rejected');
+
+const exportCode = await encodeTrade({ name: 'Sam', created, sets: tradeSets });
+const exported = await readTradeText(`https://example.com/#sync=${exportCode}`);
+check(exported?.kind === 'trade' && exported.name === 'Sam' && exported.sets.length === tradeSets.length
+  && exported.sets.every((s, i) => s.tier === tradeSets[i].tier && sameCounts(resolveCode(s.decoded, tradeSets[i].model), capped(tradeSets[i].counts))), 'an Export link with several sets is read with its name, tiers and cards');
+const oneSet = tradeSets[0];
+const oneCode = await encodeTrade({ name: '', created, sets: [oneSet] });
+const oneLink = await readTradeText(`https://example.com/${oneSet.model.id}/#sync=${oneCode}`);
+check(oneLink?.kind === 'trade' && oneLink.sets.length === 1 && oneLink.sets[0].decoded.key === oneSet.model.syncKey, 'a one-set Export link is read');
+if (tradeSets.length >= 2) {
+  const dotted = tradeSets.slice(0, 2).map((s) => encodeCollection(s.model, s.counts)).join('.');
+  const oldBackup = await readTradeText(dotted);
+  check(oldBackup?.kind === 'trade' && oldBackup.source === 'sync' && oldBackup.sets.length === 2 && oldBackup.sets.every((s) => s.tier === null), 'an older backup code with several sets is still read');
+}
+if (meg) {
+  const early = decodeCode(toBase64Url(collectionBytes(meg, Object.fromEntries(meg.cards.map((c) => [c.id, 1])), 10)));
+  check(early?.n === 10 && early.owned.length === meg.cards.filter((c) => c.idx < 10).length && early.owned.every((i) => i < 10), 'a code can be re-made for an older card count');
+}
 
 if (tradeSets.length >= 2) {
   const [a, b] = tradeSets.map((s) => s.model);

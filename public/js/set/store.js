@@ -22,13 +22,8 @@ function persist() {
   storage.writeCounts(ID, counts, COLLECTION);
 }
 
-let preview = null;
-
-const active = () => preview || qty;
-export const getQty = (id) => active().get(id) || 0;
-export const snapshot = () => Object.fromEntries(active());
-export const ownedCount = () => active().size;
-export const isPreview = () => preview !== null;
+export const getQty = (id) => qty.get(id) || 0;
+export const ownedCount = () => qty.size;
 
 const listeners = new Set();
 
@@ -51,7 +46,6 @@ export function begin() {
 }
 
 export function set(id, value) {
-  if (preview) return false;
   const to = clampQty(value);
   const from = getQty(id);
   if (to === from) return false;
@@ -97,7 +91,6 @@ function applyEntry(entry, key) {
 }
 
 export function undo() {
-  if (preview) return null;
   if (tx) commit();
   const entry = undoStack.pop();
   if (!entry) return null;
@@ -107,7 +100,6 @@ export function undo() {
 }
 
 export function redo() {
-  if (preview) return null;
   const entry = redoStack.pop();
   if (!entry) return null;
   applyEntry(entry, 'to');
@@ -150,22 +142,6 @@ export function replaceAll(counts) {
 
 export function mergeAll(counts) {
   return update(COLLECTION.cards.filter((c) => (counts[c.id] || 0) > getQty(c.id)).map((c) => [c.id, counts[c.id]]));
-}
-
-export function enterPreview(counts) {
-  if (tx) commit();
-  preview = new Map();
-  for (const card of COLLECTION.cards) {
-    const v = clampQty(counts[card.id]);
-    if (v > 0) preview.set(card.id, v);
-  }
-  emit(null, { source: 'preview' });
-}
-
-export function exitPreview() {
-  if (!preview) return;
-  preview = null;
-  emit(null, { source: 'preview' });
 }
 
 let prefsSource = null;

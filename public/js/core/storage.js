@@ -59,6 +59,7 @@ const DEFAULT_PREFS = {
   lastCollection: null,
   tiers: {},
   scanScope: 'set',
+  sharedView: 'list',
   currency: 'gbp',
   installBanner: null,
 };

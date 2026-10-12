@@ -20,7 +20,8 @@ Your collection is saved in your own browser, and the site works offline once yo
 - A card scanner that recognises cards through your camera, on your device
 - Collection value and cost to complete, from TCGplayer market prices
 - Trade codes and trade lists for comparing collections with friends
-- Share links, QR codes and backups for moving your collection between devices
+- Export and import by link, code, QR code or file, for one set, chosen sets or your whole collection
+- A page to view a collection someone sends you, or compare it side by side with your own
 - Works offline and installs to your home screen, with light and dark themes
 
 ## Privacy
@@ -32,9 +33,10 @@ The site sets no cookies and has no analytics or trackers. Your collection stays
 The code is released under the [MIT Licence](LICENSE). That doesn't cover:
 
 - Pokémon card images, names and logos, which belong to their owners
-- card data from [TCGdex](https://tcgdex.dev), prices from TCGplayer via [tcgcsv.com](https://tcgcsv.com), and the set list and some logos from [TCG Collector](https://www.tcgcollector.com)
+- card data from [TCGdex](https://tcgdex.dev), and prices from TCGplayer via [tcgcsv.com](https://tcgcsv.com)
 - the Outfit font ([SIL Open Font License](public/fonts/OFL.txt))
 - `qrcode.js` (MIT, © Kazuhiko Arase)
+- jsQR ([Apache License 2.0](public/js/vendor/jsqr/LICENSE))
 - ONNX Runtime Web ([MIT](public/js/vendor/ort/LICENSE), © Microsoft)
 - the card scanner's DINOv2-small model by Meta AI (Apache License 2.0, see [LICENSE](public/data/scan/LICENSE) and [NOTICE](public/data/scan/NOTICE))
 

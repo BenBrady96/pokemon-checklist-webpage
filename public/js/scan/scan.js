@@ -5,6 +5,7 @@ import { formatMoney, formatUsd, ratesOf, shownCurrency } from '../core/pricing.
 import * as storage from '../core/storage.js';
 import { loadMatcher, match, search } from './scan-match.js';
 import { el, icon } from '../shared/dom.js';
+import { cameraSupported, getCamera, stopTracks, cameraBlocked } from '../shared/camera.js';
 import { plural } from '../shared/format.js';
 
 const CARD_ASPECT = 63 / 88;
@@ -118,15 +119,15 @@ function flash(message, { iconId, undo } = {}) {
 
 async function startCamera() {
   if (stream || starting || !dlg.open || !panel.hidden || document.hidden) return;
-  if (!navigator.mediaDevices?.getUserMedia) {
+  if (!cameraSupported()) {
     say('The camera needs the secure (https) version of this site. You can still use Photo.');
     return;
   }
   starting = true;
   try {
-    const got = await navigator.mediaDevices.getUserMedia({ audio: false, video: { facingMode: { ideal: 'environment' }, width: { ideal: 1920 }, height: { ideal: 1080 } } });
+    const got = await getCamera();
     if (!dlg.open || document.hidden) {
-      for (const track of got.getTracks()) track.stop();
+      stopTracks(got);
       return;
     }
     stream = got;
@@ -135,7 +136,7 @@ async function startCamera() {
     dlg.classList.add('has-camera');
     ready();
   } catch (err) {
-    say(err?.name === 'NotAllowedError'
+    say(cameraBlocked(err)
       ? 'Camera access is blocked. Allow it in your browser’s site settings, or use Photo.'
       : 'Couldn’t start the camera. You can still use Photo.');
   } finally {
@@ -144,7 +145,7 @@ async function startCamera() {
 }
 
 function stopCamera() {
-  for (const track of stream?.getTracks() || []) track.stop();
+  stopTracks(stream);
   stream = null;
   video.srcObject = null;
   dlg.classList.remove('has-camera');

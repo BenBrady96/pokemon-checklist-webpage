@@ -96,7 +96,6 @@ function sectionShell(id, title, range, total) {
     + `<h2 class="sec__title" id="sec-${id}-title"><span class="sec__title-text">${escapeHTML(title)}</span>`
     + `${range ? `<span class="sec__range">${escapeHTML(range)}</span>` : ''}</h2>`
     + `<div class="sec__progress"><span class="sec__count"><b>0</b>/${total}</span><span class="bar" aria-hidden="true"><i></i></span></div>`
-    + `<button type="button" class="icon-btn sec__menu" data-section-menu="${id}" aria-label="${escapeHTML(title)} actions"><svg><use href="#i-dots"/></svg></button>`
     + '</div>';
   return sec;
 }

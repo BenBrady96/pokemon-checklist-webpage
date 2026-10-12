@@ -76,6 +76,8 @@
     <symbol id="i-sun" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M5.3 18.7l1.4-1.4M17.3 6.7l1.4-1.4"/></g></symbol>
     <symbol id="i-moon" viewBox="0 0 24 24"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
     <symbol id="i-monitor" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4.5" width="18" height="12" rx="2"/><path d="M9 20h6M12 16.5V20"/></g></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+    <symbol id="i-qr" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><rect x="4" y="4" width="6" height="6" rx="1"/><rect x="14" y="4" width="6" height="6" rx="1"/><rect x="4" y="14" width="6" height="6" rx="1"/></g><g fill="currentColor"><rect x="13.5" y="13.5" width="3" height="3" rx=".6"/><rect x="17.5" y="17.5" width="3" height="3" rx=".6"/><rect x="17.5" y="13.5" width="3" height="3" rx=".6"/><rect x="13.5" y="17.5" width="3" height="3" rx=".6"/></g></symbol>
     <symbol id="i-dots" viewBox="0 0 24 24"><g fill="currentColor"><circle cx="5.5" cy="12" r="1.9"/><circle cx="12" cy="12" r="1.9"/><circle cx="18.5" cy="12" r="1.9"/></g></symbol>
     <symbol id="i-share" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="17.5" cy="5.5" r="2.5"/><circle cx="6.5" cy="12" r="2.5"/><circle cx="17.5" cy="18.5" r="2.5"/><path d="M8.7 10.7l6.6-3.9M8.7 13.3l6.6 3.9"/></g></symbol>
     <symbol id="i-link" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l2.8-2.8a4.5 4.5 0 0 0-6.4-6.4L11.5 6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-2.8 2.8a4.5 4.5 0 0 0 6.4 6.4l1.3-1.2"/></g></symbol>
@@ -155,14 +157,12 @@
         <span class="appbar__tools desktop-only">
           <button class="icon-btn icon-btn--header" type="button" data-open="scan" title="Scan a card" aria-label="Scan a card"><svg><use href="#i-camera"/></svg></button>
           <button class="icon-btn icon-btn--header" type="button" data-open="quickadd" title="Quick add (Q)" aria-label="Quick add"><svg><use href="#i-bolt"/></svg></button>
-          <button class="icon-btn icon-btn--header" type="button" data-open="share" title="Share &amp; sync" aria-label="Share and sync"><svg><use href="#i-share"/></svg></button>
           <button class="icon-btn icon-btn--header" type="button" data-open="stats" title="Statistics" aria-label="Statistics"><svg><use href="#i-chart"/></svg></button>
-          <button class="icon-btn icon-btn--header" type="button" popovertarget="pop-backup" title="Backup" aria-label="Backup"><svg><use href="#i-download"/></svg></button>
-          <button class="icon-btn icon-btn--header" type="button" data-open="help" title="Help &amp; shortcuts (?)" aria-label="Help and shortcuts"><svg><use href="#i-help"/></svg></button>
         </span>
         <button class="icon-btn icon-btn--header" type="button" popovertarget="pop-theme" title="Theme" aria-label="Theme"><svg data-theme-icon><use href="#i-monitor"/></svg></button>
         <button class="hdr-btn" type="button" popovertarget="pop-currency" title="Currency" aria-label="Currency"><span data-currency-label>£ GBP</span><svg class="hdr-btn__caret" aria-hidden="true"><use href="#i-caret"/></svg></button>
         <a class="pf-pill" href="portfolio/" data-portfolio-pill aria-label="Portfolio"><svg aria-hidden="true"><use href="#i-portfolio"/></svg><span data-portfolio-value>Portfolio</span></a>
+        <button class="icon-btn icon-btn--header desktop-only" type="button" data-open="menu" title="Menu" aria-label="Menu"><svg><use href="#i-menu"/></svg></button>
       </div>
     </div>
   </header>
@@ -213,7 +213,6 @@
         <button type="button" class="seg__btn" data-pref="mode" data-value="check" title="Tap marks a card owned (M)"><svg><use href="#i-mode-check"/></svg><span>Check</span></button>
         <button type="button" class="seg__btn" data-pref="mode" data-value="count" title="Tap adds a copy (M)"><svg><use href="#i-mode-count"/></svg><span>Count</span></button>
       </div>
-      <button type="button" class="btn btn--ghost" popovertarget="pop-actions">Actions<svg class="hdr-btn__caret" aria-hidden="true"><use href="#i-caret"/></svg></button>
     </div>
   </div>
 
@@ -224,16 +223,6 @@
         <input type="search" class="search__input" data-search placeholder="Search name, number, rarity…" aria-label="Search cards" autocomplete="off" enterkeyhint="search">
       </label>
       <button type="button" class="btn btn--ghost" data-action="close-search">Done</button>
-    </div>
-  </div>
-
-  <div class="preview-banner" id="preview-banner" hidden role="status">
-    <div class="wrap preview-banner__inner">
-      <span class="preview-banner__text"><b>Viewing a shared collection</b> <span data-preview-count></span></span>
-      <span class="preview-banner__actions">
-        <button type="button" class="btn btn--primary btn--sm" data-action="preview-merge">Merge into mine</button>
-        <button type="button" class="btn btn--ghost btn--sm" data-action="preview-exit">Exit</button>
-      </span>
     </div>
   </div>
 
@@ -254,21 +243,9 @@
   <button type="button" class="pop__item" data-currency-choice="usd">$ Dollars</button>
   <button type="button" class="pop__item" data-currency-choice="eur">€ Euros</button>
 </div>
-<div class="pop" id="pop-backup" popover>
-  <button type="button" class="pop__item" data-open="export"><svg><use href="#i-download"/></svg><span><b>Export backup</b><small data-last-backup>Copy a code or save a file</small></span></button>
-  <button type="button" class="pop__item" data-open="import"><svg><use href="#i-upload"/></svg><span><b>Import backup</b><small>Paste a code or link, or choose a file</small></span></button>
-  <button type="button" class="pop__item" data-action="save-offline" data-offline-item hidden><svg><use href="#i-offline"/></svg><span><b>Save images for offline</b><small data-offline-status>Use the checklist with no signal</small></span></button>
-</div>
-<div class="pop" id="pop-actions" popover>
-  <p class="pop__label">Shown cards</p>
-  <button type="button" class="pop__item" data-action="mark-shown"><svg><use href="#i-check"/></svg><span><b>Mark all shown as owned</b><small data-shown-count></small></span></button>
-  <button type="button" class="pop__item" data-action="clear-shown"><svg><use href="#i-minus"/></svg><span><b>Unmark all shown</b><small>Respects your current search and filters</small></span></button>
-  <div class="pop__sep"></div>
-  <button type="button" class="pop__item pop__item--danger" data-action="reset"><svg><use href="#i-trash"/></svg><span><b>Reset this set</b><small>Unmark every card in it (you can undo)</small></span></button>
-</div>
 
 <div class="banner" id="storage-banner" hidden role="status">
-  <div class="wrap">Your browser is blocking storage, so progress won’t be saved after you close this page. Use <b>Export backup</b> in the menu to keep a copy.</div>
+  <div class="wrap">Your browser is blocking storage, so progress won’t be saved after you close this page. Use <b>Export</b> in the menu to keep a copy.</div>
 </div>
 
 <div class="banner banner--error" id="load-error" hidden role="alert">
@@ -314,13 +291,12 @@
 
 <footer class="site-footer wrap">
   <nav class="footer-links" aria-label="Site">
-    <a href="./">All collections</a>
     <a href="privacy.html">Privacy &amp; cookies</a>
     <a href="terms.html">Terms of use</a>
     <a href="https://github.com/BenBrady96/pokemon-checklist-webpage" rel="noopener">Source on GitHub</a>
   </nav>
   <p><strong>Binder Tracker is an unofficial fan-made checklist.</strong> {{disclaimer}}</p>
-  <p>Your collection is stored only in this browser. Back it up from <button type="button" class="link-btn" data-open="menu">the menu</button> or move it between devices with a <button type="button" class="link-btn" data-open="share">sync link</button>.</p>
+  <p>Your collection is stored only in this browser. Back it up or move it to another device with <button type="button" class="link-btn" data-open="export">Export</button>.</p>
 </footer>
 
 <nav class="bottombar mobile-only" aria-label="Controls">
@@ -455,25 +431,19 @@
     </header>
     <div class="sheet__body menu">
       <div class="menu__group">
-        <a class="menu__item" href="./"><svg><use href="#i-stack"/></svg><span><b>All collections</b><small>Switch to another set or start a new one</small></span></a>
-        <a class="menu__item" href="trade/"><svg><use href="#i-swap"/></svg><span><b>Trade with a friend</b><small>Compare collections and check a trade is fair</small></span></a>
-      </div>
-      <div class="menu__group">
         <button type="button" class="menu__item" data-open="scan"><svg><use href="#i-camera"/></svg><span><b>Scan a card</b><small>Point your camera at a card to add it</small></span></button>
         <button type="button" class="menu__item" data-open="quickadd"><svg><use href="#i-bolt"/></svg><span><b>Quick add</b><small>Type card numbers, e.g. 1-22, 55x2</small></span></button>
-        <button type="button" class="menu__item" data-open="stats"><svg><use href="#i-chart"/></svg><span><b>Statistics</b><small>Progress by section and rarity, trade lists</small></span></button>
-        <button type="button" class="menu__item" data-open="share"><svg><use href="#i-share"/></svg><span><b>Share &amp; sync</b><small>Send this set to another device or a friend</small></span></button>
+        <button type="button" class="menu__item" data-open="stats"><svg><use href="#i-chart"/></svg><span><b>Statistics</b><small>Progress by section and rarity</small></span></button>
+      </div>
+      <div class="menu__group">
+        <h3 class="menu__label">Trade</h3>
+        <a class="menu__item" href="trade/"><svg><use href="#i-swap"/></svg><span><b>Trade with a friend</b><small>Compare collections and check a trade is fair</small></span></a>
         <button type="button" class="menu__item" data-open="list"><svg><use href="#i-link"/></svg><span><b>Trade list link</b><small>Show anyone your spares and the cards you need</small></span></button>
       </div>
       <div class="menu__group">
-        <h3 class="menu__label">Shown cards</h3>
-        <button type="button" class="menu__item" data-action="mark-shown"><svg><use href="#i-check"/></svg><span><b>Mark all shown as owned</b><small data-shown-count></small></span></button>
-        <button type="button" class="menu__item" data-action="clear-shown"><svg><use href="#i-minus"/></svg><span><b>Unmark all shown</b><small>Respects your current search and filters</small></span></button>
-      </div>
-      <div class="menu__group">
-        <h3 class="menu__label">Backup</h3>
-        <button type="button" class="menu__item" data-open="export"><svg><use href="#i-download"/></svg><span><b>Export backup</b><small data-last-backup>Copy a code or save a file</small></span></button>
-        <button type="button" class="menu__item" data-open="import"><svg><use href="#i-upload"/></svg><span><b>Import backup</b><small>Paste a code or link, or choose a file</small></span></button>
+        <h3 class="menu__label">Share &amp; backup</h3>
+        <button type="button" class="menu__item" data-open="export"><svg><use href="#i-share"/></svg><span><b>Export</b><small data-last-backup>A set or your whole collection, as a link, code, QR code or file</small></span></button>
+        <button type="button" class="menu__item" data-open="import"><svg><use href="#i-download"/></svg><span><b>Import</b><small>Open a link, code, QR code or file</small></span></button>
         <button type="button" class="menu__item" data-action="save-offline" data-offline-item hidden><svg><use href="#i-offline"/></svg><span><b>Save images for offline</b><small data-offline-status>Use the checklist with no signal</small></span></button>
       </div>
       <div class="menu__group">
@@ -518,27 +488,6 @@
       <button type="button" class="btn btn--ghost" data-qa="add">Add +1 each</button>
       <button type="button" class="btn btn--primary" data-qa="owned">Mark owned</button>
     </footer>
-  </div>
-</dialog>
-
-<dialog class="sheet" id="dlg-share" aria-labelledby="share-title">
-  <div class="sheet__inner">
-    <header class="sheet__head">
-      <h2 class="sheet__title" id="share-title">Share &amp; sync</h2>
-      <button type="button" class="icon-btn" data-close aria-label="Close"><svg><use href="#i-close"/></svg></button>
-    </header>
-    <div class="sheet__body share">
-      <p class="hint">This link contains your cards from this set, including copy counts. Open it on another phone or computer to copy your progress there, or send it to a friend to show off your binder.</p>
-      <div class="share__qr" id="share-qr" aria-label="QR code of your sync link" role="img"></div>
-      <div class="share__link">
-        <input class="input" id="share-url" readonly aria-label="Sync link">
-        <button type="button" class="btn btn--primary" data-action="copy-link"><svg><use href="#i-copy"/></svg>Copy</button>
-      </div>
-      <button type="button" class="btn btn--ghost btn--block" data-action="native-share" hidden><svg><use href="#i-share"/></svg>Share…</button>
-      <p class="hint hint--small">Scan the QR code with your phone’s camera to open your collection there. The link is a snapshot, so share a new one after you update your collection.</p>
-      <p class="hint hint--small">Moving to a Home Screen app on iPhone or iPad? Links open in Safari, not the app, so copy the link and paste it into <b>Import backup</b> in the app.</p>
-      <p class="hint hint--small">Want to show someone what you can trade and what you need? Make a <button type="button" class="link-btn" data-open="list">trade list link</button> instead.</p>
-    </div>
   </div>
 </dialog>
 
@@ -612,59 +561,121 @@
 <dialog class="sheet" id="dlg-export" aria-labelledby="export-title">
   <div class="sheet__inner">
     <header class="sheet__head">
-      <h2 class="sheet__title" id="export-title">Export backup</h2>
+      <h2 class="sheet__title" id="export-title">Export</h2>
       <button type="button" class="icon-btn" data-close aria-label="Close"><svg><use href="#i-close"/></svg></button>
     </header>
-    <div class="sheet__body backup">
-      <p class="hint">This code holds every set you’re collecting, including copy counts. Paste it into <b>Import backup</b> on another device to copy your cards there, including into a Home Screen app.</p>
-      <textarea class="textarea" id="export-code" rows="3" readonly spellcheck="false" aria-label="Sync code"></textarea>
-      <button type="button" class="btn btn--ghost btn--block" data-action="share-code" hidden><svg><use href="#i-share"/></svg>Share code…</button>
+    <div class="sheet__body share xp">
+      <p class="hint">Send your cards to another device or a friend. They can look through them, compare them with their own, or add them to their collection.</p>
+      <section class="field">
+        <h3 class="field__label">What to send</h3>
+        <div class="seg seg--full xp-seg" role="group" aria-label="What to send">
+          <button type="button" class="seg__btn" data-xp-scope="set">This set</button>
+          <button type="button" class="seg__btn" data-xp-scope="choose">Choose sets</button>
+          <button type="button" class="seg__btn" data-xp-scope="all">Whole collection</button>
+        </div>
+        <div class="chips xp-sets" data-xp="sets" hidden></div>
+        <p class="hint hint--small xp-summary" data-xp="summary"></p>
+      </section>
+      <label class="field">
+        <span class="field__label">Your name (optional)</span>
+        <input class="input" data-xp="name" maxlength="24" autocomplete="nickname" placeholder="So they know whose cards these are">
+      </label>
+      <section class="field">
+        <h3 class="field__label">How to send it</h3>
+        <div class="seg seg--full xp-seg" role="group" aria-label="How to send it">
+          <button type="button" class="seg__btn" data-xp-how="link"><svg><use href="#i-link"/></svg>Link</button>
+          <button type="button" class="seg__btn" data-xp-how="code"><svg><use href="#i-copy"/></svg>Code</button>
+          <button type="button" class="seg__btn" data-xp-how="qr"><svg><use href="#i-qr"/></svg>QR code</button>
+          <button type="button" class="seg__btn" data-xp-how="file"><svg><use href="#i-download"/></svg>File</button>
+        </div>
+      </section>
+      <p class="hint xp-status" data-xp="status" role="status"></p>
+      <div class="xp-panel" data-xp-panel="link" hidden>
+        <p class="hint hint--small">Opening the link on another phone or computer shows the cards, ready to view, compare or import.</p>
+        <div class="share__link">
+          <input class="input" data-xp="url" readonly aria-label="Link">
+          <button type="button" class="btn btn--primary" data-xp-action="copy-link"><svg><use href="#i-copy"/></svg>Copy</button>
+        </div>
+        <button type="button" class="btn btn--ghost btn--block" data-xp-action="share-link" hidden><svg><use href="#i-share"/></svg>Share…</button>
+      </div>
+      <div class="xp-panel backup" data-xp-panel="code" hidden>
+        <p class="hint hint--small">Paste the code into <b>Import</b> on another device. This works in a Home Screen app too, where links open in the browser instead.</p>
+        <textarea class="textarea" data-xp="code" rows="3" readonly spellcheck="false" aria-label="Code"></textarea>
+        <div class="xp-actions">
+          <button type="button" class="btn btn--ghost" data-xp-action="share-code" hidden><svg><use href="#i-share"/></svg>Share…</button>
+          <button type="button" class="btn btn--primary" data-xp-action="copy-code"><svg><use href="#i-copy"/></svg>Copy code</button>
+        </div>
+      </div>
+      <div class="xp-panel" data-xp-panel="qr" hidden>
+        <div class="share__qr" data-xp="qr" role="img" aria-label="QR code of your link"></div>
+        <p class="hint hint--small" data-xp="qr-note" hidden></p>
+        <p class="hint hint--small">Scan it with the other phone’s camera, or with <b>Scan QR code</b> in <b>Import</b>.</p>
+      </div>
+      <div class="xp-panel" data-xp-panel="file" hidden>
+        <p class="hint hint--small" data-xp="file-hint"></p>
+        <button type="button" class="btn btn--primary btn--block" data-xp-action="save-file"><svg><use href="#i-download"/></svg>Save file</button>
+      </div>
+      <p class="hint hint--small">Everything you send is a snapshot. Export again after you change your collection.</p>
     </div>
-    <footer class="sheet__foot">
-      <button type="button" class="btn btn--ghost" data-action="save-file"><svg><use href="#i-download"/></svg>Save as file</button>
-      <button type="button" class="btn btn--primary" data-action="copy-code" autofocus><svg><use href="#i-copy"/></svg>Copy code</button>
-    </footer>
   </div>
 </dialog>
 
 <dialog class="sheet" id="dlg-import" aria-labelledby="import-title">
   <div class="sheet__inner">
     <header class="sheet__head">
-      <h2 class="sheet__title" id="import-title">Import backup</h2>
+      <h2 class="sheet__title" id="import-title">Import</h2>
       <button type="button" class="icon-btn" data-close aria-label="Close"><svg><use href="#i-close"/></svg></button>
     </header>
     <div class="sheet__body backup">
-      <p class="hint">Paste a sync code from <b>Export backup</b> or a sync link from <b>Share &amp; sync</b>. You can also restore a backup file.</p>
-      <textarea class="textarea" id="import-code" rows="3" placeholder="Paste a code or link" spellcheck="false" autocomplete="off" autocorrect="off" autocapitalize="off" enterkeyhint="go" aria-label="Sync code or link" aria-describedby="import-status"></textarea>
+      <p class="hint">Paste a link or code from <b>Export</b>, or a friend’s trade code. Older sync links and backup codes work too. You can also scan a QR code or choose a backup file.</p>
+      <textarea class="textarea" id="import-code" rows="3" placeholder="Paste a link or code" spellcheck="false" autocomplete="off" autocorrect="off" autocapitalize="off" enterkeyhint="go" aria-label="Link or code" aria-describedby="import-status"></textarea>
       <p class="backup__status" id="import-status" aria-live="polite"></p>
     </div>
-    <footer class="sheet__foot">
-      <button type="button" class="btn btn--ghost" data-action="choose-file"><svg><use href="#i-upload"/></svg>Choose file</button>
-      <button type="button" class="btn btn--primary" id="import-submit" disabled>Import</button>
+    <footer class="sheet__foot sheet__foot--wrap">
+      <button type="button" class="btn btn--ghost" data-im-action="scan"><svg><use href="#i-qr"/></svg>Scan QR code</button>
+      <button type="button" class="btn btn--ghost" data-im-action="file"><svg><use href="#i-upload"/></svg>Choose file</button>
+      <button type="button" class="btn btn--primary" id="import-submit" disabled>Continue</button>
     </footer>
   </div>
 </dialog>
 
-<dialog class="sheet sheet--small" id="dlg-sync" aria-labelledby="sync-title">
+<dialog class="sheet" id="dlg-received" aria-labelledby="received-title">
   <div class="sheet__inner">
     <header class="sheet__head">
-      <h2 class="sheet__title" id="sync-title">Load collection?</h2>
+      <h2 class="sheet__title" id="received-title">Shared collection</h2>
       <button type="button" class="icon-btn" data-close aria-label="Close"><svg><use href="#i-close"/></svg></button>
     </header>
-    <div class="sheet__body">
-      <div class="compare">
-        <div class="compare__col"><span class="compare__label" data-sync="source-label">From link</span><b data-sync="incoming"></b><small data-sync="incoming-copies"></small></div>
-        <div class="compare__col"><span class="compare__label">On this device</span><b data-sync="current"></b><small data-sync="current-copies"></small></div>
-      </div>
-      <p class="hint hint--small" data-sync="names" hidden></p>
-      <p class="hint" data-sync="hint-single"><b>View only</b> shows it without changing your own collection. <b>Merge</b> keeps the highest count for every card. <b>Replace</b> makes this device match exactly. You can undo a merge or replace.</p>
-      <p class="hint" data-sync="hint-multi" hidden><b>Merge</b> keeps the highest count for every card. <b>Replace</b> makes these sets on this device match exactly. Sets that aren’t in the backup aren’t touched, and you can undo straight away.</p>
+    <div class="sheet__body rcv">
+      <p class="hint hint--small" data-rcv="meta"></p>
+      <ul class="rcv-sets" data-rcv="sets"></ul>
+      <p class="hint hint--small" data-rcv="unknown" hidden></p>
+      <p class="hint hint--small" data-rcv="hint"></p>
     </div>
-    <footer class="sheet__foot sheet__foot--wrap">
-      <button type="button" class="btn btn--ghost" data-sync-choice="view">View only</button>
-      <button type="button" class="btn btn--ghost" data-sync-choice="replace">Replace</button>
-      <button type="button" class="btn btn--primary" data-sync-choice="merge" autofocus>Merge</button>
+    <footer class="sheet__foot rcv-foot">
+      <div class="rcv-foot__row">
+        <button type="button" class="btn btn--ghost" data-rcv-action="view"><svg><use href="#i-image"/></svg>View</button>
+        <button type="button" class="btn btn--ghost" data-rcv-action="compare"><svg><use href="#i-swap"/></svg>Compare</button>
+      </div>
+      <div class="rcv-foot__row">
+        <button type="button" class="btn btn--danger" data-rcv-action="merge">Merge</button>
+        <button type="button" class="btn btn--danger" data-rcv-action="replace">Replace</button>
+      </div>
     </footer>
+  </div>
+</dialog>
+
+<dialog class="scanner qr-scan" id="dlg-qr" aria-labelledby="qr-title">
+  <div class="scanner__inner">
+    <div class="scanner__bar">
+      <h2 class="scanner__title" id="qr-title">Scan a QR code</h2>
+      <button type="button" class="icon-btn icon-btn--dark" data-close aria-label="Close QR scanner"><svg><use href="#i-close"/></svg></button>
+    </div>
+    <div class="scanner__stage">
+      <video class="scanner__video" data-qr="video" playsinline muted></video>
+      <div class="scanner__guide qr-scan__guide" aria-hidden="true"></div>
+      <p class="scanner__status" data-qr="status" role="status"></p>
+    </div>
+    <p class="scanner__note">Point the camera at a QR code from <b>Export</b>. It’s read on your device, and nothing is uploaded or saved.</p>
   </div>
 </dialog>
 
@@ -678,19 +689,6 @@
       <button type="button" class="btn btn--ghost" data-confirm="no">Cancel</button>
       <button type="button" class="btn btn--danger" data-confirm="yes"></button>
     </footer>
-  </div>
-</dialog>
-
-<dialog class="sheet sheet--small" id="dlg-section" aria-labelledby="section-title">
-  <div class="sheet__inner">
-    <header class="sheet__head">
-      <h2 class="sheet__title" id="section-title"></h2>
-      <button type="button" class="icon-btn" data-close aria-label="Close"><svg><use href="#i-close"/></svg></button>
-    </header>
-    <div class="sheet__body menu">
-      <button type="button" class="menu__item" data-section-action="mark"><svg><use href="#i-check"/></svg><span><b>Mark all as owned</b><small>Existing copy counts are kept</small></span></button>
-      <button type="button" class="menu__item" data-section-action="clear"><svg><use href="#i-minus"/></svg><span><b>Unmark all</b><small>You can undo this</small></span></button>
-    </div>
   </div>
 </dialog>
 
@@ -738,8 +736,8 @@
       <h3>Keeping your collection safe</h3>
       <ul>
         <li>Your collection is saved <b>only in this browser</b> on this device. Nothing is uploaded.</li>
-        <li>Use <b>Export backup</b> now and then to copy a sync code or save a file. It covers every set you’ve started. <b>Import backup</b> on another device takes the code, a sync link or the file.</li>
-        <li><b>On iPhone and iPad</b>, tap Share → <b>Add to Home Screen</b>. Safari can clear saved data for websites you haven’t visited in a while, but not for apps on your Home Screen, and the app also works offline. The app keeps its own collection, separate from Safari’s, so use <b>Import backup</b> to move your cards into it.</li>
+        <li>Use <b>Export</b> with <b>Whole collection</b> now and then to save a file or copy a link or code. <b>Import</b> on another device takes the link, code, QR code or file.</li>
+        <li><b>On iPhone and iPad</b>, tap Share → <b>Add to Home Screen</b>. Safari can clear saved data for websites you haven’t visited in a while, but not for apps on your Home Screen, and the app also works offline. The app keeps its own collection, separate from Safari’s, so use <b>Import</b> to move your cards into it.</li>
       </ul>
       <p class="hint hint--small">Read the <a href="privacy.html">privacy &amp; cookie policy</a> and <a href="terms.html">terms of use</a>.</p>
     </div>

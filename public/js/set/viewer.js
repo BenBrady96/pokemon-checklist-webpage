@@ -6,7 +6,7 @@ const SWIPE_VELOCITY = 0.45;
 
 const clamp = (v, lo, hi) => Math.min(hi, Math.max(lo, v));
 
-export function initViewer({ getOrder, onCommit, onBlocked }) {
+export function initViewer({ getOrder, onCommit }) {
   const dlg = document.getElementById('dlg-viewer');
   const $ = (name) => dlg.querySelector(`[data-viewer="${name}"]`);
   const el = {
@@ -120,10 +120,6 @@ export function initViewer({ getOrder, onCommit, onBlocked }) {
   el.next.addEventListener('click', () => go(1));
 
   function change(next) {
-    if (store.isPreview()) {
-      onBlocked();
-      return;
-    }
     store.begin();
     store.set(currentId, next);
     onCommit(store.commit(), { kind: 'viewer', id: currentId });

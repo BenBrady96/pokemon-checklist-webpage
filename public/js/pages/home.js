@@ -2,8 +2,8 @@ import { loadCatalog } from '../core/catalog.js';
 import { fetchCollection } from '../core/collection.js';
 import { normalize } from '../core/model.js';
 import * as storage from '../core/storage.js';
-import { initImport } from '../shared/sync.js';
-import { resolveCodes, resolveBackup, backupCode } from '../core/transfer.js';
+import { initExport, openExport } from '../shared/export.js';
+import { initImport, checkIncomingLink } from '../shared/import.js';
 import { initDialogs, openDialog, toast, hideLoader } from '../shared/ui.js';
 import { initPWA, initInstallBanner } from '../shared/pwa.js';
 import { recordSnapshot } from '../core/history.js';
@@ -11,7 +11,6 @@ import { formatMoney } from '../core/pricing.js';
 import { collectionWorth } from '../core/worth.js';
 import { initHeader, showWorth } from '../shared/header.js';
 import { plural, formatAgo } from '../shared/format.js';
-import { importMany, openInSet, checkIncomingLink, describeCodes, watchBackupFile, backupActions } from '../shared/backup.js';
 
 const search = document.getElementById('set-search');
 const continueSection = document.getElementById('continue');
@@ -139,13 +138,6 @@ function filterSets() {
   noMatch.querySelector('span').textContent = search.value.trim();
 }
 
-const importHooks = { refresh: showProgress };
-
-async function handleIncoming({ decoded, codes }, source) {
-  if (decoded.length === 1) return openInSet(decoded[0], codes[0]);
-  return importMany(await resolveCodes(decoded), source, importHooks);
-}
-
 function openScanner() {
   import('../scan/scan.js').then(
     (m) => m.openScanner({ onSaved: showProgress }),
@@ -156,38 +148,23 @@ function openScanner() {
 function paintLastBackup() {
   const last = storage.getPrefs().lastBackup;
   for (const el of document.querySelectorAll('[data-last-backup]')) {
-    el.textContent = last ? `Last backup ${formatAgo(last)}` : 'Every set you’re collecting, as a code or a file';
+    el.textContent = last ? `Last backup ${formatAgo(last)}` : 'A set or your whole collection, as a link, code, QR code or file';
   }
 }
 
-async function openNamed(name) {
+function openNamed(name) {
   if (name === 'scan') return openScanner();
+  if (name === 'export') return openExport();
   const dlg = document.getElementById(`dlg-${name}`);
   if (!dlg) return;
   if (name === 'menu') paintLastBackup();
-  if (name === 'export') {
-    const box = document.getElementById('export-code');
-    box.value = '';
-    dlg.querySelector('[data-action="share-code"]').hidden = typeof navigator.share !== 'function';
-    openDialog(dlg);
-    try {
-      box.value = await backupCode();
-    } catch {
-      toast('Couldn’t make the code. Check your connection, or save a file instead.');
-    }
-    return;
-  }
   openDialog(dlg);
 }
 
-const actions = { ...backupActions };
-
 function wire() {
   document.addEventListener('click', (e) => {
-    const t = e.target.closest('[data-open], [data-action]');
-    if (!t) return;
-    if (t.dataset.open) openNamed(t.dataset.open);
-    else actions[t.dataset.action]?.();
+    const t = e.target.closest('[data-open]');
+    if (t) openNamed(t.dataset.open);
   });
   storage.onPrefChange((key) => {
     if (key === 'currency') paintValues();
@@ -202,8 +179,7 @@ function wire() {
       document.querySelector('#catalog .set-tile:not([hidden])')?.focus();
     }
   });
-  watchBackupFile({ onEntries: async (entries) => importMany(await resolveBackup(entries), 'file', importHooks) });
-  window.addEventListener('hashchange', () => checkIncomingLink(handleIncoming));
+  window.addEventListener('hashchange', checkIncomingLink);
   window.addEventListener('storage', (e) => {
     if (storage.isCollectionKey(e.key)) showProgress();
   });
@@ -219,17 +195,8 @@ async function init() {
   wire();
   if (!storage.isStorageOk()) document.getElementById('storage-banner').hidden = false;
   initInstallBanner();
-  initImport({
-    async onImport(incoming) {
-      try {
-        return await handleIncoming(incoming, incoming.source);
-      } catch {
-        toast('Couldn’t read that code. Check your connection and try again.');
-        return false;
-      }
-    },
-    describe: (decoded) => describeCodes(catalog, decoded),
-  });
+  initExport();
+  initImport({ refresh: showProgress });
   try {
     catalog = await loadCatalog();
   } catch {
@@ -241,7 +208,7 @@ async function init() {
     history.replaceState(null, '', location.pathname + location.hash);
     toast('You’re offline, and that set isn’t saved on this device yet. Sets you’ve opened before still work.', { timeout: 8000 });
   }
-  checkIncomingLink(handleIncoming);
+  checkIncomingLink();
   initPWA();
 }
 

@@ -1,7 +1,7 @@
 import { access, cp, mkdir, readdir, readFile, rm, stat, writeFile } from 'node:fs/promises';
 import { dirname, join, relative, sep } from 'node:path';
 import { COMING_SOON, CONFIG } from './lib/collections.mjs';
-import { DEFAULT_URL, collectionPage, comingSoonPage, homePage, listPage, portfolioPage, sitemap, tradePage } from './lib/pages.mjs';
+import { DEFAULT_URL, collectionPage, comingSoonPage, homePage, listPage, portfolioPage, sharedPage, sitemap, tradePage } from './lib/pages.mjs';
 import { PUBLIC, ROOT } from './lib/util.mjs';
 
 const OUT = join(ROOT, 'dist');
@@ -43,6 +43,7 @@ await emit('index.html', await homePage({ siteUrl: SITE_URL, today: TODAY }));
 await emit('portfolio/index.html', await portfolioPage({ siteUrl: SITE_URL }));
 await emit('trade/index.html', await tradePage({ siteUrl: SITE_URL }));
 await emit('list/index.html', await listPage({ siteUrl: SITE_URL }));
+await emit('shared/index.html', await sharedPage({ siteUrl: SITE_URL }));
 for (const entry of CONFIG) await emit(`${entry.id}/index.html`, await collectionPage(entry.id, { siteUrl: SITE_URL, today: TODAY }));
 for (const entry of COMING_SOON) await emit(`${entry.id}/index.html`, await comingSoonPage(entry, { siteUrl: SITE_URL, today: TODAY }));
 await emit('sitemap.xml', await sitemap({ siteUrl: SITE_URL, today: TODAY }));

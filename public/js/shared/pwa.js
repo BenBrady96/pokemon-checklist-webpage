@@ -75,7 +75,7 @@ function bannerText() {
   if (!isIOS) return 'Install it on your phone. It works offline and opens like any other app.';
   const steps = `Tap Share ${SHARE_GLYPH} (or ••• then Share), then <b>Add to Home Screen</b>. It works offline and Safari won’t clear your cards.`;
   if (!storage.storedCollections().length) return steps;
-  return `${steps} The app starts empty: use <b>Export backup</b> here, then <b>Import backup</b> there.`;
+  return `${steps} The app starts empty: use <b>Export</b> here, then <b>Import</b> there.`;
 }
 
 function showInstallBanner() {

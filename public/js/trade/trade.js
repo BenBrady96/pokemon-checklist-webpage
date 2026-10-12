@@ -3,7 +3,7 @@ import { asset } from '../core/paths.js';
 import { normalize } from '../core/model.js';
 import * as storage from '../core/storage.js';
 import { convert, formatAmount, priceDate } from '../core/pricing.js';
-import { renderQr } from '../shared/sync.js';
+import { renderQr } from '../shared/qr.js';
 import { initDialogs, openDialog, closeDialog, confirmAction, toast, announce, copyText, hideLoader, reducedMotion } from '../shared/ui.js';
 import { initHeader } from '../shared/header.js';
 import { initPWA, initInstallBanner } from '../shared/pwa.js';
@@ -608,7 +608,7 @@ async function validateAdd() {
     message = `✓ Proposed trade${decoded.name ? ` from ${decoded.name}` : ''} · ${plural(lines, 'card', 'cards')}`;
   } else if (decoded) {
     const cards = decoded.sets.reduce((n, s) => n + s.decoded.owned.length, 0);
-    const who = decoded.name || (decoded.source === 'sync' ? 'Share link' : 'Trade code');
+    const who = decoded.name || (decoded.source === 'sync' ? 'Shared collection' : 'Trade code');
     message = `✓ ${who} · ${plural(decoded.sets.length, 'set', 'sets')} · ${plural(cards, 'card', 'cards')}`;
   } else if (text) {
     message = 'That isn’t a trade code or link.';

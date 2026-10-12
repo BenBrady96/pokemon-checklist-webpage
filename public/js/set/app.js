@@ -10,9 +10,8 @@ import { initViewer } from './viewer.js';
 import { initInfo } from './info.js';
 import { compute, percent, renderStats, missingText, duplicatesText } from './stats.js';
 import { initQuickAdd } from './quickadd.js';
-import { shareUrl, renderQr, encodeCollection, resolveCode, askIncoming, initImport } from '../shared/sync.js';
-import { resolveCodes, resolveBackup, backupCode } from '../core/transfer.js';
-import { loadCatalog } from '../core/catalog.js';
+import { initExport, openExport } from '../shared/export.js';
+import { initImport, checkIncomingLink } from '../shared/import.js';
 import { celebrate } from '../shared/confetti.js';
 import { initPWA, initInstallBanner, offlineSupported, countSavedImages, saveImagesOffline } from '../shared/pwa.js';
 import { setCurrency, formatPrice, hasPrices } from '../core/pricing.js';
@@ -22,7 +21,6 @@ import {
   initDialogs, openDialog, closeDialog, openDialogs, toast, announce, confirmAction, copyText, reducedMotion,
 } from '../shared/ui.js';
 import { formatAgo } from '../shared/format.js';
-import { importMany, openInSet, checkIncomingLink, describeCodes, watchBackupFile, backupActions } from '../shared/backup.js';
 
 const html = document.documentElement;
 const root = document.getElementById('collection');
@@ -34,13 +32,11 @@ const jumpbar = document.getElementById('jumpbar');
 const tierPicker = document.getElementById('tier-picker');
 const refreshChip = document.getElementById('refresh-chip');
 const emptyState = document.getElementById('empty-state');
-const previewBanner = document.getElementById('preview-banner');
 const bottombar = document.querySelector('.bottombar');
 
 const DIALOGS = {
   filters: 'dlg-filters', menu: 'dlg-menu', stats: 'dlg-stats',
-  quickadd: 'dlg-quickadd', share: 'dlg-share', help: 'dlg-help', export: 'dlg-export', import: 'dlg-import',
-  list: 'dlg-list',
+  quickadd: 'dlg-quickadd', help: 'dlg-help', import: 'dlg-import', list: 'dlg-list',
 };
 const RANGE_JUMPS = COLLECTION.jumps.filter((j) => j.from && j.to);
 
@@ -52,7 +48,6 @@ const filters = { status: 'all', rarities: new Set(), sections: new Set(), token
 let gestures;
 let viewer;
 let info;
-let previewCounts = null;
 let completedGroups = null;
 let celebrateNext = false;
 
@@ -375,7 +370,6 @@ function refreshStats() {
   }
   updateSectionCounts(root);
   if (document.getElementById('dlg-stats').open) document.getElementById('stats-body').innerHTML = renderStats(s);
-  if (store.isPreview()) previewBanner.querySelector('[data-preview-count]').textContent = `· ${s.owned} of ${s.total} cards`;
   checkMilestones(s);
 }
 
@@ -399,7 +393,6 @@ function checkMilestones(s) {
 const undoAction = () => ({ label: 'Undo', onClick: doUndo });
 
 function doUndo() {
-  if (store.isPreview()) return blocked();
   const entry = store.undo();
   if (!entry) {
     toast('Nothing to undo');
@@ -409,15 +402,8 @@ function doUndo() {
 }
 
 function doRedo() {
-  if (store.isPreview()) return blocked();
   const entry = store.redo();
   toast(entry ? `Redone: ${store.describe(entry).toLowerCase()}` : 'Nothing to redo', entry ? { action: undoAction() } : {});
-}
-
-function blocked() {
-  toast('You’re viewing a shared collection. Exit to edit your own.', {
-    action: { label: 'Exit', onClick: exitPreview },
-  });
 }
 
 function onCommit(entry, info) {
@@ -425,7 +411,7 @@ function onCommit(entry, info) {
   storage.requestPersistence();
   const summary = store.describe(entry);
   announce(summary);
-  if (entry.diffs.size === 1 && info.kind !== 'quickadd' && info.kind !== 'bulk') {
+  if (entry.diffs.size === 1 && info.kind !== 'quickadd') {
     const [[id, d]] = entry.diffs;
     if (d.from > 1 && d.to === 0) {
       toast(`Unmarked ${COLLECTION.cardById.get(id).name} (had ${d.from} copies)`, { action: undoAction() });
@@ -436,107 +422,28 @@ function onCommit(entry, info) {
   queueStaleCheck();
 }
 
-function bulk(ids, kind) {
-  if (store.isPreview()) return blocked();
-  const entry = store.update(ids.map((id) => [id, kind === 'mark' ? Math.max(store.getQty(id), 1) : 0]));
-  if (!entry) {
-    toast(kind === 'mark' ? 'Those cards are already marked.' : 'None of those cards are marked.');
-    return;
-  }
-  onCommit(entry, { kind: 'bulk' });
-}
-
 let worthTimer = 0;
 
 store.subscribe((ids, meta) => {
-  if (meta.source !== 'preview') {
-    clearTimeout(worthTimer);
-    worthTimer = setTimeout(refreshWorth, 1200);
-  }
+  clearTimeout(worthTimer);
+  worthTimer = setTimeout(refreshWorth, 1200);
   if (ids) for (const id of ids) updateCard(id);
   else for (const id of refs.keys()) updateCard(id);
-  if (meta.source !== 'external' && meta.source !== 'preview') celebrateNext = true;
+  if (meta.source !== 'external') celebrateNext = true;
   queueStats();
   if (!ids) applyFilters();
   else if (!gestures.isPainting()) queueStaleCheck();
 });
 
-function enterPreview(counts) {
-  previewCounts = counts;
-  store.enterPreview(counts);
-  previewBanner.hidden = false;
-  updateStickyTop();
-  window.scrollTo({ top: 0 });
-}
-
-function exitPreview({ quiet = false } = {}) {
-  if (!store.isPreview()) return;
-  store.exitPreview();
-  previewCounts = null;
-  previewBanner.hidden = true;
-  updateStickyTop();
-  if (!quiet) toast('Back to your collection');
-}
-
-function applyIncoming(choice, counts) {
-  if (!choice) return;
-  if (choice === 'view') {
-    enterPreview(counts);
-    return;
-  }
-  const entry = choice === 'merge' ? store.mergeAll(counts) : store.replaceAll(counts);
-  if (!entry) {
-    toast('Your collection already matches.');
-    return;
-  }
-  storage.requestPersistence();
-  toast(choice === 'merge' ? `Merged: ${store.describe(entry).toLowerCase()}` : 'Collection replaced', { icon: 'i-check', action: undoAction() });
-}
-
-const askSingle = (counts, source) => askIncoming({ source, single: { incoming: counts, current: storage.readCounts(COLLECTION.id), total: COLLECTION.cards.length } });
-
 const importHooks = {
-  before: () => exitPreview({ quiet: true }),
   current: {
     currentId: COLLECTION.id,
     applyCurrent: (counts, how) => (how === 'merge' ? store.mergeAll(counts) : store.replaceAll(counts)),
   },
-  undo(result) {
+  undoCurrent(result) {
     if (result.currentEntry && store.lastEntry() === result.currentEntry) store.undo();
   },
 };
-
-async function handleIncoming({ decoded, codes }, source) {
-  if (decoded.length === 1) {
-    const d = decoded[0];
-    if (d.key === COLLECTION.syncKey) {
-      const counts = resolveCode(d, COLLECTION);
-      exitPreview({ quiet: true });
-      applyIncoming(await askSingle(counts, source), counts);
-      return true;
-    }
-    return openInSet(d, codes[0]);
-  }
-  return importMany(await resolveCodes(decoded), source, importHooks);
-}
-
-function prepareShare() {
-  const url = shareUrl(COLLECTION.id, encodeCollection(COLLECTION, store.snapshot()));
-  document.getElementById('share-url').value = url;
-  renderQr(document.getElementById('share-qr'), url);
-  document.querySelector('[data-action="native-share"]').hidden = typeof navigator.share !== 'function';
-}
-
-async function prepareExport() {
-  const box = document.getElementById('export-code');
-  box.value = '';
-  document.querySelector('[data-action="share-code"]').hidden = typeof navigator.share !== 'function';
-  try {
-    box.value = await backupCode();
-  } catch {
-    box.value = encodeCollection(COLLECTION, storage.readCounts(COLLECTION.id));
-  }
-}
 
 const imageUrls = () => [...new Set(COLLECTION.cards.filter((c) => COLLECTION.hasImage(c)).map((c) => COLLECTION.imageUrl(c, 'sm')))];
 
@@ -545,10 +452,8 @@ const setText = (selector, text) => {
 };
 
 async function prepareMenu() {
-  const shown = shownIds().length;
-  setText('[data-shown-count]', `Applies to the ${shown} card${shown === 1 ? '' : 's'} currently shown`);
   const last = store.getPrefs().lastBackup;
-  setText('[data-last-backup]', last ? `Last backup ${formatAgo(last)}` : 'Copy a code or save a file');
+  setText('[data-last-backup]', last ? `Last backup ${formatAgo(last)}` : 'A set or your whole collection, as a link, code, QR code or file');
   const supported = offlineSupported();
   for (const item of document.querySelectorAll('[data-offline-item]')) item.hidden = !supported;
   if (supported) {
@@ -572,7 +477,6 @@ async function saveOffline() {
 }
 
 async function doReset() {
-  if (store.isPreview()) return blocked();
   const owned = store.ownedCount();
   if (!owned) {
     toast('Your collection is already empty.');
@@ -608,15 +512,6 @@ const actions = {
   },
   'clear-filters': clearFilters,
   'refresh-filter': applyFilters,
-  'mark-shown'() {
-    closeDialog(document.getElementById('dlg-menu'));
-    bulk(shownIds(), 'mark');
-  },
-  'clear-shown'() {
-    closeDialog(document.getElementById('dlg-menu'));
-    bulk(shownIds(), 'clear');
-  },
-  ...backupActions,
   'save-offline': saveOffline,
   reset: doReset,
   async 'copy-missing'() {
@@ -630,34 +525,12 @@ const actions = {
     }
     toast((await copyText(text)) ? 'Duplicates list copied.' : 'Couldn’t copy to the clipboard.', { icon: 'i-copy' });
   },
-  async 'copy-link'() {
-    const input = document.getElementById('share-url');
-    const ok = await copyText(input.value);
-    if (!ok) input.select();
-    toast(ok ? 'Link copied.' : 'Select the link and copy it manually.', { icon: 'i-link' });
-  },
-  'native-share'() {
-    navigator.share({
-      title: `${COLLECTION.name} checklist`,
-      text: `My ${COLLECTION.game.name} ${COLLECTION.name} collection`,
-      url: document.getElementById('share-url').value,
-    }).catch(() => {});
-  },
-  'preview-exit'() {
-    exitPreview();
-  },
-  'preview-merge'() {
-    const counts = previewCounts;
-    exitPreview({ quiet: true });
-    applyIncoming('merge', counts);
-  },
 };
 
 function openScanner() {
   import('../scan/scan.js').then((m) => m.openScanner({
     prefer: COLLECTION.id,
     current(id, delta) {
-      if (store.isPreview()) return null;
       const from = store.getQty(id);
       store.set(id, from + delta);
       storage.requestPersistence();
@@ -684,30 +557,19 @@ function selectSheetTab(name, { focus = false } = {}) {
 
 function openNamed(name) {
   if (name === 'scan') return openScanner();
+  if (name === 'export') return openExport();
   const dlg = document.getElementById(DIALOGS[name]);
   if (!dlg) return;
   if (name === 'filters') selectSheetTab('filter');
   if (name === 'stats') document.getElementById('stats-body').innerHTML = renderStats(compute());
-  if (name === 'share') prepareShare();
-  if (name === 'list') {
-    if (store.isPreview()) return blocked();
-    prepareListShare();
-  }
-  if (name === 'export') prepareExport();
+  if (name === 'list') prepareListShare();
   if (name === 'menu') prepareMenu();
   openDialog(dlg);
 }
 
-let sectionTarget = null;
-function openSectionMenu(id) {
-  sectionTarget = id;
-  document.getElementById('section-title').textContent = id === 'all' ? 'All shown cards' : COLLECTION.sections.find((s) => s.id === id).name;
-  openDialog(document.getElementById('dlg-section'));
-}
-
 function wireControls() {
   document.addEventListener('click', (e) => {
-    const t = e.target.closest('[data-pref][data-value], [data-pref-toggle], [data-filter], [data-filter-toggle], [data-open], [data-action], [data-section-menu], [data-jump], [data-sheet-tab]');
+    const t = e.target.closest('[data-pref][data-value], [data-pref-toggle], [data-filter], [data-filter-toggle], [data-open], [data-action], [data-jump], [data-sheet-tab]');
     if (!t) return;
     if (t.matches('[data-pref][data-value]')) {
       const key = t.dataset.pref;
@@ -728,8 +590,6 @@ function wireControls() {
       openNamed(t.dataset.open);
     } else if (t.matches('[data-action]')) {
       actions[t.dataset.action]?.();
-    } else if (t.matches('[data-section-menu]')) {
-      openSectionMenu(t.dataset.sectionMenu);
     } else if (t.matches('[data-jump]')) {
       jumpTo(t.dataset.jump);
     } else if (t.matches('[data-sheet-tab]')) {
@@ -743,40 +603,10 @@ function wireControls() {
     selectSheetTab(e.target.dataset.sheetTab === 'filter' ? 'view' : 'filter', { focus: true });
   });
   desktopQuery.addEventListener('change', () => selectSheetTab('filter'));
-  for (const id of ['pop-backup', 'pop-actions']) {
-    document.getElementById(id).addEventListener('beforetoggle', (e) => {
-      if (e.newState === 'open') prepareMenu();
-    });
-  }
 
   for (const select of document.querySelectorAll('[data-pref-select]')) {
     select.addEventListener('change', () => store.setPref(select.dataset.prefSelect, select.value));
   }
-
-  document.getElementById('dlg-section').addEventListener('click', (e) => {
-    const btn = e.target.closest('[data-section-action]');
-    if (!btn) return;
-    const ids = shownIds().filter((id) => sectionTarget === 'all' || COLLECTION.cardById.get(id).section === sectionTarget);
-    closeDialog(document.getElementById('dlg-section'));
-    bulk(ids, btn.dataset.sectionAction);
-  });
-
-  watchBackupFile({
-    allowed() {
-      if (!store.isPreview()) return true;
-      blocked();
-      return false;
-    },
-    async onEntries(entries) {
-      if (entries.length === 1 && entries[0].id === COLLECTION.id) {
-        const counts = Object.fromEntries(Object.entries(entries[0].counts).filter(([id]) => COLLECTION.cardById.has(id)));
-        const choice = await askSingle(counts, 'file');
-        applyIncoming(choice, counts);
-        return choice && choice !== 'view';
-      }
-      return importMany(await resolveBackup(entries), 'file', importHooks);
-    },
-  });
 
   let searchTimer = 0;
   for (const input of document.querySelectorAll('[data-search]')) {
@@ -838,7 +668,7 @@ function wireControls() {
     }, 150);
   });
   new ResizeObserver(updateStickyTop).observe(topbar);
-  window.addEventListener('hashchange', () => checkIncomingLink(handleIncoming));
+  window.addEventListener('hashchange', checkIncomingLink);
 
   root.addEventListener('load', (e) => {
     if (e.target.tagName === 'IMG') e.target.parentElement.classList.add('is-loaded');
@@ -901,19 +731,13 @@ function init() {
     onCommit,
     onOpen: (id) => viewer.open(id),
     onInfo: (id) => info.open(id),
-    onBlocked: blocked,
   });
   viewer = initViewer({
     getOrder: () => shownIds(),
     onCommit,
-    onBlocked: blocked,
   });
   initQuickAdd({
     onApply(action, counts) {
-      if (store.isPreview()) {
-        blocked();
-        return false;
-      }
       const entry = store.update([...counts].map(([id, n]) => {
         const q = store.getQty(id);
         return [id, action === 'add' ? q + n : action === 'owned' ? Math.max(q, 1) : 0];
@@ -925,20 +749,8 @@ function init() {
     },
   });
   initListShare();
-  let catalog = null;
-  loadCatalog().then((c) => { catalog = c; }, () => {});
-  initImport({
-    async onImport(incoming) {
-      if (store.isPreview()) exitPreview({ quiet: true });
-      try {
-        return await handleIncoming(incoming, incoming.source);
-      } catch {
-        toast('Couldn’t read that code. Check your connection and try again.');
-        return false;
-      }
-    },
-    describe: (decoded) => (catalog ? describeCodes(catalog, decoded) : ''),
-  });
+  initExport({ currentId: COLLECTION.id });
+  initImport(importHooks);
 
   const p = store.getPrefs();
   mount(root, { view: p.view, sort: p.sort, pockets: p.pockets, tier: p.tier });
@@ -956,7 +768,7 @@ function init() {
 
   if (!store.isStorageOk()) document.getElementById('storage-banner').hidden = false;
   initInstallBanner();
-  checkIncomingLink(handleIncoming);
+  checkIncomingLink();
   initPWA();
 
   if (!p.tipSeen) {

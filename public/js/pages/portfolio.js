@@ -250,7 +250,7 @@ function renderNote() {
   if (worth?.updated) parts.push(`Market prices from TCGplayer, updated ${priceDate(worth.updated)}.`);
   if (CONVERTED[currency()]) parts.push(`${CONVERTED[currency()]} values are converted from US dollars, so they’re approximate.`);
   if (worth?.unpriced) parts.push(`${plural(worth.unpriced, 'card has', 'cards have')} no price yet and ${worth.unpriced === 1 ? 'isn’t' : 'aren’t'} counted.`);
-  parts.push('Your history is saved on this device whenever you open the site: daily for the past week, weekly for the past month, then monthly. It’s included when you export a backup file.');
+  parts.push('Your history is saved on this device whenever you open the site: daily for the past week, weekly for the past month, then monthly. It’s included when you export your whole collection as a file.');
   $('note').textContent = parts.join(' ');
 }
 

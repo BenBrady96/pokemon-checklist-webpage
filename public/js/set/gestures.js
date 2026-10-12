@@ -7,7 +7,7 @@ const TOUCH_SLOP = 10;
 const EDGE_ZONE = 72;
 const MAX_SCROLL_STEP = 18;
 
-export function initGestures(root, { getMode, getInsets, onCommit, onOpen, onInfo, onBlocked }) {
+export function initGestures(root, { getMode, getInsets, onCommit, onOpen, onInfo }) {
   let pending = null;
   let stroke = null;
   let suppressClickUntil = 0;
@@ -108,11 +108,6 @@ export function initGestures(root, { getMode, getInsets, onCommit, onOpen, onInf
     const p = pending;
     clearTimeout(p.timer);
     pending = null;
-    if (store.isPreview()) {
-      onBlocked();
-      detachIfIdle();
-      return;
-    }
     const mode = getMode();
     stroke = {
       pointerId: p.pointerId,
@@ -244,10 +239,6 @@ export function initGestures(root, { getMode, getInsets, onCommit, onOpen, onInf
       onInfo(id);
       return;
     }
-    if (store.isPreview()) {
-      onBlocked();
-      return;
-    }
     if (btn.classList.contains('card__minus')) step(id, -1);
     else if (btn.classList.contains('card__plus')) step(id, 1);
     else if (btn.classList.contains('card__hit')) {
@@ -310,14 +301,8 @@ export function initGestures(root, { getMode, getInsets, onCommit, onOpen, onInf
       case 'End': focusCard(cards[cards.length - 1]); break;
       case 'v': case 'V': onOpen(id); break;
       case 'i': case 'I': onInfo(id); break;
-      case '+': case '=':
-        if (store.isPreview()) onBlocked();
-        else step(id, 1);
-        break;
-      case '-': case '_':
-        if (store.isPreview()) onBlocked();
-        else step(id, -1);
-        break;
+      case '+': case '=': step(id, 1); break;
+      case '-': case '_': step(id, -1); break;
       default: return;
     }
     e.preventDefault();

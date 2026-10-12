@@ -8,6 +8,7 @@ import { initDialogs, openDialog, hideLoader } from '../shared/ui.js';
 import { initHeader } from '../shared/header.js';
 import { initInstallBanner } from '../shared/pwa.js';
 import { el, icon } from '../shared/dom.js';
+import { cardArt, cardImage } from '../shared/card-art.js';
 import { count, plural, DAY_MONTH_YEAR } from '../shared/format.js';
 
 const TABS = [
@@ -73,22 +74,7 @@ function showMessage(kind) {
   document.title = `${title} · Binder Tracker`;
 }
 
-function image(card, size) {
-  if (!page.model.hasImage(card)) return null;
-  const img = el('img', { src: page.model.imageUrl(card, size), alt: '', width: 330, height: 460, loading: size === 'sm' ? 'lazy' : 'eager', decoding: 'async' });
-  img.addEventListener('error', () => {
-    if (size === 'lg') img.src = page.model.imageUrl(card, 'sm');
-    else img.remove();
-  }, { once: true });
-  return img;
-}
-
-function art(card, qty, className) {
-  return el('span', { class: className, style: `--ph:${page.model.imageColor(card)}` },
-    el('span', { class: 'lst-card__ph', 'aria-hidden': 'true', text: card.num }),
-    image(card, 'sm'),
-    qty > 1 ? el('span', { class: 'lst-card__qty', text: `×${qty}` }) : null);
-}
+const art = (card, qty, className) => cardArt(page.model, card, qty, className);
 
 function tile({ card, qty }) {
   return el('li', {}, el('button', { type: 'button', class: 'lst-card', 'data-idx': card.idx },
@@ -246,7 +232,7 @@ function openCard(idx) {
     el('div', { class: 'lst-detail__card' },
       el('span', { class: 'lst-detail__art', style: `--ph:${page.model.imageColor(card)}` },
         el('span', { class: 'lst-card__ph', 'aria-hidden': 'true', text: card.num }),
-        image(card, 'lg')),
+        cardImage(page.model, card, 'lg')),
       el('div', { class: 'lst-detail__facts' },
         el('p', { class: `lst-detail__status lst-detail__status--${tab}`, text: status }),
         el('p', { class: 'info__meta' }, el('span', { text: card.numberText }), el('span', { text: card.rarityName })),

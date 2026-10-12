@@ -36,11 +36,11 @@ export function readVarint(bytes, pos) {
   return null;
 }
 
-export function collectionBytes(model, counts) {
-  const n = model.maxIdx + 1;
+export function collectionBytes(model, counts, n = model.maxIdx + 1) {
   const bits = new Uint8Array(Math.ceil(n / 8));
   const extras = [];
   for (const card of model.cards) {
+    if (card.idx >= n) continue;
     const q = clampQty(counts[card.id]);
     if (q > 0) bits[card.idx >> 3] |= 1 << (card.idx & 7);
     if (q > 1) {
@@ -101,13 +101,6 @@ export function resolveCode(decoded, model) {
   return counts;
 }
 
-export function codeSize(decoded) {
-  const owned = new Set(decoded.owned);
-  let copies = owned.size;
-  for (const [i, q] of decoded.extra) if (owned.has(i)) copies += Math.min(Math.max(q, 1), MAX_QTY) - 1;
-  return { cards: owned.size, copies };
-}
-
 export function parseSyncText(text) {
   const link = /#sync=([A-Za-z0-9_.-]+)/.exec(text);
   const candidates = link ? [link[1]] : (text.match(/[A-Za-z0-9_.-]+/g) || []).sort((a, b) => b.length - a.length);
@@ -138,9 +131,9 @@ export function parseBackup(text) {
   }
   if (!data?.collections || typeof data.collections !== 'object') return null;
   const entries = Object.entries(data.collections)
-    .map(([id, value]) => ({ id, counts: cleanCounts(value?.cards) }))
+    .map(([id, value]) => ({ id, counts: cleanCounts(value?.cards), tier: typeof value?.tier === 'string' ? value.tier : null }))
     .filter((e) => e.counts);
-  return entries.length ? entries : null;
+  if (!entries.length) return null;
+  const exported = Date.parse(data.exported);
+  return { name: typeof data.name === 'string' ? data.name : '', created: Number.isFinite(exported) ? exported : 0, entries };
 }
-
-export const copiesOf = (counts) => Object.values(counts).reduce((a, b) => a + b, 0);

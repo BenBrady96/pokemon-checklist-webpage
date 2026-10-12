@@ -2,7 +2,7 @@ import { COLLECTION } from '../core/collection.js';
 import * as store from '../set/store.js';
 import * as storage from '../core/storage.js';
 import { asset } from '../core/paths.js';
-import { renderQr } from '../shared/sync.js';
+import { renderQr } from '../shared/qr.js';
 import { encodeList, cleanName } from './trade-code.js';
 import { readTrade, saveTrade, spareOf, readListPrefs, saveListPrefs } from './trade-data.js';
 import { toast, copyText } from '../shared/ui.js';

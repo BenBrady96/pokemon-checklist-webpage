@@ -1,6 +1,7 @@
 import { fetchCollection, fetchPrices } from '../core/collection.js';
 import { resolveCode } from '../core/codec.js';
 import { applyEntries, findEntry } from '../core/transfer.js';
+import { cleanName } from './trade-code.js';
 import * as storage from '../core/storage.js';
 import { convert, ratesOf, shownCurrency } from '../core/pricing.js';
 
@@ -131,6 +132,22 @@ export async function resolveFriend(decoded, catalog) {
     sets[entry.id] = { tier, n: d.n ?? null, q };
   }));
   return { name: decoded.name, created: decoded.created, received: Date.now(), unknown, sets };
+}
+
+export async function resolveBackupFile(parsed, catalog) {
+  const sets = {};
+  let unknown = 0;
+  await Promise.all(parsed.entries.map(async ({ id, counts, tier }) => {
+    if (!catalog.collections.some((c) => c.id === id)) {
+      unknown++;
+      return;
+    }
+    const model = await fetchCollection(id, { images: true });
+    const q = {};
+    for (const [cardId, n] of Object.entries(counts)) if (model.cardById.has(cardId)) q[cardId] = n;
+    if (Object.keys(q).length) sets[id] = { tier, n: null, q };
+  }));
+  return { name: cleanName(parsed.name), created: parsed.created, received: Date.now(), unknown, sets };
 }
 
 export async function resolveProposal(decoded, catalog) {

@@ -97,7 +97,7 @@ function faqHtml(model, sections) {
     const series = model.kind === 'expansion' && model.series && model.series !== 'Other' ? `, as part of the ${escapeHtml(model.series)} series` : '';
     items.push([`When did ${name} come out?`, `<p>${name} was released on ${longDate(model.released)}${series}.</p>`]);
   }
-  items.push([`Is this ${name} checklist free?`, '<p>Yes. Binder Tracker is free, with <b>no ads, no sign-up and no tracking</b>. Your collection is saved on your own device and works offline, and a sync link or backup moves it to another device.</p>']);
+  items.push([`Is this ${name} checklist free?`, '<p>Yes. Binder Tracker is free, with <b>no ads, no sign-up and no tracking</b>. Your collection is saved on your own device and works offline, and <b>Export</b> moves it to another device as a link, code, QR code or file.</p>']);
   return `<h3 class="about__sub">${name} FAQ</h3>${items.map(([q, a]) => `<h4 class="about__q">${q}</h4>${a}`).join('')}`;
 }
 
@@ -281,7 +281,7 @@ export async function collectionPage(id, { siteUrl = DEFAULT_URL, today = isoTod
     'Copy counts for duplicates and trades',
     'Grid, list and binder page views',
     'Works offline',
-    'Share and sync links',
+    'Export and import by link, code, QR code or file',
   ];
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -445,6 +445,11 @@ export async function tradePage({ siteUrl = DEFAULT_URL } = {}) {
 
 export async function listPage({ siteUrl = DEFAULT_URL } = {}) {
   const template = await readFile(join(TEMPLATES, 'list.html'), 'utf8');
+  return prefixUrls(template.split(DEFAULT_URL).join(siteUrl), '../');
+}
+
+export async function sharedPage({ siteUrl = DEFAULT_URL } = {}) {
+  const template = await readFile(join(TEMPLATES, 'shared.html'), 'utf8');
   return prefixUrls(template.split(DEFAULT_URL).join(siteUrl), '../');
 }
 
