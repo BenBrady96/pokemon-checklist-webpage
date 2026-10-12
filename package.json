@@ -6,16 +6,16 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "dev": "node tools/dev.mjs",
-    "build": "node tools/build.mjs",
-    "test": "node tools/check.mjs",
-    "set-list": "node tools/build-set-list.mjs",
-    "sets": "node tools/build-sets.mjs",
-    "images": "node tools/build-images.mjs",
-    "images:force": "node tools/build-images.mjs --force",
-    "prices": "node tools/build-prices.mjs",
-    "scan-index": "node tools/build-scan-index.mjs",
-    "scan-eval": "node tools/scan-eval.mjs"
+    "dev": "node scripts/local/dev.mjs",
+    "build": "node scripts/build.mjs",
+    "test": "node scripts/check.mjs",
+    "set-list": "node scripts/local/build-set-list.mjs",
+    "sets": "node scripts/local/build-sets.mjs",
+    "images": "node scripts/local/build-images.mjs",
+    "images:force": "node scripts/local/build-images.mjs --force",
+    "prices": "node scripts/build-prices.mjs",
+    "scan-index": "node scripts/local/build-scan-index.mjs",
+    "scan-eval": "node scripts/local/scan-eval.mjs"
   },
   "devDependencies": {
     "onnxruntime-node": "1.30.0",
