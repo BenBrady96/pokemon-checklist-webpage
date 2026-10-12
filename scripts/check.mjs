@@ -1,7 +1,7 @@
 import { execFileSync } from 'node:child_process';
 import { createHash } from 'node:crypto';
 import { readFile } from 'node:fs/promises';
-import { CONFIG, loadModel, loadRaw, dataDir } from './lib/collections.mjs';
+import { COMING_SOON, CONFIG, loadModel, loadRaw, dataDir } from './lib/collections.mjs';
 import { PUBLIC, ROOT, readJson } from './lib/util.mjs';
 import { join, relative, sep } from 'node:path';
 
@@ -144,6 +144,39 @@ if (meg) {
   check(r.counts.size === 6 && r.counts.get('001-rh') === 1 && !r.counts.has('003-rh') && r.counts.get('188') === 2 && !r.invalid.length, 'Mega Evolution quick add with reverse holos');
   check(parseQuickAdd('R3', meg).invalid.length === 1 && parseQuickAdd('R180-R200', meg).invalid.length === 1, 'Mega Evolution quick add rejects missing reverse holos and numbers past the set');
 }
+const today = new Date().toISOString().slice(0, 10);
+const isDate = (s) => /^\d{4}-\d{2}-\d{2}$/.test(s || '') && !Number.isNaN(Date.parse(s));
+const textsOf = (value) => (typeof value === 'string' ? [value]
+  : Array.isArray(value) ? value.flatMap(textsOf)
+    : value && typeof value === 'object' ? Object.values(value).flatMap(textsOf) : []);
+const syncKeys = new Map([...models.values()].map((m) => [m.syncKey, m.id]));
+for (const entry of [...COMING_SOON, ...CONFIG.filter((e) => e.guide)]) {
+  const { guide, id } = entry;
+  const live = CONFIG.includes(entry);
+  check(guide.name && isDate(guide.released) && isDate(guide.updated) && isDate(guide.published), `${id}: guide has a name and release, published and checked dates`);
+  const ids = new Set(guide.sources.map((s) => s.id));
+  check(ids.size === guide.sources.length && guide.sources.every((s) => s.publisher && s.title && /^https:\/\//.test(s.url) && (!s.date || isDate(s.date))), `${id}: guide sources have unique ids, a publisher, a title and an https link`);
+  const cited = [
+    ...textsOf(guide).flatMap((s) => [...s.matchAll(/\[([a-z0-9-]+)\]/g)].map((m) => m[1])),
+    guide.releaseSource, guide.productsSource,
+    ...[...(guide.dates || []), ...(guide.previews || [])].map((x) => x.source),
+    ...guide.products.flatMap((p) => (p.rrp || []).map((r) => r.source)),
+  ].filter(Boolean);
+  const unknown = [...new Set(cited.filter((s) => !ids.has(s)))];
+  check(!unknown.length, `${id}: guide cites sources it doesn't list: ${unknown.join(', ')}`);
+  const unused = [...ids].filter((s) => !cited.includes(s));
+  check(!unused.length, `${id}: guide lists sources nothing cites: ${unused.join(', ')}`);
+  check(guide.releaseSource && (guide.dates || []).every((d) => isDate(d.date) && d.source), `${id}: the release date and every key date have a source`);
+  check(guide.products.length && guide.products.every((p) => Number.isInteger(p.tcg) && p.name && p.contents && (p.rrp || []).every((r) => r.price > 0 && /^(gbp|usd|eur)$/.test(r.currency) && r.store && r.source)), `${id}: every guide product has a TCGplayer id, a name and contents, and shop prices name a store and a source`);
+  check(new Set(guide.products.map((p) => p.tcg)).size === guide.products.length, `${id}: guide products aren't listed twice`);
+  const dashed = textsOf(guide).filter((s) => s.includes('—'));
+  check(!dashed.length, `${id}: guide text has em dashes: ${dashed.map((s) => s.slice(0, 50)).join(' | ')}`);
+  if (!live) {
+    check(/^[A-Za-z0-9]{1,16}$/.test(entry.syncKey) && !syncKeys.has(entry.syncKey), `${id}: sync key ${entry.syncKey} is valid and not used by ${syncKeys.get(entry.syncKey)}`);
+    if (today >= guide.released) console.warn(`⚠ ${id} came out on ${guide.released}. When TCGdex has ${entry.tcgdex}, move it from UPCOMING to HAND in config/pokemon/sets.mjs and run npm run sets -- --only ${entry.slug}`);
+  }
+}
+
 const scan = await readJson(join(PUBLIC, 'data', 'scan', 'index.json'));
 check(scan, 'public/data/scan/index.json exists (run npm run scan-index)');
 if (scan) {

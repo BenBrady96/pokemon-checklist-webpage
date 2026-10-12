@@ -1090,6 +1090,9 @@ a.btn { text-decoration: none; }
 .set-tile.is-complete .set-tile__count { color: var(--theme-ink); }
 .set-tile.is-complete .set-tile__count::after { content: " ✓"; }
 .set-tile__value { align-self: center; margin-top: auto; }
+.set-tile--soon .set-tile__art { background: var(--theme-wash); }
+.set-tile__soon { display: flex; min-height: 18px; margin: 8px 0 12px; }
+.soon-pill { display: inline-flex; align-items: center; max-width: 100%; height: 24px; padding: 0 10px; border-radius: 999px; background: var(--theme-wash); color: var(--theme-ink); font-size: .78rem; font-weight: 600; line-height: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 
 .doc-page { padding-bottom: 0; }
 .doc-page .brand__mark { flex: none; }
@@ -1105,6 +1108,51 @@ a.btn { text-decoration: none; }
 .doc__lead { padding: 16px 18px; border-radius: 14px; background: var(--theme-wash); color: var(--text); font-weight: 500; }
 .doc__back { margin-top: 32px; }
 .doc__back .btn { text-decoration: none; }
+
+.guide-kicker { margin: 0 0 12px; }
+.doc__body .guide-q { margin: 22px 0 6px; font-size: 1rem; color: var(--text); }
+.doc__body .about__note { color: var(--text-3); font-size: .85rem; line-height: 1.6; }
+.cite { margin-left: 1px; font-size: .68em; font-weight: 600; line-height: 0; }
+.cite a { color: var(--theme-ink); text-decoration: none; }
+.cite a:hover { text-decoration: underline; }
+.cite + .cite::before { content: ","; color: var(--text-3); }
+.guide-dates { margin: 0 0 14px; padding: 0; list-style: none; }
+.guide-dates li { display: grid; grid-template-columns: 7.2em minmax(0, 1fr); gap: 12px; margin: 0; padding: 10px 0; border-bottom: 1px solid var(--line); }
+.guide-dates time { color: var(--text); font-weight: 600; font-variant-numeric: tabular-nums; }
+.guide-dates .is-past, .guide-dates .is-past time { color: var(--text-3); }
+.doc__body .guide-cards { margin: 0 0 14px; }
+.doc__body .guide-cards li { margin: 0; }
+.guide-products { margin: 0 0 8px; }
+.guide-products table { width: 100%; border-collapse: collapse; font-size: .92rem; line-height: 1.5; }
+.guide-products th, .guide-products td { padding: 10px 8px; border-bottom: 1px solid var(--line); text-align: left; vertical-align: top; }
+.guide-products th:first-child, .guide-products td:first-child { padding-left: 0; }
+.guide-products th:last-child, .guide-products td:last-child { padding-right: 0; }
+.guide-products thead th { color: var(--text-3); font-size: .78rem; font-weight: 600; }
+.guide-products thead th:nth-child(n+3) { text-align: right; }
+.guide-products tbody th { min-width: 9em; color: var(--text); font-weight: 600; }
+.guide-products tbody th a { color: inherit; }
+.guide-products__price { color: var(--text); font-weight: 600; font-variant-numeric: tabular-nums; text-align: right; white-space: nowrap; }
+.guide-products__value { display: inline-block; }
+.guide-products__price small { display: block; color: var(--text-3); font-size: .78rem; font-weight: 400; }
+.guide-products__rrp { display: block; }
+.guide-products__rrp + .guide-products__rrp { margin-top: 6px; }
+.guide-products__none { color: var(--text-3); font-weight: 400; }
+.guide-sources { margin: 0 0 14px; padding-left: 22px; font-size: .9rem; overflow-wrap: anywhere; }
+.doc__body .guide-sources li { margin-bottom: 6px; }
+.guide-sources li { scroll-margin-top: 80px; }
+.guide-sources li:target { border-radius: 6px; background: var(--theme-wash); }
+.guide-more small { color: var(--text-3); }
+.about .guide-dates, .about .guide-products, .about .guide-sources { max-width: 680px; font-size: .92rem; }
+@media (max-width: 639.98px) {
+  .guide-products thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+  .guide-products table, .guide-products tbody, .guide-products tr, .guide-products th, .guide-products td { display: block; }
+  .guide-products tr { padding: 12px 0; border-bottom: 1px solid var(--line); }
+  .guide-products th, .guide-products td, .guide-products th:first-child, .guide-products td:first-child { padding: 2px 0; border: 0; }
+  .guide-products tbody th { margin-bottom: 2px; font-size: 1rem; }
+  .guide-products__price { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; text-align: left; white-space: normal; }
+  .guide-products__price::before { content: attr(data-label); color: var(--text-3); font-size: .82rem; font-weight: 400; }
+  .guide-products__value { text-align: right; }
+}
 .noscript { margin: 40px auto; max-width: 480px; text-align: center; }
 
 .bottombar {

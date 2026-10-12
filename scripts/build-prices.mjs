@@ -1,5 +1,5 @@
 import { join } from 'node:path';
-import { CONFIG, dataDir, loadModel, loadRaw } from './lib/collections.mjs';
+import { COMING_SOON, CONFIG, dataDir, loadModel, loadRaw } from './lib/collections.mjs';
 import { normalize } from '../public/js/core/model.js';
 import { lastUpdated, loadPrices, loadProducts, productNumber } from './lib/tcgcsv.mjs';
 import { download, readJson, writeJson } from './lib/util.mjs';
@@ -84,6 +84,28 @@ async function priceCollection(entry, { updated, rates }) {
   console.log(`${entry.id}: ${priced} of ${model.cards.length} priced${unmatched.length ? `, ${unmatched.length} not on TCGplayer` : ''}`);
 }
 
+async function priceSealed(entry, { updated, rates }) {
+  const groups = await Promise.all(entry.tcgplayer.map(loadGroup));
+  const rows = groups.flatMap((g) => g.prices);
+  const products = {};
+  let priced = 0;
+  for (const { tcg } of entry.guide.products) {
+    const row = priceRow(rows, tcg);
+    const price = { usd: row?.marketPrice ?? null };
+    if (price.usd == null && row?.lowPrice != null) price.from = row.lowPrice;
+    if (price.usd != null || price.from != null) priced++;
+    products[tcg] = price;
+  }
+  const file = join(dataDir(entry.id), 'sealed.json');
+  const previous = await readJson(file);
+  if (!priced && previous) {
+    console.warn(`${entry.id}: no sealed product prices; keeping the previous ones`);
+    return;
+  }
+  await writeJson(file, { updated, gbpPerUsd: fx(rates.gbp), eurPerUsd: fx(rates.eur), products }, { lines: ['products'] });
+  console.log(`${entry.id}: ${priced} of ${entry.guide.products.length} sealed products priced`);
+}
+
 const [updated, rates] = await Promise.all([lastUpdated(), exchangeRates()]);
 const day = updated.slice(0, 10);
 console.log(`Prices from ${updated}, $1 = £${rates.gbp.toFixed(4)} = €${rates.eur.toFixed(4)}`);
@@ -94,6 +116,14 @@ for (const entry of CONFIG) {
   } catch (err) {
     failed++;
     console.error(`${entry.id}: ${err.message}`);
+  }
+}
+for (const entry of [...CONFIG.filter((e) => e.guide), ...COMING_SOON]) {
+  try {
+    await priceSealed(entry, { updated: day, rates });
+  } catch (err) {
+    process.exitCode = 1;
+    console.error(`${entry.id} sealed products: ${err.message}`);
   }
 }
 if (failed === CONFIG.length) throw new Error('No prices could be downloaded');

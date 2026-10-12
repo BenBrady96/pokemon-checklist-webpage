@@ -1,6 +1,6 @@
 import { mkdir, writeFile } from 'node:fs/promises';
 import { dirname, join } from 'node:path';
-import pokemonSets, { LOGO as POKEMON_LOGO, SERIES as POKEMON_SERIES } from '../../config/pokemon/sets.mjs';
+import pokemonSets, { LOGO as POKEMON_LOGO, SERIES as POKEMON_SERIES, UPCOMING as POKEMON_UPCOMING } from '../../config/pokemon/sets.mjs';
 import * as pokemon from '../../public/js/games/pokemon.js';
 import { buildCollection } from '../../public/js/core/model.js';
 import { CACHE, PUBLIC, download, exists, readJson } from './util.mjs';
@@ -10,7 +10,10 @@ export const SERIES = { pokemon: POKEMON_SERIES };
 export const GAME_LOGOS = { pokemon: POKEMON_LOGO };
 export const gameLogoPath = (game) => `img/games/${game}/logo.webp`;
 
-export const CONFIG = pokemonSets.map((entry) => ({ ...entry, game: 'pokemon', id: `pokemon/${entry.slug}` }));
+const withId = (entry) => ({ ...entry, game: 'pokemon', id: `pokemon/${entry.slug}` });
+
+export const CONFIG = pokemonSets.map(withId);
+export const COMING_SOON = POKEMON_UPCOMING.filter((e) => !CONFIG.some((c) => c.slug === e.slug)).map(withId);
 
 export const dataDir = (id) => join(PUBLIC, 'data', ...id.split('/'));
 export const imageDir = (id) => join(PUBLIC, 'img', 'cards', ...id.split('/'));

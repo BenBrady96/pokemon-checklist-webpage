@@ -1,7 +1,7 @@
 import { access, cp, mkdir, readdir, readFile, rm, stat, writeFile } from 'node:fs/promises';
 import { dirname, join, relative, sep } from 'node:path';
-import { CONFIG } from './lib/collections.mjs';
-import { DEFAULT_URL, collectionPage, homePage, listPage, portfolioPage, sitemap, tradePage } from './lib/pages.mjs';
+import { COMING_SOON, CONFIG } from './lib/collections.mjs';
+import { DEFAULT_URL, collectionPage, comingSoonPage, homePage, listPage, portfolioPage, sitemap, tradePage } from './lib/pages.mjs';
 import { PUBLIC, ROOT } from './lib/util.mjs';
 
 const OUT = join(ROOT, 'dist');
@@ -39,11 +39,12 @@ for (const file of URL_FILES) {
   await writeFile(path, (await readFile(path, 'utf8')).split(DEFAULT_URL).join(SITE_URL));
 }
 
-await emit('index.html', await homePage({ siteUrl: SITE_URL }));
+await emit('index.html', await homePage({ siteUrl: SITE_URL, today: TODAY }));
 await emit('portfolio/index.html', await portfolioPage({ siteUrl: SITE_URL }));
 await emit('trade/index.html', await tradePage({ siteUrl: SITE_URL }));
 await emit('list/index.html', await listPage({ siteUrl: SITE_URL }));
-for (const entry of CONFIG) await emit(`${entry.id}/index.html`, await collectionPage(entry.id, { siteUrl: SITE_URL }));
+for (const entry of CONFIG) await emit(`${entry.id}/index.html`, await collectionPage(entry.id, { siteUrl: SITE_URL, today: TODAY }));
+for (const entry of COMING_SOON) await emit(`${entry.id}/index.html`, await comingSoonPage(entry, { siteUrl: SITE_URL, today: TODAY }));
 await emit('sitemap.xml', await sitemap({ siteUrl: SITE_URL, today: TODAY }));
 
 const swPath = join(OUT, 'sw.js');
@@ -59,7 +60,7 @@ const missing = [];
 for (const path of shell) if (!(await exists(join(OUT, path)))) missing.push(path);
 if (missing.length) throw new Error(`sw.js SHELL lists files that don't exist: ${missing.join(', ')}`);
 
-const setPages = new Set(CONFIG.map((e) => `${e.id}/index.html`));
+const setPages = new Set([...CONFIG, ...COMING_SOON].map((e) => `${e.id}/index.html`));
 const files = await listFiles(OUT);
 const unlisted = files
   .map((file) => relative(OUT, file).split(sep).join('/'))
@@ -75,7 +76,7 @@ for (const file of files) {
   if (folder.startsWith('img/cards/')) byFolder.set(folder, (byFolder.get(folder) || 0) + size);
 }
 const mb = (n) => `${(n / 1048576).toFixed(1)} MB`;
-console.log(`Built dist/: ${files.length} files, ${mb(bytes)} (${CONFIG.length} collections)`);
+console.log(`Built dist/: ${files.length} files, ${mb(bytes)} (${CONFIG.length} collections${COMING_SOON.length ? `, ${COMING_SOON.length} coming soon` : ''})`);
 console.log(`Site URL: ${SITE_URL}`);
 console.log(`Service worker version: ${VERSION}`);
 if (process.argv.includes('--sizes')) {

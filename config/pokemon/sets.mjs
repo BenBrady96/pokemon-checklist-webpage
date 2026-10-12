@@ -1,4 +1,5 @@
 import generated from './generated-sets.json' with { type: 'json' };
+import DELTA_REIGN from './coming-soon/delta-reign.mjs';
 
 export const SERIES = [
   'Mega Evolution', 'Scarlet & Violet', 'Sword & Shield', 'Sun & Moon', 'XY', 'Black & White', 'Call of Legends',
@@ -313,6 +314,10 @@ export const HAND = [
   { slug: 'scarlet-violet', tcgdex: 'sv01', series: SV, syncKey: 'SVI', tcgplayer: [22873], gallery: 'scarlet-violet/SV01', theme: { accent: '#E24A6A', chrome: '#2C1344' } },
   { slug: 'sv-black-star-promos', tcgdex: 'svp', series: SV, kind: 'promo', name: 'SV Black Star Promos', syncKey: 'SVP', tcgplayer: [22872], logo: PROMO_LOGO, logoOutline: true, theme: { accent: '#D2D7E0', chrome: '#181B24' } },
   { slug: 'sv-energy', tcgdex: 'sve', series: SV, kind: 'energy', name: 'SV Energy', syncKey: 'SVE', tcgplayer: [24382], logo: ENERGY_LOGO, theme: { accent: '#6CC24A', chrome: '#13261A' } },
+];
+
+export const UPCOMING = [
+  { slug: 'delta-reign', tcgdex: 'me06', series: MEGA, syncKey: 'DLR', tcgplayer: [24831], theme: { accent: '#2FB57E', chrome: '#0D2620' }, guide: DELTA_REIGN },
 ];
 
 export default [...HAND, ...generated.filter((g) => !HAND.some((h) => h.slug === g.slug))];

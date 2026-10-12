@@ -1,6 +1,6 @@
 import { readFile } from 'node:fs/promises';
 import { join } from 'node:path';
-import { GAMES, dataDir, loadCatalog, loadModel, loadRaw } from './collections.mjs';
+import { COMING_SOON, CONFIG, GAMES, dataDir, loadCatalog, loadModel, loadRaw } from './collections.mjs';
 import { PUBLIC, TEMPLATES, exists, readJson } from './util.mjs';
 import { TIER_DEFS } from '../../public/js/core/model.js';
 import { formatMoney, priceDate, ratesOf } from '../../public/js/core/pricing.js';
@@ -107,8 +107,164 @@ function setGuideHtml(model, prices) {
   return [topCardsHtml(model, prices), cardListHtml(model, sections), faqHtml(model, sections)].join('\n  ');
 }
 
-export async function collectionPage(id, { siteUrl = DEFAULT_URL } = {}) {
+const isoToday = () => new Date().toISOString().slice(0, 10);
+const utcDate = (date) => new Date(`${date}T00:00:00Z`);
+const DAY_DATE = new Intl.DateTimeFormat('en-GB', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' });
+const SHORT_DATE = new Intl.DateTimeFormat('en-GB', { day: 'numeric', month: 'short', year: 'numeric', timeZone: 'UTC' });
+const retailPrice = (amount, currency) => new Intl.NumberFormat('en-GB', { style: 'currency', currency: currency.toUpperCase() }).format(amount);
+const sealedPrices = (id) => readJson(join(dataDir(id), 'sealed.json'));
+const isOut = (guide, today) => today >= guide.released;
+
+function citations(guide) {
+  const number = new Map(guide.sources.map((s, i) => [s.id, i + 1]));
+  const link = (id) => (number.has(id) ? `<sup class="cite"><a href="#source-${id}" aria-label="Source ${number.get(id)}">${number.get(id)}</a></sup>` : '');
+  return { link, text: (html) => html.replace(/\s*\[([a-z0-9-]+)\]/g, (match, id) => (number.has(id) ? link(id) : match)) };
+}
+
+function guideSectionsHtml(entry, sealed, { today, sub = false, parts }) {
+  const { guide } = entry;
+  const cite = citations(guide);
+  const name = escapeHtml(guide.name);
+  const out = isOut(guide, today);
+  const heading = (id, text) => (sub ? `<h3 class="about__sub" id="${id}">${text}</h3>` : `<h2 id="${id}">${text}</h2>`);
+  const paragraphs = (list) => list.map((p) => `<p>${cite.text(p)}</p>`).join('\n  ');
+  const none = (text) => `<span class="guide-products__none">${text}</span>`;
+  const rates = ratesOf(sealed);
+  const priced = Object.values(sealed?.products || {}).some((p) => p.usd > 0 || p.from > 0);
+  const hasRetail = guide.products.some((p) => p.rrp?.length);
+
+  const market = (p) => {
+    const price = sealed?.products?.[p.tcg];
+    if (price?.usd > 0) return `${formatMoney(price.usd, { currency: 'gbp', rates })}<small>${formatMoney(price.usd, { currency: 'usd' })}</small>`;
+    if (price?.from > 0) return `Listed from ${formatMoney(price.from, { currency: 'gbp', rates })}<small>${formatMoney(price.from, { currency: 'usd' })}</small>`;
+    return none('No sales yet');
+  };
+  const retail = (p) => (p.rrp?.length
+    ? p.rrp.map((r) => `<span class="guide-products__rrp">${retailPrice(r.price, r.currency)}<small>${escapeHtml(r.store)}${cite.link(r.source)}</small></span>`).join('')
+    : none('Not confirmed yet'));
+  const productsSource = guide.sources.find((s) => s.id === guide.productsSource);
+
+  const sections = {
+    dates: () => guide.dates?.length && heading('guide-dates', `${name} key dates`)
+      + `<ol class="guide-dates">${guide.dates.map((d) => `<li${d.date < today ? ' class="is-past"' : ''}><time datetime="${d.date}">${SHORT_DATE.format(utcDate(d.date))}</time><span>${cite.text(d.text)}${cite.link(d.source)}</span></li>`).join('')}</ol>`,
+    about: () => guide.about?.length && heading('guide-about', `About ${name}`) + paragraphs(guide.about),
+    previews: () => {
+      if (!guide.previews?.length) return '';
+      const sources = guide.sources.map((s) => s.id).filter((id) => guide.previews.some((c) => c.source === id));
+      return heading('guide-cards', `${name} cards revealed so far`)
+        + `<p>These are the ${plural(guide.previews.length, 'card')} shown so far, by card number${sources.map(cite.link).join('')}. The full list will be in the checklist.</p>`
+        + `<ol class="card-index__list guide-cards">${guide.previews.map((c) => `<li><span>No. ${c.num}</span> ${escapeHtml(c.name)}${c.rarity ? ` <small>${escapeHtml(c.rarity)}</small>` : ''}</li>`).join('')}</ol>`;
+    },
+    products: () => {
+      const notes = [];
+      if (productsSource) notes.push(`What’s inside each product comes from ${escapeHtml(productsSource.publisher)}’s product listings${cite.link(productsSource.id)}.`);
+      if (hasRetail) notes.push('Shop prices are official retail prices from the store named.');
+      if (priced) notes.push(`Market prices are TCGplayer market prices${out ? '' : ' for pre-orders'}, updated ${priceDate(sealed.updated)}. They change daily, and pounds are converted from US dollars.`);
+      return heading('guide-products', `${name} products and prices`)
+        + '<div class="guide-products"><table>'
+        + `<thead><tr><th scope="col">Product</th><th scope="col">What’s inside</th>${hasRetail ? '<th scope="col">Shop price</th>' : ''}${priced ? '<th scope="col">Market price</th>' : ''}</tr></thead>`
+        + `<tbody>${guide.products.map((p) => '<tr>'
+          + `<th scope="row"><a href="https://www.tcgplayer.com/product/${p.tcg}" rel="noopener">${p.name}</a></th>`
+          + `<td data-label="What’s inside">${cite.text(p.contents)}</td>`
+          + (hasRetail ? `<td class="guide-products__price" data-label="Shop price"><span class="guide-products__value">${retail(p)}</span></td>` : '')
+          + (priced ? `<td class="guide-products__price" data-label="Market price"><span class="guide-products__value">${market(p)}</span></td>` : '')
+          + '</tr>').join('')}</tbody></table></div>`
+        + (notes.length ? `<p class="about__note">${notes.join(' ')}</p>` : '');
+    },
+    japanese: () => guide.japanese?.length && heading('guide-japan', `${name} in Japan`) + paragraphs(guide.japanese),
+    faq: () => {
+      const items = [
+        [`When ${out ? 'did' : 'does'} ${name} come out?`, `${name} ${out ? 'came' : 'comes'} out on ${DAY_DATE.format(utcDate(guide.released))}${cite.link(guide.releaseSource)}.`],
+        [`Is there a ${name} checklist?`, `Yes. Binder Tracker’s free ${name} checklist opens on this page as soon as the full card list is published. Like every checklist here, it has <b>no ads, no sign-up and no tracking</b>, works offline and keeps your collection on your own device.`],
+        ...(guide.faq || []).map(({ q, a }) => [q, cite.text(a)]),
+      ];
+      return heading('guide-faq', `${name} FAQ`) + items.map(([q, a]) => `<h3 class="guide-q">${q}</h3><p>${a}</p>`).join('\n  ');
+    },
+    sources: () => heading('guide-sources', 'Sources')
+      + `<p class="about__note">Facts checked on ${longDate(guide.updated)}.${out ? '' : ' Details can change before release.'}</p>`
+      + `<ol class="guide-sources">${guide.sources.map((s) => `<li id="source-${s.id}">${escapeHtml(s.publisher)}: <a href="${escapeHtml(s.url)}" rel="noopener">${escapeHtml(s.title)}</a>${s.date ? `, ${longDate(s.date)}` : ''}</li>`).join('')}</ol>`,
+  };
+  return parts.map((part) => sections[part]()).filter(Boolean).join('\n  ');
+}
+
+function moreSetsHtml(entry, catalog) {
+  const sets = (catalog?.collections || [])
+    .filter((c) => c.game === entry.game && c.series === entry.series && c.kind === 'expansion')
+    .sort((a, b) => b.released.localeCompare(a.released))
+    .slice(0, 6);
+  if (!sets.length) return '';
+  const series = escapeHtml(entry.series);
+  return `<h2 id="guide-more">More ${series} checklists</h2>`
+    + `<p>These ${series} sets already have free checklists:</p>`
+    + `<ul class="guide-more">${sets.map((c) => `<li><a href="${c.id}/">${escapeHtml(c.name)}</a> <small>${releaseText(c.released)} · ${c.total} cards</small></li>`).join('')}</ul>`;
+}
+
+export async function comingSoonPage(entry, { siteUrl = DEFAULT_URL, today = isoToday() } = {}) {
+  const { guide } = entry;
+  const [template, sealed, catalog] = await Promise.all([readFile(join(TEMPLATES, 'coming-soon.html'), 'utf8'), sealedPrices(entry.id), loadCatalog()]);
+  const game = GAMES[entry.game];
+  const url = `${siteUrl}${entry.id}/`;
+  const ogImage = `${siteUrl}${await ogImageFor(entry.id)}`;
+  const out = isOut(guide, today);
+  const cite = citations(guide);
+  const name = escapeHtml(guide.name);
+  const seo = guide.seo || {};
+  const headline = `${game.name} ${guide.name}: release date, products and prices`;
+  const title = seo.title || `${game.name} ${guide.name} Release Date, Products & Prices · Checklist Coming Soon`;
+  const description = seo.description || `${game.name} ${guide.name} ${out ? 'came' : 'comes'} out on ${longDate(guide.released)}. Every product, what’s inside and today’s prices, plus a free checklist at launch with no ads, no sign-up and no tracking.`;
+  const modified = [guide.updated, sealed?.updated].filter(Boolean).sort().at(-1);
+  const publisher = { '@type': 'Organization', name: 'Binder Tracker', url: siteUrl };
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'WebPage', '@id': `${url}#page`, url, name: headline, description, inLanguage: 'en-GB',
+        isPartOf: { '@id': `${siteUrl}#website` }, breadcrumb: { '@id': `${url}#breadcrumb` }, primaryImageOfPage: ogImage,
+        datePublished: guide.published, dateModified: modified,
+      },
+      {
+        '@type': 'BreadcrumbList', '@id': `${url}#breadcrumb`,
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'Binder Tracker', item: siteUrl },
+          { '@type': 'ListItem', position: 2, name: `${game.name} ${guide.name}`, item: url },
+        ],
+      },
+      {
+        '@type': 'Article', '@id': `${url}#article`, headline, description, image: ogImage, inLanguage: 'en-GB',
+        datePublished: guide.published, dateModified: modified, mainEntityOfPage: { '@id': `${url}#page` }, author: publisher, publisher,
+      },
+    ],
+  };
+  const body = [
+    `<p class="guide-kicker"><span class="soon-pill">${out ? 'Out now · checklist coming soon' : 'Checklist coming soon'}</span></p>`,
+    `<h1>${name}: release date, products and prices</h1>`,
+    `<p class="doc__updated">${escapeHtml(game.name)} · ${escapeHtml(entry.series)} series · Facts checked ${longDate(guide.updated)}</p>`,
+    `<p class="doc__lead"><b>${name} ${out ? 'came' : 'comes'} out on ${DAY_DATE.format(utcDate(guide.released))}.</b>${cite.link(guide.releaseSource)} The free ${name} checklist opens on this page as soon as the full card list is published, with no ads, no sign-up and no tracking.</p>`,
+    guideSectionsHtml(entry, sealed, { today, parts: ['dates', 'about', 'previews', 'products', 'japanese', 'faq'] }),
+    moreSetsHtml(entry, catalog),
+    guideSectionsHtml(entry, sealed, { today, parts: ['sources'] }),
+    '<p class="doc__back"><a class="btn btn--ghost" href="./">← Back to Binder Tracker</a></p>',
+  ].filter(Boolean).join('\n  ');
+  const html = fill(template, {
+    title: `${title} | Binder Tracker`,
+    description,
+    url,
+    ogTitle: headline,
+    ogDescription: description,
+    twitterDescription: description,
+    ogImage,
+    imageAlt: `${guide.name} release date, products and prices`,
+    jsonLd: jsonScript(jsonLd),
+    body,
+    disclaimer: game.disclaimer,
+  });
+  return prefixUrls(html, '../'.repeat(entry.id.split('/').length));
+}
+
+export async function collectionPage(id, { siteUrl = DEFAULT_URL, today = isoToday() } = {}) {
   const [template, raw, prices] = await Promise.all([readFile(join(TEMPLATES, 'collection.html'), 'utf8'), loadRaw(id), readJson(join(dataDir(id), 'prices.json'))]);
+  const entry = CONFIG.find((e) => e.id === id);
+  const launchGuide = entry?.guide ? guideSectionsHtml(entry, await sealedPrices(id), { today, sub: true, parts: ['dates', 'products', 'sources'] }) : '';
   const model = await loadModel(id, { raw });
   const game = GAMES[raw.game];
   const url = `${siteUrl}${id}/`;
@@ -164,7 +320,7 @@ export async function collectionPage(id, { siteUrl = DEFAULT_URL } = {}) {
     name: raw.name,
     aboutTitle: raw.about?.title || `About the ${raw.name} set`,
     aboutHtml: (raw.about?.paragraphs || []).map((p) => `<p>${p}</p>`).join('\n  '),
-    setGuide: setGuideHtml(model, prices),
+    setGuide: [setGuideHtml(model, prices), launchGuide].filter(Boolean).join('\n  '),
     robots: model.cards.length ? 'index, follow, max-image-preview:large' : 'noindex',
     disclaimer: game.disclaimer,
     setArt: (await exists(join(PUBLIC, `img/sets/${id}/logo.webp`))) ? `<img class="set-hero__logo" src="img/sets/${id}/logo.webp" alt="" decoding="async">` : '',
@@ -216,14 +372,32 @@ function tileHtml(c, value) {
     + '</span></a>';
 }
 
+function soonTileHtml({ entry, logo }, today) {
+  const { guide } = entry;
+  const name = escapeHtml(guide.name);
+  const out = isOut(guide, today);
+  const search = [guide.name, entry.syncKey, entry.series, entry.slug.replace(/-/g, ' '), 'coming soon'].join(' ');
+  const art = logo
+    ? `<img class="set-tile__logo" src="${logo}" alt="" loading="lazy" decoding="async">`
+    : `<span class="set-tile__wordmark">${name}</span>`;
+  return `<a class="set-tile set-tile--soon" href="${entry.id}/" data-search="${escapeHtml(search)}">`
+    + `<span class="set-tile__art">${art}</span>`
+    + '<span class="set-tile__body">'
+    + `<span class="set-tile__name">${name}</span>`
+    + `<span class="set-tile__meta">${out ? 'Out now' : `Out ${SHORT_DATE.format(utcDate(guide.released))}`}</span>`
+    + `<span class="set-tile__soon"><span class="soon-pill">${out ? 'Checklist coming soon' : 'Coming soon'}</span></span>`
+    + '</span></a>';
+}
+
 const KIND_HEADINGS = { promo: 'Promos', energy: 'Energy' };
 const OPEN_SERIES = 2;
 
-function collectionsHtml(catalog, values = new Map()) {
+function collectionsHtml(catalog, values = new Map(), soon = [], today = isoToday()) {
   const parts = [];
   for (const game of catalog.games) {
     const sets = catalog.collections.filter((c) => c.game === game.id);
-    if (!sets.length) continue;
+    const upcoming = soon.filter((s) => s.entry.game === game.id);
+    if (!sets.length && !upcoming.length) continue;
     const title = game.logo
       ? `<img class="home-game__logo" src="${game.logo}" alt="${escapeHtml(game.name)}"><span class="home-game__tagline" aria-hidden="true">Trading Card Game</span>`
       : escapeHtml(game.name);
@@ -231,14 +405,16 @@ function collectionsHtml(catalog, values = new Map()) {
     let shown = 0;
     for (const series of game.series) {
       const inSeries = sets.filter((c) => c.series === series);
-      if (!inSeries.length) continue;
+      const soonTiles = upcoming.filter((s) => s.entry.series === series).map((s) => soonTileHtml(s, today));
+      if (!inSeries.length && !soonTiles.length) continue;
       const expansions = inSeries.filter((c) => c.kind === 'expansion');
       const main = expansions.length ? expansions : inSeries;
       const extras = expansions.length ? inSeries.filter((c) => c.kind !== 'expansion') : [];
       const open = shown++ < OPEN_SERIES;
+      const count = inSeries.length + soonTiles.length;
       parts.push(`<details class="home-series" data-series${open ? ' open data-open' : ''}>`
-        + `<summary class="home-series__head"><h3 class="home-series__title">${escapeHtml(series)}</h3><span class="home-series__count">${inSeries.length === 1 ? '1 set' : `${inSeries.length} sets`}</span></summary>`
-        + `<div class="set-grid">${main.map((c) => tileHtml(c, values.get(c.id))).join('')}</div>`
+        + `<summary class="home-series__head"><h3 class="home-series__title">${escapeHtml(series)}</h3><span class="home-series__count">${count === 1 ? '1 set' : `${count} sets`}</span></summary>`
+        + `<div class="set-grid">${soonTiles.join('')}${main.map((c) => tileHtml(c, values.get(c.id))).join('')}</div>`
         + (extras.length ? `<h4 class="home-series__sub">${[...new Set(extras.map((c) => KIND_HEADINGS[c.kind] || 'More'))].join(' &amp; ')}</h4><div class="set-grid set-grid--small">${extras.map((c) => tileHtml(c, values.get(c.id))).join('')}</div>` : '')
         + '</details>');
     }
@@ -247,10 +423,14 @@ function collectionsHtml(catalog, values = new Map()) {
   return parts.join('\n');
 }
 
-export async function homePage({ siteUrl = DEFAULT_URL } = {}) {
+export async function homePage({ siteUrl = DEFAULT_URL, today = isoToday() } = {}) {
   const [template, catalog] = await Promise.all([readFile(join(TEMPLATES, 'index.html'), 'utf8'), loadCatalog()]);
   const setCount = catalog.collections.filter((c) => c.kind === 'expansion').length;
-  return fill(template, { collections: collectionsHtml(catalog, await setValues(catalog)), setCount }).split(DEFAULT_URL).join(siteUrl);
+  const soon = await Promise.all(COMING_SOON.map(async (entry) => {
+    const logo = `img/sets/${entry.id}/logo.webp`;
+    return { entry, logo: (await exists(join(PUBLIC, logo))) ? logo : null };
+  }));
+  return fill(template, { collections: collectionsHtml(catalog, await setValues(catalog), soon, today), setCount }).split(DEFAULT_URL).join(siteUrl);
 }
 
 export async function portfolioPage({ siteUrl = DEFAULT_URL } = {}) {
@@ -278,8 +458,13 @@ async function docUpdated(file) {
 
 export async function sitemap({ siteUrl = DEFAULT_URL, today = new Date().toISOString().slice(0, 10) } = {}) {
   const catalog = await loadCatalog();
+  const soon = await Promise.all(COMING_SOON.map(async (entry) => {
+    const sealed = await sealedPrices(entry.id);
+    return [`${entry.id}/`, 'weekly', '0.9', [entry.guide.updated, sealed?.updated].filter(Boolean).sort().at(-1)];
+  }));
   const urls = [
     ['', 'weekly', '1.0', today],
+    ...soon,
     ...catalog.collections.filter((c) => c.total > 0).map((c) => [`${c.id}/`, 'weekly', '0.9', today]),
     ['privacy.html', 'yearly', '0.3', await docUpdated('privacy.html')],
     ['terms.html', 'yearly', '0.3', await docUpdated('terms.html')],

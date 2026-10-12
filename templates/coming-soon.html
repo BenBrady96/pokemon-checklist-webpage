@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self';">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>{{title}}</title>
+  <meta name="description" content="{{description}}">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <link rel="canonical" href="{{url}}">
+  <meta name="theme-color" content="#F7F7F8" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0B0B0D" media="(prefers-color-scheme: dark)">
+  <meta name="color-scheme" content="light dark">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Binder Tracker">
+  <meta property="og:title" content="{{ogTitle}}">
+  <meta property="og:description" content="{{ogDescription}}">
+  <meta property="og:url" content="{{url}}">
+  <meta property="og:image" content="{{ogImage}}">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="{{imageAlt}}">
+  <meta property="og:locale" content="en_GB">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ogTitle}}">
+  <meta name="twitter:description" content="{{twitterDescription}}">
+  <meta name="twitter:image" content="{{ogImage}}">
+  <meta name="twitter:image:alt" content="{{imageAlt}}">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="img/icons/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="img/icons/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="img/icons/apple-touch-icon.png">
+  <link rel="preload" href="fonts/outfit-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/styles.css">
+  <script type="application/ld+json">{{{jsonLd}}}</script>
+  <script src="js/shared/theme-init.js"></script>
+</head>
+<body class="doc-page guide-page">
+<header class="appbar">
+  <div class="wrap appbar__inner">
+    <a class="brand" href="./">
+      <svg class="brand__mark" viewBox="0 0 512 512" aria-hidden="true">
+        <defs><linearGradient id="g-mark" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFE9A3"/><stop offset=".45" stop-color="#F2C14E"/><stop offset="1" stop-color="#C98E1E"/></linearGradient></defs>
+        <rect x="120" y="94" width="290" height="324" rx="40" fill="none" stroke="url(#g-mark)" stroke-width="22"/>
+        <path d="M92 172h56M92 256h56M92 340h56" stroke="url(#g-mark)" stroke-width="22" stroke-linecap="round"/>
+        <g fill="url(#g-mark)"><rect x="176" y="138" width="60" height="76" rx="10"/><rect x="250" y="138" width="60" height="76" rx="10"/><rect x="324" y="138" width="60" height="76" rx="10"/><rect x="176" y="226" width="60" height="76" rx="10"/><rect x="250" y="226" width="60" height="76" rx="10"/><rect x="176" y="314" width="60" height="76" rx="10"/></g>
+        <g fill="none" stroke="url(#g-mark)" stroke-width="8" opacity=".55"><rect x="328" y="230" width="52" height="68" rx="8"/><rect x="254" y="318" width="52" height="68" rx="8"/><rect x="328" y="318" width="52" height="68" rx="8"/></g>
+        <path d="M414 60 l10 26 26 10 -26 10 -10 26 -10 -26 -26 -10 26 -10z" fill="#FFE9A3"/>
+      </svg>
+      <span class="brand__title">Binder Tracker</span>
+    </a>
+    <nav class="site-nav" aria-label="Main">
+      <a href="./" title="Home"><svg viewBox="0 0 24 24" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 10.5L12 4l8 6.5"/><path d="M6 9v10.5h4.5V14h3v5.5H18V9"/></g></svg><span class="site-nav__label">Home</span></a>
+    </nav>
+    <div class="appbar__actions">
+      <a class="pf-pill" href="portfolio/"><svg viewBox="0 0 24 24" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 16.5l5.5-5.5 4 4 7.5-7.5"/><path d="M15 7.5h5.5V13"/></g></svg><span>Portfolio</span></a>
+    </div>
+  </div>
+</header>
+
+<main class="doc wrap">
+  <article class="doc__body">
+  {{{body}}}
+  </article>
+</main>
+
+<footer class="site-footer wrap">
+  <nav class="footer-links" aria-label="Site">
+    <a href="./">All sets</a>
+    <a href="privacy.html">Privacy &amp; cookies</a>
+    <a href="terms.html">Terms of use</a>
+    <a href="https://github.com/BenBrady96/pokemon-checklist-webpage" rel="noopener">Source on GitHub</a>
+  </nav>
+  <p><strong>Binder Tracker is an unofficial fan-made checklist.</strong> {{disclaimer}}</p>
+</footer>
+</body>
+</html>

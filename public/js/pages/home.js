@@ -119,7 +119,8 @@ function filterSets() {
   let shown = 0;
   for (const tile of document.querySelectorAll('#catalog .set-tile')) {
     const c = catalog.collections.find((x) => x.id === tile.dataset.id);
-    const text = ` ${normalize(`${c?.name || ''} ${c?.code || ''} ${c?.series || ''} ${c?.slug.replace(/-/g, ' ') || ''}`)} `;
+    const words = c ? `${c.name} ${c.code || ''} ${c.series || ''} ${c.slug.replace(/-/g, ' ')}` : tile.dataset.search || '';
+    const text = ` ${normalize(words)} `;
     const ok = tokens.every((t) => text.includes(` ${t}`) || text.includes(t));
     tile.hidden = !ok;
     if (ok) shown++;
