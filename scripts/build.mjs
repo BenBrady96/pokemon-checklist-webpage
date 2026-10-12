@@ -1,7 +1,8 @@
 import { access, cp, mkdir, readdir, readFile, rm, stat, writeFile } from 'node:fs/promises';
 import { dirname, join, relative, sep } from 'node:path';
 import { COMING_SOON, CONFIG } from './lib/collections.mjs';
-import { DEFAULT_URL, collectionPage, comingSoonPage, homePage, listPage, portfolioPage, sharedPage, sitemap, tradePage } from './lib/pages.mjs';
+import { GUIDES } from '../config/guides/index.mjs';
+import { DEFAULT_URL, collectionPage, comingSoonPage, guidePage, homePage, listPage, portfolioPage, sharedPage, sitemap, tradePage } from './lib/pages.mjs';
 import { PUBLIC, ROOT } from './lib/util.mjs';
 
 const OUT = join(ROOT, 'dist');
@@ -46,6 +47,7 @@ await emit('list/index.html', await listPage({ siteUrl: SITE_URL }));
 await emit('shared/index.html', await sharedPage({ siteUrl: SITE_URL }));
 for (const entry of CONFIG) await emit(`${entry.id}/index.html`, await collectionPage(entry.id, { siteUrl: SITE_URL, today: TODAY }));
 for (const entry of COMING_SOON) await emit(`${entry.id}/index.html`, await comingSoonPage(entry, { siteUrl: SITE_URL, today: TODAY }));
+for (const guide of GUIDES) await emit(`${guide.id}/index.html`, await guidePage(guide, { siteUrl: SITE_URL }));
 await emit('sitemap.xml', await sitemap({ siteUrl: SITE_URL, today: TODAY }));
 
 const swPath = join(OUT, 'sw.js');

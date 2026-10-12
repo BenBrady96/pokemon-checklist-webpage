@@ -88,6 +88,7 @@
     <symbol id="i-bolt" viewBox="0 0 24 24"><path d="M13.5 3L5.5 13.5h6L10.5 21l8-10.5h-6z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
     <symbol id="i-chart" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 20h16"/><path d="M7 16.5v-5M12 16.5V6M17 16.5v-8"/></g></symbol>
     <symbol id="i-help" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="8.5"/><path d="M9.6 9.4a2.5 2.5 0 0 1 4.8.9c0 1.7-2.4 2.2-2.4 3.7"/><circle cx="12" cy="17" r=".6" fill="currentColor"/></g></symbol>
+<symbol id="i-shield" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5l7 2.6v5.4c0 4.3-2.9 7.7-7 9-4.1-1.3-7-4.7-7-9V6.1z"/><path d="M8.8 12.2l2.2 2.2 4.2-4.4"/></g></symbol>
     <symbol id="i-undo" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 7L4.5 11.5 9 16"/><path d="M5 11.5h9.5a5 5 0 0 1 0 10H12"/></g></symbol>
     <symbol id="i-refresh" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19.5 12a7.5 7.5 0 1 1-2.2-5.3"/><path d="M19.5 4.5v4.2h-4.2"/></g></symbol>
     <symbol id="i-trash" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 7h15M9.5 7V4.8h5V7M6.5 7l.9 12.2a1.5 1.5 0 0 0 1.5 1.3h6.2a1.5 1.5 0 0 0 1.5-1.3L17.5 7"/></g></symbol>
@@ -245,7 +246,7 @@
 </div>
 
 <div class="banner" id="storage-banner" hidden role="status">
-  <div class="wrap">Your browser is blocking storage, so progress won’t be saved after you close this page. Use <b>Export</b> in the menu to keep a copy.</div>
+  <div class="wrap">Your browser is blocking storage, so progress won’t be saved after you close this page. Use <b>Export or share</b> in the menu to keep a copy.</div>
 </div>
 
 <div class="banner banner--error" id="load-error" hidden role="alert">
@@ -291,12 +292,13 @@
 
 <footer class="site-footer wrap">
   <nav class="footer-links" aria-label="Site">
+    <a href="guides/fake-pokemon-cards/">Spot fake cards</a>
     <a href="privacy.html">Privacy &amp; cookies</a>
     <a href="terms.html">Terms of use</a>
     <a href="https://github.com/BenBrady96/pokemon-checklist-webpage" rel="noopener">Source on GitHub</a>
   </nav>
   <p><strong>Binder Tracker is an unofficial fan-made checklist.</strong> {{disclaimer}}</p>
-  <p>Your collection is stored only in this browser. Back it up or move it to another device with <button type="button" class="link-btn" data-open="export">Export</button>.</p>
+  <p>Your collection is stored only in this browser. Back it up or move it to another device with <button type="button" class="link-btn" data-open="export">Export or share</button>.</p>
 </footer>
 
 <nav class="bottombar mobile-only" aria-label="Controls">
@@ -442,12 +444,13 @@
       </div>
       <div class="menu__group">
         <h3 class="menu__label">Share &amp; backup</h3>
-        <button type="button" class="menu__item" data-open="export"><svg><use href="#i-share"/></svg><span><b>Export</b><small data-last-backup>A set or your whole collection, as a link, code, QR code or file</small></span></button>
+        <button type="button" class="menu__item" data-open="export"><svg><use href="#i-share"/></svg><span><b>Export or share</b><small data-last-backup>A set or your whole collection, as a link, code, QR code or file</small></span></button>
         <button type="button" class="menu__item" data-open="import"><svg><use href="#i-download"/></svg><span><b>Import</b><small>Open a link, code, QR code or file</small></span></button>
         <button type="button" class="menu__item" data-action="save-offline" data-offline-item hidden><svg><use href="#i-offline"/></svg><span><b>Save images for offline</b><small data-offline-status>Use the checklist with no signal</small></span></button>
       </div>
       <div class="menu__group">
         <button type="button" class="menu__item" data-open="help"><svg><use href="#i-help"/></svg><span><b>Help &amp; shortcuts</b><small>Gestures, keyboard shortcuts and tips</small></span></button>
+        <a class="menu__item" href="guides/fake-pokemon-cards/"><svg><use href="#i-shield"/></svg><span><b>Spot fake cards</b><small>How to tell a real Pokémon card from a fake</small></span></a>
         <button type="button" class="menu__item menu__item--danger" data-action="reset"><svg><use href="#i-trash"/></svg><span><b>Reset this set</b><small>Unmark every card in it (you can undo)</small></span></button>
       </div>
     </div>
@@ -561,7 +564,7 @@
 <dialog class="sheet" id="dlg-export" aria-labelledby="export-title">
   <div class="sheet__inner">
     <header class="sheet__head">
-      <h2 class="sheet__title" id="export-title">Export</h2>
+      <h2 class="sheet__title" id="export-title">Export or share</h2>
       <button type="button" class="icon-btn" data-close aria-label="Close"><svg><use href="#i-close"/></svg></button>
     </header>
     <div class="sheet__body share xp">
@@ -627,7 +630,7 @@
       <button type="button" class="icon-btn" data-close aria-label="Close"><svg><use href="#i-close"/></svg></button>
     </header>
     <div class="sheet__body backup">
-      <p class="hint">Paste a link or code from <b>Export</b>, or a friend’s trade code. Older sync links and backup codes work too. You can also scan a QR code or choose a backup file.</p>
+      <p class="hint">Paste a link or code from <b>Export or share</b>, or a friend’s trade code. Older sync links and backup codes work too. You can also scan a QR code or choose a backup file.</p>
       <textarea class="textarea" id="import-code" rows="3" placeholder="Paste a link or code" spellcheck="false" autocomplete="off" autocorrect="off" autocapitalize="off" enterkeyhint="go" aria-label="Link or code" aria-describedby="import-status"></textarea>
       <p class="backup__status" id="import-status" aria-live="polite"></p>
     </div>
@@ -675,7 +678,7 @@
       <div class="scanner__guide qr-scan__guide" aria-hidden="true"></div>
       <p class="scanner__status" data-qr="status" role="status"></p>
     </div>
-    <p class="scanner__note">Point the camera at a QR code from <b>Export</b>. It’s read on your device, and nothing is uploaded or saved.</p>
+    <p class="scanner__note">Point the camera at a QR code from <b>Export or share</b>. It’s read on your device, and nothing is uploaded or saved.</p>
   </div>
 </dialog>
 
@@ -736,8 +739,12 @@
       <h3>Keeping your collection safe</h3>
       <ul>
         <li>Your collection is saved <b>only in this browser</b> on this device. Nothing is uploaded.</li>
-        <li>Use <b>Export</b> with <b>Whole collection</b> now and then to save a file or copy a link or code. <b>Import</b> on another device takes the link, code, QR code or file.</li>
+        <li>Use <b>Export or share</b> with <b>Whole collection</b> now and then to save a file or copy a link or code. <b>Import</b> on another device takes the link, code, QR code or file.</li>
         <li><b>On iPhone and iPad</b>, tap Share → <b>Add to Home Screen</b>. Safari can clear saved data for websites you haven’t visited in a while, but not for apps on your Home Screen, and the app also works offline. The app keeps its own collection, separate from Safari’s, so use <b>Import</b> to move your cards into it.</li>
+      </ul>
+      <h3>Buying and trading cards</h3>
+      <ul>
+        <li>Not sure a card is real? Read <a href="guides/fake-pokemon-cards/">how to spot fake Pokémon cards</a> before you buy or trade.</li>
       </ul>
       <p class="hint hint--small">Read the <a href="privacy.html">privacy &amp; cookie policy</a> and <a href="terms.html">terms of use</a>.</p>
     </div>

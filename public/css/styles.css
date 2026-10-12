@@ -1137,6 +1137,11 @@ a.btn { text-decoration: none; }
 .guide-sources li { scroll-margin-top: 80px; }
 .guide-sources li:target { border-radius: 6px; background: var(--theme-wash); }
 .guide-more small { color: var(--text-3); }
+.guide-page .doc__body h2[id] { scroll-margin-top: 80px; }
+.guide-toc { margin: 24px 0 8px; padding: 14px 18px; border: 1px solid var(--line); border-radius: 14px; background: var(--surface); }
+.doc__body .guide-toc h2 { margin: 0 0 6px; font-size: .85rem; color: var(--text-3); }
+.guide-toc ol { margin: 0; padding-left: 20px; columns: 2 220px; column-gap: 28px; font-size: .92rem; }
+.doc__body .guide-toc li { margin-bottom: 4px; break-inside: avoid; }
 .about .guide-dates, .about .guide-products, .about .guide-sources { max-width: 680px; font-size: .92rem; }
 @media (max-width: 639.98px) {
   .guide-products thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }

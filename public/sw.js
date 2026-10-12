@@ -19,6 +19,8 @@ const SHELL = [
   'shared/index.html',
   'privacy.html',
   'terms.html',
+  'guides/fake-pokemon-cards/',
+  'guides/fake-pokemon-cards/index.html',
   'manifest.webmanifest',
   'css/styles.css',
   'fonts/outfit-latin.woff2',

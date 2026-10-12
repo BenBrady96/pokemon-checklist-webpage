@@ -20,7 +20,7 @@ Your collection is saved in your own browser, and the site works offline once yo
 - A card scanner that recognises cards through your camera, on your device
 - Collection value and cost to complete, from TCGplayer market prices
 - Trade codes and trade lists for comparing collections with friends
-- Export and import by link, code, QR code or file, for one set, chosen sets or your whole collection
+- Export or share a set, chosen sets or your whole collection, and import one, by link, code, QR code or file
 - A page to view a collection someone sends you, or compare it side by side with your own
 - Works offline and installs to your home screen, with light and dark themes
 

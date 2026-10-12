@@ -66,8 +66,11 @@ function place(pop) {
   const invoker = invokerOf(pop);
   if (!invoker) return;
   const r = invoker.getBoundingClientRect();
+  const viewport = document.documentElement.clientWidth;
+  const width = Math.max(parseFloat(getComputedStyle(pop).minWidth) || 0, pop.offsetWidth);
+  const right = Math.max(8, Math.round(viewport - r.right));
   pop.style.top = `${Math.round(r.bottom + 8)}px`;
-  pop.style.right = `${Math.max(8, Math.round(document.documentElement.clientWidth - r.right))}px`;
+  pop.style.right = `${Math.min(right, Math.max(8, Math.floor(viewport - width - 8)))}px`;
 }
 
 const closePopovers = () => {

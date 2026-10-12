@@ -131,6 +131,7 @@
     <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
     <symbol id="i-portfolio" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 16.5l5.5-5.5 4 4 7.5-7.5"/><path d="M15 7.5h5.5V13"/></g></symbol>
     <symbol id="i-camera" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M3.5 8.5a2 2 0 0 1 2-2h2.2l1.6-2.2h5.4l1.6 2.2h2.2a2 2 0 0 1 2 2V17.5a2 2 0 0 1-2 2h-13a2 2 0 0 1-2-2z"/><circle cx="12" cy="12.8" r="3.6"/></g></symbol>
+<symbol id="i-shield" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5l7 2.6v5.4c0 4.3-2.9 7.7-7 9-4.1-1.3-7-4.7-7-9V6.1z"/><path d="M8.8 12.2l2.2 2.2 4.2-4.4"/></g></symbol>
   </defs>
 </svg>
 
@@ -203,17 +204,18 @@
   <p>Binder Tracker is a free Pokémon card checklist and collection tracker. Every English Pokémon TCG expansion from Base Set to Mega Evolution has its own checklist, with card images, rarities and TCGplayer prices, plus the Black Star promos, trainer kits, McDonald’s collections, World Championships Decks and more.</p>
   <p>Pick what you’re collecting in each set: the <b>Standard set</b> (the main set), the <b>Master set</b> (the main set plus each reverse holo and Poké Ball or Master Ball pattern) or the <b>Grand Master set</b> (every card, adding the secret rares).</p>
   <p>Scan a card with your camera to add it, count your duplicates, see what your collection is worth in pounds, dollars or euros, and swap trade codes with friends to check a trade is fair.</p>
-  <p>There are <b>no ads, no sign-up and no tracking</b>. Your collection stays on your device, it works on phones and computers even offline, and <b>Export</b> moves it to another device as a link, code, QR code or file.</p>
+  <p>There are <b>no ads, no sign-up and no tracking</b>. Your collection stays on your device, it works on phones and computers even offline, and <b>Export or share</b> moves it to another device as a link, code, QR code or file.</p>
 </section>
 
 <footer class="site-footer wrap">
   <nav class="footer-links" aria-label="Site">
+    <a href="guides/fake-pokemon-cards/">Spot fake cards</a>
     <a href="privacy.html">Privacy &amp; cookies</a>
     <a href="terms.html">Terms of use</a>
     <a href="https://github.com/BenBrady96/pokemon-checklist-webpage" rel="noopener">Source on GitHub</a>
   </nav>
   <p><strong>Binder Tracker is an unofficial fan-made checklist.</strong> Not affiliated with, endorsed, sponsored, or approved by Nintendo, Creatures Inc., GAME FREAK inc., or The Pokémon Company. Pokémon and all card images © Pokémon / Nintendo / Creatures Inc. / GAME FREAK inc.</p>
-  <p>Your collections are stored only in this browser. Back them up or move them to another device with <button type="button" class="link-btn" data-open="export">Export</button>.</p>
+  <p>Your collections are stored only in this browser. Back them up or move them to another device with <button type="button" class="link-btn" data-open="export">Export or share</button>.</p>
 </footer>
 
 <dialog class="sheet" id="dlg-menu" aria-labelledby="menu-title">
@@ -232,8 +234,11 @@
       </div>
       <div class="menu__group">
         <h3 class="menu__label">Share &amp; backup</h3>
-        <button type="button" class="menu__item" data-open="export"><svg><use href="#i-share"/></svg><span><b>Export</b><small data-last-backup>A set or your whole collection, as a link, code, QR code or file</small></span></button>
+        <button type="button" class="menu__item" data-open="export"><svg><use href="#i-share"/></svg><span><b>Export or share</b><small data-last-backup>A set or your whole collection, as a link, code, QR code or file</small></span></button>
         <button type="button" class="menu__item" data-open="import"><svg><use href="#i-download"/></svg><span><b>Import</b><small>Open a link, code, QR code or file</small></span></button>
+      </div>
+      <div class="menu__group">
+        <a class="menu__item" href="guides/fake-pokemon-cards/"><svg><use href="#i-shield"/></svg><span><b>Spot fake cards</b><small>How to tell a real Pokémon card from a fake</small></span></a>
       </div>
     </div>
   </div>
@@ -242,7 +247,7 @@
 <dialog class="sheet" id="dlg-export" aria-labelledby="export-title">
   <div class="sheet__inner">
     <header class="sheet__head">
-      <h2 class="sheet__title" id="export-title">Export</h2>
+      <h2 class="sheet__title" id="export-title">Export or share</h2>
       <button type="button" class="icon-btn" data-close aria-label="Close"><svg><use href="#i-close"/></svg></button>
     </header>
     <div class="sheet__body share xp">
@@ -307,7 +312,7 @@
       <button type="button" class="icon-btn" data-close aria-label="Close"><svg><use href="#i-close"/></svg></button>
     </header>
     <div class="sheet__body backup">
-      <p class="hint">Paste a link or code from <b>Export</b>, or a friend’s trade code. Older sync links and backup codes work too. You can also scan a QR code or choose a backup file.</p>
+      <p class="hint">Paste a link or code from <b>Export or share</b>, or a friend’s trade code. Older sync links and backup codes work too. You can also scan a QR code or choose a backup file.</p>
       <textarea class="textarea" id="import-code" rows="3" placeholder="Paste a link or code" spellcheck="false" autocomplete="off" autocorrect="off" autocapitalize="off" enterkeyhint="go" aria-label="Link or code" aria-describedby="import-status"></textarea>
       <p class="backup__status" id="import-status" aria-live="polite"></p>
     </div>
@@ -355,7 +360,7 @@
       <div class="scanner__guide qr-scan__guide" aria-hidden="true"></div>
       <p class="scanner__status" data-qr="status" role="status"></p>
     </div>
-    <p class="scanner__note">Point the camera at a QR code from <b>Export</b>. It’s read on your device, and nothing is uploaded or saved.</p>
+    <p class="scanner__note">Point the camera at a QR code from <b>Export or share</b>. It’s read on your device, and nothing is uploaded or saved.</p>
   </div>
 </dialog>
 

@@ -1,6 +1,7 @@
 import { readFile } from 'node:fs/promises';
 import { join } from 'node:path';
 import { COMING_SOON, CONFIG, GAMES, dataDir, loadCatalog, loadModel, loadRaw } from './collections.mjs';
+import { GUIDES } from '../../config/guides/index.mjs';
 import { PUBLIC, TEMPLATES, exists, readJson } from './util.mjs';
 import { TIER_DEFS } from '../../public/js/core/model.js';
 import { formatMoney, priceDate, ratesOf } from '../../public/js/core/pricing.js';
@@ -97,7 +98,7 @@ function faqHtml(model, sections) {
     const series = model.kind === 'expansion' && model.series && model.series !== 'Other' ? `, as part of the ${escapeHtml(model.series)} series` : '';
     items.push([`When did ${name} come out?`, `<p>${name} was released on ${longDate(model.released)}${series}.</p>`]);
   }
-  items.push([`Is this ${name} checklist free?`, '<p>Yes. Binder Tracker is free, with <b>no ads, no sign-up and no tracking</b>. Your collection is saved on your own device and works offline, and <b>Export</b> moves it to another device as a link, code, QR code or file.</p>']);
+  items.push([`Is this ${name} checklist free?`, '<p>Yes. Binder Tracker is free, with <b>no ads, no sign-up and no tracking</b>. Your collection is saved on your own device and works offline, and <b>Export or share</b> moves it to another device as a link, code, QR code or file.</p>']);
   return `<h3 class="about__sub">${name} FAQ</h3>${items.map(([q, a]) => `<h4 class="about__q">${q}</h4>${a}`).join('')}`;
 }
 
@@ -114,6 +115,33 @@ const SHORT_DATE = new Intl.DateTimeFormat('en-GB', { day: 'numeric', month: 'sh
 const retailPrice = (amount, currency) => new Intl.NumberFormat('en-GB', { style: 'currency', currency: currency.toUpperCase() }).format(amount);
 const sealedPrices = (id) => readJson(join(dataDir(id), 'sealed.json'));
 const isOut = (guide, today) => today >= guide.released;
+
+const sourceListHtml = (sources) => `<ol class="guide-sources">${sources.map((s) => `<li id="source-${s.id}">${escapeHtml(s.publisher)}: <a href="${escapeHtml(s.url)}" rel="noopener">${escapeHtml(s.title)}</a>${s.date ? `, ${longDate(s.date)}` : ''}</li>`).join('')}</ol>`;
+
+function articleJsonLd({ url, siteUrl, crumb, headline, description, image, published, modified }) {
+  const publisher = { '@type': 'Organization', name: 'Binder Tracker', url: siteUrl };
+  return {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'WebPage', '@id': `${url}#page`, url, name: headline, description, inLanguage: 'en-GB',
+        isPartOf: { '@id': `${siteUrl}#website` }, breadcrumb: { '@id': `${url}#breadcrumb` }, primaryImageOfPage: image,
+        datePublished: published, dateModified: modified,
+      },
+      {
+        '@type': 'BreadcrumbList', '@id': `${url}#breadcrumb`,
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'Binder Tracker', item: siteUrl },
+          { '@type': 'ListItem', position: 2, name: crumb, item: url },
+        ],
+      },
+      {
+        '@type': 'Article', '@id': `${url}#article`, headline, description, image, inLanguage: 'en-GB',
+        datePublished: published, dateModified: modified, mainEntityOfPage: { '@id': `${url}#page` }, author: publisher, publisher,
+      },
+    ],
+  };
+}
 
 function citations(guide) {
   const number = new Map(guide.sources.map((s, i) => [s.id, i + 1]));
@@ -182,7 +210,7 @@ function guideSectionsHtml(entry, sealed, { today, sub = false, parts }) {
     },
     sources: () => heading('guide-sources', 'Sources')
       + `<p class="about__note">Facts checked on ${longDate(guide.updated)}.${out ? '' : ' Details can change before release.'}</p>`
-      + `<ol class="guide-sources">${guide.sources.map((s) => `<li id="source-${s.id}">${escapeHtml(s.publisher)}: <a href="${escapeHtml(s.url)}" rel="noopener">${escapeHtml(s.title)}</a>${s.date ? `, ${longDate(s.date)}` : ''}</li>`).join('')}</ol>`,
+      + sourceListHtml(guide.sources),
   };
   return parts.map((part) => sections[part]()).filter(Boolean).join('\n  ');
 }
@@ -201,7 +229,7 @@ function moreSetsHtml(entry, catalog) {
 
 export async function comingSoonPage(entry, { siteUrl = DEFAULT_URL, today = isoToday() } = {}) {
   const { guide } = entry;
-  const [template, sealed, catalog] = await Promise.all([readFile(join(TEMPLATES, 'coming-soon.html'), 'utf8'), sealedPrices(entry.id), loadCatalog()]);
+  const [template, sealed, catalog] = await Promise.all([readFile(join(TEMPLATES, 'guide.html'), 'utf8'), sealedPrices(entry.id), loadCatalog()]);
   const game = GAMES[entry.game];
   const url = `${siteUrl}${entry.id}/`;
   const ogImage = `${siteUrl}${await ogImageFor(entry.id)}`;
@@ -213,28 +241,7 @@ export async function comingSoonPage(entry, { siteUrl = DEFAULT_URL, today = iso
   const title = seo.title || `${game.name} ${guide.name} Release Date, Products & Prices · Checklist Coming Soon`;
   const description = seo.description || `${game.name} ${guide.name} ${out ? 'came' : 'comes'} out on ${longDate(guide.released)}. Every product, what’s inside and today’s prices, plus a free checklist at launch with no ads, no sign-up and no tracking.`;
   const modified = [guide.updated, sealed?.updated].filter(Boolean).sort().at(-1);
-  const publisher = { '@type': 'Organization', name: 'Binder Tracker', url: siteUrl };
-  const jsonLd = {
-    '@context': 'https://schema.org',
-    '@graph': [
-      {
-        '@type': 'WebPage', '@id': `${url}#page`, url, name: headline, description, inLanguage: 'en-GB',
-        isPartOf: { '@id': `${siteUrl}#website` }, breadcrumb: { '@id': `${url}#breadcrumb` }, primaryImageOfPage: ogImage,
-        datePublished: guide.published, dateModified: modified,
-      },
-      {
-        '@type': 'BreadcrumbList', '@id': `${url}#breadcrumb`,
-        itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Binder Tracker', item: siteUrl },
-          { '@type': 'ListItem', position: 2, name: `${game.name} ${guide.name}`, item: url },
-        ],
-      },
-      {
-        '@type': 'Article', '@id': `${url}#article`, headline, description, image: ogImage, inLanguage: 'en-GB',
-        datePublished: guide.published, dateModified: modified, mainEntityOfPage: { '@id': `${url}#page` }, author: publisher, publisher,
-      },
-    ],
-  };
+  const jsonLd = articleJsonLd({ url, siteUrl, crumb: `${game.name} ${guide.name}`, headline, description, image: ogImage, published: guide.published, modified });
   const body = [
     `<p class="guide-kicker"><span class="soon-pill">${out ? 'Out now · checklist coming soon' : 'Checklist coming soon'}</span></p>`,
     `<h1>${name}: release date, products and prices</h1>`,
@@ -259,6 +266,47 @@ export async function comingSoonPage(entry, { siteUrl = DEFAULT_URL, today = iso
     disclaimer: game.disclaimer,
   });
   return prefixUrls(html, '../'.repeat(entry.id.split('/').length));
+}
+
+export async function guidePage(guide, { siteUrl = DEFAULT_URL } = {}) {
+  const template = await readFile(join(TEMPLATES, 'guide.html'), 'utf8');
+  const game = GAMES[guide.game];
+  const url = `${siteUrl}${guide.id}/`;
+  const ogImage = `${siteUrl}${await ogImageFor(guide.id)}`;
+  const cite = citations(guide);
+  const sections = guide.sections.map((s) => [
+    `<h2 id="${s.id}">${s.heading}</h2>`,
+    ...(s.paragraphs || []).map((p) => `<p>${cite.text(p)}</p>`),
+    s.list ? `<ul>${s.list.map((item) => `<li>${cite.text(item)}</li>`).join('')}</ul>` : '',
+  ].filter(Boolean).join('\n  '));
+  const contents = [...guide.sections.map((s) => [s.id, s.heading]), ['guide-faq', 'FAQ'], ['guide-sources', 'Sources']];
+  const body = [
+    `<h1>${guide.headline}</h1>`,
+    `<p class="doc__updated">${escapeHtml(game.name)} · Facts checked ${longDate(guide.updated)}</p>`,
+    `<p class="doc__lead">${cite.text(guide.lead)}</p>`,
+    `<nav class="guide-toc" aria-labelledby="guide-toc-title"><h2 id="guide-toc-title">On this page</h2><ol>${contents.map(([id, text]) => `<li><a href="#${id}">${text}</a></li>`).join('')}</ol></nav>`,
+    ...sections,
+    '<h2 id="guide-faq">FAQ</h2>',
+    ...guide.faq.map(({ q, a }) => `<h3 class="guide-q">${q}</h3><p>${cite.text(a)}</p>`),
+    '<h2 id="guide-sources">Sources</h2>',
+    `<p class="about__note">Facts checked on ${longDate(guide.updated)}.</p>`,
+    sourceListHtml(guide.sources),
+    '<p class="doc__back"><a class="btn btn--ghost" href="./">← Back to Binder Tracker</a></p>',
+  ].join('\n  ');
+  const html = fill(template, {
+    title: `${guide.title} | Binder Tracker`,
+    description: guide.description,
+    url,
+    ogTitle: guide.title,
+    ogDescription: guide.description,
+    twitterDescription: guide.description,
+    ogImage,
+    imageAlt: guide.title,
+    jsonLd: jsonScript(articleJsonLd({ url, siteUrl, crumb: guide.label, headline: guide.title, description: guide.description, image: ogImage, published: guide.published, modified: guide.updated })),
+    body,
+    disclaimer: game.disclaimer,
+  }).replace(`<a href="${guide.id}/">`, `<a href="${guide.id}/" aria-current="page">`);
+  return prefixUrls(html, '../'.repeat(guide.id.split('/').length));
 }
 
 export async function collectionPage(id, { siteUrl = DEFAULT_URL, today = isoToday() } = {}) {
@@ -470,6 +518,7 @@ export async function sitemap({ siteUrl = DEFAULT_URL, today = new Date().toISOS
   const urls = [
     ['', 'weekly', '1.0', today],
     ...soon,
+    ...GUIDES.map((g) => [`${g.id}/`, 'monthly', '0.8', g.updated]),
     ...catalog.collections.filter((c) => c.total > 0).map((c) => [`${c.id}/`, 'weekly', '0.9', today]),
     ['privacy.html', 'yearly', '0.3', await docUpdated('privacy.html')],
     ['terms.html', 'yearly', '0.3', await docUpdated('terms.html')],
