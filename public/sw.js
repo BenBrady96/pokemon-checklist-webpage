@@ -61,6 +61,7 @@ const SHELL = [
   'js/trade/list.js',
   'js/trade/trade-code.js',
   'js/trade/trade-data.js',
+  'js/trade/trade-guide.js',
   'js/trade/trade.js',
   'js/scan/scan-features.js',
   'js/scan/scan-match.js',

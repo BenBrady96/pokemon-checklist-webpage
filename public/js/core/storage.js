@@ -55,6 +55,7 @@ const DEFAULT_PREFS = {
   dim: true,
   theme: 'system',
   tipSeen: false,
+  tradeGuideSeen: false,
   lastBackup: 0,
   lastCollection: null,
   tiers: {},

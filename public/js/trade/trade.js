@@ -3,11 +3,12 @@ import { asset } from '../core/paths.js';
 import { normalize } from '../core/model.js';
 import * as storage from '../core/storage.js';
 import { convert, formatAmount, priceDate } from '../core/pricing.js';
-import { renderQr } from '../shared/qr.js';
+import { renderQr, scanQr } from '../shared/qr.js';
 import { initDialogs, openDialog, closeDialog, confirmAction, toast, announce, copyText, hideLoader, reducedMotion } from '../shared/ui.js';
 import { initHeader } from '../shared/header.js';
 import { initPWA, initInstallBanner } from '../shared/pwa.js';
 import { encodeTrade, encodeProposal, readTradeText, cleanName, newId, UNSUPPORTED } from './trade-code.js';
+import { initGuide, openGuide } from './trade-guide.js';
 import {
   SIDES, readTrade, saveTrade, isTradeKey, loadSets, mySide, resolveFriend, resolveProposal, standing, buildLists,
   makeValuer, totalOf, balance, qtyIn, hasLines, bump, planTrade, applyTrade, adjustFriend, pushHistory, emptyDraft,
@@ -17,15 +18,14 @@ import { count, plural, shortDate } from '../shared/format.js';
 
 const PAGE = 60;
 const TABS = [
-  { id: 'theyHave', label: 'They have, you need', friend: true, side: 'get', whose: 'theirs' },
-  { id: 'youHave', label: 'You have, they need', friend: true, side: 'give', whose: 'mine' },
-  { id: 'mySpares', label: 'Your spares', side: 'give', whose: 'mine' },
-  { id: 'myNeeds', label: 'Your needs', side: 'get', whose: null },
-  { id: 'theirSpares', label: 'Their spares', friend: true, side: 'get', whose: 'theirs' },
+  { id: 'mySpares', side: 'give', whose: 'mine', tone: 'have', label: () => 'Your spares' },
+  { id: 'myNeeds', side: 'get', whose: null, tone: 'missing', label: () => 'Your needs' },
+  { id: 'youHave', friend: true, side: 'give', whose: 'mine', tone: 'have', label: () => (state.friend?.name ? `You have, ${state.friend.name} needs` : 'You have, they need') },
+  { id: 'theyHave', friend: true, side: 'get', whose: 'theirs', tone: 'missing', label: () => (state.friend?.name ? `${state.friend.name} has, you need` : 'They have, you need') },
 ];
 const SIDE_TEXT = {
-  give: { title: 'You give', add: 'Give', empty: 'Tap Give on a card below, or scan one.' },
-  get: { title: 'You get', add: 'Get', empty: 'Tap Get on a card below, or scan one.' },
+  give: { title: 'You give', add: 'Give', empty: 'Tap Give on a card, or scan one.' },
+  get: { title: 'You get', add: 'Get', empty: 'Tap Get on a card, or scan one.' },
 };
 const CONVERTED = { gbp: 'Pound', eur: 'Euro' };
 
@@ -52,7 +52,7 @@ let ready = false;
 
 const setInfo = (id) => infoById.get(id) || { id, name: id };
 const friendName = () => state.friend?.name || 'Your friend';
-const theirName = () => state.friend?.name || 'they';
+const partnerName = () => state.friend?.name || state.draft.proposal?.from || '';
 const cardOf = (set, cardId) => sets.get(set)?.model.cardById.get(cardId) || null;
 const money = (n) => formatAmount(n, valuer.cur);
 const qtyOf = (lines) => lines.reduce((n, l) => n + l.qty, 0);
@@ -142,21 +142,16 @@ function paintMeter(fill, b) {
 function renderFriend() {
   const box = $('friend');
   const mine = Object.keys(me.sets).length;
-  const shareBtn = el('button', { type: 'button', class: `btn ${state.friend ? 'btn--ghost' : 'btn--primary'}`, 'data-tr-action': 'share', disabled: !mine }, icon('i-qr'), state.friend ? 'My code' : 'Show my trade code');
   const f = state.friend;
   if (!f) {
-    box.replaceChildren(
-      el('h2', { class: 'tr-section__title', text: 'Trade with a friend' }),
-      el('p', { class: 'tr-friend__text', text: mine
-        ? 'Swap trade codes to see what each of you has that the other needs, with prices.'
-        : 'Mark the cards you own in any set first, then swap trade codes with a friend.' }),
+    box.replaceChildren(...[
+      mine ? null : el('p', { class: 'tr-friend__text', text: 'Mark the cards you own in any set first.' }),
       el('div', { class: 'tr-friend__actions' },
-        shareBtn,
-        el('button', { type: 'button', class: 'btn btn--ghost', 'data-tr-action': 'add' }, icon('i-link'), 'Add a friend’s code')));
+        el('button', { type: 'button', class: 'btn btn--primary', 'data-tr-action': 'share', disabled: !mine }, icon('i-qr'), 'Show my code'),
+        el('button', { type: 'button', class: 'btn btn--ghost', 'data-tr-action': 'add' }, icon('i-camera'), 'Add their code')),
+    ].filter(Boolean));
     return;
   }
-  const setCount = Object.keys(f.sets).length;
-  const cards = Object.values(f.sets).reduce((n, s) => n + Object.keys(s.q).length, 0);
   const when = f.created ? `code from ${ago(f.created)}` : `added ${ago(f.received)}`;
   const initial = [...(f.name || '?')][0].toUpperCase();
   box.replaceChildren(...[
@@ -164,15 +159,12 @@ function renderFriend() {
       el('span', { class: 'tr-friend__avatar', 'aria-hidden': 'true', text: initial }),
       el('span', { class: 'tr-friend__name' },
         el('b', { text: f.name ? `Trading with ${f.name}` : 'Trading with a friend' }),
-        el('small', { text: `${plural(setCount, 'set', 'sets')} · ${plural(cards, 'card', 'cards')} · ${when}` }))),
-    el('p', { class: 'tr-friend__stats' },
-      el('span', {}, el('b', { text: count.format(lists.theyHave.length) }), ` ${lists.theyHave.length === 1 ? 'card' : 'cards'} ${f.name || 'they'} ${f.name ? 'has' : 'have'} that you need`),
-      el('span', {}, el('b', { text: count.format(lists.youHave.length) }), ` ${lists.youHave.length === 1 ? 'card' : 'cards'} you have that ${theirName()} ${f.name ? 'needs' : 'need'}`)),
+        el('small', { text: when })),
+      el('button', { type: 'button', class: 'icon-btn tr-friend__stop', 'data-tr-action': 'clear-friend', title: 'Stop comparing', 'aria-label': `Stop comparing with ${f.name || 'your friend'}` }, icon('i-close'))),
     f.unknown ? el('p', { class: 'hint hint--small', text: `${plural(f.unknown, 'of their sets isn’t', 'of their sets aren’t')} on this version of the site yet. Refresh to update.` }) : null,
     el('div', { class: 'tr-friend__actions' },
-      shareBtn,
-      el('button', { type: 'button', class: 'btn btn--ghost', 'data-tr-action': 'add' }, icon('i-link'), 'Change'),
-      el('button', { type: 'button', class: 'btn btn--ghost', 'data-tr-action': 'clear-friend' }, icon('i-close'), 'Stop comparing')),
+      el('button', { type: 'button', class: 'btn btn--ghost', 'data-tr-action': 'share', disabled: !mine }, icon('i-qr'), 'My code'),
+      el('button', { type: 'button', class: 'btn btn--ghost', 'data-tr-action': 'add' }, icon('i-camera'), 'Scan a code')),
   ].filter(Boolean));
 }
 
@@ -220,7 +212,7 @@ function stepper(side, line, card) {
 function lineRow(side, line) {
   const card = cardOf(line.set, line.card);
   const price = valuer.of(line.set, line.card);
-  const flags = card ? flagsFor(side, line, card) : [];
+  const chip = card ? flagsFor(side, line, card)[0] : null;
   const each = price.value != null
     ? (line.qty > 1 ? el('small', { text: `${money(price.value)} each` }) : null)
     : el('small', { text: price.from != null ? `Listed from ${money(price.from)}` : 'No price yet' });
@@ -229,7 +221,7 @@ function lineRow(side, line) {
     el('span', { class: 'pf-row__main' },
       el('b', { text: card ? card.name : 'Card not loaded' }),
       el('small', { text: card ? subText(line.set, card) : `${setInfo(line.set).name}. Connect to the internet to load it.` }),
-      flags.length ? el('span', { class: 'tr-flags' }, ...flags) : null),
+      chip ? el('span', { class: 'tr-flags' }, chip) : null),
     el('span', { class: 'tr-line__side' },
       el('b', { text: price.value != null ? money(price.value * line.qty) : 'n/a' }),
       each,
@@ -249,13 +241,6 @@ function renderSides() {
 function renderSummary() {
   const { give, get, b, verdict } = currentVerdict();
   const any = hasLines(state.draft);
-  $('totals').replaceChildren(...SIDES.map((side) => {
-    const t = side === 'give' ? give : get;
-    return el('div', { class: `compare__col tr-total tr-total--${side}` },
-      el('span', { class: 'compare__label', text: SIDE_TEXT[side].title }),
-      el('b', { text: money(t.value) }),
-      el('small', { text: t.cards ? `${plural(t.cards, 'card', 'cards')}${t.unpriced ? ` · ${t.unpriced} unpriced` : ''}` : 'No cards yet' }));
-  }));
 
   const meter = $('meter');
   meter.dataset.tone = verdict.tone;
@@ -280,12 +265,12 @@ function renderSummary() {
   proposal.hidden = !state.draft.proposal;
   if (state.draft.proposal) {
     const from = state.draft.proposal.from;
-    proposal.textContent = `${from ? `${from}’s` : 'A'} proposed trade. Check it, change anything you like, then complete it.`;
+    proposal.textContent = `${from ? `${from}’s` : 'A'} proposed trade. Change anything you like.`;
   }
 
   for (const button of document.querySelectorAll('[data-tr-action="complete"], [data-tr-action="send"], [data-tr-action="clear"]')) button.disabled = !any;
   document.querySelector('[data-tr-action="complete"]').disabled = !any || !storage.isStorageOk();
-  $('send-label').textContent = state.friend?.name ? `Send to ${state.friend.name}` : 'Send trade';
+  $('send-label').textContent = partnerName() ? `Send to ${partnerName()}` : 'Send trade';
 
   const dock = $('dock');
   dock.dataset.tone = verdict.tone;
@@ -295,62 +280,88 @@ function renderSummary() {
 }
 
 function availableTabs() {
-  return TABS.filter((t) => !t.friend || state.friend);
+  return TABS.filter((t) => Boolean(t.friend) === Boolean(state.friend));
 }
 
 function currentTab() {
   const tabs = availableTabs();
-  return tabs.find((t) => t.id === state.tab) || tabs.find((t) => t.id === (state.friend ? 'theyHave' : 'mySpares'));
+  return tabs.find((t) => t.id === state.tab) || tabs[state.friend ? 1 : 0];
 }
 
-function metaFor(tab, item) {
-  const model = sets.get(item.set).model;
-  const parts = [];
-  if (tab.whose === 'theirs') {
-    parts.push(flag('info', `${friendName()} has ${item.have}${item.have > 1 ? ` · ${item.have - 1} spare` : ''}`));
-    if (tab.id === 'theirSpares' && standing(me, item.set, item.card, model).need) parts.push(flag('good', 'You need this'));
-  } else if (tab.whose === 'mine') {
-    parts.push(flag('info', `You have ${item.have}${item.have > 1 ? ` · ${item.have - 1} spare` : ''}`));
-    if (tab.id === 'mySpares' && state.friend && standing(state.friend, item.set, item.card, model).need) parts.push(flag('good', `${friendName()} needs this`));
-  } else if (state.friend) {
-    const theirs = standing(state.friend, item.set, item.card, model);
-    parts.push(theirs.have ? flag('good', `${friendName()} has ${theirs.have}`) : flag('info', 'Missing'));
-  } else {
-    parts.push(flag('info', 'Missing'));
+function tabTotals(tab) {
+  let value = 0;
+  let priced = false;
+  let copies = 0;
+  for (const item of lists[tab.id]) {
+    const qty = tab.id === 'mySpares' ? item.avail : 1;
+    const price = valuer.of(item.set, item.card.id).value;
+    copies += qty;
+    if (price != null) {
+      value += price * qty;
+      priced = true;
+    }
   }
-  return parts;
+  return { value, priced, copies };
+}
+
+function tabCard(tab, current) {
+  const items = lists[tab.id];
+  const { value, priced, copies } = tabTotals(tab);
+  return el('button', {
+    type: 'button',
+    class: `lst-tab lst-tab--${tab.tone}`,
+    'aria-pressed': String(tab.id === current.id),
+    onclick() {
+      if (tab.id === current.id) return;
+      state.tab = tab.id;
+      shown = PAGE;
+      save();
+      renderBrowse();
+    },
+  },
+  el('span', { class: 'lst-tab__label', text: tab.label() }),
+  el('b', { class: 'lst-tab__count', text: plural(items.length, 'card', 'cards') }),
+  copies > items.length ? el('small', { class: 'lst-tab__note', text: plural(copies, 'copy', 'copies') }) : null,
+  priced ? el('span', { class: 'lst-tab__value' }, el('b', { text: money(value) }), ' market value') : null);
+}
+
+function chipFor(tab, item) {
+  const model = sets.get(item.set).model;
+  if (tab.whose === 'mine') {
+    if (item.have === 1) return flag('warn', 'Your only copy');
+    if (tab.id === 'mySpares' && state.friend && standing(state.friend, item.set, item.card, model).need) return flag('good', `${friendName()} needs this`);
+    return flag('info', `You have ${item.have} · ${item.have - 1} spare`);
+  }
+  if (tab.whose === 'theirs') {
+    if (item.have === 1) return flag('warn', 'Their only copy');
+    return flag('info', `${friendName()} has ${item.have} · ${item.have - 1} spare`);
+  }
+  if (!state.friend) return null;
+  const theirs = standing(state.friend, item.set, item.card, model);
+  return theirs.have ? flag('good', `${friendName()} has ${theirs.have}`) : null;
 }
 
 function pickRow(tab, item) {
   const { set, card } = item;
   const price = valuer.of(set, card.id);
   const inTrade = qtyIn(state.draft, tab.side, set, card.id);
+  const verb = SIDE_TEXT[tab.side].add;
+  const chip = chipFor(tab, item);
   return el('li', { class: 'tr-pick' },
     thumb(set, card),
     el('span', { class: 'pf-row__main' },
       el('b', { text: card.name }),
       el('small', { text: subText(set, card) }),
-      el('span', { class: 'tr-flags' }, ...metaFor(tab, item), inTrade ? flag('in', `${inTrade} in trade`) : null)),
+      chip ? el('span', { class: 'tr-flags' }, chip) : null),
     el('span', { class: 'tr-pick__side' },
       el('b', { text: price.value != null ? money(price.value) : 'n/a' }),
       el('button', {
         type: 'button',
         class: `btn btn--sm ${inTrade ? 'btn--primary' : 'btn--ghost'}`,
         'data-key': `pick|${tab.side}|${set}|${card.id}`,
-        'aria-label': `${SIDE_TEXT[tab.side].add} ${cardName(card)}`,
+        'aria-label': `${verb} ${cardName(card)}${inTrade ? `, ${inTrade} in the trade` : ''}`,
         onclick: () => change(tab.side, set, card.id, 1, { speak: true }),
-      }, icon('i-plus'), SIDE_TEXT[tab.side].add)));
-}
-
-function browseHint(tab) {
-  const name = friendName();
-  switch (tab.id) {
-    case 'theyHave': return `Cards ${name} has spare that are missing from the sets you’re collecting.`;
-    case 'youHave': return `Your spare cards that ${state.friend?.name || 'your friend'} is missing.`;
-    case 'mySpares': return state.singles.mine ? 'Every card you have, including your only copies.' : 'Copies beyond your first of each card.';
-    case 'myNeeds': return 'Cards missing from the sets you’re collecting, up to the goal you’ve set for each.';
-    default: return `Every card ${name} has spare, including sets you haven’t started.`;
-  }
+      }, icon('i-plus'), inTrade ? `${verb} · ${inTrade}` : verb)));
 }
 
 function emptyText(tab) {
@@ -359,17 +370,15 @@ function emptyText(tab) {
   const started = Object.keys(me.sets).length > 0;
   switch (tab.id) {
     case 'theyHave':
-      if (!started) return 'You haven’t started any sets yet, so nothing shows as needed. Try Their spares.';
+      if (!started) return 'You haven’t started any sets yet, so nothing shows as needed.';
       return state.singles.theirs ? `${name} has nothing you’re missing.` : `${name} has no spares of anything you’re missing. Turn on Include their single copies to see cards they only have one of.`;
     case 'youHave':
       return state.singles.mine ? `You have nothing ${name} is missing.` : `You have no spares of anything ${name} is missing. Turn on Include your single copies to offer cards you only have one of.`;
     case 'mySpares':
       if (!started) return 'Mark the cards you own in any set, or scan them, and your spares show here.';
       return state.singles.mine ? 'You haven’t marked any cards yet.' : 'You don’t have any spare copies yet. Spares are copies beyond your first.';
-    case 'myNeeds':
-      return started ? 'You’re not missing anything in the sets you’re collecting.' : 'Start collecting a set and the cards you’re missing show here.';
     default:
-      return `${name} has no spare copies.`;
+      return started ? 'You’re not missing anything in the sets you’re collecting.' : 'Start collecting a set and the cards you’re missing show here.';
   }
 }
 
@@ -393,17 +402,7 @@ function filtered(tab) {
 
 function renderBrowse() {
   const tab = currentTab();
-  $('tabs').replaceChildren(...availableTabs().map((t) => el('button', {
-    type: 'button',
-    class: 'seg__btn',
-    'aria-pressed': String(t.id === tab.id),
-    onclick() {
-      state.tab = t.id;
-      shown = PAGE;
-      save();
-      renderBrowse();
-    },
-  }, t.label, el('small', { class: 'tr-tabs__count', text: count.format(lists[t.id].length) }))));
+  $('tabs').replaceChildren(...availableTabs().map((t) => tabCard(t, tab)));
   for (const b of $('sort').querySelectorAll('[data-sort]')) b.setAttribute('aria-pressed', String(b.dataset.sort === state.sort));
 
   const row = $('singles-row');
@@ -414,7 +413,6 @@ function renderBrowse() {
     $('singles-hint').textContent = theirs ? `Show cards ${state.friend?.name || 'they'} only ${state.friend?.name ? 'has' : 'have'} one of` : 'Offer cards you only have one of';
     $('singles').setAttribute('aria-checked', String(state.singles[tab.whose]));
   }
-  $('browse-hint').textContent = browseHint(tab);
 
   const items = filtered(tab);
   const list = $('browse');
@@ -497,7 +495,7 @@ function renderNote() {
   const parts = [];
   if (valuer.updated) parts.push(`Market prices from TCGplayer, updated ${priceDate(valuer.updated)}.`);
   if (CONVERTED[valuer.cur]) parts.push(`${CONVERTED[valuer.cur]} values are converted from US dollars, so they’re approximate.`);
-  parts.push('Prices don’t account for condition, so agree the final values with the person you’re trading with. Your trade, your friend’s code and your past trades are saved on this device only.');
+  parts.push('Condition isn’t counted, so agree the final values together.');
   $('note').textContent = parts.join(' ');
 }
 
@@ -528,43 +526,70 @@ function change(side, set, cardId, delta, { speak = false } = {}) {
 
 const shareDlg = document.getElementById('dlg-trade-share');
 const shareField = (name) => shareDlg.querySelector(`[data-share="${name}"]`);
+const shareAction = (name) => shareDlg.querySelector(`[data-share-action="${name}"]`);
 let shareRun = 0;
+let picked = new Set();
 
 function byCatalog(a, b) {
   return (orderById.get(a) ?? 1e9) - (orderById.get(b) ?? 1e9);
 }
 
+const cardsIn = (id) => Object.keys(me.sets[id].q).length;
+const shareable = () => Object.keys(me.sets).filter((id) => sets.has(id) && cardsIn(id)).sort(byCatalog);
+const pickedIds = () => shareable().filter((id) => picked.has(id));
+
+function showSharePanel(name) {
+  for (const panel of shareDlg.querySelectorAll('[data-share-panel]')) panel.hidden = panel.dataset.sharePanel !== name;
+}
+
+function renderPicker() {
+  const ids = shareable();
+  shareField('sets').replaceChildren(...ids.map((id) => {
+    const info = setInfo(id);
+    return el('li', {}, el('label', { class: 'rcv-set tr-picker__set' },
+      el('input', {
+        type: 'checkbox',
+        checked: picked.has(id),
+        onchange(e) {
+          if (e.target.checked) picked.add(id);
+          else picked.delete(id);
+          paintPicker();
+        },
+      }),
+      info.logo
+        ? el('img', { class: 'tr-picker__logo', src: asset(info.logo), alt: '', loading: 'lazy', decoding: 'async' })
+        : el('span', { class: 'tr-picker__logo', 'aria-hidden': 'true' }),
+      el('span', { class: 'rcv-set__main' },
+        el('b', { text: info.name }),
+        el('small', { text: plural(cardsIn(id), 'card', 'cards') }))));
+  }));
+  const empty = shareField('sets-empty');
+  empty.hidden = ids.length > 0;
+  empty.textContent = ids.length ? '' : 'Couldn’t load your sets. Check your connection and try again.';
+  shareDlg.querySelector('.tr-picker__head').hidden = !ids.length;
+  paintPicker();
+}
+
+function paintPicker() {
+  shareAction('show').disabled = !pickedIds().length;
+}
+
 async function renderShare() {
   const run = ++shareRun;
-  const ids = Object.keys(me.sets).filter((id) => sets.has(id)).sort(byCatalog);
-  const included = ids.filter((id) => !state.shareExclude.includes(id));
-  const box = shareField('sets-box');
-  box.hidden = ids.length < 2;
-  shareField('sets-title').textContent = `Sets in your code (${count.format(included.length)} of ${count.format(ids.length)})`;
-  shareField('sets').replaceChildren(...ids.map((id) => el('button', {
-    type: 'button',
-    class: 'chip',
-    'aria-pressed': String(included.includes(id)),
-    onclick() {
-      state.shareExclude = included.includes(id) ? [...state.shareExclude, id] : state.shareExclude.filter((x) => x !== id);
-      save();
-      renderShare();
-    },
-  }, setInfo(id).name)));
+  const ids = pickedIds();
+  if (!ids.length) {
+    showSharePanel('pick');
+    renderPicker();
+    return;
+  }
+  const cards = ids.reduce((n, id) => n + cardsIn(id), 0);
+  shareField('summary').textContent = `${ids.length === 1 ? setInfo(ids[0]).name : plural(ids.length, 'set', 'sets')} · ${plural(cards, 'card', 'cards')}`;
   const qr = shareField('qr');
   const note = shareField('qr-note');
   const url = shareField('url');
-  if (!included.length) {
-    qr.hidden = true;
-    qr.replaceChildren();
-    url.value = '';
-    note.hidden = false;
-    note.textContent = 'Choose at least one set to put in your code.';
-    return;
-  }
   const code = await encodeTrade({
     name: state.name,
-    sets: included.map((id) => ({ model: sets.get(id).model, counts: me.sets[id].q, tier: sets.get(id).model.getTier(me.sets[id].tier).id })),
+    sets: ids.map((id) => ({ model: sets.get(id).model, counts: me.sets[id].q, tier: sets.get(id).model.getTier(me.sets[id].tier).id })),
   });
   if (run !== shareRun) return;
   url.value = `${asset('trade/')}#t=${code}`;
@@ -572,20 +597,41 @@ async function renderShare() {
   if (run !== shareRun) return;
   qr.hidden = result === 'big';
   note.hidden = result !== 'big';
-  note.textContent = result === 'big'
-    ? 'Your collection is too big for one QR code. Copy or share the link instead, or choose fewer sets below. You can also scan their code, then send them the trade.'
-    : '';
-  if (result === 'big' && ids.length > 1) box.open = true;
+  note.textContent = result === 'big' ? 'Too much for one QR code. Copy the link instead, or choose fewer sets.' : '';
+}
+
+function showCode() {
+  if (!pickedIds().length) return;
+  shareField('qr').replaceChildren();
+  shareField('qr').hidden = false;
+  shareField('qr-note').hidden = true;
+  shareField('url').value = '';
+  showSharePanel('code');
+  shareAction('copy').focus({ preventScroll: true });
+  renderShare();
+}
+
+function backToPicker() {
+  shareRun++;
+  showSharePanel('pick');
+  renderPicker();
+  shareAction('show').focus({ preventScroll: true });
+}
+
+function pickAll(on) {
+  picked = new Set(on ? shareable() : []);
+  renderPicker();
 }
 
 function openShare() {
   if (!Object.keys(me.sets).length) return;
+  picked = new Set();
+  shareRun++;
   shareField('name').value = state.name;
-  shareDlg.querySelector('[data-share-action="share"]').hidden = typeof navigator.share !== 'function';
-  shareField('qr').replaceChildren();
-  shareField('url').value = '';
+  shareAction('share').hidden = typeof navigator.share !== 'function';
+  showSharePanel('pick');
+  renderPicker();
   openDialog(shareDlg);
-  renderShare();
 }
 
 const addDlg = document.getElementById('dlg-trade-add');
@@ -621,6 +667,16 @@ async function validateAdd() {
   submit.textContent = addDecoded?.kind === 'proposal' ? 'Open trade' : 'Compare';
 }
 
+async function scanCode() {
+  const text = await scanQr({ accept: async (value) => Boolean(await readTradeText(value)) });
+  if (!text) {
+    openDialog(addDlg);
+    return;
+  }
+  addField('code').value = '';
+  openIncoming(await readTradeText(text));
+}
+
 const sendDlg = document.getElementById('dlg-trade-send');
 const sendField = (name) => sendDlg.querySelector(`[data-send="${name}"]`);
 let sendRun = 0;
@@ -647,8 +703,7 @@ function openSend() {
   if (!hasLines(state.draft)) return;
   state.draft.id ||= newId();
   save();
-  const who = state.friend?.name;
-  sendField('hint').textContent = `${who || 'Your friend'} scans this to see the same trade from their side. They can change it and complete it there.`;
+  sendField('hint').replaceChildren(`${partnerName() || 'Your friend'} scans this to open the same trade on their phone, then taps `, el('b', { text: 'Update my collection' }), ' there.');
   sendField('name').value = state.name;
   sendDlg.querySelector('[data-send-action="share"]').hidden = typeof navigator.share !== 'function';
   sendField('qr').replaceChildren();
@@ -755,6 +810,38 @@ function refreshAll() {
   });
 }
 
+const doneDlg = document.getElementById('dlg-trade-complete');
+const doneField = (name) => doneDlg.querySelector(`[data-done="${name}"]`);
+
+function confirmComplete(notes) {
+  const who = partnerName();
+  doneField('text').replaceChildren(
+    'This changes your cards on ',
+    el('b', { text: 'this device only' }),
+    `. If ${who || 'the person you’re trading with'} uses Binder Tracker, they need to update theirs on their own phone too, so send them the trade.`,
+  );
+  const list = doneField('notes');
+  list.hidden = !notes.length;
+  list.replaceChildren(...notes.map((text) => el('li', { text })));
+  doneField('send-label').textContent = who ? `Send to ${who}` : 'Send trade';
+  return new Promise((resolve) => {
+    let answer = null;
+    const onClick = (e) => {
+      const btn = e.target.closest('[data-done="yes"], [data-done="send"]');
+      if (!btn) return;
+      answer = btn.dataset.done;
+      closeDialog(doneDlg);
+    };
+    doneDlg.addEventListener('click', onClick);
+    doneDlg.addEventListener('close', () => {
+      doneDlg.removeEventListener('click', onClick);
+      resolve(answer);
+    }, { once: true });
+    openDialog(doneDlg);
+    doneField('yes').focus({ preventScroll: true });
+  });
+}
+
 async function complete() {
   if (!hasLines(state.draft) || !storage.isStorageOk()) return;
   await ensureLoaded();
@@ -763,10 +850,15 @@ async function complete() {
   if (plan.missing.length) notes.push(`${plural(qtyOf(plan.missing), 'card', 'cards')} you’re giving ${qtyOf(plan.missing) === 1 ? 'isn’t' : 'aren’t'} in your collection, so ${qtyOf(plan.missing) === 1 ? 'its count stays' : 'their counts stay'} at 0.`);
   if (plan.capped.length) notes.push(`Some cards you’re getting would go past ${storage.MAX_QTY} copies, the most this site counts.`);
   const done = state.draft.id && state.history.find((h) => h.id === state.draft.id);
-  if (done) notes.push(`You already completed this trade on ${shortDate(done.at)}.`);
-  if (notes.length && !(await confirmAction({ title: 'Complete this trade?', text: notes.join(' '), confirmLabel: 'Complete trade' }))) return;
+  if (done) notes.push(`You already updated your collection with this trade on ${shortDate(done.at)}.`);
+  const answer = await confirmComplete(notes);
+  if (answer === 'send') {
+    openSend();
+    return;
+  }
+  if (answer !== 'yes' || !hasLines(state.draft)) return;
   const before = snapshot();
-  const result = applyTrade(plan);
+  const result = applyTrade(planTrade(state.draft, sets));
   if (!storage.isStorageOk()) {
     result.undo();
     toast('Couldn’t save. Your browser may be blocking storage.');
@@ -780,7 +872,7 @@ async function complete() {
   save();
   storage.requestPersistence();
   await refreshAll();
-  toast(`Trade complete. You gave ${plural(gave, 'card', 'cards')} and got ${plural(got, 'card', 'cards')}.`, {
+  toast(`Collection updated. You gave ${plural(gave, 'card', 'cards')} and got ${plural(got, 'card', 'cards')}.`, {
     icon: 'i-check',
     timeout: 10000,
     action: {
@@ -932,6 +1024,7 @@ const actions = {
   complete,
   send: openSend,
   clear: clearDraft,
+  guide: openGuide,
   'to-summary': () => scrollToId('tr-summary-title'),
 };
 
@@ -974,8 +1067,12 @@ function wire() {
     renderShare();
   }, 300);
   shareField('name').addEventListener('input', renameShare);
-  shareDlg.querySelector('[data-share-action="copy"]').addEventListener('click', () => copyLink(shareField('url'), 'Link copied. Send it to your friend.'));
-  shareDlg.querySelector('[data-share-action="share"]').addEventListener('click', () => share(shareField('url').value, 'My trade code'));
+  shareAction('all').addEventListener('click', () => pickAll(true));
+  shareAction('none').addEventListener('click', () => pickAll(false));
+  shareAction('show').addEventListener('click', showCode);
+  shareAction('back').addEventListener('click', backToPicker);
+  shareAction('copy').addEventListener('click', () => copyLink(shareField('url'), 'Link copied. Send it to your friend.'));
+  shareAction('share').addEventListener('click', () => share(shareField('url').value, 'My trade code'));
 
   const renameSend = debounce(() => {
     state.name = cleanName(sendField('name').value);
@@ -1000,9 +1097,10 @@ function wire() {
     closeDialog(addDlg);
     openIncoming(decoded);
   });
+  addField('scan').addEventListener('click', scanCode);
   addDlg.addEventListener('dialog:open', () => {
     validateAdd();
-    setTimeout(() => addField('code').focus(), 60);
+    setTimeout(() => addField('scan').focus({ preventScroll: true }), 60);
   });
 
   storage.onPrefChange((key) => {
@@ -1033,6 +1131,7 @@ async function init() {
   if (!storage.isStorageOk()) document.getElementById('storage-banner').hidden = false;
   initInstallBanner();
   wire();
+  initGuide();
   try {
     catalog = await loadCatalog();
   } catch {
@@ -1045,6 +1144,7 @@ async function init() {
   render();
   hideLoader();
   initPWA();
+  if (!storage.getPrefs().tradeGuideSeen) await openGuide();
   await checkHash();
 }
 

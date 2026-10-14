@@ -88,7 +88,7 @@ export function initDialogs() {
     dlg.addEventListener('close', () => {
       const viaHistory = dlg.dataset.viaHistory === '1';
       delete dlg.dataset.viaHistory;
-      queueMicrotask(() => {
+      setTimeout(() => {
         if (!viaHistory && !openDialogs().length) disarmHistory();
       });
     });

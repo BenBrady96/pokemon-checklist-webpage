@@ -65,6 +65,7 @@
     <symbol id="i-camera" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M3.5 8.5a2 2 0 0 1 2-2h2.2l1.6-2.2h5.4l1.6 2.2h2.2a2 2 0 0 1 2 2V17.5a2 2 0 0 1-2 2h-13a2 2 0 0 1-2-2z"/><circle cx="12" cy="12.8" r="3.6"/></g></symbol>
     <symbol id="i-trash" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 7h15M9.5 7V4.8h5V7M6.5 7l.9 12.2a1.5 1.5 0 0 0 1.5 1.3h6.2a1.5 1.5 0 0 0 1.5-1.3L17.5 7"/></g></symbol>
     <symbol id="i-link" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l2.8-2.8a4.5 4.5 0 0 0-6.4-6.4L11.5 6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-2.8 2.8a4.5 4.5 0 0 0 6.4 6.4l1.3-1.2"/></g></symbol>
+    <symbol id="i-scale" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v17M8 20.5h8M4.5 7h15"/><path d="M4.5 7L2 13.5h5zM2 13.5a2.5 2.5 0 0 0 5 0"/><path d="M19.5 7L17 13.5h5zM17 13.5a2.5 2.5 0 0 0 5 0"/></g></symbol>
     <symbol id="i-qr" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><rect x="4" y="4" width="6" height="6" rx="1"/><rect x="14" y="4" width="6" height="6" rx="1"/><rect x="4" y="14" width="6" height="6" rx="1"/></g><g fill="currentColor"><rect x="13.5" y="13.5" width="3" height="3" rx=".6"/><rect x="17.5" y="17.5" width="3" height="3" rx=".6"/><rect x="17.5" y="13.5" width="3" height="3" rx=".6"/><rect x="13.5" y="17.5" width="3" height="3" rx=".6"/></g></symbol>
   </defs>
 </svg>
@@ -82,9 +83,6 @@
       <a href="trade/" aria-current="page"><svg aria-hidden="true"><use href="#i-swap"/></svg><span class="site-nav__label">Trade</span></a>
     </nav>
     <div class="appbar__actions">
-      <span class="appbar__tools desktop-only">
-        <button class="icon-btn icon-btn--header" type="button" data-tr-action="scan" title="Scan cards into this trade" aria-label="Scan cards into this trade"><svg><use href="#i-camera"/></svg></button>
-      </span>
       <button class="icon-btn icon-btn--header" type="button" popovertarget="pop-theme" title="Theme" aria-label="Theme"><svg data-theme-icon><use href="#i-monitor"/></svg></button>
       <button class="hdr-btn" type="button" popovertarget="pop-currency" title="Currency" aria-label="Currency"><span data-currency-label>£ GBP</span><svg class="hdr-btn__caret" aria-hidden="true"><use href="#i-caret"/></svg></button>
       <a class="pf-pill" href="./" data-back><svg aria-hidden="true"><use href="#i-arrow-left"/></svg><span>Back</span></a>
@@ -112,17 +110,35 @@
 <main id="trade" class="trade wrap" tabindex="-1">
   <section class="tr-hero" aria-labelledby="tr-title">
     <h1 class="tr-hero__title" id="tr-title">Trade</h1>
-    <p class="tr-hero__text">Compare collections with a friend and check a trade is fair.</p>
+    <button type="button" class="link-btn tr-hero__guide" data-tr-action="guide">How it works</button>
   </section>
 
   <div class="tr-layout">
     <div class="tr-aside">
-      <section class="tr-friend" data-tr="friend" aria-label="Who you’re trading with"></section>
+      <section class="tr-step tr-friend" aria-labelledby="tr-friend-title">
+        <h2 class="tr-section__title" id="tr-friend-title"><span class="tr-step__num" aria-hidden="true">1</span>Swap trade codes</h2>
+        <div class="tr-friend__body" data-tr="friend"></div>
+      </section>
 
-      <section class="tr-summary" data-tr="summary" aria-labelledby="tr-summary-title">
-        <h2 class="tr-section__title" id="tr-summary-title">Is it fair?</h2>
+      <section class="tr-step tr-summary" data-tr="summary" aria-labelledby="tr-summary-title">
+        <h2 class="tr-section__title" id="tr-summary-title"><span class="tr-step__num" aria-hidden="true">3</span>Your trade</h2>
         <p class="tr-proposal" data-tr="proposal" hidden></p>
-        <div class="compare tr-totals" data-tr="totals"></div>
+        <div class="tr-sides">
+          <section class="tr-side tr-side--give" aria-labelledby="tr-give-title">
+            <header class="tr-side__head">
+              <h3 class="tr-side__title" id="tr-give-title"><svg aria-hidden="true"><use href="#i-upload"/></svg>You give</h3>
+              <b class="tr-side__total" data-tr="give-total"></b>
+            </header>
+            <ul class="pf-list tr-lines" data-tr="give"></ul>
+          </section>
+          <section class="tr-side tr-side--get" aria-labelledby="tr-get-title">
+            <header class="tr-side__head">
+              <h3 class="tr-side__title" id="tr-get-title"><svg aria-hidden="true"><use href="#i-download"/></svg>You get</h3>
+              <b class="tr-side__total" data-tr="get-total"></b>
+            </header>
+            <ul class="pf-list tr-lines" data-tr="get"></ul>
+          </section>
+        </div>
         <div class="tr-meter" data-tr="meter" role="img">
           <span class="tr-meter__track"><i class="tr-meter__band" data-tr="meter-band"></i><i class="tr-meter__fill" data-tr="meter-fill"></i><i class="tr-meter__knob" data-tr="meter-knob"></i></span>
           <span class="tr-meter__labels" aria-hidden="true"><span data-tr="meter-them">They’re ahead</span><span>Fair</span><span>You’re ahead</span></span>
@@ -130,7 +146,7 @@
         <p class="tr-verdict" data-tr="verdict" aria-live="polite"></p>
         <p class="tr-summary__note" data-tr="summary-note" hidden></p>
         <div class="tr-actions">
-          <button type="button" class="btn btn--primary" data-tr-action="complete"><svg><use href="#i-check"/></svg>Complete trade</button>
+          <button type="button" class="btn btn--primary" data-tr-action="complete"><svg><use href="#i-check"/></svg>Update my collection</button>
           <button type="button" class="btn btn--ghost" data-tr-action="send"><svg><use href="#i-share"/></svg><span data-tr="send-label">Send trade</span></button>
           <button type="button" class="btn btn--ghost" data-tr-action="clear"><svg><use href="#i-trash"/></svg>Clear</button>
         </div>
@@ -138,29 +154,12 @@
     </div>
 
     <div class="tr-main">
-      <div class="tr-sides">
-        <section class="tr-side tr-side--give" aria-labelledby="tr-give-title">
-          <header class="tr-side__head">
-            <h2 class="tr-section__title" id="tr-give-title"><svg aria-hidden="true"><use href="#i-upload"/></svg>You give</h2>
-            <b class="tr-side__total" data-tr="give-total"></b>
-          </header>
-          <ul class="pf-list tr-lines" data-tr="give"></ul>
-        </section>
-        <section class="tr-side tr-side--get" aria-labelledby="tr-get-title">
-          <header class="tr-side__head">
-            <h2 class="tr-section__title" id="tr-get-title"><svg aria-hidden="true"><use href="#i-download"/></svg>You get</h2>
-            <b class="tr-side__total" data-tr="get-total"></b>
-          </header>
-          <ul class="pf-list tr-lines" data-tr="get"></ul>
-        </section>
-      </div>
-
-      <section class="tr-browse" aria-labelledby="tr-browse-title">
+      <section class="tr-step tr-browse" aria-labelledby="tr-browse-title">
         <div class="tr-browse__head">
-          <h2 class="tr-section__title" id="tr-browse-title">Find cards</h2>
-          <button type="button" class="btn btn--ghost btn--sm" data-tr-action="scan"><svg><use href="#i-camera"/></svg>Scan</button>
+          <h2 class="tr-section__title" id="tr-browse-title"><span class="tr-step__num" aria-hidden="true">2</span>Pick the cards</h2>
+          <button type="button" class="btn btn--ghost btn--sm desktop-only" data-tr-action="scan"><svg><use href="#i-camera"/></svg>Scan a card</button>
         </div>
-        <div class="seg tr-tabs" role="group" aria-label="Which cards" data-tr="tabs"></div>
+        <div class="lst-tabs tr-tabs" role="group" aria-label="Which cards" data-tr="tabs"></div>
         <div class="tr-tools">
           <label class="search tr-search">
             <svg class="search__icon" aria-hidden="true"><use href="#i-search"/></svg>
@@ -175,7 +174,6 @@
           <span><b id="tr-singles-label" data-tr="singles-label">Include single copies</b><small data-tr="singles-hint">Offer cards you only have one of</small></span>
           <button type="button" class="switch" role="switch" aria-checked="false" data-tr="singles" aria-labelledby="tr-singles-label"></button>
         </div>
-        <p class="tr-browse__hint" data-tr="browse-hint"></p>
         <ul class="pf-list tr-picks" data-tr="browse"></ul>
         <button type="button" class="btn btn--ghost btn--block tr-more" data-tr="more" hidden>Show more</button>
       </section>
@@ -215,25 +213,33 @@
       <h2 class="sheet__title" id="trade-share-title">Your trade code</h2>
       <button type="button" class="icon-btn" data-close aria-label="Close"><svg><use href="#i-close"/></svg></button>
     </header>
-    <div class="sheet__body share">
-      <p class="hint">Your friend scans this with their phone camera. Their Trade page then shows what you have that they need, and what they have that you need.</p>
+    <div class="sheet__body tr-picker" data-share-panel="pick">
+      <div class="tr-picker__head">
+        <p class="tr-picker__title">Choose the sets you want to trade</p>
+        <span class="tr-picker__all">
+          <button type="button" class="link-btn" data-share-action="all">Select all</button>
+          <button type="button" class="link-btn" data-share-action="none">Select none</button>
+        </span>
+      </div>
+      <ul class="rcv-sets tr-picker__sets" data-share="sets"></ul>
+      <p class="hint" data-share="sets-empty" hidden></p>
+    </div>
+    <footer class="sheet__foot" data-share-panel="pick">
+      <button type="button" class="btn btn--primary" data-share-action="show" disabled><svg><use href="#i-qr"/></svg>Show my code</button>
+    </footer>
+    <div class="sheet__body share" data-share-panel="code" hidden>
+      <p class="tr-code-sets"><span data-share="summary"></span><button type="button" class="link-btn" data-share-action="back">Change sets</button></p>
       <label class="field tr-name">
         <span class="field__label">Your name (optional)</span>
         <input class="input" data-share="name" maxlength="24" autocomplete="nickname" placeholder="So your friend knows whose cards these are">
       </label>
       <div class="share__qr tr-qr" data-share="qr" role="img" aria-label="QR code of your trade link"></div>
       <p class="hint hint--small tr-qr__note" data-share="qr-note" hidden></p>
-      <details class="tr-sets" data-share="sets-box" hidden>
-        <summary data-share="sets-title"></summary>
-        <div class="chips" data-share="sets"></div>
-      </details>
       <div class="share__link">
         <input class="input" data-share="url" readonly aria-label="Trade link">
         <button type="button" class="btn btn--primary" data-share-action="copy"><svg><use href="#i-copy"/></svg>Copy</button>
       </div>
       <button type="button" class="btn btn--ghost btn--block" data-share-action="share" hidden><svg><use href="#i-share"/></svg>Share…</button>
-      <p class="hint hint--small">The code is a snapshot of your collection. Show a new one after you change it.</p>
-      <p class="hint hint--small">Does your friend use the Home Screen app on iPhone or iPad? Links open in Safari, not the app, so send them the link to paste into <b>Add a friend’s code</b> instead.</p>
     </div>
   </div>
 </dialog>
@@ -241,11 +247,12 @@
 <dialog class="sheet" id="dlg-trade-add" aria-labelledby="trade-add-title">
   <div class="sheet__inner">
     <header class="sheet__head">
-      <h2 class="sheet__title" id="trade-add-title">Compare with a friend</h2>
+      <h2 class="sheet__title" id="trade-add-title">Add their code</h2>
       <button type="button" class="icon-btn" data-close aria-label="Close"><svg><use href="#i-close"/></svg></button>
     </header>
     <div class="sheet__body backup">
-      <p class="hint">Paste your friend’s trade link or code. They get one by opening <b>Trade</b> and tapping <b>Show my trade code</b>. A proposed trade, or a link or code from <b>Export or share</b>, works too.</p>
+      <button type="button" class="btn btn--primary btn--block tr-add__scan" data-add="scan"><svg><use href="#i-camera"/></svg>Scan their QR code</button>
+      <p class="field__label tr-add__or">Or paste a link or code</p>
       <textarea class="textarea" data-add="code" rows="3" placeholder="Paste a trade link or code" spellcheck="false" autocomplete="off" autocorrect="off" autocapitalize="off" enterkeyhint="go" aria-label="Trade link or code" aria-describedby="trade-add-status"></textarea>
       <p class="backup__status" id="trade-add-status" data-add="status" aria-live="polite"></p>
     </div>
@@ -262,7 +269,7 @@
       <button type="button" class="icon-btn" data-close aria-label="Close"><svg><use href="#i-close"/></svg></button>
     </header>
     <div class="sheet__body share">
-      <p class="hint" data-send="hint">Your friend scans this to see the same trade from their side. They can change it and complete it there.</p>
+      <p class="hint" data-send="hint">Your friend scans this to open the same trade on their phone, then taps <b>Update my collection</b> there.</p>
       <label class="field tr-name">
         <span class="field__label">Your name (optional)</span>
         <input class="input" data-send="name" maxlength="24" autocomplete="nickname" placeholder="So your friend knows who it’s from">
@@ -273,8 +280,60 @@
         <button type="button" class="btn btn--primary" data-send-action="copy"><svg><use href="#i-copy"/></svg>Copy</button>
       </div>
       <button type="button" class="btn btn--ghost btn--block" data-send-action="share" hidden><svg><use href="#i-share"/></svg>Share…</button>
-      <p class="hint hint--small">The link holds the cards in this trade and your name. Prices are worked out on their device.</p>
     </div>
+  </div>
+</dialog>
+
+<dialog class="sheet sheet--small" id="dlg-trade-complete" aria-labelledby="trade-complete-title">
+  <div class="sheet__inner">
+    <header class="sheet__head">
+      <h2 class="sheet__title" id="trade-complete-title">Update your collection?</h2>
+      <button type="button" class="icon-btn" data-close aria-label="Cancel"><svg><use href="#i-close"/></svg></button>
+    </header>
+    <div class="sheet__body">
+      <p class="hint" data-done="text"></p>
+      <ul class="tr-done__notes" data-done="notes" hidden></ul>
+    </div>
+    <footer class="sheet__foot sheet__foot--wrap">
+      <button type="button" class="btn btn--ghost" data-done="send"><svg><use href="#i-share"/></svg><span data-done="send-label">Send trade</span></button>
+      <button type="button" class="btn btn--primary" data-done="yes"><svg><use href="#i-check"/></svg>Update my collection</button>
+    </footer>
+  </div>
+</dialog>
+
+<dialog class="sheet sheet--small" id="dlg-trade-guide" aria-labelledby="trade-guide-title">
+  <div class="sheet__inner">
+    <header class="sheet__head">
+      <h2 class="sheet__title" id="trade-guide-title">How trading works</h2>
+      <button type="button" class="icon-btn" data-close aria-label="Close the guide"><svg><use href="#i-close"/></svg></button>
+    </header>
+    <div class="sheet__body tr-guide">
+      <section class="tr-guide__slide" data-slide aria-labelledby="tr-guide-1">
+        <span class="tr-guide__icon" aria-hidden="true"><svg><use href="#i-qr"/></svg></span>
+        <h3 class="tr-guide__title" id="tr-guide-1">Swap trade codes</h3>
+        <p class="tr-guide__text">Show your code and scan your friend’s. You’ll both see what each of you has that the other needs.</p>
+      </section>
+      <section class="tr-guide__slide" data-slide aria-labelledby="tr-guide-2" hidden>
+        <span class="tr-guide__icon" aria-hidden="true"><svg><use href="#i-swap"/></svg></span>
+        <h3 class="tr-guide__title" id="tr-guide-2">Pick the cards</h3>
+        <p class="tr-guide__text">Tap <b>Give</b> or <b>Get</b> on a card to add it to the trade. You can scan a card with your camera too.</p>
+      </section>
+      <section class="tr-guide__slide" data-slide aria-labelledby="tr-guide-3" hidden>
+        <span class="tr-guide__icon" aria-hidden="true"><svg><use href="#i-scale"/></svg></span>
+        <h3 class="tr-guide__title" id="tr-guide-3">Check it’s fair</h3>
+        <p class="tr-guide__text">The meter compares TCGplayer market prices. Condition isn’t counted, so agree the final values together.</p>
+      </section>
+      <section class="tr-guide__slide" data-slide aria-labelledby="tr-guide-4" hidden>
+        <span class="tr-guide__icon" aria-hidden="true"><svg><use href="#i-check"/></svg></span>
+        <h3 class="tr-guide__title" id="tr-guide-4">Update your collections</h3>
+        <p class="tr-guide__text"><b>Update my collection</b> changes your cards on this device only. If your friend uses Binder Tracker, send them the trade so they can update theirs too.</p>
+      </section>
+      <div class="tr-guide__dots" data-guide="dots"></div>
+    </div>
+    <footer class="sheet__foot">
+      <button type="button" class="btn btn--ghost" data-guide="back">Back</button>
+      <button type="button" class="btn btn--primary" data-guide="next">Next</button>
+    </footer>
   </div>
 </dialog>
 
@@ -315,6 +374,21 @@
     <p class="sr-only" data-scan="live" aria-live="polite"></p>
   </div>
   <input type="file" accept="image/*" data-scan="file" hidden>
+</dialog>
+
+<dialog class="scanner qr-scan" id="dlg-qr" aria-labelledby="qr-title">
+  <div class="scanner__inner">
+    <div class="scanner__bar">
+      <h2 class="scanner__title" id="qr-title">Scan their QR code</h2>
+      <button type="button" class="icon-btn icon-btn--dark" data-close aria-label="Close QR scanner"><svg><use href="#i-close"/></svg></button>
+    </div>
+    <div class="scanner__stage">
+      <video class="scanner__video" data-qr="video" playsinline muted></video>
+      <div class="scanner__guide qr-scan__guide" aria-hidden="true"></div>
+      <p class="scanner__status" data-qr="status" role="status"></p>
+    </div>
+    <p class="scanner__note">Point the camera at your friend’s trade code, or a trade they sent you. It’s read on your device, and nothing is uploaded or saved.</p>
+  </div>
 </dialog>
 
 <div class="toasts" id="toasts"></div>

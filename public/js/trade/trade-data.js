@@ -8,7 +8,7 @@ import { convert, ratesOf, shownCurrency } from '../core/pricing.js';
 const KEY = 'bt:v1:trade';
 const LISTS_KEY = 'bt:v1:lists';
 const MAX_HISTORY = 50;
-const TABS = ['theyHave', 'youHave', 'mySpares', 'myNeeds', 'theirSpares'];
+const TABS = ['mySpares', 'myNeeds', 'youHave', 'theyHave'];
 export const SIDES = ['give', 'get'];
 
 export const emptyDraft = () => ({ give: [], get: [], id: null, proposal: null, updated: 0 });
@@ -71,7 +71,6 @@ export function readTrade() {
     singles: { mine: Boolean(s.singles?.mine), theirs: Boolean(s.singles?.theirs) },
     tab: TABS.includes(s.tab) ? s.tab : 'mySpares',
     sort: s.sort === 'set' ? 'set' : 'value',
-    shareExclude: Array.isArray(s.shareExclude) ? s.shareExclude.filter((id) => typeof id === 'string') : [],
     friend: cleanFriend(s.friend),
     draft: {
       give: cleanLines(draft.give),
