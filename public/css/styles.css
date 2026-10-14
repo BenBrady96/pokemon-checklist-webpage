@@ -2027,6 +2027,10 @@ label.rcv-set { cursor: pointer; }
 .tr-done__notes { display: grid; gap: 6px; margin: 4px 0 0; padding: 0; list-style: none; }
 .tr-done__notes li { padding: 10px 12px; border-radius: 10px; background: var(--theme-wash); color: var(--theme-ink); font-size: .88rem; }
 
+.sheet.tr-guide-sheet { border: 1px solid color-mix(in srgb, var(--theme) 50%, transparent); }
+@media (max-width: 899.98px) {
+  .sheet.tr-guide-sheet { border-bottom: 0; }
+}
 .tr-guide { display: grid; justify-items: center; padding-top: 16px; text-align: center; }
 .tr-guide__slide { display: grid; justify-items: center; align-content: start; gap: 10px; max-width: 360px; min-height: 230px; }
 .tr-guide__icon {
