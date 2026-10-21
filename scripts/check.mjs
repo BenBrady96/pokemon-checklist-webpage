@@ -1,9 +1,9 @@
 import { execFileSync } from 'node:child_process';
 import { createHash } from 'node:crypto';
-import { readFile } from 'node:fs/promises';
+import { readdir, readFile } from 'node:fs/promises';
 import { COMING_SOON, CONFIG, GAMES, loadModel, loadRaw, dataDir } from './lib/collections.mjs';
 import { GUIDES } from '../config/guides/index.mjs';
-import { PUBLIC, ROOT, readJson } from './lib/util.mjs';
+import { PUBLIC, ROOT, TEMPLATES, readJson } from './lib/util.mjs';
 import { join, relative, sep } from 'node:path';
 
 const element = () => ({ addEventListener() {}, append() {}, querySelector: element, querySelectorAll: () => [], setAttribute() {}, classList: { add() {}, remove() {}, toggle() {} }, style: { setProperty() {} }, dataset: {} });
@@ -58,6 +58,7 @@ for (const entry of CONFIG) {
   const raw = await loadRaw(entry.id);
   check(raw, `${entry.id}: has public/data/…/cards.json (run npm run sets)`);
   if (!raw) continue;
+  check(raw.cards.length, `${entry.id}: has at least one card, or its page is noindexed and Google reports it`);
   let model;
   try {
     model = await loadModel(entry.id, { raw });
@@ -190,6 +191,15 @@ for (const guide of GUIDES) {
   check(new Set(guide.sections.map((s) => s.id)).size === guide.sections.length && guide.sections.every((s) => s.id && s.heading && (s.paragraphs?.length || s.list?.length)), `${id}: every guide section has a unique id, a heading and some text`);
   check(guide.faq.every((f) => f.q && f.a), `${id}: every FAQ has a question and an answer`);
   checkSources(id, guide, citedIn(guide));
+}
+
+for (const dir of [PUBLIC, TEMPLATES]) {
+  for (const name of (await readdir(dir)).filter((n) => n.endsWith('.html'))) {
+    const csp = /<meta http-equiv="Content-Security-Policy" content="([^"]*)"/.exec(await readFile(join(dir, name), 'utf8'))?.[1] || '';
+    const directives = new Map(csp.split(';').map((d) => d.trim().split(/\s+/)).filter(([key]) => key).map(([key, ...sources]) => [key, sources]));
+    const sources = ['default-src', 'script-src', 'style-src'].flatMap((key) => directives.get(key) || []);
+    check(directives.has('default-src') && sources.every((s) => s.startsWith("'")), `${relative(ROOT, join(dir, name)).split(sep).join('/')}: has a Content-Security-Policy that only loads scripts and styles from the site itself`);
+  }
 }
 
 const scan = await readJson(join(PUBLIC, 'data', 'scan', 'index.json'));

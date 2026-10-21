@@ -21,7 +21,7 @@
       "id": "reverse",
       "name": "Reverse Holos",
       "short": "Reverse Holos",
-      "range": "111 cards",
+      "range": "101 cards",
       "tier": "master"
     },
     {
@@ -62,7 +62,7 @@
     "empty": "Main set cards are 1–113 (secret rares start at 114)."
   },
   "help": {
-    "tiers": "<b>Standard, Master or Grand Master:</b> pick what you’re collecting above the cards. Standard is the 113 main set cards. Master adds the 111 reverse holos. Grand Master adds the 2 secret rares and 25 Radiant Collection cards. Cards you’ve marked are kept when you switch."
+    "tiers": "<b>Standard, Master or Grand Master:</b> pick what you’re collecting above the cards. Standard is the 113 main set cards. Master adds the 101 reverse holos. Grand Master adds the 2 secret rares and 25 Radiant Collection cards. Cards you’ve marked are kept when you switch."
   },
   "info": {
     "packSections": [
@@ -85,21 +85,22 @@
     "title": "Pokémon TCG Legendary Treasures Checklist · All 140 Cards",
     "description": "Free Pokémon TCG Legendary Treasures checklist with no ads, no sign-up and no tracking. Track all 140 cards, or go further with the reverse holos, with images, copy counts, binder pages and prices.",
     "ogTitle": "Pokémon TCG Legendary Treasures Checklist",
-    "ogDescription": "Track all 140 cards in Pokémon TCG Legendary Treasures: the 113-card main set, 2 secret rares and 25 Radiant Collection cards, plus 111 reverse holos. Free, with no ads, no sign-up and no tracking.",
+    "ogDescription": "Track all 140 cards in Pokémon TCG Legendary Treasures: the 113-card main set, 2 secret rares and 25 Radiant Collection cards, plus 101 reverse holos. Free, with no ads, no sign-up and no tracking.",
     "twitterDescription": "Track all 140 cards in Pokémon TCG Legendary Treasures. Free, with no ads, no sign-up and no tracking."
   },
   "about": {
     "title": "About the Legendary Treasures set",
     "paragraphs": [
-      "Pokémon TCG: Legendary Treasures is a Black & White expansion released on 6 November 2013. It has 140 cards: 113 in the main set, 2 secret rares and 25 Radiant Collection cards. There are also 111 reverse holos.",
-      "Choose what you’re collecting: the <b>Standard set</b> (the 113 main set cards), the <b>Master set</b> (224 cards, adding the reverse holos) or the <b>Grand Master set</b> (all 251 cards, adding the 2 secret rares and 25 Radiant Collection cards).",
+      "Pokémon TCG: Legendary Treasures is a Black & White expansion released on 6 November 2013. It has 140 cards: 113 in the main set, 2 secret rares and 25 Radiant Collection cards. There are also 101 reverse holos.",
+      "Choose what you’re collecting: the <b>Standard set</b> (the 113 main set cards), the <b>Master set</b> (214 cards, adding the reverse holos) or the <b>Grand Master set</b> (all 241 cards, adding the 2 secret rares and 25 Radiant Collection cards).",
       "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device."
     ]
   },
   "source": {
     "tcgdex": "bw11",
     "tcgplayer": [
-      1409
+      1409,
+      1465
     ],
     "serie": "bw"
   },
@@ -320,40 +321,30 @@
     {"id":"113-rh","section":"reverse","num":"113","printed":"113/113","code":"R113","name":"Double Colorless Energy","rarity":"U","img":"113","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":84885,"sub":"Reverse Holofoil","idx":213},
     {"id":"114","section":"secret","num":"114","printed":"114/113","code":"114","name":"Reshiram","rarity":"SEC","tcg":88711,"idx":214},
     {"id":"115","section":"secret","num":"115","printed":"115/113","code":"115","name":"Zekrom","rarity":"SEC","tcg":90739,"idx":215},
-    {"id":"RC1","section":"xrc","num":"RC1","printed":"RC1","code":"RC1","name":"Snivy","rarity":"C","tcg":89381,"idx":216},
-    {"id":"RC1-rh","section":"reverse","num":"RC1","printed":"RC1","code":"RRC1","name":"Snivy","rarity":"C","img":"RC1","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":89381,"sub":"Reverse Holofoil","idx":241},
-    {"id":"RC2","section":"xrc","num":"RC2","printed":"RC2","code":"RC2","name":"Servine","rarity":"C","tcg":89079,"idx":217},
-    {"id":"RC2-rh","section":"reverse","num":"RC2","printed":"RC2","code":"RRC2","name":"Servine","rarity":"C","img":"RC2","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":89079,"sub":"Reverse Holofoil","idx":242},
-    {"id":"RC3","section":"xrc","num":"RC3","printed":"RC3","code":"RC3","name":"Serperior","rarity":"U","tcg":89074,"idx":218},
-    {"id":"RC3-rh","section":"reverse","num":"RC3","printed":"RC3","code":"RRC3","name":"Serperior","rarity":"U","img":"RC3","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":89074,"sub":"Reverse Holofoil","idx":243},
-    {"id":"RC4","section":"xrc","num":"RC4","printed":"RC4","code":"RC4","name":"Growlithe","rarity":"U","idx":219},
-    {"id":"RC5","section":"xrc","num":"RC5","printed":"RC5","code":"RC5","name":"Torchic","rarity":"C","idx":220},
-    {"id":"RC6","section":"xrc","num":"RC6","printed":"RC6","code":"RC6","name":"Piplup","rarity":"U","tcg":88153,"idx":221},
-    {"id":"RC6-rh","section":"reverse","num":"RC6","printed":"RC6","code":"RRC6","name":"Piplup","rarity":"U","img":"RC6","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":88153,"sub":"Reverse Holofoil","idx":244},
-    {"id":"RC7","section":"xrc","num":"RC7","printed":"RC7","code":"RC7","name":"Pikachu","rarity":"U","idx":222},
-    {"id":"RC8","section":"xrc","num":"RC8","printed":"RC8","code":"RC8","name":"Ralts","rarity":"C","tcg":88566,"idx":223},
-    {"id":"RC8-rh","section":"reverse","num":"RC8","printed":"RC8","code":"RRC8","name":"Ralts","rarity":"C","img":"RC8","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":88566,"sub":"Reverse Holofoil","idx":245},
-    {"id":"RC9","section":"xrc","num":"RC9","printed":"RC9","code":"RC9","name":"Kirlia","rarity":"C","tcg":86471,"idx":224},
-    {"id":"RC9-rh","section":"reverse","num":"RC9","printed":"RC9","code":"RRC9","name":"Kirlia","rarity":"C","img":"RC9","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":86471,"sub":"Reverse Holofoil","idx":246},
-    {"id":"RC10","section":"xrc","num":"RC10","printed":"RC10","code":"RC10","name":"Gardevoir","rarity":"U","idx":225},
-    {"id":"RC11","section":"xrc","num":"RC11","printed":"RC11","code":"RC11","name":"Meloetta-EX","rarity":"R","idx":226},
-    {"id":"RC12","section":"xrc","num":"RC12","printed":"RC12","code":"RC12","name":"Stunfisk","rarity":"U","tcg":89582,"idx":227},
-    {"id":"RC12-rh","section":"reverse","num":"RC12","printed":"RC12","code":"RRC12","name":"Stunfisk","rarity":"U","img":"RC12","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":89582,"sub":"Reverse Holofoil","idx":247},
-    {"id":"RC13","section":"xrc","num":"RC13","printed":"RC13","code":"RC13","name":"Purrloin","rarity":"U","idx":228},
-    {"id":"RC14","section":"xrc","num":"RC14","printed":"RC14","code":"RC14","name":"Eevee","rarity":"U","idx":229},
-    {"id":"RC15","section":"xrc","num":"RC15","printed":"RC15","code":"RC15","name":"Teddiursa","rarity":"C","idx":230},
-    {"id":"RC16","section":"xrc","num":"RC16","printed":"RC16","code":"RC16","name":"Ursaring","rarity":"C","idx":231},
-    {"id":"RC17","section":"xrc","num":"RC17","printed":"RC17","code":"RC17","name":"Audino","rarity":"C","idx":232},
-    {"id":"RC18","section":"xrc","num":"RC18","printed":"RC18","code":"RC18","name":"Minccino","rarity":"C","tcg":87478,"idx":233},
-    {"id":"RC18-rh","section":"reverse","num":"RC18","printed":"RC18","code":"RRC18","name":"Minccino","rarity":"C","img":"RC18","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":87478,"sub":"Reverse Holofoil","idx":248},
-    {"id":"RC19","section":"xrc","num":"RC19","printed":"RC19","code":"RC19","name":"Cinccino","rarity":"U","tcg":84320,"idx":234},
-    {"id":"RC19-rh","section":"reverse","num":"RC19","printed":"RC19","code":"RRC19","name":"Cinccino","rarity":"U","img":"RC19","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":84320,"sub":"Reverse Holofoil","idx":249},
-    {"id":"RC20","section":"xrc","num":"RC20","printed":"RC20","code":"RC20","name":"Elesa","rarity":"C","idx":235},
-    {"id":"RC21","section":"xrc","num":"RC21","printed":"RC21","code":"RC21","name":"Shaymin-EX","rarity":"UR","idx":236},
-    {"id":"RC22","section":"xrc","num":"RC22","printed":"RC22","code":"RC22","name":"Reshiram","rarity":"UR","idx":237},
-    {"id":"RC23","section":"xrc","num":"RC23","printed":"RC23","code":"RC23","name":"Emolga","rarity":"UR","tcg":85192,"idx":238},
-    {"id":"RC23-rh","section":"reverse","num":"RC23","printed":"RC23","code":"RRC23","name":"Emolga","rarity":"UR","img":"RC23","badge":"Reverse Holo","variant":"Reverse Holo","foil":true,"tcg":85192,"sub":"Reverse Holofoil","idx":250},
-    {"id":"RC24","section":"xrc","num":"RC24","printed":"RC24","code":"RC24","name":"Mew-EX","rarity":"UR","idx":239},
-    {"id":"RC25","section":"xrc","num":"RC25","printed":"RC25","code":"RC25","name":"Meloetta-EX","rarity":"UR","idx":240}
+    {"id":"RC1","section":"xrc","num":"RC1","printed":"RC1","code":"RC1","name":"Snivy","rarity":"C","tcg":89382,"idx":216},
+    {"id":"RC2","section":"xrc","num":"RC2","printed":"RC2","code":"RC2","name":"Servine","rarity":"C","tcg":89080,"idx":217},
+    {"id":"RC3","section":"xrc","num":"RC3","printed":"RC3","code":"RC3","name":"Serperior","rarity":"U","tcg":89075,"idx":218},
+    {"id":"RC4","section":"xrc","num":"RC4","printed":"RC4","code":"RC4","name":"Growlithe","rarity":"U","tcg":85963,"idx":219},
+    {"id":"RC5","section":"xrc","num":"RC5","printed":"RC5","code":"RC5","name":"Torchic","rarity":"C","tcg":89964,"idx":220},
+    {"id":"RC6","section":"xrc","num":"RC6","printed":"RC6","code":"RC6","name":"Piplup","rarity":"U","tcg":88154,"idx":221},
+    {"id":"RC7","section":"xrc","num":"RC7","printed":"RC7","code":"RC7","name":"Pikachu","rarity":"U","tcg":88105,"idx":222},
+    {"id":"RC8","section":"xrc","num":"RC8","printed":"RC8","code":"RC8","name":"Ralts","rarity":"C","tcg":88567,"idx":223},
+    {"id":"RC9","section":"xrc","num":"RC9","printed":"RC9","code":"RC9","name":"Kirlia","rarity":"C","tcg":86472,"idx":224},
+    {"id":"RC10","section":"xrc","num":"RC10","printed":"RC10","code":"RC10","name":"Gardevoir","rarity":"U","tcg":85639,"idx":225},
+    {"id":"RC11","section":"xrc","num":"RC11","printed":"RC11","code":"RC11","name":"Meloetta-EX","rarity":"R","tcg":87304,"idx":226},
+    {"id":"RC12","section":"xrc","num":"RC12","printed":"RC12","code":"RC12","name":"Stunfisk","rarity":"U","tcg":89583,"idx":227},
+    {"id":"RC13","section":"xrc","num":"RC13","printed":"RC13","code":"RC13","name":"Purrloin","rarity":"U","tcg":88462,"idx":228},
+    {"id":"RC14","section":"xrc","num":"RC14","printed":"RC14","code":"RC14","name":"Eevee","rarity":"U","tcg":85094,"idx":229},
+    {"id":"RC15","section":"xrc","num":"RC15","printed":"RC15","code":"RC15","name":"Teddiursa","rarity":"C","tcg":89862,"idx":230},
+    {"id":"RC16","section":"xrc","num":"RC16","printed":"RC16","code":"RC16","name":"Ursaring","rarity":"C","tcg":90257,"idx":231},
+    {"id":"RC17","section":"xrc","num":"RC17","printed":"RC17","code":"RC17","name":"Audino","rarity":"C","tcg":83665,"idx":232},
+    {"id":"RC18","section":"xrc","num":"RC18","printed":"RC18","code":"RC18","name":"Minccino","rarity":"C","tcg":87479,"idx":233},
+    {"id":"RC19","section":"xrc","num":"RC19","printed":"RC19","code":"RC19","name":"Cinccino","rarity":"U","tcg":84321,"idx":234},
+    {"id":"RC20","section":"xrc","num":"RC20","printed":"RC20","code":"RC20","name":"Elesa","rarity":"C","tcg":85174,"idx":235},
+    {"id":"RC21","section":"xrc","num":"RC21","printed":"RC21","code":"RC21","name":"Shaymin-EX","rarity":"UR","tcg":89113,"idx":236},
+    {"id":"RC22","section":"xrc","num":"RC22","printed":"RC22","code":"RC22","name":"Reshiram","rarity":"UR","tcg":88712,"idx":237},
+    {"id":"RC23","section":"xrc","num":"RC23","printed":"RC23","code":"RC23","name":"Emolga","rarity":"UR","tcg":85194,"idx":238},
+    {"id":"RC24","section":"xrc","num":"RC24","printed":"RC24","code":"RC24","name":"Mew-EX","rarity":"UR","tcg":87413,"idx":239},
+    {"id":"RC25","section":"xrc","num":"RC25","printed":"RC25","code":"RC25","name":"Meloetta-EX","rarity":"UR","tcg":87305,"idx":240}
   ]
 }
