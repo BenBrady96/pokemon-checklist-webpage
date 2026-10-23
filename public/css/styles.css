@@ -1630,6 +1630,7 @@ label.rcv-set { cursor: pointer; }
 .scanner.is-closing { animation: fade-out .16s ease forwards; }
 .scanner::backdrop { background: #05070F; }
 .scanner__inner {
+  position: relative;
   display: grid; grid-template-rows: auto minmax(0, 1fr) auto auto;
   height: 100%;
   padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
@@ -1715,8 +1716,10 @@ label.rcv-set { cursor: pointer; }
 .scanner__controls { transition: opacity .15s; }
 .scanner.has-panel .scanner__controls { opacity: 0; }
 .scanner__panel {
-  position: absolute; inset: auto 0 0 0;
+  position: absolute; inset: auto 0 0 0; z-index: 3;
+  grid-row: 2 / auto; grid-column: 1;
   max-height: 100%;
+  padding-bottom: env(safe-area-inset-bottom);
   overflow: auto; overscroll-behavior: contain;
   border-radius: 22px 22px 0 0;
   background: var(--bg-raised); color: var(--text);
@@ -1774,7 +1777,7 @@ label.rcv-set { cursor: pointer; }
 .scan-session__row.is-undone b { text-decoration: line-through; opacity: .6; }
 
 @media (min-width: 900px) {
-  .scanner__panel { inset: auto 0 16px; margin: 0 auto; width: min(560px, calc(100% - 32px)); border-radius: 20px; }
+  .scanner__panel { inset: auto 0 calc(16px + env(safe-area-inset-bottom)); margin: 0 auto; width: min(560px, calc(100% - 32px)); padding-bottom: 0; border-radius: 20px; }
   .scan-panel__foot { justify-content: flex-end; }
   .scan-panel__foot .btn { flex: 0 0 auto; }
   .scan-panel__foot .btn--primary { flex-basis: auto; order: 0; }
