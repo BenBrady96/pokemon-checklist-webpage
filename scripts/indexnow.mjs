@@ -18,7 +18,7 @@ async function fetchLive(path) {
 
 async function newUrls() {
   const built = locs(await readFile(join(ROOT, 'dist', 'sitemap.xml'), 'utf8'));
-  const key = await fetchLive(KEY_FILE);
+  const key = await fetchLive(`${KEY_FILE}?${Date.now()}`);
   if (key?.status === 404) {
     console.log(`IndexNow: ${KEY_FILE} isn't live yet, so this is the first run and every page is sent`);
     return built;
@@ -32,10 +32,29 @@ async function newUrls() {
   return built.filter((url) => !live.has(url));
 }
 
+const KEY_WAIT_MS = 10 * 60 * 1000;
+const KEY_POLL_MS = 15 * 1000;
+
+async function keyIsLive() {
+  const until = Date.now() + KEY_WAIT_MS;
+  while (Date.now() < until) {
+    const res = await fetchLive(KEY_FILE);
+    if (res?.ok && (await res.text()).trim() === INDEXNOW_KEY) return true;
+    console.log(`IndexNow: ${KEY_FILE} isn't being served yet (${res?.status ?? 'no response'}), checking again shortly`);
+    await new Promise((resolve) => setTimeout(resolve, KEY_POLL_MS));
+  }
+  return false;
+}
+
 async function submit(urls) {
   const host = new URL(SITE_URL).hostname;
   if (!urls.length) return console.log('IndexNow: no new pages');
   if (host.endsWith('github.io') || host === 'localhost') return console.log(`IndexNow: skipped for ${host}`);
+  if (!(await keyIsLive())) {
+    console.log(`IndexNow: ${KEY_FILE} still isn't live after ${KEY_WAIT_MS / 60000} minutes, so nothing was sent`);
+    process.exitCode = 1;
+    return;
+  }
   const res = await fetch('https://api.indexnow.org/indexnow', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json; charset=utf-8' },
