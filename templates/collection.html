@@ -89,6 +89,7 @@
     <symbol id="i-chart" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 20h16"/><path d="M7 16.5v-5M12 16.5V6M17 16.5v-8"/></g></symbol>
     <symbol id="i-help" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="8.5"/><path d="M9.6 9.4a2.5 2.5 0 0 1 4.8.9c0 1.7-2.4 2.2-2.4 3.7"/><circle cx="12" cy="17" r=".6" fill="currentColor"/></g></symbol>
 <symbol id="i-shield" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5l7 2.6v5.4c0 4.3-2.9 7.7-7 9-4.1-1.3-7-4.7-7-9V6.1z"/><path d="M8.8 12.2l2.2 2.2 4.2-4.4"/></g></symbol>
+<symbol id="i-bag" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 8h14l-1.2 12H6.2z"/><path d="M9 10V7a3 3 0 0 1 6 0v3"/></g></symbol>
     <symbol id="i-undo" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 7L4.5 11.5 9 16"/><path d="M5 11.5h9.5a5 5 0 0 1 0 10H12"/></g></symbol>
     <symbol id="i-refresh" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19.5 12a7.5 7.5 0 1 1-2.2-5.3"/><path d="M19.5 4.5v4.2h-4.2"/></g></symbol>
     <symbol id="i-trash" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 7h15M9.5 7V4.8h5V7M6.5 7l.9 12.2a1.5 1.5 0 0 0 1.5 1.3h6.2a1.5 1.5 0 0 0 1.5-1.3L17.5 7"/></g></symbol>
@@ -275,6 +276,8 @@
 
 <main id="collection" class="collection wrap" tabindex="-1" aria-label="Cards"></main>
 
+<p class="binder-shop wrap" data-show-for="binder">Want a binder to match? <a href="https://brtradingpost.co.uk/shop/custom-binders/" rel="noopener">See the hand painted binders</a> at BR Trading Post.</p>
+
 <div class="empty-state wrap" id="empty-state" hidden>
   <svg class="empty-state__icon" aria-hidden="true"><use href="#i-search"/></svg>
   <p class="empty-state__title">No cards match</p>
@@ -297,6 +300,7 @@
     <a href="terms.html">Terms of use</a>
     <a href="https://github.com/BenBrady96/pokemon-checklist-webpage" rel="noopener">Source on GitHub</a>
   </nav>
+  <p>Like Binder Tracker? It’s free, with no ads. Support it by shopping at <a href="https://brtradingpost.co.uk/shop/" rel="noopener">BR Trading Post</a>.</p>
   <p><strong>Binder Tracker is an unofficial fan-made checklist.</strong> {{disclaimer}}</p>
   <p>Your collection is stored only in this browser. Back it up or move it to another device with <button type="button" class="link-btn" data-open="export">Export or share</button>.</p>
 </footer>
@@ -451,6 +455,7 @@
       <div class="menu__group">
         <button type="button" class="menu__item" data-open="help"><svg><use href="#i-help"/></svg><span><b>Help &amp; shortcuts</b><small>Gestures, keyboard shortcuts and tips</small></span></button>
         <a class="menu__item" href="guides/fake-pokemon-cards/"><svg><use href="#i-shield"/></svg><span><b>Spot fake cards</b><small>How to tell a real Pokémon card from a fake</small></span></a>
+        <a class="menu__item" href="https://brtradingpost.co.uk/shop/" rel="noopener"><svg><use href="#i-bag"/></svg><span><b>Visit our shop</b><small>BR Trading Post: cards and custom painted binders</small></span></a>
         <button type="button" class="menu__item menu__item--danger" data-action="reset"><svg><use href="#i-trash"/></svg><span><b>Reset this set</b><small>Unmark every card in it (you can undo)</small></span></button>
       </div>
     </div>

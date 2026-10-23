@@ -927,6 +927,7 @@ a.btn { text-decoration: none; }
 @media (hover: hover) and (pointer: fine) {
   .binder .card:not(.is-owned) .card__hit:hover .card__art { opacity: .5; }
 }
+.binder-shop { margin: var(--space-6) auto 0; text-align: center; font-size: .9rem; color: var(--text-2); }
 @media (max-width: 899.98px) {
   .page--blank { display: none; }
   .page:not(.page--blank) ~ .page { position: relative; padding-top: 38px; }

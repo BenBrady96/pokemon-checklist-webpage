@@ -69,6 +69,7 @@ export function priceLinks(card, entry, query) {
   return [
     { label: 'TCGplayer', href: entry ? `https://www.tcgplayer.com/product/${entry.tcg}` : `https://www.tcgplayer.com/search/pokemon/product?q=${q}` },
     { label: 'eBay UK sold', href: `https://www.ebay.co.uk/sch/i.html?_nkw=${q}&LH_Sold=1&LH_Complete=1` },
+    { label: 'BR Trading Post', href: `https://brtradingpost.co.uk/shop/pokemon/?q=${encodeURIComponent(card.name)}` },
   ];
 }
 
