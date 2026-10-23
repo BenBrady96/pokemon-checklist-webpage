@@ -53,6 +53,7 @@ export function lineChart(figure, { rows, series, domain, formatValue, formatTic
   const yMin = ticks[0];
   const yMax = ticks.at(-1);
   let active = -1;
+  let pinned = false;
   let geometry = null;
 
   const tickLabels = ticks.map((tick) => formatTick(tick));
@@ -177,13 +178,33 @@ export function lineChart(figure, { rows, series, domain, formatValue, formatTic
 
   function hide() {
     active = -1;
+    pinned = false;
     tip.hidden = true;
     geometry?.cross.setAttribute('visibility', 'hidden');
   }
 
+  const at = (e) => nearest(e.clientX - box.getBoundingClientRect().left);
+  const outside = (e) => {
+    if (pinned && !box.contains(e.target)) hide();
+  };
+
   if (rows.length) {
-    box.addEventListener('pointermove', (e) => show(nearest(e.clientX - box.getBoundingClientRect().left)));
-    box.addEventListener('pointerleave', hide);
+    box.addEventListener('pointermove', (e) => {
+      if (!pinned) show(at(e));
+    });
+    box.addEventListener('pointerleave', () => {
+      if (!pinned) hide();
+    });
+    box.addEventListener('click', (e) => {
+      const i = at(e);
+      if (pinned && i === active) {
+        hide();
+        return;
+      }
+      pinned = true;
+      show(i);
+    });
+    document.addEventListener('pointerdown', outside);
     box.addEventListener('blur', hide);
     box.addEventListener('keydown', (e) => {
       if (e.key === 'ArrowLeft' || e.key === 'ArrowRight') {
@@ -207,5 +228,8 @@ export function lineChart(figure, { rows, series, domain, formatValue, formatTic
     draw();
   });
   observer.observe(box);
-  cleanups.set(figure, () => observer.disconnect());
+  cleanups.set(figure, () => {
+    observer.disconnect();
+    document.removeEventListener('pointerdown', outside);
+  });
 }
