@@ -2,7 +2,7 @@ import { readFile } from 'node:fs/promises';
 import { join } from 'node:path';
 import { COMING_SOON, CONFIG, GAMES, dataDir, loadCatalog, loadModel, loadRaw } from './collections.mjs';
 import { GUIDES } from '../../config/guides/index.mjs';
-import { DEFAULT_URL, PUBLIC, TEMPLATES, exists, readJson } from './util.mjs';
+import { ANALYTICS_TOKEN, DEFAULT_URL, PUBLIC, TEMPLATES, exists, readJson } from './util.mjs';
 import { TIER_DEFS } from '../../public/js/core/model.js';
 import { formatMoney, priceDate, ratesOf } from '../../public/js/core/pricing.js';
 
@@ -18,6 +18,20 @@ export function fill(template, values) {
       if (!(key in values)) throw new Error(`Template value missing: ${key}`);
       return escapeHtml(values[key]);
     });
+}
+
+export const analyticsOn = (siteUrl) => Boolean(ANALYTICS_TOKEN) && siteUrl.startsWith('https:');
+
+export function withAnalytics(html, siteUrl) {
+  if (!analyticsOn(siteUrl)) return html;
+  const out = html
+    .replace(/(<meta http-equiv="Content-Security-Policy" content="[^"]*?script-src [^;"]*)/, '$1 https://static.cloudflareinsights.com')
+    .replace(/(<meta http-equiv="Content-Security-Policy" content="[^"]*?connect-src [^;"]*)/, '$1 https://cloudflareinsights.com')
+    .replace('</head>', `  <script src="${siteUrl}js/shared/analytics.js" data-token="${ANALYTICS_TOKEN}" defer></script>\n</head>`);
+  if (!out.includes('https://static.cloudflareinsights.com') || !out.includes(' https://cloudflareinsights.com') || !out.includes('js/shared/analytics.js')) {
+    throw new Error('withAnalytics: page needs a Content-Security-Policy with script-src and connect-src, and a </head>');
+  }
+  return out;
 }
 
 const prefixUrls = (html, prefix) => html.replace(/\b(href|src)="(?![a-z][a-z0-9+.-]*:|#|\/)([^"]*)"/gi, (_, attr, url) => `${attr}="${prefix}${url === './' ? '' : url}"`);

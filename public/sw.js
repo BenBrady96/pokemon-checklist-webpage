@@ -35,6 +35,7 @@ const SHELL = [
   'js/core/storage.js',
   'js/core/transfer.js',
   'js/core/worth.js',
+  'js/shared/analytics.js',
   'js/shared/camera.js',
   'js/shared/card-art.js',
   'js/shared/chart.js',

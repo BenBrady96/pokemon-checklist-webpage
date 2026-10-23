@@ -352,5 +352,19 @@ if (meg) {
   check(peak === 3 && !draft.give.length && draft.get[0].qty === 1 && bump(draft, 'get', meg.id, main[2].id, 500) === 99, 'trade lines add up, drop at zero and stop at 99');
 }
 
+{
+  const { withAnalytics } = await import('./lib/pages.mjs');
+  for (const file of [join(TEMPLATES, 'collection.html'), join(PUBLIC, 'privacy.html')]) {
+    const page = await readFile(file, 'utf8');
+    const live = withAnalytics(page, 'https://bindertracker.co.uk/');
+    const name = relative(ROOT, file).split(sep).join('/');
+    check(withAnalytics(page, 'http://localhost:8080/') === page, `${name}: analytics is left out of local previews`);
+    check(/script-src [^;]*https:\/\/static\.cloudflareinsights\.com;/.test(live) && /connect-src [^;]*https:\/\/cloudflareinsights\.com;/.test(live), `${name}: the live CSP allows Cloudflare Web Analytics`);
+    check(live.includes('<script src="https://bindertracker.co.uk/js/shared/analytics.js" data-token="') && !live.includes('beacon.min.js'), `${name}: the live page loads the analytics loader, never the beacon directly`);
+  }
+  const loader = await readFile(join(PUBLIC, 'js', 'shared', 'analytics.js'), 'utf8');
+  check(loader.includes("location.hash.includes('=')") && loader.includes('spa: false'), 'the analytics loader skips links that carry a code, and doesn’t follow URL changes');
+}
+
 console.log(failures ? `\n${failures} of ${checks} checks failed` : `All ${checks} checks passed (${models.size} collections)`);
 process.exitCode = failures ? 1 : 0;

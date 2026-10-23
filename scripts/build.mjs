@@ -2,7 +2,7 @@ import { access, cp, mkdir, readdir, readFile, rm, stat, writeFile } from 'node:
 import { dirname, join, relative, sep } from 'node:path';
 import { COMING_SOON, CONFIG } from './lib/collections.mjs';
 import { GUIDES } from '../config/guides/index.mjs';
-import { collectionPage, comingSoonPage, guidePage, homePage, listPage, portfolioPage, sharedPage, sitemap, tradePage } from './lib/pages.mjs';
+import { collectionPage, comingSoonPage, guidePage, homePage, listPage, portfolioPage, sharedPage, sitemap, tradePage, withAnalytics } from './lib/pages.mjs';
 import { DEFAULT_URL, INDEXNOW_KEY, PUBLIC, ROOT } from './lib/util.mjs';
 
 const OUT = join(ROOT, 'dist');
@@ -13,6 +13,9 @@ const WARN_BYTES = 800 * 1024 ** 2;
 const MAX_BYTES = 950 * 1024 ** 2;
 
 const URL_FILES = ['privacy.html', 'terms.html', '404.html', 'robots.txt'];
+const NO_ANALYTICS = new Set(['list/index.html', 'shared/index.html']);
+
+const finish = (path, text) => (path.endsWith('.html') && !NO_ANALYTICS.has(path) ? withAnalytics(text, SITE_URL) : text);
 
 const exists = (path) => access(path).then(() => true, () => false);
 
@@ -28,7 +31,7 @@ async function listFiles(dir) {
 
 async function emit(path, text) {
   await mkdir(dirname(join(OUT, path)), { recursive: true });
-  await writeFile(join(OUT, path), text);
+  await writeFile(join(OUT, path), finish(path, text));
 }
 
 await mkdir(OUT, { recursive: true });
@@ -37,7 +40,7 @@ await cp(PUBLIC, OUT, { recursive: true });
 
 for (const file of URL_FILES) {
   const path = join(OUT, file);
-  await writeFile(path, (await readFile(path, 'utf8')).split(DEFAULT_URL).join(SITE_URL));
+  await writeFile(path, finish(file, (await readFile(path, 'utf8')).split(DEFAULT_URL).join(SITE_URL)));
 }
 
 await emit('index.html', await homePage({ siteUrl: SITE_URL, today: TODAY }));

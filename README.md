@@ -26,7 +26,7 @@ Your collection is saved in your own browser, and the site works offline once yo
 
 ## Privacy
 
-The site sets no cookies and has no analytics or trackers. Your collection stays in your browser, and scanner photos are processed on your device and never uploaded. Most card images load from TCGdex. Full details are in the [privacy policy](https://bindertracker.co.uk/privacy.html).
+The site sets no cookies and has no advertising or tracking. Visitor numbers are counted with Cloudflare Web Analytics, which is cookieless and doesn't identify anyone, and never runs on links that carry a collection or trade code. Your collection stays in your browser, and scanner photos are processed on your device and never uploaded. Most card images load from TCGdex. Full details are in the [privacy policy](https://bindertracker.co.uk/privacy.html).
 
 ## Licence and credits
 

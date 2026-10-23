@@ -10,6 +10,7 @@ export const CACHE = join(ROOT, '.cache');
 
 export const DEFAULT_URL = 'https://bindertracker.co.uk/';
 export const INDEXNOW_KEY = '5f1d2411fed0034b14bf6651735ad7e5';
+export const ANALYTICS_TOKEN = 'df87ff485baf45a382f7d83509bb9164';
 
 export const exists = (path) => access(path).then(() => true, () => false);
 
