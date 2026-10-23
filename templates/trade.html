@@ -4,13 +4,28 @@
   <meta charset="utf-8">
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'wasm-unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https://assets.tcgdex.net; media-src 'self' blob:; connect-src 'self' https://assets.tcgdex.net; worker-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self';">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>Trade · Binder Tracker</title>
-  <meta name="description" content="Compare Pokémon TCG collections with a friend, see what each of you needs and check a trade is fair with TCGplayer market prices. Saved on your device.">
-  <meta name="robots" content="noindex">
+  <title>Pokémon Card Trade Checker · Compare Collections &amp; Check a Trade Is Fair | Binder Tracker</title>
+  <meta name="description" content="Free Pokémon card trade checker with no ads, no sign-up and no tracking. Compare collections with a friend, see what each of you needs and check a trade is fair with TCGplayer market prices.">
+  <meta name="robots" content="index, follow, max-image-preview:large">
   <link rel="canonical" href="https://bindertracker.co.uk/trade/">
   <meta name="theme-color" content="#F7F7F8" media="(prefers-color-scheme: light)">
   <meta name="theme-color" content="#0B0B0D" media="(prefers-color-scheme: dark)">
   <meta name="color-scheme" content="light dark">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Binder Tracker">
+  <meta property="og:title" content="Pokémon Card Trade Checker · Binder Tracker">
+  <meta property="og:description" content="Compare Pokémon TCG collections with a friend, see what each of you needs and check a trade is fair with TCGplayer market prices. Free, with no ads, no sign-up and no tracking.">
+  <meta property="og:url" content="https://bindertracker.co.uk/trade/">
+  <meta property="og:image" content="https://bindertracker.co.uk/img/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Binder Tracker: compare Pokémon card collections and check a trade is fair">
+  <meta property="og:locale" content="en_GB">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Pokémon Card Trade Checker · Binder Tracker">
+  <meta name="twitter:description" content="Compare collections with a friend and check a trade is fair. No ads, no sign-up, no tracking.">
+  <meta name="twitter:image" content="https://bindertracker.co.uk/img/og-image.jpg">
+  <meta name="twitter:image:alt" content="Binder Tracker: compare Pokémon card collections and check a trade is fair">
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="icon" href="img/icons/favicon.svg" type="image/svg+xml">
   <link rel="icon" href="img/icons/favicon-32.png" sizes="32x32" type="image/png">
@@ -20,6 +35,54 @@
   <meta name="apple-mobile-web-app-title" content="Binder Tracker">
   <link rel="preload" href="fonts/outfit-latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="css/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": "https://bindertracker.co.uk/trade/#page",
+        "url": "https://bindertracker.co.uk/trade/",
+        "name": "Pokémon Card Trade Checker",
+        "description": "Compare Pokémon TCG collections with a friend, see what each of you needs and check a trade is fair with TCGplayer market prices.",
+        "inLanguage": "en-GB",
+        "isPartOf": { "@id": "https://bindertracker.co.uk/#website" },
+        "breadcrumb": { "@id": "https://bindertracker.co.uk/trade/#breadcrumb" },
+        "primaryImageOfPage": "https://bindertracker.co.uk/img/og-image.jpg"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://bindertracker.co.uk/trade/#breadcrumb",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Binder Tracker", "item": "https://bindertracker.co.uk/" },
+          { "@type": "ListItem", "position": 2, "name": "Trade", "item": "https://bindertracker.co.uk/trade/" }
+        ]
+      },
+      {
+        "@type": "WebApplication",
+        "@id": "https://bindertracker.co.uk/trade/#app",
+        "name": "Binder Tracker Trade Checker",
+        "url": "https://bindertracker.co.uk/trade/",
+        "description": "Swap trade codes with a friend to see the cards each of you has that the other needs, then check the trade is fair with TCGplayer market prices.",
+        "applicationCategory": "UtilitiesApplication",
+        "operatingSystem": "Any",
+        "browserRequirements": "Requires JavaScript",
+        "isAccessibleForFree": true,
+        "inLanguage": "en-GB",
+        "image": "https://bindertracker.co.uk/img/og-image.jpg",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "GBP" },
+        "featureList": [
+          "No ads, no sign-up and no tracking",
+          "Compare collections with a trade code, link or QR code",
+          "See what each of you has that the other needs",
+          "Check a trade is fair with TCGplayer market prices",
+          "Scan cards into a trade with your camera",
+          "Update your collection when the trade is done"
+        ]
+      }
+    ]
+  }
+  </script>
   <script src="js/shared/theme-init.js"></script>
   <script type="module" src="js/trade/trade.js"></script>
   <noscript><style>.page-loader { display: none; }</style></noscript>
@@ -187,6 +250,28 @@
     </div>
   </div>
 </main>
+
+<section class="about wrap" aria-labelledby="trade-about-title">
+  <h2 class="about__title" id="trade-about-title">Pokémon card trade checker</h2>
+  <p>Binder Tracker’s trade checker compares your Pokémon TCG collection with a friend’s. It shows the cards each of you has that the other is missing, and checks a trade is fair with TCGplayer market prices. It’s free, with <b>no ads, no sign-up and no tracking</b>.</p>
+  <h3 class="about__sub">How it works</h3>
+  <ol class="about__steps">
+    <li><b>Swap trade codes.</b> Show your code and scan your friend’s, or send it as a link. You’ll both see what each of you has that the other needs.</li>
+    <li><b>Pick the cards.</b> Tap <b>Give</b> or <b>Get</b> on a card to add it to the trade. You can scan a card with your camera too.</li>
+    <li><b>Check it’s fair.</b> The meter compares TCGplayer market prices, in pounds, dollars or euros. Condition isn’t counted, so agree the final values together.</li>
+    <li><b>Update your collections.</b> <b>Update my collection</b> changes your cards on this device. Send the trade to your friend so they can update theirs too.</li>
+  </ol>
+  <h3 class="about__sub">Trade FAQ</h3>
+  <h4 class="about__q">Is the trade checker free?</h4>
+  <p>Yes. Like the rest of Binder Tracker, it’s free, with no ads, no sign-up and no tracking.</p>
+  <h4 class="about__q">Does my friend need Binder Tracker?</h4>
+  <p>To compare collections, yes. A trade code comes from the cards your friend has marked in Binder Tracker. Without one, you can still put a trade together from your spares and the cards you need, and check it’s fair.</p>
+  <h4 class="about__q">How does it work out if a trade is fair?</h4>
+  <p>It adds up the TCGplayer market price of every card on each side. Card condition isn’t counted, and cards with no market price yet are left out, so agree the final values with the person you’re trading with.</p>
+  <h4 class="about__q">Is my collection uploaded anywhere?</h4>
+  <p>No. Your collection and your trades stay in this browser. A trade code is a link that carries your cards from the sets you choose, and it only leaves your device when you share it.</p>
+  <p>Start by marking the cards you own in any set from the <a href="./">full list of checklists</a>, and read <a href="guides/fake-pokemon-cards/">how to spot fake Pokémon cards</a> before you trade.</p>
+</section>
 
 <div class="tr-dock mobile-only" data-tr="dock">
   <i class="tr-dock__meter" aria-hidden="true"><i data-tr="dock-meter"></i></i>

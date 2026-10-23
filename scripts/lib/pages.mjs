@@ -215,6 +215,12 @@ function guideSectionsHtml(entry, sealed, { today, sub = false, parts }) {
   return parts.map((part) => sections[part]()).filter(Boolean).join('\n  ');
 }
 
+const linkMeta = (c, today) => {
+  if (!c.soon) return `${releaseText(c.released)} · ${c.total} cards`;
+  return `${today >= c.released ? 'Out now' : `Out ${SHORT_DATE.format(utcDate(c.released))}`} · checklist coming soon`;
+};
+const setLinkHtml = (c, today) => `<li><a href="${c.id}/">${escapeHtml(c.name)}</a> <small>${linkMeta(c, today)}</small></li>`;
+
 function moreSetsHtml(entry, catalog) {
   const sets = (catalog?.collections || [])
     .filter((c) => c.game === entry.game && c.series === entry.series && c.kind === 'expansion')
@@ -224,7 +230,40 @@ function moreSetsHtml(entry, catalog) {
   const series = escapeHtml(entry.series);
   return `<h2 id="guide-more">More ${series} checklists</h2>`
     + `<p>These ${series} sets already have free checklists:</p>`
-    + `<ul class="guide-more">${sets.map((c) => `<li><a href="${c.id}/">${escapeHtml(c.name)}</a> <small>${releaseText(c.released)} · ${c.total} cards</small></li>`).join('')}</ul>`;
+    + `<ul class="guide-more">${sets.map((c) => setLinkHtml(c)).join('')}</ul>`;
+}
+
+const RELATED_SETS = 8;
+const byRelease = (a, b) => a.released.localeCompare(b.released) || a.name.localeCompare(b.name);
+
+function relatedSetsHtml(id, catalog, today) {
+  const current = catalog?.collections.find((c) => c.id === id);
+  if (!current) return '';
+  const soon = COMING_SOON.map((e) => ({ id: e.id, game: e.game, name: e.guide.name, series: e.series, kind: 'expansion', released: e.guide.released, soon: true }));
+  const pool = [...catalog.collections.filter((c) => c.total > 0), ...soon].filter((c) => c.game === current.game && c.id !== id);
+  const inSeries = pool.filter((c) => c.series === current.series);
+  const others = inSeries.length ? inSeries : pool.filter((c) => c.kind === current.kind);
+  const line = [current, ...pool.filter((c) => c.kind === current.kind && (c.kind === 'expansion' || c.series === current.series))].sort(byRelease);
+  const at = line.indexOf(current);
+  const prev = line[at - 1];
+  const next = line[at + 1];
+  const gap = (c) => Math.abs(utcDate(c.released) - utcDate(current.released));
+  const listed = others
+    .filter((c) => c !== prev && c !== next)
+    .sort((a, b) => gap(a) - gap(b))
+    .slice(0, RELATED_SETS)
+    .sort((a, b) => byRelease(b, a));
+  if (!prev && !next && !listed.length) return '';
+  const group = inSeries.length && current.series !== 'Other' ? current.series : GAMES[current.game].name;
+  const pager = prev || next
+    ? '<nav class="set-more__pager" aria-label="Previous and next set">'
+      + (prev ? `<a class="set-more__prev" href="${prev.id}/">← Previous: ${escapeHtml(prev.name)}</a>` : '')
+      + (next ? `<a class="set-more__next" href="${next.id}/">Next: ${escapeHtml(next.name)} →</a>` : '')
+      + '</nav>'
+    : '';
+  return `<h3 class="about__sub">More ${escapeHtml(group)} checklists</h3>`
+    + pager
+    + (listed.length ? `<ul class="set-more">${listed.map((c) => setLinkHtml(c, today)).join('')}</ul>` : '');
 }
 
 export async function comingSoonPage(entry, { siteUrl = DEFAULT_URL, today = isoToday() } = {}) {
@@ -310,7 +349,7 @@ export async function guidePage(guide, { siteUrl = DEFAULT_URL } = {}) {
 }
 
 export async function collectionPage(id, { siteUrl = DEFAULT_URL, today = isoToday() } = {}) {
-  const [template, raw, prices] = await Promise.all([readFile(join(TEMPLATES, 'collection.html'), 'utf8'), loadRaw(id), readJson(join(dataDir(id), 'prices.json'))]);
+  const [template, raw, prices, catalog] = await Promise.all([readFile(join(TEMPLATES, 'collection.html'), 'utf8'), loadRaw(id), readJson(join(dataDir(id), 'prices.json')), loadCatalog()]);
   const entry = CONFIG.find((e) => e.id === id);
   const launchGuide = entry?.guide ? guideSectionsHtml(entry, await sealedPrices(id), { today, sub: true, parts: ['dates', 'products', 'sources'] }) : '';
   const model = await loadModel(id, { raw });
@@ -368,7 +407,7 @@ export async function collectionPage(id, { siteUrl = DEFAULT_URL, today = isoTod
     name: raw.name,
     aboutTitle: raw.about?.title || `About the ${raw.name} set`,
     aboutHtml: (raw.about?.paragraphs || []).map((p) => `<p>${p}</p>`).join('\n  '),
-    setGuide: [setGuideHtml(model, prices), launchGuide].filter(Boolean).join('\n  '),
+    setGuide: [setGuideHtml(model, prices), launchGuide, relatedSetsHtml(id, catalog, today)].filter(Boolean).join('\n  '),
     robots: model.cards.length ? 'index, follow, max-image-preview:large' : 'noindex',
     disclaimer: game.disclaimer,
     setArt: (await exists(join(PUBLIC, `img/sets/${id}/logo.webp`))) ? `<img class="set-hero__logo" src="img/sets/${id}/logo.webp" alt="" decoding="async">` : '',
@@ -519,6 +558,7 @@ export async function sitemap({ siteUrl = DEFAULT_URL, today = new Date().toISOS
     ['', 'weekly', '1.0', today],
     ...soon,
     ...GUIDES.map((g) => [`${g.id}/`, 'monthly', '0.8', g.updated]),
+    ['trade/', 'monthly', '0.7', today],
     ...catalog.collections.filter((c) => c.total > 0).map((c) => [`${c.id}/`, 'weekly', '0.9', today]),
     ['privacy.html', 'yearly', '0.3', await docUpdated('privacy.html')],
     ['terms.html', 'yearly', '0.3', await docUpdated('terms.html')],
