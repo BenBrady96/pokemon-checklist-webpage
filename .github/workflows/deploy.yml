@@ -9,8 +9,6 @@ on:
 
 permissions:
   contents: read
-  pages: write
-  id-token: write
 
 concurrency:
   group: pages
@@ -19,6 +17,9 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    outputs:
+      site_url: ${{ steps.pages.outputs.base_url }}
+      indexnow: ${{ steps.indexnow.outputs.urls }}
     steps:
       - name: Checkout
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
@@ -44,6 +45,12 @@ jobs:
         env:
           SITE_URL: ${{ steps.pages.outputs.base_url }}
 
+      - name: Find new pages for IndexNow
+        id: indexnow
+        run: node scripts/indexnow.mjs diff
+        env:
+          SITE_URL: ${{ steps.pages.outputs.base_url }}
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
         with:
@@ -52,6 +59,9 @@ jobs:
   deploy:
     needs: build
     runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -59,3 +69,25 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346 # v5.0.1
+
+  indexnow:
+    needs: [build, deploy]
+    if: needs.build.outputs.indexnow != '' && needs.build.outputs.indexnow != '[]'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+          sparse-checkout: scripts
+
+      - name: Set up Node
+        uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version: 24
+
+      - name: Tell search engines about new pages
+        run: node scripts/indexnow.mjs submit
+        env:
+          SITE_URL: ${{ needs.build.outputs.site_url }}
+          INDEXNOW_URLS: ${{ needs.build.outputs.indexnow }}

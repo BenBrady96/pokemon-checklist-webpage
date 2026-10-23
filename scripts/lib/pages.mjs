@@ -2,11 +2,9 @@ import { readFile } from 'node:fs/promises';
 import { join } from 'node:path';
 import { COMING_SOON, CONFIG, GAMES, dataDir, loadCatalog, loadModel, loadRaw } from './collections.mjs';
 import { GUIDES } from '../../config/guides/index.mjs';
-import { PUBLIC, TEMPLATES, exists, readJson } from './util.mjs';
+import { DEFAULT_URL, PUBLIC, TEMPLATES, exists, readJson } from './util.mjs';
 import { TIER_DEFS } from '../../public/js/core/model.js';
 import { formatMoney, priceDate, ratesOf } from '../../public/js/core/pricing.js';
-
-export const DEFAULT_URL = 'https://bindertracker.co.uk/';
 
 const escapeHtml = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
 

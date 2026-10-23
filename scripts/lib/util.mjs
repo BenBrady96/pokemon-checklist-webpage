@@ -8,6 +8,9 @@ export const PUBLIC = join(ROOT, 'public');
 export const TEMPLATES = join(ROOT, 'templates');
 export const CACHE = join(ROOT, '.cache');
 
+export const DEFAULT_URL = 'https://bindertracker.co.uk/';
+export const INDEXNOW_KEY = '5f1d2411fed0034b14bf6651735ad7e5';
+
 export const exists = (path) => access(path).then(() => true, () => false);
 
 export const readJson = async (path, fallback = null) => {
