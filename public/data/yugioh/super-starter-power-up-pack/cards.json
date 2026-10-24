@@ -1,0 +1,75 @@
+{
+  "id": "yugioh/super-starter-power-up-pack",
+  "game": "yugioh",
+  "slug": "super-starter-power-up-pack",
+  "name": "Super Starter Power-Up Pack",
+  "series": "ZEXAL",
+  "kind": "deck",
+  "code": "YS13",
+  "syncKey": "YYS13",
+  "released": "2013-06-14",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "YS13-ENV01–YS13-ENV15",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from YS13-ENV01 to YS13-ENV15."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Super Starter Power-Up Pack Checklist · All 15 Cards",
+    "description": "Free Yu-Gi-Oh! Super Starter Power-Up Pack checklist with no ads, no sign-up and no tracking. Track all 15 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Super Starter Power-Up Pack Checklist",
+    "ogDescription": "Track all 15 cards in Yu-Gi-Oh! Super Starter Power-Up Pack. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 15 cards in Yu-Gi-Oh! Super Starter Power-Up Pack. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Super Starter Power-Up Pack",
+    "paragraphs": [
+      "Super Starter Power-Up Pack is a Yu-Gi-Oh! TCG deck released on 14 June 2013, in the ZEXAL era. It has 15 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Super Starter Power-Up Pack"
+    ],
+    "tcgplayer": [
+      1129
+    ]
+  },
+  "cards": [
+    {"id":"V01","section":"main","num":"V01","printed":"YS13-ENV01","name":"Number C39: Utopia Ray V","ctype":"monster","keywords":"Utopia Warrior LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 5","t":"Warrior / Xyz","atk":2600,"def":2000},"rarity":"UR","img":"66970002","code":"V1","tcg":69072,"grp":1129,"idx":0},
+    {"id":"V02","section":"main","num":"V02","printed":"YS13-ENV02","name":"Rank-Up-Magic Limited Barian's Force","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UR","img":"92365601","code":"V2","tcg":69073,"grp":1129,"idx":1},
+    {"id":"V03","section":"main","num":"V03","printed":"YS13-ENV03","name":"ZW - Eagle Claw","ctype":"monster","keywords":"Utopia Winged Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 5","t":"Winged Beast / Effect","atk":2000,"def":1200},"rarity":"C","img":"29353756","code":"V3","tcg":69074,"grp":1129,"idx":2},
+    {"id":"V04","section":"main","num":"V04","printed":"YS13-ENV04","name":"Ganbara Lancer","ctype":"monster","keywords":"Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 5","t":"Warrior / Effect","atk":1000,"def":2000},"rarity":"C","img":"65758454","code":"V4","tcg":69075,"grp":1129,"idx":3},
+    {"id":"V05","section":"main","num":"V05","printed":"YS13-ENV05","name":"Bite Bug","ctype":"monster","keywords":"Insect EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Insect / Effect","atk":300,"def":1000},"rarity":"C","img":"92142169","code":"V5","tcg":69076,"grp":1129,"idx":4},
+    {"id":"V06","section":"main","num":"V06","printed":"YS13-ENV06","name":"Crane Crane","ctype":"monster","keywords":"Winged Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Winged Beast / Effect","atk":300,"def":900},"rarity":"C","img":"28637168","code":"V6","tcg":69077,"grp":1129,"idx":5},
+    {"id":"V07","section":"main","num":"V07","printed":"YS13-ENV07","name":"Gentlemander","ctype":"monster","keywords":"Reptile LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Reptile / Effect","atk":1200,"def":1000},"rarity":"C","img":"54635862","code":"V7","tcg":69078,"grp":1129,"idx":6},
+    {"id":"V08","section":"main","num":"V08","printed":"YS13-ENV08","name":"Grenosaurus","ctype":"monster","keywords":"Dinosaur FIRE Xyz Monster","stats":{"a":"FIRE","l":"Rank 3","t":"Dinosaur / Xyz","atk":2000,"def":1900},"rarity":"C","img":"47506081","code":"V8","tcg":69079,"grp":1129,"idx":7},
+    {"id":"V09","section":"main","num":"V09","printed":"YS13-ENV09","name":"Number 30: Acid Golem of Destruction","ctype":"monster","keywords":"Rock WATER Xyz Monster","stats":{"a":"WATER","l":"Rank 3","t":"Rock / Xyz","atk":3000,"def":3000},"rarity":"C","img":"81330115","code":"V9","tcg":69080,"grp":1129,"idx":8},
+    {"id":"V10","section":"main","num":"V10","printed":"YS13-ENV10","name":"Shining Elf","ctype":"monster","keywords":"Spellcaster WIND Xyz Monster","stats":{"a":"WIND","l":"Rank 2","t":"Spellcaster / Xyz","atk":1600,"def":1000},"rarity":"C","img":"97170107","code":"V10","tcg":69081,"grp":1129,"idx":9},
+    {"id":"V11","section":"main","num":"V11","printed":"YS13-ENV11","name":"Number 6: Chronomaly Atlandis","ctype":"monster","keywords":"Chronomaly Machine LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 6","t":"Machine / Xyz","atk":2600,"def":3000},"rarity":"C","img":"9161357","code":"V11","tcg":69082,"grp":1129,"idx":10},
+    {"id":"V12","section":"main","num":"V12","printed":"YS13-ENV12","name":"Mystical Space Typhoon","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"SR","img":"5318639","code":"V12","tcg":69083,"grp":1129,"idx":11},
+    {"id":"V13","section":"main","num":"V13","printed":"YS13-ENV13","name":"Swords of Revealing Light","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"72302403","code":"V13","tcg":69084,"grp":1129,"idx":12},
+    {"id":"V14","section":"main","num":"V14","printed":"YS13-ENV14","name":"Mirror Force","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"44095762","code":"V14","tcg":69085,"grp":1129,"idx":13},
+    {"id":"V15","section":"main","num":"V15","printed":"YS13-ENV15","name":"Magic Cylinder","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"62279055","code":"V15","tcg":69086,"grp":1129,"idx":14}
+  ]
+}

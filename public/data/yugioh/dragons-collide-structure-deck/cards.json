@@ -1,0 +1,100 @@
+{
+  "id": "yugioh/dragons-collide-structure-deck",
+  "game": "yugioh",
+  "slug": "dragons-collide-structure-deck",
+  "name": "Dragons Collide Structure Deck",
+  "series": "ZEXAL",
+  "kind": "deck",
+  "code": "SDDC",
+  "syncKey": "YSDDC",
+  "released": "2012-02-03",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "SDDC-EN001–SDDC-EN040",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from SDDC-EN001 to SDDC-EN040."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Dragons Collide Structure Deck Checklist · All 40 Cards",
+    "description": "Free Yu-Gi-Oh! Dragons Collide Structure Deck checklist with no ads, no sign-up and no tracking. Track all 40 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Dragons Collide Structure Deck Checklist",
+    "ogDescription": "Track all 40 cards in Yu-Gi-Oh! Dragons Collide Structure Deck. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 40 cards in Yu-Gi-Oh! Dragons Collide Structure Deck. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Dragons Collide Structure Deck",
+    "paragraphs": [
+      "Dragons Collide Structure Deck is a Yu-Gi-Oh! TCG deck released on 3 February 2012, in the ZEXAL era. It has 40 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Dragons Collide Structure Deck"
+    ],
+    "tcgplayer": [
+      316
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"SDDC-EN001","name":"Lightpulsar Dragon","ctype":"monster","keywords":"Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Dragon / Effect","atk":2500,"def":1500},"rarity":"UR","img":"99365553","code":"1","tcg":57901,"grp":316,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"SDDC-EN002","name":"Darkflare Dragon","ctype":"monster","keywords":"Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 5","t":"Dragon / Effect","atk":2400,"def":1200},"rarity":"UR","img":"25460258","code":"2","tcg":57902,"grp":316,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"SDDC-EN003","name":"Eclipse Wyvern","ctype":"monster","keywords":"Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Dragon / Effect","atk":1600,"def":1000},"rarity":"SR","img":"51858306","code":"3","tcg":57903,"grp":316,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"SDDC-EN004","name":"Blue-Eyes White Dragon","ctype":"monster","keywords":"Blue-Eyes Dragon LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Normal","atk":3000,"def":2500},"rarity":"C","img":"89631141","code":"4","tcg":57904,"grp":316,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"SDDC-EN005","name":"Red-Eyes Black Dragon","ctype":"monster","keywords":"Red-Eyes Dragon DARK Normal Monster","stats":{"a":"DARK","l":"Level 7","t":"Dragon / Normal","atk":2400,"def":2000},"rarity":"C","img":"74677425","code":"5","tcg":57905,"grp":316,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"SDDC-EN006","name":"The White Stone of Legend","ctype":"monster","keywords":"Blue-Eyes Dragon LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Dragon / Tuner","atk":300,"def":250},"rarity":"C","img":"79814787","code":"6","tcg":57906,"grp":316,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"SDDC-EN007","name":"Black Dragon's Chick","ctype":"monster","keywords":"Red-Eyes Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Dragon / Effect","atk":800,"def":500},"rarity":"C","img":"36262024","code":"7","tcg":57907,"grp":316,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"SDDC-EN008","name":"Axe Dragonute","ctype":"monster","keywords":"Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Dragon / Effect","atk":2000,"def":1200},"rarity":"C","img":"84914462","code":"8","tcg":57908,"grp":316,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"SDDC-EN009","name":"Vice Dragon","ctype":"monster","keywords":"Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 5","t":"Dragon / Effect","atk":2000,"def":2400},"rarity":"C","img":"54343893","code":"9","tcg":57909,"grp":316,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"SDDC-EN010","name":"Gragonith, Lightsworn Dragon","ctype":"monster","keywords":"Lightsworn Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Dragon / Effect","atk":2000,"def":1600},"rarity":"C","img":"21785144","code":"10","tcg":57910,"grp":316,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"SDDC-EN011","name":"Prime Material Dragon","ctype":"monster","keywords":"Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Dragon / Effect","atk":2400,"def":2000},"rarity":"C","img":"12298909","code":"11","tcg":57911,"grp":316,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"SDDC-EN012","name":"Dark Armed Dragon","ctype":"monster","keywords":"Armed Dragon Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Dragon / Effect","atk":2800,"def":1000},"rarity":"C","img":"65192027","code":"12","tcg":57912,"grp":316,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"SDDC-EN013","name":"Red-Eyes Darkness Metal Dragon","ctype":"monster","keywords":"Red-Eyes Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 10","t":"Dragon / Effect","atk":2800,"def":2400},"rarity":"C","img":"88264978","code":"13","tcg":57913,"grp":316,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"SDDC-EN014","name":"Chaos Sorcerer","ctype":"monster","keywords":"Chaos Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Spellcaster / Effect","atk":2300,"def":2000},"rarity":"C","img":"9596126","code":"14","tcg":57914,"grp":316,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"SDDC-EN015","name":"Lord of D.","ctype":"monster","keywords":"Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Effect","atk":1200,"def":1100},"rarity":"C","img":"17985575","code":"15","tcg":57915,"grp":316,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"SDDC-EN016","name":"Mystic Tomato","ctype":"monster","keywords":"Plant DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Plant / Effect","atk":1400,"def":1100},"rarity":"C","img":"83011278","code":"16","tcg":57916,"grp":316,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"SDDC-EN017","name":"Summoner Monk","ctype":"monster","keywords":"Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Effect","atk":800,"def":1600},"rarity":"C","img":"423585","code":"17","tcg":57917,"grp":316,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"SDDC-EN018","name":"Snipe Hunter","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Effect","atk":1500,"def":600},"rarity":"C","img":"84290642","code":"18","tcg":57918,"grp":316,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"SDDC-EN019","name":"Herald of Creation","ctype":"monster","keywords":"Herald Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Effect","atk":1800,"def":600},"rarity":"C","img":"66337215","code":"19","tcg":57919,"grp":316,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"SDDC-EN020","name":"Jain, Lightsworn Paladin","ctype":"monster","keywords":"Lightsworn Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Effect","atk":1800,"def":1200},"rarity":"C","img":"96235275","code":"20","tcg":57920,"grp":316,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"SDDC-EN021","name":"Lyla, Lightsworn Sorceress","ctype":"monster","keywords":"Lightsworn Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Effect","atk":1700,"def":200},"rarity":"C","img":"22624373","code":"21","tcg":57921,"grp":316,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"SDDC-EN022","name":"Kaibaman","ctype":"monster","keywords":"Blue-Eyes Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Warrior / Effect","atk":200,"def":700},"rarity":"C","img":"34627841","code":"22","tcg":57922,"grp":316,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"SDDC-EN023","name":"Ryko, Lightsworn Hunter","ctype":"monster","keywords":"Lightsworn Beast LIGHT Flip Effect Monster","stats":{"a":"LIGHT","l":"Level 2","t":"Beast / Flip / Effect","atk":200,"def":100},"rarity":"C","img":"21502796","code":"23","tcg":57923,"grp":316,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"SDDC-EN024","name":"Chaos Zone","ctype":"spell","keywords":"Chaos Field Spell","stats":{"t":"Field Spell"},"rarity":"C","img":"94243005","code":"24","tcg":57924,"grp":316,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"SDDC-EN025","name":"Burst Stream of Destruction","ctype":"spell","keywords":"Blue-Eyes Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"17655904","code":"25","tcg":57925,"grp":316,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"SDDC-EN026","name":"Inferno Fire Blast","ctype":"spell","keywords":"Red-Eyes Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"52684508","code":"26","tcg":57926,"grp":316,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"SDDC-EN027","name":"The Flute of Summoning Dragon","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"43973174","code":"27","tcg":57927,"grp":316,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"SDDC-EN028","name":"A Wingbeat of Giant Dragon","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"28596933","code":"28","tcg":57928,"grp":316,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"SDDC-EN029","name":"Book of Moon","ctype":"spell","keywords":"Book of Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"14087893","code":"29","tcg":57929,"grp":316,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"SDDC-EN030","name":"Magical Stone Excavation","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"98494543","code":"30","tcg":57930,"grp":316,"idx":29},
+    {"id":"031","section":"main","num":"031","printed":"SDDC-EN031","name":"Reasoning","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"58577036","code":"31","tcg":57931,"grp":316,"idx":30},
+    {"id":"032","section":"main","num":"032","printed":"SDDC-EN032","name":"Monster Gate","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"43040603","code":"32","tcg":57932,"grp":316,"idx":31},
+    {"id":"033","section":"main","num":"033","printed":"SDDC-EN033","name":"Card Trader","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"48712195","code":"33","tcg":57933,"grp":316,"idx":32},
+    {"id":"034","section":"main","num":"034","printed":"SDDC-EN034","name":"D.D.R. - Different Dimension Reincarnation","ctype":"spell","keywords":"D.D. Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"9622164","code":"34","tcg":57934,"grp":316,"idx":33},
+    {"id":"035","section":"main","num":"035","printed":"SDDC-EN035","name":"Charge of the Light Brigade","ctype":"spell","keywords":"Lightsworn Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"94886282","code":"35","tcg":57935,"grp":316,"idx":34},
+    {"id":"036","section":"main","num":"036","printed":"SDDC-EN036","name":"Dragon's Rebirth","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"20638610","code":"36","tcg":57936,"grp":316,"idx":35},
+    {"id":"037","section":"main","num":"037","printed":"SDDC-EN037","name":"Burst Breath","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"80163754","code":"37","tcg":57937,"grp":316,"idx":36},
+    {"id":"038","section":"main","num":"038","printed":"SDDC-EN038","name":"Call of the Haunted","ctype":"trap","keywords":"Call of the Haunted Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"97077563","code":"38","tcg":57938,"grp":316,"idx":37},
+    {"id":"039","section":"main","num":"039","printed":"SDDC-EN039","name":"Interdimensional Matter Transporter","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"36261276","code":"39","tcg":57939,"grp":316,"idx":38},
+    {"id":"040","section":"main","num":"040","printed":"SDDC-EN040","name":"Escape from the Dark Dimension","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"31550470","code":"40","tcg":57940,"grp":316,"idx":39}
+  ]
+}

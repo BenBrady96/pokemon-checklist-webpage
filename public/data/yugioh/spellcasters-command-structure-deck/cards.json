@@ -1,0 +1,98 @@
+{
+  "id": "yugioh/spellcasters-command-structure-deck",
+  "game": "yugioh",
+  "slug": "spellcasters-command-structure-deck",
+  "name": "Spellcaster's Command Structure Deck",
+  "series": "5D’s",
+  "kind": "deck",
+  "code": "SDSC",
+  "syncKey": "YSDSC",
+  "released": "2009-03-31",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "SDSC-EN001–SDSC-EN038",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from SDSC-EN001 to SDSC-EN038."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Spellcaster's Command Structure Deck Checklist · All 38 Cards",
+    "description": "Free Yu-Gi-Oh! Spellcaster's Command Structure Deck checklist with no ads, no sign-up and no tracking. Track all 38 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Spellcaster's Command Structure Deck Checklist",
+    "ogDescription": "Track all 38 cards in Yu-Gi-Oh! Spellcaster's Command Structure Deck. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 38 cards in Yu-Gi-Oh! Spellcaster's Command Structure Deck. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Spellcaster's Command Structure Deck",
+    "paragraphs": [
+      "Spellcaster&#39;s Command Structure Deck is a Yu-Gi-Oh! TCG deck released on 31 March 2009, in the 5D’s era. It has 38 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Spellcaster's Command Structure Deck"
+    ],
+    "tcgplayer": [
+      286
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"SDSC-EN001","name":"Endymion, the Master Magician","ctype":"monster","keywords":"Endymion Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Spellcaster / Effect","atk":2700,"def":1700},"rarity":"UR","img":"40732515","code":"1","tcg":32864,"grp":286,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"SDSC-EN002","name":"Disenchanter","ctype":"monster","keywords":"Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 5","t":"Spellcaster / Effect","atk":2000,"def":2300},"rarity":"C","img":"76137614","code":"2","tcg":32863,"grp":286,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"SDSC-EN003","name":"Defender, the Magical Knight","ctype":"monster","keywords":"Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Effect","atk":1600,"def":2000},"rarity":"C","img":"2525268","code":"3","tcg":32862,"grp":286,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"SDSC-EN004","name":"Hannibal Necromancer","ctype":"monster","keywords":"Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Effect","atk":1400,"def":1800},"rarity":"C","img":"5640330","code":"4","tcg":32869,"grp":286,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"SDSC-EN005","name":"Summoner Monk","ctype":"monster","keywords":"Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Effect","atk":800,"def":1600},"rarity":"C","img":"423585","code":"5","tcg":32889,"grp":286,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"SDSC-EN006","name":"Dark Red Enchanter","ctype":"monster","keywords":"Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Spellcaster / Effect","atk":1700,"def":2200},"rarity":"C","img":"45462639","code":"6","tcg":32861,"grp":286,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"SDSC-EN007","name":"Skilled Dark Magician","ctype":"monster","keywords":"Dark Magician Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Effect","atk":1900,"def":1700},"rarity":"C","img":"73752131","code":"7","tcg":32887,"grp":286,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"SDSC-EN008","name":"Apprentice Magician","ctype":"monster","keywords":"Magician Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 2","t":"Spellcaster / Effect","atk":400,"def":800},"rarity":"C","img":"9156135","code":"8","tcg":32856,"grp":286,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"SDSC-EN009","name":"Old Vindictive Magician","ctype":"monster","keywords":"Spellcaster DARK Flip Effect Monster","stats":{"a":"DARK","l":"Level 2","t":"Spellcaster / Flip / Effect","atk":450,"def":600},"rarity":"C","img":"45141844","code":"9","tcg":32884,"grp":286,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"SDSC-EN010","name":"Magical Marionette","ctype":"monster","keywords":"Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 5","t":"Spellcaster / Effect","atk":2000,"def":1000},"rarity":"C","img":"8034697","code":"10","tcg":32876,"grp":286,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"SDSC-EN011","name":"Breaker the Magical Warrior","ctype":"monster","keywords":"Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Effect","atk":1600,"def":1000},"rarity":"C","img":"71413901","code":"11","tcg":32859,"grp":286,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"SDSC-EN012","name":"Magical Plant Mandragola","ctype":"monster","keywords":"Spellcaster DARK Flip Effect Monster","stats":{"a":"DARK","l":"Level 2","t":"Spellcaster / Flip / Effect","atk":500,"def":200},"rarity":"C","img":"7802006","code":"12","tcg":32877,"grp":286,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"SDSC-EN013","name":"Royal Magical Library","ctype":"monster","keywords":"Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Effect","atk":0,"def":2000},"rarity":"C","img":"70791313","code":"13","tcg":32886,"grp":286,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"SDSC-EN014","name":"Blast Magician","ctype":"monster","keywords":"Spellcaster FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Spellcaster / Effect","atk":1400,"def":1700},"rarity":"C","img":"21051146","code":"14","tcg":32857,"grp":286,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"SDSC-EN015","name":"Mythical Beast Cerberus","ctype":"monster","keywords":"Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Effect","atk":1400,"def":1400},"rarity":"C","img":"55424270","code":"15","tcg":32883,"grp":286,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"SDSC-EN016","name":"Mei-Kou, Master of Barriers","ctype":"monster","keywords":"Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Effect","atk":1700,"def":600},"rarity":"C","img":"47731128","code":"16","tcg":32881,"grp":286,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"SDSC-EN017","name":"Crystal Seer","ctype":"monster","keywords":"Spellcaster WATER Flip Effect Monster","stats":{"a":"WATER","l":"Level 1","t":"Spellcaster / Flip / Effect","atk":100,"def":100},"rarity":"C","img":"82099401","code":"17","tcg":32860,"grp":286,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"SDSC-EN018","name":"Magical Exemplar","ctype":"monster","keywords":"Spellcaster EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Spellcaster / Effect","atk":1700,"def":1400},"rarity":"C","img":"6061630","code":"18","tcg":32875,"grp":286,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"SDSC-EN019","name":"Magical Citadel of Endymion","ctype":"spell","keywords":"Endymion Field Spell","stats":{"t":"Field Spell"},"rarity":"C","img":"39910367","code":"19","tcg":32873,"grp":286,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"SDSC-EN020","name":"Spell Power Grasp","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"75014062","code":"20","tcg":32888,"grp":286,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"SDSC-EN021","name":"Magicians Unite","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"36045450","code":"21","tcg":32879,"grp":286,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"SDSC-EN022","name":"Mist Body","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"47529357","code":"22","tcg":32882,"grp":286,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"SDSC-EN023","name":"Malevolent Nuzzler","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"99597615","code":"23","tcg":32880,"grp":286,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"SDSC-EN024","name":"Giant Trunade","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"42703248","code":"24","tcg":32868,"grp":286,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"SDSC-EN025","name":"Fissure","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"66788016","code":"25","tcg":32867,"grp":286,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"SDSC-EN026","name":"Swords of Revealing Light","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"72302403","code":"26","tcg":32890,"grp":286,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"SDSC-EN027","name":"Mage Power","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"83746708","code":"27","tcg":32870,"grp":286,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"SDSC-EN028","name":"Terraforming","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"73628505","code":"28","tcg":32891,"grp":286,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"SDSC-EN029","name":"Enemy Controller","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"98045062","code":"29","tcg":32865,"grp":286,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"SDSC-EN030","name":"Book of Moon","ctype":"spell","keywords":"Book of Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"14087893","code":"30","tcg":32858,"grp":286,"idx":29},
+    {"id":"031","section":"main","num":"031","printed":"SDSC-EN031","name":"Magical Blast","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"91819979","code":"31","tcg":32872,"grp":286,"idx":30},
+    {"id":"032","section":"main","num":"032","printed":"SDSC-EN032","name":"Magical Dimension","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"28553439","code":"32","tcg":32874,"grp":286,"idx":31},
+    {"id":"033","section":"main","num":"033","printed":"SDSC-EN033","name":"Twister","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"45939841","code":"33","tcg":32893,"grp":286,"idx":32},
+    {"id":"034","section":"main","num":"034","printed":"SDSC-EN034","name":"Field Barrier","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"7153114","code":"34","tcg":32866,"grp":286,"idx":33},
+    {"id":"035","section":"main","num":"035","printed":"SDSC-EN035","name":"Magician's Circle","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"50755","code":"35","tcg":32878,"grp":286,"idx":34},
+    {"id":"036","section":"main","num":"036","printed":"SDSC-EN036","name":"Pitch-Black Power Stone","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"34029630","code":"36","tcg":32885,"grp":286,"idx":35},
+    {"id":"037","section":"main","num":"037","printed":"SDSC-EN037","name":"Tower of Babel","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"94256039","code":"37","tcg":32892,"grp":286,"idx":36},
+    {"id":"038","section":"main","num":"038","printed":"SDSC-EN038","name":"Magic Cylinder","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"62279055","code":"38","tcg":32871,"grp":286,"idx":37}
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "id": "yugioh/magnificent-maestros",
+  "game": "yugioh",
+  "slug": "magnificent-maestros",
+  "name": "Magnificent Maestros",
+  "series": "SEVENS & GO RUSH!!",
+  "kind": "set",
+  "code": "MAMS",
+  "syncKey": "YMAMS",
+  "released": "2026-11-12",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Main Set",
+      "range": "MAMS-EN001–MAMS-EN125",
+      "tier": "standard"
+    },
+    {
+      "id": "rarities",
+      "name": "Other Rarities",
+      "short": "Other Rarities",
+      "range": "42 cards",
+      "tier": "master"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Main set"
+    ],
+    [
+      "rarities",
+      "Other rarities"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, SCR12, 60x2",
+    "example": "1-20, 45x2, SCR12",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies. Other rarities use their short name and number: <b>SCR12</b> is card 12’s Secret Rare, and ranges work too (<b>QCSR1-QCSR20</b>).",
+    "empty": "Cards run from MAMS-EN001 to MAMS-EN125."
+  },
+  "help": {
+    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 24 cards, each in its main rarity. Master adds the 42 other rarities. Cards you’ve marked are kept when you switch."
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Magnificent Maestros Checklist · All 24 Cards",
+    "description": "Free Yu-Gi-Oh! Magnificent Maestros checklist with no ads, no sign-up and no tracking. Track all 24 cards, or every rarity for a master set, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Magnificent Maestros Checklist",
+    "ogDescription": "Track all 24 cards in Yu-Gi-Oh! Magnificent Maestros, plus 42 other rarities. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 24 cards in Yu-Gi-Oh! Magnificent Maestros. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About the Magnificent Maestros set",
+    "paragraphs": [
+      "Magnificent Maestros is a Yu-Gi-Oh! TCG special set released on 12 November 2026, in the SEVENS &amp; GO RUSH!! era. It has 24 cards, and with the 42 other rarities there are 66 to collect in all.",
+      "Choose what you’re collecting: the <b>Standard set</b> (the 24 cards, each in its main rarity) or the <b>Master set</b> (all 66, adding the 42 other rarities).",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Magnificent Maestros"
+    ],
+    "tcgplayer": []
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"MAMS-EN001","name":"Blue-Eyes White Dragon, the White Phantom Beast","ctype":"monster","keywords":"Blue-Eyes Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Effect","atk":3000,"def":2500},"rarity":"UR","img":"30397786","code":"1","idx":0},
+    {"id":"001-str","section":"rarities","num":"001","printed":"MAMS-EN001","name":"Blue-Eyes White Dragon, the White Phantom Beast","ctype":"monster","keywords":"Blue-Eyes Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Effect","atk":3000,"def":2500},"rarity":"StR","img":"30397786","badge":"StR","variant":"Starlight Rare","code":"STR1","idx":1},
+    {"id":"001-gmr","section":"rarities","num":"001","printed":"MAMS-EN001","name":"Blue-Eyes White Dragon, the White Phantom Beast","ctype":"monster","keywords":"Blue-Eyes Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Effect","atk":3000,"def":2500},"rarity":"GMR","img":"30397786","badge":"GMR","variant":"Grand Master Rare","code":"GMR1","idx":2},
+    {"id":"002","section":"main","num":"002","printed":"MAMS-EN002","name":"Deep-Eyes White Dragon, the Blue Abyss","ctype":"monster","keywords":"Blue-Eyes Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 10","t":"Dragon / Effect","atk":0,"def":0},"rarity":"UR","img":"67886895","code":"2","idx":3},
+    {"id":"002-str","section":"rarities","num":"002","printed":"MAMS-EN002","name":"Deep-Eyes White Dragon, the Blue Abyss","ctype":"monster","keywords":"Blue-Eyes Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 10","t":"Dragon / Effect","atk":0,"def":0},"rarity":"StR","img":"67886895","badge":"StR","variant":"Starlight Rare","code":"STR2","idx":4},
+    {"id":"002-gmr","section":"rarities","num":"002","printed":"MAMS-EN002","name":"Deep-Eyes White Dragon, the Blue Abyss","ctype":"monster","keywords":"Blue-Eyes Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 10","t":"Dragon / Effect","atk":0,"def":0},"rarity":"GMR","img":"67886895","badge":"GMR","variant":"Grand Master Rare","code":"GMR2","idx":5},
+    {"id":"003","section":"main","num":"003","printed":"MAMS-EN003","name":"The Guiding Flute of Summoning Dragons","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UR","img":"93871599","code":"3","idx":6},
+    {"id":"003-str","section":"rarities","num":"003","printed":"MAMS-EN003","name":"The Guiding Flute of Summoning Dragons","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"StR","img":"93871599","badge":"StR","variant":"Starlight Rare","code":"STR3","idx":7},
+    {"id":"003-gmr","section":"rarities","num":"003","printed":"MAMS-EN003","name":"The Guiding Flute of Summoning Dragons","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"GMR","img":"93871599","badge":"GMR","variant":"Grand Master Rare","code":"GMR3","idx":8},
+    {"id":"004","section":"main","num":"004","printed":"MAMS-EN004","name":"Cyber End Dragon, the Final Strike Dragon","ctype":"monster","keywords":"Cyber Machine LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 10","t":"Machine / Fusion","atk":4000,"def":2800},"rarity":"UR","img":"30275298","code":"4","idx":9},
+    {"id":"004-str","section":"rarities","num":"004","printed":"MAMS-EN004","name":"Cyber End Dragon, the Final Strike Dragon","ctype":"monster","keywords":"Cyber Machine LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 10","t":"Machine / Fusion","atk":4000,"def":2800},"rarity":"StR","img":"30275298","badge":"StR","variant":"Starlight Rare","code":"STR4","idx":10},
+    {"id":"004-gmr","section":"rarities","num":"004","printed":"MAMS-EN004","name":"Cyber End Dragon, the Final Strike Dragon","ctype":"monster","keywords":"Cyber Machine LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 10","t":"Machine / Fusion","atk":4000,"def":2800},"rarity":"GMR","img":"30275298","badge":"GMR","variant":"Grand Master Rare","code":"GMR4","idx":11},
+    {"id":"005","section":"main","num":"005","printed":"MAMS-EN005","name":"Cyber Dragon, the Luminous Mech Dragon","ctype":"monster","keywords":"Cyber Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 5","t":"Machine / Effect","atk":2100,"def":1600},"rarity":"UR","img":"66664203","code":"5","idx":12},
+    {"id":"005-str","section":"rarities","num":"005","printed":"MAMS-EN005","name":"Cyber Dragon, the Luminous Mech Dragon","ctype":"monster","keywords":"Cyber Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 5","t":"Machine / Effect","atk":2100,"def":1600},"rarity":"StR","img":"66664203","badge":"StR","variant":"Starlight Rare","code":"STR5","idx":13},
+    {"id":"005-gmr","section":"rarities","num":"005","printed":"MAMS-EN005","name":"Cyber Dragon, the Luminous Mech Dragon","ctype":"monster","keywords":"Cyber Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 5","t":"Machine / Effect","atk":2100,"def":1600},"rarity":"GMR","img":"66664203","badge":"GMR","variant":"Grand Master Rare","code":"GMR5","idx":14},
+    {"id":"006","section":"main","num":"006","printed":"MAMS-EN006","name":"Future Fusion Nova","ctype":"spell","keywords":"Polymerization Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"UR","img":"92058902","code":"6","idx":15},
+    {"id":"006-str","section":"rarities","num":"006","printed":"MAMS-EN006","name":"Future Fusion Nova","ctype":"spell","keywords":"Polymerization Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"StR","img":"92058902","badge":"StR","variant":"Starlight Rare","code":"STR6","idx":16},
+    {"id":"006-gmr","section":"rarities","num":"006","printed":"MAMS-EN006","name":"Future Fusion Nova","ctype":"spell","keywords":"Polymerization Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"GMR","img":"92058902","badge":"GMR","variant":"Grand Master Rare","code":"GMR6","idx":17},
+    {"id":"007","section":"main","num":"007","printed":"MAMS-EN007","name":"Crimson Dragon Quetzalcoatl","ctype":"monster","keywords":"Dragon DARK Synchro Monster","stats":{"a":"DARK","l":"Level 12","t":"Dragon / Synchro","atk":0,"def":0},"rarity":"UR","img":"29053656","code":"7","idx":18},
+    {"id":"007-str","section":"rarities","num":"007","printed":"MAMS-EN007","name":"Crimson Dragon Quetzalcoatl","ctype":"monster","keywords":"Dragon DARK Synchro Monster","stats":{"a":"DARK","l":"Level 12","t":"Dragon / Synchro","atk":0,"def":0},"rarity":"StR","img":"29053656","badge":"StR","variant":"Starlight Rare","code":"STR7","idx":19},
+    {"id":"007-gmr","section":"rarities","num":"007","printed":"MAMS-EN007","name":"Crimson Dragon Quetzalcoatl","ctype":"monster","keywords":"Dragon DARK Synchro Monster","stats":{"a":"DARK","l":"Level 12","t":"Dragon / Synchro","atk":0,"def":0},"rarity":"GMR","img":"29053656","badge":"GMR","variant":"Grand Master Rare","code":"GMR7","idx":20},
+    {"id":"008","section":"main","num":"008","printed":"MAMS-EN008","name":"Red Nova Dragon - Burning Soul","ctype":"monster","keywords":"Cosmic Synchro Monster Dragon DARK Synchro Monster","stats":{"a":"DARK","l":"Level 12","t":"Dragon / Synchro","atk":3500,"def":3000},"rarity":"UR","img":"65541655","code":"8","idx":21},
+    {"id":"008-str","section":"rarities","num":"008","printed":"MAMS-EN008","name":"Red Nova Dragon - Burning Soul","ctype":"monster","keywords":"Cosmic Synchro Monster Dragon DARK Synchro Monster","stats":{"a":"DARK","l":"Level 12","t":"Dragon / Synchro","atk":3500,"def":3000},"rarity":"StR","img":"65541655","badge":"StR","variant":"Starlight Rare","code":"STR8","idx":22},
+    {"id":"008-gmr","section":"rarities","num":"008","printed":"MAMS-EN008","name":"Red Nova Dragon - Burning Soul","ctype":"monster","keywords":"Cosmic Synchro Monster Dragon DARK Synchro Monster","stats":{"a":"DARK","l":"Level 12","t":"Dragon / Synchro","atk":3500,"def":3000},"rarity":"GMR","img":"65541655","badge":"GMR","variant":"Grand Master Rare","code":"GMR8","idx":23},
+    {"id":"009","section":"main","num":"009","printed":"MAMS-EN009","name":"Red Dragon Archfiend's Chains","ctype":"trap","keywords":"Archfiend Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"UR","img":"92936364","code":"9","idx":24},
+    {"id":"009-str","section":"rarities","num":"009","printed":"MAMS-EN009","name":"Red Dragon Archfiend's Chains","ctype":"trap","keywords":"Archfiend Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"StR","img":"92936364","badge":"StR","variant":"Starlight Rare","code":"STR9","idx":25},
+    {"id":"009-gmr","section":"rarities","num":"009","printed":"MAMS-EN009","name":"Red Dragon Archfiend's Chains","ctype":"trap","keywords":"Archfiend Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"GMR","img":"92936364","badge":"GMR","variant":"Grand Master Rare","code":"GMR9","idx":26},
+    {"id":"010","section":"main","num":"010","printed":"MAMS-EN010","name":"Neo Galaxy-Eyes Photon Dragon - Photon Howling","ctype":"monster","keywords":"Galaxy Dragon LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 8","t":"Dragon / Xyz","atk":4500,"def":3000},"rarity":"UR","img":"28331069","code":"10","idx":27},
+    {"id":"010-str","section":"rarities","num":"010","printed":"MAMS-EN010","name":"Neo Galaxy-Eyes Photon Dragon - Photon Howling","ctype":"monster","keywords":"Galaxy Dragon LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 8","t":"Dragon / Xyz","atk":4500,"def":3000},"rarity":"StR","img":"28331069","badge":"StR","variant":"Starlight Rare","code":"STR10","idx":28},
+    {"id":"010-gmr","section":"rarities","num":"010","printed":"MAMS-EN010","name":"Neo Galaxy-Eyes Photon Dragon - Photon Howling","ctype":"monster","keywords":"Galaxy Dragon LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 8","t":"Dragon / Xyz","atk":4500,"def":3000},"rarity":"GMR","img":"28331069","badge":"GMR","variant":"Grand Master Rare","code":"GMR10","idx":29},
+    {"id":"011","section":"main","num":"011","printed":"MAMS-EN011","name":"Galaxy-Eyes Photon Change Dragon","ctype":"monster","keywords":"Change Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Effect","atk":3000,"def":2500},"rarity":"UR","img":"54725177","code":"11","idx":30},
+    {"id":"011-str","section":"rarities","num":"011","printed":"MAMS-EN011","name":"Galaxy-Eyes Photon Change Dragon","ctype":"monster","keywords":"Change Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Effect","atk":3000,"def":2500},"rarity":"StR","img":"54725177","badge":"StR","variant":"Starlight Rare","code":"STR11","idx":31},
+    {"id":"011-gmr","section":"rarities","num":"011","printed":"MAMS-EN011","name":"Galaxy-Eyes Photon Change Dragon","ctype":"monster","keywords":"Change Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Effect","atk":3000,"def":2500},"rarity":"GMR","img":"54725177","badge":"GMR","variant":"Grand Master Rare","code":"GMR11","idx":32},
+    {"id":"012","section":"main","num":"012","printed":"MAMS-EN012","name":"Galaxy Defense Robot Orbital 7","ctype":"monster","keywords":"Galaxy Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Machine / Effect","atk":2000,"def":2000},"rarity":"UR","img":"91714772","code":"12","idx":33},
+    {"id":"012-str","section":"rarities","num":"012","printed":"MAMS-EN012","name":"Galaxy Defense Robot Orbital 7","ctype":"monster","keywords":"Galaxy Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Machine / Effect","atk":2000,"def":2000},"rarity":"StR","img":"91714772","badge":"StR","variant":"Starlight Rare","code":"STR12","idx":34},
+    {"id":"012-gmr","section":"rarities","num":"012","printed":"MAMS-EN012","name":"Galaxy Defense Robot Orbital 7","ctype":"monster","keywords":"Galaxy Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Machine / Effect","atk":2000,"def":2000},"rarity":"GMR","img":"91714772","badge":"GMR","variant":"Grand Master Rare","code":"GMR12","idx":35},
+    {"id":"013","section":"main","num":"013","printed":"MAMS-EN013","name":"Starving Venom Fusion Dragon, Four Heavenly Dragons","ctype":"monster","keywords":"Fusion Dragon DARK Monster","stats":{"a":"DARK","l":"Level 8","t":"Dragon / Fusion","atk":2800,"def":2000},"rarity":"UR","img":"27118421","code":"13","idx":36},
+    {"id":"013-str","section":"rarities","num":"013","printed":"MAMS-EN013","name":"Starving Venom Fusion Dragon, Four Heavenly Dragons","ctype":"monster","keywords":"Fusion Dragon DARK Monster","stats":{"a":"DARK","l":"Level 8","t":"Dragon / Fusion","atk":2800,"def":2000},"rarity":"StR","img":"27118421","badge":"StR","variant":"Starlight Rare","code":"STR13","idx":37},
+    {"id":"013-gmr","section":"rarities","num":"013","printed":"MAMS-EN013","name":"Starving Venom Fusion Dragon, Four Heavenly Dragons","ctype":"monster","keywords":"Fusion Dragon DARK Monster","stats":{"a":"DARK","l":"Level 8","t":"Dragon / Fusion","atk":2800,"def":2000},"rarity":"GMR","img":"27118421","badge":"GMR","variant":"Grand Master Rare","code":"GMR13","idx":38},
+    {"id":"014","section":"main","num":"014","printed":"MAMS-EN014","name":"Clear Wing Synchro Dragon, Four Heavenly Dragons","ctype":"monster","keywords":"Clear Wing Dragon WIND Synchro Monster","stats":{"a":"WIND","l":"Level 7","t":"Dragon / Synchro","atk":2500,"def":2000},"rarity":"UR","img":"54603525","code":"14","idx":39},
+    {"id":"014-str","section":"rarities","num":"014","printed":"MAMS-EN014","name":"Clear Wing Synchro Dragon, Four Heavenly Dragons","ctype":"monster","keywords":"Clear Wing Dragon WIND Synchro Monster","stats":{"a":"WIND","l":"Level 7","t":"Dragon / Synchro","atk":2500,"def":2000},"rarity":"StR","img":"54603525","badge":"StR","variant":"Starlight Rare","code":"STR14","idx":40},
+    {"id":"014-gmr","section":"rarities","num":"014","printed":"MAMS-EN014","name":"Clear Wing Synchro Dragon, Four Heavenly Dragons","ctype":"monster","keywords":"Clear Wing Dragon WIND Synchro Monster","stats":{"a":"WIND","l":"Level 7","t":"Dragon / Synchro","atk":2500,"def":2000},"rarity":"GMR","img":"54603525","badge":"GMR","variant":"Grand Master Rare","code":"GMR14","idx":41},
+    {"id":"015","section":"main","num":"015","printed":"MAMS-EN015","name":"Dark Rebellion Xyz Dragon, Four Heavenly Dragons","ctype":"monster","keywords":"Phantom Knights Dragon DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 4","t":"Dragon / Xyz","atk":2500,"def":2000},"rarity":"UR","img":"90091224","code":"15","idx":42},
+    {"id":"015-str","section":"rarities","num":"015","printed":"MAMS-EN015","name":"Dark Rebellion Xyz Dragon, Four Heavenly Dragons","ctype":"monster","keywords":"Phantom Knights Dragon DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 4","t":"Dragon / Xyz","atk":2500,"def":2000},"rarity":"StR","img":"90091224","badge":"StR","variant":"Starlight Rare","code":"STR15","idx":43},
+    {"id":"015-gmr","section":"rarities","num":"015","printed":"MAMS-EN015","name":"Dark Rebellion Xyz Dragon, Four Heavenly Dragons","ctype":"monster","keywords":"Phantom Knights Dragon DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 4","t":"Dragon / Xyz","atk":2500,"def":2000},"rarity":"GMR","img":"90091224","badge":"GMR","variant":"Grand Master Rare","code":"GMR15","idx":44},
+    {"id":"016","section":"main","num":"016","printed":"MAMS-EN016","name":"Borreload Liberator Dragon","ctype":"monster","keywords":"Borrel Dragon DARK Link Monster","stats":{"a":"DARK","l":"Link 4","t":"Dragon / Link","atk":3000},"rarity":"UR","img":"27096833","code":"16","idx":45},
+    {"id":"016-str","section":"rarities","num":"016","printed":"MAMS-EN016","name":"Borreload Liberator Dragon","ctype":"monster","keywords":"Borrel Dragon DARK Link Monster","stats":{"a":"DARK","l":"Link 4","t":"Dragon / Link","atk":3000},"rarity":"StR","img":"27096833","badge":"StR","variant":"Starlight Rare","code":"STR16","idx":46},
+    {"id":"016-gmr","section":"rarities","num":"016","printed":"MAMS-EN016","name":"Borreload Liberator Dragon","ctype":"monster","keywords":"Borrel Dragon DARK Link Monster","stats":{"a":"DARK","l":"Link 4","t":"Dragon / Link","atk":3000},"rarity":"GMR","img":"27096833","badge":"GMR","variant":"Grand Master Rare","code":"GMR16","idx":47},
+    {"id":"017","section":"main","num":"017","printed":"MAMS-EN017","name":"Rokket Barrage","ctype":"monster","keywords":"Rokket Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 5","t":"Dragon / Effect","atk":1500,"def":1600},"rarity":"UR","img":"53481938","code":"17","idx":48},
+    {"id":"017-str","section":"rarities","num":"017","printed":"MAMS-EN017","name":"Rokket Barrage","ctype":"monster","keywords":"Rokket Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 5","t":"Dragon / Effect","atk":1500,"def":1600},"rarity":"StR","img":"53481938","badge":"StR","variant":"Starlight Rare","code":"STR17","idx":49},
+    {"id":"017-gmr","section":"rarities","num":"017","printed":"MAMS-EN017","name":"Rokket Barrage","ctype":"monster","keywords":"Rokket Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 5","t":"Dragon / Effect","atk":1500,"def":1600},"rarity":"GMR","img":"53481938","badge":"GMR","variant":"Grand Master Rare","code":"GMR17","idx":50},
+    {"id":"018","section":"main","num":"018","printed":"MAMS-EN018","name":"Triple Borrel Launch","ctype":"spell","keywords":"Borrel Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"UR","img":"89875646","code":"18","idx":51},
+    {"id":"018-str","section":"rarities","num":"018","printed":"MAMS-EN018","name":"Triple Borrel Launch","ctype":"spell","keywords":"Borrel Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"StR","img":"89875646","badge":"StR","variant":"Starlight Rare","code":"STR18","idx":52},
+    {"id":"018-gmr","section":"rarities","num":"018","printed":"MAMS-EN018","name":"Triple Borrel Launch","ctype":"spell","keywords":"Borrel Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"GMR","img":"89875646","badge":"GMR","variant":"Grand Master Rare","code":"GMR18","idx":53},
+    {"id":"120","section":"main","num":"120","printed":"MAMS-EN120","name":"Blue-Eyes Toon Dragon","ctype":"monster","keywords":"Toon Dragon LIGHT Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Toon","atk":3000,"def":2500},"rarity":"UR","img":"53183600","code":"120","idx":54},
+    {"id":"120-str","section":"rarities","num":"120","printed":"MAMS-EN120","name":"Blue-Eyes Toon Dragon","ctype":"monster","keywords":"Toon Dragon LIGHT Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Toon","atk":3000,"def":2500},"rarity":"StR","img":"53183600","badge":"StR","variant":"Starlight Rare","code":"STR120","idx":55},
+    {"id":"121","section":"main","num":"121","printed":"MAMS-EN121","name":"Toon Dark Magician Girl","ctype":"monster","keywords":"Toon Spellcaster DARK Monster","stats":{"a":"DARK","l":"Level 6","t":"Spellcaster / Toon","atk":2000,"def":1700},"rarity":"UR","img":"90960358","code":"121","idx":56},
+    {"id":"121-str","section":"rarities","num":"121","printed":"MAMS-EN121","name":"Toon Dark Magician Girl","ctype":"monster","keywords":"Toon Spellcaster DARK Monster","stats":{"a":"DARK","l":"Level 6","t":"Spellcaster / Toon","atk":2000,"def":1700},"rarity":"StR","img":"90960358","badge":"StR","variant":"Starlight Rare","code":"STR121","idx":57},
+    {"id":"122","section":"main","num":"122","printed":"MAMS-EN122","name":"Witchcrafter Madame Verre","ctype":"monster","keywords":"Witchcrafter Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Spellcaster / Effect","atk":1000,"def":2800},"rarity":"UR","img":"21522601","code":"122","idx":58},
+    {"id":"122-str","section":"rarities","num":"122","printed":"MAMS-EN122","name":"Witchcrafter Madame Verre","ctype":"monster","keywords":"Witchcrafter Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Spellcaster / Effect","atk":1000,"def":2800},"rarity":"StR","img":"21522601","badge":"StR","variant":"Starlight Rare","code":"STR122","idx":59},
+    {"id":"123","section":"main","num":"123","printed":"MAMS-EN123","name":"Witchcrafter Vice-Madame","ctype":"monster","keywords":"Witchcrafter Spellcaster DARK Fusion Monster","stats":{"a":"DARK","l":"Level 8","t":"Spellcaster / Fusion","atk":2700,"def":2800},"rarity":"UR","img":"9603252","code":"123","idx":60},
+    {"id":"123-str","section":"rarities","num":"123","printed":"MAMS-EN123","name":"Witchcrafter Vice-Madame","ctype":"monster","keywords":"Witchcrafter Spellcaster DARK Fusion Monster","stats":{"a":"DARK","l":"Level 8","t":"Spellcaster / Fusion","atk":2700,"def":2800},"rarity":"StR","img":"9603252","badge":"StR","variant":"Starlight Rare","code":"STR123","idx":61},
+    {"id":"124","section":"main","num":"124","printed":"MAMS-EN124","name":"Unchained Abomination","ctype":"monster","keywords":"Unchained Fiend DARK Link Monster","stats":{"a":"DARK","l":"Link 4","t":"Fiend / Link","atk":3000},"rarity":"UR","img":"29479265","code":"124","idx":62},
+    {"id":"124-str","section":"rarities","num":"124","printed":"MAMS-EN124","name":"Unchained Abomination","ctype":"monster","keywords":"Unchained Fiend DARK Link Monster","stats":{"a":"DARK","l":"Link 4","t":"Fiend / Link","atk":3000},"rarity":"StR","img":"29479265","badge":"StR","variant":"Starlight Rare","code":"STR124","idx":63},
+    {"id":"125","section":"main","num":"125","printed":"MAMS-EN125","name":"Unchained Soul Lord of Yama","ctype":"monster","keywords":"Unchained Fiend DARK Link Monster","stats":{"a":"DARK","l":"Link 2","t":"Fiend / Link","atk":2000},"rarity":"UR","img":"24269961","code":"125","idx":64},
+    {"id":"125-str","section":"rarities","num":"125","printed":"MAMS-EN125","name":"Unchained Soul Lord of Yama","ctype":"monster","keywords":"Unchained Fiend DARK Link Monster","stats":{"a":"DARK","l":"Link 2","t":"Fiend / Link","atk":2000},"rarity":"StR","img":"24269961","badge":"StR","variant":"Starlight Rare","code":"STR125","idx":65}
+  ]
+}

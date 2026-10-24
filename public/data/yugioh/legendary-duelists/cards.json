@@ -1,0 +1,112 @@
+{
+  "id": "yugioh/legendary-duelists",
+  "game": "yugioh",
+  "slug": "legendary-duelists",
+  "name": "Legendary Duelists",
+  "series": "VRAINS",
+  "kind": "set",
+  "code": "LEDU",
+  "syncKey": "YLEDU",
+  "released": "2017-09-07",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Main Set",
+      "range": "LEDU-EN000–LEDU-EN051",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from LEDU-EN000 to LEDU-EN051."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Legendary Duelists Checklist · All 52 Cards",
+    "description": "Free Yu-Gi-Oh! Legendary Duelists checklist with no ads, no sign-up and no tracking. Track all 52 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Legendary Duelists Checklist",
+    "ogDescription": "Track all 52 cards in Yu-Gi-Oh! Legendary Duelists. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 52 cards in Yu-Gi-Oh! Legendary Duelists. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About the Legendary Duelists set",
+    "paragraphs": [
+      "Legendary Duelists is a Yu-Gi-Oh! TCG special set released on 7 September 2017, in the VRAINS era. It has 52 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Legendary Duelists"
+    ],
+    "tcgplayer": [
+      2049
+    ]
+  },
+  "cards": [
+    {"id":"000","section":"main","num":"000","printed":"LEDU-EN000","name":"Red-Eyes Black Dragon","ctype":"monster","keywords":"Red-Eyes Dragon DARK Normal Monster","stats":{"a":"DARK","l":"Level 7","t":"Dragon / Normal","atk":2400,"def":2000},"rarity":"C","img":"74677422","code":"0","tcg":144947,"grp":2049,"idx":0},
+    {"id":"001","section":"main","num":"001","printed":"LEDU-EN001","name":"Red-Eyes Baby Dragon","ctype":"monster","keywords":"Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Dragon / Effect","atk":1200,"def":700},"rarity":"UR","img":"58257569","code":"1","tcg":144948,"grp":2049,"idx":1},
+    {"id":"002","section":"main","num":"002","printed":"LEDU-EN002","name":"Gearfried the Red-Eyes Iron Knight","ctype":"monster","keywords":"Red-Eyes Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Warrior / Effect","atk":1800,"def":1600},"rarity":"UR","img":"85651167","code":"2","tcg":144949,"grp":2049,"idx":2},
+    {"id":"003","section":"main","num":"003","printed":"LEDU-EN003","name":"Red-Eyes Slash Dragon","ctype":"monster","keywords":"Red-Eyes Dragon DARK Fusion Monster","stats":{"a":"DARK","l":"Level 7","t":"Dragon / Fusion","atk":2800,"def":2400},"rarity":"UR","img":"21140872","code":"3","tcg":144951,"grp":2049,"idx":3},
+    {"id":"004","section":"main","num":"004","printed":"LEDU-EN004","name":"Red-Eyes Fang with Chain","ctype":"trap","keywords":"Red-Eyes Normal Trap","stats":{"t":"Normal Trap"},"rarity":"UR","img":"57135971","code":"4","tcg":144952,"grp":2049,"idx":4},
+    {"id":"005","section":"main","num":"005","printed":"LEDU-EN005","name":"Red-Eyes Retro Dragon","ctype":"monster","keywords":"Red-Eyes Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Dragon / Effect","atk":1700,"def":1600},"rarity":"C","img":"53485634","code":"5","tcg":144953,"grp":2049,"idx":5},
+    {"id":"006","section":"main","num":"006","printed":"LEDU-EN006","name":"Red-Eyes Fusion","ctype":"spell","keywords":"Red-Eyes Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"6172122","code":"6","tcg":144954,"grp":2049,"idx":6},
+    {"id":"007","section":"main","num":"007","printed":"LEDU-EN007","name":"Inferno Fire Blast","ctype":"spell","keywords":"Red-Eyes Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"52684508","code":"7","tcg":144955,"grp":2049,"idx":7},
+    {"id":"008","section":"main","num":"008","printed":"LEDU-EN008","name":"Amazoness Princess","ctype":"monster","keywords":"Amazoness Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Warrior / Effect","atk":1200,"def":900},"rarity":"SR","img":"84539520","code":"8","tcg":144957,"grp":2049,"idx":8},
+    {"id":"009","section":"main","num":"009","printed":"LEDU-EN009","name":"Amazoness Baby Tiger","ctype":"monster","keywords":"Amazoness Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 2","t":"Beast / Effect","atk":500,"def":500},"rarity":"UR","img":"10928224","code":"9","tcg":144959,"grp":2049,"idx":9},
+    {"id":"010","section":"main","num":"010","printed":"LEDU-EN010","name":"Amazoness Call","ctype":"spell","keywords":"Amazoness Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"R","img":"57312333","code":"10","tcg":144961,"grp":2049,"idx":10},
+    {"id":"011","section":"main","num":"011","printed":"LEDU-EN011","name":"Amazoness Onslaught","ctype":"trap","keywords":"Amazoness Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"R","img":"83407038","code":"11","tcg":144962,"grp":2049,"idx":11},
+    {"id":"012","section":"main","num":"012","printed":"LEDU-EN012","name":"Amazoness Archer","ctype":"monster","keywords":"Amazoness Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Effect","atk":1400,"def":1000},"rarity":"C","img":"91869203","code":"12","tcg":144965,"grp":2049,"idx":12},
+    {"id":"013","section":"main","num":"013","printed":"LEDU-EN013","name":"Amazoness Swords Woman","ctype":"monster","keywords":"Amazoness Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Effect","atk":1500,"def":1600},"rarity":"C","img":"94004268","code":"13","tcg":144966,"grp":2049,"idx":13},
+    {"id":"014","section":"main","num":"014","printed":"LEDU-EN014","name":"Amazoness Village","ctype":"spell","keywords":"Amazoness Field Spell","stats":{"t":"Field Spell"},"rarity":"C","img":"712559","code":"14","tcg":144968,"grp":2049,"idx":14},
+    {"id":"015","section":"main","num":"015","printed":"LEDU-EN015","name":"The Legendary Fisherman II","ctype":"monster","keywords":"Umi Warrior WATER Effect Monster","stats":{"a":"WATER","l":"Level 5","t":"Warrior / Effect","atk":2200,"def":1800},"rarity":"SR","img":"19801646","code":"15","tcg":144970,"grp":2049,"idx":15},
+    {"id":"016","section":"main","num":"016","printed":"LEDU-EN016","name":"Citadel Whale","ctype":"monster","keywords":"Umi Fish WATER Effect Monster","stats":{"a":"WATER","l":"Level 7","t":"Fish / Effect","atk":2350,"def":2150},"rarity":"UR","img":"46290741","code":"16","tcg":144972,"grp":2049,"idx":16},
+    {"id":"017","section":"main","num":"017","printed":"LEDU-EN017","name":"Rage of Kairyu-Shin","ctype":"spell","keywords":"Umi Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"R","img":"82685480","code":"17","tcg":144973,"grp":2049,"idx":17},
+    {"id":"018","section":"main","num":"018","printed":"LEDU-EN018","name":"Sea Stealth Attack","ctype":"trap","keywords":"Umi Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"R","img":"19089195","code":"18","tcg":144975,"grp":2049,"idx":18},
+    {"id":"019","section":"main","num":"019","printed":"LEDU-EN019","name":"The Legendary Fisherman","ctype":"monster","keywords":"Umi Warrior WATER Effect Monster","stats":{"a":"WATER","l":"Level 5","t":"Warrior / Effect","atk":1850,"def":1600},"rarity":"C","img":"3643300","code":"19","tcg":144976,"grp":2049,"idx":19},
+    {"id":"020","section":"main","num":"020","printed":"LEDU-EN020","name":"The Legendary Fisherman III","ctype":"monster","keywords":"Umi Warrior WATER Effect Monster","stats":{"a":"WATER","l":"Level 7","t":"Warrior / Effect","atk":2500,"def":2000},"rarity":"C","img":"44968687","code":"20","tcg":144983,"grp":2049,"idx":20},
+    {"id":"021","section":"main","num":"021","printed":"LEDU-EN021","name":"A Legendary Ocean","ctype":"spell","keywords":"Umi Field Spell","stats":{"t":"Field Spell"},"rarity":"C","img":"295517","code":"21","tcg":144984,"grp":2049,"idx":21},
+    {"id":"022","section":"main","num":"022","printed":"LEDU-EN022","name":"Cyberdark Cannon","ctype":"monster","keywords":"Cyberdark Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Dragon / Effect","atk":1600,"def":800},"rarity":"R","img":"45078193","code":"22","tcg":144985,"grp":2049,"idx":22},
+    {"id":"023","section":"main","num":"023","printed":"LEDU-EN023","name":"Cyberdark Claw","ctype":"monster","keywords":"Cyberdark Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Dragon / Effect","atk":1600,"def":800},"rarity":"R","img":"82562802","code":"23","tcg":144986,"grp":2049,"idx":23},
+    {"id":"024","section":"main","num":"024","printed":"LEDU-EN024","name":"Cyberdarkness Dragon","ctype":"monster","keywords":"Cyberdark Machine DARK Fusion Monster","stats":{"a":"DARK","l":"Level 10","t":"Machine / Fusion","atk":2000,"def":2000},"rarity":"SR","img":"18967507","code":"24","tcg":144987,"grp":2049,"idx":24},
+    {"id":"025","section":"main","num":"025","printed":"LEDU-EN025","name":"Cyberdark Inferno","ctype":"spell","keywords":"Cyberdark Field Spell","stats":{"t":"Field Spell"},"rarity":"SR","img":"44352516","code":"25","tcg":144988,"grp":2049,"idx":25},
+    {"id":"026","section":"main","num":"026","printed":"LEDU-EN026","name":"Cyberdark Horn","ctype":"monster","keywords":"Cyberdark Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Machine / Effect","atk":800,"def":800},"rarity":"C","img":"41230939","code":"26","tcg":144989,"grp":2049,"idx":26},
+    {"id":"027","section":"main","num":"027","printed":"LEDU-EN027","name":"Cyberdark Edge","ctype":"monster","keywords":"Cyberdark Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Machine / Effect","atk":800,"def":800},"rarity":"C","img":"77625948","code":"27","tcg":144990,"grp":2049,"idx":27},
+    {"id":"028","section":"main","num":"028","printed":"LEDU-EN028","name":"Cyberdark Keel","ctype":"monster","keywords":"Cyberdark Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Machine / Effect","atk":800,"def":800},"rarity":"C","img":"3019642","code":"28","tcg":144993,"grp":2049,"idx":28},
+    {"id":"029","section":"main","num":"029","printed":"LEDU-EN029","name":"Mixeroid","ctype":"monster","keywords":"Roid Machine WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Machine / Effect","atk":0,"def":2200},"rarity":"R","img":"71340250","code":"29","tcg":144995,"grp":2049,"idx":29},
+    {"id":"030","section":"main","num":"030","printed":"LEDU-EN030","name":"Super Vehicroid - Mobile Base","ctype":"monster","keywords":"Roid Machine EARTH Fusion Monster","stats":{"a":"EARTH","l":"Level 10","t":"Machine / Fusion","atk":0,"def":5000},"rarity":"SR","img":"17745969","code":"30","tcg":144997,"grp":2049,"idx":30},
+    {"id":"031","section":"main","num":"031","printed":"LEDU-EN031","name":"Megaroid City","ctype":"spell","keywords":"Roid Field Spell","stats":{"t":"Field Spell"},"rarity":"R","img":"44139064","code":"31","tcg":144999,"grp":2049,"idx":31},
+    {"id":"032","section":"main","num":"032","printed":"LEDU-EN032","name":"Emergeroid Call","ctype":"trap","keywords":"Roid Counter Trap","stats":{"t":"Counter Trap"},"rarity":"UR","img":"70628672","code":"32","tcg":145000,"grp":2049,"idx":32},
+    {"id":"033","section":"main","num":"033","printed":"LEDU-EN033","name":"Expressroid","ctype":"monster","keywords":"Roid Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Machine / Effect","atk":400,"def":1600},"rarity":"C","img":"984114","code":"33","tcg":145003,"grp":2049,"idx":33},
+    {"id":"034","section":"main","num":"034","printed":"LEDU-EN034","name":"Armoroid","ctype":"monster","keywords":"Roid Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 8","t":"Machine / Effect","atk":2700,"def":2000},"rarity":"C","img":"73333463","code":"34","tcg":145007,"grp":2049,"idx":34},
+    {"id":"035","section":"main","num":"035","printed":"LEDU-EN035","name":"Vehicroid Connection Zone","ctype":"spell","keywords":"Roid Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"23299957","code":"35","tcg":145010,"grp":2049,"idx":35},
+    {"id":"036","section":"main","num":"036","printed":"LEDU-EN036","name":"Water Dragon Cluster","ctype":"monster","keywords":"Bonding Sea Serpent WATER Effect Monster","stats":{"a":"WATER","l":"Level 10","t":"Sea Serpent / Effect","atk":2800,"def":2600},"rarity":"SR","img":"6022371","code":"36","tcg":145011,"grp":2049,"idx":36},
+    {"id":"037","section":"main","num":"037","printed":"LEDU-EN037","name":"Duoterion","ctype":"monster","keywords":"Bonding Dinosaur WATER Effect Monster","stats":{"a":"WATER","l":"Level 5","t":"Dinosaur / Effect","atk":2000,"def":1400},"rarity":"SR","img":"43017476","code":"37","tcg":145012,"grp":2049,"idx":37},
+    {"id":"038","section":"main","num":"038","printed":"LEDU-EN038","name":"Bonding - D2O","ctype":"spell","keywords":"Bonding Normal Spell","stats":{"t":"Normal Spell"},"rarity":"R","img":"79402185","code":"38","tcg":145014,"grp":2049,"idx":38},
+    {"id":"039","section":"main","num":"039","printed":"LEDU-EN039","name":"Bonding - DHO","ctype":"trap","keywords":"Bonding Normal Trap","stats":{"t":"Normal Trap"},"rarity":"R","img":"6890729","code":"39","tcg":145016,"grp":2049,"idx":39},
+    {"id":"040","section":"main","num":"040","printed":"LEDU-EN040","name":"Hydrogeddon","ctype":"monster","keywords":"Bonding Dinosaur WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Dinosaur / Effect","atk":1600,"def":1000},"rarity":"C","img":"22587018","code":"40","tcg":145018,"grp":2049,"idx":40},
+    {"id":"041","section":"main","num":"041","printed":"LEDU-EN041","name":"Oxygeddon","ctype":"monster","keywords":"Bonding Dinosaur WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Dinosaur / Effect","atk":1800,"def":800},"rarity":"C","img":"58071123","code":"41","tcg":145019,"grp":2049,"idx":41},
+    {"id":"042","section":"main","num":"042","printed":"LEDU-EN042","name":"Water Dragon","ctype":"monster","keywords":"Bonding Sea Serpent WATER Effect Monster","stats":{"a":"WATER","l":"Level 8","t":"Sea Serpent / Effect","atk":2800,"def":2600},"rarity":"C","img":"85066822","code":"42","tcg":145021,"grp":2049,"idx":42},
+    {"id":"043","section":"main","num":"043","printed":"LEDU-EN043","name":"Sphere Kuriboh","ctype":"monster","keywords":"Kuriboh Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Fiend / Effect","atk":300,"def":200},"rarity":"C","img":"33245030","code":"43","tcg":145023,"grp":2049,"idx":43},
+    {"id":"044","section":"main","num":"044","printed":"LEDU-EN044","name":"Yomi Ship","ctype":"monster","keywords":"Aqua WATER Effect Monster","stats":{"a":"WATER","l":"Level 3","t":"Aqua / Effect","atk":800,"def":1400},"rarity":"C","img":"51534754","code":"44","tcg":145024,"grp":2049,"idx":44},
+    {"id":"045","section":"main","num":"045","printed":"LEDU-EN045","name":"Leotaur","ctype":"monster","keywords":"Beast-Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Beast-Warrior / Effect","atk":1500,"def":1600},"rarity":"C","img":"98225108","code":"45","tcg":145025,"grp":2049,"idx":45},
+    {"id":"046","section":"main","num":"046","printed":"LEDU-EN046","name":"Sergeant Electro","ctype":"monster","keywords":"Machine FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Machine / Effect","atk":1600,"def":1300},"rarity":"C","img":"43359262","code":"46","tcg":145026,"grp":2049,"idx":46},
+    {"id":"047","section":"main","num":"047","printed":"LEDU-EN047","name":"Riryoku","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"34016756","code":"47","tcg":145027,"grp":2049,"idx":47},
+    {"id":"048","section":"main","num":"048","printed":"LEDU-EN048","name":"Monster Reincarnation","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"74848038","code":"48","tcg":145028,"grp":2049,"idx":48},
+    {"id":"049","section":"main","num":"049","printed":"LEDU-EN049","name":"Wonder Balloons","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"78574395","code":"49","tcg":145030,"grp":2049,"idx":49},
+    {"id":"050","section":"main","num":"050","printed":"LEDU-EN050","name":"The Golden Apples","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"42671151","code":"50","tcg":145032,"grp":2049,"idx":50},
+    {"id":"051","section":"main","num":"051","printed":"LEDU-EN051","name":"Bonding - H2O","ctype":"spell","keywords":"Bonding Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"45898858","code":"51","tcg":145035,"grp":2049,"idx":51}
+  ]
+}

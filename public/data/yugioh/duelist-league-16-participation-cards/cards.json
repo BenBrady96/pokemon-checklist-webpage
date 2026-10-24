@@ -1,0 +1,80 @@
+{
+  "id": "yugioh/duelist-league-16-participation-cards",
+  "game": "yugioh",
+  "slug": "duelist-league-16-participation-cards",
+  "name": "Duelist League 16 participation cards",
+  "series": "Promos",
+  "kind": "promo",
+  "code": "DL16",
+  "syncKey": "YDL16",
+  "released": "2013-07-01",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "DL16-EN001–DL16-EN020",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. Numbers count down the list in order: <b>1-5</b> is the first five cards and <b>3x2</b> is two copies of the third.",
+    "empty": "Cards run from DL16-EN001 to DL16-EN020."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Duelist League 16 participation cards Checklist · All 20 Cards",
+    "description": "Free Yu-Gi-Oh! Duelist League 16 participation cards checklist with no ads, no sign-up and no tracking. Track all 20 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Duelist League 16 participation cards Checklist",
+    "ogDescription": "Track all 20 cards in Yu-Gi-Oh! Duelist League 16 participation cards. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 20 cards in Yu-Gi-Oh! Duelist League 16 participation cards. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Duelist League 16 participation cards",
+    "paragraphs": [
+      "Duelist League 16 participation cards is a Yu-Gi-Oh! TCG promo list released on 1 July 2013. It has 20 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Duelist League 16 participation cards"
+    ],
+    "tcgplayer": [
+      182
+    ]
+  },
+  "cards": [
+    {"id":"DL16-001","section":"main","num":"DL16-EN001","printed":"DL16-EN001","name":"Sabersaurus","ctype":"monster","keywords":"Dinosaur EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 4","t":"Dinosaur / Normal","atk":1900,"def":500},"note":"Duelist League 16 participation cards","rarity":"R","img":"37265642","code":"1","tcg":77597,"grp":182,"idx":0},
+    {"id":"DL16-002","section":"main","num":"DL16-EN002","printed":"DL16-EN002","name":"Vampire Baby","ctype":"monster","keywords":"Vampire Zombie DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Zombie / Effect","atk":700,"def":1000},"note":"Duelist League 16 participation cards","rarity":"R","img":"56387350","code":"2","tcg":77601,"grp":182,"idx":1},
+    {"id":"DL16-003","section":"main","num":"DL16-EN003","printed":"DL16-EN003","name":"Vampire's Curse","ctype":"monster","keywords":"Vampire Zombie DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Zombie / Effect","atk":2000,"def":800},"note":"Duelist League 16 participation cards","rarity":"R","img":"34294855","code":"3","tcg":77605,"grp":182,"idx":2},
+    {"id":"DL16-004","section":"main","num":"DL16-EN004","printed":"DL16-EN004","name":"Kuraz the Light Monarch","ctype":"monster","keywords":"Monarch Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Warrior / Effect","atk":2400,"def":1000},"note":"Duelist League 16 participation cards","rarity":"R","img":"57666212","code":"4","tcg":77609,"grp":182,"idx":3},
+    {"id":"DL16-005","section":"main","num":"DL16-EN005","printed":"DL16-EN005","name":"Rose, Warrior of Revenge","ctype":"monster","keywords":"Rose Dragon Warrior FIRE Tuner Monster","stats":{"a":"FIRE","l":"Level 4","t":"Warrior / Tuner","atk":1600,"def":600},"note":"Duelist League 16 participation cards","rarity":"R","img":"1557341","code":"5","tcg":77613,"grp":182,"idx":4},
+    {"id":"DL16-006","section":"main","num":"DL16-EN006","printed":"DL16-EN006","name":"Endymion, the Master Magician","ctype":"monster","keywords":"Endymion Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Spellcaster / Effect","atk":2700,"def":1700},"note":"Duelist League 16 participation cards","rarity":"R","img":"40732515","code":"6","tcg":77617,"grp":182,"idx":5},
+    {"id":"DL16-007","section":"main","num":"DL16-EN007","printed":"DL16-EN007","name":"Kasha","ctype":"monster","keywords":"Zombie EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 8","t":"Zombie / Effect","atk":-1,"def":1000},"note":"Duelist League 16 participation cards","rarity":"R","img":"52512994","code":"7","tcg":77621,"grp":182,"idx":6},
+    {"id":"DL16-008","section":"main","num":"DL16-EN008","printed":"DL16-EN008","name":"Victoria","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fairy / Effect","atk":1800,"def":1500},"note":"Duelist League 16 participation cards","rarity":"R","img":"75162696","code":"8","tcg":77625,"grp":182,"idx":7},
+    {"id":"DL16-009","section":"main","num":"DL16-EN009","printed":"DL16-EN009","name":"Geargiano","ctype":"monster","keywords":"Geargia Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Machine / Effect","atk":500,"def":1000},"note":"Duelist League 16 participation cards","rarity":"R","img":"71786742","code":"9","tcg":77629,"grp":182,"idx":8},
+    {"id":"DL16-010","section":"main","num":"DL16-EN010","printed":"DL16-EN010","name":"The Supremacy Sun","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 10","t":"Fiend / Effect","atk":3000,"def":3000},"note":"Duelist League 16 participation cards","rarity":"R","img":"51402908","code":"10","tcg":77633,"grp":182,"idx":9},
+    {"id":"DL16-011","section":"main","num":"DL16-EN011","printed":"DL16-EN011","name":"Doomkaiser Dragon","ctype":"monster","keywords":"Zombie FIRE Synchro Monster","stats":{"a":"FIRE","l":"Level 6","t":"Zombie / Synchro","atk":2400,"def":1500},"note":"Duelist League 16 participation cards","rarity":"R","img":"6021033","code":"11","tcg":77637,"grp":182,"idx":10},
+    {"id":"DL16-012","section":"main","num":"DL16-EN012","printed":"DL16-EN012","name":"Thunder End Dragon","ctype":"monster","keywords":"Dragon LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 8","t":"Dragon / Xyz","atk":3000,"def":2000},"note":"Duelist League 16 participation cards","rarity":"R","img":"698785","code":"12","tcg":77641,"grp":182,"idx":11},
+    {"id":"DL16-013","section":"main","num":"DL16-EN013","printed":"DL16-EN013","name":"Limiter Removal","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"note":"Duelist League 16 participation cards","rarity":"R","img":"23171610","code":"13","tcg":77645,"grp":182,"idx":12},
+    {"id":"DL16-014","section":"main","num":"DL16-EN014","printed":"DL16-EN014","name":"Machine Assembly Line","ctype":"spell","keywords":"Junk Continuous Spell","stats":{"t":"Continuous Spell"},"note":"Duelist League 16 participation cards","rarity":"R","img":"25518020","code":"14","tcg":77649,"grp":182,"idx":13},
+    {"id":"DL16-015","section":"main","num":"DL16-EN015","printed":"DL16-EN015","name":"Beast Soul Swap","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"note":"Duelist League 16 participation cards","rarity":"R","img":"35149085","code":"15","tcg":77653,"grp":182,"idx":14},
+    {"id":"DL16-016","section":"main","num":"DL16-EN016","printed":"DL16-EN016","name":"Generation Shift","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"note":"Duelist League 16 participation cards","rarity":"R","img":"34460239","code":"16","tcg":77657,"grp":182,"idx":15},
+    {"id":"DL16-017","section":"main","num":"DL16-EN017","printed":"DL16-EN017","name":"Supercharge","ctype":"trap","keywords":"Roid Normal Trap","stats":{"t":"Normal Trap"},"note":"Duelist League 16 participation cards","rarity":"R","img":"97705809","code":"17","tcg":77661,"grp":182,"idx":16},
+    {"id":"DL16-018","section":"main","num":"DL16-EN018","printed":"DL16-EN018","name":"Giant Trap Hole","ctype":"trap","keywords":"Hole Normal Trap","stats":{"t":"Normal Trap"},"note":"Duelist League 16 participation cards","rarity":"R","img":"80723580","code":"18","tcg":77665,"grp":182,"idx":17},
+    {"id":"DL16-019","section":"main","num":"DL16-EN019","printed":"DL16-EN019","name":"Stygian Dirge","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"note":"Duelist League 16 participation cards","rarity":"R","img":"81489939","code":"19","tcg":77669,"grp":182,"idx":18},
+    {"id":"DL16-020","section":"main","num":"DL16-EN020","printed":"DL16-EN020","name":"Darkfall","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"note":"Duelist League 16 participation cards","rarity":"R","img":"30127518","code":"20","tcg":77673,"grp":182,"idx":19}
+  ]
+}

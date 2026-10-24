@@ -1,0 +1,86 @@
+{
+  "id": "yugioh/ots-tournament-pack-8",
+  "game": "yugioh",
+  "slug": "ots-tournament-pack-8",
+  "name": "OTS Tournament Pack 8",
+  "series": "VRAINS",
+  "kind": "pack",
+  "code": "OP08",
+  "syncKey": "YOP08",
+  "released": "2018-08-17",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "OP08-EN001–OP08-EN026",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from OP08-EN001 to OP08-EN026."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! OTS Tournament Pack 8 Checklist · All 26 Cards",
+    "description": "Free Yu-Gi-Oh! OTS Tournament Pack 8 checklist with no ads, no sign-up and no tracking. Track all 26 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! OTS Tournament Pack 8 Checklist",
+    "ogDescription": "Track all 26 cards in Yu-Gi-Oh! OTS Tournament Pack 8. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 26 cards in Yu-Gi-Oh! OTS Tournament Pack 8. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About OTS Tournament Pack 8",
+    "paragraphs": [
+      "OTS Tournament Pack 8 is a Yu-Gi-Oh! TCG pack released on 17 August 2018, in the VRAINS era. It has 26 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "OTS Tournament Pack 8"
+    ],
+    "tcgplayer": [
+      2312
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"OP08-EN001","name":"Droll & Lock Bird","ctype":"monster","keywords":"Spellcaster WIND Effect Monster","stats":{"a":"WIND","l":"Level 1","t":"Spellcaster / Effect","atk":0,"def":0},"rarity":"UtR","img":"94145021","code":"1","tcg":174404,"grp":2312,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"OP08-EN002","name":"Sky Striker Ace - Kagari","ctype":"monster","keywords":"Sky Striker Machine FIRE Link Monster","stats":{"a":"FIRE","l":"Link 1","t":"Machine / Link","atk":1500},"rarity":"UtR","img":"63288573","code":"2","tcg":174405,"grp":2312,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"OP08-EN003","name":"Scapegoat","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"UtR","img":"73915051","code":"3","tcg":174406,"grp":2312,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"OP08-EN004","name":"Ruin, Supreme Queen of Oblivion","ctype":"monster","keywords":"Demise Fairy LIGHT Ritual Effect Monster","stats":{"a":"LIGHT","l":"Level 10","t":"Fairy / Ritual / Effect","atk":2900,"def":3000},"rarity":"SR","img":"13518809","code":"4","tcg":174407,"grp":2312,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"OP08-EN005","name":"Demise, Supreme King of Armageddon","ctype":"monster","keywords":"Demise Fiend DARK Ritual Effect Monster","stats":{"a":"DARK","l":"Level 10","t":"Fiend / Ritual / Effect","atk":3000,"def":3000},"rarity":"SR","img":"59913418","code":"5","tcg":174408,"grp":2312,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"OP08-EN006","name":"Twin Triangle Dragon","ctype":"monster","keywords":"Dragon DARK Link Monster","stats":{"a":"DARK","l":"Link 2","t":"Dragon / Link","atk":1200},"rarity":"SR","img":"66015185","code":"6","tcg":174409,"grp":2312,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"OP08-EN007","name":"Underclock Taker","ctype":"monster","keywords":"Cyberse DARK Link Monster","stats":{"a":"DARK","l":"Link 2","t":"Cyberse / Link","atk":1000},"rarity":"SR","img":"77058170","code":"7","tcg":174410,"grp":2312,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"OP08-EN008","name":"Machine Duplication","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"63995093","code":"8","tcg":174411,"grp":2312,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"OP08-EN009","name":"Broken Bamboo Sword","ctype":"spell","keywords":"Bamboo Sword Equip Spell","stats":{"t":"Equip Spell"},"rarity":"SR","img":"41587307","code":"9","tcg":174412,"grp":2312,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"OP08-EN010","name":"Space Gift","ctype":"spell","keywords":"Neo-Spacian Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"1539051","code":"10","tcg":174413,"grp":2312,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"OP08-EN011","name":"Secret Village of the Spellcasters","ctype":"spell","keywords":"Field Spell","stats":{"t":"Field Spell"},"rarity":"SR","img":"68462976","code":"11","tcg":174414,"grp":2312,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"OP08-EN012","name":"Waking the Dragon","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"10813327","code":"12","tcg":174415,"grp":2312,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"OP08-EN013","name":"Invader of Darkness","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Fiend / Effect","atk":2900,"def":2500},"rarity":"C","img":"56647086","code":"13","tcg":174416,"grp":2312,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"OP08-EN014","name":"Ritual Raven","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Fiend / Effect","atk":300,"def":300},"rarity":"C","img":"34334692","code":"14","tcg":174417,"grp":2312,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"OP08-EN015","name":"Ojama Red","ctype":"monster","keywords":"Ojama Beast LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 2","t":"Beast / Effect","atk":0,"def":1000},"rarity":"C","img":"37132349","code":"15","tcg":174418,"grp":2312,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"OP08-EN016","name":"Artifact Moralltach","ctype":"monster","keywords":"Artifact Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 5","t":"Fairy / Effect","atk":2100,"def":1400},"rarity":"C","img":"85103922","code":"16","tcg":174419,"grp":2312,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"OP08-EN017","name":"Twilight Ninja Getsuga, the Shogun","ctype":"monster","keywords":"Ninja Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Warrior / Effect","atk":2000,"def":3000},"rarity":"C","img":"76930964","code":"17","tcg":174420,"grp":2312,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"OP08-EN018","name":"Windwitch - Snow Bell","ctype":"monster","keywords":"Windwitch Spellcaster WIND Tuner Monster","stats":{"a":"WIND","l":"Level 1","t":"Spellcaster / Tuner","atk":100,"def":100},"rarity":"C","img":"70117860","code":"18","tcg":174421,"grp":2312,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"OP08-EN019","name":"Windwitch - Glass Bell","ctype":"monster","keywords":"Windwitch Spellcaster WIND Tuner Monster","stats":{"a":"WIND","l":"Level 4","t":"Spellcaster / Tuner","atk":1500,"def":1500},"rarity":"C","img":"71007216","code":"19","tcg":174422,"grp":2312,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"OP08-EN020","name":"Divine Sword - Phoenix Blade","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"31423101","code":"20","tcg":174423,"grp":2312,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"OP08-EN021","name":"Neo Space","ctype":"spell","keywords":"Elemental HERO Field Spell","stats":{"t":"Field Spell"},"rarity":"C","img":"42015635","code":"21","tcg":174424,"grp":2312,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"OP08-EN022","name":"Axe of Fools","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"19578592","code":"22","tcg":174425,"grp":2312,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"OP08-EN023","name":"Ninjitsu Art Notebook","ctype":"spell","keywords":"Ninja Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"79324191","code":"23","tcg":174426,"grp":2312,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"OP08-EN024","name":"Nutrient Z","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"29389368","code":"24","tcg":174427,"grp":2312,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"OP08-EN025","name":"Cursed Seal of the Forbidden Spell","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"C","img":"58851034","code":"25","tcg":174428,"grp":2312,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"OP08-EN026","name":"Sky Striker Ace Token","ctype":"token","keywords":"Sky Striker Warrior Token","stats":{"t":"Warrior / Token"},"rarity":"SR","img":"52340445","code":"26","tcg":174429,"grp":2312,"idx":25}
+  ]
+}

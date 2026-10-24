@@ -1,0 +1,68 @@
+{
+  "id": "yugioh/25th-anniversary-tin-dueling-heroes",
+  "game": "yugioh",
+  "slug": "25th-anniversary-tin-dueling-heroes",
+  "name": "25th Anniversary Tin: Dueling Heroes",
+  "series": "SEVENS & GO RUSH!!",
+  "kind": "tin",
+  "code": "TN23",
+  "syncKey": "YTN23",
+  "released": "2023-09-07",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "TN23-EN002–TN23-EN015",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from TN23-EN002 to TN23-EN015."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! 25th Anniversary Tin: Dueling Heroes Checklist · All 8 Cards",
+    "description": "Free Yu-Gi-Oh! 25th Anniversary Tin: Dueling Heroes checklist with no ads, no sign-up and no tracking. Track all 8 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! 25th Anniversary Tin: Dueling Heroes Checklist",
+    "ogDescription": "Track all 8 cards in Yu-Gi-Oh! 25th Anniversary Tin: Dueling Heroes. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 8 cards in Yu-Gi-Oh! 25th Anniversary Tin: Dueling Heroes. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About 25th Anniversary Tin: Dueling Heroes",
+    "paragraphs": [
+      "25th Anniversary Tin: Dueling Heroes is a Yu-Gi-Oh! TCG tin released on 7 September 2023, in the SEVENS &amp; GO RUSH!! era. It has 8 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "25th Anniversary Tin: Dueling Heroes"
+    ],
+    "tcgplayer": [
+      23110
+    ]
+  },
+  "cards": [
+    {"id":"002","section":"main","num":"002","printed":"TN23-EN002","name":"Exodia the Forbidden One","ctype":"monster","keywords":"Exodia Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Spellcaster / Effect","atk":1000,"def":1000},"rarity":"QCSR","img":"33396948","code":"2","tcg":514575,"grp":23110,"idx":0},
+    {"id":"004","section":"main","num":"004","printed":"TN23-EN004","name":"Rainbow Dragon","ctype":"monster","keywords":"Crystal Beast Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 10","t":"Dragon / Effect","atk":4000,"def":0},"rarity":"QCSR","img":"79856792","code":"4","tcg":514578,"grp":23110,"idx":1},
+    {"id":"005","section":"main","num":"005","printed":"TN23-EN005","name":"Cyber Dragon","ctype":"monster","keywords":"Cyber Dragon Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 5","t":"Machine / Effect","atk":2100,"def":1600},"rarity":"QCSR","img":"70095154","code":"5","tcg":514580,"grp":23110,"idx":2},
+    {"id":"007","section":"main","num":"007","printed":"TN23-EN007","name":"Salamangreat Blaze Dragon","ctype":"monster","keywords":"Salamangreat Cyberse FIRE Xyz Monster","stats":{"a":"FIRE","l":"Rank 4","t":"Cyberse / Xyz","atk":2300,"def":1200},"rarity":"QCSR","img":"9608555","code":"7","tcg":514584,"grp":23110,"idx":3},
+    {"id":"010","section":"main","num":"010","printed":"TN23-EN010","name":"Enlightenment Paladin","ctype":"monster","keywords":"Spellcaster DARK Synchro Monster","stats":{"a":"DARK","l":"Level 8","t":"Spellcaster / Synchro","atk":2500,"def":2000},"rarity":"QCSR","img":"59123194","code":"10","tcg":514595,"grp":23110,"idx":4},
+    {"id":"012","section":"main","num":"012","printed":"TN23-EN012","name":"Galaxy-Eyes Photon Dragon","ctype":"monster","keywords":"Galaxy-Eyes Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Effect","atk":3000,"def":2500},"rarity":"QCSR","img":"93717133","code":"12","tcg":514617,"grp":23110,"idx":5},
+    {"id":"014","section":"main","num":"014","printed":"TN23-EN014","name":"Black Rose Dragon","ctype":"monster","keywords":"Rose Dragon Dragon FIRE Synchro Monster","stats":{"a":"FIRE","l":"Level 7","t":"Dragon / Synchro","atk":2400,"def":1800},"rarity":"QCSR","img":"73580471","code":"14","tcg":514629,"grp":23110,"idx":6},
+    {"id":"015","section":"main","num":"015","printed":"TN23-EN015","name":"Blackwing Armor Master","ctype":"monster","keywords":"Blackwing Winged Beast DARK Synchro Monster","stats":{"a":"DARK","l":"Level 7","t":"Winged Beast / Synchro","atk":2500,"def":1500},"rarity":"QCSR","img":"69031175","code":"15","tcg":514634,"grp":23110,"idx":7}
+  ]
+}

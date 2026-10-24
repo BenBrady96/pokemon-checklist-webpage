@@ -1,0 +1,96 @@
+{
+  "id": "yugioh/realm-of-light-structure-deck",
+  "game": "yugioh",
+  "slug": "realm-of-light-structure-deck",
+  "name": "Realm of Light Structure Deck",
+  "series": "ZEXAL",
+  "kind": "deck",
+  "code": "SDLI",
+  "syncKey": "YSDLI",
+  "released": "2014-06-27",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "SDLI-EN001–SDLI-EN036",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from SDLI-EN001 to SDLI-EN036."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Realm of Light Structure Deck Checklist · All 36 Cards",
+    "description": "Free Yu-Gi-Oh! Realm of Light Structure Deck checklist with no ads, no sign-up and no tracking. Track all 36 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Realm of Light Structure Deck Checklist",
+    "ogDescription": "Track all 36 cards in Yu-Gi-Oh! Realm of Light Structure Deck. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 36 cards in Yu-Gi-Oh! Realm of Light Structure Deck. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Realm of Light Structure Deck",
+    "paragraphs": [
+      "Realm of Light Structure Deck is a Yu-Gi-Oh! TCG deck released on 27 June 2014, in the ZEXAL era. It has 36 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Realm of Light Structure Deck"
+    ],
+    "tcgplayer": [
+      1462
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"SDLI-EN001","name":"Alexandrite Dragon","ctype":"monster","keywords":"Dragon LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Dragon / Normal","atk":2000,"def":100},"rarity":"C","img":"43096270","code":"1","tcg":90991,"grp":1462,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"SDLI-EN002","name":"Minerva, Lightsworn Maiden","ctype":"monster","keywords":"Lightsworn Spellcaster LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Spellcaster / Tuner","atk":800,"def":200},"rarity":"SR","img":"40164421","code":"2","tcg":90992,"grp":1462,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"SDLI-EN003","name":"Raiden, Hand of the Lightsworn","ctype":"monster","keywords":"Lightsworn Warrior LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Tuner","atk":1700,"def":1000},"rarity":"SR","img":"77558536","code":"3","tcg":90993,"grp":1462,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"SDLI-EN004","name":"Judgment Dragon","ctype":"monster","keywords":"Lightsworn Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Effect","atk":3000,"def":2600},"rarity":"C","img":"57774843","code":"4","tcg":90994,"grp":1462,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"SDLI-EN005","name":"Gragonith, Lightsworn Dragon","ctype":"monster","keywords":"Lightsworn Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Dragon / Effect","atk":2000,"def":1600},"rarity":"C","img":"21785144","code":"5","tcg":90995,"grp":1462,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"SDLI-EN006","name":"Celestia, Lightsworn Angel","ctype":"monster","keywords":"Lightsworn Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 5","t":"Fairy / Effect","atk":2300,"def":200},"rarity":"C","img":"94381039","code":"6","tcg":90996,"grp":1462,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"SDLI-EN007","name":"Jain, Lightsworn Paladin","ctype":"monster","keywords":"Lightsworn Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Effect","atk":1800,"def":1200},"rarity":"C","img":"96235275","code":"7","tcg":90997,"grp":1462,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"SDLI-EN008","name":"Lyla, Lightsworn Sorceress","ctype":"monster","keywords":"Lightsworn Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Effect","atk":1700,"def":200},"rarity":"C","img":"22624373","code":"8","tcg":90998,"grp":1462,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"SDLI-EN009","name":"Garoth, Lightsworn Warrior","ctype":"monster","keywords":"Lightsworn Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Effect","atk":1850,"def":1300},"rarity":"C","img":"59019082","code":"9","tcg":90999,"grp":1462,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"SDLI-EN010","name":"Wulf, Lightsworn Beast","ctype":"monster","keywords":"Lightsworn Beast-Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Beast-Warrior / Effect","atk":2100,"def":300},"rarity":"C","img":"58996430","code":"10","tcg":91001,"grp":1462,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"SDLI-EN011","name":"Ehren, Lightsworn Monk","ctype":"monster","keywords":"Lightsworn Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Effect","atk":1600,"def":1000},"rarity":"C","img":"44178886","code":"11","tcg":91002,"grp":1462,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"SDLI-EN012","name":"Lumina, Lightsworn Summoner","ctype":"monster","keywords":"Lightsworn Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Spellcaster / Effect","atk":1000,"def":1000},"rarity":"C","img":"95503687","code":"12","tcg":91000,"grp":1462,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"SDLI-EN013","name":"Aurkus, Lightsworn Druid","ctype":"monster","keywords":"Lightsworn Beast-Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Beast-Warrior / Effect","atk":1200,"def":1800},"rarity":"C","img":"7183277","code":"13","tcg":91003,"grp":1462,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"SDLI-EN014","name":"Shire, Lightsworn Spirit","ctype":"monster","keywords":"Lightsworn Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Fairy / Effect","atk":400,"def":1400},"rarity":"C","img":"2420921","code":"14","tcg":91004,"grp":1462,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"SDLI-EN015","name":"Ryko, Lightsworn Hunter","ctype":"monster","keywords":"Lightsworn Beast LIGHT Flip Effect Monster","stats":{"a":"LIGHT","l":"Level 2","t":"Beast / Flip / Effect","atk":200,"def":100},"rarity":"C","img":"21502796","code":"15","tcg":91005,"grp":1462,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"SDLI-EN016","name":"Honest","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fairy / Effect","atk":1100,"def":1900},"rarity":"C","img":"37742478","code":"16","tcg":91006,"grp":1462,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"SDLI-EN017","name":"Lightray Diabolos","ctype":"monster","keywords":"Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 7","t":"Dragon / Effect","atk":2800,"def":1000},"rarity":"C","img":"30126992","code":"17","tcg":91007,"grp":1462,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"SDLI-EN018","name":"Lightray Daedalus","ctype":"monster","keywords":"Sea Serpent LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 7","t":"Sea Serpent / Effect","atk":2600,"def":1500},"rarity":"C","img":"38737148","code":"18","tcg":91008,"grp":1462,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"SDLI-EN019","name":"Vylon Prism","ctype":"monster","keywords":"Vylon Thunder LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Thunder / Tuner","atk":1500,"def":1500},"rarity":"C","img":"74064212","code":"19","tcg":91009,"grp":1462,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"SDLI-EN020","name":"Fabled Raven","ctype":"monster","keywords":"Fabled Fiend LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 2","t":"Fiend / Tuner","atk":1300,"def":1000},"rarity":"C","img":"47217354","code":"20","tcg":91010,"grp":1462,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"SDLI-EN021","name":"The Fabled Cerburrel","ctype":"monster","keywords":"Fabled Beast LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 2","t":"Beast / Tuner","atk":1000,"def":400},"rarity":"C","img":"82888408","code":"21","tcg":91011,"grp":1462,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"SDLI-EN022","name":"Blackwing - Zephyros the Elite","ctype":"monster","keywords":"Blackwing Winged Beast DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Winged Beast / Effect","atk":1600,"def":1000},"rarity":"C","img":"14785765","code":"22","tcg":91012,"grp":1462,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"SDLI-EN023","name":"Necro Gardna","ctype":"monster","keywords":"Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Warrior / Effect","atk":600,"def":1300},"rarity":"C","img":"4906301","code":"23","tcg":91013,"grp":1462,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"SDLI-EN024","name":"Lightsworn Sanctuary","ctype":"spell","keywords":"Lightsworn Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"UR","img":"52665542","code":"24","tcg":91014,"grp":1462,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"SDLI-EN025","name":"Realm of Light","ctype":"spell","keywords":"Lightsworn Field Spell","stats":{"t":"Field Spell"},"rarity":"C","img":"36099620","code":"25","tcg":91015,"grp":1462,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"SDLI-EN026","name":"Solar Recharge","ctype":"spell","keywords":"Lightsworn Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"691925","code":"26","tcg":91016,"grp":1462,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"SDLI-EN027","name":"Charge of the Light Brigade","ctype":"spell","keywords":"Lightsworn Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"94886282","code":"27","tcg":91017,"grp":1462,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"SDLI-EN028","name":"Monster Reincarnation","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"74848038","code":"28","tcg":91018,"grp":1462,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"SDLI-EN029","name":"Foolish Burial","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"81439174","code":"29","tcg":91019,"grp":1462,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"SDLI-EN030","name":"Glorious Illusion","ctype":"trap","keywords":"Lightsworn Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"61962135","code":"30","tcg":91020,"grp":1462,"idx":29},
+    {"id":"031","section":"main","num":"031","printed":"SDLI-EN031","name":"Lightsworn Barrier","ctype":"trap","keywords":"Lightsworn Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"22201234","code":"31","tcg":91021,"grp":1462,"idx":30},
+    {"id":"032","section":"main","num":"032","printed":"SDLI-EN032","name":"Vanquishing Light","ctype":"trap","keywords":"Lightsworn Counter Trap","stats":{"t":"Counter Trap"},"rarity":"C","img":"32233746","code":"32","tcg":91022,"grp":1462,"idx":31},
+    {"id":"033","section":"main","num":"033","printed":"SDLI-EN033","name":"Beckoning Light","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"16255442","code":"33","tcg":91023,"grp":1462,"idx":32},
+    {"id":"034","section":"main","num":"034","printed":"SDLI-EN034","name":"Skill Successor","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"73729209","code":"34","tcg":91024,"grp":1462,"idx":33},
+    {"id":"035","section":"main","num":"035","printed":"SDLI-EN035","name":"Breakthrough Skill","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"78474168","code":"35","tcg":91025,"grp":1462,"idx":34},
+    {"id":"036","section":"main","num":"036","printed":"SDLI-EN036","name":"Michael, the Arch-Lightsworn","ctype":"monster","keywords":"Lightsworn Dragon LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 7","t":"Dragon / Synchro","atk":2600,"def":2000},"rarity":"UR","img":"4779823","code":"36","tcg":91026,"grp":1462,"idx":35}
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "id": "yugioh/rise-of-the-dragon-lords-structure-deck",
+  "game": "yugioh",
+  "slug": "rise-of-the-dragon-lords-structure-deck",
+  "name": "Rise of the Dragon Lords Structure Deck",
+  "series": "GX",
+  "kind": "deck",
+  "code": "SDRL",
+  "syncKey": "YSDRL",
+  "released": "2007-10-24",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "SDRL-EN001–SDRL-EN037",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from SDRL-EN001 to SDRL-EN037."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Rise of the Dragon Lords Structure Deck Checklist · All 37 Cards",
+    "description": "Free Yu-Gi-Oh! Rise of the Dragon Lords Structure Deck checklist with no ads, no sign-up and no tracking. Track all 37 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Rise of the Dragon Lords Structure Deck Checklist",
+    "ogDescription": "Track all 37 cards in Yu-Gi-Oh! Rise of the Dragon Lords Structure Deck. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 37 cards in Yu-Gi-Oh! Rise of the Dragon Lords Structure Deck. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Rise of the Dragon Lords Structure Deck",
+    "paragraphs": [
+      "Rise of the Dragon Lords Structure Deck is a Yu-Gi-Oh! TCG deck released on 24 October 2007, in the GX era. It has 37 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Rise of the Dragon Lords Structure Deck"
+    ],
+    "tcgplayer": [
+      312
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"SDRL-EN001","name":"Felgrand Dragon","ctype":"monster","keywords":"Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Effect","atk":2800,"def":2800},"rarity":"UR","img":"3954901","code":"1","tcg":26210,"grp":312,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"SDRL-EN002","name":"Darkblaze Dragon","ctype":"monster","keywords":"Dragon FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 7","t":"Dragon / Effect","atk":1200,"def":1000},"rarity":"C","img":"39343610","code":"2","tcg":26211,"grp":312,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"SDRL-EN003","name":"Herald of Creation","ctype":"monster","keywords":"Herald Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Effect","atk":1800,"def":600},"rarity":"C","img":"66337215","code":"3","tcg":26212,"grp":312,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"SDRL-EN004","name":"Decoy Dragon","ctype":"monster","keywords":"Dragon FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 2","t":"Dragon / Effect","atk":300,"def":200},"rarity":"C","img":"2732323","code":"4","tcg":26213,"grp":312,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"SDRL-EN005","name":"Spear Cretin","ctype":"monster","keywords":"Fiend DARK Flip Effect Monster","stats":{"a":"DARK","l":"Level 2","t":"Fiend / Flip / Effect","atk":500,"def":500},"rarity":"C","img":"58551308","code":"5","tcg":26214,"grp":312,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"SDRL-EN006","name":"Gilford the Lightning","ctype":"monster","keywords":"Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Warrior / Effect","atk":2800,"def":1400},"rarity":"C","img":"36354007","code":"6","tcg":26215,"grp":312,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"SDRL-EN007","name":"Morphing Jar","ctype":"monster","keywords":"Rock EARTH Flip Effect Monster","stats":{"a":"EARTH","l":"Level 2","t":"Rock / Flip / Effect","atk":700,"def":600},"rarity":"C","img":"33508719","code":"7","tcg":26216,"grp":312,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"SDRL-EN008","name":"Kaiser Sea Horse","ctype":"monster","keywords":"Sea Serpent LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Sea Serpent / Effect","atk":1700,"def":1650},"rarity":"C","img":"17444133","code":"8","tcg":26217,"grp":312,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"SDRL-EN009","name":"Tyrant Dragon","ctype":"monster","keywords":"Dragon FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 8","t":"Dragon / Effect","atk":2900,"def":2500},"rarity":"C","img":"94568601","code":"9","tcg":26218,"grp":312,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"SDRL-EN010","name":"Twin-Headed Behemoth","ctype":"monster","keywords":"Dragon WIND Effect Monster","stats":{"a":"WIND","l":"Level 3","t":"Dragon / Effect","atk":1500,"def":1200},"rarity":"C","img":"43586926","code":"10","tcg":26219,"grp":312,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"SDRL-EN011","name":"Guardian Angel Joan","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 7","t":"Fairy / Effect","atk":2800,"def":2000},"rarity":"C","img":"68007326","code":"11","tcg":26220,"grp":312,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"SDRL-EN012","name":"Horus the Black Flame Dragon LV6","ctype":"monster","keywords":"Horus the Black Flame Dragon Dragon FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 6","t":"Dragon / Effect","atk":2300,"def":1600},"rarity":"C","img":"11224103","code":"12","tcg":26221,"grp":312,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"SDRL-EN013","name":"Masked Dragon","ctype":"monster","keywords":"Dragon FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 3","t":"Dragon / Effect","atk":1400,"def":1100},"rarity":"C","img":"39191307","code":"13","tcg":26222,"grp":312,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"SDRL-EN014","name":"The Creator","ctype":"monster","keywords":"Thunder LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Thunder / Effect","atk":2300,"def":3000},"rarity":"C","img":"61505339","code":"14","tcg":26223,"grp":312,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"SDRL-EN015","name":"The Creator Incarnate","ctype":"monster","keywords":"Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Effect","atk":1600,"def":1500},"rarity":"C","img":"97093037","code":"15","tcg":26224,"grp":312,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"SDRL-EN016","name":"Flame Ruler","ctype":"monster","keywords":"Pyro FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Pyro / Effect","atk":1500,"def":1600},"rarity":"C","img":"41089128","code":"16","tcg":26225,"grp":312,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"SDRL-EN017","name":"Majestic Mech - Goryu","ctype":"monster","keywords":"Majestic Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Fairy / Effect","atk":2900,"def":1800},"rarity":"C","img":"95701283","code":"17","tcg":26226,"grp":312,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"SDRL-EN018","name":"Snipe Hunter","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Effect","atk":1500,"def":600},"rarity":"C","img":"84290642","code":"18","tcg":26227,"grp":312,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"SDRL-EN019","name":"Trade-In","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"38120068","code":"19","tcg":26228,"grp":312,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"SDRL-EN020","name":"Foolish Burial","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"81439174","code":"20","tcg":26229,"grp":312,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"SDRL-EN021","name":"Soul Exchange","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"68005187","code":"21","tcg":26230,"grp":312,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"SDRL-EN022","name":"Giant Trunade","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"42703248","code":"22","tcg":26231,"grp":312,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"SDRL-EN023","name":"The Shallow Grave","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"43434803","code":"23","tcg":26232,"grp":312,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"SDRL-EN024","name":"Premature Burial","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"70828912","code":"24","tcg":26233,"grp":312,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"SDRL-EN025","name":"A Wingbeat of Giant Dragon","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"28596933","code":"25","tcg":26234,"grp":312,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"SDRL-EN026","name":"Terraforming","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"73628505","code":"26","tcg":26235,"grp":312,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"SDRL-EN027","name":"Big Bang Shot","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"61127349","code":"27","tcg":26236,"grp":312,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"SDRL-EN028","name":"Mystik Wok","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"80161395","code":"28","tcg":26237,"grp":312,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"SDRL-EN029","name":"Lightning Vortex","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"69162969","code":"29","tcg":26238,"grp":312,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"SDRL-EN030","name":"Brain Control","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"87910978","code":"30","tcg":26239,"grp":312,"idx":29},
+    {"id":"031","section":"main","num":"031","printed":"SDRL-EN031","name":"Mausoleum of the Emperor","ctype":"spell","keywords":"Field Spell","stats":{"t":"Field Spell"},"rarity":"C","img":"80921533","code":"31","tcg":26240,"grp":312,"idx":30},
+    {"id":"032","section":"main","num":"032","printed":"SDRL-EN032","name":"Malevolent Catastrophe","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"1224927","code":"32","tcg":26241,"grp":312,"idx":31},
+    {"id":"033","section":"main","num":"033","printed":"SDRL-EN033","name":"Dust Tornado","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"60082869","code":"33","tcg":26242,"grp":312,"idx":32},
+    {"id":"034","section":"main","num":"034","printed":"SDRL-EN034","name":"Call of the Haunted","ctype":"trap","keywords":"Call of the Haunted Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"97077563","code":"34","tcg":26243,"grp":312,"idx":33},
+    {"id":"035","section":"main","num":"035","printed":"SDRL-EN035","name":"Magic Jammer","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"C","img":"77414722","code":"35","tcg":26244,"grp":312,"idx":34},
+    {"id":"036","section":"main","num":"036","printed":"SDRL-EN036","name":"Sakuretsu Armor","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"56120475","code":"36","tcg":26245,"grp":312,"idx":35},
+    {"id":"037","section":"main","num":"037","printed":"SDRL-EN037","name":"Draining Shield","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"43250041","code":"37","tcg":26246,"grp":312,"idx":36}
+  ]
+}

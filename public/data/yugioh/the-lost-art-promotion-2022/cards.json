@@ -1,0 +1,68 @@
+{
+  "id": "yugioh/the-lost-art-promotion-2022",
+  "game": "yugioh",
+  "slug": "the-lost-art-promotion-2022",
+  "name": "The Lost Art Promotion 2022",
+  "series": "Promos",
+  "kind": "promo",
+  "code": "LART",
+  "syncKey": "YLART",
+  "released": "2022-01-01",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "LART-EN044–LART-EN052",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. Numbers count down the list in order: <b>1-5</b> is the first five cards and <b>3x2</b> is two copies of the third.",
+    "empty": "Cards run from LART-EN044 to LART-EN052."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! The Lost Art Promotion 2022 Checklist · All 8 Cards",
+    "description": "Free Yu-Gi-Oh! The Lost Art Promotion 2022 checklist with no ads, no sign-up and no tracking. Track all 8 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! The Lost Art Promotion 2022 Checklist",
+    "ogDescription": "Track all 8 cards in Yu-Gi-Oh! The Lost Art Promotion 2022. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 8 cards in Yu-Gi-Oh! The Lost Art Promotion 2022. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About The Lost Art Promotion 2022",
+    "paragraphs": [
+      "The Lost Art Promotion 2022 is a Yu-Gi-Oh! TCG promo list released on 1 January 2022. It has 8 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "The Lost Art Promotion 2022"
+    ],
+    "tcgplayer": [
+      2196
+    ]
+  },
+  "cards": [
+    {"id":"LART-044","section":"main","num":"LART-EN044","printed":"LART-EN044","name":"Don Zaloog","ctype":"monster","keywords":"Dark Scorpion Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Warrior / Effect","atk":1400,"def":1500},"note":"The Lost Art Promotion 2022","rarity":"UR","img":"76922029","code":"1","tcg":271486,"grp":2196,"idx":0},
+    {"id":"LART-045","section":"main","num":"LART-EN045","printed":"LART-EN045","name":"Lumina, Lightsworn Summoner","ctype":"monster","keywords":"Lightsworn Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Spellcaster / Effect","atk":1000,"def":1000},"note":"The Lost Art Promotion 2022","rarity":"UR","img":"95503687","code":"2","tcg":265199,"grp":2196,"idx":1},
+    {"id":"LART-046","section":"main","num":"LART-EN046","printed":"LART-EN046","name":"Chocolate Magician Girl","ctype":"monster","keywords":"Magician Girl Spellcaster WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Spellcaster / Effect","atk":1600,"def":1000},"note":"The Lost Art Promotion 2022","rarity":"UR","img":"7198399","code":"3","tcg":276711,"grp":2196,"idx":2},
+    {"id":"LART-047","section":"main","num":"LART-EN047","printed":"LART-EN047","name":"Lumina, Twilightsworn Shaman","ctype":"monster","keywords":"Lightsworn Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Spellcaster / Effect","atk":1000,"def":1000},"note":"The Lost Art Promotion 2022","rarity":"UR","img":"56166150","code":"4","tcg":272512,"grp":2196,"idx":3},
+    {"id":"LART-048","section":"main","num":"LART-EN048","printed":"LART-EN048","name":"Nurse Dragonmaid","ctype":"monster","keywords":"Dragonmaid Dragon EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 2","t":"Dragon / Effect","atk":500,"def":1600},"note":"The Lost Art Promotion 2022","rarity":"UR","img":"40398073","code":"5","tcg":271491,"grp":2196,"idx":4},
+    {"id":"LART-050","section":"main","num":"LART-EN050","printed":"LART-EN050","name":"Cyber Angel Idaten","ctype":"monster","keywords":"Cyber Angel Fairy LIGHT Ritual Effect Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Fairy / Ritual / Effect","atk":1600,"def":2000},"note":"The Lost Art Promotion 2022","rarity":"UR","img":"3629090","code":"6","tcg":285227,"grp":2196,"idx":5},
+    {"id":"LART-051","section":"main","num":"LART-EN051","printed":"LART-EN051","name":"Axe of Despair","ctype":"spell","keywords":"Archfiend Equip Spell","stats":{"t":"Equip Spell"},"note":"The Lost Art Promotion 2022","rarity":"UR","img":"40619825","code":"7","tcg":475750,"grp":2196,"idx":6},
+    {"id":"LART-052","section":"main","num":"LART-EN052","printed":"LART-EN052","name":"Fake Hero","ctype":"spell","keywords":"Elemental HERO Normal Spell","stats":{"t":"Normal Spell"},"note":"The Lost Art Promotion 2022","rarity":"UR","img":"78387742","code":"8","tcg":451160,"grp":2196,"idx":7}
+  ]
+}

@@ -2,7 +2,7 @@
   "name": "binder-tracker",
   "version": "2.0.0",
   "private": true,
-  "description": "Binder Tracker: free, unofficial checklists for Pokémon TCG sets, with reverse holos, promos, copy counts and binder pages. Works offline, no sign-up, and your collection stays in your browser.",
+  "description": "Binder Tracker: free, unofficial checklists for Pokémon and Yu-Gi-Oh! TCG sets, with every rarity, promos, copy counts and binder pages. Works offline, no sign-up, and your collection stays in your browser.",
   "license": "MIT",
   "type": "module",
   "scripts": {
@@ -10,6 +10,8 @@
     "build": "node scripts/build.mjs",
     "test": "node scripts/check.mjs",
     "set-list": "node scripts/local/build-set-list.mjs",
+    "set-list:yugioh": "node scripts/local/build-set-list-yugioh.mjs",
+    "art:yugioh": "node scripts/local/build-ygo-art.mjs",
     "sets": "node scripts/local/build-sets.mjs",
     "images": "node scripts/local/build-images.mjs",
     "images:force": "node scripts/local/build-images.mjs --force",
@@ -20,6 +22,6 @@
   "devDependencies": {
     "onnxruntime-node": "1.30.0",
     "onnxruntime-web": "1.30.0",
-    "sharp": "^0.35.4"
+    "sharp": "0.35.5"
   }
 }

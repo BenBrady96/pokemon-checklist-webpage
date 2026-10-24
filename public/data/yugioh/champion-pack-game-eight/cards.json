@@ -1,0 +1,80 @@
+{
+  "id": "yugioh/champion-pack-game-eight",
+  "game": "yugioh",
+  "slug": "champion-pack-game-eight",
+  "name": "Champion Pack: Game Eight",
+  "series": "5D’s",
+  "kind": "pack",
+  "code": "CP08",
+  "syncKey": "YCP08",
+  "released": "2009-01-05",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "CP08-EN001–CP08-EN020",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from CP08-EN001 to CP08-EN020."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Champion Pack: Game Eight Checklist · All 20 Cards",
+    "description": "Free Yu-Gi-Oh! Champion Pack: Game Eight checklist with no ads, no sign-up and no tracking. Track all 20 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Champion Pack: Game Eight Checklist",
+    "ogDescription": "Track all 20 cards in Yu-Gi-Oh! Champion Pack: Game Eight. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 20 cards in Yu-Gi-Oh! Champion Pack: Game Eight. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Champion Pack: Game Eight",
+    "paragraphs": [
+      "Champion Pack: Game Eight is a Yu-Gi-Oh! TCG pack released on 5 January 2009, in the 5D’s era. It has 20 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Champion Pack: Game Eight"
+    ],
+    "tcgplayer": [
+      156
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"CP08-EN001","name":"Gravity Behemoth","ctype":"monster","keywords":"Beast DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Beast / Effect","atk":2300,"def":2000},"rarity":"UR","img":"56931015","code":"1","tcg":33093,"grp":156,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"CP08-EN002","name":"Prohibition","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"SR","img":"43711255","code":"2","tcg":33094,"grp":156,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"CP08-EN003","name":"Mind Crush","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"15800838","code":"3","tcg":33095,"grp":156,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"CP08-EN004","name":"Dimensional Fissure","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"SR","img":"81674782","code":"4","tcg":33096,"grp":156,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"CP08-EN005","name":"Lumina, Lightsworn Summoner","ctype":"monster","keywords":"Lightsworn Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Spellcaster / Effect","atk":1000,"def":1000},"rarity":"SR","img":"95503687","code":"5","tcg":33097,"grp":156,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"CP08-EN006","name":"Magician's Valkyria","ctype":"monster","keywords":"Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Effect","atk":1600,"def":1800},"rarity":"R","img":"80304126","code":"6","tcg":33098,"grp":156,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"CP08-EN007","name":"Silent Magician LV4","ctype":"monster","keywords":"Silent Magician Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Effect","atk":1000,"def":1000},"rarity":"R","img":"73665146","code":"7","tcg":33099,"grp":156,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"CP08-EN008","name":"Great Shogun Shien","ctype":"monster","keywords":"Six Samurai Warrior FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 7","t":"Warrior / Effect","atk":2500,"def":2400},"rarity":"R","img":"63176202","code":"8","tcg":33100,"grp":156,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"CP08-EN009","name":"Herald of Creation","ctype":"monster","keywords":"Herald Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Effect","atk":1800,"def":600},"rarity":"R","img":"66337215","code":"9","tcg":33101,"grp":156,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"CP08-EN010","name":"Burial from a Different Dimension","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"R","img":"48976825","code":"10","tcg":33102,"grp":156,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"CP08-EN011","name":"Necro Gardna","ctype":"monster","keywords":"Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Warrior / Effect","atk":600,"def":1300},"rarity":"R","img":"4906301","code":"11","tcg":33103,"grp":156,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"CP08-EN012","name":"Mushroom Man","ctype":"monster","keywords":"Plant EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 2","t":"Plant / Normal","atk":800,"def":600},"rarity":"C","img":"14181608","code":"12","tcg":33104,"grp":156,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"CP08-EN013","name":"Royal Oppression","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"93016201","code":"13","tcg":33105,"grp":156,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"CP08-EN014","name":"Beckoning Light","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"16255442","code":"14","tcg":33106,"grp":156,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"CP08-EN015","name":"Neo-Spacian Dark Panther","ctype":"monster","keywords":"Neo-Spacian Beast DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Beast / Effect","atk":1000,"def":500},"rarity":"C","img":"43237273","code":"15","tcg":33107,"grp":156,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"CP08-EN016","name":"Alien Warrior","ctype":"monster","keywords":"Alien Reptile EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Reptile / Effect","atk":1800,"def":1000},"rarity":"C","img":"98719226","code":"16","tcg":33108,"grp":156,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"CP08-EN017","name":"Alien Mother","ctype":"monster","keywords":"Alien Reptile DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Reptile / Effect","atk":2300,"def":1500},"rarity":"C","img":"24104865","code":"17","tcg":33109,"grp":156,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"CP08-EN018","name":"Vanity's Ruler","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Fairy / Effect","atk":2500,"def":1600},"rarity":"C","img":"72634965","code":"18","tcg":33110,"grp":156,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"CP08-EN019","name":"Miraculous Rebirth","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"37011715","code":"19","tcg":33111,"grp":156,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"CP08-EN020","name":"Cell Explosion Virus","ctype":"trap","keywords":"Alien Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"84491298","code":"20","tcg":33112,"grp":156,"idx":19}
+  ]
+}

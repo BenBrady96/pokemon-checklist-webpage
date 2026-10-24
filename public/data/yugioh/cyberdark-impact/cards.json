@@ -1,0 +1,157 @@
+{
+  "id": "yugioh/cyberdark-impact",
+  "game": "yugioh",
+  "slug": "cyberdark-impact",
+  "name": "Cyberdark Impact",
+  "series": "GX",
+  "kind": "expansion",
+  "code": "CDIP",
+  "syncKey": "YCDIP",
+  "released": "2006-11-15",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Main Set",
+      "range": "CDIP-EN001–CDIP-EN060",
+      "tier": "standard"
+    },
+    {
+      "id": "rarities",
+      "name": "Other Rarities",
+      "short": "Other Rarities",
+      "range": "25 cards",
+      "tier": "master"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Main set"
+    ],
+    [
+      "rarities",
+      "Other rarities"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, SCR12, 60x2",
+    "example": "1-20, 45x2, SCR12",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies. Other rarities use their short name and number: <b>SCR12</b> is card 12’s Secret Rare, and ranges work too (<b>QCSR1-QCSR20</b>).",
+    "empty": "Cards run from CDIP-EN001 to CDIP-EN060."
+  },
+  "help": {
+    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 60 cards, each in its main rarity. Master adds the 25 other rarities. Cards you’ve marked are kept when you switch."
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Cyberdark Impact Checklist · All 60 Cards",
+    "description": "Free Yu-Gi-Oh! Cyberdark Impact checklist with no ads, no sign-up and no tracking. Track all 60 cards, or every rarity for a master set, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Cyberdark Impact Checklist",
+    "ogDescription": "Track all 60 cards in Yu-Gi-Oh! Cyberdark Impact, plus 25 other rarities. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 60 cards in Yu-Gi-Oh! Cyberdark Impact. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About the Cyberdark Impact set",
+    "paragraphs": [
+      "Cyberdark Impact is a Yu-Gi-Oh! TCG booster set released on 15 November 2006, in the GX era. It has 60 cards, and with the 25 other rarities there are 85 to collect in all.",
+      "Choose what you’re collecting: the <b>Standard set</b> (the 60 cards, each in its main rarity) or the <b>Master set</b> (all 85, adding the 25 other rarities).",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Cyberdark Impact"
+    ],
+    "tcgplayer": [
+      159
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"CDIP-EN001","name":"Cyberdark Horn","ctype":"monster","keywords":"Cyberdark Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Machine / Effect","atk":800,"def":800},"rarity":"SR","img":"41230939","code":"1","tcg":25494,"grp":159,"idx":0},
+    {"id":"001-utr","section":"rarities","num":"001","printed":"CDIP-EN001","name":"Cyberdark Horn","ctype":"monster","keywords":"Cyberdark Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Machine / Effect","atk":800,"def":800},"rarity":"UtR","img":"41230939","badge":"UtR","variant":"Ultimate Rare","code":"UTR1","tcg":58571,"grp":159,"idx":1},
+    {"id":"002","section":"main","num":"002","printed":"CDIP-EN002","name":"Cyberdark Edge","ctype":"monster","keywords":"Cyberdark Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Machine / Effect","atk":800,"def":800},"rarity":"SR","img":"77625948","code":"2","tcg":25495,"grp":159,"idx":2},
+    {"id":"002-utr","section":"rarities","num":"002","printed":"CDIP-EN002","name":"Cyberdark Edge","ctype":"monster","keywords":"Cyberdark Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Machine / Effect","atk":800,"def":800},"rarity":"UtR","img":"77625948","badge":"UtR","variant":"Ultimate Rare","code":"UTR2","tcg":58572,"grp":159,"idx":3},
+    {"id":"003","section":"main","num":"003","printed":"CDIP-EN003","name":"Cyberdark Keel","ctype":"monster","keywords":"Cyberdark Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Machine / Effect","atk":800,"def":800},"rarity":"SR","img":"3019642","code":"3","tcg":25496,"grp":159,"idx":4},
+    {"id":"003-utr","section":"rarities","num":"003","printed":"CDIP-EN003","name":"Cyberdark Keel","ctype":"monster","keywords":"Cyberdark Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Machine / Effect","atk":800,"def":800},"rarity":"UtR","img":"3019642","badge":"UtR","variant":"Ultimate Rare","code":"UTR3","tcg":58573,"grp":159,"idx":5},
+    {"id":"004","section":"main","num":"004","printed":"CDIP-EN004","name":"Cyber Ogre","ctype":"monster","keywords":"Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 5","t":"Machine / Effect","atk":1900,"def":1200},"rarity":"C","img":"64268668","code":"4","tcg":25497,"grp":159,"idx":6},
+    {"id":"005","section":"main","num":"005","printed":"CDIP-EN005","name":"Cyber Esper","ctype":"monster","keywords":"Machine FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Machine / Effect","atk":1200,"def":1800},"rarity":"SR","img":"91663373","code":"5","tcg":25498,"grp":159,"idx":7},
+    {"id":"005-utr","section":"rarities","num":"005","printed":"CDIP-EN005","name":"Cyber Esper","ctype":"monster","keywords":"Machine FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Machine / Effect","atk":1200,"def":1800},"rarity":"UtR","img":"91663373","badge":"UtR","variant":"Ultimate Rare","code":"UTR5","tcg":58574,"grp":159,"idx":8},
+    {"id":"006","section":"main","num":"006","printed":"CDIP-EN006","name":"Allure Queen LV3","ctype":"monster","keywords":"Allure Queen Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Spellcaster / Effect","atk":500,"def":500},"rarity":"C","img":"87257460","code":"6","tcg":25499,"grp":159,"idx":9},
+    {"id":"007","section":"main","num":"007","printed":"CDIP-EN007","name":"Allure Queen LV5","ctype":"monster","keywords":"Allure Queen Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 5","t":"Spellcaster / Effect","atk":1000,"def":1000},"rarity":"R","img":"23756165","code":"7","tcg":25500,"grp":159,"idx":10},
+    {"id":"007-utr","section":"rarities","num":"007","printed":"CDIP-EN007","name":"Allure Queen LV5","ctype":"monster","keywords":"Allure Queen Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 5","t":"Spellcaster / Effect","atk":1000,"def":1000},"rarity":"UtR","img":"23756165","badge":"UtR","variant":"Ultimate Rare","code":"UTR7","tcg":58575,"grp":159,"idx":11},
+    {"id":"008","section":"main","num":"008","printed":"CDIP-EN008","name":"Allure Queen LV7","ctype":"monster","keywords":"Allure Queen Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Spellcaster / Effect","atk":1500,"def":1500},"rarity":"UR","img":"50140163","code":"8","tcg":25501,"grp":159,"idx":12},
+    {"id":"008-utr","section":"rarities","num":"008","printed":"CDIP-EN008","name":"Allure Queen LV7","ctype":"monster","keywords":"Allure Queen Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Spellcaster / Effect","atk":1500,"def":1500},"rarity":"UtR","img":"50140163","badge":"UtR","variant":"Ultimate Rare","code":"UTR8","tcg":58576,"grp":159,"idx":13},
+    {"id":"009","section":"main","num":"009","printed":"CDIP-EN009","name":"Dark Lucius LV4","ctype":"monster","keywords":"Fiend EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Fiend / Effect","atk":1000,"def":300},"rarity":"C","img":"85313220","code":"9","tcg":25502,"grp":159,"idx":14},
+    {"id":"010","section":"main","num":"010","printed":"CDIP-EN010","name":"Dark Lucius LV6","ctype":"monster","keywords":"Fiend EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 6","t":"Fiend / Effect","atk":1700,"def":600},"rarity":"R","img":"12817939","code":"10","tcg":25503,"grp":159,"idx":15},
+    {"id":"010-utr","section":"rarities","num":"010","printed":"CDIP-EN010","name":"Dark Lucius LV6","ctype":"monster","keywords":"Fiend EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 6","t":"Fiend / Effect","atk":1700,"def":600},"rarity":"UtR","img":"12817939","badge":"UtR","variant":"Ultimate Rare","code":"UTR10","tcg":58577,"grp":159,"idx":16},
+    {"id":"011","section":"main","num":"011","printed":"CDIP-EN011","name":"Dark Lucius LV8","ctype":"monster","keywords":"Fiend EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 8","t":"Fiend / Effect","atk":2800,"def":900},"rarity":"UR","img":"58206034","code":"11","tcg":25504,"grp":159,"idx":17},
+    {"id":"011-utr","section":"rarities","num":"011","printed":"CDIP-EN011","name":"Dark Lucius LV8","ctype":"monster","keywords":"Fiend EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 8","t":"Fiend / Effect","atk":2800,"def":900},"rarity":"UtR","img":"58206034","badge":"UtR","variant":"Ultimate Rare","code":"UTR11","tcg":58578,"grp":159,"idx":18},
+    {"id":"012","section":"main","num":"012","printed":"CDIP-EN012","name":"Stray Asmodian","ctype":"monster","keywords":"Fiend FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 3","t":"Fiend / Effect","atk":1300,"def":1700},"rarity":"C","img":"86209650","code":"12","tcg":25505,"grp":159,"idx":19},
+    {"id":"013","section":"main","num":"013","printed":"CDIP-EN013","name":"Abaki","ctype":"monster","keywords":"Fiend FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Fiend / Effect","atk":1700,"def":1100},"rarity":"C","img":"12694768","code":"13","tcg":25506,"grp":159,"idx":20},
+    {"id":"014","section":"main","num":"014","printed":"CDIP-EN014","name":"Flame Ogre","ctype":"monster","keywords":"Fiend FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 7","t":"Fiend / Effect","atk":2400,"def":1700},"rarity":"C","img":"58098303","code":"14","tcg":25507,"grp":159,"idx":21},
+    {"id":"015","section":"main","num":"015","printed":"CDIP-EN015","name":"Snipe Hunter","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Effect","atk":1500,"def":600},"rarity":"C","img":"84290642","code":"15","tcg":25508,"grp":159,"idx":22},
+    {"id":"016","section":"main","num":"016","printed":"CDIP-EN016","name":"Blast Asmodian","ctype":"monster","keywords":"Fiend FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 3","t":"Fiend / Effect","atk":1000,"def":300},"rarity":"C","img":"11685347","code":"16","tcg":25509,"grp":159,"idx":23},
+    {"id":"017","section":"main","num":"017","printed":"CDIP-EN017","name":"Vanity's Fiend","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Fiend / Effect","atk":2400,"def":1200},"rarity":"R","img":"47084486","code":"17","tcg":25510,"grp":159,"idx":24},
+    {"id":"017-utr","section":"rarities","num":"017","printed":"CDIP-EN017","name":"Vanity's Fiend","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Fiend / Effect","atk":2400,"def":1200},"rarity":"UtR","img":"47084486","badge":"UtR","variant":"Ultimate Rare","code":"UTR17","tcg":58579,"grp":159,"idx":25},
+    {"id":"018","section":"main","num":"018","printed":"CDIP-EN018","name":"Barrier Statue of the Abyss","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Effect","atk":1000,"def":1000},"rarity":"C","img":"84478195","code":"18","tcg":25511,"grp":159,"idx":26},
+    {"id":"019","section":"main","num":"019","printed":"CDIP-EN019","name":"Barrier Statue of the Torrent","ctype":"monster","keywords":"Aqua WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Aqua / Effect","atk":1000,"def":1000},"rarity":"C","img":"10963799","code":"19","tcg":25512,"grp":159,"idx":27},
+    {"id":"020","section":"main","num":"020","printed":"CDIP-EN020","name":"Barrier Statue of the Inferno","ctype":"monster","keywords":"Pyro FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Pyro / Effect","atk":1000,"def":1000},"rarity":"C","img":"47961808","code":"20","tcg":25513,"grp":159,"idx":28},
+    {"id":"021","section":"main","num":"021","printed":"CDIP-EN021","name":"Barrier Statue of the Stormwinds","ctype":"monster","keywords":"Winged Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Winged Beast / Effect","atk":1000,"def":1000},"rarity":"C","img":"73356503","code":"21","tcg":25514,"grp":159,"idx":29},
+    {"id":"022","section":"main","num":"022","printed":"CDIP-EN022","name":"Barrier Statue of the Drought","ctype":"monster","keywords":"Rock EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Rock / Effect","atk":1000,"def":1000},"rarity":"C","img":"19740112","code":"22","tcg":25515,"grp":159,"idx":30},
+    {"id":"023","section":"main","num":"023","printed":"CDIP-EN023","name":"Barrier Statue of the Heavens","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fairy / Effect","atk":1000,"def":1000},"rarity":"C","img":"46145256","code":"23","tcg":25516,"grp":159,"idx":31},
+    {"id":"024","section":"main","num":"024","printed":"CDIP-EN024","name":"Vanity's Ruler","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Fairy / Effect","atk":2500,"def":1600},"rarity":"R","img":"72634965","code":"24","tcg":25517,"grp":159,"idx":32},
+    {"id":"024-utr","section":"rarities","num":"024","printed":"CDIP-EN024","name":"Vanity's Ruler","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Fairy / Effect","atk":2500,"def":1600},"rarity":"UtR","img":"72634965","badge":"UtR","variant":"Ultimate Rare","code":"UTR24","tcg":58580,"grp":159,"idx":33},
+    {"id":"025","section":"main","num":"025","printed":"CDIP-EN025","name":"Iris, the Earth Mother","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Fairy / Effect","atk":2400,"def":1200},"rarity":"R","img":"9628664","code":"25","tcg":25518,"grp":159,"idx":34},
+    {"id":"025-utr","section":"rarities","num":"025","printed":"CDIP-EN025","name":"Iris, the Earth Mother","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Fairy / Effect","atk":2400,"def":1200},"rarity":"UtR","img":"9628664","badge":"UtR","variant":"Ultimate Rare","code":"UTR25","tcg":58581,"grp":159,"idx":35},
+    {"id":"026","section":"main","num":"026","printed":"CDIP-EN026","name":"Lightning Punisher","ctype":"monster","keywords":"Thunder DARK Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Thunder / Effect","atk":2600,"def":1600},"rarity":"R","img":"45023678","code":"26","tcg":25519,"grp":159,"idx":36},
+    {"id":"026-utr","section":"rarities","num":"026","printed":"CDIP-EN026","name":"Lightning Punisher","ctype":"monster","keywords":"Thunder DARK Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Thunder / Effect","atk":2600,"def":1600},"rarity":"UtR","img":"45023678","badge":"UtR","variant":"Ultimate Rare","code":"UTR26","tcg":58582,"grp":159,"idx":37},
+    {"id":"027","section":"main","num":"027","printed":"CDIP-EN027","name":"Queen's Bodyguard","ctype":"monster","keywords":"Allure Queen Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Effect","atk":1700,"def":1200},"rarity":"C","img":"71411377","code":"27","tcg":25520,"grp":159,"idx":38},
+    {"id":"028","section":"main","num":"028","printed":"CDIP-EN028","name":"Combo Fighter","ctype":"monster","keywords":"Warrior WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Warrior / Effect","atk":1600,"def":800},"rarity":"C","img":"8806072","code":"28","tcg":25521,"grp":159,"idx":39},
+    {"id":"029","section":"main","num":"029","printed":"CDIP-EN029","name":"Combo Master","ctype":"monster","keywords":"Warrior WIND Effect Monster","stats":{"a":"WIND","l":"Level 5","t":"Warrior / Effect","atk":2200,"def":1500},"rarity":"R","img":"44800181","code":"29","tcg":25522,"grp":159,"idx":40},
+    {"id":"029-utr","section":"rarities","num":"029","printed":"CDIP-EN029","name":"Combo Master","ctype":"monster","keywords":"Warrior WIND Effect Monster","stats":{"a":"WIND","l":"Level 5","t":"Warrior / Effect","atk":2200,"def":1500},"rarity":"UtR","img":"44800181","badge":"UtR","variant":"Ultimate Rare","code":"UTR29","tcg":58583,"grp":159,"idx":41},
+    {"id":"030","section":"main","num":"030","printed":"CDIP-EN030","name":"Man Beast of Ares","ctype":"monster","keywords":"Beast-Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Beast-Warrior / Effect","atk":500,"def":500},"rarity":"C","img":"71395725","code":"30","tcg":25523,"grp":159,"idx":42},
+    {"id":"031","section":"main","num":"031","printed":"CDIP-EN031","name":"Rampaging Rhynos","ctype":"monster","keywords":"Beast-Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Beast-Warrior / Effect","atk":1500,"def":1500},"rarity":"R","img":"3784434","code":"31","tcg":25524,"grp":159,"idx":43},
+    {"id":"031-utr","section":"rarities","num":"031","printed":"CDIP-EN031","name":"Rampaging Rhynos","ctype":"monster","keywords":"Beast-Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Beast-Warrior / Effect","atk":1500,"def":1500},"rarity":"UtR","img":"3784434","badge":"UtR","variant":"Ultimate Rare","code":"UTR31","tcg":58584,"grp":159,"idx":44},
+    {"id":"032","section":"main","num":"032","printed":"CDIP-EN032","name":"Storm Shooter","ctype":"monster","keywords":"Winged Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 7","t":"Winged Beast / Effect","atk":2300,"def":500},"rarity":"SR","img":"39188539","code":"32","tcg":25525,"grp":159,"idx":45},
+    {"id":"032-utr","section":"rarities","num":"032","printed":"CDIP-EN032","name":"Storm Shooter","ctype":"monster","keywords":"Winged Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 7","t":"Winged Beast / Effect","atk":2300,"def":500},"rarity":"UtR","img":"39188539","badge":"UtR","variant":"Ultimate Rare","code":"UTR32","tcg":58585,"grp":159,"idx":46},
+    {"id":"033","section":"main","num":"033","printed":"CDIP-EN033","name":"Alien Infiltrator","ctype":"monster","keywords":"Alien Reptile EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 2","t":"Reptile / Effect","atk":800,"def":500},"rarity":"C","img":"76573247","code":"33","tcg":25526,"grp":159,"idx":47},
+    {"id":"034","section":"main","num":"034","printed":"CDIP-EN034","name":"Alien Mars","ctype":"monster","keywords":"Alien Reptile FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 3","t":"Reptile / Effect","atk":1000,"def":1000},"rarity":"C","img":"99532708","code":"34","tcg":25527,"grp":159,"idx":48},
+    {"id":"035","section":"main","num":"035","printed":"CDIP-EN035","name":"Cyberdark Dragon","ctype":"monster","keywords":"Cyberdark Machine DARK Fusion Monster","stats":{"a":"DARK","l":"Level 8","t":"Machine / Fusion","atk":1000,"def":1000},"rarity":"UR","img":"40418351","code":"35","tcg":25528,"grp":159,"idx":49},
+    {"id":"035-utr","section":"rarities","num":"035","printed":"CDIP-EN035","name":"Cyberdark Dragon","ctype":"monster","keywords":"Cyberdark Machine DARK Fusion Monster","stats":{"a":"DARK","l":"Level 8","t":"Machine / Fusion","atk":1000,"def":1000},"rarity":"UtR","img":"40418351","badge":"UtR","variant":"Ultimate Rare","code":"UTR35","tcg":58586,"grp":159,"idx":50},
+    {"id":"036","section":"main","num":"036","printed":"CDIP-EN036","name":"Cyber Ogre 2","ctype":"monster","keywords":"Machine EARTH Fusion Monster","stats":{"a":"EARTH","l":"Level 7","t":"Machine / Fusion","atk":2600,"def":1900},"rarity":"UR","img":"37057012","code":"36","tcg":25529,"grp":159,"idx":51},
+    {"id":"036-utr","section":"rarities","num":"036","printed":"CDIP-EN036","name":"Cyber Ogre 2","ctype":"monster","keywords":"Machine EARTH Fusion Monster","stats":{"a":"EARTH","l":"Level 7","t":"Machine / Fusion","atk":2600,"def":1900},"rarity":"UtR","img":"37057012","badge":"UtR","variant":"Ultimate Rare","code":"UTR36","tcg":58587,"grp":159,"idx":52},
+    {"id":"037","section":"main","num":"037","printed":"CDIP-EN037","name":"Corruption Cell \"A\"","ctype":"spell","keywords":"Alien Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"2561846","code":"37","tcg":25530,"grp":159,"idx":53},
+    {"id":"038","section":"main","num":"038","printed":"CDIP-EN038","name":"Flash of the Forbidden Spell","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"R","img":"39956951","code":"38","tcg":25531,"grp":159,"idx":54},
+    {"id":"038-utr","section":"rarities","num":"038","printed":"CDIP-EN038","name":"Flash of the Forbidden Spell","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UtR","img":"39956951","badge":"UtR","variant":"Ultimate Rare","code":"UTR38","tcg":58588,"grp":159,"idx":55},
+    {"id":"039","section":"main","num":"039","printed":"CDIP-EN039","name":"Ritual Foregone","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"65450690","code":"39","tcg":25532,"grp":159,"idx":56},
+    {"id":"040","section":"main","num":"040","printed":"CDIP-EN040","name":"Instant Fusion","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"1845204","code":"40","tcg":25533,"grp":159,"idx":57},
+    {"id":"041","section":"main","num":"041","printed":"CDIP-EN041","name":"Counter Cleaner","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"38834303","code":"41","tcg":25534,"grp":159,"idx":58},
+    {"id":"042","section":"main","num":"042","printed":"CDIP-EN042","name":"Linear Accelerator Cannon","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"64238008","code":"42","tcg":25535,"grp":159,"idx":59},
+    {"id":"043","section":"main","num":"043","printed":"CDIP-EN043","name":"Chain Strike","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"91623717","code":"43","tcg":25536,"grp":159,"idx":60},
+    {"id":"044","section":"main","num":"044","printed":"CDIP-EN044","name":"Miraculous Rebirth","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"R","img":"37011715","code":"44","tcg":25537,"grp":159,"idx":61},
+    {"id":"044-utr","section":"rarities","num":"044","printed":"CDIP-EN044","name":"Miraculous Rebirth","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"UtR","img":"37011715","badge":"UtR","variant":"Ultimate Rare","code":"UTR44","tcg":58589,"grp":159,"idx":62},
+    {"id":"045","section":"main","num":"045","printed":"CDIP-EN045","name":"Mystical Wind Typhoon","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"63516460","code":"45","tcg":25538,"grp":159,"idx":63},
+    {"id":"046","section":"main","num":"046","printed":"CDIP-EN046","name":"Level Down!?","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"90500169","code":"46","tcg":25539,"grp":159,"idx":64},
+    {"id":"047","section":"main","num":"047","printed":"CDIP-EN047","name":"Degenerate Circuit","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"R","img":"36995273","code":"47","tcg":25540,"grp":159,"idx":65},
+    {"id":"047-utr","section":"rarities","num":"047","printed":"CDIP-EN047","name":"Degenerate Circuit","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"UtR","img":"36995273","badge":"UtR","variant":"Ultimate Rare","code":"UTR47","tcg":58590,"grp":159,"idx":66},
+    {"id":"048","section":"main","num":"048","printed":"CDIP-EN048","name":"Senet Switch","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"63394872","code":"48","tcg":25541,"grp":159,"idx":67},
+    {"id":"049","section":"main","num":"049","printed":"CDIP-EN049","name":"Blasting Fuse","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"R","img":"99788587","code":"49","tcg":25542,"grp":159,"idx":68},
+    {"id":"049-utr","section":"rarities","num":"049","printed":"CDIP-EN049","name":"Blasting Fuse","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"UtR","img":"99788587","badge":"UtR","variant":"Ultimate Rare","code":"UTR49","tcg":58591,"grp":159,"idx":69},
+    {"id":"050","section":"main","num":"050","printed":"CDIP-EN050","name":"Straight Flush","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"25173686","code":"50","tcg":25543,"grp":159,"idx":70},
+    {"id":"051","section":"main","num":"051","printed":"CDIP-EN051","name":"Justi-Break","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"62271284","code":"51","tcg":25544,"grp":159,"idx":71},
+    {"id":"052","section":"main","num":"052","printed":"CDIP-EN052","name":"Dimensional Inversion","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"R","img":"98666339","code":"52","tcg":25545,"grp":159,"idx":72},
+    {"id":"052-utr","section":"rarities","num":"052","printed":"CDIP-EN052","name":"Dimensional Inversion","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"UtR","img":"98666339","badge":"UtR","variant":"Ultimate Rare","code":"UTR52","tcg":58592,"grp":159,"idx":73},
+    {"id":"053","section":"main","num":"053","printed":"CDIP-EN053","name":"Chain Healing","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"25050038","code":"53","tcg":25546,"grp":159,"idx":74},
+    {"id":"054","section":"main","num":"054","printed":"CDIP-EN054","name":"Chain Detonation","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"51449743","code":"54","tcg":25547,"grp":159,"idx":75},
+    {"id":"055","section":"main","num":"055","printed":"CDIP-EN055","name":"Byroad Sacrifice","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"36935434","code":"55","tcg":25548,"grp":159,"idx":76},
+    {"id":"056","section":"main","num":"056","printed":"CDIP-EN056","name":"Trojan Blast","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"63323539","code":"56","tcg":25549,"grp":159,"idx":77},
+    {"id":"056-utr","section":"rarities","num":"056","printed":"CDIP-EN056","name":"Trojan Blast","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"UtR","img":"63323539","badge":"UtR","variant":"Ultimate Rare","code":"UTR56","tcg":58593,"grp":159,"idx":78},
+    {"id":"057","section":"main","num":"057","printed":"CDIP-EN057","name":"Accumulated Fortune","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"98444741","code":"57","tcg":25550,"grp":159,"idx":79},
+    {"id":"058","section":"main","num":"058","printed":"CDIP-EN058","name":"Cyber Shadow Gardna","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"SR","img":"90440725","code":"58","tcg":25551,"grp":159,"idx":80},
+    {"id":"058-utr","section":"rarities","num":"058","printed":"CDIP-EN058","name":"Cyber Shadow Gardna","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"UtR","img":"90440725","badge":"UtR","variant":"Ultimate Rare","code":"UTR58","tcg":58594,"grp":159,"idx":81},
+    {"id":"059","section":"main","num":"059","printed":"CDIP-EN059","name":"Vanity's Call","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"C","img":"24838456","code":"59","tcg":25552,"grp":159,"idx":82},
+    {"id":"060","section":"main","num":"060","printed":"CDIP-EN060","name":"Black Horn of Heaven","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"R","img":"50323155","code":"60","tcg":25553,"grp":159,"idx":83},
+    {"id":"060-utr","section":"rarities","num":"060","printed":"CDIP-EN060","name":"Black Horn of Heaven","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"UtR","img":"50323155","badge":"UtR","variant":"Ultimate Rare","code":"UTR60","tcg":58595,"grp":159,"idx":84}
+  ]
+}

@@ -2,10 +2,10 @@
 <html lang="en-GB">
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'wasm-unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https://assets.tcgdex.net; media-src 'self' blob:; connect-src 'self' https://assets.tcgdex.net; worker-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self';">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'wasm-unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https://assets.tcgdex.net https://img.bindertracker.co.uk; media-src 'self' blob:; connect-src 'self' https://assets.tcgdex.net https://img.bindertracker.co.uk; worker-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self';">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Shared collection · Binder Tracker</title>
-  <meta name="description" content="A Pokémon TCG collection someone has shared with you. See their cards, or compare them side by side with your own.">
+  <meta name="description" content="A {{tcg}} collection someone has shared with you. See their cards, or compare them side by side with your own.">
   <meta name="robots" content="noindex">
   <link rel="canonical" href="https://bindertracker.co.uk/shared/">
   <meta name="theme-color" content="#F7F7F8" media="(prefers-color-scheme: light)">
@@ -140,16 +140,15 @@
 </main>
 
 <footer class="site-footer wrap lst-footer">
-  <p class="lst-made">Made with <a href="./">Binder Tracker</a>, free checklists for every Pokémon TCG set with no ads, no sign-up and no tracking. Track your own collection and share it like this.</p>
+  <p class="lst-made">Made with <a href="./">Binder Tracker</a>, free checklists for every {{tcg}} set with no ads, no sign-up and no tracking. Track your own collection and share it like this.</p>
   <p>This page reads the cards from the link itself. Nothing is uploaded, and nothing changes on this device unless you choose Merge or Replace.</p>
   <nav class="footer-links" aria-label="Site">
     <a href="./">All sets</a>
-    <a href="guides/fake-pokemon-cards/">Spot fake cards</a>
-    <a href="privacy.html">Privacy &amp; cookies</a>
+{{{footerGuides}}}    <a href="privacy.html">Privacy &amp; cookies</a>
     <a href="terms.html">Terms of use</a>
   </nav>
   <p>Like Binder Tracker? It’s free, with no ads. Support it by shopping at <a href="https://brtradingpost.co.uk/shop/" rel="noopener">BR Trading Post</a>.</p>
-  <p>Not affiliated with, endorsed, sponsored, or approved by Nintendo, Creatures Inc., GAME FREAK inc., or The Pokémon Company. Pokémon and all card images © Pokémon / Nintendo / Creatures Inc. / GAME FREAK inc.</p>
+  <p>{{disclaimer}}</p>
 </footer>
 
 <dialog class="sheet sheet--small" id="dlg-confirm" aria-labelledby="confirm-title">

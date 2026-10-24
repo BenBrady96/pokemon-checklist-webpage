@@ -1,0 +1,101 @@
+{
+  "id": "yugioh/samurai-warlords-structure-deck",
+  "game": "yugioh",
+  "slug": "samurai-warlords-structure-deck",
+  "name": "Samurai Warlords Structure Deck",
+  "series": "ZEXAL",
+  "kind": "deck",
+  "code": "SDWA",
+  "syncKey": "YSDWA",
+  "released": "2012-06-21",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "SDWA-EN001–SDWA-EN041",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from SDWA-EN001 to SDWA-EN041."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Samurai Warlords Structure Deck Checklist · All 41 Cards",
+    "description": "Free Yu-Gi-Oh! Samurai Warlords Structure Deck checklist with no ads, no sign-up and no tracking. Track all 41 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Samurai Warlords Structure Deck Checklist",
+    "ogDescription": "Track all 41 cards in Yu-Gi-Oh! Samurai Warlords Structure Deck. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 41 cards in Yu-Gi-Oh! Samurai Warlords Structure Deck. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Samurai Warlords Structure Deck",
+    "paragraphs": [
+      "Samurai Warlords Structure Deck is a Yu-Gi-Oh! TCG deck released on 21 June 2012, in the ZEXAL era. It has 41 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Samurai Warlords Structure Deck"
+    ],
+    "tcgplayer": [
+      592
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"SDWA-EN001","name":"Chamberlain of the Six Samurai","ctype":"monster","keywords":"Six Samurai Warrior EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 3","t":"Warrior / Normal","atk":200,"def":2000},"rarity":"C","img":"44430454","code":"1","tcg":59843,"grp":592,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"SDWA-EN002","name":"Grandmaster of the Six Samurai","ctype":"monster","keywords":"Six Samurai Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 5","t":"Warrior / Effect","atk":2100,"def":800},"rarity":"C","img":"83039729","code":"2","tcg":59844,"grp":592,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"SDWA-EN003","name":"The Six Samurai - Yariza","ctype":"monster","keywords":"Six Samurai Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Warrior / Effect","atk":1000,"def":500},"rarity":"C","img":"69025477","code":"3","tcg":59845,"grp":592,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"SDWA-EN004","name":"The Six Samurai - Zanji","ctype":"monster","keywords":"Six Samurai Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Effect","atk":1800,"def":1300},"rarity":"C","img":"95519486","code":"4","tcg":59846,"grp":592,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"SDWA-EN005","name":"The Six Samurai - Nisashi","ctype":"monster","keywords":"Six Samurai Warrior WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Warrior / Effect","atk":1400,"def":700},"rarity":"C","img":"31904181","code":"5","tcg":59847,"grp":592,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"SDWA-EN006","name":"The Six Samurai - Yaichi","ctype":"monster","keywords":"Six Samurai Warrior WATER Effect Monster","stats":{"a":"WATER","l":"Level 3","t":"Warrior / Effect","atk":1300,"def":800},"rarity":"C","img":"64398890","code":"6","tcg":59848,"grp":592,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"SDWA-EN007","name":"The Six Samurai - Kamon","ctype":"monster","keywords":"Six Samurai Warrior FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 3","t":"Warrior / Effect","atk":1500,"def":1000},"rarity":"C","img":"90397998","code":"7","tcg":59849,"grp":592,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"SDWA-EN008","name":"The Six Samurai - Irou","ctype":"monster","keywords":"Six Samurai Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Warrior / Effect","atk":1700,"def":1200},"rarity":"C","img":"27782503","code":"8","tcg":59850,"grp":592,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"SDWA-EN009","name":"Great Shogun Shien","ctype":"monster","keywords":"Six Samurai Warrior FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 7","t":"Warrior / Effect","atk":2500,"def":2400},"rarity":"C","img":"63176202","code":"9","tcg":59851,"grp":592,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"SDWA-EN010","name":"Shien's Footsoldier","ctype":"monster","keywords":"Six Samurai Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 2","t":"Warrior / Effect","atk":700,"def":300},"rarity":"C","img":"99675356","code":"10","tcg":59852,"grp":592,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"SDWA-EN011","name":"Enishi, Shien's Chancellor","ctype":"monster","keywords":"Six Samurai Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Warrior / Effect","atk":2200,"def":1200},"rarity":"C","img":"38280762","code":"11","tcg":59853,"grp":592,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"SDWA-EN012","name":"Spirit of the Six Samurai","ctype":"monster","keywords":"Six Samurai Warrior EARTH Union Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Warrior / Union / Effect","atk":500,"def":500},"rarity":"C","img":"65685470","code":"12","tcg":59854,"grp":592,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"SDWA-EN013","name":"Future Samurai","ctype":"monster","keywords":"Warrior LIGHT Gemini Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Gemini","atk":1600,"def":1200},"rarity":"C","img":"90642597","code":"13","tcg":59855,"grp":592,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"SDWA-EN014","name":"The Immortal Bushi","ctype":"monster","keywords":"Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Warrior / Effect","atk":1200,"def":600},"rarity":"C","img":"52035300","code":"14","tcg":59856,"grp":592,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"SDWA-EN015","name":"Hand of the Six Samurai","ctype":"monster","keywords":"Six Samurai Warrior FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 3","t":"Warrior / Effect","atk":1600,"def":1000},"rarity":"C","img":"78792195","code":"15","tcg":59857,"grp":592,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"SDWA-EN016","name":"Legendary Six Samurai - Kizan","ctype":"monster","keywords":"Six Samurai Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Effect","atk":1800,"def":500},"rarity":"C","img":"49721904","code":"16","tcg":59858,"grp":592,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"SDWA-EN017","name":"Legendary Six Samurai - Enishi","ctype":"monster","keywords":"Six Samurai Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Effect","atk":1700,"def":700},"rarity":"C","img":"75116619","code":"17","tcg":59859,"grp":592,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"SDWA-EN018","name":"Legendary Six Samurai - Kageki","ctype":"monster","keywords":"Six Samurai Warrior WIND Effect Monster","stats":{"a":"WIND","l":"Level 3","t":"Warrior / Effect","atk":200,"def":2000},"rarity":"SR","img":"2511717","code":"18","tcg":59860,"grp":592,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"SDWA-EN019","name":"Shien's Squire","ctype":"monster","keywords":"Six Samurai Warrior EARTH Tuner Monster","stats":{"a":"EARTH","l":"Level 1","t":"Warrior / Tuner","atk":300,"def":700},"rarity":"C","img":"33883834","code":"19","tcg":59861,"grp":592,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"SDWA-EN020","name":"Shien's Daredevil","ctype":"monster","keywords":"Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Effect","atk":1600,"def":1000},"rarity":"C","img":"98162021","code":"20","tcg":59862,"grp":592,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"SDWA-EN021","name":"Elder of the Six Samurai","ctype":"monster","keywords":"Six Samurai Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Warrior / Effect","atk":400,"def":0},"rarity":"C","img":"61737116","code":"21","tcg":59863,"grp":592,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"SDWA-EN022","name":"Shien's Advisor","ctype":"monster","keywords":"Six Samurai Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Effect","atk":1200,"def":400},"rarity":"C","img":"98126725","code":"22","tcg":59864,"grp":592,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"SDWA-EN023","name":"Dark Hole","ctype":"spell","keywords":"Hole Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"53129443","code":"23","tcg":59865,"grp":592,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"SDWA-EN024","name":"The A. Forces","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"403847","code":"24","tcg":59866,"grp":592,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"SDWA-EN025","name":"Reinforcement of the Army","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"32807846","code":"25","tcg":59867,"grp":592,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"SDWA-EN026","name":"The Warrior Returning Alive","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"95281259","code":"26","tcg":59868,"grp":592,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"SDWA-EN027","name":"Cunning of the Six Samurai","ctype":"spell","keywords":"Six Samurai Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"27178262","code":"27","tcg":59869,"grp":592,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"SDWA-EN028","name":"Six Samurai United","ctype":"spell","keywords":"Six Samurai Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"72345736","code":"28","tcg":59870,"grp":592,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"SDWA-EN029","name":"Gateway of the Six","ctype":"spell","keywords":"Six Samurai Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"27970830","code":"29","tcg":59871,"grp":592,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"SDWA-EN030","name":"Shien's Smoke Signal","ctype":"spell","keywords":"Six Samurai Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"54031490","code":"30","tcg":59872,"grp":592,"idx":29},
+    {"id":"031","section":"main","num":"031","printed":"SDWA-EN031","name":"Temple of the Six","ctype":"spell","keywords":"Six Samurai Field Spell","stats":{"t":"Field Spell"},"rarity":"C","img":"53819808","code":"31","tcg":59873,"grp":592,"idx":30},
+    {"id":"032","section":"main","num":"032","printed":"SDWA-EN032","name":"Shien's Dojo","ctype":"spell","keywords":"Six Samurai Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"47436247","code":"32","tcg":59874,"grp":592,"idx":31},
+    {"id":"033","section":"main","num":"033","printed":"SDWA-EN033","name":"Rivalry of Warlords","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"90846359","code":"33","tcg":59875,"grp":592,"idx":32},
+    {"id":"034","section":"main","num":"034","printed":"SDWA-EN034","name":"Return of the Six Samurai","ctype":"trap","keywords":"Six Samurai Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"46874015","code":"34","tcg":59876,"grp":592,"idx":33},
+    {"id":"035","section":"main","num":"035","printed":"SDWA-EN035","name":"Double-Edged Sword Technique","ctype":"trap","keywords":"Six Samurai Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"21007444","code":"35","tcg":59877,"grp":592,"idx":34},
+    {"id":"036","section":"main","num":"036","printed":"SDWA-EN036","name":"Fiendish Chain","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"50078509","code":"36","tcg":59878,"grp":592,"idx":35},
+    {"id":"037","section":"main","num":"037","printed":"SDWA-EN037","name":"Musakani Magatama","ctype":"trap","keywords":"Six Samurai Counter Trap","stats":{"t":"Counter Trap"},"rarity":"C","img":"41458579","code":"37","tcg":59879,"grp":592,"idx":36},
+    {"id":"038","section":"main","num":"038","printed":"SDWA-EN038","name":"Shien's Scheme","ctype":"trap","keywords":"Six Samurai Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"77847678","code":"38","tcg":59880,"grp":592,"idx":37},
+    {"id":"039","section":"main","num":"039","printed":"SDWA-EN039","name":"Six Strike - Thunder Blast","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"23212990","code":"39","tcg":59881,"grp":592,"idx":38},
+    {"id":"040","section":"main","num":"040","printed":"SDWA-EN040","name":"Six Style - Dual Wield","ctype":"trap","keywords":"Six Samurai Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"75525309","code":"40","tcg":59882,"grp":592,"idx":39},
+    {"id":"041","section":"main","num":"041","printed":"SDWA-EN041","name":"Shadow of the Six Samurai - Shien","ctype":"monster","keywords":"Six Samurai Warrior EARTH Xyz Monster","stats":{"a":"EARTH","l":"Rank 4","t":"Warrior / Xyz","atk":2500,"def":400},"rarity":"UR","img":"1828513","code":"41","tcg":59883,"grp":592,"idx":40}
+  ]
+}

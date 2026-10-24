@@ -1,0 +1,151 @@
+{
+  "id": "yugioh/premium-gold-return-of-the-bling",
+  "game": "yugioh",
+  "slug": "premium-gold-return-of-the-bling",
+  "name": "Premium Gold: Return of the Bling",
+  "series": "ARC-V",
+  "kind": "set",
+  "code": "PGL2",
+  "syncKey": "YPGL2",
+  "released": "2015-03-19",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Main Set",
+      "range": "PGL2-EN001–PGL2-EN091",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from PGL2-EN001 to PGL2-EN091."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Premium Gold: Return of the Bling Checklist · All 91 Cards",
+    "description": "Free Yu-Gi-Oh! Premium Gold: Return of the Bling checklist with no ads, no sign-up and no tracking. Track all 91 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Premium Gold: Return of the Bling Checklist",
+    "ogDescription": "Track all 91 cards in Yu-Gi-Oh! Premium Gold: Return of the Bling. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 91 cards in Yu-Gi-Oh! Premium Gold: Return of the Bling. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About the Premium Gold: Return of the Bling set",
+    "paragraphs": [
+      "Premium Gold: Return of the Bling is a Yu-Gi-Oh! TCG special set released on 19 March 2015, in the ARC-V era. It has 91 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Premium Gold: Return of the Bling"
+    ],
+    "tcgplayer": [
+      1523
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"PGL2-EN001","name":"Junk Giant","ctype":"monster","keywords":"Junk Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 6","t":"Machine / Effect","atk":2000,"def":2400},"rarity":"GScR","img":"34492631","code":"1","tcg":96980,"grp":1523,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"PGL2-EN002","name":"Absolute King Back Jack","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Fiend / Effect","atk":0,"def":0},"rarity":"GScR","img":"60990740","code":"2","tcg":96971,"grp":1523,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"PGL2-EN003","name":"Rose Lover","ctype":"monster","keywords":"Rose Dragon Plant EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 1","t":"Plant / Effect","atk":800,"def":800},"rarity":"GScR","img":"89252157","code":"3","tcg":96987,"grp":1523,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"PGL2-EN004","name":"Rose Paladin","ctype":"monster","keywords":"Rose Dragon Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Effect","atk":1800,"def":200},"rarity":"GScR","img":"96385345","code":"4","tcg":96991,"grp":1523,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"PGL2-EN005","name":"Ghost Charon, the Underworld Boatman","ctype":"monster","keywords":"Zombie DARK Tuner Monster","stats":{"a":"DARK","l":"Level 2","t":"Zombie / Tuner","atk":500,"def":0},"rarity":"GScR","img":"23379054","code":"5","tcg":96978,"grp":1523,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"PGL2-EN006","name":"Blackwing - Kris the Crack of Dawn","ctype":"monster","keywords":"Blackwing Winged Beast DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Winged Beast / Effect","atk":1900,"def":300},"rarity":"GScR","img":"81105204","code":"6","tcg":96972,"grp":1523,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"PGL2-EN007","name":"Blackwing - Pinaki the Waxing Moon","ctype":"monster","keywords":"Blackwing Winged Beast DARK Tuner Monster","stats":{"a":"DARK","l":"Level 3","t":"Winged Beast / Tuner","atk":1200,"def":1000},"rarity":"GScR","img":"55610595","code":"7","tcg":96974,"grp":1523,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"PGL2-EN008","name":"Peropero Cerperus","ctype":"monster","keywords":"Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Beast / Effect","atk":0,"def":1800},"rarity":"GScR","img":"69764158","code":"8","tcg":96986,"grp":1523,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"PGL2-EN009","name":"Tristan, Knight of the Underworld","ctype":"monster","keywords":"Zombie DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Zombie / Effect","atk":1800,"def":0},"rarity":"GScR","img":"96163807","code":"9","tcg":96990,"grp":1523,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"PGL2-EN010","name":"Isolde, Belle of the Underworld","ctype":"monster","keywords":"Zombie DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Zombie / Effect","atk":1000,"def":0},"rarity":"GScR","img":"22657402","code":"10","tcg":96979,"grp":1523,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"PGL2-EN011","name":"Masked HERO Anki","ctype":"monster","keywords":"Masked HERO Warrior DARK Fusion Monster","stats":{"a":"DARK","l":"Level 8","t":"Warrior / Fusion","atk":2800,"def":1200},"rarity":"GScR","img":"59642500","code":"11","tcg":96981,"grp":1523,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"PGL2-EN012","name":"Blackwing Tamer - Obsidian Hawk Joe","ctype":"monster","keywords":"Blackwing Warrior DARK Synchro Monster","stats":{"a":"DARK","l":"Level 7","t":"Warrior / Synchro","atk":2600,"def":2000},"rarity":"GScR","img":"81983656","code":"12","tcg":96975,"grp":1523,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"PGL2-EN013","name":"Blackwing - Nothung the Starlight","ctype":"monster","keywords":"Blackwing Winged Beast DARK Synchro Monster","stats":{"a":"DARK","l":"Level 6","t":"Winged Beast / Synchro","atk":2400,"def":1600},"rarity":"GScR","img":"95040215","code":"13","tcg":96973,"grp":1523,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"PGL2-EN014","name":"Dragocytos Corrupted Nethersoul Dragon","ctype":"monster","keywords":"Dragon DARK Synchro Monster","stats":{"a":"DARK","l":"Level 10","t":"Dragon / Synchro","atk":4000,"def":2000},"rarity":"GScR","img":"21435914","code":"14","tcg":96977,"grp":1523,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"PGL2-EN015","name":"Number 95: Galaxy-Eyes Dark Matter Dragon","ctype":"monster","keywords":"Galaxy-Eyes Dragon DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 9","t":"Dragon / Xyz","atk":4000,"def":0},"rarity":"GScR","img":"58820923","code":"15","tcg":96984,"grp":1523,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"PGL2-EN016","name":"Cat Shark","ctype":"monster","keywords":"Beast WATER Xyz Monster","stats":{"a":"WATER","l":"Rank 2","t":"Beast / Xyz","atk":500,"def":500},"rarity":"GScR","img":"84224627","code":"16","tcg":96976,"grp":1523,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"PGL2-EN017","name":"Number 14: Greedy Sarameya","ctype":"monster","keywords":"Beast DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 5","t":"Beast / Xyz","atk":2500,"def":1500},"rarity":"GScR","img":"21313376","code":"17","tcg":96982,"grp":1523,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"PGL2-EN018","name":"Number 21: Frozen Lady Justice","ctype":"monster","keywords":"Aqua WATER Xyz Monster","stats":{"a":"WATER","l":"Rank 6","t":"Aqua / Xyz","atk":500,"def":500},"rarity":"GScR","img":"57707471","code":"18","tcg":96983,"grp":1523,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"PGL2-EN019","name":"Parallel Twister","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"GScR","img":"83102080","code":"19","tcg":96985,"grp":1523,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"PGL2-EN020","name":"Stardust Re-Spark","ctype":"trap","keywords":"Stardust Normal Trap","stats":{"t":"Normal Trap"},"rarity":"GScR","img":"20590784","code":"20","tcg":96989,"grp":1523,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"PGL2-EN021","name":"Santa Claws","ctype":"monster","keywords":"Fiend LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Fiend / Effect","atk":1200,"def":2500},"rarity":"GScR","img":"46565218","code":"21","tcg":96988,"grp":1523,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"PGL2-EN022","name":"Right Leg of the Forbidden One","ctype":"monster","keywords":"Exodia Spellcaster DARK Normal Monster","stats":{"a":"DARK","l":"Level 1","t":"Spellcaster / Normal","atk":200,"def":300},"rarity":"GUR","img":"8124921","code":"22","tcg":96954,"grp":1523,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"PGL2-EN023","name":"Left Leg of the Forbidden One","ctype":"monster","keywords":"Exodia Spellcaster DARK Normal Monster","stats":{"a":"DARK","l":"Level 1","t":"Spellcaster / Normal","atk":200,"def":300},"rarity":"GUR","img":"44519536","code":"23","tcg":96936,"grp":1523,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"PGL2-EN024","name":"Right Arm of the Forbidden One","ctype":"monster","keywords":"Exodia Spellcaster DARK Normal Monster","stats":{"a":"DARK","l":"Level 1","t":"Spellcaster / Normal","atk":200,"def":300},"rarity":"GUR","img":"70903634","code":"24","tcg":96953,"grp":1523,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"PGL2-EN025","name":"Left Arm of the Forbidden One","ctype":"monster","keywords":"Exodia Spellcaster DARK Normal Monster","stats":{"a":"DARK","l":"Level 1","t":"Spellcaster / Normal","atk":200,"def":300},"rarity":"GUR","img":"7902349","code":"25","tcg":96935,"grp":1523,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"PGL2-EN026","name":"Exodia the Forbidden One","ctype":"monster","keywords":"Exodia Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Spellcaster / Effect","atk":1000,"def":1000},"rarity":"GUR","img":"33396948","code":"26","tcg":96907,"grp":1523,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"PGL2-EN027","name":"Sinister Serpent","ctype":"monster","keywords":"Reptile WATER Effect Monster","stats":{"a":"WATER","l":"Level 1","t":"Reptile / Effect","atk":300,"def":250},"rarity":"GUR","img":"8131171","code":"27","tcg":96957,"grp":1523,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"PGL2-EN028","name":"Card Trooper","ctype":"monster","keywords":"Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Machine / Effect","atk":400,"def":400},"rarity":"GUR","img":"85087012","code":"28","tcg":96893,"grp":1523,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"PGL2-EN029","name":"Elemental HERO Neos Alius","ctype":"monster","keywords":"Elemental HERO Warrior LIGHT Gemini Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Gemini","atk":1900,"def":1300},"rarity":"GUR","img":"69884162","code":"29","tcg":96903,"grp":1523,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"PGL2-EN030","name":"Dandylion","ctype":"monster","keywords":"Plant EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Plant / Effect","atk":300,"def":300},"rarity":"GUR","img":"15341821","code":"30","tcg":96899,"grp":1523,"idx":29},
+    {"id":"031","section":"main","num":"031","printed":"PGL2-EN031","name":"Debris Dragon","ctype":"monster","keywords":"Dragon WIND Tuner Monster","stats":{"a":"WIND","l":"Level 4","t":"Dragon / Tuner","atk":1000,"def":2000},"rarity":"GUR","img":"14943837","code":"31","tcg":96900,"grp":1523,"idx":30},
+    {"id":"032","section":"main","num":"032","printed":"PGL2-EN032","name":"Mystical Beast of Serket","ctype":"monster","keywords":"Fairy EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 6","t":"Fairy / Effect","atk":2500,"def":2000},"rarity":"GUR","img":"89194033","code":"32","tcg":96942,"grp":1523,"idx":31},
+    {"id":"033","section":"main","num":"033","printed":"PGL2-EN033","name":"Glow-Up Bulb","ctype":"monster","keywords":"Plant EARTH Tuner Monster","stats":{"a":"EARTH","l":"Level 1","t":"Plant / Tuner","atk":100,"def":100},"rarity":"GUR","img":"67441435","code":"33","tcg":96928,"grp":1523,"idx":32},
+    {"id":"034","section":"main","num":"034","printed":"PGL2-EN034","name":"Metaion, the Timelord","ctype":"monster","keywords":"Timelord Fairy FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 10","t":"Fairy / Effect","atk":0,"def":0},"rarity":"GUR","img":"74530899","code":"34","tcg":96940,"grp":1523,"idx":33},
+    {"id":"035","section":"main","num":"035","printed":"PGL2-EN035","name":"Bujin Yamato","ctype":"monster","keywords":"Bujin Beast-Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Beast-Warrior / Effect","atk":1800,"def":200},"rarity":"GUR","img":"32339440","code":"35","tcg":96891,"grp":1523,"idx":34},
+    {"id":"036","section":"main","num":"036","printed":"PGL2-EN036","name":"Traptrix Atrax","ctype":"monster","keywords":"Traptrix Insect EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Insect / Effect","atk":1800,"def":1000},"rarity":"GUR","img":"55428242","code":"36","tcg":96965,"grp":1523,"idx":35},
+    {"id":"037","section":"main","num":"037","printed":"PGL2-EN037","name":"Traptrix Myrmeleo","ctype":"monster","keywords":"Traptrix Insect EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Insect / Effect","atk":1600,"def":1200},"rarity":"GUR","img":"91812341","code":"37","tcg":96967,"grp":1523,"idx":36},
+    {"id":"038","section":"main","num":"038","printed":"PGL2-EN038","name":"Traptrix Nepenthes","ctype":"monster","keywords":"Traptrix Plant EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Plant / Effect","atk":800,"def":2000},"rarity":"GUR","img":"28201945","code":"38","tcg":96968,"grp":1523,"idx":37},
+    {"id":"039","section":"main","num":"039","printed":"PGL2-EN039","name":"Mathematician","ctype":"monster","keywords":"Spellcaster EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Spellcaster / Effect","atk":1500,"def":500},"rarity":"GUR","img":"41386308","code":"39","tcg":96939,"grp":1523,"idx":38},
+    {"id":"040","section":"main","num":"040","printed":"PGL2-EN040","name":"Sylvan Sagequoia","ctype":"monster","keywords":"Sylvan Plant WIND Effect Monster","stats":{"a":"WIND","l":"Level 7","t":"Plant / Effect","atk":2600,"def":2100},"rarity":"GUR","img":"10530913","code":"40","tcg":96962,"grp":1523,"idx":39},
+    {"id":"041","section":"main","num":"041","printed":"PGL2-EN041","name":"Traptrix Dionaea","ctype":"monster","keywords":"Traptrix Plant EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Plant / Effect","atk":1700,"def":1100},"rarity":"GUR","img":"45803070","code":"41","tcg":96966,"grp":1523,"idx":40},
+    {"id":"042","section":"main","num":"042","printed":"PGL2-EN042","name":"Goyo Guardian","ctype":"monster","keywords":"Guardian Warrior EARTH Synchro Monster","stats":{"a":"EARTH","l":"Level 6","t":"Warrior / Synchro","atk":2800,"def":2000},"rarity":"GUR","img":"7391448","code":"42","tcg":96930,"grp":1523,"idx":41},
+    {"id":"043","section":"main","num":"043","printed":"PGL2-EN043","name":"Armades, Keeper of Boundaries","ctype":"monster","keywords":"Fiend LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 5","t":"Fiend / Synchro","atk":2300,"def":1500},"rarity":"GUR","img":"88033975","code":"43","tcg":96887,"grp":1523,"idx":42},
+    {"id":"044","section":"main","num":"044","printed":"PGL2-EN044","name":"Lavalval Chain","ctype":"monster","keywords":"Laval Sea Serpent FIRE Xyz Monster","stats":{"a":"FIRE","l":"Rank 4","t":"Sea Serpent / Xyz","atk":1800,"def":1000},"rarity":"GUR","img":"34086406","code":"44","tcg":96934,"grp":1523,"idx":43},
+    {"id":"045","section":"main","num":"045","printed":"PGL2-EN045","name":"Madolche Queen Tiaramisu","ctype":"monster","keywords":"Madolche Fairy EARTH Xyz Monster","stats":{"a":"EARTH","l":"Rank 4","t":"Fairy / Xyz","atk":2200,"def":2100},"rarity":"GUR","img":"37164373","code":"45","tcg":96937,"grp":1523,"idx":44},
+    {"id":"046","section":"main","num":"046","printed":"PGL2-EN046","name":"Number 101: Silent Honor ARK","ctype":"monster","keywords":"Aqua WATER Xyz Monster","stats":{"a":"WATER","l":"Rank 4","t":"Aqua / Xyz","atk":2100,"def":1000},"rarity":"GUR","img":"48739166","code":"46","tcg":96945,"grp":1523,"idx":45},
+    {"id":"047","section":"main","num":"047","printed":"PGL2-EN047","name":"Downerd Magician","ctype":"monster","keywords":"Spellcaster DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 4","t":"Spellcaster / Xyz","atk":2100,"def":200},"rarity":"GUR","img":"72167543","code":"47","tcg":96902,"grp":1523,"idx":46},
+    {"id":"048","section":"main","num":"048","printed":"PGL2-EN048","name":"Raigeki","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"GUR","img":"12580477","code":"48","tcg":96948,"grp":1523,"idx":47},
+    {"id":"049","section":"main","num":"049","printed":"PGL2-EN049","name":"Book of Moon","ctype":"spell","keywords":"Book of Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"GUR","img":"14087893","code":"49","tcg":96890,"grp":1523,"idx":48},
+    {"id":"050","section":"main","num":"050","printed":"PGL2-EN050","name":"Advanced Ritual Art","ctype":"spell","keywords":"Ritual Spell","stats":{"t":"Ritual Spell"},"rarity":"GUR","img":"46052429","code":"50","tcg":96886,"grp":1523,"idx":49},
+    {"id":"051","section":"main","num":"051","printed":"PGL2-EN051","name":"Foolish Burial","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"GUR","img":"81439174","code":"51","tcg":96909,"grp":1523,"idx":50},
+    {"id":"052","section":"main","num":"052","printed":"PGL2-EN052","name":"Charge of the Light Brigade","ctype":"spell","keywords":"Lightsworn Normal Spell","stats":{"t":"Normal Spell"},"rarity":"GUR","img":"94886282","code":"52","tcg":96896,"grp":1523,"idx":51},
+    {"id":"053","section":"main","num":"053","printed":"PGL2-EN053","name":"Rekindling","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"GUR","img":"74845897","code":"53","tcg":96952,"grp":1523,"idx":52},
+    {"id":"054","section":"main","num":"054","printed":"PGL2-EN054","name":"Preparation of Rites","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"GUR","img":"96729612","code":"54","tcg":96947,"grp":1523,"idx":53},
+    {"id":"055","section":"main","num":"055","printed":"PGL2-EN055","name":"Pot of Duality","ctype":"spell","keywords":"Greed Normal Spell","stats":{"t":"Normal Spell"},"rarity":"GUR","img":"98645731","code":"55","tcg":96946,"grp":1523,"idx":54},
+    {"id":"056","section":"main","num":"056","printed":"PGL2-EN056","name":"Temple of the Kings","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"GUR","img":"29762407","code":"56","tcg":96963,"grp":1523,"idx":55},
+    {"id":"057","section":"main","num":"057","printed":"PGL2-EN057","name":"The Grand Spellbook Tower","ctype":"spell","keywords":"Spellbook Field Spell","stats":{"t":"Field Spell"},"rarity":"GUR","img":"33981008","code":"57","tcg":96964,"grp":1523,"idx":56},
+    {"id":"058","section":"main","num":"058","printed":"PGL2-EN058","name":"Rank-Up-Magic Barian's Force","ctype":"spell","keywords":"CXyz Normal Spell","stats":{"t":"Normal Spell"},"rarity":"GUR","img":"47660516","code":"58","tcg":96950,"grp":1523,"idx":57},
+    {"id":"059","section":"main","num":"059","printed":"PGL2-EN059","name":"Rank-Up-Magic Numeron Force","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"GUR","img":"48333324","code":"59","tcg":96951,"grp":1523,"idx":58},
+    {"id":"060","section":"main","num":"060","printed":"PGL2-EN060","name":"Rank-Up-Magic Astral Force","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"GUR","img":"45950291","code":"60","tcg":96949,"grp":1523,"idx":59},
+    {"id":"061","section":"main","num":"061","printed":"PGL2-EN061","name":"Sylvan Charity","ctype":"spell","keywords":"Sylvan Normal Spell","stats":{"t":"Normal Spell"},"rarity":"GUR","img":"82016179","code":"61","tcg":96961,"grp":1523,"idx":60},
+    {"id":"062","section":"main","num":"062","printed":"PGL2-EN062","name":"Ceasefire","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"GUR","img":"36468556","code":"62","tcg":96894,"grp":1523,"idx":61},
+    {"id":"063","section":"main","num":"063","printed":"PGL2-EN063","name":"Ring of Destruction","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"GUR","img":"83555667","code":"63","tcg":96955,"grp":1523,"idx":62},
+    {"id":"064","section":"main","num":"064","printed":"PGL2-EN064","name":"Chain Disappearance","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"GUR","img":"57139487","code":"64","tcg":96895,"grp":1523,"idx":63},
+    {"id":"065","section":"main","num":"065","printed":"PGL2-EN065","name":"Compulsory Evacuation Device","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"GUR","img":"94192409","code":"65","tcg":96897,"grp":1523,"idx":64},
+    {"id":"066","section":"main","num":"066","printed":"PGL2-EN066","name":"Exchange of the Spirit","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"GUR","img":"17484499","code":"66","tcg":96906,"grp":1523,"idx":65},
+    {"id":"067","section":"main","num":"067","printed":"PGL2-EN067","name":"Karma Cut","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"GUR","img":"71587526","code":"67","tcg":96933,"grp":1523,"idx":66},
+    {"id":"068","section":"main","num":"068","printed":"PGL2-EN068","name":"Solemn Warning","ctype":"trap","keywords":"Solemn Counter Trap","stats":{"t":"Counter Trap"},"rarity":"GUR","img":"84749824","code":"68","tcg":96959,"grp":1523,"idx":67},
+    {"id":"069","section":"main","num":"069","printed":"PGL2-EN069","name":"Traptrix Trap Hole Nightmare","ctype":"trap","keywords":"Traptrix Normal Trap","stats":{"t":"Normal Trap"},"rarity":"GUR","img":"29616929","code":"69","tcg":96969,"grp":1523,"idx":68},
+    {"id":"070","section":"main","num":"070","printed":"PGL2-EN070","name":"Crush Card Virus","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"GUR","img":"57728570","code":"70","tcg":96898,"grp":1523,"idx":69},
+    {"id":"071","section":"main","num":"071","printed":"PGL2-EN071","name":"Veil of Darkness","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"GUR","img":"90434926","code":"71","tcg":96970,"grp":1523,"idx":70},
+    {"id":"072","section":"main","num":"072","printed":"PGL2-EN072","name":"Elemental HERO Prisma","ctype":"monster","keywords":"Elemental HERO Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Effect","atk":1700,"def":1100},"rarity":"GUR","img":"89312388","code":"72","tcg":96904,"grp":1523,"idx":71},
+    {"id":"073","section":"main","num":"073","printed":"PGL2-EN073","name":"Blackwing - Gale the Whirlwind","ctype":"monster","keywords":"Blackwing Winged Beast DARK Tuner Monster","stats":{"a":"DARK","l":"Level 3","t":"Winged Beast / Tuner","atk":1300,"def":400},"rarity":"GUR","img":"2009101","code":"73","tcg":96888,"grp":1523,"idx":72},
+    {"id":"074","section":"main","num":"074","printed":"PGL2-EN074","name":"My Body as a Shield","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"GUR","img":"69279219","code":"74","tcg":96941,"grp":1523,"idx":73},
+    {"id":"075","section":"main","num":"075","printed":"PGL2-EN075","name":"Smashing Ground","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"GUR","img":"97169186","code":"75","tcg":96958,"grp":1523,"idx":74},
+    {"id":"076","section":"main","num":"076","printed":"PGL2-EN076","name":"Enemy Controller","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"GUR","img":"98045062","code":"76","tcg":96905,"grp":1523,"idx":75},
+    {"id":"077","section":"main","num":"077","printed":"PGL2-EN077","name":"Doomcaliber Knight","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Effect","atk":1900,"def":1800},"rarity":"GUR","img":"78700060","code":"77","tcg":96901,"grp":1523,"idx":76},
+    {"id":"078","section":"main","num":"078","printed":"PGL2-EN078","name":"Five-Headed Dragon","ctype":"monster","keywords":"Dragon DARK Fusion Monster","stats":{"a":"DARK","l":"Level 12","t":"Dragon / Fusion","atk":5000,"def":5000},"rarity":"GUR","img":"99267150","code":"78","tcg":96908,"grp":1523,"idx":77},
+    {"id":"079","section":"main","num":"079","printed":"PGL2-EN079","name":"Gladiator Beast Gyzarus","ctype":"monster","keywords":"Gladiator Beast Winged Beast DARK Fusion Monster","stats":{"a":"DARK","l":"Level 6","t":"Winged Beast / Fusion","atk":2400,"def":1500},"rarity":"GUR","img":"48156348","code":"79","tcg":96913,"grp":1523,"idx":78},
+    {"id":"080","section":"main","num":"080","printed":"PGL2-EN080","name":"Blue-Eyes White Dragon","ctype":"monster","keywords":"Blue-Eyes Dragon LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Normal","atk":3000,"def":2500},"rarity":"GUR","img":"89631141","code":"80","tcg":96889,"grp":1523,"idx":79},
+    {"id":"081","section":"main","num":"081","printed":"PGL2-EN081","name":"Gorz the Emissary of Darkness","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Fiend / Effect","atk":2700,"def":2500},"rarity":"GUR","img":"44330098","code":"81","tcg":96929,"grp":1523,"idx":80},
+    {"id":"082","section":"main","num":"082","printed":"PGL2-EN082","name":"Master Hyperion","ctype":"monster","keywords":"The Agent Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Fairy / Effect","atk":2700,"def":2100},"rarity":"GUR","img":"55794644","code":"82","tcg":96938,"grp":1523,"idx":81},
+    {"id":"083","section":"main","num":"083","printed":"PGL2-EN083","name":"Grapha, Dragon Lord of Dark World","ctype":"monster","keywords":"Dark World Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Fiend / Effect","atk":2700,"def":1800},"rarity":"GUR","img":"34230233","code":"83","tcg":96931,"grp":1523,"idx":82},
+    {"id":"084","section":"main","num":"084","printed":"PGL2-EN084","name":"Sephylon, the Ultimate Timelord","ctype":"monster","keywords":"Timelord Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 10","t":"Fairy / Effect","atk":4000,"def":4000},"rarity":"GUR","img":"8967776","code":"84","tcg":96956,"grp":1523,"idx":83},
+    {"id":"085","section":"main","num":"085","printed":"PGL2-EN085","name":"Herald of Perfection","ctype":"monster","keywords":"Herald Fairy LIGHT Ritual Effect Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Fairy / Ritual / Effect","atk":1800,"def":2800},"rarity":"GUR","img":"44665365","code":"85","tcg":96932,"grp":1523,"idx":84},
+    {"id":"086","section":"main","num":"086","printed":"PGL2-EN086","name":"Naturia Beast","ctype":"monster","keywords":"Naturia Beast EARTH Synchro Monster","stats":{"a":"EARTH","l":"Level 5","t":"Beast / Synchro","atk":2200,"def":1700},"rarity":"GUR","img":"33198837","code":"86","tcg":96944,"grp":1523,"idx":85},
+    {"id":"087","section":"main","num":"087","printed":"PGL2-EN087","name":"Naturia Barkion","ctype":"monster","keywords":"Naturia Dragon EARTH Synchro Monster","stats":{"a":"EARTH","l":"Level 6","t":"Dragon / Synchro","atk":2500,"def":1800},"rarity":"GUR","img":"2956282","code":"87","tcg":96943,"grp":1523,"idx":86},
+    {"id":"088","section":"main","num":"088","printed":"PGL2-EN088","name":"Formula Synchron","ctype":"monster","keywords":"Synchron Machine LIGHT Synchro Tuner Monster","stats":{"a":"LIGHT","l":"Level 2","t":"Machine / Synchro / Tuner","atk":200,"def":1500},"rarity":"GUR","img":"50091196","code":"88","tcg":96910,"grp":1523,"idx":87},
+    {"id":"089","section":"main","num":"089","printed":"PGL2-EN089","name":"Dark Hole","ctype":"spell","keywords":"Hole Normal Spell","stats":{"t":"Normal Spell"},"rarity":"GUR","img":"53129443","code":"89","tcg":97086,"grp":1523,"idx":88},
+    {"id":"090","section":"main","num":"090","printed":"PGL2-EN090","name":"Call of the Haunted","ctype":"trap","keywords":"Call of the Haunted Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"GUR","img":"97077563","code":"90","tcg":96892,"grp":1523,"idx":89},
+    {"id":"091","section":"main","num":"091","printed":"PGL2-EN091","name":"Starlight Road","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"GUR","img":"58120309","code":"91","tcg":96960,"grp":1523,"idx":90}
+  ]
+}

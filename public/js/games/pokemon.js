@@ -1,5 +1,12 @@
 export const id = 'pokemon';
 export const name = 'Pokémon TCG';
+export const shortName = 'Pokémon';
+export const tagline = 'Trading Card Game';
+export const CARD_ASPECT = 63 / 88;
+export const SCAN_SEARCH = 'Card name or number, e.g. Pikachu or 025/165';
+
+const COMPANION = /-(trainer-gallery|galarian-gallery|shiny-vault|radiant-collection|classic-collection)$/;
+export const familyOf = (setId) => setId.replace(COMPANION, '');
 
 export const RARITIES = [
   { id: 'E', name: 'Basic Energy', short: 'Energy', icon: 'e-lightning', rank: 0, typed: true, filter: false, last: 2 },

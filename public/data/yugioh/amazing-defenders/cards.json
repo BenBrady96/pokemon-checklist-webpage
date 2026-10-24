@@ -1,0 +1,147 @@
+{
+  "id": "yugioh/amazing-defenders",
+  "game": "yugioh",
+  "slug": "amazing-defenders",
+  "name": "Amazing Defenders",
+  "series": "SEVENS & GO RUSH!!",
+  "kind": "set",
+  "code": "AMDE",
+  "syncKey": "YAMDE",
+  "released": "2023-01-19",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Main Set",
+      "range": "AMDE-EN001–AMDE-EN060",
+      "tier": "standard"
+    },
+    {
+      "id": "rarities",
+      "name": "Other Rarities",
+      "short": "Other Rarities",
+      "range": "15 cards",
+      "tier": "master"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Main set"
+    ],
+    [
+      "rarities",
+      "Other rarities"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, SCR12, 60x2",
+    "example": "1-20, 45x2, SCR12",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies. Other rarities use their short name and number: <b>SCR12</b> is card 12’s Secret Rare, and ranges work too (<b>QCSR1-QCSR20</b>).",
+    "empty": "Cards run from AMDE-EN001 to AMDE-EN060."
+  },
+  "help": {
+    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 60 cards, each in its main rarity. Master adds the 15 other rarities. Cards you’ve marked are kept when you switch."
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Amazing Defenders Checklist · All 60 Cards",
+    "description": "Free Yu-Gi-Oh! Amazing Defenders checklist with no ads, no sign-up and no tracking. Track all 60 cards, or every rarity for a master set, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Amazing Defenders Checklist",
+    "ogDescription": "Track all 60 cards in Yu-Gi-Oh! Amazing Defenders, plus 15 other rarities. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 60 cards in Yu-Gi-Oh! Amazing Defenders. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About the Amazing Defenders set",
+    "paragraphs": [
+      "Amazing Defenders is a Yu-Gi-Oh! TCG special set released on 19 January 2023, in the SEVENS &amp; GO RUSH!! era. It has 60 cards, and with the 15 other rarities there are 75 to collect in all.",
+      "Choose what you’re collecting: the <b>Standard set</b> (the 60 cards, each in its main rarity) or the <b>Master set</b> (all 75, adding the 15 other rarities).",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Amazing Defenders"
+    ],
+    "tcgplayer": [
+      17663
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"AMDE-EN001","name":"Rescue-ACE Impulse","ctype":"monster","keywords":"Rescue-ACE Warrior FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 3","t":"Warrior / Effect","atk":1500,"def":1500},"rarity":"SR","img":"38339996","code":"1","tcg":477688,"grp":17663,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"AMDE-EN002","name":"Rescue-ACE Air Lifter","ctype":"monster","keywords":"Rescue-ACE Warrior FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Warrior / Effect","atk":1700,"def":1700},"rarity":"R","img":"65734501","code":"2","tcg":477689,"grp":17663,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"AMDE-EN003","name":"Rescue-ACE Monitor","ctype":"monster","keywords":"Rescue-ACE Warrior FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Warrior / Effect","atk":1800,"def":1800},"rarity":"SR","img":"91222209","code":"3","tcg":477691,"grp":17663,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"AMDE-EN004","name":"Rescue-ACE Hydrant","ctype":"monster","keywords":"Rescue-ACE Machine FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 1","t":"Machine / Effect","atk":0,"def":0},"rarity":"UR","img":"37617348","code":"4","tcg":477692,"grp":17663,"idx":3},
+    {"id":"004-cr","section":"rarities","num":"004","printed":"AMDE-EN004","name":"Rescue-ACE Hydrant","ctype":"monster","keywords":"Rescue-ACE Machine FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 1","t":"Machine / Effect","atk":0,"def":0},"rarity":"CR","img":"37617348","badge":"CR","variant":"Collector’s Rare","code":"CR4","tcg":477693,"grp":17663,"idx":4},
+    {"id":"005","section":"main","num":"005","printed":"AMDE-EN005","name":"Rescue-ACE Fire Attacker","ctype":"monster","keywords":"Rescue-ACE Machine FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 6","t":"Machine / Effect","atk":2200,"def":2200},"rarity":"R","img":"64612053","code":"5","tcg":477694,"grp":17663,"idx":5},
+    {"id":"006","section":"main","num":"006","printed":"AMDE-EN006","name":"Rescue-ACE Fire Engine","ctype":"monster","keywords":"Rescue-ACE Machine FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 7","t":"Machine / Effect","atk":2500,"def":2500},"rarity":"SR","img":"90000652","code":"6","tcg":477695,"grp":17663,"idx":6},
+    {"id":"007","section":"main","num":"007","printed":"AMDE-EN007","name":"Rescue-ACE Turbulence","ctype":"monster","keywords":"Rescue-ACE Machine FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 9","t":"Machine / Effect","atk":3000,"def":3000},"rarity":"UR","img":"37495766","code":"7","tcg":477696,"grp":17663,"idx":7},
+    {"id":"007-cr","section":"rarities","num":"007","printed":"AMDE-EN007","name":"Rescue-ACE Turbulence","ctype":"monster","keywords":"Rescue-ACE Machine FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 9","t":"Machine / Effect","atk":3000,"def":3000},"rarity":"CR","img":"37495766","badge":"CR","variant":"Collector’s Rare","code":"CR7","tcg":477697,"grp":17663,"idx":8},
+    {"id":"008","section":"main","num":"008","printed":"AMDE-EN008","name":"Rescue-ACE HQ","ctype":"spell","keywords":"Rescue-ACE Field Spell","stats":{"t":"Field Spell"},"rarity":"R","img":"63899465","code":"8","tcg":477690,"grp":17663,"idx":9},
+    {"id":"009","section":"main","num":"009","printed":"AMDE-EN009","name":"RESCUE!","ctype":"spell","keywords":"Rescue-ACE Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"UR","img":"99984170","code":"9","tcg":477698,"grp":17663,"idx":10},
+    {"id":"010","section":"main","num":"010","printed":"AMDE-EN010","name":"ALERT!","ctype":"spell","keywords":"Rescue-ACE Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"UR","img":"26372118","code":"10","tcg":477699,"grp":17663,"idx":11},
+    {"id":"011","section":"main","num":"011","printed":"AMDE-EN011","name":"CONTAIN!","ctype":"trap","keywords":"Rescue-ACE Normal Trap","stats":{"t":"Normal Trap"},"rarity":"R","img":"62777823","code":"11","tcg":477700,"grp":17663,"idx":12},
+    {"id":"012","section":"main","num":"012","printed":"AMDE-EN012","name":"EXTINGUISH!","ctype":"trap","keywords":"Rescue-ACE Normal Trap","stats":{"t":"Normal Trap"},"rarity":"R","img":"99162522","code":"12","tcg":477701,"grp":17663,"idx":13},
+    {"id":"013","section":"main","num":"013","printed":"AMDE-EN013","name":"Purrely","ctype":"monster","keywords":"Purrely Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Fairy / Effect","atk":100,"def":100},"rarity":"UR","img":"25550531","code":"13","tcg":477702,"grp":17663,"idx":14},
+    {"id":"013-cr","section":"rarities","num":"013","printed":"AMDE-EN013","name":"Purrely","ctype":"monster","keywords":"Purrely Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Fairy / Effect","atk":100,"def":100},"rarity":"CR","img":"25550531","badge":"CR","variant":"Collector’s Rare","code":"CR13","tcg":477703,"grp":17663,"idx":15},
+    {"id":"014","section":"main","num":"014","printed":"AMDE-EN014","name":"Epurrely Happiness","ctype":"monster","keywords":"Purrely Fairy LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 2","t":"Fairy / Xyz","atk":2000,"def":100},"rarity":"R","img":"52645235","code":"14","tcg":477704,"grp":17663,"idx":16},
+    {"id":"015","section":"main","num":"015","printed":"AMDE-EN015","name":"Epurrely Beauty","ctype":"monster","keywords":"Purrely Fairy WATER Xyz Monster","stats":{"a":"WATER","l":"Rank 2","t":"Fairy / Xyz","atk":1600,"def":1100},"rarity":"SR","img":"98049934","code":"15","tcg":477681,"grp":17663,"idx":17},
+    {"id":"016","section":"main","num":"016","printed":"AMDE-EN016","name":"Epurrely Plump","ctype":"monster","keywords":"Purrely Fairy EARTH Xyz Monster","stats":{"a":"EARTH","l":"Rank 2","t":"Fairy / Xyz","atk":200,"def":2100},"rarity":"SR","img":"24434049","code":"16","tcg":477682,"grp":17663,"idx":18},
+    {"id":"017","section":"main","num":"017","printed":"AMDE-EN017","name":"Expurrely Happiness","ctype":"monster","keywords":"Purrely Fairy LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 7","t":"Fairy / Xyz","atk":2500,"def":1100},"rarity":"SR","img":"51822687","code":"17","tcg":477683,"grp":17663,"idx":19},
+    {"id":"017-cr","section":"rarities","num":"017","printed":"AMDE-EN017","name":"Expurrely Happiness","ctype":"monster","keywords":"Purrely Fairy LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 7","t":"Fairy / Xyz","atk":2500,"def":1100},"rarity":"CR","img":"51822687","badge":"CR","variant":"Collector’s Rare","code":"CR17","tcg":477684,"grp":17663,"idx":20},
+    {"id":"018","section":"main","num":"018","printed":"AMDE-EN018","name":"Expurrely Noir","ctype":"monster","keywords":"Purrely Fairy DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 7","t":"Fairy / Xyz","atk":1100,"def":2800},"rarity":"SR","img":"83827392","code":"18","tcg":477685,"grp":17663,"idx":21},
+    {"id":"018-cr","section":"rarities","num":"018","printed":"AMDE-EN018","name":"Expurrely Noir","ctype":"monster","keywords":"Purrely Fairy DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 7","t":"Fairy / Xyz","atk":1100,"def":2800},"rarity":"CR","img":"83827392","badge":"CR","variant":"Collector’s Rare","code":"CR18","tcg":477686,"grp":17663,"idx":22},
+    {"id":"019","section":"main","num":"019","printed":"AMDE-EN019","name":"Stray Purrely Street","ctype":"spell","keywords":"Purrely Field Spell","stats":{"t":"Field Spell"},"rarity":"R","img":"20212491","code":"19","tcg":477687,"grp":17663,"idx":23},
+    {"id":"020","section":"main","num":"020","printed":"AMDE-EN020","name":"My Friend Purrely","ctype":"spell","keywords":"Purrely Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"UR","img":"56700100","code":"20","tcg":477668,"grp":17663,"idx":24},
+    {"id":"020-cr","section":"rarities","num":"020","printed":"AMDE-EN020","name":"My Friend Purrely","ctype":"spell","keywords":"Purrely Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"CR","img":"56700100","badge":"CR","variant":"Collector’s Rare","code":"CR20","tcg":477669,"grp":17663,"idx":25},
+    {"id":"021","section":"main","num":"021","printed":"AMDE-EN021","name":"Purrely Happy Memory","ctype":"spell","keywords":"Purrely Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"R","img":"82105704","code":"21","tcg":477670,"grp":17663,"idx":26},
+    {"id":"022","section":"main","num":"022","printed":"AMDE-EN022","name":"Purrely Pretty Memory","ctype":"spell","keywords":"Purrely Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"UR","img":"29599813","code":"22","tcg":477671,"grp":17663,"idx":27},
+    {"id":"022-cr","section":"rarities","num":"022","printed":"AMDE-EN022","name":"Purrely Pretty Memory","ctype":"spell","keywords":"Purrely Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"CR","img":"29599813","badge":"CR","variant":"Collector’s Rare","code":"CR22","tcg":478018,"grp":17663,"idx":28},
+    {"id":"023","section":"main","num":"023","printed":"AMDE-EN023","name":"Purrely Delicious Memory","ctype":"spell","keywords":"Purrely Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"R","img":"55584558","code":"23","tcg":477672,"grp":17663,"idx":29},
+    {"id":"024","section":"main","num":"024","printed":"AMDE-EN024","name":"Purrelyeap!?","ctype":"trap","keywords":"Purrely Normal Trap","stats":{"t":"Normal Trap"},"rarity":"R","img":"82983267","code":"24","tcg":477673,"grp":17663,"idx":30},
+    {"id":"025","section":"main","num":"025","printed":"AMDE-EN025","name":"Ha-Re the Sword Mikanko","ctype":"monster","keywords":"Mikanko Warrior FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 3","t":"Warrior / Effect","atk":0,"def":0},"rarity":"SR","img":"18377261","code":"25","tcg":477674,"grp":17663,"idx":31},
+    {"id":"025-cr","section":"rarities","num":"025","printed":"AMDE-EN025","name":"Ha-Re the Sword Mikanko","ctype":"monster","keywords":"Mikanko Warrior FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 3","t":"Warrior / Effect","atk":0,"def":0},"rarity":"CR","img":"18377261","badge":"CR","variant":"Collector’s Rare","code":"CR25","tcg":477675,"grp":17663,"idx":32},
+    {"id":"026","section":"main","num":"026","printed":"AMDE-EN026","name":"Ni-Ni the Mirror Mikanko","ctype":"monster","keywords":"Mikanko Spellcaster WATER Effect Monster","stats":{"a":"WATER","l":"Level 3","t":"Spellcaster / Effect","atk":0,"def":0},"rarity":"SR","img":"54862960","code":"26","tcg":477676,"grp":17663,"idx":33},
+    {"id":"026-cr","section":"rarities","num":"026","printed":"AMDE-EN026","name":"Ni-Ni the Mirror Mikanko","ctype":"monster","keywords":"Mikanko Spellcaster WATER Effect Monster","stats":{"a":"WATER","l":"Level 3","t":"Spellcaster / Effect","atk":0,"def":0},"rarity":"CR","img":"54862960","badge":"CR","variant":"Collector’s Rare","code":"CR26","tcg":477677,"grp":17663,"idx":34},
+    {"id":"027","section":"main","num":"027","printed":"AMDE-EN027","name":"Ohime the Manifested Mikanko","ctype":"monster","keywords":"Mikanko Fairy LIGHT Ritual Effect Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Fairy / Ritual / Effect","atk":0,"def":0},"rarity":"UR","img":"81260679","code":"27","tcg":477678,"grp":17663,"idx":35},
+    {"id":"028","section":"main","num":"028","printed":"AMDE-EN028","name":"Heavenly Gate of the Mikanko","ctype":"spell","keywords":"Mikanko Field Spell","stats":{"t":"Field Spell"},"rarity":"UR","img":"17255673","code":"28","tcg":477679,"grp":17663,"idx":36},
+    {"id":"029","section":"main","num":"029","printed":"AMDE-EN029","name":"The Great Mikanko Ceremony","ctype":"spell","keywords":"Mikanko Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"R","img":"44649322","code":"29","tcg":477680,"grp":17663,"idx":37},
+    {"id":"030","section":"main","num":"030","printed":"AMDE-EN030","name":"Mikanko Fire Dance","ctype":"spell","keywords":"Mikanko Equip Spell","stats":{"t":"Equip Spell"},"rarity":"SR","img":"80044027","code":"30","tcg":477660,"grp":17663,"idx":38},
+    {"id":"031","section":"main","num":"031","printed":"AMDE-EN031","name":"Mikanko Purification Dance","ctype":"spell","keywords":"Mikanko Equip Spell","stats":{"t":"Equip Spell"},"rarity":"R","img":"16433136","code":"31","tcg":477661,"grp":17663,"idx":39},
+    {"id":"032","section":"main","num":"032","printed":"AMDE-EN032","name":"Mikanko Water Arabesque","ctype":"spell","keywords":"Mikanko Equip Spell","stats":{"t":"Equip Spell"},"rarity":"UR","img":"43527730","code":"32","tcg":477662,"grp":17663,"idx":40},
+    {"id":"033","section":"main","num":"033","printed":"AMDE-EN033","name":"Mikanko Reflection Rondo","ctype":"spell","keywords":"Mikanko Equip Spell","stats":{"t":"Equip Spell"},"rarity":"R","img":"79912449","code":"33","tcg":477663,"grp":17663,"idx":41},
+    {"id":"033-cr","section":"rarities","num":"033","printed":"AMDE-EN033","name":"Mikanko Reflection Rondo","ctype":"spell","keywords":"Mikanko Equip Spell","stats":{"t":"Equip Spell"},"rarity":"CR","img":"79912449","badge":"CR","variant":"Collector’s Rare","code":"CR33","tcg":477664,"grp":17663,"idx":42},
+    {"id":"034","section":"main","num":"034","printed":"AMDE-EN034","name":"Mikanko Kagura","ctype":"spell","keywords":"Mikanko Ritual Spell","stats":{"t":"Ritual Spell"},"rarity":"R","img":"16310544","code":"34","tcg":477665,"grp":17663,"idx":43},
+    {"id":"035","section":"main","num":"035","printed":"AMDE-EN035","name":"Mikanko Promise","ctype":"trap","keywords":"Mikanko Normal Trap","stats":{"t":"Normal Trap"},"rarity":"R","img":"42705243","code":"35","tcg":477666,"grp":17663,"idx":44},
+    {"id":"036","section":"main","num":"036","printed":"AMDE-EN036","name":"Mikanko Rivalry","ctype":"trap","keywords":"Mikanko Normal Trap","stats":{"t":"Normal Trap"},"rarity":"R","img":"78199891","code":"36","tcg":477667,"grp":17663,"idx":45},
+    {"id":"037","section":"main","num":"037","printed":"AMDE-EN037","name":"Gizmek Naganaki, the Sunrise Signaler","ctype":"monster","keywords":"Gizmek Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 2","t":"Machine / Effect","atk":950,"def":950},"rarity":"R","img":"96399967","code":"37","tcg":477631,"grp":17663,"idx":46},
+    {"id":"038","section":"main","num":"038","printed":"AMDE-EN038","name":"Infernoble Knight - Renaud","ctype":"monster","keywords":"Noble Knight Warrior FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 1","t":"Warrior / Effect","atk":500,"def":500},"rarity":"SR","img":"56824871","code":"38","tcg":477632,"grp":17663,"idx":47},
+    {"id":"038-cr","section":"rarities","num":"038","printed":"AMDE-EN038","name":"Infernoble Knight - Renaud","ctype":"monster","keywords":"Noble Knight Warrior FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 1","t":"Warrior / Effect","atk":500,"def":500},"rarity":"CR","img":"56824871","badge":"CR","variant":"Collector’s Rare","code":"CR38","tcg":477633,"grp":17663,"idx":48},
+    {"id":"039","section":"main","num":"039","printed":"AMDE-EN039","name":"Reinforcement of the Army","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"R","img":"32807846","code":"39","tcg":477634,"grp":17663,"idx":49},
+    {"id":"040","section":"main","num":"040","printed":"AMDE-EN040","name":"One for One","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"2295440","code":"40","tcg":477635,"grp":17663,"idx":50},
+    {"id":"040-cr","section":"rarities","num":"040","printed":"AMDE-EN040","name":"One for One","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"CR","img":"2295440","badge":"CR","variant":"Collector’s Rare","code":"CR40","tcg":477636,"grp":17663,"idx":51},
+    {"id":"041","section":"main","num":"041","printed":"AMDE-EN041","name":"Hidden Armory","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"R","img":"52105192","code":"41","tcg":477637,"grp":17663,"idx":52},
+    {"id":"042","section":"main","num":"042","printed":"AMDE-EN042","name":"\"Infernoble Arms - Durendal\"","ctype":"spell","keywords":"Noble Knight Equip Spell","stats":{"t":"Equip Spell"},"rarity":"R","img":"37478723","code":"42","tcg":477638,"grp":17663,"idx":53},
+    {"id":"043","section":"main","num":"043","printed":"AMDE-EN043","name":"Double-Edged Sword","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"R","img":"41927278","code":"43","tcg":477639,"grp":17663,"idx":54},
+    {"id":"044","section":"main","num":"044","printed":"AMDE-EN044","name":"Xyz Import","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"R","img":"14602126","code":"44","tcg":477640,"grp":17663,"idx":55},
+    {"id":"045","section":"main","num":"045","printed":"AMDE-EN045","name":"Xyz Tribalrivals","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"R","img":"32086564","code":"45","tcg":477641,"grp":17663,"idx":56},
+    {"id":"046","section":"main","num":"046","printed":"AMDE-EN046","name":"Card Trooper","ctype":"monster","keywords":"Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Machine / Effect","atk":400,"def":400},"rarity":"R","img":"85087012","code":"46","tcg":477642,"grp":17663,"idx":57},
+    {"id":"046-cr","section":"rarities","num":"046","printed":"AMDE-EN046","name":"Card Trooper","ctype":"monster","keywords":"Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Machine / Effect","atk":400,"def":400},"rarity":"CR","img":"85087012","badge":"CR","variant":"Collector’s Rare","code":"CR46","tcg":477643,"grp":17663,"idx":58},
+    {"id":"047","section":"main","num":"047","printed":"AMDE-EN047","name":"Armed Protector Dragon","ctype":"monster","keywords":"Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Effect","atk":2000,"def":2800},"rarity":"R","img":"29330706","code":"47","tcg":477644,"grp":17663,"idx":59},
+    {"id":"048","section":"main","num":"048","printed":"AMDE-EN048","name":"Gizmek Orochi, the Serpentron Sky Slasher","ctype":"monster","keywords":"Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Machine / Effect","atk":2450,"def":2450},"rarity":"R","img":"71197066","code":"48","tcg":477645,"grp":17663,"idx":60},
+    {"id":"048-cr","section":"rarities","num":"048","printed":"AMDE-EN048","name":"Gizmek Orochi, the Serpentron Sky Slasher","ctype":"monster","keywords":"Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Machine / Effect","atk":2450,"def":2450},"rarity":"CR","img":"71197066","badge":"CR","variant":"Collector’s Rare","code":"CR48","tcg":477646,"grp":17663,"idx":61},
+    {"id":"049","section":"main","num":"049","printed":"AMDE-EN049","name":"Immortal Phoenix Gearfried","ctype":"monster","keywords":"Warrior FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 9","t":"Warrior / Effect","atk":3000,"def":2200},"rarity":"SR","img":"22091647","code":"49","tcg":477647,"grp":17663,"idx":62},
+    {"id":"050","section":"main","num":"050","printed":"AMDE-EN050","name":"Infernoble Knight - Roland","ctype":"monster","keywords":"Noble Knight Warrior FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 1","t":"Warrior / Effect","atk":500,"def":500},"rarity":"R","img":"81570454","code":"50","tcg":477648,"grp":17663,"idx":63},
+    {"id":"051","section":"main","num":"051","printed":"AMDE-EN051","name":"Sauravis, the Ancient and Ascended","ctype":"monster","keywords":"Dragon LIGHT Ritual Effect Monster","stats":{"a":"LIGHT","l":"Level 7","t":"Dragon / Ritual / Effect","atk":2600,"def":2800},"rarity":"R","img":"4810828","code":"51","tcg":477649,"grp":17663,"idx":64},
+    {"id":"052","section":"main","num":"052","printed":"AMDE-EN052","name":"Isolde, Two Tales of the Noble Knights","ctype":"monster","keywords":"Noble Knight Warrior LIGHT Link Monster","stats":{"a":"LIGHT","l":"Link 2","t":"Warrior / Link","atk":1600},"rarity":"SR","img":"59934749","code":"52","tcg":477650,"grp":17663,"idx":65},
+    {"id":"052-cr","section":"rarities","num":"052","printed":"AMDE-EN052","name":"Isolde, Two Tales of the Noble Knights","ctype":"monster","keywords":"Noble Knight Warrior LIGHT Link Monster","stats":{"a":"LIGHT","l":"Link 2","t":"Warrior / Link","atk":1600},"rarity":"CR","img":"59934749","badge":"CR","variant":"Collector’s Rare","code":"CR52","tcg":477651,"grp":17663,"idx":66},
+    {"id":"053","section":"main","num":"053","printed":"AMDE-EN053","name":"Limiter Removal","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"R","img":"23171610","code":"53","tcg":477652,"grp":17663,"idx":67},
+    {"id":"054","section":"main","num":"054","printed":"AMDE-EN054","name":"Machine Duplication","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"R","img":"63995093","code":"54","tcg":477653,"grp":17663,"idx":68},
+    {"id":"055","section":"main","num":"055","printed":"AMDE-EN055","name":"Preparation of Rites","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"R","img":"96729612","code":"55","tcg":477654,"grp":17663,"idx":69},
+    {"id":"056","section":"main","num":"056","printed":"AMDE-EN056","name":"Overlay Regen","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"27068117","code":"56","tcg":477655,"grp":17663,"idx":70},
+    {"id":"057","section":"main","num":"057","printed":"AMDE-EN057","name":"Sprite's Blessing","ctype":"spell","keywords":"Ritual Spell","stats":{"t":"Ritual Spell"},"rarity":"R","img":"37626500","code":"57","tcg":477656,"grp":17663,"idx":71},
+    {"id":"058","section":"main","num":"058","printed":"AMDE-EN058","name":"Sacred Scrolls of the Gizmek Legend","ctype":"spell","keywords":"Gizmek Field Spell","stats":{"t":"Field Spell"},"rarity":"R","img":"24793135","code":"58","tcg":477657,"grp":17663,"idx":72},
+    {"id":"059","section":"main","num":"059","printed":"AMDE-EN059","name":"Piri Reis Map","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"R","img":"33907039","code":"59","tcg":477658,"grp":17663,"idx":73},
+    {"id":"060","section":"main","num":"060","printed":"AMDE-EN060","name":"Xyz Reborn","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"R","img":"26708437","code":"60","tcg":477659,"grp":17663,"idx":74}
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "id": "yugioh/structure-deck-powercode-link",
+  "game": "yugioh",
+  "slug": "structure-deck-powercode-link",
+  "name": "Structure Deck: Powercode Link",
+  "series": "VRAINS",
+  "kind": "deck",
+  "code": "SDPL",
+  "syncKey": "YSDPL",
+  "released": "2018-08-09",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "SDPL-EN001–SDPL-EN042",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from SDPL-EN001 to SDPL-EN042."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Structure Deck: Powercode Link Checklist · All 42 Cards",
+    "description": "Free Yu-Gi-Oh! Structure Deck: Powercode Link checklist with no ads, no sign-up and no tracking. Track all 42 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Structure Deck: Powercode Link Checklist",
+    "ogDescription": "Track all 42 cards in Yu-Gi-Oh! Structure Deck: Powercode Link. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 42 cards in Yu-Gi-Oh! Structure Deck: Powercode Link. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Structure Deck: Powercode Link",
+    "paragraphs": [
+      "Structure Deck: Powercode Link is a Yu-Gi-Oh! TCG deck released on 9 August 2018, in the VRAINS era. It has 42 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Structure Deck: Powercode Link"
+    ],
+    "tcgplayer": [
+      2291
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"SDPL-EN001","name":"Datacorn","ctype":"monster","keywords":"Cyberse DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Cyberse / Effect","atk":0,"def":0},"rarity":"C","img":"84816244","code":"1","tcg":173562,"grp":2291,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"SDPL-EN002","name":"Garbage Collector","ctype":"monster","keywords":"Cyberse WIND Effect Monster","stats":{"a":"WIND","l":"Level 2","t":"Cyberse / Effect","atk":100,"def":1900},"rarity":"C","img":"11801343","code":"2","tcg":173563,"grp":2291,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"SDPL-EN003","name":"Sea Archiver","ctype":"monster","keywords":"Cyberse WATER Effect Monster","stats":{"a":"WATER","l":"Level 3","t":"Cyberse / Effect","atk":300,"def":2100},"rarity":"SR","img":"53309998","code":"3","tcg":173564,"grp":2291,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"SDPL-EN004","name":"Flame Bufferlo","ctype":"monster","keywords":"Cyberse FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 3","t":"Cyberse / Effect","atk":1400,"def":200},"rarity":"SR","img":"80794697","code":"4","tcg":173565,"grp":2291,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"SDPL-EN005","name":"Lady Debug","ctype":"monster","keywords":"Cyberse LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Cyberse / Effect","atk":1700,"def":1400},"rarity":"SR","img":"16188701","code":"5","tcg":173566,"grp":2291,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"SDPL-EN006","name":"Antialian","ctype":"monster","keywords":"Anti Cyberse EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Cyberse / Effect","atk":1900,"def":600},"rarity":"C","img":"43583400","code":"6","tcg":173567,"grp":2291,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"SDPL-EN007","name":"Storm Cipher","ctype":"monster","keywords":"Cipher Cyberse DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Cyberse / Effect","atk":2400,"def":0},"rarity":"C","img":"89571015","code":"7","tcg":173568,"grp":2291,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"SDPL-EN008","name":"Segmental Dragon","ctype":"monster","keywords":"Cyberse LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 7","t":"Cyberse / Effect","atk":2600,"def":2400},"rarity":"UR","img":"15066114","code":"8","tcg":173569,"grp":2291,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"SDPL-EN009","name":"Cyberse Gadget","ctype":"monster","keywords":"Gadget Cyberse LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Cyberse / Effect","atk":1400,"def":300},"rarity":"C","img":"645087","code":"9","tcg":173571,"grp":2291,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"SDPL-EN010","name":"Juragedo","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Effect","atk":1700,"def":1300},"rarity":"C","img":"59546797","code":"10","tcg":173572,"grp":2291,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"SDPL-EN011","name":"Mecha Phantom Beast Tetherwolf","ctype":"monster","keywords":"Mecha Phantom Beast Machine WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Machine / Effect","atk":1700,"def":1200},"rarity":"C","img":"67922702","code":"11","tcg":173573,"grp":2291,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"SDPL-EN012","name":"Reborn Tengu","ctype":"monster","keywords":"Beast-Warrior WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Beast-Warrior / Effect","atk":1700,"def":600},"rarity":"C","img":"10028593","code":"12","tcg":173576,"grp":2291,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"SDPL-EN013","name":"Skull Meister","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Effect","atk":1700,"def":400},"rarity":"C","img":"67750322","code":"13","tcg":173577,"grp":2291,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"SDPL-EN014","name":"Goblindbergh","ctype":"monster","keywords":"Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Effect","atk":1400,"def":0},"rarity":"C","img":"25259669","code":"14","tcg":173578,"grp":2291,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"SDPL-EN015","name":"Phantom Skyblaster","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Effect","atk":1100,"def":800},"rarity":"C","img":"12958919","code":"15","tcg":173579,"grp":2291,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"SDPL-EN016","name":"Genex Ally Birdman","ctype":"monster","keywords":"Genex Machine DARK Tuner Monster","stats":{"a":"DARK","l":"Level 3","t":"Machine / Tuner","atk":1400,"def":400},"rarity":"C","img":"64034255","code":"16","tcg":173580,"grp":2291,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"SDPL-EN017","name":"Effect Veiler","ctype":"monster","keywords":"Spellcaster LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Spellcaster / Tuner","atk":0,"def":0},"rarity":"C","img":"97268402","code":"17","tcg":173581,"grp":2291,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"SDPL-EN018","name":"Magical Merchant","ctype":"monster","keywords":"Insect LIGHT Flip Effect Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Insect / Flip / Effect","atk":200,"def":700},"rarity":"C","img":"32362575","code":"18","tcg":173582,"grp":2291,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"SDPL-EN019","name":"Cosmic Compass","ctype":"monster","keywords":"Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 1","t":"Machine / Effect","atk":100,"def":300},"rarity":"C","img":"27450400","code":"19","tcg":173583,"grp":2291,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"SDPL-EN020","name":"Launcher Commander","ctype":"monster","keywords":"Cyberse EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Cyberse / Effect","atk":1700,"def":1200},"rarity":"C","img":"35911108","code":"20","tcg":173584,"grp":2291,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"SDPL-EN021","name":"Cynet Storm","ctype":"spell","keywords":"Field Spell","stats":{"t":"Field Spell"},"rarity":"C","img":"42461852","code":"21","tcg":173585,"grp":2291,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"SDPL-EN022","name":"Night Beam","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"89882100","code":"22","tcg":173586,"grp":2291,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"SDPL-EN023","name":"Offerings to the Doomed","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"19230408","code":"23","tcg":173587,"grp":2291,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"SDPL-EN024","name":"Forbidden Chalice","ctype":"spell","keywords":"Forbidden Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"25789292","code":"24","tcg":173588,"grp":2291,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"SDPL-EN025","name":"Scapegoat","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"73915051","code":"25","tcg":173589,"grp":2291,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"SDPL-EN026","name":"Swords of Revealing Light","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"72302403","code":"26","tcg":173590,"grp":2291,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"SDPL-EN027","name":"Reasoning","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"58577036","code":"27","tcg":173591,"grp":2291,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"SDPL-EN028","name":"Fires of Doomsday","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"46173679","code":"28","tcg":173592,"grp":2291,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"SDPL-EN029","name":"One for One","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"2295440","code":"29","tcg":173593,"grp":2291,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"SDPL-EN030","name":"Terraforming","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"73628505","code":"30","tcg":173594,"grp":2291,"idx":29},
+    {"id":"031","section":"main","num":"031","printed":"SDPL-EN031","name":"Packet Link","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"78859567","code":"31","tcg":173595,"grp":2291,"idx":30},
+    {"id":"032","section":"main","num":"032","printed":"SDPL-EN032","name":"Wild Tornado","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"47766694","code":"32","tcg":173596,"grp":2291,"idx":31},
+    {"id":"033","section":"main","num":"033","printed":"SDPL-EN033","name":"Traptrix Trap Hole Nightmare","ctype":"trap","keywords":"Traptrix Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"29616929","code":"33","tcg":173597,"grp":2291,"idx":32},
+    {"id":"034","section":"main","num":"034","printed":"SDPL-EN034","name":"Blazing Mirror Force","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"75249652","code":"34","tcg":173598,"grp":2291,"idx":33},
+    {"id":"035","section":"main","num":"035","printed":"SDPL-EN035","name":"Trap Stun","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"59616123","code":"35","tcg":173599,"grp":2291,"idx":34},
+    {"id":"036","section":"main","num":"036","printed":"SDPL-EN036","name":"Safe Zone","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"38296564","code":"36","tcg":173600,"grp":2291,"idx":35},
+    {"id":"037","section":"main","num":"037","printed":"SDPL-EN037","name":"Call of the Haunted","ctype":"trap","keywords":"Call of the Haunted Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"97077563","code":"37","tcg":173601,"grp":2291,"idx":36},
+    {"id":"038","section":"main","num":"038","printed":"SDPL-EN038","name":"Reckless Greed","ctype":"trap","keywords":"Greed Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"37576645","code":"38","tcg":173602,"grp":2291,"idx":37},
+    {"id":"039","section":"main","num":"039","printed":"SDPL-EN039","name":"Debunk","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"C","img":"65703851","code":"39","tcg":173603,"grp":2291,"idx":38},
+    {"id":"040","section":"main","num":"040","printed":"SDPL-EN040","name":"Powercode Talker","ctype":"monster","keywords":"Code Talker Cyberse FIRE Link Monster","stats":{"a":"FIRE","l":"Link 3","t":"Cyberse / Link","atk":2300},"rarity":"UR","img":"15844566","code":"40","tcg":173604,"grp":2291,"idx":39},
+    {"id":"041","section":"main","num":"041","printed":"SDPL-EN041","name":"Traffic Ghost","ctype":"monster","keywords":"Cyberse DARK Link Monster","stats":{"a":"DARK","l":"Link 3","t":"Cyberse / Link","atk":1800},"rarity":"C","img":"41248270","code":"41","tcg":173605,"grp":2291,"idx":40},
+    {"id":"042","section":"main","num":"042","printed":"SDPL-EN042","name":"LANphorhynchus","ctype":"monster","keywords":"Cyberse LIGHT Link Monster","stats":{"a":"LIGHT","l":"Link 2","t":"Cyberse / Link","atk":1200},"rarity":"C","img":"77637979","code":"42","tcg":173606,"grp":2291,"idx":41}
+  ]
+}

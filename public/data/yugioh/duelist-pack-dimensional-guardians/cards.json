@@ -1,0 +1,105 @@
+{
+  "id": "yugioh/duelist-pack-dimensional-guardians",
+  "game": "yugioh",
+  "slug": "duelist-pack-dimensional-guardians",
+  "name": "Duelist Pack: Dimensional Guardians",
+  "series": "ARC-V",
+  "kind": "pack",
+  "code": "DPDG",
+  "syncKey": "YDPDG",
+  "released": "2017-05-25",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "DPDG-EN001–DPDG-EN045",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from DPDG-EN001 to DPDG-EN045."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Duelist Pack: Dimensional Guardians Checklist · All 45 Cards",
+    "description": "Free Yu-Gi-Oh! Duelist Pack: Dimensional Guardians checklist with no ads, no sign-up and no tracking. Track all 45 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Duelist Pack: Dimensional Guardians Checklist",
+    "ogDescription": "Track all 45 cards in Yu-Gi-Oh! Duelist Pack: Dimensional Guardians. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 45 cards in Yu-Gi-Oh! Duelist Pack: Dimensional Guardians. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Duelist Pack: Dimensional Guardians",
+    "paragraphs": [
+      "Duelist Pack: Dimensional Guardians is a Yu-Gi-Oh! TCG pack released on 25 May 2017, in the ARC-V era. It has 45 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Duelist Pack: Dimensional Guardians"
+    ],
+    "tcgplayer": [
+      1931
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"DPDG-EN001","name":"Spiral Flame Strike","ctype":"spell","keywords":"Odd-Eyes Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UR","img":"82768499","code":"1","tcg":131741,"grp":1931,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"DPDG-EN002","name":"Performapal Ballad","ctype":"monster","keywords":"Performapal Plant EARTH Pendulum Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Plant / Pendulum / Effect","atk":500,"def":1100},"rarity":"SR","img":"66768175","code":"2","tcg":131742,"grp":1931,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"DPDG-EN003","name":"Performapal Barracuda","ctype":"monster","keywords":"Performapal Plant EARTH Pendulum Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Plant / Pendulum / Effect","atk":500,"def":1100},"rarity":"SR","img":"92767273","code":"3","tcg":131743,"grp":1931,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"DPDG-EN004","name":"Speedroid Dominobutterfly","ctype":"monster","keywords":"roid Machine WIND Pendulum Tuner Effect Monster","stats":{"a":"WIND","l":"Level 2","t":"Machine / Pendulum / Tuner / Effect","atk":100,"def":300},"rarity":"UR","img":"28151978","code":"4","tcg":131744,"grp":1931,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"DPDG-EN005","name":"Pendulum Fusion","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"65646587","code":"5","tcg":131745,"grp":1931,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"DPDG-EN006","name":"Frightfur Daredevil","ctype":"monster","keywords":"Edge Imp Fiend DARK Fusion Monster","stats":{"a":"DARK","l":"Level 8","t":"Fiend / Fusion","atk":3000,"def":2200},"rarity":"SR","img":"91034681","code":"6","tcg":131746,"grp":1931,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"DPDG-EN007","name":"Frightfur Reborn","ctype":"spell","keywords":"Fluffal Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UR","img":"28039390","code":"7","tcg":131747,"grp":1931,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"DPDG-EN008","name":"Raidraptor Replica","ctype":"trap","keywords":"Raidraptor Normal Trap","stats":{"t":"Normal Trap"},"rarity":"UR","img":"54423935","code":"8","tcg":131748,"grp":1931,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"DPDG-EN009","name":"Cyber Prima","ctype":"monster","keywords":"Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Warrior / Effect","atk":2300,"def":1600},"rarity":"C","img":"2158562","code":"9","tcg":131749,"grp":1931,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"DPDG-EN010","name":"Cyber Tutubon","ctype":"monster","keywords":"Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 5","t":"Warrior / Effect","atk":1800,"def":1600},"rarity":"C","img":"42600274","code":"10","tcg":131750,"grp":1931,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"DPDG-EN011","name":"Etoile Cyber","ctype":"monster","keywords":"Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Effect","atk":1200,"def":1600},"rarity":"C","img":"11460577","code":"11","tcg":131751,"grp":1931,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"DPDG-EN012","name":"Cyber Petit Angel","ctype":"monster","keywords":"Cyber Angel Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 2","t":"Fairy / Effect","atk":300,"def":200},"rarity":"R","img":"76103404","code":"12","tcg":131752,"grp":1931,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"DPDG-EN013","name":"Cyber Angel Vrash","ctype":"monster","keywords":"Cyber Angel Fairy LIGHT Ritual Effect Monster","stats":{"a":"LIGHT","l":"Level 10","t":"Fairy / Ritual / Effect","atk":3000,"def":2000},"rarity":"C","img":"78316184","code":"13","tcg":131753,"grp":1931,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"DPDG-EN014","name":"Cyber Angel Dakini","ctype":"monster","keywords":"Cyber Angel Fairy LIGHT Ritual Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Fairy / Ritual / Effect","atk":2700,"def":2400},"rarity":"R","img":"39618799","code":"14","tcg":131754,"grp":1931,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"DPDG-EN015","name":"Cyber Angel Benten","ctype":"monster","keywords":"Cyber Angel Fairy LIGHT Ritual Effect Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Fairy / Ritual / Effect","atk":1800,"def":1500},"rarity":"SR","img":"77235086","code":"15","tcg":131755,"grp":1931,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"DPDG-EN016","name":"Cyber Angel Idaten","ctype":"monster","keywords":"Cyber Angel Fairy LIGHT Ritual Effect Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Fairy / Ritual / Effect","atk":1600,"def":2000},"rarity":"C","img":"3629090","code":"16","tcg":131756,"grp":1931,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"DPDG-EN017","name":"Machine Angel Ritual","ctype":"spell","keywords":"Cyber Angel Ritual Spell","stats":{"t":"Ritual Spell"},"rarity":"C","img":"39996157","code":"17","tcg":131757,"grp":1931,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"DPDG-EN018","name":"Machine Angel Absolute Ritual","ctype":"spell","keywords":"Cyber Angel Ritual Spell","stats":{"t":"Ritual Spell"},"rarity":"R","img":"11398951","code":"18","tcg":131758,"grp":1931,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"DPDG-EN019","name":"Ritual Sanctuary","ctype":"spell","keywords":"Field Spell","stats":{"t":"Field Spell"},"rarity":"UR","img":"20250830","code":"19","tcg":131759,"grp":1931,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"DPDG-EN020","name":"Dark Resonator","ctype":"monster","keywords":"Resonator Fiend DARK Tuner Monster","stats":{"a":"DARK","l":"Level 3","t":"Fiend / Tuner","atk":1300,"def":300},"rarity":"C","img":"97021916","code":"20","tcg":131760,"grp":1931,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"DPDG-EN021","name":"Synkron Resonator","ctype":"monster","keywords":"Resonator Fiend DARK Tuner Monster","stats":{"a":"DARK","l":"Level 1","t":"Fiend / Tuner","atk":100,"def":100},"rarity":"C","img":"77360173","code":"21","tcg":131761,"grp":1931,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"DPDG-EN022","name":"Chain Resonator","ctype":"monster","keywords":"Resonator Fiend LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Fiend / Tuner","atk":100,"def":100},"rarity":"C","img":"13764881","code":"22","tcg":131762,"grp":1931,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"DPDG-EN023","name":"Mirror Resonator","ctype":"monster","keywords":"Resonator Fiend LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Fiend / Tuner","atk":0,"def":0},"rarity":"C","img":"40159926","code":"23","tcg":131763,"grp":1931,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"DPDG-EN024","name":"Red Resonator","ctype":"monster","keywords":"Resonator Fiend FIRE Tuner Monster","stats":{"a":"FIRE","l":"Level 2","t":"Fiend / Tuner","atk":600,"def":200},"rarity":"R","img":"40975574","code":"24","tcg":131764,"grp":1931,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"DPDG-EN025","name":"Red Warg","ctype":"monster","keywords":"Resonator Fiend FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 6","t":"Fiend / Effect","atk":1400,"def":2200},"rarity":"C","img":"45313993","code":"25","tcg":131765,"grp":1931,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"DPDG-EN026","name":"Red Gardna","ctype":"monster","keywords":"Archfiend Fiend FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Fiend / Effect","atk":0,"def":2000},"rarity":"C","img":"72318602","code":"26","tcg":131766,"grp":1931,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"DPDG-EN027","name":"Red Sprinter","ctype":"monster","keywords":"Fiend FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Fiend / Effect","atk":1700,"def":1200},"rarity":"C","img":"14886469","code":"27","tcg":131767,"grp":1931,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"DPDG-EN028","name":"Red Mirror","ctype":"monster","keywords":"Fiend FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 1","t":"Fiend / Effect","atk":0,"def":0},"rarity":"C","img":"8706701","code":"28","tcg":131768,"grp":1931,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"DPDG-EN029","name":"Resonator Call","ctype":"spell","keywords":"Resonator Normal Spell","stats":{"t":"Normal Spell"},"rarity":"R","img":"23008320","code":"29","tcg":131769,"grp":1931,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"DPDG-EN030","name":"Tyrant Red Dragon Archfiend","ctype":"monster","keywords":"Archfiend Dragon DARK Synchro Monster","stats":{"a":"DARK","l":"Level 10","t":"Dragon / Synchro","atk":3500,"def":3000},"rarity":"UR","img":"16172067","code":"30","tcg":131770,"grp":1931,"idx":29},
+    {"id":"031","section":"main","num":"031","printed":"DPDG-EN031","name":"Scarlight Red Dragon Archfiend","ctype":"monster","keywords":"Archfiend Dragon DARK Synchro Monster","stats":{"a":"DARK","l":"Level 8","t":"Dragon / Synchro","atk":3000,"def":2500},"rarity":"R","img":"80666118","code":"31","tcg":131771,"grp":1931,"idx":30},
+    {"id":"032","section":"main","num":"032","printed":"DPDG-EN032","name":"Red Wyvern","ctype":"monster","keywords":"Dragon FIRE Synchro Monster","stats":{"a":"FIRE","l":"Level 6","t":"Dragon / Synchro","atk":2400,"def":2000},"rarity":"C","img":"76547525","code":"32","tcg":131772,"grp":1931,"idx":31},
+    {"id":"033","section":"main","num":"033","printed":"DPDG-EN033","name":"Reject Reborn","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"78161960","code":"33","tcg":131773,"grp":1931,"idx":32},
+    {"id":"034","section":"main","num":"034","printed":"DPDG-EN034","name":"King's Synchro","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"R","img":"27503418","code":"34","tcg":131774,"grp":1931,"idx":33},
+    {"id":"035","section":"main","num":"035","printed":"DPDG-EN035","name":"Cipher Wing","ctype":"monster","keywords":"Cipher Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Machine / Effect","atk":1400,"def":1200},"rarity":"C","img":"81974607","code":"35","tcg":131775,"grp":1931,"idx":34},
+    {"id":"036","section":"main","num":"036","printed":"DPDG-EN036","name":"Cipher Twin Raptor","ctype":"monster","keywords":"Cipher Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Machine / Effect","atk":1600,"def":800},"rarity":"R","img":"21999001","code":"36","tcg":131776,"grp":1931,"idx":35},
+    {"id":"037","section":"main","num":"037","printed":"DPDG-EN037","name":"Cipher Mirror Knight","ctype":"monster","keywords":"Cipher Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Effect","atk":0,"def":0},"rarity":"C","img":"58383100","code":"37","tcg":131777,"grp":1931,"idx":36},
+    {"id":"038","section":"main","num":"038","printed":"DPDG-EN038","name":"Cipher Etranger","ctype":"monster","keywords":"Cipher Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Spellcaster / Effect","atk":0,"def":0},"rarity":"R","img":"79094383","code":"38","tcg":131778,"grp":1931,"idx":37},
+    {"id":"039","section":"main","num":"039","printed":"DPDG-EN039","name":"Neo Galaxy-Eyes Cipher Dragon","ctype":"monster","keywords":"Cipher Dragon LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 9","t":"Dragon / Xyz","atk":4500,"def":3000},"rarity":"UR","img":"12632096","code":"39","tcg":131779,"grp":1931,"idx":38},
+    {"id":"040","section":"main","num":"040","printed":"DPDG-EN040","name":"Galaxy-Eyes Cipher Dragon","ctype":"monster","keywords":"Cipher Dragon LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 8","t":"Dragon / Xyz","atk":3000,"def":2500},"rarity":"SR","img":"18963306","code":"40","tcg":131780,"grp":1931,"idx":39},
+    {"id":"041","section":"main","num":"041","printed":"DPDG-EN041","name":"Starliege Paladynamo","ctype":"monster","keywords":"Warrior LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 4","t":"Warrior / Xyz","atk":2000,"def":1000},"rarity":"R","img":"61344030","code":"41","tcg":131781,"grp":1931,"idx":40},
+    {"id":"042","section":"main","num":"042","printed":"DPDG-EN042","name":"Rank-Up-Magic Cipher Ascension","ctype":"spell","keywords":"Cipher Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"47882565","code":"42","tcg":131782,"grp":1931,"idx":41},
+    {"id":"043","section":"main","num":"043","printed":"DPDG-EN043","name":"Double Cipher","ctype":"trap","keywords":"Cipher Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"63992027","code":"43","tcg":131783,"grp":1931,"idx":42},
+    {"id":"044","section":"main","num":"044","printed":"DPDG-EN044","name":"Cipher Bit","ctype":"trap","keywords":"Cipher Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"99397762","code":"44","tcg":131784,"grp":1931,"idx":43},
+    {"id":"045","section":"main","num":"045","printed":"DPDG-EN045","name":"Cipher Spectrum","ctype":"trap","keywords":"Cipher Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"98905","code":"45","tcg":131785,"grp":1931,"idx":44}
+  ]
+}

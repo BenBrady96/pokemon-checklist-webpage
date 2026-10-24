@@ -1,0 +1,66 @@
+{
+  "id": "yugioh/noble-knights-of-the-round-table-power-up-pack",
+  "game": "yugioh",
+  "slug": "noble-knights-of-the-round-table-power-up-pack",
+  "name": "Noble Knights of the Round Table Power-Up Pack",
+  "series": "ARC-V",
+  "kind": "pack",
+  "code": "NKRT",
+  "syncKey": "YNKRT2",
+  "released": "2014-11-20",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "NKRT-EN039–NKRT-EN044",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from NKRT-EN039 to NKRT-EN044."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Noble Knights of the Round Table Power-Up Pack Checklist · All 6 Cards",
+    "description": "Free Yu-Gi-Oh! Noble Knights of the Round Table Power-Up Pack checklist with no ads, no sign-up and no tracking. Track all 6 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Noble Knights of the Round Table Power-Up Pack Checklist",
+    "ogDescription": "Track all 6 cards in Yu-Gi-Oh! Noble Knights of the Round Table Power-Up Pack. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 6 cards in Yu-Gi-Oh! Noble Knights of the Round Table Power-Up Pack. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Noble Knights of the Round Table Power-Up Pack",
+    "paragraphs": [
+      "Noble Knights of the Round Table Power-Up Pack is a Yu-Gi-Oh! TCG pack released on 20 November 2014, in the ARC-V era. It has 6 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Noble Knights of the Round Table Power-Up Pack"
+    ],
+    "tcgplayer": [
+      1492
+    ]
+  },
+  "cards": [
+    {"id":"039","section":"main","num":"039","printed":"NKRT-EN039","name":"Effect Veiler","ctype":"monster","keywords":"Spellcaster LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Spellcaster / Tuner","atk":0,"def":0},"rarity":"PlR","img":"97268402","code":"39","tcg":95023,"grp":1492,"idx":0},
+    {"id":"040","section":"main","num":"040","printed":"NKRT-EN040","name":"Mystical Space Typhoon","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"PlR","img":"5318639","code":"40","tcg":95025,"grp":1492,"idx":1},
+    {"id":"041","section":"main","num":"041","printed":"NKRT-EN041","name":"Gold Sarcophagus","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"PlR","img":"75500286","code":"41","tcg":95026,"grp":1492,"idx":2},
+    {"id":"042","section":"main","num":"042","printed":"NKRT-EN042","name":"Forbidden Lance","ctype":"spell","keywords":"Forbidden Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"PlR","img":"27243130","code":"42","tcg":95027,"grp":1492,"idx":3},
+    {"id":"043","section":"main","num":"043","printed":"NKRT-EN043","name":"Torrential Tribute","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"PlR","img":"53582587","code":"43","tcg":95028,"grp":1492,"idx":4},
+    {"id":"044","section":"main","num":"044","printed":"NKRT-EN044","name":"Compulsory Evacuation Device","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"PlR","img":"94192409","code":"44","tcg":95029,"grp":1492,"idx":5}
+  ]
+}

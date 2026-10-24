@@ -1,0 +1,100 @@
+{
+  "id": "yugioh/super-starter-space-time-showdown",
+  "game": "yugioh",
+  "slug": "super-starter-space-time-showdown",
+  "name": "Super Starter: Space-Time Showdown",
+  "series": "ZEXAL",
+  "kind": "deck",
+  "code": "YS14",
+  "syncKey": "YYS14",
+  "released": "2014-07-10",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "YS14-EN001–YS14-EN040",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from YS14-EN001 to YS14-EN040."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Super Starter: Space-Time Showdown Checklist · All 40 Cards",
+    "description": "Free Yu-Gi-Oh! Super Starter: Space-Time Showdown checklist with no ads, no sign-up and no tracking. Track all 40 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Super Starter: Space-Time Showdown Checklist",
+    "ogDescription": "Track all 40 cards in Yu-Gi-Oh! Super Starter: Space-Time Showdown. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 40 cards in Yu-Gi-Oh! Super Starter: Space-Time Showdown. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Super Starter: Space-Time Showdown",
+    "paragraphs": [
+      "Super Starter: Space-Time Showdown is a Yu-Gi-Oh! TCG deck released on 10 July 2014, in the ZEXAL era. It has 40 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Super Starter: Space-Time Showdown"
+    ],
+    "tcgplayer": [
+      1466
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"YS14-EN001","name":"Wattaildragon","ctype":"monster","keywords":"Watt Dragon LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Dragon / Normal","atk":2500,"def":1000},"rarity":"C","img":"87151205","code":"1","tcg":91402,"grp":1466,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"YS14-EN002","name":"Luster Dragon","ctype":"monster","keywords":"Dragon WIND Normal Monster","stats":{"a":"WIND","l":"Level 4","t":"Dragon / Normal","atk":1900,"def":1600},"rarity":"C","img":"11091375","code":"2","tcg":91403,"grp":1466,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"YS14-EN003","name":"Hunter Dragon","ctype":"monster","keywords":"Dragon DARK Normal Monster","stats":{"a":"DARK","l":"Level 3","t":"Dragon / Normal","atk":1700,"def":100},"rarity":"C","img":"96005454","code":"3","tcg":91404,"grp":1466,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"YS14-EN004","name":"Millennium Shield","ctype":"monster","keywords":"Warrior EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 5","t":"Warrior / Normal","atk":0,"def":3000},"rarity":"C","img":"32012841","code":"4","tcg":91405,"grp":1466,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"YS14-EN005","name":"Dark Blade","ctype":"monster","keywords":"Dark World Warrior DARK Normal Monster","stats":{"a":"DARK","l":"Level 4","t":"Warrior / Normal","atk":1800,"def":1500},"rarity":"C","img":"11321183","code":"5","tcg":91406,"grp":1466,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"YS14-EN006","name":"Warrior Dai Grepher","ctype":"monster","keywords":"Grepher Warrior EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Normal","atk":1700,"def":1600},"rarity":"C","img":"75953262","code":"6","tcg":91407,"grp":1466,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"YS14-EN007","name":"Chamberlain of the Six Samurai","ctype":"monster","keywords":"Six Samurai Warrior EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 3","t":"Warrior / Normal","atk":200,"def":2000},"rarity":"C","img":"44430454","code":"7","tcg":91408,"grp":1466,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"YS14-EN008","name":"Mystical Elf","ctype":"monster","keywords":"Spellcaster LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Normal","atk":800,"def":2000},"rarity":"C","img":"15025844","code":"8","tcg":91409,"grp":1466,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"YS14-EN009","name":"Stargazer Magician","ctype":"monster","keywords":"Magician Spellcaster DARK Pendulum Effect Monster","stats":{"a":"DARK","l":"Level 5","t":"Spellcaster / Pendulum / Effect","atk":1200,"def":2400},"rarity":"SR","img":"94415058","code":"9","tcg":91441,"grp":1466,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"YS14-EN010","name":"Timegazer Magician","ctype":"monster","keywords":"Magician Spellcaster DARK Pendulum Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Spellcaster / Pendulum / Effect","atk":1200,"def":600},"rarity":"SR","img":"20409757","code":"10","tcg":91440,"grp":1466,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"YS14-EN011","name":"Aether, the Empowering Dragon","ctype":"monster","keywords":"Aether Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Dragon / Effect","atk":2300,"def":1600},"rarity":"C","img":"56804361","code":"11","tcg":91411,"grp":1466,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"YS14-EN012","name":"Ventdra, the Empowered Warrior","ctype":"monster","keywords":"Empowered Warrior Warrior WIND Effect Monster","stats":{"a":"WIND","l":"Level 5","t":"Warrior / Effect","atk":2000,"def":800},"rarity":"C","img":"93298460","code":"12","tcg":91412,"grp":1466,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"YS14-EN013","name":"Arnis, the Empowered Warrior","ctype":"monster","keywords":"Empowered Warrior Warrior FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Warrior / Effect","atk":1700,"def":1200},"rarity":"C","img":"29687169","code":"13","tcg":91413,"grp":1466,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"YS14-EN014","name":"Terratiger, the Empowered Warrior","ctype":"monster","keywords":"Empowered Warrior Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Effect","atk":1800,"def":1200},"rarity":"C","img":"56681873","code":"14","tcg":91414,"grp":1466,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"YS14-EN015","name":"Hydrotortoise, the Empowered Warrior","ctype":"monster","keywords":"Empowered Warrior Warrior WATER Flip Effect Monster","stats":{"a":"WATER","l":"Level 3","t":"Warrior / Flip / Effect","atk":1400,"def":900},"rarity":"C","img":"82176812","code":"15","tcg":91415,"grp":1466,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"YS14-EN016","name":"Golden Dragon Summoner","ctype":"monster","keywords":"Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Effect","atk":1000,"def":1000},"rarity":"C","img":"28565527","code":"16","tcg":91416,"grp":1466,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"YS14-EN017","name":"Blue Dragon Summoner","ctype":"monster","keywords":"Spellcaster WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Spellcaster / Effect","atk":1500,"def":600},"rarity":"C","img":"55969226","code":"17","tcg":91417,"grp":1466,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"YS14-EN018","name":"Red Sparrow Summoner","ctype":"monster","keywords":"Spellcaster FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Spellcaster / Effect","atk":1600,"def":1300},"rarity":"C","img":"81354330","code":"18","tcg":91418,"grp":1466,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"YS14-EN019","name":"White Tiger Summoner","ctype":"monster","keywords":"Spellcaster EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Spellcaster / Effect","atk":1000,"def":1700},"rarity":"C","img":"28348939","code":"19","tcg":91419,"grp":1466,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"YS14-EN020","name":"Green Turtle Summoner","ctype":"monster","keywords":"Spellcaster WATER Effect Monster","stats":{"a":"WATER","l":"Level 3","t":"Spellcaster / Effect","atk":400,"def":1500},"rarity":"C","img":"54747648","code":"20","tcg":91420,"grp":1466,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"YS14-EN021","name":"Sorcerous Spell Wall","ctype":"spell","keywords":"Field Spell","stats":{"t":"Field Spell"},"rarity":"C","img":"81231742","code":"21","tcg":91421,"grp":1466,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"YS14-EN022","name":"Supply Squad","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"17626381","code":"22","tcg":91422,"grp":1466,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"YS14-EN023","name":"Lightning Vortex","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"69162969","code":"23","tcg":91423,"grp":1466,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"YS14-EN024","name":"Mystical Space Typhoon","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"5318639","code":"24","tcg":91424,"grp":1466,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"YS14-EN025","name":"Ego Boost","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"73178098","code":"25","tcg":91442,"grp":1466,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"YS14-EN026","name":"Axe of Despair","ctype":"spell","keywords":"Archfiend Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"40619825","code":"26","tcg":91426,"grp":1466,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"YS14-EN027","name":"Lucky Iron Axe","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"34664411","code":"27","tcg":91425,"grp":1466,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"YS14-EN028","name":"Monster Reincarnation","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"74848038","code":"28","tcg":91427,"grp":1466,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"YS14-EN029","name":"Dark Factory of Mass Production","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"90928333","code":"29","tcg":91428,"grp":1466,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"YS14-EN030","name":"Poison of the Old Man","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"8842266","code":"30","tcg":91429,"grp":1466,"idx":29},
+    {"id":"031","section":"main","num":"031","printed":"YS14-EN031","name":"Trap Hole","ctype":"trap","keywords":"Hole Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"4206964","code":"31","tcg":91430,"grp":1466,"idx":30},
+    {"id":"032","section":"main","num":"032","printed":"YS14-EN032","name":"Sakuretsu Armor","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"56120475","code":"32","tcg":91431,"grp":1466,"idx":31},
+    {"id":"033","section":"main","num":"033","printed":"YS14-EN033","name":"Raigeki Break","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"4178474","code":"33","tcg":91432,"grp":1466,"idx":32},
+    {"id":"034","section":"main","num":"034","printed":"YS14-EN034","name":"Dust Tornado","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"60082869","code":"34","tcg":91433,"grp":1466,"idx":33},
+    {"id":"035","section":"main","num":"035","printed":"YS14-EN035","name":"Shadow Spell","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"29267084","code":"35","tcg":91434,"grp":1466,"idx":34},
+    {"id":"036","section":"main","num":"036","printed":"YS14-EN036","name":"A Hero Emerges","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"21597117","code":"36","tcg":91435,"grp":1466,"idx":35},
+    {"id":"037","section":"main","num":"037","printed":"YS14-EN037","name":"Soul Resurrection","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"92924317","code":"37","tcg":91436,"grp":1466,"idx":36},
+    {"id":"038","section":"main","num":"038","printed":"YS14-EN038","name":"Jar of Greed","ctype":"trap","keywords":"Greed Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"83968380","code":"38","tcg":91437,"grp":1466,"idx":37},
+    {"id":"039","section":"main","num":"039","printed":"YS14-EN039","name":"Magic Jammer","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"C","img":"77414722","code":"39","tcg":91438,"grp":1466,"idx":38},
+    {"id":"040","section":"main","num":"040","printed":"YS14-EN040","name":"Seven Tools of the Bandit","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"C","img":"3819470","code":"40","tcg":91439,"grp":1466,"idx":39}
+  ]
+}

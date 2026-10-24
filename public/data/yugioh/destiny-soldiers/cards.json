@@ -1,0 +1,120 @@
+{
+  "id": "yugioh/destiny-soldiers",
+  "game": "yugioh",
+  "slug": "destiny-soldiers",
+  "name": "Destiny Soldiers",
+  "series": "ARC-V",
+  "kind": "set",
+  "code": "DESO",
+  "syncKey": "YDESO",
+  "released": "2016-11-17",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Main Set",
+      "range": "DESO-EN001–DESO-EN060",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from DESO-EN001 to DESO-EN060."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Destiny Soldiers Checklist · All 60 Cards",
+    "description": "Free Yu-Gi-Oh! Destiny Soldiers checklist with no ads, no sign-up and no tracking. Track all 60 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Destiny Soldiers Checklist",
+    "ogDescription": "Track all 60 cards in Yu-Gi-Oh! Destiny Soldiers. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 60 cards in Yu-Gi-Oh! Destiny Soldiers. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About the Destiny Soldiers set",
+    "paragraphs": [
+      "Destiny Soldiers is a Yu-Gi-Oh! TCG special set released on 17 November 2016, in the ARC-V era. It has 60 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Destiny Soldiers"
+    ],
+    "tcgplayer": [
+      1854
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"DESO-EN001","name":"Destiny HERO - Drilldark","ctype":"monster","keywords":"Destiny HERO Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Warrior / Effect","atk":1600,"def":1200},"rarity":"SR","img":"91691605","code":"1","tcg":125257,"grp":1854,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"DESO-EN002","name":"Destiny HERO - Dynatag","ctype":"monster","keywords":"Destiny HERO Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 5","t":"Warrior / Effect","atk":1000,"def":1000},"rarity":"SR","img":"37780349","code":"2","tcg":125258,"grp":1854,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"DESO-EN003","name":"Destiny HERO - Decider","ctype":"monster","keywords":"Destiny HERO Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Warrior / Effect","atk":1600,"def":1000},"rarity":"ScR","img":"64184058","code":"3","tcg":125259,"grp":1854,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"DESO-EN004","name":"Destiny HERO - Dystopia","ctype":"monster","keywords":"Destiny HERO Warrior DARK Fusion Monster","stats":{"a":"DARK","l":"Level 8","t":"Warrior / Fusion","atk":2800,"def":2400},"rarity":"ScR","img":"90579153","code":"4","tcg":125260,"grp":1854,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"DESO-EN005","name":"Destiny HERO - Dark Angel","ctype":"monster","keywords":"Destiny HERO Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Warrior / Effect","atk":0,"def":0},"rarity":"ScR","img":"26964762","code":"5","tcg":125261,"grp":1854,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"DESO-EN006","name":"Destiny HERO - Celestial","ctype":"monster","keywords":"Destiny HERO Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Warrior / Effect","atk":1600,"def":1400},"rarity":"ScR","img":"63362460","code":"6","tcg":125262,"grp":1854,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"DESO-EN007","name":"D Cubed","ctype":"monster","keywords":"Destiny HERO Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Machine / Effect","atk":0,"def":0},"rarity":"ScR","img":"99357565","code":"7","tcg":125263,"grp":1854,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"DESO-EN008","name":"D-Fusion","ctype":"trap","keywords":"Destiny HERO Normal Trap","stats":{"t":"Normal Trap"},"rarity":"ScR","img":"26841274","code":"8","tcg":125264,"grp":1854,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"DESO-EN009","name":"Destiny HERO - Diamond Dude","ctype":"monster","keywords":"Destiny HERO Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Warrior / Effect","atk":1400,"def":1600},"rarity":"SR","img":"13093792","code":"9","tcg":125265,"grp":1854,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"DESO-EN010","name":"Destiny HERO - Malicious","ctype":"monster","keywords":"Destiny HERO Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Warrior / Effect","atk":800,"def":800},"rarity":"SR","img":"9411399","code":"10","tcg":125266,"grp":1854,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"DESO-EN011","name":"Destiny HERO - Dogma","ctype":"monster","keywords":"Destiny HERO Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Warrior / Effect","atk":3400,"def":2400},"rarity":"SR","img":"17132130","code":"11","tcg":125267,"grp":1854,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"DESO-EN012","name":"Destiny HERO - Plasma","ctype":"monster","keywords":"Destiny HERO Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Warrior / Effect","atk":1900,"def":600},"rarity":"SR","img":"83965310","code":"12","tcg":125268,"grp":1854,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"DESO-EN013","name":"Destiny End Dragoon","ctype":"monster","keywords":"Destiny HERO Warrior DARK Fusion Monster","stats":{"a":"DARK","l":"Level 10","t":"Warrior / Fusion","atk":3000,"def":3000},"rarity":"SR","img":"76263644","code":"13","tcg":125269,"grp":1854,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"DESO-EN014","name":"Destiny Draw","ctype":"spell","keywords":"Destiny HERO Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"45809008","code":"14","tcg":125270,"grp":1854,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"DESO-EN015","name":"Over Destiny","ctype":"spell","keywords":"Destiny HERO Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"72204747","code":"15","tcg":125271,"grp":1854,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"DESO-EN016","name":"Abyss Actor - Evil Heel","ctype":"monster","keywords":"Abyss Actor Fiend DARK Pendulum Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Fiend / Pendulum / Effect","atk":3000,"def":2000},"rarity":"ScR","img":"52240819","code":"16","tcg":125272,"grp":1854,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"DESO-EN017","name":"Abyss Actor - Funky Comedian","ctype":"monster","keywords":"Abyss Actor Fiend DARK Pendulum Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Fiend / Pendulum / Effect","atk":300,"def":200},"rarity":"SR","img":"99634927","code":"17","tcg":125273,"grp":1854,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"DESO-EN018","name":"Abyss Actor - Superstar","ctype":"monster","keywords":"Abyss Actor Fiend DARK Pendulum Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Fiend / Pendulum / Effect","atk":2500,"def":1800},"rarity":"ScR","img":"25629622","code":"18","tcg":125274,"grp":1854,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"DESO-EN019","name":"Abyss Actor - Sassy Rookie","ctype":"monster","keywords":"Abyss Actor Fiend DARK Pendulum Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Pendulum / Effect","atk":1700,"def":1000},"rarity":"SR","img":"51028231","code":"19","tcg":125275,"grp":1854,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"DESO-EN020","name":"Abyss Actor - Extras","ctype":"monster","keywords":"Abyss Actor Fiend DARK Pendulum Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Fiend / Pendulum / Effect","atk":100,"def":100},"rarity":"SR","img":"88412339","code":"20","tcg":125276,"grp":1854,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"DESO-EN021","name":"Abyss Actor - Leading Lady","ctype":"monster","keywords":"Abyss Actor Fiend DARK Pendulum Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Pendulum / Effect","atk":1500,"def":1000},"rarity":"ScR","img":"24907044","code":"21","tcg":125277,"grp":1854,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"DESO-EN022","name":"Abyss Actor - Wild Hope","ctype":"monster","keywords":"Abyss Actor Fiend DARK Pendulum Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Pendulum / Effect","atk":1600,"def":1200},"rarity":"ScR","img":"51391183","code":"22","tcg":125278,"grp":1854,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"DESO-EN023","name":"Abyss Script - Fantasy Magic","ctype":"spell","keywords":"Abyss Actor Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"87390798","code":"23","tcg":125279,"grp":1854,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"DESO-EN024","name":"Abyss Script - Opening Ceremony","ctype":"spell","keywords":"Abyss Actor Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"23784496","code":"24","tcg":125280,"grp":1854,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"DESO-EN025","name":"Abyss Script - Fire Dragon's Lair","ctype":"spell","keywords":"Abyss Actor Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"50179591","code":"25","tcg":125281,"grp":1854,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"DESO-EN026","name":"Abyss Prop - Wild Wagon","ctype":"spell","keywords":"Abyss Actor Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"SR","img":"86578200","code":"26","tcg":125282,"grp":1854,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"DESO-EN027","name":"Abyss Script - Rise of the Abyss King","ctype":"spell","keywords":"Abyss Actor Normal Spell","stats":{"t":"Normal Spell"},"rarity":"ScR","img":"13662809","code":"27","tcg":125283,"grp":1854,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"DESO-EN028","name":"Abyss Actors Back Stage","ctype":"trap","keywords":"Abyss Actor Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"59057953","code":"28","tcg":125284,"grp":1854,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"DESO-EN029","name":"Darklord Morningstar","ctype":"monster","keywords":"Darklord Fairy DARK Effect Monster","stats":{"a":"DARK","l":"Level 11","t":"Fairy / Effect","atk":3000,"def":3000},"rarity":"ScR","img":"25451652","code":"29","tcg":125285,"grp":1854,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"DESO-EN030","name":"Darklord Ixchel","ctype":"monster","keywords":"Darklord Fairy DARK Effect Monster","stats":{"a":"DARK","l":"Level 10","t":"Fairy / Effect","atk":2500,"def":2900},"rarity":"ScR","img":"52840267","code":"30","tcg":125286,"grp":1854,"idx":29},
+    {"id":"031","section":"main","num":"031","printed":"DESO-EN031","name":"Darklord Tezcatlipoca","ctype":"monster","keywords":"Darklord Fairy DARK Effect Monster","stats":{"a":"DARK","l":"Level 9","t":"Fairy / Effect","atk":2800,"def":2100},"rarity":"ScR","img":"88234365","code":"31","tcg":125287,"grp":1854,"idx":30},
+    {"id":"032","section":"main","num":"032","printed":"DESO-EN032","name":"Darklord Nasten","ctype":"monster","keywords":"Darklord Fairy DARK Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Fairy / Effect","atk":2600,"def":2600},"rarity":"ScR","img":"25339070","code":"32","tcg":125288,"grp":1854,"idx":31},
+    {"id":"033","section":"main","num":"033","printed":"DESO-EN033","name":"Darklord Amdusc","ctype":"monster","keywords":"Darklord Fairy DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Fairy / Effect","atk":1800,"def":2800},"rarity":"ScR","img":"51728779","code":"33","tcg":125289,"grp":1854,"idx":32},
+    {"id":"034","section":"main","num":"034","printed":"DESO-EN034","name":"Banishment of the Darklords","ctype":"spell","keywords":"Darklord Normal Spell","stats":{"t":"Normal Spell"},"rarity":"ScR","img":"87112784","code":"34","tcg":125290,"grp":1854,"idx":33},
+    {"id":"035","section":"main","num":"035","printed":"DESO-EN035","name":"Darklord Contact","ctype":"spell","keywords":"Darklord Normal Spell","stats":{"t":"Normal Spell"},"rarity":"ScR","img":"14517422","code":"35","tcg":125291,"grp":1854,"idx":34},
+    {"id":"036","section":"main","num":"036","printed":"DESO-EN036","name":"Darklord Rebellion","ctype":"trap","keywords":"Darklord Normal Trap","stats":{"t":"Normal Trap"},"rarity":"ScR","img":"50501121","code":"36","tcg":125292,"grp":1854,"idx":35},
+    {"id":"037","section":"main","num":"037","printed":"DESO-EN037","name":"Darklord Enchantment","ctype":"trap","keywords":"Darklord Normal Trap","stats":{"t":"Normal Trap"},"rarity":"ScR","img":"87990236","code":"37","tcg":125293,"grp":1854,"idx":36},
+    {"id":"038","section":"main","num":"038","printed":"DESO-EN038","name":"Darklord Asmodeus","ctype":"monster","keywords":"Darklord Fairy DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Fairy / Effect","atk":3000,"def":2500},"rarity":"SR","img":"85771019","code":"38","tcg":125294,"grp":1854,"idx":37},
+    {"id":"039","section":"main","num":"039","printed":"DESO-EN039","name":"Darklord Superbia","ctype":"monster","keywords":"Darklord Fairy DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Fairy / Effect","atk":2900,"def":2400},"rarity":"SR","img":"11260714","code":"39","tcg":125295,"grp":1854,"idx":38},
+    {"id":"040","section":"main","num":"040","printed":"DESO-EN040","name":"Darklord Edeh Arae","ctype":"monster","keywords":"Darklord Fairy DARK Effect Monster","stats":{"a":"DARK","l":"Level 5","t":"Fairy / Effect","atk":2300,"def":2000},"rarity":"SR","img":"47664723","code":"40","tcg":125296,"grp":1854,"idx":39},
+    {"id":"041","section":"main","num":"041","printed":"DESO-EN041","name":"Darklord Zerato","ctype":"monster","keywords":"Darklord Fairy DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Fairy / Effect","atk":2800,"def":2300},"rarity":"SR","img":"40921744","code":"41","tcg":125297,"grp":1854,"idx":40},
+    {"id":"042","section":"main","num":"042","printed":"DESO-EN042","name":"Dark Hole","ctype":"spell","keywords":"Hole Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"53129443","code":"42","tcg":125298,"grp":1854,"idx":41},
+    {"id":"043","section":"main","num":"043","printed":"DESO-EN043","name":"Fires of Doomsday","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"SR","img":"46173679","code":"43","tcg":125299,"grp":1854,"idx":42},
+    {"id":"044","section":"main","num":"044","printed":"DESO-EN044","name":"Allure of Darkness","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"1475311","code":"44","tcg":125300,"grp":1854,"idx":43},
+    {"id":"045","section":"main","num":"045","printed":"DESO-EN045","name":"Escape from the Dark Dimension","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"SR","img":"31550470","code":"45","tcg":125301,"grp":1854,"idx":44},
+    {"id":"046","section":"main","num":"046","printed":"DESO-EN046","name":"Darklord Marie","ctype":"monster","keywords":"Darklord Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 5","t":"Fiend / Effect","atk":1700,"def":1200},"rarity":"SR","img":"57579381","code":"46","tcg":125302,"grp":1854,"idx":45},
+    {"id":"047","section":"main","num":"047","printed":"DESO-EN047","name":"Prometheus, King of the Shadows","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Effect","atk":1200,"def":800},"rarity":"SR","img":"82213171","code":"47","tcg":125303,"grp":1854,"idx":46},
+    {"id":"048","section":"main","num":"048","printed":"DESO-EN048","name":"Darklord Nurse Reficule","ctype":"monster","keywords":"Darklord Fairy DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fairy / Effect","atk":1400,"def":600},"rarity":"SR","img":"67316075","code":"48","tcg":125304,"grp":1854,"idx":47},
+    {"id":"049","section":"main","num":"049","printed":"DESO-EN049","name":"Doomsday Horror","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Effect","atk":-1,"def":-1},"rarity":"SR","img":"64379430","code":"49","tcg":125305,"grp":1854,"idx":48},
+    {"id":"050","section":"main","num":"050","printed":"DESO-EN050","name":"Archlord Kristya","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Fairy / Effect","atk":2800,"def":2300},"rarity":"SR","img":"59509952","code":"50","tcg":125306,"grp":1854,"idx":49},
+    {"id":"051","section":"main","num":"051","printed":"DESO-EN051","name":"Trade-In","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"38120068","code":"51","tcg":125307,"grp":1854,"idx":50},
+    {"id":"052","section":"main","num":"052","printed":"DESO-EN052","name":"Veil of Darkness","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"SR","img":"90434926","code":"52","tcg":125308,"grp":1854,"idx":51},
+    {"id":"053","section":"main","num":"053","printed":"DESO-EN053","name":"The Beginning of the End","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"73680966","code":"53","tcg":125309,"grp":1854,"idx":52},
+    {"id":"054","section":"main","num":"054","printed":"DESO-EN054","name":"Dark Eruption","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"674561","code":"54","tcg":125310,"grp":1854,"idx":53},
+    {"id":"055","section":"main","num":"055","printed":"DESO-EN055","name":"Valhalla, Hall of the Fallen","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"SR","img":"1353770","code":"55","tcg":125311,"grp":1854,"idx":54},
+    {"id":"056","section":"main","num":"056","printed":"DESO-EN056","name":"Advance Draw","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"51630558","code":"56","tcg":125312,"grp":1854,"idx":55},
+    {"id":"057","section":"main","num":"057","printed":"DESO-EN057","name":"Dark Mambele","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"41722932","code":"57","tcg":125313,"grp":1854,"idx":56},
+    {"id":"058","section":"main","num":"058","printed":"DESO-EN058","name":"Creeping Darkness","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"78811937","code":"58","tcg":125314,"grp":1854,"idx":57},
+    {"id":"059","section":"main","num":"059","printed":"DESO-EN059","name":"Destiny Signal","ctype":"trap","keywords":"Destiny HERO Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"35464895","code":"59","tcg":125315,"grp":1854,"idx":58},
+    {"id":"060","section":"main","num":"060","printed":"DESO-EN060","name":"Dark Illusion","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"SR","img":"5562461","code":"60","tcg":125316,"grp":1854,"idx":59}
+  ]
+}

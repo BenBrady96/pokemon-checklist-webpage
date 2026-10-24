@@ -1,0 +1,110 @@
+{
+  "id": "yugioh/starter-deck-yugi",
+  "game": "yugioh",
+  "slug": "starter-deck-yugi",
+  "name": "Starter Deck: Yugi",
+  "series": "Duel Monsters",
+  "kind": "deck",
+  "code": "SDY",
+  "syncKey": "YSDY",
+  "released": "2002-03-29",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "SDY-001–SDY-050",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from SDY-001 to SDY-050."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Starter Deck: Yugi Checklist · All 50 Cards",
+    "description": "Free Yu-Gi-Oh! Starter Deck: Yugi checklist with no ads, no sign-up and no tracking. Track all 50 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Starter Deck: Yugi Checklist",
+    "ogDescription": "Track all 50 cards in Yu-Gi-Oh! Starter Deck: Yugi. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 50 cards in Yu-Gi-Oh! Starter Deck: Yugi. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Starter Deck: Yugi",
+    "paragraphs": [
+      "Starter Deck: Yugi is a Yu-Gi-Oh! TCG deck released on 29 March 2002, in the Duel Monsters era. It has 50 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Starter Deck: Yugi"
+    ],
+    "tcgplayer": [
+      298
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"SDY-001","name":"Mystical Elf","ctype":"monster","keywords":"Spellcaster LIGHT Normal Monster SDY-E001","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Normal","atk":800,"def":2000},"rarity":"C","img":"15025844","code":"1","tcg":22607,"grp":298,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"SDY-002","name":"Feral Imp","ctype":"monster","keywords":"Fiend DARK Normal Monster SDY-E002","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Normal","atk":1300,"def":1400},"rarity":"C","img":"41392891","code":"2","tcg":22608,"grp":298,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"SDY-003","name":"Winged Dragon, Guardian of the Fortress #1","ctype":"monster","keywords":"Dragon WIND Normal Monster SDY-E003","stats":{"a":"WIND","l":"Level 4","t":"Dragon / Normal","atk":1400,"def":1200},"rarity":"C","img":"87796900","code":"3","tcg":22609,"grp":298,"idx":2},
+    {"id":"E004","section":"main","num":"004","printed":"SDY-E004","name":"Summoned Skull","ctype":"monster","keywords":"Archfiend Fiend DARK Normal Monster","stats":{"a":"DARK","l":"Level 6","t":"Fiend / Normal","atk":2500,"def":1200},"rarity":"C","img":"70781052","code":"4","idx":3},
+    {"id":"005","section":"main","num":"005","printed":"SDY-005","name":"Beaver Warrior","ctype":"monster","keywords":"Beast-Warrior EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 4","t":"Beast-Warrior / Normal","atk":1200,"def":1500},"rarity":"C","img":"32452818","code":"5","tcg":22611,"grp":298,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"SDY-006","name":"Dark Magician","ctype":"monster","keywords":"Dark Magician Spellcaster DARK Normal Monster SDY-E005","stats":{"a":"DARK","l":"Level 7","t":"Spellcaster / Normal","atk":2500,"def":2100},"rarity":"UR","img":"46986414","code":"6","tcg":22612,"grp":298,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"SDY-007","name":"Gaia The Fierce Knight","ctype":"monster","keywords":"Gaia The Fierce Knight Warrior EARTH Normal Monster SDY-E006","stats":{"a":"EARTH","l":"Level 7","t":"Warrior / Normal","atk":2300,"def":2100},"rarity":"C","img":"6368038","code":"7","tcg":22613,"grp":298,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"SDY-008","name":"Curse of Dragon","ctype":"monster","keywords":"Gaia The Fierce Knight Dragon DARK Normal Monster SDY-E007","stats":{"a":"DARK","l":"Level 5","t":"Dragon / Normal","atk":2000,"def":1500},"rarity":"C","img":"28279543","code":"8","tcg":22614,"grp":298,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"SDY-009","name":"Celtic Guardian","ctype":"monster","keywords":"Celtic Guard Warrior EARTH Normal Monster SDY-E008","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Normal","atk":1400,"def":1200},"rarity":"C","img":"91152256","code":"9","tcg":22615,"grp":298,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"SDY-010","name":"Mammoth Graveyard","ctype":"monster","keywords":"Dinosaur EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 3","t":"Dinosaur / Normal","atk":1200,"def":800},"rarity":"C","img":"40374923","code":"10","tcg":22616,"grp":298,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"SDY-011","name":"Great White","ctype":"monster","keywords":"Shark Fish WATER Normal Monster SDY-E009","stats":{"a":"WATER","l":"Level 4","t":"Fish / Normal","atk":1600,"def":800},"rarity":"C","img":"13429800","code":"11","tcg":22617,"grp":298,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"SDY-012","name":"Silver Fang","ctype":"monster","keywords":"Beast EARTH Normal Monster SDY-E010","stats":{"a":"EARTH","l":"Level 3","t":"Beast / Normal","atk":1200,"def":800},"rarity":"C","img":"90357090","code":"12","tcg":22618,"grp":298,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"SDY-013","name":"Giant Soldier of Stone","ctype":"monster","keywords":"Rock EARTH Normal Monster SDY-E011","stats":{"a":"EARTH","l":"Level 3","t":"Rock / Normal","atk":1300,"def":2000},"rarity":"C","img":"13039848","code":"13","tcg":22619,"grp":298,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"SDY-014","name":"Dragon Zombie","ctype":"monster","keywords":"Zombie DARK Normal Monster SDY-E012","stats":{"a":"DARK","l":"Level 3","t":"Zombie / Normal","atk":1600,"def":0},"rarity":"C","img":"66672569","code":"14","tcg":22620,"grp":298,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"SDY-015","name":"Doma The Angel of Silence","ctype":"monster","keywords":"Fairy DARK Normal Monster SDY-E013","stats":{"a":"DARK","l":"Level 5","t":"Fairy / Normal","atk":1600,"def":1400},"rarity":"C","img":"16972957","code":"15","tcg":22621,"grp":298,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"SDY-016","name":"Ansatsu","ctype":"monster","keywords":"Warrior EARTH Normal Monster SDY-E014","stats":{"a":"EARTH","l":"Level 5","t":"Warrior / Normal","atk":1700,"def":1200},"rarity":"C","img":"48365709","code":"16","tcg":22622,"grp":298,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"SDY-017","name":"Witty Phantom","ctype":"monster","keywords":"Fiend DARK Normal Monster SDY-E015","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Normal","atk":1400,"def":1300},"rarity":"C","img":"36304921","code":"17","tcg":22623,"grp":298,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"SDY-018","name":"Claw Reacher","ctype":"monster","keywords":"Fiend DARK Normal Monster SDY-E016","stats":{"a":"DARK","l":"Level 3","t":"Fiend / Normal","atk":1000,"def":800},"rarity":"C","img":"41218256","code":"18","tcg":22624,"grp":298,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"SDY-019","name":"Mystic Clown","ctype":"monster","keywords":"Fiend DARK Normal Monster SDY-E017","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Normal","atk":1500,"def":1000},"rarity":"C","img":"47060154","code":"19","tcg":22625,"grp":298,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"SDY-020","name":"Sword of Dark Destruction","ctype":"spell","keywords":"Equip Spell SDY-E018","stats":{"t":"Equip Spell"},"rarity":"C","img":"37120512","code":"20","tcg":22626,"grp":298,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"SDY-021","name":"Book of Secret Arts","ctype":"spell","keywords":"Book of Equip Spell SDY-E019","stats":{"t":"Equip Spell"},"rarity":"C","img":"91595718","code":"21","tcg":22627,"grp":298,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"SDY-022","name":"Dark Hole","ctype":"spell","keywords":"Hole Normal Spell SDY-E020","stats":{"t":"Normal Spell"},"rarity":"C","img":"53129443","code":"22","tcg":22628,"grp":298,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"SDY-023","name":"Dian Keto the Cure Master","ctype":"spell","keywords":"Normal Spell SDY-E021","stats":{"t":"Normal Spell"},"rarity":"C","img":"84257640","code":"23","tcg":22629,"grp":298,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"SDY-024","name":"Ancient Elf","ctype":"monster","keywords":"Spellcaster LIGHT Normal Monster SDY-E022","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Normal","atk":1450,"def":1200},"rarity":"C","img":"93221206","code":"24","tcg":22630,"grp":298,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"SDY-025","name":"Magical Ghost","ctype":"monster","keywords":"Zombie DARK Normal Monster SDY-E023","stats":{"a":"DARK","l":"Level 4","t":"Zombie / Normal","atk":1300,"def":1400},"rarity":"C","img":"46474915","code":"25","tcg":22631,"grp":298,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"SDY-026","name":"Fissure","ctype":"spell","keywords":"Normal Spell SDY-E024","stats":{"t":"Normal Spell"},"rarity":"C","img":"66788016","code":"26","tcg":22632,"grp":298,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"SDY-027","name":"Trap Hole","ctype":"trap","keywords":"Hole Normal Trap SDY-E025","stats":{"t":"Normal Trap"},"rarity":"C","img":"4206964","code":"27","tcg":22633,"grp":298,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"SDY-028","name":"Two-Pronged Attack","ctype":"trap","keywords":"Normal Trap SDY-E026","stats":{"t":"Normal Trap"},"rarity":"C","img":"83887306","code":"28","tcg":22634,"grp":298,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"SDY-029","name":"De-Spell","ctype":"spell","keywords":"Normal Spell SDY-E027","stats":{"t":"Normal Spell"},"rarity":"C","img":"19159413","code":"29","tcg":22635,"grp":298,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"SDY-030","name":"Monster Reborn","ctype":"spell","keywords":"Normal Spell SDY-E028","stats":{"t":"Normal Spell"},"rarity":"C","img":"83764719","code":"30","tcg":22636,"grp":298,"idx":29},
+    {"id":"031","section":"main","num":"031","printed":"SDY-031","name":"Reinforcements","ctype":"trap","keywords":"Normal Trap SDY-E029","stats":{"t":"Normal Trap"},"rarity":"C","img":"17814387","code":"31","tcg":22637,"grp":298,"idx":30},
+    {"id":"032","section":"main","num":"032","printed":"SDY-032","name":"Change of Heart","ctype":"spell","keywords":"Normal Spell SDY-E030","stats":{"t":"Normal Spell"},"rarity":"C","img":"4031928","code":"32","tcg":22638,"grp":298,"idx":31},
+    {"id":"033","section":"main","num":"033","printed":"SDY-033","name":"The Stern Mystic","ctype":"monster","keywords":"Spellcaster LIGHT Flip Effect Monster SDY-E031","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Flip / Effect","atk":1500,"def":1200},"rarity":"C","img":"87557188","code":"33","tcg":22639,"grp":298,"idx":32},
+    {"id":"034","section":"main","num":"034","printed":"SDY-034","name":"Wall of Illusion","ctype":"monster","keywords":"Fiend DARK Effect Monster SDY-E032","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Effect","atk":1000,"def":1850},"rarity":"C","img":"13945283","code":"34","tcg":22640,"grp":298,"idx":33},
+    {"id":"035","section":"main","num":"035","printed":"SDY-035","name":"Neo the Magic Swordsman","ctype":"monster","keywords":"Spellcaster LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Normal","atk":1700,"def":1000},"rarity":"C","img":"50930991","code":"35","tcg":22641,"grp":298,"idx":34},
+    {"id":"036","section":"main","num":"036","printed":"SDY-036","name":"Baron of the Fiend Sword","ctype":"monster","keywords":"Fiend DARK Normal Monster SDY-E033","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Normal","atk":1550,"def":800},"rarity":"C","img":"86325596","code":"36","tcg":22642,"grp":298,"idx":35},
+    {"id":"037","section":"main","num":"037","printed":"SDY-037","name":"Man-Eating Treasure Chest","ctype":"monster","keywords":"Fiend DARK Normal Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Normal","atk":1600,"def":1000},"rarity":"C","img":"13723605","code":"37","tcg":22643,"grp":298,"idx":36},
+    {"id":"038","section":"main","num":"038","printed":"SDY-038","name":"Sorcerer of the Doomed","ctype":"monster","keywords":"Spellcaster DARK Normal Monster SDY-E034","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Normal","atk":1450,"def":1200},"rarity":"C","img":"49218300","code":"38","tcg":22644,"grp":298,"idx":37},
+    {"id":"039","section":"main","num":"039","printed":"SDY-039","name":"Last Will","ctype":"spell","keywords":"Normal Spell SDY-E035","stats":{"t":"Normal Spell"},"rarity":"C","img":"85602018","code":"39","tcg":22645,"grp":298,"idx":38},
+    {"id":"040","section":"main","num":"040","printed":"SDY-040","name":"Waboku","ctype":"trap","keywords":"Normal Trap SDY-E036","stats":{"t":"Normal Trap"},"rarity":"C","img":"12607053","code":"40","tcg":22646,"grp":298,"idx":39},
+    {"id":"041","section":"main","num":"041","printed":"SDY-041","name":"Soul Exchange","ctype":"spell","keywords":"Normal Spell SDY-E037","stats":{"t":"Normal Spell"},"rarity":"SR","img":"68005187","code":"41","tcg":22647,"grp":298,"idx":40},
+    {"id":"042","section":"main","num":"042","printed":"SDY-042","name":"Card Destruction","ctype":"spell","keywords":"Normal Spell SDY-E038","stats":{"t":"Normal Spell"},"rarity":"SR","img":"72892473","code":"42","tcg":22648,"grp":298,"idx":41},
+    {"id":"043","section":"main","num":"043","printed":"SDY-043","name":"Trap Master","ctype":"monster","keywords":"Warrior EARTH Flip Effect Monster SDY-E039","stats":{"a":"EARTH","l":"Level 3","t":"Warrior / Flip / Effect","atk":500,"def":1100},"rarity":"C","img":"46461247","code":"43","tcg":22649,"grp":298,"idx":42},
+    {"id":"044","section":"main","num":"044","printed":"SDY-044","name":"Dragon Capture Jar","ctype":"trap","keywords":"Continuous Trap SDY-E040","stats":{"t":"Continuous Trap"},"rarity":"C","img":"50045299","code":"44","tcg":22650,"grp":298,"idx":43},
+    {"id":"045","section":"main","num":"045","printed":"SDY-045","name":"Yami","ctype":"spell","keywords":"Field Spell SDY-E041","stats":{"t":"Field Spell"},"rarity":"C","img":"59197169","code":"45","tcg":22651,"grp":298,"idx":44},
+    {"id":"046","section":"main","num":"046","printed":"SDY-046","name":"Man-Eater Bug","ctype":"monster","keywords":"Insect EARTH Flip Effect Monster SDY-E042","stats":{"a":"EARTH","l":"Level 2","t":"Insect / Flip / Effect","atk":450,"def":600},"rarity":"C","img":"54652250","code":"46","tcg":22652,"grp":298,"idx":45},
+    {"id":"047","section":"main","num":"047","printed":"SDY-047","name":"Reverse Trap","ctype":"trap","keywords":"Normal Trap SDY-E043","stats":{"t":"Normal Trap"},"rarity":"C","img":"77622396","code":"47","tcg":22653,"grp":298,"idx":46},
+    {"id":"048","section":"main","num":"048","printed":"SDY-048","name":"Remove Trap","ctype":"spell","keywords":"Normal Spell SDY-E044","stats":{"t":"Normal Spell"},"rarity":"C","img":"51482758","code":"48","tcg":22654,"grp":298,"idx":47},
+    {"id":"049","section":"main","num":"049","printed":"SDY-049","name":"Castle Walls","ctype":"trap","keywords":"Normal Trap SDY-E045","stats":{"t":"Normal Trap"},"rarity":"C","img":"44209392","code":"49","tcg":22655,"grp":298,"idx":48},
+    {"id":"050","section":"main","num":"050","printed":"SDY-050","name":"Ultimate Offering","ctype":"trap","keywords":"Continuous Trap SDY-E046","stats":{"t":"Continuous Trap"},"rarity":"C","img":"80604092","code":"50","tcg":22656,"grp":298,"idx":49}
+  ]
+}

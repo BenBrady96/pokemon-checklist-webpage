@@ -1,8 +1,8 @@
 <!doctype html>
-<html lang="en-GB" data-collection="{{id}}">
+<html lang="en-GB" data-collection="{{id}}" data-game="{{game}}">
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'wasm-unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https://assets.tcgdex.net; media-src 'self' blob:; connect-src 'self' https://assets.tcgdex.net; worker-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self';">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'wasm-unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https://assets.tcgdex.net https://img.bindertracker.co.uk; media-src 'self' blob:; connect-src 'self' https://assets.tcgdex.net https://img.bindertracker.co.uk; worker-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self';">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>{{title}}</title>
   <meta name="description" content="{{description}}">
@@ -142,12 +142,12 @@
 <div class="topbar" id="topbar">
   <header class="appbar" id="appbar">
     <div class="wrap appbar__inner">
-      <a class="brand" href="./" title="Binder Tracker: all sets">
+      <a class="brand" href="./" title="Binder Tracker: home">
         <svg class="brand__mark" aria-hidden="true"><use href="#logo-mark"/></svg>
         <span class="brand__title">Binder Tracker</span>
       </a>
       <nav class="site-nav" aria-label="Main">
-        <a href="./" title="Home"><svg aria-hidden="true"><use href="#i-home"/></svg><span class="site-nav__label">Home</span></a>
+        <a href="{{gameHome}}" title="All {{gameName}} sets"><svg aria-hidden="true"><use href="#i-home"/></svg><span class="site-nav__label">Home</span></a>
         <a class="desktop-only" href="trade/" title="Trade"><svg aria-hidden="true"><use href="#i-swap"/></svg><span class="site-nav__label">Trade</span></a>
       </nav>
       <label class="search search--desktop desktop-only">
@@ -258,7 +258,7 @@
   <div class="set-hero__id">
     {{{setArt}}}
     <h1 class="set-hero__title" id="set-title">{{name}} <span class="set-hero__suffix">checklist</span></h1>
-    <p class="set-hero__meta">{{setMeta}}</p>
+    <p class="set-hero__meta">{{{setMeta}}}</p>
   </div>
   <div class="set-hero__side">
     <button class="set-progress" type="button" data-open="stats" aria-label="Collection progress: open statistics">
@@ -295,8 +295,7 @@
 
 <footer class="site-footer wrap">
   <nav class="footer-links" aria-label="Site">
-    <a href="guides/fake-pokemon-cards/">Spot fake cards</a>
-    <a href="privacy.html">Privacy &amp; cookies</a>
+{{{footerGuides}}}    <a href="privacy.html">Privacy &amp; cookies</a>
     <a href="terms.html">Terms of use</a>
     <a href="https://github.com/BenBrady96/pokemon-checklist-webpage" rel="noopener">Source on GitHub</a>
   </nav>
@@ -332,7 +331,7 @@
       <button type="button" class="viewer__nav viewer__nav--next" data-viewer="next" aria-label="Next card"><svg><use href="#i-chevron-right"/></svg></button>
     </div>
     <div class="viewer__info">
-      <p class="viewer__meta"><span data-viewer="num"></span><span class="viewer__rarity"><svg class="rar" data-viewer="rarity-icon"><use href="#r-common"/></svg><span data-viewer="rarity"></span></span></p>
+      <p class="viewer__meta"><span data-viewer="num"></span><span class="viewer__rarity"><span class="viewer__rarity-mark" data-viewer="rarity-icon"></span><span data-viewer="rarity"></span></span></p>
       <h2 class="viewer__name" id="viewer-name" data-viewer="name"></h2>
       <p class="viewer__note" data-viewer="note" hidden></p>
       <div class="viewer__actions">
@@ -371,6 +370,10 @@
             <button type="button" class="seg__btn" data-filter="status" data-value="missing">Missing</button>
             <button type="button" class="seg__btn" data-filter="status" data-value="dupes">Dupes</button>
           </div>
+        </section>
+        <section class="field" id="ctype-field" hidden>
+          <h3 class="field__label">Card type</h3>
+          <div class="chips" id="ctype-chips"></div>
         </section>
         <section class="field" id="rarity-field">
           <h3 class="field__label">Rarity</h3>
@@ -454,8 +457,7 @@
       </div>
       <div class="menu__group">
         <button type="button" class="menu__item" data-open="help"><svg><use href="#i-help"/></svg><span><b>Help &amp; shortcuts</b><small>Gestures, keyboard shortcuts and tips</small></span></button>
-        <a class="menu__item" href="guides/fake-pokemon-cards/"><svg><use href="#i-shield"/></svg><span><b>Spot fake cards</b><small>How to tell a real Pokémon card from a fake</small></span></a>
-        <a class="menu__item" href="https://brtradingpost.co.uk/shop/" rel="noopener"><svg><use href="#i-bag"/></svg><span><b>Visit our shop</b><small>BR Trading Post: cards and custom painted binders</small></span></a>
+{{{menuGuides}}}        <a class="menu__item" href="https://brtradingpost.co.uk/shop/" rel="noopener"><svg><use href="#i-bag"/></svg><span><b>Visit our shop</b><small>BR Trading Post: cards and custom painted binders</small></span></a>
         <button type="button" class="menu__item menu__item--danger" data-action="reset"><svg><use href="#i-trash"/></svg><span><b>Reset this set</b><small>Unmark every card in it (you can undo)</small></span></button>
       </div>
     </div>
@@ -747,11 +749,7 @@
         <li>Use <b>Export or share</b> with <b>Whole collection</b> now and then to save a file or copy a link or code. <b>Import</b> on another device takes the link, code, QR code or file.</li>
         <li><b>On iPhone and iPad</b>, tap Share → <b>Add to Home Screen</b>. Safari can clear saved data for websites you haven’t visited in a while, but not for apps on your Home Screen, and the app also works offline. The app keeps its own collection, separate from Safari’s, so use <b>Import</b> to move your cards into it.</li>
       </ul>
-      <h3>Buying and trading cards</h3>
-      <ul>
-        <li>Not sure a card is real? Read <a href="guides/fake-pokemon-cards/">how to spot fake Pokémon cards</a> before you buy or trade.</li>
-      </ul>
-      <p class="hint hint--small">Read the <a href="privacy.html">privacy &amp; cookie policy</a> and <a href="terms.html">terms of use</a>.</p>
+{{{helpGuides}}}      <p class="hint hint--small">Read the <a href="privacy.html">privacy &amp; cookie policy</a> and <a href="terms.html">terms of use</a>.</p>
     </div>
   </div>
 </dialog>

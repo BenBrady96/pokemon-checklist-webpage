@@ -1,0 +1,90 @@
+{
+  "id": "yugioh/duelist-pack-jaden-yuki",
+  "game": "yugioh",
+  "slug": "duelist-pack-jaden-yuki",
+  "name": "Duelist Pack: Jaden Yuki",
+  "series": "GX",
+  "kind": "pack",
+  "code": "DP1",
+  "syncKey": "YDP1",
+  "released": "2006-02-08",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "DP1-EN001–DP1-EN030",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from DP1-EN001 to DP1-EN030."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Duelist Pack: Jaden Yuki Checklist · All 30 Cards",
+    "description": "Free Yu-Gi-Oh! Duelist Pack: Jaden Yuki checklist with no ads, no sign-up and no tracking. Track all 30 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Duelist Pack: Jaden Yuki Checklist",
+    "ogDescription": "Track all 30 cards in Yu-Gi-Oh! Duelist Pack: Jaden Yuki. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 30 cards in Yu-Gi-Oh! Duelist Pack: Jaden Yuki. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Duelist Pack: Jaden Yuki",
+    "paragraphs": [
+      "Duelist Pack: Jaden Yuki is a Yu-Gi-Oh! TCG pack released on 8 February 2006, in the GX era. It has 30 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Duelist Pack: Jaden Yuki"
+    ],
+    "tcgplayer": [
+      193
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"DP1-EN001","name":"Elemental HERO Avian","ctype":"monster","keywords":"Elemental HERO Warrior WIND Normal Monster","stats":{"a":"WIND","l":"Level 3","t":"Warrior / Normal","atk":1000,"def":1000},"rarity":"C","img":"21844576","code":"1","tcg":25059,"grp":193,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"DP1-EN002","name":"Elemental HERO Burstinatrix","ctype":"monster","keywords":"Elemental HERO Warrior FIRE Normal Monster","stats":{"a":"FIRE","l":"Level 3","t":"Warrior / Normal","atk":1200,"def":800},"rarity":"C","img":"58932615","code":"2","tcg":25060,"grp":193,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"DP1-EN003","name":"Elemental HERO Clayman","ctype":"monster","keywords":"Elemental HERO Warrior EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Normal","atk":800,"def":2000},"rarity":"C","img":"84327329","code":"3","tcg":25061,"grp":193,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"DP1-EN004","name":"Elemental HERO Sparkman","ctype":"monster","keywords":"Elemental HERO Warrior LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Normal","atk":1600,"def":1400},"rarity":"C","img":"20721928","code":"4","tcg":25062,"grp":193,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"DP1-EN005","name":"Winged Kuriboh","ctype":"monster","keywords":"Kuriboh Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Fairy / Effect","atk":300,"def":200},"rarity":"R","img":"57116033","code":"5","tcg":25063,"grp":193,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"DP1-EN006","name":"Winged Kuriboh LV10","ctype":"monster","keywords":"Kuriboh Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 10","t":"Fairy / Effect","atk":300,"def":200},"rarity":"R","img":"98585345","code":"6","tcg":25064,"grp":193,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"DP1-EN007","name":"Wroughtweiler","ctype":"monster","keywords":"Elemental HERO Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Machine / Effect","atk":800,"def":1200},"rarity":"C","img":"6480253","code":"7","tcg":25065,"grp":193,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"DP1-EN008","name":"Dark Catapulter","ctype":"monster","keywords":"Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Machine / Effect","atk":1000,"def":1500},"rarity":"C","img":"33875961","code":"8","tcg":25066,"grp":193,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"DP1-EN009","name":"Elemental HERO Bubbleman","ctype":"monster","keywords":"Elemental HERO Warrior WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Warrior / Effect","atk":800,"def":1200},"rarity":"C","img":"79979666","code":"9","tcg":25067,"grp":193,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"DP1-EN010","name":"Elemental HERO Flame Wingman","ctype":"monster","keywords":"Elemental HERO Warrior WIND Fusion Monster","stats":{"a":"WIND","l":"Level 6","t":"Warrior / Fusion","atk":2100,"def":1200},"rarity":"SR","img":"35809262","code":"10","tcg":25068,"grp":193,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"DP1-EN011","name":"Elemental HERO Thunder Giant","ctype":"monster","keywords":"Elemental HERO Warrior LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Warrior / Fusion","atk":2400,"def":1500},"rarity":"R","img":"61204971","code":"11","tcg":25069,"grp":193,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"DP1-EN012","name":"Elemental HERO Rampart Blaster","ctype":"monster","keywords":"Elemental HERO Warrior EARTH Fusion Monster","stats":{"a":"EARTH","l":"Level 6","t":"Warrior / Fusion","atk":2000,"def":2500},"rarity":"R","img":"47737087","code":"12","tcg":25070,"grp":193,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"DP1-EN013","name":"Elemental HERO Steam Healer","ctype":"monster","keywords":"Elemental HERO Warrior WATER Fusion Monster","stats":{"a":"WATER","l":"Level 5","t":"Warrior / Fusion","atk":1800,"def":1000},"rarity":"UR","img":"81197327","code":"13","tcg":25071,"grp":193,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"DP1-EN014","name":"Polymerization","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"24094653","code":"14","tcg":25072,"grp":193,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"DP1-EN015","name":"Fusion Sage","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"26902560","code":"15","tcg":25073,"grp":193,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"DP1-EN016","name":"The Warrior Returning Alive","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"95281259","code":"16","tcg":25074,"grp":193,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"DP1-EN017","name":"Feather Shot","ctype":"spell","keywords":"Elemental HERO Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"19394153","code":"17","tcg":25075,"grp":193,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"DP1-EN018","name":"Transcendent Wings","ctype":"spell","keywords":"Kuriboh Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"25573054","code":"18","tcg":25076,"grp":193,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"DP1-EN019","name":"Bubble Shuffle","ctype":"spell","keywords":"Elemental HERO Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"61968753","code":"19","tcg":25077,"grp":193,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"DP1-EN020","name":"Spark Blaster","ctype":"spell","keywords":"Elemental HERO Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"97362768","code":"20","tcg":25078,"grp":193,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"DP1-EN021","name":"Skyscraper","ctype":"spell","keywords":"Elemental HERO Field Spell","stats":{"t":"Field Spell"},"rarity":"R","img":"63035430","code":"21","tcg":25079,"grp":193,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"DP1-EN022","name":"Burst Return","ctype":"spell","keywords":"Elemental HERO Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"27191436","code":"22","tcg":25080,"grp":193,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"DP1-EN023","name":"Bubble Blaster","ctype":"spell","keywords":"Elemental HERO Equip Spell","stats":{"t":"Equip Spell"},"rarity":"SR","img":"53586134","code":"23","tcg":25081,"grp":193,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"DP1-EN024","name":"Bubble Illusion","ctype":"spell","keywords":"Elemental HERO Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"UR","img":"80075749","code":"24","tcg":25082,"grp":193,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"DP1-EN025","name":"A Hero Emerges","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"21597117","code":"25","tcg":25083,"grp":193,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"DP1-EN026","name":"Draining Shield","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"43250041","code":"26","tcg":25084,"grp":193,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"DP1-EN027","name":"Negate Attack","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"R","img":"14315573","code":"27","tcg":25085,"grp":193,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"DP1-EN028","name":"Hero Signal","ctype":"trap","keywords":"Elemental HERO Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"22020907","code":"28","tcg":25086,"grp":193,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"DP1-EN029","name":"Feather Wind","ctype":"trap","keywords":"Elemental HERO Counter Trap","stats":{"t":"Counter Trap"},"rarity":"R","img":"71060915","code":"29","tcg":25087,"grp":193,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"DP1-EN030","name":"Clay Charge","ctype":"trap","keywords":"Elemental HERO Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"22479888","code":"30","tcg":25088,"grp":193,"idx":29}
+  ]
+}

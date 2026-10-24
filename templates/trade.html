@@ -2,10 +2,10 @@
 <html lang="en-GB">
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'wasm-unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https://assets.tcgdex.net; media-src 'self' blob:; connect-src 'self' https://assets.tcgdex.net; worker-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self';">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'wasm-unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https://assets.tcgdex.net https://img.bindertracker.co.uk; media-src 'self' blob:; connect-src 'self' https://assets.tcgdex.net https://img.bindertracker.co.uk; worker-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self';">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>Pokémon Card Trade Checker · Compare Collections &amp; Check a Trade Is Fair | Binder Tracker</title>
-  <meta name="description" content="Free Pokémon card trade checker with no ads, no sign-up and no tracking. Compare collections with a friend, see what each of you needs and check a trade is fair with TCGplayer market prices.">
+  <title>{{names}} Card Trade Checker · Compare Collections &amp; Check a Trade Is Fair | Binder Tracker</title>
+  <meta name="description" content="Free {{names}} card trade checker with no ads, no sign-up and no tracking. Compare collections with a friend, see what each of you needs and check a trade is fair with TCGplayer market prices.">
   <meta name="robots" content="index, follow, max-image-preview:large">
   <link rel="canonical" href="https://bindertracker.co.uk/trade/">
   <meta name="theme-color" content="#F7F7F8" media="(prefers-color-scheme: light)">
@@ -13,19 +13,19 @@
   <meta name="color-scheme" content="light dark">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Binder Tracker">
-  <meta property="og:title" content="Pokémon Card Trade Checker · Binder Tracker">
-  <meta property="og:description" content="Compare Pokémon TCG collections with a friend, see what each of you needs and check a trade is fair with TCGplayer market prices. Free, with no ads, no sign-up and no tracking.">
+  <meta property="og:title" content="{{names}} Card Trade Checker · Binder Tracker">
+  <meta property="og:description" content="Compare {{tcg}} collections with a friend, see what each of you needs and check a trade is fair with TCGplayer market prices. Free, with no ads, no sign-up and no tracking.">
   <meta property="og:url" content="https://bindertracker.co.uk/trade/">
   <meta property="og:image" content="https://bindertracker.co.uk/img/og-image.jpg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="Binder Tracker: compare Pokémon card collections and check a trade is fair">
+  <meta property="og:image:alt" content="Binder Tracker: compare {{names}} card collections and check a trade is fair">
   <meta property="og:locale" content="en_GB">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Pokémon Card Trade Checker · Binder Tracker">
+  <meta name="twitter:title" content="{{names}} Card Trade Checker · Binder Tracker">
   <meta name="twitter:description" content="Compare collections with a friend and check a trade is fair. No ads, no sign-up, no tracking.">
   <meta name="twitter:image" content="https://bindertracker.co.uk/img/og-image.jpg">
-  <meta name="twitter:image:alt" content="Binder Tracker: compare Pokémon card collections and check a trade is fair">
+  <meta name="twitter:image:alt" content="Binder Tracker: compare {{names}} card collections and check a trade is fair">
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="icon" href="img/icons/favicon.svg" type="image/svg+xml">
   <link rel="icon" href="img/icons/favicon-32.png" sizes="32x32" type="image/png">
@@ -43,8 +43,8 @@
         "@type": "WebPage",
         "@id": "https://bindertracker.co.uk/trade/#page",
         "url": "https://bindertracker.co.uk/trade/",
-        "name": "Pokémon Card Trade Checker",
-        "description": "Compare Pokémon TCG collections with a friend, see what each of you needs and check a trade is fair with TCGplayer market prices.",
+        "name": "{{names}} Card Trade Checker",
+        "description": "Compare {{tcg}} collections with a friend, see what each of you needs and check a trade is fair with TCGplayer market prices.",
         "inLanguage": "en-GB",
         "isPartOf": { "@id": "https://bindertracker.co.uk/#website" },
         "breadcrumb": { "@id": "https://bindertracker.co.uk/trade/#breadcrumb" },
@@ -252,8 +252,8 @@
 </main>
 
 <section class="about wrap" aria-labelledby="trade-about-title">
-  <h2 class="about__title" id="trade-about-title">Pokémon card trade checker</h2>
-  <p>Binder Tracker’s trade checker compares your Pokémon TCG collection with a friend’s. It shows the cards each of you has that the other is missing, and checks a trade is fair with TCGplayer market prices. It’s free, with <b>no ads, no sign-up and no tracking</b>.</p>
+  <h2 class="about__title" id="trade-about-title">{{names}} card trade checker</h2>
+  <p>Binder Tracker’s trade checker compares your {{tcg}} collection with a friend’s. It shows the cards each of you has that the other is missing, and checks a trade is fair with TCGplayer market prices. It’s free, with <b>no ads, no sign-up and no tracking</b>.</p>
   <h3 class="about__sub">How it works</h3>
   <ol class="about__steps">
     <li><b>Swap trade codes.</b> Show your code and scan your friend’s, or send it as a link. You’ll both see what each of you has that the other needs.</li>
@@ -284,8 +284,7 @@
 
 <footer class="site-footer wrap">
   <nav class="footer-links" aria-label="Site">
-    <a href="guides/fake-pokemon-cards/">Spot fake cards</a>
-    <a href="privacy.html">Privacy &amp; cookies</a>
+{{{footerGuides}}}    <a href="privacy.html">Privacy &amp; cookies</a>
     <a href="terms.html">Terms of use</a>
     <a href="https://github.com/BenBrady96/pokemon-checklist-webpage" rel="noopener">Source on GitHub</a>
   </nav>

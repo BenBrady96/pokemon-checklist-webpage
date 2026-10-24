@@ -1,0 +1,121 @@
+{
+  "id": "yugioh/structure-deck-blue-eyes-white-destiny",
+  "game": "yugioh",
+  "slug": "structure-deck-blue-eyes-white-destiny",
+  "name": "Structure Deck: Blue-Eyes White Destiny",
+  "series": "SEVENS & GO RUSH!!",
+  "kind": "deck",
+  "code": "SDWD",
+  "syncKey": "YSDWD",
+  "released": "2025-02-13",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "SDWD-EN001–SDWD-EN043",
+      "tier": "standard"
+    },
+    {
+      "id": "rarities",
+      "name": "Other Rarities",
+      "short": "Other Rarities",
+      "range": "6 cards",
+      "tier": "master"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Main set"
+    ],
+    [
+      "rarities",
+      "Other rarities"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, SCR12, 60x2",
+    "example": "1-20, 45x2, SCR12",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies. Other rarities use their short name and number: <b>SCR12</b> is card 12’s Secret Rare, and ranges work too (<b>QCSR1-QCSR20</b>).",
+    "empty": "Cards run from SDWD-EN001 to SDWD-EN043."
+  },
+  "help": {
+    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 43 cards, each in its main rarity. Master adds the 6 other rarities. Cards you’ve marked are kept when you switch."
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Structure Deck: Blue-Eyes White Destiny Checklist · All 43 Cards",
+    "description": "Free Yu-Gi-Oh! Structure Deck: Blue-Eyes White Destiny checklist with no ads, no sign-up and no tracking. Track all 43 cards, or every rarity for a master set, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Structure Deck: Blue-Eyes White Destiny Checklist",
+    "ogDescription": "Track all 43 cards in Yu-Gi-Oh! Structure Deck: Blue-Eyes White Destiny, plus 6 other rarities. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 43 cards in Yu-Gi-Oh! Structure Deck: Blue-Eyes White Destiny. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Structure Deck: Blue-Eyes White Destiny",
+    "paragraphs": [
+      "Structure Deck: Blue-Eyes White Destiny is a Yu-Gi-Oh! TCG deck released on 13 February 2025, in the SEVENS &amp; GO RUSH!! era. It has 43 cards, and with the 6 other rarities there are 49 to collect in all.",
+      "Choose what you’re collecting: the <b>Standard set</b> (the 43 cards, each in its main rarity) or the <b>Master set</b> (all 49, adding the 6 other rarities).",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Structure Deck: Blue-Eyes White Destiny"
+    ],
+    "tcgplayer": [
+      23768
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"SDWD-EN001","name":"Blue-Eyes White Dragon","ctype":"monster","keywords":"Blue-Eyes Dragon LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Normal","atk":3000,"def":2500},"rarity":"C","img":"89631140","code":"1","tcg":616558,"grp":23768,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"SDWD-EN002","name":"Blue-Eyes White Dragon","ctype":"monster","keywords":"Blue-Eyes Dragon LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Normal","atk":3000,"def":2500},"rarity":"C","img":"89631141","code":"2","tcg":616559,"grp":23768,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"SDWD-EN003","name":"Blue-Eyes White Dragon","ctype":"monster","keywords":"Blue-Eyes Dragon LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Normal","atk":3000,"def":2500},"rarity":"C","img":"89631145","code":"3","tcg":616560,"grp":23768,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"SDWD-EN004","name":"Neo Kaiser Sea Horse","ctype":"monster","keywords":"Dragon LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Dragon / Tuner","atk":1700,"def":1650},"rarity":"SR","img":"54332792","code":"4","tcg":616561,"grp":23768,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"SDWD-EN005","name":"Blue-Eyes Alternative White Dragon","ctype":"monster","keywords":"Blue-Eyes Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Effect","atk":3000,"def":2500},"rarity":"C","img":"38517737","code":"5","tcg":616562,"grp":23768,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"SDWD-EN006","name":"Blue-Eyes Jet Dragon","ctype":"monster","keywords":"Blue-Eyes Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Effect","atk":3000,"def":0},"rarity":"C","img":"30576089","code":"6","tcg":616563,"grp":23768,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"SDWD-EN007","name":"Blue-Eyes Abyss Dragon","ctype":"monster","keywords":"Blue-Eyes Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Effect","atk":2500,"def":2500},"rarity":"C","img":"64202399","code":"7","tcg":616564,"grp":23768,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"SDWD-EN008","name":"Dragon Spirit of White","ctype":"monster","keywords":"Blue-Eyes Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Effect","atk":2500,"def":2000},"rarity":"C","img":"45467446","code":"8","tcg":616565,"grp":23768,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"SDWD-EN009","name":"Blue-Eyes Chaos MAX Dragon","ctype":"monster","keywords":"Blue-Eyes Dragon DARK Ritual Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Dragon / Ritual / Effect","atk":4000,"def":0},"rarity":"C","img":"55410871","code":"9","tcg":616566,"grp":23768,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"SDWD-EN010","name":"Blue-Eyes Chaos Dragon","ctype":"monster","keywords":"Blue-Eyes Dragon DARK Ritual Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Dragon / Ritual / Effect","atk":3000,"def":0},"rarity":"C","img":"20654247","code":"10","tcg":616567,"grp":23768,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"SDWD-EN011","name":"The White Stone of Legend","ctype":"monster","keywords":"Blue-Eyes Dragon LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Dragon / Tuner","atk":300,"def":250},"rarity":"C","img":"79814787","code":"11","tcg":616568,"grp":23768,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"SDWD-EN012","name":"The White Stone of Ancients","ctype":"monster","keywords":"Blue-Eyes Dragon LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Dragon / Tuner","atk":600,"def":500},"rarity":"C","img":"71039903","code":"12","tcg":616569,"grp":23768,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"SDWD-EN013","name":"Sage with Eyes of Blue","ctype":"monster","keywords":"Blue-Eyes Spellcaster LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Spellcaster / Tuner","atk":0,"def":1500},"rarity":"C","img":"8240199","code":"13","tcg":616570,"grp":23768,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"SDWD-EN014","name":"Master with Eyes of Blue","ctype":"monster","keywords":"Blue-Eyes Spellcaster LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Spellcaster / Tuner","atk":300,"def":1200},"rarity":"C","img":"45644898","code":"14","tcg":616571,"grp":23768,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"SDWD-EN015","name":"Dictator of D.","ctype":"monster","keywords":"Blue-Eyes Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Effect","atk":1200,"def":1100},"rarity":"C","img":"66961194","code":"15","tcg":616572,"grp":23768,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"SDWD-EN016","name":"Nibiru, the Primal Being","ctype":"monster","keywords":"Rock LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 11","t":"Rock / Effect","atk":3000,"def":600},"rarity":"C","img":"27204311","code":"16","tcg":616573,"grp":23768,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"SDWD-EN017","name":"Ash Blossom & Joyous Spring","ctype":"monster","keywords":"Zombie FIRE Tuner Monster","stats":{"a":"FIRE","l":"Level 3","t":"Zombie / Tuner","atk":0,"def":1800},"rarity":"C","img":"14558127","code":"17","tcg":616574,"grp":23768,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"SDWD-EN018","name":"Effect Veiler","ctype":"monster","keywords":"Spellcaster LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Spellcaster / Tuner","atk":0,"def":0},"rarity":"C","img":"97268402","code":"18","tcg":616575,"grp":23768,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"SDWD-EN019","name":"Roar of the Blue-Eyed Dragons","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"17725109","code":"19","tcg":616576,"grp":23768,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"SDWD-EN020","name":"Chaos Form","ctype":"spell","keywords":"Blue-Eyes Ritual Spell","stats":{"t":"Ritual Spell"},"rarity":"C","img":"21082832","code":"20","tcg":616577,"grp":23768,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"SDWD-EN021","name":"Ultimate Fusion","ctype":"spell","keywords":"Blue-Eyes Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"71143015","code":"21","tcg":616578,"grp":23768,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"SDWD-EN022","name":"The Melody of Awakening Dragon","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"48800175","code":"22","tcg":616579,"grp":23768,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"SDWD-EN023","name":"Mausoleum of White","ctype":"spell","keywords":"Field Spell","stats":{"t":"Field Spell"},"rarity":"C","img":"24382602","code":"23","tcg":616580,"grp":23768,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"SDWD-EN024","name":"Burst Stream of Destruction","ctype":"spell","keywords":"Blue-Eyes Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"17655904","code":"24","tcg":616581,"grp":23768,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"SDWD-EN025","name":"Trade-In","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"38120068","code":"25","tcg":616582,"grp":23768,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"SDWD-EN026","name":"Called by the Grave","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"24224830","code":"26","tcg":616583,"grp":23768,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"SDWD-EN027","name":"Majesty of the White Dragons","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"43219114","code":"27","tcg":616584,"grp":23768,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"SDWD-EN028","name":"True Light","ctype":"trap","keywords":"Blue-Eyes Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"62089826","code":"28","tcg":616585,"grp":23768,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"SDWD-EN029","name":"The Ultimate Creature of Destruction","ctype":"trap","keywords":"Blue-Eyes Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"56920308","code":"29","tcg":616586,"grp":23768,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"SDWD-EN030","name":"Destined Rivals","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"22634473","code":"30","tcg":616587,"grp":23768,"idx":29},
+    {"id":"031","section":"main","num":"031","printed":"SDWD-EN031","name":"Infinite Impermanence","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"10045474","code":"31","tcg":616588,"grp":23768,"idx":30},
+    {"id":"032","section":"main","num":"032","printed":"SDWD-EN032","name":"Indigo-Eyes Silver Dragon","ctype":"monster","keywords":"Dragon LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 8","t":"Dragon / Xyz","atk":4000,"def":0},"rarity":"UR","img":"16699558","code":"32","tcg":616589,"grp":23768,"idx":31},
+    {"id":"033","section":"main","num":"033","printed":"SDWD-EN033","name":"Spirit with Eyes of Blue","ctype":"monster","keywords":"with Eyes of Blue Dragon LIGHT Link Monster","stats":{"a":"LIGHT","l":"Link 1","t":"Dragon / Link","atk":300},"rarity":"UR","img":"42097666","code":"33","tcg":616590,"grp":23768,"idx":32},
+    {"id":"034","section":"main","num":"034","printed":"SDWD-EN034","name":"Blue-Eyes Ultimate Dragon","ctype":"monster","keywords":"Blue-Eyes Dragon LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 12","t":"Dragon / Fusion","atk":4500,"def":3800},"rarity":"C","img":"23995346","code":"34","tcg":616591,"grp":23768,"idx":33},
+    {"id":"035","section":"main","num":"035","printed":"SDWD-EN035","name":"Neo Blue-Eyes Ultimate Dragon","ctype":"monster","keywords":"Blue-Eyes Dragon LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 12","t":"Dragon / Fusion","atk":4500,"def":3800},"rarity":"C","img":"56532353","code":"35","tcg":616592,"grp":23768,"idx":34},
+    {"id":"036","section":"main","num":"036","printed":"SDWD-EN036","name":"Blue-Eyes Twin Burst Dragon","ctype":"monster","keywords":"Blue-Eyes Dragon LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 10","t":"Dragon / Fusion","atk":3000,"def":2500},"rarity":"C","img":"2129638","code":"36","tcg":616593,"grp":23768,"idx":35},
+    {"id":"037","section":"main","num":"037","printed":"SDWD-EN037","name":"Blue-Eyes Tyrant Dragon","ctype":"monster","keywords":"Blue-Eyes Dragon LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Fusion","atk":3400,"def":2900},"rarity":"C","img":"11443677","code":"37","tcg":616594,"grp":23768,"idx":36},
+    {"id":"038","section":"main","num":"038","printed":"SDWD-EN038","name":"Blue-Eyes Spirit Dragon","ctype":"monster","keywords":"Blue-Eyes Dragon LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 9","t":"Dragon / Synchro","atk":2500,"def":3000},"rarity":"C","img":"59822133","code":"38","tcg":616595,"grp":23768,"idx":37},
+    {"id":"039","section":"main","num":"039","printed":"SDWD-EN039","name":"Azure-Eyes Silver Dragon","ctype":"monster","keywords":"Dragon LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 9","t":"Dragon / Synchro","atk":2500,"def":3000},"rarity":"C","img":"40908371","code":"39","tcg":616596,"grp":23768,"idx":38},
+    {"id":"040","section":"main","num":"040","printed":"SDWD-EN040","name":"Hieratic Seal of the Heavenly Spheres","ctype":"monster","keywords":"Hieratic Dragon LIGHT Link Monster","stats":{"a":"LIGHT","l":"Link 2","t":"Dragon / Link","atk":0},"rarity":"C","img":"24361622","code":"40","tcg":616597,"grp":23768,"idx":39},
+    {"id":"041","section":"main","num":"041","printed":"SDWD-EN041","name":"Maiden of White","ctype":"monster","keywords":"Spellcaster LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Spellcaster / Tuner","atk":0,"def":0},"rarity":"UR","img":"17947697","code":"41","tcg":616598,"grp":23768,"idx":40},
+    {"id":"041-scr","section":"rarities","num":"041","printed":"SDWD-EN041","name":"Maiden of White","ctype":"monster","keywords":"Spellcaster LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Spellcaster / Tuner","atk":0,"def":0},"rarity":"ScR","img":"17947697","badge":"ScR","variant":"Secret Rare","code":"SCR41","tcg":616552,"grp":23768,"idx":41},
+    {"id":"041-qcsr","section":"rarities","num":"041","printed":"SDWD-EN041","name":"Maiden of White","ctype":"monster","keywords":"Spellcaster LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Spellcaster / Tuner","atk":0,"def":0},"rarity":"QCSR","img":"17947697","badge":"QCSR","variant":"Quarter Century Secret Rare","code":"QCSR41","tcg":616553,"grp":23768,"idx":42},
+    {"id":"042","section":"main","num":"042","printed":"SDWD-EN042","name":"Wishes for Eyes of Blue","ctype":"spell","keywords":"with Eyes of Blue Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UR","img":"80326401","code":"42","tcg":616599,"grp":23768,"idx":43},
+    {"id":"042-scr","section":"rarities","num":"042","printed":"SDWD-EN042","name":"Wishes for Eyes of Blue","ctype":"spell","keywords":"with Eyes of Blue Normal Spell","stats":{"t":"Normal Spell"},"rarity":"ScR","img":"80326401","badge":"ScR","variant":"Secret Rare","code":"SCR42","tcg":616554,"grp":23768,"idx":44},
+    {"id":"042-qcsr","section":"rarities","num":"042","printed":"SDWD-EN042","name":"Wishes for Eyes of Blue","ctype":"spell","keywords":"with Eyes of Blue Normal Spell","stats":{"t":"Normal Spell"},"rarity":"QCSR","img":"80326401","badge":"QCSR","variant":"Quarter Century Secret Rare","code":"QCSR42","tcg":616555,"grp":23768,"idx":45},
+    {"id":"043","section":"main","num":"043","printed":"SDWD-EN043","name":"Blue-Eyes Ultimate Spirit Dragon","ctype":"monster","keywords":"Blue-Eyes Dragon LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 12","t":"Dragon / Synchro","atk":3500,"def":4000},"rarity":"UR","img":"89604813","code":"43","tcg":616600,"grp":23768,"idx":46},
+    {"id":"043-scr","section":"rarities","num":"043","printed":"SDWD-EN043","name":"Blue-Eyes Ultimate Spirit Dragon","ctype":"monster","keywords":"Blue-Eyes Dragon LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 12","t":"Dragon / Synchro","atk":3500,"def":4000},"rarity":"ScR","img":"89604813","badge":"ScR","variant":"Secret Rare","code":"SCR43","tcg":616556,"grp":23768,"idx":47},
+    {"id":"043-qcsr","section":"rarities","num":"043","printed":"SDWD-EN043","name":"Blue-Eyes Ultimate Spirit Dragon","ctype":"monster","keywords":"Blue-Eyes Dragon LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 12","t":"Dragon / Synchro","atk":3500,"def":4000},"rarity":"QCSR","img":"89604813","badge":"QCSR","variant":"Quarter Century Secret Rare","code":"QCSR43","tcg":616557,"grp":23768,"idx":48}
+  ]
+}

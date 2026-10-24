@@ -1,0 +1,111 @@
+{
+  "id": "yugioh/dragons-of-legend",
+  "game": "yugioh",
+  "slug": "dragons-of-legend",
+  "name": "Dragons of Legend",
+  "series": "ZEXAL",
+  "kind": "set",
+  "code": "DRLG",
+  "syncKey": "YDRLG",
+  "released": "2014-04-25",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Main Set",
+      "range": "DRLG-EN001–DRLG-EN051",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from DRLG-EN001 to DRLG-EN051."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Dragons of Legend Checklist · All 51 Cards",
+    "description": "Free Yu-Gi-Oh! Dragons of Legend checklist with no ads, no sign-up and no tracking. Track all 51 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Dragons of Legend Checklist",
+    "ogDescription": "Track all 51 cards in Yu-Gi-Oh! Dragons of Legend. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 51 cards in Yu-Gi-Oh! Dragons of Legend. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About the Dragons of Legend set",
+    "paragraphs": [
+      "Dragons of Legend is a Yu-Gi-Oh! TCG special set released on 25 April 2014, in the ZEXAL era. It has 51 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Dragons of Legend"
+    ],
+    "tcgplayer": [
+      1354
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"DRLG-EN001","name":"Legendary Knight Timaeus","ctype":"monster","keywords":"Legendary Knight Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Warrior / Effect","atk":2800,"def":1800},"rarity":"ScR","img":"80019195","code":"1","tcg":82548,"grp":1354,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"DRLG-EN002","name":"Kuribandit","ctype":"monster","keywords":"Kuriboh Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Fiend / Effect","atk":1000,"def":700},"rarity":"ScR","img":"16404809","code":"2","tcg":82554,"grp":1354,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"DRLG-EN003","name":"Amulet Dragon","ctype":"monster","keywords":"Dark Magician Dragon DARK Fusion Monster","stats":{"a":"DARK","l":"Level 8","t":"Dragon / Fusion","atk":2900,"def":2500},"rarity":"ScR","img":"75380687","code":"3","tcg":82555,"grp":1354,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"DRLG-EN004","name":"Dark Magician Girl the Dragon Knight","ctype":"monster","keywords":"Dark Magician Dragon DARK Fusion Monster","stats":{"a":"DARK","l":"Level 7","t":"Dragon / Fusion","atk":2600,"def":1700},"rarity":"ScR","img":"43892408","code":"4","tcg":82556,"grp":1354,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"DRLG-EN005","name":"The Eye of Timaeus","ctype":"spell","keywords":"Dark Magician Normal Spell","stats":{"t":"Normal Spell"},"rarity":"ScR","img":"1784686","code":"5","tcg":82557,"grp":1354,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"DRLG-EN006","name":"Legend of Heart","ctype":"spell","keywords":"Legendary Knight Normal Spell","stats":{"t":"Normal Spell"},"rarity":"ScR","img":"89397517","code":"6","tcg":82558,"grp":1354,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"DRLG-EN007","name":"Berserker Soul","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"ScR","img":"15381252","code":"7","tcg":82559,"grp":1354,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"DRLG-EN008","name":"Relay Soul","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"42776960","code":"8","tcg":82560,"grp":1354,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"DRLG-EN009","name":"Guardian Eatos","ctype":"monster","keywords":"Guardian Fairy WIND Effect Monster","stats":{"a":"WIND","l":"Level 8","t":"Fairy / Effect","atk":2500,"def":2000},"rarity":"SR","img":"34022290","code":"9","tcg":82561,"grp":1354,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"DRLG-EN010","name":"Guardian Dreadscythe","ctype":"monster","keywords":"Guardian Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Fiend / Effect","atk":2500,"def":2000},"rarity":"ScR","img":"18175965","code":"10","tcg":82562,"grp":1354,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"DRLG-EN011","name":"Celestial Sword - Eatos","ctype":"spell","keywords":"Noble Knight Equip Spell","stats":{"t":"Equip Spell"},"rarity":"SR","img":"55569674","code":"11","tcg":82563,"grp":1354,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"DRLG-EN012","name":"Reaper Scythe - Dreadscythe","ctype":"spell","keywords":"Guardian Equip Spell","stats":{"t":"Equip Spell"},"rarity":"SR","img":"81954378","code":"12","tcg":82564,"grp":1354,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"DRLG-EN013","name":"Guarded Treasure","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"ScR","img":"17052477","code":"13","tcg":82565,"grp":1354,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"DRLG-EN014","name":"Soul Charge","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"54447022","code":"14","tcg":82566,"grp":1354,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"DRLG-EN015","name":"Sabatiel - The Philosopher's Stone","ctype":"spell","keywords":"Kuriboh Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"80831721","code":"15","tcg":82567,"grp":1354,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"DRLG-EN016","name":"Flash Fusion","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"SR","img":"17236839","code":"16","tcg":82568,"grp":1354,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"DRLG-EN017","name":"Battle Fusion","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"SR","img":"43225434","code":"17","tcg":82569,"grp":1354,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"DRLG-EN018","name":"Final Fusion","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"89719143","code":"18","tcg":82570,"grp":1354,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"DRLG-EN019","name":"Pair Cycroid","ctype":"monster","keywords":"Roid Machine EARTH Fusion Monster","stats":{"a":"EARTH","l":"Level 5","t":"Machine / Fusion","atk":1600,"def":1200},"rarity":"SR","img":"16114248","code":"19","tcg":82573,"grp":1354,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"DRLG-EN020","name":"Ayers Rock Sunrise","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"42502956","code":"20","tcg":82575,"grp":1354,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"DRLG-EN021","name":"Doble Passe","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"ScR","img":"79997591","code":"21","tcg":82577,"grp":1354,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"DRLG-EN022","name":"Carboneddon","ctype":"monster","keywords":"Bonding Dinosaur EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Dinosaur / Effect","atk":800,"def":600},"rarity":"SR","img":"15981690","code":"22","tcg":82579,"grp":1354,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"DRLG-EN023","name":"Mathematician","ctype":"monster","keywords":"Spellcaster EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Spellcaster / Effect","atk":1500,"def":500},"rarity":"ScR","img":"41386308","code":"23","tcg":82581,"grp":1354,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"DRLG-EN024","name":"Ra's Disciple","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fairy / Effect","atk":1100,"def":600},"rarity":"ScR","img":"74875003","code":"24","tcg":82582,"grp":1354,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"DRLG-EN025","name":"Mound of the Bound Creator","ctype":"spell","keywords":"Field Spell","stats":{"t":"Field Spell"},"rarity":"ScR","img":"269012","code":"25","tcg":82585,"grp":1354,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"DRLG-EN026","name":"Shooting Star","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"ScR","img":"47264717","code":"26","tcg":82586,"grp":1354,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"DRLG-EN027","name":"Blackwing - Oroshi the Squall","ctype":"monster","keywords":"Blackwing Winged Beast DARK Tuner Monster","stats":{"a":"DARK","l":"Level 1","t":"Winged Beast / Tuner","atk":400,"def":600},"rarity":"SR","img":"73652465","code":"27","tcg":82587,"grp":1354,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"DRLG-EN028","name":"Blackwing - Steam the Cloak","ctype":"monster","keywords":"Blackwing Winged Beast DARK Tuner Monster","stats":{"a":"DARK","l":"Level 3","t":"Winged Beast / Tuner","atk":800,"def":1200},"rarity":"SR","img":"9047460","code":"28","tcg":82588,"grp":1354,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"DRLG-EN029","name":"Blackwing - Hurricane the Tornado","ctype":"monster","keywords":"Blackwing Winged Beast DARK Tuner Monster","stats":{"a":"DARK","l":"Level 1","t":"Winged Beast / Tuner","atk":0,"def":0},"rarity":"SR","img":"36442179","code":"29","tcg":82590,"grp":1354,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"DRLG-EN030","name":"Black Sonic","ctype":"trap","keywords":"Blackwing Normal Trap","stats":{"t":"Normal Trap"},"rarity":"ScR","img":"72930878","code":"30","tcg":82591,"grp":1354,"idx":29},
+    {"id":"031","section":"main","num":"031","printed":"DRLG-EN031","name":"Black Wing Revenge","ctype":"trap","keywords":"Blackwing Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"9925982","code":"31","tcg":82593,"grp":1354,"idx":30},
+    {"id":"032","section":"main","num":"032","printed":"DRLG-EN032","name":"Shadow Impulse","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"35329581","code":"32","tcg":82594,"grp":1354,"idx":31},
+    {"id":"033","section":"main","num":"033","printed":"DRLG-EN033","name":"Assault Dog","ctype":"monster","keywords":"Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Beast / Effect","atk":1200,"def":800},"rarity":"SR","img":"72714226","code":"33","tcg":82596,"grp":1354,"idx":32},
+    {"id":"034","section":"main","num":"034","printed":"DRLG-EN034","name":"Gate Blocker","ctype":"monster","keywords":"Rock EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Rock / Effect","atk":100,"def":2000},"rarity":"ScR","img":"8102334","code":"34","tcg":82599,"grp":1354,"idx":33},
+    {"id":"035","section":"main","num":"035","printed":"DRLG-EN035","name":"Wiretap","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"SR","img":"34507039","code":"35","tcg":82601,"grp":1354,"idx":34},
+    {"id":"036","section":"main","num":"036","printed":"DRLG-EN036","name":"Lionhearted Locomotive","ctype":"monster","keywords":"Train Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Machine / Effect","atk":2400,"def":2100},"rarity":"SR","img":"61692648","code":"36","tcg":82603,"grp":1354,"idx":35},
+    {"id":"037","section":"main","num":"037","printed":"DRLG-EN037","name":"Express Train Trolley Olley","ctype":"monster","keywords":"Train Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Machine / Effect","atk":1800,"def":1000},"rarity":"ScR","img":"7080743","code":"37","tcg":82602,"grp":1354,"idx":36},
+    {"id":"038","section":"main","num":"038","printed":"DRLG-EN038","name":"Construction Train Signal Red","ctype":"monster","keywords":"Train Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Machine / Effect","atk":1000,"def":1300},"rarity":"SR","img":"34475451","code":"38","tcg":82600,"grp":1354,"idx":37},
+    {"id":"039","section":"main","num":"039","printed":"DRLG-EN039","name":"Train Connection","ctype":"spell","keywords":"Train Equip Spell","stats":{"t":"Equip Spell"},"rarity":"SR","img":"60879050","code":"39","tcg":82598,"grp":1354,"idx":38},
+    {"id":"040","section":"main","num":"040","printed":"DRLG-EN040","name":"Number 73: Abyss Splash","ctype":"monster","keywords":"Warrior WATER Xyz Monster","stats":{"a":"WATER","l":"Rank 5","t":"Warrior / Xyz","atk":2400,"def":1400},"rarity":"SR","img":"36076683","code":"40","tcg":82597,"grp":1354,"idx":39},
+    {"id":"041","section":"main","num":"041","printed":"DRLG-EN041","name":"Number C73: Abyss Supra Splash","ctype":"monster","keywords":"Warrior WATER Xyz Monster","stats":{"a":"WATER","l":"Rank 6","t":"Warrior / Xyz","atk":3000,"def":2000},"rarity":"SR","img":"96864105","code":"41","tcg":82595,"grp":1354,"idx":40},
+    {"id":"042","section":"main","num":"042","printed":"DRLG-EN042","name":"Rank-Up-Magic Quick Chaos","ctype":"spell","keywords":"Chaos Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"ScR","img":"33252803","code":"42","tcg":82592,"grp":1354,"idx":41},
+    {"id":"043","section":"main","num":"043","printed":"DRLG-EN043","name":"Number C5: Chaos Chimera Dragon","ctype":"monster","keywords":"Chaos Dragon DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 6","t":"Dragon / Xyz","atk":0,"def":0},"rarity":"SR","img":"69757518","code":"43","tcg":82589,"grp":1354,"idx":42},
+    {"id":"044","section":"main","num":"044","printed":"DRLG-EN044","name":"Rank-Up-Magic Admiration of the Thousands","ctype":"spell","keywords":"CXyz Normal Spell","stats":{"t":"Normal Spell"},"rarity":"ScR","img":"96142517","code":"44","tcg":82584,"grp":1354,"idx":43},
+    {"id":"045","section":"main","num":"045","printed":"DRLG-EN045","name":"Magic Hand","ctype":"monster","keywords":"Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Effect","atk":800,"def":1600},"rarity":"SR","img":"22530212","code":"45","tcg":82583,"grp":1354,"idx":44},
+    {"id":"046","section":"main","num":"046","printed":"DRLG-EN046","name":"Fire Hand","ctype":"monster","keywords":"Pyro FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Pyro / Effect","atk":1600,"def":1000},"rarity":"ScR","img":"68535320","code":"46","tcg":82580,"grp":1354,"idx":45},
+    {"id":"047","section":"main","num":"047","printed":"DRLG-EN047","name":"Ice Hand","ctype":"monster","keywords":"Aqua WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Aqua / Effect","atk":1400,"def":1600},"rarity":"ScR","img":"95929069","code":"47","tcg":82578,"grp":1354,"idx":46},
+    {"id":"048","section":"main","num":"048","printed":"DRLG-EN048","name":"Prominence Hand","ctype":"monster","keywords":"Pyro FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Pyro / Effect","atk":600,"def":2000},"rarity":"SR","img":"21414674","code":"48","tcg":82576,"grp":1354,"idx":47},
+    {"id":"049","section":"main","num":"049","printed":"DRLG-EN049","name":"Number C106: Giant Red Hand","ctype":"monster","keywords":"Rock EARTH Xyz Monster","stats":{"a":"EARTH","l":"Rank 5","t":"Rock / Xyz","atk":2600,"def":2000},"rarity":"SR","img":"55888045","code":"49","tcg":82574,"grp":1354,"idx":48},
+    {"id":"050","section":"main","num":"050","printed":"DRLG-EN050","name":"Lillybot","ctype":"monster","keywords":"Photon Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Machine / Effect","atk":500,"def":2000},"rarity":"SR","img":"68812773","code":"50","tcg":82572,"grp":1354,"idx":49},
+    {"id":"051","section":"main","num":"051","printed":"DRLG-EN051","name":"Rising Sun Slash","ctype":"spell","keywords":"Utopia Equip Spell","stats":{"t":"Equip Spell"},"rarity":"SR","img":"94807487","code":"51","tcg":82571,"grp":1354,"idx":50}
+  ]
+}

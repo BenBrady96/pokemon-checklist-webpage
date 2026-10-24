@@ -1,0 +1,90 @@
+{
+  "id": "yugioh/duelist-pack-chazz-princeton",
+  "game": "yugioh",
+  "slug": "duelist-pack-chazz-princeton",
+  "name": "Duelist Pack: Chazz Princeton",
+  "series": "GX",
+  "kind": "pack",
+  "code": "DP2",
+  "syncKey": "YDP2",
+  "released": "2006-02-08",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "DP2-EN001–DP2-EN030",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from DP2-EN001 to DP2-EN030."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Duelist Pack: Chazz Princeton Checklist · All 30 Cards",
+    "description": "Free Yu-Gi-Oh! Duelist Pack: Chazz Princeton checklist with no ads, no sign-up and no tracking. Track all 30 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Duelist Pack: Chazz Princeton Checklist",
+    "ogDescription": "Track all 30 cards in Yu-Gi-Oh! Duelist Pack: Chazz Princeton. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 30 cards in Yu-Gi-Oh! Duelist Pack: Chazz Princeton. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Duelist Pack: Chazz Princeton",
+    "paragraphs": [
+      "Duelist Pack: Chazz Princeton is a Yu-Gi-Oh! TCG pack released on 8 February 2006, in the GX era. It has 30 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Duelist Pack: Chazz Princeton"
+    ],
+    "tcgplayer": [
+      191
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"DP2-EN001","name":"V-Tiger Jet","ctype":"monster","keywords":"ABC Machine LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Machine / Normal","atk":1600,"def":1800},"rarity":"C","img":"51638941","code":"1","tcg":25089,"grp":191,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"DP2-EN002","name":"Ojama Green","ctype":"monster","keywords":"Ojama Beast LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 2","t":"Beast / Normal","atk":0,"def":1000},"rarity":"C","img":"12482652","code":"2","tcg":25090,"grp":191,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"DP2-EN003","name":"Ojama Yellow","ctype":"monster","keywords":"Ojama Beast LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 2","t":"Beast / Normal","atk":0,"def":1000},"rarity":"C","img":"42941100","code":"3","tcg":25091,"grp":191,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"DP2-EN004","name":"Ojama Black","ctype":"monster","keywords":"Ojama Beast LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 2","t":"Beast / Normal","atk":0,"def":1000},"rarity":"C","img":"79335209","code":"4","tcg":25092,"grp":191,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"DP2-EN005","name":"X-Head Cannon","ctype":"monster","keywords":"ABC Machine LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Machine / Normal","atk":1800,"def":1500},"rarity":"C","img":"62651957","code":"5","tcg":25093,"grp":191,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"DP2-EN006","name":"Y-Dragon Head","ctype":"monster","keywords":"ABC Machine LIGHT Union Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Machine / Union / Effect","atk":1500,"def":1600},"rarity":"C","img":"65622692","code":"6","tcg":25094,"grp":191,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"DP2-EN007","name":"Z-Metal Tank","ctype":"monster","keywords":"ABC Machine LIGHT Union Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Machine / Union / Effect","atk":1500,"def":1300},"rarity":"C","img":"64500000","code":"7","tcg":25095,"grp":191,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"DP2-EN008","name":"W-Wing Catapult","ctype":"monster","keywords":"ABC Machine LIGHT Union Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Machine / Union / Effect","atk":1300,"def":1500},"rarity":"C","img":"96300057","code":"8","tcg":25096,"grp":191,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"DP2-EN009","name":"Infernal Incinerator","ctype":"monster","keywords":"Fiend FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 6","t":"Fiend / Effect","atk":2800,"def":1800},"rarity":"R","img":"23309606","code":"9","tcg":25097,"grp":191,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"DP2-EN010","name":"Armed Dragon LV3","ctype":"monster","keywords":"Armed Dragon Dragon WIND Effect Monster","stats":{"a":"WIND","l":"Level 3","t":"Dragon / Effect","atk":1200,"def":900},"rarity":"C","img":"980973","code":"10","tcg":25098,"grp":191,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"DP2-EN011","name":"Armed Dragon LV5","ctype":"monster","keywords":"Armed Dragon Dragon WIND Effect Monster","stats":{"a":"WIND","l":"Level 5","t":"Dragon / Effect","atk":2400,"def":1700},"rarity":"C","img":"46384672","code":"11","tcg":25099,"grp":191,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"DP2-EN012","name":"Armed Dragon LV7","ctype":"monster","keywords":"Armed Dragon Dragon WIND Effect Monster","stats":{"a":"WIND","l":"Level 7","t":"Dragon / Effect","atk":2800,"def":1000},"rarity":"SR","img":"73879377","code":"12","tcg":25100,"grp":191,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"DP2-EN013","name":"Armed Dragon LV10","ctype":"monster","keywords":"Armed Dragon Dragon WIND Effect Monster","stats":{"a":"WIND","l":"Level 10","t":"Dragon / Effect","atk":3000,"def":2000},"rarity":"UR","img":"59464593","code":"13","tcg":25101,"grp":191,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"DP2-EN014","name":"XYZ-Dragon Cannon","ctype":"monster","keywords":"ABC Machine LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Machine / Fusion","atk":2800,"def":2600},"rarity":"R","img":"91998119","code":"14","tcg":25102,"grp":191,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"DP2-EN015","name":"Ojama King","ctype":"monster","keywords":"Ojama Beast LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Beast / Fusion","atk":0,"def":3000},"rarity":"C","img":"90140980","code":"15","tcg":25103,"grp":191,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"DP2-EN016","name":"VW-Tiger Catapult","ctype":"monster","keywords":"ABC Machine LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Machine / Fusion","atk":2000,"def":2100},"rarity":"R","img":"58859575","code":"16","tcg":25104,"grp":191,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"DP2-EN017","name":"VWXYZ-Dragon Catapult Cannon","ctype":"monster","keywords":"ABC Machine LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Machine / Fusion","atk":3000,"def":2800},"rarity":"R","img":"84243274","code":"17","tcg":25105,"grp":191,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"DP2-EN018","name":"Ojama Delta Hurricane!!","ctype":"spell","keywords":"Ojama Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"8251996","code":"18","tcg":25106,"grp":191,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"DP2-EN019","name":"Level Modulation","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"R","img":"61850482","code":"19","tcg":25107,"grp":191,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"DP2-EN020","name":"Ojamagic","ctype":"spell","keywords":"Ojama Normal Spell","stats":{"t":"Normal Spell"},"rarity":"R","img":"24643836","code":"20","tcg":25108,"grp":191,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"DP2-EN021","name":"Ojamuscle","ctype":"spell","keywords":"Ojama Normal Spell","stats":{"t":"Normal Spell"},"rarity":"R","img":"98259197","code":"21","tcg":25109,"grp":191,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"DP2-EN022","name":"Chthonian Alliance","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"46910446","code":"22","tcg":25110,"grp":191,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"DP2-EN023","name":"Armed Changer","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"90374791","code":"23","tcg":25111,"grp":191,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"DP2-EN024","name":"Magical Mallet","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"85852291","code":"24","tcg":24932,"grp":191,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"DP2-EN025","name":"Inferno Reckless Summon","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"SR","img":"12247206","code":"25","tcg":24931,"grp":191,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"DP2-EN026","name":"Ring of Defense","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"UR","img":"58641905","code":"26","tcg":25112,"grp":191,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"DP2-EN027","name":"Ojama Trio","ctype":"trap","keywords":"Ojama Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"29843091","code":"27","tcg":25113,"grp":191,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"DP2-EN028","name":"Chthonian Blast","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"18271561","code":"28","tcg":25114,"grp":191,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"DP2-EN029","name":"Chthonian Polymer","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"72287557","code":"29","tcg":25115,"grp":191,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"DP2-EN030","name":"The Grave of Enkindling","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"84136000","code":"30","tcg":25116,"grp":191,"idx":29}
+  ]
+}

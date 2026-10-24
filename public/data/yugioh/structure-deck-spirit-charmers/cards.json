@@ -1,0 +1,117 @@
+{
+  "id": "yugioh/structure-deck-spirit-charmers",
+  "game": "yugioh",
+  "slug": "structure-deck-spirit-charmers",
+  "name": "Structure Deck: Spirit Charmers",
+  "series": "SEVENS & GO RUSH!!",
+  "kind": "deck",
+  "code": "SDCH",
+  "syncKey": "YSDCH",
+  "released": "2020-10-22",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "SDCH-EN001–SDCH-EN041",
+      "tier": "standard"
+    },
+    {
+      "id": "rarities",
+      "name": "Other Rarities",
+      "short": "Other Rarities",
+      "range": "4 cards",
+      "tier": "master"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Main set"
+    ],
+    [
+      "rarities",
+      "Other rarities"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, SCR12, 60x2",
+    "example": "1-20, 45x2, SCR12",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies. Other rarities use their short name and number: <b>SCR12</b> is card 12’s Secret Rare, and ranges work too (<b>QCSR1-QCSR20</b>).",
+    "empty": "Cards run from SDCH-EN001 to SDCH-EN041."
+  },
+  "help": {
+    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 41 cards, each in its main rarity. Master adds the 4 other rarities. Cards you’ve marked are kept when you switch."
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Structure Deck: Spirit Charmers Checklist · All 41 Cards",
+    "description": "Free Yu-Gi-Oh! Structure Deck: Spirit Charmers checklist with no ads, no sign-up and no tracking. Track all 41 cards, or every rarity for a master set, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Structure Deck: Spirit Charmers Checklist",
+    "ogDescription": "Track all 41 cards in Yu-Gi-Oh! Structure Deck: Spirit Charmers, plus 4 other rarities. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 41 cards in Yu-Gi-Oh! Structure Deck: Spirit Charmers. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Structure Deck: Spirit Charmers",
+    "paragraphs": [
+      "Structure Deck: Spirit Charmers is a Yu-Gi-Oh! TCG deck released on 22 October 2020, in the SEVENS &amp; GO RUSH!! era. It has 41 cards, and with the 4 other rarities there are 45 to collect in all.",
+      "Choose what you’re collecting: the <b>Standard set</b> (the 41 cards, each in its main rarity) or the <b>Master set</b> (all 45, adding the 4 other rarities).",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Structure Deck: Spirit Charmers"
+    ],
+    "tcgplayer": [
+      2695
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"SDCH-EN001","name":"Aussa the Earth Charmer","ctype":"monster","keywords":"Charmer Spellcaster EARTH Flip Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Spellcaster / Flip / Effect","atk":500,"def":1500},"rarity":"C","img":"37970940","code":"1","tcg":224966,"grp":2695,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"SDCH-EN002","name":"Eria the Water Charmer","ctype":"monster","keywords":"Charmer Spellcaster WATER Flip Effect Monster","stats":{"a":"WATER","l":"Level 3","t":"Spellcaster / Flip / Effect","atk":500,"def":1500},"rarity":"C","img":"74364659","code":"2","tcg":224967,"grp":2695,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"SDCH-EN003","name":"Hiita the Fire Charmer","ctype":"monster","keywords":"Charmer Spellcaster FIRE Flip Effect Monster","stats":{"a":"FIRE","l":"Level 3","t":"Spellcaster / Flip / Effect","atk":500,"def":1500},"rarity":"C","img":"759393","code":"3","tcg":224968,"grp":2695,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"SDCH-EN004","name":"Wynn the Wind Charmer","ctype":"monster","keywords":"Charmer Spellcaster WIND Flip Effect Monster","stats":{"a":"WIND","l":"Level 3","t":"Spellcaster / Flip / Effect","atk":500,"def":1500},"rarity":"C","img":"37744402","code":"4","tcg":224969,"grp":2695,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"SDCH-EN005","name":"Awakening of the Possessed - Nefariouser Archfiend","ctype":"monster","keywords":"Possessed Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 5","t":"Beast / Effect","atk":2000,"def":200},"rarity":"UR","img":"65268179","code":"5","tcg":224970,"grp":2695,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"SDCH-EN006","name":"Awakening of the Possessed - Greater Inari Fire","ctype":"monster","keywords":"Possessed Pyro FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 5","t":"Pyro / Effect","atk":2000,"def":200},"rarity":"UR","img":"92652813","code":"6","tcg":224971,"grp":2695,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"SDCH-EN007","name":"Nefarious Archfiend Eater of Nefariousness","ctype":"monster","keywords":"Archfiend Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Beast / Effect","atk":1500,"def":200},"rarity":"C","img":"60666820","code":"7","tcg":224972,"grp":2695,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"SDCH-EN008","name":"Jigabyte","ctype":"monster","keywords":"Reptile WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Reptile / Effect","atk":1500,"def":200},"rarity":"C","img":"40894584","code":"8","tcg":224973,"grp":2695,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"SDCH-EN009","name":"Inari Fire","ctype":"monster","keywords":"Pyro FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Pyro / Effect","atk":1500,"def":200},"rarity":"C","img":"62953041","code":"9","tcg":224974,"grp":2695,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"SDCH-EN010","name":"Ranryu","ctype":"monster","keywords":"Dragon WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Dragon / Effect","atk":1500,"def":200},"rarity":"C","img":"44680819","code":"10","tcg":224975,"grp":2695,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"SDCH-EN011","name":"Fairy Tail - Sleeper","ctype":"monster","keywords":"Spellcaster LIGHT Flip Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Flip / Effect","atk":1850,"def":1000},"rarity":"C","img":"42921475","code":"11","tcg":224976,"grp":2695,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"SDCH-EN012","name":"Fairy Tail - Rella","ctype":"monster","keywords":"Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Effect","atk":1850,"def":1000},"rarity":"C","img":"52022648","code":"12","tcg":224977,"grp":2695,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"SDCH-EN013","name":"Fairy Tail - Luna","ctype":"monster","keywords":"Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Effect","atk":1850,"def":1000},"rarity":"C","img":"86937530","code":"13","tcg":224978,"grp":2695,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"SDCH-EN014","name":"Witchcrafter Golem Aruru","ctype":"monster","keywords":"Witchcrafter Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Spellcaster / Effect","atk":2800,"def":0},"rarity":"C","img":"71074418","code":"14","tcg":224979,"grp":2695,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"SDCH-EN015","name":"Dark Doriado","ctype":"monster","keywords":"Dark counterpart Spellcaster DARK Pendulum Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Pendulum / Effect","atk":1800,"def":1400},"rarity":"C","img":"62312469","code":"15","tcg":224980,"grp":2695,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"SDCH-EN016","name":"Witch of the Black Forest","ctype":"monster","keywords":"Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Effect","atk":1100,"def":1200},"rarity":"C","img":"78010363","code":"16","tcg":224981,"grp":2695,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"SDCH-EN017","name":"Effect Veiler","ctype":"monster","keywords":"Spellcaster LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Spellcaster / Tuner","atk":0,"def":0},"rarity":"C","img":"97268402","code":"17","tcg":224982,"grp":2695,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"SDCH-EN018","name":"Denko Sekka","ctype":"monster","keywords":"Thunder LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Thunder / Effect","atk":1700,"def":1000},"rarity":"C","img":"13974207","code":"18","tcg":224983,"grp":2695,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"SDCH-EN019","name":"Grand Spiritual Art - Ichirin","ctype":"spell","keywords":"Spiritual Art Field Spell","stats":{"t":"Field Spell"},"rarity":"UR","img":"38057522","code":"19","tcg":224984,"grp":2695,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"SDCH-EN020","name":"Awakening of the Possessed","ctype":"spell","keywords":"Charmer Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"62256492","code":"20","tcg":224985,"grp":2695,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"SDCH-EN021","name":"Raigeki","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"12580477","code":"21","tcg":224986,"grp":2695,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"SDCH-EN022","name":"Secret Village of the Spellcasters","ctype":"spell","keywords":"Field Spell","stats":{"t":"Field Spell"},"rarity":"C","img":"68462976","code":"22","tcg":224987,"grp":2695,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"SDCH-EN023","name":"Spellbook of Knowledge","ctype":"spell","keywords":"Spellbook Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"23314220","code":"23","tcg":224988,"grp":2695,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"SDCH-EN024","name":"Terraforming","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"73628505","code":"24","tcg":224989,"grp":2695,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"SDCH-EN025","name":"Book of Eclipse","ctype":"spell","keywords":"Book of Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"35480699","code":"25","tcg":224990,"grp":2695,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"SDCH-EN026","name":"Twin Twisters","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"43898403","code":"26","tcg":224991,"grp":2695,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"SDCH-EN027","name":"Dark Ruler No More","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"54693926","code":"27","tcg":224992,"grp":2695,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"SDCH-EN028","name":"Possessed Partnerships","ctype":"trap","keywords":"Possessed Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"65046521","code":"28","tcg":224993,"grp":2695,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"SDCH-EN029","name":"Unpossessed","ctype":"trap","keywords":"Charmer Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"25704359","code":"29","tcg":224994,"grp":2695,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"SDCH-EN030","name":"Spiritual Earth Art - Kurogane","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"70156997","code":"30","tcg":224995,"grp":2695,"idx":29},
+    {"id":"031","section":"main","num":"031","printed":"SDCH-EN031","name":"Spiritual Water Art - Aoi","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"6540606","code":"31","tcg":224996,"grp":2695,"idx":30},
+    {"id":"032","section":"main","num":"032","printed":"SDCH-EN032","name":"Spiritual Fire Art - Kurenai","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"42945701","code":"32","tcg":224997,"grp":2695,"idx":31},
+    {"id":"033","section":"main","num":"033","printed":"SDCH-EN033","name":"Spiritual Wind Art - Miyabi","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"79333300","code":"33","tcg":224998,"grp":2695,"idx":32},
+    {"id":"034","section":"main","num":"034","printed":"SDCH-EN034","name":"Metaverse","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"89208725","code":"34","tcg":224999,"grp":2695,"idx":33},
+    {"id":"035","section":"main","num":"035","printed":"SDCH-EN035","name":"Dimensional Barrier","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"83326048","code":"35","tcg":225000,"grp":2695,"idx":34},
+    {"id":"036","section":"main","num":"036","printed":"SDCH-EN036","name":"Solemn Warning","ctype":"trap","keywords":"Solemn Counter Trap","stats":{"t":"Counter Trap"},"rarity":"C","img":"84749824","code":"36","tcg":225001,"grp":2695,"idx":35},
+    {"id":"037","section":"main","num":"037","printed":"SDCH-EN037","name":"Familiar-Possessed - Aussa","ctype":"monster","keywords":"Charmer Spellcaster EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Spellcaster / Effect","atk":1850,"def":1500},"rarity":"C","img":"31887905","code":"37","tcg":225002,"grp":2695,"idx":36},
+    {"id":"037-ur","section":"rarities","num":"037","printed":"SDCH-EN037","name":"Familiar-Possessed - Aussa","ctype":"monster","keywords":"Charmer Spellcaster EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Spellcaster / Effect","atk":1850,"def":1500},"rarity":"UR","img":"31887906","badge":"UR","variant":"Ultra Rare","code":"UR37","tcg":225003,"grp":2695,"idx":37},
+    {"id":"038","section":"main","num":"038","printed":"SDCH-EN038","name":"Familiar-Possessed - Eria","ctype":"monster","keywords":"Charmer Spellcaster WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Spellcaster / Effect","atk":1850,"def":1500},"rarity":"C","img":"68881649","code":"38","tcg":225005,"grp":2695,"idx":38},
+    {"id":"038-ur","section":"rarities","num":"038","printed":"SDCH-EN038","name":"Familiar-Possessed - Eria","ctype":"monster","keywords":"Charmer Spellcaster WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Spellcaster / Effect","atk":1850,"def":1500},"rarity":"UR","img":"68881650","badge":"UR","variant":"Ultra Rare","code":"UR38","tcg":225004,"grp":2695,"idx":39},
+    {"id":"039","section":"main","num":"039","printed":"SDCH-EN039","name":"Familiar-Possessed - Hiita","ctype":"monster","keywords":"Charmer Spellcaster FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Spellcaster / Effect","atk":1850,"def":1500},"rarity":"C","img":"4376658","code":"39","tcg":225006,"grp":2695,"idx":40},
+    {"id":"039-ur","section":"rarities","num":"039","printed":"SDCH-EN039","name":"Familiar-Possessed - Hiita","ctype":"monster","keywords":"Charmer Spellcaster FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Spellcaster / Effect","atk":1850,"def":1500},"rarity":"UR","img":"4376659","badge":"UR","variant":"Ultra Rare","code":"UR39","tcg":225007,"grp":2695,"idx":41},
+    {"id":"040","section":"main","num":"040","printed":"SDCH-EN040","name":"Familiar-Possessed - Wynn","ctype":"monster","keywords":"Charmer Spellcaster WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Spellcaster / Effect","atk":1850,"def":1500},"rarity":"C","img":"31764353","code":"40","tcg":225009,"grp":2695,"idx":42},
+    {"id":"040-ur","section":"rarities","num":"040","printed":"SDCH-EN040","name":"Familiar-Possessed - Wynn","ctype":"monster","keywords":"Charmer Spellcaster WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Spellcaster / Effect","atk":1850,"def":1500},"rarity":"UR","img":"31764354","badge":"UR","variant":"Ultra Rare","code":"UR40","tcg":225008,"grp":2695,"idx":43},
+    {"id":"041","section":"main","num":"041","printed":"SDCH-EN041","name":"Spirit Charmers","ctype":"spell","keywords":"Spiritual Art Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"UR","img":"91530236","code":"41","tcg":225010,"grp":2695,"idx":44}
+  ]
+}

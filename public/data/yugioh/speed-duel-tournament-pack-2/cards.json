@@ -1,0 +1,78 @@
+{
+  "id": "yugioh/speed-duel-tournament-pack-2",
+  "game": "yugioh",
+  "slug": "speed-duel-tournament-pack-2",
+  "name": "Speed Duel Tournament Pack 2",
+  "series": "VRAINS",
+  "kind": "pack",
+  "code": "STP2",
+  "syncKey": "YSTP2",
+  "released": "2019-10-10",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "STP2-EN001–STP2-EN018",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from STP2-EN001 to STP2-EN018."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Speed Duel Tournament Pack 2 Checklist · All 18 Cards",
+    "description": "Free Yu-Gi-Oh! Speed Duel Tournament Pack 2 checklist with no ads, no sign-up and no tracking. Track all 18 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Speed Duel Tournament Pack 2 Checklist",
+    "ogDescription": "Track all 18 cards in Yu-Gi-Oh! Speed Duel Tournament Pack 2. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 18 cards in Yu-Gi-Oh! Speed Duel Tournament Pack 2. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Speed Duel Tournament Pack 2",
+    "paragraphs": [
+      "Speed Duel Tournament Pack 2 is a Yu-Gi-Oh! TCG pack released on 10 October 2019, in the VRAINS era. It has 18 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Speed Duel Tournament Pack 2"
+    ],
+    "tcgplayer": [
+      2559
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"STP2-EN001","name":"Serpent Night Dragon","ctype":"monster","keywords":"Dragon DARK Normal Monster","stats":{"a":"DARK","l":"Level 7","t":"Dragon / Normal","atk":2350,"def":2400},"rarity":"UR","img":"66516792","code":"1","tcg":201072,"grp":2559,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"STP2-EN002","name":"Perfectly Ultimate Great Moth","ctype":"monster","keywords":"Insect EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 8","t":"Insect / Effect","atk":3500,"def":3000},"rarity":"UR","img":"48579379","code":"2","tcg":201073,"grp":2559,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"STP2-EN003","name":"Barrel Dragon","ctype":"monster","keywords":"Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Machine / Effect","atk":2600,"def":2200},"rarity":"UR","img":"81480461","code":"3","tcg":201074,"grp":2559,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"STP2-EN004","name":"Amazoness Swords Woman","ctype":"monster","keywords":"Amazoness Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Effect","atk":1500,"def":1600},"rarity":"UR","img":"94004268","code":"4","tcg":201075,"grp":2559,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"STP2-EN005","name":"King of the Skull Servants","ctype":"monster","keywords":"Skull Servant Zombie DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Zombie / Effect","atk":-1,"def":0},"rarity":"UR","img":"36021814","code":"5","tcg":201076,"grp":2559,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"STP2-EN006","name":"Fortress Whale","ctype":"monster","keywords":"Umi Fish WATER Ritual Monster","stats":{"a":"WATER","l":"Level 7","t":"Fish / Ritual","atk":2350,"def":2150},"rarity":"UR","img":"62337487","code":"6","tcg":201077,"grp":2559,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"STP2-EN007","name":"Kabazauls","ctype":"monster","keywords":"Dinosaur WATER Normal Monster","stats":{"a":"WATER","l":"Level 4","t":"Dinosaur / Normal","atk":1700,"def":1500},"rarity":"SR","img":"51934376","code":"7","tcg":201078,"grp":2559,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"STP2-EN008","name":"Man-Eater Bug","ctype":"monster","keywords":"Insect EARTH Flip Effect Monster","stats":{"a":"EARTH","l":"Level 2","t":"Insect / Flip / Effect","atk":450,"def":600},"rarity":"SR","img":"54652250","code":"8","tcg":201079,"grp":2559,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"STP2-EN009","name":"The Legendary Fisherman","ctype":"monster","keywords":"Umi Warrior WATER Effect Monster","stats":{"a":"WATER","l":"Level 5","t":"Warrior / Effect","atk":1850,"def":1600},"rarity":"SR","img":"3643300","code":"9","tcg":201080,"grp":2559,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"STP2-EN010","name":"Hyper Hammerhead","ctype":"monster","keywords":"Dinosaur EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Dinosaur / Effect","atk":1500,"def":1200},"rarity":"SR","img":"2671330","code":"10","tcg":201081,"grp":2559,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"STP2-EN011","name":"Ally of Justice Core Destroyer","ctype":"monster","keywords":"Ally of Justice Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Machine / Effect","atk":1200,"def":200},"rarity":"SR","img":"36629203","code":"11","tcg":201082,"grp":2559,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"STP2-EN012","name":"Beetron","ctype":"monster","keywords":"Insect DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Insect / Effect","atk":1600,"def":900},"rarity":"SR","img":"30587695","code":"12","tcg":201083,"grp":2559,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"STP2-EN013","name":"Slushy","ctype":"monster","keywords":"Aqua WATER Effect Monster","stats":{"a":"WATER","l":"Level 2","t":"Aqua / Effect","atk":0,"def":0},"rarity":"SR","img":"84650463","code":"13","tcg":201084,"grp":2559,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"STP2-EN014","name":"Enchanting Fitting Room","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"30531525","code":"14","tcg":201085,"grp":2559,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"STP2-EN015","name":"Summoner's Art","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"79816536","code":"15","tcg":201086,"grp":2559,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"STP2-EN016","name":"Half Shut","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"SR","img":"73048641","code":"16","tcg":201087,"grp":2559,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"STP2-EN017","name":"Ready for Intercepting","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"31785398","code":"17","tcg":201088,"grp":2559,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"STP2-EN018","name":"Adhesion Trap Hole","ctype":"trap","keywords":"Hole Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"62325062","code":"18","tcg":201089,"grp":2559,"idx":17}
+  ]
+}

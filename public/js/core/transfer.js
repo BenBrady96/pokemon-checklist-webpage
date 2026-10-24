@@ -1,6 +1,7 @@
 import * as storage from './storage.js';
+import { entryBySyncKey } from './catalog.js';
 
-export const findEntry = (catalog, decoded) => catalog.collections.find((c) => c.syncKey === decoded.key);
+export const findEntry = (catalog, decoded) => entryBySyncKey(catalog, decoded.key);
 
 export function backupFile(sets, { name = '', history = null, exported = new Date() } = {}) {
   const data = { app: 'binder-tracker', version: 2, exported: exported.toISOString() };

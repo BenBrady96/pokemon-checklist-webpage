@@ -1,0 +1,147 @@
+{
+  "id": "yugioh/promos-2019",
+  "game": "yugioh",
+  "slug": "promos-2019",
+  "name": "Promos 2019",
+  "series": "Promos",
+  "kind": "promo",
+  "code": "P2019",
+  "syncKey": "YP2019",
+  "released": "2019-01-01",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "2019-EN003–YDPR-ENS01",
+      "tier": "standard"
+    },
+    {
+      "id": "rarities",
+      "name": "Other Rarities",
+      "short": "Other Rarities",
+      "range": "1 card",
+      "tier": "master"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Main set"
+    ],
+    [
+      "rarities",
+      "Other rarities"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, SCR12, 60x2",
+    "example": "1-20, 45x2, SCR12",
+    "hint": "Separate with commas or spaces. Numbers count down the list in order: <b>1-5</b> is the first five cards and <b>3x2</b> is two copies of the third.",
+    "empty": "Cards run from 2019-EN003 to YDPR-ENS01."
+  },
+  "help": {
+    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 39 cards, each in its main rarity. Master adds the 1 other rarity. Cards you’ve marked are kept when you switch."
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Promos 2019 Checklist · All 39 Cards",
+    "description": "Free Yu-Gi-Oh! Promos 2019 checklist with no ads, no sign-up and no tracking. Track all 39 cards, or every rarity for a master set, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Promos 2019 Checklist",
+    "ogDescription": "Track all 39 cards in Yu-Gi-Oh! Promos 2019, plus 1 other rarity. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 39 cards in Yu-Gi-Oh! Promos 2019. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Promos 2019",
+    "paragraphs": [
+      "Promos 2019 gathers the 39 promo cards from 24 products released in 2019: Yu-Gi-Oh! World Championship 2019 Japanese National Qualifiers prize cards, Yu-Gi-Oh! Advent Calendar, Chaos Impact Special Edition, Chaos Impact Sneak Peek Participation Card, Dark Neostorm Special Edition, Dark Neostorm Sneak Peek Participation Card, Speed Duel: Scars of Battle Launch Event participation card, WSJ Jump Pack Spring 2019 promotional card, The Lost Art Promotion G, The Lost Art Promotion H, The Lost Art Promotion I, The Lost Art Promotion J, The Lost Art Promotion K, The Lost Art Promotion L, The Lost Art Promotion M, Yu-Gi-Oh! Legacy of the Duelist: Link Evolution promotional cards, Rising Rampage Special Edition, Rising Rampage Sneak Peek Participation Card, Savage Strike Special Edition, Savage Strike Sneak Peek Participation Card, Yu-Gi-Oh! ARC-V Volume 5 promotional card, Yu-Gi-Oh! ARC-V Volume 6 promotional card, Yu-Gi-Oh! Championship Series 2019 prize card and Yu-Gi-Oh! Day April 2019 promotional card.",
+      "Choose what you’re collecting: the <b>Standard set</b> (the 39 cards, each in its main rarity) or the <b>Master set</b> (all 40, adding the 1 other rarity).",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Chaos Impact Sneak Peek Participation Card",
+      "Chaos Impact Special Edition",
+      "Dark Neostorm Sneak Peek Participation Card",
+      "Dark Neostorm Special Edition",
+      "Rising Rampage Sneak Peek Participation Card",
+      "Rising Rampage Special Edition",
+      "Savage Strike Sneak Peek Participation Card",
+      "Savage Strike Special Edition",
+      "Speed Duel: Scars of Battle Launch Event participation card",
+      "The Lost Art Promotion G",
+      "The Lost Art Promotion H",
+      "The Lost Art Promotion I",
+      "The Lost Art Promotion J",
+      "The Lost Art Promotion K",
+      "The Lost Art Promotion L",
+      "The Lost Art Promotion M",
+      "WSJ Jump Pack Spring 2019 promotional card",
+      "Yu-Gi-Oh! ARC-V Volume 5 promotional card",
+      "Yu-Gi-Oh! ARC-V Volume 6 promotional card",
+      "Yu-Gi-Oh! Advent Calendar",
+      "Yu-Gi-Oh! Championship Series 2019 prize card",
+      "Yu-Gi-Oh! Day April 2019 promotional card",
+      "Yu-Gi-Oh! Legacy of the Duelist: Link Evolution promotional cards",
+      "Yu-Gi-Oh! World Championship 2019 Japanese National Qualifiers prize cards"
+    ],
+    "tcgplayer": [
+      2196,
+      2527,
+      2421,
+      2462,
+      2380,
+      1921,
+      1918,
+      1347,
+      2561,
+      281,
+      2518,
+      2443,
+      351
+    ]
+  },
+  "cards": [
+    {"id":"2019-003","section":"main","num":"2019-EN003","printed":"2019-EN003","name":"Amatsu-Okami of the Divine Peaks","ctype":"monster","keywords":"Dragon LIGHT Link Monster","stats":{"a":"LIGHT","l":"Link 4","t":"Dragon / Link","atk":3000},"note":"Yu-Gi-Oh! World Championship 2019 Japanese National Qualifiers prize cards","rarity":"UR","img":"662855","code":"1","tcg":205181,"grp":351,"idx":0},
+    {"id":"2019-004","section":"main","num":"2019-EN004","printed":"2019-EN004","name":"Noritoshi in Darkest Rainment","ctype":"monster","keywords":"Spellcaster DARK Link Monster","stats":{"a":"DARK","l":"Link 5","t":"Spellcaster / Link","atk":2500},"note":"Yu-Gi-Oh! World Championship 2019 Japanese National Qualifiers prize cards","rarity":"UR","img":"662854","code":"2","idx":1},
+    {"id":"AC19-024","section":"main","num":"AC19-EN024","printed":"AC19-EN024","name":"Performapal Kuribohble","ctype":"monster","keywords":"Performapal Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Fiend / Effect","atk":300,"def":200},"note":"Yu-Gi-Oh! Advent Calendar","rarity":"UR","img":"69181753","code":"3","tcg":199871,"grp":2518,"idx":2},
+    {"id":"CHIM-SE1","section":"main","num":"CHIM-ENSE1","printed":"CHIM-ENSE1","name":"Scrap Wyvern","ctype":"monster","keywords":"Scrap Dragon EARTH Link Monster","stats":{"a":"EARTH","l":"Link 2","t":"Dragon / Link","atk":1700},"note":"Chaos Impact Special Edition","rarity":"SR","img":"47363932","code":"4","tcg":205346,"grp":2527,"idx":3},
+    {"id":"CHIM-SE2","section":"main","num":"CHIM-ENSE2","printed":"CHIM-ENSE2","name":"Battle Shogun of the Six Samurai","ctype":"monster","keywords":"Six Samurai Warrior EARTH Link Monster","stats":{"a":"EARTH","l":"Link 2","t":"Warrior / Link","atk":1000},"note":"Chaos Impact Special Edition","rarity":"SR","img":"74752631","code":"5","tcg":205347,"grp":2527,"idx":4},
+    {"id":"CHIM-SE3","section":"main","num":"CHIM-ENSE3","printed":"CHIM-ENSE3","name":"Dragonmaid Send-Off","ctype":"spell","keywords":"Dragonmaid Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"note":"Chaos Impact Special Edition","rarity":"SR","img":"15754711","code":"6","tcg":205348,"grp":2527,"idx":5},
+    {"id":"CHIM-SE4","section":"main","num":"CHIM-ENSE4","printed":"CHIM-ENSE4","name":"Armory Call","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"note":"Chaos Impact Special Edition","rarity":"SR","img":"38960450","code":"7","tcg":205349,"grp":2527,"idx":6},
+    {"id":"CHIM-SP1","section":"main","num":"CHIM-ENSP1","printed":"CHIM-ENSP1","name":"Gladiator Beast Vespasius","ctype":"monster","keywords":"Gladiator Beast Sea Serpent WATER Effect Monster","stats":{"a":"WATER","l":"Level 7","t":"Sea Serpent / Effect","atk":2300,"def":0},"note":"Chaos Impact Sneak Peek Participation Card","rarity":"UR","img":"88996322","code":"8","tcg":202389,"grp":2527,"idx":7},
+    {"id":"DANE-SE1","section":"main","num":"DANE-ENSE1","printed":"DANE-ENSE1","name":"Beatraptor","ctype":"monster","keywords":"Dinosaur EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Dinosaur / Effect","atk":1400,"def":2000},"note":"Dark Neostorm Special Edition","rarity":"SR","img":"46924949","code":"9","tcg":191044,"grp":2421,"idx":8},
+    {"id":"DANE-SE2","section":"main","num":"DANE-ENSE2","printed":"DANE-ENSE2","name":"Fury of Fire","ctype":"spell","keywords":"Salamangreat Normal Spell","stats":{"t":"Normal Spell"},"note":"Dark Neostorm Special Edition","rarity":"SR","img":"92345028","code":"10","tcg":191045,"grp":2421,"idx":9},
+    {"id":"DANE-SE3","section":"main","num":"DANE-ENSE3","printed":"DANE-ENSE3","name":"Shooting Riser Dragon","ctype":"monster","keywords":"Dragon LIGHT Synchro Tuner Monster","stats":{"a":"LIGHT","l":"Level 7","t":"Dragon / Synchro / Tuner","atk":2100,"def":1700},"note":"Dark Neostorm Special Edition","rarity":"SR","img":"68431965","code":"11","tcg":191042,"grp":2421,"idx":10},
+    {"id":"DANE-SE4","section":"main","num":"DANE-ENSE4","printed":"DANE-ENSE4","name":"Magicalized Fusion","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"note":"Dark Neostorm Special Edition","rarity":"SR","img":"11827244","code":"12","tcg":191043,"grp":2421,"idx":11},
+    {"id":"DANE-SP1","section":"main","num":"DANE-ENSP1","printed":"DANE-ENSP1","name":"Amphibious Swarmship Amblowhale","ctype":"monster","keywords":"Machine FIRE Link Monster","stats":{"a":"FIRE","l":"Link 4","t":"Machine / Link","atk":2600},"note":"Dark Neostorm Sneak Peek Participation Card","rarity":"UR","img":"20665527","code":"13","tcg":189806,"grp":2421,"idx":12},
+    {"id":"EVSD-S02","section":"main","num":"EVSD-ENS02","printed":"EVSD-ENS02","name":"Bandit","ctype":"skill","keywords":"Keith Skill","stats":{"t":"Skill · Keith"},"note":"Speed Duel: Scars of Battle Launch Event participation card","rarity":"UR","img":"300103003","code":"14","tcg":201701,"grp":2561,"idx":13},
+    {"id":"JMPS-008","section":"main","num":"JMPS-EN008","printed":"JMPS-EN008","name":"Elemental HERO Stratos","ctype":"monster","keywords":"Elemental HERO Warrior WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Warrior / Effect","atk":1800,"def":300},"note":"WSJ Jump Pack Spring 2019 promotional card","rarity":"UR","img":"40044918","code":"15","tcg":184374,"grp":281,"idx":14},
+    {"id":"LART-007","section":"main","num":"LART-EN007","printed":"LART-EN007","name":"Ring of Destruction","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"note":"The Lost Art Promotion G","rarity":"UR","img":"83555666","code":"16","tcg":183585,"grp":2196,"idx":15},
+    {"id":"LART-008","section":"main","num":"LART-EN008","printed":"LART-EN008","name":"Lesser Fiend","ctype":"monster","keywords":"Archfiend Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 5","t":"Fiend / Effect","atk":2100,"def":1000},"note":"The Lost Art Promotion H","rarity":"UR","img":"16475472","code":"17","tcg":185720,"grp":2196,"idx":16},
+    {"id":"LART-009","section":"main","num":"LART-EN009","printed":"LART-EN009","name":"Call of the Haunted","ctype":"trap","keywords":"Call of the Haunted Continuous Trap","stats":{"t":"Continuous Trap"},"note":"The Lost Art Promotion I","rarity":"UR","img":"97077563","code":"18","tcg":185974,"grp":2196,"idx":17},
+    {"id":"LART-010","section":"main","num":"LART-EN010","printed":"LART-EN010","name":"Dark Ruler Ha Des","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Fiend / Effect","atk":2450,"def":1600},"note":"The Lost Art Promotion J","rarity":"UR","img":"53982768","code":"19","tcg":194276,"grp":2196,"idx":18},
+    {"id":"LART-011","section":"main","num":"LART-EN011","printed":"LART-EN011","name":"Soul Drain","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"note":"The Lost Art Promotion K","rarity":"UR","img":"73599290","code":"20","tcg":194275,"grp":2196,"idx":19},
+    {"id":"LART-012","section":"main","num":"LART-EN012","printed":"LART-EN012","name":"Skill Drain","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"note":"The Lost Art Promotion L","rarity":"UR","img":"82732705","code":"21","tcg":196648,"grp":2196,"idx":20},
+    {"id":"LART-013","section":"main","num":"LART-EN013","printed":"LART-EN013","name":"Super Rejuvenation","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"note":"The Lost Art Promotion M","rarity":"UR","img":"27770341","code":"22","tcg":206963,"grp":2196,"idx":21},
+    {"id":"LOD2-001","section":"main","num":"LOD2-EN001","printed":"LOD2-EN001","name":"Progleo","ctype":"monster","keywords":"Cyberse LIGHT Link Monster","stats":{"a":"LIGHT","l":"Link 2","t":"Cyberse / Link","atk":1000},"note":"Yu-Gi-Oh! Legacy of the Duelist: Link Evolution promotional cards","rarity":"SR","img":"52615248","code":"23","tcg":197569,"grp":1921,"idx":22},
+    {"id":"LOD2-002","section":"main","num":"LOD2-EN002","printed":"LOD2-EN002","name":"Micro Coder","ctype":"monster","keywords":"Code Talker Cyberse DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Cyberse / Effect","atk":300,"def":0},"note":"Yu-Gi-Oh! Legacy of the Duelist: Link Evolution promotional cards","rarity":"UR","img":"2347477","code":"24","tcg":197570,"grp":1921,"idx":23},
+    {"id":"LOD2-003","section":"main","num":"LOD2-EN003","printed":"LOD2-EN003","name":"Cynet Codec","ctype":"spell","keywords":"Code Talker Continuous Spell","stats":{"t":"Continuous Spell"},"note":"Yu-Gi-Oh! Legacy of the Duelist: Link Evolution promotional cards","rarity":"SR","img":"60018643","code":"25","tcg":197571,"grp":1921,"idx":24},
+    {"id":"RIRA-SE1","section":"main","num":"RIRA-ENSE1","printed":"RIRA-ENSE1","name":"Salamangreat Coyote","ctype":"monster","keywords":"Salamangreat Cyberse FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 3","t":"Cyberse / Effect","atk":1000,"def":200},"note":"Rising Rampage Special Edition","rarity":"SR","img":"71861848","code":"26","tcg":198444,"grp":2462,"idx":25},
+    {"id":"RIRA-SE2","section":"main","num":"RIRA-ENSE2","printed":"RIRA-ENSE2","name":"Marincess Battle Ocean","ctype":"spell","keywords":"Marincess Field Spell","stats":{"t":"Field Spell"},"note":"Rising Rampage Special Edition","rarity":"SR","img":"91027843","code":"27","tcg":198445,"grp":2462,"idx":26},
+    {"id":"RIRA-SE3","section":"main","num":"RIRA-ENSE3","printed":"RIRA-ENSE3","name":"Marincess Wonder Heart","ctype":"monster","keywords":"Marincess Cyberse WATER Link Monster","stats":{"a":"WATER","l":"Link 4","t":"Cyberse / Link","atk":2400},"note":"Rising Rampage Special Edition","rarity":"SR","img":"94207108","code":"28","tcg":198446,"grp":2462,"idx":27},
+    {"id":"RIRA-SE4","section":"main","num":"RIRA-ENSE4","printed":"RIRA-ENSE4","name":"Marincess Sea Angel","ctype":"monster","keywords":"Marincess Cyberse WATER Link Monster","stats":{"a":"WATER","l":"Link 1","t":"Cyberse / Link","atk":1000},"note":"Rising Rampage Special Edition","rarity":"SR","img":"30691817","code":"29","tcg":198447,"grp":2462,"idx":28},
+    {"id":"RIRA-SP1","section":"main","num":"RIRA-ENSP1","printed":"RIRA-ENSP1","name":"Tlakalel, His Malevolent Majesty","ctype":"monster","keywords":"Monarch Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 5","t":"Fiend / Effect","atk":2400,"def":1000},"note":"Rising Rampage Sneak Peek Participation Card","rarity":"UR","img":"82319644","code":"30","tcg":194854,"grp":2462,"idx":29},
+    {"id":"SAST-SE1","section":"main","num":"SAST-ENSE1","printed":"SAST-ENSE1","name":"Grid Sweeper","ctype":"monster","keywords":"Cyberse LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Cyberse / Effect","atk":100,"def":2000},"note":"Savage Strike Special Edition","rarity":"SR","img":"13090893","code":"31","tcg":185279,"grp":2380,"idx":30},
+    {"id":"SAST-SE2","section":"main","num":"SAST-ENSE2","printed":"SAST-ENSE2","name":"Yuki-Musume, the Ice Mayakashi","ctype":"monster","keywords":"Mayakashi Zombie WATER Effect Monster","stats":{"a":"WATER","l":"Level 1","t":"Zombie / Effect","atk":0,"def":1900},"note":"Savage Strike Special Edition","rarity":"SR","img":"72700231","code":"32","tcg":185280,"grp":2380,"idx":31},
+    {"id":"SAST-SE3","section":"main","num":"SAST-ENSE3","printed":"SAST-ENSE3","name":"Trickstar Crimson Heart","ctype":"monster","keywords":"Trickstar Fairy LIGHT Link Monster","stats":{"a":"LIGHT","l":"Link 2","t":"Fairy / Link","atk":2000},"note":"Savage Strike Special Edition","rarity":"SR","img":"51011872","code":"33","tcg":185278,"grp":2380,"idx":32},
+    {"id":"SAST-SE4","section":"main","num":"SAST-ENSE4","printed":"SAST-ENSE4","name":"White Rose Dragon","ctype":"monster","keywords":"Rose Dragon Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Dragon / Effect","atk":1200,"def":1000},"note":"Savage Strike Special Edition","rarity":"SR","img":"12213463","code":"34","tcg":185277,"grp":2380,"idx":33},
+    {"id":"SAST-SP1","section":"main","num":"SAST-ENSP1","printed":"SAST-ENSP1","name":"Shiranui Squiresaga","ctype":"monster","keywords":"Shiranui Zombie FIRE Synchro Monster","stats":{"a":"FIRE","l":"Level 7","t":"Zombie / Synchro","atk":2100,"def":0},"note":"Savage Strike Sneak Peek Participation Card","rarity":"UR","img":"52711246","code":"35","tcg":184148,"grp":2380,"idx":34},
+    {"id":"YA05-001","section":"main","num":"YA05-EN001","printed":"YA05-EN001","name":"Odd-Eyes Phantasma Dragon","ctype":"monster","keywords":"-Eyes Dragon Dragon DARK Pendulum Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Dragon / Pendulum / Effect","atk":3000,"def":2500},"note":"Yu-Gi-Oh! ARC-V Volume 5 promotional card","rarity":"UR","img":"21770839","code":"36","tcg":186011,"grp":1918,"idx":35},
+    {"id":"YA06-001","section":"main","num":"YA06-EN001","printed":"YA06-EN001","name":"Timelord Progenitor Vorpgate","ctype":"monster","keywords":"Timelord Fairy DARK Synchro Monster","stats":{"a":"DARK","l":"Level 10","t":"Fairy / Synchro","atk":0,"def":0},"note":"Yu-Gi-Oh! ARC-V Volume 6 promotional card","rarity":"UR","img":"67508932","code":"37","tcg":198355,"grp":1918,"idx":36},
+    {"id":"YCSW-012","section":"main","num":"YCSW-EN012","printed":"YCSW-EN012","name":"Duel Link Dragon, the Duel Dragon","ctype":"monster","keywords":"Power Tool Dragon DARK Link Monster","stats":{"a":"DARK","l":"Link 4","t":"Dragon / Link","atk":0},"note":"Yu-Gi-Oh! Championship Series 2019 prize card","rarity":"SR","img":"60025883","code":"38","tcg":198236,"grp":1347,"idx":37},
+    {"id":"YCSW-012-ur","section":"rarities","num":"YCSW-EN012","printed":"YCSW-EN012","name":"Duel Link Dragon, the Duel Dragon","ctype":"monster","keywords":"Power Tool Dragon DARK Link Monster","stats":{"a":"DARK","l":"Link 4","t":"Dragon / Link","atk":0},"note":"Yu-Gi-Oh! Championship Series 2019 prize card","rarity":"UR","img":"60025883","badge":"UR","variant":"Ultra Rare","code":"UR38","tcg":198237,"grp":1347,"idx":38},
+    {"id":"YDPR-S01","section":"main","num":"YDPR-ENS01","printed":"YDPR-ENS01","name":"Destiny Draw (Skill Card)","ctype":"skill","keywords":"Yugi Skill","stats":{"t":"Skill · Yugi"},"note":"Yu-Gi-Oh! Day April 2019 promotional card","rarity":"UR","img":"300201002","code":"39","tcg":188713,"grp":2443,"idx":39}
+  ]
+}

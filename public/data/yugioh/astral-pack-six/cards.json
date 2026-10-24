@@ -1,0 +1,88 @@
+{
+  "id": "yugioh/astral-pack-six",
+  "game": "yugioh",
+  "slug": "astral-pack-six",
+  "name": "Astral Pack Six",
+  "series": "ARC-V",
+  "kind": "pack",
+  "code": "AP06",
+  "syncKey": "YAP06",
+  "released": "2014-12-05",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "AP06-EN001–AP06-EN028",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from AP06-EN001 to AP06-EN028."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Astral Pack Six Checklist · All 28 Cards",
+    "description": "Free Yu-Gi-Oh! Astral Pack Six checklist with no ads, no sign-up and no tracking. Track all 28 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Astral Pack Six Checklist",
+    "ogDescription": "Track all 28 cards in Yu-Gi-Oh! Astral Pack Six. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 28 cards in Yu-Gi-Oh! Astral Pack Six. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Astral Pack Six",
+    "paragraphs": [
+      "Astral Pack Six is a Yu-Gi-Oh! TCG pack released on 5 December 2014, in the ARC-V era. It has 28 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Astral Pack Six"
+    ],
+    "tcgplayer": [
+      1506
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"AP06-EN001","name":"Tour Guide From the Underworld","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Fiend / Effect","atk":1000,"def":600},"rarity":"UtR","img":"10802915","code":"1","tcg":95358,"grp":1506,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"AP06-EN002","name":"Number 11: Big Eye","ctype":"monster","keywords":"Spellcaster DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 7","t":"Spellcaster / Xyz","atk":2600,"def":2000},"rarity":"UtR","img":"80117527","code":"2","tcg":95439,"grp":1506,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"AP06-EN003","name":"Traptrix Trap Hole Nightmare","ctype":"trap","keywords":"Traptrix Normal Trap","stats":{"t":"Normal Trap"},"rarity":"UtR","img":"29616929","code":"3","tcg":95440,"grp":1506,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"AP06-EN004","name":"Traptrix Myrmeleo","ctype":"monster","keywords":"Traptrix Insect EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Insect / Effect","atk":1600,"def":1200},"rarity":"SR","img":"91812341","code":"4","tcg":95441,"grp":1506,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"AP06-EN005","name":"White Dragon Wyverburster","ctype":"monster","keywords":"Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Dragon / Effect","atk":1700,"def":1800},"rarity":"SR","img":"99234526","code":"5","tcg":95442,"grp":1506,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"AP06-EN006","name":"Black Dragon Collapserpent","ctype":"monster","keywords":"Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Dragon / Effect","atk":1800,"def":1700},"rarity":"SR","img":"61901281","code":"6","tcg":95443,"grp":1506,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"AP06-EN007","name":"Superheavy Samurai Big Benkei","ctype":"monster","keywords":"Superheavy Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 8","t":"Machine / Effect","atk":1000,"def":3500},"rarity":"SR","img":"3117804","code":"7","tcg":95444,"grp":1506,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"AP06-EN008","name":"Shaddoll Beast","ctype":"monster","keywords":"Shaddoll Spellcaster DARK Flip Effect Monster","stats":{"a":"DARK","l":"Level 5","t":"Spellcaster / Flip / Effect","atk":2200,"def":1700},"rarity":"SR","img":"3717252","code":"8","tcg":95445,"grp":1506,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"AP06-EN009","name":"Underworld Fighter Balmung","ctype":"monster","keywords":"Warrior DARK Synchro Monster","stats":{"a":"DARK","l":"Level 4","t":"Warrior / Synchro","atk":2100,"def":800},"rarity":"SR","img":"52639377","code":"9","tcg":95446,"grp":1506,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"AP06-EN010","name":"Number 80: Rhapsody in Berserk","ctype":"monster","keywords":"Fiend DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 4","t":"Fiend / Xyz","atk":0,"def":1200},"rarity":"SR","img":"93568288","code":"10","tcg":95447,"grp":1506,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"AP06-EN011","name":"Summoner's Art","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"79816536","code":"11","tcg":95448,"grp":1506,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"AP06-EN012","name":"Bujincarnation","ctype":"spell","keywords":"Bujin Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"73906480","code":"12","tcg":95357,"grp":1506,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"AP06-EN013","name":"Infernity Break","ctype":"trap","keywords":"Infernity Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"51717541","code":"13","tcg":95449,"grp":1506,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"AP06-EN014","name":"Sea Kamen","ctype":"monster","keywords":"Aqua WATER Normal Monster","stats":{"a":"WATER","l":"Level 4","t":"Aqua / Normal","atk":1100,"def":1300},"rarity":"SP","img":"71746462","code":"14","tcg":95450,"grp":1506,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"AP06-EN015","name":"Gruesome Goo","ctype":"monster","keywords":"Slime Aqua WATER Normal Monster","stats":{"a":"WATER","l":"Level 3","t":"Aqua / Normal","atk":1300,"def":700},"rarity":"SP","img":"65623423","code":"15","tcg":95451,"grp":1506,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"AP06-EN016","name":"Amazon of the Seas","ctype":"monster","keywords":"Fish WATER Normal Monster","stats":{"a":"WATER","l":"Level 4","t":"Fish / Normal","atk":1300,"def":1400},"rarity":"SP","img":"17968114","code":"16","tcg":95452,"grp":1506,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"AP06-EN017","name":"King of the Skull Servants","ctype":"monster","keywords":"Skull Servant Zombie DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Zombie / Effect","atk":-1,"def":0},"rarity":"C","img":"36021814","code":"17","tcg":95453,"grp":1506,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"AP06-EN018","name":"Vanity's Fiend","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Fiend / Effect","atk":2400,"def":1200},"rarity":"C","img":"47084486","code":"18","tcg":95454,"grp":1506,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"AP06-EN019","name":"Van'Dalgyon the Dark Dragon Lord","ctype":"monster","keywords":"Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Dragon / Effect","atk":2800,"def":2500},"rarity":"C","img":"24857466","code":"19","tcg":95455,"grp":1506,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"AP06-EN020","name":"Machina Fortress","ctype":"monster","keywords":"Machina Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 7","t":"Machine / Effect","atk":2500,"def":1600},"rarity":"C","img":"5556499","code":"20","tcg":95456,"grp":1506,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"AP06-EN021","name":"Man-Eating Black Shark","ctype":"monster","keywords":"Fish WATER Fusion Monster","stats":{"a":"WATER","l":"Level 5","t":"Fish / Fusion","atk":2100,"def":1300},"rarity":"SP","img":"80727036","code":"21","tcg":95457,"grp":1506,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"AP06-EN022","name":"Madolche Queen Tiaramisu","ctype":"monster","keywords":"Madolche Fairy EARTH Xyz Monster","stats":{"a":"EARTH","l":"Rank 4","t":"Fairy / Xyz","atk":2200,"def":2100},"rarity":"C","img":"37164373","code":"22","tcg":95458,"grp":1506,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"AP06-EN023","name":"Nobleman of Crossout","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"71044499","code":"23","tcg":95459,"grp":1506,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"AP06-EN024","name":"Thunder Crash","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"69196160","code":"24","tcg":95460,"grp":1506,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"AP06-EN025","name":"The Monarchs Stormforth","ctype":"spell","keywords":"Monarch Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"79844764","code":"25","tcg":95461,"grp":1506,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"AP06-EN026","name":"Ceasefire","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"36468556","code":"26","tcg":95462,"grp":1506,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"AP06-EN027","name":"Royal Command","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"33950246","code":"27","tcg":95463,"grp":1506,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"AP06-EN028","name":"Cursed Seal of the Forbidden Spell","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"C","img":"58851034","code":"28","tcg":95464,"grp":1506,"idx":27}
+  ]
+}

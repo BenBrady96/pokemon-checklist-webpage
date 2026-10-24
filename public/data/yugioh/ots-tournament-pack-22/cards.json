@@ -1,0 +1,85 @@
+{
+  "id": "yugioh/ots-tournament-pack-22",
+  "game": "yugioh",
+  "slug": "ots-tournament-pack-22",
+  "name": "OTS Tournament Pack 22",
+  "series": "SEVENS & GO RUSH!!",
+  "kind": "pack",
+  "code": "OP22",
+  "syncKey": "YOP22",
+  "released": "2023-07-19",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "OP22-EN001–OP22-EN027",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from OP22-EN001 to OP22-EN027."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! OTS Tournament Pack 22 Checklist · All 25 Cards",
+    "description": "Free Yu-Gi-Oh! OTS Tournament Pack 22 checklist with no ads, no sign-up and no tracking. Track all 25 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! OTS Tournament Pack 22 Checklist",
+    "ogDescription": "Track all 25 cards in Yu-Gi-Oh! OTS Tournament Pack 22. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 25 cards in Yu-Gi-Oh! OTS Tournament Pack 22. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About OTS Tournament Pack 22",
+    "paragraphs": [
+      "OTS Tournament Pack 22 is a Yu-Gi-Oh! TCG pack released on 19 July 2023, in the SEVENS &amp; GO RUSH!! era. It has 25 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "OTS Tournament Pack 22"
+    ],
+    "tcgplayer": [
+      23260
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"OP22-EN001","name":"Purrelyly","ctype":"monster","keywords":"Purrely Fairy DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Fairy / Effect","atk":100,"def":100},"rarity":"UtR","img":"79933029","code":"1","tcg":505893,"grp":23260,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"OP22-EN002","name":"Branded Fusion","ctype":"spell","keywords":"Branded Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UtR","img":"44362883","code":"2","tcg":505894,"grp":23260,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"OP22-EN003","name":"Triple Tactics Thrust","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UtR","img":"35269904","code":"3","tcg":505896,"grp":23260,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"OP22-EN004","name":"Nimble Angler","ctype":"monster","keywords":"Nimble Fish WATER Effect Monster","stats":{"a":"WATER","l":"Level 2","t":"Fish / Effect","atk":600,"def":100},"rarity":"SR","img":"88686573","code":"4","tcg":505900,"grp":23260,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"OP22-EN005","name":"Baby Raccoon Ponpoko","ctype":"monster","keywords":"Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 2","t":"Beast / Effect","atk":800,"def":0},"rarity":"SR","img":"92729410","code":"5","tcg":505901,"grp":23260,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"OP22-EN006","name":"Unchained Abomination","ctype":"monster","keywords":"Unchained Fiend DARK Link Monster","stats":{"a":"DARK","l":"Link 4","t":"Fiend / Link","atk":3000},"rarity":"SR","img":"29479265","code":"6","tcg":505902,"grp":23260,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"OP22-EN007","name":"Evo-Diversity","ctype":"spell","keywords":"Evolsaur Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"88760522","code":"7","tcg":505903,"grp":23260,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"OP22-EN008","name":"Clear New World","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"21570001","code":"8","tcg":505904,"grp":23260,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"OP22-EN009","name":"Branded Lost","ctype":"spell","keywords":"Branded Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"SR","img":"18973184","code":"9","tcg":505905,"grp":23260,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"OP22-EN010","name":"Runick Dispelling","ctype":"spell","keywords":"Runick Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"SR","img":"66712905","code":"10","tcg":505906,"grp":23260,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"OP22-EN011","name":"Purrely Happy Memory","ctype":"spell","keywords":"Purrely Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"SR","img":"82105704","code":"11","tcg":505907,"grp":23260,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"OP22-EN012","name":"Galaxy Hundred","ctype":"spell","keywords":"Galaxy Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"SR","img":"897409","code":"12","tcg":505908,"grp":23260,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"OP22-EN013","name":"Horn of Olifant","ctype":"trap","keywords":"Roland Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"55749927","code":"13","tcg":505909,"grp":23260,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"OP22-EN014","name":"Morphtronic Remoten","ctype":"monster","keywords":"Morphtronic Machine EARTH Tuner Monster","stats":{"a":"EARTH","l":"Level 3","t":"Machine / Tuner","atk":300,"def":1200},"rarity":"C","img":"57108202","code":"14","tcg":505910,"grp":23260,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"OP22-EN015","name":"Evoltile Najasho","ctype":"monster","keywords":"Evolsaur Reptile FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 2","t":"Reptile / Effect","atk":100,"def":2000},"rarity":"C","img":"88095331","code":"15","tcg":505913,"grp":23260,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"OP22-EN016","name":"Noble Knight Borz","ctype":"monster","keywords":"Noble Knight Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Effect","atk":1700,"def":900},"rarity":"C","img":"47120245","code":"16","tcg":505914,"grp":23260,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"OP22-EN017","name":"Archfiend Eccentrick","ctype":"monster","keywords":"Archfiend Fiend LIGHT Pendulum Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Fiend / Pendulum / Effect","atk":800,"def":1000},"rarity":"C","img":"57624336","code":"17","tcg":505915,"grp":23260,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"OP22-EN018","name":"Power Tool Mecha Dragon","ctype":"monster","keywords":"Power Tool Machine DARK Synchro Monster","stats":{"a":"DARK","l":"Level 7","t":"Machine / Synchro","atk":2300,"def":2500},"rarity":"C","img":"68084557","code":"18","tcg":505917,"grp":23260,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"OP22-EN019","name":"Infernoble Knight Emperor Charles","ctype":"monster","keywords":"Noble Knight Warrior FIRE Synchro Monster","stats":{"a":"FIRE","l":"Level 9","t":"Warrior / Synchro","atk":3000,"def":200},"rarity":"C","img":"77656797","code":"19","tcg":505918,"grp":23260,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"OP22-EN020","name":"Number 28: Titanic Moth","ctype":"monster","keywords":"Insect FIRE Xyz Monster","stats":{"a":"FIRE","l":"Rank 7","t":"Insect / Xyz","atk":2400,"def":2200},"rarity":"C","img":"53701457","code":"20","tcg":505919,"grp":23260,"idx":19},
+    {"id":"023","section":"main","num":"023","printed":"OP22-EN023","name":"De-Synchro","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"32441317","code":"23","tcg":505922,"grp":23260,"idx":20},
+    {"id":"024","section":"main","num":"024","printed":"OP22-EN024","name":"Evo-Force","ctype":"spell","keywords":"Evolsaur Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"5338223","code":"24","tcg":505924,"grp":23260,"idx":21},
+    {"id":"025","section":"main","num":"025","printed":"OP22-EN025","name":"Herald of the Abyss","ctype":"spell","keywords":"Herald Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"94016752","code":"25","tcg":505925,"grp":23260,"idx":22},
+    {"id":"026","section":"main","num":"026","printed":"OP22-EN026","name":"Branded in Red","ctype":"spell","keywords":"Branded Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"82738008","code":"26","tcg":505926,"grp":23260,"idx":23},
+    {"id":"027","section":"main","num":"027","printed":"OP22-EN027","name":"Summon Limit","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"23516703","code":"27","tcg":505927,"grp":23260,"idx":24}
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "yugioh/collectible-tins-2003",
+  "game": "yugioh",
+  "slug": "collectible-tins-2003",
+  "name": "Collectible Tins 2003",
+  "series": "Duel Monsters",
+  "kind": "tin",
+  "code": "BPT",
+  "syncKey": "YBPT2",
+  "released": "2003-09-01",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "BPT-007–BPT-012",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from BPT-007 to BPT-012."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Collectible Tins 2003 Checklist · All 6 Cards",
+    "description": "Free Yu-Gi-Oh! Collectible Tins 2003 checklist with no ads, no sign-up and no tracking. Track all 6 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Collectible Tins 2003 Checklist",
+    "ogDescription": "Track all 6 cards in Yu-Gi-Oh! Collectible Tins 2003. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 6 cards in Yu-Gi-Oh! Collectible Tins 2003. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Collectible Tins 2003",
+    "paragraphs": [
+      "Collectible Tins 2003 is a Yu-Gi-Oh! TCG tin released on 1 September 2003, in the Duel Monsters era. It has 6 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Collectible Tins 2003"
+    ],
+    "tcgplayer": [
+      126
+    ]
+  },
+  "cards": [
+    {"id":"007","section":"main","num":"007","printed":"BPT-007","name":"Dark Magician","ctype":"monster","keywords":"Dark Magician Spellcaster DARK Normal Monster","stats":{"a":"DARK","l":"Level 7","t":"Spellcaster / Normal","atk":2500,"def":2100},"rarity":"ScR","img":"36996508","code":"7","tcg":22800,"grp":126,"idx":0},
+    {"id":"008","section":"main","num":"008","printed":"BPT-008","name":"Buster Blader","ctype":"monster","keywords":"Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 7","t":"Warrior / Effect","atk":2600,"def":2300},"rarity":"ScR","img":"78193831","code":"8","tcg":22801,"grp":126,"idx":1},
+    {"id":"009","section":"main","num":"009","printed":"BPT-009","name":"Blue-Eyes White Dragon","ctype":"monster","keywords":"Blue-Eyes Dragon LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Normal","atk":3000,"def":2500},"rarity":"ScR","img":"89631140","code":"9","tcg":22802,"grp":126,"idx":2},
+    {"id":"010","section":"main","num":"010","printed":"BPT-010","name":"XYZ-Dragon Cannon","ctype":"monster","keywords":"ABC Machine LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Machine / Fusion","atk":2800,"def":2600},"rarity":"ScR","img":"91998119","code":"10","tcg":22803,"grp":126,"idx":3},
+    {"id":"011","section":"main","num":"011","printed":"BPT-011","name":"Jinzo","ctype":"monster","keywords":"Jinzo Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Machine / Effect","atk":2400,"def":1500},"rarity":"ScR","img":"77585513","code":"11","tcg":22804,"grp":126,"idx":4},
+    {"id":"012","section":"main","num":"012","printed":"BPT-012","name":"Gearfried the Iron Knight","ctype":"monster","keywords":"Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Effect","atk":1800,"def":1600},"rarity":"ScR","img":"423705","code":"12","tcg":22805,"grp":126,"idx":5}
+  ]
+}

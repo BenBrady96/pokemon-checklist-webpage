@@ -1,0 +1,109 @@
+{
+  "id": "yugioh/structure-deck-the-crimson-king",
+  "game": "yugioh",
+  "slug": "structure-deck-the-crimson-king",
+  "name": "Structure Deck: The Crimson King",
+  "series": "SEVENS & GO RUSH!!",
+  "kind": "deck",
+  "code": "SDCK",
+  "syncKey": "YSDCK",
+  "released": "2023-09-21",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "SDCK-EN001–SDCK-EN049",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from SDCK-EN001 to SDCK-EN049."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Structure Deck: The Crimson King Checklist · All 49 Cards",
+    "description": "Free Yu-Gi-Oh! Structure Deck: The Crimson King checklist with no ads, no sign-up and no tracking. Track all 49 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Structure Deck: The Crimson King Checklist",
+    "ogDescription": "Track all 49 cards in Yu-Gi-Oh! Structure Deck: The Crimson King. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 49 cards in Yu-Gi-Oh! Structure Deck: The Crimson King. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Structure Deck: The Crimson King",
+    "paragraphs": [
+      "Structure Deck: The Crimson King is a Yu-Gi-Oh! TCG deck released on 21 September 2023, in the SEVENS &amp; GO RUSH!! era. It has 49 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Structure Deck: The Crimson King"
+    ],
+    "tcgplayer": [
+      23207
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"SDCK-EN001","name":"Soul Resonator","ctype":"monster","keywords":"Resonator Fiend FIRE Tuner Monster","stats":{"a":"FIRE","l":"Level 3","t":"Fiend / Tuner","atk":500,"def":200},"rarity":"UR","img":"62991792","code":"1","tcg":515987,"grp":23207,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"SDCK-EN002","name":"Vision Resonator","ctype":"monster","keywords":"Resonator Fiend DARK Tuner Monster","stats":{"a":"DARK","l":"Level 2","t":"Fiend / Tuner","atk":400,"def":400},"rarity":"UR","img":"98396890","code":"2","tcg":515988,"grp":23207,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"SDCK-EN003","name":"Bone Archfiend","ctype":"monster","keywords":"Archfiend Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Effect","atk":1800,"def":0},"rarity":"C","img":"25784595","code":"3","tcg":515990,"grp":23207,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"SDCK-EN004","name":"Dark Resonator","ctype":"monster","keywords":"Resonator Fiend DARK Tuner Monster","stats":{"a":"DARK","l":"Level 3","t":"Fiend / Tuner","atk":1300,"def":300},"rarity":"C","img":"97021916","code":"4","tcg":515992,"grp":23207,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"SDCK-EN005","name":"Creation Resonator","ctype":"monster","keywords":"Resonator Fiend WIND Tuner Monster","stats":{"a":"WIND","l":"Level 3","t":"Fiend / Tuner","atk":800,"def":600},"rarity":"C","img":"5780210","code":"5","tcg":515995,"grp":23207,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"SDCK-EN006","name":"Synkron Resonator","ctype":"monster","keywords":"Resonator Fiend DARK Tuner Monster","stats":{"a":"DARK","l":"Level 1","t":"Fiend / Tuner","atk":100,"def":100},"rarity":"C","img":"77360173","code":"6","tcg":515996,"grp":23207,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"SDCK-EN007","name":"Red Resonator","ctype":"monster","keywords":"Resonator Fiend FIRE Tuner Monster","stats":{"a":"FIRE","l":"Level 2","t":"Fiend / Tuner","atk":600,"def":200},"rarity":"C","img":"40975574","code":"7","tcg":515997,"grp":23207,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"SDCK-EN008","name":"Crimson Resonator","ctype":"monster","keywords":"Resonator Fiend DARK Tuner Monster","stats":{"a":"DARK","l":"Level 2","t":"Fiend / Tuner","atk":800,"def":300},"rarity":"C","img":"34761841","code":"8","tcg":515998,"grp":23207,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"SDCK-EN009","name":"Vice Dragon","ctype":"monster","keywords":"Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 5","t":"Dragon / Effect","atk":2000,"def":2400},"rarity":"C","img":"54343893","code":"9","tcg":515999,"grp":23207,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"SDCK-EN010","name":"Battle Fader","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Fiend / Effect","atk":0,"def":0},"rarity":"C","img":"19665973","code":"10","tcg":516001,"grp":23207,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"SDCK-EN011","name":"Red Sprinter","ctype":"monster","keywords":"Fiend FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Fiend / Effect","atk":1700,"def":1200},"rarity":"C","img":"14886469","code":"11","tcg":516003,"grp":23207,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"SDCK-EN012","name":"Red Warg","ctype":"monster","keywords":"Resonator Fiend FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 6","t":"Fiend / Effect","atk":1400,"def":2200},"rarity":"C","img":"45313993","code":"12","tcg":516005,"grp":23207,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"SDCK-EN013","name":"Wandering King Wildwind","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Effect","atk":1700,"def":1300},"rarity":"C","img":"52589809","code":"13","tcg":516007,"grp":23207,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"SDCK-EN014","name":"Phantom King Hydride","ctype":"monster","keywords":"Fiend DARK Tuner Monster","stats":{"a":"DARK","l":"Level 3","t":"Fiend / Tuner","atk":1500,"def":300},"rarity":"C","img":"6901008","code":"14","tcg":516008,"grp":23207,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"SDCK-EN015","name":"Magical King Moonstar","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Fiend / Effect","atk":900,"def":600},"rarity":"C","img":"35058857","code":"15","tcg":516009,"grp":23207,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"SDCK-EN016","name":"Absolute King Back Jack","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Fiend / Effect","atk":0,"def":0},"rarity":"C","img":"60990740","code":"16","tcg":516010,"grp":23207,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"SDCK-EN017","name":"Red Dragon Archfiend/Assault Mode","ctype":"monster","keywords":"Assault Mode Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 10","t":"Dragon / Effect","atk":3500,"def":2500},"rarity":"C","img":"77336644","code":"17","tcg":516012,"grp":23207,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"SDCK-EN018","name":"Assault Beast","ctype":"monster","keywords":"Assault Mode Beast-Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Beast-Warrior / Effect","atk":1900,"def":1200},"rarity":"C","img":"3431737","code":"18","tcg":516013,"grp":23207,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"SDCK-EN019","name":"Psi-Reflector","ctype":"monster","keywords":"Assault Mode Psychic DARK Tuner Monster","stats":{"a":"DARK","l":"Level 1","t":"Psychic / Tuner","atk":400,"def":300},"rarity":"C","img":"74644400","code":"19","tcg":516015,"grp":23207,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"SDCK-EN020","name":"Fire Ant Ascator","ctype":"monster","keywords":"Insect EARTH Tuner Monster","stats":{"a":"EARTH","l":"Level 3","t":"Insect / Tuner","atk":700,"def":1300},"rarity":"C","img":"78275321","code":"20","tcg":516017,"grp":23207,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"SDCK-EN021","name":"Ascator, Dawnwalker","ctype":"monster","keywords":"Spellcaster EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 5","t":"Spellcaster / Effect","atk":2300,"def":1500},"rarity":"C","img":"71821687","code":"21","tcg":516019,"grp":23207,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"SDCK-EN022","name":"Danger! Nessie!","ctype":"monster","keywords":"Danger! Aqua DARK Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Aqua / Effect","atk":1600,"def":2800},"rarity":"C","img":"70711847","code":"22","tcg":516020,"grp":23207,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"SDCK-EN023","name":"Danger! Chupacabra!","ctype":"monster","keywords":"Danger! Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Effect","atk":1500,"def":400},"rarity":"C","img":"16209941","code":"23","tcg":516021,"grp":23207,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"SDCK-EN024","name":"Witch of the Black Forest","ctype":"monster","keywords":"Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Effect","atk":1100,"def":1200},"rarity":"C","img":"78010363","code":"24","tcg":516023,"grp":23207,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"SDCK-EN025","name":"Absolute Powerforce","ctype":"spell","keywords":"Signature move Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"51779204","code":"25","tcg":516025,"grp":23207,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"SDCK-EN026","name":"Crimson Gaia","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"98173209","code":"26","tcg":516026,"grp":23207,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"SDCK-EN027","name":"Resonator Engine","ctype":"spell","keywords":"Resonator Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"15576074","code":"27","tcg":516028,"grp":23207,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"SDCK-EN028","name":"Resonator Call","ctype":"spell","keywords":"Resonator Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"23008320","code":"28","tcg":516029,"grp":23207,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"SDCK-EN029","name":"Resonator Command","ctype":"spell","keywords":"Resonator Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"8559524","code":"29","tcg":516031,"grp":23207,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"SDCK-EN030","name":"Burning Soul","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"10723472","code":"30","tcg":516032,"grp":23207,"idx":29},
+    {"id":"031","section":"main","num":"031","printed":"SDCK-EN031","name":"Pot of Extravagance","ctype":"spell","keywords":"Greed Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"49238328","code":"31","tcg":516033,"grp":23207,"idx":30},
+    {"id":"032","section":"main","num":"032","printed":"SDCK-EN032","name":"Fiendish Golem","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"24662957","code":"32","tcg":516034,"grp":23207,"idx":31},
+    {"id":"033","section":"main","num":"033","printed":"SDCK-EN033","name":"Red Zone","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"50056656","code":"33","tcg":516035,"grp":23207,"idx":32},
+    {"id":"034","section":"main","num":"034","printed":"SDCK-EN034","name":"King's Synchro","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"27503418","code":"34","tcg":516037,"grp":23207,"idx":33},
+    {"id":"035","section":"main","num":"035","printed":"SDCK-EN035","name":"Red Reign","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"5376159","code":"35","tcg":516038,"grp":23207,"idx":34},
+    {"id":"036","section":"main","num":"036","printed":"SDCK-EN036","name":"Time to Stand Up","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"68490573","code":"36","tcg":516040,"grp":23207,"idx":35},
+    {"id":"037","section":"main","num":"037","printed":"SDCK-EN037","name":"Fiendish Chain","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"50078509","code":"37","tcg":516042,"grp":23207,"idx":36},
+    {"id":"038","section":"main","num":"038","printed":"SDCK-EN038","name":"Powerful Rebirth","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"84298614","code":"38","tcg":516043,"grp":23207,"idx":37},
+    {"id":"039","section":"main","num":"039","printed":"SDCK-EN039","name":"Assault Mode Activate","ctype":"trap","keywords":"Assault Mode Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"80280737","code":"39","tcg":516044,"grp":23207,"idx":38},
+    {"id":"040","section":"main","num":"040","printed":"SDCK-EN040","name":"Terrors of the Overroot","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"63086455","code":"40","tcg":516046,"grp":23207,"idx":39},
+    {"id":"041","section":"main","num":"041","printed":"SDCK-EN041","name":"Scarlight Red Dragon Archfiend","ctype":"monster","keywords":"Archfiend Dragon DARK Synchro Monster","stats":{"a":"DARK","l":"Level 8","t":"Dragon / Synchro","atk":3000,"def":2500},"rarity":"C","img":"80666118","code":"41","tcg":516047,"grp":23207,"idx":40},
+    {"id":"042","section":"main","num":"042","printed":"SDCK-EN042","name":"Hot Red Dragon Archfiend Abyss","ctype":"monster","keywords":"Archfiend Dragon DARK Synchro Monster","stats":{"a":"DARK","l":"Level 9","t":"Dragon / Synchro","atk":3200,"def":2500},"rarity":"C","img":"9753964","code":"42","tcg":516049,"grp":23207,"idx":41},
+    {"id":"043","section":"main","num":"043","printed":"SDCK-EN043","name":"Hot Red Dragon Archfiend Bane","ctype":"monster","keywords":"Archfiend Dragon DARK Synchro Monster","stats":{"a":"DARK","l":"Level 10","t":"Dragon / Synchro","atk":3500,"def":3000},"rarity":"C","img":"36857073","code":"43","tcg":516051,"grp":23207,"idx":42},
+    {"id":"044","section":"main","num":"044","printed":"SDCK-EN044","name":"Red Supernova Dragon","ctype":"monster","keywords":"Dragon DARK Synchro Monster","stats":{"a":"DARK","l":"Level 12","t":"Dragon / Synchro","atk":4000,"def":3000},"rarity":"SR","img":"99585850","code":"44","tcg":516052,"grp":23207,"idx":43},
+    {"id":"045","section":"main","num":"045","printed":"SDCK-EN045","name":"Red Dragon Archfiend","ctype":"monster","keywords":"Archfiend Dragon DARK Synchro Monster","stats":{"a":"DARK","l":"Level 8","t":"Dragon / Synchro","atk":3000,"def":2000},"rarity":"UR","img":"70902743","code":"45","tcg":516053,"grp":23207,"idx":44},
+    {"id":"046","section":"main","num":"046","printed":"SDCK-EN046","name":"Red Nova Dragon","ctype":"monster","keywords":"Archfiend Dragon DARK Synchro Monster","stats":{"a":"DARK","l":"Level 12","t":"Dragon / Synchro","atk":3500,"def":3000},"rarity":"C","img":"97489701","code":"46","tcg":516054,"grp":23207,"idx":45},
+    {"id":"047","section":"main","num":"047","printed":"SDCK-EN047","name":"Hot Red Dragon Archfiend King Calamity","ctype":"monster","keywords":"Archfiend Dragon DARK Synchro Monster","stats":{"a":"DARK","l":"Level 12","t":"Dragon / Synchro","atk":4000,"def":3500},"rarity":"SR","img":"62242678","code":"47","tcg":516055,"grp":23207,"idx":46},
+    {"id":"048","section":"main","num":"048","printed":"SDCK-EN048","name":"Red Rising Dragon","ctype":"monster","keywords":"Resonator Dragon DARK Synchro Monster","stats":{"a":"DARK","l":"Level 6","t":"Dragon / Synchro","atk":2100,"def":1600},"rarity":"UR","img":"66141736","code":"48","tcg":516057,"grp":23207,"idx":47},
+    {"id":"049","section":"main","num":"049","printed":"SDCK-EN049","name":"Scarred Dragon Archfiend","ctype":"monster","keywords":"Archfiend Dragon DARK Synchro Monster","stats":{"a":"DARK","l":"Level 8","t":"Dragon / Synchro","atk":3000,"def":2500},"rarity":"SR","img":"87451661","code":"49","tcg":516058,"grp":23207,"idx":48}
+  ]
+}

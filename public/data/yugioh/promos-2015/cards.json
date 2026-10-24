@@ -1,0 +1,121 @@
+{
+  "id": "yugioh/promos-2015",
+  "game": "yugioh",
+  "slug": "promos-2015",
+  "name": "Promos 2015",
+  "series": "Promos",
+  "kind": "promo",
+  "code": "P2015",
+  "syncKey": "YP2015",
+  "released": "2015-01-10",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "CORE-ENSE1–YZ07-EN001",
+      "tier": "standard"
+    },
+    {
+      "id": "rarities",
+      "name": "Other Rarities",
+      "short": "Other Rarities",
+      "range": "1 card",
+      "tier": "master"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Main set"
+    ],
+    [
+      "rarities",
+      "Other rarities"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, SCR12, 60x2",
+    "example": "1-20, 45x2, SCR12",
+    "hint": "Separate with commas or spaces. Numbers count down the list in order: <b>1-5</b> is the first five cards and <b>3x2</b> is two copies of the third.",
+    "empty": "Cards run from CORE-ENSE1 to YZ07-EN001."
+  },
+  "help": {
+    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 25 cards, each in its main rarity. Master adds the 1 other rarity. Cards you’ve marked are kept when you switch."
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Promos 2015 Checklist · All 25 Cards",
+    "description": "Free Yu-Gi-Oh! Promos 2015 checklist with no ads, no sign-up and no tracking. Track all 25 cards, or every rarity for a master set, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Promos 2015 Checklist",
+    "ogDescription": "Track all 25 cards in Yu-Gi-Oh! Promos 2015, plus 1 other rarity. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 25 cards in Yu-Gi-Oh! Promos 2015. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Promos 2015",
+    "paragraphs": [
+      "Promos 2015 gathers the 25 promo cards from 16 products released in 2015: Clash of Rebellions: Special Edition, Clash of Rebellions Sneak Peek Participation Card, Crossed Souls: Advance Edition, Crossed Souls Sneak Peek Participation Card, Dimension of Chaos: Special Edition, Dimension of Chaos Sneak Peek Participation Card, Weekly Shonen Jump February 2015 membership promotional card, Weekly Shonen Jump April 2015 membership promotional card, Weekly Shonen Jump July 2015 membership promotional card, Weekly Shonen Jump October 2015 membership promotional card, Secrets of Eternity Sneak Peek Participation Card, Yu-Gi-Oh! Championship Series 2015 Prize Card, Yu-Gi-Oh! 5D&#39;s Volume 7 promotional card, Yu-Gi-Oh! 5D&#39;s volume 8 promotional card, Yu-Gi-Oh! ZEXAL Volume 6 promotional card and Yu-Gi-Oh! ZEXAL Volume 7 promotional card.",
+      "Choose what you’re collecting: the <b>Standard set</b> (the 25 cards, each in its main rarity) or the <b>Master set</b> (all 26, adding the 1 other rarity).",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Clash of Rebellions Sneak Peek Participation Card",
+      "Clash of Rebellions: Special Edition",
+      "Crossed Souls Sneak Peek Participation Card",
+      "Crossed Souls: Advance Edition",
+      "Dimension of Chaos Sneak Peek Participation Card",
+      "Dimension of Chaos: Special Edition",
+      "Secrets of Eternity Sneak Peek Participation Card",
+      "Weekly Shonen Jump April 2015 membership promotional card",
+      "Weekly Shonen Jump February 2015 membership promotional card",
+      "Weekly Shonen Jump July 2015 membership promotional card",
+      "Weekly Shonen Jump October 2015 membership promotional card",
+      "Yu-Gi-Oh! 5D's Volume 7 promotional card",
+      "Yu-Gi-Oh! 5D's volume 8 promotional card",
+      "Yu-Gi-Oh! Championship Series 2015 Prize Card",
+      "Yu-Gi-Oh! ZEXAL Volume 6 promotional card",
+      "Yu-Gi-Oh! ZEXAL Volume 7 promotional card"
+    ],
+    "tcgplayer": [
+      1600,
+      1660,
+      1592,
+      281,
+      352,
+      1347,
+      600,
+      1537,
+      1505
+    ]
+  },
+  "cards": [
+    {"id":"CORE-SE1","section":"main","num":"CORE-ENSE1","printed":"CORE-ENSE1","name":"Ultimaya Tzolkin","ctype":"monster","keywords":"Power Tool Dragon DARK Synchro Monster","stats":{"a":"DARK","l":"Level 0","t":"Dragon / Synchro","atk":0,"def":0},"note":"Clash of Rebellions: Special Edition","rarity":"SR","img":"1686814","code":"1","tcg":110434,"grp":1600,"idx":0},
+    {"id":"CORE-SE2","section":"main","num":"CORE-ENSE2","printed":"CORE-ENSE2","name":"Frightfur Tiger","ctype":"monster","keywords":"Edge Imp Fiend DARK Fusion Monster","stats":{"a":"DARK","l":"Level 6","t":"Fiend / Fusion","atk":1900,"def":1200},"note":"Clash of Rebellions: Special Edition","rarity":"SR","img":"464362","code":"2","tcg":110435,"grp":1600,"idx":1},
+    {"id":"CORE-SE3","section":"main","num":"CORE-ENSE3","printed":"CORE-ENSE3","name":"Engraver of the Mark","ctype":"monster","keywords":"Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Effect","atk":1800,"def":1200},"note":"Clash of Rebellions: Special Edition","rarity":"SR","img":"50078320","code":"3","tcg":110436,"grp":1600,"idx":2},
+    {"id":"CORE-SE4","section":"main","num":"CORE-ENSE4","printed":"CORE-ENSE4","name":"Destruction Sword Flash","ctype":"trap","keywords":"Destruction Sword Normal Trap","stats":{"t":"Normal Trap"},"note":"Clash of Rebellions: Special Edition","rarity":"SR","img":"15155568","code":"4","tcg":110437,"grp":1600,"idx":3},
+    {"id":"CORE-SP1","section":"main","num":"CORE-ENSP1","printed":"CORE-ENSP1","name":"Sky Dragoons of Draconia","ctype":"monster","keywords":"Draconia Winged Beast WIND Pendulum Normal Monster","stats":{"a":"WIND","l":"Level 5","t":"Winged Beast / Pendulum / Normal","atk":2200,"def":200},"note":"Clash of Rebellions Sneak Peek Participation Card","rarity":"UR","img":"68182934","code":"5","tcg":102416,"grp":1600,"idx":4},
+    {"id":"CROS-AE1","section":"main","num":"CROS-ENAE1","printed":"CROS-ENAE1","name":"Zefraxa, Flame Beast of the Nekroz","ctype":"monster","keywords":"Nekroz Dragon FIRE Pendulum Effect Monster","stats":{"a":"FIRE","l":"Level 5","t":"Dragon / Pendulum / Effect","atk":2000,"def":1000},"note":"Crossed Souls: Advance Edition","rarity":"SR","img":"20773176","code":"6","tcg":100442,"grp":1592,"idx":5},
+    {"id":"CROS-AE2","section":"main","num":"CROS-ENAE2","printed":"CROS-ENAE2","name":"Chosen of Zefra","ctype":"trap","keywords":"Zefra Continuous Trap","stats":{"t":"Continuous Trap"},"note":"Crossed Souls: Advance Edition","rarity":"SR","img":"98076754","code":"7","tcg":100443,"grp":1592,"idx":6},
+    {"id":"CROS-AE3","section":"main","num":"CROS-ENAE3","printed":"CROS-ENAE3","name":"Wavering Eyes","ctype":"spell","keywords":"Magician Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"note":"Crossed Souls: Advance Edition","rarity":"SR","img":"31222701","code":"8","tcg":100444,"grp":1592,"idx":7},
+    {"id":"CROS-AE4","section":"main","num":"CROS-ENAE4","printed":"CROS-ENAE4","name":"Return of the Red-Eyes","ctype":"trap","keywords":"Red-Eyes Continuous Trap","stats":{"t":"Continuous Trap"},"note":"Crossed Souls: Advance Edition","rarity":"SR","img":"39387565","code":"9","tcg":100445,"grp":1592,"idx":8},
+    {"id":"CROS-SP1","section":"main","num":"CROS-ENSP1","printed":"CROS-ENSP1","name":"Sea Dragoons of Draconia","ctype":"monster","keywords":"Draconia Sea Serpent WATER Pendulum Normal Monster","stats":{"a":"WATER","l":"Level 3","t":"Sea Serpent / Pendulum / Normal","atk":200,"def":2100},"note":"Crossed Souls Sneak Peek Participation Card","rarity":"UR","img":"82114013","code":"10","tcg":98932,"grp":1537,"idx":9},
+    {"id":"DOCS-SE1","section":"main","num":"DOCS-ENSE1","printed":"DOCS-ENSE1","name":"Ultimaya Tzolkin","ctype":"monster","keywords":"Power Tool Dragon DARK Synchro Monster","stats":{"a":"DARK","l":"Level 0","t":"Dragon / Synchro","atk":0,"def":0},"note":"Dimension of Chaos: Special Edition","rarity":"SR","img":"1686814","code":"11","tcg":267969,"grp":1660,"idx":10},
+    {"id":"DOCS-SE2","section":"main","num":"DOCS-ENSE2","printed":"DOCS-ENSE2","name":"Frightfur Tiger","ctype":"monster","keywords":"Edge Imp Fiend DARK Fusion Monster","stats":{"a":"DARK","l":"Level 6","t":"Fiend / Fusion","atk":1900,"def":1200},"note":"Dimension of Chaos: Special Edition","rarity":"SR","img":"464362","code":"12","tcg":267970,"grp":1660,"idx":11},
+    {"id":"DOCS-SE3","section":"main","num":"DOCS-ENSE3","printed":"DOCS-ENSE3","name":"Engraver of the Mark","ctype":"monster","keywords":"Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Effect","atk":1800,"def":1200},"note":"Dimension of Chaos: Special Edition","rarity":"SR","img":"50078320","code":"13","tcg":267971,"grp":1660,"idx":12},
+    {"id":"DOCS-SE4","section":"main","num":"DOCS-ENSE4","printed":"DOCS-ENSE4","name":"Destruction Sword Flash","ctype":"trap","keywords":"Destruction Sword Normal Trap","stats":{"t":"Normal Trap"},"note":"Dimension of Chaos: Special Edition","rarity":"SR","img":"15155568","code":"14","tcg":267987,"grp":1660,"idx":13},
+    {"id":"DOCS-SP1","section":"main","num":"DOCS-ENSP1","printed":"DOCS-ENSP1","name":"Samurai Cavalry of Reptier","ctype":"monster","keywords":"Dinosaur EARTH Pendulum Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Dinosaur / Pendulum / Effect","atk":1800,"def":1200},"note":"Dimension of Chaos Sneak Peek Participation Card","rarity":"UR","img":"93124273","code":"15","tcg":107629,"grp":1660,"idx":14},
+    {"id":"JUMP-071","section":"main","num":"JUMP-EN071","printed":"JUMP-EN071","name":"Elemental HERO Core","ctype":"monster","keywords":"Elemental HERO Warrior EARTH Fusion Monster","stats":{"a":"EARTH","l":"Level 9","t":"Warrior / Fusion","atk":2700,"def":2200},"note":"Weekly Shonen Jump February 2015 membership promotional card","rarity":"UR","img":"95486586","code":"16","tcg":97800,"grp":281,"idx":15},
+    {"id":"JUMP-072","section":"main","num":"JUMP-EN072","printed":"JUMP-EN072","name":"Ultimaya Tzolkin","ctype":"monster","keywords":"Power Tool Dragon DARK Synchro Monster","stats":{"a":"DARK","l":"Level 0","t":"Dragon / Synchro","atk":0,"def":0},"note":"Weekly Shonen Jump April 2015 membership promotional card","rarity":"UR","img":"1686814","code":"17","tcg":98933,"grp":281,"idx":16},
+    {"id":"JUMP-073","section":"main","num":"JUMP-EN073","printed":"JUMP-EN073","name":"Frightfur Tiger","ctype":"monster","keywords":"Edge Imp Fiend DARK Fusion Monster","stats":{"a":"DARK","l":"Level 6","t":"Fiend / Fusion","atk":1900,"def":1200},"note":"Weekly Shonen Jump July 2015 membership promotional card","rarity":"UR","img":"464362","code":"18","tcg":101544,"grp":281,"idx":17},
+    {"id":"JUMP-074","section":"main","num":"JUMP-EN074","printed":"JUMP-EN074","name":"Beast-Eyes Pendulum Dragon","ctype":"monster","keywords":"Pendulum Dragon Dragon EARTH Fusion Monster","stats":{"a":"EARTH","l":"Level 8","t":"Dragon / Fusion","atk":3000,"def":2000},"note":"Weekly Shonen Jump October 2015 membership promotional card","rarity":"UR","img":"72378329","code":"19","tcg":107841,"grp":281,"idx":18},
+    {"id":"SECE-SP1","section":"main","num":"SECE-ENSP1","printed":"SECE-ENSP1","name":"Dragoons of Draconia","ctype":"monster","keywords":"Draconia Beast-Warrior FIRE Pendulum Normal Monster","stats":{"a":"FIRE","l":"Level 4","t":"Beast-Warrior / Pendulum / Normal","atk":1800,"def":200},"note":"Secrets of Eternity Sneak Peek Participation Card","rarity":"UR","img":"73779005","code":"20","tcg":95327,"grp":1505,"idx":19},
+    {"id":"YCSW-008","section":"main","num":"YCSW-EN008","printed":"YCSW-EN008","name":"Minerva, the Exalted Lightsworn","ctype":"monster","keywords":"Lightsworn Fairy LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 4","t":"Fairy / Xyz","atk":2000,"def":800},"note":"Yu-Gi-Oh! Championship Series 2015 Prize Card","rarity":"SR","img":"30100551","code":"21","tcg":106208,"grp":1347,"idx":20},
+    {"id":"YCSW-008-ur","section":"rarities","num":"YCSW-EN008","printed":"YCSW-EN008","name":"Minerva, the Exalted Lightsworn","ctype":"monster","keywords":"Lightsworn Fairy LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 4","t":"Fairy / Xyz","atk":2000,"def":800},"note":"Yu-Gi-Oh! Championship Series 2015 Prize Card","rarity":"UR","img":"30100551","badge":"UR","variant":"Ultra Rare","code":"UR21","tcg":106209,"grp":1347,"idx":21},
+    {"id":"YF07-001","section":"main","num":"YF07-EN001","printed":"YF07-EN001","name":"Black Rose Moonlight Dragon","ctype":"monster","keywords":"Rose Dragon Dragon LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 7","t":"Dragon / Synchro","atk":2400,"def":1800},"note":"Yu-Gi-Oh! 5D's Volume 7 promotional card","rarity":"UR","img":"33698022","code":"22","tcg":96464,"grp":352,"idx":22},
+    {"id":"YF08-001","section":"main","num":"YF08-EN001","printed":"YF08-EN001","name":"Beelzeus of the Diabolic Dragons","ctype":"monster","keywords":"Dragon DARK Synchro Monster","stats":{"a":"DARK","l":"Level 10","t":"Dragon / Synchro","atk":4000,"def":4000},"note":"Yu-Gi-Oh! 5D's volume 8 promotional card","rarity":"UR","img":"8763963","code":"23","tcg":108430,"grp":352,"idx":23},
+    {"id":"YZ06-001","section":"main","num":"YZ06-EN001","printed":"YZ06-EN001","name":"Number 52: Diamond Crab King","ctype":"monster","keywords":"Rock EARTH Xyz Monster","stats":{"a":"EARTH","l":"Rank 4","t":"Rock / Xyz","atk":0,"def":3000},"note":"Yu-Gi-Oh! ZEXAL Volume 6 promotional card","rarity":"UR","img":"7194917","code":"24","tcg":96281,"grp":600,"idx":24},
+    {"id":"YZ07-001","section":"main","num":"YZ07-EN001","printed":"YZ07-EN001","name":"Number 23: Lancelot, Dark Knight of the Underworld","ctype":"monster","keywords":"Zombie DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 8","t":"Zombie / Xyz","atk":2000,"def":1500},"note":"Yu-Gi-Oh! ZEXAL Volume 7 promotional card","rarity":"UR","img":"66547759","code":"25","tcg":104733,"grp":600,"idx":25}
+  ]
+}

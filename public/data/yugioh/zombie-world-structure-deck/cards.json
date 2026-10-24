@@ -1,0 +1,97 @@
+{
+  "id": "yugioh/zombie-world-structure-deck",
+  "game": "yugioh",
+  "slug": "zombie-world-structure-deck",
+  "name": "Zombie World Structure Deck",
+  "series": "5D’s",
+  "kind": "deck",
+  "code": "SDZW",
+  "syncKey": "YSDZW",
+  "released": "2008-10-21",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "SDZW-EN001–SDZW-EN037",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from SDZW-EN001 to SDZW-EN037."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Zombie World Structure Deck Checklist · All 37 Cards",
+    "description": "Free Yu-Gi-Oh! Zombie World Structure Deck checklist with no ads, no sign-up and no tracking. Track all 37 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Zombie World Structure Deck Checklist",
+    "ogDescription": "Track all 37 cards in Yu-Gi-Oh! Zombie World Structure Deck. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 37 cards in Yu-Gi-Oh! Zombie World Structure Deck. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Zombie World Structure Deck",
+    "paragraphs": [
+      "Zombie World Structure Deck is a Yu-Gi-Oh! TCG deck released on 21 October 2008, in the 5D’s era. It has 37 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Zombie World Structure Deck"
+    ],
+    "tcgplayer": [
+      324
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"SDZW-EN001","name":"Red-Eyes Zombie Dragon","ctype":"monster","keywords":"Red-Eyes Zombie DARK Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Zombie / Effect","atk":2400,"def":2000},"rarity":"UR","img":"5186893","code":"1","tcg":32842,"grp":324,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"SDZW-EN002","name":"Malevolent Mech - Goku En","ctype":"monster","keywords":"Zombie LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Zombie / Effect","atk":2400,"def":1400},"rarity":"C","img":"31571902","code":"2","tcg":32834,"grp":324,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"SDZW-EN003","name":"Paladin of the Cursed Dragon","ctype":"monster","keywords":"Zombie LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Zombie / Effect","atk":1900,"def":1200},"rarity":"C","img":"68670547","code":"3","tcg":32837,"grp":324,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"SDZW-EN004","name":"Gernia","ctype":"monster","keywords":"Zombie DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Zombie / Effect","atk":1300,"def":1200},"rarity":"C","img":"77936940","code":"4","tcg":32829,"grp":324,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"SDZW-EN005","name":"Patrician of Darkness","ctype":"monster","keywords":"Zombie DARK Effect Monster","stats":{"a":"DARK","l":"Level 5","t":"Zombie / Effect","atk":2000,"def":1400},"rarity":"C","img":"19153634","code":"5","tcg":32838,"grp":324,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"SDZW-EN006","name":"Royal Keeper","ctype":"monster","keywords":"Zombie EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Zombie / Effect","atk":1600,"def":1700},"rarity":"C","img":"16509093","code":"6","tcg":32845,"grp":324,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"SDZW-EN007","name":"Pyramid Turtle","ctype":"monster","keywords":"Zombie EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Zombie / Effect","atk":1200,"def":1400},"rarity":"C","img":"77044671","code":"7","tcg":32841,"grp":324,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"SDZW-EN008","name":"Master Kyonshee","ctype":"monster","keywords":"Zombie EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 4","t":"Zombie / Normal","atk":1750,"def":1000},"rarity":"C","img":"24530661","code":"8","tcg":32836,"grp":324,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"SDZW-EN009","name":"Spirit Reaper","ctype":"monster","keywords":"Zombie DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Zombie / Effect","atk":300,"def":200},"rarity":"C","img":"23205979","code":"9","tcg":32850,"grp":324,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"SDZW-EN010","name":"Getsu Fuhma","ctype":"monster","keywords":"Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Warrior / Effect","atk":1700,"def":1200},"rarity":"C","img":"21887179","code":"10","tcg":32830,"grp":324,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"SDZW-EN011","name":"Ryu Kokki","ctype":"monster","keywords":"Zombie DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Zombie / Effect","atk":2400,"def":2000},"rarity":"C","img":"57281778","code":"11","tcg":32846,"grp":324,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"SDZW-EN012","name":"Regenerating Mummy","ctype":"monster","keywords":"Zombie DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Zombie / Effect","atk":1800,"def":1500},"rarity":"C","img":"70821187","code":"12","tcg":32843,"grp":324,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"SDZW-EN013","name":"Des Lacooda","ctype":"monster","keywords":"Zombie EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Zombie / Effect","atk":500,"def":600},"rarity":"C","img":"2326738","code":"13","tcg":32826,"grp":324,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"SDZW-EN014","name":"Marionette Mite","ctype":"monster","keywords":"Insect DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Insect / Effect","atk":1000,"def":1000},"rarity":"C","img":"87514539","code":"14","tcg":32835,"grp":324,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"SDZW-EN015","name":"Plague Wolf","ctype":"monster","keywords":"Zombie DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Zombie / Effect","atk":1000,"def":1000},"rarity":"C","img":"55696885","code":"15","tcg":32839,"grp":324,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"SDZW-EN016","name":"Zombie Master","ctype":"monster","keywords":"Zombie DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Zombie / Effect","atk":1800,"def":0},"rarity":"C","img":"17259470","code":"16","tcg":32854,"grp":324,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"SDZW-EN017","name":"Zombie World","ctype":"spell","keywords":"Field Spell","stats":{"t":"Field Spell"},"rarity":"C","img":"4064256","code":"17","tcg":32855,"grp":324,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"SDZW-EN018","name":"Spell Shattering Arrow","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"93260132","code":"18","tcg":32849,"grp":324,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"SDZW-EN019","name":"Cold Wave","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"60682203","code":"19","tcg":32824,"grp":324,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"SDZW-EN020","name":"Magical Stone Excavation","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"98494543","code":"20","tcg":32833,"grp":324,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"SDZW-EN021","name":"Card of Safe Return","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"57953380","code":"21","tcg":32823,"grp":324,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"SDZW-EN022","name":"Creature Swap","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"31036355","code":"22","tcg":32825,"grp":324,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"SDZW-EN023","name":"Book of Life","ctype":"spell","keywords":"Book of Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"2204140","code":"23","tcg":32819,"grp":324,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"SDZW-EN024","name":"Call of the Mummy","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"4861205","code":"24","tcg":32821,"grp":324,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"SDZW-EN025","name":"Terraforming","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"73628505","code":"25","tcg":32851,"grp":324,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"SDZW-EN026","name":"Pot of Avarice","ctype":"spell","keywords":"Greed Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"67169062","code":"26","tcg":32840,"grp":324,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"SDZW-EN027","name":"Shrink","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"55713623","code":"27","tcg":32847,"grp":324,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"SDZW-EN028","name":"Field Barrier","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"7153114","code":"28","tcg":32828,"grp":324,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"SDZW-EN029","name":"Soul Taker","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"81510157","code":"29","tcg":32848,"grp":324,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"SDZW-EN030","name":"Ribbon of Rebirth","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"37534148","code":"30","tcg":32844,"grp":324,"idx":29},
+    {"id":"031","section":"main","num":"031","printed":"SDZW-EN031","name":"Card Destruction","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"72892473","code":"31","tcg":32822,"grp":324,"idx":30},
+    {"id":"032","section":"main","num":"032","printed":"SDZW-EN032","name":"Imperial Iron Wall","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"30459350","code":"32","tcg":28967,"grp":324,"idx":31},
+    {"id":"033","section":"main","num":"033","printed":"SDZW-EN033","name":"Dust Tornado","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"60082869","code":"33","tcg":32827,"grp":324,"idx":32},
+    {"id":"034","section":"main","num":"034","printed":"SDZW-EN034","name":"Bottomless Trap Hole","ctype":"trap","keywords":"Hole Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"29401950","code":"34","tcg":32820,"grp":324,"idx":33},
+    {"id":"035","section":"main","num":"035","printed":"SDZW-EN035","name":"Tutan Mask","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"C","img":"3149764","code":"35","tcg":32852,"grp":324,"idx":34},
+    {"id":"036","section":"main","num":"036","printed":"SDZW-EN036","name":"Waboku","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"12607053","code":"36","tcg":32853,"grp":324,"idx":35},
+    {"id":"037","section":"main","num":"037","printed":"SDZW-EN037","name":"Magical Arm Shield","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"96008713","code":"37","tcg":32832,"grp":324,"idx":36}
+  ]
+}

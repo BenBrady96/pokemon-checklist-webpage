@@ -1,0 +1,83 @@
+{
+  "id": "yugioh/yu-gi-oh-advent-calendar-2019",
+  "game": "yugioh",
+  "slug": "yu-gi-oh-advent-calendar-2019",
+  "name": "Yu-Gi-Oh! Advent Calendar (2019)",
+  "series": "Promos",
+  "kind": "promo",
+  "code": "AC19",
+  "syncKey": "YAC19",
+  "released": "2019-09-26",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "AC19-EN001–AC19-EN023",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. Numbers count down the list in order: <b>1-5</b> is the first five cards and <b>3x2</b> is two copies of the third.",
+    "empty": "Cards run from AC19-EN001 to AC19-EN023."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Yu-Gi-Oh! Advent Calendar (2019) Checklist · All 23 Cards",
+    "description": "Free Yu-Gi-Oh! Yu-Gi-Oh! Advent Calendar (2019) checklist with no ads, no sign-up and no tracking. Track all 23 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Yu-Gi-Oh! Advent Calendar (2019) Checklist",
+    "ogDescription": "Track all 23 cards in Yu-Gi-Oh! Yu-Gi-Oh! Advent Calendar (2019). Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 23 cards in Yu-Gi-Oh! Yu-Gi-Oh! Advent Calendar (2019). Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Yu-Gi-Oh! Advent Calendar (2019)",
+    "paragraphs": [
+      "Yu-Gi-Oh! Advent Calendar (2019) is a Yu-Gi-Oh! TCG promo list released on 26 September 2019. It has 23 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Yu-Gi-Oh! Advent Calendar (2019)"
+    ],
+    "tcgplayer": [
+      2518
+    ]
+  },
+  "cards": [
+    {"id":"AC19-001","section":"main","num":"AC19-EN001","printed":"AC19-EN001","name":"Kuriboh","ctype":"monster","keywords":"Kuriboh Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Fiend / Effect","atk":300,"def":200},"note":"Yu-Gi-Oh! Advent Calendar (2019)","rarity":"UR","img":"40640057","code":"1","tcg":199842,"grp":2518,"idx":0},
+    {"id":"AC19-002","section":"main","num":"AC19-EN002","printed":"AC19-EN002","name":"Multiply","ctype":"spell","keywords":"Kuriboh Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"note":"Yu-Gi-Oh! Advent Calendar (2019)","rarity":"SR","img":"40703222","code":"2","tcg":199843,"grp":2518,"idx":1},
+    {"id":"AC19-003","section":"main","num":"AC19-EN003","printed":"AC19-EN003","name":"Kuriboh Token","ctype":"token","keywords":"Kuriboh Fiend Token","stats":{"t":"Fiend / Token"},"note":"Yu-Gi-Oh! Advent Calendar (2019)","rarity":"SR","img":"40703223","code":"3","tcg":199844,"grp":2518,"idx":2},
+    {"id":"AC19-004","section":"main","num":"AC19-EN004","printed":"AC19-EN004","name":"Clear Kuriboh","ctype":"monster","keywords":"Kuriboh Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Fairy / Effect","atk":300,"def":200},"note":"Yu-Gi-Oh! Advent Calendar (2019)","rarity":"SR","img":"46613515","code":"4","tcg":199845,"grp":2518,"idx":3},
+    {"id":"AC19-005","section":"main","num":"AC19-EN005","printed":"AC19-EN005","name":"Winged Kuriboh LV9","ctype":"monster","keywords":"Kuriboh Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 9","t":"Fairy / Effect","atk":-1,"def":-1},"note":"Yu-Gi-Oh! Advent Calendar (2019)","rarity":"SR","img":"33776734","code":"5","tcg":199846,"grp":2518,"idx":4},
+    {"id":"AC19-006","section":"main","num":"AC19-EN006","printed":"AC19-EN006","name":"Sabatiel - The Philosopher's Stone","ctype":"spell","keywords":"Kuriboh Normal Spell","stats":{"t":"Normal Spell"},"note":"Yu-Gi-Oh! Advent Calendar (2019)","rarity":"SR","img":"80831721","code":"6","tcg":199847,"grp":2518,"idx":5},
+    {"id":"AC19-007","section":"main","num":"AC19-EN007","printed":"AC19-EN007","name":"Berserker Crush","ctype":"spell","keywords":"Kuriboh Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"note":"Yu-Gi-Oh! Advent Calendar (2019)","rarity":"SR","img":"15471265","code":"7","tcg":199848,"grp":2518,"idx":6},
+    {"id":"AC19-008","section":"main","num":"AC19-EN008","printed":"AC19-EN008","name":"Junkuriboh","ctype":"monster","keywords":"Junk Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 1","t":"Machine / Effect","atk":300,"def":200},"note":"Yu-Gi-Oh! Advent Calendar (2019)","rarity":"SR","img":"38491199","code":"8","tcg":199849,"grp":2518,"idx":7},
+    {"id":"AC19-009","section":"main","num":"AC19-EN009","printed":"AC19-EN009","name":"Kurivolt","ctype":"monster","keywords":"Thunder LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Thunder / Effect","atk":300,"def":200},"note":"Yu-Gi-Oh! Advent Calendar (2019)","rarity":"SR","img":"40817915","code":"9","tcg":199850,"grp":2518,"idx":8},
+    {"id":"AC19-010","section":"main","num":"AC19-EN010","printed":"AC19-EN010","name":"Rainbow Kuriboh","ctype":"monster","keywords":"Kuriboh Fiend LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Fiend / Effect","atk":100,"def":100},"note":"Yu-Gi-Oh! Advent Calendar (2019)","rarity":"SR","img":"2830693","code":"10","tcg":199853,"grp":2518,"idx":9},
+    {"id":"AC19-011","section":"main","num":"AC19-EN011","printed":"AC19-EN011","name":"Linkuriboh","ctype":"monster","keywords":"Kuriboh Cyberse DARK Link Monster","stats":{"a":"DARK","l":"Link 1","t":"Cyberse / Link","atk":300},"note":"Yu-Gi-Oh! Advent Calendar (2019)","rarity":"UR","img":"41999284","code":"11","tcg":199854,"grp":2518,"idx":10},
+    {"id":"AC19-012","section":"main","num":"AC19-EN012","printed":"AC19-EN012","name":"Sphere Kuriboh","ctype":"monster","keywords":"Kuriboh Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Fiend / Effect","atk":300,"def":200},"note":"Yu-Gi-Oh! Advent Calendar (2019)","rarity":"SR","img":"33245030","code":"12","tcg":199855,"grp":2518,"idx":11},
+    {"id":"AC19-013","section":"main","num":"AC19-EN013","printed":"AC19-EN013","name":"Relinkuriboh","ctype":"monster","keywords":"Kuriboh Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Fiend / Effect","atk":300,"def":200},"note":"Yu-Gi-Oh! Advent Calendar (2019)","rarity":"SR","img":"50185950","code":"13","tcg":199857,"grp":2518,"idx":12},
+    {"id":"AC19-014","section":"main","num":"AC19-EN014","printed":"AC19-EN014","name":"Kuribohrn","ctype":"monster","keywords":"Kuriboh Fiend LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Fiend / Effect","atk":300,"def":200},"note":"Yu-Gi-Oh! Advent Calendar (2019)","rarity":"SR","img":"78355370","code":"14","tcg":199858,"grp":2518,"idx":13},
+    {"id":"AC19-015","section":"main","num":"AC19-EN015","printed":"AC19-EN015","name":"Detonate","ctype":"spell","keywords":"Kuriboh Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"note":"Yu-Gi-Oh! Advent Calendar (2019)","rarity":"SR","img":"89086566","code":"15","tcg":199860,"grp":2518,"idx":14},
+    {"id":"AC19-016","section":"main","num":"AC19-EN016","printed":"AC19-EN016","name":"Kuriphoton","ctype":"monster","keywords":"Photon Fiend LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Fiend / Effect","atk":300,"def":200},"note":"Yu-Gi-Oh! Advent Calendar (2019)","rarity":"SR","img":"35112613","code":"16","tcg":199861,"grp":2518,"idx":15},
+    {"id":"AC19-017","section":"main","num":"AC19-EN017","printed":"AC19-EN017","name":"Kuribon","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Fairy / Effect","atk":300,"def":200},"note":"Yu-Gi-Oh! Advent Calendar (2019)","rarity":"SR","img":"47432275","code":"17","tcg":199863,"grp":2518,"idx":16},
+    {"id":"AC19-018","section":"main","num":"AC19-EN018","printed":"AC19-EN018","name":"One for One","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"note":"Yu-Gi-Oh! Advent Calendar (2019)","rarity":"UR","img":"2295440","code":"18","tcg":199864,"grp":2518,"idx":17},
+    {"id":"AC19-019","section":"main","num":"AC19-EN019","printed":"AC19-EN019","name":"Kuribandit","ctype":"monster","keywords":"Kuriboh Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Fiend / Effect","atk":1000,"def":700},"note":"Yu-Gi-Oh! Advent Calendar (2019)","rarity":"UR","img":"16404809","code":"19","tcg":199865,"grp":2518,"idx":18},
+    {"id":"AC19-020","section":"main","num":"AC19-EN020","printed":"AC19-EN020","name":"The Flute of Summoning Kuriboh","ctype":"spell","keywords":"Kuriboh Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"note":"Yu-Gi-Oh! Advent Calendar (2019)","rarity":"UR","img":"20065322","code":"20","tcg":199867,"grp":2518,"idx":19},
+    {"id":"AC19-021","section":"main","num":"AC19-EN021","printed":"AC19-EN021","name":"Winged Kuriboh","ctype":"monster","keywords":"Kuriboh Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Fairy / Effect","atk":300,"def":200},"note":"Yu-Gi-Oh! Advent Calendar (2019)","rarity":"UR","img":"57116033","code":"21","tcg":199868,"grp":2518,"idx":20},
+    {"id":"AC19-022","section":"main","num":"AC19-EN022","printed":"AC19-EN022","name":"Transcendent Wings","ctype":"spell","keywords":"Kuriboh Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"note":"Yu-Gi-Oh! Advent Calendar (2019)","rarity":"SR","img":"25573054","code":"22","tcg":199869,"grp":2518,"idx":21},
+    {"id":"AC19-023","section":"main","num":"AC19-EN023","printed":"AC19-EN023","name":"Winged Kuriboh LV10","ctype":"monster","keywords":"Kuriboh Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 10","t":"Fairy / Effect","atk":300,"def":200},"note":"Yu-Gi-Oh! Advent Calendar (2019)","rarity":"SR","img":"98585345","code":"23","tcg":199870,"grp":2518,"idx":22}
+  ]
+}

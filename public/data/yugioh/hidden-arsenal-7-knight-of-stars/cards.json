@@ -1,0 +1,130 @@
+{
+  "id": "yugioh/hidden-arsenal-7-knight-of-stars",
+  "game": "yugioh",
+  "slug": "hidden-arsenal-7-knight-of-stars",
+  "name": "Hidden Arsenal 7: Knight of Stars",
+  "series": "ZEXAL",
+  "kind": "set",
+  "code": "HA07",
+  "syncKey": "YHA07",
+  "released": "2013-04-26",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Main Set",
+      "range": "HA07-EN001–HA07-EN070",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from HA07-EN001 to HA07-EN070."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Hidden Arsenal 7: Knight of Stars Checklist · All 70 Cards",
+    "description": "Free Yu-Gi-Oh! Hidden Arsenal 7: Knight of Stars checklist with no ads, no sign-up and no tracking. Track all 70 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Hidden Arsenal 7: Knight of Stars Checklist",
+    "ogDescription": "Track all 70 cards in Yu-Gi-Oh! Hidden Arsenal 7: Knight of Stars. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 70 cards in Yu-Gi-Oh! Hidden Arsenal 7: Knight of Stars. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About the Hidden Arsenal 7: Knight of Stars set",
+    "paragraphs": [
+      "Hidden Arsenal 7: Knight of Stars is a Yu-Gi-Oh! TCG special set released on 26 April 2013, in the ZEXAL era. It has 70 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Hidden Arsenal 7: Knight of Stars"
+    ],
+    "tcgplayer": [
+      1110
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"HA07-EN001","name":"Gem-Knight Sardonyx","ctype":"monster","keywords":"Gem- Pyro EARTH Gemini Monster","stats":{"a":"EARTH","l":"Level 4","t":"Pyro / Gemini","atk":1800,"def":900},"rarity":"SR","img":"43114901","code":"1","tcg":68033,"grp":1110,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"HA07-EN002","name":"Laval Phlogis","ctype":"monster","keywords":"Laval Pyro FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Pyro / Effect","atk":1700,"def":800},"rarity":"SR","img":"89609515","code":"2","tcg":68034,"grp":1110,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"HA07-EN003","name":"Gishki Avance","ctype":"monster","keywords":"Gishki Spellcaster WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Spellcaster / Effect","atk":1500,"def":800},"rarity":"SR","img":"16693254","code":"3","tcg":68035,"grp":1110,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"HA07-EN004","name":"Gusto Griffin","ctype":"monster","keywords":"Gusto Winged Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 2","t":"Winged Beast / Effect","atk":800,"def":300},"rarity":"SR","img":"42082363","code":"4","tcg":68036,"grp":1110,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"HA07-EN005","name":"Constellar Sheratan","ctype":"monster","keywords":"Constellar Beast LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Beast / Effect","atk":700,"def":1900},"rarity":"SR","img":"78486968","code":"5","tcg":68037,"grp":1110,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"HA07-EN006","name":"Constellar Aldebaran","ctype":"monster","keywords":"Constellar Beast-Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Beast-Warrior / Effect","atk":1300,"def":800},"rarity":"SR","img":"15871676","code":"6","tcg":68038,"grp":1110,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"HA07-EN007","name":"Constellar Algiedi","ctype":"monster","keywords":"Constellar Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Effect","atk":1600,"def":1400},"rarity":"SR","img":"41269771","code":"7","tcg":68039,"grp":1110,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"HA07-EN008","name":"Constellar Pollux","ctype":"monster","keywords":"Constellar Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Effect","atk":1700,"def":600},"rarity":"SR","img":"78364470","code":"8","tcg":68040,"grp":1110,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"HA07-EN009","name":"Constellar Zubeneschamali","ctype":"monster","keywords":"Constellar Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 5","t":"Machine / Effect","atk":2100,"def":1400},"rarity":"ScR","img":"14759024","code":"9","tcg":68041,"grp":1110,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"HA07-EN010","name":"Constellar Virgo","ctype":"monster","keywords":"Constellar Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 5","t":"Fairy / Effect","atk":2300,"def":1600},"rarity":"SR","img":"40143123","code":"10","tcg":68042,"grp":1110,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"HA07-EN011","name":"Evilswarm Heliotrope","ctype":"monster","keywords":"Lswarm Rock DARK Normal Monster","stats":{"a":"DARK","l":"Level 4","t":"Rock / Normal","atk":1950,"def":650},"rarity":"SR","img":"77542832","code":"11","tcg":68043,"grp":1110,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"HA07-EN012","name":"Evilswarm Zahak","ctype":"monster","keywords":"Lswarm Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Dragon / Effect","atk":1850,"def":850},"rarity":"SR","img":"3536537","code":"12","tcg":68044,"grp":1110,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"HA07-EN013","name":"Evilswarm Ketos","ctype":"monster","keywords":"Lswarm Aqua DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Aqua / Effect","atk":1750,"def":1050},"rarity":"SR","img":"40921545","code":"13","tcg":68045,"grp":1110,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"HA07-EN014","name":"Evilswarm O'lantern","ctype":"monster","keywords":"Lswarm Pyro DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Pyro / Effect","atk":1650,"def":1250},"rarity":"SR","img":"72429240","code":"14","tcg":68046,"grp":1110,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"HA07-EN015","name":"Evilswarm Mandragora","ctype":"monster","keywords":"Lswarm Plant DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Plant / Effect","atk":1550,"def":1450},"rarity":"SR","img":"8814959","code":"15","tcg":68047,"grp":1110,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"HA07-EN016","name":"Evilswarm Hraesvelg","ctype":"monster","keywords":"Lswarm Winged Beast DARK Flip Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Winged Beast / Flip / Effect","atk":1150,"def":1850},"rarity":"SR","img":"35209994","code":"16","tcg":68048,"grp":1110,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"HA07-EN017","name":"Evigishki Levianima","ctype":"monster","keywords":"Gishki Aqua WATER Ritual Effect Monster","stats":{"a":"WATER","l":"Level 8","t":"Aqua / Ritual / Effect","atk":2700,"def":1500},"rarity":"ScR","img":"71203602","code":"17","tcg":68049,"grp":1110,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"HA07-EN018","name":"Gem-Knight Zirconia","ctype":"monster","keywords":"Gem- Rock EARTH Fusion Monster","stats":{"a":"EARTH","l":"Level 8","t":"Rock / Fusion","atk":2900,"def":2500},"rarity":"SR","img":"8692301","code":"18","tcg":68050,"grp":1110,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"HA07-EN019","name":"Lavalval Chain","ctype":"monster","keywords":"Laval Sea Serpent FIRE Xyz Monster","stats":{"a":"FIRE","l":"Rank 4","t":"Sea Serpent / Xyz","atk":1800,"def":1000},"rarity":"ScR","img":"34086406","code":"19","tcg":68051,"grp":1110,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"HA07-EN020","name":"Daigusto Emeral","ctype":"monster","keywords":"Gusto Rock WIND Xyz Monster","stats":{"a":"WIND","l":"Rank 4","t":"Rock / Xyz","atk":1800,"def":800},"rarity":"ScR","img":"581014","code":"20","tcg":68052,"grp":1110,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"HA07-EN021","name":"Constellar Hyades","ctype":"monster","keywords":"Constellar Beast-Warrior LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 3","t":"Beast-Warrior / Xyz","atk":1900,"def":1100},"rarity":"ScR","img":"47579719","code":"21","tcg":68053,"grp":1110,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"HA07-EN022","name":"Constellar Pleiades","ctype":"monster","keywords":"Constellar Warrior LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 5","t":"Warrior / Xyz","atk":2500,"def":1500},"rarity":"ScR","img":"73964868","code":"22","tcg":68054,"grp":1110,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"HA07-EN023","name":"Evilswarm Nightmare","ctype":"monster","keywords":"Lswarm Fiend DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 4","t":"Fiend / Xyz","atk":950,"def":1950},"rarity":"SR","img":"359563","code":"23","tcg":68055,"grp":1110,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"HA07-EN024","name":"Evilswarm Bahamut","ctype":"monster","keywords":"Lswarm Dragon DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 4","t":"Dragon / Xyz","atk":2350,"def":1350},"rarity":"ScR","img":"36757171","code":"24","tcg":68056,"grp":1110,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"HA07-EN025","name":"Molten Conduction Field","ctype":"spell","keywords":"Laval Normal Spell","stats":{"t":"Normal Spell"},"rarity":"ScR","img":"72142276","code":"25","tcg":68057,"grp":1110,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"HA07-EN026","name":"Gishki Photomirror","ctype":"spell","keywords":"Gishki Ritual Spell","stats":{"t":"Ritual Spell"},"rarity":"SR","img":"9236985","code":"26","tcg":68058,"grp":1110,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"HA07-EN027","name":"Constellar Star Chart","ctype":"spell","keywords":"Constellar Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"ScR","img":"35631584","code":"27","tcg":68059,"grp":1110,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"HA07-EN028","name":"Fragment Fusion","ctype":"trap","keywords":"Gem- Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"72029628","code":"28","tcg":68060,"grp":1110,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"HA07-EN029","name":"Dust Storm of Gusto","ctype":"trap","keywords":"Gusto Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"8414337","code":"29","tcg":68061,"grp":1110,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"HA07-EN030","name":"Infestation Infection","ctype":"trap","keywords":"Infestation Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"ScR","img":"35419032","code":"30","tcg":68062,"grp":1110,"idx":29},
+    {"id":"031","section":"main","num":"031","printed":"HA07-EN031","name":"D.D. Esper Star Sparrow","ctype":"monster","keywords":"D.D. Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 10","t":"Warrior / Effect","atk":3000,"def":1500},"rarity":"ScR","img":"80208158","code":"31","tcg":68063,"grp":1110,"idx":30},
+    {"id":"032","section":"main","num":"032","printed":"HA07-EN032","name":"Beast-Warrior Puma","ctype":"monster","keywords":"Beast-Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Beast-Warrior / Effect","atk":1600,"def":1000},"rarity":"SR","img":"16796157","code":"32","tcg":68064,"grp":1110,"idx":31},
+    {"id":"033","section":"main","num":"033","printed":"HA07-EN033","name":"Phoenix Beast Gairuda","ctype":"monster","keywords":"Winged Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 6","t":"Winged Beast / Effect","atk":2500,"def":1200},"rarity":"SR","img":"43791861","code":"33","tcg":68065,"grp":1110,"idx":32},
+    {"id":"034","section":"main","num":"034","printed":"HA07-EN034","name":"Ironhammer the Giant","ctype":"monster","keywords":"Rock EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 8","t":"Rock / Effect","atk":900,"def":3500},"rarity":"SR","img":"79185500","code":"34","tcg":68066,"grp":1110,"idx":33},
+    {"id":"035","section":"main","num":"035","printed":"HA07-EN035","name":"D.D. Jet Iron","ctype":"monster","keywords":"D.D. Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 10","t":"Machine / Effect","atk":4000,"def":0},"rarity":"SR","img":"15574615","code":"35","tcg":68067,"grp":1110,"idx":34},
+    {"id":"036","section":"main","num":"036","printed":"HA07-EN036","name":"Aye-Iron","ctype":"monster","keywords":"Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Machine / Effect","atk":1600,"def":1800},"rarity":"SR","img":"42969214","code":"36","tcg":68068,"grp":1110,"idx":35},
+    {"id":"037","section":"main","num":"037","printed":"HA07-EN037","name":"Tin Goldfish","ctype":"monster","keywords":"Machine WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Machine / Effect","atk":800,"def":2000},"rarity":"SR","img":"18063928","code":"37","tcg":68069,"grp":1110,"idx":36},
+    {"id":"038","section":"main","num":"038","printed":"HA07-EN038","name":"Gearspring Spirit","ctype":"monster","keywords":"Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Machine / Effect","atk":100,"def":100},"rarity":"SR","img":"45458027","code":"38","tcg":68070,"grp":1110,"idx":37},
+    {"id":"039","section":"main","num":"039","printed":"HA07-EN039","name":"Gem-Knight Lazuli","ctype":"monster","keywords":"Gem- Rock EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 1","t":"Rock / Effect","atk":600,"def":100},"rarity":"SR","img":"81846636","code":"39","tcg":68071,"grp":1110,"idx":38},
+    {"id":"040","section":"main","num":"040","printed":"HA07-EN040","name":"Gishki Natalia","ctype":"monster","keywords":"Gishki Spellcaster WATER Spirit Monster","stats":{"a":"WATER","l":"Level 4","t":"Spellcaster / Spirit","atk":1800,"def":900},"rarity":"SR","img":"17241370","code":"40","tcg":68072,"grp":1110,"idx":39},
+    {"id":"041","section":"main","num":"041","printed":"HA07-EN041","name":"Constellar Siat","ctype":"monster","keywords":"Constellar Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Fairy / Effect","atk":100,"def":1600},"rarity":"SR","img":"44635489","code":"41","tcg":68073,"grp":1110,"idx":40},
+    {"id":"042","section":"main","num":"042","printed":"HA07-EN042","name":"Constellar Rasalhague","ctype":"monster","keywords":"Constellar Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 2","t":"Spellcaster / Effect","atk":900,"def":100},"rarity":"SR","img":"70624184","code":"42","tcg":68074,"grp":1110,"idx":41},
+    {"id":"043","section":"main","num":"043","printed":"HA07-EN043","name":"Constellar Leonis","ctype":"monster","keywords":"Constellar Beast LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Beast / Effect","atk":1000,"def":1800},"rarity":"SR","img":"17129783","code":"43","tcg":68075,"grp":1110,"idx":42},
+    {"id":"044","section":"main","num":"044","printed":"HA07-EN044","name":"Constellar Acubens","ctype":"monster","keywords":"Constellar Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Machine / Effect","atk":800,"def":2000},"rarity":"SR","img":"43513897","code":"44","tcg":68076,"grp":1110,"idx":43},
+    {"id":"045","section":"main","num":"045","printed":"HA07-EN045","name":"Constellar Kaus","ctype":"monster","keywords":"Constellar Beast-Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Beast-Warrior / Effect","atk":1800,"def":700},"rarity":"ScR","img":"70908596","code":"45","tcg":68077,"grp":1110,"idx":44},
+    {"id":"046","section":"main","num":"046","printed":"HA07-EN046","name":"Constellar Alrescha","ctype":"monster","keywords":"Constellar Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Warrior / Effect","atk":2200,"def":1200},"rarity":"SR","img":"16906241","code":"46","tcg":68078,"grp":1110,"idx":45},
+    {"id":"047","section":"main","num":"047","printed":"HA07-EN047","name":"Constellar Antares","ctype":"monster","keywords":"Constellar Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Machine / Effect","atk":2400,"def":900},"rarity":"SR","img":"42391240","code":"47","tcg":68079,"grp":1110,"idx":46},
+    {"id":"048","section":"main","num":"048","printed":"HA07-EN048","name":"Evilswarm Castor","ctype":"monster","keywords":"Steelswarm Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Warrior / Effect","atk":1750,"def":550},"rarity":"SR","img":"79785958","code":"48","tcg":68080,"grp":1110,"idx":47},
+    {"id":"049","section":"main","num":"049","printed":"HA07-EN049","name":"Evilswarm Obliviwisp","ctype":"monster","keywords":"Lswarm Pyro DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Pyro / Effect","atk":450,"def":2050},"rarity":"SR","img":"5284653","code":"49","tcg":68081,"grp":1110,"idx":48},
+    {"id":"050","section":"main","num":"050","printed":"HA07-EN050","name":"Evilswarm Azzathoth","ctype":"monster","keywords":"Lswarm Reptile DARK Flip Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Reptile / Flip / Effect","atk":750,"def":1950},"rarity":"SR","img":"42679662","code":"50","tcg":68082,"grp":1110,"idx":49},
+    {"id":"051","section":"main","num":"051","printed":"HA07-EN051","name":"Evilswarm Thunderbird","ctype":"monster","keywords":"Lswarm Thunder DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Thunder / Effect","atk":1650,"def":1050},"rarity":"ScR","img":"78663366","code":"51","tcg":68083,"grp":1110,"idx":50},
+    {"id":"052","section":"main","num":"052","printed":"HA07-EN052","name":"Evilswarm Salamandra","ctype":"monster","keywords":"Lswarm Dinosaur DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Dinosaur / Effect","atk":1850,"def":950},"rarity":"SR","img":"4058065","code":"52","tcg":68084,"grp":1110,"idx":51},
+    {"id":"053","section":"main","num":"053","printed":"HA07-EN053","name":"Evilswarm Golem","ctype":"monster","keywords":"Lswarm Rock DARK Effect Monster","stats":{"a":"DARK","l":"Level 5","t":"Rock / Effect","atk":2150,"def":1250},"rarity":"SR","img":"31456110","code":"53","tcg":68085,"grp":1110,"idx":52},
+    {"id":"054","section":"main","num":"054","printed":"HA07-EN054","name":"Evilswarm Coppelia","ctype":"monster","keywords":"Lswarm Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Machine / Effect","atk":2450,"def":2050},"rarity":"SR","img":"77841719","code":"54","tcg":68086,"grp":1110,"idx":53},
+    {"id":"055","section":"main","num":"055","printed":"HA07-EN055","name":"Sophia, Goddess of Rebirth","ctype":"monster","keywords":"Fairy DARK Effect Monster","stats":{"a":"DARK","l":"Level 11","t":"Fairy / Effect","atk":3600,"def":3400},"rarity":"ScR","img":"4335427","code":"55","tcg":68087,"grp":1110,"idx":54},
+    {"id":"056","section":"main","num":"056","printed":"HA07-EN056","name":"Gishki Psychelone","ctype":"monster","keywords":"Gishki Fiend WATER Ritual Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Fiend / Ritual / Effect","atk":2150,"def":1650},"rarity":"SR","img":"30334522","code":"56","tcg":68088,"grp":1110,"idx":55},
+    {"id":"057","section":"main","num":"057","printed":"HA07-EN057","name":"Gishki Zielgigas","ctype":"monster","keywords":"Gishki Aqua WATER Ritual Effect Monster","stats":{"a":"WATER","l":"Level 10","t":"Aqua / Ritual / Effect","atk":3200,"def":0},"rarity":"ScR","img":"66729231","code":"57","tcg":68089,"grp":1110,"idx":56},
+    {"id":"058","section":"main","num":"058","printed":"HA07-EN058","name":"Gem-Knight Seraphinite","ctype":"monster","keywords":"Gem- Fairy EARTH Fusion Monster","stats":{"a":"EARTH","l":"Level 5","t":"Fairy / Fusion","atk":2300,"def":1400},"rarity":"SR","img":"3113836","code":"58","tcg":68090,"grp":1110,"idx":57},
+    {"id":"059","section":"main","num":"059","printed":"HA07-EN059","name":"Gem-Knight Master Diamond","ctype":"monster","keywords":"Gem- Rock EARTH Fusion Monster","stats":{"a":"EARTH","l":"Level 9","t":"Rock / Fusion","atk":2900,"def":2500},"rarity":"ScR","img":"39512984","code":"59","tcg":68091,"grp":1110,"idx":58},
+    {"id":"060","section":"main","num":"060","printed":"HA07-EN060","name":"Tin Archduke","ctype":"monster","keywords":"Machine EARTH Xyz Monster","stats":{"a":"EARTH","l":"Rank 4","t":"Machine / Xyz","atk":2200,"def":1200},"rarity":"ScR","img":"66506689","code":"60","tcg":68092,"grp":1110,"idx":59},
+    {"id":"061","section":"main","num":"061","printed":"HA07-EN061","name":"Constellar Praesepe","ctype":"monster","keywords":"Constellar Machine LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 4","t":"Machine / Xyz","atk":2400,"def":800},"rarity":"ScR","img":"2091298","code":"61","tcg":68093,"grp":1110,"idx":60},
+    {"id":"062","section":"main","num":"062","printed":"HA07-EN062","name":"Constellar Ptolemy M7","ctype":"monster","keywords":"Constellar Machine LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 6","t":"Machine / Xyz","atk":2700,"def":2000},"rarity":"ScR","img":"38495396","code":"62","tcg":68094,"grp":1110,"idx":61},
+    {"id":"063","section":"main","num":"063","printed":"HA07-EN063","name":"Evilswarm Thanatos","ctype":"monster","keywords":"Lswarm Fiend DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 4","t":"Fiend / Xyz","atk":2350,"def":1350},"rarity":"ScR","img":"65884091","code":"63","tcg":68095,"grp":1110,"idx":62},
+    {"id":"064","section":"main","num":"064","printed":"HA07-EN064","name":"Evilswarm Ophion","ctype":"monster","keywords":"Lswarm Dragon DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 4","t":"Dragon / Xyz","atk":2550,"def":1650},"rarity":"ScR","img":"91279700","code":"64","tcg":68096,"grp":1110,"idx":63},
+    {"id":"065","section":"main","num":"065","printed":"HA07-EN065","name":"Evilswarm Ouroboros","ctype":"monster","keywords":"Lswarm Dragon DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 4","t":"Dragon / Xyz","atk":2750,"def":1950},"rarity":"ScR","img":"38273745","code":"65","tcg":68097,"grp":1110,"idx":64},
+    {"id":"066","section":"main","num":"066","printed":"HA07-EN066","name":"Iron Call","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"ScR","img":"64662453","code":"66","tcg":68098,"grp":1110,"idx":65},
+    {"id":"067","section":"main","num":"067","printed":"HA07-EN067","name":"Constellar Star Cradle","ctype":"spell","keywords":"Constellar Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"90156158","code":"67","tcg":68099,"grp":1110,"idx":66},
+    {"id":"068","section":"main","num":"068","printed":"HA07-EN068","name":"Infestation Pandemic","ctype":"spell","keywords":"Infestation Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"ScR","img":"27541267","code":"68","tcg":68100,"grp":1110,"idx":67},
+    {"id":"069","section":"main","num":"069","printed":"HA07-EN069","name":"Constellar Meteor","ctype":"trap","keywords":"Constellar Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"63545861","code":"69","tcg":68101,"grp":1110,"idx":68},
+    {"id":"070","section":"main","num":"070","printed":"HA07-EN070","name":"Infestation Terminus","ctype":"trap","keywords":"Infestation Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"90934570","code":"70","tcg":68102,"grp":1110,"idx":69}
+  ]
+}

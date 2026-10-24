@@ -1,0 +1,106 @@
+{
+  "id": "yugioh/duelist-pack-rivals-of-the-pharaoh",
+  "game": "yugioh",
+  "slug": "duelist-pack-rivals-of-the-pharaoh",
+  "name": "Duelist Pack: Rivals of the Pharaoh",
+  "series": "ARC-V",
+  "kind": "pack",
+  "code": "DPRP",
+  "syncKey": "YDPRP",
+  "released": "2016-09-15",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "DPRP-EN001–DPRP-EN046",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from DPRP-EN001 to DPRP-EN046."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Duelist Pack: Rivals of the Pharaoh Checklist · All 46 Cards",
+    "description": "Free Yu-Gi-Oh! Duelist Pack: Rivals of the Pharaoh checklist with no ads, no sign-up and no tracking. Track all 46 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Duelist Pack: Rivals of the Pharaoh Checklist",
+    "ogDescription": "Track all 46 cards in Yu-Gi-Oh! Duelist Pack: Rivals of the Pharaoh. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 46 cards in Yu-Gi-Oh! Duelist Pack: Rivals of the Pharaoh. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Duelist Pack: Rivals of the Pharaoh",
+    "paragraphs": [
+      "Duelist Pack: Rivals of the Pharaoh is a Yu-Gi-Oh! TCG pack released on 15 September 2016, in the ARC-V era. It has 46 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Duelist Pack: Rivals of the Pharaoh"
+    ],
+    "tcgplayer": [
+      1838
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"DPRP-EN001","name":"Silent Swordsman","ctype":"monster","keywords":"Silent Swordsman Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Effect","atk":1000,"def":1000},"rarity":"UR","img":"15180041","code":"1","tcg":122940,"grp":1838,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"DPRP-EN002","name":"Silent Magician","ctype":"monster","keywords":"Silent Magician Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Effect","atk":1000,"def":1000},"rarity":"UR","img":"41175645","code":"2","tcg":122941,"grp":1838,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"DPRP-EN003","name":"Silent Paladin","ctype":"monster","keywords":"Silent Swordsman Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fairy / Effect","atk":500,"def":1500},"rarity":"UR","img":"19502505","code":"3","tcg":122942,"grp":1838,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"DPRP-EN004","name":"Silent Sword Slash","ctype":"spell","keywords":"Silent Swordsman Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"SR","img":"18563744","code":"4","tcg":122943,"grp":1838,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"DPRP-EN005","name":"Silent Burning","ctype":"spell","keywords":"Silent Magician Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"SR","img":"44968459","code":"5","tcg":122944,"grp":1838,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"DPRP-EN006","name":"Magnet Reverse","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"SR","img":"80352158","code":"6","tcg":122945,"grp":1838,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"DPRP-EN007","name":"Magnet Force","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"17841166","code":"7","tcg":122946,"grp":1838,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"DPRP-EN008","name":"Neutron Blast","ctype":"spell","keywords":"Blue-Eyes Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UR","img":"43845801","code":"8","tcg":122947,"grp":1838,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"DPRP-EN009","name":"Lullaby of Obedience","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UR","img":"39238953","code":"9","tcg":122948,"grp":1838,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"DPRP-EN010","name":"Tribute Burial","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"80230510","code":"10","tcg":122949,"grp":1838,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"DPRP-EN011","name":"Dark Sanctuary","ctype":"spell","keywords":"Spirit Message Field Spell","stats":{"t":"Field Spell"},"rarity":"UR","img":"16625614","code":"11","tcg":122950,"grp":1838,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"DPRP-EN012","name":"Dragon Master Knight","ctype":"monster","keywords":"Blue-Eyes Dragon LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 12","t":"Dragon / Fusion","atk":5000,"def":5000},"rarity":"R","img":"62873545","code":"12","tcg":122951,"grp":1838,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"DPRP-EN013","name":"Dark Magician of Chaos","ctype":"monster","keywords":"Dark Magician Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Spellcaster / Effect","atk":2800,"def":2600},"rarity":"R","img":"40737112","code":"13","tcg":122952,"grp":1838,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"DPRP-EN014","name":"Dedication through Light and Darkness","ctype":"spell","keywords":"Dark Magician Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"69542930","code":"14","tcg":122953,"grp":1838,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"DPRP-EN015","name":"Fiend's Sanctuary","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"R","img":"24874630","code":"15","tcg":122954,"grp":1838,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"DPRP-EN016","name":"Silent Swordsman LV3","ctype":"monster","keywords":"Silent Swordsman Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Warrior / Effect","atk":1000,"def":1000},"rarity":"C","img":"1995985","code":"16","tcg":122955,"grp":1838,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"DPRP-EN017","name":"Silent Swordsman LV5","ctype":"monster","keywords":"Silent Swordsman Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 5","t":"Warrior / Effect","atk":2300,"def":1000},"rarity":"C","img":"74388798","code":"17","tcg":122956,"grp":1838,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"DPRP-EN018","name":"Silent Swordsman LV7","ctype":"monster","keywords":"Silent Swordsman Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 7","t":"Warrior / Effect","atk":2800,"def":1000},"rarity":"C","img":"37267041","code":"18","tcg":122957,"grp":1838,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"DPRP-EN019","name":"Silent Magician LV4","ctype":"monster","keywords":"Silent Magician Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Effect","atk":1000,"def":1000},"rarity":"C","img":"73665146","code":"19","tcg":122958,"grp":1838,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"DPRP-EN020","name":"Silent Magician LV8","ctype":"monster","keywords":"Silent Magician Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Spellcaster / Effect","atk":3500,"def":1000},"rarity":"C","img":"72443568","code":"20","tcg":122959,"grp":1838,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"DPRP-EN021","name":"Green Gadget","ctype":"monster","keywords":"Gadget Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Machine / Effect","atk":1400,"def":600},"rarity":"C","img":"41172955","code":"21","tcg":122960,"grp":1838,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"DPRP-EN022","name":"Red Gadget","ctype":"monster","keywords":"Gadget Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Machine / Effect","atk":1300,"def":1500},"rarity":"C","img":"86445415","code":"22","tcg":122961,"grp":1838,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"DPRP-EN023","name":"Yellow Gadget","ctype":"monster","keywords":"Gadget Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Machine / Effect","atk":1200,"def":1200},"rarity":"C","img":"13839120","code":"23","tcg":122962,"grp":1838,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"DPRP-EN024","name":"Stronghold the Moving Fortress","ctype":"trap","keywords":"Gadget Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"13955608","code":"24","tcg":122963,"grp":1838,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"DPRP-EN025","name":"Blue-Eyes Ultimate Dragon","ctype":"monster","keywords":"Blue-Eyes Dragon LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 12","t":"Dragon / Fusion","atk":4500,"def":3800},"rarity":"R","img":"23995346","code":"25","tcg":122964,"grp":1838,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"DPRP-EN026","name":"Blue-Eyes Shining Dragon","ctype":"monster","keywords":"Blue-Eyes Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 10","t":"Dragon / Effect","atk":3000,"def":2500},"rarity":"C","img":"53347303","code":"26","tcg":122965,"grp":1838,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"DPRP-EN027","name":"YZ-Tank Dragon","ctype":"monster","keywords":"ABC Machine LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Machine / Fusion","atk":2100,"def":2200},"rarity":"R","img":"25119460","code":"27","tcg":122966,"grp":1838,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"DPRP-EN028","name":"Dragon's Mirror","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"R","img":"71490127","code":"28","tcg":122967,"grp":1838,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"DPRP-EN029","name":"Dragon Shrine","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"R","img":"41620959","code":"29","tcg":122968,"grp":1838,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"DPRP-EN030","name":"Silver's Cry","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"SR","img":"87025064","code":"30","tcg":122969,"grp":1838,"idx":29},
+    {"id":"031","section":"main","num":"031","printed":"DPRP-EN031","name":"Castle of Dragon Souls","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"R","img":"13513663","code":"31","tcg":122970,"grp":1838,"idx":30},
+    {"id":"032","section":"main","num":"032","printed":"DPRP-EN032","name":"Helpoemer","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 5","t":"Fiend / Effect","atk":2000,"def":1400},"rarity":"C","img":"76052811","code":"32","tcg":122971,"grp":1838,"idx":31},
+    {"id":"033","section":"main","num":"033","printed":"DPRP-EN033","name":"Metal Reflect Slime","ctype":"trap","keywords":"Slime Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"R","img":"26905245","code":"33","tcg":122972,"grp":1838,"idx":32},
+    {"id":"034","section":"main","num":"034","printed":"DPRP-EN034","name":"Blast Held by a Tribute","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"89041555","code":"34","tcg":122973,"grp":1838,"idx":33},
+    {"id":"035","section":"main","num":"035","printed":"DPRP-EN035","name":"Exchange of the Spirit","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"17484499","code":"35","tcg":122974,"grp":1838,"idx":34},
+    {"id":"036","section":"main","num":"036","printed":"DPRP-EN036","name":"Mystical Beast of Serket","ctype":"monster","keywords":"Fairy EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 6","t":"Fairy / Effect","atk":2500,"def":2000},"rarity":"C","img":"89194033","code":"36","tcg":122975,"grp":1838,"idx":35},
+    {"id":"037","section":"main","num":"037","printed":"DPRP-EN037","name":"Temple of the Kings","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"29762407","code":"37","tcg":122976,"grp":1838,"idx":36},
+    {"id":"038","section":"main","num":"038","printed":"DPRP-EN038","name":"Sangan","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Fiend / Effect","atk":1000,"def":600},"rarity":"C","img":"26202165","code":"38","tcg":122977,"grp":1838,"idx":37},
+    {"id":"039","section":"main","num":"039","printed":"DPRP-EN039","name":"Necroface","ctype":"monster","keywords":"Zombie DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Zombie / Effect","atk":1200,"def":1800},"rarity":"C","img":"28297833","code":"39","tcg":122978,"grp":1838,"idx":38},
+    {"id":"040","section":"main","num":"040","printed":"DPRP-EN040","name":"Dark Necrofear","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Fiend / Effect","atk":2200,"def":2800},"rarity":"C","img":"31829185","code":"40","tcg":122979,"grp":1838,"idx":39},
+    {"id":"041","section":"main","num":"041","printed":"DPRP-EN041","name":"Destiny Board","ctype":"trap","keywords":"Spirit Message Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"94212438","code":"41","tcg":122980,"grp":1838,"idx":40},
+    {"id":"042","section":"main","num":"042","printed":"DPRP-EN042","name":"Spirit Message \"I\"","ctype":"spell","keywords":"Spirit Message Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"31893528","code":"42","tcg":122981,"grp":1838,"idx":41},
+    {"id":"043","section":"main","num":"043","printed":"DPRP-EN043","name":"Spirit Message \"N\"","ctype":"spell","keywords":"Spirit Message Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"67287533","code":"43","tcg":122982,"grp":1838,"idx":42},
+    {"id":"044","section":"main","num":"044","printed":"DPRP-EN044","name":"Spirit Message \"A\"","ctype":"spell","keywords":"Spirit Message Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"94772232","code":"44","tcg":122983,"grp":1838,"idx":43},
+    {"id":"045","section":"main","num":"045","printed":"DPRP-EN045","name":"Spirit Message \"L\"","ctype":"spell","keywords":"Spirit Message Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"30170981","code":"45","tcg":122984,"grp":1838,"idx":44},
+    {"id":"046","section":"main","num":"046","printed":"DPRP-EN046","name":"Thousand-Eyes Restrict","ctype":"monster","keywords":"Eyes Restrict Spellcaster DARK Fusion Monster","stats":{"a":"DARK","l":"Level 1","t":"Spellcaster / Fusion","atk":0,"def":0},"rarity":"R","img":"63519819","code":"46","tcg":122985,"grp":1838,"idx":45}
+  ]
+}

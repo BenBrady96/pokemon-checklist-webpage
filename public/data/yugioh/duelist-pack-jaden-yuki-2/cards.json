@@ -1,0 +1,90 @@
+{
+  "id": "yugioh/duelist-pack-jaden-yuki-2",
+  "game": "yugioh",
+  "slug": "duelist-pack-jaden-yuki-2",
+  "name": "Duelist Pack: Jaden Yuki 2",
+  "series": "GX",
+  "kind": "pack",
+  "code": "DP03",
+  "syncKey": "YDP03",
+  "released": "2007-02-07",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "DP03-EN001–DP03-EN030",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from DP03-EN001 to DP03-EN030."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Duelist Pack: Jaden Yuki 2 Checklist · All 30 Cards",
+    "description": "Free Yu-Gi-Oh! Duelist Pack: Jaden Yuki 2 checklist with no ads, no sign-up and no tracking. Track all 30 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Duelist Pack: Jaden Yuki 2 Checklist",
+    "ogDescription": "Track all 30 cards in Yu-Gi-Oh! Duelist Pack: Jaden Yuki 2. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 30 cards in Yu-Gi-Oh! Duelist Pack: Jaden Yuki 2. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Duelist Pack: Jaden Yuki 2",
+    "paragraphs": [
+      "Duelist Pack: Jaden Yuki 2 is a Yu-Gi-Oh! TCG pack released on 7 February 2007, in the GX era. It has 30 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Duelist Pack: Jaden Yuki 2"
+    ],
+    "tcgplayer": [
+      194
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"DP03-EN001","name":"Elemental HERO Neos","ctype":"monster","keywords":"Elemental HERO Warrior LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 7","t":"Warrior / Normal","atk":2500,"def":2000},"rarity":"C","img":"89943723","code":"1","tcg":25592,"grp":194,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"DP03-EN002","name":"Elemental HERO Bladedge","ctype":"monster","keywords":"Elemental HERO Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 7","t":"Warrior / Effect","atk":2600,"def":1800},"rarity":"R","img":"59793705","code":"2","tcg":25593,"grp":194,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"DP03-EN003","name":"Elemental HERO Wildheart","ctype":"monster","keywords":"Elemental HERO Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Effect","atk":1500,"def":1600},"rarity":"C","img":"86188410","code":"3","tcg":25594,"grp":194,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"DP03-EN004","name":"Hero Kid","ctype":"monster","keywords":"Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 2","t":"Warrior / Effect","atk":300,"def":600},"rarity":"C","img":"32679370","code":"4","tcg":25595,"grp":194,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"DP03-EN005","name":"Neo-Spacian Aqua Dolphin","ctype":"monster","keywords":"Neo-Spacian Warrior WATER Effect Monster","stats":{"a":"WATER","l":"Level 3","t":"Warrior / Effect","atk":600,"def":800},"rarity":"R","img":"17955766","code":"5","tcg":25596,"grp":194,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"DP03-EN006","name":"Neo-Spacian Flare Scarab","ctype":"monster","keywords":"Neo-Spacian Insect FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 3","t":"Insect / Effect","atk":500,"def":500},"rarity":"R","img":"89621922","code":"6","tcg":25597,"grp":194,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"DP03-EN007","name":"Neo-Spacian Dark Panther","ctype":"monster","keywords":"Neo-Spacian Beast DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Beast / Effect","atk":1000,"def":500},"rarity":"R","img":"43237273","code":"7","tcg":25598,"grp":194,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"DP03-EN008","name":"Chrysalis Dolphin","ctype":"monster","keywords":"Chrysalis Fish WATER Effect Monster","stats":{"a":"WATER","l":"Level 2","t":"Fish / Effect","atk":400,"def":600},"rarity":"C","img":"42682609","code":"8","tcg":25599,"grp":194,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"DP03-EN009","name":"Card Trooper","ctype":"monster","keywords":"Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Machine / Effect","atk":400,"def":400},"rarity":"UR","img":"85087012","code":"9","tcg":25600,"grp":194,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"DP03-EN010","name":"Elemental HERO Wildedge","ctype":"monster","keywords":"Elemental HERO Warrior EARTH Fusion Monster","stats":{"a":"EARTH","l":"Level 8","t":"Warrior / Fusion","atk":2600,"def":2300},"rarity":"R","img":"10526791","code":"10","tcg":25601,"grp":194,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"DP03-EN011","name":"Elemental HERO Wild Wingman","ctype":"monster","keywords":"Elemental HERO Warrior EARTH Fusion Monster","stats":{"a":"EARTH","l":"Level 8","t":"Warrior / Fusion","atk":1900,"def":2300},"rarity":"C","img":"55615891","code":"11","tcg":25602,"grp":194,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"DP03-EN012","name":"Elemental HERO Aqua Neos","ctype":"monster","keywords":"Elemental HERO Warrior WATER Fusion Monster","stats":{"a":"WATER","l":"Level 7","t":"Warrior / Fusion","atk":2500,"def":2000},"rarity":"R","img":"55171412","code":"12","tcg":25603,"grp":194,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"DP03-EN013","name":"Elemental HERO Flare Neos","ctype":"monster","keywords":"Elemental HERO Warrior FIRE Fusion Monster","stats":{"a":"FIRE","l":"Level 7","t":"Warrior / Fusion","atk":2500,"def":2000},"rarity":"R","img":"81566151","code":"13","tcg":25604,"grp":194,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"DP03-EN014","name":"Elemental HERO Dark Neos","ctype":"monster","keywords":"Elemental HERO Warrior DARK Fusion Monster","stats":{"a":"DARK","l":"Level 7","t":"Warrior / Fusion","atk":2500,"def":2000},"rarity":"SR","img":"28677304","code":"14","tcg":25605,"grp":194,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"DP03-EN015","name":"Cyclone Boomerang","ctype":"spell","keywords":"Elemental HERO Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"29612557","code":"15","tcg":25606,"grp":194,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"DP03-EN016","name":"H - Heated Heart","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"74825788","code":"16","tcg":25607,"grp":194,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"DP03-EN017","name":"E - Emergency Call","ctype":"spell","keywords":"Elemental HERO Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"213326","code":"17","tcg":25608,"grp":194,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"DP03-EN018","name":"R - Righteous Justice","ctype":"spell","keywords":"Elemental HERO Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"37318031","code":"18","tcg":25609,"grp":194,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"DP03-EN019","name":"O - Oversoul","ctype":"spell","keywords":"Elemental HERO Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"63703130","code":"19","tcg":25610,"grp":194,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"DP03-EN020","name":"Hero Flash!!","ctype":"spell","keywords":"Elemental HERO Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"191749","code":"20","tcg":25611,"grp":194,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"DP03-EN021","name":"Contact","ctype":"spell","keywords":"Chrysalis Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"16616620","code":"21","tcg":25612,"grp":194,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"DP03-EN022","name":"Fake Hero","ctype":"spell","keywords":"Elemental HERO Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"78387742","code":"22","tcg":25613,"grp":194,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"DP03-EN023","name":"Common Soul","ctype":"spell","keywords":"Neo-Spacian Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"14772491","code":"23","tcg":25614,"grp":194,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"DP03-EN024","name":"Neo Space","ctype":"spell","keywords":"Elemental HERO Field Spell","stats":{"t":"Field Spell"},"rarity":"C","img":"42015635","code":"24","tcg":25615,"grp":194,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"DP03-EN025","name":"Light Laser","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"SR","img":"11471117","code":"25","tcg":25616,"grp":194,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"DP03-EN026","name":"Burial from a Different Dimension","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"UR","img":"48976825","code":"26","tcg":25617,"grp":194,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"DP03-EN027","name":"Hero Barrier","ctype":"trap","keywords":"Elemental HERO Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"44676200","code":"27","tcg":25618,"grp":194,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"DP03-EN028","name":"Miracle Kids","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"55985014","code":"28","tcg":25619,"grp":194,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"DP03-EN029","name":"Edge Hammer","ctype":"trap","keywords":"Elemental HERO Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"84361420","code":"29","tcg":25620,"grp":194,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"DP03-EN030","name":"Kid Guard","ctype":"trap","keywords":"Elemental HERO Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"10759529","code":"30","tcg":25621,"grp":194,"idx":29}
+  ]
+}

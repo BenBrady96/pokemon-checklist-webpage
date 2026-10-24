@@ -1,0 +1,87 @@
+{
+  "id": "yugioh/ots-tournament-pack-3",
+  "game": "yugioh",
+  "slug": "ots-tournament-pack-3",
+  "name": "OTS Tournament Pack 3",
+  "series": "ARC-V",
+  "kind": "pack",
+  "code": "OP03",
+  "syncKey": "YOP03",
+  "released": "2016-11-17",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "OP03-EN001–OP03-EN027",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from OP03-EN001 to OP03-EN027."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! OTS Tournament Pack 3 Checklist · All 27 Cards",
+    "description": "Free Yu-Gi-Oh! OTS Tournament Pack 3 checklist with no ads, no sign-up and no tracking. Track all 27 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! OTS Tournament Pack 3 Checklist",
+    "ogDescription": "Track all 27 cards in Yu-Gi-Oh! OTS Tournament Pack 3. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 27 cards in Yu-Gi-Oh! OTS Tournament Pack 3. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About OTS Tournament Pack 3",
+    "paragraphs": [
+      "OTS Tournament Pack 3 is a Yu-Gi-Oh! TCG pack released on 17 November 2016, in the ARC-V era. It has 27 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "OTS Tournament Pack 3"
+    ],
+    "tcgplayer": [
+      1855
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"OP03-EN001","name":"Swap Frog","ctype":"monster","keywords":"Frog Aqua WATER Effect Monster","stats":{"a":"WATER","l":"Level 2","t":"Aqua / Effect","atk":1000,"def":500},"rarity":"UtR","img":"9126351","code":"1","tcg":125534,"grp":1855,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"OP03-EN002","name":"Speedroid Terrortop","ctype":"monster","keywords":"Roid Machine WIND Effect Monster","stats":{"a":"WIND","l":"Level 3","t":"Machine / Effect","atk":1200,"def":600},"rarity":"UtR","img":"81275020","code":"2","tcg":125535,"grp":1855,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"OP03-EN003","name":"Super Quantal Mech Beast Grampulse","ctype":"monster","keywords":"Super Quant Machine WATER Xyz Monster","stats":{"a":"WATER","l":"Rank 3","t":"Machine / Xyz","atk":1800,"def":2800},"rarity":"UtR","img":"85252081","code":"3","tcg":125536,"grp":1855,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"OP03-EN004","name":"Metalfoes Goldriver","ctype":"monster","keywords":"Metalfoes Psychic FIRE Pendulum Normal Monster","stats":{"a":"FIRE","l":"Level 4","t":"Psychic / Pendulum / Normal","atk":1900,"def":500},"rarity":"SR","img":"33256280","code":"4","tcg":125537,"grp":1855,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"OP03-EN005","name":"Dupe Frog","ctype":"monster","keywords":"Frog Aqua WATER Effect Monster","stats":{"a":"WATER","l":"Level 2","t":"Aqua / Effect","atk":100,"def":2000},"rarity":"SR","img":"46239604","code":"5","tcg":125538,"grp":1855,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"OP03-EN006","name":"Ally of Justice Cycle Reader","ctype":"monster","keywords":"Ally of Justice Machine DARK Tuner Monster","stats":{"a":"DARK","l":"Level 3","t":"Machine / Tuner","atk":1000,"def":1000},"rarity":"SR","img":"8233522","code":"6","tcg":125539,"grp":1855,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"OP03-EN007","name":"Paladin of Felgrand","ctype":"monster","keywords":"Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Effect","atk":1700,"def":300},"rarity":"SR","img":"6075801","code":"7","tcg":125540,"grp":1855,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"OP03-EN008","name":"Igknight Reload","ctype":"spell","keywords":"Igknight Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"SR","img":"76751255","code":"8","tcg":90810,"grp":1855,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"OP03-EN009","name":"Sky Iris","ctype":"spell","keywords":"Odd-Eyes Field Spell","stats":{"t":"Field Spell"},"rarity":"SR","img":"27813661","code":"9","tcg":95468,"grp":1855,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"OP03-EN010","name":"Domain of the True Monarchs","ctype":"spell","keywords":"Monarch Field Spell","stats":{"t":"Field Spell"},"rarity":"SR","img":"84171830","code":"10","tcg":95489,"grp":1855,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"OP03-EN011","name":"Magic Deflector","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"96474800","code":"11","tcg":95495,"grp":1855,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"OP03-EN012","name":"Chaos Trap Hole","ctype":"trap","keywords":"Chaos Counter Trap","stats":{"t":"Counter Trap"},"rarity":"SR","img":"11593137","code":"12","tcg":95514,"grp":1855,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"OP03-EN013","name":"Oasis of Dragon Souls","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"SR","img":"39122311","code":"13","tcg":95522,"grp":1855,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"OP03-EN014","name":"Enchanting Mermaid","ctype":"monster","keywords":"Fish WATER Normal Monster","stats":{"a":"WATER","l":"Level 3","t":"Fish / Normal","atk":1200,"def":900},"rarity":"SP","img":"75376965","code":"14","tcg":95535,"grp":1855,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"OP03-EN015","name":"Slime Toad","ctype":"monster","keywords":"Frog Aqua WATER Normal Monster","stats":{"a":"WATER","l":"Level 2","t":"Aqua / Normal","atk":700,"def":500},"rarity":"C","img":"68638985","code":"15","tcg":95506,"grp":1855,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"OP03-EN016","name":"Cipher Soldier","ctype":"monster","keywords":"Cipher Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Machine / Effect","atk":1350,"def":1800},"rarity":"C","img":"79853073","code":"16","tcg":125541,"grp":1855,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"OP03-EN017","name":"Black Dragon's Chick","ctype":"monster","keywords":"Red-Eyes Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Dragon / Effect","atk":800,"def":500},"rarity":"C","img":"36262024","code":"17","tcg":125542,"grp":1855,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"OP03-EN018","name":"D.D. Crow","ctype":"monster","keywords":"D.D. Winged Beast DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Winged Beast / Effect","atk":100,"def":100},"rarity":"C","img":"24508238","code":"18","tcg":125543,"grp":1855,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"OP03-EN019","name":"Doom Shaman","ctype":"monster","keywords":"Spellcaster DARK Gemini Monster","stats":{"a":"DARK","l":"Level 6","t":"Spellcaster / Gemini","atk":2400,"def":2000},"rarity":"C","img":"94944637","code":"19","tcg":125544,"grp":1855,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"OP03-EN020","name":"Hecatrice","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fairy / Effect","atk":1500,"def":1100},"rarity":"C","img":"74968065","code":"20","tcg":125545,"grp":1855,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"OP03-EN021","name":"Oyster Meister","ctype":"monster","keywords":"Fish WATER Effect Monster","stats":{"a":"WATER","l":"Level 3","t":"Fish / Effect","atk":1600,"def":200},"rarity":"C","img":"83239739","code":"21","tcg":125546,"grp":1855,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"OP03-EN022","name":"Beast of the Pharaoh","ctype":"monster","keywords":"Zombie EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Zombie / Effect","atk":400,"def":600},"rarity":"C","img":"83903521","code":"22","tcg":125547,"grp":1855,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"OP03-EN023","name":"Night's End Sorcerer","ctype":"monster","keywords":"Spellcaster DARK Tuner Monster","stats":{"a":"DARK","l":"Level 2","t":"Spellcaster / Tuner","atk":1300,"def":400},"rarity":"C","img":"36107810","code":"23","tcg":125548,"grp":1855,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"OP03-EN024","name":"Darkstorm Dragon","ctype":"monster","keywords":"Dragon DARK Gemini Monster","stats":{"a":"DARK","l":"Level 8","t":"Dragon / Gemini","atk":2700,"def":2500},"rarity":"C","img":"57662975","code":"24","tcg":125549,"grp":1855,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"OP03-EN025","name":"Uni-Zombie","ctype":"monster","keywords":"Zombie DARK Tuner Monster","stats":{"a":"DARK","l":"Level 3","t":"Zombie / Tuner","atk":1300,"def":0},"rarity":"C","img":"49959355","code":"25","tcg":125550,"grp":1855,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"OP03-EN026","name":"Rare Fish","ctype":"monster","keywords":"Fish WATER Fusion Monster","stats":{"a":"WATER","l":"Level 4","t":"Fish / Fusion","atk":1500,"def":1200},"rarity":"SP","img":"80516007","code":"26","tcg":125551,"grp":1855,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"OP03-EN027","name":"Fusionist","ctype":"monster","keywords":"Beast EARTH Fusion Monster","stats":{"a":"EARTH","l":"Level 3","t":"Beast / Fusion","atk":900,"def":700},"rarity":"SP","img":"1641882","code":"27","tcg":125552,"grp":1855,"idx":26}
+  ]
+}

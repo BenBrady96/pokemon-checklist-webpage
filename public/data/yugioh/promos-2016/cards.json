@@ -1,0 +1,127 @@
+{
+  "id": "yugioh/promos-2016",
+  "game": "yugioh",
+  "slug": "promos-2016",
+  "name": "Promos 2016",
+  "series": "Promos",
+  "kind": "promo",
+  "code": "P2016",
+  "syncKey": "YP2016",
+  "released": "2016-01-09",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "BOSH-ENSE1–YZ09-EN001",
+      "tier": "standard"
+    },
+    {
+      "id": "rarities",
+      "name": "Other Rarities",
+      "short": "Other Rarities",
+      "range": "1 card",
+      "tier": "master"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Main set"
+    ],
+    [
+      "rarities",
+      "Other rarities"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, SCR12, 60x2",
+    "example": "1-20, 45x2, SCR12",
+    "hint": "Separate with commas or spaces. Numbers count down the list in order: <b>1-5</b> is the first five cards and <b>3x2</b> is two copies of the third.",
+    "empty": "Cards run from BOSH-ENSE1 to YZ09-EN001."
+  },
+  "help": {
+    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 30 cards, each in its main rarity. Master adds the 1 other rarity. Cards you’ve marked are kept when you switch."
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Promos 2016 Checklist · All 30 Cards",
+    "description": "Free Yu-Gi-Oh! Promos 2016 checklist with no ads, no sign-up and no tracking. Track all 30 cards, or every rarity for a master set, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Promos 2016 Checklist",
+    "ogDescription": "Track all 30 cards in Yu-Gi-Oh! Promos 2016, plus 1 other rarity. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 30 cards in Yu-Gi-Oh! Promos 2016. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Promos 2016",
+    "paragraphs": [
+      "Promos 2016 gathers the 30 promo cards from 18 products released in 2016: Breakers of Shadow: Special Edition, Breakers of Shadow Sneak Peek Participation Card, Invasion: Vengeance: Special Edition, Invasion: Vengeance Sneak Peek Participation Card, WSJ Jump Pack Spring 2016 promotional card, WSJ Jump Pack Fall 2016 promotional card, Weekly Shonen Jump January 2016 membership promotional card, Weekly Shonen Jump April 2016 membership promotional card, Weekly Shonen Jump July 2016 membership promotional card, Weekly Shonen Jump October 2016 membership promotional card, Shining Victories: Special Edition, Shining Victories Sneak Peek Participation Card, The Dark Illusion: Special Edition, The Dark Illusion Sneak Peek Participation Card, Yu-Gi-Oh! Championship Series 2016 Prize Card, Yu-Gi-Oh! 5D&#39;s Volume 9 promotional card, Yu-Gi-Oh! ZEXAL Volume 8 promotional card and Yu-Gi-Oh! ZEXAL Volume 9 promotional card.",
+      "Choose what you’re collecting: the <b>Standard set</b> (the 30 cards, each in its main rarity) or the <b>Master set</b> (all 31, adding the 1 other rarity).",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Breakers of Shadow Sneak Peek Participation Card",
+      "Breakers of Shadow: Special Edition",
+      "Invasion: Vengeance Sneak Peek Participation Card",
+      "Invasion: Vengeance: Special Edition",
+      "Shining Victories Sneak Peek Participation Card",
+      "Shining Victories: Special Edition",
+      "The Dark Illusion Sneak Peek Participation Card",
+      "The Dark Illusion: Special Edition",
+      "WSJ Jump Pack Fall 2016 promotional card",
+      "WSJ Jump Pack Spring 2016 promotional card",
+      "Weekly Shonen Jump April 2016 membership promotional card",
+      "Weekly Shonen Jump January 2016 membership promotional card",
+      "Weekly Shonen Jump July 2016 membership promotional card",
+      "Weekly Shonen Jump October 2016 membership promotional card",
+      "Yu-Gi-Oh! 5D's Volume 9 promotional card",
+      "Yu-Gi-Oh! Championship Series 2016 Prize Card",
+      "Yu-Gi-Oh! ZEXAL Volume 8 promotional card",
+      "Yu-Gi-Oh! ZEXAL Volume 9 promotional card"
+    ],
+    "tcgplayer": [
+      281,
+      1698,
+      1849,
+      1761,
+      1807,
+      1347,
+      600,
+      352
+    ]
+  },
+  "cards": [
+    {"id":"BOSH-SE1","section":"main","num":"BOSH-ENSE1","printed":"BOSH-ENSE1","name":"Beast-Eyes Pendulum Dragon","ctype":"monster","keywords":"Pendulum Dragon Dragon EARTH Fusion Monster","stats":{"a":"EARTH","l":"Level 8","t":"Dragon / Fusion","atk":3000,"def":2000},"note":"Breakers of Shadow: Special Edition","rarity":"SR","img":"72378329","code":"1","tcg":114446,"grp":1698,"idx":0},
+    {"id":"BOSH-SE2","section":"main","num":"BOSH-ENSE2","printed":"BOSH-ENSE2","name":"Number 23: Lancelot, Dark Knight of the Underworld","ctype":"monster","keywords":"Zombie DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 8","t":"Zombie / Xyz","atk":2000,"def":1500},"note":"Breakers of Shadow: Special Edition","rarity":"SR","img":"66547759","code":"2","tcg":114447,"grp":1698,"idx":1},
+    {"id":"BOSH-SE3","section":"main","num":"BOSH-ENSE3","printed":"BOSH-ENSE3","name":"Beacon of White","ctype":"spell","keywords":"Blue-Eyes Equip Spell","stats":{"t":"Equip Spell"},"note":"Breakers of Shadow: Special Edition","rarity":"SR","img":"50371210","code":"3","tcg":114448,"grp":1698,"idx":2},
+    {"id":"BOSH-SE4","section":"main","num":"BOSH-ENSE4","printed":"BOSH-ENSE4","name":"Forge of the True Dracos","ctype":"spell","keywords":"Dracoslayer Normal Spell","stats":{"t":"Normal Spell"},"note":"Breakers of Shadow: Special Edition","rarity":"SR","img":"87765315","code":"4","tcg":114449,"grp":1698,"idx":3},
+    {"id":"BOSH-SP1","section":"main","num":"BOSH-ENSP1","printed":"BOSH-ENSP1","name":"Steel Cavalry of Dinon","ctype":"monster","keywords":"Dinosaur EARTH Pendulum Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Dinosaur / Pendulum / Effect","atk":1600,"def":2600},"note":"Breakers of Shadow Sneak Peek Participation Card","rarity":"UR","img":"2396042","code":"5","tcg":111099,"grp":1698,"idx":4},
+    {"id":"INOV-SE1","section":"main","num":"INOV-ENSE1","printed":"INOV-ENSE1","name":"Dystopia the Despondent","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 12","t":"Fiend / Effect","atk":5000,"def":5000},"note":"Invasion: Vengeance: Special Edition","rarity":"SR","img":"52085072","code":"6","tcg":125853,"grp":1849,"idx":5},
+    {"id":"INOV-SE2","section":"main","num":"INOV-ENSE2","printed":"INOV-ENSE2","name":"Relinkuriboh","ctype":"monster","keywords":"Kuriboh Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Fiend / Effect","atk":300,"def":200},"note":"Invasion: Vengeance: Special Edition","rarity":"SR","img":"50185950","code":"7","tcg":125854,"grp":1849,"idx":6},
+    {"id":"INOV-SE3","section":"main","num":"INOV-ENSE3","printed":"INOV-ENSE3","name":"Crystron Rion","ctype":"monster","keywords":"Crystron Machine WATER Tuner Monster","stats":{"a":"WATER","l":"Level 3","t":"Machine / Tuner","atk":500,"def":500},"note":"Invasion: Vengeance: Special Edition","rarity":"SR","img":"66938505","code":"8","tcg":125855,"grp":1849,"idx":7},
+    {"id":"INOV-SE4","section":"main","num":"INOV-ENSE4","printed":"INOV-ENSE4","name":"Yokotuner","ctype":"monster","keywords":"Beast EARTH Tuner Monster","stats":{"a":"EARTH","l":"Level 1","t":"Beast / Tuner","atk":800,"def":600},"note":"Invasion: Vengeance: Special Edition","rarity":"SR","img":"27750191","code":"9","tcg":125856,"grp":1849,"idx":8},
+    {"id":"INOV-SP1","section":"main","num":"INOV-ENSP1","printed":"INOV-ENSP1","name":"Space Dragster","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"note":"Invasion: Vengeance Sneak Peek Participation Card","rarity":"UR","img":"92092092","code":"10","tcg":128761,"grp":1849,"idx":9},
+    {"id":"JMPS-002","section":"main","num":"JMPS-EN002","printed":"JMPS-EN002","name":"Blue-Eyes White Dragon","ctype":"monster","keywords":"Blue-Eyes Dragon LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Normal","atk":3000,"def":2500},"note":"WSJ Jump Pack Spring 2016 promotional card","rarity":"UR","img":"89631144","code":"11","tcg":122718,"grp":281,"idx":10},
+    {"id":"JMPS-003","section":"main","num":"JMPS-EN003","printed":"JMPS-EN003","name":"Dark Magician","ctype":"monster","keywords":"Dark Magician Spellcaster DARK Normal Monster","stats":{"a":"DARK","l":"Level 7","t":"Spellcaster / Normal","atk":2500,"def":2100},"note":"WSJ Jump Pack Fall 2016 promotional card","rarity":"UR","img":"46986417","code":"12","tcg":136643,"grp":281,"idx":11},
+    {"id":"JUMP-075","section":"main","num":"JUMP-EN075","printed":"JUMP-EN075","name":"Dystopia the Despondent","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 12","t":"Fiend / Effect","atk":5000,"def":5000},"note":"Weekly Shonen Jump January 2016 membership promotional card","rarity":"UR","img":"52085072","code":"13","tcg":118776,"grp":281,"idx":12},
+    {"id":"JUMP-076","section":"main","num":"JUMP-EN076","printed":"JUMP-EN076","name":"Relinkuriboh","ctype":"monster","keywords":"Kuriboh Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Fiend / Effect","atk":300,"def":200},"note":"Weekly Shonen Jump April 2016 membership promotional card","rarity":"UR","img":"50185950","code":"14","tcg":118777,"grp":281,"idx":13},
+    {"id":"JUMP-077","section":"main","num":"JUMP-EN077","printed":"JUMP-EN077","name":"Number S0: Utopic ZEXAL","ctype":"monster","keywords":"Utopia Warrior LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 0","t":"Warrior / Xyz","atk":-1,"def":-1},"note":"Weekly Shonen Jump July 2016 membership promotional card","rarity":"UR","img":"52653092","code":"15","tcg":122285,"grp":281,"idx":14},
+    {"id":"JUMP-078","section":"main","num":"JUMP-EN078","printed":"JUMP-EN078","name":"Masked HERO Blast","ctype":"monster","keywords":"Masked HERO Warrior WIND Fusion Monster","stats":{"a":"WIND","l":"Level 6","t":"Warrior / Fusion","atk":2200,"def":1800},"note":"Weekly Shonen Jump October 2016 membership promotional card","rarity":"UR","img":"89870349","code":"16","tcg":126026,"grp":281,"idx":15},
+    {"id":"SHVI-SE1","section":"main","num":"SHVI-ENSE1","printed":"SHVI-ENSE1","name":"Ebon Illusion Magician","ctype":"monster","keywords":"Spellcaster DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 7","t":"Spellcaster / Xyz","atk":2500,"def":2100},"note":"Shining Victories: Special Edition","rarity":"SR","img":"96471335","code":"17","tcg":119256,"grp":1761,"idx":16},
+    {"id":"SHVI-SE2","section":"main","num":"SHVI-ENSE2","printed":"SHVI-ENSE2","name":"Elemental HERO Core","ctype":"monster","keywords":"Elemental HERO Warrior EARTH Fusion Monster","stats":{"a":"EARTH","l":"Level 9","t":"Warrior / Fusion","atk":2700,"def":2200},"note":"Shining Victories: Special Edition","rarity":"SR","img":"95486586","code":"18","tcg":119257,"grp":1761,"idx":17},
+    {"id":"SHVI-SE3","section":"main","num":"SHVI-ENSE3","printed":"SHVI-ENSE3","name":"Magician's Robe","ctype":"monster","keywords":"Dark Magician Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 2","t":"Spellcaster / Effect","atk":700,"def":2000},"note":"Shining Victories: Special Edition","rarity":"SR","img":"71696014","code":"19","tcg":119258,"grp":1761,"idx":18},
+    {"id":"SHVI-SE4","section":"main","num":"SHVI-ENSE4","printed":"SHVI-ENSE4","name":"Scapeghost","ctype":"monster","keywords":"Zombie DARK Tuner Monster","stats":{"a":"DARK","l":"Level 1","t":"Zombie / Tuner","atk":0,"def":0},"note":"Shining Victories: Special Edition","rarity":"SR","img":"67284107","code":"20","tcg":119259,"grp":1761,"idx":19},
+    {"id":"SHVI-SP1","section":"main","num":"SHVI-ENSP1","printed":"SHVI-ENSP1","name":"Magical Cavalry of Cxulub","ctype":"monster","keywords":"Dinosaur EARTH Pendulum Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Dinosaur / Pendulum / Effect","atk":1500,"def":1800},"note":"Shining Victories Sneak Peek Participation Card","rarity":"UR","img":"23220863","code":"21","tcg":131072,"grp":1761,"idx":20},
+    {"id":"TDIL-SE1","section":"main","num":"TDIL-ENSE1","printed":"TDIL-ENSE1","name":"Blackwing - Gram the Shining Star","ctype":"monster","keywords":"Blackwing Winged Beast DARK Synchro Monster","stats":{"a":"DARK","l":"Level 5","t":"Winged Beast / Synchro","atk":2200,"def":1500},"note":"The Dark Illusion: Special Edition","rarity":"SR","img":"17377751","code":"22","tcg":123744,"grp":1807,"idx":21},
+    {"id":"TDIL-SE2","section":"main","num":"TDIL-ENSE2","printed":"TDIL-ENSE2","name":"Number S39: Utopia the Lightning","ctype":"monster","keywords":"Utopia Warrior LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 5","t":"Warrior / Xyz","atk":2500,"def":2000},"note":"The Dark Illusion: Special Edition","rarity":"SR","img":"56832966","code":"23","tcg":123745,"grp":1807,"idx":22},
+    {"id":"TDIL-SE3","section":"main","num":"TDIL-ENSE3","printed":"TDIL-ENSE3","name":"Subterror Nemesis Warrior","ctype":"monster","keywords":"Subterror Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Effect","atk":1800,"def":1200},"note":"The Dark Illusion: Special Edition","rarity":"SR","img":"16719140","code":"24","tcg":123746,"grp":1807,"idx":23},
+    {"id":"TDIL-SE4","section":"main","num":"TDIL-ENSE4","printed":"TDIL-ENSE4","name":"SPYRAL GEAR - Big Red","ctype":"spell","keywords":"SPYRAL Equip Spell","stats":{"t":"Equip Spell"},"note":"The Dark Illusion: Special Edition","rarity":"SR","img":"30979619","code":"25","tcg":123747,"grp":1807,"idx":24},
+    {"id":"TDIL-SP1","section":"main","num":"TDIL-ENSP1","printed":"TDIL-ENSP1","name":"Magical Something","ctype":"monster","keywords":"Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Effect","atk":1800,"def":1300},"note":"The Dark Illusion Sneak Peek Participation Card","rarity":"UR","img":"43930492","code":"26","tcg":121257,"grp":1807,"idx":25},
+    {"id":"YCSW-009","section":"main","num":"YCSW-EN009","printed":"YCSW-EN009","name":"Number 93: Utopia Kaiser","ctype":"monster","keywords":"Utopia Warrior LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 12","t":"Warrior / Xyz","atk":2500,"def":2000},"note":"Yu-Gi-Oh! Championship Series 2016 Prize Card","rarity":"SR","img":"23187256","code":"27","tcg":123743,"grp":1347,"idx":26},
+    {"id":"YCSW-009-ur","section":"rarities","num":"YCSW-EN009","printed":"YCSW-EN009","name":"Number 93: Utopia Kaiser","ctype":"monster","keywords":"Utopia Warrior LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 12","t":"Warrior / Xyz","atk":2500,"def":2000},"note":"Yu-Gi-Oh! Championship Series 2016 Prize Card","rarity":"UR","img":"23187256","badge":"UR","variant":"Ultra Rare","code":"UR27","tcg":123742,"grp":1347,"idx":27},
+    {"id":"YF09-001","section":"main","num":"YF09-EN001","printed":"YF09-EN001","name":"Stardust Chronicle Spark Dragon","ctype":"monster","keywords":"Stardust Dragon LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 10","t":"Dragon / Synchro","atk":3000,"def":2500},"note":"Yu-Gi-Oh! 5D's Volume 9 promotional card","rarity":"UR","img":"89474727","code":"28","tcg":116940,"grp":352,"idx":28},
+    {"id":"YZ08-001","section":"main","num":"YZ08-EN001","printed":"YZ08-EN001","name":"Number S39: Utopia the Lightning","ctype":"monster","keywords":"Utopia Warrior LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 5","t":"Warrior / Xyz","atk":2500,"def":2000},"note":"Yu-Gi-Oh! ZEXAL Volume 8 promotional card","rarity":"UR","img":"56832966","code":"29","tcg":115431,"grp":600,"idx":29},
+    {"id":"YZ09-001","section":"main","num":"YZ09-EN001","printed":"YZ09-EN001","name":"Gagaga Head","ctype":"monster","keywords":"Gagaga Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Spellcaster / Effect","atk":2100,"def":2000},"note":"Yu-Gi-Oh! ZEXAL Volume 9 promotional card","rarity":"UR","img":"67120578","code":"30","tcg":122706,"grp":600,"idx":30}
+  ]
+}

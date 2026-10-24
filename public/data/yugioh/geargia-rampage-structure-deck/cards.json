@@ -1,0 +1,95 @@
+{
+  "id": "yugioh/geargia-rampage-structure-deck",
+  "game": "yugioh",
+  "slug": "geargia-rampage-structure-deck",
+  "name": "Geargia Rampage Structure Deck",
+  "series": "ARC-V",
+  "kind": "deck",
+  "code": "SDGR",
+  "syncKey": "YSDGR",
+  "released": "2014-10-16",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "SDGR-EN001–SDGR-EN035",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from SDGR-EN001 to SDGR-EN035."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Geargia Rampage Structure Deck Checklist · All 35 Cards",
+    "description": "Free Yu-Gi-Oh! Geargia Rampage Structure Deck checklist with no ads, no sign-up and no tracking. Track all 35 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Geargia Rampage Structure Deck Checklist",
+    "ogDescription": "Track all 35 cards in Yu-Gi-Oh! Geargia Rampage Structure Deck. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 35 cards in Yu-Gi-Oh! Geargia Rampage Structure Deck. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Geargia Rampage Structure Deck",
+    "paragraphs": [
+      "Geargia Rampage Structure Deck is a Yu-Gi-Oh! TCG deck released on 16 October 2014, in the ARC-V era. It has 35 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Geargia Rampage Structure Deck"
+    ],
+    "tcgplayer": [
+      1489
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"SDGR-EN001","name":"Geargiano Mk-III","ctype":"monster","keywords":"Geargia Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Machine / Effect","atk":1000,"def":1000},"rarity":"SR","img":"45286019","code":"1","tcg":93519,"grp":1489,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"SDGR-EN002","name":"Geargiattacker","ctype":"monster","keywords":"Geargia Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Machine / Effect","atk":1900,"def":100},"rarity":"SR","img":"72370114","code":"2","tcg":93520,"grp":1489,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"SDGR-EN003","name":"Geargiauger","ctype":"monster","keywords":"Geargia Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Machine / Effect","atk":500,"def":500},"rarity":"UR","img":"47687766","code":"3","tcg":93521,"grp":1489,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"SDGR-EN004","name":"Geargiano","ctype":"monster","keywords":"Geargia Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Machine / Effect","atk":500,"def":1000},"rarity":"C","img":"71786742","code":"4","tcg":93522,"grp":1489,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"SDGR-EN005","name":"Geargiano Mk-II","ctype":"monster","keywords":"Geargia Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Machine / Effect","atk":1000,"def":500},"rarity":"C","img":"1045143","code":"5","tcg":93553,"grp":1489,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"SDGR-EN006","name":"Geargiaccelerator","ctype":"monster","keywords":"Geargia Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Machine / Effect","atk":1400,"def":800},"rarity":"C","img":"47030842","code":"6","tcg":93524,"grp":1489,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"SDGR-EN007","name":"Geargiarsenal","ctype":"monster","keywords":"Geargia Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Machine / Effect","atk":1500,"def":500},"rarity":"C","img":"73428497","code":"7","tcg":93525,"grp":1489,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"SDGR-EN008","name":"Geargiarmor","ctype":"monster","keywords":"Geargia Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Machine / Effect","atk":1100,"def":1900},"rarity":"C","img":"923596","code":"8","tcg":93526,"grp":1489,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"SDGR-EN009","name":"Green Gadget","ctype":"monster","keywords":"Gadget Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Machine / Effect","atk":1400,"def":600},"rarity":"C","img":"41172955","code":"9","tcg":93527,"grp":1489,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"SDGR-EN010","name":"Red Gadget","ctype":"monster","keywords":"Gadget Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Machine / Effect","atk":1300,"def":1500},"rarity":"C","img":"86445415","code":"10","tcg":93528,"grp":1489,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"SDGR-EN011","name":"Yellow Gadget","ctype":"monster","keywords":"Gadget Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Machine / Effect","atk":1200,"def":1200},"rarity":"C","img":"13839120","code":"11","tcg":93554,"grp":1489,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"SDGR-EN012","name":"Ancient Gear Gadjiltron Chimera","ctype":"monster","keywords":"Ancient Gear Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 6","t":"Machine / Effect","atk":2300,"def":1300},"rarity":"C","img":"86321248","code":"12","tcg":93529,"grp":1489,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"SDGR-EN013","name":"Ancient Gear Gadjiltron Dragon","ctype":"monster","keywords":"Ancient Gear Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 8","t":"Machine / Effect","atk":3000,"def":2000},"rarity":"C","img":"50933533","code":"13","tcg":93530,"grp":1489,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"SDGR-EN014","name":"Jumbo Drill","ctype":"monster","keywords":"Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Machine / Effect","atk":1800,"def":100},"rarity":"C","img":"42851643","code":"14","tcg":93531,"grp":1489,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"SDGR-EN015","name":"Minefieldriller","ctype":"monster","keywords":"Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Machine / Effect","atk":1500,"def":1500},"rarity":"C","img":"24419823","code":"15","tcg":93532,"grp":1489,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"SDGR-EN016","name":"Card Trooper","ctype":"monster","keywords":"Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Machine / Effect","atk":400,"def":400},"rarity":"C","img":"85087012","code":"16","tcg":93533,"grp":1489,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"SDGR-EN017","name":"Swift Scarecrow","ctype":"monster","keywords":"Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 1","t":"Machine / Effect","atk":0,"def":0},"rarity":"C","img":"18964575","code":"17","tcg":93534,"grp":1489,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"SDGR-EN018","name":"Oilman","ctype":"monster","keywords":"Machine EARTH Union Effect Monster","stats":{"a":"EARTH","l":"Level 2","t":"Machine / Union / Effect","atk":400,"def":400},"rarity":"C","img":"31768112","code":"18","tcg":93535,"grp":1489,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"SDGR-EN019","name":"Heavy Mech Support Platform","ctype":"monster","keywords":"Machine DARK Union Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Machine / Union / Effect","atk":500,"def":500},"rarity":"C","img":"23265594","code":"19","tcg":93536,"grp":1489,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"SDGR-EN020","name":"Giant Rat","ctype":"monster","keywords":"Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Beast / Effect","atk":1400,"def":1450},"rarity":"C","img":"97017120","code":"20","tcg":93537,"grp":1489,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"SDGR-EN021","name":"Geartown","ctype":"spell","keywords":"Ancient Gear Field Spell","stats":{"t":"Field Spell"},"rarity":"C","img":"37694547","code":"21","tcg":93538,"grp":1489,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"SDGR-EN022","name":"Limiter Removal","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"23171610","code":"22","tcg":93539,"grp":1489,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"SDGR-EN023","name":"Machine Assembly Line","ctype":"spell","keywords":"Junk Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"25518020","code":"23","tcg":93540,"grp":1489,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"SDGR-EN024","name":"Fissure","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"66788016","code":"24","tcg":93541,"grp":1489,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"SDGR-EN025","name":"Smashing Ground","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"97169186","code":"25","tcg":93542,"grp":1489,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"SDGR-EN026","name":"Double Summon","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"43422537","code":"26","tcg":93543,"grp":1489,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"SDGR-EN027","name":"Creature Swap","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"31036355","code":"27","tcg":93544,"grp":1489,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"SDGR-EN028","name":"Terraforming","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"73628505","code":"28","tcg":93545,"grp":1489,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"SDGR-EN029","name":"Geargiagear","ctype":"trap","keywords":"Geargia Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"6148016","code":"29","tcg":93546,"grp":1489,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"SDGR-EN030","name":"Stronghold the Moving Fortress","ctype":"trap","keywords":"Gadget Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"13955608","code":"30","tcg":93547,"grp":1489,"idx":29},
+    {"id":"031","section":"main","num":"031","printed":"SDGR-EN031","name":"Metalmorph","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"68540058","code":"31","tcg":93548,"grp":1489,"idx":30},
+    {"id":"032","section":"main","num":"032","printed":"SDGR-EN032","name":"Rare Metalmorph","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"12503902","code":"32","tcg":93549,"grp":1489,"idx":31},
+    {"id":"033","section":"main","num":"033","printed":"SDGR-EN033","name":"Roll Out!","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"91597389","code":"33","tcg":93550,"grp":1489,"idx":32},
+    {"id":"034","section":"main","num":"034","printed":"SDGR-EN034","name":"Geargiagear Gigant XG","ctype":"monster","keywords":"Geargia Machine EARTH Xyz Monster","stats":{"a":"EARTH","l":"Rank 3","t":"Machine / Xyz","atk":2500,"def":1300},"rarity":"UR","img":"19891310","code":"34","tcg":93552,"grp":1489,"idx":33},
+    {"id":"035","section":"main","num":"035","printed":"SDGR-EN035","name":"Gear Gigant X","ctype":"monster","keywords":"Geargia Machine EARTH Xyz Monster","stats":{"a":"EARTH","l":"Rank 4","t":"Machine / Xyz","atk":2300,"def":1500},"rarity":"C","img":"28912357","code":"35","tcg":93551,"grp":1489,"idx":34}
+  ]
+}

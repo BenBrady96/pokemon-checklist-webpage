@@ -1,0 +1,96 @@
+{
+  "id": "yugioh/structure-deck-spellcasters-judgment",
+  "game": "yugioh",
+  "slug": "structure-deck-spellcasters-judgment",
+  "name": "Structure Deck: Spellcaster's Judgment",
+  "series": "GX",
+  "kind": "deck",
+  "code": "SD6",
+  "syncKey": "YSD6",
+  "released": "2006-01-18",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "SD6-EN001–SD6-EN036",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from SD6-EN001 to SD6-EN036."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Structure Deck: Spellcaster's Judgment Checklist · All 36 Cards",
+    "description": "Free Yu-Gi-Oh! Structure Deck: Spellcaster's Judgment checklist with no ads, no sign-up and no tracking. Track all 36 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Structure Deck: Spellcaster's Judgment Checklist",
+    "ogDescription": "Track all 36 cards in Yu-Gi-Oh! Structure Deck: Spellcaster's Judgment. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 36 cards in Yu-Gi-Oh! Structure Deck: Spellcaster's Judgment. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Structure Deck: Spellcaster's Judgment",
+    "paragraphs": [
+      "Structure Deck: Spellcaster&#39;s Judgment is a Yu-Gi-Oh! TCG deck released on 18 January 2006, in the GX era. It has 36 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Structure Deck: Spellcaster's Judgment"
+    ],
+    "tcgplayer": [
+      313
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"SD6-EN001","name":"Dark Eradicator Warlock","ctype":"monster","keywords":"Dark Magician Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Spellcaster / Effect","atk":2500,"def":2100},"rarity":"UR","img":"29436665","code":"1","tcg":24994,"grp":313,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"SD6-EN002","name":"Mythical Beast Cerberus","ctype":"monster","keywords":"Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Effect","atk":1400,"def":1400},"rarity":"C","img":"55424270","code":"2","tcg":24929,"grp":313,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"SD6-EN003","name":"Dark Magician","ctype":"monster","keywords":"Dark Magician Spellcaster DARK Normal Monster","stats":{"a":"DARK","l":"Level 7","t":"Spellcaster / Normal","atk":2500,"def":2100},"rarity":"C","img":"46986416","code":"3","tcg":24995,"grp":313,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"SD6-EN004","name":"Gemini Elf","ctype":"monster","keywords":"Spellcaster EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 4","t":"Spellcaster / Normal","atk":1900,"def":900},"rarity":"C","img":"69140098","code":"4","tcg":24996,"grp":313,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"SD6-EN005","name":"Magician of Faith","ctype":"monster","keywords":"Spellcaster LIGHT Flip Effect Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Spellcaster / Flip / Effect","atk":300,"def":400},"rarity":"C","img":"31560081","code":"5","tcg":24997,"grp":313,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"SD6-EN006","name":"Skilled Dark Magician","ctype":"monster","keywords":"Dark Magician Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Effect","atk":1900,"def":1700},"rarity":"C","img":"73752131","code":"6","tcg":24998,"grp":313,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"SD6-EN007","name":"Apprentice Magician","ctype":"monster","keywords":"Magician Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 2","t":"Spellcaster / Effect","atk":400,"def":800},"rarity":"C","img":"9156135","code":"7","tcg":24999,"grp":313,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"SD6-EN008","name":"Chaos Command Magician","ctype":"monster","keywords":"Chaos Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Spellcaster / Effect","atk":2400,"def":1900},"rarity":"C","img":"72630549","code":"8","tcg":25000,"grp":313,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"SD6-EN009","name":"Breaker the Magical Warrior","ctype":"monster","keywords":"Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Effect","atk":1600,"def":1000},"rarity":"C","img":"71413901","code":"9","tcg":25001,"grp":313,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"SD6-EN010","name":"Royal Magical Library","ctype":"monster","keywords":"Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Effect","atk":0,"def":2000},"rarity":"C","img":"70791313","code":"10","tcg":25002,"grp":313,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"SD6-EN011","name":"Tsukuyomi","ctype":"monster","keywords":"Spellcaster DARK Spirit Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Spirit","atk":1100,"def":1400},"rarity":"C","img":"34853266","code":"11","tcg":25003,"grp":313,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"SD6-EN012","name":"Chaos Sorcerer","ctype":"monster","keywords":"Chaos Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Spellcaster / Effect","atk":2300,"def":2000},"rarity":"C","img":"9596126","code":"12","tcg":25004,"grp":313,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"SD6-EN013","name":"White Magician Pikeru","ctype":"monster","keywords":"Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 2","t":"Spellcaster / Effect","atk":1200,"def":0},"rarity":"C","img":"81383947","code":"13","tcg":25005,"grp":313,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"SD6-EN014","name":"Blast Magician","ctype":"monster","keywords":"Spellcaster FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Spellcaster / Effect","atk":1400,"def":1700},"rarity":"C","img":"21051146","code":"14","tcg":25006,"grp":313,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"SD6-EN015","name":"Ebon Magician Curran","ctype":"monster","keywords":"Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 2","t":"Spellcaster / Effect","atk":1200,"def":0},"rarity":"C","img":"46128076","code":"15","tcg":25007,"grp":313,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"SD6-EN016","name":"Rapid-Fire Magician","ctype":"monster","keywords":"Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Effect","atk":1600,"def":1200},"rarity":"C","img":"6337436","code":"16","tcg":25008,"grp":313,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"SD6-EN017","name":"Magical Blast","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"91819979","code":"17","tcg":25009,"grp":313,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"SD6-EN018","name":"Mystical Space Typhoon","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"5318639","code":"18","tcg":25010,"grp":313,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"SD6-EN019","name":"Nobleman of Crossout","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"71044499","code":"19","tcg":25011,"grp":313,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"SD6-EN020","name":"Premature Burial","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"70828912","code":"20","tcg":25012,"grp":313,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"SD6-EN021","name":"Swords of Revealing Light","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"72302403","code":"21","tcg":25013,"grp":313,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"SD6-EN022","name":"Mage Power","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"83746708","code":"22","tcg":25014,"grp":313,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"SD6-EN023","name":"Heavy Storm","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"19613556","code":"23","tcg":25015,"grp":313,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"SD6-EN024","name":"Diffusion Wave-Motion","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"87880531","code":"24","tcg":25016,"grp":313,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"SD6-EN025","name":"Reload","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"22589918","code":"25","tcg":25017,"grp":313,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"SD6-EN026","name":"Dark Magic Attack","ctype":"spell","keywords":"Dark Magician Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"2314238","code":"26","tcg":25018,"grp":313,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"SD6-EN027","name":"Spell Absorption","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"51481927","code":"27","tcg":25019,"grp":313,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"SD6-EN028","name":"Lightning Vortex","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"69162969","code":"28","tcg":25020,"grp":313,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"SD6-EN029","name":"Magical Dimension","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"28553439","code":"29","tcg":24928,"grp":313,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"SD6-EN030","name":"Mystic Box","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"25774450","code":"30","tcg":25021,"grp":313,"idx":29},
+    {"id":"031","section":"main","num":"031","printed":"SD6-EN031","name":"Nightmare's Steelcage","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"58775978","code":"31","tcg":24930,"grp":313,"idx":30},
+    {"id":"032","section":"main","num":"032","printed":"SD6-EN032","name":"Call of the Haunted","ctype":"trap","keywords":"Call of the Haunted Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"97077563","code":"32","tcg":25022,"grp":313,"idx":31},
+    {"id":"033","section":"main","num":"033","printed":"SD6-EN033","name":"Spell Shield Type-8","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"C","img":"38275183","code":"33","tcg":25023,"grp":313,"idx":32},
+    {"id":"034","section":"main","num":"034","printed":"SD6-EN034","name":"Pitch-Black Power Stone","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"34029630","code":"34","tcg":25024,"grp":313,"idx":33},
+    {"id":"035","section":"main","num":"035","printed":"SD6-EN035","name":"Divine Wrath","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"C","img":"49010598","code":"35","tcg":25025,"grp":313,"idx":34},
+    {"id":"036","section":"main","num":"036","printed":"SD6-EN036","name":"Magic Cylinder","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"62279055","code":"36","tcg":25026,"grp":313,"idx":35}
+  ]
+}

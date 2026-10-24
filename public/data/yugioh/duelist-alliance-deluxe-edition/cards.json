@@ -1,0 +1,67 @@
+{
+  "id": "yugioh/duelist-alliance-deluxe-edition",
+  "game": "yugioh",
+  "slug": "duelist-alliance-deluxe-edition",
+  "name": "Duelist Alliance: Deluxe Edition",
+  "series": "Promos",
+  "kind": "promo",
+  "code": "DUEA",
+  "syncKey": "YDUEA2",
+  "released": "2014-09-11",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "DUEA-ENDE1–DUEA-ENDE7",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. Numbers count down the list in order: <b>1-5</b> is the first five cards and <b>3x2</b> is two copies of the third.",
+    "empty": "Cards run from DUEA-ENDE1 to DUEA-ENDE7."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Duelist Alliance: Deluxe Edition Checklist · All 7 Cards",
+    "description": "Free Yu-Gi-Oh! Duelist Alliance: Deluxe Edition checklist with no ads, no sign-up and no tracking. Track all 7 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Duelist Alliance: Deluxe Edition Checklist",
+    "ogDescription": "Track all 7 cards in Yu-Gi-Oh! Duelist Alliance: Deluxe Edition. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 7 cards in Yu-Gi-Oh! Duelist Alliance: Deluxe Edition. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Duelist Alliance: Deluxe Edition",
+    "paragraphs": [
+      "Duelist Alliance: Deluxe Edition is a Yu-Gi-Oh! TCG promo list released on 11 September 2014. It has 7 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Duelist Alliance: Deluxe Edition"
+    ],
+    "tcgplayer": [
+      1488
+    ]
+  },
+  "cards": [
+    {"id":"DUEA-DE1","section":"main","num":"DUEA-ENDE1","printed":"DUEA-ENDE1","name":"Performapal Hip Hippo","ctype":"monster","keywords":"Performapal Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Beast / Effect","atk":800,"def":800},"note":"Duelist Alliance: Deluxe Edition","rarity":"UR","img":"41440148","code":"1","tcg":93467,"grp":1488,"idx":0},
+    {"id":"DUEA-DE2","section":"main","num":"DUEA-ENDE2","printed":"DUEA-ENDE2","name":"Yang Zing Unleashed","ctype":"trap","keywords":"Yang Zing Continuous Trap","stats":{"t":"Continuous Trap"},"note":"Duelist Alliance: Deluxe Edition","rarity":"UR","img":"77783947","code":"2","tcg":93468,"grp":1488,"idx":1},
+    {"id":"DUEA-DE3","section":"main","num":"DUEA-ENDE3","printed":"DUEA-ENDE3","name":"Superheavy Samurai Soulfire Suit","ctype":"monster","keywords":"Superheavy Machine FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 2","t":"Machine / Effect","atk":800,"def":800},"note":"Duelist Alliance: Deluxe Edition","rarity":"SR","img":"4786063","code":"3","tcg":93469,"grp":1488,"idx":2},
+    {"id":"DUEA-DE4","section":"main","num":"DUEA-ENDE4","printed":"DUEA-ENDE4","name":"Shaddoll Hound","ctype":"monster","keywords":"Shaddoll Spellcaster DARK Flip Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Flip / Effect","atk":1600,"def":900},"note":"Duelist Alliance: Deluxe Edition","rarity":"SR","img":"52551211","code":"4","tcg":93470,"grp":1488,"idx":3},
+    {"id":"DUEA-DE5","section":"main","num":"DUEA-ENDE5","printed":"DUEA-ENDE5","name":"Deskbot 002","ctype":"monster","keywords":"Deskbot Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 2","t":"Machine / Effect","atk":500,"def":500},"note":"Duelist Alliance: Deluxe Edition","rarity":"SR","img":"59368956","code":"5","tcg":93471,"grp":1488,"idx":4},
+    {"id":"DUEA-DE6","section":"main","num":"DUEA-ENDE6","printed":"DUEA-ENDE6","name":"Wonder Balloons","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"note":"Duelist Alliance: Deluxe Edition","rarity":"SR","img":"78574395","code":"6","tcg":93472,"grp":1488,"idx":5},
+    {"id":"DUEA-DE7","section":"main","num":"DUEA-ENDE7","printed":"DUEA-ENDE7","name":"Hexatellarknight","ctype":"spell","keywords":"Tellarknight Field Spell","stats":{"t":"Field Spell"},"note":"Duelist Alliance: Deluxe Edition","rarity":"SR","img":"70422863","code":"7","tcg":93473,"grp":1488,"idx":6}
+  ]
+}

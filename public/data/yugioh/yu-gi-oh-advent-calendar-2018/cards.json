@@ -1,0 +1,84 @@
+{
+  "id": "yugioh/yu-gi-oh-advent-calendar-2018",
+  "game": "yugioh",
+  "slug": "yu-gi-oh-advent-calendar-2018",
+  "name": "Yu-Gi-Oh! Advent Calendar (2018)",
+  "series": "Promos",
+  "kind": "promo",
+  "code": "AC18",
+  "syncKey": "YAC18",
+  "released": "2018-10-25",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "AC18-EN001–AC18-EN024",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. Numbers count down the list in order: <b>1-5</b> is the first five cards and <b>3x2</b> is two copies of the third.",
+    "empty": "Cards run from AC18-EN001 to AC18-EN024."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Yu-Gi-Oh! Advent Calendar (2018) Checklist · All 24 Cards",
+    "description": "Free Yu-Gi-Oh! Yu-Gi-Oh! Advent Calendar (2018) checklist with no ads, no sign-up and no tracking. Track all 24 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Yu-Gi-Oh! Advent Calendar (2018) Checklist",
+    "ogDescription": "Track all 24 cards in Yu-Gi-Oh! Yu-Gi-Oh! Advent Calendar (2018). Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 24 cards in Yu-Gi-Oh! Yu-Gi-Oh! Advent Calendar (2018). Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Yu-Gi-Oh! Advent Calendar (2018)",
+    "paragraphs": [
+      "Yu-Gi-Oh! Advent Calendar (2018) is a Yu-Gi-Oh! TCG promo list released on 25 October 2018. It has 24 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Yu-Gi-Oh! Advent Calendar (2018)"
+    ],
+    "tcgplayer": [
+      2337
+    ]
+  },
+  "cards": [
+    {"id":"AC18-001","section":"main","num":"AC18-EN001","printed":"AC18-EN001","name":"Ceremonial Bell","ctype":"monster","keywords":"Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Spellcaster / Effect","atk":0,"def":1850},"note":"Yu-Gi-Oh! Advent Calendar (2018)","rarity":"SR","img":"20228463","code":"1","tcg":179229,"grp":2337,"idx":0},
+    {"id":"AC18-002","section":"main","num":"AC18-EN002","printed":"AC18-EN002","name":"Box of Friends","ctype":"monster","keywords":"Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Machine / Effect","atk":0,"def":0},"note":"Yu-Gi-Oh! Advent Calendar (2018)","rarity":"SR","img":"81587028","code":"2","tcg":179230,"grp":2337,"idx":1},
+    {"id":"AC18-003","section":"main","num":"AC18-EN003","printed":"AC18-EN003","name":"Ghostrick Jackfrost","ctype":"monster","keywords":"Ghostrick Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Fiend / Effect","atk":800,"def":100},"note":"Yu-Gi-Oh! Advent Calendar (2018)","rarity":"SR","img":"61318483","code":"3","tcg":179231,"grp":2337,"idx":2},
+    {"id":"AC18-004","section":"main","num":"AC18-EN004","printed":"AC18-EN004","name":"Ghostrick Yeti","ctype":"monster","keywords":"Ghostrick Zombie DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Zombie / Effect","atk":300,"def":2000},"note":"Yu-Gi-Oh! Advent Calendar (2018)","rarity":"SR","img":"84472026","code":"4","tcg":179232,"grp":2337,"idx":3},
+    {"id":"AC18-005","section":"main","num":"AC18-EN005","printed":"AC18-EN005","name":"Ice Queen","ctype":"monster","keywords":"Spellcaster WATER Effect Monster","stats":{"a":"WATER","l":"Level 8","t":"Spellcaster / Effect","atk":2900,"def":2100},"note":"Yu-Gi-Oh! Advent Calendar (2018)","rarity":"SR","img":"14462257","code":"5","tcg":179233,"grp":2337,"idx":4},
+    {"id":"AC18-006","section":"main","num":"AC18-EN006","printed":"AC18-EN006","name":"Tualatin","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Fairy / Effect","atk":2800,"def":2500},"note":"Yu-Gi-Oh! Advent Calendar (2018)","rarity":"SR","img":"27769400","code":"6","tcg":179234,"grp":2337,"idx":5},
+    {"id":"AC18-007","section":"main","num":"AC18-EN007","printed":"AC18-EN007","name":"Fire Cracker","ctype":"monster","keywords":"Fiend FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Fiend / Effect","atk":1700,"def":200},"note":"Yu-Gi-Oh! Advent Calendar (2018)","rarity":"SR","img":"81109178","code":"7","tcg":179235,"grp":2337,"idx":6},
+    {"id":"AC18-008","section":"main","num":"AC18-EN008","printed":"AC18-EN008","name":"Snowman Eater","ctype":"monster","keywords":"Aqua WATER Effect Monster","stats":{"a":"WATER","l":"Level 3","t":"Aqua / Effect","atk":0,"def":1900},"note":"Yu-Gi-Oh! Advent Calendar (2018)","rarity":"SR","img":"91133740","code":"8","tcg":179236,"grp":2337,"idx":7},
+    {"id":"AC18-009","section":"main","num":"AC18-EN009","printed":"AC18-EN009","name":"Wind-Up Rabbit","ctype":"monster","keywords":"Wind-Up Beast-Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Beast-Warrior / Effect","atk":1400,"def":600},"note":"Yu-Gi-Oh! Advent Calendar (2018)","rarity":"SR","img":"42874792","code":"9","tcg":179237,"grp":2337,"idx":8},
+    {"id":"AC18-010","section":"main","num":"AC18-EN010","printed":"AC18-EN010","name":"Mystical Fairy Elfuria","ctype":"monster","keywords":"Spellcaster WIND Effect Monster","stats":{"a":"WIND","l":"Level 3","t":"Spellcaster / Effect","atk":1500,"def":900},"note":"Yu-Gi-Oh! Advent Calendar (2018)","rarity":"SR","img":"85239662","code":"10","tcg":179238,"grp":2337,"idx":9},
+    {"id":"AC18-011","section":"main","num":"AC18-EN011","printed":"AC18-EN011","name":"Number 82: Heartlandraco","ctype":"monster","keywords":"Dragon EARTH Xyz Monster","stats":{"a":"EARTH","l":"Rank 4","t":"Dragon / Xyz","atk":2000,"def":1500},"note":"Yu-Gi-Oh! Advent Calendar (2018)","rarity":"SR","img":"31437713","code":"11","tcg":179239,"grp":2337,"idx":10},
+    {"id":"AC18-012","section":"main","num":"AC18-EN012","printed":"AC18-EN012","name":"Santa Claws","ctype":"monster","keywords":"Fiend LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Fiend / Effect","atk":1200,"def":2500},"note":"Yu-Gi-Oh! Advent Calendar (2018)","rarity":"SR","img":"46565218","code":"12","tcg":179240,"grp":2337,"idx":11},
+    {"id":"AC18-013","section":"main","num":"AC18-EN013","printed":"AC18-EN013","name":"Sacred Phoenix of Nephthys","ctype":"monster","keywords":"Nephthys Winged Beast FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 8","t":"Winged Beast / Effect","atk":2400,"def":1600},"note":"Yu-Gi-Oh! Advent Calendar (2018)","rarity":"SR","img":"61441708","code":"13","tcg":179241,"grp":2337,"idx":12},
+    {"id":"AC18-014","section":"main","num":"AC18-EN014","printed":"AC18-EN014","name":"Cockadoodledoo","ctype":"monster","keywords":"Winged Beast WIND Tuner Monster","stats":{"a":"WIND","l":"Level 5","t":"Winged Beast / Tuner","atk":1600,"def":2000},"note":"Yu-Gi-Oh! Advent Calendar (2018)","rarity":"SR","img":"42338879","code":"14","tcg":179242,"grp":2337,"idx":13},
+    {"id":"AC18-015","section":"main","num":"AC18-EN015","printed":"AC18-EN015","name":"Token Feastevil","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"note":"Yu-Gi-Oh! Advent Calendar (2018)","rarity":"SR","img":"83675475","code":"15","tcg":179243,"grp":2337,"idx":14},
+    {"id":"AC18-016","section":"main","num":"AC18-EN016","printed":"AC18-EN016","name":"Gift Exchange","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"note":"Yu-Gi-Oh! Advent Calendar (2018)","rarity":"SR","img":"82257940","code":"16","tcg":179244,"grp":2337,"idx":15},
+    {"id":"AC18-017","section":"main","num":"AC18-EN017","printed":"AC18-EN017","name":"Lonefire Blossom","ctype":"monster","keywords":"Plant FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 3","t":"Plant / Effect","atk":500,"def":1400},"note":"Yu-Gi-Oh! Advent Calendar (2018)","rarity":"SR","img":"48686504","code":"17","tcg":179245,"grp":2337,"idx":16},
+    {"id":"AC18-018","section":"main","num":"AC18-EN018","printed":"AC18-EN018","name":"Hoshiningen","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 2","t":"Fairy / Effect","atk":500,"def":700},"note":"Yu-Gi-Oh! Advent Calendar (2018)","rarity":"UR","img":"67629977","code":"18","tcg":179246,"grp":2337,"idx":17},
+    {"id":"AC18-019","section":"main","num":"AC18-EN019","printed":"AC18-EN019","name":"Valerifawn, Mystical Beast of the Forest","ctype":"monster","keywords":"Mystical Beast of the Forest Beast EARTH Tuner Monster","stats":{"a":"EARTH","l":"Level 2","t":"Beast / Tuner","atk":400,"def":900},"note":"Yu-Gi-Oh! Advent Calendar (2018)","rarity":"UR","img":"24096499","code":"19","tcg":179247,"grp":2337,"idx":18},
+    {"id":"AC18-020","section":"main","num":"AC18-EN020","printed":"AC18-EN020","name":"Toy Magician","ctype":"monster","keywords":"Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Effect","atk":1600,"def":1500},"note":"Yu-Gi-Oh! Advent Calendar (2018)","rarity":"UR","img":"58132856","code":"20","tcg":179248,"grp":2337,"idx":19},
+    {"id":"AC18-021","section":"main","num":"AC18-EN021","printed":"AC18-EN021","name":"Number 41: Bagooska the Terribly Tired Tapir","ctype":"monster","keywords":"Fiend EARTH Xyz Monster","stats":{"a":"EARTH","l":"Rank 4","t":"Fiend / Xyz","atk":2100,"def":2000},"note":"Yu-Gi-Oh! Advent Calendar (2018)","rarity":"UR","img":"90590304","code":"21","tcg":179249,"grp":2337,"idx":20},
+    {"id":"AC18-022","section":"main","num":"AC18-EN022","printed":"AC18-EN022","name":"Ghost Reaper & Winter Cherries","ctype":"monster","keywords":"Zombie DARK Tuner Monster","stats":{"a":"DARK","l":"Level 3","t":"Zombie / Tuner","atk":0,"def":1800},"note":"Yu-Gi-Oh! Advent Calendar (2018)","rarity":"UR","img":"62015408","code":"22","tcg":179250,"grp":2337,"idx":21},
+    {"id":"AC18-023","section":"main","num":"AC18-EN023","printed":"AC18-EN023","name":"Hey, Trunade!","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"note":"Yu-Gi-Oh! Advent Calendar (2018)","rarity":"UR","img":"64697431","code":"23","tcg":179251,"grp":2337,"idx":22},
+    {"id":"AC18-024","section":"main","num":"AC18-EN024","printed":"AC18-EN024","name":"Oh Tokenbaum!","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"note":"Yu-Gi-Oh! Advent Calendar (2018)","rarity":"UR","img":"97173708","code":"24","tcg":179252,"grp":2337,"idx":23}
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "yugioh/promos-2024",
+  "game": "yugioh",
+  "slug": "promos-2024",
+  "name": "Promos 2024",
+  "series": "Promos",
+  "kind": "promo",
+  "code": "P2024",
+  "syncKey": "YP2024",
+  "released": "2024-01-01",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "LART-EN060–LART-EN074",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. Numbers count down the list in order: <b>1-5</b> is the first five cards and <b>3x2</b> is two copies of the third.",
+    "empty": "Cards run from LART-EN060 to LART-EN074."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Promos 2024 Checklist · All 10 Cards",
+    "description": "Free Yu-Gi-Oh! Promos 2024 checklist with no ads, no sign-up and no tracking. Track all 10 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Promos 2024 Checklist",
+    "ogDescription": "Track all 10 cards in Yu-Gi-Oh! Promos 2024. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 10 cards in Yu-Gi-Oh! Promos 2024. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Promos 2024",
+    "paragraphs": [
+      "Promos 2024 gathers the 10 promo cards from 6 products released in 2024: The Lost Art Promotion 2023 G, The Lost Art Promotion 2024 A, The Lost Art Promotion 2024, The Lost Art Promotion 2024 C, The Lost Art Promotion 2024 B and The Lost Art Promotion 2024 H.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "The Lost Art Promotion 2023 G",
+      "The Lost Art Promotion 2024",
+      "The Lost Art Promotion 2024 A",
+      "The Lost Art Promotion 2024 B",
+      "The Lost Art Promotion 2024 C",
+      "The Lost Art Promotion 2024 H"
+    ],
+    "tcgplayer": [
+      2196
+    ]
+  },
+  "cards": [
+    {"id":"LART-060","section":"main","num":"LART-EN060","printed":"LART-EN060","name":"Magician's Salvation","ctype":"spell","keywords":"Dark Magician Field Spell","stats":{"t":"Field Spell"},"note":"The Lost Art Promotion 2023 G","rarity":"UR","img":"95477924","code":"1","tcg":505892,"grp":2196,"idx":0},
+    {"id":"LART-066","section":"main","num":"LART-EN066","printed":"LART-EN066","name":"Eldlich the Golden Lord","ctype":"monster","keywords":"Eldlich Zombie LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 10","t":"Zombie / Effect","atk":2500,"def":2800},"note":"The Lost Art Promotion 2024 A","rarity":"UR","img":"95440947","code":"2","tcg":551674,"grp":2196,"idx":1},
+    {"id":"LART-067","section":"main","num":"LART-EN067","printed":"LART-EN067","name":"Double Trap Hole","ctype":"trap","keywords":"Hole Normal Trap","stats":{"t":"Normal Trap"},"note":"The Lost Art Promotion 2024","rarity":"UR","img":"51976476","code":"3","tcg":602879,"grp":2196,"idx":2},
+    {"id":"LART-068","section":"main","num":"LART-EN068","printed":"LART-EN068","name":"Wattcancel","ctype":"trap","keywords":"Watt Counter Trap","stats":{"t":"Counter Trap"},"note":"The Lost Art Promotion 2024 C","rarity":"UR","img":"56993276","code":"4","tcg":565597,"grp":2196,"idx":3},
+    {"id":"LART-069","section":"main","num":"LART-EN069","printed":"LART-EN069","name":"Gimmick Puppet Dreary Doll","ctype":"monster","keywords":"Gimmick Puppet Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Machine / Effect","atk":0,"def":0},"note":"The Lost Art Promotion 2024","rarity":"UR","img":"92418590","code":"5","tcg":587441,"grp":2196,"idx":4},
+    {"id":"LART-070","section":"main","num":"LART-EN070","printed":"LART-EN070","name":"Ultimate Offering","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"note":"The Lost Art Promotion 2024","rarity":"UR","img":"80604092","code":"6","tcg":587438,"grp":2196,"idx":5},
+    {"id":"LART-071","section":"main","num":"LART-EN071","printed":"LART-EN071","name":"Ultimeat Offering","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"note":"The Lost Art Promotion 2024","rarity":"UR","img":"76823930","code":"7","tcg":587440,"grp":2196,"idx":6},
+    {"id":"LART-072","section":"main","num":"LART-EN072","printed":"LART-EN072","name":"Exodia Necross","ctype":"monster","keywords":"Exodia Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Effect","atk":1800,"def":0},"note":"The Lost Art Promotion 2024","rarity":"UR","img":"12600382","code":"8","tcg":602878,"grp":2196,"idx":7},
+    {"id":"LART-073","section":"main","num":"LART-EN073","printed":"LART-EN073","name":"Treeborn Frog","ctype":"monster","keywords":"Frog Aqua WATER Effect Monster","stats":{"a":"WATER","l":"Level 1","t":"Aqua / Effect","atk":100,"def":100},"note":"The Lost Art Promotion 2024 B","rarity":"UR","img":"12538374","code":"9","tcg":555955,"grp":2196,"idx":8},
+    {"id":"LART-074","section":"main","num":"LART-EN074","printed":"LART-EN074","name":"Monster Reborn","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"note":"The Lost Art Promotion 2024 H","rarity":"UR","img":"83764718","code":"10","tcg":617839,"grp":2196,"idx":9}
+  ]
+}

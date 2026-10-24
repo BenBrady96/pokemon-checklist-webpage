@@ -1,0 +1,71 @@
+{
+  "id": "yugioh/speed-duel-demo-deck",
+  "game": "yugioh",
+  "slug": "speed-duel-demo-deck",
+  "name": "Speed Duel Demo Deck",
+  "series": "VRAINS",
+  "kind": "deck",
+  "code": "DEM5",
+  "syncKey": "YDEM5",
+  "released": "2019-06-08",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "DEM5-EN001–DEM5-ENS01",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from DEM5-EN001 to DEM5-ENS01."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Speed Duel Demo Deck Checklist · All 11 Cards",
+    "description": "Free Yu-Gi-Oh! Speed Duel Demo Deck checklist with no ads, no sign-up and no tracking. Track all 11 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Speed Duel Demo Deck Checklist",
+    "ogDescription": "Track all 11 cards in Yu-Gi-Oh! Speed Duel Demo Deck. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 11 cards in Yu-Gi-Oh! Speed Duel Demo Deck. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Speed Duel Demo Deck",
+    "paragraphs": [
+      "Speed Duel Demo Deck is a Yu-Gi-Oh! TCG deck released on 8 June 2019, in the VRAINS era. It has 11 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Speed Duel Demo Deck"
+    ],
+    "tcgplayer": [
+      2681
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"DEM5-EN001","name":"Feral Imp","ctype":"monster","keywords":"Fiend DARK Normal Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Normal","atk":1300,"def":1400},"rarity":"C","img":"41392891","code":"1","tcg":217837,"grp":2681,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"DEM5-EN002","name":"Battle Ox","ctype":"monster","keywords":"Beast-Warrior EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 4","t":"Beast-Warrior / Normal","atk":1700,"def":1000},"rarity":"C","img":"5053103","code":"2","tcg":217840,"grp":2681,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"DEM5-EN003","name":"Dark Rabbit","ctype":"monster","keywords":"Beast DARK Normal Monster","stats":{"a":"DARK","l":"Level 4","t":"Beast / Normal","atk":1100,"def":1500},"rarity":"C","img":"99261403","code":"3","tcg":217843,"grp":2681,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"DEM5-EN004","name":"Baby Dragon","ctype":"monster","keywords":"Dragon WIND Normal Monster","stats":{"a":"WIND","l":"Level 3","t":"Dragon / Normal","atk":1200,"def":700},"rarity":"C","img":"88819587","code":"4","tcg":217845,"grp":2681,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"DEM5-EN005","name":"Meteor Dragon","ctype":"monster","keywords":"Dragon EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 6","t":"Dragon / Normal","atk":1800,"def":2000},"rarity":"C","img":"64271667","code":"5","tcg":217847,"grp":2681,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"DEM5-EN006","name":"Copycat","ctype":"monster","keywords":"Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Spellcaster / Effect","atk":0,"def":0},"rarity":"C","img":"26376390","code":"6","tcg":217849,"grp":2681,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"DEM5-EN007","name":"Gravekeeper's Spear Soldier","ctype":"monster","keywords":"Gravekeeper's Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Effect","atk":1500,"def":1000},"rarity":"C","img":"63695531","code":"7","tcg":217850,"grp":2681,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"DEM5-EN008","name":"Riryoku","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"34016756","code":"8","tcg":217852,"grp":2681,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"DEM5-EN009","name":"Sword of Deep-Seated","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"98495314","code":"9","tcg":217853,"grp":2681,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"DEM5-EN010","name":"Windstorm of Etaqua","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"59744639","code":"10","tcg":217854,"grp":2681,"idx":9},
+    {"id":"S01","section":"main","num":"S01","printed":"DEM5-ENS01","name":"Power Up!","ctype":"skill","keywords":"Yami Yugi Skill","stats":{"t":"Skill · Yami Yugi"},"rarity":"C","img":"300302021","code":"S1","tcg":217831,"grp":2681,"idx":10}
+  ]
+}

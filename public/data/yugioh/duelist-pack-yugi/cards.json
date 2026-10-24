@@ -1,0 +1,90 @@
+{
+  "id": "yugioh/duelist-pack-yugi",
+  "game": "yugioh",
+  "slug": "duelist-pack-yugi",
+  "name": "Duelist Pack: Yugi",
+  "series": "5D’s",
+  "kind": "pack",
+  "code": "DPYG",
+  "syncKey": "YDPYG",
+  "released": "2009-07-07",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "DPYG-EN001–DPYG-EN030",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from DPYG-EN001 to DPYG-EN030."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Duelist Pack: Yugi Checklist · All 30 Cards",
+    "description": "Free Yu-Gi-Oh! Duelist Pack: Yugi checklist with no ads, no sign-up and no tracking. Track all 30 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Duelist Pack: Yugi Checklist",
+    "ogDescription": "Track all 30 cards in Yu-Gi-Oh! Duelist Pack: Yugi. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 30 cards in Yu-Gi-Oh! Duelist Pack: Yugi. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Duelist Pack: Yugi",
+    "paragraphs": [
+      "Duelist Pack: Yugi is a Yu-Gi-Oh! TCG pack released on 7 July 2009, in the 5D’s era. It has 30 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Duelist Pack: Yugi"
+    ],
+    "tcgplayer": [
+      184
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"DPYG-EN001","name":"Dark Magician","ctype":"monster","keywords":"Dark Magician Spellcaster DARK Normal Monster","stats":{"a":"DARK","l":"Level 7","t":"Spellcaster / Normal","atk":2500,"def":2100},"rarity":"R","img":"46986416","code":"1","tcg":32967,"grp":184,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"DPYG-EN002","name":"Summoned Skull","ctype":"monster","keywords":"Archfiend Fiend DARK Normal Monster","stats":{"a":"DARK","l":"Level 6","t":"Fiend / Normal","atk":2500,"def":1200},"rarity":"SR","img":"70781054","code":"2","tcg":32968,"grp":184,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"DPYG-EN003","name":"Queen's Knight","ctype":"monster","keywords":"Knight Warrior LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Normal","atk":1500,"def":1600},"rarity":"C","img":"25652259","code":"3","tcg":32969,"grp":184,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"DPYG-EN004","name":"Jack's Knight","ctype":"monster","keywords":"Knight Warrior LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 5","t":"Warrior / Normal","atk":1900,"def":1000},"rarity":"C","img":"90876561","code":"4","tcg":32970,"grp":184,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"DPYG-EN005","name":"Kuriboh","ctype":"monster","keywords":"Kuriboh Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Fiend / Effect","atk":300,"def":200},"rarity":"C","img":"40640057","code":"5","tcg":32971,"grp":184,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"DPYG-EN006","name":"Catapult Turtle","ctype":"monster","keywords":"Aqua WATER Effect Monster","stats":{"a":"WATER","l":"Level 5","t":"Aqua / Effect","atk":1000,"def":2000},"rarity":"C","img":"95727991","code":"6","tcg":32972,"grp":184,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"DPYG-EN007","name":"Buster Blader","ctype":"monster","keywords":"Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 7","t":"Warrior / Effect","atk":2600,"def":2300},"rarity":"C","img":"78193831","code":"7","tcg":32973,"grp":184,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"DPYG-EN008","name":"Dark Magician Girl","ctype":"monster","keywords":"Dark Magician Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Spellcaster / Effect","atk":2000,"def":1700},"rarity":"SR","img":"38033122","code":"8","tcg":32974,"grp":184,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"DPYG-EN009","name":"Big Shield Gardna","ctype":"monster","keywords":"Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Effect","atk":100,"def":2600},"rarity":"C","img":"65240384","code":"9","tcg":32975,"grp":184,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"DPYG-EN010","name":"Sorcerer of Dark Magic","ctype":"monster","keywords":"Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 9","t":"Spellcaster / Effect","atk":3200,"def":2800},"rarity":"SR","img":"88619463","code":"10","tcg":32976,"grp":184,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"DPYG-EN011","name":"King's Knight","ctype":"monster","keywords":"Knight Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Effect","atk":1600,"def":1400},"rarity":"C","img":"64788463","code":"11","tcg":32977,"grp":184,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"DPYG-EN012","name":"Green Gadget","ctype":"monster","keywords":"Gadget Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Machine / Effect","atk":1400,"def":600},"rarity":"C","img":"41172955","code":"12","tcg":32978,"grp":184,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"DPYG-EN013","name":"Red Gadget","ctype":"monster","keywords":"Gadget Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Machine / Effect","atk":1300,"def":1500},"rarity":"C","img":"86445415","code":"13","tcg":32979,"grp":184,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"DPYG-EN014","name":"Yellow Gadget","ctype":"monster","keywords":"Gadget Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Machine / Effect","atk":1200,"def":1200},"rarity":"C","img":"13839120","code":"14","tcg":32980,"grp":184,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"DPYG-EN015","name":"Marshmallon","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Fairy / Effect","atk":300,"def":500},"rarity":"R","img":"31305911","code":"15","tcg":32981,"grp":184,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"DPYG-EN016","name":"Dark Paladin","ctype":"monster","keywords":"Dark Magician Spellcaster DARK Fusion Monster","stats":{"a":"DARK","l":"Level 8","t":"Spellcaster / Fusion","atk":2900,"def":2400},"rarity":"UR","img":"98502114","code":"16","tcg":32982,"grp":184,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"DPYG-EN017","name":"Black Luster Soldier","ctype":"monster","keywords":"Black Luster Soldier Warrior EARTH Ritual Monster","stats":{"a":"EARTH","l":"Level 8","t":"Warrior / Ritual","atk":3000,"def":2500},"rarity":"R","img":"5405694","code":"17","tcg":32983,"grp":184,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"DPYG-EN018","name":"Swords of Revealing Light","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"72302403","code":"18","tcg":32984,"grp":184,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"DPYG-EN019","name":"Monster Reborn","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"R","img":"83764719","code":"19","tcg":32985,"grp":184,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"DPYG-EN020","name":"Polymerization","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"27847700","code":"20","tcg":32986,"grp":184,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"DPYG-EN021","name":"Exchange","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"R","img":"5556668","code":"21","tcg":32987,"grp":184,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"DPYG-EN022","name":"Black Luster Ritual","ctype":"spell","keywords":"Black Luster Soldier Ritual Spell","stats":{"t":"Ritual Spell"},"rarity":"C","img":"55761792","code":"22","tcg":32988,"grp":184,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"DPYG-EN023","name":"Diffusion Wave-Motion","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"87880531","code":"23","tcg":32989,"grp":184,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"DPYG-EN024","name":"Brain Control","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"87910978","code":"24","tcg":32990,"grp":184,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"DPYG-EN025","name":"Card of Sanctity","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"R","img":"42664989","code":"25","tcg":32991,"grp":184,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"DPYG-EN026","name":"Spellbinding Circle","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"18807109","code":"26","tcg":32992,"grp":184,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"DPYG-EN027","name":"Mirror Force","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"UR","img":"44095762","code":"27","tcg":32993,"grp":184,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"DPYG-EN028","name":"Magical Hats","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"R","img":"81210420","code":"28","tcg":32994,"grp":184,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"DPYG-EN029","name":"Lightforce Sword","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"49587034","code":"29","tcg":32995,"grp":184,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"DPYG-EN030","name":"Stronghold the Moving Fortress","ctype":"trap","keywords":"Gadget Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"13955608","code":"30","tcg":32996,"grp":184,"idx":29}
+  ]
+}

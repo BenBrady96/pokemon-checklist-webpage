@@ -1,0 +1,157 @@
+{
+  "id": "yugioh/power-of-the-duelist",
+  "game": "yugioh",
+  "slug": "power-of-the-duelist",
+  "name": "Power of the Duelist",
+  "series": "GX",
+  "kind": "expansion",
+  "code": "POTD",
+  "syncKey": "YPOTD",
+  "released": "2006-08-16",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Main Set",
+      "range": "POTD-EN001–POTD-EN060",
+      "tier": "standard"
+    },
+    {
+      "id": "rarities",
+      "name": "Other Rarities",
+      "short": "Other Rarities",
+      "range": "25 cards",
+      "tier": "master"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Main set"
+    ],
+    [
+      "rarities",
+      "Other rarities"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, SCR12, 60x2",
+    "example": "1-20, 45x2, SCR12",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies. Other rarities use their short name and number: <b>SCR12</b> is card 12’s Secret Rare, and ranges work too (<b>QCSR1-QCSR20</b>).",
+    "empty": "Cards run from POTD-EN001 to POTD-EN060."
+  },
+  "help": {
+    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 60 cards, each in its main rarity. Master adds the 25 other rarities. Cards you’ve marked are kept when you switch."
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Power of the Duelist Checklist · All 60 Cards",
+    "description": "Free Yu-Gi-Oh! Power of the Duelist checklist with no ads, no sign-up and no tracking. Track all 60 cards, or every rarity for a master set, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Power of the Duelist Checklist",
+    "ogDescription": "Track all 60 cards in Yu-Gi-Oh! Power of the Duelist, plus 25 other rarities. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 60 cards in Yu-Gi-Oh! Power of the Duelist. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About the Power of the Duelist set",
+    "paragraphs": [
+      "Power of the Duelist is a Yu-Gi-Oh! TCG booster set released on 16 August 2006, in the GX era. It has 60 cards, and with the 25 other rarities there are 85 to collect in all.",
+      "Choose what you’re collecting: the <b>Standard set</b> (the 60 cards, each in its main rarity) or the <b>Master set</b> (all 85, adding the 25 other rarities).",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Power of the Duelist"
+    ],
+    "tcgplayer": [
+      265
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"POTD-EN001","name":"Elemental HERO Neos","ctype":"monster","keywords":"Elemental HERO Warrior LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 7","t":"Warrior / Normal","atk":2500,"def":2000},"rarity":"C","img":"89943723","code":"1","tcg":25397,"grp":265,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"POTD-EN002","name":"Sabersaurus","ctype":"monster","keywords":"Dinosaur EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 4","t":"Dinosaur / Normal","atk":1900,"def":500},"rarity":"C","img":"37265642","code":"2","tcg":25398,"grp":265,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"POTD-EN003","name":"Neo-Spacian Aqua Dolphin","ctype":"monster","keywords":"Neo-Spacian Warrior WATER Effect Monster","stats":{"a":"WATER","l":"Level 3","t":"Warrior / Effect","atk":600,"def":800},"rarity":"SR","img":"17955766","code":"3","tcg":25399,"grp":265,"idx":2},
+    {"id":"003-utr","section":"rarities","num":"003","printed":"POTD-EN003","name":"Neo-Spacian Aqua Dolphin","ctype":"monster","keywords":"Neo-Spacian Warrior WATER Effect Monster","stats":{"a":"WATER","l":"Level 3","t":"Warrior / Effect","atk":600,"def":800},"rarity":"UtR","img":"17955766","badge":"UtR","variant":"Ultimate Rare","code":"UTR3","tcg":58630,"grp":265,"idx":3},
+    {"id":"004","section":"main","num":"004","printed":"POTD-EN004","name":"Neo-Spacian Flare Scarab","ctype":"monster","keywords":"Neo-Spacian Insect FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 3","t":"Insect / Effect","atk":500,"def":500},"rarity":"SR","img":"89621922","code":"4","tcg":25400,"grp":265,"idx":4},
+    {"id":"004-utr","section":"rarities","num":"004","printed":"POTD-EN004","name":"Neo-Spacian Flare Scarab","ctype":"monster","keywords":"Neo-Spacian Insect FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 3","t":"Insect / Effect","atk":500,"def":500},"rarity":"UtR","img":"89621922","badge":"UtR","variant":"Ultimate Rare","code":"UTR4","tcg":58631,"grp":265,"idx":5},
+    {"id":"005","section":"main","num":"005","printed":"POTD-EN005","name":"Neo-Spacian Dark Panther","ctype":"monster","keywords":"Neo-Spacian Beast DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Beast / Effect","atk":1000,"def":500},"rarity":"SR","img":"43237273","code":"5","tcg":25401,"grp":265,"idx":6},
+    {"id":"005-utr","section":"rarities","num":"005","printed":"POTD-EN005","name":"Neo-Spacian Dark Panther","ctype":"monster","keywords":"Neo-Spacian Beast DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Beast / Effect","atk":1000,"def":500},"rarity":"UtR","img":"43237273","badge":"UtR","variant":"Ultimate Rare","code":"UTR5","tcg":58632,"grp":265,"idx":7},
+    {"id":"006","section":"main","num":"006","printed":"POTD-EN006","name":"Chrysalis Dolphin","ctype":"monster","keywords":"Chrysalis Fish WATER Effect Monster","stats":{"a":"WATER","l":"Level 2","t":"Fish / Effect","atk":400,"def":600},"rarity":"C","img":"42682609","code":"6","tcg":25402,"grp":265,"idx":8},
+    {"id":"007","section":"main","num":"007","printed":"POTD-EN007","name":"Rallis the Star Bird","ctype":"monster","keywords":"Winged Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 3","t":"Winged Beast / Effect","atk":800,"def":800},"rarity":"C","img":"41382147","code":"7","tcg":25403,"grp":265,"idx":9},
+    {"id":"008","section":"main","num":"008","printed":"POTD-EN008","name":"Submarineroid","ctype":"monster","keywords":"Roid Machine WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Machine / Effect","atk":800,"def":1800},"rarity":"R","img":"99861526","code":"8","tcg":25404,"grp":265,"idx":10},
+    {"id":"008-utr","section":"rarities","num":"008","printed":"POTD-EN008","name":"Submarineroid","ctype":"monster","keywords":"Roid Machine WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Machine / Effect","atk":800,"def":1800},"rarity":"UtR","img":"99861526","badge":"UtR","variant":"Ultimate Rare","code":"UTR8","tcg":58633,"grp":265,"idx":11},
+    {"id":"009","section":"main","num":"009","printed":"POTD-EN009","name":"Ambulanceroid","ctype":"monster","keywords":"Roid Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Machine / Effect","atk":300,"def":1200},"rarity":"C","img":"36378213","code":"9","tcg":25405,"grp":265,"idx":12},
+    {"id":"010","section":"main","num":"010","printed":"POTD-EN010","name":"Decoyroid","ctype":"monster","keywords":"Roid Machine WIND Effect Monster","stats":{"a":"WIND","l":"Level 2","t":"Machine / Effect","atk":300,"def":500},"rarity":"C","img":"25034083","code":"10","tcg":25406,"grp":265,"idx":13},
+    {"id":"011","section":"main","num":"011","printed":"POTD-EN011","name":"Rescueroid","ctype":"monster","keywords":"Roid Machine FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 6","t":"Machine / Effect","atk":1600,"def":1800},"rarity":"C","img":"24311595","code":"11","tcg":25407,"grp":265,"idx":14},
+    {"id":"012","section":"main","num":"012","printed":"POTD-EN012","name":"Destiny HERO - Double Dude","ctype":"monster","keywords":"Destiny HERO Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Warrior / Effect","atk":1000,"def":1000},"rarity":"SR","img":"28355718","code":"12","tcg":25408,"grp":265,"idx":15},
+    {"id":"012-utr","section":"rarities","num":"012","printed":"POTD-EN012","name":"Destiny HERO - Double Dude","ctype":"monster","keywords":"Destiny HERO Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Warrior / Effect","atk":1000,"def":1000},"rarity":"UtR","img":"28355718","badge":"UtR","variant":"Ultimate Rare","code":"UTR12","tcg":58634,"grp":265,"idx":16},
+    {"id":"013","section":"main","num":"013","printed":"POTD-EN013","name":"Destiny HERO - Defender","ctype":"monster","keywords":"Destiny HERO Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Warrior / Effect","atk":100,"def":2700},"rarity":"C","img":"54749427","code":"13","tcg":25409,"grp":265,"idx":17},
+    {"id":"014","section":"main","num":"014","printed":"POTD-EN014","name":"Destiny HERO - Dogma","ctype":"monster","keywords":"Destiny HERO Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Warrior / Effect","atk":3400,"def":2400},"rarity":"SR","img":"17132130","code":"14","tcg":25410,"grp":265,"idx":18},
+    {"id":"014-utr","section":"rarities","num":"014","printed":"POTD-EN014","name":"Destiny HERO - Dogma","ctype":"monster","keywords":"Destiny HERO Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Warrior / Effect","atk":3400,"def":2400},"rarity":"UtR","img":"17132130","badge":"UtR","variant":"Ultimate Rare","code":"UTR14","tcg":58635,"grp":265,"idx":19},
+    {"id":"015","section":"main","num":"015","printed":"POTD-EN015","name":"Destiny HERO - Blade Master","ctype":"monster","keywords":"Destiny HERO Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Warrior / Effect","atk":300,"def":600},"rarity":"C","img":"55461064","code":"15","tcg":25411,"grp":265,"idx":20},
+    {"id":"016","section":"main","num":"016","printed":"POTD-EN016","name":"Destiny HERO - Fear Monger","ctype":"monster","keywords":"Destiny HERO Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Warrior / Effect","atk":1000,"def":1000},"rarity":"C","img":"80744121","code":"16","tcg":25412,"grp":265,"idx":21},
+    {"id":"017","section":"main","num":"017","printed":"POTD-EN017","name":"Destiny HERO - Dasher","ctype":"monster","keywords":"Destiny HERO Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Warrior / Effect","atk":2100,"def":1000},"rarity":"R","img":"81866673","code":"17","tcg":25413,"grp":265,"idx":22},
+    {"id":"017-utr","section":"rarities","num":"017","printed":"POTD-EN017","name":"Destiny HERO - Dasher","ctype":"monster","keywords":"Destiny HERO Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Warrior / Effect","atk":2100,"def":1000},"rarity":"UtR","img":"81866673","badge":"UtR","variant":"Ultimate Rare","code":"UTR17","tcg":119013,"grp":265,"idx":23},
+    {"id":"018","section":"main","num":"018","printed":"POTD-EN018","name":"Black Ptera","ctype":"monster","keywords":"Dinosaur WIND Effect Monster","stats":{"a":"WIND","l":"Level 3","t":"Dinosaur / Effect","atk":1000,"def":500},"rarity":"C","img":"90654356","code":"18","tcg":25414,"grp":265,"idx":24},
+    {"id":"019","section":"main","num":"019","printed":"POTD-EN019","name":"Black Stego","ctype":"monster","keywords":"Dinosaur EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Dinosaur / Effect","atk":1200,"def":2000},"rarity":"C","img":"79409334","code":"19","tcg":25415,"grp":265,"idx":25},
+    {"id":"020","section":"main","num":"020","printed":"POTD-EN020","name":"Ultimate Tyranno","ctype":"monster","keywords":"Dinosaur EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 8","t":"Dinosaur / Effect","atk":3000,"def":2200},"rarity":"SR","img":"15894048","code":"20","tcg":25416,"grp":265,"idx":26},
+    {"id":"020-utr","section":"rarities","num":"020","printed":"POTD-EN020","name":"Ultimate Tyranno","ctype":"monster","keywords":"Dinosaur EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 8","t":"Dinosaur / Effect","atk":3000,"def":2200},"rarity":"UtR","img":"15894048","badge":"UtR","variant":"Ultimate Rare","code":"UTR20","tcg":58636,"grp":265,"idx":27},
+    {"id":"021","section":"main","num":"021","printed":"POTD-EN021","name":"Miracle Jurassic Egg","ctype":"monster","keywords":"Dinosaur EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Dinosaur / Effect","atk":0,"def":2000},"rarity":"C","img":"63259351","code":"21","tcg":25417,"grp":265,"idx":28},
+    {"id":"022","section":"main","num":"022","printed":"POTD-EN022","name":"Babycerasaurus","ctype":"monster","keywords":"Dinosaur EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 2","t":"Dinosaur / Effect","atk":500,"def":500},"rarity":"C","img":"36042004","code":"22","tcg":25418,"grp":265,"idx":29},
+    {"id":"023","section":"main","num":"023","printed":"POTD-EN023","name":"Bitelon","ctype":"monster","keywords":"Reptile WATER Effect Monster","stats":{"a":"WATER","l":"Level 6","t":"Reptile / Effect","atk":2400,"def":1000},"rarity":"C","img":"44702857","code":"23","tcg":25419,"grp":265,"idx":30},
+    {"id":"024","section":"main","num":"024","printed":"POTD-EN024","name":"Alien Grey","ctype":"monster","keywords":"Alien Reptile LIGHT Flip Effect Monster","stats":{"a":"LIGHT","l":"Level 2","t":"Reptile / Flip / Effect","atk":300,"def":800},"rarity":"C","img":"62437709","code":"24","tcg":25420,"grp":265,"idx":31},
+    {"id":"025","section":"main","num":"025","printed":"POTD-EN025","name":"Alien Skull","ctype":"monster","keywords":"Alien Reptile WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Reptile / Effect","atk":1600,"def":1800},"rarity":"C","img":"25920413","code":"25","tcg":25421,"grp":265,"idx":32},
+    {"id":"026","section":"main","num":"026","printed":"POTD-EN026","name":"Alien Hunter","ctype":"monster","keywords":"Alien Reptile WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Reptile / Effect","atk":1600,"def":800},"rarity":"C","img":"62315111","code":"26","tcg":25422,"grp":265,"idx":33},
+    {"id":"027","section":"main","num":"027","printed":"POTD-EN027","name":"Alien Warrior","ctype":"monster","keywords":"Alien Reptile EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Reptile / Effect","atk":1800,"def":1000},"rarity":"R","img":"98719226","code":"27","tcg":25423,"grp":265,"idx":34},
+    {"id":"027-utr","section":"rarities","num":"027","printed":"POTD-EN027","name":"Alien Warrior","ctype":"monster","keywords":"Alien Reptile EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Reptile / Effect","atk":1800,"def":1000},"rarity":"UtR","img":"98719226","badge":"UtR","variant":"Ultimate Rare","code":"UTR27","tcg":58637,"grp":265,"idx":35},
+    {"id":"028","section":"main","num":"028","printed":"POTD-EN028","name":"Alien Mother","ctype":"monster","keywords":"Alien Reptile DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Reptile / Effect","atk":2300,"def":1500},"rarity":"R","img":"24104865","code":"28","tcg":25424,"grp":265,"idx":36},
+    {"id":"028-utr","section":"rarities","num":"028","printed":"POTD-EN028","name":"Alien Mother","ctype":"monster","keywords":"Alien Reptile DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Reptile / Effect","atk":2300,"def":1500},"rarity":"UtR","img":"24104865","badge":"UtR","variant":"Ultimate Rare","code":"UTR28","tcg":58638,"grp":265,"idx":37},
+    {"id":"029","section":"main","num":"029","printed":"POTD-EN029","name":"Cosmic Horror Gangi'el","ctype":"monster","keywords":"Alien Reptile LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 7","t":"Reptile / Effect","atk":2600,"def":2000},"rarity":"R","img":"51192573","code":"29","tcg":25425,"grp":265,"idx":38},
+    {"id":"029-utr","section":"rarities","num":"029","printed":"POTD-EN029","name":"Cosmic Horror Gangi'el","ctype":"monster","keywords":"Alien Reptile LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 7","t":"Reptile / Effect","atk":2600,"def":2000},"rarity":"UtR","img":"51192573","badge":"UtR","variant":"Ultimate Rare","code":"UTR29","tcg":58639,"grp":265,"idx":39},
+    {"id":"030","section":"main","num":"030","printed":"POTD-EN030","name":"Flying Saucer Muusik'i","ctype":"monster","keywords":"Alien Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 5","t":"Machine / Effect","atk":1000,"def":2000},"rarity":"C","img":"97697678","code":"30","tcg":25426,"grp":265,"idx":40},
+    {"id":"031","section":"main","num":"031","printed":"POTD-EN031","name":"Elemental HERO Aqua Neos","ctype":"monster","keywords":"Elemental HERO Warrior WATER Fusion Monster","stats":{"a":"WATER","l":"Level 7","t":"Warrior / Fusion","atk":2500,"def":2000},"rarity":"UR","img":"55171412","code":"31","tcg":25427,"grp":265,"idx":41},
+    {"id":"031-utr","section":"rarities","num":"031","printed":"POTD-EN031","name":"Elemental HERO Aqua Neos","ctype":"monster","keywords":"Elemental HERO Warrior WATER Fusion Monster","stats":{"a":"WATER","l":"Level 7","t":"Warrior / Fusion","atk":2500,"def":2000},"rarity":"UtR","img":"55171412","badge":"UtR","variant":"Ultimate Rare","code":"UTR31","tcg":58640,"grp":265,"idx":42},
+    {"id":"032","section":"main","num":"032","printed":"POTD-EN032","name":"Elemental HERO Flare Neos","ctype":"monster","keywords":"Elemental HERO Warrior FIRE Fusion Monster","stats":{"a":"FIRE","l":"Level 7","t":"Warrior / Fusion","atk":2500,"def":2000},"rarity":"UR","img":"81566151","code":"32","tcg":25428,"grp":265,"idx":43},
+    {"id":"032-utr","section":"rarities","num":"032","printed":"POTD-EN032","name":"Elemental HERO Flare Neos","ctype":"monster","keywords":"Elemental HERO Warrior FIRE Fusion Monster","stats":{"a":"FIRE","l":"Level 7","t":"Warrior / Fusion","atk":2500,"def":2000},"rarity":"UtR","img":"81566151","badge":"UtR","variant":"Ultimate Rare","code":"UTR32","tcg":58641,"grp":265,"idx":44},
+    {"id":"033","section":"main","num":"033","printed":"POTD-EN033","name":"Elemental HERO Dark Neos","ctype":"monster","keywords":"Elemental HERO Warrior DARK Fusion Monster","stats":{"a":"DARK","l":"Level 7","t":"Warrior / Fusion","atk":2500,"def":2000},"rarity":"UR","img":"28677304","code":"33","tcg":25429,"grp":265,"idx":45},
+    {"id":"033-utr","section":"rarities","num":"033","printed":"POTD-EN033","name":"Elemental HERO Dark Neos","ctype":"monster","keywords":"Elemental HERO Warrior DARK Fusion Monster","stats":{"a":"DARK","l":"Level 7","t":"Warrior / Fusion","atk":2500,"def":2000},"rarity":"UtR","img":"28677304","badge":"UtR","variant":"Ultimate Rare","code":"UTR33","tcg":58642,"grp":265,"idx":46},
+    {"id":"034","section":"main","num":"034","printed":"POTD-EN034","name":"Chimeratech Overdragon","ctype":"monster","keywords":"Machine DARK Fusion Monster","stats":{"a":"DARK","l":"Level 9","t":"Machine / Fusion","atk":-1,"def":-1},"rarity":"UR","img":"64599569","code":"34","tcg":25430,"grp":265,"idx":47},
+    {"id":"034-utr","section":"rarities","num":"034","printed":"POTD-EN034","name":"Chimeratech Overdragon","ctype":"monster","keywords":"Machine DARK Fusion Monster","stats":{"a":"DARK","l":"Level 9","t":"Machine / Fusion","atk":-1,"def":-1},"rarity":"UtR","img":"64599569","badge":"UtR","variant":"Ultimate Rare","code":"UTR34","tcg":58643,"grp":265,"idx":48},
+    {"id":"035","section":"main","num":"035","printed":"POTD-EN035","name":"Ambulance Rescueroid","ctype":"monster","keywords":"Roid Machine FIRE Fusion Monster","stats":{"a":"FIRE","l":"Level 6","t":"Machine / Fusion","atk":2300,"def":1800},"rarity":"C","img":"98927491","code":"35","tcg":25431,"grp":265,"idx":49},
+    {"id":"036","section":"main","num":"036","printed":"POTD-EN036","name":"Super Vehicroid Jumbo Drill","ctype":"monster","keywords":"Roid Machine EARTH Fusion Monster","stats":{"a":"EARTH","l":"Level 8","t":"Machine / Fusion","atk":3000,"def":2000},"rarity":"SR","img":"36256625","code":"36","tcg":25432,"grp":265,"idx":50},
+    {"id":"036-utr","section":"rarities","num":"036","printed":"POTD-EN036","name":"Super Vehicroid Jumbo Drill","ctype":"monster","keywords":"Roid Machine EARTH Fusion Monster","stats":{"a":"EARTH","l":"Level 8","t":"Machine / Fusion","atk":3000,"def":2000},"rarity":"UtR","img":"36256625","badge":"UtR","variant":"Ultimate Rare","code":"UTR36","tcg":58644,"grp":265,"idx":51},
+    {"id":"037","section":"main","num":"037","printed":"POTD-EN037","name":"Contact","ctype":"spell","keywords":"Chrysalis Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"16616620","code":"37","tcg":25433,"grp":265,"idx":52},
+    {"id":"038","section":"main","num":"038","printed":"POTD-EN038","name":"Fake Hero","ctype":"spell","keywords":"Elemental HERO Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"78387742","code":"38","tcg":25434,"grp":265,"idx":53},
+    {"id":"039","section":"main","num":"039","printed":"POTD-EN039","name":"Spell Calling","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"R","img":"41160595","code":"39","tcg":25435,"grp":265,"idx":54},
+    {"id":"039-utr","section":"rarities","num":"039","printed":"POTD-EN039","name":"Spell Calling","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UtR","img":"41160595","badge":"UtR","variant":"Ultimate Rare","code":"UTR39","tcg":58645,"grp":265,"idx":55},
+    {"id":"040","section":"main","num":"040","printed":"POTD-EN040","name":"Vehicroid Connection Zone","ctype":"spell","keywords":"Roid Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"23299957","code":"40","tcg":25436,"grp":265,"idx":56},
+    {"id":"041","section":"main","num":"041","printed":"POTD-EN041","name":"D - Spirit","ctype":"spell","keywords":"Destiny HERO Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"89899996","code":"41","tcg":25437,"grp":265,"idx":57},
+    {"id":"042","section":"main","num":"042","printed":"POTD-EN042","name":"Overload Fusion","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"R","img":"3659803","code":"42","tcg":25438,"grp":265,"idx":58},
+    {"id":"042-utr","section":"rarities","num":"042","printed":"POTD-EN042","name":"Overload Fusion","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UtR","img":"3659803","badge":"UtR","variant":"Ultimate Rare","code":"UTR42","tcg":58646,"grp":265,"idx":59},
+    {"id":"043","section":"main","num":"043","printed":"POTD-EN043","name":"Cyclone Blade","ctype":"spell","keywords":"Destiny HERO Equip Spell","stats":{"t":"Equip Spell"},"rarity":"R","img":"22147147","code":"43","tcg":25439,"grp":265,"idx":60},
+    {"id":"043-utr","section":"rarities","num":"043","printed":"POTD-EN043","name":"Cyclone Blade","ctype":"spell","keywords":"Destiny HERO Equip Spell","stats":{"t":"Equip Spell"},"rarity":"UtR","img":"22147147","badge":"UtR","variant":"Ultimate Rare","code":"UTR43","tcg":58647,"grp":265,"idx":61},
+    {"id":"044","section":"main","num":"044","printed":"POTD-EN044","name":"Future Fusion","ctype":"spell","keywords":"Magician Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"R","img":"77565204","code":"44","tcg":25440,"grp":265,"idx":62},
+    {"id":"044-utr","section":"rarities","num":"044","printed":"POTD-EN044","name":"Future Fusion","ctype":"spell","keywords":"Magician Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"UtR","img":"77565204","badge":"UtR","variant":"Ultimate Rare","code":"UTR44","tcg":58648,"grp":265,"idx":63},
+    {"id":"045","section":"main","num":"045","printed":"POTD-EN045","name":"Common Soul","ctype":"spell","keywords":"Neo-Spacian Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"14772491","code":"45","tcg":25441,"grp":265,"idx":64},
+    {"id":"046","section":"main","num":"046","printed":"POTD-EN046","name":"Neo Space","ctype":"spell","keywords":"Elemental HERO Field Spell","stats":{"t":"Field Spell"},"rarity":"R","img":"42015635","code":"46","tcg":25442,"grp":265,"idx":65},
+    {"id":"046-utr","section":"rarities","num":"046","printed":"POTD-EN046","name":"Neo Space","ctype":"spell","keywords":"Elemental HERO Field Spell","stats":{"t":"Field Spell"},"rarity":"UtR","img":"42015635","badge":"UtR","variant":"Ultimate Rare","code":"UTR46","tcg":58649,"grp":265,"idx":66},
+    {"id":"047","section":"main","num":"047","printed":"POTD-EN047","name":"Mausoleum of the Emperor","ctype":"spell","keywords":"Field Spell","stats":{"t":"Field Spell"},"rarity":"C","img":"80921533","code":"47","tcg":25443,"grp":265,"idx":67},
+    {"id":"048","section":"main","num":"048","printed":"POTD-EN048","name":"Dark City","ctype":"spell","keywords":"Destiny HERO Field Spell","stats":{"t":"Field Spell"},"rarity":"R","img":"53527835","code":"48","tcg":25444,"grp":265,"idx":68},
+    {"id":"048-utr","section":"rarities","num":"048","printed":"POTD-EN048","name":"Dark City","ctype":"spell","keywords":"Destiny HERO Field Spell","stats":{"t":"Field Spell"},"rarity":"UtR","img":"53527835","badge":"UtR","variant":"Ultimate Rare","code":"UTR48","tcg":58650,"grp":265,"idx":69},
+    {"id":"049","section":"main","num":"049","printed":"POTD-EN049","name":"Destiny Mirage","ctype":"trap","keywords":"Destiny HERO Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"15294090","code":"49","tcg":25445,"grp":265,"idx":70},
+    {"id":"050","section":"main","num":"050","printed":"POTD-EN050","name":"D - Chain","ctype":"trap","keywords":"Destiny HERO Normal Trap","stats":{"t":"Normal Trap"},"rarity":"R","img":"43405287","code":"50","tcg":25446,"grp":265,"idx":71},
+    {"id":"050-utr","section":"rarities","num":"050","printed":"POTD-EN050","name":"D - Chain","ctype":"trap","keywords":"Destiny HERO Normal Trap","stats":{"t":"Normal Trap"},"rarity":"UtR","img":"43405287","badge":"UtR","variant":"Ultimate Rare","code":"UTR50","tcg":58651,"grp":265,"idx":72},
+    {"id":"051","section":"main","num":"051","printed":"POTD-EN051","name":"Crop Circles","ctype":"trap","keywords":"Alien Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"24082387","code":"51","tcg":25447,"grp":265,"idx":73},
+    {"id":"052","section":"main","num":"052","printed":"POTD-EN052","name":"The Paths of Destiny","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"50470982","code":"52","tcg":25448,"grp":265,"idx":74},
+    {"id":"053","section":"main","num":"053","printed":"POTD-EN053","name":"Orbital Bombardment","ctype":"trap","keywords":"Alien Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"96875080","code":"53","tcg":25449,"grp":265,"idx":75},
+    {"id":"054","section":"main","num":"054","printed":"POTD-EN054","name":"Royal Writ of Taxation","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"86742443","code":"54","tcg":25450,"grp":265,"idx":76},
+    {"id":"055","section":"main","num":"055","printed":"POTD-EN055","name":"Wonder Garage","ctype":"trap","keywords":"Roid Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"50684552","code":"55","tcg":25451,"grp":265,"idx":77},
+    {"id":"056","section":"main","num":"056","printed":"POTD-EN056","name":"Supercharge","ctype":"trap","keywords":"Roid Normal Trap","stats":{"t":"Normal Trap"},"rarity":"R","img":"97705809","code":"56","tcg":25452,"grp":265,"idx":78},
+    {"id":"056-utr","section":"rarities","num":"056","printed":"POTD-EN056","name":"Supercharge","ctype":"trap","keywords":"Roid Normal Trap","stats":{"t":"Normal Trap"},"rarity":"UtR","img":"97705809","badge":"UtR","variant":"Ultimate Rare","code":"UTR56","tcg":58652,"grp":265,"idx":79},
+    {"id":"057","section":"main","num":"057","printed":"POTD-EN057","name":"Cyber Summon Blaster","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"R","img":"63477921","code":"57","tcg":25453,"grp":265,"idx":80},
+    {"id":"057-utr","section":"rarities","num":"057","printed":"POTD-EN057","name":"Cyber Summon Blaster","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"UtR","img":"63477921","badge":"UtR","variant":"Ultimate Rare","code":"UTR57","tcg":58653,"grp":265,"idx":81},
+    {"id":"058","section":"main","num":"058","printed":"POTD-EN058","name":"Fossil Excavation","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"23869735","code":"58","tcg":25454,"grp":265,"idx":82},
+    {"id":"059","section":"main","num":"059","printed":"POTD-EN059","name":"Synthetic Seraphim","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"16946849","code":"59","tcg":25455,"grp":265,"idx":83},
+    {"id":"060","section":"main","num":"060","printed":"POTD-EN060","name":"Brainwashing Beam","ctype":"trap","keywords":"Alien Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"59258334","code":"60","tcg":25456,"grp":265,"idx":84}
+  ]
+}

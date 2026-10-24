@@ -1,4 +1,4 @@
-import { loadCatalog } from '../core/catalog.js';
+import { loadCatalog, entryById, groupByGame } from '../core/catalog.js';
 import { fetchCollection } from '../core/collection.js';
 import { asset } from '../core/paths.js';
 import { normalize } from '../core/model.js';
@@ -44,7 +44,7 @@ let pushed = false;
 const tierChoice = new Map();
 
 const them = () => page.received.name || 'Them';
-const entryOf = (id) => page.catalog.collections.find((c) => c.id === id);
+const entryOf = (id) => entryById(page.catalog, id);
 
 function filtersFor() {
   const name = page.received.name;
@@ -116,7 +116,7 @@ function renderHero() {
 }
 
 function renderSets() {
-  $('set-list').replaceChildren(...page.ids.map((id) => {
+  const row = (id) => {
     const model = page.models.get(id);
     const info = entryOf(id);
     const s = statsOf(id);
@@ -124,7 +124,11 @@ function renderSets() {
       el('span', { class: 'pf-row__logo' }, info?.logo ? el('img', { src: asset(info.logo), alt: '', loading: 'lazy', decoding: 'async' }) : null),
       el('span', { class: 'pf-row__main' }, el('b', { text: model.name }), el('small', { text: model.single ? plural(s.total, 'card', 'cards') : s.tier.name })),
       el('span', { class: 'shc-bars' }, ...barsFor(s))));
-  }));
+  };
+  const groups = groupByGame(page.catalog, page.ids);
+  $('set-list').replaceChildren(...(groups.length > 1
+    ? groups.flatMap(({ game, ids }) => [el('li', { class: 'list-game' }, el('h3', { class: 'list-game__title', text: game.name })), ...ids.map(row)])
+    : page.ids.map(row)));
 }
 
 function itemsOf(id) {

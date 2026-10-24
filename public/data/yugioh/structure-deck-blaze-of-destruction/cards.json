@@ -1,0 +1,91 @@
+{
+  "id": "yugioh/structure-deck-blaze-of-destruction",
+  "game": "yugioh",
+  "slug": "structure-deck-blaze-of-destruction",
+  "name": "Structure Deck: Blaze of Destruction",
+  "series": "Duel Monsters",
+  "kind": "deck",
+  "code": "SD3",
+  "syncKey": "YSD3",
+  "released": "2005-05-09",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "SD3-EN001–SD3-EN031",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from SD3-EN001 to SD3-EN031."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Structure Deck: Blaze of Destruction Checklist · All 31 Cards",
+    "description": "Free Yu-Gi-Oh! Structure Deck: Blaze of Destruction checklist with no ads, no sign-up and no tracking. Track all 31 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Structure Deck: Blaze of Destruction Checklist",
+    "ogDescription": "Track all 31 cards in Yu-Gi-Oh! Structure Deck: Blaze of Destruction. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 31 cards in Yu-Gi-Oh! Structure Deck: Blaze of Destruction. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Structure Deck: Blaze of Destruction",
+    "paragraphs": [
+      "Structure Deck: Blaze of Destruction is a Yu-Gi-Oh! TCG deck released on 9 May 2005, in the Duel Monsters era. It has 31 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Structure Deck: Blaze of Destruction"
+    ],
+    "tcgplayer": [
+      305
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"SD3-EN001","name":"Infernal Flame Emperor","ctype":"monster","keywords":"Pyro FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 9","t":"Pyro / Effect","atk":2700,"def":1600},"rarity":"UR","img":"19847532","code":"1","tcg":24115,"grp":305,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"SD3-EN002","name":"Great Angus","ctype":"monster","keywords":"Beast FIRE Normal Monster","stats":{"a":"FIRE","l":"Level 4","t":"Beast / Normal","atk":1800,"def":600},"rarity":"C","img":"11813953","code":"2","tcg":24116,"grp":305,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"SD3-EN003","name":"Blazing Inpachi","ctype":"monster","keywords":"Pyro FIRE Normal Monster","stats":{"a":"FIRE","l":"Level 4","t":"Pyro / Normal","atk":1850,"def":0},"rarity":"C","img":"5464695","code":"3","tcg":24117,"grp":305,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"SD3-EN004","name":"UFO Turtle","ctype":"monster","keywords":"Machine FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Machine / Effect","atk":1400,"def":1200},"rarity":"C","img":"60806437","code":"4","tcg":24118,"grp":305,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"SD3-EN005","name":"Little Chimera","ctype":"monster","keywords":"Beast FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 2","t":"Beast / Effect","atk":600,"def":550},"rarity":"C","img":"68658728","code":"5","tcg":24119,"grp":305,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"SD3-EN006","name":"Inferno","ctype":"monster","keywords":"Pyro FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Pyro / Effect","atk":1100,"def":1900},"rarity":"C","img":"74823665","code":"6","tcg":24120,"grp":305,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"SD3-EN007","name":"Molten Zombie","ctype":"monster","keywords":"Pyro FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Pyro / Effect","atk":1600,"def":400},"rarity":"C","img":"4732017","code":"7","tcg":24121,"grp":305,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"SD3-EN008","name":"Solar Flare Dragon","ctype":"monster","keywords":"Pyro FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Pyro / Effect","atk":1500,"def":1000},"rarity":"C","img":"45985838","code":"8","tcg":24122,"grp":305,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"SD3-EN009","name":"Ultimate Baseball Kid","ctype":"monster","keywords":"Warrior FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 3","t":"Warrior / Effect","atk":500,"def":1000},"rarity":"C","img":"67934141","code":"9","tcg":24123,"grp":305,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"SD3-EN010","name":"Raging Flame Sprite","ctype":"monster","keywords":"Pyro FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 3","t":"Pyro / Effect","atk":100,"def":200},"rarity":"C","img":"90810762","code":"10","tcg":24124,"grp":305,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"SD3-EN011","name":"Thestalos the Firestorm Monarch","ctype":"monster","keywords":"Monarch Pyro FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 6","t":"Pyro / Effect","atk":2400,"def":1000},"rarity":"C","img":"26205777","code":"11","tcg":24125,"grp":305,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"SD3-EN012","name":"Gaia Soul the Combustible Collective","ctype":"monster","keywords":"Pyro FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Pyro / Effect","atk":2000,"def":0},"rarity":"C","img":"51355346","code":"12","tcg":24126,"grp":305,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"SD3-EN013","name":"Fox Fire","ctype":"monster","keywords":"Pyro FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 2","t":"Pyro / Effect","atk":300,"def":200},"rarity":"C","img":"88753985","code":"13","tcg":24127,"grp":305,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"SD3-EN014","name":"Snatch Steal","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"45986603","code":"14","tcg":24128,"grp":305,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"SD3-EN015","name":"Mystical Space Typhoon","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"5318639","code":"15","tcg":24129,"grp":305,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"SD3-EN016","name":"Molten Destruction","ctype":"spell","keywords":"Field Spell","stats":{"t":"Field Spell"},"rarity":"C","img":"19384334","code":"16","tcg":24130,"grp":305,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"SD3-EN017","name":"Nobleman of Crossout","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"71044499","code":"17","tcg":24131,"grp":305,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"SD3-EN018","name":"Premature Burial","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"70828912","code":"18","tcg":24132,"grp":305,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"SD3-EN019","name":"Pot of Greed","ctype":"spell","keywords":"Greed Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"55144522","code":"19","tcg":24133,"grp":305,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"SD3-EN020","name":"Tribute to the Doomed","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"79759861","code":"20","tcg":24134,"grp":305,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"SD3-EN021","name":"Heavy Storm","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"19613556","code":"21","tcg":24135,"grp":305,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"SD3-EN022","name":"Dark Room of Nightmare","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"85562745","code":"22","tcg":24136,"grp":305,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"SD3-EN023","name":"Reload","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"22589918","code":"23","tcg":24137,"grp":305,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"SD3-EN024","name":"Level Limit - Area B","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"3136426","code":"24","tcg":24138,"grp":305,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"SD3-EN025","name":"Necklace of Command","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"48576971","code":"25","tcg":24139,"grp":305,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"SD3-EN026","name":"Meteor of Destruction","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"33767325","code":"26","tcg":24140,"grp":305,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"SD3-EN027","name":"Dust Tornado","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"60082869","code":"27","tcg":24141,"grp":305,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"SD3-EN028","name":"Call of the Haunted","ctype":"trap","keywords":"Call of the Haunted Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"97077563","code":"28","tcg":24142,"grp":305,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"SD3-EN029","name":"Jar of Greed","ctype":"trap","keywords":"Greed Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"83968380","code":"29","tcg":24143,"grp":305,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"SD3-EN030","name":"Spell Shield Type-8","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"C","img":"38275183","code":"30","tcg":24144,"grp":305,"idx":29},
+    {"id":"031","section":"main","num":"031","printed":"SD3-EN031","name":"Backfire","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"82705573","code":"31","tcg":24145,"grp":305,"idx":30}
+  ]
+}

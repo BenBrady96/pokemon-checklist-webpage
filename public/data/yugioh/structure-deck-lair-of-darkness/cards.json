@@ -1,0 +1,102 @@
+{
+  "id": "yugioh/structure-deck-lair-of-darkness",
+  "game": "yugioh",
+  "slug": "structure-deck-lair-of-darkness",
+  "name": "Structure Deck: Lair of Darkness",
+  "series": "VRAINS",
+  "kind": "deck",
+  "code": "SR06",
+  "syncKey": "YSR06",
+  "released": "2018-04-19",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "SR06-EN000–SR06-ENTKN",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from SR06-EN000 to SR06-ENTKN."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Structure Deck: Lair of Darkness Checklist · All 42 Cards",
+    "description": "Free Yu-Gi-Oh! Structure Deck: Lair of Darkness checklist with no ads, no sign-up and no tracking. Track all 42 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Structure Deck: Lair of Darkness Checklist",
+    "ogDescription": "Track all 42 cards in Yu-Gi-Oh! Structure Deck: Lair of Darkness. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 42 cards in Yu-Gi-Oh! Structure Deck: Lair of Darkness. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Structure Deck: Lair of Darkness",
+    "paragraphs": [
+      "Structure Deck: Lair of Darkness is a Yu-Gi-Oh! TCG deck released on 19 April 2018, in the VRAINS era. It has 42 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Structure Deck: Lair of Darkness"
+    ],
+    "tcgplayer": [
+      2211
+    ]
+  },
+  "cards": [
+    {"id":"000","section":"main","num":"000","printed":"SR06-EN000","name":"Lilith, Lady of Lament","ctype":"monster","keywords":"Lady of Lament Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Fiend / Effect","atk":2000,"def":0},"rarity":"UR","img":"23898021","code":"0","tcg":165461,"grp":2211,"idx":0},
+    {"id":"001","section":"main","num":"001","printed":"SR06-EN001","name":"Darkest Diabolos, Lord of the Lair","ctype":"monster","keywords":"Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Dragon / Effect","atk":3000,"def":2000},"rarity":"UR","img":"50383626","code":"1","tcg":165464,"grp":2211,"idx":1},
+    {"id":"002","section":"main","num":"002","printed":"SR06-EN002","name":"Ahrima, the Wicked Warden","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Effect","atk":1700,"def":0},"rarity":"SR","img":"86377375","code":"2","tcg":165465,"grp":2211,"idx":2},
+    {"id":"003","section":"main","num":"003","printed":"SR06-EN003","name":"Duke Shade, the Sinister Shadow Lord","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Effect","atk":500,"def":2000},"rarity":"C","img":"12766474","code":"3","tcg":165466,"grp":2211,"idx":3},
+    {"id":"004","section":"main","num":"004","printed":"SR06-EN004","name":"Diabolos, King of the Abyss","ctype":"monster","keywords":"Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Dragon / Effect","atk":2800,"def":1000},"rarity":"C","img":"29424328","code":"4","tcg":165467,"grp":2211,"idx":4},
+    {"id":"005","section":"main","num":"005","printed":"SR06-EN005","name":"Lich Lord, King of the Underworld","ctype":"monster","keywords":"Zombie DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Zombie / Effect","atk":2400,"def":1200},"rarity":"C","img":"55818463","code":"5","tcg":165468,"grp":2211,"idx":5},
+    {"id":"006","section":"main","num":"006","printed":"SR06-EN006","name":"Prometheus, King of the Shadows","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Effect","atk":1200,"def":800},"rarity":"C","img":"82213171","code":"6","tcg":165469,"grp":2211,"idx":6},
+    {"id":"007","section":"main","num":"007","printed":"SR06-EN007","name":"Archfiend Emperor, the First Lord of Horror","ctype":"monster","keywords":"Archfiend Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Fiend / Effect","atk":3000,"def":2000},"rarity":"C","img":"28423537","code":"7","tcg":165470,"grp":2211,"idx":7},
+    {"id":"008","section":"main","num":"008","printed":"SR06-EN008","name":"Caius the Mega Monarch","ctype":"monster","keywords":"Monarch Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Fiend / Effect","atk":2800,"def":1000},"rarity":"C","img":"87288189","code":"8","tcg":165472,"grp":2211,"idx":8},
+    {"id":"009","section":"main","num":"009","printed":"SR06-EN009","name":"Legendary Maju Garzett","ctype":"monster","keywords":"Maju Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Fiend / Effect","atk":0,"def":0},"rarity":"C","img":"12338068","code":"9","tcg":165473,"grp":2211,"idx":9},
+    {"id":"010","section":"main","num":"010","printed":"SR06-EN010","name":"Vanity's Fiend","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Fiend / Effect","atk":2400,"def":1200},"rarity":"C","img":"47084486","code":"10","tcg":165475,"grp":2211,"idx":10},
+    {"id":"011","section":"main","num":"011","printed":"SR06-EN011","name":"Mist Archfiend","ctype":"monster","keywords":"Archfiend Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 5","t":"Fiend / Effect","atk":2400,"def":0},"rarity":"C","img":"28601770","code":"11","tcg":165476,"grp":2211,"idx":11},
+    {"id":"012","section":"main","num":"012","printed":"SR06-EN012","name":"Infernal Dragon","ctype":"monster","keywords":"Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Dragon / Effect","atk":2000,"def":0},"rarity":"C","img":"47754278","code":"12","tcg":165477,"grp":2211,"idx":12},
+    {"id":"013","section":"main","num":"013","printed":"SR06-EN013","name":"Archfiend Cavalry","ctype":"monster","keywords":"Archfiend Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Effect","atk":1900,"def":0},"rarity":"C","img":"92039899","code":"13","tcg":165478,"grp":2211,"idx":13},
+    {"id":"014","section":"main","num":"014","printed":"SR06-EN014","name":"Stygian Street Patrol","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Effect","atk":1600,"def":1200},"rarity":"C","img":"13521194","code":"14","tcg":165479,"grp":2211,"idx":14},
+    {"id":"015","section":"main","num":"015","printed":"SR06-EN015","name":"Phantom of Chaos","ctype":"monster","keywords":"Chaos Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Effect","atk":0,"def":0},"rarity":"C","img":"30312361","code":"15","tcg":165480,"grp":2211,"idx":15},
+    {"id":"016","section":"main","num":"016","printed":"SR06-EN016","name":"Plague Wolf","ctype":"monster","keywords":"Zombie DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Zombie / Effect","atk":1000,"def":1000},"rarity":"C","img":"55696885","code":"16","tcg":165482,"grp":2211,"idx":16},
+    {"id":"017","section":"main","num":"017","printed":"SR06-EN017","name":"Fiendish Rhino Warrior","ctype":"monster","keywords":"Fiend EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Fiend / Effect","atk":1400,"def":900},"rarity":"C","img":"81035362","code":"17","tcg":165483,"grp":2211,"idx":17},
+    {"id":"018","section":"main","num":"018","printed":"SR06-EN018","name":"Kuribandit","ctype":"monster","keywords":"Kuriboh Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Fiend / Effect","atk":1000,"def":700},"rarity":"C","img":"16404809","code":"18","tcg":165484,"grp":2211,"idx":18},
+    {"id":"019","section":"main","num":"019","printed":"SR06-EN019","name":"Tour Guide From the Underworld","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Fiend / Effect","atk":1000,"def":600},"rarity":"C","img":"10802915","code":"19","tcg":165485,"grp":2211,"idx":19},
+    {"id":"020","section":"main","num":"020","printed":"SR06-EN020","name":"Absolute King Back Jack","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Fiend / Effect","atk":0,"def":0},"rarity":"C","img":"60990740","code":"20","tcg":165486,"grp":2211,"idx":20},
+    {"id":"021","section":"main","num":"021","printed":"SR06-EN021","name":"Relinkuriboh","ctype":"monster","keywords":"Kuriboh Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Fiend / Effect","atk":300,"def":200},"rarity":"C","img":"50185950","code":"21","tcg":165487,"grp":2211,"idx":21},
+    {"id":"022","section":"main","num":"022","printed":"SR06-EN022","name":"Lair of Darkness","ctype":"spell","keywords":"Field Spell","stats":{"t":"Field Spell"},"rarity":"SR","img":"59160188","code":"22","tcg":165489,"grp":2211,"idx":22},
+    {"id":"023","section":"main","num":"023","printed":"SR06-EN023","name":"Recurring Nightmare","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"81191584","code":"23","tcg":165491,"grp":2211,"idx":23},
+    {"id":"024","section":"main","num":"024","printed":"SR06-EN024","name":"Allure of Darkness","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"1475311","code":"24","tcg":165492,"grp":2211,"idx":24},
+    {"id":"025","section":"main","num":"025","printed":"SR06-EN025","name":"Hand Destruction","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"74519184","code":"25","tcg":165494,"grp":2211,"idx":25},
+    {"id":"026","section":"main","num":"026","printed":"SR06-EN026","name":"Foolish Burial Goods","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"35726888","code":"26","tcg":165495,"grp":2211,"idx":26},
+    {"id":"027","section":"main","num":"027","printed":"SR06-EN027","name":"Boogie Trap","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"96704974","code":"27","tcg":165496,"grp":2211,"idx":27},
+    {"id":"028","section":"main","num":"028","printed":"SR06-EN028","name":"Fires of Doomsday","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"46173679","code":"28","tcg":165498,"grp":2211,"idx":28},
+    {"id":"029","section":"main","num":"029","printed":"SR06-EN029","name":"Veil of Darkness","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"90434926","code":"29","tcg":165499,"grp":2211,"idx":29},
+    {"id":"030","section":"main","num":"030","printed":"SR06-EN030","name":"Grinning Grave Virus","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"85555787","code":"30","tcg":165501,"grp":2211,"idx":30},
+    {"id":"031","section":"main","num":"031","printed":"SR06-EN031","name":"Crush Card Virus","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"57728570","code":"31","tcg":165502,"grp":2211,"idx":31},
+    {"id":"032","section":"main","num":"032","printed":"SR06-EN032","name":"Deck Devastation Virus","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"35027493","code":"32","tcg":165504,"grp":2211,"idx":32},
+    {"id":"033","section":"main","num":"033","printed":"SR06-EN033","name":"Eradicator Epidemic Virus","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"54974237","code":"33","tcg":165506,"grp":2211,"idx":33},
+    {"id":"034","section":"main","num":"034","printed":"SR06-EN034","name":"Full Force Virus","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"4931121","code":"34","tcg":165510,"grp":2211,"idx":34},
+    {"id":"035","section":"main","num":"035","printed":"SR06-EN035","name":"Darklight","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"29876529","code":"35","tcg":165511,"grp":2211,"idx":35},
+    {"id":"036","section":"main","num":"036","printed":"SR06-EN036","name":"Trap of Darkness","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"79766336","code":"36","tcg":165512,"grp":2211,"idx":36},
+    {"id":"037","section":"main","num":"037","printed":"SR06-EN037","name":"Mind Crush","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"15800838","code":"37","tcg":165513,"grp":2211,"idx":37},
+    {"id":"038","section":"main","num":"038","printed":"SR06-EN038","name":"Rise to Full Height","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"19254117","code":"38","tcg":165515,"grp":2211,"idx":38},
+    {"id":"039","section":"main","num":"039","printed":"SR06-EN039","name":"Curse of Darkness","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"84970821","code":"39","tcg":165517,"grp":2211,"idx":39},
+    {"id":"040","section":"main","num":"040","printed":"SR06-EN040","name":"Sinister Yorishiro","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"72497366","code":"40","tcg":165518,"grp":2211,"idx":40},
+    {"id":"TKN","section":"main","num":"TKN","printed":"SR06-ENTKN","name":"Torment Token","ctype":"token","keywords":"Fiend Token","stats":{"t":"Fiend / Token"},"rarity":"C","img":"59160189","tcg":165520,"grp":2211,"idx":41}
+  ]
+}

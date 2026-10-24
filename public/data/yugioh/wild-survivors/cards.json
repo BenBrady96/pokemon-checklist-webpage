@@ -1,0 +1,147 @@
+{
+  "id": "yugioh/wild-survivors",
+  "game": "yugioh",
+  "slug": "wild-survivors",
+  "name": "Wild Survivors",
+  "series": "SEVENS & GO RUSH!!",
+  "kind": "expansion",
+  "code": "WISU",
+  "syncKey": "YWISU",
+  "released": "2023-06-01",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Main Set",
+      "range": "WISU-EN001–WISU-EN060",
+      "tier": "standard"
+    },
+    {
+      "id": "rarities",
+      "name": "Other Rarities",
+      "short": "Other Rarities",
+      "range": "15 cards",
+      "tier": "master"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Main set"
+    ],
+    [
+      "rarities",
+      "Other rarities"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, SCR12, 60x2",
+    "example": "1-20, 45x2, SCR12",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies. Other rarities use their short name and number: <b>SCR12</b> is card 12’s Secret Rare, and ranges work too (<b>QCSR1-QCSR20</b>).",
+    "empty": "Cards run from WISU-EN001 to WISU-EN060."
+  },
+  "help": {
+    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 60 cards, each in its main rarity. Master adds the 15 other rarities. Cards you’ve marked are kept when you switch."
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Wild Survivors Checklist · All 60 Cards",
+    "description": "Free Yu-Gi-Oh! Wild Survivors checklist with no ads, no sign-up and no tracking. Track all 60 cards, or every rarity for a master set, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Wild Survivors Checklist",
+    "ogDescription": "Track all 60 cards in Yu-Gi-Oh! Wild Survivors, plus 15 other rarities. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 60 cards in Yu-Gi-Oh! Wild Survivors. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About the Wild Survivors set",
+    "paragraphs": [
+      "Wild Survivors is a Yu-Gi-Oh! TCG booster set released on 1 June 2023, in the SEVENS &amp; GO RUSH!! era. It has 60 cards, and with the 15 other rarities there are 75 to collect in all.",
+      "Choose what you’re collecting: the <b>Standard set</b> (the 60 cards, each in its main rarity) or the <b>Master set</b> (all 75, adding the 15 other rarities).",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Wild Survivors"
+    ],
+    "tcgplayer": [
+      22955
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"WISU-EN001","name":"Xeno Meteorus","ctype":"monster","keywords":"Dinosaur FIRE Tuner Monster","stats":{"a":"FIRE","l":"Level 6","t":"Dinosaur / Tuner","atk":2000,"def":200},"rarity":"SR","img":"5852388","code":"1","tcg":497852,"grp":22955,"idx":0},
+    {"id":"001-cr","section":"rarities","num":"001","printed":"WISU-EN001","name":"Xeno Meteorus","ctype":"monster","keywords":"Dinosaur FIRE Tuner Monster","stats":{"a":"FIRE","l":"Level 6","t":"Dinosaur / Tuner","atk":2000,"def":200},"rarity":"CR","img":"5852388","badge":"CR","variant":"Collector’s Rare","code":"CR1","tcg":497881,"grp":22955,"idx":1},
+    {"id":"002","section":"main","num":"002","printed":"WISU-EN002","name":"Transcendosaurus Meteorus","ctype":"monster","keywords":"Transcendosaurus Dinosaur FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 12","t":"Dinosaur / Effect","atk":3500,"def":700},"rarity":"SR","img":"31241087","code":"2","tcg":497854,"grp":22955,"idx":2},
+    {"id":"003","section":"main","num":"003","printed":"WISU-EN003","name":"Transcendosaurus Gigantozowler","ctype":"monster","keywords":"Transcendosaurus Dinosaur EARTH Fusion Monster","stats":{"a":"EARTH","l":"Level 12","t":"Dinosaur / Fusion","atk":3800,"def":2000},"rarity":"SR","img":"67745632","code":"3","tcg":497855,"grp":22955,"idx":3},
+    {"id":"004","section":"main","num":"004","printed":"WISU-EN004","name":"Transcendosaurus Glaciasaurus","ctype":"monster","keywords":"Transcendosaurus Dinosaur WATER Synchro Monster","stats":{"a":"WATER","l":"Level 12","t":"Dinosaur / Synchro","atk":3600,"def":2700},"rarity":"R","img":"94130731","code":"4","tcg":497857,"grp":22955,"idx":4},
+    {"id":"005","section":"main","num":"005","printed":"WISU-EN005","name":"Transcendosaurus Drillygnathus","ctype":"monster","keywords":"Transcendosaurus Dinosaur WIND Xyz Monster","stats":{"a":"WIND","l":"Rank 6","t":"Dinosaur / Xyz","atk":3000,"def":2300},"rarity":"R","img":"30128445","code":"5","tcg":497858,"grp":22955,"idx":5},
+    {"id":"006","section":"main","num":"006","printed":"WISU-EN006","name":"Ground Xeno","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UR","img":"67523044","code":"6","tcg":497859,"grp":22955,"idx":6},
+    {"id":"007","section":"main","num":"007","printed":"WISU-EN007","name":"Supersoaring","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"R","img":"93918159","code":"7","tcg":497860,"grp":22955,"idx":7},
+    {"id":"008","section":"main","num":"008","printed":"WISU-EN008","name":"Frostosaurus","ctype":"monster","keywords":"Dinosaur WATER Normal Monster","stats":{"a":"WATER","l":"Level 6","t":"Dinosaur / Normal","atk":2600,"def":1700},"rarity":"R","img":"6631034","code":"8","tcg":497861,"grp":22955,"idx":8},
+    {"id":"009","section":"main","num":"009","printed":"WISU-EN009","name":"Ultimate Conductor Tyranno","ctype":"monster","keywords":"Dinosaur LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 10","t":"Dinosaur / Effect","atk":3500,"def":3200},"rarity":"R","img":"18940556","code":"9","tcg":497862,"grp":22955,"idx":9},
+    {"id":"009-cr","section":"rarities","num":"009","printed":"WISU-EN009","name":"Ultimate Conductor Tyranno","ctype":"monster","keywords":"Dinosaur LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 10","t":"Dinosaur / Effect","atk":3500,"def":3200},"rarity":"CR","img":"18940556","badge":"CR","variant":"Collector’s Rare","code":"CR9","tcg":497882,"grp":22955,"idx":10},
+    {"id":"010","section":"main","num":"010","printed":"WISU-EN010","name":"Giant Rex","ctype":"monster","keywords":"Dinosaur EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Dinosaur / Effect","atk":2000,"def":1200},"rarity":"R","img":"80280944","code":"10","tcg":497863,"grp":22955,"idx":11},
+    {"id":"011","section":"main","num":"011","printed":"WISU-EN011","name":"Miscellaneousaurus","ctype":"monster","keywords":"Dinosaur FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Dinosaur / Effect","atk":1800,"def":1000},"rarity":"R","img":"38572779","code":"11","tcg":497864,"grp":22955,"idx":12},
+    {"id":"012","section":"main","num":"012","printed":"WISU-EN012","name":"Souleating Oviraptor","ctype":"monster","keywords":"Dinosaur DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Dinosaur / Effect","atk":1800,"def":500},"rarity":"R","img":"44335251","code":"12","tcg":497865,"grp":22955,"idx":13},
+    {"id":"012-cr","section":"rarities","num":"012","printed":"WISU-EN012","name":"Souleating Oviraptor","ctype":"monster","keywords":"Dinosaur DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Dinosaur / Effect","atk":1800,"def":500},"rarity":"CR","img":"44335251","badge":"CR","variant":"Collector’s Rare","code":"CR12","tcg":497883,"grp":22955,"idx":14},
+    {"id":"013","section":"main","num":"013","printed":"WISU-EN013","name":"Babycerasaurus","ctype":"monster","keywords":"Dinosaur EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 2","t":"Dinosaur / Effect","atk":500,"def":500},"rarity":"R","img":"36042004","code":"13","tcg":497866,"grp":22955,"idx":15},
+    {"id":"014","section":"main","num":"014","printed":"WISU-EN014","name":"Petiteranodon","ctype":"monster","keywords":"Dinosaur EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 2","t":"Dinosaur / Effect","atk":500,"def":500},"rarity":"R","img":"82946847","code":"14","tcg":497867,"grp":22955,"idx":16},
+    {"id":"015","section":"main","num":"015","printed":"WISU-EN015","name":"Evolzar Solda","ctype":"monster","keywords":"Evolzar Dragon FIRE Xyz Monster","stats":{"a":"FIRE","l":"Rank 6","t":"Dragon / Xyz","atk":2600,"def":1000},"rarity":"R","img":"18511599","code":"15","tcg":497868,"grp":22955,"idx":17},
+    {"id":"016","section":"main","num":"016","printed":"WISU-EN016","name":"Vanquish Soul Razen","ctype":"monster","keywords":"Vanquish Soul Warrior FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Warrior / Effect","atk":1800,"def":1500},"rarity":"UR","img":"29302858","code":"16","tcg":497869,"grp":22955,"idx":18},
+    {"id":"016-cr","section":"rarities","num":"016","printed":"WISU-EN016","name":"Vanquish Soul Razen","ctype":"monster","keywords":"Vanquish Soul Warrior FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Warrior / Effect","atk":1800,"def":1500},"rarity":"CR","img":"29302858","badge":"CR","variant":"Collector’s Rare","code":"CR16","tcg":498078,"grp":22955,"idx":19},
+    {"id":"017","section":"main","num":"017","printed":"WISU-EN017","name":"Vanquish Soul Pantera","ctype":"monster","keywords":"Vanquish Soul Beast-Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Beast-Warrior / Effect","atk":1700,"def":1900},"rarity":"UR","img":"66401502","code":"17","tcg":497871,"grp":22955,"idx":20},
+    {"id":"018","section":"main","num":"018","printed":"WISU-EN018","name":"Vanquish Soul Heavy Borger","ctype":"monster","keywords":"Vanquish Soul Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Machine / Effect","atk":2500,"def":1500},"rarity":"UR","img":"92895501","code":"18","tcg":497872,"grp":22955,"idx":21},
+    {"id":"018-cr","section":"rarities","num":"018","printed":"WISU-EN018","name":"Vanquish Soul Heavy Borger","ctype":"monster","keywords":"Vanquish Soul Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Machine / Effect","atk":2500,"def":1500},"rarity":"CR","img":"92895501","badge":"CR","variant":"Collector’s Rare","code":"CR18","tcg":498079,"grp":22955,"idx":22},
+    {"id":"019","section":"main","num":"019","printed":"WISU-EN019","name":"Vanquish Soul Dr. Mad Love","ctype":"monster","keywords":"Vanquish Soul Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Effect","atk":1200,"def":2000},"rarity":"UR","img":"29280200","code":"19","tcg":497873,"grp":22955,"idx":23},
+    {"id":"019-cr","section":"rarities","num":"019","printed":"WISU-EN019","name":"Vanquish Soul Dr. Mad Love","ctype":"monster","keywords":"Vanquish Soul Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Effect","atk":1200,"def":2000},"rarity":"CR","img":"29280200","badge":"CR","variant":"Collector’s Rare","code":"CR19","tcg":498080,"grp":22955,"idx":24},
+    {"id":"020","section":"main","num":"020","printed":"WISU-EN020","name":"Vanquish Soul Pluton HG","ctype":"monster","keywords":"Vanquish Soul Zombie FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 6","t":"Zombie / Effect","atk":0,"def":0},"rarity":"SR","img":"55688914","code":"20","tcg":497874,"grp":22955,"idx":25},
+    {"id":"021","section":"main","num":"021","printed":"WISU-EN021","name":"Vanquish Soul Caesar Valius","ctype":"monster","keywords":"Vanquish Soul Dragon EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 8","t":"Dragon / Effect","atk":3000,"def":1500},"rarity":"UR","img":"91073013","code":"21","tcg":497879,"grp":22955,"idx":26},
+    {"id":"021-cr","section":"rarities","num":"021","printed":"WISU-EN021","name":"Vanquish Soul Caesar Valius","ctype":"monster","keywords":"Vanquish Soul Dragon EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 8","t":"Dragon / Effect","atk":3000,"def":1500},"rarity":"CR","img":"91073013","badge":"CR","variant":"Collector’s Rare","code":"CR21","tcg":497880,"grp":22955,"idx":27},
+    {"id":"022","section":"main","num":"022","printed":"WISU-EN022","name":"Rock of the Vanquisher","ctype":"monster","keywords":"Vanquish Soul Rock DARK Link Monster","stats":{"a":"DARK","l":"Link 1","t":"Rock / Link","atk":0},"rarity":"UR","img":"28168628","code":"22","tcg":497884,"grp":22955,"idx":28},
+    {"id":"023","section":"main","num":"023","printed":"WISU-EN023","name":"Stake your Soul!","ctype":"spell","keywords":"Vanquish Soul Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UR","img":"54562327","code":"23","tcg":497885,"grp":22955,"idx":29},
+    {"id":"023-cr","section":"rarities","num":"023","printed":"WISU-EN023","name":"Stake your Soul!","ctype":"spell","keywords":"Vanquish Soul Normal Spell","stats":{"t":"Normal Spell"},"rarity":"CR","img":"54562327","badge":"CR","variant":"Collector’s Rare","code":"CR23","tcg":497886,"grp":22955,"idx":30},
+    {"id":"024","section":"main","num":"024","printed":"WISU-EN024","name":"Vanquish Soul Dust Devil","ctype":"spell","keywords":"Vanquish Soul Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"SR","img":"91951471","code":"24","tcg":497887,"grp":22955,"idx":31},
+    {"id":"025","section":"main","num":"025","printed":"WISU-EN025","name":"Vanquish Soul - Continue?","ctype":"spell","keywords":"Vanquish Soul Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"SR","img":"27345070","code":"25","tcg":497888,"grp":22955,"idx":32},
+    {"id":"026","section":"main","num":"026","printed":"WISU-EN026","name":"Vanquish Soul Trinity Burst","ctype":"trap","keywords":"Vanquish Soul Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"53330789","code":"26","tcg":497889,"grp":22955,"idx":33},
+    {"id":"027","section":"main","num":"027","printed":"WISU-EN027","name":"Vanquish Soul Calamity Caesar","ctype":"trap","keywords":"Vanquish Soul Counter Trap","stats":{"t":"Counter Trap"},"rarity":"R","img":"80738884","code":"27","tcg":497890,"grp":22955,"idx":34},
+    {"id":"028","section":"main","num":"028","printed":"WISU-EN028","name":"Fire Formation - Tenki","ctype":"spell","keywords":"Fire Formation Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"R","img":"57103969","code":"28","tcg":497891,"grp":22955,"idx":35},
+    {"id":"028-cr","section":"rarities","num":"028","printed":"WISU-EN028","name":"Fire Formation - Tenki","ctype":"spell","keywords":"Fire Formation Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"CR","img":"57103969","badge":"CR","variant":"Collector’s Rare","code":"CR28","tcg":497892,"grp":22955,"idx":36},
+    {"id":"029","section":"main","num":"029","printed":"WISU-EN029","name":"Buerillabaisse de Nouvelles","ctype":"monster","keywords":"Nouvelles Beast-Warrior DARK Ritual Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Beast-Warrior / Ritual / Effect","atk":400,"def":1850},"rarity":"R","img":"26223582","code":"29","tcg":497893,"grp":22955,"idx":37},
+    {"id":"030","section":"main","num":"030","printed":"WISU-EN030","name":"Confiras de Nouvelles","ctype":"monster","keywords":"Nouvelles Warrior DARK Ritual Effect Monster","stats":{"a":"DARK","l":"Level 2","t":"Warrior / Ritual / Effect","atk":800,"def":1850},"rarity":"SR","img":"53618197","code":"30","tcg":497894,"grp":22955,"idx":38},
+    {"id":"031","section":"main","num":"031","printed":"WISU-EN031","name":"Poeltis de Nouvelles","ctype":"monster","keywords":"Nouvelles Beast-Warrior DARK Ritual Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Beast-Warrior / Ritual / Effect","atk":1200,"def":1850},"rarity":"SR","img":"89016236","code":"31","tcg":497895,"grp":22955,"idx":39},
+    {"id":"032","section":"main","num":"032","printed":"WISU-EN032","name":"Foie Glasya de Nouvelles","ctype":"monster","keywords":"Nouvelles Warrior DARK Ritual Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Warrior / Ritual / Effect","atk":1600,"def":1850},"rarity":"SR","img":"15001940","code":"32","tcg":497896,"grp":22955,"idx":40},
+    {"id":"033","section":"main","num":"033","printed":"WISU-EN033","name":"Balameuniere de Nouvelles","ctype":"monster","keywords":"Nouvelles Beast-Warrior DARK Ritual Effect Monster","stats":{"a":"DARK","l":"Level 5","t":"Beast-Warrior / Ritual / Effect","atk":2000,"def":1850},"rarity":"SR","img":"52495649","code":"33","tcg":497897,"grp":22955,"idx":41},
+    {"id":"034","section":"main","num":"034","printed":"WISU-EN034","name":"Baelgrill de Nouvelles","ctype":"monster","keywords":"Nouvelles Warrior DARK Ritual Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Warrior / Ritual / Effect","atk":2400,"def":1850},"rarity":"SR","img":"88890658","code":"34","tcg":497898,"grp":22955,"idx":42},
+    {"id":"035","section":"main","num":"035","printed":"WISU-EN035","name":"Nouvelles Restaurant \"At Table\"","ctype":"spell","keywords":"Nouvelles Field Spell","stats":{"t":"Field Spell"},"rarity":"UR","img":"15388353","code":"35","tcg":497899,"grp":22955,"idx":43},
+    {"id":"035-cr","section":"rarities","num":"035","printed":"WISU-EN035","name":"Nouvelles Restaurant \"At Table\"","ctype":"spell","keywords":"Nouvelles Field Spell","stats":{"t":"Field Spell"},"rarity":"CR","img":"15388353","badge":"CR","variant":"Collector’s Rare","code":"CR35","tcg":498081,"grp":22955,"idx":44},
+    {"id":"036","section":"main","num":"036","printed":"WISU-EN036","name":"Voici la Carte (Today's Menu)","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UR","img":"41773061","code":"36","tcg":497900,"grp":22955,"idx":45},
+    {"id":"037","section":"main","num":"037","printed":"WISU-EN037","name":"Recette de Poisson (Fish Recipe)","ctype":"spell","keywords":"Recipe Ritual Spell","stats":{"t":"Ritual Spell"},"rarity":"SR","img":"87778106","code":"37","tcg":497901,"grp":22955,"idx":46},
+    {"id":"038","section":"main","num":"038","printed":"WISU-EN038","name":"Recette de Viande (Meat Recipe)","ctype":"spell","keywords":"Recipe Ritual Spell","stats":{"t":"Ritual Spell"},"rarity":"SR","img":"14166715","code":"38","tcg":497902,"grp":22955,"idx":47},
+    {"id":"039","section":"main","num":"039","printed":"WISU-EN039","name":"Recette de Personnel (Staff Recipe)","ctype":"trap","keywords":"Recipe Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"R","img":"40551410","code":"39","tcg":497903,"grp":22955,"idx":48},
+    {"id":"040","section":"main","num":"040","printed":"WISU-EN040","name":"Chef's Special Recipe","ctype":"trap","keywords":"Recipe Counter Trap","stats":{"t":"Counter Trap"},"rarity":"R","img":"87955518","code":"40","tcg":497904,"grp":22955,"idx":49},
+    {"id":"040-cr","section":"rarities","num":"040","printed":"WISU-EN040","name":"Chef's Special Recipe","ctype":"trap","keywords":"Recipe Counter Trap","stats":{"t":"Counter Trap"},"rarity":"CR","img":"87955518","badge":"CR","variant":"Collector’s Rare","code":"CR40","tcg":497944,"grp":22955,"idx":50},
+    {"id":"041","section":"main","num":"041","printed":"WISU-EN041","name":"Hungry Burger","ctype":"monster","keywords":"Warrior DARK Ritual Monster","stats":{"a":"DARK","l":"Level 6","t":"Warrior / Ritual","atk":2000,"def":1850},"rarity":"SR","img":"30243636","code":"41","tcg":497913,"grp":22955,"idx":51},
+    {"id":"041-cr","section":"rarities","num":"041","printed":"WISU-EN041","name":"Hungry Burger","ctype":"monster","keywords":"Warrior DARK Ritual Monster","stats":{"a":"DARK","l":"Level 6","t":"Warrior / Ritual","atk":2000,"def":1850},"rarity":"CR","img":"30243636","badge":"CR","variant":"Collector’s Rare","code":"CR41","tcg":497947,"grp":22955,"idx":52},
+    {"id":"042","section":"main","num":"042","printed":"WISU-EN042","name":"Hamburger Recipe","ctype":"spell","keywords":"Ritual Spell","stats":{"t":"Ritual Spell"},"rarity":"R","img":"80811661","code":"42","tcg":497917,"grp":22955,"idx":53},
+    {"id":"043","section":"main","num":"043","printed":"WISU-EN043","name":"Impcantation Candoll","ctype":"monster","keywords":"Impcantation Pyro LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Pyro / Effect","atk":0,"def":0},"rarity":"R","img":"53303460","code":"43","tcg":497918,"grp":22955,"idx":54},
+    {"id":"044","section":"main","num":"044","printed":"WISU-EN044","name":"Impcantation Talismandra","ctype":"monster","keywords":"Impcantation Plant DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Plant / Effect","atk":0,"def":0},"rarity":"R","img":"80701178","code":"44","tcg":497919,"grp":22955,"idx":55},
+    {"id":"045","section":"main","num":"045","printed":"WISU-EN045","name":"Preparation of Rites","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"R","img":"96729612","code":"45","tcg":497920,"grp":22955,"idx":56},
+    {"id":"046","section":"main","num":"046","printed":"WISU-EN046","name":"Manju of the Ten Thousand Hands","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fairy / Effect","atk":1400,"def":1000},"rarity":"R","img":"95492061","code":"46","tcg":497921,"grp":22955,"idx":57},
+    {"id":"047","section":"main","num":"047","printed":"WISU-EN047","name":"True King Lithosagym, the Disaster","ctype":"monster","keywords":"Wyrm EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 9","t":"Wyrm / Effect","atk":2500,"def":2300},"rarity":"R","img":"30539496","code":"47","tcg":497925,"grp":22955,"idx":58},
+    {"id":"048","section":"main","num":"048","printed":"WISU-EN048","name":"Impcantation Penciplume","ctype":"monster","keywords":"Impcantation Psychic LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Psychic / Effect","atk":0,"def":0},"rarity":"R","img":"82085295","code":"48","tcg":497929,"grp":22955,"idx":59},
+    {"id":"049","section":"main","num":"049","printed":"WISU-EN049","name":"Impcantation Bookstone","ctype":"monster","keywords":"Impcantation Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 5","t":"Spellcaster / Effect","atk":0,"def":0},"rarity":"R","img":"18474999","code":"49","tcg":497942,"grp":22955,"idx":60},
+    {"id":"050","section":"main","num":"050","printed":"WISU-EN050","name":"Animadorned Archosaur","ctype":"monster","keywords":"Dinosaur LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Dinosaur / Effect","atk":0,"def":0},"rarity":"R","img":"98022050","code":"50","tcg":497950,"grp":22955,"idx":61},
+    {"id":"050-cr","section":"rarities","num":"050","printed":"WISU-EN050","name":"Animadorned Archosaur","ctype":"monster","keywords":"Dinosaur LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Dinosaur / Effect","atk":0,"def":0},"rarity":"CR","img":"98022050","badge":"CR","variant":"Collector’s Rare","code":"CR50","tcg":497951,"grp":22955,"idx":62},
+    {"id":"051","section":"main","num":"051","printed":"WISU-EN051","name":"Impcantation Chalislime","ctype":"monster","keywords":"Impcantation Aqua DARK Ritual Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Aqua / Ritual / Effect","atk":2500,"def":1800},"rarity":"R","img":"65877963","code":"51","tcg":497952,"grp":22955,"idx":63},
+    {"id":"052","section":"main","num":"052","printed":"WISU-EN052","name":"Enemy Controller","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"R","img":"98045062","code":"52","tcg":497953,"grp":22955,"idx":64},
+    {"id":"053","section":"main","num":"053","printed":"WISU-EN053","name":"Double Evolution Pill","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"R","img":"38179121","code":"53","tcg":497954,"grp":22955,"idx":65},
+    {"id":"054","section":"main","num":"054","printed":"WISU-EN054","name":"Allure of Darkness","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"R","img":"1475311","code":"54","tcg":497955,"grp":22955,"idx":66},
+    {"id":"055","section":"main","num":"055","printed":"WISU-EN055","name":"Fossil Dig","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"R","img":"47325505","code":"55","tcg":497956,"grp":22955,"idx":67},
+    {"id":"055-cr","section":"rarities","num":"055","printed":"WISU-EN055","name":"Fossil Dig","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"CR","img":"47325505","badge":"CR","variant":"Collector’s Rare","code":"CR55","tcg":498082,"grp":22955,"idx":68},
+    {"id":"056","section":"main","num":"056","printed":"WISU-EN056","name":"Pre-Preparation of Rites","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"R","img":"13048472","code":"56","tcg":497957,"grp":22955,"idx":69},
+    {"id":"057","section":"main","num":"057","printed":"WISU-EN057","name":"Lost World","ctype":"spell","keywords":"Field Spell","stats":{"t":"Field Spell"},"rarity":"R","img":"17228908","code":"57","tcg":497958,"grp":22955,"idx":70},
+    {"id":"058","section":"main","num":"058","printed":"WISU-EN058","name":"Deck Devastation Virus","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"R","img":"35027493","code":"58","tcg":497959,"grp":22955,"idx":71},
+    {"id":"059","section":"main","num":"059","printed":"WISU-EN059","name":"Eradicator Epidemic Virus","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"R","img":"54974237","code":"59","tcg":497960,"grp":22955,"idx":72},
+    {"id":"060","section":"main","num":"060","printed":"WISU-EN060","name":"There Can Be Only One","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"R","img":"24207889","code":"60","tcg":497961,"grp":22955,"idx":73},
+    {"id":"060-cr","section":"rarities","num":"060","printed":"WISU-EN060","name":"There Can Be Only One","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"CR","img":"24207889","badge":"CR","variant":"Collector’s Rare","code":"CR60","tcg":498084,"grp":22955,"idx":74}
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "id": "yugioh/promos-2012",
+  "game": "yugioh",
+  "slug": "promos-2012",
+  "name": "Promos 2012",
+  "series": "Promos",
+  "kind": "promo",
+  "code": "P2012",
+  "syncKey": "YP2012",
+  "released": "2012-01-01",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "ABYR-ENSE1–YZ02-EN001",
+      "tier": "standard"
+    },
+    {
+      "id": "rarities",
+      "name": "Other Rarities",
+      "short": "Other Rarities",
+      "range": "1 card",
+      "tier": "master"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Main set"
+    ],
+    [
+      "rarities",
+      "Other rarities"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, SCR12, 60x2",
+    "example": "1-20, 45x2, SCR12",
+    "hint": "Separate with commas or spaces. Numbers count down the list in order: <b>1-5</b> is the first five cards and <b>3x2</b> is two copies of the third.",
+    "empty": "Cards run from ABYR-ENSE1 to YZ02-EN001."
+  },
+  "help": {
+    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 33 cards, each in its main rarity. Master adds the 1 other rarity. Cards you’ve marked are kept when you switch."
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Promos 2012 Checklist · All 33 Cards",
+    "description": "Free Yu-Gi-Oh! Promos 2012 checklist with no ads, no sign-up and no tracking. Track all 33 cards, or every rarity for a master set, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Promos 2012 Checklist",
+    "ogDescription": "Track all 33 cards in Yu-Gi-Oh! Promos 2012, plus 1 other rarity. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 33 cards in Yu-Gi-Oh! Promos 2012. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Promos 2012",
+    "paragraphs": [
+      "Promos 2012 gathers the 33 promo cards from 25 products released in 2012: Abyss Rising: Special Edition, Abyss Rising Sneak Peek Participation Card, Duel Terminal 6, Duel Terminal 7, Galactic Overlord Sneak Peek Participation Card, Hidden Arsenal 5: Steelswarm Invasion: Special Edition, Shonen Jump Vol. 10, Issue 1 promotional card, Shonen Jump Vol. 10, Issue 3 promotional card, Shonen Jump Vol. 10, Issue 4 promotional card, Weekly Shonen Jump Alpha April 2012 membership promotional card, Weekly Shonen Jump Alpha July 2012 membership promotional card, Weekly Shonen Jump Alpha September 2012 membership promotional card, Weekly Shonen Jump Alpha December 2012 membership promotional card, Legendary Collection 3: Yugi&#39;s World, Order of Chaos: Special Edition, Order of Chaos Sneak Peek Participation Card, Return of the Duelist: Special Edition, Return of the Duelist Sneak Peek Participation Card, Ra Yellow Mega Pack: Special Edition, Yu-Gi-Oh! Championship Series 2012 Prize Card, Yu-Gi-Oh! 5D&#39;s Volume 2 promotional card, Yu-Gi-Oh! 5D&#39;s Volume 3 promotional card, Yu-Gi-Oh! GX Volume 8 promotional card, Yu-Gi-Oh! ZEXAL Volume 1 promotional card and Yu-Gi-Oh! ZEXAL Volume 2 promotional card.",
+      "Choose what you’re collecting: the <b>Standard set</b> (the 33 cards, each in its main rarity) or the <b>Master set</b> (all 34, adding the 1 other rarity).",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Abyss Rising Sneak Peek Participation Card",
+      "Abyss Rising: Special Edition",
+      "Duel Terminal 6",
+      "Duel Terminal 7",
+      "Galactic Overlord Sneak Peek Participation Card",
+      "Hidden Arsenal 5: Steelswarm Invasion: Special Edition",
+      "Legendary Collection 3: Yugi's World",
+      "Order of Chaos Sneak Peek Participation Card",
+      "Order of Chaos: Special Edition",
+      "Ra Yellow Mega Pack: Special Edition",
+      "Return of the Duelist Sneak Peek Participation Card",
+      "Return of the Duelist: Special Edition",
+      "Shonen Jump Vol. 10, Issue 1 promotional card",
+      "Shonen Jump Vol. 10, Issue 3 promotional card",
+      "Shonen Jump Vol. 10, Issue 4 promotional card",
+      "Weekly Shonen Jump Alpha April 2012 membership promotional card",
+      "Weekly Shonen Jump Alpha December 2012 membership promotional card",
+      "Weekly Shonen Jump Alpha July 2012 membership promotional card",
+      "Weekly Shonen Jump Alpha September 2012 membership promotional card",
+      "Yu-Gi-Oh! 5D's Volume 2 promotional card",
+      "Yu-Gi-Oh! 5D's Volume 3 promotional card",
+      "Yu-Gi-Oh! Championship Series 2012 Prize Card",
+      "Yu-Gi-Oh! GX Volume 8 promotional card",
+      "Yu-Gi-Oh! ZEXAL Volume 1 promotional card",
+      "Yu-Gi-Oh! ZEXAL Volume 2 promotional card"
+    ],
+    "tcgplayer": [
+      281,
+      584,
+      573,
+      257,
+      1332,
+      228,
+      588,
+      352,
+      1347,
+      600,
+      1333,
+      578,
+      269,
+      587,
+      599
+    ]
+  },
+  "cards": [
+    {"id":"ABYR-SE1","section":"main","num":"ABYR-ENSE1","printed":"ABYR-ENSE1","name":"Gagaga Girl","ctype":"monster","keywords":"Gagaga Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Spellcaster / Effect","atk":1000,"def":800},"note":"Abyss Rising: Special Edition","rarity":"SR","img":"3606728","code":"1","tcg":67309,"grp":573,"idx":0},
+    {"id":"ABYR-SE2","section":"main","num":"ABYR-ENSE2","printed":"ABYR-ENSE2","name":"Dark Smog","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"note":"Abyss Rising: Special Edition","rarity":"SR","img":"41930553","code":"2","tcg":67308,"grp":573,"idx":1},
+    {"id":"ABYR-SP1","section":"main","num":"ABYR-ENSP1","printed":"ABYR-ENSP1","name":"Ignoble Knight of Black Laundsallyn","ctype":"monster","keywords":"Noble Knight Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 5","t":"Warrior / Effect","atk":2000,"def":800},"note":"Abyss Rising Sneak Peek Participation Card","rarity":"UR","img":"95772051","code":"3","tcg":79810,"grp":573,"idx":2},
+    {"id":"DT06-052","section":"main","num":"DT06-EN052","printed":"DT06-EN052","name":"Elemental HERO Neos Alius","ctype":"monster","keywords":"Elemental HERO Warrior LIGHT Gemini Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Gemini","atk":1900,"def":1300},"note":"Duel Terminal 6","rarity":"DNPR","img":"69884162","code":"4","tcg":81483,"grp":1332,"idx":3},
+    {"id":"DT06-081","section":"main","num":"DT06-EN081","printed":"DT06-EN081","name":"Musto, Oracle of Gusto","ctype":"monster","keywords":"Gusto Psychic WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Psychic / Effect","atk":1800,"def":900},"note":"Duel Terminal 6","rarity":"DRPR","img":"9837195","code":"5","tcg":81512,"grp":1332,"idx":4},
+    {"id":"DT07-060","section":"main","num":"DT07-EN060","printed":"DT07-EN060","name":"Infernity Archfiend","ctype":"monster","keywords":"Archfiend Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Effect","atk":1800,"def":1200},"note":"Duel Terminal 7","rarity":"DNPR","img":"99177923","code":"6","tcg":81592,"grp":1333,"idx":5},
+    {"id":"GAOV-SP1","section":"main","num":"GAOV-ENSP1","printed":"GAOV-ENSP1","name":"Noble Knight Artorigus","ctype":"monster","keywords":"Noble Knight Warrior LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Normal","atk":1800,"def":1800},"note":"Galactic Overlord Sneak Peek Participation Card","rarity":"UR","img":"92125819","code":"7","tcg":79690,"grp":578,"idx":6},
+    {"id":"H5SE-001","section":"main","num":"H5SE-EN001","printed":"H5SE-EN001","name":"Brionac, Dragon of the Ice Barrier","ctype":"monster","keywords":"Ice Barrier Sea Serpent WATER Synchro Monster","stats":{"a":"WATER","l":"Level 6","t":"Sea Serpent / Synchro","atk":2300,"def":1400},"note":"Hidden Arsenal 5: Steelswarm Invasion: Special Edition","rarity":"SR","img":"50321796","code":"8","tcg":58163,"grp":228,"idx":7},
+    {"id":"H5SE-002","section":"main","num":"H5SE-EN002","printed":"H5SE-EN002","name":"Gungnir, Dragon of the Ice Barrier","ctype":"monster","keywords":"Ice Barrier Dragon WATER Synchro Monster","stats":{"a":"WATER","l":"Level 7","t":"Dragon / Synchro","atk":2500,"def":1700},"note":"Hidden Arsenal 5: Steelswarm Invasion: Special Edition","rarity":"SR","img":"65749035","code":"9","tcg":58164,"grp":228,"idx":8},
+    {"id":"JUMP-057","section":"main","num":"JUMP-EN057","printed":"JUMP-EN057","name":"The Supremacy Sun","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 10","t":"Fiend / Effect","atk":3000,"def":3000},"note":"Shonen Jump Vol. 10, Issue 1 promotional card","rarity":"UR","img":"51402908","code":"10","tcg":57800,"grp":281,"idx":9},
+    {"id":"JUMP-058","section":"main","num":"JUMP-EN058","printed":"JUMP-EN058","name":"X-Saber Souza","ctype":"monster","keywords":"X-Saber Warrior EARTH Synchro Monster","stats":{"a":"EARTH","l":"Level 7","t":"Warrior / Synchro","atk":2500,"def":1600},"note":"Shonen Jump Vol. 10, Issue 3 promotional card","rarity":"UR","img":"63612442","code":"11","tcg":58165,"grp":281,"idx":10},
+    {"id":"JUMP-059","section":"main","num":"JUMP-EN059","printed":"JUMP-EN059","name":"Number 30: Acid Golem of Destruction","ctype":"monster","keywords":"Rock WATER Xyz Monster","stats":{"a":"WATER","l":"Rank 3","t":"Rock / Xyz","atk":3000,"def":3000},"note":"Shonen Jump Vol. 10, Issue 4 promotional card","rarity":"UR","img":"81330115","code":"12","tcg":58166,"grp":281,"idx":11},
+    {"id":"JUMP-060","section":"main","num":"JUMP-EN060","printed":"JUMP-EN060","name":"Number 16: Shock Master","ctype":"monster","keywords":"Fairy LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 4","t":"Fairy / Xyz","atk":2300,"def":1600},"note":"Weekly Shonen Jump Alpha April 2012 membership promotional card","rarity":"UR","img":"54719828","code":"13","tcg":66509,"grp":281,"idx":12},
+    {"id":"JUMP-061","section":"main","num":"JUMP-EN061","printed":"JUMP-EN061","name":"Slifer the Sky Dragon","ctype":"monster","keywords":"Egyptian God Divine-Beast DIVINE Effect Monster","stats":{"a":"DIVINE","l":"Level 10","t":"Divine-Beast / Effect","atk":-1,"def":-1},"note":"Weekly Shonen Jump Alpha July 2012 membership promotional card","rarity":"UR","img":"10000021","code":"14","tcg":66510,"grp":281,"idx":13},
+    {"id":"JUMP-062","section":"main","num":"JUMP-EN062","printed":"JUMP-EN062","name":"Superdreadnought Rail Cannon Gustav Max","ctype":"monster","keywords":"Train Machine EARTH Xyz Monster","stats":{"a":"EARTH","l":"Rank 10","t":"Machine / Xyz","atk":3000,"def":3000},"note":"Weekly Shonen Jump Alpha September 2012 membership promotional card","rarity":"UR","img":"56910167","code":"15","tcg":66511,"grp":281,"idx":14},
+    {"id":"JUMP-063","section":"main","num":"JUMP-EN063","printed":"JUMP-EN063","name":"Number 40: Gimmick Puppet of Strings","ctype":"monster","keywords":"Gimmick Puppet Machine DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 8","t":"Machine / Xyz","atk":3000,"def":2000},"note":"Weekly Shonen Jump Alpha December 2012 membership promotional card","rarity":"UR","img":"75433814","code":"16","tcg":67588,"grp":281,"idx":15},
+    {"id":"LC03-001","section":"main","num":"LC03-EN001","printed":"LC03-EN001","name":"The Seal of Orichalcos","ctype":"spell","keywords":"Field Spell","stats":{"t":"Field Spell"},"note":"Legendary Collection 3: Yugi's World","rarity":"UR","img":"48179391","code":"17","tcg":66794,"grp":584,"idx":16},
+    {"id":"LC03-002","section":"main","num":"LC03-EN002","printed":"LC03-EN002","name":"Dark Necrofear","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Fiend / Effect","atk":2200,"def":2800},"note":"Legendary Collection 3: Yugi's World","rarity":"UR","img":"31829185","code":"18","tcg":66795,"grp":584,"idx":17},
+    {"id":"LC03-003","section":"main","num":"LC03-EN003","printed":"LC03-EN003","name":"Guardian Eatos","ctype":"monster","keywords":"Guardian Fairy WIND Effect Monster","stats":{"a":"WIND","l":"Level 8","t":"Fairy / Effect","atk":2500,"def":2000},"note":"Legendary Collection 3: Yugi's World","rarity":"UR","img":"34022290","code":"19","tcg":66796,"grp":584,"idx":18},
+    {"id":"LC03-004","section":"main","num":"LC03-EN004","printed":"LC03-EN004","name":"Five-Headed Dragon","ctype":"monster","keywords":"Dragon DARK Fusion Monster","stats":{"a":"DARK","l":"Level 12","t":"Dragon / Fusion","atk":5000,"def":5000},"note":"Legendary Collection 3: Yugi's World","rarity":"UR","img":"99267150","code":"20","tcg":66797,"grp":584,"idx":19},
+    {"id":"ORCS-SE1","section":"main","num":"ORCS-ENSE1","printed":"ORCS-ENSE1","name":"Effect Veiler","ctype":"monster","keywords":"Spellcaster LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Spellcaster / Tuner","atk":0,"def":0},"note":"Order of Chaos: Special Edition","rarity":"SR","img":"97268402","code":"21","tcg":60106,"grp":257,"idx":20},
+    {"id":"ORCS-SE2","section":"main","num":"ORCS-ENSE2","printed":"ORCS-ENSE2","name":"The Winged Dragon of Ra","ctype":"monster","keywords":"Egyptian God Divine-Beast DIVINE Effect Monster","stats":{"a":"DIVINE","l":"Level 10","t":"Divine-Beast / Effect","atk":-1,"def":-1},"note":"Order of Chaos: Special Edition","rarity":"SR","img":"10000011","code":"22","tcg":60107,"grp":257,"idx":21},
+    {"id":"ORCS-SP1","section":"main","num":"ORCS-ENSP1","printed":"ORCS-ENSP1","name":"Inzektor Axe - Zektahawk","ctype":"spell","keywords":"Inzektor Equip Spell","stats":{"t":"Equip Spell"},"note":"Order of Chaos Sneak Peek Participation Card","rarity":"UR","img":"87973893","code":"23","tcg":77836,"grp":257,"idx":22},
+    {"id":"REDU-SE1","section":"main","num":"REDU-ENSE1","printed":"REDU-ENSE1","name":"T.G. Hyper Librarian","ctype":"monster","keywords":"T.G. Spellcaster DARK Synchro Monster","stats":{"a":"DARK","l":"Level 5","t":"Spellcaster / Synchro","atk":2400,"def":1800},"note":"Return of the Duelist: Special Edition","rarity":"SR","img":"90953320","code":"24","tcg":66507,"grp":588,"idx":23},
+    {"id":"REDU-SE2","section":"main","num":"REDU-ENSE2","printed":"REDU-ENSE2","name":"Number 30: Acid Golem of Destruction","ctype":"monster","keywords":"Rock WATER Xyz Monster","stats":{"a":"WATER","l":"Rank 3","t":"Rock / Xyz","atk":3000,"def":3000},"note":"Return of the Duelist: Special Edition","rarity":"SR","img":"81330115","code":"25","tcg":66508,"grp":588,"idx":24},
+    {"id":"REDU-SP1","section":"main","num":"REDU-ENSP1","printed":"REDU-ENSP1","name":"Noble Knight Gawayn","ctype":"monster","keywords":"Noble Knight Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Effect","atk":1900,"def":500},"note":"Return of the Duelist Sneak Peek Participation Card","rarity":"UR","img":"19680539","code":"26","tcg":79696,"grp":587,"idx":25},
+    {"id":"RYMP-SE1","section":"main","num":"RYMP-ENSE1","printed":"RYMP-ENSE1","name":"Legendary Six Samurai - Shi En","ctype":"monster","keywords":"Six Samurai Warrior DARK Synchro Monster","stats":{"a":"DARK","l":"Level 5","t":"Warrior / Synchro","atk":2500,"def":1400},"note":"Ra Yellow Mega Pack: Special Edition","rarity":"SR","img":"29981921","code":"27","tcg":60108,"grp":269,"idx":26},
+    {"id":"YCSW-005","section":"main","num":"YCSW-EN005","printed":"YCSW-EN005","name":"Digvorzhak, King of Heavy Industry","ctype":"monster","keywords":"Machine EARTH Xyz Monster","stats":{"a":"EARTH","l":"Rank 5","t":"Machine / Xyz","atk":3200,"def":2000},"note":"Yu-Gi-Oh! Championship Series 2012 Prize Card","rarity":"SR","img":"29515122","code":"28","tcg":82272,"grp":1347,"idx":27},
+    {"id":"YCSW-005-ur","section":"rarities","num":"YCSW-EN005","printed":"YCSW-EN005","name":"Digvorzhak, King of Heavy Industry","ctype":"monster","keywords":"Machine EARTH Xyz Monster","stats":{"a":"EARTH","l":"Rank 5","t":"Machine / Xyz","atk":3200,"def":2000},"note":"Yu-Gi-Oh! Championship Series 2012 Prize Card","rarity":"UR","img":"29515122","badge":"UR","variant":"Ultra Rare","code":"UR28","tcg":82273,"grp":1347,"idx":28},
+    {"id":"YF02-001","section":"main","num":"YF02-EN001","printed":"YF02-EN001","name":"Catapult Warrior","ctype":"monster","keywords":"Junk Warrior EARTH Synchro Monster","stats":{"a":"EARTH","l":"Level 5","t":"Warrior / Synchro","atk":1000,"def":1500},"note":"Yu-Gi-Oh! 5D's Volume 2 promotional card","rarity":"UR","img":"37474917","code":"29","tcg":78064,"grp":352,"idx":29},
+    {"id":"YF03-001","section":"main","num":"YF03-EN001","printed":"YF03-EN001","name":"Infernity General","ctype":"monster","keywords":"Infernity Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Fiend / Effect","atk":2700,"def":1500},"note":"Yu-Gi-Oh! 5D's Volume 3 promotional card","rarity":"UR","img":"17502671","code":"30","tcg":77979,"grp":352,"idx":30},
+    {"id":"YG08-001","section":"main","num":"YG08-EN001","printed":"YG08-EN001","name":"Barbaroid, the Ultimate Battle Machine","ctype":"monster","keywords":"Roid Machine EARTH Fusion Monster","stats":{"a":"EARTH","l":"Level 12","t":"Machine / Fusion","atk":4000,"def":4000},"note":"Yu-Gi-Oh! GX Volume 8 promotional card","rarity":"UR","img":"54702678","code":"31","tcg":79692,"grp":599,"idx":31},
+    {"id":"YZ01-001","section":"main","num":"YZ01-EN001","printed":"YZ01-EN001","name":"Kachi Kochi Dragon","ctype":"monster","keywords":"Dragon EARTH Xyz Monster","stats":{"a":"EARTH","l":"Rank 4","t":"Dragon / Xyz","atk":2100,"def":1300},"note":"Yu-Gi-Oh! ZEXAL Volume 1 promotional card","rarity":"UR","img":"69069911","code":"32","tcg":66666,"grp":600,"idx":32},
+    {"id":"YZ02-001","section":"main","num":"YZ02-EN001","printed":"YZ02-EN001","name":"Number 50: Blackship of Corn","ctype":"monster","keywords":"Plant DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 4","t":"Plant / Xyz","atk":2100,"def":1500},"note":"Yu-Gi-Oh! ZEXAL Volume 2 promotional card","rarity":"UR","img":"51735257","code":"33","tcg":67335,"grp":600,"idx":33}
+  ]
+}

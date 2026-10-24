@@ -1,0 +1,96 @@
+{
+  "id": "yugioh/structure-deck-dinosaurs-rage",
+  "game": "yugioh",
+  "slug": "structure-deck-dinosaurs-rage",
+  "name": "Structure Deck: Dinosaur's Rage",
+  "series": "GX",
+  "kind": "deck",
+  "code": "SD09",
+  "syncKey": "YSD09",
+  "released": "2006-10-20",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "SD09-EN001–SD09-EN036",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from SD09-EN001 to SD09-EN036."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Structure Deck: Dinosaur's Rage Checklist · All 36 Cards",
+    "description": "Free Yu-Gi-Oh! Structure Deck: Dinosaur's Rage checklist with no ads, no sign-up and no tracking. Track all 36 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Structure Deck: Dinosaur's Rage Checklist",
+    "ogDescription": "Track all 36 cards in Yu-Gi-Oh! Structure Deck: Dinosaur's Rage. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 36 cards in Yu-Gi-Oh! Structure Deck: Dinosaur's Rage. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Structure Deck: Dinosaur's Rage",
+    "paragraphs": [
+      "Structure Deck: Dinosaur&#39;s Rage is a Yu-Gi-Oh! TCG deck released on 20 October 2006, in the GX era. It has 36 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Structure Deck: Dinosaur's Rage"
+    ],
+    "tcgplayer": [
+      306
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"SD09-EN001","name":"Super Conductor Tyranno","ctype":"monster","keywords":"Dinosaur LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dinosaur / Effect","atk":3300,"def":1400},"rarity":"UR","img":"85520851","code":"1","tcg":26173,"grp":306,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"SD09-EN002","name":"Kabazauls","ctype":"monster","keywords":"Dinosaur WATER Normal Monster","stats":{"a":"WATER","l":"Level 4","t":"Dinosaur / Normal","atk":1700,"def":1500},"rarity":"C","img":"51934376","code":"2","tcg":26174,"grp":306,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"SD09-EN003","name":"Sabersaurus","ctype":"monster","keywords":"Dinosaur EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 4","t":"Dinosaur / Normal","atk":1900,"def":500},"rarity":"C","img":"37265642","code":"3","tcg":26175,"grp":306,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"SD09-EN004","name":"Mad Sword Beast","ctype":"monster","keywords":"Dinosaur EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Dinosaur / Effect","atk":1400,"def":1200},"rarity":"C","img":"79870141","code":"4","tcg":26176,"grp":306,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"SD09-EN005","name":"Gilasaurus","ctype":"monster","keywords":"Dinosaur EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Dinosaur / Effect","atk":1400,"def":400},"rarity":"C","img":"45894482","code":"5","tcg":26177,"grp":306,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"SD09-EN006","name":"Dark Driceratops","ctype":"monster","keywords":"Dinosaur EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 6","t":"Dinosaur / Effect","atk":2400,"def":1500},"rarity":"C","img":"65287621","code":"6","tcg":26178,"grp":306,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"SD09-EN007","name":"Hyper Hammerhead","ctype":"monster","keywords":"Dinosaur EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Dinosaur / Effect","atk":1500,"def":1200},"rarity":"C","img":"2671330","code":"7","tcg":26179,"grp":306,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"SD09-EN008","name":"Black Tyranno","ctype":"monster","keywords":"Dinosaur EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 7","t":"Dinosaur / Effect","atk":2600,"def":1800},"rarity":"C","img":"38670435","code":"8","tcg":26180,"grp":306,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"SD09-EN009","name":"Tyranno Infinity","ctype":"monster","keywords":"Dinosaur EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Dinosaur / Effect","atk":-1,"def":0},"rarity":"C","img":"83235263","code":"9","tcg":26181,"grp":306,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"SD09-EN010","name":"Hydrogeddon","ctype":"monster","keywords":"Bonding Dinosaur WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Dinosaur / Effect","atk":1600,"def":1000},"rarity":"C","img":"22587018","code":"10","tcg":26182,"grp":306,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"SD09-EN011","name":"Oxygeddon","ctype":"monster","keywords":"Bonding Dinosaur WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Dinosaur / Effect","atk":1800,"def":800},"rarity":"C","img":"58071123","code":"11","tcg":26183,"grp":306,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"SD09-EN012","name":"Black Ptera","ctype":"monster","keywords":"Dinosaur WIND Effect Monster","stats":{"a":"WIND","l":"Level 3","t":"Dinosaur / Effect","atk":1000,"def":500},"rarity":"C","img":"90654356","code":"12","tcg":26184,"grp":306,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"SD09-EN013","name":"Black Stego","ctype":"monster","keywords":"Dinosaur EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Dinosaur / Effect","atk":1200,"def":2000},"rarity":"C","img":"79409334","code":"13","tcg":26185,"grp":306,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"SD09-EN014","name":"Ultimate Tyranno","ctype":"monster","keywords":"Dinosaur EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 8","t":"Dinosaur / Effect","atk":3000,"def":2200},"rarity":"C","img":"15894048","code":"14","tcg":26186,"grp":306,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"SD09-EN015","name":"Miracle Jurassic Egg","ctype":"monster","keywords":"Dinosaur EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Dinosaur / Effect","atk":0,"def":2000},"rarity":"C","img":"63259351","code":"15","tcg":26187,"grp":306,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"SD09-EN016","name":"Babycerasaurus","ctype":"monster","keywords":"Dinosaur EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 2","t":"Dinosaur / Effect","atk":500,"def":500},"rarity":"C","img":"36042004","code":"16","tcg":26188,"grp":306,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"SD09-EN017","name":"Big Evolution Pill","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"84808313","code":"17","tcg":26189,"grp":306,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"SD09-EN018","name":"Tail Swipe","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"83682725","code":"18","tcg":26190,"grp":306,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"SD09-EN019","name":"Jurassic World","ctype":"spell","keywords":"Field Spell","stats":{"t":"Field Spell"},"rarity":"C","img":"10080320","code":"19","tcg":26191,"grp":306,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"SD09-EN020","name":"Sebek's Blessing","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"22537443","code":"20","tcg":26192,"grp":306,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"SD09-EN021","name":"Riryoku","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"34016756","code":"21","tcg":26193,"grp":306,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"SD09-EN022","name":"Mesmeric Control","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"48642904","code":"22","tcg":26194,"grp":306,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"SD09-EN023","name":"Mystical Space Typhoon","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"5318639","code":"23","tcg":26195,"grp":306,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"SD09-EN024","name":"Megamorph","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"22046459","code":"24","tcg":26196,"grp":306,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"SD09-EN025","name":"Heavy Storm","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"19613556","code":"25","tcg":26197,"grp":306,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"SD09-EN026","name":"Lightning Vortex","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"69162969","code":"26","tcg":26198,"grp":306,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"SD09-EN027","name":"Magical Mallet","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"85852291","code":"27","tcg":26199,"grp":306,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"SD09-EN028","name":"Hunting Instinct","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"11925569","code":"28","tcg":26200,"grp":306,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"SD09-EN029","name":"Survival Instinct","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"58419204","code":"29","tcg":26201,"grp":306,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"SD09-EN030","name":"Volcanic Eruption","ctype":"trap","keywords":"Volcanic Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"42175079","code":"30","tcg":26202,"grp":306,"idx":29},
+    {"id":"031","section":"main","num":"031","printed":"SD09-EN031","name":"Seismic Shockwave","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"79569173","code":"31","tcg":26203,"grp":306,"idx":30},
+    {"id":"032","section":"main","num":"032","printed":"SD09-EN032","name":"Magical Arm Shield","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"96008713","code":"32","tcg":26204,"grp":306,"idx":31},
+    {"id":"033","section":"main","num":"033","printed":"SD09-EN033","name":"Negate Attack","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"C","img":"14315573","code":"33","tcg":26205,"grp":306,"idx":32},
+    {"id":"034","section":"main","num":"034","printed":"SD09-EN034","name":"Goblin Out of the Frying Pan","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"C","img":"69632396","code":"34","tcg":26206,"grp":306,"idx":33},
+    {"id":"035","section":"main","num":"035","printed":"SD09-EN035","name":"Malfunction","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"C","img":"6137095","code":"35","tcg":26207,"grp":306,"idx":34},
+    {"id":"036","section":"main","num":"036","printed":"SD09-EN036","name":"Fossil Excavation","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"23869735","code":"36","tcg":26208,"grp":306,"idx":35}
+  ]
+}

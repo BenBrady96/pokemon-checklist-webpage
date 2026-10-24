@@ -1,0 +1,71 @@
+{
+  "id": "yugioh/promos-2002",
+  "game": "yugioh",
+  "slug": "promos-2002",
+  "name": "Promos 2002",
+  "series": "Promos",
+  "kind": "promo",
+  "code": "P2002",
+  "syncKey": "YP2002",
+  "released": "2002-10-15",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "EDS-001–JMP-001",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. Numbers count down the list in order: <b>1-5</b> is the first five cards and <b>3x2</b> is two copies of the third.",
+    "empty": "Cards run from EDS-001 to JMP-001."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Promos 2002 Checklist · All 7 Cards",
+    "description": "Free Yu-Gi-Oh! Promos 2002 checklist with no ads, no sign-up and no tracking. Track all 7 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Promos 2002 Checklist",
+    "ogDescription": "Track all 7 cards in Yu-Gi-Oh! Promos 2002. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 7 cards in Yu-Gi-Oh! Promos 2002. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Promos 2002",
+    "paragraphs": [
+      "Promos 2002 gathers the 7 promo cards from 3 products released in 2002: Yu-Gi-Oh! The Eternal Duelist Soul promotional cards, Yu-Gi-Oh! Forbidden Memories promotional cards and Shonen Jump Vol. 1, Issue 1 promotional card.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Shonen Jump Vol. 1, Issue 1 promotional card",
+      "Yu-Gi-Oh! Forbidden Memories promotional cards",
+      "Yu-Gi-Oh! The Eternal Duelist Soul promotional cards"
+    ],
+    "tcgplayer": [
+      1921,
+      202,
+      281
+    ]
+  },
+  "cards": [
+    {"id":"EDS-001","section":"main","num":"EDS-001","printed":"EDS-001","name":"Exchange","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"note":"Yu-Gi-Oh! The Eternal Duelist Soul promotional cards","rarity":"PScR","img":"5556668","code":"1","tcg":22946,"grp":202,"idx":0},
+    {"id":"EDS-002","section":"main","num":"EDS-002","printed":"EDS-002","name":"Graceful Dice","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"note":"Yu-Gi-Oh! The Eternal Duelist Soul promotional cards","rarity":"PScR","img":"74137509","code":"2","tcg":22947,"grp":202,"idx":1},
+    {"id":"EDS-003","section":"main","num":"EDS-003","printed":"EDS-003","name":"Skull Dice","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"note":"Yu-Gi-Oh! The Eternal Duelist Soul promotional cards","rarity":"PScR","img":"126218","code":"3","tcg":22948,"grp":202,"idx":2},
+    {"id":"FMR-001","section":"main","num":"FMR-001","printed":"FMR-001","name":"Red-Eyes Black Metal Dragon","ctype":"monster","keywords":"Red-Eyes Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Machine / Effect","atk":2800,"def":2400},"note":"Yu-Gi-Oh! Forbidden Memories promotional cards","rarity":"PScR","img":"64335804","code":"4","tcg":22954,"grp":1921,"idx":3},
+    {"id":"FMR-002","section":"main","num":"FMR-002","printed":"FMR-002","name":"Harpie's Pet Dragon","ctype":"monster","keywords":"Harpie Dragon WIND Effect Monster","stats":{"a":"WIND","l":"Level 7","t":"Dragon / Effect","atk":2000,"def":2500},"note":"Yu-Gi-Oh! Forbidden Memories promotional cards","rarity":"PScR","img":"52040216","code":"5","tcg":22955,"grp":1921,"idx":4},
+    {"id":"FMR-003","section":"main","num":"FMR-003","printed":"FMR-003","name":"Metalmorph","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"note":"Yu-Gi-Oh! Forbidden Memories promotional cards","rarity":"PScR","img":"68540058","code":"6","tcg":22956,"grp":1921,"idx":5},
+    {"id":"JMP-001","section":"main","num":"JMP-001","printed":"JMP-001","name":"Blue-Eyes White Dragon","ctype":"monster","keywords":"Blue-Eyes Dragon LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Normal","atk":3000,"def":2500},"note":"Shonen Jump Vol. 1, Issue 1 promotional card","rarity":"UR","img":"89631142","code":"7","tcg":22949,"grp":281,"idx":6}
+  ]
+}

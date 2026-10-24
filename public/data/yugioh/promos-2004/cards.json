@@ -1,0 +1,150 @@
+{
+  "id": "yugioh/promos-2004",
+  "game": "yugioh",
+  "slug": "promos-2004",
+  "name": "Promos 2004",
+  "series": "Promos",
+  "kind": "promo",
+  "code": "P2004",
+  "syncKey": "YP2004",
+  "released": "2004-01-01",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "CMC-EN001–WCS-EN403",
+      "tier": "standard"
+    },
+    {
+      "id": "rarities",
+      "name": "Other Rarities",
+      "short": "Other Rarities",
+      "range": "2 cards",
+      "tier": "master"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Main set"
+    ],
+    [
+      "rarities",
+      "Other rarities"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, SCR12, 60x2",
+    "example": "1-20, 45x2, SCR12",
+    "hint": "Separate with commas or spaces. Numbers count down the list in order: <b>1-5</b> is the first five cards and <b>3x2</b> is two copies of the third.",
+    "empty": "Cards run from CMC-EN001 to WCS-EN403."
+  },
+  "help": {
+    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 45 cards, each in its main rarity. Master adds the 2 other rarities. Cards you’ve marked are kept when you switch."
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Promos 2004 Checklist · All 45 Cards",
+    "description": "Free Yu-Gi-Oh! Promos 2004 checklist with no ads, no sign-up and no tracking. Track all 45 cards, or every rarity for a master set, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Promos 2004 Checklist",
+    "ogDescription": "Track all 45 cards in Yu-Gi-Oh! Promos 2004, plus 2 other rarities. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 45 cards in Yu-Gi-Oh! Promos 2004. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Promos 2004",
+    "paragraphs": [
+      "Promos 2004 gathers the 45 promo cards from 18 products released in 2004: Yu-Gi-Oh! Capsule Monster Coliseum promotional cards, Yu-Gi-Oh! Destiny Board Traveler promotional cards, Duelist League Series 6 participation card, Yu-Gi-Oh! The Dawn of Destiny promotional cards, Yu-Gi-Oh! Trading Card Game Tour 2004 promotional card, Kids WB Duel of Destiny promotional card, Hobby League 1 participation cards A, Hobby League 1 participation cards B, Invasion of Chaos: Special Edition, Swedish Shonen Jump 2004, Issue 2 promotional card, Shonen Jump Vol. 2, Issue 1 promotional card, Movie Pack, Yu-Gi-Oh! Power of Chaos: Joey the Passion promotional cards, Yu-Gi-Oh! Power of Chaos: Kaiba the Revenge promotional cards, Yu-Gi-Oh! Reshef of Destruction promotional cards, Shonen Jump Championship 2004 Prize Card, Yu-Gi-Oh! World Championship Tournament 2004 promotional cards and Yu-Gi-Oh! World Championship 2004 prize cards.",
+      "Choose what you’re collecting: the <b>Standard set</b> (the 45 cards, each in its main rarity) or the <b>Master set</b> (all 47, adding the 2 other rarities).",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Duelist League Series 6 participation card",
+      "Hobby League 1 participation cards A",
+      "Hobby League 1 participation cards B",
+      "Invasion of Chaos: Special Edition",
+      "Kids WB Duel of Destiny promotional card",
+      "Movie Pack",
+      "Shonen Jump Championship 2004 Prize Card",
+      "Shonen Jump Vol. 2, Issue 1 promotional card",
+      "Swedish Shonen Jump 2004, Issue 2 promotional card",
+      "Yu-Gi-Oh! Capsule Monster Coliseum promotional cards",
+      "Yu-Gi-Oh! Destiny Board Traveler promotional cards",
+      "Yu-Gi-Oh! Power of Chaos: Joey the Passion promotional cards",
+      "Yu-Gi-Oh! Power of Chaos: Kaiba the Revenge promotional cards",
+      "Yu-Gi-Oh! Reshef of Destruction promotional cards",
+      "Yu-Gi-Oh! The Dawn of Destiny promotional cards",
+      "Yu-Gi-Oh! Trading Card Game Tour 2004 promotional card",
+      "Yu-Gi-Oh! World Championship 2004 prize cards",
+      "Yu-Gi-Oh! World Championship Tournament 2004 promotional cards"
+    ],
+    "tcgplayer": [
+      1921,
+      175,
+      232,
+      237,
+      359,
+      176,
+      262,
+      345,
+      182,
+      357,
+      280,
+      281,
+      272,
+      2718,
+      351
+    ]
+  },
+  "cards": [
+    {"id":"CMC-001","section":"main","num":"CMC-EN001","printed":"CMC-EN001","name":"Abyss Soldier","ctype":"monster","keywords":"Aqua WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Aqua / Effect","atk":1800,"def":1300},"note":"Yu-Gi-Oh! Capsule Monster Coliseum promotional cards","rarity":"SR","img":"18318842","code":"1","tcg":23409,"grp":1921,"idx":0},
+    {"id":"CMC-002","section":"main","num":"CMC-EN002","printed":"CMC-EN002","name":"Inferno Hammer","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Fiend / Effect","atk":2400,"def":0},"note":"Yu-Gi-Oh! Capsule Monster Coliseum promotional cards","rarity":"SR","img":"17185260","code":"2","tcg":23410,"grp":1921,"idx":1},
+    {"id":"CMC-003","section":"main","num":"CMC-EN003","printed":"CMC-EN003","name":"Teva","ctype":"monster","keywords":"Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 5","t":"Warrior / Effect","atk":2000,"def":1500},"note":"Yu-Gi-Oh! Capsule Monster Coliseum promotional cards","rarity":"SR","img":"16469012","code":"3","tcg":23411,"grp":1921,"idx":2},
+    {"id":"DBT-001","section":"main","num":"DBT-EN001","printed":"DBT-EN001","name":"Emes the Infinity","ctype":"monster","keywords":"Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 7","t":"Machine / Effect","atk":2500,"def":2000},"note":"Yu-Gi-Oh! Destiny Board Traveler promotional cards","rarity":"SR","img":"43580269","code":"4","tcg":23406,"grp":176,"idx":3},
+    {"id":"DBT-002","section":"main","num":"DBT-EN002","printed":"DBT-EN002","name":"D.D. Assailant","ctype":"monster","keywords":"D.D. Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Effect","atk":1700,"def":1600},"note":"Yu-Gi-Oh! Destiny Board Traveler promotional cards","rarity":"SR","img":"70074904","code":"5","tcg":23407,"grp":176,"idx":4},
+    {"id":"DBT-003","section":"main","num":"DBT-EN003","printed":"DBT-EN003","name":"Twinheaded Beast","ctype":"monster","keywords":"Beast FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 6","t":"Beast / Effect","atk":1700,"def":1900},"note":"Yu-Gi-Oh! Destiny Board Traveler promotional cards","rarity":"SR","img":"82035781","code":"6","tcg":23408,"grp":176,"idx":5},
+    {"id":"DL6-001","section":"main","num":"DL6-EN001","printed":"DL6-EN001","name":"Toon Gemini Elf","ctype":"monster","keywords":"Toon Spellcaster EARTH Monster","stats":{"a":"EARTH","l":"Level 4","t":"Spellcaster / Toon","atk":1900,"def":900},"note":"Duelist League Series 6 participation card","rarity":"SR","img":"42386471","code":"7","tcg":25393,"grp":182,"idx":6},
+    {"id":"DOD-001","section":"main","num":"DOD-EN001","printed":"DOD-EN001","name":"Mesmeric Control","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"note":"Yu-Gi-Oh! The Dawn of Destiny promotional cards","rarity":"SR","img":"48642904","code":"8","tcg":123750,"grp":175,"idx":7},
+    {"id":"DOD-002","section":"main","num":"DOD-002","printed":"DOD-002","name":"Dark Sage","ctype":"monster","keywords":"Dark Magician Spellcaster DARK Effect Monster DOD-EN002","stats":{"a":"DARK","l":"Level 9","t":"Spellcaster / Effect","atk":2800,"def":3200},"note":"Yu-Gi-Oh! The Dawn of Destiny promotional cards","rarity":"SR","img":"92377303","code":"9","tcg":214602,"grp":175,"idx":8},
+    {"id":"DOD-002-pscr","section":"rarities","num":"DOD-002","printed":"DOD-002","name":"Dark Sage","ctype":"monster","keywords":"Dark Magician Spellcaster DARK Effect Monster DOD-EN002","stats":{"a":"DARK","l":"Level 9","t":"Spellcaster / Effect","atk":2800,"def":3200},"note":"Yu-Gi-Oh! The Dawn of Destiny promotional cards","rarity":"PScR","img":"92377303","badge":"PScR","variant":"Prismatic Secret Rare","code":"PSCR9","tcg":23200,"grp":175,"idx":9},
+    {"id":"DOD-003","section":"main","num":"DOD-003","printed":"DOD-003","name":"Widespread Ruin","ctype":"trap","keywords":"Normal Trap DOD-EN003","stats":{"t":"Normal Trap"},"note":"Yu-Gi-Oh! The Dawn of Destiny promotional cards","rarity":"SR","img":"77754944","code":"10","tcg":214603,"grp":175,"idx":10},
+    {"id":"DOD-003-pscr","section":"rarities","num":"DOD-003","printed":"DOD-003","name":"Widespread Ruin","ctype":"trap","keywords":"Normal Trap DOD-EN003","stats":{"t":"Normal Trap"},"note":"Yu-Gi-Oh! The Dawn of Destiny promotional cards","rarity":"PScR","img":"77754944","badge":"PScR","variant":"Prismatic Secret Rare","code":"PSCR10","tcg":23201,"grp":175,"idx":11},
+    {"id":"EM1-001","section":"main","num":"EM1-EN001","printed":"EM1-EN001","name":"Machine King","ctype":"monster","keywords":"Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 6","t":"Machine / Effect","atk":2200,"def":2000},"note":"Yu-Gi-Oh! Trading Card Game Tour 2004 promotional card","rarity":"UR","img":"46700124","code":"11","tcg":223736,"grp":2718,"idx":12},
+    {"id":"EP1-000","section":"main","num":"EP1-EN000","printed":"EP1-EN000","name":"Card of Sanctity","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"note":"Kids WB Duel of Destiny promotional card","rarity":"C","img":"42664989","code":"12","tcg":26600,"grp":357,"idx":13},
+    {"id":"HL1-001","section":"main","num":"HL1-EN001","printed":"HL1-EN001","name":"Lord of the Lamp","ctype":"monster","keywords":"Fiend DARK Normal Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Normal","atk":1400,"def":1200},"note":"Hobby League 1 participation cards A","rarity":"C","img":"99510761","code":"13","tcg":25383,"grp":232,"idx":14},
+    {"id":"HL1-002","section":"main","num":"HL1-EN002","printed":"HL1-EN002","name":"Greenkappa","ctype":"monster","keywords":"Warrior DARK Flip Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Warrior / Flip / Effect","atk":650,"def":900},"note":"Hobby League 1 participation cards A","rarity":"SR","img":"61831093","code":"14","tcg":25384,"grp":232,"idx":15},
+    {"id":"HL1-003","section":"main","num":"HL1-EN003","printed":"HL1-EN003","name":"A Legendary Ocean","ctype":"spell","keywords":"Umi Field Spell","stats":{"t":"Field Spell"},"note":"Hobby League 1 participation cards B","rarity":"C","img":"295517","code":"15","tcg":25385,"grp":232,"idx":16},
+    {"id":"HL1-004","section":"main","num":"HL1-EN004","printed":"HL1-EN004","name":"Levia-Dragon - Daedalus","ctype":"monster","keywords":"Umi Sea Serpent WATER Effect Monster","stats":{"a":"WATER","l":"Level 7","t":"Sea Serpent / Effect","atk":2600,"def":1500},"note":"Hobby League 1 participation cards B","rarity":"SR","img":"37721209","code":"16","tcg":25386,"grp":232,"idx":17},
+    {"id":"IOC-SE1","section":"main","num":"IOC-SE1","printed":"IOC-SE1","name":"Gemini Elf","ctype":"monster","keywords":"Spellcaster EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 4","t":"Spellcaster / Normal","atk":1900,"def":900},"note":"Invasion of Chaos: Special Edition","rarity":"UR","img":"69140098","code":"17","tcg":26366,"grp":237,"idx":18},
+    {"id":"IOC-SE2","section":"main","num":"IOC-SE2","printed":"IOC-SE2","name":"Magic Cylinder","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"note":"Invasion of Chaos: Special Edition","rarity":"UR","img":"62279055","code":"18","tcg":26367,"grp":237,"idx":19},
+    {"id":"IOC-SE3","section":"main","num":"IOC-SE3","printed":"IOC-SE3","name":"Ring of Destruction","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"note":"Invasion of Chaos: Special Edition","rarity":"UR","img":"83555667","code":"19","tcg":26368,"grp":237,"idx":20},
+    {"id":"IOC-SE4","section":"main","num":"IOC-SE4","printed":"IOC-SE4","name":"Lava Golem","ctype":"monster","keywords":"Fiend FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 8","t":"Fiend / Effect","atk":3000,"def":2500},"note":"Invasion of Chaos: Special Edition","rarity":"UR","img":"102380","code":"20","tcg":26369,"grp":237,"idx":21},
+    {"id":"JMP-001","section":"main","num":"JMP-EN001","printed":"JMP-EN001","name":"Blue-Eyes White Dragon","ctype":"monster","keywords":"Blue-Eyes Dragon LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Normal","atk":3000,"def":2500},"note":"Swedish Shonen Jump 2004, Issue 2 promotional card","rarity":"UR","img":"89631139","code":"21","idx":22},
+    {"id":"JMP-002","section":"main","num":"JMP-002","printed":"JMP-002","name":"Red-Eyes Black Dragon","ctype":"monster","keywords":"Red-Eyes Dragon DARK Normal Monster","stats":{"a":"DARK","l":"Level 7","t":"Dragon / Normal","atk":2400,"def":2000},"note":"Shonen Jump Vol. 2, Issue 1 promotional card","rarity":"UR","img":"74677425","code":"22","tcg":22950,"grp":281,"idx":23},
+    {"id":"MOV-001","section":"main","num":"MOV-EN001","printed":"MOV-EN001","name":"Blue-Eyes Shining Dragon","ctype":"monster","keywords":"Blue-Eyes Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 10","t":"Dragon / Effect","atk":3000,"def":2500},"note":"Movie Pack","rarity":"SR","img":"53347303","code":"23","tcg":23336,"grp":359,"idx":24},
+    {"id":"MOV-002","section":"main","num":"MOV-EN002","printed":"MOV-EN002","name":"Sorcerer of Dark Magic","ctype":"monster","keywords":"Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 9","t":"Spellcaster / Effect","atk":3200,"def":2800},"note":"Movie Pack","rarity":"C","img":"88619463","code":"24","tcg":23337,"grp":359,"idx":25},
+    {"id":"MOV-003","section":"main","num":"MOV-EN003","printed":"MOV-EN003","name":"Watapon","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Fairy / Effect","atk":200,"def":300},"note":"Movie Pack","rarity":"C","img":"87774234","code":"25","tcg":23338,"grp":359,"idx":26},
+    {"id":"MOV-004","section":"main","num":"MOV-EN004","printed":"MOV-EN004","name":"Pyramid of Light","ctype":"trap","keywords":"Sphinx Continuous Trap","stats":{"t":"Continuous Trap"},"note":"Movie Pack","rarity":"C","img":"53569894","code":"26","tcg":23339,"grp":359,"idx":27},
+    {"id":"PCJ-001","section":"main","num":"PCJ-EN001","printed":"PCJ-EN001","name":"Red-Eyes Black Dragon","ctype":"monster","keywords":"Red-Eyes Dragon DARK Normal Monster","stats":{"a":"DARK","l":"Level 7","t":"Dragon / Normal","atk":2400,"def":2000},"note":"Yu-Gi-Oh! Power of Chaos: Joey the Passion promotional cards","rarity":"PScR","img":"74677425","code":"27","tcg":23325,"grp":262,"idx":28},
+    {"id":"PCJ-002","section":"main","num":"PCJ-EN002","printed":"PCJ-EN002","name":"Sebek's Blessing","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"note":"Yu-Gi-Oh! Power of Chaos: Joey the Passion promotional cards","rarity":"PScR","img":"22537443","code":"28","tcg":23326,"grp":262,"idx":29},
+    {"id":"PCJ-003","section":"main","num":"PCJ-EN003","printed":"PCJ-EN003","name":"Sword of Dragon's Soul","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"note":"Yu-Gi-Oh! Power of Chaos: Joey the Passion promotional cards","rarity":"PScR","img":"61405855","code":"29","tcg":23327,"grp":262,"idx":30},
+    {"id":"PCK-001","section":"main","num":"PCK-001","printed":"PCK-001","name":"Blue-Eyes White Dragon","ctype":"monster","keywords":"Blue-Eyes Dragon LIGHT Normal Monster PCK-E001","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Normal","atk":3000,"def":2500},"note":"Yu-Gi-Oh! Power of Chaos: Kaiba the Revenge promotional cards","rarity":"PScR","img":"89631141","code":"30","tcg":91481,"grp":1921,"idx":31},
+    {"id":"PCK-002","section":"main","num":"PCK-002","printed":"PCK-002","name":"Aqua Chorus","ctype":"trap","keywords":"Continuous Trap PCK-E002","stats":{"t":"Continuous Trap"},"note":"Yu-Gi-Oh! Power of Chaos: Kaiba the Revenge promotional cards","rarity":"PScR","img":"95132338","code":"31","tcg":23204,"grp":1921,"idx":32},
+    {"id":"PCK-003","section":"main","num":"PCK-003","printed":"PCK-003","name":"Seal of the Ancients","ctype":"spell","keywords":"Normal Spell PCK-E003","stats":{"t":"Normal Spell"},"note":"Yu-Gi-Oh! Power of Chaos: Kaiba the Revenge promotional cards","rarity":"PScR","img":"97809599","code":"32","tcg":23205,"grp":1921,"idx":33},
+    {"id":"ROD-001","section":"main","num":"ROD-EN001","printed":"ROD-EN001","name":"Dark Magician Knight","ctype":"monster","keywords":"Dark Magician Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Warrior / Effect","atk":2500,"def":2100},"note":"Yu-Gi-Oh! Reshef of Destruction promotional cards","rarity":"PScR","img":"50725996","code":"33","idx":34},
+    {"id":"ROD-002","section":"main","num":"ROD-EN002","printed":"ROD-EN002","name":"Knight's Title","ctype":"spell","keywords":"Dark Magician Normal Spell","stats":{"t":"Normal Spell"},"note":"Yu-Gi-Oh! Reshef of Destruction promotional cards","rarity":"PScR","img":"87210505","code":"34","idx":35},
+    {"id":"ROD-003","section":"main","num":"ROD-EN003","printed":"ROD-EN003","name":"Sage's Stone","ctype":"spell","keywords":"Dark Magician Normal Spell","stats":{"t":"Normal Spell"},"note":"Yu-Gi-Oh! Reshef of Destruction promotional cards","rarity":"PScR","img":"13604200","code":"35","tcg":23324,"grp":272,"idx":36},
+    {"id":"SJC-001","section":"main","num":"SJC-EN001","printed":"SJC-EN001","name":"Cyber-Stein","ctype":"monster","keywords":"Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 2","t":"Machine / Effect","atk":700,"def":500},"note":"Shonen Jump Championship 2004 Prize Card","rarity":"UR","img":"69015963","code":"36","tcg":26578,"grp":280,"idx":37},
+    {"id":"WC4-001","section":"main","num":"WC4-001","printed":"WC4-001","name":"Fairy King Truesdale","ctype":"monster","keywords":"Plant WATER Effect Monster","stats":{"a":"WATER","l":"Level 6","t":"Plant / Effect","atk":2200,"def":1500},"note":"Yu-Gi-Oh! World Championship Tournament 2004 promotional cards","rarity":"PScR","img":"45425051","code":"37","tcg":23086,"grp":345,"idx":38},
+    {"id":"WC4-E001","section":"main","num":"WC4-E001","printed":"WC4-E001","name":"Valkyrion the Magna Warrior","ctype":"monster","keywords":"Magnet Warrior Rock EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 8","t":"Rock / Effect","atk":3500,"def":3850},"note":"Yu-Gi-Oh! World Championship Tournament 2004 promotional cards","rarity":"PScR","img":"75347539","code":"38","tcg":210909,"grp":345,"idx":39},
+    {"id":"WC4-002","section":"main","num":"WC4-002","printed":"WC4-002","name":"Cipher Soldier","ctype":"monster","keywords":"Cipher Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Machine / Effect","atk":1350,"def":1800},"note":"Yu-Gi-Oh! World Championship Tournament 2004 promotional cards","rarity":"PScR","img":"79853073","code":"39","tcg":23085,"grp":345,"idx":40},
+    {"id":"WC4-E002","section":"main","num":"WC4-E002","printed":"WC4-E002","name":"Sinister Serpent","ctype":"monster","keywords":"Reptile WATER Effect Monster","stats":{"a":"WATER","l":"Level 1","t":"Reptile / Effect","atk":300,"def":250},"note":"Yu-Gi-Oh! World Championship Tournament 2004 promotional cards","rarity":"PScR","img":"8131171","code":"40","tcg":210908,"grp":345,"idx":41},
+    {"id":"WC4-003","section":"main","num":"WC4-003","printed":"WC4-003","name":"Slate Warrior","ctype":"monster","keywords":"Fiend WIND Flip Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Fiend / Flip / Effect","atk":1900,"def":400},"note":"Yu-Gi-Oh! World Championship Tournament 2004 promotional cards","rarity":"PScR","img":"78636495","code":"41","tcg":23084,"grp":345,"idx":42},
+    {"id":"WC4-E003","section":"main","num":"WC4-E003","printed":"WC4-E003","name":"Harpie's Feather Duster","ctype":"spell","keywords":"Harpie Normal Spell","stats":{"t":"Normal Spell"},"note":"Yu-Gi-Oh! World Championship Tournament 2004 promotional cards","rarity":"PScR","img":"18144507","code":"42","tcg":210910,"grp":345,"idx":43},
+    {"id":"WCS-401","section":"main","num":"WCS-EN401","printed":"WCS-EN401","name":"Ulevo","ctype":"monster","keywords":"Winged Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 10","t":"Winged Beast / Effect","atk":3000,"def":2500},"note":"Yu-Gi-Oh! World Championship 2004 prize cards","rarity":"UR","img":"501000000","code":"43","idx":44},
+    {"id":"WCS-402","section":"main","num":"WCS-EN402","printed":"WCS-EN402","name":"Meteo the Matchless","ctype":"monster","keywords":"Beast-Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Beast-Warrior / Effect","atk":2400,"def":2000},"note":"Yu-Gi-Oh! World Championship 2004 prize cards","rarity":"UR","img":"501000001","code":"44","idx":45},
+    {"id":"WCS-403","section":"main","num":"WCS-EN403","printed":"WCS-EN403","name":"Sengenjin","ctype":"monster","keywords":"Beast-Warrior EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 8","t":"Beast-Warrior / Normal","atk":2750,"def":2500},"note":"Yu-Gi-Oh! World Championship 2004 prize cards","rarity":"SR","img":"76232340","code":"45","tcg":25352,"grp":351,"idx":46}
+  ]
+}

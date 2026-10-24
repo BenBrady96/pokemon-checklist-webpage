@@ -1,0 +1,103 @@
+{
+  "id": "yugioh/synchron-extreme-structure-deck",
+  "game": "yugioh",
+  "slug": "synchron-extreme-structure-deck",
+  "name": "Synchron Extreme Structure Deck",
+  "series": "ARC-V",
+  "kind": "deck",
+  "code": "SDSE",
+  "syncKey": "YSDSE",
+  "released": "2015-08-27",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "SDSE-EN001–SDSE-EN043",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from SDSE-EN001 to SDSE-EN043."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Synchron Extreme Structure Deck Checklist · All 43 Cards",
+    "description": "Free Yu-Gi-Oh! Synchron Extreme Structure Deck checklist with no ads, no sign-up and no tracking. Track all 43 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Synchron Extreme Structure Deck Checklist",
+    "ogDescription": "Track all 43 cards in Yu-Gi-Oh! Synchron Extreme Structure Deck. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 43 cards in Yu-Gi-Oh! Synchron Extreme Structure Deck. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Synchron Extreme Structure Deck",
+    "paragraphs": [
+      "Synchron Extreme Structure Deck is a Yu-Gi-Oh! TCG deck released on 27 August 2015, in the ARC-V era. It has 43 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Synchron Extreme Structure Deck"
+    ],
+    "tcgplayer": [
+      1648
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"SDSE-EN001","name":"Jet Synchron","ctype":"monster","keywords":"Junk Machine FIRE Tuner Monster","stats":{"a":"FIRE","l":"Level 1","t":"Machine / Tuner","atk":500,"def":0},"rarity":"SR","img":"9742784","code":"1","tcg":103907,"grp":1648,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"SDSE-EN002","name":"Rush Warrior","ctype":"monster","keywords":"Warrior WIND Effect Monster","stats":{"a":"WIND","l":"Level 2","t":"Warrior / Effect","atk":300,"def":1200},"rarity":"C","img":"36736723","code":"2","tcg":103908,"grp":1648,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"SDSE-EN003","name":"Synchron Carrier","ctype":"monster","keywords":"Synchron Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 2","t":"Machine / Effect","atk":0,"def":1000},"rarity":"C","img":"62125438","code":"3","tcg":103909,"grp":1648,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"SDSE-EN004","name":"Junk Synchron","ctype":"monster","keywords":"Junk Warrior DARK Tuner Monster","stats":{"a":"DARK","l":"Level 3","t":"Warrior / Tuner","atk":1300,"def":500},"rarity":"C","img":"63977008","code":"4","tcg":103910,"grp":1648,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"SDSE-EN005","name":"Quickdraw Synchron","ctype":"monster","keywords":"Synchron Machine WIND Tuner Monster","stats":{"a":"WIND","l":"Level 5","t":"Machine / Tuner","atk":700,"def":1400},"rarity":"C","img":"20932152","code":"5","tcg":103911,"grp":1648,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"SDSE-EN006","name":"Drill Synchron","ctype":"monster","keywords":"Synchron Machine EARTH Tuner Monster","stats":{"a":"EARTH","l":"Level 3","t":"Machine / Tuner","atk":800,"def":300},"rarity":"C","img":"56286179","code":"6","tcg":103912,"grp":1648,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"SDSE-EN007","name":"Turbo Synchron","ctype":"monster","keywords":"Synchron Machine WIND Tuner Monster","stats":{"a":"WIND","l":"Level 1","t":"Machine / Tuner","atk":100,"def":500},"rarity":"C","img":"67270095","code":"7","tcg":103913,"grp":1648,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"SDSE-EN008","name":"Unknown Synchron","ctype":"monster","keywords":"Synchron Machine DARK Tuner Monster","stats":{"a":"DARK","l":"Level 1","t":"Machine / Tuner","atk":0,"def":0},"rarity":"C","img":"15310033","code":"8","tcg":103914,"grp":1648,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"SDSE-EN009","name":"Fleur Synchron","ctype":"monster","keywords":"Synchron Machine LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 2","t":"Machine / Tuner","atk":400,"def":200},"rarity":"C","img":"19642774","code":"9","tcg":103915,"grp":1648,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"SDSE-EN010","name":"Synchron Explorer","ctype":"monster","keywords":"Synchron Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 2","t":"Machine / Effect","atk":0,"def":700},"rarity":"C","img":"36643046","code":"10","tcg":103916,"grp":1648,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"SDSE-EN011","name":"Speed Warrior","ctype":"monster","keywords":"Warrior WIND Effect Monster","stats":{"a":"WIND","l":"Level 2","t":"Warrior / Effect","atk":900,"def":400},"rarity":"C","img":"9365703","code":"11","tcg":103917,"grp":1648,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"SDSE-EN012","name":"Sonic Warrior","ctype":"monster","keywords":"Warrior WIND Effect Monster","stats":{"a":"WIND","l":"Level 2","t":"Warrior / Effect","atk":1000,"def":0},"rarity":"C","img":"17932494","code":"12","tcg":103918,"grp":1648,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"SDSE-EN013","name":"Doppelwarrior","ctype":"monster","keywords":"Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 2","t":"Warrior / Effect","atk":800,"def":800},"rarity":"C","img":"53855409","code":"13","tcg":103919,"grp":1648,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"SDSE-EN014","name":"Quillbolt Hedgehog","ctype":"monster","keywords":"Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 2","t":"Machine / Effect","atk":800,"def":800},"rarity":"C","img":"23571046","code":"14","tcg":103920,"grp":1648,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"SDSE-EN015","name":"Tuningware","ctype":"monster","keywords":"Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Machine / Effect","atk":100,"def":300},"rarity":"C","img":"92676637","code":"15","tcg":103921,"grp":1648,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"SDSE-EN016","name":"Swift Scarecrow","ctype":"monster","keywords":"Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 1","t":"Machine / Effect","atk":0,"def":0},"rarity":"C","img":"18964575","code":"16","tcg":103922,"grp":1648,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"SDSE-EN017","name":"Level Eater","ctype":"monster","keywords":"Insect DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Insect / Effect","atk":600,"def":0},"rarity":"C","img":"57421866","code":"17","tcg":103923,"grp":1648,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"SDSE-EN018","name":"Effect Veiler","ctype":"monster","keywords":"Spellcaster LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Spellcaster / Tuner","atk":0,"def":0},"rarity":"C","img":"97268402","code":"18","tcg":103924,"grp":1648,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"SDSE-EN019","name":"Genex Neutron","ctype":"monster","keywords":"Genex Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Machine / Effect","atk":1800,"def":1200},"rarity":"C","img":"19182751","code":"19","tcg":103925,"grp":1648,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"SDSE-EN020","name":"Genex Ally Birdman","ctype":"monster","keywords":"Genex Machine DARK Tuner Monster","stats":{"a":"DARK","l":"Level 3","t":"Machine / Tuner","atk":1400,"def":400},"rarity":"C","img":"64034255","code":"20","tcg":103926,"grp":1648,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"SDSE-EN021","name":"Plaguespreader Zombie","ctype":"monster","keywords":"Zombie DARK Tuner Monster","stats":{"a":"DARK","l":"Level 2","t":"Zombie / Tuner","atk":400,"def":200},"rarity":"C","img":"33420078","code":"21","tcg":103927,"grp":1648,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"SDSE-EN022","name":"White Dragon Wyverburster","ctype":"monster","keywords":"Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Dragon / Effect","atk":1700,"def":1800},"rarity":"C","img":"99234526","code":"22","tcg":103928,"grp":1648,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"SDSE-EN023","name":"Black Dragon Collapserpent","ctype":"monster","keywords":"Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Dragon / Effect","atk":1800,"def":1700},"rarity":"C","img":"61901281","code":"23","tcg":103929,"grp":1648,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"SDSE-EN024","name":"Scrap Fist","ctype":"spell","keywords":"Junk Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"SR","img":"8529136","code":"24","tcg":103930,"grp":1648,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"SDSE-EN025","name":"Limit Overdrive","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"35014241","code":"25","tcg":103931,"grp":1648,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"SDSE-EN026","name":"Starlight Junktion","ctype":"spell","keywords":"Junk Field Spell","stats":{"t":"Field Spell"},"rarity":"C","img":"1003840","code":"26","tcg":103932,"grp":1648,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"SDSE-EN027","name":"Tuning","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"96363153","code":"27","tcg":103933,"grp":1648,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"SDSE-EN028","name":"Reinforcement of the Army","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"32807846","code":"28","tcg":103934,"grp":1648,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"SDSE-EN029","name":"The Warrior Returning Alive","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"95281259","code":"29","tcg":103935,"grp":1648,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"SDSE-EN030","name":"Dark Eruption","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"674561","code":"30","tcg":103936,"grp":1648,"idx":29},
+    {"id":"031","section":"main","num":"031","printed":"SDSE-EN031","name":"One for One","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"2295440","code":"31","tcg":103937,"grp":1648,"idx":30},
+    {"id":"032","section":"main","num":"032","printed":"SDSE-EN032","name":"Night Beam","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"89882100","code":"32","tcg":103938,"grp":1648,"idx":31},
+    {"id":"033","section":"main","num":"033","printed":"SDSE-EN033","name":"Double Cyclone","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"75652080","code":"33","tcg":103939,"grp":1648,"idx":32},
+    {"id":"034","section":"main","num":"034","printed":"SDSE-EN034","name":"Scrap-Iron Statue","ctype":"trap","keywords":"Junk Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"48497555","code":"34","tcg":103940,"grp":1648,"idx":33},
+    {"id":"035","section":"main","num":"035","printed":"SDSE-EN035","name":"Scrap-Iron Scarecrow","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"98427577","code":"35","tcg":103941,"grp":1648,"idx":34},
+    {"id":"036","section":"main","num":"036","printed":"SDSE-EN036","name":"Limiter Overload","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"92450185","code":"36","tcg":103942,"grp":1648,"idx":35},
+    {"id":"037","section":"main","num":"037","printed":"SDSE-EN037","name":"Call of the Haunted","ctype":"trap","keywords":"Call of the Haunted Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"97077563","code":"37","tcg":103943,"grp":1648,"idx":36},
+    {"id":"038","section":"main","num":"038","printed":"SDSE-EN038","name":"Imperial Iron Wall","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"30459350","code":"38","tcg":103944,"grp":1648,"idx":37},
+    {"id":"039","section":"main","num":"039","printed":"SDSE-EN039","name":"Solemn Warning","ctype":"trap","keywords":"Solemn Counter Trap","stats":{"t":"Counter Trap"},"rarity":"C","img":"84749824","code":"39","tcg":103945,"grp":1648,"idx":38},
+    {"id":"040","section":"main","num":"040","printed":"SDSE-EN040","name":"Stardust Warrior","ctype":"monster","keywords":"Stardust Warrior WIND Synchro Monster","stats":{"a":"WIND","l":"Level 10","t":"Warrior / Synchro","atk":3000,"def":2500},"rarity":"UR","img":"74892653","code":"40","tcg":103946,"grp":1648,"idx":39},
+    {"id":"041","section":"main","num":"041","printed":"SDSE-EN041","name":"Jet Warrior","ctype":"monster","keywords":"Warrior FIRE Synchro Monster","stats":{"a":"FIRE","l":"Level 5","t":"Warrior / Synchro","atk":2100,"def":1200},"rarity":"UR","img":"286392","code":"41","tcg":103947,"grp":1648,"idx":40},
+    {"id":"042","section":"main","num":"042","printed":"SDSE-EN042","name":"Accel Synchron","ctype":"monster","keywords":"Synchron Machine DARK Synchro Tuner Monster","stats":{"a":"DARK","l":"Level 5","t":"Machine / Synchro / Tuner","atk":500,"def":2100},"rarity":"SR","img":"37675907","code":"42","tcg":103948,"grp":1648,"idx":41},
+    {"id":"043","section":"main","num":"043","printed":"SDSE-EN043","name":"Junk Warrior","ctype":"monster","keywords":"Junk Warrior DARK Synchro Monster","stats":{"a":"DARK","l":"Level 5","t":"Warrior / Synchro","atk":2300,"def":1300},"rarity":"C","img":"60800381","code":"43","tcg":103949,"grp":1648,"idx":42}
+  ]
+}

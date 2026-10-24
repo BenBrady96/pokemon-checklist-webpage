@@ -1,0 +1,85 @@
+{
+  "id": "yugioh/astral-pack-two",
+  "game": "yugioh",
+  "slug": "astral-pack-two",
+  "name": "Astral Pack Two",
+  "series": "ZEXAL",
+  "kind": "pack",
+  "code": "AP02",
+  "syncKey": "YAP02",
+  "released": "2013-04-19",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "AP02-EN001–AP02-EN025",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from AP02-EN001 to AP02-EN025."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Astral Pack Two Checklist · All 25 Cards",
+    "description": "Free Yu-Gi-Oh! Astral Pack Two checklist with no ads, no sign-up and no tracking. Track all 25 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Astral Pack Two Checklist",
+    "ogDescription": "Track all 25 cards in Yu-Gi-Oh! Astral Pack Two. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 25 cards in Yu-Gi-Oh! Astral Pack Two. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Astral Pack Two",
+    "paragraphs": [
+      "Astral Pack Two is a Yu-Gi-Oh! TCG pack released on 19 April 2013, in the ZEXAL era. It has 25 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Astral Pack Two"
+    ],
+    "tcgplayer": [
+      1288
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"AP02-EN001","name":"Atlantean Dragoons","ctype":"monster","keywords":"Atlantean Sea Serpent WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Sea Serpent / Effect","atk":1800,"def":0},"rarity":"UtR","img":"74311226","code":"1","tcg":78012,"grp":1288,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"AP02-EN002","name":"Photon Papilloperative","ctype":"monster","keywords":"Photon Warrior LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 4","t":"Warrior / Xyz","atk":2100,"def":1800},"rarity":"UtR","img":"28150174","code":"2","tcg":78013,"grp":1288,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"AP02-EN003","name":"Spellbook of Power","ctype":"spell","keywords":"Spellbook Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UtR","img":"25123082","code":"3","tcg":78014,"grp":1288,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"AP02-EN004","name":"Interplanetarypurplythorny Dragon","ctype":"monster","keywords":"Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 5","t":"Dragon / Effect","atk":2200,"def":1100},"rarity":"SR","img":"25206027","code":"4","tcg":78015,"grp":1288,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"AP02-EN005","name":"Geargiaccelerator","ctype":"monster","keywords":"Geargia Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Machine / Effect","atk":1400,"def":800},"rarity":"SR","img":"47030842","code":"5","tcg":78016,"grp":1288,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"AP02-EN006","name":"Atlantean Heavy Infantry","ctype":"monster","keywords":"Atlantean Sea Serpent WATER Effect Monster","stats":{"a":"WATER","l":"Level 2","t":"Sea Serpent / Effect","atk":0,"def":1600},"rarity":"SR","img":"37104630","code":"6","tcg":78017,"grp":1288,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"AP02-EN007","name":"Slushy","ctype":"monster","keywords":"Aqua WATER Effect Monster","stats":{"a":"WATER","l":"Level 2","t":"Aqua / Effect","atk":0,"def":0},"rarity":"SR","img":"84650463","code":"7","tcg":78018,"grp":1288,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"AP02-EN008","name":"Brotherhood of the Fire Fist - Hawk","ctype":"monster","keywords":"Fire Fist Beast-Warrior FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 3","t":"Beast-Warrior / Effect","atk":200,"def":1500},"rarity":"SR","img":"17475251","code":"8","tcg":78019,"grp":1288,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"AP02-EN009","name":"Brotherhood of the Fire Fist - Raven","ctype":"monster","keywords":"Fire Fist Beast-Warrior FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 3","t":"Beast-Warrior / Effect","atk":200,"def":1800},"rarity":"SR","img":"44860890","code":"9","tcg":78020,"grp":1288,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"AP02-EN010","name":"Harpies' Hunting Ground","ctype":"spell","keywords":"Harpie Field Spell","stats":{"t":"Field Spell"},"rarity":"SR","img":"75782277","code":"10","tcg":78021,"grp":1288,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"AP02-EN011","name":"Gemini Spark","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"SR","img":"33846209","code":"11","tcg":78022,"grp":1288,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"AP02-EN012","name":"Spiritual Water Art - Aoi","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"6540606","code":"12","tcg":78023,"grp":1288,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"AP02-EN013","name":"Trap Stun","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"59616123","code":"13","tcg":78024,"grp":1288,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"AP02-EN014","name":"Sky Scout","ctype":"monster","keywords":"Winged Beast WIND Normal Monster","stats":{"a":"WIND","l":"Level 4","t":"Winged Beast / Normal","atk":1800,"def":600},"rarity":"SP","img":"30532390","code":"14","tcg":78026,"grp":1288,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"AP02-EN015","name":"Cyber Phoenix","ctype":"monster","keywords":"Machine FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Machine / Effect","atk":1200,"def":1600},"rarity":"C","img":"3370104","code":"15","tcg":78027,"grp":1288,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"AP02-EN016","name":"Light and Darkness Dragon","ctype":"monster","keywords":"Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Effect","atk":2800,"def":2400},"rarity":"C","img":"47297616","code":"16","tcg":78028,"grp":1288,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"AP02-EN017","name":"Justice of Prophecy","ctype":"monster","keywords":"Spellbook Spellcaster EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Spellcaster / Effect","atk":1600,"def":800},"rarity":"C","img":"26732909","code":"17","tcg":78029,"grp":1288,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"AP02-EN018","name":"Barox","ctype":"monster","keywords":"Fiend DARK Fusion Monster","stats":{"a":"DARK","l":"Level 5","t":"Fiend / Fusion","atk":1380,"def":1530},"rarity":"SP","img":"6840573","code":"18","tcg":78025,"grp":1288,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"AP02-EN019","name":"Pot of Avarice","ctype":"spell","keywords":"Greed Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"67169062","code":"19","tcg":78030,"grp":1288,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"AP02-EN020","name":"Instant Fusion","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"1845204","code":"20","tcg":78031,"grp":1288,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"AP02-EN021","name":"Recycling Batteries","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"99995595","code":"21","tcg":78032,"grp":1288,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"AP02-EN022","name":"Machina Armored Unit","ctype":"spell","keywords":"Machina Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"31828916","code":"22","tcg":78033,"grp":1288,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"AP02-EN023","name":"Photon Veil","ctype":"spell","keywords":"Photon Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"9354555","code":"23","tcg":78034,"grp":1288,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"AP02-EN024","name":"Hysteric Party","ctype":"trap","keywords":"Harpie Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"77778835","code":"24","tcg":78035,"grp":1288,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"AP02-EN025","name":"Token Stampede","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"14342283","code":"25","tcg":78036,"grp":1288,"idx":24}
+  ]
+}

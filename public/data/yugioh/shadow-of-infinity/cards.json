@@ -1,0 +1,157 @@
+{
+  "id": "yugioh/shadow-of-infinity",
+  "game": "yugioh",
+  "slug": "shadow-of-infinity",
+  "name": "Shadow of Infinity",
+  "series": "GX",
+  "kind": "expansion",
+  "code": "SOI",
+  "syncKey": "YSOI",
+  "released": "2006-02-18",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Main Set",
+      "range": "SOI-EN001–SOI-EN060",
+      "tier": "standard"
+    },
+    {
+      "id": "rarities",
+      "name": "Other Rarities",
+      "short": "Other Rarities",
+      "range": "25 cards",
+      "tier": "master"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Main set"
+    ],
+    [
+      "rarities",
+      "Other rarities"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, SCR12, 60x2",
+    "example": "1-20, 45x2, SCR12",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies. Other rarities use their short name and number: <b>SCR12</b> is card 12’s Secret Rare, and ranges work too (<b>QCSR1-QCSR20</b>).",
+    "empty": "Cards run from SOI-EN001 to SOI-EN060."
+  },
+  "help": {
+    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 60 cards, each in its main rarity. Master adds the 25 other rarities. Cards you’ve marked are kept when you switch."
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Shadow of Infinity Checklist · All 60 Cards",
+    "description": "Free Yu-Gi-Oh! Shadow of Infinity checklist with no ads, no sign-up and no tracking. Track all 60 cards, or every rarity for a master set, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Shadow of Infinity Checklist",
+    "ogDescription": "Track all 60 cards in Yu-Gi-Oh! Shadow of Infinity, plus 25 other rarities. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 60 cards in Yu-Gi-Oh! Shadow of Infinity. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About the Shadow of Infinity set",
+    "paragraphs": [
+      "Shadow of Infinity is a Yu-Gi-Oh! TCG booster set released on 18 February 2006, in the GX era. It has 60 cards, and with the 25 other rarities there are 85 to collect in all.",
+      "Choose what you’re collecting: the <b>Standard set</b> (the 60 cards, each in its main rarity) or the <b>Master set</b> (all 85, adding the 25 other rarities).",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Shadow of Infinity"
+    ],
+    "tcgplayer": [
+      277
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"SOI-EN001","name":"Uria, Lord of Searing Flames","ctype":"monster","keywords":"Sacred Beast Pyro FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 10","t":"Pyro / Effect","atk":0,"def":0},"rarity":"UR","img":"6007213","code":"1","tcg":24848,"grp":277,"idx":0},
+    {"id":"001-utr","section":"rarities","num":"001","printed":"SOI-EN001","name":"Uria, Lord of Searing Flames","ctype":"monster","keywords":"Sacred Beast Pyro FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 10","t":"Pyro / Effect","atk":0,"def":0},"rarity":"UtR","img":"6007213","badge":"UtR","variant":"Ultimate Rare","code":"UTR1","tcg":58679,"grp":277,"idx":1},
+    {"id":"002","section":"main","num":"002","printed":"SOI-EN002","name":"Hamon, Lord of Striking Thunder","ctype":"monster","keywords":"Sacred Beast Thunder LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 10","t":"Thunder / Effect","atk":4000,"def":4000},"rarity":"UR","img":"32491822","code":"2","tcg":24849,"grp":277,"idx":2},
+    {"id":"002-utr","section":"rarities","num":"002","printed":"SOI-EN002","name":"Hamon, Lord of Striking Thunder","ctype":"monster","keywords":"Sacred Beast Thunder LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 10","t":"Thunder / Effect","atk":4000,"def":4000},"rarity":"UtR","img":"32491822","badge":"UtR","variant":"Ultimate Rare","code":"UTR2","tcg":58680,"grp":277,"idx":3},
+    {"id":"003","section":"main","num":"003","printed":"SOI-EN003","name":"Raviel, Lord of Phantasms","ctype":"monster","keywords":"Sacred Beast Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 10","t":"Fiend / Effect","atk":4000,"def":4000},"rarity":"UR","img":"69890967","code":"3","tcg":24850,"grp":277,"idx":4},
+    {"id":"003-utr","section":"rarities","num":"003","printed":"SOI-EN003","name":"Raviel, Lord of Phantasms","ctype":"monster","keywords":"Sacred Beast Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 10","t":"Fiend / Effect","atk":4000,"def":4000},"rarity":"UtR","img":"69890967","badge":"UtR","variant":"Ultimate Rare","code":"UTR3","tcg":58681,"grp":277,"idx":5},
+    {"id":"004","section":"main","num":"004","printed":"SOI-EN004","name":"Elemental HERO Neo Bubbleman","ctype":"monster","keywords":"Elemental HERO Warrior WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Warrior / Effect","atk":800,"def":1200},"rarity":"C","img":"5285665","code":"4","tcg":24851,"grp":277,"idx":6},
+    {"id":"005","section":"main","num":"005","printed":"SOI-EN005","name":"Hero Kid","ctype":"monster","keywords":"Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 2","t":"Warrior / Effect","atk":300,"def":600},"rarity":"C","img":"32679370","code":"5","tcg":24852,"grp":277,"idx":7},
+    {"id":"006","section":"main","num":"006","printed":"SOI-EN006","name":"Cyber Barrier Dragon","ctype":"monster","keywords":"Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Machine / Effect","atk":800,"def":2800},"rarity":"SR","img":"68774379","code":"6","tcg":24853,"grp":277,"idx":8},
+    {"id":"006-utr","section":"rarities","num":"006","printed":"SOI-EN006","name":"Cyber Barrier Dragon","ctype":"monster","keywords":"Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Machine / Effect","atk":800,"def":2800},"rarity":"UtR","img":"68774379","badge":"UtR","variant":"Ultimate Rare","code":"UTR6","tcg":58682,"grp":277,"idx":9},
+    {"id":"007","section":"main","num":"007","printed":"SOI-EN007","name":"Cyber Laser Dragon","ctype":"monster","keywords":"Photon Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 7","t":"Machine / Effect","atk":2400,"def":1800},"rarity":"UR","img":"4162088","code":"7","tcg":24854,"grp":277,"idx":10},
+    {"id":"007-utr","section":"rarities","num":"007","printed":"SOI-EN007","name":"Cyber Laser Dragon","ctype":"monster","keywords":"Photon Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 7","t":"Machine / Effect","atk":2400,"def":1800},"rarity":"UtR","img":"4162088","badge":"UtR","variant":"Ultimate Rare","code":"UTR7","tcg":58683,"grp":277,"idx":11},
+    {"id":"008","section":"main","num":"008","printed":"SOI-EN008","name":"Ancient Gear","ctype":"monster","keywords":"Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 2","t":"Machine / Effect","atk":100,"def":800},"rarity":"C","img":"31557782","code":"8","tcg":24855,"grp":277,"idx":12},
+    {"id":"009","section":"main","num":"009","printed":"SOI-EN009","name":"Ancient Gear Cannon","ctype":"monster","keywords":"Ancient Gear Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 2","t":"Machine / Effect","atk":500,"def":500},"rarity":"C","img":"80045583","code":"9","tcg":24856,"grp":277,"idx":13},
+    {"id":"010","section":"main","num":"010","printed":"SOI-EN010","name":"Proto-Cyber Dragon","ctype":"monster","keywords":"Cyber Dragon Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Machine / Effect","atk":1100,"def":600},"rarity":"R","img":"26439287","code":"10","tcg":24857,"grp":277,"idx":14},
+    {"id":"010-utr","section":"rarities","num":"010","printed":"SOI-EN010","name":"Proto-Cyber Dragon","ctype":"monster","keywords":"Cyber Dragon Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Machine / Effect","atk":1100,"def":600},"rarity":"UtR","img":"26439287","badge":"UtR","variant":"Ultimate Rare","code":"UTR10","tcg":58684,"grp":277,"idx":15},
+    {"id":"011","section":"main","num":"011","printed":"SOI-EN011","name":"Adhesive Explosive","ctype":"monster","keywords":"Machine WIND Effect Monster","stats":{"a":"WIND","l":"Level 3","t":"Machine / Effect","atk":1000,"def":1000},"rarity":"R","img":"53828396","code":"11","tcg":24858,"grp":277,"idx":16},
+    {"id":"011-utr","section":"rarities","num":"011","printed":"SOI-EN011","name":"Adhesive Explosive","ctype":"monster","keywords":"Machine WIND Effect Monster","stats":{"a":"WIND","l":"Level 3","t":"Machine / Effect","atk":1000,"def":1000},"rarity":"UtR","img":"53828396","badge":"UtR","variant":"Ultimate Rare","code":"UTR11","tcg":58685,"grp":277,"idx":17},
+    {"id":"012","section":"main","num":"012","printed":"SOI-EN012","name":"Machine King Prototype","ctype":"monster","keywords":"Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Machine / Effect","atk":1600,"def":1500},"rarity":"C","img":"89222931","code":"12","tcg":24859,"grp":277,"idx":18},
+    {"id":"013","section":"main","num":"013","printed":"SOI-EN013","name":"B.E.S. Covered Core","ctype":"monster","keywords":"B.E.S. Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 7","t":"Machine / Effect","atk":2500,"def":800},"rarity":"SR","img":"15317640","code":"13","tcg":24860,"grp":277,"idx":19},
+    {"id":"013-utr","section":"rarities","num":"013","printed":"SOI-EN013","name":"B.E.S. Covered Core","ctype":"monster","keywords":"B.E.S. Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 7","t":"Machine / Effect","atk":2500,"def":800},"rarity":"UtR","img":"15317640","badge":"UtR","variant":"Ultimate Rare","code":"UTR13","tcg":58686,"grp":277,"idx":20},
+    {"id":"014","section":"main","num":"014","printed":"SOI-EN014","name":"D.D. Guide","ctype":"monster","keywords":"D.D. Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Warrior / Effect","atk":1400,"def":1000},"rarity":"C","img":"52702748","code":"14","tcg":24861,"grp":277,"idx":21},
+    {"id":"015","section":"main","num":"015","printed":"SOI-EN015","name":"Chain Thrasher","ctype":"monster","keywords":"Warrior WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Warrior / Effect","atk":1000,"def":600},"rarity":"C","img":"88190453","code":"15","tcg":24862,"grp":277,"idx":22},
+    {"id":"016","section":"main","num":"016","printed":"SOI-EN016","name":"Disciple of the Forbidden Spell","ctype":"monster","keywords":"Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Effect","atk":1700,"def":800},"rarity":"C","img":"15595052","code":"16","tcg":24863,"grp":277,"idx":23},
+    {"id":"017","section":"main","num":"017","printed":"SOI-EN017","name":"Tenkabito Shien","ctype":"monster","keywords":"Pyro FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Pyro / Effect","atk":1500,"def":1000},"rarity":"C","img":"41589166","code":"17","tcg":24864,"grp":277,"idx":24},
+    {"id":"018","section":"main","num":"018","printed":"SOI-EN018","name":"Parasitic Ticky","ctype":"monster","keywords":"Insect EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 1","t":"Insect / Effect","atk":-1,"def":-1},"rarity":"C","img":"87978805","code":"18","tcg":24865,"grp":277,"idx":25},
+    {"id":"019","section":"main","num":"019","printed":"SOI-EN019","name":"Gokipon","ctype":"monster","keywords":"Insect EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 2","t":"Insect / Effect","atk":800,"def":800},"rarity":"C","img":"14472500","code":"19","tcg":24866,"grp":277,"idx":26},
+    {"id":"020","section":"main","num":"020","printed":"SOI-EN020","name":"Silent Insect","ctype":"monster","keywords":"Insect EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 2","t":"Insect / Effect","atk":200,"def":300},"rarity":"C","img":"40867519","code":"20","tcg":24867,"grp":277,"idx":27},
+    {"id":"021","section":"main","num":"021","printed":"SOI-EN021","name":"Chainsaw Insect","ctype":"monster","keywords":"Insect EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Insect / Effect","atk":2400,"def":0},"rarity":"R","img":"77252217","code":"21","tcg":24868,"grp":277,"idx":28},
+    {"id":"021-utr","section":"rarities","num":"021","printed":"SOI-EN021","name":"Chainsaw Insect","ctype":"monster","keywords":"Insect EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Insect / Effect","atk":2400,"def":0},"rarity":"UtR","img":"77252217","badge":"UtR","variant":"Ultimate Rare","code":"UTR21","tcg":58687,"grp":277,"idx":29},
+    {"id":"022","section":"main","num":"022","printed":"SOI-EN022","name":"Anteatereatingant","ctype":"monster","keywords":"Insect EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 5","t":"Insect / Effect","atk":2000,"def":500},"rarity":"C","img":"13250922","code":"22","tcg":24869,"grp":277,"idx":30},
+    {"id":"023","section":"main","num":"023","printed":"SOI-EN023","name":"Saber Beetle","ctype":"monster","keywords":"Insect EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 6","t":"Insect / Effect","atk":2400,"def":600},"rarity":"C","img":"49645921","code":"23","tcg":24870,"grp":277,"idx":31},
+    {"id":"024","section":"main","num":"024","printed":"SOI-EN024","name":"Doom Dozer","ctype":"monster","keywords":"Insect EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 8","t":"Insect / Effect","atk":2800,"def":2600},"rarity":"R","img":"76039636","code":"24","tcg":24871,"grp":277,"idx":32},
+    {"id":"024-utr","section":"rarities","num":"024","printed":"SOI-EN024","name":"Doom Dozer","ctype":"monster","keywords":"Insect EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 8","t":"Insect / Effect","atk":2800,"def":2600},"rarity":"UtR","img":"76039636","badge":"UtR","variant":"Ultimate Rare","code":"UTR24","tcg":58688,"grp":277,"idx":33},
+    {"id":"025","section":"main","num":"025","printed":"SOI-EN025","name":"Treeborn Frog","ctype":"monster","keywords":"Frog Aqua WATER Effect Monster","stats":{"a":"WATER","l":"Level 1","t":"Aqua / Effect","atk":100,"def":100},"rarity":"R","img":"12538374","code":"25","tcg":24872,"grp":277,"idx":34},
+    {"id":"025-utr","section":"rarities","num":"025","printed":"SOI-EN025","name":"Treeborn Frog","ctype":"monster","keywords":"Frog Aqua WATER Effect Monster","stats":{"a":"WATER","l":"Level 1","t":"Aqua / Effect","atk":100,"def":100},"rarity":"UtR","img":"12538374","badge":"UtR","variant":"Ultimate Rare","code":"UTR25","tcg":58689,"grp":277,"idx":35},
+    {"id":"026","section":"main","num":"026","printed":"SOI-EN026","name":"Beelze Frog","ctype":"monster","keywords":"Frog Aqua WATER Effect Monster","stats":{"a":"WATER","l":"Level 3","t":"Aqua / Effect","atk":1200,"def":800},"rarity":"C","img":"49522489","code":"26","tcg":24873,"grp":277,"idx":36},
+    {"id":"027","section":"main","num":"027","printed":"SOI-EN027","name":"Princess Pikeru","ctype":"monster","keywords":"Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Effect","atk":2000,"def":0},"rarity":"R","img":"75917088","code":"27","tcg":24874,"grp":277,"idx":37},
+    {"id":"027-utr","section":"rarities","num":"027","printed":"SOI-EN027","name":"Princess Pikeru","ctype":"monster","keywords":"Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Effect","atk":2000,"def":0},"rarity":"UtR","img":"75917088","badge":"UtR","variant":"Ultimate Rare","code":"UTR27","tcg":58690,"grp":277,"idx":38},
+    {"id":"028","section":"main","num":"028","printed":"SOI-EN028","name":"Princess Curran","ctype":"monster","keywords":"Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Effect","atk":2000,"def":0},"rarity":"R","img":"2316186","code":"28","tcg":24875,"grp":277,"idx":39},
+    {"id":"028-utr","section":"rarities","num":"028","printed":"SOI-EN028","name":"Princess Curran","ctype":"monster","keywords":"Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Effect","atk":2000,"def":0},"rarity":"UtR","img":"2316186","badge":"UtR","variant":"Ultimate Rare","code":"UTR28","tcg":58691,"grp":277,"idx":40},
+    {"id":"029","section":"main","num":"029","printed":"SOI-EN029","name":"Memory Crusher","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Fiend / Effect","atk":1000,"def":600},"rarity":"R","img":"48700891","code":"29","tcg":24876,"grp":277,"idx":41},
+    {"id":"029-utr","section":"rarities","num":"029","printed":"SOI-EN029","name":"Memory Crusher","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Fiend / Effect","atk":1000,"def":600},"rarity":"UtR","img":"48700891","badge":"UtR","variant":"Ultimate Rare","code":"UTR29","tcg":58692,"grp":277,"idx":42},
+    {"id":"030","section":"main","num":"030","printed":"SOI-EN030","name":"Malice Ascendant","ctype":"monster","keywords":"Zombie DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Zombie / Effect","atk":700,"def":1000},"rarity":"C","img":"14255590","code":"30","tcg":24877,"grp":277,"idx":43},
+    {"id":"031","section":"main","num":"031","printed":"SOI-EN031","name":"Grass Phantom","ctype":"monster","keywords":"Plant WATER Effect Monster","stats":{"a":"WATER","l":"Level 3","t":"Plant / Effect","atk":1000,"def":1000},"rarity":"C","img":"41249545","code":"31","tcg":24878,"grp":277,"idx":44},
+    {"id":"032","section":"main","num":"032","printed":"SOI-EN032","name":"Sand Moth","ctype":"monster","keywords":"Rock EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Rock / Effect","atk":1000,"def":2000},"rarity":"C","img":"73648243","code":"32","tcg":24879,"grp":277,"idx":45},
+    {"id":"033","section":"main","num":"033","printed":"SOI-EN033","name":"Divine Dragon - Excelion","ctype":"monster","keywords":"Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 5","t":"Dragon / Effect","atk":1500,"def":900},"rarity":"SR","img":"10032958","code":"33","tcg":24880,"grp":277,"idx":46},
+    {"id":"033-utr","section":"rarities","num":"033","printed":"SOI-EN033","name":"Divine Dragon - Excelion","ctype":"monster","keywords":"Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 5","t":"Dragon / Effect","atk":1500,"def":900},"rarity":"UtR","img":"10032958","badge":"UtR","variant":"Ultimate Rare","code":"UTR33","tcg":58693,"grp":277,"idx":47},
+    {"id":"034","section":"main","num":"034","printed":"SOI-EN034","name":"Ruin, Queen of Oblivion","ctype":"monster","keywords":"Demise Fairy LIGHT Ritual Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Fairy / Ritual / Effect","atk":2300,"def":2000},"rarity":"SR","img":"46427957","code":"34","tcg":24881,"grp":277,"idx":48},
+    {"id":"034-utr","section":"rarities","num":"034","printed":"SOI-EN034","name":"Ruin, Queen of Oblivion","ctype":"monster","keywords":"Demise Fairy LIGHT Ritual Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Fairy / Ritual / Effect","atk":2300,"def":2000},"rarity":"UtR","img":"46427957","badge":"UtR","variant":"Ultimate Rare","code":"UTR34","tcg":58694,"grp":277,"idx":49},
+    {"id":"035","section":"main","num":"035","printed":"SOI-EN035","name":"Demise, King of Armageddon","ctype":"monster","keywords":"Demise Fiend DARK Ritual Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Fiend / Ritual / Effect","atk":2400,"def":2000},"rarity":"SR","img":"72426662","code":"35","tcg":24882,"grp":277,"idx":50},
+    {"id":"035-utr","section":"rarities","num":"035","printed":"SOI-EN035","name":"Demise, King of Armageddon","ctype":"monster","keywords":"Demise Fiend DARK Ritual Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Fiend / Ritual / Effect","atk":2400,"def":2000},"rarity":"UtR","img":"72426662","badge":"UtR","variant":"Ultimate Rare","code":"UTR35","tcg":58695,"grp":277,"idx":51},
+    {"id":"036","section":"main","num":"036","printed":"SOI-EN036","name":"D.3.S. Frog","ctype":"monster","keywords":"Frog Aqua WATER Fusion Monster","stats":{"a":"WATER","l":"Level 8","t":"Aqua / Fusion","atk":2500,"def":2000},"rarity":"C","img":"9910360","code":"36","tcg":24883,"grp":277,"idx":52},
+    {"id":"037","section":"main","num":"037","printed":"SOI-EN037","name":"Hero Heart","ctype":"spell","keywords":"Elemental HERO Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"67951831","code":"37","tcg":24884,"grp":277,"idx":53},
+    {"id":"038","section":"main","num":"038","printed":"SOI-EN038","name":"Magnet Circle LV2","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"94940436","code":"38","tcg":24885,"grp":277,"idx":54},
+    {"id":"039","section":"main","num":"039","printed":"SOI-EN039","name":"Ancient Gear Factory","ctype":"spell","keywords":"Ancient Gear Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"30435145","code":"39","tcg":24886,"grp":277,"idx":55},
+    {"id":"040","section":"main","num":"040","printed":"SOI-EN040","name":"Ancient Gear Drill","ctype":"spell","keywords":"Ancient Gear Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"67829249","code":"40","tcg":24887,"grp":277,"idx":56},
+    {"id":"041","section":"main","num":"041","printed":"SOI-EN041","name":"Phantasmal Martyrs","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"R","img":"93224848","code":"41","tcg":24888,"grp":277,"idx":57},
+    {"id":"041-utr","section":"rarities","num":"041","printed":"SOI-EN041","name":"Phantasmal Martyrs","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UtR","img":"93224848","badge":"UtR","variant":"Ultimate Rare","code":"UTR41","tcg":58696,"grp":277,"idx":58},
+    {"id":"042","section":"main","num":"042","printed":"SOI-EN042","name":"Cyclone Boomerang","ctype":"spell","keywords":"Elemental HERO Equip Spell","stats":{"t":"Equip Spell"},"rarity":"R","img":"29612557","code":"42","tcg":24889,"grp":277,"idx":59},
+    {"id":"042-utr","section":"rarities","num":"042","printed":"SOI-EN042","name":"Cyclone Boomerang","ctype":"spell","keywords":"Elemental HERO Equip Spell","stats":{"t":"Equip Spell"},"rarity":"UtR","img":"29612557","badge":"UtR","variant":"Ultimate Rare","code":"UTR42","tcg":58697,"grp":277,"idx":60},
+    {"id":"043","section":"main","num":"043","printed":"SOI-EN043","name":"Symbol of Heritage","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"45305419","code":"43","tcg":24890,"grp":277,"idx":61},
+    {"id":"044","section":"main","num":"044","printed":"SOI-EN044","name":"Trial of the Princesses","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"72709014","code":"44","tcg":24891,"grp":277,"idx":62},
+    {"id":"045","section":"main","num":"045","printed":"SOI-EN045","name":"Photon Generator Unit","ctype":"spell","keywords":"Cyber Dragon Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"66607691","code":"45","tcg":24892,"grp":277,"idx":63},
+    {"id":"046","section":"main","num":"046","printed":"SOI-EN046","name":"End of the World","ctype":"spell","keywords":"Demise Ritual Spell","stats":{"t":"Ritual Spell"},"rarity":"C","img":"8198712","code":"46","tcg":24893,"grp":277,"idx":64},
+    {"id":"047","section":"main","num":"047","printed":"SOI-EN047","name":"Ancient Gear Castle","ctype":"spell","keywords":"Ancient Gear Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"SR","img":"92001300","code":"47","tcg":24894,"grp":277,"idx":65},
+    {"id":"047-utr","section":"rarities","num":"047","printed":"SOI-EN047","name":"Ancient Gear Castle","ctype":"spell","keywords":"Ancient Gear Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"UtR","img":"92001300","badge":"UtR","variant":"Ultimate Rare","code":"UTR47","tcg":58698,"grp":277,"idx":66},
+    {"id":"048","section":"main","num":"048","printed":"SOI-EN048","name":"Samsara","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"44182827","code":"48","tcg":24895,"grp":277,"idx":67},
+    {"id":"049","section":"main","num":"049","printed":"SOI-EN049","name":"Super Junior Confrontation","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"29590905","code":"49","tcg":24896,"grp":277,"idx":68},
+    {"id":"050","section":"main","num":"050","printed":"SOI-EN050","name":"Miracle Kids","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"55985014","code":"50","tcg":24897,"grp":277,"idx":69},
+    {"id":"051","section":"main","num":"051","printed":"SOI-EN051","name":"Attack Reflector Unit","ctype":"trap","keywords":"Cyber Dragon Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"91989718","code":"51","tcg":24898,"grp":277,"idx":70},
+    {"id":"052","section":"main","num":"052","printed":"SOI-EN052","name":"Damage Condenser","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"28378427","code":"52","tcg":24899,"grp":277,"idx":71},
+    {"id":"052-utr","section":"rarities","num":"052","printed":"SOI-EN052","name":"Damage Condenser","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"UtR","img":"28378427","badge":"UtR","variant":"Ultimate Rare","code":"UTR52","tcg":58699,"grp":277,"idx":72},
+    {"id":"053","section":"main","num":"053","printed":"SOI-EN053","name":"Karma Cut","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"R","img":"71587526","code":"53","tcg":24900,"grp":277,"idx":73},
+    {"id":"053-utr","section":"rarities","num":"053","printed":"SOI-EN053","name":"Karma Cut","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"UtR","img":"71587526","badge":"UtR","variant":"Ultimate Rare","code":"UTR53","tcg":58700,"grp":277,"idx":74},
+    {"id":"054","section":"main","num":"054","printed":"SOI-EN054","name":"Next to be Lost","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"7076131","code":"54","tcg":24901,"grp":277,"idx":75},
+    {"id":"055","section":"main","num":"055","printed":"SOI-EN055","name":"Generation Shift","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"34460239","code":"55","tcg":24902,"grp":277,"idx":76},
+    {"id":"056","section":"main","num":"056","printed":"SOI-EN056","name":"Full Salvo","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"70865988","code":"56","tcg":24903,"grp":277,"idx":77},
+    {"id":"057","section":"main","num":"057","printed":"SOI-EN057","name":"Success Probability 0%","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"6859683","code":"57","tcg":24904,"grp":277,"idx":78},
+    {"id":"058","section":"main","num":"058","printed":"SOI-EN058","name":"Option Hunter","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"R","img":"33248692","code":"58","tcg":24905,"grp":277,"idx":79},
+    {"id":"058-utr","section":"rarities","num":"058","printed":"SOI-EN058","name":"Option Hunter","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"UtR","img":"33248692","badge":"UtR","variant":"Ultimate Rare","code":"UTR58","tcg":58701,"grp":277,"idx":80},
+    {"id":"059","section":"main","num":"059","printed":"SOI-EN059","name":"Goblin Out of the Frying Pan","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"R","img":"69632396","code":"59","tcg":24906,"grp":277,"idx":81},
+    {"id":"059-utr","section":"rarities","num":"059","printed":"SOI-EN059","name":"Goblin Out of the Frying Pan","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"UtR","img":"69632396","badge":"UtR","variant":"Ultimate Rare","code":"UTR59","tcg":58702,"grp":277,"idx":82},
+    {"id":"060","section":"main","num":"060","printed":"SOI-EN060","name":"Malfunction","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"R","img":"6137095","code":"60","tcg":24907,"grp":277,"idx":83},
+    {"id":"060-utr","section":"rarities","num":"060","printed":"SOI-EN060","name":"Malfunction","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"UtR","img":"6137095","badge":"UtR","variant":"Ultimate Rare","code":"UTR60","tcg":58703,"grp":277,"idx":84}
+  ]
+}

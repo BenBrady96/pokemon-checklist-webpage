@@ -1,0 +1,132 @@
+{
+  "id": "yugioh/thank-you-pack",
+  "game": "yugioh",
+  "slug": "thank-you-pack",
+  "name": "THANK YOU PACK",
+  "series": "SEVENS & GO RUSH!!",
+  "kind": "pack",
+  "code": "TYP1",
+  "syncKey": "YTYP1",
+  "released": "2026-07-22",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "TYP1-EN001–TYP1-EN030",
+      "tier": "standard"
+    },
+    {
+      "id": "rarities",
+      "name": "Other Rarities",
+      "short": "Other Rarities",
+      "range": "30 cards",
+      "tier": "master"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Main set"
+    ],
+    [
+      "rarities",
+      "Other rarities"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, SCR12, 60x2",
+    "example": "1-20, 45x2, SCR12",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies. Other rarities use their short name and number: <b>SCR12</b> is card 12’s Secret Rare, and ranges work too (<b>QCSR1-QCSR20</b>).",
+    "empty": "Cards run from TYP1-EN001 to TYP1-EN030."
+  },
+  "help": {
+    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 30 cards, each in its main rarity. Master adds the 30 other rarities. Cards you’ve marked are kept when you switch."
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! THANK YOU PACK Checklist · All 30 Cards",
+    "description": "Free Yu-Gi-Oh! THANK YOU PACK checklist with no ads, no sign-up and no tracking. Track all 30 cards, or every rarity for a master set, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! THANK YOU PACK Checklist",
+    "ogDescription": "Track all 30 cards in Yu-Gi-Oh! THANK YOU PACK, plus 30 other rarities. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 30 cards in Yu-Gi-Oh! THANK YOU PACK. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About THANK YOU PACK",
+    "paragraphs": [
+      "THANK YOU PACK is a Yu-Gi-Oh! TCG pack released on 22 July 2026, in the SEVENS &amp; GO RUSH!! era. It has 30 cards, and with the 30 other rarities there are 60 to collect in all.",
+      "Choose what you’re collecting: the <b>Standard set</b> (the 30 cards, each in its main rarity) or the <b>Master set</b> (all 60, adding the 30 other rarities).",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "THANK YOU PACK"
+    ],
+    "tcgplayer": [
+      24918
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"TYP1-EN001","name":"Gene-Warped Warwolf","ctype":"monster","keywords":"Beast-Warrior EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 4","t":"Beast-Warrior / Normal","atk":2000,"def":100},"rarity":"C","img":"69247929","code":"1","tcg":724477,"grp":24918,"idx":0},
+    {"id":"001-sr","section":"rarities","num":"001","printed":"TYP1-EN001","name":"Gene-Warped Warwolf","ctype":"monster","keywords":"Beast-Warrior EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 4","t":"Beast-Warrior / Normal","atk":2000,"def":100},"rarity":"SR","img":"69247929","badge":"SR","variant":"Super Rare","code":"SR1","tcg":724478,"grp":24918,"idx":1},
+    {"id":"002","section":"main","num":"002","printed":"TYP1-EN002","name":"Jinzo","ctype":"monster","keywords":"Jinzo Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Machine / Effect","atk":2400,"def":1500},"rarity":"C","img":"77585513","code":"2","tcg":724479,"grp":24918,"idx":2},
+    {"id":"002-sr","section":"rarities","num":"002","printed":"TYP1-EN002","name":"Jinzo","ctype":"monster","keywords":"Jinzo Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Machine / Effect","atk":2400,"def":1500},"rarity":"SR","img":"77585513","badge":"SR","variant":"Super Rare","code":"SR2","tcg":724480,"grp":24918,"idx":3},
+    {"id":"003","section":"main","num":"003","printed":"TYP1-EN003","name":"Black Luster Soldier - Envoy of the Beginning","ctype":"monster","keywords":"Black Luster Soldier Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Warrior / Effect","atk":3000,"def":2500},"rarity":"C","img":"72989439","code":"3","tcg":724481,"grp":24918,"idx":4},
+    {"id":"003-sr","section":"rarities","num":"003","printed":"TYP1-EN003","name":"Black Luster Soldier - Envoy of the Beginning","ctype":"monster","keywords":"Black Luster Soldier Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Warrior / Effect","atk":3000,"def":2500},"rarity":"SR","img":"72989439","badge":"SR","variant":"Super Rare","code":"SR3","tcg":724482,"grp":24918,"idx":5},
+    {"id":"004","section":"main","num":"004","printed":"TYP1-EN004","name":"Goblin Elite Attack Force","ctype":"monster","keywords":"Fiend EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Fiend / Effect","atk":2200,"def":1500},"rarity":"C","img":"85306040","code":"4","tcg":724483,"grp":24918,"idx":6},
+    {"id":"004-sr","section":"rarities","num":"004","printed":"TYP1-EN004","name":"Goblin Elite Attack Force","ctype":"monster","keywords":"Fiend EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Fiend / Effect","atk":2200,"def":1500},"rarity":"SR","img":"85306040","badge":"SR","variant":"Super Rare","code":"SR4","tcg":724484,"grp":24918,"idx":7},
+    {"id":"005","section":"main","num":"005","printed":"TYP1-EN005","name":"White Night Dragon","ctype":"monster","keywords":"Dragon WATER Effect Monster","stats":{"a":"WATER","l":"Level 8","t":"Dragon / Effect","atk":3000,"def":2500},"rarity":"C","img":"79473793","code":"5","tcg":724485,"grp":24918,"idx":8},
+    {"id":"005-sr","section":"rarities","num":"005","printed":"TYP1-EN005","name":"White Night Dragon","ctype":"monster","keywords":"Dragon WATER Effect Monster","stats":{"a":"WATER","l":"Level 8","t":"Dragon / Effect","atk":3000,"def":2500},"rarity":"SR","img":"79473793","badge":"SR","variant":"Super Rare","code":"SR5","tcg":724486,"grp":24918,"idx":9},
+    {"id":"006","section":"main","num":"006","printed":"TYP1-EN006","name":"Thunder King Rai-Oh","ctype":"monster","keywords":"Thunder LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Thunder / Effect","atk":1900,"def":800},"rarity":"C","img":"71564252","code":"6","tcg":724487,"grp":24918,"idx":10},
+    {"id":"006-sr","section":"rarities","num":"006","printed":"TYP1-EN006","name":"Thunder King Rai-Oh","ctype":"monster","keywords":"Thunder LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Thunder / Effect","atk":1900,"def":800},"rarity":"SR","img":"71564252","badge":"SR","variant":"Super Rare","code":"SR6","tcg":724488,"grp":24918,"idx":11},
+    {"id":"007","section":"main","num":"007","printed":"TYP1-EN007","name":"Deep Diver","ctype":"monster","keywords":"Aqua WATER Effect Monster","stats":{"a":"WATER","l":"Level 3","t":"Aqua / Effect","atk":1000,"def":1100},"rarity":"C","img":"17559367","code":"7","tcg":724489,"grp":24918,"idx":12},
+    {"id":"007-sr","section":"rarities","num":"007","printed":"TYP1-EN007","name":"Deep Diver","ctype":"monster","keywords":"Aqua WATER Effect Monster","stats":{"a":"WATER","l":"Level 3","t":"Aqua / Effect","atk":1000,"def":1100},"rarity":"SR","img":"17559367","badge":"SR","variant":"Super Rare","code":"SR7","tcg":724490,"grp":24918,"idx":13},
+    {"id":"008","section":"main","num":"008","printed":"TYP1-EN008","name":"X-Saber Airbellum","ctype":"monster","keywords":"X-Saber Beast EARTH Tuner Monster","stats":{"a":"EARTH","l":"Level 3","t":"Beast / Tuner","atk":1600,"def":200},"rarity":"C","img":"90508760","code":"8","tcg":724491,"grp":24918,"idx":14},
+    {"id":"008-sr","section":"rarities","num":"008","printed":"TYP1-EN008","name":"X-Saber Airbellum","ctype":"monster","keywords":"X-Saber Beast EARTH Tuner Monster","stats":{"a":"EARTH","l":"Level 3","t":"Beast / Tuner","atk":1600,"def":200},"rarity":"SR","img":"90508760","badge":"SR","variant":"Super Rare","code":"SR8","tcg":724492,"grp":24918,"idx":15},
+    {"id":"009","section":"main","num":"009","printed":"TYP1-EN009","name":"Snowman Eater","ctype":"monster","keywords":"Aqua WATER Effect Monster","stats":{"a":"WATER","l":"Level 3","t":"Aqua / Effect","atk":0,"def":1900},"rarity":"C","img":"91133740","code":"9","tcg":724493,"grp":24918,"idx":16},
+    {"id":"009-sr","section":"rarities","num":"009","printed":"TYP1-EN009","name":"Snowman Eater","ctype":"monster","keywords":"Aqua WATER Effect Monster","stats":{"a":"WATER","l":"Level 3","t":"Aqua / Effect","atk":0,"def":1900},"rarity":"SR","img":"91133740","badge":"SR","variant":"Super Rare","code":"SR9","tcg":724494,"grp":24918,"idx":17},
+    {"id":"010","section":"main","num":"010","printed":"TYP1-EN010","name":"Zubaba Knight","ctype":"monster","keywords":"Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Warrior / Effect","atk":1600,"def":900},"rarity":"C","img":"97896503","code":"10","tcg":724495,"grp":24918,"idx":18},
+    {"id":"010-sr","section":"rarities","num":"010","printed":"TYP1-EN010","name":"Zubaba Knight","ctype":"monster","keywords":"Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Warrior / Effect","atk":1600,"def":900},"rarity":"SR","img":"97896503","badge":"SR","variant":"Super Rare","code":"SR10","tcg":724496,"grp":24918,"idx":19},
+    {"id":"011","section":"main","num":"011","printed":"TYP1-EN011","name":"Kagetokage","ctype":"monster","keywords":"Reptile DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Reptile / Effect","atk":1100,"def":1500},"rarity":"C","img":"94656263","code":"11","tcg":724497,"grp":24918,"idx":20},
+    {"id":"011-sr","section":"rarities","num":"011","printed":"TYP1-EN011","name":"Kagetokage","ctype":"monster","keywords":"Reptile DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Reptile / Effect","atk":1100,"def":1500},"rarity":"SR","img":"94656263","badge":"SR","variant":"Super Rare","code":"SR11","tcg":724498,"grp":24918,"idx":21},
+    {"id":"012","section":"main","num":"012","printed":"TYP1-EN012","name":"Gagaga Gardna","ctype":"monster","keywords":"Gagaga Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Effect","atk":1500,"def":2000},"rarity":"C","img":"12423762","code":"12","tcg":724499,"grp":24918,"idx":22},
+    {"id":"012-sr","section":"rarities","num":"012","printed":"TYP1-EN012","name":"Gagaga Gardna","ctype":"monster","keywords":"Gagaga Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Effect","atk":1500,"def":2000},"rarity":"SR","img":"12423762","badge":"SR","variant":"Super Rare","code":"SR12","tcg":724500,"grp":24918,"idx":23},
+    {"id":"013","section":"main","num":"013","printed":"TYP1-EN013","name":"Trishula, Dragon of the Ice Barrier","ctype":"monster","keywords":"Ice Barrier Dragon WATER Synchro Monster","stats":{"a":"WATER","l":"Level 9","t":"Dragon / Synchro","atk":2700,"def":2000},"rarity":"C","img":"52687916","code":"13","tcg":724501,"grp":24918,"idx":24},
+    {"id":"013-sr","section":"rarities","num":"013","printed":"TYP1-EN013","name":"Trishula, Dragon of the Ice Barrier","ctype":"monster","keywords":"Ice Barrier Dragon WATER Synchro Monster","stats":{"a":"WATER","l":"Level 9","t":"Dragon / Synchro","atk":2700,"def":2000},"rarity":"SR","img":"52687916","badge":"SR","variant":"Super Rare","code":"SR13","tcg":724502,"grp":24918,"idx":25},
+    {"id":"014","section":"main","num":"014","printed":"TYP1-EN014","name":"Scrap Dragon","ctype":"monster","keywords":"Scrap Dragon EARTH Synchro Monster","stats":{"a":"EARTH","l":"Level 8","t":"Dragon / Synchro","atk":2800,"def":2000},"rarity":"C","img":"76774528","code":"14","tcg":724503,"grp":24918,"idx":26},
+    {"id":"014-sr","section":"rarities","num":"014","printed":"TYP1-EN014","name":"Scrap Dragon","ctype":"monster","keywords":"Scrap Dragon EARTH Synchro Monster","stats":{"a":"EARTH","l":"Level 8","t":"Dragon / Synchro","atk":2800,"def":2000},"rarity":"SR","img":"76774528","badge":"SR","variant":"Super Rare","code":"SR14","tcg":724504,"grp":24918,"idx":27},
+    {"id":"015","section":"main","num":"015","printed":"TYP1-EN015","name":"Number 17: Leviathan Dragon","ctype":"monster","keywords":"Dragon WATER Xyz Monster","stats":{"a":"WATER","l":"Rank 3","t":"Dragon / Xyz","atk":2000,"def":0},"rarity":"C","img":"69610924","code":"15","tcg":724505,"grp":24918,"idx":28},
+    {"id":"015-sr","section":"rarities","num":"015","printed":"TYP1-EN015","name":"Number 17: Leviathan Dragon","ctype":"monster","keywords":"Dragon WATER Xyz Monster","stats":{"a":"WATER","l":"Rank 3","t":"Dragon / Xyz","atk":2000,"def":0},"rarity":"SR","img":"69610924","badge":"SR","variant":"Super Rare","code":"SR15","tcg":724506,"grp":24918,"idx":29},
+    {"id":"016","section":"main","num":"016","printed":"TYP1-EN016","name":"Number 101: Silent Honor ARK","ctype":"monster","keywords":"Aqua WATER Xyz Monster","stats":{"a":"WATER","l":"Rank 4","t":"Aqua / Xyz","atk":2100,"def":1000},"rarity":"C","img":"48739166","code":"16","tcg":724507,"grp":24918,"idx":30},
+    {"id":"016-sr","section":"rarities","num":"016","printed":"TYP1-EN016","name":"Number 101: Silent Honor ARK","ctype":"monster","keywords":"Aqua WATER Xyz Monster","stats":{"a":"WATER","l":"Rank 4","t":"Aqua / Xyz","atk":2100,"def":1000},"rarity":"SR","img":"48739166","badge":"SR","variant":"Super Rare","code":"SR16","tcg":724508,"grp":24918,"idx":31},
+    {"id":"017","section":"main","num":"017","printed":"TYP1-EN017","name":"Raigeki","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"12580477","code":"17","tcg":724509,"grp":24918,"idx":32},
+    {"id":"017-sr","section":"rarities","num":"017","printed":"TYP1-EN017","name":"Raigeki","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"12580477","badge":"SR","variant":"Super Rare","code":"SR17","tcg":724510,"grp":24918,"idx":33},
+    {"id":"018","section":"main","num":"018","printed":"TYP1-EN018","name":"Monster Reborn","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"83764719","code":"18","tcg":724511,"grp":24918,"idx":34},
+    {"id":"018-sr","section":"rarities","num":"018","printed":"TYP1-EN018","name":"Monster Reborn","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"83764719","badge":"SR","variant":"Super Rare","code":"SR18","tcg":724512,"grp":24918,"idx":35},
+    {"id":"019","section":"main","num":"019","printed":"TYP1-EN019","name":"Change of Heart","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"4031928","code":"19","tcg":724513,"grp":24918,"idx":36},
+    {"id":"019-sr","section":"rarities","num":"019","printed":"TYP1-EN019","name":"Change of Heart","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"4031928","badge":"SR","variant":"Super Rare","code":"SR19","tcg":724514,"grp":24918,"idx":37},
+    {"id":"020","section":"main","num":"020","printed":"TYP1-EN020","name":"Smashing Ground","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"97169186","code":"20","tcg":724515,"grp":24918,"idx":38},
+    {"id":"020-sr","section":"rarities","num":"020","printed":"TYP1-EN020","name":"Smashing Ground","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"97169186","badge":"SR","variant":"Super Rare","code":"SR20","tcg":724516,"grp":24918,"idx":39},
+    {"id":"021","section":"main","num":"021","printed":"TYP1-EN021","name":"Hammer Shot","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"26412047","code":"21","tcg":724517,"grp":24918,"idx":40},
+    {"id":"021-sr","section":"rarities","num":"021","printed":"TYP1-EN021","name":"Hammer Shot","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"26412047","badge":"SR","variant":"Super Rare","code":"SR21","tcg":724518,"grp":24918,"idx":41},
+    {"id":"022","section":"main","num":"022","printed":"TYP1-EN022","name":"Ancient Rules","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"10667321","code":"22","tcg":724519,"grp":24918,"idx":42},
+    {"id":"022-sr","section":"rarities","num":"022","printed":"TYP1-EN022","name":"Ancient Rules","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"10667321","badge":"SR","variant":"Super Rare","code":"SR22","tcg":724520,"grp":24918,"idx":43},
+    {"id":"023","section":"main","num":"023","printed":"TYP1-EN023","name":"Synchro Blast Wave","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"35537860","code":"23","tcg":724521,"grp":24918,"idx":44},
+    {"id":"023-sr","section":"rarities","num":"023","printed":"TYP1-EN023","name":"Synchro Blast Wave","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"35537860","badge":"SR","variant":"Super Rare","code":"SR23","tcg":724522,"grp":24918,"idx":45},
+    {"id":"024","section":"main","num":"024","printed":"TYP1-EN024","name":"Book of Lunar Eclipse","ctype":"spell","keywords":"Book of Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"31834488","code":"24","tcg":724523,"grp":24918,"idx":46},
+    {"id":"024-sr","section":"rarities","num":"024","printed":"TYP1-EN024","name":"Book of Lunar Eclipse","ctype":"spell","keywords":"Book of Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"SR","img":"31834488","badge":"SR","variant":"Super Rare","code":"SR24","tcg":724524,"grp":24918,"idx":47},
+    {"id":"025","section":"main","num":"025","printed":"TYP1-EN025","name":"Mirror Force","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"44095762","code":"25","tcg":724525,"grp":24918,"idx":48},
+    {"id":"025-sr","section":"rarities","num":"025","printed":"TYP1-EN025","name":"Mirror Force","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"44095762","badge":"SR","variant":"Super Rare","code":"SR25","tcg":724526,"grp":24918,"idx":49},
+    {"id":"026","section":"main","num":"026","printed":"TYP1-EN026","name":"Torrential Tribute","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"53582587","code":"26","tcg":724527,"grp":24918,"idx":50},
+    {"id":"026-sr","section":"rarities","num":"026","printed":"TYP1-EN026","name":"Torrential Tribute","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"53582587","badge":"SR","variant":"Super Rare","code":"SR26","tcg":724528,"grp":24918,"idx":51},
+    {"id":"027","section":"main","num":"027","printed":"TYP1-EN027","name":"Bottomless Trap Hole","ctype":"trap","keywords":"Hole Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"29401950","code":"27","tcg":724529,"grp":24918,"idx":52},
+    {"id":"027-sr","section":"rarities","num":"027","printed":"TYP1-EN027","name":"Bottomless Trap Hole","ctype":"trap","keywords":"Hole Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"29401950","badge":"SR","variant":"Super Rare","code":"SR27","tcg":724530,"grp":24918,"idx":53},
+    {"id":"028","section":"main","num":"028","printed":"TYP1-EN028","name":"Raigeki Break","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"4178474","code":"28","tcg":724531,"grp":24918,"idx":54},
+    {"id":"028-sr","section":"rarities","num":"028","printed":"TYP1-EN028","name":"Raigeki Break","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"4178474","badge":"SR","variant":"Super Rare","code":"SR28","tcg":724532,"grp":24918,"idx":55},
+    {"id":"029","section":"main","num":"029","printed":"TYP1-EN029","name":"Typhoon","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"14883228","code":"29","tcg":724533,"grp":24918,"idx":56},
+    {"id":"029-sr","section":"rarities","num":"029","printed":"TYP1-EN029","name":"Typhoon","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"14883228","badge":"SR","variant":"Super Rare","code":"SR29","tcg":724534,"grp":24918,"idx":57},
+    {"id":"030","section":"main","num":"030","printed":"TYP1-EN030","name":"Quaking Mirror Force","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"40838625","code":"30","tcg":724535,"grp":24918,"idx":58},
+    {"id":"030-sr","section":"rarities","num":"030","printed":"TYP1-EN030","name":"Quaking Mirror Force","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"40838625","badge":"SR","variant":"Super Rare","code":"SR30","tcg":724536,"grp":24918,"idx":59}
+  ]
+}

@@ -1,9 +1,9 @@
 import { execFileSync } from 'node:child_process';
 import { createHash } from 'node:crypto';
 import { readdir, readFile } from 'node:fs/promises';
-import { COMING_SOON, CONFIG, GAMES, loadModel, loadRaw, dataDir } from './lib/collections.mjs';
+import { COMING_SOON, CONFIG, GAMES, LIVE_GAMES, loadModel, loadRaw, dataDir } from './lib/collections.mjs';
 import { GUIDES } from '../config/guides/index.mjs';
-import { PUBLIC, ROOT, TEMPLATES, readJson } from './lib/util.mjs';
+import { IMAGES_REPO, PUBLIC, ROOT, TEMPLATES, exists, readJson } from './lib/util.mjs';
 import { join, relative, sep } from 'node:path';
 
 const element = () => ({ addEventListener() {}, append() {}, querySelector: element, querySelectorAll: () => [], setAttribute() {}, classList: { add() {}, remove() {}, toggle() {} }, style: { setProperty() {} }, dataset: {} });
@@ -113,7 +113,8 @@ for (const model of models.values()) {
   const ids = model.sections.map((s) => s.id);
   check(!ids.includes('special') && !ids.includes('variant') && !model.cards.some((c) => c.base), `${model.id}: no stamped or other special prints`);
   const tierCards = (tier) => model.sections.filter((s) => s.tier === tier).flatMap((s) => model.cardsBySection.get(s.id));
-  check(tierCards('master').every((c) => c.variant) && tierCards('standard').every((c) => !c.variant), `${model.id}: Master adds only reverse holos, patterns and 1st Editions`);
+  check(tierCards('master').every((c) => c.variant) && tierCards('standard').every((c) => !c.variant), `${model.id}: Master adds only variants (reverse holos, patterns and 1st Editions, or other rarities)`);
+  if (model.game.id !== 'pokemon') continue;
   if (ids.includes('secret')) {
     check(model.getTier('master').sections.every((s) => ids.indexOf(s.id) < ids.indexOf('secret')) && model.lowestTier('secret')?.id === 'grand', `${model.id}: secret rares come after the reverse holos and patterns, in Grand Master`);
   }
@@ -202,29 +203,41 @@ for (const dir of [PUBLIC, TEMPLATES]) {
   }
 }
 
-const scan = await readJson(join(PUBLIC, 'data', 'scan', 'index.json'));
-check(scan, 'public/data/scan/index.json exists (run npm run scan-index)');
-if (scan) {
+const readPublic = (path) => readFile(join(PUBLIC, path)).catch(() => null);
+for (const game of LIVE_GAMES) {
+  const dir = `data/scan/${game}`;
+  const scan = await readJson(join(PUBLIC, dir, 'index.json'));
+  check(scan, `public/${dir}/index.json exists (run npm run scan-index)`);
+  if (!scan) continue;
   const key = (set, imageId, name, printed) => `${set} ${imageId} ${name} ${printed}`;
+  const gameModels = [...models].filter(([, model]) => model.game.id === game);
+  const printings = scan.layout === 'printings';
   const expected = [];
-  for (const [id, model] of models) {
-    for (const card of model.cards) if (!card.variant && model.hasImage(card)) expected.push(key(id, card.imageId, card.name, card.printed));
+  for (const [id, model] of gameModels) {
+    for (const card of model.cards) {
+      if (!model.hasImage(card)) continue;
+      if (printings) expected.push(card.imageId);
+      else if (!card.variant) expected.push(key(id, card.imageId, card.name, card.printed));
+    }
   }
-  const indexed = scan.cards.map(([set, imageId, name, printed]) => key(scan.sets[set], imageId, name, printed));
+  const indexed = printings ? scan.cards.map(([imageId]) => imageId) : scan.cards.map(([set, imageId, name, printed]) => key(scan.sets[set], imageId, name, printed));
+  if (printings) {
+    const broken = scan.cards.flatMap(([imageId, , list]) => list.filter(([s, cardId]) => !models.get(scan.sets[s])?.cardById.has(cardId)).map(([s, cardId]) => `${imageId} ${scan.sets[s]} ${cardId}`));
+    check(!broken.length, `${game} scan index printings all point at real cards (run npm run scan-index): ${broken.slice(0, 4).join(', ')}`);
+  }
   const have = new Set(indexed);
   const want = new Set(expected);
-  const missing = expected.filter((k) => !have.has(k));
+  const missing = [...want].filter((k) => !have.has(k));
   const stale = indexed.filter((k) => !want.has(k));
-  check(!missing.length && !stale.length, `scan index matches the card lists (run npm run scan-index): ${missing.length} missing, ${stale.length} stale ${[...missing, ...stale].slice(0, 4).join(', ')}`);
-  const read = (path) => readFile(join(PUBLIC, path)).catch(() => null);
-  const vectors = await read('data/scan/index.bin');
-  check(vectors?.length === scan.cards.length * scan.model.dims, 'scan index.bin has one vector per card');
-  const modelFile = await read(scan.model.file);
-  check(modelFile && modelFile.length === scan.model.bytes && createHash('sha256').update(modelFile).digest('hex') === scan.model.sha256, `public/${scan.model.file} matches the size and SHA-256 in index.json`);
-  const wasm = await read(scan.runtime.file);
+  check(!missing.length && !stale.length, `${game} scan index matches the card lists (run npm run scan-index): ${missing.length} missing, ${stale.length} stale ${[...missing, ...stale].slice(0, 4).join(', ')}`);
+  const vectors = await readPublic(`${dir}/index.bin`);
+  check(vectors?.length === scan.cards.length * scan.model.dims, `${game} scan index.bin has one vector per card`);
+  const modelFile = await readPublic(scan.model.file);
+  check(modelFile && modelFile.length === scan.model.bytes && createHash('sha256').update(modelFile).digest('hex') === scan.model.sha256, `public/${scan.model.file} matches the size and SHA-256 in ${dir}/index.json`);
+  const wasm = await readPublic(scan.runtime.file);
   check(wasm?.length === scan.runtime.bytes, `public/${scan.runtime.file} is vendored (ONNX Runtime Web ${scan.runtime.version})`);
-  for (const path of ['js/vendor/ort/ort.wasm.min.mjs', 'js/vendor/ort/ort-wasm-simd-threaded.mjs']) check(await read(path), `public/${path} is vendored`);
 }
+for (const path of ['js/vendor/ort/ort.wasm.min.mjs', 'js/vendor/ort/ort-wasm-simd-threaded.mjs']) check(await readPublic(path), `public/${path} is vendored`);
 
 const big = models.get('pokemon/ascended-heroes');
 check(big && big.cards.length > 255, 'a set with more than 255 entries exists and round-trips (Ascended Heroes)');
@@ -293,6 +306,42 @@ if (tradeSets.length >= 2) {
   const back = await decodeProposal(code);
   check(back?.kind === 'proposal' && back.id === proposal.id && back.name === 'Sam' && back.created === created && JSON.stringify(back.sets) === JSON.stringify(proposal.sets), 'proposed trade round trip');
   check((await readTradeText(`#p=${code}`))?.kind === 'proposal' && await decodeTrade(code) === null, 'a proposed trade link is read, and isn’t a trade code');
+}
+
+const ygo = [...models.values()].filter((m) => m.game.id === 'yugioh');
+if (ygo.length) {
+  const keys = [...models.values()].map((m) => m.syncKey.toUpperCase());
+  check(new Set(keys).size === keys.length, 'sync keys are unique across games, ignoring case');
+  check(ygo.every((m) => m.syncKey.startsWith('Y')) && ![...models.values()].some((m) => m.game.id === 'pokemon' && m.syncKey.toUpperCase().startsWith('Y')), 'Yu-Gi-Oh! sync keys start with Y and no Pokémon key does');
+  const repo = await exists(IMAGES_REPO);
+  const missingArt = new Set();
+  for (const m of ygo) {
+    check(m.sections.every((s) => s.id === 'main' || s.id === 'rarities'), `${m.id}: only main set and other rarities sections`);
+    const mains = new Set(m.cards.filter((c) => !c.variant).map((c) => c.printed));
+    check(m.cards.filter((c) => c.variant).every((c) => mains.has(c.printed)), `${m.id}: every other rarity has its main card`);
+    if (repo) for (const c of m.cards) if (m.hasImage(c) && !(await exists(join(IMAGES_REPO, 'yugioh', c.imageId, 'low.webp')))) missingArt.add(c.imageId);
+  }
+  if (repo) check(!missingArt.size, `every Yu-Gi-Oh! artwork with a colour has its images in ${IMAGES_REPO} (run npm run images -- --game yugioh): ${[...missingArt].slice(0, 6).join(', ')}`);
+  const rich = ygo.find((m) => m.cards.some((c) => c.variant && c.code?.startsWith('SCR')) && m.codes.has('1'));
+  if (rich) {
+    const scr = rich.cards.find((c) => c.variant && c.code?.startsWith('SCR'));
+    const r = parseQuickAdd(`1x2, ${scr.code}`, rich);
+    check(!r.invalid.length && r.counts.get(rich.codes.get('1')) === 2 && r.counts.get(scr.id) === 1, `${rich.id}: Yu-Gi-Oh! quick add reads numbers and rarity codes`);
+    check(parseQuickAdd('QCSR9999', rich).invalid.length === 1, `${rich.id}: Yu-Gi-Oh! quick add rejects codes that aren't in the set`);
+  }
+  const mixed = [tradeSets[0], ...ygo.slice(0, 2).map((model) => {
+    const counts = {};
+    for (const card of model.cards) if (random() < 0.3) counts[card.id] = 1 + Math.floor(random() * 3);
+    return { model, counts, tier: 'master' };
+  })].filter(Boolean);
+  const mixedCode = await encodeTrade({ name: 'Mixed', created, sets: mixed });
+  const mixedBack = await readTradeText(`https://example.com/#sync=${mixedCode}`);
+  check(mixedBack?.sets.length === mixed.length && mixedBack.sets.every((s, i) => s.decoded.key === mixed[i].model.syncKey && sameCounts(resolveCode(s.decoded, mixed[i].model), capped(mixed[i].counts))), 'an Export link with Pokémon and Yu-Gi-Oh! sets round-trips');
+  const mixedFile = parseBackup(JSON.stringify(backupFile(mixed.map((s) => ({ id: s.model.id, counts: s.counts, tier: s.tier })), { exported: new Date(created) })));
+  check(mixed.every((s) => sameCounts(mixedFile?.entries.find((e) => e.id === s.model.id)?.counts || {}, capped(s.counts))), 'a backup file with both games round-trips');
+  const ygoList = ygo[0];
+  const listBack = await decodeList(await encodeList({ key: ygoList.syncKey, n: ygoList.maxIdx + 1, tier: 'master', have: [[ygoList.cards[0].idx, 2]], missing: [ygoList.cards.at(-1).idx] }));
+  check(listBack?.key === ygoList.syncKey && listBack.have.get(ygoList.cards[0].idx) === 2, `${ygoList.id}: Yu-Gi-Oh! trade list round trip`);
 }
 
 const byIdx = (a, b) => a[0] - b[0];

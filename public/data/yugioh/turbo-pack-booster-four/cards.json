@@ -1,0 +1,81 @@
+{
+  "id": "yugioh/turbo-pack-booster-four",
+  "game": "yugioh",
+  "slug": "turbo-pack-booster-four",
+  "name": "Turbo Pack: Booster Four",
+  "series": "5D’s",
+  "kind": "pack",
+  "code": "TU04",
+  "syncKey": "YTU04",
+  "released": "2010-11-13",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "TU04-EN000–TU04-EN020",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from TU04-EN000 to TU04-EN020."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Turbo Pack: Booster Four Checklist · All 21 Cards",
+    "description": "Free Yu-Gi-Oh! Turbo Pack: Booster Four checklist with no ads, no sign-up and no tracking. Track all 21 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Turbo Pack: Booster Four Checklist",
+    "ogDescription": "Track all 21 cards in Yu-Gi-Oh! Turbo Pack: Booster Four. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 21 cards in Yu-Gi-Oh! Turbo Pack: Booster Four. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Turbo Pack: Booster Four",
+    "paragraphs": [
+      "Turbo Pack: Booster Four is a Yu-Gi-Oh! TCG pack released on 13 November 2010, in the 5D’s era. It has 21 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Turbo Pack: Booster Four"
+    ],
+    "tcgplayer": [
+      342
+    ]
+  },
+  "cards": [
+    {"id":"000","section":"main","num":"000","printed":"TU04-EN000","name":"Tragoedia","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 10","t":"Fiend / Effect","atk":-1,"def":-1},"rarity":"UtR","img":"98777036","code":"0","tcg":38641,"grp":342,"idx":0},
+    {"id":"001","section":"main","num":"001","printed":"TU04-EN001","name":"Gottoms' Emergency Call","ctype":"trap","keywords":"X-Saber Normal Trap","stats":{"t":"Normal Trap"},"rarity":"UR","img":"13504844","code":"1","tcg":38642,"grp":342,"idx":1},
+    {"id":"002","section":"main","num":"002","printed":"TU04-EN002","name":"Debris Dragon","ctype":"monster","keywords":"Dragon WIND Tuner Monster","stats":{"a":"WIND","l":"Level 4","t":"Dragon / Tuner","atk":1000,"def":2000},"rarity":"SR","img":"14943837","code":"2","tcg":38643,"grp":342,"idx":2},
+    {"id":"003","section":"main","num":"003","printed":"TU04-EN003","name":"Blackwing - Sirocco the Dawn","ctype":"monster","keywords":"Blackwing Winged Beast DARK Effect Monster","stats":{"a":"DARK","l":"Level 5","t":"Winged Beast / Effect","atk":2000,"def":900},"rarity":"SR","img":"75498415","code":"3","tcg":38644,"grp":342,"idx":3},
+    {"id":"004","section":"main","num":"004","printed":"TU04-EN004","name":"Deep Sea Diva","ctype":"monster","keywords":"Sea Serpent WATER Tuner Monster","stats":{"a":"WATER","l":"Level 2","t":"Sea Serpent / Tuner","atk":200,"def":400},"rarity":"SR","img":"78868119","code":"4","tcg":38645,"grp":342,"idx":4},
+    {"id":"005","section":"main","num":"005","printed":"TU04-EN005","name":"Compulsory Evacuation Device","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"94192409","code":"5","tcg":38646,"grp":342,"idx":5},
+    {"id":"006","section":"main","num":"006","printed":"TU04-EN006","name":"Dunames Dark Witch","ctype":"monster","keywords":"Fairy LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fairy / Normal","atk":1800,"def":1050},"rarity":"R","img":"12493482","code":"6","tcg":38647,"grp":342,"idx":6},
+    {"id":"007","section":"main","num":"007","printed":"TU04-EN007","name":"The End of Anubis","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Fiend / Effect","atk":2500,"def":0},"rarity":"R","img":"65403020","code":"7","tcg":38648,"grp":342,"idx":7},
+    {"id":"008","section":"main","num":"008","printed":"TU04-EN008","name":"Psychic Commander","ctype":"monster","keywords":"Psychic EARTH Tuner Monster","stats":{"a":"EARTH","l":"Level 3","t":"Psychic / Tuner","atk":1400,"def":800},"rarity":"R","img":"21454943","code":"8","tcg":38649,"grp":342,"idx":8},
+    {"id":"009","section":"main","num":"009","printed":"TU04-EN009","name":"Advanced Ritual Art","ctype":"spell","keywords":"Ritual Spell","stats":{"t":"Ritual Spell"},"rarity":"R","img":"46052429","code":"9","tcg":38650,"grp":342,"idx":9},
+    {"id":"010","section":"main","num":"010","printed":"TU04-EN010","name":"Bark of Dark Ruler","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"R","img":"41925941","code":"10","tcg":38651,"grp":342,"idx":10},
+    {"id":"011","section":"main","num":"011","printed":"TU04-EN011","name":"Swallow Flip","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"R","img":"10651797","code":"11","tcg":38652,"grp":342,"idx":11},
+    {"id":"012","section":"main","num":"012","printed":"TU04-EN012","name":"Wattkid","ctype":"monster","keywords":"Watt Thunder LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Thunder / Normal","atk":1000,"def":500},"rarity":"C","img":"27324313","code":"12","tcg":38653,"grp":342,"idx":12},
+    {"id":"013","section":"main","num":"013","printed":"TU04-EN013","name":"Oscillo Hero","ctype":"monster","keywords":"Warrior EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 3","t":"Warrior / Normal","atk":1250,"def":700},"rarity":"C","img":"82065276","code":"13","tcg":38654,"grp":342,"idx":13},
+    {"id":"014","section":"main","num":"014","printed":"TU04-EN014","name":"Mokey Mokey","ctype":"monster","keywords":"Fairy LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Fairy / Normal","atk":300,"def":100},"rarity":"C","img":"27288416","code":"14","tcg":38655,"grp":342,"idx":14},
+    {"id":"015","section":"main","num":"015","printed":"TU04-EN015","name":"Key Mace","ctype":"monster","keywords":"Fairy LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Fairy / Normal","atk":400,"def":300},"rarity":"C","img":"1929294","code":"15","tcg":38656,"grp":342,"idx":15},
+    {"id":"016","section":"main","num":"016","printed":"TU04-EN016","name":"King of the Skull Servants","ctype":"monster","keywords":"Skull Servant Zombie DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Zombie / Effect","atk":-1,"def":0},"rarity":"C","img":"36021814","code":"16","tcg":38657,"grp":342,"idx":16},
+    {"id":"017","section":"main","num":"017","printed":"TU04-EN017","name":"Dark Hole","ctype":"spell","keywords":"Hole Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"53129443","code":"17","tcg":38658,"grp":342,"idx":17},
+    {"id":"018","section":"main","num":"018","printed":"TU04-EN018","name":"Amazoness Spellcaster","ctype":"spell","keywords":"Amazoness Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"81325903","code":"18","tcg":38659,"grp":342,"idx":18},
+    {"id":"019","section":"main","num":"019","printed":"TU04-EN019","name":"Gladiator Proving Ground","ctype":"spell","keywords":"Gladiator Beast Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"35224440","code":"19","tcg":38660,"grp":342,"idx":19},
+    {"id":"020","section":"main","num":"020","printed":"TU04-EN020","name":"White Hole","ctype":"trap","keywords":"Hole Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"43487744","code":"20","tcg":38661,"grp":342,"idx":20}
+  ]
+}

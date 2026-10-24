@@ -1,4 +1,4 @@
-import { loadCatalog } from '../core/catalog.js';
+import { loadCatalog, entryById, groupByGame } from '../core/catalog.js';
 import { fetchCollection } from '../core/collection.js';
 import { asset } from '../core/paths.js';
 import * as storage from '../core/storage.js';
@@ -25,7 +25,7 @@ let result = null;
 let buildRun = 0;
 let nameTimer = 0;
 
-const nameOf = (id) => catalog?.collections.find((c) => c.id === id)?.name || id;
+const nameOf = (id) => entryById(catalog, id)?.name || id;
 
 function selectedIds() {
   if (scope === 'set') return [currentId];
@@ -52,17 +52,30 @@ function paintControls() {
   for (const panel of dlg.querySelectorAll('[data-xp-panel]')) panel.hidden = !result || panel.dataset.xpPanel !== how;
   const chips = field('sets');
   chips.hidden = scope !== 'choose' || !started?.length;
-  chips.replaceChildren(...(started || []).map((id) => el('button', {
+  const toggle = (ids, on) => {
+    for (const id of ids) {
+      if (on) chosen.add(id);
+      else chosen.delete(id);
+    }
+    paintControls();
+    build();
+  };
+  const chip = (id) => el('button', {
     type: 'button',
     class: 'chip',
     'aria-pressed': String(chosen.has(id)),
-    onclick() {
-      if (chosen.has(id)) chosen.delete(id);
-      else chosen.add(id);
-      paintControls();
-      build();
-    },
-  }, nameOf(id))));
+    onclick: () => toggle([id], !chosen.has(id)),
+  }, nameOf(id));
+  const groups = groupByGame(catalog, started || []);
+  chips.replaceChildren(...(groups.length > 1
+    ? groups.flatMap(({ game, ids }) => [
+      el('div', { class: 'xp-game' },
+        el('span', { class: 'xp-game__name', text: game.name }),
+        el('button', { type: 'button', class: 'link-btn', onclick: () => toggle(ids, true) }, 'All'),
+        el('button', { type: 'button', class: 'link-btn', onclick: () => toggle(ids, false) }, 'None')),
+      ...ids.map(chip),
+    ])
+    : (started || []).map(chip)));
 }
 
 function paintResult() {

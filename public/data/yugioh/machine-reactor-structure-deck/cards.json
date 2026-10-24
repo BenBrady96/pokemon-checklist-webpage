@@ -1,0 +1,100 @@
+{
+  "id": "yugioh/machine-reactor-structure-deck",
+  "game": "yugioh",
+  "slug": "machine-reactor-structure-deck",
+  "name": "Machine Reactor Structure Deck",
+  "series": "ARC-V",
+  "kind": "deck",
+  "code": "SR03",
+  "syncKey": "YSR03",
+  "released": "2017-04-13",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "SR03-EN000–SR03-ENTKN",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from SR03-EN000 to SR03-ENTKN."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Machine Reactor Structure Deck Checklist · All 40 Cards",
+    "description": "Free Yu-Gi-Oh! Machine Reactor Structure Deck checklist with no ads, no sign-up and no tracking. Track all 40 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Machine Reactor Structure Deck Checklist",
+    "ogDescription": "Track all 40 cards in Yu-Gi-Oh! Machine Reactor Structure Deck. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 40 cards in Yu-Gi-Oh! Machine Reactor Structure Deck. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Machine Reactor Structure Deck",
+    "paragraphs": [
+      "Machine Reactor Structure Deck is a Yu-Gi-Oh! TCG deck released on 13 April 2017, in the ARC-V era. It has 40 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Machine Reactor Structure Deck"
+    ],
+    "tcgplayer": [
+      1912
+    ]
+  },
+  "cards": [
+    {"id":"000","section":"main","num":"000","printed":"SR03-EN000","name":"Ancient Gear Gadget","ctype":"monster","keywords":"Ancient Gear Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Machine / Effect","atk":500,"def":2000},"rarity":"UR","img":"18486927","code":"0","tcg":130070,"grp":1912,"idx":0},
+    {"id":"001","section":"main","num":"001","printed":"SR03-EN001","name":"Ancient Gear Reactor Dragon","ctype":"monster","keywords":"Ancient Gear Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 9","t":"Machine / Effect","atk":3000,"def":3000},"rarity":"UR","img":"44874522","code":"1","tcg":130071,"grp":1912,"idx":1},
+    {"id":"002","section":"main","num":"002","printed":"SR03-EN002","name":"Ancient Gear Hydra","ctype":"monster","keywords":"Ancient Gear Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 7","t":"Machine / Effect","atk":2700,"def":1700},"rarity":"SR","img":"81269231","code":"2","tcg":130072,"grp":1912,"idx":2},
+    {"id":"003","section":"main","num":"003","printed":"SR03-EN003","name":"Ancient Gear Wyvern","ctype":"monster","keywords":"Ancient Gear Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Machine / Effect","atk":1700,"def":1200},"rarity":"SR","img":"17663375","code":"3","tcg":130073,"grp":1912,"idx":3},
+    {"id":"004","section":"main","num":"004","printed":"SR03-EN004","name":"Ancient Gear Gadjiltron Dragon","ctype":"monster","keywords":"Ancient Gear Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 8","t":"Machine / Effect","atk":3000,"def":2000},"rarity":"C","img":"50933533","code":"4","tcg":130074,"grp":1912,"idx":4},
+    {"id":"005","section":"main","num":"005","printed":"SR03-EN005","name":"Ancient Gear Golem","ctype":"monster","keywords":"Ancient Gear Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 8","t":"Machine / Effect","atk":3000,"def":3000},"rarity":"C","img":"83104731","code":"5","tcg":130075,"grp":1912,"idx":5},
+    {"id":"006","section":"main","num":"006","printed":"SR03-EN006","name":"Ancient Gear Gadjiltron Chimera","ctype":"monster","keywords":"Ancient Gear Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 6","t":"Machine / Effect","atk":2300,"def":1300},"rarity":"C","img":"86321248","code":"6","tcg":130076,"grp":1912,"idx":6},
+    {"id":"007","section":"main","num":"007","printed":"SR03-EN007","name":"Ancient Gear Beast","ctype":"monster","keywords":"Ancient Gear Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 6","t":"Machine / Effect","atk":2000,"def":2000},"rarity":"C","img":"10509340","code":"7","tcg":130077,"grp":1912,"idx":7},
+    {"id":"008","section":"main","num":"008","printed":"SR03-EN008","name":"Ancient Gear Engineer","ctype":"monster","keywords":"Ancient Gear Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 5","t":"Machine / Effect","atk":1500,"def":1500},"rarity":"C","img":"1953925","code":"8","tcg":130078,"grp":1912,"idx":8},
+    {"id":"009","section":"main","num":"009","printed":"SR03-EN009","name":"Ancient Gear Knight","ctype":"monster","keywords":"Ancient Gear Machine EARTH Gemini Monster","stats":{"a":"EARTH","l":"Level 4","t":"Machine / Gemini","atk":1800,"def":500},"rarity":"C","img":"39303359","code":"9","tcg":130079,"grp":1912,"idx":9},
+    {"id":"010","section":"main","num":"010","printed":"SR03-EN010","name":"Ancient Gear Soldier","ctype":"monster","keywords":"Ancient Gear Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Machine / Effect","atk":1300,"def":1300},"rarity":"C","img":"56094445","code":"10","tcg":130080,"grp":1912,"idx":10},
+    {"id":"011","section":"main","num":"011","printed":"SR03-EN011","name":"Ancient Gear Box","ctype":"monster","keywords":"Ancient Gear Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Machine / Effect","atk":500,"def":2000},"rarity":"C","img":"60953949","code":"11","tcg":130081,"grp":1912,"idx":11},
+    {"id":"012","section":"main","num":"012","printed":"SR03-EN012","name":"Geargiauger","ctype":"monster","keywords":"Geargia Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Machine / Effect","atk":500,"def":500},"rarity":"C","img":"47687766","code":"12","tcg":130082,"grp":1912,"idx":12},
+    {"id":"013","section":"main","num":"013","printed":"SR03-EN013","name":"Planet Pathfinder","ctype":"monster","keywords":"Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Machine / Effect","atk":1000,"def":1000},"rarity":"C","img":"97526666","code":"13","tcg":130083,"grp":1912,"idx":13},
+    {"id":"014","section":"main","num":"014","printed":"SR03-EN014","name":"Minefieldriller","ctype":"monster","keywords":"Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Machine / Effect","atk":1500,"def":1500},"rarity":"C","img":"24419823","code":"14","tcg":130084,"grp":1912,"idx":14},
+    {"id":"015","section":"main","num":"015","printed":"SR03-EN015","name":"Card Trooper","ctype":"monster","keywords":"Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Machine / Effect","atk":400,"def":400},"rarity":"C","img":"85087012","code":"15","tcg":130085,"grp":1912,"idx":15},
+    {"id":"016","section":"main","num":"016","printed":"SR03-EN016","name":"Gigantes","ctype":"monster","keywords":"Rock EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Rock / Effect","atk":1900,"def":1300},"rarity":"C","img":"47606319","code":"16","tcg":130086,"grp":1912,"idx":16},
+    {"id":"017","section":"main","num":"017","printed":"SR03-EN017","name":"BOXer","ctype":"monster","keywords":"Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Effect","atk":1800,"def":1000},"rarity":"C","img":"61156777","code":"17","tcg":130087,"grp":1912,"idx":17},
+    {"id":"018","section":"main","num":"018","printed":"SR03-EN018","name":"Hardened Armed Dragon","ctype":"monster","keywords":"Dragon EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Dragon / Effect","atk":1500,"def":800},"rarity":"C","img":"68473226","code":"18","tcg":130088,"grp":1912,"idx":18},
+    {"id":"019","section":"main","num":"019","printed":"SR03-EN019","name":"Spell Striker","ctype":"monster","keywords":"Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Warrior / Effect","atk":600,"def":200},"rarity":"C","img":"93187568","code":"19","tcg":130089,"grp":1912,"idx":19},
+    {"id":"020","section":"main","num":"020","printed":"SR03-EN020","name":"Maxx \"C\"","ctype":"monster","keywords":"\"C\" Insect EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 2","t":"Insect / Effect","atk":500,"def":200},"rarity":"C","img":"23434538","code":"20","tcg":130090,"grp":1912,"idx":20},
+    {"id":"021","section":"main","num":"021","printed":"SR03-EN021","name":"Ancient Gear Catapult","ctype":"spell","keywords":"Ancient Gear Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"44052074","code":"21","tcg":130091,"grp":1912,"idx":21},
+    {"id":"022","section":"main","num":"022","printed":"SR03-EN022","name":"Ancient Gear Fortress","ctype":"spell","keywords":"Ancient Gear Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"70147689","code":"22","tcg":130092,"grp":1912,"idx":22},
+    {"id":"023","section":"main","num":"023","printed":"SR03-EN023","name":"Ancient Gear Castle","ctype":"spell","keywords":"Ancient Gear Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"92001300","code":"23","tcg":130093,"grp":1912,"idx":23},
+    {"id":"024","section":"main","num":"024","printed":"SR03-EN024","name":"Ancient Gear Workshop","ctype":"spell","keywords":"Ancient Gear Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"59811955","code":"24","tcg":130094,"grp":1912,"idx":24},
+    {"id":"025","section":"main","num":"025","printed":"SR03-EN025","name":"Geartown","ctype":"spell","keywords":"Ancient Gear Field Spell","stats":{"t":"Field Spell"},"rarity":"C","img":"37694547","code":"25","tcg":130095,"grp":1912,"idx":25},
+    {"id":"026","section":"main","num":"026","printed":"SR03-EN026","name":"Mausoleum of the Emperor","ctype":"spell","keywords":"Field Spell","stats":{"t":"Field Spell"},"rarity":"C","img":"80921533","code":"26","tcg":130096,"grp":1912,"idx":26},
+    {"id":"027","section":"main","num":"027","printed":"SR03-EN027","name":"Pseudo Space","ctype":"spell","keywords":"Field Spell","stats":{"t":"Field Spell"},"rarity":"C","img":"77584012","code":"27","tcg":130097,"grp":1912,"idx":27},
+    {"id":"028","section":"main","num":"028","printed":"SR03-EN028","name":"Limiter Removal","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"23171610","code":"28","tcg":130098,"grp":1912,"idx":28},
+    {"id":"029","section":"main","num":"029","printed":"SR03-EN029","name":"Machine Duplication","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"63995093","code":"29","tcg":130099,"grp":1912,"idx":29},
+    {"id":"030","section":"main","num":"030","printed":"SR03-EN030","name":"Inferno Reckless Summon","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"12247206","code":"30","tcg":130100,"grp":1912,"idx":30},
+    {"id":"031","section":"main","num":"031","printed":"SR03-EN031","name":"Galaxy Cyclone","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"5133471","code":"31","tcg":130101,"grp":1912,"idx":31},
+    {"id":"032","section":"main","num":"032","printed":"SR03-EN032","name":"Terraforming","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"73628505","code":"32","tcg":130102,"grp":1912,"idx":32},
+    {"id":"033","section":"main","num":"033","printed":"SR03-EN033","name":"Jar of Avarice","ctype":"trap","keywords":"Greed Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"98954106","code":"33","tcg":130103,"grp":1912,"idx":33},
+    {"id":"034","section":"main","num":"034","printed":"SR03-EN034","name":"Mischief of the Gnomes","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"164710","code":"34","tcg":130104,"grp":1912,"idx":34},
+    {"id":"035","section":"main","num":"035","printed":"SR03-EN035","name":"Machine King - 3000 B.C.","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"70406920","code":"35","tcg":130105,"grp":1912,"idx":35},
+    {"id":"036","section":"main","num":"036","printed":"SR03-EN036","name":"Fiendish Chain","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"50078509","code":"36","tcg":130106,"grp":1912,"idx":36},
+    {"id":"037","section":"main","num":"037","printed":"SR03-EN037","name":"Call of the Haunted","ctype":"trap","keywords":"Call of the Haunted Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"97077563","code":"37","tcg":130107,"grp":1912,"idx":37},
+    {"id":"038","section":"main","num":"038","printed":"SR03-EN038","name":"The Huge Revolution is Over","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"C","img":"99188141","code":"38","tcg":130108,"grp":1912,"idx":38},
+    {"id":"TKN","section":"main","num":"TKN","printed":"SR03-ENTKN","name":"Ancient Gear Token","ctype":"token","keywords":"Ancient Gear Machine Token","stats":{"t":"Machine / Token"},"rarity":"C","img":"44052075","tcg":130069,"grp":1912,"idx":39}
+  ]
+}

@@ -1,14 +1,20 @@
 import { cachedJson, download } from './util.mjs';
 
-const TCGCSV = 'https://tcgcsv.com/tcgplayer/3';
+export const CATEGORY = { pokemon: 3, yugioh: 2 };
 
-export async function loadProducts(groupId, { refresh = false } = {}) {
-  return (await cachedJson(`${TCGCSV}/${groupId}/products`, { refresh })).results;
+const base = (category) => `https://tcgcsv.com/tcgplayer/${category}`;
+
+export async function loadGroups(category, { refresh = false } = {}) {
+  return (await cachedJson(`${base(category)}/groups`, { refresh })).results;
 }
 
-export async function loadPrices(groupId) {
+export async function loadProducts(groupId, { refresh = false, category = CATEGORY.pokemon } = {}) {
+  return (await cachedJson(`${base(category)}/${groupId}/products`, { refresh })).results;
+}
+
+export async function loadPrices(groupId, { category = CATEGORY.pokemon } = {}) {
   try {
-    return (await download(`${TCGCSV}/${groupId}/prices`, { type: 'json' })).results;
+    return (await download(`${base(category)}/${groupId}/prices`, { type: 'json' })).results;
   } catch (err) {
     if ([401, 403, 404].includes(err.status)) return [];
     throw err;

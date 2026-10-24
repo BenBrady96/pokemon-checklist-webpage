@@ -1,0 +1,86 @@
+{
+  "id": "yugioh/ots-tournament-pack-16",
+  "game": "yugioh",
+  "slug": "ots-tournament-pack-16",
+  "name": "OTS Tournament Pack 16",
+  "series": "SEVENS & GO RUSH!!",
+  "kind": "pack",
+  "code": "OP16",
+  "syncKey": "YOP16",
+  "released": "2021-06-09",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "OP16-EN001–OP16-EN026",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from OP16-EN001 to OP16-EN026."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! OTS Tournament Pack 16 Checklist · All 26 Cards",
+    "description": "Free Yu-Gi-Oh! OTS Tournament Pack 16 checklist with no ads, no sign-up and no tracking. Track all 26 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! OTS Tournament Pack 16 Checklist",
+    "ogDescription": "Track all 26 cards in Yu-Gi-Oh! OTS Tournament Pack 16. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 26 cards in Yu-Gi-Oh! OTS Tournament Pack 16. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About OTS Tournament Pack 16",
+    "paragraphs": [
+      "OTS Tournament Pack 16 is a Yu-Gi-Oh! TCG pack released on 9 June 2021, in the SEVENS &amp; GO RUSH!! era. It has 26 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "OTS Tournament Pack 16"
+    ],
+    "tcgplayer": [
+      2850
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"OP16-EN001","name":"Cyber Dragon","ctype":"monster","keywords":"Cyber Dragon Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 5","t":"Machine / Effect","atk":2100,"def":1600},"rarity":"UtR","img":"70095155","code":"1","tcg":241452,"grp":2850,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"OP16-EN002","name":"Firewall Dragon","ctype":"monster","keywords":"Cyberse LIGHT Link Monster","stats":{"a":"LIGHT","l":"Link 4","t":"Cyberse / Link","atk":2500},"rarity":"UtR","img":"5043010","code":"2","tcg":241456,"grp":2850,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"OP16-EN003","name":"Forbidden Droplet","ctype":"spell","keywords":"Forbidden Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"UtR","img":"24299458","code":"3","tcg":241458,"grp":2850,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"OP16-EN004","name":"Cyber-Stein","ctype":"monster","keywords":"Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 2","t":"Machine / Effect","atk":700,"def":500},"rarity":"SR","img":"69015963","code":"4","tcg":241460,"grp":2850,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"OP16-EN005","name":"King of the Skull Servants","ctype":"monster","keywords":"Skull Servant Zombie DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Zombie / Effect","atk":-1,"def":0},"rarity":"SR","img":"36021814","code":"5","tcg":241461,"grp":2850,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"OP16-EN006","name":"Mausoleum of the Emperor","ctype":"spell","keywords":"Field Spell","stats":{"t":"Field Spell"},"rarity":"SR","img":"80921533","code":"6","tcg":241463,"grp":2850,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"OP16-EN007","name":"Token Stampede","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"SR","img":"14342283","code":"7","tcg":241465,"grp":2850,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"OP16-EN008","name":"Phonon Pulse Dragon","ctype":"monster","keywords":"Dragon DARK Synchro Tuner Monster","stats":{"a":"DARK","l":"Level 4","t":"Dragon / Synchro / Tuner","atk":1900,"def":800},"rarity":"SR","img":"67556500","code":"8","tcg":241466,"grp":2850,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"OP16-EN009","name":"Tri-Brigade Nervall","ctype":"monster","keywords":"Tri-Brigade Winged Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 1","t":"Winged Beast / Effect","atk":0,"def":2000},"rarity":"SR","img":"14816857","code":"9","tcg":241467,"grp":2850,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"OP16-EN010","name":"Geonator Transverser","ctype":"monster","keywords":"Rock EARTH Link Monster","stats":{"a":"EARTH","l":"Link 2","t":"Rock / Link","atk":1200},"rarity":"SR","img":"52119435","code":"10","tcg":241475,"grp":2850,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"OP16-EN011","name":"Virtual World Gate - Qinglong","ctype":"spell","keywords":"Virtual World Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"SR","img":"50275295","code":"11","tcg":241478,"grp":2850,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"OP16-EN012","name":"Drytron Zeta Aldhibah","ctype":"monster","keywords":"Drytron Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Machine / Effect","atk":2000,"def":0},"rarity":"SR","img":"96026108","code":"12","tcg":241486,"grp":2850,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"OP16-EN013","name":"Drytron Delta Altais","ctype":"monster","keywords":"Drytron Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Machine / Effect","atk":2000,"def":0},"rarity":"SR","img":"22420202","code":"13","tcg":241488,"grp":2850,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"OP16-EN014","name":"Cyber Saurus","ctype":"monster","keywords":"Machine EARTH Fusion Monster","stats":{"a":"EARTH","l":"Level 5","t":"Machine / Fusion","atk":1800,"def":1400},"rarity":"C","img":"89112729","code":"14","tcg":241504,"grp":2850,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"OP16-EN015","name":"Miracle Dig","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"6343408","code":"15","tcg":241505,"grp":2850,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"OP16-EN016","name":"Royal Magical Library","ctype":"monster","keywords":"Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Effect","atk":0,"def":2000},"rarity":"C","img":"70791313","code":"16","tcg":241506,"grp":2850,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"OP16-EN017","name":"Peten the Dark Clown","ctype":"monster","keywords":"Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Spellcaster / Effect","atk":500,"def":1200},"rarity":"C","img":"52624755","code":"17","tcg":241508,"grp":2850,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"OP16-EN018","name":"Power Filter","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"19844995","code":"18","tcg":241510,"grp":2850,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"OP16-EN019","name":"Lord British Space Fighter","ctype":"monster","keywords":"Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Machine / Effect","atk":1200,"def":800},"rarity":"C","img":"35514096","code":"19","tcg":241512,"grp":2850,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"OP16-EN020","name":"Reptilianne Hydra","ctype":"monster","keywords":"Reptilianne Reptile DARK Synchro Monster","stats":{"a":"DARK","l":"Level 6","t":"Reptile / Synchro","atk":2100,"def":1500},"rarity":"C","img":"60634565","code":"20","tcg":241513,"grp":2850,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"OP16-EN021","name":"Alien Brain","ctype":"trap","keywords":"Alien Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"17490535","code":"21","tcg":241514,"grp":2850,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"OP16-EN022","name":"Lion Alligator","ctype":"monster","keywords":"Alligator Reptile WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Reptile / Effect","atk":1900,"def":200},"rarity":"C","img":"4611269","code":"22","tcg":241525,"grp":2850,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"OP16-EN023","name":"Stardust Flash","ctype":"trap","keywords":"Stardust Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"27196937","code":"23","tcg":241531,"grp":2850,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"OP16-EN024","name":"Cosmic Flare","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"84012625","code":"24","tcg":241532,"grp":2850,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"OP16-EN025","name":"Stardust Wish","ctype":"trap","keywords":"Stardust Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"35129241","code":"25","tcg":241533,"grp":2850,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"OP16-EN026","name":"Breath of Acclamation","ctype":"spell","keywords":"Ritual Spell","stats":{"t":"Ritual Spell"},"rarity":"C","img":"44221928","code":"26","tcg":241556,"grp":2850,"idx":25}
+  ]
+}

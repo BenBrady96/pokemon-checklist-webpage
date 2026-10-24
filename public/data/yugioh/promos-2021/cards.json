@@ -1,0 +1,101 @@
+{
+  "id": "yugioh/promos-2021",
+  "game": "yugioh",
+  "slug": "promos-2021",
+  "name": "Promos 2021",
+  "series": "Promos",
+  "kind": "promo",
+  "code": "P2021",
+  "syncKey": "YP2021",
+  "released": "2021-01-01",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "2021-EN001–SBPR-EN004",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. Numbers count down the list in order: <b>1-5</b> is the first five cards and <b>3x2</b> is two copies of the third.",
+    "empty": "Cards run from 2021-EN001 to SBPR-EN004."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Promos 2021 Checklist · All 19 Cards",
+    "description": "Free Yu-Gi-Oh! Promos 2021 checklist with no ads, no sign-up and no tracking. Track all 19 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Promos 2021 Checklist",
+    "ogDescription": "Track all 19 cards in Yu-Gi-Oh! Promos 2021. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 19 cards in Yu-Gi-Oh! Promos 2021. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Promos 2021",
+    "paragraphs": [
+      "Promos 2021 gathers the 19 promo cards from 19 products released in 2021: KC Grand Tournament 2021 prize card, Yu-Gi-Oh! TCG Remote Duel Extravaganza participation card, Blazing Vortex Premiere! promotional card, Dawn of Majesty Premiere! promotional card, The Lost Art Promotion 2021 A, The Lost Art Promotion 2021 B, The Lost Art Promotion 2021 C, The Lost Art Promotion 2021 D, The Lost Art Promotion 2021 E, The Lost Art Promotion 2021 F, The Lost Art Promotion 2021 G, The Lost Art Promotion 2021 H, The Lost Art Promotion 2021 I, The Lost Art Promotion 2021 J, The Lost Art Promotion 2021 K, The Lost Art Promotion 2021 L, Lightning Overdrive Premiere! promotional card, Blue-Eyes Alternative White Dragon Sweepstakes and Palladium Oracle Mahad Sweepstakes.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Blazing Vortex Premiere! promotional card",
+      "Blue-Eyes Alternative White Dragon Sweepstakes",
+      "Dawn of Majesty Premiere! promotional card",
+      "KC Grand Tournament 2021 prize card",
+      "Lightning Overdrive Premiere! promotional card",
+      "Palladium Oracle Mahad Sweepstakes",
+      "The Lost Art Promotion 2021 A",
+      "The Lost Art Promotion 2021 B",
+      "The Lost Art Promotion 2021 C",
+      "The Lost Art Promotion 2021 D",
+      "The Lost Art Promotion 2021 E",
+      "The Lost Art Promotion 2021 F",
+      "The Lost Art Promotion 2021 G",
+      "The Lost Art Promotion 2021 H",
+      "The Lost Art Promotion 2021 I",
+      "The Lost Art Promotion 2021 J",
+      "The Lost Art Promotion 2021 K",
+      "The Lost Art Promotion 2021 L",
+      "Yu-Gi-Oh! TCG Remote Duel Extravaganza participation card"
+    ],
+    "tcgplayer": [
+      2196,
+      2718,
+      2749,
+      2843,
+      2779
+    ]
+  },
+  "cards": [
+    {"id":"2021-001","section":"main","num":"2021-EN001","printed":"2021-EN001","name":"Dark Magician","ctype":"monster","keywords":"Dark Magician Spellcaster DARK Normal Monster","stats":{"a":"DARK","l":"Level 7","t":"Spellcaster / Normal","atk":2500,"def":2100},"note":"KC Grand Tournament 2021 prize card","rarity":"EScR","img":"46986414","code":"1","idx":0},
+    {"id":"21CC-001","section":"main","num":"21CC-EN001","printed":"21CC-EN001","name":"Amabie","ctype":"monster","keywords":"Fairy WATER Effect Monster","stats":{"a":"WATER","l":"Level 3","t":"Fairy / Effect","atk":0,"def":0},"note":"Yu-Gi-Oh! TCG Remote Duel Extravaganza participation card","rarity":"C","img":"2139640","code":"2","tcg":239854,"grp":2718,"idx":1},
+    {"id":"BLVO-SP1","section":"main","num":"BLVO-ENSP1","printed":"BLVO-ENSP1","name":"Armed Dragon Flash","ctype":"spell","keywords":"Armed Dragon Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"note":"Blazing Vortex Premiere! promotional card","rarity":"UR","img":"34611551","code":"3","tcg":239644,"grp":2749,"idx":2},
+    {"id":"DAMA-SP1","section":"main","num":"DAMA-ENSP1","printed":"DAMA-ENSP1","name":"Beetrooper Scout Buggy","ctype":"monster","keywords":"Beetrooper Insect WIND Effect Monster","stats":{"a":"WIND","l":"Level 3","t":"Insect / Effect","atk":1000,"def":300},"note":"Dawn of Majesty Premiere! promotional card","rarity":"UR","img":"2656842","code":"4","tcg":246196,"grp":2843,"idx":3},
+    {"id":"LART-031","section":"main","num":"LART-EN031","printed":"LART-EN031","name":"Raging Eria","ctype":"monster","keywords":"Spellcaster WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Spellcaster / Effect","atk":800,"def":1500},"note":"The Lost Art Promotion 2021 A","rarity":"UR","img":"56524813","code":"5","tcg":231289,"grp":2196,"idx":4},
+    {"id":"LART-032","section":"main","num":"LART-EN032","printed":"LART-EN032","name":"VWXYZ-Dragon Catapult Cannon","ctype":"monster","keywords":"ABC Machine LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Machine / Fusion","atk":3000,"def":2800},"note":"The Lost Art Promotion 2021 B","rarity":"UR","img":"84243274","code":"6","tcg":234495,"grp":2196,"idx":5},
+    {"id":"LART-033","section":"main","num":"LART-EN033","printed":"LART-EN033","name":"Vampire Vamp","ctype":"monster","keywords":"Vampire Zombie DARK Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Zombie / Effect","atk":2000,"def":2000},"note":"The Lost Art Promotion 2021 C","rarity":"UR","img":"82962242","code":"7","tcg":235886,"grp":2196,"idx":6},
+    {"id":"LART-034","section":"main","num":"LART-EN034","printed":"LART-EN034","name":"Blazing Hiita","ctype":"monster","keywords":"Spellcaster FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Spellcaster / Effect","atk":800,"def":1500},"note":"The Lost Art Promotion 2021 D","rarity":"UR","img":"92518817","code":"8","tcg":237576,"grp":2196,"idx":7},
+    {"id":"LART-035","section":"main","num":"LART-EN035","printed":"LART-EN035","name":"Dark Magician Girl","ctype":"monster","keywords":"Dark Magician Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Spellcaster / Effect","atk":2000,"def":1700},"note":"The Lost Art Promotion 2021 E","rarity":"UR","img":"38033124","code":"9","tcg":239227,"grp":2196,"idx":8},
+    {"id":"LART-036","section":"main","num":"LART-EN036","printed":"LART-EN036","name":"Celestia, Lightsworn Angel","ctype":"monster","keywords":"Lightsworn Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 5","t":"Fairy / Effect","atk":2300,"def":200},"note":"The Lost Art Promotion 2021 F","rarity":"UR","img":"94381039","code":"10","tcg":242961,"grp":2196,"idx":9},
+    {"id":"LART-037","section":"main","num":"LART-EN037","printed":"LART-EN037","name":"Barrel Dragon","ctype":"monster","keywords":"Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Machine / Effect","atk":2600,"def":2200},"note":"The Lost Art Promotion 2021 G","rarity":"UR","img":"81480460","code":"11","tcg":245614,"grp":2196,"idx":10},
+    {"id":"LART-038","section":"main","num":"LART-EN038","printed":"LART-EN038","name":"Storming Wynn","ctype":"monster","keywords":"Spellcaster WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Spellcaster / Effect","atk":800,"def":1500},"note":"The Lost Art Promotion 2021 H","rarity":"UR","img":"29013526","code":"12","tcg":248100,"grp":2196,"idx":11},
+    {"id":"LART-039","section":"main","num":"LART-EN039","printed":"LART-EN039","name":"Gemini Elf","ctype":"monster","keywords":"Spellcaster EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 4","t":"Spellcaster / Normal","atk":1900,"def":900},"note":"The Lost Art Promotion 2021 I","rarity":"UR","img":"69140098","code":"13","tcg":251013,"grp":2196,"idx":12},
+    {"id":"LART-040","section":"main","num":"LART-EN040","printed":"LART-EN040","name":"Enchanting Fitting Room","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"note":"The Lost Art Promotion 2021 J","rarity":"UR","img":"30531525","code":"14","tcg":252672,"grp":2196,"idx":13},
+    {"id":"LART-041","section":"main","num":"LART-EN041","printed":"LART-EN041","name":"Elemental HERO Burstinatrix","ctype":"monster","keywords":"Elemental HERO Warrior FIRE Normal Monster","stats":{"a":"FIRE","l":"Level 3","t":"Warrior / Normal","atk":1200,"def":800},"note":"The Lost Art Promotion 2021 K","rarity":"UR","img":"58932615","code":"15","tcg":252673,"grp":2196,"idx":14},
+    {"id":"LART-042","section":"main","num":"LART-EN042","printed":"LART-EN042","name":"Foolish Return","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"note":"The Lost Art Promotion 2021 L","rarity":"UR","img":"88369727","code":"16","tcg":257741,"grp":2196,"idx":15},
+    {"id":"LIOV-SP1","section":"main","num":"LIOV-ENSP1","printed":"LIOV-ENSP1","name":"Amazing Time Ticket","ctype":"spell","keywords":"Amazement Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"note":"Lightning Overdrive Premiere! promotional card","rarity":"UR","img":"70389815","code":"17","tcg":242432,"grp":2779,"idx":16},
+    {"id":"SBPR-003","section":"main","num":"SBPR-EN003","printed":"SBPR-EN003","name":"Blue-Eyes Alternative White Dragon","ctype":"monster","keywords":"Blue-Eyes Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Effect","atk":3000,"def":2500},"note":"Blue-Eyes Alternative White Dragon Sweepstakes","rarity":"ScR","img":"38517737","code":"18","tcg":257771,"grp":2718,"idx":17},
+    {"id":"SBPR-004","section":"main","num":"SBPR-EN004","printed":"SBPR-EN004","name":"Palladium Oracle Mahad","ctype":"monster","keywords":"Dark Magician Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 7","t":"Spellcaster / Effect","atk":2500,"def":2100},"note":"Palladium Oracle Mahad Sweepstakes","rarity":"ScR","img":"71703785","code":"19","tcg":242776,"grp":2718,"idx":18}
+  ]
+}

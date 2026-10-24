@@ -1,0 +1,70 @@
+{
+  "id": "yugioh/advanced-demo-deck-extra-pack",
+  "game": "yugioh",
+  "slug": "advanced-demo-deck-extra-pack",
+  "name": "Advanced Demo Deck Extra Pack",
+  "series": "VRAINS",
+  "kind": "deck",
+  "code": "DEM4",
+  "syncKey": "YDEM4",
+  "released": "2018-01-06",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "DEM4-EN001–DEM4-EN010",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from DEM4-EN001 to DEM4-EN010."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Advanced Demo Deck Extra Pack Checklist · All 10 Cards",
+    "description": "Free Yu-Gi-Oh! Advanced Demo Deck Extra Pack checklist with no ads, no sign-up and no tracking. Track all 10 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Advanced Demo Deck Extra Pack Checklist",
+    "ogDescription": "Track all 10 cards in Yu-Gi-Oh! Advanced Demo Deck Extra Pack. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 10 cards in Yu-Gi-Oh! Advanced Demo Deck Extra Pack. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Advanced Demo Deck Extra Pack",
+    "paragraphs": [
+      "Advanced Demo Deck Extra Pack is a Yu-Gi-Oh! TCG deck released on 6 January 2018, in the VRAINS era. It has 10 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Advanced Demo Deck Extra Pack"
+    ],
+    "tcgplayer": [
+      2558
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"DEM4-EN001","name":"Polymerization","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"24094653","code":"1","tcg":201054,"grp":2558,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"DEM4-EN002","name":"Galaxy Serpent","ctype":"monster","keywords":"Dragon LIGHT Normal Tuner Monster","stats":{"a":"LIGHT","l":"Level 2","t":"Dragon / Normal / Tuner","atk":1000,"def":0},"rarity":"C","img":"11066358","code":"2","tcg":201055,"grp":2558,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"DEM4-EN003","name":"Flash Knight","ctype":"monster","keywords":"Warrior LIGHT Pendulum Normal Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Pendulum / Normal","atk":1800,"def":600},"rarity":"C","img":"17390179","code":"3","tcg":201059,"grp":2558,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"DEM4-EN004","name":"Lancephorhynchus","ctype":"monster","keywords":"Dinosaur WIND Pendulum Normal Monster","stats":{"a":"WIND","l":"Level 6","t":"Dinosaur / Pendulum / Normal","atk":2500,"def":800},"rarity":"C","img":"48940337","code":"4","tcg":201060,"grp":2558,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"DEM4-EN005","name":"Mandragon","ctype":"monster","keywords":"Plant EARTH Pendulum Normal Monster","stats":{"a":"EARTH","l":"Level 5","t":"Plant / Pendulum / Normal","atk":2500,"def":1000},"rarity":"C","img":"19474136","code":"5","tcg":201061,"grp":2558,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"DEM4-EN006","name":"Foucault's Cannon","ctype":"monster","keywords":"Spellcaster DARK Pendulum Normal Monster","stats":{"a":"DARK","l":"Level 5","t":"Spellcaster / Pendulum / Normal","atk":2200,"def":1200},"rarity":"C","img":"43785278","code":"6","tcg":201062,"grp":2558,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"DEM4-EN007","name":"First of the Dragons","ctype":"monster","keywords":"Dragon DARK Fusion Monster","stats":{"a":"DARK","l":"Level 9","t":"Dragon / Fusion","atk":2700,"def":2000},"rarity":"C","img":"10817524","code":"7","tcg":201063,"grp":2558,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"DEM4-EN008","name":"Gaia Knight, the Force of Earth","ctype":"monster","keywords":"Gaia The Fierce Knight Warrior EARTH Synchro Monster","stats":{"a":"EARTH","l":"Level 6","t":"Warrior / Synchro","atk":2600,"def":800},"rarity":"C","img":"97204936","code":"8","tcg":201064,"grp":2558,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"DEM4-EN009","name":"Gem-Knight Pearl","ctype":"monster","keywords":"Gem- Rock EARTH Xyz Monster","stats":{"a":"EARTH","l":"Rank 4","t":"Rock / Xyz","atk":2600,"def":1900},"rarity":"C","img":"71594310","code":"9","tcg":201065,"grp":2558,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"DEM4-EN010","name":"Link Spider","ctype":"monster","keywords":"Cyberse EARTH Link Monster","stats":{"a":"EARTH","l":"Link 1","t":"Cyberse / Link","atk":1000},"rarity":"C","img":"98978921","code":"10","tcg":201066,"grp":2558,"idx":9}
+  ]
+}

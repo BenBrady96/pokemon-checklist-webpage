@@ -1,0 +1,166 @@
+{
+  "id": "yugioh/strike-of-neos",
+  "game": "yugioh",
+  "slug": "strike-of-neos",
+  "name": "Strike of Neos",
+  "series": "GX",
+  "kind": "expansion",
+  "code": "STON",
+  "syncKey": "YSTON",
+  "released": "2007-02-28",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Main Set",
+      "range": "STON-EN000–STON-EN068",
+      "tier": "standard"
+    },
+    {
+      "id": "rarities",
+      "name": "Other Rarities",
+      "short": "Other Rarities",
+      "range": "25 cards",
+      "tier": "master"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Main set"
+    ],
+    [
+      "rarities",
+      "Other rarities"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, SCR12, 60x2",
+    "example": "1-20, 45x2, SCR12",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies. Other rarities use their short name and number: <b>SCR12</b> is card 12’s Secret Rare, and ranges work too (<b>QCSR1-QCSR20</b>).",
+    "empty": "Cards run from STON-EN000 to STON-EN068."
+  },
+  "help": {
+    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 69 cards, each in its main rarity. Master adds the 25 other rarities. Cards you’ve marked are kept when you switch."
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Strike of Neos Checklist · All 69 Cards",
+    "description": "Free Yu-Gi-Oh! Strike of Neos checklist with no ads, no sign-up and no tracking. Track all 69 cards, or every rarity for a master set, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Strike of Neos Checklist",
+    "ogDescription": "Track all 69 cards in Yu-Gi-Oh! Strike of Neos, plus 25 other rarities. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 69 cards in Yu-Gi-Oh! Strike of Neos. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About the Strike of Neos set",
+    "paragraphs": [
+      "Strike of Neos is a Yu-Gi-Oh! TCG booster set released on 28 February 2007, in the GX era. It has 69 cards, and with the 25 other rarities there are 94 to collect in all.",
+      "Choose what you’re collecting: the <b>Standard set</b> (the 69 cards, each in its main rarity) or the <b>Master set</b> (all 94, adding the 25 other rarities).",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Strike of Neos"
+    ],
+    "tcgplayer": [
+      304
+    ]
+  },
+  "cards": [
+    {"id":"000","section":"main","num":"000","printed":"STON-EN000","name":"Grandmaster of the Six Samurai","ctype":"monster","keywords":"Six Samurai Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 5","t":"Warrior / Effect","atk":2100,"def":800},"rarity":"ScR","img":"83039729","code":"0","tcg":25714,"grp":304,"idx":0},
+    {"id":"001","section":"main","num":"001","printed":"STON-EN001","name":"Gene-Warped Warwolf","ctype":"monster","keywords":"Beast-Warrior EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 4","t":"Beast-Warrior / Normal","atk":2000,"def":100},"rarity":"SR","img":"69247929","code":"1","tcg":25652,"grp":304,"idx":1},
+    {"id":"001-utr","section":"rarities","num":"001","printed":"STON-EN001","name":"Gene-Warped Warwolf","ctype":"monster","keywords":"Beast-Warrior EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 4","t":"Beast-Warrior / Normal","atk":2000,"def":100},"rarity":"UtR","img":"69247929","badge":"UtR","variant":"Ultimate Rare","code":"UTR1","tcg":58546,"grp":304,"idx":2},
+    {"id":"002","section":"main","num":"002","printed":"STON-EN002","name":"Frostosaurus","ctype":"monster","keywords":"Dinosaur WATER Normal Monster","stats":{"a":"WATER","l":"Level 6","t":"Dinosaur / Normal","atk":2600,"def":1700},"rarity":"R","img":"6631034","code":"2","tcg":25653,"grp":304,"idx":3},
+    {"id":"002-utr","section":"rarities","num":"002","printed":"STON-EN002","name":"Frostosaurus","ctype":"monster","keywords":"Dinosaur WATER Normal Monster","stats":{"a":"WATER","l":"Level 6","t":"Dinosaur / Normal","atk":2600,"def":1700},"rarity":"UtR","img":"6631034","badge":"UtR","variant":"Ultimate Rare","code":"UTR2","tcg":58547,"grp":304,"idx":4},
+    {"id":"003","section":"main","num":"003","printed":"STON-EN003","name":"Spiral Serpent","ctype":"monster","keywords":"Sea Serpent WATER Normal Monster","stats":{"a":"WATER","l":"Level 8","t":"Sea Serpent / Normal","atk":2900,"def":2900},"rarity":"R","img":"32626733","code":"3","tcg":25654,"grp":304,"idx":5},
+    {"id":"003-utr","section":"rarities","num":"003","printed":"STON-EN003","name":"Spiral Serpent","ctype":"monster","keywords":"Sea Serpent WATER Normal Monster","stats":{"a":"WATER","l":"Level 8","t":"Sea Serpent / Normal","atk":2900,"def":2900},"rarity":"UtR","img":"32626733","badge":"UtR","variant":"Ultimate Rare","code":"UTR3","tcg":58548,"grp":304,"idx":6},
+    {"id":"004","section":"main","num":"004","printed":"STON-EN004","name":"Neo-Spacian Air Hummingbird","ctype":"monster","keywords":"Neo-Spacian Winged Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 3","t":"Winged Beast / Effect","atk":800,"def":600},"rarity":"SR","img":"54959865","code":"4","tcg":25655,"grp":304,"idx":7},
+    {"id":"004-utr","section":"rarities","num":"004","printed":"STON-EN004","name":"Neo-Spacian Air Hummingbird","ctype":"monster","keywords":"Neo-Spacian Winged Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 3","t":"Winged Beast / Effect","atk":800,"def":600},"rarity":"UtR","img":"54959865","badge":"UtR","variant":"Ultimate Rare","code":"UTR4","tcg":58549,"grp":304,"idx":8},
+    {"id":"005","section":"main","num":"005","printed":"STON-EN005","name":"Neo-Spacian Grand Mole","ctype":"monster","keywords":"Neo-Spacian Rock EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Rock / Effect","atk":900,"def":300},"rarity":"R","img":"80344569","code":"5","tcg":25656,"grp":304,"idx":9},
+    {"id":"005-utr","section":"rarities","num":"005","printed":"STON-EN005","name":"Neo-Spacian Grand Mole","ctype":"monster","keywords":"Neo-Spacian Rock EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Rock / Effect","atk":900,"def":300},"rarity":"UtR","img":"80344569","badge":"UtR","variant":"Ultimate Rare","code":"UTR5","tcg":58550,"grp":304,"idx":10},
+    {"id":"006","section":"main","num":"006","printed":"STON-EN006","name":"Neo-Spacian Glow Moss","ctype":"monster","keywords":"Neo-Spacian Plant LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Plant / Effect","atk":300,"def":900},"rarity":"C","img":"17732278","code":"6","tcg":25657,"grp":304,"idx":11},
+    {"id":"007","section":"main","num":"007","printed":"STON-EN007","name":"The Six Samurai - Yaichi","ctype":"monster","keywords":"Six Samurai Warrior WATER Effect Monster","stats":{"a":"WATER","l":"Level 3","t":"Warrior / Effect","atk":1300,"def":800},"rarity":"C","img":"64398890","code":"7","tcg":25658,"grp":304,"idx":12},
+    {"id":"008","section":"main","num":"008","printed":"STON-EN008","name":"The Six Samurai - Kamon","ctype":"monster","keywords":"Six Samurai Warrior FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 3","t":"Warrior / Effect","atk":1500,"def":1000},"rarity":"C","img":"90397998","code":"8","tcg":25659,"grp":304,"idx":13},
+    {"id":"009","section":"main","num":"009","printed":"STON-EN009","name":"The Six Samurai - Yariza","ctype":"monster","keywords":"Six Samurai Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Warrior / Effect","atk":1000,"def":500},"rarity":"C","img":"69025477","code":"9","tcg":25660,"grp":304,"idx":14},
+    {"id":"010","section":"main","num":"010","printed":"STON-EN010","name":"The Six Samurai - Nisashi","ctype":"monster","keywords":"Six Samurai Warrior WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Warrior / Effect","atk":1400,"def":700},"rarity":"C","img":"31904181","code":"10","tcg":25661,"grp":304,"idx":15},
+    {"id":"011","section":"main","num":"011","printed":"STON-EN011","name":"The Six Samurai - Zanji","ctype":"monster","keywords":"Six Samurai Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Effect","atk":1800,"def":1300},"rarity":"C","img":"95519486","code":"11","tcg":25662,"grp":304,"idx":16},
+    {"id":"012","section":"main","num":"012","printed":"STON-EN012","name":"The Six Samurai - Irou","ctype":"monster","keywords":"Six Samurai Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Warrior / Effect","atk":1700,"def":1200},"rarity":"C","img":"27782503","code":"12","tcg":25663,"grp":304,"idx":17},
+    {"id":"013","section":"main","num":"013","printed":"STON-EN013","name":"Great Shogun Shien","ctype":"monster","keywords":"Six Samurai Warrior FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 7","t":"Warrior / Effect","atk":2500,"def":2400},"rarity":"SR","img":"63176202","code":"13","tcg":25664,"grp":304,"idx":18},
+    {"id":"013-utr","section":"rarities","num":"013","printed":"STON-EN013","name":"Great Shogun Shien","ctype":"monster","keywords":"Six Samurai Warrior FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 7","t":"Warrior / Effect","atk":2500,"def":2400},"rarity":"UtR","img":"63176202","badge":"UtR","variant":"Ultimate Rare","code":"UTR13","tcg":58551,"grp":304,"idx":19},
+    {"id":"014","section":"main","num":"014","printed":"STON-EN014","name":"Shien's Footsoldier","ctype":"monster","keywords":"Six Samurai Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 2","t":"Warrior / Effect","atk":700,"def":300},"rarity":"C","img":"99675356","code":"14","tcg":25665,"grp":304,"idx":20},
+    {"id":"015","section":"main","num":"015","printed":"STON-EN015","name":"Sage of Silence","ctype":"monster","keywords":"Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Effect","atk":1400,"def":1000},"rarity":"R","img":"26669055","code":"15","tcg":25666,"grp":304,"idx":21},
+    {"id":"015-utr","section":"rarities","num":"015","printed":"STON-EN015","name":"Sage of Silence","ctype":"monster","keywords":"Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Effect","atk":1400,"def":1000},"rarity":"UtR","img":"26669055","badge":"UtR","variant":"Ultimate Rare","code":"UTR15","tcg":58552,"grp":304,"idx":22},
+    {"id":"016","section":"main","num":"016","printed":"STON-EN016","name":"Sage of Stillness","ctype":"monster","keywords":"Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Effect","atk":1400,"def":1000},"rarity":"C","img":"62054060","code":"16","tcg":25667,"grp":304,"idx":23},
+    {"id":"017","section":"main","num":"017","printed":"STON-EN017","name":"Reign-Beaux, Overlord of Dark World","ctype":"monster","keywords":"Dark World Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Fiend / Effect","atk":2500,"def":1800},"rarity":"UR","img":"99458769","code":"17","tcg":25668,"grp":304,"idx":24},
+    {"id":"017-utr","section":"rarities","num":"017","printed":"STON-EN017","name":"Reign-Beaux, Overlord of Dark World","ctype":"monster","keywords":"Dark World Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Fiend / Effect","atk":2500,"def":1800},"rarity":"UtR","img":"99458769","badge":"UtR","variant":"Ultimate Rare","code":"UTR17","tcg":58553,"grp":304,"idx":25},
+    {"id":"018","section":"main","num":"018","printed":"STON-EN018","name":"Kahkki, Guerilla of Dark World","ctype":"monster","keywords":"Dark World Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 2","t":"Fiend / Effect","atk":300,"def":500},"rarity":"C","img":"25847467","code":"18","tcg":25669,"grp":304,"idx":26},
+    {"id":"019","section":"main","num":"019","printed":"STON-EN019","name":"Gren, Tactician of Dark World","ctype":"monster","keywords":"Dark World Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 2","t":"Fiend / Effect","atk":300,"def":500},"rarity":"C","img":"51232472","code":"19","tcg":25670,"grp":304,"idx":27},
+    {"id":"020","section":"main","num":"020","printed":"STON-EN020","name":"Fusion Devourer","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Effect","atk":1400,"def":1200},"rarity":"R","img":"98336111","code":"20","tcg":25671,"grp":304,"idx":28},
+    {"id":"020-utr","section":"rarities","num":"020","printed":"STON-EN020","name":"Fusion Devourer","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Effect","atk":1400,"def":1200},"rarity":"UtR","img":"98336111","badge":"UtR","variant":"Ultimate Rare","code":"UTR20","tcg":58554,"grp":304,"idx":29},
+    {"id":"021","section":"main","num":"021","printed":"STON-EN021","name":"Electric Virus","ctype":"monster","keywords":"Thunder LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Thunder / Effect","atk":1000,"def":1000},"rarity":"C","img":"24725825","code":"21","tcg":25672,"grp":304,"idx":30},
+    {"id":"022","section":"main","num":"022","printed":"STON-EN022","name":"Puppet Plant","ctype":"monster","keywords":"Plant EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Plant / Effect","atk":1000,"def":1000},"rarity":"C","img":"51119924","code":"22","tcg":25673,"grp":304,"idx":31},
+    {"id":"023","section":"main","num":"023","printed":"STON-EN023","name":"Marionette Mite","ctype":"monster","keywords":"Insect DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Insect / Effect","atk":1000,"def":1000},"rarity":"C","img":"87514539","code":"23","tcg":25674,"grp":304,"idx":32},
+    {"id":"024","section":"main","num":"024","printed":"STON-EN024","name":"D.D. Crow","ctype":"monster","keywords":"D.D. Winged Beast DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Winged Beast / Effect","atk":100,"def":100},"rarity":"R","img":"24508238","code":"24","tcg":25675,"grp":304,"idx":33},
+    {"id":"024-utr","section":"rarities","num":"024","printed":"STON-EN024","name":"D.D. Crow","ctype":"monster","keywords":"D.D. Winged Beast DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Winged Beast / Effect","atk":100,"def":100},"rarity":"UtR","img":"24508238","badge":"UtR","variant":"Ultimate Rare","code":"UTR24","tcg":58555,"grp":304,"idx":34},
+    {"id":"025","section":"main","num":"025","printed":"STON-EN025","name":"Silent Abyss","ctype":"monster","keywords":"Reptile WATER Effect Monster","stats":{"a":"WATER","l":"Level 7","t":"Reptile / Effect","atk":2000,"def":1500},"rarity":"C","img":"86442081","code":"25","tcg":25676,"grp":304,"idx":35},
+    {"id":"026","section":"main","num":"026","printed":"STON-EN026","name":"Firestorm Prominence","ctype":"monster","keywords":"Reptile FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 7","t":"Reptile / Effect","atk":2000,"def":1500},"rarity":"C","img":"13846680","code":"26","tcg":25677,"grp":304,"idx":36},
+    {"id":"027","section":"main","num":"027","printed":"STON-EN027","name":"Raging Earth","ctype":"monster","keywords":"Reptile EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 7","t":"Reptile / Effect","atk":2000,"def":1500},"rarity":"C","img":"50957346","code":"27","tcg":25678,"grp":304,"idx":37},
+    {"id":"028","section":"main","num":"028","printed":"STON-EN028","name":"Destruction Cyclone","ctype":"monster","keywords":"Reptile WIND Effect Monster","stats":{"a":"WIND","l":"Level 7","t":"Reptile / Effect","atk":2000,"def":1500},"rarity":"C","img":"59235795","code":"28","tcg":25679,"grp":304,"idx":38},
+    {"id":"029","section":"main","num":"029","printed":"STON-EN029","name":"Radiant Spirit","ctype":"monster","keywords":"Reptile LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 7","t":"Reptile / Effect","atk":2000,"def":1500},"rarity":"C","img":"12624008","code":"29","tcg":25680,"grp":304,"idx":39},
+    {"id":"030","section":"main","num":"030","printed":"STON-EN030","name":"Umbral Soul","ctype":"monster","keywords":"Reptile DARK Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Reptile / Effect","atk":2000,"def":1500},"rarity":"C","img":"86229493","code":"30","tcg":25681,"grp":304,"idx":40},
+    {"id":"031","section":"main","num":"031","printed":"STON-EN031","name":"Alien Psychic","ctype":"monster","keywords":"Alien Reptile DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Reptile / Effect","atk":200,"def":100},"rarity":"C","img":"58012107","code":"31","tcg":25682,"grp":304,"idx":41},
+    {"id":"032","section":"main","num":"032","printed":"STON-EN032","name":"Lycanthrope","ctype":"monster","keywords":"Beast-Warrior EARTH Ritual Effect Monster","stats":{"a":"EARTH","l":"Level 6","t":"Beast-Warrior / Ritual / Effect","atk":2400,"def":1800},"rarity":"C","img":"84385264","code":"32","tcg":25683,"grp":304,"idx":42},
+    {"id":"033","section":"main","num":"033","printed":"STON-EN033","name":"Cu Chulainn the Awakened","ctype":"monster","keywords":"Warrior LIGHT Ritual Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Ritual / Effect","atk":500,"def":1000},"rarity":"C","img":"10789972","code":"33","tcg":25684,"grp":304,"idx":43},
+    {"id":"034","section":"main","num":"034","printed":"STON-EN034","name":"Elemental HERO Air Neos","ctype":"monster","keywords":"Elemental HERO Warrior WIND Fusion Monster","stats":{"a":"WIND","l":"Level 7","t":"Warrior / Fusion","atk":2500,"def":2000},"rarity":"UR","img":"11502550","code":"34","tcg":25685,"grp":304,"idx":44},
+    {"id":"034-utr","section":"rarities","num":"034","printed":"STON-EN034","name":"Elemental HERO Air Neos","ctype":"monster","keywords":"Elemental HERO Warrior WIND Fusion Monster","stats":{"a":"WIND","l":"Level 7","t":"Warrior / Fusion","atk":2500,"def":2000},"rarity":"UtR","img":"11502550","badge":"UtR","variant":"Ultimate Rare","code":"UTR34","tcg":58556,"grp":304,"idx":45},
+    {"id":"035","section":"main","num":"035","printed":"STON-EN035","name":"Elemental HERO Grand Neos","ctype":"monster","keywords":"Elemental HERO Warrior EARTH Fusion Monster","stats":{"a":"EARTH","l":"Level 7","t":"Warrior / Fusion","atk":2500,"def":2000},"rarity":"UR","img":"48996569","code":"35","tcg":25686,"grp":304,"idx":46},
+    {"id":"035-utr","section":"rarities","num":"035","printed":"STON-EN035","name":"Elemental HERO Grand Neos","ctype":"monster","keywords":"Elemental HERO Warrior EARTH Fusion Monster","stats":{"a":"EARTH","l":"Level 7","t":"Warrior / Fusion","atk":2500,"def":2000},"rarity":"UtR","img":"48996569","badge":"UtR","variant":"Ultimate Rare","code":"UTR35","tcg":58557,"grp":304,"idx":47},
+    {"id":"036","section":"main","num":"036","printed":"STON-EN036","name":"Elemental HERO Glow Neos","ctype":"monster","keywords":"Elemental HERO Warrior LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 7","t":"Warrior / Fusion","atk":2500,"def":2000},"rarity":"UR","img":"85507811","code":"36","tcg":25687,"grp":304,"idx":48},
+    {"id":"036-utr","section":"rarities","num":"036","printed":"STON-EN036","name":"Elemental HERO Glow Neos","ctype":"monster","keywords":"Elemental HERO Warrior LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 7","t":"Warrior / Fusion","atk":2500,"def":2000},"rarity":"UtR","img":"85507811","badge":"UtR","variant":"Ultimate Rare","code":"UTR36","tcg":58558,"grp":304,"idx":49},
+    {"id":"037","section":"main","num":"037","printed":"STON-EN037","name":"Ancient Rules","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"R","img":"10667321","code":"37","tcg":25688,"grp":304,"idx":50},
+    {"id":"037-utr","section":"rarities","num":"037","printed":"STON-EN037","name":"Ancient Rules","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UtR","img":"10667321","badge":"UtR","variant":"Ultimate Rare","code":"UTR37","tcg":58559,"grp":304,"idx":51},
+    {"id":"038","section":"main","num":"038","printed":"STON-EN038","name":"Dark World Dealings","ctype":"spell","keywords":"Dark World Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"74117290","code":"38","tcg":25689,"grp":304,"idx":52},
+    {"id":"038-utr","section":"rarities","num":"038","printed":"STON-EN038","name":"Dark World Dealings","ctype":"spell","keywords":"Dark World Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UtR","img":"74117290","badge":"UtR","variant":"Ultimate Rare","code":"UTR38","tcg":58560,"grp":304,"idx":53},
+    {"id":"039","section":"main","num":"039","printed":"STON-EN039","name":"Neos Force","ctype":"spell","keywords":"Elemental HERO Equip Spell","stats":{"t":"Equip Spell"},"rarity":"R","img":"47274077","code":"39","tcg":25690,"grp":304,"idx":54},
+    {"id":"039-utr","section":"rarities","num":"039","printed":"STON-EN039","name":"Neos Force","ctype":"spell","keywords":"Elemental HERO Equip Spell","stats":{"t":"Equip Spell"},"rarity":"UtR","img":"47274077","badge":"UtR","variant":"Ultimate Rare","code":"UTR39","tcg":58561,"grp":304,"idx":55},
+    {"id":"040","section":"main","num":"040","printed":"STON-EN040","name":"Legendary Ebon Steed","ctype":"spell","keywords":"Six Samurai Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"12324546","code":"40","tcg":25691,"grp":304,"idx":56},
+    {"id":"041","section":"main","num":"041","printed":"STON-EN041","name":"\"A\" Cell Scatter Burst","ctype":"spell","keywords":"Alien Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"73262676","code":"41","tcg":25692,"grp":304,"idx":57},
+    {"id":"042","section":"main","num":"042","printed":"STON-EN042","name":"Twister","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"R","img":"45939841","code":"42","tcg":25693,"grp":304,"idx":58},
+    {"id":"042-utr","section":"rarities","num":"042","printed":"STON-EN042","name":"Twister","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"UtR","img":"45939841","badge":"UtR","variant":"Ultimate Rare","code":"UTR42","tcg":58562,"grp":304,"idx":59},
+    {"id":"043","section":"main","num":"043","printed":"STON-EN043","name":"Synthesis Spell","ctype":"spell","keywords":"Ritual Spell","stats":{"t":"Ritual Spell"},"rarity":"C","img":"72446038","code":"43","tcg":25694,"grp":304,"idx":60},
+    {"id":"044","section":"main","num":"044","printed":"STON-EN044","name":"Emblem of the Awakening","ctype":"spell","keywords":"Ritual Spell","stats":{"t":"Ritual Spell"},"rarity":"C","img":"9845733","code":"44","tcg":25695,"grp":304,"idx":61},
+    {"id":"045","section":"main","num":"045","printed":"STON-EN045","name":"Advanced Ritual Art","ctype":"spell","keywords":"Ritual Spell","stats":{"t":"Ritual Spell"},"rarity":"C","img":"46052429","code":"45","tcg":25696,"grp":304,"idx":62},
+    {"id":"046","section":"main","num":"046","printed":"STON-EN046","name":"Card Trader","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"SR","img":"48712195","code":"46","tcg":25697,"grp":304,"idx":63},
+    {"id":"046-utr","section":"rarities","num":"046","printed":"STON-EN046","name":"Card Trader","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"UtR","img":"48712195","badge":"UtR","variant":"Ultimate Rare","code":"UTR46","tcg":58563,"grp":304,"idx":64},
+    {"id":"047","section":"main","num":"047","printed":"STON-EN047","name":"Shien's Castle of Mist","ctype":"spell","keywords":"Six Samurai Field Spell","stats":{"t":"Field Spell"},"rarity":"C","img":"11102908","code":"47","tcg":25698,"grp":304,"idx":65},
+    {"id":"048","section":"main","num":"048","printed":"STON-EN048","name":"Skyscraper 2 - Hero City","ctype":"spell","keywords":"Elemental HERO Field Spell","stats":{"t":"Field Spell"},"rarity":"SR","img":"47596607","code":"48","tcg":25699,"grp":304,"idx":66},
+    {"id":"048-utr","section":"rarities","num":"048","printed":"STON-EN048","name":"Skyscraper 2 - Hero City","ctype":"spell","keywords":"Elemental HERO Field Spell","stats":{"t":"Field Spell"},"rarity":"UtR","img":"47596607","badge":"UtR","variant":"Ultimate Rare","code":"UTR48","tcg":58564,"grp":304,"idx":67},
+    {"id":"049","section":"main","num":"049","printed":"STON-EN049","name":"Change of Hero - Reflector Ray","ctype":"trap","keywords":"Elemental HERO Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"74095602","code":"49","tcg":25700,"grp":304,"idx":68},
+    {"id":"050","section":"main","num":"050","printed":"STON-EN050","name":"Hero Medal","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"R","img":"10489311","code":"50","tcg":25701,"grp":304,"idx":69},
+    {"id":"050-utr","section":"rarities","num":"050","printed":"STON-EN050","name":"Hero Medal","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"UtR","img":"10489311","badge":"UtR","variant":"Ultimate Rare","code":"UTR50","tcg":58565,"grp":304,"idx":70},
+    {"id":"051","section":"main","num":"051","printed":"STON-EN051","name":"Return of the Six Samurai","ctype":"trap","keywords":"Six Samurai Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"46874015","code":"51","tcg":25702,"grp":304,"idx":71},
+    {"id":"052","section":"main","num":"052","printed":"STON-EN052","name":"Eliminating the League","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"R","img":"73872164","code":"52","tcg":25703,"grp":304,"idx":72},
+    {"id":"052-utr","section":"rarities","num":"052","printed":"STON-EN052","name":"Eliminating the League","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"UtR","img":"73872164","badge":"UtR","variant":"Ultimate Rare","code":"UTR52","tcg":58566,"grp":304,"idx":73},
+    {"id":"053","section":"main","num":"053","printed":"STON-EN053","name":"Flashbang","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"9267769","code":"53","tcg":25704,"grp":304,"idx":74},
+    {"id":"054","section":"main","num":"054","printed":"STON-EN054","name":"The Transmigration Prophecy","ctype":"trap","keywords":"Spellbook Normal Trap","stats":{"t":"Normal Trap"},"rarity":"R","img":"46652477","code":"54","tcg":25705,"grp":304,"idx":75},
+    {"id":"054-utr","section":"rarities","num":"054","printed":"STON-EN054","name":"The Transmigration Prophecy","ctype":"trap","keywords":"Spellbook Normal Trap","stats":{"t":"Normal Trap"},"rarity":"UtR","img":"46652477","badge":"UtR","variant":"Ultimate Rare","code":"UTR54","tcg":58567,"grp":304,"idx":76},
+    {"id":"055","section":"main","num":"055","printed":"STON-EN055","name":"Anti-Fusion Device","ctype":"trap","keywords":"Anti Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"72150572","code":"55","tcg":25706,"grp":304,"idx":77},
+    {"id":"056","section":"main","num":"056","printed":"STON-EN056","name":"Ritual Sealing","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"9145181","code":"56","tcg":25707,"grp":304,"idx":78},
+    {"id":"057","section":"main","num":"057","printed":"STON-EN057","name":"Birthright","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"SR","img":"35539880","code":"57","tcg":25708,"grp":304,"idx":79},
+    {"id":"057-utr","section":"rarities","num":"057","printed":"STON-EN057","name":"Birthright","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"UtR","img":"35539880","badge":"UtR","variant":"Ultimate Rare","code":"UTR57","tcg":58568,"grp":304,"idx":80},
+    {"id":"058","section":"main","num":"058","printed":"STON-EN058","name":"Swift Samurai Storm!","ctype":"trap","keywords":"Six Samurai Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"71934924","code":"58","tcg":25709,"grp":304,"idx":81},
+    {"id":"059","section":"main","num":"059","printed":"STON-EN059","name":"Cloak and Dagger","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"R","img":"8323633","code":"59","tcg":25710,"grp":304,"idx":82},
+    {"id":"059-utr","section":"rarities","num":"059","printed":"STON-EN059","name":"Cloak and Dagger","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"UtR","img":"8323633","badge":"UtR","variant":"Ultimate Rare","code":"UTR59","tcg":58569,"grp":304,"idx":83},
+    {"id":"060","section":"main","num":"060","printed":"STON-EN060","name":"Pulling the Rug","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"R","img":"34717238","code":"60","tcg":25711,"grp":304,"idx":84},
+    {"id":"060-utr","section":"rarities","num":"060","printed":"STON-EN060","name":"Pulling the Rug","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"UtR","img":"34717238","badge":"UtR","variant":"Ultimate Rare","code":"UTR60","tcg":58570,"grp":304,"idx":85},
+    {"id":"061","section":"main","num":"061","printed":"STON-EN061","name":"Neo-Parshath, the Sky Paladin","ctype":"monster","keywords":"Parshath Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 7","t":"Fairy / Effect","atk":2300,"def":2000},"rarity":"ScR","img":"12510878","code":"61","tcg":25715,"grp":304,"idx":86},
+    {"id":"062","section":"main","num":"062","printed":"STON-EN062","name":"Meltiel, Sage of the Sky","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fairy / Effect","atk":1600,"def":1200},"rarity":"ScR","img":"49905576","code":"62","tcg":25716,"grp":304,"idx":87},
+    {"id":"063","section":"main","num":"063","printed":"STON-EN063","name":"Harvest Angel of Wisdom","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fairy / Effect","atk":1800,"def":1000},"rarity":"ScR","img":"85399281","code":"63","tcg":25717,"grp":304,"idx":88},
+    {"id":"064","section":"main","num":"064","printed":"STON-EN064","name":"Freya, Spirit of Victory","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Fairy / Effect","atk":100,"def":100},"rarity":"ScR","img":"12398280","code":"64","tcg":25718,"grp":304,"idx":89},
+    {"id":"065","section":"main","num":"065","printed":"STON-EN065","name":"Nova Summoner","ctype":"monster","keywords":"Parshath Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fairy / Effect","atk":1400,"def":800},"rarity":"ScR","img":"48783998","code":"65","tcg":25719,"grp":304,"idx":90},
+    {"id":"066","section":"main","num":"066","printed":"STON-EN066","name":"Radiant Jeral","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fairy / Effect","atk":1000,"def":2000},"rarity":"ScR","img":"84177693","code":"66","tcg":127140,"grp":304,"idx":91},
+    {"id":"067","section":"main","num":"067","printed":"STON-EN067","name":"Gellenduo","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fairy / Effect","atk":1700,"def":0},"rarity":"ScR","img":"11662742","code":"67","tcg":25720,"grp":304,"idx":92},
+    {"id":"068","section":"main","num":"068","printed":"STON-EN068","name":"Aegis of Gaia","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"ScR","img":"47060347","code":"68","tcg":25721,"grp":304,"idx":93}
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "id": "yugioh/limited-pack-world-championship-2025",
+  "game": "yugioh",
+  "slug": "limited-pack-world-championship-2025",
+  "name": "Limited Pack World Championship 2025",
+  "series": "SEVENS & GO RUSH!!",
+  "kind": "pack",
+  "code": "25LP",
+  "syncKey": "Y25LP",
+  "released": "2025-08-30",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "25LP-EN000–25LP-EN020",
+      "tier": "standard"
+    },
+    {
+      "id": "rarities",
+      "name": "Other Rarities",
+      "short": "Other Rarities",
+      "range": "20 cards",
+      "tier": "master"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Main set"
+    ],
+    [
+      "rarities",
+      "Other rarities"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, SCR12, 60x2",
+    "example": "1-20, 45x2, SCR12",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies. Other rarities use their short name and number: <b>SCR12</b> is card 12’s Secret Rare, and ranges work too (<b>QCSR1-QCSR20</b>).",
+    "empty": "Cards run from 25LP-EN000 to 25LP-EN020."
+  },
+  "help": {
+    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 21 cards, each in its main rarity. Master adds the 20 other rarities. Cards you’ve marked are kept when you switch."
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Limited Pack World Championship 2025 Checklist · All 21 Cards",
+    "description": "Free Yu-Gi-Oh! Limited Pack World Championship 2025 checklist with no ads, no sign-up and no tracking. Track all 21 cards, or every rarity for a master set, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Limited Pack World Championship 2025 Checklist",
+    "ogDescription": "Track all 21 cards in Yu-Gi-Oh! Limited Pack World Championship 2025, plus 20 other rarities. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 21 cards in Yu-Gi-Oh! Limited Pack World Championship 2025. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Limited Pack World Championship 2025",
+    "paragraphs": [
+      "Limited Pack World Championship 2025 is a Yu-Gi-Oh! TCG pack released on 30 August 2025, in the SEVENS &amp; GO RUSH!! era. It has 21 cards, and with the 20 other rarities there are 41 to collect in all.",
+      "Choose what you’re collecting: the <b>Standard set</b> (the 21 cards, each in its main rarity) or the <b>Master set</b> (all 41, adding the 20 other rarities).",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Limited Pack World Championship 2025"
+    ],
+    "tcgplayer": [
+      24353
+    ]
+  },
+  "cards": [
+    {"id":"000","section":"main","num":"000","printed":"25LP-EN000","name":"Exodia the Forbidden One","ctype":"monster","keywords":"Exodia Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Spellcaster / Effect","atk":1000,"def":1000},"rarity":"C","img":"33396948","code":"0","idx":0},
+    {"id":"001","section":"main","num":"001","printed":"25LP-EN001","name":"Diabellstar the Black Witch","ctype":"monster","keywords":"Diabellstar Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Spellcaster / Effect","atk":2500,"def":2000},"rarity":"UR","img":"72270339","code":"1","tcg":650891,"grp":24353,"idx":1},
+    {"id":"001-scr","section":"rarities","num":"001","printed":"25LP-EN001","name":"Diabellstar the Black Witch","ctype":"monster","keywords":"Diabellstar Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Spellcaster / Effect","atk":2500,"def":2000},"rarity":"ScR","img":"72270339","badge":"ScR","variant":"Secret Rare","code":"SCR1","tcg":650892,"grp":24353,"idx":2},
+    {"id":"002","section":"main","num":"002","printed":"25LP-EN002","name":"Snake-Eyes Poplar","ctype":"monster","keywords":"Snake-Eye Pyro FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 1","t":"Pyro / Effect","atk":700,"def":200},"rarity":"UR","img":"90241276","code":"2","tcg":650893,"grp":24353,"idx":3},
+    {"id":"002-scr","section":"rarities","num":"002","printed":"25LP-EN002","name":"Snake-Eyes Poplar","ctype":"monster","keywords":"Snake-Eye Pyro FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 1","t":"Pyro / Effect","atk":700,"def":200},"rarity":"ScR","img":"90241276","badge":"ScR","variant":"Secret Rare","code":"SCR2","tcg":650894,"grp":24353,"idx":4},
+    {"id":"003","section":"main","num":"003","printed":"25LP-EN003","name":"Garunix Eternity, Hyang of the Fire Kings","ctype":"monster","keywords":"Fire King Pyro FIRE Xyz Monster","stats":{"a":"FIRE","l":"Rank 8","t":"Pyro / Xyz","atk":3000,"def":2000},"rarity":"UR","img":"64182380","code":"3","tcg":650895,"grp":24353,"idx":5},
+    {"id":"003-scr","section":"rarities","num":"003","printed":"25LP-EN003","name":"Garunix Eternity, Hyang of the Fire Kings","ctype":"monster","keywords":"Fire King Pyro FIRE Xyz Monster","stats":{"a":"FIRE","l":"Rank 8","t":"Pyro / Xyz","atk":3000,"def":2000},"rarity":"ScR","img":"64182380","badge":"ScR","variant":"Secret Rare","code":"SCR3","tcg":650896,"grp":24353,"idx":6},
+    {"id":"004","section":"main","num":"004","printed":"25LP-EN004","name":"Legendary Fire King Ponix","ctype":"monster","keywords":"Fire King Winged Beast FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 1","t":"Winged Beast / Effect","atk":500,"def":200},"rarity":"UR","img":"90681088","code":"4","tcg":650897,"grp":24353,"idx":7},
+    {"id":"004-scr","section":"rarities","num":"004","printed":"25LP-EN004","name":"Legendary Fire King Ponix","ctype":"monster","keywords":"Fire King Winged Beast FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 1","t":"Winged Beast / Effect","atk":500,"def":200},"rarity":"ScR","img":"90681088","badge":"ScR","variant":"Secret Rare","code":"SCR4","tcg":650898,"grp":24353,"idx":8},
+    {"id":"005","section":"main","num":"005","printed":"25LP-EN005","name":"Nightmare Pain","ctype":"spell","keywords":"Signature move Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"UR","img":"65261141","code":"5","tcg":650899,"grp":24353,"idx":9},
+    {"id":"005-scr","section":"rarities","num":"005","printed":"25LP-EN005","name":"Nightmare Pain","ctype":"spell","keywords":"Signature move Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"ScR","img":"65261141","badge":"ScR","variant":"Secret Rare","code":"SCR5","tcg":650900,"grp":24353,"idx":10},
+    {"id":"006","section":"main","num":"006","printed":"25LP-EN006","name":"Bacha the Melodious Maestra","ctype":"monster","keywords":"Melodious Fairy LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 7","t":"Fairy / Fusion","atk":2500,"def":1800},"rarity":"UR","img":"56208713","code":"6","tcg":650901,"grp":24353,"idx":11},
+    {"id":"006-scr","section":"rarities","num":"006","printed":"25LP-EN006","name":"Bacha the Melodious Maestra","ctype":"monster","keywords":"Melodious Fairy LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 7","t":"Fairy / Fusion","atk":2500,"def":1800},"rarity":"ScR","img":"56208713","badge":"ScR","variant":"Secret Rare","code":"SCR6","tcg":650902,"grp":24353,"idx":12},
+    {"id":"007","section":"main","num":"007","printed":"25LP-EN007","name":"Sangenpai Transcendent Dragion","ctype":"monster","keywords":"Sangen Dragon FIRE Synchro Monster","stats":{"a":"FIRE","l":"Level 10","t":"Dragon / Synchro","atk":3000,"def":3000},"rarity":"UR","img":"18969888","code":"7","tcg":650903,"grp":24353,"idx":13},
+    {"id":"007-scr","section":"rarities","num":"007","printed":"25LP-EN007","name":"Sangenpai Transcendent Dragion","ctype":"monster","keywords":"Sangen Dragon FIRE Synchro Monster","stats":{"a":"FIRE","l":"Level 10","t":"Dragon / Synchro","atk":3000,"def":3000},"rarity":"ScR","img":"18969888","badge":"ScR","variant":"Secret Rare","code":"SCR7","tcg":650904,"grp":24353,"idx":14},
+    {"id":"008","section":"main","num":"008","printed":"25LP-EN008","name":"Sangen Kaimen","ctype":"spell","keywords":"Sangen Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"UR","img":"66730191","code":"8","tcg":650905,"grp":24353,"idx":15},
+    {"id":"008-scr","section":"rarities","num":"008","printed":"25LP-EN008","name":"Sangen Kaimen","ctype":"spell","keywords":"Sangen Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"ScR","img":"66730191","badge":"ScR","variant":"Secret Rare","code":"SCR8","tcg":650906,"grp":24353,"idx":16},
+    {"id":"009","section":"main","num":"009","printed":"25LP-EN009","name":"Mementomictlan Tecuhtlica - Creation King","ctype":"monster","keywords":"Memento Illusion EARTH Fusion Monster","stats":{"a":"EARTH","l":"Level 9","t":"Illusion / Fusion","atk":3000,"def":2000},"rarity":"UR","img":"14529511","code":"9","tcg":650907,"grp":24353,"idx":17},
+    {"id":"009-scr","section":"rarities","num":"009","printed":"25LP-EN009","name":"Mementomictlan Tecuhtlica - Creation King","ctype":"monster","keywords":"Memento Illusion EARTH Fusion Monster","stats":{"a":"EARTH","l":"Level 9","t":"Illusion / Fusion","atk":3000,"def":2000},"rarity":"ScR","img":"14529511","badge":"ScR","variant":"Secret Rare","code":"SCR9","tcg":650908,"grp":24353,"idx":18},
+    {"id":"010","section":"main","num":"010","printed":"25LP-EN010","name":"Azamina Ilia Silvia","ctype":"monster","keywords":"Azamina Illusion DARK Fusion Monster","stats":{"a":"DARK","l":"Level 6","t":"Illusion / Fusion","atk":1900,"def":1500},"rarity":"UR","img":"46396218","code":"10","tcg":650909,"grp":24353,"idx":19},
+    {"id":"010-scr","section":"rarities","num":"010","printed":"25LP-EN010","name":"Azamina Ilia Silvia","ctype":"monster","keywords":"Azamina Illusion DARK Fusion Monster","stats":{"a":"DARK","l":"Level 6","t":"Illusion / Fusion","atk":1900,"def":1500},"rarity":"ScR","img":"46396218","badge":"ScR","variant":"Secret Rare","code":"SCR10","tcg":650910,"grp":24353,"idx":20},
+    {"id":"011","section":"main","num":"011","printed":"25LP-EN011","name":"Azamina Mu Rcielago","ctype":"monster","keywords":"Azamina Illusion DARK Fusion Monster","stats":{"a":"DARK","l":"Level 6","t":"Illusion / Fusion","atk":2000,"def":2400},"rarity":"UR","img":"73391962","code":"11","tcg":650911,"grp":24353,"idx":21},
+    {"id":"011-scr","section":"rarities","num":"011","printed":"25LP-EN011","name":"Azamina Mu Rcielago","ctype":"monster","keywords":"Azamina Illusion DARK Fusion Monster","stats":{"a":"DARK","l":"Level 6","t":"Illusion / Fusion","atk":2000,"def":2400},"rarity":"ScR","img":"73391962","badge":"ScR","variant":"Secret Rare","code":"SCR11","tcg":650912,"grp":24353,"idx":22},
+    {"id":"012","section":"main","num":"012","printed":"25LP-EN012","name":"Poseidra Abyss, the Atlantean Dragon Lord","ctype":"monster","keywords":"Abyss- Sea Serpent WATER Xyz Monster","stats":{"a":"WATER","l":"Rank 7","t":"Sea Serpent / Xyz","atk":3000,"def":1800},"rarity":"UR","img":"60517697","code":"12","tcg":650913,"grp":24353,"idx":23},
+    {"id":"012-scr","section":"rarities","num":"012","printed":"25LP-EN012","name":"Poseidra Abyss, the Atlantean Dragon Lord","ctype":"monster","keywords":"Abyss- Sea Serpent WATER Xyz Monster","stats":{"a":"WATER","l":"Rank 7","t":"Sea Serpent / Xyz","atk":3000,"def":1800},"rarity":"ScR","img":"60517697","badge":"ScR","variant":"Secret Rare","code":"SCR12","tcg":650914,"grp":24353,"idx":24},
+    {"id":"013","section":"main","num":"013","printed":"25LP-EN013","name":"Mermail King - Neptabyss","ctype":"monster","keywords":"Abyss- Sea Serpent WATER Link Monster","stats":{"a":"WATER","l":"Link 3","t":"Sea Serpent / Link","atk":2300},"rarity":"UR","img":"69385019","code":"13","tcg":650915,"grp":24353,"idx":25},
+    {"id":"013-scr","section":"rarities","num":"013","printed":"25LP-EN013","name":"Mermail King - Neptabyss","ctype":"monster","keywords":"Abyss- Sea Serpent WATER Link Monster","stats":{"a":"WATER","l":"Link 3","t":"Sea Serpent / Link","atk":2300},"rarity":"ScR","img":"69385019","badge":"ScR","variant":"Secret Rare","code":"SCR13","tcg":650916,"grp":24353,"idx":26},
+    {"id":"014","section":"main","num":"014","printed":"25LP-EN014","name":"Ryzeal Detonator","ctype":"monster","keywords":"Ryzeal Pyro LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 4","t":"Pyro / Xyz","atk":3000,"def":2500},"rarity":"UR","img":"34909328","code":"14","tcg":650917,"grp":24353,"idx":27},
+    {"id":"014-scr","section":"rarities","num":"014","printed":"25LP-EN014","name":"Ryzeal Detonator","ctype":"monster","keywords":"Ryzeal Pyro LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 4","t":"Pyro / Xyz","atk":3000,"def":2500},"rarity":"ScR","img":"34909328","badge":"ScR","variant":"Secret Rare","code":"SCR14","tcg":650918,"grp":24353,"idx":28},
+    {"id":"015","section":"main","num":"015","printed":"25LP-EN015","name":"Ryzeal Cross","ctype":"spell","keywords":"Ryzeal Field Spell","stats":{"t":"Field Spell"},"rarity":"UR","img":"6798031","code":"15","tcg":650919,"grp":24353,"idx":29},
+    {"id":"015-scr","section":"rarities","num":"015","printed":"25LP-EN015","name":"Ryzeal Cross","ctype":"spell","keywords":"Ryzeal Field Spell","stats":{"t":"Field Spell"},"rarity":"ScR","img":"6798031","badge":"ScR","variant":"Secret Rare","code":"SCR15","tcg":650920,"grp":24353,"idx":30},
+    {"id":"016","section":"main","num":"016","printed":"25LP-EN016","name":"Maliss <Q> Hearts Crypter","ctype":"monster","keywords":"Maliss Cyberse DARK Link Monster","stats":{"a":"DARK","l":"Link 3","t":"Cyberse / Link","atk":2500},"rarity":"UR","img":"21848500","code":"16","tcg":650921,"grp":24353,"idx":31},
+    {"id":"016-scr","section":"rarities","num":"016","printed":"25LP-EN016","name":"Maliss <Q> Hearts Crypter","ctype":"monster","keywords":"Maliss Cyberse DARK Link Monster","stats":{"a":"DARK","l":"Link 3","t":"Cyberse / Link","atk":2500},"rarity":"ScR","img":"21848500","badge":"ScR","variant":"Secret Rare","code":"SCR16","tcg":650922,"grp":24353,"idx":32},
+    {"id":"017","section":"main","num":"017","printed":"25LP-EN017","name":"Maliss <C> GWC-06","ctype":"trap","keywords":"Maliss Normal Trap","stats":{"t":"Normal Trap"},"rarity":"UR","img":"20726052","code":"17","tcg":650923,"grp":24353,"idx":33},
+    {"id":"017-scr","section":"rarities","num":"017","printed":"25LP-EN017","name":"Maliss <C> GWC-06","ctype":"trap","keywords":"Maliss Normal Trap","stats":{"t":"Normal Trap"},"rarity":"ScR","img":"20726052","badge":"ScR","variant":"Secret Rare","code":"SCR17","tcg":650924,"grp":24353,"idx":34},
+    {"id":"018","section":"main","num":"018","printed":"25LP-EN018","name":"Maiden of White","ctype":"monster","keywords":"Spellcaster LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Spellcaster / Tuner","atk":0,"def":0},"rarity":"UR","img":"17947697","code":"18","tcg":650925,"grp":24353,"idx":35},
+    {"id":"018-scr","section":"rarities","num":"018","printed":"25LP-EN018","name":"Maiden of White","ctype":"monster","keywords":"Spellcaster LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Spellcaster / Tuner","atk":0,"def":0},"rarity":"ScR","img":"17947697","badge":"ScR","variant":"Secret Rare","code":"SCR18","tcg":650926,"grp":24353,"idx":36},
+    {"id":"019","section":"main","num":"019","printed":"25LP-EN019","name":"Blue-Eyes Tyrant Dragon","ctype":"monster","keywords":"Blue-Eyes Dragon LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Fusion","atk":3400,"def":2900},"rarity":"UR","img":"11443677","code":"19","tcg":650927,"grp":24353,"idx":37},
+    {"id":"019-scr","section":"rarities","num":"019","printed":"25LP-EN019","name":"Blue-Eyes Tyrant Dragon","ctype":"monster","keywords":"Blue-Eyes Dragon LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Fusion","atk":3400,"def":2900},"rarity":"ScR","img":"11443677","badge":"ScR","variant":"Secret Rare","code":"SCR19","tcg":650928,"grp":24353,"idx":38},
+    {"id":"020","section":"main","num":"020","printed":"25LP-EN020","name":"Blue-Eyes Ultimate Spirit Dragon","ctype":"monster","keywords":"Blue-Eyes Dragon LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 12","t":"Dragon / Synchro","atk":3500,"def":4000},"rarity":"UR","img":"89604813","code":"20","tcg":650929,"grp":24353,"idx":39},
+    {"id":"020-scr","section":"rarities","num":"020","printed":"25LP-EN020","name":"Blue-Eyes Ultimate Spirit Dragon","ctype":"monster","keywords":"Blue-Eyes Dragon LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 12","t":"Dragon / Synchro","atk":3500,"def":4000},"rarity":"ScR","img":"89604813","badge":"ScR","variant":"Secret Rare","code":"SCR20","tcg":650930,"grp":24353,"idx":40}
+  ]
+}

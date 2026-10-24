@@ -43,8 +43,11 @@ function price(card) {
   const converted = isConverted();
   let figure;
   if (entry?.usd != null) {
+    const editions = entry.ed ? (COLLECTION.game.EDITIONS || []).filter((e) => entry.ed[e.id] != null) : [];
+    const money = (usd) => (converted ? formatPrice(usd, { approx: true }) : formatUsd(usd));
     figure = `<p class="info__price">${converted ? `${formatPrice(entry.usd, { approx: true })}<small>${formatUsd(entry.usd)}</small>` : formatUsd(entry.usd)}</p>`
-      + `<p class="hint hint--small">TCGplayer market price, ${pricesUpdated}.${converted ? ` The ${SYMBOLS[priceCurrency()]} figure is converted, so it’s approximate.` : ''}</p>`;
+      + (editions.length ? `<p class="info__editions">${editions.map((e) => `${escapeHTML(e.name)} <b>${money(entry.ed[e.id])}</b>`).join(' · ')}</p>` : '')
+      + `<p class="hint hint--small">${editions.length ? 'Lowest TCGplayer market price of its editions' : 'TCGplayer market price'}, ${pricesUpdated}.${converted ? ` The ${SYMBOLS[priceCurrency()]} figure is converted, so it’s approximate.` : ''}</p>`;
   } else if (entry?.from != null) {
     figure = '<p class="info__price">No sales yet</p>'
       + `<p class="hint hint--small">Listed on TCGplayer from ${converted ? `${formatPrice(entry.from, { approx: true })} (${formatUsd(entry.from)})` : formatUsd(entry.from)}, ${pricesUpdated}.</p>`;
@@ -69,10 +72,12 @@ function render(card) {
   const q = getQty(card.id);
   const thumb = COLLECTION.hasImage(card) ? `<img src="${COLLECTION.imageUrl(card, 'sm')}" alt="" width="330" height="460">` : '';
   const where = whereToGet(card);
+  const stats = COLLECTION.game.statsText?.(card);
   return `<div class="info__card">`
     + `<span class="info__thumb" style="--ph:${COLLECTION.imageColor(card)}">${thumb}</span>`
     + '<div class="info__facts">'
     + `<p class="info__meta"><span>${escapeHTML(card.numberText)}</span><span class="info__rarity">${rarityIcon(card)}${escapeHTML(card.rarityName)}</span></p>`
+    + (stats ? `<p class="info__stats">${escapeHTML(stats)}</p>` : '')
     + `<p>${escapeHTML(section.name)}${tierText(card)}</p>`
     + `<p class="info__owned${q ? ' is-owned' : ''}">${q ? `In your collection${q > 1 ? ` · ${q} copies` : ''}` : 'Not in your collection yet'}</p>`
     + '</div></div>'

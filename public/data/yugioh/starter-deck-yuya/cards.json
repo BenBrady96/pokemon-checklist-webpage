@@ -1,0 +1,103 @@
+{
+  "id": "yugioh/starter-deck-yuya",
+  "game": "yugioh",
+  "slug": "starter-deck-yuya",
+  "name": "Starter Deck: Yuya",
+  "series": "ARC-V",
+  "kind": "deck",
+  "code": "YS16",
+  "syncKey": "YYS16",
+  "released": "2016-05-26",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "YS16-EN001–YS16-ENT03",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from YS16-EN001 to YS16-ENT03."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Starter Deck: Yuya Checklist · All 43 Cards",
+    "description": "Free Yu-Gi-Oh! Starter Deck: Yuya checklist with no ads, no sign-up and no tracking. Track all 43 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Starter Deck: Yuya Checklist",
+    "ogDescription": "Track all 43 cards in Yu-Gi-Oh! Starter Deck: Yuya. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 43 cards in Yu-Gi-Oh! Starter Deck: Yuya. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Starter Deck: Yuya",
+    "paragraphs": [
+      "Starter Deck: Yuya is a Yu-Gi-Oh! TCG deck released on 26 May 2016, in the ARC-V era. It has 43 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Starter Deck: Yuya"
+    ],
+    "tcgplayer": [
+      1795
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"YS16-EN001","name":"Performapal Sleight Hand Magician","ctype":"monster","keywords":"Performapal Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 7","t":"Spellcaster / Effect","atk":2500,"def":2000},"rarity":"UR","img":"20403123","code":"1","tcg":118514,"grp":1795,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"YS16-EN002","name":"Performapal King Bear","ctype":"monster","keywords":"Performapal Beast-Warrior EARTH Pendulum Effect Monster","stats":{"a":"EARTH","l":"Level 6","t":"Beast-Warrior / Pendulum / Effect","atk":2200,"def":1000},"rarity":"UR","img":"67808837","code":"2","tcg":118512,"grp":1795,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"YS16-EN003","name":"Performapal Swincobra","ctype":"monster","keywords":"Performapal Reptile EARTH Pendulum Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Reptile / Pendulum / Effect","atk":300,"def":1800},"rarity":"C","img":"93892436","code":"3","tcg":118511,"grp":1795,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"YS16-EN004","name":"Performapal Momoncarpet","ctype":"monster","keywords":"Performapal Beast EARTH Pendulum Flip Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Beast / Pendulum / Flip / Effect","atk":1000,"def":100},"rarity":"SR","img":"20281581","code":"4","tcg":118510,"grp":1795,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"YS16-EN005","name":"Performapal Parrotrio","ctype":"monster","keywords":"Performapal Winged Beast WIND Pendulum Effect Monster","stats":{"a":"WIND","l":"Level 3","t":"Winged Beast / Pendulum / Effect","atk":500,"def":500},"rarity":"SR","img":"56675280","code":"5","tcg":118508,"grp":1795,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"YS16-EN006","name":"Performapal Longphone Bull","ctype":"monster","keywords":"Performapal Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Beast / Effect","atk":1600,"def":1200},"rarity":"SR","img":"92170894","code":"6","tcg":118507,"grp":1795,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"YS16-EN007","name":"Performapal Teeter Totter Hopper","ctype":"monster","keywords":"Performapal Insect EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Insect / Effect","atk":100,"def":1200},"rarity":"C","img":"29169993","code":"7","tcg":118506,"grp":1795,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"YS16-EN008","name":"Odd-Eyes Pendulum Dragon","ctype":"monster","keywords":"-Eyes Dragon Dragon DARK Pendulum Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Dragon / Pendulum / Effect","atk":2500,"def":2000},"rarity":"C","img":"16178681","code":"8","tcg":118504,"grp":1795,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"YS16-EN009","name":"Stargazer Magician","ctype":"monster","keywords":"Magician Spellcaster DARK Pendulum Effect Monster","stats":{"a":"DARK","l":"Level 5","t":"Spellcaster / Pendulum / Effect","atk":1200,"def":2400},"rarity":"C","img":"94415058","code":"9","tcg":118503,"grp":1795,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"YS16-EN010","name":"Timegazer Magician","ctype":"monster","keywords":"Magician Spellcaster DARK Pendulum Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Spellcaster / Pendulum / Effect","atk":1200,"def":600},"rarity":"C","img":"20409757","code":"10","tcg":118502,"grp":1795,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"YS16-EN011","name":"Performapal Drummerilla","ctype":"monster","keywords":"Performapal Beast EARTH Pendulum Effect Monster","stats":{"a":"EARTH","l":"Level 5","t":"Beast / Pendulum / Effect","atk":1600,"def":900},"rarity":"C","img":"70479321","code":"11","tcg":118501,"grp":1795,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"YS16-EN012","name":"Performapal Secondonkey","ctype":"monster","keywords":"Performapal Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Beast / Effect","atk":1000,"def":2000},"rarity":"C","img":"15978426","code":"12","tcg":118500,"grp":1795,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"YS16-EN013","name":"Performapal Hip Hippo","ctype":"monster","keywords":"Performapal Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Beast / Effect","atk":800,"def":800},"rarity":"C","img":"41440148","code":"13","tcg":118499,"grp":1795,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"YS16-EN014","name":"Foucault's Cannon","ctype":"monster","keywords":"Spellcaster DARK Pendulum Normal Monster","stats":{"a":"DARK","l":"Level 5","t":"Spellcaster / Pendulum / Normal","atk":2200,"def":1200},"rarity":"C","img":"43785278","code":"14","tcg":118498,"grp":1795,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"YS16-EN015","name":"Archfiend Eccentrick","ctype":"monster","keywords":"Archfiend Fiend LIGHT Pendulum Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Fiend / Pendulum / Effect","atk":800,"def":1000},"rarity":"C","img":"57624336","code":"15","tcg":118497,"grp":1795,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"YS16-EN016","name":"Gene-Warped Warwolf","ctype":"monster","keywords":"Beast-Warrior EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 4","t":"Beast-Warrior / Normal","atk":2000,"def":100},"rarity":"C","img":"69247929","code":"16","tcg":118496,"grp":1795,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"YS16-EN017","name":"Beast King Barbaros","ctype":"monster","keywords":"Barbaros Beast-Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 8","t":"Beast-Warrior / Effect","atk":3000,"def":1200},"rarity":"C","img":"78651105","code":"17","tcg":118495,"grp":1795,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"YS16-EN018","name":"Pitch-Black Warwolf","ctype":"monster","keywords":"Beast-Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Beast-Warrior / Effect","atk":1600,"def":600},"rarity":"C","img":"88975532","code":"18","tcg":118494,"grp":1795,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"YS16-EN019","name":"Dragon Dowser","ctype":"monster","keywords":"Wyrm EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Wyrm / Effect","atk":1500,"def":1500},"rarity":"C","img":"76066541","code":"19","tcg":118492,"grp":1795,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"YS16-EN020","name":"Giant Rat","ctype":"monster","keywords":"Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Beast / Effect","atk":1400,"def":1450},"rarity":"C","img":"97017120","code":"20","tcg":118491,"grp":1795,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"YS16-EN021","name":"Performapal Dramatic Theater","ctype":"spell","keywords":"Odd-Eyes Field Spell","stats":{"t":"Field Spell"},"rarity":"C","img":"55553602","code":"21","tcg":118490,"grp":1795,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"YS16-EN022","name":"Smile World","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"2099841","code":"22","tcg":118489,"grp":1795,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"YS16-EN023","name":"Hippo Carnival","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"18027138","code":"23","tcg":118488,"grp":1795,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"YS16-EN024","name":"Draw Muscle","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"41367003","code":"24","tcg":118486,"grp":1795,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"YS16-EN025","name":"Mystical Space Typhoon","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"5318639","code":"25","tcg":118485,"grp":1795,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"YS16-EN026","name":"Lightning Vortex","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"69162969","code":"26","tcg":118484,"grp":1795,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"YS16-EN027","name":"Book of Moon","ctype":"spell","keywords":"Book of Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"14087893","code":"27","tcg":118483,"grp":1795,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"YS16-EN028","name":"Lucky Iron Axe","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"34664411","code":"28","tcg":118481,"grp":1795,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"YS16-EN029","name":"Burden of the Mighty","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"44947065","code":"29","tcg":118480,"grp":1795,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"YS16-EN030","name":"Back-Up Rider","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"68833958","code":"30","tcg":118479,"grp":1795,"idx":29},
+    {"id":"031","section":"main","num":"031","printed":"YS16-EN031","name":"Performapal Show Down","ctype":"trap","keywords":"Performapal Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"92958307","code":"31","tcg":118478,"grp":1795,"idx":30},
+    {"id":"032","section":"main","num":"032","printed":"YS16-EN032","name":"Performapal Pinch Helper","ctype":"trap","keywords":"Performapal Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"36415522","code":"32","tcg":118477,"grp":1795,"idx":31},
+    {"id":"033","section":"main","num":"033","printed":"YS16-EN033","name":"Wall of Disruption","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"58169731","code":"33","tcg":118475,"grp":1795,"idx":32},
+    {"id":"034","section":"main","num":"034","printed":"YS16-EN034","name":"Ceasefire","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"36468556","code":"34","tcg":118474,"grp":1795,"idx":33},
+    {"id":"035","section":"main","num":"035","printed":"YS16-EN035","name":"Raigeki Break","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"4178474","code":"35","tcg":118473,"grp":1795,"idx":34},
+    {"id":"036","section":"main","num":"036","printed":"YS16-EN036","name":"Draining Shield","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"43250041","code":"36","tcg":118472,"grp":1795,"idx":35},
+    {"id":"037","section":"main","num":"037","printed":"YS16-EN037","name":"Threatening Roar","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"36361633","code":"37","tcg":118471,"grp":1795,"idx":36},
+    {"id":"038","section":"main","num":"038","printed":"YS16-EN038","name":"Dark Bribe","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"C","img":"77538567","code":"38","tcg":118470,"grp":1795,"idx":37},
+    {"id":"039","section":"main","num":"039","printed":"YS16-EN039","name":"Chaos Burst","ctype":"trap","keywords":"Chaos Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"4923662","code":"39","tcg":118469,"grp":1795,"idx":38},
+    {"id":"040","section":"main","num":"040","printed":"YS16-EN040","name":"Pendulum Reborn","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"77826734","code":"40","tcg":118467,"grp":1795,"idx":39},
+    {"id":"T01","section":"main","num":"T01","printed":"YS16-ENT01","name":"Hippo Token","ctype":"token","keywords":"Beast Token","stats":{"t":"Beast / Token"},"rarity":"C","img":"11050417","code":"T1","tcg":118517,"grp":1795,"idx":40},
+    {"id":"T02","section":"main","num":"T02","printed":"YS16-ENT02","name":"Hippo Token","ctype":"token","keywords":"Beast Token","stats":{"t":"Beast / Token"},"rarity":"C","img":"11050416","code":"T2","tcg":118516,"grp":1795,"idx":41},
+    {"id":"T03","section":"main","num":"T03","printed":"YS16-ENT03","name":"Hippo Token","ctype":"token","keywords":"Beast Token","stats":{"t":"Beast / Token"},"rarity":"C","img":"11050416","code":"T3","tcg":118515,"grp":1795,"idx":42}
+  ]
+}

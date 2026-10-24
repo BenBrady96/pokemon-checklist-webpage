@@ -1,0 +1,69 @@
+{
+  "id": "yugioh/collectible-tins-2011-wave-1",
+  "game": "yugioh",
+  "slug": "collectible-tins-2011-wave-1",
+  "name": "Collectible Tins 2011 Wave 1",
+  "series": "ZEXAL",
+  "kind": "tin",
+  "code": "CT08",
+  "syncKey": "YCT08",
+  "released": "2011-08-25",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "CT08-EN001–CT08-EN011",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from CT08-EN001 to CT08-EN011."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Collectible Tins 2011 Wave 1 Checklist · All 9 Cards",
+    "description": "Free Yu-Gi-Oh! Collectible Tins 2011 Wave 1 checklist with no ads, no sign-up and no tracking. Track all 9 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Collectible Tins 2011 Wave 1 Checklist",
+    "ogDescription": "Track all 9 cards in Yu-Gi-Oh! Collectible Tins 2011 Wave 1. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 9 cards in Yu-Gi-Oh! Collectible Tins 2011 Wave 1. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Collectible Tins 2011 Wave 1",
+    "paragraphs": [
+      "Collectible Tins 2011 Wave 1 is a Yu-Gi-Oh! TCG tin released on 25 August 2011, in the ZEXAL era. It has 9 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Collectible Tins 2011 Wave 1"
+    ],
+    "tcgplayer": [
+      135
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"CT08-EN001","name":"Number 17: Leviathan Dragon","ctype":"monster","keywords":"Dragon WATER Xyz Monster","stats":{"a":"WATER","l":"Rank 3","t":"Dragon / Xyz","atk":2000,"def":0},"rarity":"ScR","img":"69610924","code":"1","tcg":57120,"grp":135,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"CT08-EN002","name":"Wind-Up Zenmaister","ctype":"monster","keywords":"Wind-Up Machine EARTH Xyz Monster","stats":{"a":"EARTH","l":"Rank 4","t":"Machine / Xyz","atk":1900,"def":1500},"rarity":"ScR","img":"68597372","code":"2","tcg":57125,"grp":135,"idx":1},
+    {"id":"005","section":"main","num":"005","printed":"CT08-EN005","name":"Beast King Barbaros","ctype":"monster","keywords":"Barbaros Beast-Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 8","t":"Beast-Warrior / Effect","atk":3000,"def":1200},"rarity":"SR","img":"78651105","code":"5","tcg":57121,"grp":135,"idx":2},
+    {"id":"006","section":"main","num":"006","printed":"CT08-EN006","name":"Dark Simorgh","ctype":"monster","keywords":"Simorgh Winged Beast DARK Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Winged Beast / Effect","atk":2700,"def":1000},"rarity":"SR","img":"11366199","code":"6","tcg":57122,"grp":135,"idx":3},
+    {"id":"007","section":"main","num":"007","printed":"CT08-EN007","name":"Stygian Street Patrol","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Effect","atk":1600,"def":1200},"rarity":"SR","img":"13521194","code":"7","tcg":57123,"grp":135,"idx":4},
+    {"id":"008","section":"main","num":"008","printed":"CT08-EN008","name":"Pot of Duality","ctype":"spell","keywords":"Greed Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"98645731","code":"8","tcg":57124,"grp":135,"idx":5},
+    {"id":"009","section":"main","num":"009","printed":"CT08-EN009","name":"Neo-Parshath, the Sky Paladin","ctype":"monster","keywords":"Parshath Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 7","t":"Fairy / Effect","atk":2300,"def":2000},"rarity":"SR","img":"12510878","code":"9","tcg":57126,"grp":135,"idx":6},
+    {"id":"010","section":"main","num":"010","printed":"CT08-EN010","name":"Archlord Kristya","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Fairy / Effect","atk":2800,"def":2300},"rarity":"SR","img":"59509952","code":"10","tcg":57127,"grp":135,"idx":7},
+    {"id":"011","section":"main","num":"011","printed":"CT08-EN011","name":"Elemental HERO Gaia","ctype":"monster","keywords":"Elemental HERO Warrior EARTH Fusion Monster","stats":{"a":"EARTH","l":"Level 6","t":"Warrior / Fusion","atk":2200,"def":2600},"rarity":"SR","img":"16304628","code":"11","tcg":57128,"grp":135,"idx":8}
+  ]
+}

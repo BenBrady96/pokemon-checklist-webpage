@@ -1,0 +1,70 @@
+{
+  "id": "yugioh/collectible-tins-2010-wave-2",
+  "game": "yugioh",
+  "slug": "collectible-tins-2010-wave-2",
+  "name": "Collectible Tins 2010 Wave 2",
+  "series": "5D’s",
+  "kind": "tin",
+  "code": "CT07",
+  "syncKey": "YCT072",
+  "released": "2010-11-02",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "CT07-EN004–CT07-EN025",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from CT07-EN004 to CT07-EN025."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Collectible Tins 2010 Wave 2 Checklist · All 10 Cards",
+    "description": "Free Yu-Gi-Oh! Collectible Tins 2010 Wave 2 checklist with no ads, no sign-up and no tracking. Track all 10 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Collectible Tins 2010 Wave 2 Checklist",
+    "ogDescription": "Track all 10 cards in Yu-Gi-Oh! Collectible Tins 2010 Wave 2. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 10 cards in Yu-Gi-Oh! Collectible Tins 2010 Wave 2. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Collectible Tins 2010 Wave 2",
+    "paragraphs": [
+      "Collectible Tins 2010 Wave 2 is a Yu-Gi-Oh! TCG tin released on 2 November 2010, in the 5D’s era. It has 10 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Collectible Tins 2010 Wave 2"
+    ],
+    "tcgplayer": [
+      133
+    ]
+  },
+  "cards": [
+    {"id":"004","section":"main","num":"004","printed":"CT07-EN004","name":"Shooting Star Dragon","ctype":"monster","keywords":"Dragon WIND Synchro Monster","stats":{"a":"WIND","l":"Level 10","t":"Dragon / Synchro","atk":3300,"def":2500},"rarity":"ScR","img":"24696097","code":"4","tcg":38512,"grp":133,"idx":0},
+    {"id":"005","section":"main","num":"005","printed":"CT07-EN005","name":"Red Nova Dragon","ctype":"monster","keywords":"Archfiend Dragon DARK Synchro Monster","stats":{"a":"DARK","l":"Level 12","t":"Dragon / Synchro","atk":3500,"def":3000},"rarity":"ScR","img":"97489701","code":"5","tcg":38513,"grp":133,"idx":1},
+    {"id":"018","section":"main","num":"018","printed":"CT07-EN018","name":"Elemental HERO Ocean","ctype":"monster","keywords":"Elemental HERO Warrior WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Warrior / Effect","atk":1500,"def":1200},"rarity":"SR","img":"37195861","code":"18","tcg":38526,"grp":133,"idx":2},
+    {"id":"019","section":"main","num":"019","printed":"CT07-EN019","name":"Dreadscythe Harvester","ctype":"monster","keywords":"Insect WIND Effect Monster","stats":{"a":"WIND","l":"Level 8","t":"Insect / Effect","atk":2300,"def":1600},"rarity":"SR","img":"66973070","code":"19","tcg":38527,"grp":133,"idx":3},
+    {"id":"020","section":"main","num":"020","printed":"CT07-EN020","name":"Gandora the Dragon of Destruction","ctype":"monster","keywords":"Gandora Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Dragon / Effect","atk":0,"def":0},"rarity":"SR","img":"64681432","code":"20","tcg":38528,"grp":133,"idx":4},
+    {"id":"021","section":"main","num":"021","printed":"CT07-EN021","name":"Stardust Dragon","ctype":"monster","keywords":"Stardust Dragon WIND Synchro Monster","stats":{"a":"WIND","l":"Level 8","t":"Dragon / Synchro","atk":2500,"def":2000},"rarity":"SR","img":"44508094","code":"21","tcg":38529,"grp":133,"idx":5},
+    {"id":"022","section":"main","num":"022","printed":"CT07-EN022","name":"Magician's Valkyria","ctype":"monster","keywords":"Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Effect","atk":1600,"def":1800},"rarity":"SR","img":"80304126","code":"22","tcg":38530,"grp":133,"idx":6},
+    {"id":"023","section":"main","num":"023","printed":"CT07-EN023","name":"The Wicked Avatar","ctype":"monster","keywords":"Wicked God Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 10","t":"Fiend / Effect","atk":-1,"def":-1},"rarity":"SR","img":"21208154","code":"23","tcg":38531,"grp":133,"idx":7},
+    {"id":"024","section":"main","num":"024","printed":"CT07-EN024","name":"Exodius the Ultimate Forbidden Lord","ctype":"monster","keywords":"Exodia Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 10","t":"Spellcaster / Effect","atk":-1,"def":0},"rarity":"SR","img":"13893596","code":"24","tcg":38532,"grp":133,"idx":8},
+    {"id":"025","section":"main","num":"025","printed":"CT07-EN025","name":"Red Dragon Archfiend","ctype":"monster","keywords":"Archfiend Dragon DARK Synchro Monster","stats":{"a":"DARK","l":"Level 8","t":"Dragon / Synchro","atk":3000,"def":2000},"rarity":"SR","img":"70902743","code":"25","tcg":38533,"grp":133,"idx":9}
+  ]
+}

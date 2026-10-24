@@ -1,0 +1,120 @@
+{
+  "id": "yugioh/spirit-warriors",
+  "game": "yugioh",
+  "slug": "spirit-warriors",
+  "name": "Spirit Warriors",
+  "series": "VRAINS",
+  "kind": "set",
+  "code": "SPWA",
+  "syncKey": "YSPWA",
+  "released": "2017-11-16",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Main Set",
+      "range": "SPWA-EN001–SPWA-EN060",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from SPWA-EN001 to SPWA-EN060."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Spirit Warriors Checklist · All 60 Cards",
+    "description": "Free Yu-Gi-Oh! Spirit Warriors checklist with no ads, no sign-up and no tracking. Track all 60 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Spirit Warriors Checklist",
+    "ogDescription": "Track all 60 cards in Yu-Gi-Oh! Spirit Warriors. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 60 cards in Yu-Gi-Oh! Spirit Warriors. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About the Spirit Warriors set",
+    "paragraphs": [
+      "Spirit Warriors is a Yu-Gi-Oh! TCG special set released on 16 November 2017, in the VRAINS era. It has 60 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Spirit Warriors"
+    ],
+    "tcgplayer": [
+      2073
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"SPWA-EN001","name":"Secret Six Samurai - Fuma","ctype":"monster","keywords":"Secret Six Samurai Warrior WIND Tuner Monster","stats":{"a":"WIND","l":"Level 1","t":"Warrior / Tuner","atk":200,"def":1800},"rarity":"ScR","img":"71207871","code":"1","tcg":152392,"grp":2073,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"SPWA-EN002","name":"Secret Six Samurai - Genba","ctype":"monster","keywords":"Secret Six Samurai Warrior FIRE Tuner Monster","stats":{"a":"FIRE","l":"Level 2","t":"Warrior / Tuner","atk":500,"def":2100},"rarity":"SR","img":"7291576","code":"2","tcg":152393,"grp":2073,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"SPWA-EN003","name":"Secret Six Samurai - Hatsume","ctype":"monster","keywords":"Secret Six Samurai Warrior WATER Effect Monster","stats":{"a":"WATER","l":"Level 3","t":"Warrior / Effect","atk":1600,"def":1500},"rarity":"ScR","img":"44686185","code":"3","tcg":152397,"grp":2073,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"SPWA-EN004","name":"Secret Six Samurai - Doji","ctype":"monster","keywords":"Secret Six Samurai Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Warrior / Effect","atk":1700,"def":1200},"rarity":"ScR","img":"70180284","code":"4","tcg":152398,"grp":2073,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"SPWA-EN005","name":"Secret Six Samurai - Kizaru","ctype":"monster","keywords":"Secret Six Samurai Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Effect","atk":1900,"def":1000},"rarity":"ScR","img":"6579928","code":"5","tcg":152399,"grp":2073,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"SPWA-EN006","name":"Secret Six Samurai - Rihan","ctype":"monster","keywords":"Secret Six Samurai Warrior LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 5","t":"Warrior / Fusion","atk":2400,"def":2400},"rarity":"ScR","img":"33964637","code":"6","tcg":152400,"grp":2073,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"SPWA-EN007","name":"Secret Skills of the Six Samurai","ctype":"spell","keywords":"Six Samurai Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"ScR","img":"79968632","code":"7","tcg":152394,"grp":2073,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"SPWA-EN008","name":"The Six Shinobi","ctype":"trap","keywords":"Six Samurai Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"6357341","code":"8","tcg":152395,"grp":2073,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"SPWA-EN009","name":"Grandmaster of the Six Samurai","ctype":"monster","keywords":"Six Samurai Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 5","t":"Warrior / Effect","atk":2100,"def":800},"rarity":"SR","img":"83039729","code":"9","tcg":152401,"grp":2073,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"SPWA-EN010","name":"Legendary Six Samurai - Kizan","ctype":"monster","keywords":"Six Samurai Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Effect","atk":1800,"def":500},"rarity":"SR","img":"49721904","code":"10","tcg":152402,"grp":2073,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"SPWA-EN011","name":"Legendary Six Samurai - Shi En","ctype":"monster","keywords":"Six Samurai Warrior DARK Synchro Monster","stats":{"a":"DARK","l":"Level 5","t":"Warrior / Synchro","atk":2500,"def":1400},"rarity":"ScR","img":"29981921","code":"11","tcg":152403,"grp":2073,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"SPWA-EN012","name":"Shadow of the Six Samurai - Shien","ctype":"monster","keywords":"Six Samurai Warrior EARTH Xyz Monster","stats":{"a":"EARTH","l":"Rank 4","t":"Warrior / Xyz","atk":2500,"def":400},"rarity":"SR","img":"1828513","code":"12","tcg":152396,"grp":2073,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"SPWA-EN013","name":"Six Samurai United","ctype":"spell","keywords":"Six Samurai Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"SR","img":"72345736","code":"13","tcg":152404,"grp":2073,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"SPWA-EN014","name":"Gateway of the Six","ctype":"spell","keywords":"Six Samurai Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"SR","img":"27970830","code":"14","tcg":152405,"grp":2073,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"SPWA-EN015","name":"Shien's Smoke Signal","ctype":"spell","keywords":"Six Samurai Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"54031490","code":"15","tcg":152406,"grp":2073,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"SPWA-EN016","name":"Magical Musketeer Caspar","ctype":"monster","keywords":"Magical Musket Fiend LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Fiend / Effect","atk":1200,"def":2000},"rarity":"ScR","img":"32841045","code":"16","tcg":152407,"grp":2073,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"SPWA-EN017","name":"Magical Musketeer Doc","ctype":"monster","keywords":"Magical Musket Fiend LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Fiend / Effect","atk":1400,"def":1200},"rarity":"SR","img":"68246154","code":"17","tcg":152408,"grp":2073,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"SPWA-EN018","name":"Magical Musketeer Kidbrave","ctype":"monster","keywords":"Magical Musket Fiend LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Fiend / Effect","atk":1600,"def":200},"rarity":"SR","img":"5230799","code":"18","tcg":152409,"grp":2073,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"SPWA-EN019","name":"Magical Musketeer Starfire","ctype":"monster","keywords":"Magical Musket Fiend LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fiend / Effect","atk":1300,"def":1700},"rarity":"ScR","img":"31629407","code":"19","tcg":152410,"grp":2073,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"SPWA-EN020","name":"Magical Musketeer Calamity","ctype":"monster","keywords":"Magical Musket Fiend LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fiend / Effect","atk":1500,"def":1300},"rarity":"SR","img":"68024506","code":"20","tcg":152411,"grp":2073,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"SPWA-EN021","name":"Magical Musketeer Wild","ctype":"monster","keywords":"Magical Musket Fiend LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fiend / Effect","atk":1700,"def":900},"rarity":"SR","img":"94418111","code":"21","tcg":152412,"grp":2073,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"SPWA-EN022","name":"Magical Musket Mastermind Zakiel","ctype":"monster","keywords":"Magical Musket Fiend LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Fiend / Effect","atk":2500,"def":2500},"rarity":"ScR","img":"30907810","code":"22","tcg":152413,"grp":2073,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"SPWA-EN023","name":"Magical Musket - Steady Hands","ctype":"spell","keywords":"Magical Musket Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"SR","img":"67901914","code":"23","tcg":152414,"grp":2073,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"SPWA-EN024","name":"Magical Musket - Cross-Domination","ctype":"spell","keywords":"Magical Musket Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"ScR","img":"93356623","code":"24","tcg":152415,"grp":2073,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"SPWA-EN025","name":"Magical Musket - Desperado","ctype":"trap","keywords":"Magical Musket Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"20745268","code":"25","tcg":152416,"grp":2073,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"SPWA-EN026","name":"Magical Musket - Dancing Needle","ctype":"trap","keywords":"Magical Musket Normal Trap","stats":{"t":"Normal Trap"},"rarity":"ScR","img":"66149377","code":"26","tcg":152417,"grp":2073,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"SPWA-EN027","name":"Magical Musket - Fiendish Deal","ctype":"trap","keywords":"Magical Musket Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"SR","img":"92534075","code":"27","tcg":152418,"grp":2073,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"SPWA-EN028","name":"Magical Musket - Last Stand","ctype":"trap","keywords":"Magical Musket Counter Trap","stats":{"t":"Counter Trap"},"rarity":"ScR","img":"29628180","code":"28","tcg":152419,"grp":2073,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"SPWA-EN029","name":"The Weather Painter Snow","ctype":"monster","keywords":"The Weather Fairy EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Fairy / Effect","atk":0,"def":2200},"rarity":"ScR","img":"65017789","code":"29","tcg":152420,"grp":2073,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"SPWA-EN030","name":"The Weather Painter Rain","ctype":"monster","keywords":"The Weather Fairy WATER Effect Monster","stats":{"a":"WATER","l":"Level 3","t":"Fairy / Effect","atk":1200,"def":1400},"rarity":"SR","img":"92411493","code":"30","tcg":152421,"grp":2073,"idx":29},
+    {"id":"031","section":"main","num":"031","printed":"SPWA-EN031","name":"The Weather Painter Cloud","ctype":"monster","keywords":"The Weather Fairy WIND Effect Monster","stats":{"a":"WIND","l":"Level 3","t":"Fairy / Effect","atk":1500,"def":1000},"rarity":"ScR","img":"28806532","code":"31","tcg":152435,"grp":2073,"idx":30},
+    {"id":"032","section":"main","num":"032","printed":"SPWA-EN032","name":"The Weather Painter Sun","ctype":"monster","keywords":"The Weather Fairy FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 3","t":"Fairy / Effect","atk":1600,"def":400},"rarity":"ScR","img":"54895237","code":"32","tcg":152437,"grp":2073,"idx":31},
+    {"id":"033","section":"main","num":"033","printed":"SPWA-EN033","name":"The Weather Painter Thunder","ctype":"monster","keywords":"The Weather Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Fairy / Effect","atk":1700,"def":0},"rarity":"ScR","img":"91299846","code":"33","tcg":152438,"grp":2073,"idx":32},
+    {"id":"034","section":"main","num":"034","printed":"SPWA-EN034","name":"The Weather Painter Aurora","ctype":"monster","keywords":"The Weather Fairy DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Fairy / Effect","atk":2200,"def":2000},"rarity":"ScR","img":"27784944","code":"34","tcg":152439,"grp":2073,"idx":33},
+    {"id":"035","section":"main","num":"035","printed":"SPWA-EN035","name":"The Weather Painter Rainbow","ctype":"monster","keywords":"The Weather Fairy LIGHT Link Monster","stats":{"a":"LIGHT","l":"Link 3","t":"Fairy / Link","atk":2400},"rarity":"ScR","img":"54178659","code":"35","tcg":152440,"grp":2073,"idx":34},
+    {"id":"036","section":"main","num":"036","printed":"SPWA-EN036","name":"The Weather Snowy Canvas","ctype":"spell","keywords":"The Weather Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"SR","img":"80577258","code":"36","tcg":152441,"grp":2073,"idx":35},
+    {"id":"037","section":"main","num":"037","printed":"SPWA-EN037","name":"The Weather Rainy Canvas","ctype":"spell","keywords":"The Weather Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"SR","img":"27561302","code":"37","tcg":152444,"grp":2073,"idx":36},
+    {"id":"038","section":"main","num":"038","printed":"SPWA-EN038","name":"The Weather Cloudy Canvas","ctype":"spell","keywords":"The Weather Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"SR","img":"53956001","code":"38","tcg":152445,"grp":2073,"idx":37},
+    {"id":"039","section":"main","num":"039","printed":"SPWA-EN039","name":"The Weather Sunny Canvas","ctype":"spell","keywords":"The Weather Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"SR","img":"89355716","code":"39","tcg":152446,"grp":2073,"idx":38},
+    {"id":"040","section":"main","num":"040","printed":"SPWA-EN040","name":"The Weather Thundery Canvas","ctype":"trap","keywords":"The Weather Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"ScR","img":"16849715","code":"40","tcg":152447,"grp":2073,"idx":39},
+    {"id":"041","section":"main","num":"041","printed":"SPWA-EN041","name":"The Weather Auroral Canvas","ctype":"trap","keywords":"The Weather Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"SR","img":"52834429","code":"41","tcg":152448,"grp":2073,"idx":40},
+    {"id":"042","section":"main","num":"042","printed":"SPWA-EN042","name":"Hand of the Six Samurai","ctype":"monster","keywords":"Six Samurai Warrior FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 3","t":"Warrior / Effect","atk":1600,"def":1000},"rarity":"SR","img":"78792195","code":"42","tcg":152449,"grp":2073,"idx":41},
+    {"id":"043","section":"main","num":"043","printed":"SPWA-EN043","name":"Legendary Six Samurai - Kageki","ctype":"monster","keywords":"Six Samurai Warrior WIND Effect Monster","stats":{"a":"WIND","l":"Level 3","t":"Warrior / Effect","atk":200,"def":2000},"rarity":"SR","img":"2511717","code":"43","tcg":152450,"grp":2073,"idx":42},
+    {"id":"044","section":"main","num":"044","printed":"SPWA-EN044","name":"Legendary Six Samurai - Shinai","ctype":"monster","keywords":"Six Samurai Warrior WATER Effect Monster","stats":{"a":"WATER","l":"Level 3","t":"Warrior / Effect","atk":1500,"def":1500},"rarity":"SR","img":"48505422","code":"44","tcg":152452,"grp":2073,"idx":43},
+    {"id":"045","section":"main","num":"045","printed":"SPWA-EN045","name":"Legendary Six Samurai - Mizuho","ctype":"monster","keywords":"Six Samurai Warrior FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 3","t":"Warrior / Effect","atk":1600,"def":1000},"rarity":"SR","img":"74094021","code":"45","tcg":152454,"grp":2073,"idx":44},
+    {"id":"046","section":"main","num":"046","printed":"SPWA-EN046","name":"Shien's Advisor","ctype":"monster","keywords":"Six Samurai Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Effect","atk":1200,"def":400},"rarity":"SR","img":"98126725","code":"46","tcg":152455,"grp":2073,"idx":45},
+    {"id":"047","section":"main","num":"047","printed":"SPWA-EN047","name":"Honest","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fairy / Effect","atk":1100,"def":1900},"rarity":"SR","img":"37742478","code":"47","tcg":152456,"grp":2073,"idx":46},
+    {"id":"048","section":"main","num":"048","printed":"SPWA-EN048","name":"Asceticism of the Six Samurai","ctype":"spell","keywords":"Six Samurai Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"SR","img":"27821104","code":"48","tcg":152457,"grp":2073,"idx":47},
+    {"id":"049","section":"main","num":"049","printed":"SPWA-EN049","name":"Shien's Dojo","ctype":"spell","keywords":"Six Samurai Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"SR","img":"47436247","code":"49","tcg":152458,"grp":2073,"idx":48},
+    {"id":"050","section":"main","num":"050","printed":"SPWA-EN050","name":"Photon Veil","ctype":"spell","keywords":"Photon Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"9354555","code":"50","tcg":152459,"grp":2073,"idx":49},
+    {"id":"051","section":"main","num":"051","printed":"SPWA-EN051","name":"Constellar Belt","ctype":"spell","keywords":"Constellar Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"SR","img":"86825483","code":"51","tcg":152460,"grp":2073,"idx":50},
+    {"id":"052","section":"main","num":"052","printed":"SPWA-EN052","name":"Return of the Six Samurai","ctype":"trap","keywords":"Six Samurai Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"46874015","code":"52","tcg":152462,"grp":2073,"idx":51},
+    {"id":"053","section":"main","num":"053","printed":"SPWA-EN053","name":"Backs to the Wall","ctype":"trap","keywords":"Six Samurai Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"32603633","code":"53","tcg":152463,"grp":2073,"idx":52},
+    {"id":"054","section":"main","num":"054","printed":"SPWA-EN054","name":"Double-Edged Sword Technique","ctype":"trap","keywords":"Six Samurai Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"21007444","code":"54","tcg":152464,"grp":2073,"idx":53},
+    {"id":"055","section":"main","num":"055","printed":"SPWA-EN055","name":"Musakani Magatama","ctype":"trap","keywords":"Six Samurai Counter Trap","stats":{"t":"Counter Trap"},"rarity":"SR","img":"41458579","code":"55","tcg":152465,"grp":2073,"idx":54},
+    {"id":"056","section":"main","num":"056","printed":"SPWA-EN056","name":"Battleguard Howling","ctype":"trap","keywords":"Battleguard Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"78621186","code":"56","tcg":152467,"grp":2073,"idx":55},
+    {"id":"057","section":"main","num":"057","printed":"SPWA-EN057","name":"Beckoning Light","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"16255442","code":"57","tcg":152468,"grp":2073,"idx":56},
+    {"id":"058","section":"main","num":"058","printed":"SPWA-EN058","name":"Scrap-Iron Scarecrow","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"98427577","code":"58","tcg":152469,"grp":2073,"idx":57},
+    {"id":"059","section":"main","num":"059","printed":"SPWA-EN059","name":"Scrap-Iron Statue","ctype":"trap","keywords":"Junk Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"48497555","code":"59","tcg":152470,"grp":2073,"idx":58},
+    {"id":"060","section":"main","num":"060","printed":"SPWA-EN060","name":"Miraculous Descent","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"SR","img":"80551130","code":"60","tcg":152471,"grp":2073,"idx":59}
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "id": "yugioh/legendary-duelists-ancient-millennium",
+  "game": "yugioh",
+  "slug": "legendary-duelists-ancient-millennium",
+  "name": "Legendary Duelists: Ancient Millennium",
+  "series": "VRAINS",
+  "kind": "set",
+  "code": "LED2",
+  "syncKey": "YLED2",
+  "released": "2018-02-22",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Main Set",
+      "range": "LED2-EN000–LED2-EN052",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from LED2-EN000 to LED2-EN052."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Legendary Duelists: Ancient Millennium Checklist · All 53 Cards",
+    "description": "Free Yu-Gi-Oh! Legendary Duelists: Ancient Millennium checklist with no ads, no sign-up and no tracking. Track all 53 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Legendary Duelists: Ancient Millennium Checklist",
+    "ogDescription": "Track all 53 cards in Yu-Gi-Oh! Legendary Duelists: Ancient Millennium. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 53 cards in Yu-Gi-Oh! Legendary Duelists: Ancient Millennium. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About the Legendary Duelists: Ancient Millennium set",
+    "paragraphs": [
+      "Legendary Duelists: Ancient Millennium is a Yu-Gi-Oh! TCG special set released on 22 February 2018, in the VRAINS era. It has 53 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Legendary Duelists: Ancient Millennium"
+    ],
+    "tcgplayer": [
+      2179
+    ]
+  },
+  "cards": [
+    {"id":"000","section":"main","num":"000","printed":"LED2-EN000","name":"Relinquished","ctype":"monster","keywords":"Eyes Restrict Spellcaster DARK Ritual Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Spellcaster / Ritual / Effect","atk":0,"def":0},"rarity":"C","img":"64631466","code":"0","tcg":161006,"grp":2179,"idx":0},
+    {"id":"001","section":"main","num":"001","printed":"LED2-EN001","name":"Millennium-Eyes Illusionist","ctype":"monster","keywords":"Eyes Restrict Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 2","t":"Spellcaster / Effect","atk":0,"def":1400},"rarity":"UR","img":"89785779","code":"1","tcg":161007,"grp":2179,"idx":1},
+    {"id":"002","section":"main","num":"002","printed":"LED2-EN002","name":"Illusionist Faceless Magician","ctype":"monster","keywords":"Eyes Restrict Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 5","t":"Spellcaster / Effect","atk":1200,"def":2200},"rarity":"R","img":"15173384","code":"2","tcg":161062,"grp":2179,"idx":2},
+    {"id":"003","section":"main","num":"003","printed":"LED2-EN003","name":"Millennium-Eyes Restrict","ctype":"monster","keywords":"Eyes Restrict Spellcaster DARK Fusion Monster","stats":{"a":"DARK","l":"Level 1","t":"Spellcaster / Fusion","atk":0,"def":0},"rarity":"UR","img":"41578483","code":"3","tcg":161008,"grp":2179,"idx":3},
+    {"id":"004","section":"main","num":"004","printed":"LED2-EN004","name":"Relinquished Fusion","ctype":"spell","keywords":"Eyes Restrict Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"UR","img":"78063197","code":"4","tcg":161009,"grp":2179,"idx":4},
+    {"id":"005","section":"main","num":"005","printed":"LED2-EN005","name":"Thousand-Eyes Restrict","ctype":"monster","keywords":"Eyes Restrict Spellcaster DARK Fusion Monster","stats":{"a":"DARK","l":"Level 1","t":"Spellcaster / Fusion","atk":0,"def":0},"rarity":"C","img":"63519819","code":"5","tcg":161010,"grp":2179,"idx":5},
+    {"id":"006","section":"main","num":"006","printed":"LED2-EN006","name":"Black Illusion Ritual","ctype":"spell","keywords":"Eyes Restrict Ritual Spell","stats":{"t":"Ritual Spell"},"rarity":"C","img":"41426869","code":"6","tcg":161011,"grp":2179,"idx":6},
+    {"id":"007","section":"main","num":"007","printed":"LED2-EN007","name":"Parasite Paranoid","ctype":"monster","keywords":"Parasite Insect EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 2","t":"Insect / Effect","atk":500,"def":300},"rarity":"R","img":"14457896","code":"7","tcg":161012,"grp":2179,"idx":7},
+    {"id":"008","section":"main","num":"008","printed":"LED2-EN008","name":"Metamorphosed Insect Queen","ctype":"monster","keywords":"Insect EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 7","t":"Insect / Effect","atk":2800,"def":2400},"rarity":"SR","img":"41456841","code":"8","tcg":161013,"grp":2179,"idx":8},
+    {"id":"009","section":"main","num":"009","printed":"LED2-EN009","name":"Cocoon of Ultra Evolution","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"UR","img":"77840540","code":"9","tcg":161014,"grp":2179,"idx":9},
+    {"id":"010","section":"main","num":"010","printed":"LED2-EN010","name":"Corrosive Scales","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"R","img":"13235258","code":"10","tcg":161015,"grp":2179,"idx":10},
+    {"id":"011","section":"main","num":"011","printed":"LED2-EN011","name":"Pinch Hopper","ctype":"monster","keywords":"Insect EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Insect / Effect","atk":1000,"def":1200},"rarity":"C","img":"26185991","code":"11","tcg":161016,"grp":2179,"idx":11},
+    {"id":"012","section":"main","num":"012","printed":"LED2-EN012","name":"Insect Queen","ctype":"monster","keywords":"Insect EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 7","t":"Insect / Effect","atk":2200,"def":2400},"rarity":"C","img":"91512835","code":"12","tcg":161017,"grp":2179,"idx":12},
+    {"id":"013","section":"main","num":"013","printed":"LED2-EN013","name":"Perfectly Ultimate Great Moth","ctype":"monster","keywords":"Insect EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 8","t":"Insect / Effect","atk":3500,"def":3000},"rarity":"C","img":"48579379","code":"13","tcg":161018,"grp":2179,"idx":13},
+    {"id":"014","section":"main","num":"014","printed":"LED2-EN014","name":"BM-4 Blast Spider","ctype":"monster","keywords":"Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Machine / Effect","atk":1400,"def":2200},"rarity":"R","img":"40634253","code":"14","tcg":161063,"grp":2179,"idx":14},
+    {"id":"015","section":"main","num":"015","printed":"LED2-EN015","name":"Desperado Barrel Dragon","ctype":"monster","keywords":"Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Machine / Effect","atk":2800,"def":2200},"rarity":"UR","img":"76728962","code":"15","tcg":161019,"grp":2179,"idx":15},
+    {"id":"016","section":"main","num":"016","printed":"LED2-EN016","name":"Heavy Metal Raiders","ctype":"spell","keywords":"Field Spell","stats":{"t":"Field Spell"},"rarity":"SR","img":"3113667","code":"16","tcg":161020,"grp":2179,"idx":16},
+    {"id":"017","section":"main","num":"017","printed":"LED2-EN017","name":"Proton Blast","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"SR","img":"49511705","code":"17","tcg":161064,"grp":2179,"idx":17},
+    {"id":"018","section":"main","num":"018","printed":"LED2-EN018","name":"Blast Sphere","ctype":"monster","keywords":"Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Machine / Effect","atk":1400,"def":1400},"rarity":"C","img":"26302522","code":"18","tcg":161021,"grp":2179,"idx":18},
+    {"id":"019","section":"main","num":"019","printed":"LED2-EN019","name":"Barrel Dragon","ctype":"monster","keywords":"Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Machine / Effect","atk":2600,"def":2200},"rarity":"C","img":"81480461","code":"19","tcg":161022,"grp":2179,"idx":19},
+    {"id":"020","section":"main","num":"020","printed":"LED2-EN020","name":"Time Machine","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"80987696","code":"20","tcg":161023,"grp":2179,"idx":20},
+    {"id":"021","section":"main","num":"021","printed":"LED2-EN021","name":"Armed Dragon Catapult Cannon","ctype":"monster","keywords":"Armed Dragon Machine LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 10","t":"Machine / Fusion","atk":3500,"def":3000},"rarity":"SR","img":"75906310","code":"21","tcg":161024,"grp":2179,"idx":21},
+    {"id":"022","section":"main","num":"022","printed":"LED2-EN022","name":"Ojamassimilation","ctype":"spell","keywords":"Ojama Normal Spell","stats":{"t":"Normal Spell"},"rarity":"R","img":"2390019","code":"22","tcg":161258,"grp":2179,"idx":22},
+    {"id":"023","section":"main","num":"023","printed":"LED2-EN023","name":"Ojamatch","ctype":"spell","keywords":"Armed Dragon Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"R","img":"38395123","code":"23","tcg":161259,"grp":2179,"idx":23},
+    {"id":"024","section":"main","num":"024","printed":"LED2-EN024","name":"Ojama Pajama","ctype":"trap","keywords":"Armed Dragon Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"R","img":"75884822","code":"24","tcg":161260,"grp":2179,"idx":24},
+    {"id":"025","section":"main","num":"025","printed":"LED2-EN025","name":"Armed Dragon LV3","ctype":"monster","keywords":"Armed Dragon Dragon WIND Effect Monster","stats":{"a":"WIND","l":"Level 3","t":"Dragon / Effect","atk":1200,"def":900},"rarity":"C","img":"980973","code":"25","tcg":161025,"grp":2179,"idx":25},
+    {"id":"026","section":"main","num":"026","printed":"LED2-EN026","name":"Armed Dragon LV5","ctype":"monster","keywords":"Armed Dragon Dragon WIND Effect Monster","stats":{"a":"WIND","l":"Level 5","t":"Dragon / Effect","atk":2400,"def":1700},"rarity":"C","img":"46384672","code":"26","tcg":161026,"grp":2179,"idx":26},
+    {"id":"027","section":"main","num":"027","printed":"LED2-EN027","name":"Armed Dragon LV7","ctype":"monster","keywords":"Armed Dragon Dragon WIND Effect Monster","stats":{"a":"WIND","l":"Level 7","t":"Dragon / Effect","atk":2800,"def":1000},"rarity":"C","img":"73879377","code":"27","tcg":161027,"grp":2179,"idx":27},
+    {"id":"028","section":"main","num":"028","printed":"LED2-EN028","name":"VWXYZ-Dragon Catapult Cannon","ctype":"monster","keywords":"ABC Machine LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Machine / Fusion","atk":3000,"def":2800},"rarity":"C","img":"84243274","code":"28","tcg":161028,"grp":2179,"idx":28},
+    {"id":"029","section":"main","num":"029","printed":"LED2-EN029","name":"Ojamagic","ctype":"spell","keywords":"Ojama Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"24643836","code":"29","tcg":161029,"grp":2179,"idx":29},
+    {"id":"030","section":"main","num":"030","printed":"LED2-EN030","name":"Ancient Gear Frame","ctype":"monster","keywords":"Ancient Gear Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Machine / Effect","atk":1600,"def":500},"rarity":"R","img":"1278431","code":"30","tcg":161261,"grp":2179,"idx":30},
+    {"id":"031","section":"main","num":"031","printed":"LED2-EN031","name":"Ancient Gear Megaton Golem","ctype":"monster","keywords":"Ancient Gear Machine EARTH Fusion Monster","stats":{"a":"EARTH","l":"Level 9","t":"Machine / Fusion","atk":3300,"def":3300},"rarity":"SR","img":"37663536","code":"31","tcg":161262,"grp":2179,"idx":31},
+    {"id":"032","section":"main","num":"032","printed":"LED2-EN032","name":"Ancient Gear Fusion","ctype":"spell","keywords":"Ancient Gear Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UR","img":"64061284","code":"32","tcg":161030,"grp":2179,"idx":32},
+    {"id":"033","section":"main","num":"033","printed":"LED2-EN033","name":"Cross-Dimensional Duel","ctype":"trap","keywords":"Ancient Gear Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"56889","code":"33","tcg":161031,"grp":2179,"idx":33},
+    {"id":"034","section":"main","num":"034","printed":"LED2-EN034","name":"Ancient Gear Golem","ctype":"monster","keywords":"Ancient Gear Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 8","t":"Machine / Effect","atk":3000,"def":3000},"rarity":"C","img":"83104731","code":"34","tcg":161032,"grp":2179,"idx":34},
+    {"id":"035","section":"main","num":"035","printed":"LED2-EN035","name":"Ancient Gear Golem - Ultimate Pound","ctype":"monster","keywords":"Ancient Gear Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 8","t":"Machine / Effect","atk":3000,"def":3000},"rarity":"C","img":"95735217","code":"35","tcg":161033,"grp":2179,"idx":35},
+    {"id":"036","section":"main","num":"036","printed":"LED2-EN036","name":"Ultimate Ancient Gear Golem","ctype":"monster","keywords":"Ancient Gear Machine EARTH Fusion Monster","stats":{"a":"EARTH","l":"Level 10","t":"Machine / Fusion","atk":4400,"def":3400},"rarity":"C","img":"12652643","code":"36","tcg":161034,"grp":2179,"idx":36},
+    {"id":"037","section":"main","num":"037","printed":"LED2-EN037","name":"Rainbow Overdragon","ctype":"monster","keywords":"Crystal Beast Dragon LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 12","t":"Dragon / Fusion","atk":4000,"def":0},"rarity":"SR","img":"37440988","code":"37","tcg":161065,"grp":2179,"idx":37},
+    {"id":"038","section":"main","num":"038","printed":"LED2-EN038","name":"Rainbow Bridge","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UR","img":"63945693","code":"38","tcg":161035,"grp":2179,"idx":38},
+    {"id":"039","section":"main","num":"039","printed":"LED2-EN039","name":"Crystal Bond","ctype":"spell","keywords":"Crystal Beast Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UR","img":"9334391","code":"39","tcg":161036,"grp":2179,"idx":39},
+    {"id":"040","section":"main","num":"040","printed":"LED2-EN040","name":"Ultimate Crystal Magic","ctype":"trap","keywords":"Crystal Beast Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"36328300","code":"40","tcg":161066,"grp":2179,"idx":40},
+    {"id":"041","section":"main","num":"041","printed":"LED2-EN041","name":"Crystal Beast Ruby Carbuncle","ctype":"monster","keywords":"Crystal Beast Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Fairy / Effect","atk":300,"def":300},"rarity":"C","img":"32710364","code":"41","tcg":161037,"grp":2179,"idx":41},
+    {"id":"042","section":"main","num":"042","printed":"LED2-EN042","name":"Crystal Beast Sapphire Pegasus","ctype":"monster","keywords":"Crystal Beast Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Beast / Effect","atk":1800,"def":1200},"rarity":"C","img":"7093411","code":"42","tcg":161038,"grp":2179,"idx":42},
+    {"id":"043","section":"main","num":"043","printed":"LED2-EN043","name":"Rainbow Dragon","ctype":"monster","keywords":"Crystal Beast Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 10","t":"Dragon / Effect","atk":4000,"def":0},"rarity":"C","img":"79856792","code":"43","tcg":161039,"grp":2179,"idx":43},
+    {"id":"044","section":"main","num":"044","printed":"LED2-EN044","name":"Crystal Release","ctype":"spell","keywords":"Crystal Beast Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"10004783","code":"44","tcg":161040,"grp":2179,"idx":44},
+    {"id":"045","section":"main","num":"045","printed":"LED2-EN045","name":"Crystal Tree","ctype":"spell","keywords":"Crystal Beast Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"47408488","code":"45","tcg":161041,"grp":2179,"idx":45},
+    {"id":"046","section":"main","num":"046","printed":"LED2-EN046","name":"Vortex Trooper","ctype":"monster","keywords":"Aqua WIND Effect Monster","stats":{"a":"WIND","l":"Level 3","t":"Aqua / Effect","atk":0,"def":600},"rarity":"C","img":"7736719","code":"46","tcg":161042,"grp":2179,"idx":46},
+    {"id":"047","section":"main","num":"047","printed":"LED2-EN047","name":"Panzer Dragon","ctype":"monster","keywords":"Machine LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 5","t":"Machine / Fusion","atk":1000,"def":2600},"rarity":"C","img":"72959823","code":"47","tcg":161043,"grp":2179,"idx":47},
+    {"id":"048","section":"main","num":"048","printed":"LED2-EN048","name":"Instant Fusion","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"1845204","code":"48","tcg":161044,"grp":2179,"idx":48},
+    {"id":"049","section":"main","num":"049","printed":"LED2-EN049","name":"Limiter Removal","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"23171610","code":"49","tcg":161045,"grp":2179,"idx":49},
+    {"id":"050","section":"main","num":"050","printed":"LED2-EN050","name":"Worm Bait","ctype":"spell","keywords":"Worm Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"43140791","code":"50","tcg":161046,"grp":2179,"idx":50},
+    {"id":"051","section":"main","num":"051","printed":"LED2-EN051","name":"Mimicat","ctype":"spell","keywords":"Toon Normal Spell","stats":{"t":"Normal Spell"},"rarity":"R","img":"88032456","code":"51","tcg":161047,"grp":2179,"idx":51},
+    {"id":"052","section":"main","num":"052","printed":"LED2-EN052","name":"Toon Kingdom","ctype":"spell","keywords":"Toon Field Spell","stats":{"t":"Field Spell"},"rarity":"R","img":"43175858","code":"52","tcg":161048,"grp":2179,"idx":52}
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "id": "yugioh/structure-deck-legend-of-the-crystal-beasts",
+  "game": "yugioh",
+  "slug": "structure-deck-legend-of-the-crystal-beasts",
+  "name": "Structure Deck: Legend of the Crystal Beasts",
+  "series": "SEVENS & GO RUSH!!",
+  "kind": "deck",
+  "code": "SDCB",
+  "syncKey": "YSDCB",
+  "released": "2022-09-29",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "SDCB-EN001–SDCB-EN046",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from SDCB-EN001 to SDCB-EN046."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Structure Deck: Legend of the Crystal Beasts Checklist · All 46 Cards",
+    "description": "Free Yu-Gi-Oh! Structure Deck: Legend of the Crystal Beasts checklist with no ads, no sign-up and no tracking. Track all 46 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Structure Deck: Legend of the Crystal Beasts Checklist",
+    "ogDescription": "Track all 46 cards in Yu-Gi-Oh! Structure Deck: Legend of the Crystal Beasts. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 46 cards in Yu-Gi-Oh! Structure Deck: Legend of the Crystal Beasts. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Structure Deck: Legend of the Crystal Beasts",
+    "paragraphs": [
+      "Structure Deck: Legend of the Crystal Beasts is a Yu-Gi-Oh! TCG deck released on 29 September 2022, in the SEVENS &amp; GO RUSH!! era. It has 46 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Structure Deck: Legend of the Crystal Beasts"
+    ],
+    "tcgplayer": [
+      3096
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"SDCB-EN001","name":"Crystal Beast Ruby Carbuncle","ctype":"monster","keywords":"Crystal Beast Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Fairy / Effect","atk":300,"def":300},"rarity":"C","img":"32710364","code":"1","tcg":286262,"grp":3096,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"SDCB-EN002","name":"Crystal Beast Amethyst Cat","ctype":"monster","keywords":"Crystal Beast Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Beast / Effect","atk":1200,"def":400},"rarity":"C","img":"32933942","code":"2","tcg":286263,"grp":3096,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"SDCB-EN003","name":"Crystal Beast Emerald Tortoise","ctype":"monster","keywords":"Crystal Beast Aqua WATER Effect Monster","stats":{"a":"WATER","l":"Level 3","t":"Aqua / Effect","atk":600,"def":2000},"rarity":"C","img":"68215963","code":"3","tcg":286264,"grp":3096,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"SDCB-EN004","name":"Crystal Beast Topaz Tiger","ctype":"monster","keywords":"Crystal Beast Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Beast / Effect","atk":1600,"def":1000},"rarity":"C","img":"95600067","code":"4","tcg":286265,"grp":3096,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"SDCB-EN005","name":"Crystal Beast Amber Mammoth","ctype":"monster","keywords":"Crystal Beast Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Beast / Effect","atk":1700,"def":1600},"rarity":"C","img":"69937550","code":"5","tcg":286271,"grp":3096,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"SDCB-EN006","name":"Crystal Beast Cobalt Eagle","ctype":"monster","keywords":"Crystal Beast Winged Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Winged Beast / Effect","atk":1400,"def":800},"rarity":"C","img":"21698716","code":"6","tcg":286287,"grp":3096,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"SDCB-EN007","name":"Crystal Beast Sapphire Pegasus","ctype":"monster","keywords":"Crystal Beast Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Beast / Effect","atk":1800,"def":1200},"rarity":"C","img":"7093411","code":"7","tcg":286288,"grp":3096,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"SDCB-EN008","name":"Rainbow Dark Dragon","ctype":"monster","keywords":"Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 10","t":"Dragon / Effect","atk":4000,"def":0},"rarity":"C","img":"79407975","code":"8","tcg":286289,"grp":3096,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"SDCB-EN009","name":"Crystal Master","ctype":"monster","keywords":"Crystal Beast Spellcaster DARK Pendulum Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Spellcaster / Pendulum / Effect","atk":1300,"def":1000},"rarity":"C","img":"87475570","code":"9","tcg":286290,"grp":3096,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"SDCB-EN010","name":"Crystal Keeper","ctype":"monster","keywords":"Crystal Beast Warrior FIRE Pendulum Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Warrior / Pendulum / Effect","atk":1500,"def":1800},"rarity":"C","img":"14469229","code":"10","tcg":286291,"grp":3096,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"SDCB-EN011","name":"Hamon, Lord of Striking Thunder","ctype":"monster","keywords":"Sacred Beast Thunder LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 10","t":"Thunder / Effect","atk":4000,"def":4000},"rarity":"C","img":"32491822","code":"11","tcg":286295,"grp":3096,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"SDCB-EN012","name":"Dimension Shifter","ctype":"monster","keywords":"Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Spellcaster / Effect","atk":1200,"def":2200},"rarity":"C","img":"91800273","code":"12","tcg":286296,"grp":3096,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"SDCB-EN013","name":"Contact \"C\"","ctype":"monster","keywords":"\"C\" Insect EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 6","t":"Insect / Effect","atk":1500,"def":2200},"rarity":"C","img":"87170768","code":"13","tcg":286297,"grp":3096,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"SDCB-EN014","name":"Ash Blossom & Joyous Spring","ctype":"monster","keywords":"Zombie FIRE Tuner Monster","stats":{"a":"FIRE","l":"Level 3","t":"Zombie / Tuner","atk":0,"def":1800},"rarity":"C","img":"14558127","code":"14","tcg":286298,"grp":3096,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"SDCB-EN015","name":"Ghost Belle & Haunted Mansion","ctype":"monster","keywords":"Zombie EARTH Tuner Monster","stats":{"a":"EARTH","l":"Level 3","t":"Zombie / Tuner","atk":0,"def":1800},"rarity":"C","img":"73642296","code":"15","tcg":286299,"grp":3096,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"SDCB-EN016","name":"Awakening of the Crystal Ultimates","ctype":"spell","keywords":"Crystal Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"12877076","code":"16","tcg":286250,"grp":3096,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"SDCB-EN017","name":"Crystal Aegis","ctype":"spell","keywords":"Crystal Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"58371671","code":"17","tcg":286251,"grp":3096,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"SDCB-EN018","name":"Ancient City - Rainbow Ruins","ctype":"spell","keywords":"Crystal Beast Field Spell","stats":{"t":"Field Spell"},"rarity":"C","img":"34487429","code":"18","tcg":286292,"grp":3096,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"SDCB-EN019","name":"Rainbow Bridge","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"63945693","code":"19","tcg":286293,"grp":3096,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"SDCB-EN020","name":"Crystal Beacon","ctype":"spell","keywords":"Crystal Beast Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"95326659","code":"20","tcg":286294,"grp":3096,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"SDCB-EN021","name":"Crystal Blessing","ctype":"spell","keywords":"Crystal Beast Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"35486099","code":"21","tcg":286300,"grp":3096,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"SDCB-EN022","name":"Crystal Abundance","ctype":"spell","keywords":"Crystal Beast Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"72881007","code":"22","tcg":286301,"grp":3096,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"SDCB-EN023","name":"Crystal Promise","ctype":"spell","keywords":"Crystal Beast Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"8275702","code":"23","tcg":286302,"grp":3096,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"SDCB-EN024","name":"Crystal Tree","ctype":"spell","keywords":"Crystal Beast Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"47408488","code":"24","tcg":286303,"grp":3096,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"SDCB-EN025","name":"Crystal Release","ctype":"spell","keywords":"Crystal Beast Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"10004783","code":"25","tcg":286304,"grp":3096,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"SDCB-EN026","name":"Rare Value","ctype":"spell","keywords":"Crystal Beast Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"60876124","code":"26","tcg":286305,"grp":3096,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"SDCB-EN027","name":"Rainbow Refraction","ctype":"spell","keywords":"Crystal Beast Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"40854824","code":"27","tcg":286306,"grp":3096,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"SDCB-EN028","name":"Advanced Dark","ctype":"spell","keywords":"Crystal Beast Field Spell","stats":{"t":"Field Spell"},"rarity":"C","img":"12644061","code":"28","tcg":286307,"grp":3096,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"SDCB-EN029","name":"The Melody of Awakening Dragon","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"48800175","code":"29","tcg":286308,"grp":3096,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"SDCB-EN030","name":"Foolish Burial Goods","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"35726888","code":"30","tcg":286309,"grp":3096,"idx":29},
+    {"id":"031","section":"main","num":"031","printed":"SDCB-EN031","name":"Cosmic Cyclone","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"8267140","code":"31","tcg":286310,"grp":3096,"idx":30},
+    {"id":"032","section":"main","num":"032","printed":"SDCB-EN032","name":"Crystal Boon","ctype":"trap","keywords":"Crystal Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"85766789","code":"32","tcg":286252,"grp":3096,"idx":31},
+    {"id":"033","section":"main","num":"033","printed":"SDCB-EN033","name":"Crystal Miracle","ctype":"trap","keywords":"Crystal Counter Trap","stats":{"t":"Counter Trap"},"rarity":"C","img":"11155484","code":"33","tcg":286253,"grp":3096,"idx":32},
+    {"id":"034","section":"main","num":"034","printed":"SDCB-EN034","name":"Crystal Brilliance","ctype":"trap","keywords":"Crystal Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"47149093","code":"34","tcg":286254,"grp":3096,"idx":33},
+    {"id":"035","section":"main","num":"035","printed":"SDCB-EN035","name":"Crystal Pair","ctype":"trap","keywords":"Crystal Beast Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"47121070","code":"35","tcg":286311,"grp":3096,"idx":34},
+    {"id":"036","section":"main","num":"036","printed":"SDCB-EN036","name":"Crystal Conclave","ctype":"trap","keywords":"Crystal Beast Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"87259933","code":"36","tcg":286312,"grp":3096,"idx":35},
+    {"id":"037","section":"main","num":"037","printed":"SDCB-EN037","name":"Ultimate Crystal Magic","ctype":"trap","keywords":"Crystal Beast Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"36328300","code":"37","tcg":286313,"grp":3096,"idx":36},
+    {"id":"038","section":"main","num":"038","printed":"SDCB-EN038","name":"Counter Gem","ctype":"trap","keywords":"Crystal Beast Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"11136371","code":"38","tcg":286314,"grp":3096,"idx":37},
+    {"id":"039","section":"main","num":"039","printed":"SDCB-EN039","name":"Ferret Flames","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"31044787","code":"39","tcg":286315,"grp":3096,"idx":38},
+    {"id":"040","section":"main","num":"040","printed":"SDCB-EN040","name":"Metaverse","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"89208725","code":"40","tcg":286317,"grp":3096,"idx":39},
+    {"id":"041","section":"main","num":"041","printed":"SDCB-EN041","name":"Rainbow Dragon","ctype":"monster","keywords":"Crystal Beast Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 10","t":"Dragon / Effect","atk":4000,"def":0},"rarity":"UR","img":"79856792","code":"41","tcg":286318,"grp":3096,"idx":40},
+    {"id":"042","section":"main","num":"042","printed":"SDCB-EN042","name":"Ultimate Crystal Rainbow Dragon Overdrive","ctype":"monster","keywords":"Crystal Dragon LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 12","t":"Dragon / Fusion","atk":4000,"def":0},"rarity":"UR","img":"84544192","code":"42","tcg":286257,"grp":3096,"idx":41},
+    {"id":"043","section":"main","num":"043","printed":"SDCB-EN043","name":"Rainbow Overdragon","ctype":"monster","keywords":"Crystal Beast Dragon LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 12","t":"Dragon / Fusion","atk":4000,"def":0},"rarity":"SR","img":"37440988","code":"43","tcg":286320,"grp":3096,"idx":42},
+    {"id":"044","section":"main","num":"044","printed":"SDCB-EN044","name":"Crystal Beast Rainbow Dragon","ctype":"monster","keywords":"Crystal Beast Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Effect","atk":3000,"def":0},"rarity":"UR","img":"36795102","code":"44","tcg":286321,"grp":3096,"idx":43},
+    {"id":"045","section":"main","num":"045","printed":"SDCB-EN045","name":"Rainbow Bridge of the Heart","ctype":"spell","keywords":"Rainbow Bridge Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"UR","img":"10938846","code":"45","tcg":286258,"grp":3096,"idx":44},
+    {"id":"046","section":"main","num":"046","printed":"SDCB-EN046","name":"Crystal Bond","ctype":"spell","keywords":"Crystal Beast Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UR","img":"9334391","code":"46","tcg":286319,"grp":3096,"idx":45}
+  ]
+}

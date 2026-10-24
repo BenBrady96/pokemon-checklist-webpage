@@ -1,0 +1,120 @@
+{
+  "id": "yugioh/hidden-arsenal-5-steelswarm-invasion",
+  "game": "yugioh",
+  "slug": "hidden-arsenal-5-steelswarm-invasion",
+  "name": "Hidden Arsenal 5: Steelswarm Invasion",
+  "series": "ZEXAL",
+  "kind": "set",
+  "code": "HA05",
+  "syncKey": "YHA05",
+  "released": "2011-12-01",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Main Set",
+      "range": "HA05-EN001–HA05-EN060",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from HA05-EN001 to HA05-EN060."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Hidden Arsenal 5: Steelswarm Invasion Checklist · All 60 Cards",
+    "description": "Free Yu-Gi-Oh! Hidden Arsenal 5: Steelswarm Invasion checklist with no ads, no sign-up and no tracking. Track all 60 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Hidden Arsenal 5: Steelswarm Invasion Checklist",
+    "ogDescription": "Track all 60 cards in Yu-Gi-Oh! Hidden Arsenal 5: Steelswarm Invasion. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 60 cards in Yu-Gi-Oh! Hidden Arsenal 5: Steelswarm Invasion. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About the Hidden Arsenal 5: Steelswarm Invasion set",
+    "paragraphs": [
+      "Hidden Arsenal 5: Steelswarm Invasion is a Yu-Gi-Oh! TCG special set released on 1 December 2011, in the ZEXAL era. It has 60 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Hidden Arsenal 5: Steelswarm Invasion"
+    ],
+    "tcgplayer": [
+      228
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"HA05-EN001","name":"Gem-Knight Garnet","ctype":"monster","keywords":"Gem- Pyro EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 4","t":"Pyro / Normal","atk":1900,"def":0},"rarity":"SR","img":"91731841","code":"1","tcg":57389,"grp":228,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"HA05-EN002","name":"Gem-Knight Sapphire","ctype":"monster","keywords":"Gem- Aqua EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 4","t":"Aqua / Normal","atk":0,"def":2100},"rarity":"SR","img":"27126980","code":"2","tcg":57390,"grp":228,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"HA05-EN003","name":"Gem-Knight Tourmaline","ctype":"monster","keywords":"Gem- Thunder EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 4","t":"Thunder / Normal","atk":1600,"def":1800},"rarity":"SR","img":"54620698","code":"3","tcg":57391,"grp":228,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"HA05-EN004","name":"Gem-Knight Alexandrite","ctype":"monster","keywords":"Gem- Rock EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Rock / Effect","atk":1800,"def":1200},"rarity":"ScR","img":"90019393","code":"4","tcg":57392,"grp":228,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"HA05-EN005","name":"Gem-Armadillo","ctype":"monster","keywords":"Gem- Rock EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Rock / Effect","atk":1700,"def":500},"rarity":"ScR","img":"27004302","code":"5","tcg":57393,"grp":228,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"HA05-EN006","name":"Gem-Merchant","ctype":"monster","keywords":"Gem- Spellcaster EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Spellcaster / Effect","atk":1000,"def":1000},"rarity":"SR","img":"53408006","code":"6","tcg":57394,"grp":228,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"HA05-EN007","name":"Laval Miller","ctype":"monster","keywords":"Laval Pyro FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 3","t":"Pyro / Effect","atk":300,"def":400},"rarity":"SR","img":"89893715","code":"7","tcg":57395,"grp":228,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"HA05-EN008","name":"Soaring Eagle Above the Searing Land","ctype":"monster","keywords":"Laval Winged Beast FIRE Tuner Monster","stats":{"a":"FIRE","l":"Level 1","t":"Winged Beast / Tuner","atk":100,"def":0},"rarity":"SR","img":"26381750","code":"8","tcg":57396,"grp":228,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"HA05-EN009","name":"Laval Warrior","ctype":"monster","keywords":"Laval Warrior FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Warrior / Effect","atk":1800,"def":500},"rarity":"SR","img":"52786469","code":"9","tcg":57397,"grp":228,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"HA05-EN010","name":"Prominence, Molten Swordsman","ctype":"monster","keywords":"Laval Beast-Warrior FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Beast-Warrior / Effect","atk":1800,"def":600},"rarity":"SR","img":"89770167","code":"10","tcg":57398,"grp":228,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"HA05-EN011","name":"Laval Forest Sprite","ctype":"monster","keywords":"Laval Pyro FIRE Tuner Monster","stats":{"a":"FIRE","l":"Level 2","t":"Pyro / Tuner","atk":300,"def":200},"rarity":"SR","img":"15169262","code":"11","tcg":57399,"grp":228,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"HA05-EN012","name":"Kayenn, the Master Magma Blacksmith","ctype":"monster","keywords":"Laval Rock FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 3","t":"Rock / Effect","atk":1200,"def":200},"rarity":"SR","img":"51554871","code":"12","tcg":57400,"grp":228,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"HA05-EN013","name":"Laval Burner","ctype":"monster","keywords":"Laval Pyro FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 5","t":"Pyro / Effect","atk":2100,"def":1000},"rarity":"SR","img":"88958576","code":"13","tcg":57401,"grp":228,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"HA05-EN014","name":"Laval Judgment Lord","ctype":"monster","keywords":"Laval Warrior FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 7","t":"Warrior / Effect","atk":2700,"def":1800},"rarity":"ScR","img":"14047624","code":"14","tcg":57402,"grp":228,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"HA05-EN015","name":"Vylon Cube","ctype":"monster","keywords":"Vylon Machine LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Machine / Tuner","atk":800,"def":800},"rarity":"SR","img":"41431329","code":"15","tcg":57403,"grp":228,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"HA05-EN016","name":"Vylon Vanguard","ctype":"monster","keywords":"Vylon Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fairy / Effect","atk":1400,"def":1000},"rarity":"SR","img":"87836938","code":"16","tcg":57404,"grp":228,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"HA05-EN017","name":"Vylon Charger","ctype":"monster","keywords":"Vylon Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fairy / Effect","atk":1000,"def":1000},"rarity":"SR","img":"13220032","code":"17","tcg":57405,"grp":228,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"HA05-EN018","name":"Vylon Soldier","ctype":"monster","keywords":"Vylon Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fairy / Effect","atk":1700,"def":1000},"rarity":"SR","img":"40619741","code":"18","tcg":57406,"grp":228,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"HA05-EN019","name":"Gem-Knight Ruby","ctype":"monster","keywords":"Gem- Pyro EARTH Fusion Monster","stats":{"a":"EARTH","l":"Level 6","t":"Pyro / Fusion","atk":2500,"def":1300},"rarity":"ScR","img":"76614340","code":"19","tcg":57407,"grp":228,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"HA05-EN020","name":"Gem-Knight Aquamarine","ctype":"monster","keywords":"Gem- Aqua EARTH Fusion Monster","stats":{"a":"EARTH","l":"Level 6","t":"Aqua / Fusion","atk":1400,"def":2600},"rarity":"ScR","img":"13108445","code":"20","tcg":57408,"grp":228,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"HA05-EN021","name":"Gem-Knight Topaz","ctype":"monster","keywords":"Gem- Thunder EARTH Fusion Monster","stats":{"a":"EARTH","l":"Level 6","t":"Thunder / Fusion","atk":1800,"def":1800},"rarity":"ScR","img":"49597193","code":"21","tcg":57409,"grp":228,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"HA05-EN022","name":"Lavalval Dragon","ctype":"monster","keywords":"Laval Dragon FIRE Synchro Monster","stats":{"a":"FIRE","l":"Level 5","t":"Dragon / Synchro","atk":2000,"def":1100},"rarity":"ScR","img":"75991898","code":"22","tcg":57410,"grp":228,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"HA05-EN023","name":"Laval the Greater","ctype":"monster","keywords":"Laval Warrior FIRE Synchro Monster","stats":{"a":"FIRE","l":"Level 6","t":"Warrior / Synchro","atk":2400,"def":800},"rarity":"ScR","img":"12986807","code":"23","tcg":57411,"grp":228,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"HA05-EN024","name":"Vylon Sigma","ctype":"monster","keywords":"Vylon Fairy LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 7","t":"Fairy / Synchro","atk":1800,"def":1000},"rarity":"ScR","img":"48370501","code":"24","tcg":57412,"grp":228,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"HA05-EN025","name":"Vylon Epsilon","ctype":"monster","keywords":"Vylon Fairy LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Fairy / Synchro","atk":2800,"def":1200},"rarity":"ScR","img":"75779210","code":"25","tcg":57413,"grp":228,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"HA05-EN026","name":"Gem-Knight Fusion","ctype":"spell","keywords":"Gem- Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"1264319","code":"26","tcg":57414,"grp":228,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"HA05-EN027","name":"Searing Fire Wall","ctype":"spell","keywords":"Laval Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"SR","img":"47658964","code":"27","tcg":57415,"grp":228,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"HA05-EN028","name":"Vylon Material","ctype":"spell","keywords":"Vylon Equip Spell","stats":{"t":"Equip Spell"},"rarity":"SR","img":"74657662","code":"28","tcg":57416,"grp":228,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"HA05-EN029","name":"Gem-Enhancement","ctype":"trap","keywords":"Gem- Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"41777","code":"29","tcg":57417,"grp":228,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"HA05-EN030","name":"Molten Whirlwind Wall","ctype":"trap","keywords":"Laval Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"SR","img":"37436476","code":"30","tcg":57418,"grp":228,"idx":29},
+    {"id":"031","section":"main","num":"031","printed":"HA05-EN031","name":"Gishki Abyss","ctype":"monster","keywords":"Gishki Fish WATER Effect Monster","stats":{"a":"WATER","l":"Level 2","t":"Fish / Effect","atk":800,"def":500},"rarity":"SR","img":"67111213","code":"31","tcg":57419,"grp":228,"idx":30},
+    {"id":"032","section":"main","num":"032","printed":"HA05-EN032","name":"Gishki Vanity","ctype":"monster","keywords":"Gishki Aqua WATER Effect Monster","stats":{"a":"WATER","l":"Level 2","t":"Aqua / Effect","atk":1000,"def":800},"rarity":"SR","img":"93506862","code":"32","tcg":57420,"grp":228,"idx":31},
+    {"id":"033","section":"main","num":"033","printed":"HA05-EN033","name":"Gishki Marker","ctype":"monster","keywords":"Gishki Aqua WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Aqua / Effect","atk":1600,"def":1200},"rarity":"SR","img":"39905966","code":"33","tcg":57421,"grp":228,"idx":32},
+    {"id":"034","section":"main","num":"034","printed":"HA05-EN034","name":"Gishki Chain","ctype":"monster","keywords":"Gishki Sea Serpent WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Sea Serpent / Effect","atk":1800,"def":1000},"rarity":"ScR","img":"66399675","code":"34","tcg":57422,"grp":228,"idx":33},
+    {"id":"035","section":"main","num":"035","printed":"HA05-EN035","name":"Gishki Ariel","ctype":"monster","keywords":"Gishki Spellcaster WATER Flip Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Spellcaster / Flip / Effect","atk":1000,"def":1800},"rarity":"SR","img":"92784374","code":"35","tcg":57423,"grp":228,"idx":34},
+    {"id":"036","section":"main","num":"036","printed":"HA05-EN036","name":"Gishki Shadow","ctype":"monster","keywords":"Gishki Sea Serpent WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Sea Serpent / Effect","atk":1200,"def":1000},"rarity":"SR","img":"29888389","code":"36","tcg":57424,"grp":228,"idx":35},
+    {"id":"037","section":"main","num":"037","printed":"HA05-EN037","name":"Gusto Gulldo","ctype":"monster","keywords":"Gusto Winged Beast WIND Tuner Monster","stats":{"a":"WIND","l":"Level 3","t":"Winged Beast / Tuner","atk":500,"def":500},"rarity":"SR","img":"65277087","code":"37","tcg":57425,"grp":228,"idx":36},
+    {"id":"038","section":"main","num":"038","printed":"HA05-EN038","name":"Gusto Egul","ctype":"monster","keywords":"Gusto Winged Beast WIND Tuner Monster","stats":{"a":"WIND","l":"Level 1","t":"Winged Beast / Tuner","atk":200,"def":400},"rarity":"SR","img":"91662792","code":"38","tcg":57426,"grp":228,"idx":37},
+    {"id":"039","section":"main","num":"039","printed":"HA05-EN039","name":"Gusto Thunbolt","ctype":"monster","keywords":"Gusto Thunder WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Thunder / Effect","atk":1500,"def":1200},"rarity":"SR","img":"28066831","code":"39","tcg":57427,"grp":228,"idx":38},
+    {"id":"040","section":"main","num":"040","printed":"HA05-EN040","name":"Winda, Priestess of Gusto","ctype":"monster","keywords":"Gusto Psychic WIND Effect Monster","stats":{"a":"WIND","l":"Level 2","t":"Psychic / Effect","atk":1000,"def":400},"rarity":"SR","img":"54455435","code":"40","tcg":57428,"grp":228,"idx":39},
+    {"id":"041","section":"main","num":"041","printed":"HA05-EN041","name":"Caam, Serenity of Gusto","ctype":"monster","keywords":"Gusto Psychic WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Psychic / Effect","atk":1700,"def":1100},"rarity":"ScR","img":"91449144","code":"41","tcg":57429,"grp":228,"idx":40},
+    {"id":"042","section":"main","num":"042","printed":"HA05-EN042","name":"Windaar, Sage of Gusto","ctype":"monster","keywords":"Gusto Psychic WIND Effect Monster","stats":{"a":"WIND","l":"Level 6","t":"Psychic / Effect","atk":2000,"def":1000},"rarity":"SR","img":"27944249","code":"42","tcg":57430,"grp":228,"idx":41},
+    {"id":"043","section":"main","num":"043","printed":"HA05-EN043","name":"Steelswarm Cell","ctype":"monster","keywords":"Steelswarm Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Fiend / Effect","atk":0,"def":0},"rarity":"SR","img":"54338958","code":"43","tcg":57431,"grp":228,"idx":42},
+    {"id":"044","section":"main","num":"044","printed":"HA05-EN044","name":"Steelswarm Scout","ctype":"monster","keywords":"Steelswarm Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Fiend / Effect","atk":200,"def":0},"rarity":"SR","img":"90727556","code":"44","tcg":57432,"grp":228,"idx":43},
+    {"id":"045","section":"main","num":"045","printed":"HA05-EN045","name":"Steelswarm Gatekeeper","ctype":"monster","keywords":"Steelswarm Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Effect","atk":1500,"def":1900},"rarity":"SR","img":"26722601","code":"45","tcg":57433,"grp":228,"idx":44},
+    {"id":"046","section":"main","num":"046","printed":"HA05-EN046","name":"Steelswarm Caller","ctype":"monster","keywords":"Steelswarm Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Effect","atk":1700,"def":0},"rarity":"SR","img":"53116300","code":"46","tcg":57434,"grp":228,"idx":45},
+    {"id":"047","section":"main","num":"047","printed":"HA05-EN047","name":"Steelswarm Mantis","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 5","t":"Fiend / Effect","atk":2200,"def":0},"rarity":"ScR","img":"85505315","code":"47","tcg":57435,"grp":228,"idx":46},
+    {"id":"048","section":"main","num":"048","printed":"HA05-EN048","name":"Steelswarm Moth","ctype":"monster","keywords":"Steelswarm Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Fiend / Effect","atk":2400,"def":0},"rarity":"SR","img":"22009013","code":"48","tcg":57436,"grp":228,"idx":47},
+    {"id":"049","section":"main","num":"049","printed":"HA05-EN049","name":"Steelswarm Girastag","ctype":"monster","keywords":"Steelswarm Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Fiend / Effect","atk":2600,"def":0},"rarity":"ScR","img":"58494728","code":"49","tcg":57437,"grp":228,"idx":48},
+    {"id":"050","section":"main","num":"050","printed":"HA05-EN050","name":"Steelswarm Caucastag","ctype":"monster","keywords":"Steelswarm Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Fiend / Effect","atk":2800,"def":0},"rarity":"ScR","img":"84488827","code":"50","tcg":57438,"grp":228,"idx":49},
+    {"id":"051","section":"main","num":"051","printed":"HA05-EN051","name":"Evigishki Mind Augus","ctype":"monster","keywords":"Gishki Aqua WATER Ritual Effect Monster","stats":{"a":"WATER","l":"Level 6","t":"Aqua / Ritual / Effect","atk":2500,"def":2000},"rarity":"ScR","img":"11877465","code":"51","tcg":57439,"grp":228,"idx":50},
+    {"id":"052","section":"main","num":"052","printed":"HA05-EN052","name":"Evigishki Soul Ogre","ctype":"monster","keywords":"Gishki Aqua WATER Ritual Effect Monster","stats":{"a":"WATER","l":"Level 8","t":"Aqua / Ritual / Effect","atk":2800,"def":2800},"rarity":"ScR","img":"57272170","code":"52","tcg":57440,"grp":228,"idx":51},
+    {"id":"053","section":"main","num":"053","printed":"HA05-EN053","name":"Daigusto Gulldos","ctype":"monster","keywords":"Gusto Psychic WIND Synchro Monster","stats":{"a":"WIND","l":"Level 5","t":"Psychic / Synchro","atk":2200,"def":800},"rarity":"ScR","img":"84766279","code":"53","tcg":57441,"grp":228,"idx":52},
+    {"id":"054","section":"main","num":"054","printed":"HA05-EN054","name":"Daigusto Eguls","ctype":"monster","keywords":"Gusto Psychic WIND Synchro Monster","stats":{"a":"WIND","l":"Level 7","t":"Psychic / Synchro","atk":2600,"def":1800},"rarity":"ScR","img":"10755984","code":"54","tcg":57442,"grp":228,"idx":53},
+    {"id":"055","section":"main","num":"055","printed":"HA05-EN055","name":"Gishki Aquamirror","ctype":"spell","keywords":"Gishki Ritual Spell","stats":{"t":"Ritual Spell"},"rarity":"SR","img":"46159582","code":"55","tcg":57443,"grp":228,"idx":54},
+    {"id":"056","section":"main","num":"056","printed":"HA05-EN056","name":"Contact with Gusto","ctype":"spell","keywords":"Gusto Normal Spell","stats":{"t":"Normal Spell"},"rarity":"ScR","img":"83544697","code":"56","tcg":57444,"grp":228,"idx":55},
+    {"id":"057","section":"main","num":"057","printed":"HA05-EN057","name":"First Step Towards Infestation","ctype":"spell","keywords":"Infestation Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"SR","img":"19932396","code":"57","tcg":57445,"grp":228,"idx":56},
+    {"id":"058","section":"main","num":"058","printed":"HA05-EN058","name":"Aquamirror Meditation","ctype":"trap","keywords":"Gishki Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"46337945","code":"58","tcg":57446,"grp":228,"idx":57},
+    {"id":"059","section":"main","num":"059","printed":"HA05-EN059","name":"Blessings for Gusto","ctype":"trap","keywords":"Gusto Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"82422049","code":"59","tcg":57447,"grp":228,"idx":58},
+    {"id":"060","section":"main","num":"060","printed":"HA05-EN060","name":"Infestation Wave","ctype":"trap","keywords":"Infestation Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"18816758","code":"60","tcg":57448,"grp":228,"idx":59}
+  ]
+}

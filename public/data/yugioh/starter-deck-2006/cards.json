@@ -1,0 +1,100 @@
+{
+  "id": "yugioh/starter-deck-2006",
+  "game": "yugioh",
+  "slug": "starter-deck-2006",
+  "name": "Starter Deck 2006",
+  "series": "GX",
+  "kind": "deck",
+  "code": "YSD",
+  "syncKey": "YYSD",
+  "released": "2006-03-23",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "YSD-EN001–YSD-EN040",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from YSD-EN001 to YSD-EN040."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Starter Deck 2006 Checklist · All 40 Cards",
+    "description": "Free Yu-Gi-Oh! Starter Deck 2006 checklist with no ads, no sign-up and no tracking. Track all 40 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Starter Deck 2006 Checklist",
+    "ogDescription": "Track all 40 cards in Yu-Gi-Oh! Starter Deck 2006. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 40 cards in Yu-Gi-Oh! Starter Deck 2006. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Starter Deck 2006",
+    "paragraphs": [
+      "Starter Deck 2006 is a Yu-Gi-Oh! TCG deck released on 23 March 2006, in the GX era. It has 40 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Starter Deck 2006"
+    ],
+    "tcgplayer": [
+      291
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"YSD-EN001","name":"Gazelle the King of Mythical Beasts","ctype":"monster","keywords":"Beast EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 4","t":"Beast / Normal","atk":1500,"def":1200},"rarity":"C","img":"5818798","code":"1","tcg":25121,"grp":291,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"YSD-EN002","name":"Warrior Dai Grepher","ctype":"monster","keywords":"Grepher Warrior EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Normal","atk":1700,"def":1600},"rarity":"C","img":"75953262","code":"2","tcg":25122,"grp":291,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"YSD-EN003","name":"Luster Dragon #2","ctype":"monster","keywords":"Dragon WIND Normal Monster","stats":{"a":"WIND","l":"Level 6","t":"Dragon / Normal","atk":2400,"def":1400},"rarity":"C","img":"17658803","code":"3","tcg":25123,"grp":291,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"YSD-EN004","name":"Dark Blade","ctype":"monster","keywords":"Dark World Warrior DARK Normal Monster","stats":{"a":"DARK","l":"Level 4","t":"Warrior / Normal","atk":1800,"def":1500},"rarity":"C","img":"11321183","code":"4","tcg":25124,"grp":291,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"YSD-EN005","name":"Luster Dragon","ctype":"monster","keywords":"Dragon WIND Normal Monster","stats":{"a":"WIND","l":"Level 4","t":"Dragon / Normal","atk":1900,"def":1600},"rarity":"C","img":"11091375","code":"5","tcg":25125,"grp":291,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"YSD-EN006","name":"Warrior of Zera","ctype":"monster","keywords":"Warrior EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Normal","atk":1600,"def":1600},"rarity":"C","img":"66073051","code":"6","tcg":25126,"grp":291,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"YSD-EN007","name":"Elemental HERO Avian","ctype":"monster","keywords":"Elemental HERO Warrior WIND Normal Monster","stats":{"a":"WIND","l":"Level 3","t":"Warrior / Normal","atk":1000,"def":1000},"rarity":"C","img":"21844576","code":"7","tcg":25127,"grp":291,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"YSD-EN008","name":"Elemental HERO Burstinatrix","ctype":"monster","keywords":"Elemental HERO Warrior FIRE Normal Monster","stats":{"a":"FIRE","l":"Level 3","t":"Warrior / Normal","atk":1200,"def":800},"rarity":"C","img":"58932615","code":"8","tcg":25128,"grp":291,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"YSD-EN009","name":"Elemental HERO Clayman","ctype":"monster","keywords":"Elemental HERO Warrior EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Normal","atk":800,"def":2000},"rarity":"C","img":"84327329","code":"9","tcg":25129,"grp":291,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"YSD-EN010","name":"Elemental HERO Sparkman","ctype":"monster","keywords":"Elemental HERO Warrior LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Normal","atk":1600,"def":1400},"rarity":"C","img":"20721928","code":"10","tcg":25130,"grp":291,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"YSD-EN011","name":"Skelengel","ctype":"monster","keywords":"Fairy LIGHT Flip Effect Monster","stats":{"a":"LIGHT","l":"Level 2","t":"Fairy / Flip / Effect","atk":900,"def":400},"rarity":"C","img":"60694662","code":"11","tcg":25131,"grp":291,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"YSD-EN012","name":"Magician of Faith","ctype":"monster","keywords":"Spellcaster LIGHT Flip Effect Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Spellcaster / Flip / Effect","atk":300,"def":400},"rarity":"C","img":"31560081","code":"12","tcg":25132,"grp":291,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"YSD-EN013","name":"Kuriboh","ctype":"monster","keywords":"Kuriboh Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Fiend / Effect","atk":300,"def":200},"rarity":"C","img":"40640057","code":"13","tcg":25133,"grp":291,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"YSD-EN014","name":"Princess of Tsurugi","ctype":"monster","keywords":"Warrior WIND Flip Effect Monster","stats":{"a":"WIND","l":"Level 3","t":"Warrior / Flip / Effect","atk":900,"def":700},"rarity":"C","img":"51371017","code":"14","tcg":25134,"grp":291,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"YSD-EN015","name":"Spear Dragon","ctype":"monster","keywords":"Dragon WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Dragon / Effect","atk":1900,"def":0},"rarity":"C","img":"31553716","code":"15","tcg":25135,"grp":291,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"YSD-EN016","name":"Spirit Caller","ctype":"monster","keywords":"Spellcaster LIGHT Flip Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Spellcaster / Flip / Effect","atk":1000,"def":1000},"rarity":"C","img":"48659020","code":"16","tcg":25136,"grp":291,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"YSD-EN017","name":"The Trojan Horse","ctype":"monster","keywords":"Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Beast / Effect","atk":1600,"def":1200},"rarity":"C","img":"38479725","code":"17","tcg":25137,"grp":291,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"YSD-EN018","name":"Mirage Dragon","ctype":"monster","keywords":"Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Dragon / Effect","atk":1600,"def":600},"rarity":"C","img":"15960641","code":"18","tcg":25138,"grp":291,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"YSD-EN019","name":"Elemental HERO Bladedge","ctype":"monster","keywords":"Elemental HERO Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 7","t":"Warrior / Effect","atk":2600,"def":1800},"rarity":"UR","img":"59793705","code":"19","tcg":25139,"grp":291,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"YSD-EN020","name":"Ookazi","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"19523799","code":"20","tcg":25140,"grp":291,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"YSD-EN021","name":"Black Pendant","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"65169794","code":"21","tcg":25141,"grp":291,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"YSD-EN022","name":"Gaia Power","ctype":"spell","keywords":"Field Spell","stats":{"t":"Field Spell"},"rarity":"C","img":"56594520","code":"22","tcg":25142,"grp":291,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"YSD-EN023","name":"Premature Burial","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"70828912","code":"23","tcg":25143,"grp":291,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"YSD-EN024","name":"Red Medicine","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"38199696","code":"24","tcg":25144,"grp":291,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"YSD-EN025","name":"Fissure","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"66788016","code":"25","tcg":25145,"grp":291,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"YSD-EN026","name":"Tribute to the Doomed","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"79759861","code":"26","tcg":25146,"grp":291,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"YSD-EN027","name":"Heavy Storm","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"19613556","code":"27","tcg":25147,"grp":291,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"YSD-EN028","name":"The Warrior Returning Alive","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"95281259","code":"28","tcg":25148,"grp":291,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"YSD-EN029","name":"Dark Factory of Mass Production","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"90928333","code":"29","tcg":25149,"grp":291,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"YSD-EN030","name":"Monster Reincarnation","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"74848038","code":"30","tcg":25150,"grp":291,"idx":29},
+    {"id":"031","section":"main","num":"031","printed":"YSD-EN031","name":"Brain Control","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"87910978","code":"31","tcg":25151,"grp":291,"idx":30},
+    {"id":"032","section":"main","num":"032","printed":"YSD-EN032","name":"Reinforcements","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"17814387","code":"32","tcg":25152,"grp":291,"idx":31},
+    {"id":"033","section":"main","num":"033","printed":"YSD-EN033","name":"Castle Walls","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"44209392","code":"33","tcg":25153,"grp":291,"idx":32},
+    {"id":"034","section":"main","num":"034","printed":"YSD-EN034","name":"Ready for Intercepting","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"31785398","code":"34","tcg":25154,"grp":291,"idx":33},
+    {"id":"035","section":"main","num":"035","printed":"YSD-EN035","name":"Dust Tornado","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"60082869","code":"35","tcg":25155,"grp":291,"idx":34},
+    {"id":"036","section":"main","num":"036","printed":"YSD-EN036","name":"Jar of Greed","ctype":"trap","keywords":"Greed Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"83968380","code":"36","tcg":25156,"grp":291,"idx":35},
+    {"id":"037","section":"main","num":"037","printed":"YSD-EN037","name":"Sakuretsu Armor","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"56120475","code":"37","tcg":25157,"grp":291,"idx":36},
+    {"id":"038","section":"main","num":"038","printed":"YSD-EN038","name":"Compulsory Evacuation Device","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"94192409","code":"38","tcg":25158,"grp":291,"idx":37},
+    {"id":"039","section":"main","num":"039","printed":"YSD-EN039","name":"Cemetary Bomb","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"51394546","code":"39","tcg":25159,"grp":291,"idx":38},
+    {"id":"040","section":"main","num":"040","printed":"YSD-EN040","name":"Magic Cylinder","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"62279055","code":"40","tcg":25160,"grp":291,"idx":39}
+  ]
+}

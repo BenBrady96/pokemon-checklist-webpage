@@ -1,0 +1,134 @@
+{
+  "id": "yugioh/promos-2020",
+  "game": "yugioh",
+  "slug": "promos-2020",
+  "name": "Promos 2020",
+  "series": "Promos",
+  "kind": "promo",
+  "code": "P2020",
+  "syncKey": "YP2020",
+  "released": "2020-01-01",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "2020-EN001–YA07-EN001",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. Numbers count down the list in order: <b>1-5</b> is the first five cards and <b>3x2</b> is two copies of the third.",
+    "empty": "Cards run from 2020-EN001 to YA07-EN001."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Promos 2020 Checklist · All 36 Cards",
+    "description": "Free Yu-Gi-Oh! Promos 2020 checklist with no ads, no sign-up and no tracking. Track all 36 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Promos 2020 Checklist",
+    "ogDescription": "Track all 36 cards in Yu-Gi-Oh! Promos 2020. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 36 cards in Yu-Gi-Oh! Promos 2020. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Promos 2020",
+    "paragraphs": [
+      "Promos 2020 gathers the 36 promo cards from 31 products released in 2020: KC Grand Tournament prize card, Eternity Code Premiere! promotional card, Ignition Assault Special Edition, Ignition Assault Sneak Peek Participation Card, SJ Jump Pack Spring 2020 promotional card, The Lost Art Promotion N, The Lost Art Promotion O, The Lost Art Promotion 2020 D, The Lost Art Promotion 2020 E, The Lost Art Promotion 2020 F, The Lost Art Promotion 2020 G, The Lost Art Promotion 2020 H, The Lost Art Promotion 2020 I, The Lost Art Promotion 2020 J, The Lost Art Promotion 2020 K, The Lost Art Promotion 2020 L, The Lost Art Promotion 2020 M, The Lost Art Promotion 2020 N, The Lost Art Promotion 2020 O, The Lost Art Promotion 2020 P, The Lost Art Promotion 2020 Q, The Lost Art Promotion 2020 R, 2020 Tin of Lost Memories, Trials of the Pharaoh - Trials of the Kingdom promotional card, Trials of the Pharaoh - Match of the Millennium &amp; Twisted Nightmares promotional card, Trials of the Pharaoh - Speed Duel: Battle City Box promotional card, Phantom Rage Premiere! promotional card, Rise of the Duelist Premiere! promotional card, Remote Duel at Home Sweepstakes, Yu-Gi-Oh! at Home Sweepstakes and Yu-Gi-Oh! ARC-V Volume 7 promotional card.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "2020 Tin of Lost Memories",
+      "Eternity Code Premiere! promotional card",
+      "Ignition Assault Sneak Peek Participation Card",
+      "Ignition Assault Special Edition",
+      "KC Grand Tournament prize card",
+      "Phantom Rage Premiere! promotional card",
+      "Remote Duel at Home Sweepstakes",
+      "Rise of the Duelist Premiere! promotional card",
+      "SJ Jump Pack Spring 2020 promotional card",
+      "The Lost Art Promotion 2020 D",
+      "The Lost Art Promotion 2020 E",
+      "The Lost Art Promotion 2020 F",
+      "The Lost Art Promotion 2020 G",
+      "The Lost Art Promotion 2020 H",
+      "The Lost Art Promotion 2020 I",
+      "The Lost Art Promotion 2020 J",
+      "The Lost Art Promotion 2020 K",
+      "The Lost Art Promotion 2020 L",
+      "The Lost Art Promotion 2020 M",
+      "The Lost Art Promotion 2020 N",
+      "The Lost Art Promotion 2020 O",
+      "The Lost Art Promotion 2020 P",
+      "The Lost Art Promotion 2020 Q",
+      "The Lost Art Promotion 2020 R",
+      "The Lost Art Promotion N",
+      "The Lost Art Promotion O",
+      "Trials of the Pharaoh - Match of the Millennium & Twisted Nightmares promotional card",
+      "Trials of the Pharaoh - Speed Duel: Battle City Box promotional card",
+      "Trials of the Pharaoh - Trials of the Kingdom promotional card",
+      "Yu-Gi-Oh! ARC-V Volume 7 promotional card",
+      "Yu-Gi-Oh! at Home Sweepstakes"
+    ],
+    "tcgplayer": [
+      2196,
+      2578,
+      2718,
+      2680,
+      2625,
+      2694,
+      2674,
+      281,
+      1918
+    ]
+  },
+  "cards": [
+    {"id":"2020-001","section":"main","num":"2020-EN001","printed":"2020-EN001","name":"Blue-Eyes White Dragon","ctype":"monster","keywords":"Blue-Eyes Dragon LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Normal","atk":3000,"def":2500},"note":"KC Grand Tournament prize card","rarity":"EScR","img":"89631139","code":"1","idx":0},
+    {"id":"ETCO-SP1","section":"main","num":"ETCO-ENSP1","printed":"ETCO-ENSP1","name":"Malice, Lady of Lament","ctype":"monster","keywords":"Lady of Lament Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Fiend / Effect","atk":1000,"def":1000},"note":"Eternity Code Premiere! promotional card","rarity":"UR","img":"25643346","code":"2","tcg":229498,"grp":2625,"idx":1},
+    {"id":"IGAS-SE1","section":"main","num":"IGAS-ENSE1","printed":"IGAS-ENSE1","name":"Cyberse Accelerator","ctype":"monster","keywords":"Cyberse LIGHT Link Monster","stats":{"a":"LIGHT","l":"Link 3","t":"Cyberse / Link","atk":2000},"note":"Ignition Assault Special Edition","rarity":"SR","img":"89238128","code":"3","tcg":210100,"grp":2578,"idx":2},
+    {"id":"IGAS-SE2","section":"main","num":"IGAS-ENSE2","printed":"IGAS-ENSE2","name":"Gouki Destroy Ogre","ctype":"monster","keywords":"Gouki Warrior EARTH Link Monster","stats":{"a":"EARTH","l":"Link 4","t":"Warrior / Link","atk":2800},"note":"Ignition Assault Special Edition","rarity":"SR","img":"88406570","code":"4","tcg":210101,"grp":2578,"idx":3},
+    {"id":"IGAS-SE3","section":"main","num":"IGAS-ENSE3","printed":"IGAS-ENSE3","name":"Gouki Guts","ctype":"monster","keywords":"Gouki Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 1","t":"Warrior / Effect","atk":800,"def":0},"note":"Ignition Assault Special Edition","rarity":"SR","img":"7540107","code":"5","tcg":210102,"grp":2578,"idx":4},
+    {"id":"IGAS-SE4","section":"main","num":"IGAS-ENSE4","printed":"IGAS-ENSE4","name":"Unchained Twins - Sarama","ctype":"monster","keywords":"Unchained Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Fiend / Effect","atk":1500,"def":1500},"note":"Ignition Assault Special Edition","rarity":"SR","img":"31588572","code":"6","tcg":210103,"grp":2578,"idx":5},
+    {"id":"IGAS-SP1","section":"main","num":"IGAS-ENSP1","printed":"IGAS-ENSP1","name":"Sky Striker Maneuver - Scissors Cross","ctype":"spell","keywords":"Sky Striker Normal Spell","stats":{"t":"Normal Spell"},"note":"Ignition Assault Sneak Peek Participation Card","rarity":"UR","img":"46271408","code":"7","tcg":209317,"grp":2578,"idx":6},
+    {"id":"JMPS-S01","section":"main","num":"JMPS-ENS01","printed":"JMPS-ENS01","name":"Beatdown!","ctype":"skill","keywords":"Kaiba Skill","stats":{"t":"Skill · Kaiba"},"note":"SJ Jump Pack Spring 2020 promotional card","rarity":"UR","img":"300202002","code":"8","tcg":217826,"grp":281,"idx":7},
+    {"id":"LART-014","section":"main","num":"LART-EN014","printed":"LART-EN014","name":"Solemn Judgment","ctype":"trap","keywords":"Solemn Counter Trap","stats":{"t":"Counter Trap"},"note":"The Lost Art Promotion N","rarity":"UR","img":"41420027","code":"9","tcg":209098,"grp":2196,"idx":8},
+    {"id":"LART-015","section":"main","num":"LART-EN015","printed":"LART-EN015","name":"Edge Imp Sabres","ctype":"monster","keywords":"Edge Imp Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Fiend / Effect","atk":1200,"def":800},"note":"The Lost Art Promotion O","rarity":"UR","img":"30068120","code":"10","tcg":211805,"grp":2196,"idx":9},
+    {"id":"LART-016","section":"main","num":"LART-EN016","printed":"LART-EN016","name":"Foolish Burial","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"note":"The Lost Art Promotion 2020 D","rarity":"UR","img":"81439173","code":"11","tcg":215605,"grp":2196,"idx":10},
+    {"id":"LART-017","section":"main","num":"LART-EN017","printed":"LART-EN017","name":"Offerings to the Doomed","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"note":"The Lost Art Promotion 2020 E","rarity":"UR","img":"19230407","code":"12","tcg":216501,"grp":2196,"idx":11},
+    {"id":"LART-018","section":"main","num":"LART-EN018","printed":"LART-EN018","name":"Superdreadnought Rail Cannon Gustav Max","ctype":"monster","keywords":"Train Machine EARTH Xyz Monster","stats":{"a":"EARTH","l":"Rank 10","t":"Machine / Xyz","atk":3000,"def":3000},"note":"The Lost Art Promotion 2020 F","rarity":"UR","img":"56910167","code":"13","tcg":216515,"grp":2196,"idx":12},
+    {"id":"LART-019","section":"main","num":"LART-EN019","printed":"LART-EN019","name":"Dark Magician Girl","ctype":"monster","keywords":"Dark Magician Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Spellcaster / Effect","atk":2000,"def":1700},"note":"The Lost Art Promotion 2020 G","rarity":"UR","img":"38033124","code":"14","tcg":221762,"grp":2196,"idx":13},
+    {"id":"LART-020","section":"main","num":"LART-EN020","printed":"LART-EN020","name":"The Legendary Fisherman","ctype":"monster","keywords":"Umi Warrior WATER Effect Monster","stats":{"a":"WATER","l":"Level 5","t":"Warrior / Effect","atk":1850,"def":1600},"note":"The Lost Art Promotion 2020 H","rarity":"UR","img":"3643300","code":"15","tcg":220653,"grp":2196,"idx":14},
+    {"id":"LART-021","section":"main","num":"LART-EN021","printed":"LART-EN021","name":"Harpie Queen","ctype":"monster","keywords":"Harpie Winged Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Winged Beast / Effect","atk":1900,"def":1200},"note":"The Lost Art Promotion 2020 I","rarity":"UR","img":"75064463","code":"16","tcg":218920,"grp":2196,"idx":15},
+    {"id":"LART-022","section":"main","num":"LART-EN022","printed":"LART-EN022","name":"Harpie Channeler","ctype":"monster","keywords":"Harpie Winged Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Winged Beast / Effect","atk":1400,"def":1300},"note":"The Lost Art Promotion 2020 J","rarity":"UR","img":"90238142","code":"17","tcg":223689,"grp":2196,"idx":16},
+    {"id":"LART-023","section":"main","num":"LART-EN023","printed":"LART-EN023","name":"Harpie Dancer","ctype":"monster","keywords":"Harpie Winged Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Winged Beast / Effect","atk":1200,"def":1000},"note":"The Lost Art Promotion 2020 K","rarity":"UR","img":"68815132","code":"18","tcg":228814,"grp":2196,"idx":17},
+    {"id":"LART-024","section":"main","num":"LART-EN024","printed":"LART-EN024","name":"Ghost Sister & Spooky Dogwood","ctype":"monster","keywords":"Zombie WATER Tuner Monster","stats":{"a":"WATER","l":"Level 3","t":"Zombie / Tuner","atk":0,"def":1800},"note":"The Lost Art Promotion 2020 L","rarity":"UR","img":"60643553","code":"19","tcg":228457,"grp":2196,"idx":18},
+    {"id":"LART-025","section":"main","num":"LART-EN025","printed":"LART-EN025","name":"Frightfur Leo","ctype":"monster","keywords":"Edge Imp Fiend DARK Fusion Monster","stats":{"a":"DARK","l":"Level 7","t":"Fiend / Fusion","atk":2400,"def":2000},"note":"The Lost Art Promotion 2020 M","rarity":"UR","img":"10383554","code":"20","tcg":224109,"grp":2196,"idx":19},
+    {"id":"LART-026","section":"main","num":"LART-EN026","printed":"LART-EN026","name":"Harpie Conductor","ctype":"monster","keywords":"Harpie Winged Beast WIND Link Monster","stats":{"a":"WIND","l":"Link 2","t":"Winged Beast / Link","atk":1900},"note":"The Lost Art Promotion 2020 N","rarity":"UR","img":"85696777","code":"21","tcg":220645,"grp":2196,"idx":20},
+    {"id":"LART-027","section":"main","num":"LART-EN027","printed":"LART-EN027","name":"Arrivalrivals","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"note":"The Lost Art Promotion 2020 O","rarity":"UR","img":"29508346","code":"22","tcg":230939,"grp":2196,"idx":21},
+    {"id":"LART-028","section":"main","num":"LART-EN028","printed":"LART-EN028","name":"Alluring Mirror Split","ctype":"spell","keywords":"Harpie Continuous Spell","stats":{"t":"Continuous Spell"},"note":"The Lost Art Promotion 2020 P","rarity":"UR","img":"92881099","code":"23","tcg":221475,"grp":2196,"idx":22},
+    {"id":"LART-029","section":"main","num":"LART-EN029","printed":"LART-EN029","name":"Harpie's Feather Rest","ctype":"spell","keywords":"Harpie Normal Spell","stats":{"t":"Normal Spell"},"note":"The Lost Art Promotion 2020 Q","rarity":"UR","img":"39275698","code":"24","tcg":224943,"grp":2196,"idx":23},
+    {"id":"LART-030","section":"main","num":"LART-EN030","printed":"LART-EN030","name":"Tragedy","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"note":"The Lost Art Promotion 2020 R","rarity":"UR","img":"35686187","code":"25","tcg":227097,"grp":2196,"idx":24},
+    {"id":"MP20-246","section":"main","num":"MP20-EN246","printed":"MP20-EN246","name":"Successor Soul","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"note":"2020 Tin of Lost Memories","rarity":"UR","img":"69145169","code":"26","tcg":220551,"grp":2680,"idx":25},
+    {"id":"MP20-247","section":"main","num":"MP20-EN247","printed":"MP20-EN247","name":"Strength in Unity","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"note":"2020 Tin of Lost Memories","rarity":"UR","img":"96239878","code":"27","tcg":220552,"grp":2680,"idx":26},
+    {"id":"MP20-248","section":"main","num":"MP20-EN248","printed":"MP20-EN248","name":"Destined Rivals","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"note":"2020 Tin of Lost Memories","rarity":"UR","img":"22634473","code":"28","tcg":220553,"grp":2680,"idx":27},
+    {"id":"OPTP-001","section":"main","num":"OPTP-EN001","printed":"OPTP-EN001","name":"Floodgate Trap Hole","ctype":"trap","keywords":"Hole Normal Trap","stats":{"t":"Normal Trap"},"note":"Trials of the Pharaoh - Trials of the Kingdom promotional card","rarity":"SR","img":"69599136","code":"29","tcg":228593,"grp":2718,"idx":28},
+    {"id":"OPTP-002","section":"main","num":"OPTP-EN002","printed":"OPTP-EN002","name":"Jinzo","ctype":"monster","keywords":"Jinzo Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Machine / Effect","atk":2400,"def":1500},"note":"Trials of the Pharaoh - Match of the Millennium & Twisted Nightmares promotional card","rarity":"UR","img":"77585513","code":"30","tcg":228585,"grp":2718,"idx":29},
+    {"id":"OPTP-003","section":"main","num":"OPTP-EN003","printed":"OPTP-EN003","name":"Book of Moon","ctype":"spell","keywords":"Book of Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"note":"Trials of the Pharaoh - Speed Duel: Battle City Box promotional card","rarity":"SR","img":"14087893","code":"31","tcg":240202,"grp":2718,"idx":30},
+    {"id":"PHRA-SP1","section":"main","num":"PHRA-ENSP1","printed":"PHRA-ENSP1","name":"Tri-Brigade Airborne Assault","ctype":"spell","keywords":"Tri-Brigade Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"note":"Phantom Rage Premiere! promotional card","rarity":"UR","img":"51097887","code":"32","tcg":227272,"grp":2694,"idx":31},
+    {"id":"ROTD-SP1","section":"main","num":"ROTD-ENSP1","printed":"ROTD-ENSP1","name":"Gaia the Fierce Knight Origin","ctype":"monster","keywords":"Gaia The Fierce Knight Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Effect","atk":1600,"def":1200},"note":"Rise of the Duelist Premiere! promotional card","rarity":"UR","img":"50354944","code":"33","tcg":224353,"grp":2674,"idx":32},
+    {"id":"SBPR-001","section":"main","num":"SBPR-EN001","printed":"SBPR-EN001","name":"United We Stand","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"note":"Remote Duel at Home Sweepstakes","rarity":"ScR","img":"56747793","code":"34","tcg":226648,"grp":2718,"idx":33},
+    {"id":"SBPR-002","section":"main","num":"SBPR-EN002","printed":"SBPR-EN002","name":"Guardian Angel Joan","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 7","t":"Fairy / Effect","atk":2800,"def":2000},"note":"Yu-Gi-Oh! at Home Sweepstakes","rarity":"ScR","img":"68007326","code":"35","tcg":244965,"grp":2718,"idx":34},
+    {"id":"YA07-001","section":"main","num":"YA07-EN001","printed":"YA07-EN001","name":"Go! - D/D/D Divine Zero King Rage","ctype":"monster","keywords":"D/D Fiend DARK Pendulum Effect Monster","stats":{"a":"DARK","l":"Level 10","t":"Fiend / Pendulum / Effect","atk":0,"def":0},"note":"Yu-Gi-Oh! ARC-V Volume 7 promotional card","rarity":"UR","img":"40227329","code":"36","tcg":218324,"grp":1918,"idx":35}
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "yugioh/tournament-pack-2nd-season",
+  "game": "yugioh",
+  "slug": "tournament-pack-2nd-season",
+  "name": "Tournament Pack: 2nd Season",
+  "series": "Duel Monsters",
+  "kind": "pack",
+  "code": "TP2",
+  "syncKey": "YTP2",
+  "released": "2002-10-01",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "TP2-001–TP2-030",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from TP2-001 to TP2-030."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Tournament Pack: 2nd Season Checklist · All 30 Cards",
+    "description": "Free Yu-Gi-Oh! Tournament Pack: 2nd Season checklist with no ads, no sign-up and no tracking. Track all 30 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Tournament Pack: 2nd Season Checklist",
+    "ogDescription": "Track all 30 cards in Yu-Gi-Oh! Tournament Pack: 2nd Season. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 30 cards in Yu-Gi-Oh! Tournament Pack: 2nd Season. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Tournament Pack: 2nd Season",
+    "paragraphs": [
+      "Tournament Pack: 2nd Season is a Yu-Gi-Oh! TCG pack released on 1 October 2002, in the Duel Monsters era. It has 30 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Tournament Pack: 2nd Season"
+    ],
+    "tcgplayer": [
+      334
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"TP2-001","name":"Morphing Jar","ctype":"monster","keywords":"Rock EARTH Flip Effect Monster","stats":{"a":"EARTH","l":"Level 2","t":"Rock / Flip / Effect","atk":700,"def":600},"rarity":"UR","img":"33508719","code":"1","tcg":22722,"grp":334,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"TP2-002","name":"Dragon Seeker","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Fiend / Effect","atk":2000,"def":2100},"rarity":"SR","img":"28563545","code":"2","tcg":22723,"grp":334,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"TP2-003","name":"Giant Red Seasnake","ctype":"monster","keywords":"Aqua WATER Normal Monster","stats":{"a":"WATER","l":"Level 4","t":"Aqua / Normal","atk":1800,"def":800},"rarity":"SR","img":"58831685","code":"3","tcg":22724,"grp":334,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"TP2-004","name":"Exile of the Wicked","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"26725158","code":"4","tcg":22725,"grp":334,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"TP2-005","name":"Call of the Grave","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"16970158","code":"5","tcg":22726,"grp":334,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"TP2-006","name":"Mikazukinoyaiba","ctype":"monster","keywords":"Dragon DARK Normal Monster","stats":{"a":"DARK","l":"Level 7","t":"Dragon / Normal","atk":2200,"def":2350},"rarity":"R","img":"38277918","code":"6","tcg":22727,"grp":334,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"TP2-007","name":"Skull Guardian","ctype":"monster","keywords":"Guardian Warrior LIGHT Ritual Monster","stats":{"a":"LIGHT","l":"Level 7","t":"Warrior / Ritual","atk":2050,"def":2500},"rarity":"R","img":"3627449","code":"7","tcg":22728,"grp":334,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"TP2-008","name":"Novox's Prayer","ctype":"spell","keywords":"Ritual Spell","stats":{"t":"Ritual Spell"},"rarity":"R","img":"43694075","code":"8","tcg":22729,"grp":334,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"TP2-009","name":"Dokurorider","ctype":"monster","keywords":"Zombie DARK Ritual Monster","stats":{"a":"DARK","l":"Level 6","t":"Zombie / Ritual","atk":1900,"def":1850},"rarity":"R","img":"99721536","code":"9","tcg":22730,"grp":334,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"TP2-010","name":"Revival of Dokurorider","ctype":"spell","keywords":"Ritual Spell","stats":{"t":"Ritual Spell"},"rarity":"R","img":"31066283","code":"10","tcg":22731,"grp":334,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"TP2-011","name":"Beautiful Headhuntress","ctype":"monster","keywords":"Warrior EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Normal","atk":1600,"def":800},"rarity":"R","img":"16899564","code":"11","tcg":22732,"grp":334,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"TP2-012","name":"Sonic Maid","ctype":"monster","keywords":"Warrior EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 3","t":"Warrior / Normal","atk":1200,"def":900},"rarity":"R","img":"38942059","code":"12","tcg":22733,"grp":334,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"TP2-013","name":"Mystical Sheep #1","ctype":"monster","keywords":"Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Beast / Effect","atk":1150,"def":900},"rarity":"R","img":"30451366","code":"13","tcg":22734,"grp":334,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"TP2-014","name":"Warrior of Tradition","ctype":"monster","keywords":"Warrior EARTH Fusion Monster","stats":{"a":"EARTH","l":"Level 6","t":"Warrior / Fusion","atk":1900,"def":1700},"rarity":"R","img":"56413937","code":"14","tcg":22735,"grp":334,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"TP2-015","name":"Soul of the Pure","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"R","img":"47852925","code":"15","tcg":22736,"grp":334,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"TP2-016","name":"Dancing Elf","ctype":"monster","keywords":"Fairy WIND Normal Monster","stats":{"a":"WIND","l":"Level 1","t":"Fairy / Normal","atk":300,"def":200},"rarity":"C","img":"59983499","code":"16","tcg":22737,"grp":334,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"TP2-017","name":"Turu-Purun","ctype":"monster","keywords":"Aqua WATER Normal Monster","stats":{"a":"WATER","l":"Level 2","t":"Aqua / Normal","atk":450,"def":500},"rarity":"C","img":"59053232","code":"17","tcg":22738,"grp":334,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"TP2-018","name":"Dharma Cannon","ctype":"monster","keywords":"Machine DARK Normal Monster","stats":{"a":"DARK","l":"Level 2","t":"Machine / Normal","atk":900,"def":500},"rarity":"C","img":"96967123","code":"18","tcg":22739,"grp":334,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"TP2-019","name":"Stuffed Animal","ctype":"monster","keywords":"Warrior EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 3","t":"Warrior / Normal","atk":1200,"def":900},"rarity":"C","img":"71068263","code":"19","tcg":22740,"grp":334,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"TP2-020","name":"Spirit of the Books","ctype":"monster","keywords":"Winged Beast WIND Normal Monster","stats":{"a":"WIND","l":"Level 4","t":"Winged Beast / Normal","atk":1400,"def":1200},"rarity":"C","img":"14037717","code":"20","tcg":22741,"grp":334,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"TP2-021","name":"Faith Bird","ctype":"monster","keywords":"Winged Beast WIND Normal Monster","stats":{"a":"WIND","l":"Level 4","t":"Winged Beast / Normal","atk":1500,"def":1100},"rarity":"C","img":"75582395","code":"21","tcg":22742,"grp":334,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"TP2-022","name":"Takuhee","ctype":"monster","keywords":"Winged Beast WIND Normal Monster","stats":{"a":"WIND","l":"Level 4","t":"Winged Beast / Normal","atk":1450,"def":1000},"rarity":"C","img":"3170832","code":"22","tcg":22743,"grp":334,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"TP2-023","name":"Maiden of the Moonlight","ctype":"monster","keywords":"Spellcaster LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Normal","atk":1500,"def":1300},"rarity":"C","img":"79629370","code":"23","tcg":22744,"grp":334,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"TP2-024","name":"Queen of Autumn Leaves","ctype":"monster","keywords":"Plant EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 5","t":"Plant / Normal","atk":1800,"def":1500},"rarity":"C","img":"4179849","code":"24","tcg":22745,"grp":334,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"TP2-025","name":"Two-Headed King Rex","ctype":"monster","keywords":"Dinosaur EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 4","t":"Dinosaur / Normal","atk":1600,"def":1200},"rarity":"C","img":"94119974","code":"25","tcg":22746,"grp":334,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"TP2-026","name":"Garoozis","ctype":"monster","keywords":"Beast-Warrior FIRE Normal Monster","stats":{"a":"FIRE","l":"Level 5","t":"Beast-Warrior / Normal","atk":1800,"def":1500},"rarity":"C","img":"14977074","code":"26","tcg":22747,"grp":334,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"TP2-027","name":"Crawling Dragon #2","ctype":"monster","keywords":"Dinosaur EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 4","t":"Dinosaur / Normal","atk":1600,"def":1200},"rarity":"C","img":"38289717","code":"27","tcg":22748,"grp":334,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"TP2-028","name":"Parrot Dragon","ctype":"monster","keywords":"Toon Dragon WIND Normal Monster","stats":{"a":"WIND","l":"Level 5","t":"Dragon / Normal","atk":2000,"def":1300},"rarity":"C","img":"62762898","code":"28","tcg":22749,"grp":334,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"TP2-029","name":"Sky Dragon","ctype":"monster","keywords":"Dragon WIND Normal Monster","stats":{"a":"WIND","l":"Level 6","t":"Dragon / Normal","atk":1900,"def":1800},"rarity":"C","img":"95288024","code":"29","tcg":22750,"grp":334,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"TP2-030","name":"Water Magician","ctype":"monster","keywords":"Aqua WATER Normal Monster","stats":{"a":"WATER","l":"Level 4","t":"Aqua / Normal","atk":1400,"def":1000},"rarity":"C","img":"93343894","code":"30","tcg":22751,"grp":334,"idx":29}
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "id": "yugioh/mystic-fighters",
+  "game": "yugioh",
+  "slug": "mystic-fighters",
+  "name": "Mystic Fighters",
+  "series": "VRAINS",
+  "kind": "set",
+  "code": "MYFI",
+  "syncKey": "YMYFI",
+  "released": "2019-11-22",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Main Set",
+      "range": "MYFI-EN001–MYFI-EN060",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from MYFI-EN001 to MYFI-EN060."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Mystic Fighters Checklist · All 60 Cards",
+    "description": "Free Yu-Gi-Oh! Mystic Fighters checklist with no ads, no sign-up and no tracking. Track all 60 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Mystic Fighters Checklist",
+    "ogDescription": "Track all 60 cards in Yu-Gi-Oh! Mystic Fighters. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 60 cards in Yu-Gi-Oh! Mystic Fighters. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About the Mystic Fighters set",
+    "paragraphs": [
+      "Mystic Fighters is a Yu-Gi-Oh! TCG special set released on 22 November 2019, in the VRAINS era. It has 60 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Mystic Fighters"
+    ],
+    "tcgplayer": [
+      2528
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"MYFI-EN001","name":"Mathmech Sigma","ctype":"monster","keywords":"Mathmech Cyberse LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Cyberse / Tuner","atk":1000,"def":1500},"rarity":"SR","img":"27182739","code":"1","tcg":203835,"grp":2528,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"MYFI-EN002","name":"Mathmech Nabla","ctype":"monster","keywords":"Mathmech Cyberse DARK Tuner Monster","stats":{"a":"DARK","l":"Level 4","t":"Cyberse / Tuner","atk":1000,"def":1500},"rarity":"SR","img":"53577438","code":"2","tcg":203836,"grp":2528,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"MYFI-EN003","name":"Mathmech Addition","ctype":"monster","keywords":"Mathmech Cyberse FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Cyberse / Effect","atk":1000,"def":1000},"rarity":"SR","img":"80965043","code":"3","tcg":203841,"grp":2528,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"MYFI-EN004","name":"Mathmech Subtraction","ctype":"monster","keywords":"Mathmech Cyberse FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Cyberse / Effect","atk":1000,"def":1000},"rarity":"SR","img":"16360142","code":"4","tcg":203843,"grp":2528,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"MYFI-EN005","name":"Mathmech Multiplication","ctype":"monster","keywords":"Mathmech Cyberse EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Cyberse / Effect","atk":500,"def":2000},"rarity":"SR","img":"52354896","code":"5","tcg":203846,"grp":2528,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"MYFI-EN006","name":"Mathmech Division","ctype":"monster","keywords":"Mathmech Cyberse EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Cyberse / Effect","atk":1500,"def":1000},"rarity":"SR","img":"89743495","code":"6","tcg":203848,"grp":2528,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"MYFI-EN007","name":"Geomathmech Magma","ctype":"monster","keywords":"Mathmech Cyberse FIRE Synchro Tuner Monster","stats":{"a":"FIRE","l":"Level 8","t":"Cyberse / Synchro / Tuner","atk":2500,"def":0},"rarity":"ScR","img":"15248594","code":"7","tcg":203849,"grp":2528,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"MYFI-EN008","name":"Geomathmech Final Sigma","ctype":"monster","keywords":"Mathmech Cyberse FIRE Synchro Monster","stats":{"a":"FIRE","l":"Level 12","t":"Cyberse / Synchro","atk":3000,"def":0},"rarity":"ScR","img":"42632209","code":"8","tcg":203850,"grp":2528,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"MYFI-EN009","name":"Primathmech Laplacian","ctype":"monster","keywords":"Mathmech Cyberse EARTH Xyz Monster","stats":{"a":"EARTH","l":"Rank 4","t":"Cyberse / Xyz","atk":2000,"def":0},"rarity":"ScR","img":"88021907","code":"9","tcg":203851,"grp":2528,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"MYFI-EN010","name":"Mathmech Equation","ctype":"spell","keywords":"Mathmech Normal Spell","stats":{"t":"Normal Spell"},"rarity":"ScR","img":"14025912","code":"10","tcg":203853,"grp":2528,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"MYFI-EN011","name":"Mathmech Billionblade Nayuta","ctype":"spell","keywords":"Mathmech Equip Spell","stats":{"t":"Equip Spell"},"rarity":"SR","img":"41410651","code":"11","tcg":203854,"grp":2528,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"MYFI-EN012","name":"Mathmech Superfactorial","ctype":"trap","keywords":"Mathmech Normal Trap","stats":{"t":"Normal Trap"},"rarity":"ScR","img":"87804365","code":"12","tcg":203855,"grp":2528,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"MYFI-EN013","name":"Mathmech Induction","ctype":"trap","keywords":"Mathmech Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"ScR","img":"14393464","code":"13","tcg":203856,"grp":2528,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"MYFI-EN014","name":"Nurse Dragonmaid","ctype":"monster","keywords":"Dragonmaid Dragon EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 2","t":"Dragon / Effect","atk":500,"def":1600},"rarity":"ScR","img":"40398073","code":"14","tcg":203857,"grp":2528,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"MYFI-EN015","name":"Dragonmaid Ernus","ctype":"monster","keywords":"Dragonmaid Dragon EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 7","t":"Dragon / Effect","atk":2600,"def":1600},"rarity":"SR","img":"76782778","code":"15","tcg":203858,"grp":2528,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"MYFI-EN016","name":"Laundry Dragonmaid","ctype":"monster","keywords":"Dragonmaid Dragon WATER Effect Monster","stats":{"a":"WATER","l":"Level 2","t":"Dragon / Effect","atk":500,"def":1600},"rarity":"SR","img":"13171876","code":"16","tcg":203859,"grp":2528,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"MYFI-EN017","name":"Dragonmaid Nudyarl","ctype":"monster","keywords":"Dragonmaid Dragon WATER Effect Monster","stats":{"a":"WATER","l":"Level 7","t":"Dragon / Effect","atk":2600,"def":1600},"rarity":"ScR","img":"49575521","code":"17","tcg":203860,"grp":2528,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"MYFI-EN018","name":"Kitchen Dragonmaid","ctype":"monster","keywords":"Dragonmaid Dragon FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 3","t":"Dragon / Effect","atk":500,"def":1700},"rarity":"ScR","img":"16960120","code":"18","tcg":203861,"grp":2528,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"MYFI-EN019","name":"Dragonmaid Tinkhec","ctype":"monster","keywords":"Dragonmaid Dragon FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 8","t":"Dragon / Effect","atk":2700,"def":1700},"rarity":"SR","img":"42055234","code":"19","tcg":203862,"grp":2528,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"MYFI-EN020","name":"Parlor Dragonmaid","ctype":"monster","keywords":"Dragonmaid Dragon WIND Effect Monster","stats":{"a":"WIND","l":"Level 3","t":"Dragon / Effect","atk":500,"def":1700},"rarity":"SR","img":"88453933","code":"20","tcg":203863,"grp":2528,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"MYFI-EN021","name":"Dragonmaid Lorpar","ctype":"monster","keywords":"Dragonmaid Dragon WIND Effect Monster","stats":{"a":"WIND","l":"Level 8","t":"Dragon / Effect","atk":2700,"def":1700},"rarity":"ScR","img":"15848542","code":"21","tcg":203864,"grp":2528,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"MYFI-EN022","name":"House Dragonmaid","ctype":"monster","keywords":"Dragonmaid Dragon LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 9","t":"Dragon / Fusion","atk":3000,"def":2000},"rarity":"ScR","img":"41232647","code":"22","tcg":203865,"grp":2528,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"MYFI-EN023","name":"Dragonmaid Hospitality","ctype":"spell","keywords":"Dragonmaid Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"78231355","code":"23","tcg":203866,"grp":2528,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"MYFI-EN024","name":"Dragonmaid Welcome","ctype":"spell","keywords":"Dragonmaid Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"ScR","img":"14625090","code":"24","tcg":203867,"grp":2528,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"MYFI-EN025","name":"Dragonmaid Changeover","ctype":"spell","keywords":"Dragonmaid Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"40110009","code":"25","tcg":203868,"grp":2528,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"MYFI-EN026","name":"Dragonmaid Downtime","ctype":"trap","keywords":"Dragonmaid Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"SR","img":"77515704","code":"26","tcg":203869,"grp":2528,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"MYFI-EN027","name":"Mardel, Generaider Boss of Light","ctype":"monster","keywords":"Generaider Plant LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 9","t":"Plant / Effect","atk":2400,"def":2400},"rarity":"ScR","img":"13903402","code":"27","tcg":203870,"grp":2528,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"MYFI-EN028","name":"Frodi, Generaider Boss of Swords","ctype":"monster","keywords":"Generaider Warrior WIND Effect Monster","stats":{"a":"WIND","l":"Level 9","t":"Warrior / Effect","atk":2500,"def":2000},"rarity":"SR","img":"40998517","code":"28","tcg":203871,"grp":2528,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"MYFI-EN029","name":"Dovelgus, Generaider Boss of Iron","ctype":"monster","keywords":"Generaider Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 9","t":"Machine / Effect","atk":1500,"def":2500},"rarity":"ScR","img":"76382116","code":"29","tcg":203872,"grp":2528,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"MYFI-EN030","name":"Naglfar, Generaider Boss of Fire","ctype":"monster","keywords":"Generaider Beast-Warrior FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 9","t":"Beast-Warrior / Effect","atk":3100,"def":200},"rarity":"ScR","img":"2881864","code":"30","tcg":203873,"grp":2528,"idx":29},
+    {"id":"031","section":"main","num":"031","printed":"MYFI-EN031","name":"Nidhogg, Generaider Boss of Ice","ctype":"monster","keywords":"Generaider Wyrm WATER Effect Monster","stats":{"a":"WATER","l":"Level 9","t":"Wyrm / Effect","atk":2100,"def":2600},"rarity":"ScR","img":"49275969","code":"31","tcg":203874,"grp":2528,"idx":30},
+    {"id":"032","section":"main","num":"032","printed":"MYFI-EN032","name":"Hela, Generaider Boss of Doom","ctype":"monster","keywords":"Generaider Zombie DARK Effect Monster","stats":{"a":"DARK","l":"Level 9","t":"Zombie / Effect","atk":800,"def":2800},"rarity":"SR","img":"75660578","code":"32","tcg":203875,"grp":2528,"idx":31},
+    {"id":"033","section":"main","num":"033","printed":"MYFI-EN033","name":"Jormungandr, Generaider Boss of Eternity","ctype":"monster","keywords":"Generaider Reptile EARTH Xyz Monster","stats":{"a":"EARTH","l":"Rank 9","t":"Reptile / Xyz","atk":-1,"def":-1},"rarity":"ScR","img":"2665273","code":"33","tcg":203876,"grp":2528,"idx":32},
+    {"id":"034","section":"main","num":"034","printed":"MYFI-EN034","name":"Generaider Boss Stage","ctype":"spell","keywords":"Generaider Field Spell","stats":{"t":"Field Spell"},"rarity":"ScR","img":"38053381","code":"34","tcg":203877,"grp":2528,"idx":33},
+    {"id":"035","section":"main","num":"035","printed":"MYFI-EN035","name":"Generaider Boss Quest","ctype":"spell","keywords":"Generaider Normal Spell","stats":{"t":"Normal Spell"},"rarity":"ScR","img":"75448086","code":"35","tcg":203878,"grp":2528,"idx":34},
+    {"id":"036","section":"main","num":"036","printed":"MYFI-EN036","name":"Generaider Boss Loot","ctype":"spell","keywords":"Generaider Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"SR","img":"1942635","code":"36","tcg":203879,"grp":2528,"idx":35},
+    {"id":"037","section":"main","num":"037","printed":"MYFI-EN037","name":"Generaider Boss Fight","ctype":"trap","keywords":"Generaider Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"37931734","code":"37","tcg":203880,"grp":2528,"idx":36},
+    {"id":"038","section":"main","num":"038","printed":"MYFI-EN038","name":"Generaider Boss Room","ctype":"trap","keywords":"Generaider Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"SR","img":"64325438","code":"38","tcg":203881,"grp":2528,"idx":37},
+    {"id":"039","section":"main","num":"039","printed":"MYFI-EN039","name":"Generaider Boss Bite","ctype":"trap","keywords":"Generaider Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"720147","code":"39","tcg":203882,"grp":2528,"idx":38},
+    {"id":"040","section":"main","num":"040","printed":"MYFI-EN040","name":"Primathmech Alembertian","ctype":"monster","keywords":"Mathmech Cyberse EARTH Xyz Monster","stats":{"a":"EARTH","l":"Rank 4","t":"Cyberse / Xyz","atk":2000,"def":0},"rarity":"ScR","img":"85692042","code":"40","tcg":203883,"grp":2528,"idx":39},
+    {"id":"041","section":"main","num":"041","printed":"MYFI-EN041","name":"Jinzo","ctype":"monster","keywords":"Jinzo Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Machine / Effect","atk":2400,"def":1500},"rarity":"SR","img":"77585513","code":"41","tcg":203885,"grp":2528,"idx":40},
+    {"id":"042","section":"main","num":"042","printed":"MYFI-EN042","name":"Lonefire Blossom","ctype":"monster","keywords":"Plant FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 3","t":"Plant / Effect","atk":500,"def":1400},"rarity":"SR","img":"48686504","code":"42","tcg":203884,"grp":2528,"idx":41},
+    {"id":"043","section":"main","num":"043","printed":"MYFI-EN043","name":"Debris Dragon","ctype":"monster","keywords":"Dragon WIND Tuner Monster","stats":{"a":"WIND","l":"Level 4","t":"Dragon / Tuner","atk":1000,"def":2000},"rarity":"SR","img":"14943837","code":"43","tcg":203886,"grp":2528,"idx":42},
+    {"id":"044","section":"main","num":"044","printed":"MYFI-EN044","name":"Brotherhood of the Fire Fist - Dragon","ctype":"monster","keywords":"Fire Fist Beast-Warrior FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Beast-Warrior / Effect","atk":1800,"def":400},"rarity":"SR","img":"43748308","code":"44","tcg":203887,"grp":2528,"idx":43},
+    {"id":"045","section":"main","num":"045","printed":"MYFI-EN045","name":"Tempest, Dragon Ruler of Storms","ctype":"monster","keywords":"Dragon WIND Effect Monster","stats":{"a":"WIND","l":"Level 7","t":"Dragon / Effect","atk":2400,"def":2200},"rarity":"SR","img":"89399912","code":"45","tcg":203888,"grp":2528,"idx":44},
+    {"id":"046","section":"main","num":"046","printed":"MYFI-EN046","name":"Lightning, Dragon Ruler of Drafts","ctype":"monster","keywords":"Dragon WIND Effect Monster","stats":{"a":"WIND","l":"Level 3","t":"Dragon / Effect","atk":500,"def":1800},"rarity":"SR","img":"89185742","code":"46","tcg":203889,"grp":2528,"idx":45},
+    {"id":"047","section":"main","num":"047","printed":"MYFI-EN047","name":"Balancer Lord","ctype":"monster","keywords":"Cyberse LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Cyberse / Effect","atk":1700,"def":1200},"rarity":"SR","img":"8567955","code":"47","tcg":203890,"grp":2528,"idx":46},
+    {"id":"048","section":"main","num":"048","printed":"MYFI-EN048","name":"World Legacy Guardragon Mardark","ctype":"monster","keywords":"Guardragon Dragon WIND Effect Monster","stats":{"a":"WIND","l":"Level 9","t":"Dragon / Effect","atk":2600,"def":3000},"rarity":"SR","img":"35183584","code":"48","tcg":203891,"grp":2528,"idx":47},
+    {"id":"049","section":"main","num":"049","printed":"MYFI-EN049","name":"True King of All Calamities","ctype":"monster","keywords":"True Draco Wyrm DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 9","t":"Wyrm / Xyz","atk":3000,"def":3000},"rarity":"SR","img":"88581108","code":"49","tcg":203892,"grp":2528,"idx":48},
+    {"id":"050","section":"main","num":"050","printed":"MYFI-EN050","name":"Dragon's Gunfire","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"55991637","code":"50","tcg":203893,"grp":2528,"idx":49},
+    {"id":"051","section":"main","num":"051","printed":"MYFI-EN051","name":"Stamping Destruction","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"81385346","code":"51","tcg":203894,"grp":2528,"idx":50},
+    {"id":"052","section":"main","num":"052","printed":"MYFI-EN052","name":"Super Rejuvenation","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"SR","img":"27770341","code":"52","tcg":203895,"grp":2528,"idx":51},
+    {"id":"053","section":"main","num":"053","printed":"MYFI-EN053","name":"Monster Gate","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"43040603","code":"53","tcg":203896,"grp":2528,"idx":52},
+    {"id":"054","section":"main","num":"054","printed":"MYFI-EN054","name":"Dark World Dealings","ctype":"spell","keywords":"Dark World Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"74117290","code":"54","tcg":203897,"grp":2528,"idx":53},
+    {"id":"055","section":"main","num":"055","printed":"MYFI-EN055","name":"Rekindling","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"74845897","code":"55","tcg":203898,"grp":2528,"idx":54},
+    {"id":"056","section":"main","num":"056","printed":"MYFI-EN056","name":"Dragon Ravine","ctype":"spell","keywords":"Dragunity Field Spell","stats":{"t":"Field Spell"},"rarity":"SR","img":"62265044","code":"56","tcg":203899,"grp":2528,"idx":55},
+    {"id":"057","section":"main","num":"057","printed":"MYFI-EN057","name":"Cynet Backdoor","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"SR","img":"43839002","code":"57","tcg":203900,"grp":2528,"idx":56},
+    {"id":"058","section":"main","num":"058","printed":"MYFI-EN058","name":"Appropriate","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"SR","img":"48539234","code":"58","tcg":203901,"grp":2528,"idx":57},
+    {"id":"059","section":"main","num":"059","printed":"MYFI-EN059","name":"Heavy Slump","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"52417194","code":"59","tcg":203902,"grp":2528,"idx":58},
+    {"id":"060","section":"main","num":"060","printed":"MYFI-EN060","name":"Waking the Dragon","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"10813327","code":"60","tcg":203903,"grp":2528,"idx":59}
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "yugioh/structure-deck-warriors-triumph",
+  "game": "yugioh",
+  "slug": "structure-deck-warriors-triumph",
+  "name": "Structure Deck: Warrior's Triumph",
+  "series": "GX",
+  "kind": "deck",
+  "code": "SD5",
+  "syncKey": "YSD5",
+  "released": "2005-10-28",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "SD5-EN001–SD5-EN036",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from SD5-EN001 to SD5-EN036."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Structure Deck: Warrior's Triumph Checklist · All 36 Cards",
+    "description": "Free Yu-Gi-Oh! Structure Deck: Warrior's Triumph checklist with no ads, no sign-up and no tracking. Track all 36 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Structure Deck: Warrior's Triumph Checklist",
+    "ogDescription": "Track all 36 cards in Yu-Gi-Oh! Structure Deck: Warrior's Triumph. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 36 cards in Yu-Gi-Oh! Structure Deck: Warrior's Triumph. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Structure Deck: Warrior's Triumph",
+    "paragraphs": [
+      "Structure Deck: Warrior&#39;s Triumph is a Yu-Gi-Oh! TCG deck released on 28 October 2005, in the GX era. It has 36 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Structure Deck: Warrior's Triumph"
+    ],
+    "tcgplayer": [
+      314
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"SD5-EN001","name":"Gilford the Legend","ctype":"monster","keywords":"Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 8","t":"Warrior / Effect","atk":2600,"def":2000},"rarity":"UR","img":"69933858","code":"1","tcg":24520,"grp":314,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"SD5-EN002","name":"Warrior Lady of the Wasteland","ctype":"monster","keywords":"Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Effect","atk":1100,"def":1200},"rarity":"C","img":"5438492","code":"2","tcg":24521,"grp":314,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"SD5-EN003","name":"Dark Blade","ctype":"monster","keywords":"Dark World Warrior DARK Normal Monster","stats":{"a":"DARK","l":"Level 4","t":"Warrior / Normal","atk":1800,"def":1500},"rarity":"C","img":"11321183","code":"3","tcg":24522,"grp":314,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"SD5-EN004","name":"Goblin Attack Force","ctype":"monster","keywords":"Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Effect","atk":2300,"def":0},"rarity":"C","img":"78658564","code":"4","tcg":24523,"grp":314,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"SD5-EN005","name":"Gearfried the Iron Knight","ctype":"monster","keywords":"Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Effect","atk":1800,"def":1600},"rarity":"C","img":"423705","code":"5","tcg":24524,"grp":314,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"SD5-EN006","name":"Swift Gaia the Fierce Knight","ctype":"monster","keywords":"Gaia The Fierce Knight Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Warrior / Effect","atk":2300,"def":2100},"rarity":"C","img":"16589042","code":"6","tcg":24525,"grp":314,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"SD5-EN007","name":"Obnoxious Celtic Guard","ctype":"monster","keywords":"Celtic Guard Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Effect","atk":1400,"def":1200},"rarity":"C","img":"52077741","code":"7","tcg":24526,"grp":314,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"SD5-EN008","name":"Command Knight","ctype":"monster","keywords":"Warrior FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Warrior / Effect","atk":1200,"def":1900},"rarity":"C","img":"10375182","code":"8","tcg":24527,"grp":314,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"SD5-EN009","name":"Marauding Captain","ctype":"monster","keywords":"Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Warrior / Effect","atk":1200,"def":400},"rarity":"C","img":"2460565","code":"9","tcg":24528,"grp":314,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"SD5-EN010","name":"Exiled Force","ctype":"monster","keywords":"Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Effect","atk":1000,"def":1000},"rarity":"C","img":"74131780","code":"10","tcg":24529,"grp":314,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"SD5-EN011","name":"D.D. Warrior Lady","ctype":"monster","keywords":"D.D. Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Effect","atk":1500,"def":1600},"rarity":"C","img":"7572887","code":"11","tcg":24530,"grp":314,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"SD5-EN012","name":"Mataza the Zapper","ctype":"monster","keywords":"Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Warrior / Effect","atk":1300,"def":800},"rarity":"C","img":"22609617","code":"12","tcg":24531,"grp":314,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"SD5-EN013","name":"Mystic Swordsman LV2","ctype":"monster","keywords":"Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 2","t":"Warrior / Effect","atk":900,"def":0},"rarity":"C","img":"47507260","code":"13","tcg":24532,"grp":314,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"SD5-EN014","name":"Mystic Swordsman LV4","ctype":"monster","keywords":"Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Effect","atk":1900,"def":1600},"rarity":"C","img":"74591968","code":"14","tcg":24533,"grp":314,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"SD5-EN015","name":"Ninja Grandmaster Sasuke","ctype":"monster","keywords":"Ninja Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Effect","atk":1800,"def":1000},"rarity":"C","img":"4041838","code":"15","tcg":24534,"grp":314,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"SD5-EN016","name":"Gearfried the Swordmaster","ctype":"monster","keywords":"Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 7","t":"Warrior / Effect","atk":2600,"def":2200},"rarity":"C","img":"57046845","code":"16","tcg":24535,"grp":314,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"SD5-EN017","name":"Armed Samurai - Ben Kei","ctype":"monster","keywords":"Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Warrior / Effect","atk":500,"def":800},"rarity":"C","img":"84430950","code":"17","tcg":24536,"grp":314,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"SD5-EN018","name":"Divine Sword - Phoenix Blade","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"31423101","code":"18","tcg":24537,"grp":314,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"SD5-EN019","name":"Snatch Steal","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"45986603","code":"19","tcg":24538,"grp":314,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"SD5-EN020","name":"Mystical Space Typhoon","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"5318639","code":"20","tcg":24539,"grp":314,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"SD5-EN021","name":"Giant Trunade","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"42703248","code":"21","tcg":24540,"grp":314,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"SD5-EN022","name":"Lightning Blade","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"55226821","code":"22","tcg":24541,"grp":314,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"SD5-EN023","name":"Heavy Storm","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"19613556","code":"23","tcg":24542,"grp":314,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"SD5-EN024","name":"Reinforcement of the Army","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"32807846","code":"24","tcg":24543,"grp":314,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"SD5-EN025","name":"The Warrior Returning Alive","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"95281259","code":"25","tcg":24544,"grp":314,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"SD5-EN026","name":"Fusion Sword Murasame Blade","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"37684215","code":"26","tcg":24545,"grp":314,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"SD5-EN027","name":"Wicked-Breaking Flamberge - Baou","ctype":"spell","keywords":"Guardian Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"68427465","code":"27","tcg":24546,"grp":314,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"SD5-EN028","name":"Fairy of the Spring","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"20188127","code":"28","tcg":24547,"grp":314,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"SD5-EN029","name":"Reload","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"22589918","code":"29","tcg":24548,"grp":314,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"SD5-EN030","name":"Lightning Vortex","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"69162969","code":"30","tcg":24549,"grp":314,"idx":29},
+    {"id":"031","section":"main","num":"031","printed":"SD5-EN031","name":"Swords of Concealing Light","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"12923641","code":"31","tcg":24550,"grp":314,"idx":30},
+    {"id":"032","section":"main","num":"032","printed":"SD5-EN032","name":"Release Restraint","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"75417459","code":"32","tcg":24551,"grp":314,"idx":31},
+    {"id":"033","section":"main","num":"033","printed":"SD5-EN033","name":"Call of the Haunted","ctype":"trap","keywords":"Call of the Haunted Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"97077563","code":"33","tcg":24552,"grp":314,"idx":32},
+    {"id":"034","section":"main","num":"034","printed":"SD5-EN034","name":"Magic Jammer","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"C","img":"77414722","code":"34","tcg":24553,"grp":314,"idx":33},
+    {"id":"035","section":"main","num":"035","printed":"SD5-EN035","name":"Royal Decree","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"51452091","code":"35","tcg":24554,"grp":314,"idx":34},
+    {"id":"036","section":"main","num":"036","printed":"SD5-EN036","name":"Blast with Chain","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"98239899","code":"36","tcg":24555,"grp":314,"idx":35}
+  ]
+}

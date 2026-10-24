@@ -1,0 +1,81 @@
+{
+  "id": "yugioh/turbo-pack-booster-one",
+  "game": "yugioh",
+  "slug": "turbo-pack-booster-one",
+  "name": "Turbo Pack: Booster One",
+  "series": "5D’s",
+  "kind": "pack",
+  "code": "TU01",
+  "syncKey": "YTU01",
+  "released": "2009-08-15",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "TU01-EN000–TU01-EN020",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from TU01-EN000 to TU01-EN020."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Turbo Pack: Booster One Checklist · All 21 Cards",
+    "description": "Free Yu-Gi-Oh! Turbo Pack: Booster One checklist with no ads, no sign-up and no tracking. Track all 21 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Turbo Pack: Booster One Checklist",
+    "ogDescription": "Track all 21 cards in Yu-Gi-Oh! Turbo Pack: Booster One. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 21 cards in Yu-Gi-Oh! Turbo Pack: Booster One. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Turbo Pack: Booster One",
+    "paragraphs": [
+      "Turbo Pack: Booster One is a Yu-Gi-Oh! TCG pack released on 15 August 2009, in the 5D’s era. It has 21 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Turbo Pack: Booster One"
+    ],
+    "tcgplayer": [
+      341
+    ]
+  },
+  "cards": [
+    {"id":"000","section":"main","num":"000","printed":"TU01-EN000","name":"Judgment Dragon","ctype":"monster","keywords":"Lightsworn Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Effect","atk":3000,"def":2600},"rarity":"UtR","img":"57774843","code":"0","tcg":33224,"grp":341,"idx":0},
+    {"id":"001","section":"main","num":"001","printed":"TU01-EN001","name":"Doomcaliber Knight","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Effect","atk":1900,"def":1800},"rarity":"UR","img":"78700060","code":"1","tcg":33225,"grp":341,"idx":1},
+    {"id":"002","section":"main","num":"002","printed":"TU01-EN002","name":"Garoth, Lightsworn Warrior","ctype":"monster","keywords":"Lightsworn Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Effect","atk":1850,"def":1300},"rarity":"SR","img":"59019082","code":"2","tcg":33226,"grp":341,"idx":2},
+    {"id":"003","section":"main","num":"003","printed":"TU01-EN003","name":"Krebons","ctype":"monster","keywords":"Psychic DARK Tuner Monster","stats":{"a":"DARK","l":"Level 2","t":"Psychic / Tuner","atk":1200,"def":400},"rarity":"SR","img":"59575539","code":"3","tcg":33227,"grp":341,"idx":3},
+    {"id":"004","section":"main","num":"004","printed":"TU01-EN004","name":"Gladiator Beast Samnite","ctype":"monster","keywords":"Gladiator Beast Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Beast / Effect","atk":1600,"def":1200},"rarity":"SR","img":"2619149","code":"4","tcg":33228,"grp":341,"idx":4},
+    {"id":"005","section":"main","num":"005","printed":"TU01-EN005","name":"Black Whirlwind","ctype":"spell","keywords":"Blackwing Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"SR","img":"91351370","code":"5","tcg":33229,"grp":341,"idx":5},
+    {"id":"006","section":"main","num":"006","printed":"TU01-EN006","name":"Crush Card Virus","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"R","img":"57728570","code":"6","tcg":33230,"grp":341,"idx":6},
+    {"id":"007","section":"main","num":"007","printed":"TU01-EN007","name":"Satellite Cannon","ctype":"monster","keywords":"Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 5","t":"Machine / Effect","atk":0,"def":0},"rarity":"R","img":"50400231","code":"7","tcg":33231,"grp":341,"idx":7},
+    {"id":"008","section":"main","num":"008","printed":"TU01-EN008","name":"Rescue Cat","ctype":"monster","keywords":"Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Beast / Effect","atk":300,"def":100},"rarity":"R","img":"14878871","code":"8","tcg":33232,"grp":341,"idx":8},
+    {"id":"009","section":"main","num":"009","printed":"TU01-EN009","name":"Grandmaster of the Six Samurai","ctype":"monster","keywords":"Six Samurai Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 5","t":"Warrior / Effect","atk":2100,"def":800},"rarity":"R","img":"83039729","code":"9","tcg":33233,"grp":341,"idx":9},
+    {"id":"010","section":"main","num":"010","printed":"TU01-EN010","name":"Trade-In","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"R","img":"38120068","code":"10","tcg":33234,"grp":341,"idx":10},
+    {"id":"011","section":"main","num":"011","printed":"TU01-EN011","name":"Armageddon Knight","ctype":"monster","keywords":"Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Warrior / Effect","atk":1400,"def":1200},"rarity":"R","img":"28985331","code":"11","tcg":33235,"grp":341,"idx":11},
+    {"id":"012","section":"main","num":"012","printed":"TU01-EN012","name":"Book of Moon","ctype":"spell","keywords":"Book of Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"14087893","code":"12","tcg":33236,"grp":341,"idx":12},
+    {"id":"013","section":"main","num":"013","printed":"TU01-EN013","name":"Terraforming","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"73628505","code":"13","tcg":33237,"grp":341,"idx":13},
+    {"id":"014","section":"main","num":"014","printed":"TU01-EN014","name":"Hand Destruction","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"74519184","code":"14","tcg":33238,"grp":341,"idx":14},
+    {"id":"015","section":"main","num":"015","printed":"TU01-EN015","name":"Gladiator Beast Murmillo","ctype":"monster","keywords":"Gladiator Beast Fish WATER Effect Monster","stats":{"a":"WATER","l":"Level 3","t":"Fish / Effect","atk":800,"def":400},"rarity":"C","img":"5975022","code":"15","tcg":33239,"grp":341,"idx":15},
+    {"id":"016","section":"main","num":"016","printed":"TU01-EN016","name":"Gladiator Beast Bestiari","ctype":"monster","keywords":"Gladiator Beast Winged Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Winged Beast / Effect","atk":1500,"def":800},"rarity":"C","img":"41470137","code":"16","tcg":33240,"grp":341,"idx":16},
+    {"id":"017","section":"main","num":"017","printed":"TU01-EN017","name":"Gladiator Beast Laquari","ctype":"monster","keywords":"Gladiator Beast Beast-Warrior FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Beast-Warrior / Effect","atk":1800,"def":400},"rarity":"C","img":"78868776","code":"17","tcg":33241,"grp":341,"idx":17},
+    {"id":"018","section":"main","num":"018","printed":"TU01-EN018","name":"Golden Flying Fish","ctype":"monster","keywords":"Fish LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fish / Effect","atk":1700,"def":1000},"rarity":"C","img":"76203291","code":"18","tcg":33242,"grp":341,"idx":18},
+    {"id":"019","section":"main","num":"019","printed":"TU01-EN019","name":"Ryko, Lightsworn Hunter","ctype":"monster","keywords":"Lightsworn Beast LIGHT Flip Effect Monster","stats":{"a":"LIGHT","l":"Level 2","t":"Beast / Flip / Effect","atk":200,"def":100},"rarity":"C","img":"21502796","code":"19","tcg":33243,"grp":341,"idx":19},
+    {"id":"020","section":"main","num":"020","printed":"TU01-EN020","name":"D.D.R. - Different Dimension Reincarnation","ctype":"spell","keywords":"D.D. Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"9622164","code":"20","tcg":33244,"grp":341,"idx":20}
+  ]
+}

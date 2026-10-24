@@ -1,0 +1,132 @@
+{
+  "id": "yugioh/promos-2017",
+  "game": "yugioh",
+  "slug": "promos-2017",
+  "name": "Promos 2017",
+  "series": "Promos",
+  "kind": "promo",
+  "code": "P2017",
+  "syncKey": "YP2017",
+  "released": "2017-01-01",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "2017-EN001–YCSW-EN010",
+      "tier": "standard"
+    },
+    {
+      "id": "rarities",
+      "name": "Other Rarities",
+      "short": "Other Rarities",
+      "range": "2 cards",
+      "tier": "master"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Main set"
+    ],
+    [
+      "rarities",
+      "Other rarities"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, SCR12, 60x2",
+    "example": "1-20, 45x2, SCR12",
+    "hint": "Separate with commas or spaces. Numbers count down the list in order: <b>1-5</b> is the first five cards and <b>3x2</b> is two copies of the third.",
+    "empty": "Cards run from 2017-EN001 to YCSW-EN010."
+  },
+  "help": {
+    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 32 cards, each in its main rarity. Master adds the 2 other rarities. Cards you’ve marked are kept when you switch."
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Promos 2017 Checklist · All 32 Cards",
+    "description": "Free Yu-Gi-Oh! Promos 2017 checklist with no ads, no sign-up and no tracking. Track all 32 cards, or every rarity for a master set, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Promos 2017 Checklist",
+    "ogDescription": "Track all 32 cards in Yu-Gi-Oh! Promos 2017, plus 2 other rarities. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 32 cards in Yu-Gi-Oh! Promos 2017. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Promos 2017",
+    "paragraphs": [
+      "Promos 2017 gathers the 32 promo cards from 19 products released in 2017: Yu-Gi-Oh! World Championship 2017 prize cards, Circuit Break Special Edition, Circuit Break Sneak Peek Participation Card, Code of the Duelist Special Edition, Code of the Duelist Sneak Peek Participation Card, WSJ Jump Pack Spring 2017 promotional card, WSJ Jump Pack Fall 2017 promotional card, Weekly Shonen Jump January 2017 membership promotional card, Weekly Shonen Jump April 2017 membership promotional card, Weekly Shonen Jump July 2017 membership promotional card, Weekly Shonen Jump November 2017 membership promotional card, Maximum Crisis: Special Edition, Maximum Crisis Sneak Peek Participation Card, Yu-Gi-Oh! The Dark Side of Dimensions Blu-ray &amp; DVD promotional card, Raging Tempest: Special Edition, Raging Tempest Sneak Peek Participation Card, Yu-Gi-Oh! ARC-V Volume 1 promotional card, Yu-Gi-Oh! ARC-V Volume 2 promotional card and Yu-Gi-Oh! Championship Series 2017 prize card.",
+      "Choose what you’re collecting: the <b>Standard set</b> (the 32 cards, each in its main rarity) or the <b>Master set</b> (all 34, adding the 2 other rarities).",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Circuit Break Sneak Peek Participation Card",
+      "Circuit Break Special Edition",
+      "Code of the Duelist Sneak Peek Participation Card",
+      "Code of the Duelist Special Edition",
+      "Maximum Crisis Sneak Peek Participation Card",
+      "Maximum Crisis: Special Edition",
+      "Raging Tempest Sneak Peek Participation Card",
+      "Raging Tempest: Special Edition",
+      "WSJ Jump Pack Fall 2017 promotional card",
+      "WSJ Jump Pack Spring 2017 promotional card",
+      "Weekly Shonen Jump April 2017 membership promotional card",
+      "Weekly Shonen Jump January 2017 membership promotional card",
+      "Weekly Shonen Jump July 2017 membership promotional card",
+      "Weekly Shonen Jump November 2017 membership promotional card",
+      "Yu-Gi-Oh! ARC-V Volume 1 promotional card",
+      "Yu-Gi-Oh! ARC-V Volume 2 promotional card",
+      "Yu-Gi-Oh! Championship Series 2017 prize card",
+      "Yu-Gi-Oh! The Dark Side of Dimensions Blu-ray & DVD promotional card",
+      "Yu-Gi-Oh! The Dark Side of Dimensions Theater distribution cards",
+      "Yu-Gi-Oh! World Championship 2017 prize cards"
+    ],
+    "tcgplayer": [
+      281,
+      2056,
+      1989,
+      1922,
+      1880,
+      1918,
+      1347,
+      1877
+    ]
+  },
+  "cards": [
+    {"id":"2017-001","section":"main","num":"2017-EN001","printed":"2017-EN001","name":"Sanctity of Dragon","ctype":"monster","keywords":"Dragon LIGHT Link Monster","stats":{"a":"LIGHT","l":"Link 5","t":"Dragon / Link","atk":3000},"note":"Yu-Gi-Oh! World Championship 2017 prize cards","rarity":"EScR","img":"662853","code":"1","idx":0},
+    {"id":"2017-002","section":"main","num":"2017-EN002","printed":"2017-EN002","name":"Iron Knight of Revolution","ctype":"monster","keywords":"Machine EARTH Link Monster","stats":{"a":"EARTH","l":"Link 4","t":"Machine / Link","atk":2400},"note":"Yu-Gi-Oh! World Championship 2017 prize cards","rarity":"EScR","img":"662857","code":"2","idx":1},
+    {"id":"CIBR-SE1","section":"main","num":"CIBR-ENSE1","printed":"CIBR-ENSE1","name":"Stardust Chronicle Spark Dragon","ctype":"monster","keywords":"Stardust Dragon LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 10","t":"Dragon / Synchro","atk":3000,"def":2500},"note":"Circuit Break Special Edition","rarity":"SR","img":"89474727","code":"3","tcg":154000,"grp":2056,"idx":2},
+    {"id":"CIBR-SE2","section":"main","num":"CIBR-ENSE2","printed":"CIBR-ENSE2","name":"The Winged Dragon of Ra - Sphere Mode","ctype":"monster","keywords":"Egyptian God Divine-Beast DIVINE Effect Monster","stats":{"a":"DIVINE","l":"Level 10","t":"Divine-Beast / Effect","atk":-1,"def":-1},"note":"Circuit Break Special Edition","rarity":"SR","img":"10000080","code":"4","tcg":154001,"grp":2056,"idx":3},
+    {"id":"CIBR-SE3","section":"main","num":"CIBR-ENSE3","printed":"CIBR-ENSE3","name":"Lockout Gardna","ctype":"monster","keywords":"Cyberse EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Cyberse / Effect","atk":1000,"def":1000},"note":"Circuit Break Special Edition","rarity":"SR","img":"37310367","code":"5","tcg":154002,"grp":2056,"idx":4},
+    {"id":"CIBR-SE4","section":"main","num":"CIBR-ENSE4","printed":"CIBR-ENSE4","name":"Parallel Port Armor","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"note":"Circuit Break Special Edition","rarity":"SR","img":"879958","code":"6","tcg":154003,"grp":2056,"idx":5},
+    {"id":"CIBR-SP1","section":"main","num":"CIBR-ENSP1","printed":"CIBR-ENSP1","name":"Hallohallo","ctype":"monster","keywords":"Fiend DARK Pendulum Tuner Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Fiend / Pendulum / Tuner / Effect","atk":800,"def":600},"note":"Circuit Break Sneak Peek Participation Card","rarity":"UR","img":"77994337","code":"7","tcg":149052,"grp":2056,"idx":6},
+    {"id":"COTD-SE1","section":"main","num":"COTD-ENSE1","printed":"COTD-ENSE1","name":"Skull Meister","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Effect","atk":1700,"def":400},"note":"Code of the Duelist Special Edition","rarity":"SR","img":"67750322","code":"8","tcg":145916,"grp":1989,"idx":7},
+    {"id":"COTD-SE2","section":"main","num":"COTD-ENSE2","printed":"COTD-ENSE2","name":"Solemn Strike","ctype":"trap","keywords":"Solemn Counter Trap","stats":{"t":"Counter Trap"},"note":"Code of the Duelist Special Edition","rarity":"SR","img":"40605147","code":"9","tcg":145917,"grp":1989,"idx":8},
+    {"id":"COTD-SE3","section":"main","num":"COTD-ENSE3","printed":"COTD-ENSE3","name":"Mistar Boy","ctype":"monster","keywords":"Aqua WATER Link Monster","stats":{"a":"WATER","l":"Link 2","t":"Aqua / Link","atk":1400},"note":"Code of the Duelist Special Edition","rarity":"SR","img":"65170459","code":"10","tcg":145918,"grp":1989,"idx":9},
+    {"id":"COTD-SE4","section":"main","num":"COTD-ENSE4","printed":"COTD-ENSE4","name":"Cyberse Beacon","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"note":"Code of the Duelist Special Edition","rarity":"SR","img":"91269402","code":"11","tcg":145919,"grp":1989,"idx":10},
+    {"id":"COTD-SP1","section":"main","num":"COTD-ENSP1","printed":"COTD-ENSP1","name":"Vendread Houndhorde","ctype":"monster","keywords":"Vendread Zombie DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Zombie / Effect","atk":0,"def":2100},"note":"Code of the Duelist Sneak Peek Participation Card","rarity":"UR","img":"67267333","code":"12","tcg":139164,"grp":1989,"idx":11},
+    {"id":"JMPS-004","section":"main","num":"JMPS-EN004","printed":"JMPS-EN004","name":"Obelisk the Tormentor","ctype":"monster","keywords":"Egyptian God Divine-Beast DIVINE Effect Monster","stats":{"a":"DIVINE","l":"Level 10","t":"Divine-Beast / Effect","atk":4000,"def":4000},"note":"WSJ Jump Pack Spring 2017 promotional card","rarity":"UR","img":"10000001","code":"13","tcg":135078,"grp":281,"idx":12},
+    {"id":"JMPS-005","section":"main","num":"JMPS-EN005","printed":"JMPS-EN005","name":"Slifer the Sky Dragon","ctype":"monster","keywords":"Egyptian God Divine-Beast DIVINE Effect Monster","stats":{"a":"DIVINE","l":"Level 10","t":"Divine-Beast / Effect","atk":-1,"def":-1},"note":"WSJ Jump Pack Fall 2017 promotional card","rarity":"UR","img":"10000021","code":"14","tcg":170038,"grp":281,"idx":13},
+    {"id":"JUMP-079","section":"main","num":"JUMP-EN079","printed":"JUMP-EN079","name":"Odd-Eyes Persona Dragon","ctype":"monster","keywords":"-Eyes Dragon Dragon DARK Pendulum Effect Monster","stats":{"a":"DARK","l":"Level 5","t":"Dragon / Pendulum / Effect","atk":1200,"def":2400},"note":"Weekly Shonen Jump January 2017 membership promotional card","rarity":"UR","img":"21250202","code":"15","tcg":129675,"grp":281,"idx":14},
+    {"id":"JUMP-080","section":"main","num":"JUMP-EN080","printed":"JUMP-EN080","name":"Apprentice Illusion Magician","ctype":"monster","keywords":"Dark Magician Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Spellcaster / Effect","atk":2000,"def":1700},"note":"Weekly Shonen Jump April 2017 membership promotional card","rarity":"UR","img":"30603688","code":"16","tcg":131116,"grp":281,"idx":15},
+    {"id":"JUMP-081","section":"main","num":"JUMP-EN081","printed":"JUMP-EN081","name":"Galaxy-Eyes Cipher Blade Dragon","ctype":"monster","keywords":"Cipher Dragon LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 9","t":"Dragon / Xyz","atk":3200,"def":2800},"note":"Weekly Shonen Jump July 2017 membership promotional card","rarity":"UR","img":"2530830","code":"17","tcg":137269,"grp":281,"idx":16},
+    {"id":"JUMP-082","section":"main","num":"JUMP-EN082","printed":"JUMP-EN082","name":"Linkuriboh","ctype":"monster","keywords":"Kuriboh Cyberse DARK Link Monster","stats":{"a":"DARK","l":"Link 1","t":"Cyberse / Link","atk":300},"note":"Weekly Shonen Jump November 2017 membership promotional card","rarity":"UR","img":"41999284","code":"18","tcg":154465,"grp":281,"idx":17},
+    {"id":"MACR-SE1","section":"main","num":"MACR-ENSE1","printed":"MACR-ENSE1","name":"Kachi Kochi Dragon","ctype":"monster","keywords":"Dragon EARTH Xyz Monster","stats":{"a":"EARTH","l":"Rank 4","t":"Dragon / Xyz","atk":2100,"def":1300},"note":"Maximum Crisis: Special Edition","rarity":"SR","img":"69069911","code":"19","tcg":133442,"grp":1922,"idx":18},
+    {"id":"MACR-SE2","section":"main","num":"MACR-ENSE2","printed":"MACR-ENSE2","name":"Number S0: Utopic ZEXAL","ctype":"monster","keywords":"Utopia Warrior LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 0","t":"Warrior / Xyz","atk":-1,"def":-1},"note":"Maximum Crisis: Special Edition","rarity":"SR","img":"52653092","code":"20","tcg":133443,"grp":1922,"idx":19},
+    {"id":"MACR-SE3","section":"main","num":"MACR-ENSE3","printed":"MACR-ENSE3","name":"Emerging Emergency Rescute Rescue","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"note":"Maximum Crisis: Special Edition","rarity":"SR","img":"97926515","code":"21","tcg":133444,"grp":1922,"idx":20},
+    {"id":"MACR-SE4","section":"main","num":"MACR-ENSE4","printed":"MACR-ENSE4","name":"Boogie Trap","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"note":"Maximum Crisis: Special Edition","rarity":"SR","img":"96704974","code":"22","tcg":133445,"grp":1922,"idx":21},
+    {"id":"MACR-SP1","section":"main","num":"MACR-ENSP1","printed":"MACR-ENSP1","name":"Pendulum Switch","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"note":"Maximum Crisis Sneak Peek Participation Card","rarity":"UR","img":"42378577","code":"23","tcg":131360,"grp":1922,"idx":22},
+    {"id":"MVPC-001","section":"main","num":"MVPC-EN001","printed":"MVPC-EN001","name":"Obelisk the Tormentor","ctype":"monster","keywords":"Egyptian God Divine-Beast DIVINE Effect Monster","stats":{"a":"DIVINE","l":"Level 10","t":"Divine-Beast / Effect","atk":4000,"def":4000},"note":"Yu-Gi-Oh! The Dark Side of Dimensions Blu-ray & DVD promotional card","rarity":"GUR","img":"10000002","code":"24","tcg":243265,"grp":1877,"idx":23},
+    {"id":"MVPC-001-gscr","section":"rarities","num":"MVPC-EN001","printed":"MVPC-EN001","name":"Obelisk the Tormentor","ctype":"monster","keywords":"Egyptian God Divine-Beast DIVINE Effect Monster","stats":{"a":"DIVINE","l":"Level 10","t":"Divine-Beast / Effect","atk":4000,"def":4000},"note":"Yu-Gi-Oh! The Dark Side of Dimensions Blu-ray & DVD promotional card","rarity":"GScR","img":"10000002","badge":"GScR","variant":"Gold Secret Rare","code":"GSCR24","tcg":127416,"grp":1877,"idx":24},
+    {"id":"RATE-SE1","section":"main","num":"RATE-ENSE1","printed":"RATE-ENSE1","name":"Number 22: Zombiestein","ctype":"monster","keywords":"Zombie DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 8","t":"Zombie / Xyz","atk":4500,"def":1000},"note":"Raging Tempest: Special Edition","rarity":"SR","img":"73445448","code":"25","tcg":129304,"grp":1880,"idx":25},
+    {"id":"RATE-SE2","section":"main","num":"RATE-ENSE2","printed":"RATE-ENSE2","name":"Masked HERO Blast","ctype":"monster","keywords":"Masked HERO Warrior WIND Fusion Monster","stats":{"a":"WIND","l":"Level 6","t":"Warrior / Fusion","atk":2200,"def":1800},"note":"Raging Tempest: Special Edition","rarity":"SR","img":"89870349","code":"26","tcg":129305,"grp":1880,"idx":26},
+    {"id":"RATE-SE3","section":"main","num":"RATE-ENSE3","printed":"RATE-ENSE3","name":"Zoodiac Kataroost","ctype":"monster","keywords":"Zoodiac Beast-Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Beast-Warrior / Effect","atk":800,"def":1200},"note":"Raging Tempest: Special Edition","rarity":"SR","img":"20155904","code":"27","tcg":129306,"grp":1880,"idx":27},
+    {"id":"RATE-SE4","section":"main","num":"RATE-ENSE4","printed":"RATE-ENSE4","name":"Baobaboon","ctype":"monster","keywords":"Plant DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Plant / Effect","atk":1200,"def":1000},"note":"Raging Tempest: Special Edition","rarity":"SR","img":"55705473","code":"28","tcg":129307,"grp":1880,"idx":28},
+    {"id":"RATE-SP1","section":"main","num":"RATE-ENSP1","printed":"RATE-ENSP1","name":"Fusion Recycling Plant","ctype":"spell","keywords":"Field Spell","stats":{"t":"Field Spell"},"note":"Raging Tempest Sneak Peek Participation Card","rarity":"UR","img":"22829942","code":"29","tcg":129717,"grp":1880,"idx":29},
+    {"id":"YA01-001","section":"main","num":"YA01-EN001","printed":"YA01-EN001","name":"Odd-Eyes Phantom Dragon","ctype":"monster","keywords":"-Eyes Dragon Dragon DARK Pendulum Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Dragon / Pendulum / Effect","atk":2500,"def":2000},"note":"Yu-Gi-Oh! ARC-V Volume 1 promotional card","rarity":"UR","img":"93149655","code":"30","tcg":129805,"grp":1918,"idx":30},
+    {"id":"YA02-001","section":"main","num":"YA02-EN001","printed":"YA02-EN001","name":"Clear Wing Fast Dragon","ctype":"monster","keywords":"Clear Wing Dragon WIND Synchro Pendulum Effect Monster","stats":{"a":"WIND","l":"Level 7","t":"Dragon / Synchro / Pendulum / Effect","atk":2500,"def":2000},"note":"Yu-Gi-Oh! ARC-V Volume 2 promotional card","rarity":"UR","img":"90036274","code":"31","tcg":145260,"grp":1918,"idx":31},
+    {"id":"YCSW-010","section":"main","num":"YCSW-EN010","printed":"YCSW-EN010","name":"Number 89: Diablosis the Mind Hacker","ctype":"monster","keywords":"Psychic DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 7","t":"Psychic / Xyz","atk":2800,"def":1200},"note":"Yu-Gi-Oh! Championship Series 2017 prize card","rarity":"SR","img":"95474755","code":"32","tcg":166416,"grp":1347,"idx":32},
+    {"id":"YCSW-010-ur","section":"rarities","num":"YCSW-EN010","printed":"YCSW-EN010","name":"Number 89: Diablosis the Mind Hacker","ctype":"monster","keywords":"Psychic DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 7","t":"Psychic / Xyz","atk":2800,"def":1200},"note":"Yu-Gi-Oh! Championship Series 2017 prize card","rarity":"UR","img":"95474755","badge":"UR","variant":"Ultra Rare","code":"UR32","tcg":166417,"grp":1347,"idx":33}
+  ]
+}

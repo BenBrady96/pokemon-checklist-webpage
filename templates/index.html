@@ -2,10 +2,10 @@
 <html lang="en-GB">
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'wasm-unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https://assets.tcgdex.net; media-src 'self' blob:; connect-src 'self' https://assets.tcgdex.net; worker-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self';">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'wasm-unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https://assets.tcgdex.net https://img.bindertracker.co.uk; media-src 'self' blob:; connect-src 'self' https://assets.tcgdex.net https://img.bindertracker.co.uk; worker-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self';">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>Free Pokémon Card Checklist &amp; Collection Tracker | Binder Tracker</title>
-  <meta name="description" content="Free Pokémon card checklists for every English set from Base Set to Mega Evolution, with no ads, no sign-up and no tracking. Tick off your cards, chase master sets and reverse holos, count duplicates and see what your collection is worth.">
+  <title>{{title}}</title>
+  <meta name="description" content="{{description}}">
   <meta name="robots" content="index, follow, max-image-preview:large">
   <link rel="canonical" href="https://bindertracker.co.uk/">
   <meta name="theme-color" content="#F7F7F8" media="(prefers-color-scheme: light)">
@@ -13,19 +13,19 @@
   <meta name="color-scheme" content="light dark">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Binder Tracker">
-  <meta property="og:title" content="Binder Tracker · Free Pokémon Card Checklist &amp; Collection Tracker">
-  <meta property="og:description" content="Free checklists for every English Pokémon TCG set from Base Set to Mega Evolution, with no ads, no sign-up and no tracking. Track standard, master and grand master sets with reverse holos and 1st Editions, count duplicates and plan binder pages. Works offline.">
+  <meta property="og:title" content="{{ogTitle}}">
+  <meta property="og:description" content="{{ogDescription}}">
   <meta property="og:url" content="https://bindertracker.co.uk/">
   <meta property="og:image" content="https://bindertracker.co.uk/img/og-image.jpg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="Binder Tracker: card checklists for Pokémon TCG sets">
+  <meta property="og:image:alt" content="{{imageAlt}}">
   <meta property="og:locale" content="en_GB">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Binder Tracker · Free Pokémon Card Checklist &amp; Collection Tracker">
-  <meta name="twitter:description" content="Free checklists for every English Pokémon TCG set from Base Set to Mega Evolution. No ads, no sign-up, no tracking.">
+  <meta name="twitter:title" content="{{ogTitle}}">
+  <meta name="twitter:description" content="{{twitterDescription}}">
   <meta name="twitter:image" content="https://bindertracker.co.uk/img/og-image.jpg">
-  <meta name="twitter:image:alt" content="Binder Tracker: card checklists for Pokémon TCG sets">
+  <meta name="twitter:image:alt" content="{{imageAlt}}">
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="icon" href="img/icons/favicon.svg" type="image/svg+xml">
   <link rel="icon" href="img/icons/favicon-32.png" sizes="32x32" type="image/png">
@@ -35,56 +35,7 @@
   <meta name="apple-mobile-web-app-title" content="Binder Tracker">
   <link rel="preload" href="fonts/outfit-latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="css/styles.css">
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "Organization",
-        "@id": "https://bindertracker.co.uk/#organization",
-        "name": "Binder Tracker",
-        "url": "https://bindertracker.co.uk/",
-        "logo": "https://bindertracker.co.uk/img/icons/icon-512.png"
-      },
-      {
-        "@type": "WebSite",
-        "@id": "https://bindertracker.co.uk/#website",
-        "url": "https://bindertracker.co.uk/",
-        "name": "Binder Tracker",
-        "alternateName": "Binder Tracker Pokémon TCG Checklists",
-        "description": "Free Pokémon card checklists and collection tracker, with no ads, no sign-up and no tracking.",
-        "inLanguage": "en-GB",
-        "publisher": { "@id": "https://bindertracker.co.uk/#organization" }
-      },
-      {
-        "@type": "WebApplication",
-        "@id": "https://bindertracker.co.uk/#app",
-        "name": "Binder Tracker",
-        "url": "https://bindertracker.co.uk/",
-        "description": "Checklists for English Pokémon TCG sets from Base Set to Mega Evolution, with standard, master and grand master sets, copy counts and binder pages.",
-        "applicationCategory": "UtilitiesApplication",
-        "operatingSystem": "Any",
-        "browserRequirements": "Requires JavaScript",
-        "isAccessibleForFree": true,
-        "inLanguage": "en-GB",
-        "image": "https://bindertracker.co.uk/img/og-image.jpg",
-        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "GBP" },
-        "featureList": [
-          "No ads, no sign-up and no tracking",
-          "Checklists for every English set from Base Set to Mega Evolution",
-          "Standard, complete, master and grand master sets, including reverse holos",
-          "Copy counts for duplicates and trades",
-          "Grid, list and binder page views",
-          "Card scanner that runs on your device",
-          "Collection value from TCGplayer market prices",
-          "Trade codes to compare collections with friends",
-          "Works offline",
-          "Export and import by link, code, QR code or file"
-        ]
-      }
-    ]
-  }
-  </script>
+  <script type="application/ld+json">{{{jsonLd}}}</script>
   <script src="js/shared/theme-init.js"></script>
   <script type="module" src="js/pages/home.js"></script>
   <noscript><style>.page-loader { display: none; }</style></noscript>
@@ -136,7 +87,7 @@
   </defs>
 </svg>
 
-<a class="skip-link" href="#sets">Skip to the sets</a>
+<a class="skip-link" href="#sets">Skip to the card games</a>
 
 <header class="appbar">
   <div class="wrap appbar__inner">
@@ -178,45 +129,34 @@
 </div>
 
 <main id="sets" class="home wrap" tabindex="-1">
-  <section class="home-hero">
-    <h1 class="home-hero__title">Every Pokémon card in your binder, <span class="brand__gold">ticked off</span></h1>
-    <p class="home-hero__text">Free Pokémon card checklists for {{setCount}} sets, from Base Set to Mega Evolution. Tick off what you own, track spare copies and see what your collection is worth. No ads, no sign-up, no tracking.</p>
-    <label class="search home-search">
-      <svg class="search__icon" aria-hidden="true"><use href="#i-search"/></svg>
-      <input type="search" class="search__input" id="set-search" placeholder="Find a set, e.g. Surging Sparks or SSP" aria-label="Find a set" autocomplete="off" enterkeyhint="search">
-    </label>
-    <button type="button" class="btn btn--ghost home-scan" data-open="scan"><svg><use href="#i-camera"/></svg>Scan a card to add it</button>
-    <a class="btn btn--ghost home-scan" href="trade/"><svg><use href="#i-swap"/></svg>Trade with a friend</a>
+  <section class="home-hero home-hero--root">
+    <h1 class="home-hero__title">Every card in your binder, <span class="brand__gold">ticked off</span></h1>
+    <p class="home-hero__text">{{heroText}}</p>
+    <nav class="game-picker" aria-label="Card games">
+{{{games}}}
+    </nav>
+    <p class="game-picker__more">More card games coming soon.</p>
   </section>
 
   <section class="home-continue" id="continue" hidden aria-labelledby="continue-title">
     <h2 class="home__heading" id="continue-title">Continue collecting</h2>
     <div class="set-grid" id="continue-grid"></div>
   </section>
-
-  <div id="catalog">
-{{{collections}}}
-  </div>
-  <p class="home-empty" id="no-match" hidden>No sets match “<span></span>”.</p>
 </main>
 
 <section class="about wrap" aria-labelledby="about-title">
-  <h2 class="about__title" id="about-title">About Binder Tracker</h2>
-  <p>Binder Tracker is a free Pokémon card checklist and collection tracker. Every English Pokémon TCG expansion from Base Set to Mega Evolution has its own checklist, with card images, rarities and TCGplayer prices, plus the Black Star promos, trainer kits, McDonald’s collections, World Championships Decks and more.</p>
-  <p>Pick what you’re collecting in each set: the <b>Standard set</b> (the main set), the <b>Master set</b> (the main set plus each reverse holo and Poké Ball or Master Ball pattern) or the <b>Grand Master set</b> (every card, adding the secret rares).</p>
-  <p>Scan a card with your camera to add it, count your duplicates, see what your collection is worth in pounds, dollars or euros, and swap trade codes with friends to check a trade is fair.</p>
-  <p>There are <b>no ads, no sign-up and no tracking</b>. Your collection stays on your device, it works on phones and computers even offline, and <b>Export or share</b> moves it to another device as a link, code, QR code or file.</p>
+  <h2 class="about__title" id="about-title">{{aboutTitle}}</h2>
+{{{aboutHtml}}}
 </section>
 
 <footer class="site-footer wrap">
   <nav class="footer-links" aria-label="Site">
-    <a href="guides/fake-pokemon-cards/">Spot fake cards</a>
-    <a href="privacy.html">Privacy &amp; cookies</a>
+{{{footerGuides}}}    <a href="privacy.html">Privacy &amp; cookies</a>
     <a href="terms.html">Terms of use</a>
     <a href="https://github.com/BenBrady96/pokemon-checklist-webpage" rel="noopener">Source on GitHub</a>
   </nav>
   <p>Like Binder Tracker? It’s free, with no ads. Support it by shopping at <a href="https://brtradingpost.co.uk/shop/" rel="noopener">BR Trading Post</a>.</p>
-  <p><strong>Binder Tracker is an unofficial fan-made checklist.</strong> Not affiliated with, endorsed, sponsored, or approved by Nintendo, Creatures Inc., GAME FREAK inc., or The Pokémon Company. Pokémon and all card images © Pokémon / Nintendo / Creatures Inc. / GAME FREAK inc.</p>
+  <p><strong>Binder Tracker is an unofficial fan-made checklist.</strong> {{disclaimer}}</p>
   <p>Your collections are stored only in this browser. Back them up or move them to another device with <button type="button" class="link-btn" data-open="export">Export or share</button>.</p>
 </footer>
 
@@ -240,8 +180,7 @@
         <button type="button" class="menu__item" data-open="import"><svg><use href="#i-download"/></svg><span><b>Import</b><small>Open a link, code, QR code or file</small></span></button>
       </div>
       <div class="menu__group">
-        <a class="menu__item" href="guides/fake-pokemon-cards/"><svg><use href="#i-shield"/></svg><span><b>Spot fake cards</b><small>How to tell a real Pokémon card from a fake</small></span></a>
-        <a class="menu__item" href="https://brtradingpost.co.uk/shop/" rel="noopener"><svg><use href="#i-bag"/></svg><span><b>Visit our shop</b><small>BR Trading Post: cards and custom painted binders</small></span></a>
+{{{menuGuides}}}        <a class="menu__item" href="https://brtradingpost.co.uk/shop/" rel="noopener"><svg><use href="#i-bag"/></svg><span><b>Visit our shop</b><small>BR Trading Post: cards and custom painted binders</small></span></a>
       </div>
     </div>
   </div>

@@ -44,7 +44,8 @@ const desktopQuery = matchMedia('(min-width: 900px)');
 const isDesktop = () => desktopQuery.matches;
 const isTouch = matchMedia('(pointer: coarse)').matches;
 
-const filters = { status: 'all', rarities: new Set(), sections: new Set(), tokens: [] };
+const filters = { status: 'all', rarities: new Set(), sections: new Set(), ctypes: new Set(), tokens: [] };
+const toggleSet = (kind) => ({ rarity: filters.rarities, section: filters.sections, ctype: filters.ctypes })[kind];
 let gestures;
 let viewer;
 let info;
@@ -59,6 +60,7 @@ function matches(card) {
   if (filters.status === 'dupes' && q < 2) return false;
   if (filters.rarities.size && !filters.rarities.has(card.rarity)) return false;
   if (filters.sections.size && !filters.sections.has(card.section)) return false;
+  if (filters.ctypes.size && !filters.ctypes.has(card.ctype)) return false;
   return filters.tokens.every((t) => card.search.includes(` ${t}`));
 }
 
@@ -77,7 +79,7 @@ function applyFilters() {
   gestures?.resetRoving();
 }
 
-const activeFilterCount = () => (filters.status !== 'all' ? 1 : 0) + filters.rarities.size + filters.sections.size;
+const activeFilterCount = () => (filters.status !== 'all' ? 1 : 0) + filters.rarities.size + filters.sections.size + filters.ctypes.size;
 
 function filtersChanged() {
   applyFilters();
@@ -89,6 +91,7 @@ function clearFilters() {
   filters.status = 'all';
   filters.rarities.clear();
   filters.sections.clear();
+  filters.ctypes.clear();
   filters.tokens = [];
   for (const input of document.querySelectorAll('[data-search]')) input.value = '';
   filtersChanged();
@@ -145,8 +148,7 @@ function syncControls() {
     b.setAttribute('aria-pressed', String(b.dataset.value === filters.status));
   }
   for (const b of document.querySelectorAll('[data-filter-toggle]')) {
-    const set = b.dataset.filterToggle === 'rarity' ? filters.rarities : filters.sections;
-    b.setAttribute('aria-pressed', String(set.has(b.dataset.value)));
+    b.setAttribute('aria-pressed', String(toggleSet(b.dataset.filterToggle).has(b.dataset.value)));
   }
   const modeBtn = document.querySelector('.bottombar__mode');
   modeBtn.dataset.mode = p.mode;
@@ -224,11 +226,14 @@ function buildTierPicker() {
 function updateTierChrome() {
   const tier = COLLECTION.getTier(store.getPrefs().tier);
   const rarities = new Set(tier.cards.map((c) => c.rarity));
+  const ctypes = new Set(tier.cards.map((c) => c.ctype).filter(Boolean));
   for (const id of filters.sections) if (!tier.sectionIds.has(id)) filters.sections.delete(id);
   for (const id of filters.rarities) if (!rarities.has(id)) filters.rarities.delete(id);
+  for (const id of filters.ctypes) if (!ctypes.has(id)) filters.ctypes.delete(id);
   for (const j of COLLECTION.jumps) jumpbar.querySelector(`[data-jump="${j.id}"]`).hidden = !tier.sectionIds.has(j.section || j.id);
+  const present = { rarity: rarities, section: tier.sectionIds, ctype: ctypes };
   for (const chip of document.querySelectorAll('[data-filter-toggle]')) {
-    chip.hidden = !(chip.dataset.filterToggle === 'rarity' ? rarities : tier.sectionIds).has(chip.dataset.value);
+    chip.hidden = !present[chip.dataset.filterToggle].has(chip.dataset.value);
   }
 }
 
@@ -367,6 +372,10 @@ function refreshStats() {
   for (const el of document.querySelectorAll('[data-section-count]')) {
     const g = s.bySection[el.dataset.sectionCount];
     el.textContent = `${g.owned}/${g.total}`;
+  }
+  for (const el of document.querySelectorAll('[data-ctype-count]')) {
+    const cards = s.tier.cards.filter((c) => c.ctype === el.dataset.ctypeCount);
+    el.textContent = `${cards.filter((c) => store.getQty(c.id) > 0).length}/${cards.length}`;
   }
   updateSectionCounts(root);
   if (document.getElementById('dlg-stats').open) document.getElementById('stats-body').innerHTML = renderStats(s);
@@ -582,7 +591,7 @@ function wireControls() {
       filters.status = t.dataset.value;
       filtersChanged();
     } else if (t.matches('[data-filter-toggle]')) {
-      const set = t.dataset.filterToggle === 'rarity' ? filters.rarities : filters.sections;
+      const set = toggleSet(t.dataset.filterToggle);
       if (set.has(t.dataset.value)) set.delete(t.dataset.value);
       else set.add(t.dataset.value);
       filtersChanged();
@@ -692,6 +701,13 @@ function buildFilterChips() {
     .join('');
   document.getElementById('rarity-field').hidden = !document.getElementById('rarity-chips').children.length;
   document.getElementById('section-field').hidden = COLLECTION.sections.length < 2;
+  const types = COLLECTION.game.CARD_TYPES || {};
+  const present = new Set(COLLECTION.cards.map((c) => c.ctype).filter(Boolean));
+  const ctypeChips = Object.entries(types).filter(([id]) => present.has(id));
+  document.getElementById('ctype-chips').innerHTML = ctypeChips
+    .map(([id, t]) => `<button type="button" class="chip" data-filter-toggle="ctype" data-value="${id}"><span>${t.name}</span><span class="chip__count" data-ctype-count="${id}"></span></button>`)
+    .join('');
+  document.getElementById('ctype-field').hidden = ctypeChips.length < 2;
 }
 
 function fillHelp() {

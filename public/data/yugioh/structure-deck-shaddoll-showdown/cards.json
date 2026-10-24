@@ -1,0 +1,109 @@
+{
+  "id": "yugioh/structure-deck-shaddoll-showdown",
+  "game": "yugioh",
+  "slug": "structure-deck-shaddoll-showdown",
+  "name": "Structure Deck: Shaddoll Showdown",
+  "series": "VRAINS",
+  "kind": "deck",
+  "code": "SDSH",
+  "syncKey": "YSDSH",
+  "released": "2020-02-13",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "SDSH-EN001–SDSH-EN049",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from SDSH-EN001 to SDSH-EN049."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Structure Deck: Shaddoll Showdown Checklist · All 49 Cards",
+    "description": "Free Yu-Gi-Oh! Structure Deck: Shaddoll Showdown checklist with no ads, no sign-up and no tracking. Track all 49 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Structure Deck: Shaddoll Showdown Checklist",
+    "ogDescription": "Track all 49 cards in Yu-Gi-Oh! Structure Deck: Shaddoll Showdown. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 49 cards in Yu-Gi-Oh! Structure Deck: Shaddoll Showdown. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Structure Deck: Shaddoll Showdown",
+    "paragraphs": [
+      "Structure Deck: Shaddoll Showdown is a Yu-Gi-Oh! TCG deck released on 13 February 2020, in the VRAINS era. It has 49 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Structure Deck: Shaddoll Showdown"
+    ],
+    "tcgplayer": [
+      2591
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"SDSH-EN001","name":"Qadshaddoll Keios","ctype":"monster","keywords":"Shaddoll Spellcaster LIGHT Flip Effect Monster","stats":{"a":"LIGHT","l":"Level 2","t":"Spellcaster / Flip / Effect","atk":900,"def":100},"rarity":"SR","img":"24635329","code":"1","tcg":208951,"grp":2591,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"SDSH-EN002","name":"Reeshaddoll Wendi","ctype":"monster","keywords":"Shaddoll Psychic WIND Flip Effect Monster","stats":{"a":"WIND","l":"Level 3","t":"Psychic / Flip / Effect","atk":1500,"def":1000},"rarity":"SR","img":"51023024","code":"2","tcg":208952,"grp":2591,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"SDSH-EN003","name":"Naelshaddoll Ariel","ctype":"monster","keywords":"Shaddoll Psychic WATER Flip Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Psychic / Flip / Effect","atk":1000,"def":1800},"rarity":"SR","img":"97518132","code":"3","tcg":208953,"grp":2591,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"SDSH-EN004","name":"Shaddoll Falco","ctype":"monster","keywords":"Shaddoll Spellcaster DARK Flip Tuner Effect Monster","stats":{"a":"DARK","l":"Level 2","t":"Spellcaster / Flip / Tuner / Effect","atk":600,"def":1400},"rarity":"C","img":"37445295","code":"4","tcg":208954,"grp":2591,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"SDSH-EN005","name":"Shaddoll Hedgehog","ctype":"monster","keywords":"Shaddoll Spellcaster DARK Flip Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Spellcaster / Flip / Effect","atk":800,"def":200},"rarity":"C","img":"4939890","code":"5","tcg":208955,"grp":2591,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"SDSH-EN006","name":"Shaddoll Squamata","ctype":"monster","keywords":"Shaddoll Spellcaster DARK Flip Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Flip / Effect","atk":1800,"def":1000},"rarity":"C","img":"30328508","code":"6","tcg":208956,"grp":2591,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"SDSH-EN007","name":"Shaddoll Dragon","ctype":"monster","keywords":"Shaddoll Spellcaster DARK Flip Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Flip / Effect","atk":1900,"def":0},"rarity":"C","img":"77723643","code":"7","tcg":208957,"grp":2591,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"SDSH-EN008","name":"Shaddoll Beast","ctype":"monster","keywords":"Shaddoll Spellcaster DARK Flip Effect Monster","stats":{"a":"DARK","l":"Level 5","t":"Spellcaster / Flip / Effect","atk":2200,"def":1700},"rarity":"C","img":"3717252","code":"8","tcg":208958,"grp":2591,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"SDSH-EN009","name":"Shaddoll Hound","ctype":"monster","keywords":"Shaddoll Spellcaster DARK Flip Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Flip / Effect","atk":1600,"def":900},"rarity":"C","img":"52551211","code":"9","tcg":208959,"grp":2591,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"SDSH-EN010","name":"Shaddoll Zefranaga","ctype":"monster","keywords":"Shaddoll Spellcaster DARK Pendulum Effect Monster","stats":{"a":"DARK","l":"Level 2","t":"Spellcaster / Pendulum / Effect","atk":900,"def":100},"rarity":"C","img":"58016954","code":"10","tcg":208960,"grp":2591,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"SDSH-EN011","name":"Shaddoll Zefracore","ctype":"monster","keywords":"Shaddoll Rock DARK Pendulum Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Rock / Pendulum / Effect","atk":450,"def":1950},"rarity":"C","img":"95401059","code":"11","tcg":208961,"grp":2591,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"SDSH-EN012","name":"Black Luster Soldier - Envoy of the Beginning","ctype":"monster","keywords":"Black Luster Soldier Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Warrior / Effect","atk":3000,"def":2500},"rarity":"C","img":"72989439","code":"12","tcg":208962,"grp":2591,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"SDSH-EN013","name":"Lava Golem","ctype":"monster","keywords":"Fiend FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 8","t":"Fiend / Effect","atk":3000,"def":2500},"rarity":"C","img":"102380","code":"13","tcg":208963,"grp":2591,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"SDSH-EN014","name":"Dark Armed Dragon","ctype":"monster","keywords":"Armed Dragon Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Dragon / Effect","atk":2800,"def":1000},"rarity":"C","img":"65192027","code":"14","tcg":208964,"grp":2591,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"SDSH-EN015","name":"Fairy Tail - Sleeper","ctype":"monster","keywords":"Spellcaster LIGHT Flip Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Flip / Effect","atk":1850,"def":1000},"rarity":"C","img":"42921475","code":"15","tcg":208965,"grp":2591,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"SDSH-EN016","name":"Performage Trick Clown","ctype":"monster","keywords":"Performage Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Effect","atk":1600,"def":1200},"rarity":"C","img":"67696066","code":"16","tcg":208966,"grp":2591,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"SDSH-EN017","name":"Armageddon Knight","ctype":"monster","keywords":"Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Warrior / Effect","atk":1400,"def":1200},"rarity":"C","img":"28985331","code":"17","tcg":208969,"grp":2591,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"SDSH-EN018","name":"Felis, Lightsworn Archer","ctype":"monster","keywords":"Lightsworn Beast-Warrior LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Beast-Warrior / Tuner","atk":1100,"def":2000},"rarity":"C","img":"73176465","code":"18","tcg":208971,"grp":2591,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"SDSH-EN019","name":"Electromagnetic Turtle","ctype":"monster","keywords":"Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Machine / Effect","atk":0,"def":1800},"rarity":"C","img":"34710660","code":"19","tcg":208972,"grp":2591,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"SDSH-EN020","name":"Mathematician","ctype":"monster","keywords":"Spellcaster EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Spellcaster / Effect","atk":1500,"def":500},"rarity":"C","img":"41386308","code":"20","tcg":208973,"grp":2591,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"SDSH-EN021","name":"Kuribandit","ctype":"monster","keywords":"Kuriboh Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Fiend / Effect","atk":1000,"def":700},"rarity":"C","img":"16404809","code":"21","tcg":208980,"grp":2591,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"SDSH-EN022","name":"Peropero Cerperus","ctype":"monster","keywords":"Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Beast / Effect","atk":0,"def":1800},"rarity":"C","img":"69764158","code":"22","tcg":208981,"grp":2591,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"SDSH-EN023","name":"Curse of the Shadow Prison","ctype":"spell","keywords":"Shaddoll Field Spell","stats":{"t":"Field Spell"},"rarity":"C","img":"81788994","code":"23","tcg":208986,"grp":2591,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"SDSH-EN024","name":"El Shaddoll Fusion","ctype":"spell","keywords":"Shaddoll Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"6417578","code":"24","tcg":208987,"grp":2591,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"SDSH-EN025","name":"Nephe Shaddoll Fusion","ctype":"spell","keywords":"Shaddoll Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"60226558","code":"25","tcg":208988,"grp":2591,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"SDSH-EN026","name":"Super Polymerization","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"48130397","code":"26","tcg":208989,"grp":2591,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"SDSH-EN027","name":"Instant Fusion","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"1845204","code":"27","tcg":208990,"grp":2591,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"SDSH-EN028","name":"Allure of Darkness","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"1475311","code":"28","tcg":208991,"grp":2591,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"SDSH-EN029","name":"Foolish Burial","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"81439174","code":"29","tcg":208992,"grp":2591,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"SDSH-EN030","name":"Living Fossil","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"34959756","code":"30","tcg":208993,"grp":2591,"idx":29},
+    {"id":"031","section":"main","num":"031","printed":"SDSH-EN031","name":"Pot of Avarice","ctype":"spell","keywords":"Greed Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"67169062","code":"31","tcg":208994,"grp":2591,"idx":30},
+    {"id":"032","section":"main","num":"032","printed":"SDSH-EN032","name":"Twin Twisters","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"43898403","code":"32","tcg":208995,"grp":2591,"idx":31},
+    {"id":"033","section":"main","num":"033","printed":"SDSH-EN033","name":"Resh Shaddoll Incarnation","ctype":"trap","keywords":"Shaddoll Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"23912837","code":"33","tcg":208996,"grp":2591,"idx":32},
+    {"id":"034","section":"main","num":"034","printed":"SDSH-EN034","name":"Shaddoll Core","ctype":"trap","keywords":"Shaddoll Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"4904633","code":"34","tcg":208997,"grp":2591,"idx":33},
+    {"id":"035","section":"main","num":"035","printed":"SDSH-EN035","name":"Sinister Shadow Games","ctype":"trap","keywords":"Shaddoll Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"77505534","code":"35","tcg":208998,"grp":2591,"idx":34},
+    {"id":"036","section":"main","num":"036","printed":"SDSH-EN036","name":"Purushaddoll Aeon","ctype":"trap","keywords":"Shaddoll Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"78942513","code":"36","tcg":208999,"grp":2591,"idx":35},
+    {"id":"037","section":"main","num":"037","printed":"SDSH-EN037","name":"Lost Wind","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"74003290","code":"37","tcg":209000,"grp":2591,"idx":36},
+    {"id":"038","section":"main","num":"038","printed":"SDSH-EN038","name":"Unending Nightmare","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"69452756","code":"38","tcg":209001,"grp":2591,"idx":37},
+    {"id":"039","section":"main","num":"039","printed":"SDSH-EN039","name":"Necro Fusion","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"81223446","code":"39","tcg":209002,"grp":2591,"idx":38},
+    {"id":"040","section":"main","num":"040","printed":"SDSH-EN040","name":"Subterror Succession","ctype":"trap","keywords":"Subterror Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"73575650","code":"40","tcg":209003,"grp":2591,"idx":39},
+    {"id":"041","section":"main","num":"041","printed":"SDSH-EN041","name":"El Shaddoll Grysta","ctype":"monster","keywords":"Shaddoll Rock FIRE Fusion Monster","stats":{"a":"FIRE","l":"Level 7","t":"Rock / Fusion","atk":2450,"def":1950},"rarity":"UR","img":"48424886","code":"41","tcg":209004,"grp":2591,"idx":40},
+    {"id":"042","section":"main","num":"042","printed":"SDSH-EN042","name":"El Shaddoll Wendigo","ctype":"monster","keywords":"Shaddoll Psychic WIND Fusion Monster","stats":{"a":"WIND","l":"Level 6","t":"Psychic / Fusion","atk":200,"def":2800},"rarity":"C","img":"74009824","code":"42","tcg":209005,"grp":2591,"idx":41},
+    {"id":"043","section":"main","num":"043","printed":"SDSH-EN043","name":"El Shaddoll Anoyatyllis","ctype":"monster","keywords":"Shaddoll Fiend WATER Fusion Monster","stats":{"a":"WATER","l":"Level 9","t":"Fiend / Fusion","atk":2700,"def":2000},"rarity":"C","img":"19261966","code":"43","tcg":209006,"grp":2591,"idx":42},
+    {"id":"044","section":"main","num":"044","printed":"SDSH-EN044","name":"Shaddoll Construct","ctype":"monster","keywords":"Shaddoll Fairy LIGHT Link Monster","stats":{"a":"LIGHT","l":"Link 2","t":"Fairy / Link","atk":1200},"rarity":"C","img":"86938484","code":"44","tcg":209007,"grp":2591,"idx":43},
+    {"id":"045","section":"main","num":"045","printed":"SDSH-EN045","name":"El Shaddoll Apkallone","ctype":"monster","keywords":"Shaddoll Spellcaster DARK Fusion Monster","stats":{"a":"DARK","l":"Level 6","t":"Spellcaster / Fusion","atk":2500,"def":2000},"rarity":"UR","img":"50907446","code":"45","tcg":209008,"grp":2591,"idx":44},
+    {"id":"046","section":"main","num":"046","printed":"SDSH-EN046","name":"El Shaddoll Construct","ctype":"monster","keywords":"Shaddoll Fairy LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Fairy / Fusion","atk":2800,"def":2500},"rarity":"UR","img":"20366275","code":"46","tcg":209009,"grp":2591,"idx":45},
+    {"id":"047","section":"main","num":"047","printed":"SDSH-EN047","name":"El Shaddoll Winda","ctype":"monster","keywords":"Shaddoll Spellcaster DARK Fusion Monster","stats":{"a":"DARK","l":"Level 5","t":"Spellcaster / Fusion","atk":2200,"def":800},"rarity":"SR","img":"94977270","code":"47","tcg":209010,"grp":2591,"idx":46},
+    {"id":"048","section":"main","num":"048","printed":"SDSH-EN048","name":"El Shaddoll Shekhinaga","ctype":"monster","keywords":"Shaddoll Machine EARTH Fusion Monster","stats":{"a":"EARTH","l":"Level 10","t":"Machine / Fusion","atk":2600,"def":3000},"rarity":"SR","img":"74822425","code":"48","tcg":209011,"grp":2591,"idx":47},
+    {"id":"049","section":"main","num":"049","printed":"SDSH-EN049","name":"Shaddoll Fusion","ctype":"spell","keywords":"Shaddoll Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"44394295","code":"49","tcg":209012,"grp":2591,"idx":48}
+  ]
+}

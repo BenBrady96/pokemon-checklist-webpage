@@ -1,0 +1,147 @@
+{
+  "id": "yugioh/2-player-starter-set",
+  "game": "yugioh",
+  "slug": "2-player-starter-set",
+  "name": "2-Player Starter Set",
+  "series": "SEVENS & GO RUSH!!",
+  "kind": "deck",
+  "code": "STAS",
+  "syncKey": "YSTAS",
+  "released": "2024-01-26",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "STAS-EN001–STAX-EN044",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from STAS-EN001 to STAX-EN044."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! 2-Player Starter Set Checklist · All 87 Cards",
+    "description": "Free Yu-Gi-Oh! 2-Player Starter Set checklist with no ads, no sign-up and no tracking. Track all 87 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! 2-Player Starter Set Checklist",
+    "ogDescription": "Track all 87 cards in Yu-Gi-Oh! 2-Player Starter Set. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 87 cards in Yu-Gi-Oh! 2-Player Starter Set. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About 2-Player Starter Set",
+    "paragraphs": [
+      "2-Player Starter Set is a Yu-Gi-Oh! TCG deck released on 26 January 2024, in the SEVENS &amp; GO RUSH!! era. It has 87 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "2-Player Starter Set"
+    ],
+    "tcgplayer": [
+      23269
+    ]
+  },
+  "cards": [
+    {"id":"STAS-001","section":"main","num":"001","printed":"STAS-EN001","name":"Elemental HERO Sparkman","ctype":"monster","keywords":"Elemental HERO Warrior LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Normal","atk":1600,"def":1400},"rarity":"C","img":"20721928","code":"1","tcg":533011,"grp":23269,"idx":0},
+    {"id":"STAS-002","section":"main","num":"002","printed":"STAS-EN002","name":"Inpachi","ctype":"monster","keywords":"Machine EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 4","t":"Machine / Normal","atk":1600,"def":1900},"rarity":"C","img":"97923414","code":"2","tcg":533012,"grp":23269,"idx":1},
+    {"id":"STAS-003","section":"main","num":"003","printed":"STAS-EN003","name":"Spirit of the Harp","ctype":"monster","keywords":"Fairy LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fairy / Normal","atk":800,"def":2000},"rarity":"C","img":"80770678","code":"3","tcg":533013,"grp":23269,"idx":2},
+    {"id":"STAS-004","section":"main","num":"004","printed":"STAS-EN004","name":"Launcher Spider","ctype":"monster","keywords":"Machine FIRE Normal Monster","stats":{"a":"FIRE","l":"Level 7","t":"Machine / Normal","atk":2200,"def":2500},"rarity":"C","img":"87322377","code":"4","tcg":533014,"grp":23269,"idx":3},
+    {"id":"STAS-005","section":"main","num":"005","printed":"STAS-EN005","name":"Ryu-Ran","ctype":"monster","keywords":"Dragon FIRE Normal Monster","stats":{"a":"FIRE","l":"Level 7","t":"Dragon / Normal","atk":2200,"def":2600},"rarity":"C","img":"2964201","code":"5","tcg":533015,"grp":23269,"idx":4},
+    {"id":"STAS-006","section":"main","num":"006","printed":"STAS-EN006","name":"Ojama Green","ctype":"monster","keywords":"Ojama Beast LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 2","t":"Beast / Normal","atk":0,"def":1000},"rarity":"C","img":"12482652","code":"6","tcg":533016,"grp":23269,"idx":5},
+    {"id":"STAS-007","section":"main","num":"007","printed":"STAS-EN007","name":"Gil Garth","ctype":"monster","keywords":"Fiend DARK Normal Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Normal","atk":1800,"def":1200},"rarity":"C","img":"38445524","code":"7","tcg":533017,"grp":23269,"idx":6},
+    {"id":"STAS-008","section":"main","num":"008","printed":"STAS-EN008","name":"Ally of Justice Clausolas","ctype":"monster","keywords":"Ally of Justice Machine DARK Normal Monster","stats":{"a":"DARK","l":"Level 6","t":"Machine / Normal","atk":2300,"def":1200},"rarity":"C","img":"89386122","code":"8","tcg":533018,"grp":23269,"idx":7},
+    {"id":"STAS-009","section":"main","num":"009","printed":"STAS-EN009","name":"Swords of Revealing Light","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"72302403","code":"9","tcg":533019,"grp":23269,"idx":8},
+    {"id":"STAS-010","section":"main","num":"010","printed":"STAS-EN010","name":"Back-Up Rider","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"68833958","code":"10","tcg":533020,"grp":23269,"idx":9},
+    {"id":"STAS-011","section":"main","num":"011","printed":"STAS-EN011","name":"Apprentice Piper","ctype":"monster","keywords":"Spellcaster DARK Flip Effect Monster","stats":{"a":"DARK","l":"Level 2","t":"Spellcaster / Flip / Effect","atk":100,"def":1500},"rarity":"C","img":"64977888","code":"11","tcg":533021,"grp":23269,"idx":10},
+    {"id":"STAS-012","section":"main","num":"012","printed":"STAS-EN012","name":"Storming Mirror Force","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"5650082","code":"12","tcg":533022,"grp":23269,"idx":11},
+    {"id":"STAS-013","section":"main","num":"013","printed":"STAS-EN013","name":"Scapegoat","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"73915051","code":"13","tcg":533052,"grp":23269,"idx":12},
+    {"id":"STAS-014","section":"main","num":"014","printed":"STAS-EN014","name":"Cardcar D","ctype":"monster","keywords":"Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 2","t":"Machine / Effect","atk":800,"def":400},"rarity":"C","img":"45812361","code":"14","tcg":533053,"grp":23269,"idx":13},
+    {"id":"STAS-015","section":"main","num":"015","printed":"STAS-EN015","name":"The Warrior Returning Alive","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"95281259","code":"15","tcg":533054,"grp":23269,"idx":14},
+    {"id":"STAS-016","section":"main","num":"016","printed":"STAS-EN016","name":"One-Time Passcode","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"93104632","code":"16","tcg":533055,"grp":23269,"idx":15},
+    {"id":"STAS-017","section":"main","num":"017","printed":"STAS-EN017","name":"D.D. Crow","ctype":"monster","keywords":"D.D. Winged Beast DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Winged Beast / Effect","atk":100,"def":100},"rarity":"C","img":"24508238","code":"17","tcg":533056,"grp":23269,"idx":16},
+    {"id":"STAS-018","section":"main","num":"018","printed":"STAS-EN018","name":"Obsessive Uvualoop","ctype":"monster","keywords":"Fiend EARTH Tuner Monster","stats":{"a":"EARTH","l":"Level 4","t":"Fiend / Tuner","atk":1200,"def":1800},"rarity":"C","img":"98806751","code":"18","tcg":533057,"grp":23269,"idx":17},
+    {"id":"STAS-019","section":"main","num":"019","printed":"STAS-EN019","name":"Visas Starfrost","ctype":"monster","keywords":"Warrior LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Warrior / Tuner","atk":2100,"def":1500},"rarity":"C","img":"56099748","code":"19","tcg":533058,"grp":23269,"idx":18},
+    {"id":"STAS-020","section":"main","num":"020","printed":"STAS-EN020","name":"Mannadium Fearless","ctype":"monster","keywords":"Mannadium Fairy EARTH Tuner Monster","stats":{"a":"EARTH","l":"Level 2","t":"Fairy / Tuner","atk":0,"def":2000},"rarity":"C","img":"17272964","code":"20","tcg":533059,"grp":23269,"idx":19},
+    {"id":"STAS-021","section":"main","num":"021","printed":"STAS-EN021","name":"Barrier Resonator","ctype":"monster","keywords":"Resonator Fiend LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Fiend / Tuner","atk":300,"def":800},"rarity":"C","img":"89127526","code":"21","tcg":533060,"grp":23269,"idx":20},
+    {"id":"STAS-022","section":"main","num":"022","printed":"STAS-EN022","name":"Fissure","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"66788016","code":"22","tcg":533061,"grp":23269,"idx":21},
+    {"id":"STAS-023","section":"main","num":"023","printed":"STAS-EN023","name":"Mask of Darkness","ctype":"monster","keywords":"Mask Fiend DARK Flip Effect Monster","stats":{"a":"DARK","l":"Level 2","t":"Fiend / Flip / Effect","atk":900,"def":400},"rarity":"C","img":"28933734","code":"23","tcg":533062,"grp":23269,"idx":22},
+    {"id":"STAS-024","section":"main","num":"024","printed":"STAS-EN024","name":"Dark Hole","ctype":"spell","keywords":"Hole Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"53129443","code":"24","tcg":533063,"grp":23269,"idx":23},
+    {"id":"STAS-025","section":"main","num":"025","printed":"STAS-EN025","name":"Kunai with Chain","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"37390589","code":"25","tcg":533064,"grp":23269,"idx":24},
+    {"id":"STAS-026","section":"main","num":"026","printed":"STAS-EN026","name":"Mask of the Accursed","ctype":"spell","keywords":"Mask Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"56948373","code":"26","tcg":533065,"grp":23269,"idx":25},
+    {"id":"STAS-027","section":"main","num":"027","printed":"STAS-EN027","name":"Magic Cylinder","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"62279055","code":"27","tcg":533066,"grp":23269,"idx":26},
+    {"id":"STAS-028","section":"main","num":"028","printed":"STAS-EN028","name":"Mage Power","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"83746708","code":"28","tcg":533072,"grp":23269,"idx":27},
+    {"id":"STAS-029","section":"main","num":"029","printed":"STAS-EN029","name":"Mobius the Frost Monarch","ctype":"monster","keywords":"Monarch Aqua WATER Effect Monster","stats":{"a":"WATER","l":"Level 6","t":"Aqua / Effect","atk":2400,"def":1000},"rarity":"C","img":"4929256","code":"29","tcg":533073,"grp":23269,"idx":28},
+    {"id":"STAS-030","section":"main","num":"030","printed":"STAS-EN030","name":"Card Trooper","ctype":"monster","keywords":"Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Machine / Effect","atk":400,"def":400},"rarity":"C","img":"85087012","code":"30","tcg":533074,"grp":23269,"idx":29},
+    {"id":"STAS-031","section":"main","num":"031","printed":"STAS-EN031","name":"Quillbolt Hedgehog","ctype":"monster","keywords":"Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 2","t":"Machine / Effect","atk":800,"def":800},"rarity":"C","img":"23571046","code":"31","tcg":533075,"grp":23269,"idx":30},
+    {"id":"STAS-032","section":"main","num":"032","printed":"STAS-EN032","name":"Dark Resonator","ctype":"monster","keywords":"Resonator Fiend DARK Tuner Monster","stats":{"a":"DARK","l":"Level 3","t":"Fiend / Tuner","atk":1300,"def":300},"rarity":"C","img":"97021916","code":"32","tcg":533076,"grp":23269,"idx":31},
+    {"id":"STAS-033","section":"main","num":"033","printed":"STAS-EN033","name":"Power Frame","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"53656677","code":"33","tcg":533077,"grp":23269,"idx":32},
+    {"id":"STAS-034","section":"main","num":"034","printed":"STAS-EN034","name":"White Elephant's Gift","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"18756904","code":"34","tcg":533078,"grp":23269,"idx":33},
+    {"id":"STAS-035","section":"main","num":"035","printed":"STAS-EN035","name":"Liberty at Last!","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"72022087","code":"35","tcg":533079,"grp":23269,"idx":34},
+    {"id":"STAS-036","section":"main","num":"036","printed":"STAS-EN036","name":"Phantom King Hydride","ctype":"monster","keywords":"Fiend DARK Tuner Monster","stats":{"a":"DARK","l":"Level 3","t":"Fiend / Tuner","atk":1500,"def":300},"rarity":"C","img":"6901008","code":"36","tcg":533080,"grp":23269,"idx":35},
+    {"id":"STAS-037","section":"main","num":"037","printed":"STAS-EN037","name":"Supply Squad","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"17626381","code":"37","tcg":533081,"grp":23269,"idx":36},
+    {"id":"STAS-038","section":"main","num":"038","printed":"STAS-EN038","name":"Galaxy Cyclone","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"5133471","code":"38","tcg":533082,"grp":23269,"idx":37},
+    {"id":"STAS-039","section":"main","num":"039","printed":"STAS-EN039","name":"Mannadium Fearless","ctype":"monster","keywords":"Mannadium Fairy EARTH Tuner Monster","stats":{"a":"EARTH","l":"Level 2","t":"Fairy / Tuner","atk":0,"def":2000},"rarity":"C","img":"17272964","code":"39","tcg":533083,"grp":23269,"idx":38},
+    {"id":"STAS-040","section":"main","num":"040","printed":"STAS-EN040","name":"Back to the Front","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"59919307","code":"40","tcg":533084,"grp":23269,"idx":39},
+    {"id":"STAS-041","section":"main","num":"041","printed":"STAS-EN041","name":"Stygian Sergeants","ctype":"monster","keywords":"Fiend DARK Synchro Monster","stats":{"a":"DARK","l":"Level 5","t":"Fiend / Synchro","atk":2200,"def":1800},"rarity":"UR","img":"86137485","code":"41","tcg":533085,"grp":23269,"idx":40},
+    {"id":"STAS-042","section":"main","num":"042","printed":"STAS-EN042","name":"Coral Dragon","ctype":"monster","keywords":"Dragon WATER Synchro Tuner Monster","stats":{"a":"WATER","l":"Level 6","t":"Dragon / Synchro / Tuner","atk":2400,"def":500},"rarity":"UR","img":"42566602","code":"42","tcg":533086,"grp":23269,"idx":41},
+    {"id":"STAS-043","section":"main","num":"043","printed":"STAS-EN043","name":"Rampaging Smashtank Rhynosaber","ctype":"monster","keywords":"Machine FIRE Synchro Monster","stats":{"a":"FIRE","l":"Level 7","t":"Machine / Synchro","atk":2400,"def":2100},"rarity":"UR","img":"82197831","code":"43","tcg":533087,"grp":23269,"idx":42},
+    {"id":"STAS-044","section":"main","num":"044","printed":"STAS-EN044","name":"Mannadium Prime-Heart","ctype":"monster","keywords":"Heart Fairy LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 10","t":"Fairy / Synchro","atk":3000,"def":3000},"rarity":"UR","img":"90465153","code":"44","tcg":533088,"grp":23269,"idx":43},
+    {"id":"STAX-001","section":"main","num":"001","printed":"STAX-EN001","name":"Queen's Knight","ctype":"monster","keywords":"Knight Warrior LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Normal","atk":1500,"def":1600},"rarity":"C","img":"25652259","tcg":533093,"grp":23269,"idx":44},
+    {"id":"STAX-002","section":"main","num":"002","printed":"STAX-EN002","name":"Giant Soldier of Stone","ctype":"monster","keywords":"Rock EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 3","t":"Rock / Normal","atk":1300,"def":2000},"rarity":"C","img":"13039848","tcg":533094,"grp":23269,"idx":45},
+    {"id":"STAX-003","section":"main","num":"003","printed":"STAX-EN003","name":"La Jinn the Mystical Genie of the Lamp","ctype":"monster","keywords":"Fiend DARK Normal Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Normal","atk":1800,"def":1000},"rarity":"C","img":"97590747","tcg":533095,"grp":23269,"idx":46},
+    {"id":"STAX-004","section":"main","num":"004","printed":"STAX-EN004","name":"Rabidragon","ctype":"monster","keywords":"Dragon LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Normal","atk":2950,"def":2900},"rarity":"C","img":"95788410","tcg":533096,"grp":23269,"idx":47},
+    {"id":"STAX-006","section":"main","num":"006","printed":"STAX-EN006","name":"Ojama Yellow","ctype":"monster","keywords":"Ojama Beast LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 2","t":"Beast / Normal","atk":0,"def":1000},"rarity":"C","img":"42941100","tcg":533098,"grp":23269,"idx":48},
+    {"id":"STAX-007","section":"main","num":"007","printed":"STAX-EN007","name":"Swordstalker","ctype":"monster","keywords":"Warrior DARK Normal Monster","stats":{"a":"DARK","l":"Level 6","t":"Warrior / Normal","atk":2000,"def":1600},"rarity":"C","img":"50005633","tcg":533099,"grp":23269,"idx":49},
+    {"id":"STAX-008","section":"main","num":"008","printed":"STAX-EN008","name":"Trade-In","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"38120068","tcg":533100,"grp":23269,"idx":50},
+    {"id":"STAX-009","section":"main","num":"009","printed":"STAX-EN009","name":"No Entry!!","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"60306104","tcg":533101,"grp":23269,"idx":51},
+    {"id":"STAX-010","section":"main","num":"010","printed":"STAX-EN010","name":"Draining Shield","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"43250041","tcg":533102,"grp":23269,"idx":52},
+    {"id":"STAX-011","section":"main","num":"011","printed":"STAX-EN011","name":"White Ninja","ctype":"monster","keywords":"Ninja Warrior LIGHT Flip Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Flip / Effect","atk":1500,"def":800},"rarity":"C","img":"1571945","tcg":533103,"grp":23269,"idx":53},
+    {"id":"STAX-012","section":"main","num":"012","printed":"STAX-EN012","name":"Thousand Knives","ctype":"spell","keywords":"Dark Magician Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"63391643","tcg":533104,"grp":23269,"idx":54},
+    {"id":"STAX-013","section":"main","num":"013","printed":"STAX-EN013","name":"Cost Down","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"23265313","tcg":533105,"grp":23269,"idx":55},
+    {"id":"STAX-014","section":"main","num":"014","printed":"STAX-EN014","name":"Call of the Haunted","ctype":"trap","keywords":"Call of the Haunted Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"97077563","tcg":533106,"grp":23269,"idx":56},
+    {"id":"STAX-015","section":"main","num":"015","printed":"STAX-EN015","name":"Cyber Dragon","ctype":"monster","keywords":"Cyber Dragon Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 5","t":"Machine / Effect","atk":2100,"def":1600},"rarity":"C","img":"70095154","tcg":533107,"grp":23269,"idx":57},
+    {"id":"STAX-016","section":"main","num":"016","printed":"STAX-EN016","name":"Eldlich the Golden Lord","ctype":"monster","keywords":"Eldlich Zombie LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 10","t":"Zombie / Effect","atk":2500,"def":2800},"rarity":"C","img":"95440946","tcg":533108,"grp":23269,"idx":58},
+    {"id":"STAX-017","section":"main","num":"017","printed":"STAX-EN017","name":"Skill Successor","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"73729209","tcg":533109,"grp":23269,"idx":59},
+    {"id":"STAX-018","section":"main","num":"018","printed":"STAX-EN018","name":"Crane Crane","ctype":"monster","keywords":"Winged Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Winged Beast / Effect","atk":300,"def":900},"rarity":"C","img":"28637168","tcg":533110,"grp":23269,"idx":60},
+    {"id":"STAX-019","section":"main","num":"019","printed":"STAX-EN019","name":"Xyz Reborn","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"26708437","tcg":533111,"grp":23269,"idx":61},
+    {"id":"STAX-020","section":"main","num":"020","printed":"STAX-EN020","name":"Dark Magician Girl","ctype":"monster","keywords":"Dark Magician Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Spellcaster / Effect","atk":2000,"def":1700},"rarity":"C","img":"38033121","tcg":533112,"grp":23269,"idx":62},
+    {"id":"STAX-021","section":"main","num":"021","printed":"STAX-EN021","name":"Chiron the Mage","ctype":"monster","keywords":"Beast-Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Beast-Warrior / Effect","atk":1800,"def":1000},"rarity":"C","img":"16956455","tcg":533113,"grp":23269,"idx":63},
+    {"id":"STAX-022","section":"main","num":"022","printed":"STAX-EN022","name":"Magician of Faith","ctype":"monster","keywords":"Spellcaster LIGHT Flip Effect Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Spellcaster / Flip / Effect","atk":300,"def":400},"rarity":"C","img":"31560081","tcg":533114,"grp":23269,"idx":64},
+    {"id":"STAX-023","section":"main","num":"023","printed":"STAX-EN023","name":"Penguin Soldier","ctype":"monster","keywords":"Penguin Aqua WATER Flip Effect Monster","stats":{"a":"WATER","l":"Level 2","t":"Aqua / Flip / Effect","atk":750,"def":500},"rarity":"C","img":"93920745","tcg":533115,"grp":23269,"idx":65},
+    {"id":"STAX-024","section":"main","num":"024","printed":"STAX-EN024","name":"Mystical Space Typhoon","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"5318639","tcg":533116,"grp":23269,"idx":66},
+    {"id":"STAX-025","section":"main","num":"025","printed":"STAX-EN025","name":"Book of Moon","ctype":"spell","keywords":"Book of Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"14087893","tcg":533117,"grp":23269,"idx":67},
+    {"id":"STAX-026","section":"main","num":"026","printed":"STAX-EN026","name":"Needle Ceiling","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"38411870","tcg":533118,"grp":23269,"idx":68},
+    {"id":"STAX-027","section":"main","num":"027","printed":"STAX-EN027","name":"Gravity Axe - Grarl","ctype":"spell","keywords":"Guardian Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"32022366","tcg":533119,"grp":23269,"idx":69},
+    {"id":"STAX-028","section":"main","num":"028","printed":"STAX-EN028","name":"Dark Factory of Mass Production","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"90928333","tcg":533120,"grp":23269,"idx":70},
+    {"id":"STAX-029","section":"main","num":"029","printed":"STAX-EN029","name":"Gyroid","ctype":"monster","keywords":"Roid Machine WIND Effect Monster","stats":{"a":"WIND","l":"Level 3","t":"Machine / Effect","atk":1000,"def":1000},"rarity":"C","img":"18325492","tcg":533121,"grp":23269,"idx":71},
+    {"id":"STAX-030","section":"main","num":"030","printed":"STAX-EN030","name":"Swing of Memories","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"96765646","tcg":533122,"grp":23269,"idx":72},
+    {"id":"STAX-031","section":"main","num":"031","printed":"STAX-EN031","name":"Beast King Barbaros","ctype":"monster","keywords":"Barbaros Beast-Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 8","t":"Beast-Warrior / Effect","atk":3000,"def":1200},"rarity":"C","img":"78651105","tcg":533126,"grp":23269,"idx":73},
+    {"id":"STAX-032","section":"main","num":"032","printed":"STAX-EN032","name":"Burden of the Mighty","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"44947065","tcg":533128,"grp":23269,"idx":74},
+    {"id":"STAX-033","section":"main","num":"033","printed":"STAX-EN033","name":"Fighting Spirit","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"6178850","tcg":533130,"grp":23269,"idx":75},
+    {"id":"STAX-034","section":"main","num":"034","printed":"STAX-EN034","name":"Gagaga Magician","ctype":"monster","keywords":"Gagaga Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Effect","atk":1500,"def":1000},"rarity":"C","img":"26082117","tcg":533135,"grp":23269,"idx":76},
+    {"id":"STAX-035","section":"main","num":"035","printed":"STAX-EN035","name":"Star Changer","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"63485233","tcg":533139,"grp":23269,"idx":77},
+    {"id":"STAX-036","section":"main","num":"036","printed":"STAX-EN036","name":"Attraffic Control","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"46083380","tcg":533140,"grp":23269,"idx":78},
+    {"id":"STAX-037","section":"main","num":"037","printed":"STAX-EN037","name":"Night Beam","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"89882100","tcg":533142,"grp":23269,"idx":79},
+    {"id":"STAX-038","section":"main","num":"038","printed":"STAX-EN038","name":"Star Drawing","ctype":"monster","keywords":"Spellcaster EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Spellcaster / Effect","atk":1600,"def":1000},"rarity":"C","img":"24610207","tcg":533145,"grp":23269,"idx":80},
+    {"id":"STAX-039","section":"main","num":"039","printed":"STAX-EN039","name":"Magical Broker","ctype":"monster","keywords":"Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Spellcaster / Effect","atk":1500,"def":200},"rarity":"C","img":"72171665","tcg":533149,"grp":23269,"idx":81},
+    {"id":"STAX-040","section":"main","num":"040","printed":"STAX-EN040","name":"Fierce Tiger Monghu","ctype":"monster","keywords":"Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Beast / Effect","atk":1700,"def":1000},"rarity":"C","img":"27012717","tcg":533151,"grp":23269,"idx":82},
+    {"id":"STAX-041","section":"main","num":"041","printed":"STAX-EN041","name":"Daigusto Emeral","ctype":"monster","keywords":"Gusto Rock WIND Xyz Monster","stats":{"a":"WIND","l":"Rank 4","t":"Rock / Xyz","atk":1800,"def":800},"rarity":"UR","img":"581014","tcg":533155,"grp":23269,"idx":83},
+    {"id":"STAX-042","section":"main","num":"042","printed":"STAX-EN042","name":"Number 20: Giga-Brilliant","ctype":"monster","keywords":"Insect LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 3","t":"Insect / Xyz","atk":1800,"def":1800},"rarity":"UR","img":"47805931","tcg":533157,"grp":23269,"idx":84},
+    {"id":"STAX-043","section":"main","num":"043","printed":"STAX-EN043","name":"Castel, the Skyblaster Musketeer","ctype":"monster","keywords":"Winged Beast WIND Xyz Monster","stats":{"a":"WIND","l":"Rank 4","t":"Winged Beast / Xyz","atk":2000,"def":1500},"rarity":"UR","img":"82633039","tcg":533159,"grp":23269,"idx":85},
+    {"id":"STAX-044","section":"main","num":"044","printed":"STAX-EN044","name":"Divine Arsenal AA-ZEUS - Sky Thunder","ctype":"monster","keywords":"Machine LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 12","t":"Machine / Xyz","atk":3000,"def":3000},"rarity":"UR","img":"90448279","tcg":533161,"grp":23269,"idx":86}
+  ]
+}

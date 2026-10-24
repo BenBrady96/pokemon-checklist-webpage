@@ -1,0 +1,157 @@
+{
+  "id": "yugioh/enemy-of-justice",
+  "game": "yugioh",
+  "slug": "enemy-of-justice",
+  "name": "Enemy of Justice",
+  "series": "GX",
+  "kind": "expansion",
+  "code": "EOJ",
+  "syncKey": "YEOJ",
+  "released": "2006-05-17",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Main Set",
+      "range": "EOJ-EN001–EOJ-EN060",
+      "tier": "standard"
+    },
+    {
+      "id": "rarities",
+      "name": "Other Rarities",
+      "short": "Other Rarities",
+      "range": "25 cards",
+      "tier": "master"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Main set"
+    ],
+    [
+      "rarities",
+      "Other rarities"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, SCR12, 60x2",
+    "example": "1-20, 45x2, SCR12",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies. Other rarities use their short name and number: <b>SCR12</b> is card 12’s Secret Rare, and ranges work too (<b>QCSR1-QCSR20</b>).",
+    "empty": "Cards run from EOJ-EN001 to EOJ-EN060."
+  },
+  "help": {
+    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 60 cards, each in its main rarity. Master adds the 25 other rarities. Cards you’ve marked are kept when you switch."
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Enemy of Justice Checklist · All 60 Cards",
+    "description": "Free Yu-Gi-Oh! Enemy of Justice checklist with no ads, no sign-up and no tracking. Track all 60 cards, or every rarity for a master set, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Enemy of Justice Checklist",
+    "ogDescription": "Track all 60 cards in Yu-Gi-Oh! Enemy of Justice, plus 25 other rarities. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 60 cards in Yu-Gi-Oh! Enemy of Justice. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About the Enemy of Justice set",
+    "paragraphs": [
+      "Enemy of Justice is a Yu-Gi-Oh! TCG booster set released on 17 May 2006, in the GX era. It has 60 cards, and with the 25 other rarities there are 85 to collect in all.",
+      "Choose what you’re collecting: the <b>Standard set</b> (the 60 cards, each in its main rarity) or the <b>Master set</b> (all 85, adding the 25 other rarities).",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Enemy of Justice"
+    ],
+    "tcgplayer": [
+      201
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"EOJ-EN001","name":"Destiny HERO - Doom Lord","ctype":"monster","keywords":"Destiny HERO Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Warrior / Effect","atk":600,"def":800},"rarity":"C","img":"41613948","code":"1","tcg":24934,"grp":201,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"EOJ-EN002","name":"Destiny HERO - Captain Tenacious","ctype":"monster","keywords":"Destiny HERO Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Warrior / Effect","atk":800,"def":800},"rarity":"C","img":"77608643","code":"2","tcg":24935,"grp":201,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"EOJ-EN003","name":"Destiny HERO - Diamond Dude","ctype":"monster","keywords":"Destiny HERO Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Warrior / Effect","atk":1400,"def":1600},"rarity":"R","img":"13093792","code":"3","tcg":24936,"grp":201,"idx":2},
+    {"id":"003-utr","section":"rarities","num":"003","printed":"EOJ-EN003","name":"Destiny HERO - Diamond Dude","ctype":"monster","keywords":"Destiny HERO Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Warrior / Effect","atk":1400,"def":1600},"rarity":"UtR","img":"13093792","badge":"UtR","variant":"Ultimate Rare","code":"UTR3","tcg":58654,"grp":201,"idx":3},
+    {"id":"004","section":"main","num":"004","printed":"EOJ-EN004","name":"Destiny HERO - Dreadmaster","ctype":"monster","keywords":"Destiny HERO Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Warrior / Effect","atk":-1,"def":-1},"rarity":"UR","img":"40591390","code":"4","tcg":24937,"grp":201,"idx":4},
+    {"id":"004-utr","section":"rarities","num":"004","printed":"EOJ-EN004","name":"Destiny HERO - Dreadmaster","ctype":"monster","keywords":"Destiny HERO Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Warrior / Effect","atk":-1,"def":-1},"rarity":"UtR","img":"40591390","badge":"UtR","variant":"Ultimate Rare","code":"UTR4","tcg":58655,"grp":201,"idx":5},
+    {"id":"005","section":"main","num":"005","printed":"EOJ-EN005","name":"Cyber Tutu","ctype":"monster","keywords":"Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Warrior / Effect","atk":1000,"def":800},"rarity":"C","img":"49375719","code":"5","tcg":24938,"grp":201,"idx":6},
+    {"id":"006","section":"main","num":"006","printed":"EOJ-EN006","name":"Cyber Gymnast","ctype":"monster","keywords":"Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Effect","atk":800,"def":1800},"rarity":"C","img":"76763417","code":"6","tcg":24939,"grp":201,"idx":7},
+    {"id":"007","section":"main","num":"007","printed":"EOJ-EN007","name":"Cyber Prima","ctype":"monster","keywords":"Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Warrior / Effect","atk":2300,"def":1600},"rarity":"SR","img":"2158562","code":"7","tcg":24940,"grp":201,"idx":8},
+    {"id":"007-utr","section":"rarities","num":"007","printed":"EOJ-EN007","name":"Cyber Prima","ctype":"monster","keywords":"Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Warrior / Effect","atk":2300,"def":1600},"rarity":"UtR","img":"2158562","badge":"UtR","variant":"Ultimate Rare","code":"UTR7","tcg":58656,"grp":201,"idx":9},
+    {"id":"008","section":"main","num":"008","printed":"EOJ-EN008","name":"Cyber Kirin","ctype":"monster","keywords":"Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Machine / Effect","atk":300,"def":800},"rarity":"C","img":"76986005","code":"8","tcg":24941,"grp":201,"idx":10},
+    {"id":"009","section":"main","num":"009","printed":"EOJ-EN009","name":"Cyber Phoenix","ctype":"monster","keywords":"Machine FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Machine / Effect","atk":1200,"def":1600},"rarity":"SR","img":"3370104","code":"9","tcg":24942,"grp":201,"idx":11},
+    {"id":"009-utr","section":"rarities","num":"009","printed":"EOJ-EN009","name":"Cyber Phoenix","ctype":"monster","keywords":"Machine FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Machine / Effect","atk":1200,"def":1600},"rarity":"UtR","img":"3370104","badge":"UtR","variant":"Ultimate Rare","code":"UTR9","tcg":58657,"grp":201,"idx":12},
+    {"id":"010","section":"main","num":"010","printed":"EOJ-EN010","name":"Searchlightman","ctype":"monster","keywords":"Machine LIGHT Flip Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Machine / Flip / Effect","atk":1000,"def":1000},"rarity":"C","img":"67646312","code":"10","tcg":24943,"grp":201,"idx":13},
+    {"id":"011","section":"main","num":"011","printed":"EOJ-EN011","name":"Victory Viper XX03","ctype":"monster","keywords":"Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Machine / Effect","atk":1200,"def":1000},"rarity":"SR","img":"93130021","code":"11","tcg":24944,"grp":201,"idx":14},
+    {"id":"011-utr","section":"rarities","num":"011","printed":"EOJ-EN011","name":"Victory Viper XX03","ctype":"monster","keywords":"Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Machine / Effect","atk":1200,"def":1000},"rarity":"UtR","img":"93130021","badge":"UtR","variant":"Ultimate Rare","code":"UTR11","tcg":58658,"grp":201,"idx":15},
+    {"id":"012","section":"main","num":"012","printed":"EOJ-EN012","name":"Swift Birdman Joe","ctype":"monster","keywords":"Winged Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 6","t":"Winged Beast / Effect","atk":2300,"def":1400},"rarity":"C","img":"81896370","code":"12","tcg":24945,"grp":201,"idx":16},
+    {"id":"013","section":"main","num":"013","printed":"EOJ-EN013","name":"Harpie's Pet Baby Dragon","ctype":"monster","keywords":"Dragon WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Dragon / Effect","atk":1200,"def":600},"rarity":"R","img":"6924874","code":"13","tcg":24946,"grp":201,"idx":17},
+    {"id":"013-utr","section":"rarities","num":"013","printed":"EOJ-EN013","name":"Harpie's Pet Baby Dragon","ctype":"monster","keywords":"Dragon WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Dragon / Effect","atk":1200,"def":600},"rarity":"UtR","img":"6924874","badge":"UtR","variant":"Ultimate Rare","code":"UTR13","tcg":58659,"grp":201,"idx":18},
+    {"id":"014","section":"main","num":"014","printed":"EOJ-EN014","name":"Majestic Mech - Senku","ctype":"monster","keywords":"Majestic Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fairy / Effect","atk":1000,"def":500},"rarity":"C","img":"32918479","code":"14","tcg":24947,"grp":201,"idx":19},
+    {"id":"015","section":"main","num":"015","printed":"EOJ-EN015","name":"Majestic Mech - Ohka","ctype":"monster","keywords":"Majestic Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Fairy / Effect","atk":2400,"def":1400},"rarity":"R","img":"69303178","code":"15","tcg":24948,"grp":201,"idx":20},
+    {"id":"015-utr","section":"rarities","num":"015","printed":"EOJ-EN015","name":"Majestic Mech - Ohka","ctype":"monster","keywords":"Majestic Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Fairy / Effect","atk":2400,"def":1400},"rarity":"UtR","img":"69303178","badge":"UtR","variant":"Ultimate Rare","code":"UTR15","tcg":58660,"grp":201,"idx":21},
+    {"id":"016","section":"main","num":"016","printed":"EOJ-EN016","name":"Majestic Mech - Goryu","ctype":"monster","keywords":"Majestic Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Fairy / Effect","atk":2900,"def":1800},"rarity":"SR","img":"95701283","code":"16","tcg":24949,"grp":201,"idx":22},
+    {"id":"016-utr","section":"rarities","num":"016","printed":"EOJ-EN016","name":"Majestic Mech - Goryu","ctype":"monster","keywords":"Majestic Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Fairy / Effect","atk":2900,"def":1800},"rarity":"UtR","img":"95701283","badge":"UtR","variant":"Ultimate Rare","code":"UTR16","tcg":58661,"grp":201,"idx":23},
+    {"id":"017","section":"main","num":"017","printed":"EOJ-EN017","name":"Royal Knight","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Fairy / Effect","atk":1300,"def":800},"rarity":"C","img":"68280530","code":"17","tcg":24950,"grp":201,"idx":24},
+    {"id":"018","section":"main","num":"018","printed":"EOJ-EN018","name":"Herald of Green Light","ctype":"monster","keywords":"Herald Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 2","t":"Fairy / Effect","atk":300,"def":500},"rarity":"R","img":"21074344","code":"18","tcg":24951,"grp":201,"idx":25},
+    {"id":"018-utr","section":"rarities","num":"018","printed":"EOJ-EN018","name":"Herald of Green Light","ctype":"monster","keywords":"Herald Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 2","t":"Fairy / Effect","atk":300,"def":500},"rarity":"UtR","img":"21074344","badge":"UtR","variant":"Ultimate Rare","code":"UTR18","tcg":58662,"grp":201,"idx":26},
+    {"id":"019","section":"main","num":"019","printed":"EOJ-EN019","name":"Herald of Purple Light","ctype":"monster","keywords":"Herald Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 2","t":"Fairy / Effect","atk":300,"def":500},"rarity":"R","img":"94689635","code":"19","tcg":24952,"grp":201,"idx":27},
+    {"id":"019-utr","section":"rarities","num":"019","printed":"EOJ-EN019","name":"Herald of Purple Light","ctype":"monster","keywords":"Herald Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 2","t":"Fairy / Effect","atk":300,"def":500},"rarity":"UtR","img":"94689635","badge":"UtR","variant":"Ultimate Rare","code":"UTR19","tcg":58663,"grp":201,"idx":28},
+    {"id":"020","section":"main","num":"020","printed":"EOJ-EN020","name":"Bountiful Artemis","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fairy / Effect","atk":1600,"def":1700},"rarity":"C","img":"32296881","code":"20","tcg":24953,"grp":201,"idx":29},
+    {"id":"021","section":"main","num":"021","printed":"EOJ-EN021","name":"Layard the Liberator","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fairy / Effect","atk":1400,"def":1500},"rarity":"C","img":"67468948","code":"21","tcg":24954,"grp":201,"idx":30},
+    {"id":"022","section":"main","num":"022","printed":"EOJ-EN022","name":"Banisher of the Radiance","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Fairy / Effect","atk":1600,"def":0},"rarity":"R","img":"94853057","code":"22","tcg":24955,"grp":201,"idx":31},
+    {"id":"022-utr","section":"rarities","num":"022","printed":"EOJ-EN022","name":"Banisher of the Radiance","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Fairy / Effect","atk":1600,"def":0},"rarity":"UtR","img":"94853057","badge":"UtR","variant":"Ultimate Rare","code":"UTR22","tcg":58664,"grp":201,"idx":32},
+    {"id":"023","section":"main","num":"023","printed":"EOJ-EN023","name":"Voltanis the Adjudicator","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Fairy / Effect","atk":2800,"def":1400},"rarity":"UR","img":"20951752","code":"23","tcg":24956,"grp":201,"idx":33},
+    {"id":"023-utr","section":"rarities","num":"023","printed":"EOJ-EN023","name":"Voltanis the Adjudicator","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Fairy / Effect","atk":2800,"def":1400},"rarity":"UtR","img":"20951752","badge":"UtR","variant":"Ultimate Rare","code":"UTR23","tcg":58665,"grp":201,"idx":34},
+    {"id":"024","section":"main","num":"024","printed":"EOJ-EN024","name":"Guard Dog","ctype":"monster","keywords":"Beast EARTH Flip Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Beast / Flip / Effect","atk":1500,"def":500},"rarity":"C","img":"57346400","code":"24","tcg":24957,"grp":201,"idx":35},
+    {"id":"025","section":"main","num":"025","printed":"EOJ-EN025","name":"Whirlwind Weasel","ctype":"monster","keywords":"Beast WIND Flip Effect Monster","stats":{"a":"WIND","l":"Level 3","t":"Beast / Flip / Effect","atk":500,"def":1500},"rarity":"C","img":"93730409","code":"25","tcg":24958,"grp":201,"idx":36},
+    {"id":"026","section":"main","num":"026","printed":"EOJ-EN026","name":"Avalanching Aussa","ctype":"monster","keywords":"Spellcaster EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Spellcaster / Effect","atk":800,"def":1500},"rarity":"C","img":"29139104","code":"26","tcg":24959,"grp":201,"idx":37},
+    {"id":"027","section":"main","num":"027","printed":"EOJ-EN027","name":"Raging Eria","ctype":"monster","keywords":"Spellcaster WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Spellcaster / Effect","atk":800,"def":1500},"rarity":"C","img":"56524813","code":"27","tcg":24960,"grp":201,"idx":38},
+    {"id":"028","section":"main","num":"028","printed":"EOJ-EN028","name":"Blazing Hiita","ctype":"monster","keywords":"Spellcaster FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Spellcaster / Effect","atk":800,"def":1500},"rarity":"C","img":"92518817","code":"28","tcg":24961,"grp":201,"idx":39},
+    {"id":"029","section":"main","num":"029","printed":"EOJ-EN029","name":"Storming Wynn","ctype":"monster","keywords":"Spellcaster WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Spellcaster / Effect","atk":800,"def":1500},"rarity":"C","img":"29013526","code":"29","tcg":24962,"grp":201,"idx":40},
+    {"id":"030","section":"main","num":"030","printed":"EOJ-EN030","name":"Batteryman D","ctype":"monster","keywords":"Batteryman Thunder LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Thunder / Effect","atk":0,"def":1900},"rarity":"C","img":"55401221","code":"30","tcg":24963,"grp":201,"idx":41},
+    {"id":"031","section":"main","num":"031","printed":"EOJ-EN031","name":"Super-Electromagnetic Voltech Dragon","ctype":"monster","keywords":"Batteryman Thunder LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 5","t":"Thunder / Effect","atk":2400,"def":1000},"rarity":"SR","img":"20529766","code":"31","tcg":24964,"grp":201,"idx":42},
+    {"id":"031-utr","section":"rarities","num":"031","printed":"EOJ-EN031","name":"Super-Electromagnetic Voltech Dragon","ctype":"monster","keywords":"Batteryman Thunder LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 5","t":"Thunder / Effect","atk":2400,"def":1000},"rarity":"UtR","img":"20529766","badge":"UtR","variant":"Ultimate Rare","code":"UTR31","tcg":58666,"grp":201,"idx":43},
+    {"id":"032","section":"main","num":"032","printed":"EOJ-EN032","name":"Elemental HERO Phoenix Enforcer","ctype":"monster","keywords":"Elemental HERO Warrior FIRE Fusion Monster","stats":{"a":"FIRE","l":"Level 6","t":"Warrior / Fusion","atk":2100,"def":1200},"rarity":"UR","img":"41436536","code":"32","tcg":24965,"grp":201,"idx":44},
+    {"id":"032-utr","section":"rarities","num":"032","printed":"EOJ-EN032","name":"Elemental HERO Phoenix Enforcer","ctype":"monster","keywords":"Elemental HERO Warrior FIRE Fusion Monster","stats":{"a":"FIRE","l":"Level 6","t":"Warrior / Fusion","atk":2100,"def":1200},"rarity":"UtR","img":"41436536","badge":"UtR","variant":"Ultimate Rare","code":"UTR32","tcg":58667,"grp":201,"idx":45},
+    {"id":"033","section":"main","num":"033","printed":"EOJ-EN033","name":"Elemental HERO Shining Phoenix Enforcer","ctype":"monster","keywords":"Elemental HERO Warrior FIRE Fusion Monster","stats":{"a":"FIRE","l":"Level 8","t":"Warrior / Fusion","atk":2500,"def":2100},"rarity":"UR","img":"88820235","code":"33","tcg":24966,"grp":201,"idx":46},
+    {"id":"033-utr","section":"rarities","num":"033","printed":"EOJ-EN033","name":"Elemental HERO Shining Phoenix Enforcer","ctype":"monster","keywords":"Elemental HERO Warrior FIRE Fusion Monster","stats":{"a":"FIRE","l":"Level 8","t":"Warrior / Fusion","atk":2500,"def":2100},"rarity":"UtR","img":"88820235","badge":"UtR","variant":"Ultimate Rare","code":"UTR33","tcg":58668,"grp":201,"idx":47},
+    {"id":"034","section":"main","num":"034","printed":"EOJ-EN034","name":"Elemental HERO Mariner","ctype":"monster","keywords":"Elemental HERO Warrior WATER Fusion Monster","stats":{"a":"WATER","l":"Level 5","t":"Warrior / Fusion","atk":1400,"def":1000},"rarity":"C","img":"14225239","code":"34","tcg":24967,"grp":201,"idx":48},
+    {"id":"035","section":"main","num":"035","printed":"EOJ-EN035","name":"Elemental HERO Wild Wingman","ctype":"monster","keywords":"Elemental HERO Warrior EARTH Fusion Monster","stats":{"a":"EARTH","l":"Level 8","t":"Warrior / Fusion","atk":1900,"def":2300},"rarity":"SR","img":"55615891","code":"35","tcg":24968,"grp":201,"idx":49},
+    {"id":"035-utr","section":"rarities","num":"035","printed":"EOJ-EN035","name":"Elemental HERO Wild Wingman","ctype":"monster","keywords":"Elemental HERO Warrior EARTH Fusion Monster","stats":{"a":"EARTH","l":"Level 8","t":"Warrior / Fusion","atk":1900,"def":2300},"rarity":"UtR","img":"55615891","badge":"UtR","variant":"Ultimate Rare","code":"UTR35","tcg":58669,"grp":201,"idx":50},
+    {"id":"036","section":"main","num":"036","printed":"EOJ-EN036","name":"Elemental HERO Necroid Shaman","ctype":"monster","keywords":"Elemental HERO Warrior DARK Fusion Monster","stats":{"a":"DARK","l":"Level 6","t":"Warrior / Fusion","atk":1900,"def":1800},"rarity":"C","img":"81003500","code":"36","tcg":24969,"grp":201,"idx":51},
+    {"id":"037","section":"main","num":"037","printed":"EOJ-EN037","name":"Misfortune","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"1036974","code":"37","tcg":24970,"grp":201,"idx":52},
+    {"id":"038","section":"main","num":"038","printed":"EOJ-EN038","name":"H - Heated Heart","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"74825788","code":"38","tcg":24971,"grp":201,"idx":53},
+    {"id":"039","section":"main","num":"039","printed":"EOJ-EN039","name":"E - Emergency Call","ctype":"spell","keywords":"Elemental HERO Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"213326","code":"39","tcg":24972,"grp":201,"idx":54},
+    {"id":"040","section":"main","num":"040","printed":"EOJ-EN040","name":"R - Righteous Justice","ctype":"spell","keywords":"Elemental HERO Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"37318031","code":"40","tcg":24973,"grp":201,"idx":55},
+    {"id":"041","section":"main","num":"041","printed":"EOJ-EN041","name":"O - Oversoul","ctype":"spell","keywords":"Elemental HERO Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"63703130","code":"41","tcg":24974,"grp":201,"idx":56},
+    {"id":"042","section":"main","num":"042","printed":"EOJ-EN042","name":"Hero Flash!!","ctype":"spell","keywords":"Elemental HERO Normal Spell","stats":{"t":"Normal Spell"},"rarity":"R","img":"191749","code":"42","tcg":24975,"grp":201,"idx":57},
+    {"id":"042-utr","section":"rarities","num":"042","printed":"EOJ-EN042","name":"Hero Flash!!","ctype":"spell","keywords":"Elemental HERO Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UtR","img":"191749","badge":"UtR","variant":"Ultimate Rare","code":"UTR42","tcg":58670,"grp":201,"idx":58},
+    {"id":"043","section":"main","num":"043","printed":"EOJ-EN043","name":"Power Capsule","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"54289683","code":"43","tcg":24976,"grp":201,"idx":59},
+    {"id":"044","section":"main","num":"044","printed":"EOJ-EN044","name":"Celestial Transformation","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"28890974","code":"44","tcg":24977,"grp":201,"idx":60},
+    {"id":"045","section":"main","num":"045","printed":"EOJ-EN045","name":"Guard Penalty","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"R","img":"48653261","code":"45","tcg":24978,"grp":201,"idx":61},
+    {"id":"045-utr","section":"rarities","num":"045","printed":"EOJ-EN045","name":"Guard Penalty","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"UtR","img":"48653261","badge":"UtR","variant":"Ultimate Rare","code":"UTR45","tcg":58671,"grp":201,"idx":62},
+    {"id":"046","section":"main","num":"046","printed":"EOJ-EN046","name":"Grand Convergence","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"38430673","code":"46","tcg":24979,"grp":201,"idx":63},
+    {"id":"047","section":"main","num":"047","printed":"EOJ-EN047","name":"Dimensional Fissure","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"81674782","code":"47","tcg":24980,"grp":201,"idx":64},
+    {"id":"048","section":"main","num":"048","printed":"EOJ-EN048","name":"Clock Tower Prison","ctype":"spell","keywords":"Destiny HERO Field Spell","stats":{"t":"Field Spell"},"rarity":"SR","img":"75041269","code":"48","tcg":24981,"grp":201,"idx":65},
+    {"id":"048-utr","section":"rarities","num":"048","printed":"EOJ-EN048","name":"Clock Tower Prison","ctype":"spell","keywords":"Destiny HERO Field Spell","stats":{"t":"Field Spell"},"rarity":"UtR","img":"75041269","badge":"UtR","variant":"Ultimate Rare","code":"UTR48","tcg":58672,"grp":201,"idx":66},
+    {"id":"049","section":"main","num":"049","printed":"EOJ-EN049","name":"Life Equalizer","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"R","img":"17178486","code":"49","tcg":24982,"grp":201,"idx":67},
+    {"id":"049-utr","section":"rarities","num":"049","printed":"EOJ-EN049","name":"Life Equalizer","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"UtR","img":"17178486","badge":"UtR","variant":"Ultimate Rare","code":"UTR49","tcg":58673,"grp":201,"idx":68},
+    {"id":"050","section":"main","num":"050","printed":"EOJ-EN050","name":"Elemental Recharge","ctype":"trap","keywords":"Elemental HERO Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"36586443","code":"50","tcg":24983,"grp":201,"idx":69},
+    {"id":"051","section":"main","num":"051","printed":"EOJ-EN051","name":"Destruction of Destiny","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"R","img":"62980542","code":"51","tcg":24984,"grp":201,"idx":70},
+    {"id":"051-utr","section":"rarities","num":"051","printed":"EOJ-EN051","name":"Destruction of Destiny","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"UtR","img":"62980542","badge":"UtR","variant":"Ultimate Rare","code":"UTR51","tcg":58674,"grp":201,"idx":71},
+    {"id":"052","section":"main","num":"052","printed":"EOJ-EN052","name":"Destiny Signal","ctype":"trap","keywords":"Destiny HERO Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"35464895","code":"52","tcg":24985,"grp":201,"idx":72},
+    {"id":"053","section":"main","num":"053","printed":"EOJ-EN053","name":"D - Time","ctype":"trap","keywords":"Destiny HERO Normal Trap","stats":{"t":"Normal Trap"},"rarity":"R","img":"99075257","code":"53","tcg":24986,"grp":201,"idx":73},
+    {"id":"053-utr","section":"rarities","num":"053","printed":"EOJ-EN053","name":"D - Time","ctype":"trap","keywords":"Destiny HERO Normal Trap","stats":{"t":"Normal Trap"},"rarity":"UtR","img":"99075257","badge":"UtR","variant":"Ultimate Rare","code":"UTR53","tcg":58675,"grp":201,"idx":74},
+    {"id":"054","section":"main","num":"054","printed":"EOJ-EN054","name":"D - Shield","ctype":"trap","keywords":"Destiny HERO Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"62868900","code":"54","tcg":24987,"grp":201,"idx":75},
+    {"id":"055","section":"main","num":"055","printed":"EOJ-EN055","name":"Icarus Attack","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"53567095","code":"55","tcg":24988,"grp":201,"idx":76},
+    {"id":"056","section":"main","num":"056","printed":"EOJ-EN056","name":"Elemental Absorber","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"R","img":"94253609","code":"56","tcg":24989,"grp":201,"idx":77},
+    {"id":"056-utr","section":"rarities","num":"056","printed":"EOJ-EN056","name":"Elemental Absorber","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"UtR","img":"94253609","badge":"UtR","variant":"Ultimate Rare","code":"UTR56","tcg":58676,"grp":201,"idx":78},
+    {"id":"057","section":"main","num":"057","printed":"EOJ-EN057","name":"Macro Cosmos","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"30241314","code":"57","tcg":24990,"grp":201,"idx":79},
+    {"id":"058","section":"main","num":"058","printed":"EOJ-EN058","name":"Miraculous Descent","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"R","img":"80551130","code":"58","tcg":24991,"grp":201,"idx":80},
+    {"id":"058-utr","section":"rarities","num":"058","printed":"EOJ-EN058","name":"Miraculous Descent","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"UtR","img":"80551130","badge":"UtR","variant":"Ultimate Rare","code":"UTR58","tcg":58677,"grp":201,"idx":81},
+    {"id":"059","section":"main","num":"059","printed":"EOJ-EN059","name":"Shattered Axe","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"12117532","code":"59","tcg":24992,"grp":201,"idx":82},
+    {"id":"060","section":"main","num":"060","printed":"EOJ-EN060","name":"Forced Back","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"R","img":"43340443","code":"60","tcg":24993,"grp":201,"idx":83},
+    {"id":"060-utr","section":"rarities","num":"060","printed":"EOJ-EN060","name":"Forced Back","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"UtR","img":"43340443","badge":"UtR","variant":"Ultimate Rare","code":"UTR60","tcg":58678,"grp":201,"idx":84}
+  ]
+}

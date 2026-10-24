@@ -55,6 +55,7 @@ export function buildCollection(raw, { game, colors = {}, imageBase = '', remote
     };
     const fmt = { ...section.display, ...c.display };
     const typed = rarity.typed && c.type;
+    const variantText = c.variant && c.variant !== rarity.name ? c.variant : '';
     const words = [
       c.num, /^\d+$/.test(c.num) ? String(Number(c.num)) : '', c.code, c.printed, c.name,
       searchAliases[c.name] || '', rarity.name, c.rarity, section.name, c.note || '', c.keywords || '',
@@ -64,11 +65,13 @@ export function buildCollection(raw, { game, colors = {}, imageBase = '', remote
       ...c,
       imageId: c.img || c.id,
       rarityName: typed ? `${capitalise(c.type)} Energy` : rarity.name,
-      rarityShort: `${rarity.short || rarity.name}${c.variant ? ` · ${c.variant}` : ''}`,
+      rarityShort: `${rarity.short || rarity.name}${variantText ? ` · ${variantText}` : ''}`,
       rarityIcon: typed ? `e-${c.type}` : rarity.icon,
+      rarityAbbr: rarity.abbr || '',
+      rarityTone: rarity.tone || '',
       wide: !typed && Boolean(rarity.wide),
       foil: c.foil ?? Boolean(rarity.foil),
-      label: `${fill(fmt.label, fields)} ${c.name}, ${rarity.name}${c.variant ? `, ${c.variant}` : ''}`,
+      label: `${fill(fmt.label, fields)} ${c.name}, ${rarity.name}${variantText ? `, ${variantText}` : ''}`,
       numberText: fill(fmt.number, fields),
       listText: fill(fmt.list, fields),
       chipText: fill(fmt.chip, fields),

@@ -1,0 +1,80 @@
+{
+  "id": "yugioh/tournament-pack-3rd-season",
+  "game": "yugioh",
+  "slug": "tournament-pack-3rd-season",
+  "name": "Tournament Pack: 3rd Season",
+  "series": "Duel Monsters",
+  "kind": "pack",
+  "code": "TP3",
+  "syncKey": "YTP3",
+  "released": "2003-03-01",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "TP3-001–TP3-020",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from TP3-001 to TP3-020."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Tournament Pack: 3rd Season Checklist · All 20 Cards",
+    "description": "Free Yu-Gi-Oh! Tournament Pack: 3rd Season checklist with no ads, no sign-up and no tracking. Track all 20 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Tournament Pack: 3rd Season Checklist",
+    "ogDescription": "Track all 20 cards in Yu-Gi-Oh! Tournament Pack: 3rd Season. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 20 cards in Yu-Gi-Oh! Tournament Pack: 3rd Season. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Tournament Pack: 3rd Season",
+    "paragraphs": [
+      "Tournament Pack: 3rd Season is a Yu-Gi-Oh! TCG pack released on 1 March 2003, in the Duel Monsters era. It has 20 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Tournament Pack: 3rd Season"
+    ],
+    "tcgplayer": [
+      335
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"TP3-001","name":"Needle Worm","ctype":"monster","keywords":"Worm Insect EARTH Flip Effect Monster","stats":{"a":"EARTH","l":"Level 2","t":"Insect / Flip / Effect","atk":750,"def":600},"rarity":"UR","img":"81843628","code":"1","tcg":22752,"grp":335,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"TP3-002","name":"Anti Raigeki","ctype":"trap","keywords":"Anti Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"42364257","code":"2","tcg":22753,"grp":335,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"TP3-003","name":"Mechanicalchaser","ctype":"monster","keywords":"Machine DARK Normal Monster","stats":{"a":"DARK","l":"Level 4","t":"Machine / Normal","atk":1850,"def":800},"rarity":"SR","img":"7359741","code":"3","tcg":22754,"grp":335,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"TP3-004","name":"Black Skull Dragon","ctype":"monster","keywords":"Archfiend Dragon DARK Fusion Monster","stats":{"a":"DARK","l":"Level 9","t":"Dragon / Fusion","atk":3200,"def":2500},"rarity":"SR","img":"11901678","code":"4","tcg":22755,"grp":335,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"TP3-005","name":"Horn of Heaven","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"SR","img":"98069388","code":"5","tcg":22756,"grp":335,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"TP3-006","name":"Axe Raider","ctype":"monster","keywords":"Warrior EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Normal","atk":1700,"def":1150},"rarity":"R","img":"48305365","code":"6","tcg":22757,"grp":335,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"TP3-007","name":"Kwagar Hercules","ctype":"monster","keywords":"Insect EARTH Fusion Monster","stats":{"a":"EARTH","l":"Level 6","t":"Insect / Fusion","atk":1900,"def":1700},"rarity":"R","img":"95144193","code":"7","tcg":22758,"grp":335,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"TP3-008","name":"Patrol Robo","ctype":"monster","keywords":"Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Machine / Effect","atk":1100,"def":900},"rarity":"R","img":"76775123","code":"8","tcg":22759,"grp":335,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"TP3-009","name":"White Hole","ctype":"trap","keywords":"Hole Normal Trap","stats":{"t":"Normal Trap"},"rarity":"R","img":"43487744","code":"9","tcg":22760,"grp":335,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"TP3-010","name":"Dragon Capture Jar","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"50045299","code":"10","tcg":22761,"grp":335,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"TP3-011","name":"Goblin's Secret Remedy","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"11868825","code":"11","tcg":22762,"grp":335,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"TP3-012","name":"Final Flame","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"73134082","code":"12","tcg":22763,"grp":335,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"TP3-013","name":"Spirit of the Harp","ctype":"monster","keywords":"Fairy LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fairy / Normal","atk":800,"def":2000},"rarity":"C","img":"80770678","code":"13","tcg":22764,"grp":335,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"TP3-014","name":"Pot of Greed","ctype":"spell","keywords":"Greed Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"55144522","code":"14","tcg":22765,"grp":335,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"TP3-015","name":"Karbonala Warrior","ctype":"monster","keywords":"Warrior EARTH Fusion Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Fusion","atk":1500,"def":1200},"rarity":"C","img":"54541900","code":"15","tcg":22766,"grp":335,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"TP3-016","name":"Darkfire Dragon","ctype":"monster","keywords":"Dragon DARK Fusion Monster","stats":{"a":"DARK","l":"Level 4","t":"Dragon / Fusion","atk":1500,"def":1250},"rarity":"C","img":"17881964","code":"16","tcg":22767,"grp":335,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"TP3-017","name":"Elegant Egotist","ctype":"spell","keywords":"Harpie Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"90219263","code":"17","tcg":22768,"grp":335,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"TP3-018","name":"Dark Elf","ctype":"monster","keywords":"Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Effect","atk":2000,"def":800},"rarity":"C","img":"21417692","code":"18","tcg":22769,"grp":335,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"TP3-019","name":"Little Chimera","ctype":"monster","keywords":"Beast FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 2","t":"Beast / Effect","atk":600,"def":550},"rarity":"C","img":"68658728","code":"19","tcg":22770,"grp":335,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"TP3-020","name":"Bladefly","ctype":"monster","keywords":"Insect WIND Effect Monster","stats":{"a":"WIND","l":"Level 2","t":"Insect / Effect","atk":600,"def":700},"rarity":"C","img":"28470714","code":"20","tcg":22771,"grp":335,"idx":19}
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "id": "yugioh/structure-deck-cyber-strike",
+  "game": "yugioh",
+  "slug": "structure-deck-cyber-strike",
+  "name": "Structure Deck: Cyber Strike",
+  "series": "SEVENS & GO RUSH!!",
+  "kind": "deck",
+  "code": "SDCS",
+  "syncKey": "YSDCS",
+  "released": "2021-10-14",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "SDCS-EN001–SDCS-EN048",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from SDCS-EN001 to SDCS-EN048."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Structure Deck: Cyber Strike Checklist · All 48 Cards",
+    "description": "Free Yu-Gi-Oh! Structure Deck: Cyber Strike checklist with no ads, no sign-up and no tracking. Track all 48 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Structure Deck: Cyber Strike Checklist",
+    "ogDescription": "Track all 48 cards in Yu-Gi-Oh! Structure Deck: Cyber Strike. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 48 cards in Yu-Gi-Oh! Structure Deck: Cyber Strike. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Structure Deck: Cyber Strike",
+    "paragraphs": [
+      "Structure Deck: Cyber Strike is a Yu-Gi-Oh! TCG deck released on 14 October 2021, in the SEVENS &amp; GO RUSH!! era. It has 48 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Structure Deck: Cyber Strike"
+    ],
+    "tcgplayer": [
+      2830
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"SDCS-EN001","name":"Attachment Cybern","ctype":"monster","keywords":"Cyber Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Dragon / Effect","atk":1600,"def":800},"rarity":"C","img":"79875526","code":"1","tcg":250346,"grp":2830,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"SDCS-EN002","name":"Cyberdark Chimera","ctype":"monster","keywords":"Cyberdark Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Machine / Effect","atk":800,"def":2100},"rarity":"UR","img":"5370235","code":"2","tcg":250348,"grp":2830,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"SDCS-EN003","name":"Cyber Dragon","ctype":"monster","keywords":"Cyber Dragon Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 5","t":"Machine / Effect","atk":2100,"def":1600},"rarity":"C","img":"70095154","code":"3","tcg":250350,"grp":2830,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"SDCS-EN004","name":"Cyber Dragon Zwei","ctype":"monster","keywords":"Cyber Dragon Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Machine / Effect","atk":1500,"def":1000},"rarity":"C","img":"5373478","code":"4","tcg":250352,"grp":2830,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"SDCS-EN005","name":"Cyber Dragon Drei","ctype":"monster","keywords":"Cyber Dragon Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Machine / Effect","atk":1800,"def":800},"rarity":"C","img":"59281922","code":"5","tcg":250354,"grp":2830,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"SDCS-EN006","name":"Cyber Dragon Vier","ctype":"monster","keywords":"Cyber Dragon Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Machine / Effect","atk":1100,"def":1600},"rarity":"C","img":"29975188","code":"6","tcg":250356,"grp":2830,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"SDCS-EN007","name":"Cyber Dragon Nachster","ctype":"monster","keywords":"Cyber Dragon Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Machine / Effect","atk":200,"def":200},"rarity":"C","img":"1142880","code":"7","tcg":250358,"grp":2830,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"SDCS-EN008","name":"Cyber Dragon Core","ctype":"monster","keywords":"Cyber Dragon Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 2","t":"Machine / Effect","atk":400,"def":1500},"rarity":"C","img":"23893227","code":"8","tcg":250360,"grp":2830,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"SDCS-EN009","name":"Cyber Dragon Herz","ctype":"monster","keywords":"Cyber Dragon Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Machine / Effect","atk":100,"def":100},"rarity":"SR","img":"56364287","code":"9","tcg":250362,"grp":2830,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"SDCS-EN010","name":"Cyber Pharos","ctype":"monster","keywords":"Cyber Dragon Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Machine / Effect","atk":0,"def":2100},"rarity":"C","img":"29719112","code":"10","tcg":250363,"grp":2830,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"SDCS-EN011","name":"Cyber Valley","ctype":"monster","keywords":"Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Machine / Effect","atk":0,"def":0},"rarity":"C","img":"3657444","code":"11","tcg":250364,"grp":2830,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"SDCS-EN012","name":"Cyber Phoenix","ctype":"monster","keywords":"Machine FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Machine / Effect","atk":1200,"def":1600},"rarity":"C","img":"3370104","code":"12","tcg":250365,"grp":2830,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"SDCS-EN013","name":"Cyberdark Horn","ctype":"monster","keywords":"Cyberdark Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Machine / Effect","atk":800,"def":800},"rarity":"C","img":"41230939","code":"13","tcg":250366,"grp":2830,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"SDCS-EN014","name":"Cyberdark Edge","ctype":"monster","keywords":"Cyberdark Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Machine / Effect","atk":800,"def":800},"rarity":"C","img":"77625948","code":"14","tcg":250367,"grp":2830,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"SDCS-EN015","name":"Cyberdark Keel","ctype":"monster","keywords":"Cyberdark Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Machine / Effect","atk":800,"def":800},"rarity":"C","img":"3019642","code":"15","tcg":250368,"grp":2830,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"SDCS-EN016","name":"Cyberdark Cannon","ctype":"monster","keywords":"Cyberdark Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Dragon / Effect","atk":1600,"def":800},"rarity":"C","img":"45078193","code":"16","tcg":250369,"grp":2830,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"SDCS-EN017","name":"Cyberdark Claw","ctype":"monster","keywords":"Cyberdark Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Dragon / Effect","atk":1600,"def":800},"rarity":"C","img":"82562802","code":"17","tcg":250370,"grp":2830,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"SDCS-EN018","name":"Leng Ling","ctype":"monster","keywords":"Dragon DARK Union Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Dragon / Union / Effect","atk":1500,"def":0},"rarity":"C","img":"70298454","code":"18","tcg":250371,"grp":2830,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"SDCS-EN019","name":"Jizukiru, the Star Destroying Kaiju","ctype":"monster","keywords":"Kaiju Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 10","t":"Machine / Effect","atk":3300,"def":2600},"rarity":"C","img":"63941210","code":"19","tcg":250372,"grp":2830,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"SDCS-EN020","name":"Gizmek Orochi, the Serpentron Sky Slasher","ctype":"monster","keywords":"Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Machine / Effect","atk":2450,"def":2450},"rarity":"C","img":"71197066","code":"20","tcg":250373,"grp":2830,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"SDCS-EN021","name":"Gale Dogra","ctype":"monster","keywords":"Insect EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 2","t":"Insect / Effect","atk":650,"def":600},"rarity":"C","img":"16229315","code":"21","tcg":250374,"grp":2830,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"SDCS-EN022","name":"Cyber Eternal","ctype":"spell","keywords":"Cyber Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"32768230","code":"22","tcg":250375,"grp":2830,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"SDCS-EN023","name":"Cyberdark Realm","ctype":"spell","keywords":"Cyberdark Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"UR","img":"64753988","code":"23","tcg":250376,"grp":2830,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"SDCS-EN024","name":"Cyber Repair Plant","ctype":"spell","keywords":"Cyber Dragon Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"86686671","code":"24","tcg":250377,"grp":2830,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"SDCS-EN025","name":"Cyber Emergency","ctype":"spell","keywords":"Cyber Dragon Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"60600126","code":"25","tcg":250378,"grp":2830,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"SDCS-EN026","name":"Cyberload Fusion","ctype":"spell","keywords":"Cyber Dragon Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"55704856","code":"26","tcg":250379,"grp":2830,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"SDCS-EN027","name":"Cyberdark Impact!","ctype":"spell","keywords":"Cyberdark Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"80033124","code":"27","tcg":250380,"grp":2830,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"SDCS-EN028","name":"Cyberdark Inferno","ctype":"spell","keywords":"Cyberdark Field Spell","stats":{"t":"Field Spell"},"rarity":"C","img":"44352516","code":"28","tcg":250381,"grp":2830,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"SDCS-EN029","name":"Future Fusion","ctype":"spell","keywords":"Magician Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"77565204","code":"29","tcg":250382,"grp":2830,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"SDCS-EN030","name":"Fusion Deployment","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"6498706","code":"30","tcg":250383,"grp":2830,"idx":29},
+    {"id":"031","section":"main","num":"031","printed":"SDCS-EN031","name":"Fusion Tag","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"59432181","code":"31","tcg":250384,"grp":2830,"idx":30},
+    {"id":"032","section":"main","num":"032","printed":"SDCS-EN032","name":"Machine Duplication","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"63995093","code":"32","tcg":250385,"grp":2830,"idx":31},
+    {"id":"033","section":"main","num":"033","printed":"SDCS-EN033","name":"Limiter Removal","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"23171610","code":"33","tcg":250386,"grp":2830,"idx":32},
+    {"id":"034","section":"main","num":"034","printed":"SDCS-EN034","name":"Cyberdark Invasion","ctype":"trap","keywords":"Cyberdark Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"1157683","code":"34","tcg":250387,"grp":2830,"idx":33},
+    {"id":"035","section":"main","num":"035","printed":"SDCS-EN035","name":"Cybernetic Revolution","ctype":"trap","keywords":"Cyber Dragon Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"18597560","code":"35","tcg":250388,"grp":2830,"idx":34},
+    {"id":"036","section":"main","num":"036","printed":"SDCS-EN036","name":"Infinite Impermanence","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"10045474","code":"36","tcg":250389,"grp":2830,"idx":35},
+    {"id":"037","section":"main","num":"037","printed":"SDCS-EN037","name":"Power Wall","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"76403456","code":"37","tcg":250390,"grp":2830,"idx":36},
+    {"id":"038","section":"main","num":"038","printed":"SDCS-EN038","name":"Call of the Haunted","ctype":"trap","keywords":"Call of the Haunted Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"97077563","code":"38","tcg":250391,"grp":2830,"idx":37},
+    {"id":"039","section":"main","num":"039","printed":"SDCS-EN039","name":"Paleozoic Canadia","ctype":"trap","keywords":"Paleozoic Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"98414735","code":"39","tcg":250392,"grp":2830,"idx":38},
+    {"id":"040","section":"main","num":"040","printed":"SDCS-EN040","name":"Cybernetic Overflow","ctype":"trap","keywords":"Cyber Dragon Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"82428674","code":"40","tcg":250393,"grp":2830,"idx":39},
+    {"id":"041","section":"main","num":"041","printed":"SDCS-EN041","name":"Cyber End Dragon","ctype":"monster","keywords":"Machine LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 10","t":"Machine / Fusion","atk":4000,"def":2800},"rarity":"UR","img":"1546123","code":"41","tcg":250394,"grp":2830,"idx":40},
+    {"id":"042","section":"main","num":"042","printed":"SDCS-EN042","name":"Chimeratech Overdragon","ctype":"monster","keywords":"Machine DARK Fusion Monster","stats":{"a":"DARK","l":"Level 9","t":"Machine / Fusion","atk":-1,"def":-1},"rarity":"C","img":"64599569","code":"42","tcg":250395,"grp":2830,"idx":41},
+    {"id":"043","section":"main","num":"043","printed":"SDCS-EN043","name":"Cyberdarkness Dragon","ctype":"monster","keywords":"Cyberdark Machine DARK Fusion Monster","stats":{"a":"DARK","l":"Level 10","t":"Machine / Fusion","atk":2000,"def":2000},"rarity":"C","img":"18967507","code":"43","tcg":250396,"grp":2830,"idx":42},
+    {"id":"044","section":"main","num":"044","printed":"SDCS-EN044","name":"Cyberdark End Dragon","ctype":"monster","keywords":"Cyberdark Machine DARK Fusion Monster","stats":{"a":"DARK","l":"Level 12","t":"Machine / Fusion","atk":5000,"def":3800},"rarity":"UR","img":"37542782","code":"44","tcg":250397,"grp":2830,"idx":43},
+    {"id":"045","section":"main","num":"045","printed":"SDCS-EN045","name":"Cyberdark Dragon","ctype":"monster","keywords":"Cyberdark Machine DARK Fusion Monster","stats":{"a":"DARK","l":"Level 8","t":"Machine / Fusion","atk":1000,"def":1000},"rarity":"C","img":"40418351","code":"45","tcg":250398,"grp":2830,"idx":44},
+    {"id":"046","section":"main","num":"046","printed":"SDCS-EN046","name":"Cybernetic Horizon","ctype":"spell","keywords":"Cyberdark Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UR","img":"63031396","code":"46","tcg":250399,"grp":2830,"idx":45},
+    {"id":"047","section":"main","num":"047","printed":"SDCS-EN047","name":"Power Bond","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"37630732","code":"47","tcg":250400,"grp":2830,"idx":46},
+    {"id":"048","section":"main","num":"048","printed":"SDCS-EN048","name":"Overload Fusion","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"3659803","code":"48","tcg":250401,"grp":2830,"idx":47}
+  ]
+}

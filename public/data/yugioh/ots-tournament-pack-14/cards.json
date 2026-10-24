@@ -1,0 +1,85 @@
+{
+  "id": "yugioh/ots-tournament-pack-14",
+  "game": "yugioh",
+  "slug": "ots-tournament-pack-14",
+  "name": "OTS Tournament Pack 14",
+  "series": "SEVENS & GO RUSH!!",
+  "kind": "pack",
+  "code": "OP14",
+  "syncKey": "YOP14",
+  "released": "2020-10-08",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "OP14-EN001–OP14-EN025",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from OP14-EN001 to OP14-EN025."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! OTS Tournament Pack 14 Checklist · All 25 Cards",
+    "description": "Free Yu-Gi-Oh! OTS Tournament Pack 14 checklist with no ads, no sign-up and no tracking. Track all 25 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! OTS Tournament Pack 14 Checklist",
+    "ogDescription": "Track all 25 cards in Yu-Gi-Oh! OTS Tournament Pack 14. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 25 cards in Yu-Gi-Oh! OTS Tournament Pack 14. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About OTS Tournament Pack 14",
+    "paragraphs": [
+      "OTS Tournament Pack 14 is a Yu-Gi-Oh! TCG pack released on 8 October 2020, in the SEVENS &amp; GO RUSH!! era. It has 25 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "OTS Tournament Pack 14"
+    ],
+    "tcgplayer": [
+      2723
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"OP14-EN001","name":"Super Polymerization","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"UtR","img":"48130397","code":"1","tcg":224649,"grp":2723,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"OP14-EN002","name":"Toon Kingdom","ctype":"spell","keywords":"Toon Field Spell","stats":{"t":"Field Spell"},"rarity":"UtR","img":"43175858","code":"2","tcg":224663,"grp":2723,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"OP14-EN003","name":"Nibiru, the Primal Being","ctype":"monster","keywords":"Rock LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 11","t":"Rock / Effect","atk":3000,"def":600},"rarity":"UtR","img":"27204311","code":"3","tcg":224642,"grp":2723,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"OP14-EN004","name":"Madolche Messengelato","ctype":"monster","keywords":"Madolche Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Effect","atk":1600,"def":1000},"rarity":"SR","img":"52404456","code":"4","tcg":224641,"grp":2723,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"OP14-EN005","name":"Infernity General","ctype":"monster","keywords":"Infernity Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Fiend / Effect","atk":2700,"def":1500},"rarity":"SR","img":"17502671","code":"5","tcg":224638,"grp":2723,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"OP14-EN006","name":"Super Quantum Red Layer","ctype":"monster","keywords":"Super Quant Warrior FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 5","t":"Warrior / Effect","atk":2000,"def":800},"rarity":"SR","img":"59975920","code":"6","tcg":224650,"grp":2723,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"OP14-EN007","name":"Parallel eXceed","ctype":"monster","keywords":"Cyberse WIND Effect Monster","stats":{"a":"WIND","l":"Level 8","t":"Cyberse / Effect","atk":2000,"def":2000},"rarity":"SR","img":"71278040","code":"7","tcg":224643,"grp":2723,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"OP14-EN008","name":"Raidraptor - Force Strix","ctype":"monster","keywords":"Raidraptor Winged Beast DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 4","t":"Winged Beast / Xyz","atk":100,"def":2000},"rarity":"SR","img":"73347079","code":"8","tcg":224644,"grp":2723,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"OP14-EN009","name":"Smoke Grenade of the Thief","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"SR","img":"63789924","code":"9","tcg":224648,"grp":2723,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"OP14-EN010","name":"U.A. Signing Deal","ctype":"spell","keywords":"U.A. Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"43658697","code":"10","tcg":224664,"grp":2723,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"OP14-EN011","name":"Appointer of the Red Lotus","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"43262273","code":"11","tcg":224632,"grp":2723,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"OP14-EN012","name":"Unpossessed","ctype":"trap","keywords":"Charmer Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"SR","img":"25704359","code":"12","tcg":224665,"grp":2723,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"OP14-EN013","name":"Atlantean Dragoons","ctype":"monster","keywords":"Atlantean Sea Serpent WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Sea Serpent / Effect","atk":1800,"def":0},"rarity":"C","img":"74311226","code":"13","tcg":224633,"grp":2723,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"OP14-EN014","name":"Weeping Idol","ctype":"monster","keywords":"Rock DARK Effect Monster","stats":{"a":"DARK","l":"Level 2","t":"Rock / Effect","atk":0,"def":500},"rarity":"C","img":"5763020","code":"14","tcg":224667,"grp":2723,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"OP14-EN015","name":"Evil Thorn","ctype":"monster","keywords":"Plant DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Plant / Effect","atk":100,"def":300},"rarity":"C","img":"85431040","code":"15","tcg":224636,"grp":2723,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"OP14-EN016","name":"Raidraptor - Singing Lanius","ctype":"monster","keywords":"Raidraptor Winged Beast DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Winged Beast / Effect","atk":100,"def":100},"rarity":"C","img":"31314549","code":"16","tcg":224646,"grp":2723,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"OP14-EN017","name":"The Phantom Knights of Ancient Cloak","ctype":"monster","keywords":"Phantom Knights Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Warrior / Effect","atk":800,"def":1000},"rarity":"C","img":"90432163","code":"17","tcg":224654,"grp":2723,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"OP14-EN018","name":"Void Ogre Dragon","ctype":"monster","keywords":"Dragon DARK Synchro Monster","stats":{"a":"DARK","l":"Level 8","t":"Dragon / Synchro","atk":3000,"def":3000},"rarity":"C","img":"81020646","code":"18","tcg":224666,"grp":2723,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"OP14-EN019","name":"Demise of the Land","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"48934760","code":"19","tcg":224635,"grp":2723,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"OP14-EN020","name":"Cattle Call","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"50619462","code":"20","tcg":224634,"grp":2723,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"OP14-EN021","name":"The Phantom Knights' Rank-Up-Magic Launch","ctype":"spell","keywords":"Phantom Knights Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"3298689","code":"21","tcg":224662,"grp":2723,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"OP14-EN022","name":"Shien's Spy","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"7672244","code":"22","tcg":224647,"grp":2723,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"OP14-EN023","name":"Raidraptor - Nest","ctype":"spell","keywords":"Raidraptor Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"8559793","code":"23","tcg":224645,"grp":2723,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"OP14-EN024","name":"Icarus Attack","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"53567095","code":"24","tcg":224637,"grp":2723,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"OP14-EN025","name":"The Phantom Knights of Shade Brigandine","ctype":"trap","keywords":"Phantom Knights Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"98827725","code":"25","tcg":224659,"grp":2723,"idx":24}
+  ]
+}

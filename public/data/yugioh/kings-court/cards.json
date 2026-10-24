@@ -1,0 +1,155 @@
+{
+  "id": "yugioh/kings-court",
+  "game": "yugioh",
+  "slug": "kings-court",
+  "name": "King's Court",
+  "series": "SEVENS & GO RUSH!!",
+  "kind": "set",
+  "code": "KICO",
+  "syncKey": "YKICO",
+  "released": "2021-07-08",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Main Set",
+      "range": "KICO-EN001–KICO-EN065",
+      "tier": "standard"
+    },
+    {
+      "id": "rarities",
+      "name": "Other Rarities",
+      "short": "Other Rarities",
+      "range": "18 cards",
+      "tier": "master"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Main set"
+    ],
+    [
+      "rarities",
+      "Other rarities"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, SCR12, 60x2",
+    "example": "1-20, 45x2, SCR12",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies. Other rarities use their short name and number: <b>SCR12</b> is card 12’s Secret Rare, and ranges work too (<b>QCSR1-QCSR20</b>).",
+    "empty": "Cards run from KICO-EN001 to KICO-EN065."
+  },
+  "help": {
+    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 65 cards, each in its main rarity. Master adds the 18 other rarities. Cards you’ve marked are kept when you switch."
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! King's Court Checklist · All 65 Cards",
+    "description": "Free Yu-Gi-Oh! King's Court checklist with no ads, no sign-up and no tracking. Track all 65 cards, or every rarity for a master set, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! King's Court Checklist",
+    "ogDescription": "Track all 65 cards in Yu-Gi-Oh! King's Court, plus 18 other rarities. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 65 cards in Yu-Gi-Oh! King's Court. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About the King's Court set",
+    "paragraphs": [
+      "King&#39;s Court is a Yu-Gi-Oh! TCG special set released on 8 July 2021, in the SEVENS &amp; GO RUSH!! era. It has 65 cards, and with the 18 other rarities there are 83 to collect in all.",
+      "Choose what you’re collecting: the <b>Standard set</b> (the 65 cards, each in its main rarity) or the <b>Master set</b> (all 83, adding the 18 other rarities).",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "King's Court"
+    ],
+    "tcgplayer": [
+      2808
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"KICO-EN001","name":"Arcana Triumph Joker","ctype":"monster","keywords":"Knight Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 10","t":"Warrior / Effect","atk":-1,"def":2500},"rarity":"UR","img":"93880808","code":"1","tcg":242828,"grp":2808,"idx":0},
+    {"id":"001-cr","section":"rarities","num":"001","printed":"KICO-EN001","name":"Arcana Triumph Joker","ctype":"monster","keywords":"Knight Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 10","t":"Warrior / Effect","atk":-1,"def":2500},"rarity":"CR","img":"93880808","badge":"CR","variant":"Collector’s Rare","code":"CR1","tcg":243455,"grp":2808,"idx":1},
+    {"id":"002","section":"main","num":"002","printed":"KICO-EN002","name":"Joker's Knight","ctype":"monster","keywords":"Knight Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 5","t":"Warrior / Effect","atk":2000,"def":1400},"rarity":"UR","img":"29284413","code":"2","tcg":242829,"grp":2808,"idx":2},
+    {"id":"002-cr","section":"rarities","num":"002","printed":"KICO-EN002","name":"Joker's Knight","ctype":"monster","keywords":"Knight Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 5","t":"Warrior / Effect","atk":2000,"def":1400},"rarity":"CR","img":"29284413","badge":"CR","variant":"Collector’s Rare","code":"CR2","tcg":243456,"grp":2808,"idx":3},
+    {"id":"003","section":"main","num":"003","printed":"KICO-EN003","name":"Imperial Bower","ctype":"monster","keywords":"Knight Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Effect","atk":1500,"def":1500},"rarity":"UR","img":"56673112","code":"3","tcg":242830,"grp":2808,"idx":4},
+    {"id":"003-cr","section":"rarities","num":"003","printed":"KICO-EN003","name":"Imperial Bower","ctype":"monster","keywords":"Knight Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Effect","atk":1500,"def":1500},"rarity":"CR","img":"56673112","badge":"CR","variant":"Collector’s Rare","code":"CR3","tcg":243544,"grp":2808,"idx":5},
+    {"id":"004","section":"main","num":"004","printed":"KICO-EN004","name":"Joker's Straight","ctype":"spell","keywords":"Knight Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UR","img":"92067220","code":"4","tcg":242831,"grp":2808,"idx":6},
+    {"id":"004-cr","section":"rarities","num":"004","printed":"KICO-EN004","name":"Joker's Straight","ctype":"spell","keywords":"Knight Normal Spell","stats":{"t":"Normal Spell"},"rarity":"CR","img":"92067220","badge":"CR","variant":"Collector’s Rare","code":"CR4","tcg":243457,"grp":2808,"idx":7},
+    {"id":"005","section":"main","num":"005","printed":"KICO-EN005","name":"Face Card Fusion","ctype":"spell","keywords":"Polymerization Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"29062925","code":"5","tcg":242832,"grp":2808,"idx":8},
+    {"id":"006","section":"main","num":"006","printed":"KICO-EN006","name":"Thunderspeed Summon","ctype":"spell","keywords":"Knight Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"SR","img":"55557574","code":"6","tcg":242833,"grp":2808,"idx":9},
+    {"id":"007","section":"main","num":"007","printed":"KICO-EN007","name":"Joker's Wild","ctype":"trap","keywords":"Knight Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"81945678","code":"7","tcg":242834,"grp":2808,"idx":10},
+    {"id":"008","section":"main","num":"008","printed":"KICO-EN008","name":"Court of Cards","ctype":"trap","keywords":"Knight Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"SR","img":"28340377","code":"8","tcg":242835,"grp":2808,"idx":11},
+    {"id":"009","section":"main","num":"009","printed":"KICO-EN009","name":"Magnet Induction","ctype":"spell","keywords":"Magnet Warrior Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"54734082","code":"9","tcg":242836,"grp":2808,"idx":12},
+    {"id":"010","section":"main","num":"010","printed":"KICO-EN010","name":"XYZ Hyper Cannon","ctype":"trap","keywords":"ABC Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"SR","img":"21723081","code":"10","tcg":242837,"grp":2808,"idx":13},
+    {"id":"011","section":"main","num":"011","printed":"KICO-EN011","name":"Golden-Eyes Idol","ctype":"monster","keywords":"Eyes Restrict Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Spellcaster / Effect","atk":0,"def":0},"rarity":"R","img":"78642798","code":"11","tcg":242838,"grp":2808,"idx":14},
+    {"id":"012","section":"main","num":"012","printed":"KICO-EN012","name":"Zolga the Prophet","ctype":"monster","keywords":"Fairy EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Fairy / Effect","atk":1700,"def":1200},"rarity":"R","img":"31525442","code":"12","tcg":242839,"grp":2808,"idx":15},
+    {"id":"013","section":"main","num":"013","printed":"KICO-EN013","name":"Number F0: Utopic Draco Future","ctype":"monster","keywords":"Utopia Warrior LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 0","t":"Warrior / Xyz","atk":3000,"def":2000},"rarity":"UR","img":"26973555","code":"13","tcg":242840,"grp":2808,"idx":16},
+    {"id":"013-cr","section":"rarities","num":"013","printed":"KICO-EN013","name":"Number F0: Utopic Draco Future","ctype":"monster","keywords":"Utopia Warrior LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 0","t":"Warrior / Xyz","atk":3000,"def":2000},"rarity":"CR","img":"26973555","badge":"CR","variant":"Collector’s Rare","code":"CR13","tcg":243458,"grp":2808,"idx":17},
+    {"id":"014","section":"main","num":"014","printed":"KICO-EN014","name":"Gilti-Gearfried the Magical Steel Knight","ctype":"monster","keywords":"Warrior LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Warrior / Fusion","atk":2700,"def":1600},"rarity":"UR","img":"49161188","code":"14","tcg":242841,"grp":2808,"idx":18},
+    {"id":"014-cr","section":"rarities","num":"014","printed":"KICO-EN014","name":"Gilti-Gearfried the Magical Steel Knight","ctype":"monster","keywords":"Warrior LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Warrior / Fusion","atk":2700,"def":1600},"rarity":"CR","img":"49161188","badge":"CR","variant":"Collector’s Rare","code":"CR14","tcg":243459,"grp":2808,"idx":19},
+    {"id":"015","section":"main","num":"015","printed":"KICO-EN015","name":"Crystal Girl","ctype":"monster","keywords":"Spellcaster WATER Effect Monster","stats":{"a":"WATER","l":"Level 1","t":"Spellcaster / Effect","atk":200,"def":100},"rarity":"SR","img":"93169863","code":"15","tcg":242842,"grp":2808,"idx":20},
+    {"id":"016","section":"main","num":"016","printed":"KICO-EN016","name":"Tindangle Dholes","ctype":"monster","keywords":"Tindangle Fiend DARK Flip Effect Monster","stats":{"a":"DARK","l":"Level 5","t":"Fiend / Flip / Effect","atk":1000,"def":1000},"rarity":"SR","img":"12678601","code":"16","tcg":242843,"grp":2808,"idx":21},
+    {"id":"017","section":"main","num":"017","printed":"KICO-EN017","name":"Rose Princess","ctype":"monster","keywords":"Plant EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Plant / Effect","atk":1200,"def":800},"rarity":"SR","img":"58062306","code":"17","tcg":242844,"grp":2808,"idx":22},
+    {"id":"018","section":"main","num":"018","printed":"KICO-EN018","name":"Morph King Stygi-Gel","ctype":"monster","keywords":"Fiend DARK Tuner Monster","stats":{"a":"DARK","l":"Level 1","t":"Fiend / Tuner","atk":100,"def":100},"rarity":"UR","img":"85457355","code":"18","tcg":242845,"grp":2808,"idx":23},
+    {"id":"019","section":"main","num":"019","printed":"KICO-EN019","name":"White Rose Cloister","ctype":"spell","keywords":"Rose Dragon Field Spell","stats":{"t":"Field Spell"},"rarity":"SR","img":"84335863","code":"19","tcg":242846,"grp":2808,"idx":24},
+    {"id":"020","section":"main","num":"020","printed":"KICO-EN020","name":"Burning Soul","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"UR","img":"10723472","code":"20","tcg":242847,"grp":2808,"idx":25},
+    {"id":"021","section":"main","num":"021","printed":"KICO-EN021","name":"Hyper Galaxy","ctype":"spell","keywords":"Galaxy-Eyes Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"SR","img":"83512285","code":"21","tcg":242848,"grp":2808,"idx":26},
+    {"id":"021-cr","section":"rarities","num":"021","printed":"KICO-EN021","name":"Hyper Galaxy","ctype":"spell","keywords":"Galaxy-Eyes Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"CR","img":"83512285","badge":"CR","variant":"Collector’s Rare","code":"CR21","tcg":243461,"grp":2808,"idx":27},
+    {"id":"022","section":"main","num":"022","printed":"KICO-EN022","name":"Pendulum Transfer","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"R","img":"19501924","code":"22","tcg":242849,"grp":2808,"idx":28},
+    {"id":"023","section":"main","num":"023","printed":"KICO-EN023","name":"Pendulum Xyz","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"R","img":"46005939","code":"23","tcg":242850,"grp":2808,"idx":29},
+    {"id":"024","section":"main","num":"024","printed":"KICO-EN024","name":"Dowsing Fusion","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"R","img":"72490637","code":"24","tcg":242851,"grp":2808,"idx":30},
+    {"id":"025","section":"main","num":"025","printed":"KICO-EN025","name":"Eternal Bond","ctype":"trap","keywords":"Photon Normal Trap","stats":{"t":"Normal Trap"},"rarity":"R","img":"45283341","code":"25","tcg":242852,"grp":2808,"idx":31},
+    {"id":"026","section":"main","num":"026","printed":"KICO-EN026","name":"Queen's Knight","ctype":"monster","keywords":"Knight Warrior LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Normal","atk":1500,"def":1600},"rarity":"R","img":"25652259","code":"26","tcg":242853,"grp":2808,"idx":32},
+    {"id":"026-cr","section":"rarities","num":"026","printed":"KICO-EN026","name":"Queen's Knight","ctype":"monster","keywords":"Knight Warrior LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Normal","atk":1500,"def":1600},"rarity":"CR","img":"25652259","badge":"CR","variant":"Collector’s Rare","code":"CR26","tcg":243463,"grp":2808,"idx":33},
+    {"id":"027","section":"main","num":"027","printed":"KICO-EN027","name":"King's Knight","ctype":"monster","keywords":"Knight Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Effect","atk":1600,"def":1400},"rarity":"R","img":"64788463","code":"27","tcg":242854,"grp":2808,"idx":34},
+    {"id":"027-cr","section":"rarities","num":"027","printed":"KICO-EN027","name":"King's Knight","ctype":"monster","keywords":"Knight Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Effect","atk":1600,"def":1400},"rarity":"CR","img":"64788463","badge":"CR","variant":"Collector’s Rare","code":"CR27","tcg":243464,"grp":2808,"idx":35},
+    {"id":"028","section":"main","num":"028","printed":"KICO-EN028","name":"Jack's Knight","ctype":"monster","keywords":"Knight Warrior LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 5","t":"Warrior / Normal","atk":1900,"def":1000},"rarity":"R","img":"90876561","code":"28","tcg":242855,"grp":2808,"idx":36},
+    {"id":"028-cr","section":"rarities","num":"028","printed":"KICO-EN028","name":"Jack's Knight","ctype":"monster","keywords":"Knight Warrior LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 5","t":"Warrior / Normal","atk":1900,"def":1000},"rarity":"CR","img":"90876561","badge":"CR","variant":"Collector’s Rare","code":"CR28","tcg":243465,"grp":2808,"idx":37},
+    {"id":"029","section":"main","num":"029","printed":"KICO-EN029","name":"Arcana Knight Joker","ctype":"monster","keywords":"Knight Warrior LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 9","t":"Warrior / Fusion","atk":3800,"def":2500},"rarity":"R","img":"6150044","code":"29","tcg":242856,"grp":2808,"idx":38},
+    {"id":"030","section":"main","num":"030","printed":"KICO-EN030","name":"Arcana Extra Joker","ctype":"monster","keywords":"Warrior LIGHT Link Monster","stats":{"a":"LIGHT","l":"Link 3","t":"Warrior / Link","atk":2800},"rarity":"R","img":"64454614","code":"30","tcg":242857,"grp":2808,"idx":39},
+    {"id":"031","section":"main","num":"031","printed":"KICO-EN031","name":"Gravekeeper's Spy","ctype":"monster","keywords":"Gravekeeper's Spellcaster DARK Flip Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Flip / Effect","atk":1200,"def":2000},"rarity":"R","img":"24317029","code":"31","tcg":242858,"grp":2808,"idx":40},
+    {"id":"032","section":"main","num":"032","printed":"KICO-EN032","name":"Majestic Dragon","ctype":"monster","keywords":"Majestic Dragon LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Dragon / Tuner","atk":0,"def":0},"rarity":"R","img":"21159309","code":"32","tcg":242859,"grp":2808,"idx":41},
+    {"id":"033","section":"main","num":"033","printed":"KICO-EN033","name":"Stardust Xiaolong","ctype":"monster","keywords":"Stardust Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Dragon / Effect","atk":100,"def":100},"rarity":"R","img":"68543408","code":"33","tcg":242860,"grp":2808,"idx":42},
+    {"id":"034","section":"main","num":"034","printed":"KICO-EN034","name":"Rescue Rabbit","ctype":"monster","keywords":"Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Beast / Effect","atk":300,"def":100},"rarity":"R","img":"85138716","code":"34","tcg":242861,"grp":2808,"idx":43},
+    {"id":"034-cr","section":"rarities","num":"034","printed":"KICO-EN034","name":"Rescue Rabbit","ctype":"monster","keywords":"Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Beast / Effect","atk":300,"def":100},"rarity":"CR","img":"85138716","badge":"CR","variant":"Collector’s Rare","code":"CR34","tcg":243466,"grp":2808,"idx":44},
+    {"id":"035","section":"main","num":"035","printed":"KICO-EN035","name":"ZW - Tornado Bringer","ctype":"monster","keywords":"Utopia Dragon WIND Effect Monster","stats":{"a":"WIND","l":"Level 5","t":"Dragon / Effect","atk":1300,"def":1800},"rarity":"R","img":"81471108","code":"35","tcg":242862,"grp":2808,"idx":45},
+    {"id":"036","section":"main","num":"036","printed":"KICO-EN036","name":"ZW - Ultimate Shield","ctype":"monster","keywords":"Utopia Aqua EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Aqua / Effect","atk":0,"def":2000},"rarity":"R","img":"18865703","code":"36","tcg":242863,"grp":2808,"idx":46},
+    {"id":"037","section":"main","num":"037","printed":"KICO-EN037","name":"ZW - Eagle Claw","ctype":"monster","keywords":"Utopia Winged Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 5","t":"Winged Beast / Effect","atk":2000,"def":1200},"rarity":"R","img":"29353756","code":"37","tcg":242864,"grp":2808,"idx":47},
+    {"id":"038","section":"main","num":"038","printed":"KICO-EN038","name":"Scrap Twin Dragon","ctype":"monster","keywords":"Scrap Dragon EARTH Synchro Monster","stats":{"a":"EARTH","l":"Level 9","t":"Dragon / Synchro","atk":3000,"def":2200},"rarity":"SR","img":"50278554","code":"38","tcg":242865,"grp":2808,"idx":48},
+    {"id":"039","section":"main","num":"039","printed":"KICO-EN039","name":"Cloudcastle","ctype":"monster","keywords":"Machine WIND Synchro Monster","stats":{"a":"WIND","l":"Level 9","t":"Machine / Synchro","atk":0,"def":3000},"rarity":"R","img":"9348522","code":"39","tcg":242866,"grp":2808,"idx":49},
+    {"id":"040","section":"main","num":"040","printed":"KICO-EN040","name":"Baxia, Brightness of the Yang Zing","ctype":"monster","keywords":"Yang Zing Wyrm LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Wyrm / Synchro","atk":2300,"def":2600},"rarity":"R","img":"83755611","code":"40","tcg":242867,"grp":2808,"idx":50},
+    {"id":"041","section":"main","num":"041","printed":"KICO-EN041","name":"Chaofeng, Phantom of the Yang Zing","ctype":"monster","keywords":"Yang Zing Wyrm LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 9","t":"Wyrm / Synchro","atk":2800,"def":2200},"rarity":"SR","img":"19048328","code":"41","tcg":242868,"grp":2808,"idx":51},
+    {"id":"042","section":"main","num":"042","printed":"KICO-EN042","name":"Number 39: Utopia","ctype":"monster","keywords":"Utopia Warrior LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 4","t":"Warrior / Xyz","atk":2500,"def":2000},"rarity":"R","img":"84013237","code":"42","tcg":242869,"grp":2808,"idx":52},
+    {"id":"042-cr","section":"rarities","num":"042","printed":"KICO-EN042","name":"Number 39: Utopia","ctype":"monster","keywords":"Utopia Warrior LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 4","t":"Warrior / Xyz","atk":2500,"def":2000},"rarity":"CR","img":"84013237","badge":"CR","variant":"Collector’s Rare","code":"CR42","tcg":243467,"grp":2808,"idx":53},
+    {"id":"043","section":"main","num":"043","printed":"KICO-EN043","name":"Evolzar Dolkka","ctype":"monster","keywords":"Evolzar Dragon FIRE Xyz Monster","stats":{"a":"FIRE","l":"Rank 4","t":"Dragon / Xyz","atk":2300,"def":1700},"rarity":"UR","img":"42752141","code":"43","tcg":242870,"grp":2808,"idx":54},
+    {"id":"044","section":"main","num":"044","printed":"KICO-EN044","name":"Wind-Up Arsenal Zenmaioh","ctype":"monster","keywords":"Wind-Up Machine WIND Xyz Monster","stats":{"a":"WIND","l":"Rank 5","t":"Machine / Xyz","atk":2600,"def":1900},"rarity":"R","img":"77334267","code":"44","tcg":242871,"grp":2808,"idx":55},
+    {"id":"045","section":"main","num":"045","printed":"KICO-EN045","name":"Number C39: Utopia Ray","ctype":"monster","keywords":"Utopia Warrior LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 4","t":"Warrior / Xyz","atk":2500,"def":2000},"rarity":"R","img":"56840427","code":"45","tcg":242872,"grp":2808,"idx":56},
+    {"id":"046","section":"main","num":"046","printed":"KICO-EN046","name":"Constellar Ptolemy M7","ctype":"monster","keywords":"Constellar Machine LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 6","t":"Machine / Xyz","atk":2700,"def":2000},"rarity":"R","img":"38495396","code":"46","tcg":242873,"grp":2808,"idx":57},
+    {"id":"047","section":"main","num":"047","printed":"KICO-EN047","name":"ZW - Leo Arms","ctype":"monster","keywords":"Utopia Beast LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 5","t":"Beast / Xyz","atk":3000,"def":1200},"rarity":"R","img":"60992364","code":"47","tcg":242874,"grp":2808,"idx":58},
+    {"id":"048","section":"main","num":"048","printed":"KICO-EN048","name":"Number 49: Fortune Tune","ctype":"monster","keywords":"Winged Beast LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 3","t":"Winged Beast / Xyz","atk":400,"def":900},"rarity":"SR","img":"16259549","code":"48","tcg":242875,"grp":2808,"idx":59},
+    {"id":"049","section":"main","num":"049","printed":"KICO-EN049","name":"Number F0: Utopic Future","ctype":"monster","keywords":"Warrior LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 0","t":"Warrior / Xyz","atk":0,"def":0},"rarity":"R","img":"65305468","code":"49","tcg":242876,"grp":2808,"idx":60},
+    {"id":"050","section":"main","num":"050","printed":"KICO-EN050","name":"Infinite Cards","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"R","img":"94163677","code":"50","tcg":242877,"grp":2808,"idx":61},
+    {"id":"051","section":"main","num":"051","printed":"KICO-EN051","name":"Reinforcement of the Army","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"R","img":"32807846","code":"51","tcg":242878,"grp":2808,"idx":62},
+    {"id":"051-cr","section":"rarities","num":"051","printed":"KICO-EN051","name":"Reinforcement of the Army","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"CR","img":"32807846","badge":"CR","variant":"Collector’s Rare","code":"CR51","tcg":243468,"grp":2808,"idx":63},
+    {"id":"052","section":"main","num":"052","printed":"KICO-EN052","name":"The Warrior Returning Alive","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"R","img":"95281259","code":"52","tcg":242879,"grp":2808,"idx":64},
+    {"id":"053","section":"main","num":"053","printed":"KICO-EN053","name":"Ties of the Brethren","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"R","img":"40450317","code":"53","tcg":242880,"grp":2808,"idx":65},
+    {"id":"054","section":"main","num":"054","printed":"KICO-EN054","name":"Pot of Duality","ctype":"spell","keywords":"Greed Normal Spell","stats":{"t":"Normal Spell"},"rarity":"R","img":"98645731","code":"54","tcg":242881,"grp":2808,"idx":66},
+    {"id":"055","section":"main","num":"055","printed":"KICO-EN055","name":"Unexpected Dai","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"R","img":"911883","code":"55","tcg":242882,"grp":2808,"idx":67},
+    {"id":"056","section":"main","num":"056","printed":"KICO-EN056","name":"World Legacy Guardragon","ctype":"spell","keywords":"Guardragon Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"SR","img":"87571563","code":"56","tcg":242883,"grp":2808,"idx":68},
+    {"id":"057","section":"main","num":"057","printed":"KICO-EN057","name":"Lightning Storm","ctype":"spell","keywords":"Cyclone Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UR","img":"14532163","code":"57","tcg":242884,"grp":2808,"idx":69},
+    {"id":"057-cr","section":"rarities","num":"057","printed":"KICO-EN057","name":"Lightning Storm","ctype":"spell","keywords":"Cyclone Normal Spell","stats":{"t":"Normal Spell"},"rarity":"CR","img":"14532163","badge":"CR","variant":"Collector’s Rare","code":"CR57","tcg":243469,"grp":2808,"idx":70},
+    {"id":"058","section":"main","num":"058","printed":"KICO-EN058","name":"Rivalry of Warlords","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"R","img":"90846359","code":"58","tcg":242885,"grp":2808,"idx":71},
+    {"id":"058-cr","section":"rarities","num":"058","printed":"KICO-EN058","name":"Rivalry of Warlords","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"CR","img":"90846359","badge":"CR","variant":"Collector’s Rare","code":"CR58","tcg":243470,"grp":2808,"idx":72},
+    {"id":"059","section":"main","num":"059","printed":"KICO-EN059","name":"Converging Wishes","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"R","img":"20007374","code":"59","tcg":242886,"grp":2808,"idx":73},
+    {"id":"060","section":"main","num":"060","printed":"KICO-EN060","name":"The Wicked Dreadroot","ctype":"monster","keywords":"Wicked God Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 10","t":"Fiend / Effect","atk":4000,"def":4000},"rarity":"R","img":"62180201","code":"60","tcg":242887,"grp":2808,"idx":74},
+    {"id":"061","section":"main","num":"061","printed":"KICO-EN061","name":"The Wicked Avatar","ctype":"monster","keywords":"Wicked God Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 10","t":"Fiend / Effect","atk":-1,"def":-1},"rarity":"R","img":"21208154","code":"61","tcg":242888,"grp":2808,"idx":75},
+    {"id":"062","section":"main","num":"062","printed":"KICO-EN062","name":"The Wicked Eraser","ctype":"monster","keywords":"Wicked God Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 10","t":"Fiend / Effect","atk":-1,"def":-1},"rarity":"R","img":"57793869","code":"62","tcg":242889,"grp":2808,"idx":76},
+    {"id":"063","section":"main","num":"063","printed":"KICO-EN063","name":"Slifer the Sky Dragon","ctype":"monster","keywords":"Egyptian God Divine-Beast DIVINE Effect Monster","stats":{"a":"DIVINE","l":"Level 10","t":"Divine-Beast / Effect","atk":-1,"def":-1},"rarity":"UR","img":"10000020","code":"63","idx":77},
+    {"id":"063-urpr","section":"rarities","num":"063","printed":"KICO-EN063","name":"Slifer the Sky Dragon","ctype":"monster","keywords":"Egyptian God Divine-Beast DIVINE Effect Monster","stats":{"a":"DIVINE","l":"Level 10","t":"Divine-Beast / Effect","atk":-1,"def":-1},"rarity":"URPR","img":"10000020","badge":"URPR","variant":"Ultra Rare (Pharaoh’s Rare)","code":"URPR63","tcg":243517,"grp":2808,"idx":78},
+    {"id":"064","section":"main","num":"064","printed":"KICO-EN064","name":"Obelisk the Tormentor","ctype":"monster","keywords":"Egyptian God Divine-Beast DIVINE Effect Monster","stats":{"a":"DIVINE","l":"Level 10","t":"Divine-Beast / Effect","atk":4000,"def":4000},"rarity":"UR","img":"10000000","code":"64","idx":79},
+    {"id":"064-urpr","section":"rarities","num":"064","printed":"KICO-EN064","name":"Obelisk the Tormentor","ctype":"monster","keywords":"Egyptian God Divine-Beast DIVINE Effect Monster","stats":{"a":"DIVINE","l":"Level 10","t":"Divine-Beast / Effect","atk":4000,"def":4000},"rarity":"URPR","img":"10000000","badge":"URPR","variant":"Ultra Rare (Pharaoh’s Rare)","code":"URPR64","tcg":243518,"grp":2808,"idx":80},
+    {"id":"065","section":"main","num":"065","printed":"KICO-EN065","name":"The Winged Dragon of Ra","ctype":"monster","keywords":"Egyptian God Divine-Beast DIVINE Effect Monster","stats":{"a":"DIVINE","l":"Level 10","t":"Divine-Beast / Effect","atk":-1,"def":-1},"rarity":"UR","img":"10000010","code":"65","idx":81},
+    {"id":"065-urpr","section":"rarities","num":"065","printed":"KICO-EN065","name":"The Winged Dragon of Ra","ctype":"monster","keywords":"Egyptian God Divine-Beast DIVINE Effect Monster","stats":{"a":"DIVINE","l":"Level 10","t":"Divine-Beast / Effect","atk":-1,"def":-1},"rarity":"URPR","img":"10000010","badge":"URPR","variant":"Ultra Rare (Pharaoh’s Rare)","code":"URPR65","tcg":243521,"grp":2808,"idx":82}
+  ]
+}

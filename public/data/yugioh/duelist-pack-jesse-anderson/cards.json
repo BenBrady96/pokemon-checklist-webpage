@@ -1,0 +1,85 @@
+{
+  "id": "yugioh/duelist-pack-jesse-anderson",
+  "game": "yugioh",
+  "slug": "duelist-pack-jesse-anderson",
+  "name": "Duelist Pack: Jesse Anderson",
+  "series": "GX",
+  "kind": "pack",
+  "code": "DP07",
+  "syncKey": "YDP07",
+  "released": "2008-01-26",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "DP07-EN001–DP07-EN025",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from DP07-EN001 to DP07-EN025."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Duelist Pack: Jesse Anderson Checklist · All 25 Cards",
+    "description": "Free Yu-Gi-Oh! Duelist Pack: Jesse Anderson checklist with no ads, no sign-up and no tracking. Track all 25 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Duelist Pack: Jesse Anderson Checklist",
+    "ogDescription": "Track all 25 cards in Yu-Gi-Oh! Duelist Pack: Jesse Anderson. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 25 cards in Yu-Gi-Oh! Duelist Pack: Jesse Anderson. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Duelist Pack: Jesse Anderson",
+    "paragraphs": [
+      "Duelist Pack: Jesse Anderson is a Yu-Gi-Oh! TCG pack released on 26 January 2008, in the GX era. It has 25 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Duelist Pack: Jesse Anderson"
+    ],
+    "tcgplayer": [
+      239
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"DP07-EN001","name":"Crystal Beast Ruby Carbuncle","ctype":"monster","keywords":"Crystal Beast Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Fairy / Effect","atk":300,"def":300},"rarity":"C","img":"32710364","code":"1","tcg":32261,"grp":239,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"DP07-EN002","name":"Crystal Beast Amethyst Cat","ctype":"monster","keywords":"Crystal Beast Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Beast / Effect","atk":1200,"def":400},"rarity":"R","img":"32933942","code":"2","tcg":32258,"grp":239,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"DP07-EN003","name":"Crystal Beast Emerald Tortoise","ctype":"monster","keywords":"Crystal Beast Aqua WATER Effect Monster","stats":{"a":"WATER","l":"Level 3","t":"Aqua / Effect","atk":600,"def":2000},"rarity":"C","img":"68215963","code":"3","tcg":32260,"grp":239,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"DP07-EN004","name":"Crystal Beast Topaz Tiger","ctype":"monster","keywords":"Crystal Beast Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Beast / Effect","atk":1600,"def":1000},"rarity":"R","img":"95600067","code":"4","tcg":32262,"grp":239,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"DP07-EN005","name":"Crystal Beast Amber Mammoth","ctype":"monster","keywords":"Crystal Beast Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Beast / Effect","atk":1700,"def":1600},"rarity":"C","img":"69937550","code":"5","tcg":32257,"grp":239,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"DP07-EN006","name":"Crystal Beast Cobalt Eagle","ctype":"monster","keywords":"Crystal Beast Winged Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Winged Beast / Effect","atk":1400,"def":800},"rarity":"C","img":"21698716","code":"6","tcg":32259,"grp":239,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"DP07-EN007","name":"Phantom Skyblaster","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Effect","atk":1100,"def":800},"rarity":"UR","img":"12958919","code":"7","tcg":27469,"grp":239,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"DP07-EN008","name":"Grave Squirmer","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Fiend / Effect","atk":0,"def":0},"rarity":"SR","img":"48343627","code":"8","tcg":32270,"grp":239,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"DP07-EN009","name":"Grinder Golem","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Fiend / Effect","atk":3000,"def":300},"rarity":"SR","img":"75732622","code":"9","tcg":32272,"grp":239,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"DP07-EN010","name":"Magna-Slash Dragon","ctype":"monster","keywords":"Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Dragon / Effect","atk":2400,"def":1200},"rarity":"C","img":"72903645","code":"10","tcg":32274,"grp":239,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"DP07-EN011","name":"Gravi-Crush Dragon","ctype":"monster","keywords":"Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Dragon / Effect","atk":2400,"def":1200},"rarity":"C","img":"9391354","code":"11","tcg":32271,"grp":239,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"DP07-EN012","name":"Twister","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"45939841","code":"12","tcg":32276,"grp":239,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"DP07-EN013","name":"Crystal Beacon","ctype":"spell","keywords":"Crystal Beast Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"95326659","code":"13","tcg":32256,"grp":239,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"DP07-EN014","name":"Crystal Blessing","ctype":"spell","keywords":"Crystal Beast Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"35486099","code":"14","tcg":32263,"grp":239,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"DP07-EN015","name":"Crystal Abundance","ctype":"spell","keywords":"Crystal Beast Normal Spell","stats":{"t":"Normal Spell"},"rarity":"R","img":"72881007","code":"15","tcg":32255,"grp":239,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"DP07-EN016","name":"Crystal Promise","ctype":"spell","keywords":"Crystal Beast Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"8275702","code":"16","tcg":32266,"grp":239,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"DP07-EN017","name":"Ancient City - Rainbow Ruins","ctype":"spell","keywords":"Crystal Beast Field Spell","stats":{"t":"Field Spell"},"rarity":"R","img":"34487429","code":"17","tcg":32254,"grp":239,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"DP07-EN018","name":"Hand Destruction","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"R","img":"74519184","code":"18","tcg":83412,"grp":239,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"DP07-EN019","name":"Crystal Release","ctype":"spell","keywords":"Crystal Beast Equip Spell","stats":{"t":"Equip Spell"},"rarity":"SR","img":"10004783","code":"19","tcg":32268,"grp":239,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"DP07-EN020","name":"Crystal Tree","ctype":"spell","keywords":"Crystal Beast Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"SR","img":"47408488","code":"20","tcg":32269,"grp":239,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"DP07-EN021","name":"Triggered Summon","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"96148285","code":"21","tcg":32275,"grp":239,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"DP07-EN022","name":"Last Resort","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"97970833","code":"22","tcg":32273,"grp":239,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"DP07-EN023","name":"Crystal Raigeki","ctype":"trap","keywords":"Crystal Beast Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"96331676","code":"23","tcg":32267,"grp":239,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"DP07-EN024","name":"Counter Gem","ctype":"trap","keywords":"Crystal Beast Normal Trap","stats":{"t":"Normal Trap"},"rarity":"UR","img":"11136371","code":"24","tcg":32264,"grp":239,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"DP07-EN025","name":"Crystal Pair","ctype":"trap","keywords":"Crystal Beast Normal Trap","stats":{"t":"Normal Trap"},"rarity":"R","img":"47121070","code":"25","tcg":32265,"grp":239,"idx":24}
+  ]
+}

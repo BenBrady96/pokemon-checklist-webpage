@@ -1,0 +1,129 @@
+{
+  "id": "yugioh/legendary-duelists-synchro-storm",
+  "game": "yugioh",
+  "slug": "legendary-duelists-synchro-storm",
+  "name": "Legendary Duelists: Synchro Storm",
+  "series": "SEVENS & GO RUSH!!",
+  "kind": "set",
+  "code": "LED8",
+  "syncKey": "YLED8",
+  "released": "2021-10-28",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Main Set",
+      "range": "LED8-EN001–LED8-EN056",
+      "tier": "standard"
+    },
+    {
+      "id": "rarities",
+      "name": "Other Rarities",
+      "short": "Other Rarities",
+      "range": "1 card",
+      "tier": "master"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Main set"
+    ],
+    [
+      "rarities",
+      "Other rarities"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, SCR12, 60x2",
+    "example": "1-20, 45x2, SCR12",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies. Other rarities use their short name and number: <b>SCR12</b> is card 12’s Secret Rare, and ranges work too (<b>QCSR1-QCSR20</b>).",
+    "empty": "Cards run from LED8-EN001 to LED8-EN056."
+  },
+  "help": {
+    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 56 cards, each in its main rarity. Master adds the 1 other rarity. Cards you’ve marked are kept when you switch."
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Legendary Duelists: Synchro Storm Checklist · All 56 Cards",
+    "description": "Free Yu-Gi-Oh! Legendary Duelists: Synchro Storm checklist with no ads, no sign-up and no tracking. Track all 56 cards, or every rarity for a master set, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Legendary Duelists: Synchro Storm Checklist",
+    "ogDescription": "Track all 56 cards in Yu-Gi-Oh! Legendary Duelists: Synchro Storm, plus 1 other rarity. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 56 cards in Yu-Gi-Oh! Legendary Duelists: Synchro Storm. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About the Legendary Duelists: Synchro Storm set",
+    "paragraphs": [
+      "Legendary Duelists: Synchro Storm is a Yu-Gi-Oh! TCG special set released on 28 October 2021, in the SEVENS &amp; GO RUSH!! era. It has 56 cards, and with the 1 other rarity there are 57 to collect in all.",
+      "Choose what you’re collecting: the <b>Standard set</b> (the 56 cards, each in its main rarity) or the <b>Master set</b> (all 57, adding the 1 other rarity).",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Legendary Duelists: Synchro Storm"
+    ],
+    "tcgplayer": [
+      2829
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"LED8-EN001","name":"Clear Wing Synchro Dragon","ctype":"monster","keywords":"Clear Wing Dragon WIND Synchro Monster","stats":{"a":"WIND","l":"Level 7","t":"Dragon / Synchro","atk":2500,"def":2000},"rarity":"SR","img":"82044279","code":"1","tcg":251316,"grp":2829,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"LED8-EN002","name":"Speedroid Fuki-Modoshi Piper","ctype":"monster","keywords":"Speedroid Machine WIND Tuner Monster","stats":{"a":"WIND","l":"Level 4","t":"Machine / Tuner","atk":1000,"def":1000},"rarity":"SR","img":"50482813","code":"2","tcg":251317,"grp":2829,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"LED8-EN003","name":"Speedroid Ultra Hound","ctype":"monster","keywords":"Speedroid Machine WIND Effect Monster","stats":{"a":"WIND","l":"Level 3","t":"Machine / Effect","atk":800,"def":800},"rarity":"SR","img":"86976918","code":"3","tcg":251318,"grp":2829,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"LED8-EN004","name":"Hi-Speedroid Cork Shooter","ctype":"monster","keywords":"Speedroid Machine WIND Synchro Tuner Monster","stats":{"a":"WIND","l":"Level 3","t":"Machine / Synchro / Tuner","atk":500,"def":1000},"rarity":"UR","img":"23361526","code":"4","tcg":251319,"grp":2829,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"LED8-EN005","name":"Crystal Clear Wing Synchro Dragon","ctype":"monster","keywords":"Clear Wing Dragon WIND Synchro Monster","stats":{"a":"WIND","l":"Level 10","t":"Dragon / Synchro","atk":3000,"def":2500},"rarity":"UR","img":"59765225","code":"5","tcg":251320,"grp":2829,"idx":4},
+    {"id":"005-gr","section":"rarities","num":"005","printed":"LED8-EN005","name":"Crystal Clear Wing Synchro Dragon","ctype":"monster","keywords":"Clear Wing Dragon WIND Synchro Monster","stats":{"a":"WIND","l":"Level 10","t":"Dragon / Synchro","atk":3000,"def":2500},"rarity":"GR","img":"59765225","badge":"GR","variant":"Ghost Rare","code":"GR5","tcg":251321,"grp":2829,"idx":5},
+    {"id":"006","section":"main","num":"006","printed":"LED8-EN006","name":"Hi-Speedroid Clear Wing Rider","ctype":"monster","keywords":"Speedroid Machine WIND Synchro Monster","stats":{"a":"WIND","l":"Level 11","t":"Machine / Synchro","atk":3500,"def":2000},"rarity":"UR","img":"86154370","code":"6","tcg":251323,"grp":2829,"idx":6},
+    {"id":"007","section":"main","num":"007","printed":"LED8-EN007","name":"Speedroid Wheel","ctype":"spell","keywords":"Speedroid Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"SR","img":"12148078","code":"7","tcg":251592,"grp":2829,"idx":7},
+    {"id":"008","section":"main","num":"008","printed":"LED8-EN008","name":"Speedroid Dupligate","ctype":"trap","keywords":"Speedroid Normal Trap","stats":{"t":"Normal Trap"},"rarity":"R","img":"58543073","code":"8","tcg":251325,"grp":2829,"idx":8},
+    {"id":"009","section":"main","num":"009","printed":"LED8-EN009","name":"Speedroid Terrortop","ctype":"monster","keywords":"Roid Machine WIND Effect Monster","stats":{"a":"WIND","l":"Level 3","t":"Machine / Effect","atk":1200,"def":600},"rarity":"C","img":"81275020","code":"9","tcg":251326,"grp":2829,"idx":9},
+    {"id":"010","section":"main","num":"010","printed":"LED8-EN010","name":"Speedroid Double Yoyo","ctype":"monster","keywords":"Roid Machine WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Machine / Effect","atk":1400,"def":1400},"rarity":"C","img":"53054833","code":"10","tcg":251327,"grp":2829,"idx":10},
+    {"id":"011","section":"main","num":"011","printed":"LED8-EN011","name":"Speedroid Taketomborg","ctype":"monster","keywords":"Roid Machine WIND Effect Monster","stats":{"a":"WIND","l":"Level 3","t":"Machine / Effect","atk":600,"def":1200},"rarity":"C","img":"53932291","code":"11","tcg":251328,"grp":2829,"idx":11},
+    {"id":"012","section":"main","num":"012","printed":"LED8-EN012","name":"Speedroid Red-Eyed Dice","ctype":"monster","keywords":"Roid Machine WIND Tuner Monster","stats":{"a":"WIND","l":"Level 1","t":"Machine / Tuner","atk":100,"def":100},"rarity":"C","img":"16725505","code":"12","tcg":251329,"grp":2829,"idx":12},
+    {"id":"013","section":"main","num":"013","printed":"LED8-EN013","name":"Speedroid Den-Den Daiko Duke","ctype":"monster","keywords":"Roid Machine WIND Tuner Monster","stats":{"a":"WIND","l":"Level 3","t":"Machine / Tuner","atk":1000,"def":1000},"rarity":"C","img":"59640711","code":"13","tcg":251330,"grp":2829,"idx":13},
+    {"id":"014","section":"main","num":"014","printed":"LED8-EN014","name":"Speedroid Horse Stilts","ctype":"monster","keywords":"Roid Machine WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Machine / Effect","atk":1100,"def":1100},"rarity":"C","img":"17328157","code":"14","tcg":251331,"grp":2829,"idx":14},
+    {"id":"015","section":"main","num":"015","printed":"LED8-EN015","name":"Speedroid Marble Machine","ctype":"monster","keywords":"Speedroid Machine WIND Pendulum Effect Monster","stats":{"a":"WIND","l":"Level 2","t":"Machine / Pendulum / Effect","atk":200,"def":100},"rarity":"C","img":"96708940","code":"15","tcg":251336,"grp":2829,"idx":15},
+    {"id":"016","section":"main","num":"016","printed":"LED8-EN016","name":"Speedroid CarTurbo","ctype":"monster","keywords":"Speedroid Machine WIND Tuner Monster","stats":{"a":"WIND","l":"Level 3","t":"Machine / Tuner","atk":800,"def":1200},"rarity":"C","img":"96945958","code":"16","tcg":251337,"grp":2829,"idx":16},
+    {"id":"017","section":"main","num":"017","printed":"LED8-EN017","name":"Hi-Speedroid Chanbara","ctype":"monster","keywords":"Hi-Speedroid Machine WIND Synchro Monster","stats":{"a":"WIND","l":"Level 5","t":"Machine / Synchro","atk":2000,"def":1000},"rarity":"C","img":"42110604","code":"17","tcg":251338,"grp":2829,"idx":17},
+    {"id":"018","section":"main","num":"018","printed":"LED8-EN018","name":"Hi-Speedroid Kitedrake","ctype":"monster","keywords":"Hi-Speedroid Machine WIND Synchro Monster","stats":{"a":"WIND","l":"Level 8","t":"Machine / Synchro","atk":3000,"def":2800},"rarity":"R","img":"5772618","code":"18","tcg":251339,"grp":2829,"idx":18},
+    {"id":"019","section":"main","num":"019","printed":"LED8-EN019","name":"Speed Recovery","ctype":"spell","keywords":"Roid Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"88204302","code":"19","tcg":251340,"grp":2829,"idx":19},
+    {"id":"020","section":"main","num":"020","printed":"LED8-EN020","name":"Speedlift","ctype":"spell","keywords":"Roid Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"36730805","code":"20","tcg":251343,"grp":2829,"idx":20},
+    {"id":"021","section":"main","num":"021","printed":"LED8-EN021","name":"Sauge de Fleur","ctype":"monster","keywords":"Fleur Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Spellcaster / Effect","atk":2900,"def":0},"rarity":"UR","img":"85032782","code":"21","tcg":251356,"grp":2829,"idx":21},
+    {"id":"022","section":"main","num":"022","printed":"LED8-EN022","name":"White Steed of the Floral Knights","ctype":"monster","keywords":"Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 6","t":"Beast / Effect","atk":2400,"def":1800},"rarity":"SR","img":"11426487","code":"22","tcg":251358,"grp":2829,"idx":22},
+    {"id":"023","section":"main","num":"023","printed":"LED8-EN023","name":"Necro Synchron","ctype":"monster","keywords":"Synchron Machine DARK Tuner Monster","stats":{"a":"DARK","l":"Level 2","t":"Machine / Tuner","atk":200,"def":400},"rarity":"UR","img":"48421595","code":"23","tcg":251360,"grp":2829,"idx":23},
+    {"id":"024","section":"main","num":"024","printed":"LED8-EN024","name":"Baronne de Fleur","ctype":"monster","keywords":"Fleur Warrior WIND Synchro Monster","stats":{"a":"WIND","l":"Level 10","t":"Warrior / Synchro","atk":3000,"def":2400},"rarity":"UR","img":"84815190","code":"24","tcg":251362,"grp":2829,"idx":24},
+    {"id":"025","section":"main","num":"025","printed":"LED8-EN025","name":"Fleuret de Fleur","ctype":"spell","keywords":"Fleur Equip Spell","stats":{"t":"Equip Spell"},"rarity":"SR","img":"10204849","code":"25","tcg":251367,"grp":2829,"idx":25},
+    {"id":"026","section":"main","num":"026","printed":"LED8-EN026","name":"Synchro Dilemma","ctype":"spell","keywords":"Synchro Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"R","img":"47699948","code":"26","tcg":251368,"grp":2829,"idx":26},
+    {"id":"027","section":"main","num":"027","printed":"LED8-EN027","name":"Pennant of Revolution","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"R","img":"73193552","code":"27","tcg":251369,"grp":2829,"idx":27},
+    {"id":"028","section":"main","num":"028","printed":"LED8-EN028","name":"Sorciere de Fleur","ctype":"monster","keywords":"Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Spellcaster / Effect","atk":2900,"def":0},"rarity":"C","img":"36405256","code":"28","tcg":251370,"grp":2829,"idx":28},
+    {"id":"029","section":"main","num":"029","printed":"LED8-EN029","name":"Necro Fleur","ctype":"monster","keywords":"Plant DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Plant / Effect","atk":0,"def":0},"rarity":"C","img":"99000151","code":"29","tcg":251371,"grp":2829,"idx":29},
+    {"id":"030","section":"main","num":"030","printed":"LED8-EN030","name":"Noble Knight Joan","ctype":"monster","keywords":"Noble Knight Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Effect","atk":1900,"def":1300},"rarity":"C","img":"18426196","code":"30","tcg":251372,"grp":2829,"idx":30},
+    {"id":"031","section":"main","num":"031","printed":"LED8-EN031","name":"Fleur Synchron","ctype":"monster","keywords":"Synchron Machine LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 2","t":"Machine / Tuner","atk":400,"def":200},"rarity":"R","img":"19642774","code":"31","tcg":251373,"grp":2829,"idx":31},
+    {"id":"032","section":"main","num":"032","printed":"LED8-EN032","name":"Chevalier de Fleur","ctype":"monster","keywords":"Warrior WIND Synchro Monster","stats":{"a":"WIND","l":"Level 8","t":"Warrior / Synchro","atk":2700,"def":2300},"rarity":"R","img":"45037489","code":"32","tcg":251375,"grp":2829,"idx":32},
+    {"id":"033","section":"main","num":"033","printed":"LED8-EN033","name":"Z-ONE","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"62499965","code":"33","tcg":251376,"grp":2829,"idx":33},
+    {"id":"034","section":"main","num":"034","printed":"LED8-EN034","name":"Liberty at Last!","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"72022087","code":"34","tcg":251377,"grp":2829,"idx":34},
+    {"id":"035","section":"main","num":"035","printed":"LED8-EN035","name":"Lyrilusc - Beryl Canary","ctype":"monster","keywords":"Lyrilusc Winged Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 1","t":"Winged Beast / Effect","atk":0,"def":200},"rarity":"R","img":"10182251","code":"35","tcg":251379,"grp":2829,"idx":35},
+    {"id":"036","section":"main","num":"036","printed":"LED8-EN036","name":"Lyrilusc - Celestine Wagtail","ctype":"monster","keywords":"Lyrilusc Winged Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 1","t":"Winged Beast / Effect","atk":200,"def":0},"rarity":"UR","img":"46576366","code":"36","tcg":251381,"grp":2829,"idx":36},
+    {"id":"037","section":"main","num":"037","printed":"LED8-EN037","name":"Lyrilusc - Ensemblue Robin","ctype":"monster","keywords":"Lyrilusc Winged Beast WIND Xyz Monster","stats":{"a":"WIND","l":"Rank 1","t":"Winged Beast / Xyz","atk":0,"def":0},"rarity":"UR","img":"72971064","code":"37","tcg":251384,"grp":2829,"idx":37},
+    {"id":"038","section":"main","num":"038","printed":"LED8-EN038","name":"Lyrilusc - Promenade Thrush","ctype":"monster","keywords":"Lyrilusc Winged Beast WIND Xyz Monster","stats":{"a":"WIND","l":"Rank 1","t":"Winged Beast / Xyz","atk":0,"def":0},"rarity":"SR","img":"19369609","code":"38","tcg":251385,"grp":2829,"idx":38},
+    {"id":"039","section":"main","num":"039","printed":"LED8-EN039","name":"Lyrilusc - Bird Call","ctype":"spell","keywords":"Lyrilusc Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UR","img":"45354718","code":"39","tcg":251386,"grp":2829,"idx":39},
+    {"id":"040","section":"main","num":"040","printed":"LED8-EN040","name":"Lyrilusc - Bird Sanctuary","ctype":"spell","keywords":"Lyrilusc Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"SR","img":"72859417","code":"40","tcg":251388,"grp":2829,"idx":40},
+    {"id":"041","section":"main","num":"041","printed":"LED8-EN041","name":"Lyrilusc - Phantom Feathers","ctype":"trap","keywords":"Lyrilusc Normal Trap","stats":{"t":"Normal Trap"},"rarity":"R","img":"8243121","code":"41","tcg":251394,"grp":2829,"idx":41},
+    {"id":"042","section":"main","num":"042","printed":"LED8-EN042","name":"Lyrilusc - Cobalt Sparrow","ctype":"monster","keywords":"Lyrilusc Winged Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 1","t":"Winged Beast / Effect","atk":0,"def":100},"rarity":"C","img":"34550857","code":"42","tcg":251396,"grp":2829,"idx":42},
+    {"id":"043","section":"main","num":"043","printed":"LED8-EN043","name":"Lyrilusc - Sapphire Swallow","ctype":"monster","keywords":"Lyrilusc Winged Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 1","t":"Winged Beast / Effect","atk":100,"def":0},"rarity":"C","img":"60954556","code":"43","tcg":251398,"grp":2829,"idx":43},
+    {"id":"044","section":"main","num":"044","printed":"LED8-EN044","name":"Lyrilusc - Turquoise Warbler","ctype":"monster","keywords":"Lyrilusc Winged Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 1","t":"Winged Beast / Effect","atk":100,"def":100},"rarity":"C","img":"97949165","code":"44","tcg":251400,"grp":2829,"idx":44},
+    {"id":"045","section":"main","num":"045","printed":"LED8-EN045","name":"Lyrilusc - Assembled Nightingale","ctype":"monster","keywords":"Lyrilusc Winged Beast WIND Xyz Monster","stats":{"a":"WIND","l":"Rank 1","t":"Winged Beast / Xyz","atk":0,"def":0},"rarity":"R","img":"48608796","code":"45","tcg":251401,"grp":2829,"idx":45},
+    {"id":"046","section":"main","num":"046","printed":"LED8-EN046","name":"Lyrilusc - Recital Starling","ctype":"monster","keywords":"Lyrilusc Winged Beast WIND Xyz Monster","stats":{"a":"WIND","l":"Rank 1","t":"Winged Beast / Xyz","atk":0,"def":0},"rarity":"C","img":"8491961","code":"46","tcg":251402,"grp":2829,"idx":46},
+    {"id":"047","section":"main","num":"047","printed":"LED8-EN047","name":"Quillbolt Hedgehog","ctype":"monster","keywords":"Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 2","t":"Machine / Effect","atk":800,"def":800},"rarity":"C","img":"23571046","code":"47","tcg":251405,"grp":2829,"idx":47},
+    {"id":"048","section":"main","num":"048","printed":"LED8-EN048","name":"Synchron Explorer","ctype":"monster","keywords":"Synchron Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 2","t":"Machine / Effect","atk":0,"def":700},"rarity":"C","img":"36643046","code":"48","tcg":251407,"grp":2829,"idx":48},
+    {"id":"049","section":"main","num":"049","printed":"LED8-EN049","name":"Unknown Synchron","ctype":"monster","keywords":"Synchron Machine DARK Tuner Monster","stats":{"a":"DARK","l":"Level 1","t":"Machine / Tuner","atk":0,"def":0},"rarity":"C","img":"15310033","code":"49","tcg":251410,"grp":2829,"idx":49},
+    {"id":"050","section":"main","num":"050","printed":"LED8-EN050","name":"Rush Warrior","ctype":"monster","keywords":"Warrior WIND Effect Monster","stats":{"a":"WIND","l":"Level 2","t":"Warrior / Effect","atk":300,"def":1200},"rarity":"C","img":"36736723","code":"50","tcg":251412,"grp":2829,"idx":50},
+    {"id":"051","section":"main","num":"051","printed":"LED8-EN051","name":"Mariamne, the True Dracophoenix","ctype":"monster","keywords":"True Draco Wyrm WIND Effect Monster","stats":{"a":"WIND","l":"Level 9","t":"Wyrm / Effect","atk":2700,"def":2100},"rarity":"C","img":"94160895","code":"51","tcg":251414,"grp":2829,"idx":51},
+    {"id":"052","section":"main","num":"052","printed":"LED8-EN052","name":"Stardust Warrior","ctype":"monster","keywords":"Stardust Warrior WIND Synchro Monster","stats":{"a":"WIND","l":"Level 10","t":"Warrior / Synchro","atk":3000,"def":2500},"rarity":"C","img":"74892653","code":"52","tcg":251416,"grp":2829,"idx":52},
+    {"id":"053","section":"main","num":"053","printed":"LED8-EN053","name":"Stardust Assault Warrior","ctype":"monster","keywords":"Junk Warrior WIND Synchro Monster","stats":{"a":"WIND","l":"Level 6","t":"Warrior / Synchro","atk":2100,"def":1200},"rarity":"C","img":"97792247","code":"53","tcg":251418,"grp":2829,"idx":53},
+    {"id":"054","section":"main","num":"054","printed":"LED8-EN054","name":"Totem Bird","ctype":"monster","keywords":"Winged Beast WIND Xyz Monster","stats":{"a":"WIND","l":"Rank 3","t":"Winged Beast / Xyz","atk":1900,"def":1400},"rarity":"R","img":"71068247","code":"54","tcg":251419,"grp":2829,"idx":54},
+    {"id":"055","section":"main","num":"055","printed":"LED8-EN055","name":"Tornado Dragon","ctype":"monster","keywords":"Wyrm WIND Xyz Monster","stats":{"a":"WIND","l":"Rank 4","t":"Wyrm / Xyz","atk":2100,"def":2000},"rarity":"C","img":"6983839","code":"55","tcg":251421,"grp":2829,"idx":55},
+    {"id":"056","section":"main","num":"056","printed":"LED8-EN056","name":"Quill Pen of Gulldos","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"27980138","code":"56","tcg":251423,"grp":2829,"idx":56}
+  ]
+}

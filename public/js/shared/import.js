@@ -1,4 +1,4 @@
-import { loadCatalog } from '../core/catalog.js';
+import { loadCatalog, entryById, groupByGame } from '../core/catalog.js';
 import { fetchCollection } from '../core/collection.js';
 import { asset } from '../core/paths.js';
 import * as storage from '../core/storage.js';
@@ -18,7 +18,7 @@ let hooks = {};
 let pending = null;
 let checkRun = 0;
 
-const byId = (catalog, id) => catalog.collections.find((c) => c.id === id);
+const byId = entryById;
 const listNames = (names) => (names.length > 2 ? plural(names.length, 'set', 'sets') : names.join(' and '));
 const sourceOf = (text) => (/#(sync|t)=|^https?:/i.test(text.trim()) ? 'link' : 'code');
 
@@ -123,7 +123,7 @@ async function showReceived(received, source, fileText = null) {
     received.created ? `made ${formatAgo(received.created)}` : '',
   ].filter(Boolean).join(' · ');
   const many = ids.length > 1;
-  rcv('sets').replaceChildren(...ids.map((id) => {
+  const row = (id) => {
     const model = models.get(id);
     const c = tierCounts(model, storage.readCounts(id), received.sets[id].q);
     const text = [
@@ -134,7 +134,11 @@ async function showReceived(received, source, fileText = null) {
       many
         ? el('label', { class: 'rcv-set' }, el('input', { type: 'checkbox', checked: true, onchange: paintButtons }), el('span', { class: 'rcv-set__main' }, ...text))
         : el('div', { class: 'rcv-set' }, el('span', { class: 'rcv-set__main' }, ...text)));
-  }));
+  };
+  const groups = groupByGame(catalog, ids);
+  rcv('sets').replaceChildren(...(groups.length > 1
+    ? groups.flatMap(({ game, ids: inGame }) => [el('li', { class: 'rcv-game', text: game.name }), ...inGame.map(row)])
+    : ids.map(row)));
   const unknown = rcv('unknown');
   unknown.hidden = !received.unknown;
   unknown.textContent = received.unknown ? `${plural(received.unknown, 'set isn’t', 'sets aren’t')} on this version of the site yet, so ${received.unknown === 1 ? 'it’s' : 'they’re'} left out. Refresh the page to update it.` : '';

@@ -1,0 +1,147 @@
+{
+  "id": "yugioh/the-grand-creators",
+  "game": "yugioh",
+  "slug": "the-grand-creators",
+  "name": "The Grand Creators",
+  "series": "SEVENS & GO RUSH!!",
+  "kind": "expansion",
+  "code": "GRCR",
+  "syncKey": "YGRCR",
+  "released": "2022-01-27",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Main Set",
+      "range": "GRCR-EN001–GRCR-EN060",
+      "tier": "standard"
+    },
+    {
+      "id": "rarities",
+      "name": "Other Rarities",
+      "short": "Other Rarities",
+      "range": "15 cards",
+      "tier": "master"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Main set"
+    ],
+    [
+      "rarities",
+      "Other rarities"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, SCR12, 60x2",
+    "example": "1-20, 45x2, SCR12",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies. Other rarities use their short name and number: <b>SCR12</b> is card 12’s Secret Rare, and ranges work too (<b>QCSR1-QCSR20</b>).",
+    "empty": "Cards run from GRCR-EN001 to GRCR-EN060."
+  },
+  "help": {
+    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 60 cards, each in its main rarity. Master adds the 15 other rarities. Cards you’ve marked are kept when you switch."
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! The Grand Creators Checklist · All 60 Cards",
+    "description": "Free Yu-Gi-Oh! The Grand Creators checklist with no ads, no sign-up and no tracking. Track all 60 cards, or every rarity for a master set, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! The Grand Creators Checklist",
+    "ogDescription": "Track all 60 cards in Yu-Gi-Oh! The Grand Creators, plus 15 other rarities. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 60 cards in Yu-Gi-Oh! The Grand Creators. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About the The Grand Creators set",
+    "paragraphs": [
+      "The Grand Creators is a Yu-Gi-Oh! TCG booster set released on 27 January 2022, in the SEVENS &amp; GO RUSH!! era. It has 60 cards, and with the 15 other rarities there are 75 to collect in all.",
+      "Choose what you’re collecting: the <b>Standard set</b> (the 60 cards, each in its main rarity) or the <b>Master set</b> (all 75, adding the 15 other rarities).",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "The Grand Creators"
+    ],
+    "tcgplayer": [
+      2964
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"GRCR-EN001","name":"Ukiyoe-P.U.N.K. Sharakusai","ctype":"monster","keywords":"P.U.N.K. Psychic EARTH Tuner Monster","stats":{"a":"EARTH","l":"Level 3","t":"Psychic / Tuner","atk":1200,"def":600},"rarity":"R","img":"13258285","code":"1","tcg":260713,"grp":2964,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"GRCR-EN002","name":"Gagaku-P.U.N.K. Wa Gon","ctype":"monster","keywords":"P.U.N.K. Psychic EARTH Tuner Monster","stats":{"a":"EARTH","l":"Level 3","t":"Psychic / Tuner","atk":900,"def":600},"rarity":"SR","img":"50642380","code":"2","tcg":260714,"grp":2964,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"GRCR-EN003","name":"Joruri-P.U.N.K. Madame Spider","ctype":"monster","keywords":"P.U.N.K. Psychic EARTH Tuner Monster","stats":{"a":"EARTH","l":"Level 3","t":"Psychic / Tuner","atk":900,"def":600},"rarity":"SR","img":"82041999","code":"3","tcg":260715,"grp":2964,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"GRCR-EN004","name":"Noh-P.U.N.K. Ze Amin","ctype":"monster","keywords":"P.U.N.K. Psychic EARTH Tuner Monster","stats":{"a":"EARTH","l":"Level 3","t":"Psychic / Tuner","atk":600,"def":600},"rarity":"SR","img":"19535693","code":"4","tcg":260716,"grp":2964,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"GRCR-EN005","name":"Noh-P.U.N.K. Foxy Tune","ctype":"monster","keywords":"P.U.N.K. Beast LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Beast / Effect","atk":2300,"def":2600},"rarity":"UR","img":"55920742","code":"5","tcg":260717,"grp":2964,"idx":4},
+    {"id":"005-cr","section":"rarities","num":"005","printed":"GRCR-EN005","name":"Noh-P.U.N.K. Foxy Tune","ctype":"monster","keywords":"P.U.N.K. Beast LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Beast / Effect","atk":2300,"def":2600},"rarity":"CR","img":"55920742","badge":"CR","variant":"Collector’s Rare","code":"CR5","tcg":260718,"grp":2964,"idx":5},
+    {"id":"006","section":"main","num":"006","printed":"GRCR-EN006","name":"Noh-P.U.N.K. Ogre Dance","ctype":"monster","keywords":"P.U.N.K. Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Fiend / Effect","atk":2500,"def":2000},"rarity":"UR","img":"81914447","code":"6","tcg":260719,"grp":2964,"idx":6},
+    {"id":"006-cr","section":"rarities","num":"006","printed":"GRCR-EN006","name":"Noh-P.U.N.K. Ogre Dance","ctype":"monster","keywords":"P.U.N.K. Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Fiend / Effect","atk":2500,"def":2000},"rarity":"CR","img":"81914447","badge":"CR","variant":"Collector’s Rare","code":"CR6","tcg":260720,"grp":2964,"idx":7},
+    {"id":"007","section":"main","num":"007","printed":"GRCR-EN007","name":"Ukiyoe-P.U.N.K. Rising Carp","ctype":"monster","keywords":"P.U.N.K. Fish WATER Fusion Monster","stats":{"a":"WATER","l":"Level 8","t":"Fish / Fusion","atk":1000,"def":2600},"rarity":"R","img":"18313046","code":"7","tcg":260721,"grp":2964,"idx":8},
+    {"id":"008","section":"main","num":"008","printed":"GRCR-EN008","name":"Ukiyoe-P.U.N.K. Amazing Dragon","ctype":"monster","keywords":"P.U.N.K. Sea Serpent WIND Synchro Monster","stats":{"a":"WIND","l":"Level 11","t":"Sea Serpent / Synchro","atk":3000,"def":2800},"rarity":"UR","img":"44708154","code":"8","tcg":260722,"grp":2964,"idx":9},
+    {"id":"008-cr","section":"rarities","num":"008","printed":"GRCR-EN008","name":"Ukiyoe-P.U.N.K. Amazing Dragon","ctype":"monster","keywords":"P.U.N.K. Sea Serpent WIND Synchro Monster","stats":{"a":"WIND","l":"Level 11","t":"Sea Serpent / Synchro","atk":3000,"def":2800},"rarity":"CR","img":"44708154","badge":"CR","variant":"Collector’s Rare","code":"CR8","tcg":261781,"grp":2964,"idx":10},
+    {"id":"009","section":"main","num":"009","printed":"GRCR-EN009","name":"Gagaku-P.U.N.K. Wild Picking","ctype":"spell","keywords":"P.U.N.K. Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"R","img":"81192859","code":"9","tcg":260723,"grp":2964,"idx":11},
+    {"id":"010","section":"main","num":"010","printed":"GRCR-EN010","name":"Gagaku-P.U.N.K. Crash Beat","ctype":"spell","keywords":"P.U.N.K. Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"R","img":"17691568","code":"10","tcg":260724,"grp":2964,"idx":12},
+    {"id":"011","section":"main","num":"011","printed":"GRCR-EN011","name":"Joruri-P.U.N.K. Dangerous Gabu","ctype":"trap","keywords":"P.U.N.K. Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"43685562","code":"11","tcg":260725,"grp":2964,"idx":13},
+    {"id":"012","section":"main","num":"012","printed":"GRCR-EN012","name":"Joruri-P.U.N.K. Nashiwari Surprise","ctype":"trap","keywords":"P.U.N.K. Normal Trap","stats":{"t":"Normal Trap"},"rarity":"R","img":"70070211","code":"12","tcg":260726,"grp":2964,"idx":14},
+    {"id":"013","section":"main","num":"013","printed":"GRCR-EN013","name":"Exosister Elis","ctype":"monster","keywords":"Exosister Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Effect","atk":500,"def":800},"rarity":"SR","img":"16474916","code":"13","tcg":260727,"grp":2964,"idx":15},
+    {"id":"014","section":"main","num":"014","printed":"GRCR-EN014","name":"Exosister Stella","ctype":"monster","keywords":"Exosister Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Effect","atk":300,"def":800},"rarity":"SR","img":"43863925","code":"14","tcg":260728,"grp":2964,"idx":16},
+    {"id":"015","section":"main","num":"015","printed":"GRCR-EN015","name":"Exosister Irene","ctype":"monster","keywords":"Exosister Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Effect","atk":400,"def":800},"rarity":"R","img":"79858629","code":"15","tcg":260729,"grp":2964,"idx":17},
+    {"id":"016","section":"main","num":"016","printed":"GRCR-EN016","name":"Exosister Sophia","ctype":"monster","keywords":"Exosister Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Effect","atk":100,"def":800},"rarity":"UR","img":"5352328","code":"16","tcg":260730,"grp":2964,"idx":18},
+    {"id":"016-cr","section":"rarities","num":"016","printed":"GRCR-EN016","name":"Exosister Sophia","ctype":"monster","keywords":"Exosister Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Effect","atk":100,"def":800},"rarity":"CR","img":"5352328","badge":"CR","variant":"Collector’s Rare","code":"CR16","tcg":261782,"grp":2964,"idx":19},
+    {"id":"017","section":"main","num":"017","printed":"GRCR-EN017","name":"Exosister Mikailis","ctype":"monster","keywords":"Exosister Warrior LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 4","t":"Warrior / Xyz","atk":2500,"def":1800},"rarity":"UR","img":"42741437","code":"17","tcg":260731,"grp":2964,"idx":20},
+    {"id":"017-cr","section":"rarities","num":"017","printed":"GRCR-EN017","name":"Exosister Mikailis","ctype":"monster","keywords":"Exosister Warrior LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 4","t":"Warrior / Xyz","atk":2500,"def":1800},"rarity":"CR","img":"42741437","badge":"CR","variant":"Collector’s Rare","code":"CR17","tcg":261783,"grp":2964,"idx":21},
+    {"id":"018","section":"main","num":"018","printed":"GRCR-EN018","name":"Exosister Kaspitell","ctype":"monster","keywords":"Exosister Warrior LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 4","t":"Warrior / Xyz","atk":2300,"def":800},"rarity":"R","img":"78135071","code":"18","tcg":260732,"grp":2964,"idx":22},
+    {"id":"019","section":"main","num":"019","printed":"GRCR-EN019","name":"Exosister Gibrine","ctype":"monster","keywords":"Exosister Warrior LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 4","t":"Warrior / Xyz","atk":1400,"def":2800},"rarity":"SR","img":"5530780","code":"19","tcg":260733,"grp":2964,"idx":23},
+    {"id":"020","section":"main","num":"020","printed":"GRCR-EN020","name":"Exosister Asophiel","ctype":"monster","keywords":"Exosister Warrior LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 4","t":"Warrior / Xyz","atk":2100,"def":1800},"rarity":"SR","img":"41524885","code":"20","tcg":260734,"grp":2964,"idx":24},
+    {"id":"021","section":"main","num":"021","printed":"GRCR-EN021","name":"Exosister Pax","ctype":"spell","keywords":"Exosister Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"UR","img":"77913594","code":"21","tcg":260735,"grp":2964,"idx":25},
+    {"id":"021-cr","section":"rarities","num":"021","printed":"GRCR-EN021","name":"Exosister Pax","ctype":"spell","keywords":"Exosister Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"CR","img":"77913594","badge":"CR","variant":"Collector’s Rare","code":"CR21","tcg":260736,"grp":2964,"idx":26},
+    {"id":"022","section":"main","num":"022","printed":"GRCR-EN022","name":"Exosister Arment","ctype":"spell","keywords":"Exosister Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"R","img":"4408198","code":"22","tcg":260737,"grp":2964,"idx":27},
+    {"id":"023","section":"main","num":"023","printed":"GRCR-EN023","name":"Exosister Carpedivem","ctype":"spell","keywords":"Exosister Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"R","img":"30802207","code":"23","tcg":260738,"grp":2964,"idx":28},
+    {"id":"024","section":"main","num":"024","printed":"GRCR-EN024","name":"Exosister Vadis","ctype":"trap","keywords":"Exosister Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"77891946","code":"24","tcg":260739,"grp":2964,"idx":29},
+    {"id":"025","section":"main","num":"025","printed":"GRCR-EN025","name":"Rite of Aramesir","ctype":"spell","keywords":"Adventurer Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UR","img":"3285551","code":"25","tcg":260740,"grp":2964,"idx":30},
+    {"id":"025-cr","section":"rarities","num":"025","printed":"GRCR-EN025","name":"Rite of Aramesir","ctype":"spell","keywords":"Adventurer Normal Spell","stats":{"t":"Normal Spell"},"rarity":"CR","img":"3285551","badge":"CR","variant":"Collector’s Rare","code":"CR25","tcg":260741,"grp":2964,"idx":31},
+    {"id":"026","section":"main","num":"026","printed":"GRCR-EN026","name":"Water Enchantress of the Temple","ctype":"monster","keywords":"Adventurer Spellcaster WATER Effect Monster","stats":{"a":"WATER","l":"Level 3","t":"Spellcaster / Effect","atk":1500,"def":1200},"rarity":"UR","img":"30680659","code":"26","tcg":260742,"grp":2964,"idx":32},
+    {"id":"026-cr","section":"rarities","num":"026","printed":"GRCR-EN026","name":"Water Enchantress of the Temple","ctype":"monster","keywords":"Adventurer Spellcaster WATER Effect Monster","stats":{"a":"WATER","l":"Level 3","t":"Spellcaster / Effect","atk":1500,"def":1200},"rarity":"CR","img":"30680659","badge":"CR","variant":"Collector’s Rare","code":"CR26","tcg":260743,"grp":2964,"idx":33},
+    {"id":"027","section":"main","num":"027","printed":"GRCR-EN027","name":"Magicore Warrior of the Relics","ctype":"monster","keywords":"Adventurer Warrior FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Warrior / Effect","atk":2300,"def":1000},"rarity":"SR","img":"66078354","code":"27","tcg":260744,"grp":2964,"idx":34},
+    {"id":"028","section":"main","num":"028","printed":"GRCR-EN028","name":"Wandering Gryphon Rider","ctype":"monster","keywords":"Adventurer Winged Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 7","t":"Winged Beast / Effect","atk":2000,"def":2800},"rarity":"SR","img":"2563463","code":"28","tcg":260745,"grp":2964,"idx":35},
+    {"id":"029","section":"main","num":"029","printed":"GRCR-EN029","name":"Fateful Adventure","ctype":"spell","keywords":"Adventurer Token Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"UR","img":"39568067","code":"29","tcg":260746,"grp":2964,"idx":36},
+    {"id":"029-cr","section":"rarities","num":"029","printed":"GRCR-EN029","name":"Fateful Adventure","ctype":"spell","keywords":"Adventurer Token Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"CR","img":"39568067","badge":"CR","variant":"Collector’s Rare","code":"CR29","tcg":260747,"grp":2964,"idx":37},
+    {"id":"030","section":"main","num":"030","printed":"GRCR-EN030","name":"Dunnell, the Noble Arms of Light","ctype":"spell","keywords":"Adventurer Equip Spell","stats":{"t":"Equip Spell"},"rarity":"R","img":"65952776","code":"30","tcg":260748,"grp":2964,"idx":38},
+    {"id":"031","section":"main","num":"031","printed":"GRCR-EN031","name":"Starlit Papillon","ctype":"spell","keywords":"Adventurer Equip Spell","stats":{"t":"Equip Spell"},"rarity":"R","img":"92341815","code":"31","tcg":260749,"grp":2964,"idx":39},
+    {"id":"032","section":"main","num":"032","printed":"GRCR-EN032","name":"Dracoback, the Rideable Dragon","ctype":"spell","keywords":"Adventurer Token Equip Spell","stats":{"t":"Equip Spell"},"rarity":"R","img":"38745520","code":"32","tcg":260750,"grp":2964,"idx":40},
+    {"id":"033","section":"main","num":"033","printed":"GRCR-EN033","name":"Zaralaam the Dark Palace","ctype":"spell","keywords":"Adventurer Field Spell","stats":{"t":"Field Spell"},"rarity":"R","img":"64230128","code":"33","tcg":260751,"grp":2964,"idx":41},
+    {"id":"034","section":"main","num":"034","printed":"GRCR-EN034","name":"Forest of Lost Flowers","ctype":"spell","keywords":"Adventurer Field Spell","stats":{"t":"Field Spell"},"rarity":"R","img":"91228233","code":"34","tcg":260752,"grp":2964,"idx":42},
+    {"id":"035","section":"main","num":"035","printed":"GRCR-EN035","name":"Thunder Discharge","ctype":"trap","keywords":"Adventurer Normal Trap","stats":{"t":"Normal Trap"},"rarity":"R","img":"27623932","code":"35","tcg":260753,"grp":2964,"idx":43},
+    {"id":"036","section":"main","num":"036","printed":"GRCR-EN036","name":"Breath of Resurrection","ctype":"trap","keywords":"Adventurer Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"64018647","code":"36","tcg":260754,"grp":2964,"idx":44},
+    {"id":"037","section":"main","num":"037","printed":"GRCR-EN037","name":"Zektrike Kou-ou","ctype":"spell","keywords":"Inzektor Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UR","img":"97946536","code":"37","tcg":260755,"grp":2964,"idx":45},
+    {"id":"037-cr","section":"rarities","num":"037","printed":"GRCR-EN037","name":"Zektrike Kou-ou","ctype":"spell","keywords":"Inzektor Normal Spell","stats":{"t":"Normal Spell"},"rarity":"CR","img":"97946536","badge":"CR","variant":"Collector’s Rare","code":"CR37","tcg":260756,"grp":2964,"idx":46},
+    {"id":"038","section":"main","num":"038","printed":"GRCR-EN038","name":"Inzektor Hornet","ctype":"monster","keywords":"Inzektor Insect DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Insect / Effect","atk":500,"def":200},"rarity":"R","img":"69207766","code":"38","tcg":260757,"grp":2964,"idx":47},
+    {"id":"038-cr","section":"rarities","num":"038","printed":"GRCR-EN038","name":"Inzektor Hornet","ctype":"monster","keywords":"Inzektor Insect DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Insect / Effect","atk":500,"def":200},"rarity":"CR","img":"69207766","badge":"CR","variant":"Collector’s Rare","code":"CR38","tcg":260758,"grp":2964,"idx":48},
+    {"id":"039","section":"main","num":"039","printed":"GRCR-EN039","name":"Inzektor Centipede","ctype":"monster","keywords":"Inzektor Insect DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Insect / Effect","atk":1600,"def":1200},"rarity":"R","img":"21790410","code":"39","tcg":260759,"grp":2964,"idx":49},
+    {"id":"040","section":"main","num":"040","printed":"GRCR-EN040","name":"Inzektor Dragonfly","ctype":"monster","keywords":"Inzektor Insect DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Insect / Effect","atk":1000,"def":1800},"rarity":"SR","img":"68184115","code":"40","tcg":260760,"grp":2964,"idx":50},
+    {"id":"040-cr","section":"rarities","num":"040","printed":"GRCR-EN040","name":"Inzektor Dragonfly","ctype":"monster","keywords":"Inzektor Insect DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Insect / Effect","atk":1000,"def":1800},"rarity":"CR","img":"68184115","badge":"CR","variant":"Collector’s Rare","code":"CR40","tcg":260761,"grp":2964,"idx":51},
+    {"id":"041","section":"main","num":"041","printed":"GRCR-EN041","name":"Inzektor Hopper","ctype":"monster","keywords":"Inzektor Insect DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Insect / Effect","atk":1700,"def":1400},"rarity":"R","img":"52601736","code":"41","tcg":260762,"grp":2964,"idx":52},
+    {"id":"042","section":"main","num":"042","printed":"GRCR-EN042","name":"Inzektor Ladybug","ctype":"monster","keywords":"Inzektor Insect DARK Effect Monster","stats":{"a":"DARK","l":"Level 2","t":"Insect / Effect","atk":500,"def":100},"rarity":"R","img":"2461031","code":"42","tcg":260763,"grp":2964,"idx":53},
+    {"id":"043","section":"main","num":"043","printed":"GRCR-EN043","name":"Risebell the Star Adjuster","ctype":"monster","keywords":"Psychic WIND Effect Monster","stats":{"a":"WIND","l":"Level 3","t":"Psychic / Effect","atk":800,"def":800},"rarity":"R","img":"25788011","code":"43","tcg":260764,"grp":2964,"idx":54},
+    {"id":"044","section":"main","num":"044","printed":"GRCR-EN044","name":"Gokipole","ctype":"monster","keywords":"Insect EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Insect / Effect","atk":1000,"def":1200},"rarity":"R","img":"17535764","code":"44","tcg":260765,"grp":2964,"idx":55},
+    {"id":"045","section":"main","num":"045","printed":"GRCR-EN045","name":"Psychic Wheeleder","ctype":"monster","keywords":"Psychic EARTH Tuner Monster","stats":{"a":"EARTH","l":"Level 3","t":"Psychic / Tuner","atk":600,"def":0},"rarity":"R","img":"3233859","code":"45","tcg":260766,"grp":2964,"idx":56},
+    {"id":"046","section":"main","num":"046","printed":"GRCR-EN046","name":"Psychic Tracker","ctype":"monster","keywords":"Psychic EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Psychic / Effect","atk":1600,"def":600},"rarity":"R","img":"30227494","code":"46","tcg":260767,"grp":2964,"idx":57},
+    {"id":"047","section":"main","num":"047","printed":"GRCR-EN047","name":"Virtual World Hime - Nyannyan","ctype":"monster","keywords":"Virtual World Psychic WIND Effect Monster","stats":{"a":"WIND","l":"Level 3","t":"Psychic / Effect","atk":1500,"def":1500},"rarity":"R","img":"8736823","code":"47","tcg":260768,"grp":2964,"idx":58},
+    {"id":"048","section":"main","num":"048","printed":"GRCR-EN048","name":"Inzektor Exa-Beetle","ctype":"monster","keywords":"Inzektor Insect DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 6","t":"Insect / Xyz","atk":1000,"def":1000},"rarity":"R","img":"44505297","code":"48","tcg":260769,"grp":2964,"idx":59},
+    {"id":"049","section":"main","num":"049","printed":"GRCR-EN049","name":"Inzektor Exa-Stag","ctype":"monster","keywords":"Inzektor Insect DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 5","t":"Insect / Xyz","atk":800,"def":800},"rarity":"R","img":"26211048","code":"49","tcg":260770,"grp":2964,"idx":60},
+    {"id":"050","section":"main","num":"050","printed":"GRCR-EN050","name":"Castel, the Skyblaster Musketeer","ctype":"monster","keywords":"Winged Beast WIND Xyz Monster","stats":{"a":"WIND","l":"Rank 4","t":"Winged Beast / Xyz","atk":2000,"def":1500},"rarity":"R","img":"82633039","code":"50","tcg":260771,"grp":2964,"idx":61},
+    {"id":"051","section":"main","num":"051","printed":"GRCR-EN051","name":"Inzektor Picofalena","ctype":"monster","keywords":"Inzektor Insect DARK Link Monster","stats":{"a":"DARK","l":"Link 2","t":"Insect / Link","atk":1000},"rarity":"SR","img":"97273514","code":"51","tcg":260772,"grp":2964,"idx":62},
+    {"id":"052","section":"main","num":"052","printed":"GRCR-EN052","name":"Insect Imitation","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"R","img":"96965364","code":"52","tcg":260773,"grp":2964,"idx":63},
+    {"id":"053","section":"main","num":"053","printed":"GRCR-EN053","name":"Ties of the Brethren","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"R","img":"40450317","code":"53","tcg":260774,"grp":2964,"idx":64},
+    {"id":"054","section":"main","num":"054","printed":"GRCR-EN054","name":"Hidden Armory","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"R","img":"52105192","code":"54","tcg":260775,"grp":2964,"idx":65},
+    {"id":"055","section":"main","num":"055","printed":"GRCR-EN055","name":"Emergency Teleport","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"R","img":"67723438","code":"55","tcg":260776,"grp":2964,"idx":66},
+    {"id":"055-cr","section":"rarities","num":"055","printed":"GRCR-EN055","name":"Emergency Teleport","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"CR","img":"67723438","badge":"CR","variant":"Collector’s Rare","code":"CR55","tcg":261780,"grp":2964,"idx":67},
+    {"id":"056","section":"main","num":"056","printed":"GRCR-EN056","name":"Inzektor Sword - Zektkaliber","ctype":"spell","keywords":"Inzektor Equip Spell","stats":{"t":"Equip Spell"},"rarity":"R","img":"16550875","code":"56","tcg":260777,"grp":2964,"idx":68},
+    {"id":"057","section":"main","num":"057","printed":"GRCR-EN057","name":"Torrential Tribute","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"R","img":"53582587","code":"57","tcg":260778,"grp":2964,"idx":69},
+    {"id":"057-cr","section":"rarities","num":"057","printed":"GRCR-EN057","name":"Torrential Tribute","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"CR","img":"53582587","badge":"CR","variant":"Collector’s Rare","code":"CR57","tcg":260779,"grp":2964,"idx":70},
+    {"id":"058","section":"main","num":"058","printed":"GRCR-EN058","name":"Xyz Universe","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"11109820","code":"58","tcg":260780,"grp":2964,"idx":71},
+    {"id":"059","section":"main","num":"059","printed":"GRCR-EN059","name":"Solemn Strike","ctype":"trap","keywords":"Solemn Counter Trap","stats":{"t":"Counter Trap"},"rarity":"R","img":"40605147","code":"59","tcg":260781,"grp":2964,"idx":72},
+    {"id":"059-cr","section":"rarities","num":"059","printed":"GRCR-EN059","name":"Solemn Strike","ctype":"trap","keywords":"Solemn Counter Trap","stats":{"t":"Counter Trap"},"rarity":"CR","img":"40605147","badge":"CR","variant":"Collector’s Rare","code":"CR59","tcg":260782,"grp":2964,"idx":73},
+    {"id":"060","section":"main","num":"060","printed":"GRCR-EN060","name":"Armory Call","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"R","img":"38960450","code":"60","tcg":260783,"grp":2964,"idx":74}
+  ]
+}

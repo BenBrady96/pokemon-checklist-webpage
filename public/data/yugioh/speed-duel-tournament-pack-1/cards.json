@@ -1,0 +1,78 @@
+{
+  "id": "yugioh/speed-duel-tournament-pack-1",
+  "game": "yugioh",
+  "slug": "speed-duel-tournament-pack-1",
+  "name": "Speed Duel Tournament Pack 1",
+  "series": "VRAINS",
+  "kind": "pack",
+  "code": "STP1",
+  "syncKey": "YSTP1",
+  "released": "2019-04-18",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "STP1-EN001–STP1-EN018",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from STP1-EN001 to STP1-EN018."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Speed Duel Tournament Pack 1 Checklist · All 18 Cards",
+    "description": "Free Yu-Gi-Oh! Speed Duel Tournament Pack 1 checklist with no ads, no sign-up and no tracking. Track all 18 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Speed Duel Tournament Pack 1 Checklist",
+    "ogDescription": "Track all 18 cards in Yu-Gi-Oh! Speed Duel Tournament Pack 1. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 18 cards in Yu-Gi-Oh! Speed Duel Tournament Pack 1. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Speed Duel Tournament Pack 1",
+    "paragraphs": [
+      "Speed Duel Tournament Pack 1 is a Yu-Gi-Oh! TCG pack released on 18 April 2019, in the VRAINS era. It has 18 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Speed Duel Tournament Pack 1"
+    ],
+    "tcgplayer": [
+      2446
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"STP1-EN001","name":"Dark Magician","ctype":"monster","keywords":"Dark Magician Spellcaster DARK Normal Monster","stats":{"a":"DARK","l":"Level 7","t":"Spellcaster / Normal","atk":2500,"def":2100},"rarity":"UR","img":"46986416","code":"1","tcg":188971,"grp":2446,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"STP1-EN002","name":"Dark Magician Girl","ctype":"monster","keywords":"Dark Magician Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Spellcaster / Effect","atk":2000,"def":1700},"rarity":"SR","img":"38033121","code":"2","tcg":188972,"grp":2446,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"STP1-EN003","name":"Wonder Wand","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"SR","img":"67775894","code":"3","tcg":188973,"grp":2446,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"STP1-EN004","name":"Blue-Eyes White Dragon","ctype":"monster","keywords":"Blue-Eyes Dragon LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Normal","atk":3000,"def":2500},"rarity":"UR","img":"89631141","code":"4","tcg":188974,"grp":2446,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"STP1-EN005","name":"Lord of D.","ctype":"monster","keywords":"Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Effect","atk":1200,"def":1100},"rarity":"SR","img":"17985575","code":"5","tcg":188975,"grp":2446,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"STP1-EN006","name":"The Flute of Summoning Dragon","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"43973174","code":"6","tcg":188976,"grp":2446,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"STP1-EN007","name":"Red-Eyes Black Dragon","ctype":"monster","keywords":"Red-Eyes Dragon DARK Normal Monster","stats":{"a":"DARK","l":"Level 7","t":"Dragon / Normal","atk":2400,"def":2000},"rarity":"UR","img":"74677425","code":"7","tcg":188977,"grp":2446,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"STP1-EN008","name":"Time Wizard","ctype":"monster","keywords":"Magician Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 2","t":"Spellcaster / Effect","atk":500,"def":400},"rarity":"SR","img":"71625222","code":"8","tcg":188978,"grp":2446,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"STP1-EN009","name":"Gearfried the Iron Knight","ctype":"monster","keywords":"Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Effect","atk":1800,"def":1600},"rarity":"SR","img":"423705","code":"9","tcg":188979,"grp":2446,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"STP1-EN010","name":"Relinquished","ctype":"monster","keywords":"Eyes Restrict Spellcaster DARK Ritual Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Spellcaster / Ritual / Effect","atk":0,"def":0},"rarity":"UR","img":"64631466","code":"10","tcg":188980,"grp":2446,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"STP1-EN011","name":"Black Illusion Ritual","ctype":"spell","keywords":"Eyes Restrict Ritual Spell","stats":{"t":"Ritual Spell"},"rarity":"SR","img":"41426869","code":"11","tcg":188981,"grp":2446,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"STP1-EN012","name":"Toon Table of Contents","ctype":"spell","keywords":"Toon Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"89997728","code":"12","tcg":188982,"grp":2446,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"STP1-EN013","name":"Harpie Lady Sisters","ctype":"monster","keywords":"Harpie Winged Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 6","t":"Winged Beast / Effect","atk":1950,"def":2100},"rarity":"UR","img":"12206212","code":"13","tcg":188983,"grp":2446,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"STP1-EN014","name":"Harpie Lady 1","ctype":"monster","keywords":"Harpie Winged Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Winged Beast / Effect","atk":1300,"def":1400},"rarity":"SR","img":"91932350","code":"14","tcg":188984,"grp":2446,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"STP1-EN015","name":"Elegant Egotist","ctype":"spell","keywords":"Harpie Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"90219263","code":"15","tcg":188985,"grp":2446,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"STP1-EN016","name":"Gravekeeper's Oracle","ctype":"monster","keywords":"Gravekeeper's Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 10","t":"Spellcaster / Effect","atk":2000,"def":1500},"rarity":"UR","img":"25524823","code":"16","tcg":188986,"grp":2446,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"STP1-EN017","name":"Gravekeeper's Priestess","ctype":"monster","keywords":"Gravekeeper's Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Spellcaster / Effect","atk":1000,"def":1500},"rarity":"SR","img":"3381441","code":"17","tcg":188987,"grp":2446,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"STP1-EN018","name":"Gravekeeper's Stele","ctype":"spell","keywords":"Gravekeeper's Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"99523325","code":"18","tcg":188988,"grp":2446,"idx":17}
+  ]
+}

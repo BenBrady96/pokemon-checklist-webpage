@@ -1,0 +1,80 @@
+{
+  "id": "yugioh/duelist-pack-collection-tin-2009",
+  "game": "yugioh",
+  "slug": "duelist-pack-collection-tin-2009",
+  "name": "Duelist Pack Collection Tin 2009",
+  "series": "5D’s",
+  "kind": "tin",
+  "code": "RGBT",
+  "syncKey": "YRGBT2",
+  "released": "2009-03-10",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "DPCT-EN003–RGBT-ENPP6",
+      "tier": "standard"
+    },
+    {
+      "id": "rarities",
+      "name": "Other Rarities",
+      "short": "Other Rarities",
+      "range": "1 card",
+      "tier": "master"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Main set"
+    ],
+    [
+      "rarities",
+      "Other rarities"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, SCR12, 60x2",
+    "example": "1-20, 45x2, SCR12",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies. Other rarities use their short name and number: <b>SCR12</b> is card 12’s Secret Rare, and ranges work too (<b>QCSR1-QCSR20</b>).",
+    "empty": "Cards run from DPCT-EN003 to RGBT-ENPP6."
+  },
+  "help": {
+    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 7 cards, each in its main rarity. Master adds the 1 other rarity. Cards you’ve marked are kept when you switch."
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Duelist Pack Collection Tin 2009 Checklist · All 7 Cards",
+    "description": "Free Yu-Gi-Oh! Duelist Pack Collection Tin 2009 checklist with no ads, no sign-up and no tracking. Track all 7 cards, or every rarity for a master set, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Duelist Pack Collection Tin 2009 Checklist",
+    "ogDescription": "Track all 7 cards in Yu-Gi-Oh! Duelist Pack Collection Tin 2009, plus 1 other rarity. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 7 cards in Yu-Gi-Oh! Duelist Pack Collection Tin 2009. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Duelist Pack Collection Tin 2009",
+    "paragraphs": [
+      "Duelist Pack Collection Tin 2009 is a Yu-Gi-Oh! TCG tin released on 10 March 2009, in the 5D’s era. It has 7 cards, and with the 1 other rarity there are 8 to collect in all.",
+      "Choose what you’re collecting: the <b>Standard set</b> (the 7 cards, each in its main rarity) or the <b>Master set</b> (all 8, adding the 1 other rarity).",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Duelist Pack Collection Tin 2009"
+    ],
+    "tcgplayer": [
+      192
+    ]
+  },
+  "cards": [
+    {"id":"DPCT-003","section":"main","num":"003","printed":"DPCT-EN003","name":"Stardust Dragon/Assault Mode","ctype":"monster","keywords":"/Assault Mode Dragon WIND Effect Monster","stats":{"a":"WIND","l":"Level 10","t":"Dragon / Effect","atk":3000,"def":2500},"rarity":"UR","img":"61257789","code":"3","tcg":32895,"grp":192,"idx":0},
+    {"id":"DPCT-003-scr","section":"rarities","num":"003","printed":"DPCT-EN003","name":"Stardust Dragon/Assault Mode","ctype":"monster","keywords":"/Assault Mode Dragon WIND Effect Monster","stats":{"a":"WIND","l":"Level 10","t":"Dragon / Effect","atk":3000,"def":2500},"rarity":"ScR","img":"61257789","badge":"ScR","variant":"Secret Rare","code":"SCR3","tcg":118773,"grp":192,"idx":1},
+    {"id":"RGBT-PP1","section":"main","num":"PP1","printed":"RGBT-ENPP1","name":"Iron Core of Koa'ki Meiru","ctype":"spell","keywords":"Koa'ki Meiru Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UR","img":"36623431","code":"PP1","tcg":80163,"grp":192,"idx":2},
+    {"id":"RGBT-PP2","section":"main","num":"PP2","printed":"RGBT-ENPP2","name":"Blackwing - Shura the Blue Flame","ctype":"monster","keywords":"Blackwing Winged Beast DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Winged Beast / Effect","atk":1800,"def":1200},"rarity":"SR","img":"58820853","code":"PP2","tcg":80160,"grp":192,"idx":3},
+    {"id":"RGBT-PP3","section":"main","num":"PP3","printed":"RGBT-ENPP3","name":"Koa'ki Meiru Guardian","ctype":"monster","keywords":"Koa'ki Meiru Rock EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Rock / Effect","atk":1900,"def":1200},"rarity":"SR","img":"45041488","code":"PP3","tcg":80293,"grp":192,"idx":4},
+    {"id":"RGBT-PP4","section":"main","num":"PP4","printed":"RGBT-ENPP4","name":"Moja","ctype":"monster","keywords":"Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 1","t":"Beast / Effect","atk":100,"def":100},"rarity":"UR","img":"94878265","code":"PP4","tcg":80162,"grp":192,"idx":5},
+    {"id":"RGBT-PP5","section":"main","num":"PP5","printed":"RGBT-ENPP5","name":"Master Gig","ctype":"monster","keywords":"Psychic EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 8","t":"Psychic / Effect","atk":2600,"def":1400},"rarity":"SR","img":"16191953","code":"PP5","tcg":174115,"grp":192,"idx":6},
+    {"id":"RGBT-PP6","section":"main","num":"PP6","printed":"RGBT-ENPP6","name":"Level Retuner","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"86223870","code":"PP6","tcg":153436,"grp":192,"idx":7}
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "id": "yugioh/structure-deck-dragons-roar",
+  "game": "yugioh",
+  "slug": "structure-deck-dragons-roar",
+  "name": "Structure Deck: Dragon's Roar",
+  "series": "Duel Monsters",
+  "kind": "deck",
+  "code": "SD1",
+  "syncKey": "YSD1",
+  "released": "2005-01-01",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "SD1-EN001–SD1-EN028",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from SD1-EN001 to SD1-EN028."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Structure Deck: Dragon's Roar Checklist · All 28 Cards",
+    "description": "Free Yu-Gi-Oh! Structure Deck: Dragon's Roar checklist with no ads, no sign-up and no tracking. Track all 28 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Structure Deck: Dragon's Roar Checklist",
+    "ogDescription": "Track all 28 cards in Yu-Gi-Oh! Structure Deck: Dragon's Roar. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 28 cards in Yu-Gi-Oh! Structure Deck: Dragon's Roar. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Structure Deck: Dragon's Roar",
+    "paragraphs": [
+      "Structure Deck: Dragon&#39;s Roar is a Yu-Gi-Oh! TCG deck released on 1 January 2005, in the Duel Monsters era. It has 28 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Structure Deck: Dragon's Roar"
+    ],
+    "tcgplayer": [
+      307
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"SD1-EN001","name":"Red-Eyes Darkness Dragon","ctype":"monster","keywords":"Red-Eyes Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 9","t":"Dragon / Effect","atk":2400,"def":2000},"rarity":"UR","img":"96561011","code":"1","tcg":23476,"grp":307,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"SD1-EN002","name":"Red-Eyes Black Dragon","ctype":"monster","keywords":"Red-Eyes Dragon DARK Normal Monster","stats":{"a":"DARK","l":"Level 7","t":"Dragon / Normal","atk":2400,"def":2000},"rarity":"C","img":"74677425","code":"2","tcg":25258,"grp":307,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"SD1-EN003","name":"Luster Dragon","ctype":"monster","keywords":"Dragon WIND Normal Monster","stats":{"a":"WIND","l":"Level 4","t":"Dragon / Normal","atk":1900,"def":1600},"rarity":"C","img":"11091375","code":"3","tcg":25259,"grp":307,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"SD1-EN004","name":"Twin-Headed Behemoth","ctype":"monster","keywords":"Dragon WIND Effect Monster","stats":{"a":"WIND","l":"Level 3","t":"Dragon / Effect","atk":1500,"def":1200},"rarity":"C","img":"43586926","code":"4","tcg":25260,"grp":307,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"SD1-EN005","name":"Armed Dragon LV3","ctype":"monster","keywords":"Armed Dragon Dragon WIND Effect Monster","stats":{"a":"WIND","l":"Level 3","t":"Dragon / Effect","atk":1200,"def":900},"rarity":"C","img":"980973","code":"5","tcg":25261,"grp":307,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"SD1-EN006","name":"Armed Dragon LV5","ctype":"monster","keywords":"Armed Dragon Dragon WIND Effect Monster","stats":{"a":"WIND","l":"Level 5","t":"Dragon / Effect","atk":2400,"def":1700},"rarity":"C","img":"46384672","code":"6","tcg":25262,"grp":307,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"SD1-EN007","name":"Black Dragon's Chick","ctype":"monster","keywords":"Red-Eyes Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Dragon / Effect","atk":800,"def":500},"rarity":"C","img":"36262024","code":"7","tcg":25263,"grp":307,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"SD1-EN008","name":"Element Dragon","ctype":"monster","keywords":"Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Dragon / Effect","atk":1500,"def":1200},"rarity":"C","img":"30314994","code":"8","tcg":25264,"grp":307,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"SD1-EN009","name":"Masked Dragon","ctype":"monster","keywords":"Dragon FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 3","t":"Dragon / Effect","atk":1400,"def":1100},"rarity":"C","img":"39191307","code":"9","tcg":25265,"grp":307,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"SD1-EN010","name":"Snatch Steal","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"45986603","code":"10","tcg":25266,"grp":307,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"SD1-EN011","name":"Mystical Space Typhoon","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"5318639","code":"11","tcg":25267,"grp":307,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"SD1-EN012","name":"Nobleman of Crossout","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"71044499","code":"12","tcg":25268,"grp":307,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"SD1-EN013","name":"Premature Burial","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"70828912","code":"13","tcg":25269,"grp":307,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"SD1-EN014","name":"Swords of Revealing Light","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"72302403","code":"14","tcg":25270,"grp":307,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"SD1-EN015","name":"Pot of Greed","ctype":"spell","keywords":"Greed Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"55144522","code":"15","tcg":25271,"grp":307,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"SD1-EN016","name":"Heavy Storm","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"19613556","code":"16","tcg":25272,"grp":307,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"SD1-EN017","name":"Stamping Destruction","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"81385346","code":"17","tcg":25273,"grp":307,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"SD1-EN018","name":"Creature Swap","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"31036355","code":"18","tcg":25274,"grp":307,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"SD1-EN019","name":"Reload","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"22589918","code":"19","tcg":25275,"grp":307,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"SD1-EN020","name":"The Graveyard in the Fourth Dimension","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"88089103","code":"20","tcg":25276,"grp":307,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"SD1-EN021","name":"Call of the Haunted","ctype":"trap","keywords":"Call of the Haunted Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"97077563","code":"21","tcg":25277,"grp":307,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"SD1-EN022","name":"Ceasefire","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"36468556","code":"22","tcg":25278,"grp":307,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"SD1-EN023","name":"The Dragon's Bead","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"92408984","code":"23","tcg":25279,"grp":307,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"SD1-EN024","name":"Dragon's Rage","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"54178050","code":"24","tcg":25280,"grp":307,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"SD1-EN025","name":"Reckless Greed","ctype":"trap","keywords":"Greed Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"37576645","code":"25","tcg":25281,"grp":307,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"SD1-EN026","name":"Interdimensional Matter Transporter","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"36261276","code":"26","tcg":25282,"grp":307,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"SD1-EN027","name":"Trap Jammer","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"C","img":"19252988","code":"27","tcg":25283,"grp":307,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"SD1-EN028","name":"Curse of Anubis","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"66742250","code":"28","tcg":25284,"grp":307,"idx":27}
+  ]
+}

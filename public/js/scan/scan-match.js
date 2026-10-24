@@ -6,7 +6,8 @@ import { pixelTensor, embed } from './scan-features.js';
 const SAME_ART = 0.04;
 const HOME_BONUS = 0.015;
 
-let loading = null;
+const runtimes = new Map();
+const matchers = new Map();
 
 async function download(path, onBytes) {
   const res = await fetch(asset(path));
@@ -36,18 +37,14 @@ async function sha256(bytes) {
   return [...new Uint8Array(digest)].map((b) => b.toString(16).padStart(2, '0')).join('');
 }
 
-async function load(onProgress) {
-  const res = await fetch(asset('data/scan/index.json'));
-  if (!res.ok) throw new Error(`scan index: HTTP ${res.status}`);
-  const index = await res.json();
+async function createSession(index, onProgress) {
   const total = index.model.bytes + index.runtime.bytes;
   let received = 0;
   const tick = (n) => {
     received += n;
     onProgress?.(Math.min(1, received / total));
   };
-  const [packed, model, runtime] = await Promise.all([
-    download('data/scan/index.bin'),
+  const [model, runtime] = await Promise.all([
     download(`${index.model.file}?v=${index.model.sha256.slice(0, 12)}`, tick),
     download(`${index.runtime.file}?v=${index.runtime.version}`, tick),
   ]);
@@ -56,8 +53,26 @@ async function load(onProgress) {
   ort.env.wasm.proxy = false;
   ort.env.wasm.wasmBinary = runtime;
   ort.env.wasm.wasmPaths = { mjs: asset('js/vendor/ort/ort-wasm-simd-threaded.mjs') };
-  const session = await ort.InferenceSession.create(model, { executionProviders: ['wasm'], graphOptimizationLevel: 'all' });
-  const rows = index.cards.map(([set, imageId, name, printed, remoteId], i) => ({
+  return ort.InferenceSession.create(model, { executionProviders: ['wasm'], graphOptimizationLevel: 'all' });
+}
+
+function sessionFor(index, onProgress) {
+  const key = `${index.model.sha256}|${index.runtime.version}`;
+  if (!runtimes.has(key)) {
+    const promise = createSession(index, onProgress);
+    runtimes.set(key, promise);
+    promise.catch(() => runtimes.delete(key));
+  }
+  return runtimes.get(key);
+}
+
+async function load(game, onProgress) {
+  const dir = `data/scan/${game}`;
+  const res = await fetch(asset(`${dir}/index.json`));
+  if (!res.ok) throw new Error(`scan index: HTTP ${res.status}`);
+  const index = await res.json();
+  const [packed, session] = await Promise.all([download(`${dir}/index.bin`), sessionFor(index, onProgress)]);
+  const rows = index.layout === 'printings' ? printingRows(index) : index.cards.map(([set, imageId, name, printed, remoteId], i) => ({
     i,
     set: index.sets[set],
     imageId,
@@ -66,13 +81,40 @@ async function load(onProgress) {
     image: cardImageUrl({ imageBase: asset(`img/cards/${index.sets[set]}`), imageId, remoteBase: index.remote?.[set], remoteId }),
     search: ` ${normalize(`${name} ${printed}`)} `,
   }));
-  return { index, session, rows, vectors: new Int8Array(packed.buffer, packed.byteOffset, packed.byteLength) };
+  const byCode = new Map();
+  for (const row of rows) for (const p of row.printings || []) for (const code of p.codes) if (!byCode.has(code)) byCode.set(code, { row, printing: p });
+  return { game, index, session, rows, byCode, vectors: new Int8Array(packed.buffer, packed.byteOffset, packed.byteLength) };
 }
 
-export function loadMatcher(onProgress) {
-  loading ||= load(onProgress);
-  loading.catch(() => { loading = null; });
-  return loading;
+function printingRows(index) {
+  return index.cards.map(([imageId, name, list], i) => {
+    const printings = list.map(([set, cardId, ...codes]) => ({ set: index.sets[set], cardId, printed: codes[0], codes }));
+    return {
+      i,
+      imageId,
+      name,
+      printings,
+      set: printings[0].set,
+      printed: printings[0].printed,
+      image: cardImageUrl({ remoteBase: index.remote, remoteId: imageId }),
+      search: ` ${normalize(`${name} ${printings.flatMap((p) => p.codes).join(' ')}`)} `,
+    };
+  });
+}
+
+const inRow = (row, test) => (row.printings ? row.printings.some((p) => test(p.set)) : test(row.set));
+
+export const codeKey = (text) => String(text || '').toUpperCase().replace(/[^A-Z0-9-]/g, '');
+
+export const findCode = (matcher, text) => matcher.byCode.get(codeKey(text)) || null;
+
+export function loadMatcher(game, onProgress) {
+  if (!matchers.has(game)) {
+    const promise = load(game, onProgress);
+    matchers.set(game, promise);
+    promise.catch(() => matchers.delete(game));
+  }
+  return matchers.get(game);
 }
 
 export async function match(matcher, canvas, { prefer = null, within = null, top = 12 } = {}) {
@@ -86,17 +128,18 @@ export async function match(matcher, canvas, { prefer = null, within = null, top
 
   const scored = [];
   for (const row of rows) {
-    if (within && !within(row.set)) continue;
+    if (within && !inRow(row, within)) continue;
     const base = row.i * dims;
     let dot = 0;
     for (let d = 0; d < dims; d++) dot += query[d] * vectors[base + d];
     const score = dot * index.scale;
-    scored.push({ row, score, rank: score + (row.set === prefer ? HOME_BONUS : 0) });
+    scored.push({ row, score, rank: score + (prefer && inRow(row, (s) => s === prefer) ? HOME_BONUS : 0) });
   }
   scored.sort((a, b) => b.rank - a.rank);
   const best = scored[0];
+  if (!best) return { candidates: [], sameArt: [], confident: false };
   const candidates = scored.slice(0, top).map(({ row, score }) => ({ ...row, score }));
-  const sameArt = candidates.filter((c) => c.name === best.row.name && best.score - c.score <= SAME_ART);
+  const sameArt = index.layout === 'printings' ? [] : candidates.filter((c) => c.name === best.row.name && best.score - c.score <= SAME_ART);
   return { candidates, sameArt, confident: best.score >= index.threshold };
 }
 
@@ -105,7 +148,7 @@ export function search(matcher, text, { within = null, limit = 40 } = {}) {
   if (!tokens.length) return [];
   const out = [];
   for (const row of matcher.rows) {
-    if (within && !within(row.set)) continue;
+    if (within && !inRow(row, within)) continue;
     if (tokens.every((t) => row.search.includes(t))) out.push(row);
     if (out.length >= limit) break;
   }

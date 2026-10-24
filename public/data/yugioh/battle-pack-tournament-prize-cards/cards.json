@@ -1,0 +1,80 @@
+{
+  "id": "yugioh/battle-pack-tournament-prize-cards",
+  "game": "yugioh",
+  "slug": "battle-pack-tournament-prize-cards",
+  "name": "Battle Pack Tournament Prize Cards",
+  "series": "Promos",
+  "kind": "promo",
+  "code": "BATT",
+  "syncKey": "YBATT",
+  "released": "2012-05-29",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "BATT-EN001–BATT-EN020",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. Numbers count down the list in order: <b>1-5</b> is the first five cards and <b>3x2</b> is two copies of the third.",
+    "empty": "Cards run from BATT-EN001 to BATT-EN020."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Battle Pack Tournament Prize Cards Checklist · All 20 Cards",
+    "description": "Free Yu-Gi-Oh! Battle Pack Tournament Prize Cards checklist with no ads, no sign-up and no tracking. Track all 20 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Battle Pack Tournament Prize Cards Checklist",
+    "ogDescription": "Track all 20 cards in Yu-Gi-Oh! Battle Pack Tournament Prize Cards. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 20 cards in Yu-Gi-Oh! Battle Pack Tournament Prize Cards. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Battle Pack Tournament Prize Cards",
+    "paragraphs": [
+      "Battle Pack Tournament Prize Cards is a Yu-Gi-Oh! TCG promo list released on 29 May 2012. It has 20 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Battle Pack Tournament Prize Cards"
+    ],
+    "tcgplayer": [
+      1340
+    ]
+  },
+  "cards": [
+    {"id":"BATT-001","section":"main","num":"BATT-EN001","printed":"BATT-EN001","name":"Blue-Eyes Ultimate Dragon","ctype":"monster","keywords":"Blue-Eyes Dragon LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 12","t":"Dragon / Fusion","atk":4500,"def":3800},"note":"Battle Pack Tournament Prize Cards","rarity":"SFR","img":"23995346","code":"1","tcg":81861,"grp":1340,"idx":0},
+    {"id":"BATT-002","section":"main","num":"BATT-EN002","printed":"BATT-EN002","name":"Apprentice Magician","ctype":"monster","keywords":"Magician Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 2","t":"Spellcaster / Effect","atk":400,"def":800},"note":"Battle Pack Tournament Prize Cards","rarity":"SFR","img":"9156135","code":"2","tcg":81862,"grp":1340,"idx":1},
+    {"id":"BATT-003","section":"main","num":"BATT-EN003","printed":"BATT-EN003","name":"Strike Ninja","ctype":"monster","keywords":"Ninja Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Warrior / Effect","atk":1700,"def":1200},"note":"Battle Pack Tournament Prize Cards","rarity":"SFR","img":"41006930","code":"3","tcg":81863,"grp":1340,"idx":2},
+    {"id":"BATT-004","section":"main","num":"BATT-EN004","printed":"BATT-EN004","name":"Icarus Attack","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"note":"Battle Pack Tournament Prize Cards","rarity":"SFR","img":"53567095","code":"4","tcg":81864,"grp":1340,"idx":3},
+    {"id":"BATT-005","section":"main","num":"BATT-EN005","printed":"BATT-EN005","name":"Electric Virus","ctype":"monster","keywords":"Thunder LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Thunder / Effect","atk":1000,"def":1000},"note":"Battle Pack Tournament Prize Cards","rarity":"SFR","img":"24725825","code":"5","tcg":81865,"grp":1340,"idx":4},
+    {"id":"BATT-006","section":"main","num":"BATT-EN006","printed":"BATT-EN006","name":"Ancient City - Rainbow Ruins","ctype":"spell","keywords":"Crystal Beast Field Spell","stats":{"t":"Field Spell"},"note":"Battle Pack Tournament Prize Cards","rarity":"SFR","img":"34487429","code":"6","tcg":81867,"grp":1340,"idx":5},
+    {"id":"BATT-007","section":"main","num":"BATT-EN007","printed":"BATT-EN007","name":"Superancient Deepsea King Coelacanth","ctype":"monster","keywords":"Fish WATER Effect Monster","stats":{"a":"WATER","l":"Level 7","t":"Fish / Effect","atk":2800,"def":2200},"note":"Battle Pack Tournament Prize Cards","rarity":"SFR","img":"88307361","code":"7","tcg":81869,"grp":1340,"idx":6},
+    {"id":"BATT-008","section":"main","num":"BATT-EN008","printed":"BATT-EN008","name":"Gladiator Beast Gyzarus","ctype":"monster","keywords":"Gladiator Beast Winged Beast DARK Fusion Monster","stats":{"a":"DARK","l":"Level 6","t":"Winged Beast / Fusion","atk":2400,"def":1500},"note":"Battle Pack Tournament Prize Cards","rarity":"SFR","img":"48156348","code":"8","tcg":81870,"grp":1340,"idx":7},
+    {"id":"BATT-009","section":"main","num":"BATT-EN009","printed":"BATT-EN009","name":"Blackwing Armor Master","ctype":"monster","keywords":"Blackwing Winged Beast DARK Synchro Monster","stats":{"a":"DARK","l":"Level 7","t":"Winged Beast / Synchro","atk":2500,"def":1500},"note":"Battle Pack Tournament Prize Cards","rarity":"SFR","img":"69031175","code":"9","tcg":81871,"grp":1340,"idx":8},
+    {"id":"BATT-010","section":"main","num":"BATT-EN010","printed":"BATT-EN010","name":"Gravekeeper's Descendant","ctype":"monster","keywords":"Gravekeeper's Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Effect","atk":1500,"def":1200},"note":"Battle Pack Tournament Prize Cards","rarity":"SFR","img":"30213599","code":"10","tcg":81872,"grp":1340,"idx":9},
+    {"id":"BATT-011","section":"main","num":"BATT-EN011","printed":"BATT-EN011","name":"Gleipnir, the Fetters of Fenrir","ctype":"trap","keywords":"Nordic Normal Trap","stats":{"t":"Normal Trap"},"note":"Battle Pack Tournament Prize Cards","rarity":"SFR","img":"14464864","code":"11","tcg":81873,"grp":1340,"idx":10},
+    {"id":"BATT-012","section":"main","num":"BATT-EN012","printed":"BATT-EN012","name":"Cyber Harpie Lady","ctype":"monster","keywords":"Harpie Winged Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Winged Beast / Effect","atk":1800,"def":1300},"note":"Battle Pack Tournament Prize Cards","rarity":"SFR","img":"80316585","code":"12","tcg":81874,"grp":1340,"idx":11},
+    {"id":"BATT-013","section":"main","num":"BATT-EN013","printed":"BATT-EN013","name":"Spirit Reaper","ctype":"monster","keywords":"Zombie DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Zombie / Effect","atk":300,"def":200},"note":"Battle Pack Tournament Prize Cards","rarity":"SFR","img":"23205979","code":"13","tcg":81875,"grp":1340,"idx":12},
+    {"id":"BATT-014","section":"main","num":"BATT-EN014","printed":"BATT-EN014","name":"Mystical Shine Ball","ctype":"monster","keywords":"Fairy LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 2","t":"Fairy / Normal","atk":500,"def":500},"note":"Battle Pack Tournament Prize Cards","rarity":"SFR","img":"39552864","code":"14","tcg":81876,"grp":1340,"idx":13},
+    {"id":"BATT-015","section":"main","num":"BATT-EN015","printed":"BATT-EN015","name":"Chimeratech Fortress Dragon","ctype":"monster","keywords":"Machine DARK Fusion Monster","stats":{"a":"DARK","l":"Level 8","t":"Machine / Fusion","atk":0,"def":0},"note":"Battle Pack Tournament Prize Cards","rarity":"SFR","img":"79229522","code":"15","tcg":81877,"grp":1340,"idx":14},
+    {"id":"BATT-016","section":"main","num":"BATT-EN016","printed":"BATT-EN016","name":"Grandmaster of the Six Samurai","ctype":"monster","keywords":"Six Samurai Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 5","t":"Warrior / Effect","atk":2100,"def":800},"note":"Battle Pack Tournament Prize Cards","rarity":"SFR","img":"83039729","code":"16","tcg":81878,"grp":1340,"idx":15},
+    {"id":"BATT-017","section":"main","num":"BATT-EN017","printed":"BATT-EN017","name":"Judgment Dragon","ctype":"monster","keywords":"Lightsworn Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Effect","atk":3000,"def":2600},"note":"Battle Pack Tournament Prize Cards","rarity":"SFR","img":"57774843","code":"17","tcg":81879,"grp":1340,"idx":16},
+    {"id":"BATT-018","section":"main","num":"BATT-EN018","printed":"BATT-EN018","name":"Colossal Fighter","ctype":"monster","keywords":"Warrior DARK Synchro Monster","stats":{"a":"DARK","l":"Level 8","t":"Warrior / Synchro","atk":2800,"def":1000},"note":"Battle Pack Tournament Prize Cards","rarity":"SFR","img":"23693634","code":"18","tcg":81880,"grp":1340,"idx":17},
+    {"id":"BATT-019","section":"main","num":"BATT-EN019","printed":"BATT-EN019","name":"Jurrac Guaiba","ctype":"monster","keywords":"Jurrac Dinosaur FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Dinosaur / Effect","atk":1700,"def":400},"note":"Battle Pack Tournament Prize Cards","rarity":"SFR","img":"11012887","code":"19","tcg":81881,"grp":1340,"idx":18},
+    {"id":"BATT-020","section":"main","num":"BATT-EN020","printed":"BATT-EN020","name":"T.G. Rush Rhino","ctype":"monster","keywords":"T.G. Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Beast / Effect","atk":1600,"def":800},"note":"Battle Pack Tournament Prize Cards","rarity":"SFR","img":"36687247","code":"20","tcg":81882,"grp":1340,"idx":19}
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "id": "yugioh/rise-of-destiny",
+  "game": "yugioh",
+  "slug": "rise-of-destiny",
+  "name": "Rise of Destiny",
+  "series": "Duel Monsters",
+  "kind": "expansion",
+  "code": "RDS",
+  "syncKey": "YRDS",
+  "released": "2004-11-20",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Main Set",
+      "range": "RDS-EN001–RDS-EN060",
+      "tier": "standard"
+    },
+    {
+      "id": "rarities",
+      "name": "Other Rarities",
+      "short": "Other Rarities",
+      "range": "32 cards",
+      "tier": "master"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Main set"
+    ],
+    [
+      "rarities",
+      "Other rarities"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, SCR12, 60x2",
+    "example": "1-20, 45x2, SCR12",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies. Other rarities use their short name and number: <b>SCR12</b> is card 12’s Secret Rare, and ranges work too (<b>QCSR1-QCSR20</b>).",
+    "empty": "Cards run from RDS-EN001 to RDS-EN060."
+  },
+  "help": {
+    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 60 cards, each in its main rarity. Master adds the 32 other rarities. Cards you’ve marked are kept when you switch."
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Rise of Destiny Checklist · All 60 Cards",
+    "description": "Free Yu-Gi-Oh! Rise of Destiny checklist with no ads, no sign-up and no tracking. Track all 60 cards, or every rarity for a master set, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Rise of Destiny Checklist",
+    "ogDescription": "Track all 60 cards in Yu-Gi-Oh! Rise of Destiny, plus 32 other rarities. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 60 cards in Yu-Gi-Oh! Rise of Destiny. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About the Rise of Destiny set",
+    "paragraphs": [
+      "Rise of Destiny is a Yu-Gi-Oh! TCG booster set released on 20 November 2004, in the Duel Monsters era. It has 60 cards, and with the 32 other rarities there are 92 to collect in all.",
+      "Choose what you’re collecting: the <b>Standard set</b> (the 60 cards, each in its main rarity) or the <b>Master set</b> (all 92, adding the 32 other rarities).",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Rise of Destiny"
+    ],
+    "tcgplayer": [
+      274
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"RDS-EN001","name":"Woodborg Inpachi","ctype":"monster","keywords":"Dark World Machine FIRE Normal Monster","stats":{"a":"FIRE","l":"Level 5","t":"Machine / Normal","atk":500,"def":2500},"rarity":"C","img":"35322812","code":"1","tcg":23420,"grp":274,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"RDS-EN002","name":"Mighty Guard","ctype":"monster","keywords":"Machine EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 4","t":"Machine / Normal","atk":500,"def":1200},"rarity":"C","img":"62327910","code":"2","tcg":23421,"grp":274,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"RDS-EN003","name":"Bokoichi the Freightening Car","ctype":"monster","keywords":"Machine DARK Normal Monster","stats":{"a":"DARK","l":"Level 2","t":"Machine / Normal","atk":500,"def":500},"rarity":"C","img":"8715625","code":"3","tcg":23422,"grp":274,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"RDS-EN004","name":"Harpie Girl","ctype":"monster","keywords":"Harpie Winged Beast WIND Normal Monster","stats":{"a":"WIND","l":"Level 2","t":"Winged Beast / Normal","atk":500,"def":500},"rarity":"C","img":"34100324","code":"4","tcg":23423,"grp":274,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"RDS-EN005","name":"The Creator","ctype":"monster","keywords":"Thunder LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Thunder / Effect","atk":2300,"def":3000},"rarity":"UR","img":"61505339","code":"5","tcg":23424,"grp":274,"idx":4},
+    {"id":"005-utr","section":"rarities","num":"005","printed":"RDS-EN005","name":"The Creator","ctype":"monster","keywords":"Thunder LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Thunder / Effect","atk":2300,"def":3000},"rarity":"UtR","img":"61505339","badge":"UtR","variant":"Ultimate Rare","code":"UTR5","tcg":58787,"grp":274,"idx":5},
+    {"id":"006","section":"main","num":"006","printed":"RDS-EN006","name":"The Creator Incarnate","ctype":"monster","keywords":"Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Effect","atk":1600,"def":1500},"rarity":"C","img":"97093037","code":"6","tcg":23425,"grp":274,"idx":6},
+    {"id":"007","section":"main","num":"007","printed":"RDS-EN007","name":"Ultimate Insect LV3","ctype":"monster","keywords":"Insect WIND Effect Monster","stats":{"a":"WIND","l":"Level 3","t":"Insect / Effect","atk":1400,"def":900},"rarity":"R","img":"34088136","code":"7","tcg":23426,"grp":274,"idx":7},
+    {"id":"007-utr","section":"rarities","num":"007","printed":"RDS-EN007","name":"Ultimate Insect LV3","ctype":"monster","keywords":"Insect WIND Effect Monster","stats":{"a":"WIND","l":"Level 3","t":"Insect / Effect","atk":1400,"def":900},"rarity":"UtR","img":"34088136","badge":"UtR","variant":"Ultimate Rare","code":"UTR7","tcg":58788,"grp":274,"idx":8},
+    {"id":"008","section":"main","num":"008","printed":"RDS-EN008","name":"Mystic Swordsman LV6","ctype":"monster","keywords":"Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 6","t":"Warrior / Effect","atk":2300,"def":1700},"rarity":"UR","img":"60482781","code":"8","tcg":23427,"grp":274,"idx":9},
+    {"id":"008-utr","section":"rarities","num":"008","printed":"RDS-EN008","name":"Mystic Swordsman LV6","ctype":"monster","keywords":"Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 6","t":"Warrior / Effect","atk":2300,"def":1700},"rarity":"UtR","img":"60482781","badge":"UtR","variant":"Ultimate Rare","code":"UTR8","tcg":58789,"grp":274,"idx":10},
+    {"id":"009","section":"main","num":"009","printed":"RDS-EN009","name":"Silent Swordsman LV3","ctype":"monster","keywords":"Silent Swordsman Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Warrior / Effect","atk":1000,"def":1000},"rarity":"UR","img":"1995985","code":"9","tcg":23428,"grp":274,"idx":11},
+    {"id":"009-utr","section":"rarities","num":"009","printed":"RDS-EN009","name":"Silent Swordsman LV3","ctype":"monster","keywords":"Silent Swordsman Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Warrior / Effect","atk":1000,"def":1000},"rarity":"UtR","img":"1995985","badge":"UtR","variant":"Ultimate Rare","code":"UTR9","tcg":58790,"grp":274,"idx":12},
+    {"id":"010","section":"main","num":"010","printed":"RDS-EN010","name":"Nightmare Penguin","ctype":"monster","keywords":"Penguin Aqua WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Aqua / Effect","atk":900,"def":1800},"rarity":"C","img":"81306586","code":"10","tcg":23429,"grp":274,"idx":13},
+    {"id":"011","section":"main","num":"011","printed":"RDS-EN011","name":"Heavy Mech Support Platform","ctype":"monster","keywords":"Machine DARK Union Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Machine / Union / Effect","atk":500,"def":500},"rarity":"C","img":"23265594","code":"11","tcg":23430,"grp":274,"idx":14},
+    {"id":"012","section":"main","num":"012","printed":"RDS-EN012","name":"Perfect Machine King","ctype":"monster","keywords":"Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 8","t":"Machine / Effect","atk":2700,"def":1500},"rarity":"UR","img":"18891691","code":"12","tcg":23431,"grp":274,"idx":15},
+    {"id":"012-utr","section":"rarities","num":"012","printed":"RDS-EN012","name":"Perfect Machine King","ctype":"monster","keywords":"Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 8","t":"Machine / Effect","atk":2700,"def":1500},"rarity":"UtR","img":"18891691","badge":"UtR","variant":"Ultimate Rare","code":"UTR12","tcg":58791,"grp":274,"idx":16},
+    {"id":"013","section":"main","num":"013","printed":"RDS-EN013","name":"Element Magician","ctype":"monster","keywords":"Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Effect","atk":1500,"def":1200},"rarity":"C","img":"65260293","code":"13","tcg":23432,"grp":274,"idx":17},
+    {"id":"014","section":"main","num":"014","printed":"RDS-EN014","name":"Element Saurus","ctype":"monster","keywords":"Dinosaur DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Dinosaur / Effect","atk":1500,"def":1200},"rarity":"C","img":"92755808","code":"14","tcg":23433,"grp":274,"idx":18},
+    {"id":"015","section":"main","num":"015","printed":"RDS-EN015","name":"Roc from the Valley of Haze","ctype":"monster","keywords":"Winged Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 6","t":"Winged Beast / Effect","atk":2400,"def":1400},"rarity":"C","img":"28143906","code":"15","tcg":23434,"grp":274,"idx":19},
+    {"id":"016","section":"main","num":"016","printed":"RDS-EN016","name":"Sasuke Samurai #4","ctype":"monster","keywords":"Warrior WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Warrior / Effect","atk":1200,"def":1200},"rarity":"R","img":"64538655","code":"16","tcg":23435,"grp":274,"idx":20},
+    {"id":"016-utr","section":"rarities","num":"016","printed":"RDS-EN016","name":"Sasuke Samurai #4","ctype":"monster","keywords":"Warrior WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Warrior / Effect","atk":1200,"def":1200},"rarity":"UtR","img":"64538655","badge":"UtR","variant":"Ultimate Rare","code":"UTR16","tcg":58792,"grp":274,"idx":21},
+    {"id":"017","section":"main","num":"017","printed":"RDS-EN017","name":"Harpie Lady 1","ctype":"monster","keywords":"Harpie Winged Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Winged Beast / Effect","atk":1300,"def":1400},"rarity":"C","img":"91932350","code":"17","tcg":23436,"grp":274,"idx":22},
+    {"id":"018","section":"main","num":"018","printed":"RDS-EN018","name":"Harpie Lady 2","ctype":"monster","keywords":"Harpie Winged Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Winged Beast / Effect","atk":1300,"def":1400},"rarity":"C","img":"27927359","code":"18","tcg":23437,"grp":274,"idx":23},
+    {"id":"019","section":"main","num":"019","printed":"RDS-EN019","name":"Harpie Lady 3","ctype":"monster","keywords":"Harpie Winged Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Winged Beast / Effect","atk":1300,"def":1400},"rarity":"C","img":"54415063","code":"19","tcg":23438,"grp":274,"idx":24},
+    {"id":"020","section":"main","num":"020","printed":"RDS-EN020","name":"Raging Flame Sprite","ctype":"monster","keywords":"Pyro FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 3","t":"Pyro / Effect","atk":100,"def":200},"rarity":"C","img":"90810762","code":"20","tcg":23416,"grp":274,"idx":25},
+    {"id":"021","section":"main","num":"021","printed":"RDS-EN021","name":"Thestalos the Firestorm Monarch","ctype":"monster","keywords":"Monarch Pyro FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 6","t":"Pyro / Effect","atk":2400,"def":1000},"rarity":"SR","img":"26205777","code":"21","tcg":23439,"grp":274,"idx":26},
+    {"id":"021-utr","section":"rarities","num":"021","printed":"RDS-EN021","name":"Thestalos the Firestorm Monarch","ctype":"monster","keywords":"Monarch Pyro FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 6","t":"Pyro / Effect","atk":2400,"def":1000},"rarity":"UtR","img":"26205777","badge":"UtR","variant":"Ultimate Rare","code":"UTR21","tcg":58793,"grp":274,"idx":27},
+    {"id":"022","section":"main","num":"022","printed":"RDS-EN022","name":"Eagle Eye","ctype":"monster","keywords":"Winged Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 3","t":"Winged Beast / Effect","atk":1300,"def":1200},"rarity":"C","img":"53693416","code":"22","tcg":23440,"grp":274,"idx":28},
+    {"id":"023","section":"main","num":"023","printed":"RDS-EN023","name":"Tactical Espionage Expert","ctype":"monster","keywords":"Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Warrior / Effect","atk":1300,"def":1200},"rarity":"C","img":"89698120","code":"23","tcg":23441,"grp":274,"idx":29},
+    {"id":"024","section":"main","num":"024","printed":"RDS-EN024","name":"Invasion of Flames","ctype":"monster","keywords":"Pyro FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 3","t":"Pyro / Effect","atk":1300,"def":1200},"rarity":"C","img":"26082229","code":"24","tcg":23442,"grp":274,"idx":30},
+    {"id":"025","section":"main","num":"025","printed":"RDS-EN025","name":"Creeping Doom Manta","ctype":"monster","keywords":"Fish WATER Effect Monster","stats":{"a":"WATER","l":"Level 3","t":"Fish / Effect","atk":1300,"def":1200},"rarity":"C","img":"52571838","code":"25","tcg":23443,"grp":274,"idx":31},
+    {"id":"026","section":"main","num":"026","printed":"RDS-EN026","name":"Pitch-Black Warwolf","ctype":"monster","keywords":"Beast-Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Beast-Warrior / Effect","atk":1600,"def":600},"rarity":"C","img":"88975532","code":"26","tcg":23415,"grp":274,"idx":32},
+    {"id":"027","section":"main","num":"027","printed":"RDS-EN027","name":"Mirage Dragon","ctype":"monster","keywords":"Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Dragon / Effect","atk":1600,"def":600},"rarity":"C","img":"15960641","code":"27","tcg":23444,"grp":274,"idx":33},
+    {"id":"028","section":"main","num":"028","printed":"RDS-EN028","name":"Gaia Soul the Combustible Collective","ctype":"monster","keywords":"Pyro FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Pyro / Effect","atk":2000,"def":0},"rarity":"R","img":"51355346","code":"28","tcg":23445,"grp":274,"idx":34},
+    {"id":"028-utr","section":"rarities","num":"028","printed":"RDS-EN028","name":"Gaia Soul the Combustible Collective","ctype":"monster","keywords":"Pyro FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Pyro / Effect","atk":2000,"def":0},"rarity":"UtR","img":"51355346","badge":"UtR","variant":"Ultimate Rare","code":"UTR28","tcg":58794,"grp":274,"idx":35},
+    {"id":"029","section":"main","num":"029","printed":"RDS-EN029","name":"Fox Fire","ctype":"monster","keywords":"Pyro FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 2","t":"Pyro / Effect","atk":300,"def":200},"rarity":"C","img":"88753985","code":"29","tcg":23446,"grp":274,"idx":36},
+    {"id":"030","section":"main","num":"030","printed":"RDS-EN030","name":"B.E.S. Big Core","ctype":"monster","keywords":"B.E.S. Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Machine / Effect","atk":2300,"def":1100},"rarity":"SR","img":"14148099","code":"30","tcg":23447,"grp":274,"idx":37},
+    {"id":"030-utr","section":"rarities","num":"030","printed":"RDS-EN030","name":"B.E.S. Big Core","ctype":"monster","keywords":"B.E.S. Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Machine / Effect","atk":2300,"def":1100},"rarity":"UtR","img":"14148099","badge":"UtR","variant":"Ultimate Rare","code":"UTR30","tcg":58795,"grp":274,"idx":38},
+    {"id":"031","section":"main","num":"031","printed":"RDS-EN031","name":"Fusilier Dragon, the Dual-Mode Beast","ctype":"monster","keywords":"Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Machine / Effect","atk":2800,"def":2000},"rarity":"R","img":"51632798","code":"31","tcg":23448,"grp":274,"idx":39},
+    {"id":"031-utr","section":"rarities","num":"031","printed":"RDS-EN031","name":"Fusilier Dragon, the Dual-Mode Beast","ctype":"monster","keywords":"Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Machine / Effect","atk":2800,"def":2000},"rarity":"UtR","img":"51632798","badge":"UtR","variant":"Ultimate Rare","code":"UTR31","tcg":58796,"grp":274,"idx":40},
+    {"id":"032","section":"main","num":"032","printed":"RDS-EN032","name":"Dekoichi the Battlechanted Locomotive","ctype":"monster","keywords":"Machine DARK Flip Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Machine / Flip / Effect","atk":1400,"def":1000},"rarity":"R","img":"87621407","code":"32","tcg":23449,"grp":274,"idx":41},
+    {"id":"032-utr","section":"rarities","num":"032","printed":"RDS-EN032","name":"Dekoichi the Battlechanted Locomotive","ctype":"monster","keywords":"Machine DARK Flip Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Machine / Flip / Effect","atk":1400,"def":1000},"rarity":"UtR","img":"87621407","badge":"UtR","variant":"Ultimate Rare","code":"UTR32","tcg":58797,"grp":274,"idx":42},
+    {"id":"033","section":"main","num":"033","printed":"RDS-EN033","name":"A-Team: Trap Disposal Unit","ctype":"monster","keywords":"Machine FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 2","t":"Machine / Effect","atk":300,"def":400},"rarity":"R","img":"13026402","code":"33","tcg":23450,"grp":274,"idx":43},
+    {"id":"033-utr","section":"rarities","num":"033","printed":"RDS-EN033","name":"A-Team: Trap Disposal Unit","ctype":"monster","keywords":"Machine FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 2","t":"Machine / Effect","atk":300,"def":400},"rarity":"UtR","img":"13026402","badge":"UtR","variant":"Ultimate Rare","code":"UTR33","tcg":58798,"grp":274,"idx":44},
+    {"id":"034","section":"main","num":"034","printed":"RDS-EN034","name":"Homunculus the Alchemic Being","ctype":"monster","keywords":"Plant LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Plant / Effect","atk":1800,"def":1600},"rarity":"C","img":"40410110","code":"34","tcg":23451,"grp":274,"idx":45},
+    {"id":"035","section":"main","num":"035","printed":"RDS-EN035","name":"Dark Blade the Dragon Knight","ctype":"monster","keywords":"Warrior DARK Fusion Monster","stats":{"a":"DARK","l":"Level 6","t":"Warrior / Fusion","atk":2200,"def":1500},"rarity":"R","img":"86805855","code":"35","tcg":23412,"grp":274,"idx":46},
+    {"id":"035-utr","section":"rarities","num":"035","printed":"RDS-EN035","name":"Dark Blade the Dragon Knight","ctype":"monster","keywords":"Warrior DARK Fusion Monster","stats":{"a":"DARK","l":"Level 6","t":"Warrior / Fusion","atk":2200,"def":1500},"rarity":"UtR","img":"86805855","badge":"UtR","variant":"Ultimate Rare","code":"UTR35","tcg":58799,"grp":274,"idx":47},
+    {"id":"036","section":"main","num":"036","printed":"RDS-EN036","name":"Mokey Mokey King","ctype":"monster","keywords":"Fairy LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Fairy / Fusion","atk":300,"def":100},"rarity":"C","img":"13803864","code":"36","tcg":23418,"grp":274,"idx":48},
+    {"id":"037","section":"main","num":"037","printed":"RDS-EN037","name":"Serial Spell","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"R","img":"49398568","code":"37","tcg":23413,"grp":274,"idx":49},
+    {"id":"037-utr","section":"rarities","num":"037","printed":"RDS-EN037","name":"Serial Spell","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"UtR","img":"49398568","badge":"UtR","variant":"Ultimate Rare","code":"UTR37","tcg":58800,"grp":274,"idx":50},
+    {"id":"038","section":"main","num":"038","printed":"RDS-EN038","name":"Harpies' Hunting Ground","ctype":"spell","keywords":"Harpie Field Spell","stats":{"t":"Field Spell"},"rarity":"C","img":"75782277","code":"38","tcg":23452,"grp":274,"idx":51},
+    {"id":"039","section":"main","num":"039","printed":"RDS-EN039","name":"Triangle Ecstasy Spark","ctype":"spell","keywords":"Harpie Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"12181376","code":"39","tcg":23453,"grp":274,"idx":52},
+    {"id":"039-utr","section":"rarities","num":"039","printed":"RDS-EN039","name":"Triangle Ecstasy Spark","ctype":"spell","keywords":"Harpie Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UtR","img":"12181376","badge":"UtR","variant":"Ultimate Rare","code":"UTR39","tcg":58801,"grp":274,"idx":53},
+    {"id":"040","section":"main","num":"040","printed":"RDS-EN040","name":"Necklace of Command","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"R","img":"48576971","code":"40","tcg":23454,"grp":274,"idx":54},
+    {"id":"040-utr","section":"rarities","num":"040","printed":"RDS-EN040","name":"Necklace of Command","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"UtR","img":"48576971","badge":"UtR","variant":"Ultimate Rare","code":"UTR40","tcg":58802,"grp":274,"idx":55},
+    {"id":"041","section":"main","num":"041","printed":"RDS-EN041","name":"Machine Duplication","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"R","img":"63995093","code":"41","tcg":23455,"grp":274,"idx":56},
+    {"id":"041-utr","section":"rarities","num":"041","printed":"RDS-EN041","name":"Machine Duplication","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UtR","img":"63995093","badge":"UtR","variant":"Ultimate Rare","code":"UTR41","tcg":58803,"grp":274,"idx":57},
+    {"id":"042","section":"main","num":"042","printed":"RDS-EN042","name":"Flint","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"R","img":"75560629","code":"42","tcg":23456,"grp":274,"idx":58},
+    {"id":"042-utr","section":"rarities","num":"042","printed":"RDS-EN042","name":"Flint","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"UtR","img":"75560629","badge":"UtR","variant":"Ultimate Rare","code":"UTR42","tcg":58804,"grp":274,"idx":59},
+    {"id":"043","section":"main","num":"043","printed":"RDS-EN043","name":"Mokey Mokey Smackdown","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"1965724","code":"43","tcg":23457,"grp":274,"idx":60},
+    {"id":"043-sp","section":"rarities","num":"043","printed":"RDS-EN043","name":"Mokey Mokey Smackdown","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"SP","img":"1965724","badge":"SP","variant":"Short Print","code":"SP43","tcg":23457,"grp":274,"idx":61},
+    {"id":"044","section":"main","num":"044","printed":"RDS-EN044","name":"Back to Square One","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"47453433","code":"44","tcg":23458,"grp":274,"idx":62},
+    {"id":"044-sp","section":"rarities","num":"044","printed":"RDS-EN044","name":"Back to Square One","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SP","img":"47453433","badge":"SP","variant":"Short Print","code":"SP44","tcg":23458,"grp":274,"idx":63},
+    {"id":"045","section":"main","num":"045","printed":"RDS-EN045","name":"Monster Reincarnation","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"74848038","code":"45","tcg":23414,"grp":274,"idx":64},
+    {"id":"045-utr","section":"rarities","num":"045","printed":"RDS-EN045","name":"Monster Reincarnation","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UtR","img":"74848038","badge":"UtR","variant":"Ultimate Rare","code":"UTR45","tcg":58805,"grp":274,"idx":65},
+    {"id":"046","section":"main","num":"046","printed":"RDS-EN046","name":"Ballista of Rampart Smashing","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"242146","code":"46","tcg":23459,"grp":274,"idx":66},
+    {"id":"047","section":"main","num":"047","printed":"RDS-EN047","name":"Lighten the Load","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"37231841","code":"47","tcg":23460,"grp":274,"idx":67},
+    {"id":"047-sp","section":"rarities","num":"047","printed":"RDS-EN047","name":"Lighten the Load","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"SP","img":"37231841","badge":"SP","variant":"Short Print","code":"SP47","tcg":23460,"grp":274,"idx":68},
+    {"id":"048","section":"main","num":"048","printed":"RDS-EN048","name":"Malice Dispersion","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"13626450","code":"48","tcg":23461,"grp":274,"idx":69},
+    {"id":"049","section":"main","num":"049","printed":"RDS-EN049","name":"Tragedy","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"35686188","code":"49","tcg":23462,"grp":274,"idx":70},
+    {"id":"049-utr","section":"rarities","num":"049","printed":"RDS-EN049","name":"Tragedy","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"UtR","img":"35686188","badge":"UtR","variant":"Ultimate Rare","code":"UTR49","tcg":58806,"grp":274,"idx":71},
+    {"id":"050","section":"main","num":"050","printed":"RDS-EN050","name":"Divine Wrath","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"SR","img":"49010598","code":"50","tcg":23463,"grp":274,"idx":72},
+    {"id":"050-utr","section":"rarities","num":"050","printed":"RDS-EN050","name":"Divine Wrath","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"UtR","img":"49010598","badge":"UtR","variant":"Ultimate Rare","code":"UTR50","tcg":58807,"grp":274,"idx":73},
+    {"id":"051","section":"main","num":"051","printed":"RDS-EN051","name":"Xing Zhen Hu","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"76515293","code":"51","tcg":23464,"grp":274,"idx":74},
+    {"id":"051-sp","section":"rarities","num":"051","printed":"RDS-EN051","name":"Xing Zhen Hu","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"SP","img":"76515293","badge":"SP","variant":"Short Print","code":"SP51","tcg":23464,"grp":274,"idx":75},
+    {"id":"052","section":"main","num":"052","printed":"RDS-EN052","name":"Rare Metalmorph","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"R","img":"12503902","code":"52","tcg":23465,"grp":274,"idx":76},
+    {"id":"052-utr","section":"rarities","num":"052","printed":"RDS-EN052","name":"Rare Metalmorph","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"UtR","img":"12503902","badge":"UtR","variant":"Ultimate Rare","code":"UTR52","tcg":58808,"grp":274,"idx":77},
+    {"id":"053","section":"main","num":"053","printed":"RDS-EN053","name":"Fruits of Kozaky's Studies","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"49998907","code":"53","tcg":23466,"grp":274,"idx":78},
+    {"id":"053-sp","section":"rarities","num":"053","printed":"RDS-EN053","name":"Fruits of Kozaky's Studies","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SP","img":"49998907","badge":"SP","variant":"Short Print","code":"SP53","tcg":23466,"grp":274,"idx":79},
+    {"id":"054","section":"main","num":"054","printed":"RDS-EN054","name":"Mind Haxorz","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"75392615","code":"54","tcg":23467,"grp":274,"idx":80},
+    {"id":"054-sp","section":"rarities","num":"054","printed":"RDS-EN054","name":"Mind Haxorz","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SP","img":"75392615","badge":"SP","variant":"Short Print","code":"SP54","tcg":23467,"grp":274,"idx":81},
+    {"id":"055","section":"main","num":"055","printed":"RDS-EN055","name":"Fuh-Rin-Ka-Zan","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"1781310","code":"55","tcg":23468,"grp":274,"idx":82},
+    {"id":"055-sp","section":"rarities","num":"055","printed":"RDS-EN055","name":"Fuh-Rin-Ka-Zan","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SP","img":"1781310","badge":"SP","variant":"Short Print","code":"SP55","tcg":23468,"grp":274,"idx":83},
+    {"id":"056","section":"main","num":"056","printed":"RDS-EN056","name":"Chain Burst","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"R","img":"48276469","code":"56","tcg":23469,"grp":274,"idx":84},
+    {"id":"056-utr","section":"rarities","num":"056","printed":"RDS-EN056","name":"Chain Burst","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"UtR","img":"48276469","badge":"UtR","variant":"Ultimate Rare","code":"UTR56","tcg":58809,"grp":274,"idx":85},
+    {"id":"057","section":"main","num":"057","printed":"RDS-EN057","name":"Pikeru's Circle of Enchantment","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"74270067","code":"57","tcg":23417,"grp":274,"idx":86},
+    {"id":"057-utr","section":"rarities","num":"057","printed":"RDS-EN057","name":"Pikeru's Circle of Enchantment","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"UtR","img":"74270067","badge":"UtR","variant":"Ultimate Rare","code":"UTR57","tcg":58810,"grp":274,"idx":87},
+    {"id":"058","section":"main","num":"058","printed":"RDS-EN058","name":"Spell Purification","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"1669772","code":"58","tcg":23419,"grp":274,"idx":88},
+    {"id":"059","section":"main","num":"059","printed":"RDS-EN059","name":"Astral Barrier","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"37053871","code":"59","tcg":23470,"grp":274,"idx":89},
+    {"id":"060","section":"main","num":"060","printed":"RDS-EN060","name":"Covering Fire","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"R","img":"74458486","code":"60","tcg":23471,"grp":274,"idx":90},
+    {"id":"060-utr","section":"rarities","num":"060","printed":"RDS-EN060","name":"Covering Fire","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"UtR","img":"74458486","badge":"UtR","variant":"Ultimate Rare","code":"UTR60","tcg":58811,"grp":274,"idx":91}
+  ]
+}

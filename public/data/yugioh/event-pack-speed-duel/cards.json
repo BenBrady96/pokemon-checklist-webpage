@@ -1,0 +1,66 @@
+{
+  "id": "yugioh/event-pack-speed-duel",
+  "game": "yugioh",
+  "slug": "event-pack-speed-duel",
+  "name": "Event Pack Speed Duel",
+  "series": "VRAINS",
+  "kind": "pack",
+  "code": "EVSD",
+  "syncKey": "YEVSD",
+  "released": "2019-08-01",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "EVSD-EN001–EVSD-ENS01",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from EVSD-EN001 to EVSD-ENS01."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Event Pack Speed Duel Checklist · All 6 Cards",
+    "description": "Free Yu-Gi-Oh! Event Pack Speed Duel checklist with no ads, no sign-up and no tracking. Track all 6 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Event Pack Speed Duel Checklist",
+    "ogDescription": "Track all 6 cards in Yu-Gi-Oh! Event Pack Speed Duel. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 6 cards in Yu-Gi-Oh! Event Pack Speed Duel. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Event Pack Speed Duel",
+    "paragraphs": [
+      "Event Pack Speed Duel is a Yu-Gi-Oh! TCG pack released on 1 August 2019, in the VRAINS era. It has 6 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Event Pack Speed Duel"
+    ],
+    "tcgplayer": [
+      2561
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"EVSD-EN001","name":"Dark Magician Girl","ctype":"monster","keywords":"Dark Magician Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Spellcaster / Effect","atk":2000,"def":1700},"rarity":"C","img":"38033121","code":"1","tcg":201497,"grp":2561,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"EVSD-EN002","name":"Rogue Doll","ctype":"monster","keywords":"Spellcaster LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Normal","atk":1600,"def":1000},"rarity":"C","img":"91939608","code":"2","tcg":201501,"grp":2561,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"EVSD-EN003","name":"Shard of Greed","ctype":"spell","keywords":"Greed Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"33904024","code":"3","tcg":201503,"grp":2561,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"EVSD-EN004","name":"Skull Dice","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"126218","code":"4","tcg":201504,"grp":2561,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"EVSD-EN005","name":"Windstorm of Etaqua","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"59744639","code":"5","tcg":201512,"grp":2561,"idx":4},
+    {"id":"S01","section":"main","num":"S01","printed":"EVSD-ENS01","name":"Power Up!","ctype":"skill","keywords":"Yami Yugi Skill","stats":{"t":"Skill · Yami Yugi"},"rarity":"SR","img":"300302021","code":"S1","tcg":201496,"grp":2561,"idx":5}
+  ]
+}

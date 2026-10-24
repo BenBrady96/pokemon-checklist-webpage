@@ -1,0 +1,87 @@
+{
+  "id": "yugioh/ots-tournament-pack-1",
+  "game": "yugioh",
+  "slug": "ots-tournament-pack-1",
+  "name": "OTS Tournament Pack 1",
+  "series": "ARC-V",
+  "kind": "pack",
+  "code": "OP01",
+  "syncKey": "YOP01",
+  "released": "2016-03-18",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "OP01-EN001–OP01-EN027",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from OP01-EN001 to OP01-EN027."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! OTS Tournament Pack 1 Checklist · All 27 Cards",
+    "description": "Free Yu-Gi-Oh! OTS Tournament Pack 1 checklist with no ads, no sign-up and no tracking. Track all 27 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! OTS Tournament Pack 1 Checklist",
+    "ogDescription": "Track all 27 cards in Yu-Gi-Oh! OTS Tournament Pack 1. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 27 cards in Yu-Gi-Oh! OTS Tournament Pack 1. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About OTS Tournament Pack 1",
+    "paragraphs": [
+      "OTS Tournament Pack 1 is a Yu-Gi-Oh! TCG pack released on 18 March 2016, in the ARC-V era. It has 27 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "OTS Tournament Pack 1"
+    ],
+    "tcgplayer": [
+      1759
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"OP01-EN001","name":"Bountiful Artemis","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fairy / Effect","atk":1600,"def":1700},"rarity":"UtR","img":"32296881","code":"1","tcg":115953,"grp":1759,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"OP01-EN002","name":"Vanity's Fiend","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Fiend / Effect","atk":2400,"def":1200},"rarity":"UtR","img":"47084486","code":"2","tcg":115954,"grp":1759,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"OP01-EN003","name":"Masked HERO Dark Law","ctype":"monster","keywords":"HERO Warrior DARK Fusion Monster","stats":{"a":"DARK","l":"Level 6","t":"Warrior / Fusion","atk":2400,"def":1800},"rarity":"UtR","img":"58481572","code":"3","tcg":115955,"grp":1759,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"OP01-EN004","name":"Droll & Lock Bird","ctype":"monster","keywords":"Spellcaster WIND Effect Monster","stats":{"a":"WIND","l":"Level 1","t":"Spellcaster / Effect","atk":0,"def":0},"rarity":"SR","img":"94145021","code":"4","tcg":115956,"grp":1759,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"OP01-EN005","name":"Infernoid Patrulea","ctype":"monster","keywords":"Infernoid Fiend FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Fiend / Effect","atk":1800,"def":0},"rarity":"SR","img":"89423971","code":"5","tcg":115957,"grp":1759,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"OP01-EN006","name":"Performapal Lizardraw","ctype":"monster","keywords":"Performapal Reptile EARTH Pendulum Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Reptile / Pendulum / Effect","atk":1200,"def":600},"rarity":"SR","img":"73130445","code":"6","tcg":115958,"grp":1759,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"OP01-EN007","name":"Performapal Skullcrobat Joker","ctype":"monster","keywords":"Magician Spellcaster DARK Pendulum Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Pendulum / Effect","atk":1800,"def":100},"rarity":"SR","img":"40318957","code":"7","tcg":115959,"grp":1759,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"OP01-EN008","name":"Performapal Monkeyboard","ctype":"monster","keywords":"Performapal Beast EARTH Pendulum Effect Monster","stats":{"a":"EARTH","l":"Level 6","t":"Beast / Pendulum / Effect","atk":1000,"def":2400},"rarity":"SR","img":"17330916","code":"8","tcg":115960,"grp":1759,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"OP01-EN009","name":"Performapal Guitartle","ctype":"monster","keywords":"Performapal Aqua WATER Pendulum Effect Monster","stats":{"a":"WATER","l":"Level 1","t":"Aqua / Pendulum / Effect","atk":300,"def":400},"rarity":"SR","img":"53724621","code":"9","tcg":115961,"grp":1759,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"OP01-EN010","name":"Dinoster Power, the Mighty Dracoslayer","ctype":"monster","keywords":"Dracoslayer Dragon WATER Fusion Monster","stats":{"a":"WATER","l":"Level 8","t":"Dragon / Fusion","atk":2000,"def":2950},"rarity":"SR","img":"22638495","code":"10","tcg":115962,"grp":1759,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"OP01-EN011","name":"Anti-Spell Fragrance","ctype":"trap","keywords":"Anti Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"SR","img":"58921041","code":"11","tcg":115963,"grp":1759,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"OP01-EN012","name":"Imperial Iron Wall","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"SR","img":"30459350","code":"12","tcg":115964,"grp":1759,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"OP01-EN013","name":"Typhoon","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"14883228","code":"13","tcg":115965,"grp":1759,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"OP01-EN014","name":"Skull Servant","ctype":"monster","keywords":"Skull Servant Zombie DARK Normal Monster","stats":{"a":"DARK","l":"Level 1","t":"Zombie / Normal","atk":300,"def":200},"rarity":"SP","img":"32274490","code":"14","tcg":115966,"grp":1759,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"OP01-EN015","name":"Battle Warrior","ctype":"monster","keywords":"Warrior EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 3","t":"Warrior / Normal","atk":700,"def":1000},"rarity":"SP","img":"55550921","code":"15","tcg":115967,"grp":1759,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"OP01-EN016","name":"Mezuki","ctype":"monster","keywords":"Zombie EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Zombie / Effect","atk":1700,"def":800},"rarity":"C","img":"92826944","code":"16","tcg":115968,"grp":1759,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"OP01-EN017","name":"The White Stone of Legend","ctype":"monster","keywords":"Blue-Eyes Dragon LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Dragon / Tuner","atk":300,"def":250},"rarity":"C","img":"79814787","code":"17","tcg":115969,"grp":1759,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"OP01-EN018","name":"Flying \"C\"","ctype":"monster","keywords":"\"C\" Insect EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Insect / Effect","atk":700,"def":700},"rarity":"C","img":"80978111","code":"18","tcg":115970,"grp":1759,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"OP01-EN019","name":"Zombie Warrior","ctype":"monster","keywords":"Skull Servant Zombie DARK Fusion Monster","stats":{"a":"DARK","l":"Level 3","t":"Zombie / Fusion","atk":1200,"def":900},"rarity":"SP","img":"31339260","code":"19","tcg":115971,"grp":1759,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"OP01-EN020","name":"Michael, the Arch-Lightsworn","ctype":"monster","keywords":"Lightsworn Dragon LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 7","t":"Dragon / Synchro","atk":2600,"def":2000},"rarity":"C","img":"4779823","code":"20","tcg":115972,"grp":1759,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"OP01-EN021","name":"Cyber Dragon Nova","ctype":"monster","keywords":"Cyber Dragon Machine LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 5","t":"Machine / Xyz","atk":2100,"def":1600},"rarity":"C","img":"58069384","code":"21","tcg":115973,"grp":1759,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"OP01-EN022","name":"Mage Power","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"83746708","code":"22","tcg":115974,"grp":1759,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"OP01-EN023","name":"Offerings to the Doomed","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"19230408","code":"23","tcg":115975,"grp":1759,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"OP01-EN024","name":"Monster Gate","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"43040603","code":"24","tcg":115976,"grp":1759,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"OP01-EN025","name":"Allure of Darkness","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"1475311","code":"25","tcg":115977,"grp":1759,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"OP01-EN026","name":"Summoning Curse","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"61650133","code":"26","tcg":115978,"grp":1759,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"OP01-EN027","name":"Advance Zone","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"76224717","code":"27","tcg":115979,"grp":1759,"idx":26}
+  ]
+}

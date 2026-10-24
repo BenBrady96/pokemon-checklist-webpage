@@ -1,0 +1,120 @@
+{
+  "id": "yugioh/shadows-in-valhalla",
+  "game": "yugioh",
+  "slug": "shadows-in-valhalla",
+  "name": "Shadows in Valhalla",
+  "series": "VRAINS",
+  "kind": "expansion",
+  "code": "SHVA",
+  "syncKey": "YSHVA",
+  "released": "2018-08-16",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Main Set",
+      "range": "SHVA-EN001–SHVA-EN060",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from SHVA-EN001 to SHVA-EN060."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Shadows in Valhalla Checklist · All 60 Cards",
+    "description": "Free Yu-Gi-Oh! Shadows in Valhalla checklist with no ads, no sign-up and no tracking. Track all 60 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Shadows in Valhalla Checklist",
+    "ogDescription": "Track all 60 cards in Yu-Gi-Oh! Shadows in Valhalla. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 60 cards in Yu-Gi-Oh! Shadows in Valhalla. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About the Shadows in Valhalla set",
+    "paragraphs": [
+      "Shadows in Valhalla is a Yu-Gi-Oh! TCG booster set released on 16 August 2018, in the VRAINS era. It has 60 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Shadows in Valhalla"
+    ],
+    "tcgplayer": [
+      2292
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"SHVA-EN001","name":"Valkyrie Dritte","ctype":"monster","keywords":"Valkyrie Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fairy / Effect","atk":1000,"def":1600},"rarity":"SR","img":"3026686","code":"1","tcg":173432,"grp":2292,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"SHVA-EN002","name":"Valkyrie Zweite","ctype":"monster","keywords":"Valkyrie Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 5","t":"Fairy / Effect","atk":1600,"def":1600},"rarity":"SR","img":"30411385","code":"2","tcg":173433,"grp":2292,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"SHVA-EN003","name":"Valkyrie Erste","ctype":"monster","keywords":"Valkyrie Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Fairy / Effect","atk":1600,"def":1800},"rarity":"SR","img":"66809920","code":"3","tcg":173434,"grp":2292,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"SHVA-EN004","name":"Valkyrie Brunhilde","ctype":"monster","keywords":"Valkyrie Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 7","t":"Fairy / Effect","atk":1800,"def":2000},"rarity":"ScR","img":"2204038","code":"4","tcg":173435,"grp":2292,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"SHVA-EN005","name":"Fortune Chariot","ctype":"monster","keywords":"Valkyrie Fairy WIND Union Effect Monster","stats":{"a":"WIND","l":"Level 6","t":"Fairy / Union / Effect","atk":1000,"def":2000},"rarity":"SR","img":"39299733","code":"5","tcg":173445,"grp":2292,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"SHVA-EN006","name":"Ride of the Valkyries","ctype":"spell","keywords":"Valkyrie Normal Spell","stats":{"t":"Normal Spell"},"rarity":"ScR","img":"65687442","code":"6","tcg":173446,"grp":2292,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"SHVA-EN007","name":"Mischief of the Time Goddess","ctype":"spell","keywords":"Valkyrie Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"ScR","img":"92182447","code":"7","tcg":173447,"grp":2292,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"SHVA-EN008","name":"Goddess Skuld's Oracle","ctype":"spell","keywords":"Valkyrie Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"SR","img":"38576155","code":"8","tcg":173460,"grp":2292,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"SHVA-EN009","name":"Goddess Verdande's Guidance","ctype":"spell","keywords":"Valkyrie Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"SR","img":"64961254","code":"9","tcg":173461,"grp":2292,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"SHVA-EN010","name":"Goddess Urd's Verdict","ctype":"spell","keywords":"Valkyrie Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"SR","img":"91969909","code":"10","tcg":173469,"grp":2292,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"SHVA-EN011","name":"Ninja Grandmaster Saizo","ctype":"monster","keywords":"Ninja Warrior LIGHT Link Monster","stats":{"a":"LIGHT","l":"Link 2","t":"Warrior / Link","atk":2000},"rarity":"ScR","img":"37354507","code":"11","tcg":173476,"grp":2292,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"SHVA-EN012","name":"Yellow Ninja","ctype":"monster","keywords":"Ninja Warrior WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Warrior / Effect","atk":1900,"def":1800},"rarity":"SR","img":"64749612","code":"12","tcg":173479,"grp":2292,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"SHVA-EN013","name":"Yellow Dragon Ninja","ctype":"monster","keywords":"Ninja Dinosaur WIND Effect Monster","stats":{"a":"WIND","l":"Level 8","t":"Dinosaur / Effect","atk":3000,"def":1500},"rarity":"ScR","img":"90247311","code":"13","tcg":173482,"grp":2292,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"SHVA-EN014","name":"Hidden Village of Ninjitsu Arts","ctype":"spell","keywords":"Ninja Field Spell","stats":{"t":"Field Spell"},"rarity":"ScR","img":"26232916","code":"14","tcg":173489,"grp":2292,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"SHVA-EN015","name":"Ninjitsu Art of Mirage-Transformation","ctype":"trap","keywords":"Ninja Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"ScR","img":"63626024","code":"15","tcg":173490,"grp":2292,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"SHVA-EN016","name":"Old Entity Cthugua","ctype":"monster","keywords":"Pyro FIRE Synchro Monster","stats":{"a":"FIRE","l":"Level 4","t":"Pyro / Synchro","atk":2200,"def":200},"rarity":"ScR","img":"12948099","code":"16","tcg":173491,"grp":2292,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"SHVA-EN017","name":"Outer Entity Nyarla","ctype":"monster","keywords":"Fiend EARTH Xyz Monster","stats":{"a":"EARTH","l":"Rank 4","t":"Fiend / Xyz","atk":0,"def":2600},"rarity":"ScR","img":"8809344","code":"17","tcg":173492,"grp":2292,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"SHVA-EN018","name":"Outer Entity Azathot","ctype":"monster","keywords":"Fiend DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 5","t":"Fiend / Xyz","atk":2400,"def":0},"rarity":"ScR","img":"34945480","code":"18","tcg":173493,"grp":2292,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"SHVA-EN019","name":"Forbidden Trapezohedron","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"ScR","img":"49033797","code":"19","tcg":173494,"grp":2292,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"SHVA-EN020","name":"Aleister the Invoker of Madness","ctype":"monster","keywords":"Invoked Spellcaster DARK Link Monster","stats":{"a":"DARK","l":"Link 2","t":"Spellcaster / Link","atk":1800},"rarity":"ScR","img":"97973962","code":"20","tcg":173505,"grp":2292,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"SHVA-EN021","name":"Strike Ninja","ctype":"monster","keywords":"Ninja Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Warrior / Effect","atk":1700,"def":1200},"rarity":"SR","img":"41006930","code":"21","tcg":173506,"grp":2292,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"SHVA-EN022","name":"Ninja Grandmaster Hanzo","ctype":"monster","keywords":"Ninja Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Warrior / Effect","atk":1800,"def":1000},"rarity":"SR","img":"95027497","code":"22","tcg":173507,"grp":2292,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"SHVA-EN023","name":"Upstart Golden Ninja","ctype":"monster","keywords":"Ninja Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Effect","atk":500,"def":1800},"rarity":"SR","img":"58911105","code":"23","tcg":173508,"grp":2292,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"SHVA-EN024","name":"White Dragon Ninja","ctype":"monster","keywords":"Ninja Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 7","t":"Dragon / Effect","atk":2700,"def":1200},"rarity":"SR","img":"99212922","code":"24","tcg":173509,"grp":2292,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"SHVA-EN025","name":"Red Dragon Ninja","ctype":"monster","keywords":"Ninja Winged Beast FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 6","t":"Winged Beast / Effect","atk":2400,"def":1200},"rarity":"SR","img":"58165765","code":"25","tcg":173510,"grp":2292,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"SHVA-EN026","name":"Twilight Ninja Jogen","ctype":"monster","keywords":"Ninja Warrior DARK Pendulum Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Warrior / Pendulum / Effect","atk":2000,"def":1000},"rarity":"SR","img":"79441381","code":"26","tcg":173511,"grp":2292,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"SHVA-EN027","name":"Armor Ninjitsu Art of Alchemy","ctype":"spell","keywords":"Ninjitsu Art Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"16272453","code":"27","tcg":173512,"grp":2292,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"SHVA-EN028","name":"Ninjitsu Art of Transformation","ctype":"trap","keywords":"Ninja Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"SR","img":"70861343","code":"28","tcg":173513,"grp":2292,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"SHVA-EN029","name":"Ninjitsu Art of Super-Transformation","ctype":"trap","keywords":"Ninja Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"SR","img":"90200789","code":"29","tcg":173514,"grp":2292,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"SHVA-EN030","name":"Armor Ninjitsu Art of Rust Mist","ctype":"trap","keywords":"Ninja Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"SR","img":"2148918","code":"30","tcg":173515,"grp":2292,"idx":29},
+    {"id":"031","section":"main","num":"031","printed":"SHVA-EN031","name":"Elemental HERO Neos","ctype":"monster","keywords":"Elemental HERO Warrior LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 7","t":"Warrior / Normal","atk":2500,"def":2000},"rarity":"SR","img":"89943723","code":"31","tcg":173517,"grp":2292,"idx":30},
+    {"id":"032","section":"main","num":"032","printed":"SHVA-EN032","name":"Neo-Spacian Glow Moss","ctype":"monster","keywords":"Neo-Spacian Plant LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Plant / Effect","atk":300,"def":900},"rarity":"SR","img":"17732278","code":"32","tcg":173518,"grp":2292,"idx":31},
+    {"id":"033","section":"main","num":"033","printed":"SHVA-EN033","name":"Neo-Spacian Flare Scarab","ctype":"monster","keywords":"Neo-Spacian Insect FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 3","t":"Insect / Effect","atk":500,"def":500},"rarity":"SR","img":"89621922","code":"33","tcg":173519,"grp":2292,"idx":32},
+    {"id":"034","section":"main","num":"034","printed":"SHVA-EN034","name":"Elemental HERO Magma Neos","ctype":"monster","keywords":"Elemental HERO Warrior FIRE Fusion Monster","stats":{"a":"FIRE","l":"Level 9","t":"Warrior / Fusion","atk":3000,"def":2500},"rarity":"SR","img":"78512663","code":"34","tcg":173520,"grp":2292,"idx":33},
+    {"id":"035","section":"main","num":"035","printed":"SHVA-EN035","name":"Elemental HERO Chaos Neos","ctype":"monster","keywords":"Elemental HERO Warrior DARK Fusion Monster","stats":{"a":"DARK","l":"Level 9","t":"Warrior / Fusion","atk":3000,"def":2500},"rarity":"SR","img":"17032740","code":"35","tcg":173521,"grp":2292,"idx":34},
+    {"id":"036","section":"main","num":"036","printed":"SHVA-EN036","name":"Vision HERO Trinity","ctype":"monster","keywords":"Vision HERO Warrior DARK Fusion Monster","stats":{"a":"DARK","l":"Level 8","t":"Warrior / Fusion","atk":2500,"def":2000},"rarity":"SR","img":"46759931","code":"36","tcg":173522,"grp":2292,"idx":35},
+    {"id":"037","section":"main","num":"037","printed":"SHVA-EN037","name":"Mermail Abyssmegalo","ctype":"monster","keywords":"Mermail Sea Serpent WATER Effect Monster","stats":{"a":"WATER","l":"Level 7","t":"Sea Serpent / Effect","atk":2400,"def":1900},"rarity":"SR","img":"21954587","code":"37","tcg":173523,"grp":2292,"idx":36},
+    {"id":"038","section":"main","num":"038","printed":"SHVA-EN038","name":"Mermail Abyssleed","ctype":"monster","keywords":"Mermail Sea Serpent WATER Effect Monster","stats":{"a":"WATER","l":"Level 7","t":"Sea Serpent / Effect","atk":2700,"def":1000},"rarity":"SR","img":"37781520","code":"38","tcg":173524,"grp":2292,"idx":37},
+    {"id":"039","section":"main","num":"039","printed":"SHVA-EN039","name":"Mermail Abyssteus","ctype":"monster","keywords":"Mermail Aqua WATER Effect Monster","stats":{"a":"WATER","l":"Level 7","t":"Aqua / Effect","atk":1700,"def":2400},"rarity":"SR","img":"22446869","code":"39","tcg":173525,"grp":2292,"idx":38},
+    {"id":"040","section":"main","num":"040","printed":"SHVA-EN040","name":"Aleister the Invoker","ctype":"monster","keywords":"Invoked Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Effect","atk":1000,"def":1800},"rarity":"ScR","img":"86120751","code":"40","tcg":173526,"grp":2292,"idx":39},
+    {"id":"041","section":"main","num":"041","printed":"SHVA-EN041","name":"Invoked Mechaba","ctype":"monster","keywords":"Invoked Machine LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 9","t":"Machine / Fusion","atk":2500,"def":2100},"rarity":"SR","img":"75286621","code":"41","tcg":173527,"grp":2292,"idx":40},
+    {"id":"042","section":"main","num":"042","printed":"SHVA-EN042","name":"Magical Meltdown","ctype":"spell","keywords":"Invoked Field Spell","stats":{"t":"Field Spell"},"rarity":"SR","img":"47679935","code":"42","tcg":173528,"grp":2292,"idx":41},
+    {"id":"043","section":"main","num":"043","printed":"SHVA-EN043","name":"Invocation","ctype":"spell","keywords":"Invoked Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"74063034","code":"43","tcg":173529,"grp":2292,"idx":42},
+    {"id":"044","section":"main","num":"044","printed":"SHVA-EN044","name":"Omega Summon","ctype":"trap","keywords":"Invoked Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"47457347","code":"44","tcg":173530,"grp":2292,"idx":43},
+    {"id":"045","section":"main","num":"045","printed":"SHVA-EN045","name":"Mist Valley Apex Avian","ctype":"monster","keywords":"Mist Valley Winged Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 7","t":"Winged Beast / Effect","atk":2700,"def":2000},"rarity":"SR","img":"29587993","code":"45","tcg":173531,"grp":2292,"idx":44},
+    {"id":"046","section":"main","num":"046","printed":"SHVA-EN046","name":"Windwitch - Ice Bell","ctype":"monster","keywords":"Windwitch Spellcaster WIND Effect Monster","stats":{"a":"WIND","l":"Level 3","t":"Spellcaster / Effect","atk":1000,"def":1000},"rarity":"ScR","img":"43722862","code":"46","tcg":173532,"grp":2292,"idx":45},
+    {"id":"047","section":"main","num":"047","printed":"SHVA-EN047","name":"Ash Blossom & Joyous Spring","ctype":"monster","keywords":"Zombie FIRE Tuner Monster","stats":{"a":"FIRE","l":"Level 3","t":"Zombie / Tuner","atk":0,"def":1800},"rarity":"SR","img":"14558127","code":"47","tcg":173533,"grp":2292,"idx":46},
+    {"id":"048","section":"main","num":"048","printed":"SHVA-EN048","name":"Gem-Knight Seraphinite","ctype":"monster","keywords":"Gem- Fairy EARTH Fusion Monster","stats":{"a":"EARTH","l":"Level 5","t":"Fairy / Fusion","atk":2300,"def":1400},"rarity":"ScR","img":"3113836","code":"48","tcg":173534,"grp":2292,"idx":47},
+    {"id":"049","section":"main","num":"049","printed":"SHVA-EN049","name":"El Shaddoll Winda","ctype":"monster","keywords":"Shaddoll Spellcaster DARK Fusion Monster","stats":{"a":"DARK","l":"Level 5","t":"Spellcaster / Fusion","atk":2200,"def":800},"rarity":"ScR","img":"94977269","code":"49","tcg":173535,"grp":2292,"idx":48},
+    {"id":"050","section":"main","num":"050","printed":"SHVA-EN050","name":"Dragunity Knight - Vajrayana","ctype":"monster","keywords":"Dragunity Dragon WIND Synchro Monster","stats":{"a":"WIND","l":"Level 6","t":"Dragon / Synchro","atk":1900,"def":1200},"rarity":"ScR","img":"21249921","code":"50","tcg":173536,"grp":2292,"idx":49},
+    {"id":"051","section":"main","num":"051","printed":"SHVA-EN051","name":"Hi-Speedroid Chanbara","ctype":"monster","keywords":"Hi-Speedroid Machine WIND Synchro Monster","stats":{"a":"WIND","l":"Level 5","t":"Machine / Synchro","atk":2000,"def":1000},"rarity":"SR","img":"42110604","code":"51","tcg":173537,"grp":2292,"idx":50},
+    {"id":"052","section":"main","num":"052","printed":"SHVA-EN052","name":"Akashic Magician","ctype":"monster","keywords":"Spellcaster DARK Link Monster","stats":{"a":"DARK","l":"Link 2","t":"Spellcaster / Link","atk":1700},"rarity":"SR","img":"28776350","code":"52","tcg":173538,"grp":2292,"idx":51},
+    {"id":"053","section":"main","num":"053","printed":"SHVA-EN053","name":"Cyberdark Impact!","ctype":"spell","keywords":"Cyberdark Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"80033124","code":"53","tcg":173539,"grp":2292,"idx":52},
+    {"id":"054","section":"main","num":"054","printed":"SHVA-EN054","name":"Golden Bamboo Sword","ctype":"spell","keywords":"Bamboo Sword Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"74029853","code":"54","tcg":173540,"grp":2292,"idx":53},
+    {"id":"055","section":"main","num":"055","printed":"SHVA-EN055","name":"Magic Planter","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"1073952","code":"55","tcg":173541,"grp":2292,"idx":54},
+    {"id":"056","section":"main","num":"056","printed":"SHVA-EN056","name":"Advanced Dark","ctype":"spell","keywords":"Crystal Beast Field Spell","stats":{"t":"Field Spell"},"rarity":"SR","img":"12644061","code":"56","tcg":173542,"grp":2292,"idx":55},
+    {"id":"057","section":"main","num":"057","printed":"SHVA-EN057","name":"Shaddoll Fusion","ctype":"spell","keywords":"Shaddoll Normal Spell","stats":{"t":"Normal Spell"},"rarity":"ScR","img":"44394295","code":"57","tcg":173543,"grp":2292,"idx":56},
+    {"id":"058","section":"main","num":"058","printed":"SHVA-EN058","name":"Gateway to Chaos","ctype":"spell","keywords":"Black Luster Soldier Field Spell","stats":{"t":"Field Spell"},"rarity":"ScR","img":"40089744","code":"58","tcg":173544,"grp":2292,"idx":57},
+    {"id":"059","section":"main","num":"059","printed":"SHVA-EN059","name":"Twin Twisters","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"ScR","img":"43898403","code":"59","tcg":173545,"grp":2292,"idx":58},
+    {"id":"060","section":"main","num":"060","printed":"SHVA-EN060","name":"Urgent Ritual Art","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"38844957","code":"60","tcg":173546,"grp":2292,"idx":59}
+  ]
+}

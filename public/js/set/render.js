@@ -2,6 +2,7 @@ import { COLLECTION } from '../core/collection.js';
 import { getQty } from './store.js';
 import { escapeHTML } from '../shared/ui.js';
 import { marketUsd, formatPrice } from '../core/pricing.js';
+import { rarityMark } from '../shared/rarity.js';
 
 export const refs = new Map();
 
@@ -13,13 +14,10 @@ export const imageUrl = (id, size) => COLLECTION.imageUrl(COLLECTION.cardById.ge
 export const imageColor = (id, fallback) => COLLECTION.imageColor(COLLECTION.cardById.get(id), fallback);
 
 export function rarityIcon(card, cls = 'rar') {
-  return `<svg class="${cls}${card.wide ? ' rar--wide' : ''}" aria-hidden="true"><use href="#${card.rarityIcon}"/></svg>`;
+  return rarityMark({ icon: card.rarityIcon, abbr: card.rarityAbbr, tone: card.rarityTone, name: card.rarityName, wide: card.wide }, cls);
 }
 
-export function rarityIconById(rarityId) {
-  const rarity = COLLECTION.rarityById.get(rarityId);
-  return `<svg class="rar${rarity.wide ? ' rar--wide' : ''}" aria-hidden="true"><use href="#${rarity.icon}"/></svg>`;
-}
+export const rarityIconById = (rarityId) => rarityMark(COLLECTION.rarityById.get(rarityId));
 
 function cardMarkup(card) {
   const label = escapeHTML(card.label);

@@ -1,0 +1,86 @@
+{
+  "id": "yugioh/ots-tournament-pack-9",
+  "game": "yugioh",
+  "slug": "ots-tournament-pack-9",
+  "name": "OTS Tournament Pack 9",
+  "series": "VRAINS",
+  "kind": "pack",
+  "code": "OP09",
+  "syncKey": "YOP09",
+  "released": "2018-12-06",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "OP09-EN001–OP09-EN026",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from OP09-EN001 to OP09-EN026."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! OTS Tournament Pack 9 Checklist · All 26 Cards",
+    "description": "Free Yu-Gi-Oh! OTS Tournament Pack 9 checklist with no ads, no sign-up and no tracking. Track all 26 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! OTS Tournament Pack 9 Checklist",
+    "ogDescription": "Track all 26 cards in Yu-Gi-Oh! OTS Tournament Pack 9. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 26 cards in Yu-Gi-Oh! OTS Tournament Pack 9. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About OTS Tournament Pack 9",
+    "paragraphs": [
+      "OTS Tournament Pack 9 is a Yu-Gi-Oh! TCG pack released on 6 December 2018, in the VRAINS era. It has 26 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "OTS Tournament Pack 9"
+    ],
+    "tcgplayer": [
+      2378
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"OP09-EN001","name":"Elemental HERO Stratos","ctype":"monster","keywords":"Elemental HERO Warrior WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Warrior / Effect","atk":1800,"def":300},"rarity":"UtR","img":"40044918","code":"1","tcg":181758,"grp":2378,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"OP09-EN002","name":"Trickstar Lycoris","ctype":"monster","keywords":"Trickstar Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Fairy / Effect","atk":1600,"def":1200},"rarity":"UtR","img":"35199656","code":"2","tcg":181759,"grp":2378,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"OP09-EN003","name":"Sky Striker Ace - Shizuku","ctype":"monster","keywords":"Sky Striker Machine WATER Link Monster","stats":{"a":"WATER","l":"Link 1","t":"Machine / Link","atk":1500},"rarity":"UtR","img":"90673288","code":"3","tcg":181760,"grp":2378,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"OP09-EN004","name":"Morphing Jar","ctype":"monster","keywords":"Rock EARTH Flip Effect Monster","stats":{"a":"EARTH","l":"Level 2","t":"Rock / Flip / Effect","atk":700,"def":600},"rarity":"SR","img":"33508719","code":"4","tcg":181761,"grp":2378,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"OP09-EN005","name":"Galaxy Wizard","ctype":"monster","keywords":"Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Effect","atk":0,"def":1800},"rarity":"SR","img":"98555327","code":"5","tcg":181762,"grp":2378,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"OP09-EN006","name":"Thunder Dragonmatrix","ctype":"monster","keywords":"Thunder Dragon Thunder LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Thunder / Effect","atk":0,"def":2000},"rarity":"SR","img":"20318029","code":"6","tcg":181763,"grp":2378,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"OP09-EN007","name":"Reprodocus","ctype":"monster","keywords":"Dinosaur EARTH Link Monster","stats":{"a":"EARTH","l":"Link 2","t":"Dinosaur / Link","atk":800},"rarity":"SR","img":"34989413","code":"7","tcg":181764,"grp":2378,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"OP09-EN008","name":"Card Destruction","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"72892473","code":"8","tcg":181765,"grp":2378,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"OP09-EN009","name":"Super Polymerization","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"SR","img":"48130397","code":"9","tcg":181766,"grp":2378,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"OP09-EN010","name":"Galaxy Expedition","ctype":"spell","keywords":"Photon Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"60222582","code":"10","tcg":181767,"grp":2378,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"OP09-EN011","name":"Sekka's Light","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"24940422","code":"11","tcg":181768,"grp":2378,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"OP09-EN012","name":"Personal Spoofing","ctype":"trap","keywords":"Altergeist Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"SR","img":"53936268","code":"12","tcg":181769,"grp":2378,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"OP09-EN013","name":"Elemental HERO Neos Alius","ctype":"monster","keywords":"Elemental HERO Warrior LIGHT Gemini Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Gemini","atk":1900,"def":1300},"rarity":"C","img":"69884162","code":"13","tcg":181770,"grp":2378,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"OP09-EN014","name":"T.G. Cyber Magician","ctype":"monster","keywords":"T.G. Spellcaster LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Spellcaster / Tuner","atk":0,"def":0},"rarity":"C","img":"64910482","code":"14","tcg":181771,"grp":2378,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"OP09-EN015","name":"T.G. Striker","ctype":"monster","keywords":"T.G. Warrior EARTH Tuner Monster","stats":{"a":"EARTH","l":"Level 2","t":"Warrior / Tuner","atk":800,"def":0},"rarity":"C","img":"1315120","code":"15","tcg":181772,"grp":2378,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"OP09-EN016","name":"T.G. Warwolf","ctype":"monster","keywords":"T.G. Beast-Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Beast-Warrior / Effect","atk":1200,"def":0},"rarity":"C","img":"293542","code":"16","tcg":181773,"grp":2378,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"OP09-EN017","name":"T.G. Rush Rhino","ctype":"monster","keywords":"T.G. Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Beast / Effect","atk":1600,"def":800},"rarity":"C","img":"36687247","code":"17","tcg":181774,"grp":2378,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"OP09-EN018","name":"Jet Synchron","ctype":"monster","keywords":"Junk Machine FIRE Tuner Monster","stats":{"a":"FIRE","l":"Level 1","t":"Machine / Tuner","atk":500,"def":0},"rarity":"C","img":"9742784","code":"18","tcg":181775,"grp":2378,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"OP09-EN019","name":"Number 107: Galaxy-Eyes Tachyon Dragon","ctype":"monster","keywords":"Galaxy-Eyes Dragon LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 8","t":"Dragon / Xyz","atk":3000,"def":2500},"rarity":"C","img":"88177324","code":"19","tcg":181776,"grp":2378,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"OP09-EN020","name":"Instant Neo Space","ctype":"spell","keywords":"Elemental HERO Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"11913700","code":"20","tcg":181777,"grp":2378,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"OP09-EN021","name":"Silent Graveyard","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"53778229","code":"21","tcg":181778,"grp":2378,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"OP09-EN022","name":"Fusion Substitute","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"74335036","code":"22","tcg":181779,"grp":2378,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"OP09-EN023","name":"Imperial Order","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"61740673","code":"23","tcg":181780,"grp":2378,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"OP09-EN024","name":"Imperial Tombs of Necrovalley","ctype":"trap","keywords":"Gravekeeper's Counter Trap","stats":{"t":"Counter Trap"},"rarity":"C","img":"90434657","code":"24","tcg":181781,"grp":2378,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"OP09-EN025","name":"Tachyon Transmigration","ctype":"trap","keywords":"Galaxy-Eyes Counter Trap","stats":{"t":"Counter Trap"},"rarity":"C","img":"8038143","code":"25","tcg":181782,"grp":2378,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"OP09-EN026","name":"Mecha Phantom Beast Token","ctype":"token","keywords":"Phantom Beast Machine Token","stats":{"t":"Machine / Token"},"rarity":"SR","img":"904186","code":"26","tcg":181783,"grp":2378,"idx":25}
+  ]
+}

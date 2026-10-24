@@ -1,0 +1,66 @@
+{
+  "id": "yugioh/master-collection-volume-2",
+  "game": "yugioh",
+  "slug": "master-collection-volume-2",
+  "name": "Master Collection Volume 2",
+  "series": "GX",
+  "kind": "set",
+  "code": "MC2",
+  "syncKey": "YMC2",
+  "released": "2005-10-18",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Main Set",
+      "range": "MC2-EN001–MC2-EN006",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from MC2-EN001 to MC2-EN006."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Master Collection Volume 2 Checklist · All 6 Cards",
+    "description": "Free Yu-Gi-Oh! Master Collection Volume 2 checklist with no ads, no sign-up and no tracking. Track all 6 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Master Collection Volume 2 Checklist",
+    "ogDescription": "Track all 6 cards in Yu-Gi-Oh! Master Collection Volume 2. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 6 cards in Yu-Gi-Oh! Master Collection Volume 2. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About the Master Collection Volume 2 set",
+    "paragraphs": [
+      "Master Collection Volume 2 is a Yu-Gi-Oh! TCG special set released on 18 October 2005, in the GX era. It has 6 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Master Collection Volume 2"
+    ],
+    "tcgplayer": [
+      252
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"MC2-EN001","name":"Guardian Sphinx","ctype":"monster","keywords":"Sphinx Rock EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 5","t":"Rock / Effect","atk":1700,"def":2400},"rarity":"ScR","img":"40659562","code":"1","tcg":24616,"grp":252,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"MC2-EN002","name":"Breaker the Magical Warrior","ctype":"monster","keywords":"Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Effect","atk":1600,"def":1000},"rarity":"ScR","img":"71413901","code":"2","tcg":24617,"grp":252,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"MC2-EN003","name":"Exodia Necross","ctype":"monster","keywords":"Exodia Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Effect","atk":1800,"def":0},"rarity":"ScR","img":"12600382","code":"3","tcg":24618,"grp":252,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"MC2-EN004","name":"Black Luster Soldier - Envoy of the Beginning","ctype":"monster","keywords":"Black Luster Soldier Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Warrior / Effect","atk":3000,"def":2500},"rarity":"ScR","img":"72989439","code":"4","tcg":24619,"grp":252,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"MC2-EN005","name":"Blowback Dragon","ctype":"monster","keywords":"Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Machine / Effect","atk":2300,"def":1200},"rarity":"ScR","img":"25551951","code":"5","tcg":24620,"grp":252,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"MC2-EN006","name":"Theinen the Great Sphinx","ctype":"monster","keywords":"Sphinx Beast LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 10","t":"Beast / Effect","atk":3500,"def":3000},"rarity":"ScR","img":"87997872","code":"6","tcg":24621,"grp":252,"idx":5}
+  ]
+}

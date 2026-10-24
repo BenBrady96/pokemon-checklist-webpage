@@ -1,0 +1,75 @@
+{
+  "id": "yugioh/collectible-tins-2010-wave-1",
+  "game": "yugioh",
+  "slug": "collectible-tins-2010-wave-1",
+  "name": "Collectible Tins 2010 Wave 1",
+  "series": "5D’s",
+  "kind": "tin",
+  "code": "CT07",
+  "syncKey": "YCT07",
+  "released": "2010-08-31",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "CT07-EN001–CT07-EN017",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from CT07-EN001 to CT07-EN017."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Collectible Tins 2010 Wave 1 Checklist · All 15 Cards",
+    "description": "Free Yu-Gi-Oh! Collectible Tins 2010 Wave 1 checklist with no ads, no sign-up and no tracking. Track all 15 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Collectible Tins 2010 Wave 1 Checklist",
+    "ogDescription": "Track all 15 cards in Yu-Gi-Oh! Collectible Tins 2010 Wave 1. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 15 cards in Yu-Gi-Oh! Collectible Tins 2010 Wave 1. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Collectible Tins 2010 Wave 1",
+    "paragraphs": [
+      "Collectible Tins 2010 Wave 1 is a Yu-Gi-Oh! TCG tin released on 31 August 2010, in the 5D’s era. It has 15 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Collectible Tins 2010 Wave 1"
+    ],
+    "tcgplayer": [
+      133
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"CT07-EN001","name":"Majestic Red Dragon","ctype":"monster","keywords":"Archfiend Dragon DARK Synchro Monster","stats":{"a":"DARK","l":"Level 10","t":"Dragon / Synchro","atk":4000,"def":3000},"rarity":"ScR","img":"67030233","code":"1","tcg":38509,"grp":133,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"CT07-EN002","name":"Black-Winged Dragon","ctype":"monster","keywords":"Dragon DARK Synchro Monster","stats":{"a":"DARK","l":"Level 8","t":"Dragon / Synchro","atk":2800,"def":1600},"rarity":"ScR","img":"9012916","code":"2","tcg":38510,"grp":133,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"CT07-EN003","name":"Dragon Knight Draco-Equiste","ctype":"monster","keywords":"Dragon WIND Fusion Monster","stats":{"a":"WIND","l":"Level 10","t":"Dragon / Fusion","atk":3200,"def":2000},"rarity":"ScR","img":"14017402","code":"3","tcg":38511,"grp":133,"idx":2},
+    {"id":"006","section":"main","num":"006","printed":"CT07-EN006","name":"Elemental HERO Stratos","ctype":"monster","keywords":"Elemental HERO Warrior WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Warrior / Effect","atk":1800,"def":300},"rarity":"SR","img":"40044918","code":"6","tcg":38514,"grp":133,"idx":3},
+    {"id":"007","section":"main","num":"007","printed":"CT07-EN007","name":"Van'Dalgyon the Dark Dragon Lord","ctype":"monster","keywords":"Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Dragon / Effect","atk":2800,"def":2500},"rarity":"SR","img":"24857466","code":"7","tcg":38515,"grp":133,"idx":4},
+    {"id":"008","section":"main","num":"008","printed":"CT07-EN008","name":"Cyber Dinosaur","ctype":"monster","keywords":"Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 7","t":"Machine / Effect","atk":2500,"def":1900},"rarity":"SR","img":"39439590","code":"8","tcg":38516,"grp":133,"idx":5},
+    {"id":"009","section":"main","num":"009","printed":"CT07-EN009","name":"Battle Fader","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Fiend / Effect","atk":0,"def":0},"rarity":"SR","img":"19665973","code":"9","tcg":38517,"grp":133,"idx":6},
+    {"id":"010","section":"main","num":"010","printed":"CT07-EN010","name":"Green Baboon, Defender of the Forest","ctype":"monster","keywords":"Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 7","t":"Beast / Effect","atk":2600,"def":1800},"rarity":"SR","img":"46668237","code":"10","tcg":38518,"grp":133,"idx":7},
+    {"id":"011","section":"main","num":"011","printed":"CT07-EN011","name":"The Wicked Eraser","ctype":"monster","keywords":"Wicked God Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 10","t":"Fiend / Effect","atk":-1,"def":-1},"rarity":"SR","img":"57793869","code":"11","tcg":38519,"grp":133,"idx":8},
+    {"id":"012","section":"main","num":"012","printed":"CT07-EN012","name":"Blackwing - Vayu the Emblem of Honor","ctype":"monster","keywords":"Blackwing Winged Beast DARK Tuner Monster","stats":{"a":"DARK","l":"Level 1","t":"Winged Beast / Tuner","atk":800,"def":0},"rarity":"SR","img":"72714392","code":"12","tcg":38520,"grp":133,"idx":9},
+    {"id":"013","section":"main","num":"013","printed":"CT07-EN013","name":"Chimeratech Fortress Dragon","ctype":"monster","keywords":"Machine DARK Fusion Monster","stats":{"a":"DARK","l":"Level 8","t":"Machine / Fusion","atk":0,"def":0},"rarity":"SR","img":"79229522","code":"13","tcg":38521,"grp":133,"idx":10},
+    {"id":"014","section":"main","num":"014","printed":"CT07-EN014","name":"Archfiend of Gilfer","ctype":"monster","keywords":"Archfiend Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Fiend / Effect","atk":2200,"def":2500},"rarity":"SR","img":"50287060","code":"14","tcg":38522,"grp":133,"idx":11},
+    {"id":"015","section":"main","num":"015","printed":"CT07-EN015","name":"The Wicked Dreadroot","ctype":"monster","keywords":"Wicked God Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 10","t":"Fiend / Effect","atk":4000,"def":4000},"rarity":"SR","img":"62180201","code":"15","tcg":38523,"grp":133,"idx":12},
+    {"id":"016","section":"main","num":"016","printed":"CT07-EN016","name":"Dark Armed Dragon","ctype":"monster","keywords":"Armed Dragon Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Dragon / Effect","atk":2800,"def":1000},"rarity":"SR","img":"65192027","code":"16","tcg":38524,"grp":133,"idx":13},
+    {"id":"017","section":"main","num":"017","printed":"CT07-EN017","name":"Dragonic Knight","ctype":"monster","keywords":"Dragon FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 7","t":"Dragon / Effect","atk":2800,"def":2300},"rarity":"SR","img":"38109772","code":"17","tcg":38525,"grp":133,"idx":14}
+  ]
+}

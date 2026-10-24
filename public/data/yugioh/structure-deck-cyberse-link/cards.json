@@ -1,0 +1,103 @@
+{
+  "id": "yugioh/structure-deck-cyberse-link",
+  "game": "yugioh",
+  "slug": "structure-deck-cyberse-link",
+  "name": "Structure Deck: Cyberse Link",
+  "series": "VRAINS",
+  "kind": "deck",
+  "code": "SDCL",
+  "syncKey": "YSDCL",
+  "released": "2017-11-02",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "SDCL-EN001–SDCL-EN043",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from SDCL-EN001 to SDCL-EN043."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Structure Deck: Cyberse Link Checklist · All 43 Cards",
+    "description": "Free Yu-Gi-Oh! Structure Deck: Cyberse Link checklist with no ads, no sign-up and no tracking. Track all 43 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Structure Deck: Cyberse Link Checklist",
+    "ogDescription": "Track all 43 cards in Yu-Gi-Oh! Structure Deck: Cyberse Link. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 43 cards in Yu-Gi-Oh! Structure Deck: Cyberse Link. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Structure Deck: Cyberse Link",
+    "paragraphs": [
+      "Structure Deck: Cyberse Link is a Yu-Gi-Oh! TCG deck released on 2 November 2017, in the VRAINS era. It has 43 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Structure Deck: Cyberse Link"
+    ],
+    "tcgplayer": [
+      2072
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"SDCL-EN001","name":"Digitron","ctype":"monster","keywords":"Cyberse EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 2","t":"Cyberse / Normal","atk":1500,"def":0},"rarity":"C","img":"32295838","code":"1","tcg":149305,"grp":2072,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"SDCL-EN002","name":"Dotscaper","ctype":"monster","keywords":"Cyberse EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 1","t":"Cyberse / Effect","atk":0,"def":2100},"rarity":"C","img":"18789533","code":"2","tcg":149306,"grp":2072,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"SDCL-EN003","name":"Cliant","ctype":"monster","keywords":"Cyberse LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Cyberse / Effect","atk":1500,"def":1500},"rarity":"C","img":"45778242","code":"3","tcg":149307,"grp":2072,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"SDCL-EN004","name":"Backlinker","ctype":"monster","keywords":"Cyberse DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Cyberse / Effect","atk":1600,"def":0},"rarity":"C","img":"71172240","code":"4","tcg":149308,"grp":2072,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"SDCL-EN005","name":"Balancer Lord","ctype":"monster","keywords":"Cyberse LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Cyberse / Effect","atk":1700,"def":1200},"rarity":"C","img":"8567955","code":"5","tcg":149309,"grp":2072,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"SDCL-EN006","name":"ROM Cloudia","ctype":"monster","keywords":"Cyberse DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Cyberse / Effect","atk":1800,"def":0},"rarity":"C","img":"44956694","code":"6","tcg":149310,"grp":2072,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"SDCL-EN007","name":"Boot Staggered","ctype":"monster","keywords":"Cyberse LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 5","t":"Cyberse / Effect","atk":2300,"def":500},"rarity":"C","img":"70950698","code":"7","tcg":149311,"grp":2072,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"SDCL-EN008","name":"Dual Assembwurm","ctype":"monster","keywords":"Cyberse DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Cyberse / Effect","atk":2800,"def":1000},"rarity":"SR","img":"7445307","code":"8","tcg":149312,"grp":2072,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"SDCL-EN009","name":"Cyberse Wizard","ctype":"monster","keywords":"Cyberse LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Cyberse / Effect","atk":1800,"def":800},"rarity":"C","img":"36033786","code":"9","tcg":149313,"grp":2072,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"SDCL-EN010","name":"Backup Secretary","ctype":"monster","keywords":"Cyberse LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Cyberse / Effect","atk":1200,"def":800},"rarity":"C","img":"63528891","code":"10","tcg":149314,"grp":2072,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"SDCL-EN011","name":"Stack Reviver","ctype":"monster","keywords":"Cyberse DARK Effect Monster","stats":{"a":"DARK","l":"Level 2","t":"Cyberse / Effect","atk":100,"def":600},"rarity":"C","img":"9523599","code":"11","tcg":149315,"grp":2072,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"SDCL-EN012","name":"Launcher Commander","ctype":"monster","keywords":"Cyberse EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Cyberse / Effect","atk":1700,"def":1200},"rarity":"C","img":"35911108","code":"12","tcg":149316,"grp":2072,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"SDCL-EN013","name":"Tragoedia","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 10","t":"Fiend / Effect","atk":-1,"def":-1},"rarity":"C","img":"98777036","code":"13","tcg":149317,"grp":2072,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"SDCL-EN014","name":"Summoner Monk","ctype":"monster","keywords":"Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Effect","atk":800,"def":1600},"rarity":"C","img":"423585","code":"14","tcg":149318,"grp":2072,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"SDCL-EN015","name":"Card Trooper","ctype":"monster","keywords":"Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Machine / Effect","atk":400,"def":400},"rarity":"C","img":"85087012","code":"15","tcg":149319,"grp":2072,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"SDCL-EN016","name":"Debris Dragon","ctype":"monster","keywords":"Dragon WIND Tuner Monster","stats":{"a":"WIND","l":"Level 4","t":"Dragon / Tuner","atk":1000,"def":2000},"rarity":"C","img":"14943837","code":"16","tcg":149320,"grp":2072,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"SDCL-EN017","name":"Mathematician","ctype":"monster","keywords":"Spellcaster EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Spellcaster / Effect","atk":1500,"def":500},"rarity":"C","img":"41386308","code":"17","tcg":149321,"grp":2072,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"SDCL-EN018","name":"Crane Crane","ctype":"monster","keywords":"Winged Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Winged Beast / Effect","atk":300,"def":900},"rarity":"C","img":"28637168","code":"18","tcg":149323,"grp":2072,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"SDCL-EN019","name":"Magician of Faith","ctype":"monster","keywords":"Spellcaster LIGHT Flip Effect Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Spellcaster / Flip / Effect","atk":300,"def":400},"rarity":"C","img":"31560081","code":"19","tcg":149324,"grp":2072,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"SDCL-EN020","name":"Jester Confit","ctype":"monster","keywords":"Jester Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Spellcaster / Effect","atk":0,"def":0},"rarity":"C","img":"8487449","code":"20","tcg":149325,"grp":2072,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"SDCL-EN021","name":"Glow-Up Bulb","ctype":"monster","keywords":"Plant EARTH Tuner Monster","stats":{"a":"EARTH","l":"Level 1","t":"Plant / Tuner","atk":100,"def":100},"rarity":"C","img":"67441435","code":"21","tcg":149326,"grp":2072,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"SDCL-EN022","name":"Kinka-byo","ctype":"monster","keywords":"Beast DARK Spirit Monster","stats":{"a":"DARK","l":"Level 1","t":"Beast / Spirit","atk":400,"def":200},"rarity":"C","img":"45452224","code":"22","tcg":149327,"grp":2072,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"SDCL-EN023","name":"Cynet Backdoor","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"SR","img":"43839002","code":"23","tcg":149328,"grp":2072,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"SDCL-EN024","name":"Soul Charge","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"54447022","code":"24","tcg":149329,"grp":2072,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"SDCL-EN025","name":"Shuffle Reborn","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"14816688","code":"25","tcg":149330,"grp":2072,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"SDCL-EN026","name":"D.D.R. - Different Dimension Reincarnation","ctype":"spell","keywords":"D.D. Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"9622164","code":"26","tcg":149331,"grp":2072,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"SDCL-EN027","name":"Gold Sarcophagus","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"75500286","code":"27","tcg":149332,"grp":2072,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"SDCL-EN028","name":"Mind Control","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"37520316","code":"28","tcg":149333,"grp":2072,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"SDCL-EN029","name":"Cosmic Cyclone","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"8267140","code":"29","tcg":149334,"grp":2072,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"SDCL-EN030","name":"Moon Mirror Shield","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"19508728","code":"30","tcg":149335,"grp":2072,"idx":29},
+    {"id":"031","section":"main","num":"031","printed":"SDCL-EN031","name":"Where Arf Thou?","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"51405049","code":"31","tcg":149336,"grp":2072,"idx":30},
+    {"id":"032","section":"main","num":"032","printed":"SDCL-EN032","name":"Recoded Alive","ctype":"trap","keywords":"Code Talker Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"70238111","code":"32","tcg":149337,"grp":2072,"idx":31},
+    {"id":"033","section":"main","num":"033","printed":"SDCL-EN033","name":"Miracle's Wake","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"21636650","code":"33","tcg":149338,"grp":2072,"idx":32},
+    {"id":"034","section":"main","num":"034","printed":"SDCL-EN034","name":"Powerful Rebirth","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"84298614","code":"34","tcg":149339,"grp":2072,"idx":33},
+    {"id":"035","section":"main","num":"035","printed":"SDCL-EN035","name":"Premature Return","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"95083785","code":"35","tcg":149340,"grp":2072,"idx":34},
+    {"id":"036","section":"main","num":"036","printed":"SDCL-EN036","name":"Swamp Mirrorer","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"50277973","code":"36","tcg":149341,"grp":2072,"idx":35},
+    {"id":"037","section":"main","num":"037","printed":"SDCL-EN037","name":"Quantum Cat","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"87772572","code":"37","tcg":149342,"grp":2072,"idx":36},
+    {"id":"038","section":"main","num":"038","printed":"SDCL-EN038","name":"Storming Mirror Force","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"5650082","code":"38","tcg":149343,"grp":2072,"idx":37},
+    {"id":"039","section":"main","num":"039","printed":"SDCL-EN039","name":"Dimensional Barrier","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"83326048","code":"39","tcg":149344,"grp":2072,"idx":38},
+    {"id":"040","section":"main","num":"040","printed":"SDCL-EN040","name":"Ghosts From the Past","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"51099515","code":"40","tcg":149345,"grp":2072,"idx":39},
+    {"id":"041","section":"main","num":"041","printed":"SDCL-EN041","name":"Encode Talker","ctype":"monster","keywords":"Code Talker Cyberse LIGHT Link Monster","stats":{"a":"LIGHT","l":"Link 3","t":"Cyberse / Link","atk":2300},"rarity":"UR","img":"6622715","code":"41","tcg":149346,"grp":2072,"idx":40},
+    {"id":"042","section":"main","num":"042","printed":"SDCL-EN042","name":"Tri-Gate Wizard","ctype":"monster","keywords":"Cyberse EARTH Link Monster","stats":{"a":"EARTH","l":"Link 3","t":"Cyberse / Link","atk":2200},"rarity":"UR","img":"32617464","code":"42","tcg":149347,"grp":2072,"idx":41},
+    {"id":"043","section":"main","num":"043","printed":"SDCL-EN043","name":"Binary Sorceress","ctype":"monster","keywords":"Cyberse EARTH Link Monster","stats":{"a":"EARTH","l":"Link 2","t":"Cyberse / Link","atk":1600},"rarity":"SR","img":"79016563","code":"43","tcg":149348,"grp":2072,"idx":42}
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "id": "yugioh/astral-pack-seven",
+  "game": "yugioh",
+  "slug": "astral-pack-seven",
+  "name": "Astral Pack Seven",
+  "series": "ARC-V",
+  "kind": "pack",
+  "code": "AP07",
+  "syncKey": "YAP07",
+  "released": "2015-06-04",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "AP07-EN001–AP07-EN027",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from AP07-EN001 to AP07-EN027."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Astral Pack Seven Checklist · All 27 Cards",
+    "description": "Free Yu-Gi-Oh! Astral Pack Seven checklist with no ads, no sign-up and no tracking. Track all 27 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Astral Pack Seven Checklist",
+    "ogDescription": "Track all 27 cards in Yu-Gi-Oh! Astral Pack Seven. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 27 cards in Yu-Gi-Oh! Astral Pack Seven. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Astral Pack Seven",
+    "paragraphs": [
+      "Astral Pack Seven is a Yu-Gi-Oh! TCG pack released on 4 June 2015, in the ARC-V era. It has 27 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Astral Pack Seven"
+    ],
+    "tcgplayer": [
+      1572
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"AP07-EN001","name":"Gaia Dragon, the Thunder Charger","ctype":"monster","keywords":"Gaia The Fierce Knight Dragon WIND Xyz Monster","stats":{"a":"WIND","l":"Rank 7","t":"Dragon / Xyz","atk":2600,"def":2100},"rarity":"UtR","img":"91949988","code":"1","tcg":99915,"grp":1572,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"AP07-EN002","name":"Castel, the Skyblaster Musketeer","ctype":"monster","keywords":"Winged Beast WIND Xyz Monster","stats":{"a":"WIND","l":"Rank 4","t":"Winged Beast / Xyz","atk":2000,"def":1500},"rarity":"UtR","img":"82633039","code":"2","tcg":99916,"grp":1572,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"AP07-EN003","name":"Spell Shattering Arrow","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"UtR","img":"93260132","code":"3","tcg":99917,"grp":1572,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"AP07-EN004","name":"Satellarknight Altair","ctype":"monster","keywords":"Tellarknight Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Effect","atk":1700,"def":1300},"rarity":"SR","img":"2273734","code":"4","tcg":99918,"grp":1572,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"AP07-EN005","name":"Satellarknight Unukalhai","ctype":"monster","keywords":"Tellarknight Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Effect","atk":1800,"def":1000},"rarity":"SR","img":"1050186","code":"5","tcg":99919,"grp":1572,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"AP07-EN006","name":"Djinn Demolisher of Rituals","ctype":"monster","keywords":"Djinn Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Fiend / Effect","atk":1500,"def":600},"rarity":"SR","img":"33145233","code":"6","tcg":99920,"grp":1572,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"AP07-EN007","name":"Scarm, Malebranche of the Burning Abyss","ctype":"monster","keywords":"Burning Abyss Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Fiend / Effect","atk":800,"def":2000},"rarity":"SR","img":"84764038","code":"7","tcg":99921,"grp":1572,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"AP07-EN008","name":"Leo, the Keeper of the Sacred Tree","ctype":"monster","keywords":"Beast EARTH Synchro Monster","stats":{"a":"EARTH","l":"Level 10","t":"Beast / Synchro","atk":3100,"def":1900},"rarity":"SR","img":"8561192","code":"8","tcg":99922,"grp":1572,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"AP07-EN009","name":"Number 103: Ragnazero","ctype":"monster","keywords":"Fairy WATER Xyz Monster","stats":{"a":"WATER","l":"Rank 4","t":"Fairy / Xyz","atk":2400,"def":1200},"rarity":"SR","img":"94380860","code":"9","tcg":99923,"grp":1572,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"AP07-EN010","name":"Level Limit - Area B","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"SR","img":"3136426","code":"10","tcg":99924,"grp":1572,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"AP07-EN011","name":"Twister","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"SR","img":"45939841","code":"11","tcg":99925,"grp":1572,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"AP07-EN012","name":"Dragon Ravine","ctype":"spell","keywords":"Dragunity Field Spell","stats":{"t":"Field Spell"},"rarity":"SR","img":"62265044","code":"12","tcg":99926,"grp":1572,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"AP07-EN013","name":"Level Limit - Area A","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"SR","img":"54976796","code":"13","tcg":99927,"grp":1572,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"AP07-EN014","name":"Invader from Another Dimension","ctype":"monster","keywords":"Fiend DARK Normal Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Normal","atk":950,"def":1400},"rarity":"SP","img":"28450915","code":"14","tcg":99928,"grp":1572,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"AP07-EN015","name":"Lord of the Lamp","ctype":"monster","keywords":"Fiend DARK Normal Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Normal","atk":1400,"def":1200},"rarity":"SP","img":"99510761","code":"15","tcg":99929,"grp":1572,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"AP07-EN016","name":"Senju of the Thousand Hands","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fairy / Effect","atk":1400,"def":1000},"rarity":"C","img":"23401840","code":"16","tcg":99930,"grp":1572,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"AP07-EN017","name":"Volcanic Scattershot","ctype":"monster","keywords":"Volcanic Pyro FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 2","t":"Pyro / Effect","atk":500,"def":0},"rarity":"C","img":"69750546","code":"17","tcg":99931,"grp":1572,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"AP07-EN018","name":"Gladiator Beast Bestiari","ctype":"monster","keywords":"Gladiator Beast Winged Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Winged Beast / Effect","atk":1500,"def":800},"rarity":"C","img":"41470137","code":"18","tcg":99932,"grp":1572,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"AP07-EN019","name":"Madolche Puddingcess","ctype":"monster","keywords":"Madolche Fairy EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 5","t":"Fairy / Effect","atk":1000,"def":1000},"rarity":"C","img":"74641045","code":"19","tcg":99933,"grp":1572,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"AP07-EN020","name":"Brotherhood of the Fire Fist - Spirit","ctype":"monster","keywords":"Fire Fist Beast-Warrior FIRE Tuner Monster","stats":{"a":"FIRE","l":"Level 3","t":"Beast-Warrior / Tuner","atk":500,"def":200},"rarity":"C","img":"1662004","code":"20","tcg":99934,"grp":1572,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"AP07-EN021","name":"Soul Hunter","ctype":"monster","keywords":"Fiend DARK Fusion Monster","stats":{"a":"DARK","l":"Level 6","t":"Fiend / Fusion","atk":2200,"def":1800},"rarity":"SP","img":"72869010","code":"21","tcg":99935,"grp":1572,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"AP07-EN022","name":"Dawn of the Herald","ctype":"spell","keywords":"Herald Ritual Spell","stats":{"t":"Ritual Spell"},"rarity":"C","img":"27383110","code":"22","tcg":99936,"grp":1572,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"AP07-EN023","name":"Storm","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"13210191","code":"23","tcg":99937,"grp":1572,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"AP07-EN024","name":"Spiritual Wind Art - Miyabi","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"79333300","code":"24","tcg":99938,"grp":1572,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"AP07-EN025","name":"Light-Imprisoning Mirror","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"53341729","code":"25","tcg":99939,"grp":1572,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"AP07-EN026","name":"Shadow-Imprisoning Mirror","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"99735427","code":"26","tcg":99940,"grp":1572,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"AP07-EN027","name":"Fairy Wind","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"73507661","code":"27","tcg":99941,"grp":1572,"idx":26}
+  ]
+}

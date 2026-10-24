@@ -1,0 +1,106 @@
+{
+  "id": "yugioh/structure-deck-freezing-chains",
+  "game": "yugioh",
+  "slug": "structure-deck-freezing-chains",
+  "name": "Structure Deck: Freezing Chains",
+  "series": "SEVENS & GO RUSH!!",
+  "kind": "deck",
+  "code": "SDFC",
+  "syncKey": "YSDFC",
+  "released": "2021-02-18",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "SDFC-EN001–SDFC-EN046",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from SDFC-EN001 to SDFC-EN046."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Structure Deck: Freezing Chains Checklist · All 46 Cards",
+    "description": "Free Yu-Gi-Oh! Structure Deck: Freezing Chains checklist with no ads, no sign-up and no tracking. Track all 46 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Structure Deck: Freezing Chains Checklist",
+    "ogDescription": "Track all 46 cards in Yu-Gi-Oh! Structure Deck: Freezing Chains. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 46 cards in Yu-Gi-Oh! Structure Deck: Freezing Chains. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Structure Deck: Freezing Chains",
+    "paragraphs": [
+      "Structure Deck: Freezing Chains is a Yu-Gi-Oh! TCG deck released on 18 February 2021, in the SEVENS &amp; GO RUSH!! era. It has 46 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Structure Deck: Freezing Chains"
+    ],
+    "tcgplayer": [
+      2751
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"SDFC-EN001","name":"General Wayne of the Ice Barrier","ctype":"monster","keywords":"Ice Barrier Warrior WATER Effect Monster","stats":{"a":"WATER","l":"Level 5","t":"Warrior / Effect","atk":2100,"def":400},"rarity":"C","img":"81825063","code":"1","tcg":232184,"grp":2751,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"SDFC-EN002","name":"Revealer of the Ice Barrier","ctype":"monster","keywords":"Ice Barrier Spellcaster WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Spellcaster / Effect","atk":1700,"def":1000},"rarity":"UR","img":"18319762","code":"2","tcg":232185,"grp":2751,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"SDFC-EN003","name":"Speaker for the Ice Barriers","ctype":"monster","keywords":"Ice Barrier Spellcaster WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Spellcaster / Effect","atk":1000,"def":1800},"rarity":"UR","img":"44308317","code":"3","tcg":232188,"grp":2751,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"SDFC-EN004","name":"Hexa Spirit of the Ice Barrier","ctype":"monster","keywords":"Ice Barrier Sea Serpent WATER Tuner Monster","stats":{"a":"WATER","l":"Level 1","t":"Sea Serpent / Tuner","atk":400,"def":200},"rarity":"C","img":"70703416","code":"4","tcg":232187,"grp":2751,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"SDFC-EN005","name":"Zuijin of the Ice Barrier","ctype":"monster","keywords":"Ice Barrier Warrior WATER Effect Monster","stats":{"a":"WATER","l":"Level 2","t":"Warrior / Effect","atk":500,"def":300},"rarity":"UR","img":"43256007","code":"5","tcg":232186,"grp":2751,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"SDFC-EN006","name":"Blizzed, Defender of the Ice Barrier","ctype":"monster","keywords":"Ice Barrier Aqua WATER Effect Monster","stats":{"a":"WATER","l":"Level 1","t":"Aqua / Effect","atk":300,"def":500},"rarity":"C","img":"60161788","code":"6","tcg":232189,"grp":2751,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"SDFC-EN007","name":"Cryomancer of the Ice Barrier","ctype":"monster","keywords":"Ice Barrier Aqua WATER Tuner Monster","stats":{"a":"WATER","l":"Level 2","t":"Aqua / Tuner","atk":1300,"def":0},"rarity":"C","img":"23950192","code":"7","tcg":232190,"grp":2751,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"SDFC-EN008","name":"Prior of the Ice Barrier","ctype":"monster","keywords":"Ice Barrier Aqua WATER Effect Monster","stats":{"a":"WATER","l":"Level 2","t":"Aqua / Effect","atk":1000,"def":400},"rarity":"C","img":"50088247","code":"8","tcg":232191,"grp":2751,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"SDFC-EN009","name":"Defender of the Ice Barrier","ctype":"monster","keywords":"Ice Barrier Aqua WATER Tuner Monster","stats":{"a":"WATER","l":"Level 3","t":"Aqua / Tuner","atk":200,"def":1600},"rarity":"C","img":"82498947","code":"9","tcg":232192,"grp":2751,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"SDFC-EN010","name":"Warlock of the Ice Barrier","ctype":"monster","keywords":"Ice Barrier Spellcaster WATER Effect Monster","stats":{"a":"WATER","l":"Level 3","t":"Spellcaster / Effect","atk":400,"def":1000},"rarity":"C","img":"18482591","code":"10","tcg":232193,"grp":2751,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"SDFC-EN011","name":"Spellbreaker of the Ice Barrier","ctype":"monster","keywords":"Ice Barrier Spellcaster WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Spellcaster / Effect","atk":1200,"def":2000},"rarity":"C","img":"73061465","code":"11","tcg":232194,"grp":2751,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"SDFC-EN012","name":"Strategist of the Ice Barrier","ctype":"monster","keywords":"Ice Barrier Spellcaster WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Spellcaster / Effect","atk":1600,"def":1600},"rarity":"C","img":"50032342","code":"12","tcg":232195,"grp":2751,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"SDFC-EN013","name":"Dance Princess of the Ice Barrier","ctype":"monster","keywords":"Ice Barrier Spellcaster WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Spellcaster / Effect","atk":1700,"def":900},"rarity":"C","img":"59546528","code":"13","tcg":232196,"grp":2751,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"SDFC-EN014","name":"Dai-sojo of the Ice Barrier","ctype":"monster","keywords":"Ice Barrier Spellcaster WATER Effect Monster","stats":{"a":"WATER","l":"Level 6","t":"Spellcaster / Effect","atk":1600,"def":2200},"rarity":"C","img":"41090784","code":"14","tcg":232197,"grp":2751,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"SDFC-EN015","name":"General Raiho of the Ice Barrier","ctype":"monster","keywords":"Ice Barrier Warrior WATER Effect Monster","stats":{"a":"WATER","l":"Level 6","t":"Warrior / Effect","atk":2100,"def":2300},"rarity":"C","img":"81275309","code":"15","tcg":232198,"grp":2751,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"SDFC-EN016","name":"Medium of the Ice Barrier","ctype":"monster","keywords":"Ice Barrier Spellcaster WATER Effect Monster","stats":{"a":"WATER","l":"Level 7","t":"Spellcaster / Effect","atk":2200,"def":1600},"rarity":"C","img":"88494899","code":"16","tcg":232199,"grp":2751,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"SDFC-EN017","name":"General Gantala of the Ice Barrier","ctype":"monster","keywords":"Ice Barrier Warrior WATER Effect Monster","stats":{"a":"WATER","l":"Level 7","t":"Warrior / Effect","atk":2700,"def":2000},"rarity":"C","img":"53921056","code":"17","tcg":232200,"grp":2751,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"SDFC-EN018","name":"General Grunard of the Ice Barrier","ctype":"monster","keywords":"Ice Barrier Warrior WATER Effect Monster","stats":{"a":"WATER","l":"Level 8","t":"Warrior / Effect","atk":2800,"def":1000},"rarity":"C","img":"9056100","code":"18","tcg":232201,"grp":2751,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"SDFC-EN019","name":"Genex Controller","ctype":"monster","keywords":"Genex Machine DARK Normal Tuner Monster","stats":{"a":"DARK","l":"Level 3","t":"Machine / Normal / Tuner","atk":1400,"def":1200},"rarity":"C","img":"68505803","code":"19","tcg":232202,"grp":2751,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"SDFC-EN020","name":"Genex Undine","ctype":"monster","keywords":"Genex Aqua WATER Effect Monster","stats":{"a":"WATER","l":"Level 3","t":"Aqua / Effect","atk":1200,"def":600},"rarity":"C","img":"4904812","code":"20","tcg":232203,"grp":2751,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"SDFC-EN021","name":"Aqua Spirit","ctype":"monster","keywords":"Aqua WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Aqua / Effect","atk":1600,"def":1200},"rarity":"C","img":"40916023","code":"21","tcg":232204,"grp":2751,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"SDFC-EN022","name":"Dupe Frog","ctype":"monster","keywords":"Frog Aqua WATER Effect Monster","stats":{"a":"WATER","l":"Level 2","t":"Aqua / Effect","atk":100,"def":2000},"rarity":"C","img":"46239604","code":"22","tcg":232205,"grp":2751,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"SDFC-EN023","name":"Ronintoadin","ctype":"monster","keywords":"Frog Aqua WATER Effect Monster","stats":{"a":"WATER","l":"Level 2","t":"Aqua / Effect","atk":100,"def":2000},"rarity":"C","img":"1357146","code":"23","tcg":232206,"grp":2751,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"SDFC-EN024","name":"Fishborg Launcher","ctype":"monster","keywords":"Fishborg Fish WATER Tuner Monster","stats":{"a":"WATER","l":"Level 1","t":"Fish / Tuner","atk":200,"def":100},"rarity":"C","img":"66853752","code":"24","tcg":232207,"grp":2751,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"SDFC-EN025","name":"Moulinglacia the Elemental Lord","ctype":"monster","keywords":"Elemental Lord Sea Serpent WATER Effect Monster","stats":{"a":"WATER","l":"Level 8","t":"Sea Serpent / Effect","atk":2800,"def":2200},"rarity":"C","img":"13959634","code":"25","tcg":232208,"grp":2751,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"SDFC-EN026","name":"Silent Angler","ctype":"monster","keywords":"Fish WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Fish / Effect","atk":800,"def":1400},"rarity":"C","img":"90303176","code":"26","tcg":232209,"grp":2751,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"SDFC-EN027","name":"Winds Over the Ice Barrier","ctype":"spell","keywords":"Ice Barrier Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UR","img":"17197110","code":"27","tcg":232210,"grp":2751,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"SDFC-EN028","name":"Freezing Chains of the Ice Barrier","ctype":"spell","keywords":"Ice Barrier Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"43582229","code":"28","tcg":232211,"grp":2751,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"SDFC-EN029","name":"Magic Triangle of the Ice Barrier","ctype":"spell","keywords":"Ice Barrier Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"64990807","code":"29","tcg":232212,"grp":2751,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"SDFC-EN030","name":"Medallion of the Ice Barrier","ctype":"spell","keywords":"Ice Barrier Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"84206435","code":"30","tcg":232213,"grp":2751,"idx":29},
+    {"id":"031","section":"main","num":"031","printed":"SDFC-EN031","name":"Mirror of the Ice Barrier","ctype":"spell","keywords":"Ice Barrier Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"10691144","code":"31","tcg":232214,"grp":2751,"idx":30},
+    {"id":"032","section":"main","num":"032","printed":"SDFC-EN032","name":"Salvage","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"96947648","code":"32","tcg":232215,"grp":2751,"idx":31},
+    {"id":"033","section":"main","num":"033","printed":"SDFC-EN033","name":"Surface","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"33057951","code":"33","tcg":232229,"grp":2751,"idx":32},
+    {"id":"034","section":"main","num":"034","printed":"SDFC-EN034","name":"Where Arf Thou?","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"51405049","code":"34","tcg":232216,"grp":2751,"idx":33},
+    {"id":"035","section":"main","num":"035","printed":"SDFC-EN035","name":"Appointer of the Red Lotus","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"43262273","code":"35","tcg":232217,"grp":2751,"idx":34},
+    {"id":"036","section":"main","num":"036","printed":"SDFC-EN036","name":"Fiendish Chain","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"50078509","code":"36","tcg":232218,"grp":2751,"idx":35},
+    {"id":"037","section":"main","num":"037","printed":"SDFC-EN037","name":"Eisbahn","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"54059040","code":"37","tcg":232219,"grp":2751,"idx":36},
+    {"id":"038","section":"main","num":"038","printed":"SDFC-EN038","name":"Mind Drain","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"68937720","code":"38","tcg":232220,"grp":2751,"idx":37},
+    {"id":"039","section":"main","num":"039","printed":"SDFC-EN039","name":"Heavy Storm Duster","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"23924608","code":"39","tcg":232221,"grp":2751,"idx":38},
+    {"id":"040","section":"main","num":"040","printed":"SDFC-EN040","name":"Crackdown","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"36975314","code":"40","tcg":232222,"grp":2751,"idx":39},
+    {"id":"041","section":"main","num":"041","printed":"SDFC-EN041","name":"Trishula, Zero Dragon of the Ice Barrier","ctype":"monster","keywords":"Ice Barrier Dragon WATER Synchro Monster","stats":{"a":"WATER","l":"Level 11","t":"Dragon / Synchro","atk":2700,"def":2000},"rarity":"UR","img":"70980824","code":"41","tcg":232223,"grp":2751,"idx":40},
+    {"id":"042","section":"main","num":"042","printed":"SDFC-EN042","name":"Dewloren, Tiger King of the Ice Barrier","ctype":"monster","keywords":"Ice Barrier Beast WATER Synchro Monster","stats":{"a":"WATER","l":"Level 6","t":"Beast / Synchro","atk":2000,"def":1400},"rarity":"UR","img":"70583986","code":"42","tcg":232224,"grp":2751,"idx":41},
+    {"id":"043","section":"main","num":"043","printed":"SDFC-EN043","name":"Brionac, Dragon of the Ice Barrier","ctype":"monster","keywords":"Ice Barrier Sea Serpent WATER Synchro Monster","stats":{"a":"WATER","l":"Level 6","t":"Sea Serpent / Synchro","atk":2300,"def":1400},"rarity":"SR","img":"50321796","code":"43","tcg":232225,"grp":2751,"idx":42},
+    {"id":"044","section":"main","num":"044","printed":"SDFC-EN044","name":"Gungnir, Dragon of the Ice Barrier","ctype":"monster","keywords":"Ice Barrier Dragon WATER Synchro Monster","stats":{"a":"WATER","l":"Level 7","t":"Dragon / Synchro","atk":2500,"def":1700},"rarity":"SR","img":"65749035","code":"44","tcg":232226,"grp":2751,"idx":43},
+    {"id":"045","section":"main","num":"045","printed":"SDFC-EN045","name":"Trishula, Dragon of the Ice Barrier","ctype":"monster","keywords":"Ice Barrier Dragon WATER Synchro Monster","stats":{"a":"WATER","l":"Level 9","t":"Dragon / Synchro","atk":2700,"def":2000},"rarity":"SR","img":"52687916","code":"45","tcg":232227,"grp":2751,"idx":44},
+    {"id":"046","section":"main","num":"046","printed":"SDFC-EN046","name":"Terror of Trishula","ctype":"trap","keywords":"Ice Barrier Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"6075533","code":"46","tcg":232228,"grp":2751,"idx":45}
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "id": "yugioh/duelist-pack-kaiba",
+  "game": "yugioh",
+  "slug": "duelist-pack-kaiba",
+  "name": "Duelist Pack: Kaiba",
+  "series": "5D’s",
+  "kind": "pack",
+  "code": "DPKB",
+  "syncKey": "YDPKB",
+  "released": "2010-04-16",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "DPKB-EN001–DPKB-EN040",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from DPKB-EN001 to DPKB-EN040."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Duelist Pack: Kaiba Checklist · All 40 Cards",
+    "description": "Free Yu-Gi-Oh! Duelist Pack: Kaiba checklist with no ads, no sign-up and no tracking. Track all 40 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Duelist Pack: Kaiba Checklist",
+    "ogDescription": "Track all 40 cards in Yu-Gi-Oh! Duelist Pack: Kaiba. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 40 cards in Yu-Gi-Oh! Duelist Pack: Kaiba. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Duelist Pack: Kaiba",
+    "paragraphs": [
+      "Duelist Pack: Kaiba is a Yu-Gi-Oh! TCG pack released on 16 April 2010, in the 5D’s era. It has 40 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Duelist Pack: Kaiba"
+    ],
+    "tcgplayer": [
+      197
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"DPKB-EN001","name":"Blue-Eyes White Dragon","ctype":"monster","keywords":"Blue-Eyes Dragon LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Normal","atk":3000,"def":2500},"rarity":"SR","img":"89631139","code":"1","tcg":35048,"grp":197,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"DPKB-EN002","name":"Hitotsu-Me Giant","ctype":"monster","keywords":"Beast-Warrior EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 4","t":"Beast-Warrior / Normal","atk":1200,"def":1000},"rarity":"C","img":"76184692","code":"2","tcg":35049,"grp":197,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"DPKB-EN003","name":"Judge Man","ctype":"monster","keywords":"Warrior EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 6","t":"Warrior / Normal","atk":2200,"def":1500},"rarity":"C","img":"30113682","code":"3","tcg":35050,"grp":197,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"DPKB-EN004","name":"Swordstalker","ctype":"monster","keywords":"Warrior DARK Normal Monster","stats":{"a":"DARK","l":"Level 6","t":"Warrior / Normal","atk":2000,"def":1600},"rarity":"C","img":"50005633","code":"4","tcg":35051,"grp":197,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"DPKB-EN005","name":"La Jinn the Mystical Genie of the Lamp","ctype":"monster","keywords":"Fiend DARK Normal Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Normal","atk":1800,"def":1000},"rarity":"C","img":"97590748","code":"5","tcg":35052,"grp":197,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"DPKB-EN006","name":"Saggi the Dark Clown","ctype":"monster","keywords":"Spellcaster DARK Normal Monster","stats":{"a":"DARK","l":"Level 3","t":"Spellcaster / Normal","atk":600,"def":1500},"rarity":"C","img":"66602787","code":"6","tcg":35053,"grp":197,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"DPKB-EN007","name":"X-Head Cannon","ctype":"monster","keywords":"ABC Machine LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Machine / Normal","atk":1800,"def":1500},"rarity":"C","img":"62651957","code":"7","tcg":35054,"grp":197,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"DPKB-EN008","name":"Vorse Raider","ctype":"monster","keywords":"Beast-Warrior DARK Normal Monster","stats":{"a":"DARK","l":"Level 4","t":"Beast-Warrior / Normal","atk":1900,"def":1200},"rarity":"R","img":"14898067","code":"8","tcg":35055,"grp":197,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"DPKB-EN009","name":"Lord of D.","ctype":"monster","keywords":"Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Effect","atk":1200,"def":1100},"rarity":"C","img":"17985575","code":"9","tcg":35056,"grp":197,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"DPKB-EN010","name":"Cyber Jar","ctype":"monster","keywords":"Rock DARK Flip Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Rock / Flip / Effect","atk":900,"def":900},"rarity":"UtR","img":"34124316","code":"10","tcg":35057,"grp":197,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"DPKB-EN011","name":"Y-Dragon Head","ctype":"monster","keywords":"ABC Machine LIGHT Union Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Machine / Union / Effect","atk":1500,"def":1600},"rarity":"C","img":"65622692","code":"11","tcg":35058,"grp":197,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"DPKB-EN012","name":"Z-Metal Tank","ctype":"monster","keywords":"ABC Machine LIGHT Union Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Machine / Union / Effect","atk":1500,"def":1300},"rarity":"C","img":"64500000","code":"12","tcg":35059,"grp":197,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"DPKB-EN013","name":"Vampire Lord","ctype":"monster","keywords":"Vampire Zombie DARK Effect Monster","stats":{"a":"DARK","l":"Level 5","t":"Zombie / Effect","atk":2000,"def":1500},"rarity":"R","img":"53839837","code":"13","tcg":35060,"grp":197,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"DPKB-EN014","name":"Different Dimension Dragon","ctype":"monster","keywords":"Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 5","t":"Dragon / Effect","atk":1200,"def":1500},"rarity":"R","img":"50939127","code":"14","tcg":35061,"grp":197,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"DPKB-EN015","name":"Kaiser Glider","ctype":"monster","keywords":"Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Dragon / Effect","atk":2400,"def":2200},"rarity":"R","img":"52824910","code":"15","tcg":35062,"grp":197,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"DPKB-EN016","name":"Chaos Emperor Dragon - Envoy of the End","ctype":"monster","keywords":"Chaos Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Dragon / Effect","atk":3000,"def":2500},"rarity":"UtR","img":"82301904","code":"16","tcg":35063,"grp":197,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"DPKB-EN017","name":"Kaiser Sea Horse","ctype":"monster","keywords":"Sea Serpent LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Sea Serpent / Effect","atk":1700,"def":1650},"rarity":"R","img":"17444133","code":"17","tcg":35064,"grp":197,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"DPKB-EN018","name":"Enraged Battle Ox","ctype":"monster","keywords":"Beast-Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Beast-Warrior / Effect","atk":1700,"def":1000},"rarity":"C","img":"76909279","code":"18","tcg":35065,"grp":197,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"DPKB-EN019","name":"Peten the Dark Clown","ctype":"monster","keywords":"Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Spellcaster / Effect","atk":500,"def":1200},"rarity":"R","img":"52624755","code":"19","tcg":35066,"grp":197,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"DPKB-EN020","name":"Familiar Knight","ctype":"monster","keywords":"Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Warrior / Effect","atk":1200,"def":1400},"rarity":"C","img":"89731911","code":"20","tcg":35067,"grp":197,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"DPKB-EN021","name":"Ancient Lamp","ctype":"monster","keywords":"Spellcaster WIND Effect Monster","stats":{"a":"WIND","l":"Level 3","t":"Spellcaster / Effect","atk":900,"def":1400},"rarity":"C","img":"54912977","code":"21","tcg":35068,"grp":197,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"DPKB-EN022","name":"The White Stone of Legend","ctype":"monster","keywords":"Blue-Eyes Dragon LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Dragon / Tuner","atk":300,"def":250},"rarity":"SR","img":"79814787","code":"22","tcg":35069,"grp":197,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"DPKB-EN023","name":"Malefic Blue-Eyes White Dragon","ctype":"monster","keywords":"Blue-Eyes Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Dragon / Effect","atk":3000,"def":2500},"rarity":"UR","img":"9433350","code":"23","tcg":35070,"grp":197,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"DPKB-EN024","name":"Paladin of White Dragon","ctype":"monster","keywords":"Blue-Eyes Dragon LIGHT Ritual Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Dragon / Ritual / Effect","atk":1900,"def":1200},"rarity":"R","img":"73398797","code":"24","tcg":35071,"grp":197,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"DPKB-EN025","name":"XYZ-Dragon Cannon","ctype":"monster","keywords":"ABC Machine LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Machine / Fusion","atk":2800,"def":2600},"rarity":"SR","img":"91998121","code":"25","tcg":35072,"grp":197,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"DPKB-EN026","name":"Blue-Eyes Ultimate Dragon","ctype":"monster","keywords":"Blue-Eyes Dragon LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 12","t":"Dragon / Fusion","atk":4500,"def":3800},"rarity":"UR","img":"23995346","code":"26","tcg":35073,"grp":197,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"DPKB-EN027","name":"Dragon Master Knight","ctype":"monster","keywords":"Blue-Eyes Dragon LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 12","t":"Dragon / Fusion","atk":5000,"def":5000},"rarity":"UR","img":"62873545","code":"27","tcg":35074,"grp":197,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"DPKB-EN028","name":"Polymerization","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"24094653","code":"28","tcg":35075,"grp":197,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"DPKB-EN029","name":"Pot of Greed","ctype":"spell","keywords":"Greed Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UtR","img":"55144522","code":"29","tcg":35076,"grp":197,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"DPKB-EN030","name":"The Flute of Summoning Dragon","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"43973174","code":"30","tcg":35077,"grp":197,"idx":29},
+    {"id":"031","section":"main","num":"031","printed":"DPKB-EN031","name":"Magic Reflector","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"61844784","code":"31","tcg":35078,"grp":197,"idx":30},
+    {"id":"032","section":"main","num":"032","printed":"DPKB-EN032","name":"White Dragon Ritual","ctype":"spell","keywords":"Ritual Spell","stats":{"t":"Ritual Spell"},"rarity":"C","img":"9786492","code":"32","tcg":35079,"grp":197,"idx":31},
+    {"id":"033","section":"main","num":"033","printed":"DPKB-EN033","name":"Cost Down","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"R","img":"23265313","code":"33","tcg":35080,"grp":197,"idx":32},
+    {"id":"034","section":"main","num":"034","printed":"DPKB-EN034","name":"Ring of Defense","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"58641905","code":"34","tcg":35081,"grp":197,"idx":33},
+    {"id":"035","section":"main","num":"035","printed":"DPKB-EN035","name":"Fiend's Sanctuary","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"24874630","code":"35","tcg":35082,"grp":197,"idx":34},
+    {"id":"036","section":"main","num":"036","printed":"DPKB-EN036","name":"Ring of Destruction","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"UtR","img":"83555667","code":"36","tcg":35083,"grp":197,"idx":35},
+    {"id":"037","section":"main","num":"037","printed":"DPKB-EN037","name":"Interdimensional Matter Transporter","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"36261276","code":"37","tcg":35084,"grp":197,"idx":36},
+    {"id":"038","section":"main","num":"038","printed":"DPKB-EN038","name":"Return from the Different Dimension","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"27174286","code":"38","tcg":35085,"grp":197,"idx":37},
+    {"id":"039","section":"main","num":"039","printed":"DPKB-EN039","name":"Crush Card Virus","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"UtR","img":"57728570","code":"39","tcg":35086,"grp":197,"idx":38},
+    {"id":"040","section":"main","num":"040","printed":"DPKB-EN040","name":"Cloning","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"86871614","code":"40","tcg":35087,"grp":197,"idx":39}
+  ]
+}

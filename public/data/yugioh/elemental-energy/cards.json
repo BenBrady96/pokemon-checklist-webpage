@@ -1,0 +1,157 @@
+{
+  "id": "yugioh/elemental-energy",
+  "game": "yugioh",
+  "slug": "elemental-energy",
+  "name": "Elemental Energy",
+  "series": "GX",
+  "kind": "expansion",
+  "code": "EEN",
+  "syncKey": "YEEN",
+  "released": "2005-11-16",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Main Set",
+      "range": "EEN-EN001–EEN-EN060",
+      "tier": "standard"
+    },
+    {
+      "id": "rarities",
+      "name": "Other Rarities",
+      "short": "Other Rarities",
+      "range": "25 cards",
+      "tier": "master"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Main set"
+    ],
+    [
+      "rarities",
+      "Other rarities"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, SCR12, 60x2",
+    "example": "1-20, 45x2, SCR12",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies. Other rarities use their short name and number: <b>SCR12</b> is card 12’s Secret Rare, and ranges work too (<b>QCSR1-QCSR20</b>).",
+    "empty": "Cards run from EEN-EN001 to EEN-EN060."
+  },
+  "help": {
+    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 60 cards, each in its main rarity. Master adds the 25 other rarities. Cards you’ve marked are kept when you switch."
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Elemental Energy Checklist · All 60 Cards",
+    "description": "Free Yu-Gi-Oh! Elemental Energy checklist with no ads, no sign-up and no tracking. Track all 60 cards, or every rarity for a master set, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Elemental Energy Checklist",
+    "ogDescription": "Track all 60 cards in Yu-Gi-Oh! Elemental Energy, plus 25 other rarities. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 60 cards in Yu-Gi-Oh! Elemental Energy. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About the Elemental Energy set",
+    "paragraphs": [
+      "Elemental Energy is a Yu-Gi-Oh! TCG booster set released on 16 November 2005, in the GX era. It has 60 cards, and with the 25 other rarities there are 85 to collect in all.",
+      "Choose what you’re collecting: the <b>Standard set</b> (the 60 cards, each in its main rarity) or the <b>Master set</b> (all 85, adding the 25 other rarities).",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Elemental Energy"
+    ],
+    "tcgplayer": [
+      200
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"EEN-EN001","name":"Zure, Knight of Dark World","ctype":"monster","keywords":"Dark World Fiend DARK Normal Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Normal","atk":1800,"def":1500},"rarity":"C","img":"7459013","code":"1","tcg":24556,"grp":200,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"EEN-EN002","name":"V-Tiger Jet","ctype":"monster","keywords":"ABC Machine LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Machine / Normal","atk":1600,"def":1800},"rarity":"C","img":"51638941","code":"2","tcg":24557,"grp":200,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"EEN-EN003","name":"Blade Skater","ctype":"monster","keywords":"Warrior EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Normal","atk":1400,"def":1500},"rarity":"C","img":"97023549","code":"3","tcg":24558,"grp":200,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"EEN-EN004","name":"Queen's Knight","ctype":"monster","keywords":"Knight Warrior LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Normal","atk":1500,"def":1600},"rarity":"R","img":"25652259","code":"4","tcg":24559,"grp":200,"idx":3},
+    {"id":"004-utr","section":"rarities","num":"004","printed":"EEN-EN004","name":"Queen's Knight","ctype":"monster","keywords":"Knight Warrior LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Normal","atk":1500,"def":1600},"rarity":"UtR","img":"25652259","badge":"UtR","variant":"Ultimate Rare","code":"UTR4","tcg":58704,"grp":200,"idx":4},
+    {"id":"005","section":"main","num":"005","printed":"EEN-EN005","name":"Jack's Knight","ctype":"monster","keywords":"Knight Warrior LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 5","t":"Warrior / Normal","atk":1900,"def":1000},"rarity":"R","img":"90876561","code":"5","tcg":24560,"grp":200,"idx":5},
+    {"id":"005-utr","section":"rarities","num":"005","printed":"EEN-EN005","name":"Jack's Knight","ctype":"monster","keywords":"Knight Warrior LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 5","t":"Warrior / Normal","atk":1900,"def":1000},"rarity":"UtR","img":"90876561","badge":"UtR","variant":"Ultimate Rare","code":"UTR5","tcg":58705,"grp":200,"idx":6},
+    {"id":"006","section":"main","num":"006","printed":"EEN-EN006","name":"King's Knight","ctype":"monster","keywords":"Knight Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Effect","atk":1600,"def":1400},"rarity":"R","img":"64788463","code":"6","tcg":24561,"grp":200,"idx":7},
+    {"id":"006-utr","section":"rarities","num":"006","printed":"EEN-EN006","name":"King's Knight","ctype":"monster","keywords":"Knight Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Effect","atk":1600,"def":1400},"rarity":"UtR","img":"64788463","badge":"UtR","variant":"Ultimate Rare","code":"UTR6","tcg":58706,"grp":200,"idx":8},
+    {"id":"007","section":"main","num":"007","printed":"EEN-EN007","name":"Elemental HERO Bladedge","ctype":"monster","keywords":"Elemental HERO Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 7","t":"Warrior / Effect","atk":2600,"def":1800},"rarity":"SR","img":"59793705","code":"7","tcg":24562,"grp":200,"idx":9},
+    {"id":"007-utr","section":"rarities","num":"007","printed":"EEN-EN007","name":"Elemental HERO Bladedge","ctype":"monster","keywords":"Elemental HERO Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 7","t":"Warrior / Effect","atk":2600,"def":1800},"rarity":"UtR","img":"59793705","badge":"UtR","variant":"Ultimate Rare","code":"UTR7","tcg":58707,"grp":200,"idx":10},
+    {"id":"008","section":"main","num":"008","printed":"EEN-EN008","name":"Elemental HERO Wildheart","ctype":"monster","keywords":"Elemental HERO Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Effect","atk":1500,"def":1600},"rarity":"C","img":"86188410","code":"8","tcg":24563,"grp":200,"idx":11},
+    {"id":"009","section":"main","num":"009","printed":"EEN-EN009","name":"Reborn Zombie","ctype":"monster","keywords":"Zombie DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Zombie / Effect","atk":1000,"def":1600},"rarity":"C","img":"23421244","code":"9","tcg":24564,"grp":200,"idx":12},
+    {"id":"010","section":"main","num":"010","printed":"EEN-EN010","name":"Chthonian Soldier","ctype":"monster","keywords":"Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Warrior / Effect","atk":1200,"def":1400},"rarity":"R","img":"50916353","code":"10","tcg":24565,"grp":200,"idx":13},
+    {"id":"010-utr","section":"rarities","num":"010","printed":"EEN-EN010","name":"Chthonian Soldier","ctype":"monster","keywords":"Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Warrior / Effect","atk":1200,"def":1400},"rarity":"UtR","img":"50916353","badge":"UtR","variant":"Ultimate Rare","code":"UTR10","tcg":58708,"grp":200,"idx":14},
+    {"id":"011","section":"main","num":"011","printed":"EEN-EN011","name":"W-Wing Catapult","ctype":"monster","keywords":"ABC Machine LIGHT Union Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Machine / Union / Effect","atk":1300,"def":1500},"rarity":"C","img":"96300057","code":"11","tcg":24566,"grp":200,"idx":15},
+    {"id":"012","section":"main","num":"012","printed":"EEN-EN012","name":"Infernal Incinerator","ctype":"monster","keywords":"Fiend FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 6","t":"Fiend / Effect","atk":2800,"def":1800},"rarity":"C","img":"23309606","code":"12","tcg":24567,"grp":200,"idx":16},
+    {"id":"013","section":"main","num":"013","printed":"EEN-EN013","name":"Hydrogeddon","ctype":"monster","keywords":"Bonding Dinosaur WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Dinosaur / Effect","atk":1600,"def":1000},"rarity":"C","img":"22587018","code":"13","tcg":24568,"grp":200,"idx":17},
+    {"id":"014","section":"main","num":"014","printed":"EEN-EN014","name":"Oxygeddon","ctype":"monster","keywords":"Bonding Dinosaur WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Dinosaur / Effect","atk":1800,"def":800},"rarity":"C","img":"58071123","code":"14","tcg":24569,"grp":200,"idx":18},
+    {"id":"015","section":"main","num":"015","printed":"EEN-EN015","name":"Water Dragon","ctype":"monster","keywords":"Bonding Sea Serpent WATER Effect Monster","stats":{"a":"WATER","l":"Level 8","t":"Sea Serpent / Effect","atk":2800,"def":2600},"rarity":"SR","img":"85066822","code":"15","tcg":24570,"grp":200,"idx":19},
+    {"id":"015-utr","section":"rarities","num":"015","printed":"EEN-EN015","name":"Water Dragon","ctype":"monster","keywords":"Bonding Sea Serpent WATER Effect Monster","stats":{"a":"WATER","l":"Level 8","t":"Sea Serpent / Effect","atk":2800,"def":2600},"rarity":"UtR","img":"85066822","badge":"UtR","variant":"Ultimate Rare","code":"UTR15","tcg":58709,"grp":200,"idx":20},
+    {"id":"016","section":"main","num":"016","printed":"EEN-EN016","name":"Etoile Cyber","ctype":"monster","keywords":"Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Effect","atk":1200,"def":1600},"rarity":"C","img":"11460577","code":"16","tcg":24571,"grp":200,"idx":21},
+    {"id":"017","section":"main","num":"017","printed":"EEN-EN017","name":"B.E.S. Tetran","ctype":"monster","keywords":"B.E.S. Machine WIND Effect Monster","stats":{"a":"WIND","l":"Level 6","t":"Machine / Effect","atk":1800,"def":2300},"rarity":"SR","img":"44954628","code":"17","tcg":24572,"grp":200,"idx":22},
+    {"id":"017-utr","section":"rarities","num":"017","printed":"EEN-EN017","name":"B.E.S. Tetran","ctype":"monster","keywords":"B.E.S. Machine WIND Effect Monster","stats":{"a":"WIND","l":"Level 6","t":"Machine / Effect","atk":1800,"def":2300},"rarity":"UtR","img":"44954628","badge":"UtR","variant":"Ultimate Rare","code":"UTR17","tcg":58710,"grp":200,"idx":23},
+    {"id":"018","section":"main","num":"018","printed":"EEN-EN018","name":"Nanobreaker","ctype":"monster","keywords":"Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Machine / Effect","atk":1600,"def":1800},"rarity":"C","img":"70948327","code":"18","tcg":24573,"grp":200,"idx":24},
+    {"id":"019","section":"main","num":"019","printed":"EEN-EN019","name":"Rapid-Fire Magician","ctype":"monster","keywords":"Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Effect","atk":1600,"def":1200},"rarity":"R","img":"6337436","code":"19","tcg":24574,"grp":200,"idx":25},
+    {"id":"019-utr","section":"rarities","num":"019","printed":"EEN-EN019","name":"Rapid-Fire Magician","ctype":"monster","keywords":"Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Effect","atk":1600,"def":1200},"rarity":"UtR","img":"6337436","badge":"UtR","variant":"Ultimate Rare","code":"UTR19","tcg":58711,"grp":200,"idx":26},
+    {"id":"020","section":"main","num":"020","printed":"EEN-EN020","name":"Beiige, Vanguard of Dark World","ctype":"monster","keywords":"Dark World Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Effect","atk":1600,"def":1300},"rarity":"C","img":"33731070","code":"20","tcg":24575,"grp":200,"idx":27},
+    {"id":"021","section":"main","num":"021","printed":"EEN-EN021","name":"Broww, Huntsman of Dark World","ctype":"monster","keywords":"Dark World Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Fiend / Effect","atk":1400,"def":800},"rarity":"R","img":"79126789","code":"21","tcg":24576,"grp":200,"idx":28},
+    {"id":"021-utr","section":"rarities","num":"021","printed":"EEN-EN021","name":"Broww, Huntsman of Dark World","ctype":"monster","keywords":"Dark World Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Fiend / Effect","atk":1400,"def":800},"rarity":"UtR","img":"79126789","badge":"UtR","variant":"Ultimate Rare","code":"UTR21","tcg":58712,"grp":200,"idx":29},
+    {"id":"022","section":"main","num":"022","printed":"EEN-EN022","name":"Brron, Mad King of Dark World","ctype":"monster","keywords":"Dark World Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Effect","atk":1800,"def":400},"rarity":"R","img":"6214884","code":"22","tcg":24577,"grp":200,"idx":30},
+    {"id":"022-utr","section":"rarities","num":"022","printed":"EEN-EN022","name":"Brron, Mad King of Dark World","ctype":"monster","keywords":"Dark World Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Effect","atk":1800,"def":400},"rarity":"UtR","img":"6214884","badge":"UtR","variant":"Ultimate Rare","code":"UTR22","tcg":58713,"grp":200,"idx":31},
+    {"id":"023","section":"main","num":"023","printed":"EEN-EN023","name":"Sillva, Warlord of Dark World","ctype":"monster","keywords":"Dark World Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 5","t":"Fiend / Effect","atk":2300,"def":1400},"rarity":"R","img":"32619583","code":"23","tcg":24578,"grp":200,"idx":32},
+    {"id":"023-utr","section":"rarities","num":"023","printed":"EEN-EN023","name":"Sillva, Warlord of Dark World","ctype":"monster","keywords":"Dark World Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 5","t":"Fiend / Effect","atk":2300,"def":1400},"rarity":"UtR","img":"32619583","badge":"UtR","variant":"Ultimate Rare","code":"UTR23","tcg":58714,"grp":200,"idx":33},
+    {"id":"024","section":"main","num":"024","printed":"EEN-EN024","name":"Goldd, Wu-Lord of Dark World","ctype":"monster","keywords":"Dark World Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 5","t":"Fiend / Effect","atk":2300,"def":1400},"rarity":"SR","img":"78004197","code":"24","tcg":24579,"grp":200,"idx":34},
+    {"id":"024-utr","section":"rarities","num":"024","printed":"EEN-EN024","name":"Goldd, Wu-Lord of Dark World","ctype":"monster","keywords":"Dark World Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 5","t":"Fiend / Effect","atk":2300,"def":1400},"rarity":"UtR","img":"78004197","badge":"UtR","variant":"Ultimate Rare","code":"UTR24","tcg":58715,"grp":200,"idx":35},
+    {"id":"025","section":"main","num":"025","printed":"EEN-EN025","name":"Scarr, Scout of Dark World","ctype":"monster","keywords":"Dark World Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 2","t":"Fiend / Effect","atk":500,"def":500},"rarity":"C","img":"5498296","code":"25","tcg":24580,"grp":200,"idx":36},
+    {"id":"026","section":"main","num":"026","printed":"EEN-EN026","name":"Familiar-Possessed - Aussa","ctype":"monster","keywords":"Charmer Spellcaster EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Spellcaster / Effect","atk":1850,"def":1500},"rarity":"C","img":"31887905","code":"26","tcg":24581,"grp":200,"idx":37},
+    {"id":"027","section":"main","num":"027","printed":"EEN-EN027","name":"Familiar-Possessed - Eria","ctype":"monster","keywords":"Charmer Spellcaster WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Spellcaster / Effect","atk":1850,"def":1500},"rarity":"C","img":"68881649","code":"27","tcg":24582,"grp":200,"idx":38},
+    {"id":"028","section":"main","num":"028","printed":"EEN-EN028","name":"Familiar-Possessed - Hiita","ctype":"monster","keywords":"Charmer Spellcaster FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Spellcaster / Effect","atk":1850,"def":1500},"rarity":"C","img":"4376658","code":"28","tcg":24583,"grp":200,"idx":39},
+    {"id":"029","section":"main","num":"029","printed":"EEN-EN029","name":"Familiar-Possessed - Wynn","ctype":"monster","keywords":"Charmer Spellcaster WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Spellcaster / Effect","atk":1850,"def":1500},"rarity":"C","img":"31764353","code":"29","tcg":24584,"grp":200,"idx":40},
+    {"id":"030","section":"main","num":"030","printed":"EEN-EN030","name":"VW-Tiger Catapult","ctype":"monster","keywords":"ABC Machine LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Machine / Fusion","atk":2000,"def":2100},"rarity":"C","img":"58859575","code":"30","tcg":24585,"grp":200,"idx":41},
+    {"id":"031","section":"main","num":"031","printed":"EEN-EN031","name":"VWXYZ-Dragon Catapult Cannon","ctype":"monster","keywords":"ABC Machine LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Machine / Fusion","atk":3000,"def":2800},"rarity":"SR","img":"84243274","code":"31","tcg":24586,"grp":200,"idx":42},
+    {"id":"031-utr","section":"rarities","num":"031","printed":"EEN-EN031","name":"VWXYZ-Dragon Catapult Cannon","ctype":"monster","keywords":"ABC Machine LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Machine / Fusion","atk":3000,"def":2800},"rarity":"UtR","img":"84243274","badge":"UtR","variant":"Ultimate Rare","code":"UTR31","tcg":58613,"grp":200,"idx":43},
+    {"id":"032","section":"main","num":"032","printed":"EEN-EN032","name":"Cyber Blader","ctype":"monster","keywords":"Warrior EARTH Fusion Monster","stats":{"a":"EARTH","l":"Level 7","t":"Warrior / Fusion","atk":2100,"def":800},"rarity":"SR","img":"10248389","code":"32","tcg":24587,"grp":200,"idx":44},
+    {"id":"032-utr","section":"rarities","num":"032","printed":"EEN-EN032","name":"Cyber Blader","ctype":"monster","keywords":"Warrior EARTH Fusion Monster","stats":{"a":"EARTH","l":"Level 7","t":"Warrior / Fusion","atk":2100,"def":800},"rarity":"UtR","img":"10248389","badge":"UtR","variant":"Ultimate Rare","code":"UTR32","tcg":58614,"grp":200,"idx":45},
+    {"id":"033","section":"main","num":"033","printed":"EEN-EN033","name":"Elemental HERO Rampart Blaster","ctype":"monster","keywords":"Elemental HERO Warrior EARTH Fusion Monster","stats":{"a":"EARTH","l":"Level 6","t":"Warrior / Fusion","atk":2000,"def":2500},"rarity":"UR","img":"47737087","code":"33","tcg":24588,"grp":200,"idx":46},
+    {"id":"033-utr","section":"rarities","num":"033","printed":"EEN-EN033","name":"Elemental HERO Rampart Blaster","ctype":"monster","keywords":"Elemental HERO Warrior EARTH Fusion Monster","stats":{"a":"EARTH","l":"Level 6","t":"Warrior / Fusion","atk":2000,"def":2500},"rarity":"UtR","img":"47737087","badge":"UtR","variant":"Ultimate Rare","code":"UTR33","tcg":58615,"grp":200,"idx":47},
+    {"id":"034","section":"main","num":"034","printed":"EEN-EN034","name":"Elemental HERO Tempest","ctype":"monster","keywords":"Elemental HERO Warrior WIND Fusion Monster","stats":{"a":"WIND","l":"Level 8","t":"Warrior / Fusion","atk":2800,"def":2800},"rarity":"UR","img":"83121692","code":"34","tcg":24589,"grp":200,"idx":48},
+    {"id":"034-utr","section":"rarities","num":"034","printed":"EEN-EN034","name":"Elemental HERO Tempest","ctype":"monster","keywords":"Elemental HERO Warrior WIND Fusion Monster","stats":{"a":"WIND","l":"Level 8","t":"Warrior / Fusion","atk":2800,"def":2800},"rarity":"UtR","img":"83121692","badge":"UtR","variant":"Ultimate Rare","code":"UTR34","tcg":58616,"grp":200,"idx":49},
+    {"id":"035","section":"main","num":"035","printed":"EEN-EN035","name":"Elemental HERO Wildedge","ctype":"monster","keywords":"Elemental HERO Warrior EARTH Fusion Monster","stats":{"a":"EARTH","l":"Level 8","t":"Warrior / Fusion","atk":2600,"def":2300},"rarity":"UR","img":"10526791","code":"35","tcg":24590,"grp":200,"idx":50},
+    {"id":"035-utr","section":"rarities","num":"035","printed":"EEN-EN035","name":"Elemental HERO Wildedge","ctype":"monster","keywords":"Elemental HERO Warrior EARTH Fusion Monster","stats":{"a":"EARTH","l":"Level 8","t":"Warrior / Fusion","atk":2600,"def":2300},"rarity":"UtR","img":"10526791","badge":"UtR","variant":"Ultimate Rare","code":"UTR35","tcg":58617,"grp":200,"idx":51},
+    {"id":"036","section":"main","num":"036","printed":"EEN-EN036","name":"Elemental HERO Shining Flare Wingman","ctype":"monster","keywords":"Elemental HERO Warrior LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Warrior / Fusion","atk":2500,"def":2100},"rarity":"UR","img":"25366484","code":"36","tcg":24591,"grp":200,"idx":52},
+    {"id":"036-utr","section":"rarities","num":"036","printed":"EEN-EN036","name":"Elemental HERO Shining Flare Wingman","ctype":"monster","keywords":"Elemental HERO Warrior LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Warrior / Fusion","atk":2500,"def":2100},"rarity":"UtR","img":"25366484","badge":"UtR","variant":"Ultimate Rare","code":"UTR36","tcg":58618,"grp":200,"idx":53},
+    {"id":"037","section":"main","num":"037","printed":"EEN-EN037","name":"Pot of Avarice","ctype":"spell","keywords":"Greed Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"67169062","code":"37","tcg":24592,"grp":200,"idx":54},
+    {"id":"037-utr","section":"rarities","num":"037","printed":"EEN-EN037","name":"Pot of Avarice","ctype":"spell","keywords":"Greed Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UtR","img":"67169062","badge":"UtR","variant":"Ultimate Rare","code":"UTR37","tcg":58619,"grp":200,"idx":55},
+    {"id":"038","section":"main","num":"038","printed":"EEN-EN038","name":"Dark World Lightning","ctype":"spell","keywords":"Dark World Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"93554166","code":"38","tcg":24593,"grp":200,"idx":56},
+    {"id":"039","section":"main","num":"039","printed":"EEN-EN039","name":"Level Modulation","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"61850482","code":"39","tcg":24594,"grp":200,"idx":57},
+    {"id":"040","section":"main","num":"040","printed":"EEN-EN040","name":"Ojamagic","ctype":"spell","keywords":"Ojama Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"24643836","code":"40","tcg":24595,"grp":200,"idx":58},
+    {"id":"041","section":"main","num":"041","printed":"EEN-EN041","name":"Ojamuscle","ctype":"spell","keywords":"Ojama Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"98259197","code":"41","tcg":24596,"grp":200,"idx":59},
+    {"id":"042","section":"main","num":"042","printed":"EEN-EN042","name":"Feather Shot","ctype":"spell","keywords":"Elemental HERO Normal Spell","stats":{"t":"Normal Spell"},"rarity":"R","img":"19394153","code":"42","tcg":24597,"grp":200,"idx":60},
+    {"id":"042-utr","section":"rarities","num":"042","printed":"EEN-EN042","name":"Feather Shot","ctype":"spell","keywords":"Elemental HERO Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UtR","img":"19394153","badge":"UtR","variant":"Ultimate Rare","code":"UTR42","tcg":58620,"grp":200,"idx":61},
+    {"id":"043","section":"main","num":"043","printed":"EEN-EN043","name":"Bonding - H2O","ctype":"spell","keywords":"Bonding Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"45898858","code":"43","tcg":24598,"grp":200,"idx":62},
+    {"id":"044","section":"main","num":"044","printed":"EEN-EN044","name":"Chthonian Alliance","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"R","img":"46910446","code":"44","tcg":24599,"grp":200,"idx":63},
+    {"id":"044-utr","section":"rarities","num":"044","printed":"EEN-EN044","name":"Chthonian Alliance","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"UtR","img":"46910446","badge":"UtR","variant":"Ultimate Rare","code":"UTR44","tcg":58621,"grp":200,"idx":64},
+    {"id":"045","section":"main","num":"045","printed":"EEN-EN045","name":"Armed Changer","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"R","img":"90374791","code":"45","tcg":24600,"grp":200,"idx":65},
+    {"id":"045-utr","section":"rarities","num":"045","printed":"EEN-EN045","name":"Armed Changer","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"UtR","img":"90374791","badge":"UtR","variant":"Ultimate Rare","code":"UTR45","tcg":58622,"grp":200,"idx":66},
+    {"id":"046","section":"main","num":"046","printed":"EEN-EN046","name":"Branch!","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"30548775","code":"46","tcg":24601,"grp":200,"idx":67},
+    {"id":"047","section":"main","num":"047","printed":"EEN-EN047","name":"Boss Rush","ctype":"spell","keywords":"B.E.S. Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"66947414","code":"47","tcg":24602,"grp":200,"idx":68},
+    {"id":"048","section":"main","num":"048","printed":"EEN-EN048","name":"Gateway to Dark World","ctype":"spell","keywords":"Dark World Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"93431518","code":"48","tcg":24603,"grp":200,"idx":69},
+    {"id":"049","section":"main","num":"049","printed":"EEN-EN049","name":"Hero Barrier","ctype":"trap","keywords":"Elemental HERO Normal Trap","stats":{"t":"Normal Trap"},"rarity":"R","img":"44676200","code":"49","tcg":24604,"grp":200,"idx":70},
+    {"id":"049-utr","section":"rarities","num":"049","printed":"EEN-EN049","name":"Hero Barrier","ctype":"trap","keywords":"Elemental HERO Normal Trap","stats":{"t":"Normal Trap"},"rarity":"UtR","img":"44676200","badge":"UtR","variant":"Ultimate Rare","code":"UTR49","tcg":58623,"grp":200,"idx":71},
+    {"id":"050","section":"main","num":"050","printed":"EEN-EN050","name":"Chthonian Blast","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"R","img":"18271561","code":"50","tcg":24605,"grp":200,"idx":72},
+    {"id":"050-utr","section":"rarities","num":"050","printed":"EEN-EN050","name":"Chthonian Blast","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"UtR","img":"18271561","badge":"UtR","variant":"Ultimate Rare","code":"UTR50","tcg":58624,"grp":200,"idx":73},
+    {"id":"051","section":"main","num":"051","printed":"EEN-EN051","name":"The Forces of Darkness","ctype":"trap","keywords":"Dark World Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"29826127","code":"51","tcg":24606,"grp":200,"idx":74},
+    {"id":"052","section":"main","num":"052","printed":"EEN-EN052","name":"Dark Deal","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"65824822","code":"52","tcg":24607,"grp":200,"idx":75},
+    {"id":"053","section":"main","num":"053","printed":"EEN-EN053","name":"Simultaneous Loss","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"92219931","code":"53","tcg":24608,"grp":200,"idx":76},
+    {"id":"054","section":"main","num":"054","printed":"EEN-EN054","name":"Weed Out","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"28604635","code":"54","tcg":24609,"grp":200,"idx":77},
+    {"id":"055","section":"main","num":"055","printed":"EEN-EN055","name":"The League of Uniform Nomenclature","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"55008284","code":"55","tcg":24610,"grp":200,"idx":78},
+    {"id":"056","section":"main","num":"056","printed":"EEN-EN056","name":"Roll Out!","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"91597389","code":"56","tcg":24611,"grp":200,"idx":79},
+    {"id":"057","section":"main","num":"057","printed":"EEN-EN057","name":"Chthonian Polymer","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"72287557","code":"57","tcg":24612,"grp":200,"idx":80},
+    {"id":"058","section":"main","num":"058","printed":"EEN-EN058","name":"Feather Wind","ctype":"trap","keywords":"Elemental HERO Counter Trap","stats":{"t":"Counter Trap"},"rarity":"C","img":"71060915","code":"58","tcg":24613,"grp":200,"idx":81},
+    {"id":"059","section":"main","num":"059","printed":"EEN-EN059","name":"Non-Fusion Area","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"27581098","code":"59","tcg":24614,"grp":200,"idx":82},
+    {"id":"060","section":"main","num":"060","printed":"EEN-EN060","name":"Level Limit - Area A","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"R","img":"54976796","code":"60","tcg":24615,"grp":200,"idx":83},
+    {"id":"060-utr","section":"rarities","num":"060","printed":"EEN-EN060","name":"Level Limit - Area A","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"UtR","img":"54976796","badge":"UtR","variant":"Ultimate Rare","code":"UTR60","tcg":58625,"grp":200,"idx":84}
+  ]
+}

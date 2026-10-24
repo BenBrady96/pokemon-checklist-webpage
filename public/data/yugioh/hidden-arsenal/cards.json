@@ -1,0 +1,90 @@
+{
+  "id": "yugioh/hidden-arsenal",
+  "game": "yugioh",
+  "slug": "hidden-arsenal",
+  "name": "Hidden Arsenal",
+  "series": "5D’s",
+  "kind": "set",
+  "code": "HA01",
+  "syncKey": "YHA01",
+  "released": "2009-11-05",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Main Set",
+      "range": "HA01-EN001–HA01-EN030",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from HA01-EN001 to HA01-EN030."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Hidden Arsenal Checklist · All 30 Cards",
+    "description": "Free Yu-Gi-Oh! Hidden Arsenal checklist with no ads, no sign-up and no tracking. Track all 30 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Hidden Arsenal Checklist",
+    "ogDescription": "Track all 30 cards in Yu-Gi-Oh! Hidden Arsenal. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 30 cards in Yu-Gi-Oh! Hidden Arsenal. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About the Hidden Arsenal set",
+    "paragraphs": [
+      "Hidden Arsenal is a Yu-Gi-Oh! TCG special set released on 5 November 2009, in the 5D’s era. It has 30 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Hidden Arsenal"
+    ],
+    "tcgplayer": [
+      224
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"HA01-EN001","name":"Blizzed, Defender of the Ice Barrier","ctype":"monster","keywords":"Ice Barrier Aqua WATER Effect Monster","stats":{"a":"WATER","l":"Level 1","t":"Aqua / Effect","atk":300,"def":500},"rarity":"ScR","img":"60161788","code":"1","tcg":33740,"grp":224,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"HA01-EN002","name":"Blizzard Warrior","ctype":"monster","keywords":"Warrior WATER Effect Monster","stats":{"a":"WATER","l":"Level 3","t":"Warrior / Effect","atk":1400,"def":400},"rarity":"SR","img":"96565487","code":"2","tcg":33741,"grp":224,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"HA01-EN003","name":"Cryomancer of the Ice Barrier","ctype":"monster","keywords":"Ice Barrier Aqua WATER Tuner Monster","stats":{"a":"WATER","l":"Level 2","t":"Aqua / Tuner","atk":1300,"def":0},"rarity":"ScR","img":"23950192","code":"3","tcg":33742,"grp":224,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"HA01-EN004","name":"Mist Valley Thunderbird","ctype":"monster","keywords":"Mist Valley Thunder WIND Effect Monster","stats":{"a":"WIND","l":"Level 3","t":"Thunder / Effect","atk":1100,"def":700},"rarity":"ScR","img":"69448290","code":"4","tcg":33743,"grp":224,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"HA01-EN005","name":"Mist Valley Shaman","ctype":"monster","keywords":"Mist Valley Winged Beast WIND Tuner Monster","stats":{"a":"WIND","l":"Level 3","t":"Winged Beast / Tuner","atk":1200,"def":1200},"rarity":"ScR","img":"95443805","code":"5","tcg":33744,"grp":224,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"HA01-EN006","name":"Mist Valley Soldier","ctype":"monster","keywords":"Mist Valley Winged Beast WIND Tuner Monster","stats":{"a":"WIND","l":"Level 4","t":"Winged Beast / Tuner","atk":1700,"def":300},"rarity":"ScR","img":"22837504","code":"6","tcg":33745,"grp":224,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"HA01-EN007","name":"Flamvell Dragnov","ctype":"monster","keywords":"Flamvell Dragon FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 2","t":"Dragon / Effect","atk":1100,"def":200},"rarity":"SR","img":"68226653","code":"7","tcg":33746,"grp":224,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"HA01-EN008","name":"Flamvell Magician","ctype":"monster","keywords":"Flamvell Spellcaster FIRE Tuner Monster","stats":{"a":"FIRE","l":"Level 4","t":"Spellcaster / Tuner","atk":1400,"def":200},"rarity":"SR","img":"95621257","code":"8","tcg":33747,"grp":224,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"HA01-EN009","name":"Flamvell Guard","ctype":"monster","keywords":"Flamvell Dragon FIRE Normal Tuner Monster","stats":{"a":"FIRE","l":"Level 1","t":"Dragon / Normal / Tuner","atk":100,"def":2000},"rarity":"SR","img":"21615956","code":"9","tcg":33748,"grp":224,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"HA01-EN010","name":"X-Saber Axel","ctype":"monster","keywords":"X-Saber Beast-Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 1","t":"Beast-Warrior / Effect","atk":400,"def":100},"rarity":"SR","img":"53100061","code":"10","tcg":33749,"grp":224,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"HA01-EN011","name":"X-Saber Airbellum","ctype":"monster","keywords":"X-Saber Beast EARTH Tuner Monster","stats":{"a":"EARTH","l":"Level 3","t":"Beast / Tuner","atk":1600,"def":200},"rarity":"ScR","img":"90508760","code":"11","tcg":33750,"grp":224,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"HA01-EN012","name":"X-Saber Uruz","ctype":"monster","keywords":"X-Saber Beast-Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Beast-Warrior / Effect","atk":1600,"def":1000},"rarity":"SR","img":"26993374","code":"12","tcg":33751,"grp":224,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"HA01-EN013","name":"Commander Gottoms, Swordmaster","ctype":"monster","keywords":"Beast-Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 6","t":"Beast-Warrior / Effect","atk":2100,"def":1600},"rarity":"ScR","img":"53388413","code":"13","tcg":33752,"grp":224,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"HA01-EN014","name":"Ally of Justice Clausolas","ctype":"monster","keywords":"Ally of Justice Machine DARK Normal Monster","stats":{"a":"DARK","l":"Level 6","t":"Machine / Normal","atk":2300,"def":1200},"rarity":"SR","img":"89386122","code":"14","tcg":33753,"grp":224,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"HA01-EN015","name":"Ally of Justice Garadholg","ctype":"monster","keywords":"Ally of Justice Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Machine / Effect","atk":1600,"def":400},"rarity":"SR","img":"25771826","code":"15","tcg":33754,"grp":224,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"HA01-EN016","name":"Ally of Justice Rudra","ctype":"monster","keywords":"Ally of Justice Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 5","t":"Machine / Effect","atk":1900,"def":1200},"rarity":"SR","img":"52265835","code":"16","tcg":33755,"grp":224,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"HA01-EN017","name":"Worm Apocalypse","ctype":"monster","keywords":"Worm Reptile LIGHT Flip Effect Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Reptile / Flip / Effect","atk":300,"def":200},"rarity":"SR","img":"88650530","code":"17","tcg":33756,"grp":224,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"HA01-EN018","name":"Worm Barses","ctype":"monster","keywords":"Worm Reptile LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Reptile / Effect","atk":1400,"def":1500},"rarity":"SR","img":"15658249","code":"18","tcg":33757,"grp":224,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"HA01-EN019","name":"Worm Cartaros","ctype":"monster","keywords":"Worm Reptile LIGHT Flip Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Reptile / Flip / Effect","atk":1200,"def":500},"rarity":"SR","img":"51043243","code":"19","tcg":33758,"grp":224,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"HA01-EN020","name":"Worm Dimikles","ctype":"monster","keywords":"Worm Reptile LIGHT Flip Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Reptile / Flip / Effect","atk":1700,"def":1400},"rarity":"SR","img":"88438982","code":"20","tcg":33759,"grp":224,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"HA01-EN021","name":"Worm Erokin","ctype":"monster","keywords":"Worm Reptile LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Reptile / Effect","atk":2400,"def":1200},"rarity":"ScR","img":"14936691","code":"21","tcg":33760,"grp":224,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"HA01-EN022","name":"Brionac, Dragon of the Ice Barrier","ctype":"monster","keywords":"Ice Barrier Sea Serpent WATER Synchro Monster","stats":{"a":"WATER","l":"Level 6","t":"Sea Serpent / Synchro","atk":2300,"def":1400},"rarity":"ScR","img":"50321796","code":"22","tcg":33761,"grp":224,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"HA01-EN023","name":"Mist Wurm","ctype":"monster","keywords":"Thunder WIND Synchro Monster","stats":{"a":"WIND","l":"Level 9","t":"Thunder / Synchro","atk":2500,"def":1500},"rarity":"ScR","img":"27315304","code":"23","tcg":33762,"grp":224,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"HA01-EN024","name":"Flamvell Uruquizas","ctype":"monster","keywords":"Flamvell Pyro FIRE Synchro Monster","stats":{"a":"FIRE","l":"Level 6","t":"Pyro / Synchro","atk":2100,"def":400},"rarity":"ScR","img":"53714009","code":"24","tcg":33763,"grp":224,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"HA01-EN025","name":"X-Saber Urbellum","ctype":"monster","keywords":"X-Saber Warrior EARTH Synchro Monster","stats":{"a":"EARTH","l":"Level 7","t":"Warrior / Synchro","atk":2200,"def":1300},"rarity":"ScR","img":"80108118","code":"25","tcg":33764,"grp":224,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"HA01-EN026","name":"Ally of Justice Catastor","ctype":"monster","keywords":"Ally of Justice Machine DARK Synchro Monster","stats":{"a":"DARK","l":"Level 5","t":"Machine / Synchro","atk":2200,"def":1200},"rarity":"ScR","img":"26593852","code":"26","tcg":33765,"grp":224,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"HA01-EN027","name":"Wrath of Neos","ctype":"spell","keywords":"Elemental HERO Normal Spell","stats":{"t":"Normal Spell"},"rarity":"ScR","img":"52098461","code":"27","tcg":33766,"grp":224,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"HA01-EN028","name":"Detonate","ctype":"spell","keywords":"Kuriboh Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"SR","img":"89086566","code":"28","tcg":33767,"grp":224,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"HA01-EN029","name":"Berserker Crush","ctype":"spell","keywords":"Kuriboh Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"SR","img":"15471265","code":"29","tcg":33768,"grp":224,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"HA01-EN030","name":"Evolution Burst","ctype":"spell","keywords":"Cyber Dragon Normal Spell","stats":{"t":"Normal Spell"},"rarity":"ScR","img":"52875873","code":"30","tcg":33769,"grp":224,"idx":29}
+  ]
+}

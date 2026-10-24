@@ -1,0 +1,21 @@
+export default {
+  title: 'Free Yu-Gi-Oh! Card Checklist & Collection Tracker',
+  description: 'Free Yu-Gi-Oh! card checklists for every English TCG set since Legend of Blue Eyes White Dragon, with no ads, no sign-up and no tracking. Tick off your cards, chase every rarity, count duplicates and see what your collection is worth.',
+  ogTitle: 'Binder Tracker · Free Yu-Gi-Oh! Card Checklist & Collection Tracker',
+  ogDescription: 'Free checklists for every English Yu-Gi-Oh! TCG set, from booster sets and structure decks to tins and promos, with no ads, no sign-up and no tracking. Track every rarity, count duplicates and plan binder pages. Works offline.',
+  twitterDescription: 'Free checklists for every English Yu-Gi-Oh! TCG set. No ads, no sign-up, no tracking.',
+  imageAlt: 'Binder Tracker: card checklists for Yu-Gi-Oh! TCG sets',
+  pageName: 'Yu-Gi-Oh! TCG Checklists',
+  heroTitle: 'Every Yu-Gi-Oh! card in your binder, <span class="brand__gold">ticked off</span>',
+  heroText: ({ total }) => `Free Yu-Gi-Oh! card checklists for ${total} sets, decks and tins, from Legend of Blue Eyes White Dragon to today. Tick off what you own, track spare copies and see what your collection is worth. No ads, no sign-up, no tracking.`,
+  search: 'Find a set, e.g. Phantom Revenge or LOB',
+  span: 'Legend of Blue Eyes to today',
+  rootText: 'every English booster set, structure deck, tin and promo since Legend of Blue Eyes White Dragon, with every rarity of each card.',
+  aboutTitle: 'About Binder Tracker',
+  about: [
+    'Binder Tracker is a free Yu-Gi-Oh! card checklist and collection tracker. Every English Yu-Gi-Oh! TCG product since Legend of Blue Eyes White Dragon has its own checklist, from booster sets and reprint sets to structure decks, tins, Duelist Packs and Speed Duel, with card images, rarities and TCGplayer prices. Promo cards are grouped by year.',
+    'Pick what you’re collecting in each set: the <b>Standard set</b> (every card number once, in its main rarity) or the <b>Master set</b> (every rarity of every card, such as the Starlight, Quarter Century and Collector’s Rares).',
+    'Scan a card with your camera to add it, count your duplicates, see what your collection is worth in pounds, dollars or euros, and swap trade codes with friends to check a trade is fair.',
+    'There are <b>no ads, no sign-up and no tracking</b>. Your collection stays on your device, it works on phones and computers even offline, and <b>Export or share</b> moves it to another device as a link, code, QR code or file.',
+  ],
+};

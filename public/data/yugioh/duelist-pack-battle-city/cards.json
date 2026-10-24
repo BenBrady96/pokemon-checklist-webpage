@@ -1,0 +1,107 @@
+{
+  "id": "yugioh/duelist-pack-battle-city",
+  "game": "yugioh",
+  "slug": "duelist-pack-battle-city",
+  "name": "Duelist Pack: Battle City",
+  "series": "ARC-V",
+  "kind": "pack",
+  "code": "DPBC",
+  "syncKey": "YDPBC",
+  "released": "2015-06-19",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "DPBC-EN001–DPBC-EN047",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from DPBC-EN001 to DPBC-EN047."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Duelist Pack: Battle City Checklist · All 47 Cards",
+    "description": "Free Yu-Gi-Oh! Duelist Pack: Battle City checklist with no ads, no sign-up and no tracking. Track all 47 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Duelist Pack: Battle City Checklist",
+    "ogDescription": "Track all 47 cards in Yu-Gi-Oh! Duelist Pack: Battle City. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 47 cards in Yu-Gi-Oh! Duelist Pack: Battle City. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Duelist Pack: Battle City",
+    "paragraphs": [
+      "Duelist Pack: Battle City is a Yu-Gi-Oh! TCG pack released on 19 June 2015, in the ARC-V era. It has 47 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Duelist Pack: Battle City"
+    ],
+    "tcgplayer": [
+      1550
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"DPBC-EN001","name":"The Winged Dragon of Ra - Sphere Mode","ctype":"monster","keywords":"Egyptian God Divine-Beast DIVINE Effect Monster","stats":{"a":"DIVINE","l":"Level 10","t":"Divine-Beast / Effect","atk":-1,"def":-1},"rarity":"UR","img":"10000080","code":"1","tcg":99961,"grp":1550,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"DPBC-EN002","name":"Juragedo","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Effect","atk":1700,"def":1300},"rarity":"SR","img":"59546797","code":"2","tcg":99962,"grp":1550,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"DPBC-EN003","name":"Legion the Fiend Jester","ctype":"monster","keywords":"Jester Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Effect","atk":1300,"def":1500},"rarity":"SR","img":"25280974","code":"3","tcg":99963,"grp":1550,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"DPBC-EN004","name":"Anti-Magic Arrows","ctype":"spell","keywords":"Anti Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"UR","img":"97120394","code":"4","tcg":99964,"grp":1550,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"DPBC-EN005","name":"Multiple Destruction","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"UR","img":"14057297","code":"5","tcg":99965,"grp":1550,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"DPBC-EN006","name":"Black Luster Soldier","ctype":"monster","keywords":"Black Luster Soldier Warrior EARTH Ritual Monster","stats":{"a":"EARTH","l":"Level 8","t":"Warrior / Ritual","atk":3000,"def":2500},"rarity":"SR","img":"5405694","code":"6","tcg":99966,"grp":1550,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"DPBC-EN007","name":"Black Luster Ritual","ctype":"spell","keywords":"Black Luster Soldier Ritual Spell","stats":{"t":"Ritual Spell"},"rarity":"C","img":"55761792","code":"7","tcg":99967,"grp":1550,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"DPBC-EN008","name":"Dark Magician","ctype":"monster","keywords":"Dark Magician Spellcaster DARK Normal Monster","stats":{"a":"DARK","l":"Level 7","t":"Spellcaster / Normal","atk":2500,"def":2100},"rarity":"SR","img":"36996508","code":"8","tcg":99968,"grp":1550,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"DPBC-EN009","name":"Dark Magician Girl","ctype":"monster","keywords":"Dark Magician Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Spellcaster / Effect","atk":2000,"def":1700},"rarity":"SR","img":"38033122","code":"9","tcg":99969,"grp":1550,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"DPBC-EN010","name":"Buster Blader","ctype":"monster","keywords":"Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 7","t":"Warrior / Effect","atk":2600,"def":2300},"rarity":"R","img":"78193831","code":"10","tcg":99970,"grp":1550,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"DPBC-EN011","name":"Archfiend of Gilfer","ctype":"monster","keywords":"Archfiend Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Fiend / Effect","atk":2200,"def":2500},"rarity":"C","img":"50287060","code":"11","tcg":99971,"grp":1550,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"DPBC-EN012","name":"Jack's Knight","ctype":"monster","keywords":"Knight Warrior LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 5","t":"Warrior / Normal","atk":1900,"def":1000},"rarity":"C","img":"90876561","code":"12","tcg":99972,"grp":1550,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"DPBC-EN013","name":"Queen's Knight","ctype":"monster","keywords":"Knight Warrior LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Normal","atk":1500,"def":1600},"rarity":"C","img":"25652259","code":"13","tcg":99973,"grp":1550,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"DPBC-EN014","name":"King's Knight","ctype":"monster","keywords":"Knight Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Effect","atk":1600,"def":1400},"rarity":"C","img":"64788463","code":"14","tcg":99974,"grp":1550,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"DPBC-EN015","name":"Kuriboh","ctype":"monster","keywords":"Kuriboh Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Fiend / Effect","atk":300,"def":200},"rarity":"C","img":"40640058","code":"15","tcg":99975,"grp":1550,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"DPBC-EN016","name":"Blue-Eyes White Dragon","ctype":"monster","keywords":"Blue-Eyes Dragon LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Normal","atk":3000,"def":2500},"rarity":"UR","img":"89631142","code":"16","tcg":99976,"grp":1550,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"DPBC-EN017","name":"Lord of D.","ctype":"monster","keywords":"Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Effect","atk":1200,"def":1100},"rarity":"C","img":"17985575","code":"17","tcg":99977,"grp":1550,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"DPBC-EN018","name":"The Flute of Summoning Dragon","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"43973174","code":"18","tcg":99978,"grp":1550,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"DPBC-EN019","name":"Enemy Controller","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"98045062","code":"19","tcg":99979,"grp":1550,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"DPBC-EN020","name":"Crush Card Virus","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"R","img":"57728570","code":"20","tcg":99980,"grp":1550,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"DPBC-EN021","name":"Red-Eyes Black Dragon","ctype":"monster","keywords":"Red-Eyes Dragon DARK Normal Monster","stats":{"a":"DARK","l":"Level 7","t":"Dragon / Normal","atk":2400,"def":2000},"rarity":"SR","img":"74677426","code":"21","tcg":99981,"grp":1550,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"DPBC-EN022","name":"Gearfried the Iron Knight","ctype":"monster","keywords":"Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Effect","atk":1800,"def":1600},"rarity":"C","img":"423705","code":"22","tcg":99982,"grp":1550,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"DPBC-EN023","name":"Rocket Warrior","ctype":"monster","keywords":"Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Effect","atk":1500,"def":1300},"rarity":"C","img":"30860696","code":"23","tcg":99983,"grp":1550,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"DPBC-EN024","name":"Time Wizard","ctype":"monster","keywords":"Magician Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 2","t":"Spellcaster / Effect","atk":500,"def":400},"rarity":"C","img":"71625222","code":"24","tcg":99985,"grp":1550,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"DPBC-EN025","name":"Foolish Burial","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"R","img":"81439174","code":"25","tcg":99986,"grp":1550,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"DPBC-EN026","name":"Insect Queen","ctype":"monster","keywords":"Insect EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 7","t":"Insect / Effect","atk":2200,"def":2400},"rarity":"C","img":"91512835","code":"26","tcg":99987,"grp":1550,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"DPBC-EN027","name":"Jinzo","ctype":"monster","keywords":"Jinzo Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Machine / Effect","atk":2400,"def":1500},"rarity":"R","img":"77585513","code":"27","tcg":99988,"grp":1550,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"DPBC-EN028","name":"The Legendary Fisherman","ctype":"monster","keywords":"Umi Warrior WATER Effect Monster","stats":{"a":"WATER","l":"Level 5","t":"Warrior / Effect","atk":1850,"def":1600},"rarity":"C","img":"3643300","code":"28","tcg":99989,"grp":1550,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"DPBC-EN029","name":"Dragged Down into the Grave","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"16435215","code":"29","tcg":99990,"grp":1550,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"DPBC-EN030","name":"Embodiment of Apophis","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"R","img":"28649820","code":"30","tcg":99991,"grp":1550,"idx":29},
+    {"id":"031","section":"main","num":"031","printed":"DPBC-EN031","name":"The Masked Beast","ctype":"monster","keywords":"Mask Fiend DARK Ritual Monster","stats":{"a":"DARK","l":"Level 8","t":"Fiend / Ritual","atk":3200,"def":1800},"rarity":"R","img":"49064413","code":"31","tcg":99992,"grp":1550,"idx":30},
+    {"id":"032","section":"main","num":"032","printed":"DPBC-EN032","name":"Curse of the Masked Beast","ctype":"spell","keywords":"Mask Ritual Spell","stats":{"t":"Ritual Spell"},"rarity":"C","img":"94377247","code":"32","tcg":99993,"grp":1550,"idx":31},
+    {"id":"033","section":"main","num":"033","printed":"DPBC-EN033","name":"Dark Necrofear","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Fiend / Effect","atk":2200,"def":2800},"rarity":"R","img":"31829185","code":"33","tcg":99994,"grp":1550,"idx":32},
+    {"id":"034","section":"main","num":"034","printed":"DPBC-EN034","name":"Lava Golem","ctype":"monster","keywords":"Fiend FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 8","t":"Fiend / Effect","atk":3000,"def":2500},"rarity":"R","img":"102380","code":"34","tcg":99995,"grp":1550,"idx":33},
+    {"id":"035","section":"main","num":"035","printed":"DPBC-EN035","name":"Magical Stone Excavation","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"98494543","code":"35","tcg":99996,"grp":1550,"idx":34},
+    {"id":"036","section":"main","num":"036","printed":"DPBC-EN036","name":"Malevolent Catastrophe","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"1224927","code":"36","tcg":99997,"grp":1550,"idx":35},
+    {"id":"037","section":"main","num":"037","printed":"DPBC-EN037","name":"Harpie Lady","ctype":"monster","keywords":"Harpie Winged Beast WIND Normal Monster","stats":{"a":"WIND","l":"Level 4","t":"Winged Beast / Normal","atk":1300,"def":1400},"rarity":"C","img":"76812113","code":"37","tcg":99998,"grp":1550,"idx":36},
+    {"id":"038","section":"main","num":"038","printed":"DPBC-EN038","name":"Harpie Lady Sisters","ctype":"monster","keywords":"Harpie Winged Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 6","t":"Winged Beast / Effect","atk":1950,"def":2100},"rarity":"C","img":"12206212","code":"38","tcg":99999,"grp":1550,"idx":37},
+    {"id":"039","section":"main","num":"039","printed":"DPBC-EN039","name":"Elegant Egotist","ctype":"spell","keywords":"Harpie Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"90219263","code":"39","tcg":100000,"grp":1550,"idx":38},
+    {"id":"040","section":"main","num":"040","printed":"DPBC-EN040","name":"Hysteric Party","ctype":"trap","keywords":"Harpie Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"77778835","code":"40","tcg":100001,"grp":1550,"idx":39},
+    {"id":"041","section":"main","num":"041","printed":"DPBC-EN041","name":"Barrel Dragon","ctype":"monster","keywords":"Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Machine / Effect","atk":2600,"def":2200},"rarity":"R","img":"81480461","code":"41","tcg":100002,"grp":1550,"idx":40},
+    {"id":"042","section":"main","num":"042","printed":"DPBC-EN042","name":"Blast Sphere","ctype":"monster","keywords":"Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Machine / Effect","atk":1400,"def":1400},"rarity":"C","img":"26302522","code":"42","tcg":100003,"grp":1550,"idx":41},
+    {"id":"043","section":"main","num":"043","printed":"DPBC-EN043","name":"Blue-Eyes Toon Dragon","ctype":"monster","keywords":"Toon Dragon LIGHT Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Toon","atk":3000,"def":2500},"rarity":"C","img":"53183600","code":"43","tcg":100004,"grp":1550,"idx":42},
+    {"id":"044","section":"main","num":"044","printed":"DPBC-EN044","name":"Toon Dark Magician Girl","ctype":"monster","keywords":"Toon Spellcaster DARK Monster","stats":{"a":"DARK","l":"Level 6","t":"Spellcaster / Toon","atk":2000,"def":1700},"rarity":"C","img":"90960358","code":"44","tcg":100005,"grp":1550,"idx":43},
+    {"id":"045","section":"main","num":"045","printed":"DPBC-EN045","name":"Toon Gemini Elf","ctype":"monster","keywords":"Toon Spellcaster EARTH Monster","stats":{"a":"EARTH","l":"Level 4","t":"Spellcaster / Toon","atk":1900,"def":900},"rarity":"C","img":"42386471","code":"45","tcg":100006,"grp":1550,"idx":44},
+    {"id":"046","section":"main","num":"046","printed":"DPBC-EN046","name":"Toon World","ctype":"spell","keywords":"Toon Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"15259703","code":"46","tcg":100007,"grp":1550,"idx":45},
+    {"id":"047","section":"main","num":"047","printed":"DPBC-EN047","name":"Toon Table of Contents","ctype":"spell","keywords":"Toon Normal Spell","stats":{"t":"Normal Spell"},"rarity":"R","img":"89997728","code":"47","tcg":100008,"grp":1550,"idx":46}
+  ]
+}

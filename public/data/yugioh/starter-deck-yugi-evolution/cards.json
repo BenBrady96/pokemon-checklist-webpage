@@ -1,0 +1,110 @@
+{
+  "id": "yugioh/starter-deck-yugi-evolution",
+  "game": "yugioh",
+  "slug": "starter-deck-yugi-evolution",
+  "name": "Starter Deck: Yugi Evolution",
+  "series": "Duel Monsters",
+  "kind": "deck",
+  "code": "SYE",
+  "syncKey": "YSYE",
+  "released": "2004-03-01",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "SYE-001–SYE-050",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from SYE-001 to SYE-050."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Starter Deck: Yugi Evolution Checklist · All 50 Cards",
+    "description": "Free Yu-Gi-Oh! Starter Deck: Yugi Evolution checklist with no ads, no sign-up and no tracking. Track all 50 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Starter Deck: Yugi Evolution Checklist",
+    "ogDescription": "Track all 50 cards in Yu-Gi-Oh! Starter Deck: Yugi Evolution. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 50 cards in Yu-Gi-Oh! Starter Deck: Yugi Evolution. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Starter Deck: Yugi Evolution",
+    "paragraphs": [
+      "Starter Deck: Yugi Evolution is a Yu-Gi-Oh! TCG deck released on 1 March 2004, in the Duel Monsters era. It has 50 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Starter Deck: Yugi Evolution"
+    ],
+    "tcgplayer": [
+      299
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"SYE-001","name":"Dark Magician","ctype":"monster","keywords":"Dark Magician Spellcaster DARK Normal Monster","stats":{"a":"DARK","l":"Level 7","t":"Spellcaster / Normal","atk":2500,"def":2100},"rarity":"SR","img":"36996508","code":"1","tcg":25210,"grp":299,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"SYE-002","name":"Mystical Elf","ctype":"monster","keywords":"Spellcaster LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Normal","atk":800,"def":2000},"rarity":"C","img":"15025844","code":"2","tcg":25211,"grp":299,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"SYE-003","name":"Feral Imp","ctype":"monster","keywords":"Fiend DARK Normal Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Normal","atk":1300,"def":1400},"rarity":"C","img":"41392891","code":"3","tcg":25212,"grp":299,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"SYE-004","name":"Winged Dragon, Guardian of the Fortress #1","ctype":"monster","keywords":"Dragon WIND Normal Monster","stats":{"a":"WIND","l":"Level 4","t":"Dragon / Normal","atk":1400,"def":1200},"rarity":"C","img":"87796900","code":"4","tcg":25213,"grp":299,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"SYE-005","name":"Summoned Skull","ctype":"monster","keywords":"Archfiend Fiend DARK Normal Monster","stats":{"a":"DARK","l":"Level 6","t":"Fiend / Normal","atk":2500,"def":1200},"rarity":"C","img":"70781052","code":"5","tcg":25214,"grp":299,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"SYE-006","name":"Beaver Warrior","ctype":"monster","keywords":"Beast-Warrior EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 4","t":"Beast-Warrior / Normal","atk":1200,"def":1500},"rarity":"C","img":"32452818","code":"6","tcg":25215,"grp":299,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"SYE-007","name":"Gaia The Fierce Knight","ctype":"monster","keywords":"Gaia The Fierce Knight Warrior EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 7","t":"Warrior / Normal","atk":2300,"def":2100},"rarity":"C","img":"6368038","code":"7","tcg":25216,"grp":299,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"SYE-008","name":"Celtic Guardian","ctype":"monster","keywords":"Celtic Guard Warrior EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Normal","atk":1400,"def":1200},"rarity":"C","img":"91152256","code":"8","tcg":25217,"grp":299,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"SYE-009","name":"Great White","ctype":"monster","keywords":"Shark Fish WATER Normal Monster","stats":{"a":"WATER","l":"Level 4","t":"Fish / Normal","atk":1600,"def":800},"rarity":"C","img":"13429800","code":"9","tcg":25218,"grp":299,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"SYE-010","name":"Giant Soldier of Stone","ctype":"monster","keywords":"Rock EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 3","t":"Rock / Normal","atk":1300,"def":2000},"rarity":"C","img":"13039848","code":"10","tcg":25219,"grp":299,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"SYE-011","name":"Mystic Clown","ctype":"monster","keywords":"Fiend DARK Normal Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Normal","atk":1500,"def":1000},"rarity":"C","img":"47060154","code":"11","tcg":25220,"grp":299,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"SYE-012","name":"Neo the Magic Swordsman","ctype":"monster","keywords":"Spellcaster LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Normal","atk":1700,"def":1000},"rarity":"C","img":"50930991","code":"12","tcg":25221,"grp":299,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"SYE-013","name":"Gazelle the King of Mythical Beasts","ctype":"monster","keywords":"Beast EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 4","t":"Beast / Normal","atk":1500,"def":1200},"rarity":"C","img":"5818798","code":"13","tcg":25222,"grp":299,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"SYE-014","name":"Warrior Dai Grepher","ctype":"monster","keywords":"Grepher Warrior EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Normal","atk":1700,"def":1600},"rarity":"C","img":"75953262","code":"14","tcg":25223,"grp":299,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"SYE-015","name":"Dark Blade","ctype":"monster","keywords":"Dark World Warrior DARK Normal Monster","stats":{"a":"DARK","l":"Level 4","t":"Warrior / Normal","atk":1800,"def":1500},"rarity":"C","img":"11321183","code":"15","tcg":25224,"grp":299,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"SYE-016","name":"Wall of Illusion","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Effect","atk":1000,"def":1850},"rarity":"C","img":"13945283","code":"16","tcg":25225,"grp":299,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"SYE-017","name":"Man-Eater Bug","ctype":"monster","keywords":"Insect EARTH Flip Effect Monster","stats":{"a":"EARTH","l":"Level 2","t":"Insect / Flip / Effect","atk":450,"def":600},"rarity":"C","img":"54652250","code":"17","tcg":25226,"grp":299,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"SYE-018","name":"Sangan","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Fiend / Effect","atk":1000,"def":600},"rarity":"C","img":"26202165","code":"18","tcg":25227,"grp":299,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"SYE-019","name":"Kuriboh","ctype":"monster","keywords":"Kuriboh Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Fiend / Effect","atk":300,"def":200},"rarity":"C","img":"40640057","code":"19","tcg":25228,"grp":299,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"SYE-020","name":"Giant Rat","ctype":"monster","keywords":"Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Beast / Effect","atk":1400,"def":1450},"rarity":"C","img":"97017120","code":"20","tcg":25229,"grp":299,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"SYE-021","name":"Sonic Bird","ctype":"monster","keywords":"Winged Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Winged Beast / Effect","atk":1400,"def":1000},"rarity":"C","img":"57617178","code":"21","tcg":25230,"grp":299,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"SYE-022","name":"Zombyra the Dark","ctype":"monster","keywords":"Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Warrior / Effect","atk":2100,"def":500},"rarity":"C","img":"88472456","code":"22","tcg":25231,"grp":299,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"SYE-023","name":"Royal Magical Library","ctype":"monster","keywords":"Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Effect","atk":0,"def":2000},"rarity":"C","img":"70791313","code":"23","tcg":25232,"grp":299,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"SYE-024","name":"Black Luster Soldier","ctype":"monster","keywords":"Black Luster Soldier Warrior EARTH Ritual Monster","stats":{"a":"EARTH","l":"Level 8","t":"Warrior / Ritual","atk":3000,"def":2500},"rarity":"UR","img":"5405694","code":"24","tcg":23206,"grp":299,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"SYE-025","name":"Black Luster Ritual","ctype":"spell","keywords":"Black Luster Soldier Ritual Spell","stats":{"t":"Ritual Spell"},"rarity":"SR","img":"55761792","code":"25","tcg":23207,"grp":299,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"SYE-026","name":"Dark Hole","ctype":"spell","keywords":"Hole Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"53129443","code":"26","tcg":25233,"grp":299,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"SYE-027","name":"Dian Keto the Cure Master","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"84257640","code":"27","tcg":25234,"grp":299,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"SYE-028","name":"Fissure","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"66788016","code":"28","tcg":25235,"grp":299,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"SYE-029","name":"Monster Reborn","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"83764719","code":"29","tcg":25236,"grp":299,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"SYE-030","name":"Change of Heart","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"4031928","code":"30","tcg":25237,"grp":299,"idx":29},
+    {"id":"031","section":"main","num":"031","printed":"SYE-031","name":"Last Will","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"85602018","code":"31","tcg":25238,"grp":299,"idx":30},
+    {"id":"032","section":"main","num":"032","printed":"SYE-032","name":"Card Destruction","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"72892473","code":"32","tcg":25239,"grp":299,"idx":31},
+    {"id":"033","section":"main","num":"033","printed":"SYE-033","name":"Remove Trap","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"51482758","code":"33","tcg":25240,"grp":299,"idx":32},
+    {"id":"034","section":"main","num":"034","printed":"SYE-034","name":"The Reliable Guardian","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"16430187","code":"34","tcg":25241,"grp":299,"idx":33},
+    {"id":"035","section":"main","num":"035","printed":"SYE-035","name":"Axe of Despair","ctype":"spell","keywords":"Archfiend Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"40619825","code":"35","tcg":25242,"grp":299,"idx":34},
+    {"id":"036","section":"main","num":"036","printed":"SYE-036","name":"Malevolent Nuzzler","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"99597615","code":"36","tcg":25243,"grp":299,"idx":35},
+    {"id":"037","section":"main","num":"037","printed":"SYE-037","name":"Mystical Space Typhoon","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"5318639","code":"37","tcg":25244,"grp":299,"idx":36},
+    {"id":"038","section":"main","num":"038","printed":"SYE-038","name":"Mystic Plasma Zone","ctype":"spell","keywords":"Field Spell","stats":{"t":"Field Spell"},"rarity":"C","img":"18161786","code":"38","tcg":25245,"grp":299,"idx":37},
+    {"id":"039","section":"main","num":"039","printed":"SYE-039","name":"Swords of Revealing Light","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"72302403","code":"39","tcg":25246,"grp":299,"idx":38},
+    {"id":"040","section":"main","num":"040","printed":"SYE-040","name":"Pot of Greed","ctype":"spell","keywords":"Greed Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"55144522","code":"40","tcg":25247,"grp":299,"idx":39},
+    {"id":"041","section":"main","num":"041","printed":"SYE-041","name":"Trap Hole","ctype":"trap","keywords":"Hole Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"4206964","code":"41","tcg":25248,"grp":299,"idx":40},
+    {"id":"042","section":"main","num":"042","printed":"SYE-042","name":"Waboku","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"12607053","code":"42","tcg":25249,"grp":299,"idx":41},
+    {"id":"043","section":"main","num":"043","printed":"SYE-043","name":"Magic Jammer","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"C","img":"77414722","code":"43","tcg":25250,"grp":299,"idx":42},
+    {"id":"044","section":"main","num":"044","printed":"SYE-044","name":"Seven Tools of the Bandit","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"C","img":"3819470","code":"44","tcg":25251,"grp":299,"idx":43},
+    {"id":"045","section":"main","num":"045","printed":"SYE-045","name":"Spellbinding Circle","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"18807109","code":"45","tcg":25252,"grp":299,"idx":44},
+    {"id":"046","section":"main","num":"046","printed":"SYE-046","name":"The Eye of Truth","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"34694160","code":"46","tcg":25253,"grp":299,"idx":45},
+    {"id":"047","section":"main","num":"047","printed":"SYE-047","name":"Backup Soldier","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"36280194","code":"47","tcg":25254,"grp":299,"idx":46},
+    {"id":"048","section":"main","num":"048","printed":"SYE-048","name":"Shift","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"59560625","code":"48","tcg":25255,"grp":299,"idx":47},
+    {"id":"049","section":"main","num":"049","printed":"SYE-049","name":"Disappear","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"24623598","code":"49","tcg":25256,"grp":299,"idx":48},
+    {"id":"050","section":"main","num":"050","printed":"SYE-050","name":"Raigeki Break","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"4178474","code":"50","tcg":25257,"grp":299,"idx":49}
+  ]
+}

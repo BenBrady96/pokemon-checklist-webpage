@@ -1,0 +1,66 @@
+{
+  "id": "yugioh/2015-mega-tins",
+  "game": "yugioh",
+  "slug": "2015-mega-tins",
+  "name": "2015 Mega-Tins",
+  "series": "ARC-V",
+  "kind": "tin",
+  "code": "CT12",
+  "syncKey": "YCT12",
+  "released": "2015-09-17",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "CT12-EN001–CT12-EN006",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from CT12-EN001 to CT12-EN006."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! 2015 Mega-Tins Checklist · All 6 Cards",
+    "description": "Free Yu-Gi-Oh! 2015 Mega-Tins checklist with no ads, no sign-up and no tracking. Track all 6 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! 2015 Mega-Tins Checklist",
+    "ogDescription": "Track all 6 cards in Yu-Gi-Oh! 2015 Mega-Tins. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 6 cards in Yu-Gi-Oh! 2015 Mega-Tins. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About 2015 Mega-Tins",
+    "paragraphs": [
+      "2015 Mega-Tins is a Yu-Gi-Oh! TCG tin released on 17 September 2015, in the ARC-V era. It has 6 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "2015 Mega-Tins"
+    ],
+    "tcgplayer": [
+      1652
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"CT12-EN001","name":"Odd-Eyes Pendulum Dragon","ctype":"monster","keywords":"-Eyes Dragon Dragon DARK Pendulum Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Dragon / Pendulum / Effect","atk":2500,"def":2000},"rarity":"PlScR","img":"16178681","code":"1","tcg":105132,"grp":1652,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"CT12-EN002","name":"Dark Rebellion Xyz Dragon","ctype":"monster","keywords":"Dragon DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 4","t":"Dragon / Xyz","atk":2500,"def":2000},"rarity":"PlScR","img":"16195942","code":"2","tcg":105135,"grp":1652,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"CT12-EN003","name":"Elder Entity Norden","ctype":"monster","keywords":"Fairy WATER Fusion Monster","stats":{"a":"WATER","l":"Level 4","t":"Fairy / Fusion","atk":2000,"def":2200},"rarity":"SR","img":"17412721","code":"3","tcg":105133,"grp":1652,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"CT12-EN004","name":"Majesty's Fiend","ctype":"monster","keywords":"Fiend LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Fiend / Effect","atk":2400,"def":1000},"rarity":"SR","img":"33746252","code":"4","tcg":105134,"grp":1652,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"CT12-EN005","name":"Old Entity Hastorr","ctype":"monster","keywords":"Reptile WIND Synchro Monster","stats":{"a":"WIND","l":"Level 4","t":"Reptile / Synchro","atk":2300,"def":1000},"rarity":"SR","img":"70913714","code":"5","tcg":105136,"grp":1652,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"CT12-EN006","name":"Castel, the Skyblaster Musketeer","ctype":"monster","keywords":"Winged Beast WIND Xyz Monster","stats":{"a":"WIND","l":"Rank 4","t":"Winged Beast / Xyz","atk":2000,"def":1500},"rarity":"SR","img":"82633039","code":"6","tcg":105137,"grp":1652,"idx":5}
+  ]
+}

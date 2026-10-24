@@ -1,0 +1,166 @@
+{
+  "id": "yugioh/force-of-the-breaker",
+  "game": "yugioh",
+  "slug": "force-of-the-breaker",
+  "name": "Force of the Breaker",
+  "series": "GX",
+  "kind": "expansion",
+  "code": "FOTB",
+  "syncKey": "YFOTB",
+  "released": "2007-05-16",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Main Set",
+      "range": "FOTB-EN000–FOTB-EN068",
+      "tier": "standard"
+    },
+    {
+      "id": "rarities",
+      "name": "Other Rarities",
+      "short": "Other Rarities",
+      "range": "25 cards",
+      "tier": "master"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Main set"
+    ],
+    [
+      "rarities",
+      "Other rarities"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, SCR12, 60x2",
+    "example": "1-20, 45x2, SCR12",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies. Other rarities use their short name and number: <b>SCR12</b> is card 12’s Secret Rare, and ranges work too (<b>QCSR1-QCSR20</b>).",
+    "empty": "Cards run from FOTB-EN000 to FOTB-EN068."
+  },
+  "help": {
+    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 69 cards, each in its main rarity. Master adds the 25 other rarities. Cards you’ve marked are kept when you switch."
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Force of the Breaker Checklist · All 69 Cards",
+    "description": "Free Yu-Gi-Oh! Force of the Breaker checklist with no ads, no sign-up and no tracking. Track all 69 cards, or every rarity for a master set, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Force of the Breaker Checklist",
+    "ogDescription": "Track all 69 cards in Yu-Gi-Oh! Force of the Breaker, plus 25 other rarities. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 69 cards in Yu-Gi-Oh! Force of the Breaker. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About the Force of the Breaker set",
+    "paragraphs": [
+      "Force of the Breaker is a Yu-Gi-Oh! TCG booster set released on 16 May 2007, in the GX era. It has 69 cards, and with the 25 other rarities there are 94 to collect in all.",
+      "Choose what you’re collecting: the <b>Standard set</b> (the 69 cards, each in its main rarity) or the <b>Master set</b> (all 94, adding the 25 other rarities).",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Force of the Breaker"
+    ],
+    "tcgplayer": [
+      208
+    ]
+  },
+  "cards": [
+    {"id":"000","section":"main","num":"000","printed":"FOTB-EN000","name":"Volcanic Rocket","ctype":"monster","keywords":"Volcanic Pyro FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Pyro / Effect","atk":1900,"def":1400},"rarity":"ScR","img":"76459806","code":"0","tcg":25786,"grp":208,"idx":0},
+    {"id":"001","section":"main","num":"001","printed":"FOTB-EN001","name":"Crystal Beast Ruby Carbuncle","ctype":"monster","keywords":"Crystal Beast Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Fairy / Effect","atk":300,"def":300},"rarity":"C","img":"32710364","code":"1","tcg":25725,"grp":208,"idx":1},
+    {"id":"002","section":"main","num":"002","printed":"FOTB-EN002","name":"Crystal Beast Amethyst Cat","ctype":"monster","keywords":"Crystal Beast Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Beast / Effect","atk":1200,"def":400},"rarity":"C","img":"32933942","code":"2","tcg":25726,"grp":208,"idx":2},
+    {"id":"003","section":"main","num":"003","printed":"FOTB-EN003","name":"Crystal Beast Emerald Tortoise","ctype":"monster","keywords":"Crystal Beast Aqua WATER Effect Monster","stats":{"a":"WATER","l":"Level 3","t":"Aqua / Effect","atk":600,"def":2000},"rarity":"C","img":"68215963","code":"3","tcg":25727,"grp":208,"idx":3},
+    {"id":"004","section":"main","num":"004","printed":"FOTB-EN004","name":"Crystal Beast Topaz Tiger","ctype":"monster","keywords":"Crystal Beast Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Beast / Effect","atk":1600,"def":1000},"rarity":"R","img":"95600067","code":"4","tcg":25728,"grp":208,"idx":4},
+    {"id":"004-utr","section":"rarities","num":"004","printed":"FOTB-EN004","name":"Crystal Beast Topaz Tiger","ctype":"monster","keywords":"Crystal Beast Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Beast / Effect","atk":1600,"def":1000},"rarity":"UtR","img":"95600067","badge":"UtR","variant":"Ultimate Rare","code":"UTR4","tcg":58538,"grp":208,"idx":5},
+    {"id":"005","section":"main","num":"005","printed":"FOTB-EN005","name":"Crystal Beast Amber Mammoth","ctype":"monster","keywords":"Crystal Beast Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Beast / Effect","atk":1700,"def":1600},"rarity":"C","img":"69937550","code":"5","tcg":25729,"grp":208,"idx":6},
+    {"id":"006","section":"main","num":"006","printed":"FOTB-EN006","name":"Crystal Beast Cobalt Eagle","ctype":"monster","keywords":"Crystal Beast Winged Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Winged Beast / Effect","atk":1400,"def":800},"rarity":"C","img":"21698716","code":"6","tcg":25730,"grp":208,"idx":7},
+    {"id":"007","section":"main","num":"007","printed":"FOTB-EN007","name":"Crystal Beast Sapphire Pegasus","ctype":"monster","keywords":"Crystal Beast Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Beast / Effect","atk":1800,"def":1200},"rarity":"UR","img":"7093411","code":"7","tcg":25731,"grp":208,"idx":8},
+    {"id":"007-utr","section":"rarities","num":"007","printed":"FOTB-EN007","name":"Crystal Beast Sapphire Pegasus","ctype":"monster","keywords":"Crystal Beast Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Beast / Effect","atk":1800,"def":1200},"rarity":"UtR","img":"7093411","badge":"UtR","variant":"Ultimate Rare","code":"UTR7","tcg":58539,"grp":208,"idx":9},
+    {"id":"008","section":"main","num":"008","printed":"FOTB-EN008","name":"Volcanic Doomfire","ctype":"monster","keywords":"Volcanic Pyro FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 8","t":"Pyro / Effect","atk":3000,"def":1800},"rarity":"UR","img":"32543380","code":"8","tcg":25732,"grp":208,"idx":10},
+    {"id":"008-utr","section":"rarities","num":"008","printed":"FOTB-EN008","name":"Volcanic Doomfire","ctype":"monster","keywords":"Volcanic Pyro FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 8","t":"Pyro / Effect","atk":3000,"def":1800},"rarity":"UtR","img":"32543380","badge":"UtR","variant":"Ultimate Rare","code":"UTR8","tcg":58540,"grp":208,"idx":11},
+    {"id":"009","section":"main","num":"009","printed":"FOTB-EN009","name":"Volcanic Shell","ctype":"monster","keywords":"Volcanic Pyro FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 1","t":"Pyro / Effect","atk":100,"def":0},"rarity":"R","img":"33365932","code":"9","tcg":25733,"grp":208,"idx":12},
+    {"id":"009-utr","section":"rarities","num":"009","printed":"FOTB-EN009","name":"Volcanic Shell","ctype":"monster","keywords":"Volcanic Pyro FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 1","t":"Pyro / Effect","atk":100,"def":0},"rarity":"UtR","img":"33365932","badge":"UtR","variant":"Ultimate Rare","code":"UTR9","tcg":58596,"grp":208,"idx":13},
+    {"id":"010","section":"main","num":"010","printed":"FOTB-EN010","name":"Volcanic Scattershot","ctype":"monster","keywords":"Volcanic Pyro FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 2","t":"Pyro / Effect","atk":500,"def":0},"rarity":"C","img":"69750546","code":"10","tcg":25734,"grp":208,"idx":14},
+    {"id":"011","section":"main","num":"011","printed":"FOTB-EN011","name":"Volcanic Blaster","ctype":"monster","keywords":"Volcanic Pyro FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 3","t":"Pyro / Effect","atk":1200,"def":600},"rarity":"C","img":"81020140","code":"11","tcg":25735,"grp":208,"idx":15},
+    {"id":"012","section":"main","num":"012","printed":"FOTB-EN012","name":"Volcanic Slicer","ctype":"monster","keywords":"Volcanic Pyro FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Pyro / Effect","atk":1800,"def":1200},"rarity":"R","img":"17415895","code":"12","tcg":25736,"grp":208,"idx":16},
+    {"id":"012-utr","section":"rarities","num":"012","printed":"FOTB-EN012","name":"Volcanic Slicer","ctype":"monster","keywords":"Volcanic Pyro FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Pyro / Effect","atk":1800,"def":1200},"rarity":"UtR","img":"17415895","badge":"UtR","variant":"Ultimate Rare","code":"UTR12","tcg":58597,"grp":208,"idx":17},
+    {"id":"013","section":"main","num":"013","printed":"FOTB-EN013","name":"Volcanic Hammerer","ctype":"monster","keywords":"Volcanic Pyro FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 5","t":"Pyro / Effect","atk":2400,"def":1500},"rarity":"C","img":"54514594","code":"13","tcg":25737,"grp":208,"idx":18},
+    {"id":"014","section":"main","num":"014","printed":"FOTB-EN014","name":"Elemental HERO Captain Gold","ctype":"monster","keywords":"Elemental HERO Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Effect","atk":2100,"def":800},"rarity":"UR","img":"80908502","code":"14","tcg":25738,"grp":208,"idx":19},
+    {"id":"014-utr","section":"rarities","num":"014","printed":"FOTB-EN014","name":"Elemental HERO Captain Gold","ctype":"monster","keywords":"Elemental HERO Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Effect","atk":2100,"def":800},"rarity":"UtR","img":"80908502","badge":"UtR","variant":"Ultimate Rare","code":"UTR14","tcg":58598,"grp":208,"idx":20},
+    {"id":"015","section":"main","num":"015","printed":"FOTB-EN015","name":"Gravekeeper's Commandant","ctype":"monster","keywords":"Gravekeeper's Spellcaster EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Spellcaster / Effect","atk":1600,"def":1500},"rarity":"R","img":"17393207","code":"15","tcg":25739,"grp":208,"idx":21},
+    {"id":"015-utr","section":"rarities","num":"015","printed":"FOTB-EN015","name":"Gravekeeper's Commandant","ctype":"monster","keywords":"Gravekeeper's Spellcaster EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Spellcaster / Effect","atk":1600,"def":1500},"rarity":"UtR","img":"17393207","badge":"UtR","variant":"Ultimate Rare","code":"UTR15","tcg":58599,"grp":208,"idx":22},
+    {"id":"016","section":"main","num":"016","printed":"FOTB-EN016","name":"Warrior of Atlantis","ctype":"monster","keywords":"Aqua WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Aqua / Effect","atk":1900,"def":1200},"rarity":"R","img":"43797906","code":"16","tcg":25740,"grp":208,"idx":23},
+    {"id":"016-utr","section":"rarities","num":"016","printed":"FOTB-EN016","name":"Warrior of Atlantis","ctype":"monster","keywords":"Aqua WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Aqua / Effect","atk":1900,"def":1200},"rarity":"UtR","img":"43797906","badge":"UtR","variant":"Ultimate Rare","code":"UTR16","tcg":58600,"grp":208,"idx":24},
+    {"id":"017","section":"main","num":"017","printed":"FOTB-EN017","name":"Destroyersaurus","ctype":"monster","keywords":"Dinosaur EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Dinosaur / Effect","atk":1800,"def":1100},"rarity":"R","img":"80186010","code":"17","tcg":25741,"grp":208,"idx":25},
+    {"id":"017-utr","section":"rarities","num":"017","printed":"FOTB-EN017","name":"Destroyersaurus","ctype":"monster","keywords":"Dinosaur EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Dinosaur / Effect","atk":1800,"def":1100},"rarity":"UtR","img":"80186010","badge":"UtR","variant":"Ultimate Rare","code":"UTR17","tcg":58601,"grp":208,"idx":26},
+    {"id":"018","section":"main","num":"018","printed":"FOTB-EN018","name":"Zeradias, Herald of Heaven","ctype":"monster","keywords":"Herald Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fairy / Effect","atk":2100,"def":800},"rarity":"R","img":"12171659","code":"18","tcg":25742,"grp":208,"idx":27},
+    {"id":"018-utr","section":"rarities","num":"018","printed":"FOTB-EN018","name":"Zeradias, Herald of Heaven","ctype":"monster","keywords":"Herald Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fairy / Effect","atk":2100,"def":800},"rarity":"UtR","img":"12171659","badge":"UtR","variant":"Ultimate Rare","code":"UTR18","tcg":58602,"grp":208,"idx":28},
+    {"id":"019","section":"main","num":"019","printed":"FOTB-EN019","name":"Archfiend General","ctype":"monster","keywords":"Archfiend Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Effect","atk":2100,"def":800},"rarity":"R","img":"48675364","code":"19","tcg":25743,"grp":208,"idx":29},
+    {"id":"019-utr","section":"rarities","num":"019","printed":"FOTB-EN019","name":"Archfiend General","ctype":"monster","keywords":"Archfiend Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Effect","atk":2100,"def":800},"rarity":"UtR","img":"48675364","badge":"UtR","variant":"Ultimate Rare","code":"UTR19","tcg":58603,"grp":208,"idx":30},
+    {"id":"020","section":"main","num":"020","printed":"FOTB-EN020","name":"Harpie Queen","ctype":"monster","keywords":"Harpie Winged Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Winged Beast / Effect","atk":1900,"def":1200},"rarity":"R","img":"75064463","code":"20","tcg":25744,"grp":208,"idx":31},
+    {"id":"020-utr","section":"rarities","num":"020","printed":"FOTB-EN020","name":"Harpie Queen","ctype":"monster","keywords":"Harpie Winged Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Winged Beast / Effect","atk":1900,"def":1200},"rarity":"UtR","img":"75064463","badge":"UtR","variant":"Ultimate Rare","code":"UTR20","tcg":58604,"grp":208,"idx":32},
+    {"id":"021","section":"main","num":"021","printed":"FOTB-EN021","name":"Sky Scourge Enrise","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Fairy / Effect","atk":2400,"def":1500},"rarity":"SR","img":"11458071","code":"21","tcg":25745,"grp":208,"idx":33},
+    {"id":"021-utr","section":"rarities","num":"021","printed":"FOTB-EN021","name":"Sky Scourge Enrise","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Fairy / Effect","atk":2400,"def":1500},"rarity":"UtR","img":"11458071","badge":"UtR","variant":"Ultimate Rare","code":"UTR21","tcg":58605,"grp":208,"idx":34},
+    {"id":"022","section":"main","num":"022","printed":"FOTB-EN022","name":"Sky Scourge Norleras","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Fiend / Effect","atk":2400,"def":1500},"rarity":"SR","img":"48453776","code":"22","tcg":25746,"grp":208,"idx":35},
+    {"id":"022-utr","section":"rarities","num":"022","printed":"FOTB-EN022","name":"Sky Scourge Norleras","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Fiend / Effect","atk":2400,"def":1500},"rarity":"UtR","img":"48453776","badge":"UtR","variant":"Ultimate Rare","code":"UTR22","tcg":58606,"grp":208,"idx":36},
+    {"id":"023","section":"main","num":"023","printed":"FOTB-EN023","name":"Sky Scourge Invicil","ctype":"monster","keywords":"Fairy EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 6","t":"Fairy / Effect","atk":2200,"def":1600},"rarity":"SR","img":"74841885","code":"23","tcg":25747,"grp":208,"idx":37},
+    {"id":"023-utr","section":"rarities","num":"023","printed":"FOTB-EN023","name":"Sky Scourge Invicil","ctype":"monster","keywords":"Fairy EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 6","t":"Fairy / Effect","atk":2200,"def":1600},"rarity":"UtR","img":"74841885","badge":"UtR","variant":"Ultimate Rare","code":"UTR23","tcg":58607,"grp":208,"idx":38},
+    {"id":"024","section":"main","num":"024","printed":"FOTB-EN024","name":"Goe Goe the Gallant Ninja","ctype":"monster","keywords":"Ninja Warrior WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Warrior / Effect","atk":1500,"def":1000},"rarity":"R","img":"10236520","code":"24","tcg":25748,"grp":208,"idx":39},
+    {"id":"024-utr","section":"rarities","num":"024","printed":"FOTB-EN024","name":"Goe Goe the Gallant Ninja","ctype":"monster","keywords":"Ninja Warrior WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Warrior / Effect","atk":1500,"def":1000},"rarity":"UtR","img":"10236520","badge":"UtR","variant":"Ultimate Rare","code":"UTR24","tcg":58608,"grp":208,"idx":40},
+    {"id":"025","section":"main","num":"025","printed":"FOTB-EN025","name":"Mei-Kou, Master of Barriers","ctype":"monster","keywords":"Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Effect","atk":1700,"def":600},"rarity":"C","img":"47731128","code":"25","tcg":25749,"grp":208,"idx":41},
+    {"id":"026","section":"main","num":"026","printed":"FOTB-EN026","name":"Raiza the Storm Monarch","ctype":"monster","keywords":"Monarch Winged Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 6","t":"Winged Beast / Effect","atk":2400,"def":1000},"rarity":"SR","img":"73125233","code":"26","tcg":25750,"grp":208,"idx":42},
+    {"id":"026-utr","section":"rarities","num":"026","printed":"FOTB-EN026","name":"Raiza the Storm Monarch","ctype":"monster","keywords":"Monarch Winged Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 6","t":"Winged Beast / Effect","atk":2400,"def":1000},"rarity":"UtR","img":"73125233","badge":"UtR","variant":"Ultimate Rare","code":"UTR26","tcg":58609,"grp":208,"idx":43},
+    {"id":"027","section":"main","num":"027","printed":"FOTB-EN027","name":"Seismic Crasher","ctype":"monster","keywords":"Rock EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Rock / Effect","atk":1400,"def":300},"rarity":"C","img":"114932","code":"27","tcg":25751,"grp":208,"idx":44},
+    {"id":"028","section":"main","num":"028","printed":"FOTB-EN028","name":"Dweller in the Depths","ctype":"monster","keywords":"Dragon EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Dragon / Effect","atk":1500,"def":700},"rarity":"C","img":"46508640","code":"28","tcg":25752,"grp":208,"idx":45},
+    {"id":"029","section":"main","num":"029","printed":"FOTB-EN029","name":"Magna-Slash Dragon","ctype":"monster","keywords":"Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Dragon / Effect","atk":2400,"def":1200},"rarity":"C","img":"72903645","code":"29","tcg":25753,"grp":208,"idx":46},
+    {"id":"030","section":"main","num":"030","printed":"FOTB-EN030","name":"Gravi-Crush Dragon","ctype":"monster","keywords":"Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Dragon / Effect","atk":2400,"def":1200},"rarity":"C","img":"9391354","code":"30","tcg":25754,"grp":208,"idx":47},
+    {"id":"031","section":"main","num":"031","printed":"FOTB-EN031","name":"Soul of Fire","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"95026693","code":"31","tcg":25755,"grp":208,"idx":48},
+    {"id":"031-utr","section":"rarities","num":"031","printed":"FOTB-EN031","name":"Soul of Fire","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UtR","img":"95026693","badge":"UtR","variant":"Ultimate Rare","code":"UTR31","tcg":58610,"grp":208,"idx":49},
+    {"id":"032","section":"main","num":"032","printed":"FOTB-EN032","name":"Crystal Beacon","ctype":"spell","keywords":"Crystal Beast Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"95326659","code":"32","tcg":25756,"grp":208,"idx":50},
+    {"id":"033","section":"main","num":"033","printed":"FOTB-EN033","name":"Rare Value","ctype":"spell","keywords":"Crystal Beast Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UR","img":"60876124","code":"33","tcg":25757,"grp":208,"idx":51},
+    {"id":"033-utr","section":"rarities","num":"033","printed":"FOTB-EN033","name":"Rare Value","ctype":"spell","keywords":"Crystal Beast Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UtR","img":"60876124","badge":"UtR","variant":"Ultimate Rare","code":"UTR33","tcg":58611,"grp":208,"idx":52},
+    {"id":"034","section":"main","num":"034","printed":"FOTB-EN034","name":"Crystal Blessing","ctype":"spell","keywords":"Crystal Beast Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"35486099","code":"34","tcg":25758,"grp":208,"idx":53},
+    {"id":"035","section":"main","num":"035","printed":"FOTB-EN035","name":"Crystal Abundance","ctype":"spell","keywords":"Crystal Beast Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"72881007","code":"35","tcg":25759,"grp":208,"idx":54},
+    {"id":"036","section":"main","num":"036","printed":"FOTB-EN036","name":"Crystal Promise","ctype":"spell","keywords":"Crystal Beast Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"8275702","code":"36","tcg":25760,"grp":208,"idx":55},
+    {"id":"037","section":"main","num":"037","printed":"FOTB-EN037","name":"Lucky Iron Axe","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"R","img":"34664411","code":"37","tcg":25761,"grp":208,"idx":56},
+    {"id":"037-utr","section":"rarities","num":"037","printed":"FOTB-EN037","name":"Lucky Iron Axe","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"UtR","img":"34664411","badge":"UtR","variant":"Ultimate Rare","code":"UTR37","tcg":58612,"grp":208,"idx":57},
+    {"id":"038","section":"main","num":"038","printed":"FOTB-EN038","name":"Tornado","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"61068510","code":"38","tcg":25762,"grp":208,"idx":58},
+    {"id":"039","section":"main","num":"039","printed":"FOTB-EN039","name":"Wild Fire","ctype":"spell","keywords":"Blaze Accelerator Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"68815401","code":"39","tcg":25763,"grp":208,"idx":59},
+    {"id":"040","section":"main","num":"040","printed":"FOTB-EN040","name":"Blaze Accelerator","ctype":"spell","keywords":"Blaze Accelerator Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"69537999","code":"40","tcg":25764,"grp":208,"idx":60},
+    {"id":"041","section":"main","num":"041","printed":"FOTB-EN041","name":"Tri-Blaze Accelerator","ctype":"spell","keywords":"Blaze Accelerator Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"SR","img":"21420702","code":"41","tcg":25765,"grp":208,"idx":61},
+    {"id":"041-utr","section":"rarities","num":"041","printed":"FOTB-EN041","name":"Tri-Blaze Accelerator","ctype":"spell","keywords":"Blaze Accelerator Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"UtR","img":"21420702","badge":"UtR","variant":"Ultimate Rare","code":"UTR41","tcg":58541,"grp":208,"idx":62},
+    {"id":"042","section":"main","num":"042","printed":"FOTB-EN042","name":"Field Barrier","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"7153114","code":"42","tcg":25766,"grp":208,"idx":63},
+    {"id":"043","section":"main","num":"043","printed":"FOTB-EN043","name":"\"A\" Cell Breeding Device","ctype":"spell","keywords":"Alien Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"34541863","code":"43","tcg":25767,"grp":208,"idx":64},
+    {"id":"044","section":"main","num":"044","printed":"FOTB-EN044","name":"Otherworld - The \"A\" Zone","ctype":"spell","keywords":"Alien Field Spell","stats":{"t":"Field Spell"},"rarity":"C","img":"60946968","code":"44","tcg":25768,"grp":208,"idx":65},
+    {"id":"045","section":"main","num":"045","printed":"FOTB-EN045","name":"Ancient City - Rainbow Ruins","ctype":"spell","keywords":"Crystal Beast Field Spell","stats":{"t":"Field Spell"},"rarity":"R","img":"34487429","code":"45","tcg":25769,"grp":208,"idx":66},
+    {"id":"045-utr","section":"rarities","num":"045","printed":"FOTB-EN045","name":"Ancient City - Rainbow Ruins","ctype":"spell","keywords":"Crystal Beast Field Spell","stats":{"t":"Field Spell"},"rarity":"UtR","img":"34487429","badge":"UtR","variant":"Ultimate Rare","code":"UTR45","tcg":58542,"grp":208,"idx":67},
+    {"id":"046","section":"main","num":"046","printed":"FOTB-EN046","name":"Triggered Summon","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"R","img":"96148285","code":"46","tcg":25770,"grp":208,"idx":68},
+    {"id":"046-utr","section":"rarities","num":"046","printed":"FOTB-EN046","name":"Triggered Summon","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"UtR","img":"96148285","badge":"UtR","variant":"Ultimate Rare","code":"UTR46","tcg":58543,"grp":208,"idx":69},
+    {"id":"047","section":"main","num":"047","printed":"FOTB-EN047","name":"Last Resort","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"97970833","code":"47","tcg":25771,"grp":208,"idx":70},
+    {"id":"048","section":"main","num":"048","printed":"FOTB-EN048","name":"Crystal Raigeki","ctype":"trap","keywords":"Crystal Beast Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"96331676","code":"48","tcg":25772,"grp":208,"idx":71},
+    {"id":"049","section":"main","num":"049","printed":"FOTB-EN049","name":"Volcanic Recharge","ctype":"trap","keywords":"Volcanic Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"33725271","code":"49","tcg":25773,"grp":208,"idx":72},
+    {"id":"050","section":"main","num":"050","printed":"FOTB-EN050","name":"Terrible Deal","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"69724380","code":"50","tcg":25774,"grp":208,"idx":73},
+    {"id":"051","section":"main","num":"051","printed":"FOTB-EN051","name":"Breakthrough!","ctype":"trap","keywords":"Six Samurai Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"96218085","code":"51","tcg":25775,"grp":208,"idx":74},
+    {"id":"052","section":"main","num":"052","printed":"FOTB-EN052","name":"Backs to the Wall","ctype":"trap","keywords":"Six Samurai Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"32603633","code":"52","tcg":25776,"grp":208,"idx":75},
+    {"id":"053","section":"main","num":"053","printed":"FOTB-EN053","name":"Introduction to Gallantry","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"69091732","code":"53","tcg":25777,"grp":208,"idx":76},
+    {"id":"054","section":"main","num":"054","printed":"FOTB-EN054","name":"Secrets of the Gallant","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"95096437","code":"54","tcg":25778,"grp":208,"idx":77},
+    {"id":"055","section":"main","num":"055","printed":"FOTB-EN055","name":"Radiant Mirror Force","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"21481146","code":"55","tcg":25779,"grp":208,"idx":78},
+    {"id":"055-utr","section":"rarities","num":"055","printed":"FOTB-EN055","name":"Radiant Mirror Force","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"UtR","img":"21481146","badge":"UtR","variant":"Ultimate Rare","code":"UTR55","tcg":58544,"grp":208,"idx":79},
+    {"id":"056","section":"main","num":"056","printed":"FOTB-EN056","name":"Hard-sellin' Goblin","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"68875140","code":"56","tcg":25780,"grp":208,"idx":80},
+    {"id":"057","section":"main","num":"057","printed":"FOTB-EN057","name":"Hard-sellin' Zombie","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"94374859","code":"57","tcg":25781,"grp":208,"idx":81},
+    {"id":"058","section":"main","num":"058","printed":"FOTB-EN058","name":"Mass Hypnosis","ctype":"trap","keywords":"Alien Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"21768554","code":"58","tcg":25782,"grp":208,"idx":82},
+    {"id":"059","section":"main","num":"059","printed":"FOTB-EN059","name":"Gem Flash Energy","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"57753602","code":"59","tcg":25783,"grp":208,"idx":83},
+    {"id":"060","section":"main","num":"060","printed":"FOTB-EN060","name":"Firewall","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"R","img":"94804055","code":"60","tcg":25784,"grp":208,"idx":84},
+    {"id":"060-utr","section":"rarities","num":"060","printed":"FOTB-EN060","name":"Firewall","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"UtR","img":"94804055","badge":"UtR","variant":"Ultimate Rare","code":"UTR60","tcg":58545,"grp":208,"idx":85},
+    {"id":"061","section":"main","num":"061","printed":"FOTB-EN061","name":"Diabolos, King of the Abyss","ctype":"monster","keywords":"Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Dragon / Effect","atk":2800,"def":1000},"rarity":"ScR","img":"29424328","code":"61","tcg":25787,"grp":208,"idx":86},
+    {"id":"062","section":"main","num":"062","printed":"FOTB-EN062","name":"Lich Lord, King of the Underworld","ctype":"monster","keywords":"Zombie DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Zombie / Effect","atk":2400,"def":1200},"rarity":"ScR","img":"55818463","code":"62","tcg":25788,"grp":208,"idx":87},
+    {"id":"063","section":"main","num":"063","printed":"FOTB-EN063","name":"Prometheus, King of the Shadows","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Effect","atk":1200,"def":800},"rarity":"ScR","img":"82213171","code":"63","tcg":25789,"grp":208,"idx":88},
+    {"id":"064","section":"main","num":"064","printed":"FOTB-EN064","name":"Mist Archfiend","ctype":"monster","keywords":"Archfiend Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 5","t":"Fiend / Effect","atk":2400,"def":0},"rarity":"ScR","img":"28601770","code":"64","tcg":25790,"grp":208,"idx":89},
+    {"id":"065","section":"main","num":"065","printed":"FOTB-EN065","name":"Plague Wolf","ctype":"monster","keywords":"Zombie DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Zombie / Effect","atk":1000,"def":1000},"rarity":"ScR","img":"55696885","code":"65","tcg":25791,"grp":208,"idx":90},
+    {"id":"066","section":"main","num":"066","printed":"FOTB-EN066","name":"Recurring Nightmare","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"ScR","img":"81191584","code":"66","tcg":25792,"grp":208,"idx":91},
+    {"id":"067","section":"main","num":"067","printed":"FOTB-EN067","name":"Sword of Dark Rites","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"ScR","img":"17589298","code":"67","tcg":25793,"grp":208,"idx":92},
+    {"id":"068","section":"main","num":"068","printed":"FOTB-EN068","name":"Eradicator Epidemic Virus","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"ScR","img":"54974237","code":"68","tcg":25794,"grp":208,"idx":93}
+  ]
+}

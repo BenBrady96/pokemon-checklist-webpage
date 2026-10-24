@@ -1,0 +1,98 @@
+{
+  "id": "yugioh/structure-deck-marik-tcg",
+  "game": "yugioh",
+  "slug": "structure-deck-marik-tcg",
+  "name": "Structure Deck: Marik (TCG)",
+  "series": "5D’s",
+  "kind": "deck",
+  "code": "SDMA",
+  "syncKey": "YSDMA",
+  "released": "2010-10-15",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "SDMA-EN001–SDMA-EN038",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from SDMA-EN001 to SDMA-EN038."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Structure Deck: Marik (TCG) Checklist · All 38 Cards",
+    "description": "Free Yu-Gi-Oh! Structure Deck: Marik (TCG) checklist with no ads, no sign-up and no tracking. Track all 38 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Structure Deck: Marik (TCG) Checklist",
+    "ogDescription": "Track all 38 cards in Yu-Gi-Oh! Structure Deck: Marik (TCG). Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 38 cards in Yu-Gi-Oh! Structure Deck: Marik (TCG). Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Structure Deck: Marik (TCG)",
+    "paragraphs": [
+      "Structure Deck: Marik (TCG) is a Yu-Gi-Oh! TCG deck released on 15 October 2010, in the 5D’s era. It has 38 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Structure Deck: Marik (TCG)"
+    ],
+    "tcgplayer": [
+      321
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"SDMA-EN001","name":"Gil Garth","ctype":"monster","keywords":"Fiend DARK Normal Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Normal","atk":1800,"def":1200},"rarity":"C","img":"38445524","code":"1","tcg":38453,"grp":321,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"SDMA-EN002","name":"Mystic Tomato","ctype":"monster","keywords":"Plant DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Plant / Effect","atk":1400,"def":1100},"rarity":"C","img":"83011278","code":"2","tcg":38454,"grp":321,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"SDMA-EN003","name":"Viser Des","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Effect","atk":500,"def":1200},"rarity":"C","img":"56043447","code":"3","tcg":38455,"grp":321,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"SDMA-EN004","name":"Legendary Fiend","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Fiend / Effect","atk":1500,"def":1800},"rarity":"C","img":"99747800","code":"4","tcg":38456,"grp":321,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"SDMA-EN005","name":"Dark Jeroid","ctype":"monster","keywords":"Roid Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Effect","atk":1200,"def":1500},"rarity":"C","img":"90980792","code":"5","tcg":38457,"grp":321,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"SDMA-EN006","name":"Newdoria","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Effect","atk":1200,"def":800},"rarity":"C","img":"4335645","code":"6","tcg":38458,"grp":321,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"SDMA-EN007","name":"Gravekeeper's Spy","ctype":"monster","keywords":"Gravekeeper's Spellcaster DARK Flip Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Flip / Effect","atk":1200,"def":2000},"rarity":"C","img":"24317029","code":"7","tcg":38459,"grp":321,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"SDMA-EN008","name":"Gravekeeper's Curse","ctype":"monster","keywords":"Gravekeeper's Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Spellcaster / Effect","atk":800,"def":800},"rarity":"C","img":"50712728","code":"8","tcg":38460,"grp":321,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"SDMA-EN009","name":"Gravekeeper's Guard","ctype":"monster","keywords":"Gravekeeper's Spellcaster DARK Flip Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Flip / Effect","atk":1000,"def":1900},"rarity":"C","img":"37101832","code":"9","tcg":38461,"grp":321,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"SDMA-EN010","name":"Gravekeeper's Spear Soldier","ctype":"monster","keywords":"Gravekeeper's Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Effect","atk":1500,"def":1000},"rarity":"C","img":"63695531","code":"10","tcg":38462,"grp":321,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"SDMA-EN011","name":"Gravekeeper's Chief","ctype":"monster","keywords":"Gravekeeper's Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 5","t":"Spellcaster / Effect","atk":1900,"def":1200},"rarity":"C","img":"62473983","code":"11","tcg":38463,"grp":321,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"SDMA-EN012","name":"Gravekeeper's Cannonholder","ctype":"monster","keywords":"Gravekeeper's Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Effect","atk":1400,"def":1200},"rarity":"C","img":"99877698","code":"12","tcg":38464,"grp":321,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"SDMA-EN013","name":"Gravekeeper's Assailant","ctype":"monster","keywords":"Gravekeeper's Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Effect","atk":1500,"def":1500},"rarity":"C","img":"25262697","code":"13","tcg":38465,"grp":321,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"SDMA-EN014","name":"Lava Golem","ctype":"monster","keywords":"Fiend FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 8","t":"Fiend / Effect","atk":3000,"def":2500},"rarity":"UR","img":"102380","code":"14","tcg":38466,"grp":321,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"SDMA-EN015","name":"Drillago","ctype":"monster","keywords":"Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Machine / Effect","atk":1600,"def":1100},"rarity":"C","img":"99050989","code":"15","tcg":38467,"grp":321,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"SDMA-EN016","name":"Bowganian","ctype":"monster","keywords":"Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Machine / Effect","atk":1300,"def":1000},"rarity":"C","img":"52090844","code":"16","tcg":38468,"grp":321,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"SDMA-EN017","name":"Gravekeeper's Commandant","ctype":"monster","keywords":"Gravekeeper's Spellcaster EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Spellcaster / Effect","atk":1600,"def":1500},"rarity":"C","img":"17393207","code":"17","tcg":38469,"grp":321,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"SDMA-EN018","name":"Gravekeeper's Visionary","ctype":"monster","keywords":"Gravekeeper's Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Spellcaster / Effect","atk":2000,"def":1800},"rarity":"C","img":"3825890","code":"18","tcg":38470,"grp":321,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"SDMA-EN019","name":"Gravekeeper's Descendant","ctype":"monster","keywords":"Gravekeeper's Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Effect","atk":1500,"def":1200},"rarity":"C","img":"30213599","code":"19","tcg":38471,"grp":321,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"SDMA-EN020","name":"Mystical Space Typhoon","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"5318639","code":"20","tcg":38472,"grp":321,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"SDMA-EN021","name":"Nightmare's Steelcage","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"58775978","code":"21","tcg":38473,"grp":321,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"SDMA-EN022","name":"Creature Swap","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"31036355","code":"22","tcg":38474,"grp":321,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"SDMA-EN023","name":"Book of Moon","ctype":"spell","keywords":"Book of Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"14087893","code":"23","tcg":38475,"grp":321,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"SDMA-EN024","name":"Dark Room of Nightmare","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"85562745","code":"24","tcg":38476,"grp":321,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"SDMA-EN025","name":"Necrovalley","ctype":"spell","keywords":"Gravekeeper's Field Spell","stats":{"t":"Field Spell"},"rarity":"C","img":"47355498","code":"25","tcg":38477,"grp":321,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"SDMA-EN026","name":"Foolish Burial","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"81439174","code":"26","tcg":38478,"grp":321,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"SDMA-EN027","name":"Magical Stone Excavation","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"98494543","code":"27","tcg":38479,"grp":321,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"SDMA-EN028","name":"Allure of Darkness","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"1475311","code":"28","tcg":38480,"grp":321,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"SDMA-EN029","name":"Acid Trap Hole","ctype":"trap","keywords":"Hole Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"41356845","code":"29","tcg":38481,"grp":321,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"SDMA-EN030","name":"Mirror Force","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"44095762","code":"30","tcg":38482,"grp":321,"idx":29},
+    {"id":"031","section":"main","num":"031","printed":"SDMA-EN031","name":"Skull Invitation","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"98139712","code":"31","tcg":38483,"grp":321,"idx":30},
+    {"id":"032","section":"main","num":"032","printed":"SDMA-EN032","name":"Coffin Seller","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"65830223","code":"32","tcg":38484,"grp":321,"idx":31},
+    {"id":"033","section":"main","num":"033","printed":"SDMA-EN033","name":"Nightmare Wheel","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"54704216","code":"33","tcg":38485,"grp":321,"idx":32},
+    {"id":"034","section":"main","num":"034","printed":"SDMA-EN034","name":"Metal Reflect Slime","ctype":"trap","keywords":"Slime Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"26905245","code":"34","tcg":38486,"grp":321,"idx":33},
+    {"id":"035","section":"main","num":"035","printed":"SDMA-EN035","name":"Malevolent Catastrophe","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"1224927","code":"35","tcg":38487,"grp":321,"idx":34},
+    {"id":"036","section":"main","num":"036","printed":"SDMA-EN036","name":"Dark Illusion","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"C","img":"5562461","code":"36","tcg":38488,"grp":321,"idx":35},
+    {"id":"037","section":"main","num":"037","printed":"SDMA-EN037","name":"Mystical Beast of Serket","ctype":"monster","keywords":"Fairy EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 6","t":"Fairy / Effect","atk":2500,"def":2000},"rarity":"UR","img":"89194033","code":"37","tcg":38489,"grp":321,"idx":36},
+    {"id":"038","section":"main","num":"038","printed":"SDMA-EN038","name":"Temple of the Kings","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"UR","img":"29762407","code":"38","tcg":38490,"grp":321,"idx":37}
+  ]
+}

@@ -1,4 +1,4 @@
-import { loadCatalog, collectionUrl } from '../core/catalog.js';
+import { loadCatalog, collectionUrl, entryById, groupByGame } from '../core/catalog.js';
 import { fetchCollection, fetchPrices } from '../core/collection.js';
 import { asset } from '../core/paths.js';
 import * as storage from '../core/storage.js';
@@ -41,7 +41,7 @@ const setRates = (s) => (s.rates[currency()] > 0 ? s.rates : worth.rates);
 const money = (usd, rates, options = {}) => formatMoney(usd, { currency: currency(), rates, ...options });
 const amount = (n, options = {}) => formatAmount(n, currency(), options);
 const local = (usd, rates) => convert(usd, currency(), rates) ?? usd;
-const setInfo = (id) => catalog.collections.find((c) => c.id === id) || { id, name: id };
+const setInfo = (id) => entryById(catalog, id) || { id, name: id };
 const direction = (diff, threshold) => (Math.abs(diff) < threshold ? 'flat' : diff > 0 ? 'up' : 'down');
 const signed = (diff, format) => `${diff > 0 ? '+' : '−'}${format(Math.abs(diff))}`;
 
@@ -225,7 +225,7 @@ function renderSets() {
   hint.hidden = !prev;
   if (prev) hint.textContent = `Change since your last visit, ${shortDate(parseDay(prev.d).getTime())}.`;
   const sets = (worth?.sets || []).filter((s) => s.unique).sort((a, b) => b.usd - a.usd);
-  $('sets').replaceChildren(...sets.map((s) => {
+  const row = (s) => {
     const info = setInfo(s.id);
     const summary = storage.readRecord(s.id)?.summary;
     const progress = summary?.total ? `${summary.owned}/${summary.total} · ${percent.format(Math.floor((summary.owned / summary.total) * 100) / 100)}` : plural(s.unique, 'card', 'cards');
@@ -242,6 +242,19 @@ function renderSets() {
         el('span', { class: 'pf-row__logo' }, info.logo ? el('img', { src: asset(info.logo), alt: '', loading: 'lazy', decoding: 'async' }) : null),
         el('span', { class: 'pf-row__main' }, el('b', { text: info.name }), el('small', { text: `${progress}${extra}` })),
         el('span', { class: 'pf-row__side' }, el('b', { text: s.loaded ? money(s.usd, setRates(s)) : 'n/a' }), change)));
+  };
+  const groups = groupByGame(catalog, sets.map((s) => s.id));
+  if (groups.length < 2) {
+    $('sets').replaceChildren(...sets.map(row));
+    return;
+  }
+  $('sets').replaceChildren(...groups.flatMap(({ game, ids }) => {
+    const mine = sets.filter((s) => ids.includes(s.id));
+    const total = mine.reduce((n, s) => n + (s.loaded ? local(s.usd, setRates(s)) : 0), 0);
+    return [
+      el('li', { class: 'list-game pf-game' }, el('h3', { class: 'list-game__title' }, game.name, el('span', { class: 'pf-game__total', text: amount(total) }))),
+      ...mine.map(row),
+    ];
   }));
 }
 

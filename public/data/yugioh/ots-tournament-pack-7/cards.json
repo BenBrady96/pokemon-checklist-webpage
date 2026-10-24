@@ -1,0 +1,99 @@
+{
+  "id": "yugioh/ots-tournament-pack-7",
+  "game": "yugioh",
+  "slug": "ots-tournament-pack-7",
+  "name": "OTS Tournament Pack 7",
+  "series": "VRAINS",
+  "kind": "pack",
+  "code": "OP07",
+  "syncKey": "YOP07",
+  "released": "2018-04-13",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "OP07-EN001–OP07-EN026",
+      "tier": "standard"
+    },
+    {
+      "id": "rarities",
+      "name": "Other Rarities",
+      "short": "Other Rarities",
+      "range": "1 card",
+      "tier": "master"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Main set"
+    ],
+    [
+      "rarities",
+      "Other rarities"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, SCR12, 60x2",
+    "example": "1-20, 45x2, SCR12",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies. Other rarities use their short name and number: <b>SCR12</b> is card 12’s Secret Rare, and ranges work too (<b>QCSR1-QCSR20</b>).",
+    "empty": "Cards run from OP07-EN001 to OP07-EN026."
+  },
+  "help": {
+    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 26 cards, each in its main rarity. Master adds the 1 other rarity. Cards you’ve marked are kept when you switch."
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! OTS Tournament Pack 7 Checklist · All 26 Cards",
+    "description": "Free Yu-Gi-Oh! OTS Tournament Pack 7 checklist with no ads, no sign-up and no tracking. Track all 26 cards, or every rarity for a master set, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! OTS Tournament Pack 7 Checklist",
+    "ogDescription": "Track all 26 cards in Yu-Gi-Oh! OTS Tournament Pack 7, plus 1 other rarity. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 26 cards in Yu-Gi-Oh! OTS Tournament Pack 7. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About OTS Tournament Pack 7",
+    "paragraphs": [
+      "OTS Tournament Pack 7 is a Yu-Gi-Oh! TCG pack released on 13 April 2018, in the VRAINS era. It has 26 cards, and with the 1 other rarity there are 27 to collect in all.",
+      "Choose what you’re collecting: the <b>Standard set</b> (the 26 cards, each in its main rarity) or the <b>Master set</b> (all 27, adding the 1 other rarity).",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "OTS Tournament Pack 7"
+    ],
+    "tcgplayer": [
+      2228
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"OP07-EN001","name":"Herald of Orange Light","ctype":"monster","keywords":"Herald Fairy LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 2","t":"Fairy / Tuner","atk":300,"def":500},"rarity":"UtR","img":"17266660","code":"1","tcg":164861,"grp":2228,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"OP07-EN002","name":"Link Spider","ctype":"monster","keywords":"Cyberse EARTH Link Monster","stats":{"a":"EARTH","l":"Link 1","t":"Cyberse / Link","atk":1000},"rarity":"UtR","img":"98978921","code":"2","tcg":164860,"grp":2228,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"OP07-EN003","name":"Cosmic Cyclone","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"UtR","img":"8267140","code":"3","tcg":164862,"grp":2228,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"OP07-EN004","name":"Royal Magical Library","ctype":"monster","keywords":"Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Effect","atk":0,"def":2000},"rarity":"SR","img":"70791313","code":"4","tcg":164863,"grp":2228,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"OP07-EN005","name":"SPYRAL Tough","ctype":"monster","keywords":"SPYRAL Warrior WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Warrior / Effect","atk":1900,"def":1500},"rarity":"SR","img":"20584712","code":"5","tcg":164864,"grp":2228,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"OP07-EN006","name":"World Legacy - \"World Chalice\"","ctype":"monster","keywords":"World Legacy Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 5","t":"Machine / Effect","atk":0,"def":0},"rarity":"SR","img":"57288708","code":"6","tcg":164865,"grp":2228,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"OP07-EN007","name":"Destrudo the Lost Dragon's Frisson","ctype":"monster","keywords":"Dragon DARK Tuner Monster","stats":{"a":"DARK","l":"Level 7","t":"Dragon / Tuner","atk":1000,"def":3000},"rarity":"SR","img":"5560911","code":"7","tcg":164866,"grp":2228,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"OP07-EN008","name":"Magical Citadel of Endymion","ctype":"spell","keywords":"Endymion Field Spell","stats":{"t":"Field Spell"},"rarity":"SR","img":"39910367","code":"8","tcg":164868,"grp":2228,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"OP07-EN009","name":"Fossil Dig","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"47325505","code":"9","tcg":164869,"grp":2228,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"OP07-EN010","name":"Divine Punishment","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"SR","img":"81066751","code":"10","tcg":164870,"grp":2228,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"OP07-EN011","name":"Paleozoic Dinomischus","ctype":"trap","keywords":"Paleozoic Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"38761908","code":"11","tcg":164871,"grp":2228,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"OP07-EN012","name":"Paleozoic Marrella","ctype":"trap","keywords":"Paleozoic Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"64765016","code":"12","tcg":164872,"grp":2228,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"OP07-EN013","name":"Paleozoic Leanchoilia","ctype":"trap","keywords":"Paleozoic Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"1154611","code":"13","tcg":164873,"grp":2228,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"OP07-EN014","name":"Prickle Fairy","ctype":"monster","keywords":"Plant EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Plant / Effect","atk":300,"def":2000},"rarity":"C","img":"91559748","code":"14","tcg":164874,"grp":2228,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"OP07-EN015","name":"Insect Princess","ctype":"monster","keywords":"Insect WIND Effect Monster","stats":{"a":"WIND","l":"Level 6","t":"Insect / Effect","atk":1900,"def":1200},"rarity":"C","img":"37957847","code":"15","tcg":164875,"grp":2228,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"OP07-EN016","name":"Zeradias, Herald of Heaven","ctype":"monster","keywords":"Herald Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fairy / Effect","atk":2100,"def":800},"rarity":"C","img":"12171659","code":"16","tcg":164876,"grp":2228,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"OP07-EN017","name":"Book of Life","ctype":"spell","keywords":"Book of Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"2204140","code":"17","tcg":164867,"grp":2228,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"OP07-EN018","name":"Rare Value","ctype":"spell","keywords":"Crystal Beast Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"60876124","code":"18","tcg":164877,"grp":2228,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"OP07-EN019","name":"Zombie World","ctype":"spell","keywords":"Field Spell","stats":{"t":"Field Spell"},"rarity":"C","img":"4064256","code":"19","tcg":164878,"grp":2228,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"OP07-EN020","name":"Spell Power Grasp","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"75014062","code":"20","tcg":164879,"grp":2228,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"OP07-EN021","name":"Wavering Eyes","ctype":"spell","keywords":"Magician Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"31222701","code":"21","tcg":164881,"grp":2228,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"OP07-EN022","name":"Pitch-Black Power Stone","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"34029630","code":"22","tcg":164885,"grp":2228,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"OP07-EN023","name":"Token Feastevil","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"83675475","code":"23","tcg":164886,"grp":2228,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"OP07-EN024","name":"Lucky Chance","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"96012004","code":"24","tcg":164888,"grp":2228,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"OP07-EN025","name":"Blowback Dragon","ctype":"monster","keywords":"Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Machine / Effect","atk":2300,"def":1200},"rarity":"SP","img":"25551951","code":"25","tcg":164889,"grp":2228,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"OP07-EN026","name":"Gatling Dragon","ctype":"monster","keywords":"Machine DARK Fusion Monster","stats":{"a":"DARK","l":"Level 8","t":"Machine / Fusion","atk":2600,"def":1200},"rarity":"C","img":"87751584","code":"26","tcg":164891,"grp":2228,"idx":25},
+    {"id":"026-sp","section":"rarities","num":"026","printed":"OP07-EN026","name":"Gatling Dragon","ctype":"monster","keywords":"Machine DARK Fusion Monster","stats":{"a":"DARK","l":"Level 8","t":"Machine / Fusion","atk":2600,"def":1200},"rarity":"SP","img":"87751584","badge":"SP","variant":"Short Print","code":"SP26","tcg":164891,"grp":2228,"idx":26}
+  ]
+}

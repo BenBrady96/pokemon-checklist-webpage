@@ -1,0 +1,101 @@
+{
+  "id": "yugioh/rise-of-the-true-dragons-structure-deck",
+  "game": "yugioh",
+  "slug": "rise-of-the-true-dragons-structure-deck",
+  "name": "Rise of the True Dragons Structure Deck",
+  "series": "ARC-V",
+  "kind": "deck",
+  "code": "SR02",
+  "syncKey": "YSR02",
+  "released": "2016-07-07",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "SR02-EN000–SR02-EN040",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from SR02-EN000 to SR02-EN040."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Rise of the True Dragons Structure Deck Checklist · All 41 Cards",
+    "description": "Free Yu-Gi-Oh! Rise of the True Dragons Structure Deck checklist with no ads, no sign-up and no tracking. Track all 41 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Rise of the True Dragons Structure Deck Checklist",
+    "ogDescription": "Track all 41 cards in Yu-Gi-Oh! Rise of the True Dragons Structure Deck. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 41 cards in Yu-Gi-Oh! Rise of the True Dragons Structure Deck. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Rise of the True Dragons Structure Deck",
+    "paragraphs": [
+      "Rise of the True Dragons Structure Deck is a Yu-Gi-Oh! TCG deck released on 7 July 2016, in the ARC-V era. It has 41 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Rise of the True Dragons Structure Deck"
+    ],
+    "tcgplayer": [
+      1802
+    ]
+  },
+  "cards": [
+    {"id":"000","section":"main","num":"000","printed":"SR02-EN000","name":"Arkbrave Dragon","ctype":"monster","keywords":"Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 7","t":"Dragon / Effect","atk":2400,"def":2000},"rarity":"UR","img":"33282498","code":"0","tcg":120288,"grp":1802,"idx":0},
+    {"id":"001","section":"main","num":"001","printed":"SR02-EN001","name":"Divine Dragon Lord Felgrand","ctype":"monster","keywords":"Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Effect","atk":2800,"def":2800},"rarity":"UR","img":"60681103","code":"1","tcg":120289,"grp":1802,"idx":1},
+    {"id":"002","section":"main","num":"002","printed":"SR02-EN002","name":"Dragon Knight of Creation","ctype":"monster","keywords":"Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Dragon / Effect","atk":1800,"def":600},"rarity":"SR","img":"87835759","code":"2","tcg":120290,"grp":1802,"idx":2},
+    {"id":"003","section":"main","num":"003","printed":"SR02-EN003","name":"Paladin of Felgrand","ctype":"monster","keywords":"Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Effect","atk":1700,"def":300},"rarity":"C","img":"6075801","code":"3","tcg":120291,"grp":1802,"idx":3},
+    {"id":"004","section":"main","num":"004","printed":"SR02-EN004","name":"Guardian of Felgrand","ctype":"monster","keywords":"Guardian Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Effect","atk":500,"def":500},"rarity":"C","img":"33460840","code":"4","tcg":120292,"grp":1802,"idx":4},
+    {"id":"005","section":"main","num":"005","printed":"SR02-EN005","name":"Felgrand Dragon","ctype":"monster","keywords":"Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Effect","atk":2800,"def":2800},"rarity":"C","img":"3954901","code":"5","tcg":120293,"grp":1802,"idx":5},
+    {"id":"006","section":"main","num":"006","printed":"SR02-EN006","name":"Darkblaze Dragon","ctype":"monster","keywords":"Dragon FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 7","t":"Dragon / Effect","atk":1200,"def":1000},"rarity":"C","img":"39343610","code":"6","tcg":120294,"grp":1802,"idx":6},
+    {"id":"007","section":"main","num":"007","printed":"SR02-EN007","name":"Herald of Creation","ctype":"monster","keywords":"Herald Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Effect","atk":1800,"def":600},"rarity":"C","img":"66337215","code":"7","tcg":120295,"grp":1802,"idx":7},
+    {"id":"008","section":"main","num":"008","printed":"SR02-EN008","name":"Decoy Dragon","ctype":"monster","keywords":"Dragon FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 2","t":"Dragon / Effect","atk":300,"def":200},"rarity":"C","img":"2732323","code":"8","tcg":120296,"grp":1802,"idx":8},
+    {"id":"009","section":"main","num":"009","printed":"SR02-EN009","name":"Red-Eyes Darkness Metal Dragon","ctype":"monster","keywords":"Red-Eyes Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 10","t":"Dragon / Effect","atk":2800,"def":2400},"rarity":"C","img":"88264978","code":"9","tcg":120297,"grp":1802,"idx":9},
+    {"id":"010","section":"main","num":"010","printed":"SR02-EN010","name":"Red-Eyes Wyvern","ctype":"monster","keywords":"Red-Eyes Dragon WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Dragon / Effect","atk":1800,"def":1600},"rarity":"C","img":"67300516","code":"10","tcg":120298,"grp":1802,"idx":10},
+    {"id":"011","section":"main","num":"011","printed":"SR02-EN011","name":"White Night Dragon","ctype":"monster","keywords":"Dragon WATER Effect Monster","stats":{"a":"WATER","l":"Level 8","t":"Dragon / Effect","atk":3000,"def":2500},"rarity":"C","img":"79473793","code":"11","tcg":120299,"grp":1802,"idx":11},
+    {"id":"012","section":"main","num":"012","printed":"SR02-EN012","name":"Darkstorm Dragon","ctype":"monster","keywords":"Dragon DARK Gemini Monster","stats":{"a":"DARK","l":"Level 8","t":"Dragon / Gemini","atk":2700,"def":2500},"rarity":"C","img":"57662975","code":"12","tcg":120300,"grp":1802,"idx":12},
+    {"id":"013","section":"main","num":"013","printed":"SR02-EN013","name":"Armed Protector Dragon","ctype":"monster","keywords":"Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Effect","atk":2000,"def":2800},"rarity":"C","img":"29330706","code":"13","tcg":120301,"grp":1802,"idx":13},
+    {"id":"014","section":"main","num":"014","printed":"SR02-EN014","name":"Evilswarm Zahak","ctype":"monster","keywords":"Lswarm Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Dragon / Effect","atk":1850,"def":850},"rarity":"C","img":"3536537","code":"14","tcg":120302,"grp":1802,"idx":14},
+    {"id":"015","section":"main","num":"015","printed":"SR02-EN015","name":"Eclipse Wyvern","ctype":"monster","keywords":"Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Dragon / Effect","atk":1600,"def":1000},"rarity":"C","img":"51858306","code":"15","tcg":120303,"grp":1802,"idx":15},
+    {"id":"016","section":"main","num":"016","printed":"SR02-EN016","name":"White Dragon Wyverburster","ctype":"monster","keywords":"Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Dragon / Effect","atk":1700,"def":1800},"rarity":"C","img":"99234526","code":"16","tcg":120304,"grp":1802,"idx":16},
+    {"id":"017","section":"main","num":"017","printed":"SR02-EN017","name":"Black Dragon Collapserpent","ctype":"monster","keywords":"Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Dragon / Effect","atk":1800,"def":1700},"rarity":"C","img":"61901281","code":"17","tcg":120305,"grp":1802,"idx":17},
+    {"id":"018","section":"main","num":"018","printed":"SR02-EN018","name":"Keeper of the Shrine","ctype":"monster","keywords":"Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Dragon / Effect","atk":0,"def":2100},"rarity":"C","img":"66752837","code":"18","tcg":120306,"grp":1802,"idx":18},
+    {"id":"019","section":"main","num":"019","printed":"SR02-EN019","name":"Kidmodo Dragon","ctype":"monster","keywords":"Dragon EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Dragon / Effect","atk":100,"def":200},"rarity":"C","img":"35629124","code":"19","tcg":120307,"grp":1802,"idx":19},
+    {"id":"020","section":"main","num":"020","printed":"SR02-EN020","name":"Jain, Lightsworn Paladin","ctype":"monster","keywords":"Lightsworn Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Effect","atk":1800,"def":1200},"rarity":"C","img":"96235275","code":"20","tcg":120308,"grp":1802,"idx":20},
+    {"id":"021","section":"main","num":"021","printed":"SR02-EN021","name":"Ehren, Lightsworn Monk","ctype":"monster","keywords":"Lightsworn Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Effect","atk":1600,"def":1000},"rarity":"C","img":"44178886","code":"21","tcg":120309,"grp":1802,"idx":21},
+    {"id":"022","section":"main","num":"022","printed":"SR02-EN022","name":"Raiden, Hand of the Lightsworn","ctype":"monster","keywords":"Lightsworn Warrior LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Tuner","atk":1700,"def":1000},"rarity":"C","img":"77558536","code":"22","tcg":120310,"grp":1802,"idx":22},
+    {"id":"023","section":"main","num":"023","printed":"SR02-EN023","name":"Card Trooper","ctype":"monster","keywords":"Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Machine / Effect","atk":400,"def":400},"rarity":"C","img":"85087012","code":"23","tcg":120311,"grp":1802,"idx":23},
+    {"id":"024","section":"main","num":"024","printed":"SR02-EN024","name":"Ruins of the Divine Dragon Lords","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"SR","img":"69868555","code":"24","tcg":120312,"grp":1802,"idx":24},
+    {"id":"025","section":"main","num":"025","printed":"SR02-EN025","name":"Return of the Dragon Lords","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"6853254","code":"25","tcg":120313,"grp":1802,"idx":25},
+    {"id":"026","section":"main","num":"026","printed":"SR02-EN026","name":"Dragon Ravine","ctype":"spell","keywords":"Dragunity Field Spell","stats":{"t":"Field Spell"},"rarity":"C","img":"62265044","code":"26","tcg":120314,"grp":1802,"idx":26},
+    {"id":"027","section":"main","num":"027","printed":"SR02-EN027","name":"A Wingbeat of Giant Dragon","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"28596933","code":"27","tcg":120315,"grp":1802,"idx":27},
+    {"id":"028","section":"main","num":"028","printed":"SR02-EN028","name":"Trade-In","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"38120068","code":"28","tcg":120316,"grp":1802,"idx":28},
+    {"id":"029","section":"main","num":"029","printed":"SR02-EN029","name":"Foolish Burial","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"81439174","code":"29","tcg":120317,"grp":1802,"idx":29},
+    {"id":"030","section":"main","num":"030","printed":"SR02-EN030","name":"Hand Destruction","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"74519184","code":"30","tcg":120318,"grp":1802,"idx":30},
+    {"id":"031","section":"main","num":"031","printed":"SR02-EN031","name":"Reinforcement of the Army","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"32807846","code":"31","tcg":120319,"grp":1802,"idx":31},
+    {"id":"032","section":"main","num":"032","printed":"SR02-EN032","name":"The Warrior Returning Alive","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"95281259","code":"32","tcg":120320,"grp":1802,"idx":32},
+    {"id":"033","section":"main","num":"033","printed":"SR02-EN033","name":"Charge of the Light Brigade","ctype":"spell","keywords":"Lightsworn Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"94886282","code":"33","tcg":120321,"grp":1802,"idx":33},
+    {"id":"034","section":"main","num":"034","printed":"SR02-EN034","name":"Terraforming","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"73628505","code":"34","tcg":120322,"grp":1802,"idx":34},
+    {"id":"035","section":"main","num":"035","printed":"SR02-EN035","name":"Dragon's Rebirth","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"20638610","code":"35","tcg":120323,"grp":1802,"idx":35},
+    {"id":"036","section":"main","num":"036","printed":"SR02-EN036","name":"Burst Breath","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"80163754","code":"36","tcg":120324,"grp":1802,"idx":36},
+    {"id":"037","section":"main","num":"037","printed":"SR02-EN037","name":"Needlebug Nest","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"84968490","code":"37","tcg":120325,"grp":1802,"idx":37},
+    {"id":"038","section":"main","num":"038","printed":"SR02-EN038","name":"Breakthrough Skill","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"78474168","code":"38","tcg":120326,"grp":1802,"idx":38},
+    {"id":"039","section":"main","num":"039","printed":"SR02-EN039","name":"Call of the Haunted","ctype":"trap","keywords":"Call of the Haunted Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"97077563","code":"39","tcg":120327,"grp":1802,"idx":39},
+    {"id":"040","section":"main","num":"040","printed":"SR02-EN040","name":"Oasis of Dragon Souls","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"39122311","code":"40","tcg":120328,"grp":1802,"idx":40}
+  ]
+}

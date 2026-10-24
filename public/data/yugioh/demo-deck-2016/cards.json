@@ -1,0 +1,80 @@
+{
+  "id": "yugioh/demo-deck-2016",
+  "game": "yugioh",
+  "slug": "demo-deck-2016",
+  "name": "Demo Deck 2016",
+  "series": "ARC-V",
+  "kind": "deck",
+  "code": "DEM3",
+  "syncKey": "YDEM3",
+  "released": "2016-01-14",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "DEM3-EN001–DEM3-EN020",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from DEM3-EN001 to DEM3-EN020."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Demo Deck 2016 Checklist · All 20 Cards",
+    "description": "Free Yu-Gi-Oh! Demo Deck 2016 checklist with no ads, no sign-up and no tracking. Track all 20 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Demo Deck 2016 Checklist",
+    "ogDescription": "Track all 20 cards in Yu-Gi-Oh! Demo Deck 2016. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 20 cards in Yu-Gi-Oh! Demo Deck 2016. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Demo Deck 2016",
+    "paragraphs": [
+      "Demo Deck 2016 is a Yu-Gi-Oh! TCG deck released on 14 January 2016, in the ARC-V era. It has 20 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Demo Deck 2016"
+    ],
+    "tcgplayer": [
+      2682
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"DEM3-EN001","name":"Mystical Elf","ctype":"monster","keywords":"Spellcaster LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Normal","atk":800,"def":2000},"rarity":"C","img":"15025844","code":"1","tcg":217858,"grp":2682,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"DEM3-EN002","name":"Dragon Horn Hunter","ctype":"monster","keywords":"Warrior DARK Pendulum Normal Monster","stats":{"a":"DARK","l":"Level 6","t":"Warrior / Pendulum / Normal","atk":2300,"def":1000},"rarity":"C","img":"21970285","code":"2","tcg":217859,"grp":2682,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"DEM3-EN003","name":"Flash Knight","ctype":"monster","keywords":"Warrior LIGHT Pendulum Normal Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Pendulum / Normal","atk":1800,"def":600},"rarity":"C","img":"17390179","code":"3","tcg":217860,"grp":2682,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"DEM3-EN004","name":"Foucault's Cannon","ctype":"monster","keywords":"Spellcaster DARK Pendulum Normal Monster","stats":{"a":"DARK","l":"Level 5","t":"Spellcaster / Pendulum / Normal","atk":2200,"def":1200},"rarity":"C","img":"43785278","code":"4","tcg":217861,"grp":2682,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"DEM3-EN005","name":"Lancephorhynchus","ctype":"monster","keywords":"Dinosaur WIND Pendulum Normal Monster","stats":{"a":"WIND","l":"Level 6","t":"Dinosaur / Pendulum / Normal","atk":2500,"def":800},"rarity":"C","img":"48940337","code":"5","tcg":217862,"grp":2682,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"DEM3-EN006","name":"Dragoons of Draconia","ctype":"monster","keywords":"Draconia Beast-Warrior FIRE Pendulum Normal Monster","stats":{"a":"FIRE","l":"Level 4","t":"Beast-Warrior / Pendulum / Normal","atk":1800,"def":200},"rarity":"C","img":"73779005","code":"6","tcg":217863,"grp":2682,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"DEM3-EN007","name":"Old Vindictive Magician","ctype":"monster","keywords":"Spellcaster DARK Flip Effect Monster","stats":{"a":"DARK","l":"Level 2","t":"Spellcaster / Flip / Effect","atk":450,"def":600},"rarity":"C","img":"45141844","code":"7","tcg":217864,"grp":2682,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"DEM3-EN008","name":"Aether, the Empowering Dragon","ctype":"monster","keywords":"Aether Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Dragon / Effect","atk":2300,"def":1600},"rarity":"C","img":"56804361","code":"8","tcg":217865,"grp":2682,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"DEM3-EN009","name":"Blue Dragon Summoner","ctype":"monster","keywords":"Spellcaster WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Spellcaster / Effect","atk":1500,"def":600},"rarity":"C","img":"55969226","code":"9","tcg":217866,"grp":2682,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"DEM3-EN010","name":"Battleguard King","ctype":"monster","keywords":"Battleguard Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 8","t":"Warrior / Effect","atk":3000,"def":1100},"rarity":"C","img":"39389320","code":"10","tcg":217867,"grp":2682,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"DEM3-EN011","name":"Doomstar Magician","ctype":"monster","keywords":"Magician Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Effect","atk":1800,"def":300},"rarity":"C","img":"58369990","code":"11","tcg":217868,"grp":2682,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"DEM3-EN012","name":"Dark Hole","ctype":"spell","keywords":"Hole Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"53129443","code":"12","tcg":217869,"grp":2682,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"DEM3-EN013","name":"Riryoku","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"34016756","code":"13","tcg":217872,"grp":2682,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"DEM3-EN014","name":"Nightmare's Steelcage","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"58775978","code":"14","tcg":217873,"grp":2682,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"DEM3-EN015","name":"Wonder Wand","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"67775894","code":"15","tcg":217875,"grp":2682,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"DEM3-EN016","name":"Bashing Shield","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"88610708","code":"16","tcg":217877,"grp":2682,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"DEM3-EN017","name":"Mirror Force","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"44095762","code":"17","tcg":217878,"grp":2682,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"DEM3-EN018","name":"Reckless Greed","ctype":"trap","keywords":"Greed Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"37576645","code":"18","tcg":217879,"grp":2682,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"DEM3-EN019","name":"Defense Draw","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"24268052","code":"19","tcg":217881,"grp":2682,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"DEM3-EN020","name":"Inspiration","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"25005816","code":"20","tcg":217883,"grp":2682,"idx":19}
+  ]
+}

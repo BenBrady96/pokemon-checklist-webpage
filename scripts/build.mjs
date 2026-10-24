@@ -1,8 +1,8 @@
 import { access, cp, mkdir, readdir, readFile, rm, stat, writeFile } from 'node:fs/promises';
 import { dirname, join, relative, sep } from 'node:path';
-import { COMING_SOON, CONFIG } from './lib/collections.mjs';
+import { COMING_SOON, CONFIG, LIVE_GAMES } from './lib/collections.mjs';
 import { GUIDES } from '../config/guides/index.mjs';
-import { collectionPage, comingSoonPage, guidePage, homePage, listPage, portfolioPage, sharedPage, sitemap, tradePage, withAnalytics } from './lib/pages.mjs';
+import { collectionPage, comingSoonPage, gamePage, guidePage, listPage, portfolioPage, rootPage, sharedPage, sitemap, tradePage, withAnalytics } from './lib/pages.mjs';
 import { DEFAULT_URL, INDEXNOW_KEY, PUBLIC, ROOT } from './lib/util.mjs';
 
 const OUT = join(ROOT, 'dist');
@@ -43,7 +43,8 @@ for (const file of URL_FILES) {
   await writeFile(path, finish(file, (await readFile(path, 'utf8')).split(DEFAULT_URL).join(SITE_URL)));
 }
 
-await emit('index.html', await homePage({ siteUrl: SITE_URL, today: TODAY }));
+await emit('index.html', await rootPage({ siteUrl: SITE_URL }));
+for (const game of LIVE_GAMES) await emit(`${game}/index.html`, await gamePage(game, { siteUrl: SITE_URL, today: TODAY }));
 await emit('portfolio/index.html', await portfolioPage({ siteUrl: SITE_URL }));
 await emit('trade/index.html', await tradePage({ siteUrl: SITE_URL }));
 await emit('list/index.html', await listPage({ siteUrl: SITE_URL }));

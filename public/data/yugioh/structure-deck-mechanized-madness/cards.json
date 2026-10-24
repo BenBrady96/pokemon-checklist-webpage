@@ -1,0 +1,101 @@
+{
+  "id": "yugioh/structure-deck-mechanized-madness",
+  "game": "yugioh",
+  "slug": "structure-deck-mechanized-madness",
+  "name": "Structure Deck: Mechanized Madness",
+  "series": "VRAINS",
+  "kind": "deck",
+  "code": "SR10",
+  "syncKey": "YSR10",
+  "released": "2020-04-16",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "SR10-EN001–SR10-EN041",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from SR10-EN001 to SR10-EN041."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Structure Deck: Mechanized Madness Checklist · All 41 Cards",
+    "description": "Free Yu-Gi-Oh! Structure Deck: Mechanized Madness checklist with no ads, no sign-up and no tracking. Track all 41 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Structure Deck: Mechanized Madness Checklist",
+    "ogDescription": "Track all 41 cards in Yu-Gi-Oh! Structure Deck: Mechanized Madness. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 41 cards in Yu-Gi-Oh! Structure Deck: Mechanized Madness. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Structure Deck: Mechanized Madness",
+    "paragraphs": [
+      "Structure Deck: Mechanized Madness is a Yu-Gi-Oh! TCG deck released on 16 April 2020, in the VRAINS era. It has 41 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Structure Deck: Mechanized Madness"
+    ],
+    "tcgplayer": [
+      2617
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"SR10-EN001","name":"Machina Citadel","ctype":"monster","keywords":"Machina Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 10","t":"Machine / Effect","atk":3000,"def":2500},"rarity":"UR","img":"87074380","code":"1","tcg":212641,"grp":2617,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"SR10-EN002","name":"Machina Air Raider","ctype":"monster","keywords":"Machina Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 8","t":"Machine / Effect","atk":1500,"def":2600},"rarity":"SR","img":"23469398","code":"2","tcg":212642,"grp":2617,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"SR10-EN003","name":"Machina Irradiator","ctype":"monster","keywords":"Machina Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 8","t":"Machine / Effect","atk":1700,"def":2400},"rarity":"C","img":"50863093","code":"3","tcg":212643,"grp":2617,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"SR10-EN004","name":"Machina Fortress","ctype":"monster","keywords":"Machina Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 7","t":"Machine / Effect","atk":2500,"def":1600},"rarity":"C","img":"5556499","code":"4","tcg":212644,"grp":2617,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"SR10-EN005","name":"Machina Gearframe","ctype":"monster","keywords":"Machina Machine EARTH Union Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Machine / Union / Effect","atk":1800,"def":0},"rarity":"C","img":"42940404","code":"5","tcg":212645,"grp":2617,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"SR10-EN006","name":"Machina Peacekeeper","ctype":"monster","keywords":"Machina Machine EARTH Union Effect Monster","stats":{"a":"EARTH","l":"Level 2","t":"Machine / Union / Effect","atk":500,"def":400},"rarity":"C","img":"78349103","code":"6","tcg":212646,"grp":2617,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"SR10-EN007","name":"Machina Force","ctype":"monster","keywords":"Machina Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 10","t":"Machine / Effect","atk":4600,"def":4100},"rarity":"C","img":"58054262","code":"7","tcg":212647,"grp":2617,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"SR10-EN008","name":"Machina Megaform","ctype":"monster","keywords":"Machina Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 8","t":"Machine / Effect","atk":2600,"def":1500},"rarity":"C","img":"51617185","code":"8","tcg":212648,"grp":2617,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"SR10-EN009","name":"Machina Cannon","ctype":"monster","keywords":"Machina Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 8","t":"Machine / Effect","atk":0,"def":2200},"rarity":"C","img":"39284521","code":"9","tcg":212649,"grp":2617,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"SR10-EN010","name":"Machina Soldier","ctype":"monster","keywords":"Machina Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Machine / Effect","atk":1600,"def":1500},"rarity":"C","img":"60999392","code":"10","tcg":212650,"grp":2617,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"SR10-EN011","name":"Machina Sniper","ctype":"monster","keywords":"Machina Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Machine / Effect","atk":1800,"def":800},"rarity":"C","img":"23782705","code":"11","tcg":212651,"grp":2617,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"SR10-EN012","name":"Machina Defender","ctype":"monster","keywords":"Machina Machine EARTH Flip Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Machine / Flip / Effect","atk":1200,"def":1800},"rarity":"C","img":"96384007","code":"12","tcg":212652,"grp":2617,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"SR10-EN013","name":"Commander Covington","ctype":"monster","keywords":"Machina Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Machine / Effect","atk":1000,"def":600},"rarity":"C","img":"22666164","code":"13","tcg":212653,"grp":2617,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"SR10-EN014","name":"Jizukiru, the Star Destroying Kaiju","ctype":"monster","keywords":"Kaiju Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 10","t":"Machine / Effect","atk":3300,"def":2600},"rarity":"C","img":"63941210","code":"14","tcg":212654,"grp":2617,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"SR10-EN015","name":"Snow Plow Hustle Rustle","ctype":"monster","keywords":"Train Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 10","t":"Machine / Effect","atk":2500,"def":3000},"rarity":"C","img":"24731453","code":"15","tcg":212655,"grp":2617,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"SR10-EN016","name":"Genex Ally Birdman","ctype":"monster","keywords":"Genex Machine DARK Tuner Monster","stats":{"a":"DARK","l":"Level 3","t":"Machine / Tuner","atk":1400,"def":400},"rarity":"C","img":"64034255","code":"16","tcg":212656,"grp":2617,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"SR10-EN017","name":"Scrap Recycler","ctype":"monster","keywords":"Scrap Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Machine / Effect","atk":900,"def":1200},"rarity":"C","img":"4334811","code":"17","tcg":212657,"grp":2617,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"SR10-EN018","name":"Torque Tune Gear","ctype":"monster","keywords":"Machine LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Machine / Tuner","atk":0,"def":0},"rarity":"C","img":"79538761","code":"18","tcg":212658,"grp":2617,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"SR10-EN019","name":"Righty Driver","ctype":"monster","keywords":"Machine EARTH Tuner Monster","stats":{"a":"EARTH","l":"Level 1","t":"Machine / Tuner","atk":100,"def":300},"rarity":"C","img":"60071928","code":"19","tcg":212659,"grp":2617,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"SR10-EN020","name":"Lefty Driver","ctype":"monster","keywords":"Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 2","t":"Machine / Effect","atk":300,"def":100},"rarity":"C","img":"44935634","code":"20","tcg":212660,"grp":2617,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"SR10-EN021","name":"Deskbot 001","ctype":"monster","keywords":"Deskbot Machine EARTH Tuner Monster","stats":{"a":"EARTH","l":"Level 1","t":"Machine / Tuner","atk":500,"def":500},"rarity":"C","img":"94693857","code":"21","tcg":212661,"grp":2617,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"SR10-EN022","name":"Deskbot 003","ctype":"monster","keywords":"Deskbot Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Machine / Effect","atk":500,"def":500},"rarity":"C","img":"75944053","code":"22","tcg":212662,"grp":2617,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"SR10-EN023","name":"Machina Redeployment","ctype":"spell","keywords":"Machina Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"86852702","code":"23","tcg":212663,"grp":2617,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"SR10-EN024","name":"Machina Defense Perimeter","ctype":"spell","keywords":"Machina Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"13247801","code":"24","tcg":212664,"grp":2617,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"SR10-EN025","name":"Machina Armored Unit","ctype":"spell","keywords":"Machina Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"31828916","code":"25","tcg":212665,"grp":2617,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"SR10-EN026","name":"Iron Call","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"64662453","code":"26","tcg":212666,"grp":2617,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"SR10-EN027","name":"Iron Draw","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"34559295","code":"27","tcg":212667,"grp":2617,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"SR10-EN028","name":"Magnet Reverse","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"80352158","code":"28","tcg":212668,"grp":2617,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"SR10-EN029","name":"Limiter Removal","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"23171610","code":"29","tcg":212669,"grp":2617,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"SR10-EN030","name":"Ties of the Brethren","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"40450317","code":"30","tcg":212670,"grp":2617,"idx":29},
+    {"id":"031","section":"main","num":"031","printed":"SR10-EN031","name":"Pot of Avarice","ctype":"spell","keywords":"Greed Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"67169062","code":"31","tcg":212671,"grp":2617,"idx":30},
+    {"id":"032","section":"main","num":"032","printed":"SR10-EN032","name":"Cosmic Cyclone","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"8267140","code":"32","tcg":212672,"grp":2617,"idx":31},
+    {"id":"033","section":"main","num":"033","printed":"SR10-EN033","name":"Supply Squad","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"17626381","code":"33","tcg":212673,"grp":2617,"idx":32},
+    {"id":"034","section":"main","num":"034","printed":"SR10-EN034","name":"Machina Overdrive","ctype":"trap","keywords":"Machina Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"59741415","code":"34","tcg":212674,"grp":2617,"idx":33},
+    {"id":"035","section":"main","num":"035","printed":"SR10-EN035","name":"Cyber Summon Blaster","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"63477921","code":"35","tcg":212675,"grp":2617,"idx":34},
+    {"id":"036","section":"main","num":"036","printed":"SR10-EN036","name":"Back to the Front","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"59919307","code":"36","tcg":212676,"grp":2617,"idx":35},
+    {"id":"037","section":"main","num":"037","printed":"SR10-EN037","name":"Trap Trick","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"80101899","code":"37","tcg":212677,"grp":2617,"idx":36},
+    {"id":"038","section":"main","num":"038","printed":"SR10-EN038","name":"Begone, Knave!","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"20374520","code":"38","tcg":212678,"grp":2617,"idx":37},
+    {"id":"039","section":"main","num":"039","printed":"SR10-EN039","name":"Solemn Strike","ctype":"trap","keywords":"Solemn Counter Trap","stats":{"t":"Counter Trap"},"rarity":"C","img":"40605147","code":"39","tcg":212679,"grp":2617,"idx":38},
+    {"id":"040","section":"main","num":"040","printed":"SR10-EN040","name":"Machina Possesstorage","ctype":"monster","keywords":"Machina Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Machine / Effect","atk":1600,"def":1500},"rarity":"UR","img":"85136114","code":"40","tcg":212680,"grp":2617,"idx":39},
+    {"id":"041","section":"main","num":"041","printed":"SR10-EN041","name":"Unauthorized Reactivation","ctype":"spell","keywords":"Machina Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"SR","img":"12524259","code":"41","tcg":212681,"grp":2617,"idx":40}
+  ]
+}

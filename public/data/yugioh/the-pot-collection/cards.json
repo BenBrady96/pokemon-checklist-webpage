@@ -1,0 +1,75 @@
+{
+  "id": "yugioh/the-pot-collection",
+  "game": "yugioh",
+  "slug": "the-pot-collection",
+  "name": "The Pot Collection",
+  "series": "SEVENS & GO RUSH!!",
+  "kind": "set",
+  "code": "TBC1",
+  "syncKey": "YTBC1",
+  "released": "2023-09-01",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Main Set",
+      "range": "TBC1-EN001–TBC1-ENS01",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from TBC1-EN001 to TBC1-ENS01."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! The Pot Collection Checklist · All 15 Cards",
+    "description": "Free Yu-Gi-Oh! The Pot Collection checklist with no ads, no sign-up and no tracking. Track all 15 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! The Pot Collection Checklist",
+    "ogDescription": "Track all 15 cards in Yu-Gi-Oh! The Pot Collection. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 15 cards in Yu-Gi-Oh! The Pot Collection. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About the The Pot Collection set",
+    "paragraphs": [
+      "The Pot Collection is a Yu-Gi-Oh! TCG special set released on 1 September 2023, in the SEVENS &amp; GO RUSH!! era. It has 15 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "The Pot Collection"
+    ],
+    "tcgplayer": [
+      23068
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"TBC1-EN001","name":"Pot of Greed","ctype":"spell","keywords":"Greed Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UPR","img":"55144522","code":"1","tcg":488161,"grp":23068,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"TBC1-EN002","name":"Pot of Generosity","ctype":"spell","keywords":"Greed Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UPR","img":"70278545","code":"2","tcg":488163,"grp":23068,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"TBC1-EN003","name":"Pot of Avarice","ctype":"spell","keywords":"Greed Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UPR","img":"67169062","code":"3","tcg":488164,"grp":23068,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"TBC1-EN004","name":"Pot of Benevolence","ctype":"spell","keywords":"Greed Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UPR","img":"51790181","code":"4","tcg":488165,"grp":23068,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"TBC1-EN005","name":"Pot of Riches","ctype":"spell","keywords":"Greed Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UPR","img":"96598015","code":"5","tcg":488166,"grp":23068,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"TBC1-EN006","name":"Pot of Acquisitiveness","ctype":"spell","keywords":"Greed Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"UPR","img":"64014615","code":"6","tcg":488167,"grp":23068,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"TBC1-EN007","name":"Pot of Duality","ctype":"spell","keywords":"Greed Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UPR","img":"98645731","code":"7","tcg":488169,"grp":23068,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"TBC1-EN008","name":"Pot of Dichotomy","ctype":"spell","keywords":"Greed Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UPR","img":"98672567","code":"8","tcg":488170,"grp":23068,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"TBC1-EN009","name":"Pot of Desires","ctype":"spell","keywords":"Greed Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UPR","img":"35261759","code":"9","tcg":488172,"grp":23068,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"TBC1-EN010","name":"Pot of Extravagance","ctype":"spell","keywords":"Greed Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UPR","img":"49238328","code":"10","tcg":488173,"grp":23068,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"TBC1-EN011","name":"Pot of Prosperity","ctype":"spell","keywords":"Greed Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UPR","img":"84211599","code":"11","tcg":488174,"grp":23068,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"TBC1-EN012","name":"Spirit of the Pot of Greed","ctype":"monster","keywords":"Greed Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Fairy / Effect","atk":100,"def":100},"rarity":"UPR","img":"4896788","code":"12","tcg":488175,"grp":23068,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"TBC1-EN013","name":"Moray of Greed","ctype":"spell","keywords":"Greed Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UPR","img":"22123627","code":"13","tcg":488176,"grp":23068,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"TBC1-EN014","name":"Shard of Greed","ctype":"spell","keywords":"Greed Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"UPR","img":"33904024","code":"14","tcg":488177,"grp":23068,"idx":13},
+    {"id":"S01","section":"main","num":"S01","printed":"TBC1-ENS01","name":"Pot of Greed","ctype":"spell","keywords":"Greed Normal Spell","stats":{"t":"Normal Spell"},"rarity":"QCSR","img":"55144522","code":"S1","tcg":488162,"grp":23068,"idx":14}
+  ]
+}

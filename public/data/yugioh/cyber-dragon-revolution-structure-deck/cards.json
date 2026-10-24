@@ -1,0 +1,98 @@
+{
+  "id": "yugioh/cyber-dragon-revolution-structure-deck",
+  "game": "yugioh",
+  "slug": "cyber-dragon-revolution-structure-deck",
+  "name": "Cyber Dragon Revolution Structure Deck",
+  "series": "ZEXAL",
+  "kind": "deck",
+  "code": "SDCR",
+  "syncKey": "YSDCR",
+  "released": "2014-02-06",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "SDCR-EN001–SDCR-EN038",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from SDCR-EN001 to SDCR-EN038."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Cyber Dragon Revolution Structure Deck Checklist · All 38 Cards",
+    "description": "Free Yu-Gi-Oh! Cyber Dragon Revolution Structure Deck checklist with no ads, no sign-up and no tracking. Track all 38 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Cyber Dragon Revolution Structure Deck Checklist",
+    "ogDescription": "Track all 38 cards in Yu-Gi-Oh! Cyber Dragon Revolution Structure Deck. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 38 cards in Yu-Gi-Oh! Cyber Dragon Revolution Structure Deck. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Cyber Dragon Revolution Structure Deck",
+    "paragraphs": [
+      "Cyber Dragon Revolution Structure Deck is a Yu-Gi-Oh! TCG deck released on 6 February 2014, in the ZEXAL era. It has 38 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Cyber Dragon Revolution Structure Deck"
+    ],
+    "tcgplayer": [
+      1307
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"SDCR-EN001","name":"Cyber Dragon Core","ctype":"monster","keywords":"Cyber Dragon Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 2","t":"Machine / Effect","atk":400,"def":1500},"rarity":"SR","img":"23893227","code":"1","tcg":79482,"grp":1307,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"SDCR-EN002","name":"Cyber Dragon Drei","ctype":"monster","keywords":"Cyber Dragon Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Machine / Effect","atk":1800,"def":800},"rarity":"SR","img":"59281922","code":"2","tcg":79483,"grp":1307,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"SDCR-EN003","name":"Cyber Dragon","ctype":"monster","keywords":"Cyber Dragon Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 5","t":"Machine / Effect","atk":2100,"def":1600},"rarity":"C","img":"70095154","code":"3","tcg":79484,"grp":1307,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"SDCR-EN004","name":"Cyber Dragon Zwei","ctype":"monster","keywords":"Cyber Dragon Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Machine / Effect","atk":1500,"def":1000},"rarity":"C","img":"5373478","code":"4","tcg":79486,"grp":1307,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"SDCR-EN005","name":"Proto-Cyber Dragon","ctype":"monster","keywords":"Cyber Dragon Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Machine / Effect","atk":1100,"def":600},"rarity":"C","img":"26439287","code":"5","tcg":79487,"grp":1307,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"SDCR-EN006","name":"Cyber Valley","ctype":"monster","keywords":"Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Machine / Effect","atk":0,"def":0},"rarity":"C","img":"3657444","code":"6","tcg":79488,"grp":1307,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"SDCR-EN007","name":"Cyber Larva","ctype":"monster","keywords":"Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Machine / Effect","atk":400,"def":600},"rarity":"C","img":"35050257","code":"7","tcg":79489,"grp":1307,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"SDCR-EN008","name":"Cyber Phoenix","ctype":"monster","keywords":"Machine FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Machine / Effect","atk":1200,"def":1600},"rarity":"C","img":"3370104","code":"8","tcg":79490,"grp":1307,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"SDCR-EN009","name":"Cyber Dinosaur","ctype":"monster","keywords":"Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 7","t":"Machine / Effect","atk":2500,"def":1900},"rarity":"C","img":"39439590","code":"9","tcg":79491,"grp":1307,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"SDCR-EN010","name":"Cyber Eltanin","ctype":"monster","keywords":"Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 10","t":"Machine / Effect","atk":-1,"def":-1},"rarity":"C","img":"33093439","code":"10","tcg":79492,"grp":1307,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"SDCR-EN011","name":"Armored Cybern","ctype":"monster","keywords":"Cyber Dragon Machine WIND Union Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Machine / Union / Effect","atk":0,"def":2000},"rarity":"C","img":"67159705","code":"11","tcg":79493,"grp":1307,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"SDCR-EN012","name":"Satellite Cannon","ctype":"monster","keywords":"Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 5","t":"Machine / Effect","atk":0,"def":0},"rarity":"C","img":"50400231","code":"12","tcg":79494,"grp":1307,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"SDCR-EN013","name":"Solar Wind Jammer","ctype":"monster","keywords":"Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 5","t":"Machine / Effect","atk":800,"def":2400},"rarity":"C","img":"33911264","code":"13","tcg":79495,"grp":1307,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"SDCR-EN014","name":"Jade Knight","ctype":"monster","keywords":"Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Machine / Effect","atk":1000,"def":1800},"rarity":"C","img":"44364207","code":"14","tcg":79496,"grp":1307,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"SDCR-EN015","name":"Falchion Beta","ctype":"monster","keywords":"Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Machine / Effect","atk":1200,"def":800},"rarity":"C","img":"86170989","code":"15","tcg":79497,"grp":1307,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"SDCR-EN016","name":"Reflect Bounder","ctype":"monster","keywords":"Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Machine / Effect","atk":1700,"def":1000},"rarity":"C","img":"2851070","code":"16","tcg":79498,"grp":1307,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"SDCR-EN017","name":"The Light - Hex-Sealed Fusion","ctype":"monster","keywords":"Rock LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Rock / Effect","atk":1000,"def":1600},"rarity":"C","img":"15717011","code":"17","tcg":79499,"grp":1307,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"SDCR-EN018","name":"Shining Angel","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fairy / Effect","atk":1400,"def":800},"rarity":"C","img":"95956346","code":"18","tcg":79500,"grp":1307,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"SDCR-EN019","name":"Cyber Repair Plant","ctype":"spell","keywords":"Cyber Dragon Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"86686671","code":"19","tcg":79501,"grp":1307,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"SDCR-EN020","name":"Evolution Burst","ctype":"spell","keywords":"Cyber Dragon Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"52875873","code":"20","tcg":79502,"grp":1307,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"SDCR-EN021","name":"Super Polymerization","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"48130397","code":"21","tcg":79503,"grp":1307,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"SDCR-EN022","name":"Power Bond","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"37630732","code":"22","tcg":79504,"grp":1307,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"SDCR-EN023","name":"Limiter Removal","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"23171610","code":"23","tcg":79505,"grp":1307,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"SDCR-EN024","name":"Megamorph","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"22046459","code":"24","tcg":79506,"grp":1307,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"SDCR-EN025","name":"D.D.R. - Different Dimension Reincarnation","ctype":"spell","keywords":"D.D. Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"9622164","code":"25","tcg":79507,"grp":1307,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"SDCR-EN026","name":"Mystical Space Typhoon","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"5318639","code":"26","tcg":79508,"grp":1307,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"SDCR-EN027","name":"Light of Redemption","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"2362787","code":"27","tcg":79509,"grp":1307,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"SDCR-EN028","name":"Machina Armored Unit","ctype":"spell","keywords":"Machina Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"31828916","code":"28","tcg":79510,"grp":1307,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"SDCR-EN029","name":"Cyber Network","ctype":"trap","keywords":"Cyber Dragon Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"12670770","code":"29","tcg":79511,"grp":1307,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"SDCR-EN030","name":"Cybernetic Hidden Technology","ctype":"trap","keywords":"Cyber Dragon Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"92773018","code":"30","tcg":79512,"grp":1307,"idx":29},
+    {"id":"031","section":"main","num":"031","printed":"SDCR-EN031","name":"Three of a Kind","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"47594192","code":"31","tcg":79513,"grp":1307,"idx":30},
+    {"id":"032","section":"main","num":"032","printed":"SDCR-EN032","name":"Trap Stun","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"59616123","code":"32","tcg":79514,"grp":1307,"idx":31},
+    {"id":"033","section":"main","num":"033","printed":"SDCR-EN033","name":"Dimensional Prison","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"70342110","code":"33","tcg":79515,"grp":1307,"idx":32},
+    {"id":"034","section":"main","num":"034","printed":"SDCR-EN034","name":"Malevolent Catastrophe","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"1224927","code":"34","tcg":79516,"grp":1307,"idx":33},
+    {"id":"035","section":"main","num":"035","printed":"SDCR-EN035","name":"Waboku","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"12607053","code":"35","tcg":79517,"grp":1307,"idx":34},
+    {"id":"036","section":"main","num":"036","printed":"SDCR-EN036","name":"Call of the Haunted","ctype":"trap","keywords":"Call of the Haunted Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"97077563","code":"36","tcg":79518,"grp":1307,"idx":35},
+    {"id":"037","section":"main","num":"037","printed":"SDCR-EN037","name":"Cyber Twin Dragon","ctype":"monster","keywords":"Machine LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Machine / Fusion","atk":2800,"def":2100},"rarity":"UR","img":"74157028","code":"37","tcg":79519,"grp":1307,"idx":36},
+    {"id":"038","section":"main","num":"038","printed":"SDCR-EN038","name":"Cyber Dragon Nova","ctype":"monster","keywords":"Cyber Dragon Machine LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 5","t":"Machine / Xyz","atk":2100,"def":1600},"rarity":"UR","img":"58069384","code":"38","tcg":79520,"grp":1307,"idx":37}
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "id": "yugioh/starter-deck-link-strike",
+  "game": "yugioh",
+  "slug": "starter-deck-link-strike",
+  "name": "Starter Deck: Link Strike",
+  "series": "ARC-V",
+  "kind": "deck",
+  "code": "YS17",
+  "syncKey": "YYS17",
+  "released": "2017-07-20",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "YS17-EN001–YS17-EN043",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from YS17-EN001 to YS17-EN043."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Starter Deck: Link Strike Checklist · All 43 Cards",
+    "description": "Free Yu-Gi-Oh! Starter Deck: Link Strike checklist with no ads, no sign-up and no tracking. Track all 43 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Starter Deck: Link Strike Checklist",
+    "ogDescription": "Track all 43 cards in Yu-Gi-Oh! Starter Deck: Link Strike. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 43 cards in Yu-Gi-Oh! Starter Deck: Link Strike. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Starter Deck: Link Strike",
+    "paragraphs": [
+      "Starter Deck: Link Strike is a Yu-Gi-Oh! TCG deck released on 20 July 2017, in the ARC-V era. It has 43 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Starter Deck: Link Strike"
+    ],
+    "tcgplayer": [
+      1954
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"YS17-EN001","name":"Bitron","ctype":"monster","keywords":"Cyberse EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 2","t":"Cyberse / Normal","atk":200,"def":2000},"rarity":"C","img":"36211150","code":"1","tcg":138007,"grp":1954,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"YS17-EN002","name":"Draconnet","ctype":"monster","keywords":"Cyberse DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Cyberse / Effect","atk":1400,"def":1200},"rarity":"C","img":"62706865","code":"2","tcg":138008,"grp":1954,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"YS17-EN003","name":"RAM Clouder","ctype":"monster","keywords":"Cyberse LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Cyberse / Effect","atk":1800,"def":1000},"rarity":"SR","img":"9190563","code":"3","tcg":138009,"grp":1954,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"YS17-EN004","name":"Linkslayer","ctype":"monster","keywords":"Cyberse EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 5","t":"Cyberse / Effect","atk":2000,"def":600},"rarity":"UR","img":"35595518","code":"4","tcg":138010,"grp":1954,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"YS17-EN005","name":"Galaxy Serpent","ctype":"monster","keywords":"Dragon LIGHT Normal Tuner Monster","stats":{"a":"LIGHT","l":"Level 2","t":"Dragon / Normal / Tuner","atk":1000,"def":0},"rarity":"C","img":"11066358","code":"5","tcg":138011,"grp":1954,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"YS17-EN006","name":"Mystery Shell Dragon","ctype":"monster","keywords":"Wyrm DARK Normal Monster","stats":{"a":"DARK","l":"Level 4","t":"Wyrm / Normal","atk":2000,"def":0},"rarity":"C","img":"18108166","code":"6","tcg":138012,"grp":1954,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"YS17-EN007","name":"Beast King Barbaros","ctype":"monster","keywords":"Barbaros Beast-Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 8","t":"Beast-Warrior / Effect","atk":3000,"def":1200},"rarity":"C","img":"78651105","code":"7","tcg":138013,"grp":1954,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"YS17-EN008","name":"Cyber Dragon","ctype":"monster","keywords":"Cyber Dragon Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 5","t":"Machine / Effect","atk":2100,"def":1600},"rarity":"C","img":"70095154","code":"8","tcg":138014,"grp":1954,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"YS17-EN009","name":"Photon Thrasher","ctype":"monster","keywords":"Photon Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Effect","atk":2100,"def":0},"rarity":"C","img":"65367484","code":"9","tcg":138015,"grp":1954,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"YS17-EN010","name":"Exarion Universe","ctype":"monster","keywords":"Beast-Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Beast-Warrior / Effect","atk":1800,"def":1900},"rarity":"C","img":"63749102","code":"10","tcg":138016,"grp":1954,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"YS17-EN011","name":"Evilswarm Mandragora","ctype":"monster","keywords":"Lswarm Plant DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Plant / Effect","atk":1550,"def":1450},"rarity":"C","img":"8814959","code":"11","tcg":138068,"grp":1954,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"YS17-EN012","name":"Marauding Captain","ctype":"monster","keywords":"Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Warrior / Effect","atk":1200,"def":400},"rarity":"C","img":"2460565","code":"12","tcg":138017,"grp":1954,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"YS17-EN013","name":"Sangan","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Fiend / Effect","atk":1000,"def":600},"rarity":"C","img":"26202165","code":"13","tcg":138018,"grp":1954,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"YS17-EN014","name":"Kuribandit","ctype":"monster","keywords":"Kuriboh Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Fiend / Effect","atk":1000,"def":700},"rarity":"C","img":"16404809","code":"14","tcg":138020,"grp":1954,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"YS17-EN015","name":"Marshmallon","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Fairy / Effect","atk":300,"def":500},"rarity":"C","img":"31305911","code":"15","tcg":138021,"grp":1954,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"YS17-EN016","name":"Cardcar D","ctype":"monster","keywords":"Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 2","t":"Machine / Effect","atk":800,"def":400},"rarity":"C","img":"45812361","code":"16","tcg":138024,"grp":1954,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"YS17-EN017","name":"Ryko, Lightsworn Hunter","ctype":"monster","keywords":"Lightsworn Beast LIGHT Flip Effect Monster","stats":{"a":"LIGHT","l":"Level 2","t":"Beast / Flip / Effect","atk":200,"def":100},"rarity":"C","img":"21502796","code":"17","tcg":138028,"grp":1954,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"YS17-EN018","name":"Battle Fader","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Fiend / Effect","atk":0,"def":0},"rarity":"C","img":"19665973","code":"18","tcg":138031,"grp":1954,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"YS17-EN019","name":"Swift Scarecrow","ctype":"monster","keywords":"Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 1","t":"Machine / Effect","atk":0,"def":0},"rarity":"C","img":"18964575","code":"19","tcg":138069,"grp":1954,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"YS17-EN020","name":"Effect Veiler","ctype":"monster","keywords":"Spellcaster LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Spellcaster / Tuner","atk":0,"def":0},"rarity":"C","img":"97268402","code":"20","tcg":138037,"grp":1954,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"YS17-EN021","name":"Cynet Universe","ctype":"spell","keywords":"Field Spell","stats":{"t":"Field Spell"},"rarity":"C","img":"61583217","code":"21","tcg":138038,"grp":1954,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"YS17-EN022","name":"Monster Reincarnation","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"74848038","code":"22","tcg":138040,"grp":1954,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"YS17-EN023","name":"Dark Hole","ctype":"spell","keywords":"Hole Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"53129443","code":"23","tcg":138041,"grp":1954,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"YS17-EN024","name":"Mystical Space Typhoon","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"5318639","code":"24","tcg":138044,"grp":1954,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"YS17-EN025","name":"Book of Moon","ctype":"spell","keywords":"Book of Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"14087893","code":"25","tcg":138045,"grp":1954,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"YS17-EN026","name":"Forbidden Lance","ctype":"spell","keywords":"Forbidden Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"27243130","code":"26","tcg":138047,"grp":1954,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"YS17-EN027","name":"United We Stand","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"56747793","code":"27","tcg":138048,"grp":1954,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"YS17-EN028","name":"Pot of Duality","ctype":"spell","keywords":"Greed Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"98645731","code":"28","tcg":138049,"grp":1954,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"YS17-EN029","name":"Burden of the Mighty","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"44947065","code":"29","tcg":138050,"grp":1954,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"YS17-EN030","name":"Supply Squad","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"17626381","code":"30","tcg":138051,"grp":1954,"idx":29},
+    {"id":"031","section":"main","num":"031","printed":"YS17-EN031","name":"Terraforming","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"73628505","code":"31","tcg":138052,"grp":1954,"idx":30},
+    {"id":"032","section":"main","num":"032","printed":"YS17-EN032","name":"Jar of Avarice","ctype":"trap","keywords":"Greed Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"98954106","code":"32","tcg":138053,"grp":1954,"idx":31},
+    {"id":"033","section":"main","num":"033","printed":"YS17-EN033","name":"Call of the Haunted","ctype":"trap","keywords":"Call of the Haunted Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"97077563","code":"33","tcg":138055,"grp":1954,"idx":32},
+    {"id":"034","section":"main","num":"034","printed":"YS17-EN034","name":"Mirror Force","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"44095762","code":"34","tcg":138056,"grp":1954,"idx":33},
+    {"id":"035","section":"main","num":"035","printed":"YS17-EN035","name":"Torrential Tribute","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"53582587","code":"35","tcg":138058,"grp":1954,"idx":34},
+    {"id":"036","section":"main","num":"036","printed":"YS17-EN036","name":"Ring of Destruction","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"83555667","code":"36","tcg":138060,"grp":1954,"idx":35},
+    {"id":"037","section":"main","num":"037","printed":"YS17-EN037","name":"Bottomless Trap Hole","ctype":"trap","keywords":"Hole Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"29401950","code":"37","tcg":138061,"grp":1954,"idx":36},
+    {"id":"038","section":"main","num":"038","printed":"YS17-EN038","name":"Compulsory Evacuation Device","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"94192409","code":"38","tcg":138062,"grp":1954,"idx":37},
+    {"id":"039","section":"main","num":"039","printed":"YS17-EN039","name":"Fiendish Chain","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"50078509","code":"39","tcg":138063,"grp":1954,"idx":38},
+    {"id":"040","section":"main","num":"040","printed":"YS17-EN040","name":"Dark Bribe","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"C","img":"77538567","code":"40","tcg":138064,"grp":1954,"idx":39},
+    {"id":"041","section":"main","num":"041","printed":"YS17-EN041","name":"Decode Talker","ctype":"monster","keywords":"Code Talker Cyberse DARK Link Monster","stats":{"a":"DARK","l":"Link 3","t":"Cyberse / Link","atk":2300},"rarity":"UR","img":"1861629","code":"41","tcg":138065,"grp":1954,"idx":40},
+    {"id":"042","section":"main","num":"042","printed":"YS17-EN042","name":"Honeybot","ctype":"monster","keywords":"Cyberse LIGHT Link Monster","stats":{"a":"LIGHT","l":"Link 2","t":"Cyberse / Link","atk":1900},"rarity":"SR","img":"34472920","code":"42","tcg":138066,"grp":1954,"idx":41},
+    {"id":"043","section":"main","num":"043","printed":"YS17-EN043","name":"Link Spider","ctype":"monster","keywords":"Cyberse EARTH Link Monster","stats":{"a":"EARTH","l":"Link 1","t":"Cyberse / Link","atk":1000},"rarity":"SR","img":"98978921","code":"43","tcg":138067,"grp":1954,"idx":42}
+  ]
+}

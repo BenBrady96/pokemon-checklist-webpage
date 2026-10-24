@@ -1,0 +1,119 @@
+{
+  "id": "yugioh/starter-deck-yugi-reloaded",
+  "game": "yugioh",
+  "slug": "starter-deck-yugi-reloaded",
+  "name": "Starter Deck: Yugi Reloaded",
+  "series": "ZEXAL",
+  "kind": "deck",
+  "code": "YSYR",
+  "syncKey": "YYSYR",
+  "released": "2013-12-06",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "YSYR-EN001–YSYR-EN046",
+      "tier": "standard"
+    },
+    {
+      "id": "rarities",
+      "name": "Other Rarities",
+      "short": "Other Rarities",
+      "range": "1 card",
+      "tier": "master"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Main set"
+    ],
+    [
+      "rarities",
+      "Other rarities"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, SCR12, 60x2",
+    "example": "1-20, 45x2, SCR12",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies. Other rarities use their short name and number: <b>SCR12</b> is card 12’s Secret Rare, and ranges work too (<b>QCSR1-QCSR20</b>).",
+    "empty": "Cards run from YSYR-EN001 to YSYR-EN046."
+  },
+  "help": {
+    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 46 cards, each in its main rarity. Master adds the 1 other rarity. Cards you’ve marked are kept when you switch."
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Starter Deck: Yugi Reloaded Checklist · All 46 Cards",
+    "description": "Free Yu-Gi-Oh! Starter Deck: Yugi Reloaded checklist with no ads, no sign-up and no tracking. Track all 46 cards, or every rarity for a master set, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Starter Deck: Yugi Reloaded Checklist",
+    "ogDescription": "Track all 46 cards in Yu-Gi-Oh! Starter Deck: Yugi Reloaded, plus 1 other rarity. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 46 cards in Yu-Gi-Oh! Starter Deck: Yugi Reloaded. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Starter Deck: Yugi Reloaded",
+    "paragraphs": [
+      "Starter Deck: Yugi Reloaded is a Yu-Gi-Oh! TCG deck released on 6 December 2013, in the ZEXAL era. It has 46 cards, and with the 1 other rarity there are 47 to collect in all.",
+      "Choose what you’re collecting: the <b>Standard set</b> (the 46 cards, each in its main rarity) or the <b>Master set</b> (all 47, adding the 1 other rarity).",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Starter Deck: Yugi Reloaded"
+    ],
+    "tcgplayer": [
+      1283
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"YSYR-EN001","name":"Dark Magician","ctype":"monster","keywords":"Dark Magician Spellcaster DARK Normal Monster","stats":{"a":"DARK","l":"Level 7","t":"Spellcaster / Normal","atk":2500,"def":2100},"rarity":"C","img":"46986416","code":"1","tcg":77787,"grp":1283,"idx":0},
+    {"id":"001-utr","section":"rarities","num":"001","printed":"YSYR-EN001","name":"Dark Magician","ctype":"monster","keywords":"Dark Magician Spellcaster DARK Normal Monster","stats":{"a":"DARK","l":"Level 7","t":"Spellcaster / Normal","atk":2500,"def":2100},"rarity":"UtR","img":"46986416","badge":"UtR","variant":"Ultimate Rare","code":"UTR1","tcg":77788,"grp":1283,"idx":1},
+    {"id":"002","section":"main","num":"002","printed":"YSYR-EN002","name":"Mystical Elf","ctype":"monster","keywords":"Spellcaster LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Normal","atk":800,"def":2000},"rarity":"C","img":"15025844","code":"2","tcg":77789,"grp":1283,"idx":2},
+    {"id":"003","section":"main","num":"003","printed":"YSYR-EN003","name":"Giant Soldier of Stone","ctype":"monster","keywords":"Rock EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 3","t":"Rock / Normal","atk":1300,"def":2000},"rarity":"C","img":"13039848","code":"3","tcg":77790,"grp":1283,"idx":3},
+    {"id":"004","section":"main","num":"004","printed":"YSYR-EN004","name":"Summoned Skull","ctype":"monster","keywords":"Archfiend Fiend DARK Normal Monster","stats":{"a":"DARK","l":"Level 6","t":"Fiend / Normal","atk":2500,"def":1200},"rarity":"C","img":"70781052","code":"4","tcg":77791,"grp":1283,"idx":4},
+    {"id":"005","section":"main","num":"005","printed":"YSYR-EN005","name":"Neo the Magic Swordsman","ctype":"monster","keywords":"Spellcaster LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Normal","atk":1700,"def":1000},"rarity":"C","img":"50930991","code":"5","tcg":77792,"grp":1283,"idx":5},
+    {"id":"006","section":"main","num":"006","printed":"YSYR-EN006","name":"Gemini Elf","ctype":"monster","keywords":"Spellcaster EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 4","t":"Spellcaster / Normal","atk":1900,"def":900},"rarity":"C","img":"69140098","code":"6","tcg":77793,"grp":1283,"idx":6},
+    {"id":"007","section":"main","num":"007","printed":"YSYR-EN007","name":"Dark Blade","ctype":"monster","keywords":"Dark World Warrior DARK Normal Monster","stats":{"a":"DARK","l":"Level 4","t":"Warrior / Normal","atk":1800,"def":1500},"rarity":"C","img":"11321183","code":"7","tcg":77794,"grp":1283,"idx":7},
+    {"id":"008","section":"main","num":"008","printed":"YSYR-EN008","name":"Kuriboh","ctype":"monster","keywords":"Kuriboh Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Fiend / Effect","atk":300,"def":200},"rarity":"C","img":"40640057","code":"8","tcg":77795,"grp":1283,"idx":8},
+    {"id":"009","section":"main","num":"009","printed":"YSYR-EN009","name":"Buster Blader","ctype":"monster","keywords":"Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 7","t":"Warrior / Effect","atk":2600,"def":2300},"rarity":"C","img":"78193831","code":"9","tcg":77796,"grp":1283,"idx":9},
+    {"id":"010","section":"main","num":"010","printed":"YSYR-EN010","name":"4-Starred Ladybug of Doom","ctype":"monster","keywords":"Insect WIND Flip Effect Monster","stats":{"a":"WIND","l":"Level 3","t":"Insect / Flip / Effect","atk":800,"def":1200},"rarity":"C","img":"83994646","code":"10","tcg":77797,"grp":1283,"idx":10},
+    {"id":"011","section":"main","num":"011","printed":"YSYR-EN011","name":"Dark Magician Girl","ctype":"monster","keywords":"Dark Magician Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Spellcaster / Effect","atk":2000,"def":1700},"rarity":"C","img":"38033121","code":"11","tcg":77798,"grp":1283,"idx":11},
+    {"id":"012","section":"main","num":"012","printed":"YSYR-EN012","name":"Skilled White Magician","ctype":"monster","keywords":"Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Effect","atk":1700,"def":1900},"rarity":"C","img":"46363422","code":"12","tcg":77799,"grp":1283,"idx":12},
+    {"id":"013","section":"main","num":"013","printed":"YSYR-EN013","name":"Skilled Dark Magician","ctype":"monster","keywords":"Dark Magician Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Effect","atk":1900,"def":1700},"rarity":"C","img":"73752131","code":"13","tcg":77800,"grp":1283,"idx":13},
+    {"id":"014","section":"main","num":"014","printed":"YSYR-EN014","name":"Old Vindictive Magician","ctype":"monster","keywords":"Spellcaster DARK Flip Effect Monster","stats":{"a":"DARK","l":"Level 2","t":"Spellcaster / Flip / Effect","atk":450,"def":600},"rarity":"C","img":"45141844","code":"14","tcg":77801,"grp":1283,"idx":14},
+    {"id":"015","section":"main","num":"015","printed":"YSYR-EN015","name":"Breaker the Magical Warrior","ctype":"monster","keywords":"Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Effect","atk":1600,"def":1000},"rarity":"C","img":"71413901","code":"15","tcg":77802,"grp":1283,"idx":15},
+    {"id":"016","section":"main","num":"016","printed":"YSYR-EN016","name":"Double Coston","ctype":"monster","keywords":"Zombie DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Zombie / Effect","atk":1700,"def":1650},"rarity":"C","img":"44436472","code":"16","tcg":77803,"grp":1283,"idx":16},
+    {"id":"017","section":"main","num":"017","printed":"YSYR-EN017","name":"Silent Swordsman LV3","ctype":"monster","keywords":"Silent Swordsman Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Warrior / Effect","atk":1000,"def":1000},"rarity":"C","img":"1995985","code":"17","tcg":77804,"grp":1283,"idx":17},
+    {"id":"018","section":"main","num":"018","printed":"YSYR-EN018","name":"Silent Swordsman LV5","ctype":"monster","keywords":"Silent Swordsman Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 5","t":"Warrior / Effect","atk":2300,"def":1000},"rarity":"C","img":"74388798","code":"18","tcg":77805,"grp":1283,"idx":18},
+    {"id":"019","section":"main","num":"019","printed":"YSYR-EN019","name":"Green Gadget","ctype":"monster","keywords":"Gadget Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Machine / Effect","atk":1400,"def":600},"rarity":"C","img":"41172955","code":"19","tcg":77806,"grp":1283,"idx":19},
+    {"id":"020","section":"main","num":"020","printed":"YSYR-EN020","name":"Red Gadget","ctype":"monster","keywords":"Gadget Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Machine / Effect","atk":1300,"def":1500},"rarity":"C","img":"86445415","code":"20","tcg":77807,"grp":1283,"idx":20},
+    {"id":"021","section":"main","num":"021","printed":"YSYR-EN021","name":"Yellow Gadget","ctype":"monster","keywords":"Gadget Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Machine / Effect","atk":1200,"def":1200},"rarity":"C","img":"13839120","code":"21","tcg":77808,"grp":1283,"idx":21},
+    {"id":"022","section":"main","num":"022","printed":"YSYR-EN022","name":"Electric Virus","ctype":"monster","keywords":"Thunder LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Thunder / Effect","atk":1000,"def":1000},"rarity":"C","img":"24725825","code":"22","tcg":77809,"grp":1283,"idx":22},
+    {"id":"023","section":"main","num":"023","printed":"YSYR-EN023","name":"Magician's Valkyria","ctype":"monster","keywords":"Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Effect","atk":1600,"def":1800},"rarity":"C","img":"80304126","code":"23","tcg":77810,"grp":1283,"idx":23},
+    {"id":"024","section":"main","num":"024","printed":"YSYR-EN024","name":"The Tricky","ctype":"monster","keywords":"Spellcaster WIND Effect Monster","stats":{"a":"WIND","l":"Level 5","t":"Spellcaster / Effect","atk":2000,"def":1200},"rarity":"C","img":"14778250","code":"24","tcg":77811,"grp":1283,"idx":24},
+    {"id":"025","section":"main","num":"025","printed":"YSYR-EN025","name":"Dark Hole","ctype":"spell","keywords":"Hole Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"53129443","code":"25","tcg":77812,"grp":1283,"idx":25},
+    {"id":"026","section":"main","num":"026","printed":"YSYR-EN026","name":"Swords of Revealing Light","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"72302403","code":"26","tcg":77813,"grp":1283,"idx":26},
+    {"id":"027","section":"main","num":"027","printed":"YSYR-EN027","name":"Black Pendant","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"65169794","code":"27","tcg":77814,"grp":1283,"idx":27},
+    {"id":"028","section":"main","num":"028","printed":"YSYR-EN028","name":"Mystical Space Typhoon","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"5318639","code":"28","tcg":77815,"grp":1283,"idx":28},
+    {"id":"029","section":"main","num":"029","printed":"YSYR-EN029","name":"Mage Power","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"83746708","code":"29","tcg":77816,"grp":1283,"idx":29},
+    {"id":"030","section":"main","num":"030","printed":"YSYR-EN030","name":"Book of Moon","ctype":"spell","keywords":"Book of Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"14087893","code":"30","tcg":77817,"grp":1283,"idx":30},
+    {"id":"031","section":"main","num":"031","printed":"YSYR-EN031","name":"Thousand Knives","ctype":"spell","keywords":"Dark Magician Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"63391643","code":"31","tcg":77818,"grp":1283,"idx":31},
+    {"id":"032","section":"main","num":"032","printed":"YSYR-EN032","name":"Dark Magic Attack","ctype":"spell","keywords":"Dark Magician Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"2314238","code":"32","tcg":77819,"grp":1283,"idx":32},
+    {"id":"033","section":"main","num":"033","printed":"YSYR-EN033","name":"Magical Dimension","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"28553439","code":"33","tcg":77820,"grp":1283,"idx":33},
+    {"id":"034","section":"main","num":"034","printed":"YSYR-EN034","name":"Ancient Rules","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"10667321","code":"34","tcg":77821,"grp":1283,"idx":34},
+    {"id":"035","section":"main","num":"035","printed":"YSYR-EN035","name":"Magicians Unite","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"36045450","code":"35","tcg":77822,"grp":1283,"idx":35},
+    {"id":"036","section":"main","num":"036","printed":"YSYR-EN036","name":"Soul Taker","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"81510157","code":"36","tcg":77823,"grp":1283,"idx":36},
+    {"id":"037","section":"main","num":"037","printed":"YSYR-EN037","name":"Shard of Greed","ctype":"spell","keywords":"Greed Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"33904024","code":"37","tcg":77824,"grp":1283,"idx":37},
+    {"id":"038","section":"main","num":"038","printed":"YSYR-EN038","name":"Trap Hole","ctype":"trap","keywords":"Hole Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"4206964","code":"38","tcg":77825,"grp":1283,"idx":38},
+    {"id":"039","section":"main","num":"039","printed":"YSYR-EN039","name":"Waboku","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"12607053","code":"39","tcg":77826,"grp":1283,"idx":39},
+    {"id":"040","section":"main","num":"040","printed":"YSYR-EN040","name":"Mirror Force","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"44095762","code":"40","tcg":77827,"grp":1283,"idx":40},
+    {"id":"041","section":"main","num":"041","printed":"YSYR-EN041","name":"Spellbinding Circle","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"18807109","code":"41","tcg":77828,"grp":1283,"idx":41},
+    {"id":"042","section":"main","num":"042","printed":"YSYR-EN042","name":"Call of the Haunted","ctype":"trap","keywords":"Call of the Haunted Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"97077563","code":"42","tcg":77829,"grp":1283,"idx":42},
+    {"id":"043","section":"main","num":"043","printed":"YSYR-EN043","name":"Magic Cylinder","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"62279055","code":"43","tcg":77830,"grp":1283,"idx":43},
+    {"id":"044","section":"main","num":"044","printed":"YSYR-EN044","name":"Miracle Restoring","ctype":"trap","keywords":"Dark Magician Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"68334074","code":"44","tcg":77831,"grp":1283,"idx":44},
+    {"id":"045","section":"main","num":"045","printed":"YSYR-EN045","name":"Zero Gravity","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"83133491","code":"45","tcg":77832,"grp":1283,"idx":45},
+    {"id":"046","section":"main","num":"046","printed":"YSYR-EN046","name":"Rising Energy","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"78211862","code":"46","tcg":77833,"grp":1283,"idx":46}
+  ]
+}

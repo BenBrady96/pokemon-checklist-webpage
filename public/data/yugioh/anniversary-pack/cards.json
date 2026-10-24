@@ -1,0 +1,68 @@
+{
+  "id": "yugioh/anniversary-pack",
+  "game": "yugioh",
+  "slug": "anniversary-pack",
+  "name": "Anniversary Pack",
+  "series": "5D’s",
+  "kind": "pack",
+  "code": "YAP1",
+  "syncKey": "YYAP1",
+  "released": "2008-12-08",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "YAP1-EN001–YAP1-EN008",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from YAP1-EN001 to YAP1-EN008."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Anniversary Pack Checklist · All 8 Cards",
+    "description": "Free Yu-Gi-Oh! Anniversary Pack checklist with no ads, no sign-up and no tracking. Track all 8 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Anniversary Pack Checklist",
+    "ogDescription": "Track all 8 cards in Yu-Gi-Oh! Anniversary Pack. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 8 cards in Yu-Gi-Oh! Anniversary Pack. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Anniversary Pack",
+    "paragraphs": [
+      "Anniversary Pack is a Yu-Gi-Oh! TCG pack released on 8 December 2008, in the 5D’s era. It has 8 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Anniversary Pack"
+    ],
+    "tcgplayer": [
+      1304
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"YAP1-EN001","name":"Blue-Eyes White Dragon","ctype":"monster","keywords":"Blue-Eyes Dragon LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Normal","atk":3000,"def":2500},"rarity":"UR","img":"89631143","code":"1","tcg":79204,"grp":1304,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"YAP1-EN002","name":"Red-Eyes Black Dragon","ctype":"monster","keywords":"Red-Eyes Dragon DARK Normal Monster","stats":{"a":"DARK","l":"Level 7","t":"Dragon / Normal","atk":2400,"def":2000},"rarity":"UR","img":"74677423","code":"2","tcg":79205,"grp":1304,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"YAP1-EN003","name":"Summoned Skull","ctype":"monster","keywords":"Archfiend Fiend DARK Normal Monster","stats":{"a":"DARK","l":"Level 6","t":"Fiend / Normal","atk":2500,"def":1200},"rarity":"UR","img":"70781055","code":"3","tcg":79206,"grp":1304,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"YAP1-EN004","name":"Celtic Guardian","ctype":"monster","keywords":"Celtic Guard Warrior EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Normal","atk":1400,"def":1200},"rarity":"UR","img":"91152258","code":"4","tcg":79207,"grp":1304,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"YAP1-EN005","name":"Gyakutenno Megami","ctype":"monster","keywords":"Fairy LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Fairy / Normal","atk":1800,"def":2000},"rarity":"UR","img":"31122091","code":"5","tcg":79208,"grp":1304,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"YAP1-EN006","name":"Buster Blader","ctype":"monster","keywords":"Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 7","t":"Warrior / Effect","atk":2600,"def":2300},"rarity":"UR","img":"78193832","code":"6","tcg":79209,"grp":1304,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"YAP1-EN007","name":"Jinzo","ctype":"monster","keywords":"Jinzo Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Machine / Effect","atk":2400,"def":1500},"rarity":"UR","img":"77585514","code":"7","tcg":79210,"grp":1304,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"YAP1-EN008","name":"Shiba-Warrior Taro","ctype":"monster","keywords":"Beast-Warrior EARTH Tuner Monster","stats":{"a":"EARTH","l":"Level 2","t":"Beast-Warrior / Tuner","atk":800,"def":600},"rarity":"UR","img":"27416701","code":"8","tcg":79211,"grp":1304,"idx":7}
+  ]
+}

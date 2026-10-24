@@ -1,0 +1,66 @@
+{
+  "id": "yugioh/legendary-collection-4-joeys-world",
+  "game": "yugioh",
+  "slug": "legendary-collection-4-joeys-world",
+  "name": "Legendary Collection 4: Joey's World",
+  "series": "ZEXAL",
+  "kind": "set",
+  "code": "LC04",
+  "syncKey": "YLC04",
+  "released": "2013-10-11",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Main Set",
+      "range": "LC04-EN001–LC04-EN007",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from LC04-EN001 to LC04-EN007."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Legendary Collection 4: Joey's World Checklist · All 6 Cards",
+    "description": "Free Yu-Gi-Oh! Legendary Collection 4: Joey's World checklist with no ads, no sign-up and no tracking. Track all 6 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Legendary Collection 4: Joey's World Checklist",
+    "ogDescription": "Track all 6 cards in Yu-Gi-Oh! Legendary Collection 4: Joey's World. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 6 cards in Yu-Gi-Oh! Legendary Collection 4: Joey's World. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About the Legendary Collection 4: Joey's World set",
+    "paragraphs": [
+      "Legendary Collection 4: Joey&#39;s World is a Yu-Gi-Oh! TCG special set released on 11 October 2013, in the ZEXAL era. It has 6 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Legendary Collection 4: Joey's World"
+    ],
+    "tcgplayer": [
+      1157
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"LC04-EN001","name":"Blue Flame Swordsman","ctype":"monster","keywords":"Warrior FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Warrior / Effect","atk":1800,"def":1600},"rarity":"UR","img":"50903514","code":"1","tcg":71845,"grp":1157,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"LC04-EN002","name":"Harpie Lady Phoenix Formation","ctype":"spell","keywords":"Harpie Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UR","img":"86308219","code":"2","tcg":71846,"grp":1157,"idx":1},
+    {"id":"004","section":"main","num":"004","printed":"LC04-EN004","name":"Sheep Token","ctype":"token","keywords":"Beast Token","stats":{"t":"Beast / Token"},"rarity":"UR","img":"73915052","code":"4","tcg":77438,"grp":1157,"idx":2},
+    {"id":"005","section":"main","num":"005","printed":"LC04-EN005","name":"Sheep Token","ctype":"token","keywords":"Beast Token","stats":{"t":"Beast / Token"},"rarity":"UR","img":"73915053","code":"5","tcg":77439,"grp":1157,"idx":3},
+    {"id":"006","section":"main","num":"006","printed":"LC04-EN006","name":"Sheep Token","ctype":"token","keywords":"Beast Token","stats":{"t":"Beast / Token"},"rarity":"UR","img":"73915055","code":"6","tcg":77440,"grp":1157,"idx":4},
+    {"id":"007","section":"main","num":"007","printed":"LC04-EN007","name":"Sheep Token","ctype":"token","keywords":"Beast Token","stats":{"t":"Beast / Token"},"rarity":"UR","img":"73915054","code":"7","tcg":77441,"grp":1157,"idx":5}
+  ]
+}

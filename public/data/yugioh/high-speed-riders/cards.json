@@ -1,0 +1,120 @@
+{
+  "id": "yugioh/high-speed-riders",
+  "game": "yugioh",
+  "slug": "high-speed-riders",
+  "name": "High-Speed Riders",
+  "series": "ARC-V",
+  "kind": "expansion",
+  "code": "HSRD",
+  "syncKey": "YHSRD",
+  "released": "2015-10-01",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Main Set",
+      "range": "HSRD-EN001–HSRD-EN060",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from HSRD-EN001 to HSRD-EN060."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! High-Speed Riders Checklist · All 60 Cards",
+    "description": "Free Yu-Gi-Oh! High-Speed Riders checklist with no ads, no sign-up and no tracking. Track all 60 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! High-Speed Riders Checklist",
+    "ogDescription": "Track all 60 cards in Yu-Gi-Oh! High-Speed Riders. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 60 cards in Yu-Gi-Oh! High-Speed Riders. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About the High-Speed Riders set",
+    "paragraphs": [
+      "High-Speed Riders is a Yu-Gi-Oh! TCG booster set released on 1 October 2015, in the ARC-V era. It has 60 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "High-Speed Riders"
+    ],
+    "tcgplayer": [
+      1659
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"HSRD-EN001","name":"Speedroid Terrortop","ctype":"monster","keywords":"Roid Machine WIND Effect Monster","stats":{"a":"WIND","l":"Level 3","t":"Machine / Effect","atk":1200,"def":600},"rarity":"SR","img":"81275020","code":"1","tcg":105998,"grp":1659,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"HSRD-EN002","name":"Speedroid Tri-Eyed Dice","ctype":"monster","keywords":"Roid Machine WIND Tuner Monster","stats":{"a":"WIND","l":"Level 3","t":"Machine / Tuner","atk":300,"def":1500},"rarity":"C","img":"27660735","code":"2","tcg":105999,"grp":1659,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"HSRD-EN003","name":"Speedroid Double Yoyo","ctype":"monster","keywords":"Roid Machine WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Machine / Effect","atk":1400,"def":1400},"rarity":"C","img":"53054833","code":"3","tcg":106000,"grp":1659,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"HSRD-EN004","name":"Speedroid Razorang","ctype":"monster","keywords":"Roid Machine WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Machine / Effect","atk":2000,"def":0},"rarity":"R","img":"80559548","code":"4","tcg":106001,"grp":1659,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"HSRD-EN005","name":"Speedroid Menko","ctype":"monster","keywords":"Roid Machine WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Machine / Effect","atk":100,"def":2000},"rarity":"C","img":"16947147","code":"5","tcg":106002,"grp":1659,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"HSRD-EN006","name":"Speedroid Taketomborg","ctype":"monster","keywords":"Roid Machine WIND Effect Monster","stats":{"a":"WIND","l":"Level 3","t":"Machine / Effect","atk":600,"def":1200},"rarity":"SR","img":"53932291","code":"6","tcg":106003,"grp":1659,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"HSRD-EN007","name":"Speedroid Ohajikid","ctype":"monster","keywords":"Roid Machine WIND Effect Monster","stats":{"a":"WIND","l":"Level 3","t":"Machine / Effect","atk":1000,"def":200},"rarity":"R","img":"89326990","code":"7","tcg":106004,"grp":1659,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"HSRD-EN008","name":"Speedroid Red-Eyed Dice","ctype":"monster","keywords":"Roid Machine WIND Tuner Monster","stats":{"a":"WIND","l":"Level 1","t":"Machine / Tuner","atk":100,"def":100},"rarity":"SR","img":"16725505","code":"8","tcg":106005,"grp":1659,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"HSRD-EN009","name":"Hi-Speedroid Kendama","ctype":"monster","keywords":"Hi-Speedroid Machine WIND Synchro Monster","stats":{"a":"WIND","l":"Level 6","t":"Machine / Synchro","atk":2200,"def":1600},"rarity":"R","img":"97007933","code":"9","tcg":106006,"grp":1659,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"HSRD-EN010","name":"Hi-Speedroid Chanbara","ctype":"monster","keywords":"Hi-Speedroid Machine WIND Synchro Monster","stats":{"a":"WIND","l":"Level 5","t":"Machine / Synchro","atk":2000,"def":1000},"rarity":"ScR","img":"42110604","code":"10","tcg":106007,"grp":1659,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"HSRD-EN011","name":"Speed Recovery","ctype":"spell","keywords":"Roid Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"88204302","code":"11","tcg":106008,"grp":1659,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"HSRD-EN012","name":"Shock Surprise","ctype":"spell","keywords":"Roid Normal Spell","stats":{"t":"Normal Spell"},"rarity":"R","img":"15609017","code":"12","tcg":106009,"grp":1659,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"HSRD-EN013","name":"Synchro Cracker","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"41097056","code":"13","tcg":106010,"grp":1659,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"HSRD-EN014","name":"Dice Roll Battle","ctype":"trap","keywords":"Dice Normal Trap","stats":{"t":"Normal Trap"},"rarity":"R","img":"88482761","code":"14","tcg":106011,"grp":1659,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"HSRD-EN015","name":"Red Sprinter","ctype":"monster","keywords":"Fiend FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Fiend / Effect","atk":1700,"def":1200},"rarity":"SR","img":"14886469","code":"15","tcg":106012,"grp":1659,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"HSRD-EN016","name":"Red Resonator","ctype":"monster","keywords":"Resonator Fiend FIRE Tuner Monster","stats":{"a":"FIRE","l":"Level 2","t":"Fiend / Tuner","atk":600,"def":200},"rarity":"C","img":"40975574","code":"16","tcg":106013,"grp":1659,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"HSRD-EN017","name":"Synkron Resonator","ctype":"monster","keywords":"Resonator Fiend DARK Tuner Monster","stats":{"a":"DARK","l":"Level 1","t":"Fiend / Tuner","atk":100,"def":100},"rarity":"C","img":"77360173","code":"17","tcg":106014,"grp":1659,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"HSRD-EN018","name":"Chain Resonator","ctype":"monster","keywords":"Resonator Fiend LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Fiend / Tuner","atk":100,"def":100},"rarity":"C","img":"13764881","code":"18","tcg":106015,"grp":1659,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"HSRD-EN019","name":"Mirror Resonator","ctype":"monster","keywords":"Resonator Fiend LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Fiend / Tuner","atk":0,"def":0},"rarity":"SR","img":"40159926","code":"19","tcg":106016,"grp":1659,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"HSRD-EN020","name":"Dark Resonator","ctype":"monster","keywords":"Resonator Fiend DARK Tuner Monster","stats":{"a":"DARK","l":"Level 3","t":"Fiend / Tuner","atk":1300,"def":300},"rarity":"C","img":"97021916","code":"20","tcg":106017,"grp":1659,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"HSRD-EN021","name":"Vice Dragon","ctype":"monster","keywords":"Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 5","t":"Dragon / Effect","atk":2000,"def":2400},"rarity":"C","img":"54343893","code":"21","tcg":106018,"grp":1659,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"HSRD-EN022","name":"Red Wyvern","ctype":"monster","keywords":"Dragon FIRE Synchro Monster","stats":{"a":"FIRE","l":"Level 6","t":"Dragon / Synchro","atk":2400,"def":2000},"rarity":"ScR","img":"76547525","code":"22","tcg":106019,"grp":1659,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"HSRD-EN023","name":"Red Dragon Archfiend","ctype":"monster","keywords":"Archfiend Dragon DARK Synchro Monster","stats":{"a":"DARK","l":"Level 8","t":"Dragon / Synchro","atk":3000,"def":2000},"rarity":"C","img":"70902743","code":"23","tcg":106020,"grp":1659,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"HSRD-EN024","name":"Red Nova Dragon","ctype":"monster","keywords":"Archfiend Dragon DARK Synchro Monster","stats":{"a":"DARK","l":"Level 12","t":"Dragon / Synchro","atk":3500,"def":3000},"rarity":"R","img":"97489701","code":"24","tcg":106021,"grp":1659,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"HSRD-EN025","name":"Resonator Call","ctype":"spell","keywords":"Resonator Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"23008320","code":"25","tcg":106022,"grp":1659,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"HSRD-EN026","name":"Red Cocoon","ctype":"trap","keywords":"Archfiend Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"2542230","code":"26","tcg":106023,"grp":1659,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"HSRD-EN027","name":"Red Carpet","ctype":"trap","keywords":"Resonator Normal Trap","stats":{"t":"Normal Trap"},"rarity":"R","img":"41197012","code":"27","tcg":106024,"grp":1659,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"HSRD-EN028","name":"PSY-Frame Driver","ctype":"monster","keywords":"PSY-Frame Psychic LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Psychic / Normal","atk":2500,"def":0},"rarity":"R","img":"49036338","code":"28","tcg":106025,"grp":1659,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"HSRD-EN029","name":"PSY-Framegear Alpha","ctype":"monster","keywords":"PSY-Frame Psychic LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Psychic / Tuner","atk":500,"def":0},"rarity":"C","img":"75425043","code":"29","tcg":106026,"grp":1659,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"HSRD-EN030","name":"PSY-Framegear Beta","ctype":"monster","keywords":"PSY-Frame Psychic LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Psychic / Tuner","atk":700,"def":0},"rarity":"UR","img":"2810642","code":"30","tcg":106027,"grp":1659,"idx":29},
+    {"id":"031","section":"main","num":"031","printed":"HSRD-EN031","name":"PSY-Framegear Gamma","ctype":"monster","keywords":"PSY-Frame Psychic LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 2","t":"Psychic / Tuner","atk":1000,"def":0},"rarity":"UR","img":"38814750","code":"31","tcg":106028,"grp":1659,"idx":30},
+    {"id":"032","section":"main","num":"032","printed":"HSRD-EN032","name":"PSY-Framegear Delta","ctype":"monster","keywords":"PSY-Frame Psychic LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 2","t":"Psychic / Tuner","atk":1200,"def":0},"rarity":"R","img":"74203495","code":"32","tcg":106029,"grp":1659,"idx":31},
+    {"id":"033","section":"main","num":"033","printed":"HSRD-EN033","name":"PSY-Framegear Epsilon","ctype":"monster","keywords":"PSY-Frame Psychic LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 2","t":"Psychic / Tuner","atk":1500,"def":0},"rarity":"C","img":"1697104","code":"33","tcg":106030,"grp":1659,"idx":32},
+    {"id":"034","section":"main","num":"034","printed":"HSRD-EN034","name":"PSY-Framelord Zeta","ctype":"monster","keywords":"PSY-Frame Psychic LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 7","t":"Psychic / Synchro","atk":2500,"def":1800},"rarity":"SR","img":"37192109","code":"34","tcg":106031,"grp":1659,"idx":33},
+    {"id":"035","section":"main","num":"035","printed":"HSRD-EN035","name":"PSY-Framelord Omega","ctype":"monster","keywords":"PSY-Frame Psychic LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Psychic / Synchro","atk":2800,"def":2200},"rarity":"ScR","img":"74586817","code":"35","tcg":106032,"grp":1659,"idx":34},
+    {"id":"036","section":"main","num":"036","printed":"HSRD-EN036","name":"PSY-Frame Circuit","ctype":"spell","keywords":"PSY-Frame Field Spell","stats":{"t":"Field Spell"},"rarity":"R","img":"575512","code":"36","tcg":106033,"grp":1659,"idx":35},
+    {"id":"037","section":"main","num":"037","printed":"HSRD-EN037","name":"PSY-Frame Overload","ctype":"trap","keywords":"PSY-Frame Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"R","img":"36970611","code":"37","tcg":106034,"grp":1659,"idx":36},
+    {"id":"038","section":"main","num":"038","printed":"HSRD-EN038","name":"Goyo Chaser","ctype":"monster","keywords":"Warrior EARTH Synchro Monster","stats":{"a":"EARTH","l":"Level 5","t":"Warrior / Synchro","atk":1900,"def":1000},"rarity":"UR","img":"63364266","code":"38","tcg":106035,"grp":1659,"idx":37},
+    {"id":"039","section":"main","num":"039","printed":"HSRD-EN039","name":"Goyo Predator","ctype":"monster","keywords":"Warrior EARTH Synchro Monster","stats":{"a":"EARTH","l":"Level 6","t":"Warrior / Synchro","atk":2400,"def":1200},"rarity":"UR","img":"98637386","code":"39","tcg":106036,"grp":1659,"idx":38},
+    {"id":"040","section":"main","num":"040","printed":"HSRD-EN040","name":"Hot Red Dragon Archfiend","ctype":"monster","keywords":"Archfiend Dragon DARK Synchro Monster","stats":{"a":"DARK","l":"Level 8","t":"Dragon / Synchro","atk":3000,"def":2000},"rarity":"SR","img":"39765958","code":"40","tcg":106037,"grp":1659,"idx":39},
+    {"id":"041","section":"main","num":"041","printed":"HSRD-EN041","name":"Hot Red Dragon Archfiend Abyss","ctype":"monster","keywords":"Archfiend Dragon DARK Synchro Monster","stats":{"a":"DARK","l":"Level 9","t":"Dragon / Synchro","atk":3200,"def":2500},"rarity":"UR","img":"9753964","code":"41","tcg":106038,"grp":1659,"idx":40},
+    {"id":"042","section":"main","num":"042","printed":"HSRD-EN042","name":"Hot Red Dragon Archfiend Bane","ctype":"monster","keywords":"Archfiend Dragon DARK Synchro Monster","stats":{"a":"DARK","l":"Level 10","t":"Dragon / Synchro","atk":3500,"def":3000},"rarity":"ScR","img":"36857073","code":"42","tcg":106039,"grp":1659,"idx":41},
+    {"id":"043","section":"main","num":"043","printed":"HSRD-EN043","name":"Stardust Spark Dragon","ctype":"monster","keywords":"Stardust Dragon LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Synchro","atk":2500,"def":2000},"rarity":"SR","img":"83994433","code":"43","tcg":106040,"grp":1659,"idx":42},
+    {"id":"044","section":"main","num":"044","printed":"HSRD-EN044","name":"Black Rose Moonlight Dragon","ctype":"monster","keywords":"Rose Dragon Dragon LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 7","t":"Dragon / Synchro","atk":2400,"def":1800},"rarity":"SR","img":"33698022","code":"44","tcg":106041,"grp":1659,"idx":43},
+    {"id":"045","section":"main","num":"045","printed":"HSRD-EN045","name":"Expressroid","ctype":"monster","keywords":"Roid Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Machine / Effect","atk":400,"def":1600},"rarity":"C","img":"984114","code":"45","tcg":106042,"grp":1659,"idx":44},
+    {"id":"046","section":"main","num":"046","printed":"HSRD-EN046","name":"Krebons","ctype":"monster","keywords":"Psychic DARK Tuner Monster","stats":{"a":"DARK","l":"Level 2","t":"Psychic / Tuner","atk":1200,"def":400},"rarity":"C","img":"59575539","code":"46","tcg":106043,"grp":1659,"idx":45},
+    {"id":"047","section":"main","num":"047","printed":"HSRD-EN047","name":"Armoroid","ctype":"monster","keywords":"Roid Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 8","t":"Machine / Effect","atk":2700,"def":2000},"rarity":"C","img":"73333463","code":"47","tcg":106044,"grp":1659,"idx":46},
+    {"id":"048","section":"main","num":"048","printed":"HSRD-EN048","name":"Silent Psychic Wizard","ctype":"monster","keywords":"Psychic EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Psychic / Effect","atk":1900,"def":0},"rarity":"C","img":"62950604","code":"48","tcg":106045,"grp":1659,"idx":47},
+    {"id":"049","section":"main","num":"049","printed":"HSRD-EN049","name":"Serene Psychic Witch","ctype":"monster","keywords":"Psychic EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Psychic / Effect","atk":1400,"def":1200},"rarity":"C","img":"98358303","code":"49","tcg":106046,"grp":1659,"idx":48},
+    {"id":"050","section":"main","num":"050","printed":"HSRD-EN050","name":"Hushed Psychic Cleric","ctype":"monster","keywords":"Psychic EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Psychic / Effect","atk":0,"def":2100},"rarity":"C","img":"25343017","code":"50","tcg":106047,"grp":1659,"idx":49},
+    {"id":"051","section":"main","num":"051","printed":"HSRD-EN051","name":"Cardcar D","ctype":"monster","keywords":"Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 2","t":"Machine / Effect","atk":800,"def":400},"rarity":"C","img":"45812361","code":"51","tcg":106048,"grp":1659,"idx":50},
+    {"id":"052","section":"main","num":"052","printed":"HSRD-EN052","name":"Trishula, Dragon of the Ice Barrier","ctype":"monster","keywords":"Ice Barrier Dragon WATER Synchro Monster","stats":{"a":"WATER","l":"Level 9","t":"Dragon / Synchro","atk":2700,"def":2000},"rarity":"ScR","img":"52687916","code":"52","tcg":106049,"grp":1659,"idx":51},
+    {"id":"053","section":"main","num":"053","printed":"HSRD-EN053","name":"Mystical Space Typhoon","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"5318639","code":"53","tcg":106050,"grp":1659,"idx":52},
+    {"id":"054","section":"main","num":"054","printed":"HSRD-EN054","name":"Emergency Teleport","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"UR","img":"67723438","code":"54","tcg":106051,"grp":1659,"idx":53},
+    {"id":"055","section":"main","num":"055","printed":"HSRD-EN055","name":"Psychokinesis","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"32180819","code":"55","tcg":106052,"grp":1659,"idx":54},
+    {"id":"056","section":"main","num":"056","printed":"HSRD-EN056","name":"Pot of Duality","ctype":"spell","keywords":"Greed Normal Spell","stats":{"t":"Normal Spell"},"rarity":"R","img":"98645731","code":"56","tcg":106053,"grp":1659,"idx":55},
+    {"id":"057","section":"main","num":"057","printed":"HSRD-EN057","name":"Future Glow","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"64107820","code":"57","tcg":106054,"grp":1659,"idx":56},
+    {"id":"058","section":"main","num":"058","printed":"HSRD-EN058","name":"Compulsory Evacuation Device","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"94192409","code":"58","tcg":106055,"grp":1659,"idx":57},
+    {"id":"059","section":"main","num":"059","printed":"HSRD-EN059","name":"Supercharge","ctype":"trap","keywords":"Roid Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"97705809","code":"59","tcg":106056,"grp":1659,"idx":58},
+    {"id":"060","section":"main","num":"060","printed":"HSRD-EN060","name":"Psychic Overload","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"82633308","code":"60","tcg":106057,"grp":1659,"idx":59}
+  ]
+}

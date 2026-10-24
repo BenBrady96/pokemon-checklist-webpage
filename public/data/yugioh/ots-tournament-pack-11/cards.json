@@ -1,0 +1,85 @@
+{
+  "id": "yugioh/ots-tournament-pack-11",
+  "game": "yugioh",
+  "slug": "ots-tournament-pack-11",
+  "name": "OTS Tournament Pack 11",
+  "series": "VRAINS",
+  "kind": "pack",
+  "code": "OP11",
+  "syncKey": "YOP11",
+  "released": "2019-08-15",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "OP11-EN001–OP11-EN025",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from OP11-EN001 to OP11-EN025."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! OTS Tournament Pack 11 Checklist · All 25 Cards",
+    "description": "Free Yu-Gi-Oh! OTS Tournament Pack 11 checklist with no ads, no sign-up and no tracking. Track all 25 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! OTS Tournament Pack 11 Checklist",
+    "ogDescription": "Track all 25 cards in Yu-Gi-Oh! OTS Tournament Pack 11. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 25 cards in Yu-Gi-Oh! OTS Tournament Pack 11. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About OTS Tournament Pack 11",
+    "paragraphs": [
+      "OTS Tournament Pack 11 is a Yu-Gi-Oh! TCG pack released on 15 August 2019, in the VRAINS era. It has 25 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "OTS Tournament Pack 11"
+    ],
+    "tcgplayer": [
+      2512
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"OP11-EN001","name":"Dingirsu, the Orcust of the Evening Star","ctype":"monster","keywords":"Orcust Machine DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 8","t":"Machine / Xyz","atk":2600,"def":2100},"rarity":"UtR","img":"93854893","code":"1","tcg":196995,"grp":2512,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"OP11-EN002","name":"Sky Striker Ace - Kaina","ctype":"monster","keywords":"Sky Striker Machine EARTH Link Monster","stats":{"a":"EARTH","l":"Link 1","t":"Machine / Link","atk":1500},"rarity":"UtR","img":"12421694","code":"2","tcg":196996,"grp":2512,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"OP11-EN003","name":"Pot of Desires","ctype":"spell","keywords":"Greed Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UtR","img":"35261759","code":"3","tcg":196997,"grp":2512,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"OP11-EN004","name":"Fortune Lady Light","ctype":"monster","keywords":"Fortune Lady Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Spellcaster / Effect","atk":-1,"def":-1},"rarity":"SR","img":"34471458","code":"4","tcg":196998,"grp":2512,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"OP11-EN005","name":"Subterror Nemesis Archer","ctype":"monster","keywords":"Subterror Fairy EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Fairy / Effect","atk":1600,"def":1400},"rarity":"SR","img":"39581190","code":"5","tcg":196999,"grp":2512,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"OP11-EN006","name":"Altergeist Kunquery","ctype":"monster","keywords":"Altergeist Spellcaster EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 5","t":"Spellcaster / Effect","atk":0,"def":2400},"rarity":"SR","img":"52927340","code":"6","tcg":197000,"grp":2512,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"OP11-EN007","name":"Orcust Harp Horror","ctype":"monster","keywords":"Orcust Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Machine / Effect","atk":1700,"def":1400},"rarity":"SR","img":"57835716","code":"7","tcg":197001,"grp":2512,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"OP11-EN008","name":"Orcust Knightmare","ctype":"monster","keywords":"Orcust Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Machine / Effect","atk":100,"def":2000},"rarity":"SR","img":"4055337","code":"8","tcg":197002,"grp":2512,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"OP11-EN009","name":"Aloof Lupine","ctype":"monster","keywords":"Beast DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Beast / Effect","atk":1700,"def":300},"rarity":"SR","img":"92998610","code":"9","tcg":197003,"grp":2512,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"OP11-EN010","name":"Salamangreat Violet Chimera","ctype":"monster","keywords":"Salamangreat Cyberse FIRE Fusion Monster","stats":{"a":"FIRE","l":"Level 8","t":"Cyberse / Fusion","atk":2800,"def":2000},"rarity":"SR","img":"37261776","code":"10","tcg":197004,"grp":2512,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"OP11-EN011","name":"Fortune's Future","ctype":"spell","keywords":"Fortune Lady Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"68663748","code":"11","tcg":197005,"grp":2512,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"OP11-EN012","name":"Metaverse","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"89208725","code":"12","tcg":197006,"grp":2512,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"OP11-EN013","name":"Cyber Dragon","ctype":"monster","keywords":"Cyber Dragon Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 5","t":"Machine / Effect","atk":2100,"def":1600},"rarity":"C","img":"70095154","code":"13","tcg":197009,"grp":2512,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"OP11-EN014","name":"Boot-Up Soldier - Dread Dynamo","ctype":"monster","keywords":"Gadget Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Machine / Effect","atk":0,"def":2000},"rarity":"C","img":"13316346","code":"14","tcg":197010,"grp":2512,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"OP11-EN015","name":"Fortune Lady Fire","ctype":"monster","keywords":"Fortune Lady Spellcaster FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 2","t":"Spellcaster / Effect","atk":-1,"def":-1},"rarity":"C","img":"71870152","code":"15","tcg":197012,"grp":2512,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"OP11-EN016","name":"Fortune Lady Water","ctype":"monster","keywords":"Fortune Lady Spellcaster WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Spellcaster / Effect","atk":-1,"def":-1},"rarity":"C","img":"29088922","code":"16","tcg":197014,"grp":2512,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"OP11-EN017","name":"Limiter Removal","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"23171610","code":"17","tcg":197015,"grp":2512,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"OP11-EN018","name":"Future Visions","ctype":"spell","keywords":"Field Spell","stats":{"t":"Field Spell"},"rarity":"C","img":"87902575","code":"18","tcg":197016,"grp":2512,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"OP11-EN019","name":"Moray of Greed","ctype":"spell","keywords":"Greed Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"22123627","code":"19","tcg":197017,"grp":2512,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"OP11-EN020","name":"True Draco Heritage","ctype":"spell","keywords":"True Draco Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"49430782","code":"20","tcg":197018,"grp":2512,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"OP11-EN021","name":"Stronghold the Moving Fortress","ctype":"trap","keywords":"Gadget Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"13955608","code":"21","tcg":197019,"grp":2512,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"OP11-EN022","name":"All-Out Attacks","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"30834988","code":"22","tcg":197020,"grp":2512,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"OP11-EN023","name":"Synchro Material","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"14507213","code":"23","tcg":197021,"grp":2512,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"OP11-EN024","name":"Eisbahn","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"54059040","code":"24","tcg":197022,"grp":2512,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"OP11-EN025","name":"True King's Return","ctype":"trap","keywords":"True Draco Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"35125879","code":"25","tcg":197023,"grp":2512,"idx":24}
+  ]
+}

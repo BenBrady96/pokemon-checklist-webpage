@@ -1,0 +1,81 @@
+{
+  "id": "yugioh/turbo-pack-booster-seven",
+  "game": "yugioh",
+  "slug": "turbo-pack-booster-seven",
+  "name": "Turbo Pack: Booster Seven",
+  "series": "ZEXAL",
+  "kind": "pack",
+  "code": "TU07",
+  "syncKey": "YTU07",
+  "released": "2012-01-01",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "TU07-EN000–TU07-EN020",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from TU07-EN000 to TU07-EN020."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Turbo Pack: Booster Seven Checklist · All 21 Cards",
+    "description": "Free Yu-Gi-Oh! Turbo Pack: Booster Seven checklist with no ads, no sign-up and no tracking. Track all 21 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Turbo Pack: Booster Seven Checklist",
+    "ogDescription": "Track all 21 cards in Yu-Gi-Oh! Turbo Pack: Booster Seven. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 21 cards in Yu-Gi-Oh! Turbo Pack: Booster Seven. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Turbo Pack: Booster Seven",
+    "paragraphs": [
+      "Turbo Pack: Booster Seven is a Yu-Gi-Oh! TCG pack released on 1 January 2012, in the ZEXAL era. It has 21 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Turbo Pack: Booster Seven"
+    ],
+    "tcgplayer": [
+      595
+    ]
+  },
+  "cards": [
+    {"id":"000","section":"main","num":"000","printed":"TU07-EN000","name":"Ally of Justice Catastor","ctype":"monster","keywords":"Ally of Justice Machine DARK Synchro Monster","stats":{"a":"DARK","l":"Level 5","t":"Machine / Synchro","atk":2200,"def":1200},"rarity":"UtR","img":"26593852","code":"0","tcg":66752,"grp":595,"idx":0},
+    {"id":"001","section":"main","num":"001","printed":"TU07-EN001","name":"Book of Moon","ctype":"spell","keywords":"Book of Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"UR","img":"14087893","code":"1","tcg":66753,"grp":595,"idx":1},
+    {"id":"002","section":"main","num":"002","printed":"TU07-EN002","name":"Ninja Grandmaster Sasuke","ctype":"monster","keywords":"Ninja Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Effect","atk":1800,"def":1000},"rarity":"SR","img":"4041838","code":"2","tcg":66754,"grp":595,"idx":2},
+    {"id":"003","section":"main","num":"003","printed":"TU07-EN003","name":"Yellow Gadget","ctype":"monster","keywords":"Gadget Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Machine / Effect","atk":1200,"def":1200},"rarity":"SR","img":"13839120","code":"3","tcg":66755,"grp":595,"idx":3},
+    {"id":"004","section":"main","num":"004","printed":"TU07-EN004","name":"X-Saber Pashuul","ctype":"monster","keywords":"X-Saber Warrior EARTH Tuner Monster","stats":{"a":"EARTH","l":"Level 2","t":"Warrior / Tuner","atk":100,"def":0},"rarity":"SR","img":"23093604","code":"4","tcg":66756,"grp":595,"idx":4},
+    {"id":"005","section":"main","num":"005","printed":"TU07-EN005","name":"Horn of the Phantom Beast","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"21350571","code":"5","tcg":66757,"grp":595,"idx":5},
+    {"id":"006","section":"main","num":"006","printed":"TU07-EN006","name":"Dark Horus","ctype":"monster","keywords":"Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Dragon / Effect","atk":3000,"def":1800},"rarity":"R","img":"66214679","code":"6","tcg":66758,"grp":595,"idx":6},
+    {"id":"007","section":"main","num":"007","printed":"TU07-EN007","name":"Lightning Warrior","ctype":"monster","keywords":"Warrior LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 7","t":"Warrior / Synchro","atk":2400,"def":1200},"rarity":"R","img":"87259077","code":"7","tcg":66759,"grp":595,"idx":7},
+    {"id":"008","section":"main","num":"008","printed":"TU07-EN008","name":"Primal Seed","ctype":"spell","keywords":"Black Luster Soldier Normal Spell","stats":{"t":"Normal Spell"},"rarity":"R","img":"23701465","code":"8","tcg":66760,"grp":595,"idx":8},
+    {"id":"009","section":"main","num":"009","printed":"TU07-EN009","name":"Big Evolution Pill","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"R","img":"84808313","code":"9","tcg":66761,"grp":595,"idx":9},
+    {"id":"010","section":"main","num":"010","printed":"TU07-EN010","name":"Tail Swipe","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"R","img":"83682725","code":"10","tcg":66762,"grp":595,"idx":10},
+    {"id":"011","section":"main","num":"011","printed":"TU07-EN011","name":"Geartown","ctype":"spell","keywords":"Ancient Gear Field Spell","stats":{"t":"Field Spell"},"rarity":"R","img":"37694547","code":"11","tcg":66763,"grp":595,"idx":11},
+    {"id":"012","section":"main","num":"012","printed":"TU07-EN012","name":"Seiyaryu","ctype":"monster","keywords":"Dragon LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 7","t":"Dragon / Normal","atk":2500,"def":2300},"rarity":"C","img":"6740720","code":"12","tcg":66764,"grp":595,"idx":12},
+    {"id":"013","section":"main","num":"013","printed":"TU07-EN013","name":"Serpent Night Dragon","ctype":"monster","keywords":"Dragon DARK Normal Monster","stats":{"a":"DARK","l":"Level 7","t":"Dragon / Normal","atk":2350,"def":2400},"rarity":"C","img":"66516792","code":"13","tcg":66765,"grp":595,"idx":13},
+    {"id":"014","section":"main","num":"014","printed":"TU07-EN014","name":"Kotodama","ctype":"monster","keywords":"Fairy EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Fairy / Effect","atk":0,"def":1600},"rarity":"C","img":"19406822","code":"14","tcg":66766,"grp":595,"idx":14},
+    {"id":"015","section":"main","num":"015","printed":"TU07-EN015","name":"Gokipon","ctype":"monster","keywords":"Insect EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 2","t":"Insect / Effect","atk":800,"def":800},"rarity":"C","img":"14472500","code":"15","tcg":66767,"grp":595,"idx":15},
+    {"id":"016","section":"main","num":"016","printed":"TU07-EN016","name":"Goe Goe the Gallant Ninja","ctype":"monster","keywords":"Ninja Warrior WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Warrior / Effect","atk":1500,"def":1000},"rarity":"C","img":"10236520","code":"16","tcg":66768,"grp":595,"idx":16},
+    {"id":"017","section":"main","num":"017","printed":"TU07-EN017","name":"Herald of Orange Light","ctype":"monster","keywords":"Herald Fairy LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 2","t":"Fairy / Tuner","atk":300,"def":500},"rarity":"C","img":"17266660","code":"17","tcg":66769,"grp":595,"idx":17},
+    {"id":"018","section":"main","num":"018","printed":"TU07-EN018","name":"Blackwing - Sirocco the Dawn","ctype":"monster","keywords":"Blackwing Winged Beast DARK Effect Monster","stats":{"a":"DARK","l":"Level 5","t":"Winged Beast / Effect","atk":2000,"def":900},"rarity":"C","img":"75498415","code":"18","tcg":66770,"grp":595,"idx":18},
+    {"id":"019","section":"main","num":"019","printed":"TU07-EN019","name":"Ninjitsu Art of Transformation","ctype":"trap","keywords":"Ninja Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"70861343","code":"19","tcg":66771,"grp":595,"idx":19},
+    {"id":"020","section":"main","num":"020","printed":"TU07-EN020","name":"Ninjitsu Art of Decoy","ctype":"trap","keywords":"Ninja Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"89628781","code":"20","tcg":66772,"grp":595,"idx":20}
+  ]
+}

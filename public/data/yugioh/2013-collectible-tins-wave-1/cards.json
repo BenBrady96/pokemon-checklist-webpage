@@ -1,0 +1,69 @@
+{
+  "id": "yugioh/2013-collectible-tins-wave-1",
+  "game": "yugioh",
+  "slug": "2013-collectible-tins-wave-1",
+  "name": "2013 Collectible Tins Wave 1",
+  "series": "ZEXAL",
+  "kind": "tin",
+  "code": "CT10",
+  "syncKey": "YCT10",
+  "released": "2013-08-30",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "CT10-EN001–CT10-EN011",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from CT10-EN001 to CT10-EN011."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! 2013 Collectible Tins Wave 1 Checklist · All 9 Cards",
+    "description": "Free Yu-Gi-Oh! 2013 Collectible Tins Wave 1 checklist with no ads, no sign-up and no tracking. Track all 9 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! 2013 Collectible Tins Wave 1 Checklist",
+    "ogDescription": "Track all 9 cards in Yu-Gi-Oh! 2013 Collectible Tins Wave 1. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 9 cards in Yu-Gi-Oh! 2013 Collectible Tins Wave 1. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About 2013 Collectible Tins Wave 1",
+    "paragraphs": [
+      "2013 Collectible Tins Wave 1 is a Yu-Gi-Oh! TCG tin released on 30 August 2013, in the ZEXAL era. It has 9 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "2013 Collectible Tins Wave 1"
+    ],
+    "tcgplayer": [
+      1149
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"CT10-EN001","name":"Tidal, Dragon Ruler of Waterfalls","ctype":"monster","keywords":"Dragon WATER Effect Monster","stats":{"a":"WATER","l":"Level 7","t":"Dragon / Effect","atk":2600,"def":2000},"rarity":"ScR","img":"26400609","code":"1","tcg":70975,"grp":1149,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"CT10-EN002","name":"Blaster, Dragon Ruler of Infernos","ctype":"monster","keywords":"Dragon FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 7","t":"Dragon / Effect","atk":2800,"def":1800},"rarity":"ScR","img":"53804307","code":"2","tcg":70971,"grp":1149,"idx":1},
+    {"id":"005","section":"main","num":"005","printed":"CT10-EN005","name":"Black Luster Soldier - Envoy of the Beginning","ctype":"monster","keywords":"Black Luster Soldier Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Warrior / Effect","atk":3000,"def":2500},"rarity":"SR","img":"72989439","code":"5","tcg":70978,"grp":1149,"idx":2},
+    {"id":"006","section":"main","num":"006","printed":"CT10-EN006","name":"Ally of Justice Catastor","ctype":"monster","keywords":"Ally of Justice Machine DARK Synchro Monster","stats":{"a":"DARK","l":"Level 5","t":"Machine / Synchro","atk":2200,"def":1200},"rarity":"SR","img":"26593852","code":"6","tcg":70977,"grp":1149,"idx":3},
+    {"id":"007","section":"main","num":"007","printed":"CT10-EN007","name":"Superdreadnought Rail Cannon Gustav Max","ctype":"monster","keywords":"Train Machine EARTH Xyz Monster","stats":{"a":"EARTH","l":"Rank 10","t":"Machine / Xyz","atk":3000,"def":3000},"rarity":"SR","img":"56910167","code":"7","tcg":70976,"grp":1149,"idx":4},
+    {"id":"008","section":"main","num":"008","printed":"CT10-EN008","name":"Brotherhood of the Fire Fist - Bear","ctype":"monster","keywords":"Fire Fist Beast-Warrior FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Beast-Warrior / Effect","atk":1600,"def":1200},"rarity":"SR","img":"6353603","code":"8","tcg":70972,"grp":1149,"idx":5},
+    {"id":"009","section":"main","num":"009","printed":"CT10-EN009","name":"Karakuri Shogun mdl 00 \"Burei\"","ctype":"monster","keywords":"Karakuri Machine EARTH Synchro Monster","stats":{"a":"EARTH","l":"Level 7","t":"Machine / Synchro","atk":2600,"def":1900},"rarity":"SR","img":"23874409","code":"9","tcg":70973,"grp":1149,"idx":6},
+    {"id":"010","section":"main","num":"010","printed":"CT10-EN010","name":"Gagaga Cowboy","ctype":"monster","keywords":"Gagaga Warrior EARTH Xyz Monster","stats":{"a":"EARTH","l":"Rank 4","t":"Warrior / Xyz","atk":1500,"def":2400},"rarity":"SR","img":"12014404","code":"10","tcg":70974,"grp":1149,"idx":7},
+    {"id":"011","section":"main","num":"011","printed":"CT10-EN011","name":"Number 40: Gimmick Puppet of Strings","ctype":"monster","keywords":"Gimmick Puppet Machine DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 8","t":"Machine / Xyz","atk":3000,"def":2000},"rarity":"SR","img":"75433814","code":"11","tcg":70979,"grp":1149,"idx":8}
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "id": "yugioh/ots-tournament-pack-21",
+  "game": "yugioh",
+  "slug": "ots-tournament-pack-21",
+  "name": "OTS Tournament Pack 21",
+  "series": "SEVENS & GO RUSH!!",
+  "kind": "pack",
+  "code": "OP21",
+  "syncKey": "YOP21",
+  "released": "2023-02-09",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "OP21-EN001–OP21-EN026",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from OP21-EN001 to OP21-EN026."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! OTS Tournament Pack 21 Checklist · All 26 Cards",
+    "description": "Free Yu-Gi-Oh! OTS Tournament Pack 21 checklist with no ads, no sign-up and no tracking. Track all 26 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! OTS Tournament Pack 21 Checklist",
+    "ogDescription": "Track all 26 cards in Yu-Gi-Oh! OTS Tournament Pack 21. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 26 cards in Yu-Gi-Oh! OTS Tournament Pack 21. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About OTS Tournament Pack 21",
+    "paragraphs": [
+      "OTS Tournament Pack 21 is a Yu-Gi-Oh! TCG pack released on 9 February 2023, in the SEVENS &amp; GO RUSH!! era. It has 26 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "OTS Tournament Pack 21"
+    ],
+    "tcgplayer": [
+      22936
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"OP21-EN001","name":"Spright Blue","ctype":"monster","keywords":"Spright Thunder DARK Effect Monster","stats":{"a":"DARK","l":"Level 2","t":"Thunder / Effect","atk":1100,"def":1000},"rarity":"UtR","img":"76145933","code":"1","tcg":482378,"grp":22936,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"OP21-EN002","name":"Tearlaments Reinoheart","ctype":"monster","keywords":"Tearlaments Warrior WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Warrior / Effect","atk":1500,"def":2100},"rarity":"UtR","img":"73956664","code":"2","tcg":482379,"grp":22936,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"OP21-EN003","name":"Kashtira Fenrir","ctype":"monster","keywords":"Kashtira Psychic EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 7","t":"Psychic / Effect","atk":2400,"def":2400},"rarity":"UtR","img":"32909498","code":"3","tcg":482380,"grp":22936,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"OP21-EN004","name":"Spright Red","ctype":"monster","keywords":"Spright Thunder FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 2","t":"Thunder / Effect","atk":1200,"def":1800},"rarity":"SR","img":"75922381","code":"4","tcg":482431,"grp":22936,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"OP21-EN005","name":"Tearlaments Merrli","ctype":"monster","keywords":"Tearlaments Aqua DARK Effect Monster","stats":{"a":"DARK","l":"Level 2","t":"Aqua / Effect","atk":800,"def":2000},"rarity":"SR","img":"74078255","code":"5","tcg":482432,"grp":22936,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"OP21-EN006","name":"Tearlaments Havnis","ctype":"monster","keywords":"Tearlaments Aqua DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Aqua / Effect","atk":1600,"def":1000},"rarity":"SR","img":"37961969","code":"6","tcg":482433,"grp":22936,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"OP21-EN007","name":"Tobari the Sky Ninja","ctype":"monster","keywords":"Ninja Winged Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 1","t":"Winged Beast / Effect","atk":0,"def":0},"rarity":"SR","img":"31887806","code":"7","tcg":482434,"grp":22936,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"OP21-EN008","name":"Scareclaw Kashtira","ctype":"monster","keywords":"Kashtira Psychic EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 7","t":"Psychic / Effect","atk":0,"def":2600},"rarity":"SR","img":"78534861","code":"8","tcg":482435,"grp":22936,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"OP21-EN009","name":"Number 29: Mannequin Cat","ctype":"monster","keywords":"Beast LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 2","t":"Beast / Xyz","atk":2000,"def":900},"rarity":"SR","img":"54191698","code":"9","tcg":482436,"grp":22936,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"OP21-EN010","name":"Epurrely Happiness","ctype":"monster","keywords":"Purrely Fairy LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 2","t":"Fairy / Xyz","atk":2000,"def":100},"rarity":"SR","img":"52645235","code":"10","tcg":482437,"grp":22936,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"OP21-EN011","name":"Rescue-ACE HQ","ctype":"spell","keywords":"Rescue-ACE Field Spell","stats":{"t":"Field Spell"},"rarity":"SR","img":"63899465","code":"11","tcg":482438,"grp":22936,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"OP21-EN012","name":"Light of the Branded","ctype":"spell","keywords":"Branded Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"SR","img":"72554664","code":"12","tcg":482439,"grp":22936,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"OP21-EN013","name":"Mysterious Puppeteer","ctype":"monster","keywords":"Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Effect","atk":1000,"def":1500},"rarity":"C","img":"54098121","code":"13","tcg":482440,"grp":22936,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"OP21-EN014","name":"Testudo erat Numen","ctype":"monster","keywords":"Aqua WATER Effect Monster","stats":{"a":"WATER","l":"Level 1","t":"Aqua / Effect","atk":0,"def":1800},"rarity":"C","img":"74952447","code":"14","tcg":482445,"grp":22936,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"OP21-EN015","name":"Abyss Actor - Curtain Raiser","ctype":"monster","keywords":"Abyss Actor Fiend DARK Pendulum Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Pendulum / Effect","atk":1100,"def":1000},"rarity":"C","img":"44179224","code":"15","tcg":482448,"grp":22936,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"OP21-EN016","name":"Mudragon of the Swamp","ctype":"monster","keywords":"Wyrm WATER Fusion Monster","stats":{"a":"WATER","l":"Level 4","t":"Wyrm / Fusion","atk":1900,"def":1600},"rarity":"C","img":"54757758","code":"16","tcg":482449,"grp":22936,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"OP21-EN017","name":"Gishki Aquamirror","ctype":"spell","keywords":"Gishki Ritual Spell","stats":{"t":"Ritual Spell"},"rarity":"C","img":"46159582","code":"17","tcg":482451,"grp":22936,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"OP21-EN018","name":"Contact with the Aquamirror","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"10925955","code":"18","tcg":482455,"grp":22936,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"OP21-EN019","name":"Photon Sanctuary","ctype":"spell","keywords":"Photon Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"17418744","code":"19","tcg":482457,"grp":22936,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"OP21-EN020","name":"Galaxy Expedition","ctype":"spell","keywords":"Photon Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"60222582","code":"20","tcg":482460,"grp":22936,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"OP21-EN021","name":"Sacred Sword of Seven Stars","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"45725480","code":"21","tcg":482463,"grp":22936,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"OP21-EN022","name":"Time-Space Trap Hole","ctype":"trap","keywords":"Hole Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"2055403","code":"22","tcg":482465,"grp":22936,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"OP21-EN023","name":"Mischief of the Gnomes","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"164710","code":"23","tcg":482466,"grp":22936,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"OP21-EN024","name":"Trap Hole of Spikes","ctype":"trap","keywords":"Hole Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"75902998","code":"24","tcg":482467,"grp":22936,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"OP21-EN025","name":"Network Trap Hole","ctype":"trap","keywords":"Hole Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"84640866","code":"25","tcg":482469,"grp":22936,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"OP21-EN026","name":"Amaze Attraction Majestic Merry-Go-Round","ctype":"trap","keywords":"Attraction Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"29867611","code":"26","tcg":482474,"grp":22936,"idx":25}
+  ]
+}

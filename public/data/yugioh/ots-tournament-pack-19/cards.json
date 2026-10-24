@@ -1,0 +1,89 @@
+{
+  "id": "yugioh/ots-tournament-pack-19",
+  "game": "yugioh",
+  "slug": "ots-tournament-pack-19",
+  "name": "OTS Tournament Pack 19",
+  "series": "SEVENS & GO RUSH!!",
+  "kind": "pack",
+  "code": "OP19",
+  "syncKey": "YOP19",
+  "released": "2022-06-15",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "OP19-EN001–OP19-EN029",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from OP19-EN001 to OP19-EN029."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! OTS Tournament Pack 19 Checklist · All 29 Cards",
+    "description": "Free Yu-Gi-Oh! OTS Tournament Pack 19 checklist with no ads, no sign-up and no tracking. Track all 29 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! OTS Tournament Pack 19 Checklist",
+    "ogDescription": "Track all 29 cards in Yu-Gi-Oh! OTS Tournament Pack 19. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 29 cards in Yu-Gi-Oh! OTS Tournament Pack 19. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About OTS Tournament Pack 19",
+    "paragraphs": [
+      "OTS Tournament Pack 19 is a Yu-Gi-Oh! TCG pack released on 15 June 2022, in the SEVENS &amp; GO RUSH!! era. It has 29 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "OTS Tournament Pack 19"
+    ],
+    "tcgplayer": [
+      3073
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"OP19-EN001","name":"Fallen of Albaz","ctype":"monster","keywords":"Dogmatika Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Dragon / Effect","atk":1800,"def":0},"rarity":"UtR","img":"68468459","code":"1","tcg":275750,"grp":3073,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"OP19-EN002","name":"Water Enchantress of the Temple","ctype":"monster","keywords":"Adventurer Spellcaster WATER Effect Monster","stats":{"a":"WATER","l":"Level 3","t":"Spellcaster / Effect","atk":1500,"def":1200},"rarity":"UtR","img":"30680659","code":"2","tcg":275751,"grp":3073,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"OP19-EN003","name":"Skill Drain","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"UtR","img":"82732705","code":"3","tcg":275753,"grp":3073,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"OP19-EN004","name":"Caius the Shadow Monarch","ctype":"monster","keywords":"Monarch Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Fiend / Effect","atk":2400,"def":1000},"rarity":"SR","img":"9748752","code":"4","tcg":275754,"grp":3073,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"OP19-EN005","name":"Trap Eater","ctype":"monster","keywords":"Fiend DARK Tuner Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Tuner","atk":1900,"def":1600},"rarity":"SR","img":"13821299","code":"5","tcg":275758,"grp":3073,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"OP19-EN006","name":"Pain Painter","ctype":"monster","keywords":"Zombie DARK Tuner Monster","stats":{"a":"DARK","l":"Level 2","t":"Zombie / Tuner","atk":400,"def":200},"rarity":"SR","img":"21620076","code":"6","tcg":275760,"grp":3073,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"OP19-EN007","name":"D/D Berfomet","ctype":"monster","keywords":"D/D Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Effect","atk":1400,"def":1800},"rarity":"SR","img":"19808608","code":"7","tcg":275761,"grp":3073,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"OP19-EN008","name":"Performapal Odd-Eyes Dissolver","ctype":"monster","keywords":"Odd-Eyes Spellcaster DARK Pendulum Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Spellcaster / Pendulum / Effect","atk":2000,"def":2600},"rarity":"SR","img":"46136942","code":"8","tcg":275762,"grp":3073,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"OP19-EN009","name":"D/D/D Flame King Genghis","ctype":"monster","keywords":"D/D Fiend FIRE Fusion Monster","stats":{"a":"FIRE","l":"Level 6","t":"Fiend / Fusion","atk":2000,"def":1500},"rarity":"SR","img":"74583607","code":"9","tcg":275763,"grp":3073,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"OP19-EN010","name":"D/D/D Oracle King d'Arc","ctype":"monster","keywords":"D/D Fiend DARK Fusion Monster","stats":{"a":"DARK","l":"Level 7","t":"Fiend / Fusion","atk":2800,"def":2000},"rarity":"SR","img":"82956492","code":"10","tcg":275764,"grp":3073,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"OP19-EN011","name":"Forbidden Chalice","ctype":"spell","keywords":"Forbidden Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"SR","img":"25789292","code":"11","tcg":275765,"grp":3073,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"OP19-EN012","name":"Hercules Beetle","ctype":"monster","keywords":"Insect EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 5","t":"Insect / Normal","atk":1500,"def":2000},"rarity":"C","img":"52584282","code":"12","tcg":275766,"grp":3073,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"OP19-EN013","name":"Kuwagata α","ctype":"monster","keywords":"Insect EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 4","t":"Insect / Normal","atk":1250,"def":1000},"rarity":"C","img":"60802233","code":"13","tcg":275767,"grp":3073,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"OP19-EN014","name":"Swamp Battleguard","ctype":"monster","keywords":"Battleguard Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 5","t":"Warrior / Effect","atk":1800,"def":1500},"rarity":"C","img":"40453765","code":"14","tcg":275768,"grp":3073,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"OP19-EN015","name":"Lava Battleguard","ctype":"monster","keywords":"Battleguard Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 5","t":"Warrior / Effect","atk":1550,"def":1800},"rarity":"C","img":"20394040","code":"15","tcg":275769,"grp":3073,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"OP19-EN016","name":"Night Assailant","ctype":"monster","keywords":"Fiend DARK Flip Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Fiend / Flip / Effect","atk":200,"def":500},"rarity":"C","img":"16226786","code":"16","tcg":275770,"grp":3073,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"OP19-EN017","name":"Gorz the Emissary of Darkness","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Fiend / Effect","atk":2700,"def":2500},"rarity":"C","img":"44330098","code":"17","tcg":275771,"grp":3073,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"OP19-EN018","name":"Lonefire Blossom","ctype":"monster","keywords":"Plant FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 3","t":"Plant / Effect","atk":500,"def":1400},"rarity":"C","img":"48686504","code":"18","tcg":275772,"grp":3073,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"OP19-EN019","name":"Heroic Challenger - Thousand Blades","ctype":"monster","keywords":"Heroic Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Effect","atk":1300,"def":1100},"rarity":"C","img":"1833916","code":"19","tcg":275773,"grp":3073,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"OP19-EN020","name":"Wisdom-Eye Magician","ctype":"monster","keywords":"Magician Spellcaster LIGHT Pendulum Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Pendulum / Effect","atk":1500,"def":1500},"rarity":"C","img":"72714461","code":"20","tcg":275774,"grp":3073,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"OP19-EN021","name":"Performapal Skullcrobat Joker","ctype":"monster","keywords":"Magician Spellcaster DARK Pendulum Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Pendulum / Effect","atk":1800,"def":100},"rarity":"C","img":"40318957","code":"21","tcg":275775,"grp":3073,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"OP19-EN022","name":"Fairy Tail - Snow","ctype":"monster","keywords":"Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Effect","atk":1850,"def":1000},"rarity":"C","img":"55623480","code":"22","tcg":275776,"grp":3073,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"OP19-EN023","name":"Destrudo the Lost Dragon's Frisson","ctype":"monster","keywords":"Dragon DARK Tuner Monster","stats":{"a":"DARK","l":"Level 7","t":"Dragon / Tuner","atk":1000,"def":3000},"rarity":"C","img":"5560911","code":"23","tcg":275777,"grp":3073,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"OP19-EN024","name":"Heroic Champion - Excalibur","ctype":"monster","keywords":"Heroic Warrior LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 4","t":"Warrior / Xyz","atk":2000,"def":2000},"rarity":"C","img":"60645181","code":"24","tcg":275778,"grp":3073,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"OP19-EN025","name":"Heroic Champion - Gandiva","ctype":"monster","keywords":"Heroic Warrior EARTH Xyz Monster","stats":{"a":"EARTH","l":"Rank 4","t":"Warrior / Xyz","atk":2100,"def":1800},"rarity":"C","img":"48009503","code":"25","tcg":275779,"grp":3073,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"OP19-EN026","name":"Symph Amplifire","ctype":"spell","keywords":"Symphonic Warrior Field Spell","stats":{"t":"Field Spell"},"rarity":"C","img":"75304793","code":"26","tcg":275780,"grp":3073,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"OP19-EN027","name":"Red Reboot","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"C","img":"23002292","code":"27","tcg":275781,"grp":3073,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"OP19-EN028","name":"Slime Token","ctype":"token","keywords":"Slime Aqua Token","stats":{"t":"Aqua / Token"},"rarity":"SR","img":"21770261","code":"28","tcg":275756,"grp":3073,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"OP19-EN029","name":"Slime Token","ctype":"token","keywords":"Slime Aqua Token","stats":{"t":"Aqua / Token"},"rarity":"SR","img":"21770261","code":"29","tcg":275755,"grp":3073,"idx":28}
+  ]
+}

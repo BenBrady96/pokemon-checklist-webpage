@@ -1,0 +1,99 @@
+{
+  "id": "yugioh/dragunity-legion-structure-deck",
+  "game": "yugioh",
+  "slug": "dragunity-legion-structure-deck",
+  "name": "Dragunity Legion Structure Deck",
+  "series": "5D’s",
+  "kind": "deck",
+  "code": "SDDL",
+  "syncKey": "YSDDL",
+  "released": "2011-03-04",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "SDDL-EN001–SDDL-EN039",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from SDDL-EN001 to SDDL-EN039."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Dragunity Legion Structure Deck Checklist · All 39 Cards",
+    "description": "Free Yu-Gi-Oh! Dragunity Legion Structure Deck checklist with no ads, no sign-up and no tracking. Track all 39 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Dragunity Legion Structure Deck Checklist",
+    "ogDescription": "Track all 39 cards in Yu-Gi-Oh! Dragunity Legion Structure Deck. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 39 cards in Yu-Gi-Oh! Dragunity Legion Structure Deck. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Dragunity Legion Structure Deck",
+    "paragraphs": [
+      "Dragunity Legion Structure Deck is a Yu-Gi-Oh! TCG deck released on 4 March 2011, in the 5D’s era. It has 39 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Dragunity Legion Structure Deck"
+    ],
+    "tcgplayer": [
+      317
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"SDDL-EN001","name":"Dragunity Arma Leyvaten","ctype":"monster","keywords":"Dragunity Dragon WIND Effect Monster","stats":{"a":"WIND","l":"Level 8","t":"Dragon / Effect","atk":2600,"def":1200},"rarity":"UR","img":"63487632","code":"1","tcg":39346,"grp":317,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"SDDL-EN002","name":"Dragunity Arma Mystletainn","ctype":"monster","keywords":"Dragunity Dragon WIND Effect Monster","stats":{"a":"WIND","l":"Level 6","t":"Dragon / Effect","atk":2100,"def":1500},"rarity":"SR","img":"876330","code":"2","tcg":39347,"grp":317,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"SDDL-EN003","name":"Dragunity Aklys","ctype":"monster","keywords":"Dragunity Dragon WIND Tuner Monster","stats":{"a":"WIND","l":"Level 2","t":"Dragon / Tuner","atk":1000,"def":800},"rarity":"SR","img":"36870345","code":"3","tcg":39348,"grp":317,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"SDDL-EN004","name":"Dragunity Dux","ctype":"monster","keywords":"Dragunity Winged Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Winged Beast / Effect","atk":1500,"def":1000},"rarity":"C","img":"28183605","code":"4","tcg":39349,"grp":317,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"SDDL-EN005","name":"Dragunity Legionnaire","ctype":"monster","keywords":"Dragunity Winged Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 3","t":"Winged Beast / Effect","atk":1200,"def":800},"rarity":"C","img":"54578613","code":"5","tcg":39350,"grp":317,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"SDDL-EN006","name":"Dragunity Tribus","ctype":"monster","keywords":"Dragunity Winged Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 1","t":"Winged Beast / Effect","atk":500,"def":300},"rarity":"C","img":"81962318","code":"6","tcg":39351,"grp":317,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"SDDL-EN007","name":"Dragunity Darkspear","ctype":"monster","keywords":"Dragunity Dragon WIND Tuner Monster","stats":{"a":"WIND","l":"Level 3","t":"Dragon / Tuner","atk":1000,"def":1000},"rarity":"C","img":"13361027","code":"7","tcg":39352,"grp":317,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"SDDL-EN008","name":"Dragunity Militum","ctype":"monster","keywords":"Dragunity Winged Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Winged Beast / Effect","atk":1700,"def":1200},"rarity":"C","img":"81661951","code":"8","tcg":39353,"grp":317,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"SDDL-EN009","name":"Dragunity Primus Pilus","ctype":"monster","keywords":"Dragunity Winged Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 5","t":"Winged Beast / Effect","atk":2200,"def":1600},"rarity":"C","img":"18060565","code":"9","tcg":39354,"grp":317,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"SDDL-EN010","name":"Dragunity Brandistock","ctype":"monster","keywords":"Dragunity Dragon WIND Tuner Monster","stats":{"a":"WIND","l":"Level 1","t":"Dragon / Tuner","atk":600,"def":400},"rarity":"C","img":"54455664","code":"10","tcg":39355,"grp":317,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"SDDL-EN011","name":"Dragunity Javelin","ctype":"monster","keywords":"Dragunity Dragon WIND Tuner Monster","stats":{"a":"WIND","l":"Level 2","t":"Dragon / Tuner","atk":1200,"def":800},"rarity":"C","img":"80549379","code":"11","tcg":39356,"grp":317,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"SDDL-EN012","name":"Mist Valley Falcon","ctype":"monster","keywords":"Mist Valley Winged Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Winged Beast / Effect","atk":2000,"def":1200},"rarity":"C","img":"82199284","code":"12","tcg":39357,"grp":317,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"SDDL-EN013","name":"Hunter Owl","ctype":"monster","keywords":"Winged Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Winged Beast / Effect","atk":1000,"def":900},"rarity":"C","img":"51962254","code":"13","tcg":39358,"grp":317,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"SDDL-EN014","name":"Garuda the Wind Spirit","ctype":"monster","keywords":"Winged Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Winged Beast / Effect","atk":1600,"def":1200},"rarity":"C","img":"12800777","code":"14","tcg":39359,"grp":317,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"SDDL-EN015","name":"Flying Kamakiri #1","ctype":"monster","keywords":"Insect WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Insect / Effect","atk":1400,"def":900},"rarity":"C","img":"84834865","code":"15","tcg":39360,"grp":317,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"SDDL-EN016","name":"Spear Dragon","ctype":"monster","keywords":"Dragon WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Dragon / Effect","atk":1900,"def":0},"rarity":"C","img":"31553716","code":"16","tcg":39361,"grp":317,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"SDDL-EN017","name":"Twin-Headed Behemoth","ctype":"monster","keywords":"Dragon WIND Effect Monster","stats":{"a":"WIND","l":"Level 3","t":"Dragon / Effect","atk":1500,"def":1200},"rarity":"C","img":"43586926","code":"17","tcg":39362,"grp":317,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"SDDL-EN018","name":"Armed Dragon LV3","ctype":"monster","keywords":"Armed Dragon Dragon WIND Effect Monster","stats":{"a":"WIND","l":"Level 3","t":"Dragon / Effect","atk":1200,"def":900},"rarity":"C","img":"980973","code":"18","tcg":39363,"grp":317,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"SDDL-EN019","name":"Armed Dragon LV5","ctype":"monster","keywords":"Armed Dragon Dragon WIND Effect Monster","stats":{"a":"WIND","l":"Level 5","t":"Dragon / Effect","atk":2400,"def":1700},"rarity":"C","img":"46384672","code":"19","tcg":39364,"grp":317,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"SDDL-EN020","name":"Masked Dragon","ctype":"monster","keywords":"Dragon FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 3","t":"Dragon / Effect","atk":1400,"def":1100},"rarity":"C","img":"39191307","code":"20","tcg":39365,"grp":317,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"SDDL-EN021","name":"Dragon Ravine","ctype":"spell","keywords":"Dragunity Field Spell","stats":{"t":"Field Spell"},"rarity":"C","img":"62265044","code":"21","tcg":39366,"grp":317,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"SDDL-EN022","name":"Dragon Mastery","ctype":"spell","keywords":"Dragunity Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"99659159","code":"22","tcg":39367,"grp":317,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"SDDL-EN023","name":"United We Stand","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"56747793","code":"23","tcg":39368,"grp":317,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"SDDL-EN024","name":"Mage Power","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"83746708","code":"24","tcg":39369,"grp":317,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"SDDL-EN025","name":"Dragon's Gunfire","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"55991637","code":"25","tcg":39370,"grp":317,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"SDDL-EN026","name":"Stamping Destruction","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"81385346","code":"26","tcg":39371,"grp":317,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"SDDL-EN027","name":"Creature Swap","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"31036355","code":"27","tcg":39372,"grp":317,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"SDDL-EN028","name":"Monster Reincarnation","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"74848038","code":"28","tcg":39373,"grp":317,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"SDDL-EN029","name":"Foolish Burial","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"81439174","code":"29","tcg":39374,"grp":317,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"SDDL-EN030","name":"Card Destruction","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"72892473","code":"30","tcg":39375,"grp":317,"idx":29},
+    {"id":"031","section":"main","num":"031","printed":"SDDL-EN031","name":"Windstorm of Etaqua","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"59744639","code":"31","tcg":39376,"grp":317,"idx":30},
+    {"id":"032","section":"main","num":"032","printed":"SDDL-EN032","name":"Relieve Monster","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"37507488","code":"32","tcg":39377,"grp":317,"idx":31},
+    {"id":"033","section":"main","num":"033","printed":"SDDL-EN033","name":"Legacy of Yata-Garasu","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"30461781","code":"33","tcg":39378,"grp":317,"idx":32},
+    {"id":"034","section":"main","num":"034","printed":"SDDL-EN034","name":"Final Attack Orders","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"52503575","code":"34","tcg":39379,"grp":317,"idx":33},
+    {"id":"035","section":"main","num":"035","printed":"SDDL-EN035","name":"Mirror Force","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"44095762","code":"35","tcg":39380,"grp":317,"idx":34},
+    {"id":"036","section":"main","num":"036","printed":"SDDL-EN036","name":"Dragon's Rage","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"54178050","code":"36","tcg":39381,"grp":317,"idx":35},
+    {"id":"037","section":"main","num":"037","printed":"SDDL-EN037","name":"Bottomless Trap Hole","ctype":"trap","keywords":"Hole Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"29401950","code":"37","tcg":39382,"grp":317,"idx":36},
+    {"id":"038","section":"main","num":"038","printed":"SDDL-EN038","name":"Spiritual Wind Art - Miyabi","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"79333300","code":"38","tcg":39383,"grp":317,"idx":37},
+    {"id":"039","section":"main","num":"039","printed":"SDDL-EN039","name":"Icarus Attack","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"53567095","code":"39","tcg":39384,"grp":317,"idx":38}
+  ]
+}

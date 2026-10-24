@@ -1,0 +1,90 @@
+{
+  "id": "yugioh/duelist-pack-zane-truesdale",
+  "game": "yugioh",
+  "slug": "duelist-pack-zane-truesdale",
+  "name": "Duelist Pack: Zane Truesdale",
+  "series": "GX",
+  "kind": "pack",
+  "code": "DP04",
+  "syncKey": "YDP04",
+  "released": "2007-03-07",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "DP04-EN001–DP04-EN030",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from DP04-EN001 to DP04-EN030."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Duelist Pack: Zane Truesdale Checklist · All 30 Cards",
+    "description": "Free Yu-Gi-Oh! Duelist Pack: Zane Truesdale checklist with no ads, no sign-up and no tracking. Track all 30 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Duelist Pack: Zane Truesdale Checklist",
+    "ogDescription": "Track all 30 cards in Yu-Gi-Oh! Duelist Pack: Zane Truesdale. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 30 cards in Yu-Gi-Oh! Duelist Pack: Zane Truesdale. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Duelist Pack: Zane Truesdale",
+    "paragraphs": [
+      "Duelist Pack: Zane Truesdale is a Yu-Gi-Oh! TCG pack released on 7 March 2007, in the GX era. It has 30 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Duelist Pack: Zane Truesdale"
+    ],
+    "tcgplayer": [
+      196
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"DP04-EN001","name":"Cyber Dragon","ctype":"monster","keywords":"Cyber Dragon Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 5","t":"Machine / Effect","atk":2100,"def":1600},"rarity":"R","img":"70095155","code":"1","tcg":26499,"grp":196,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"DP04-EN002","name":"Cyber Barrier Dragon","ctype":"monster","keywords":"Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Machine / Effect","atk":800,"def":2800},"rarity":"R","img":"68774379","code":"2","tcg":26500,"grp":196,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"DP04-EN003","name":"Cyber Laser Dragon","ctype":"monster","keywords":"Photon Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 7","t":"Machine / Effect","atk":2400,"def":1800},"rarity":"R","img":"4162088","code":"3","tcg":26501,"grp":196,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"DP04-EN004","name":"Proto-Cyber Dragon","ctype":"monster","keywords":"Cyber Dragon Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Machine / Effect","atk":1100,"def":600},"rarity":"C","img":"26439287","code":"4","tcg":26502,"grp":196,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"DP04-EN005","name":"Cyber Kirin","ctype":"monster","keywords":"Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Machine / Effect","atk":300,"def":800},"rarity":"C","img":"76986005","code":"5","tcg":26503,"grp":196,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"DP04-EN006","name":"Cyber Phoenix","ctype":"monster","keywords":"Machine FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Machine / Effect","atk":1200,"def":1600},"rarity":"C","img":"3370104","code":"6","tcg":26504,"grp":196,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"DP04-EN007","name":"Cyberdark Horn","ctype":"monster","keywords":"Cyberdark Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Machine / Effect","atk":800,"def":800},"rarity":"C","img":"41230939","code":"7","tcg":26505,"grp":196,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"DP04-EN008","name":"Cyberdark Edge","ctype":"monster","keywords":"Cyberdark Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Machine / Effect","atk":800,"def":800},"rarity":"C","img":"77625948","code":"8","tcg":26506,"grp":196,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"DP04-EN009","name":"Cyberdark Keel","ctype":"monster","keywords":"Cyberdark Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Machine / Effect","atk":800,"def":800},"rarity":"C","img":"3019642","code":"9","tcg":26507,"grp":196,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"DP04-EN010","name":"Infernal Dragon","ctype":"monster","keywords":"Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Dragon / Effect","atk":2000,"def":0},"rarity":"UR","img":"47754278","code":"10","tcg":26508,"grp":196,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"DP04-EN011","name":"Cyber Twin Dragon","ctype":"monster","keywords":"Machine LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Machine / Fusion","atk":2800,"def":2100},"rarity":"R","img":"74157028","code":"11","tcg":26509,"grp":196,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"DP04-EN012","name":"Cyber End Dragon","ctype":"monster","keywords":"Machine LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 10","t":"Machine / Fusion","atk":4000,"def":2800},"rarity":"R","img":"1546123","code":"12","tcg":26510,"grp":196,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"DP04-EN013","name":"Chimeratech Overdragon","ctype":"monster","keywords":"Machine DARK Fusion Monster","stats":{"a":"DARK","l":"Level 9","t":"Machine / Fusion","atk":-1,"def":-1},"rarity":"R","img":"64599569","code":"13","tcg":26511,"grp":196,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"DP04-EN014","name":"Cyberdark Dragon","ctype":"monster","keywords":"Cyberdark Machine DARK Fusion Monster","stats":{"a":"DARK","l":"Level 8","t":"Machine / Fusion","atk":1000,"def":1000},"rarity":"SR","img":"40418351","code":"14","tcg":26512,"grp":196,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"DP04-EN015","name":"Mystical Space Typhoon","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"5318639","code":"15","tcg":26513,"grp":196,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"DP04-EN016","name":"Limiter Removal","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"23171610","code":"16","tcg":26514,"grp":196,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"DP04-EN017","name":"De-Fusion","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"95286165","code":"17","tcg":26515,"grp":196,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"DP04-EN018","name":"Creature Swap","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"31036355","code":"18","tcg":26516,"grp":196,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"DP04-EN019","name":"Different Dimension Capsule","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"11961740","code":"19","tcg":26517,"grp":196,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"DP04-EN020","name":"Power Bond","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"R","img":"37630732","code":"20","tcg":26518,"grp":196,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"DP04-EN021","name":"Photon Generator Unit","ctype":"spell","keywords":"Cyber Dragon Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"66607691","code":"21","tcg":26519,"grp":196,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"DP04-EN022","name":"Overload Fusion","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"3659803","code":"22","tcg":26520,"grp":196,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"DP04-EN023","name":"Future Fusion","ctype":"spell","keywords":"Magician Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"77565204","code":"23","tcg":26521,"grp":196,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"DP04-EN024","name":"Ruthless Denial","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"73148972","code":"24","tcg":26522,"grp":196,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"DP04-EN025","name":"Call of the Haunted","ctype":"trap","keywords":"Call of the Haunted Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"97077563","code":"25","tcg":26523,"grp":196,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"DP04-EN026","name":"Trap Jammer","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"C","img":"19252988","code":"26","tcg":26524,"grp":196,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"DP04-EN027","name":"Attack Reflector Unit","ctype":"trap","keywords":"Cyber Dragon Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"91989718","code":"27","tcg":26525,"grp":196,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"DP04-EN028","name":"Return Soul","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"10537981","code":"28","tcg":26526,"grp":196,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"DP04-EN029","name":"Damage Polarizer","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"UR","img":"46031686","code":"29","tcg":26527,"grp":196,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"DP04-EN030","name":"Fusion Guard","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"SR","img":"73026394","code":"30","tcg":26528,"grp":196,"idx":29}
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "id": "yugioh/saber-force-starter-deck",
+  "game": "yugioh",
+  "slug": "saber-force-starter-deck",
+  "name": "Saber Force Starter Deck",
+  "series": "ARC-V",
+  "kind": "deck",
+  "code": "YS15",
+  "syncKey": "YYS153",
+  "released": "2015-05-29",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "YS15-ENF00–YS15-ENF27",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from YS15-ENF00 to YS15-ENF27."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Saber Force Starter Deck Checklist · All 28 Cards",
+    "description": "Free Yu-Gi-Oh! Saber Force Starter Deck checklist with no ads, no sign-up and no tracking. Track all 28 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Saber Force Starter Deck Checklist",
+    "ogDescription": "Track all 28 cards in Yu-Gi-Oh! Saber Force Starter Deck. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 28 cards in Yu-Gi-Oh! Saber Force Starter Deck. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Saber Force Starter Deck",
+    "paragraphs": [
+      "Saber Force Starter Deck is a Yu-Gi-Oh! TCG deck released on 29 May 2015, in the ARC-V era. It has 28 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Saber Force Starter Deck"
+    ],
+    "tcgplayer": [
+      1545
+    ]
+  },
+  "cards": [
+    {"id":"F00","section":"main","num":"F00","printed":"YS15-ENF00","name":"Odd-Eyes Saber Dragon","ctype":"monster","keywords":"Odd-Eyes Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 7","t":"Dragon / Effect","atk":2800,"def":2000},"rarity":"ScR","img":"19221310","code":"F0","tcg":99122,"grp":1545,"idx":0},
+    {"id":"F01","section":"main","num":"F01","printed":"YS15-ENF01","name":"Alexandrite Dragon","ctype":"monster","keywords":"Dragon LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Dragon / Normal","atk":2000,"def":100},"rarity":"C","img":"43096270","code":"F1","tcg":99121,"grp":1545,"idx":1},
+    {"id":"F02","section":"main","num":"F02","printed":"YS15-ENF02","name":"Mystical Elf","ctype":"monster","keywords":"Spellcaster LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Normal","atk":800,"def":2000},"rarity":"C","img":"15025844","code":"F2","tcg":99123,"grp":1545,"idx":2},
+    {"id":"F03","section":"main","num":"F03","printed":"YS15-ENF03","name":"Odd-Eyes Dragon","ctype":"monster","keywords":"Odd-Eyes Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Dragon / Effect","atk":2500,"def":2000},"rarity":"SHR","img":"53025096","code":"F3","tcg":99124,"grp":1545,"idx":3},
+    {"id":"F04","section":"main","num":"F04","printed":"YS15-ENF04","name":"Kaiser Glider","ctype":"monster","keywords":"Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Dragon / Effect","atk":2400,"def":2200},"rarity":"C","img":"52824910","code":"F4","tcg":99125,"grp":1545,"idx":4},
+    {"id":"F05","section":"main","num":"F05","printed":"YS15-ENF05","name":"Cyber Dragon","ctype":"monster","keywords":"Cyber Dragon Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 5","t":"Machine / Effect","atk":2100,"def":1600},"rarity":"C","img":"70095154","code":"F5","tcg":99126,"grp":1545,"idx":5},
+    {"id":"F06","section":"main","num":"F06","printed":"YS15-ENF06","name":"Herald of Creation","ctype":"monster","keywords":"Herald Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Effect","atk":1800,"def":600},"rarity":"C","img":"66337215","code":"F6","tcg":99127,"grp":1545,"idx":6},
+    {"id":"F07","section":"main","num":"F07","printed":"YS15-ENF07","name":"Blade Knight","ctype":"monster","keywords":"Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Effect","atk":1600,"def":1000},"rarity":"C","img":"39507162","code":"F7","tcg":99128,"grp":1545,"idx":7},
+    {"id":"F08","section":"main","num":"F08","printed":"YS15-ENF08","name":"Mirage Dragon","ctype":"monster","keywords":"Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Dragon / Effect","atk":1600,"def":600},"rarity":"C","img":"15960641","code":"F8","tcg":99129,"grp":1545,"idx":8},
+    {"id":"F09","section":"main","num":"F09","printed":"YS15-ENF09","name":"Maha Vailo","ctype":"monster","keywords":"Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Effect","atk":1550,"def":1400},"rarity":"C","img":"93013676","code":"F9","tcg":99130,"grp":1545,"idx":9},
+    {"id":"F10","section":"main","num":"F10","printed":"YS15-ENF10","name":"DUCKER Mobile Cannon","ctype":"monster","keywords":"Machine LIGHT Flip Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Machine / Flip / Effect","atk":500,"def":500},"rarity":"C","img":"14506878","code":"F10","tcg":99131,"grp":1545,"idx":10},
+    {"id":"F11","section":"main","num":"F11","printed":"YS15-ENF11","name":"Skelengel","ctype":"monster","keywords":"Fairy LIGHT Flip Effect Monster","stats":{"a":"LIGHT","l":"Level 2","t":"Fairy / Flip / Effect","atk":900,"def":400},"rarity":"C","img":"60694662","code":"F11","tcg":99132,"grp":1545,"idx":11},
+    {"id":"F12","section":"main","num":"F12","printed":"YS15-ENF12","name":"The Calculator","ctype":"monster","keywords":"Thunder LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 2","t":"Thunder / Effect","atk":-1,"def":0},"rarity":"C","img":"51196174","code":"F12","tcg":99133,"grp":1545,"idx":12},
+    {"id":"F13","section":"main","num":"F13","printed":"YS15-ENF13","name":"Dark Hole","ctype":"spell","keywords":"Hole Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SHR","img":"53129443","code":"F13","tcg":99134,"grp":1545,"idx":13},
+    {"id":"F14","section":"main","num":"F14","printed":"YS15-ENF14","name":"Smashing Ground","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SHR","img":"97169186","code":"F14","tcg":99135,"grp":1545,"idx":14},
+    {"id":"F15","section":"main","num":"F15","printed":"YS15-ENF15","name":"Monster Reincarnation","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"74848038","code":"F15","tcg":99136,"grp":1545,"idx":15},
+    {"id":"F16","section":"main","num":"F16","printed":"YS15-ENF16","name":"Mystical Space Typhoon","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"5318639","code":"F16","tcg":99137,"grp":1545,"idx":16},
+    {"id":"F17","section":"main","num":"F17","printed":"YS15-ENF17","name":"Rush Recklessly","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"70046172","code":"F17","tcg":99138,"grp":1545,"idx":17},
+    {"id":"F18","section":"main","num":"F18","printed":"YS15-ENF18","name":"Poison of the Old Man","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"8842266","code":"F18","tcg":99139,"grp":1545,"idx":18},
+    {"id":"F19","section":"main","num":"F19","printed":"YS15-ENF19","name":"Black Pendant","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"65169794","code":"F19","tcg":99140,"grp":1545,"idx":19},
+    {"id":"F20","section":"main","num":"F20","printed":"YS15-ENF20","name":"Malevolent Nuzzler","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"99597615","code":"F20","tcg":99141,"grp":1545,"idx":20},
+    {"id":"F21","section":"main","num":"F21","printed":"YS15-ENF21","name":"Mirror Force","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SHR","img":"44095762","code":"F21","tcg":99142,"grp":1545,"idx":21},
+    {"id":"F22","section":"main","num":"F22","printed":"YS15-ENF22","name":"Magic Cylinder","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SHR","img":"62279055","code":"F22","tcg":99143,"grp":1545,"idx":22},
+    {"id":"F23","section":"main","num":"F23","printed":"YS15-ENF23","name":"Pinpoint Guard","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"44509898","code":"F23","tcg":99144,"grp":1545,"idx":23},
+    {"id":"F24","section":"main","num":"F24","printed":"YS15-ENF24","name":"Trap Hole","ctype":"trap","keywords":"Hole Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"4206964","code":"F24","tcg":99145,"grp":1545,"idx":24},
+    {"id":"F25","section":"main","num":"F25","printed":"YS15-ENF25","name":"Dust Tornado","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"60082869","code":"F25","tcg":99146,"grp":1545,"idx":25},
+    {"id":"F26","section":"main","num":"F26","printed":"YS15-ENF26","name":"Call of the Haunted","ctype":"trap","keywords":"Call of the Haunted Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"97077563","code":"F26","tcg":99147,"grp":1545,"idx":26},
+    {"id":"F27","section":"main","num":"F27","printed":"YS15-ENF27","name":"Negate Attack","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"C","img":"14315573","code":"F27","tcg":99148,"grp":1545,"idx":27}
+  ]
+}

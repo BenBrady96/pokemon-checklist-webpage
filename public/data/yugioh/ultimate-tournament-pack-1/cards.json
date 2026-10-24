@@ -1,0 +1,109 @@
+{
+  "id": "yugioh/ultimate-tournament-pack-1",
+  "game": "yugioh",
+  "slug": "ultimate-tournament-pack-1",
+  "name": "Ultimate Tournament Pack 1",
+  "series": "SEVENS & GO RUSH!!",
+  "kind": "pack",
+  "code": "UP01",
+  "syncKey": "YUP01",
+  "released": "2026-06-18",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "UP01-EN001–UP01-EN049",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from UP01-EN001 to UP01-EN049."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Ultimate Tournament Pack 1 Checklist · All 49 Cards",
+    "description": "Free Yu-Gi-Oh! Ultimate Tournament Pack 1 checklist with no ads, no sign-up and no tracking. Track all 49 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Ultimate Tournament Pack 1 Checklist",
+    "ogDescription": "Track all 49 cards in Yu-Gi-Oh! Ultimate Tournament Pack 1. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 49 cards in Yu-Gi-Oh! Ultimate Tournament Pack 1. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Ultimate Tournament Pack 1",
+    "paragraphs": [
+      "Ultimate Tournament Pack 1 is a Yu-Gi-Oh! TCG pack released on 18 June 2026, in the SEVENS &amp; GO RUSH!! era. It has 49 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Ultimate Tournament Pack 1"
+    ],
+    "tcgplayer": [
+      24704
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"UP01-EN001","name":"Dark Magician of Chaos","ctype":"monster","keywords":"Dark Magician Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Spellcaster / Effect","atk":2800,"def":2600},"rarity":"UtR","img":"40737112","code":"1","tcg":704966,"grp":24704,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"UP01-EN002","name":"Red-Eyes Darkness Metal Dragon","ctype":"monster","keywords":"Red-Eyes Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 10","t":"Dragon / Effect","atk":2800,"def":2400},"rarity":"UtR","img":"88264978","code":"2","tcg":704967,"grp":24704,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"UP01-EN003","name":"Ash Blossom & Joyous Spring","ctype":"monster","keywords":"Zombie FIRE Tuner Monster","stats":{"a":"FIRE","l":"Level 3","t":"Zombie / Tuner","atk":0,"def":1800},"rarity":"UtR","img":"14558127","code":"3","tcg":704968,"grp":24704,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"UP01-EN004","name":"Medius the Pure","ctype":"monster","keywords":"Medius Fairy DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fairy / Effect","atk":1800,"def":1800},"rarity":"UtR","img":"97556336","code":"4","tcg":704969,"grp":24704,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"UP01-EN005","name":"Pot of Extravagance","ctype":"spell","keywords":"Greed Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UtR","img":"49238328","code":"5","tcg":704970,"grp":24704,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"UP01-EN006","name":"The Fallen & The Virtuous","ctype":"spell","keywords":"Branded Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"UtR","img":"30271097","code":"6","tcg":704971,"grp":24704,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"UP01-EN007","name":"Chaos Dragon Levianeer","ctype":"monster","keywords":"Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Dragon / Effect","atk":3000,"def":0},"rarity":"SR","img":"55878038","code":"7","tcg":704972,"grp":24704,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"UP01-EN008","name":"Regenesis Warrior","ctype":"monster","keywords":"Regenesis Warrior FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 7","t":"Warrior / Effect","atk":2500,"def":2500},"rarity":"SR","img":"96540807","code":"8","tcg":704973,"grp":24704,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"UP01-EN009","name":"Dawn Angel Kambi","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Fairy / Effect","atk":500,"def":1800},"rarity":"SR","img":"12500059","code":"9","tcg":704974,"grp":24704,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"UP01-EN010","name":"Lunalight Silver Hound","ctype":"monster","keywords":"Lunalight Beast-Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Beast-Warrior / Effect","atk":1400,"def":400},"rarity":"SR","img":"35763582","code":"10","tcg":704975,"grp":24704,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"UP01-EN011","name":"Constellar Omega","ctype":"monster","keywords":"Constellar Beast-Warrior LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 4","t":"Beast-Warrior / Xyz","atk":2400,"def":500},"rarity":"SR","img":"26329679","code":"11","tcg":704976,"grp":24704,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"UP01-EN012","name":"Vallon, the Super Psy Skyblaster","ctype":"monster","keywords":"Skyblaster Psychic DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 5","t":"Psychic / Xyz","atk":2500,"def":2200},"rarity":"SR","img":"40673853","code":"12","tcg":704977,"grp":24704,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"UP01-EN013","name":"Double Cyclone","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"SR","img":"75652080","code":"13","tcg":704978,"grp":24704,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"UP01-EN014","name":"Heat Wave","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"45141013","code":"14","tcg":704979,"grp":24704,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"UP01-EN015","name":"Proton Blast","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"SR","img":"49511705","code":"15","tcg":704980,"grp":24704,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"UP01-EN016","name":"Thunder King Rai-Oh","ctype":"monster","keywords":"Thunder LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Thunder / Effect","atk":1900,"def":800},"rarity":"SR","img":"71564252","code":"16","tcg":704981,"grp":24704,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"UP01-EN017","name":"Artemis, the Magistus Moon Maiden","ctype":"monster","keywords":"Magistus Spellcaster LIGHT Link Monster","stats":{"a":"LIGHT","l":"Link 1","t":"Spellcaster / Link","atk":800},"rarity":"SR","img":"34755994","code":"17","tcg":704982,"grp":24704,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"UP01-EN018","name":"Pre-Preparation of Rites","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"13048472","code":"18","tcg":704983,"grp":24704,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"UP01-EN019","name":"Phantom Knights' Fog Blade","ctype":"trap","keywords":"Phantom Knights Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"SR","img":"25542642","code":"19","tcg":704984,"grp":24704,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"UP01-EN020","name":"Thunder Dragon","ctype":"monster","keywords":"Thunder Dragon Thunder LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 5","t":"Thunder / Effect","atk":1600,"def":1500},"rarity":"C","img":"31786629","code":"20","tcg":704985,"grp":24704,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"UP01-EN021","name":"Raiza the Storm Monarch","ctype":"monster","keywords":"Monarch Winged Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 6","t":"Winged Beast / Effect","atk":2400,"def":1000},"rarity":"C","img":"73125233","code":"21","tcg":704986,"grp":24704,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"UP01-EN022","name":"Deep Sea Diva","ctype":"monster","keywords":"Sea Serpent WATER Tuner Monster","stats":{"a":"WATER","l":"Level 2","t":"Sea Serpent / Tuner","atk":200,"def":400},"rarity":"C","img":"78868119","code":"22","tcg":704987,"grp":24704,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"UP01-EN023","name":"Dragunity Phalanx","ctype":"monster","keywords":"Dragunity Dragon WIND Tuner Monster","stats":{"a":"WIND","l":"Level 2","t":"Dragon / Tuner","atk":500,"def":1100},"rarity":"C","img":"59755122","code":"23","tcg":704988,"grp":24704,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"UP01-EN024","name":"Mathematician","ctype":"monster","keywords":"Spellcaster EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Spellcaster / Effect","atk":1500,"def":500},"rarity":"C","img":"41386308","code":"24","tcg":704989,"grp":24704,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"UP01-EN025","name":"Lightning Rod Lord","ctype":"monster","keywords":"Thunder LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Thunder / Effect","atk":1800,"def":100},"rarity":"C","img":"40672993","code":"25","tcg":704990,"grp":24704,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"UP01-EN026","name":"Scapeghost","ctype":"monster","keywords":"Zombie DARK Tuner Monster","stats":{"a":"DARK","l":"Level 1","t":"Zombie / Tuner","atk":0,"def":0},"rarity":"C","img":"67284107","code":"26","tcg":704991,"grp":24704,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"UP01-EN027","name":"Silent Swordsman","ctype":"monster","keywords":"Silent Swordsman Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Effect","atk":1000,"def":1000},"rarity":"C","img":"15180041","code":"27","tcg":704992,"grp":24704,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"UP01-EN028","name":"Silent Magician","ctype":"monster","keywords":"Silent Magician Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Effect","atk":1000,"def":1000},"rarity":"C","img":"41175645","code":"28","tcg":704993,"grp":24704,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"UP01-EN029","name":"Aleister the Invoker","ctype":"monster","keywords":"Invoked Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Effect","atk":1000,"def":1800},"rarity":"C","img":"86120751","code":"29","tcg":704994,"grp":24704,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"UP01-EN030","name":"Thunderclap Monk","ctype":"monster","keywords":"Thunder LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Thunder / Effect","atk":1900,"def":200},"rarity":"C","img":"66722103","code":"30","tcg":704995,"grp":24704,"idx":29},
+    {"id":"031","section":"main","num":"031","printed":"UP01-EN031","name":"The Phantom Knights of Torn Scales","ctype":"monster","keywords":"Phantom Knights Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Warrior / Effect","atk":600,"def":1600},"rarity":"C","img":"25538345","code":"31","tcg":704996,"grp":24704,"idx":30},
+    {"id":"032","section":"main","num":"032","printed":"UP01-EN032","name":"Samsara Dragon","ctype":"monster","keywords":"Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Dragon / Effect","atk":0,"def":0},"rarity":"C","img":"33750025","code":"32","tcg":704997,"grp":24704,"idx":31},
+    {"id":"033","section":"main","num":"033","printed":"UP01-EN033","name":"Emissary from the House of Wax","ctype":"monster","keywords":"Illusion FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 3","t":"Illusion / Effect","atk":800,"def":1800},"rarity":"C","img":"87462901","code":"33","tcg":704998,"grp":24704,"idx":32},
+    {"id":"034","section":"main","num":"034","printed":"UP01-EN034","name":"Steelswarm Roach","ctype":"monster","keywords":"Steelswarm Fiend DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 4","t":"Fiend / Xyz","atk":1900,"def":0},"rarity":"C","img":"37926346","code":"34","tcg":704999,"grp":24704,"idx":33},
+    {"id":"035","section":"main","num":"035","printed":"UP01-EN035","name":"Link Spider","ctype":"monster","keywords":"Cyberse EARTH Link Monster","stats":{"a":"EARTH","l":"Link 1","t":"Cyberse / Link","atk":1000},"rarity":"C","img":"98978921","code":"35","tcg":705000,"grp":24704,"idx":34},
+    {"id":"036","section":"main","num":"036","printed":"UP01-EN036","name":"S-Force Justify","ctype":"monster","keywords":"S-Force Cyberse LIGHT Link Monster","stats":{"a":"LIGHT","l":"Link 3","t":"Cyberse / Link","atk":2600},"rarity":"C","img":"35334193","code":"36","tcg":705001,"grp":24704,"idx":35},
+    {"id":"037","section":"main","num":"037","printed":"UP01-EN037","name":"Change of Heart","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"4031928","code":"37","tcg":705002,"grp":24704,"idx":36},
+    {"id":"038","section":"main","num":"038","printed":"UP01-EN038","name":"Terraforming","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"73628505","code":"38","tcg":705003,"grp":24704,"idx":37},
+    {"id":"039","section":"main","num":"039","printed":"UP01-EN039","name":"Magical Mallet","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"85852291","code":"39","tcg":705004,"grp":24704,"idx":38},
+    {"id":"040","section":"main","num":"040","printed":"UP01-EN040","name":"Dimensional Fissure","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"81674782","code":"40","tcg":705005,"grp":24704,"idx":39},
+    {"id":"041","section":"main","num":"041","printed":"UP01-EN041","name":"Double Evolution Pill","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"38179121","code":"41","tcg":705006,"grp":24704,"idx":40},
+    {"id":"042","section":"main","num":"042","printed":"UP01-EN042","name":"Forbidden Chalice","ctype":"spell","keywords":"Forbidden Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"25789292","code":"42","tcg":705007,"grp":24704,"idx":41},
+    {"id":"043","section":"main","num":"043","printed":"UP01-EN043","name":"The Monarchs Stormforth","ctype":"spell","keywords":"Monarch Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"79844764","code":"43","tcg":705008,"grp":24704,"idx":42},
+    {"id":"044","section":"main","num":"044","printed":"UP01-EN044","name":"Dark Ruler No More","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"54693926","code":"44","tcg":705009,"grp":24704,"idx":43},
+    {"id":"045","section":"main","num":"045","printed":"UP01-EN045","name":"Fairy Tail Tales","ctype":"spell","keywords":"Fairy Tail Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"91957038","code":"45","tcg":705010,"grp":24704,"idx":44},
+    {"id":"046","section":"main","num":"046","printed":"UP01-EN046","name":"Pendulum Treasure","ctype":"spell","keywords":"Pendulum Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"26237713","code":"46","tcg":705011,"grp":24704,"idx":45},
+    {"id":"047","section":"main","num":"047","printed":"UP01-EN047","name":"Anti-Spell Fragrance","ctype":"trap","keywords":"Anti Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"58921041","code":"47","tcg":705012,"grp":24704,"idx":46},
+    {"id":"048","section":"main","num":"048","printed":"UP01-EN048","name":"Gravity Bind","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"85742772","code":"48","tcg":705013,"grp":24704,"idx":47},
+    {"id":"049","section":"main","num":"049","printed":"UP01-EN049","name":"Lost Wind","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"74003290","code":"49","tcg":705014,"grp":24704,"idx":48}
+  ]
+}

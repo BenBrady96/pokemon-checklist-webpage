@@ -1,0 +1,80 @@
+{
+  "id": "yugioh/tournament-pack-7",
+  "game": "yugioh",
+  "slug": "tournament-pack-7",
+  "name": "Tournament Pack 7",
+  "series": "GX",
+  "kind": "pack",
+  "code": "TP7",
+  "syncKey": "YTP7",
+  "released": "2005-11-01",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "TP7-EN001–TP7-EN020",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from TP7-EN001 to TP7-EN020."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Tournament Pack 7 Checklist · All 20 Cards",
+    "description": "Free Yu-Gi-Oh! Tournament Pack 7 checklist with no ads, no sign-up and no tracking. Track all 20 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Tournament Pack 7 Checklist",
+    "ogDescription": "Track all 20 cards in Yu-Gi-Oh! Tournament Pack 7. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 20 cards in Yu-Gi-Oh! Tournament Pack 7. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Tournament Pack 7",
+    "paragraphs": [
+      "Tournament Pack 7 is a Yu-Gi-Oh! TCG pack released on 1 November 2005, in the GX era. It has 20 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Tournament Pack 7"
+    ],
+    "tcgplayer": [
+      339
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"TP7-EN001","name":"D.D. Warrior","ctype":"monster","keywords":"D.D. Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Effect","atk":1200,"def":1000},"rarity":"UR","img":"37043180","code":"1","tcg":24909,"grp":339,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"TP7-EN002","name":"Warrior Elimination","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"90873992","code":"2","tcg":24908,"grp":339,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"TP7-EN003","name":"Fortress Whale","ctype":"monster","keywords":"Umi Fish WATER Ritual Monster","stats":{"a":"WATER","l":"Level 7","t":"Fish / Ritual","atk":2350,"def":2150},"rarity":"SR","img":"62337487","code":"3","tcg":24910,"grp":339,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"TP7-EN004","name":"Luminous Soldier","ctype":"monster","keywords":"Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 5","t":"Warrior / Effect","atk":2100,"def":1400},"rarity":"SR","img":"57482479","code":"4","tcg":24911,"grp":339,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"TP7-EN005","name":"Breaker the Magical Warrior","ctype":"monster","keywords":"Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Effect","atk":1600,"def":1000},"rarity":"SR","img":"71413901","code":"5","tcg":24912,"grp":339,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"TP7-EN006","name":"Goblin Attack Force","ctype":"monster","keywords":"Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Effect","atk":2300,"def":0},"rarity":"R","img":"78658564","code":"6","tcg":24913,"grp":339,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"TP7-EN007","name":"Amazoness Swords Woman","ctype":"monster","keywords":"Amazoness Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Effect","atk":1500,"def":1600},"rarity":"R","img":"94004268","code":"7","tcg":24914,"grp":339,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"TP7-EN008","name":"Chaos Command Magician","ctype":"monster","keywords":"Chaos Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Spellcaster / Effect","atk":2400,"def":1900},"rarity":"R","img":"72630549","code":"8","tcg":24915,"grp":339,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"TP7-EN009","name":"Scapegoat","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"R","img":"73915051","code":"9","tcg":24916,"grp":339,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"TP7-EN010","name":"Soul Exchange","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"68005187","code":"10","tcg":24917,"grp":339,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"TP7-EN011","name":"Fortress Whale's Oath","ctype":"spell","keywords":"Umi Ritual Spell","stats":{"t":"Ritual Spell"},"rarity":"C","img":"77454922","code":"11","tcg":24918,"grp":339,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"TP7-EN012","name":"Skilled Dark Magician","ctype":"monster","keywords":"Dark Magician Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Effect","atk":1900,"def":1700},"rarity":"C","img":"73752131","code":"12","tcg":24919,"grp":339,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"TP7-EN013","name":"Skilled White Magician","ctype":"monster","keywords":"Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Effect","atk":1700,"def":1900},"rarity":"C","img":"46363422","code":"13","tcg":24920,"grp":339,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"TP7-EN014","name":"Wall of Illusion","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Effect","atk":1000,"def":1850},"rarity":"C","img":"13945283","code":"14","tcg":24921,"grp":339,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"TP7-EN015","name":"Last Will","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"85602018","code":"15","tcg":24922,"grp":339,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"TP7-EN016","name":"Haniwa","ctype":"monster","keywords":"Rock EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 2","t":"Rock / Normal","atk":500,"def":500},"rarity":"C","img":"84285623","code":"16","tcg":24923,"grp":339,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"TP7-EN017","name":"Prisman","ctype":"monster","keywords":"Rock LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Rock / Normal","atk":800,"def":1000},"rarity":"C","img":"80234301","code":"17","tcg":24924,"grp":339,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"TP7-EN018","name":"Millennium Golem","ctype":"monster","keywords":"Rock EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 6","t":"Rock / Normal","atk":2000,"def":2200},"rarity":"C","img":"47986555","code":"18","tcg":24925,"grp":339,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"TP7-EN019","name":"Dig Beak","ctype":"monster","keywords":"Beast EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 2","t":"Beast / Normal","atk":500,"def":800},"rarity":"C","img":"29948642","code":"19","tcg":24926,"grp":339,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"TP7-EN020","name":"Nekogal #2","ctype":"monster","keywords":"Beast-Warrior EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 6","t":"Beast-Warrior / Normal","atk":1900,"def":2000},"rarity":"C","img":"43352213","code":"20","tcg":24927,"grp":339,"idx":19}
+  ]
+}

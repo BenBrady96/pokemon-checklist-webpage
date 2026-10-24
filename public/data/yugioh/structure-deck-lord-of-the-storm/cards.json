@@ -1,0 +1,96 @@
+{
+  "id": "yugioh/structure-deck-lord-of-the-storm",
+  "game": "yugioh",
+  "slug": "structure-deck-lord-of-the-storm",
+  "name": "Structure Deck: Lord of the Storm",
+  "series": "GX",
+  "kind": "deck",
+  "code": "SD8",
+  "syncKey": "YSD8",
+  "released": "2006-07-12",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "SD8-EN001–SD8-EN036",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from SD8-EN001 to SD8-EN036."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Structure Deck: Lord of the Storm Checklist · All 36 Cards",
+    "description": "Free Yu-Gi-Oh! Structure Deck: Lord of the Storm checklist with no ads, no sign-up and no tracking. Track all 36 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Structure Deck: Lord of the Storm Checklist",
+    "ogDescription": "Track all 36 cards in Yu-Gi-Oh! Structure Deck: Lord of the Storm. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 36 cards in Yu-Gi-Oh! Structure Deck: Lord of the Storm. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Structure Deck: Lord of the Storm",
+    "paragraphs": [
+      "Structure Deck: Lord of the Storm is a Yu-Gi-Oh! TCG deck released on 12 July 2006, in the GX era. It has 36 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Structure Deck: Lord of the Storm"
+    ],
+    "tcgplayer": [
+      310
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"SD8-EN001","name":"Simorgh, Bird of Divinity","ctype":"monster","keywords":"Simorgh Winged Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 7","t":"Winged Beast / Effect","atk":2700,"def":1000},"rarity":"UR","img":"14989021","code":"1","tcg":25457,"grp":310,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"SD8-EN002","name":"Sonic Shooter","ctype":"monster","keywords":"Winged Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Winged Beast / Effect","atk":1300,"def":600},"rarity":"C","img":"40384720","code":"2","tcg":25458,"grp":310,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"SD8-EN003","name":"Sonic Duck","ctype":"monster","keywords":"Winged Beast WIND Normal Monster","stats":{"a":"WIND","l":"Level 3","t":"Winged Beast / Normal","atk":1700,"def":700},"rarity":"C","img":"84696266","code":"3","tcg":25459,"grp":310,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"SD8-EN004","name":"Harpie Girl","ctype":"monster","keywords":"Harpie Winged Beast WIND Normal Monster","stats":{"a":"WIND","l":"Level 2","t":"Winged Beast / Normal","atk":500,"def":500},"rarity":"C","img":"34100324","code":"4","tcg":25460,"grp":310,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"SD8-EN005","name":"Slate Warrior","ctype":"monster","keywords":"Fiend WIND Flip Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Fiend / Flip / Effect","atk":1900,"def":400},"rarity":"C","img":"78636495","code":"5","tcg":25461,"grp":310,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"SD8-EN006","name":"Flying Kamakiri #1","ctype":"monster","keywords":"Insect WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Insect / Effect","atk":1400,"def":900},"rarity":"C","img":"84834865","code":"6","tcg":25462,"grp":310,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"SD8-EN007","name":"Harpie Lady Sisters","ctype":"monster","keywords":"Harpie Winged Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 6","t":"Winged Beast / Effect","atk":1950,"def":2100},"rarity":"C","img":"12206212","code":"7","tcg":25463,"grp":310,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"SD8-EN008","name":"Bladefly","ctype":"monster","keywords":"Insect WIND Effect Monster","stats":{"a":"WIND","l":"Level 2","t":"Insect / Effect","atk":600,"def":700},"rarity":"C","img":"28470714","code":"8","tcg":25464,"grp":310,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"SD8-EN009","name":"Birdface","ctype":"monster","keywords":"Harpie Winged Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Winged Beast / Effect","atk":1600,"def":1600},"rarity":"C","img":"45547649","code":"9","tcg":25465,"grp":310,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"SD8-EN010","name":"Silpheed","ctype":"monster","keywords":"Fairy WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Fairy / Effect","atk":1700,"def":700},"rarity":"C","img":"73001017","code":"10","tcg":25466,"grp":310,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"SD8-EN011","name":"Lady Ninja Yae","ctype":"monster","keywords":"Ninja Warrior WIND Effect Monster","stats":{"a":"WIND","l":"Level 3","t":"Warrior / Effect","atk":1100,"def":200},"rarity":"C","img":"82005435","code":"11","tcg":25467,"grp":310,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"SD8-EN012","name":"Roc from the Valley of Haze","ctype":"monster","keywords":"Winged Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 6","t":"Winged Beast / Effect","atk":2400,"def":1400},"rarity":"C","img":"28143906","code":"12","tcg":25468,"grp":310,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"SD8-EN013","name":"Harpie Lady 1","ctype":"monster","keywords":"Harpie Winged Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Winged Beast / Effect","atk":1300,"def":1400},"rarity":"C","img":"91932350","code":"13","tcg":25469,"grp":310,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"SD8-EN014","name":"Harpie Lady 2","ctype":"monster","keywords":"Harpie Winged Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Winged Beast / Effect","atk":1300,"def":1400},"rarity":"C","img":"27927359","code":"14","tcg":25470,"grp":310,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"SD8-EN015","name":"Harpie Lady 3","ctype":"monster","keywords":"Harpie Winged Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Winged Beast / Effect","atk":1300,"def":1400},"rarity":"C","img":"54415063","code":"15","tcg":25471,"grp":310,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"SD8-EN016","name":"Swift Birdman Joe","ctype":"monster","keywords":"Winged Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 6","t":"Winged Beast / Effect","atk":2300,"def":1400},"rarity":"C","img":"81896370","code":"16","tcg":25472,"grp":310,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"SD8-EN017","name":"Harpie's Pet Baby Dragon","ctype":"monster","keywords":"Dragon WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Dragon / Effect","atk":1200,"def":600},"rarity":"C","img":"6924874","code":"17","tcg":25473,"grp":310,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"SD8-EN018","name":"Card Destruction","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"72892473","code":"18","tcg":25474,"grp":310,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"SD8-EN019","name":"Mystical Space Typhoon","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"5318639","code":"19","tcg":25475,"grp":310,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"SD8-EN020","name":"Nobleman of Crossout","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"71044499","code":"20","tcg":25476,"grp":310,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"SD8-EN021","name":"Elegant Egotist","ctype":"spell","keywords":"Harpie Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"90219263","code":"21","tcg":25477,"grp":310,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"SD8-EN022","name":"Heavy Storm","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"19613556","code":"22","tcg":25478,"grp":310,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"SD8-EN023","name":"Reload","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"22589918","code":"23","tcg":25479,"grp":310,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"SD8-EN024","name":"Harpies' Hunting Ground","ctype":"spell","keywords":"Harpie Field Spell","stats":{"t":"Field Spell"},"rarity":"C","img":"75782277","code":"24","tcg":25480,"grp":310,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"SD8-EN025","name":"Triangle Ecstasy Spark","ctype":"spell","keywords":"Harpie Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"12181376","code":"25","tcg":25481,"grp":310,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"SD8-EN026","name":"Lightning Vortex","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"69162969","code":"26","tcg":25482,"grp":310,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"SD8-EN027","name":"Hysteric Party","ctype":"trap","keywords":"Harpie Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"77778835","code":"27","tcg":25483,"grp":310,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"SD8-EN028","name":"Aqua Chorus","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"95132338","code":"28","tcg":25484,"grp":310,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"SD8-EN029","name":"Dust Tornado","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"60082869","code":"29","tcg":25485,"grp":310,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"SD8-EN030","name":"Call of the Haunted","ctype":"trap","keywords":"Call of the Haunted Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"97077563","code":"30","tcg":25486,"grp":310,"idx":29},
+    {"id":"031","section":"main","num":"031","printed":"SD8-EN031","name":"Magic Jammer","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"C","img":"77414722","code":"31","tcg":25487,"grp":310,"idx":30},
+    {"id":"032","section":"main","num":"032","printed":"SD8-EN032","name":"Dark Coffin","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"1804528","code":"32","tcg":25488,"grp":310,"idx":31},
+    {"id":"033","section":"main","num":"033","printed":"SD8-EN033","name":"Reckless Greed","ctype":"trap","keywords":"Greed Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"37576645","code":"33","tcg":25489,"grp":310,"idx":32},
+    {"id":"034","section":"main","num":"034","printed":"SD8-EN034","name":"Sakuretsu Armor","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"56120475","code":"34","tcg":25490,"grp":310,"idx":33},
+    {"id":"035","section":"main","num":"035","printed":"SD8-EN035","name":"Ninjitsu Art of Transformation","ctype":"trap","keywords":"Ninja Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"70861343","code":"35","tcg":25491,"grp":310,"idx":34},
+    {"id":"036","section":"main","num":"036","printed":"SD8-EN036","name":"Icarus Attack","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"53567095","code":"36","tcg":25492,"grp":310,"idx":35}
+  ]
+}

@@ -1,21 +1,24 @@
-import { loadCatalog } from '../core/catalog.js';
-import { fetchCollection } from '../core/collection.js';
+import { loadCatalog, entryById } from '../core/catalog.js';
+import { fetchCollection, fetchPrices } from '../core/collection.js';
 import { normalize } from '../core/model.js';
+import { asset } from '../core/paths.js';
 import * as storage from '../core/storage.js';
 import { initExport, openExport } from '../shared/export.js';
 import { initImport, checkIncomingLink } from '../shared/import.js';
 import { initDialogs, openDialog, toast, hideLoader } from '../shared/ui.js';
 import { initPWA, initInstallBanner } from '../shared/pwa.js';
 import { recordSnapshot } from '../core/history.js';
-import { formatMoney } from '../core/pricing.js';
+import { formatMoney, tierValues } from '../core/pricing.js';
 import { collectionWorth } from '../core/worth.js';
 import { initHeader, showWorth } from '../shared/header.js';
 import { plural, formatAgo } from '../shared/format.js';
+import { tileHtml } from '../shared/tiles.js';
 
 const search = document.getElementById('set-search');
 const continueSection = document.getElementById('continue');
 const continueGrid = document.getElementById('continue-grid');
 const noMatch = document.getElementById('no-match');
+const isRoot = !document.getElementById('catalog');
 let catalog = { games: [], collections: [] };
 
 const tilesFor = (id) => document.querySelectorAll(`.set-tile[data-id="${CSS.escape(id)}"]`);
@@ -25,14 +28,28 @@ const setValues = new Map();
 let worthRun = 0;
 
 function setValueOf(c) {
-  if (!setValues.has(c.id)) {
+  if (!setValues.has(c.id) && !isRoot) {
     let value = null;
     try {
       value = JSON.parse(tilesFor(c.id)[0]?.dataset.values || 'null');
     } catch {}
     setValues.set(c.id, value);
   }
-  return setValues.get(c.id);
+  return setValues.get(c.id) || null;
+}
+
+async function loadRootValues(ids) {
+  const missing = ids.filter((id) => !setValues.has(id));
+  if (!missing.length) return;
+  await Promise.all(missing.map(async (id) => {
+    try {
+      const [model, prices] = await Promise.all([fetchCollection(id), fetchPrices(id)]);
+      setValues.set(id, tierValues(model, prices));
+    } catch {
+      setValues.set(id, null);
+    }
+  }));
+  paintValues();
 }
 
 function valueText(c) {
@@ -61,7 +78,7 @@ function paintValues() {
 async function refreshWorth() {
   if (!catalog.collections.length) return;
   const run = ++worthRun;
-  const ids = storage.storedCollections().map(({ id }) => id).filter((id) => catalog.collections.some((c) => c.id === id));
+  const ids = storage.storedCollections().map(({ id }) => id).filter((id) => entryById(catalog, id));
   const worth = await collectionWorth(ids);
   if (run !== worthRun) return;
   worthById.clear();
@@ -81,10 +98,24 @@ async function refreshSummaries(ids) {
   if (results.some((r) => r.value)) showProgress();
 }
 
+function paintGames(stored) {
+  for (const button of document.querySelectorAll('.game-btn[data-game]')) {
+    const n = stored.filter(({ id }) => entryById(catalog, id)?.game === button.dataset.game).length;
+    const mine = button.querySelector('.game-btn__mine');
+    if (!mine) continue;
+    mine.textContent = n ? `You’ve started ${plural(n, 'set', 'sets')}` : '';
+    mine.hidden = !n;
+  }
+}
+
 function showProgress() {
   const stored = storage.storedCollections()
-    .filter(({ id }) => catalog.collections.some((c) => c.id === id))
+    .filter(({ id }) => entryById(catalog, id))
     .sort((a, b) => cardsOwned(b) - cardsOwned(a) || collected(b) - collected(a));
+  if (isRoot) {
+    continueGrid.innerHTML = stored.map(({ id }) => tileHtml(entryById(catalog, id), null, { base: asset('') })).join('');
+    paintGames(stored);
+  }
   const stale = [];
   for (const c of catalog.collections) {
     const summary = storage.readRecord(c.id)?.summary;
@@ -103,13 +134,16 @@ function showProgress() {
       tile.classList.toggle('is-complete', Boolean(total) && count === total);
     }
   }
-  continueGrid.replaceChildren(...stored.map(({ id }) => {
-    const tile = document.querySelector(`#catalog .set-tile[data-id="${CSS.escape(id)}"]`);
-    return tile ? tile.cloneNode(true) : null;
-  }).filter(Boolean));
+  if (!isRoot) {
+    continueGrid.replaceChildren(...stored.map(({ id }) => {
+      const tile = document.querySelector(`#catalog .set-tile[data-id="${CSS.escape(id)}"]`);
+      return tile ? tile.cloneNode(true) : null;
+    }).filter(Boolean));
+  }
   continueSection.hidden = !continueGrid.children.length;
   paintValues();
   refreshWorth();
+  if (isRoot) loadRootValues(stored.map(({ id }) => id));
   if (stale.length) refreshSummaries(stale);
 }
 
@@ -117,7 +151,7 @@ function filterSets() {
   const tokens = normalize(search.value).split(/\s+/).filter(Boolean);
   let shown = 0;
   for (const tile of document.querySelectorAll('#catalog .set-tile')) {
-    const c = catalog.collections.find((x) => x.id === tile.dataset.id);
+    const c = entryById(catalog, tile.dataset.id);
     const words = c ? `${c.name} ${c.code || ''} ${c.series || ''} ${c.slug.replace(/-/g, ' ')}` : tile.dataset.search || '';
     const text = ` ${normalize(words)} `;
     const ok = tokens.every((t) => text.includes(` ${t}`) || text.includes(t));
@@ -140,7 +174,7 @@ function filterSets() {
 
 function openScanner() {
   import('../scan/scan.js').then(
-    (m) => m.openScanner({ onSaved: showProgress }),
+    (m) => m.openScanner({ game: document.body.dataset.game || null, onSaved: showProgress }),
     () => toast('Couldn’t load the scanner. Check your connection and try again.'),
   );
 }
@@ -170,8 +204,8 @@ function wire() {
     if (key === 'currency') paintValues();
     if (key === 'lastBackup') paintLastBackup();
   });
-  search.addEventListener('input', filterSets);
-  search.addEventListener('keydown', (e) => {
+  search?.addEventListener('input', filterSets);
+  search?.addEventListener('keydown', (e) => {
     if (e.key === 'Escape') {
       search.value = '';
       filterSets();
@@ -203,7 +237,7 @@ async function init() {
   }
   showProgress();
   hideLoader();
-  if (search.value) filterSets();
+  if (search?.value) filterSets();
   if (new URLSearchParams(location.search).has('offline')) {
     history.replaceState(null, '', location.pathname + location.hash);
     toast('You’re offline, and that set isn’t saved on this device yet. Sets you’ve opened before still work.', { timeout: 8000 });

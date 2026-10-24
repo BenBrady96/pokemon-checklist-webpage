@@ -1,0 +1,103 @@
+{
+  "id": "yugioh/promos-2003",
+  "game": "yugioh",
+  "slug": "promos-2003",
+  "name": "Promos 2003",
+  "series": "Promos",
+  "kind": "promo",
+  "code": "P2003",
+  "syncKey": "YP2003",
+  "released": "2003-01-01",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "DL1-001–TSC-E003",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. Numbers count down the list in order: <b>1-5</b> is the first five cards and <b>3x2</b> is two copies of the third.",
+    "empty": "Cards run from DL1-001 to TSC-E003."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Promos 2003 Checklist · All 31 Cards",
+    "description": "Free Yu-Gi-Oh! Promos 2003 checklist with no ads, no sign-up and no tracking. Track all 31 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Promos 2003 Checklist",
+    "ogDescription": "Track all 31 cards in Yu-Gi-Oh! Promos 2003. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 31 cards in Yu-Gi-Oh! Promos 2003. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Promos 2003",
+    "paragraphs": [
+      "Promos 2003 gathers the 31 promo cards from 7 products released in 2003: Duelist League Series 1 participation cards, Duel Master&#39;s Guide promotional cards, Yu-Gi-Oh! The Duelists of the Roses promotional cards, Yu-Gi-Oh! Power of Chaos: Yugi the Destiny promotional cards, Yu-Gi-Oh! Worldwide Edition: Stairway to the Destined Duel promotional cards, Yu-Gi-Oh! The Falsebound Kingdom promotional cards and Yu-Gi-Oh! The Sacred Cards promotional cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Duel Master's Guide promotional cards",
+      "Duelist League Series 1 participation cards",
+      "Yu-Gi-Oh! Power of Chaos: Yugi the Destiny promotional cards",
+      "Yu-Gi-Oh! The Duelists of the Roses promotional cards",
+      "Yu-Gi-Oh! The Falsebound Kingdom promotional cards",
+      "Yu-Gi-Oh! The Sacred Cards promotional cards",
+      "Yu-Gi-Oh! Worldwide Edition: Stairway to the Destined Duel promotional cards"
+    ],
+    "tcgplayer": [
+      329,
+      264,
+      183,
+      1921,
+      287,
+      182,
+      178
+    ]
+  },
+  "cards": [
+    {"id":"DL1-001","section":"main","num":"DL1-001","printed":"DL1-001","name":"Thousand-Eyes Restrict","ctype":"monster","keywords":"Eyes Restrict Spellcaster DARK Fusion Monster","stats":{"a":"DARK","l":"Level 1","t":"Spellcaster / Fusion","atk":0,"def":0},"note":"Duelist League Series 1 participation cards","rarity":"SR","img":"63519819","code":"1","tcg":22792,"grp":182,"idx":0},
+    {"id":"DL1-E001","section":"main","num":"DL1-E001","printed":"DL1-E001","name":"Time Wizard","ctype":"monster","keywords":"Magician Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 2","t":"Spellcaster / Effect","atk":500,"def":400},"note":"Duelist League Series 1 participation cards","rarity":"SR","img":"71625222","code":"2","idx":1},
+    {"id":"DL1-002","section":"main","num":"DL1-002","printed":"DL1-002","name":"Buster Blader","ctype":"monster","keywords":"Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 7","t":"Warrior / Effect","atk":2600,"def":2300},"note":"Duelist League Series 1 participation cards","rarity":"SR","img":"78193831","code":"3","tcg":22793,"grp":182,"idx":2},
+    {"id":"DL1-E002","section":"main","num":"DL1-E002","printed":"DL1-E002","name":"Barrel Dragon","ctype":"monster","keywords":"Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Machine / Effect","atk":2600,"def":2200},"note":"Duelist League Series 1 participation cards","rarity":"SR","img":"81480461","code":"4","idx":3},
+    {"id":"DMG-001","section":"main","num":"DMG-001","printed":"DMG-001","name":"Dark Paladin","ctype":"monster","keywords":"Dark Magician Spellcaster DARK Fusion Monster","stats":{"a":"DARK","l":"Level 8","t":"Spellcaster / Fusion","atk":2900,"def":2400},"note":"Duel Master's Guide promotional cards","rarity":"ScR","img":"98502115","code":"5","tcg":25366,"grp":178,"idx":4},
+    {"id":"DOR-001","section":"main","num":"DOR-001","printed":"DOR-001","name":"Alpha The Magnet Warrior","ctype":"monster","keywords":"Magnet Warrior Rock EARTH Normal Monster DOR-E001","stats":{"a":"EARTH","l":"Level 4","t":"Rock / Normal","atk":1400,"def":1700},"note":"Yu-Gi-Oh! The Duelists of the Roses promotional cards","rarity":"PScR","img":"99785935","code":"6","tcg":22951,"grp":183,"idx":5},
+    {"id":"DOR-002","section":"main","num":"DOR-002","printed":"DOR-002","name":"Beta The Magnet Warrior","ctype":"monster","keywords":"Magnet Warrior Rock EARTH Normal Monster DOR-E002","stats":{"a":"EARTH","l":"Level 4","t":"Rock / Normal","atk":1700,"def":1600},"note":"Yu-Gi-Oh! The Duelists of the Roses promotional cards","rarity":"PScR","img":"39256679","code":"7","tcg":22952,"grp":183,"idx":6},
+    {"id":"DOR-003","section":"main","num":"DOR-003","printed":"DOR-003","name":"Gamma the Magnet Warrior","ctype":"monster","keywords":"Magnet Warrior Rock EARTH Normal Monster DOR-E003","stats":{"a":"EARTH","l":"Level 4","t":"Rock / Normal","atk":1500,"def":1800},"note":"Yu-Gi-Oh! The Duelists of the Roses promotional cards","rarity":"PScR","img":"11549357","code":"8","tcg":22953,"grp":183,"idx":7},
+    {"id":"PCY-001","section":"main","num":"PCY-001","printed":"PCY-001","name":"Windstorm of Etaqua","ctype":"trap","keywords":"Normal Trap PCY-E001","stats":{"t":"Normal Trap"},"note":"Yu-Gi-Oh! Power of Chaos: Yugi the Destiny promotional cards","rarity":"PScR","img":"59744639","code":"9","tcg":22806,"grp":264,"idx":8},
+    {"id":"PCY-002","section":"main","num":"PCY-002","printed":"PCY-002","name":"Anti-Spell Fragrance","ctype":"trap","keywords":"Anti Continuous Trap PCY-E002","stats":{"t":"Continuous Trap"},"note":"Yu-Gi-Oh! Power of Chaos: Yugi the Destiny promotional cards","rarity":"PScR","img":"58921041","code":"10","tcg":22807,"grp":264,"idx":9},
+    {"id":"PCY-003","section":"main","num":"PCY-003","printed":"PCY-003","name":"Thousand Knives","ctype":"spell","keywords":"Dark Magician Normal Spell PCY-E003","stats":{"t":"Normal Spell"},"note":"Yu-Gi-Oh! Power of Chaos: Yugi the Destiny promotional cards","rarity":"PScR","img":"63391643","code":"11","tcg":22808,"grp":264,"idx":10},
+    {"id":"PCY-004","section":"main","num":"PCY-004","printed":"PCY-004","name":"Dark Magician","ctype":"monster","keywords":"Dark Magician Spellcaster DARK Normal Monster PCY-E004","stats":{"a":"DARK","l":"Level 7","t":"Spellcaster / Normal","atk":2500,"def":2100},"note":"Yu-Gi-Oh! Power of Chaos: Yugi the Destiny promotional cards","rarity":"PScR","img":"46986416","code":"12","tcg":22809,"grp":264,"idx":11},
+    {"id":"PCY-005","section":"main","num":"PCY-005","printed":"PCY-005","name":"Kuriboh","ctype":"monster","keywords":"Kuriboh Fiend DARK Effect Monster PCY-E005","stats":{"a":"DARK","l":"Level 1","t":"Fiend / Effect","atk":300,"def":200},"note":"Yu-Gi-Oh! Power of Chaos: Yugi the Destiny promotional cards","rarity":"PScR","img":"40640058","code":"13","tcg":22810,"grp":264,"idx":12},
+    {"id":"SDD-001","section":"main","num":"SDD-001","printed":"SDD-001","name":"Valkyrion the Magna Warrior","ctype":"monster","keywords":"Magnet Warrior Rock EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 8","t":"Rock / Effect","atk":3500,"def":3850},"note":"Yu-Gi-Oh! Worldwide Edition: Stairway to the Destined Duel promotional cards","rarity":"PScR","img":"75347539","code":"14","tcg":22957,"grp":287,"idx":13},
+    {"id":"SDD-E001","section":"main","num":"SDD-E001","printed":"SDD-E001","name":"Seiyaryu","ctype":"monster","keywords":"Dragon LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 7","t":"Dragon / Normal","atk":2500,"def":2300},"note":"Yu-Gi-Oh! Worldwide Edition: Stairway to the Destined Duel promotional cards","rarity":"PScR","img":"6740720","code":"15","tcg":273937,"grp":287,"idx":14},
+    {"id":"SDD-002","section":"main","num":"SDD-002","printed":"SDD-002","name":"Sinister Serpent","ctype":"monster","keywords":"Reptile WATER Effect Monster","stats":{"a":"WATER","l":"Level 1","t":"Reptile / Effect","atk":300,"def":250},"note":"Yu-Gi-Oh! Worldwide Edition: Stairway to the Destined Duel promotional cards","rarity":"PScR","img":"8131171","code":"16","tcg":22958,"grp":287,"idx":15},
+    {"id":"SDD-E002","section":"main","num":"SDD-E002","printed":"SDD-E002","name":"Acid Trap Hole","ctype":"trap","keywords":"Hole Normal Trap","stats":{"t":"Normal Trap"},"note":"Yu-Gi-Oh! Worldwide Edition: Stairway to the Destined Duel promotional cards","rarity":"PScR","img":"41356845","code":"17","tcg":273935,"grp":287,"idx":16},
+    {"id":"SDD-003","section":"main","num":"SDD-003","printed":"SDD-003","name":"Harpie's Feather Duster","ctype":"spell","keywords":"Harpie Normal Spell","stats":{"t":"Normal Spell"},"note":"Yu-Gi-Oh! Worldwide Edition: Stairway to the Destined Duel promotional cards","rarity":"PScR","img":"18144507","code":"18","tcg":22959,"grp":287,"idx":17},
+    {"id":"SDD-E003","section":"main","num":"SDD-E003","printed":"SDD-E003","name":"Salamandra","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"note":"Yu-Gi-Oh! Worldwide Edition: Stairway to the Destined Duel promotional cards","rarity":"PScR","img":"32268901","code":"19","tcg":273936,"grp":287,"idx":18},
+    {"id":"TFK-001","section":"main","num":"TFK-001","printed":"TFK-001","name":"Zoa","ctype":"monster","keywords":"Fiend DARK Normal Monster","stats":{"a":"DARK","l":"Level 7","t":"Fiend / Normal","atk":2600,"def":1900},"note":"Yu-Gi-Oh! The Falsebound Kingdom promotional cards","rarity":"PScR","img":"24311372","code":"20","tcg":22811,"grp":329,"idx":19},
+    {"id":"TFK-EN001","section":"main","num":"TFK-EN001","printed":"TFK-EN001","name":"Fairy King Truesdale","ctype":"monster","keywords":"Plant WATER Effect Monster","stats":{"a":"WATER","l":"Level 6","t":"Plant / Effect","atk":2200,"def":1500},"note":"Yu-Gi-Oh! The Falsebound Kingdom promotional cards","rarity":"SR","img":"45425051","code":"21","tcg":200197,"grp":329,"idx":20},
+    {"id":"TFK-002","section":"main","num":"TFK-002","printed":"TFK-002","name":"Metalzoa","ctype":"monster","keywords":"Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Machine / Effect","atk":3000,"def":2300},"note":"Yu-Gi-Oh! The Falsebound Kingdom promotional cards","rarity":"PScR","img":"50705071","code":"22","tcg":22812,"grp":329,"idx":21},
+    {"id":"TFK-EN002","section":"main","num":"TFK-EN002","printed":"TFK-EN002","name":"Cipher Soldier","ctype":"monster","keywords":"Cipher Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Machine / Effect","atk":1350,"def":1800},"note":"Yu-Gi-Oh! The Falsebound Kingdom promotional cards","rarity":"SR","img":"79853073","code":"23","tcg":200199,"grp":329,"idx":22},
+    {"id":"TFK-003","section":"main","num":"TFK-003","printed":"TFK-003","name":"Goblin Fan","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"note":"Yu-Gi-Oh! The Falsebound Kingdom promotional cards","rarity":"PScR","img":"4149689","code":"24","tcg":22813,"grp":329,"idx":23},
+    {"id":"TFK-EN003","section":"main","num":"TFK-EN003","printed":"TFK-EN003","name":"Slate Warrior","ctype":"monster","keywords":"Fiend WIND Flip Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Fiend / Flip / Effect","atk":1900,"def":400},"note":"Yu-Gi-Oh! The Falsebound Kingdom promotional cards","rarity":"SR","img":"78636495","code":"25","tcg":200196,"grp":329,"idx":24},
+    {"id":"TSC-001","section":"main","num":"TSC-001","printed":"TSC-001","name":"Perfectly Ultimate Great Moth","ctype":"monster","keywords":"Insect EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 8","t":"Insect / Effect","atk":3500,"def":3000},"note":"Yu-Gi-Oh! The Sacred Cards promotional cards","rarity":"PScR","img":"48579379","code":"26","tcg":22816,"grp":1921,"idx":25},
+    {"id":"TSC-E001","section":"main","num":"TSC-E001","printed":"TSC-E001","name":"Exchange","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"note":"Yu-Gi-Oh! The Sacred Cards promotional cards","rarity":"PScR","img":"5556668","code":"27","tcg":236749,"grp":1921,"idx":26},
+    {"id":"TSC-002","section":"main","num":"TSC-002","printed":"TSC-002","name":"Riryoku","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"note":"Yu-Gi-Oh! The Sacred Cards promotional cards","rarity":"PScR","img":"34016756","code":"28","tcg":22817,"grp":1921,"idx":27},
+    {"id":"TSC-E002","section":"main","num":"TSC-E002","printed":"TSC-E002","name":"Graceful Dice","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"note":"Yu-Gi-Oh! The Sacred Cards promotional cards","rarity":"PScR","img":"74137509","code":"29","tcg":236754,"grp":1921,"idx":28},
+    {"id":"TSC-003","section":"main","num":"TSC-003","printed":"TSC-003","name":"Negate Attack","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"note":"Yu-Gi-Oh! The Sacred Cards promotional cards","rarity":"PScR","img":"14315573","code":"30","tcg":22818,"grp":1921,"idx":29},
+    {"id":"TSC-E003","section":"main","num":"TSC-E003","printed":"TSC-E003","name":"Skull Dice","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"note":"Yu-Gi-Oh! The Sacred Cards promotional cards","rarity":"PScR","img":"126218","code":"31","tcg":236745,"grp":1921,"idx":30}
+  ]
+}

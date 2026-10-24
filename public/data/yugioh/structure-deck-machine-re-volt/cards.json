@@ -1,0 +1,97 @@
+{
+  "id": "yugioh/structure-deck-machine-re-volt",
+  "game": "yugioh",
+  "slug": "structure-deck-machine-re-volt",
+  "name": "Structure Deck: Machine Re-Volt",
+  "series": "GX",
+  "kind": "deck",
+  "code": "SD10",
+  "syncKey": "YSD10",
+  "released": "2007-01-17",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "SD10-EN001–SD10-EN037",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from SD10-EN001 to SD10-EN037."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Structure Deck: Machine Re-Volt Checklist · All 37 Cards",
+    "description": "Free Yu-Gi-Oh! Structure Deck: Machine Re-Volt checklist with no ads, no sign-up and no tracking. Track all 37 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Structure Deck: Machine Re-Volt Checklist",
+    "ogDescription": "Track all 37 cards in Yu-Gi-Oh! Structure Deck: Machine Re-Volt. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 37 cards in Yu-Gi-Oh! Structure Deck: Machine Re-Volt. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Structure Deck: Machine Re-Volt",
+    "paragraphs": [
+      "Structure Deck: Machine Re-Volt is a Yu-Gi-Oh! TCG deck released on 17 January 2007, in the GX era. It has 37 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Structure Deck: Machine Re-Volt"
+    ],
+    "tcgplayer": [
+      311
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"SD10-EN001","name":"Ancient Gear Gadjiltron Dragon","ctype":"monster","keywords":"Ancient Gear Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 8","t":"Machine / Effect","atk":3000,"def":2000},"rarity":"UR","img":"50933533","code":"1","tcg":25558,"grp":311,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"SD10-EN002","name":"Ancient Gear Gadjiltron Chimera","ctype":"monster","keywords":"Ancient Gear Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 6","t":"Machine / Effect","atk":2300,"def":1300},"rarity":"C","img":"86321248","code":"2","tcg":25559,"grp":311,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"SD10-EN003","name":"Ancient Gear Engineer","ctype":"monster","keywords":"Ancient Gear Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 5","t":"Machine / Effect","atk":1500,"def":1500},"rarity":"C","img":"1953925","code":"3","tcg":25560,"grp":311,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"SD10-EN004","name":"Boot-Up Soldier - Dread Dynamo","ctype":"monster","keywords":"Gadget Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Machine / Effect","atk":0,"def":2000},"rarity":"C","img":"13316346","code":"4","tcg":25561,"grp":311,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"SD10-EN005","name":"Mechanicalchaser","ctype":"monster","keywords":"Machine DARK Normal Monster","stats":{"a":"DARK","l":"Level 4","t":"Machine / Normal","atk":1850,"def":800},"rarity":"C","img":"7359741","code":"5","tcg":25562,"grp":311,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"SD10-EN006","name":"Green Gadget","ctype":"monster","keywords":"Gadget Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Machine / Effect","atk":1400,"def":600},"rarity":"C","img":"41172955","code":"6","tcg":25555,"grp":311,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"SD10-EN007","name":"Red Gadget","ctype":"monster","keywords":"Gadget Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Machine / Effect","atk":1300,"def":1500},"rarity":"C","img":"86445415","code":"7","tcg":25556,"grp":311,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"SD10-EN008","name":"Yellow Gadget","ctype":"monster","keywords":"Gadget Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Machine / Effect","atk":1200,"def":1200},"rarity":"C","img":"13839120","code":"8","tcg":25557,"grp":311,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"SD10-EN009","name":"Cannon Soldier","ctype":"monster","keywords":"Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Machine / Effect","atk":1400,"def":1300},"rarity":"C","img":"11384280","code":"9","tcg":25563,"grp":311,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"SD10-EN010","name":"Gear Golem the Moving Fortress","ctype":"monster","keywords":"Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Machine / Effect","atk":800,"def":2200},"rarity":"C","img":"30190809","code":"10","tcg":25564,"grp":311,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"SD10-EN011","name":"Heavy Mech Support Platform","ctype":"monster","keywords":"Machine DARK Union Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Machine / Union / Effect","atk":500,"def":500},"rarity":"C","img":"23265594","code":"11","tcg":25565,"grp":311,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"SD10-EN012","name":"Ancient Gear Golem","ctype":"monster","keywords":"Ancient Gear Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 8","t":"Machine / Effect","atk":3000,"def":3000},"rarity":"C","img":"83104731","code":"12","tcg":25566,"grp":311,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"SD10-EN013","name":"Ancient Gear Beast","ctype":"monster","keywords":"Ancient Gear Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 6","t":"Machine / Effect","atk":2000,"def":2000},"rarity":"C","img":"10509340","code":"13","tcg":25567,"grp":311,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"SD10-EN014","name":"Ancient Gear Soldier","ctype":"monster","keywords":"Ancient Gear Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Machine / Effect","atk":1300,"def":1300},"rarity":"C","img":"56094445","code":"14","tcg":25568,"grp":311,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"SD10-EN015","name":"Ancient Gear","ctype":"monster","keywords":"Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 2","t":"Machine / Effect","atk":100,"def":800},"rarity":"C","img":"31557782","code":"15","tcg":25569,"grp":311,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"SD10-EN016","name":"Ancient Gear Cannon","ctype":"monster","keywords":"Ancient Gear Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 2","t":"Machine / Effect","atk":500,"def":500},"rarity":"C","img":"80045583","code":"16","tcg":25570,"grp":311,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"SD10-EN017","name":"Ancient Gear Workshop","ctype":"spell","keywords":"Ancient Gear Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"59811955","code":"17","tcg":25571,"grp":311,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"SD10-EN018","name":"Ancient Gear Tank","ctype":"spell","keywords":"Ancient Gear Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"37457534","code":"18","tcg":25572,"grp":311,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"SD10-EN019","name":"Ancient Gear Explosive","ctype":"spell","keywords":"Ancient Gear Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"4446672","code":"19","tcg":25573,"grp":311,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"SD10-EN020","name":"Ancient Gear Fist","ctype":"spell","keywords":"Ancient Gear Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"40830387","code":"20","tcg":25574,"grp":311,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"SD10-EN021","name":"Ancient Gear Factory","ctype":"spell","keywords":"Ancient Gear Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"30435145","code":"21","tcg":25575,"grp":311,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"SD10-EN022","name":"Ancient Gear Drill","ctype":"spell","keywords":"Ancient Gear Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"67829249","code":"22","tcg":25576,"grp":311,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"SD10-EN023","name":"Ancient Gear Castle","ctype":"spell","keywords":"Ancient Gear Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"92001300","code":"23","tcg":25577,"grp":311,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"SD10-EN024","name":"Mystical Space Typhoon","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"5318639","code":"24","tcg":25578,"grp":311,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"SD10-EN025","name":"Limiter Removal","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"23171610","code":"25","tcg":25579,"grp":311,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"SD10-EN026","name":"Heavy Storm","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"19613556","code":"26","tcg":25580,"grp":311,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"SD10-EN027","name":"Enemy Controller","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"98045062","code":"27","tcg":25581,"grp":311,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"SD10-EN028","name":"Weapon Change","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"10035717","code":"28","tcg":25582,"grp":311,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"SD10-EN029","name":"Machine Duplication","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"63995093","code":"29","tcg":25583,"grp":311,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"SD10-EN030","name":"Pot of Avarice","ctype":"spell","keywords":"Greed Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"67169062","code":"30","tcg":25584,"grp":311,"idx":29},
+    {"id":"031","section":"main","num":"031","printed":"SD10-EN031","name":"Stronghold the Moving Fortress","ctype":"trap","keywords":"Gadget Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"13955608","code":"31","tcg":25585,"grp":311,"idx":30},
+    {"id":"032","section":"main","num":"032","printed":"SD10-EN032","name":"Ultimate Offering","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"80604092","code":"32","tcg":25586,"grp":311,"idx":31},
+    {"id":"033","section":"main","num":"033","printed":"SD10-EN033","name":"Sakuretsu Armor","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"56120475","code":"33","tcg":25587,"grp":311,"idx":32},
+    {"id":"034","section":"main","num":"034","printed":"SD10-EN034","name":"Micro Ray","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"18190572","code":"34","tcg":25588,"grp":311,"idx":33},
+    {"id":"035","section":"main","num":"035","printed":"SD10-EN035","name":"Rare Metalmorph","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"12503902","code":"35","tcg":25589,"grp":311,"idx":34},
+    {"id":"036","section":"main","num":"036","printed":"SD10-EN036","name":"Covering Fire","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"74458486","code":"36","tcg":25590,"grp":311,"idx":35},
+    {"id":"037","section":"main","num":"037","printed":"SD10-EN037","name":"Roll Out!","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"91597389","code":"37","tcg":25591,"grp":311,"idx":36}
+  ]
+}

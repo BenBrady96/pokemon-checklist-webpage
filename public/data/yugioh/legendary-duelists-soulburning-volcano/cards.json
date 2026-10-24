@@ -1,0 +1,121 @@
+{
+  "id": "yugioh/legendary-duelists-soulburning-volcano",
+  "game": "yugioh",
+  "slug": "legendary-duelists-soulburning-volcano",
+  "name": "Legendary Duelists: Soulburning Volcano",
+  "series": "SEVENS & GO RUSH!!",
+  "kind": "set",
+  "code": "LD10",
+  "syncKey": "YLD10",
+  "released": "2023-08-10",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Main Set",
+      "range": "LD10-EN000–LD10-EN061",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from LD10-EN000 to LD10-EN061."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Legendary Duelists: Soulburning Volcano Checklist · All 61 Cards",
+    "description": "Free Yu-Gi-Oh! Legendary Duelists: Soulburning Volcano checklist with no ads, no sign-up and no tracking. Track all 61 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Legendary Duelists: Soulburning Volcano Checklist",
+    "ogDescription": "Track all 61 cards in Yu-Gi-Oh! Legendary Duelists: Soulburning Volcano. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 61 cards in Yu-Gi-Oh! Legendary Duelists: Soulburning Volcano. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About the Legendary Duelists: Soulburning Volcano set",
+    "paragraphs": [
+      "Legendary Duelists: Soulburning Volcano is a Yu-Gi-Oh! TCG special set released on 10 August 2023, in the SEVENS &amp; GO RUSH!! era. It has 61 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Legendary Duelists: Soulburning Volcano"
+    ],
+    "tcgplayer": [
+      23111
+    ]
+  },
+  "cards": [
+    {"id":"000","section":"main","num":"000","printed":"LD10-EN000","name":"Salamangreat Sunlight Wolf","ctype":"monster","keywords":"Salamangreat Cyberse FIRE Link Monster","stats":{"a":"FIRE","l":"Link 2","t":"Cyberse / Link","atk":1800},"rarity":"GR","img":"87871125","code":"0","tcg":509806,"grp":23111,"idx":0},
+    {"id":"001","section":"main","num":"001","printed":"LD10-EN001","name":"Salamangreat of Fire","ctype":"monster","keywords":"Salamangreat Cyberse FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 2","t":"Cyberse / Effect","atk":800,"def":800},"rarity":"UR","img":"11962031","code":"1","tcg":509813,"grp":23111,"idx":1},
+    {"id":"002","section":"main","num":"002","printed":"LD10-EN002","name":"Salamangreat Weasel","ctype":"monster","keywords":"Salamangreat Cyberse FIRE Tuner Monster","stats":{"a":"FIRE","l":"Level 3","t":"Cyberse / Tuner","atk":700,"def":1400},"rarity":"SR","img":"57357130","code":"2","tcg":509815,"grp":23111,"idx":2},
+    {"id":"003","section":"main","num":"003","printed":"LD10-EN003","name":"Salamangreat Tiger","ctype":"monster","keywords":"Salamangreat Cyberse FIRE Tuner Monster","stats":{"a":"FIRE","l":"Level 5","t":"Cyberse / Tuner","atk":2000,"def":500},"rarity":"UR","img":"84755744","code":"3","tcg":509817,"grp":23111,"idx":3},
+    {"id":"004","section":"main","num":"004","printed":"LD10-EN004","name":"Salamangreat Burst Gryphon","ctype":"monster","keywords":"Salamangreat Cyberse FIRE Synchro Monster","stats":{"a":"FIRE","l":"Level 8","t":"Cyberse / Synchro","atk":2800,"def":2000},"rarity":"UR","img":"10140443","code":"4","tcg":509820,"grp":23111,"idx":4},
+    {"id":"005","section":"main","num":"005","printed":"LD10-EN005","name":"Salamangreat Raging Phoenix","ctype":"monster","keywords":"Salamangreat Cyberse FIRE Link Monster","stats":{"a":"FIRE","l":"Link 4","t":"Cyberse / Link","atk":2800},"rarity":"UR","img":"57134592","code":"5","tcg":509822,"grp":23111,"idx":5},
+    {"id":"006","section":"main","num":"006","printed":"LD10-EN006","name":"Salamangreat Charge","ctype":"spell","keywords":"Salamangreat Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"R","img":"83533296","code":"6","tcg":509824,"grp":23111,"idx":6},
+    {"id":"007","section":"main","num":"007","printed":"LD10-EN007","name":"Salamangreat Revive","ctype":"trap","keywords":"Salamangreat Normal Trap","stats":{"t":"Normal Trap"},"rarity":"R","img":"19027895","code":"7","tcg":509828,"grp":23111,"idx":7},
+    {"id":"008","section":"main","num":"008","printed":"LD10-EN008","name":"Salamangreat Gazelle","ctype":"monster","keywords":"Salamangreat Cyberse FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 3","t":"Cyberse / Effect","atk":1500,"def":1000},"rarity":"C","img":"26889158","code":"8","tcg":509830,"grp":23111,"idx":8},
+    {"id":"009","section":"main","num":"009","printed":"LD10-EN009","name":"Salamangreat Spinny","ctype":"monster","keywords":"Salamangreat Cyberse FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 3","t":"Cyberse / Effect","atk":1000,"def":1500},"rarity":"C","img":"52277807","code":"9","tcg":509838,"grp":23111,"idx":9},
+    {"id":"010","section":"main","num":"010","printed":"LD10-EN010","name":"Salamangreat Miragestallio","ctype":"monster","keywords":"Salamangreat Cyberse FIRE Xyz Monster","stats":{"a":"FIRE","l":"Rank 3","t":"Cyberse / Xyz","atk":2000,"def":900},"rarity":"C","img":"87327776","code":"10","tcg":509843,"grp":23111,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"LD10-EN012","name":"Salamangreat Balelynx","ctype":"monster","keywords":"Salamangreat Cyberse FIRE Link Monster","stats":{"a":"FIRE","l":"Link 1","t":"Cyberse / Link","atk":500},"rarity":"R","img":"14812471","code":"12","tcg":509847,"grp":23111,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"LD10-EN013","name":"Salamangreat Sanctuary","ctype":"spell","keywords":"Salamangreat Field Spell","stats":{"t":"Field Spell"},"rarity":"C","img":"1295111","code":"13","tcg":509852,"grp":23111,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"LD10-EN014","name":"Salamangreat Circle","ctype":"spell","keywords":"Salamangreat Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"52155219","code":"14","tcg":509855,"grp":23111,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"LD10-EN015","name":"Salamangreat Transcendence","ctype":"spell","keywords":"Salamangreat Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"54529134","code":"15","tcg":509857,"grp":23111,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"LD10-EN016","name":"Burning Draw","ctype":"spell","keywords":"Salamangreat Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"46898368","code":"16","tcg":509859,"grp":23111,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"LD10-EN017","name":"Salamangreat Roar","ctype":"trap","keywords":"Salamangreat Counter Trap","stats":{"t":"Counter Trap"},"rarity":"C","img":"51339637","code":"17","tcg":509861,"grp":23111,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"LD10-EN018","name":"Volcanic Emperor","ctype":"monster","keywords":"Volcanic Pyro FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 8","t":"Pyro / Effect","atk":3100,"def":2400},"rarity":"UR","img":"46412900","code":"18","tcg":509882,"grp":23111,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"LD10-EN019","name":"Volcanic Trooper","ctype":"monster","keywords":"Volcanic Pyro FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 3","t":"Pyro / Effect","atk":1000,"def":1000},"rarity":"UR","img":"22411609","code":"19","tcg":509885,"grp":23111,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"LD10-EN020","name":"Volcanic Rimfire","ctype":"monster","keywords":"Volcanic Pyro FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 1","t":"Pyro / Effect","atk":300,"def":0},"rarity":"R","img":"59805313","code":"20","tcg":509889,"grp":23111,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"LD10-EN021","name":"Volcanic Blaze Accelerator","ctype":"spell","keywords":"Blaze Accelerator Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"SR","img":"85250352","code":"21","tcg":509892,"grp":23111,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"LD10-EN022","name":"Fire Ejection","ctype":"spell","keywords":"Volcanic Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"11654067","code":"22","tcg":509896,"grp":23111,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"LD10-EN023","name":"Volcanic Emission","ctype":"trap","keywords":"Volcanic Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"58143766","code":"23","tcg":509897,"grp":23111,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"LD10-EN024","name":"Volcanic Inferno","ctype":"trap","keywords":"Volcanic Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"SR","img":"84138874","code":"24","tcg":509899,"grp":23111,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"LD10-EN025","name":"Volcanic Shell","ctype":"monster","keywords":"Volcanic Pyro FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 1","t":"Pyro / Effect","atk":100,"def":0},"rarity":"C","img":"33365932","code":"25","tcg":509902,"grp":23111,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"LD10-EN026","name":"Volcanic Scattershot","ctype":"monster","keywords":"Volcanic Pyro FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 2","t":"Pyro / Effect","atk":500,"def":0},"rarity":"C","img":"69750546","code":"26","tcg":509903,"grp":23111,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"LD10-EN027","name":"Volcanic Rocket","ctype":"monster","keywords":"Volcanic Pyro FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Pyro / Effect","atk":1900,"def":1400},"rarity":"R","img":"76459806","code":"27","tcg":509905,"grp":23111,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"LD10-EN028","name":"Volcanic Queen","ctype":"monster","keywords":"Volcanic Pyro FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 6","t":"Pyro / Effect","atk":2500,"def":1200},"rarity":"C","img":"63014935","code":"28","tcg":509906,"grp":23111,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"LD10-EN029","name":"Volcanic Doomfire","ctype":"monster","keywords":"Volcanic Pyro FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 8","t":"Pyro / Effect","atk":3000,"def":1800},"rarity":"C","img":"32543380","code":"29","tcg":509907,"grp":23111,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"LD10-EN030","name":"Blaze Accelerator","ctype":"spell","keywords":"Blaze Accelerator Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"69537999","code":"30","tcg":509908,"grp":23111,"idx":29},
+    {"id":"031","section":"main","num":"031","printed":"LD10-EN031","name":"Blaze Accelerator Reload","ctype":"trap","keywords":"Blaze Accelerator Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"52198054","code":"31","tcg":509910,"grp":23111,"idx":30},
+    {"id":"032","section":"main","num":"032","printed":"LD10-EN032","name":"Battlin' Boxer Uppercutter","ctype":"monster","keywords":"Battlin' Boxer Warrior FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Warrior / Effect","atk":1600,"def":200},"rarity":"UR","img":"11522479","code":"32","tcg":509913,"grp":23111,"idx":31},
+    {"id":"033","section":"main","num":"033","printed":"LD10-EN033","name":"Battlin' Boxer Chief Second","ctype":"monster","keywords":"Battlin' Boxer Warrior FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Warrior / Effect","atk":500,"def":2000},"rarity":"R","img":"47921178","code":"33","tcg":509914,"grp":23111,"idx":32},
+    {"id":"034","section":"main","num":"034","printed":"LD10-EN034","name":"Battlin' Boxer Promoter","ctype":"monster","keywords":"Battlin' Boxer Warrior FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Warrior / Effect","atk":1700,"def":800},"rarity":"UR","img":"83315222","code":"34","tcg":509915,"grp":23111,"idx":33},
+    {"id":"035","section":"main","num":"035","printed":"LD10-EN035","name":"Number C79: Battlin' Boxer General Kaiser","ctype":"monster","keywords":"Battlin' Boxer Warrior FIRE Xyz Monster","stats":{"a":"FIRE","l":"Rank 5","t":"Warrior / Xyz","atk":2600,"def":2000},"rarity":"SR","img":"10300821","code":"35","tcg":509916,"grp":23111,"idx":34},
+    {"id":"036","section":"main","num":"036","printed":"LD10-EN036","name":"Battlin' Boxer King Dempsey","ctype":"monster","keywords":"Battlin' Boxer Warrior FIRE Xyz Monster","stats":{"a":"FIRE","l":"Rank 4","t":"Warrior / Xyz","atk":2300,"def":1800},"rarity":"UR","img":"46804536","code":"36","tcg":509917,"grp":23111,"idx":35},
+    {"id":"037","section":"main","num":"037","printed":"LD10-EN037","name":"Seventh Force","ctype":"spell","keywords":"Seventh Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"SR","img":"83293635","code":"37","tcg":509918,"grp":23111,"idx":36},
+    {"id":"038","section":"main","num":"038","printed":"LD10-EN038","name":"Battlin' Boxing Cross Counter","ctype":"trap","keywords":"Battlin' Boxing Counter Trap","stats":{"t":"Counter Trap"},"rarity":"SR","img":"19688343","code":"38","tcg":509921,"grp":23111,"idx":37},
+    {"id":"039","section":"main","num":"039","printed":"LD10-EN039","name":"Battlin' Boxer Headgeared","ctype":"monster","keywords":"Battlin' Boxer Warrior FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Warrior / Effect","atk":1000,"def":1800},"rarity":"C","img":"79867938","code":"39","tcg":509923,"grp":23111,"idx":38},
+    {"id":"040","section":"main","num":"040","printed":"LD10-EN040","name":"Battlin' Boxer Glassjaw","ctype":"monster","keywords":"Battlin' Boxer Warrior FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Warrior / Effect","atk":2000,"def":0},"rarity":"C","img":"5361647","code":"40","tcg":509925,"grp":23111,"idx":39},
+    {"id":"041","section":"main","num":"041","printed":"LD10-EN041","name":"Battlin' Boxer Switchitter","ctype":"monster","keywords":"Battlin' Boxer Warrior FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Warrior / Effect","atk":1500,"def":1400},"rarity":"C","img":"68144350","code":"41","tcg":509927,"grp":23111,"idx":40},
+    {"id":"042","section":"main","num":"042","printed":"LD10-EN042","name":"Number 105: Battlin' Boxer Star Cestus","ctype":"monster","keywords":"Battlin' Boxer Warrior FIRE Xyz Monster","stats":{"a":"FIRE","l":"Rank 4","t":"Warrior / Xyz","atk":2500,"def":1600},"rarity":"C","img":"59627393","code":"42","tcg":509968,"grp":23111,"idx":41},
+    {"id":"043","section":"main","num":"043","printed":"LD10-EN043","name":"Number C105: Battlin' Boxer Comet Cestus","ctype":"monster","keywords":"Battlin' Boxer Warrior FIRE Xyz Monster","stats":{"a":"FIRE","l":"Rank 5","t":"Warrior / Xyz","atk":2800,"def":2000},"rarity":"C","img":"85121942","code":"43","tcg":509969,"grp":23111,"idx":42},
+    {"id":"044","section":"main","num":"044","printed":"LD10-EN044","name":"Number 79: Battlin' Boxer Nova Kaiser","ctype":"monster","keywords":"Battlin' Boxer Warrior FIRE Xyz Monster","stats":{"a":"FIRE","l":"Rank 4","t":"Warrior / Xyz","atk":2300,"def":1600},"rarity":"R","img":"71921856","code":"44","tcg":509971,"grp":23111,"idx":43},
+    {"id":"045","section":"main","num":"045","printed":"LD10-EN045","name":"Battlin' Boxing Spirits","ctype":"spell","keywords":"Battlin' Boxer Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"36916401","code":"45","tcg":509972,"grp":23111,"idx":44},
+    {"id":"046","section":"main","num":"046","printed":"LD10-EN046","name":"Salamangreat Foxy","ctype":"monster","keywords":"Salamangreat Cyberse FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 3","t":"Cyberse / Effect","atk":1000,"def":1200},"rarity":"C","img":"94620082","code":"46","tcg":509974,"grp":23111,"idx":45},
+    {"id":"047","section":"main","num":"047","printed":"LD10-EN047","name":"Salamangreat Jack Jaguar","ctype":"monster","keywords":"Salamangreat Cyberse FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Cyberse / Effect","atk":1800,"def":1200},"rarity":"C","img":"56003780","code":"47","tcg":509976,"grp":23111,"idx":46},
+    {"id":"048","section":"main","num":"048","printed":"LD10-EN048","name":"Salamangreat Fowl","ctype":"monster","keywords":"Salamangreat Cyberse FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Cyberse / Effect","atk":1800,"def":200},"rarity":"C","img":"89662401","code":"48","tcg":509977,"grp":23111,"idx":47},
+    {"id":"049","section":"main","num":"049","printed":"LD10-EN049","name":"Will of the Salamangreat","ctype":"spell","keywords":"Salamangreat Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"64178424","code":"49","tcg":509978,"grp":23111,"idx":48},
+    {"id":"050","section":"main","num":"050","printed":"LD10-EN050","name":"Salamangreat Rage","ctype":"trap","keywords":"Salamangreat Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"14934922","code":"50","tcg":509981,"grp":23111,"idx":49},
+    {"id":"051","section":"main","num":"051","printed":"LD10-EN051","name":"Salamangreat Almiraj","ctype":"monster","keywords":"Salamangreat Cyberse FIRE Link Monster","stats":{"a":"FIRE","l":"Link 1","t":"Cyberse / Link","atk":0},"rarity":"R","img":"60303245","code":"51","tcg":509984,"grp":23111,"idx":50},
+    {"id":"052","section":"main","num":"052","printed":"LD10-EN052","name":"Volcanic Hammerer","ctype":"monster","keywords":"Volcanic Pyro FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 5","t":"Pyro / Effect","atk":2400,"def":1500},"rarity":"C","img":"54514594","code":"52","tcg":509985,"grp":23111,"idx":51},
+    {"id":"053","section":"main","num":"053","printed":"LD10-EN053","name":"Tri-Blaze Accelerator","ctype":"spell","keywords":"Blaze Accelerator Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"21420702","code":"53","tcg":509988,"grp":23111,"idx":52},
+    {"id":"054","section":"main","num":"054","printed":"LD10-EN054","name":"Battlin' Boxer Rabbit Puncher","ctype":"monster","keywords":"Battlin' Boxer Warrior FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 3","t":"Warrior / Effect","atk":800,"def":1000},"rarity":"C","img":"61679541","code":"54","tcg":509991,"grp":23111,"idx":53},
+    {"id":"055","section":"main","num":"055","printed":"LD10-EN055","name":"Battlin' Boxer Big Bandage","ctype":"monster","keywords":"Battlin' Boxer Warrior FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 2","t":"Warrior / Effect","atk":1100,"def":1400},"rarity":"C","img":"86325573","code":"55","tcg":509993,"grp":23111,"idx":54},
+    {"id":"056","section":"main","num":"056","printed":"LD10-EN056","name":"Battlin' Boxer Shadow","ctype":"monster","keywords":"Battlin' Boxer Warrior FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Warrior / Effect","atk":1800,"def":1400},"rarity":"R","img":"35537251","code":"56","tcg":509994,"grp":23111,"idx":55},
+    {"id":"057","section":"main","num":"057","printed":"LD10-EN057","name":"Battlin' Boxer Lead Yoke","ctype":"monster","keywords":"Battlin' Boxer Warrior FIRE Xyz Monster","stats":{"a":"FIRE","l":"Rank 4","t":"Warrior / Xyz","atk":2200,"def":2000},"rarity":"R","img":"23232295","code":"57","tcg":509995,"grp":23111,"idx":56},
+    {"id":"058","section":"main","num":"058","printed":"LD10-EN058","name":"Battlin' Boxer Cheat Commissioner","ctype":"monster","keywords":"Battlin' Boxer Warrior FIRE Xyz Monster","stats":{"a":"FIRE","l":"Rank 3","t":"Warrior / Xyz","atk":0,"def":1300},"rarity":"C","img":"76589815","code":"58","tcg":509996,"grp":23111,"idx":57},
+    {"id":"059","section":"main","num":"059","printed":"LD10-EN059","name":"Last Counter","ctype":"trap","keywords":"Battlin' Boxer Counter Trap","stats":{"t":"Counter Trap"},"rarity":"C","img":"86049351","code":"59","tcg":509997,"grp":23111,"idx":58},
+    {"id":"060","section":"main","num":"060","printed":"LD10-EN060","name":"Jolt Counter","ctype":"trap","keywords":"Battlin' Boxer Counter Trap","stats":{"t":"Counter Trap"},"rarity":"C","img":"8316565","code":"60","tcg":509998,"grp":23111,"idx":59},
+    {"id":"061","section":"main","num":"061","printed":"LD10-EN061","name":"Volcanic Eruption","ctype":"trap","keywords":"Volcanic Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"42175079","code":"61","tcg":509999,"grp":23111,"idx":60}
+  ]
+}

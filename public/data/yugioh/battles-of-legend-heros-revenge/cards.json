@@ -1,0 +1,167 @@
+{
+  "id": "yugioh/battles-of-legend-heros-revenge",
+  "game": "yugioh",
+  "slug": "battles-of-legend-heros-revenge",
+  "name": "Battles of Legend: Hero's Revenge",
+  "series": "VRAINS",
+  "kind": "set",
+  "code": "BLHR",
+  "syncKey": "YBLHR",
+  "released": "2019-07-11",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Main Set",
+      "range": "BLHR-EN000–BLHR-EN093",
+      "tier": "standard"
+    },
+    {
+      "id": "rarities",
+      "name": "Other Rarities",
+      "short": "Other Rarities",
+      "range": "1 card",
+      "tier": "master"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Main set"
+    ],
+    [
+      "rarities",
+      "Other rarities"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, SCR12, 60x2",
+    "example": "1-20, 45x2, SCR12",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies. Other rarities use their short name and number: <b>SCR12</b> is card 12’s Secret Rare, and ranges work too (<b>QCSR1-QCSR20</b>).",
+    "empty": "Cards run from BLHR-EN000 to BLHR-EN093."
+  },
+  "help": {
+    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 94 cards, each in its main rarity. Master adds the 1 other rarity. Cards you’ve marked are kept when you switch."
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Battles of Legend: Hero's Revenge Checklist · All 94 Cards",
+    "description": "Free Yu-Gi-Oh! Battles of Legend: Hero's Revenge checklist with no ads, no sign-up and no tracking. Track all 94 cards, or every rarity for a master set, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Battles of Legend: Hero's Revenge Checklist",
+    "ogDescription": "Track all 94 cards in Yu-Gi-Oh! Battles of Legend: Hero's Revenge, plus 1 other rarity. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 94 cards in Yu-Gi-Oh! Battles of Legend: Hero's Revenge. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About the Battles of Legend: Hero's Revenge set",
+    "paragraphs": [
+      "Battles of Legend: Hero&#39;s Revenge is a Yu-Gi-Oh! TCG special set released on 11 July 2019, in the VRAINS era. It has 94 cards, and with the 1 other rarity there are 95 to collect in all.",
+      "Choose what you’re collecting: the <b>Standard set</b> (the 94 cards, each in its main rarity) or the <b>Master set</b> (all 95, adding the 1 other rarity).",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Battles of Legend: Hero's Revenge"
+    ],
+    "tcgplayer": [
+      2459
+    ]
+  },
+  "cards": [
+    {"id":"000","section":"main","num":"000","printed":"BLHR-EN000","name":"Five-Headed Dragon","ctype":"monster","keywords":"Dragon DARK Fusion Monster","stats":{"a":"DARK","l":"Level 12","t":"Dragon / Fusion","atk":5000,"def":5000},"rarity":"ScR","img":"99267151","code":"0","tcg":193587,"grp":2459,"idx":0},
+    {"id":"001","section":"main","num":"001","printed":"BLHR-EN001","name":"Ipiria","ctype":"monster","keywords":"Reptile EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 2","t":"Reptile / Effect","atk":500,"def":500},"rarity":"ScR","img":"70744296","code":"1","tcg":193589,"grp":2459,"idx":1},
+    {"id":"002","section":"main","num":"002","printed":"BLHR-EN002","name":"Water of Life","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UR","img":"7133305","code":"2","tcg":193588,"grp":2459,"idx":2},
+    {"id":"003","section":"main","num":"003","printed":"BLHR-EN003","name":"Gold Moon Coin","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UR","img":"43528009","code":"3","tcg":193590,"grp":2459,"idx":3},
+    {"id":"004","section":"main","num":"004","printed":"BLHR-EN004","name":"Gingerbread House","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"UR","img":"79922118","code":"4","tcg":193591,"grp":2459,"idx":4},
+    {"id":"005","section":"main","num":"005","printed":"BLHR-EN005","name":"Vision HERO Minimum Ray","ctype":"monster","keywords":"Vision HERO Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Warrior / Effect","atk":1200,"def":700},"rarity":"UR","img":"61320914","code":"5","tcg":193592,"grp":2459,"idx":5},
+    {"id":"006","section":"main","num":"006","printed":"BLHR-EN006","name":"Vision HERO Multiply Guy","ctype":"monster","keywords":"Vision HERO Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Warrior / Effect","atk":800,"def":700},"rarity":"UR","img":"96693371","code":"6","tcg":193593,"grp":2459,"idx":6},
+    {"id":"007","section":"main","num":"007","printed":"BLHR-EN007","name":"Vision HERO Increase","ctype":"monster","keywords":"Vision HERO Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Warrior / Effect","atk":900,"def":1100},"rarity":"ScR","img":"22865492","code":"7","tcg":193594,"grp":2459,"idx":7},
+    {"id":"008","section":"main","num":"008","printed":"BLHR-EN008","name":"Vision HERO Poisoner","ctype":"monster","keywords":"Vision HERO Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Warrior / Effect","atk":900,"def":700},"rarity":"UR","img":"83414006","code":"8","tcg":193595,"grp":2459,"idx":8},
+    {"id":"009","section":"main","num":"009","printed":"BLHR-EN009","name":"Vision HERO Gravito","ctype":"monster","keywords":"Vision HERO Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Warrior / Effect","atk":500,"def":2000},"rarity":"UR","img":"54185227","code":"9","tcg":193596,"grp":2459,"idx":9},
+    {"id":"010","section":"main","num":"010","printed":"BLHR-EN010","name":"Vision HERO Faris","ctype":"monster","keywords":"Vision HERO Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 5","t":"Warrior / Effect","atk":1600,"def":1800},"rarity":"ScR","img":"18094166","code":"10","tcg":193597,"grp":2459,"idx":10},
+    {"id":"011","section":"main","num":"011","printed":"BLHR-EN011","name":"Vision Release","ctype":"spell","keywords":"Vision HERO Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UR","img":"19186123","code":"11","tcg":193598,"grp":2459,"idx":11},
+    {"id":"012","section":"main","num":"012","printed":"BLHR-EN012","name":"Vision Fusion","ctype":"spell","keywords":"Vision HERO Normal Spell","stats":{"t":"Normal Spell"},"rarity":"ScR","img":"57425061","code":"12","tcg":193599,"grp":2459,"idx":12},
+    {"id":"013","section":"main","num":"013","printed":"BLHR-EN013","name":"Apparition","ctype":"trap","keywords":"Vision HERO Normal Trap","stats":{"t":"Normal Trap"},"rarity":"UR","img":"91392974","code":"13","tcg":193600,"grp":2459,"idx":13},
+    {"id":"014","section":"main","num":"014","printed":"BLHR-EN014","name":"Fortune Fairy Hikari","ctype":"monster","keywords":"Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Spellcaster / Effect","atk":0,"def":0},"rarity":"ScR","img":"6311717","code":"14","tcg":193601,"grp":2459,"idx":14},
+    {"id":"015","section":"main","num":"015","printed":"BLHR-EN015","name":"Fortune Fairy En","ctype":"monster","keywords":"Fortune Fairy Spellcaster FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 2","t":"Spellcaster / Effect","atk":0,"def":0},"rarity":"UR","img":"32305461","code":"15","tcg":193602,"grp":2459,"idx":15},
+    {"id":"016","section":"main","num":"016","printed":"BLHR-EN016","name":"Fortune Fairy Hu","ctype":"monster","keywords":"Fortune Fairy Spellcaster WIND Effect Monster","stats":{"a":"WIND","l":"Level 3","t":"Spellcaster / Effect","atk":0,"def":0},"rarity":"UR","img":"79890560","code":"16","tcg":193603,"grp":2459,"idx":16},
+    {"id":"017","section":"main","num":"017","printed":"BLHR-EN017","name":"Fortune Fairy Swee","ctype":"monster","keywords":"Fortune Fairy Spellcaster WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Spellcaster / Effect","atk":0,"def":0},"rarity":"UR","img":"5298175","code":"17","tcg":193604,"grp":2459,"idx":17},
+    {"id":"018","section":"main","num":"018","printed":"BLHR-EN018","name":"Fortune Fairy Ann","ctype":"monster","keywords":"Fortune Fairy Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 5","t":"Spellcaster / Effect","atk":0,"def":0},"rarity":"UR","img":"31683874","code":"18","tcg":193605,"grp":2459,"idx":18},
+    {"id":"019","section":"main","num":"019","printed":"BLHR-EN019","name":"Fortune Fairy Chee","ctype":"monster","keywords":"Fortune Fairy Spellcaster EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 6","t":"Spellcaster / Effect","atk":0,"def":0},"rarity":"UR","img":"68078978","code":"19","tcg":193606,"grp":2459,"idx":19},
+    {"id":"020","section":"main","num":"020","printed":"BLHR-EN020","name":"Unacceptable Result","ctype":"spell","keywords":"Fortune Fairy Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"UR","img":"4072687","code":"20","tcg":193607,"grp":2459,"idx":20},
+    {"id":"021","section":"main","num":"021","printed":"BLHR-EN021","name":"Miracle Stone","ctype":"spell","keywords":"Fortune Fairy Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"UR","img":"31461282","code":"21","tcg":193608,"grp":2459,"idx":21},
+    {"id":"022","section":"main","num":"022","printed":"BLHR-EN022","name":"Lucky Loan","ctype":"spell","keywords":"Fortune Fairy Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UR","img":"67955331","code":"22","tcg":193609,"grp":2459,"idx":22},
+    {"id":"023","section":"main","num":"023","printed":"BLHR-EN023","name":"T.G. Gear Zombie","ctype":"monster","keywords":"T.G. Zombie DARK Tuner Monster","stats":{"a":"DARK","l":"Level 1","t":"Zombie / Tuner","atk":600,"def":0},"rarity":"ScR","img":"94350039","code":"23","tcg":193610,"grp":2459,"idx":23},
+    {"id":"024","section":"main","num":"024","printed":"BLHR-EN024","name":"T.G. Drill Fish","ctype":"monster","keywords":"T.G. Fish WATER Effect Monster","stats":{"a":"WATER","l":"Level 1","t":"Fish / Effect","atk":100,"def":800},"rarity":"UR","img":"30348744","code":"24","tcg":193611,"grp":2459,"idx":24},
+    {"id":"025","section":"main","num":"025","printed":"BLHR-EN025","name":"T.G. Metal Skeleton","ctype":"monster","keywords":"T.G. Zombie DARK Effect Monster","stats":{"a":"DARK","l":"Level 2","t":"Zombie / Effect","atk":1100,"def":0},"rarity":"UR","img":"66733743","code":"25","tcg":193612,"grp":2459,"idx":25},
+    {"id":"026","section":"main","num":"026","printed":"BLHR-EN026","name":"Sonic Stun","ctype":"trap","keywords":"T.G. Normal Trap","stats":{"t":"Normal Trap"},"rarity":"UR","img":"93138457","code":"26","tcg":193613,"grp":2459,"idx":26},
+    {"id":"027","section":"main","num":"027","printed":"BLHR-EN027","name":"Number 26: Spaceway Octobypass","ctype":"monster","keywords":"Psychic LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 3","t":"Psychic / Xyz","atk":800,"def":2400},"rarity":"UR","img":"39622156","code":"27","tcg":193614,"grp":2459,"idx":27},
+    {"id":"028","section":"main","num":"028","printed":"BLHR-EN028","name":"Number 60: Dugares the Timeless","ctype":"monster","keywords":"Fiend FIRE Xyz Monster","stats":{"a":"FIRE","l":"Rank 4","t":"Fiend / Xyz","atk":1200,"def":1200},"rarity":"UR","img":"66011101","code":"28","tcg":193615,"grp":2459,"idx":28},
+    {"id":"029","section":"main","num":"029","printed":"BLHR-EN029","name":"Number 76: Harmonizer Gradielle","ctype":"monster","keywords":"Fairy LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 7","t":"Fairy / Xyz","atk":2700,"def":2100},"rarity":"UR","img":"92015800","code":"29","tcg":193616,"grp":2459,"idx":29},
+    {"id":"030","section":"main","num":"030","printed":"BLHR-EN030","name":"Number 97: Draglubion","ctype":"monster","keywords":"Dragon DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 8","t":"Dragon / Xyz","atk":3000,"def":3000},"rarity":"ScR","img":"28400508","code":"30","tcg":193617,"grp":2459,"idx":30},
+    {"id":"031","section":"main","num":"031","printed":"BLHR-EN031","name":"Battlewasp - Pin the Bullseye","ctype":"monster","keywords":"Battlewasp Insect WIND Effect Monster","stats":{"a":"WIND","l":"Level 1","t":"Insect / Effect","atk":200,"def":300},"rarity":"UR","img":"65899613","code":"31","tcg":193618,"grp":2459,"idx":31},
+    {"id":"032","section":"main","num":"032","printed":"BLHR-EN032","name":"Battlewasp - Dart the Hunter","ctype":"monster","keywords":"Battlewasp Insect WIND Effect Monster","stats":{"a":"WIND","l":"Level 1","t":"Insect / Effect","atk":100,"def":100},"rarity":"UR","img":"91283212","code":"32","tcg":193619,"grp":2459,"idx":32},
+    {"id":"033","section":"main","num":"033","printed":"BLHR-EN033","name":"Battlewasp - Sting the Poison","ctype":"monster","keywords":"Battlewasp Insect WIND Tuner Monster","stats":{"a":"WIND","l":"Level 2","t":"Insect / Tuner","atk":400,"def":800},"rarity":"UR","img":"28388927","code":"33","tcg":193620,"grp":2459,"idx":33},
+    {"id":"034","section":"main","num":"034","printed":"BLHR-EN034","name":"Battlewasp - Twinbow the Attacker","ctype":"monster","keywords":"Battlewasp Insect WIND Effect Monster","stats":{"a":"WIND","l":"Level 3","t":"Insect / Effect","atk":1000,"def":500},"rarity":"UR","img":"54772065","code":"34","tcg":193621,"grp":2459,"idx":34},
+    {"id":"035","section":"main","num":"035","printed":"BLHR-EN035","name":"Battlewasp - Arbalest the Rapidfire","ctype":"monster","keywords":"Battlewasp Insect WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Insect / Effect","atk":1800,"def":800},"rarity":"UR","img":"90161770","code":"35","tcg":193622,"grp":2459,"idx":35},
+    {"id":"036","section":"main","num":"036","printed":"BLHR-EN036","name":"Battlewasp - Azusa the Ghost Bow","ctype":"monster","keywords":"Battlewasp Insect WIND Synchro Tuner Monster","stats":{"a":"WIND","l":"Level 5","t":"Insect / Synchro / Tuner","atk":2200,"def":1600},"rarity":"UR","img":"27565379","code":"36","tcg":193623,"grp":2459,"idx":36},
+    {"id":"037","section":"main","num":"037","printed":"BLHR-EN037","name":"Battlewasp - Halberd the Charge","ctype":"monster","keywords":"Battlewasp Insect WIND Synchro Monster","stats":{"a":"WIND","l":"Level 6","t":"Insect / Synchro","atk":2500,"def":800},"rarity":"UR","img":"53950487","code":"37","tcg":193624,"grp":2459,"idx":37},
+    {"id":"038","section":"main","num":"038","printed":"BLHR-EN038","name":"Battlewasp - Hama the Conquering Bow","ctype":"monster","keywords":"Battlewasp Insect WIND Synchro Monster","stats":{"a":"WIND","l":"Level 8","t":"Insect / Synchro","atk":2800,"def":2000},"rarity":"ScR","img":"80949182","code":"38","tcg":193625,"grp":2459,"idx":38},
+    {"id":"039","section":"main","num":"039","printed":"BLHR-EN039","name":"Battlewasp - Ballista the Armageddon","ctype":"monster","keywords":"Battlewasp Insect WIND Synchro Monster","stats":{"a":"WIND","l":"Level 12","t":"Insect / Synchro","atk":3000,"def":800},"rarity":"UR","img":"26443791","code":"39","tcg":193626,"grp":2459,"idx":39},
+    {"id":"040","section":"main","num":"040","printed":"BLHR-EN040","name":"Summoning Swarm","ctype":"spell","keywords":"Battlewasp Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UR","img":"52838896","code":"40","tcg":193627,"grp":2459,"idx":40},
+    {"id":"041","section":"main","num":"041","printed":"BLHR-EN041","name":"Revival Swarm","ctype":"spell","keywords":"Battlewasp Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UR","img":"89226534","code":"41","tcg":193628,"grp":2459,"idx":41},
+    {"id":"042","section":"main","num":"042","printed":"BLHR-EN042","name":"Battlewasp - Nest","ctype":"trap","keywords":"Battlewasp Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"UR","img":"25221249","code":"42","tcg":193629,"grp":2459,"idx":42},
+    {"id":"043","section":"main","num":"043","printed":"BLHR-EN043","name":"All-Eyes Phantom Dragon","ctype":"monster","keywords":"-Eyes Dragon Dragon LIGHT Pendulum Effect Monster","stats":{"a":"LIGHT","l":"Level 10","t":"Dragon / Pendulum / Effect","atk":3000,"def":2500},"rarity":"ScR","img":"70335319","code":"43","tcg":193630,"grp":2459,"idx":43},
+    {"id":"044","section":"main","num":"044","printed":"BLHR-EN044","name":"Hi-Speedroid Kitedrake","ctype":"monster","keywords":"Hi-Speedroid Machine WIND Synchro Monster","stats":{"a":"WIND","l":"Level 8","t":"Machine / Synchro","atk":3000,"def":2800},"rarity":"ScR","img":"5772618","code":"44","tcg":193631,"grp":2459,"idx":44},
+    {"id":"045","section":"main","num":"045","printed":"BLHR-EN045","name":"Avendread Savior","ctype":"monster","keywords":"Vendread Zombie DARK Link Monster","stats":{"a":"DARK","l":"Link 2","t":"Zombie / Link","atk":1600},"rarity":"ScR","img":"91420202","code":"45","tcg":193632,"grp":2459,"idx":45},
+    {"id":"046","section":"main","num":"046","printed":"BLHR-EN046","name":"Black Luster Soldier - Soldier of Chaos","ctype":"monster","keywords":"Black Luster Soldier Warrior EARTH Link Monster","stats":{"a":"EARTH","l":"Link 3","t":"Warrior / Link","atk":3000},"rarity":"ScR","img":"49202162","code":"46","tcg":193633,"grp":2459,"idx":46},
+    {"id":"047","section":"main","num":"047","printed":"BLHR-EN047","name":"Harpie Conductor","ctype":"monster","keywords":"Harpie Winged Beast WIND Link Monster","stats":{"a":"WIND","l":"Link 2","t":"Winged Beast / Link","atk":1900},"rarity":"ScR","img":"85696777","code":"47","tcg":193634,"grp":2459,"idx":47},
+    {"id":"048","section":"main","num":"048","printed":"BLHR-EN048","name":"Double Headed Anger Knuckle","ctype":"monster","keywords":"Train Machine EARTH Link Monster","stats":{"a":"EARTH","l":"Link 2","t":"Machine / Link","atk":1500},"rarity":"ScR","img":"146746","code":"48","tcg":193635,"grp":2459,"idx":48},
+    {"id":"049","section":"main","num":"049","printed":"BLHR-EN049","name":"Traptrix Sera","ctype":"monster","keywords":"Traptrix Plant EARTH Link Monster","stats":{"a":"EARTH","l":"Link 1","t":"Plant / Link","atk":800},"rarity":"ScR","img":"73639099","code":"49","tcg":193636,"grp":2459,"idx":49},
+    {"id":"050","section":"main","num":"050","printed":"BLHR-EN050","name":"Hi-Speedroid Rubber Band Shooter","ctype":"monster","keywords":"Hi-Speedroid Machine WIND Link Monster","stats":{"a":"WIND","l":"Link 2","t":"Machine / Link","atk":1000},"rarity":"ScR","img":"72813401","code":"50","tcg":193637,"grp":2459,"idx":50},
+    {"id":"051","section":"main","num":"051","printed":"BLHR-EN051","name":"PSY-Framelord Lambda","ctype":"monster","keywords":"PSY-Frame Psychic LIGHT Link Monster","stats":{"a":"LIGHT","l":"Link 2","t":"Psychic / Link","atk":1700},"rarity":"ScR","img":"8802510","code":"51","tcg":193638,"grp":2459,"idx":51},
+    {"id":"052","section":"main","num":"052","printed":"BLHR-EN052","name":"Magical Musketeer Max","ctype":"monster","keywords":"Magical Musket Fiend LIGHT Link Monster","stats":{"a":"LIGHT","l":"Link 1","t":"Fiend / Link","atk":1000},"rarity":"UR","img":"71791814","code":"52","tcg":193639,"grp":2459,"idx":52},
+    {"id":"053","section":"main","num":"053","printed":"BLHR-EN053","name":"Gimmick Puppet Chimera Doll","ctype":"monster","keywords":"Gimmick Puppet Machine DARK Link Monster","stats":{"a":"DARK","l":"Link 2","t":"Machine / Link","atk":1500},"rarity":"UR","img":"97520532","code":"53","tcg":193640,"grp":2459,"idx":53},
+    {"id":"054","section":"main","num":"054","printed":"BLHR-EN054","name":"Salamangreat Almiraj","ctype":"monster","keywords":"Salamangreat Cyberse FIRE Link Monster","stats":{"a":"FIRE","l":"Link 1","t":"Cyberse / Link","atk":0},"rarity":"ScR","img":"60303245","code":"54","tcg":193641,"grp":2459,"idx":54},
+    {"id":"055","section":"main","num":"055","printed":"BLHR-EN055","name":"Stardust Mirage","ctype":"trap","keywords":"Stardust Normal Trap","stats":{"t":"Normal Trap"},"rarity":"ScR","img":"13556444","code":"55","tcg":193642,"grp":2459,"idx":55},
+    {"id":"056","section":"main","num":"056","printed":"BLHR-EN056","name":"Dark Sacrifice","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"ScR","img":"76045757","code":"56","tcg":193643,"grp":2459,"idx":56},
+    {"id":"057","section":"main","num":"057","printed":"BLHR-EN057","name":"Foolish Burial","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UR","img":"81439174","code":"57","tcg":193644,"grp":2459,"idx":57},
+    {"id":"058","section":"main","num":"058","printed":"BLHR-EN058","name":"Symbol of Friendship","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UR","img":"2295831","code":"58","tcg":193645,"grp":2459,"idx":58},
+    {"id":"059","section":"main","num":"059","printed":"BLHR-EN059","name":"Vision HERO Vyon","ctype":"monster","keywords":"Vision HERO Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Warrior / Effect","atk":1000,"def":1200},"rarity":"ScR","img":"27780618","code":"59","tcg":193646,"grp":2459,"idx":59},
+    {"id":"060","section":"main","num":"060","printed":"BLHR-EN060","name":"Vision HERO Witch Raider","ctype":"monster","keywords":"Vision HERO Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Warrior / Effect","atk":2700,"def":1900},"rarity":"UR","img":"82697428","code":"60","tcg":193647,"grp":2459,"idx":60},
+    {"id":"061","section":"main","num":"061","printed":"BLHR-EN061","name":"Elemental HERO Stratos","ctype":"monster","keywords":"Elemental HERO Warrior WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Warrior / Effect","atk":1800,"def":300},"rarity":"UR","img":"40044918","code":"61","tcg":193648,"grp":2459,"idx":61},
+    {"id":"061-scr","section":"rarities","num":"061","printed":"BLHR-EN061","name":"Elemental HERO Stratos","ctype":"monster","keywords":"Elemental HERO Warrior WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Warrior / Effect","atk":1800,"def":300},"rarity":"ScR","img":"40044918","badge":"ScR","variant":"Secret Rare","code":"SCR61","tcg":193648,"grp":2459,"idx":62},
+    {"id":"062","section":"main","num":"062","printed":"BLHR-EN062","name":"Vision HERO Trinity","ctype":"monster","keywords":"Vision HERO Warrior DARK Fusion Monster","stats":{"a":"DARK","l":"Level 8","t":"Warrior / Fusion","atk":2500,"def":2000},"rarity":"UR","img":"46759931","code":"62","tcg":193649,"grp":2459,"idx":63},
+    {"id":"063","section":"main","num":"063","printed":"BLHR-EN063","name":"Destiny HERO - Dangerous","ctype":"monster","keywords":"Destiny HERO Warrior DARK Fusion Monster","stats":{"a":"DARK","l":"Level 6","t":"Warrior / Fusion","atk":2000,"def":2600},"rarity":"UR","img":"30757127","code":"63","tcg":193650,"grp":2459,"idx":64},
+    {"id":"064","section":"main","num":"064","printed":"BLHR-EN064","name":"Elemental HERO Neos Knight","ctype":"monster","keywords":"Elemental HERO Warrior LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 7","t":"Warrior / Fusion","atk":2500,"def":1000},"rarity":"ScR","img":"72926163","code":"64","tcg":193651,"grp":2459,"idx":65},
+    {"id":"065","section":"main","num":"065","printed":"BLHR-EN065","name":"Elemental HERO Absolute Zero","ctype":"monster","keywords":"Elemental HERO Warrior WATER Fusion Monster","stats":{"a":"WATER","l":"Level 8","t":"Warrior / Fusion","atk":2500,"def":2000},"rarity":"UR","img":"40854197","code":"65","tcg":193652,"grp":2459,"idx":66},
+    {"id":"066","section":"main","num":"066","printed":"BLHR-EN066","name":"Dragonecro Nethersoul Dragon","ctype":"monster","keywords":"Dragon DARK Fusion Monster","stats":{"a":"DARK","l":"Level 8","t":"Dragon / Fusion","atk":3000,"def":0},"rarity":"UR","img":"8198620","code":"66","tcg":193653,"grp":2459,"idx":67},
+    {"id":"067","section":"main","num":"067","printed":"BLHR-EN067","name":"Lunalight Crimson Fox","ctype":"monster","keywords":"Lunalight Beast-Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Beast-Warrior / Effect","atk":1800,"def":600},"rarity":"UR","img":"94919024","code":"67","tcg":193654,"grp":2459,"idx":68},
+    {"id":"068","section":"main","num":"068","printed":"BLHR-EN068","name":"Lunalight Kaleido Chick","ctype":"monster","keywords":"Lunalight Beast-Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Beast-Warrior / Effect","atk":1400,"def":800},"rarity":"UR","img":"35618217","code":"68","tcg":193655,"grp":2459,"idx":69},
+    {"id":"069","section":"main","num":"069","printed":"BLHR-EN069","name":"Predaplast","ctype":"spell","keywords":"Predaplant Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"UR","img":"72129804","code":"69","tcg":193656,"grp":2459,"idx":70},
+    {"id":"070","section":"main","num":"070","printed":"BLHR-EN070","name":"Dinowrestler Pankratops","ctype":"monster","keywords":"Dinowrestler Dinosaur EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 7","t":"Dinosaur / Effect","atk":2600,"def":0},"rarity":"ScR","img":"82385847","code":"70","tcg":193657,"grp":2459,"idx":71},
+    {"id":"071","section":"main","num":"071","printed":"BLHR-EN071","name":"Borrelsword Dragon","ctype":"monster","keywords":"Borrel Dragon DARK Link Monster","stats":{"a":"DARK","l":"Link 4","t":"Dragon / Link","atk":3000},"rarity":"ScR","img":"85289965","code":"71","tcg":193658,"grp":2459,"idx":72},
+    {"id":"072","section":"main","num":"072","printed":"BLHR-EN072","name":"Salamangreat Sanctuary","ctype":"spell","keywords":"Salamangreat Field Spell","stats":{"t":"Field Spell"},"rarity":"UR","img":"1295111","code":"72","tcg":193660,"grp":2459,"idx":73},
+    {"id":"073","section":"main","num":"073","printed":"BLHR-EN073","name":"Will of the Salamangreat","ctype":"spell","keywords":"Salamangreat Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"UR","img":"64178424","code":"73","tcg":193659,"grp":2459,"idx":74},
+    {"id":"074","section":"main","num":"074","printed":"BLHR-EN074","name":"Cyber-Stein","ctype":"monster","keywords":"Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 2","t":"Machine / Effect","atk":700,"def":500},"rarity":"ScR","img":"69015963","code":"74","tcg":193661,"grp":2459,"idx":75},
+    {"id":"075","section":"main","num":"075","printed":"BLHR-EN075","name":"Guardian of Order","ctype":"monster","keywords":"Guardian Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Warrior / Effect","atk":2500,"def":1200},"rarity":"UR","img":"71799173","code":"75","tcg":193662,"grp":2459,"idx":76},
+    {"id":"076","section":"main","num":"076","printed":"BLHR-EN076","name":"White Dragon Wyverburster","ctype":"monster","keywords":"Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Dragon / Effect","atk":1700,"def":1800},"rarity":"UR","img":"99234526","code":"76","tcg":193663,"grp":2459,"idx":77},
+    {"id":"077","section":"main","num":"077","printed":"BLHR-EN077","name":"Black Dragon Collapserpent","ctype":"monster","keywords":"Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Dragon / Effect","atk":1800,"def":1700},"rarity":"UR","img":"61901281","code":"77","tcg":193664,"grp":2459,"idx":78},
+    {"id":"078","section":"main","num":"078","printed":"BLHR-EN078","name":"Artifact Scythe","ctype":"monster","keywords":"Artifact Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 5","t":"Fairy / Effect","atk":2200,"def":900},"rarity":"UR","img":"20292186","code":"78","tcg":193665,"grp":2459,"idx":79},
+    {"id":"079","section":"main","num":"079","printed":"BLHR-EN079","name":"Artifact Lancea","ctype":"monster","keywords":"Artifact Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 5","t":"Fairy / Effect","atk":1700,"def":2300},"rarity":"ScR","img":"34267821","code":"79","tcg":193666,"grp":2459,"idx":80},
+    {"id":"080","section":"main","num":"080","printed":"BLHR-EN080","name":"Shaddoll Falco","ctype":"monster","keywords":"Shaddoll Spellcaster DARK Flip Tuner Effect Monster","stats":{"a":"DARK","l":"Level 2","t":"Spellcaster / Flip / Tuner / Effect","atk":600,"def":1400},"rarity":"UR","img":"37445295","code":"80","tcg":193667,"grp":2459,"idx":81},
+    {"id":"081","section":"main","num":"081","printed":"BLHR-EN081","name":"Shaddoll Hedgehog","ctype":"monster","keywords":"Shaddoll Spellcaster DARK Flip Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Spellcaster / Flip / Effect","atk":800,"def":200},"rarity":"UR","img":"4939890","code":"81","tcg":193668,"grp":2459,"idx":82},
+    {"id":"082","section":"main","num":"082","printed":"BLHR-EN082","name":"Shaddoll Squamata","ctype":"monster","keywords":"Shaddoll Spellcaster DARK Flip Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Flip / Effect","atk":1800,"def":1000},"rarity":"UR","img":"30328508","code":"82","tcg":193669,"grp":2459,"idx":83},
+    {"id":"083","section":"main","num":"083","printed":"BLHR-EN083","name":"Shaddoll Beast","ctype":"monster","keywords":"Shaddoll Spellcaster DARK Flip Effect Monster","stats":{"a":"DARK","l":"Level 5","t":"Spellcaster / Flip / Effect","atk":2200,"def":1700},"rarity":"UR","img":"3717252","code":"83","tcg":193670,"grp":2459,"idx":84},
+    {"id":"084","section":"main","num":"084","printed":"BLHR-EN084","name":"Subterror Guru","ctype":"monster","keywords":"Subterror Dragon EARTH Flip Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Dragon / Flip / Effect","atk":1600,"def":1800},"rarity":"UR","img":"16428514","code":"84","tcg":193671,"grp":2459,"idx":85},
+    {"id":"085","section":"main","num":"085","printed":"BLHR-EN085","name":"Herald of the Arc Light","ctype":"monster","keywords":"Herald Fairy LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fairy / Synchro","atk":600,"def":1000},"rarity":"UR","img":"79606837","code":"85","tcg":193672,"grp":2459,"idx":86},
+    {"id":"086","section":"main","num":"086","printed":"BLHR-EN086","name":"Nekroz Cycle","ctype":"spell","keywords":"Nekroz Ritual Spell","stats":{"t":"Ritual Spell"},"rarity":"ScR","img":"97211663","code":"86","tcg":193673,"grp":2459,"idx":87},
+    {"id":"087","section":"main","num":"087","printed":"BLHR-EN087","name":"Interrupted Kaiju Slumber","ctype":"spell","keywords":"Kaiju Normal Spell","stats":{"t":"Normal Spell"},"rarity":"ScR","img":"99330325","code":"87","tcg":193674,"grp":2459,"idx":88},
+    {"id":"088","section":"main","num":"088","printed":"BLHR-EN088","name":"Summon Limit","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"UR","img":"23516703","code":"88","tcg":193675,"grp":2459,"idx":89},
+    {"id":"089","section":"main","num":"089","printed":"BLHR-EN089","name":"Sky Striker Ace - Raye","ctype":"monster","keywords":"Sky Striker Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Warrior / Effect","atk":1500,"def":1500},"rarity":"ScR","img":"26077387","code":"89","tcg":193676,"grp":2459,"idx":90},
+    {"id":"090","section":"main","num":"090","printed":"BLHR-EN090","name":"Sky Striker Mobilize - Engage!","ctype":"spell","keywords":"Sky Striker Normal Spell","stats":{"t":"Normal Spell"},"rarity":"ScR","img":"63166095","code":"90","tcg":193677,"grp":2459,"idx":91},
+    {"id":"091","section":"main","num":"091","printed":"BLHR-EN091","name":"Sky Striker Maneuver - Afterburners!","ctype":"spell","keywords":"Sky Striker Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UR","img":"99550630","code":"91","tcg":193678,"grp":2459,"idx":92},
+    {"id":"092","section":"main","num":"092","printed":"BLHR-EN092","name":"Sky Striker Mecha - Widow Anchor","ctype":"spell","keywords":"Sky Striker Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"ScR","img":"98338152","code":"92","tcg":193679,"grp":2459,"idx":93},
+    {"id":"093","section":"main","num":"093","printed":"BLHR-EN093","name":"Number 93: Utopia Kaiser","ctype":"monster","keywords":"Utopia Warrior LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 12","t":"Warrior / Xyz","atk":2500,"def":2000},"rarity":"ScR","img":"23187256","code":"93","tcg":193680,"grp":2459,"idx":94}
+  ]
+}

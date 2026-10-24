@@ -1,0 +1,66 @@
+{
+  "id": "yugioh/yu-gi-oh-dark-duel-stories-promotional-cards",
+  "game": "yugioh",
+  "slug": "yu-gi-oh-dark-duel-stories-promotional-cards",
+  "name": "Yu-Gi-Oh! Dark Duel Stories promotional cards",
+  "series": "Promos",
+  "kind": "promo",
+  "code": "DDS",
+  "syncKey": "YDDS",
+  "released": "2002-03-19",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "DDS-001–DDS-006",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. Numbers count down the list in order: <b>1-5</b> is the first five cards and <b>3x2</b> is two copies of the third.",
+    "empty": "Cards run from DDS-001 to DDS-006."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Yu-Gi-Oh! Dark Duel Stories promotional cards Checklist · All 6 Cards",
+    "description": "Free Yu-Gi-Oh! Yu-Gi-Oh! Dark Duel Stories promotional cards checklist with no ads, no sign-up and no tracking. Track all 6 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Yu-Gi-Oh! Dark Duel Stories promotional cards Checklist",
+    "ogDescription": "Track all 6 cards in Yu-Gi-Oh! Yu-Gi-Oh! Dark Duel Stories promotional cards. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 6 cards in Yu-Gi-Oh! Yu-Gi-Oh! Dark Duel Stories promotional cards. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Yu-Gi-Oh! Dark Duel Stories promotional cards",
+    "paragraphs": [
+      "Yu-Gi-Oh! Dark Duel Stories promotional cards is a Yu-Gi-Oh! TCG promo list released on 19 March 2002. It has 6 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Yu-Gi-Oh! Dark Duel Stories promotional cards"
+    ],
+    "tcgplayer": [
+      1921
+    ]
+  },
+  "cards": [
+    {"id":"DDS-001","section":"main","num":"DDS-001","printed":"DDS-001","name":"Blue-Eyes White Dragon","ctype":"monster","keywords":"Blue-Eyes Dragon LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Normal","atk":3000,"def":2500},"note":"Yu-Gi-Oh! Dark Duel Stories promotional cards","rarity":"PScR","img":"89631139","code":"1","tcg":22940,"grp":1921,"idx":0},
+    {"id":"DDS-002","section":"main","num":"DDS-002","printed":"DDS-002","name":"Dark Magician","ctype":"monster","keywords":"Dark Magician Spellcaster DARK Normal Monster","stats":{"a":"DARK","l":"Level 7","t":"Spellcaster / Normal","atk":2500,"def":2100},"note":"Yu-Gi-Oh! Dark Duel Stories promotional cards","rarity":"PScR","img":"46986414","code":"2","tcg":22941,"grp":1921,"idx":1},
+    {"id":"DDS-003","section":"main","num":"DDS-003","printed":"DDS-003","name":"Exodia the Forbidden One","ctype":"monster","keywords":"Exodia Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Spellcaster / Effect","atk":1000,"def":1000},"note":"Yu-Gi-Oh! Dark Duel Stories promotional cards","rarity":"PScR","img":"33396948","code":"3","tcg":22942,"grp":1921,"idx":2},
+    {"id":"DDS-004","section":"main","num":"DDS-004","printed":"DDS-004","name":"Seiyaryu","ctype":"monster","keywords":"Dragon LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 7","t":"Dragon / Normal","atk":2500,"def":2300},"note":"Yu-Gi-Oh! Dark Duel Stories promotional cards","rarity":"PScR","img":"6740720","code":"4","tcg":22943,"grp":1921,"idx":3},
+    {"id":"DDS-005","section":"main","num":"DDS-005","printed":"DDS-005","name":"Acid Trap Hole","ctype":"trap","keywords":"Hole Normal Trap","stats":{"t":"Normal Trap"},"note":"Yu-Gi-Oh! Dark Duel Stories promotional cards","rarity":"PScR","img":"41356845","code":"5","tcg":22944,"grp":1921,"idx":4},
+    {"id":"DDS-006","section":"main","num":"DDS-006","printed":"DDS-006","name":"Salamandra","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"note":"Yu-Gi-Oh! Dark Duel Stories promotional cards","rarity":"PScR","img":"32268901","code":"6","tcg":22945,"grp":1921,"idx":5}
+  ]
+}

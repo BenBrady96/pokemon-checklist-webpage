@@ -1,0 +1,120 @@
+{
+  "id": "yugioh/pendulum-evolution",
+  "game": "yugioh",
+  "slug": "pendulum-evolution",
+  "name": "Pendulum Evolution",
+  "series": "ARC-V",
+  "kind": "expansion",
+  "code": "PEVO",
+  "syncKey": "YPEVO",
+  "released": "2017-06-22",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Main Set",
+      "range": "PEVO-EN001–PEVO-EN060",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from PEVO-EN001 to PEVO-EN060."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Pendulum Evolution Checklist · All 60 Cards",
+    "description": "Free Yu-Gi-Oh! Pendulum Evolution checklist with no ads, no sign-up and no tracking. Track all 60 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Pendulum Evolution Checklist",
+    "ogDescription": "Track all 60 cards in Yu-Gi-Oh! Pendulum Evolution. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 60 cards in Yu-Gi-Oh! Pendulum Evolution. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About the Pendulum Evolution set",
+    "paragraphs": [
+      "Pendulum Evolution is a Yu-Gi-Oh! TCG booster set released on 22 June 2017, in the ARC-V era. It has 60 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Pendulum Evolution"
+    ],
+    "tcgplayer": [
+      1936
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"PEVO-EN001","name":"Astrograph Sorcerer","ctype":"monster","keywords":"Magician Spellcaster DARK Pendulum Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Spellcaster / Pendulum / Effect","atk":2500,"def":2000},"rarity":"UR","img":"76794549","code":"1","tcg":134948,"grp":1936,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"PEVO-EN002","name":"Chronograph Sorcerer","ctype":"monster","keywords":"Magician Spellcaster DARK Pendulum Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Spellcaster / Pendulum / Effect","atk":2000,"def":1700},"rarity":"UR","img":"12289247","code":"2","tcg":134949,"grp":1936,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"PEVO-EN003","name":"Double Iris Magician","ctype":"monster","keywords":"Magician Spellcaster DARK Pendulum Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Pendulum / Effect","atk":1500,"def":1000},"rarity":"UR","img":"49684352","code":"3","tcg":134950,"grp":1936,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"PEVO-EN004","name":"Black Fang Magician","ctype":"monster","keywords":"Magician Spellcaster DARK Pendulum Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Pendulum / Effect","atk":1700,"def":800},"rarity":"UR","img":"75672051","code":"4","tcg":134951,"grp":1936,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"PEVO-EN005","name":"White Wing Magician","ctype":"monster","keywords":"Magician Spellcaster WIND Pendulum Tuner Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Spellcaster / Pendulum / Tuner / Effect","atk":1600,"def":1400},"rarity":"UR","img":"11067666","code":"5","tcg":134952,"grp":1936,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"PEVO-EN006","name":"Purple Poison Magician","ctype":"monster","keywords":"Magician Spellcaster DARK Pendulum Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Pendulum / Effect","atk":1200,"def":2100},"rarity":"UR","img":"48461764","code":"6","tcg":134953,"grp":1936,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"PEVO-EN007","name":"Star Pendulumgraph","ctype":"spell","keywords":"Magician Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"UR","img":"74850403","code":"7","tcg":134954,"grp":1936,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"PEVO-EN008","name":"Time Pendulumgraph","ctype":"trap","keywords":"Magician Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"UR","img":"1344018","code":"8","tcg":134955,"grp":1936,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"PEVO-EN009","name":"Timestar Magician","ctype":"monster","keywords":"Spellcaster DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 4","t":"Spellcaster / Xyz","atk":2400,"def":1200},"rarity":"UR","img":"47349116","code":"9","tcg":134956,"grp":1936,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"PEVO-EN010","name":"Harmonizing Magician","ctype":"monster","keywords":"Magician Spellcaster DARK Pendulum Tuner Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Pendulum / Tuner / Effect","atk":0,"def":0},"rarity":"UR","img":"73941492","code":"10","tcg":134957,"grp":1936,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"PEVO-EN011","name":"Stargazer Magician","ctype":"monster","keywords":"Magician Spellcaster DARK Pendulum Effect Monster","stats":{"a":"DARK","l":"Level 5","t":"Spellcaster / Pendulum / Effect","atk":1200,"def":2400},"rarity":"SR","img":"94415058","code":"11","tcg":134958,"grp":1936,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"PEVO-EN012","name":"Timegazer Magician","ctype":"monster","keywords":"Magician Spellcaster DARK Pendulum Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Spellcaster / Pendulum / Effect","atk":1200,"def":600},"rarity":"SR","img":"20409757","code":"12","tcg":134959,"grp":1936,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"PEVO-EN013","name":"Dragonpulse Magician","ctype":"monster","keywords":"Magician Spellcaster EARTH Pendulum Normal Monster","stats":{"a":"EARTH","l":"Level 4","t":"Spellcaster / Pendulum / Normal","atk":1800,"def":900},"rarity":"SR","img":"15146890","code":"13","tcg":134960,"grp":1936,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"PEVO-EN014","name":"Dragonpit Magician","ctype":"monster","keywords":"Magician Spellcaster WATER Pendulum Normal Monster","stats":{"a":"WATER","l":"Level 7","t":"Spellcaster / Pendulum / Normal","atk":900,"def":2700},"rarity":"SR","img":"51531505","code":"14","tcg":134961,"grp":1936,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"PEVO-EN015","name":"Nobledragon Magician","ctype":"monster","keywords":"Magician Spellcaster FIRE Pendulum Tuner Effect Monster","stats":{"a":"FIRE","l":"Level 3","t":"Spellcaster / Pendulum / Tuner / Effect","atk":700,"def":1400},"rarity":"SR","img":"88935103","code":"15","tcg":134962,"grp":1936,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"PEVO-EN016","name":"Oafdragon Magician","ctype":"monster","keywords":"Magician Spellcaster WIND Pendulum Effect Monster","stats":{"a":"WIND","l":"Level 6","t":"Spellcaster / Pendulum / Effect","atk":2100,"def":1400},"rarity":"SR","img":"14920218","code":"16","tcg":134963,"grp":1936,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"PEVO-EN017","name":"Wisdom-Eye Magician","ctype":"monster","keywords":"Magician Spellcaster LIGHT Pendulum Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Pendulum / Effect","atk":1500,"def":1500},"rarity":"SR","img":"72714461","code":"17","tcg":134964,"grp":1936,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"PEVO-EN018","name":"Dharma-Eye Magician","ctype":"monster","keywords":"Magician Spellcaster LIGHT Pendulum Effect Monster","stats":{"a":"LIGHT","l":"Level 7","t":"Spellcaster / Pendulum / Effect","atk":2000,"def":2500},"rarity":"SR","img":"88757791","code":"18","tcg":134965,"grp":1936,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"PEVO-EN019","name":"Timebreaker Magician","ctype":"monster","keywords":"Magician Spellcaster DARK Pendulum Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Spellcaster / Pendulum / Effect","atk":1400,"def":0},"rarity":"SR","img":"80335817","code":"19","tcg":134966,"grp":1936,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"PEVO-EN020","name":"Tuning Magician","ctype":"monster","keywords":"Spellcaster DARK Tuner Monster","stats":{"a":"DARK","l":"Level 1","t":"Spellcaster / Tuner","atk":0,"def":0},"rarity":"SR","img":"54941203","code":"20","tcg":134967,"grp":1936,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"PEVO-EN021","name":"Doomstar Magician","ctype":"monster","keywords":"Magician Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Effect","atk":1800,"def":300},"rarity":"SR","img":"58369990","code":"21","tcg":134968,"grp":1936,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"PEVO-EN022","name":"Performapal Skullcrobat Joker","ctype":"monster","keywords":"Magician Spellcaster DARK Pendulum Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Pendulum / Effect","atk":1800,"def":100},"rarity":"SR","img":"40318957","code":"22","tcg":134969,"grp":1936,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"PEVO-EN023","name":"Odd-Eyes Pendulum Dragon","ctype":"monster","keywords":"-Eyes Dragon Dragon DARK Pendulum Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Dragon / Pendulum / Effect","atk":2500,"def":2000},"rarity":"SR","img":"16178681","code":"23","tcg":134970,"grp":1936,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"PEVO-EN024","name":"Foucault's Cannon","ctype":"monster","keywords":"Spellcaster DARK Pendulum Normal Monster","stats":{"a":"DARK","l":"Level 5","t":"Spellcaster / Pendulum / Normal","atk":2200,"def":1200},"rarity":"SR","img":"43785278","code":"24","tcg":134971,"grp":1936,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"PEVO-EN025","name":"Hypnosister","ctype":"monster","keywords":"Psychic WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Psychic / Effect","atk":1300,"def":1400},"rarity":"SR","img":"22200403","code":"25","tcg":134972,"grp":1936,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"PEVO-EN026","name":"Archfiend Eccentrick","ctype":"monster","keywords":"Archfiend Fiend LIGHT Pendulum Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Fiend / Pendulum / Effect","atk":800,"def":1000},"rarity":"SR","img":"57624336","code":"26","tcg":134973,"grp":1936,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"PEVO-EN027","name":"Guiding Ariadne","ctype":"monster","keywords":"Counter Fairy Fairy LIGHT Pendulum Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fairy / Pendulum / Effect","atk":1700,"def":800},"rarity":"SR","img":"98301564","code":"27","tcg":134974,"grp":1936,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"PEVO-EN028","name":"Rescue Hamster","ctype":"monster","keywords":"Rescue Squad Beast EARTH Pendulum Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Beast / Pendulum / Effect","atk":300,"def":100},"rarity":"SR","img":"50485594","code":"28","tcg":134975,"grp":1936,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"PEVO-EN029","name":"Magical Abductor","ctype":"monster","keywords":"Spellcaster EARTH Pendulum Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Spellcaster / Pendulum / Effect","atk":1700,"def":1400},"rarity":"SR","img":"10239627","code":"29","tcg":134976,"grp":1936,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"PEVO-EN030","name":"Odd-Eyes Vortex Dragon","ctype":"monster","keywords":"Odd-Eyes Dragon WIND Fusion Monster","stats":{"a":"WIND","l":"Level 7","t":"Dragon / Fusion","atk":2500,"def":3000},"rarity":"SR","img":"53262004","code":"30","tcg":134977,"grp":1936,"idx":29},
+    {"id":"031","section":"main","num":"031","printed":"PEVO-EN031","name":"Enlightenment Paladin","ctype":"monster","keywords":"Spellcaster DARK Synchro Monster","stats":{"a":"DARK","l":"Level 8","t":"Spellcaster / Synchro","atk":2500,"def":2000},"rarity":"SR","img":"59123194","code":"31","tcg":134978,"grp":1936,"idx":30},
+    {"id":"032","section":"main","num":"032","printed":"PEVO-EN032","name":"Odd-Eyes Meteorburst Dragon","ctype":"monster","keywords":"Odd-Eyes Dragon FIRE Synchro Monster","stats":{"a":"FIRE","l":"Level 7","t":"Dragon / Synchro","atk":2500,"def":2000},"rarity":"SR","img":"80696379","code":"32","tcg":134979,"grp":1936,"idx":31},
+    {"id":"033","section":"main","num":"033","printed":"PEVO-EN033","name":"Odd-Eyes Absolute Dragon","ctype":"monster","keywords":"Odd-Eyes Dragon WATER Xyz Monster","stats":{"a":"WATER","l":"Rank 7","t":"Dragon / Xyz","atk":2800,"def":2500},"rarity":"SR","img":"16691074","code":"33","tcg":134980,"grp":1936,"idx":32},
+    {"id":"034","section":"main","num":"034","printed":"PEVO-EN034","name":"Amazing Pendulum","ctype":"spell","keywords":"Magician Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"37803970","code":"34","tcg":134981,"grp":1936,"idx":33},
+    {"id":"035","section":"main","num":"035","printed":"PEVO-EN035","name":"Pendulum Storm","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"83461421","code":"35","tcg":134982,"grp":1936,"idx":34},
+    {"id":"036","section":"main","num":"036","printed":"PEVO-EN036","name":"Pendulum Call","ctype":"spell","keywords":"Magician Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"53208660","code":"36","tcg":134983,"grp":1936,"idx":35},
+    {"id":"037","section":"main","num":"037","printed":"PEVO-EN037","name":"Pendulum Shift","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"SR","img":"69982329","code":"37","tcg":134984,"grp":1936,"idx":36},
+    {"id":"038","section":"main","num":"038","printed":"PEVO-EN038","name":"Odd-Eyes Fusion","ctype":"spell","keywords":"Odd-Eyes Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"48144509","code":"38","tcg":134985,"grp":1936,"idx":37},
+    {"id":"039","section":"main","num":"039","printed":"PEVO-EN039","name":"Dragon's Mirror","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"71490127","code":"39","tcg":134986,"grp":1936,"idx":38},
+    {"id":"040","section":"main","num":"040","printed":"PEVO-EN040","name":"Summoner's Art","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"79816536","code":"40","tcg":134987,"grp":1936,"idx":39},
+    {"id":"041","section":"main","num":"041","printed":"PEVO-EN041","name":"Pendulum Reborn","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"77826734","code":"41","tcg":134988,"grp":1936,"idx":40},
+    {"id":"042","section":"main","num":"042","printed":"PEVO-EN042","name":"Echo Oscillation","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"SR","img":"15582767","code":"42","tcg":134989,"grp":1936,"idx":41},
+    {"id":"043","section":"main","num":"043","printed":"PEVO-EN043","name":"Unwavering Bond","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"SR","img":"72648810","code":"43","tcg":134990,"grp":1936,"idx":42},
+    {"id":"044","section":"main","num":"044","printed":"PEVO-EN044","name":"Satellarknight Zefrathuban","ctype":"monster","keywords":"tellarknight Warrior LIGHT Pendulum Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Pendulum / Effect","atk":0,"def":2100},"rarity":"SR","img":"96223501","code":"44","tcg":134991,"grp":1936,"idx":43},
+    {"id":"045","section":"main","num":"045","printed":"PEVO-EN045","name":"Stellarknight Zefraxciton","ctype":"monster","keywords":"Stellarknight Fiend LIGHT Pendulum Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fiend / Pendulum / Effect","atk":1900,"def":0},"rarity":"SR","img":"22617205","code":"45","tcg":134992,"grp":1936,"idx":44},
+    {"id":"046","section":"main","num":"046","printed":"PEVO-EN046","name":"Zefraxi, Treasure of the Yang Zing","ctype":"monster","keywords":"Yang Zing Wyrm EARTH Pendulum Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Wyrm / Pendulum / Effect","atk":1500,"def":0},"rarity":"SR","img":"21495657","code":"46","tcg":134993,"grp":1936,"idx":45},
+    {"id":"047","section":"main","num":"047","printed":"PEVO-EN047","name":"Zefraniu, Secret of the Yang Zing","ctype":"monster","keywords":"Yang Zing Wyrm EARTH Pendulum Effect Monster","stats":{"a":"EARTH","l":"Level 6","t":"Wyrm / Pendulum / Effect","atk":0,"def":2600},"rarity":"SR","img":"58990362","code":"47","tcg":134994,"grp":1936,"idx":46},
+    {"id":"048","section":"main","num":"048","printed":"PEVO-EN048","name":"Ritual Beast Tamer Zeframpilica","ctype":"monster","keywords":"Ritual Beast Psychic WIND Pendulum Effect Monster","stats":{"a":"WIND","l":"Level 3","t":"Psychic / Pendulum / Effect","atk":1000,"def":1500},"rarity":"SR","img":"57777714","code":"48","tcg":134995,"grp":1936,"idx":47},
+    {"id":"049","section":"main","num":"049","printed":"PEVO-EN049","name":"Ritual Beast Tamer Zefrawendi","ctype":"monster","keywords":"Ritual Beast Psychic WIND Pendulum Effect Monster","stats":{"a":"WIND","l":"Level 3","t":"Psychic / Pendulum / Effect","atk":1500,"def":1000},"rarity":"SR","img":"23166823","code":"49","tcg":134996,"grp":1936,"idx":48},
+    {"id":"050","section":"main","num":"050","printed":"PEVO-EN050","name":"Oracle of Zefra","ctype":"spell","keywords":"Zefra Field Spell","stats":{"t":"Field Spell"},"rarity":"SR","img":"32354768","code":"50","tcg":134997,"grp":1936,"idx":49},
+    {"id":"051","section":"main","num":"051","printed":"PEVO-EN051","name":"Zefra Divine Strike","ctype":"trap","keywords":"Zefra Counter Trap","stats":{"t":"Counter Trap"},"rarity":"SR","img":"35561352","code":"51","tcg":134998,"grp":1936,"idx":50},
+    {"id":"052","section":"main","num":"052","printed":"PEVO-EN052","name":"Raremetalfoes Bismugear","ctype":"monster","keywords":"Metalfoes Psychic FIRE Pendulum Effect Monster","stats":{"a":"FIRE","l":"Level 1","t":"Psychic / Pendulum / Effect","atk":0,"def":0},"rarity":"SR","img":"18716735","code":"52","tcg":135063,"grp":1936,"idx":51},
+    {"id":"053","section":"main","num":"053","printed":"PEVO-EN053","name":"Metalfoes Crimsonite","ctype":"monster","keywords":"Metalfoes Psychic FIRE Fusion Monster","stats":{"a":"FIRE","l":"Level 9","t":"Psychic / Fusion","atk":3000,"def":3000},"rarity":"SR","img":"54401832","code":"53","tcg":134999,"grp":1936,"idx":52},
+    {"id":"054","section":"main","num":"054","printed":"PEVO-EN054","name":"Metalfoes Orichalc","ctype":"monster","keywords":"Metalfoes Psychic FIRE Fusion Monster","stats":{"a":"FIRE","l":"Level 8","t":"Psychic / Fusion","atk":2800,"def":2200},"rarity":"SR","img":"28016193","code":"54","tcg":135000,"grp":1936,"idx":53},
+    {"id":"055","section":"main","num":"055","printed":"PEVO-EN055","name":"Metalfoes Adamante","ctype":"monster","keywords":"Metalfoes Psychic FIRE Fusion Monster","stats":{"a":"FIRE","l":"Level 5","t":"Psychic / Fusion","atk":2500,"def":2500},"rarity":"SR","img":"81612598","code":"55","tcg":135001,"grp":1936,"idx":54},
+    {"id":"056","section":"main","num":"056","printed":"PEVO-EN056","name":"Metalfoes Counter","ctype":"trap","keywords":"Metalfoes Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"33327029","code":"56","tcg":135002,"grp":1936,"idx":55},
+    {"id":"057","section":"main","num":"057","printed":"PEVO-EN057","name":"Qliphort Scout","ctype":"monster","keywords":"Qli Machine EARTH Pendulum Normal Monster","stats":{"a":"EARTH","l":"Level 5","t":"Machine / Pendulum / Normal","atk":1000,"def":2800},"rarity":"SR","img":"65518099","code":"57","tcg":135003,"grp":1936,"idx":56},
+    {"id":"058","section":"main","num":"058","printed":"PEVO-EN058","name":"Qliphort Monolith","ctype":"monster","keywords":"Qli Machine EARTH Pendulum Normal Monster","stats":{"a":"EARTH","l":"Level 5","t":"Machine / Pendulum / Normal","atk":2400,"def":1000},"rarity":"SR","img":"51194046","code":"58","tcg":135004,"grp":1936,"idx":57},
+    {"id":"059","section":"main","num":"059","printed":"PEVO-EN059","name":"Master Pendulum, the Dracoslayer","ctype":"monster","keywords":"Dracoslayer Dragon LIGHT Pendulum Normal Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Dragon / Pendulum / Normal","atk":1950,"def":0},"rarity":"SR","img":"75195825","code":"59","tcg":135005,"grp":1936,"idx":58},
+    {"id":"060","section":"main","num":"060","printed":"PEVO-EN060","name":"Lector Pendulum, the Dracoverlord","ctype":"monster","keywords":"Dracoverlord Dragon DARK Pendulum Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Dragon / Pendulum / Effect","atk":1950,"def":0},"rarity":"SR","img":"7127502","code":"60","tcg":135006,"grp":1936,"idx":59}
+  ]
+}

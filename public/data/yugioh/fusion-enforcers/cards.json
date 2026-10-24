@@ -1,0 +1,120 @@
+{
+  "id": "yugioh/fusion-enforcers",
+  "game": "yugioh",
+  "slug": "fusion-enforcers",
+  "name": "Fusion Enforcers",
+  "series": "ARC-V",
+  "kind": "set",
+  "code": "FUEN",
+  "syncKey": "YFUEN",
+  "released": "2017-02-23",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Main Set",
+      "range": "FUEN-EN001–FUEN-EN060",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from FUEN-EN001 to FUEN-EN060."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Fusion Enforcers Checklist · All 60 Cards",
+    "description": "Free Yu-Gi-Oh! Fusion Enforcers checklist with no ads, no sign-up and no tracking. Track all 60 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Fusion Enforcers Checklist",
+    "ogDescription": "Track all 60 cards in Yu-Gi-Oh! Fusion Enforcers. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 60 cards in Yu-Gi-Oh! Fusion Enforcers. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About the Fusion Enforcers set",
+    "paragraphs": [
+      "Fusion Enforcers is a Yu-Gi-Oh! TCG special set released on 23 February 2017, in the ARC-V era. It has 60 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Fusion Enforcers"
+    ],
+    "tcgplayer": [
+      1890
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"FUEN-EN001","name":"Predaplant Sarraceniant","ctype":"monster","keywords":"Predaplant Plant DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Plant / Effect","atk":100,"def":600},"rarity":"SR","img":"53819028","code":"1","tcg":127792,"grp":1890,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"FUEN-EN002","name":"Predaplant Drosophyllum Hydra","ctype":"monster","keywords":"Predaplant Plant DARK Effect Monster","stats":{"a":"DARK","l":"Level 5","t":"Plant / Effect","atk":800,"def":2300},"rarity":"ScR","img":"99913726","code":"2","tcg":127793,"grp":1890,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"FUEN-EN003","name":"Predaplant Pterapenthes","ctype":"monster","keywords":"Predaplant Plant DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Plant / Effect","atk":300,"def":2100},"rarity":"SR","img":"26308721","code":"3","tcg":127794,"grp":1890,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"FUEN-EN004","name":"Predaplant Spinodionaea","ctype":"monster","keywords":"Predaplant Plant DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Plant / Effect","atk":1800,"def":0},"rarity":"ScR","img":"52792430","code":"4","tcg":127795,"grp":1890,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"FUEN-EN005","name":"Predaplant Chlamydosundew","ctype":"monster","keywords":"Predaplant Plant DARK Effect Monster","stats":{"a":"DARK","l":"Level 2","t":"Plant / Effect","atk":600,"def":200},"rarity":"ScR","img":"89181134","code":"5","tcg":127796,"grp":1890,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"FUEN-EN006","name":"Predaplant Flytrap","ctype":"monster","keywords":"Predaplant Plant DARK Effect Monster","stats":{"a":"DARK","l":"Level 2","t":"Plant / Effect","atk":400,"def":800},"rarity":"SR","img":"96622984","code":"6","tcg":127797,"grp":1890,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"FUEN-EN007","name":"Predaplant Moray Nepenthes","ctype":"monster","keywords":"Predaplant Plant DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Plant / Effect","atk":1600,"def":1000},"rarity":"SR","img":"22011689","code":"7","tcg":127798,"grp":1890,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"FUEN-EN008","name":"Predaplant Squid Drosera","ctype":"monster","keywords":"Predaplant Plant DARK Effect Monster","stats":{"a":"DARK","l":"Level 2","t":"Plant / Effect","atk":800,"def":400},"rarity":"SR","img":"69105797","code":"8","tcg":127799,"grp":1890,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"FUEN-EN009","name":"Predaplant Chimerafflesia","ctype":"monster","keywords":"Predaplant Plant DARK Fusion Monster","stats":{"a":"DARK","l":"Level 7","t":"Plant / Fusion","atk":2500,"def":2000},"rarity":"ScR","img":"25586143","code":"9","tcg":127800,"grp":1890,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"FUEN-EN010","name":"Greedy Venom Fusion Dragon","ctype":"monster","keywords":"Predaplant Dragon DARK Fusion Monster","stats":{"a":"DARK","l":"Level 10","t":"Dragon / Fusion","atk":3300,"def":2500},"rarity":"ScR","img":"51570882","code":"10","tcg":127801,"grp":1890,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"FUEN-EN011","name":"Predaponics","ctype":"spell","keywords":"Predaplant Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"ScR","img":"88069597","code":"11","tcg":127802,"grp":1890,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"FUEN-EN012","name":"Predapruning","ctype":"spell","keywords":"Predaplant Equip Spell","stats":{"t":"Equip Spell"},"rarity":"SR","img":"14463695","code":"12","tcg":127803,"grp":1890,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"FUEN-EN013","name":"Predaplanet","ctype":"trap","keywords":"Predaplant Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"SR","img":"51858200","code":"13","tcg":127804,"grp":1890,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"FUEN-EN014","name":"Fluffal Octopus","ctype":"monster","keywords":"Fluffal Fairy WATER Effect Monster","stats":{"a":"WATER","l":"Level 1","t":"Fairy / Effect","atk":800,"def":800},"rarity":"ScR","img":"87246309","code":"14","tcg":127805,"grp":1890,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"FUEN-EN015","name":"Fluffal Penguin","ctype":"monster","keywords":"Fluffal Fairy WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Fairy / Effect","atk":1600,"def":1100},"rarity":"SR","img":"13241004","code":"15","tcg":127806,"grp":1890,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"FUEN-EN016","name":"Fluffal Dog","ctype":"monster","keywords":"Fluffal Fairy EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Fairy / Effect","atk":1700,"def":1000},"rarity":"SR","img":"39246582","code":"16","tcg":127807,"grp":1890,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"FUEN-EN017","name":"Fluffal Owl","ctype":"monster","keywords":"Fluffal Fairy EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 2","t":"Fairy / Effect","atk":1000,"def":1000},"rarity":"SR","img":"65331686","code":"17","tcg":127808,"grp":1890,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"FUEN-EN018","name":"Edge Imp Sabres","ctype":"monster","keywords":"Edge Imp Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Fiend / Effect","atk":1200,"def":800},"rarity":"SR","img":"30068120","code":"18","tcg":127809,"grp":1890,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"FUEN-EN019","name":"Edge Imp Chain","ctype":"monster","keywords":"Edge Imp Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Effect","atk":1200,"def":1800},"rarity":"SR","img":"61173621","code":"19","tcg":127810,"grp":1890,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"FUEN-EN020","name":"Frightfur Kraken","ctype":"monster","keywords":"Edge Imp Fiend WATER Fusion Monster","stats":{"a":"WATER","l":"Level 8","t":"Fiend / Fusion","atk":2200,"def":3000},"rarity":"ScR","img":"40636712","code":"20","tcg":127811,"grp":1890,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"FUEN-EN021","name":"Frightfur Wolf","ctype":"monster","keywords":"Edge Imp Fiend DARK Fusion Monster","stats":{"a":"DARK","l":"Level 6","t":"Fiend / Fusion","atk":2000,"def":1500},"rarity":"SR","img":"11039171","code":"21","tcg":127812,"grp":1890,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"FUEN-EN022","name":"Frightfur Tiger","ctype":"monster","keywords":"Edge Imp Fiend DARK Fusion Monster","stats":{"a":"DARK","l":"Level 6","t":"Fiend / Fusion","atk":1900,"def":1200},"rarity":"ScR","img":"464362","code":"22","tcg":127813,"grp":1890,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"FUEN-EN023","name":"Frightfur Sheep","ctype":"monster","keywords":"Edge Imp Fiend DARK Fusion Monster","stats":{"a":"DARK","l":"Level 5","t":"Fiend / Fusion","atk":2000,"def":2000},"rarity":"SR","img":"57477163","code":"23","tcg":127814,"grp":1890,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"FUEN-EN024","name":"Toy Vendor","ctype":"spell","keywords":"Edge Imp Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"SR","img":"70245411","code":"24","tcg":127815,"grp":1890,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"FUEN-EN025","name":"Frightfur Fusion","ctype":"spell","keywords":"Frightfur Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"6077601","code":"25","tcg":127816,"grp":1890,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"FUEN-EN026","name":"Aleister the Invoker","ctype":"monster","keywords":"Invoked Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Effect","atk":1000,"def":1800},"rarity":"SR","img":"86120751","code":"26","tcg":127817,"grp":1890,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"FUEN-EN027","name":"Invoked Caliga","ctype":"monster","keywords":"Invoked Beast DARK Fusion Monster","stats":{"a":"DARK","l":"Level 4","t":"Beast / Fusion","atk":1000,"def":1800},"rarity":"ScR","img":"13529466","code":"27","tcg":127818,"grp":1890,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"FUEN-EN028","name":"Invoked Raidjin","ctype":"monster","keywords":"Invoked Warrior WIND Fusion Monster","stats":{"a":"WIND","l":"Level 5","t":"Warrior / Fusion","atk":2200,"def":2400},"rarity":"ScR","img":"49513164","code":"28","tcg":127819,"grp":1890,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"FUEN-EN029","name":"Invoked Cocytus","ctype":"monster","keywords":"Invoked Dragon WATER Fusion Monster","stats":{"a":"WATER","l":"Level 6","t":"Dragon / Fusion","atk":1800,"def":2900},"rarity":"ScR","img":"85908279","code":"29","tcg":127820,"grp":1890,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"FUEN-EN030","name":"Invoked Purgatrio","ctype":"monster","keywords":"Invoked Fiend FIRE Fusion Monster","stats":{"a":"FIRE","l":"Level 7","t":"Fiend / Fusion","atk":2300,"def":2000},"rarity":"ScR","img":"12307878","code":"30","tcg":127821,"grp":1890,"idx":29},
+    {"id":"031","section":"main","num":"031","printed":"FUEN-EN031","name":"Invoked Magellanica","ctype":"monster","keywords":"Invoked Rock EARTH Fusion Monster","stats":{"a":"EARTH","l":"Level 8","t":"Rock / Fusion","atk":3000,"def":3300},"rarity":"ScR","img":"48791583","code":"31","tcg":127822,"grp":1890,"idx":30},
+    {"id":"032","section":"main","num":"032","printed":"FUEN-EN032","name":"Invoked Mechaba","ctype":"monster","keywords":"Invoked Machine LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 9","t":"Machine / Fusion","atk":2500,"def":2100},"rarity":"ScR","img":"75286621","code":"32","tcg":127823,"grp":1890,"idx":31},
+    {"id":"033","section":"main","num":"033","printed":"FUEN-EN033","name":"Invoked Elysium","ctype":"monster","keywords":"Invoked Fairy LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 10","t":"Fairy / Fusion","atk":3200,"def":4000},"rarity":"ScR","img":"11270236","code":"33","tcg":127824,"grp":1890,"idx":32},
+    {"id":"034","section":"main","num":"034","printed":"FUEN-EN034","name":"Magical Meltdown","ctype":"spell","keywords":"Invoked Field Spell","stats":{"t":"Field Spell"},"rarity":"ScR","img":"47679935","code":"34","tcg":127825,"grp":1890,"idx":33},
+    {"id":"035","section":"main","num":"035","printed":"FUEN-EN035","name":"Invocation","ctype":"spell","keywords":"Invoked Normal Spell","stats":{"t":"Normal Spell"},"rarity":"ScR","img":"74063034","code":"35","tcg":127826,"grp":1890,"idx":34},
+    {"id":"036","section":"main","num":"036","printed":"FUEN-EN036","name":"The Book of the Law","ctype":"spell","keywords":"Invoked Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"ScR","img":"458748","code":"36","tcg":127827,"grp":1890,"idx":35},
+    {"id":"037","section":"main","num":"037","printed":"FUEN-EN037","name":"Omega Summon","ctype":"trap","keywords":"Invoked Normal Trap","stats":{"t":"Normal Trap"},"rarity":"ScR","img":"47457347","code":"37","tcg":127828,"grp":1890,"idx":36},
+    {"id":"038","section":"main","num":"038","printed":"FUEN-EN038","name":"Summoner of Illusions","ctype":"monster","keywords":"Spellcaster LIGHT Flip Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Spellcaster / Flip / Effect","atk":800,"def":900},"rarity":"SR","img":"14644902","code":"38","tcg":127829,"grp":1890,"idx":37},
+    {"id":"039","section":"main","num":"039","printed":"FUEN-EN039","name":"Summoner Monk","ctype":"monster","keywords":"Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Effect","atk":800,"def":1600},"rarity":"SR","img":"423585","code":"39","tcg":127830,"grp":1890,"idx":38},
+    {"id":"040","section":"main","num":"040","printed":"FUEN-EN040","name":"King of the Swamp","ctype":"monster","keywords":"Aqua WATER Effect Monster","stats":{"a":"WATER","l":"Level 3","t":"Aqua / Effect","atk":500,"def":1100},"rarity":"SR","img":"79109599","code":"40","tcg":127831,"grp":1890,"idx":39},
+    {"id":"041","section":"main","num":"041","printed":"FUEN-EN041","name":"Fusion Substitute","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"74335036","code":"41","tcg":127832,"grp":1890,"idx":40},
+    {"id":"042","section":"main","num":"042","printed":"FUEN-EN042","name":"Instant Fusion","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"1845204","code":"42","tcg":127833,"grp":1890,"idx":41},
+    {"id":"043","section":"main","num":"043","printed":"FUEN-EN043","name":"Fusion Recovery","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"18511384","code":"43","tcg":127834,"grp":1890,"idx":42},
+    {"id":"044","section":"main","num":"044","printed":"FUEN-EN044","name":"Phoenix Wing Wind Blast","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"63356631","code":"44","tcg":127835,"grp":1890,"idx":43},
+    {"id":"045","section":"main","num":"045","printed":"FUEN-EN045","name":"Homunculus the Alchemic Being","ctype":"monster","keywords":"Plant LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Plant / Effect","atk":1800,"def":1600},"rarity":"SR","img":"40410110","code":"45","tcg":127836,"grp":1890,"idx":44},
+    {"id":"046","section":"main","num":"046","printed":"FUEN-EN046","name":"Lonefire Blossom","ctype":"monster","keywords":"Plant FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 3","t":"Plant / Effect","atk":500,"def":1400},"rarity":"SR","img":"48686504","code":"46","tcg":127837,"grp":1890,"idx":45},
+    {"id":"047","section":"main","num":"047","printed":"FUEN-EN047","name":"Elemental HERO Prisma","ctype":"monster","keywords":"Elemental HERO Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Effect","atk":1700,"def":1100},"rarity":"SR","img":"89312388","code":"47","tcg":127838,"grp":1890,"idx":46},
+    {"id":"048","section":"main","num":"048","printed":"FUEN-EN048","name":"Performapal Trump Witch","ctype":"monster","keywords":"Performapal Spellcaster DARK Pendulum Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Spellcaster / Pendulum / Effect","atk":100,"def":100},"rarity":"SR","img":"91584698","code":"48","tcg":127839,"grp":1890,"idx":47},
+    {"id":"049","section":"main","num":"049","printed":"FUEN-EN049","name":"Polymerization","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"27847700","code":"49","tcg":127840,"grp":1890,"idx":48},
+    {"id":"050","section":"main","num":"050","printed":"FUEN-EN050","name":"Fusion Gate","ctype":"spell","keywords":"Field Spell","stats":{"t":"Field Spell"},"rarity":"SR","img":"33550694","code":"50","tcg":127841,"grp":1890,"idx":49},
+    {"id":"051","section":"main","num":"051","printed":"FUEN-EN051","name":"Re-Fusion","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"SR","img":"74694807","code":"51","tcg":127842,"grp":1890,"idx":50},
+    {"id":"052","section":"main","num":"052","printed":"FUEN-EN052","name":"Branch!","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"SR","img":"30548775","code":"52","tcg":127843,"grp":1890,"idx":51},
+    {"id":"053","section":"main","num":"053","printed":"FUEN-EN053","name":"Miracle Fertilizer","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"SR","img":"44887817","code":"53","tcg":127844,"grp":1890,"idx":52},
+    {"id":"054","section":"main","num":"054","printed":"FUEN-EN054","name":"Mark of the Rose","ctype":"spell","keywords":"Rose Dragon Equip Spell","stats":{"t":"Equip Spell"},"rarity":"SR","img":"45247637","code":"54","tcg":127845,"grp":1890,"idx":53},
+    {"id":"055","section":"main","num":"055","printed":"FUEN-EN055","name":"Super Solar Nutrient","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"SR","img":"28529976","code":"55","tcg":127846,"grp":1890,"idx":54},
+    {"id":"056","section":"main","num":"056","printed":"FUEN-EN056","name":"Battle Fusion","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"SR","img":"43225434","code":"56","tcg":127847,"grp":1890,"idx":55},
+    {"id":"057","section":"main","num":"057","printed":"FUEN-EN057","name":"Fusion Conscription","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"17194258","code":"57","tcg":127848,"grp":1890,"idx":56},
+    {"id":"058","section":"main","num":"058","printed":"FUEN-EN058","name":"Paradox Fusion","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"SR","img":"57355219","code":"58","tcg":127849,"grp":1890,"idx":57},
+    {"id":"059","section":"main","num":"059","printed":"FUEN-EN059","name":"Grisaille Prison","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"22888900","code":"59","tcg":127850,"grp":1890,"idx":58},
+    {"id":"060","section":"main","num":"060","printed":"FUEN-EN060","name":"Fusion Reserve","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"66127916","code":"60","tcg":127851,"grp":1890,"idx":59}
+  ]
+}

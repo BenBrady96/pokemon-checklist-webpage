@@ -1,0 +1,80 @@
+{
+  "id": "yugioh/tournament-pack-8",
+  "game": "yugioh",
+  "slug": "tournament-pack-8",
+  "name": "Tournament Pack 8",
+  "series": "GX",
+  "kind": "pack",
+  "code": "TP8",
+  "syncKey": "YTP8",
+  "released": "2006-04-28",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "TP8-EN001–TP8-EN020",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from TP8-EN001 to TP8-EN020."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Tournament Pack 8 Checklist · All 20 Cards",
+    "description": "Free Yu-Gi-Oh! Tournament Pack 8 checklist with no ads, no sign-up and no tracking. Track all 20 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Tournament Pack 8 Checklist",
+    "ogDescription": "Track all 20 cards in Yu-Gi-Oh! Tournament Pack 8. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 20 cards in Yu-Gi-Oh! Tournament Pack 8. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Tournament Pack 8",
+    "paragraphs": [
+      "Tournament Pack 8 is a Yu-Gi-Oh! TCG pack released on 28 April 2006, in the GX era. It has 20 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Tournament Pack 8"
+    ],
+    "tcgplayer": [
+      340
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"TP8-EN001","name":"Magical Arm Shield","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"UR","img":"96008713","code":"1","tcg":25332,"grp":340,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"TP8-EN002","name":"Harpie's Feather Duster","ctype":"spell","keywords":"Harpie Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"18144506","code":"2","tcg":25333,"grp":340,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"TP8-EN003","name":"Slate Warrior","ctype":"monster","keywords":"Fiend WIND Flip Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Fiend / Flip / Effect","atk":1900,"def":400},"rarity":"SR","img":"78636495","code":"3","tcg":25334,"grp":340,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"TP8-EN004","name":"Dunames Dark Witch","ctype":"monster","keywords":"Fairy LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fairy / Normal","atk":1800,"def":1050},"rarity":"SR","img":"12493482","code":"4","tcg":25335,"grp":340,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"TP8-EN005","name":"Garma Sword","ctype":"monster","keywords":"Warrior DARK Ritual Monster","stats":{"a":"DARK","l":"Level 7","t":"Warrior / Ritual","atk":2550,"def":2150},"rarity":"SR","img":"90844184","code":"5","tcg":25336,"grp":340,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"TP8-EN006","name":"Zaborg the Thunder Monarch","ctype":"monster","keywords":"Monarch Thunder LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 5","t":"Thunder / Effect","atk":2400,"def":1000},"rarity":"R","img":"51945556","code":"6","tcg":25337,"grp":340,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"TP8-EN007","name":"Granmarg the Rock Monarch","ctype":"monster","keywords":"Monarch Rock EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 6","t":"Rock / Effect","atk":2400,"def":1000},"rarity":"R","img":"60229110","code":"7","tcg":25338,"grp":340,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"TP8-EN008","name":"Mobius the Frost Monarch","ctype":"monster","keywords":"Monarch Aqua WATER Effect Monster","stats":{"a":"WATER","l":"Level 6","t":"Aqua / Effect","atk":2400,"def":1000},"rarity":"R","img":"4929256","code":"8","tcg":25339,"grp":340,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"TP8-EN009","name":"Thestalos the Firestorm Monarch","ctype":"monster","keywords":"Monarch Pyro FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 6","t":"Pyro / Effect","atk":2400,"def":1000},"rarity":"R","img":"26205777","code":"9","tcg":25340,"grp":340,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"TP8-EN010","name":"Garma Sword Oath","ctype":"spell","keywords":"Ritual Spell","stats":{"t":"Ritual Spell"},"rarity":"C","img":"78577570","code":"10","tcg":25341,"grp":340,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"TP8-EN011","name":"Berserk Gorilla","ctype":"monster","keywords":"Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Beast / Effect","atk":2000,"def":1000},"rarity":"C","img":"39168895","code":"11","tcg":25342,"grp":340,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"TP8-EN012","name":"Ultimate Offering","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"80604092","code":"12","tcg":25343,"grp":340,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"TP8-EN013","name":"Gatekeeper","ctype":"monster","keywords":"Machine DARK Normal Monster","stats":{"a":"DARK","l":"Level 5","t":"Machine / Normal","atk":1500,"def":1800},"rarity":"C","img":"19737320","code":"13","tcg":25344,"grp":340,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"TP8-EN014","name":"Behegon","ctype":"monster","keywords":"Aqua WATER Normal Monster","stats":{"a":"WATER","l":"Level 4","t":"Aqua / Normal","atk":1350,"def":1000},"rarity":"C","img":"94022093","code":"14","tcg":25345,"grp":340,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"TP8-EN015","name":"Violent Rain","ctype":"monster","keywords":"Aqua WATER Normal Monster","stats":{"a":"WATER","l":"Level 4","t":"Aqua / Normal","atk":1550,"def":800},"rarity":"C","img":"94042337","code":"15","tcg":25346,"grp":340,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"TP8-EN016","name":"Temple of Skulls","ctype":"monster","keywords":"Zombie DARK Normal Monster","stats":{"a":"DARK","l":"Level 4","t":"Zombie / Normal","atk":900,"def":1300},"rarity":"C","img":"732302","code":"16","tcg":25347,"grp":340,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"TP8-EN017","name":"Blocker","ctype":"monster","keywords":"Machine DARK Normal Monster","stats":{"a":"DARK","l":"Level 4","t":"Machine / Normal","atk":850,"def":1800},"rarity":"C","img":"34743446","code":"17","tcg":25348,"grp":340,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"TP8-EN018","name":"Wretched Ghost of the Attic","ctype":"monster","keywords":"Fiend DARK Normal Monster","stats":{"a":"DARK","l":"Level 2","t":"Fiend / Normal","atk":550,"def":400},"rarity":"C","img":"17238333","code":"18","tcg":25349,"grp":340,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"TP8-EN019","name":"Sectarian of Secrets","ctype":"monster","keywords":"Spellcaster DARK Normal Monster","stats":{"a":"DARK","l":"Level 2","t":"Spellcaster / Normal","atk":700,"def":500},"rarity":"C","img":"15507080","code":"19","tcg":25350,"grp":340,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"TP8-EN020","name":"Necrolancer the Time-lord","ctype":"monster","keywords":"Spellcaster DARK Normal Monster","stats":{"a":"DARK","l":"Level 3","t":"Spellcaster / Normal","atk":800,"def":900},"rarity":"C","img":"61454890","code":"20","tcg":25351,"grp":340,"idx":19}
+  ]
+}

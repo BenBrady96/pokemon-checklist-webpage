@@ -1,0 +1,69 @@
+{
+  "id": "yugioh/collectible-tins-2011-wave-2",
+  "game": "yugioh",
+  "slug": "collectible-tins-2011-wave-2",
+  "name": "Collectible Tins 2011 Wave 2",
+  "series": "ZEXAL",
+  "kind": "tin",
+  "code": "CT08",
+  "syncKey": "YCT082",
+  "released": "2011-11-01",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "CT08-EN003–CT08-EN018",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from CT08-EN003 to CT08-EN018."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Collectible Tins 2011 Wave 2 Checklist · All 9 Cards",
+    "description": "Free Yu-Gi-Oh! Collectible Tins 2011 Wave 2 checklist with no ads, no sign-up and no tracking. Track all 9 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Collectible Tins 2011 Wave 2 Checklist",
+    "ogDescription": "Track all 9 cards in Yu-Gi-Oh! Collectible Tins 2011 Wave 2. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 9 cards in Yu-Gi-Oh! Collectible Tins 2011 Wave 2. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Collectible Tins 2011 Wave 2",
+    "paragraphs": [
+      "Collectible Tins 2011 Wave 2 is a Yu-Gi-Oh! TCG tin released on 1 November 2011, in the ZEXAL era. It has 9 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Collectible Tins 2011 Wave 2"
+    ],
+    "tcgplayer": [
+      135
+    ]
+  },
+  "cards": [
+    {"id":"003","section":"main","num":"003","printed":"CT08-EN003","name":"Galaxy-Eyes Photon Dragon","ctype":"monster","keywords":"Galaxy-Eyes Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Effect","atk":3000,"def":2500},"rarity":"ScR","img":"93717133","code":"3","tcg":57249,"grp":135,"idx":0},
+    {"id":"004","section":"main","num":"004","printed":"CT08-EN004","name":"Number 10: Illumiknight","ctype":"monster","keywords":"Warrior LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 4","t":"Warrior / Xyz","atk":2400,"def":2400},"rarity":"ScR","img":"11411223","code":"4","tcg":57254,"grp":135,"idx":1},
+    {"id":"012","section":"main","num":"012","printed":"CT08-EN012","name":"Fossil Dyna Pachycephalo","ctype":"monster","keywords":"Rock EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Rock / Effect","atk":1200,"def":1300},"rarity":"SR","img":"42009836","code":"12","tcg":57253,"grp":135,"idx":2},
+    {"id":"013","section":"main","num":"013","printed":"CT08-EN013","name":"Guardian Eatos","ctype":"monster","keywords":"Guardian Fairy WIND Effect Monster","stats":{"a":"WIND","l":"Level 8","t":"Fairy / Effect","atk":2500,"def":2000},"rarity":"SR","img":"34022290","code":"13","tcg":57252,"grp":135,"idx":3},
+    {"id":"014","section":"main","num":"014","printed":"CT08-EN014","name":"Malefic Stardust Dragon","ctype":"monster","keywords":"Malefic Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Dragon / Effect","atk":2500,"def":2000},"rarity":"SR","img":"36521459","code":"14","tcg":57250,"grp":135,"idx":4},
+    {"id":"015","section":"main","num":"015","printed":"CT08-EN015","name":"Solemn Warning","ctype":"trap","keywords":"Solemn Counter Trap","stats":{"t":"Counter Trap"},"rarity":"SR","img":"84749824","code":"15","tcg":57251,"grp":135,"idx":5},
+    {"id":"016","section":"main","num":"016","printed":"CT08-EN016","name":"Ehren, Lightsworn Monk","ctype":"monster","keywords":"Lightsworn Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Effect","atk":1600,"def":1000},"rarity":"SR","img":"44178886","code":"16","tcg":57256,"grp":135,"idx":6},
+    {"id":"017","section":"main","num":"017","printed":"CT08-EN017","name":"XX-Saber Darksoul","ctype":"monster","keywords":"X-Saber Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Beast / Effect","atk":100,"def":100},"rarity":"SR","img":"31383545","code":"17","tcg":57257,"grp":135,"idx":7},
+    {"id":"018","section":"main","num":"018","printed":"CT08-EN018","name":"The Tyrant Neptune","ctype":"monster","keywords":"Reptile WATER Effect Monster","stats":{"a":"WATER","l":"Level 10","t":"Reptile / Effect","atk":0,"def":0},"rarity":"SR","img":"88071625","code":"18","tcg":57255,"grp":135,"idx":8}
+  ]
+}

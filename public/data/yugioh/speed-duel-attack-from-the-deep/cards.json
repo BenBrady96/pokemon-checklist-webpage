@@ -1,0 +1,110 @@
+{
+  "id": "yugioh/speed-duel-attack-from-the-deep",
+  "game": "yugioh",
+  "slug": "speed-duel-attack-from-the-deep",
+  "name": "Speed Duel: Attack from the Deep",
+  "series": "VRAINS",
+  "kind": "pack",
+  "code": "SBAD",
+  "syncKey": "YSBAD",
+  "released": "2019-05-30",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "SBAD-EN001–SBAD-ENS05",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from SBAD-EN001 to SBAD-ENS05."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Speed Duel: Attack from the Deep Checklist · All 50 Cards",
+    "description": "Free Yu-Gi-Oh! Speed Duel: Attack from the Deep checklist with no ads, no sign-up and no tracking. Track all 50 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Speed Duel: Attack from the Deep Checklist",
+    "ogDescription": "Track all 50 cards in Yu-Gi-Oh! Speed Duel: Attack from the Deep. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 50 cards in Yu-Gi-Oh! Speed Duel: Attack from the Deep. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Speed Duel: Attack from the Deep",
+    "paragraphs": [
+      "Speed Duel: Attack from the Deep is a Yu-Gi-Oh! TCG pack released on 30 May 2019, in the VRAINS era. It has 50 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Speed Duel: Attack from the Deep"
+    ],
+    "tcgplayer": [
+      2425
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"SBAD-EN001","name":"Magician of Faith","ctype":"monster","keywords":"Spellcaster LIGHT Flip Effect Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Spellcaster / Flip / Effect","atk":300,"def":400},"rarity":"UR","img":"31560081","code":"1","tcg":190870,"grp":2425,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"SBAD-EN002","name":"Apprentice Magician","ctype":"monster","keywords":"Magician Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 2","t":"Spellcaster / Effect","atk":400,"def":800},"rarity":"SR","img":"9156135","code":"2","tcg":190871,"grp":2425,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"SBAD-EN003","name":"Mystical Elf","ctype":"monster","keywords":"Spellcaster LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Normal","atk":800,"def":2000},"rarity":"C","img":"15025844","code":"3","tcg":190887,"grp":2425,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"SBAD-EN004","name":"Magical Undertaker","ctype":"monster","keywords":"Spellcaster DARK Flip Effect Monster","stats":{"a":"DARK","l":"Level 2","t":"Spellcaster / Flip / Effect","atk":400,"def":400},"rarity":"C","img":"30608985","code":"4","tcg":190888,"grp":2425,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"SBAD-EN005","name":"Arcane Barrier","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"17896384","code":"5","tcg":190889,"grp":2425,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"SBAD-EN006","name":"Blade Knight","ctype":"monster","keywords":"Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Effect","atk":1600,"def":1000},"rarity":"UR","img":"39507162","code":"6","tcg":190890,"grp":2425,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"SBAD-EN007","name":"Dweller in the Depths","ctype":"monster","keywords":"Dragon EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Dragon / Effect","atk":1500,"def":700},"rarity":"C","img":"46508640","code":"7","tcg":190891,"grp":2425,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"SBAD-EN008","name":"Gilford the Lightning","ctype":"monster","keywords":"Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Warrior / Effect","atk":2800,"def":1400},"rarity":"UR","img":"36354007","code":"8","tcg":190892,"grp":2425,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"SBAD-EN009","name":"Axe Raider","ctype":"monster","keywords":"Warrior EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Normal","atk":1700,"def":1150},"rarity":"C","img":"48305365","code":"9","tcg":190893,"grp":2425,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"SBAD-EN010","name":"Fusion Recovery","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"18511384","code":"10","tcg":190894,"grp":2425,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"SBAD-EN011","name":"Sonic Bird","ctype":"monster","keywords":"Winged Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Winged Beast / Effect","atk":1400,"def":1000},"rarity":"UR","img":"57617178","code":"11","tcg":190895,"grp":2425,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"SBAD-EN012","name":"Great Phantom Thief","ctype":"monster","keywords":"Spellcaster EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Spellcaster / Effect","atk":1000,"def":1000},"rarity":"C","img":"10809984","code":"12","tcg":190896,"grp":2425,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"SBAD-EN013","name":"Djinn Disserere of Rituals","ctype":"monster","keywords":"Djinn Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Fiend / Effect","atk":200,"def":200},"rarity":"C","img":"30492798","code":"13","tcg":190897,"grp":2425,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"SBAD-EN014","name":"Fulfillment of the Contract","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"48206762","code":"14","tcg":190898,"grp":2425,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"SBAD-EN015","name":"Amazoness Trainee","ctype":"monster","keywords":"Amazoness Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Effect","atk":1500,"def":1300},"rarity":"C","img":"89567993","code":"15","tcg":190899,"grp":2425,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"SBAD-EN016","name":"Robbin' Zombie","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"83258273","code":"16","tcg":190900,"grp":2425,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"SBAD-EN017","name":"Zombina","ctype":"monster","keywords":"Zombie EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Zombie / Effect","atk":1400,"def":1500},"rarity":"SR","img":"81616639","code":"17","tcg":190901,"grp":2425,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"SBAD-EN018","name":"Goblin Zombie","ctype":"monster","keywords":"Zombie DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Zombie / Effect","atk":1100,"def":1050},"rarity":"C","img":"63665875","code":"18","tcg":190902,"grp":2425,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"SBAD-EN019","name":"Sword of Dark Destruction","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"37120512","code":"19","tcg":190903,"grp":2425,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"SBAD-EN020","name":"Pyramid of Wonders","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"66835946","code":"20","tcg":190904,"grp":2425,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"SBAD-EN021","name":"Great White","ctype":"monster","keywords":"Shark Fish WATER Normal Monster","stats":{"a":"WATER","l":"Level 4","t":"Fish / Normal","atk":1600,"def":800},"rarity":"C","img":"13429800","code":"21","tcg":190905,"grp":2425,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"SBAD-EN022","name":"High Tide Gyojin","ctype":"monster","keywords":"Aqua WATER Normal Monster","stats":{"a":"WATER","l":"Level 4","t":"Aqua / Normal","atk":1650,"def":1300},"rarity":"C","img":"54579801","code":"22","tcg":190906,"grp":2425,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"SBAD-EN023","name":"The Legendary Fisherman","ctype":"monster","keywords":"Umi Warrior WATER Effect Monster","stats":{"a":"WATER","l":"Level 5","t":"Warrior / Effect","atk":1850,"def":1600},"rarity":"C","img":"3643300","code":"23","tcg":190907,"grp":2425,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"SBAD-EN024","name":"Yomi Ship","ctype":"monster","keywords":"Aqua WATER Effect Monster","stats":{"a":"WATER","l":"Level 3","t":"Aqua / Effect","atk":800,"def":1400},"rarity":"SR","img":"51534754","code":"24","tcg":190908,"grp":2425,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"SBAD-EN025","name":"Levia-Dragon - Daedalus","ctype":"monster","keywords":"Umi Sea Serpent WATER Effect Monster","stats":{"a":"WATER","l":"Level 7","t":"Sea Serpent / Effect","atk":2600,"def":1500},"rarity":"UR","img":"37721209","code":"25","tcg":190909,"grp":2425,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"SBAD-EN026","name":"Lost Blue Breaker","ctype":"monster","keywords":"Sea Serpent WATER Effect Monster","stats":{"a":"WATER","l":"Level 3","t":"Sea Serpent / Effect","atk":1400,"def":0},"rarity":"C","img":"95231062","code":"26","tcg":190910,"grp":2425,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"SBAD-EN027","name":"Fishborg Planter","ctype":"monster","keywords":"Fishborg Fish WATER Effect Monster","stats":{"a":"WATER","l":"Level 2","t":"Fish / Effect","atk":200,"def":200},"rarity":"C","img":"51282878","code":"27","tcg":190911,"grp":2425,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"SBAD-EN028","name":"Imairuka","ctype":"monster","keywords":"Sea Serpent WATER Effect Monster","stats":{"a":"WATER","l":"Level 2","t":"Sea Serpent / Effect","atk":1000,"def":1000},"rarity":"C","img":"41952656","code":"28","tcg":190912,"grp":2425,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"SBAD-EN029","name":"Slushy","ctype":"monster","keywords":"Aqua WATER Effect Monster","stats":{"a":"WATER","l":"Level 2","t":"Aqua / Effect","atk":0,"def":0},"rarity":"C","img":"84650463","code":"29","tcg":190913,"grp":2425,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"SBAD-EN030","name":"Power of Kaishin","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"77027445","code":"30","tcg":190914,"grp":2425,"idx":29},
+    {"id":"031","section":"main","num":"031","printed":"SBAD-EN031","name":"Umi","ctype":"spell","keywords":"Umi Field Spell","stats":{"t":"Field Spell"},"rarity":"C","img":"22702055","code":"31","tcg":190915,"grp":2425,"idx":30},
+    {"id":"032","section":"main","num":"032","printed":"SBAD-EN032","name":"Big Wave Small Wave","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"51562916","code":"32","tcg":190916,"grp":2425,"idx":31},
+    {"id":"033","section":"main","num":"033","printed":"SBAD-EN033","name":"Water Hazard","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"49669730","code":"33","tcg":190917,"grp":2425,"idx":32},
+    {"id":"034","section":"main","num":"034","printed":"SBAD-EN034","name":"Moray of Greed","ctype":"spell","keywords":"Greed Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"22123627","code":"34","tcg":190918,"grp":2425,"idx":33},
+    {"id":"035","section":"main","num":"035","printed":"SBAD-EN035","name":"Warrior Dai Grepher","ctype":"monster","keywords":"Grepher Warrior EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Normal","atk":1700,"def":1600},"rarity":"C","img":"75953262","code":"35","tcg":190919,"grp":2425,"idx":34},
+    {"id":"036","section":"main","num":"036","printed":"SBAD-EN036","name":"Sonic Duck","ctype":"monster","keywords":"Winged Beast WIND Normal Monster","stats":{"a":"WIND","l":"Level 3","t":"Winged Beast / Normal","atk":1700,"def":700},"rarity":"C","img":"84696266","code":"36","tcg":190920,"grp":2425,"idx":35},
+    {"id":"037","section":"main","num":"037","printed":"SBAD-EN037","name":"Sinister Serpent","ctype":"monster","keywords":"Reptile WATER Effect Monster","stats":{"a":"WATER","l":"Level 1","t":"Reptile / Effect","atk":300,"def":250},"rarity":"C","img":"8131171","code":"37","tcg":190921,"grp":2425,"idx":36},
+    {"id":"038","section":"main","num":"038","printed":"SBAD-EN038","name":"Theban Nightmare","ctype":"monster","keywords":"Fiend LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fiend / Effect","atk":1500,"def":500},"rarity":"C","img":"51838385","code":"38","tcg":190922,"grp":2425,"idx":37},
+    {"id":"039","section":"main","num":"039","printed":"SBAD-EN039","name":"Infernity Beast","ctype":"monster","keywords":"Infernity Beast DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Beast / Effect","atk":1600,"def":1200},"rarity":"C","img":"7264861","code":"39","tcg":190923,"grp":2425,"idx":38},
+    {"id":"040","section":"main","num":"040","printed":"SBAD-EN040","name":"Ryu Senshi","ctype":"monster","keywords":"Warrior EARTH Fusion Monster","stats":{"a":"EARTH","l":"Level 6","t":"Warrior / Fusion","atk":2000,"def":1200},"rarity":"SR","img":"49868263","code":"40","tcg":190924,"grp":2425,"idx":39},
+    {"id":"041","section":"main","num":"041","printed":"SBAD-EN041","name":"Warrior Elimination","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"90873992","code":"41","tcg":190925,"grp":2425,"idx":40},
+    {"id":"042","section":"main","num":"042","printed":"SBAD-EN042","name":"Mask of the Accursed","ctype":"spell","keywords":"Mask Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"56948373","code":"42","tcg":190926,"grp":2425,"idx":41},
+    {"id":"043","section":"main","num":"043","printed":"SBAD-EN043","name":"Dust Tornado","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"60082869","code":"43","tcg":190927,"grp":2425,"idx":42},
+    {"id":"044","section":"main","num":"044","printed":"SBAD-EN044","name":"Ready for Intercepting","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"31785398","code":"44","tcg":190928,"grp":2425,"idx":43},
+    {"id":"045","section":"main","num":"045","printed":"SBAD-EN045","name":"The Forceful Checkpoint","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"UR","img":"94861297","code":"45","tcg":190929,"grp":2425,"idx":44},
+    {"id":"S01","section":"main","num":"S01","printed":"SBAD-ENS01","name":"The World's Greatest Fisherman","ctype":"skill","keywords":"Mako Skill","stats":{"t":"Skill · Mako"},"rarity":"UR","img":"300102001","code":"S1","tcg":191741,"grp":2425,"idx":45},
+    {"id":"S02","section":"main","num":"S02","printed":"SBAD-ENS02","name":"Mythic Depths","ctype":"skill","keywords":"Umi Mako Skill","stats":{"t":"Skill · Mako"},"rarity":"SR","img":"300102002","code":"S2","tcg":191742,"grp":2425,"idx":46},
+    {"id":"S03","section":"main","num":"S03","printed":"SBAD-ENS03","name":"Catch of the Day","ctype":"skill","keywords":"Umi Mako Skill","stats":{"t":"Skill · Mako"},"rarity":"SR","img":"300102003","code":"S3","tcg":191743,"grp":2425,"idx":47},
+    {"id":"S04","section":"main","num":"S04","printed":"SBAD-ENS04","name":"It's My Lucky Day!","ctype":"skill","keywords":"Joey Skill","stats":{"t":"Skill · Joey"},"rarity":"SR","img":"300102004","code":"S4","tcg":191746,"grp":2425,"idx":48},
+    {"id":"S05","section":"main","num":"S05","printed":"SBAD-ENS05","name":"Viral Infection","ctype":"skill","keywords":"Kaiba Skill","stats":{"t":"Skill · Kaiba"},"rarity":"UR","img":"300102005","code":"S5","tcg":191748,"grp":2425,"idx":49}
+  ]
+}

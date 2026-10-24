@@ -1,0 +1,173 @@
+{
+  "id": "yugioh/maximum-crisis",
+  "game": "yugioh",
+  "slug": "maximum-crisis",
+  "name": "Maximum Crisis",
+  "series": "ARC-V",
+  "kind": "expansion",
+  "code": "MACR",
+  "syncKey": "YMACR",
+  "released": "2017-05-04",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Main Set",
+      "range": "MACR-EN000–MACR-EN099",
+      "tier": "standard"
+    },
+    {
+      "id": "rarities",
+      "name": "Other Rarities",
+      "short": "Other Rarities",
+      "range": "1 card",
+      "tier": "master"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Main set"
+    ],
+    [
+      "rarities",
+      "Other rarities"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, SCR12, 60x2",
+    "example": "1-20, 45x2, SCR12",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies. Other rarities use their short name and number: <b>SCR12</b> is card 12’s Secret Rare, and ranges work too (<b>QCSR1-QCSR20</b>).",
+    "empty": "Cards run from MACR-EN000 to MACR-EN099."
+  },
+  "help": {
+    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 100 cards, each in its main rarity. Master adds the 1 other rarity. Cards you’ve marked are kept when you switch."
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Maximum Crisis Checklist · All 100 Cards",
+    "description": "Free Yu-Gi-Oh! Maximum Crisis checklist with no ads, no sign-up and no tracking. Track all 100 cards, or every rarity for a master set, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Maximum Crisis Checklist",
+    "ogDescription": "Track all 100 cards in Yu-Gi-Oh! Maximum Crisis, plus 1 other rarity. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 100 cards in Yu-Gi-Oh! Maximum Crisis. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About the Maximum Crisis set",
+    "paragraphs": [
+      "Maximum Crisis is a Yu-Gi-Oh! TCG booster set released on 4 May 2017, in the ARC-V era. It has 100 cards, and with the 1 other rarity there are 101 to collect in all.",
+      "Choose what you’re collecting: the <b>Standard set</b> (the 100 cards, each in its main rarity) or the <b>Master set</b> (all 101, adding the 1 other rarity).",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Maximum Crisis"
+    ],
+    "tcgplayer": [
+      1922
+    ]
+  },
+  "cards": [
+    {"id":"000","section":"main","num":"000","printed":"MACR-EN000","name":"Pendulum Switch","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"R","img":"42378577","code":"0","tcg":131117,"grp":1922,"idx":0},
+    {"id":"001","section":"main","num":"001","printed":"MACR-EN001","name":"Performapal Sky Magician","ctype":"monster","keywords":"Performapal Spellcaster WIND Effect Monster","stats":{"a":"WIND","l":"Level 7","t":"Spellcaster / Effect","atk":2500,"def":2000},"rarity":"R","img":"73734821","code":"1","tcg":131118,"grp":1922,"idx":1},
+    {"id":"002","section":"main","num":"002","printed":"MACR-EN002","name":"Performapal Sky Pupil","ctype":"monster","keywords":"Performapal Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Spellcaster / Effect","atk":800,"def":800},"rarity":"R","img":"122520","code":"2","tcg":131119,"grp":1922,"idx":2},
+    {"id":"003","section":"main","num":"003","printed":"MACR-EN003","name":"Performapal Revue Dancer","ctype":"monster","keywords":"Performapal Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Spellcaster / Effect","atk":800,"def":1000},"rarity":"C","img":"36527535","code":"3","tcg":131120,"grp":1922,"idx":3},
+    {"id":"004","section":"main","num":"004","printed":"MACR-EN004","name":"Performapal U Go Golem","ctype":"monster","keywords":"Performapal Fiend DARK Pendulum Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Pendulum / Effect","atk":1600,"def":1000},"rarity":"R","img":"73511233","code":"4","tcg":131121,"grp":1922,"idx":4},
+    {"id":"005","section":"main","num":"005","printed":"MACR-EN005","name":"Performapal Coin Dragon","ctype":"monster","keywords":"Performapal Dragon WATER Pendulum Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Dragon / Pendulum / Effect","atk":1700,"def":1000},"rarity":"R","img":"9000988","code":"5","tcg":131122,"grp":1922,"idx":5},
+    {"id":"006","section":"main","num":"006","printed":"MACR-EN006","name":"Speedroid Skull Marbles","ctype":"monster","keywords":"Roid Machine WIND Effect Monster","stats":{"a":"WIND","l":"Level 7","t":"Machine / Effect","atk":0,"def":3000},"rarity":"C","img":"35494087","code":"6","tcg":131123,"grp":1922,"idx":6},
+    {"id":"007","section":"main","num":"007","printed":"MACR-EN007","name":"Speedroid Maliciousmagnet","ctype":"monster","keywords":"Roid Machine WIND Tuner Monster","stats":{"a":"WIND","l":"Level 1","t":"Machine / Tuner","atk":0,"def":0},"rarity":"C","img":"62899696","code":"7","tcg":131124,"grp":1922,"idx":7},
+    {"id":"008","section":"main","num":"008","printed":"MACR-EN008","name":"Speedroid Rubberband Plane","ctype":"monster","keywords":"Roid Machine WIND Effect Monster","stats":{"a":"WIND","l":"Level 5","t":"Machine / Effect","atk":1800,"def":0},"rarity":"R","img":"8284390","code":"8","tcg":131125,"grp":1922,"idx":8},
+    {"id":"009","section":"main","num":"009","printed":"MACR-EN009","name":"Predaplant Ophrys Scorpio","ctype":"monster","keywords":"Predaplant Plant DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Plant / Effect","atk":1200,"def":800},"rarity":"R","img":"35272499","code":"9","tcg":131126,"grp":1922,"idx":9},
+    {"id":"010","section":"main","num":"010","printed":"MACR-EN010","name":"Predaplant Darlingtonia Cobra","ctype":"monster","keywords":"Predaplant Plant DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Plant / Effect","atk":1000,"def":1500},"rarity":"C","img":"61677004","code":"10","tcg":131127,"grp":1922,"idx":10},
+    {"id":"011","section":"main","num":"011","printed":"MACR-EN011","name":"Predaplant Cordyceps","ctype":"monster","keywords":"Predaplant Plant DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Plant / Effect","atk":0,"def":0},"rarity":"C","img":"7161742","code":"11","tcg":131128,"grp":1922,"idx":11},
+    {"id":"012","section":"main","num":"012","printed":"MACR-EN012","name":"Lyrilusc - Cobalt Sparrow","ctype":"monster","keywords":"Lyrilusc Winged Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 1","t":"Winged Beast / Effect","atk":0,"def":100},"rarity":"C","img":"34550857","code":"12","tcg":131129,"grp":1922,"idx":12},
+    {"id":"013","section":"main","num":"013","printed":"MACR-EN013","name":"Lyrilusc - Sapphire Swallow","ctype":"monster","keywords":"Lyrilusc Winged Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 1","t":"Winged Beast / Effect","atk":100,"def":0},"rarity":"C","img":"60954556","code":"13","tcg":131130,"grp":1922,"idx":13},
+    {"id":"014","section":"main","num":"014","printed":"MACR-EN014","name":"Lyrilusc - Turquoise Warbler","ctype":"monster","keywords":"Lyrilusc Winged Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 1","t":"Winged Beast / Effect","atk":100,"def":100},"rarity":"C","img":"97949165","code":"14","tcg":131131,"grp":1922,"idx":14},
+    {"id":"015","section":"main","num":"015","printed":"MACR-EN015","name":"D/D Ghost","ctype":"monster","keywords":"D/D Fiend DARK Tuner Monster","stats":{"a":"DARK","l":"Level 2","t":"Fiend / Tuner","atk":600,"def":300},"rarity":"C","img":"33334269","code":"15","tcg":131132,"grp":1922,"idx":15},
+    {"id":"016","section":"main","num":"016","printed":"MACR-EN016","name":"Double Resonator","ctype":"monster","keywords":"Resonator Fiend FIRE Tuner Monster","stats":{"a":"FIRE","l":"Level 1","t":"Fiend / Tuner","atk":0,"def":0},"rarity":"C","img":"60832978","code":"16","tcg":131133,"grp":1922,"idx":16},
+    {"id":"017","section":"main","num":"017","printed":"MACR-EN017","name":"Supreme King Gate Zero","ctype":"monster","keywords":"Supreme King Fiend DARK Pendulum Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Fiend / Pendulum / Effect","atk":0,"def":0},"rarity":"SR","img":"96227613","code":"17","tcg":131134,"grp":1922,"idx":17},
+    {"id":"018","section":"main","num":"018","printed":"MACR-EN018","name":"Supreme King Gate Infinity","ctype":"monster","keywords":"Supreme King Fiend DARK Pendulum Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Fiend / Pendulum / Effect","atk":0,"def":0},"rarity":"SR","img":"22211622","code":"18","tcg":131135,"grp":1922,"idx":18},
+    {"id":"019","section":"main","num":"019","printed":"MACR-EN019","name":"Supreme King Dragon Darkwurm","ctype":"monster","keywords":"Supreme King Dragon DARK Pendulum Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Dragon / Pendulum / Effect","atk":1800,"def":1200},"rarity":"C","img":"69610326","code":"19","tcg":131136,"grp":1922,"idx":19},
+    {"id":"020","section":"main","num":"020","printed":"MACR-EN020","name":"Majesty Maiden, the True Dracocaster","ctype":"monster","keywords":"True Draco Wyrm WIND Effect Monster","stats":{"a":"WIND","l":"Level 5","t":"Wyrm / Effect","atk":2300,"def":1500},"rarity":"UR","img":"95004025","code":"20","tcg":131137,"grp":1922,"idx":20},
+    {"id":"021","section":"main","num":"021","printed":"MACR-EN021","name":"Ignis Heat, the True Dracowarrior","ctype":"monster","keywords":"True Draco Wyrm FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 5","t":"Wyrm / Effect","atk":2400,"def":1000},"rarity":"UR","img":"22499034","code":"21","tcg":131138,"grp":1922,"idx":21},
+    {"id":"022","section":"main","num":"022","printed":"MACR-EN022","name":"Dinomight Knight, the True Dracofighter","ctype":"monster","keywords":"True Draco Wyrm WATER Effect Monster","stats":{"a":"WATER","l":"Level 6","t":"Wyrm / Effect","atk":2500,"def":1200},"rarity":"UR","img":"58984738","code":"22","tcg":131139,"grp":1922,"idx":22},
+    {"id":"023","section":"main","num":"023","printed":"MACR-EN023","name":"Dreiath III, the True Dracocavalry General","ctype":"monster","keywords":"True Draco Wyrm EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 6","t":"Wyrm / Effect","atk":2100,"def":2800},"rarity":"UR","img":"94982447","code":"23","tcg":131140,"grp":1922,"idx":23},
+    {"id":"024","section":"main","num":"024","printed":"MACR-EN024","name":"Master Peace, the True Dracoslaying King","ctype":"monster","keywords":"True Draco Wyrm LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Wyrm / Effect","atk":2950,"def":2950},"rarity":"ScR","img":"21377582","code":"24","tcg":131141,"grp":1922,"idx":24},
+    {"id":"025","section":"main","num":"025","printed":"MACR-EN025","name":"Metaltron XII, the True Dracombatant","ctype":"monster","keywords":"True Draco Wyrm LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 9","t":"Wyrm / Effect","atk":3000,"def":3000},"rarity":"SR","img":"57761191","code":"25","tcg":131142,"grp":1922,"idx":25},
+    {"id":"026","section":"main","num":"026","printed":"MACR-EN026","name":"Mariamne, the True Dracophoenix","ctype":"monster","keywords":"True Draco Wyrm WIND Effect Monster","stats":{"a":"WIND","l":"Level 9","t":"Wyrm / Effect","atk":2700,"def":2100},"rarity":"UR","img":"94160895","code":"26","tcg":131143,"grp":1922,"idx":26},
+    {"id":"027","section":"main","num":"027","printed":"MACR-EN027","name":"Zoodiac Kataroost","ctype":"monster","keywords":"Zoodiac Beast-Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Beast-Warrior / Effect","atk":800,"def":1200},"rarity":"C","img":"20155904","code":"27","tcg":131144,"grp":1922,"idx":27},
+    {"id":"028","section":"main","num":"028","printed":"MACR-EN028","name":"Phantasm Spiral Dragon","ctype":"monster","keywords":"Atlantean Wyrm WATER Normal Monster","stats":{"a":"WATER","l":"Level 8","t":"Wyrm / Normal","atk":2900,"def":2900},"rarity":"R","img":"56649609","code":"28","tcg":131145,"grp":1922,"idx":28},
+    {"id":"029","section":"main","num":"029","printed":"MACR-EN029","name":"Digital Bug LEDybug","ctype":"monster","keywords":"Digital Bug Insect LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Insect / Effect","atk":500,"def":0},"rarity":"C","img":"83048208","code":"29","tcg":131146,"grp":1922,"idx":29},
+    {"id":"030","section":"main","num":"030","printed":"MACR-EN030","name":"Zefraath","ctype":"monster","keywords":"Zefra Rock EARTH Pendulum Effect Monster","stats":{"a":"EARTH","l":"Level 11","t":"Rock / Pendulum / Effect","atk":3450,"def":2950},"rarity":"SR","img":"29432356","code":"30","tcg":131147,"grp":1922,"idx":30},
+    {"id":"031","section":"main","num":"031","printed":"MACR-EN031","name":"Ariel, Priestess of the Nekroz","ctype":"monster","keywords":"Nekroz Psychic WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Psychic / Effect","atk":1000,"def":1800},"rarity":"R","img":"56827051","code":"31","tcg":131148,"grp":1922,"idx":31},
+    {"id":"032","section":"main","num":"032","printed":"MACR-EN032","name":"B.E.S. Big Core MK-3","ctype":"monster","keywords":"B.E.S. Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Machine / Effect","atk":2700,"def":1900},"rarity":"R","img":"82821760","code":"32","tcg":131149,"grp":1922,"idx":32},
+    {"id":"033","section":"main","num":"033","printed":"MACR-EN033","name":"Pendulumucho","ctype":"monster","keywords":"Pendulum Winged Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 1","t":"Winged Beast / Pendulum / Effect","atk":0,"def":0},"rarity":"SR","img":"18210764","code":"33","tcg":131150,"grp":1922,"idx":33},
+    {"id":"034","section":"main","num":"034","printed":"MACR-EN034","name":"Baobaboon","ctype":"monster","keywords":"Plant DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Plant / Effect","atk":1200,"def":1000},"rarity":"C","img":"55705473","code":"34","tcg":131151,"grp":1922,"idx":34},
+    {"id":"035","section":"main","num":"035","printed":"MACR-EN035","name":"Fire Cracker","ctype":"monster","keywords":"Fiend FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Fiend / Effect","atk":1700,"def":200},"rarity":"C","img":"81109178","code":"35","tcg":131152,"grp":1922,"idx":35},
+    {"id":"035-sp","section":"rarities","num":"035","printed":"MACR-EN035","name":"Fire Cracker","ctype":"monster","keywords":"Fiend FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Fiend / Effect","atk":1700,"def":200},"rarity":"SP","img":"81109178","badge":"SP","variant":"Short Print","code":"SP35","tcg":131152,"grp":1922,"idx":36},
+    {"id":"036","section":"main","num":"036","printed":"MACR-EN036","name":"Ash Blossom & Joyous Spring","ctype":"monster","keywords":"Zombie FIRE Tuner Monster","stats":{"a":"FIRE","l":"Level 3","t":"Zombie / Tuner","atk":0,"def":1800},"rarity":"ScR","img":"14558127","code":"36","tcg":131153,"grp":1922,"idx":37},
+    {"id":"037","section":"main","num":"037","printed":"MACR-EN037","name":"Familiar-Possessed - Lyna","ctype":"monster","keywords":"Charmer Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Effect","atk":1850,"def":1500},"rarity":"SP","img":"40542825","code":"37","tcg":131154,"grp":1922,"idx":38},
+    {"id":"038","section":"main","num":"038","printed":"MACR-EN038","name":"Fairy Tail - Luna","ctype":"monster","keywords":"Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Effect","atk":1850,"def":1000},"rarity":"SR","img":"86937530","code":"38","tcg":131155,"grp":1922,"idx":39},
+    {"id":"039","section":"main","num":"039","printed":"MACR-EN039","name":"Supreme King Z-ARC","ctype":"monster","keywords":"Supreme King Dragon DARK Pendulum Effect Fusion Monster","stats":{"a":"DARK","l":"Level 12","t":"Dragon / Pendulum / Effect / Fusion","atk":4000,"def":4000},"rarity":"ScR","img":"13331639","code":"39","tcg":131156,"grp":1922,"idx":40},
+    {"id":"040","section":"main","num":"040","printed":"MACR-EN040","name":"Performapal Gatlinghoul","ctype":"monster","keywords":"Performapal Fiend DARK Fusion Monster","stats":{"a":"DARK","l":"Level 8","t":"Fiend / Fusion","atk":2900,"def":900},"rarity":"UR","img":"49820233","code":"40","tcg":131157,"grp":1922,"idx":41},
+    {"id":"041","section":"main","num":"041","printed":"MACR-EN041","name":"Lyrilusc - Independent Nightingale","ctype":"monster","keywords":"Lyrilusc Winged Beast WIND Fusion Monster","stats":{"a":"WIND","l":"Level 1","t":"Winged Beast / Fusion","atk":1000,"def":0},"rarity":"SR","img":"76815942","code":"41","tcg":131158,"grp":1922,"idx":42},
+    {"id":"042","section":"main","num":"042","printed":"MACR-EN042","name":"The Phantom Knights of Cursed Javelin","ctype":"monster","keywords":"Phantom Knights Warrior DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 2","t":"Warrior / Xyz","atk":1600,"def":0},"rarity":"SR","img":"12219047","code":"42","tcg":131159,"grp":1922,"idx":43},
+    {"id":"043","section":"main","num":"043","printed":"MACR-EN043","name":"Lyrilusc - Assembled Nightingale","ctype":"monster","keywords":"Lyrilusc Winged Beast WIND Xyz Monster","stats":{"a":"WIND","l":"Rank 1","t":"Winged Beast / Xyz","atk":0,"def":0},"rarity":"SR","img":"48608796","code":"43","tcg":131160,"grp":1922,"idx":44},
+    {"id":"044","section":"main","num":"044","printed":"MACR-EN044","name":"Raidraptor - Stranger Falcon","ctype":"monster","keywords":"Raidraptor Winged Beast DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 5","t":"Winged Beast / Xyz","atk":2000,"def":2000},"rarity":"R","img":"15092394","code":"44","tcg":131161,"grp":1922,"idx":45},
+    {"id":"045","section":"main","num":"045","printed":"MACR-EN045","name":"D/D/D Stone King Darius","ctype":"monster","keywords":"D/D Fiend EARTH Xyz Monster","stats":{"a":"EARTH","l":"Rank 3","t":"Fiend / Xyz","atk":1900,"def":1000},"rarity":"R","img":"51497409","code":"45","tcg":131162,"grp":1922,"idx":46},
+    {"id":"046","section":"main","num":"046","printed":"MACR-EN046","name":"True King of All Calamities","ctype":"monster","keywords":"True Draco Wyrm DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 9","t":"Wyrm / Xyz","atk":3000,"def":3000},"rarity":"SR","img":"88581108","code":"46","tcg":131163,"grp":1922,"idx":47},
+    {"id":"047","section":"main","num":"047","printed":"MACR-EN047","name":"Zoodiac Hammerkong","ctype":"monster","keywords":"Zoodiac Beast-Warrior EARTH Xyz Monster","stats":{"a":"EARTH","l":"Rank 4","t":"Beast-Warrior / Xyz","atk":-1,"def":-1},"rarity":"C","img":"14970113","code":"47","tcg":131164,"grp":1922,"idx":48},
+    {"id":"048","section":"main","num":"048","printed":"MACR-EN048","name":"Zoodiac Chakanine","ctype":"monster","keywords":"Zoodiac Beast-Warrior EARTH Xyz Monster","stats":{"a":"EARTH","l":"Rank 4","t":"Beast-Warrior / Xyz","atk":-1,"def":-1},"rarity":"UR","img":"41375811","code":"48","tcg":131165,"grp":1922,"idx":49},
+    {"id":"049","section":"main","num":"049","printed":"MACR-EN049","name":"Magician's Right Hand","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"87769556","code":"49","tcg":131166,"grp":1922,"idx":50},
+    {"id":"050","section":"main","num":"050","printed":"MACR-EN050","name":"Magician's Left Hand","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"13758665","code":"50","tcg":131167,"grp":1922,"idx":51},
+    {"id":"051","section":"main","num":"051","printed":"MACR-EN051","name":"Magician's Restage","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"R","img":"40252269","code":"51","tcg":131168,"grp":1922,"idx":52},
+    {"id":"052","section":"main","num":"052","printed":"MACR-EN052","name":"Ultra Polymerization","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"ScR","img":"76647978","code":"52","tcg":131169,"grp":1922,"idx":53},
+    {"id":"053","section":"main","num":"053","printed":"MACR-EN053","name":"Dragonic Diagram","ctype":"spell","keywords":"True Draco Field Spell","stats":{"t":"Field Spell"},"rarity":"ScR","img":"13035077","code":"53","tcg":131170,"grp":1922,"idx":54},
+    {"id":"054","section":"main","num":"054","printed":"MACR-EN054","name":"True Draco Heritage","ctype":"spell","keywords":"True Draco Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"UR","img":"49430782","code":"54","tcg":131171,"grp":1922,"idx":55},
+    {"id":"055","section":"main","num":"055","printed":"MACR-EN055","name":"Disciples of the True Dracophoenix","ctype":"spell","keywords":"True Draco Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"75425320","code":"55","tcg":131172,"grp":1922,"idx":56},
+    {"id":"056","section":"main","num":"056","printed":"MACR-EN056","name":"Pacifis, the Phantasm City","ctype":"spell","keywords":"Phantasm Spiral Field Spell","stats":{"t":"Field Spell"},"rarity":"R","img":"2819435","code":"56","tcg":131173,"grp":1922,"idx":57},
+    {"id":"057","section":"main","num":"057","printed":"MACR-EN057","name":"Phantasm Spiral Crash","ctype":"spell","keywords":"Phantasm Spiral Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"48308134","code":"57","tcg":131174,"grp":1922,"idx":58},
+    {"id":"058","section":"main","num":"058","printed":"MACR-EN058","name":"Phantasm Spiral Grip","ctype":"spell","keywords":"Phantasm Spiral Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"75702749","code":"58","tcg":131175,"grp":1922,"idx":59},
+    {"id":"059","section":"main","num":"059","printed":"MACR-EN059","name":"Phantasm Spiral Wave","ctype":"spell","keywords":"Phantasm Spiral Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"1197847","code":"59","tcg":131176,"grp":1922,"idx":60},
+    {"id":"060","section":"main","num":"060","printed":"MACR-EN060","name":"Bug Signal","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"47185546","code":"60","tcg":131177,"grp":1922,"idx":61},
+    {"id":"061","section":"main","num":"061","printed":"MACR-EN061","name":"Zefra Providence","ctype":"spell","keywords":"Zefra Normal Spell","stats":{"t":"Normal Spell"},"rarity":"R","img":"74580251","code":"61","tcg":131178,"grp":1922,"idx":62},
+    {"id":"062","section":"main","num":"062","printed":"MACR-EN062","name":"B.E.F. Zelos","ctype":"spell","keywords":"B.E.S. Field Spell","stats":{"t":"Field Spell"},"rarity":"C","img":"975299","code":"62","tcg":131179,"grp":1922,"idx":63},
+    {"id":"063","section":"main","num":"063","printed":"MACR-EN063","name":"Duelist Alliance","ctype":"spell","keywords":"Magician Normal Spell","stats":{"t":"Normal Spell"},"rarity":"ScR","img":"37469904","code":"63","tcg":131180,"grp":1922,"idx":64},
+    {"id":"064","section":"main","num":"064","printed":"MACR-EN064","name":"Set Rotation","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"SP","img":"73468603","code":"64","tcg":131181,"grp":1922,"idx":65},
+    {"id":"065","section":"main","num":"065","printed":"MACR-EN065","name":"Break Away","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"9852718","code":"65","tcg":131182,"grp":1922,"idx":66},
+    {"id":"066","section":"main","num":"066","printed":"MACR-EN066","name":"The Phantom Knights of Lost Vambrace","ctype":"trap","keywords":"Phantom Knights Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"36247316","code":"66","tcg":131183,"grp":1922,"idx":67},
+    {"id":"067","section":"main","num":"067","printed":"MACR-EN067","name":"The Phantom Knights of Wrong Magnetring","ctype":"trap","keywords":"Phantom Knights Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"62645025","code":"67","tcg":131184,"grp":1922,"idx":68},
+    {"id":"068","section":"main","num":"068","printed":"MACR-EN068","name":"Dark Contract with the Eternal Darkness","ctype":"trap","keywords":"D/D Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"R","img":"9030160","code":"68","tcg":131185,"grp":1922,"idx":69},
+    {"id":"069","section":"main","num":"069","printed":"MACR-EN069","name":"True King's Return","ctype":"trap","keywords":"True Draco Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"UR","img":"35125879","code":"69","tcg":131186,"grp":1922,"idx":70},
+    {"id":"070","section":"main","num":"070","printed":"MACR-EN070","name":"True Draco Apocalypse","ctype":"trap","keywords":"True Draco Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"61529473","code":"70","tcg":131187,"grp":1922,"idx":71},
+    {"id":"071","section":"main","num":"071","printed":"MACR-EN071","name":"Zoodiac Gathering","ctype":"trap","keywords":"Zoodiac Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"98918572","code":"71","tcg":131188,"grp":1922,"idx":72},
+    {"id":"072","section":"main","num":"072","printed":"MACR-EN072","name":"Phantasm Spiral Battle","ctype":"trap","keywords":"Phantasm Spiral Normal Trap","stats":{"t":"Normal Trap"},"rarity":"R","img":"34302287","code":"72","tcg":131189,"grp":1922,"idx":73},
+    {"id":"073","section":"main","num":"073","printed":"MACR-EN073","name":"Phantasm Spiral Power","ctype":"trap","keywords":"Phantasm Spiral Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"61397885","code":"73","tcg":131190,"grp":1922,"idx":74},
+    {"id":"074","section":"main","num":"074","printed":"MACR-EN074","name":"Phantasm Spiral Assault","ctype":"trap","keywords":"Phantasm Spiral Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"97795930","code":"74","tcg":131191,"grp":1922,"idx":75},
+    {"id":"075","section":"main","num":"075","printed":"MACR-EN075","name":"Prologue of the Destruction Swordsman","ctype":"trap","keywords":"Destruction Sword Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"33280639","code":"75","tcg":131192,"grp":1922,"idx":76},
+    {"id":"076","section":"main","num":"076","printed":"MACR-EN076","name":"Dinomists Howling","ctype":"trap","keywords":"Dinomist Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"60675348","code":"76","tcg":131193,"grp":1922,"idx":77},
+    {"id":"077","section":"main","num":"077","printed":"MACR-EN077","name":"Zefra War","ctype":"trap","keywords":"Zefra Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"96073342","code":"77","tcg":131194,"grp":1922,"idx":78},
+    {"id":"078","section":"main","num":"078","printed":"MACR-EN078","name":"Waterfall of Dragon Souls","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"23068051","code":"78","tcg":131195,"grp":1922,"idx":79},
+    {"id":"079","section":"main","num":"079","printed":"MACR-EN079","name":"Unending Nightmare","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"ScR","img":"69452756","code":"79","tcg":131196,"grp":1922,"idx":80},
+    {"id":"080","section":"main","num":"080","printed":"MACR-EN080","name":"Diamond Duston","ctype":"trap","keywords":"Duston Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SP","img":"96857854","code":"80","tcg":131197,"grp":1922,"idx":81},
+    {"id":"081","section":"main","num":"081","printed":"MACR-EN081","name":"Tornado Dragon","ctype":"monster","keywords":"Wyrm WIND Xyz Monster","stats":{"a":"WIND","l":"Rank 4","t":"Wyrm / Xyz","atk":2100,"def":2000},"rarity":"ScR","img":"6983839","code":"81","tcg":131198,"grp":1922,"idx":82},
+    {"id":"082","section":"main","num":"082","printed":"MACR-EN082","name":"Subterror Fiendess","ctype":"monster","keywords":"Subterror Spellcaster EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 1","t":"Spellcaster / Effect","atk":800,"def":500},"rarity":"SR","img":"74762582","code":"82","tcg":131199,"grp":1922,"idx":83},
+    {"id":"083","section":"main","num":"083","printed":"MACR-EN083","name":"Subterror Behemoth Phospheroglacier","ctype":"monster","keywords":"Subterror Aqua EARTH Flip Effect Monster","stats":{"a":"EARTH","l":"Level 8","t":"Aqua / Flip / Effect","atk":2600,"def":2500},"rarity":"C","img":"1151281","code":"83","tcg":131200,"grp":1922,"idx":84},
+    {"id":"084","section":"main","num":"084","printed":"MACR-EN084","name":"Subterror Behemoth Speleogeist","ctype":"monster","keywords":"Subterror Fiend EARTH Flip Effect Monster","stats":{"a":"EARTH","l":"Level 11","t":"Fiend / Flip / Effect","atk":3000,"def":1400},"rarity":"C","img":"47556396","code":"84","tcg":131201,"grp":1922,"idx":85},
+    {"id":"085","section":"main","num":"085","printed":"MACR-EN085","name":"Subterror Final Battle","ctype":"trap","keywords":"Subterror Normal Trap","stats":{"t":"Normal Trap"},"rarity":"R","img":"74640994","code":"85","tcg":131202,"grp":1922,"idx":86},
+    {"id":"086","section":"main","num":"086","printed":"MACR-EN086","name":"SPYRAL Sleeper","ctype":"monster","keywords":"SPYRAL Fiend LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Fiend / Effect","atk":2800,"def":1200},"rarity":"SR","img":"35699","code":"86","tcg":131203,"grp":1922,"idx":87},
+    {"id":"087","section":"main","num":"087","printed":"MACR-EN087","name":"SPYRAL GEAR - Last Resort","ctype":"monster","keywords":"SPYRAL Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Machine / Effect","atk":1000,"def":1000},"rarity":"R","img":"37433748","code":"87","tcg":131204,"grp":1922,"idx":88},
+    {"id":"088","section":"main","num":"088","printed":"MACR-EN088","name":"SPYRAL GEAR - Fully Armed","ctype":"spell","keywords":"SPYRAL Equip Spell","stats":{"t":"Equip Spell"},"rarity":"UR","img":"73828446","code":"88","tcg":131205,"grp":1922,"idx":89},
+    {"id":"089","section":"main","num":"089","printed":"MACR-EN089","name":"SPYRAL MISSION - Rescue","ctype":"trap","keywords":"SPYRAL Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"9212051","code":"89","tcg":131206,"grp":1922,"idx":90},
+    {"id":"090","section":"main","num":"090","printed":"MACR-EN090","name":"Gift Exchange","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"82257940","code":"90","tcg":131207,"grp":1922,"idx":91},
+    {"id":"091","section":"main","num":"091","printed":"MACR-EN091","name":"Kaiser Sea Snake","ctype":"monster","keywords":"Sea Serpent WATER Effect Monster","stats":{"a":"WATER","l":"Level 8","t":"Sea Serpent / Effect","atk":2500,"def":1000},"rarity":"C","img":"6442944","code":"91","tcg":131208,"grp":1922,"idx":92},
+    {"id":"092","section":"main","num":"092","printed":"MACR-EN092","name":"Bujin Hiruko","ctype":"monster","keywords":"Bujin Beast-Warrior LIGHT Pendulum Normal Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Beast-Warrior / Pendulum / Normal","atk":1000,"def":2000},"rarity":"R","img":"70026064","code":"92","tcg":131209,"grp":1922,"idx":93},
+    {"id":"093","section":"main","num":"093","printed":"MACR-EN093","name":"Sylvan Princessprite","ctype":"monster","keywords":"Sylvan Plant LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 1","t":"Plant / Xyz","atk":1800,"def":100},"rarity":"SR","img":"33909817","code":"93","tcg":131210,"grp":1922,"idx":94},
+    {"id":"094","section":"main","num":"094","printed":"MACR-EN094","name":"Artifact Vajra","ctype":"monster","keywords":"Artifact Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 5","t":"Fairy / Effect","atk":1800,"def":1900},"rarity":"C","img":"69304426","code":"94","tcg":131211,"grp":1922,"idx":95},
+    {"id":"095","section":"main","num":"095","printed":"MACR-EN095","name":"Mild Turkey","ctype":"monster","keywords":"Winged Beast FIRE Pendulum Normal Monster","stats":{"a":"FIRE","l":"Level 4","t":"Winged Beast / Pendulum / Normal","atk":1000,"def":2000},"rarity":"C","img":"47558785","code":"95","tcg":131212,"grp":1922,"idx":96},
+    {"id":"096","section":"main","num":"096","printed":"MACR-EN096","name":"Ghost Beef","ctype":"monster","keywords":"Beast DARK Pendulum Normal Monster","stats":{"a":"DARK","l":"Level 7","t":"Beast / Pendulum / Normal","atk":2000,"def":1000},"rarity":"C","img":"84046493","code":"96","tcg":131213,"grp":1922,"idx":97},
+    {"id":"097","section":"main","num":"097","printed":"MACR-EN097","name":"Vennu, Bright Bird of Divinity","ctype":"monster","keywords":"Fairy LIGHT Ritual Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Fairy / Ritual / Effect","atk":2800,"def":2000},"rarity":"C","img":"10441498","code":"97","tcg":131214,"grp":1922,"idx":98},
+    {"id":"098","section":"main","num":"098","printed":"MACR-EN098","name":"Primal Cry","ctype":"spell","keywords":"Ritual Spell","stats":{"t":"Ritual Spell"},"rarity":"C","img":"47435107","code":"98","tcg":131215,"grp":1922,"idx":99},
+    {"id":"099","section":"main","num":"099","printed":"MACR-EN099","name":"Onikuji","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"73820802","code":"99","tcg":131216,"grp":1922,"idx":100}
+  ]
+}

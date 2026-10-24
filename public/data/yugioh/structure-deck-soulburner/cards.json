@@ -1,0 +1,105 @@
+{
+  "id": "yugioh/structure-deck-soulburner",
+  "game": "yugioh",
+  "slug": "structure-deck-soulburner",
+  "name": "Structure Deck: Soulburner",
+  "series": "VRAINS",
+  "kind": "deck",
+  "code": "SDSB",
+  "syncKey": "YSDSB",
+  "released": "2019-02-14",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "SDSB-EN001–SDSB-EN045",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from SDSB-EN001 to SDSB-EN045."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Structure Deck: Soulburner Checklist · All 45 Cards",
+    "description": "Free Yu-Gi-Oh! Structure Deck: Soulburner checklist with no ads, no sign-up and no tracking. Track all 45 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Structure Deck: Soulburner Checklist",
+    "ogDescription": "Track all 45 cards in Yu-Gi-Oh! Structure Deck: Soulburner. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 45 cards in Yu-Gi-Oh! Structure Deck: Soulburner. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Structure Deck: Soulburner",
+    "paragraphs": [
+      "Structure Deck: Soulburner is a Yu-Gi-Oh! TCG deck released on 14 February 2019, in the VRAINS era. It has 45 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Structure Deck: Soulburner"
+    ],
+    "tcgplayer": [
+      2389
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"SDSB-EN001","name":"Salamangreat Raccoon","ctype":"monster","keywords":"Salamangreat Cyberse FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 1","t":"Cyberse / Effect","atk":400,"def":800},"rarity":"C","img":"53490455","code":"1","tcg":184745,"grp":2389,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"SDSB-EN002","name":"Salamangreat Mole","ctype":"monster","keywords":"Salamangreat Cyberse FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 1","t":"Cyberse / Effect","atk":0,"def":0},"rarity":"C","img":"89484053","code":"2","tcg":184746,"grp":2389,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"SDSB-EN003","name":"Salamangreat Gazelle","ctype":"monster","keywords":"Salamangreat Cyberse FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 3","t":"Cyberse / Effect","atk":1500,"def":1000},"rarity":"SR","img":"26889158","code":"3","tcg":184747,"grp":2389,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"SDSB-EN004","name":"Salamangreat Spinny","ctype":"monster","keywords":"Salamangreat Cyberse FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 3","t":"Cyberse / Effect","atk":1000,"def":1500},"rarity":"SR","img":"52277807","code":"4","tcg":184748,"grp":2389,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"SDSB-EN005","name":"Salamangreat Fowl","ctype":"monster","keywords":"Salamangreat Cyberse FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Cyberse / Effect","atk":1800,"def":200},"rarity":"C","img":"89662401","code":"5","tcg":184749,"grp":2389,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"SDSB-EN006","name":"Salamangreat Beat Bison","ctype":"monster","keywords":"Salamangreat Cyberse FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 8","t":"Cyberse / Effect","atk":2800,"def":1000},"rarity":"C","img":"25166510","code":"6","tcg":184750,"grp":2389,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"SDSB-EN007","name":"Salamangreat Meer","ctype":"monster","keywords":"Salamangreat Cyberse FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 2","t":"Cyberse / Effect","atk":800,"def":600},"rarity":"C","img":"67225377","code":"7","tcg":184751,"grp":2389,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"SDSB-EN008","name":"Salamangreat Foxy","ctype":"monster","keywords":"Salamangreat Cyberse FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 3","t":"Cyberse / Effect","atk":1000,"def":1200},"rarity":"C","img":"94620082","code":"8","tcg":184752,"grp":2389,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"SDSB-EN009","name":"Salamangreat Falco","ctype":"monster","keywords":"Salamangreat Cyberse FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Cyberse / Effect","atk":1200,"def":1600},"rarity":"C","img":"20618081","code":"9","tcg":184753,"grp":2389,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"SDSB-EN010","name":"Salamangreat Jack Jaguar","ctype":"monster","keywords":"Salamangreat Cyberse FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Cyberse / Effect","atk":1800,"def":1200},"rarity":"C","img":"56003780","code":"10","tcg":184754,"grp":2389,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"SDSB-EN011","name":"Salamangreat Wolvie","ctype":"monster","keywords":"Salamangreat Cyberse FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Cyberse / Effect","atk":1700,"def":1000},"rarity":"C","img":"13173832","code":"11","tcg":184755,"grp":2389,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"SDSB-EN012","name":"Salamangreat Parro","ctype":"monster","keywords":"Salamangreat Cyberse FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 5","t":"Cyberse / Effect","atk":2000,"def":1000},"rarity":"C","img":"59577547","code":"12","tcg":184756,"grp":2389,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"SDSB-EN013","name":"Salamangreat Foxer","ctype":"monster","keywords":"Salamangreat Cyberse FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 3","t":"Cyberse / Effect","atk":1200,"def":1000},"rarity":"C","img":"86962245","code":"13","tcg":184757,"grp":2389,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"SDSB-EN014","name":"True King Agnimazud, the Vanisher","ctype":"monster","keywords":"Wyrm FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 9","t":"Wyrm / Effect","atk":2900,"def":1900},"rarity":"C","img":"96746083","code":"14","tcg":184758,"grp":2389,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"SDSB-EN015","name":"Dogoran, the Mad Flame Kaiju","ctype":"monster","keywords":"Kaiju Dinosaur FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 8","t":"Dinosaur / Effect","atk":3000,"def":1200},"rarity":"C","img":"93332803","code":"15","tcg":184759,"grp":2389,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"SDSB-EN016","name":"Flamvell Firedog","ctype":"monster","keywords":"Flamvell Beast FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Beast / Effect","atk":1900,"def":200},"rarity":"C","img":"23297235","code":"16","tcg":184760,"grp":2389,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"SDSB-EN017","name":"Fencing Fire Ferret","ctype":"monster","keywords":"Beast FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Beast / Effect","atk":1700,"def":600},"rarity":"C","img":"97396380","code":"17","tcg":184761,"grp":2389,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"SDSB-EN018","name":"Inferno","ctype":"monster","keywords":"Pyro FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Pyro / Effect","atk":1100,"def":1900},"rarity":"C","img":"74823665","code":"18","tcg":184762,"grp":2389,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"SDSB-EN019","name":"Ash Blossom & Joyous Spring","ctype":"monster","keywords":"Zombie FIRE Tuner Monster","stats":{"a":"FIRE","l":"Level 3","t":"Zombie / Tuner","atk":0,"def":1800},"rarity":"C","img":"14558127","code":"19","tcg":184763,"grp":2389,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"SDSB-EN020","name":"Red Resonator","ctype":"monster","keywords":"Resonator Fiend FIRE Tuner Monster","stats":{"a":"FIRE","l":"Level 2","t":"Fiend / Tuner","atk":600,"def":200},"rarity":"C","img":"40975574","code":"20","tcg":184764,"grp":2389,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"SDSB-EN021","name":"Volcanic Shell","ctype":"monster","keywords":"Volcanic Pyro FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 1","t":"Pyro / Effect","atk":100,"def":0},"rarity":"C","img":"33365932","code":"21","tcg":184765,"grp":2389,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"SDSB-EN022","name":"Formud Skipper","ctype":"monster","keywords":"Cyberse LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Cyberse / Effect","atk":0,"def":0},"rarity":"C","img":"50366775","code":"22","tcg":184766,"grp":2389,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"SDSB-EN023","name":"Salamangreat Circle","ctype":"spell","keywords":"Salamangreat Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"SR","img":"52155219","code":"23","tcg":184767,"grp":2389,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"SDSB-EN024","name":"Salamangreat Claw","ctype":"spell","keywords":"Salamangreat Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"88540324","code":"24","tcg":184768,"grp":2389,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"SDSB-EN025","name":"Salamangreat Sanctuary","ctype":"spell","keywords":"Salamangreat Field Spell","stats":{"t":"Field Spell"},"rarity":"C","img":"1295111","code":"25","tcg":184769,"grp":2389,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"SDSB-EN026","name":"Will of the Salamangreat","ctype":"spell","keywords":"Salamangreat Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"64178424","code":"26","tcg":184770,"grp":2389,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"SDSB-EN027","name":"Monster Reincarnation","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"74848038","code":"27","tcg":184771,"grp":2389,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"SDSB-EN028","name":"Circle of the Fire Kings","ctype":"spell","keywords":"Fire King Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"59388357","code":"28","tcg":184772,"grp":2389,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"SDSB-EN029","name":"Transmodify","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"5288597","code":"29","tcg":184773,"grp":2389,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"SDSB-EN030","name":"Link Bound","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"51335426","code":"30","tcg":184774,"grp":2389,"idx":29},
+    {"id":"031","section":"main","num":"031","printed":"SDSB-EN031","name":"Magic Planter","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"1073952","code":"31","tcg":184775,"grp":2389,"idx":30},
+    {"id":"032","section":"main","num":"032","printed":"SDSB-EN032","name":"Salamangreat Rage","ctype":"trap","keywords":"Salamangreat Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"14934922","code":"32","tcg":184776,"grp":2389,"idx":31},
+    {"id":"033","section":"main","num":"033","printed":"SDSB-EN033","name":"Salamangreat Roar","ctype":"trap","keywords":"Salamangreat Counter Trap","stats":{"t":"Counter Trap"},"rarity":"SR","img":"51339637","code":"33","tcg":184777,"grp":2389,"idx":32},
+    {"id":"034","section":"main","num":"034","printed":"SDSB-EN034","name":"Salamangreat Gift","ctype":"trap","keywords":"Salamangreat Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"20788863","code":"34","tcg":184778,"grp":2389,"idx":33},
+    {"id":"035","section":"main","num":"035","printed":"SDSB-EN035","name":"The Transmigration Prophecy","ctype":"trap","keywords":"Spellbook Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"46652477","code":"35","tcg":184779,"grp":2389,"idx":34},
+    {"id":"036","section":"main","num":"036","printed":"SDSB-EN036","name":"Threatening Roar","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"36361633","code":"36","tcg":184780,"grp":2389,"idx":35},
+    {"id":"037","section":"main","num":"037","printed":"SDSB-EN037","name":"Break Off Trap Hole","ctype":"trap","keywords":"Hole Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"56526564","code":"37","tcg":184781,"grp":2389,"idx":36},
+    {"id":"038","section":"main","num":"038","printed":"SDSB-EN038","name":"Backfire","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"82705573","code":"38","tcg":184782,"grp":2389,"idx":37},
+    {"id":"039","section":"main","num":"039","printed":"SDSB-EN039","name":"Gozen Match","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"53334471","code":"39","tcg":184783,"grp":2389,"idx":38},
+    {"id":"040","section":"main","num":"040","printed":"SDSB-EN040","name":"Salamangreat Heatleo","ctype":"monster","keywords":"Salamangreat Cyberse FIRE Link Monster","stats":{"a":"FIRE","l":"Link 3","t":"Cyberse / Link","atk":2300},"rarity":"UR","img":"41463182","code":"40","tcg":184784,"grp":2389,"idx":39},
+    {"id":"041","section":"main","num":"041","printed":"SDSB-EN041","name":"Salamangreat Heatleo","ctype":"monster","keywords":"Salamangreat Cyberse FIRE Link Monster","stats":{"a":"FIRE","l":"Link 3","t":"Cyberse / Link","atk":2300},"rarity":"C","img":"41463181","code":"41","tcg":184785,"grp":2389,"idx":40},
+    {"id":"042","section":"main","num":"042","printed":"SDSB-EN042","name":"Salamangreat Miragestallio","ctype":"monster","keywords":"Salamangreat Cyberse FIRE Xyz Monster","stats":{"a":"FIRE","l":"Rank 3","t":"Cyberse / Xyz","atk":2000,"def":900},"rarity":"UR","img":"87327776","code":"42","tcg":184786,"grp":2389,"idx":41},
+    {"id":"043","section":"main","num":"043","printed":"SDSB-EN043","name":"Salamangreat Balelynx","ctype":"monster","keywords":"Salamangreat Cyberse FIRE Link Monster","stats":{"a":"FIRE","l":"Link 1","t":"Cyberse / Link","atk":500},"rarity":"UR","img":"14812471","code":"43","tcg":184787,"grp":2389,"idx":42},
+    {"id":"044","section":"main","num":"044","printed":"SDSB-EN044","name":"Flame Administrator","ctype":"monster","keywords":"Cyberse FIRE Link Monster","stats":{"a":"FIRE","l":"Link 2","t":"Cyberse / Link","atk":1200},"rarity":"C","img":"49847524","code":"44","tcg":184788,"grp":2389,"idx":43},
+    {"id":"045","section":"main","num":"045","printed":"SDSB-EN045","name":"Duelittle Chimera","ctype":"monster","keywords":"Beast FIRE Link Monster","stats":{"a":"FIRE","l":"Link 2","t":"Beast / Link","atk":1400},"rarity":"C","img":"37880706","code":"45","tcg":184789,"grp":2389,"idx":44}
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "id": "yugioh/ots-tournament-pack-6",
+  "game": "yugioh",
+  "slug": "ots-tournament-pack-6",
+  "name": "OTS Tournament Pack 6",
+  "series": "VRAINS",
+  "kind": "pack",
+  "code": "OP06",
+  "syncKey": "YOP06",
+  "released": "2017-12-07",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "OP06-EN001–OP06-EN026",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from OP06-EN001 to OP06-EN026."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! OTS Tournament Pack 6 Checklist · All 26 Cards",
+    "description": "Free Yu-Gi-Oh! OTS Tournament Pack 6 checklist with no ads, no sign-up and no tracking. Track all 26 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! OTS Tournament Pack 6 Checklist",
+    "ogDescription": "Track all 26 cards in Yu-Gi-Oh! OTS Tournament Pack 6. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 26 cards in Yu-Gi-Oh! OTS Tournament Pack 6. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About OTS Tournament Pack 6",
+    "paragraphs": [
+      "OTS Tournament Pack 6 is a Yu-Gi-Oh! TCG pack released on 7 December 2017, in the VRAINS era. It has 26 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "OTS Tournament Pack 6"
+    ],
+    "tcgplayer": [
+      2157
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"OP06-EN001","name":"Decode Talker","ctype":"monster","keywords":"Code Talker Cyberse DARK Link Monster","stats":{"a":"DARK","l":"Link 3","t":"Cyberse / Link","atk":2300},"rarity":"UtR","img":"1861629","code":"1","tcg":154613,"grp":2157,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"OP06-EN002","name":"Brilliant Fusion","ctype":"spell","keywords":"Gem- Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"UtR","img":"7394770","code":"2","tcg":154614,"grp":2157,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"OP06-EN003","name":"Invocation","ctype":"spell","keywords":"Invoked Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UtR","img":"74063034","code":"3","tcg":154615,"grp":2157,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"OP06-EN004","name":"Revendread Slayer","ctype":"monster","keywords":"Vendread Zombie DARK Ritual Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Zombie / Ritual / Effect","atk":2400,"def":0},"rarity":"SR","img":"4388680","code":"4","tcg":154616,"grp":2157,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"OP06-EN005","name":"Fairy Tail - Rella","ctype":"monster","keywords":"Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Effect","atk":1850,"def":1000},"rarity":"SR","img":"52022648","code":"5","tcg":154617,"grp":2157,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"OP06-EN006","name":"Paleozoic Canadia","ctype":"trap","keywords":"Paleozoic Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"98414735","code":"6","tcg":154618,"grp":2157,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"OP06-EN007","name":"Paleozoic Eldonia","ctype":"trap","keywords":"Paleozoic Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"2376209","code":"7","tcg":154619,"grp":2157,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"OP06-EN008","name":"Paleozoic Hallucigenia","ctype":"trap","keywords":"Paleozoic Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"61420130","code":"8","tcg":154620,"grp":2157,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"OP06-EN009","name":"Set Rotation","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"SR","img":"73468603","code":"9","tcg":154621,"grp":2157,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"OP06-EN010","name":"Black Metal Dragon","ctype":"monster","keywords":"Red-Eyes Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Dragon / Effect","atk":600,"def":600},"rarity":"SR","img":"93969023","code":"10","tcg":154622,"grp":2157,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"OP06-EN011","name":"Windwitch - Winter Bell","ctype":"monster","keywords":"Windwitch Spellcaster WIND Synchro Monster","stats":{"a":"WIND","l":"Level 7","t":"Spellcaster / Synchro","atk":2400,"def":2000},"rarity":"SR","img":"14577226","code":"11","tcg":154627,"grp":2157,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"OP06-EN012","name":"Trickstar Lilybell","ctype":"monster","keywords":"Trickstar Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 2","t":"Fairy / Effect","atk":800,"def":2000},"rarity":"SR","img":"98700941","code":"12","tcg":154629,"grp":2157,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"OP06-EN013","name":"Overload Fusion","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"3659803","code":"13","tcg":154631,"grp":2157,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"OP06-EN014","name":"Gem-Knight Garnet","ctype":"monster","keywords":"Gem- Pyro EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 4","t":"Pyro / Normal","atk":1900,"def":0},"rarity":"C","img":"91731841","code":"14","tcg":154636,"grp":2157,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"OP06-EN015","name":"Shiranui Spiritmaster","ctype":"monster","keywords":"Shiranui Zombie FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Zombie / Effect","atk":1500,"def":0},"rarity":"C","img":"99423156","code":"15","tcg":154637,"grp":2157,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"OP06-EN016","name":"Predaplant Ophrys Scorpio","ctype":"monster","keywords":"Predaplant Plant DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Plant / Effect","atk":1200,"def":800},"rarity":"C","img":"35272499","code":"16","tcg":154638,"grp":2157,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"OP06-EN017","name":"Gozuki","ctype":"monster","keywords":"Zombie EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Zombie / Effect","atk":1700,"def":800},"rarity":"C","img":"52467217","code":"17","tcg":154639,"grp":2157,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"OP06-EN018","name":"Lightray Grepher","ctype":"monster","keywords":"Grepher Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Effect","atk":1700,"def":1600},"rarity":"C","img":"27407330","code":"18","tcg":154640,"grp":2157,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"OP06-EN019","name":"Recurring Nightmare","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"81191584","code":"19","tcg":154641,"grp":2157,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"OP06-EN020","name":"Dragon Shrine","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"41620959","code":"20","tcg":154643,"grp":2157,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"OP06-EN021","name":"Phantom Skyblaster","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Effect","atk":1100,"def":800},"rarity":"C","img":"12958919","code":"21","tcg":154647,"grp":2157,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"OP06-EN022","name":"Ojama Blue","ctype":"monster","keywords":"Ojama Beast LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 2","t":"Beast / Effect","atk":0,"def":1000},"rarity":"C","img":"64627453","code":"22","tcg":154648,"grp":2157,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"OP06-EN023","name":"Disturbance Strategy","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"77561728","code":"23","tcg":154651,"grp":2157,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"OP06-EN024","name":"Enishi, Shien's Chancellor","ctype":"monster","keywords":"Six Samurai Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Warrior / Effect","atk":2200,"def":1200},"rarity":"C","img":"38280762","code":"24","tcg":154653,"grp":2157,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"OP06-EN025","name":"Amazoness Queen","ctype":"monster","keywords":"Amazoness Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 6","t":"Warrior / Effect","atk":2400,"def":1800},"rarity":"C","img":"15951532","code":"25","tcg":154656,"grp":2157,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"OP06-EN026","name":"Gem-Knight Seraphinite","ctype":"monster","keywords":"Gem- Fairy EARTH Fusion Monster","stats":{"a":"EARTH","l":"Level 5","t":"Fairy / Fusion","atk":2300,"def":1400},"rarity":"C","img":"3113836","code":"26","tcg":154657,"grp":2157,"idx":25}
+  ]
+}

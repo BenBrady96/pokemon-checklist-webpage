@@ -1,0 +1,133 @@
+{
+  "id": "yugioh/dark-saviors",
+  "game": "yugioh",
+  "slug": "dark-saviors",
+  "name": "Dark Saviors",
+  "series": "VRAINS",
+  "kind": "set",
+  "code": "DASA",
+  "syncKey": "YDASA",
+  "released": "2018-05-24",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Main Set",
+      "range": "DASA-EN001–DASA-EN060",
+      "tier": "standard"
+    },
+    {
+      "id": "rarities",
+      "name": "Other Rarities",
+      "short": "Other Rarities",
+      "range": "1 card",
+      "tier": "master"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Main set"
+    ],
+    [
+      "rarities",
+      "Other rarities"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, SCR12, 60x2",
+    "example": "1-20, 45x2, SCR12",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies. Other rarities use their short name and number: <b>SCR12</b> is card 12’s Secret Rare, and ranges work too (<b>QCSR1-QCSR20</b>).",
+    "empty": "Cards run from DASA-EN001 to DASA-EN060."
+  },
+  "help": {
+    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 60 cards, each in its main rarity. Master adds the 1 other rarity. Cards you’ve marked are kept when you switch."
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Dark Saviors Checklist · All 60 Cards",
+    "description": "Free Yu-Gi-Oh! Dark Saviors checklist with no ads, no sign-up and no tracking. Track all 60 cards, or every rarity for a master set, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Dark Saviors Checklist",
+    "ogDescription": "Track all 60 cards in Yu-Gi-Oh! Dark Saviors, plus 1 other rarity. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 60 cards in Yu-Gi-Oh! Dark Saviors. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About the Dark Saviors set",
+    "paragraphs": [
+      "Dark Saviors is a Yu-Gi-Oh! TCG special set released on 24 May 2018, in the VRAINS era. It has 60 cards, and with the 1 other rarity there are 61 to collect in all.",
+      "Choose what you’re collecting: the <b>Standard set</b> (the 60 cards, each in its main rarity) or the <b>Master set</b> (all 61, adding the 1 other rarity).",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Dark Saviors"
+    ],
+    "tcgplayer": [
+      2231
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"DASA-EN001","name":"Vampire Familiar","ctype":"monster","keywords":"Vampire Zombie DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Zombie / Effect","atk":500,"def":0},"rarity":"SR","img":"34250214","code":"1","tcg":167162,"grp":2231,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"DASA-EN002","name":"Vampire Retainer","ctype":"monster","keywords":"Vampire Zombie DARK Effect Monster","stats":{"a":"DARK","l":"Level 2","t":"Zombie / Effect","atk":1200,"def":0},"rarity":"SR","img":"70645913","code":"2","tcg":167163,"grp":2231,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"DASA-EN003","name":"Vampire Fraulein","ctype":"monster","keywords":"Vampire Zombie DARK Effect Monster","stats":{"a":"DARK","l":"Level 5","t":"Zombie / Effect","atk":600,"def":2000},"rarity":"ScR","img":"6039967","code":"3","tcg":167164,"grp":2231,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"DASA-EN004","name":"Vampire Grimson","ctype":"monster","keywords":"Vampire Zombie DARK Effect Monster","stats":{"a":"DARK","l":"Level 5","t":"Zombie / Effect","atk":2000,"def":1400},"rarity":"SR","img":"33438666","code":"4","tcg":167165,"grp":2231,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"DASA-EN005","name":"Vampire Scarlet Scourge","ctype":"monster","keywords":"Vampire Zombie DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Zombie / Effect","atk":2200,"def":2200},"rarity":"ScR","img":"79523365","code":"5","tcg":167166,"grp":2231,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"DASA-EN006","name":"Vampire Red Baron","ctype":"monster","keywords":"Vampire Zombie DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Zombie / Effect","atk":2400,"def":1000},"rarity":"SR","img":"6917479","code":"6","tcg":167167,"grp":2231,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"DASA-EN007","name":"Dhampir Vampire Sheridan","ctype":"monster","keywords":"Vampire Zombie DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 6","t":"Zombie / Xyz","atk":2600,"def":1000},"rarity":"ScR","img":"32302078","code":"7","tcg":167168,"grp":2231,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"DASA-EN008","name":"Vampire's Desire","ctype":"spell","keywords":"Vampire Normal Spell","stats":{"t":"Normal Spell"},"rarity":"ScR","img":"69700783","code":"8","tcg":167169,"grp":2231,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"DASA-EN009","name":"Vampire's Domain","ctype":"spell","keywords":"Vampire Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"ScR","img":"5795882","code":"9","tcg":167170,"grp":2231,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"DASA-EN010","name":"Vampire Awakening","ctype":"trap","keywords":"Vampire Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"31189536","code":"10","tcg":167171,"grp":2231,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"DASA-EN011","name":"Vampire Domination","ctype":"trap","keywords":"Vampire Counter Trap","stats":{"t":"Counter Trap"},"rarity":"SR","img":"68688135","code":"11","tcg":167172,"grp":2231,"idx":10},
+    {"id":"011-scr","section":"rarities","num":"011","printed":"DASA-EN011","name":"Vampire Domination","ctype":"trap","keywords":"Vampire Counter Trap","stats":{"t":"Counter Trap"},"rarity":"ScR","img":"68688135","badge":"ScR","variant":"Secret Rare","code":"SCR11","tcg":167172,"grp":2231,"idx":11},
+    {"id":"012","section":"main","num":"012","printed":"DASA-EN012","name":"Shadow Vampire","ctype":"monster","keywords":"Vampire Zombie DARK Effect Monster","stats":{"a":"DARK","l":"Level 5","t":"Zombie / Effect","atk":2000,"def":0},"rarity":"SR","img":"14212201","code":"12","tcg":167173,"grp":2231,"idx":12},
+    {"id":"013","section":"main","num":"013","printed":"DASA-EN013","name":"Crimson Knight Vampire Bram","ctype":"monster","keywords":"Vampire Zombie DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 5","t":"Zombie / Xyz","atk":2500,"def":0},"rarity":"SR","img":"38250531","code":"13","tcg":167174,"grp":2231,"idx":13},
+    {"id":"014","section":"main","num":"014","printed":"DASA-EN014","name":"Donpa, Marksman Fur Hire","ctype":"monster","keywords":"Fur Hire Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 2","t":"Beast / Effect","atk":500,"def":1000},"rarity":"SR","img":"94073244","code":"14","tcg":167175,"grp":2231,"idx":14},
+    {"id":"015","section":"main","num":"015","printed":"DASA-EN015","name":"Recon, Scout Fur Hire","ctype":"monster","keywords":"Fur Hire Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 2","t":"Beast / Effect","atk":1000,"def":500},"rarity":"SR","img":"31467949","code":"15","tcg":167176,"grp":2231,"idx":15},
+    {"id":"016","section":"main","num":"016","printed":"DASA-EN016","name":"Helmer, Helmsman Fur Hire","ctype":"monster","keywords":"Fur Hire Aqua WATER Effect Monster","stats":{"a":"WATER","l":"Level 3","t":"Aqua / Effect","atk":0,"def":2000},"rarity":"SR","img":"67466547","code":"16","tcg":167177,"grp":2231,"idx":16},
+    {"id":"017","section":"main","num":"017","printed":"DASA-EN017","name":"Beat, Bladesman Fur Hire","ctype":"monster","keywords":"Fur Hire Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Warrior / Effect","atk":1200,"def":500},"rarity":"ScR","img":"93850652","code":"17","tcg":167178,"grp":2231,"idx":17},
+    {"id":"018","section":"main","num":"018","printed":"DASA-EN018","name":"Seal, Strategist Fur Hire","ctype":"monster","keywords":"Fur Hire Beast-Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Beast-Warrior / Effect","atk":1600,"def":1000},"rarity":"SR","img":"20345391","code":"18","tcg":167179,"grp":2231,"idx":18},
+    {"id":"019","section":"main","num":"019","printed":"DASA-EN019","name":"Bravo, Fighter Fur Hire","ctype":"monster","keywords":"Fur Hire Reptile FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Reptile / Effect","atk":1900,"def":200},"rarity":"SR","img":"66740005","code":"19","tcg":167180,"grp":2231,"idx":19},
+    {"id":"020","section":"main","num":"020","printed":"DASA-EN020","name":"Sagitta, Maverick Fur Hire","ctype":"monster","keywords":"Fur Hire Winged Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 5","t":"Winged Beast / Effect","atk":1200,"def":2400},"rarity":"ScR","img":"93738004","code":"20","tcg":167181,"grp":2231,"idx":20},
+    {"id":"021","section":"main","num":"021","printed":"DASA-EN021","name":"Dyna, Hero Fur Hire","ctype":"monster","keywords":"Fur Hire Beast-Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 6","t":"Beast-Warrior / Effect","atk":2500,"def":1400},"rarity":"ScR","img":"25123713","code":"21","tcg":167182,"grp":2231,"idx":21},
+    {"id":"022","section":"main","num":"022","printed":"DASA-EN022","name":"Wiz, Sage Fur Hire","ctype":"monster","keywords":"Fur Hire Spellcaster WATER Effect Monster","stats":{"a":"WATER","l":"Level 7","t":"Spellcaster / Effect","atk":1600,"def":2800},"rarity":"ScR","img":"1527418","code":"22","tcg":167183,"grp":2231,"idx":22},
+    {"id":"023","section":"main","num":"023","printed":"DASA-EN023","name":"Rafale, Champion Fur Hire","ctype":"monster","keywords":"Fur Hire Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Effect","atk":2800,"def":2200},"rarity":"ScR","img":"38916526","code":"23","tcg":167184,"grp":2231,"idx":23},
+    {"id":"024","section":"main","num":"024","printed":"DASA-EN024","name":"Fandora, the Flying Furtress","ctype":"spell","keywords":"Fur Hire Field Spell","stats":{"t":"Field Spell"},"rarity":"SR","img":"64400161","code":"24","tcg":167185,"grp":2231,"idx":24},
+    {"id":"025","section":"main","num":"025","printed":"DASA-EN025","name":"Mayhem Fur Hire","ctype":"spell","keywords":"Fur Hire Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"ScR","img":"91405870","code":"25","tcg":167186,"grp":2231,"idx":25},
+    {"id":"026","section":"main","num":"026","printed":"DASA-EN026","name":"Training Fur Hire, Fur All Your Training Needs","ctype":"trap","keywords":"Fur Hire Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"ScR","img":"37890974","code":"26","tcg":167187,"grp":2231,"idx":26},
+    {"id":"027","section":"main","num":"027","printed":"DASA-EN027","name":"Sky Striker Ace - Kagari","ctype":"monster","keywords":"Sky Striker Machine FIRE Link Monster","stats":{"a":"FIRE","l":"Link 1","t":"Machine / Link","atk":1500},"rarity":"SR","img":"63288573","code":"27","tcg":167188,"grp":2231,"idx":27},
+    {"id":"028","section":"main","num":"028","printed":"DASA-EN028","name":"Sky Striker Ace - Shizuku","ctype":"monster","keywords":"Sky Striker Machine WATER Link Monster","stats":{"a":"WATER","l":"Link 1","t":"Machine / Link","atk":1500},"rarity":"SR","img":"90673288","code":"28","tcg":167189,"grp":2231,"idx":28},
+    {"id":"029","section":"main","num":"029","printed":"DASA-EN029","name":"Sky Striker Ace - Raye","ctype":"monster","keywords":"Sky Striker Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Warrior / Effect","atk":1500,"def":1500},"rarity":"SR","img":"26077387","code":"29","tcg":167190,"grp":2231,"idx":29},
+    {"id":"030","section":"main","num":"030","printed":"DASA-EN030","name":"Sky Striker Mobilize - Engage!","ctype":"spell","keywords":"Sky Striker Normal Spell","stats":{"t":"Normal Spell"},"rarity":"ScR","img":"63166095","code":"30","tcg":167191,"grp":2231,"idx":30},
+    {"id":"031","section":"main","num":"031","printed":"DASA-EN031","name":"Sky Striker Maneuver - Afterburners!","ctype":"spell","keywords":"Sky Striker Normal Spell","stats":{"t":"Normal Spell"},"rarity":"ScR","img":"99550630","code":"31","tcg":167192,"grp":2231,"idx":31},
+    {"id":"032","section":"main","num":"032","printed":"DASA-EN032","name":"Sky Striker Maneuver - Jamming Waves!","ctype":"spell","keywords":"Sky Striker Normal Spell","stats":{"t":"Normal Spell"},"rarity":"ScR","img":"25955749","code":"32","tcg":167193,"grp":2231,"idx":32},
+    {"id":"033","section":"main","num":"033","printed":"DASA-EN033","name":"Sky Striker Mecha - Hornet Drones","ctype":"spell","keywords":"Sky Striker Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"SR","img":"52340444","code":"33","tcg":167194,"grp":2231,"idx":33},
+    {"id":"034","section":"main","num":"034","printed":"DASA-EN034","name":"Sky Striker Mecha - Widow Anchor","ctype":"spell","keywords":"Sky Striker Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"ScR","img":"98338152","code":"34","tcg":167195,"grp":2231,"idx":34},
+    {"id":"035","section":"main","num":"035","printed":"DASA-EN035","name":"Sky Striker Mecha - Eagle Booster","ctype":"spell","keywords":"Sky Striker Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"SR","img":"25733157","code":"35","tcg":167196,"grp":2231,"idx":35},
+    {"id":"036","section":"main","num":"036","printed":"DASA-EN036","name":"Sky Striker Mecha - Shark Cannon","ctype":"spell","keywords":"Sky Striker Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"ScR","img":"51227866","code":"36","tcg":167197,"grp":2231,"idx":36},
+    {"id":"037","section":"main","num":"037","printed":"DASA-EN037","name":"Sky Striker Mecharmory - Hercules Base","ctype":"spell","keywords":"Sky Striker Equip Spell","stats":{"t":"Equip Spell"},"rarity":"SR","img":"97616504","code":"37","tcg":167198,"grp":2231,"idx":37},
+    {"id":"038","section":"main","num":"038","printed":"DASA-EN038","name":"Sky Striker Mecha Modules - Multirole","ctype":"spell","keywords":"Sky Striker Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"ScR","img":"24010609","code":"38","tcg":167199,"grp":2231,"idx":38},
+    {"id":"039","section":"main","num":"039","printed":"DASA-EN039","name":"Sky Striker Airspace - Area Zero","ctype":"spell","keywords":"Sky Striker Field Spell","stats":{"t":"Field Spell"},"rarity":"SR","img":"50005218","code":"39","tcg":167200,"grp":2231,"idx":39},
+    {"id":"040","section":"main","num":"040","printed":"DASA-EN040","name":"Armageddon Knight","ctype":"monster","keywords":"Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Warrior / Effect","atk":1400,"def":1200},"rarity":"SR","img":"28985331","code":"40","tcg":167201,"grp":2231,"idx":40},
+    {"id":"041","section":"main","num":"041","printed":"DASA-EN041","name":"Plaguespreader Zombie","ctype":"monster","keywords":"Zombie DARK Tuner Monster","stats":{"a":"DARK","l":"Level 2","t":"Zombie / Tuner","atk":400,"def":200},"rarity":"SR","img":"33420078","code":"41","tcg":167202,"grp":2231,"idx":41},
+    {"id":"042","section":"main","num":"042","printed":"DASA-EN042","name":"Dark Grepher","ctype":"monster","keywords":"Grepher Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Warrior / Effect","atk":1700,"def":1600},"rarity":"SR","img":"14536035","code":"42","tcg":167203,"grp":2231,"idx":42},
+    {"id":"043","section":"main","num":"043","printed":"DASA-EN043","name":"Toon Table of Contents","ctype":"spell","keywords":"Toon Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"89997728","code":"43","tcg":167204,"grp":2231,"idx":43},
+    {"id":"044","section":"main","num":"044","printed":"DASA-EN044","name":"The Monarchs Stormforth","ctype":"spell","keywords":"Monarch Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"SR","img":"79844764","code":"44","tcg":167205,"grp":2231,"idx":44},
+    {"id":"045","section":"main","num":"045","printed":"DASA-EN045","name":"Drowning Mirror Force","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"47475363","code":"45","tcg":167206,"grp":2231,"idx":45},
+    {"id":"046","section":"main","num":"046","printed":"DASA-EN046","name":"Mystic Tomato","ctype":"monster","keywords":"Plant DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Plant / Effect","atk":1400,"def":1100},"rarity":"SR","img":"83011278","code":"46","tcg":167207,"grp":2231,"idx":46},
+    {"id":"047","section":"main","num":"047","printed":"DASA-EN047","name":"Vampiric Orchis","ctype":"monster","keywords":"Plant EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Plant / Effect","atk":1700,"def":1000},"rarity":"SR","img":"46571052","code":"47","tcg":167208,"grp":2231,"idx":47},
+    {"id":"048","section":"main","num":"048","printed":"DASA-EN048","name":"Vampiric Koala","ctype":"monster","keywords":"Koala Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Beast / Effect","atk":1800,"def":1500},"rarity":"SR","img":"1371589","code":"48","tcg":167209,"grp":2231,"idx":48},
+    {"id":"049","section":"main","num":"049","printed":"DASA-EN049","name":"Vampire Sorcerer","ctype":"monster","keywords":"Vampire Zombie DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Zombie / Effect","atk":1500,"def":1500},"rarity":"SR","img":"88728507","code":"49","tcg":167210,"grp":2231,"idx":49},
+    {"id":"050","section":"main","num":"050","printed":"DASA-EN050","name":"Vampire Vamp","ctype":"monster","keywords":"Vampire Zombie DARK Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Zombie / Effect","atk":2000,"def":2000},"rarity":"SR","img":"82962242","code":"50","tcg":167211,"grp":2231,"idx":50},
+    {"id":"051","section":"main","num":"051","printed":"DASA-EN051","name":"Kuribandit","ctype":"monster","keywords":"Kuriboh Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Fiend / Effect","atk":1000,"def":700},"rarity":"SR","img":"16404809","code":"51","tcg":167212,"grp":2231,"idx":51},
+    {"id":"052","section":"main","num":"052","printed":"DASA-EN052","name":"Scapegoat","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"SR","img":"73915051","code":"52","tcg":167213,"grp":2231,"idx":52},
+    {"id":"053","section":"main","num":"053","printed":"DASA-EN053","name":"Reinforcement of the Army","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"32807846","code":"53","tcg":167214,"grp":2231,"idx":53},
+    {"id":"054","section":"main","num":"054","printed":"DASA-EN054","name":"Allure of Darkness","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"1475311","code":"54","tcg":167215,"grp":2231,"idx":54},
+    {"id":"055","section":"main","num":"055","printed":"DASA-EN055","name":"Magical Citadel of Endymion","ctype":"spell","keywords":"Endymion Field Spell","stats":{"t":"Field Spell"},"rarity":"ScR","img":"39910367","code":"55","tcg":167216,"grp":2231,"idx":55},
+    {"id":"056","section":"main","num":"056","printed":"DASA-EN056","name":"Spell Power Grasp","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"75014062","code":"56","tcg":167217,"grp":2231,"idx":56},
+    {"id":"057","section":"main","num":"057","printed":"DASA-EN057","name":"Quick Booster","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"SR","img":"45869829","code":"57","tcg":167218,"grp":2231,"idx":57},
+    {"id":"058","section":"main","num":"058","printed":"DASA-EN058","name":"Foolish Burial Goods","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"35726888","code":"58","tcg":167219,"grp":2231,"idx":58},
+    {"id":"059","section":"main","num":"059","printed":"DASA-EN059","name":"Mirror Force","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"44095762","code":"59","tcg":167220,"grp":2231,"idx":59},
+    {"id":"060","section":"main","num":"060","printed":"DASA-EN060","name":"Horn of the Phantom Beast","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"21350571","code":"60","tcg":167221,"grp":2231,"idx":60}
+  ]
+}

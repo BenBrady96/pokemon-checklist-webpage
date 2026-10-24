@@ -1,4 +1,4 @@
-import { loadCatalog } from '../core/catalog.js';
+import { loadCatalog, groupByGame } from '../core/catalog.js';
 import { asset } from '../core/paths.js';
 import { normalize } from '../core/model.js';
 import * as storage from '../core/storage.js';
@@ -544,7 +544,7 @@ function showSharePanel(name) {
 
 function renderPicker() {
   const ids = shareable();
-  shareField('sets').replaceChildren(...ids.map((id) => {
+  const row = (id) => {
     const info = setInfo(id);
     return el('li', {}, el('label', { class: 'rcv-set tr-picker__set' },
       el('input', {
@@ -562,7 +562,24 @@ function renderPicker() {
       el('span', { class: 'rcv-set__main' },
         el('b', { text: info.name }),
         el('small', { text: plural(cardsIn(id), 'card', 'cards') }))));
-  }));
+  };
+  const toggle = (group, on) => {
+    for (const id of group) {
+      if (on) picked.add(id);
+      else picked.delete(id);
+    }
+    renderPicker();
+  };
+  const groups = groupByGame(catalog, ids);
+  shareField('sets').replaceChildren(...(groups.length > 1
+    ? groups.flatMap(({ game, ids: inGame }) => [
+      el('li', { class: 'rcv-game tr-picker__game' },
+        el('span', { text: game.name }),
+        el('button', { type: 'button', class: 'link-btn', onclick: () => toggle(inGame, true) }, 'All'),
+        el('button', { type: 'button', class: 'link-btn', onclick: () => toggle(inGame, false) }, 'None')),
+      ...inGame.map(row),
+    ])
+    : ids.map(row)));
   const empty = shareField('sets-empty');
   empty.hidden = ids.length > 0;
   empty.textContent = ids.length ? '' : 'Couldn’t load your sets. Check your connection and try again.';

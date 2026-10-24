@@ -1,0 +1,96 @@
+{
+  "id": "yugioh/the-dark-emperor-structure-deck",
+  "game": "yugioh",
+  "slug": "the-dark-emperor-structure-deck",
+  "name": "The Dark Emperor Structure Deck",
+  "series": "GX",
+  "kind": "deck",
+  "code": "SDDE",
+  "syncKey": "YSDDE",
+  "released": "2008-04-02",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "SDDE-EN001–SDDE-EN036",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from SDDE-EN001 to SDDE-EN036."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! The Dark Emperor Structure Deck Checklist · All 36 Cards",
+    "description": "Free Yu-Gi-Oh! The Dark Emperor Structure Deck checklist with no ads, no sign-up and no tracking. Track all 36 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! The Dark Emperor Structure Deck Checklist",
+    "ogDescription": "Track all 36 cards in Yu-Gi-Oh! The Dark Emperor Structure Deck. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 36 cards in Yu-Gi-Oh! The Dark Emperor Structure Deck. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About The Dark Emperor Structure Deck",
+    "paragraphs": [
+      "The Dark Emperor Structure Deck is a Yu-Gi-Oh! TCG deck released on 2 April 2008, in the GX era. It has 36 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "The Dark Emperor Structure Deck"
+    ],
+    "tcgplayer": [
+      322
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"SDDE-EN001","name":"Caius the Shadow Monarch","ctype":"monster","keywords":"Monarch Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Fiend / Effect","atk":2400,"def":1000},"rarity":"UR","img":"9748752","code":"1","tcg":33003,"grp":322,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"SDDE-EN002","name":"Dimensional Alchemist","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fairy / Effect","atk":1300,"def":200},"rarity":"C","img":"36733451","code":"2","tcg":33014,"grp":322,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"SDDE-EN003","name":"Samsara Kaiser","ctype":"monster","keywords":"Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 2","t":"Warrior / Effect","atk":200,"def":100},"rarity":"C","img":"72237166","code":"3","tcg":33030,"grp":322,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"SDDE-EN004","name":"Golden Homunculus","ctype":"monster","keywords":"Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Warrior / Effect","atk":1500,"def":1500},"rarity":"C","img":"27408609","code":"4","tcg":33018,"grp":322,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"SDDE-EN005","name":"Helios - The Primordial Sun","ctype":"monster","keywords":"Pyro LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Pyro / Effect","atk":-1,"def":-1},"rarity":"C","img":"54493213","code":"5","tcg":33020,"grp":322,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"SDDE-EN006","name":"D.D. Warrior","ctype":"monster","keywords":"D.D. Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Effect","atk":1200,"def":1000},"rarity":"C","img":"37043180","code":"6","tcg":33009,"grp":322,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"SDDE-EN007","name":"Kycoo the Ghost Destroyer","ctype":"monster","keywords":"Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Effect","atk":1800,"def":700},"rarity":"C","img":"88240808","code":"7","tcg":33022,"grp":322,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"SDDE-EN008","name":"Bazoo the Soul-Eater","ctype":"monster","keywords":"Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Beast / Effect","atk":1600,"def":900},"rarity":"C","img":"40133511","code":"8","tcg":32998,"grp":322,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"SDDE-EN009","name":"Exiled Force","ctype":"monster","keywords":"Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Effect","atk":1000,"def":1000},"rarity":"C","img":"74131780","code":"9","tcg":33017,"grp":322,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"SDDE-EN010","name":"D.D. Warrior Lady","ctype":"monster","keywords":"D.D. Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Effect","atk":1500,"def":1600},"rarity":"C","img":"7572887","code":"10","tcg":33010,"grp":322,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"SDDE-EN011","name":"D.D. Scout Plane","ctype":"monster","keywords":"D.D. Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 2","t":"Machine / Effect","atk":800,"def":1200},"rarity":"C","img":"3773196","code":"11","tcg":33007,"grp":322,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"SDDE-EN012","name":"Chaosrider Gustaph","ctype":"monster","keywords":"Chaos Warrior WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Warrior / Effect","atk":1400,"def":1500},"rarity":"C","img":"47829960","code":"12","tcg":33004,"grp":322,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"SDDE-EN013","name":"Gren Maju Da Eiza","ctype":"monster","keywords":"Maju Fiend FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 3","t":"Fiend / Effect","atk":-1,"def":-1},"rarity":"C","img":"36584821","code":"13","tcg":33019,"grp":322,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"SDDE-EN014","name":"D.D. Survivor","ctype":"monster","keywords":"D.D. Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Warrior / Effect","atk":1800,"def":200},"rarity":"C","img":"48092532","code":"14","tcg":33008,"grp":322,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"SDDE-EN015","name":"D.D.M. - Different Dimension Master","ctype":"monster","keywords":"D.D. Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 5","t":"Spellcaster / Effect","atk":1700,"def":1500},"rarity":"C","img":"82112775","code":"15","tcg":33011,"grp":322,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"SDDE-EN016","name":"Banisher of the Radiance","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Fairy / Effect","atk":1600,"def":0},"rarity":"C","img":"94853057","code":"16","tcg":32997,"grp":322,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"SDDE-EN017","name":"D.D. Assailant","ctype":"monster","keywords":"D.D. Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Effect","atk":1700,"def":1600},"rarity":"C","img":"70074904","code":"17","tcg":33005,"grp":322,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"SDDE-EN018","name":"D.D.R. - Different Dimension Reincarnation","ctype":"spell","keywords":"D.D. Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"9622164","code":"18","tcg":33012,"grp":322,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"SDDE-EN019","name":"Mystical Space Typhoon","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"5318639","code":"19","tcg":33025,"grp":322,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"SDDE-EN020","name":"Nobleman of Crossout","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"71044499","code":"20","tcg":33026,"grp":322,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"SDDE-EN021","name":"Soul Release","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"5758500","code":"21","tcg":33031,"grp":322,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"SDDE-EN022","name":"Reinforcement of the Army","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"32807846","code":"22","tcg":33027,"grp":322,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"SDDE-EN023","name":"Dark Core","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"70231910","code":"23","tcg":33013,"grp":322,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"SDDE-EN024","name":"Big Bang Shot","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"61127349","code":"24","tcg":32999,"grp":322,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"SDDE-EN025","name":"Enemy Controller","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"98045062","code":"25","tcg":33016,"grp":322,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"SDDE-EN026","name":"Lightning Vortex","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"69162969","code":"26","tcg":33023,"grp":322,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"SDDE-EN027","name":"Brain Control","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"87910978","code":"27","tcg":33001,"grp":322,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"SDDE-EN028","name":"Dimensional Fissure","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"81674782","code":"28","tcg":33015,"grp":322,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"SDDE-EN029","name":"By Order of the Emperor","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"35011819","code":"29","tcg":33002,"grp":322,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"SDDE-EN030","name":"Return from the Different Dimension","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"27174286","code":"30","tcg":33028,"grp":322,"idx":29},
+    {"id":"031","section":"main","num":"031","printed":"SDDE-EN031","name":"Torrential Tribute","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"53582587","code":"31","tcg":33032,"grp":322,"idx":30},
+    {"id":"032","section":"main","num":"032","printed":"SDDE-EN032","name":"Bottomless Trap Hole","ctype":"trap","keywords":"Hole Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"29401950","code":"32","tcg":33000,"grp":322,"idx":31},
+    {"id":"033","section":"main","num":"033","printed":"SDDE-EN033","name":"Sakuretsu Armor","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"56120475","code":"33","tcg":33029,"grp":322,"idx":32},
+    {"id":"034","section":"main","num":"034","printed":"SDDE-EN034","name":"Karma Cut","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"71587526","code":"34","tcg":33021,"grp":322,"idx":33},
+    {"id":"035","section":"main","num":"035","printed":"SDDE-EN035","name":"D.D. Dynamite","ctype":"trap","keywords":"D.D. Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"8628798","code":"35","tcg":33006,"grp":322,"idx":34},
+    {"id":"036","section":"main","num":"036","printed":"SDDE-EN036","name":"Macro Cosmos","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"30241314","code":"36","tcg":33024,"grp":322,"idx":35}
+  ]
+}

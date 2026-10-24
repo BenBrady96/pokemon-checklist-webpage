@@ -1,4 +1,4 @@
-import { loadCatalog } from '../core/catalog.js';
+import { loadCatalog, entryBySyncKey } from '../core/catalog.js';
 import { normalize } from '../core/model.js';
 import * as storage from '../core/storage.js';
 import { formatAmount, priceDate } from '../core/pricing.js';
@@ -266,7 +266,7 @@ async function load() {
   } catch {
     return showMessage('offline');
   }
-  const entry = catalog.collections.find((c) => c.syncKey === list.key);
+  const entry = entryBySyncKey(catalog, list.key);
   if (!entry) return showMessage('unknown');
   const { sets } = await loadSets([entry.id]);
   const loaded = sets.get(entry.id);

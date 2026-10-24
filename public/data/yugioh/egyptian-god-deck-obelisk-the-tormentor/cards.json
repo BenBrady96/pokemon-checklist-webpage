@@ -1,0 +1,95 @@
+{
+  "id": "yugioh/egyptian-god-deck-obelisk-the-tormentor",
+  "game": "yugioh",
+  "slug": "egyptian-god-deck-obelisk-the-tormentor",
+  "name": "Egyptian God Deck: Obelisk the Tormentor",
+  "series": "SEVENS & GO RUSH!!",
+  "kind": "deck",
+  "code": "EGO1",
+  "syncKey": "YEGO1",
+  "released": "2021-06-17",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "EGO1-EN001–EGO1-EN035",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from EGO1-EN001 to EGO1-EN035."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Egyptian God Deck: Obelisk the Tormentor Checklist · All 35 Cards",
+    "description": "Free Yu-Gi-Oh! Egyptian God Deck: Obelisk the Tormentor checklist with no ads, no sign-up and no tracking. Track all 35 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Egyptian God Deck: Obelisk the Tormentor Checklist",
+    "ogDescription": "Track all 35 cards in Yu-Gi-Oh! Egyptian God Deck: Obelisk the Tormentor. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 35 cards in Yu-Gi-Oh! Egyptian God Deck: Obelisk the Tormentor. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Egyptian God Deck: Obelisk the Tormentor",
+    "paragraphs": [
+      "Egyptian God Deck: Obelisk the Tormentor is a Yu-Gi-Oh! TCG deck released on 17 June 2021, in the SEVENS &amp; GO RUSH!! era. It has 35 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Egyptian God Deck: Obelisk the Tormentor"
+    ],
+    "tcgplayer": [
+      2810
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"EGO1-EN001","name":"Obelisk the Tormentor","ctype":"monster","keywords":"Egyptian God Divine-Beast DIVINE Effect Monster","stats":{"a":"DIVINE","l":"Level 10","t":"Divine-Beast / Effect","atk":4000,"def":4000},"rarity":"UR","img":"10000000","code":"1","tcg":241960,"grp":2810,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"EGO1-EN002","name":"Soul Crossing","ctype":"spell","keywords":"Egyptian God Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"UR","img":"5253985","code":"2","tcg":241961,"grp":2810,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"EGO1-EN003","name":"Fist of Fate","ctype":"spell","keywords":"Egyptian God Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"UR","img":"79868386","code":"3","tcg":241962,"grp":2810,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"EGO1-EN004","name":"Divine Evolution","ctype":"spell","keywords":"Wicked God Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UR","img":"7373632","code":"4","tcg":241963,"grp":2810,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"EGO1-EN005","name":"Level Resist Wall","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"86133013","code":"5","tcg":241964,"grp":2810,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"EGO1-EN006","name":"Angel O1","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Fairy / Effect","atk":200,"def":300},"rarity":"SR","img":"82243738","code":"6","tcg":241965,"grp":2810,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"EGO1-EN007","name":"Nimble Momonga","ctype":"monster","keywords":"Nimble Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 2","t":"Beast / Effect","atk":1000,"def":100},"rarity":"C","img":"22567609","code":"7","tcg":241966,"grp":2810,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"EGO1-EN008","name":"Bazoo the Soul-Eater","ctype":"monster","keywords":"Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Beast / Effect","atk":1600,"def":900},"rarity":"C","img":"40133511","code":"8","tcg":241967,"grp":2810,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"EGO1-EN009","name":"Cyber Dragon","ctype":"monster","keywords":"Cyber Dragon Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 5","t":"Machine / Effect","atk":2100,"def":1600},"rarity":"C","img":"70095154","code":"9","tcg":241968,"grp":2810,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"EGO1-EN010","name":"Hardened Armed Dragon","ctype":"monster","keywords":"Dragon EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Dragon / Effect","atk":1500,"def":800},"rarity":"C","img":"68473226","code":"10","tcg":241969,"grp":2810,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"EGO1-EN011","name":"Super-Nimble Mega Hamster","ctype":"monster","keywords":"Nimble Beast EARTH Flip Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Beast / Flip / Effect","atk":1100,"def":1800},"rarity":"C","img":"5220687","code":"11","tcg":241981,"grp":2810,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"EGO1-EN012","name":"Evilswarm Mandragora","ctype":"monster","keywords":"Lswarm Plant DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Plant / Effect","atk":1550,"def":1450},"rarity":"C","img":"8814959","code":"12","tcg":241982,"grp":2810,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"EGO1-EN013","name":"Photon Sabre Tiger","ctype":"monster","keywords":"Photon Beast LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Beast / Effect","atk":2000,"def":300},"rarity":"C","img":"80495985","code":"13","tcg":241983,"grp":2810,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"EGO1-EN014","name":"Evilswarm Salamandra","ctype":"monster","keywords":"Lswarm Dinosaur DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Dinosaur / Effect","atk":1850,"def":950},"rarity":"C","img":"4058065","code":"14","tcg":241986,"grp":2810,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"EGO1-EN015","name":"Ra's Disciple","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fairy / Effect","atk":1100,"def":600},"rarity":"C","img":"74875003","code":"15","tcg":241988,"grp":2810,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"EGO1-EN016","name":"Unmasked Dragon","ctype":"monster","keywords":"Wyrm FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 3","t":"Wyrm / Effect","atk":1400,"def":1100},"rarity":"C","img":"24218047","code":"16","tcg":241989,"grp":2810,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"EGO1-EN017","name":"Mare Mare","ctype":"monster","keywords":"Wyrm WATER Tuner Monster","stats":{"a":"WATER","l":"Level 7","t":"Wyrm / Tuner","atk":2100,"def":1400},"rarity":"SR","img":"54537489","code":"17","tcg":241990,"grp":2810,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"EGO1-EN018","name":"Nimble Beaver","ctype":"monster","keywords":"Nimble Beast WATER Effect Monster","stats":{"a":"WATER","l":"Level 2","t":"Beast / Effect","atk":400,"def":200},"rarity":"C","img":"68353324","code":"18","tcg":241992,"grp":2810,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"EGO1-EN019","name":"Condemned Witch","ctype":"monster","keywords":"Fairy DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fairy / Effect","atk":100,"def":2000},"rarity":"C","img":"44656450","code":"19","tcg":241993,"grp":2810,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"EGO1-EN020","name":"Gizmek Uka, the Festive Fox of Fecundity","ctype":"monster","keywords":"Gizmek Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 7","t":"Machine / Effect","atk":2250,"def":2250},"rarity":"C","img":"90361289","code":"20","tcg":241994,"grp":2810,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"EGO1-EN021","name":"Gizmek Makami, the Ferocious Fanged Fortress","ctype":"monster","keywords":"Gizmek Machine WIND Effect Monster","stats":{"a":"WIND","l":"Level 6","t":"Machine / Effect","atk":2150,"def":2150},"rarity":"C","img":"46809548","code":"21","tcg":241995,"grp":2810,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"EGO1-EN022","name":"Harpie's Feather Duster","ctype":"spell","keywords":"Harpie Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"18144507","code":"22","tcg":241996,"grp":2810,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"EGO1-EN023","name":"Brain Control","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"87910978","code":"23","tcg":241997,"grp":2810,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"EGO1-EN024","name":"Monster Reborn","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"83764719","code":"24","tcg":241998,"grp":2810,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"EGO1-EN025","name":"Different Dimension Capsule","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"11961740","code":"25","tcg":241999,"grp":2810,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"EGO1-EN026","name":"Pot of Avarice","ctype":"spell","keywords":"Greed Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"67169062","code":"26","tcg":242001,"grp":2810,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"EGO1-EN027","name":"Double Summon","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"43422537","code":"27","tcg":242002,"grp":2810,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"EGO1-EN028","name":"Forbidden Chalice","ctype":"spell","keywords":"Forbidden Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"25789292","code":"28","tcg":242003,"grp":2810,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"EGO1-EN029","name":"Forbidden Lance","ctype":"spell","keywords":"Forbidden Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"27243130","code":"29","tcg":242004,"grp":2810,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"EGO1-EN030","name":"Forbidden Dress","ctype":"spell","keywords":"Forbidden Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"96864811","code":"30","tcg":242005,"grp":2810,"idx":29},
+    {"id":"031","section":"main","num":"031","printed":"EGO1-EN031","name":"Supply Squad","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"17626381","code":"31","tcg":242006,"grp":2810,"idx":30},
+    {"id":"032","section":"main","num":"032","printed":"EGO1-EN032","name":"The Monarchs Stormforth","ctype":"spell","keywords":"Monarch Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"79844764","code":"32","tcg":242007,"grp":2810,"idx":31},
+    {"id":"033","section":"main","num":"033","printed":"EGO1-EN033","name":"Call of the Haunted","ctype":"trap","keywords":"Call of the Haunted Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"97077563","code":"33","tcg":242008,"grp":2810,"idx":32},
+    {"id":"034","section":"main","num":"034","printed":"EGO1-EN034","name":"Cloning","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"86871614","code":"34","tcg":242009,"grp":2810,"idx":33},
+    {"id":"035","section":"main","num":"035","printed":"EGO1-EN035","name":"Drowning Mirror Force","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"47475363","code":"35","tcg":242010,"grp":2810,"idx":34}
+  ]
+}

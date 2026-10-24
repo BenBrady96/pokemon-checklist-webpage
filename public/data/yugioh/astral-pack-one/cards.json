@@ -1,0 +1,85 @@
+{
+  "id": "yugioh/astral-pack-one",
+  "game": "yugioh",
+  "slug": "astral-pack-one",
+  "name": "Astral Pack One",
+  "series": "ZEXAL",
+  "kind": "pack",
+  "code": "AP01",
+  "syncKey": "YAP01",
+  "released": "2012-11-23",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "AP01-EN001–AP01-EN025",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from AP01-EN001 to AP01-EN025."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Astral Pack One Checklist · All 25 Cards",
+    "description": "Free Yu-Gi-Oh! Astral Pack One checklist with no ads, no sign-up and no tracking. Track all 25 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Astral Pack One Checklist",
+    "ogDescription": "Track all 25 cards in Yu-Gi-Oh! Astral Pack One. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 25 cards in Yu-Gi-Oh! Astral Pack One. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Astral Pack One",
+    "paragraphs": [
+      "Astral Pack One is a Yu-Gi-Oh! TCG pack released on 23 November 2012, in the ZEXAL era. It has 25 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Astral Pack One"
+    ],
+    "tcgplayer": [
+      1287
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"AP01-EN001","name":"Tsukuyomi","ctype":"monster","keywords":"Spellcaster DARK Spirit Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Spirit","atk":1100,"def":1400},"rarity":"UtR","img":"34853266","code":"1","tcg":77987,"grp":1287,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"AP01-EN002","name":"Debris Dragon","ctype":"monster","keywords":"Dragon WIND Tuner Monster","stats":{"a":"WIND","l":"Level 4","t":"Dragon / Tuner","atk":1000,"def":2000},"rarity":"UtR","img":"14943837","code":"2","tcg":77988,"grp":1287,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"AP01-EN003","name":"Photon Thrasher","ctype":"monster","keywords":"Photon Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Effect","atk":2100,"def":0},"rarity":"UtR","img":"65367484","code":"3","tcg":77989,"grp":1287,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"AP01-EN004","name":"Flamvell Firedog","ctype":"monster","keywords":"Flamvell Beast FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Beast / Effect","atk":1900,"def":200},"rarity":"SR","img":"23297235","code":"4","tcg":77990,"grp":1287,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"AP01-EN005","name":"Genex Undine","ctype":"monster","keywords":"Genex Aqua WATER Effect Monster","stats":{"a":"WATER","l":"Level 3","t":"Aqua / Effect","atk":1200,"def":600},"rarity":"SR","img":"4904812","code":"5","tcg":77991,"grp":1287,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"AP01-EN006","name":"Kagemusha of the Six Samurai","ctype":"monster","keywords":"Six Samurai Warrior EARTH Tuner Monster","stats":{"a":"EARTH","l":"Level 2","t":"Warrior / Tuner","atk":400,"def":1800},"rarity":"SR","img":"1498130","code":"6","tcg":77992,"grp":1287,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"AP01-EN007","name":"Inzektor Centipede","ctype":"monster","keywords":"Inzektor Insect DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Insect / Effect","atk":1600,"def":1200},"rarity":"SR","img":"21790410","code":"7","tcg":77993,"grp":1287,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"AP01-EN008","name":"Hieratic Dragon of Tefnuit","ctype":"monster","keywords":"Hieratic Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Dragon / Effect","atk":2100,"def":1400},"rarity":"SR","img":"77901552","code":"8","tcg":77994,"grp":1287,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"AP01-EN009","name":"Terraforming","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"73628505","code":"9","tcg":77995,"grp":1287,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"AP01-EN010","name":"Moray of Greed","ctype":"spell","keywords":"Greed Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"22123627","code":"10","tcg":77996,"grp":1287,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"AP01-EN011","name":"Mask Change","ctype":"spell","keywords":"Change Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"SR","img":"21143940","code":"11","tcg":77997,"grp":1287,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"AP01-EN012","name":"Hidden Armory","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"52105192","code":"12","tcg":77998,"grp":1287,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"AP01-EN013","name":"The Gates of Dark World","ctype":"spell","keywords":"Dark World Field Spell","stats":{"t":"Field Spell"},"rarity":"SR","img":"33017655","code":"13","tcg":77999,"grp":1287,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"AP01-EN014","name":"Hyena","ctype":"monster","keywords":"Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Beast / Effect","atk":1000,"def":300},"rarity":"C","img":"22873798","code":"14","tcg":78000,"grp":1287,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"AP01-EN015","name":"Dragon Ice","ctype":"monster","keywords":"Dragon WATER Effect Monster","stats":{"a":"WATER","l":"Level 5","t":"Dragon / Effect","atk":1800,"def":2200},"rarity":"C","img":"64262809","code":"15","tcg":78001,"grp":1287,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"AP01-EN016","name":"Cyber Shark","ctype":"monster","keywords":"Fish WATER Effect Monster","stats":{"a":"WATER","l":"Level 5","t":"Fish / Effect","atk":2100,"def":2000},"rarity":"C","img":"32393580","code":"16","tcg":78002,"grp":1287,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"AP01-EN017","name":"Swift Scarecrow","ctype":"monster","keywords":"Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 1","t":"Machine / Effect","atk":0,"def":0},"rarity":"C","img":"18964575","code":"17","tcg":78003,"grp":1287,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"AP01-EN018","name":"Elemental HERO Ice Edge","ctype":"monster","keywords":"Elemental HERO Warrior WATER Effect Monster","stats":{"a":"WATER","l":"Level 3","t":"Warrior / Effect","atk":800,"def":900},"rarity":"C","img":"41077745","code":"18","tcg":78004,"grp":1287,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"AP01-EN019","name":"Mystical Sand","ctype":"monster","keywords":"Rock EARTH Fusion Monster","stats":{"a":"EARTH","l":"Level 6","t":"Rock / Fusion","atk":2100,"def":1700},"rarity":"SP","img":"32751480","code":"19","tcg":78008,"grp":1287,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"AP01-EN020","name":"Spiritual Forest","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"69112325","code":"20","tcg":78005,"grp":1287,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"AP01-EN021","name":"Closed Forest","ctype":"spell","keywords":"Field Spell","stats":{"t":"Field Spell"},"rarity":"C","img":"78082039","code":"21","tcg":78006,"grp":1287,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"AP01-EN022","name":"Shrine of Mist Valley","ctype":"spell","keywords":"Mist Valley Field Spell","stats":{"t":"Field Spell"},"rarity":"C","img":"4215636","code":"22","tcg":78007,"grp":1287,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"AP01-EN023","name":"Thunder of Ruler","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"91781589","code":"23","tcg":78009,"grp":1287,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"AP01-EN024","name":"Fuh-Rin-Ka-Zan","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"1781310","code":"24","tcg":78010,"grp":1287,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"AP01-EN025","name":"Astral Barrier","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"37053871","code":"25","tcg":78011,"grp":1287,"idx":24}
+  ]
+}

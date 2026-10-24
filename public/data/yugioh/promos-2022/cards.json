@@ -1,0 +1,81 @@
+{
+  "id": "yugioh/promos-2022",
+  "game": "yugioh",
+  "slug": "promos-2022",
+  "name": "Promos 2022",
+  "series": "Promos",
+  "kind": "promo",
+  "code": "P2022",
+  "syncKey": "YP2022",
+  "released": "2022-01-01",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "LART-EN043–YCSW-EN013",
+      "tier": "standard"
+    },
+    {
+      "id": "rarities",
+      "name": "Other Rarities",
+      "short": "Other Rarities",
+      "range": "1 card",
+      "tier": "master"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Main set"
+    ],
+    [
+      "rarities",
+      "Other rarities"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, SCR12, 60x2",
+    "example": "1-20, 45x2, SCR12",
+    "hint": "Separate with commas or spaces. Numbers count down the list in order: <b>1-5</b> is the first five cards and <b>3x2</b> is two copies of the third.",
+    "empty": "Cards run from LART-EN043 to YCSW-EN013."
+  },
+  "help": {
+    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 4 cards, each in its main rarity. Master adds the 1 other rarity. Cards you’ve marked are kept when you switch."
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Promos 2022 Checklist · All 4 Cards",
+    "description": "Free Yu-Gi-Oh! Promos 2022 checklist with no ads, no sign-up and no tracking. Track all 4 cards, or every rarity for a master set, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Promos 2022 Checklist",
+    "ogDescription": "Track all 4 cards in Yu-Gi-Oh! Promos 2022, plus 1 other rarity. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 4 cards in Yu-Gi-Oh! Promos 2022. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Promos 2022",
+    "paragraphs": [
+      "Promos 2022 gathers the 4 promo cards from 4 products released in 2022: The Lost Art Promotion 2022 A, The Lost Art Promotion 2022 G, The Lost Art Promotion 2022 K and Yu-Gi-Oh! Championship Series 2022 prize card.",
+      "Choose what you’re collecting: the <b>Standard set</b> (the 4 cards, each in its main rarity) or the <b>Master set</b> (all 5, adding the 1 other rarity).",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "The Lost Art Promotion 2022 A",
+      "The Lost Art Promotion 2022 G",
+      "The Lost Art Promotion 2022 K",
+      "Yu-Gi-Oh! Championship Series 2022 prize card"
+    ],
+    "tcgplayer": [
+      2196,
+      1347
+    ]
+  },
+  "cards": [
+    {"id":"LART-043","section":"main","num":"LART-EN043","printed":"LART-EN043","name":"Parasite Paracide","ctype":"monster","keywords":"Parasite Insect EARTH Flip Effect Monster","stats":{"a":"EARTH","l":"Level 2","t":"Insect / Flip / Effect","atk":500,"def":300},"note":"The Lost Art Promotion 2022 A","rarity":"UR","img":"27911549","code":"1","tcg":261778,"grp":2196,"idx":0},
+    {"id":"LART-049","section":"main","num":"LART-EN049","printed":"LART-EN049","name":"Cyber Angel Benten","ctype":"monster","keywords":"Cyber Angel Fairy LIGHT Ritual Effect Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Fairy / Ritual / Effect","atk":1800,"def":1500},"note":"The Lost Art Promotion 2022 G","rarity":"UR","img":"77235086","code":"2","tcg":279480,"grp":2196,"idx":1},
+    {"id":"LART-053","section":"main","num":"LART-EN053","printed":"LART-EN053","name":"Tribute Burial","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"note":"The Lost Art Promotion 2022 K","rarity":"UR","img":"80230510","code":"3","tcg":287170,"grp":2196,"idx":2},
+    {"id":"YCSW-013","section":"main","num":"YCSW-EN013","printed":"YCSW-EN013","name":"Anotherverse Dragon","ctype":"monster","keywords":"Dragon LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Normal","atk":2500,"def":2000},"note":"Yu-Gi-Oh! Championship Series 2022 prize card","rarity":"SR","img":"47484352","code":"4","tcg":284862,"grp":1347,"idx":3},
+    {"id":"YCSW-013-ur","section":"rarities","num":"YCSW-EN013","printed":"YCSW-EN013","name":"Anotherverse Dragon","ctype":"monster","keywords":"Dragon LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Normal","atk":2500,"def":2000},"note":"Yu-Gi-Oh! Championship Series 2022 prize card","rarity":"UR","img":"47484352","badge":"UR","variant":"Ultra Rare","code":"UR4","tcg":284861,"grp":1347,"idx":4}
+  ]
+}

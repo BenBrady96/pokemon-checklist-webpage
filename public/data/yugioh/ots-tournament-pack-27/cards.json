@@ -1,0 +1,87 @@
+{
+  "id": "yugioh/ots-tournament-pack-27",
+  "game": "yugioh",
+  "slug": "ots-tournament-pack-27",
+  "name": "OTS Tournament Pack 27",
+  "series": "SEVENS & GO RUSH!!",
+  "kind": "pack",
+  "code": "OP27",
+  "syncKey": "YOP27",
+  "released": "2025-02-27",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "OP27-EN001–OP27-EN027",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from OP27-EN001 to OP27-EN027."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! OTS Tournament Pack 27 Checklist · All 27 Cards",
+    "description": "Free Yu-Gi-Oh! OTS Tournament Pack 27 checklist with no ads, no sign-up and no tracking. Track all 27 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! OTS Tournament Pack 27 Checklist",
+    "ogDescription": "Track all 27 cards in Yu-Gi-Oh! OTS Tournament Pack 27. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 27 cards in Yu-Gi-Oh! OTS Tournament Pack 27. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About OTS Tournament Pack 27",
+    "paragraphs": [
+      "OTS Tournament Pack 27 is a Yu-Gi-Oh! TCG pack released on 27 February 2025, in the SEVENS &amp; GO RUSH!! era. It has 27 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "OTS Tournament Pack 27"
+    ],
+    "tcgplayer": [
+      23786
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"OP27-EN001","name":"Sage with Eyes of Blue","ctype":"monster","keywords":"Blue-Eyes Spellcaster LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Spellcaster / Tuner","atk":0,"def":1500},"rarity":"UtR","img":"8240199","code":"1","tcg":620245,"grp":23786,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"OP27-EN002","name":"Silhouhatte Rabbit","ctype":"monster","keywords":"Illusion LIGHT Link Monster","stats":{"a":"LIGHT","l":"Link 2","t":"Illusion / Link","atk":1500},"rarity":"UtR","img":"1528054","code":"2","tcg":620246,"grp":23786,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"OP27-EN003","name":"Dark Fusion","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UtR","img":"94820406","code":"3","tcg":620247,"grp":23786,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"OP27-EN004","name":"Ghostrick Doll","ctype":"monster","keywords":"Ghostrick Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 2","t":"Spellcaster / Effect","atk":300,"def":1200},"rarity":"SR","img":"46925518","code":"4","tcg":620248,"grp":23786,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"OP27-EN005","name":"Endymion, the Magistus of Mastery","ctype":"monster","keywords":"Endymion Spellcaster WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Spellcaster / Effect","atk":1300,"def":1700},"rarity":"SR","img":"9482987","code":"5","tcg":620249,"grp":23786,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"OP27-EN006","name":"Tenpai Dragon Chundra","ctype":"monster","keywords":"Tenpai Dragon Dragon FIRE Tuner Monster","stats":{"a":"FIRE","l":"Level 4","t":"Dragon / Tuner","atk":1500,"def":1000},"rarity":"SR","img":"91810826","code":"6","tcg":620250,"grp":23786,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"OP27-EN007","name":"Gruesome Grave Squirmer","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Fiend / Effect","atk":0,"def":0},"rarity":"SR","img":"24215921","code":"7","tcg":620251,"grp":23786,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"OP27-EN008","name":"Wightlord","ctype":"monster","keywords":"Wight Zombie LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Zombie / Effect","atk":300,"def":200},"rarity":"SR","img":"22970795","code":"8","tcg":620252,"grp":23786,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"OP27-EN009","name":"Rucia of the White Forest","ctype":"monster","keywords":"White Forest Spellcaster LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Tuner","atk":800,"def":1500},"rarity":"SR","img":"24779554","code":"9","tcg":620253,"grp":23786,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"OP27-EN010","name":"Number 104: Masquerade","ctype":"monster","keywords":"Spellcaster LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 4","t":"Spellcaster / Xyz","atk":2700,"def":1200},"rarity":"SR","img":"2061963","code":"10","tcg":620254,"grp":23786,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"OP27-EN011","name":"Fiendsmith's Sequence","ctype":"monster","keywords":"Fiendsmith Fiend LIGHT Link Monster","stats":{"a":"LIGHT","l":"Link 2","t":"Fiend / Link","atk":1200},"rarity":"SR","img":"49867899","code":"11","tcg":620255,"grp":23786,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"OP27-EN012","name":"Simultaneous Equation Cannons","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"25096909","code":"12","tcg":620256,"grp":23786,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"OP27-EN013","name":"Performage Plushfire","ctype":"monster","keywords":"Performage Spellcaster FIRE Pendulum Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Spellcaster / Pendulum / Effect","atk":1000,"def":1000},"rarity":"C","img":"7563579","code":"13","tcg":620257,"grp":23786,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"OP27-EN014","name":"Speedroid Den-Den Daiko Duke","ctype":"monster","keywords":"Roid Machine WIND Tuner Monster","stats":{"a":"WIND","l":"Level 3","t":"Machine / Tuner","atk":1000,"def":1000},"rarity":"C","img":"59640711","code":"14","tcg":620258,"grp":23786,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"OP27-EN015","name":"Crystron Citree","ctype":"monster","keywords":"Crystron Machine WATER Tuner Monster","stats":{"a":"WATER","l":"Level 2","t":"Machine / Tuner","atk":500,"def":500},"rarity":"C","img":"20050865","code":"15","tcg":620259,"grp":23786,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"OP27-EN016","name":"Crystron Sulfefnir","ctype":"monster","keywords":"Crystron Machine WATER Effect Monster","stats":{"a":"WATER","l":"Level 5","t":"Machine / Effect","atk":2000,"def":1500},"rarity":"C","img":"3422200","code":"16","tcg":620260,"grp":23786,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"OP27-EN017","name":"Evil HERO Sinister Necrom","ctype":"monster","keywords":"Evil HERO Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 5","t":"Fiend / Effect","atk":1600,"def":1800},"rarity":"C","img":"45659520","code":"17","tcg":620261,"grp":23786,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"OP27-EN018","name":"Speedroid CarTurbo","ctype":"monster","keywords":"Speedroid Machine WIND Tuner Monster","stats":{"a":"WIND","l":"Level 3","t":"Machine / Tuner","atk":800,"def":1200},"rarity":"C","img":"96945958","code":"18","tcg":620262,"grp":23786,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"OP27-EN019","name":"Crowley, the Magistus of Grimoires","ctype":"monster","keywords":"Magistus Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Effect","atk":1800,"def":1000},"rarity":"C","img":"9505425","code":"19","tcg":620263,"grp":23786,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"OP27-EN020","name":"Zoroa, the Magistus of Flame","ctype":"monster","keywords":"Magistus Spellcaster FIRE Tuner Monster","stats":{"a":"FIRE","l":"Level 4","t":"Spellcaster / Tuner","atk":1500,"def":1500},"rarity":"C","img":"36099130","code":"20","tcg":620264,"grp":23786,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"OP27-EN021","name":"Evil HERO Malicious Bane","ctype":"monster","keywords":"Evil HERO Fiend DARK Fusion Monster","stats":{"a":"DARK","l":"Level 8","t":"Fiend / Fusion","atk":3000,"def":3000},"rarity":"C","img":"86165817","code":"21","tcg":620265,"grp":23786,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"OP27-EN022","name":"Mereologic Aggregator","ctype":"monster","keywords":"Cyberse DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 9","t":"Cyberse / Xyz","atk":2600,"def":3000},"rarity":"C","img":"9940036","code":"22","tcg":620266,"grp":23786,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"OP27-EN023","name":"Speedroid Wheel","ctype":"spell","keywords":"Speedroid Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"12148078","code":"23","tcg":620267,"grp":23786,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"OP27-EN024","name":"Rare Metalmorph","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"12503902","code":"24","tcg":620268,"grp":23786,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"OP27-EN025","name":"Powersink Stone","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"67234805","code":"25","tcg":620269,"grp":23786,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"OP27-EN026","name":"Grinning Grave Virus","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"85555787","code":"26","tcg":620270,"grp":23786,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"OP27-EN027","name":"Black Sheep Token","ctype":"token","keywords":"Zombie counterpart Zombie Token","stats":{"t":"Zombie / Token"},"rarity":"SR","img":"67284108","code":"27","tcg":620271,"grp":23786,"idx":26}
+  ]
+}

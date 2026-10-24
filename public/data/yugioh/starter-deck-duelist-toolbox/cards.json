@@ -1,0 +1,102 @@
+{
+  "id": "yugioh/starter-deck-duelist-toolbox",
+  "game": "yugioh",
+  "slug": "starter-deck-duelist-toolbox",
+  "name": "Starter Deck: Duelist Toolbox",
+  "series": "5D’s",
+  "kind": "deck",
+  "code": "5DS3",
+  "syncKey": "Y5DS3",
+  "released": "2010-05-28",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "5DS3-EN001–5DS3-EN042",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from 5DS3-EN001 to 5DS3-EN042."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Starter Deck: Duelist Toolbox Checklist · All 42 Cards",
+    "description": "Free Yu-Gi-Oh! Starter Deck: Duelist Toolbox checklist with no ads, no sign-up and no tracking. Track all 42 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Starter Deck: Duelist Toolbox Checklist",
+    "ogDescription": "Track all 42 cards in Yu-Gi-Oh! Starter Deck: Duelist Toolbox. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 42 cards in Yu-Gi-Oh! Starter Deck: Duelist Toolbox. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Starter Deck: Duelist Toolbox",
+    "paragraphs": [
+      "Starter Deck: Duelist Toolbox is a Yu-Gi-Oh! TCG deck released on 28 May 2010, in the 5D’s era. It has 42 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Starter Deck: Duelist Toolbox"
+    ],
+    "tcgplayer": [
+      301
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"5DS3-EN001","name":"Battle Footballer","ctype":"monster","keywords":"Machine FIRE Normal Monster","stats":{"a":"FIRE","l":"Level 4","t":"Machine / Normal","atk":1000,"def":2100},"rarity":"C","img":"48094997","code":"1","tcg":35330,"grp":301,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"5DS3-EN002","name":"Blazing Inpachi","ctype":"monster","keywords":"Pyro FIRE Normal Monster","stats":{"a":"FIRE","l":"Level 4","t":"Pyro / Normal","atk":1850,"def":0},"rarity":"C","img":"5464695","code":"2","tcg":35331,"grp":301,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"5DS3-EN003","name":"Tune Warrior","ctype":"monster","keywords":"Warrior EARTH Normal Tuner Monster","stats":{"a":"EARTH","l":"Level 3","t":"Warrior / Normal / Tuner","atk":1600,"def":200},"rarity":"C","img":"74093656","code":"3","tcg":35332,"grp":301,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"5DS3-EN004","name":"Rapid Warrior","ctype":"monster","keywords":"Warrior WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Warrior / Effect","atk":1200,"def":200},"rarity":"SR","img":"255998","code":"4","tcg":35333,"grp":301,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"5DS3-EN005","name":"Synchron Explorer","ctype":"monster","keywords":"Synchron Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 2","t":"Machine / Effect","atk":0,"def":700},"rarity":"SR","img":"36643046","code":"5","tcg":35334,"grp":301,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"5DS3-EN006","name":"Man-Eater Bug","ctype":"monster","keywords":"Insect EARTH Flip Effect Monster","stats":{"a":"EARTH","l":"Level 2","t":"Insect / Flip / Effect","atk":450,"def":600},"rarity":"C","img":"54652250","code":"6","tcg":35335,"grp":301,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"5DS3-EN007","name":"Hayabusa Knight","ctype":"monster","keywords":"Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Warrior / Effect","atk":1000,"def":700},"rarity":"C","img":"21015833","code":"7","tcg":35336,"grp":301,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"5DS3-EN008","name":"Chainsaw Insect","ctype":"monster","keywords":"Insect EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Insect / Effect","atk":2400,"def":0},"rarity":"C","img":"77252217","code":"8","tcg":35337,"grp":301,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"5DS3-EN009","name":"Worm Apocalypse","ctype":"monster","keywords":"Worm Reptile LIGHT Flip Effect Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Reptile / Flip / Effect","atk":300,"def":200},"rarity":"C","img":"88650530","code":"9","tcg":35338,"grp":301,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"5DS3-EN010","name":"Junk Synchron","ctype":"monster","keywords":"Junk Warrior DARK Tuner Monster","stats":{"a":"DARK","l":"Level 3","t":"Warrior / Tuner","atk":1300,"def":500},"rarity":"C","img":"63977008","code":"10","tcg":35339,"grp":301,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"5DS3-EN011","name":"Speed Warrior","ctype":"monster","keywords":"Warrior WIND Effect Monster","stats":{"a":"WIND","l":"Level 2","t":"Warrior / Effect","atk":900,"def":400},"rarity":"C","img":"9365703","code":"11","tcg":35340,"grp":301,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"5DS3-EN012","name":"Quillbolt Hedgehog","ctype":"monster","keywords":"Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 2","t":"Machine / Effect","atk":800,"def":800},"rarity":"C","img":"23571046","code":"12","tcg":35341,"grp":301,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"5DS3-EN013","name":"X-Saber Galahad","ctype":"monster","keywords":"X-Saber Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Effect","atk":1800,"def":800},"rarity":"C","img":"50604950","code":"13","tcg":35342,"grp":301,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"5DS3-EN014","name":"Fortress Warrior","ctype":"monster","keywords":"Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 2","t":"Warrior / Effect","atk":600,"def":1200},"rarity":"C","img":"66288028","code":"14","tcg":35343,"grp":301,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"5DS3-EN015","name":"Turret Warrior","ctype":"monster","keywords":"Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 5","t":"Warrior / Effect","atk":1200,"def":2000},"rarity":"C","img":"88559132","code":"15","tcg":35344,"grp":301,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"5DS3-EN016","name":"Twin-Sword Marauder","ctype":"monster","keywords":"Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Warrior / Effect","atk":1600,"def":1000},"rarity":"C","img":"40225398","code":"16","tcg":35345,"grp":301,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"5DS3-EN017","name":"Dark Tinker","ctype":"monster","keywords":"Fiend DARK Tuner Monster","stats":{"a":"DARK","l":"Level 2","t":"Fiend / Tuner","atk":1000,"def":1300},"rarity":"C","img":"76614003","code":"17","tcg":35346,"grp":301,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"5DS3-EN018","name":"Quickdraw Synchron","ctype":"monster","keywords":"Synchron Machine WIND Tuner Monster","stats":{"a":"WIND","l":"Level 5","t":"Machine / Tuner","atk":700,"def":1400},"rarity":"C","img":"20932152","code":"18","tcg":35347,"grp":301,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"5DS3-EN019","name":"Half Shut","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"73048641","code":"19","tcg":35348,"grp":301,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"5DS3-EN020","name":"Giant Trunade","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"42703248","code":"20","tcg":35349,"grp":301,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"5DS3-EN021","name":"Card Destruction","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"72892473","code":"21","tcg":35350,"grp":301,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"5DS3-EN022","name":"Reinforcement of the Army","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"32807846","code":"22","tcg":35351,"grp":301,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"5DS3-EN023","name":"The Warrior Returning Alive","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"95281259","code":"23","tcg":35352,"grp":301,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"5DS3-EN024","name":"Banner of Courage","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"10012614","code":"24","tcg":35353,"grp":301,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"5DS3-EN025","name":"Enemy Controller","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"98045062","code":"25","tcg":35354,"grp":301,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"5DS3-EN026","name":"Hammer Shot","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"26412047","code":"26","tcg":35355,"grp":301,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"5DS3-EN027","name":"Monster Reincarnation","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"74848038","code":"27","tcg":35356,"grp":301,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"5DS3-EN028","name":"Synchro Boost","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"98143165","code":"28","tcg":35357,"grp":301,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"5DS3-EN029","name":"Wild Tornado","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"47766694","code":"29","tcg":35358,"grp":301,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"5DS3-EN030","name":"Trap Hole","ctype":"trap","keywords":"Hole Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"4206964","code":"30","tcg":35359,"grp":301,"idx":29},
+    {"id":"031","section":"main","num":"031","printed":"5DS3-EN031","name":"Dust Tornado","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"60082869","code":"31","tcg":35360,"grp":301,"idx":30},
+    {"id":"032","section":"main","num":"032","printed":"5DS3-EN032","name":"Raigeki Break","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"4178474","code":"32","tcg":35361,"grp":301,"idx":31},
+    {"id":"033","section":"main","num":"033","printed":"5DS3-EN033","name":"Rope of Life","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"93382620","code":"33","tcg":35362,"grp":301,"idx":32},
+    {"id":"034","section":"main","num":"034","printed":"5DS3-EN034","name":"Secret Barrel","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"27053506","code":"34","tcg":35363,"grp":301,"idx":33},
+    {"id":"035","section":"main","num":"035","printed":"5DS3-EN035","name":"Sakuretsu Armor","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"56120475","code":"35","tcg":35364,"grp":301,"idx":34},
+    {"id":"036","section":"main","num":"036","printed":"5DS3-EN036","name":"Threatening Roar","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"36361633","code":"36","tcg":35365,"grp":301,"idx":35},
+    {"id":"037","section":"main","num":"037","printed":"5DS3-EN037","name":"Rising Energy","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"78211862","code":"37","tcg":35366,"grp":301,"idx":36},
+    {"id":"038","section":"main","num":"038","printed":"5DS3-EN038","name":"Defense Draw","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"24268052","code":"38","tcg":35367,"grp":301,"idx":37},
+    {"id":"039","section":"main","num":"039","printed":"5DS3-EN039","name":"Junk Destroyer","ctype":"monster","keywords":"Junk Warrior EARTH Synchro Monster","stats":{"a":"EARTH","l":"Level 8","t":"Warrior / Synchro","atk":2600,"def":2500},"rarity":"UR","img":"74860293","code":"39","tcg":35368,"grp":301,"idx":38},
+    {"id":"040","section":"main","num":"040","printed":"5DS3-EN040","name":"X-Saber Urbellum","ctype":"monster","keywords":"X-Saber Warrior EARTH Synchro Monster","stats":{"a":"EARTH","l":"Level 7","t":"Warrior / Synchro","atk":2200,"def":1300},"rarity":"C","img":"80108118","code":"40","tcg":35369,"grp":301,"idx":39},
+    {"id":"041","section":"main","num":"041","printed":"5DS3-EN041","name":"Gaia Knight, the Force of Earth","ctype":"monster","keywords":"Gaia The Fierce Knight Warrior EARTH Synchro Monster","stats":{"a":"EARTH","l":"Level 6","t":"Warrior / Synchro","atk":2600,"def":800},"rarity":"C","img":"97204936","code":"41","tcg":35370,"grp":301,"idx":40},
+    {"id":"042","section":"main","num":"042","printed":"5DS3-EN042","name":"X-Saber Wayne","ctype":"monster","keywords":"X-Saber Warrior EARTH Synchro Monster","stats":{"a":"EARTH","l":"Level 5","t":"Warrior / Synchro","atk":2100,"def":400},"rarity":"SR","img":"83810690","code":"42","tcg":35371,"grp":301,"idx":41}
+  ]
+}

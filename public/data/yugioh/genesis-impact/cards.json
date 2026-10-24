@@ -1,0 +1,146 @@
+{
+  "id": "yugioh/genesis-impact",
+  "game": "yugioh",
+  "slug": "genesis-impact",
+  "name": "Genesis Impact",
+  "series": "SEVENS & GO RUSH!!",
+  "kind": "set",
+  "code": "GEIM",
+  "syncKey": "YGEIM",
+  "released": "2020-12-03",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Main Set",
+      "range": "GEIM-EN001–GEIM-EN060",
+      "tier": "standard"
+    },
+    {
+      "id": "rarities",
+      "name": "Other Rarities",
+      "short": "Other Rarities",
+      "range": "14 cards",
+      "tier": "master"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Main set"
+    ],
+    [
+      "rarities",
+      "Other rarities"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, SCR12, 60x2",
+    "example": "1-20, 45x2, SCR12",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies. Other rarities use their short name and number: <b>SCR12</b> is card 12’s Secret Rare, and ranges work too (<b>QCSR1-QCSR20</b>).",
+    "empty": "Cards run from GEIM-EN001 to GEIM-EN060."
+  },
+  "help": {
+    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 60 cards, each in its main rarity. Master adds the 14 other rarities. Cards you’ve marked are kept when you switch."
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Genesis Impact Checklist · All 60 Cards",
+    "description": "Free Yu-Gi-Oh! Genesis Impact checklist with no ads, no sign-up and no tracking. Track all 60 cards, or every rarity for a master set, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Genesis Impact Checklist",
+    "ogDescription": "Track all 60 cards in Yu-Gi-Oh! Genesis Impact, plus 14 other rarities. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 60 cards in Yu-Gi-Oh! Genesis Impact. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About the Genesis Impact set",
+    "paragraphs": [
+      "Genesis Impact is a Yu-Gi-Oh! TCG special set released on 3 December 2020, in the SEVENS &amp; GO RUSH!! era. It has 60 cards, and with the 14 other rarities there are 74 to collect in all.",
+      "Choose what you’re collecting: the <b>Standard set</b> (the 60 cards, each in its main rarity) or the <b>Master set</b> (all 74, adding the 14 other rarities).",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Genesis Impact"
+    ],
+    "tcgplayer": [
+      2679
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"GEIM-EN001","name":"Crowley, the Magistus of Grimoires","ctype":"monster","keywords":"Magistus Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Effect","atk":1800,"def":1000},"rarity":"SR","img":"9505425","code":"1","tcg":228626,"grp":2679,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"GEIM-EN002","name":"Zoroa, the Magistus of Flame","ctype":"monster","keywords":"Magistus Spellcaster FIRE Tuner Monster","stats":{"a":"FIRE","l":"Level 4","t":"Spellcaster / Tuner","atk":1500,"def":1500},"rarity":"UR","img":"36099130","code":"2","tcg":228627,"grp":2679,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"GEIM-EN003","name":"Rilliona, the Magistus of Verre","ctype":"monster","keywords":"Magistus Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Effect","atk":800,"def":1800},"rarity":"UR","img":"72498838","code":"3","tcg":228628,"grp":2679,"idx":2},
+    {"id":"003-cr","section":"rarities","num":"003","printed":"GEIM-EN003","name":"Rilliona, the Magistus of Verre","ctype":"monster","keywords":"Magistus Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Effect","atk":800,"def":1800},"rarity":"CR","img":"72498838","badge":"CR","variant":"Collector’s Rare","code":"CR3","tcg":228905,"grp":2679,"idx":3},
+    {"id":"004","section":"main","num":"004","printed":"GEIM-EN004","name":"Endymion, the Magistus of Mastery","ctype":"monster","keywords":"Endymion Spellcaster WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Spellcaster / Effect","atk":1300,"def":1700},"rarity":"R","img":"9482987","code":"4","tcg":228629,"grp":2679,"idx":4},
+    {"id":"005","section":"main","num":"005","printed":"GEIM-EN005","name":"Aiwass, the Magistus Spell Spirit","ctype":"monster","keywords":"Magistus Fiend WIND Fusion Monster","stats":{"a":"WIND","l":"Level 8","t":"Fiend / Fusion","atk":2000,"def":2800},"rarity":"SR","img":"35877582","code":"5","tcg":228630,"grp":2679,"idx":5},
+    {"id":"006","section":"main","num":"006","printed":"GEIM-EN006","name":"Vahram, the Magistus Divinity Dragon","ctype":"monster","keywords":"Magistus Dragon FIRE Synchro Monster","stats":{"a":"FIRE","l":"Level 8","t":"Dragon / Synchro","atk":2500,"def":2900},"rarity":"SR","img":"61272280","code":"6","tcg":228631,"grp":2679,"idx":6},
+    {"id":"007","section":"main","num":"007","printed":"GEIM-EN007","name":"Ninaruru, the Magistus Glass Goddess","ctype":"monster","keywords":"Magistus Rock EARTH Xyz Monster","stats":{"a":"EARTH","l":"Rank 4","t":"Rock / Xyz","atk":1800,"def":2400},"rarity":"SR","img":"8660395","code":"7","tcg":228632,"grp":2679,"idx":7},
+    {"id":"007-cr","section":"rarities","num":"007","printed":"GEIM-EN007","name":"Ninaruru, the Magistus Glass Goddess","ctype":"monster","keywords":"Magistus Rock EARTH Xyz Monster","stats":{"a":"EARTH","l":"Rank 4","t":"Rock / Xyz","atk":1800,"def":2400},"rarity":"CR","img":"8660395","badge":"CR","variant":"Collector’s Rare","code":"CR7","tcg":228633,"grp":2679,"idx":8},
+    {"id":"008","section":"main","num":"008","printed":"GEIM-EN008","name":"Artemis, the Magistus Moon Maiden","ctype":"monster","keywords":"Magistus Spellcaster LIGHT Link Monster","stats":{"a":"LIGHT","l":"Link 1","t":"Spellcaster / Link","atk":800},"rarity":"UR","img":"34755994","code":"8","tcg":228634,"grp":2679,"idx":9},
+    {"id":"008-cr","section":"rarities","num":"008","printed":"GEIM-EN008","name":"Artemis, the Magistus Moon Maiden","ctype":"monster","keywords":"Magistus Spellcaster LIGHT Link Monster","stats":{"a":"LIGHT","l":"Link 1","t":"Spellcaster / Link","atk":800},"rarity":"CR","img":"34755994","badge":"CR","variant":"Collector’s Rare","code":"CR8","tcg":228635,"grp":2679,"idx":10},
+    {"id":"009","section":"main","num":"009","printed":"GEIM-EN009","name":"Trismagistus","ctype":"spell","keywords":"Magistus Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"SR","img":"61159609","code":"9","tcg":228636,"grp":2679,"idx":11},
+    {"id":"010","section":"main","num":"010","printed":"GEIM-EN010","name":"Magistus Theurgy","ctype":"spell","keywords":"Magistus Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"R","img":"7548747","code":"10","tcg":228637,"grp":2679,"idx":12},
+    {"id":"011","section":"main","num":"011","printed":"GEIM-EN011","name":"Magistus Invocation","ctype":"spell","keywords":"Magistus Normal Spell","stats":{"t":"Normal Spell"},"rarity":"R","img":"34933456","code":"11","tcg":228638,"grp":2679,"idx":13},
+    {"id":"012","section":"main","num":"012","printed":"GEIM-EN012","name":"Magistus Vritra","ctype":"spell","keywords":"Magistus Normal Spell","stats":{"t":"Normal Spell"},"rarity":"R","img":"327051","code":"12","tcg":228639,"grp":2679,"idx":14},
+    {"id":"013","section":"main","num":"013","printed":"GEIM-EN013","name":"Live☆Twin Ki-sikil","ctype":"monster","keywords":"Live☆Twin Cyberse LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 2","t":"Cyberse / Effect","atk":500,"def":0},"rarity":"SR","img":"36326160","code":"13","tcg":228640,"grp":2679,"idx":15},
+    {"id":"013-cr","section":"rarities","num":"013","printed":"GEIM-EN013","name":"Live☆Twin Ki-sikil","ctype":"monster","keywords":"Live☆Twin Cyberse LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 2","t":"Cyberse / Effect","atk":500,"def":0},"rarity":"CR","img":"36326160","badge":"CR","variant":"Collector’s Rare","code":"CR13","tcg":228641,"grp":2679,"idx":16},
+    {"id":"014","section":"main","num":"014","printed":"GEIM-EN014","name":"Live☆Twin Lil-la","ctype":"monster","keywords":"Live☆Twin Cyberse DARK Effect Monster","stats":{"a":"DARK","l":"Level 2","t":"Cyberse / Effect","atk":500,"def":0},"rarity":"SR","img":"73810864","code":"14","tcg":228643,"grp":2679,"idx":17},
+    {"id":"014-cr","section":"rarities","num":"014","printed":"GEIM-EN014","name":"Live☆Twin Lil-la","ctype":"monster","keywords":"Live☆Twin Cyberse DARK Effect Monster","stats":{"a":"DARK","l":"Level 2","t":"Cyberse / Effect","atk":500,"def":0},"rarity":"CR","img":"73810864","badge":"CR","variant":"Collector’s Rare","code":"CR14","tcg":228642,"grp":2679,"idx":18},
+    {"id":"015","section":"main","num":"015","printed":"GEIM-EN015","name":"Evil★Twin Ki-sikil","ctype":"monster","keywords":"Evil★Twin Fiend LIGHT Link Monster","stats":{"a":"LIGHT","l":"Link 2","t":"Fiend / Link","atk":1100},"rarity":"UR","img":"9205573","code":"15","tcg":228644,"grp":2679,"idx":19},
+    {"id":"015-cr","section":"rarities","num":"015","printed":"GEIM-EN015","name":"Evil★Twin Ki-sikil","ctype":"monster","keywords":"Evil★Twin Fiend LIGHT Link Monster","stats":{"a":"LIGHT","l":"Link 2","t":"Fiend / Link","atk":1100},"rarity":"CR","img":"9205573","badge":"CR","variant":"Collector’s Rare","code":"CR15","tcg":228645,"grp":2679,"idx":20},
+    {"id":"016","section":"main","num":"016","printed":"GEIM-EN016","name":"Evil★Twin Lil-la","ctype":"monster","keywords":"Evil★Twin Fiend DARK Link Monster","stats":{"a":"DARK","l":"Link 2","t":"Fiend / Link","atk":1100},"rarity":"UR","img":"36609518","code":"16","tcg":228647,"grp":2679,"idx":21},
+    {"id":"017","section":"main","num":"017","printed":"GEIM-EN017","name":"Evil★Twins Ki-sikil & Lil-la","ctype":"monster","keywords":"Evil★Twin Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Fiend / Effect","atk":2200,"def":2200},"rarity":"UR","img":"62098216","code":"17","tcg":228648,"grp":2679,"idx":22},
+    {"id":"017-cr","section":"rarities","num":"017","printed":"GEIM-EN017","name":"Evil★Twins Ki-sikil & Lil-la","ctype":"monster","keywords":"Evil★Twin Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Fiend / Effect","atk":2200,"def":2200},"rarity":"CR","img":"62098216","badge":"CR","variant":"Collector’s Rare","code":"CR17","tcg":228649,"grp":2679,"idx":23},
+    {"id":"018","section":"main","num":"018","printed":"GEIM-EN018","name":"Live☆Twin Home","ctype":"spell","keywords":"Live☆Twin Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"SR","img":"8083925","code":"18","tcg":228650,"grp":2679,"idx":24},
+    {"id":"019","section":"main","num":"019","printed":"GEIM-EN019","name":"Live☆Twin Channel","ctype":"spell","keywords":"Live☆Twin Field Spell","stats":{"t":"Field Spell"},"rarity":"R","img":"35487920","code":"19","tcg":228651,"grp":2679,"idx":25},
+    {"id":"020","section":"main","num":"020","printed":"GEIM-EN020","name":"Secret Password","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"61976639","code":"20","tcg":228652,"grp":2679,"idx":26},
+    {"id":"021","section":"main","num":"021","printed":"GEIM-EN021","name":"Evil★Twin Challenge","ctype":"trap","keywords":"Evil★Twin Normal Trap","stats":{"t":"Normal Trap"},"rarity":"R","img":"98360333","code":"21","tcg":228653,"grp":2679,"idx":27},
+    {"id":"022","section":"main","num":"022","printed":"GEIM-EN022","name":"Evil★Twin GG EZ","ctype":"trap","keywords":"Evil★Twin Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"R","img":"34365442","code":"22","tcg":228654,"grp":2679,"idx":28},
+    {"id":"023","section":"main","num":"023","printed":"GEIM-EN023","name":"Evil★Twin Present","ctype":"trap","keywords":"Evil★Twin Normal Trap","stats":{"t":"Normal Trap"},"rarity":"R","img":"60759087","code":"23","tcg":228655,"grp":2679,"idx":29},
+    {"id":"024","section":"main","num":"024","printed":"GEIM-EN024","name":"Drytron Alpha Thuban","ctype":"monster","keywords":"Drytron Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Machine / Effect","atk":2000,"def":0},"rarity":"SR","img":"97148796","code":"24","tcg":228656,"grp":2679,"idx":30},
+    {"id":"025","section":"main","num":"025","printed":"GEIM-EN025","name":"Drytron Beta Rastaban","ctype":"monster","keywords":"Drytron Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Machine / Effect","atk":2000,"def":0},"rarity":"R","img":"33543890","code":"25","tcg":228657,"grp":2679,"idx":31},
+    {"id":"026","section":"main","num":"026","printed":"GEIM-EN026","name":"Drytron Gamma Eltanin","ctype":"monster","keywords":"Drytron Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Machine / Effect","atk":2000,"def":0},"rarity":"R","img":"60037599","code":"26","tcg":228658,"grp":2679,"idx":32},
+    {"id":"027","section":"main","num":"027","printed":"GEIM-EN027","name":"Drytron Delta Altais","ctype":"monster","keywords":"Drytron Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Machine / Effect","atk":2000,"def":0},"rarity":"R","img":"22420202","code":"27","tcg":228659,"grp":2679,"idx":33},
+    {"id":"028","section":"main","num":"028","printed":"GEIM-EN028","name":"Drytron Zeta Aldhibah","ctype":"monster","keywords":"Drytron Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Machine / Effect","atk":2000,"def":0},"rarity":"R","img":"96026108","code":"28","tcg":228660,"grp":2679,"idx":34},
+    {"id":"029","section":"main","num":"029","printed":"GEIM-EN029","name":"Drytron Meteonis Draconids","ctype":"monster","keywords":"Drytron Machine LIGHT Ritual Effect Monster","stats":{"a":"LIGHT","l":"Level 12","t":"Machine / Ritual / Effect","atk":4000,"def":4000},"rarity":"UR","img":"69815951","code":"29","tcg":228661,"grp":2679,"idx":35},
+    {"id":"029-cr","section":"rarities","num":"029","printed":"GEIM-EN029","name":"Drytron Meteonis Draconids","ctype":"monster","keywords":"Drytron Machine LIGHT Ritual Effect Monster","stats":{"a":"LIGHT","l":"Level 12","t":"Machine / Ritual / Effect","atk":4000,"def":4000},"rarity":"CR","img":"69815951","badge":"CR","variant":"Collector’s Rare","code":"CR29","tcg":228662,"grp":2679,"idx":36},
+    {"id":"030","section":"main","num":"030","printed":"GEIM-EN030","name":"Drytron Meteonis Quadrantids","ctype":"monster","keywords":"Drytron Machine LIGHT Ritual Effect Monster","stats":{"a":"LIGHT","l":"Level 12","t":"Machine / Ritual / Effect","atk":4000,"def":4000},"rarity":"SR","img":"95209656","code":"30","tcg":228664,"grp":2679,"idx":37},
+    {"id":"030-cr","section":"rarities","num":"030","printed":"GEIM-EN030","name":"Drytron Meteonis Quadrantids","ctype":"monster","keywords":"Drytron Machine LIGHT Ritual Effect Monster","stats":{"a":"LIGHT","l":"Level 12","t":"Machine / Ritual / Effect","atk":4000,"def":4000},"rarity":"CR","img":"95209656","badge":"CR","variant":"Collector’s Rare","code":"CR30","tcg":228663,"grp":2679,"idx":38},
+    {"id":"031","section":"main","num":"031","printed":"GEIM-EN031","name":"Drytron Fafnir","ctype":"spell","keywords":"Drytron Field Spell","stats":{"t":"Field Spell"},"rarity":"SR","img":"58793369","code":"31","tcg":228665,"grp":2679,"idx":39},
+    {"id":"032","section":"main","num":"032","printed":"GEIM-EN032","name":"Meteonis Drytron","ctype":"spell","keywords":"Drytron Ritual Spell","stats":{"t":"Ritual Spell"},"rarity":"UR","img":"22398665","code":"32","tcg":228666,"grp":2679,"idx":40},
+    {"id":"032-cr","section":"rarities","num":"032","printed":"GEIM-EN032","name":"Meteonis Drytron","ctype":"spell","keywords":"Drytron Ritual Spell","stats":{"t":"Ritual Spell"},"rarity":"CR","img":"22398665","badge":"CR","variant":"Collector’s Rare","code":"CR32","tcg":228667,"grp":2679,"idx":41},
+    {"id":"033","section":"main","num":"033","printed":"GEIM-EN033","name":"Drytron Nova","ctype":"spell","keywords":"Drytron Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UR","img":"94187078","code":"33","tcg":228668,"grp":2679,"idx":42},
+    {"id":"034","section":"main","num":"034","printed":"GEIM-EN034","name":"Drytron Eclipse","ctype":"spell","keywords":"Drytron Normal Spell","stats":{"t":"Normal Spell"},"rarity":"R","img":"21576077","code":"34","tcg":228669,"grp":2679,"idx":43},
+    {"id":"035","section":"main","num":"035","printed":"GEIM-EN035","name":"Drytron Asterism","ctype":"spell","keywords":"Drytron Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"R","img":"57970721","code":"35","tcg":228670,"grp":2679,"idx":44},
+    {"id":"036","section":"main","num":"036","printed":"GEIM-EN036","name":"Drytron Meteor Shower","ctype":"trap","keywords":"Drytron Counter Trap","stats":{"t":"Counter Trap"},"rarity":"R","img":"84965420","code":"36","tcg":228671,"grp":2679,"idx":45},
+    {"id":"037","section":"main","num":"037","printed":"GEIM-EN037","name":"Cyberse Gadget","ctype":"monster","keywords":"Gadget Cyberse LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Cyberse / Effect","atk":1400,"def":300},"rarity":"R","img":"645087","code":"37","tcg":228672,"grp":2679,"idx":46},
+    {"id":"038","section":"main","num":"038","printed":"GEIM-EN038","name":"Performage Hat Tricker","ctype":"monster","keywords":"Performage Spellcaster EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Spellcaster / Effect","atk":1100,"def":1100},"rarity":"R","img":"31292357","code":"38","tcg":228673,"grp":2679,"idx":47},
+    {"id":"039","section":"main","num":"039","printed":"GEIM-EN039","name":"Star Drawing","ctype":"monster","keywords":"Spellcaster EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Spellcaster / Effect","atk":1600,"def":1000},"rarity":"R","img":"24610207","code":"39","tcg":228674,"grp":2679,"idx":48},
+    {"id":"040","section":"main","num":"040","printed":"GEIM-EN040","name":"Cyber Angel Benten","ctype":"monster","keywords":"Cyber Angel Fairy LIGHT Ritual Effect Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Fairy / Ritual / Effect","atk":1800,"def":1500},"rarity":"R","img":"77235086","code":"40","tcg":228675,"grp":2679,"idx":49},
+    {"id":"041","section":"main","num":"041","printed":"GEIM-EN041","name":"Knightmare Gryphon","ctype":"monster","keywords":"Knightmare Fiend LIGHT Link Monster","stats":{"a":"LIGHT","l":"Link 4","t":"Fiend / Link","atk":2500},"rarity":"R","img":"65330383","code":"41","tcg":228676,"grp":2679,"idx":50},
+    {"id":"042","section":"main","num":"042","printed":"GEIM-EN042","name":"Cyber Emergency","ctype":"spell","keywords":"Cyber Dragon Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"60600126","code":"42","tcg":228677,"grp":2679,"idx":51},
+    {"id":"043","section":"main","num":"043","printed":"GEIM-EN043","name":"Extra-Foolish Burial","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"R","img":"57995165","code":"43","tcg":228678,"grp":2679,"idx":52},
+    {"id":"044","section":"main","num":"044","printed":"GEIM-EN044","name":"Born from Draconis","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"R","img":"96699830","code":"44","tcg":228679,"grp":2679,"idx":53},
+    {"id":"045","section":"main","num":"045","printed":"GEIM-EN045","name":"Bottomless Trap Hole","ctype":"trap","keywords":"Hole Normal Trap","stats":{"t":"Normal Trap"},"rarity":"R","img":"29401950","code":"45","tcg":228680,"grp":2679,"idx":54},
+    {"id":"046","section":"main","num":"046","printed":"GEIM-EN046","name":"Herald of Ultimateness","ctype":"monster","keywords":"Herald Fairy LIGHT Ritual Effect Monster","stats":{"a":"LIGHT","l":"Level 12","t":"Fairy / Ritual / Effect","atk":2000,"def":3000},"rarity":"R","img":"48546368","code":"46","tcg":228681,"grp":2679,"idx":55},
+    {"id":"047","section":"main","num":"047","printed":"GEIM-EN047","name":"Impcantation Chalislime","ctype":"monster","keywords":"Impcantation Aqua DARK Ritual Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Aqua / Ritual / Effect","atk":2500,"def":1800},"rarity":"SR","img":"65877963","code":"47","tcg":228682,"grp":2679,"idx":56},
+    {"id":"048","section":"main","num":"048","printed":"GEIM-EN048","name":"Beat Cop from the Underworld","ctype":"monster","keywords":"Fiend DARK Link Monster","stats":{"a":"DARK","l":"Link 2","t":"Fiend / Link","atk":1000},"rarity":"SR","img":"99011763","code":"48","tcg":228683,"grp":2679,"idx":57},
+    {"id":"048-cr","section":"rarities","num":"048","printed":"GEIM-EN048","name":"Beat Cop from the Underworld","ctype":"monster","keywords":"Fiend DARK Link Monster","stats":{"a":"DARK","l":"Link 2","t":"Fiend / Link","atk":1000},"rarity":"CR","img":"99011763","badge":"CR","variant":"Collector’s Rare","code":"CR48","tcg":228684,"grp":2679,"idx":58},
+    {"id":"049","section":"main","num":"049","printed":"GEIM-EN049","name":"Backup Secretary","ctype":"monster","keywords":"Cyberse LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Cyberse / Effect","atk":1200,"def":800},"rarity":"R","img":"63528891","code":"49","tcg":228685,"grp":2679,"idx":59},
+    {"id":"050","section":"main","num":"050","printed":"GEIM-EN050","name":"Knightmare Unicorn","ctype":"monster","keywords":"Knightmare Fiend DARK Link Monster","stats":{"a":"DARK","l":"Link 3","t":"Fiend / Link","atk":2200},"rarity":"R","img":"38342335","code":"50","tcg":228687,"grp":2679,"idx":60},
+    {"id":"050-cr","section":"rarities","num":"050","printed":"GEIM-EN050","name":"Knightmare Unicorn","ctype":"monster","keywords":"Knightmare Fiend DARK Link Monster","stats":{"a":"DARK","l":"Link 3","t":"Fiend / Link","atk":2200},"rarity":"CR","img":"38342335","badge":"CR","variant":"Collector’s Rare","code":"CR50","tcg":228686,"grp":2679,"idx":61},
+    {"id":"051","section":"main","num":"051","printed":"GEIM-EN051","name":"Knightmare Phoenix","ctype":"monster","keywords":"Knightmare Fiend FIRE Link Monster","stats":{"a":"FIRE","l":"Link 2","t":"Fiend / Link","atk":1900},"rarity":"R","img":"2857636","code":"51","tcg":228688,"grp":2679,"idx":62},
+    {"id":"051-cr","section":"rarities","num":"051","printed":"GEIM-EN051","name":"Knightmare Phoenix","ctype":"monster","keywords":"Knightmare Fiend FIRE Link Monster","stats":{"a":"FIRE","l":"Link 2","t":"Fiend / Link","atk":1900},"rarity":"CR","img":"2857636","badge":"CR","variant":"Collector’s Rare","code":"CR51","tcg":228689,"grp":2679,"idx":63},
+    {"id":"052","section":"main","num":"052","printed":"GEIM-EN052","name":"Number 96: Dark Mist","ctype":"monster","keywords":"Fiend DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 2","t":"Fiend / Xyz","atk":100,"def":1000},"rarity":"R","img":"55727845","code":"52","tcg":228690,"grp":2679,"idx":64},
+    {"id":"053","section":"main","num":"053","printed":"GEIM-EN053","name":"Aleister the Invoker of Madness","ctype":"monster","keywords":"Invoked Spellcaster DARK Link Monster","stats":{"a":"DARK","l":"Link 2","t":"Spellcaster / Link","atk":1800},"rarity":"UR","img":"97973962","code":"53","tcg":228692,"grp":2679,"idx":65},
+    {"id":"053-cr","section":"rarities","num":"053","printed":"GEIM-EN053","name":"Aleister the Invoker of Madness","ctype":"monster","keywords":"Invoked Spellcaster DARK Link Monster","stats":{"a":"DARK","l":"Link 2","t":"Spellcaster / Link","atk":1800},"rarity":"CR","img":"97973962","badge":"CR","variant":"Collector’s Rare","code":"CR53","tcg":228691,"grp":2679,"idx":66},
+    {"id":"054","section":"main","num":"054","printed":"GEIM-EN054","name":"The Book of the Law","ctype":"spell","keywords":"Invoked Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"R","img":"458748","code":"54","tcg":228693,"grp":2679,"idx":67},
+    {"id":"055","section":"main","num":"055","printed":"GEIM-EN055","name":"Invoked Cocytus","ctype":"monster","keywords":"Invoked Dragon WATER Fusion Monster","stats":{"a":"WATER","l":"Level 6","t":"Dragon / Fusion","atk":1800,"def":2900},"rarity":"R","img":"85908279","code":"55","tcg":228694,"grp":2679,"idx":68},
+    {"id":"056","section":"main","num":"056","printed":"GEIM-EN056","name":"Invoked Magellanica","ctype":"monster","keywords":"Invoked Rock EARTH Fusion Monster","stats":{"a":"EARTH","l":"Level 8","t":"Rock / Fusion","atk":3000,"def":3300},"rarity":"R","img":"48791583","code":"56","tcg":228695,"grp":2679,"idx":69},
+    {"id":"057","section":"main","num":"057","printed":"GEIM-EN057","name":"Cynet Regression","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"R","img":"19943114","code":"57","tcg":228696,"grp":2679,"idx":70},
+    {"id":"058","section":"main","num":"058","printed":"GEIM-EN058","name":"World Legacy - \"World Lance\"","ctype":"monster","keywords":"World Legacy Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Machine / Effect","atk":3000,"def":0},"rarity":"R","img":"46647144","code":"58","tcg":228697,"grp":2679,"idx":71},
+    {"id":"059","section":"main","num":"059","printed":"GEIM-EN059","name":"Engraver of the Mark","ctype":"monster","keywords":"Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Effect","atk":1800,"def":1200},"rarity":"R","img":"50078320","code":"59","tcg":228698,"grp":2679,"idx":72},
+    {"id":"060","section":"main","num":"060","printed":"GEIM-EN060","name":"Performage Damage Juggler","ctype":"monster","keywords":"Performage Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Effect","atk":1500,"def":1000},"rarity":"R","img":"68819554","code":"60","tcg":228699,"grp":2679,"idx":73}
+  ]
+}

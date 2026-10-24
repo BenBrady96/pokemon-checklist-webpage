@@ -1,0 +1,80 @@
+{
+  "id": "yugioh/world-championship-2010-card-pack",
+  "game": "yugioh",
+  "slug": "world-championship-2010-card-pack",
+  "name": "World Championship 2010 Card Pack",
+  "series": "5D’s",
+  "kind": "pack",
+  "code": "WCPP",
+  "syncKey": "YWCPP",
+  "released": "2010-08-14",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "WCPP-EN001–WCPP-EN020",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from WCPP-EN001 to WCPP-EN020."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! World Championship 2010 Card Pack Checklist · All 20 Cards",
+    "description": "Free Yu-Gi-Oh! World Championship 2010 Card Pack checklist with no ads, no sign-up and no tracking. Track all 20 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! World Championship 2010 Card Pack Checklist",
+    "ogDescription": "Track all 20 cards in Yu-Gi-Oh! World Championship 2010 Card Pack. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 20 cards in Yu-Gi-Oh! World Championship 2010 Card Pack. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About World Championship 2010 Card Pack",
+    "paragraphs": [
+      "World Championship 2010 Card Pack is a Yu-Gi-Oh! TCG pack released on 14 August 2010, in the 5D’s era. It has 20 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "World Championship 2010 Card Pack"
+    ],
+    "tcgplayer": [
+      2227
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"WCPP-EN001","name":"Droll Bird","ctype":"monster","keywords":"Winged Beast WIND Normal Monster","stats":{"a":"WIND","l":"Level 2","t":"Winged Beast / Normal","atk":600,"def":500},"rarity":"R","img":"97973387","code":"1","tcg":164461,"grp":2227,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"WCPP-EN002","name":"Key Mace","ctype":"monster","keywords":"Fairy LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Fairy / Normal","atk":400,"def":300},"rarity":"R","img":"1929294","code":"2","tcg":164462,"grp":2227,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"WCPP-EN003","name":"Obese Marmot of Nefariousness","ctype":"monster","keywords":"Beast EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 3","t":"Beast / Normal","atk":750,"def":800},"rarity":"R","img":"56713552","code":"3","tcg":164463,"grp":2227,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"WCPP-EN004","name":"Wilmee","ctype":"monster","keywords":"Beast EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 4","t":"Beast / Normal","atk":1000,"def":1200},"rarity":"R","img":"92391084","code":"4","tcg":164464,"grp":2227,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"WCPP-EN005","name":"Key Mace #2","ctype":"monster","keywords":"Fiend DARK Normal Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Normal","atk":1050,"def":1200},"rarity":"R","img":"20541432","code":"5","tcg":164465,"grp":2227,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"WCPP-EN006","name":"Great Bill","ctype":"monster","keywords":"Beast EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 4","t":"Beast / Normal","atk":1250,"def":1300},"rarity":"R","img":"55691901","code":"6","tcg":164466,"grp":2227,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"WCPP-EN007","name":"Alligator's Sword","ctype":"monster","keywords":"Alligator Beast EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 4","t":"Beast / Normal","atk":1500,"def":1200},"rarity":"R","img":"64428736","code":"7","tcg":164467,"grp":2227,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"WCPP-EN008","name":"Monster Eye","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Fiend / Effect","atk":250,"def":350},"rarity":"R","img":"84133008","code":"8","tcg":164468,"grp":2227,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"WCPP-EN009","name":"Red-Eyes Darkness Dragon","ctype":"monster","keywords":"Red-Eyes Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 9","t":"Dragon / Effect","atk":2400,"def":2000},"rarity":"R","img":"96561011","code":"9","tcg":164469,"grp":2227,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"WCPP-EN010","name":"Vampire Genesis","ctype":"monster","keywords":"Vampire Zombie DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Zombie / Effect","atk":3000,"def":2100},"rarity":"R","img":"22056710","code":"10","tcg":164470,"grp":2227,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"WCPP-EN011","name":"Infernal Flame Emperor","ctype":"monster","keywords":"Pyro FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 9","t":"Pyro / Effect","atk":2700,"def":1600},"rarity":"R","img":"19847532","code":"11","tcg":164471,"grp":2227,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"WCPP-EN012","name":"Ocean Dragon Lord - Neo-Daedalus","ctype":"monster","keywords":"Umi Sea Serpent WATER Effect Monster","stats":{"a":"WATER","l":"Level 8","t":"Sea Serpent / Effect","atk":2900,"def":1600},"rarity":"R","img":"10485110","code":"12","tcg":164472,"grp":2227,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"WCPP-EN013","name":"Gilford the Legend","ctype":"monster","keywords":"Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 8","t":"Warrior / Effect","atk":2600,"def":2000},"rarity":"R","img":"69933858","code":"13","tcg":164473,"grp":2227,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"WCPP-EN014","name":"Dark Eradicator Warlock","ctype":"monster","keywords":"Dark Magician Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Spellcaster / Effect","atk":2500,"def":2100},"rarity":"R","img":"29436665","code":"14","tcg":164474,"grp":2227,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"WCPP-EN015","name":"Exxod, Master of The Guard","ctype":"monster","keywords":"Sphinx Rock EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 8","t":"Rock / Effect","atk":0,"def":4000},"rarity":"R","img":"55737443","code":"15","tcg":164475,"grp":2227,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"WCPP-EN016","name":"Simorgh, Bird of Divinity","ctype":"monster","keywords":"Simorgh Winged Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 7","t":"Winged Beast / Effect","atk":2700,"def":1000},"rarity":"R","img":"14989021","code":"16","tcg":164476,"grp":2227,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"WCPP-EN017","name":"Super Conductor Tyranno","ctype":"monster","keywords":"Dinosaur LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dinosaur / Effect","atk":3300,"def":1400},"rarity":"R","img":"85520851","code":"17","tcg":164477,"grp":2227,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"WCPP-EN018","name":"Ancient Gear Gadjiltron Dragon","ctype":"monster","keywords":"Ancient Gear Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 8","t":"Machine / Effect","atk":3000,"def":2000},"rarity":"R","img":"50933533","code":"18","tcg":164478,"grp":2227,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"WCPP-EN019","name":"Alligator's Sword Dragon","ctype":"monster","keywords":"Alligator Dragon WIND Fusion Monster","stats":{"a":"WIND","l":"Level 5","t":"Dragon / Fusion","atk":1700,"def":1500},"rarity":"R","img":"3366982","code":"19","tcg":164479,"grp":2227,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"WCPP-EN020","name":"Mooyan Curry","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"R","img":"58074572","code":"20","tcg":164480,"grp":2227,"idx":19}
+  ]
+}

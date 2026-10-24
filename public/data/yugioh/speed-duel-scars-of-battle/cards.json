@@ -1,0 +1,110 @@
+{
+  "id": "yugioh/speed-duel-scars-of-battle",
+  "game": "yugioh",
+  "slug": "speed-duel-scars-of-battle",
+  "name": "Speed Duel: Scars of Battle",
+  "series": "VRAINS",
+  "kind": "pack",
+  "code": "SBSC",
+  "syncKey": "YSBSC",
+  "released": "2019-08-01",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "SBSC-EN001–SBSC-ENS05",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from SBSC-EN001 to SBSC-ENS05."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Speed Duel: Scars of Battle Checklist · All 50 Cards",
+    "description": "Free Yu-Gi-Oh! Speed Duel: Scars of Battle checklist with no ads, no sign-up and no tracking. Track all 50 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Speed Duel: Scars of Battle Checklist",
+    "ogDescription": "Track all 50 cards in Yu-Gi-Oh! Speed Duel: Scars of Battle. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 50 cards in Yu-Gi-Oh! Speed Duel: Scars of Battle. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Speed Duel: Scars of Battle",
+    "paragraphs": [
+      "Speed Duel: Scars of Battle is a Yu-Gi-Oh! TCG pack released on 1 August 2019, in the VRAINS era. It has 50 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Speed Duel: Scars of Battle"
+    ],
+    "tcgplayer": [
+      2468
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"SBSC-EN001","name":"Magical Plant Mandragola","ctype":"monster","keywords":"Spellcaster DARK Flip Effect Monster","stats":{"a":"DARK","l":"Level 2","t":"Spellcaster / Flip / Effect","atk":500,"def":200},"rarity":"C","img":"7802006","code":"1","tcg":196188,"grp":2468,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"SBSC-EN002","name":"Dark Red Enchanter","ctype":"monster","keywords":"Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Spellcaster / Effect","atk":1700,"def":2200},"rarity":"SR","img":"45462639","code":"2","tcg":196189,"grp":2468,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"SBSC-EN003","name":"Crystal Seer","ctype":"monster","keywords":"Spellcaster WATER Flip Effect Monster","stats":{"a":"WATER","l":"Level 1","t":"Spellcaster / Flip / Effect","atk":100,"def":100},"rarity":"SR","img":"82099401","code":"3","tcg":196190,"grp":2468,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"SBSC-EN004","name":"Spell Power Grasp","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"75014062","code":"4","tcg":196191,"grp":2468,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"SBSC-EN005","name":"Spellbinding Circle","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"18807109","code":"5","tcg":196192,"grp":2468,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"SBSC-EN006","name":"Troop Dragon","ctype":"monster","keywords":"Dragon WIND Effect Monster","stats":{"a":"WIND","l":"Level 2","t":"Dragon / Effect","atk":700,"def":800},"rarity":"SR","img":"55013285","code":"6","tcg":196193,"grp":2468,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"SBSC-EN007","name":"Vampire Lord","ctype":"monster","keywords":"Vampire Zombie DARK Effect Monster","stats":{"a":"DARK","l":"Level 5","t":"Zombie / Effect","atk":2000,"def":1500},"rarity":"UR","img":"53839837","code":"7","tcg":196194,"grp":2468,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"SBSC-EN008","name":"Command Knight","ctype":"monster","keywords":"Warrior FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Warrior / Effect","atk":1200,"def":1900},"rarity":"C","img":"10375182","code":"8","tcg":196195,"grp":2468,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"SBSC-EN009","name":"Gearfried the Swordmaster","ctype":"monster","keywords":"Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 7","t":"Warrior / Effect","atk":2600,"def":2200},"rarity":"UR","img":"57046845","code":"9","tcg":196196,"grp":2468,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"SBSC-EN010","name":"Release Restraint","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"75417459","code":"10","tcg":196197,"grp":2468,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"SBSC-EN011","name":"Blue-Eyed Silver Zombie","ctype":"monster","keywords":"Zombie DARK Normal Monster","stats":{"a":"DARK","l":"Level 3","t":"Zombie / Normal","atk":900,"def":700},"rarity":"C","img":"35282433","code":"11","tcg":196198,"grp":2468,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"SBSC-EN012","name":"Fire Reaper","ctype":"monster","keywords":"Zombie DARK Normal Monster","stats":{"a":"DARK","l":"Level 2","t":"Zombie / Normal","atk":700,"def":500},"rarity":"C","img":"53581214","code":"12","tcg":196199,"grp":2468,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"SBSC-EN013","name":"Book of Life","ctype":"spell","keywords":"Book of Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UR","img":"2204140","code":"13","tcg":196200,"grp":2468,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"SBSC-EN014","name":"Skreech","ctype":"monster","keywords":"Reptile WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Reptile / Effect","atk":1500,"def":400},"rarity":"C","img":"27655513","code":"14","tcg":196201,"grp":2468,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"SBSC-EN015","name":"Fortress Whale","ctype":"monster","keywords":"Umi Fish WATER Ritual Monster","stats":{"a":"WATER","l":"Level 7","t":"Fish / Ritual","atk":2350,"def":2150},"rarity":"C","img":"62337487","code":"15","tcg":196202,"grp":2468,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"SBSC-EN016","name":"Fortress Whale's Oath","ctype":"spell","keywords":"Umi Ritual Spell","stats":{"t":"Ritual Spell"},"rarity":"C","img":"77454922","code":"16","tcg":196203,"grp":2468,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"SBSC-EN017","name":"Kabazauls","ctype":"monster","keywords":"Dinosaur WATER Normal Monster","stats":{"a":"WATER","l":"Level 4","t":"Dinosaur / Normal","atk":1700,"def":1500},"rarity":"C","img":"51934376","code":"17","tcg":196204,"grp":2468,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"SBSC-EN018","name":"Jurrac Tyrannus","ctype":"monster","keywords":"Jurrac Dinosaur FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 7","t":"Dinosaur / Effect","atk":2500,"def":1400},"rarity":"C","img":"62701967","code":"18","tcg":196205,"grp":2468,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"SBSC-EN019","name":"Empress Mantis","ctype":"monster","keywords":"Insect WIND Normal Monster","stats":{"a":"WIND","l":"Level 6","t":"Insect / Normal","atk":2200,"def":1400},"rarity":"C","img":"58818411","code":"19","tcg":196206,"grp":2468,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"SBSC-EN020","name":"Danipon","ctype":"monster","keywords":"Insect EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 2","t":"Insect / Effect","atk":600,"def":600},"rarity":"C","img":"48588176","code":"20","tcg":196207,"grp":2468,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"SBSC-EN021","name":"Insect Armor with Laser Cannon","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"3492538","code":"21","tcg":196208,"grp":2468,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"SBSC-EN022","name":"Gatekeeper","ctype":"monster","keywords":"Machine DARK Normal Monster","stats":{"a":"DARK","l":"Level 5","t":"Machine / Normal","atk":1500,"def":1800},"rarity":"C","img":"19737320","code":"22","tcg":196209,"grp":2468,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"SBSC-EN023","name":"Pendulum Machine","ctype":"monster","keywords":"Machine DARK Normal Monster","stats":{"a":"DARK","l":"Level 6","t":"Machine / Normal","atk":1750,"def":2000},"rarity":"C","img":"24433920","code":"23","tcg":196210,"grp":2468,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"SBSC-EN024","name":"Launcher Spider","ctype":"monster","keywords":"Machine FIRE Normal Monster","stats":{"a":"FIRE","l":"Level 7","t":"Machine / Normal","atk":2200,"def":2500},"rarity":"C","img":"87322377","code":"24","tcg":196211,"grp":2468,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"SBSC-EN025","name":"Slot Machine","ctype":"monster","keywords":"Machine DARK Normal Monster","stats":{"a":"DARK","l":"Level 7","t":"Machine / Normal","atk":2000,"def":2300},"rarity":"C","img":"3797883","code":"25","tcg":196212,"grp":2468,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"SBSC-EN026","name":"Barrel Dragon","ctype":"monster","keywords":"Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Machine / Effect","atk":2600,"def":2200},"rarity":"SR","img":"81480461","code":"26","tcg":196213,"grp":2468,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"SBSC-EN027","name":"Blast Sphere","ctype":"monster","keywords":"Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Machine / Effect","atk":1400,"def":1400},"rarity":"C","img":"26302522","code":"27","tcg":196214,"grp":2468,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"SBSC-EN028","name":"Machine Conversion Factory","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"25769732","code":"28","tcg":196215,"grp":2468,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"SBSC-EN029","name":"7 Completed","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"86198326","code":"29","tcg":196216,"grp":2468,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"SBSC-EN030","name":"Metalmorph","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"UR","img":"68540058","code":"30","tcg":196217,"grp":2468,"idx":29},
+    {"id":"031","section":"main","num":"031","printed":"SBSC-EN031","name":"Bokoichi the Freightening Car","ctype":"monster","keywords":"Machine DARK Normal Monster","stats":{"a":"DARK","l":"Level 2","t":"Machine / Normal","atk":500,"def":500},"rarity":"C","img":"8715625","code":"31","tcg":196218,"grp":2468,"idx":30},
+    {"id":"032","section":"main","num":"032","printed":"SBSC-EN032","name":"Dekoichi the Battlechanted Locomotive","ctype":"monster","keywords":"Machine DARK Flip Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Machine / Flip / Effect","atk":1400,"def":1000},"rarity":"SR","img":"87621407","code":"32","tcg":196219,"grp":2468,"idx":31},
+    {"id":"033","section":"main","num":"033","printed":"SBSC-EN033","name":"Mask of Darkness","ctype":"monster","keywords":"Mask Fiend DARK Flip Effect Monster","stats":{"a":"DARK","l":"Level 2","t":"Fiend / Flip / Effect","atk":900,"def":400},"rarity":"UR","img":"28933734","code":"33","tcg":196220,"grp":2468,"idx":32},
+    {"id":"034","section":"main","num":"034","printed":"SBSC-EN034","name":"Iron Blacksmith Kotetsu","ctype":"monster","keywords":"Beast-Warrior FIRE Flip Effect Monster","stats":{"a":"FIRE","l":"Level 2","t":"Beast-Warrior / Flip / Effect","atk":500,"def":500},"rarity":"C","img":"73431236","code":"34","tcg":196221,"grp":2468,"idx":33},
+    {"id":"035","section":"main","num":"035","printed":"SBSC-EN035","name":"Infernity Dwarf","ctype":"monster","keywords":"Infernity Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 2","t":"Warrior / Effect","atk":800,"def":500},"rarity":"C","img":"25171661","code":"35","tcg":196222,"grp":2468,"idx":34},
+    {"id":"036","section":"main","num":"036","printed":"SBSC-EN036","name":"Ally of Justice Core Destroyer","ctype":"monster","keywords":"Ally of Justice Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Machine / Effect","atk":1200,"def":200},"rarity":"C","img":"36629203","code":"36","tcg":196223,"grp":2468,"idx":35},
+    {"id":"037","section":"main","num":"037","printed":"SBSC-EN037","name":"Master Craftsman Gamil","ctype":"monster","keywords":"Pyro FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 2","t":"Pyro / Effect","atk":200,"def":200},"rarity":"C","img":"25727454","code":"37","tcg":196224,"grp":2468,"idx":36},
+    {"id":"038","section":"main","num":"038","printed":"SBSC-EN038","name":"Eternal Rest","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"95051344","code":"38","tcg":196225,"grp":2468,"idx":37},
+    {"id":"039","section":"main","num":"039","printed":"SBSC-EN039","name":"Gravity Axe - Grarl","ctype":"spell","keywords":"Guardian Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"32022366","code":"39","tcg":196226,"grp":2468,"idx":38},
+    {"id":"040","section":"main","num":"040","printed":"SBSC-EN040","name":"The Beginning of the End","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"73680966","code":"40","tcg":196227,"grp":2468,"idx":39},
+    {"id":"041","section":"main","num":"041","printed":"SBSC-EN041","name":"Fighting Spirit","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"6178850","code":"41","tcg":196228,"grp":2468,"idx":40},
+    {"id":"042","section":"main","num":"042","printed":"SBSC-EN042","name":"Break! Draw!","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"63851864","code":"42","tcg":196229,"grp":2468,"idx":41},
+    {"id":"043","section":"main","num":"043","printed":"SBSC-EN043","name":"Night Beam","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UR","img":"89882100","code":"43","tcg":196230,"grp":2468,"idx":42},
+    {"id":"044","section":"main","num":"044","printed":"SBSC-EN044","name":"Security Orb","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"26533075","code":"44","tcg":196231,"grp":2468,"idx":43},
+    {"id":"045","section":"main","num":"045","printed":"SBSC-EN045","name":"A Major Upset","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"32207100","code":"45","tcg":196232,"grp":2468,"idx":44},
+    {"id":"S01","section":"main","num":"S01","printed":"SBSC-ENS01","name":"Heavy Metal Raiders (Skill Card)","ctype":"skill","keywords":"Keith Skill","stats":{"t":"Skill · Keith"},"rarity":"UR","img":"300103001","code":"S1","tcg":196183,"grp":2468,"idx":45},
+    {"id":"S02","section":"main","num":"S02","printed":"SBSC-ENS02","name":"Spell Proof Armor","ctype":"skill","keywords":"Keith Skill","stats":{"t":"Skill · Keith"},"rarity":"SR","img":"300103002","code":"S2","tcg":196184,"grp":2468,"idx":46},
+    {"id":"S03","section":"main","num":"S03","printed":"SBSC-ENS03","name":"Bandit","ctype":"skill","keywords":"Keith Skill","stats":{"t":"Skill · Keith"},"rarity":"SR","img":"300103003","code":"S3","tcg":196185,"grp":2468,"idx":47},
+    {"id":"S04","section":"main","num":"S04","printed":"SBSC-ENS04","name":"Servants of the Fallen King","ctype":"skill","keywords":"Bonz Skill","stats":{"t":"Skill · Bonz"},"rarity":"SR","img":"300103004","code":"S4","tcg":196186,"grp":2468,"idx":48},
+    {"id":"S05","section":"main","num":"S05","printed":"SBSC-ENS05","name":"Double Evolution Pill (Skill Card)","ctype":"skill","keywords":"Rex Skill","stats":{"t":"Skill · Rex"},"rarity":"UR","img":"300103005","code":"S5","tcg":196187,"grp":2468,"idx":49}
+  ]
+}

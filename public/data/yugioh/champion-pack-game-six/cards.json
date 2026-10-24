@@ -1,0 +1,80 @@
+{
+  "id": "yugioh/champion-pack-game-six",
+  "game": "yugioh",
+  "slug": "champion-pack-game-six",
+  "name": "Champion Pack: Game Six",
+  "series": "GX",
+  "kind": "pack",
+  "code": "CP06",
+  "syncKey": "YCP06",
+  "released": "2008-05-12",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "CP06-EN001–CP06-EN020",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from CP06-EN001 to CP06-EN020."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Champion Pack: Game Six Checklist · All 20 Cards",
+    "description": "Free Yu-Gi-Oh! Champion Pack: Game Six checklist with no ads, no sign-up and no tracking. Track all 20 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Champion Pack: Game Six Checklist",
+    "ogDescription": "Track all 20 cards in Yu-Gi-Oh! Champion Pack: Game Six. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 20 cards in Yu-Gi-Oh! Champion Pack: Game Six. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Champion Pack: Game Six",
+    "paragraphs": [
+      "Champion Pack: Game Six is a Yu-Gi-Oh! TCG pack released on 12 May 2008, in the GX era. It has 20 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Champion Pack: Game Six"
+    ],
+    "tcgplayer": [
+      154
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"CP06-EN001","name":"Rigorous Reaver","ctype":"monster","keywords":"Plant FIRE Flip Effect Monster","stats":{"a":"FIRE","l":"Level 3","t":"Plant / Flip / Effect","atk":1600,"def":100},"rarity":"UR","img":"39180960","code":"1","tcg":33053,"grp":154,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"CP06-EN002","name":"Destiny HERO - Fear Monger","ctype":"monster","keywords":"Destiny HERO Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Warrior / Effect","atk":1000,"def":1000},"rarity":"SR","img":"80744121","code":"2","tcg":33054,"grp":154,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"CP06-EN003","name":"Old Vindictive Magician","ctype":"monster","keywords":"Spellcaster DARK Flip Effect Monster","stats":{"a":"DARK","l":"Level 2","t":"Spellcaster / Flip / Effect","atk":450,"def":600},"rarity":"SR","img":"45141844","code":"3","tcg":33055,"grp":154,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"CP06-EN004","name":"Phoenix Wing Wind Blast","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"63356631","code":"4","tcg":33056,"grp":154,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"CP06-EN005","name":"Blaze Accelerator","ctype":"spell","keywords":"Blaze Accelerator Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"SR","img":"69537999","code":"5","tcg":33057,"grp":154,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"CP06-EN006","name":"Call of Darkness","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"R","img":"78637313","code":"6","tcg":33058,"grp":154,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"CP06-EN007","name":"Blade Knight","ctype":"monster","keywords":"Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Effect","atk":1600,"def":1000},"rarity":"R","img":"39507162","code":"7","tcg":33059,"grp":154,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"CP06-EN008","name":"Super-Electromagnetic Voltech Dragon","ctype":"monster","keywords":"Batteryman Thunder LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 5","t":"Thunder / Effect","atk":2400,"def":1000},"rarity":"R","img":"20529766","code":"8","tcg":33060,"grp":154,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"CP06-EN009","name":"Elemental HERO Stratos","ctype":"monster","keywords":"Elemental HERO Warrior WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Warrior / Effect","atk":1800,"def":300},"rarity":"R","img":"40044918","code":"9","tcg":33061,"grp":154,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"CP06-EN010","name":"Helios Duo Megistus","ctype":"monster","keywords":"Pyro LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Pyro / Effect","atk":-1,"def":-1},"rarity":"R","img":"80887952","code":"10","tcg":33062,"grp":154,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"CP06-EN011","name":"Mage Power","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"R","img":"83746708","code":"11","tcg":33063,"grp":154,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"CP06-EN012","name":"Sentinel of the Seas","ctype":"monster","keywords":"Aqua WATER Normal Monster","stats":{"a":"WATER","l":"Level 4","t":"Aqua / Normal","atk":1300,"def":1000},"rarity":"C","img":"85448931","code":"12","tcg":33064,"grp":154,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"CP06-EN013","name":"Batteryman AA","ctype":"monster","keywords":"Batteryman Thunder LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Thunder / Effect","atk":0,"def":0},"rarity":"C","img":"63142001","code":"13","tcg":33065,"grp":154,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"CP06-EN014","name":"Theban Nightmare","ctype":"monster","keywords":"Fiend LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fiend / Effect","atk":1500,"def":500},"rarity":"C","img":"51838385","code":"14","tcg":33066,"grp":154,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"CP06-EN015","name":"Majestic Mech - Ohka","ctype":"monster","keywords":"Majestic Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Fairy / Effect","atk":2400,"def":1400},"rarity":"C","img":"69303178","code":"15","tcg":33067,"grp":154,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"CP06-EN016","name":"Soul of Purity and Light","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Fairy / Effect","atk":2000,"def":1800},"rarity":"C","img":"77527210","code":"16","tcg":33068,"grp":154,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"CP06-EN017","name":"Amplifier","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"303660","code":"17","tcg":33069,"grp":154,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"CP06-EN018","name":"Cold Wave","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"60682203","code":"18","tcg":33070,"grp":154,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"CP06-EN019","name":"Magical Hats","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"81210420","code":"19","tcg":33071,"grp":154,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"CP06-EN020","name":"Dimension Wall","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"67095270","code":"20","tcg":33072,"grp":154,"idx":19}
+  ]
+}

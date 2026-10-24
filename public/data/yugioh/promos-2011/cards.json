@@ -1,0 +1,157 @@
+{
+  "id": "yugioh/promos-2011",
+  "game": "yugioh",
+  "slug": "promos-2011",
+  "name": "Promos 2011",
+  "series": "Promos",
+  "kind": "promo",
+  "code": "P2011",
+  "syncKey": "YP2011",
+  "released": "2011-01-01",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "DPC5-EN001–YG09-EN001",
+      "tier": "standard"
+    },
+    {
+      "id": "rarities",
+      "name": "Other Rarities",
+      "short": "Other Rarities",
+      "range": "5 cards",
+      "tier": "master"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Main set"
+    ],
+    [
+      "rarities",
+      "Other rarities"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, SCR12, 60x2",
+    "example": "1-20, 45x2, SCR12",
+    "hint": "Separate with commas or spaces. Numbers count down the list in order: <b>1-5</b> is the first five cards and <b>3x2</b> is two copies of the third.",
+    "empty": "Cards run from DPC5-EN001 to YG09-EN001."
+  },
+  "help": {
+    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 40 cards, each in its main rarity. Master adds the 5 other rarities. Cards you’ve marked are kept when you switch."
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Promos 2011 Checklist · All 40 Cards",
+    "description": "Free Yu-Gi-Oh! Promos 2011 checklist with no ads, no sign-up and no tracking. Track all 40 cards, or every rarity for a master set, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Promos 2011 Checklist",
+    "ogDescription": "Track all 40 cards in Yu-Gi-Oh! Promos 2011, plus 5 other rarities. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 40 cards in Yu-Gi-Oh! Promos 2011. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Promos 2011",
+    "paragraphs": [
+      "Promos 2011 gathers the 40 promo cards from 27 products released in 2011: Duelist Pack Collection Tin 2011, Duel Terminal 5, Extreme Victory Sneak Peek Participation Card, Generation Force: Special Edition, Generation Force Sneak Peek Participation Card, Hidden Arsenal: Special Edition, Shonen Jump Scholastic Edition Vol. 9, Issue 1 promotional card, Shonen Jump Vol. 9, Issue 1 promotional card, Shonen Jump Vol. 9, Issue 3 promotional card, Shonen Jump Vol. 9, Issue 4 promotional card, Shonen Jump June/July 2011 subscription bonus, Shonen Jump Vol. 9, Issue 6 promotional card, Shonen Jump Vol. 9, Issue 8 promotional card, Shonen Jump December 2011 subscription bonus, Shonen Jump Vol. 9, Issue 10 promotional card, Yu-Gi-Oh! 3D Bonds Beyond Time DVD promotional card, Photon Shockwave Sneak Peek Participation Card, Samurai Assault, Storm of Ragnarok: Special Edition, Storm of Ragnarok Sneak Peek Participation Card, Yu-Gi-Oh! 5D&#39;s World Championship 2011: Over the Nexus promotional cards, Yu-Gi-Oh! World Championship Qualifier National Championships 2011 prize cards, Yu-Gi-Oh! Championship Series 2011 Prize Card, Yu-Gi-Oh! 5D&#39;s Volume 1 promotional card, Yu-Gi-Oh! GX Volume 6 promotional card, Yu-Gi-Oh! GX Volume 7 promotional card and Yu-Gi-Oh! GX Volume 9 promotional card.",
+      "Choose what you’re collecting: the <b>Standard set</b> (the 40 cards, each in its main rarity) or the <b>Master set</b> (all 45, adding the 5 other rarities).",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Duel Terminal 5",
+      "Duelist Pack Collection Tin 2011",
+      "Extreme Victory Sneak Peek Participation Card",
+      "Generation Force Sneak Peek Participation Card",
+      "Generation Force: Special Edition",
+      "Hidden Arsenal: Special Edition",
+      "Photon Shockwave Sneak Peek Participation Card",
+      "Samurai Assault",
+      "Shonen Jump December 2011 subscription bonus",
+      "Shonen Jump June/July 2011 subscription bonus",
+      "Shonen Jump Scholastic Edition Vol. 9, Issue 1 promotional card",
+      "Shonen Jump Vol. 9, Issue 1 promotional card",
+      "Shonen Jump Vol. 9, Issue 10 promotional card",
+      "Shonen Jump Vol. 9, Issue 3 promotional card",
+      "Shonen Jump Vol. 9, Issue 4 promotional card",
+      "Shonen Jump Vol. 9, Issue 6 promotional card",
+      "Shonen Jump Vol. 9, Issue 8 promotional card",
+      "Storm of Ragnarok Sneak Peek Participation Card",
+      "Storm of Ragnarok: Special Edition",
+      "Yu-Gi-Oh! 3D Bonds Beyond Time DVD promotional card",
+      "Yu-Gi-Oh! 3D Bonds Beyond Time Theater distribution card",
+      "Yu-Gi-Oh! 5D's Volume 1 promotional card",
+      "Yu-Gi-Oh! 5D's World Championship 2011: Over the Nexus promotional cards",
+      "Yu-Gi-Oh! Championship Series 2011 Prize Card",
+      "Yu-Gi-Oh! GX Volume 6 promotional card",
+      "Yu-Gi-Oh! GX Volume 7 promotional card",
+      "Yu-Gi-Oh! GX Volume 9 promotional card",
+      "Yu-Gi-Oh! World Championship Qualifier National Championships 2011 prize cards"
+    ],
+    "tcgplayer": [
+      281,
+      1363,
+      136,
+      209,
+      302,
+      599,
+      1331,
+      227,
+      147,
+      1347,
+      203,
+      261,
+      276,
+      352
+    ]
+  },
+  "cards": [
+    {"id":"DPC5-001","section":"main","num":"DPC5-EN001","printed":"DPC5-EN001","name":"Underground Arachnid","ctype":"monster","keywords":"Insect EARTH Synchro Monster","stats":{"a":"EARTH","l":"Level 6","t":"Insect / Synchro","atk":2400,"def":1200},"note":"Duelist Pack Collection Tin 2011","rarity":"SR","img":"63465535","code":"1","tcg":39398,"grp":136,"idx":0},
+    {"id":"DPC5-002","section":"main","num":"DPC5-EN002","printed":"DPC5-EN002","name":"Zeman the Ape King","ctype":"monster","keywords":"Beast EARTH Synchro Monster","stats":{"a":"EARTH","l":"Level 7","t":"Beast / Synchro","atk":2500,"def":1800},"note":"Duelist Pack Collection Tin 2011","rarity":"SR","img":"22858242","code":"2","tcg":39399,"grp":136,"idx":1},
+    {"id":"DPC5-003","section":"main","num":"DPC5-EN003","printed":"DPC5-EN003","name":"Hundred Eyes Dragon","ctype":"monster","keywords":"Earthbound Dragon DARK Synchro Monster","stats":{"a":"DARK","l":"Level 8","t":"Dragon / Synchro","atk":3000,"def":2500},"note":"Duelist Pack Collection Tin 2011","rarity":"SR","img":"95453143","code":"3","tcg":39400,"grp":136,"idx":2},
+    {"id":"DPCT-005","section":"main","num":"DPCT-EN005","printed":"DPCT-EN005","name":"Frozen Fitzgerald","ctype":"monster","keywords":"Fiend WATER Synchro Monster","stats":{"a":"WATER","l":"Level 5","t":"Fiend / Synchro","atk":2500,"def":2500},"note":"Duelist Pack Collection Tin 2011","rarity":"ScR","img":"94515289","code":"4","tcg":39401,"grp":136,"idx":3},
+    {"id":"DT05-024","section":"main","num":"DT05-EN024","printed":"DT05-EN024","name":"Laval Warrior","ctype":"monster","keywords":"Laval Warrior FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Warrior / Effect","atk":1800,"def":500},"note":"Duel Terminal 5","rarity":"DNPR","img":"52786469","code":"5","tcg":81355,"grp":1331,"idx":4},
+    {"id":"DT05-032","section":"main","num":"DT05-EN032","printed":"DT05-EN032","name":"Vylon Charger","ctype":"monster","keywords":"Vylon Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fairy / Effect","atk":1000,"def":1000},"note":"Duel Terminal 5","rarity":"DNPR","img":"13220032","code":"6","tcg":81363,"grp":1331,"idx":5},
+    {"id":"EXVC-SP1","section":"main","num":"EXVC-ENSP1","printed":"EXVC-ENSP1","name":"Reborn Tengu","ctype":"monster","keywords":"Beast-Warrior WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Beast-Warrior / Effect","atk":1700,"def":600},"note":"Extreme Victory Sneak Peek Participation Card","rarity":"UR","img":"10028593","code":"7","tcg":81003,"grp":203,"idx":6},
+    {"id":"GENF-SE1","section":"main","num":"GENF-ENSE1","printed":"GENF-ENSE1","name":"Elemental HERO Absolute Zero","ctype":"monster","keywords":"Elemental HERO Warrior WATER Fusion Monster","stats":{"a":"WATER","l":"Level 8","t":"Warrior / Fusion","atk":2500,"def":2000},"note":"Generation Force: Special Edition","rarity":"SR","img":"40854197","code":"8","tcg":60104,"grp":209,"idx":7},
+    {"id":"GENF-SE2","section":"main","num":"GENF-ENSE2","printed":"GENF-ENSE2","name":"Spore","ctype":"monster","keywords":"Plant WIND Tuner Monster","stats":{"a":"WIND","l":"Level 1","t":"Plant / Tuner","atk":400,"def":800},"note":"Generation Force: Special Edition","rarity":"SR","img":"11747708","code":"9","tcg":60105,"grp":209,"idx":8},
+    {"id":"GENF-SP1","section":"main","num":"GENF-ENSP1","printed":"GENF-ENSP1","name":"Xyz Veil","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"note":"Generation Force Sneak Peek Participation Card","rarity":"UR","img":"96457619","code":"10","tcg":79811,"grp":209,"idx":9},
+    {"id":"HASE-001","section":"main","num":"HASE-EN001","printed":"HASE-EN001","name":"XX-Saber Emmersblade","ctype":"monster","keywords":"X-Saber Insect EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Insect / Effect","atk":1300,"def":800},"note":"Hidden Arsenal: Special Edition","rarity":"SR","img":"42737833","code":"11","tcg":48016,"grp":227,"idx":10},
+    {"id":"HASE-002","section":"main","num":"HASE-EN002","printed":"HASE-EN002","name":"Naturia Pineapple","ctype":"monster","keywords":"Naturia Plant EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 2","t":"Plant / Effect","atk":100,"def":100},"note":"Hidden Arsenal: Special Edition","rarity":"SR","img":"7304544","code":"12","tcg":48017,"grp":227,"idx":11},
+    {"id":"JMPS-001","section":"main","num":"JMPS-EN001","printed":"JMPS-EN001","name":"Troposphere","ctype":"monster","keywords":"Winged Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 6","t":"Winged Beast / Effect","atk":2400,"def":2000},"note":"Shonen Jump Scholastic Edition Vol. 9, Issue 1 promotional card","rarity":"UR","img":"72144675","code":"13","tcg":66512,"grp":281,"idx":12},
+    {"id":"JUMP-045","section":"main","num":"JUMP-EN045","printed":"JUMP-EN045","name":"The Winged Dragon of Ra","ctype":"monster","keywords":"Egyptian God Divine-Beast DIVINE Effect Monster","stats":{"a":"DIVINE","l":"Level 10","t":"Divine-Beast / Effect","atk":-1,"def":-1},"note":"Shonen Jump Vol. 9, Issue 1 promotional card","rarity":"UR","img":"10000011","code":"14","tcg":38506,"grp":281,"idx":13},
+    {"id":"JUMP-048","section":"main","num":"JUMP-EN048","printed":"JUMP-EN048","name":"Malefic Truth Dragon","ctype":"monster","keywords":"Malefic Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 12","t":"Dragon / Effect","atk":5000,"def":5000},"note":"Shonen Jump Vol. 9, Issue 3 promotional card","rarity":"UR","img":"37115575","code":"15","tcg":46802,"grp":281,"idx":14},
+    {"id":"JUMP-049","section":"main","num":"JUMP-EN049","printed":"JUMP-EN049","name":"Dark Magician","ctype":"monster","keywords":"Dark Magician Spellcaster DARK Normal Monster","stats":{"a":"DARK","l":"Level 7","t":"Spellcaster / Normal","atk":2500,"def":2100},"note":"Shonen Jump Vol. 9, Issue 4 promotional card","rarity":"UR","img":"46986417","code":"16","tcg":46803,"grp":281,"idx":15},
+    {"id":"JUMP-050","section":"main","num":"JUMP-EN050","printed":"JUMP-EN050","name":"Meklord Astro Mekanikle","ctype":"monster","keywords":"Meklord Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 12","t":"Machine / Effect","atk":4000,"def":4000},"note":"Shonen Jump June/July 2011 subscription bonus","rarity":"UR","img":"63468625","code":"17","tcg":46804,"grp":281,"idx":16},
+    {"id":"JUMP-051","section":"main","num":"JUMP-EN051","printed":"JUMP-EN051","name":"T.G. Hyper Librarian","ctype":"monster","keywords":"T.G. Spellcaster DARK Synchro Monster","stats":{"a":"DARK","l":"Level 5","t":"Spellcaster / Synchro","atk":2400,"def":1800},"note":"Shonen Jump June/July 2011 subscription bonus","rarity":"UR","img":"90953320","code":"18","tcg":46805,"grp":281,"idx":17},
+    {"id":"JUMP-052","section":"main","num":"JUMP-EN052","printed":"JUMP-EN052","name":"Meklord Emperor Granel","ctype":"monster","keywords":"Meklord Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 1","t":"Machine / Effect","atk":0,"def":0},"note":"Shonen Jump Vol. 9, Issue 6 promotional card","rarity":"UR","img":"4545683","code":"19","tcg":46806,"grp":281,"idx":18},
+    {"id":"JUMP-053","section":"main","num":"JUMP-EN053","printed":"JUMP-EN053","name":"Meklord Emperor Wisel","ctype":"monster","keywords":"Meklord Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Machine / Effect","atk":2500,"def":2500},"note":"Shonen Jump Vol. 9, Issue 8 promotional card","rarity":"UR","img":"68140974","code":"20","tcg":57138,"grp":281,"idx":19},
+    {"id":"JUMP-054","section":"main","num":"JUMP-EN054","printed":"JUMP-EN054","name":"Sephylon, the Ultimate Timelord","ctype":"monster","keywords":"Timelord Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 10","t":"Fairy / Effect","atk":4000,"def":4000},"note":"Shonen Jump December 2011 subscription bonus","rarity":"UR","img":"8967776","code":"21","tcg":57139,"grp":281,"idx":20},
+    {"id":"JUMP-055","section":"main","num":"JUMP-EN055","printed":"JUMP-EN055","name":"Shooting Quasar Dragon","ctype":"monster","keywords":"Dragon LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 12","t":"Dragon / Synchro","atk":4000,"def":4000},"note":"Shonen Jump December 2011 subscription bonus","rarity":"UR","img":"35952884","code":"22","tcg":57140,"grp":281,"idx":21},
+    {"id":"JUMP-056","section":"main","num":"JUMP-EN056","printed":"JUMP-EN056","name":"Endless Decay","ctype":"monster","keywords":"Zombie DARK Effect Monster","stats":{"a":"DARK","l":"Level 5","t":"Zombie / Effect","atk":-1,"def":0},"note":"Shonen Jump Vol. 9, Issue 10 promotional card","rarity":"UR","img":"7845138","code":"23","tcg":57141,"grp":281,"idx":22},
+    {"id":"MOV2-001","section":"main","num":"MOV2-EN001","printed":"MOV2-EN001","name":"Malefic Red-Eyes Black Dragon","ctype":"monster","keywords":"Malefic Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Dragon / Effect","atk":2400,"def":2000},"note":"Yu-Gi-Oh! 3D Bonds Beyond Time DVD promotional card","rarity":"SR","img":"55343236","code":"24","tcg":483483,"grp":147,"idx":23},
+    {"id":"MOV2-001-ur","section":"rarities","num":"MOV2-EN001","printed":"MOV2-EN001","name":"Malefic Red-Eyes Black Dragon","ctype":"monster","keywords":"Malefic Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Dragon / Effect","atk":2400,"def":2000},"note":"Yu-Gi-Oh! 3D Bonds Beyond Time DVD promotional card","rarity":"UR","img":"55343236","badge":"UR","variant":"Ultra Rare","code":"UR24","tcg":183571,"grp":147,"idx":24},
+    {"id":"PHSW-SP1","section":"main","num":"PHSW-ENSP1","printed":"PHSW-ENSP1","name":"Alexandrite Dragon","ctype":"monster","keywords":"Dragon LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Dragon / Normal","atk":2000,"def":100},"note":"Photon Shockwave Sneak Peek Participation Card","rarity":"UR","img":"43096270","code":"25","tcg":115945,"grp":261,"idx":25},
+    {"id":"SAAS-001","section":"main","num":"SAAS-EN001","printed":"SAAS-EN001","name":"Elder of the Six Samurai","ctype":"monster","keywords":"Six Samurai Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Warrior / Effect","atk":400,"def":0},"note":"Samurai Assault","rarity":"SR","img":"61737116","code":"26","tcg":57791,"grp":276,"idx":26},
+    {"id":"STOR-SE1","section":"main","num":"STOR-ENSE1","printed":"STOR-ENSE1","name":"Light and Darkness Dragon","ctype":"monster","keywords":"Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Effect","atk":2800,"def":2400},"note":"Storm of Ragnarok: Special Edition","rarity":"SR","img":"47297616","code":"27","tcg":39394,"grp":302,"idx":27},
+    {"id":"STOR-SE2","section":"main","num":"STOR-ENSE2","printed":"STOR-ENSE2","name":"Hand of the Six Samurai","ctype":"monster","keywords":"Six Samurai Warrior FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 3","t":"Warrior / Effect","atk":1600,"def":1000},"note":"Storm of Ragnarok: Special Edition","rarity":"SR","img":"78792195","code":"28","tcg":39395,"grp":302,"idx":28},
+    {"id":"STOR-SP1","section":"main","num":"STOR-ENSP1","printed":"STOR-ENSP1","name":"Vortex the Whirlwind","ctype":"monster","keywords":"Winged Beast WIND Synchro Monster","stats":{"a":"WIND","l":"Level 5","t":"Winged Beast / Synchro","atk":2100,"def":700},"note":"Storm of Ragnarok Sneak Peek Participation Card","rarity":"UR","img":"25373678","code":"29","tcg":79687,"grp":302,"idx":29},
+    {"id":"WC11-001","section":"main","num":"WC11-EN001","printed":"WC11-EN001","name":"Necro Fleur","ctype":"monster","keywords":"Plant DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Plant / Effect","atk":0,"def":0},"note":"Yu-Gi-Oh! 5D's World Championship 2011: Over the Nexus promotional cards","rarity":"SR","img":"99000151","code":"30","tcg":83317,"grp":1363,"idx":30},
+    {"id":"WC11-001-ur","section":"rarities","num":"WC11-EN001","printed":"WC11-EN001","name":"Necro Fleur","ctype":"monster","keywords":"Plant DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Plant / Effect","atk":0,"def":0},"note":"Yu-Gi-Oh! 5D's World Championship 2011: Over the Nexus promotional cards","rarity":"UR","img":"99000151","badge":"UR","variant":"Ultra Rare","code":"UR30","tcg":83317,"grp":1363,"idx":31},
+    {"id":"WC11-002","section":"main","num":"WC11-EN002","printed":"WC11-EN002","name":"Sorciere de Fleur","ctype":"monster","keywords":"Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Spellcaster / Effect","atk":2900,"def":0},"note":"Yu-Gi-Oh! 5D's World Championship 2011: Over the Nexus promotional cards","rarity":"SR","img":"36405256","code":"31","tcg":83320,"grp":1363,"idx":32},
+    {"id":"WC11-002-ur","section":"rarities","num":"WC11-EN002","printed":"WC11-EN002","name":"Sorciere de Fleur","ctype":"monster","keywords":"Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Spellcaster / Effect","atk":2900,"def":0},"note":"Yu-Gi-Oh! 5D's World Championship 2011: Over the Nexus promotional cards","rarity":"UR","img":"36405256","badge":"UR","variant":"Ultra Rare","code":"UR31","tcg":83320,"grp":1363,"idx":33},
+    {"id":"WC11-003","section":"main","num":"WC11-EN003","printed":"WC11-EN003","name":"Z-ONE","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"note":"Yu-Gi-Oh! 5D's World Championship 2011: Over the Nexus promotional cards","rarity":"SR","img":"62499965","code":"32","tcg":83322,"grp":1363,"idx":34},
+    {"id":"WC11-003-ur","section":"rarities","num":"WC11-EN003","printed":"WC11-EN003","name":"Z-ONE","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"note":"Yu-Gi-Oh! 5D's World Championship 2011: Over the Nexus promotional cards","rarity":"UR","img":"62499965","badge":"UR","variant":"Ultra Rare","code":"UR32","tcg":83322,"grp":1363,"idx":35},
+    {"id":"WQ11-001","section":"main","num":"WQ11-EN001","printed":"WQ11-EN001","name":"Meklord Astro Mekanikle","ctype":"monster","keywords":"Meklord Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 12","t":"Machine / Effect","atk":4000,"def":4000},"note":"Yu-Gi-Oh! World Championship Qualifier National Championships 2011 prize cards","rarity":"ScR","img":"63468625","code":"33","idx":36},
+    {"id":"WQ11-002","section":"main","num":"WQ11-EN002","printed":"WQ11-EN002","name":"T.G. Hyper Librarian","ctype":"monster","keywords":"T.G. Spellcaster DARK Synchro Monster","stats":{"a":"DARK","l":"Level 5","t":"Spellcaster / Synchro","atk":2400,"def":1800},"note":"Yu-Gi-Oh! World Championship Qualifier National Championships 2011 prize cards","rarity":"ScR","img":"90953320","code":"34","idx":37},
+    {"id":"WQ11-003","section":"main","num":"WQ11-EN003","printed":"WQ11-EN003","name":"Meklord Emperor Granel","ctype":"monster","keywords":"Meklord Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 1","t":"Machine / Effect","atk":0,"def":0},"note":"Yu-Gi-Oh! World Championship Qualifier National Championships 2011 prize cards","rarity":"ScR","img":"4545683","code":"35","idx":38},
+    {"id":"YCSW-004","section":"main","num":"YCSW-EN004","printed":"YCSW-EN004","name":"Blood Mefist","ctype":"monster","keywords":"Fiend DARK Synchro Monster","stats":{"a":"DARK","l":"Level 8","t":"Fiend / Synchro","atk":2800,"def":1300},"note":"Yu-Gi-Oh! Championship Series 2011 Prize Card","rarity":"SR","img":"30757396","code":"36","tcg":82269,"grp":1347,"idx":39},
+    {"id":"YCSW-004-ur","section":"rarities","num":"YCSW-EN004","printed":"YCSW-EN004","name":"Blood Mefist","ctype":"monster","keywords":"Fiend DARK Synchro Monster","stats":{"a":"DARK","l":"Level 8","t":"Fiend / Synchro","atk":2800,"def":1300},"note":"Yu-Gi-Oh! Championship Series 2011 Prize Card","rarity":"UR","img":"30757396","badge":"UR","variant":"Ultra Rare","code":"UR36","tcg":82270,"grp":1347,"idx":40},
+    {"id":"YF01-001","section":"main","num":"YF01-EN001","printed":"YF01-EN001","name":"Dark Highlander","ctype":"monster","keywords":"Fiend DARK Synchro Monster","stats":{"a":"DARK","l":"Level 7","t":"Fiend / Synchro","atk":2800,"def":2300},"note":"Yu-Gi-Oh! 5D's Volume 1 promotional card","rarity":"UR","img":"75326861","code":"37","tcg":48018,"grp":352,"idx":41},
+    {"id":"YG06-001","section":"main","num":"YG06-EN001","printed":"YG06-EN001","name":"Elemental HERO The Shining","ctype":"monster","keywords":"Elemental HERO Warrior LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Warrior / Fusion","atk":2600,"def":2100},"note":"Yu-Gi-Oh! GX Volume 6 promotional card","rarity":"UR","img":"22061412","code":"38","tcg":39456,"grp":599,"idx":42},
+    {"id":"YG07-001","section":"main","num":"YG07-EN001","printed":"YG07-EN001","name":"Blizzard Princess","ctype":"monster","keywords":"Spellcaster WATER Effect Monster","stats":{"a":"WATER","l":"Level 8","t":"Spellcaster / Effect","atk":2800,"def":2100},"note":"Yu-Gi-Oh! GX Volume 7 promotional card","rarity":"UR","img":"28348537","code":"39","tcg":103101,"grp":599,"idx":43},
+    {"id":"YG09-001","section":"main","num":"YG09-EN001","printed":"YG09-EN001","name":"Elemental HERO Escuridao","ctype":"monster","keywords":"Elemental HERO Warrior DARK Fusion Monster","stats":{"a":"DARK","l":"Level 8","t":"Warrior / Fusion","atk":2500,"def":2000},"note":"Yu-Gi-Oh! GX Volume 9 promotional card","rarity":"UR","img":"33574806","code":"40","tcg":66667,"grp":599,"idx":44}
+  ]
+}

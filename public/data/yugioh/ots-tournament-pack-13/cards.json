@@ -1,0 +1,85 @@
+{
+  "id": "yugioh/ots-tournament-pack-13",
+  "game": "yugioh",
+  "slug": "ots-tournament-pack-13",
+  "name": "OTS Tournament Pack 13",
+  "series": "VRAINS",
+  "kind": "pack",
+  "code": "OP13",
+  "syncKey": "YOP13",
+  "released": "2020-06-15",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "OP13-EN001–OP13-EN025",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from OP13-EN001 to OP13-EN025."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! OTS Tournament Pack 13 Checklist · All 25 Cards",
+    "description": "Free Yu-Gi-Oh! OTS Tournament Pack 13 checklist with no ads, no sign-up and no tracking. Track all 25 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! OTS Tournament Pack 13 Checklist",
+    "ogDescription": "Track all 25 cards in Yu-Gi-Oh! OTS Tournament Pack 13. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 25 cards in Yu-Gi-Oh! OTS Tournament Pack 13. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About OTS Tournament Pack 13",
+    "paragraphs": [
+      "OTS Tournament Pack 13 is a Yu-Gi-Oh! TCG pack released on 15 June 2020, in the VRAINS era. It has 25 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "OTS Tournament Pack 13"
+    ],
+    "tcgplayer": [
+      2672
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"OP13-EN001","name":"Book of Moon","ctype":"spell","keywords":"Book of Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"UtR","img":"14087893","code":"1","tcg":216618,"grp":2672,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"OP13-EN002","name":"Abyss Dweller","ctype":"monster","keywords":"Sea Serpent WATER Xyz Monster","stats":{"a":"WATER","l":"Rank 4","t":"Sea Serpent / Xyz","atk":1700,"def":1400},"rarity":"UtR","img":"21044178","code":"2","tcg":216623,"grp":2672,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"OP13-EN003","name":"Traptrix Rafflesia","ctype":"monster","keywords":"Traptrix Plant EARTH Xyz Monster","stats":{"a":"EARTH","l":"Rank 4","t":"Plant / Xyz","atk":300,"def":2500},"rarity":"UtR","img":"6511113","code":"3","tcg":216625,"grp":2672,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"OP13-EN004","name":"Deep Sea Diva","ctype":"monster","keywords":"Sea Serpent WATER Tuner Monster","stats":{"a":"WATER","l":"Level 2","t":"Sea Serpent / Tuner","atk":200,"def":400},"rarity":"SR","img":"78868119","code":"4","tcg":216627,"grp":2672,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"OP13-EN005","name":"Scrap Golem","ctype":"monster","keywords":"Scrap Rock EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 5","t":"Rock / Effect","atk":2300,"def":1400},"rarity":"SR","img":"82012319","code":"5","tcg":216628,"grp":2672,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"OP13-EN006","name":"ABC-Dragon Buster","ctype":"monster","keywords":"ABC Machine LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Machine / Fusion","atk":3000,"def":2800},"rarity":"SR","img":"1561110","code":"6","tcg":216632,"grp":2672,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"OP13-EN007","name":"Junk Speeder","ctype":"monster","keywords":"Warrior WIND Synchro Monster","stats":{"a":"WIND","l":"Level 5","t":"Warrior / Synchro","atk":1800,"def":1000},"rarity":"SR","img":"77075360","code":"7","tcg":216634,"grp":2672,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"OP13-EN008","name":"Crystal Wing Synchro Dragon","ctype":"monster","keywords":"Dragon WIND Synchro Monster","stats":{"a":"WIND","l":"Level 8","t":"Dragon / Synchro","atk":3000,"def":2500},"rarity":"SR","img":"50954680","code":"8","tcg":216635,"grp":2672,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"OP13-EN009","name":"Bahamut Shark","ctype":"monster","keywords":"Sea Serpent WATER Xyz Monster","stats":{"a":"WATER","l":"Rank 4","t":"Sea Serpent / Xyz","atk":2600,"def":2100},"rarity":"SR","img":"440556","code":"9","tcg":216641,"grp":2672,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"OP13-EN010","name":"Where Arf Thou?","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"51405049","code":"10","tcg":216644,"grp":2672,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"OP13-EN011","name":"SPYRAL GEAR - Drone","ctype":"monster","keywords":"SPYRAL Machine WIND Effect Monster","stats":{"a":"WIND","l":"Level 1","t":"Machine / Effect","atk":100,"def":100},"rarity":"SR","img":"4474060","code":"11","tcg":216647,"grp":2672,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"OP13-EN012","name":"SPYRAL MISSION - Rescue","ctype":"trap","keywords":"SPYRAL Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"SR","img":"9212051","code":"12","tcg":216651,"grp":2672,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"OP13-EN013","name":"Goblin King","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Fiend / Effect","atk":0,"def":0},"rarity":"C","img":"18590133","code":"13","tcg":216672,"grp":2672,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"OP13-EN014","name":"The Lady in Wight","ctype":"monster","keywords":"Skull Servant Zombie DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Zombie / Effect","atk":0,"def":2200},"rarity":"C","img":"40991587","code":"14","tcg":216673,"grp":2672,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"OP13-EN015","name":"Dimension Fortress Weapon","ctype":"monster","keywords":"Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Machine / Effect","atk":1700,"def":200},"rarity":"C","img":"1596508","code":"15","tcg":216674,"grp":2672,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"OP13-EN016","name":"Spore","ctype":"monster","keywords":"Plant WIND Tuner Monster","stats":{"a":"WIND","l":"Level 1","t":"Plant / Tuner","atk":400,"def":800},"rarity":"C","img":"11747708","code":"16","tcg":216675,"grp":2672,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"OP13-EN017","name":"Formula Synchron","ctype":"monster","keywords":"Synchron Machine LIGHT Synchro Tuner Monster","stats":{"a":"LIGHT","l":"Level 2","t":"Machine / Synchro / Tuner","atk":200,"def":1500},"rarity":"C","img":"50091196","code":"17","tcg":216676,"grp":2672,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"OP13-EN018","name":"Ultimaya Tzolkin","ctype":"monster","keywords":"Power Tool Dragon DARK Synchro Monster","stats":{"a":"DARK","l":"Level 0","t":"Dragon / Synchro","atk":0,"def":0},"rarity":"C","img":"1686814","code":"18","tcg":216677,"grp":2672,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"OP13-EN019","name":"Goyo Defender","ctype":"monster","keywords":"Warrior EARTH Synchro Monster","stats":{"a":"EARTH","l":"Level 3","t":"Warrior / Synchro","atk":1000,"def":1000},"rarity":"C","img":"58901502","code":"19","tcg":216678,"grp":2672,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"OP13-EN020","name":"Muddy Mudragon","ctype":"monster","keywords":"Dragon DARK Synchro Monster","stats":{"a":"DARK","l":"Level 6","t":"Dragon / Synchro","atk":500,"def":2200},"rarity":"C","img":"84040113","code":"20","tcg":216679,"grp":2672,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"OP13-EN021","name":"Xyz Unit","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"13032689","code":"21","tcg":216680,"grp":2672,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"OP13-EN022","name":"Bottomless Trap Hole","ctype":"trap","keywords":"Hole Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"29401950","code":"22","tcg":216681,"grp":2672,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"OP13-EN023","name":"Dimensional Prison","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"70342110","code":"23","tcg":216682,"grp":2672,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"OP13-EN024","name":"Gravity Collapse","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"C","img":"7811875","code":"24","tcg":216683,"grp":2672,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"OP13-EN025","name":"Floodgate Trap Hole","ctype":"trap","keywords":"Hole Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"69599136","code":"25","tcg":216684,"grp":2672,"idx":24}
+  ]
+}

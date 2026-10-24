@@ -1,0 +1,145 @@
+{
+  "id": "yugioh/tactical-masters",
+  "game": "yugioh",
+  "slug": "tactical-masters",
+  "name": "Tactical Masters",
+  "series": "SEVENS & GO RUSH!!",
+  "kind": "expansion",
+  "code": "TAMA",
+  "syncKey": "YTAMA",
+  "released": "2022-08-25",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Main Set",
+      "range": "TAMA-EN001–TAMA-EN060",
+      "tier": "standard"
+    },
+    {
+      "id": "rarities",
+      "name": "Other Rarities",
+      "short": "Other Rarities",
+      "range": "14 cards",
+      "tier": "master"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Main set"
+    ],
+    [
+      "rarities",
+      "Other rarities"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, SCR12, 60x2",
+    "example": "1-20, 45x2, SCR12",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies. Other rarities use their short name and number: <b>SCR12</b> is card 12’s Secret Rare, and ranges work too (<b>QCSR1-QCSR20</b>).",
+    "empty": "Cards run from TAMA-EN001 to TAMA-EN060."
+  },
+  "help": {
+    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 59 cards, each in its main rarity. Master adds the 14 other rarities. Cards you’ve marked are kept when you switch."
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Tactical Masters Checklist · All 59 Cards",
+    "description": "Free Yu-Gi-Oh! Tactical Masters checklist with no ads, no sign-up and no tracking. Track all 59 cards, or every rarity for a master set, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Tactical Masters Checklist",
+    "ogDescription": "Track all 59 cards in Yu-Gi-Oh! Tactical Masters, plus 14 other rarities. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 59 cards in Yu-Gi-Oh! Tactical Masters. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About the Tactical Masters set",
+    "paragraphs": [
+      "Tactical Masters is a Yu-Gi-Oh! TCG booster set released on 25 August 2022, in the SEVENS &amp; GO RUSH!! era. It has 59 cards, and with the 14 other rarities there are 73 to collect in all.",
+      "Choose what you’re collecting: the <b>Standard set</b> (the 59 cards, each in its main rarity) or the <b>Master set</b> (all 73, adding the 14 other rarities).",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Tactical Masters"
+    ],
+    "tcgplayer": [
+      3066
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"TAMA-EN001","name":"Shinonome the Vaylantz Priestess","ctype":"monster","keywords":"Vaylantz Spellcaster WATER Pendulum Effect Monster","stats":{"a":"WATER","l":"Level 2","t":"Spellcaster / Pendulum / Effect","atk":500,"def":500},"rarity":"UR","img":"49131917","code":"1","tcg":282304,"grp":3066,"idx":0},
+    {"id":"001-cr","section":"rarities","num":"001","printed":"TAMA-EN001","name":"Shinonome the Vaylantz Priestess","ctype":"monster","keywords":"Vaylantz Spellcaster WATER Pendulum Effect Monster","stats":{"a":"WATER","l":"Level 2","t":"Spellcaster / Pendulum / Effect","atk":500,"def":500},"rarity":"CR","img":"49131917","badge":"CR","variant":"Collector’s Rare","code":"CR1","tcg":282305,"grp":3066,"idx":1},
+    {"id":"002","section":"main","num":"002","printed":"TAMA-EN002","name":"Saion the Vaylantz Archer","ctype":"monster","keywords":"Vaylantz Spellcaster WATER Pendulum Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Spellcaster / Pendulum / Effect","atk":1100,"def":1100},"rarity":"R","img":"15130912","code":"2","tcg":282307,"grp":3066,"idx":2},
+    {"id":"003","section":"main","num":"003","printed":"TAMA-EN003","name":"Nazuki the Vaylantz Ninja","ctype":"monster","keywords":"Ninja Spellcaster WATER Pendulum Effect Monster","stats":{"a":"WATER","l":"Level 6","t":"Spellcaster / Pendulum / Effect","atk":1800,"def":1800},"rarity":"R","img":"41525660","code":"3","tcg":282308,"grp":3066,"idx":3},
+    {"id":"004","section":"main","num":"004","printed":"TAMA-EN004","name":"Hojo the Vaylantz Warrior","ctype":"monster","keywords":"Vaylantz Spellcaster WATER Pendulum Effect Monster","stats":{"a":"WATER","l":"Level 8","t":"Spellcaster / Pendulum / Effect","atk":1900,"def":1900},"rarity":"SR","img":"88919365","code":"4","tcg":282309,"grp":3066,"idx":4},
+    {"id":"005","section":"main","num":"005","printed":"TAMA-EN005","name":"Vaylantz Buster Baron","ctype":"monster","keywords":"Vaylantz Machine FIRE Pendulum Effect Monster","stats":{"a":"FIRE","l":"Level 2","t":"Machine / Pendulum / Effect","atk":800,"def":800},"rarity":"SR","img":"14418464","code":"5","tcg":282310,"grp":3066,"idx":5},
+    {"id":"006","section":"main","num":"006","printed":"TAMA-EN006","name":"Vaylantz Voltage Viscount","ctype":"monster","keywords":"Vaylantz Machine FIRE Pendulum Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Machine / Pendulum / Effect","atk":1400,"def":1400},"rarity":"R","img":"41802073","code":"6","tcg":282311,"grp":3066,"idx":6},
+    {"id":"007","section":"main","num":"007","printed":"TAMA-EN007","name":"Vaylantz Mad Marquess","ctype":"monster","keywords":"Vaylantz Machine FIRE Pendulum Effect Monster","stats":{"a":"FIRE","l":"Level 6","t":"Machine / Pendulum / Effect","atk":1700,"def":1700},"rarity":"R","img":"87897777","code":"7","tcg":282312,"grp":3066,"idx":7},
+    {"id":"008","section":"main","num":"008","printed":"TAMA-EN008","name":"Vaylantz Dominator Duke","ctype":"monster","keywords":"Vaylantz Machine FIRE Pendulum Effect Monster","stats":{"a":"FIRE","l":"Level 8","t":"Machine / Pendulum / Effect","atk":2000,"def":2000},"rarity":"R","img":"13291886","code":"8","tcg":282313,"grp":3066,"idx":8},
+    {"id":"009","section":"main","num":"009","printed":"TAMA-EN009","name":"Mamonaka the Vaylantz United","ctype":"monster","keywords":"Vaylantz Spellcaster WATER Pendulum Effect Fusion Monster","stats":{"a":"WATER","l":"Level 10","t":"Spellcaster / Pendulum / Effect / Fusion","atk":2800,"def":2800},"rarity":"UR","img":"40680521","code":"9","tcg":282314,"grp":3066,"idx":9},
+    {"id":"009-cr","section":"rarities","num":"009","printed":"TAMA-EN009","name":"Mamonaka the Vaylantz United","ctype":"monster","keywords":"Vaylantz Spellcaster WATER Pendulum Effect Fusion Monster","stats":{"a":"WATER","l":"Level 10","t":"Spellcaster / Pendulum / Effect / Fusion","atk":2800,"def":2800},"rarity":"CR","img":"40680521","badge":"CR","variant":"Collector’s Rare","code":"CR9","tcg":283238,"grp":3066,"idx":10},
+    {"id":"010","section":"main","num":"010","printed":"TAMA-EN010","name":"Vaylantz Genesis Grand Duke","ctype":"monster","keywords":"Vaylantz Machine FIRE Pendulum Effect Fusion Monster","stats":{"a":"FIRE","l":"Level 10","t":"Machine / Pendulum / Effect / Fusion","atk":2500,"def":2500},"rarity":"SR","img":"76075139","code":"10","tcg":282315,"grp":3066,"idx":11},
+    {"id":"011","section":"main","num":"011","printed":"TAMA-EN011","name":"Vaylantz Wars - The Place of Beginning","ctype":"spell","keywords":"Vaylantz Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UR","img":"13179234","code":"11","tcg":282316,"grp":3066,"idx":12},
+    {"id":"011-cr","section":"rarities","num":"011","printed":"TAMA-EN011","name":"Vaylantz Wars - The Place of Beginning","ctype":"spell","keywords":"Vaylantz Normal Spell","stats":{"t":"Normal Spell"},"rarity":"CR","img":"13179234","badge":"CR","variant":"Collector’s Rare","code":"CR11","tcg":282375,"grp":3066,"idx":13},
+    {"id":"012","section":"main","num":"012","printed":"TAMA-EN012","name":"Vaylantz World - Shinra Bansho","ctype":"spell","keywords":"Vaylantz Field Spell","stats":{"t":"Field Spell"},"rarity":"SR","img":"49568943","code":"12","tcg":282317,"grp":3066,"idx":14},
+    {"id":"013","section":"main","num":"013","printed":"TAMA-EN013","name":"Vaylantz World - Konig Wissen","ctype":"spell","keywords":"Vaylantz Field Spell","stats":{"t":"Field Spell"},"rarity":"SR","img":"75952542","code":"13","tcg":282318,"grp":3066,"idx":15},
+    {"id":"014","section":"main","num":"014","printed":"TAMA-EN014","name":"Lovely Labrynth of the Silver Castle","ctype":"monster","keywords":"Labrynth Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Fiend / Effect","atk":2900,"def":1900},"rarity":"UR","img":"2347656","code":"14","tcg":282341,"grp":3066,"idx":16},
+    {"id":"014-cr","section":"rarities","num":"014","printed":"TAMA-EN014","name":"Lovely Labrynth of the Silver Castle","ctype":"monster","keywords":"Labrynth Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Fiend / Effect","atk":2900,"def":1900},"rarity":"CR","img":"2347656","badge":"CR","variant":"Collector’s Rare","code":"CR14","tcg":282344,"grp":3066,"idx":17},
+    {"id":"015","section":"main","num":"015","printed":"TAMA-EN015","name":"Labrynth Archfiend","ctype":"monster","keywords":"Archfiend Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Fiend / Effect","atk":2000,"def":2800},"rarity":"R","img":"48745395","code":"15","tcg":282319,"grp":3066,"idx":18},
+    {"id":"016","section":"main","num":"016","printed":"TAMA-EN016","name":"Ariane the Labrynth Servant","ctype":"monster","keywords":"Labrynth Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Effect","atk":1800,"def":1100},"rarity":"UR","img":"75730490","code":"16","tcg":282320,"grp":3066,"idx":19},
+    {"id":"016-cr","section":"rarities","num":"016","printed":"TAMA-EN016","name":"Ariane the Labrynth Servant","ctype":"monster","keywords":"Labrynth Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Effect","atk":1800,"def":1100},"rarity":"CR","img":"75730490","badge":"CR","variant":"Collector’s Rare","code":"CR16","tcg":282321,"grp":3066,"idx":20},
+    {"id":"017","section":"main","num":"017","printed":"TAMA-EN017","name":"Arianna the Labrynth Servant","ctype":"monster","keywords":"Labrynth Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Effect","atk":1600,"def":2100},"rarity":"UR","img":"1225009","code":"17","tcg":282322,"grp":3066,"idx":21},
+    {"id":"017-cr","section":"rarities","num":"017","printed":"TAMA-EN017","name":"Arianna the Labrynth Servant","ctype":"monster","keywords":"Labrynth Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Effect","atk":1600,"def":2100},"rarity":"CR","img":"1225009","badge":"CR","variant":"Collector’s Rare","code":"CR17","tcg":283237,"grp":3066,"idx":22},
+    {"id":"018","section":"main","num":"018","printed":"TAMA-EN018","name":"Labrynth Chandraglier","ctype":"monster","keywords":"Labrynth Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Fiend / Effect","atk":1500,"def":0},"rarity":"R","img":"37629703","code":"18","tcg":282342,"grp":3066,"idx":23},
+    {"id":"019","section":"main","num":"019","printed":"TAMA-EN019","name":"Labrynth Stovie Torbie","ctype":"monster","keywords":"Labrynth Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 2","t":"Fiend / Effect","atk":0,"def":2000},"rarity":"R","img":"74018812","code":"19","tcg":282343,"grp":3066,"idx":24},
+    {"id":"020","section":"main","num":"020","printed":"TAMA-EN020","name":"Labrynth Cooclock","ctype":"monster","keywords":"Labrynth Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Fiend / Effect","atk":0,"def":0},"rarity":"R","img":"2511","code":"20","tcg":282323,"grp":3066,"idx":25},
+    {"id":"021","section":"main","num":"021","printed":"TAMA-EN021","name":"Labrynth Labyrinth","ctype":"spell","keywords":"Labrynth Field Spell","stats":{"t":"Field Spell"},"rarity":"SR","img":"33407125","code":"21","tcg":282324,"grp":3066,"idx":26},
+    {"id":"021-cr","section":"rarities","num":"021","printed":"TAMA-EN021","name":"Labrynth Labyrinth","ctype":"spell","keywords":"Labrynth Field Spell","stats":{"t":"Field Spell"},"rarity":"CR","img":"33407125","badge":"CR","variant":"Collector’s Rare","code":"CR21","tcg":283141,"grp":3066,"idx":27},
+    {"id":"022","section":"main","num":"022","printed":"TAMA-EN022","name":"Labrynth Set-Up","ctype":"spell","keywords":"Labrynth Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"SR","img":"69895264","code":"22","tcg":282325,"grp":3066,"idx":28},
+    {"id":"023","section":"main","num":"023","printed":"TAMA-EN023","name":"Welcome Labrynth","ctype":"trap","keywords":"Labrynth Normal Trap","stats":{"t":"Normal Trap"},"rarity":"UR","img":"5380979","code":"23","tcg":282326,"grp":3066,"idx":29},
+    {"id":"024","section":"main","num":"024","printed":"TAMA-EN024","name":"Farewelcome Labrynth","ctype":"trap","keywords":"Labrynth Normal Trap","stats":{"t":"Normal Trap"},"rarity":"R","img":"32785578","code":"24","tcg":282327,"grp":3066,"idx":30},
+    {"id":"025","section":"main","num":"025","printed":"TAMA-EN025","name":"Labrynth Barrage","ctype":"trap","keywords":"Labrynth Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"68779682","code":"25","tcg":282328,"grp":3066,"idx":31},
+    {"id":"026","section":"main","num":"026","printed":"TAMA-EN026","name":"Archfiend's Ghastly Glitch","ctype":"trap","keywords":"Archfiend Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"5168381","code":"26","tcg":282329,"grp":3066,"idx":32},
+    {"id":"027","section":"main","num":"027","printed":"TAMA-EN027","name":"Runick Fountain","ctype":"spell","keywords":"Runick Field Spell","stats":{"t":"Field Spell"},"rarity":"UR","img":"92107604","code":"27","tcg":282330,"grp":3066,"idx":33},
+    {"id":"027-cr","section":"rarities","num":"027","printed":"TAMA-EN027","name":"Runick Fountain","ctype":"spell","keywords":"Runick Field Spell","stats":{"t":"Field Spell"},"rarity":"CR","img":"92107604","badge":"CR","variant":"Collector’s Rare","code":"CR27","tcg":282331,"grp":3066,"idx":34},
+    {"id":"028","section":"main","num":"028","printed":"TAMA-EN028","name":"Runick Allure","ctype":"spell","keywords":"Runick Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"R","img":"29595202","code":"28","tcg":282332,"grp":3066,"idx":35},
+    {"id":"029","section":"main","num":"029","printed":"TAMA-EN029","name":"Runick Tip","ctype":"spell","keywords":"Runick Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"UR","img":"31562086","code":"29","tcg":282333,"grp":3066,"idx":36},
+    {"id":"029-cr","section":"rarities","num":"029","printed":"TAMA-EN029","name":"Runick Tip","ctype":"spell","keywords":"Runick Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"CR","img":"31562086","badge":"CR","variant":"Collector’s Rare","code":"CR29","tcg":283240,"grp":3066,"idx":37},
+    {"id":"030","section":"main","num":"030","printed":"TAMA-EN030","name":"Runick Flashing Fire","ctype":"spell","keywords":"Runick Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"SR","img":"68957034","code":"30","tcg":282334,"grp":3066,"idx":38},
+    {"id":"031","section":"main","num":"031","printed":"TAMA-EN031","name":"Runick Destruction","ctype":"spell","keywords":"Runick Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"SR","img":"94445733","code":"31","tcg":282335,"grp":3066,"idx":39},
+    {"id":"032","section":"main","num":"032","printed":"TAMA-EN032","name":"Runick Dispelling","ctype":"spell","keywords":"Runick Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"R","img":"66712905","code":"32","tcg":282336,"grp":3066,"idx":40},
+    {"id":"033","section":"main","num":"033","printed":"TAMA-EN033","name":"Runick Freezing Curses","ctype":"spell","keywords":"Runick Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"SR","img":"30430448","code":"33","tcg":282337,"grp":3066,"idx":41},
+    {"id":"034","section":"main","num":"034","printed":"TAMA-EN034","name":"Runick Slumber","ctype":"spell","keywords":"Runick Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"R","img":"67835547","code":"34","tcg":282338,"grp":3066,"idx":42},
+    {"id":"035","section":"main","num":"035","printed":"TAMA-EN035","name":"Runick Golden Droplet","ctype":"spell","keywords":"Runick Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"SR","img":"20618850","code":"35","tcg":282339,"grp":3066,"idx":43},
+    {"id":"036","section":"main","num":"036","printed":"TAMA-EN036","name":"Runick Smiting Storm","ctype":"spell","keywords":"Runick Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"R","img":"93229151","code":"36","tcg":282340,"grp":3066,"idx":44},
+    {"id":"037","section":"main","num":"037","printed":"TAMA-EN037","name":"Hugin the Runick Wings","ctype":"monster","keywords":"Runick Fairy LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 2","t":"Fairy / Fusion","atk":0,"def":0},"rarity":"UR","img":"55990317","code":"37","tcg":282346,"grp":3066,"idx":45},
+    {"id":"038","section":"main","num":"038","printed":"TAMA-EN038","name":"Munin the Runick Wings","ctype":"monster","keywords":"Runick Fairy LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Fairy / Fusion","atk":0,"def":2000},"rarity":"SR","img":"92385016","code":"38","tcg":282347,"grp":3066,"idx":46},
+    {"id":"039","section":"main","num":"039","printed":"TAMA-EN039","name":"Geri the Runick Fangs","ctype":"monster","keywords":"Runick Beast DARK Fusion Monster","stats":{"a":"DARK","l":"Level 4","t":"Beast / Fusion","atk":0,"def":1000},"rarity":"SR","img":"28373620","code":"39","tcg":282348,"grp":3066,"idx":47},
+    {"id":"040","section":"main","num":"040","printed":"TAMA-EN040","name":"Astrograph Sorcerer","ctype":"monster","keywords":"Magician Spellcaster DARK Pendulum Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Spellcaster / Pendulum / Effect","atk":2500,"def":2000},"rarity":"R","img":"76794549","code":"40","tcg":282349,"grp":3066,"idx":48},
+    {"id":"040-cr","section":"rarities","num":"040","printed":"TAMA-EN040","name":"Astrograph Sorcerer","ctype":"monster","keywords":"Magician Spellcaster DARK Pendulum Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Spellcaster / Pendulum / Effect","atk":2500,"def":2000},"rarity":"CR","img":"76794549","badge":"CR","variant":"Collector’s Rare","code":"CR40","tcg":282350,"grp":3066,"idx":49},
+    {"id":"041","section":"main","num":"041","printed":"TAMA-EN041","name":"Book of Eclipse","ctype":"spell","keywords":"Book of Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"R","img":"35480699","code":"41","tcg":282351,"grp":3066,"idx":50},
+    {"id":"042","section":"main","num":"042","printed":"TAMA-EN042","name":"Senet Switch","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"R","img":"63394872","code":"42","tcg":282352,"grp":3066,"idx":51},
+    {"id":"043","section":"main","num":"043","printed":"TAMA-EN043","name":"Scapegoat","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"R","img":"73915051","code":"43","tcg":282353,"grp":3066,"idx":52},
+    {"id":"043-cr","section":"rarities","num":"043","printed":"TAMA-EN043","name":"Scapegoat","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"CR","img":"73915051","badge":"CR","variant":"Collector’s Rare","code":"CR43","tcg":282354,"grp":3066,"idx":53},
+    {"id":"044","section":"main","num":"044","printed":"TAMA-EN044","name":"Compulsory Evacuation Device","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"R","img":"94192409","code":"44","tcg":282355,"grp":3066,"idx":54},
+    {"id":"045","section":"main","num":"045","printed":"TAMA-EN045","name":"Trap Trick","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"R","img":"80101899","code":"45","tcg":282356,"grp":3066,"idx":55},
+    {"id":"045-cr","section":"rarities","num":"045","printed":"TAMA-EN045","name":"Trap Trick","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"CR","img":"80101899","badge":"CR","variant":"Collector’s Rare","code":"CR45","tcg":282357,"grp":3066,"idx":56},
+    {"id":"046","section":"main","num":"046","printed":"TAMA-EN046","name":"Invader of Darkness","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Fiend / Effect","atk":2900,"def":2500},"rarity":"R","img":"56647086","code":"46","tcg":282358,"grp":3066,"idx":57},
+    {"id":"048","section":"main","num":"048","printed":"TAMA-EN048","name":"Absolute King Back Jack","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Fiend / Effect","atk":0,"def":0},"rarity":"R","img":"60990740","code":"48","tcg":282361,"grp":3066,"idx":58},
+    {"id":"049","section":"main","num":"049","printed":"TAMA-EN049","name":"Lilith, Lady of Lament","ctype":"monster","keywords":"Lady of Lament Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Fiend / Effect","atk":2000,"def":0},"rarity":"R","img":"23898021","code":"49","tcg":282362,"grp":3066,"idx":59},
+    {"id":"050","section":"main","num":"050","printed":"TAMA-EN050","name":"Bearblocker","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Fiend / Effect","atk":1600,"def":0},"rarity":"R","img":"80141055","code":"50","tcg":282363,"grp":3066,"idx":60},
+    {"id":"051","section":"main","num":"051","printed":"TAMA-EN051","name":"Malice, Lady of Lament","ctype":"monster","keywords":"Lady of Lament Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Fiend / Effect","atk":1000,"def":1000},"rarity":"R","img":"25643346","code":"51","tcg":282388,"grp":3066,"idx":61},
+    {"id":"052","section":"main","num":"052","printed":"TAMA-EN052","name":"Quick Booster","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"R","img":"45869829","code":"52","tcg":282364,"grp":3066,"idx":62},
+    {"id":"053","section":"main","num":"053","printed":"TAMA-EN053","name":"Cosmic Cyclone","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"R","img":"8267140","code":"53","tcg":282365,"grp":3066,"idx":63},
+    {"id":"053-cr","section":"rarities","num":"053","printed":"TAMA-EN053","name":"Cosmic Cyclone","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"CR","img":"8267140","badge":"CR","variant":"Collector’s Rare","code":"CR53","tcg":282366,"grp":3066,"idx":64},
+    {"id":"054","section":"main","num":"054","printed":"TAMA-EN054","name":"Pendulum Fusion","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"R","img":"65646587","code":"54","tcg":282367,"grp":3066,"idx":65},
+    {"id":"055","section":"main","num":"055","printed":"TAMA-EN055","name":"Duelist Alliance","ctype":"spell","keywords":"Magician Normal Spell","stats":{"t":"Normal Spell"},"rarity":"R","img":"37469904","code":"55","tcg":282368,"grp":3066,"idx":66},
+    {"id":"056","section":"main","num":"056","printed":"TAMA-EN056","name":"Anti-Spell Fragrance","ctype":"trap","keywords":"Anti Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"R","img":"58921041","code":"56","tcg":282369,"grp":3066,"idx":67},
+    {"id":"056-cr","section":"rarities","num":"056","printed":"TAMA-EN056","name":"Anti-Spell Fragrance","ctype":"trap","keywords":"Anti Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"CR","img":"58921041","badge":"CR","variant":"Collector’s Rare","code":"CR56","tcg":282370,"grp":3066,"idx":68},
+    {"id":"057","section":"main","num":"057","printed":"TAMA-EN057","name":"Reckless Greed","ctype":"trap","keywords":"Greed Normal Trap","stats":{"t":"Normal Trap"},"rarity":"R","img":"37576645","code":"57","tcg":282371,"grp":3066,"idx":69},
+    {"id":"058","section":"main","num":"058","printed":"TAMA-EN058","name":"Imperial Iron Wall","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"R","img":"30459350","code":"58","tcg":282372,"grp":3066,"idx":70},
+    {"id":"059","section":"main","num":"059","printed":"TAMA-EN059","name":"Fiend Griefing","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"R","img":"60743819","code":"59","tcg":282373,"grp":3066,"idx":71},
+    {"id":"060","section":"main","num":"060","printed":"TAMA-EN060","name":"Pendulum Switch","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"R","img":"42378577","code":"60","tcg":282374,"grp":3066,"idx":72}
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "id": "yugioh/turbo-pack-booster-two",
+  "game": "yugioh",
+  "slug": "turbo-pack-booster-two",
+  "name": "Turbo Pack: Booster Two",
+  "series": "5D’s",
+  "kind": "pack",
+  "code": "TU02",
+  "syncKey": "YTU02",
+  "released": "2010-01-09",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "TU02-EN000–TU02-EN020",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from TU02-EN000 to TU02-EN020."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Turbo Pack: Booster Two Checklist · All 21 Cards",
+    "description": "Free Yu-Gi-Oh! Turbo Pack: Booster Two checklist with no ads, no sign-up and no tracking. Track all 21 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Turbo Pack: Booster Two Checklist",
+    "ogDescription": "Track all 21 cards in Yu-Gi-Oh! Turbo Pack: Booster Two. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 21 cards in Yu-Gi-Oh! Turbo Pack: Booster Two. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Turbo Pack: Booster Two",
+    "paragraphs": [
+      "Turbo Pack: Booster Two is a Yu-Gi-Oh! TCG pack released on 9 January 2010, in the 5D’s era. It has 21 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Turbo Pack: Booster Two"
+    ],
+    "tcgplayer": [
+      598
+    ]
+  },
+  "cards": [
+    {"id":"000","section":"main","num":"000","printed":"TU02-EN000","name":"Gladiator Beast Heraklinos","ctype":"monster","keywords":"Gladiator Beast Beast-Warrior FIRE Fusion Monster","stats":{"a":"FIRE","l":"Level 8","t":"Beast-Warrior / Fusion","atk":3000,"def":2800},"rarity":"UtR","img":"27346636","code":"0","tcg":66689,"grp":598,"idx":0},
+    {"id":"001","section":"main","num":"001","printed":"TU02-EN001","name":"Chaos Sorcerer","ctype":"monster","keywords":"Chaos Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Spellcaster / Effect","atk":2300,"def":2000},"rarity":"UR","img":"9596126","code":"1","tcg":66690,"grp":598,"idx":1},
+    {"id":"002","section":"main","num":"002","printed":"TU02-EN002","name":"Gravekeeper's Assailant","ctype":"monster","keywords":"Gravekeeper's Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Effect","atk":1500,"def":1500},"rarity":"SR","img":"25262697","code":"2","tcg":66691,"grp":598,"idx":2},
+    {"id":"003","section":"main","num":"003","printed":"TU02-EN003","name":"Magical Dimension","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"SR","img":"28553439","code":"3","tcg":66692,"grp":598,"idx":3},
+    {"id":"004","section":"main","num":"004","printed":"TU02-EN004","name":"Foolish Burial","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"81439174","code":"4","tcg":66693,"grp":598,"idx":4},
+    {"id":"005","section":"main","num":"005","printed":"TU02-EN005","name":"Beckoning Light","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"16255442","code":"5","tcg":66694,"grp":598,"idx":5},
+    {"id":"006","section":"main","num":"006","printed":"TU02-EN006","name":"Gravekeeper's Spear Soldier","ctype":"monster","keywords":"Gravekeeper's Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Effect","atk":1500,"def":1000},"rarity":"R","img":"63695531","code":"6","tcg":66695,"grp":598,"idx":6},
+    {"id":"007","section":"main","num":"007","printed":"TU02-EN007","name":"My Body as a Shield","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"R","img":"69279219","code":"7","tcg":66696,"grp":598,"idx":7},
+    {"id":"008","section":"main","num":"008","printed":"TU02-EN008","name":"Magical Stone Excavation","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"R","img":"98494543","code":"8","tcg":66697,"grp":598,"idx":8},
+    {"id":"009","section":"main","num":"009","printed":"TU02-EN009","name":"Mist Archfiend","ctype":"monster","keywords":"Archfiend Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 5","t":"Fiend / Effect","atk":2400,"def":0},"rarity":"R","img":"28601770","code":"9","tcg":66698,"grp":598,"idx":9},
+    {"id":"010","section":"main","num":"010","printed":"TU02-EN010","name":"Light-Imprisoning Mirror","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"R","img":"53341729","code":"10","tcg":66699,"grp":598,"idx":10},
+    {"id":"011","section":"main","num":"011","printed":"TU02-EN011","name":"Shadow-Imprisoning Mirror","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"R","img":"99735427","code":"11","tcg":66700,"grp":598,"idx":11},
+    {"id":"012","section":"main","num":"012","printed":"TU02-EN012","name":"Anti-Spell Fragrance","ctype":"trap","keywords":"Anti Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"58921041","code":"12","tcg":66701,"grp":598,"idx":12},
+    {"id":"013","section":"main","num":"013","printed":"TU02-EN013","name":"Gravekeeper's Cannonholder","ctype":"monster","keywords":"Gravekeeper's Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Effect","atk":1400,"def":1200},"rarity":"C","img":"99877698","code":"13","tcg":66702,"grp":598,"idx":13},
+    {"id":"014","section":"main","num":"014","printed":"TU02-EN014","name":"Necrovalley","ctype":"spell","keywords":"Gravekeeper's Field Spell","stats":{"t":"Field Spell"},"rarity":"C","img":"47355498","code":"14","tcg":66703,"grp":598,"idx":14},
+    {"id":"015","section":"main","num":"015","printed":"TU02-EN015","name":"Autonomous Action Unit","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"71453557","code":"15","tcg":66704,"grp":598,"idx":15},
+    {"id":"016","section":"main","num":"016","printed":"TU02-EN016","name":"Anti-Spell","ctype":"trap","keywords":"Anti Counter Trap","stats":{"t":"Counter Trap"},"rarity":"C","img":"53112492","code":"16","tcg":66705,"grp":598,"idx":16},
+    {"id":"017","section":"main","num":"017","printed":"TU02-EN017","name":"Reflect Bounder","ctype":"monster","keywords":"Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Machine / Effect","atk":1700,"def":1000},"rarity":"C","img":"2851070","code":"17","tcg":66706,"grp":598,"idx":17},
+    {"id":"018","section":"main","num":"018","printed":"TU02-EN018","name":"Mausoleum of the Emperor","ctype":"spell","keywords":"Field Spell","stats":{"t":"Field Spell"},"rarity":"C","img":"80921533","code":"18","tcg":66707,"grp":598,"idx":18},
+    {"id":"019","section":"main","num":"019","printed":"TU02-EN019","name":"Gravekeeper's Commandant","ctype":"monster","keywords":"Gravekeeper's Spellcaster EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Spellcaster / Effect","atk":1600,"def":1500},"rarity":"C","img":"17393207","code":"19","tcg":66708,"grp":598,"idx":19},
+    {"id":"020","section":"main","num":"020","printed":"TU02-EN020","name":"Iron Core of Koa'ki Meiru","ctype":"spell","keywords":"Koa'ki Meiru Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"36623431","code":"20","tcg":66709,"grp":598,"idx":20}
+  ]
+}

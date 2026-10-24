@@ -1,9 +1,9 @@
 import { buildCollection } from './model.js';
-import * as pokemon from '../games/pokemon.js';
+import { GAMES } from '../games/index.js';
 import { asset } from './paths.js';
 import { setPrices } from './pricing.js';
 
-export const GAMES = { pokemon };
+export { GAMES };
 
 async function getJson(path, fallback) {
   try {

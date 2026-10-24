@@ -1,0 +1,120 @@
+{
+  "id": "yugioh/hidden-summoners",
+  "game": "yugioh",
+  "slug": "hidden-summoners",
+  "name": "Hidden Summoners",
+  "series": "VRAINS",
+  "kind": "expansion",
+  "code": "HISU",
+  "syncKey": "YHISU",
+  "released": "2018-11-15",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Main Set",
+      "range": "HISU-EN001–HISU-EN060",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from HISU-EN001 to HISU-EN060."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Hidden Summoners Checklist · All 60 Cards",
+    "description": "Free Yu-Gi-Oh! Hidden Summoners checklist with no ads, no sign-up and no tracking. Track all 60 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Hidden Summoners Checklist",
+    "ogDescription": "Track all 60 cards in Yu-Gi-Oh! Hidden Summoners. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 60 cards in Yu-Gi-Oh! Hidden Summoners. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About the Hidden Summoners set",
+    "paragraphs": [
+      "Hidden Summoners is a Yu-Gi-Oh! TCG booster set released on 15 November 2018, in the VRAINS era. It has 60 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Hidden Summoners"
+    ],
+    "tcgplayer": [
+      2343
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"HISU-EN001","name":"Matriarch of Nephthys","ctype":"monster","keywords":"Nephthys Spellcaster WIND Effect Monster","stats":{"a":"WIND","l":"Level 2","t":"Spellcaster / Effect","atk":600,"def":600},"rarity":"SR","img":"52904476","code":"1","tcg":180317,"grp":2343,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"HISU-EN002","name":"Disciple of Nephthys","ctype":"monster","keywords":"Nephthys Spellcaster WIND Effect Monster","stats":{"a":"WIND","l":"Level 2","t":"Spellcaster / Effect","atk":0,"def":2000},"rarity":"ScR","img":"98999181","code":"2","tcg":180347,"grp":2343,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"HISU-EN003","name":"Chronicler of Nephthys","ctype":"monster","keywords":"Nephthys Spellcaster WIND Effect Monster","stats":{"a":"WIND","l":"Level 2","t":"Spellcaster / Effect","atk":300,"def":1200},"rarity":"SR","img":"25397880","code":"3","tcg":180306,"grp":2343,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"HISU-EN004","name":"Defender of Nephthys","ctype":"monster","keywords":"Nephthys Spellcaster WIND Effect Monster","stats":{"a":"WIND","l":"Level 2","t":"Spellcaster / Effect","atk":1400,"def":200},"rarity":"SR","img":"51782995","code":"4","tcg":180309,"grp":2343,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"HISU-EN005","name":"Devotee of Nephthys","ctype":"monster","keywords":"Nephthys Spellcaster WIND Ritual Effect Monster","stats":{"a":"WIND","l":"Level 2","t":"Spellcaster / Ritual / Effect","atk":1200,"def":1200},"rarity":"ScR","img":"88176533","code":"5","tcg":180346,"grp":2343,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"HISU-EN006","name":"Cerulean Sacred Phoenix of Nephthys","ctype":"monster","keywords":"Nephthys Winged Beast FIRE Ritual Effect Monster","stats":{"a":"FIRE","l":"Level 8","t":"Winged Beast / Ritual / Effect","atk":3000,"def":1000},"rarity":"ScR","img":"24175232","code":"6","tcg":180344,"grp":2343,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"HISU-EN007","name":"Nephthys, the Sacred Preserver","ctype":"monster","keywords":"Nephthys Winged Beast FIRE Link Monster","stats":{"a":"FIRE","l":"Link 2","t":"Winged Beast / Link","atk":1200},"rarity":"ScR","img":"50669347","code":"7","tcg":180353,"grp":2343,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"HISU-EN008","name":"Nephthys, the Sacred Flame","ctype":"monster","keywords":"Nephthys Winged Beast FIRE Link Monster","stats":{"a":"FIRE","l":"Link 3","t":"Winged Beast / Link","atk":2400},"rarity":"ScR","img":"87054946","code":"8","tcg":180352,"grp":2343,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"HISU-EN009","name":"Rebirth of Nephthys","ctype":"spell","keywords":"Nephthys Ritual Spell","stats":{"t":"Ritual Spell"},"rarity":"SR","img":"23459650","code":"9","tcg":180333,"grp":2343,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"HISU-EN010","name":"Last Hope of Nephthys","ctype":"spell","keywords":"Nephthys Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"50847759","code":"10","tcg":180315,"grp":2343,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"HISU-EN011","name":"Awakening of Nephthys","ctype":"trap","keywords":"Nephthys Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"SR","img":"82832464","code":"11","tcg":180305,"grp":2343,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"HISU-EN012","name":"Sacred Phoenix of Nephthys","ctype":"monster","keywords":"Nephthys Winged Beast FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 8","t":"Winged Beast / Effect","atk":2400,"def":1600},"rarity":"SR","img":"61441708","code":"12","tcg":180336,"grp":2343,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"HISU-EN013","name":"Hand of Nephthys","ctype":"monster","keywords":"Nephthys Spellcaster WIND Effect Monster","stats":{"a":"WIND","l":"Level 2","t":"Spellcaster / Effect","atk":600,"def":600},"rarity":"SR","img":"98446407","code":"13","tcg":180314,"grp":2343,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"HISU-EN014","name":"Prank-Kids Fansies","ctype":"monster","keywords":"Prank-Kids Thunder WIND Effect Monster","stats":{"a":"WIND","l":"Level 1","t":"Thunder / Effect","atk":0,"def":2000},"rarity":"SR","img":"81119816","code":"14","tcg":180324,"grp":2343,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"HISU-EN015","name":"Prank-Kids Lampsies","ctype":"monster","keywords":"Prank-Kids Pyro FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 3","t":"Pyro / Effect","atk":1500,"def":500},"rarity":"SR","img":"18236002","code":"15","tcg":180325,"grp":2343,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"HISU-EN016","name":"Prank-Kids Dropsies","ctype":"monster","keywords":"Prank-Kids Aqua WATER Effect Monster","stats":{"a":"WATER","l":"Level 2","t":"Aqua / Effect","atk":1000,"def":1000},"rarity":"SR","img":"55725117","code":"16","tcg":180323,"grp":2343,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"HISU-EN017","name":"Prank-Kids Rocket Ride","ctype":"monster","keywords":"Prank-Kids Pyro FIRE Fusion Monster","stats":{"a":"FIRE","l":"Level 5","t":"Pyro / Fusion","atk":2000,"def":0},"rarity":"SR","img":"18514525","code":"17","tcg":180329,"grp":2343,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"HISU-EN018","name":"Prank-Kids Weather Washer","ctype":"monster","keywords":"Prank-Kids Aqua WATER Fusion Monster","stats":{"a":"WATER","l":"Level 5","t":"Aqua / Fusion","atk":2000,"def":0},"rarity":"SR","img":"44509529","code":"18","tcg":180330,"grp":2343,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"HISU-EN019","name":"Prank-Kids Battle Butler","ctype":"monster","keywords":"Prank-Kids Thunder WIND Fusion Monster","stats":{"a":"WIND","l":"Level 10","t":"Thunder / Fusion","atk":3000,"def":3000},"rarity":"ScR","img":"81997228","code":"19","tcg":180355,"grp":2343,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"HISU-EN020","name":"Prank-Kids Dodo-Doodle-Doo","ctype":"monster","keywords":"Prank-Kids Thunder WIND Link Monster","stats":{"a":"WIND","l":"Link 2","t":"Thunder / Link","atk":2000},"rarity":"ScR","img":"17382973","code":"20","tcg":180356,"grp":2343,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"HISU-EN021","name":"Prank-Kids Bow-Wow-Bark","ctype":"monster","keywords":"Prank-Kids Pyro FIRE Link Monster","stats":{"a":"FIRE","l":"Link 2","t":"Pyro / Link","atk":2000},"rarity":"SR","img":"43886072","code":"21","tcg":180322,"grp":2343,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"HISU-EN022","name":"Prank-Kids Rip-Roarin-Roaster","ctype":"monster","keywords":"Prank-Kids Aqua WATER Link Monster","stats":{"a":"WATER","l":"Link 4","t":"Aqua / Link","atk":3000},"rarity":"ScR","img":"70875686","code":"22","tcg":180358,"grp":2343,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"HISU-EN023","name":"Prank-Kids Place","ctype":"spell","keywords":"Prank-Kids Field Spell","stats":{"t":"Field Spell"},"rarity":"ScR","img":"16269385","code":"23","tcg":180357,"grp":2343,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"HISU-EN024","name":"Prank-Kids Pranks","ctype":"spell","keywords":"Prank-Kids Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"SR","img":"43664494","code":"24","tcg":180328,"grp":2343,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"HISU-EN025","name":"Prank-Kids Pandemonium","ctype":"spell","keywords":"Prank-Kids Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"SR","img":"79059098","code":"25","tcg":180326,"grp":2343,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"HISU-EN026","name":"Prank-Kids Plan","ctype":"trap","keywords":"Prank-Kids Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"SR","img":"15447747","code":"26","tcg":180327,"grp":2343,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"HISU-EN027","name":"Dakki, the Graceful Mayakashi","ctype":"monster","keywords":"Mayakashi Zombie FIRE Tuner Monster","stats":{"a":"FIRE","l":"Level 2","t":"Zombie / Tuner","atk":1000,"def":0},"rarity":"ScR","img":"42542842","code":"27","tcg":180345,"grp":2343,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"HISU-EN028","name":"Tsukahagi, the Poisonous Mayakashi","ctype":"monster","keywords":"Mayakashi Zombie EARTH Tuner Monster","stats":{"a":"EARTH","l":"Level 2","t":"Zombie / Tuner","atk":0,"def":2000},"rarity":"SR","img":"5325155","code":"28","tcg":180341,"grp":2343,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"HISU-EN029","name":"Hajun, the Winged Mayakashi","ctype":"monster","keywords":"Mayakashi Zombie WIND Effect Monster","stats":{"a":"WIND","l":"Level 1","t":"Zombie / Effect","atk":600,"def":400},"rarity":"ScR","img":"41729254","code":"29","tcg":180350,"grp":2343,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"HISU-EN030","name":"Shafu, the Wheeled Mayakashi","ctype":"monster","keywords":"Mayakashi Zombie EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Zombie / Effect","atk":1200,"def":400},"rarity":"ScR","img":"78936551","code":"30","tcg":180359,"grp":2343,"idx":29},
+    {"id":"031","section":"main","num":"031","printed":"HISU-EN031","name":"Yasha, the Skeletal Mayakashi","ctype":"monster","keywords":"Mayakashi Zombie DARK Effect Monster","stats":{"a":"DARK","l":"Level 5","t":"Zombie / Effect","atk":2000,"def":0},"rarity":"SR","img":"77714963","code":"31","tcg":180343,"grp":2343,"idx":30},
+    {"id":"032","section":"main","num":"032","printed":"HISU-EN032","name":"Oboro-Guruma, the Wheeled Mayakashi","ctype":"monster","keywords":"Mayakashi Zombie EARTH Synchro Monster","stats":{"a":"EARTH","l":"Level 3","t":"Zombie / Synchro","atk":800,"def":2100},"rarity":"ScR","img":"30607616","code":"32","tcg":180354,"grp":2343,"idx":31},
+    {"id":"033","section":"main","num":"033","printed":"HISU-EN033","name":"Tsuchigumo, the Poisonous Mayakashi","ctype":"monster","keywords":"Mayakashi Zombie EARTH Synchro Monster","stats":{"a":"EARTH","l":"Level 5","t":"Zombie / Synchro","atk":2000,"def":1800},"rarity":"ScR","img":"77092311","code":"33","tcg":180362,"grp":2343,"idx":32},
+    {"id":"034","section":"main","num":"034","printed":"HISU-EN034","name":"Tengu, the Winged Mayakashi","ctype":"monster","keywords":"Mayakashi Zombie WIND Synchro Monster","stats":{"a":"WIND","l":"Level 7","t":"Zombie / Synchro","atk":2600,"def":1500},"rarity":"ScR","img":"4103668","code":"34","tcg":180360,"grp":2343,"idx":33},
+    {"id":"035","section":"main","num":"035","printed":"HISU-EN035","name":"Yoko, the Graceful Mayakashi","ctype":"monster","keywords":"Mayakashi Zombie FIRE Synchro Monster","stats":{"a":"FIRE","l":"Level 9","t":"Zombie / Synchro","atk":2900,"def":2400},"rarity":"ScR","img":"3486020","code":"35","tcg":180363,"grp":2343,"idx":34},
+    {"id":"036","section":"main","num":"036","printed":"HISU-EN036","name":"Gashadokuro, the Skeletal Mayakashi","ctype":"monster","keywords":"Mayakashi Zombie DARK Synchro Monster","stats":{"a":"DARK","l":"Level 11","t":"Zombie / Synchro","atk":3300,"def":2600},"rarity":"ScR","img":"39475024","code":"36","tcg":180348,"grp":2343,"idx":35},
+    {"id":"037","section":"main","num":"037","printed":"HISU-EN037","name":"Yuki-Onna, the Ice Mayakashi","ctype":"monster","keywords":"Mayakashi Zombie WATER Link Monster","stats":{"a":"WATER","l":"Link 2","t":"Zombie / Link","atk":1900},"rarity":"ScR","img":"66870733","code":"37","tcg":180361,"grp":2343,"idx":36},
+    {"id":"038","section":"main","num":"038","printed":"HISU-EN038","name":"Mayakashi Return","ctype":"spell","keywords":"Mayakashi Normal Spell","stats":{"t":"Normal Spell"},"rarity":"ScR","img":"2364438","code":"38","tcg":180351,"grp":2343,"idx":37},
+    {"id":"039","section":"main","num":"039","printed":"HISU-EN039","name":"Mayakashi Metamorphosis","ctype":"trap","keywords":"Mayakashi Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"39753577","code":"39","tcg":180318,"grp":2343,"idx":38},
+    {"id":"040","section":"main","num":"040","printed":"HISU-EN040","name":"Night's End Sorcerer","ctype":"monster","keywords":"Spellcaster DARK Tuner Monster","stats":{"a":"DARK","l":"Level 2","t":"Spellcaster / Tuner","atk":1300,"def":400},"rarity":"SR","img":"36107810","code":"40","tcg":180319,"grp":2343,"idx":39},
+    {"id":"041","section":"main","num":"041","printed":"HISU-EN041","name":"Shiranui Spectralsword","ctype":"monster","keywords":"Shiranui Zombie FIRE Tuner Monster","stats":{"a":"FIRE","l":"Level 2","t":"Zombie / Tuner","atk":800,"def":0},"rarity":"SR","img":"36630403","code":"41","tcg":180440,"grp":2343,"idx":40},
+    {"id":"042","section":"main","num":"042","printed":"HISU-EN042","name":"Preparation of Rites","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"96729612","code":"42","tcg":180331,"grp":2343,"idx":41},
+    {"id":"043","section":"main","num":"043","printed":"HISU-EN043","name":"Ultra Polymerization","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"76647978","code":"43","tcg":180342,"grp":2343,"idx":42},
+    {"id":"044","section":"main","num":"044","printed":"HISU-EN044","name":"De-Synchro","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"32441317","code":"44","tcg":180308,"grp":2343,"idx":43},
+    {"id":"045","section":"main","num":"045","printed":"HISU-EN045","name":"Phoenix Wing Wind Blast","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"63356631","code":"45","tcg":180321,"grp":2343,"idx":44},
+    {"id":"046","section":"main","num":"046","printed":"HISU-EN046","name":"Thunder Dragon","ctype":"monster","keywords":"Thunder Dragon Thunder LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 5","t":"Thunder / Effect","atk":1600,"def":1500},"rarity":"SR","img":"31786629","code":"46","tcg":180340,"grp":2343,"idx":45},
+    {"id":"047","section":"main","num":"047","printed":"HISU-EN047","name":"Manju of the Ten Thousand Hands","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fairy / Effect","atk":1400,"def":1000},"rarity":"SR","img":"95492061","code":"47","tcg":180316,"grp":2343,"idx":46},
+    {"id":"048","section":"main","num":"048","printed":"HISU-EN048","name":"Shiranui Spiritmaster","ctype":"monster","keywords":"Shiranui Zombie FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Zombie / Effect","atk":1500,"def":0},"rarity":"SR","img":"99423156","code":"48","tcg":180338,"grp":2343,"idx":47},
+    {"id":"049","section":"main","num":"049","printed":"HISU-EN049","name":"Shiranui Samurai","ctype":"monster","keywords":"Shiranui Zombie FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Zombie / Effect","atk":1800,"def":0},"rarity":"SR","img":"35818851","code":"49","tcg":180337,"grp":2343,"idx":48},
+    {"id":"050","section":"main","num":"050","printed":"HISU-EN050","name":"Tatsunoko","ctype":"monster","keywords":"Wyrm WATER Synchro Tuner Monster","stats":{"a":"WATER","l":"Level 3","t":"Wyrm / Synchro / Tuner","atk":1700,"def":500},"rarity":"SR","img":"55863245","code":"50","tcg":180339,"grp":2343,"idx":49},
+    {"id":"051","section":"main","num":"051","printed":"HISU-EN051","name":"Gold Sarcophagus","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"ScR","img":"75500286","code":"51","tcg":180349,"grp":2343,"idx":50},
+    {"id":"052","section":"main","num":"052","printed":"HISU-EN052","name":"Fulfillment of the Contract","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"SR","img":"48206762","code":"52","tcg":180311,"grp":2343,"idx":51},
+    {"id":"053","section":"main","num":"053","printed":"HISU-EN053","name":"Re-Fusion","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"SR","img":"74694807","code":"53","tcg":180332,"grp":2343,"idx":52},
+    {"id":"054","section":"main","num":"054","printed":"HISU-EN054","name":"Ritual Foregone","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"65450690","code":"54","tcg":180334,"grp":2343,"idx":53},
+    {"id":"055","section":"main","num":"055","printed":"HISU-EN055","name":"Onslaught of the Fire Kings","ctype":"spell","keywords":"Fire King Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"22993208","code":"55","tcg":180320,"grp":2343,"idx":54},
+    {"id":"056","section":"main","num":"056","printed":"HISU-EN056","name":"Circle of the Fire Kings","ctype":"spell","keywords":"Fire King Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"SR","img":"59388357","code":"56","tcg":180307,"grp":2343,"idx":55},
+    {"id":"057","section":"main","num":"057","printed":"HISU-EN057","name":"Flash Fusion","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"SR","img":"17236839","code":"57","tcg":180310,"grp":2343,"idx":56},
+    {"id":"058","section":"main","num":"058","printed":"HISU-EN058","name":"Fusion Recycling Plant","ctype":"spell","keywords":"Field Spell","stats":{"t":"Field Spell"},"rarity":"SR","img":"22829942","code":"58","tcg":180312,"grp":2343,"idx":57},
+    {"id":"059","section":"main","num":"059","printed":"HISU-EN059","name":"Rivalry of Warlords","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"SR","img":"90846359","code":"59","tcg":180335,"grp":2343,"idx":58},
+    {"id":"060","section":"main","num":"060","printed":"HISU-EN060","name":"Gozen Match","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"SR","img":"53334471","code":"60","tcg":180313,"grp":2343,"idx":59}
+  ]
+}

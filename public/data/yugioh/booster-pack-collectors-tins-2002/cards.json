@@ -1,0 +1,66 @@
+{
+  "id": "yugioh/booster-pack-collectors-tins-2002",
+  "game": "yugioh",
+  "slug": "booster-pack-collectors-tins-2002",
+  "name": "Booster Pack Collectors Tins 2002",
+  "series": "Duel Monsters",
+  "kind": "tin",
+  "code": "BPT",
+  "syncKey": "YBPT",
+  "released": "2002-10-04",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "BPT-001–BPT-006",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from BPT-001 to BPT-006."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Booster Pack Collectors Tins 2002 Checklist · All 6 Cards",
+    "description": "Free Yu-Gi-Oh! Booster Pack Collectors Tins 2002 checklist with no ads, no sign-up and no tracking. Track all 6 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Booster Pack Collectors Tins 2002 Checklist",
+    "ogDescription": "Track all 6 cards in Yu-Gi-Oh! Booster Pack Collectors Tins 2002. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 6 cards in Yu-Gi-Oh! Booster Pack Collectors Tins 2002. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Booster Pack Collectors Tins 2002",
+    "paragraphs": [
+      "Booster Pack Collectors Tins 2002 is a Yu-Gi-Oh! TCG tin released on 4 October 2002, in the Duel Monsters era. It has 6 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Booster Pack Collectors Tins 2002"
+    ],
+    "tcgplayer": [
+      1341
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"BPT-001","name":"Dark Magician","ctype":"monster","keywords":"Dark Magician Spellcaster DARK Normal Monster","stats":{"a":"DARK","l":"Level 7","t":"Spellcaster / Normal","atk":2500,"def":2100},"rarity":"ScR","img":"46986414","code":"1","tcg":22794,"grp":1341,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"BPT-002","name":"Summoned Skull","ctype":"monster","keywords":"Archfiend Fiend DARK Normal Monster","stats":{"a":"DARK","l":"Level 6","t":"Fiend / Normal","atk":2500,"def":1200},"rarity":"ScR","img":"70781052","code":"2","tcg":22795,"grp":1341,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"BPT-003","name":"Blue-Eyes White Dragon","ctype":"monster","keywords":"Blue-Eyes Dragon LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Normal","atk":3000,"def":2500},"rarity":"ScR","img":"89631140","code":"3","tcg":22796,"grp":1341,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"BPT-004","name":"Lord of D.","ctype":"monster","keywords":"Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Effect","atk":1200,"def":1100},"rarity":"ScR","img":"17985575","code":"4","tcg":22797,"grp":1341,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"BPT-005","name":"Red-Eyes Black Dragon","ctype":"monster","keywords":"Red-Eyes Dragon DARK Normal Monster","stats":{"a":"DARK","l":"Level 7","t":"Dragon / Normal","atk":2400,"def":2000},"rarity":"ScR","img":"74677422","code":"5","tcg":22798,"grp":1341,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"BPT-006","name":"Black Skull Dragon","ctype":"monster","keywords":"Archfiend Dragon DARK Fusion Monster","stats":{"a":"DARK","l":"Level 9","t":"Dragon / Fusion","atk":3200,"def":2500},"rarity":"ScR","img":"11901678","code":"6","tcg":22799,"grp":1341,"idx":5}
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "id": "yugioh/collectible-tins-2012-wave-2",
+  "game": "yugioh",
+  "slug": "collectible-tins-2012-wave-2",
+  "name": "Collectible Tins 2012 Wave 2",
+  "series": "ZEXAL",
+  "kind": "tin",
+  "code": "CT09",
+  "syncKey": "YCT092",
+  "released": "2012-10-26",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "CT09-EN003–CT09-EN018",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from CT09-EN003 to CT09-EN018."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Collectible Tins 2012 Wave 2 Checklist · All 9 Cards",
+    "description": "Free Yu-Gi-Oh! Collectible Tins 2012 Wave 2 checklist with no ads, no sign-up and no tracking. Track all 9 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Collectible Tins 2012 Wave 2 Checklist",
+    "ogDescription": "Track all 9 cards in Yu-Gi-Oh! Collectible Tins 2012 Wave 2. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 9 cards in Yu-Gi-Oh! Collectible Tins 2012 Wave 2. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Collectible Tins 2012 Wave 2",
+    "paragraphs": [
+      "Collectible Tins 2012 Wave 2 is a Yu-Gi-Oh! TCG tin released on 26 October 2012, in the ZEXAL era. It has 9 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Collectible Tins 2012 Wave 2"
+    ],
+    "tcgplayer": [
+      571
+    ]
+  },
+  "cards": [
+    {"id":"003","section":"main","num":"003","printed":"CT09-EN003","name":"Ninja Grandmaster Hanzo","ctype":"monster","keywords":"Ninja Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Warrior / Effect","atk":1800,"def":1000},"rarity":"ScR","img":"95027497","code":"3","tcg":67161,"grp":571,"idx":0},
+    {"id":"004","section":"main","num":"004","printed":"CT09-EN004","name":"Hieratic Sun Dragon Overlord of Heliopolis","ctype":"monster","keywords":"Hieratic Dragon LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 8","t":"Dragon / Xyz","atk":3000,"def":2400},"rarity":"ScR","img":"64332231","code":"4","tcg":67166,"grp":571,"idx":1},
+    {"id":"012","section":"main","num":"012","printed":"CT09-EN012","name":"Maxx \"C\"","ctype":"monster","keywords":"\"C\" Insect EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 2","t":"Insect / Effect","atk":500,"def":200},"rarity":"SR","img":"23434538","code":"12","tcg":67162,"grp":571,"idx":2},
+    {"id":"013","section":"main","num":"013","printed":"CT09-EN013","name":"Tour Guide From the Underworld","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Fiend / Effect","atk":1000,"def":600},"rarity":"SR","img":"10802915","code":"13","tcg":67163,"grp":571,"idx":3},
+    {"id":"014","section":"main","num":"014","printed":"CT09-EN014","name":"Number 16: Shock Master","ctype":"monster","keywords":"Fairy LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 4","t":"Fairy / Xyz","atk":2300,"def":1600},"rarity":"SR","img":"54719828","code":"14","tcg":67164,"grp":571,"idx":4},
+    {"id":"015","section":"main","num":"015","printed":"CT09-EN015","name":"Rescue Rabbit","ctype":"monster","keywords":"Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Beast / Effect","atk":300,"def":100},"rarity":"SR","img":"85138716","code":"15","tcg":67165,"grp":571,"idx":5},
+    {"id":"016","section":"main","num":"016","printed":"CT09-EN016","name":"Malefic Truth Dragon","ctype":"monster","keywords":"Malefic Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 12","t":"Dragon / Effect","atk":5000,"def":5000},"rarity":"SR","img":"37115575","code":"16","tcg":67167,"grp":571,"idx":6},
+    {"id":"017","section":"main","num":"017","printed":"CT09-EN017","name":"X-Saber Souza","ctype":"monster","keywords":"X-Saber Warrior EARTH Synchro Monster","stats":{"a":"EARTH","l":"Level 7","t":"Warrior / Synchro","atk":2500,"def":1600},"rarity":"SR","img":"63612442","code":"17","tcg":67168,"grp":571,"idx":7},
+    {"id":"018","section":"main","num":"018","printed":"CT09-EN018","name":"Leviair the Sea Dragon","ctype":"monster","keywords":"Aqua WIND Xyz Monster","stats":{"a":"WIND","l":"Rank 3","t":"Aqua / Xyz","atk":1800,"def":1600},"rarity":"SR","img":"95992081","code":"18","tcg":67169,"grp":571,"idx":8}
+  ]
+}

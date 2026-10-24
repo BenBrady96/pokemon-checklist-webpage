@@ -1,6 +1,7 @@
 import { fetchCollection, fetchPrices } from '../core/collection.js';
 import { resolveCode } from '../core/codec.js';
 import { applyEntries, findEntry } from '../core/transfer.js';
+import { entryBySyncKey } from '../core/catalog.js';
 import { cleanName } from './trade-code.js';
 import * as storage from '../core/storage.js';
 import { convert, ratesOf, shownCurrency } from '../core/pricing.js';
@@ -154,7 +155,7 @@ export async function resolveProposal(decoded, catalog) {
   const get = [];
   let unknown = 0;
   await Promise.all(decoded.sets.map(async ({ key, give: theirGive, get: theirGet }) => {
-    const entry = catalog.collections.find((c) => c.syncKey === key);
+    const entry = entryBySyncKey(catalog, key);
     if (!entry) {
       unknown += theirGive.length + theirGet.length;
       return;

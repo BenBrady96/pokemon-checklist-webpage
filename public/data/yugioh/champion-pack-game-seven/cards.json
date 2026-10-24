@@ -1,0 +1,80 @@
+{
+  "id": "yugioh/champion-pack-game-seven",
+  "game": "yugioh",
+  "slug": "champion-pack-game-seven",
+  "name": "Champion Pack: Game Seven",
+  "series": "GX",
+  "kind": "pack",
+  "code": "CP07",
+  "syncKey": "YCP07",
+  "released": "2008-09-01",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "CP07-EN001–CP07-EN020",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from CP07-EN001 to CP07-EN020."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Champion Pack: Game Seven Checklist · All 20 Cards",
+    "description": "Free Yu-Gi-Oh! Champion Pack: Game Seven checklist with no ads, no sign-up and no tracking. Track all 20 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Champion Pack: Game Seven Checklist",
+    "ogDescription": "Track all 20 cards in Yu-Gi-Oh! Champion Pack: Game Seven. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 20 cards in Yu-Gi-Oh! Champion Pack: Game Seven. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Champion Pack: Game Seven",
+    "paragraphs": [
+      "Champion Pack: Game Seven is a Yu-Gi-Oh! TCG pack released on 1 September 2008, in the GX era. It has 20 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Champion Pack: Game Seven"
+    ],
+    "tcgplayer": [
+      155
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"CP07-EN001","name":"Voltic Kong","ctype":"monster","keywords":"Beast LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Beast / Effect","atk":1800,"def":1000},"rarity":"UR","img":"93151201","code":"1","tcg":33073,"grp":155,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"CP07-EN002","name":"Legendary Jujitsu Master","ctype":"monster","keywords":"Rock EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Rock / Effect","atk":1300,"def":1800},"rarity":"SR","img":"25773409","code":"2","tcg":33074,"grp":155,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"CP07-EN003","name":"Threatening Roar","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"36361633","code":"3","tcg":33075,"grp":155,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"CP07-EN004","name":"Gladiator Beast Bestiari","ctype":"monster","keywords":"Gladiator Beast Winged Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Winged Beast / Effect","atk":1500,"def":800},"rarity":"SR","img":"41470137","code":"4","tcg":33076,"grp":155,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"CP07-EN005","name":"Lonefire Blossom","ctype":"monster","keywords":"Plant FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 3","t":"Plant / Effect","atk":500,"def":1400},"rarity":"SR","img":"48686504","code":"5","tcg":33077,"grp":155,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"CP07-EN006","name":"Elemental HERO Ocean","ctype":"monster","keywords":"Elemental HERO Warrior WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Warrior / Effect","atk":1500,"def":1200},"rarity":"R","img":"37195861","code":"6","tcg":33078,"grp":155,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"CP07-EN007","name":"Fairy King Truesdale","ctype":"monster","keywords":"Plant WATER Effect Monster","stats":{"a":"WATER","l":"Level 6","t":"Plant / Effect","atk":2200,"def":1500},"rarity":"R","img":"45425051","code":"7","tcg":33079,"grp":155,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"CP07-EN008","name":"Spell Striker","ctype":"monster","keywords":"Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Warrior / Effect","atk":600,"def":200},"rarity":"R","img":"93187568","code":"8","tcg":33080,"grp":155,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"CP07-EN009","name":"Vanity's Fiend","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Fiend / Effect","atk":2400,"def":1200},"rarity":"R","img":"47084486","code":"9","tcg":33081,"grp":155,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"CP07-EN010","name":"Dark World Dealings","ctype":"spell","keywords":"Dark World Normal Spell","stats":{"t":"Normal Spell"},"rarity":"R","img":"74117290","code":"10","tcg":33082,"grp":155,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"CP07-EN011","name":"Doom Shaman","ctype":"monster","keywords":"Spellcaster DARK Gemini Monster","stats":{"a":"DARK","l":"Level 6","t":"Spellcaster / Gemini","atk":2400,"def":2000},"rarity":"R","img":"94944637","code":"11","tcg":33083,"grp":155,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"CP07-EN012","name":"Shovel Crusher","ctype":"monster","keywords":"Machine EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 3","t":"Machine / Normal","atk":900,"def":1200},"rarity":"C","img":"71950093","code":"12","tcg":33084,"grp":155,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"CP07-EN013","name":"Life Absorbing Machine","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"14318794","code":"13","tcg":33085,"grp":155,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"CP07-EN014","name":"Fusilier Dragon, the Dual-Mode Beast","ctype":"monster","keywords":"Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Machine / Effect","atk":2800,"def":2000},"rarity":"C","img":"51632798","code":"14","tcg":33086,"grp":155,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"CP07-EN015","name":"Homunculus the Alchemic Being","ctype":"monster","keywords":"Plant LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Plant / Effect","atk":1800,"def":1600},"rarity":"C","img":"40410110","code":"15","tcg":33087,"grp":155,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"CP07-EN016","name":"Memory Crusher","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Fiend / Effect","atk":1000,"def":600},"rarity":"C","img":"48700891","code":"16","tcg":33088,"grp":155,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"CP07-EN017","name":"Instant Fusion","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"1845204","code":"17","tcg":33089,"grp":155,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"CP07-EN018","name":"Dimensional Inversion","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"98666339","code":"18","tcg":33090,"grp":155,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"CP07-EN019","name":"Ancient Rules","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"10667321","code":"19","tcg":33091,"grp":155,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"CP07-EN020","name":"Counter Counter","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"C","img":"42309337","code":"20","tcg":33092,"grp":155,"idx":19}
+  ]
+}

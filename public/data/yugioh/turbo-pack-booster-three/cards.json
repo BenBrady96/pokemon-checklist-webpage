@@ -1,0 +1,81 @@
+{
+  "id": "yugioh/turbo-pack-booster-three",
+  "game": "yugioh",
+  "slug": "turbo-pack-booster-three",
+  "name": "Turbo Pack: Booster Three",
+  "series": "5D’s",
+  "kind": "pack",
+  "code": "TU03",
+  "syncKey": "YTU03",
+  "released": "2010-07-10",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "TU03-EN000–TU03-EN020",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from TU03-EN000 to TU03-EN020."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Turbo Pack: Booster Three Checklist · All 21 Cards",
+    "description": "Free Yu-Gi-Oh! Turbo Pack: Booster Three checklist with no ads, no sign-up and no tracking. Track all 21 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Turbo Pack: Booster Three Checklist",
+    "ogDescription": "Track all 21 cards in Yu-Gi-Oh! Turbo Pack: Booster Three. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 21 cards in Yu-Gi-Oh! Turbo Pack: Booster Three. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Turbo Pack: Booster Three",
+    "paragraphs": [
+      "Turbo Pack: Booster Three is a Yu-Gi-Oh! TCG pack released on 10 July 2010, in the 5D’s era. It has 21 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Turbo Pack: Booster Three"
+    ],
+    "tcgplayer": [
+      597
+    ]
+  },
+  "cards": [
+    {"id":"000","section":"main","num":"000","printed":"TU03-EN000","name":"Caius the Shadow Monarch","ctype":"monster","keywords":"Monarch Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Fiend / Effect","atk":2400,"def":1000},"rarity":"UtR","img":"9748752","code":"0","tcg":66668,"grp":597,"idx":0},
+    {"id":"001","section":"main","num":"001","printed":"TU03-EN001","name":"Dark Grepher","ctype":"monster","keywords":"Grepher Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Warrior / Effect","atk":1700,"def":1600},"rarity":"UR","img":"14536035","code":"1","tcg":66669,"grp":597,"idx":1},
+    {"id":"002","section":"main","num":"002","printed":"TU03-EN002","name":"Rescue Cat","ctype":"monster","keywords":"Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Beast / Effect","atk":300,"def":100},"rarity":"SR","img":"14878871","code":"2","tcg":66670,"grp":597,"idx":2},
+    {"id":"003","section":"main","num":"003","printed":"TU03-EN003","name":"Morphtronic Celfon","ctype":"monster","keywords":"Morphtronic Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 1","t":"Machine / Effect","atk":100,"def":100},"rarity":"SR","img":"93542102","code":"3","tcg":66671,"grp":597,"idx":3},
+    {"id":"004","section":"main","num":"004","printed":"TU03-EN004","name":"Rekindling","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"74845897","code":"4","tcg":66672,"grp":597,"idx":4},
+    {"id":"005","section":"main","num":"005","printed":"TU03-EN005","name":"Treacherous Trap Hole","ctype":"trap","keywords":"Hole Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"99590524","code":"5","tcg":66673,"grp":597,"idx":5},
+    {"id":"006","section":"main","num":"006","printed":"TU03-EN006","name":"Gladiator Beast Retiari","ctype":"monster","keywords":"Gladiator Beast Aqua WATER Effect Monster","stats":{"a":"WATER","l":"Level 3","t":"Aqua / Effect","atk":1200,"def":800},"rarity":"R","img":"612115","code":"6","tcg":66674,"grp":597,"idx":6},
+    {"id":"007","section":"main","num":"007","printed":"TU03-EN007","name":"XX-Saber Faultroll","ctype":"monster","keywords":"X-Saber Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 6","t":"Warrior / Effect","atk":2400,"def":1800},"rarity":"R","img":"51808422","code":"7","tcg":66675,"grp":597,"idx":7},
+    {"id":"008","section":"main","num":"008","printed":"TU03-EN008","name":"XX-Saber Ragigura","ctype":"monster","keywords":"X-Saber Beast-Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 1","t":"Beast-Warrior / Effect","atk":200,"def":1000},"rarity":"R","img":"87292536","code":"8","tcg":66676,"grp":597,"idx":8},
+    {"id":"009","section":"main","num":"009","printed":"TU03-EN009","name":"Magical Android","ctype":"monster","keywords":"Roid Psychic LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 5","t":"Psychic / Synchro","atk":2400,"def":1700},"rarity":"R","img":"43385557","code":"9","tcg":66677,"grp":597,"idx":9},
+    {"id":"010","section":"main","num":"010","printed":"TU03-EN010","name":"Dark Eruption","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"R","img":"674561","code":"10","tcg":66678,"grp":597,"idx":10},
+    {"id":"011","section":"main","num":"011","printed":"TU03-EN011","name":"Saber Slash","ctype":"spell","keywords":"X-Saber Normal Spell","stats":{"t":"Normal Spell"},"rarity":"R","img":"11052544","code":"11","tcg":66679,"grp":597,"idx":11},
+    {"id":"012","section":"main","num":"012","printed":"TU03-EN012","name":"Destiny HERO - Diamond Dude","ctype":"monster","keywords":"Destiny HERO Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Warrior / Effect","atk":1400,"def":1600},"rarity":"C","img":"13093792","code":"12","tcg":66680,"grp":597,"idx":12},
+    {"id":"013","section":"main","num":"013","printed":"TU03-EN013","name":"D.D. Crow","ctype":"monster","keywords":"D.D. Winged Beast DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Winged Beast / Effect","atk":100,"def":100},"rarity":"C","img":"24508238","code":"13","tcg":66681,"grp":597,"idx":13},
+    {"id":"014","section":"main","num":"014","printed":"TU03-EN014","name":"Superancient Deepsea King Coelacanth","ctype":"monster","keywords":"Fish WATER Effect Monster","stats":{"a":"WATER","l":"Level 7","t":"Fish / Effect","atk":2800,"def":2200},"rarity":"C","img":"88307361","code":"14","tcg":66682,"grp":597,"idx":14},
+    {"id":"015","section":"main","num":"015","printed":"TU03-EN015","name":"Koa'ki Meiru Drago","ctype":"monster","keywords":"Koa'ki Meiru Dragon WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Dragon / Effect","atk":1900,"def":1600},"rarity":"C","img":"12435193","code":"15","tcg":66683,"grp":597,"idx":15},
+    {"id":"016","section":"main","num":"016","printed":"TU03-EN016","name":"Kycoo the Ghost Destroyer","ctype":"monster","keywords":"Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Effect","atk":1800,"def":700},"rarity":"C","img":"88240808","code":"16","tcg":66684,"grp":597,"idx":16},
+    {"id":"017","section":"main","num":"017","printed":"TU03-EN017","name":"Nobleman of Crossout","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"71044499","code":"17","tcg":66685,"grp":597,"idx":17},
+    {"id":"018","section":"main","num":"018","printed":"TU03-EN018","name":"Cloak and Dagger","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"8323633","code":"18","tcg":66686,"grp":597,"idx":18},
+    {"id":"019","section":"main","num":"019","printed":"TU03-EN019","name":"Gladiator Beast War Chariot","ctype":"trap","keywords":"Gladiator Beast Counter Trap","stats":{"t":"Counter Trap"},"rarity":"C","img":"96216229","code":"19","tcg":66687,"grp":597,"idx":19},
+    {"id":"020","section":"main","num":"020","printed":"TU03-EN020","name":"Pollinosis","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"C","img":"91078716","code":"20","tcg":66688,"grp":597,"idx":20}
+  ]
+}

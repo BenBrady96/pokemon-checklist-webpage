@@ -1,0 +1,66 @@
+{
+  "id": "yugioh/2014-mega-tins",
+  "game": "yugioh",
+  "slug": "2014-mega-tins",
+  "name": "2014 Mega-Tins",
+  "series": "ARC-V",
+  "kind": "tin",
+  "code": "CT11",
+  "syncKey": "YCT11",
+  "released": "2014-08-28",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "CT11-EN001–CT11-EN006",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from CT11-EN001 to CT11-EN006."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! 2014 Mega-Tins Checklist · All 6 Cards",
+    "description": "Free Yu-Gi-Oh! 2014 Mega-Tins checklist with no ads, no sign-up and no tracking. Track all 6 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! 2014 Mega-Tins Checklist",
+    "ogDescription": "Track all 6 cards in Yu-Gi-Oh! 2014 Mega-Tins. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 6 cards in Yu-Gi-Oh! 2014 Mega-Tins. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About 2014 Mega-Tins",
+    "paragraphs": [
+      "2014 Mega-Tins is a Yu-Gi-Oh! TCG tin released on 28 August 2014, in the ARC-V era. It has 6 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "2014 Mega-Tins"
+    ],
+    "tcgplayer": [
+      1484
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"CT11-EN001","name":"Brotherhood of the Fire Fist - Tiger King","ctype":"monster","keywords":"Fire Fist Beast-Warrior FIRE Xyz Monster","stats":{"a":"FIRE","l":"Rank 4","t":"Beast-Warrior / Xyz","atk":2200,"def":1800},"rarity":"PlScR","img":"96381979","code":"1","tcg":92543,"grp":1484,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"CT11-EN002","name":"Bujintei Susanowo","ctype":"monster","keywords":"Bujin Beast-Warrior LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 4","t":"Beast-Warrior / Xyz","atk":2400,"def":1600},"rarity":"PlScR","img":"75840616","code":"2","tcg":92546,"grp":1484,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"CT11-EN003","name":"Brotherhood of the Fire Fist - Gorilla","ctype":"monster","keywords":"Fire Fist Beast-Warrior FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Beast-Warrior / Effect","atk":1600,"def":1000},"rarity":"SR","img":"70355994","code":"3","tcg":92544,"grp":1484,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"CT11-EN004","name":"Number 47: Nightmare Shark","ctype":"monster","keywords":"Sea Serpent WATER Xyz Monster","stats":{"a":"WATER","l":"Rank 3","t":"Sea Serpent / Xyz","atk":2000,"def":2000},"rarity":"SR","img":"31320433","code":"4","tcg":92545,"grp":1484,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"CT11-EN005","name":"Bujingi Crane","ctype":"monster","keywords":"Bujin Winged Beast LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Winged Beast / Effect","atk":1600,"def":300},"rarity":"SR","img":"68601507","code":"5","tcg":92547,"grp":1484,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"CT11-EN006","name":"Archfiend Commander","ctype":"monster","keywords":"Archfiend Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Fiend / Effect","atk":2500,"def":1200},"rarity":"SR","img":"68371799","code":"6","tcg":92548,"grp":1484,"idx":5}
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "yugioh/2018-mega-tins",
+  "game": "yugioh",
+  "slug": "2018-mega-tins",
+  "name": "2018 Mega-Tins",
+  "series": "VRAINS",
+  "kind": "tin",
+  "code": "CT15",
+  "syncKey": "YCT15",
+  "released": "2018-08-30",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "CT15-EN001–CT15-EN010",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from CT15-EN001 to CT15-EN010."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! 2018 Mega-Tins Checklist · All 10 Cards",
+    "description": "Free Yu-Gi-Oh! 2018 Mega-Tins checklist with no ads, no sign-up and no tracking. Track all 10 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! 2018 Mega-Tins Checklist",
+    "ogDescription": "Track all 10 cards in Yu-Gi-Oh! 2018 Mega-Tins. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 10 cards in Yu-Gi-Oh! 2018 Mega-Tins. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About 2018 Mega-Tins",
+    "paragraphs": [
+      "2018 Mega-Tins is a Yu-Gi-Oh! TCG tin released on 30 August 2018, in the VRAINS era. It has 10 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "2018 Mega-Tins"
+    ],
+    "tcgplayer": [
+      2284
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"CT15-EN001","name":"Elemental HERO Nebula Neos","ctype":"monster","keywords":"Elemental HERO Warrior EARTH Fusion Monster","stats":{"a":"EARTH","l":"Level 9","t":"Warrior / Fusion","atk":3000,"def":2500},"rarity":"ScR","img":"40080312","code":"1","tcg":174634,"grp":2284,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"CT15-EN002","name":"Junk Speeder","ctype":"monster","keywords":"Warrior WIND Synchro Monster","stats":{"a":"WIND","l":"Level 5","t":"Warrior / Synchro","atk":1800,"def":1000},"rarity":"ScR","img":"77075360","code":"2","tcg":174639,"grp":2284,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"CT15-EN003","name":"Elemental HERO Solid Soldier","ctype":"monster","keywords":"Elemental HERO Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Effect","atk":1300,"def":1100},"rarity":"UR","img":"45195443","code":"3","tcg":174635,"grp":2284,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"CT15-EN004","name":"Keeper of Dragon Magic","ctype":"monster","keywords":"Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Dragon / Effect","atk":1800,"def":1300},"rarity":"UR","img":"48048590","code":"4","tcg":174636,"grp":2284,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"CT15-EN005","name":"Mudragon of the Swamp","ctype":"monster","keywords":"Wyrm WATER Fusion Monster","stats":{"a":"WATER","l":"Level 4","t":"Wyrm / Fusion","atk":1900,"def":1600},"rarity":"UR","img":"54757758","code":"5","tcg":174637,"grp":2284,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"CT15-EN006","name":"Arcana Extra Joker","ctype":"monster","keywords":"Warrior LIGHT Link Monster","stats":{"a":"LIGHT","l":"Link 3","t":"Warrior / Link","atk":2800},"rarity":"UR","img":"64454614","code":"6","tcg":174638,"grp":2284,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"CT15-EN007","name":"Junk Collector","ctype":"monster","keywords":"Junk Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 5","t":"Warrior / Effect","atk":1000,"def":2200},"rarity":"UR","img":"58242947","code":"7","tcg":174640,"grp":2284,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"CT15-EN008","name":"Stardust Assault Warrior","ctype":"monster","keywords":"Junk Warrior WIND Synchro Monster","stats":{"a":"WIND","l":"Level 6","t":"Warrior / Synchro","atk":2100,"def":1200},"rarity":"UR","img":"97792247","code":"8","tcg":174641,"grp":2284,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"CT15-EN009","name":"Martial Metal Marcher","ctype":"monster","keywords":"Machine WIND Synchro Tuner Monster","stats":{"a":"WIND","l":"Level 3","t":"Machine / Synchro / Tuner","atk":500,"def":2200},"rarity":"UR","img":"81846453","code":"9","tcg":174642,"grp":2284,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"CT15-EN010","name":"Junk Connector","ctype":"monster","keywords":"Junk Warrior DARK Link Monster","stats":{"a":"DARK","l":"Link 2","t":"Warrior / Link","atk":1700},"rarity":"UR","img":"37337327","code":"10","tcg":174643,"grp":2284,"idx":9}
+  ]
+}

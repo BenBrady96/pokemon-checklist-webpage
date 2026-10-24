@@ -1,0 +1,85 @@
+{
+  "id": "yugioh/premium-collection-tin",
+  "game": "yugioh",
+  "slug": "premium-collection-tin",
+  "name": "Premium Collection Tin",
+  "series": "ZEXAL",
+  "kind": "tin",
+  "code": "PRC1",
+  "syncKey": "YPRC1",
+  "released": "2012-03-16",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "PRC1-EN001–PRC1-ENV02",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from PRC1-EN001 to PRC1-ENV02."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Premium Collection Tin Checklist · All 25 Cards",
+    "description": "Free Yu-Gi-Oh! Premium Collection Tin checklist with no ads, no sign-up and no tracking. Track all 25 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Premium Collection Tin Checklist",
+    "ogDescription": "Track all 25 cards in Yu-Gi-Oh! Premium Collection Tin. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 25 cards in Yu-Gi-Oh! Premium Collection Tin. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Premium Collection Tin",
+    "paragraphs": [
+      "Premium Collection Tin is a Yu-Gi-Oh! TCG tin released on 16 March 2012, in the ZEXAL era. It has 25 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Premium Collection Tin"
+    ],
+    "tcgplayer": [
+      137
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"PRC1-EN001","name":"Meteor Dragon","ctype":"monster","keywords":"Dragon EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 6","t":"Dragon / Normal","atk":1800,"def":2000},"rarity":"SR","img":"64271667","code":"1","tcg":58140,"grp":137,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"PRC1-EN002","name":"Beastly Mirror Ritual","ctype":"spell","keywords":"Ritual Spell","stats":{"t":"Ritual Spell"},"rarity":"SR","img":"81933259","code":"2","tcg":58141,"grp":137,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"PRC1-EN003","name":"Fiend's Mirror","ctype":"monster","keywords":"Fiend DARK Ritual Monster","stats":{"a":"DARK","l":"Level 6","t":"Fiend / Ritual","atk":2100,"def":1800},"rarity":"SR","img":"31890399","code":"3","tcg":58142,"grp":137,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"PRC1-EN004","name":"Meteor Black Dragon","ctype":"monster","keywords":"Red-Eyes Dragon FIRE Fusion Monster","stats":{"a":"FIRE","l":"Level 8","t":"Dragon / Fusion","atk":3500,"def":2000},"rarity":"SR","img":"90660762","code":"4","tcg":58143,"grp":137,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"PRC1-EN005","name":"Firewing Pegasus","ctype":"monster","keywords":"Beast FIRE Normal Monster","stats":{"a":"FIRE","l":"Level 6","t":"Beast / Normal","atk":2250,"def":1800},"rarity":"SR","img":"27054370","code":"5","tcg":58144,"grp":137,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"PRC1-EN006","name":"Quick-Span Knight","ctype":"monster","keywords":"Machine EARTH Tuner Monster","stats":{"a":"EARTH","l":"Level 3","t":"Machine / Tuner","atk":1000,"def":800},"rarity":"SR","img":"11287364","code":"6","tcg":58145,"grp":137,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"PRC1-EN007","name":"Armored Bee","ctype":"monster","keywords":"Insect WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Insect / Effect","atk":1600,"def":1200},"rarity":"SR","img":"86915847","code":"7","tcg":58146,"grp":137,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"PRC1-EN008","name":"Great Poseidon Beetle","ctype":"monster","keywords":"Insect EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 7","t":"Insect / Effect","atk":2500,"def":2300},"rarity":"SR","img":"75292259","code":"8","tcg":58147,"grp":137,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"PRC1-EN009","name":"Junk Forward","ctype":"monster","keywords":"Junk Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Warrior / Effect","atk":900,"def":1500},"rarity":"SR","img":"56410040","code":"9","tcg":58148,"grp":137,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"PRC1-EN010","name":"Fallen Angel of Roses","ctype":"monster","keywords":"Fairy Plant EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 7","t":"Plant / Effect","atk":2400,"def":1300},"rarity":"SR","img":"49674183","code":"10","tcg":58149,"grp":137,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"PRC1-EN011","name":"Machina Cannon","ctype":"monster","keywords":"Machina Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 8","t":"Machine / Effect","atk":0,"def":2200},"rarity":"SR","img":"39284521","code":"11","tcg":58150,"grp":137,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"PRC1-EN012","name":"Blaze Fenix, the Burning Bombardment Bird","ctype":"monster","keywords":"Pyro FIRE Fusion Monster","stats":{"a":"FIRE","l":"Level 8","t":"Pyro / Fusion","atk":2800,"def":2300},"rarity":"SR","img":"6602300","code":"12","tcg":58151,"grp":137,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"PRC1-EN013","name":"Scarred Warrior","ctype":"monster","keywords":"Warrior EARTH Synchro Monster","stats":{"a":"EARTH","l":"Level 5","t":"Warrior / Synchro","atk":2100,"def":1000},"rarity":"SR","img":"45298492","code":"13","tcg":58152,"grp":137,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"PRC1-EN014","name":"Kagemucha Knight","ctype":"monster","keywords":"Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Warrior / Effect","atk":0,"def":0},"rarity":"ScR","img":"19353570","code":"14","tcg":58153,"grp":137,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"PRC1-EN015","name":"Photon Wyvern","ctype":"monster","keywords":"Photon Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 7","t":"Dragon / Effect","atk":2500,"def":2000},"rarity":"ScR","img":"55758589","code":"15","tcg":58154,"grp":137,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"PRC1-EN016","name":"Rosaria, the Stately Fallen Angel","ctype":"monster","keywords":"Plant EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 8","t":"Plant / Effect","atk":2900,"def":2400},"rarity":"ScR","img":"81146288","code":"16","tcg":58155,"grp":137,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"PRC1-EN017","name":"Ma'at","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 10","t":"Fairy / Effect","atk":-1,"def":-1},"rarity":"ScR","img":"18631392","code":"17","tcg":58156,"grp":137,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"PRC1-EN018","name":"Masked HERO Acid","ctype":"monster","keywords":"Masked HERO Warrior WATER Fusion Monster","stats":{"a":"WATER","l":"Level 8","t":"Warrior / Fusion","atk":2600,"def":2100},"rarity":"ScR","img":"29095552","code":"18","tcg":58157,"grp":137,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"PRC1-EN019","name":"Masked HERO Dian","ctype":"monster","keywords":"Masked HERO Warrior EARTH Fusion Monster","stats":{"a":"EARTH","l":"Level 8","t":"Warrior / Fusion","atk":2800,"def":3000},"rarity":"ScR","img":"62624486","code":"19","tcg":58158,"grp":137,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"PRC1-EN020","name":"Gravity Warrior","ctype":"monster","keywords":"Warrior EARTH Synchro Monster","stats":{"a":"EARTH","l":"Level 6","t":"Warrior / Synchro","atk":2100,"def":1000},"rarity":"ScR","img":"44035031","code":"20","tcg":58159,"grp":137,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"PRC1-EN021","name":"Void Ogre Dragon","ctype":"monster","keywords":"Dragon DARK Synchro Monster","stats":{"a":"DARK","l":"Level 8","t":"Dragon / Synchro","atk":3000,"def":3000},"rarity":"ScR","img":"81020646","code":"21","tcg":58160,"grp":137,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"PRC1-EN022","name":"Photon Sanctuary","ctype":"spell","keywords":"Photon Normal Spell","stats":{"t":"Normal Spell"},"rarity":"ScR","img":"17418744","code":"22","tcg":58161,"grp":137,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"PRC1-EN023","name":"Photon Current","ctype":"trap","keywords":"Photon Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"43813459","code":"23","tcg":58162,"grp":137,"idx":22},
+    {"id":"V01","section":"main","num":"V01","printed":"PRC1-ENV01","name":"Elemental HERO The Shining","ctype":"monster","keywords":"Elemental HERO Warrior LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Warrior / Fusion","atk":2600,"def":2100},"rarity":"ScR","img":"22061412","code":"V1","tcg":58138,"grp":137,"idx":23},
+    {"id":"V02","section":"main","num":"V02","printed":"PRC1-ENV02","name":"Number 34: Terror-Byte","ctype":"monster","keywords":"Machine DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 3","t":"Machine / Xyz","atk":0,"def":2900},"rarity":"ScR","img":"32003338","code":"V2","tcg":58139,"grp":137,"idx":24}
+  ]
+}

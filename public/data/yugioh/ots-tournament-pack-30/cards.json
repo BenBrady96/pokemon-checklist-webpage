@@ -1,0 +1,87 @@
+{
+  "id": "yugioh/ots-tournament-pack-30",
+  "game": "yugioh",
+  "slug": "ots-tournament-pack-30",
+  "name": "OTS Tournament Pack 30",
+  "series": "SEVENS & GO RUSH!!",
+  "kind": "pack",
+  "code": "OP30",
+  "syncKey": "YOP30",
+  "released": "2026-02-12",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "OP30-EN001–OP30-EN027",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from OP30-EN001 to OP30-EN027."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! OTS Tournament Pack 30 Checklist · All 27 Cards",
+    "description": "Free Yu-Gi-Oh! OTS Tournament Pack 30 checklist with no ads, no sign-up and no tracking. Track all 27 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! OTS Tournament Pack 30 Checklist",
+    "ogDescription": "Track all 27 cards in Yu-Gi-Oh! OTS Tournament Pack 30. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 27 cards in Yu-Gi-Oh! OTS Tournament Pack 30. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About OTS Tournament Pack 30",
+    "paragraphs": [
+      "OTS Tournament Pack 30 is a Yu-Gi-Oh! TCG pack released on 12 February 2026, in the SEVENS &amp; GO RUSH!! era. It has 27 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "OTS Tournament Pack 30"
+    ],
+    "tcgplayer": [
+      24542
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"OP30-EN001","name":"Rokket Tracer","ctype":"monster","keywords":"Rokket Dragon DARK Tuner Monster","stats":{"a":"DARK","l":"Level 4","t":"Dragon / Tuner","atk":1600,"def":1000},"rarity":"UtR","img":"68464358","code":"1","tcg":678817,"grp":24542,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"OP30-EN002","name":"N.As.H. Knight","ctype":"monster","keywords":"Aqua WATER Xyz Monster","stats":{"a":"WATER","l":"Rank 5","t":"Aqua / Xyz","atk":1700,"def":2700},"rarity":"UtR","img":"34876719","code":"2","tcg":678818,"grp":24542,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"OP30-EN003","name":"Super Starslayer TY-PHON - Sky Crisis","ctype":"monster","keywords":"Fiend DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 12","t":"Fiend / Xyz","atk":2900,"def":2900},"rarity":"UtR","img":"93039339","code":"3","tcg":678819,"grp":24542,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"OP30-EN004","name":"Archfiend Heiress","ctype":"monster","keywords":"Archfiend Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Fiend / Effect","atk":1000,"def":0},"rarity":"SR","img":"66540884","code":"4","tcg":678820,"grp":24542,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"OP30-EN005","name":"Crystron Sulfador","ctype":"monster","keywords":"Crystron Machine WATER Effect Monster","stats":{"a":"WATER","l":"Level 5","t":"Machine / Effect","atk":1900,"def":2250},"rarity":"SR","img":"25865565","code":"5","tcg":678821,"grp":24542,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"OP30-EN006","name":"Artmage Power Patron","ctype":"monster","keywords":"Artmage Illusion EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 1","t":"Illusion / Effect","atk":300,"def":200},"rarity":"SR","img":"23829452","code":"6","tcg":678822,"grp":24542,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"OP30-EN007","name":"Mariamne Paradox, the True Dracophoenix Knight","ctype":"monster","keywords":"True Draco Wyrm WIND Effect Monster","stats":{"a":"WIND","l":"Level 6","t":"Wyrm / Effect","atk":1800,"def":1400},"rarity":"SR","img":"58205203","code":"7","tcg":678823,"grp":24542,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"OP30-EN008","name":"Crystron Eleskeletus","ctype":"monster","keywords":"Crystron Machine WATER Synchro Monster","stats":{"a":"WATER","l":"Level 7","t":"Machine / Synchro","atk":2600,"def":2100},"rarity":"SR","img":"47736165","code":"8","tcg":678824,"grp":24542,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"OP30-EN009","name":"THE Star Ham","ctype":"monster","keywords":"Beast LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Beast / Synchro","atk":1000,"def":1200},"rarity":"SR","img":"15123983","code":"9","tcg":678825,"grp":24542,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"OP30-EN010","name":"Ukanomitsune-no-Onari","ctype":"monster","keywords":"Beast LIGHT Link Monster","stats":{"a":"LIGHT","l":"Link 2","t":"Beast / Link","atk":1500},"rarity":"SR","img":"49451215","code":"10","tcg":678826,"grp":24542,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"OP30-EN011","name":"Chaotic Elements","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"92221402","code":"11","tcg":678827,"grp":24542,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"OP30-EN012","name":"Vanquish Soul, Start!","ctype":"spell","keywords":"Vanquish Soul Field Spell","stats":{"t":"Field Spell"},"rarity":"SR","img":"35550352","code":"12","tcg":678828,"grp":24542,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"OP30-EN013","name":"Skull Meister","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Effect","atk":1700,"def":400},"rarity":"C","img":"67750322","code":"13","tcg":678829,"grp":24542,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"OP30-EN014","name":"Vic Viper T301","ctype":"monster","keywords":"Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Machine / Effect","atk":1200,"def":800},"rarity":"C","img":"10642488","code":"14","tcg":678830,"grp":24542,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"OP30-EN015","name":"Rescue-ACE Fire Attacker","ctype":"monster","keywords":"Rescue-ACE Machine FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 6","t":"Machine / Effect","atk":2200,"def":2200},"rarity":"C","img":"64612053","code":"15","tcg":678831,"grp":24542,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"OP30-EN016","name":"Lightning Vortex","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"69162969","code":"16","tcg":678832,"grp":24542,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"OP30-EN017","name":"Boss Rush","ctype":"spell","keywords":"B.E.S. Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"66947414","code":"17","tcg":678833,"grp":24542,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"OP30-EN018","name":"Magnet Circle LV2","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"94940436","code":"18","tcg":678834,"grp":24542,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"OP30-EN019","name":"Generation Force","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"87890143","code":"19","tcg":678835,"grp":24542,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"OP30-EN020","name":"Twin Twisters","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"43898403","code":"20","tcg":678836,"grp":24542,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"OP30-EN021","name":"Assault Mode Activate","ctype":"trap","keywords":"Assault Mode Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"80280737","code":"21","tcg":678837,"grp":24542,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"OP30-EN022","name":"Assault Counter","ctype":"trap","keywords":"Assault Mode Counter Trap","stats":{"t":"Counter Trap"},"rarity":"C","img":"76407432","code":"22","tcg":678838,"grp":24542,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"OP30-EN023","name":"Breakthrough Skill","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"78474168","code":"23","tcg":678839,"grp":24542,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"OP30-EN024","name":"Quaking Mirror Force","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"40838625","code":"24","tcg":678840,"grp":24542,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"OP30-EN025","name":"Ice Dragon's Prison","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"20899496","code":"25","tcg":678841,"grp":24542,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"OP30-EN026","name":"Quadogmatika Beast","ctype":"trap","keywords":"Dogmatika Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"16693934","code":"26","tcg":678842,"grp":24542,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"OP30-EN027","name":"Kuriboh Token","ctype":"token","keywords":"Kuriboh Fiend Token","stats":{"t":"Fiend / Token"},"rarity":"SR","img":"40703223","code":"27","tcg":678843,"grp":24542,"idx":26}
+  ]
+}

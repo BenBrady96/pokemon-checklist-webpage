@@ -1,20 +1,19 @@
-import { openDialog, vibrate } from '../shared/ui.js';
-import { loadCatalog } from '../core/catalog.js';
-import { fetchCollection, fetchPrices } from '../core/collection.js';
+import { openDialog, closeDialog, vibrate } from '../shared/ui.js';
+import { asset } from '../core/paths.js';
+import { loadCatalog, entryById } from '../core/catalog.js';
+import { GAMES, fetchCollection, fetchPrices } from '../core/collection.js';
 import { formatMoney, formatUsd, ratesOf, shownCurrency } from '../core/pricing.js';
 import * as storage from '../core/storage.js';
-import { loadMatcher, match, search } from './scan-match.js';
+import { codeKey, findCode, loadMatcher, match, search } from './scan-match.js';
 import { el, icon } from '../shared/dom.js';
 import { cameraSupported, getCamera, stopTracks, cameraBlocked } from '../shared/camera.js';
 import { plural } from '../shared/format.js';
 
-const CARD_ASPECT = 63 / 88;
 const REGULAR = 'Regular';
 const SIDES = [
   { side: 'give', label: 'I give', doing: 'Giving', iconId: 'i-upload' },
   { side: 'get', label: 'I get', doing: 'Getting', iconId: 'i-download' },
 ];
-const COMPANION = /-(trainer-gallery|galarian-gallery|shiny-vault|radiant-collection|classic-collection)$/;
 
 const dlg = document.getElementById('dlg-scan');
 const $ = (name) => dlg.querySelector(`[data-scan="${name}"]`);
@@ -32,6 +31,7 @@ const scopeBox = $('scope');
 const heading = dlg.querySelector('.scanner__title');
 
 let options = {};
+let game = null;
 let stream = null;
 let starting = false;
 let matcher = null;
@@ -43,11 +43,13 @@ let flashTimer = 0;
 let lastShot = null;
 const session = [];
 
-const setInfo = (id) => catalog?.collections.find((c) => c.id === id) || { id, name: id };
-const familyOf = (id) => id.replace(COMPANION, '');
+const setInfo = (id) => entryById(catalog, id) || { id, name: id };
+const gameRules = () => GAMES[game] || {};
+const familyOf = (id) => gameRules().familyOf?.(id) ?? id;
+const cardAspect = () => gameRules().CARD_ASPECT || 63 / 88;
 const scoped = () => Boolean(options.prefer) && storage.getPrefs().scanScope !== 'all';
 const within = () => (scoped() ? (set) => familyOf(set) === familyOf(options.prefer) : null);
-const scopeName = () => catalog?.collections.find((c) => c.id === familyOf(options.prefer))?.name || 'This set';
+const scopeName = () => entryById(catalog, familyOf(options.prefer))?.name || 'This set';
 
 function paintScope() {
   for (const b of dlg.querySelectorAll('[data-scope]')) b.setAttribute('aria-pressed', String((b.dataset.scope === 'set') === scoped()));
@@ -158,15 +160,17 @@ function ready() {
 }
 
 function prepareMatcher() {
+  const wanted = game;
   say('Getting the card recogniser ready…');
   shutter.disabled = true;
-  loadMatcher((p) => {
-    if (!matcher && panel.hidden) say(`Downloading the card recogniser (one time only)… ${Math.round(p * 100)}%`);
+  loadMatcher(wanted, (p) => {
+    if (!matcher && panel.hidden && game === wanted) say(`Downloading the card recogniser (one time only)… ${Math.round(p * 100)}%`);
   }).then((m) => {
+    if (game !== wanted) return;
     matcher = m;
     ready();
   }, () => {
-    say('Couldn’t load the card recogniser. Check your connection, then close and reopen the scanner.');
+    if (game === wanted) say('Couldn’t load the card recogniser. Check your connection, then close and reopen the scanner.');
   });
 }
 
@@ -194,8 +198,9 @@ function frameCrop() {
 }
 
 function centreCrop(w, h) {
-  const cw = Math.min(w, h * CARD_ASPECT);
-  const ch = cw / CARD_ASPECT;
+  const aspect = cardAspect();
+  const cw = Math.min(w, h * aspect);
+  const ch = cw / aspect;
   return [(w - cw) / 2, (h - ch) / 2, cw, ch];
 }
 
@@ -260,6 +265,11 @@ function orderCandidates({ candidates, sameArt }) {
 
 async function showMatches(result, narrowed) {
   catalog ||= await loadCatalog().catch(() => null);
+  if (!result.candidates.length) {
+    resume();
+    flash(narrowed ? 'Nothing to compare with in this set. Try all sets, or search.' : 'Couldn’t match that card. Try again, or search.');
+    return;
+  }
   const list = orderCandidates(result);
   const twins = result.sameArt.length > 1;
   const title = !result.confident
@@ -282,14 +292,108 @@ function openPanel(state) {
   renderPanel();
 }
 
+const versionLabel = (card) => card.variant || (gameRules().VERSION_BY_RARITY ? card.rarityName : REGULAR);
+const cardTitle = (card) => (card.variant || gameRules().VERSION_BY_RARITY ? `${card.name} (${versionLabel(card)})` : card.name);
+
+function orderPrintings(candidate) {
+  if (!candidate.printings || candidate.order) return candidate;
+  const started = new Set(storage.storedCollections().map(({ id }) => id));
+  const released = (set) => entryById(catalog, set)?.released || '';
+  candidate.order = [...candidate.printings].sort((a, b) => (b.set === options.prefer) - (a.set === options.prefer)
+    || started.has(b.set) - started.has(a.set)
+    || released(b.set).localeCompare(released(a.set)));
+  candidate.pick ??= 0;
+  return candidate;
+}
+
+const printingOf = (candidate) => (candidate.printings ? orderPrintings(candidate).order[candidate.pick] : null);
+const setOf = (candidate) => printingOf(candidate)?.set ?? candidate.set;
+const printedOf = (candidate) => printingOf(candidate)?.printed ?? candidate.printed;
+
+function withCode(row, text) {
+  const candidate = orderPrintings({ ...row });
+  const key = codeKey(text);
+  const at = candidate.order ? candidate.order.findIndex((p) => p.codes.includes(key)) : -1;
+  if (at >= 0) candidate.pick = at;
+  return candidate;
+}
+
 async function variantsFor(candidate) {
-  const model = await fetchCollection(candidate.set);
+  const model = await fetchCollection(setOf(candidate));
+  const printing = printingOf(candidate);
+  if (printing) {
+    const base = model.cardById.get(printing.cardId);
+    return { model, cards: base ? model.cards.filter((c) => c.printed === base.printed) : [] };
+  }
   return { model, cards: model.cards.filter((c) => c.imageId === candidate.imageId) };
+}
+
+function printingPicker(state, candidate) {
+  const order = candidate.printings ? orderPrintings(candidate).order : [];
+  if (order.length < 2) return {};
+  const started = new Set(storage.storedCollections().map(({ id }) => id));
+  const chosen = order[candidate.pick];
+  const shown = state.allPrintings ? [...order] : order.slice(0, 6);
+  if (!shown.includes(chosen)) shown.push(chosen);
+  const input = el('input', {
+    type: 'text', class: 'input scan-printings__code', placeholder: 'Set code on your card, e.g. LOB-EN005', autocomplete: 'off',
+    autocapitalize: 'characters', spellcheck: 'false', enterkeyhint: 'search', 'aria-label': 'Set code on your card',
+  });
+  input.value = state.code || '';
+  input.addEventListener('input', () => {
+    state.code = input.value;
+    const key = codeKey(input.value);
+    if (key.length < 5 || !key.includes('-')) return;
+    const at = order.findIndex((p) => p.codes.includes(key));
+    if (at >= 0) {
+      if (at === candidate.pick) return;
+      candidate.pick = at;
+    } else {
+      const hit = findCode(matcher, key);
+      if (!hit) return;
+      const other = withCode(hit.row, key);
+      state.list = [other, ...state.list.filter((c) => c.imageId !== other.imageId)];
+      state.selected = 0;
+    }
+    state.variant = null;
+    state.focusCode = true;
+    renderPanel();
+  });
+  const rows = shown.map((p) => el('button', {
+    type: 'button',
+    class: 'scan-printing',
+    'aria-pressed': String(p === chosen),
+    onclick() {
+      candidate.pick = order.indexOf(p);
+      state.variant = null;
+      renderPanel();
+    },
+  }, el('b', { class: 'scan-printing__code', text: p.printed }),
+  el('span', { class: 'scan-printing__set', text: setInfo(p.set).name }),
+  p.set === options.prefer ? el('small', { text: 'This set' }) : started.has(p.set) ? el('small', { text: 'You collect it' }) : null));
+  const more = shown.length < order.length ? el('button', {
+    type: 'button',
+    class: 'btn btn--ghost btn--sm',
+    onclick() {
+      state.allPrintings = true;
+      renderPanel();
+    },
+  }, `Show all ${order.length}`) : null;
+  return {
+    input,
+    node: el('section', { class: 'scan-printings' },
+      el('h4', { class: 'scan-printings__title', text: `Which printing? This artwork is in ${order.length} sets` }),
+      input,
+      el('div', { class: 'scan-printings__list', role: 'group', 'aria-label': 'Printings' }, ...rows),
+      more),
+  };
 }
 
 async function renderPanel() {
   const state = view;
   const candidate = state.list[state.selected];
+  const set = setOf(candidate);
+  const pickAt = candidate.pick;
   const picks = state.list.length > 1
     ? el('div', { class: 'scan-picks', role: 'group', 'aria-label': 'Possible matches' }, ...state.list.map((c, i) => el('button', {
       type: 'button',
@@ -298,18 +402,20 @@ async function renderPanel() {
       onclick() {
         state.selected = i;
         state.variant = null;
+        state.allPrintings = false;
         renderPanel();
       },
     }, el('img', { src: c.image, alt: '', loading: 'lazy', decoding: 'async' }),
     el('span', { class: 'scan-pick__name', text: c.name }),
-    el('span', { class: 'scan-pick__set', text: `${setInfo(c.set).code || setInfo(c.set).name} · ${c.printed}` }))))
+    el('span', { class: 'scan-pick__set', text: `${setInfo(setOf(c)).code || setInfo(setOf(c)).name} · ${printedOf(c)}` }))))
     : null;
 
+  const printings = printingPicker(state, candidate);
   const detail = el('div', { class: 'scan-detail' },
     el('img', { class: 'scan-detail__img', src: candidate.image, alt: '' }),
     el('div', { class: 'scan-detail__text' },
       el('p', { class: 'scan-detail__name', text: candidate.name }),
-      el('p', { class: 'scan-detail__set', text: `${setInfo(candidate.set).name} · ${candidate.printed}` }),
+      el('p', { class: 'scan-detail__set', text: `${setInfo(set).name} · ${printedOf(candidate)}` }),
       el('div', { class: 'scan-detail__variants', 'data-scan': 'variants' }, el('span', { class: 'hint hint--small', text: 'Loading…' })),
       el('p', { class: 'scan-detail__owned', 'data-scan': 'owned' }),
       el('p', { class: 'scan-detail__price', 'data-scan': 'price', hidden: true })));
@@ -331,26 +437,36 @@ async function renderPanel() {
       state.hint ? el('p', { class: 'hint hint--small', text: state.hint }) : null),
     picks,
     detail,
+    printings.node || null,
     el('div', { class: 'scan-panel__foot' },
       el('button', { type: 'button', class: 'btn btn--ghost', onclick: () => openSearch() }, icon('i-search'), 'Search'),
       wider,
       el('button', { type: 'button', class: 'btn btn--ghost', onclick: resume }, 'Scan again'),
       add,
       trade ? el('div', { class: 'scan-trade' }, ...sides) : null)));
-  speak(`${state.title}. ${candidate.name}, ${setInfo(candidate.set).name}, ${candidate.printed}`);
+  if (state.focusCode && printings.input) {
+    state.focusCode = false;
+    printings.input.focus();
+    printings.input.setSelectionRange(printings.input.value.length, printings.input.value.length);
+  }
+  speak(`${state.title}. ${candidate.name}, ${setInfo(set).name}, ${printedOf(candidate)}`);
 
   let found;
   let prices;
   try {
-    [found, prices] = await Promise.all([variantsFor(candidate), fetchPrices(candidate.set)]);
+    [found, prices] = await Promise.all([variantsFor(candidate), fetchPrices(set)]);
   } catch {
     if (view !== state) return;
     panel.querySelector('[data-scan="variants"]').replaceChildren(el('span', { class: 'hint hint--small', text: 'Connect to the internet to add cards from this set for the first time.' }));
     return;
   }
-  if (view !== state || state.list[state.selected] !== candidate) return;
-  const counts = storage.readCounts(candidate.set);
-  const labelOf = (card) => card.variant || REGULAR;
+  if (view !== state || state.list[state.selected] !== candidate || candidate.pick !== pickAt) return;
+  if (!found.cards.length) {
+    panel.querySelector('[data-scan="variants"]').replaceChildren(el('span', { class: 'hint hint--small', text: 'This printing isn’t in the checklist any more. Pick another one, or search.' }));
+    return;
+  }
+  const counts = storage.readCounts(set);
+  const labelOf = versionLabel;
   if (!state.variant || !found.cards.some((c) => c.id === state.variant)) {
     state.variant = (found.cards.find((c) => labelOf(c) === lastVariant) || found.cards.find((c) => !c.variant) || found.cards[0]).id;
   }
@@ -362,7 +478,7 @@ async function renderPanel() {
     const n = counts[card.id] || 0;
     const which = found.cards.length > 1 ? `the ${labelOf(card)} version` : 'this card';
     if (trade) {
-      const ctx = { set: candidate.set, card, model: found.model };
+      const ctx = { set, card, model: found.model };
       owned.replaceChildren(...trade.status(ctx).map((line) => el('span', { class: 'scan-status', text: line })));
       const suggest = trade.suggest(ctx);
       for (const b of sides) b.className = `btn ${b.dataset.side === suggest ? 'btn--primary' : 'btn--ghost'}`;
@@ -445,35 +561,34 @@ async function undoEntry(entry) {
 async function addSelected(button) {
   const state = view;
   const card = state.found.model.cardById.get(state.variant);
-  const candidate = state.list[state.selected];
+  const set = setOf(state.list[state.selected]);
   button.disabled = true;
-  const result = await writeOne(candidate.set, card.id, 1);
+  const result = await writeOne(set, card.id, 1);
   if (!result) {
     button.disabled = false;
-    flash(candidate.set === options.prefer && options.current
+    flash(set === options.prefer && options.current
       ? 'You’re viewing a shared collection. Close the scanner and exit it to add cards to your own.'
       : 'Couldn’t save. Your browser may be blocking storage.');
     return;
   }
-  const label = card.variant || REGULAR;
-  lastVariant = label;
-  const what = `${card.name}${card.variant ? ` (${card.variant})` : ''}`;
+  lastVariant = versionLabel(card);
+  const what = cardTitle(card);
   if (result.to === result.from) {
     flash(`You already have ${result.from} copies of ${what}, the most this site counts.`);
     resume();
     return;
   }
-  const entry = { set: candidate.set, cardId: card.id, name: what, setName: setInfo(candidate.set).name, from: result.from, to: result.to };
+  const entry = { set, cardId: card.id, name: what, setName: setInfo(set).name, from: result.from, to: result.to };
   session.unshift(entry);
   updateTally();
   options.onSaved?.();
   storage.requestPersistence();
   vibrate(result.from ? 12 : [12, 60, 12]);
-  const counts = storage.readCounts(candidate.set);
+  const counts = storage.readCounts(set);
   const other = state.found.cards.find((c) => c.id !== card.id && counts[c.id]);
   const message = result.from
     ? `Duplicate: ${what}. You now have ${result.to}.`
-    : `New card! ${what}, ${entry.setName}${other ? `. You already have the ${other.variant || REGULAR} version` : ''}.`;
+    : `New card! ${what}, ${entry.setName}${other ? `. You already have the ${versionLabel(other)} version` : ''}.`;
   flash(message, { iconId: result.from ? 'i-stack' : 'i-sparkle', undo: () => undoEntry(entry) });
   resume();
 }
@@ -481,12 +596,11 @@ async function addSelected(button) {
 function pickSelected(side) {
   const state = view;
   const card = state.found.model.cardById.get(state.variant);
-  const candidate = state.list[state.selected];
-  const ctx = { set: candidate.set, card, model: state.found.model, side };
+  const ctx = { set: setOf(state.list[state.selected]), card, model: state.found.model, side };
   const qty = options.trade.add(ctx);
   const { doing, iconId } = SIDES.find((s) => s.side === side);
-  lastVariant = card.variant || REGULAR;
-  const what = `${card.name}${card.variant ? ` (${card.variant})` : ''}`;
+  lastVariant = versionLabel(card);
+  const what = cardTitle(card);
   updateTally();
   vibrate(12);
   flash(`${doing} ${what}${qty > 1 ? ` ×${qty}` : ''}`, {
@@ -499,22 +613,28 @@ function pickSelected(side) {
   resume();
 }
 
+function searchWhere(row, text) {
+  const printing = printingOf(row);
+  if (row.order?.length > 1 && !printing.codes.includes(codeKey(text))) return `${row.order.length} sets · ${printing.printed}`;
+  return `${setInfo(setOf(row)).name} · ${printedOf(row)}`;
+}
+
 function openSearch(initial = '') {
-  const input = el('input', { type: 'search', class: 'input', placeholder: 'Card name or number, e.g. Pikachu or 025/165', autocomplete: 'off', enterkeyhint: 'search' });
+  const input = el('input', { type: 'search', class: 'input', placeholder: gameRules().SCAN_SEARCH || 'Card name or number', autocomplete: 'off', enterkeyhint: 'search' });
   const results = el('div', { class: 'scan-search__results', role: 'list' });
   const heading = el('h3', { class: 'scan-panel__title' });
   const run = () => {
     const name = scoped() ? scopeName() : null;
     heading.textContent = name ? `Search ${name}` : 'Search every set';
     input.setAttribute('aria-label', heading.textContent);
-    const rows = search(matcher, input.value, { within: within() });
+    const rows = search(matcher, input.value, { within: within() }).map((row) => withCode(row, input.value));
     results.replaceChildren(...rows.map((row) => el('button', {
       type: 'button',
       class: 'scan-search__row',
       role: 'listitem',
       onclick: () => openPanel({ title: 'Is it this card?', hint: '', list: [row], selected: 0 }),
     }, el('img', { src: row.image, alt: '', loading: 'lazy', decoding: 'async' }),
-    el('span', {}, el('b', { text: row.name }), el('small', { text: `${setInfo(row.set).name} · ${row.printed}` })))));
+    el('span', {}, el('b', { text: row.name }), el('small', { text: searchWhere(row, input.value) })))));
     if (input.value.trim() && !rows.length) {
       results.append(el('p', { class: 'hint', text: name
         ? `No ${name} cards match. Try All sets, another spelling, or the number printed on the card.`
@@ -605,6 +725,16 @@ function wire() {
 
 let wired = false;
 
+function useGame(next) {
+  if (game !== next) {
+    game = next;
+    matcher = null;
+  }
+  dlg.dataset.game = game;
+  if (matcher) ready();
+  else prepareMatcher();
+}
+
 export function openScanner(opts = {}) {
   options = opts;
   heading.textContent = opts.title || 'Scan a card';
@@ -616,11 +746,48 @@ export function openScanner(opts = {}) {
   setPanel(false);
   updateTally();
   renderScope();
+  const fixed = opts.game || opts.prefer?.split('/')[0];
+  if (fixed) {
+    loadCatalog().then((c) => {
+      catalog = c;
+      renderScope();
+    }, () => {});
+    useGame(fixed);
+    startCamera();
+    return;
+  }
+  shutter.disabled = true;
   loadCatalog().then((c) => {
     catalog = c;
-    renderScope();
-  }, () => {});
-  if (matcher) ready();
-  else prepareMatcher();
-  startCamera();
+    const games = (c.games || []).filter((g) => GAMES[g.id]);
+    if (games.length > 1) chooseGame(games);
+    else {
+      useGame(games[0]?.id || Object.keys(GAMES)[0]);
+      startCamera();
+    }
+  }, () => {
+    useGame(Object.keys(GAMES)[0]);
+    startCamera();
+  });
+}
+
+function chooseGame(games) {
+  view = { chooser: true };
+  setPanel(true);
+  say('');
+  panel.replaceChildren(el('div', { class: 'scan-panel scan-games' },
+    el('header', { class: 'scan-panel__head' },
+      el('h3', { class: 'scan-panel__title', text: 'Which game is the card from?' }),
+      el('p', { class: 'hint hint--small', text: 'Each game has its own card recogniser, so choosing first keeps the matches accurate.' })),
+    el('div', { class: 'scan-games__list' }, ...games.map((g) => el('button', {
+      type: 'button',
+      class: 'scan-game',
+      onclick() {
+        heading.textContent = options.title || `Scan a ${GAMES[g.id].shortName} card`;
+        setPanel(false);
+        useGame(g.id);
+        startCamera();
+      },
+    }, g.logo ? el('img', { class: 'scan-game__logo', src: asset(g.logo), alt: '' }) : null, el('span', { class: 'scan-game__name', text: g.name })))),
+    el('div', { class: 'scan-panel__foot' }, el('button', { type: 'button', class: 'btn btn--ghost', onclick: () => closeDialog(dlg) }, 'Cancel'))));
 }

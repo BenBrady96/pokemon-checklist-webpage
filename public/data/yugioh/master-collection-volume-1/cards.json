@@ -1,0 +1,66 @@
+{
+  "id": "yugioh/master-collection-volume-1",
+  "game": "yugioh",
+  "slug": "master-collection-volume-1",
+  "name": "Master Collection Volume 1",
+  "series": "Duel Monsters",
+  "kind": "set",
+  "code": "MC1",
+  "syncKey": "YMC1",
+  "released": "2004-12-01",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Main Set",
+      "range": "MC1-EN001–MC1-EN006",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from MC1-EN001 to MC1-EN006."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Master Collection Volume 1 Checklist · All 6 Cards",
+    "description": "Free Yu-Gi-Oh! Master Collection Volume 1 checklist with no ads, no sign-up and no tracking. Track all 6 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Master Collection Volume 1 Checklist",
+    "ogDescription": "Track all 6 cards in Yu-Gi-Oh! Master Collection Volume 1. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 6 cards in Yu-Gi-Oh! Master Collection Volume 1. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About the Master Collection Volume 1 set",
+    "paragraphs": [
+      "Master Collection Volume 1 is a Yu-Gi-Oh! TCG special set released on 1 December 2004, in the Duel Monsters era. It has 6 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Master Collection Volume 1"
+    ],
+    "tcgplayer": [
+      251
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"MC1-EN001","name":"Exodia the Forbidden One","ctype":"monster","keywords":"Exodia Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Spellcaster / Effect","atk":1000,"def":1000},"rarity":"ScR","img":"33396948","code":"1","tcg":25374,"grp":251,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"MC1-EN002","name":"Barrel Dragon","ctype":"monster","keywords":"Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Machine / Effect","atk":2600,"def":2200},"rarity":"ScR","img":"81480461","code":"2","tcg":25375,"grp":251,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"MC1-EN003","name":"Relinquished","ctype":"monster","keywords":"Eyes Restrict Spellcaster DARK Ritual Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Spellcaster / Ritual / Effect","atk":0,"def":0},"rarity":"ScR","img":"64631466","code":"3","tcg":25376,"grp":251,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"MC1-EN004","name":"Thousand-Eyes Restrict","ctype":"monster","keywords":"Eyes Restrict Spellcaster DARK Fusion Monster","stats":{"a":"DARK","l":"Level 1","t":"Spellcaster / Fusion","atk":0,"def":0},"rarity":"ScR","img":"63519819","code":"4","tcg":25377,"grp":251,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"MC1-EN005","name":"Dark Necrofear","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Fiend / Effect","atk":2200,"def":2800},"rarity":"ScR","img":"31829185","code":"5","tcg":25378,"grp":251,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"MC1-EN006","name":"Dark Ruler Ha Des","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Fiend / Effect","atk":2450,"def":1600},"rarity":"ScR","img":"53982768","code":"6","tcg":25379,"grp":251,"idx":5}
+  ]
+}

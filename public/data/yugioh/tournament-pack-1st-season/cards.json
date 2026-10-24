@@ -1,0 +1,90 @@
+{
+  "id": "yugioh/tournament-pack-1st-season",
+  "game": "yugioh",
+  "slug": "tournament-pack-1st-season",
+  "name": "Tournament Pack: 1st Season",
+  "series": "Duel Monsters",
+  "kind": "pack",
+  "code": "TP1",
+  "syncKey": "YTP1",
+  "released": "2002-09-01",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "TP1-001–TP1-030",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from TP1-001 to TP1-030."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Tournament Pack: 1st Season Checklist · All 30 Cards",
+    "description": "Free Yu-Gi-Oh! Tournament Pack: 1st Season checklist with no ads, no sign-up and no tracking. Track all 30 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Tournament Pack: 1st Season Checklist",
+    "ogDescription": "Track all 30 cards in Yu-Gi-Oh! Tournament Pack: 1st Season. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 30 cards in Yu-Gi-Oh! Tournament Pack: 1st Season. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Tournament Pack: 1st Season",
+    "paragraphs": [
+      "Tournament Pack: 1st Season is a Yu-Gi-Oh! TCG pack released on 1 September 2002, in the Duel Monsters era. It has 30 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Tournament Pack: 1st Season"
+    ],
+    "tcgplayer": [
+      333
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"TP1-001","name":"Mechanicalchaser","ctype":"monster","keywords":"Machine DARK Normal Monster TP1-E001","stats":{"a":"DARK","l":"Level 4","t":"Machine / Normal","atk":1850,"def":800},"rarity":"UR","img":"7359741","code":"1","tcg":22960,"grp":333,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"TP1-002","name":"Axe Raider","ctype":"monster","keywords":"Warrior EARTH Normal Monster TP1-E002","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Normal","atk":1700,"def":1150},"rarity":"SR","img":"48305365","code":"2","tcg":22961,"grp":333,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"TP1-003","name":"Kwagar Hercules","ctype":"monster","keywords":"Insect EARTH Fusion Monster TP1-E003","stats":{"a":"EARTH","l":"Level 6","t":"Insect / Fusion","atk":1900,"def":1700},"rarity":"SR","img":"95144193","code":"3","tcg":22962,"grp":333,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"TP1-004","name":"Patrol Robo","ctype":"monster","keywords":"Machine EARTH Effect Monster TP1-E004","stats":{"a":"EARTH","l":"Level 3","t":"Machine / Effect","atk":1100,"def":900},"rarity":"SR","img":"76775123","code":"4","tcg":22963,"grp":333,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"TP1-005","name":"White Hole","ctype":"trap","keywords":"Hole Normal Trap TP1-E005","stats":{"t":"Normal Trap"},"rarity":"SR","img":"43487744","code":"5","tcg":22964,"grp":333,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"TP1-006","name":"Elf's Light","ctype":"spell","keywords":"Equip Spell TP1-E006","stats":{"t":"Equip Spell"},"rarity":"R","img":"39897277","code":"6","tcg":22965,"grp":333,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"TP1-007","name":"Steel Shell","ctype":"spell","keywords":"Equip Spell TP1-E007","stats":{"t":"Equip Spell"},"rarity":"R","img":"2370081","code":"7","tcg":22966,"grp":333,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"TP1-008","name":"Blue Medicine","ctype":"spell","keywords":"Normal Spell TP1-E008","stats":{"t":"Normal Spell"},"rarity":"R","img":"20871001","code":"8","tcg":22967,"grp":333,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"TP1-009","name":"Raimei","ctype":"spell","keywords":"Normal Spell TP1-E009","stats":{"t":"Normal Spell"},"rarity":"R","img":"56260110","code":"9","tcg":22968,"grp":333,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"TP1-010","name":"Burning Spear","ctype":"spell","keywords":"Equip Spell TP1-E010","stats":{"t":"Equip Spell"},"rarity":"R","img":"18937875","code":"10","tcg":22969,"grp":333,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"TP1-011","name":"Gust Fan","ctype":"spell","keywords":"Equip Spell TP1-E011","stats":{"t":"Equip Spell"},"rarity":"R","img":"55321970","code":"11","tcg":22970,"grp":333,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"TP1-012","name":"Tiger Axe","ctype":"monster","keywords":"Beast-Warrior EARTH Normal Monster TP1-E012","stats":{"a":"EARTH","l":"Level 4","t":"Beast-Warrior / Normal","atk":1300,"def":1100},"rarity":"R","img":"49791927","code":"12","tcg":22971,"grp":333,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"TP1-013","name":"Goddess with the Third Eye","ctype":"monster","keywords":"Fairy LIGHT Effect Monster TP1-E013","stats":{"a":"LIGHT","l":"Level 4","t":"Fairy / Effect","atk":1200,"def":1000},"rarity":"R","img":"53493204","code":"13","tcg":22972,"grp":333,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"TP1-014","name":"Beastking of the Swamps","ctype":"monster","keywords":"Aqua WATER Effect Monster TP1-E014","stats":{"a":"WATER","l":"Level 4","t":"Aqua / Effect","atk":1000,"def":1100},"rarity":"R","img":"99426834","code":"14","tcg":22973,"grp":333,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"TP1-015","name":"Versago the Destroyer","ctype":"monster","keywords":"Fiend DARK Effect Monster TP1-E015","stats":{"a":"DARK","l":"Level 3","t":"Fiend / Effect","atk":1100,"def":900},"rarity":"R","img":"50259460","code":"15","tcg":22974,"grp":333,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"TP1-016","name":"Wattkid","ctype":"monster","keywords":"Watt Thunder LIGHT Normal Monster TP1-E016","stats":{"a":"LIGHT","l":"Level 3","t":"Thunder / Normal","atk":1000,"def":500},"rarity":"C","img":"27324313","code":"16","tcg":22707,"grp":333,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"TP1-017","name":"Giant Flea","ctype":"monster","keywords":"Insect EARTH Normal Monster TP1-E017","stats":{"a":"EARTH","l":"Level 4","t":"Insect / Normal","atk":1500,"def":1200},"rarity":"C","img":"41762634","code":"17","tcg":22708,"grp":333,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"TP1-018","name":"Bean Soldier","ctype":"monster","keywords":"Plant EARTH Normal Monster TP1-E018","stats":{"a":"EARTH","l":"Level 4","t":"Plant / Normal","atk":1400,"def":1300},"rarity":"C","img":"84990171","code":"18","tcg":22709,"grp":333,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"TP1-019","name":"The Statue of Easter Island","ctype":"monster","keywords":"Rock EARTH Normal Monster TP1-E019","stats":{"a":"EARTH","l":"Level 4","t":"Rock / Normal","atk":1100,"def":1400},"rarity":"C","img":"10262698","code":"19","tcg":22710,"grp":333,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"TP1-020","name":"Corroding Shark","ctype":"monster","keywords":"Shark Zombie DARK Normal Monster TP1-E020","stats":{"a":"DARK","l":"Level 3","t":"Zombie / Normal","atk":1100,"def":700},"rarity":"C","img":"34290067","code":"20","tcg":22711,"grp":333,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"TP1-021","name":"Wow Warrior","ctype":"monster","keywords":"Fish WATER Normal Monster TP1-E021","stats":{"a":"WATER","l":"Level 4","t":"Fish / Normal","atk":1250,"def":900},"rarity":"C","img":"69750536","code":"21","tcg":22712,"grp":333,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"TP1-022","name":"Winged Dragon, Guardian of the Fortress #2","ctype":"monster","keywords":"Winged Beast WIND Normal Monster TP1-E022","stats":{"a":"WIND","l":"Level 4","t":"Winged Beast / Normal","atk":1200,"def":1000},"rarity":"C","img":"57405307","code":"22","tcg":22713,"grp":333,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"TP1-023","name":"Oscillo Hero","ctype":"monster","keywords":"Warrior EARTH Normal Monster TP1-E023","stats":{"a":"EARTH","l":"Level 3","t":"Warrior / Normal","atk":1250,"def":700},"rarity":"C","img":"82065276","code":"23","tcg":22714,"grp":333,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"TP1-024","name":"Shining Friendship","ctype":"monster","keywords":"Fairy LIGHT Normal Monster TP1-E024","stats":{"a":"LIGHT","l":"Level 4","t":"Fairy / Normal","atk":1300,"def":1100},"rarity":"C","img":"82085619","code":"24","tcg":22715,"grp":333,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"TP1-025","name":"Hercules Beetle","ctype":"monster","keywords":"Insect EARTH Normal Monster TP1-E025","stats":{"a":"EARTH","l":"Level 5","t":"Insect / Normal","atk":1500,"def":2000},"rarity":"C","img":"52584282","code":"25","tcg":22716,"grp":333,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"TP1-026","name":"The Judgement Hand","ctype":"monster","keywords":"Warrior EARTH Normal Monster TP1-E026","stats":{"a":"EARTH","l":"Level 3","t":"Warrior / Normal","atk":1400,"def":700},"rarity":"C","img":"28003512","code":"26","tcg":22717,"grp":333,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"TP1-027","name":"Wodan the Resident of the Forest","ctype":"monster","keywords":"Warrior EARTH Effect Monster TP1-E027","stats":{"a":"EARTH","l":"Level 3","t":"Warrior / Effect","atk":900,"def":1200},"rarity":"C","img":"42883273","code":"27","tcg":22718,"grp":333,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"TP1-028","name":"Cyber Soldier of Darkworld","ctype":"monster","keywords":"Machine DARK Normal Monster TP1-E028","stats":{"a":"DARK","l":"Level 4","t":"Machine / Normal","atk":1400,"def":1200},"rarity":"C","img":"75559356","code":"28","tcg":22719,"grp":333,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"TP1-029","name":"Cockroach Knight","ctype":"monster","keywords":"Insect EARTH Effect Monster TP1-E029","stats":{"a":"EARTH","l":"Level 3","t":"Insect / Effect","atk":800,"def":900},"rarity":"C","img":"33413638","code":"29","tcg":22720,"grp":333,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"TP1-030","name":"Kuwagata α","ctype":"monster","keywords":"Insect EARTH Normal Monster TP1-E030","stats":{"a":"EARTH","l":"Level 4","t":"Insect / Normal","atk":1250,"def":1000},"rarity":"C","img":"60802233","code":"30","tcg":22721,"grp":333,"idx":29}
+  ]
+}

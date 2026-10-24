@@ -1,0 +1,66 @@
+{
+  "id": "yugioh/collectible-tins-2004",
+  "game": "yugioh",
+  "slug": "collectible-tins-2004",
+  "name": "Collectible Tins 2004",
+  "series": "Duel Monsters",
+  "kind": "tin",
+  "code": "CT1",
+  "syncKey": "YCT1",
+  "released": "2004-09-01",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "CT1-EN001–CT1-EN006",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from CT1-EN001 to CT1-EN006."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Collectible Tins 2004 Checklist · All 6 Cards",
+    "description": "Free Yu-Gi-Oh! Collectible Tins 2004 checklist with no ads, no sign-up and no tracking. Track all 6 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Collectible Tins 2004 Checklist",
+    "ogDescription": "Track all 6 cards in Yu-Gi-Oh! Collectible Tins 2004. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 6 cards in Yu-Gi-Oh! Collectible Tins 2004. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Collectible Tins 2004",
+    "paragraphs": [
+      "Collectible Tins 2004 is a Yu-Gi-Oh! TCG tin released on 1 September 2004, in the Duel Monsters era. It has 6 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Collectible Tins 2004"
+    ],
+    "tcgplayer": [
+      127
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"CT1-EN001","name":"Total Defense Shogun","ctype":"monster","keywords":"Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Warrior / Effect","atk":1550,"def":2500},"rarity":"ScR","img":"75372290","code":"1","tcg":23340,"grp":127,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"CT1-EN002","name":"Blade Knight","ctype":"monster","keywords":"Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Effect","atk":1600,"def":1000},"rarity":"ScR","img":"39507162","code":"2","tcg":23341,"grp":127,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"CT1-EN003","name":"Command Knight","ctype":"monster","keywords":"Warrior FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Warrior / Effect","atk":1200,"def":1900},"rarity":"ScR","img":"10375182","code":"3","tcg":23342,"grp":127,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"CT1-EN004","name":"Swift Gaia the Fierce Knight","ctype":"monster","keywords":"Gaia The Fierce Knight Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Warrior / Effect","atk":2300,"def":2100},"rarity":"ScR","img":"16589042","code":"4","tcg":23343,"grp":127,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"CT1-EN005","name":"Insect Queen","ctype":"monster","keywords":"Insect EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 7","t":"Insect / Effect","atk":2200,"def":2400},"rarity":"ScR","img":"91512835","code":"5","tcg":23344,"grp":127,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"CT1-EN006","name":"Obnoxious Celtic Guard","ctype":"monster","keywords":"Celtic Guard Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Effect","atk":1400,"def":1200},"rarity":"ScR","img":"52077741","code":"6","tcg":23345,"grp":127,"idx":5}
+  ]
+}

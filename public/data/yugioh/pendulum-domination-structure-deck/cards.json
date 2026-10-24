@@ -1,0 +1,103 @@
+{
+  "id": "yugioh/pendulum-domination-structure-deck",
+  "game": "yugioh",
+  "slug": "pendulum-domination-structure-deck",
+  "name": "Pendulum Domination Structure Deck",
+  "series": "ARC-V",
+  "kind": "deck",
+  "code": "SDPD",
+  "syncKey": "YSDPD",
+  "released": "2017-01-19",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "SDPD-EN001–SDPD-EN043",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from SDPD-EN001 to SDPD-EN043."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Pendulum Domination Structure Deck Checklist · All 43 Cards",
+    "description": "Free Yu-Gi-Oh! Pendulum Domination Structure Deck checklist with no ads, no sign-up and no tracking. Track all 43 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Pendulum Domination Structure Deck Checklist",
+    "ogDescription": "Track all 43 cards in Yu-Gi-Oh! Pendulum Domination Structure Deck. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 43 cards in Yu-Gi-Oh! Pendulum Domination Structure Deck. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Pendulum Domination Structure Deck",
+    "paragraphs": [
+      "Pendulum Domination Structure Deck is a Yu-Gi-Oh! TCG deck released on 19 January 2017, in the ARC-V era. It has 43 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Pendulum Domination Structure Deck"
+    ],
+    "tcgplayer": [
+      1878
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"SDPD-EN001","name":"D/D/D Chaos King Apocalypse","ctype":"monster","keywords":"D/D Fiend DARK Pendulum Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Fiend / Pendulum / Effect","atk":2700,"def":2000},"rarity":"UR","img":"83303851","code":"1","tcg":127023,"grp":1878,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"SDPD-EN002","name":"D/D Savant Newton","ctype":"monster","keywords":"D/D Fiend DARK Pendulum Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Fiend / Pendulum / Effect","atk":0,"def":0},"rarity":"C","img":"19302550","code":"2","tcg":127024,"grp":1878,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"SDPD-EN003","name":"D/D Savant Copernicus","ctype":"monster","keywords":"D/D Fiend DARK Pendulum Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Pendulum / Effect","atk":0,"def":0},"rarity":"C","img":"46796664","code":"3","tcg":127025,"grp":1878,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"SDPD-EN004","name":"D/D Orthros","ctype":"monster","keywords":"D/D Fiend DARK Pendulum Tuner Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Pendulum / Tuner / Effect","atk":600,"def":1800},"rarity":"SR","img":"72181263","code":"4","tcg":127026,"grp":1878,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"SDPD-EN005","name":"D/D Lamia","ctype":"monster","keywords":"D/D Fiend DARK Tuner Monster","stats":{"a":"DARK","l":"Level 1","t":"Fiend / Tuner","atk":100,"def":1900},"rarity":"SR","img":"19580308","code":"5","tcg":127027,"grp":1878,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"SDPD-EN006","name":"D/D/D Doom King Armageddon","ctype":"monster","keywords":"D/D Fiend DARK Pendulum Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Fiend / Pendulum / Effect","atk":3000,"def":1000},"rarity":"C","img":"47198668","code":"6","tcg":127028,"grp":1878,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"SDPD-EN007","name":"D/D Cerberus","ctype":"monster","keywords":"D/D Fiend DARK Pendulum Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Pendulum / Effect","atk":1800,"def":600},"rarity":"C","img":"39153655","code":"7","tcg":127029,"grp":1878,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"SDPD-EN008","name":"D/D Lilith","ctype":"monster","keywords":"D/D Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Effect","atk":100,"def":2100},"rarity":"C","img":"12822541","code":"8","tcg":127030,"grp":1878,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"SDPD-EN009","name":"D/D Nighthowl","ctype":"monster","keywords":"D/D Fiend DARK Tuner Monster","stats":{"a":"DARK","l":"Level 3","t":"Fiend / Tuner","atk":300,"def":600},"rarity":"C","img":"48210156","code":"9","tcg":127031,"grp":1878,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"SDPD-EN010","name":"D/D Savant Galilei","ctype":"monster","keywords":"D/D Fiend DARK Pendulum Effect Monster","stats":{"a":"DARK","l":"Level 10","t":"Fiend / Pendulum / Effect","atk":0,"def":0},"rarity":"C","img":"74605254","code":"10","tcg":127032,"grp":1878,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"SDPD-EN011","name":"D/D Savant Kepler","ctype":"monster","keywords":"D/D Fiend DARK Pendulum Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Fiend / Pendulum / Effect","atk":0,"def":0},"rarity":"C","img":"11609969","code":"11","tcg":127033,"grp":1878,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"SDPD-EN012","name":"D/D/D Oblivion King Abyss Ragnarok","ctype":"monster","keywords":"D/D Fiend DARK Pendulum Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Fiend / Pendulum / Effect","atk":2200,"def":3000},"rarity":"C","img":"74069667","code":"12","tcg":127034,"grp":1878,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"SDPD-EN013","name":"D/D/D Supreme King Kaiser","ctype":"monster","keywords":"D/D Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Fiend / Effect","atk":2800,"def":2100},"rarity":"C","img":"44186624","code":"13","tcg":127035,"grp":1878,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"SDPD-EN014","name":"D/D Proud Ogre","ctype":"monster","keywords":"D/D Fiend DARK Pendulum Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Fiend / Pendulum / Effect","atk":2300,"def":1500},"rarity":"C","img":"81571633","code":"14","tcg":127036,"grp":1878,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"SDPD-EN015","name":"D/D Proud Chevalier","ctype":"monster","keywords":"D/D Fiend DARK Pendulum Effect Monster","stats":{"a":"DARK","l":"Level 5","t":"Fiend / Pendulum / Effect","atk":2000,"def":700},"rarity":"C","img":"17979378","code":"15","tcg":127037,"grp":1878,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"SDPD-EN016","name":"Dark Armed Dragon","ctype":"monster","keywords":"Armed Dragon Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Dragon / Effect","atk":2800,"def":1000},"rarity":"C","img":"65192027","code":"16","tcg":127038,"grp":1878,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"SDPD-EN017","name":"Dark Grepher","ctype":"monster","keywords":"Grepher Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Warrior / Effect","atk":1700,"def":1600},"rarity":"C","img":"14536035","code":"17","tcg":127039,"grp":1878,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"SDPD-EN018","name":"Armageddon Knight","ctype":"monster","keywords":"Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Warrior / Effect","atk":1400,"def":1200},"rarity":"C","img":"28985331","code":"18","tcg":127040,"grp":1878,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"SDPD-EN019","name":"Trance Archfiend","ctype":"monster","keywords":"Archfiend Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Effect","atk":1500,"def":500},"rarity":"C","img":"94283662","code":"19","tcg":127041,"grp":1878,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"SDPD-EN020","name":"Kuribandit","ctype":"monster","keywords":"Kuriboh Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Fiend / Effect","atk":1000,"def":700},"rarity":"C","img":"16404809","code":"20","tcg":127042,"grp":1878,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"SDPD-EN021","name":"Stygian Street Patrol","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Effect","atk":1600,"def":1200},"rarity":"C","img":"13521194","code":"21","tcg":127043,"grp":1878,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"SDPD-EN022","name":"Stygian Security","ctype":"monster","keywords":"Fiend DARK Tuner Monster","stats":{"a":"DARK","l":"Level 1","t":"Fiend / Tuner","atk":100,"def":600},"rarity":"C","img":"50732780","code":"22","tcg":127044,"grp":1878,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"SDPD-EN023","name":"Dark Contract with the Yamimakai","ctype":"spell","keywords":"D/D Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"45974017","code":"23","tcg":127045,"grp":1878,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"SDPD-EN024","name":"Dark Contract with the Gate","ctype":"spell","keywords":"D/D Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"46372010","code":"24","tcg":127046,"grp":1878,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"SDPD-EN025","name":"Dark Contract with the Swamp King","ctype":"spell","keywords":"D/D Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"73360025","code":"25","tcg":127047,"grp":1878,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"SDPD-EN026","name":"Forbidden Dark Contract with the Swamp King","ctype":"spell","keywords":"D/D Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"10833828","code":"26","tcg":127048,"grp":1878,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"SDPD-EN027","name":"Foolish Burial","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"81439174","code":"27","tcg":127049,"grp":1878,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"SDPD-EN028","name":"One for One","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"2295440","code":"28","tcg":127050,"grp":1878,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"SDPD-EN029","name":"Allure of Darkness","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"1475311","code":"29","tcg":127051,"grp":1878,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"SDPD-EN030","name":"Dark Eruption","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"674561","code":"30","tcg":127052,"grp":1878,"idx":29},
+    {"id":"031","section":"main","num":"031","printed":"SDPD-EN031","name":"Emergency Provisions","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"53046408","code":"31","tcg":127053,"grp":1878,"idx":30},
+    {"id":"032","section":"main","num":"032","printed":"SDPD-EN032","name":"D/D Reroll","ctype":"trap","keywords":"D/D Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"71069715","code":"32","tcg":127054,"grp":1878,"idx":31},
+    {"id":"033","section":"main","num":"033","printed":"SDPD-EN033","name":"D/D Recruits","ctype":"trap","keywords":"D/D Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"8643186","code":"33","tcg":127055,"grp":1878,"idx":32},
+    {"id":"034","section":"main","num":"034","printed":"SDPD-EN034","name":"D/D/D Human Resources","ctype":"trap","keywords":"D/D Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"72648577","code":"34","tcg":127056,"grp":1878,"idx":33},
+    {"id":"035","section":"main","num":"035","printed":"SDPD-EN035","name":"Dark Contract with the Witch","ctype":"trap","keywords":"D/D Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"9765723","code":"35","tcg":127057,"grp":1878,"idx":34},
+    {"id":"036","section":"main","num":"036","printed":"SDPD-EN036","name":"Dark Contract with Errors","ctype":"trap","keywords":"D/D Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"37209439","code":"36","tcg":127058,"grp":1878,"idx":35},
+    {"id":"037","section":"main","num":"037","printed":"SDPD-EN037","name":"Contract Laundering","ctype":"trap","keywords":"Dark Contract Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"46259438","code":"37","tcg":127059,"grp":1878,"idx":36},
+    {"id":"038","section":"main","num":"038","printed":"SDPD-EN038","name":"Sinister Yorishiro","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"72497366","code":"38","tcg":127060,"grp":1878,"idx":37},
+    {"id":"039","section":"main","num":"039","printed":"SDPD-EN039","name":"Escape from the Dark Dimension","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"31550470","code":"39","tcg":127061,"grp":1878,"idx":38},
+    {"id":"040","section":"main","num":"040","printed":"SDPD-EN040","name":"Hope for Escape","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"80036543","code":"40","tcg":127062,"grp":1878,"idx":39},
+    {"id":"041","section":"main","num":"041","printed":"SDPD-EN041","name":"D/D/D Dragonbane King Beowulf","ctype":"monster","keywords":"D/D Fiend DARK Fusion Monster","stats":{"a":"DARK","l":"Level 8","t":"Fiend / Fusion","atk":3000,"def":2500},"rarity":"UR","img":"8463720","code":"41","tcg":127063,"grp":1878,"idx":40},
+    {"id":"042","section":"main","num":"042","printed":"SDPD-EN042","name":"D/D/D Cursed King Siegfried","ctype":"monster","keywords":"D/D Fiend DARK Synchro Monster","stats":{"a":"DARK","l":"Level 8","t":"Fiend / Synchro","atk":2800,"def":2200},"rarity":"SR","img":"44852429","code":"42","tcg":127064,"grp":1878,"idx":41},
+    {"id":"043","section":"main","num":"043","printed":"SDPD-EN043","name":"D/D/D Wave King Caesar","ctype":"monster","keywords":"D/D Fiend WATER Xyz Monster","stats":{"a":"WATER","l":"Rank 4","t":"Fiend / Xyz","atk":2400,"def":1200},"rarity":"C","img":"3758046","code":"43","tcg":127065,"grp":1878,"idx":42}
+  ]
+}

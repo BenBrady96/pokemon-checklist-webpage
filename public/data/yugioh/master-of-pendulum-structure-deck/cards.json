@@ -1,0 +1,103 @@
+{
+  "id": "yugioh/master-of-pendulum-structure-deck",
+  "game": "yugioh",
+  "slug": "master-of-pendulum-structure-deck",
+  "name": "Master of Pendulum Structure Deck",
+  "series": "ARC-V",
+  "kind": "deck",
+  "code": "SDMP",
+  "syncKey": "YSDMP",
+  "released": "2015-12-03",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "SDMP-EN001–SDMP-EN043",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from SDMP-EN001 to SDMP-EN043."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Master of Pendulum Structure Deck Checklist · All 43 Cards",
+    "description": "Free Yu-Gi-Oh! Master of Pendulum Structure Deck checklist with no ads, no sign-up and no tracking. Track all 43 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Master of Pendulum Structure Deck Checklist",
+    "ogDescription": "Track all 43 cards in Yu-Gi-Oh! Master of Pendulum Structure Deck. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 43 cards in Yu-Gi-Oh! Master of Pendulum Structure Deck. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Master of Pendulum Structure Deck",
+    "paragraphs": [
+      "Master of Pendulum Structure Deck is a Yu-Gi-Oh! TCG deck released on 3 December 2015, in the ARC-V era. It has 43 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Master of Pendulum Structure Deck"
+    ],
+    "tcgplayer": [
+      1674
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"SDMP-EN001","name":"Dragonpulse Magician","ctype":"monster","keywords":"Magician Spellcaster EARTH Pendulum Normal Monster","stats":{"a":"EARTH","l":"Level 4","t":"Spellcaster / Pendulum / Normal","atk":1800,"def":900},"rarity":"C","img":"15146890","code":"1","tcg":108800,"grp":1674,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"SDMP-EN002","name":"Dragonpit Magician","ctype":"monster","keywords":"Magician Spellcaster WATER Pendulum Normal Monster","stats":{"a":"WATER","l":"Level 7","t":"Spellcaster / Pendulum / Normal","atk":900,"def":2700},"rarity":"C","img":"51531505","code":"2","tcg":108801,"grp":1674,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"SDMP-EN003","name":"Nobledragon Magician","ctype":"monster","keywords":"Magician Spellcaster FIRE Pendulum Tuner Effect Monster","stats":{"a":"FIRE","l":"Level 3","t":"Spellcaster / Pendulum / Tuner / Effect","atk":700,"def":1400},"rarity":"SR","img":"88935103","code":"3","tcg":108802,"grp":1674,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"SDMP-EN004","name":"Oafdragon Magician","ctype":"monster","keywords":"Magician Spellcaster WIND Pendulum Effect Monster","stats":{"a":"WIND","l":"Level 6","t":"Spellcaster / Pendulum / Effect","atk":2100,"def":1400},"rarity":"SR","img":"14920218","code":"4","tcg":108803,"grp":1674,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"SDMP-EN005","name":"Wisdom-Eye Magician","ctype":"monster","keywords":"Magician Spellcaster LIGHT Pendulum Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Pendulum / Effect","atk":1500,"def":1500},"rarity":"SR","img":"72714461","code":"5","tcg":108804,"grp":1674,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"SDMP-EN006","name":"Performapal Skullcrobat Joker","ctype":"monster","keywords":"Magician Spellcaster DARK Pendulum Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Pendulum / Effect","atk":1800,"def":100},"rarity":"C","img":"40318957","code":"6","tcg":108805,"grp":1674,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"SDMP-EN007","name":"Stargazer Magician","ctype":"monster","keywords":"Magician Spellcaster DARK Pendulum Effect Monster","stats":{"a":"DARK","l":"Level 5","t":"Spellcaster / Pendulum / Effect","atk":1200,"def":2400},"rarity":"C","img":"94415058","code":"7","tcg":108806,"grp":1674,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"SDMP-EN008","name":"Timegazer Magician","ctype":"monster","keywords":"Magician Spellcaster DARK Pendulum Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Spellcaster / Pendulum / Effect","atk":1200,"def":600},"rarity":"C","img":"20409757","code":"8","tcg":108807,"grp":1674,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"SDMP-EN009","name":"Odd-Eyes Pendulum Dragon","ctype":"monster","keywords":"-Eyes Dragon Dragon DARK Pendulum Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Dragon / Pendulum / Effect","atk":2500,"def":2000},"rarity":"C","img":"16178681","code":"9","tcg":108808,"grp":1674,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"SDMP-EN010","name":"Performapal Silver Claw","ctype":"monster","keywords":"Performapal Beast DARK Pendulum Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Beast / Pendulum / Effect","atk":1800,"def":800},"rarity":"C","img":"26270847","code":"10","tcg":108809,"grp":1674,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"SDMP-EN011","name":"Performapal Salutiger","ctype":"monster","keywords":"Performapal Beast-Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Beast-Warrior / Effect","atk":1700,"def":500},"rarity":"C","img":"44364077","code":"11","tcg":108810,"grp":1674,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"SDMP-EN012","name":"Performapal Trump Witch","ctype":"monster","keywords":"Performapal Spellcaster DARK Pendulum Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Spellcaster / Pendulum / Effect","atk":100,"def":100},"rarity":"C","img":"91584698","code":"12","tcg":108811,"grp":1674,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"SDMP-EN013","name":"Metaphys Armed Dragon","ctype":"monster","keywords":"Armed Dragon Wyrm LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 7","t":"Wyrm / Normal","atk":2800,"def":1000},"rarity":"C","img":"89189982","code":"13","tcg":108812,"grp":1674,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"SDMP-EN014","name":"Chaos Hunter","ctype":"monster","keywords":"Chaos Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Fiend / Effect","atk":2500,"def":1600},"rarity":"C","img":"97940434","code":"14","tcg":108814,"grp":1674,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"SDMP-EN015","name":"Fusilier Dragon, the Dual-Mode Beast","ctype":"monster","keywords":"Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Machine / Effect","atk":2800,"def":2000},"rarity":"C","img":"51632798","code":"15","tcg":108813,"grp":1674,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"SDMP-EN016","name":"Lyla, Lightsworn Sorceress","ctype":"monster","keywords":"Lightsworn Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Effect","atk":1700,"def":200},"rarity":"C","img":"22624373","code":"16","tcg":108815,"grp":1674,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"SDMP-EN017","name":"Fencing Fire Ferret","ctype":"monster","keywords":"Beast FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Beast / Effect","atk":1700,"def":600},"rarity":"C","img":"97396380","code":"17","tcg":108816,"grp":1674,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"SDMP-EN018","name":"Inari Fire","ctype":"monster","keywords":"Pyro FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Pyro / Effect","atk":1500,"def":200},"rarity":"C","img":"62953041","code":"18","tcg":108817,"grp":1674,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"SDMP-EN019","name":"Nefarious Archfiend Eater of Nefariousness","ctype":"monster","keywords":"Archfiend Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Beast / Effect","atk":1500,"def":200},"rarity":"C","img":"60666820","code":"19","tcg":108818,"grp":1674,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"SDMP-EN020","name":"Jigabyte","ctype":"monster","keywords":"Reptile WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Reptile / Effect","atk":1500,"def":200},"rarity":"C","img":"40894584","code":"20","tcg":108819,"grp":1674,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"SDMP-EN021","name":"Goblindbergh","ctype":"monster","keywords":"Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Effect","atk":1400,"def":0},"rarity":"C","img":"25259669","code":"21","tcg":108820,"grp":1674,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"SDMP-EN022","name":"X-Saber Airbellum","ctype":"monster","keywords":"X-Saber Beast EARTH Tuner Monster","stats":{"a":"EARTH","l":"Level 3","t":"Beast / Tuner","atk":1600,"def":200},"rarity":"C","img":"90508760","code":"22","tcg":108821,"grp":1674,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"SDMP-EN023","name":"Magna Drago","ctype":"monster","keywords":"Dragon FIRE Tuner Monster","stats":{"a":"FIRE","l":"Level 2","t":"Dragon / Tuner","atk":1400,"def":600},"rarity":"C","img":"36750412","code":"23","tcg":108822,"grp":1674,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"SDMP-EN024","name":"Re-Cover","ctype":"monster","keywords":"Psychic EARTH Tuner Monster","stats":{"a":"EARTH","l":"Level 1","t":"Psychic / Tuner","atk":700,"def":300},"rarity":"C","img":"58695102","code":"24","tcg":108823,"grp":1674,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"SDMP-EN025","name":"Sky Iris","ctype":"spell","keywords":"Odd-Eyes Field Spell","stats":{"t":"Field Spell"},"rarity":"C","img":"27813661","code":"25","tcg":108824,"grp":1674,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"SDMP-EN026","name":"Pendulum Call","ctype":"spell","keywords":"Magician Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"53208660","code":"26","tcg":108825,"grp":1674,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"SDMP-EN027","name":"Pendulum Shift","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"69982329","code":"27","tcg":108826,"grp":1674,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"SDMP-EN028","name":"Pendulum Rising","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"74926274","code":"28","tcg":108827,"grp":1674,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"SDMP-EN029","name":"Sacred Sword of Seven Stars","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"45725480","code":"29","tcg":108828,"grp":1674,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"SDMP-EN030","name":"Summoner's Art","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"79816536","code":"30","tcg":108829,"grp":1674,"idx":29},
+    {"id":"031","section":"main","num":"031","printed":"SDMP-EN031","name":"Mystical Space Typhoon","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"5318639","code":"31","tcg":108830,"grp":1674,"idx":30},
+    {"id":"032","section":"main","num":"032","printed":"SDMP-EN032","name":"Scapegoat","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"73915051","code":"32","tcg":108831,"grp":1674,"idx":31},
+    {"id":"033","section":"main","num":"033","printed":"SDMP-EN033","name":"Forbidden Dress","ctype":"spell","keywords":"Forbidden Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"96864811","code":"33","tcg":108832,"grp":1674,"idx":32},
+    {"id":"034","section":"main","num":"034","printed":"SDMP-EN034","name":"Polymerization","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"24094653","code":"34","tcg":108833,"grp":1674,"idx":33},
+    {"id":"035","section":"main","num":"035","printed":"SDMP-EN035","name":"Terraforming","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"73628505","code":"35","tcg":108834,"grp":1674,"idx":34},
+    {"id":"036","section":"main","num":"036","printed":"SDMP-EN036","name":"Pendulum Back","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"76660409","code":"36","tcg":108835,"grp":1674,"idx":35},
+    {"id":"037","section":"main","num":"037","printed":"SDMP-EN037","name":"Powerful Rebirth","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"84298614","code":"37","tcg":108836,"grp":1674,"idx":36},
+    {"id":"038","section":"main","num":"038","printed":"SDMP-EN038","name":"Traptrix Trap Hole Nightmare","ctype":"trap","keywords":"Traptrix Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"29616929","code":"38","tcg":108837,"grp":1674,"idx":37},
+    {"id":"039","section":"main","num":"039","printed":"SDMP-EN039","name":"Torrential Tribute","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"53582587","code":"39","tcg":108838,"grp":1674,"idx":38},
+    {"id":"040","section":"main","num":"040","printed":"SDMP-EN040","name":"Eradicator Epidemic Virus","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"54974237","code":"40","tcg":108839,"grp":1674,"idx":39},
+    {"id":"041","section":"main","num":"041","printed":"SDMP-EN041","name":"Odd-Eyes Meteorburst Dragon","ctype":"monster","keywords":"Odd-Eyes Dragon FIRE Synchro Monster","stats":{"a":"FIRE","l":"Level 7","t":"Dragon / Synchro","atk":2500,"def":2000},"rarity":"UR","img":"80696379","code":"41","tcg":108840,"grp":1674,"idx":40},
+    {"id":"042","section":"main","num":"042","printed":"SDMP-EN042","name":"Odd-Eyes Absolute Dragon","ctype":"monster","keywords":"Odd-Eyes Dragon WATER Xyz Monster","stats":{"a":"WATER","l":"Rank 7","t":"Dragon / Xyz","atk":2800,"def":2500},"rarity":"UR","img":"16691074","code":"42","tcg":108841,"grp":1674,"idx":41},
+    {"id":"043","section":"main","num":"043","printed":"SDMP-EN043","name":"Rune-Eyes Pendulum Dragon","ctype":"monster","keywords":"Odd-Eyes Dragon DARK Fusion Monster","stats":{"a":"DARK","l":"Level 8","t":"Dragon / Fusion","atk":3000,"def":2000},"rarity":"C","img":"1516510","code":"43","tcg":108842,"grp":1674,"idx":42}
+  ]
+}

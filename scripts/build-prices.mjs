@@ -1,8 +1,8 @@
 import { join } from 'node:path';
-import { COMING_SOON, CONFIG, dataDir, loadModel, loadRaw } from './lib/collections.mjs';
+import { COMING_SOON, dataDir, loadModel, loadRaw, selectEntries } from './lib/collections.mjs';
 import { normalize } from '../public/js/core/model.js';
-import { lastUpdated, loadPrices, loadProducts, productNumber } from './lib/tcgcsv.mjs';
-import { download, readJson, writeJson } from './lib/util.mjs';
+import { CATEGORY, lastUpdated, loadPrices, loadProducts, productNumber } from './lib/tcgcsv.mjs';
+import { args, download, mapLimit, readJson, writeJson } from './lib/util.mjs';
 
 const FX_SOURCES = [
   'https://api.frankfurter.dev/v1/latest?base=USD&symbols=GBP,EUR',
@@ -25,16 +25,34 @@ async function exchangeRates() {
 const fx = (rate) => Number(rate.toFixed(5));
 
 const groupCache = new Map();
-function loadGroup(id) {
-  if (!groupCache.has(id)) {
-    groupCache.set(id, Promise.all([loadProducts(id, { refresh: true }), loadPrices(id)]).then(([products, prices]) => ({ products, prices })));
+function loadGroup(id, game) {
+  const category = CATEGORY[game];
+  const key = `${category}/${id}`;
+  if (!groupCache.has(key)) {
+    groupCache.set(key, Promise.all([loadProducts(id, { refresh: true, category }), loadPrices(id, { category })]).then(([products, prices]) => ({ products, prices })));
   }
-  return groupCache.get(id);
+  return groupCache.get(key);
 }
 
 const firstWord = (s) => normalize(s).split(/[^a-z0-9]+/).find(Boolean);
 const only = (list) => (list.length === 1 ? list[0].productId : null);
 const helpers = { number: productNumber, firstWord, only };
+
+function editionPrice(rows, productId, editions) {
+  const mine = rows.filter((p) => p.productId === productId);
+  const ed = {};
+  for (const e of editions) {
+    const value = mine.find((p) => p.subTypeName === e.sub)?.marketPrice;
+    if (value != null) ed[e.id] = value;
+  }
+  const values = Object.values(ed);
+  if (!values.length) {
+    const row = priceRow(rows, productId);
+    const lows = mine.map((p) => p.lowPrice).filter((v) => v != null);
+    return { usd: row?.marketPrice ?? null, from: row?.marketPrice == null && lows.length ? Math.min(...lows) : null };
+  }
+  return { usd: Math.min(...values), ed: values.length > 1 ? ed : null };
+}
 
 function priceRow(rows, productId, sub) {
   const mine = rows.filter((p) => p.productId === productId);
@@ -53,11 +71,12 @@ async function priceCollection(entry, { updated, rates }) {
   const groupIds = curated
     ? curated.tcgplayerGroups
     : Object.fromEntries([...new Set([...entry.tcgplayer, ...model.cards.map((c) => c.grp).filter(Boolean)])].map((id) => [id, id]));
-  const groups = Object.fromEntries(await Promise.all(Object.entries(groupIds).map(async ([key, id]) => [key, await loadGroup(id)])));
+  const groups = Object.fromEntries(await Promise.all(Object.entries(groupIds).map(async ([key, id]) => [key, await loadGroup(id, entry.game)])));
   const rows = Object.values(groups).flatMap((g) => g.prices);
 
   const cards = {};
   const unmatched = [];
+  const editions = model.game.EDITIONS;
   let priced = 0;
   for (const card of model.cards) {
     const tcg = curated ? curated.productFor(card, groups, helpers) : card.tcg;
@@ -65,9 +84,17 @@ async function priceCollection(entry, { updated, rates }) {
       unmatched.push(card.id);
       continue;
     }
-    const row = priceRow(rows, tcg, card.sub);
-    const price = { tcg, usd: row?.marketPrice ?? null };
-    if (price.usd == null && row?.lowPrice != null) price.from = row.lowPrice;
+    let price;
+    if (editions) {
+      const found = editionPrice(rows, tcg, editions);
+      price = { tcg, usd: found.usd };
+      if (found.ed) price.ed = found.ed;
+      if (found.from != null) price.from = found.from;
+    } else {
+      const row = priceRow(rows, tcg, card.sub);
+      price = { tcg, usd: row?.marketPrice ?? null };
+      if (price.usd == null && row?.lowPrice != null) price.from = row.lowPrice;
+    }
     if (price.usd != null) priced++;
     cards[card.id] = price;
   }
@@ -85,7 +112,7 @@ async function priceCollection(entry, { updated, rates }) {
 }
 
 async function priceSealed(entry, { updated, rates }) {
-  const groups = await Promise.all(entry.tcgplayer.map(loadGroup));
+  const groups = await Promise.all(entry.tcgplayer.map((id) => loadGroup(id, entry.game)));
   const rows = groups.flatMap((g) => g.prices);
   const products = {};
   let priced = 0;
@@ -109,16 +136,19 @@ async function priceSealed(entry, { updated, rates }) {
 const [updated, rates] = await Promise.all([lastUpdated(), exchangeRates()]);
 const day = updated.slice(0, 10);
 console.log(`Prices from ${updated}, $1 = £${rates.gbp.toFixed(4)} = €${rates.eur.toFixed(4)}`);
+const opts = args();
+const entries = selectEntries(opts.list('only'), opts.get('game'));
+const picked = (e) => entries.includes(e) || (!opts.list('only').length && (!opts.get('game') || e.game === opts.get('game')));
 let failed = 0;
-for (const entry of CONFIG) {
+await mapLimit(entries, 4, async (entry) => {
   try {
     await priceCollection(entry, { updated: day, rates });
   } catch (err) {
     failed++;
     console.error(`${entry.id}: ${err.message}`);
   }
-}
-for (const entry of [...CONFIG.filter((e) => e.guide), ...COMING_SOON]) {
+});
+for (const entry of [...entries.filter((e) => e.guide), ...COMING_SOON.filter(picked)]) {
   try {
     await priceSealed(entry, { updated: day, rates });
   } catch (err) {
@@ -126,5 +156,5 @@ for (const entry of [...CONFIG.filter((e) => e.guide), ...COMING_SOON]) {
     console.error(`${entry.id} sealed products: ${err.message}`);
   }
 }
-if (failed === CONFIG.length) throw new Error('No prices could be downloaded');
+if (failed === entries.length) throw new Error('No prices could be downloaded');
 if (failed) process.exitCode = 1;

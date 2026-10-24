@@ -1,0 +1,105 @@
+{
+  "id": "yugioh/hero-strike-structure-deck",
+  "game": "yugioh",
+  "slug": "hero-strike-structure-deck",
+  "name": "HERO Strike Structure Deck",
+  "series": "ARC-V",
+  "kind": "deck",
+  "code": "SDHS",
+  "syncKey": "YSDHS",
+  "released": "2015-01-29",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "SDHS-EN001–SDHS-EN045",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from SDHS-EN001 to SDHS-EN045."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! HERO Strike Structure Deck Checklist · All 45 Cards",
+    "description": "Free Yu-Gi-Oh! HERO Strike Structure Deck checklist with no ads, no sign-up and no tracking. Track all 45 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! HERO Strike Structure Deck Checklist",
+    "ogDescription": "Track all 45 cards in Yu-Gi-Oh! HERO Strike Structure Deck. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 45 cards in Yu-Gi-Oh! HERO Strike Structure Deck. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About HERO Strike Structure Deck",
+    "paragraphs": [
+      "HERO Strike Structure Deck is a Yu-Gi-Oh! TCG deck released on 29 January 2015, in the ARC-V era. It has 45 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "HERO Strike Structure Deck"
+    ],
+    "tcgplayer": [
+      1495
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"SDHS-EN001","name":"Elemental HERO Shadow Mist","ctype":"monster","keywords":"Elemental HERO Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Warrior / Effect","atk":1000,"def":1500},"rarity":"SR","img":"50720316","code":"1","tcg":95832,"grp":1495,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"SDHS-EN002","name":"Elemental HERO Ocean","ctype":"monster","keywords":"Elemental HERO Warrior WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Warrior / Effect","atk":1500,"def":1200},"rarity":"C","img":"37195861","code":"2","tcg":95834,"grp":1495,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"SDHS-EN003","name":"Elemental HERO Woodsman","ctype":"monster","keywords":"Elemental HERO Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Effect","atk":1000,"def":2000},"rarity":"C","img":"75434695","code":"3","tcg":95835,"grp":1495,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"SDHS-EN004","name":"Elemental HERO Voltic","ctype":"monster","keywords":"Elemental HERO Thunder LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Thunder / Effect","atk":1000,"def":1500},"rarity":"C","img":"9327502","code":"4","tcg":95836,"grp":1495,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"SDHS-EN005","name":"Elemental HERO Heat","ctype":"monster","keywords":"Elemental HERO Pyro FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Pyro / Effect","atk":1600,"def":1200},"rarity":"C","img":"98266377","code":"5","tcg":95837,"grp":1495,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"SDHS-EN006","name":"Elemental HERO Avian","ctype":"monster","keywords":"Elemental HERO Warrior WIND Normal Monster","stats":{"a":"WIND","l":"Level 3","t":"Warrior / Normal","atk":1000,"def":1000},"rarity":"C","img":"21844576","code":"6","tcg":95933,"grp":1495,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"SDHS-EN007","name":"Elemental HERO Neos","ctype":"monster","keywords":"Elemental HERO Warrior LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 7","t":"Warrior / Normal","atk":2500,"def":2000},"rarity":"C","img":"89943723","code":"7","tcg":95838,"grp":1495,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"SDHS-EN008","name":"Elemental HERO Neos Alius","ctype":"monster","keywords":"Elemental HERO Warrior LIGHT Gemini Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Gemini","atk":1900,"def":1300},"rarity":"C","img":"69884162","code":"8","tcg":95839,"grp":1495,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"SDHS-EN009","name":"Elemental HERO Bladedge","ctype":"monster","keywords":"Elemental HERO Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 7","t":"Warrior / Effect","atk":2600,"def":1800},"rarity":"C","img":"59793705","code":"9","tcg":95840,"grp":1495,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"SDHS-EN010","name":"Elemental HERO Necroshade","ctype":"monster","keywords":"Elemental HERO Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 5","t":"Warrior / Effect","atk":1600,"def":1800},"rarity":"C","img":"89252153","code":"10","tcg":95841,"grp":1495,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"SDHS-EN011","name":"Elemental HERO Wildheart","ctype":"monster","keywords":"Elemental HERO Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Effect","atk":1500,"def":1600},"rarity":"C","img":"86188410","code":"11","tcg":95842,"grp":1495,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"SDHS-EN012","name":"Elemental HERO Bubbleman","ctype":"monster","keywords":"Elemental HERO Warrior WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Warrior / Effect","atk":800,"def":1200},"rarity":"C","img":"79979666","code":"12","tcg":95843,"grp":1495,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"SDHS-EN013","name":"Neo-Spacian Grand Mole","ctype":"monster","keywords":"Neo-Spacian Rock EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Rock / Effect","atk":900,"def":300},"rarity":"C","img":"80344569","code":"13","tcg":95844,"grp":1495,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"SDHS-EN014","name":"Honest","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fairy / Effect","atk":1100,"def":1900},"rarity":"C","img":"37742478","code":"14","tcg":95831,"grp":1495,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"SDHS-EN015","name":"Card Trooper","ctype":"monster","keywords":"Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Machine / Effect","atk":400,"def":400},"rarity":"C","img":"85087012","code":"15","tcg":95845,"grp":1495,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"SDHS-EN016","name":"Winged Kuriboh","ctype":"monster","keywords":"Kuriboh Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Fairy / Effect","atk":300,"def":200},"rarity":"C","img":"57116033","code":"16","tcg":95846,"grp":1495,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"SDHS-EN017","name":"Summoner Monk","ctype":"monster","keywords":"Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Effect","atk":800,"def":1600},"rarity":"C","img":"423585","code":"17","tcg":95847,"grp":1495,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"SDHS-EN018","name":"Homunculus the Alchemic Being","ctype":"monster","keywords":"Plant LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Plant / Effect","atk":1800,"def":1600},"rarity":"C","img":"40410110","code":"18","tcg":95936,"grp":1495,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"SDHS-EN019","name":"Mask Change II","ctype":"spell","keywords":"Masked HERO Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"93600443","code":"19","tcg":95848,"grp":1495,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"SDHS-EN020","name":"Form Change","ctype":"spell","keywords":"Masked HERO Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"84536654","code":"20","tcg":95849,"grp":1495,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"SDHS-EN021","name":"Mask Charge","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"87819421","code":"21","tcg":95850,"grp":1495,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"SDHS-EN022","name":"Mask Change","ctype":"spell","keywords":"Change Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"21143940","code":"22","tcg":95851,"grp":1495,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"SDHS-EN023","name":"Polymerization","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"24094653","code":"23","tcg":95852,"grp":1495,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"SDHS-EN024","name":"Miracle Fusion","ctype":"spell","keywords":"Elemental HERO Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"45906428","code":"24","tcg":95853,"grp":1495,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"SDHS-EN025","name":"Parallel World Fusion","ctype":"spell","keywords":"Elemental HERO Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"54283059","code":"25","tcg":95854,"grp":1495,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"SDHS-EN026","name":"A Hero Lives","ctype":"spell","keywords":"Elemental HERO Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"8949584","code":"26","tcg":95855,"grp":1495,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"SDHS-EN027","name":"Hero Mask","ctype":"spell","keywords":"Elemental HERO Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"75141056","code":"27","tcg":95856,"grp":1495,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"SDHS-EN028","name":"H - Heated Heart","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"74825788","code":"28","tcg":95857,"grp":1495,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"SDHS-EN029","name":"E - Emergency Call","ctype":"spell","keywords":"Elemental HERO Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"213326","code":"29","tcg":95858,"grp":1495,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"SDHS-EN030","name":"R - Righteous Justice","ctype":"spell","keywords":"Elemental HERO Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"37318031","code":"30","tcg":95937,"grp":1495,"idx":29},
+    {"id":"031","section":"main","num":"031","printed":"SDHS-EN031","name":"O - Oversoul","ctype":"spell","keywords":"Elemental HERO Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"63703130","code":"31","tcg":95860,"grp":1495,"idx":30},
+    {"id":"032","section":"main","num":"032","printed":"SDHS-EN032","name":"Reinforcement of the Army","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"32807846","code":"32","tcg":95861,"grp":1495,"idx":31},
+    {"id":"033","section":"main","num":"033","printed":"SDHS-EN033","name":"The Warrior Returning Alive","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"95281259","code":"33","tcg":95862,"grp":1495,"idx":32},
+    {"id":"034","section":"main","num":"034","printed":"SDHS-EN034","name":"Pot of Duality","ctype":"spell","keywords":"Greed Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"98645731","code":"34","tcg":95863,"grp":1495,"idx":33},
+    {"id":"035","section":"main","num":"035","printed":"SDHS-EN035","name":"Hero Signal","ctype":"trap","keywords":"Elemental HERO Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"22020907","code":"35","tcg":95865,"grp":1495,"idx":34},
+    {"id":"036","section":"main","num":"036","printed":"SDHS-EN036","name":"Hero Blast","ctype":"trap","keywords":"Elemental HERO Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"37412656","code":"36","tcg":95866,"grp":1495,"idx":35},
+    {"id":"037","section":"main","num":"037","printed":"SDHS-EN037","name":"Call of the Haunted","ctype":"trap","keywords":"Call of the Haunted Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"97077563","code":"37","tcg":95867,"grp":1495,"idx":36},
+    {"id":"038","section":"main","num":"038","printed":"SDHS-EN038","name":"Bottomless Trap Hole","ctype":"trap","keywords":"Hole Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"29401950","code":"38","tcg":95868,"grp":1495,"idx":37},
+    {"id":"039","section":"main","num":"039","printed":"SDHS-EN039","name":"Compulsory Evacuation Device","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"94192409","code":"39","tcg":95869,"grp":1495,"idx":38},
+    {"id":"040","section":"main","num":"040","printed":"SDHS-EN040","name":"Battleguard Howling","ctype":"trap","keywords":"Battleguard Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"78621186","code":"40","tcg":95934,"grp":1495,"idx":39},
+    {"id":"041","section":"main","num":"041","printed":"SDHS-EN041","name":"Contrast HERO Chaos","ctype":"monster","keywords":"Elemental HERO Warrior DARK Fusion Monster","stats":{"a":"DARK","l":"Level 9","t":"Warrior / Fusion","atk":3000,"def":2600},"rarity":"UR","img":"23204029","code":"41","tcg":95871,"grp":1495,"idx":40},
+    {"id":"042","section":"main","num":"042","printed":"SDHS-EN042","name":"Masked HERO Koga","ctype":"monster","keywords":"Masked HERO Warrior LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Warrior / Fusion","atk":2500,"def":1800},"rarity":"SR","img":"50608164","code":"42","tcg":95872,"grp":1495,"idx":41},
+    {"id":"043","section":"main","num":"043","printed":"SDHS-EN043","name":"Masked HERO Divine Wind","ctype":"monster","keywords":"Masked HERO Warrior WIND Fusion Monster","stats":{"a":"WIND","l":"Level 8","t":"Warrior / Fusion","atk":2700,"def":1900},"rarity":"SR","img":"22093873","code":"43","tcg":95873,"grp":1495,"idx":42},
+    {"id":"044","section":"main","num":"044","printed":"SDHS-EN044","name":"Masked HERO Dark Law","ctype":"monster","keywords":"HERO Warrior DARK Fusion Monster","stats":{"a":"DARK","l":"Level 6","t":"Warrior / Fusion","atk":2400,"def":1800},"rarity":"SR","img":"58481572","code":"44","tcg":95874,"grp":1495,"idx":43},
+    {"id":"045","section":"main","num":"045","printed":"SDHS-EN045","name":"Elemental HERO Great Tornado","ctype":"monster","keywords":"Elemental HERO Warrior WIND Fusion Monster","stats":{"a":"WIND","l":"Level 8","t":"Warrior / Fusion","atk":2800,"def":2200},"rarity":"C","img":"3642509","code":"45","tcg":95935,"grp":1495,"idx":44}
+  ]
+}

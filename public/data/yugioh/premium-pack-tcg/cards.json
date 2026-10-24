@@ -1,0 +1,94 @@
+{
+  "id": "yugioh/premium-pack-tcg",
+  "game": "yugioh",
+  "slug": "premium-pack-tcg",
+  "name": "Premium Pack (TCG)",
+  "series": "GX",
+  "kind": "pack",
+  "code": "PP01",
+  "syncKey": "YPP01",
+  "released": "2007-07-26",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "PP01-EN001–PP01-EN015",
+      "tier": "standard"
+    },
+    {
+      "id": "rarities",
+      "name": "Other Rarities",
+      "short": "Other Rarities",
+      "range": "7 cards",
+      "tier": "master"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Main set"
+    ],
+    [
+      "rarities",
+      "Other rarities"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, SCR12, 60x2",
+    "example": "1-20, 45x2, SCR12",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies. Other rarities use their short name and number: <b>SCR12</b> is card 12’s Secret Rare, and ranges work too (<b>QCSR1-QCSR20</b>).",
+    "empty": "Cards run from PP01-EN001 to PP01-EN015."
+  },
+  "help": {
+    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 15 cards, each in its main rarity. Master adds the 7 other rarities. Cards you’ve marked are kept when you switch."
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Premium Pack (TCG) Checklist · All 15 Cards",
+    "description": "Free Yu-Gi-Oh! Premium Pack (TCG) checklist with no ads, no sign-up and no tracking. Track all 15 cards, or every rarity for a master set, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Premium Pack (TCG) Checklist",
+    "ogDescription": "Track all 15 cards in Yu-Gi-Oh! Premium Pack (TCG), plus 7 other rarities. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 15 cards in Yu-Gi-Oh! Premium Pack (TCG). Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Premium Pack (TCG)",
+    "paragraphs": [
+      "Premium Pack (TCG) is a Yu-Gi-Oh! TCG pack released on 26 July 2007, in the GX era. It has 15 cards, and with the 7 other rarities there are 22 to collect in all.",
+      "Choose what you’re collecting: the <b>Standard set</b> (the 15 cards, each in its main rarity) or the <b>Master set</b> (all 22, adding the 7 other rarities).",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Premium Pack (TCG)"
+    ],
+    "tcgplayer": [
+      266
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"PP01-EN001","name":"Magician of Black Chaos","ctype":"monster","keywords":"Dark Magician Spellcaster DARK Ritual Monster","stats":{"a":"DARK","l":"Level 8","t":"Spellcaster / Ritual","atk":2800,"def":2600},"rarity":"ScR","img":"30208479","code":"1","tcg":26343,"grp":266,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"PP01-EN002","name":"Black Magic Ritual","ctype":"spell","keywords":"Dark Magician Ritual Spell","stats":{"t":"Ritual Spell"},"rarity":"ScR","img":"76792184","code":"2","tcg":26344,"grp":266,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"PP01-EN003","name":"Marshmallon","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Fairy / Effect","atk":300,"def":500},"rarity":"ScR","img":"31305911","code":"3","tcg":26342,"grp":266,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"PP01-EN004","name":"Marshmallon Glasses","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"ScR","img":"66865880","code":"4","tcg":26345,"grp":266,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"PP01-EN005","name":"Gemini Imps","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Effect","atk":1000,"def":1000},"rarity":"ScR","img":"67688478","code":"5","tcg":26346,"grp":266,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"PP01-EN006","name":"Return Zombie","ctype":"monster","keywords":"Zombie DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Zombie / Effect","atk":1000,"def":1600},"rarity":"ScR","img":"3072077","code":"6","tcg":26347,"grp":266,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"PP01-EN007","name":"Shield Crush","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"ScR","img":"30683373","code":"7","tcg":26348,"grp":266,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"PP01-EN008","name":"Dark Magic Curtain","ctype":"spell","keywords":"Dark Magician Normal Spell","stats":{"t":"Normal Spell"},"rarity":"ScR","img":"99789342","code":"8","tcg":26349,"grp":266,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"PP01-EN009","name":"Legacy of Yata-Garasu","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"30461781","code":"9","tcg":26350,"grp":266,"idx":8},
+    {"id":"009-scr","section":"rarities","num":"009","printed":"PP01-EN009","name":"Legacy of Yata-Garasu","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"ScR","img":"30461781","badge":"ScR","variant":"Secret Rare","code":"SCR9","tcg":80147,"grp":266,"idx":9},
+    {"id":"010","section":"main","num":"010","printed":"PP01-EN010","name":"Zera Ritual","ctype":"spell","keywords":"Ritual Spell","stats":{"t":"Ritual Spell"},"rarity":"SR","img":"81756897","code":"10","tcg":26351,"grp":266,"idx":10},
+    {"id":"010-scr","section":"rarities","num":"010","printed":"PP01-EN010","name":"Zera Ritual","ctype":"spell","keywords":"Ritual Spell","stats":{"t":"Ritual Spell"},"rarity":"ScR","img":"81756897","badge":"ScR","variant":"Secret Rare","code":"SCR10","tcg":80148,"grp":266,"idx":11},
+    {"id":"011","section":"main","num":"011","printed":"PP01-EN011","name":"Zera the Mant","ctype":"monster","keywords":"Fiend DARK Ritual Monster","stats":{"a":"DARK","l":"Level 8","t":"Fiend / Ritual","atk":2800,"def":2300},"rarity":"SR","img":"69123138","code":"11","tcg":26352,"grp":266,"idx":12},
+    {"id":"011-scr","section":"rarities","num":"011","printed":"PP01-EN011","name":"Zera the Mant","ctype":"monster","keywords":"Fiend DARK Ritual Monster","stats":{"a":"DARK","l":"Level 8","t":"Fiend / Ritual","atk":2800,"def":2300},"rarity":"ScR","img":"69123138","badge":"ScR","variant":"Secret Rare","code":"SCR11","tcg":80149,"grp":266,"idx":13},
+    {"id":"012","section":"main","num":"012","printed":"PP01-EN012","name":"Javelin Beetle Pact","ctype":"spell","keywords":"Ritual Spell","stats":{"t":"Ritual Spell"},"rarity":"SR","img":"41182875","code":"12","tcg":26353,"grp":266,"idx":14},
+    {"id":"012-scr","section":"rarities","num":"012","printed":"PP01-EN012","name":"Javelin Beetle Pact","ctype":"spell","keywords":"Ritual Spell","stats":{"t":"Ritual Spell"},"rarity":"ScR","img":"41182875","badge":"ScR","variant":"Secret Rare","code":"SCR12","tcg":80150,"grp":266,"idx":15},
+    {"id":"013","section":"main","num":"013","printed":"PP01-EN013","name":"Javelin Beetle","ctype":"monster","keywords":"Insect EARTH Ritual Monster","stats":{"a":"EARTH","l":"Level 8","t":"Insect / Ritual","atk":2450,"def":2550},"rarity":"SR","img":"26932788","code":"13","tcg":26354,"grp":266,"idx":16},
+    {"id":"013-scr","section":"rarities","num":"013","printed":"PP01-EN013","name":"Javelin Beetle","ctype":"monster","keywords":"Insect EARTH Ritual Monster","stats":{"a":"EARTH","l":"Level 8","t":"Insect / Ritual","atk":2450,"def":2550},"rarity":"ScR","img":"26932788","badge":"ScR","variant":"Secret Rare","code":"SCR13","tcg":80151,"grp":266,"idx":17},
+    {"id":"014","section":"main","num":"014","printed":"PP01-EN014","name":"Metalmorph","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"68540059","code":"14","tcg":26355,"grp":266,"idx":18},
+    {"id":"014-scr","section":"rarities","num":"014","printed":"PP01-EN014","name":"Metalmorph","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"ScR","img":"68540059","badge":"ScR","variant":"Secret Rare","code":"SCR14","tcg":80154,"grp":266,"idx":19},
+    {"id":"015","section":"main","num":"015","printed":"PP01-EN015","name":"Red-Eyes Black Metal Dragon","ctype":"monster","keywords":"Red-Eyes Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Machine / Effect","atk":2800,"def":2400},"rarity":"SR","img":"64335805","code":"15","tcg":26356,"grp":266,"idx":20},
+    {"id":"015-scr","section":"rarities","num":"015","printed":"PP01-EN015","name":"Red-Eyes Black Metal Dragon","ctype":"monster","keywords":"Red-Eyes Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Machine / Effect","atk":2800,"def":2400},"rarity":"ScR","img":"64335805","badge":"ScR","variant":"Secret Rare","code":"SCR15","tcg":80156,"grp":266,"idx":21}
+  ]
+}

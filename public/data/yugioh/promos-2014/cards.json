@@ -1,0 +1,128 @@
+{
+  "id": "yugioh/promos-2014",
+  "game": "yugioh",
+  "slug": "promos-2014",
+  "name": "Promos 2014",
+  "series": "Promos",
+  "kind": "promo",
+  "code": "P2014",
+  "syncKey": "YP2014",
+  "released": "2014-01-01",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "DUEA-ENSP1–ZDC1-EN003",
+      "tier": "standard"
+    },
+    {
+      "id": "rarities",
+      "name": "Other Rarities",
+      "short": "Other Rarities",
+      "range": "1 card",
+      "tier": "master"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Main set"
+    ],
+    [
+      "rarities",
+      "Other rarities"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, SCR12, 60x2",
+    "example": "1-20, 45x2, SCR12",
+    "hint": "Separate with commas or spaces. Numbers count down the list in order: <b>1-5</b> is the first five cards and <b>3x2</b> is two copies of the third.",
+    "empty": "Cards run from DUEA-ENSP1 to ZDC1-EN003."
+  },
+  "help": {
+    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 29 cards, each in its main rarity. Master adds the 1 other rarity. Cards you’ve marked are kept when you switch."
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Promos 2014 Checklist · All 29 Cards",
+    "description": "Free Yu-Gi-Oh! Promos 2014 checklist with no ads, no sign-up and no tracking. Track all 29 cards, or every rarity for a master set, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Promos 2014 Checklist",
+    "ogDescription": "Track all 29 cards in Yu-Gi-Oh! Promos 2014, plus 1 other rarity. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 29 cards in Yu-Gi-Oh! Promos 2014. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Promos 2014",
+    "paragraphs": [
+      "Promos 2014 gathers the 29 promo cards from 17 products released in 2014: Duelist Alliance Sneak Peek Participation Card, Fire Fists: Special Edition, Weekly Shonen Jump March 2014 membership promotional card, Weekly Shonen Jump August 2014 membership promotional card, Weekly Shonen Jump November 2014 membership promotional card, Legendary Collection 5D&#39;s, Legacy of the Valiant: Deluxe Edition, Legacy of the Valiant Sneak Peek Participation Card, The New Challengers Sneak Peek Participation Card, Primal Origin: Deluxe Edition, Primal Origin Plus, Primal Origin Sneak Peek Participation Card, Yu-Gi-Oh! Championship Series 2014 Prize Card, Yu-Gi-Oh! 5D&#39;s Volume 6 promotional card, Yu-Gi-Oh! ZEXAL Volume 4 promotional card, Yu-Gi-Oh! ZEXAL Volume 5 promotional card and Yu-Gi-Oh! ZEXAL World Duel Carnival promotional cards.",
+      "Choose what you’re collecting: the <b>Standard set</b> (the 29 cards, each in its main rarity) or the <b>Master set</b> (all 30, adding the 1 other rarity).",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Duelist Alliance Sneak Peek Participation Card",
+      "Fire Fists: Special Edition",
+      "Legacy of the Valiant Sneak Peek Participation Card",
+      "Legacy of the Valiant: Deluxe Edition",
+      "Legendary Collection 5D's",
+      "Primal Origin Plus",
+      "Primal Origin Sneak Peek Participation Card",
+      "Primal Origin: Deluxe Edition",
+      "The New Challengers Sneak Peek Participation Card",
+      "Weekly Shonen Jump August 2014 membership promotional card",
+      "Weekly Shonen Jump March 2014 membership promotional card",
+      "Weekly Shonen Jump November 2014 membership promotional card",
+      "Yu-Gi-Oh! 5D's Volume 6 promotional card",
+      "Yu-Gi-Oh! Championship Series 2014 Prize Card",
+      "Yu-Gi-Oh! ZEXAL Volume 4 promotional card",
+      "Yu-Gi-Oh! ZEXAL Volume 5 promotional card",
+      "Yu-Gi-Oh! ZEXAL World Duel Carnival promotional cards"
+    ],
+    "tcgplayer": [
+      1353,
+      1286,
+      1491,
+      281,
+      1743,
+      1347,
+      600,
+      1480,
+      1339,
+      1493,
+      352
+    ]
+  },
+  "cards": [
+    {"id":"DUEA-SP1","section":"main","num":"DUEA-ENSP1","printed":"DUEA-ENSP1","name":"Dragon Horn Hunter","ctype":"monster","keywords":"Warrior DARK Pendulum Normal Monster","stats":{"a":"DARK","l":"Level 6","t":"Warrior / Pendulum / Normal","atk":2300,"def":1000},"note":"Duelist Alliance Sneak Peek Participation Card","rarity":"UR","img":"21970285","code":"1","tcg":92841,"grp":1480,"idx":0},
+    {"id":"FFSE-001","section":"main","num":"FFSE-EN001","printed":"FFSE-EN001","name":"Fire Formation - Tenki","ctype":"spell","keywords":"Fire Formation Continuous Spell","stats":{"t":"Continuous Spell"},"note":"Fire Fists: Special Edition","rarity":"SR","img":"57103969","code":"2","tcg":81854,"grp":1339,"idx":1},
+    {"id":"JUMP-068","section":"main","num":"JUMP-EN068","printed":"JUMP-EN068","name":"Blue-Eyes White Dragon","ctype":"monster","keywords":"Blue-Eyes Dragon LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Normal","atk":3000,"def":2500},"note":"Weekly Shonen Jump March 2014 membership promotional card","rarity":"UR","img":"89631144","code":"3","tcg":81887,"grp":281,"idx":2},
+    {"id":"JUMP-069","section":"main","num":"JUMP-EN069","printed":"JUMP-EN069","name":"Black Luster Soldier - Envoy of the Evening Twilight","ctype":"monster","keywords":"Black Luster Soldier Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Warrior / Effect","atk":3000,"def":2500},"note":"Weekly Shonen Jump August 2014 membership promotional card","rarity":"UR","img":"77498348","code":"4","tcg":82758,"grp":281,"idx":3},
+    {"id":"JUMP-070","section":"main","num":"JUMP-EN070","printed":"JUMP-EN070","name":"Ebon Illusion Magician","ctype":"monster","keywords":"Spellcaster DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 7","t":"Spellcaster / Xyz","atk":2500,"def":2100},"note":"Weekly Shonen Jump November 2014 membership promotional card","rarity":"UR","img":"96471335","code":"5","tcg":97799,"grp":281,"idx":4},
+    {"id":"LC05-001","section":"main","num":"LC05-EN001","printed":"LC05-EN001","name":"Jormungardr the Nordic Serpent","ctype":"monster","keywords":"Aesir Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Dragon / Effect","atk":3000,"def":3000},"note":"Legendary Collection 5D's","rarity":"UR","img":"64203620","code":"6","tcg":93829,"grp":1491,"idx":5},
+    {"id":"LC05-002","section":"main","num":"LC05-EN002","printed":"LC05-EN002","name":"Fenrir the Nordic Wolf","ctype":"monster","keywords":"Aesir Beast DARK Effect Monster","stats":{"a":"DARK","l":"Level 10","t":"Beast / Effect","atk":4000,"def":4000},"note":"Legendary Collection 5D's","rarity":"UR","img":"91697229","code":"7","tcg":93830,"grp":1491,"idx":6},
+    {"id":"LC05-003","section":"main","num":"LC05-EN003","printed":"LC05-EN003","name":"Stardust Flash","ctype":"trap","keywords":"Stardust Normal Trap","stats":{"t":"Normal Trap"},"note":"Legendary Collection 5D's","rarity":"UR","img":"27196937","code":"8","tcg":93831,"grp":1491,"idx":7},
+    {"id":"LC05-004","section":"main","num":"LC05-EN004","printed":"LC05-EN004","name":"Black Rose Dragon","ctype":"monster","keywords":"Rose Dragon Dragon FIRE Synchro Monster","stats":{"a":"FIRE","l":"Level 7","t":"Dragon / Synchro","atk":2400,"def":1800},"note":"Legendary Collection 5D's","rarity":"UR","img":"73580471","code":"9","tcg":93832,"grp":1491,"idx":8},
+    {"id":"LC05-005","section":"main","num":"LC05-EN005","printed":"LC05-EN005","name":"Shooting Quasar Dragon","ctype":"monster","keywords":"Dragon LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 12","t":"Dragon / Synchro","atk":4000,"def":4000},"note":"Legendary Collection 5D's","rarity":"UR","img":"35952884","code":"10","tcg":93833,"grp":1491,"idx":9},
+    {"id":"LVAL-DE1","section":"main","num":"LVAL-ENDE1","printed":"LVAL-ENDE1","name":"Sylvan Peaskeeper","ctype":"monster","keywords":"Sylvan Plant WIND Effect Monster","stats":{"a":"WIND","l":"Level 1","t":"Plant / Effect","atk":400,"def":100},"note":"Legacy of the Valiant: Deluxe Edition","rarity":"UR","img":"63257623","code":"11","tcg":80289,"grp":1286,"idx":10},
+    {"id":"LVAL-DE2","section":"main","num":"LVAL-ENDE2","printed":"LVAL-ENDE2","name":"Ghostrick Jackfrost","ctype":"monster","keywords":"Ghostrick Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Fiend / Effect","atk":800,"def":100},"note":"Legacy of the Valiant: Deluxe Edition","rarity":"UR","img":"61318483","code":"12","tcg":80290,"grp":1286,"idx":11},
+    {"id":"LVAL-DE3","section":"main","num":"LVAL-ENDE3","printed":"LVAL-ENDE3","name":"Sylvan Cherubsprout","ctype":"monster","keywords":"Sylvan Plant LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Plant / Effect","atk":100,"def":100},"note":"Legacy of the Valiant: Deluxe Edition","rarity":"SR","img":"10753491","code":"13","tcg":80291,"grp":1286,"idx":12},
+    {"id":"LVAL-DE4","section":"main","num":"LVAL-ENDE4","printed":"LVAL-ENDE4","name":"Bujintervention","ctype":"spell","keywords":"Bujin Normal Spell","stats":{"t":"Normal Spell"},"note":"Legacy of the Valiant: Deluxe Edition","rarity":"SR","img":"55599882","code":"14","tcg":80292,"grp":1286,"idx":13},
+    {"id":"LVAL-SP1","section":"main","num":"LVAL-ENSP1","printed":"LVAL-ENSP1","name":"Sylvan Bladefender","ctype":"monster","keywords":"Sylvan Plant EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Plant / Effect","atk":1900,"def":700},"note":"Legacy of the Valiant Sneak Peek Participation Card","rarity":"UR","img":"11682713","code":"15","tcg":77969,"grp":1286,"idx":14},
+    {"id":"NECH-SP1","section":"main","num":"NECH-ENSP1","printed":"NECH-ENSP1","name":"Lancephorhynchus","ctype":"monster","keywords":"Dinosaur WIND Pendulum Normal Monster","stats":{"a":"WIND","l":"Level 6","t":"Dinosaur / Pendulum / Normal","atk":2500,"def":800},"note":"The New Challengers Sneak Peek Participation Card","rarity":"UR","img":"48940337","code":"16","tcg":96463,"grp":1493,"idx":15},
+    {"id":"PRIO-DE1","section":"main","num":"PRIO-ENDE1","printed":"PRIO-ENDE1","name":"Sylvan Snapdrassinagon","ctype":"monster","keywords":"Sylvan Plant DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Plant / Effect","atk":900,"def":400},"note":"Primal Origin: Deluxe Edition","rarity":"UR","img":"47741109","code":"17","tcg":90806,"grp":1353,"idx":16},
+    {"id":"PRIO-DE2","section":"main","num":"PRIO-ENDE2","printed":"PRIO-ENDE2","name":"And the Band Played On","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"note":"Primal Origin: Deluxe Edition","rarity":"UR","img":"47594939","code":"18","tcg":90807,"grp":1353,"idx":17},
+    {"id":"PRIO-DE3","section":"main","num":"PRIO-ENDE3","printed":"PRIO-ENDE3","name":"The Agent of Entropy - Uranus","ctype":"monster","keywords":"The Agent Fairy DARK Tuner Monster","stats":{"a":"DARK","l":"Level 5","t":"Fairy / Tuner","atk":2200,"def":1200},"note":"Primal Origin: Deluxe Edition","rarity":"SR","img":"97750534","code":"19","tcg":90808,"grp":1353,"idx":18},
+    {"id":"PRIO-DE4","section":"main","num":"PRIO-ENDE4","printed":"PRIO-ENDE4","name":"Re-Cover","ctype":"monster","keywords":"Psychic EARTH Tuner Monster","stats":{"a":"EARTH","l":"Level 1","t":"Psychic / Tuner","atk":700,"def":300},"note":"Primal Origin: Deluxe Edition","rarity":"SR","img":"58695102","code":"20","tcg":90809,"grp":1353,"idx":19},
+    {"id":"PRIO-PL1","section":"main","num":"PRIO-ENPL1","printed":"PRIO-ENPL1","name":"Sylvan Snapdrassinagon","ctype":"monster","keywords":"Sylvan Plant DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Plant / Effect","atk":900,"def":400},"note":"Primal Origin Plus","rarity":"SFR","img":"47741109","code":"21","tcg":213636,"grp":1353,"idx":20},
+    {"id":"PRIO-SP1","section":"main","num":"PRIO-ENSP1","printed":"PRIO-ENSP1","name":"Artifact Scythe","ctype":"monster","keywords":"Artifact Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 5","t":"Fairy / Effect","atk":2200,"def":900},"note":"Primal Origin Sneak Peek Participation Card","rarity":"UR","img":"20292186","code":"22","tcg":82546,"grp":1353,"idx":21},
+    {"id":"YCSW-007","section":"main","num":"YCSW-EN007","printed":"YCSW-EN007","name":"Ascension Sky Dragon","ctype":"monster","keywords":"Dragon LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 10","t":"Dragon / Synchro","atk":-1,"def":3000},"note":"Yu-Gi-Oh! Championship Series 2014 Prize Card","rarity":"SR","img":"37910722","code":"23","tcg":97963,"grp":1347,"idx":22},
+    {"id":"YCSW-007-ur","section":"rarities","num":"YCSW-EN007","printed":"YCSW-EN007","name":"Ascension Sky Dragon","ctype":"monster","keywords":"Dragon LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 10","t":"Dragon / Synchro","atk":-1,"def":3000},"note":"Yu-Gi-Oh! Championship Series 2014 Prize Card","rarity":"UR","img":"37910722","badge":"UR","variant":"Ultra Rare","code":"UR23","tcg":97962,"grp":1347,"idx":23},
+    {"id":"YF06-001","section":"main","num":"YF06-EN001","printed":"YF06-EN001","name":"Hot Red Dragon Archfiend","ctype":"monster","keywords":"Archfiend Dragon DARK Synchro Monster","stats":{"a":"DARK","l":"Level 8","t":"Dragon / Synchro","atk":3000,"def":2000},"note":"Yu-Gi-Oh! 5D's Volume 6 promotional card","rarity":"UR","img":"39765958","code":"24","tcg":93336,"grp":352,"idx":24},
+    {"id":"YZ04-001","section":"main","num":"YZ04-EN001","printed":"YZ04-EN001","name":"Number 47: Nightmare Shark","ctype":"monster","keywords":"Sea Serpent WATER Xyz Monster","stats":{"a":"WATER","l":"Rank 3","t":"Sea Serpent / Xyz","atk":2000,"def":2000},"note":"Yu-Gi-Oh! ZEXAL Volume 4 promotional card","rarity":"UR","img":"31320433","code":"25","tcg":77973,"grp":600,"idx":25},
+    {"id":"YZ05-001","section":"main","num":"YZ05-EN001","printed":"YZ05-EN001","name":"Number 72: Shogi Rook","ctype":"monster","keywords":"Beast-Warrior EARTH Xyz Monster","stats":{"a":"EARTH","l":"Rank 6","t":"Beast-Warrior / Xyz","atk":2500,"def":1200},"note":"Yu-Gi-Oh! ZEXAL Volume 5 promotional card","rarity":"UR","img":"75253697","code":"26","tcg":92495,"grp":600,"idx":26},
+    {"id":"ZDC1-001","section":"main","num":"ZDC1-EN001","printed":"ZDC1-EN001","name":"Snow Plow Hustle Rustle","ctype":"monster","keywords":"Train Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 10","t":"Machine / Effect","atk":2500,"def":3000},"note":"Yu-Gi-Oh! ZEXAL World Duel Carnival promotional cards","rarity":"UR","img":"24731453","code":"27","tcg":114843,"grp":1743,"idx":27},
+    {"id":"ZDC1-002","section":"main","num":"ZDC1-EN002","printed":"ZDC1-EN002","name":"Night Express Knight","ctype":"monster","keywords":"Train Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 10","t":"Machine / Effect","atk":3000,"def":3000},"note":"Yu-Gi-Oh! ZEXAL World Duel Carnival promotional cards","rarity":"UR","img":"51126152","code":"28","tcg":114844,"grp":1743,"idx":28},
+    {"id":"ZDC1-003","section":"main","num":"ZDC1-EN003","printed":"ZDC1-EN003","name":"Special Schedule","ctype":"spell","keywords":"Train Normal Spell","stats":{"t":"Normal Spell"},"note":"Yu-Gi-Oh! ZEXAL World Duel Carnival promotional cards","rarity":"UR","img":"97520701","code":"29","tcg":114845,"grp":1743,"idx":29}
+  ]
+}

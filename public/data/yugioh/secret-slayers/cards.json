@@ -1,0 +1,120 @@
+{
+  "id": "yugioh/secret-slayers",
+  "game": "yugioh",
+  "slug": "secret-slayers",
+  "name": "Secret Slayers",
+  "series": "VRAINS",
+  "kind": "expansion",
+  "code": "SESL",
+  "syncKey": "YSESL",
+  "released": "2020-04-03",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Main Set",
+      "range": "SESL-EN001–SESL-EN060",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from SESL-EN001 to SESL-EN060."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Secret Slayers Checklist · All 60 Cards",
+    "description": "Free Yu-Gi-Oh! Secret Slayers checklist with no ads, no sign-up and no tracking. Track all 60 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Secret Slayers Checklist",
+    "ogDescription": "Track all 60 cards in Yu-Gi-Oh! Secret Slayers. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 60 cards in Yu-Gi-Oh! Secret Slayers. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About the Secret Slayers set",
+    "paragraphs": [
+      "Secret Slayers is a Yu-Gi-Oh! TCG booster set released on 3 April 2020, in the VRAINS era. It has 60 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Secret Slayers"
+    ],
+    "tcgplayer": [
+      2613
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"SESL-EN001","name":"Adamancipator Seeker","ctype":"monster","keywords":"Adamancipator Rock EARTH Tuner Monster","stats":{"a":"EARTH","l":"Level 2","t":"Rock / Tuner","atk":1200,"def":1000},"rarity":"ScR","img":"48519867","code":"1","tcg":211604,"grp":2613,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"SESL-EN002","name":"Adamancipator Researcher","ctype":"monster","keywords":"Adamancipator Rock EARTH Tuner Monster","stats":{"a":"EARTH","l":"Level 2","t":"Rock / Tuner","atk":100,"def":2100},"rarity":"ScR","img":"85914562","code":"2","tcg":211605,"grp":2613,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"SESL-EN003","name":"Adamancipator Analyzer","ctype":"monster","keywords":"Adamancipator Rock EARTH Tuner Monster","stats":{"a":"EARTH","l":"Level 4","t":"Rock / Tuner","atk":1500,"def":700},"rarity":"ScR","img":"11302671","code":"3","tcg":211606,"grp":2613,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"SESL-EN004","name":"Adamancipator Crystal - Leonite","ctype":"monster","keywords":"Adamancipator Rock FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Rock / Effect","atk":0,"def":2200},"rarity":"SR","img":"47897376","code":"4","tcg":211607,"grp":2613,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"SESL-EN005","name":"Adamancipator Crystal - Raptite","ctype":"monster","keywords":"Adamancipator Rock WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Rock / Effect","atk":0,"def":2200},"rarity":"SR","img":"74891384","code":"5","tcg":211608,"grp":2613,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"SESL-EN006","name":"Adamancipator Crystal - Dragite","ctype":"monster","keywords":"Adamancipator Rock WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Rock / Effect","atk":0,"def":2200},"rarity":"SR","img":"10286023","code":"6","tcg":211609,"grp":2613,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"SESL-EN007","name":"Adamancipator Risen - Leonite","ctype":"monster","keywords":"Adamancipator Rock FIRE Synchro Monster","stats":{"a":"FIRE","l":"Level 6","t":"Rock / Synchro","atk":2400,"def":2200},"rarity":"ScR","img":"47674738","code":"7","tcg":211610,"grp":2613,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"SESL-EN008","name":"Adamancipator Risen - Raptite","ctype":"monster","keywords":"Adamancipator Rock WIND Synchro Monster","stats":{"a":"WIND","l":"Level 6","t":"Rock / Synchro","atk":2200,"def":2800},"rarity":"SR","img":"73079836","code":"8","tcg":211611,"grp":2613,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"SESL-EN009","name":"Adamancipator Risen - Dragite","ctype":"monster","keywords":"Adamancipator Rock WATER Synchro Monster","stats":{"a":"WATER","l":"Level 8","t":"Rock / Synchro","atk":3000,"def":2200},"rarity":"ScR","img":"9464441","code":"9","tcg":211612,"grp":2613,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"SESL-EN010","name":"Adamancipator Laputite","ctype":"spell","keywords":"Adamancipator Field Spell","stats":{"t":"Field Spell"},"rarity":"SR","img":"46552140","code":"10","tcg":211613,"grp":2613,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"SESL-EN011","name":"Adamancipator Signs","ctype":"spell","keywords":"Adamancipator Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"72957245","code":"11","tcg":211614,"grp":2613,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"SESL-EN012","name":"Adamancipator Relief","ctype":"trap","keywords":"Adamancipator Normal Trap","stats":{"t":"Normal Trap"},"rarity":"ScR","img":"9341993","code":"12","tcg":211615,"grp":2613,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"SESL-EN013","name":"Adamancipator Resonance","ctype":"trap","keywords":"Adamancipator Counter Trap","stats":{"t":"Counter Trap"},"rarity":"SR","img":"45730592","code":"13","tcg":211616,"grp":2613,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"SESL-EN014","name":"Rikka Petal","ctype":"monster","keywords":"Rikka Plant WATER Effect Monster","stats":{"a":"WATER","l":"Level 1","t":"Plant / Effect","atk":0,"def":0},"rarity":"SR","img":"71734607","code":"14","tcg":211617,"grp":2613,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"SESL-EN015","name":"Primula the Rikka Fairy","ctype":"monster","keywords":"Rikka Plant WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Plant / Effect","atk":800,"def":1800},"rarity":"ScR","img":"8129306","code":"15","tcg":211618,"grp":2613,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"SESL-EN016","name":"Cyclamen the Rikka Fairy","ctype":"monster","keywords":"Rikka Plant WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Plant / Effect","atk":1800,"def":800},"rarity":"SR","img":"34614910","code":"16","tcg":211619,"grp":2613,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"SESL-EN017","name":"Mudan the Rikka Fairy","ctype":"monster","keywords":"Rikka Plant WATER Effect Monster","stats":{"a":"WATER","l":"Level 6","t":"Plant / Effect","atk":1000,"def":2400},"rarity":"ScR","img":"71002019","code":"17","tcg":211620,"grp":2613,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"SESL-EN018","name":"Erica the Rikka Fairy","ctype":"monster","keywords":"Rikka Plant WATER Effect Monster","stats":{"a":"WATER","l":"Level 6","t":"Plant / Effect","atk":2400,"def":1000},"rarity":"SR","img":"7407724","code":"18","tcg":211621,"grp":2613,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"SESL-EN019","name":"Snowdrop the Rikka Fairy","ctype":"monster","keywords":"Rikka Plant WATER Effect Monster","stats":{"a":"WATER","l":"Level 8","t":"Plant / Effect","atk":1200,"def":2600},"rarity":"SR","img":"33491462","code":"19","tcg":211622,"grp":2613,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"SESL-EN020","name":"Hellebore the Rikka Fairy","ctype":"monster","keywords":"Rikka Plant WATER Effect Monster","stats":{"a":"WATER","l":"Level 8","t":"Plant / Effect","atk":2600,"def":1200},"rarity":"SR","img":"60880471","code":"20","tcg":211623,"grp":2613,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"SESL-EN021","name":"Kanzashi the Rikka Queen","ctype":"monster","keywords":"Rikka Plant WATER Xyz Monster","stats":{"a":"WATER","l":"Rank 6","t":"Plant / Xyz","atk":2400,"def":2400},"rarity":"SR","img":"6284176","code":"21","tcg":211624,"grp":2613,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"SESL-EN022","name":"Teardrop the Rikka Queen","ctype":"monster","keywords":"Plant WATER Xyz Monster","stats":{"a":"WATER","l":"Rank 8","t":"Plant / Xyz","atk":2800,"def":2800},"rarity":"ScR","img":"33779875","code":"22","tcg":211625,"grp":2613,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"SESL-EN023","name":"Rikka Glamour","ctype":"spell","keywords":"Rikka Normal Spell","stats":{"t":"Normal Spell"},"rarity":"ScR","img":"69164989","code":"23","tcg":211629,"grp":2613,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"SESL-EN024","name":"Rikka Flurries","ctype":"spell","keywords":"Rikka Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"ScR","img":"96162588","code":"24","tcg":211630,"grp":2613,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"SESL-EN025","name":"Rikka Tranquility","ctype":"trap","keywords":"Rikka Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"32557233","code":"25","tcg":211631,"grp":2613,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"SESL-EN026","name":"Rikka Sheet","ctype":"trap","keywords":"Rikka Normal Trap","stats":{"t":"Normal Trap"},"rarity":"ScR","img":"68941332","code":"26","tcg":211632,"grp":2613,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"SESL-EN027","name":"Eldlich the Golden Lord","ctype":"monster","keywords":"Eldlich Zombie LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 10","t":"Zombie / Effect","atk":2500,"def":2800},"rarity":"ScR","img":"95440946","code":"27","tcg":211633,"grp":2613,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"SESL-EN028","name":"Cursed Eldland","ctype":"spell","keywords":"Eldlich Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"SR","img":"31434645","code":"28","tcg":211634,"grp":2613,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"SESL-EN029","name":"Eldlixir of Black Awakening","ctype":"spell","keywords":"Eldlich Normal Spell","stats":{"t":"Normal Spell"},"rarity":"ScR","img":"68829754","code":"29","tcg":211635,"grp":2613,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"SESL-EN030","name":"Eldlixir of White Destiny","ctype":"spell","keywords":"Eldlich Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"ScR","img":"94224458","code":"30","tcg":211636,"grp":2613,"idx":29},
+    {"id":"031","section":"main","num":"031","printed":"SESL-EN031","name":"Eldlixir of Scarlet Sanguine","ctype":"trap","keywords":"Eldlich Normal Trap","stats":{"t":"Normal Trap"},"rarity":"ScR","img":"20612097","code":"31","tcg":211637,"grp":2613,"idx":30},
+    {"id":"032","section":"main","num":"032","printed":"SESL-EN032","name":"Guardian of the Golden Land","ctype":"trap","keywords":"Golden Land Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"ScR","img":"67007102","code":"32","tcg":211638,"grp":2613,"idx":31},
+    {"id":"033","section":"main","num":"033","printed":"SESL-EN033","name":"Huaquero of the Golden Land","ctype":"trap","keywords":"Golden Land Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"ScR","img":"93191801","code":"33","tcg":211639,"grp":2613,"idx":32},
+    {"id":"034","section":"main","num":"034","printed":"SESL-EN034","name":"Conquistador of the Golden Land","ctype":"trap","keywords":"Golden Land Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"ScR","img":"20590515","code":"34","tcg":211640,"grp":2613,"idx":33},
+    {"id":"035","section":"main","num":"035","printed":"SESL-EN035","name":"Golden Land Forever!","ctype":"trap","keywords":"Golden Land Counter Trap","stats":{"t":"Counter Trap"},"rarity":"SR","img":"56984514","code":"35","tcg":211641,"grp":2613,"idx":34},
+    {"id":"036","section":"main","num":"036","printed":"SESL-EN036","name":"El Dorado Adelantado","ctype":"trap","keywords":"Eldlich Normal Trap","stats":{"t":"Normal Trap"},"rarity":"ScR","img":"92379223","code":"36","tcg":211642,"grp":2613,"idx":35},
+    {"id":"037","section":"main","num":"037","printed":"SESL-EN037","name":"Doki Doki","ctype":"monster","keywords":"Rock EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 2","t":"Rock / Effect","atk":500,"def":500},"rarity":"SR","img":"42143067","code":"37","tcg":211643,"grp":2613,"idx":36},
+    {"id":"038","section":"main","num":"038","printed":"SESL-EN038","name":"Block Dragon","ctype":"monster","keywords":"Rock EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 8","t":"Rock / Effect","atk":2500,"def":3000},"rarity":"SR","img":"94689206","code":"38","tcg":211644,"grp":2613,"idx":37},
+    {"id":"039","section":"main","num":"039","printed":"SESL-EN039","name":"Rose Lover","ctype":"monster","keywords":"Rose Dragon Plant EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 1","t":"Plant / Effect","atk":800,"def":800},"rarity":"SR","img":"89252157","code":"39","tcg":211645,"grp":2613,"idx":38},
+    {"id":"040","section":"main","num":"040","printed":"SESL-EN040","name":"Lonefire Blossom","ctype":"monster","keywords":"Plant FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 3","t":"Plant / Effect","atk":500,"def":1400},"rarity":"SR","img":"48686504","code":"40","tcg":211646,"grp":2613,"idx":39},
+    {"id":"041","section":"main","num":"041","printed":"SESL-EN041","name":"Tytannial, Princess of Camellias","ctype":"monster","keywords":"Plant WIND Effect Monster","stats":{"a":"WIND","l":"Level 8","t":"Plant / Effect","atk":2800,"def":2600},"rarity":"SR","img":"11819616","code":"41","tcg":211647,"grp":2613,"idx":40},
+    {"id":"042","section":"main","num":"042","printed":"SESL-EN042","name":"Uni-Zombie","ctype":"monster","keywords":"Zombie DARK Tuner Monster","stats":{"a":"DARK","l":"Level 3","t":"Zombie / Tuner","atk":1300,"def":0},"rarity":"SR","img":"49959355","code":"42","tcg":211648,"grp":2613,"idx":41},
+    {"id":"043","section":"main","num":"043","printed":"SESL-EN043","name":"Upstart Goblin","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"70368879","code":"43","tcg":211649,"grp":2613,"idx":42},
+    {"id":"044","section":"main","num":"044","printed":"SESL-EN044","name":"Galaxy Cyclone","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"5133471","code":"44","tcg":211650,"grp":2613,"idx":43},
+    {"id":"045","section":"main","num":"045","printed":"SESL-EN045","name":"Solemn Judgment","ctype":"trap","keywords":"Solemn Counter Trap","stats":{"t":"Counter Trap"},"rarity":"SR","img":"41420027","code":"45","tcg":211651,"grp":2613,"idx":44},
+    {"id":"046","section":"main","num":"046","printed":"SESL-EN046","name":"Il Blud","ctype":"monster","keywords":"Zombie DARK Gemini Monster","stats":{"a":"DARK","l":"Level 6","t":"Zombie / Gemini","atk":2100,"def":800},"rarity":"SR","img":"70595331","code":"46","tcg":211652,"grp":2613,"idx":45},
+    {"id":"047","section":"main","num":"047","printed":"SESL-EN047","name":"Nine-Tailed Fox","ctype":"monster","keywords":"Zombie FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 6","t":"Zombie / Effect","atk":2200,"def":2000},"rarity":"SR","img":"27198001","code":"47","tcg":211653,"grp":2613,"idx":46},
+    {"id":"048","section":"main","num":"048","printed":"SESL-EN048","name":"Koa'ki Meiru Guardian","ctype":"monster","keywords":"Koa'ki Meiru Rock EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Rock / Effect","atk":1900,"def":1200},"rarity":"SR","img":"45041488","code":"48","tcg":211654,"grp":2613,"idx":47},
+    {"id":"049","section":"main","num":"049","printed":"SESL-EN049","name":"Koa'ki Meiru Sandman","ctype":"monster","keywords":"Koa'ki Meiru Rock EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Rock / Effect","atk":1900,"def":1200},"rarity":"SR","img":"49680980","code":"49","tcg":211655,"grp":2613,"idx":48},
+    {"id":"050","section":"main","num":"050","printed":"SESL-EN050","name":"Koa'ki Meiru Wall","ctype":"monster","keywords":"Koa'ki Meiru Rock EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Rock / Effect","atk":1900,"def":1200},"rarity":"SR","img":"66816282","code":"50","tcg":211656,"grp":2613,"idx":49},
+    {"id":"051","section":"main","num":"051","printed":"SESL-EN051","name":"Koa'ki Meiru Overload","ctype":"monster","keywords":"Koa'ki Meiru Rock EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Rock / Effect","atk":1900,"def":1200},"rarity":"SR","img":"14309486","code":"51","tcg":211657,"grp":2613,"idx":50},
+    {"id":"052","section":"main","num":"052","printed":"SESL-EN052","name":"Talaya, Princess of Cherry Blossoms","ctype":"monster","keywords":"Plant WATER Effect Monster","stats":{"a":"WATER","l":"Level 8","t":"Plant / Effect","atk":2800,"def":1200},"rarity":"SR","img":"80190753","code":"52","tcg":211658,"grp":2613,"idx":51},
+    {"id":"053","section":"main","num":"053","printed":"SESL-EN053","name":"Marina, Princess of Sunflowers","ctype":"monster","keywords":"Plant FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 8","t":"Plant / Effect","atk":2800,"def":1600},"rarity":"SR","img":"78540593","code":"53","tcg":211659,"grp":2613,"idx":52},
+    {"id":"054","section":"main","num":"054","printed":"SESL-EN054","name":"Chirubimé, Princess of Autumn Leaves","ctype":"monster","keywords":"Plant EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 8","t":"Plant / Effect","atk":1800,"def":2800},"rarity":"SR","img":"87294988","code":"54","tcg":211660,"grp":2613,"idx":53},
+    {"id":"055","section":"main","num":"055","printed":"SESL-EN055","name":"D.D. Borderline","ctype":"spell","keywords":"D.D. Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"SR","img":"60912752","code":"55","tcg":211661,"grp":2613,"idx":54},
+    {"id":"056","section":"main","num":"056","printed":"SESL-EN056","name":"Miracle Fertilizer","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"SR","img":"44887817","code":"56","tcg":211662,"grp":2613,"idx":55},
+    {"id":"057","section":"main","num":"057","printed":"SESL-EN057","name":"Pyramid of Wonders","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"SR","img":"66835946","code":"57","tcg":211663,"grp":2613,"idx":56},
+    {"id":"058","section":"main","num":"058","printed":"SESL-EN058","name":"Rock Bombardment","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"20781762","code":"58","tcg":211664,"grp":2613,"idx":57},
+    {"id":"059","section":"main","num":"059","printed":"SESL-EN059","name":"Pollinosis","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"SR","img":"91078716","code":"59","tcg":211665,"grp":2613,"idx":58},
+    {"id":"060","section":"main","num":"060","printed":"SESL-EN060","name":"Trap Trick","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"80101899","code":"60","tcg":211666,"grp":2613,"idx":59}
+  ]
+}

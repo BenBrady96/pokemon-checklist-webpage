@@ -1,0 +1,89 @@
+{
+  "id": "yugioh/dark-legion-starter-deck",
+  "game": "yugioh",
+  "slug": "dark-legion-starter-deck",
+  "name": "Dark Legion Starter Deck",
+  "series": "ARC-V",
+  "kind": "deck",
+  "code": "YS15",
+  "syncKey": "YYS152",
+  "released": "2015-05-29",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "YS15-ENL00–YS15-ENL28",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from YS15-ENL00 to YS15-ENL28."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Dark Legion Starter Deck Checklist · All 29 Cards",
+    "description": "Free Yu-Gi-Oh! Dark Legion Starter Deck checklist with no ads, no sign-up and no tracking. Track all 29 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Dark Legion Starter Deck Checklist",
+    "ogDescription": "Track all 29 cards in Yu-Gi-Oh! Dark Legion Starter Deck. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 29 cards in Yu-Gi-Oh! Dark Legion Starter Deck. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Dark Legion Starter Deck",
+    "paragraphs": [
+      "Dark Legion Starter Deck is a Yu-Gi-Oh! TCG deck released on 29 May 2015, in the ARC-V era. It has 29 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Dark Legion Starter Deck"
+    ],
+    "tcgplayer": [
+      1544
+    ]
+  },
+  "cards": [
+    {"id":"L00","section":"main","num":"L00","printed":"YS15-ENL00","name":"D/D/D Dragon King Pendragon","ctype":"monster","keywords":"D/D Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Fiend / Effect","atk":2600,"def":2400},"rarity":"ScR","img":"56619314","code":"L0","tcg":99091,"grp":1544,"idx":0},
+    {"id":"L01","section":"main","num":"L01","printed":"YS15-ENL01","name":"Beast of Talwar","ctype":"monster","keywords":"Archfiend Fiend DARK Normal Monster","stats":{"a":"DARK","l":"Level 6","t":"Fiend / Normal","atk":2400,"def":2150},"rarity":"C","img":"11761845","code":"L1","tcg":99092,"grp":1544,"idx":1},
+    {"id":"L02","section":"main","num":"L02","printed":"YS15-ENL02","name":"Archfiend Soldier","ctype":"monster","keywords":"Archfiend Fiend DARK Normal Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Normal","atk":1900,"def":1500},"rarity":"C","img":"49881766","code":"L2","tcg":99090,"grp":1544,"idx":2},
+    {"id":"L03","section":"main","num":"L03","printed":"YS15-ENL03","name":"The Dragon Dwelling in the Cave","ctype":"monster","keywords":"Dragon WIND Normal Monster","stats":{"a":"WIND","l":"Level 4","t":"Dragon / Normal","atk":1300,"def":2000},"rarity":"C","img":"93346024","code":"L3","tcg":99093,"grp":1544,"idx":3},
+    {"id":"L04","section":"main","num":"L04","printed":"YS15-ENL04","name":"Gravi-Crush Dragon","ctype":"monster","keywords":"Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Dragon / Effect","atk":2400,"def":1200},"rarity":"C","img":"9391354","code":"L4","tcg":99094,"grp":1544,"idx":4},
+    {"id":"L05","section":"main","num":"L05","printed":"YS15-ENL05","name":"Goblin Elite Attack Force","ctype":"monster","keywords":"Fiend EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Fiend / Effect","atk":2200,"def":1500},"rarity":"C","img":"85306040","code":"L5","tcg":99095,"grp":1544,"idx":5},
+    {"id":"L06","section":"main","num":"L06","printed":"YS15-ENL06","name":"Axe Dragonute","ctype":"monster","keywords":"Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Dragon / Effect","atk":2000,"def":1200},"rarity":"C","img":"84914462","code":"L6","tcg":99096,"grp":1544,"idx":6},
+    {"id":"L07","section":"main","num":"L07","printed":"YS15-ENL07","name":"Lancer Lindwurm","ctype":"monster","keywords":"Dragon WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Dragon / Effect","atk":1800,"def":1200},"rarity":"C","img":"46272804","code":"L7","tcg":99097,"grp":1544,"idx":7},
+    {"id":"L08","section":"main","num":"L08","printed":"YS15-ENL08","name":"Mad Archfiend","ctype":"monster","keywords":"Archfiend Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Effect","atk":1800,"def":0},"rarity":"C","img":"94664694","code":"L8","tcg":99098,"grp":1544,"idx":8},
+    {"id":"L09","section":"main","num":"L09","printed":"YS15-ENL09","name":"Fabled Ashenveil","ctype":"monster","keywords":"Fabled Fiend LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fiend / Effect","atk":1600,"def":1200},"rarity":"C","img":"12235475","code":"L9","tcg":99099,"grp":1544,"idx":9},
+    {"id":"L10","section":"main","num":"L10","printed":"YS15-ENL10","name":"Lancer Dragonute","ctype":"monster","keywords":"Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Dragon / Effect","atk":1500,"def":1800},"rarity":"C","img":"11125718","code":"L10","tcg":99100,"grp":1544,"idx":10},
+    {"id":"L11","section":"main","num":"L11","printed":"YS15-ENL11","name":"Theban Nightmare","ctype":"monster","keywords":"Fiend LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fiend / Effect","atk":1500,"def":500},"rarity":"C","img":"51838385","code":"L11","tcg":99101,"grp":1544,"idx":11},
+    {"id":"L12","section":"main","num":"L12","printed":"YS15-ENL12","name":"Exploder Dragon","ctype":"monster","keywords":"Dragon EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Dragon / Effect","atk":1000,"def":0},"rarity":"SHR","img":"20586572","code":"L12","tcg":99102,"grp":1544,"idx":12},
+    {"id":"L13","section":"main","num":"L13","printed":"YS15-ENL13","name":"Grave Squirmer","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Fiend / Effect","atk":0,"def":0},"rarity":"C","img":"48343627","code":"L13","tcg":99103,"grp":1544,"idx":13},
+    {"id":"L14","section":"main","num":"L14","printed":"YS15-ENL14","name":"Dark Hole","ctype":"spell","keywords":"Hole Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SHR","img":"53129443","code":"L14","tcg":99104,"grp":1544,"idx":14},
+    {"id":"L15","section":"main","num":"L15","printed":"YS15-ENL15","name":"Smashing Ground","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SHR","img":"97169186","code":"L15","tcg":99105,"grp":1544,"idx":15},
+    {"id":"L16","section":"main","num":"L16","printed":"YS15-ENL16","name":"Monster Reincarnation","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"74848038","code":"L16","tcg":99106,"grp":1544,"idx":16},
+    {"id":"L17","section":"main","num":"L17","printed":"YS15-ENL17","name":"Mystical Space Typhoon","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"5318639","code":"L17","tcg":99107,"grp":1544,"idx":17},
+    {"id":"L18","section":"main","num":"L18","printed":"YS15-ENL18","name":"Rush Recklessly","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"70046172","code":"L18","tcg":99108,"grp":1544,"idx":18},
+    {"id":"L19","section":"main","num":"L19","printed":"YS15-ENL19","name":"Axe of Despair","ctype":"spell","keywords":"Archfiend Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"40619825","code":"L19","tcg":99109,"grp":1544,"idx":19},
+    {"id":"L20","section":"main","num":"L20","printed":"YS15-ENL20","name":"Malevolent Nuzzler","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"99597615","code":"L20","tcg":99110,"grp":1544,"idx":20},
+    {"id":"L21","section":"main","num":"L21","printed":"YS15-ENL21","name":"Banner of Courage","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"10012614","code":"L21","tcg":99111,"grp":1544,"idx":21},
+    {"id":"L22","section":"main","num":"L22","printed":"YS15-ENL22","name":"Mirror Force","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SHR","img":"44095762","code":"L22","tcg":99112,"grp":1544,"idx":22},
+    {"id":"L23","section":"main","num":"L23","printed":"YS15-ENL23","name":"Magic Cylinder","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SHR","img":"62279055","code":"L23","tcg":99113,"grp":1544,"idx":23},
+    {"id":"L24","section":"main","num":"L24","printed":"YS15-ENL24","name":"Trap Hole","ctype":"trap","keywords":"Hole Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"4206964","code":"L24","tcg":99114,"grp":1544,"idx":24},
+    {"id":"L25","section":"main","num":"L25","printed":"YS15-ENL25","name":"Dust Tornado","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"60082869","code":"L25","tcg":99115,"grp":1544,"idx":25},
+    {"id":"L26","section":"main","num":"L26","printed":"YS15-ENL26","name":"Mask of Weakness","ctype":"trap","keywords":"Mask Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"57882509","code":"L26","tcg":99116,"grp":1544,"idx":26},
+    {"id":"L27","section":"main","num":"L27","printed":"YS15-ENL27","name":"Call of the Haunted","ctype":"trap","keywords":"Call of the Haunted Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"97077563","code":"L27","tcg":99117,"grp":1544,"idx":27},
+    {"id":"L28","section":"main","num":"L28","printed":"YS15-ENL28","name":"Negate Attack","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"C","img":"14315573","code":"L28","tcg":99118,"grp":1544,"idx":28}
+  ]
+}

@@ -1,0 +1,21 @@
+export default {
+  title: 'Free Pokémon Card Checklist & Collection Tracker',
+  description: 'Free Pokémon card checklists for every English set from Base Set to Mega Evolution, with no ads, no sign-up and no tracking. Tick off your cards, chase master sets and reverse holos, count duplicates and see what your collection is worth.',
+  ogTitle: 'Binder Tracker · Free Pokémon Card Checklist & Collection Tracker',
+  ogDescription: 'Free checklists for every English Pokémon TCG set from Base Set to Mega Evolution, with no ads, no sign-up and no tracking. Track standard, master and grand master sets with reverse holos and 1st Editions, count duplicates and plan binder pages. Works offline.',
+  twitterDescription: 'Free checklists for every English Pokémon TCG set from Base Set to Mega Evolution. No ads, no sign-up, no tracking.',
+  imageAlt: 'Binder Tracker: card checklists for Pokémon TCG sets',
+  pageName: 'Pokémon TCG Checklists',
+  heroTitle: 'Every Pokémon card in your binder, <span class="brand__gold">ticked off</span>',
+  heroText: ({ expansions }) => `Free Pokémon card checklists for ${expansions} sets, from Base Set to Mega Evolution. Tick off what you own, track spare copies and see what your collection is worth. No ads, no sign-up, no tracking.`,
+  search: 'Find a set, e.g. Surging Sparks or SSP',
+  span: 'Base Set to Mega Evolution',
+  rootText: 'every English set from Base Set to Mega Evolution, with reverse holos, promos and secret rares.',
+  aboutTitle: 'About Binder Tracker',
+  about: [
+    'Binder Tracker is a free Pokémon card checklist and collection tracker. Every English Pokémon TCG expansion from Base Set to Mega Evolution has its own checklist, with card images, rarities and TCGplayer prices, plus the Black Star promos, trainer kits, McDonald’s collections, World Championships Decks and more.',
+    'Pick what you’re collecting in each set: the <b>Standard set</b> (the main set), the <b>Master set</b> (the main set plus each reverse holo and Poké Ball or Master Ball pattern) or the <b>Grand Master set</b> (every card, adding the secret rares).',
+    'Scan a card with your camera to add it, count your duplicates, see what your collection is worth in pounds, dollars or euros, and swap trade codes with friends to check a trade is fair.',
+    'There are <b>no ads, no sign-up and no tracking</b>. Your collection stays on your device, it works on phones and computers even offline, and <b>Export or share</b> moves it to another device as a link, code, QR code or file.',
+  ],
+};

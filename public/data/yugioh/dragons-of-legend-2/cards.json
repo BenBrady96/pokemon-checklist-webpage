@@ -1,0 +1,105 @@
+{
+  "id": "yugioh/dragons-of-legend-2",
+  "game": "yugioh",
+  "slug": "dragons-of-legend-2",
+  "name": "Dragons of Legend 2",
+  "series": "ARC-V",
+  "kind": "set",
+  "code": "DRL2",
+  "syncKey": "YDRL2",
+  "released": "2015-07-16",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Main Set",
+      "range": "DRL2-EN001–DRL2-EN045",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from DRL2-EN001 to DRL2-EN045."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Dragons of Legend 2 Checklist · All 45 Cards",
+    "description": "Free Yu-Gi-Oh! Dragons of Legend 2 checklist with no ads, no sign-up and no tracking. Track all 45 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Dragons of Legend 2 Checklist",
+    "ogDescription": "Track all 45 cards in Yu-Gi-Oh! Dragons of Legend 2. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 45 cards in Yu-Gi-Oh! Dragons of Legend 2. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About the Dragons of Legend 2 set",
+    "paragraphs": [
+      "Dragons of Legend 2 is a Yu-Gi-Oh! TCG special set released on 16 July 2015, in the ARC-V era. It has 45 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Dragons of Legend 2"
+    ],
+    "tcgplayer": [
+      1574
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"DRL2-EN001","name":"Timaeus the Knight of Destiny","ctype":"monster","keywords":"Legendary Knight Warrior LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 10","t":"Warrior / Fusion","atk":-1,"def":-1},"rarity":"ScR","img":"53315891","code":"1","tcg":101043,"grp":1574,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"DRL2-EN002","name":"Legendary Knight Critias","ctype":"monster","keywords":"Legendary Knight Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Warrior / Effect","atk":2800,"def":1800},"rarity":"ScR","img":"85800949","code":"2","tcg":101044,"grp":1574,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"DRL2-EN003","name":"Doom Virus Dragon","ctype":"monster","keywords":"Legendary Knight Dragon DARK Fusion Monster","stats":{"a":"DARK","l":"Level 4","t":"Dragon / Fusion","atk":1900,"def":1500},"rarity":"ScR","img":"22804644","code":"3","tcg":101045,"grp":1574,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"DRL2-EN004","name":"Tyrant Burst Dragon","ctype":"monster","keywords":"Legendary Knight Dragon LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Fusion","atk":2900,"def":2500},"rarity":"ScR","img":"58293343","code":"4","tcg":101046,"grp":1574,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"DRL2-EN005","name":"Mirror Force Dragon","ctype":"monster","keywords":"Legendary Knight Dragon LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Fusion","atk":2800,"def":1200},"rarity":"ScR","img":"84687358","code":"5","tcg":101047,"grp":1574,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"DRL2-EN006","name":"The Fang of Critias","ctype":"spell","keywords":"Legendary Knight Normal Spell","stats":{"t":"Normal Spell"},"rarity":"ScR","img":"11082056","code":"6","tcg":101048,"grp":1574,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"DRL2-EN007","name":"Tyrant Wing","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"57470761","code":"7","tcg":101049,"grp":1574,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"DRL2-EN008","name":"Legendary Knight Hermos","ctype":"monster","keywords":"Legendary Knight Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Warrior / Effect","atk":2800,"def":1800},"rarity":"ScR","img":"84565800","code":"8","tcg":101050,"grp":1574,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"DRL2-EN009","name":"Time Magic Hammer","ctype":"monster","keywords":"Legendary Knight Spellcaster LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 2","t":"Spellcaster / Fusion","atk":500,"def":400},"rarity":"ScR","img":"10960419","code":"9","tcg":101051,"grp":1574,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"DRL2-EN010","name":"Rocket Hermos Cannon","ctype":"monster","keywords":"Legendary Knight Warrior LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Fusion","atk":1500,"def":1300},"rarity":"ScR","img":"46354113","code":"10","tcg":101052,"grp":1574,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"DRL2-EN011","name":"Goddess Bow","ctype":"monster","keywords":"Legendary Knight Warrior LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Fusion","atk":1500,"def":1600},"rarity":"ScR","img":"83743222","code":"11","tcg":101053,"grp":1574,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"DRL2-EN012","name":"Red-Eyes Black Dragon Sword","ctype":"monster","keywords":"Red-Eyes Dragon DARK Fusion Monster","stats":{"a":"DARK","l":"Level 7","t":"Dragon / Fusion","atk":2400,"def":2000},"rarity":"ScR","img":"19747827","code":"12","tcg":101054,"grp":1574,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"DRL2-EN013","name":"The Claw of Hermos","ctype":"spell","keywords":"Legendary Knight Normal Spell","stats":{"t":"Normal Spell"},"rarity":"ScR","img":"46232525","code":"13","tcg":101055,"grp":1574,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"DRL2-EN014","name":"Roulette Spider","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"SR","img":"36708764","code":"14","tcg":101056,"grp":1574,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"DRL2-EN015","name":"Double Magical Arm Bind","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"72621670","code":"15","tcg":101057,"grp":1574,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"DRL2-EN016","name":"Lord of the Red","ctype":"monster","keywords":"Red-Eyes Dragon FIRE Ritual Effect Monster","stats":{"a":"FIRE","l":"Level 8","t":"Dragon / Ritual / Effect","atk":2400,"def":2100},"rarity":"ScR","img":"19025379","code":"16","tcg":101058,"grp":1574,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"DRL2-EN017","name":"Red-Eyes Transmigration","ctype":"spell","keywords":"Red-Eyes Ritual Spell","stats":{"t":"Ritual Spell"},"rarity":"SR","img":"45410988","code":"17","tcg":101059,"grp":1574,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"DRL2-EN018","name":"Paladin of Dark Dragon","ctype":"monster","keywords":"Red-Eyes Dragon DARK Ritual Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Dragon / Ritual / Effect","atk":1900,"def":1200},"rarity":"ScR","img":"71408082","code":"18","tcg":101060,"grp":1574,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"DRL2-EN019","name":"Dark Dragon Ritual","ctype":"spell","keywords":"Red-Eyes Ritual Spell","stats":{"t":"Ritual Spell"},"rarity":"SR","img":"18803791","code":"19","tcg":101061,"grp":1574,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"DRL2-EN020","name":"Red-Eyes Spirit","ctype":"trap","keywords":"Red-Eyes Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"44397496","code":"20","tcg":101062,"grp":1574,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"DRL2-EN021","name":"Red-Eyes Burn","ctype":"trap","keywords":"Red-Eyes Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"71782404","code":"21","tcg":101063,"grp":1574,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"DRL2-EN022","name":"Toon Ancient Gear Golem","ctype":"monster","keywords":"Toon Machine EARTH Monster","stats":{"a":"EARTH","l":"Level 8","t":"Machine / Toon","atk":3000,"def":3000},"rarity":"SR","img":"7171149","code":"22","tcg":101064,"grp":1574,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"DRL2-EN023","name":"Toon Kingdom","ctype":"spell","keywords":"Toon Field Spell","stats":{"t":"Field Spell"},"rarity":"ScR","img":"43175858","code":"23","tcg":101065,"grp":1574,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"DRL2-EN024","name":"Toon Rollback","ctype":"spell","keywords":"Toon Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"70560957","code":"24","tcg":101066,"grp":1574,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"DRL2-EN025","name":"Shadow Toon","ctype":"spell","keywords":"Toon Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"6958551","code":"25","tcg":101067,"grp":1574,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"DRL2-EN026","name":"Comic Hand","ctype":"spell","keywords":"Toon Equip Spell","stats":{"t":"Equip Spell"},"rarity":"ScR","img":"33453260","code":"26","tcg":101068,"grp":1574,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"DRL2-EN027","name":"Mimicat","ctype":"spell","keywords":"Toon Normal Spell","stats":{"t":"Normal Spell"},"rarity":"ScR","img":"88032456","code":"27","tcg":101069,"grp":1574,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"DRL2-EN028","name":"Toon Mask","ctype":"trap","keywords":"Toon Normal Trap","stats":{"t":"Normal Trap"},"rarity":"ScR","img":"79447365","code":"28","tcg":101070,"grp":1574,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"DRL2-EN029","name":"Toon Briefcase","ctype":"trap","keywords":"Toon Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"5832914","code":"29","tcg":101071,"grp":1574,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"DRL2-EN030","name":"Prediction Princess Coinorma","ctype":"monster","keywords":"Prediction Princess Fairy EARTH Flip Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Fairy / Flip / Effect","atk":800,"def":1400},"rarity":"SR","img":"32231618","code":"30","tcg":101072,"grp":1574,"idx":29},
+    {"id":"031","section":"main","num":"031","printed":"DRL2-EN031","name":"Prediction Princess Petalelf","ctype":"monster","keywords":"Prediction Princess Fairy EARTH Flip Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Fairy / Flip / Effect","atk":800,"def":700},"rarity":"SR","img":"68625727","code":"31","tcg":101073,"grp":1574,"idx":30},
+    {"id":"032","section":"main","num":"032","printed":"DRL2-EN032","name":"Prediction Princess Astromorrigan","ctype":"monster","keywords":"Prediction Princess Fairy DARK Flip Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Fairy / Flip / Effect","atk":1300,"def":0},"rarity":"SR","img":"5010422","code":"32","tcg":101074,"grp":1574,"idx":31},
+    {"id":"033","section":"main","num":"033","printed":"DRL2-EN033","name":"Prediction Princess Arrowsylph","ctype":"monster","keywords":"Prediction Princess Fairy WIND Flip Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Fairy / Flip / Effect","atk":1000,"def":1400},"rarity":"SR","img":"31118030","code":"33","tcg":101075,"grp":1574,"idx":32},
+    {"id":"034","section":"main","num":"034","printed":"DRL2-EN034","name":"Prediction Princess Crystaldine","ctype":"monster","keywords":"Prediction Princess Fairy WATER Flip Effect Monster","stats":{"a":"WATER","l":"Level 5","t":"Fairy / Flip / Effect","atk":1400,"def":2200},"rarity":"SR","img":"67503139","code":"34","tcg":101076,"grp":1574,"idx":33},
+    {"id":"035","section":"main","num":"035","printed":"DRL2-EN035","name":"Prediction Princess Tarotrei","ctype":"monster","keywords":"Prediction Princess Fairy LIGHT Ritual Effect Monster","stats":{"a":"LIGHT","l":"Level 9","t":"Fairy / Ritual / Effect","atk":2700,"def":1200},"rarity":"ScR","img":"94997874","code":"35","tcg":101077,"grp":1574,"idx":34},
+    {"id":"036","section":"main","num":"036","printed":"DRL2-EN036","name":"Prediction Ritual","ctype":"spell","keywords":"Prediction Princess Ritual Spell","stats":{"t":"Ritual Spell"},"rarity":"SR","img":"30392583","code":"36","tcg":101078,"grp":1574,"idx":35},
+    {"id":"037","section":"main","num":"037","printed":"DRL2-EN037","name":"Black Cat-astrophe","ctype":"trap","keywords":"Prediction Princess Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"67381587","code":"37","tcg":101079,"grp":1574,"idx":36},
+    {"id":"038","section":"main","num":"038","printed":"DRL2-EN038","name":"Reverse Reuse","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"93775296","code":"38","tcg":101080,"grp":1574,"idx":37},
+    {"id":"039","section":"main","num":"039","printed":"DRL2-EN039","name":"Aquaactress Tetra","ctype":"monster","keywords":"Aquaactress Aqua WATER Effect Monster","stats":{"a":"WATER","l":"Level 1","t":"Aqua / Effect","atk":300,"def":300},"rarity":"SR","img":"39260991","code":"39","tcg":101081,"grp":1574,"idx":38},
+    {"id":"040","section":"main","num":"040","printed":"DRL2-EN040","name":"Aquaactress Guppy","ctype":"monster","keywords":"Aquaactress Aqua WATER Effect Monster","stats":{"a":"WATER","l":"Level 2","t":"Aqua / Effect","atk":600,"def":600},"rarity":"SR","img":"66668900","code":"40","tcg":101082,"grp":1574,"idx":39},
+    {"id":"041","section":"main","num":"041","printed":"DRL2-EN041","name":"Aquaactress Arowana","ctype":"monster","keywords":"Aquaactress Aqua WATER Effect Monster","stats":{"a":"WATER","l":"Level 6","t":"Aqua / Effect","atk":2000,"def":2000},"rarity":"SR","img":"92053608","code":"41","tcg":101083,"grp":1574,"idx":40},
+    {"id":"042","section":"main","num":"042","printed":"DRL2-EN042","name":"Aquarium Stage","ctype":"spell","keywords":"Aquaactress Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"SR","img":"29047353","code":"42","tcg":101084,"grp":1574,"idx":41},
+    {"id":"043","section":"main","num":"043","printed":"DRL2-EN043","name":"Aquarium Set","ctype":"spell","keywords":"Aquaactress Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"SR","img":"65446452","code":"43","tcg":101085,"grp":1574,"idx":42},
+    {"id":"044","section":"main","num":"044","printed":"DRL2-EN044","name":"Aquarium Lighting","ctype":"spell","keywords":"Aquaactress Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"SR","img":"91831066","code":"44","tcg":101086,"grp":1574,"idx":43},
+    {"id":"045","section":"main","num":"045","printed":"DRL2-EN045","name":"Aqua Story - Urashima","ctype":"trap","keywords":"Aquaactress Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"28325165","code":"45","tcg":101087,"grp":1574,"idx":44}
+  ]
+}

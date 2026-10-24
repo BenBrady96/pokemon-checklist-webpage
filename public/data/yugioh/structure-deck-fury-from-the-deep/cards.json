@@ -1,0 +1,92 @@
+{
+  "id": "yugioh/structure-deck-fury-from-the-deep",
+  "game": "yugioh",
+  "slug": "structure-deck-fury-from-the-deep",
+  "name": "Structure Deck: Fury from the Deep",
+  "series": "Duel Monsters",
+  "kind": "deck",
+  "code": "SD4",
+  "syncKey": "YSD4",
+  "released": "2005-05-09",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "SD4-EN001–SD4-EN032",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from SD4-EN001 to SD4-EN032."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Structure Deck: Fury from the Deep Checklist · All 32 Cards",
+    "description": "Free Yu-Gi-Oh! Structure Deck: Fury from the Deep checklist with no ads, no sign-up and no tracking. Track all 32 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Structure Deck: Fury from the Deep Checklist",
+    "ogDescription": "Track all 32 cards in Yu-Gi-Oh! Structure Deck: Fury from the Deep. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 32 cards in Yu-Gi-Oh! Structure Deck: Fury from the Deep. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Structure Deck: Fury from the Deep",
+    "paragraphs": [
+      "Structure Deck: Fury from the Deep is a Yu-Gi-Oh! TCG deck released on 9 May 2005, in the Duel Monsters era. It has 32 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Structure Deck: Fury from the Deep"
+    ],
+    "tcgplayer": [
+      308
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"SD4-EN001","name":"Ocean Dragon Lord - Neo-Daedalus","ctype":"monster","keywords":"Umi Sea Serpent WATER Effect Monster","stats":{"a":"WATER","l":"Level 8","t":"Sea Serpent / Effect","atk":2900,"def":1600},"rarity":"UR","img":"10485110","code":"1","tcg":24146,"grp":308,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"SD4-EN002","name":"7 Colored Fish","ctype":"monster","keywords":"Fish WATER Normal Monster","stats":{"a":"WATER","l":"Level 4","t":"Fish / Normal","atk":1800,"def":800},"rarity":"C","img":"23771716","code":"2","tcg":24147,"grp":308,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"SD4-EN003","name":"Sea Serpent Warrior of Darkness","ctype":"monster","keywords":"Sea Serpent WATER Normal Monster","stats":{"a":"WATER","l":"Level 4","t":"Sea Serpent / Normal","atk":1800,"def":1500},"rarity":"C","img":"42071342","code":"3","tcg":24148,"grp":308,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"SD4-EN004","name":"Space Mambo","ctype":"monster","keywords":"Fish WATER Normal Monster","stats":{"a":"WATER","l":"Level 4","t":"Fish / Normal","atk":1700,"def":1000},"rarity":"C","img":"36119641","code":"4","tcg":24149,"grp":308,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"SD4-EN005","name":"Mother Grizzly","ctype":"monster","keywords":"Beast-Warrior WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Beast-Warrior / Effect","atk":1400,"def":1000},"rarity":"C","img":"57839750","code":"5","tcg":24150,"grp":308,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"SD4-EN006","name":"Star Boy","ctype":"monster","keywords":"Aqua WATER Effect Monster","stats":{"a":"WATER","l":"Level 2","t":"Aqua / Effect","atk":550,"def":500},"rarity":"C","img":"8201910","code":"6","tcg":24151,"grp":308,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"SD4-EN007","name":"Tribe-Infecting Virus","ctype":"monster","keywords":"Aqua WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Aqua / Effect","atk":1600,"def":1000},"rarity":"C","img":"33184167","code":"7","tcg":24152,"grp":308,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"SD4-EN008","name":"Fenrir","ctype":"monster","keywords":"Beast WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Beast / Effect","atk":1400,"def":1200},"rarity":"C","img":"218704","code":"8","tcg":24153,"grp":308,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"SD4-EN009","name":"Amphibious Bugroth MK-3","ctype":"monster","keywords":"Umi Machine WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Machine / Effect","atk":1500,"def":1300},"rarity":"C","img":"64342551","code":"9","tcg":24154,"grp":308,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"SD4-EN010","name":"Levia-Dragon - Daedalus","ctype":"monster","keywords":"Umi Sea Serpent WATER Effect Monster","stats":{"a":"WATER","l":"Level 7","t":"Sea Serpent / Effect","atk":2600,"def":1500},"rarity":"C","img":"37721209","code":"10","tcg":24155,"grp":308,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"SD4-EN011","name":"Mermaid Knight","ctype":"monster","keywords":"Umi Aqua WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Aqua / Effect","atk":1500,"def":700},"rarity":"C","img":"24435369","code":"11","tcg":24156,"grp":308,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"SD4-EN012","name":"Mobius the Frost Monarch","ctype":"monster","keywords":"Monarch Aqua WATER Effect Monster","stats":{"a":"WATER","l":"Level 6","t":"Aqua / Effect","atk":2400,"def":1000},"rarity":"C","img":"4929256","code":"12","tcg":24157,"grp":308,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"SD4-EN013","name":"Unshaven Angler","ctype":"monster","keywords":"Fish WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Fish / Effect","atk":1500,"def":1600},"rarity":"C","img":"92084010","code":"13","tcg":24158,"grp":308,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"SD4-EN014","name":"Creeping Doom Manta","ctype":"monster","keywords":"Fish WATER Effect Monster","stats":{"a":"WATER","l":"Level 3","t":"Fish / Effect","atk":1300,"def":1200},"rarity":"C","img":"52571838","code":"14","tcg":24159,"grp":308,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"SD4-EN015","name":"Snatch Steal","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"45986603","code":"15","tcg":24160,"grp":308,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"SD4-EN016","name":"Mystical Space Typhoon","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"5318639","code":"16","tcg":24161,"grp":308,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"SD4-EN017","name":"Premature Burial","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"70828912","code":"17","tcg":24162,"grp":308,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"SD4-EN018","name":"Pot of Greed","ctype":"spell","keywords":"Greed Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"55144522","code":"18","tcg":24163,"grp":308,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"SD4-EN019","name":"Heavy Storm","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"19613556","code":"19","tcg":24164,"grp":308,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"SD4-EN020","name":"A Legendary Ocean","ctype":"spell","keywords":"Umi Field Spell","stats":{"t":"Field Spell"},"rarity":"C","img":"295517","code":"20","tcg":24165,"grp":308,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"SD4-EN021","name":"Creature Swap","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"31036355","code":"21","tcg":24166,"grp":308,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"SD4-EN022","name":"Reload","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"22589918","code":"22","tcg":24167,"grp":308,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"SD4-EN023","name":"Salvage","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"96947648","code":"23","tcg":24168,"grp":308,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"SD4-EN024","name":"Hammer Shot","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"26412047","code":"24","tcg":24169,"grp":308,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"SD4-EN025","name":"Big Wave Small Wave","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"51562916","code":"25","tcg":24170,"grp":308,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"SD4-EN026","name":"Dust Tornado","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"60082869","code":"26","tcg":24171,"grp":308,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"SD4-EN027","name":"Call of the Haunted","ctype":"trap","keywords":"Call of the Haunted Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"97077563","code":"27","tcg":24172,"grp":308,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"SD4-EN028","name":"Gravity Bind","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"85742772","code":"28","tcg":24173,"grp":308,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"SD4-EN029","name":"Tornado Wall","ctype":"trap","keywords":"Umi Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"18605135","code":"29","tcg":24174,"grp":308,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"SD4-EN030","name":"Torrential Tribute","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"53582587","code":"30","tcg":24175,"grp":308,"idx":29},
+    {"id":"031","section":"main","num":"031","printed":"SD4-EN031","name":"Spell Shield Type-8","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"C","img":"38275183","code":"31","tcg":24176,"grp":308,"idx":30},
+    {"id":"032","section":"main","num":"032","printed":"SD4-EN032","name":"Xing Zhen Hu","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"76515293","code":"32","tcg":24177,"grp":308,"idx":31}
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "yugioh/duelist-pack-crow",
+  "game": "yugioh",
+  "slug": "duelist-pack-crow",
+  "name": "Duelist Pack: Crow",
+  "series": "5D’s",
+  "kind": "pack",
+  "code": "DP11",
+  "syncKey": "YDP11",
+  "released": "2011-05-27",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "DP11-EN001–DP11-EN030",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from DP11-EN001 to DP11-EN030."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Duelist Pack: Crow Checklist · All 30 Cards",
+    "description": "Free Yu-Gi-Oh! Duelist Pack: Crow checklist with no ads, no sign-up and no tracking. Track all 30 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Duelist Pack: Crow Checklist",
+    "ogDescription": "Track all 30 cards in Yu-Gi-Oh! Duelist Pack: Crow. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 30 cards in Yu-Gi-Oh! Duelist Pack: Crow. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Duelist Pack: Crow",
+    "paragraphs": [
+      "Duelist Pack: Crow is a Yu-Gi-Oh! TCG pack released on 27 May 2011, in the 5D’s era. It has 30 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Duelist Pack: Crow"
+    ],
+    "tcgplayer": [
+      186
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"DP11-EN001","name":"Blackwing - Gale the Whirlwind","ctype":"monster","keywords":"Blackwing Winged Beast DARK Tuner Monster","stats":{"a":"DARK","l":"Level 3","t":"Winged Beast / Tuner","atk":1300,"def":400},"rarity":"R","img":"2009101","code":"1","tcg":46888,"grp":186,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"DP11-EN002","name":"Blackwing - Bora the Spear","ctype":"monster","keywords":"Blackwing Winged Beast DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Winged Beast / Effect","atk":1700,"def":800},"rarity":"R","img":"49003716","code":"2","tcg":46889,"grp":186,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"DP11-EN003","name":"Blackwing - Blizzard the Far North","ctype":"monster","keywords":"Blackwing Winged Beast DARK Tuner Monster","stats":{"a":"DARK","l":"Level 2","t":"Winged Beast / Tuner","atk":1300,"def":0},"rarity":"C","img":"22835145","code":"3","tcg":46890,"grp":186,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"DP11-EN004","name":"Blackwing - Shura the Blue Flame","ctype":"monster","keywords":"Blackwing Winged Beast DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Winged Beast / Effect","atk":1800,"def":1200},"rarity":"R","img":"58820853","code":"4","tcg":46891,"grp":186,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"DP11-EN005","name":"Blackwing - Elphin the Raven","ctype":"monster","keywords":"Blackwing Winged Beast DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Winged Beast / Effect","atk":2200,"def":1200},"rarity":"R","img":"11613567","code":"5","tcg":46892,"grp":186,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"DP11-EN006","name":"Blackwing - Mistral the Silver Shield","ctype":"monster","keywords":"Blackwing Winged Beast DARK Tuner Monster","stats":{"a":"DARK","l":"Level 2","t":"Winged Beast / Tuner","atk":100,"def":1800},"rarity":"C","img":"46710683","code":"6","tcg":46893,"grp":186,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"DP11-EN007","name":"Blackwing - Fane the Steel Chain","ctype":"monster","keywords":"Blackwing Winged Beast DARK Effect Monster","stats":{"a":"DARK","l":"Level 2","t":"Winged Beast / Effect","atk":500,"def":800},"rarity":"C","img":"9109991","code":"7","tcg":46894,"grp":186,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"DP11-EN008","name":"Blackwing - Ghibli the Searing Wind","ctype":"monster","keywords":"Blackwing Winged Beast DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Winged Beast / Effect","atk":0,"def":1600},"rarity":"C","img":"26775203","code":"8","tcg":46895,"grp":186,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"DP11-EN009","name":"Blackwing - Gust the Backblast","ctype":"monster","keywords":"Blackwing Winged Beast DARK Effect Monster","stats":{"a":"DARK","l":"Level 2","t":"Winged Beast / Effect","atk":900,"def":1400},"rarity":"C","img":"52869807","code":"9","tcg":46896,"grp":186,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"DP11-EN010","name":"Blackwing - Kochi the Daybreak","ctype":"monster","keywords":"Blackwing Winged Beast DARK Tuner Monster","stats":{"a":"DARK","l":"Level 4","t":"Winged Beast / Tuner","atk":700,"def":1500},"rarity":"R","img":"41902352","code":"10","tcg":46897,"grp":186,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"DP11-EN011","name":"Blackwing - Jetstream the Blue Sky","ctype":"monster","keywords":"Blackwing Winged Beast DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Winged Beast / Effect","atk":100,"def":800},"rarity":"UR","img":"87390067","code":"11","tcg":46898,"grp":186,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"DP11-EN012","name":"Blackwing - Zephyros the Elite","ctype":"monster","keywords":"Blackwing Winged Beast DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Winged Beast / Effect","atk":1600,"def":1000},"rarity":"UR","img":"14785765","code":"12","tcg":46899,"grp":186,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"DP11-EN013","name":"Blackwing Armor Master","ctype":"monster","keywords":"Blackwing Winged Beast DARK Synchro Monster","stats":{"a":"DARK","l":"Level 7","t":"Winged Beast / Synchro","atk":2500,"def":1500},"rarity":"SR","img":"69031175","code":"13","tcg":46900,"grp":186,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"DP11-EN014","name":"Blackwing Armed Wing","ctype":"monster","keywords":"Blackwing Winged Beast DARK Synchro Monster","stats":{"a":"DARK","l":"Level 6","t":"Winged Beast / Synchro","atk":2300,"def":1000},"rarity":"R","img":"76913983","code":"14","tcg":46901,"grp":186,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"DP11-EN015","name":"Blackwing - Silverwind the Ascendant","ctype":"monster","keywords":"Blackwing Winged Beast DARK Synchro Monster","stats":{"a":"DARK","l":"Level 8","t":"Winged Beast / Synchro","atk":2800,"def":2000},"rarity":"R","img":"33236860","code":"15","tcg":46902,"grp":186,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"DP11-EN016","name":"Black-Winged Dragon","ctype":"monster","keywords":"Dragon DARK Synchro Monster","stats":{"a":"DARK","l":"Level 8","t":"Dragon / Synchro","atk":2800,"def":1600},"rarity":"SR","img":"9012916","code":"16","tcg":46903,"grp":186,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"DP11-EN017","name":"Raptor Wing Strike","ctype":"spell","keywords":"Blackwing Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"94681654","code":"17","tcg":46904,"grp":186,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"DP11-EN018","name":"Against the Wind","ctype":"spell","keywords":"Blackwing Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"64952266","code":"18","tcg":46905,"grp":186,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"DP11-EN019","name":"Black-Winged Strafe","ctype":"spell","keywords":"Blackwing Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"67779172","code":"19","tcg":46906,"grp":186,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"DP11-EN020","name":"Cards for Black Feathers","ctype":"spell","keywords":"Blackwing Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"4168871","code":"20","tcg":46907,"grp":186,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"DP11-EN021","name":"Ebon Arrow","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"88341502","code":"21","tcg":46908,"grp":186,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"DP11-EN022","name":"Delta Crow - Anti Reverse","ctype":"trap","keywords":"Blackwing Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"59839761","code":"22","tcg":46909,"grp":186,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"DP11-EN023","name":"Level Retuner","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"86223870","code":"23","tcg":46910,"grp":186,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"DP11-EN024","name":"Fake Feather","ctype":"trap","keywords":"Blackwing Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"22628574","code":"24","tcg":46911,"grp":186,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"DP11-EN025","name":"Blackwing - Backlash","ctype":"trap","keywords":"Blackwing Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"89040386","code":"25","tcg":46912,"grp":186,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"DP11-EN026","name":"Blackwing - Bombardment","ctype":"trap","keywords":"Blackwing Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"25435080","code":"26","tcg":46913,"grp":186,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"DP11-EN027","name":"Black Thunder","ctype":"trap","keywords":"Blackwing Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"52833089","code":"27","tcg":46914,"grp":186,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"DP11-EN028","name":"Guard Mines","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"88928798","code":"28","tcg":46915,"grp":186,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"DP11-EN029","name":"Black Feather Beacon","ctype":"trap","keywords":"Blackwing Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"40279770","code":"29","tcg":46916,"grp":186,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"DP11-EN030","name":"Black Return","ctype":"trap","keywords":"Blackwing Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"72278479","code":"30","tcg":46917,"grp":186,"idx":29}
+  ]
+}

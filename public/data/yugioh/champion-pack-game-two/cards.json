@@ -1,0 +1,80 @@
+{
+  "id": "yugioh/champion-pack-game-two",
+  "game": "yugioh",
+  "slug": "champion-pack-game-two",
+  "name": "Champion Pack: Game Two",
+  "series": "GX",
+  "kind": "pack",
+  "code": "CP02",
+  "syncKey": "YCP02",
+  "released": "2007-02-06",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "CP02-EN001–CP02-EN020",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from CP02-EN001 to CP02-EN020."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Champion Pack: Game Two Checklist · All 20 Cards",
+    "description": "Free Yu-Gi-Oh! Champion Pack: Game Two checklist with no ads, no sign-up and no tracking. Track all 20 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Champion Pack: Game Two Checklist",
+    "ogDescription": "Track all 20 cards in Yu-Gi-Oh! Champion Pack: Game Two. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 20 cards in Yu-Gi-Oh! Champion Pack: Game Two. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Champion Pack: Game Two",
+    "paragraphs": [
+      "Champion Pack: Game Two is a Yu-Gi-Oh! TCG pack released on 6 February 2007, in the GX era. It has 20 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Champion Pack: Game Two"
+    ],
+    "tcgplayer": [
+      150
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"CP02-EN001","name":"Magical Stone Excavation","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UR","img":"98494543","code":"1","tcg":25712,"grp":150,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"CP02-EN002","name":"Nimble Momonga","ctype":"monster","keywords":"Nimble Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 2","t":"Beast / Effect","atk":1000,"def":100},"rarity":"SR","img":"22567609","code":"2","tcg":26460,"grp":150,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"CP02-EN003","name":"Magician of Faith","ctype":"monster","keywords":"Spellcaster LIGHT Flip Effect Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Spellcaster / Flip / Effect","atk":300,"def":400},"rarity":"SR","img":"31560081","code":"3","tcg":26461,"grp":150,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"CP02-EN004","name":"Pyramid Turtle","ctype":"monster","keywords":"Zombie EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Zombie / Effect","atk":1200,"def":1400},"rarity":"SR","img":"77044671","code":"4","tcg":26462,"grp":150,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"CP02-EN005","name":"Smashing Ground","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"97169186","code":"5","tcg":26463,"grp":150,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"CP02-EN006","name":"Kuriboh","ctype":"monster","keywords":"Kuriboh Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Fiend / Effect","atk":300,"def":200},"rarity":"R","img":"40640058","code":"6","tcg":26464,"grp":150,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"CP02-EN007","name":"Abyss Soldier","ctype":"monster","keywords":"Aqua WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Aqua / Effect","atk":1800,"def":1300},"rarity":"R","img":"18318842","code":"7","tcg":26465,"grp":150,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"CP02-EN008","name":"Ring of Destruction","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"R","img":"83555667","code":"8","tcg":26466,"grp":150,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"CP02-EN009","name":"Morphing Jar","ctype":"monster","keywords":"Rock EARTH Flip Effect Monster","stats":{"a":"EARTH","l":"Level 2","t":"Rock / Flip / Effect","atk":700,"def":600},"rarity":"R","img":"33508719","code":"9","tcg":26467,"grp":150,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"CP02-EN010","name":"Dark Master - Zorc","ctype":"monster","keywords":"Fiend DARK Ritual Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Fiend / Ritual / Effect","atk":2700,"def":1500},"rarity":"R","img":"97642679","code":"10","tcg":26468,"grp":150,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"CP02-EN011","name":"Magical Dimension","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"R","img":"28553439","code":"11","tcg":26469,"grp":150,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"CP02-EN012","name":"Happy Lover","ctype":"monster","keywords":"Fairy LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 2","t":"Fairy / Normal","atk":800,"def":500},"rarity":"C","img":"99030164","code":"12","tcg":26470,"grp":150,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"CP02-EN013","name":"Rush Recklessly","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"70046172","code":"13","tcg":26471,"grp":150,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"CP02-EN014","name":"Ceasefire","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"36468556","code":"14","tcg":26472,"grp":150,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"CP02-EN015","name":"Thunder Dragon","ctype":"monster","keywords":"Thunder Dragon Thunder LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 5","t":"Thunder / Effect","atk":1600,"def":1500},"rarity":"C","img":"31786629","code":"15","tcg":26473,"grp":150,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"CP02-EN016","name":"Twin-Headed Behemoth","ctype":"monster","keywords":"Dragon WIND Effect Monster","stats":{"a":"WIND","l":"Level 3","t":"Dragon / Effect","atk":1500,"def":1200},"rarity":"C","img":"43586926","code":"16","tcg":26474,"grp":150,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"CP02-EN017","name":"Book of Taiyou","ctype":"spell","keywords":"Book of Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"38699854","code":"17","tcg":26475,"grp":150,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"CP02-EN018","name":"Terraforming","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"73628505","code":"18","tcg":26476,"grp":150,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"CP02-EN019","name":"Big Bang Shot","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"61127349","code":"19","tcg":26477,"grp":150,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"CP02-EN020","name":"Stray Lambs","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"60764581","code":"20","tcg":26478,"grp":150,"idx":19}
+  ]
+}

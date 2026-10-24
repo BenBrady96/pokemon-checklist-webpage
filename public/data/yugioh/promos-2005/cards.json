@@ -1,0 +1,130 @@
+{
+  "id": "yugioh/promos-2005",
+  "game": "yugioh",
+  "slug": "promos-2005",
+  "name": "Promos 2005",
+  "series": "Promos",
+  "kind": "promo",
+  "code": "P2005",
+  "syncKey": "YP2005",
+  "released": "2005-01-01",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "DL7-EN001–WCS-EN502",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. Numbers count down the list in order: <b>1-5</b> is the first five cards and <b>3x2</b> is two copies of the third.",
+    "empty": "Cards run from DL7-EN001 to WCS-EN502."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Promos 2005 Checklist · All 39 Cards",
+    "description": "Free Yu-Gi-Oh! Promos 2005 checklist with no ads, no sign-up and no tracking. Track all 39 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Promos 2005 Checklist",
+    "ogDescription": "Track all 39 cards in Yu-Gi-Oh! Promos 2005. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 39 cards in Yu-Gi-Oh! Promos 2005. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Promos 2005",
+    "paragraphs": [
+      "Promos 2005 gathers the 39 promo cards from 20 products released in 2005: Duelist League Series 7 participation card, Duelist League Series 8 participation card, Elemental Energy: Special Edition, Forbidden Legacy, Hobby League 1 participation cards C, Swedish Shonen Jump 2005, Issue 12 promotional card, Shonen Jump Vol. 3, Issue 1 promotional card, Yu-Gi-Oh! Nightmare Troubadour promotional cards, Pharaoh Tour 2005 promotional cards, Rise of Destiny: Special Edition, Structure Deck: Deluxe Edition, Shonen Jump Championship 2005 Prize Card, Flaming Eternity Sneak Peek Participation Card, The Lost Millennium Sneak Peek Participation Card, Cybernetic Revolution Sneak Peek Participation Card, Elemental Energy Sneak Peek Participation Card, The Lost Millennium: Special Edition, Make-A-Wish Foundation promotional card, Yu-Gi-Oh! 7 Trials to Glory: World Championship Tournament 2005 promotional cards and Yu-Gi-Oh! World Championship 2005 prize cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Cybernetic Revolution Sneak Peek Participation Card",
+      "Duelist League Series 7 participation card",
+      "Duelist League Series 8 participation card",
+      "Elemental Energy Sneak Peek Participation Card",
+      "Elemental Energy: Special Edition",
+      "Flaming Eternity Sneak Peek Participation Card",
+      "Forbidden Legacy",
+      "Hobby League 1 participation cards C",
+      "Make-A-Wish Foundation promotional card",
+      "Pharaoh Tour 2005 promotional cards",
+      "Rise of Destiny: Special Edition",
+      "Shonen Jump Championship 2005 Prize Card",
+      "Shonen Jump Vol. 3, Issue 1 promotional card",
+      "Structure Deck: Deluxe Edition",
+      "Swedish Shonen Jump 2005, Issue 12 promotional card",
+      "The Lost Millennium Sneak Peek Participation Card",
+      "The Lost Millennium: Special Edition",
+      "Yu-Gi-Oh! 7 Trials to Glory: World Championship Tournament 2005 promotional cards",
+      "Yu-Gi-Oh! Nightmare Troubadour promotional cards",
+      "Yu-Gi-Oh! World Championship 2005 prize cards"
+    ],
+    "tcgplayer": [
+      282,
+      200,
+      275,
+      248,
+      205,
+      346,
+      256,
+      182,
+      232,
+      2215,
+      1655,
+      280,
+      281
+    ]
+  },
+  "cards": [
+    {"id":"DL7-001","section":"main","num":"DL7-EN001","printed":"DL7-EN001","name":"Toon Goblin Attack Force","ctype":"monster","keywords":"Toon Warrior EARTH Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Toon","atk":2300,"def":0},"note":"Duelist League Series 7 participation card","rarity":"SR","img":"15270885","code":"1","tcg":25394,"grp":182,"idx":0},
+    {"id":"DL8-001","section":"main","num":"DL8-EN001","printed":"DL8-EN001","name":"Acid Rain","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"note":"Duelist League Series 8 participation card","rarity":"SR","img":"21323861","code":"2","tcg":25395,"grp":182,"idx":1},
+    {"id":"EEN-SE1","section":"main","num":"EEN-ENSE1","printed":"EEN-ENSE1","name":"Horus the Black Flame Dragon LV8","ctype":"monster","keywords":"Horus the Black Flame Dragon Dragon FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 8","t":"Dragon / Effect","atk":3000,"def":1800},"note":"Elemental Energy: Special Edition","rarity":"ScR","img":"48229808","code":"3","tcg":25117,"grp":200,"idx":2},
+    {"id":"EEN-SE2","section":"main","num":"EEN-ENSE2","printed":"EEN-ENSE2","name":"The Creator","ctype":"monster","keywords":"Thunder LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Thunder / Effect","atk":2300,"def":3000},"note":"Elemental Energy: Special Edition","rarity":"ScR","img":"61505339","code":"4","tcg":25118,"grp":200,"idx":3},
+    {"id":"EEN-SE3","section":"main","num":"EEN-ENSE3","printed":"EEN-ENSE3","name":"Sacred Phoenix of Nephthys","ctype":"monster","keywords":"Nephthys Winged Beast FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 8","t":"Winged Beast / Effect","atk":2400,"def":1600},"note":"Elemental Energy: Special Edition","rarity":"ScR","img":"61441708","code":"5","tcg":25119,"grp":200,"idx":4},
+    {"id":"EEN-SE4","section":"main","num":"EEN-ENSE4","printed":"EEN-ENSE4","name":"Silent Swordsman LV5","ctype":"monster","keywords":"Silent Swordsman Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 5","t":"Warrior / Effect","atk":2300,"def":1000},"note":"Elemental Energy: Special Edition","rarity":"ScR","img":"74388798","code":"6","tcg":25120,"grp":200,"idx":5},
+    {"id":"FL1-001","section":"main","num":"FL1-EN001","printed":"FL1-EN001","name":"Blue-Eyes White Dragon","ctype":"monster","keywords":"Blue-Eyes Dragon LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Normal","atk":3000,"def":2500},"note":"Forbidden Legacy","rarity":"ScR","img":"89631140","code":"7","tcg":25360,"grp":205,"idx":6},
+    {"id":"FL1-002","section":"main","num":"FL1-EN002","printed":"FL1-EN002","name":"Dark Magician","ctype":"monster","keywords":"Dark Magician Spellcaster DARK Normal Monster","stats":{"a":"DARK","l":"Level 7","t":"Spellcaster / Normal","atk":2500,"def":2100},"note":"Forbidden Legacy","rarity":"ScR","img":"36996508","code":"8","tcg":25361,"grp":205,"idx":7},
+    {"id":"FL1-003","section":"main","num":"FL1-EN003","printed":"FL1-EN003","name":"Kuriboh","ctype":"monster","keywords":"Kuriboh Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Fiend / Effect","atk":300,"def":200},"note":"Forbidden Legacy","rarity":"ScR","img":"40640057","code":"9","tcg":25362,"grp":205,"idx":8},
+    {"id":"HL1-005","section":"main","num":"HL1-EN005","printed":"HL1-EN005","name":"Fusion Gate","ctype":"spell","keywords":"Field Spell","stats":{"t":"Field Spell"},"note":"Hobby League 1 participation cards C","rarity":"C","img":"33550694","code":"10","tcg":25387,"grp":232,"idx":9},
+    {"id":"HL1-006","section":"main","num":"HL1-EN006","printed":"HL1-EN006","name":"King of the Swamp","ctype":"monster","keywords":"Aqua WATER Effect Monster","stats":{"a":"WATER","l":"Level 3","t":"Aqua / Effect","atk":500,"def":1100},"note":"Hobby League 1 participation cards C","rarity":"SR","img":"79109599","code":"11","tcg":25388,"grp":232,"idx":10},
+    {"id":"JMP-002","section":"main","num":"JMP-EN002","printed":"JMP-EN002","name":"Red-Eyes Black Dragon","ctype":"monster","keywords":"Red-Eyes Dragon DARK Normal Monster","stats":{"a":"DARK","l":"Level 7","t":"Dragon / Normal","atk":2400,"def":2000},"note":"Swedish Shonen Jump 2005, Issue 12 promotional card","rarity":"UR","img":"74677422","code":"12","idx":11},
+    {"id":"JMP-003","section":"main","num":"JMP-EN003","printed":"JMP-EN003","name":"Archfiend of Gilfer","ctype":"monster","keywords":"Archfiend Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Fiend / Effect","atk":2200,"def":2500},"note":"Shonen Jump Vol. 3, Issue 1 promotional card","rarity":"UR","img":"50287060","code":"13","tcg":25389,"grp":281,"idx":12},
+    {"id":"NTR-001","section":"main","num":"NTR-EN001","printed":"NTR-EN001","name":"Silent Magician LV4","ctype":"monster","keywords":"Silent Magician Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Effect","atk":1000,"def":1000},"note":"Yu-Gi-Oh! Nightmare Troubadour promotional cards","rarity":"SR","img":"73665146","code":"14","tcg":24517,"grp":256,"idx":13},
+    {"id":"NTR-002","section":"main","num":"NTR-EN002","printed":"NTR-EN002","name":"Silent Magician LV8","ctype":"monster","keywords":"Silent Magician Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Spellcaster / Effect","atk":3500,"def":1000},"note":"Yu-Gi-Oh! Nightmare Troubadour promotional cards","rarity":"SR","img":"72443568","code":"15","tcg":24518,"grp":256,"idx":14},
+    {"id":"NTR-003","section":"main","num":"NTR-EN003","printed":"NTR-EN003","name":"Magician's Circle","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"note":"Yu-Gi-Oh! Nightmare Troubadour promotional cards","rarity":"SR","img":"50755","code":"16","tcg":24519,"grp":256,"idx":15},
+    {"id":"PT1-001","section":"main","num":"PT1-EN001","printed":"PT1-EN001","name":"Zoa","ctype":"monster","keywords":"Fiend DARK Normal Monster","stats":{"a":"DARK","l":"Level 7","t":"Fiend / Normal","atk":2600,"def":1900},"note":"Pharaoh Tour 2005 promotional cards","rarity":"C","img":"24311372","code":"17","tcg":162277,"grp":2215,"idx":16},
+    {"id":"PT1-002","section":"main","num":"PT1-EN002","printed":"PT1-EN002","name":"Des Volstgalph","ctype":"monster","keywords":"Dragon EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 6","t":"Dragon / Effect","atk":2200,"def":1700},"note":"Pharaoh Tour 2005 promotional cards","rarity":"UR","img":"81059524","code":"18","tcg":162278,"grp":2215,"idx":17},
+    {"id":"RDS-SE1","section":"main","num":"RDS-ENSE1","printed":"RDS-ENSE1","name":"Diffusion Wave-Motion","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"note":"Rise of Destiny: Special Edition","rarity":"UR","img":"87880531","code":"19","tcg":23472,"grp":275,"idx":18},
+    {"id":"RDS-SE2","section":"main","num":"RDS-ENSE2","printed":"RDS-ENSE2","name":"Dark Magician Girl","ctype":"monster","keywords":"Dark Magician Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Spellcaster / Effect","atk":2000,"def":1700},"note":"Rise of Destiny: Special Edition","rarity":"UR","img":"38033121","code":"20","tcg":23473,"grp":275,"idx":19},
+    {"id":"RDS-SE3","section":"main","num":"RDS-ENSE3","printed":"RDS-ENSE3","name":"Judgment of Anubis","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"note":"Rise of Destiny: Special Edition","rarity":"UR","img":"55256016","code":"21","tcg":23474,"grp":275,"idx":20},
+    {"id":"RDS-SE4","section":"main","num":"RDS-ENSE4","printed":"RDS-ENSE4","name":"Vampire Lord","ctype":"monster","keywords":"Vampire Zombie DARK Effect Monster","stats":{"a":"DARK","l":"Level 5","t":"Zombie / Effect","atk":2000,"def":1500},"note":"Rise of Destiny: Special Edition","rarity":"UR","img":"53839837","code":"22","tcg":23475,"grp":275,"idx":21},
+    {"id":"SD1-DE1","section":"main","num":"SD1-ENDE1","printed":"SD1-ENDE1","name":"Armed Dragon LV7","ctype":"monster","keywords":"Armed Dragon Dragon WIND Effect Monster","stats":{"a":"WIND","l":"Level 7","t":"Dragon / Effect","atk":2800,"def":1000},"note":"Structure Deck: Deluxe Edition","rarity":"ScR","img":"73879377","code":"23","tcg":32926,"grp":1655,"idx":22},
+    {"id":"SD2-DE1","section":"main","num":"SD2-ENDE1","printed":"SD2-ENDE1","name":"Rope of Life","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"note":"Structure Deck: Deluxe Edition","rarity":"ScR","img":"93382620","code":"24","tcg":104463,"grp":1655,"idx":23},
+    {"id":"SJC-002","section":"main","num":"SJC-EN002","printed":"SJC-EN002","name":"Des Volstgalph","ctype":"monster","keywords":"Dragon EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 6","t":"Dragon / Effect","atk":2200,"def":1700},"note":"Shonen Jump Championship 2005 Prize Card","rarity":"UR","img":"81059524","code":"25","tcg":26579,"grp":280,"idx":24},
+    {"id":"SP1-001","section":"main","num":"SP1-EN001","printed":"SP1-EN001","name":"Cyber Harpie Lady","ctype":"monster","keywords":"Harpie Winged Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Winged Beast / Effect","atk":1800,"def":1300},"note":"Flaming Eternity Sneak Peek Participation Card","rarity":"UR","img":"80316585","code":"26","tcg":25380,"grp":282,"idx":25},
+    {"id":"SP1-002","section":"main","num":"SP1-EN002","printed":"SP1-EN002","name":"Amazoness Chain Master","ctype":"monster","keywords":"Amazoness Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Effect","atk":1500,"def":1300},"note":"The Lost Millennium Sneak Peek Participation Card","rarity":"UR","img":"29654737","code":"27","tcg":25381,"grp":282,"idx":26},
+    {"id":"SP1-003","section":"main","num":"SP1-EN003","printed":"SP1-EN003","name":"Embodiment of Apophis","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"note":"Cybernetic Revolution Sneak Peek Participation Card","rarity":"UR","img":"28649820","code":"28","tcg":25382,"grp":282,"idx":27},
+    {"id":"SP1-004","section":"main","num":"SP1-EN004","printed":"SP1-EN004","name":"Exchange of the Spirit","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"note":"Elemental Energy Sneak Peek Participation Card","rarity":"UR","img":"17484499","code":"29","tcg":24847,"grp":282,"idx":28},
+    {"id":"TLM-SE1","section":"main","num":"TLM-ENSE1","printed":"TLM-ENSE1","name":"Invader of Darkness","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Fiend / Effect","atk":2900,"def":2500},"note":"The Lost Millennium: Special Edition","rarity":"UR","img":"56647086","code":"30","tcg":81883,"grp":248,"idx":29},
+    {"id":"TLM-SE2","section":"main","num":"TLM-ENSE2","printed":"TLM-ENSE2","name":"Chaos Emperor Dragon - Envoy of the End","ctype":"monster","keywords":"Chaos Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Dragon / Effect","atk":3000,"def":2500},"note":"The Lost Millennium: Special Edition","rarity":"UR","img":"82301904","code":"31","tcg":72465,"grp":248,"idx":30},
+    {"id":"TLM-SE3","section":"main","num":"TLM-ENSE3","printed":"TLM-ENSE3","name":"Mazera DeVille","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Fiend / Effect","atk":2800,"def":2300},"note":"The Lost Millennium: Special Edition","rarity":"UR","img":"6133894","code":"32","tcg":72464,"grp":248,"idx":31},
+    {"id":"TLM-SE4","section":"main","num":"TLM-ENSE4","printed":"TLM-ENSE4","name":"The End of Anubis","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Fiend / Effect","atk":2500,"def":0},"note":"The Lost Millennium: Special Edition","rarity":"UR","img":"65403020","code":"33","tcg":72463,"grp":248,"idx":32},
+    {"id":"TYL-001","section":"main","num":"TYL-EN001","printed":"TYL-EN001","name":"Tyler the Great Warrior","ctype":"monster","keywords":"Fan-Made Cards Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 8","t":"Warrior / Effect","atk":3000,"def":1500},"note":"Make-A-Wish Foundation promotional card","rarity":"UR","img":"68811206","code":"34","idx":33},
+    {"id":"WC5-001","section":"main","num":"WC5-EN001","printed":"WC5-EN001","name":"Silent Swordsman LV7","ctype":"monster","keywords":"Silent Swordsman Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 7","t":"Warrior / Effect","atk":2800,"def":1000},"note":"Yu-Gi-Oh! 7 Trials to Glory: World Championship Tournament 2005 promotional cards","rarity":"UR","img":"37267041","code":"35","tcg":24198,"grp":346,"idx":34},
+    {"id":"WC5-002","section":"main","num":"WC5-EN002","printed":"WC5-EN002","name":"Kaibaman","ctype":"monster","keywords":"Blue-Eyes Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Warrior / Effect","atk":200,"def":700},"note":"Yu-Gi-Oh! 7 Trials to Glory: World Championship Tournament 2005 promotional cards","rarity":"SR","img":"34627841","code":"36","tcg":24199,"grp":346,"idx":35},
+    {"id":"WC5-003","section":"main","num":"WC5-EN003","printed":"WC5-EN003","name":"Mind Control","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"note":"Yu-Gi-Oh! 7 Trials to Glory: World Championship Tournament 2005 promotional cards","rarity":"SR","img":"37520316","code":"37","tcg":24200,"grp":346,"idx":36},
+    {"id":"WCS-501","section":"main","num":"WCS-EN501","printed":"WCS-EN501","name":"King of Destruction - Xexex","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 10","t":"Fiend / Effect","atk":3000,"def":2500},"note":"Yu-Gi-Oh! World Championship 2005 prize cards","rarity":"UR","img":"501000002","code":"38","idx":37},
+    {"id":"WCS-502","section":"main","num":"WCS-EN502","printed":"WCS-EN502","name":"Queen of Fate - Eternia","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Fairy / Effect","atk":2400,"def":2000},"note":"Yu-Gi-Oh! World Championship 2005 prize cards","rarity":"UR","img":"501000003","code":"39","idx":38}
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "id": "yugioh/duelist-pack-jaden-yuki-3",
+  "game": "yugioh",
+  "slug": "duelist-pack-jaden-yuki-3",
+  "name": "Duelist Pack: Jaden Yuki 3",
+  "series": "GX",
+  "kind": "pack",
+  "code": "DP06",
+  "syncKey": "YDP06",
+  "released": "2008-01-26",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "DP06-EN001–DP06-EN025",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from DP06-EN001 to DP06-EN025."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Duelist Pack: Jaden Yuki 3 Checklist · All 25 Cards",
+    "description": "Free Yu-Gi-Oh! Duelist Pack: Jaden Yuki 3 checklist with no ads, no sign-up and no tracking. Track all 25 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Duelist Pack: Jaden Yuki 3 Checklist",
+    "ogDescription": "Track all 25 cards in Yu-Gi-Oh! Duelist Pack: Jaden Yuki 3. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 25 cards in Yu-Gi-Oh! Duelist Pack: Jaden Yuki 3. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Duelist Pack: Jaden Yuki 3",
+    "paragraphs": [
+      "Duelist Pack: Jaden Yuki 3 is a Yu-Gi-Oh! TCG pack released on 26 January 2008, in the GX era. It has 25 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Duelist Pack: Jaden Yuki 3"
+    ],
+    "tcgplayer": [
+      238
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"DP06-EN001","name":"Neo-Spacian Air Hummingbird","ctype":"monster","keywords":"Neo-Spacian Winged Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 3","t":"Winged Beast / Effect","atk":800,"def":600},"rarity":"C","img":"54959865","code":"1","tcg":32185,"grp":238,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"DP06-EN002","name":"Neo-Spacian Grand Mole","ctype":"monster","keywords":"Neo-Spacian Rock EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Rock / Effect","atk":900,"def":300},"rarity":"R","img":"80344569","code":"2","tcg":32187,"grp":238,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"DP06-EN003","name":"Neo-Spacian Glow Moss","ctype":"monster","keywords":"Neo-Spacian Plant LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Plant / Effect","atk":300,"def":900},"rarity":"C","img":"17732278","code":"3","tcg":32186,"grp":238,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"DP06-EN004","name":"Elemental HERO Captain Gold","ctype":"monster","keywords":"Elemental HERO Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Effect","atk":2100,"def":800},"rarity":"R","img":"80908502","code":"4","tcg":32174,"grp":238,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"DP06-EN005","name":"Elemental HERO Neos Alius","ctype":"monster","keywords":"Elemental HERO Warrior LIGHT Gemini Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Gemini","atk":1900,"def":1300},"rarity":"C","img":"69884162","code":"5","tcg":32175,"grp":238,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"DP06-EN006","name":"Evil HERO Malicious Edge","ctype":"monster","keywords":"Evil HERO Fiend EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 7","t":"Fiend / Effect","atk":2600,"def":1800},"rarity":"SR","img":"58554959","code":"6","tcg":32179,"grp":238,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"DP06-EN007","name":"Evil HERO Infernal Gainer","ctype":"monster","keywords":"Evil HERO Fiend EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Fiend / Effect","atk":1600,"def":0},"rarity":"C","img":"95943058","code":"7","tcg":32177,"grp":238,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"DP06-EN008","name":"Evil HERO Infernal Prodigy","ctype":"monster","keywords":"Evil HERO Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 2","t":"Fiend / Effect","atk":300,"def":600},"rarity":"SR","img":"50304345","code":"8","tcg":28389,"grp":238,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"DP06-EN009","name":"Armor Breaker","ctype":"monster","keywords":"Warrior EARTH Union Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Warrior / Union / Effect","atk":800,"def":800},"rarity":"R","img":"87798440","code":"9","tcg":32170,"grp":238,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"DP06-EN010","name":"Evil HERO Dark Gaia","ctype":"monster","keywords":"Evil HERO Fiend EARTH Fusion Monster","stats":{"a":"EARTH","l":"Level 8","t":"Fiend / Fusion","atk":-1,"def":0},"rarity":"C","img":"58332301","code":"10","tcg":32176,"grp":238,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"DP06-EN011","name":"Evil HERO Wild Cyclone","ctype":"monster","keywords":"Evil HERO Fiend EARTH Fusion Monster","stats":{"a":"EARTH","l":"Level 8","t":"Fiend / Fusion","atk":1900,"def":2300},"rarity":"UR","img":"13293158","code":"11","tcg":26694,"grp":238,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"DP06-EN012","name":"Evil HERO Infernal Sniper","ctype":"monster","keywords":"Evil HERO Fiend FIRE Fusion Monster","stats":{"a":"FIRE","l":"Level 6","t":"Fiend / Fusion","atk":2000,"def":2500},"rarity":"SR","img":"50282757","code":"12","tcg":32178,"grp":238,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"DP06-EN013","name":"Evil HERO Malicious Fiend","ctype":"monster","keywords":"Evil HERO Fiend FIRE Fusion Monster","stats":{"a":"FIRE","l":"Level 8","t":"Fiend / Fusion","atk":3500,"def":2100},"rarity":"UR","img":"86676862","code":"13","tcg":32180,"grp":238,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"DP06-EN014","name":"Skyscraper 2 - Hero City","ctype":"spell","keywords":"Elemental HERO Field Spell","stats":{"t":"Field Spell"},"rarity":"SR","img":"47596607","code":"14","tcg":32191,"grp":238,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"DP06-EN015","name":"Reverse of Neos","ctype":"spell","keywords":"Elemental HERO Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"18302224","code":"15","tcg":32189,"grp":238,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"DP06-EN016","name":"Convert Contact","ctype":"spell","keywords":"Neo-Spacian Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"82639107","code":"16","tcg":32171,"grp":238,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"DP06-EN017","name":"Swing of Memories","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"96765646","code":"17","tcg":32192,"grp":238,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"DP06-EN018","name":"Dark Fusion","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"94820406","code":"18","tcg":32173,"grp":238,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"DP06-EN019","name":"Dark Calling","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"R","img":"12071500","code":"19","tcg":32172,"grp":238,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"DP06-EN020","name":"Revoke Fusion","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"R","img":"49469105","code":"20","tcg":32190,"grp":238,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"DP06-EN021","name":"Hero Medal","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"10489311","code":"21","tcg":32182,"grp":238,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"DP06-EN022","name":"Mirror Gate","ctype":"trap","keywords":"Elemental HERO Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"43452193","code":"22","tcg":32184,"grp":238,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"DP06-EN023","name":"Hero Counterattack","ctype":"trap","keywords":"Elemental HERO Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"19024706","code":"23","tcg":32181,"grp":238,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"DP06-EN024","name":"Over Limit","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"23282832","code":"24","tcg":32188,"grp":238,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"DP06-EN025","name":"Hero's Rule 2","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"R","img":"85854214","code":"25","tcg":32183,"grp":238,"idx":24}
+  ]
+}

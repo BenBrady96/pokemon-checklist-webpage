@@ -1,0 +1,150 @@
+{
+  "id": "yugioh/valiant-smashers",
+  "game": "yugioh",
+  "slug": "valiant-smashers",
+  "name": "Valiant Smashers",
+  "series": "SEVENS & GO RUSH!!",
+  "kind": "expansion",
+  "code": "VASM",
+  "syncKey": "YVASM",
+  "released": "2023-11-16",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Main Set",
+      "range": "VASM-EN001–VASM-EN060",
+      "tier": "standard"
+    },
+    {
+      "id": "rarities",
+      "name": "Other Rarities",
+      "short": "Other Rarities",
+      "range": "18 cards",
+      "tier": "master"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Main set"
+    ],
+    [
+      "rarities",
+      "Other rarities"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, SCR12, 60x2",
+    "example": "1-20, 45x2, SCR12",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies. Other rarities use their short name and number: <b>SCR12</b> is card 12’s Secret Rare, and ranges work too (<b>QCSR1-QCSR20</b>).",
+    "empty": "Cards run from VASM-EN001 to VASM-EN060."
+  },
+  "help": {
+    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 60 cards, each in its main rarity. Master adds the 18 other rarities. Cards you’ve marked are kept when you switch."
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Valiant Smashers Checklist · All 60 Cards",
+    "description": "Free Yu-Gi-Oh! Valiant Smashers checklist with no ads, no sign-up and no tracking. Track all 60 cards, or every rarity for a master set, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Valiant Smashers Checklist",
+    "ogDescription": "Track all 60 cards in Yu-Gi-Oh! Valiant Smashers, plus 18 other rarities. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 60 cards in Yu-Gi-Oh! Valiant Smashers. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About the Valiant Smashers set",
+    "paragraphs": [
+      "Valiant Smashers is a Yu-Gi-Oh! TCG booster set released on 16 November 2023, in the SEVENS &amp; GO RUSH!! era. It has 60 cards, and with the 18 other rarities there are 78 to collect in all.",
+      "Choose what you’re collecting: the <b>Standard set</b> (the 60 cards, each in its main rarity) or the <b>Master set</b> (all 78, adding the 18 other rarities).",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Valiant Smashers"
+    ],
+    "tcgplayer": [
+      23284
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"VASM-EN001","name":"Mementoal Tecuhtlica - Combined Creation","ctype":"monster","keywords":"Memento Wyrm EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 11","t":"Wyrm / Effect","atk":5000,"def":5000},"rarity":"UR","img":"23288411","code":"1","tcg":526924,"grp":23284,"idx":0},
+    {"id":"001-qcsr","section":"rarities","num":"001","printed":"VASM-EN001","name":"Mementoal Tecuhtlica - Combined Creation","ctype":"monster","keywords":"Memento Wyrm EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 11","t":"Wyrm / Effect","atk":5000,"def":5000},"rarity":"QCSR","img":"23288411","badge":"QCSR","variant":"Quarter Century Secret Rare","code":"QCSR1","tcg":526926,"grp":23284,"idx":1},
+    {"id":"001-cr","section":"rarities","num":"001","printed":"VASM-EN001","name":"Mementoal Tecuhtlica - Combined Creation","ctype":"monster","keywords":"Memento Wyrm EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 11","t":"Wyrm / Effect","atk":5000,"def":5000},"rarity":"CR","img":"23288411","badge":"CR","variant":"Collector’s Rare","code":"CR1","tcg":526925,"grp":23284,"idx":2},
+    {"id":"002","section":"main","num":"002","printed":"VASM-EN002","name":"Mementotlan-Horned Dragon","ctype":"monster","keywords":"Memento Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Dragon / Effect","atk":2850,"def":2350},"rarity":"R","img":"55272555","code":"2","tcg":526927,"grp":23284,"idx":3},
+    {"id":"003","section":"main","num":"003","printed":"VASM-EN003","name":"Mementotlan Tatsunootoshigo","ctype":"monster","keywords":"Memento Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 5","t":"Beast / Effect","atk":1350,"def":1600},"rarity":"SR","img":"81677154","code":"3","tcg":526928,"grp":23284,"idx":4},
+    {"id":"004","section":"main","num":"004","printed":"VASM-EN004","name":"Mementotlan Dark Blade","ctype":"monster","keywords":"Memento Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Warrior / Effect","atk":1800,"def":1500},"rarity":"SR","img":"18165869","code":"4","tcg":526929,"grp":23284,"idx":5},
+    {"id":"004-cr","section":"rarities","num":"004","printed":"VASM-EN004","name":"Mementotlan Dark Blade","ctype":"monster","keywords":"Memento Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Warrior / Effect","atk":1800,"def":1500},"rarity":"CR","img":"18165869","badge":"CR","variant":"Collector’s Rare","code":"CR4","tcg":526932,"grp":23284,"idx":6},
+    {"id":"005","section":"main","num":"005","printed":"VASM-EN005","name":"Mementotlan Angwitch","ctype":"monster","keywords":"Memento Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Spellcaster / Effect","atk":800,"def":1000},"rarity":"UR","img":"54550967","code":"5","tcg":526934,"grp":23284,"idx":7},
+    {"id":"005-cr","section":"rarities","num":"005","printed":"VASM-EN005","name":"Mementotlan Angwitch","ctype":"monster","keywords":"Memento Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Spellcaster / Effect","atk":800,"def":1000},"rarity":"CR","img":"54550967","badge":"CR","variant":"Collector’s Rare","code":"CR5","tcg":527857,"grp":23284,"idx":8},
+    {"id":"006","section":"main","num":"006","printed":"VASM-EN006","name":"Mementotlan Mace","ctype":"monster","keywords":"Memento Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Fairy / Effect","atk":400,"def":300},"rarity":"SR","img":"81945676","code":"6","tcg":526936,"grp":23284,"idx":9},
+    {"id":"007","section":"main","num":"007","printed":"VASM-EN007","name":"Mementotlan Goblin","ctype":"monster","keywords":"Goblin Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Fiend / Effect","atk":400,"def":400},"rarity":"R","img":"17943271","code":"7","tcg":526940,"grp":23284,"idx":10},
+    {"id":"008","section":"main","num":"008","printed":"VASM-EN008","name":"Mementomictlan","ctype":"spell","keywords":"Memento Field Spell","stats":{"t":"Field Spell"},"rarity":"R","img":"43338320","code":"8","tcg":526942,"grp":23284,"idx":11},
+    {"id":"008-cr","section":"rarities","num":"008","printed":"VASM-EN008","name":"Mementomictlan","ctype":"spell","keywords":"Memento Field Spell","stats":{"t":"Field Spell"},"rarity":"CR","img":"43338320","badge":"CR","variant":"Collector’s Rare","code":"CR8","tcg":527856,"grp":23284,"idx":12},
+    {"id":"009","section":"main","num":"009","printed":"VASM-EN009","name":"Mementotlan Bone Party","ctype":"spell","keywords":"Memento Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"UR","img":"80722024","code":"9","tcg":526944,"grp":23284,"idx":13},
+    {"id":"010","section":"main","num":"010","printed":"VASM-EN010","name":"Mementotlan Bone Back","ctype":"spell","keywords":"Memento Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"R","img":"16227633","code":"10","tcg":526946,"grp":23284,"idx":14},
+    {"id":"011","section":"main","num":"011","printed":"VASM-EN011","name":"Mementotlan Fracture Dance","ctype":"trap","keywords":"Memento Normal Trap","stats":{"t":"Normal Trap"},"rarity":"R","img":"43215738","code":"11","tcg":526948,"grp":23284,"idx":15},
+    {"id":"012","section":"main","num":"012","printed":"VASM-EN012","name":"Mementotlan Cranium Burst","ctype":"trap","keywords":"Memento Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"R","img":"79600447","code":"12","tcg":526949,"grp":23284,"idx":16},
+    {"id":"013","section":"main","num":"013","printed":"VASM-EN013","name":"Terraforming","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"R","img":"73628505","code":"13","tcg":526950,"grp":23284,"idx":17},
+    {"id":"014","section":"main","num":"014","printed":"VASM-EN014","name":"Supply Squad","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"R","img":"17626381","code":"14","tcg":526951,"grp":23284,"idx":18},
+    {"id":"015","section":"main","num":"015","printed":"VASM-EN015","name":"There Can Be Only One","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"R","img":"24207889","code":"15","tcg":526952,"grp":23284,"idx":19},
+    {"id":"016","section":"main","num":"016","printed":"VASM-EN016","name":"Centur-Ion Primera","ctype":"monster","keywords":"Centur-Ion Spellcaster LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Tuner","atk":1600,"def":1600},"rarity":"UR","img":"15005145","code":"16","tcg":526953,"grp":23284,"idx":20},
+    {"id":"016-cr","section":"rarities","num":"016","printed":"VASM-EN016","name":"Centur-Ion Primera","ctype":"monster","keywords":"Centur-Ion Spellcaster LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Tuner","atk":1600,"def":1600},"rarity":"CR","img":"15005145","badge":"CR","variant":"Collector’s Rare","code":"CR16","tcg":527851,"grp":23284,"idx":21},
+    {"id":"017","section":"main","num":"017","printed":"VASM-EN017","name":"Centur-Ion Trudea","ctype":"monster","keywords":"Centur-Ion Pyro DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Pyro / Effect","atk":1000,"def":2000},"rarity":"UR","img":"42493140","code":"17","tcg":526954,"grp":23284,"idx":22},
+    {"id":"017-cr","section":"rarities","num":"017","printed":"VASM-EN017","name":"Centur-Ion Trudea","ctype":"monster","keywords":"Centur-Ion Pyro DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Pyro / Effect","atk":1000,"def":2000},"rarity":"CR","img":"42493140","badge":"CR","variant":"Collector’s Rare","code":"CR17","tcg":527852,"grp":23284,"idx":23},
+    {"id":"018","section":"main","num":"018","printed":"VASM-EN018","name":"Centur-Ion Emeth VI","ctype":"monster","keywords":"Centur-Ion Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 8","t":"Machine / Effect","atk":2000,"def":3000},"rarity":"UR","img":"78888899","code":"18","tcg":526959,"grp":23284,"idx":24},
+    {"id":"018-cr","section":"rarities","num":"018","printed":"VASM-EN018","name":"Centur-Ion Emeth VI","ctype":"monster","keywords":"Centur-Ion Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 8","t":"Machine / Effect","atk":2000,"def":3000},"rarity":"CR","img":"78888899","badge":"CR","variant":"Collector’s Rare","code":"CR18","tcg":527850,"grp":23284,"idx":25},
+    {"id":"019","section":"main","num":"019","printed":"VASM-EN019","name":"Centur-Ion Legatia","ctype":"monster","keywords":"Centur-Ion Machine LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 12","t":"Machine / Synchro","atk":3500,"def":2000},"rarity":"UR","img":"15982593","code":"19","tcg":526963,"grp":23284,"idx":26},
+    {"id":"019-qcsr","section":"rarities","num":"019","printed":"VASM-EN019","name":"Centur-Ion Legatia","ctype":"monster","keywords":"Centur-Ion Machine LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 12","t":"Machine / Synchro","atk":3500,"def":2000},"rarity":"QCSR","img":"15982593","badge":"QCSR","variant":"Quarter Century Secret Rare","code":"QCSR19","tcg":526966,"grp":23284,"idx":27},
+    {"id":"019-cr","section":"rarities","num":"019","printed":"VASM-EN019","name":"Centur-Ion Legatia","ctype":"monster","keywords":"Centur-Ion Machine LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 12","t":"Machine / Synchro","atk":3500,"def":2000},"rarity":"CR","img":"15982593","badge":"CR","variant":"Collector’s Rare","code":"CR19","tcg":526965,"grp":23284,"idx":28},
+    {"id":"020","section":"main","num":"020","printed":"VASM-EN020","name":"Stand Up Centur-Ion!","ctype":"spell","keywords":"Centur-Ion Field Spell","stats":{"t":"Field Spell"},"rarity":"SR","img":"41371602","code":"20","tcg":526973,"grp":23284,"idx":29},
+    {"id":"020-cr","section":"rarities","num":"020","printed":"VASM-EN020","name":"Stand Up Centur-Ion!","ctype":"spell","keywords":"Centur-Ion Field Spell","stats":{"t":"Field Spell"},"rarity":"CR","img":"41371602","badge":"CR","variant":"Collector’s Rare","code":"CR20","tcg":526975,"grp":23284,"idx":30},
+    {"id":"021","section":"main","num":"021","printed":"VASM-EN021","name":"Emblema Oath","ctype":"spell","keywords":"Centur-Ion Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"UR","img":"77765207","code":"21","tcg":526983,"grp":23284,"idx":31},
+    {"id":"022","section":"main","num":"022","printed":"VASM-EN022","name":"Centur-Ion Bonds","ctype":"spell","keywords":"Centur-Ion Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"SR","img":"4160316","code":"22","tcg":526985,"grp":23284,"idx":32},
+    {"id":"023","section":"main","num":"023","printed":"VASM-EN023","name":"Centur-Ion Phalanx","ctype":"trap","keywords":"Centur-Ion Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"40155014","code":"23","tcg":526986,"grp":23284,"idx":33},
+    {"id":"024","section":"main","num":"024","printed":"VASM-EN024","name":"Centur-Ion True Awakening","ctype":"trap","keywords":"Centur-Ion Counter Trap","stats":{"t":"Counter Trap"},"rarity":"SR","img":"77543769","code":"24","tcg":526990,"grp":23284,"idx":34},
+    {"id":"025","section":"main","num":"025","printed":"VASM-EN025","name":"Summoner Monk","ctype":"monster","keywords":"Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Effect","atk":800,"def":1600},"rarity":"R","img":"423585","code":"25","tcg":526993,"grp":23284,"idx":35},
+    {"id":"026","section":"main","num":"026","printed":"VASM-EN026","name":"Draco Berserker of the Tenyi","ctype":"monster","keywords":"Tenyi Wyrm DARK Synchro Monster","stats":{"a":"DARK","l":"Level 8","t":"Wyrm / Synchro","atk":3000,"def":0},"rarity":"R","img":"5041348","code":"26","tcg":526994,"grp":23284,"idx":36},
+    {"id":"027","section":"main","num":"027","printed":"VASM-EN027","name":"Angel of Zera","ctype":"monster","keywords":"Fairy LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Fairy / Synchro","atk":2800,"def":2300},"rarity":"R","img":"42216237","code":"27","tcg":526996,"grp":23284,"idx":37},
+    {"id":"028","section":"main","num":"028","printed":"VASM-EN028","name":"Magic Planter","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"R","img":"1073952","code":"28","tcg":526998,"grp":23284,"idx":38},
+    {"id":"029","section":"main","num":"029","printed":"VASM-EN029","name":"Synchro Transmission","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"R","img":"35817848","code":"29","tcg":527002,"grp":23284,"idx":39},
+    {"id":"030","section":"main","num":"030","printed":"VASM-EN030","name":"Gravity Collapse","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"R","img":"7811875","code":"30","tcg":527004,"grp":23284,"idx":40},
+    {"id":"031","section":"main","num":"031","printed":"VASM-EN031","name":"Angello Vaalmonica","ctype":"monster","keywords":"Vaalmonica Fairy DARK Pendulum Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fairy / Pendulum / Effect","atk":1200,"def":2100},"rarity":"SR","img":"3048768","code":"31","tcg":527037,"grp":23284,"idx":41},
+    {"id":"031-cr","section":"rarities","num":"031","printed":"VASM-EN031","name":"Angello Vaalmonica","ctype":"monster","keywords":"Vaalmonica Fairy DARK Pendulum Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fairy / Pendulum / Effect","atk":1200,"def":2100},"rarity":"CR","img":"3048768","badge":"CR","variant":"Collector’s Rare","code":"CR31","tcg":527039,"grp":23284,"idx":42},
+    {"id":"032","section":"main","num":"032","printed":"VASM-EN032","name":"Dimonno Vaalmonica","ctype":"monster","keywords":"Vaalmonica Fiend LIGHT Pendulum Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fiend / Pendulum / Effect","atk":1200,"def":2100},"rarity":"SR","img":"30432463","code":"32","tcg":527044,"grp":23284,"idx":43},
+    {"id":"032-cr","section":"rarities","num":"032","printed":"VASM-EN032","name":"Dimonno Vaalmonica","ctype":"monster","keywords":"Vaalmonica Fiend LIGHT Pendulum Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fiend / Pendulum / Effect","atk":1200,"def":2100},"rarity":"CR","img":"30432463","badge":"CR","variant":"Collector’s Rare","code":"CR32","tcg":527854,"grp":23284,"idx":44},
+    {"id":"033","section":"main","num":"033","printed":"VASM-EN033","name":"Duralume, Vaalmonican Heathen Hallow","ctype":"monster","keywords":"Vaalmonica Fairy DARK Link Monster","stats":{"a":"DARK","l":"Link 1","t":"Fairy / Link","atk":2500},"rarity":"SR","img":"76821171","code":"33","tcg":527048,"grp":23284,"idx":45},
+    {"id":"034","section":"main","num":"034","printed":"VASM-EN034","name":"Zebufera, Vaalmonican Hallow Heathen","ctype":"monster","keywords":"Vaalmonica Fiend LIGHT Link Monster","stats":{"a":"LIGHT","l":"Link 1","t":"Fiend / Link","atk":2500},"rarity":"SR","img":"2815176","code":"34","tcg":527050,"grp":23284,"idx":46},
+    {"id":"035","section":"main","num":"035","printed":"VASM-EN035","name":"Vaalmonica, the Agathokakological Voice","ctype":"spell","keywords":"Vaalmonica Field Spell","stats":{"t":"Field Spell"},"rarity":"UR","img":"39210885","code":"35","tcg":527053,"grp":23284,"idx":47},
+    {"id":"035-cr","section":"rarities","num":"035","printed":"VASM-EN035","name":"Vaalmonica, the Agathokakological Voice","ctype":"spell","keywords":"Vaalmonica Field Spell","stats":{"t":"Field Spell"},"rarity":"CR","img":"39210885","badge":"CR","variant":"Collector’s Rare","code":"CR35","tcg":527858,"grp":23284,"idx":48},
+    {"id":"036","section":"main","num":"036","printed":"VASM-EN036","name":"Vaalmonica Scelta","ctype":"spell","keywords":"Vaalmonica Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UR","img":"5605529","code":"36","tcg":527059,"grp":23284,"idx":49},
+    {"id":"036-cr","section":"rarities","num":"036","printed":"VASM-EN036","name":"Vaalmonica Scelta","ctype":"spell","keywords":"Vaalmonica Normal Spell","stats":{"t":"Normal Spell"},"rarity":"CR","img":"5605529","badge":"CR","variant":"Collector’s Rare","code":"CR36","tcg":527859,"grp":23284,"idx":50},
+    {"id":"037","section":"main","num":"037","printed":"VASM-EN037","name":"Vaalmonica Versare","ctype":"spell","keywords":"Vaalmonica Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"42193638","code":"37","tcg":527061,"grp":23284,"idx":51},
+    {"id":"038","section":"main","num":"038","printed":"VASM-EN038","name":"Vaalmonica Intonare","ctype":"spell","keywords":"Vaalmonica Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"78598237","code":"38","tcg":527064,"grp":23284,"idx":52},
+    {"id":"039","section":"main","num":"039","printed":"VASM-EN039","name":"Vaalmonica Followed Rhythm","ctype":"trap","keywords":"Vaalmonica Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"4582942","code":"39","tcg":527065,"grp":23284,"idx":53},
+    {"id":"040","section":"main","num":"040","printed":"VASM-EN040","name":"Vaalmonica Chosen Melody","ctype":"trap","keywords":"Vaalmonica Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"31971040","code":"40","tcg":527066,"grp":23284,"idx":54},
+    {"id":"041","section":"main","num":"041","printed":"VASM-EN041","name":"Protecting Spirit Loagaeth","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 7","t":"Fairy / Effect","atk":2400,"def":2100},"rarity":"R","img":"84339249","code":"41","tcg":527067,"grp":23284,"idx":55},
+    {"id":"042","section":"main","num":"042","printed":"VASM-EN042","name":"Performage Trick Clown","ctype":"monster","keywords":"Performage Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Effect","atk":1600,"def":1200},"rarity":"R","img":"67696066","code":"42","tcg":527069,"grp":23284,"idx":56},
+    {"id":"043","section":"main","num":"043","printed":"VASM-EN043","name":"Ghost Sister & Spooky Dogwood","ctype":"monster","keywords":"Zombie WATER Tuner Monster","stats":{"a":"WATER","l":"Level 3","t":"Zombie / Tuner","atk":0,"def":1800},"rarity":"R","img":"60643553","code":"43","tcg":527070,"grp":23284,"idx":57},
+    {"id":"044","section":"main","num":"044","printed":"VASM-EN044","name":"Number 41: Bagooska the Terribly Tired Tapir","ctype":"monster","keywords":"Fiend EARTH Xyz Monster","stats":{"a":"EARTH","l":"Rank 4","t":"Fiend / Xyz","atk":2100,"def":2000},"rarity":"R","img":"90590304","code":"44","tcg":527072,"grp":23284,"idx":58},
+    {"id":"045","section":"main","num":"045","printed":"VASM-EN045","name":"Stained Glass of Light & Dark","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"R","img":"16598965","code":"45","tcg":527073,"grp":23284,"idx":59},
+    {"id":"046","section":"main","num":"046","printed":"VASM-EN046","name":"Honest","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fairy / Effect","atk":1100,"def":1900},"rarity":"R","img":"37742478","code":"46","tcg":527075,"grp":23284,"idx":60},
+    {"id":"046-cr","section":"rarities","num":"046","printed":"VASM-EN046","name":"Honest","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fairy / Effect","atk":1100,"def":1900},"rarity":"CR","img":"37742478","badge":"CR","variant":"Collector’s Rare","code":"CR46","tcg":527855,"grp":23284,"idx":61},
+    {"id":"047","section":"main","num":"047","printed":"VASM-EN047","name":"Dark Honest","ctype":"monster","keywords":"Fairy DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fairy / Effect","atk":1100,"def":1900},"rarity":"R","img":"26914168","code":"47","tcg":527076,"grp":23284,"idx":62},
+    {"id":"047-cr","section":"rarities","num":"047","printed":"VASM-EN047","name":"Dark Honest","ctype":"monster","keywords":"Fairy DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fairy / Effect","atk":1100,"def":1900},"rarity":"CR","img":"26914168","badge":"CR","variant":"Collector’s Rare","code":"CR47","tcg":527853,"grp":23284,"idx":63},
+    {"id":"048","section":"main","num":"048","printed":"VASM-EN048","name":"Archlord Kristya","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Fairy / Effect","atk":2800,"def":2300},"rarity":"R","img":"59509952","code":"48","tcg":527078,"grp":23284,"idx":64},
+    {"id":"048-qcsr","section":"rarities","num":"048","printed":"VASM-EN048","name":"Archlord Kristya","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Fairy / Effect","atk":2800,"def":2300},"rarity":"QCSR","img":"59509952","badge":"QCSR","variant":"Quarter Century Secret Rare","code":"QCSR48","tcg":527081,"grp":23284,"idx":65},
+    {"id":"049","section":"main","num":"049","printed":"VASM-EN049","name":"Meklord Emperor Wisel","ctype":"monster","keywords":"Meklord Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Machine / Effect","atk":2500,"def":2500},"rarity":"R","img":"68140974","code":"49","tcg":527083,"grp":23284,"idx":66},
+    {"id":"050","section":"main","num":"050","printed":"VASM-EN050","name":"Meklord Emperor Granel","ctype":"monster","keywords":"Meklord Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 1","t":"Machine / Effect","atk":0,"def":0},"rarity":"R","img":"4545683","code":"50","tcg":527086,"grp":23284,"idx":67},
+    {"id":"051","section":"main","num":"051","printed":"VASM-EN051","name":"Abominable Unchained Soul","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Fiend / Effect","atk":3000,"def":1500},"rarity":"R","img":"1966438","code":"51","tcg":527087,"grp":23284,"idx":68},
+    {"id":"052","section":"main","num":"052","printed":"VASM-EN052","name":"Ibicella Lutea","ctype":"monster","keywords":"Plant EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Plant / Effect","atk":1800,"def":100},"rarity":"R","img":"62411042","code":"52","tcg":527089,"grp":23284,"idx":69},
+    {"id":"053","section":"main","num":"053","printed":"VASM-EN053","name":"Archnemeses Eschatos","ctype":"monster","keywords":"Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 11","t":"Dragon / Effect","atk":3000,"def":2500},"rarity":"R","img":"33212663","code":"53","tcg":527092,"grp":23284,"idx":70},
+    {"id":"054","section":"main","num":"054","printed":"VASM-EN054","name":"Colossal Fighter","ctype":"monster","keywords":"Warrior DARK Synchro Monster","stats":{"a":"DARK","l":"Level 8","t":"Warrior / Synchro","atk":2800,"def":1000},"rarity":"R","img":"23693634","code":"54","tcg":527095,"grp":23284,"idx":71},
+    {"id":"055","section":"main","num":"055","printed":"VASM-EN055","name":"Foolish Burial","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"R","img":"81439174","code":"55","tcg":527098,"grp":23284,"idx":72},
+    {"id":"056","section":"main","num":"056","printed":"VASM-EN056","name":"Valhalla, Hall of the Fallen","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"R","img":"1353770","code":"56","tcg":527100,"grp":23284,"idx":73},
+    {"id":"057","section":"main","num":"057","printed":"VASM-EN057","name":"Advance Draw","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"R","img":"51630558","code":"57","tcg":527102,"grp":23284,"idx":74},
+    {"id":"058","section":"main","num":"058","printed":"VASM-EN058","name":"Imperial Custom","ctype":"trap","keywords":"Royal Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"R","img":"9995766","code":"58","tcg":527105,"grp":23284,"idx":75},
+    {"id":"059","section":"main","num":"059","printed":"VASM-EN059","name":"Call of the Haunted","ctype":"trap","keywords":"Call of the Haunted Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"R","img":"97077563","code":"59","tcg":527106,"grp":23284,"idx":76},
+    {"id":"060","section":"main","num":"060","printed":"VASM-EN060","name":"Apophis the Swamp Deity","ctype":"trap","keywords":"Trap Monster Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"R","img":"85888377","code":"60","tcg":527107,"grp":23284,"idx":77}
+  ]
+}

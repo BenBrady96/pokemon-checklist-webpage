@@ -1,0 +1,103 @@
+{
+  "id": "yugioh/starter-deck-xyz-symphony",
+  "game": "yugioh",
+  "slug": "starter-deck-xyz-symphony",
+  "name": "Starter Deck: Xyz Symphony",
+  "series": "ZEXAL",
+  "kind": "deck",
+  "code": "YS12",
+  "syncKey": "YYS12",
+  "released": "2012-04-13",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "YS12-EN001–YS12-EN043",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from YS12-EN001 to YS12-EN043."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Starter Deck: Xyz Symphony Checklist · All 43 Cards",
+    "description": "Free Yu-Gi-Oh! Starter Deck: Xyz Symphony checklist with no ads, no sign-up and no tracking. Track all 43 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Starter Deck: Xyz Symphony Checklist",
+    "ogDescription": "Track all 43 cards in Yu-Gi-Oh! Starter Deck: Xyz Symphony. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 43 cards in Yu-Gi-Oh! Starter Deck: Xyz Symphony. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Starter Deck: Xyz Symphony",
+    "paragraphs": [
+      "Starter Deck: Xyz Symphony is a Yu-Gi-Oh! TCG deck released on 13 April 2012, in the ZEXAL era. It has 43 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Starter Deck: Xyz Symphony"
+    ],
+    "tcgplayer": [
+      589
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"YS12-EN001","name":"Alexandrite Dragon","ctype":"monster","keywords":"Dragon LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Dragon / Normal","atk":2000,"def":100},"rarity":"C","img":"43096270","code":"1","tcg":58315,"grp":589,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"YS12-EN002","name":"Spirit of the Harp","ctype":"monster","keywords":"Fairy LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fairy / Normal","atk":800,"def":2000},"rarity":"C","img":"80770678","code":"2","tcg":58316,"grp":589,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"YS12-EN003","name":"Frostosaurus","ctype":"monster","keywords":"Dinosaur WATER Normal Monster","stats":{"a":"WATER","l":"Level 6","t":"Dinosaur / Normal","atk":2600,"def":1700},"rarity":"C","img":"6631034","code":"3","tcg":58317,"grp":589,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"YS12-EN004","name":"Zubaba Knight","ctype":"monster","keywords":"Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Warrior / Effect","atk":1600,"def":900},"rarity":"C","img":"97896503","code":"4","tcg":58318,"grp":589,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"YS12-EN005","name":"Ganbara Knight","ctype":"monster","keywords":"Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Effect","atk":0,"def":1800},"rarity":"C","img":"24291651","code":"5","tcg":58319,"grp":589,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"YS12-EN006","name":"Gogogo Golem","ctype":"monster","keywords":"Gogogo Rock EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Rock / Effect","atk":1800,"def":1500},"rarity":"C","img":"62476815","code":"6","tcg":58320,"grp":589,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"YS12-EN007","name":"Gogogo Giant","ctype":"monster","keywords":"Gogogo Rock EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Rock / Effect","atk":2000,"def":0},"rarity":"C","img":"39695323","code":"7","tcg":58321,"grp":589,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"YS12-EN008","name":"Goblindbergh","ctype":"monster","keywords":"Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Effect","atk":1400,"def":0},"rarity":"C","img":"25259669","code":"8","tcg":58322,"grp":589,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"YS12-EN009","name":"Feedback Warrior","ctype":"monster","keywords":"Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Warrior / Effect","atk":800,"def":700},"rarity":"C","img":"50785356","code":"9","tcg":58323,"grp":589,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"YS12-EN010","name":"Shine Knight","ctype":"monster","keywords":"Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Warrior / Effect","atk":400,"def":1900},"rarity":"C","img":"86952477","code":"10","tcg":58324,"grp":589,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"YS12-EN011","name":"Cyber Dragon","ctype":"monster","keywords":"Cyber Dragon Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 5","t":"Machine / Effect","atk":2100,"def":1600},"rarity":"C","img":"70095154","code":"11","tcg":58325,"grp":589,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"YS12-EN012","name":"Trident Warrior","ctype":"monster","keywords":"Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Effect","atk":1800,"def":1200},"rarity":"C","img":"20474741","code":"12","tcg":58326,"grp":589,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"YS12-EN013","name":"Chiron the Mage","ctype":"monster","keywords":"Beast-Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Beast-Warrior / Effect","atk":1800,"def":1000},"rarity":"C","img":"16956455","code":"13","tcg":58327,"grp":589,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"YS12-EN014","name":"Marauding Captain","ctype":"monster","keywords":"Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Warrior / Effect","atk":1200,"def":400},"rarity":"C","img":"2460565","code":"14","tcg":58328,"grp":589,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"YS12-EN015","name":"Penguin Soldier","ctype":"monster","keywords":"Penguin Aqua WATER Flip Effect Monster","stats":{"a":"WATER","l":"Level 2","t":"Aqua / Flip / Effect","atk":750,"def":500},"rarity":"C","img":"93920745","code":"15","tcg":58329,"grp":589,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"YS12-EN016","name":"Sangan","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Fiend / Effect","atk":1000,"def":600},"rarity":"C","img":"26202165","code":"16","tcg":58330,"grp":589,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"YS12-EN017","name":"Giant Rat","ctype":"monster","keywords":"Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Beast / Effect","atk":1400,"def":1450},"rarity":"C","img":"97017120","code":"17","tcg":58331,"grp":589,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"YS12-EN018","name":"Shining Angel","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fairy / Effect","atk":1400,"def":800},"rarity":"C","img":"95956346","code":"18","tcg":58332,"grp":589,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"YS12-EN019","name":"Blustering Winds","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"22346472","code":"19","tcg":58333,"grp":589,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"YS12-EN020","name":"Ego Boost","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"73178098","code":"20","tcg":58334,"grp":589,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"YS12-EN021","name":"Xyz Energy","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"85839825","code":"21","tcg":58335,"grp":589,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"YS12-EN022","name":"Star Changer","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"63485233","code":"22","tcg":58336,"grp":589,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"YS12-EN023","name":"Swords of Revealing Light","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"72302403","code":"23","tcg":58337,"grp":589,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"YS12-EN024","name":"Mystical Space Typhoon","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"5318639","code":"24","tcg":58338,"grp":589,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"YS12-EN025","name":"Fissure","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"66788016","code":"25","tcg":58339,"grp":589,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"YS12-EN026","name":"Gravity Axe - Grarl","ctype":"spell","keywords":"Guardian Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"32022366","code":"26","tcg":58340,"grp":589,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"YS12-EN027","name":"Reinforcement of the Army","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"32807846","code":"27","tcg":58341,"grp":589,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"YS12-EN028","name":"Burden of the Mighty","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"44947065","code":"28","tcg":58342,"grp":589,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"YS12-EN029","name":"Heartfelt Appeal","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"32065885","code":"29","tcg":58343,"grp":589,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"YS12-EN030","name":"Xyz Effect","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"58628539","code":"30","tcg":58344,"grp":589,"idx":29},
+    {"id":"031","section":"main","num":"031","printed":"YS12-EN031","name":"Raigeki Break","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"4178474","code":"31","tcg":58345,"grp":589,"idx":30},
+    {"id":"032","section":"main","num":"032","printed":"YS12-EN032","name":"Trap Hole","ctype":"trap","keywords":"Hole Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"4206964","code":"32","tcg":58346,"grp":589,"idx":31},
+    {"id":"033","section":"main","num":"033","printed":"YS12-EN033","name":"Dust Tornado","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"60082869","code":"33","tcg":58347,"grp":589,"idx":32},
+    {"id":"034","section":"main","num":"034","printed":"YS12-EN034","name":"Magic Cylinder","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"62279055","code":"34","tcg":58348,"grp":589,"idx":33},
+    {"id":"035","section":"main","num":"035","printed":"YS12-EN035","name":"Draining Shield","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"43250041","code":"35","tcg":58349,"grp":589,"idx":34},
+    {"id":"036","section":"main","num":"036","printed":"YS12-EN036","name":"Call of the Haunted","ctype":"trap","keywords":"Call of the Haunted Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"97077563","code":"36","tcg":58350,"grp":589,"idx":35},
+    {"id":"037","section":"main","num":"037","printed":"YS12-EN037","name":"Limit Reverse","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"27551","code":"37","tcg":58351,"grp":589,"idx":36},
+    {"id":"038","section":"main","num":"038","printed":"YS12-EN038","name":"Seven Tools of the Bandit","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"C","img":"3819470","code":"38","tcg":58352,"grp":589,"idx":37},
+    {"id":"039","section":"main","num":"039","printed":"YS12-EN039","name":"Number 39: Utopia","ctype":"monster","keywords":"Utopia Warrior LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 4","t":"Warrior / Xyz","atk":2500,"def":2000},"rarity":"UR","img":"84013237","code":"39","tcg":58353,"grp":589,"idx":38},
+    {"id":"040","section":"main","num":"040","printed":"YS12-EN040","name":"Muzurhythm the String Djinn","ctype":"monster","keywords":"Djinn Fiend WIND Xyz Monster","stats":{"a":"WIND","l":"Rank 3","t":"Fiend / Xyz","atk":1500,"def":1000},"rarity":"SR","img":"26563200","code":"40","tcg":58354,"grp":589,"idx":39},
+    {"id":"041","section":"main","num":"041","printed":"YS12-EN041","name":"Temtempo the Percussion Djinn","ctype":"monster","keywords":"Djinn Fiend EARTH Xyz Monster","stats":{"a":"EARTH","l":"Rank 3","t":"Fiend / Xyz","atk":1700,"def":1000},"rarity":"SR","img":"52558805","code":"41","tcg":58355,"grp":589,"idx":40},
+    {"id":"042","section":"main","num":"042","printed":"YS12-EN042","name":"Melomelody the Brass Djinn","ctype":"monster","keywords":"Djinn Fiend LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 3","t":"Fiend / Xyz","atk":1400,"def":1600},"rarity":"SR","img":"88942504","code":"42","tcg":58356,"grp":589,"idx":41},
+    {"id":"043","section":"main","num":"043","printed":"YS12-EN043","name":"Maestroke the Symphony Djinn","ctype":"monster","keywords":"Djinn Fiend DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 4","t":"Fiend / Xyz","atk":1800,"def":2300},"rarity":"SR","img":"25341652","code":"43","tcg":58357,"grp":589,"idx":42}
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "yugioh/duelist-pack-collection-tin-2010",
+  "game": "yugioh",
+  "slug": "duelist-pack-collection-tin-2010",
+  "name": "Duelist Pack Collection Tin 2010",
+  "series": "5D’s",
+  "kind": "tin",
+  "code": "DPCT",
+  "syncKey": "YDPCT",
+  "released": "2010-03-05",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "DPCT-EN004–DPCT-ENY09",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from DPCT-EN004 to DPCT-ENY09."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Duelist Pack Collection Tin 2010 Checklist · All 10 Cards",
+    "description": "Free Yu-Gi-Oh! Duelist Pack Collection Tin 2010 checklist with no ads, no sign-up and no tracking. Track all 10 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Duelist Pack Collection Tin 2010 Checklist",
+    "ogDescription": "Track all 10 cards in Yu-Gi-Oh! Duelist Pack Collection Tin 2010. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 10 cards in Yu-Gi-Oh! Duelist Pack Collection Tin 2010. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Duelist Pack Collection Tin 2010",
+    "paragraphs": [
+      "Duelist Pack Collection Tin 2010 is a Yu-Gi-Oh! TCG tin released on 5 March 2010, in the 5D’s era. It has 10 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Duelist Pack Collection Tin 2010"
+    ],
+    "tcgplayer": [
+      134
+    ]
+  },
+  "cards": [
+    {"id":"004","section":"main","num":"004","printed":"DPCT-EN004","name":"Starlight Road","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"ScR","img":"58120309","code":"4","tcg":34943,"grp":134,"idx":0},
+    {"id":"Y01","section":"main","num":"Y01","printed":"DPCT-ENY01","name":"Junk Synchron","ctype":"monster","keywords":"Junk Warrior DARK Tuner Monster","stats":{"a":"DARK","l":"Level 3","t":"Warrior / Tuner","atk":1300,"def":500},"rarity":"UR","img":"63977008","code":"Y1","tcg":57129,"grp":134,"idx":1},
+    {"id":"Y02","section":"main","num":"Y02","printed":"DPCT-ENY02","name":"Quillbolt Hedgehog","ctype":"monster","keywords":"Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 2","t":"Machine / Effect","atk":800,"def":800},"rarity":"SR","img":"23571046","code":"Y2","tcg":57130,"grp":134,"idx":2},
+    {"id":"Y03","section":"main","num":"Y03","printed":"DPCT-ENY03","name":"Synchro Blast Wave","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"35537860","code":"Y3","tcg":57131,"grp":134,"idx":3},
+    {"id":"Y04","section":"main","num":"Y04","printed":"DPCT-ENY04","name":"Drill Synchron","ctype":"monster","keywords":"Synchron Machine EARTH Tuner Monster","stats":{"a":"EARTH","l":"Level 3","t":"Machine / Tuner","atk":800,"def":300},"rarity":"UR","img":"56286179","code":"Y4","tcg":57132,"grp":134,"idx":4},
+    {"id":"Y05","section":"main","num":"Y05","printed":"DPCT-ENY05","name":"Speed Warrior","ctype":"monster","keywords":"Warrior WIND Effect Monster","stats":{"a":"WIND","l":"Level 2","t":"Warrior / Effect","atk":900,"def":400},"rarity":"SR","img":"9365703","code":"Y5","tcg":57133,"grp":134,"idx":5},
+    {"id":"Y06","section":"main","num":"Y06","printed":"DPCT-ENY06","name":"Advance Draw","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"51630558","code":"Y6","tcg":57134,"grp":134,"idx":6},
+    {"id":"Y07","section":"main","num":"Y07","printed":"DPCT-ENY07","name":"Level Eater","ctype":"monster","keywords":"Insect DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Insect / Effect","atk":600,"def":0},"rarity":"SR","img":"57421866","code":"Y7","tcg":57135,"grp":134,"idx":7},
+    {"id":"Y08","section":"main","num":"Y08","printed":"DPCT-ENY08","name":"One for One","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"2295440","code":"Y8","tcg":57136,"grp":134,"idx":8},
+    {"id":"Y09","section":"main","num":"Y09","printed":"DPCT-ENY09","name":"Scrap-Iron Scarecrow","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"UR","img":"98427577","code":"Y9","tcg":57137,"grp":134,"idx":9}
+  ]
+}

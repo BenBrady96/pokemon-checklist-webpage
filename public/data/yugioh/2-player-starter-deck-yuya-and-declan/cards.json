@@ -1,0 +1,100 @@
+{
+  "id": "yugioh/2-player-starter-deck-yuya-and-declan",
+  "game": "yugioh",
+  "slug": "2-player-starter-deck-yuya-and-declan",
+  "name": "2-Player Starter Deck: Yuya & Declan",
+  "series": "ARC-V",
+  "kind": "deck",
+  "code": "YS15",
+  "syncKey": "YYS15",
+  "released": "2015-05-28",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "YS15-END00–YS15-ENY20",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from YS15-END00 to YS15-ENY20."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! 2-Player Starter Deck: Yuya & Declan Checklist · All 42 Cards",
+    "description": "Free Yu-Gi-Oh! 2-Player Starter Deck: Yuya & Declan checklist with no ads, no sign-up and no tracking. Track all 42 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! 2-Player Starter Deck: Yuya & Declan Checklist",
+    "ogDescription": "Track all 42 cards in Yu-Gi-Oh! 2-Player Starter Deck: Yuya & Declan. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 42 cards in Yu-Gi-Oh! 2-Player Starter Deck: Yuya & Declan. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About 2-Player Starter Deck: Yuya & Declan",
+    "paragraphs": [
+      "2-Player Starter Deck: Yuya &amp; Declan is a Yu-Gi-Oh! TCG deck released on 28 May 2015, in the ARC-V era. It has 42 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "2-Player Starter Deck: Yuya & Declan"
+    ],
+    "tcgplayer": []
+  },
+  "cards": [
+    {"id":"D00","section":"main","num":"D00","printed":"YS15-END00","name":"D/D/D Dragon King Pendragon","ctype":"monster","keywords":"D/D Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Fiend / Effect","atk":2600,"def":2400},"rarity":"UR","img":"56619314","code":"D0","idx":0},
+    {"id":"D01","section":"main","num":"D01","printed":"YS15-END01","name":"Beast of Talwar","ctype":"monster","keywords":"Archfiend Fiend DARK Normal Monster","stats":{"a":"DARK","l":"Level 6","t":"Fiend / Normal","atk":2400,"def":2150},"rarity":"C","img":"11761845","code":"D1","idx":1},
+    {"id":"D02","section":"main","num":"D02","printed":"YS15-END02","name":"Archfiend Soldier","ctype":"monster","keywords":"Archfiend Fiend DARK Normal Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Normal","atk":1900,"def":1500},"rarity":"C","img":"49881766","code":"D2","idx":2},
+    {"id":"D03","section":"main","num":"D03","printed":"YS15-END03","name":"Vice Dragon","ctype":"monster","keywords":"Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 5","t":"Dragon / Effect","atk":2000,"def":2400},"rarity":"C","img":"54343893","code":"D3","idx":3},
+    {"id":"D04","section":"main","num":"D04","printed":"YS15-END04","name":"Goblin Elite Attack Force","ctype":"monster","keywords":"Fiend EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Fiend / Effect","atk":2200,"def":1500},"rarity":"C","img":"85306040","code":"D4","idx":4},
+    {"id":"D05","section":"main","num":"D05","printed":"YS15-END05","name":"Axe Dragonute","ctype":"monster","keywords":"Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Dragon / Effect","atk":2000,"def":1200},"rarity":"C","img":"84914462","code":"D5","idx":5},
+    {"id":"D06","section":"main","num":"D06","printed":"YS15-END06","name":"Mad Archfiend","ctype":"monster","keywords":"Archfiend Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Effect","atk":1800,"def":0},"rarity":"C","img":"94664694","code":"D6","idx":6},
+    {"id":"D07","section":"main","num":"D07","printed":"YS15-END07","name":"Fabled Ashenveil","ctype":"monster","keywords":"Fabled Fiend LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fiend / Effect","atk":1600,"def":1200},"rarity":"C","img":"12235475","code":"D7","idx":7},
+    {"id":"D08","section":"main","num":"D08","printed":"YS15-END08","name":"Theban Nightmare","ctype":"monster","keywords":"Fiend LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fiend / Effect","atk":1500,"def":500},"rarity":"C","img":"51838385","code":"D8","idx":8},
+    {"id":"D09","section":"main","num":"D09","printed":"YS15-END09","name":"Bright Star Dragon","ctype":"monster","keywords":"Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Dragon / Effect","atk":1900,"def":1000},"rarity":"C","img":"16719802","code":"D9","idx":9},
+    {"id":"D10","section":"main","num":"D10","printed":"YS15-END10","name":"Exploder Dragon","ctype":"monster","keywords":"Dragon EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Dragon / Effect","atk":1000,"def":0},"rarity":"C","img":"20586572","code":"D10","idx":10},
+    {"id":"D11","section":"main","num":"D11","printed":"YS15-END11","name":"Grave Squirmer","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Fiend / Effect","atk":0,"def":0},"rarity":"C","img":"48343627","code":"D11","idx":11},
+    {"id":"D12","section":"main","num":"D12","printed":"YS15-END12","name":"Smashing Ground","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"97169186","code":"D12","idx":12},
+    {"id":"D13","section":"main","num":"D13","printed":"YS15-END13","name":"Mystical Space Typhoon","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"5318639","code":"D13","idx":13},
+    {"id":"D14","section":"main","num":"D14","printed":"YS15-END14","name":"Axe of Despair","ctype":"spell","keywords":"Archfiend Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"40619825","code":"D14","idx":14},
+    {"id":"D15","section":"main","num":"D15","printed":"YS15-END15","name":"Banner of Courage","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"10012614","code":"D15","idx":15},
+    {"id":"D16","section":"main","num":"D16","printed":"YS15-END16","name":"Mirror Force","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"44095762","code":"D16","idx":16},
+    {"id":"D17","section":"main","num":"D17","printed":"YS15-END17","name":"Magic Cylinder","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"62279055","code":"D17","idx":17},
+    {"id":"D18","section":"main","num":"D18","printed":"YS15-END18","name":"Dust Tornado","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"60082869","code":"D18","idx":18},
+    {"id":"D19","section":"main","num":"D19","printed":"YS15-END19","name":"Mask of Weakness","ctype":"trap","keywords":"Mask Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"57882509","code":"D19","idx":19},
+    {"id":"D20","section":"main","num":"D20","printed":"YS15-END20","name":"Call of the Haunted","ctype":"trap","keywords":"Call of the Haunted Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"97077563","code":"D20","idx":20},
+    {"id":"Y00","section":"main","num":"Y00","printed":"YS15-ENY00","name":"Odd-Eyes Saber Dragon","ctype":"monster","keywords":"Odd-Eyes Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 7","t":"Dragon / Effect","atk":2800,"def":2000},"rarity":"UR","img":"19221310","code":"Y0","idx":21},
+    {"id":"Y01","section":"main","num":"Y01","printed":"YS15-ENY01","name":"Alexandrite Dragon","ctype":"monster","keywords":"Dragon LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Dragon / Normal","atk":2000,"def":100},"rarity":"C","img":"43096270","code":"Y1","idx":22},
+    {"id":"Y02","section":"main","num":"Y02","printed":"YS15-ENY02","name":"Mystical Elf","ctype":"monster","keywords":"Spellcaster LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Normal","atk":800,"def":2000},"rarity":"C","img":"15025844","code":"Y2","idx":23},
+    {"id":"Y03","section":"main","num":"Y03","printed":"YS15-ENY03","name":"Odd-Eyes Dragon","ctype":"monster","keywords":"Odd-Eyes Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Dragon / Effect","atk":2500,"def":2000},"rarity":"C","img":"53025096","code":"Y3","idx":24},
+    {"id":"Y04","section":"main","num":"Y04","printed":"YS15-ENY04","name":"Cyber Dragon","ctype":"monster","keywords":"Cyber Dragon Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 5","t":"Machine / Effect","atk":2100,"def":1600},"rarity":"C","img":"70095154","code":"Y4","idx":25},
+    {"id":"Y05","section":"main","num":"Y05","printed":"YS15-ENY05","name":"Herald of Creation","ctype":"monster","keywords":"Herald Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Effect","atk":1800,"def":600},"rarity":"C","img":"66337215","code":"Y5","idx":26},
+    {"id":"Y06","section":"main","num":"Y06","printed":"YS15-ENY06","name":"Mirage Dragon","ctype":"monster","keywords":"Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Dragon / Effect","atk":1600,"def":600},"rarity":"C","img":"15960641","code":"Y6","idx":27},
+    {"id":"Y07","section":"main","num":"Y07","printed":"YS15-ENY07","name":"Maha Vailo","ctype":"monster","keywords":"Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Effect","atk":1550,"def":1400},"rarity":"C","img":"93013676","code":"Y7","idx":28},
+    {"id":"Y08","section":"main","num":"Y08","printed":"YS15-ENY08","name":"Ancient Dragon","ctype":"monster","keywords":"Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Dragon / Effect","atk":1400,"def":1300},"rarity":"C","img":"38520918","code":"Y8","idx":29},
+    {"id":"Y09","section":"main","num":"Y09","printed":"YS15-ENY09","name":"DUCKER Mobile Cannon","ctype":"monster","keywords":"Machine LIGHT Flip Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Machine / Flip / Effect","atk":500,"def":500},"rarity":"C","img":"14506878","code":"Y9","idx":30},
+    {"id":"Y10","section":"main","num":"Y10","printed":"YS15-ENY10","name":"Skelengel","ctype":"monster","keywords":"Fairy LIGHT Flip Effect Monster","stats":{"a":"LIGHT","l":"Level 2","t":"Fairy / Flip / Effect","atk":900,"def":400},"rarity":"C","img":"60694662","code":"Y10","idx":31},
+    {"id":"Y11","section":"main","num":"Y11","printed":"YS15-ENY11","name":"The Calculator","ctype":"monster","keywords":"Thunder LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 2","t":"Thunder / Effect","atk":-1,"def":0},"rarity":"C","img":"51196174","code":"Y11","idx":32},
+    {"id":"Y12","section":"main","num":"Y12","printed":"YS15-ENY12","name":"Dark Hole","ctype":"spell","keywords":"Hole Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"53129443","code":"Y12","idx":33},
+    {"id":"Y13","section":"main","num":"Y13","printed":"YS15-ENY13","name":"Mystical Space Typhoon","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"5318639","code":"Y13","idx":34},
+    {"id":"Y14","section":"main","num":"Y14","printed":"YS15-ENY14","name":"Rush Recklessly","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"70046172","code":"Y14","idx":35},
+    {"id":"Y15","section":"main","num":"Y15","printed":"YS15-ENY15","name":"Black Pendant","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"65169794","code":"Y15","idx":36},
+    {"id":"Y16","section":"main","num":"Y16","printed":"YS15-ENY16","name":"Malevolent Nuzzler","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"99597615","code":"Y16","idx":37},
+    {"id":"Y17","section":"main","num":"Y17","printed":"YS15-ENY17","name":"Trap Hole","ctype":"trap","keywords":"Hole Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"4206964","code":"Y17","idx":38},
+    {"id":"Y18","section":"main","num":"Y18","printed":"YS15-ENY18","name":"Pinpoint Guard","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"44509898","code":"Y18","idx":39},
+    {"id":"Y19","section":"main","num":"Y19","printed":"YS15-ENY19","name":"Call of the Haunted","ctype":"trap","keywords":"Call of the Haunted Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"97077563","code":"Y19","idx":40},
+    {"id":"Y20","section":"main","num":"Y20","printed":"YS15-ENY20","name":"Negate Attack","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"C","img":"14315573","code":"Y20","idx":41}
+  ]
+}

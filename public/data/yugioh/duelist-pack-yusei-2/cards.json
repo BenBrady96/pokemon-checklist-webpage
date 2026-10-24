@@ -1,0 +1,90 @@
+{
+  "id": "yugioh/duelist-pack-yusei-2",
+  "game": "yugioh",
+  "slug": "duelist-pack-yusei-2",
+  "name": "Duelist Pack: Yusei 2",
+  "series": "5D’s",
+  "kind": "pack",
+  "code": "DP09",
+  "syncKey": "YDP09",
+  "released": "2010-01-15",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "DP09-EN001–DP09-EN030",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from DP09-EN001 to DP09-EN030."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Duelist Pack: Yusei 2 Checklist · All 30 Cards",
+    "description": "Free Yu-Gi-Oh! Duelist Pack: Yusei 2 checklist with no ads, no sign-up and no tracking. Track all 30 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Duelist Pack: Yusei 2 Checklist",
+    "ogDescription": "Track all 30 cards in Yu-Gi-Oh! Duelist Pack: Yusei 2. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 30 cards in Yu-Gi-Oh! Duelist Pack: Yusei 2. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Duelist Pack: Yusei 2",
+    "paragraphs": [
+      "Duelist Pack: Yusei 2 is a Yu-Gi-Oh! TCG pack released on 15 January 2010, in the 5D’s era. It has 30 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Duelist Pack: Yusei 2"
+    ],
+    "tcgplayer": [
+      189
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"DP09-EN001","name":"Stardust Dragon/Assault Mode","ctype":"monster","keywords":"/Assault Mode Dragon WIND Effect Monster","stats":{"a":"WIND","l":"Level 10","t":"Dragon / Effect","atk":3000,"def":2500},"rarity":"SR","img":"61257789","code":"1","tcg":34473,"grp":189,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"DP09-EN002","name":"Road Synchron","ctype":"monster","keywords":"Synchron Machine LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Machine / Tuner","atk":1600,"def":800},"rarity":"R","img":"71971554","code":"2","tcg":34474,"grp":189,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"DP09-EN003","name":"Turret Warrior","ctype":"monster","keywords":"Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 5","t":"Warrior / Effect","atk":1200,"def":2000},"rarity":"R","img":"88559132","code":"3","tcg":34475,"grp":189,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"DP09-EN004","name":"Debris Dragon","ctype":"monster","keywords":"Dragon WIND Tuner Monster","stats":{"a":"WIND","l":"Level 4","t":"Dragon / Tuner","atk":1000,"def":2000},"rarity":"C","img":"14943837","code":"4","tcg":34476,"grp":189,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"DP09-EN005","name":"Hyper Synchron","ctype":"monster","keywords":"Synchron Machine LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Machine / Tuner","atk":1600,"def":800},"rarity":"C","img":"40348946","code":"5","tcg":34477,"grp":189,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"DP09-EN006","name":"Rockstone Warrior","ctype":"monster","keywords":"Rock EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Rock / Effect","atk":1800,"def":1600},"rarity":"R","img":"51987571","code":"6","tcg":34478,"grp":189,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"DP09-EN007","name":"Level Warrior","ctype":"monster","keywords":"Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Warrior / Effect","atk":300,"def":600},"rarity":"C","img":"97385276","code":"7","tcg":34479,"grp":189,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"DP09-EN008","name":"Majestic Dragon","ctype":"monster","keywords":"Majestic Dragon LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Dragon / Tuner","atk":0,"def":0},"rarity":"C","img":"21159309","code":"8","tcg":34480,"grp":189,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"DP09-EN009","name":"Max Warrior","ctype":"monster","keywords":"Warrior WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Warrior / Effect","atk":1800,"def":800},"rarity":"R","img":"94538053","code":"9","tcg":34481,"grp":189,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"DP09-EN010","name":"Quickdraw Synchron","ctype":"monster","keywords":"Synchron Machine WIND Tuner Monster","stats":{"a":"WIND","l":"Level 5","t":"Machine / Tuner","atk":700,"def":1400},"rarity":"C","img":"20932152","code":"10","tcg":34482,"grp":189,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"DP09-EN011","name":"Level Eater","ctype":"monster","keywords":"Insect DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Insect / Effect","atk":600,"def":0},"rarity":"C","img":"57421866","code":"11","tcg":34483,"grp":189,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"DP09-EN012","name":"Zero Gardna","ctype":"monster","keywords":"Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Effect","atk":0,"def":0},"rarity":"C","img":"93816465","code":"12","tcg":34484,"grp":189,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"DP09-EN013","name":"Gauntlet Warrior","ctype":"monster","keywords":"Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Warrior / Effect","atk":400,"def":1600},"rarity":"UR","img":"79337169","code":"13","tcg":34485,"grp":189,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"DP09-EN014","name":"Eccentric Boy","ctype":"monster","keywords":"Spellcaster WIND Tuner Monster","stats":{"a":"WIND","l":"Level 3","t":"Spellcaster / Tuner","atk":800,"def":200},"rarity":"SR","img":"16825874","code":"14","tcg":34486,"grp":189,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"DP09-EN015","name":"Road Warrior","ctype":"monster","keywords":"Warrior LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Warrior / Synchro","atk":3000,"def":1500},"rarity":"R","img":"2322421","code":"15","tcg":34487,"grp":189,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"DP09-EN016","name":"Junk Archer","ctype":"monster","keywords":"Junk Warrior EARTH Synchro Monster","stats":{"a":"EARTH","l":"Level 7","t":"Warrior / Synchro","atk":2300,"def":2000},"rarity":"UR","img":"42810973","code":"16","tcg":34488,"grp":189,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"DP09-EN017","name":"Prevention Star","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"94303232","code":"17","tcg":34489,"grp":189,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"DP09-EN018","name":"One for One","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"R","img":"2295440","code":"18","tcg":34490,"grp":189,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"DP09-EN019","name":"Release Restraint Wave","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"98847704","code":"19","tcg":34491,"grp":189,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"DP09-EN020","name":"Silver Wing","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"25231813","code":"20","tcg":34492,"grp":189,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"DP09-EN021","name":"Advance Draw","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"51630558","code":"21","tcg":34493,"grp":189,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"DP09-EN022","name":"Assault Mode Activate","ctype":"trap","keywords":"Assault Mode Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"80280737","code":"22","tcg":34494,"grp":189,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"DP09-EN023","name":"Spirit Force","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"16674846","code":"23","tcg":34495,"grp":189,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"DP09-EN024","name":"Descending Lost Star","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"42079445","code":"24","tcg":34496,"grp":189,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"DP09-EN025","name":"Miracle Locus","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"97168905","code":"25","tcg":34497,"grp":189,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"DP09-EN026","name":"Skill Successor","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"R","img":"73729209","code":"26","tcg":34498,"grp":189,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"DP09-EN027","name":"Reinforce Truth","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"10118318","code":"27","tcg":34499,"grp":189,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"DP09-EN028","name":"Slip Summon","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"94484482","code":"28","tcg":34500,"grp":189,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"DP09-EN029","name":"Scrubbed Raid","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"SR","img":"79205581","code":"29","tcg":34501,"grp":189,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"DP09-EN030","name":"Tuner's Barrier","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"5609226","code":"30","tcg":34502,"grp":189,"idx":29}
+  ]
+}

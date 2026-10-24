@@ -1,0 +1,116 @@
+{
+  "id": "yugioh/duel-devastator",
+  "game": "yugioh",
+  "slug": "duel-devastator",
+  "name": "Duel Devastator",
+  "series": "VRAINS",
+  "kind": "set",
+  "code": "DUDE",
+  "syncKey": "YDUDE",
+  "released": "2019-10-10",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Main Set",
+      "range": "DUDE-EN001–DUDE-EN056",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from DUDE-EN001 to DUDE-EN056."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Duel Devastator Checklist · All 56 Cards",
+    "description": "Free Yu-Gi-Oh! Duel Devastator checklist with no ads, no sign-up and no tracking. Track all 56 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Duel Devastator Checklist",
+    "ogDescription": "Track all 56 cards in Yu-Gi-Oh! Duel Devastator. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 56 cards in Yu-Gi-Oh! Duel Devastator. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About the Duel Devastator set",
+    "paragraphs": [
+      "Duel Devastator is a Yu-Gi-Oh! TCG special set released on 10 October 2019, in the VRAINS era. It has 56 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Duel Devastator"
+    ],
+    "tcgplayer": [
+      2505
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"DUDE-EN001","name":"Ghost Ogre & Snow Rabbit","ctype":"monster","keywords":"Psychic LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Psychic / Tuner","atk":0,"def":1800},"rarity":"UR","img":"59438931","code":"1","tcg":199548,"grp":2505,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"DUDE-EN002","name":"Ghost Reaper & Winter Cherries","ctype":"monster","keywords":"Zombie DARK Tuner Monster","stats":{"a":"DARK","l":"Level 3","t":"Zombie / Tuner","atk":0,"def":1800},"rarity":"UR","img":"62015409","code":"2","tcg":199549,"grp":2505,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"DUDE-EN003","name":"Ash Blossom & Joyous Spring","ctype":"monster","keywords":"Zombie FIRE Tuner Monster","stats":{"a":"FIRE","l":"Level 3","t":"Zombie / Tuner","atk":0,"def":1800},"rarity":"UR","img":"14558128","code":"3","tcg":199550,"grp":2505,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"DUDE-EN004","name":"Ghost Belle & Haunted Mansion","ctype":"monster","keywords":"Zombie EARTH Tuner Monster","stats":{"a":"EARTH","l":"Level 3","t":"Zombie / Tuner","atk":0,"def":1800},"rarity":"UR","img":"73642297","code":"4","tcg":199551,"grp":2505,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"DUDE-EN005","name":"Ghost Sister & Spooky Dogwood","ctype":"monster","keywords":"Zombie WATER Tuner Monster","stats":{"a":"WATER","l":"Level 3","t":"Zombie / Tuner","atk":0,"def":1800},"rarity":"UR","img":"60643554","code":"5","tcg":199552,"grp":2505,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"DUDE-EN006","name":"Red Blossoms from Underroot","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Fiend / Effect","atk":0,"def":0},"rarity":"UR","img":"71521025","code":"6","tcg":199554,"grp":2505,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"DUDE-EN007","name":"Ally of Justice Catastor","ctype":"monster","keywords":"Ally of Justice Machine DARK Synchro Monster","stats":{"a":"DARK","l":"Level 5","t":"Machine / Synchro","atk":2200,"def":1200},"rarity":"UR","img":"26593852","code":"7","tcg":199555,"grp":2505,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"DUDE-EN008","name":"Brionac, Dragon of the Ice Barrier","ctype":"monster","keywords":"Ice Barrier Sea Serpent WATER Synchro Monster","stats":{"a":"WATER","l":"Level 6","t":"Sea Serpent / Synchro","atk":2300,"def":1400},"rarity":"UR","img":"50321796","code":"8","tcg":199557,"grp":2505,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"DUDE-EN009","name":"Metaphys Horus","ctype":"monster","keywords":"Metaphys Wyrm LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Wyrm / Synchro","atk":2300,"def":1600},"rarity":"UR","img":"36898537","code":"9","tcg":199558,"grp":2505,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"DUDE-EN010","name":"Black Rose Dragon","ctype":"monster","keywords":"Rose Dragon Dragon FIRE Synchro Monster","stats":{"a":"FIRE","l":"Level 7","t":"Dragon / Synchro","atk":2400,"def":1800},"rarity":"UR","img":"73580471","code":"10","tcg":199559,"grp":2505,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"DUDE-EN011","name":"Clear Wing Fast Dragon","ctype":"monster","keywords":"Clear Wing Dragon WIND Synchro Pendulum Effect Monster","stats":{"a":"WIND","l":"Level 7","t":"Dragon / Synchro / Pendulum / Effect","atk":2500,"def":2000},"rarity":"UR","img":"90036274","code":"11","tcg":199561,"grp":2505,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"DUDE-EN012","name":"Stardust Spark Dragon","ctype":"monster","keywords":"Stardust Dragon LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Synchro","atk":2500,"def":2000},"rarity":"UR","img":"83994433","code":"12","tcg":199562,"grp":2505,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"DUDE-EN013","name":"Scarlight Red Dragon Archfiend","ctype":"monster","keywords":"Archfiend Dragon DARK Synchro Monster","stats":{"a":"DARK","l":"Level 8","t":"Dragon / Synchro","atk":3000,"def":2500},"rarity":"UR","img":"80666118","code":"13","tcg":199563,"grp":2505,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"DUDE-EN014","name":"Trishula, Dragon of the Ice Barrier","ctype":"monster","keywords":"Ice Barrier Dragon WATER Synchro Monster","stats":{"a":"WATER","l":"Level 9","t":"Dragon / Synchro","atk":2700,"def":2000},"rarity":"UR","img":"52687916","code":"14","tcg":199565,"grp":2505,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"DUDE-EN015","name":"Vermillion Dragon Mech","ctype":"monster","keywords":"Machine FIRE Synchro Monster","stats":{"a":"FIRE","l":"Level 9","t":"Machine / Synchro","atk":2700,"def":1800},"rarity":"UR","img":"66698383","code":"15","tcg":199566,"grp":2505,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"DUDE-EN016","name":"Abyss Dweller","ctype":"monster","keywords":"Sea Serpent WATER Xyz Monster","stats":{"a":"WATER","l":"Rank 4","t":"Sea Serpent / Xyz","atk":1700,"def":1400},"rarity":"UR","img":"21044178","code":"16","tcg":199567,"grp":2505,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"DUDE-EN017","name":"Number 101: Silent Honor ARK","ctype":"monster","keywords":"Aqua WATER Xyz Monster","stats":{"a":"WATER","l":"Rank 4","t":"Aqua / Xyz","atk":2100,"def":1000},"rarity":"UR","img":"48739166","code":"17","tcg":199569,"grp":2505,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"DUDE-EN018","name":"Castel, the Skyblaster Musketeer","ctype":"monster","keywords":"Winged Beast WIND Xyz Monster","stats":{"a":"WIND","l":"Rank 4","t":"Winged Beast / Xyz","atk":2000,"def":1500},"rarity":"UR","img":"82633039","code":"18","tcg":199570,"grp":2505,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"DUDE-EN019","name":"Tornado Dragon","ctype":"monster","keywords":"Wyrm WIND Xyz Monster","stats":{"a":"WIND","l":"Rank 4","t":"Wyrm / Xyz","atk":2100,"def":2000},"rarity":"UR","img":"6983839","code":"19","tcg":199571,"grp":2505,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"DUDE-EN020","name":"Underclock Taker","ctype":"monster","keywords":"Cyberse DARK Link Monster","stats":{"a":"DARK","l":"Link 2","t":"Cyberse / Link","atk":1000},"rarity":"UR","img":"77058170","code":"20","tcg":199572,"grp":2505,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"DUDE-EN021","name":"LANphorhynchus","ctype":"monster","keywords":"Cyberse LIGHT Link Monster","stats":{"a":"LIGHT","l":"Link 2","t":"Cyberse / Link","atk":1200},"rarity":"UR","img":"77637979","code":"21","tcg":199573,"grp":2505,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"DUDE-EN022","name":"Gaia Saber, the Lightning Shadow","ctype":"monster","keywords":"Gaia The Fierce Knight Machine EARTH Link Monster","stats":{"a":"EARTH","l":"Link 3","t":"Machine / Link","atk":2600},"rarity":"UR","img":"67598234","code":"22","tcg":199574,"grp":2505,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"DUDE-EN023","name":"Decode Talker","ctype":"monster","keywords":"Code Talker Cyberse DARK Link Monster","stats":{"a":"DARK","l":"Link 3","t":"Cyberse / Link","atk":2300},"rarity":"UR","img":"1861629","code":"23","tcg":199575,"grp":2505,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"DUDE-EN024","name":"Decode Talker Extended","ctype":"monster","keywords":"Code Talker Cyberse DARK Link Monster","stats":{"a":"DARK","l":"Link 3","t":"Cyberse / Link","atk":2300},"rarity":"UR","img":"30822527","code":"24","tcg":199576,"grp":2505,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"DUDE-EN025","name":"Topologic Bomber Dragon","ctype":"monster","keywords":"Cyberse DARK Link Monster","stats":{"a":"DARK","l":"Link 4","t":"Cyberse / Link","atk":3000},"rarity":"UR","img":"5821478","code":"25","tcg":199577,"grp":2505,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"DUDE-EN026","name":"Saryuja Skull Dread","ctype":"monster","keywords":"Dragon EARTH Link Monster","stats":{"a":"EARTH","l":"Link 4","t":"Dragon / Link","atk":2800},"rarity":"UR","img":"74997493","code":"26","tcg":199578,"grp":2505,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"DUDE-EN027","name":"D.D. Crow","ctype":"monster","keywords":"D.D. Winged Beast DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Winged Beast / Effect","atk":100,"def":100},"rarity":"UR","img":"24508238","code":"27","tcg":199579,"grp":2505,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"DUDE-EN028","name":"Effect Veiler","ctype":"monster","keywords":"Spellcaster LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Spellcaster / Tuner","atk":0,"def":0},"rarity":"UR","img":"97268402","code":"28","tcg":199580,"grp":2505,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"DUDE-EN029","name":"Gate Blocker","ctype":"monster","keywords":"Rock EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Rock / Effect","atk":100,"def":2000},"rarity":"UR","img":"8102334","code":"29","tcg":199581,"grp":2505,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"DUDE-EN030","name":"Denko Sekka","ctype":"monster","keywords":"Thunder LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Thunder / Effect","atk":1700,"def":1000},"rarity":"UR","img":"13974207","code":"30","tcg":199582,"grp":2505,"idx":29},
+    {"id":"031","section":"main","num":"031","printed":"DUDE-EN031","name":"Inspector Boarder","ctype":"monster","keywords":"Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Machine / Effect","atk":2000,"def":2000},"rarity":"UR","img":"15397015","code":"31","tcg":199583,"grp":2505,"idx":30},
+    {"id":"032","section":"main","num":"032","printed":"DUDE-EN032","name":"Spell Canceller","ctype":"monster","keywords":"Machine WIND Effect Monster","stats":{"a":"WIND","l":"Level 5","t":"Machine / Effect","atk":1800,"def":1600},"rarity":"UR","img":"84636823","code":"32","tcg":199584,"grp":2505,"idx":31},
+    {"id":"033","section":"main","num":"033","printed":"DUDE-EN033","name":"Artifact Lancea","ctype":"monster","keywords":"Artifact Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 5","t":"Fairy / Effect","atk":1700,"def":2300},"rarity":"UR","img":"34267821","code":"33","tcg":199585,"grp":2505,"idx":32},
+    {"id":"034","section":"main","num":"034","printed":"DUDE-EN034","name":"Vanity's Fiend","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Fiend / Effect","atk":2400,"def":1200},"rarity":"UR","img":"47084486","code":"34","tcg":199586,"grp":2505,"idx":33},
+    {"id":"035","section":"main","num":"035","printed":"DUDE-EN035","name":"Majesty's Fiend","ctype":"monster","keywords":"Fiend LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Fiend / Effect","atk":2400,"def":1000},"rarity":"UR","img":"33746252","code":"35","tcg":199587,"grp":2505,"idx":34},
+    {"id":"036","section":"main","num":"036","printed":"DUDE-EN036","name":"Dinowrestler Pankratops","ctype":"monster","keywords":"Dinowrestler Dinosaur EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 7","t":"Dinosaur / Effect","atk":2600,"def":0},"rarity":"UR","img":"82385847","code":"36","tcg":199588,"grp":2505,"idx":35},
+    {"id":"037","section":"main","num":"037","printed":"DUDE-EN037","name":"Gameciel, the Sea Turtle Kaiju","ctype":"monster","keywords":"Kaiju Aqua WATER Effect Monster","stats":{"a":"WATER","l":"Level 8","t":"Aqua / Effect","atk":2200,"def":3000},"rarity":"UR","img":"55063751","code":"37","tcg":199589,"grp":2505,"idx":36},
+    {"id":"038","section":"main","num":"038","printed":"DUDE-EN038","name":"Mind Control","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UR","img":"37520316","code":"38","tcg":199590,"grp":2505,"idx":37},
+    {"id":"039","section":"main","num":"039","printed":"DUDE-EN039","name":"Wave-Motion Cannon","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"UR","img":"38992735","code":"39","tcg":199591,"grp":2505,"idx":38},
+    {"id":"040","section":"main","num":"040","printed":"DUDE-EN040","name":"Super Polymerization","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"UR","img":"48130397","code":"40","tcg":199592,"grp":2505,"idx":39},
+    {"id":"041","section":"main","num":"041","printed":"DUDE-EN041","name":"Book of Eclipse","ctype":"spell","keywords":"Book of Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"UR","img":"35480699","code":"41","tcg":199593,"grp":2505,"idx":40},
+    {"id":"042","section":"main","num":"042","printed":"DUDE-EN042","name":"Silent Graveyard","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"UR","img":"53778229","code":"42","tcg":199594,"grp":2505,"idx":41},
+    {"id":"043","section":"main","num":"043","printed":"DUDE-EN043","name":"Cosmic Cyclone","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"UR","img":"8267140","code":"43","tcg":199595,"grp":2505,"idx":42},
+    {"id":"044","section":"main","num":"044","printed":"DUDE-EN044","name":"Called by the Grave","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"UR","img":"24224830","code":"44","tcg":199596,"grp":2505,"idx":43},
+    {"id":"045","section":"main","num":"045","printed":"DUDE-EN045","name":"Different Dimension Ground","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"UR","img":"31849106","code":"45","tcg":199597,"grp":2505,"idx":44},
+    {"id":"046","section":"main","num":"046","printed":"DUDE-EN046","name":"Typhoon","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"UR","img":"14883228","code":"46","tcg":199598,"grp":2505,"idx":45},
+    {"id":"047","section":"main","num":"047","printed":"DUDE-EN047","name":"Forbidden Apocrypha","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"UR","img":"3211439","code":"47","tcg":199599,"grp":2505,"idx":46},
+    {"id":"048","section":"main","num":"048","printed":"DUDE-EN048","name":"Dimensional Barrier","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"UR","img":"83326048","code":"48","tcg":199600,"grp":2505,"idx":47},
+    {"id":"049","section":"main","num":"049","printed":"DUDE-EN049","name":"Lost Wind","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"UR","img":"74003290","code":"49","tcg":199601,"grp":2505,"idx":48},
+    {"id":"050","section":"main","num":"050","printed":"DUDE-EN050","name":"Heavy Storm Duster","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"UR","img":"23924608","code":"50","tcg":199602,"grp":2505,"idx":49},
+    {"id":"051","section":"main","num":"051","printed":"DUDE-EN051","name":"Royal Decree","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"UR","img":"51452091","code":"51","tcg":199603,"grp":2505,"idx":50},
+    {"id":"052","section":"main","num":"052","printed":"DUDE-EN052","name":"Anti-Spell Fragrance","ctype":"trap","keywords":"Anti Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"UR","img":"58921041","code":"52","tcg":199604,"grp":2505,"idx":51},
+    {"id":"053","section":"main","num":"053","printed":"DUDE-EN053","name":"There Can Be Only One","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"UR","img":"24207889","code":"53","tcg":199605,"grp":2505,"idx":52},
+    {"id":"054","section":"main","num":"054","printed":"DUDE-EN054","name":"Wiretap","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"UR","img":"34507039","code":"54","tcg":199606,"grp":2505,"idx":53},
+    {"id":"055","section":"main","num":"055","printed":"DUDE-EN055","name":"Solemn Strike","ctype":"trap","keywords":"Solemn Counter Trap","stats":{"t":"Counter Trap"},"rarity":"UR","img":"40605147","code":"55","tcg":199607,"grp":2505,"idx":54},
+    {"id":"056","section":"main","num":"056","printed":"DUDE-EN056","name":"Red Reboot","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"UR","img":"23002292","code":"56","tcg":199608,"grp":2505,"idx":55}
+  ]
+}

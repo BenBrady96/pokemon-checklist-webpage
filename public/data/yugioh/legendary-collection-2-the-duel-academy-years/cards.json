@@ -1,0 +1,73 @@
+{
+  "id": "yugioh/legendary-collection-2-the-duel-academy-years",
+  "game": "yugioh",
+  "slug": "legendary-collection-2-the-duel-academy-years",
+  "name": "Legendary Collection 2: The Duel Academy Years",
+  "series": "ZEXAL",
+  "kind": "set",
+  "code": "LC02",
+  "syncKey": "YLC02",
+  "released": "2011-10-04",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Main Set",
+      "range": "LC02-EN001–LC02-EN013",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from LC02-EN001 to LC02-EN013."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Legendary Collection 2: The Duel Academy Years Checklist · All 13 Cards",
+    "description": "Free Yu-Gi-Oh! Legendary Collection 2: The Duel Academy Years checklist with no ads, no sign-up and no tracking. Track all 13 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Legendary Collection 2: The Duel Academy Years Checklist",
+    "ogDescription": "Track all 13 cards in Yu-Gi-Oh! Legendary Collection 2: The Duel Academy Years. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 13 cards in Yu-Gi-Oh! Legendary Collection 2: The Duel Academy Years. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About the Legendary Collection 2: The Duel Academy Years set",
+    "paragraphs": [
+      "Legendary Collection 2: The Duel Academy Years is a Yu-Gi-Oh! TCG special set released on 4 October 2011, in the ZEXAL era. It has 13 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Legendary Collection 2: The Duel Academy Years"
+    ],
+    "tcgplayer": [
+      245
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"LC02-EN001","name":"Uria, Lord of Searing Flames","ctype":"monster","keywords":"Sacred Beast Pyro FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 10","t":"Pyro / Effect","atk":0,"def":0},"rarity":"UR","img":"6007213","code":"1","tcg":56974,"grp":245,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"LC02-EN002","name":"Hamon, Lord of Striking Thunder","ctype":"monster","keywords":"Sacred Beast Thunder LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 10","t":"Thunder / Effect","atk":4000,"def":4000},"rarity":"UR","img":"32491822","code":"2","tcg":56891,"grp":245,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"LC02-EN003","name":"Raviel, Lord of Phantasms","ctype":"monster","keywords":"Sacred Beast Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 10","t":"Fiend / Effect","atk":4000,"def":4000},"rarity":"UR","img":"69890967","code":"3","tcg":56949,"grp":245,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"LC02-EN004","name":"Darklord Asmodeus","ctype":"monster","keywords":"Darklord Fairy DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Fairy / Effect","atk":3000,"def":2500},"rarity":"UR","img":"85771019","code":"4","tcg":56766,"grp":245,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"LC02-EN005","name":"Darklord Superbia","ctype":"monster","keywords":"Darklord Fairy DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Fairy / Effect","atk":2900,"def":2400},"rarity":"UR","img":"11260714","code":"5","tcg":56769,"grp":245,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"LC02-EN006","name":"Darklord Edeh Arae","ctype":"monster","keywords":"Darklord Fairy DARK Effect Monster","stats":{"a":"DARK","l":"Level 5","t":"Fairy / Effect","atk":2300,"def":2000},"rarity":"UR","img":"47664723","code":"6","tcg":56768,"grp":245,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"LC02-EN007","name":"Cyber Larva","ctype":"monster","keywords":"Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Machine / Effect","atk":400,"def":600},"rarity":"UR","img":"35050257","code":"7","tcg":56746,"grp":245,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"LC02-EN008","name":"Lion Alligator","ctype":"monster","keywords":"Alligator Reptile WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Reptile / Effect","atk":1900,"def":200},"rarity":"UR","img":"4611269","code":"8","tcg":56914,"grp":245,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"LC02-EN009","name":"Spawn Alligator","ctype":"monster","keywords":"Alligator Reptile WATER Effect Monster","stats":{"a":"WATER","l":"Level 5","t":"Reptile / Effect","atk":2200,"def":1000},"rarity":"UR","img":"39984786","code":"9","tcg":56958,"grp":245,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"LC02-EN010","name":"Elemental HERO Great Tornado","ctype":"monster","keywords":"Elemental HERO Warrior WIND Fusion Monster","stats":{"a":"WIND","l":"Level 8","t":"Warrior / Fusion","atk":2800,"def":2200},"rarity":"UR","img":"3642509","code":"10","tcg":56816,"grp":245,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"LC02-EN011","name":"Parallel World Fusion","ctype":"spell","keywords":"Elemental HERO Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UR","img":"54283059","code":"11","tcg":56937,"grp":245,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"LC02-EN012","name":"Dragonic Tactics","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UR","img":"72549351","code":"12","tcg":56795,"grp":245,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"LC02-EN013","name":"Court of Justice","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"UR","img":"24449083","code":"13","tcg":56725,"grp":245,"idx":12}
+  ]
+}

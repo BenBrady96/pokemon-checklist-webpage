@@ -1,0 +1,160 @@
+{
+  "id": "yugioh/promos-2010",
+  "game": "yugioh",
+  "slug": "promos-2010",
+  "name": "Promos 2010",
+  "series": "Promos",
+  "kind": "promo",
+  "code": "P2010",
+  "syncKey": "YP2010",
+  "released": "2010-01-01",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "ABPF-ENSE1–YR05-EN001",
+      "tier": "standard"
+    },
+    {
+      "id": "rarities",
+      "name": "Other Rarities",
+      "short": "Other Rarities",
+      "range": "6 cards",
+      "tier": "master"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Main set"
+    ],
+    [
+      "rarities",
+      "Other rarities"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, SCR12, 60x2",
+    "example": "1-20, 45x2, SCR12",
+    "hint": "Separate with commas or spaces. Numbers count down the list in order: <b>1-5</b> is the first five cards and <b>3x2</b> is two copies of the third.",
+    "empty": "Cards run from ABPF-ENSE1 to YR05-EN001."
+  },
+  "help": {
+    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 42 cards, each in its main rarity. Master adds the 6 other rarities. Cards you’ve marked are kept when you switch."
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Promos 2010 Checklist · All 42 Cards",
+    "description": "Free Yu-Gi-Oh! Promos 2010 checklist with no ads, no sign-up and no tracking. Track all 42 cards, or every rarity for a master set, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Promos 2010 Checklist",
+    "ogDescription": "Track all 42 cards in Yu-Gi-Oh! Promos 2010, plus 6 other rarities. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 42 cards in Yu-Gi-Oh! Promos 2010. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Promos 2010",
+    "paragraphs": [
+      "Promos 2010 gathers the 42 promo cards from 28 products released in 2010: Absolute Powerforce: Special Edition, Absolute Powerforce Sneak Peek Participation Card, Duelist Revolution: Special Edition, Duelist Revolution Sneak Peek Participation Card, Ultimate Edition, Shonen Jump March 2010 subscription bonus, Shonen Jump Vol. 8, Issue 1 promotional card, Shonen Jump Vol. 8, Issue 3 promotional card, Shonen Jump Vol. 8, Issue 5 promotional card, Shonen Jump Vol. 8, Issue 7 promotional card, Shonen Jump May 2010 subscription bonus, Shonen Jump Vol. 8, Issue 9 promotional card, Shonen Jump Vol. 8, Issue 11 promotional card, Shonen Jump December 2010 subscription bonus, Legendary Collection, Starstrike Blast Sneak Peek Participation Card, Yu-Gi-Oh! 5D&#39;s Tag Force 5 promotional cards, The Shining Darkness Sneak Peek Participation Card, Twilight Edition, Yu-Gi-Oh! 5D&#39;s World Championship 2010: Reverse of Arcadia promotional cards, X-Saber Power-Up, Yu-Gi-Oh! Championship Series 2010 Prize Cards, Yu-Gi-Oh! 5D&#39;s Duel Transer promotional cards, Yu-Gi-Oh! GX Volume 4 promotional card, Yu-Gi-Oh! GX Volume 5 promotional card, Yu-Gi-Oh! R Volume 3 promotional card, Yu-Gi-Oh! R Volume 4 promotional card and Yu-Gi-Oh! R Volume 5 promotional card.",
+      "Choose what you’re collecting: the <b>Standard set</b> (the 42 cards, each in its main rarity) or the <b>Master set</b> (all 48, adding the 6 other rarities).",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Absolute Powerforce Sneak Peek Participation Card",
+      "Absolute Powerforce: Special Edition",
+      "Duelist Revolution Sneak Peek Participation Card",
+      "Duelist Revolution: Special Edition",
+      "Legendary Collection",
+      "Shonen Jump December 2010 subscription bonus",
+      "Shonen Jump March 2010 subscription bonus",
+      "Shonen Jump May 2010 subscription bonus",
+      "Shonen Jump Vol. 8, Issue 1 promotional card",
+      "Shonen Jump Vol. 8, Issue 11 promotional card",
+      "Shonen Jump Vol. 8, Issue 3 promotional card",
+      "Shonen Jump Vol. 8, Issue 5 promotional card",
+      "Shonen Jump Vol. 8, Issue 7 promotional card",
+      "Shonen Jump Vol. 8, Issue 9 promotional card",
+      "Starstrike Blast Sneak Peek Participation Card",
+      "The Shining Darkness Sneak Peek Participation Card",
+      "Twilight Edition",
+      "Ultimate Edition",
+      "X-Saber Power-Up",
+      "Yu-Gi-Oh! 5D's Duel Transer promotional cards",
+      "Yu-Gi-Oh! 5D's Tag Force 5 promotional cards",
+      "Yu-Gi-Oh! 5D's World Championship 2010: Reverse of Arcadia promotional cards",
+      "Yu-Gi-Oh! Championship Series 2010 Prize Cards",
+      "Yu-Gi-Oh! GX Volume 4 promotional card",
+      "Yu-Gi-Oh! GX Volume 5 promotional card",
+      "Yu-Gi-Oh! R Volume 3 promotional card",
+      "Yu-Gi-Oh! R Volume 4 promotional card",
+      "Yu-Gi-Oh! R Volume 5 promotional card"
+    ],
+    "tcgplayer": [
+      281,
+      1921,
+      1347,
+      141,
+      198,
+      1290,
+      358,
+      353,
+      1315,
+      332,
+      1285,
+      1320,
+      2718,
+      599
+    ]
+  },
+  "cards": [
+    {"id":"ABPF-SE1","section":"main","num":"ABPF-ENSE1","printed":"ABPF-ENSE1","name":"Dandylion","ctype":"monster","keywords":"Plant EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Plant / Effect","atk":300,"def":300},"note":"Absolute Powerforce: Special Edition","rarity":"SR","img":"15341821","code":"1","tcg":57798,"grp":141,"idx":0},
+    {"id":"ABPF-SE2","section":"main","num":"ABPF-ENSE2","printed":"ABPF-ENSE2","name":"Red-Eyes Darkness Metal Dragon","ctype":"monster","keywords":"Red-Eyes Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 10","t":"Dragon / Effect","atk":2800,"def":2400},"note":"Absolute Powerforce: Special Edition","rarity":"SR","img":"88264978","code":"2","tcg":57799,"grp":141,"idx":1},
+    {"id":"ABPF-SP1","section":"main","num":"ABPF-ENSP1","printed":"ABPF-ENSP1","name":"Gravekeeper's Priestess","ctype":"monster","keywords":"Gravekeeper's Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Spellcaster / Effect","atk":1000,"def":1500},"note":"Absolute Powerforce Sneak Peek Participation Card","rarity":"UR","img":"3381441","code":"3","tcg":80049,"grp":141,"idx":2},
+    {"id":"DREV-SE1","section":"main","num":"DREV-ENSE1","printed":"DREV-ENSE1","name":"Drill Warrior","ctype":"monster","keywords":"Warrior EARTH Synchro Monster","stats":{"a":"EARTH","l":"Level 6","t":"Warrior / Synchro","atk":2400,"def":2000},"note":"Duelist Revolution: Special Edition","rarity":"SR","img":"3429238","code":"4","tcg":38450,"grp":198,"idx":3},
+    {"id":"DREV-SE2","section":"main","num":"DREV-ENSE2","printed":"DREV-ENSE2","name":"Gold Sarcophagus","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"note":"Duelist Revolution: Special Edition","rarity":"SR","img":"75500286","code":"5","tcg":38451,"grp":198,"idx":4},
+    {"id":"DREV-SP1","section":"main","num":"DREV-ENSP1","printed":"DREV-ENSP1","name":"Scrap Archfiend","ctype":"monster","keywords":"Archfiend Fiend EARTH Synchro Monster","stats":{"a":"EARTH","l":"Level 7","t":"Fiend / Synchro","atk":2700,"def":1800},"note":"Duelist Revolution Sneak Peek Participation Card","rarity":"UR","img":"45815891","code":"6","tcg":77474,"grp":198,"idx":5},
+    {"id":"JMP-005","section":"main","num":"JMP-EN005","printed":"JMP-EN005","name":"Blue-Eyes Ultimate Dragon","ctype":"monster","keywords":"Blue-Eyes Dragon LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 12","t":"Dragon / Fusion","atk":4500,"def":3800},"note":"Ultimate Edition","rarity":"UR","img":"23995346","code":"7","tcg":24846,"grp":281,"idx":6},
+    {"id":"JUMP-034","section":"main","num":"JUMP-EN034","printed":"JUMP-EN034","name":"Genesis Dragon","ctype":"monster","keywords":"Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Dragon / Effect","atk":2200,"def":1800},"note":"Shonen Jump March 2010 subscription bonus","rarity":"UR","img":"31038159","code":"8","tcg":38498,"grp":281,"idx":7},
+    {"id":"JUMP-035","section":"main","num":"JUMP-EN035","printed":"JUMP-EN035","name":"Orichalcos Shunoros","ctype":"monster","keywords":"Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 10","t":"Machine / Effect","atk":-1,"def":0},"note":"Shonen Jump March 2010 subscription bonus","rarity":"UR","img":"7634581","code":"9","tcg":38499,"grp":281,"idx":8},
+    {"id":"JUMP-037","section":"main","num":"JUMP-EN037","printed":"JUMP-EN037","name":"Obelisk the Tormentor","ctype":"monster","keywords":"Egyptian God Divine-Beast DIVINE Effect Monster","stats":{"a":"DIVINE","l":"Level 10","t":"Divine-Beast / Effect","atk":4000,"def":4000},"note":"Shonen Jump Vol. 8, Issue 1 promotional card","rarity":"UR","img":"10000001","code":"10","tcg":38501,"grp":281,"idx":9},
+    {"id":"JUMP-038","section":"main","num":"JUMP-EN038","printed":"JUMP-EN038","name":"Cyber Eltanin","ctype":"monster","keywords":"Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 10","t":"Machine / Effect","atk":-1,"def":-1},"note":"Shonen Jump Vol. 8, Issue 3 promotional card","rarity":"UR","img":"33093439","code":"11","tcg":34944,"grp":281,"idx":10},
+    {"id":"JUMP-039","section":"main","num":"JUMP-EN039","printed":"JUMP-EN039","name":"Hundred Eyes Dragon","ctype":"monster","keywords":"Earthbound Dragon DARK Synchro Monster","stats":{"a":"DARK","l":"Level 8","t":"Dragon / Synchro","atk":3000,"def":2500},"note":"Shonen Jump Vol. 8, Issue 5 promotional card","rarity":"UR","img":"95453143","code":"12","tcg":35328,"grp":281,"idx":11},
+    {"id":"JUMP-040","section":"main","num":"JUMP-EN040","printed":"JUMP-EN040","name":"Golem Dragon","ctype":"monster","keywords":"Dragon EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Dragon / Effect","atk":200,"def":2000},"note":"Shonen Jump Vol. 8, Issue 7 promotional card","rarity":"UR","img":"9666558","code":"13","tcg":38502,"grp":281,"idx":12},
+    {"id":"JUMP-041","section":"main","num":"JUMP-EN041","printed":"JUMP-EN041","name":"The Tyrant Neptune","ctype":"monster","keywords":"Reptile WATER Effect Monster","stats":{"a":"WATER","l":"Level 10","t":"Reptile / Effect","atk":0,"def":0},"note":"Shonen Jump May 2010 subscription bonus","rarity":"UR","img":"88071625","code":"14","tcg":38503,"grp":281,"idx":13},
+    {"id":"JUMP-042","section":"main","num":"JUMP-EN042","printed":"JUMP-EN042","name":"Transforming Sphere","ctype":"monster","keywords":"Winged Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 3","t":"Winged Beast / Effect","atk":100,"def":100},"note":"Shonen Jump May 2010 subscription bonus","rarity":"UR","img":"66094973","code":"15","tcg":38504,"grp":281,"idx":14},
+    {"id":"JUMP-043","section":"main","num":"JUMP-EN043","printed":"JUMP-EN043","name":"Malefic Stardust Dragon","ctype":"monster","keywords":"Malefic Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Dragon / Effect","atk":2500,"def":2000},"note":"Shonen Jump Vol. 8, Issue 9 promotional card","rarity":"UR","img":"36521459","code":"16","tcg":35752,"grp":281,"idx":15},
+    {"id":"JUMP-044","section":"main","num":"JUMP-EN044","printed":"JUMP-EN044","name":"Dark End Dragon","ctype":"monster","keywords":"Dragon DARK Synchro Monster","stats":{"a":"DARK","l":"Level 8","t":"Dragon / Synchro","atk":2600,"def":2100},"note":"Shonen Jump Vol. 8, Issue 11 promotional card","rarity":"UR","img":"88643579","code":"17","tcg":38505,"grp":281,"idx":16},
+    {"id":"JUMP-046","section":"main","num":"JUMP-EN046","printed":"JUMP-EN046","name":"Lightning Warrior","ctype":"monster","keywords":"Warrior LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 7","t":"Warrior / Synchro","atk":2400,"def":1200},"note":"Shonen Jump December 2010 subscription bonus","rarity":"UR","img":"87259077","code":"18","tcg":38507,"grp":281,"idx":17},
+    {"id":"JUMP-047","section":"main","num":"JUMP-EN047","printed":"JUMP-EN047","name":"Seven Swords Warrior","ctype":"monster","keywords":"Warrior EARTH Synchro Monster","stats":{"a":"EARTH","l":"Level 7","t":"Warrior / Synchro","atk":2300,"def":1800},"note":"Shonen Jump December 2010 subscription bonus","rarity":"UR","img":"43366227","code":"19","tcg":38508,"grp":281,"idx":18},
+    {"id":"LC01-004","section":"main","num":"LC01-EN004","printed":"LC01-EN004","name":"Blue-Eyes White Dragon","ctype":"monster","keywords":"Blue-Eyes Dragon LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Normal","atk":3000,"def":2500},"note":"Legendary Collection","rarity":"UR","img":"89631139","code":"20","tcg":79082,"grp":1290,"idx":19},
+    {"id":"LC01-005","section":"main","num":"LC01-EN005","printed":"LC01-EN005","name":"Dark Magician","ctype":"monster","keywords":"Dark Magician Spellcaster DARK Normal Monster","stats":{"a":"DARK","l":"Level 7","t":"Spellcaster / Normal","atk":2500,"def":2100},"note":"Legendary Collection","rarity":"UR","img":"46986416","code":"21","tcg":79083,"grp":1290,"idx":20},
+    {"id":"LC01-006","section":"main","num":"LC01-EN006","printed":"LC01-EN006","name":"Red-Eyes Black Dragon","ctype":"monster","keywords":"Red-Eyes Dragon DARK Normal Monster","stats":{"a":"DARK","l":"Level 7","t":"Dragon / Normal","atk":2400,"def":2000},"note":"Legendary Collection","rarity":"UR","img":"74677422","code":"22","tcg":79084,"grp":1290,"idx":21},
+    {"id":"STBL-SP1","section":"main","num":"STBL-ENSP1","printed":"STBL-ENSP1","name":"Archfiend Empress","ctype":"monster","keywords":"Archfiend Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Fiend / Effect","atk":2900,"def":2100},"note":"Starstrike Blast Sneak Peek Participation Card","rarity":"UR","img":"31766317","code":"23","tcg":79684,"grp":1315,"idx":22},
+    {"id":"TF05-001","section":"main","num":"TF05-EN001","printed":"TF05-EN001","name":"Fleur Synchron","ctype":"monster","keywords":"Synchron Machine LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 2","t":"Machine / Tuner","atk":400,"def":200},"note":"Yu-Gi-Oh! 5D's Tag Force 5 promotional cards","rarity":"SR","img":"19642774","code":"24","tcg":57797,"grp":353,"idx":23},
+    {"id":"TF05-002","section":"main","num":"TF05-EN002","printed":"TF05-EN002","name":"Chevalier de Fleur","ctype":"monster","keywords":"Warrior WIND Synchro Monster","stats":{"a":"WIND","l":"Level 8","t":"Warrior / Synchro","atk":2700,"def":2300},"note":"Yu-Gi-Oh! 5D's Tag Force 5 promotional cards","rarity":"SR","img":"45037489","code":"25","tcg":57796,"grp":353,"idx":24},
+    {"id":"TSHD-SP1","section":"main","num":"TSHD-ENSP1","printed":"TSHD-ENSP1","name":"XX-Saber Boggart Knight","ctype":"monster","keywords":"X-Saber Beast-Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Beast-Warrior / Effect","atk":1900,"def":1000},"note":"The Shining Darkness Sneak Peek Participation Card","rarity":"UR","img":"5998840","code":"26","tcg":80161,"grp":332,"idx":25},
+    {"id":"TWED-001","section":"main","num":"TWED-EN001","printed":"TWED-EN001","name":"Honest","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fairy / Effect","atk":1100,"def":1900},"note":"Twilight Edition","rarity":"UR","img":"37742478","code":"27","tcg":77878,"grp":1285,"idx":26},
+    {"id":"WC10-001","section":"main","num":"WC10-EN001","printed":"WC10-EN001","name":"Samurai Sword Baron","ctype":"monster","keywords":"Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Effect","atk":1600,"def":1200},"note":"Yu-Gi-Oh! 5D's World Championship 2010: Reverse of Arcadia promotional cards","rarity":"SR","img":"14344682","code":"28","tcg":80053,"grp":1921,"idx":27},
+    {"id":"WC10-001-ur","section":"rarities","num":"WC10-EN001","printed":"WC10-EN001","name":"Samurai Sword Baron","ctype":"monster","keywords":"Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Effect","atk":1600,"def":1200},"note":"Yu-Gi-Oh! 5D's World Championship 2010: Reverse of Arcadia promotional cards","rarity":"UR","img":"14344682","badge":"UR","variant":"Ultra Rare","code":"UR28","tcg":80053,"grp":1921,"idx":28},
+    {"id":"WC10-002","section":"main","num":"WC10-EN002","printed":"WC10-EN002","name":"Stygian Security","ctype":"monster","keywords":"Fiend DARK Tuner Monster","stats":{"a":"DARK","l":"Level 1","t":"Fiend / Tuner","atk":100,"def":600},"note":"Yu-Gi-Oh! 5D's World Championship 2010: Reverse of Arcadia promotional cards","rarity":"SR","img":"50732780","code":"29","tcg":67589,"grp":1921,"idx":29},
+    {"id":"WC10-002-ur","section":"rarities","num":"WC10-EN002","printed":"WC10-EN002","name":"Stygian Security","ctype":"monster","keywords":"Fiend DARK Tuner Monster","stats":{"a":"DARK","l":"Level 1","t":"Fiend / Tuner","atk":100,"def":600},"note":"Yu-Gi-Oh! 5D's World Championship 2010: Reverse of Arcadia promotional cards","rarity":"UR","img":"50732780","badge":"UR","variant":"Ultra Rare","code":"UR29","tcg":67589,"grp":1921,"idx":30},
+    {"id":"WC10-003","section":"main","num":"WC10-EN003","printed":"WC10-EN003","name":"Stygian Sergeants","ctype":"monster","keywords":"Fiend DARK Synchro Monster","stats":{"a":"DARK","l":"Level 5","t":"Fiend / Synchro","atk":2200,"def":1800},"note":"Yu-Gi-Oh! 5D's World Championship 2010: Reverse of Arcadia promotional cards","rarity":"SR","img":"86137485","code":"30","tcg":83329,"grp":1921,"idx":31},
+    {"id":"WC10-003-ur","section":"rarities","num":"WC10-EN003","printed":"WC10-EN003","name":"Stygian Sergeants","ctype":"monster","keywords":"Fiend DARK Synchro Monster","stats":{"a":"DARK","l":"Level 5","t":"Fiend / Synchro","atk":2200,"def":1800},"note":"Yu-Gi-Oh! 5D's World Championship 2010: Reverse of Arcadia promotional cards","rarity":"UR","img":"86137485","badge":"UR","variant":"Ultra Rare","code":"UR30","tcg":83329,"grp":1921,"idx":32},
+    {"id":"XSPU-001","section":"main","num":"XSPU-EN001","printed":"XSPU-EN001","name":"XX-Saber Fulhelmknight","ctype":"monster","keywords":"X-Saber Warrior EARTH Tuner Monster","stats":{"a":"EARTH","l":"Level 3","t":"Warrior / Tuner","atk":1300,"def":1000},"note":"X-Saber Power-Up","rarity":"SR","img":"78422252","code":"31","tcg":80052,"grp":1320,"idx":33},
+    {"id":"YCSW-001","section":"main","num":"YCSW-EN001","printed":"YCSW-EN001","name":"Darklord Asmodeus","ctype":"monster","keywords":"Darklord Fairy DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Fairy / Effect","atk":3000,"def":2500},"note":"Yu-Gi-Oh! Championship Series 2010 Prize Cards","rarity":"SR","img":"85771019","code":"32","tcg":82262,"grp":1347,"idx":34},
+    {"id":"YCSW-001-ur","section":"rarities","num":"YCSW-EN001","printed":"YCSW-EN001","name":"Darklord Asmodeus","ctype":"monster","keywords":"Darklord Fairy DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Fairy / Effect","atk":3000,"def":2500},"note":"Yu-Gi-Oh! Championship Series 2010 Prize Cards","rarity":"UR","img":"85771019","badge":"UR","variant":"Ultra Rare","code":"UR32","tcg":82263,"grp":1347,"idx":35},
+    {"id":"YCSW-002","section":"main","num":"YCSW-EN002","printed":"YCSW-EN002","name":"Darklord Superbia","ctype":"monster","keywords":"Darklord Fairy DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Fairy / Effect","atk":2900,"def":2400},"note":"Yu-Gi-Oh! Championship Series 2010 Prize Cards","rarity":"SR","img":"11260714","code":"33","tcg":82264,"grp":1347,"idx":36},
+    {"id":"YCSW-002-ur","section":"rarities","num":"YCSW-EN002","printed":"YCSW-EN002","name":"Darklord Superbia","ctype":"monster","keywords":"Darklord Fairy DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Fairy / Effect","atk":2900,"def":2400},"note":"Yu-Gi-Oh! Championship Series 2010 Prize Cards","rarity":"UR","img":"11260714","badge":"UR","variant":"Ultra Rare","code":"UR33","tcg":82265,"grp":1347,"idx":37},
+    {"id":"YCSW-003","section":"main","num":"YCSW-EN003","printed":"YCSW-EN003","name":"Darklord Edeh Arae","ctype":"monster","keywords":"Darklord Fairy DARK Effect Monster","stats":{"a":"DARK","l":"Level 5","t":"Fairy / Effect","atk":2300,"def":2000},"note":"Yu-Gi-Oh! Championship Series 2010 Prize Cards","rarity":"SR","img":"47664723","code":"34","tcg":82267,"grp":1347,"idx":38},
+    {"id":"YCSW-003-ur","section":"rarities","num":"YCSW-EN003","printed":"YCSW-EN003","name":"Darklord Edeh Arae","ctype":"monster","keywords":"Darklord Fairy DARK Effect Monster","stats":{"a":"DARK","l":"Level 5","t":"Fairy / Effect","atk":2300,"def":2000},"note":"Yu-Gi-Oh! Championship Series 2010 Prize Cards","rarity":"UR","img":"47664723","badge":"UR","variant":"Ultra Rare","code":"UR34","tcg":82268,"grp":1347,"idx":39},
+    {"id":"YDT1-001","section":"main","num":"YDT1-EN001","printed":"YDT1-EN001","name":"Ape Fighter","ctype":"monster","keywords":"Beast DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Beast / Effect","atk":1900,"def":1200},"note":"Yu-Gi-Oh! 5D's Duel Transer promotional cards","rarity":"UR","img":"41098335","code":"35","tcg":38753,"grp":1921,"idx":40},
+    {"id":"YDT1-002","section":"main","num":"YDT1-EN002","printed":"YDT1-EN002","name":"Closed Forest","ctype":"spell","keywords":"Field Spell","stats":{"t":"Field Spell"},"note":"Yu-Gi-Oh! 5D's Duel Transer promotional cards","rarity":"UR","img":"78082039","code":"36","tcg":38754,"grp":1921,"idx":41},
+    {"id":"YDT1-003","section":"main","num":"YDT1-EN003","printed":"YDT1-EN003","name":"Roaring Earth","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"note":"Yu-Gi-Oh! 5D's Duel Transer promotional cards","rarity":"UR","img":"4587638","code":"37","tcg":38755,"grp":1921,"idx":42},
+    {"id":"YG04-001","section":"main","num":"YG04-EN001","printed":"YG04-EN001","name":"Elemental HERO Absolute Zero","ctype":"monster","keywords":"Elemental HERO Warrior WATER Fusion Monster","stats":{"a":"WATER","l":"Level 8","t":"Warrior / Fusion","atk":2500,"def":2000},"note":"Yu-Gi-Oh! GX Volume 4 promotional card","rarity":"UR","img":"40854197","code":"38","tcg":38452,"grp":2718,"idx":43},
+    {"id":"YG05-001","section":"main","num":"YG05-EN001","printed":"YG05-EN001","name":"Darklord Desire","ctype":"monster","keywords":"Darklord Fairy DARK Effect Monster","stats":{"a":"DARK","l":"Level 10","t":"Fairy / Effect","atk":3000,"def":2800},"note":"Yu-Gi-Oh! GX Volume 5 promotional card","rarity":"UR","img":"55690251","code":"39","tcg":79681,"grp":599,"idx":44},
+    {"id":"YR01-003","section":"main","num":"YR01-EN003","printed":"YR01-EN003","name":"Gorz the Emissary of Darkness","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Fiend / Effect","atk":2700,"def":2500},"note":"Yu-Gi-Oh! R Volume 3 promotional card","rarity":"UR","img":"44330098","code":"40","tcg":149350,"grp":358,"idx":45},
+    {"id":"YR04-001","section":"main","num":"YR04-EN001","printed":"YR04-EN001","name":"Angel O7","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 7","t":"Fairy / Effect","atk":2500,"def":1500},"note":"Yu-Gi-Oh! R Volume 4 promotional card","rarity":"UR","img":"56784842","code":"41","tcg":107516,"grp":358,"idx":46},
+    {"id":"YR05-001","section":"main","num":"YR05-EN001","printed":"YR05-EN001","name":"Alector, Sovereign of Birds","ctype":"monster","keywords":"Winged Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 6","t":"Winged Beast / Effect","atk":2400,"def":2000},"note":"Yu-Gi-Oh! R Volume 5 promotional card","rarity":"UR","img":"17573739","code":"42","tcg":38640,"grp":358,"idx":47}
+  ]
+}

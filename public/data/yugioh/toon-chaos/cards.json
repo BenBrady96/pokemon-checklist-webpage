@@ -1,0 +1,147 @@
+{
+  "id": "yugioh/toon-chaos",
+  "game": "yugioh",
+  "slug": "toon-chaos",
+  "name": "Toon Chaos",
+  "series": "VRAINS",
+  "kind": "set",
+  "code": "TOCH",
+  "syncKey": "YTOCH",
+  "released": "2020-06-18",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Main Set",
+      "range": "TOCH-EN001–TOCH-EN060",
+      "tier": "standard"
+    },
+    {
+      "id": "rarities",
+      "name": "Other Rarities",
+      "short": "Other Rarities",
+      "range": "15 cards",
+      "tier": "master"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Main set"
+    ],
+    [
+      "rarities",
+      "Other rarities"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, SCR12, 60x2",
+    "example": "1-20, 45x2, SCR12",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies. Other rarities use their short name and number: <b>SCR12</b> is card 12’s Secret Rare, and ranges work too (<b>QCSR1-QCSR20</b>).",
+    "empty": "Cards run from TOCH-EN001 to TOCH-EN060."
+  },
+  "help": {
+    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 60 cards, each in its main rarity. Master adds the 15 other rarities. Cards you’ve marked are kept when you switch."
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Toon Chaos Checklist · All 60 Cards",
+    "description": "Free Yu-Gi-Oh! Toon Chaos checklist with no ads, no sign-up and no tracking. Track all 60 cards, or every rarity for a master set, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Toon Chaos Checklist",
+    "ogDescription": "Track all 60 cards in Yu-Gi-Oh! Toon Chaos, plus 15 other rarities. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 60 cards in Yu-Gi-Oh! Toon Chaos. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About the Toon Chaos set",
+    "paragraphs": [
+      "Toon Chaos is a Yu-Gi-Oh! TCG special set released on 18 June 2020, in the VRAINS era. It has 60 cards, and with the 15 other rarities there are 75 to collect in all.",
+      "Choose what you’re collecting: the <b>Standard set</b> (the 60 cards, each in its main rarity) or the <b>Master set</b> (all 75, adding the 15 other rarities).",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Toon Chaos"
+    ],
+    "tcgplayer": [
+      2652
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"TOCH-EN001","name":"Toon Black Luster Soldier","ctype":"monster","keywords":"Toon Warrior EARTH Monster","stats":{"a":"EARTH","l":"Level 8","t":"Warrior / Toon","atk":3000,"def":2500},"rarity":"UR","img":"28711704","code":"1","tcg":215336,"grp":2652,"idx":0},
+    {"id":"001-cr","section":"rarities","num":"001","printed":"TOCH-EN001","name":"Toon Black Luster Soldier","ctype":"monster","keywords":"Toon Warrior EARTH Monster","stats":{"a":"EARTH","l":"Level 8","t":"Warrior / Toon","atk":3000,"def":2500},"rarity":"CR","img":"28711704","badge":"CR","variant":"Collector’s Rare","code":"CR1","tcg":215638,"grp":2652,"idx":1},
+    {"id":"002","section":"main","num":"002","printed":"TOCH-EN002","name":"Toon Harpie Lady","ctype":"monster","keywords":"Toon Winged Beast WIND Monster","stats":{"a":"WIND","l":"Level 4","t":"Winged Beast / Toon","atk":1300,"def":1400},"rarity":"SR","img":"64116319","code":"2","tcg":215337,"grp":2652,"idx":2},
+    {"id":"002-cr","section":"rarities","num":"002","printed":"TOCH-EN002","name":"Toon Harpie Lady","ctype":"monster","keywords":"Toon Winged Beast WIND Monster","stats":{"a":"WIND","l":"Level 4","t":"Winged Beast / Toon","atk":1300,"def":1400},"rarity":"CR","img":"64116319","badge":"CR","variant":"Collector’s Rare","code":"CR2","tcg":215639,"grp":2652,"idx":3},
+    {"id":"003","section":"main","num":"003","printed":"TOCH-EN003","name":"Toon Bookmark","ctype":"spell","keywords":"Toon Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UR","img":"91500017","code":"3","tcg":215375,"grp":2652,"idx":4},
+    {"id":"003-cr","section":"rarities","num":"003","printed":"TOCH-EN003","name":"Toon Bookmark","ctype":"spell","keywords":"Toon Normal Spell","stats":{"t":"Normal Spell"},"rarity":"CR","img":"91500017","badge":"CR","variant":"Collector’s Rare","code":"CR3","tcg":215640,"grp":2652,"idx":5},
+    {"id":"004","section":"main","num":"004","printed":"TOCH-EN004","name":"Toon Page-Flip","ctype":"spell","keywords":"Toon Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"UR","img":"27699122","code":"4","tcg":215376,"grp":2652,"idx":6},
+    {"id":"004-cr","section":"rarities","num":"004","printed":"TOCH-EN004","name":"Toon Page-Flip","ctype":"spell","keywords":"Toon Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"CR","img":"27699122","badge":"CR","variant":"Collector’s Rare","code":"CR4","tcg":215641,"grp":2652,"idx":7},
+    {"id":"005","section":"main","num":"005","printed":"TOCH-EN005","name":"Toon Terror","ctype":"trap","keywords":"Toon Counter Trap","stats":{"t":"Counter Trap"},"rarity":"SR","img":"53094821","code":"5","tcg":215378,"grp":2652,"idx":8},
+    {"id":"006","section":"main","num":"006","printed":"TOCH-EN006","name":"The Chaos Creator","ctype":"monster","keywords":"Chaos Thunder DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Thunder / Effect","atk":2300,"def":3000},"rarity":"UR","img":"90488465","code":"6","tcg":215379,"grp":2652,"idx":9},
+    {"id":"006-cr","section":"rarities","num":"006","printed":"TOCH-EN006","name":"The Chaos Creator","ctype":"monster","keywords":"Chaos Thunder DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Thunder / Effect","atk":2300,"def":3000},"rarity":"CR","img":"90488465","badge":"CR","variant":"Collector’s Rare","code":"CR6","tcg":215642,"grp":2652,"idx":10},
+    {"id":"007","section":"main","num":"007","printed":"TOCH-EN007","name":"Chaos Daedalus","ctype":"monster","keywords":"Chaos Sea Serpent DARK Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Sea Serpent / Effect","atk":2600,"def":1500},"rarity":"UR","img":"26873574","code":"7","tcg":215380,"grp":2652,"idx":11},
+    {"id":"007-cr","section":"rarities","num":"007","printed":"TOCH-EN007","name":"Chaos Daedalus","ctype":"monster","keywords":"Chaos Sea Serpent DARK Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Sea Serpent / Effect","atk":2600,"def":1500},"rarity":"CR","img":"26873574","badge":"CR","variant":"Collector’s Rare","code":"CR7","tcg":215637,"grp":2652,"idx":12},
+    {"id":"008","section":"main","num":"008","printed":"TOCH-EN008","name":"Chaos Valkyria","ctype":"monster","keywords":"Chaos Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fairy / Effect","atk":1800,"def":1050},"rarity":"SR","img":"53871273","code":"8","tcg":215381,"grp":2652,"idx":13},
+    {"id":"008-cr","section":"rarities","num":"008","printed":"TOCH-EN008","name":"Chaos Valkyria","ctype":"monster","keywords":"Chaos Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fairy / Effect","atk":1800,"def":1050},"rarity":"CR","img":"53871273","badge":"CR","variant":"Collector’s Rare","code":"CR8","tcg":215643,"grp":2652,"idx":14},
+    {"id":"009","section":"main","num":"009","printed":"TOCH-EN009","name":"Chaos Space","ctype":"spell","keywords":"Chaos Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"99266988","code":"9","tcg":215382,"grp":2652,"idx":15},
+    {"id":"009-cr","section":"rarities","num":"009","printed":"TOCH-EN009","name":"Chaos Space","ctype":"spell","keywords":"Chaos Normal Spell","stats":{"t":"Normal Spell"},"rarity":"CR","img":"99266988","badge":"CR","variant":"Collector’s Rare","code":"CR9","tcg":215644,"grp":2652,"idx":16},
+    {"id":"010","section":"main","num":"010","printed":"TOCH-EN010","name":"Eternal Chaos","ctype":"trap","keywords":"Chaos Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"25750986","code":"10","tcg":215383,"grp":2652,"idx":17},
+    {"id":"011","section":"main","num":"011","printed":"TOCH-EN011","name":"Infernoble Knight - Renaud","ctype":"monster","keywords":"Noble Knight Warrior FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 1","t":"Warrior / Effect","atk":500,"def":500},"rarity":"UR","img":"56824871","code":"11","tcg":215386,"grp":2652,"idx":18},
+    {"id":"012","section":"main","num":"012","printed":"TOCH-EN012","name":"Immortal Phoenix Gearfried","ctype":"monster","keywords":"Warrior FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 9","t":"Warrior / Effect","atk":3000,"def":2200},"rarity":"UR","img":"22091647","code":"12","tcg":215388,"grp":2652,"idx":19},
+    {"id":"012-cr","section":"rarities","num":"012","printed":"TOCH-EN012","name":"Immortal Phoenix Gearfried","ctype":"monster","keywords":"Warrior FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 9","t":"Warrior / Effect","atk":3000,"def":2200},"rarity":"CR","img":"22091647","badge":"CR","variant":"Collector’s Rare","code":"CR12","tcg":215689,"grp":2652,"idx":20},
+    {"id":"013","section":"main","num":"013","printed":"TOCH-EN013","name":"Sublimation Knight","ctype":"monster","keywords":"Warrior FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 3","t":"Warrior / Effect","atk":1300,"def":200},"rarity":"SR","img":"54485355","code":"13","tcg":215389,"grp":2652,"idx":21},
+    {"id":"014","section":"main","num":"014","printed":"TOCH-EN014","name":"Infernoble Knight - Roland","ctype":"monster","keywords":"Noble Knight Warrior FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 1","t":"Warrior / Effect","atk":500,"def":500},"rarity":"UR","img":"81570454","code":"14","tcg":215391,"grp":2652,"idx":22},
+    {"id":"015","section":"main","num":"015","printed":"TOCH-EN015","name":"Evocator Eveque","ctype":"monster","keywords":"Warrior FIRE Gemini Monster","stats":{"a":"FIRE","l":"Level 4","t":"Warrior / Gemini","atk":1500,"def":1000},"rarity":"SR","img":"16146511","code":"15","tcg":215392,"grp":2652,"idx":23},
+    {"id":"016","section":"main","num":"016","printed":"TOCH-EN016","name":"Gearbreed","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"R","img":"27979109","code":"16","tcg":215393,"grp":2652,"idx":24},
+    {"id":"017","section":"main","num":"017","printed":"TOCH-EN017","name":"Supermagic Sword of Raptinus","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"UR","img":"53363708","code":"17","tcg":215395,"grp":2652,"idx":25},
+    {"id":"018","section":"main","num":"018","printed":"TOCH-EN018","name":"Cross Over","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"R","img":"53241226","code":"18","tcg":215396,"grp":2652,"idx":26},
+    {"id":"019","section":"main","num":"019","printed":"TOCH-EN019","name":"Gemini Ablation","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"R","img":"80758812","code":"19","tcg":215398,"grp":2652,"idx":27},
+    {"id":"020","section":"main","num":"020","printed":"TOCH-EN020","name":"Fluffal Angel","ctype":"monster","keywords":"Fluffal Fairy LIGHT Pendulum Effect Monster","stats":{"a":"LIGHT","l":"Level 2","t":"Fairy / Pendulum / Effect","atk":600,"def":1200},"rarity":"SR","img":"45215225","code":"20","tcg":215399,"grp":2652,"idx":28},
+    {"id":"021","section":"main","num":"021","printed":"TOCH-EN021","name":"Frightfur Meister","ctype":"monster","keywords":"Frightfur Fiend DARK Pendulum Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Fiend / Pendulum / Effect","atk":0,"def":0},"rarity":"SR","img":"77522571","code":"21","tcg":215400,"grp":2652,"idx":29},
+    {"id":"022","section":"main","num":"022","printed":"TOCH-EN022","name":"Code Generator","ctype":"monster","keywords":"Code Talker Cyberse EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Cyberse / Effect","atk":1300,"def":500},"rarity":"R","img":"30114823","code":"22","tcg":215401,"grp":2652,"idx":30},
+    {"id":"023","section":"main","num":"023","printed":"TOCH-EN023","name":"Valkyrie Sigrun","ctype":"monster","keywords":"Valkyrie Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 9","t":"Fairy / Effect","atk":2200,"def":2400},"rarity":"SR","img":"97854941","code":"23","tcg":215403,"grp":2652,"idx":31},
+    {"id":"024","section":"main","num":"024","printed":"TOCH-EN024","name":"Magician of Hope","ctype":"monster","keywords":"Magician Spellcaster LIGHT Xyz Pendulum Effect Monster","stats":{"a":"LIGHT","l":"Rank 4","t":"Spellcaster / Xyz / Pendulum / Effect","atk":2500,"def":2000},"rarity":"SR","img":"67865534","code":"24","tcg":215405,"grp":2652,"idx":32},
+    {"id":"025","section":"main","num":"025","printed":"TOCH-EN025","name":"PSY-Frame Driver","ctype":"monster","keywords":"PSY-Frame Psychic LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Psychic / Normal","atk":2500,"def":0},"rarity":"R","img":"49036338","code":"25","tcg":215407,"grp":2652,"idx":33},
+    {"id":"026","section":"main","num":"026","printed":"TOCH-EN026","name":"Sangan","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Fiend / Effect","atk":1000,"def":600},"rarity":"R","img":"26202165","code":"26","tcg":215409,"grp":2652,"idx":34},
+    {"id":"027","section":"main","num":"027","printed":"TOCH-EN027","name":"Witch of the Black Forest","ctype":"monster","keywords":"Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Effect","atk":1100,"def":1200},"rarity":"R","img":"78010363","code":"27","tcg":215411,"grp":2652,"idx":35},
+    {"id":"028","section":"main","num":"028","printed":"TOCH-EN028","name":"Chaos Sorcerer","ctype":"monster","keywords":"Chaos Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Spellcaster / Effect","atk":2300,"def":2000},"rarity":"R","img":"9596126","code":"28","tcg":215413,"grp":2652,"idx":36},
+    {"id":"029","section":"main","num":"029","printed":"TOCH-EN029","name":"Black Luster Soldier - Envoy of the Beginning","ctype":"monster","keywords":"Black Luster Soldier Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Warrior / Effect","atk":3000,"def":2500},"rarity":"R","img":"72989439","code":"29","tcg":215414,"grp":2652,"idx":37},
+    {"id":"029-cr","section":"rarities","num":"029","printed":"TOCH-EN029","name":"Black Luster Soldier - Envoy of the Beginning","ctype":"monster","keywords":"Black Luster Soldier Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Warrior / Effect","atk":3000,"def":2500},"rarity":"CR","img":"72989439","badge":"CR","variant":"Collector’s Rare","code":"CR29","tcg":215645,"grp":2652,"idx":38},
+    {"id":"030","section":"main","num":"030","printed":"TOCH-EN030","name":"Chaos Emperor Dragon - Envoy of the End","ctype":"monster","keywords":"Chaos Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Dragon / Effect","atk":3000,"def":2500},"rarity":"R","img":"82301904","code":"30","tcg":215416,"grp":2652,"idx":39},
+    {"id":"030-cr","section":"rarities","num":"030","printed":"TOCH-EN030","name":"Chaos Emperor Dragon - Envoy of the End","ctype":"monster","keywords":"Chaos Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Dragon / Effect","atk":3000,"def":2500},"rarity":"CR","img":"82301904","badge":"CR","variant":"Collector’s Rare","code":"CR30","tcg":215646,"grp":2652,"idx":40},
+    {"id":"031","section":"main","num":"031","printed":"TOCH-EN031","name":"Lightpulsar Dragon","ctype":"monster","keywords":"Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Dragon / Effect","atk":2500,"def":1500},"rarity":"R","img":"99365553","code":"31","tcg":215419,"grp":2652,"idx":41},
+    {"id":"032","section":"main","num":"032","printed":"TOCH-EN032","name":"Darkflare Dragon","ctype":"monster","keywords":"Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 5","t":"Dragon / Effect","atk":2400,"def":1200},"rarity":"R","img":"25460258","code":"32","tcg":215422,"grp":2652,"idx":42},
+    {"id":"033","section":"main","num":"033","printed":"TOCH-EN033","name":"Black Luster Soldier - Envoy of the Evening Twilight","ctype":"monster","keywords":"Black Luster Soldier Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Warrior / Effect","atk":3000,"def":2500},"rarity":"R","img":"77498348","code":"33","tcg":215424,"grp":2652,"idx":43},
+    {"id":"034","section":"main","num":"034","printed":"TOCH-EN034","name":"Dwarf Star Dragon Planeter","ctype":"monster","keywords":"Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Dragon / Effect","atk":1700,"def":1200},"rarity":"R","img":"67310848","code":"34","tcg":215425,"grp":2652,"idx":44},
+    {"id":"035","section":"main","num":"035","printed":"TOCH-EN035","name":"Black Luster Soldier - Sacred Soldier","ctype":"monster","keywords":"Black Luster Soldier Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Warrior / Effect","atk":3000,"def":2500},"rarity":"R","img":"92510265","code":"35","tcg":215426,"grp":2652,"idx":45},
+    {"id":"036","section":"main","num":"036","printed":"TOCH-EN036","name":"PSY-Framegear Gamma","ctype":"monster","keywords":"PSY-Frame Psychic LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 2","t":"Psychic / Tuner","atk":1000,"def":0},"rarity":"R","img":"38814750","code":"36","tcg":215427,"grp":2652,"idx":46},
+    {"id":"036-cr","section":"rarities","num":"036","printed":"TOCH-EN036","name":"PSY-Framegear Gamma","ctype":"monster","keywords":"PSY-Frame Psychic LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 2","t":"Psychic / Tuner","atk":1000,"def":0},"rarity":"CR","img":"38814750","badge":"CR","variant":"Collector’s Rare","code":"CR36","tcg":216010,"grp":2652,"idx":47},
+    {"id":"037","section":"main","num":"037","printed":"TOCH-EN037","name":"Curse of Dragonfire","ctype":"monster","keywords":"Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 5","t":"Dragon / Effect","atk":2000,"def":1500},"rarity":"R","img":"7241272","code":"37","tcg":215429,"grp":2652,"idx":48},
+    {"id":"038","section":"main","num":"038","printed":"TOCH-EN038","name":"True King Lithosagym, the Disaster","ctype":"monster","keywords":"Wyrm EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 9","t":"Wyrm / Effect","atk":2500,"def":2300},"rarity":"R","img":"30539496","code":"38","tcg":215431,"grp":2652,"idx":49},
+    {"id":"039","section":"main","num":"039","printed":"TOCH-EN039","name":"Envoy of Chaos","ctype":"monster","keywords":"Black Luster Soldier Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Warrior / Effect","atk":1500,"def":0},"rarity":"R","img":"38695361","code":"39","tcg":215433,"grp":2652,"idx":50},
+    {"id":"040","section":"main","num":"040","printed":"TOCH-EN040","name":"Elemental HERO Solid Soldier","ctype":"monster","keywords":"Elemental HERO Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Effect","atk":1300,"def":1100},"rarity":"R","img":"45195443","code":"40","tcg":215434,"grp":2652,"idx":51},
+    {"id":"041","section":"main","num":"041","printed":"TOCH-EN041","name":"Keeper of Dragon Magic","ctype":"monster","keywords":"Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Dragon / Effect","atk":1800,"def":1300},"rarity":"R","img":"48048590","code":"41","tcg":215435,"grp":2652,"idx":52},
+    {"id":"042","section":"main","num":"042","printed":"TOCH-EN042","name":"Micro Coder","ctype":"monster","keywords":"Code Talker Cyberse DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Cyberse / Effect","atk":300,"def":0},"rarity":"SR","img":"2347477","code":"42","tcg":215436,"grp":2652,"idx":53},
+    {"id":"043","section":"main","num":"043","printed":"TOCH-EN043","name":"Masked HERO Goka","ctype":"monster","keywords":"Masked HERO Warrior FIRE Fusion Monster","stats":{"a":"FIRE","l":"Level 6","t":"Warrior / Fusion","atk":2200,"def":1800},"rarity":"R","img":"58147549","code":"43","tcg":215439,"grp":2652,"idx":54},
+    {"id":"044","section":"main","num":"044","printed":"TOCH-EN044","name":"Masked HERO Vapor","ctype":"monster","keywords":"Masked HERO Warrior WATER Fusion Monster","stats":{"a":"WATER","l":"Level 6","t":"Warrior / Fusion","atk":2400,"def":2000},"rarity":"R","img":"10920352","code":"44","tcg":215441,"grp":2652,"idx":55},
+    {"id":"045","section":"main","num":"045","printed":"TOCH-EN045","name":"Masked HERO Acid","ctype":"monster","keywords":"Masked HERO Warrior WATER Fusion Monster","stats":{"a":"WATER","l":"Level 8","t":"Warrior / Fusion","atk":2600,"def":2100},"rarity":"SR","img":"29095552","code":"45","tcg":215442,"grp":2652,"idx":56},
+    {"id":"046","section":"main","num":"046","printed":"TOCH-EN046","name":"Masked HERO Dian","ctype":"monster","keywords":"Masked HERO Warrior EARTH Fusion Monster","stats":{"a":"EARTH","l":"Level 8","t":"Warrior / Fusion","atk":2800,"def":3000},"rarity":"R","img":"62624486","code":"46","tcg":215444,"grp":2652,"idx":57},
+    {"id":"047","section":"main","num":"047","printed":"TOCH-EN047","name":"Masked HERO Blast","ctype":"monster","keywords":"Masked HERO Warrior WIND Fusion Monster","stats":{"a":"WIND","l":"Level 6","t":"Warrior / Fusion","atk":2200,"def":1800},"rarity":"R","img":"89870349","code":"47","tcg":215445,"grp":2652,"idx":58},
+    {"id":"048","section":"main","num":"048","printed":"TOCH-EN048","name":"Frightfur Sabre-Tooth","ctype":"monster","keywords":"Edge Imp Fiend DARK Fusion Monster","stats":{"a":"DARK","l":"Level 8","t":"Fiend / Fusion","atk":2400,"def":2000},"rarity":"SR","img":"80889750","code":"48","tcg":215446,"grp":2652,"idx":59},
+    {"id":"049","section":"main","num":"049","printed":"TOCH-EN049","name":"Mudragon of the Swamp","ctype":"monster","keywords":"Wyrm WATER Fusion Monster","stats":{"a":"WATER","l":"Level 4","t":"Wyrm / Fusion","atk":1900,"def":1600},"rarity":"R","img":"54757758","code":"49","tcg":215447,"grp":2652,"idx":60},
+    {"id":"050","section":"main","num":"050","printed":"TOCH-EN050","name":"Stardust Dragon","ctype":"monster","keywords":"Stardust Dragon WIND Synchro Monster","stats":{"a":"WIND","l":"Level 8","t":"Dragon / Synchro","atk":2500,"def":2000},"rarity":"R","img":"44508094","code":"50","tcg":215448,"grp":2652,"idx":61},
+    {"id":"050-cr","section":"rarities","num":"050","printed":"TOCH-EN050","name":"Stardust Dragon","ctype":"monster","keywords":"Stardust Dragon WIND Synchro Monster","stats":{"a":"WIND","l":"Level 8","t":"Dragon / Synchro","atk":2500,"def":2000},"rarity":"CR","img":"44508094","badge":"CR","variant":"Collector’s Rare","code":"CR50","tcg":215647,"grp":2652,"idx":62},
+    {"id":"051","section":"main","num":"051","printed":"TOCH-EN051","name":"Number 68: Sanaphond the Sky Prison","ctype":"monster","keywords":"Rock DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 8","t":"Rock / Xyz","atk":2100,"def":2700},"rarity":"R","img":"23085002","code":"51","tcg":215451,"grp":2652,"idx":63},
+    {"id":"052","section":"main","num":"052","printed":"TOCH-EN052","name":"Number 75: Bamboozling Gossip Shadow","ctype":"monster","keywords":"Spellcaster WIND Xyz Monster","stats":{"a":"WIND","l":"Rank 3","t":"Spellcaster / Xyz","atk":1000,"def":2600},"rarity":"SR","img":"71166481","code":"52","tcg":215452,"grp":2652,"idx":64},
+    {"id":"053","section":"main","num":"053","printed":"TOCH-EN053","name":"Progleo","ctype":"monster","keywords":"Cyberse LIGHT Link Monster","stats":{"a":"LIGHT","l":"Link 2","t":"Cyberse / Link","atk":1000},"rarity":"R","img":"52615248","code":"53","tcg":215453,"grp":2652,"idx":65},
+    {"id":"054","section":"main","num":"054","printed":"TOCH-EN054","name":"Toon World","ctype":"spell","keywords":"Toon Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"R","img":"15259703","code":"54","tcg":215454,"grp":2652,"idx":66},
+    {"id":"055","section":"main","num":"055","printed":"TOCH-EN055","name":"Supervise","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"R","img":"95750695","code":"55","tcg":215455,"grp":2652,"idx":67},
+    {"id":"056","section":"main","num":"056","printed":"TOCH-EN056","name":"Chaos Zone","ctype":"spell","keywords":"Chaos Field Spell","stats":{"t":"Field Spell"},"rarity":"R","img":"94243005","code":"56","tcg":215457,"grp":2652,"idx":68},
+    {"id":"057","section":"main","num":"057","printed":"TOCH-EN057","name":"Pot of Desires","ctype":"spell","keywords":"Greed Normal Spell","stats":{"t":"Normal Spell"},"rarity":"R","img":"35261759","code":"57","tcg":215458,"grp":2652,"idx":69},
+    {"id":"057-cr","section":"rarities","num":"057","printed":"TOCH-EN057","name":"Pot of Desires","ctype":"spell","keywords":"Greed Normal Spell","stats":{"t":"Normal Spell"},"rarity":"CR","img":"35261759","badge":"CR","variant":"Collector’s Rare","code":"CR57","tcg":215691,"grp":2652,"idx":70},
+    {"id":"058","section":"main","num":"058","printed":"TOCH-EN058","name":"Cynet Codec","ctype":"spell","keywords":"Code Talker Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"R","img":"60018643","code":"58","tcg":215459,"grp":2652,"idx":71},
+    {"id":"059","section":"main","num":"059","printed":"TOCH-EN059","name":"Pot of Extravagance","ctype":"spell","keywords":"Greed Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UR","img":"49238328","code":"59","tcg":215460,"grp":2652,"idx":72},
+    {"id":"059-cr","section":"rarities","num":"059","printed":"TOCH-EN059","name":"Pot of Extravagance","ctype":"spell","keywords":"Greed Normal Spell","stats":{"t":"Normal Spell"},"rarity":"CR","img":"49238328","badge":"CR","variant":"Collector’s Rare","code":"CR59","tcg":215692,"grp":2652,"idx":73},
+    {"id":"060","section":"main","num":"060","printed":"TOCH-EN060","name":"Starlight Road","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"R","img":"58120309","code":"60","tcg":215461,"grp":2652,"idx":74}
+  ]
+}

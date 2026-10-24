@@ -1,0 +1,80 @@
+{
+  "id": "yugioh/duelist-league-18-participation-cards",
+  "game": "yugioh",
+  "slug": "duelist-league-18-participation-cards",
+  "name": "Duelist League 18 participation cards",
+  "series": "Promos",
+  "kind": "promo",
+  "code": "DL18",
+  "syncKey": "YDL18",
+  "released": "2014-06-27",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "DL18-EN001–DL18-EN020",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. Numbers count down the list in order: <b>1-5</b> is the first five cards and <b>3x2</b> is two copies of the third.",
+    "empty": "Cards run from DL18-EN001 to DL18-EN020."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Duelist League 18 participation cards Checklist · All 20 Cards",
+    "description": "Free Yu-Gi-Oh! Duelist League 18 participation cards checklist with no ads, no sign-up and no tracking. Track all 20 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Duelist League 18 participation cards Checklist",
+    "ogDescription": "Track all 20 cards in Yu-Gi-Oh! Duelist League 18 participation cards. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 20 cards in Yu-Gi-Oh! Duelist League 18 participation cards. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Duelist League 18 participation cards",
+    "paragraphs": [
+      "Duelist League 18 participation cards is a Yu-Gi-Oh! TCG promo list released on 27 June 2014. It has 20 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Duelist League 18 participation cards"
+    ],
+    "tcgplayer": [
+      182
+    ]
+  },
+  "cards": [
+    {"id":"DL18-001","section":"main","num":"DL18-EN001","printed":"DL18-EN001","name":"Catapult Turtle","ctype":"monster","keywords":"Aqua WATER Effect Monster","stats":{"a":"WATER","l":"Level 5","t":"Aqua / Effect","atk":1000,"def":2000},"note":"Duelist League 18 participation cards","rarity":"R","img":"95727991","code":"1","tcg":94894,"grp":182,"idx":0},
+    {"id":"DL18-002","section":"main","num":"DL18-EN002","printed":"DL18-EN002","name":"Penguin Soldier","ctype":"monster","keywords":"Penguin Aqua WATER Flip Effect Monster","stats":{"a":"WATER","l":"Level 2","t":"Aqua / Flip / Effect","atk":750,"def":500},"note":"Duelist League 18 participation cards","rarity":"R","img":"93920745","code":"2","tcg":94895,"grp":182,"idx":1},
+    {"id":"DL18-003","section":"main","num":"DL18-EN003","printed":"DL18-EN003","name":"Dark Magician Girl","ctype":"monster","keywords":"Dark Magician Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Spellcaster / Effect","atk":2000,"def":1700},"note":"Duelist League 18 participation cards","rarity":"R","img":"38033121","code":"3","tcg":94896,"grp":182,"idx":2},
+    {"id":"DL18-004","section":"main","num":"DL18-EN004","printed":"DL18-EN004","name":"Ancient Gear Golem","ctype":"monster","keywords":"Ancient Gear Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 8","t":"Machine / Effect","atk":3000,"def":3000},"note":"Duelist League 18 participation cards","rarity":"R","img":"83104731","code":"4","tcg":94897,"grp":182,"idx":3},
+    {"id":"DL18-005","section":"main","num":"DL18-EN005","printed":"DL18-EN005","name":"Dandylion","ctype":"monster","keywords":"Plant EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Plant / Effect","atk":300,"def":300},"note":"Duelist League 18 participation cards","rarity":"R","img":"15341821","code":"5","tcg":94898,"grp":182,"idx":4},
+    {"id":"DL18-006","section":"main","num":"DL18-EN006","printed":"DL18-EN006","name":"Grapha, Dragon Lord of Dark World","ctype":"monster","keywords":"Dark World Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Fiend / Effect","atk":2700,"def":1800},"note":"Duelist League 18 participation cards","rarity":"R","img":"34230233","code":"6","tcg":94899,"grp":182,"idx":5},
+    {"id":"DL18-007","section":"main","num":"DL18-EN007","printed":"DL18-EN007","name":"Geargiano Mk-II","ctype":"monster","keywords":"Geargia Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Machine / Effect","atk":1000,"def":500},"note":"Duelist League 18 participation cards","rarity":"R","img":"1045143","code":"7","tcg":94900,"grp":182,"idx":6},
+    {"id":"DL18-008","section":"main","num":"DL18-EN008","printed":"DL18-EN008","name":"Brotherhood of the Fire Fist - Dragon","ctype":"monster","keywords":"Fire Fist Beast-Warrior FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Beast-Warrior / Effect","atk":1800,"def":400},"note":"Duelist League 18 participation cards","rarity":"R","img":"43748308","code":"8","tcg":94901,"grp":182,"idx":7},
+    {"id":"DL18-009","section":"main","num":"DL18-EN009","printed":"DL18-EN009","name":"Brotherhood of the Fire Fist - Snake","ctype":"monster","keywords":"Fire Fist Beast-Warrior FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Beast-Warrior / Effect","atk":1800,"def":600},"note":"Duelist League 18 participation cards","rarity":"R","img":"75132317","code":"9","tcg":94903,"grp":182,"idx":8},
+    {"id":"DL18-010","section":"main","num":"DL18-EN010","printed":"DL18-EN010","name":"Gladiator Beast Essedarii","ctype":"monster","keywords":"Gladiator Beast Beast EARTH Fusion Monster","stats":{"a":"EARTH","l":"Level 5","t":"Beast / Fusion","atk":2500,"def":1400},"note":"Duelist League 18 participation cards","rarity":"R","img":"73285669","code":"10","tcg":94904,"grp":182,"idx":9},
+    {"id":"DL18-011","section":"main","num":"DL18-EN011","printed":"DL18-EN011","name":"Gold Sarcophagus","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"note":"Duelist League 18 participation cards","rarity":"R","img":"75500286","code":"11","tcg":94905,"grp":182,"idx":10},
+    {"id":"DL18-012","section":"main","num":"DL18-EN012","printed":"DL18-EN012","name":"The World Tree","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"note":"Duelist League 18 participation cards","rarity":"R","img":"5973663","code":"12","tcg":94906,"grp":182,"idx":11},
+    {"id":"DL18-013","section":"main","num":"DL18-EN013","printed":"DL18-EN013","name":"Photon Booster","ctype":"spell","keywords":"Photon Normal Spell","stats":{"t":"Normal Spell"},"note":"Duelist League 18 participation cards","rarity":"R","img":"71233859","code":"13","tcg":94907,"grp":182,"idx":12},
+    {"id":"DL18-014","section":"main","num":"DL18-EN014","printed":"DL18-EN014","name":"Fire Formation - Tenki","ctype":"spell","keywords":"Fire Formation Continuous Spell","stats":{"t":"Continuous Spell"},"note":"Duelist League 18 participation cards","rarity":"R","img":"57103969","code":"14","tcg":94908,"grp":182,"idx":13},
+    {"id":"DL18-015","section":"main","num":"DL18-EN015","printed":"DL18-EN015","name":"DNA Surgery","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"note":"Duelist League 18 participation cards","rarity":"R","img":"74701381","code":"15","tcg":94909,"grp":182,"idx":14},
+    {"id":"DL18-016","section":"main","num":"DL18-EN016","printed":"DL18-EN016","name":"Torrential Tribute","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"note":"Duelist League 18 participation cards","rarity":"R","img":"53582587","code":"16","tcg":94910,"grp":182,"idx":15},
+    {"id":"DL18-017","section":"main","num":"DL18-EN017","printed":"DL18-EN017","name":"Cyber Summon Blaster","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"note":"Duelist League 18 participation cards","rarity":"R","img":"63477921","code":"17","tcg":94911,"grp":182,"idx":16},
+    {"id":"DL18-018","section":"main","num":"DL18-EN018","printed":"DL18-EN018","name":"Scrap-Iron Scarecrow","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"note":"Duelist League 18 participation cards","rarity":"R","img":"98427577","code":"18","tcg":94912,"grp":182,"idx":17},
+    {"id":"DL18-019","section":"main","num":"DL18-EN019","printed":"DL18-EN019","name":"Solemn Warning","ctype":"trap","keywords":"Solemn Counter Trap","stats":{"t":"Counter Trap"},"note":"Duelist League 18 participation cards","rarity":"R","img":"84749824","code":"19","tcg":94913,"grp":182,"idx":18},
+    {"id":"DL18-020","section":"main","num":"DL18-EN020","printed":"DL18-EN020","name":"Fire Formation - Tensen","ctype":"trap","keywords":"Fire Formation Continuous Trap","stats":{"t":"Continuous Trap"},"note":"Duelist League 18 participation cards","rarity":"R","img":"44920699","code":"20","tcg":94914,"grp":182,"idx":19}
+  ]
+}

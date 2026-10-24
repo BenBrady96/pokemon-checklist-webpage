@@ -1,0 +1,120 @@
+{
+  "id": "yugioh/fists-of-the-gadgets",
+  "game": "yugioh",
+  "slug": "fists-of-the-gadgets",
+  "name": "Fists of the Gadgets",
+  "series": "VRAINS",
+  "kind": "set",
+  "code": "FIGA",
+  "syncKey": "YFIGA",
+  "released": "2019-08-22",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Main Set",
+      "range": "FIGA-EN001–FIGA-EN060",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from FIGA-EN001 to FIGA-EN060."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Fists of the Gadgets Checklist · All 60 Cards",
+    "description": "Free Yu-Gi-Oh! Fists of the Gadgets checklist with no ads, no sign-up and no tracking. Track all 60 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Fists of the Gadgets Checklist",
+    "ogDescription": "Track all 60 cards in Yu-Gi-Oh! Fists of the Gadgets. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 60 cards in Yu-Gi-Oh! Fists of the Gadgets. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About the Fists of the Gadgets set",
+    "paragraphs": [
+      "Fists of the Gadgets is a Yu-Gi-Oh! TCG special set released on 22 August 2019, in the VRAINS era. It has 60 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Fists of the Gadgets"
+    ],
+    "tcgplayer": [
+      2471
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"FIGA-EN001","name":"Boot-Up Corporal - Command Dynamo","ctype":"monster","keywords":"Boot-Up Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Machine / Effect","atk":0,"def":2000},"rarity":"SR","img":"938717","code":"1","tcg":196911,"grp":2471,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"FIGA-EN002","name":"Boot-Up Admiral - Destroyer Dynamo","ctype":"monster","keywords":"Boot-Up Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 8","t":"Machine / Effect","atk":2500,"def":2500},"rarity":"ScR","img":"36322312","code":"2","tcg":196912,"grp":2471,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"FIGA-EN003","name":"Boot-Up Order - Gear Charge","ctype":"spell","keywords":"Boot-Up Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"SR","img":"63717421","code":"3","tcg":196913,"grp":2471,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"FIGA-EN004","name":"Boot-Up Order - Gear Force","ctype":"trap","keywords":"Boot-Up Normal Trap","stats":{"t":"Normal Trap"},"rarity":"ScR","img":"9715126","code":"4","tcg":196914,"grp":2471,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"FIGA-EN005","name":"Powerhold the Moving Battery","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"SR","img":"35100834","code":"5","tcg":196915,"grp":2471,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"FIGA-EN006","name":"Green Gadget","ctype":"monster","keywords":"Gadget Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Machine / Effect","atk":1400,"def":600},"rarity":"SR","img":"41172955","code":"6","tcg":196916,"grp":2471,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"FIGA-EN007","name":"Red Gadget","ctype":"monster","keywords":"Gadget Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Machine / Effect","atk":1300,"def":1500},"rarity":"SR","img":"86445415","code":"7","tcg":196917,"grp":2471,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"FIGA-EN008","name":"Yellow Gadget","ctype":"monster","keywords":"Gadget Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Machine / Effect","atk":1200,"def":1200},"rarity":"SR","img":"13839120","code":"8","tcg":196918,"grp":2471,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"FIGA-EN009","name":"Gold Gadget","ctype":"monster","keywords":"Gadget Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Machine / Effect","atk":1700,"def":800},"rarity":"SR","img":"55010259","code":"9","tcg":196919,"grp":2471,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"FIGA-EN010","name":"Silver Gadget","ctype":"monster","keywords":"Gadget Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Machine / Effect","atk":1500,"def":1000},"rarity":"SR","img":"29021114","code":"10","tcg":196920,"grp":2471,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"FIGA-EN011","name":"Brotherhood of the Fire Fist - Ram","ctype":"monster","keywords":"Fire Fist Beast-Warrior FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 3","t":"Beast-Warrior / Effect","atk":800,"def":200},"rarity":"ScR","img":"62694833","code":"11","tcg":196921,"grp":2471,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"FIGA-EN012","name":"Brotherhood of the Fire Fist - Elephant","ctype":"monster","keywords":"Fire Fist Beast-Warrior FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Beast-Warrior / Effect","atk":1000,"def":1800},"rarity":"ScR","img":"98093548","code":"12","tcg":196922,"grp":2471,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"FIGA-EN013","name":"Brotherhood of the Fire Fist - Panda","ctype":"monster","keywords":"Fire Fist Beast-Warrior FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 5","t":"Beast-Warrior / Effect","atk":2100,"def":400},"rarity":"ScR","img":"35488287","code":"13","tcg":196923,"grp":2471,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"FIGA-EN014","name":"Brotherhood of the Fire Fist - Eland","ctype":"monster","keywords":"Fire Fist Beast-Warrior FIRE Ritual Effect Monster","stats":{"a":"FIRE","l":"Level 6","t":"Beast-Warrior / Ritual / Effect","atk":2400,"def":2000},"rarity":"ScR","img":"61472381","code":"14","tcg":196924,"grp":2471,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"FIGA-EN015","name":"Brotherhood of the Fire Fist - Swan","ctype":"monster","keywords":"Fire Fist Beast-Warrior FIRE Fusion Monster","stats":{"a":"FIRE","l":"Level 8","t":"Beast-Warrior / Fusion","atk":2600,"def":2200},"rarity":"ScR","img":"93877990","code":"15","tcg":196925,"grp":2471,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"FIGA-EN016","name":"Brotherhood of the Fire Fist - Eagle","ctype":"monster","keywords":"Fire Fist Beast-Warrior FIRE Link Monster","stats":{"a":"FIRE","l":"Link 2","t":"Beast-Warrior / Link","atk":1700},"rarity":"ScR","img":"46241344","code":"16","tcg":196926,"grp":2471,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"FIGA-EN017","name":"Brotherhood of the Fire Fist - Peacock","ctype":"monster","keywords":"Fire Fist Beast-Warrior FIRE Link Monster","stats":{"a":"FIRE","l":"Link 2","t":"Beast-Warrior / Link","atk":1000},"rarity":"ScR","img":"20265095","code":"17","tcg":196927,"grp":2471,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"FIGA-EN018","name":"Fire Fortress atop Liang Peak","ctype":"spell","keywords":"Fire Formation Field Spell","stats":{"t":"Field Spell"},"rarity":"ScR","img":"66750703","code":"18","tcg":196928,"grp":2471,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"FIGA-EN019","name":"Fire Formation - Domei","ctype":"spell","keywords":"Fire Formation Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"ScR","img":"93754402","code":"19","tcg":196929,"grp":2471,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"FIGA-EN020","name":"Fire Formation - Ingen","ctype":"spell","keywords":"Fire Formation Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"ScR","img":"29143457","code":"20","tcg":196930,"grp":2471,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"FIGA-EN021","name":"Ultimate Fire Formation - Sinto","ctype":"trap","keywords":"Fire Formation Counter Trap","stats":{"t":"Counter Trap"},"rarity":"ScR","img":"55538156","code":"21","tcg":196931,"grp":2471,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"FIGA-EN022","name":"Brotherhood of the Fire Fist - Gorilla","ctype":"monster","keywords":"Fire Fist Beast-Warrior FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Beast-Warrior / Effect","atk":1600,"def":1000},"rarity":"SR","img":"70355994","code":"22","tcg":196932,"grp":2471,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"FIGA-EN023","name":"Brotherhood of the Fire Fist - Bear","ctype":"monster","keywords":"Fire Fist Beast-Warrior FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Beast-Warrior / Effect","atk":1600,"def":1200},"rarity":"SR","img":"6353603","code":"23","tcg":196933,"grp":2471,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"FIGA-EN024","name":"Brotherhood of the Fire Fist - Spirit","ctype":"monster","keywords":"Fire Fist Beast-Warrior FIRE Tuner Monster","stats":{"a":"FIRE","l":"Level 3","t":"Beast-Warrior / Tuner","atk":500,"def":200},"rarity":"SR","img":"1662004","code":"24","tcg":196934,"grp":2471,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"FIGA-EN025","name":"Brotherhood of the Fire Fist - Rooster","ctype":"monster","keywords":"Fire Fist Beast-Warrior FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 3","t":"Beast-Warrior / Effect","atk":1500,"def":100},"rarity":"SR","img":"30929786","code":"25","tcg":196935,"grp":2471,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"FIGA-EN026","name":"Brotherhood of the Fire Fist - Cardinal","ctype":"monster","keywords":"Fire Fist Beast-Warrior FIRE Xyz Monster","stats":{"a":"FIRE","l":"Rank 4","t":"Beast-Warrior / Xyz","atk":1800,"def":2200},"rarity":"SR","img":"58504745","code":"26","tcg":196936,"grp":2471,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"FIGA-EN027","name":"Brotherhood of the Fire Fist - Tiger King","ctype":"monster","keywords":"Fire Fist Beast-Warrior FIRE Xyz Monster","stats":{"a":"FIRE","l":"Rank 4","t":"Beast-Warrior / Xyz","atk":2200,"def":1800},"rarity":"SR","img":"96381979","code":"27","tcg":196937,"grp":2471,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"FIGA-EN028","name":"Fire Formation - Tenki","ctype":"spell","keywords":"Fire Formation Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"ScR","img":"57103969","code":"28","tcg":196938,"grp":2471,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"FIGA-EN029","name":"Fire Formation - Tensu","ctype":"spell","keywords":"Fire Formation Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"SR","img":"10719350","code":"29","tcg":196939,"grp":2471,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"FIGA-EN030","name":"Fire Formation - Yoko","ctype":"spell","keywords":"Fire Formation Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"SR","img":"36499284","code":"30","tcg":196940,"grp":2471,"idx":29},
+    {"id":"031","section":"main","num":"031","printed":"FIGA-EN031","name":"Archfiend's Awakening","ctype":"monster","keywords":"Archfiend Fiend DARK Ritual Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Fiend / Ritual / Effect","atk":2500,"def":1200},"rarity":"ScR","img":"95825679","code":"31","tcg":196941,"grp":2471,"idx":30},
+    {"id":"032","section":"main","num":"032","printed":"FIGA-EN032","name":"Archfiend's Call","ctype":"monster","keywords":"Archfiend Fiend DARK Synchro Monster","stats":{"a":"DARK","l":"Level 6","t":"Fiend / Synchro","atk":2500,"def":1200},"rarity":"ScR","img":"64635042","code":"32","tcg":196942,"grp":2471,"idx":31},
+    {"id":"033","section":"main","num":"033","printed":"FIGA-EN033","name":"Archfiend's Ascent","ctype":"monster","keywords":"Archfiend Fiend DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 6","t":"Fiend / Xyz","atk":2500,"def":1200},"rarity":"ScR","img":"61248471","code":"33","tcg":196943,"grp":2471,"idx":32},
+    {"id":"034","section":"main","num":"034","printed":"FIGA-EN034","name":"Archfiend's Manifestation","ctype":"monster","keywords":"Archfiend Fiend DARK Fusion Monster","stats":{"a":"DARK","l":"Level 6","t":"Fiend / Fusion","atk":2500,"def":1200},"rarity":"ScR","img":"32775808","code":"34","tcg":196945,"grp":2471,"idx":33},
+    {"id":"035","section":"main","num":"035","printed":"FIGA-EN035","name":"Latency","ctype":"monster","keywords":"Cyberse LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Cyberse / Effect","atk":0,"def":0},"rarity":"SR","img":"3560069","code":"35","tcg":196948,"grp":2471,"idx":34},
+    {"id":"036","section":"main","num":"036","printed":"FIGA-EN036","name":"Swap Cleric","ctype":"monster","keywords":"Cyberse EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 2","t":"Cyberse / Effect","atk":500,"def":1000},"rarity":"SR","img":"30968774","code":"36","tcg":196949,"grp":2471,"idx":35},
+    {"id":"037","section":"main","num":"037","printed":"FIGA-EN037","name":"Defcon Bird","ctype":"monster","keywords":"Cyberse WIND Effect Monster","stats":{"a":"WIND","l":"Level 3","t":"Cyberse / Effect","atk":100,"def":1700},"rarity":"SR","img":"76353872","code":"37","tcg":196951,"grp":2471,"idx":36},
+    {"id":"038","section":"main","num":"038","printed":"FIGA-EN038","name":"Prohibit Snake","ctype":"monster","keywords":"Cyberse LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 2","t":"Cyberse / Effect","atk":500,"def":1000},"rarity":"SR","img":"39732186","code":"38","tcg":196952,"grp":2471,"idx":37},
+    {"id":"039","section":"main","num":"039","printed":"FIGA-EN039","name":"Code Radiator","ctype":"monster","keywords":"Code Talker Cyberse WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Cyberse / Effect","atk":1600,"def":800},"rarity":"ScR","img":"75130221","code":"39","tcg":196954,"grp":2471,"idx":38},
+    {"id":"040","section":"main","num":"040","printed":"FIGA-EN040","name":"Spool Code","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"SR","img":"2625939","code":"40","tcg":196956,"grp":2471,"idx":39},
+    {"id":"041","section":"main","num":"041","printed":"FIGA-EN041","name":"Cynet Optimization","ctype":"spell","keywords":"Code Talker Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"SR","img":"34010534","code":"41","tcg":196958,"grp":2471,"idx":40},
+    {"id":"042","section":"main","num":"042","printed":"FIGA-EN042","name":"Cynet Conflict","ctype":"trap","keywords":"Code Talker Counter Trap","stats":{"t":"Counter Trap"},"rarity":"SR","img":"7403341","code":"42","tcg":196959,"grp":2471,"idx":41},
+    {"id":"043","section":"main","num":"043","printed":"FIGA-EN043","name":"Code Talker","ctype":"monster","keywords":"Code Talker Cyberse DARK Link Monster","stats":{"a":"DARK","l":"Link 2","t":"Cyberse / Link","atk":1300},"rarity":"SR","img":"53413628","code":"43","tcg":196961,"grp":2471,"idx":42},
+    {"id":"044","section":"main","num":"044","printed":"FIGA-EN044","name":"Shootingcode Talker","ctype":"monster","keywords":"Code Talker Cyberse WATER Link Monster","stats":{"a":"WATER","l":"Link 3","t":"Cyberse / Link","atk":2300},"rarity":"SR","img":"33897356","code":"44","tcg":196962,"grp":2471,"idx":43},
+    {"id":"045","section":"main","num":"045","printed":"FIGA-EN045","name":"Elphase","ctype":"monster","keywords":"Cyberse WIND Link Monster","stats":{"a":"WIND","l":"Link 2","t":"Cyberse / Link","atk":2000},"rarity":"SR","img":"60292055","code":"45","tcg":196964,"grp":2471,"idx":44},
+    {"id":"046","section":"main","num":"046","printed":"FIGA-EN046","name":"Talkback Lancer","ctype":"monster","keywords":"Code Talker Cyberse DARK Link Monster","stats":{"a":"DARK","l":"Link 1","t":"Cyberse / Link","atk":1200},"rarity":"SR","img":"96380700","code":"46","tcg":196966,"grp":2471,"idx":45},
+    {"id":"047","section":"main","num":"047","printed":"FIGA-EN047","name":"Rasterliger","ctype":"monster","keywords":"Cyberse LIGHT Link Monster","stats":{"a":"LIGHT","l":"Link 4","t":"Cyberse / Link","atk":2000},"rarity":"SR","img":"88000953","code":"47","tcg":196967,"grp":2471,"idx":46},
+    {"id":"048","section":"main","num":"048","printed":"FIGA-EN048","name":"Subterror Fiendess","ctype":"monster","keywords":"Subterror Spellcaster EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 1","t":"Spellcaster / Effect","atk":800,"def":500},"rarity":"SR","img":"74762582","code":"48","tcg":196968,"grp":2471,"idx":47},
+    {"id":"049","section":"main","num":"049","printed":"FIGA-EN049","name":"The Hidden City","ctype":"spell","keywords":"Subterror Field Spell","stats":{"t":"Field Spell"},"rarity":"SR","img":"5697558","code":"49","tcg":196969,"grp":2471,"idx":48},
+    {"id":"050","section":"main","num":"050","printed":"FIGA-EN050","name":"Subterror Final Battle","ctype":"trap","keywords":"Subterror Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"74640994","code":"50","tcg":196970,"grp":2471,"idx":49},
+    {"id":"051","section":"main","num":"051","printed":"FIGA-EN051","name":"Scrap Recycler","ctype":"monster","keywords":"Scrap Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Machine / Effect","atk":900,"def":1200},"rarity":"SR","img":"4334811","code":"51","tcg":196971,"grp":2471,"idx":50},
+    {"id":"052","section":"main","num":"052","printed":"FIGA-EN052","name":"Majesty Maiden, the True Dracocaster","ctype":"monster","keywords":"True Draco Wyrm WIND Effect Monster","stats":{"a":"WIND","l":"Level 5","t":"Wyrm / Effect","atk":2300,"def":1500},"rarity":"SR","img":"95004025","code":"52","tcg":196973,"grp":2471,"idx":51},
+    {"id":"053","section":"main","num":"053","printed":"FIGA-EN053","name":"Ignis Heat, the True Dracowarrior","ctype":"monster","keywords":"True Draco Wyrm FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 5","t":"Wyrm / Effect","atk":2400,"def":1000},"rarity":"ScR","img":"22499034","code":"53","tcg":196974,"grp":2471,"idx":52},
+    {"id":"054","section":"main","num":"054","printed":"FIGA-EN054","name":"Dinomight Knight, the True Dracofighter","ctype":"monster","keywords":"True Draco Wyrm WATER Effect Monster","stats":{"a":"WATER","l":"Level 6","t":"Wyrm / Effect","atk":2500,"def":1200},"rarity":"SR","img":"58984738","code":"54","tcg":196975,"grp":2471,"idx":53},
+    {"id":"055","section":"main","num":"055","printed":"FIGA-EN055","name":"Amorphage Lechery","ctype":"monster","keywords":"Amorphage Dragon EARTH Pendulum Effect Monster","stats":{"a":"EARTH","l":"Level 2","t":"Dragon / Pendulum / Effect","atk":1350,"def":0},"rarity":"SR","img":"70917315","code":"55","tcg":196977,"grp":2471,"idx":54},
+    {"id":"056","section":"main","num":"056","printed":"FIGA-EN056","name":"Amorphage Sloth","ctype":"monster","keywords":"Amorphage Dragon EARTH Pendulum Effect Monster","stats":{"a":"EARTH","l":"Level 6","t":"Dragon / Pendulum / Effect","atk":2250,"def":0},"rarity":"SR","img":"32687071","code":"56","tcg":196978,"grp":2471,"idx":55},
+    {"id":"057","section":"main","num":"057","printed":"FIGA-EN057","name":"Amorphage Goliath","ctype":"monster","keywords":"Amorphage Dragon EARTH Pendulum Effect Monster","stats":{"a":"EARTH","l":"Level 8","t":"Dragon / Pendulum / Effect","atk":2750,"def":0},"rarity":"SR","img":"69072185","code":"57","tcg":196980,"grp":2471,"idx":56},
+    {"id":"058","section":"main","num":"058","printed":"FIGA-EN058","name":"Chronograph Sorcerer","ctype":"monster","keywords":"Magician Spellcaster DARK Pendulum Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Spellcaster / Pendulum / Effect","atk":2000,"def":1700},"rarity":"SR","img":"12289247","code":"58","tcg":196981,"grp":2471,"idx":57},
+    {"id":"059","section":"main","num":"059","printed":"FIGA-EN059","name":"Mythical Beast Master Cerberus","ctype":"monster","keywords":"Mythical Beast Spellcaster LIGHT Pendulum Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Spellcaster / Pendulum / Effect","atk":2800,"def":2800},"rarity":"SR","img":"53842431","code":"59","tcg":196983,"grp":2471,"idx":58},
+    {"id":"060","section":"main","num":"060","printed":"FIGA-EN060","name":"Starving Venom Fusion Dragon","ctype":"monster","keywords":"Venom Dragon DARK Fusion Monster","stats":{"a":"DARK","l":"Level 8","t":"Dragon / Fusion","atk":2800,"def":2000},"rarity":"SR","img":"41209827","code":"60","tcg":196984,"grp":2471,"idx":59}
+  ]
+}

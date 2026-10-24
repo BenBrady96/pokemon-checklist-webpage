@@ -1,0 +1,120 @@
+{
+  "id": "yugioh/hidden-arsenal-2",
+  "game": "yugioh",
+  "slug": "hidden-arsenal-2",
+  "name": "Hidden Arsenal 2",
+  "series": "5D’s",
+  "kind": "set",
+  "code": "HA02",
+  "syncKey": "YHA02",
+  "released": "2010-07-15",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Main Set",
+      "range": "HA02-EN001–HA02-EN060",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from HA02-EN001 to HA02-EN060."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Hidden Arsenal 2 Checklist · All 60 Cards",
+    "description": "Free Yu-Gi-Oh! Hidden Arsenal 2 checklist with no ads, no sign-up and no tracking. Track all 60 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Hidden Arsenal 2 Checklist",
+    "ogDescription": "Track all 60 cards in Yu-Gi-Oh! Hidden Arsenal 2. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 60 cards in Yu-Gi-Oh! Hidden Arsenal 2. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About the Hidden Arsenal 2 set",
+    "paragraphs": [
+      "Hidden Arsenal 2 is a Yu-Gi-Oh! TCG special set released on 15 July 2010, in the 5D’s era. It has 60 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Hidden Arsenal 2"
+    ],
+    "tcgplayer": [
+      225
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"HA02-EN001","name":"Naturia Beetle","ctype":"monster","keywords":"Naturia Insect EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Insect / Effect","atk":400,"def":1800},"rarity":"SR","img":"27762803","code":"1","tcg":35684,"grp":225,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"HA02-EN002","name":"Naturia Rock","ctype":"monster","keywords":"Naturia Rock EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Rock / Effect","atk":1200,"def":1200},"rarity":"SR","img":"54161401","code":"2","tcg":35685,"grp":225,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"HA02-EN003","name":"Naturia Guardian","ctype":"monster","keywords":"Naturia Plant EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Plant / Effect","atk":1600,"def":400},"rarity":"ScR","img":"80555116","code":"3","tcg":35686,"grp":225,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"HA02-EN004","name":"Naturia Vein","ctype":"monster","keywords":"Naturia Plant EARTH Tuner Monster","stats":{"a":"EARTH","l":"Level 1","t":"Plant / Tuner","atk":200,"def":300},"rarity":"SR","img":"16940215","code":"4","tcg":35687,"grp":225,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"HA02-EN005","name":"Genex Furnace","ctype":"monster","keywords":"Genex Pyro FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 5","t":"Pyro / Effect","atk":2000,"def":1300},"rarity":"SR","img":"53944920","code":"5","tcg":35688,"grp":225,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"HA02-EN006","name":"Genex Gaia","ctype":"monster","keywords":"Genex Rock EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Rock / Effect","atk":1000,"def":1900},"rarity":"SR","img":"89333528","code":"6","tcg":35689,"grp":225,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"HA02-EN007","name":"Genex Spare","ctype":"monster","keywords":"Genex Machine DARK Tuner Monster","stats":{"a":"DARK","l":"Level 3","t":"Machine / Tuner","atk":800,"def":1200},"rarity":"SR","img":"16828633","code":"7","tcg":35690,"grp":225,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"HA02-EN008","name":"Genex Turbine","ctype":"monster","keywords":"Genex Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Machine / Effect","atk":1400,"def":1300},"rarity":"SR","img":"52222372","code":"8","tcg":35691,"grp":225,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"HA02-EN009","name":"Genex Doctor","ctype":"monster","keywords":"Genex Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Spellcaster / Effect","atk":1500,"def":1000},"rarity":"SR","img":"89211486","code":"9","tcg":35692,"grp":225,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"HA02-EN010","name":"Genex Solar","ctype":"monster","keywords":"Genex Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 7","t":"Machine / Effect","atk":2500,"def":1500},"rarity":"ScR","img":"15605085","code":"10","tcg":35693,"grp":225,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"HA02-EN011","name":"Dai-sojo of the Ice Barrier","ctype":"monster","keywords":"Ice Barrier Spellcaster WATER Effect Monster","stats":{"a":"WATER","l":"Level 6","t":"Spellcaster / Effect","atk":1600,"def":2200},"rarity":"ScR","img":"41090784","code":"11","tcg":35694,"grp":225,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"HA02-EN012","name":"Medium of the Ice Barrier","ctype":"monster","keywords":"Ice Barrier Spellcaster WATER Effect Monster","stats":{"a":"WATER","l":"Level 7","t":"Spellcaster / Effect","atk":2200,"def":1600},"rarity":"SR","img":"88494899","code":"12","tcg":35695,"grp":225,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"HA02-EN013","name":"Mist Valley Baby Roc","ctype":"monster","keywords":"Winged Beast WIND Tuner Monster","stats":{"a":"WIND","l":"Level 2","t":"Winged Beast / Tuner","atk":400,"def":600},"rarity":"SR","img":"14983497","code":"13","tcg":35696,"grp":225,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"HA02-EN014","name":"Mist Valley Executor","ctype":"monster","keywords":"Mist Valley Thunder WIND Effect Monster","stats":{"a":"WIND","l":"Level 5","t":"Thunder / Effect","atk":2100,"def":1600},"rarity":"SR","img":"41978142","code":"14","tcg":35697,"grp":225,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"HA02-EN015","name":"Flamvell Grunika","ctype":"monster","keywords":"Flamvell Dragon FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Dragon / Effect","atk":1700,"def":200},"rarity":"SR","img":"77372241","code":"15","tcg":35698,"grp":225,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"HA02-EN016","name":"Flamvell Baby","ctype":"monster","keywords":"Flamvell Pyro FIRE Tuner Monster","stats":{"a":"FIRE","l":"Level 1","t":"Pyro / Tuner","atk":800,"def":200},"rarity":"SR","img":"13761956","code":"16","tcg":35699,"grp":225,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"HA02-EN017","name":"Ally Mind","ctype":"monster","keywords":"Ally of Justice Machine DARK Normal Tuner Monster","stats":{"a":"DARK","l":"Level 5","t":"Machine / Normal / Tuner","atk":1800,"def":1400},"rarity":"SR","img":"40155554","code":"17","tcg":35700,"grp":225,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"HA02-EN018","name":"Ally of Justice Nullfier","ctype":"monster","keywords":"Ally of Justice Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Machine / Effect","atk":1600,"def":1200},"rarity":"SR","img":"76650663","code":"18","tcg":35701,"grp":225,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"HA02-EN019","name":"Ally of Justice Searcher","ctype":"monster","keywords":"Ally of Justice Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Machine / Effect","atk":1400,"def":100},"rarity":"SR","img":"3648368","code":"19","tcg":35702,"grp":225,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"HA02-EN020","name":"Ally of Justice Enemy Catcher","ctype":"monster","keywords":"Ally of Justice Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Machine / Effect","atk":1800,"def":1800},"rarity":"SR","img":"45033006","code":"20","tcg":35703,"grp":225,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"HA02-EN021","name":"Ally of Justice Thunder Armor","ctype":"monster","keywords":"Ally of Justice Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Machine / Effect","atk":2700,"def":2200},"rarity":"SR","img":"71438011","code":"21","tcg":35704,"grp":225,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"HA02-EN022","name":"Ally of Justice Cosmic Gateway","ctype":"monster","keywords":"Ally of Justice Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Machine / Effect","atk":2400,"def":1200},"rarity":"ScR","img":"8822710","code":"22","tcg":35705,"grp":225,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"HA02-EN023","name":"Worm Linx","ctype":"monster","keywords":"Worm Reptile LIGHT Flip Effect Monster","stats":{"a":"LIGHT","l":"Level 2","t":"Reptile / Flip / Effect","atk":300,"def":1000},"rarity":"SR","img":"44811425","code":"23","tcg":35706,"grp":225,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"HA02-EN024","name":"Worm Millidith","ctype":"monster","keywords":"Worm Reptile LIGHT Flip Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Reptile / Flip / Effect","atk":400,"def":1600},"rarity":"SR","img":"71315423","code":"24","tcg":35707,"grp":225,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"HA02-EN025","name":"Worm Noble","ctype":"monster","keywords":"Worm Reptile LIGHT Flip Effect Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Reptile / Flip / Effect","atk":1500,"def":2400},"rarity":"SR","img":"7700132","code":"25","tcg":35708,"grp":225,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"HA02-EN026","name":"Naturia Beast","ctype":"monster","keywords":"Naturia Beast EARTH Synchro Monster","stats":{"a":"EARTH","l":"Level 5","t":"Beast / Synchro","atk":2200,"def":1700},"rarity":"ScR","img":"33198837","code":"26","tcg":35709,"grp":225,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"HA02-EN027","name":"Dewloren, Tiger King of the Ice Barrier","ctype":"monster","keywords":"Ice Barrier Beast WATER Synchro Monster","stats":{"a":"WATER","l":"Level 6","t":"Beast / Synchro","atk":2000,"def":1400},"rarity":"ScR","img":"70583986","code":"27","tcg":35710,"grp":225,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"HA02-EN028","name":"Thermal Genex","ctype":"monster","keywords":"Genex Machine FIRE Synchro Monster","stats":{"a":"FIRE","l":"Level 8","t":"Machine / Synchro","atk":2400,"def":1200},"rarity":"ScR","img":"6588580","code":"28","tcg":35711,"grp":225,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"HA02-EN029","name":"Geo Genex","ctype":"monster","keywords":"Genex Machine EARTH Synchro Monster","stats":{"a":"EARTH","l":"Level 6","t":"Machine / Synchro","atk":1800,"def":2800},"rarity":"ScR","img":"33972299","code":"29","tcg":35712,"grp":225,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"HA02-EN030","name":"Ally of Justice Field Marshal","ctype":"monster","keywords":"Ally of Justice Machine DARK Synchro Monster","stats":{"a":"DARK","l":"Level 9","t":"Machine / Synchro","atk":2900,"def":2600},"rarity":"ScR","img":"69461394","code":"30","tcg":35713,"grp":225,"idx":29},
+    {"id":"031","section":"main","num":"031","printed":"HA02-EN031","name":"Fabled Lurrie","ctype":"monster","keywords":"Fabled Fiend LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Fiend / Effect","atk":200,"def":400},"rarity":"SR","img":"97651498","code":"31","tcg":35714,"grp":225,"idx":30},
+    {"id":"032","section":"main","num":"032","printed":"HA02-EN032","name":"Fabled Grimro","ctype":"monster","keywords":"Fabled Fiend LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fiend / Effect","atk":1700,"def":1000},"rarity":"ScR","img":"24040093","code":"32","tcg":35715,"grp":225,"idx":31},
+    {"id":"033","section":"main","num":"033","printed":"HA02-EN033","name":"Fabled Gallabas","ctype":"monster","keywords":"Fabled Fiend LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fiend / Effect","atk":1500,"def":800},"rarity":"ScR","img":"60434101","code":"33","tcg":35716,"grp":225,"idx":32},
+    {"id":"034","section":"main","num":"034","printed":"HA02-EN034","name":"Fabled Kushano","ctype":"monster","keywords":"Fabled Fiend LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Fiend / Tuner","atk":1100,"def":800},"rarity":"SR","img":"97439806","code":"34","tcg":35717,"grp":225,"idx":33},
+    {"id":"035","section":"main","num":"035","printed":"HA02-EN035","name":"Jurrac Protops","ctype":"monster","keywords":"Jurrac Dinosaur FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Dinosaur / Effect","atk":1700,"def":1200},"rarity":"SR","img":"23927545","code":"35","tcg":35718,"grp":225,"idx":34},
+    {"id":"036","section":"main","num":"036","printed":"HA02-EN036","name":"Jurrac Velo","ctype":"monster","keywords":"Jurrac Dinosaur FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Dinosaur / Effect","atk":1700,"def":1000},"rarity":"SR","img":"59312550","code":"36","tcg":35719,"grp":225,"idx":35},
+    {"id":"037","section":"main","num":"037","printed":"HA02-EN037","name":"Jurrac Monoloph","ctype":"monster","keywords":"Jurrac Dinosaur FIRE Tuner Monster","stats":{"a":"FIRE","l":"Level 3","t":"Dinosaur / Tuner","atk":1500,"def":1200},"rarity":"SR","img":"36717258","code":"37","tcg":35720,"grp":225,"idx":36},
+    {"id":"038","section":"main","num":"038","printed":"HA02-EN038","name":"Jurrac Tyrannus","ctype":"monster","keywords":"Jurrac Dinosaur FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 7","t":"Dinosaur / Effect","atk":2500,"def":1400},"rarity":"ScR","img":"62701967","code":"38","tcg":35721,"grp":225,"idx":37},
+    {"id":"039","section":"main","num":"039","printed":"HA02-EN039","name":"Naturia Antjaw","ctype":"monster","keywords":"Naturia Insect EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 2","t":"Insect / Effect","atk":400,"def":200},"rarity":"SR","img":"99150062","code":"39","tcg":35722,"grp":225,"idx":38},
+    {"id":"040","section":"main","num":"040","printed":"HA02-EN040","name":"Naturia Spiderfang","ctype":"monster","keywords":"Naturia Insect EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Insect / Effect","atk":2100,"def":400},"rarity":"SR","img":"25654671","code":"40","tcg":35723,"grp":225,"idx":39},
+    {"id":"041","section":"main","num":"041","printed":"HA02-EN041","name":"Naturia Rosewhip","ctype":"monster","keywords":"Naturia Plant EARTH Tuner Monster","stats":{"a":"EARTH","l":"Level 3","t":"Plant / Tuner","atk":400,"def":1700},"rarity":"SR","img":"61049315","code":"41","tcg":35724,"grp":225,"idx":40},
+    {"id":"042","section":"main","num":"042","printed":"HA02-EN042","name":"Naturia Cosmobeet","ctype":"monster","keywords":"Naturia Plant EARTH Tuner Monster","stats":{"a":"EARTH","l":"Level 2","t":"Plant / Tuner","atk":1000,"def":700},"rarity":"SR","img":"98437424","code":"42","tcg":35725,"grp":225,"idx":41},
+    {"id":"043","section":"main","num":"043","printed":"HA02-EN043","name":"Genex Blastfan","ctype":"monster","keywords":"Genex Spellcaster WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Spellcaster / Effect","atk":1600,"def":1300},"rarity":"SR","img":"24432029","code":"43","tcg":35726,"grp":225,"idx":42},
+    {"id":"044","section":"main","num":"044","printed":"HA02-EN044","name":"Genex Recycled","ctype":"monster","keywords":"Genex Machine DARK Tuner Monster","stats":{"a":"DARK","l":"Level 1","t":"Machine / Tuner","atk":200,"def":400},"rarity":"SR","img":"51827737","code":"44","tcg":35727,"grp":225,"idx":43},
+    {"id":"045","section":"main","num":"045","printed":"HA02-EN045","name":"Genex Army","ctype":"monster","keywords":"Genex Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 6","t":"Machine / Effect","atk":2300,"def":1300},"rarity":"ScR","img":"93211836","code":"45","tcg":35728,"grp":225,"idx":44},
+    {"id":"046","section":"main","num":"046","printed":"HA02-EN046","name":"Pilgrim of the Ice Barrier","ctype":"monster","keywords":"Ice Barrier Warrior WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Warrior / Effect","atk":1500,"def":1000},"rarity":"SR","img":"20700531","code":"46","tcg":35729,"grp":225,"idx":45},
+    {"id":"047","section":"main","num":"047","printed":"HA02-EN047","name":"Geomancer of the Ice Barrier","ctype":"monster","keywords":"Ice Barrier Spellcaster WATER Tuner Monster","stats":{"a":"WATER","l":"Level 3","t":"Spellcaster / Tuner","atk":800,"def":1200},"rarity":"SR","img":"56704140","code":"47","tcg":35730,"grp":225,"idx":46},
+    {"id":"048","section":"main","num":"048","printed":"HA02-EN048","name":"Mist Valley Falcon","ctype":"monster","keywords":"Mist Valley Winged Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Winged Beast / Effect","atk":2000,"def":1200},"rarity":"SR","img":"82199284","code":"48","tcg":35731,"grp":225,"idx":47},
+    {"id":"049","section":"main","num":"049","printed":"HA02-EN049","name":"Mist Valley Apex Avian","ctype":"monster","keywords":"Mist Valley Winged Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 7","t":"Winged Beast / Effect","atk":2700,"def":2000},"rarity":"ScR","img":"29587993","code":"49","tcg":35732,"grp":225,"idx":48},
+    {"id":"050","section":"main","num":"050","printed":"HA02-EN050","name":"Ally of Justice Reverse Break","ctype":"monster","keywords":"Ally of Justice Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Machine / Effect","atk":1200,"def":1200},"rarity":"SR","img":"55982698","code":"50","tcg":35733,"grp":225,"idx":49},
+    {"id":"051","section":"main","num":"051","printed":"HA02-EN051","name":"Ally of Justice Unlimiter","ctype":"monster","keywords":"Ally of Justice Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 2","t":"Machine / Effect","atk":600,"def":200},"rarity":"SR","img":"82377606","code":"51","tcg":35734,"grp":225,"idx":50},
+    {"id":"052","section":"main","num":"052","printed":"HA02-EN052","name":"Worm Opera","ctype":"monster","keywords":"Worm Reptile LIGHT Flip Effect Monster","stats":{"a":"LIGHT","l":"Level 2","t":"Reptile / Flip / Effect","atk":400,"def":800},"rarity":"SR","img":"28465301","code":"52","tcg":35735,"grp":225,"idx":51},
+    {"id":"053","section":"main","num":"053","printed":"HA02-EN053","name":"Worm Prince","ctype":"monster","keywords":"Worm Reptile LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Reptile / Effect","atk":2200,"def":400},"rarity":"SR","img":"54860010","code":"53","tcg":35736,"grp":225,"idx":52},
+    {"id":"054","section":"main","num":"054","printed":"HA02-EN054","name":"Worm Queen","ctype":"monster","keywords":"Worm Reptile LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Reptile / Effect","atk":2700,"def":1100},"rarity":"ScR","img":"81254059","code":"54","tcg":35737,"grp":225,"idx":53},
+    {"id":"055","section":"main","num":"055","printed":"HA02-EN055","name":"Worm Rakuyeh","ctype":"monster","keywords":"Worm Reptile LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Reptile / Effect","atk":2100,"def":1200},"rarity":"SR","img":"17649753","code":"55","tcg":35738,"grp":225,"idx":54},
+    {"id":"056","section":"main","num":"056","printed":"HA02-EN056","name":"Fabled Valkyrus","ctype":"monster","keywords":"Fabled Fiend LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Fiend / Synchro","atk":2900,"def":1700},"rarity":"ScR","img":"54048462","code":"56","tcg":35739,"grp":225,"idx":55},
+    {"id":"057","section":"main","num":"057","printed":"HA02-EN057","name":"Jurrac Giganoto","ctype":"monster","keywords":"Jurrac Dinosaur FIRE Synchro Monster","stats":{"a":"FIRE","l":"Level 7","t":"Dinosaur / Synchro","atk":2100,"def":1800},"rarity":"ScR","img":"80032567","code":"57","tcg":35740,"grp":225,"idx":56},
+    {"id":"058","section":"main","num":"058","printed":"HA02-EN058","name":"Naturia Leodrake","ctype":"monster","keywords":"Naturia Beast EARTH Synchro Monster","stats":{"a":"EARTH","l":"Level 9","t":"Beast / Synchro","atk":3000,"def":1800},"rarity":"ScR","img":"16527176","code":"58","tcg":35741,"grp":225,"idx":57},
+    {"id":"059","section":"main","num":"059","printed":"HA02-EN059","name":"Windmill Genex","ctype":"monster","keywords":"Genex Machine WIND Synchro Monster","stats":{"a":"WIND","l":"Level 7","t":"Machine / Synchro","atk":2000,"def":1600},"rarity":"ScR","img":"43925870","code":"59","tcg":35742,"grp":225,"idx":58},
+    {"id":"060","section":"main","num":"060","printed":"HA02-EN060","name":"Mist Valley Thunder Lord","ctype":"monster","keywords":"Mist Valley Thunder WIND Synchro Monster","stats":{"a":"WIND","l":"Level 7","t":"Thunder / Synchro","atk":2600,"def":2400},"rarity":"ScR","img":"89310929","code":"60","tcg":35743,"grp":225,"idx":59}
+  ]
+}

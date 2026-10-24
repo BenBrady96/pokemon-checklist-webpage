@@ -1,0 +1,86 @@
+{
+  "id": "yugioh/yu-gi-oh-championship-series-2025-prize-cards",
+  "game": "yugioh",
+  "slug": "yu-gi-oh-championship-series-2025-prize-cards",
+  "name": "Yu-Gi-Oh! Championship Series 2025 prize cards",
+  "series": "Promos",
+  "kind": "promo",
+  "code": "25YC",
+  "syncKey": "Y25YC",
+  "released": "2025-07-27",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "25YC-EN001–25YC-ENP10",
+      "tier": "standard"
+    },
+    {
+      "id": "rarities",
+      "name": "Other Rarities",
+      "short": "Other Rarities",
+      "range": "1 card",
+      "tier": "master"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Main set"
+    ],
+    [
+      "rarities",
+      "Other rarities"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, SCR12, 60x2",
+    "example": "1-20, 45x2, SCR12",
+    "hint": "Separate with commas or spaces. Numbers count down the list in order: <b>1-5</b> is the first five cards and <b>3x2</b> is two copies of the third.",
+    "empty": "Cards run from 25YC-EN001 to 25YC-ENP10."
+  },
+  "help": {
+    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 13 cards, each in its main rarity. Master adds the 1 other rarity. Cards you’ve marked are kept when you switch."
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Yu-Gi-Oh! Championship Series 2025 prize cards Checklist · All 13 Cards",
+    "description": "Free Yu-Gi-Oh! Yu-Gi-Oh! Championship Series 2025 prize cards checklist with no ads, no sign-up and no tracking. Track all 13 cards, or every rarity for a master set, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Yu-Gi-Oh! Championship Series 2025 prize cards Checklist",
+    "ogDescription": "Track all 13 cards in Yu-Gi-Oh! Yu-Gi-Oh! Championship Series 2025 prize cards, plus 1 other rarity. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 13 cards in Yu-Gi-Oh! Yu-Gi-Oh! Championship Series 2025 prize cards. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Yu-Gi-Oh! Championship Series 2025 prize cards",
+    "paragraphs": [
+      "Yu-Gi-Oh! Championship Series 2025 prize cards is a Yu-Gi-Oh! TCG promo list released on 27 July 2025. It has 13 cards, and with the 1 other rarity there are 14 to collect in all.",
+      "Choose what you’re collecting: the <b>Standard set</b> (the 13 cards, each in its main rarity) or the <b>Master set</b> (all 14, adding the 1 other rarity).",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Yu-Gi-Oh! Championship Series 2025 prize cards"
+    ],
+    "tcgplayer": [
+      24351
+    ]
+  },
+  "cards": [
+    {"id":"25YC-001","section":"main","num":"25YC-EN001","printed":"25YC-EN001","name":"Anotherverse Stratios","ctype":"monster","keywords":"Anotherverse Warrior EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 8","t":"Warrior / Normal","atk":2500,"def":2000},"note":"Yu-Gi-Oh! Championship Series 2025 prize cards","rarity":"SR","img":"10949074","code":"1","idx":0},
+    {"id":"25YC-001-ur","section":"rarities","num":"25YC-EN001","printed":"25YC-EN001","name":"Anotherverse Stratios","ctype":"monster","keywords":"Anotherverse Warrior EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 8","t":"Warrior / Normal","atk":2500,"def":2000},"note":"Yu-Gi-Oh! Championship Series 2025 prize cards","rarity":"UR","img":"10949074","badge":"UR","variant":"Ultra Rare","code":"UR1","idx":1},
+    {"id":"25YC-002","section":"main","num":"25YC-EN002","printed":"25YC-EN002","name":"Effect Veiler","ctype":"monster","keywords":"Spellcaster LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Spellcaster / Tuner","atk":0,"def":0},"note":"Yu-Gi-Oh! Championship Series 2025 prize cards","rarity":"UR","img":"97268402","code":"2","tcg":637080,"grp":24351,"idx":2},
+    {"id":"25YC-003","section":"main","num":"25YC-EN003","printed":"25YC-EN003","name":"Card Trooper","ctype":"monster","keywords":"Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Machine / Effect","atk":400,"def":400},"note":"Yu-Gi-Oh! Championship Series 2025 prize cards","rarity":"SR","img":"85087012","code":"3","tcg":637081,"grp":24351,"idx":3},
+    {"id":"25YC-P01","section":"main","num":"25YC-ENP01","printed":"25YC-ENP01","name":"Blue-Eyes White Dragon","ctype":"monster","keywords":"Blue-Eyes Dragon LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Normal","atk":3000,"def":2500},"note":"Yu-Gi-Oh! Championship Series 2025 prize cards","rarity":"R","img":"89631145","code":"4","tcg":637082,"grp":24351,"idx":4},
+    {"id":"25YC-P02","section":"main","num":"25YC-ENP02","printed":"25YC-ENP02","name":"Cyber Dragon","ctype":"monster","keywords":"Cyber Dragon Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 5","t":"Machine / Effect","atk":2100,"def":1600},"note":"Yu-Gi-Oh! Championship Series 2025 prize cards","rarity":"R","img":"70095154","code":"5","tcg":637083,"grp":24351,"idx":5},
+    {"id":"25YC-P03","section":"main","num":"25YC-ENP03","printed":"25YC-ENP03","name":"Blackwing - Gale the Whirlwind","ctype":"monster","keywords":"Blackwing Winged Beast DARK Tuner Monster","stats":{"a":"DARK","l":"Level 3","t":"Winged Beast / Tuner","atk":1300,"def":400},"note":"Yu-Gi-Oh! Championship Series 2025 prize cards","rarity":"R","img":"2009101","code":"6","tcg":637084,"grp":24351,"idx":6},
+    {"id":"25YC-P04","section":"main","num":"25YC-ENP04","printed":"25YC-ENP04","name":"Gagaga Magician","ctype":"monster","keywords":"Gagaga Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Effect","atk":1500,"def":1000},"note":"Yu-Gi-Oh! Championship Series 2025 prize cards","rarity":"R","img":"26082117","code":"7","tcg":637085,"grp":24351,"idx":7},
+    {"id":"25YC-P05","section":"main","num":"25YC-ENP05","printed":"25YC-ENP05","name":"Dante, Traveler of the Burning Abyss","ctype":"monster","keywords":"Burning Abyss Warrior LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 3","t":"Warrior / Xyz","atk":1000,"def":2500},"note":"Yu-Gi-Oh! Championship Series 2025 prize cards","rarity":"R","img":"83531441","code":"8","tcg":637086,"grp":24351,"idx":8},
+    {"id":"25YC-P06","section":"main","num":"25YC-ENP06","printed":"25YC-ENP06","name":"D/D/D Wave High King Caesar","ctype":"monster","keywords":"D/D Fiend WATER Xyz Monster","stats":{"a":"WATER","l":"Rank 6","t":"Fiend / Xyz","atk":2800,"def":1800},"note":"Yu-Gi-Oh! Championship Series 2025 prize cards","rarity":"R","img":"79559912","code":"9","tcg":637087,"grp":24351,"idx":9},
+    {"id":"25YC-P07","section":"main","num":"25YC-ENP07","printed":"25YC-ENP07","name":"The Arrival Cyberse @Ignister","ctype":"monster","keywords":"@Ignister Cyberse DARK Link Monster","stats":{"a":"DARK","l":"Link 6","t":"Cyberse / Link","atk":0},"note":"Yu-Gi-Oh! Championship Series 2025 prize cards","rarity":"R","img":"11738489","code":"10","tcg":637088,"grp":24351,"idx":10},
+    {"id":"25YC-P08","section":"main","num":"25YC-ENP08","printed":"25YC-ENP08","name":"Charge of the Light Brigade","ctype":"spell","keywords":"Lightsworn Normal Spell","stats":{"t":"Normal Spell"},"note":"Yu-Gi-Oh! Championship Series 2025 prize cards","rarity":"R","img":"94886282","code":"11","tcg":637089,"grp":24351,"idx":11},
+    {"id":"25YC-P09","section":"main","num":"25YC-ENP09","printed":"25YC-ENP09","name":"Shaddoll Fusion","ctype":"spell","keywords":"Shaddoll Normal Spell","stats":{"t":"Normal Spell"},"note":"Yu-Gi-Oh! Championship Series 2025 prize cards","rarity":"R","img":"44394295","code":"12","tcg":637090,"grp":24351,"idx":12},
+    {"id":"25YC-P10","section":"main","num":"25YC-ENP10","printed":"25YC-ENP10","name":"Pot of Desires","ctype":"spell","keywords":"Greed Normal Spell","stats":{"t":"Normal Spell"},"note":"Yu-Gi-Oh! Championship Series 2025 prize cards","rarity":"R","img":"35261759","code":"13","tcg":637091,"grp":24351,"idx":13}
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "id": "yugioh/the-new-challengers-super-edition",
+  "game": "yugioh",
+  "slug": "the-new-challengers-super-edition",
+  "name": "The New Challengers: Super Edition",
+  "series": "Promos",
+  "kind": "promo",
+  "code": "NECH",
+  "syncKey": "YNECH2",
+  "released": "2014-12-04",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "NECH-ENS01–NECH-ENS14",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. Numbers count down the list in order: <b>1-5</b> is the first five cards and <b>3x2</b> is two copies of the third.",
+    "empty": "Cards run from NECH-ENS01 to NECH-ENS14."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! The New Challengers: Super Edition Checklist · All 14 Cards",
+    "description": "Free Yu-Gi-Oh! The New Challengers: Super Edition checklist with no ads, no sign-up and no tracking. Track all 14 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! The New Challengers: Super Edition Checklist",
+    "ogDescription": "Track all 14 cards in Yu-Gi-Oh! The New Challengers: Super Edition. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 14 cards in Yu-Gi-Oh! The New Challengers: Super Edition. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About The New Challengers: Super Edition",
+    "paragraphs": [
+      "The New Challengers: Super Edition is a Yu-Gi-Oh! TCG promo list released on 4 December 2014. It has 14 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "The New Challengers: Super Edition"
+    ],
+    "tcgplayer": [
+      1493
+    ]
+  },
+  "cards": [
+    {"id":"NECH-S01","section":"main","num":"NECH-ENS01","printed":"NECH-ENS01","name":"Lancephorhynchus","ctype":"monster","keywords":"Dinosaur WIND Pendulum Normal Monster","stats":{"a":"WIND","l":"Level 6","t":"Dinosaur / Pendulum / Normal","atk":2500,"def":800},"note":"The New Challengers: Super Edition","rarity":"SR","img":"48940337","code":"1","tcg":95943,"grp":1493,"idx":0},
+    {"id":"NECH-S02","section":"main","num":"NECH-ENS02","printed":"NECH-ENS02","name":"Edge Imp Sabres","ctype":"monster","keywords":"Edge Imp Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Fiend / Effect","atk":1200,"def":800},"note":"The New Challengers: Super Edition","rarity":"SR","img":"30068120","code":"2","tcg":96210,"grp":1493,"idx":1},
+    {"id":"NECH-S03","section":"main","num":"NECH-ENS03","printed":"NECH-ENS03","name":"Qliphort Carrier","ctype":"monster","keywords":"Qli Machine EARTH Pendulum Effect Monster","stats":{"a":"EARTH","l":"Level 6","t":"Machine / Pendulum / Effect","atk":2400,"def":1000},"note":"The New Challengers: Super Edition","rarity":"SR","img":"91907707","code":"3","tcg":96211,"grp":1493,"idx":2},
+    {"id":"NECH-S04","section":"main","num":"NECH-ENS04","printed":"NECH-ENS04","name":"Qliphort Helix","ctype":"monster","keywords":"Qli Machine EARTH Pendulum Effect Monster","stats":{"a":"EARTH","l":"Level 6","t":"Machine / Pendulum / Effect","atk":2400,"def":1000},"note":"The New Challengers: Super Edition","rarity":"SR","img":"37991342","code":"4","tcg":96220,"grp":1493,"idx":3},
+    {"id":"NECH-S05","section":"main","num":"NECH-ENS05","printed":"NECH-ENS05","name":"Taotie, Shadow of the Yang Zing","ctype":"monster","keywords":"Yang Zing Wyrm DARK Effect Monster","stats":{"a":"DARK","l":"Level 5","t":"Wyrm / Effect","atk":2200,"def":0},"note":"The New Challengers: Super Edition","rarity":"SR","img":"99946920","code":"5","tcg":96222,"grp":1493,"idx":4},
+    {"id":"NECH-S06","section":"main","num":"NECH-ENS06","printed":"NECH-ENS06","name":"Machina Megaform","ctype":"monster","keywords":"Machina Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 8","t":"Machine / Effect","atk":2600,"def":1500},"note":"The New Challengers: Super Edition","rarity":"SR","img":"51617185","code":"6","tcg":96218,"grp":1493,"idx":5},
+    {"id":"NECH-S07","section":"main","num":"NECH-ENS07","printed":"NECH-ENS07","name":"Rescue Hamster","ctype":"monster","keywords":"Rescue Squad Beast EARTH Pendulum Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Beast / Pendulum / Effect","atk":300,"def":100},"note":"The New Challengers: Super Edition","rarity":"SR","img":"50485594","code":"7","tcg":96221,"grp":1493,"idx":6},
+    {"id":"NECH-S08","section":"main","num":"NECH-ENS08","printed":"NECH-ENS08","name":"First of the Dragons","ctype":"monster","keywords":"Dragon DARK Fusion Monster","stats":{"a":"DARK","l":"Level 9","t":"Dragon / Fusion","atk":2700,"def":2000},"note":"The New Challengers: Super Edition","rarity":"SR","img":"10817524","code":"8","tcg":96216,"grp":1493,"idx":7},
+    {"id":"NECH-S09","section":"main","num":"NECH-ENS09","printed":"NECH-ENS09","name":"Herald of the Arc Light","ctype":"monster","keywords":"Herald Fairy LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fairy / Synchro","atk":600,"def":1000},"note":"The New Challengers: Super Edition","rarity":"SR","img":"79606837","code":"9","tcg":96217,"grp":1493,"idx":8},
+    {"id":"NECH-S10","section":"main","num":"NECH-ENS10","printed":"NECH-ENS10","name":"1st Movement Solo","ctype":"spell","keywords":"Melodious Normal Spell","stats":{"t":"Normal Spell"},"note":"The New Challengers: Super Edition","rarity":"SR","img":"44256816","code":"10","tcg":96212,"grp":1493,"idx":9},
+    {"id":"NECH-S11","section":"main","num":"NECH-ENS11","printed":"NECH-ENS11","name":"El Shaddoll Fusion","ctype":"spell","keywords":"Shaddoll Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"note":"The New Challengers: Super Edition","rarity":"SR","img":"6417578","code":"11","tcg":96214,"grp":1493,"idx":10},
+    {"id":"NECH-S12","section":"main","num":"NECH-ENS12","printed":"NECH-ENS12","name":"Fire Lake of the Burning Abyss","ctype":"trap","keywords":"Burning Abyss Normal Trap","stats":{"t":"Normal Trap"},"note":"The New Challengers: Super Edition","rarity":"SR","img":"36006208","code":"12","tcg":96215,"grp":1493,"idx":11},
+    {"id":"NECH-S13","section":"main","num":"NECH-ENS13","printed":"NECH-ENS13","name":"Number 39: Utopia Beyond","ctype":"monster","keywords":"Utopia Warrior LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 6","t":"Warrior / Xyz","atk":3000,"def":2500},"note":"The New Challengers: Super Edition","rarity":"SR","img":"21521304","code":"13","tcg":96219,"grp":1493,"idx":12},
+    {"id":"NECH-S14","section":"main","num":"NECH-ENS14","printed":"NECH-ENS14","name":"CXyz Barian Hope","ctype":"monster","keywords":"CXyz Warrior LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 7","t":"Warrior / Xyz","atk":0,"def":0},"note":"The New Challengers: Super Edition","rarity":"SR","img":"67926903","code":"14","tcg":96213,"grp":1493,"idx":13}
+  ]
+}

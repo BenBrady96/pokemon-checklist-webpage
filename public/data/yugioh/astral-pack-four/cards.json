@@ -1,0 +1,86 @@
+{
+  "id": "yugioh/astral-pack-four",
+  "game": "yugioh",
+  "slug": "astral-pack-four",
+  "name": "Astral Pack Four",
+  "series": "ZEXAL",
+  "kind": "pack",
+  "code": "AP04",
+  "syncKey": "YAP04",
+  "released": "2014-02-07",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "AP04-EN001–AP04-EN026",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from AP04-EN001 to AP04-EN026."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Astral Pack Four Checklist · All 26 Cards",
+    "description": "Free Yu-Gi-Oh! Astral Pack Four checklist with no ads, no sign-up and no tracking. Track all 26 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Astral Pack Four Checklist",
+    "ogDescription": "Track all 26 cards in Yu-Gi-Oh! Astral Pack Four. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 26 cards in Yu-Gi-Oh! Astral Pack Four. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Astral Pack Four",
+    "paragraphs": [
+      "Astral Pack Four is a Yu-Gi-Oh! TCG pack released on 7 February 2014, in the ZEXAL era. It has 26 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Astral Pack Four"
+    ],
+    "tcgplayer": [
+      1309
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"AP04-EN001","name":"Dandylion","ctype":"monster","keywords":"Plant EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Plant / Effect","atk":300,"def":300},"rarity":"UtR","img":"15341821","code":"1","tcg":79456,"grp":1309,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"AP04-EN002","name":"Maxx \"C\"","ctype":"monster","keywords":"\"C\" Insect EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 2","t":"Insect / Effect","atk":500,"def":200},"rarity":"UtR","img":"23434538","code":"2","tcg":79457,"grp":1309,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"AP04-EN003","name":"Necrovalley","ctype":"spell","keywords":"Gravekeeper's Field Spell","stats":{"t":"Field Spell"},"rarity":"UtR","img":"47355498","code":"3","tcg":79458,"grp":1309,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"AP04-EN004","name":"Blackwing - Gale the Whirlwind","ctype":"monster","keywords":"Blackwing Winged Beast DARK Tuner Monster","stats":{"a":"DARK","l":"Level 3","t":"Winged Beast / Tuner","atk":1300,"def":400},"rarity":"SR","img":"2009101","code":"4","tcg":79459,"grp":1309,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"AP04-EN005","name":"Blackwing - Kalut the Moon Shadow","ctype":"monster","keywords":"Blackwing Winged Beast DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Winged Beast / Effect","atk":1400,"def":1000},"rarity":"SR","img":"85215458","code":"5","tcg":79460,"grp":1309,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"AP04-EN006","name":"Consecrated Light","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Fairy / Effect","atk":0,"def":0},"rarity":"SR","img":"2980764","code":"6","tcg":79461,"grp":1309,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"AP04-EN007","name":"Swift Scarecrow","ctype":"monster","keywords":"Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 1","t":"Machine / Effect","atk":0,"def":0},"rarity":"SR","img":"18964575","code":"7","tcg":79462,"grp":1309,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"AP04-EN008","name":"Crimson Blader","ctype":"monster","keywords":"Warrior FIRE Synchro Monster","stats":{"a":"FIRE","l":"Level 8","t":"Warrior / Synchro","atk":2800,"def":2600},"rarity":"SR","img":"80321197","code":"8","tcg":79463,"grp":1309,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"AP04-EN009","name":"Break! Draw!","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"SR","img":"63851864","code":"9","tcg":79464,"grp":1309,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"AP04-EN010","name":"Spellbook of Wisdom","ctype":"spell","keywords":"Spellbook Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"SR","img":"88616795","code":"10","tcg":79466,"grp":1309,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"AP04-EN011","name":"Spellbook of Eternity","ctype":"spell","keywords":"Spellbook Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"61592395","code":"11","tcg":79465,"grp":1309,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"AP04-EN012","name":"Fire Formation - Tensu","ctype":"spell","keywords":"Fire Formation Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"SR","img":"10719350","code":"12","tcg":79467,"grp":1309,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"AP04-EN013","name":"Soul Drain","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"SR","img":"73599290","code":"13","tcg":79468,"grp":1309,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"AP04-EN014","name":"Wings of Wicked Flame","ctype":"monster","keywords":"Pyro FIRE Normal Monster","stats":{"a":"FIRE","l":"Level 2","t":"Pyro / Normal","atk":700,"def":600},"rarity":"SP","img":"92944626","code":"14","tcg":79469,"grp":1309,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"AP04-EN015","name":"Morphing Jar #2","ctype":"monster","keywords":"Rock EARTH Flip Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Rock / Flip / Effect","atk":800,"def":700},"rarity":"C","img":"79106360","code":"15","tcg":79470,"grp":1309,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"AP04-EN016","name":"Magical Merchant","ctype":"monster","keywords":"Insect LIGHT Flip Effect Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Insect / Flip / Effect","atk":200,"def":700},"rarity":"C","img":"32362575","code":"16","tcg":79471,"grp":1309,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"AP04-EN017","name":"Lonefire Blossom","ctype":"monster","keywords":"Plant FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 3","t":"Plant / Effect","atk":500,"def":1400},"rarity":"C","img":"48686504","code":"17","tcg":79472,"grp":1309,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"AP04-EN018","name":"Fossil Dyna Pachycephalo","ctype":"monster","keywords":"Rock EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Rock / Effect","atk":1200,"def":1300},"rarity":"C","img":"42009836","code":"18","tcg":79473,"grp":1309,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"AP04-EN019","name":"Tytannial, Princess of Camellias","ctype":"monster","keywords":"Plant WIND Effect Monster","stats":{"a":"WIND","l":"Level 8","t":"Plant / Effect","atk":2800,"def":2600},"rarity":"C","img":"11819616","code":"19","tcg":79474,"grp":1309,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"AP04-EN020","name":"Scrap Beast","ctype":"monster","keywords":"Scrap Beast EARTH Tuner Monster","stats":{"a":"EARTH","l":"Level 4","t":"Beast / Tuner","atk":1600,"def":1300},"rarity":"C","img":"19139516","code":"20","tcg":79475,"grp":1309,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"AP04-EN021","name":"Ma'at","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 10","t":"Fairy / Effect","atk":-1,"def":-1},"rarity":"C","img":"18631392","code":"21","tcg":79476,"grp":1309,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"AP04-EN022","name":"Mavelus","ctype":"monster","keywords":"Winged Beast WIND Fusion Monster","stats":{"a":"WIND","l":"Level 4","t":"Winged Beast / Fusion","atk":1300,"def":900},"rarity":"SP","img":"59036972","code":"22","tcg":79477,"grp":1309,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"AP04-EN023","name":"Reasoning","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"58577036","code":"23","tcg":79478,"grp":1309,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"AP04-EN024","name":"Archfiend's Oath","ctype":"spell","keywords":"Archfiend Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"22796548","code":"24","tcg":79479,"grp":1309,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"AP04-EN025","name":"Black Garden","ctype":"spell","keywords":"Rose Dragon Field Spell","stats":{"t":"Field Spell"},"rarity":"C","img":"71645242","code":"25","tcg":79480,"grp":1309,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"AP04-EN026","name":"Scrapstorm","ctype":"spell","keywords":"Scrap Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"48445393","code":"26","tcg":79481,"grp":1309,"idx":25}
+  ]
+}

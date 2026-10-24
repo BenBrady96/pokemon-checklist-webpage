@@ -1,0 +1,111 @@
+{
+  "id": "yugioh/speed-duel-trials-of-the-kingdom",
+  "game": "yugioh",
+  "slug": "speed-duel-trials-of-the-kingdom",
+  "name": "Speed Duel: Trials of the Kingdom",
+  "series": "VRAINS",
+  "kind": "pack",
+  "code": "SBTK",
+  "syncKey": "YSBTK",
+  "released": "2019-12-05",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "SBTK-EN001–SBTK-ENS05",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from SBTK-EN001 to SBTK-ENS05."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Speed Duel: Trials of the Kingdom Checklist · All 51 Cards",
+    "description": "Free Yu-Gi-Oh! Speed Duel: Trials of the Kingdom checklist with no ads, no sign-up and no tracking. Track all 51 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Speed Duel: Trials of the Kingdom Checklist",
+    "ogDescription": "Track all 51 cards in Yu-Gi-Oh! Speed Duel: Trials of the Kingdom. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 51 cards in Yu-Gi-Oh! Speed Duel: Trials of the Kingdom. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Speed Duel: Trials of the Kingdom",
+    "paragraphs": [
+      "Speed Duel: Trials of the Kingdom is a Yu-Gi-Oh! TCG pack released on 5 December 2019, in the VRAINS era. It has 51 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Speed Duel: Trials of the Kingdom"
+    ],
+    "tcgplayer": [
+      2514
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"SBTK-EN001","name":"Magician of Black Chaos","ctype":"monster","keywords":"Dark Magician Spellcaster DARK Ritual Monster","stats":{"a":"DARK","l":"Level 8","t":"Spellcaster / Ritual","atk":2800,"def":2600},"rarity":"UR","img":"30208479","code":"1","tcg":205496,"grp":2514,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"SBTK-EN002","name":"Black Magic Ritual","ctype":"spell","keywords":"Dark Magician Ritual Spell","stats":{"t":"Ritual Spell"},"rarity":"C","img":"76792184","code":"2","tcg":205497,"grp":2514,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"SBTK-EN003","name":"Kairyu-Shin","ctype":"monster","keywords":"Sea Serpent WATER Normal Monster","stats":{"a":"WATER","l":"Level 5","t":"Sea Serpent / Normal","atk":1800,"def":1500},"rarity":"C","img":"76634149","code":"3","tcg":205498,"grp":2514,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"SBTK-EN004","name":"Ancient Brain","ctype":"monster","keywords":"Fiend DARK Normal Monster","stats":{"a":"DARK","l":"Level 3","t":"Fiend / Normal","atk":1000,"def":700},"rarity":"C","img":"42431843","code":"4","tcg":205499,"grp":2514,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"SBTK-EN005","name":"Wetha","ctype":"monster","keywords":"Aqua WATER Normal Monster","stats":{"a":"WATER","l":"Level 3","t":"Aqua / Normal","atk":1000,"def":900},"rarity":"C","img":"96643568","code":"5","tcg":205500,"grp":2514,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"SBTK-EN006","name":"Change Slime","ctype":"monster","keywords":"Slime Aqua WATER Normal Monster","stats":{"a":"WATER","l":"Level 1","t":"Aqua / Normal","atk":400,"def":300},"rarity":"C","img":"18914778","code":"6","tcg":205501,"grp":2514,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"SBTK-EN007","name":"Giant Mech-Soldier","ctype":"monster","keywords":"Machine EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 6","t":"Machine / Normal","atk":1750,"def":1900},"rarity":"C","img":"72299832","code":"7","tcg":205502,"grp":2514,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"SBTK-EN008","name":"Crazy Fish","ctype":"monster","keywords":"Fish WATER Normal Monster","stats":{"a":"WATER","l":"Level 4","t":"Fish / Normal","atk":1600,"def":1200},"rarity":"C","img":"53713014","code":"8","tcg":205503,"grp":2514,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"SBTK-EN009","name":"Girochin Kuwagata","ctype":"monster","keywords":"Insect WIND Normal Monster","stats":{"a":"WIND","l":"Level 4","t":"Insect / Normal","atk":1700,"def":1000},"rarity":"C","img":"84620194","code":"9","tcg":205504,"grp":2514,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"SBTK-EN010","name":"Metal Armored Bug","ctype":"monster","keywords":"Insect EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 8","t":"Insect / Normal","atk":2800,"def":1500},"rarity":"C","img":"65957473","code":"10","tcg":205505,"grp":2514,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"SBTK-EN011","name":"Tainted Wisdom","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Fiend / Effect","atk":1250,"def":800},"rarity":"C","img":"28725004","code":"11","tcg":205512,"grp":2514,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"SBTK-EN012","name":"Cyber Raider","ctype":"monster","keywords":"Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Machine / Effect","atk":1400,"def":1000},"rarity":"C","img":"39978267","code":"12","tcg":205514,"grp":2514,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"SBTK-EN013","name":"Patrician of Darkness","ctype":"monster","keywords":"Zombie DARK Effect Monster","stats":{"a":"DARK","l":"Level 5","t":"Zombie / Effect","atk":2000,"def":1400},"rarity":"C","img":"19153634","code":"13","tcg":205517,"grp":2514,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"SBTK-EN014","name":"Maryokutai","ctype":"monster","keywords":"Aqua WATER Effect Monster","stats":{"a":"WATER","l":"Level 3","t":"Aqua / Effect","atk":900,"def":900},"rarity":"C","img":"71466592","code":"14","tcg":205521,"grp":2514,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"SBTK-EN015","name":"Sasuke Samurai","ctype":"monster","keywords":"Warrior WIND Effect Monster","stats":{"a":"WIND","l":"Level 2","t":"Warrior / Effect","atk":500,"def":800},"rarity":"C","img":"16222645","code":"15","tcg":205523,"grp":2514,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"SBTK-EN016","name":"Don Zaloog","ctype":"monster","keywords":"Dark Scorpion Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Warrior / Effect","atk":1400,"def":1500},"rarity":"UR","img":"76922029","code":"16","tcg":205524,"grp":2514,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"SBTK-EN017","name":"Helping Robo for Combat","ctype":"monster","keywords":"Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Machine / Effect","atk":1600,"def":0},"rarity":"C","img":"47025270","code":"17","tcg":205525,"grp":2514,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"SBTK-EN018","name":"Despair from the Dark","ctype":"monster","keywords":"Zombie DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Zombie / Effect","atk":2800,"def":3000},"rarity":"C","img":"71200730","code":"18","tcg":205526,"grp":2514,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"SBTK-EN019","name":"Blood Sucker","ctype":"monster","keywords":"Zombie DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Zombie / Effect","atk":1300,"def":1500},"rarity":"C","img":"97783659","code":"19","tcg":205527,"grp":2514,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"SBTK-EN020","name":"Black Ptera","ctype":"monster","keywords":"Dinosaur WIND Effect Monster","stats":{"a":"WIND","l":"Level 3","t":"Dinosaur / Effect","atk":1000,"def":500},"rarity":"C","img":"90654356","code":"20","tcg":205528,"grp":2514,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"SBTK-EN021","name":"Flint Lock","ctype":"monster","keywords":"Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Machine / Effect","atk":1500,"def":800},"rarity":"C","img":"83812099","code":"21","tcg":205529,"grp":2514,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"SBTK-EN022","name":"Golden Ladybug","ctype":"monster","keywords":"Insect LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Insect / Effect","atk":0,"def":0},"rarity":"SR","img":"87102774","code":"22","tcg":205530,"grp":2514,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"SBTK-EN023","name":"Jurrac Spinos","ctype":"monster","keywords":"Jurrac Dinosaur FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 7","t":"Dinosaur / Effect","atk":2600,"def":1700},"rarity":"C","img":"44689688","code":"23","tcg":205531,"grp":2514,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"SBTK-EN024","name":"Jurrac Stauriko","ctype":"monster","keywords":"Jurrac Dinosaur FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 2","t":"Dinosaur / Effect","atk":500,"def":400},"rarity":"SR","img":"48411996","code":"24","tcg":205532,"grp":2514,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"SBTK-EN025","name":"Jurrac Herra","ctype":"monster","keywords":"Jurrac Dinosaur FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 6","t":"Dinosaur / Effect","atk":2300,"def":1500},"rarity":"SR","img":"16111820","code":"25","tcg":205533,"grp":2514,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"SBTK-EN026","name":"Shore Knight","ctype":"monster","keywords":"Warrior WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Warrior / Effect","atk":1400,"def":1200},"rarity":"C","img":"14771222","code":"26","tcg":205554,"grp":2514,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"SBTK-EN027","name":"The Legendary Fisherman II","ctype":"monster","keywords":"Umi Warrior WATER Effect Monster","stats":{"a":"WATER","l":"Level 5","t":"Warrior / Effect","atk":2200,"def":1800},"rarity":"UR","img":"19801646","code":"27","tcg":205555,"grp":2514,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"SBTK-EN028","name":"Parasite Paranoid","ctype":"monster","keywords":"Parasite Insect EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 2","t":"Insect / Effect","atk":500,"def":300},"rarity":"UR","img":"14457896","code":"28","tcg":205556,"grp":2514,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"SBTK-EN029","name":"Skull Knight","ctype":"monster","keywords":"Spellcaster DARK Fusion Monster","stats":{"a":"DARK","l":"Level 7","t":"Spellcaster / Fusion","atk":2650,"def":2250},"rarity":"C","img":"2504891","code":"29","tcg":205557,"grp":2514,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"SBTK-EN030","name":"Super War-Lion","ctype":"monster","keywords":"Beast EARTH Ritual Monster","stats":{"a":"EARTH","l":"Level 7","t":"Beast / Ritual","atk":2300,"def":2100},"rarity":"C","img":"33951077","code":"30","tcg":205558,"grp":2514,"idx":29},
+    {"id":"031","section":"main","num":"031","printed":"SBTK-EN031","name":"War-Lion Ritual","ctype":"spell","keywords":"Ritual Spell","stats":{"t":"Ritual Spell"},"rarity":"C","img":"54539105","code":"31","tcg":205559,"grp":2514,"idx":30},
+    {"id":"032","section":"main","num":"032","printed":"SBTK-EN032","name":"Share the Pain","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"56830749","code":"32","tcg":205560,"grp":2514,"idx":31},
+    {"id":"033","section":"main","num":"033","printed":"SBTK-EN033","name":"Flint","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"75560629","code":"33","tcg":205561,"grp":2514,"idx":32},
+    {"id":"034","section":"main","num":"034","printed":"SBTK-EN034","name":"Tail Swipe","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"83682725","code":"34","tcg":205562,"grp":2514,"idx":33},
+    {"id":"035","section":"main","num":"035","printed":"SBTK-EN035","name":"Double Cyclone","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"75652080","code":"35","tcg":205563,"grp":2514,"idx":34},
+    {"id":"036","section":"main","num":"036","printed":"SBTK-EN036","name":"Surface","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"33057951","code":"36","tcg":205575,"grp":2514,"idx":35},
+    {"id":"037","section":"main","num":"037","printed":"SBTK-EN037","name":"Bashing Shield","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"SR","img":"88610708","code":"37","tcg":205576,"grp":2514,"idx":36},
+    {"id":"038","section":"main","num":"038","printed":"SBTK-EN038","name":"Iron Draw","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"34559295","code":"38","tcg":205577,"grp":2514,"idx":37},
+    {"id":"039","section":"main","num":"039","printed":"SBTK-EN039","name":"Time Machine","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"UR","img":"80987696","code":"39","tcg":205593,"grp":2514,"idx":38},
+    {"id":"040","section":"main","num":"040","printed":"SBTK-EN040","name":"Tutan Mask","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"C","img":"3149764","code":"40","tcg":205595,"grp":2514,"idx":39},
+    {"id":"041","section":"main","num":"041","printed":"SBTK-EN041","name":"Energy Drain","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"56916805","code":"41","tcg":205596,"grp":2514,"idx":40},
+    {"id":"042","section":"main","num":"042","printed":"SBTK-EN042","name":"Assault on GHQ","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"62633180","code":"42","tcg":205597,"grp":2514,"idx":41},
+    {"id":"043","section":"main","num":"043","printed":"SBTK-EN043","name":"Haunted Shrine","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"UR","img":"39033131","code":"43","tcg":205598,"grp":2514,"idx":42},
+    {"id":"044","section":"main","num":"044","printed":"SBTK-EN044","name":"Sealing Ceremony of Suiton","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"81443745","code":"44","tcg":205600,"grp":2514,"idx":43},
+    {"id":"045","section":"main","num":"045","printed":"SBTK-EN045","name":"Waking the Dragon","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"10813327","code":"45","tcg":205601,"grp":2514,"idx":44},
+    {"id":"046","section":"main","num":"046","printed":"SBTK-EN046","name":"Floodgate Trap Hole","ctype":"trap","keywords":"Hole Normal Trap","stats":{"t":"Normal Trap"},"rarity":"UR","img":"69599136","code":"46","tcg":205603,"grp":2514,"idx":45},
+    {"id":"S01","section":"main","num":"S01","printed":"SBTK-ENS01","name":"Zombie Master (Skill Card)","ctype":"skill","keywords":"Bonz Skill","stats":{"t":"Skill · Bonz"},"rarity":"SR","img":"300104001","code":"S1","tcg":205489,"grp":2514,"idx":46},
+    {"id":"S02","section":"main","num":"S02","printed":"SBTK-ENS02","name":"Terror from the Deep!","ctype":"skill","keywords":"Umi Mako Skill","stats":{"t":"Skill · Mako"},"rarity":"SR","img":"300104002","code":"S2","tcg":205491,"grp":2514,"idx":47},
+    {"id":"S03","section":"main","num":"S03","printed":"SBTK-ENS03","name":"Dino Destruction","ctype":"skill","keywords":"Rex Skill","stats":{"t":"Skill · Rex"},"rarity":"SR","img":"300104003","code":"S3","tcg":205493,"grp":2514,"idx":48},
+    {"id":"S04","section":"main","num":"S04","printed":"SBTK-ENS04","name":"Cocoon of Ultra Evolution (Skill Card)","ctype":"skill","keywords":"Weevil Skill","stats":{"t":"Skill · Weevil"},"rarity":"UR","img":"300104004","code":"S4","tcg":205494,"grp":2514,"idx":49},
+    {"id":"S05","section":"main","num":"S05","printed":"SBTK-ENS05","name":"Switcheroo","ctype":"skill","keywords":"Keith Skill","stats":{"t":"Skill · Keith"},"rarity":"UR","img":"300104005","code":"S5","tcg":205495,"grp":2514,"idx":50}
+  ]
+}

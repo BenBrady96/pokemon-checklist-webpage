@@ -1,0 +1,85 @@
+{
+  "id": "yugioh/ots-tournament-pack-12",
+  "game": "yugioh",
+  "slug": "ots-tournament-pack-12",
+  "name": "OTS Tournament Pack 12",
+  "series": "VRAINS",
+  "kind": "pack",
+  "code": "OP12",
+  "syncKey": "YOP12",
+  "released": "2019-12-05",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "OP12-EN001–OP12-EN025",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from OP12-EN001 to OP12-EN025."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! OTS Tournament Pack 12 Checklist · All 25 Cards",
+    "description": "Free Yu-Gi-Oh! OTS Tournament Pack 12 checklist with no ads, no sign-up and no tracking. Track all 25 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! OTS Tournament Pack 12 Checklist",
+    "ogDescription": "Track all 25 cards in Yu-Gi-Oh! OTS Tournament Pack 12. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 25 cards in Yu-Gi-Oh! OTS Tournament Pack 12. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About OTS Tournament Pack 12",
+    "paragraphs": [
+      "OTS Tournament Pack 12 is a Yu-Gi-Oh! TCG pack released on 5 December 2019, in the VRAINS era. It has 25 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "OTS Tournament Pack 12"
+    ],
+    "tcgplayer": [
+      2582
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"OP12-EN001","name":"Chaos Dragon Levianeer","ctype":"monster","keywords":"Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Dragon / Effect","atk":3000,"def":0},"rarity":"UtR","img":"55878038","code":"1","tcg":205788,"grp":2582,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"OP12-EN002","name":"Twin Twisters","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"UtR","img":"43898403","code":"2","tcg":205789,"grp":2582,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"OP12-EN003","name":"Solemn Judgment","ctype":"trap","keywords":"Solemn Counter Trap","stats":{"t":"Counter Trap"},"rarity":"UtR","img":"41420027","code":"3","tcg":205790,"grp":2582,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"OP12-EN004","name":"Gren Maju Da Eiza","ctype":"monster","keywords":"Maju Fiend FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 3","t":"Fiend / Effect","atk":-1,"def":-1},"rarity":"SR","img":"36584821","code":"4","tcg":205791,"grp":2582,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"OP12-EN005","name":"Crusadia Leonis","ctype":"monster","keywords":"Crusadia Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Beast / Effect","atk":1200,"def":1600},"rarity":"SR","img":"28031913","code":"5","tcg":205793,"grp":2582,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"OP12-EN006","name":"Salamangreat Jack Jaguar","ctype":"monster","keywords":"Salamangreat Cyberse FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Cyberse / Effect","atk":1800,"def":1200},"rarity":"SR","img":"56003780","code":"6","tcg":205794,"grp":2582,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"OP12-EN007","name":"Orcust Cymbal Skeleton","ctype":"monster","keywords":"Orcust Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Machine / Effect","atk":1200,"def":1500},"rarity":"SR","img":"21441617","code":"7","tcg":205795,"grp":2582,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"OP12-EN008","name":"Servant of Endymion","ctype":"monster","keywords":"Endymion Spellcaster WIND Pendulum Effect Monster","stats":{"a":"WIND","l":"Level 3","t":"Spellcaster / Pendulum / Effect","atk":900,"def":1500},"rarity":"SR","img":"92559258","code":"8","tcg":205796,"grp":2582,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"OP12-EN009","name":"Tenyi Spirit - Adhara","ctype":"monster","keywords":"Tenyi Wyrm EARTH Tuner Monster","stats":{"a":"EARTH","l":"Level 1","t":"Wyrm / Tuner","atk":0,"def":0},"rarity":"SR","img":"98159737","code":"9","tcg":205797,"grp":2582,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"OP12-EN010","name":"Tenyi Spirit - Vishuda","ctype":"monster","keywords":"Tenyi Wyrm DARK Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Wyrm / Effect","atk":1500,"def":2500},"rarity":"SR","img":"23431858","code":"10","tcg":205798,"grp":2582,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"OP12-EN011","name":"Time Thief Redoer","ctype":"monster","keywords":"Time Thief Psychic DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 4","t":"Psychic / Xyz","atk":2400,"def":2000},"rarity":"SR","img":"55285840","code":"11","tcg":205799,"grp":2582,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"OP12-EN012","name":"Salamangreat Rage","ctype":"trap","keywords":"Salamangreat Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"14934922","code":"12","tcg":205801,"grp":2582,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"OP12-EN013","name":"Gigantes","ctype":"monster","keywords":"Rock EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Rock / Effect","atk":1900,"def":1300},"rarity":"C","img":"47606319","code":"13","tcg":205802,"grp":2582,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"OP12-EN014","name":"Brotherhood of the Fire Fist - Raven","ctype":"monster","keywords":"Fire Fist Beast-Warrior FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 3","t":"Beast-Warrior / Effect","atk":200,"def":1800},"rarity":"C","img":"44860890","code":"14","tcg":205803,"grp":2582,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"OP12-EN015","name":"Magician's Robe","ctype":"monster","keywords":"Dark Magician Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 2","t":"Spellcaster / Effect","atk":700,"def":2000},"rarity":"C","img":"71696014","code":"15","tcg":205805,"grp":2582,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"OP12-EN016","name":"Sea Archiver","ctype":"monster","keywords":"Cyberse WATER Effect Monster","stats":{"a":"WATER","l":"Level 3","t":"Cyberse / Effect","atk":300,"def":2100},"rarity":"C","img":"53309998","code":"16","tcg":205807,"grp":2582,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"OP12-EN017","name":"Flame Bufferlo","ctype":"monster","keywords":"Cyberse FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 3","t":"Cyberse / Effect","atk":1400,"def":200},"rarity":"C","img":"80794697","code":"17","tcg":205808,"grp":2582,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"OP12-EN018","name":"Salamangreat Fowl","ctype":"monster","keywords":"Salamangreat Cyberse FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Cyberse / Effect","atk":1800,"def":200},"rarity":"C","img":"89662401","code":"18","tcg":205809,"grp":2582,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"OP12-EN019","name":"Kaminari Attack","ctype":"monster","keywords":"Thunder WIND Fusion Monster","stats":{"a":"WIND","l":"Level 5","t":"Thunder / Fusion","atk":1900,"def":1400},"rarity":"C","img":"9653271","code":"19","tcg":205811,"grp":2582,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"OP12-EN020","name":"Brotherhood of the Fire Fist - Horse Prince","ctype":"monster","keywords":"Fire Fist Beast-Warrior FIRE Synchro Monster","stats":{"a":"FIRE","l":"Level 6","t":"Beast-Warrior / Synchro","atk":2200,"def":2200},"rarity":"C","img":"74168099","code":"20","tcg":205812,"grp":2582,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"OP12-EN021","name":"Hi-Speedroid Chanbara","ctype":"monster","keywords":"Hi-Speedroid Machine WIND Synchro Monster","stats":{"a":"WIND","l":"Level 5","t":"Machine / Synchro","atk":2000,"def":1000},"rarity":"C","img":"42110604","code":"21","tcg":205814,"grp":2582,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"OP12-EN022","name":"Dark Hole","ctype":"spell","keywords":"Hole Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"53129443","code":"22","tcg":205816,"grp":2582,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"OP12-EN023","name":"Makiu, the Magical Mist","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"27827272","code":"23","tcg":205817,"grp":2582,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"OP12-EN024","name":"Contract with the Abyss","ctype":"spell","keywords":"Ritual Spell","stats":{"t":"Ritual Spell"},"rarity":"C","img":"69035382","code":"24","tcg":205818,"grp":2582,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"OP12-EN025","name":"Fire Formation - Tenki","ctype":"spell","keywords":"Fire Formation Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"57103969","code":"25","tcg":205819,"grp":2582,"idx":24}
+  ]
+}

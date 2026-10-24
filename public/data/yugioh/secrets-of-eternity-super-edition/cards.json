@@ -1,0 +1,74 @@
+{
+  "id": "yugioh/secrets-of-eternity-super-edition",
+  "game": "yugioh",
+  "slug": "secrets-of-eternity-super-edition",
+  "name": "Secrets of Eternity: Super Edition",
+  "series": "Promos",
+  "kind": "promo",
+  "code": "SECE",
+  "syncKey": "YSECE2",
+  "released": "2015-02-26",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "SECE-ENS01–SECE-ENS14",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. Numbers count down the list in order: <b>1-5</b> is the first five cards and <b>3x2</b> is two copies of the third.",
+    "empty": "Cards run from SECE-ENS01 to SECE-ENS14."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Secrets of Eternity: Super Edition Checklist · All 14 Cards",
+    "description": "Free Yu-Gi-Oh! Secrets of Eternity: Super Edition checklist with no ads, no sign-up and no tracking. Track all 14 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Secrets of Eternity: Super Edition Checklist",
+    "ogDescription": "Track all 14 cards in Yu-Gi-Oh! Secrets of Eternity: Super Edition. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 14 cards in Yu-Gi-Oh! Secrets of Eternity: Super Edition. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Secrets of Eternity: Super Edition",
+    "paragraphs": [
+      "Secrets of Eternity: Super Edition is a Yu-Gi-Oh! TCG promo list released on 26 February 2015. It has 14 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Secrets of Eternity: Super Edition"
+    ],
+    "tcgplayer": [
+      1505
+    ]
+  },
+  "cards": [
+    {"id":"SECE-S01","section":"main","num":"SECE-ENS01","printed":"SECE-ENS01","name":"Superheavy Samurai Flutist","ctype":"monster","keywords":"Superheavy Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Machine / Effect","atk":500,"def":1000},"note":"Secrets of Eternity: Super Edition","rarity":"SR","img":"27978707","code":"1","tcg":96288,"grp":1505,"idx":0},
+    {"id":"SECE-S02","section":"main","num":"SECE-ENS02","printed":"SECE-ENS02","name":"Superheavy Samurai Trumpeter","ctype":"monster","keywords":"Superheavy Machine EARTH Tuner Monster","stats":{"a":"EARTH","l":"Level 2","t":"Machine / Tuner","atk":300,"def":600},"note":"Secrets of Eternity: Super Edition","rarity":"SR","img":"64373401","code":"2","tcg":96289,"grp":1505,"idx":1},
+    {"id":"SECE-S03","section":"main","num":"SECE-ENS03","printed":"SECE-ENS03","name":"Infernoid Antra","ctype":"monster","keywords":"Infernoid Fiend FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 2","t":"Fiend / Effect","atk":0,"def":2000},"note":"Secrets of Eternity: Super Edition","rarity":"SR","img":"26034577","code":"3","tcg":95329,"grp":1505,"idx":2},
+    {"id":"SECE-S04","section":"main","num":"SECE-ENS04","printed":"SECE-ENS04","name":"Qliphort Cephalopod","ctype":"monster","keywords":"Qli Machine EARTH Pendulum Effect Monster","stats":{"a":"EARTH","l":"Level 7","t":"Machine / Pendulum / Effect","atk":2800,"def":1000},"note":"Secrets of Eternity: Super Edition","rarity":"SR","img":"87588741","code":"4","tcg":96290,"grp":1505,"idx":3},
+    {"id":"SECE-S05","section":"main","num":"SECE-ENS05","printed":"SECE-ENS05","name":"Satellarknight Rigel","ctype":"monster","keywords":"Tellarknight Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Effect","atk":1900,"def":700},"note":"Secrets of Eternity: Super Edition","rarity":"SR","img":"13851202","code":"5","tcg":96291,"grp":1505,"idx":4},
+    {"id":"SECE-S06","section":"main","num":"SECE-ENS06","printed":"SECE-ENS06","name":"Jinzo - Jector","ctype":"monster","keywords":"Jinzo Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Machine / Effect","atk":800,"def":2000},"note":"Secrets of Eternity: Super Edition","rarity":"SR","img":"51916032","code":"6","tcg":96292,"grp":1505,"idx":5},
+    {"id":"SECE-S07","section":"main","num":"SECE-ENS07","printed":"SECE-ENS07","name":"Skilled Blue Magician","ctype":"monster","keywords":"Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Effect","atk":1800,"def":1800},"note":"Secrets of Eternity: Super Edition","rarity":"SR","img":"88901771","code":"7","tcg":96142,"grp":1505,"idx":6},
+    {"id":"SECE-S08","section":"main","num":"SECE-ENS08","printed":"SECE-ENS08","name":"Thunderclap Skywolf","ctype":"monster","keywords":"Thunder LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 7","t":"Thunder / Effect","atk":2500,"def":2000},"note":"Secrets of Eternity: Super Edition","rarity":"SR","img":"13683298","code":"8","tcg":96143,"grp":1505,"idx":7},
+    {"id":"SECE-S09","section":"main","num":"SECE-ENS09","printed":"SECE-ENS09","name":"Lightning Rod Lord","ctype":"monster","keywords":"Thunder LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Thunder / Effect","atk":1800,"def":100},"note":"Secrets of Eternity: Super Edition","rarity":"SR","img":"40672993","code":"9","tcg":96293,"grp":1505,"idx":8},
+    {"id":"SECE-S10","section":"main","num":"SECE-ENS10","printed":"SECE-ENS10","name":"El Shaddoll Wendigo","ctype":"monster","keywords":"Shaddoll Psychic WIND Fusion Monster","stats":{"a":"WIND","l":"Level 6","t":"Psychic / Fusion","atk":200,"def":2800},"note":"Secrets of Eternity: Super Edition","rarity":"SR","img":"74009824","code":"10","tcg":96294,"grp":1505,"idx":9},
+    {"id":"SECE-S11","section":"main","num":"SECE-ENS11","printed":"SECE-ENS11","name":"Superheavy Samurai Warlord Susanowo","ctype":"monster","keywords":"Superheavy Machine EARTH Synchro Monster","stats":{"a":"EARTH","l":"Level 10","t":"Machine / Synchro","atk":2400,"def":3800},"note":"Secrets of Eternity: Super Edition","rarity":"SR","img":"494922","code":"11","tcg":96144,"grp":1505,"idx":10},
+    {"id":"SECE-S12","section":"main","num":"SECE-ENS12","printed":"SECE-ENS12","name":"Void Seer","ctype":"spell","keywords":"Infernoid Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"note":"Secrets of Eternity: Super Edition","rarity":"SR","img":"8437145","code":"12","tcg":96295,"grp":1505,"idx":11},
+    {"id":"SECE-S13","section":"main","num":"SECE-ENS13","printed":"SECE-ENS13","name":"Void Launch","ctype":"trap","keywords":"Infernoid Continuous Trap","stats":{"t":"Continuous Trap"},"note":"Secrets of Eternity: Super Edition","rarity":"SR","img":"94432298","code":"13","tcg":96146,"grp":1505,"idx":12},
+    {"id":"SECE-S14","section":"main","num":"SECE-ENS14","printed":"SECE-ENS14","name":"Good & Evil in the Burning Abyss","ctype":"spell","keywords":"Burning Abyss Ritual Spell","stats":{"t":"Ritual Spell"},"note":"Secrets of Eternity: Super Edition","rarity":"SR","img":"62835876","code":"14","tcg":96145,"grp":1505,"idx":13}
+  ]
+}

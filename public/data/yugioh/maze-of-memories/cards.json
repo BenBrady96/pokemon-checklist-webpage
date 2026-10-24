@@ -1,0 +1,156 @@
+{
+  "id": "yugioh/maze-of-memories",
+  "game": "yugioh",
+  "slug": "maze-of-memories",
+  "name": "Maze of Memories",
+  "series": "SEVENS & GO RUSH!!",
+  "kind": "expansion",
+  "code": "MAZE",
+  "syncKey": "YMAZE",
+  "released": "2023-03-09",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Main Set",
+      "range": "MAZE-EN001–MAZE-EN067",
+      "tier": "standard"
+    },
+    {
+      "id": "rarities",
+      "name": "Other Rarities",
+      "short": "Other Rarities",
+      "range": "17 cards",
+      "tier": "master"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Main set"
+    ],
+    [
+      "rarities",
+      "Other rarities"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, SCR12, 60x2",
+    "example": "1-20, 45x2, SCR12",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies. Other rarities use their short name and number: <b>SCR12</b> is card 12’s Secret Rare, and ranges work too (<b>QCSR1-QCSR20</b>).",
+    "empty": "Cards run from MAZE-EN001 to MAZE-EN067."
+  },
+  "help": {
+    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 67 cards, each in its main rarity. Master adds the 17 other rarities. Cards you’ve marked are kept when you switch."
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Maze of Memories Checklist · All 67 Cards",
+    "description": "Free Yu-Gi-Oh! Maze of Memories checklist with no ads, no sign-up and no tracking. Track all 67 cards, or every rarity for a master set, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Maze of Memories Checklist",
+    "ogDescription": "Track all 67 cards in Yu-Gi-Oh! Maze of Memories, plus 17 other rarities. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 67 cards in Yu-Gi-Oh! Maze of Memories. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About the Maze of Memories set",
+    "paragraphs": [
+      "Maze of Memories is a Yu-Gi-Oh! TCG booster set released on 9 March 2023, in the SEVENS &amp; GO RUSH!! era. It has 67 cards, and with the 17 other rarities there are 84 to collect in all.",
+      "Choose what you’re collecting: the <b>Standard set</b> (the 67 cards, each in its main rarity) or the <b>Master set</b> (all 84, adding the 17 other rarities).",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Maze of Memories"
+    ],
+    "tcgplayer": [
+      17701
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"MAZE-EN001","name":"Labyrinth Heavy Tank","ctype":"monster","keywords":"Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Machine / Effect","atk":2400,"def":2400},"rarity":"SR","img":"35026117","code":"1","tcg":485503,"grp":17701,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"MAZE-EN002","name":"Shadow Ghoul of the Labyrinth","ctype":"monster","keywords":"Zombie DARK Effect Monster","stats":{"a":"DARK","l":"Level 5","t":"Zombie / Effect","atk":1600,"def":1300},"rarity":"R","img":"62411811","code":"2","tcg":485505,"grp":17701,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"MAZE-EN003","name":"Gate Guardians Combined","ctype":"monster","keywords":"Gate Guardian Warrior DARK Fusion Monster","stats":{"a":"DARK","l":"Level 12","t":"Warrior / Fusion","atk":3750,"def":3400},"rarity":"SR","img":"8505920","code":"3","tcg":485507,"grp":17701,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"MAZE-EN004","name":"Gate Guardian of Thunder and Wind","ctype":"monster","keywords":"Gate Guardian Thunder LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 9","t":"Thunder / Fusion","atk":2500,"def":2200},"rarity":"SR","img":"34904525","code":"4","tcg":485508,"grp":17701,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"MAZE-EN005","name":"Gate Guardian of Wind and Water","ctype":"monster","keywords":"Gate Guardian Spellcaster WIND Fusion Monster","stats":{"a":"WIND","l":"Level 9","t":"Spellcaster / Fusion","atk":2450,"def":2300},"rarity":"SR","img":"61398234","code":"5","tcg":485510,"grp":17701,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"MAZE-EN006","name":"Gate Guardian of Water and Thunder","ctype":"monster","keywords":"Gate Guardian Aqua WATER Fusion Monster","stats":{"a":"WATER","l":"Level 9","t":"Aqua / Fusion","atk":2550,"def":2300},"rarity":"SR","img":"97783338","code":"6","tcg":485511,"grp":17701,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"MAZE-EN007","name":"Labyrinth Wall Shadow","ctype":"spell","keywords":"Labyrinth Wall Field Spell","stats":{"t":"Field Spell"},"rarity":"R","img":"34771947","code":"7","tcg":485512,"grp":17701,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"MAZE-EN008","name":"Double Attack! Wind and Thunder!!","ctype":"spell","keywords":"Signature move Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"R","img":"60176682","code":"8","tcg":485515,"grp":17701,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"MAZE-EN009","name":"Riryoku Guardian","ctype":"spell","keywords":"Guardian Normal Spell","stats":{"t":"Normal Spell"},"rarity":"R","img":"96661780","code":"9","tcg":485516,"grp":17701,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"MAZE-EN010","name":"Prey of the Jirai Gumo","ctype":"trap","keywords":"Trap Monster Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"R","img":"33055499","code":"10","tcg":485519,"grp":17701,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"MAZE-EN011","name":"Black Luster Soldier - Legendary Swordsman","ctype":"monster","keywords":"Black Luster Soldier Warrior EARTH Ritual Effect Monster","stats":{"a":"EARTH","l":"Level 8","t":"Warrior / Ritual / Effect","atk":3000,"def":2500},"rarity":"UR","img":"70551291","code":"11","tcg":485520,"grp":17701,"idx":10},
+    {"id":"011-cr","section":"rarities","num":"011","printed":"MAZE-EN011","name":"Black Luster Soldier - Legendary Swordsman","ctype":"monster","keywords":"Black Luster Soldier Warrior EARTH Ritual Effect Monster","stats":{"a":"EARTH","l":"Level 8","t":"Warrior / Ritual / Effect","atk":3000,"def":2500},"rarity":"CR","img":"70551291","badge":"CR","variant":"Collector’s Rare","code":"CR11","tcg":487453,"grp":17701,"idx":11},
+    {"id":"012","section":"main","num":"012","printed":"MAZE-EN012","name":"Red-Eyes Soul","ctype":"monster","keywords":"Red-Eyes Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Dragon / Effect","atk":900,"def":2000},"rarity":"R","img":"6556909","code":"12","tcg":485522,"grp":17701,"idx":12},
+    {"id":"013","section":"main","num":"013","printed":"MAZE-EN013","name":"Duel Academy","ctype":"spell","keywords":"Field Spell","stats":{"t":"Field Spell"},"rarity":"UR","img":"5833312","code":"13","tcg":485524,"grp":17701,"idx":13},
+    {"id":"013-cr","section":"rarities","num":"013","printed":"MAZE-EN013","name":"Duel Academy","ctype":"spell","keywords":"Field Spell","stats":{"t":"Field Spell"},"rarity":"CR","img":"5833312","badge":"CR","variant":"Collector’s Rare","code":"CR13","tcg":485525,"grp":17701,"idx":14},
+    {"id":"014","section":"main","num":"014","printed":"MAZE-EN014","name":"Wake Up Your Elemental HERO","ctype":"monster","keywords":"Elemental HERO Warrior LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 10","t":"Warrior / Fusion","atk":2500,"def":2100},"rarity":"UR","img":"32828466","code":"14","tcg":485527,"grp":17701,"idx":15},
+    {"id":"014-cr","section":"rarities","num":"014","printed":"MAZE-EN014","name":"Wake Up Your Elemental HERO","ctype":"monster","keywords":"Elemental HERO Warrior LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 10","t":"Warrior / Fusion","atk":2500,"def":2100},"rarity":"CR","img":"32828466","badge":"CR","variant":"Collector’s Rare","code":"CR14","tcg":487454,"grp":17701,"idx":16},
+    {"id":"015","section":"main","num":"015","printed":"MAZE-EN015","name":"Evolution End Burst","ctype":"spell","keywords":"Cyber Dragon Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"78217065","code":"15","tcg":485531,"grp":17701,"idx":17},
+    {"id":"016","section":"main","num":"016","printed":"MAZE-EN016","name":"On Your Mark, Get Set, DUEL!","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"SR","img":"31006879","code":"16","tcg":485539,"grp":17701,"idx":18},
+    {"id":"016-cr","section":"rarities","num":"016","printed":"MAZE-EN016","name":"On Your Mark, Get Set, DUEL!","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"CR","img":"31006879","badge":"CR","variant":"Collector’s Rare","code":"CR16","tcg":487452,"grp":17701,"idx":19},
+    {"id":"017","section":"main","num":"017","printed":"MAZE-EN017","name":"Time to Stand Up","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"R","img":"68490573","code":"17","tcg":485540,"grp":17701,"idx":20},
+    {"id":"018","section":"main","num":"018","printed":"MAZE-EN018","name":"This Creepy Little Punk","ctype":"spell","keywords":"Infernity Normal Spell","stats":{"t":"Normal Spell"},"rarity":"R","img":"4599182","code":"18","tcg":485541,"grp":17701,"idx":21},
+    {"id":"019","section":"main","num":"019","printed":"MAZE-EN019","name":"Accel Synchro Stardust Dragon","ctype":"monster","keywords":"Stardust Dragon WIND Synchro Monster","stats":{"a":"WIND","l":"Level 8","t":"Dragon / Synchro","atk":2500,"def":2000},"rarity":"UR","img":"30983281","code":"19","tcg":485542,"grp":17701,"idx":22},
+    {"id":"019-cr","section":"rarities","num":"019","printed":"MAZE-EN019","name":"Accel Synchro Stardust Dragon","ctype":"monster","keywords":"Stardust Dragon WIND Synchro Monster","stats":{"a":"WIND","l":"Level 8","t":"Dragon / Synchro","atk":2500,"def":2000},"rarity":"CR","img":"30983281","badge":"CR","variant":"Collector’s Rare","code":"CR19","tcg":487440,"grp":17701,"idx":23},
+    {"id":"020","section":"main","num":"020","printed":"MAZE-EN020","name":"Overlay Network","ctype":"spell","keywords":"Overlay Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"SR","img":"67378935","code":"20","tcg":485543,"grp":17701,"idx":24},
+    {"id":"021","section":"main","num":"021","printed":"MAZE-EN021","name":"Number 39: Utopia Rising","ctype":"monster","keywords":"Number Warrior LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 4","t":"Warrior / Xyz","atk":0,"def":2000},"rarity":"SR","img":"93777634","code":"21","tcg":485544,"grp":17701,"idx":25},
+    {"id":"021-cr","section":"rarities","num":"021","printed":"MAZE-EN021","name":"Number 39: Utopia Rising","ctype":"monster","keywords":"Number Warrior LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 4","t":"Warrior / Xyz","atk":0,"def":2000},"rarity":"CR","img":"93777634","badge":"CR","variant":"Collector’s Rare","code":"CR21","tcg":485545,"grp":17701,"idx":26},
+    {"id":"022","section":"main","num":"022","printed":"MAZE-EN022","name":"Barian Untopia","ctype":"spell","keywords":"Barian's Field Spell","stats":{"t":"Field Spell"},"rarity":"R","img":"30761649","code":"22","tcg":485546,"grp":17701,"idx":27},
+    {"id":"023","section":"main","num":"023","printed":"MAZE-EN023","name":"Saga of the Dragon Emperor","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"R","img":"66156348","code":"23","tcg":485548,"grp":17701,"idx":28},
+    {"id":"024","section":"main","num":"024","printed":"MAZE-EN024","name":"Performapal Duelist Extraordinaire","ctype":"monster","keywords":"Performapal Spellcaster LIGHT Pendulum Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Pendulum / Effect","atk":1800,"def":400},"rarity":"R","img":"92644052","code":"24","tcg":485549,"grp":17701,"idx":29},
+    {"id":"025","section":"main","num":"025","printed":"MAZE-EN025","name":"Kahyoreigetsu","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"R","img":"39049051","code":"25","tcg":485550,"grp":17701,"idx":30},
+    {"id":"026","section":"main","num":"026","printed":"MAZE-EN026","name":"Battle Royal Mode - Joining","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"R","img":"65433790","code":"26","tcg":485553,"grp":17701,"idx":31},
+    {"id":"027","section":"main","num":"027","printed":"MAZE-EN027","name":"Soul of the Supreme King","ctype":"trap","keywords":"Supreme King Normal Trap","stats":{"t":"Normal Trap"},"rarity":"R","img":"92428405","code":"27","tcg":485557,"grp":17701,"idx":32},
+    {"id":"028","section":"main","num":"028","printed":"MAZE-EN028","name":"Firewall Dragon Darkfluid - Neo Tempest Terahertz","ctype":"monster","keywords":"Firewall Cyberse DARK Link Monster","stats":{"a":"DARK","l":"Link 5","t":"Cyberse / Link","atk":3000},"rarity":"UR","img":"64211118","code":"28","tcg":485561,"grp":17701,"idx":33},
+    {"id":"028-cr","section":"rarities","num":"028","printed":"MAZE-EN028","name":"Firewall Dragon Darkfluid - Neo Tempest Terahertz","ctype":"monster","keywords":"Firewall Cyberse DARK Link Monster","stats":{"a":"DARK","l":"Link 5","t":"Cyberse / Link","atk":3000},"rarity":"CR","img":"64211118","badge":"CR","variant":"Collector’s Rare","code":"CR28","tcg":485562,"grp":17701,"idx":34},
+    {"id":"029","section":"main","num":"029","printed":"MAZE-EN029","name":"Angel of Blue Tears","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"R","img":"91706817","code":"29","tcg":485601,"grp":17701,"idx":35},
+    {"id":"030","section":"main","num":"030","printed":"MAZE-EN030","name":"Forge a New Future","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"R","img":"27104921","code":"30","tcg":485564,"grp":17701,"idx":36},
+    {"id":"031","section":"main","num":"031","printed":"MAZE-EN031","name":"Labyrinth Wall","ctype":"monster","keywords":"Rock EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 5","t":"Rock / Normal","atk":0,"def":3000},"rarity":"R","img":"67284908","code":"31","tcg":485565,"grp":17701,"idx":37},
+    {"id":"032","section":"main","num":"032","printed":"MAZE-EN032","name":"Sanga of the Thunder","ctype":"monster","keywords":"Thunder LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 7","t":"Thunder / Effect","atk":2600,"def":2200},"rarity":"R","img":"25955164","code":"32","tcg":485566,"grp":17701,"idx":38},
+    {"id":"033","section":"main","num":"033","printed":"MAZE-EN033","name":"Kazejin","ctype":"monster","keywords":"Spellcaster WIND Effect Monster","stats":{"a":"WIND","l":"Level 7","t":"Spellcaster / Effect","atk":2400,"def":2200},"rarity":"R","img":"62340868","code":"33","tcg":485567,"grp":17701,"idx":39},
+    {"id":"034","section":"main","num":"034","printed":"MAZE-EN034","name":"Suijin","ctype":"monster","keywords":"Aqua WATER Effect Monster","stats":{"a":"WATER","l":"Level 7","t":"Aqua / Effect","atk":2500,"def":2400},"rarity":"R","img":"98434877","code":"34","tcg":485568,"grp":17701,"idx":40},
+    {"id":"035","section":"main","num":"035","printed":"MAZE-EN035","name":"Gate Guardian","ctype":"monster","keywords":"Gate Guardian Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 11","t":"Warrior / Effect","atk":3750,"def":3400},"rarity":"R","img":"25833572","code":"35","tcg":485569,"grp":17701,"idx":41},
+    {"id":"035-cr","section":"rarities","num":"035","printed":"MAZE-EN035","name":"Gate Guardian","ctype":"monster","keywords":"Gate Guardian Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 11","t":"Warrior / Effect","atk":3750,"def":3400},"rarity":"CR","img":"25833572","badge":"CR","variant":"Collector’s Rare","code":"CR35","tcg":487451,"grp":17701,"idx":42},
+    {"id":"036","section":"main","num":"036","printed":"MAZE-EN036","name":"Superancient Deepsea King Coelacanth","ctype":"monster","keywords":"Fish WATER Effect Monster","stats":{"a":"WATER","l":"Level 7","t":"Fish / Effect","atk":2800,"def":2200},"rarity":"SR","img":"88307361","code":"36","tcg":485570,"grp":17701,"idx":43},
+    {"id":"037","section":"main","num":"037","printed":"MAZE-EN037","name":"Blackwing - Kalut the Moon Shadow","ctype":"monster","keywords":"Blackwing Winged Beast DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Winged Beast / Effect","atk":1400,"def":1000},"rarity":"R","img":"85215458","code":"37","tcg":485580,"grp":17701,"idx":44},
+    {"id":"038","section":"main","num":"038","printed":"MAZE-EN038","name":"Blackwing - Elphin the Raven","ctype":"monster","keywords":"Blackwing Winged Beast DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Winged Beast / Effect","atk":2200,"def":1200},"rarity":"R","img":"11613567","code":"38","tcg":485581,"grp":17701,"idx":45},
+    {"id":"039","section":"main","num":"039","printed":"MAZE-EN039","name":"Blackwing - Zephyros the Elite","ctype":"monster","keywords":"Blackwing Winged Beast DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Winged Beast / Effect","atk":1600,"def":1000},"rarity":"R","img":"14785765","code":"39","tcg":485585,"grp":17701,"idx":46},
+    {"id":"040","section":"main","num":"040","printed":"MAZE-EN040","name":"Psi-Beast","ctype":"monster","keywords":"Psychic EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 2","t":"Psychic / Effect","atk":700,"def":500},"rarity":"SR","img":"46291010","code":"40","tcg":485589,"grp":17701,"idx":47},
+    {"id":"040-cr","section":"rarities","num":"040","printed":"MAZE-EN040","name":"Psi-Beast","ctype":"monster","keywords":"Psychic EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 2","t":"Psychic / Effect","atk":700,"def":500},"rarity":"CR","img":"46291010","badge":"CR","variant":"Collector’s Rare","code":"CR40","tcg":485589,"grp":17701,"idx":48},
+    {"id":"041","section":"main","num":"041","printed":"MAZE-EN041","name":"Wind-Up Kitten","ctype":"monster","keywords":"Wind-Up Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 2","t":"Beast / Effect","atk":800,"def":500},"rarity":"UR","img":"25716180","code":"41","tcg":485592,"grp":17701,"idx":49},
+    {"id":"041-cr","section":"rarities","num":"041","printed":"MAZE-EN041","name":"Wind-Up Kitten","ctype":"monster","keywords":"Wind-Up Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 2","t":"Beast / Effect","atk":800,"def":500},"rarity":"CR","img":"25716180","badge":"CR","variant":"Collector’s Rare","code":"CR41","tcg":485592,"grp":17701,"idx":50},
+    {"id":"042","section":"main","num":"042","printed":"MAZE-EN042","name":"Nimble Angler","ctype":"monster","keywords":"Nimble Fish WATER Effect Monster","stats":{"a":"WATER","l":"Level 2","t":"Fish / Effect","atk":600,"def":100},"rarity":"R","img":"88686573","code":"42","tcg":485596,"grp":17701,"idx":51},
+    {"id":"043","section":"main","num":"043","printed":"MAZE-EN043","name":"Mekk-Knight Blue Sky","ctype":"monster","keywords":"Mekk-Knight Psychic LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 5","t":"Psychic / Effect","atk":2000,"def":2500},"rarity":"R","img":"20537097","code":"43","tcg":485598,"grp":17701,"idx":52},
+    {"id":"044","section":"main","num":"044","printed":"MAZE-EN044","name":"Mekk-Knight Yellow Star","ctype":"monster","keywords":"Mekk-Knight Psychic LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 7","t":"Psychic / Effect","atk":2200,"def":2800},"rarity":"R","img":"29415459","code":"44","tcg":485600,"grp":17701,"idx":53},
+    {"id":"045","section":"main","num":"045","printed":"MAZE-EN045","name":"Mekk-Knight Red Moon","ctype":"monster","keywords":"Mekk-Knight Psychic LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 7","t":"Psychic / Effect","atk":2300,"def":2600},"rarity":"R","img":"56809158","code":"45","tcg":485602,"grp":17701,"idx":54},
+    {"id":"046","section":"main","num":"046","printed":"MAZE-EN046","name":"Photon Orbital","ctype":"monster","keywords":"Photon Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Machine / Effect","atk":500,"def":2000},"rarity":"R","img":"89132148","code":"46","tcg":485603,"grp":17701,"idx":55},
+    {"id":"046-cr","section":"rarities","num":"046","printed":"MAZE-EN046","name":"Photon Orbital","ctype":"monster","keywords":"Photon Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Machine / Effect","atk":500,"def":2000},"rarity":"CR","img":"89132148","badge":"CR","variant":"Collector’s Rare","code":"CR46","tcg":485604,"grp":17701,"idx":56},
+    {"id":"047","section":"main","num":"047","printed":"MAZE-EN047","name":"Rikka Petal","ctype":"monster","keywords":"Rikka Plant WATER Effect Monster","stats":{"a":"WATER","l":"Level 1","t":"Plant / Effect","atk":0,"def":0},"rarity":"R","img":"71734607","code":"47","tcg":485605,"grp":17701,"idx":57},
+    {"id":"048","section":"main","num":"048","printed":"MAZE-EN048","name":"Mudan the Rikka Fairy","ctype":"monster","keywords":"Rikka Plant WATER Effect Monster","stats":{"a":"WATER","l":"Level 6","t":"Plant / Effect","atk":1000,"def":2400},"rarity":"R","img":"71002019","code":"48","tcg":485608,"grp":17701,"idx":58},
+    {"id":"049","section":"main","num":"049","printed":"MAZE-EN049","name":"Guardian Chimera","ctype":"monster","keywords":"Guardian Beast DARK Fusion Monster","stats":{"a":"DARK","l":"Level 9","t":"Beast / Fusion","atk":3300,"def":3300},"rarity":"UR","img":"11321089","code":"49","tcg":485610,"grp":17701,"idx":59},
+    {"id":"049-cr","section":"rarities","num":"049","printed":"MAZE-EN049","name":"Guardian Chimera","ctype":"monster","keywords":"Guardian Beast DARK Fusion Monster","stats":{"a":"DARK","l":"Level 9","t":"Beast / Fusion","atk":3300,"def":3300},"rarity":"CR","img":"11321089","badge":"CR","variant":"Collector’s Rare","code":"CR49","tcg":487441,"grp":17701,"idx":60},
+    {"id":"050","section":"main","num":"050","printed":"MAZE-EN050","name":"Ancient Fairy Dragon","ctype":"monster","keywords":"Dragon LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 7","t":"Dragon / Synchro","atk":2100,"def":3000},"rarity":"R","img":"25862681","code":"50","tcg":485612,"grp":17701,"idx":61},
+    {"id":"051","section":"main","num":"051","printed":"MAZE-EN051","name":"Baronne de Fleur","ctype":"monster","keywords":"Fleur Warrior WIND Synchro Monster","stats":{"a":"WIND","l":"Level 10","t":"Warrior / Synchro","atk":3000,"def":2400},"rarity":"UR","img":"84815190","code":"51","tcg":485614,"grp":17701,"idx":62},
+    {"id":"051-cr","section":"rarities","num":"051","printed":"MAZE-EN051","name":"Baronne de Fleur","ctype":"monster","keywords":"Fleur Warrior WIND Synchro Monster","stats":{"a":"WIND","l":"Level 10","t":"Warrior / Synchro","atk":3000,"def":2400},"rarity":"CR","img":"84815190","badge":"CR","variant":"Collector’s Rare","code":"CR51","tcg":485615,"grp":17701,"idx":63},
+    {"id":"052","section":"main","num":"052","printed":"MAZE-EN052","name":"Alsei, the Sylvan High Protector","ctype":"monster","keywords":"Sylvan Plant LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 8","t":"Plant / Xyz","atk":2300,"def":3200},"rarity":"SR","img":"10406322","code":"52","tcg":485616,"grp":17701,"idx":64},
+    {"id":"053","section":"main","num":"053","printed":"MAZE-EN053","name":"Teardrop the Rikka Queen","ctype":"monster","keywords":"Plant WATER Xyz Monster","stats":{"a":"WATER","l":"Rank 8","t":"Plant / Xyz","atk":2800,"def":2800},"rarity":"UR","img":"33779875","code":"53","tcg":485618,"grp":17701,"idx":65},
+    {"id":"053-cr","section":"rarities","num":"053","printed":"MAZE-EN053","name":"Teardrop the Rikka Queen","ctype":"monster","keywords":"Plant WATER Xyz Monster","stats":{"a":"WATER","l":"Rank 8","t":"Plant / Xyz","atk":2800,"def":2800},"rarity":"CR","img":"33779875","badge":"CR","variant":"Collector’s Rare","code":"CR53","tcg":485619,"grp":17701,"idx":66},
+    {"id":"054","section":"main","num":"054","printed":"MAZE-EN054","name":"Mekk-Knight Crusadia Avramax","ctype":"monster","keywords":"Mekk-Knight Cyberse LIGHT Link Monster","stats":{"a":"LIGHT","l":"Link 4","t":"Cyberse / Link","atk":3000},"rarity":"SR","img":"21887175","code":"54","tcg":485623,"grp":17701,"idx":67},
+    {"id":"054-cr","section":"rarities","num":"054","printed":"MAZE-EN054","name":"Mekk-Knight Crusadia Avramax","ctype":"monster","keywords":"Mekk-Knight Cyberse LIGHT Link Monster","stats":{"a":"LIGHT","l":"Link 4","t":"Cyberse / Link","atk":3000},"rarity":"CR","img":"21887175","badge":"CR","variant":"Collector’s Rare","code":"CR54","tcg":487442,"grp":17701,"idx":68},
+    {"id":"055","section":"main","num":"055","printed":"MAZE-EN055","name":"Cost Down","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"R","img":"23265313","code":"55","tcg":485625,"grp":17701,"idx":69},
+    {"id":"056","section":"main","num":"056","printed":"MAZE-EN056","name":"Overload Fusion","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"R","img":"3659803","code":"56","tcg":485626,"grp":17701,"idx":70},
+    {"id":"057","section":"main","num":"057","printed":"MAZE-EN057","name":"Burial from a Different Dimension","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"R","img":"48976825","code":"57","tcg":485628,"grp":17701,"idx":71},
+    {"id":"058","section":"main","num":"058","printed":"MAZE-EN058","name":"Court of Justice","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"R","img":"24449083","code":"58","tcg":485630,"grp":17701,"idx":72},
+    {"id":"059","section":"main","num":"059","printed":"MAZE-EN059","name":"Spellbook of Fate","ctype":"spell","keywords":"Spellbook Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"SR","img":"97997309","code":"59","tcg":485632,"grp":17701,"idx":73},
+    {"id":"059-cr","section":"rarities","num":"059","printed":"MAZE-EN059","name":"Spellbook of Fate","ctype":"spell","keywords":"Spellbook Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"CR","img":"97997309","badge":"CR","variant":"Collector’s Rare","code":"CR59","tcg":485633,"grp":17701,"idx":74},
+    {"id":"060","section":"main","num":"060","printed":"MAZE-EN060","name":"Super Soldier Ritual","ctype":"spell","keywords":"Black Luster Soldier Ritual Spell","stats":{"t":"Ritual Spell"},"rarity":"R","img":"14094090","code":"60","tcg":485635,"grp":17701,"idx":75},
+    {"id":"061","section":"main","num":"061","printed":"MAZE-EN061","name":"Chaos Form","ctype":"spell","keywords":"Blue-Eyes Ritual Spell","stats":{"t":"Ritual Spell"},"rarity":"R","img":"21082832","code":"61","tcg":485636,"grp":17701,"idx":76},
+    {"id":"062","section":"main","num":"062","printed":"MAZE-EN062","name":"Rikka Glamour","ctype":"spell","keywords":"Rikka Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UR","img":"69164989","code":"62","tcg":485641,"grp":17701,"idx":77},
+    {"id":"063","section":"main","num":"063","printed":"MAZE-EN063","name":"Solemn Judgment","ctype":"trap","keywords":"Solemn Counter Trap","stats":{"t":"Counter Trap"},"rarity":"SR","img":"41420027","code":"63","tcg":485649,"grp":17701,"idx":78},
+    {"id":"063-cr","section":"rarities","num":"063","printed":"MAZE-EN063","name":"Solemn Judgment","ctype":"trap","keywords":"Solemn Counter Trap","stats":{"t":"Counter Trap"},"rarity":"CR","img":"41420027","badge":"CR","variant":"Collector’s Rare","code":"CR63","tcg":485650,"grp":17701,"idx":79},
+    {"id":"064","section":"main","num":"064","printed":"MAZE-EN064","name":"Royal Decree","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"R","img":"51452091","code":"64","tcg":485651,"grp":17701,"idx":80},
+    {"id":"065","section":"main","num":"065","printed":"MAZE-EN065","name":"Imperial Iron Wall","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"R","img":"30459350","code":"65","tcg":485653,"grp":17701,"idx":81},
+    {"id":"066","section":"main","num":"066","printed":"MAZE-EN066","name":"Treacherous Trap Hole","ctype":"trap","keywords":"Hole Normal Trap","stats":{"t":"Normal Trap"},"rarity":"R","img":"99590524","code":"66","tcg":485654,"grp":17701,"idx":82},
+    {"id":"067","section":"main","num":"067","printed":"MAZE-EN067","name":"Deep Dark Trap Hole","ctype":"trap","keywords":"Hole Normal Trap","stats":{"t":"Normal Trap"},"rarity":"R","img":"28654932","code":"67","tcg":485656,"grp":17701,"idx":83}
+  ]
+}

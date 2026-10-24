@@ -1,0 +1,110 @@
+{
+  "id": "yugioh/starter-deck-kaiba",
+  "game": "yugioh",
+  "slug": "starter-deck-kaiba",
+  "name": "Starter Deck: Kaiba",
+  "series": "Duel Monsters",
+  "kind": "deck",
+  "code": "SDK",
+  "syncKey": "YSDK",
+  "released": "2002-03-29",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "SDK-001–SDK-050",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from SDK-001 to SDK-050."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Starter Deck: Kaiba Checklist · All 50 Cards",
+    "description": "Free Yu-Gi-Oh! Starter Deck: Kaiba checklist with no ads, no sign-up and no tracking. Track all 50 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Starter Deck: Kaiba Checklist",
+    "ogDescription": "Track all 50 cards in Yu-Gi-Oh! Starter Deck: Kaiba. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 50 cards in Yu-Gi-Oh! Starter Deck: Kaiba. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Starter Deck: Kaiba",
+    "paragraphs": [
+      "Starter Deck: Kaiba is a Yu-Gi-Oh! TCG deck released on 29 March 2002, in the Duel Monsters era. It has 50 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Starter Deck: Kaiba"
+    ],
+    "tcgplayer": [
+      294
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"SDK-001","name":"Blue-Eyes White Dragon","ctype":"monster","keywords":"Blue-Eyes Dragon LIGHT Normal Monster SDK-E001","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Normal","atk":3000,"def":2500},"rarity":"UR","img":"89631139","code":"1","tcg":22657,"grp":294,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"SDK-002","name":"Hitotsu-Me Giant","ctype":"monster","keywords":"Beast-Warrior EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 4","t":"Beast-Warrior / Normal","atk":1200,"def":1000},"rarity":"C","img":"76184692","code":"2","tcg":22658,"grp":294,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"SDK-003","name":"Ryu-Kishin","ctype":"monster","keywords":"Fiend DARK Normal Monster SDK-E002","stats":{"a":"DARK","l":"Level 3","t":"Fiend / Normal","atk":1000,"def":500},"rarity":"C","img":"15303296","code":"3","tcg":22659,"grp":294,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"SDK-004","name":"The Wicked Worm Beast","ctype":"monster","keywords":"Worm Beast EARTH Effect Monster SDK-E003","stats":{"a":"EARTH","l":"Level 3","t":"Beast / Effect","atk":1400,"def":700},"rarity":"C","img":"6285791","code":"4","tcg":22660,"grp":294,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"SDK-005","name":"Battle Ox","ctype":"monster","keywords":"Beast-Warrior EARTH Normal Monster SDK-E004","stats":{"a":"EARTH","l":"Level 4","t":"Beast-Warrior / Normal","atk":1700,"def":1000},"rarity":"C","img":"5053103","code":"5","tcg":22661,"grp":294,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"SDK-006","name":"Koumori Dragon","ctype":"monster","keywords":"Dragon DARK Normal Monster SDK-E005","stats":{"a":"DARK","l":"Level 4","t":"Dragon / Normal","atk":1500,"def":1200},"rarity":"C","img":"67724379","code":"6","tcg":22662,"grp":294,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"SDK-007","name":"Judge Man","ctype":"monster","keywords":"Warrior EARTH Normal Monster SDK-E006","stats":{"a":"EARTH","l":"Level 6","t":"Warrior / Normal","atk":2200,"def":1500},"rarity":"C","img":"30113682","code":"7","tcg":22663,"grp":294,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"SDK-008","name":"Rogue Doll","ctype":"monster","keywords":"Spellcaster LIGHT Normal Monster SDK-E007","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Normal","atk":1600,"def":1000},"rarity":"C","img":"91939608","code":"8","tcg":22664,"grp":294,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"SDK-009","name":"Kojikocy","ctype":"monster","keywords":"Warrior EARTH Normal Monster SDK-E008","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Normal","atk":1500,"def":1200},"rarity":"C","img":"1184620","code":"9","tcg":22665,"grp":294,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"SDK-010","name":"Uraby","ctype":"monster","keywords":"Dinosaur EARTH Normal Monster SDK-E009","stats":{"a":"EARTH","l":"Level 4","t":"Dinosaur / Normal","atk":1500,"def":800},"rarity":"C","img":"1784619","code":"10","tcg":22666,"grp":294,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"SDK-011","name":"Gyakutenno Megami","ctype":"monster","keywords":"Fairy LIGHT Normal Monster SDK-E010","stats":{"a":"LIGHT","l":"Level 6","t":"Fairy / Normal","atk":1800,"def":2000},"rarity":"C","img":"31122090","code":"11","tcg":22667,"grp":294,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"SDK-012","name":"Mystic Horseman","ctype":"monster","keywords":"Beast EARTH Normal Monster SDK-E011","stats":{"a":"EARTH","l":"Level 4","t":"Beast / Normal","atk":1300,"def":1550},"rarity":"C","img":"68516705","code":"12","tcg":22668,"grp":294,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"SDK-013","name":"Terra the Terrible","ctype":"monster","keywords":"Fiend DARK Normal Monster SDK-E012","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Normal","atk":1200,"def":1300},"rarity":"C","img":"63308047","code":"13","tcg":22669,"grp":294,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"SDK-014","name":"Dark Titan of Terror","ctype":"monster","keywords":"Fiend DARK Normal Monster SDK-E013","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Normal","atk":1300,"def":1100},"rarity":"C","img":"89494469","code":"14","tcg":22670,"grp":294,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"SDK-015","name":"Dark Assailant","ctype":"monster","keywords":"Zombie DARK Normal Monster SDK-E014","stats":{"a":"DARK","l":"Level 4","t":"Zombie / Normal","atk":1200,"def":1200},"rarity":"C","img":"41949033","code":"15","tcg":22671,"grp":294,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"SDK-016","name":"Master & Expert","ctype":"monster","keywords":"Beast EARTH Normal Monster SDK-E015","stats":{"a":"EARTH","l":"Level 4","t":"Beast / Normal","atk":1200,"def":1000},"rarity":"C","img":"75499502","code":"16","tcg":22672,"grp":294,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"SDK-017","name":"Unknown Warrior of Fiend","ctype":"monster","keywords":"Warrior DARK Normal Monster SDK-E016","stats":{"a":"DARK","l":"Level 3","t":"Warrior / Normal","atk":1000,"def":500},"rarity":"C","img":"97360116","code":"17","tcg":22673,"grp":294,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"SDK-018","name":"Mystic Clown","ctype":"monster","keywords":"Fiend DARK Normal Monster SDK-E017","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Normal","atk":1500,"def":1000},"rarity":"C","img":"47060154","code":"18","tcg":22674,"grp":294,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"SDK-019","name":"Ogre of the Black Shadow","ctype":"monster","keywords":"Beast-Warrior EARTH Normal Monster SDK-E018","stats":{"a":"EARTH","l":"Level 4","t":"Beast-Warrior / Normal","atk":1200,"def":1400},"rarity":"C","img":"45121025","code":"19","tcg":22675,"grp":294,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"SDK-020","name":"Dark Energy","ctype":"spell","keywords":"Equip Spell SDK-E019","stats":{"t":"Equip Spell"},"rarity":"C","img":"4614116","code":"20","tcg":22676,"grp":294,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"SDK-021","name":"Invigoration","ctype":"spell","keywords":"Equip Spell SDK-E020","stats":{"t":"Equip Spell"},"rarity":"C","img":"98374133","code":"21","tcg":22677,"grp":294,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"SDK-022","name":"Dark Hole","ctype":"spell","keywords":"Hole Normal Spell SDK-E021","stats":{"t":"Normal Spell"},"rarity":"C","img":"53129443","code":"22","tcg":22678,"grp":294,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"SDK-023","name":"Ookazi","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"19523799","code":"23","tcg":22679,"grp":294,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"SDK-024","name":"Ryu-Kishin Powered","ctype":"monster","keywords":"Fiend DARK Normal Monster SDK-E022","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Normal","atk":1600,"def":1200},"rarity":"C","img":"24611934","code":"24","tcg":22680,"grp":294,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"SDK-025","name":"Swordstalker","ctype":"monster","keywords":"Warrior DARK Normal Monster SDK-E023","stats":{"a":"DARK","l":"Level 6","t":"Warrior / Normal","atk":2000,"def":1600},"rarity":"C","img":"50005633","code":"25","tcg":22681,"grp":294,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"SDK-026","name":"La Jinn the Mystical Genie of the Lamp","ctype":"monster","keywords":"Fiend DARK Normal Monster SDK-E024","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Normal","atk":1800,"def":1000},"rarity":"C","img":"97590747","code":"26","tcg":22682,"grp":294,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"SDK-027","name":"Rude Kaiser","ctype":"monster","keywords":"Beast-Warrior EARTH Normal Monster SDK-E025","stats":{"a":"EARTH","l":"Level 5","t":"Beast-Warrior / Normal","atk":1800,"def":1600},"rarity":"C","img":"26378150","code":"27","tcg":22683,"grp":294,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"SDK-028","name":"Destroyer Golem","ctype":"monster","keywords":"Rock EARTH Normal Monster SDK-E026","stats":{"a":"EARTH","l":"Level 4","t":"Rock / Normal","atk":1500,"def":1000},"rarity":"C","img":"73481154","code":"28","tcg":22684,"grp":294,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"SDK-029","name":"Skull Red Bird","ctype":"monster","keywords":"Winged Beast WIND Normal Monster SDK-E027","stats":{"a":"WIND","l":"Level 4","t":"Winged Beast / Normal","atk":1550,"def":1200},"rarity":"C","img":"10202894","code":"29","tcg":22685,"grp":294,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"SDK-030","name":"D. Human","ctype":"monster","keywords":"Warrior EARTH Normal Monster SDK-E028","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Normal","atk":1300,"def":1100},"rarity":"C","img":"81057959","code":"30","tcg":22686,"grp":294,"idx":29},
+    {"id":"031","section":"main","num":"031","printed":"SDK-031","name":"Pale Beast","ctype":"monster","keywords":"Beast EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 4","t":"Beast / Normal","atk":1500,"def":1200},"rarity":"C","img":"21263083","code":"31","tcg":22687,"grp":294,"idx":30},
+    {"id":"032","section":"main","num":"032","printed":"SDK-032","name":"Fissure","ctype":"spell","keywords":"Normal Spell SDK-E029","stats":{"t":"Normal Spell"},"rarity":"C","img":"66788016","code":"32","tcg":22688,"grp":294,"idx":31},
+    {"id":"033","section":"main","num":"033","printed":"SDK-033","name":"Trap Hole","ctype":"trap","keywords":"Hole Normal Trap SDK-E030","stats":{"t":"Normal Trap"},"rarity":"C","img":"4206964","code":"33","tcg":22689,"grp":294,"idx":32},
+    {"id":"034","section":"main","num":"034","printed":"SDK-034","name":"Two-Pronged Attack","ctype":"trap","keywords":"Normal Trap SDK-E031","stats":{"t":"Normal Trap"},"rarity":"C","img":"83887306","code":"34","tcg":22690,"grp":294,"idx":33},
+    {"id":"035","section":"main","num":"035","printed":"SDK-035","name":"De-Spell","ctype":"spell","keywords":"Normal Spell SDK-E032","stats":{"t":"Normal Spell"},"rarity":"C","img":"19159413","code":"35","tcg":22691,"grp":294,"idx":34},
+    {"id":"036","section":"main","num":"036","printed":"SDK-036","name":"Monster Reborn","ctype":"spell","keywords":"Normal Spell SDK-E033","stats":{"t":"Normal Spell"},"rarity":"C","img":"83764719","code":"36","tcg":22692,"grp":294,"idx":35},
+    {"id":"037","section":"main","num":"037","printed":"SDK-037","name":"The Inexperienced Spy","ctype":"spell","keywords":"Normal Spell SDK-E034","stats":{"t":"Normal Spell"},"rarity":"C","img":"81820689","code":"37","tcg":22693,"grp":294,"idx":36},
+    {"id":"038","section":"main","num":"038","printed":"SDK-038","name":"Reinforcements","ctype":"trap","keywords":"Normal Trap SDK-E035","stats":{"t":"Normal Trap"},"rarity":"C","img":"17814387","code":"38","tcg":22694,"grp":294,"idx":37},
+    {"id":"039","section":"main","num":"039","printed":"SDK-039","name":"Ancient Telescope","ctype":"spell","keywords":"Normal Spell SDK-E036","stats":{"t":"Normal Spell"},"rarity":"C","img":"17092736","code":"39","tcg":22695,"grp":294,"idx":38},
+    {"id":"040","section":"main","num":"040","printed":"SDK-040","name":"Just Desserts","ctype":"trap","keywords":"Normal Trap SDK-E037","stats":{"t":"Normal Trap"},"rarity":"C","img":"24068492","code":"40","tcg":22696,"grp":294,"idx":39},
+    {"id":"041","section":"main","num":"041","printed":"SDK-041","name":"Lord of D.","ctype":"monster","keywords":"Spellcaster DARK Effect Monster SDK-E038","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Effect","atk":1200,"def":1100},"rarity":"SR","img":"17985575","code":"41","tcg":22697,"grp":294,"idx":40},
+    {"id":"042","section":"main","num":"042","printed":"SDK-042","name":"The Flute of Summoning Dragon","ctype":"spell","keywords":"Normal Spell SDK-E039","stats":{"t":"Normal Spell"},"rarity":"SR","img":"43973174","code":"42","tcg":22698,"grp":294,"idx":41},
+    {"id":"043","section":"main","num":"043","printed":"SDK-043","name":"Mysterious Puppeteer","ctype":"monster","keywords":"Warrior EARTH Effect Monster SDK-E040","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Effect","atk":1000,"def":1500},"rarity":"C","img":"54098121","code":"43","tcg":22699,"grp":294,"idx":42},
+    {"id":"044","section":"main","num":"044","printed":"SDK-044","name":"Trap Master","ctype":"monster","keywords":"Warrior EARTH Flip Effect Monster SDK-E041","stats":{"a":"EARTH","l":"Level 3","t":"Warrior / Flip / Effect","atk":500,"def":1100},"rarity":"C","img":"46461247","code":"44","tcg":22700,"grp":294,"idx":43},
+    {"id":"045","section":"main","num":"045","printed":"SDK-045","name":"Sogen","ctype":"spell","keywords":"Field Spell SDK-E042","stats":{"t":"Field Spell"},"rarity":"C","img":"86318356","code":"45","tcg":22701,"grp":294,"idx":44},
+    {"id":"046","section":"main","num":"046","printed":"SDK-046","name":"Hane-Hane","ctype":"monster","keywords":"Beast EARTH Flip Effect Monster","stats":{"a":"EARTH","l":"Level 2","t":"Beast / Flip / Effect","atk":450,"def":500},"rarity":"C","img":"7089711","code":"46","tcg":22702,"grp":294,"idx":45},
+    {"id":"047","section":"main","num":"047","printed":"SDK-047","name":"Reverse Trap","ctype":"trap","keywords":"Normal Trap SDK-E043","stats":{"t":"Normal Trap"},"rarity":"C","img":"77622396","code":"47","tcg":22703,"grp":294,"idx":46},
+    {"id":"048","section":"main","num":"048","printed":"SDK-048","name":"Remove Trap","ctype":"spell","keywords":"Normal Spell SDK-E044","stats":{"t":"Normal Spell"},"rarity":"C","img":"51482758","code":"48","tcg":22704,"grp":294,"idx":47},
+    {"id":"049","section":"main","num":"049","printed":"SDK-049","name":"Castle Walls","ctype":"trap","keywords":"Normal Trap SDK-E045","stats":{"t":"Normal Trap"},"rarity":"C","img":"44209392","code":"49","tcg":22705,"grp":294,"idx":48},
+    {"id":"050","section":"main","num":"050","printed":"SDK-050","name":"Ultimate Offering","ctype":"trap","keywords":"Continuous Trap SDK-E046","stats":{"t":"Continuous Trap"},"rarity":"C","img":"80604092","code":"50","tcg":22706,"grp":294,"idx":49}
+  ]
+}

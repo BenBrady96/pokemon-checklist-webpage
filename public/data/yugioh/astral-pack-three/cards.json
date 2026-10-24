@@ -1,0 +1,86 @@
+{
+  "id": "yugioh/astral-pack-three",
+  "game": "yugioh",
+  "slug": "astral-pack-three",
+  "name": "Astral Pack Three",
+  "series": "ZEXAL",
+  "kind": "pack",
+  "code": "AP03",
+  "syncKey": "YAP03",
+  "released": "2013-09-13",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "AP03-EN001–AP03-EN026",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from AP03-EN001 to AP03-EN026."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Astral Pack Three Checklist · All 26 Cards",
+    "description": "Free Yu-Gi-Oh! Astral Pack Three checklist with no ads, no sign-up and no tracking. Track all 26 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Astral Pack Three Checklist",
+    "ogDescription": "Track all 26 cards in Yu-Gi-Oh! Astral Pack Three. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 26 cards in Yu-Gi-Oh! Astral Pack Three. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Astral Pack Three",
+    "paragraphs": [
+      "Astral Pack Three is a Yu-Gi-Oh! TCG pack released on 13 September 2013, in the ZEXAL era. It has 26 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Astral Pack Three"
+    ],
+    "tcgplayer": [
+      1289
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"AP03-EN001","name":"Atlantean Marksman","ctype":"monster","keywords":"Atlantean Sea Serpent WATER Effect Monster","stats":{"a":"WATER","l":"Level 3","t":"Sea Serpent / Effect","atk":1400,"def":0},"rarity":"UtR","img":"706925","code":"1","tcg":78037,"grp":1289,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"AP03-EN002","name":"Maestroke the Symphony Djinn","ctype":"monster","keywords":"Djinn Fiend DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 4","t":"Fiend / Xyz","atk":1800,"def":2300},"rarity":"UtR","img":"25341652","code":"2","tcg":78038,"grp":1289,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"AP03-EN003","name":"Fire Formation - Tenki","ctype":"spell","keywords":"Fire Formation Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"UtR","img":"57103969","code":"3","tcg":78039,"grp":1289,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"AP03-EN004","name":"Serene Psychic Witch","ctype":"monster","keywords":"Psychic EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Psychic / Effect","atk":1400,"def":1200},"rarity":"SR","img":"98358303","code":"4","tcg":78040,"grp":1289,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"AP03-EN005","name":"Mermail Abyssgunde","ctype":"monster","keywords":"Mermail Aqua WATER Effect Monster","stats":{"a":"WATER","l":"Level 3","t":"Aqua / Effect","atk":1400,"def":800},"rarity":"SR","img":"69293721","code":"5","tcg":78041,"grp":1289,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"AP03-EN006","name":"Falling Down","ctype":"spell","keywords":"Archfiend Equip Spell","stats":{"t":"Equip Spell"},"rarity":"SR","img":"32919136","code":"6","tcg":78042,"grp":1289,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"AP03-EN007","name":"Miracle Fertilizer","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"SR","img":"44887817","code":"7","tcg":78043,"grp":1289,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"AP03-EN008","name":"Noble Arms - Gallatin","ctype":"spell","keywords":"Noble Knight Equip Spell","stats":{"t":"Equip Spell"},"rarity":"SR","img":"14745409","code":"8","tcg":78044,"grp":1289,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"AP03-EN009","name":"Spellbook Library of the Crescent","ctype":"spell","keywords":"Spellbook Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"40230018","code":"9","tcg":78045,"grp":1289,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"AP03-EN010","name":"Noble Arms - Arfeudutyr","ctype":"spell","keywords":"Noble Knight Equip Spell","stats":{"t":"Equip Spell"},"rarity":"SR","img":"83438826","code":"10","tcg":78046,"grp":1289,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"AP03-EN011","name":"Spellbook Star Hall","ctype":"spell","keywords":"Spellbook Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"SR","img":"56321639","code":"11","tcg":78047,"grp":1289,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"AP03-EN012","name":"Pollinosis","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"SR","img":"91078716","code":"12","tcg":78048,"grp":1289,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"AP03-EN013","name":"Wall of Thorns","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"2779999","code":"13","tcg":78049,"grp":1289,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"AP03-EN014","name":"Curtain of the Dark Ones","ctype":"monster","keywords":"Spellcaster DARK Normal Monster","stats":{"a":"DARK","l":"Level 2","t":"Spellcaster / Normal","atk":600,"def":500},"rarity":"SP","img":"22026707","code":"14","tcg":78051,"grp":1289,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"AP03-EN015","name":"Jowgen the Spiritualist","ctype":"monster","keywords":"Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Spellcaster / Effect","atk":200,"def":1300},"rarity":"C","img":"41855169","code":"15","tcg":78052,"grp":1289,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"AP03-EN016","name":"Swarm of Scarabs","ctype":"monster","keywords":"Insect DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Insect / Effect","atk":500,"def":1000},"rarity":"C","img":"15383415","code":"16","tcg":78053,"grp":1289,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"AP03-EN017","name":"Swarm of Locusts","ctype":"monster","keywords":"Insect DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Insect / Effect","atk":1000,"def":500},"rarity":"C","img":"41872150","code":"17","tcg":78054,"grp":1289,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"AP03-EN018","name":"Des Lacooda","ctype":"monster","keywords":"Zombie EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Zombie / Effect","atk":500,"def":600},"rarity":"C","img":"2326738","code":"18","tcg":78055,"grp":1289,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"AP03-EN019","name":"Imprisoned Queen Archfiend","ctype":"monster","keywords":"Archfiend Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Fiend / Effect","atk":2600,"def":1700},"rarity":"C","img":"52248570","code":"19","tcg":78056,"grp":1289,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"AP03-EN020","name":"Vampire Dragon","ctype":"monster","keywords":"Vampire Zombie DARK Effect Monster","stats":{"a":"DARK","l":"Level 5","t":"Zombie / Effect","atk":2400,"def":0},"rarity":"C","img":"36352429","code":"20","tcg":78057,"grp":1289,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"AP03-EN021","name":"Kamionwizard","ctype":"monster","keywords":"Spellcaster DARK Fusion Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Fusion","atk":1300,"def":1100},"rarity":"SP","img":"41544074","code":"21","tcg":78050,"grp":1289,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"AP03-EN022","name":"Gladiator Beast's Battle Archfiend Shield","ctype":"spell","keywords":"Gladiator Beast Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"8730435","code":"22","tcg":78058,"grp":1289,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"AP03-EN023","name":"Deck Lockdown","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"1149109","code":"23","tcg":78059,"grp":1289,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"AP03-EN024","name":"Super Solar Nutrient","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"28529976","code":"24","tcg":78060,"grp":1289,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"AP03-EN025","name":"Archfiend's Roar","ctype":"trap","keywords":"Archfiend Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"56246017","code":"25","tcg":78061,"grp":1289,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"AP03-EN026","name":"Heavy Slump","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"52417194","code":"26","tcg":78062,"grp":1289,"idx":25}
+  ]
+}

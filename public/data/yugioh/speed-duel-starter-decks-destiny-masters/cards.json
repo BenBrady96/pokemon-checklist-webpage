@@ -1,0 +1,124 @@
+{
+  "id": "yugioh/speed-duel-starter-decks-destiny-masters",
+  "game": "yugioh",
+  "slug": "speed-duel-starter-decks-destiny-masters",
+  "name": "Speed Duel Starter Decks: Destiny Masters",
+  "series": "VRAINS",
+  "kind": "deck",
+  "code": "SS01",
+  "syncKey": "YSS01",
+  "released": "2019-01-24",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "SS01-ENA01–SS01-ENV03",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from SS01-ENA01 to SS01-ENV03."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Speed Duel Starter Decks: Destiny Masters Checklist · All 64 Cards",
+    "description": "Free Yu-Gi-Oh! Speed Duel Starter Decks: Destiny Masters checklist with no ads, no sign-up and no tracking. Track all 64 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Speed Duel Starter Decks: Destiny Masters Checklist",
+    "ogDescription": "Track all 64 cards in Yu-Gi-Oh! Speed Duel Starter Decks: Destiny Masters. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 64 cards in Yu-Gi-Oh! Speed Duel Starter Decks: Destiny Masters. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Speed Duel Starter Decks: Destiny Masters",
+    "paragraphs": [
+      "Speed Duel Starter Decks: Destiny Masters is a Yu-Gi-Oh! TCG deck released on 24 January 2019, in the VRAINS era. It has 64 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Speed Duel Starter Decks: Destiny Masters"
+    ],
+    "tcgplayer": [
+      2372
+    ]
+  },
+  "cards": [
+    {"id":"A01","section":"main","num":"A01","printed":"SS01-ENA01","name":"Dark Magician","ctype":"monster","keywords":"Dark Magician Spellcaster DARK Normal Monster","stats":{"a":"DARK","l":"Level 7","t":"Spellcaster / Normal","atk":2500,"def":2100},"rarity":"C","img":"46986416","code":"A1","tcg":183717,"grp":2372,"idx":0},
+    {"id":"A02","section":"main","num":"A02","printed":"SS01-ENA02","name":"Feral Imp","ctype":"monster","keywords":"Fiend DARK Normal Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Normal","atk":1300,"def":1400},"rarity":"C","img":"41392891","code":"A2","tcg":183718,"grp":2372,"idx":1},
+    {"id":"A03","section":"main","num":"A03","printed":"SS01-ENA03","name":"Rogue Doll","ctype":"monster","keywords":"Spellcaster LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Normal","atk":1600,"def":1000},"rarity":"C","img":"91939608","code":"A3","tcg":183719,"grp":2372,"idx":2},
+    {"id":"A04","section":"main","num":"A04","printed":"SS01-ENA04","name":"Dark Magician Girl","ctype":"monster","keywords":"Dark Magician Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Spellcaster / Effect","atk":2000,"def":1700},"rarity":"C","img":"38033121","code":"A4","tcg":183720,"grp":2372,"idx":3},
+    {"id":"A05","section":"main","num":"A05","printed":"SS01-ENA05","name":"Legion the Fiend Jester","ctype":"monster","keywords":"Jester Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Effect","atk":1300,"def":1500},"rarity":"C","img":"25280974","code":"A5","tcg":183721,"grp":2372,"idx":4},
+    {"id":"A06","section":"main","num":"A06","printed":"SS01-ENA06","name":"The Stern Mystic","ctype":"monster","keywords":"Spellcaster LIGHT Flip Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Flip / Effect","atk":1500,"def":1200},"rarity":"C","img":"87557188","code":"A6","tcg":183722,"grp":2372,"idx":5},
+    {"id":"A07","section":"main","num":"A07","printed":"SS01-ENA07","name":"Double Coston","ctype":"monster","keywords":"Zombie DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Zombie / Effect","atk":1700,"def":1650},"rarity":"C","img":"44436472","code":"A7","tcg":183723,"grp":2372,"idx":6},
+    {"id":"A08","section":"main","num":"A08","printed":"SS01-ENA08","name":"Blue Dragon Summoner","ctype":"monster","keywords":"Spellcaster WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Spellcaster / Effect","atk":1500,"def":600},"rarity":"C","img":"55969226","code":"A8","tcg":183724,"grp":2372,"idx":7},
+    {"id":"A09","section":"main","num":"A09","printed":"SS01-ENA09","name":"Thousand Knives","ctype":"spell","keywords":"Dark Magician Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"63391643","code":"A9","tcg":183725,"grp":2372,"idx":8},
+    {"id":"A10","section":"main","num":"A10","printed":"SS01-ENA10","name":"Sage's Stone","ctype":"spell","keywords":"Dark Magician Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"13604200","code":"A10","tcg":183726,"grp":2372,"idx":9},
+    {"id":"A11","section":"main","num":"A11","printed":"SS01-ENA11","name":"Dark Magic Attack","ctype":"spell","keywords":"Dark Magician Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"2314238","code":"A11","tcg":183727,"grp":2372,"idx":10},
+    {"id":"A12","section":"main","num":"A12","printed":"SS01-ENA12","name":"Riryoku","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"34016756","code":"A12","tcg":183728,"grp":2372,"idx":11},
+    {"id":"A13","section":"main","num":"A13","printed":"SS01-ENA13","name":"Tribute Doll","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"2903036","code":"A13","tcg":183729,"grp":2372,"idx":12},
+    {"id":"A14","section":"main","num":"A14","printed":"SS01-ENA14","name":"Wonder Wand","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"67775894","code":"A14","tcg":183730,"grp":2372,"idx":13},
+    {"id":"A15","section":"main","num":"A15","printed":"SS01-ENA15","name":"Lightforce Sword","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"49587034","code":"A15","tcg":183731,"grp":2372,"idx":14},
+    {"id":"A16","section":"main","num":"A16","printed":"SS01-ENA16","name":"Magician's Circle","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"50755","code":"A16","tcg":183732,"grp":2372,"idx":15},
+    {"id":"A17","section":"main","num":"A17","printed":"SS01-ENA17","name":"Magic Jammer","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"C","img":"77414722","code":"A17","tcg":183733,"grp":2372,"idx":16},
+    {"id":"A18","section":"main","num":"A18","printed":"SS01-ENA18","name":"Seven Tools of the Bandit","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"C","img":"3819470","code":"A18","tcg":183734,"grp":2372,"idx":17},
+    {"id":"AS1","section":"main","num":"AS1","printed":"SS01-ENAS1","name":"Power of Dark","ctype":"skill","keywords":"Yugi Skill","stats":{"t":"Skill · Yugi"},"rarity":"C","img":"300201001","code":"AS1","tcg":183705,"grp":2372,"idx":18},
+    {"id":"AS2","section":"main","num":"AS2","printed":"SS01-ENAS2","name":"Destiny Draw (Skill Card)","ctype":"skill","keywords":"Yugi Skill","stats":{"t":"Skill · Yugi"},"rarity":"C","img":"300201002","code":"AS2","tcg":183706,"grp":2372,"idx":19},
+    {"id":"AS3","section":"main","num":"AS3","printed":"SS01-ENAS3","name":"Final Draw","ctype":"skill","keywords":"Yugi Skill","stats":{"t":"Skill · Yugi"},"rarity":"C","img":"300201003","code":"AS3","tcg":183707,"grp":2372,"idx":20},
+    {"id":"B01","section":"main","num":"B01","printed":"SS01-ENB01","name":"Gravekeeper's Curse","ctype":"monster","keywords":"Gravekeeper's Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Spellcaster / Effect","atk":800,"def":800},"rarity":"C","img":"50712728","code":"B1","tcg":183735,"grp":2372,"idx":21},
+    {"id":"B02","section":"main","num":"B02","printed":"SS01-ENB02","name":"Gravekeeper's Spear Soldier","ctype":"monster","keywords":"Gravekeeper's Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Effect","atk":1500,"def":1000},"rarity":"C","img":"63695531","code":"B2","tcg":183736,"grp":2372,"idx":22},
+    {"id":"B03","section":"main","num":"B03","printed":"SS01-ENB03","name":"Gravekeeper's Vassal","ctype":"monster","keywords":"Gravekeeper's Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Spellcaster / Effect","atk":700,"def":500},"rarity":"C","img":"99690140","code":"B3","tcg":183737,"grp":2372,"idx":23},
+    {"id":"B04","section":"main","num":"B04","printed":"SS01-ENB04","name":"Gravekeeper's Chief","ctype":"monster","keywords":"Gravekeeper's Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 5","t":"Spellcaster / Effect","atk":1900,"def":1200},"rarity":"C","img":"62473983","code":"B4","tcg":183738,"grp":2372,"idx":24},
+    {"id":"B05","section":"main","num":"B05","printed":"SS01-ENB05","name":"Gravekeeper's Cannonholder","ctype":"monster","keywords":"Gravekeeper's Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Effect","atk":1400,"def":1200},"rarity":"C","img":"99877698","code":"B5","tcg":183739,"grp":2372,"idx":25},
+    {"id":"B06","section":"main","num":"B06","printed":"SS01-ENB06","name":"Gravekeeper's Assailant","ctype":"monster","keywords":"Gravekeeper's Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Effect","atk":1500,"def":1500},"rarity":"C","img":"25262697","code":"B6","tcg":183741,"grp":2372,"idx":26},
+    {"id":"B07","section":"main","num":"B07","printed":"SS01-ENB07","name":"Gravekeeper's Priestess","ctype":"monster","keywords":"Gravekeeper's Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Spellcaster / Effect","atk":1000,"def":1500},"rarity":"C","img":"3381441","code":"B7","tcg":183740,"grp":2372,"idx":27},
+    {"id":"B08","section":"main","num":"B08","printed":"SS01-ENB08","name":"Gravekeeper's Recruiter","ctype":"monster","keywords":"Gravekeeper's Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Spellcaster / Effect","atk":1200,"def":1500},"rarity":"C","img":"93023479","code":"B8","tcg":183742,"grp":2372,"idx":28},
+    {"id":"B09","section":"main","num":"B09","printed":"SS01-ENB09","name":"Gravekeeper's Shaman","ctype":"monster","keywords":"Gravekeeper's Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Spellcaster / Effect","atk":1500,"def":1500},"rarity":"C","img":"58139128","code":"B9","tcg":183743,"grp":2372,"idx":29},
+    {"id":"B10","section":"main","num":"B10","printed":"SS01-ENB10","name":"Gravekeeper's Oracle","ctype":"monster","keywords":"Gravekeeper's Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 10","t":"Spellcaster / Effect","atk":2000,"def":1500},"rarity":"C","img":"25524823","code":"B10","tcg":183744,"grp":2372,"idx":30},
+    {"id":"B11","section":"main","num":"B11","printed":"SS01-ENB11","name":"A Cat of Ill Omen","ctype":"monster","keywords":"Beast DARK Flip Effect Monster","stats":{"a":"DARK","l":"Level 2","t":"Beast / Flip / Effect","atk":500,"def":300},"rarity":"C","img":"24140059","code":"B11","tcg":183745,"grp":2372,"idx":31},
+    {"id":"B12","section":"main","num":"B12","printed":"SS01-ENB12","name":"Gravekeeper's Stele","ctype":"spell","keywords":"Gravekeeper's Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"99523325","code":"B12","tcg":183746,"grp":2372,"idx":32},
+    {"id":"B13","section":"main","num":"B13","printed":"SS01-ENB13","name":"Hidden Temples of Necrovalley","ctype":"spell","keywords":"Gravekeeper's Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"70000776","code":"B13","tcg":183747,"grp":2372,"idx":33},
+    {"id":"B14","section":"main","num":"B14","printed":"SS01-ENB14","name":"Sebek's Blessing","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"22537443","code":"B14","tcg":183748,"grp":2372,"idx":34},
+    {"id":"B15","section":"main","num":"B15","printed":"SS01-ENB15","name":"Blast Held by a Tribute","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"89041555","code":"B15","tcg":183749,"grp":2372,"idx":35},
+    {"id":"B16","section":"main","num":"B16","printed":"SS01-ENB16","name":"Rite of Spirit","ctype":"trap","keywords":"Gravekeeper's Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"30450531","code":"B16","tcg":183750,"grp":2372,"idx":36},
+    {"id":"B17","section":"main","num":"B17","printed":"SS01-ENB17","name":"The Eye of Truth","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"34694160","code":"B17","tcg":183751,"grp":2372,"idx":37},
+    {"id":"BS1","section":"main","num":"BS1","printed":"SS01-ENBS1","name":"Prescience","ctype":"skill","keywords":"Ishizu Skill","stats":{"t":"Skill · Ishizu"},"rarity":"C","img":"300201004","code":"BS1","tcg":183708,"grp":2372,"idx":38},
+    {"id":"BS2","section":"main","num":"BS2","printed":"SS01-ENBS2","name":"Gravekeeper's Lot","ctype":"skill","keywords":"Ishizu Skill","stats":{"t":"Skill · Ishizu"},"rarity":"C","img":"300201005","code":"BS2","tcg":183709,"grp":2372,"idx":39},
+    {"id":"BS3","section":"main","num":"BS3","printed":"SS01-ENBS3","name":"Millennium Necklace (Skill Card)","ctype":"skill","keywords":"Ishizu Skill","stats":{"t":"Skill · Ishizu"},"rarity":"C","img":"300201006","code":"BS3","tcg":183710,"grp":2372,"idx":40},
+    {"id":"C01","section":"main","num":"C01","printed":"SS01-ENC01","name":"Rogue Doll","ctype":"monster","keywords":"Spellcaster LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Normal","atk":1600,"def":1000},"rarity":"C","img":"91939608","code":"C1","tcg":183752,"grp":2372,"idx":41},
+    {"id":"C02","section":"main","num":"C02","printed":"SS01-ENC02","name":"Toon Alligator","ctype":"monster","keywords":"Alligator Reptile WATER Normal Monster","stats":{"a":"WATER","l":"Level 4","t":"Reptile / Normal","atk":800,"def":1600},"rarity":"C","img":"59383041","code":"C2","tcg":183753,"grp":2372,"idx":42},
+    {"id":"C03","section":"main","num":"C03","printed":"SS01-ENC03","name":"Parrot Dragon","ctype":"monster","keywords":"Toon Dragon WIND Normal Monster","stats":{"a":"WIND","l":"Level 5","t":"Dragon / Normal","atk":2000,"def":1300},"rarity":"C","img":"62762898","code":"C3","tcg":183754,"grp":2372,"idx":43},
+    {"id":"C04","section":"main","num":"C04","printed":"SS01-ENC04","name":"Dark Rabbit","ctype":"monster","keywords":"Beast DARK Normal Monster","stats":{"a":"DARK","l":"Level 4","t":"Beast / Normal","atk":1100,"def":1500},"rarity":"C","img":"99261403","code":"C4","tcg":183755,"grp":2372,"idx":44},
+    {"id":"C05","section":"main","num":"C05","printed":"SS01-ENC05","name":"Toon Masked Sorcerer","ctype":"monster","keywords":"Toon Spellcaster DARK Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Toon","atk":900,"def":1400},"rarity":"C","img":"16392422","code":"C5","tcg":183756,"grp":2372,"idx":45},
+    {"id":"C06","section":"main","num":"C06","printed":"SS01-ENC06","name":"Toon Mermaid","ctype":"monster","keywords":"Toon Aqua WATER Monster","stats":{"a":"WATER","l":"Level 4","t":"Aqua / Toon","atk":1400,"def":1500},"rarity":"C","img":"65458948","code":"C6","tcg":183757,"grp":2372,"idx":46},
+    {"id":"C07","section":"main","num":"C07","printed":"SS01-ENC07","name":"Toon Summoned Skull","ctype":"monster","keywords":"Toon Fiend DARK Monster","stats":{"a":"DARK","l":"Level 6","t":"Fiend / Toon","atk":2500,"def":1200},"rarity":"C","img":"91842653","code":"C7","tcg":183758,"grp":2372,"idx":47},
+    {"id":"C08","section":"main","num":"C08","printed":"SS01-ENC08","name":"Relinquished","ctype":"monster","keywords":"Eyes Restrict Spellcaster DARK Ritual Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Spellcaster / Ritual / Effect","atk":0,"def":0},"rarity":"C","img":"64631466","code":"C8","tcg":183759,"grp":2372,"idx":48},
+    {"id":"C09","section":"main","num":"C09","printed":"SS01-ENC09","name":"Black Illusion Ritual","ctype":"spell","keywords":"Eyes Restrict Ritual Spell","stats":{"t":"Ritual Spell"},"rarity":"C","img":"41426869","code":"C9","tcg":183760,"grp":2372,"idx":49},
+    {"id":"C10","section":"main","num":"C10","printed":"SS01-ENC10","name":"Toon Table of Contents","ctype":"spell","keywords":"Toon Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"89997728","code":"C10","tcg":183761,"grp":2372,"idx":50},
+    {"id":"C11","section":"main","num":"C11","printed":"SS01-ENC11","name":"Toon Rollback","ctype":"spell","keywords":"Toon Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"70560957","code":"C11","tcg":183762,"grp":2372,"idx":51},
+    {"id":"C12","section":"main","num":"C12","printed":"SS01-ENC12","name":"Toon World","ctype":"spell","keywords":"Toon Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"15259703","code":"C12","tcg":183763,"grp":2372,"idx":52},
+    {"id":"C13","section":"main","num":"C13","printed":"SS01-ENC13","name":"Yami","ctype":"spell","keywords":"Field Spell","stats":{"t":"Field Spell"},"rarity":"C","img":"59197169","code":"C13","tcg":183764,"grp":2372,"idx":53},
+    {"id":"C14","section":"main","num":"C14","printed":"SS01-ENC14","name":"Sword of Deep-Seated","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"98495314","code":"C14","tcg":183765,"grp":2372,"idx":54},
+    {"id":"C15","section":"main","num":"C15","printed":"SS01-ENC15","name":"Toon Defense","ctype":"trap","keywords":"Toon Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"43509019","code":"C15","tcg":183766,"grp":2372,"idx":55},
+    {"id":"C16","section":"main","num":"C16","printed":"SS01-ENC16","name":"Jar of Greed","ctype":"trap","keywords":"Greed Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"83968380","code":"C16","tcg":183767,"grp":2372,"idx":56},
+    {"id":"C17","section":"main","num":"C17","printed":"SS01-ENC17","name":"Wild Tornado","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"47766694","code":"C17","tcg":183768,"grp":2372,"idx":57},
+    {"id":"CS1","section":"main","num":"CS1","printed":"SS01-ENCS1","name":"It's a Toon World!","ctype":"skill","keywords":"Pegasus Skill","stats":{"t":"Skill · Pegasus"},"rarity":"C","img":"300201007","code":"CS1","tcg":183711,"grp":2372,"idx":58},
+    {"id":"CS2","section":"main","num":"CS2","printed":"SS01-ENCS2","name":"Mind Scan (Skill Card)","ctype":"skill","keywords":"Pegasus Skill","stats":{"t":"Skill · Pegasus"},"rarity":"C","img":"300201008","code":"CS2","tcg":183712,"grp":2372,"idx":59},
+    {"id":"CS3","section":"main","num":"CS3","printed":"SS01-ENCS3","name":"Millennium Eye (Skill Card)","ctype":"skill","keywords":"Pegasus Skill","stats":{"t":"Skill · Pegasus"},"rarity":"C","img":"300201009","code":"CS3","tcg":183713,"grp":2372,"idx":60},
+    {"id":"V01","section":"main","num":"V01","printed":"SS01-ENV01","name":"Shard of Greed","ctype":"spell","keywords":"Greed Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"UR","img":"33904024","code":"V1","tcg":183714,"grp":2372,"idx":61},
+    {"id":"V02","section":"main","num":"V02","printed":"SS01-ENV02","name":"The Golden Apples","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"UR","img":"42671151","code":"V2","tcg":183715,"grp":2372,"idx":62},
+    {"id":"V03","section":"main","num":"V03","printed":"SS01-ENV03","name":"Mimicat","ctype":"spell","keywords":"Toon Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UR","img":"88032456","code":"V3","tcg":183716,"grp":2372,"idx":63}
+  ]
+}

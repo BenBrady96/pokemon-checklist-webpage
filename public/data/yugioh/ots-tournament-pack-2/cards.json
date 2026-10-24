@@ -1,0 +1,87 @@
+{
+  "id": "yugioh/ots-tournament-pack-2",
+  "game": "yugioh",
+  "slug": "ots-tournament-pack-2",
+  "name": "OTS Tournament Pack 2",
+  "series": "ARC-V",
+  "kind": "pack",
+  "code": "OP02",
+  "syncKey": "YOP02",
+  "released": "2016-07-15",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "OP02-EN001–OP02-EN027",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from OP02-EN001 to OP02-EN027."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! OTS Tournament Pack 2 Checklist · All 27 Cards",
+    "description": "Free Yu-Gi-Oh! OTS Tournament Pack 2 checklist with no ads, no sign-up and no tracking. Track all 27 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! OTS Tournament Pack 2 Checklist",
+    "ogDescription": "Track all 27 cards in Yu-Gi-Oh! OTS Tournament Pack 2. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 27 cards in Yu-Gi-Oh! OTS Tournament Pack 2. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About OTS Tournament Pack 2",
+    "paragraphs": [
+      "OTS Tournament Pack 2 is a Yu-Gi-Oh! TCG pack released on 15 July 2016, in the ARC-V era. It has 27 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "OTS Tournament Pack 2"
+    ],
+    "tcgplayer": [
+      1822
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"OP02-EN001","name":"Fog King","ctype":"monster","keywords":"Spellcaster WATER Effect Monster","stats":{"a":"WATER","l":"Level 7","t":"Spellcaster / Effect","atk":0,"def":0},"rarity":"UtR","img":"6614221","code":"1","tcg":121098,"grp":1822,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"OP02-EN002","name":"Kuraz the Light Monarch","ctype":"monster","keywords":"Monarch Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Warrior / Effect","atk":2400,"def":1000},"rarity":"UtR","img":"57666212","code":"2","tcg":121099,"grp":1822,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"OP02-EN003","name":"Raigeki","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UtR","img":"12580477","code":"3","tcg":121100,"grp":1822,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"OP02-EN004","name":"Gameciel, the Sea Turtle Kaiju","ctype":"monster","keywords":"Kaiju Aqua WATER Effect Monster","stats":{"a":"WATER","l":"Level 8","t":"Aqua / Effect","atk":2200,"def":3000},"rarity":"SR","img":"55063751","code":"4","tcg":121101,"grp":1822,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"OP02-EN005","name":"Fiendish Rhino Warrior","ctype":"monster","keywords":"Fiend EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Fiend / Effect","atk":1400,"def":900},"rarity":"SR","img":"81035362","code":"5","tcg":121102,"grp":1822,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"OP02-EN006","name":"Mithra the Thunder Vassal","ctype":"monster","keywords":"Vassal Thunder LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 2","t":"Thunder / Effect","atk":800,"def":1000},"rarity":"SR","img":"22404675","code":"6","tcg":121103,"grp":1822,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"OP02-EN007","name":"The Phantom Knights of Ragged Gloves","ctype":"monster","keywords":"Phantom Knights Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Warrior / Effect","atk":1000,"def":500},"rarity":"SR","img":"63821877","code":"7","tcg":121104,"grp":1822,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"OP02-EN008","name":"Super Quantum Blue Layer","ctype":"monster","keywords":"Super Quant Psychic WATER Effect Monster","stats":{"a":"WATER","l":"Level 3","t":"Psychic / Effect","atk":1200,"def":2000},"rarity":"SR","img":"12369277","code":"8","tcg":121105,"grp":1822,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"OP02-EN009","name":"System Down","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"18895832","code":"9","tcg":121106,"grp":1822,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"OP02-EN010","name":"Mask of Restrict","ctype":"trap","keywords":"Mask Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"SR","img":"29549364","code":"10","tcg":121107,"grp":1822,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"OP02-EN011","name":"Ninjitsu Art of Transformation","ctype":"trap","keywords":"Ninja Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"SR","img":"70861343","code":"11","tcg":121108,"grp":1822,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"OP02-EN012","name":"Armor Ninjitsu Art of Freezing","ctype":"trap","keywords":"Ninja Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"SR","img":"65150219","code":"12","tcg":121109,"grp":1822,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"OP02-EN013","name":"The Prime Monarch","ctype":"trap","keywords":"Monarch Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"SR","img":"54241725","code":"13","tcg":121110,"grp":1822,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"OP02-EN014","name":"Takuhee","ctype":"monster","keywords":"Winged Beast WIND Normal Monster","stats":{"a":"WIND","l":"Level 4","t":"Winged Beast / Normal","atk":1450,"def":1000},"rarity":"SP","img":"3170832","code":"14","tcg":121111,"grp":1822,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"OP02-EN015","name":"Temple of Skulls","ctype":"monster","keywords":"Zombie DARK Normal Monster","stats":{"a":"DARK","l":"Level 4","t":"Zombie / Normal","atk":900,"def":1300},"rarity":"SP","img":"732302","code":"15","tcg":121112,"grp":1822,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"OP02-EN016","name":"Dark Eradicator Warlock","ctype":"monster","keywords":"Dark Magician Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Spellcaster / Effect","atk":2500,"def":2100},"rarity":"C","img":"29436665","code":"16","tcg":121113,"grp":1822,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"OP02-EN017","name":"Infernity Archfiend","ctype":"monster","keywords":"Archfiend Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Effect","atk":1800,"def":1200},"rarity":"C","img":"99177923","code":"17","tcg":121114,"grp":1822,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"OP02-EN018","name":"Cyber Dragon Core","ctype":"monster","keywords":"Cyber Dragon Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 2","t":"Machine / Effect","atk":400,"def":1500},"rarity":"C","img":"23893227","code":"18","tcg":121115,"grp":1822,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"OP02-EN019","name":"Galaxy Dragon","ctype":"monster","keywords":"Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Dragon / Effect","atk":2000,"def":1200},"rarity":"C","img":"9024367","code":"19","tcg":121116,"grp":1822,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"OP02-EN020","name":"Prediction Princess Coinorma","ctype":"monster","keywords":"Prediction Princess Fairy EARTH Flip Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Fairy / Flip / Effect","atk":800,"def":1400},"rarity":"C","img":"32231618","code":"20","tcg":121117,"grp":1822,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"OP02-EN021","name":"Prediction Princess Tarotrei","ctype":"monster","keywords":"Prediction Princess Fairy LIGHT Ritual Effect Monster","stats":{"a":"LIGHT","l":"Level 9","t":"Fairy / Ritual / Effect","atk":2700,"def":1200},"rarity":"C","img":"94997874","code":"21","tcg":121118,"grp":1822,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"OP02-EN022","name":"Skullbird","ctype":"monster","keywords":"Winged Beast WIND Fusion Monster","stats":{"a":"WIND","l":"Level 6","t":"Winged Beast / Fusion","atk":1900,"def":1700},"rarity":"SP","img":"8327462","code":"22","tcg":121119,"grp":1822,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"OP02-EN023","name":"United We Stand","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"56747793","code":"23","tcg":121120,"grp":1822,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"OP02-EN024","name":"The Melody of Awakening Dragon","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"48800175","code":"24","tcg":121121,"grp":1822,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"OP02-EN025","name":"Prediction Ritual","ctype":"spell","keywords":"Prediction Princess Ritual Spell","stats":{"t":"Ritual Spell"},"rarity":"C","img":"30392583","code":"25","tcg":121122,"grp":1822,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"OP02-EN026","name":"Ninjitsu Art of Super-Transformation","ctype":"trap","keywords":"Ninja Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"90200789","code":"26","tcg":121123,"grp":1822,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"OP02-EN027","name":"Wiretap","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"C","img":"34507039","code":"27","tcg":121124,"grp":1822,"idx":26}
+  ]
+}

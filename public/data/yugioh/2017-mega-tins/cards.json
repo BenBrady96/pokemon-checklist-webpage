@@ -1,0 +1,68 @@
+{
+  "id": "yugioh/2017-mega-tins",
+  "game": "yugioh",
+  "slug": "2017-mega-tins",
+  "name": "2017 Mega-Tins",
+  "series": "VRAINS",
+  "kind": "tin",
+  "code": "CT14",
+  "syncKey": "YCT14",
+  "released": "2017-08-24",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "CT14-EN001–CT14-EN009",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from CT14-EN001 to CT14-EN009."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! 2017 Mega-Tins Checklist · All 8 Cards",
+    "description": "Free Yu-Gi-Oh! 2017 Mega-Tins checklist with no ads, no sign-up and no tracking. Track all 8 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! 2017 Mega-Tins Checklist",
+    "ogDescription": "Track all 8 cards in Yu-Gi-Oh! 2017 Mega-Tins. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 8 cards in Yu-Gi-Oh! 2017 Mega-Tins. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About 2017 Mega-Tins",
+    "paragraphs": [
+      "2017 Mega-Tins is a Yu-Gi-Oh! TCG tin released on 24 August 2017, in the VRAINS era. It has 8 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "2017 Mega-Tins"
+    ],
+    "tcgplayer": [
+      1990
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"CT14-EN001","name":"Dark Magician","ctype":"monster","keywords":"Dark Magician Spellcaster DARK Normal Monster","stats":{"a":"DARK","l":"Level 7","t":"Spellcaster / Normal","atk":2500,"def":2100},"rarity":"ScR","img":"46986418","code":"1","tcg":141268,"grp":1990,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"CT14-EN002","name":"Blue-Eyes White Dragon","ctype":"monster","keywords":"Blue-Eyes Dragon LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Normal","atk":3000,"def":2500},"rarity":"ScR","img":"89631140","code":"2","tcg":141273,"grp":1990,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"CT14-EN003","name":"Proxy Dragon","ctype":"monster","keywords":"Cyberse LIGHT Link Monster","stats":{"a":"LIGHT","l":"Link 2","t":"Cyberse / Link","atk":1400},"rarity":"UR","img":"22862454","code":"3","tcg":141276,"grp":1990,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"CT14-EN004","name":"Pot of Desires","ctype":"spell","keywords":"Greed Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UR","img":"35261759","code":"4","tcg":141277,"grp":1990,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"CT14-EN005","name":"Number 71: Rebarian Shark","ctype":"monster","keywords":"Dragon WATER Xyz Monster","stats":{"a":"WATER","l":"Rank 3","t":"Dragon / Xyz","atk":0,"def":2000},"rarity":"SR","img":"59479050","code":"5","tcg":141269,"grp":1990,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"CT14-EN006","name":"Dreamland","ctype":"spell","keywords":"Field Spell","stats":{"t":"Field Spell"},"rarity":"SR","img":"26920296","code":"6","tcg":141270,"grp":1990,"idx":5},
+    {"id":"008","section":"main","num":"008","printed":"CT14-EN008","name":"Number 68: Sanaphond the Sky Prison","ctype":"monster","keywords":"Rock DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 8","t":"Rock / Xyz","atk":2100,"def":2700},"rarity":"SR","img":"23085002","code":"8","tcg":141274,"grp":1990,"idx":6},
+    {"id":"009","section":"main","num":"009","printed":"CT14-EN009","name":"Elder Entity N'tss","ctype":"monster","keywords":"Fairy LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fairy / Fusion","atk":2500,"def":1200},"rarity":"SR","img":"80532587","code":"9","tcg":141275,"grp":1990,"idx":7}
+  ]
+}

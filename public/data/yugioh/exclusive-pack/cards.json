@@ -1,0 +1,68 @@
+{
+  "id": "yugioh/exclusive-pack",
+  "game": "yugioh",
+  "slug": "exclusive-pack",
+  "name": "Exclusive Pack",
+  "series": "Duel Monsters",
+  "kind": "pack",
+  "code": "EP1",
+  "syncKey": "YEP1",
+  "released": "2004-07-25",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "EP1-EN001–EP1-EN008",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from EP1-EN001 to EP1-EN008."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Exclusive Pack Checklist · All 8 Cards",
+    "description": "Free Yu-Gi-Oh! Exclusive Pack checklist with no ads, no sign-up and no tracking. Track all 8 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Exclusive Pack Checklist",
+    "ogDescription": "Track all 8 cards in Yu-Gi-Oh! Exclusive Pack. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 8 cards in Yu-Gi-Oh! Exclusive Pack. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Exclusive Pack",
+    "paragraphs": [
+      "Exclusive Pack is a Yu-Gi-Oh! TCG pack released on 25 July 2004, in the Duel Monsters era. It has 8 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Exclusive Pack"
+    ],
+    "tcgplayer": [
+      357
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"EP1-EN001","name":"Theinen the Great Sphinx","ctype":"monster","keywords":"Sphinx Beast LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 10","t":"Beast / Effect","atk":3500,"def":3000},"rarity":"UR","img":"87997872","code":"1","tcg":23328,"grp":357,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"EP1-EN002","name":"Andro Sphinx","ctype":"monster","keywords":"Sphinx Beast LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 10","t":"Beast / Effect","atk":3000,"def":2500},"rarity":"UR","img":"15013468","code":"2","tcg":23329,"grp":357,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"EP1-EN003","name":"Sphinx Teleia","ctype":"monster","keywords":"Sphinx Beast LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 10","t":"Beast / Effect","atk":2500,"def":3000},"rarity":"UR","img":"51402177","code":"3","tcg":23330,"grp":357,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"EP1-EN004","name":"Rare Metal Dragon","ctype":"monster","keywords":"Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Dragon / Effect","atk":2400,"def":1200},"rarity":"C","img":"25236056","code":"4","tcg":23331,"grp":357,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"EP1-EN005","name":"Peten the Dark Clown","ctype":"monster","keywords":"Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Spellcaster / Effect","atk":500,"def":1200},"rarity":"C","img":"52624755","code":"5","tcg":23332,"grp":357,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"EP1-EN006","name":"Familiar Knight","ctype":"monster","keywords":"Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Warrior / Effect","atk":1200,"def":1400},"rarity":"C","img":"89731911","code":"6","tcg":23333,"grp":357,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"EP1-EN007","name":"Inferno Tempest","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"14391920","code":"7","tcg":23334,"grp":357,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"EP1-EN008","name":"Return from the Different Dimension","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"27174286","code":"8","tcg":23335,"grp":357,"idx":7}
+  ]
+}

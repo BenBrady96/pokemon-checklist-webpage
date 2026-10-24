@@ -1,0 +1,99 @@
+{
+  "id": "yugioh/onslaught-of-the-fire-kings-structure-deck",
+  "game": "yugioh",
+  "slug": "onslaught-of-the-fire-kings-structure-deck",
+  "name": "Onslaught of the Fire Kings Structure Deck",
+  "series": "ZEXAL",
+  "kind": "deck",
+  "code": "SDOK",
+  "syncKey": "YSDOK",
+  "released": "2013-02-08",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "SDOK-EN001–SDOK-EN039",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from SDOK-EN001 to SDOK-EN039."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Onslaught of the Fire Kings Structure Deck Checklist · All 39 Cards",
+    "description": "Free Yu-Gi-Oh! Onslaught of the Fire Kings Structure Deck checklist with no ads, no sign-up and no tracking. Track all 39 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Onslaught of the Fire Kings Structure Deck Checklist",
+    "ogDescription": "Track all 39 cards in Yu-Gi-Oh! Onslaught of the Fire Kings Structure Deck. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 39 cards in Yu-Gi-Oh! Onslaught of the Fire Kings Structure Deck. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Onslaught of the Fire Kings Structure Deck",
+    "paragraphs": [
+      "Onslaught of the Fire Kings Structure Deck is a Yu-Gi-Oh! TCG deck released on 8 February 2013, in the ZEXAL era. It has 39 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Onslaught of the Fire Kings Structure Deck"
+    ],
+    "tcgplayer": [
+      590
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"SDOK-EN001","name":"Fire King High Avatar Garunix","ctype":"monster","keywords":"Fire King Winged Beast FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 8","t":"Winged Beast / Effect","atk":2700,"def":1700},"rarity":"UR","img":"23015896","code":"1","tcg":67707,"grp":590,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"SDOK-EN002","name":"Fire King Avatar Barong","ctype":"monster","keywords":"Fire King Beast-Warrior FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Beast-Warrior / Effect","atk":1800,"def":200},"rarity":"C","img":"69000994","code":"2","tcg":67708,"grp":590,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"SDOK-EN003","name":"Fire King Avatar Kirin","ctype":"monster","keywords":"Fire King Beast FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 3","t":"Beast / Effect","atk":1000,"def":200},"rarity":"C","img":"96594609","code":"3","tcg":67709,"grp":590,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"SDOK-EN004","name":"Sacred Phoenix of Nephthys","ctype":"monster","keywords":"Nephthys Winged Beast FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 8","t":"Winged Beast / Effect","atk":2400,"def":1600},"rarity":"C","img":"61441708","code":"4","tcg":67710,"grp":590,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"SDOK-EN005","name":"Manticore of Darkness","ctype":"monster","keywords":"Beast-Warrior FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 6","t":"Beast-Warrior / Effect","atk":2300,"def":1000},"rarity":"C","img":"77121851","code":"5","tcg":67711,"grp":590,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"SDOK-EN006","name":"Goka, the Pyre of Malice","ctype":"monster","keywords":"Zombie FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 6","t":"Zombie / Effect","atk":2200,"def":1900},"rarity":"C","img":"23116808","code":"6","tcg":67712,"grp":590,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"SDOK-EN007","name":"Hazy Flame Hyppogrif","ctype":"monster","keywords":"Hazy Pyro FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 6","t":"Pyro / Effect","atk":2100,"def":200},"rarity":"C","img":"31303283","code":"7","tcg":67713,"grp":590,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"SDOK-EN008","name":"Laval Lancelord","ctype":"monster","keywords":"Laval Warrior FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 6","t":"Warrior / Effect","atk":2100,"def":200},"rarity":"C","img":"123709","code":"8","tcg":67714,"grp":590,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"SDOK-EN009","name":"Flamvell Firedog","ctype":"monster","keywords":"Flamvell Beast FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Beast / Effect","atk":1900,"def":200},"rarity":"C","img":"23297235","code":"9","tcg":67715,"grp":590,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"SDOK-EN010","name":"Flamvell Poun","ctype":"monster","keywords":"Flamvell Pyro FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 1","t":"Pyro / Effect","atk":200,"def":200},"rarity":"C","img":"28332833","code":"10","tcg":67716,"grp":590,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"SDOK-EN011","name":"Neo Flamvell Sabre","ctype":"monster","keywords":"Flamvell Pyro FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Pyro / Effect","atk":1500,"def":200},"rarity":"C","img":"91554542","code":"11","tcg":67717,"grp":590,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"SDOK-EN012","name":"Royal Firestorm Guards","ctype":"monster","keywords":"Pyro FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Pyro / Effect","atk":1700,"def":1200},"rarity":"C","img":"54040221","code":"12","tcg":67718,"grp":590,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"SDOK-EN013","name":"Volcanic Rocket","ctype":"monster","keywords":"Volcanic Pyro FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Pyro / Effect","atk":1900,"def":1400},"rarity":"C","img":"76459806","code":"13","tcg":67719,"grp":590,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"SDOK-EN014","name":"Volcanic Counter","ctype":"monster","keywords":"Volcanic Pyro FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 3","t":"Pyro / Effect","atk":300,"def":1300},"rarity":"C","img":"66436257","code":"14","tcg":67720,"grp":590,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"SDOK-EN015","name":"Molten Zombie","ctype":"monster","keywords":"Pyro FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Pyro / Effect","atk":1600,"def":400},"rarity":"C","img":"4732017","code":"15","tcg":67721,"grp":590,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"SDOK-EN016","name":"Spirit of Flames","ctype":"monster","keywords":"Pyro FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Pyro / Effect","atk":1700,"def":1000},"rarity":"C","img":"13522325","code":"16","tcg":67722,"grp":590,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"SDOK-EN017","name":"Raging Flame Sprite","ctype":"monster","keywords":"Pyro FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 3","t":"Pyro / Effect","atk":100,"def":200},"rarity":"C","img":"90810762","code":"17","tcg":67723,"grp":590,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"SDOK-EN018","name":"Fox Fire","ctype":"monster","keywords":"Pyro FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 2","t":"Pyro / Effect","atk":300,"def":200},"rarity":"C","img":"88753985","code":"18","tcg":67724,"grp":590,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"SDOK-EN019","name":"Flame Tiger","ctype":"monster","keywords":"Beast FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Beast / Effect","atk":1800,"def":0},"rarity":"C","img":"66499018","code":"19","tcg":67725,"grp":590,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"SDOK-EN020","name":"Little Chimera","ctype":"monster","keywords":"Beast FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 2","t":"Beast / Effect","atk":600,"def":550},"rarity":"C","img":"68658728","code":"20","tcg":67726,"grp":590,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"SDOK-EN021","name":"UFO Turtle","ctype":"monster","keywords":"Machine FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Machine / Effect","atk":1400,"def":1200},"rarity":"C","img":"60806437","code":"21","tcg":67727,"grp":590,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"SDOK-EN022","name":"Onslaught of the Fire Kings","ctype":"spell","keywords":"Fire King Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"22993208","code":"22","tcg":67728,"grp":590,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"SDOK-EN023","name":"Circle of the Fire Kings","ctype":"spell","keywords":"Fire King Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"SR","img":"59388357","code":"23","tcg":67729,"grp":590,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"SDOK-EN024","name":"Rekindling","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"74845897","code":"24","tcg":67730,"grp":590,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"SDOK-EN025","name":"Blaze Accelerator","ctype":"spell","keywords":"Blaze Accelerator Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"69537999","code":"25","tcg":67731,"grp":590,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"SDOK-EN026","name":"Wild Nature's Release","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"61166988","code":"26","tcg":67732,"grp":590,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"SDOK-EN027","name":"Pot of Duality","ctype":"spell","keywords":"Greed Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"98645731","code":"27","tcg":67733,"grp":590,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"SDOK-EN028","name":"Hand Destruction","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"74519184","code":"28","tcg":67734,"grp":590,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"SDOK-EN029","name":"Creature Swap","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"31036355","code":"29","tcg":67735,"grp":590,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"SDOK-EN030","name":"Burden of the Mighty","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"44947065","code":"30","tcg":67736,"grp":590,"idx":29},
+    {"id":"031","section":"main","num":"031","printed":"SDOK-EN031","name":"Backfire","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"82705573","code":"31","tcg":67737,"grp":590,"idx":30},
+    {"id":"032","section":"main","num":"032","printed":"SDOK-EN032","name":"Flamvell Counter","ctype":"trap","keywords":"Flamvell Counter Trap","stats":{"t":"Counter Trap"},"rarity":"C","img":"60718396","code":"32","tcg":67738,"grp":590,"idx":31},
+    {"id":"033","section":"main","num":"033","printed":"SDOK-EN033","name":"Phoenix Wing Wind Blast","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"63356631","code":"33","tcg":67739,"grp":590,"idx":32},
+    {"id":"034","section":"main","num":"034","printed":"SDOK-EN034","name":"Horn of the Phantom Beast","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"21350571","code":"34","tcg":67740,"grp":590,"idx":33},
+    {"id":"035","section":"main","num":"035","printed":"SDOK-EN035","name":"Blast with Chain","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"98239899","code":"35","tcg":67741,"grp":590,"idx":34},
+    {"id":"036","section":"main","num":"036","printed":"SDOK-EN036","name":"Spiritual Fire Art - Kurenai","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"42945701","code":"36","tcg":67742,"grp":590,"idx":35},
+    {"id":"037","section":"main","num":"037","printed":"SDOK-EN037","name":"Regretful Rebirth","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"79544790","code":"37","tcg":67743,"grp":590,"idx":36},
+    {"id":"038","section":"main","num":"038","printed":"SDOK-EN038","name":"Nightmare Wheel","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"54704216","code":"38","tcg":67744,"grp":590,"idx":37},
+    {"id":"039","section":"main","num":"039","printed":"SDOK-EN039","name":"Call of the Haunted","ctype":"trap","keywords":"Call of the Haunted Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"97077563","code":"39","tcg":67745,"grp":590,"idx":38}
+  ]
+}

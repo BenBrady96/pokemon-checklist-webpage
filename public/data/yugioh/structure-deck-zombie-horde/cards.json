@@ -1,0 +1,102 @@
+{
+  "id": "yugioh/structure-deck-zombie-horde",
+  "game": "yugioh",
+  "slug": "structure-deck-zombie-horde",
+  "name": "Structure Deck: Zombie Horde",
+  "series": "VRAINS",
+  "kind": "deck",
+  "code": "SR07",
+  "syncKey": "YSR07",
+  "released": "2018-11-01",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "SR07-EN000–SR07-EN041",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from SR07-EN000 to SR07-EN041."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Structure Deck: Zombie Horde Checklist · All 42 Cards",
+    "description": "Free Yu-Gi-Oh! Structure Deck: Zombie Horde checklist with no ads, no sign-up and no tracking. Track all 42 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Structure Deck: Zombie Horde Checklist",
+    "ogDescription": "Track all 42 cards in Yu-Gi-Oh! Structure Deck: Zombie Horde. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 42 cards in Yu-Gi-Oh! Structure Deck: Zombie Horde. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Structure Deck: Zombie Horde",
+    "paragraphs": [
+      "Structure Deck: Zombie Horde is a Yu-Gi-Oh! TCG deck released on 1 November 2018, in the VRAINS era. It has 42 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Structure Deck: Zombie Horde"
+    ],
+    "tcgplayer": [
+      2339
+    ]
+  },
+  "cards": [
+    {"id":"000","section":"main","num":"000","printed":"SR07-EN000","name":"Tatsunecro","ctype":"monster","keywords":"Zombie DARK Tuner Monster","stats":{"a":"DARK","l":"Level 3","t":"Zombie / Tuner","atk":500,"def":1700},"rarity":"SR","img":"3096468","code":"0","tcg":179253,"grp":2339,"idx":0},
+    {"id":"001","section":"main","num":"001","printed":"SR07-EN001","name":"Doomking Balerdroch","ctype":"monster","keywords":"Zombie DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Zombie / Effect","atk":2800,"def":2000},"rarity":"UR","img":"39185163","code":"1","tcg":179254,"grp":2339,"idx":1},
+    {"id":"002","section":"main","num":"002","printed":"SR07-EN002","name":"Necroworld Banshee","ctype":"monster","keywords":"Field Searcher Zombie DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Zombie / Effect","atk":1800,"def":200},"rarity":"SR","img":"66570171","code":"2","tcg":179255,"grp":2339,"idx":2},
+    {"id":"003","section":"main","num":"003","printed":"SR07-EN003","name":"Glow-Up Bloom","ctype":"monster","keywords":"Zombie DARK Tuner Monster","stats":{"a":"DARK","l":"Level 1","t":"Zombie / Tuner","atk":0,"def":0},"rarity":"SR","img":"92964816","code":"3","tcg":179256,"grp":2339,"idx":3},
+    {"id":"004","section":"main","num":"004","printed":"SR07-EN004","name":"Kasha","ctype":"monster","keywords":"Zombie EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 8","t":"Zombie / Effect","atk":-1,"def":1000},"rarity":"C","img":"52512994","code":"4","tcg":179257,"grp":2339,"idx":4},
+    {"id":"005","section":"main","num":"005","printed":"SR07-EN005","name":"Red-Eyes Zombie Dragon","ctype":"monster","keywords":"Red-Eyes Zombie DARK Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Zombie / Effect","atk":2400,"def":2000},"rarity":"C","img":"5186893","code":"5","tcg":179258,"grp":2339,"idx":5},
+    {"id":"006","section":"main","num":"006","printed":"SR07-EN006","name":"Malevolent Mech - Goku En","ctype":"monster","keywords":"Zombie LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Zombie / Effect","atk":2400,"def":1400},"rarity":"C","img":"31571902","code":"6","tcg":179259,"grp":2339,"idx":6},
+    {"id":"007","section":"main","num":"007","printed":"SR07-EN007","name":"Endless Decay","ctype":"monster","keywords":"Zombie DARK Effect Monster","stats":{"a":"DARK","l":"Level 5","t":"Zombie / Effect","atk":-1,"def":0},"rarity":"C","img":"7845138","code":"7","tcg":179260,"grp":2339,"idx":7},
+    {"id":"008","section":"main","num":"008","printed":"SR07-EN008","name":"Paladin of the Cursed Dragon","ctype":"monster","keywords":"Zombie LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Zombie / Effect","atk":1900,"def":1200},"rarity":"C","img":"68670547","code":"8","tcg":179261,"grp":2339,"idx":8},
+    {"id":"009","section":"main","num":"009","printed":"SR07-EN009","name":"Immortal Ruler","ctype":"monster","keywords":"Zombie EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Zombie / Effect","atk":1800,"def":200},"rarity":"C","img":"32485518","code":"9","tcg":179262,"grp":2339,"idx":9},
+    {"id":"010","section":"main","num":"010","printed":"SR07-EN010","name":"Zombie Master","ctype":"monster","keywords":"Zombie DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Zombie / Effect","atk":1800,"def":0},"rarity":"C","img":"17259470","code":"10","tcg":179263,"grp":2339,"idx":10},
+    {"id":"011","section":"main","num":"011","printed":"SR07-EN011","name":"Tristan, Knight of the Underworld","ctype":"monster","keywords":"Zombie DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Zombie / Effect","atk":1800,"def":0},"rarity":"C","img":"96163807","code":"11","tcg":179264,"grp":2339,"idx":11},
+    {"id":"012","section":"main","num":"012","printed":"SR07-EN012","name":"Mezuki","ctype":"monster","keywords":"Zombie EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Zombie / Effect","atk":1700,"def":800},"rarity":"C","img":"92826944","code":"12","tcg":179265,"grp":2339,"idx":12},
+    {"id":"013","section":"main","num":"013","printed":"SR07-EN013","name":"Gozuki","ctype":"monster","keywords":"Zombie EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Zombie / Effect","atk":1700,"def":800},"rarity":"C","img":"52467217","code":"13","tcg":179266,"grp":2339,"idx":13},
+    {"id":"014","section":"main","num":"014","printed":"SR07-EN014","name":"Shutendoji","ctype":"monster","keywords":"Zombie EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Zombie / Effect","atk":1500,"def":800},"rarity":"C","img":"65422840","code":"14","tcg":179267,"grp":2339,"idx":14},
+    {"id":"015","section":"main","num":"015","printed":"SR07-EN015","name":"Pyramid Turtle","ctype":"monster","keywords":"Zombie EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Zombie / Effect","atk":1200,"def":1400},"rarity":"C","img":"77044671","code":"15","tcg":179268,"grp":2339,"idx":15},
+    {"id":"016","section":"main","num":"016","printed":"SR07-EN016","name":"Goblin Zombie","ctype":"monster","keywords":"Zombie DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Zombie / Effect","atk":1100,"def":1050},"rarity":"C","img":"63665875","code":"16","tcg":179269,"grp":2339,"idx":16},
+    {"id":"017","section":"main","num":"017","printed":"SR07-EN017","name":"Isolde, Belle of the Underworld","ctype":"monster","keywords":"Zombie DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Zombie / Effect","atk":1000,"def":0},"rarity":"C","img":"22657402","code":"17","tcg":179270,"grp":2339,"idx":17},
+    {"id":"018","section":"main","num":"018","printed":"SR07-EN018","name":"Shiranui Solitaire","ctype":"monster","keywords":"Shiranui Zombie FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Zombie / Effect","atk":500,"def":0},"rarity":"C","img":"94801854","code":"18","tcg":179271,"grp":2339,"idx":18},
+    {"id":"019","section":"main","num":"019","printed":"SR07-EN019","name":"Uni-Zombie","ctype":"monster","keywords":"Zombie DARK Tuner Monster","stats":{"a":"DARK","l":"Level 3","t":"Zombie / Tuner","atk":1300,"def":0},"rarity":"C","img":"49959355","code":"19","tcg":179272,"grp":2339,"idx":19},
+    {"id":"020","section":"main","num":"020","printed":"SR07-EN020","name":"Marionette Mite","ctype":"monster","keywords":"Insect DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Insect / Effect","atk":1000,"def":1000},"rarity":"C","img":"87514539","code":"20","tcg":179273,"grp":2339,"idx":20},
+    {"id":"021","section":"main","num":"021","printed":"SR07-EN021","name":"Beast of the Pharaoh","ctype":"monster","keywords":"Zombie EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Zombie / Effect","atk":400,"def":600},"rarity":"C","img":"83903521","code":"21","tcg":179274,"grp":2339,"idx":21},
+    {"id":"022","section":"main","num":"022","printed":"SR07-EN022","name":"Scapeghost","ctype":"monster","keywords":"Zombie DARK Tuner Monster","stats":{"a":"DARK","l":"Level 1","t":"Zombie / Tuner","atk":0,"def":0},"rarity":"C","img":"67284107","code":"22","tcg":179275,"grp":2339,"idx":22},
+    {"id":"023","section":"main","num":"023","printed":"SR07-EN023","name":"Zombie Necronize","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"38363525","code":"23","tcg":179276,"grp":2339,"idx":23},
+    {"id":"024","section":"main","num":"024","printed":"SR07-EN024","name":"Zombie Power Struggle","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"65357623","code":"24","tcg":179277,"grp":2339,"idx":24},
+    {"id":"025","section":"main","num":"025","printed":"SR07-EN025","name":"Zombie World","ctype":"spell","keywords":"Field Spell","stats":{"t":"Field Spell"},"rarity":"C","img":"4064256","code":"25","tcg":179278,"grp":2339,"idx":25},
+    {"id":"026","section":"main","num":"026","printed":"SR07-EN026","name":"Overpowering Eye","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"60577362","code":"26","tcg":179279,"grp":2339,"idx":26},
+    {"id":"027","section":"main","num":"027","printed":"SR07-EN027","name":"Book of Life","ctype":"spell","keywords":"Book of Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"2204140","code":"27","tcg":179280,"grp":2339,"idx":27},
+    {"id":"028","section":"main","num":"028","printed":"SR07-EN028","name":"Call of the Mummy","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"4861205","code":"28","tcg":179281,"grp":2339,"idx":28},
+    {"id":"029","section":"main","num":"029","printed":"SR07-EN029","name":"Foolish Burial","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"81439174","code":"29","tcg":179282,"grp":2339,"idx":29},
+    {"id":"030","section":"main","num":"030","printed":"SR07-EN030","name":"Monster Gate","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"43040603","code":"30","tcg":179283,"grp":2339,"idx":30},
+    {"id":"031","section":"main","num":"031","printed":"SR07-EN031","name":"Dragged Down into the Grave","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"16435215","code":"31","tcg":179284,"grp":2339,"idx":31},
+    {"id":"032","section":"main","num":"032","printed":"SR07-EN032","name":"Burial from a Different Dimension","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"48976825","code":"32","tcg":179285,"grp":2339,"idx":32},
+    {"id":"033","section":"main","num":"033","printed":"SR07-EN033","name":"Shared Ride","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"1372887","code":"33","tcg":179286,"grp":2339,"idx":33},
+    {"id":"034","section":"main","num":"034","printed":"SR07-EN034","name":"Return of the Zombies","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"91742238","code":"34","tcg":179287,"grp":2339,"idx":34},
+    {"id":"035","section":"main","num":"035","printed":"SR07-EN035","name":"Haunted Shrine","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"39033131","code":"35","tcg":179288,"grp":2339,"idx":35},
+    {"id":"036","section":"main","num":"036","printed":"SR07-EN036","name":"Trap of the Imperial Tomb","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"80955168","code":"36","tcg":179289,"grp":2339,"idx":36},
+    {"id":"037","section":"main","num":"037","printed":"SR07-EN037","name":"Needlebug Nest","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"84968490","code":"37","tcg":179290,"grp":2339,"idx":37},
+    {"id":"038","section":"main","num":"038","printed":"SR07-EN038","name":"Metaverse","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"89208725","code":"38","tcg":179291,"grp":2339,"idx":38},
+    {"id":"039","section":"main","num":"039","printed":"SR07-EN039","name":"Anti-Spell Fragrance","ctype":"trap","keywords":"Anti Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"58921041","code":"39","tcg":179292,"grp":2339,"idx":39},
+    {"id":"040","section":"main","num":"040","printed":"SR07-EN040","name":"Mask of Restrict","ctype":"trap","keywords":"Mask Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"29549364","code":"40","tcg":179293,"grp":2339,"idx":40},
+    {"id":"041","section":"main","num":"041","printed":"SR07-EN041","name":"Red-Eyes Zombie Necro Dragon","ctype":"monster","keywords":"Red-Eyes Zombie DARK Synchro Monster","stats":{"a":"DARK","l":"Level 7","t":"Zombie / Synchro","atk":2400,"def":2000},"rarity":"UR","img":"28240337","code":"41","tcg":179294,"grp":2339,"idx":41}
+  ]
+}

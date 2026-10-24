@@ -1,0 +1,97 @@
+{
+  "id": "yugioh/machina-mayhem-structure-deck",
+  "game": "yugioh",
+  "slug": "machina-mayhem-structure-deck",
+  "name": "Machina Mayhem Structure Deck",
+  "series": "5D’s",
+  "kind": "deck",
+  "code": "SDMM",
+  "syncKey": "YSDMM",
+  "released": "2010-02-19",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "SDMM-EN001–SDMM-EN037",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from SDMM-EN001 to SDMM-EN037."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Machina Mayhem Structure Deck Checklist · All 37 Cards",
+    "description": "Free Yu-Gi-Oh! Machina Mayhem Structure Deck checklist with no ads, no sign-up and no tracking. Track all 37 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Machina Mayhem Structure Deck Checklist",
+    "ogDescription": "Track all 37 cards in Yu-Gi-Oh! Machina Mayhem Structure Deck. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 37 cards in Yu-Gi-Oh! Machina Mayhem Structure Deck. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Machina Mayhem Structure Deck",
+    "paragraphs": [
+      "Machina Mayhem Structure Deck is a Yu-Gi-Oh! TCG deck released on 19 February 2010, in the 5D’s era. It has 37 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Machina Mayhem Structure Deck"
+    ],
+    "tcgplayer": [
+      320
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"SDMM-EN001","name":"Machina Fortress","ctype":"monster","keywords":"Machina Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 7","t":"Machine / Effect","atk":2500,"def":1600},"rarity":"UR","img":"5556499","code":"1","tcg":34641,"grp":320,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"SDMM-EN002","name":"Machina Gearframe","ctype":"monster","keywords":"Machina Machine EARTH Union Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Machine / Union / Effect","atk":1800,"def":0},"rarity":"SR","img":"42940404","code":"2","tcg":34642,"grp":320,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"SDMM-EN003","name":"Machina Peacekeeper","ctype":"monster","keywords":"Machina Machine EARTH Union Effect Monster","stats":{"a":"EARTH","l":"Level 2","t":"Machine / Union / Effect","atk":500,"def":400},"rarity":"SR","img":"78349103","code":"3","tcg":34643,"grp":320,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"SDMM-EN004","name":"Scrap Recycler","ctype":"monster","keywords":"Scrap Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Machine / Effect","atk":900,"def":1200},"rarity":"C","img":"4334811","code":"4","tcg":34644,"grp":320,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"SDMM-EN005","name":"Commander Covington","ctype":"monster","keywords":"Machina Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Machine / Effect","atk":1000,"def":600},"rarity":"C","img":"22666164","code":"5","tcg":34645,"grp":320,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"SDMM-EN006","name":"Machina Soldier","ctype":"monster","keywords":"Machina Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Machine / Effect","atk":1600,"def":1500},"rarity":"C","img":"60999392","code":"6","tcg":34646,"grp":320,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"SDMM-EN007","name":"Machina Sniper","ctype":"monster","keywords":"Machina Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Machine / Effect","atk":1800,"def":800},"rarity":"C","img":"23782705","code":"7","tcg":34647,"grp":320,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"SDMM-EN008","name":"Machina Defender","ctype":"monster","keywords":"Machina Machine EARTH Flip Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Machine / Flip / Effect","atk":1200,"def":1800},"rarity":"C","img":"96384007","code":"8","tcg":34648,"grp":320,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"SDMM-EN009","name":"Machina Force","ctype":"monster","keywords":"Machina Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 10","t":"Machine / Effect","atk":4600,"def":4100},"rarity":"C","img":"58054262","code":"9","tcg":34649,"grp":320,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"SDMM-EN010","name":"Cipher Soldier","ctype":"monster","keywords":"Cipher Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Machine / Effect","atk":1350,"def":1800},"rarity":"C","img":"79853073","code":"10","tcg":34650,"grp":320,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"SDMM-EN011","name":"Blast Sphere","ctype":"monster","keywords":"Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Machine / Effect","atk":1400,"def":1400},"rarity":"C","img":"26302522","code":"11","tcg":34651,"grp":320,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"SDMM-EN012","name":"Heavy Mech Support Platform","ctype":"monster","keywords":"Machine DARK Union Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Machine / Union / Effect","atk":500,"def":500},"rarity":"C","img":"23265594","code":"12","tcg":34652,"grp":320,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"SDMM-EN013","name":"Cyber Dragon","ctype":"monster","keywords":"Cyber Dragon Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 5","t":"Machine / Effect","atk":2100,"def":1600},"rarity":"C","img":"70095154","code":"13","tcg":34653,"grp":320,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"SDMM-EN014","name":"Proto-Cyber Dragon","ctype":"monster","keywords":"Cyber Dragon Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Machine / Effect","atk":1100,"def":600},"rarity":"C","img":"26439287","code":"14","tcg":34654,"grp":320,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"SDMM-EN015","name":"Green Gadget","ctype":"monster","keywords":"Gadget Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Machine / Effect","atk":1400,"def":600},"rarity":"C","img":"41172955","code":"15","tcg":34655,"grp":320,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"SDMM-EN016","name":"Red Gadget","ctype":"monster","keywords":"Gadget Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Machine / Effect","atk":1300,"def":1500},"rarity":"C","img":"86445415","code":"16","tcg":34656,"grp":320,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"SDMM-EN017","name":"Yellow Gadget","ctype":"monster","keywords":"Gadget Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Machine / Effect","atk":1200,"def":1200},"rarity":"C","img":"13839120","code":"17","tcg":34657,"grp":320,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"SDMM-EN018","name":"Armored Cybern","ctype":"monster","keywords":"Cyber Dragon Machine WIND Union Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Machine / Union / Effect","atk":0,"def":2000},"rarity":"C","img":"67159705","code":"18","tcg":34658,"grp":320,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"SDMM-EN019","name":"Cyber Valley","ctype":"monster","keywords":"Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Machine / Effect","atk":0,"def":0},"rarity":"C","img":"3657444","code":"19","tcg":34659,"grp":320,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"SDMM-EN020","name":"The Big Saturn","ctype":"monster","keywords":"Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Machine / Effect","atk":2800,"def":2200},"rarity":"C","img":"34004470","code":"20","tcg":34660,"grp":320,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"SDMM-EN021","name":"Machina Armored Unit","ctype":"spell","keywords":"Machina Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"31828916","code":"21","tcg":34661,"grp":320,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"SDMM-EN022","name":"Prohibition","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"43711255","code":"22","tcg":34662,"grp":320,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"SDMM-EN023","name":"Swords of Revealing Light","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"72302403","code":"23","tcg":34663,"grp":320,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"SDMM-EN024","name":"Shrink","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"55713623","code":"24","tcg":34664,"grp":320,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"SDMM-EN025","name":"Frontline Base","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"46181000","code":"25","tcg":34665,"grp":320,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"SDMM-EN026","name":"Machine Duplication","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"63995093","code":"26","tcg":34666,"grp":320,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"SDMM-EN027","name":"Inferno Reckless Summon","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"12247206","code":"27","tcg":34667,"grp":320,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"SDMM-EN028","name":"Hand Destruction","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"74519184","code":"28","tcg":34668,"grp":320,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"SDMM-EN029","name":"Card Trader","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"48712195","code":"29","tcg":34669,"grp":320,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"SDMM-EN030","name":"Solidarity","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"86780027","code":"30","tcg":34670,"grp":320,"idx":29},
+    {"id":"031","section":"main","num":"031","printed":"SDMM-EN031","name":"Time Machine","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"80987696","code":"31","tcg":34671,"grp":320,"idx":30},
+    {"id":"032","section":"main","num":"032","printed":"SDMM-EN032","name":"Dimensional Prison","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"70342110","code":"32","tcg":34672,"grp":320,"idx":31},
+    {"id":"033","section":"main","num":"033","printed":"SDMM-EN033","name":"Metalmorph","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"68540058","code":"33","tcg":34673,"grp":320,"idx":32},
+    {"id":"034","section":"main","num":"034","printed":"SDMM-EN034","name":"Rare Metalmorph","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"12503902","code":"34","tcg":34674,"grp":320,"idx":33},
+    {"id":"035","section":"main","num":"035","printed":"SDMM-EN035","name":"Ceasefire","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"36468556","code":"35","tcg":34675,"grp":320,"idx":34},
+    {"id":"036","section":"main","num":"036","printed":"SDMM-EN036","name":"Compulsory Evacuation Device","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"94192409","code":"36","tcg":34676,"grp":320,"idx":35},
+    {"id":"037","section":"main","num":"037","printed":"SDMM-EN037","name":"Roll Out!","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"91597389","code":"37","tcg":34677,"grp":320,"idx":36}
+  ]
+}

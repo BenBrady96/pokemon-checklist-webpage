@@ -1,0 +1,106 @@
+{
+  "id": "yugioh/structure-deck-albaz-strike",
+  "game": "yugioh",
+  "slug": "structure-deck-albaz-strike",
+  "name": "Structure Deck: Albaz Strike",
+  "series": "SEVENS & GO RUSH!!",
+  "kind": "deck",
+  "code": "SDAZ",
+  "syncKey": "YSDAZ",
+  "released": "2022-04-14",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "SDAZ-EN001–SDAZ-EN046",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from SDAZ-EN001 to SDAZ-EN046."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Structure Deck: Albaz Strike Checklist · All 46 Cards",
+    "description": "Free Yu-Gi-Oh! Structure Deck: Albaz Strike checklist with no ads, no sign-up and no tracking. Track all 46 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Structure Deck: Albaz Strike Checklist",
+    "ogDescription": "Track all 46 cards in Yu-Gi-Oh! Structure Deck: Albaz Strike. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 46 cards in Yu-Gi-Oh! Structure Deck: Albaz Strike. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Structure Deck: Albaz Strike",
+    "paragraphs": [
+      "Structure Deck: Albaz Strike is a Yu-Gi-Oh! TCG deck released on 14 April 2022, in the SEVENS &amp; GO RUSH!! era. It has 46 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Structure Deck: Albaz Strike"
+    ],
+    "tcgplayer": [
+      2961
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"SDAZ-EN001","name":"Tri-Brigade Mercourier","ctype":"monster","keywords":"Tri-Brigade Winged Beast DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Winged Beast / Effect","atk":800,"def":0},"rarity":"UR","img":"19096726","code":"1","tcg":267993,"grp":2961,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"SDAZ-EN002","name":"Springans Kitt","ctype":"monster","keywords":"Springans Beast DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Beast / Effect","atk":1700,"def":1000},"rarity":"UR","img":"45484331","code":"2","tcg":267994,"grp":2961,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"SDAZ-EN003","name":"The Golden Swordsoul","ctype":"monster","keywords":"Swordsoul Spellcaster LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Tuner","atk":1800,"def":1500},"rarity":"UR","img":"82489470","code":"3","tcg":267995,"grp":2961,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"SDAZ-EN004","name":"Fallen of Albaz","ctype":"monster","keywords":"Dogmatika Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Dragon / Effect","atk":1800,"def":0},"rarity":"C","img":"68468459","code":"4","tcg":267996,"grp":2961,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"SDAZ-EN005","name":"Albion the Shrouded Dragon","ctype":"monster","keywords":"Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Dragon / Effect","atk":2500,"def":2000},"rarity":"C","img":"25451383","code":"5","tcg":267997,"grp":2961,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"SDAZ-EN006","name":"Dogmatika Fleurdelis, the Knighted","ctype":"monster","keywords":"Dogmatika Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Spellcaster / Effect","atk":2500,"def":2500},"rarity":"C","img":"69680031","code":"6","tcg":267998,"grp":2961,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"SDAZ-EN007","name":"Red-Eyes Darkness Metal Dragon","ctype":"monster","keywords":"Red-Eyes Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 10","t":"Dragon / Effect","atk":2800,"def":2400},"rarity":"C","img":"88264978","code":"7","tcg":267999,"grp":2961,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"SDAZ-EN008","name":"Thunder King, the Lightningstrike Kaiju","ctype":"monster","keywords":"Kaiju Thunder LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 9","t":"Thunder / Effect","atk":3300,"def":2100},"rarity":"C","img":"48770333","code":"8","tcg":268000,"grp":2961,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"SDAZ-EN009","name":"Chaos Dragon Levianeer","ctype":"monster","keywords":"Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Dragon / Effect","atk":3000,"def":0},"rarity":"C","img":"55878038","code":"9","tcg":268001,"grp":2961,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"SDAZ-EN010","name":"Radian, the Multidimensional Kaiju","ctype":"monster","keywords":"Kaiju Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Fiend / Effect","atk":2800,"def":2500},"rarity":"C","img":"28674152","code":"10","tcg":268002,"grp":2961,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"SDAZ-EN011","name":"Artifact Scythe","ctype":"monster","keywords":"Artifact Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 5","t":"Fairy / Effect","atk":2200,"def":900},"rarity":"C","img":"20292186","code":"11","tcg":268003,"grp":2961,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"SDAZ-EN012","name":"White Dragon Wyverburster","ctype":"monster","keywords":"Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Dragon / Effect","atk":1700,"def":1800},"rarity":"C","img":"99234526","code":"12","tcg":268004,"grp":2961,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"SDAZ-EN013","name":"Black Dragon Collapserpent","ctype":"monster","keywords":"Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Dragon / Effect","atk":1800,"def":1700},"rarity":"C","img":"61901281","code":"13","tcg":268005,"grp":2961,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"SDAZ-EN014","name":"Starliege Seyfert","ctype":"monster","keywords":"Starliege Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Dragon / Effect","atk":1800,"def":0},"rarity":"C","img":"15381421","code":"14","tcg":268006,"grp":2961,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"SDAZ-EN015","name":"Keeper of Dragon Magic","ctype":"monster","keywords":"Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Dragon / Effect","atk":1800,"def":1300},"rarity":"C","img":"48048590","code":"15","tcg":268007,"grp":2961,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"SDAZ-EN016","name":"Summoner Monk","ctype":"monster","keywords":"Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Effect","atk":800,"def":1600},"rarity":"C","img":"423585","code":"16","tcg":268008,"grp":2961,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"SDAZ-EN017","name":"Ghost Ogre & Snow Rabbit","ctype":"monster","keywords":"Psychic LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Psychic / Tuner","atk":0,"def":1800},"rarity":"C","img":"59438930","code":"17","tcg":268009,"grp":2961,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"SDAZ-EN018","name":"Effect Veiler","ctype":"monster","keywords":"Spellcaster LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Spellcaster / Tuner","atk":0,"def":0},"rarity":"C","img":"97268402","code":"18","tcg":268010,"grp":2961,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"SDAZ-EN019","name":"Omni Dragon Brotaur","ctype":"monster","keywords":"Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Dragon / Effect","atk":0,"def":0},"rarity":"C","img":"8972398","code":"19","tcg":268011,"grp":2961,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"SDAZ-EN020","name":"Branded Lost","ctype":"spell","keywords":"Branded Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"18973184","code":"20","tcg":268012,"grp":2961,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"SDAZ-EN021","name":"Branded Fusion","ctype":"spell","keywords":"Branded Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"44362883","code":"21","tcg":268013,"grp":2961,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"SDAZ-EN022","name":"Branded in White","ctype":"spell","keywords":"Branded Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"34995106","code":"22","tcg":268014,"grp":2961,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"SDAZ-EN023","name":"Branded Bond","ctype":"spell","keywords":"Branded Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"62022479","code":"23","tcg":268015,"grp":2961,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"SDAZ-EN024","name":"Fusion Gate","ctype":"spell","keywords":"Field Spell","stats":{"t":"Field Spell"},"rarity":"C","img":"33550694","code":"24","tcg":268016,"grp":2961,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"SDAZ-EN025","name":"Fusion Recycling Plant","ctype":"spell","keywords":"Field Spell","stats":{"t":"Field Spell"},"rarity":"C","img":"22829942","code":"25","tcg":268017,"grp":2961,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"SDAZ-EN026","name":"Fusion Substitute","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"74335036","code":"26","tcg":268018,"grp":2961,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"SDAZ-EN027","name":"Gold Sarcophagus","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"75500286","code":"27","tcg":268019,"grp":2961,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"SDAZ-EN028","name":"Pot of Extravagance","ctype":"spell","keywords":"Greed Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"49238328","code":"28","tcg":268020,"grp":2961,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"SDAZ-EN029","name":"Called by the Grave","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"24224830","code":"29","tcg":268021,"grp":2961,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"SDAZ-EN030","name":"Dark Ruler No More","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"54693926","code":"30","tcg":268022,"grp":2961,"idx":29},
+    {"id":"031","section":"main","num":"031","printed":"SDAZ-EN031","name":"Branded Sword","ctype":"trap","keywords":"Branded Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"81767888","code":"31","tcg":268023,"grp":2961,"idx":30},
+    {"id":"032","section":"main","num":"032","printed":"SDAZ-EN032","name":"Branded Retribution","ctype":"trap","keywords":"Branded Counter Trap","stats":{"t":"Counter Trap"},"rarity":"SR","img":"17751597","code":"32","tcg":268024,"grp":2961,"idx":31},
+    {"id":"033","section":"main","num":"033","printed":"SDAZ-EN033","name":"Screams of the Branded","ctype":"trap","keywords":"Branded Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"67100549","code":"33","tcg":268025,"grp":2961,"idx":32},
+    {"id":"034","section":"main","num":"034","printed":"SDAZ-EN034","name":"Judgment of the Branded","ctype":"trap","keywords":"Branded Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"93595154","code":"34","tcg":268026,"grp":2961,"idx":33},
+    {"id":"035","section":"main","num":"035","printed":"SDAZ-EN035","name":"Necro Fusion","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"81223446","code":"35","tcg":268027,"grp":2961,"idx":34},
+    {"id":"036","section":"main","num":"036","printed":"SDAZ-EN036","name":"Back to the Front","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"59919307","code":"36","tcg":268028,"grp":2961,"idx":35},
+    {"id":"037","section":"main","num":"037","printed":"SDAZ-EN037","name":"Warning Point","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"11429811","code":"37","tcg":268029,"grp":2961,"idx":36},
+    {"id":"038","section":"main","num":"038","printed":"SDAZ-EN038","name":"There Can Be Only One","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"24207889","code":"38","tcg":268030,"grp":2961,"idx":37},
+    {"id":"039","section":"main","num":"039","printed":"SDAZ-EN039","name":"Dimensional Barrier","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"83326048","code":"39","tcg":268031,"grp":2961,"idx":38},
+    {"id":"040","section":"main","num":"040","printed":"SDAZ-EN040","name":"Waking the Dragon","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"10813327","code":"40","tcg":268032,"grp":2961,"idx":39},
+    {"id":"041","section":"main","num":"041","printed":"SDAZ-EN041","name":"Mirrorjade the Iceblade Dragon","ctype":"monster","keywords":"Albaz Dragon Wyrm DARK Fusion Monster","stats":{"a":"DARK","l":"Level 8","t":"Wyrm / Fusion","atk":3000,"def":2500},"rarity":"UR","img":"44146295","code":"41","tcg":268033,"grp":2961,"idx":40},
+    {"id":"042","section":"main","num":"042","printed":"SDAZ-EN042","name":"Lubellion the Searing Dragon","ctype":"monster","keywords":"Albaz Dragon Dragon LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Fusion","atk":2500,"def":3000},"rarity":"UR","img":"70534340","code":"42","tcg":268034,"grp":2961,"idx":41},
+    {"id":"043","section":"main","num":"043","printed":"SDAZ-EN043","name":"Titaniklad the Ash Dragon","ctype":"monster","keywords":"Dragon DARK Fusion Monster","stats":{"a":"DARK","l":"Level 8","t":"Dragon / Fusion","atk":2500,"def":2500},"rarity":"C","img":"41373230","code":"43","tcg":268035,"grp":2961,"idx":42},
+    {"id":"044","section":"main","num":"044","printed":"SDAZ-EN044","name":"Brigrand the Glory Dragon","ctype":"monster","keywords":"Beast DARK Fusion Monster","stats":{"a":"DARK","l":"Level 8","t":"Beast / Fusion","atk":2500,"def":2000},"rarity":"C","img":"34848821","code":"44","tcg":268036,"grp":2961,"idx":43},
+    {"id":"045","section":"main","num":"045","printed":"SDAZ-EN045","name":"Sprind the Irondash Dragon","ctype":"monster","keywords":"Machine DARK Fusion Monster","stats":{"a":"DARK","l":"Level 8","t":"Machine / Fusion","atk":2500,"def":2000},"rarity":"C","img":"1906812","code":"45","tcg":268037,"grp":2961,"idx":44},
+    {"id":"046","section":"main","num":"046","printed":"SDAZ-EN046","name":"Albion the Branded Dragon","ctype":"monster","keywords":"Branded Dragon DARK Fusion Monster","stats":{"a":"DARK","l":"Level 8","t":"Dragon / Fusion","atk":2500,"def":2000},"rarity":"C","img":"87746184","code":"46","tcg":268038,"grp":2961,"idx":45}
+  ]
+}

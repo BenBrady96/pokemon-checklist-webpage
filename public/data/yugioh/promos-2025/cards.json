@@ -1,0 +1,86 @@
+{
+  "id": "yugioh/promos-2025",
+  "game": "yugioh",
+  "slug": "promos-2025",
+  "name": "Promos 2025",
+  "series": "Promos",
+  "kind": "promo",
+  "code": "P2025",
+  "syncKey": "YP2025",
+  "released": "2025-07-16",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "25LP-EN000–LART-EN080",
+      "tier": "standard"
+    },
+    {
+      "id": "rarities",
+      "name": "Other Rarities",
+      "short": "Other Rarities",
+      "range": "1 card",
+      "tier": "master"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Main set"
+    ],
+    [
+      "rarities",
+      "Other rarities"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, SCR12, 60x2",
+    "example": "1-20, 45x2, SCR12",
+    "hint": "Separate with commas or spaces. Numbers count down the list in order: <b>1-5</b> is the first five cards and <b>3x2</b> is two copies of the third.",
+    "empty": "Cards run from 25LP-EN000 to LART-EN080."
+  },
+  "help": {
+    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 7 cards, each in its main rarity. Master adds the 1 other rarity. Cards you’ve marked are kept when you switch."
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Promos 2025 Checklist · All 7 Cards",
+    "description": "Free Yu-Gi-Oh! Promos 2025 checklist with no ads, no sign-up and no tracking. Track all 7 cards, or every rarity for a master set, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Promos 2025 Checklist",
+    "ogDescription": "Track all 7 cards in Yu-Gi-Oh! Promos 2025, plus 1 other rarity. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 7 cards in Yu-Gi-Oh! Promos 2025. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Promos 2025",
+    "paragraphs": [
+      "Promos 2025 gathers the 7 promo cards from 7 products released in 2025: WCS 2025 Limited Pack, The Lost Art Promotion 2025 F, The Lost Art Promotion 2025 A, The Lost Art Promotion 2025 B, The Lost Art Promotion 2025 C, The Lost Art Promotion 2025 D and The Lost Art Promotion 2025 E.",
+      "Choose what you’re collecting: the <b>Standard set</b> (the 7 cards, each in its main rarity) or the <b>Master set</b> (all 8, adding the 1 other rarity).",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "The Lost Art Promotion 2025 A",
+      "The Lost Art Promotion 2025 B",
+      "The Lost Art Promotion 2025 C",
+      "The Lost Art Promotion 2025 D",
+      "The Lost Art Promotion 2025 E",
+      "The Lost Art Promotion 2025 F",
+      "WCS 2025 Limited Pack"
+    ],
+    "tcgplayer": [
+      2196
+    ]
+  },
+  "cards": [
+    {"id":"25LP-000","section":"main","num":"25LP-EN000","printed":"25LP-EN000","name":"Exodia the Forbidden One","ctype":"monster","keywords":"Exodia Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Spellcaster / Effect","atk":1000,"def":1000},"note":"WCS 2025 Limited Pack","rarity":"UR","img":"33396948","code":"1","idx":0},
+    {"id":"25LP-000-scr","section":"rarities","num":"25LP-EN000","printed":"25LP-EN000","name":"Exodia the Forbidden One","ctype":"monster","keywords":"Exodia Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Spellcaster / Effect","atk":1000,"def":1000},"note":"WCS 2025 Limited Pack","rarity":"ScR","img":"33396948","badge":"ScR","variant":"Secret Rare","code":"SCR1","idx":1},
+    {"id":"LART-075","section":"main","num":"LART-EN075","printed":"LART-EN075","name":"Full Salvo","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"note":"The Lost Art Promotion 2025 F","rarity":"UR","img":"70865988","code":"2","tcg":675307,"grp":2196,"idx":2},
+    {"id":"LART-076","section":"main","num":"LART-EN076","printed":"LART-EN076","name":"Otohime","ctype":"monster","keywords":"Spellcaster LIGHT Spirit Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Spellcaster / Spirit","atk":0,"def":100},"note":"The Lost Art Promotion 2025 A","rarity":"UR","img":"39751094","code":"3","tcg":646506,"grp":2196,"idx":3},
+    {"id":"LART-077","section":"main","num":"LART-EN077","printed":"LART-EN077","name":"Magical Musketeer Calamity","ctype":"monster","keywords":"Magical Musket Fiend LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fiend / Effect","atk":1500,"def":1300},"note":"The Lost Art Promotion 2025 B","rarity":"UR","img":"68024506","code":"4","tcg":656556,"grp":2196,"idx":4},
+    {"id":"LART-078","section":"main","num":"LART-EN078","printed":"LART-EN078","name":"Blackwing Armed Wing","ctype":"monster","keywords":"Blackwing Winged Beast DARK Synchro Monster","stats":{"a":"DARK","l":"Level 6","t":"Winged Beast / Synchro","atk":2300,"def":1000},"note":"The Lost Art Promotion 2025 C","rarity":"UR","img":"76913983","code":"5","tcg":656979,"grp":2196,"idx":5},
+    {"id":"LART-079","section":"main","num":"LART-EN079","printed":"LART-EN079","name":"Goddess of the Two Sides","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Fairy / Effect","atk":950,"def":700},"note":"The Lost Art Promotion 2025 D","rarity":"UR","img":"50915474","code":"6","tcg":668325,"grp":2196,"idx":6},
+    {"id":"LART-080","section":"main","num":"LART-EN080","printed":"LART-EN080","name":"Backup @Ignister","ctype":"monster","keywords":"@Ignister Cyberse DARK Tuner Monster","stats":{"a":"DARK","l":"Level 3","t":"Cyberse / Tuner","atk":1200,"def":800},"note":"The Lost Art Promotion 2025 E","rarity":"UR","img":"30118811","code":"7","tcg":670194,"grp":2196,"idx":7}
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "id": "yugioh/promos-2013",
+  "game": "yugioh",
+  "slug": "promos-2013",
+  "name": "Promos 2013",
+  "series": "Promos",
+  "kind": "promo",
+  "code": "P2013",
+  "syncKey": "YP2013",
+  "released": "2013-01-18",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "CBLZ-ENSE1–YZ03-EN001",
+      "tier": "standard"
+    },
+    {
+      "id": "rarities",
+      "name": "Other Rarities",
+      "short": "Other Rarities",
+      "range": "1 card",
+      "tier": "master"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Main set"
+    ],
+    [
+      "rarities",
+      "Other rarities"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, SCR12, 60x2",
+    "example": "1-20, 45x2, SCR12",
+    "hint": "Separate with commas or spaces. Numbers count down the list in order: <b>1-5</b> is the first five cards and <b>3x2</b> is two copies of the third.",
+    "empty": "Cards run from CBLZ-ENSE1 to YZ03-EN001."
+  },
+  "help": {
+    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 25 cards, each in its main rarity. Master adds the 1 other rarity. Cards you’ve marked are kept when you switch."
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Promos 2013 Checklist · All 25 Cards",
+    "description": "Free Yu-Gi-Oh! Promos 2013 checklist with no ads, no sign-up and no tracking. Track all 25 cards, or every rarity for a master set, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Promos 2013 Checklist",
+    "ogDescription": "Track all 25 cards in Yu-Gi-Oh! Promos 2013, plus 1 other rarity. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 25 cards in Yu-Gi-Oh! Promos 2013. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Promos 2013",
+    "paragraphs": [
+      "Promos 2013 gathers the 25 promo cards from 16 products released in 2013: Cosmo Blazer: Special Edition, Cosmo Blazer Sneak Peek Participation Card, Collectible Tins 2012 Wave 2.5, Judgment of the Light: Deluxe Edition, Judgment of the Light Sneak Peek Participation Card, Weekly Shonen Jump March 2013 membership promotional card, Weekly Shonen Jump July 2013 membership promotional card, Weekly Shonen Jump September 2013 membership promotional card, Weekly Shonen Jump December 2013 membership promotional card, Lord of the Tachyon Galaxy Sneak Peek Participation Card, Shadow Specters: Special Edition, Shadow Specters Sneak Peek Participation Card, Yu-Gi-Oh! Championship Series 2013 Prize Card, Yu-Gi-Oh! 5D&#39;s Volume 4 promotional card, Yu-Gi-Oh! 5D&#39;s Volume 5 promotional card and Yu-Gi-Oh! ZEXAL Volume 3 promotional card.",
+      "Choose what you’re collecting: the <b>Standard set</b> (the 25 cards, each in its main rarity) or the <b>Master set</b> (all 26, adding the 1 other rarity).",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Collectible Tins 2012 Wave 2.5",
+      "Cosmo Blazer Sneak Peek Participation Card",
+      "Cosmo Blazer: Special Edition",
+      "Judgment of the Light Sneak Peek Participation Card",
+      "Judgment of the Light: Deluxe Edition",
+      "Lord of the Tachyon Galaxy Sneak Peek Participation Card",
+      "Shadow Specters Sneak Peek Participation Card",
+      "Shadow Specters: Special Edition",
+      "Weekly Shonen Jump December 2013 membership promotional card",
+      "Weekly Shonen Jump July 2013 membership promotional card",
+      "Weekly Shonen Jump March 2013 membership promotional card",
+      "Weekly Shonen Jump September 2013 membership promotional card",
+      "Yu-Gi-Oh! 5D's Volume 4 promotional card",
+      "Yu-Gi-Oh! 5D's Volume 5 promotional card",
+      "Yu-Gi-Oh! Championship Series 2013 Prize Card",
+      "Yu-Gi-Oh! ZEXAL Volume 3 promotional card"
+    ],
+    "tcgplayer": [
+      571,
+      1142,
+      281,
+      1156,
+      577,
+      352,
+      1347,
+      576,
+      1112,
+      600
+    ]
+  },
+  "cards": [
+    {"id":"CBLZ-SE1","section":"main","num":"CBLZ-ENSE1","printed":"CBLZ-ENSE1","name":"Wind-Up Shark","ctype":"monster","keywords":"Wind-Up Fish WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Fish / Effect","atk":1500,"def":1300},"note":"Cosmo Blazer: Special Edition","rarity":"SR","img":"25484449","code":"1","tcg":67779,"grp":577,"idx":0},
+    {"id":"CBLZ-SE2","section":"main","num":"CBLZ-ENSE2","printed":"CBLZ-ENSE2","name":"Blade Armor Ninja","ctype":"monster","keywords":"Ninja Warrior WIND Xyz Monster","stats":{"a":"WIND","l":"Rank 4","t":"Warrior / Xyz","atk":2200,"def":1000},"note":"Cosmo Blazer: Special Edition","rarity":"SR","img":"82944432","code":"2","tcg":67780,"grp":577,"idx":1},
+    {"id":"CBLZ-SP1","section":"main","num":"CBLZ-ENSP1","printed":"CBLZ-ENSP1","name":"Noble Arms - Caliburn","ctype":"spell","keywords":"Noble Knight Equip Spell","stats":{"t":"Equip Spell"},"note":"Cosmo Blazer Sneak Peek Participation Card","rarity":"UR","img":"23562407","code":"3","tcg":79695,"grp":576,"idx":2},
+    {"id":"CT09-019","section":"main","num":"CT09-EN019","printed":"CT09-EN019","name":"Prophecy Destroyer","ctype":"monster","keywords":"Spellbook Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Spellcaster / Effect","atk":2500,"def":1200},"note":"Collectible Tins 2012 Wave 2.5","rarity":"ScR","img":"56174248","code":"4","tcg":67593,"grp":571,"idx":3},
+    {"id":"CT09-020","section":"main","num":"CT09-EN020","printed":"CT09-EN020","name":"Endless Decay","ctype":"monster","keywords":"Zombie DARK Effect Monster","stats":{"a":"DARK","l":"Level 5","t":"Zombie / Effect","atk":-1,"def":0},"note":"Collectible Tins 2012 Wave 2.5","rarity":"SR","img":"7845138","code":"5","tcg":67590,"grp":571,"idx":4},
+    {"id":"CT09-021","section":"main","num":"CT09-EN021","printed":"CT09-EN021","name":"Steelswarm Roach","ctype":"monster","keywords":"Steelswarm Fiend DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 4","t":"Fiend / Xyz","atk":1900,"def":0},"note":"Collectible Tins 2012 Wave 2.5","rarity":"SR","img":"37926346","code":"6","tcg":67594,"grp":571,"idx":5},
+    {"id":"CT09-022","section":"main","num":"CT09-EN022","printed":"CT09-EN022","name":"Photon Strike Bounzer","ctype":"monster","keywords":"Bounzer Warrior LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 6","t":"Warrior / Xyz","atk":2700,"def":2000},"note":"Collectible Tins 2012 Wave 2.5","rarity":"SR","img":"92661479","code":"7","tcg":67592,"grp":571,"idx":6},
+    {"id":"CT09-023","section":"main","num":"CT09-EN023","printed":"CT09-EN023","name":"Infernity Barrier","ctype":"trap","keywords":"Infernity Counter Trap","stats":{"t":"Counter Trap"},"note":"Collectible Tins 2012 Wave 2.5","rarity":"SR","img":"9059700","code":"8","tcg":67591,"grp":571,"idx":7},
+    {"id":"JOTL-DE1","section":"main","num":"JOTL-ENDE1","printed":"JOTL-ENDE1","name":"Archfiend Emperor, the First Lord of Horror","ctype":"monster","keywords":"Archfiend Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Fiend / Effect","atk":3000,"def":2000},"note":"Judgment of the Light: Deluxe Edition","rarity":"UR","img":"28423537","code":"9","tcg":71462,"grp":1142,"idx":8},
+    {"id":"JOTL-DE2","section":"main","num":"JOTL-ENDE2","printed":"JOTL-ENDE2","name":"Flying \"C\"","ctype":"monster","keywords":"\"C\" Insect EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Insect / Effect","atk":700,"def":700},"note":"Judgment of the Light: Deluxe Edition","rarity":"UR","img":"80978111","code":"10","tcg":71467,"grp":1142,"idx":9},
+    {"id":"JOTL-DE3","section":"main","num":"JOTL-ENDE3","printed":"JOTL-ENDE3","name":"Dragon Shield","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"note":"Judgment of the Light: Deluxe Edition","rarity":"SR","img":"63300440","code":"11","tcg":71468,"grp":1142,"idx":10},
+    {"id":"JOTL-DE4","section":"main","num":"JOTL-ENDE4","printed":"JOTL-ENDE4","name":"Vampire Kingdom","ctype":"spell","keywords":"Vampire Field Spell","stats":{"t":"Field Spell"},"note":"Judgment of the Light: Deluxe Edition","rarity":"SR","img":"62188962","code":"12","tcg":71469,"grp":1142,"idx":11},
+    {"id":"JOTL-SP1","section":"main","num":"JOTL-ENSP1","printed":"JOTL-ENSP1","name":"Galaxy Serpent","ctype":"monster","keywords":"Dragon LIGHT Normal Tuner Monster","stats":{"a":"LIGHT","l":"Level 2","t":"Dragon / Normal / Tuner","atk":1000,"def":0},"note":"Judgment of the Light Sneak Peek Participation Card","rarity":"UR","img":"11066358","code":"13","tcg":77356,"grp":1142,"idx":12},
+    {"id":"JUMP-064","section":"main","num":"JUMP-EN064","printed":"JUMP-EN064","name":"Number 88: Gimmick Puppet of Leo","ctype":"monster","keywords":"Gimmick Puppet Machine DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 8","t":"Machine / Xyz","atk":3200,"def":2300},"note":"Weekly Shonen Jump March 2013 membership promotional card","rarity":"UR","img":"48995978","code":"14","tcg":161049,"grp":281,"idx":13},
+    {"id":"JUMP-065","section":"main","num":"JUMP-EN065","printed":"JUMP-EN065","name":"Zubaba General","ctype":"monster","keywords":"Warrior EARTH Xyz Monster","stats":{"a":"EARTH","l":"Rank 4","t":"Warrior / Xyz","atk":2000,"def":1000},"note":"Weekly Shonen Jump July 2013 membership promotional card","rarity":"UR","img":"31563350","code":"15","tcg":96512,"grp":281,"idx":14},
+    {"id":"JUMP-066","section":"main","num":"JUMP-EN066","printed":"JUMP-EN066","name":"Vulcan the Divine","ctype":"monster","keywords":"Beast-Warrior FIRE Synchro Monster","stats":{"a":"FIRE","l":"Level 6","t":"Beast-Warrior / Synchro","atk":2000,"def":1600},"note":"Weekly Shonen Jump September 2013 membership promotional card","rarity":"UR","img":"98012938","code":"16","tcg":77357,"grp":281,"idx":15},
+    {"id":"JUMP-067","section":"main","num":"JUMP-EN067","printed":"JUMP-EN067","name":"Archfiend Commander","ctype":"monster","keywords":"Archfiend Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Fiend / Effect","atk":2500,"def":1200},"note":"Weekly Shonen Jump December 2013 membership promotional card","rarity":"UR","img":"68371799","code":"17","tcg":79408,"grp":281,"idx":16},
+    {"id":"LTGY-SP1","section":"main","num":"LTGY-ENSP1","printed":"LTGY-ENSP1","name":"Mecha Phantom Beast Turtletracer","ctype":"monster","keywords":"Mecha Phantom Beast Machine WIND Effect Monster","stats":{"a":"WIND","l":"Level 3","t":"Machine / Effect","atk":500,"def":2000},"note":"Lord of the Tachyon Galaxy Sneak Peek Participation Card","rarity":"UR","img":"76902476","code":"18","tcg":79258,"grp":1112,"idx":17},
+    {"id":"SHSP-SE1","section":"main","num":"SHSP-ENSE1","printed":"SHSP-ENSE1","name":"Stardust Dragon","ctype":"monster","keywords":"Stardust Dragon WIND Synchro Monster","stats":{"a":"WIND","l":"Level 8","t":"Dragon / Synchro","atk":2500,"def":2000},"note":"Shadow Specters: Special Edition","rarity":"SR","img":"44508094","code":"19","tcg":77451,"grp":1156,"idx":18},
+    {"id":"SHSP-SE2","section":"main","num":"SHSP-ENSE2","printed":"SHSP-ENSE2","name":"Tuning","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"note":"Shadow Specters: Special Edition","rarity":"SR","img":"96363153","code":"20","tcg":77452,"grp":1156,"idx":19},
+    {"id":"SHSP-SP1","section":"main","num":"SHSP-ENSP1","printed":"SHSP-ENSP1","name":"Ghostrick Ghoul","ctype":"monster","keywords":"Ghostrick Zombie DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Zombie / Effect","atk":1100,"def":1200},"note":"Shadow Specters Sneak Peek Participation Card","rarity":"UR","img":"85463083","code":"21","tcg":72462,"grp":1156,"idx":20},
+    {"id":"YCSW-006","section":"main","num":"YCSW-EN006","printed":"YCSW-EN006","name":"Number 106: Giant Hand","ctype":"monster","keywords":"Rock EARTH Xyz Monster","stats":{"a":"EARTH","l":"Rank 4","t":"Rock / Xyz","atk":2000,"def":2000},"note":"Yu-Gi-Oh! Championship Series 2013 Prize Card","rarity":"SR","img":"63746411","code":"22","tcg":82260,"grp":1347,"idx":21},
+    {"id":"YCSW-006-ur","section":"rarities","num":"YCSW-EN006","printed":"YCSW-EN006","name":"Number 106: Giant Hand","ctype":"monster","keywords":"Rock EARTH Xyz Monster","stats":{"a":"EARTH","l":"Rank 4","t":"Rock / Xyz","atk":2000,"def":2000},"note":"Yu-Gi-Oh! Championship Series 2013 Prize Card","rarity":"UR","img":"63746411","badge":"UR","variant":"Ultra Rare","code":"UR22","tcg":82261,"grp":1347,"idx":22},
+    {"id":"YF04-001","section":"main","num":"YF04-EN001","printed":"YF04-EN001","name":"Blackwing - Gram the Shining Star","ctype":"monster","keywords":"Blackwing Winged Beast DARK Synchro Monster","stats":{"a":"DARK","l":"Level 5","t":"Winged Beast / Synchro","atk":2200,"def":1500},"note":"Yu-Gi-Oh! 5D's Volume 4 promotional card","rarity":"UR","img":"17377751","code":"23","tcg":71057,"grp":352,"idx":23},
+    {"id":"YF05-001","section":"main","num":"YF05-EN001","printed":"YF05-EN001","name":"Stardust Spark Dragon","ctype":"monster","keywords":"Stardust Dragon LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Synchro","atk":2500,"def":2000},"note":"Yu-Gi-Oh! 5D's Volume 5 promotional card","rarity":"UR","img":"83994433","code":"24","tcg":77307,"grp":352,"idx":24},
+    {"id":"YZ03-001","section":"main","num":"YZ03-EN001","printed":"YZ03-EN001","name":"Number 22: Zombiestein","ctype":"monster","keywords":"Zombie DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 8","t":"Zombie / Xyz","atk":4500,"def":1000},"note":"Yu-Gi-Oh! ZEXAL Volume 3 promotional card","rarity":"UR","img":"73445448","code":"25","tcg":71056,"grp":600,"idx":25}
+  ]
+}

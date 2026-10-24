@@ -1,0 +1,69 @@
+{
+  "id": "yugioh/2013-collectible-tins-wave-2",
+  "game": "yugioh",
+  "slug": "2013-collectible-tins-wave-2",
+  "name": "2013 Collectible Tins Wave 2",
+  "series": "ZEXAL",
+  "kind": "tin",
+  "code": "CT10",
+  "syncKey": "YCT102",
+  "released": "2013-11-22",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "CT10-EN003–CT10-EN018",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from CT10-EN003 to CT10-EN018."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! 2013 Collectible Tins Wave 2 Checklist · All 9 Cards",
+    "description": "Free Yu-Gi-Oh! 2013 Collectible Tins Wave 2 checklist with no ads, no sign-up and no tracking. Track all 9 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! 2013 Collectible Tins Wave 2 Checklist",
+    "ogDescription": "Track all 9 cards in Yu-Gi-Oh! 2013 Collectible Tins Wave 2. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 9 cards in Yu-Gi-Oh! 2013 Collectible Tins Wave 2. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About 2013 Collectible Tins Wave 2",
+    "paragraphs": [
+      "2013 Collectible Tins Wave 2 is a Yu-Gi-Oh! TCG tin released on 22 November 2013, in the ZEXAL era. It has 9 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "2013 Collectible Tins Wave 2"
+    ],
+    "tcgplayer": [
+      1149
+    ]
+  },
+  "cards": [
+    {"id":"003","section":"main","num":"003","printed":"CT10-EN003","name":"Redox, Dragon Ruler of Boulders","ctype":"monster","keywords":"Dragon EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 7","t":"Dragon / Effect","atk":1600,"def":3000},"rarity":"ScR","img":"90411554","code":"3","tcg":77326,"grp":1149,"idx":0},
+    {"id":"004","section":"main","num":"004","printed":"CT10-EN004","name":"Tempest, Dragon Ruler of Storms","ctype":"monster","keywords":"Dragon WIND Effect Monster","stats":{"a":"WIND","l":"Level 7","t":"Dragon / Effect","atk":2400,"def":2200},"rarity":"ScR","img":"89399912","code":"4","tcg":77325,"grp":1149,"idx":1},
+    {"id":"012","section":"main","num":"012","printed":"CT10-EN012","name":"Diamond Dire Wolf","ctype":"monster","keywords":"Beast EARTH Xyz Monster","stats":{"a":"EARTH","l":"Rank 4","t":"Beast / Xyz","atk":2000,"def":1200},"rarity":"SR","img":"95169481","code":"12","tcg":77327,"grp":1149,"idx":2},
+    {"id":"013","section":"main","num":"013","printed":"CT10-EN013","name":"Number 88: Gimmick Puppet of Leo","ctype":"monster","keywords":"Gimmick Puppet Machine DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 8","t":"Machine / Xyz","atk":3200,"def":2300},"rarity":"SR","img":"48995978","code":"13","tcg":77328,"grp":1149,"idx":3},
+    {"id":"014","section":"main","num":"014","printed":"CT10-EN014","name":"Spellbook of the Master","ctype":"spell","keywords":"Spellbook Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"56981417","code":"14","tcg":77333,"grp":1149,"idx":4},
+    {"id":"015","section":"main","num":"015","printed":"CT10-EN015","name":"Rank-Up-Magic Barian's Force","ctype":"spell","keywords":"CXyz Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"47660516","code":"15","tcg":77332,"grp":1149,"idx":5},
+    {"id":"016","section":"main","num":"016","printed":"CT10-EN016","name":"Thunder Sea Horse","ctype":"monster","keywords":"Thunder LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Thunder / Effect","atk":1600,"def":1200},"rarity":"SR","img":"48049769","code":"16","tcg":77329,"grp":1149,"idx":6},
+    {"id":"017","section":"main","num":"017","printed":"CT10-EN017","name":"Gear Gigant X","ctype":"monster","keywords":"Geargia Machine EARTH Xyz Monster","stats":{"a":"EARTH","l":"Rank 4","t":"Machine / Xyz","atk":2300,"def":1500},"rarity":"SR","img":"28912357","code":"17","tcg":77330,"grp":1149,"idx":7},
+    {"id":"018","section":"main","num":"018","printed":"CT10-EN018","name":"Number 50: Blackship of Corn","ctype":"monster","keywords":"Plant DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 4","t":"Plant / Xyz","atk":2100,"def":1500},"rarity":"SR","img":"51735257","code":"18","tcg":77331,"grp":1149,"idx":8}
+  ]
+}

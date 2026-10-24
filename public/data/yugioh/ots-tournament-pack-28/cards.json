@@ -1,0 +1,87 @@
+{
+  "id": "yugioh/ots-tournament-pack-28",
+  "game": "yugioh",
+  "slug": "ots-tournament-pack-28",
+  "name": "OTS Tournament Pack 28",
+  "series": "SEVENS & GO RUSH!!",
+  "kind": "pack",
+  "code": "OP28",
+  "syncKey": "YOP28",
+  "released": "2025-06-18",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "OP28-EN001–OP28-EN027",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from OP28-EN001 to OP28-EN027."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! OTS Tournament Pack 28 Checklist · All 27 Cards",
+    "description": "Free Yu-Gi-Oh! OTS Tournament Pack 28 checklist with no ads, no sign-up and no tracking. Track all 27 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! OTS Tournament Pack 28 Checklist",
+    "ogDescription": "Track all 27 cards in Yu-Gi-Oh! OTS Tournament Pack 28. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 27 cards in Yu-Gi-Oh! OTS Tournament Pack 28. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About OTS Tournament Pack 28",
+    "paragraphs": [
+      "OTS Tournament Pack 28 is a Yu-Gi-Oh! TCG pack released on 18 June 2025, in the SEVENS &amp; GO RUSH!! era. It has 27 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "OTS Tournament Pack 28"
+    ],
+    "tcgplayer": [
+      24264
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"OP28-EN001","name":"Blue-Eyes White Dragon","ctype":"monster","keywords":"Blue-Eyes Dragon LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Normal","atk":3000,"def":2500},"rarity":"UtR","img":"89631139","code":"1","tcg":638100,"grp":24264,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"OP28-EN002","name":"Chamber Dragonmaid","ctype":"monster","keywords":"Dragonmaid Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Dragon / Effect","atk":500,"def":1800},"rarity":"UtR","img":"32600024","code":"2","tcg":638101,"grp":24264,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"OP28-EN003","name":"Azamina Ilia Silvia","ctype":"monster","keywords":"Azamina Illusion DARK Fusion Monster","stats":{"a":"DARK","l":"Level 6","t":"Illusion / Fusion","atk":1900,"def":1500},"rarity":"UtR","img":"46396218","code":"3","tcg":638102,"grp":24264,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"OP28-EN004","name":"Lucius the Shadow Vassal","ctype":"monster","keywords":"Vassal Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Fiend / Effect","atk":800,"def":1000},"rarity":"SR","img":"58786132","code":"4","tcg":638103,"grp":24264,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"OP28-EN005","name":"Silvy of the White Forest","ctype":"monster","keywords":"White Forest Spellcaster LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Tuner","atk":1500,"def":200},"rarity":"SR","img":"98385955","code":"5","tcg":638104,"grp":24264,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"OP28-EN006","name":"Y-Yare Head","ctype":"monster","keywords":"A-to-Z Machine LIGHT Union Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Machine / Union / Effect","atk":1500,"def":1600},"rarity":"SR","img":"6355563","code":"6","tcg":638105,"grp":24264,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"OP28-EN007","name":"Z-Zillion Tank","ctype":"monster","keywords":"A-to-Z Machine LIGHT Union Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Machine / Union / Effect","atk":1500,"def":1300},"rarity":"SR","img":"33744268","code":"7","tcg":638106,"grp":24264,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"OP28-EN008","name":"Khaos Starsource Dragon","ctype":"monster","keywords":"Dragon LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Fusion","atk":2500,"def":2500},"rarity":"SR","img":"72578374","code":"8","tcg":638107,"grp":24264,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"OP28-EN009","name":"Haggard Lizardose","ctype":"monster","keywords":"Reptile WATER Link Monster","stats":{"a":"WATER","l":"Link 2","t":"Reptile / Link","atk":800},"rarity":"SR","img":"9763474","code":"9","tcg":638108,"grp":24264,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"OP28-EN010","name":"Mementotlan Fusion","ctype":"spell","keywords":"Fusion Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"SR","img":"66518509","code":"10","tcg":638109,"grp":24264,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"OP28-EN011","name":"Planet Pollutant Virus","ctype":"trap","keywords":"Alien Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"39163598","code":"11","tcg":638110,"grp":24264,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"OP28-EN012","name":"Max Metalmorph","ctype":"trap","keywords":"Metalmorph Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"89812483","code":"12","tcg":638111,"grp":24264,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"OP28-EN013","name":"Kuribon","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Fairy / Effect","atk":300,"def":200},"rarity":"C","img":"47432275","code":"13","tcg":638112,"grp":24264,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"OP28-EN014","name":"Heraldic Beast Amphisbaena","ctype":"monster","keywords":"Heraldic Dragon WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Dragon / Effect","atk":1700,"def":1100},"rarity":"C","img":"87255382","code":"14","tcg":638113,"grp":24264,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"OP28-EN015","name":"Thestalos the Mega Monarch","ctype":"monster","keywords":"Monarch Pyro FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 8","t":"Pyro / Effect","atk":2800,"def":1000},"rarity":"C","img":"69230391","code":"15","tcg":638114,"grp":24264,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"OP28-EN016","name":"Zaborg the Mega Monarch","ctype":"monster","keywords":"Monarch Thunder LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Thunder / Effect","atk":2800,"def":1000},"rarity":"C","img":"87602890","code":"16","tcg":638115,"grp":24264,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"OP28-EN017","name":"Lunalight Yellow Marten","ctype":"monster","keywords":"Lunalight Beast-Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Beast-Warrior / Effect","atk":800,"def":2000},"rarity":"C","img":"50546208","code":"17","tcg":638116,"grp":24264,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"OP28-EN018","name":"Pikari @Ignister","ctype":"monster","keywords":"@Ignister Cyberse LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Cyberse / Effect","atk":1200,"def":600},"rarity":"C","img":"16020923","code":"18","tcg":638117,"grp":24264,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"OP28-EN019","name":"Achichi @Ignister","ctype":"monster","keywords":"@Ignister Cyberse FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 2","t":"Cyberse / Effect","atk":800,"def":800},"rarity":"C","img":"15808381","code":"19","tcg":638118,"grp":24264,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"OP28-EN020","name":"Lunalight Sabre Dancer","ctype":"monster","keywords":"Lunalight Beast-Warrior DARK Fusion Monster","stats":{"a":"DARK","l":"Level 9","t":"Beast-Warrior / Fusion","atk":3000,"def":2600},"rarity":"C","img":"88753594","code":"20","tcg":638119,"grp":24264,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"OP28-EN021","name":"Number 18: Heraldry Patriarch","ctype":"monster","keywords":"Heraldic Psychic LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 4","t":"Psychic / Xyz","atk":2200,"def":2200},"rarity":"C","img":"23649496","code":"21","tcg":638120,"grp":24264,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"OP28-EN022","name":"Brain Control","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"87910978","code":"22","tcg":638121,"grp":24264,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"OP28-EN023","name":"Augmented Heraldry","ctype":"spell","keywords":"Heraldic Field Spell","stats":{"t":"Field Spell"},"rarity":"C","img":"59048135","code":"23","tcg":638122,"grp":24264,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"OP28-EN024","name":"Lunalight Fusion","ctype":"spell","keywords":"Lunalight Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"87931906","code":"24","tcg":638123,"grp":24264,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"OP28-EN025","name":"Ignister A.I.Land","ctype":"spell","keywords":"@Ignister Field Spell","stats":{"t":"Field Spell"},"rarity":"C","img":"59054773","code":"25","tcg":638124,"grp":24264,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"OP28-EN026","name":"Oh F!sh!","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"C","img":"87313164","code":"26","tcg":638125,"grp":24264,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"OP28-EN027","name":"Crystron Token","ctype":"token","keywords":"Crystron Machine Token","stats":{"t":"Machine / Token"},"rarity":"SR","img":"55326323","code":"27","tcg":638126,"grp":24264,"idx":26}
+  ]
+}

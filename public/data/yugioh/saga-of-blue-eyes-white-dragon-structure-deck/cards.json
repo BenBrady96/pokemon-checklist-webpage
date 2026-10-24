@@ -1,0 +1,100 @@
+{
+  "id": "yugioh/saga-of-blue-eyes-white-dragon-structure-deck",
+  "game": "yugioh",
+  "slug": "saga-of-blue-eyes-white-dragon-structure-deck",
+  "name": "Saga of Blue-Eyes White Dragon Structure Deck",
+  "series": "ZEXAL",
+  "kind": "deck",
+  "code": "SDBE",
+  "syncKey": "YSDBE",
+  "released": "2013-09-12",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "SDBE-EN001–SDBE-EN040",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from SDBE-EN001 to SDBE-EN040."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Saga of Blue-Eyes White Dragon Structure Deck Checklist · All 40 Cards",
+    "description": "Free Yu-Gi-Oh! Saga of Blue-Eyes White Dragon Structure Deck checklist with no ads, no sign-up and no tracking. Track all 40 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Saga of Blue-Eyes White Dragon Structure Deck Checklist",
+    "ogDescription": "Track all 40 cards in Yu-Gi-Oh! Saga of Blue-Eyes White Dragon Structure Deck. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 40 cards in Yu-Gi-Oh! Saga of Blue-Eyes White Dragon Structure Deck. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Saga of Blue-Eyes White Dragon Structure Deck",
+    "paragraphs": [
+      "Saga of Blue-Eyes White Dragon Structure Deck is a Yu-Gi-Oh! TCG deck released on 12 September 2013, in the ZEXAL era. It has 40 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Saga of Blue-Eyes White Dragon Structure Deck"
+    ],
+    "tcgplayer": [
+      1153
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"SDBE-EN001","name":"Blue-Eyes White Dragon","ctype":"monster","keywords":"Blue-Eyes Dragon LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Normal","atk":3000,"def":2500},"rarity":"UR","img":"89631141","code":"1","tcg":71226,"grp":1153,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"SDBE-EN002","name":"Rabidragon","ctype":"monster","keywords":"Dragon LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Normal","atk":2950,"def":2900},"rarity":"C","img":"95788410","code":"2","tcg":71227,"grp":1153,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"SDBE-EN003","name":"Alexandrite Dragon","ctype":"monster","keywords":"Dragon LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Dragon / Normal","atk":2000,"def":100},"rarity":"C","img":"43096270","code":"3","tcg":71228,"grp":1153,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"SDBE-EN004","name":"Luster Dragon","ctype":"monster","keywords":"Dragon WIND Normal Monster","stats":{"a":"WIND","l":"Level 4","t":"Dragon / Normal","atk":1900,"def":1600},"rarity":"C","img":"11091375","code":"4","tcg":71229,"grp":1153,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"SDBE-EN005","name":"Flamvell Guard","ctype":"monster","keywords":"Flamvell Dragon FIRE Normal Tuner Monster","stats":{"a":"FIRE","l":"Level 1","t":"Dragon / Normal / Tuner","atk":100,"def":2000},"rarity":"C","img":"21615956","code":"5","tcg":71230,"grp":1153,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"SDBE-EN006","name":"Maiden with Eyes of Blue","ctype":"monster","keywords":"Blue-Eyes Spellcaster LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Spellcaster / Tuner","atk":0,"def":0},"rarity":"SR","img":"88241506","code":"6","tcg":71231,"grp":1153,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"SDBE-EN007","name":"Rider of the Storm Winds","ctype":"monster","keywords":"Dragon LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Dragon / Tuner","atk":500,"def":200},"rarity":"C","img":"14235211","code":"7","tcg":71232,"grp":1153,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"SDBE-EN008","name":"Darkstorm Dragon","ctype":"monster","keywords":"Dragon DARK Gemini Monster","stats":{"a":"DARK","l":"Level 8","t":"Dragon / Gemini","atk":2700,"def":2500},"rarity":"C","img":"57662975","code":"8","tcg":71233,"grp":1153,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"SDBE-EN009","name":"Kaiser Glider","ctype":"monster","keywords":"Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Dragon / Effect","atk":2400,"def":2200},"rarity":"C","img":"52824910","code":"9","tcg":71234,"grp":1153,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"SDBE-EN010","name":"Hieratic Dragon of Tefnuit","ctype":"monster","keywords":"Hieratic Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Dragon / Effect","atk":2100,"def":1400},"rarity":"C","img":"77901552","code":"10","tcg":71235,"grp":1153,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"SDBE-EN011","name":"Mirage Dragon","ctype":"monster","keywords":"Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Dragon / Effect","atk":1600,"def":600},"rarity":"C","img":"15960641","code":"11","tcg":71236,"grp":1153,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"SDBE-EN012","name":"Divine Dragon Apocralyph","ctype":"monster","keywords":"Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Dragon / Effect","atk":1000,"def":1500},"rarity":"C","img":"20277376","code":"12","tcg":71237,"grp":1153,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"SDBE-EN013","name":"The White Stone of Legend","ctype":"monster","keywords":"Blue-Eyes Dragon LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Dragon / Tuner","atk":300,"def":250},"rarity":"C","img":"79814787","code":"13","tcg":71238,"grp":1153,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"SDBE-EN014","name":"Kaibaman","ctype":"monster","keywords":"Blue-Eyes Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Warrior / Effect","atk":200,"def":700},"rarity":"C","img":"34627841","code":"14","tcg":71239,"grp":1153,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"SDBE-EN015","name":"Herald of Creation","ctype":"monster","keywords":"Herald Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Effect","atk":1800,"def":600},"rarity":"C","img":"66337215","code":"15","tcg":71240,"grp":1153,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"SDBE-EN016","name":"Kaiser Sea Horse","ctype":"monster","keywords":"Sea Serpent LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Sea Serpent / Effect","atk":1700,"def":1650},"rarity":"C","img":"17444133","code":"16","tcg":71241,"grp":1153,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"SDBE-EN017","name":"Honest","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fairy / Effect","atk":1100,"def":1900},"rarity":"C","img":"37742478","code":"17","tcg":71242,"grp":1153,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"SDBE-EN018","name":"Shining Angel","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fairy / Effect","atk":1400,"def":800},"rarity":"C","img":"95956346","code":"18","tcg":71243,"grp":1153,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"SDBE-EN019","name":"Dragon Shrine","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"41620959","code":"19","tcg":71244,"grp":1153,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"SDBE-EN020","name":"Silver's Cry","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"87025064","code":"20","tcg":71245,"grp":1153,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"SDBE-EN021","name":"Burst Stream of Destruction","ctype":"spell","keywords":"Blue-Eyes Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"17655904","code":"21","tcg":71246,"grp":1153,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"SDBE-EN022","name":"Stamping Destruction","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"81385346","code":"22","tcg":71247,"grp":1153,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"SDBE-EN023","name":"A Wingbeat of Giant Dragon","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"28596933","code":"23","tcg":71248,"grp":1153,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"SDBE-EN024","name":"Trade-In","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"38120068","code":"24","tcg":71249,"grp":1153,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"SDBE-EN025","name":"Cards of Consonance","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"39701395","code":"25","tcg":71250,"grp":1153,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"SDBE-EN026","name":"White Elephant's Gift","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"18756904","code":"26","tcg":71251,"grp":1153,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"SDBE-EN027","name":"One for One","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"2295440","code":"27","tcg":71252,"grp":1153,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"SDBE-EN028","name":"Monster Reborn","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"83764719","code":"28","tcg":71253,"grp":1153,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"SDBE-EN029","name":"Dragonic Tactics","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"72549351","code":"29","tcg":71254,"grp":1153,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"SDBE-EN030","name":"Soul Exchange","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"68005187","code":"30","tcg":71255,"grp":1153,"idx":29},
+    {"id":"031","section":"main","num":"031","printed":"SDBE-EN031","name":"Swords of Revealing Light","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"72302403","code":"31","tcg":71256,"grp":1153,"idx":30},
+    {"id":"032","section":"main","num":"032","printed":"SDBE-EN032","name":"Enemy Controller","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"98045062","code":"32","tcg":71257,"grp":1153,"idx":31},
+    {"id":"033","section":"main","num":"033","printed":"SDBE-EN033","name":"Castle of Dragon Souls","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"13513663","code":"33","tcg":71258,"grp":1153,"idx":32},
+    {"id":"034","section":"main","num":"034","printed":"SDBE-EN034","name":"Fiendish Chain","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"50078509","code":"34","tcg":71259,"grp":1153,"idx":33},
+    {"id":"035","section":"main","num":"035","printed":"SDBE-EN035","name":"Kunai with Chain","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"37390589","code":"35","tcg":71260,"grp":1153,"idx":34},
+    {"id":"036","section":"main","num":"036","printed":"SDBE-EN036","name":"Damage Condenser","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"28378427","code":"36","tcg":71261,"grp":1153,"idx":35},
+    {"id":"037","section":"main","num":"037","printed":"SDBE-EN037","name":"Call of the Haunted","ctype":"trap","keywords":"Call of the Haunted Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"97077563","code":"37","tcg":71262,"grp":1153,"idx":36},
+    {"id":"038","section":"main","num":"038","printed":"SDBE-EN038","name":"Compulsory Evacuation Device","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"94192409","code":"38","tcg":71263,"grp":1153,"idx":37},
+    {"id":"039","section":"main","num":"039","printed":"SDBE-EN039","name":"Champion's Vigilance","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"C","img":"82382815","code":"39","tcg":71264,"grp":1153,"idx":38},
+    {"id":"040","section":"main","num":"040","printed":"SDBE-EN040","name":"Azure-Eyes Silver Dragon","ctype":"monster","keywords":"Dragon LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 9","t":"Dragon / Synchro","atk":2500,"def":3000},"rarity":"UR","img":"40908371","code":"40","tcg":71265,"grp":1153,"idx":39}
+  ]
+}

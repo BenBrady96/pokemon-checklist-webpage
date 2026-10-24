@@ -1,0 +1,98 @@
+{
+  "id": "yugioh/lost-sanctuary-structure-deck",
+  "game": "yugioh",
+  "slug": "lost-sanctuary-structure-deck",
+  "name": "Lost Sanctuary Structure Deck",
+  "series": "5D’s",
+  "kind": "deck",
+  "code": "SDLS",
+  "syncKey": "YSDLS",
+  "released": "2011-06-10",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "SDLS-EN001–SDLS-EN038",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from SDLS-EN001 to SDLS-EN038."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Lost Sanctuary Structure Deck Checklist · All 38 Cards",
+    "description": "Free Yu-Gi-Oh! Lost Sanctuary Structure Deck checklist with no ads, no sign-up and no tracking. Track all 38 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Lost Sanctuary Structure Deck Checklist",
+    "ogDescription": "Track all 38 cards in Yu-Gi-Oh! Lost Sanctuary Structure Deck. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 38 cards in Yu-Gi-Oh! Lost Sanctuary Structure Deck. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Lost Sanctuary Structure Deck",
+    "paragraphs": [
+      "Lost Sanctuary Structure Deck is a Yu-Gi-Oh! TCG deck released on 10 June 2011, in the 5D’s era. It has 38 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Lost Sanctuary Structure Deck"
+    ],
+    "tcgplayer": [
+      319
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"SDLS-EN001","name":"Master Hyperion","ctype":"monster","keywords":"The Agent Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Fairy / Effect","atk":2700,"def":2100},"rarity":"UR","img":"55794644","code":"1","tcg":47132,"grp":319,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"SDLS-EN002","name":"The Agent of Mystery - Earth","ctype":"monster","keywords":"The Agent Fairy LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 2","t":"Fairy / Tuner","atk":1000,"def":800},"rarity":"SR","img":"91188343","code":"2","tcg":47150,"grp":319,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"SDLS-EN003","name":"The Agent of Miracles - Jupiter","ctype":"monster","keywords":"The Agent Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fairy / Effect","atk":1800,"def":1000},"rarity":"SR","img":"28573958","code":"3","tcg":47149,"grp":319,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"SDLS-EN004","name":"The Agent of Judgment - Saturn","ctype":"monster","keywords":"The Agent Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Fairy / Effect","atk":2400,"def":0},"rarity":"C","img":"91345518","code":"4","tcg":47148,"grp":319,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"SDLS-EN005","name":"The Agent of Wisdom - Mercury","ctype":"monster","keywords":"The Agent Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fairy / Effect","atk":0,"def":1700},"rarity":"C","img":"38730226","code":"5","tcg":47151,"grp":319,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"SDLS-EN006","name":"The Agent of Creation - Venus","ctype":"monster","keywords":"The Agent Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Fairy / Effect","atk":1600,"def":0},"rarity":"C","img":"64734921","code":"6","tcg":47146,"grp":319,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"SDLS-EN007","name":"The Agent of Force - Mars","ctype":"monster","keywords":"The Agent Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Fairy / Effect","atk":0,"def":0},"rarity":"C","img":"91123920","code":"7","tcg":47147,"grp":319,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"SDLS-EN008","name":"Mystical Shine Ball","ctype":"monster","keywords":"Fairy LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 2","t":"Fairy / Normal","atk":500,"def":500},"rarity":"C","img":"39552864","code":"8","tcg":47135,"grp":319,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"SDLS-EN009","name":"Splendid Venus","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Fairy / Effect","atk":2800,"def":2400},"rarity":"C","img":"5645210","code":"9","tcg":47143,"grp":319,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"SDLS-EN010","name":"Tethys, Goddess of Light","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 5","t":"Fairy / Effect","atk":2400,"def":1800},"rarity":"C","img":"87148330","code":"10","tcg":47145,"grp":319,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"SDLS-EN011","name":"Victoria","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fairy / Effect","atk":1800,"def":1500},"rarity":"C","img":"75162696","code":"11","tcg":47156,"grp":319,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"SDLS-EN012","name":"Athena","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 7","t":"Fairy / Effect","atk":2600,"def":800},"rarity":"C","img":"48964966","code":"12","tcg":47121,"grp":319,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"SDLS-EN013","name":"Marshmallon","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Fairy / Effect","atk":300,"def":500},"rarity":"C","img":"31305911","code":"13","tcg":47131,"grp":319,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"SDLS-EN014","name":"Hecatrice","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fairy / Effect","atk":1500,"def":1100},"rarity":"C","img":"74968065","code":"14","tcg":47129,"grp":319,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"SDLS-EN015","name":"Shining Angel","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fairy / Effect","atk":1400,"def":800},"rarity":"C","img":"95956346","code":"15","tcg":47138,"grp":319,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"SDLS-EN016","name":"Soul of Purity and Light","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Fairy / Effect","atk":2000,"def":1800},"rarity":"C","img":"77527210","code":"16","tcg":47142,"grp":319,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"SDLS-EN017","name":"Airknight Parshath","ctype":"monster","keywords":"Parshath Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 5","t":"Fairy / Effect","atk":1900,"def":1400},"rarity":"C","img":"18036057","code":"17","tcg":47120,"grp":319,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"SDLS-EN018","name":"Nova Summoner","ctype":"monster","keywords":"Parshath Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fairy / Effect","atk":1400,"def":800},"rarity":"C","img":"48783998","code":"18","tcg":47136,"grp":319,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"SDLS-EN019","name":"Zeradias, Herald of Heaven","ctype":"monster","keywords":"Herald Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fairy / Effect","atk":2100,"def":800},"rarity":"C","img":"12171659","code":"19","tcg":47157,"grp":319,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"SDLS-EN020","name":"Honest","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fairy / Effect","atk":1100,"def":1900},"rarity":"C","img":"37742478","code":"20","tcg":47130,"grp":319,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"SDLS-EN021","name":"Hanewata","ctype":"monster","keywords":"Fairy LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Fairy / Tuner","atk":200,"def":300},"rarity":"C","img":"20450925","code":"21","tcg":47128,"grp":319,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"SDLS-EN022","name":"Consecrated Light","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Fairy / Effect","atk":0,"def":0},"rarity":"C","img":"2980764","code":"22","tcg":47126,"grp":319,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"SDLS-EN023","name":"Cards from the Sky","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"54977057","code":"23","tcg":47124,"grp":319,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"SDLS-EN024","name":"Valhalla, Hall of the Fallen","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"1353770","code":"24","tcg":47155,"grp":319,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"SDLS-EN025","name":"Terraforming","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"73628505","code":"25","tcg":47144,"grp":319,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"SDLS-EN026","name":"Smashing Ground","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"97169186","code":"26","tcg":47139,"grp":319,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"SDLS-EN027","name":"The Sanctuary in the Sky","ctype":"spell","keywords":"The Agent Field Spell","stats":{"t":"Field Spell"},"rarity":"C","img":"56433456","code":"27","tcg":47153,"grp":319,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"SDLS-EN028","name":"Celestial Transformation","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"28890974","code":"28","tcg":47125,"grp":319,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"SDLS-EN029","name":"Burial from a Different Dimension","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"48976825","code":"29","tcg":47123,"grp":319,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"SDLS-EN030","name":"Mausoleum of the Emperor","ctype":"spell","keywords":"Field Spell","stats":{"t":"Field Spell"},"rarity":"C","img":"80921533","code":"30","tcg":47133,"grp":319,"idx":29},
+    {"id":"031","section":"main","num":"031","printed":"SDLS-EN031","name":"Solidarity","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"86780027","code":"31","tcg":47141,"grp":319,"idx":30},
+    {"id":"032","section":"main","num":"032","printed":"SDLS-EN032","name":"The Fountain in the Sky","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"92223641","code":"32","tcg":47152,"grp":319,"idx":31},
+    {"id":"033","section":"main","num":"033","printed":"SDLS-EN033","name":"Divine Punishment","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"C","img":"81066751","code":"33","tcg":47127,"grp":319,"idx":32},
+    {"id":"034","section":"main","num":"034","printed":"SDLS-EN034","name":"Return from the Different Dimension","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"27174286","code":"34","tcg":47137,"grp":319,"idx":33},
+    {"id":"035","section":"main","num":"035","printed":"SDLS-EN035","name":"Torrential Tribute","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"53582587","code":"35","tcg":47154,"grp":319,"idx":34},
+    {"id":"036","section":"main","num":"036","printed":"SDLS-EN036","name":"Beckoning Light","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"16255442","code":"36","tcg":47122,"grp":319,"idx":35},
+    {"id":"037","section":"main","num":"037","printed":"SDLS-EN037","name":"Miraculous Descent","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"80551130","code":"37","tcg":47134,"grp":319,"idx":36},
+    {"id":"038","section":"main","num":"038","printed":"SDLS-EN038","name":"Solemn Judgment","ctype":"trap","keywords":"Solemn Counter Trap","stats":{"t":"Counter Trap"},"rarity":"C","img":"41420027","code":"38","tcg":47140,"grp":319,"idx":37}
+  ]
+}

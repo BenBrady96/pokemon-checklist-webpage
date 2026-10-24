@@ -1,0 +1,85 @@
+{
+  "id": "yugioh/ots-tournament-pack-18",
+  "game": "yugioh",
+  "slug": "ots-tournament-pack-18",
+  "name": "OTS Tournament Pack 18",
+  "series": "SEVENS & GO RUSH!!",
+  "kind": "pack",
+  "code": "OP18",
+  "syncKey": "YOP18",
+  "released": "2022-02-17",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "OP18-EN001–OP18-EN025",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from OP18-EN001 to OP18-EN025."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! OTS Tournament Pack 18 Checklist · All 25 Cards",
+    "description": "Free Yu-Gi-Oh! OTS Tournament Pack 18 checklist with no ads, no sign-up and no tracking. Track all 25 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! OTS Tournament Pack 18 Checklist",
+    "ogDescription": "Track all 25 cards in Yu-Gi-Oh! OTS Tournament Pack 18. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 25 cards in Yu-Gi-Oh! OTS Tournament Pack 18. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About OTS Tournament Pack 18",
+    "paragraphs": [
+      "OTS Tournament Pack 18 is a Yu-Gi-Oh! TCG pack released on 17 February 2022, in the SEVENS &amp; GO RUSH!! era. It has 25 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "OTS Tournament Pack 18"
+    ],
+    "tcgplayer": [
+      3000
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"OP18-EN001","name":"Dogmatika Ecclesia, the Virtuous","ctype":"monster","keywords":"Dogmatika Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Effect","atk":1500,"def":1500},"rarity":"UtR","img":"60303688","code":"1","tcg":264151,"grp":3000,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"OP18-EN002","name":"Divine Arsenal AA-ZEUS - Sky Thunder","ctype":"monster","keywords":"Machine LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 12","t":"Machine / Xyz","atk":3000,"def":3000},"rarity":"UtR","img":"90448279","code":"2","tcg":264152,"grp":3000,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"OP18-EN003","name":"Fusion Destiny","ctype":"spell","keywords":"Destiny HERO Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UtR","img":"52947044","code":"3","tcg":264153,"grp":3000,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"OP18-EN004","name":"Destiny HERO - Dasher","ctype":"monster","keywords":"Destiny HERO Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Warrior / Effect","atk":2100,"def":1000},"rarity":"SR","img":"81866673","code":"4","tcg":264154,"grp":3000,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"OP18-EN005","name":"Babycerasaurus","ctype":"monster","keywords":"Dinosaur EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 2","t":"Dinosaur / Effect","atk":500,"def":500},"rarity":"SR","img":"36042004","code":"5","tcg":264155,"grp":3000,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"OP18-EN006","name":"Kagemucha Knight","ctype":"monster","keywords":"Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Warrior / Effect","atk":0,"def":0},"rarity":"SR","img":"19353570","code":"6","tcg":264156,"grp":3000,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"OP18-EN007","name":"Contact \"C\"","ctype":"monster","keywords":"\"C\" Insect EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 6","t":"Insect / Effect","atk":1500,"def":2200},"rarity":"SR","img":"87170768","code":"7","tcg":264157,"grp":3000,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"OP18-EN008","name":"Token Collector","ctype":"monster","keywords":"Fiend EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Fiend / Effect","atk":0,"def":2000},"rarity":"SR","img":"43534808","code":"8","tcg":264158,"grp":3000,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"OP18-EN009","name":"Kwagar Hercules","ctype":"monster","keywords":"Insect EARTH Fusion Monster","stats":{"a":"EARTH","l":"Level 6","t":"Insect / Fusion","atk":1900,"def":1700},"rarity":"SR","img":"95144193","code":"9","tcg":264159,"grp":3000,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"OP18-EN010","name":"The Phantom Knights of Break Sword","ctype":"monster","keywords":"Phantom Knights Warrior DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 3","t":"Warrior / Xyz","atk":2000,"def":1000},"rarity":"SR","img":"62709239","code":"10","tcg":264160,"grp":3000,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"OP18-EN011","name":"Inzektor Picofalena","ctype":"monster","keywords":"Inzektor Insect DARK Link Monster","stats":{"a":"DARK","l":"Link 2","t":"Insect / Link","atk":1000},"rarity":"SR","img":"97273514","code":"11","tcg":264161,"grp":3000,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"OP18-EN012","name":"Monk of the Tenyi","ctype":"monster","keywords":"Tenyi Wyrm EARTH Link Monster","stats":{"a":"EARTH","l":"Link 1","t":"Wyrm / Link","atk":1000},"rarity":"SR","img":"32519092","code":"12","tcg":264162,"grp":3000,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"OP18-EN013","name":"Manju of the Ten Thousand Hands","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fairy / Effect","atk":1400,"def":1000},"rarity":"C","img":"95492061","code":"13","tcg":264163,"grp":3000,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"OP18-EN014","name":"Tanngnjostr of the Nordic Beasts","ctype":"monster","keywords":"Nordic Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Beast / Effect","atk":800,"def":1100},"rarity":"C","img":"14677495","code":"14","tcg":264164,"grp":3000,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"OP18-EN015","name":"Dverg of the Nordic Alfar","ctype":"monster","keywords":"Nordic Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 1","t":"Warrior / Effect","atk":100,"def":1000},"rarity":"C","img":"13455953","code":"15","tcg":264165,"grp":3000,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"OP18-EN016","name":"The Phantom Knights of Silent Boots","ctype":"monster","keywords":"Phantom Knights Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Warrior / Effect","atk":200,"def":1200},"rarity":"C","img":"36426778","code":"16","tcg":264166,"grp":3000,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"OP18-EN017","name":"Destiny HERO - Celestial","ctype":"monster","keywords":"Destiny HERO Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Warrior / Effect","atk":1600,"def":1400},"rarity":"C","img":"63362460","code":"17","tcg":264167,"grp":3000,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"OP18-EN018","name":"Vampire Familiar","ctype":"monster","keywords":"Vampire Zombie DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Zombie / Effect","atk":500,"def":0},"rarity":"C","img":"34250214","code":"18","tcg":264168,"grp":3000,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"OP18-EN019","name":"Vampire Retainer","ctype":"monster","keywords":"Vampire Zombie DARK Effect Monster","stats":{"a":"DARK","l":"Level 2","t":"Zombie / Effect","atk":1200,"def":0},"rarity":"C","img":"70645913","code":"19","tcg":264169,"grp":3000,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"OP18-EN020","name":"Impcantation Talismandra","ctype":"monster","keywords":"Impcantation Plant DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Plant / Effect","atk":0,"def":0},"rarity":"C","img":"80701178","code":"20","tcg":264170,"grp":3000,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"OP18-EN021","name":"Impcantation Penciplume","ctype":"monster","keywords":"Impcantation Psychic LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Psychic / Effect","atk":0,"def":0},"rarity":"C","img":"82085295","code":"21","tcg":264171,"grp":3000,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"OP18-EN022","name":"Ghostrick Angel of Mischief","ctype":"monster","keywords":"Ghostrick Fairy DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 4","t":"Fairy / Xyz","atk":2000,"def":2500},"rarity":"C","img":"53334641","code":"22","tcg":264172,"grp":3000,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"OP18-EN023","name":"Gullveig of the Nordic Ascendant","ctype":"monster","keywords":"Nordic Fairy LIGHT Link Monster","stats":{"a":"LIGHT","l":"Link 1","t":"Fairy / Link","atk":800},"rarity":"C","img":"90207654","code":"23","tcg":264173,"grp":3000,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"OP18-EN024","name":"Dark Magical Circle","ctype":"spell","keywords":"Prophecy Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"47222536","code":"24","tcg":264174,"grp":3000,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"OP18-EN025","name":"Ghostrick Break","ctype":"trap","keywords":"Ghostrick Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"80802524","code":"25","tcg":264175,"grp":3000,"idx":24}
+  ]
+}

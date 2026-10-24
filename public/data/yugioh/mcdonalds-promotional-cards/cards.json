@@ -1,0 +1,75 @@
+{
+  "id": "yugioh/mcdonalds-promotional-cards",
+  "game": "yugioh",
+  "slug": "mcdonalds-promotional-cards",
+  "name": "McDonald's Promotional Cards",
+  "series": "Promos",
+  "kind": "promo",
+  "code": "MP1",
+  "syncKey": "YMP1",
+  "released": "2002-12-20",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "MP1-001–MP1-015",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. Numbers count down the list in order: <b>1-5</b> is the first five cards and <b>3x2</b> is two copies of the third.",
+    "empty": "Cards run from MP1-001 to MP1-015."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! McDonald's Promotional Cards Checklist · All 15 Cards",
+    "description": "Free Yu-Gi-Oh! McDonald's Promotional Cards checklist with no ads, no sign-up and no tracking. Track all 15 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! McDonald's Promotional Cards Checklist",
+    "ogDescription": "Track all 15 cards in Yu-Gi-Oh! McDonald's Promotional Cards. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 15 cards in Yu-Gi-Oh! McDonald's Promotional Cards. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About McDonald's Promotional Cards",
+    "paragraphs": [
+      "McDonald&#39;s Promotional Cards is a Yu-Gi-Oh! TCG promo list released on 20 December 2002. It has 15 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "McDonald's Promotional Cards"
+    ],
+    "tcgplayer": [
+      253
+    ]
+  },
+  "cards": [
+    {"id":"MP1-001","section":"main","num":"MP1-001","printed":"MP1-001","name":"Millennium Shield","ctype":"monster","keywords":"Warrior EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 5","t":"Warrior / Normal","atk":0,"def":3000},"note":"McDonald's Promotional Cards","rarity":"UR","img":"32012842","code":"1","tcg":22925,"grp":253,"idx":0},
+    {"id":"MP1-002","section":"main","num":"MP1-002","printed":"MP1-002","name":"Cosmo Queen","ctype":"monster","keywords":"Spellcaster DARK Normal Monster","stats":{"a":"DARK","l":"Level 8","t":"Spellcaster / Normal","atk":2900,"def":2450},"note":"McDonald's Promotional Cards","rarity":"UR","img":"38999506","code":"2","tcg":22926,"grp":253,"idx":1},
+    {"id":"MP1-003","section":"main","num":"MP1-003","printed":"MP1-003","name":"Goddess of Whim","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Fairy / Effect","atk":950,"def":700},"note":"McDonald's Promotional Cards","rarity":"SR","img":"67959180","code":"3","tcg":22927,"grp":253,"idx":2},
+    {"id":"MP1-004","section":"main","num":"MP1-004","printed":"MP1-004","name":"Slime Toad","ctype":"monster","keywords":"Frog Aqua WATER Normal Monster","stats":{"a":"WATER","l":"Level 2","t":"Aqua / Normal","atk":700,"def":500},"note":"McDonald's Promotional Cards","rarity":"C","img":"68638985","code":"4","tcg":22928,"grp":253,"idx":3},
+    {"id":"MP1-005","section":"main","num":"MP1-005","printed":"MP1-005","name":"Yaranzo","ctype":"monster","keywords":"Zombie DARK Normal Monster","stats":{"a":"DARK","l":"Level 4","t":"Zombie / Normal","atk":1300,"def":1500},"note":"McDonald's Promotional Cards","rarity":"C","img":"71280811","code":"5","tcg":22929,"grp":253,"idx":4},
+    {"id":"MP1-006","section":"main","num":"MP1-006","printed":"MP1-006","name":"Takriminos","ctype":"monster","keywords":"Sea Serpent WATER Normal Monster","stats":{"a":"WATER","l":"Level 4","t":"Sea Serpent / Normal","atk":1500,"def":1200},"note":"McDonald's Promotional Cards","rarity":"SR","img":"44073668","code":"6","tcg":22930,"grp":253,"idx":5},
+    {"id":"MP1-007","section":"main","num":"MP1-007","printed":"MP1-007","name":"Stuffed Animal","ctype":"monster","keywords":"Warrior EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 3","t":"Warrior / Normal","atk":1200,"def":900},"note":"McDonald's Promotional Cards","rarity":"C","img":"71068263","code":"7","tcg":22931,"grp":253,"idx":6},
+    {"id":"MP1-008","section":"main","num":"MP1-008","printed":"MP1-008","name":"Megasonic Eye","ctype":"monster","keywords":"Machine DARK Normal Monster","stats":{"a":"DARK","l":"Level 5","t":"Machine / Normal","atk":1500,"def":1800},"note":"McDonald's Promotional Cards","rarity":"C","img":"7562372","code":"8","tcg":22932,"grp":253,"idx":7},
+    {"id":"MP1-009","section":"main","num":"MP1-009","printed":"MP1-009","name":"Yamadron","ctype":"monster","keywords":"Dragon FIRE Normal Monster","stats":{"a":"FIRE","l":"Level 5","t":"Dragon / Normal","atk":1600,"def":1800},"note":"McDonald's Promotional Cards","rarity":"C","img":"70345785","code":"9","tcg":22933,"grp":253,"idx":8},
+    {"id":"MP1-010","section":"main","num":"MP1-010","printed":"MP1-010","name":"Three-Legged Zombies","ctype":"monster","keywords":"Zombie DARK Normal Monster","stats":{"a":"DARK","l":"Level 3","t":"Zombie / Normal","atk":1100,"def":800},"note":"McDonald's Promotional Cards","rarity":"C","img":"33734439","code":"10","tcg":22934,"grp":253,"idx":9},
+    {"id":"MP1-011","section":"main","num":"MP1-011","printed":"MP1-011","name":"Flying Penguin","ctype":"monster","keywords":"Penguin Aqua WATER Normal Monster","stats":{"a":"WATER","l":"Level 4","t":"Aqua / Normal","atk":1200,"def":1000},"note":"McDonald's Promotional Cards","rarity":"C","img":"5628232","code":"11","tcg":22935,"grp":253,"idx":10},
+    {"id":"MP1-012","section":"main","num":"MP1-012","printed":"MP1-012","name":"Fairy's Gift","ctype":"monster","keywords":"Spellcaster LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Normal","atk":1400,"def":1000},"note":"McDonald's Promotional Cards","rarity":"C","img":"68401546","code":"12","tcg":22936,"grp":253,"idx":11},
+    {"id":"MP1-013","section":"main","num":"MP1-013","printed":"MP1-013","name":"Ushi Oni","ctype":"monster","keywords":"Fiend DARK Normal Monster","stats":{"a":"DARK","l":"Level 6","t":"Fiend / Normal","atk":2150,"def":1950},"note":"McDonald's Promotional Cards","rarity":"C","img":"48649353","code":"13","tcg":22937,"grp":253,"idx":12},
+    {"id":"MP1-014","section":"main","num":"MP1-014","printed":"MP1-014","name":"Turtle Bird","ctype":"monster","keywords":"Aqua WATER Normal Monster","stats":{"a":"WATER","l":"Level 6","t":"Aqua / Normal","atk":1900,"def":1700},"note":"McDonald's Promotional Cards","rarity":"C","img":"72929454","code":"14","tcg":22938,"grp":253,"idx":13},
+    {"id":"MP1-015","section":"main","num":"MP1-015","printed":"MP1-015","name":"Dark-Piercing Light","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"note":"McDonald's Promotional Cards","rarity":"SR","img":"45895206","code":"15","tcg":22939,"grp":253,"idx":14}
+  ]
+}

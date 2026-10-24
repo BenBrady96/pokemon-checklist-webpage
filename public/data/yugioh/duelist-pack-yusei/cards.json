@@ -1,0 +1,90 @@
+{
+  "id": "yugioh/duelist-pack-yusei",
+  "game": "yugioh",
+  "slug": "duelist-pack-yusei",
+  "name": "Duelist Pack: Yusei",
+  "series": "5D’s",
+  "kind": "pack",
+  "code": "DP08",
+  "syncKey": "YDP08",
+  "released": "2009-02-24",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "DP08-EN001–DP08-EN030",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from DP08-EN001 to DP08-EN030."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Duelist Pack: Yusei Checklist · All 30 Cards",
+    "description": "Free Yu-Gi-Oh! Duelist Pack: Yusei checklist with no ads, no sign-up and no tracking. Track all 30 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Duelist Pack: Yusei Checklist",
+    "ogDescription": "Track all 30 cards in Yu-Gi-Oh! Duelist Pack: Yusei. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 30 cards in Yu-Gi-Oh! Duelist Pack: Yusei. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Duelist Pack: Yusei",
+    "paragraphs": [
+      "Duelist Pack: Yusei is a Yu-Gi-Oh! TCG pack released on 24 February 2009, in the 5D’s era. It has 30 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Duelist Pack: Yusei"
+    ],
+    "tcgplayer": [
+      188
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"DP08-EN001","name":"Junk Synchron","ctype":"monster","keywords":"Junk Warrior DARK Tuner Monster","stats":{"a":"DARK","l":"Level 3","t":"Warrior / Tuner","atk":1300,"def":500},"rarity":"C","img":"63977008","code":"1","tcg":32910,"grp":188,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"DP08-EN002","name":"Speed Warrior","ctype":"monster","keywords":"Warrior WIND Effect Monster","stats":{"a":"WIND","l":"Level 2","t":"Warrior / Effect","atk":900,"def":400},"rarity":"C","img":"9365703","code":"2","tcg":32918,"grp":188,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"DP08-EN003","name":"Turbo Booster","ctype":"monster","keywords":"Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 1","t":"Machine / Effect","atk":0,"def":0},"rarity":"C","img":"60187739","code":"3","tcg":32922,"grp":188,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"DP08-EN004","name":"Nitro Synchron","ctype":"monster","keywords":"Synchron Machine FIRE Tuner Monster","stats":{"a":"FIRE","l":"Level 2","t":"Machine / Tuner","atk":300,"def":100},"rarity":"R","img":"96182448","code":"4","tcg":32913,"grp":188,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"DP08-EN005","name":"Quillbolt Hedgehog","ctype":"monster","keywords":"Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 2","t":"Machine / Effect","atk":800,"def":800},"rarity":"C","img":"23571046","code":"5","tcg":32915,"grp":188,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"DP08-EN006","name":"Ghost Gardna","ctype":"monster","keywords":"Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Warrior / Effect","atk":0,"def":1900},"rarity":"C","img":"59965151","code":"6","tcg":32905,"grp":188,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"DP08-EN007","name":"Shield Warrior","ctype":"monster","keywords":"Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Warrior / Effect","atk":800,"def":1600},"rarity":"C","img":"95360850","code":"7","tcg":32917,"grp":188,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"DP08-EN008","name":"Healing Wave Generator","ctype":"monster","keywords":"Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Machine / Effect","atk":800,"def":1600},"rarity":"C","img":"31281980","code":"8","tcg":32908,"grp":188,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"DP08-EN009","name":"Turbo Synchron","ctype":"monster","keywords":"Synchron Machine WIND Tuner Monster","stats":{"a":"WIND","l":"Level 1","t":"Machine / Tuner","atk":100,"def":500},"rarity":"R","img":"67270095","code":"9","tcg":32923,"grp":188,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"DP08-EN010","name":"Fortress Warrior","ctype":"monster","keywords":"Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 2","t":"Warrior / Effect","atk":600,"def":1200},"rarity":"SR","img":"66288028","code":"10","tcg":32904,"grp":188,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"DP08-EN011","name":"Tuningware","ctype":"monster","keywords":"Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Machine / Effect","atk":100,"def":300},"rarity":"UR","img":"92676637","code":"11","tcg":32921,"grp":188,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"DP08-EN012","name":"Junk Warrior","ctype":"monster","keywords":"Junk Warrior DARK Synchro Monster","stats":{"a":"DARK","l":"Level 5","t":"Warrior / Synchro","atk":2300,"def":1300},"rarity":"R","img":"60800381","code":"12","tcg":32911,"grp":188,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"DP08-EN013","name":"Nitro Warrior","ctype":"monster","keywords":"Warrior FIRE Synchro Monster","stats":{"a":"FIRE","l":"Level 7","t":"Warrior / Synchro","atk":2800,"def":1800},"rarity":"R","img":"18013090","code":"13","tcg":32914,"grp":188,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"DP08-EN014","name":"Stardust Dragon","ctype":"monster","keywords":"Stardust Dragon WIND Synchro Monster","stats":{"a":"WIND","l":"Level 8","t":"Dragon / Synchro","atk":2500,"def":2000},"rarity":"SR","img":"44508094","code":"14","tcg":32919,"grp":188,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"DP08-EN015","name":"Turbo Warrior","ctype":"monster","keywords":"Warrior WIND Synchro Monster","stats":{"a":"WIND","l":"Level 6","t":"Warrior / Synchro","atk":2500,"def":1500},"rarity":"R","img":"46195773","code":"15","tcg":32924,"grp":188,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"DP08-EN016","name":"Armory Arm","ctype":"monster","keywords":"Machine LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Machine / Synchro","atk":1800,"def":1200},"rarity":"UR","img":"29071332","code":"16","tcg":32896,"grp":188,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"DP08-EN017","name":"Fighting Spirit","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"6178850","code":"17","tcg":32903,"grp":188,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"DP08-EN018","name":"Domino Effect","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"32663969","code":"18","tcg":32901,"grp":188,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"DP08-EN019","name":"Junk Barrage","ctype":"spell","keywords":"Junk Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"79068663","code":"19","tcg":32909,"grp":188,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"DP08-EN020","name":"Card Rotator","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"72767833","code":"20","tcg":32898,"grp":188,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"DP08-EN021","name":"Equip Shot","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"62878208","code":"21","tcg":32902,"grp":188,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"DP08-EN022","name":"Graceful Revival","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"98273947","code":"22","tcg":32907,"grp":188,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"DP08-EN023","name":"Defense Draw","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"24268052","code":"23","tcg":32900,"grp":188,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"DP08-EN024","name":"Remote Revenge","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"61656650","code":"24","tcg":32916,"grp":188,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"DP08-EN025","name":"Battle Mania","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"R","img":"31245780","code":"25","tcg":32897,"grp":188,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"DP08-EN026","name":"Confusion Chaff","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"67630339","code":"26","tcg":32899,"grp":188,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"DP08-EN027","name":"Urgent Tuning","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"R","img":"94634433","code":"27","tcg":32925,"grp":188,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"DP08-EN028","name":"Synchro Strike","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"30123142","code":"28","tcg":32920,"grp":188,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"DP08-EN029","name":"Give and Take","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"55465441","code":"29","tcg":32906,"grp":188,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"DP08-EN030","name":"Limiter Overload","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"92450185","code":"30","tcg":32912,"grp":188,"idx":29}
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "yugioh/legendary-duelists-magical-hero",
+  "game": "yugioh",
+  "slug": "legendary-duelists-magical-hero",
+  "name": "Legendary Duelists: Magical Hero",
+  "series": "VRAINS",
+  "kind": "set",
+  "code": "LED6",
+  "syncKey": "YLED6",
+  "released": "2020-01-16",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Main Set",
+      "range": "LED6-EN000–LED6-EN055",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from LED6-EN000 to LED6-EN055."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Legendary Duelists: Magical Hero Checklist · All 56 Cards",
+    "description": "Free Yu-Gi-Oh! Legendary Duelists: Magical Hero checklist with no ads, no sign-up and no tracking. Track all 56 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Legendary Duelists: Magical Hero Checklist",
+    "ogDescription": "Track all 56 cards in Yu-Gi-Oh! Legendary Duelists: Magical Hero. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 56 cards in Yu-Gi-Oh! Legendary Duelists: Magical Hero. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About the Legendary Duelists: Magical Hero set",
+    "paragraphs": [
+      "Legendary Duelists: Magical Hero is a Yu-Gi-Oh! TCG special set released on 16 January 2020, in the VRAINS era. It has 56 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Legendary Duelists: Magical Hero"
+    ],
+    "tcgplayer": [
+      2567
+    ]
+  },
+  "cards": [
+    {"id":"000","section":"main","num":"000","printed":"LED6-EN000","name":"Dark Magician Girl","ctype":"monster","keywords":"Dark Magician Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Spellcaster / Effect","atk":2000,"def":1700},"rarity":"C","img":"38033122","code":"0","tcg":206967,"grp":2567,"idx":0},
+    {"id":"001","section":"main","num":"001","printed":"LED6-EN001","name":"The Dark Magicians","ctype":"monster","keywords":"Dark Magician Spellcaster DARK Fusion Monster","stats":{"a":"DARK","l":"Level 8","t":"Spellcaster / Fusion","atk":2800,"def":2300},"rarity":"UR","img":"50237654","code":"1","tcg":206969,"grp":2567,"idx":1},
+    {"id":"002","section":"main","num":"002","printed":"LED6-EN002","name":"Magicians' Souls","ctype":"monster","keywords":"Dark Magician Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Spellcaster / Effect","atk":0,"def":0},"rarity":"UR","img":"97631303","code":"2","tcg":206970,"grp":2567,"idx":2},
+    {"id":"003","section":"main","num":"003","printed":"LED6-EN003","name":"Soul Servant","ctype":"spell","keywords":"Dark Magician Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"UR","img":"23020408","code":"3","tcg":206971,"grp":2567,"idx":3},
+    {"id":"004","section":"main","num":"004","printed":"LED6-EN004","name":"Secrets of Dark Magic","ctype":"spell","keywords":"Dark Magician Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"R","img":"59514116","code":"4","tcg":206973,"grp":2567,"idx":4},
+    {"id":"005","section":"main","num":"005","printed":"LED6-EN005","name":"Magicians' Combination","ctype":"trap","keywords":"Dark Magician Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"UR","img":"86509711","code":"5","tcg":206975,"grp":2567,"idx":5},
+    {"id":"006","section":"main","num":"006","printed":"LED6-EN006","name":"Magician of Dark Illusion","ctype":"monster","keywords":"Dark Magician Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Spellcaster / Effect","atk":2100,"def":2500},"rarity":"R","img":"35191415","code":"6","tcg":206976,"grp":2567,"idx":6},
+    {"id":"007","section":"main","num":"007","printed":"LED6-EN007","name":"Apprentice Illusion Magician","ctype":"monster","keywords":"Dark Magician Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Spellcaster / Effect","atk":2000,"def":1700},"rarity":"SR","img":"30603688","code":"7","tcg":206977,"grp":2567,"idx":7},
+    {"id":"008","section":"main","num":"008","printed":"LED6-EN008","name":"Magician's Rod","ctype":"monster","keywords":"Dark Magician Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Spellcaster / Effect","atk":1600,"def":100},"rarity":"C","img":"7084129","code":"8","tcg":206979,"grp":2567,"idx":8},
+    {"id":"009","section":"main","num":"009","printed":"LED6-EN009","name":"Dark Magical Circle","ctype":"spell","keywords":"Prophecy Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"47222536","code":"9","tcg":206980,"grp":2567,"idx":9},
+    {"id":"010","section":"main","num":"010","printed":"LED6-EN010","name":"Illusion Magic","ctype":"spell","keywords":"Dark Magician Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"73616671","code":"10","tcg":206981,"grp":2567,"idx":10},
+    {"id":"011","section":"main","num":"011","printed":"LED6-EN011","name":"Magician Navigation","ctype":"trap","keywords":"Dark Magician Normal Trap","stats":{"t":"Normal Trap"},"rarity":"R","img":"7922915","code":"11","tcg":206982,"grp":2567,"idx":11},
+    {"id":"012","section":"main","num":"012","printed":"LED6-EN012","name":"Elemental HERO Sunrise","ctype":"monster","keywords":"Elemental HERO Warrior LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 7","t":"Warrior / Fusion","atk":2500,"def":1200},"rarity":"UR","img":"22908820","code":"12","tcg":206984,"grp":2567,"idx":12},
+    {"id":"013","section":"main","num":"013","printed":"LED6-EN013","name":"Elemental HERO Liquid Soldier","ctype":"monster","keywords":"Elemental HERO Warrior WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Warrior / Effect","atk":1400,"def":1300},"rarity":"UR","img":"59392529","code":"13","tcg":206985,"grp":2567,"idx":13},
+    {"id":"014","section":"main","num":"014","printed":"LED6-EN014","name":"Generation Next","ctype":"spell","keywords":"Elemental HERO Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"SR","img":"85787173","code":"14","tcg":206986,"grp":2567,"idx":14},
+    {"id":"015","section":"main","num":"015","printed":"LED6-EN015","name":"Favorite Hero","ctype":"spell","keywords":"Elemental HERO Equip Spell","stats":{"t":"Equip Spell"},"rarity":"UR","img":"11881272","code":"15","tcg":206987,"grp":2567,"idx":15},
+    {"id":"016","section":"main","num":"016","printed":"LED6-EN016","name":"Magistery Alchemist","ctype":"trap","keywords":"Elemental HERO Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"58270977","code":"16","tcg":206989,"grp":2567,"idx":16},
+    {"id":"017","section":"main","num":"017","printed":"LED6-EN017","name":"Winged Kuriboh","ctype":"monster","keywords":"Kuriboh Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Fairy / Effect","atk":300,"def":200},"rarity":"C","img":"57116033","code":"17","tcg":206992,"grp":2567,"idx":17},
+    {"id":"018","section":"main","num":"018","printed":"LED6-EN018","name":"Neo-Spacian Aqua Dolphin","ctype":"monster","keywords":"Neo-Spacian Warrior WATER Effect Monster","stats":{"a":"WATER","l":"Level 3","t":"Warrior / Effect","atk":600,"def":800},"rarity":"C","img":"17955766","code":"18","tcg":206993,"grp":2567,"idx":18},
+    {"id":"019","section":"main","num":"019","printed":"LED6-EN019","name":"Elemental HERO Honest Neos","ctype":"monster","keywords":"Elemental HERO Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 7","t":"Warrior / Effect","atk":2500,"def":2000},"rarity":"SR","img":"14124483","code":"19","tcg":206994,"grp":2567,"idx":19},
+    {"id":"020","section":"main","num":"020","printed":"LED6-EN020","name":"Miracle Fusion","ctype":"spell","keywords":"Elemental HERO Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"45906428","code":"20","tcg":206996,"grp":2567,"idx":20},
+    {"id":"021","section":"main","num":"021","printed":"LED6-EN021","name":"Skyscraper","ctype":"spell","keywords":"Elemental HERO Field Spell","stats":{"t":"Field Spell"},"rarity":"C","img":"63035430","code":"21","tcg":206997,"grp":2567,"idx":21},
+    {"id":"022","section":"main","num":"022","printed":"LED6-EN022","name":"A Hero Lives","ctype":"spell","keywords":"Elemental HERO Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"8949584","code":"22","tcg":207003,"grp":2567,"idx":22},
+    {"id":"023","section":"main","num":"023","printed":"LED6-EN023","name":"Satellite Warrior","ctype":"monster","keywords":"Warrior DARK Synchro Monster","stats":{"a":"DARK","l":"Level 10","t":"Warrior / Synchro","atk":2500,"def":2000},"rarity":"UR","img":"84664085","code":"23","tcg":207004,"grp":2567,"idx":23},
+    {"id":"024","section":"main","num":"024","printed":"LED6-EN024","name":"Junk Converter","ctype":"monster","keywords":"Junk Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 2","t":"Warrior / Effect","atk":400,"def":200},"rarity":"SR","img":"11069680","code":"24","tcg":207005,"grp":2567,"idx":24},
+    {"id":"025","section":"main","num":"025","printed":"LED6-EN025","name":"Satellite Synchron","ctype":"monster","keywords":"Synchron Machine DARK Tuner Monster","stats":{"a":"DARK","l":"Level 2","t":"Machine / Tuner","atk":700,"def":100},"rarity":"SR","img":"57458399","code":"25","tcg":207006,"grp":2567,"idx":25},
+    {"id":"026","section":"main","num":"026","printed":"LED6-EN026","name":"Synchro Chase","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"UR","img":"23442438","code":"26","tcg":207007,"grp":2567,"idx":26},
+    {"id":"027","section":"main","num":"027","printed":"LED6-EN027","name":"Scrap-Iron Signal","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"R","img":"50947142","code":"27","tcg":207008,"grp":2567,"idx":27},
+    {"id":"028","section":"main","num":"028","printed":"LED6-EN028","name":"Accel Synchron","ctype":"monster","keywords":"Synchron Machine DARK Synchro Tuner Monster","stats":{"a":"DARK","l":"Level 5","t":"Machine / Synchro / Tuner","atk":500,"def":2100},"rarity":"C","img":"37675907","code":"28","tcg":207010,"grp":2567,"idx":28},
+    {"id":"029","section":"main","num":"029","printed":"LED6-EN029","name":"Cosmic Blazar Dragon","ctype":"monster","keywords":"Dragon WIND Synchro Monster","stats":{"a":"WIND","l":"Level 12","t":"Dragon / Synchro","atk":4000,"def":4000},"rarity":"C","img":"21123811","code":"29","tcg":207009,"grp":2567,"idx":29},
+    {"id":"030","section":"main","num":"030","printed":"LED6-EN030","name":"Jet Synchron","ctype":"monster","keywords":"Junk Machine FIRE Tuner Monster","stats":{"a":"FIRE","l":"Level 1","t":"Machine / Tuner","atk":500,"def":0},"rarity":"C","img":"9742784","code":"30","tcg":207011,"grp":2567,"idx":30},
+    {"id":"031","section":"main","num":"031","printed":"LED6-EN031","name":"Doppelwarrior","ctype":"monster","keywords":"Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 2","t":"Warrior / Effect","atk":800,"def":800},"rarity":"C","img":"53855409","code":"31","tcg":207012,"grp":2567,"idx":31},
+    {"id":"032","section":"main","num":"032","printed":"LED6-EN032","name":"Quickdraw Synchron","ctype":"monster","keywords":"Synchron Machine WIND Tuner Monster","stats":{"a":"WIND","l":"Level 5","t":"Machine / Tuner","atk":700,"def":1400},"rarity":"C","img":"20932152","code":"32","tcg":207013,"grp":2567,"idx":32},
+    {"id":"033","section":"main","num":"033","printed":"LED6-EN033","name":"Tuning","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"96363153","code":"33","tcg":207014,"grp":2567,"idx":33},
+    {"id":"034","section":"main","num":"034","printed":"LED6-EN034","name":"Gagagaga Magician","ctype":"monster","keywords":"Gagaga Spellcaster DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 4","t":"Spellcaster / Xyz","atk":2000,"def":2000},"rarity":"SR","img":"86331741","code":"34","tcg":207015,"grp":2567,"idx":34},
+    {"id":"035","section":"main","num":"035","printed":"LED6-EN035","name":"Zubababancho Gagagacoat","ctype":"monster","keywords":"Gagaga Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Effect","atk":1800,"def":100},"rarity":"R","img":"23720856","code":"35","tcg":207016,"grp":2567,"idx":35},
+    {"id":"036","section":"main","num":"036","printed":"LED6-EN036","name":"Dodododwarf Gogogoglove","ctype":"monster","keywords":"Dododo Rock EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Rock / Effect","atk":0,"def":1800},"rarity":"R","img":"59724555","code":"36","tcg":207017,"grp":2567,"idx":36},
+    {"id":"037","section":"main","num":"037","printed":"LED6-EN037","name":"Onomatopickup","ctype":"spell","keywords":"Onomat Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"R","img":"85119159","code":"37","tcg":207018,"grp":2567,"idx":37},
+    {"id":"038","section":"main","num":"038","printed":"LED6-EN038","name":"Future Drive","ctype":"spell","keywords":"Utopia Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"R","img":"12508268","code":"38","tcg":207019,"grp":2567,"idx":38},
+    {"id":"039","section":"main","num":"039","printed":"LED6-EN039","name":"Number F0: Utopic Future","ctype":"monster","keywords":"Warrior LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 0","t":"Warrior / Xyz","atk":0,"def":0},"rarity":"C","img":"65305468","code":"39","tcg":207024,"grp":2567,"idx":39},
+    {"id":"040","section":"main","num":"040","printed":"LED6-EN040","name":"Gagaga Samurai","ctype":"monster","keywords":"Gagaga Warrior EARTH Xyz Monster","stats":{"a":"EARTH","l":"Rank 4","t":"Warrior / Xyz","atk":1900,"def":1600},"rarity":"C","img":"91499077","code":"40","tcg":207025,"grp":2567,"idx":40},
+    {"id":"041","section":"main","num":"041","printed":"LED6-EN041","name":"Gogogo Giant","ctype":"monster","keywords":"Gogogo Rock EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Rock / Effect","atk":2000,"def":0},"rarity":"C","img":"39695323","code":"41","tcg":207026,"grp":2567,"idx":41},
+    {"id":"042","section":"main","num":"042","printed":"LED6-EN042","name":"Dododo Buster","ctype":"monster","keywords":"Dododo Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 6","t":"Warrior / Effect","atk":1900,"def":800},"rarity":"C","img":"57996334","code":"42","tcg":207027,"grp":2567,"idx":42},
+    {"id":"043","section":"main","num":"043","printed":"LED6-EN043","name":"Onomatopaira","ctype":"spell","keywords":"Dododo Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"6595475","code":"43","tcg":207028,"grp":2567,"idx":43},
+    {"id":"044","section":"main","num":"044","printed":"LED6-EN044","name":"Halfway to Forever","ctype":"trap","keywords":"Utopia Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"20285786","code":"44","tcg":207029,"grp":2567,"idx":44},
+    {"id":"045","section":"main","num":"045","printed":"LED6-EN045","name":"Performapal Celestial Magician","ctype":"monster","keywords":"Performapal Spellcaster DARK Pendulum Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Pendulum / Effect","atk":1500,"def":1000},"rarity":"SR","img":"58092907","code":"45","tcg":207030,"grp":2567,"idx":45},
+    {"id":"046","section":"main","num":"046","printed":"LED6-EN046","name":"Odd-Eyes Wizard Dragon","ctype":"monster","keywords":"Odd-Eyes Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Dragon / Effect","atk":2500,"def":2500},"rarity":"R","img":"85497611","code":"46","tcg":207031,"grp":2567,"idx":46},
+    {"id":"047","section":"main","num":"047","printed":"LED6-EN047","name":"Performapal Popperup","ctype":"spell","keywords":"Performapal Normal Spell","stats":{"t":"Normal Spell"},"rarity":"R","img":"11481610","code":"47","tcg":207032,"grp":2567,"idx":47},
+    {"id":"048","section":"main","num":"048","printed":"LED6-EN048","name":"Smile Action","ctype":"spell","keywords":"Field Spell","stats":{"t":"Field Spell"},"rarity":"C","img":"47870325","code":"48","tcg":207033,"grp":2567,"idx":48},
+    {"id":"049","section":"main","num":"049","printed":"LED6-EN049","name":"Pendulum Dimension","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"84274024","code":"49","tcg":207034,"grp":2567,"idx":49},
+    {"id":"050","section":"main","num":"050","printed":"LED6-EN050","name":"Timegazer Magician","ctype":"monster","keywords":"Magician Spellcaster DARK Pendulum Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Spellcaster / Pendulum / Effect","atk":1200,"def":600},"rarity":"C","img":"20409757","code":"50","tcg":207035,"grp":2567,"idx":50},
+    {"id":"051","section":"main","num":"051","printed":"LED6-EN051","name":"Performapal Pendulum Sorcerer","ctype":"monster","keywords":"Performapal Spellcaster EARTH Pendulum Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Spellcaster / Pendulum / Effect","atk":1500,"def":800},"rarity":"C","img":"47075569","code":"51","tcg":207036,"grp":2567,"idx":51},
+    {"id":"052","section":"main","num":"052","printed":"LED6-EN052","name":"Chronograph Sorcerer","ctype":"monster","keywords":"Magician Spellcaster DARK Pendulum Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Spellcaster / Pendulum / Effect","atk":2000,"def":1700},"rarity":"C","img":"12289247","code":"52","tcg":207037,"grp":2567,"idx":52},
+    {"id":"053","section":"main","num":"053","printed":"LED6-EN053","name":"Harmonizing Magician","ctype":"monster","keywords":"Magician Spellcaster DARK Pendulum Tuner Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Pendulum / Tuner / Effect","atk":0,"def":0},"rarity":"C","img":"73941492","code":"53","tcg":207038,"grp":2567,"idx":53},
+    {"id":"054","section":"main","num":"054","printed":"LED6-EN054","name":"Supreme King Z-ARC","ctype":"monster","keywords":"Supreme King Dragon DARK Pendulum Effect Fusion Monster","stats":{"a":"DARK","l":"Level 12","t":"Dragon / Pendulum / Effect / Fusion","atk":4000,"def":4000},"rarity":"C","img":"13331639","code":"54","tcg":207039,"grp":2567,"idx":54},
+    {"id":"055","section":"main","num":"055","printed":"LED6-EN055","name":"Spiral Flame Strike","ctype":"spell","keywords":"Odd-Eyes Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"82768499","code":"55","tcg":207040,"grp":2567,"idx":55}
+  ]
+}

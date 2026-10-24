@@ -1,0 +1,101 @@
+{
+  "id": "yugioh/starter-deck-syrus-truesdale",
+  "game": "yugioh",
+  "slug": "starter-deck-syrus-truesdale",
+  "name": "Starter Deck: Syrus Truesdale",
+  "series": "GX",
+  "kind": "deck",
+  "code": "YSDS",
+  "syncKey": "YYSDS",
+  "released": "2007-07-25",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "YSDS-EN000–YSDS-EN040",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from YSDS-EN000 to YSDS-EN040."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Starter Deck: Syrus Truesdale Checklist · All 41 Cards",
+    "description": "Free Yu-Gi-Oh! Starter Deck: Syrus Truesdale checklist with no ads, no sign-up and no tracking. Track all 41 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Starter Deck: Syrus Truesdale Checklist",
+    "ogDescription": "Track all 41 cards in Yu-Gi-Oh! Starter Deck: Syrus Truesdale. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 41 cards in Yu-Gi-Oh! Starter Deck: Syrus Truesdale. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Starter Deck: Syrus Truesdale",
+    "paragraphs": [
+      "Starter Deck: Syrus Truesdale is a Yu-Gi-Oh! TCG deck released on 25 July 2007, in the GX era. It has 41 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Starter Deck: Syrus Truesdale"
+    ],
+    "tcgplayer": [
+      297
+    ]
+  },
+  "cards": [
+    {"id":"000","section":"main","num":"000","printed":"YSDS-EN000","name":"Expressroid","ctype":"monster","keywords":"Roid Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Machine / Effect","atk":400,"def":1600},"rarity":"UR","img":"984114","code":"0","tcg":26370,"grp":297,"idx":0},
+    {"id":"001","section":"main","num":"001","printed":"YSDS-EN001","name":"Cyber-Tech Alligator","ctype":"monster","keywords":"Alligator Machine WIND Normal Monster","stats":{"a":"WIND","l":"Level 5","t":"Machine / Normal","atk":2500,"def":1600},"rarity":"C","img":"48766543","code":"1","tcg":26371,"grp":297,"idx":1},
+    {"id":"002","section":"main","num":"002","printed":"YSDS-EN002","name":"Robotic Knight","ctype":"monster","keywords":"Machine FIRE Normal Monster","stats":{"a":"FIRE","l":"Level 4","t":"Machine / Normal","atk":1600,"def":1800},"rarity":"C","img":"44203504","code":"2","tcg":26372,"grp":297,"idx":2},
+    {"id":"003","section":"main","num":"003","printed":"YSDS-EN003","name":"Dark Blade","ctype":"monster","keywords":"Dark World Warrior DARK Normal Monster","stats":{"a":"DARK","l":"Level 4","t":"Warrior / Normal","atk":1800,"def":1500},"rarity":"C","img":"11321183","code":"3","tcg":26373,"grp":297,"idx":3},
+    {"id":"004","section":"main","num":"004","printed":"YSDS-EN004","name":"Acrobat Monkey","ctype":"monster","keywords":"Machine EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 3","t":"Machine / Normal","atk":1000,"def":1800},"rarity":"C","img":"47372349","code":"4","tcg":26374,"grp":297,"idx":4},
+    {"id":"005","section":"main","num":"005","printed":"YSDS-EN005","name":"Archfiend Soldier","ctype":"monster","keywords":"Archfiend Fiend DARK Normal Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Normal","atk":1900,"def":1500},"rarity":"C","img":"49881766","code":"5","tcg":26375,"grp":297,"idx":5},
+    {"id":"006","section":"main","num":"006","printed":"YSDS-EN006","name":"Cycroid","ctype":"monster","keywords":"Roid Machine EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 3","t":"Machine / Normal","atk":800,"def":1000},"rarity":"C","img":"45945685","code":"6","tcg":26376,"grp":297,"idx":6},
+    {"id":"007","section":"main","num":"007","printed":"YSDS-EN007","name":"Jerry Beans Man","ctype":"monster","keywords":"Plant EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 3","t":"Plant / Normal","atk":1750,"def":0},"rarity":"C","img":"23635815","code":"7","tcg":26377,"grp":297,"idx":7},
+    {"id":"008","section":"main","num":"008","printed":"YSDS-EN008","name":"Zure, Knight of Dark World","ctype":"monster","keywords":"Dark World Fiend DARK Normal Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Normal","atk":1800,"def":1500},"rarity":"C","img":"7459013","code":"8","tcg":26378,"grp":297,"idx":8},
+    {"id":"009","section":"main","num":"009","printed":"YSDS-EN009","name":"Poison Mummy","ctype":"monster","keywords":"Zombie EARTH Flip Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Zombie / Flip / Effect","atk":1000,"def":1800},"rarity":"C","img":"43716289","code":"9","tcg":26379,"grp":297,"idx":9},
+    {"id":"010","section":"main","num":"010","printed":"YSDS-EN010","name":"Mask of Darkness","ctype":"monster","keywords":"Mask Fiend DARK Flip Effect Monster","stats":{"a":"DARK","l":"Level 2","t":"Fiend / Flip / Effect","atk":900,"def":400},"rarity":"C","img":"28933734","code":"10","tcg":26380,"grp":297,"idx":10},
+    {"id":"011","section":"main","num":"011","printed":"YSDS-EN011","name":"Dekoichi the Battlechanted Locomotive","ctype":"monster","keywords":"Machine DARK Flip Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Machine / Flip / Effect","atk":1400,"def":1000},"rarity":"C","img":"87621407","code":"11","tcg":26381,"grp":297,"idx":11},
+    {"id":"012","section":"main","num":"012","printed":"YSDS-EN012","name":"Chiron the Mage","ctype":"monster","keywords":"Beast-Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Beast-Warrior / Effect","atk":1800,"def":1000},"rarity":"C","img":"16956455","code":"12","tcg":26382,"grp":297,"idx":12},
+    {"id":"013","section":"main","num":"013","printed":"YSDS-EN013","name":"Patroid","ctype":"monster","keywords":"Roid Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Machine / Effect","atk":1200,"def":1200},"rarity":"C","img":"71930383","code":"13","tcg":26383,"grp":297,"idx":13},
+    {"id":"014","section":"main","num":"014","printed":"YSDS-EN014","name":"Gyroid","ctype":"monster","keywords":"Roid Machine WIND Effect Monster","stats":{"a":"WIND","l":"Level 3","t":"Machine / Effect","atk":1000,"def":1000},"rarity":"C","img":"18325492","code":"14","tcg":26384,"grp":297,"idx":14},
+    {"id":"015","section":"main","num":"015","printed":"YSDS-EN015","name":"Steamroid","ctype":"monster","keywords":"Roid Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Machine / Effect","atk":1800,"def":1800},"rarity":"C","img":"44729197","code":"15","tcg":26385,"grp":297,"idx":15},
+    {"id":"016","section":"main","num":"016","printed":"YSDS-EN016","name":"Drillroid","ctype":"monster","keywords":"Roid Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Machine / Effect","atk":1600,"def":1600},"rarity":"SR","img":"71218746","code":"16","tcg":26386,"grp":297,"idx":16},
+    {"id":"017","section":"main","num":"017","printed":"YSDS-EN017","name":"Submarineroid","ctype":"monster","keywords":"Roid Machine WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Machine / Effect","atk":800,"def":1800},"rarity":"C","img":"99861526","code":"17","tcg":26387,"grp":297,"idx":17},
+    {"id":"018","section":"main","num":"018","printed":"YSDS-EN018","name":"Ambulanceroid","ctype":"monster","keywords":"Roid Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Machine / Effect","atk":300,"def":1200},"rarity":"C","img":"36378213","code":"18","tcg":26388,"grp":297,"idx":18},
+    {"id":"019","section":"main","num":"019","printed":"YSDS-EN019","name":"Rescueroid","ctype":"monster","keywords":"Roid Machine FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 6","t":"Machine / Effect","atk":1600,"def":1800},"rarity":"C","img":"24311595","code":"19","tcg":26389,"grp":297,"idx":19},
+    {"id":"020","section":"main","num":"020","printed":"YSDS-EN020","name":"Abaki","ctype":"monster","keywords":"Fiend FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Fiend / Effect","atk":1700,"def":1100},"rarity":"C","img":"12694768","code":"20","tcg":26390,"grp":297,"idx":20},
+    {"id":"021","section":"main","num":"021","printed":"YSDS-EN021","name":"Black Pendant","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"65169794","code":"21","tcg":26391,"grp":297,"idx":21},
+    {"id":"022","section":"main","num":"022","printed":"YSDS-EN022","name":"Rush Recklessly","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"70046172","code":"22","tcg":26392,"grp":297,"idx":22},
+    {"id":"023","section":"main","num":"023","printed":"YSDS-EN023","name":"Giant Trunade","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"42703248","code":"23","tcg":26393,"grp":297,"idx":23},
+    {"id":"024","section":"main","num":"024","printed":"YSDS-EN024","name":"Heavy Storm","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"19613556","code":"24","tcg":26394,"grp":297,"idx":24},
+    {"id":"025","section":"main","num":"025","printed":"YSDS-EN025","name":"Book of Moon","ctype":"spell","keywords":"Book of Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"14087893","code":"25","tcg":26395,"grp":297,"idx":25},
+    {"id":"026","section":"main","num":"026","printed":"YSDS-EN026","name":"Smashing Ground","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"97169186","code":"26","tcg":26396,"grp":297,"idx":26},
+    {"id":"027","section":"main","num":"027","printed":"YSDS-EN027","name":"Enemy Controller","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"98045062","code":"27","tcg":26397,"grp":297,"idx":27},
+    {"id":"028","section":"main","num":"028","printed":"YSDS-EN028","name":"Earthquake","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"82828051","code":"28","tcg":26398,"grp":297,"idx":28},
+    {"id":"029","section":"main","num":"029","printed":"YSDS-EN029","name":"A Feather of the Phoenix","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"49140998","code":"29","tcg":26399,"grp":297,"idx":29},
+    {"id":"030","section":"main","num":"030","printed":"YSDS-EN030","name":"Lightning Vortex","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"69162969","code":"30","tcg":26400,"grp":297,"idx":30},
+    {"id":"031","section":"main","num":"031","printed":"YSDS-EN031","name":"Brain Control","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"87910978","code":"31","tcg":26401,"grp":297,"idx":31},
+    {"id":"032","section":"main","num":"032","printed":"YSDS-EN032","name":"Trap Hole","ctype":"trap","keywords":"Hole Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"4206964","code":"32","tcg":26402,"grp":297,"idx":32},
+    {"id":"033","section":"main","num":"033","printed":"YSDS-EN033","name":"Magic Jammer","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"C","img":"77414722","code":"33","tcg":26403,"grp":297,"idx":33},
+    {"id":"034","section":"main","num":"034","printed":"YSDS-EN034","name":"Seven Tools of the Bandit","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"C","img":"3819470","code":"34","tcg":26405,"grp":297,"idx":34},
+    {"id":"035","section":"main","num":"035","printed":"YSDS-EN035","name":"Sakuretsu Armor","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"56120475","code":"35","tcg":26404,"grp":297,"idx":35},
+    {"id":"036","section":"main","num":"036","printed":"YSDS-EN036","name":"Threatening Roar","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"36361633","code":"36","tcg":26406,"grp":297,"idx":36},
+    {"id":"037","section":"main","num":"037","printed":"YSDS-EN037","name":"Negate Attack","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"C","img":"14315573","code":"37","tcg":26407,"grp":297,"idx":37},
+    {"id":"038","section":"main","num":"038","printed":"YSDS-EN038","name":"Magic Cylinder","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"62279055","code":"38","tcg":26408,"grp":297,"idx":38},
+    {"id":"039","section":"main","num":"039","printed":"YSDS-EN039","name":"Rising Energy","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"78211862","code":"39","tcg":26409,"grp":297,"idx":39},
+    {"id":"040","section":"main","num":"040","printed":"YSDS-EN040","name":"Supercharge","ctype":"trap","keywords":"Roid Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"97705809","code":"40","tcg":26410,"grp":297,"idx":40}
+  ]
+}

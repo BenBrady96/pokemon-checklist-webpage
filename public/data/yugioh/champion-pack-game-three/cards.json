@@ -1,0 +1,80 @@
+{
+  "id": "yugioh/champion-pack-game-three",
+  "game": "yugioh",
+  "slug": "champion-pack-game-three",
+  "name": "Champion Pack: Game Three",
+  "series": "GX",
+  "kind": "pack",
+  "code": "CP03",
+  "syncKey": "YCP03",
+  "released": "2007-05-15",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "CP03-EN001–CP03-EN020",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from CP03-EN001 to CP03-EN020."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Champion Pack: Game Three Checklist · All 20 Cards",
+    "description": "Free Yu-Gi-Oh! Champion Pack: Game Three checklist with no ads, no sign-up and no tracking. Track all 20 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Champion Pack: Game Three Checklist",
+    "ogDescription": "Track all 20 cards in Yu-Gi-Oh! Champion Pack: Game Three. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 20 cards in Yu-Gi-Oh! Champion Pack: Game Three. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Champion Pack: Game Three",
+    "paragraphs": [
+      "Champion Pack: Game Three is a Yu-Gi-Oh! TCG pack released on 15 May 2007, in the GX era. It has 20 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Champion Pack: Game Three"
+    ],
+    "tcgplayer": [
+      151
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"CP03-EN001","name":"Magicians Unite","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UR","img":"36045450","code":"1","tcg":26036,"grp":151,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"CP03-EN002","name":"Spirit Reaper","ctype":"monster","keywords":"Zombie DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Zombie / Effect","atk":300,"def":200},"rarity":"SR","img":"23205979","code":"2","tcg":26037,"grp":151,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"CP03-EN003","name":"Gravekeeper's Spy","ctype":"monster","keywords":"Gravekeeper's Spellcaster DARK Flip Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Flip / Effect","atk":1200,"def":2000},"rarity":"SR","img":"24317029","code":"3","tcg":26038,"grp":151,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"CP03-EN004","name":"Snipe Hunter","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Effect","atk":1500,"def":600},"rarity":"SR","img":"84290642","code":"4","tcg":26039,"grp":151,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"CP03-EN005","name":"Dark World Lightning","ctype":"spell","keywords":"Dark World Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"93554166","code":"5","tcg":26040,"grp":151,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"CP03-EN006","name":"D.D. Assailant","ctype":"monster","keywords":"D.D. Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Effect","atk":1700,"def":1600},"rarity":"R","img":"70074904","code":"6","tcg":26041,"grp":151,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"CP03-EN007","name":"Goldd, Wu-Lord of Dark World","ctype":"monster","keywords":"Dark World Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 5","t":"Fiend / Effect","atk":2300,"def":1400},"rarity":"R","img":"78004197","code":"7","tcg":26042,"grp":151,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"CP03-EN008","name":"Manticore of Darkness","ctype":"monster","keywords":"Beast-Warrior FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 6","t":"Beast-Warrior / Effect","atk":2300,"def":1000},"rarity":"R","img":"77121851","code":"8","tcg":26043,"grp":151,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"CP03-EN009","name":"The Agent of Judgment - Saturn","ctype":"monster","keywords":"The Agent Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Fairy / Effect","atk":2400,"def":0},"rarity":"R","img":"91345518","code":"9","tcg":26044,"grp":151,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"CP03-EN010","name":"Pikeru's Circle of Enchantment","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"R","img":"74270067","code":"10","tcg":26045,"grp":151,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"CP03-EN011","name":"Widespread Ruin","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"R","img":"77754944","code":"11","tcg":26046,"grp":151,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"CP03-EN012","name":"Fairy Dragon","ctype":"monster","keywords":"Dragon WIND Normal Monster","stats":{"a":"WIND","l":"Level 4","t":"Dragon / Normal","atk":1100,"def":1200},"rarity":"C","img":"20315854","code":"12","tcg":26047,"grp":151,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"CP03-EN013","name":"Chiron the Mage","ctype":"monster","keywords":"Beast-Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Beast-Warrior / Effect","atk":1800,"def":1000},"rarity":"C","img":"16956455","code":"13","tcg":26048,"grp":151,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"CP03-EN014","name":"Kaibaman","ctype":"monster","keywords":"Blue-Eyes Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Warrior / Effect","atk":200,"def":700},"rarity":"C","img":"34627841","code":"14","tcg":26049,"grp":151,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"CP03-EN015","name":"B.E.S. Crystal Core","ctype":"monster","keywords":"B.E.S. Machine WATER Effect Monster","stats":{"a":"WATER","l":"Level 5","t":"Machine / Effect","atk":2100,"def":1000},"rarity":"C","img":"22790789","code":"15","tcg":26050,"grp":151,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"CP03-EN016","name":"Gravekeeper's Chief","ctype":"monster","keywords":"Gravekeeper's Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 5","t":"Spellcaster / Effect","atk":1900,"def":1200},"rarity":"C","img":"62473983","code":"16","tcg":26051,"grp":151,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"CP03-EN017","name":"Wild Nature's Release","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"61166988","code":"17","tcg":26052,"grp":151,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"CP03-EN018","name":"A Feather of the Phoenix","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"49140998","code":"18","tcg":26053,"grp":151,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"CP03-EN019","name":"Contract with the Abyss","ctype":"spell","keywords":"Ritual Spell","stats":{"t":"Ritual Spell"},"rarity":"C","img":"69035382","code":"19","tcg":26054,"grp":151,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"CP03-EN020","name":"Necrovalley","ctype":"spell","keywords":"Gravekeeper's Field Spell","stats":{"t":"Field Spell"},"rarity":"C","img":"47355498","code":"20","tcg":26055,"grp":151,"idx":19}
+  ]
+}

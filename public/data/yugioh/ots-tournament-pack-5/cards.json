@@ -1,0 +1,87 @@
+{
+  "id": "yugioh/ots-tournament-pack-5",
+  "game": "yugioh",
+  "slug": "ots-tournament-pack-5",
+  "name": "OTS Tournament Pack 5",
+  "series": "VRAINS",
+  "kind": "pack",
+  "code": "OP05",
+  "syncKey": "YOP05",
+  "released": "2017-08-03",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "OP05-EN001–OP05-EN027",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from OP05-EN001 to OP05-EN027."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! OTS Tournament Pack 5 Checklist · All 27 Cards",
+    "description": "Free Yu-Gi-Oh! OTS Tournament Pack 5 checklist with no ads, no sign-up and no tracking. Track all 27 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! OTS Tournament Pack 5 Checklist",
+    "ogDescription": "Track all 27 cards in Yu-Gi-Oh! OTS Tournament Pack 5. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 27 cards in Yu-Gi-Oh! OTS Tournament Pack 5. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About OTS Tournament Pack 5",
+    "paragraphs": [
+      "OTS Tournament Pack 5 is a Yu-Gi-Oh! TCG pack released on 3 August 2017, in the VRAINS era. It has 27 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "OTS Tournament Pack 5"
+    ],
+    "tcgplayer": [
+      2019
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"OP05-EN001","name":"Ghost Ogre & Snow Rabbit","ctype":"monster","keywords":"Psychic LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Psychic / Tuner","atk":0,"def":1800},"rarity":"UtR","img":"59438930","code":"1","tcg":139860,"grp":2019,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"OP05-EN002","name":"Zoodiac Whiptail","ctype":"monster","keywords":"Zoodiac Beast-Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Beast-Warrior / Effect","atk":1200,"def":400},"rarity":"UtR","img":"31755044","code":"2","tcg":139861,"grp":2019,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"OP05-EN003","name":"Terraforming","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UtR","img":"73628505","code":"3","tcg":139862,"grp":2019,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"OP05-EN004","name":"Dogoran, the Mad Flame Kaiju","ctype":"monster","keywords":"Kaiju Dinosaur FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 8","t":"Dinosaur / Effect","atk":3000,"def":1200},"rarity":"SR","img":"93332803","code":"4","tcg":139863,"grp":2019,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"OP05-EN005","name":"Fairy Tail - Snow","ctype":"monster","keywords":"Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Effect","atk":1850,"def":1000},"rarity":"SR","img":"55623480","code":"5","tcg":139864,"grp":2019,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"OP05-EN006","name":"SPYRAL Quik-Fix","ctype":"monster","keywords":"SPYRAL Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 1","t":"Machine / Effect","atk":500,"def":400},"rarity":"SR","img":"78080961","code":"6","tcg":139865,"grp":2019,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"OP05-EN007","name":"Fairy Tail - Sleeper","ctype":"monster","keywords":"Spellcaster LIGHT Flip Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Flip / Effect","atk":1850,"def":1000},"rarity":"SR","img":"42921475","code":"7","tcg":139866,"grp":2019,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"OP05-EN008","name":"Zoodiac Ramram","ctype":"monster","keywords":"Zoodiac Beast-Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Beast-Warrior / Effect","atk":400,"def":2000},"rarity":"SR","img":"4145852","code":"8","tcg":139867,"grp":2019,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"OP05-EN009","name":"Ultimate Ancient Gear Golem","ctype":"monster","keywords":"Ancient Gear Machine EARTH Fusion Monster","stats":{"a":"EARTH","l":"Level 10","t":"Machine / Fusion","atk":4400,"def":3400},"rarity":"SR","img":"12652643","code":"9","tcg":139868,"grp":2019,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"OP05-EN010","name":"Swing of Memories","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"96765646","code":"10","tcg":139869,"grp":2019,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"OP05-EN011","name":"Disciples of the True Dracophoenix","ctype":"spell","keywords":"True Draco Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"SR","img":"75425320","code":"11","tcg":139870,"grp":2019,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"OP05-EN012","name":"Lost Wind","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"74003290","code":"12","tcg":139871,"grp":2019,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"OP05-EN013","name":"True Draco Apocalypse","ctype":"trap","keywords":"True Draco Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"SR","img":"61529473","code":"13","tcg":139872,"grp":2019,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"OP05-EN014","name":"Snakeyashi","ctype":"monster","keywords":"Plant EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 4","t":"Plant / Normal","atk":1000,"def":1200},"rarity":"SP","img":"29802344","code":"14","tcg":139873,"grp":2019,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"OP05-EN015","name":"Feral Imp","ctype":"monster","keywords":"Fiend DARK Normal Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Normal","atk":1300,"def":1400},"rarity":"SP","img":"41392891","code":"15","tcg":139875,"grp":2019,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"OP05-EN016","name":"Mystical Shine Ball","ctype":"monster","keywords":"Fairy LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 2","t":"Fairy / Normal","atk":500,"def":500},"rarity":"C","img":"39552864","code":"16","tcg":139876,"grp":2019,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"OP05-EN017","name":"The Agent of Creation - Venus","ctype":"monster","keywords":"The Agent Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Fairy / Effect","atk":1600,"def":0},"rarity":"C","img":"64734921","code":"17","tcg":139877,"grp":2019,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"OP05-EN018","name":"Kagetokage","ctype":"monster","keywords":"Reptile DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Reptile / Effect","atk":1100,"def":1500},"rarity":"C","img":"94656263","code":"18","tcg":139878,"grp":2019,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"OP05-EN019","name":"Tin Goldfish","ctype":"monster","keywords":"Machine WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Machine / Effect","atk":800,"def":2000},"rarity":"C","img":"18063928","code":"19","tcg":139879,"grp":2019,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"OP05-EN020","name":"Scapeghost","ctype":"monster","keywords":"Zombie DARK Tuner Monster","stats":{"a":"DARK","l":"Level 1","t":"Zombie / Tuner","atk":0,"def":0},"rarity":"C","img":"67284107","code":"20","tcg":139880,"grp":2019,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"OP05-EN021","name":"Fairy Tail - Luna","ctype":"monster","keywords":"Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Effect","atk":1850,"def":1000},"rarity":"C","img":"86937530","code":"21","tcg":139881,"grp":2019,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"OP05-EN022","name":"Rose Spectre of Dunn","ctype":"monster","keywords":"Rose Dragon Plant DARK Fusion Monster","stats":{"a":"DARK","l":"Level 6","t":"Plant / Fusion","atk":2000,"def":1800},"rarity":"SP","img":"32485271","code":"22","tcg":139882,"grp":2019,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"OP05-EN023","name":"Elemental HERO Absolute Zero","ctype":"monster","keywords":"Elemental HERO Warrior WATER Fusion Monster","stats":{"a":"WATER","l":"Level 8","t":"Warrior / Fusion","atk":2500,"def":2000},"rarity":"C","img":"40854197","code":"23","tcg":139883,"grp":2019,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"OP05-EN024","name":"Scapegoat","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"73915051","code":"24","tcg":139884,"grp":2019,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"OP05-EN025","name":"Chain Summoning","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"9952083","code":"25","tcg":139885,"grp":2019,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"OP05-EN026","name":"Secret Village of the Spellcasters","ctype":"spell","keywords":"Field Spell","stats":{"t":"Field Spell"},"rarity":"C","img":"68462976","code":"26","tcg":139886,"grp":2019,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"OP05-EN027","name":"Grave of the Super Ancient Organism","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"83266092","code":"27","tcg":139887,"grp":2019,"idx":26}
+  ]
+}

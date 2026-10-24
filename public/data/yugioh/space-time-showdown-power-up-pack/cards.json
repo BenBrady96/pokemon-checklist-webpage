@@ -1,0 +1,75 @@
+{
+  "id": "yugioh/space-time-showdown-power-up-pack",
+  "game": "yugioh",
+  "slug": "space-time-showdown-power-up-pack",
+  "name": "Space-Time Showdown Power-Up Pack",
+  "series": "ZEXAL",
+  "kind": "pack",
+  "code": "YS14",
+  "syncKey": "YYS142",
+  "released": "2014-07-10",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "YS14-ENA01–YS14-ENA15",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from YS14-ENA01 to YS14-ENA15."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Space-Time Showdown Power-Up Pack Checklist · All 15 Cards",
+    "description": "Free Yu-Gi-Oh! Space-Time Showdown Power-Up Pack checklist with no ads, no sign-up and no tracking. Track all 15 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Space-Time Showdown Power-Up Pack Checklist",
+    "ogDescription": "Track all 15 cards in Yu-Gi-Oh! Space-Time Showdown Power-Up Pack. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 15 cards in Yu-Gi-Oh! Space-Time Showdown Power-Up Pack. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Space-Time Showdown Power-Up Pack",
+    "paragraphs": [
+      "Space-Time Showdown Power-Up Pack is a Yu-Gi-Oh! TCG pack released on 10 July 2014, in the ZEXAL era. It has 15 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Space-Time Showdown Power-Up Pack"
+    ],
+    "tcgplayer": [
+      1467
+    ]
+  },
+  "cards": [
+    {"id":"A01","section":"main","num":"A01","printed":"YS14-ENA01","name":"Odd-Eyes Dragon","ctype":"monster","keywords":"Odd-Eyes Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Dragon / Effect","atk":2500,"def":2000},"rarity":"UR","img":"53025096","code":"A1","tcg":91443,"grp":1467,"idx":0},
+    {"id":"A02","section":"main","num":"A02","printed":"YS14-ENA02","name":"Des Volstgalph","ctype":"monster","keywords":"Dragon EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 6","t":"Dragon / Effect","atk":2200,"def":1700},"rarity":"C","img":"81059524","code":"A2","tcg":91444,"grp":1467,"idx":1},
+    {"id":"A03","section":"main","num":"A03","printed":"YS14-ENA03","name":"Kuraz the Light Monarch","ctype":"monster","keywords":"Monarch Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Warrior / Effect","atk":2400,"def":1000},"rarity":"C","img":"57666212","code":"A3","tcg":91445,"grp":1467,"idx":2},
+    {"id":"A04","section":"main","num":"A04","printed":"YS14-ENA04","name":"D.D. Warrior Lady","ctype":"monster","keywords":"D.D. Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Effect","atk":1500,"def":1600},"rarity":"C","img":"7572887","code":"A4","tcg":91446,"grp":1467,"idx":3},
+    {"id":"A05","section":"main","num":"A05","printed":"YS14-ENA05","name":"Sacred Crane","ctype":"monster","keywords":"Winged Beast LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Winged Beast / Effect","atk":1600,"def":400},"rarity":"C","img":"30914564","code":"A5","tcg":91447,"grp":1467,"idx":4},
+    {"id":"A06","section":"main","num":"A06","printed":"YS14-ENA06","name":"Amazoness Sage","ctype":"monster","keywords":"Amazoness Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Effect","atk":1400,"def":700},"rarity":"C","img":"53162898","code":"A6","tcg":91448,"grp":1467,"idx":5},
+    {"id":"A07","section":"main","num":"A07","printed":"YS14-ENA07","name":"Injection Fairy Lily","ctype":"monster","keywords":"Spellcaster EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Spellcaster / Effect","atk":400,"def":1500},"rarity":"C","img":"79575620","code":"A7","tcg":91449,"grp":1467,"idx":6},
+    {"id":"A08","section":"main","num":"A08","printed":"YS14-ENA08","name":"The A. Forces","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"403847","code":"A8","tcg":91450,"grp":1467,"idx":7},
+    {"id":"A09","section":"main","num":"A09","printed":"YS14-ENA09","name":"Reinforcement of the Army","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"32807846","code":"A9","tcg":91451,"grp":1467,"idx":8},
+    {"id":"A10","section":"main","num":"A10","printed":"YS14-ENA10","name":"Dark Hole","ctype":"spell","keywords":"Hole Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UR","img":"53129443","code":"A10","tcg":91452,"grp":1467,"idx":9},
+    {"id":"A11","section":"main","num":"A11","printed":"YS14-ENA11","name":"Swords of Revealing Light","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"72302403","code":"A11","tcg":91453,"grp":1467,"idx":10},
+    {"id":"A12","section":"main","num":"A12","printed":"YS14-ENA12","name":"Mirror Force","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"44095762","code":"A12","tcg":91454,"grp":1467,"idx":11},
+    {"id":"A13","section":"main","num":"A13","printed":"YS14-ENA13","name":"Call of the Haunted","ctype":"trap","keywords":"Call of the Haunted Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"97077563","code":"A13","tcg":91455,"grp":1467,"idx":12},
+    {"id":"A14","section":"main","num":"A14","printed":"YS14-ENA14","name":"Magic Cylinder","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"62279055","code":"A14","tcg":91457,"grp":1467,"idx":13},
+    {"id":"A15","section":"main","num":"A15","printed":"YS14-ENA15","name":"Divine Wrath","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"C","img":"49010598","code":"A15","tcg":91458,"grp":1467,"idx":14}
+  ]
+}

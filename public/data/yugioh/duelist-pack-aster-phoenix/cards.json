@@ -1,0 +1,90 @@
+{
+  "id": "yugioh/duelist-pack-aster-phoenix",
+  "game": "yugioh",
+  "slug": "duelist-pack-aster-phoenix",
+  "name": "Duelist Pack: Aster Phoenix",
+  "series": "GX",
+  "kind": "pack",
+  "code": "DP05",
+  "syncKey": "YDP05",
+  "released": "2007-02-07",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "DP05-EN001–DP05-EN030",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from DP05-EN001 to DP05-EN030."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Duelist Pack: Aster Phoenix Checklist · All 30 Cards",
+    "description": "Free Yu-Gi-Oh! Duelist Pack: Aster Phoenix checklist with no ads, no sign-up and no tracking. Track all 30 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Duelist Pack: Aster Phoenix Checklist",
+    "ogDescription": "Track all 30 cards in Yu-Gi-Oh! Duelist Pack: Aster Phoenix. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 30 cards in Yu-Gi-Oh! Duelist Pack: Aster Phoenix. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Duelist Pack: Aster Phoenix",
+    "paragraphs": [
+      "Duelist Pack: Aster Phoenix is a Yu-Gi-Oh! TCG pack released on 7 February 2007, in the GX era. It has 30 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Duelist Pack: Aster Phoenix"
+    ],
+    "tcgplayer": [
+      190
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"DP05-EN001","name":"Destiny HERO - Doom Lord","ctype":"monster","keywords":"Destiny HERO Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Warrior / Effect","atk":600,"def":800},"rarity":"C","img":"41613948","code":"1","tcg":25622,"grp":190,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"DP05-EN002","name":"Destiny HERO - Captain Tenacious","ctype":"monster","keywords":"Destiny HERO Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Warrior / Effect","atk":800,"def":800},"rarity":"C","img":"77608643","code":"2","tcg":25623,"grp":190,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"DP05-EN003","name":"Destiny HERO - Diamond Dude","ctype":"monster","keywords":"Destiny HERO Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Warrior / Effect","atk":1400,"def":1600},"rarity":"C","img":"13093792","code":"3","tcg":25624,"grp":190,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"DP05-EN004","name":"Destiny HERO - Dreadmaster","ctype":"monster","keywords":"Destiny HERO Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Warrior / Effect","atk":-1,"def":-1},"rarity":"R","img":"40591390","code":"4","tcg":25625,"grp":190,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"DP05-EN005","name":"Destiny HERO - Double Dude","ctype":"monster","keywords":"Destiny HERO Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Warrior / Effect","atk":1000,"def":1000},"rarity":"R","img":"28355718","code":"5","tcg":25626,"grp":190,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"DP05-EN006","name":"Destiny HERO - Defender","ctype":"monster","keywords":"Destiny HERO Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Warrior / Effect","atk":100,"def":2700},"rarity":"R","img":"54749427","code":"6","tcg":25627,"grp":190,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"DP05-EN007","name":"Destiny HERO - Dogma","ctype":"monster","keywords":"Destiny HERO Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Warrior / Effect","atk":3400,"def":2400},"rarity":"R","img":"17132130","code":"7","tcg":25628,"grp":190,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"DP05-EN008","name":"Destiny HERO - Blade Master","ctype":"monster","keywords":"Destiny HERO Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Warrior / Effect","atk":300,"def":600},"rarity":"C","img":"55461064","code":"8","tcg":25629,"grp":190,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"DP05-EN009","name":"Destiny HERO - Fear Monger","ctype":"monster","keywords":"Destiny HERO Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Warrior / Effect","atk":1000,"def":1000},"rarity":"R","img":"80744121","code":"9","tcg":25630,"grp":190,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"DP05-EN010","name":"Destiny HERO - Dasher","ctype":"monster","keywords":"Destiny HERO Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Warrior / Effect","atk":2100,"def":1000},"rarity":"C","img":"81866673","code":"10","tcg":25631,"grp":190,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"DP05-EN011","name":"Destiny HERO - Malicious","ctype":"monster","keywords":"Destiny HERO Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Warrior / Effect","atk":800,"def":800},"rarity":"UR","img":"9411399","code":"11","tcg":25632,"grp":190,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"DP05-EN012","name":"Elemental HERO Phoenix Enforcer","ctype":"monster","keywords":"Elemental HERO Warrior FIRE Fusion Monster","stats":{"a":"FIRE","l":"Level 6","t":"Warrior / Fusion","atk":2100,"def":1200},"rarity":"R","img":"41436536","code":"12","tcg":25633,"grp":190,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"DP05-EN013","name":"Elemental HERO Shining Phoenix Enforcer","ctype":"monster","keywords":"Elemental HERO Warrior FIRE Fusion Monster","stats":{"a":"FIRE","l":"Level 8","t":"Warrior / Fusion","atk":2500,"def":2100},"rarity":"SR","img":"88820235","code":"13","tcg":25634,"grp":190,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"DP05-EN014","name":"Misfortune","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"1036974","code":"14","tcg":25635,"grp":190,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"DP05-EN015","name":"Guard Penalty","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"48653261","code":"15","tcg":25636,"grp":190,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"DP05-EN016","name":"Clock Tower Prison","ctype":"spell","keywords":"Destiny HERO Field Spell","stats":{"t":"Field Spell"},"rarity":"R","img":"75041269","code":"16","tcg":25637,"grp":190,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"DP05-EN017","name":"D - Spirit","ctype":"spell","keywords":"Destiny HERO Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"89899996","code":"17","tcg":25638,"grp":190,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"DP05-EN018","name":"Cyclone Blade","ctype":"spell","keywords":"Destiny HERO Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"22147147","code":"18","tcg":25639,"grp":190,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"DP05-EN019","name":"Dark City","ctype":"spell","keywords":"Destiny HERO Field Spell","stats":{"t":"Field Spell"},"rarity":"C","img":"53527835","code":"19","tcg":25640,"grp":190,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"DP05-EN020","name":"Destiny Draw","ctype":"spell","keywords":"Destiny HERO Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UR","img":"45809008","code":"20","tcg":25641,"grp":190,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"DP05-EN021","name":"Over Destiny","ctype":"spell","keywords":"Destiny HERO Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"72204747","code":"21","tcg":25642,"grp":190,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"DP05-EN022","name":"Elemental Recharge","ctype":"trap","keywords":"Elemental HERO Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"36586443","code":"22","tcg":25643,"grp":190,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"DP05-EN023","name":"Destruction of Destiny","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"62980542","code":"23","tcg":25644,"grp":190,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"DP05-EN024","name":"Destiny Signal","ctype":"trap","keywords":"Destiny HERO Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"35464895","code":"24","tcg":25645,"grp":190,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"DP05-EN025","name":"D - Time","ctype":"trap","keywords":"Destiny HERO Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"99075257","code":"25","tcg":25646,"grp":190,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"DP05-EN026","name":"D - Shield","ctype":"trap","keywords":"Destiny HERO Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"62868900","code":"26","tcg":25647,"grp":190,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"DP05-EN027","name":"Destiny Mirage","ctype":"trap","keywords":"Destiny HERO Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"15294090","code":"27","tcg":25648,"grp":190,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"DP05-EN028","name":"D - Chain","ctype":"trap","keywords":"Destiny HERO Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"43405287","code":"28","tcg":25649,"grp":190,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"DP05-EN029","name":"D - Counter","ctype":"trap","keywords":"Destiny HERO Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"8698851","code":"29","tcg":25650,"grp":190,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"DP05-EN030","name":"Eternal Dread","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"35787450","code":"30","tcg":25651,"grp":190,"idx":29}
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "id": "yugioh/the-secret-forces",
+  "game": "yugioh",
+  "slug": "the-secret-forces",
+  "name": "The Secret Forces",
+  "series": "ARC-V",
+  "kind": "expansion",
+  "code": "THSF",
+  "syncKey": "YTHSF",
+  "released": "2015-02-12",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Main Set",
+      "range": "THSF-EN001–THSF-EN060",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from THSF-EN001 to THSF-EN060."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! The Secret Forces Checklist · All 60 Cards",
+    "description": "Free Yu-Gi-Oh! The Secret Forces checklist with no ads, no sign-up and no tracking. Track all 60 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! The Secret Forces Checklist",
+    "ogDescription": "Track all 60 cards in Yu-Gi-Oh! The Secret Forces. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 60 cards in Yu-Gi-Oh! The Secret Forces. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About the The Secret Forces set",
+    "paragraphs": [
+      "The Secret Forces is a Yu-Gi-Oh! TCG booster set released on 12 February 2015, in the ARC-V era. It has 60 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "The Secret Forces"
+    ],
+    "tcgplayer": [
+      1513
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"THSF-EN001","name":"Mayosenju Daibak","ctype":"monster","keywords":"Yosenju Beast WIND Pendulum Effect Monster","stats":{"a":"WIND","l":"Level 10","t":"Beast / Pendulum / Effect","atk":3000,"def":300},"rarity":"ScR","img":"93368494","code":"1","tcg":96070,"grp":1513,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"THSF-EN002","name":"Yosenju Misak","ctype":"monster","keywords":"Yosenju Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 6","t":"Beast / Effect","atk":2300,"def":200},"rarity":"ScR","img":"39853199","code":"2","tcg":96071,"grp":1513,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"THSF-EN003","name":"Yosenju Kama 1","ctype":"monster","keywords":"Yosenju Beast-Warrior WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Beast-Warrior / Effect","atk":1600,"def":500},"rarity":"ScR","img":"65247798","code":"3","tcg":96072,"grp":1513,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"THSF-EN004","name":"Yosenju Kama 2","ctype":"monster","keywords":"Yosenju Beast-Warrior WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Beast-Warrior / Effect","atk":1800,"def":200},"rarity":"ScR","img":"92246806","code":"4","tcg":96073,"grp":1513,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"THSF-EN005","name":"Yosenju Kama 3","ctype":"monster","keywords":"Yosenju Beast-Warrior WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Beast-Warrior / Effect","atk":1500,"def":800},"rarity":"ScR","img":"28630501","code":"5","tcg":96074,"grp":1513,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"THSF-EN006","name":"Yosenju Shinchu L","ctype":"monster","keywords":"Yosenju Rock WIND Pendulum Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Rock / Pendulum / Effect","atk":0,"def":2100},"rarity":"SR","img":"65025250","code":"6","tcg":96075,"grp":1513,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"THSF-EN007","name":"Yosenju Shinchu R","ctype":"monster","keywords":"Yosenju Rock WIND Pendulum Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Rock / Pendulum / Effect","atk":0,"def":2100},"rarity":"SR","img":"91420254","code":"7","tcg":96076,"grp":1513,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"THSF-EN008","name":"Yosen Training Grounds","ctype":"spell","keywords":"Yosenju Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"SR","img":"27918963","code":"8","tcg":96077,"grp":1513,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"THSF-EN009","name":"Yosenjus' Secret Move","ctype":"trap","keywords":"Yosenju Counter Trap","stats":{"t":"Counter Trap"},"rarity":"SR","img":"54903668","code":"9","tcg":96078,"grp":1513,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"THSF-EN010","name":"Shurit, Strategist of the Nekroz","ctype":"monster","keywords":"Nekroz Warrior WATER Effect Monster","stats":{"a":"WATER","l":"Level 3","t":"Warrior / Effect","atk":300,"def":1800},"rarity":"SR","img":"90307777","code":"10","tcg":96079,"grp":1513,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"THSF-EN011","name":"Great Sorcerer of the Nekroz","ctype":"monster","keywords":"Nekroz Spellcaster WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Spellcaster / Effect","atk":1500,"def":800},"rarity":"SR","img":"27796375","code":"11","tcg":96080,"grp":1513,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"THSF-EN012","name":"Exa, Enforcer of the Nekroz","ctype":"monster","keywords":"Nekroz Dragon WATER Effect Monster","stats":{"a":"WATER","l":"Level 5","t":"Dragon / Effect","atk":2000,"def":1000},"rarity":"SR","img":"53180020","code":"12","tcg":96081,"grp":1513,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"THSF-EN013","name":"Nekroz of Clausolas","ctype":"monster","keywords":"Nekroz Warrior WATER Ritual Effect Monster","stats":{"a":"WATER","l":"Level 3","t":"Warrior / Ritual / Effect","atk":1200,"def":2300},"rarity":"ScR","img":"99185129","code":"13","tcg":96082,"grp":1513,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"THSF-EN014","name":"Nekroz of Brionac","ctype":"monster","keywords":"Nekroz Warrior WATER Ritual Effect Monster","stats":{"a":"WATER","l":"Level 6","t":"Warrior / Ritual / Effect","atk":2300,"def":1400},"rarity":"ScR","img":"26674724","code":"14","tcg":96083,"grp":1513,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"THSF-EN015","name":"Nekroz of Trishula","ctype":"monster","keywords":"Nekroz Warrior WATER Ritual Effect Monster","stats":{"a":"WATER","l":"Level 9","t":"Warrior / Ritual / Effect","atk":2700,"def":2000},"rarity":"ScR","img":"52068432","code":"15","tcg":96084,"grp":1513,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"THSF-EN016","name":"Nekroz of Unicore","ctype":"monster","keywords":"Nekroz Spellcaster WATER Ritual Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Spellcaster / Ritual / Effect","atk":2300,"def":1000},"rarity":"ScR","img":"89463537","code":"16","tcg":96085,"grp":1513,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"THSF-EN017","name":"Nekroz of Valkyrus","ctype":"monster","keywords":"Nekroz Spellcaster WATER Ritual Effect Monster","stats":{"a":"WATER","l":"Level 8","t":"Spellcaster / Ritual / Effect","atk":2900,"def":1700},"rarity":"ScR","img":"25857246","code":"17","tcg":96086,"grp":1513,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"THSF-EN018","name":"Nekroz of Catastor","ctype":"monster","keywords":"Nekroz Dragon WATER Ritual Effect Monster","stats":{"a":"WATER","l":"Level 5","t":"Dragon / Ritual / Effect","atk":2200,"def":1200},"rarity":"ScR","img":"52846880","code":"18","tcg":96087,"grp":1513,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"THSF-EN019","name":"Nekroz of Decisive Armor","ctype":"monster","keywords":"Nekroz Dragon WATER Ritual Effect Monster","stats":{"a":"WATER","l":"Level 10","t":"Dragon / Ritual / Effect","atk":3300,"def":2300},"rarity":"ScR","img":"88240999","code":"19","tcg":96088,"grp":1513,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"THSF-EN020","name":"Nekroz Mirror","ctype":"spell","keywords":"Nekroz Ritual Spell","stats":{"t":"Ritual Spell"},"rarity":"ScR","img":"14735698","code":"20","tcg":96089,"grp":1513,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"THSF-EN021","name":"Nekroz Kaleidoscope","ctype":"spell","keywords":"Nekroz Ritual Spell","stats":{"t":"Ritual Spell"},"rarity":"ScR","img":"51124303","code":"21","tcg":96090,"grp":1513,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"THSF-EN022","name":"Ritual Beast Tamer Lara","ctype":"monster","keywords":"Ritual Beast Psychic WIND Effect Monster","stats":{"a":"WIND","l":"Level 1","t":"Psychic / Effect","atk":100,"def":2000},"rarity":"ScR","img":"87118301","code":"22","tcg":96091,"grp":1513,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"THSF-EN023","name":"Ritual Beast Tamer Elder","ctype":"monster","keywords":"Ritual Beast Psychic WIND Effect Monster","stats":{"a":"WIND","l":"Level 2","t":"Psychic / Effect","atk":200,"def":1000},"rarity":"ScR","img":"14513016","code":"23","tcg":96092,"grp":1513,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"THSF-EN024","name":"Ritual Beast Tamer Wen","ctype":"monster","keywords":"Ritual Beast Psychic WIND Effect Monster","stats":{"a":"WIND","l":"Level 3","t":"Psychic / Effect","atk":1500,"def":1000},"rarity":"ScR","img":"40907115","code":"24","tcg":96093,"grp":1513,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"THSF-EN025","name":"Spiritual Beast Apelio","ctype":"monster","keywords":"Ritual Beast Pyro WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Pyro / Effect","atk":1800,"def":200},"rarity":"SR","img":"86396750","code":"25","tcg":96094,"grp":1513,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"THSF-EN026","name":"Spiritual Beast Pettlephin","ctype":"monster","keywords":"Ritual Beast Aqua WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Aqua / Effect","atk":0,"def":2000},"rarity":"SR","img":"13890468","code":"26","tcg":96095,"grp":1513,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"THSF-EN027","name":"Spiritual Beast Cannahawk","ctype":"monster","keywords":"Ritual Beast Thunder WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Thunder / Effect","atk":1400,"def":600},"rarity":"SR","img":"49885567","code":"27","tcg":96096,"grp":1513,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"THSF-EN028","name":"Ritual Beast Ulti-Apelio","ctype":"monster","keywords":"Ritual Beast Pyro WIND Fusion Monster","stats":{"a":"WIND","l":"Level 6","t":"Pyro / Fusion","atk":2600,"def":400},"rarity":"ScR","img":"86274272","code":"28","tcg":96098,"grp":1513,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"THSF-EN029","name":"Ritual Beast Ulti-Pettlephin","ctype":"monster","keywords":"Ritual Beast Aqua WIND Fusion Monster","stats":{"a":"WIND","l":"Level 6","t":"Aqua / Fusion","atk":200,"def":2800},"rarity":"ScR","img":"12678870","code":"29","tcg":96097,"grp":1513,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"THSF-EN030","name":"Ritual Beast Ulti-Cannahawk","ctype":"monster","keywords":"Ritual Beast Thunder WIND Fusion Monster","stats":{"a":"WIND","l":"Level 6","t":"Thunder / Fusion","atk":1400,"def":1600},"rarity":"ScR","img":"48063985","code":"30","tcg":96099,"grp":1513,"idx":29},
+    {"id":"031","section":"main","num":"031","printed":"THSF-EN031","name":"Ritual Beast's Bond","ctype":"spell","keywords":"Ritual Beast Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"SR","img":"75457624","code":"31","tcg":96100,"grp":1513,"idx":30},
+    {"id":"032","section":"main","num":"032","printed":"THSF-EN032","name":"Ritual Beast Steeds","ctype":"trap","keywords":"Ritual Beast Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"11556339","code":"32","tcg":96101,"grp":1513,"idx":31},
+    {"id":"033","section":"main","num":"033","printed":"THSF-EN033","name":"Manju of the Ten Thousand Hands","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fairy / Effect","atk":1400,"def":1000},"rarity":"SR","img":"95492061","code":"33","tcg":96102,"grp":1513,"idx":32},
+    {"id":"034","section":"main","num":"034","printed":"THSF-EN034","name":"Necro Gardna","ctype":"monster","keywords":"Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Warrior / Effect","atk":600,"def":1300},"rarity":"SR","img":"4906301","code":"34","tcg":96103,"grp":1513,"idx":33},
+    {"id":"035","section":"main","num":"035","printed":"THSF-EN035","name":"Armageddon Knight","ctype":"monster","keywords":"Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Warrior / Effect","atk":1400,"def":1200},"rarity":"SR","img":"28985331","code":"35","tcg":96104,"grp":1513,"idx":34},
+    {"id":"036","section":"main","num":"036","printed":"THSF-EN036","name":"Djinn Releaser of Rituals","ctype":"monster","keywords":"Djinn Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Fiend / Effect","atk":1200,"def":2000},"rarity":"SR","img":"8903700","code":"36","tcg":96105,"grp":1513,"idx":35},
+    {"id":"037","section":"main","num":"037","printed":"THSF-EN037","name":"Djinn Presider of Rituals","ctype":"monster","keywords":"Djinn Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Effect","atk":1800,"def":1400},"rarity":"SR","img":"34358408","code":"37","tcg":96106,"grp":1513,"idx":36},
+    {"id":"038","section":"main","num":"038","printed":"THSF-EN038","name":"Djinn Cursenchanter of Rituals","ctype":"monster","keywords":"Djinn Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Effect","atk":1700,"def":1000},"rarity":"SR","img":"77153811","code":"38","tcg":96107,"grp":1513,"idx":37},
+    {"id":"039","section":"main","num":"039","printed":"THSF-EN039","name":"Djinn Prognosticator of Rituals","ctype":"monster","keywords":"Djinn Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Fiend / Effect","atk":400,"def":300},"rarity":"SR","img":"4141820","code":"39","tcg":96108,"grp":1513,"idx":38},
+    {"id":"040","section":"main","num":"040","printed":"THSF-EN040","name":"Djinn Disserere of Rituals","ctype":"monster","keywords":"Djinn Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Fiend / Effect","atk":200,"def":200},"rarity":"SR","img":"30492798","code":"40","tcg":96109,"grp":1513,"idx":39},
+    {"id":"041","section":"main","num":"041","printed":"THSF-EN041","name":"Gishki Chain","ctype":"monster","keywords":"Gishki Sea Serpent WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Sea Serpent / Effect","atk":1800,"def":1000},"rarity":"SR","img":"66399675","code":"41","tcg":96110,"grp":1513,"idx":40},
+    {"id":"042","section":"main","num":"042","printed":"THSF-EN042","name":"Gishki Shadow","ctype":"monster","keywords":"Gishki Sea Serpent WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Sea Serpent / Effect","atk":1200,"def":1000},"rarity":"SR","img":"29888389","code":"42","tcg":96111,"grp":1513,"idx":41},
+    {"id":"043","section":"main","num":"043","printed":"THSF-EN043","name":"Gishki Noellia","ctype":"monster","keywords":"Gishki Spellcaster WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Spellcaster / Effect","atk":1700,"def":1000},"rarity":"SR","img":"63942761","code":"43","tcg":96112,"grp":1513,"idx":42},
+    {"id":"044","section":"main","num":"044","printed":"THSF-EN044","name":"Cardcar D","ctype":"monster","keywords":"Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 2","t":"Machine / Effect","atk":800,"def":400},"rarity":"SR","img":"45812361","code":"44","tcg":96113,"grp":1513,"idx":43},
+    {"id":"045","section":"main","num":"045","printed":"THSF-EN045","name":"Gishki Vision","ctype":"monster","keywords":"Gishki Sea Serpent WATER Effect Monster","stats":{"a":"WATER","l":"Level 2","t":"Sea Serpent / Effect","atk":700,"def":500},"rarity":"SR","img":"47106439","code":"45","tcg":96114,"grp":1513,"idx":44},
+    {"id":"046","section":"main","num":"046","printed":"THSF-EN046","name":"Altitude Knight","ctype":"monster","keywords":"Warrior WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Warrior / Effect","atk":1400,"def":1200},"rarity":"SR","img":"27632240","code":"46","tcg":96115,"grp":1513,"idx":45},
+    {"id":"047","section":"main","num":"047","printed":"THSF-EN047","name":"Abyss Dweller","ctype":"monster","keywords":"Sea Serpent WATER Xyz Monster","stats":{"a":"WATER","l":"Rank 4","t":"Sea Serpent / Xyz","atk":1700,"def":1400},"rarity":"SR","img":"21044178","code":"47","tcg":96116,"grp":1513,"idx":46},
+    {"id":"048","section":"main","num":"048","printed":"THSF-EN048","name":"Soul Release","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"5758500","code":"48","tcg":96117,"grp":1513,"idx":47},
+    {"id":"049","section":"main","num":"049","printed":"THSF-EN049","name":"Soul Absorption","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"SR","img":"68073522","code":"49","tcg":96118,"grp":1513,"idx":48},
+    {"id":"050","section":"main","num":"050","printed":"THSF-EN050","name":"Ritual Weapon","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"SR","img":"54351224","code":"50","tcg":96119,"grp":1513,"idx":49},
+    {"id":"051","section":"main","num":"051","printed":"THSF-EN051","name":"Burial from a Different Dimension","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"SR","img":"48976825","code":"51","tcg":96120,"grp":1513,"idx":50},
+    {"id":"052","section":"main","num":"052","printed":"THSF-EN052","name":"Advanced Ritual Art","ctype":"spell","keywords":"Ritual Spell","stats":{"t":"Ritual Spell"},"rarity":"SR","img":"46052429","code":"52","tcg":96121,"grp":1513,"idx":51},
+    {"id":"053","section":"main","num":"053","printed":"THSF-EN053","name":"Preparation of Rites","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"96729612","code":"53","tcg":96122,"grp":1513,"idx":52},
+    {"id":"054","section":"main","num":"054","printed":"THSF-EN054","name":"Ascending Soul","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"SR","img":"88301833","code":"54","tcg":96123,"grp":1513,"idx":53},
+    {"id":"055","section":"main","num":"055","printed":"THSF-EN055","name":"Ritual Cage","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"SR","img":"25796442","code":"55","tcg":96124,"grp":1513,"idx":54},
+    {"id":"056","section":"main","num":"056","printed":"THSF-EN056","name":"Divine Wind of Mist Valley","ctype":"spell","keywords":"Mist Valley Field Spell","stats":{"t":"Field Spell"},"rarity":"SR","img":"15854426","code":"56","tcg":96125,"grp":1513,"idx":55},
+    {"id":"057","section":"main","num":"057","printed":"THSF-EN057","name":"Fire Formation - Tenki","ctype":"spell","keywords":"Fire Formation Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"SR","img":"57103969","code":"57","tcg":96126,"grp":1513,"idx":56},
+    {"id":"058","section":"main","num":"058","printed":"THSF-EN058","name":"Royal Decree","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"SR","img":"51452091","code":"58","tcg":96127,"grp":1513,"idx":57},
+    {"id":"059","section":"main","num":"059","printed":"THSF-EN059","name":"Vanity's Emptiness","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"SR","img":"5851097","code":"59","tcg":96128,"grp":1513,"idx":58},
+    {"id":"060","section":"main","num":"060","printed":"THSF-EN060","name":"Aquamirror Cycle","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"78910579","code":"60","tcg":96129,"grp":1513,"idx":59}
+  ]
+}

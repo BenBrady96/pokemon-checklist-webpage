@@ -1,0 +1,98 @@
+{
+  "id": "yugioh/warriors-strike-structure-deck",
+  "game": "yugioh",
+  "slug": "warriors-strike-structure-deck",
+  "name": "Warriors' Strike Structure Deck",
+  "series": "5D’s",
+  "kind": "deck",
+  "code": "SDWS",
+  "syncKey": "YSDWS",
+  "released": "2009-10-23",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "SDWS-EN001–SDWS-EN038",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from SDWS-EN001 to SDWS-EN038."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Warriors' Strike Structure Deck Checklist · All 38 Cards",
+    "description": "Free Yu-Gi-Oh! Warriors' Strike Structure Deck checklist with no ads, no sign-up and no tracking. Track all 38 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Warriors' Strike Structure Deck Checklist",
+    "ogDescription": "Track all 38 cards in Yu-Gi-Oh! Warriors' Strike Structure Deck. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 38 cards in Yu-Gi-Oh! Warriors' Strike Structure Deck. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Warriors' Strike Structure Deck",
+    "paragraphs": [
+      "Warriors&#39; Strike Structure Deck is a Yu-Gi-Oh! TCG deck released on 23 October 2009, in the 5D’s era. It has 38 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Warriors' Strike Structure Deck"
+    ],
+    "tcgplayer": [
+      323
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"SDWS-EN001","name":"Phoenix Gearfried","ctype":"monster","keywords":"Warrior FIRE Gemini Monster","stats":{"a":"FIRE","l":"Level 8","t":"Warrior / Gemini","atk":2800,"def":2200},"rarity":"UR","img":"69488544","code":"1","tcg":33599,"grp":323,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"SDWS-EN002","name":"Evocator Chevalier","ctype":"monster","keywords":"Warrior FIRE Gemini Monster","stats":{"a":"FIRE","l":"Level 4","t":"Warrior / Gemini","atk":1900,"def":900},"rarity":"SR","img":"96872283","code":"2","tcg":33600,"grp":323,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"SDWS-EN003","name":"Featherizer","ctype":"monster","keywords":"Spellcaster WIND Effect Monster","stats":{"a":"WIND","l":"Level 2","t":"Spellcaster / Effect","atk":700,"def":1100},"rarity":"SR","img":"32271987","code":"3","tcg":33601,"grp":323,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"SDWS-EN004","name":"Gemini Soldier","ctype":"monster","keywords":"Warrior WIND Gemini Monster","stats":{"a":"WIND","l":"Level 2","t":"Warrior / Gemini","atk":500,"def":300},"rarity":"C","img":"68366996","code":"4","tcg":33602,"grp":323,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"SDWS-EN005","name":"Spell Striker","ctype":"monster","keywords":"Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Warrior / Effect","atk":600,"def":200},"rarity":"C","img":"93187568","code":"5","tcg":33603,"grp":323,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"SDWS-EN006","name":"Freed the Matchless General","ctype":"monster","keywords":"Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 5","t":"Warrior / Effect","atk":2300,"def":1700},"rarity":"C","img":"49681811","code":"6","tcg":33604,"grp":323,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"SDWS-EN007","name":"Marauding Captain","ctype":"monster","keywords":"Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Warrior / Effect","atk":1200,"def":400},"rarity":"C","img":"2460565","code":"7","tcg":33605,"grp":323,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"SDWS-EN008","name":"Exiled Force","ctype":"monster","keywords":"Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Effect","atk":1000,"def":1000},"rarity":"C","img":"74131780","code":"8","tcg":33606,"grp":323,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"SDWS-EN009","name":"D.D. Warrior Lady","ctype":"monster","keywords":"D.D. Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Effect","atk":1500,"def":1600},"rarity":"C","img":"7572887","code":"9","tcg":33607,"grp":323,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"SDWS-EN010","name":"Card Trooper","ctype":"monster","keywords":"Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Machine / Effect","atk":400,"def":400},"rarity":"C","img":"85087012","code":"10","tcg":33608,"grp":323,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"SDWS-EN011","name":"Gemini Summoner","ctype":"monster","keywords":"Spellcaster WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Spellcaster / Effect","atk":1500,"def":0},"rarity":"C","img":"19041767","code":"11","tcg":33609,"grp":323,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"SDWS-EN012","name":"Blazewing Butterfly","ctype":"monster","keywords":"Insect FIRE Gemini Monster","stats":{"a":"FIRE","l":"Level 4","t":"Insect / Gemini","atk":1500,"def":1500},"rarity":"C","img":"16984449","code":"12","tcg":33610,"grp":323,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"SDWS-EN013","name":"D.D. Warrior","ctype":"monster","keywords":"D.D. Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Effect","atk":1200,"def":1000},"rarity":"C","img":"37043180","code":"13","tcg":33611,"grp":323,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"SDWS-EN014","name":"Future Samurai","ctype":"monster","keywords":"Warrior LIGHT Gemini Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Gemini","atk":1600,"def":1200},"rarity":"C","img":"90642597","code":"14","tcg":33612,"grp":323,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"SDWS-EN015","name":"Field-Commander Rahz","ctype":"monster","keywords":"Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Effect","atk":1600,"def":1200},"rarity":"C","img":"89529919","code":"15","tcg":33613,"grp":323,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"SDWS-EN016","name":"Dark Valkyria","ctype":"monster","keywords":"Fairy DARK Gemini Monster","stats":{"a":"DARK","l":"Level 4","t":"Fairy / Gemini","atk":1800,"def":1050},"rarity":"C","img":"83269557","code":"16","tcg":33614,"grp":323,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"SDWS-EN017","name":"Supervise","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"95750695","code":"17","tcg":33615,"grp":323,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"SDWS-EN018","name":"Mind Control","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"37520316","code":"18","tcg":33616,"grp":323,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"SDWS-EN019","name":"Burden of the Mighty","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"44947065","code":"19","tcg":33617,"grp":323,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"SDWS-EN020","name":"Silent Doom","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"42534368","code":"20","tcg":33618,"grp":323,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"SDWS-EN021","name":"Hidden Armory","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"52105192","code":"21","tcg":33619,"grp":323,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"SDWS-EN022","name":"Nightmare's Steelcage","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"58775978","code":"22","tcg":33620,"grp":323,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"SDWS-EN023","name":"Mystical Space Typhoon","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"5318639","code":"23","tcg":33621,"grp":323,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"SDWS-EN024","name":"Ekibyo Drakmord","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"69954399","code":"24","tcg":33622,"grp":323,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"SDWS-EN025","name":"Reinforcement of the Army","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"32807846","code":"25","tcg":33623,"grp":323,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"SDWS-EN026","name":"Big Bang Shot","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"61127349","code":"26","tcg":33624,"grp":323,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"SDWS-EN027","name":"Divine Sword - Phoenix Blade","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"31423101","code":"27","tcg":33625,"grp":323,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"SDWS-EN028","name":"Double Summon","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"43422537","code":"28","tcg":33626,"grp":323,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"SDWS-EN029","name":"Symbols of Duty","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"78794994","code":"29","tcg":33627,"grp":323,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"SDWS-EN030","name":"Swing of Memories","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"96765646","code":"30","tcg":33628,"grp":323,"idx":29},
+    {"id":"031","section":"main","num":"031","printed":"SDWS-EN031","name":"Unleash Your Power!","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"73567374","code":"31","tcg":33629,"grp":323,"idx":30},
+    {"id":"032","section":"main","num":"032","printed":"SDWS-EN032","name":"Dark Bribe","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"C","img":"77538567","code":"32","tcg":33630,"grp":323,"idx":31},
+    {"id":"033","section":"main","num":"033","printed":"SDWS-EN033","name":"Kunai with Chain","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"37390589","code":"33","tcg":33631,"grp":323,"idx":32},
+    {"id":"034","section":"main","num":"034","printed":"SDWS-EN034","name":"Sakuretsu Armor","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"56120475","code":"34","tcg":33632,"grp":323,"idx":33},
+    {"id":"035","section":"main","num":"035","printed":"SDWS-EN035","name":"Soul Resurrection","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"92924317","code":"35","tcg":33633,"grp":323,"idx":34},
+    {"id":"036","section":"main","num":"036","printed":"SDWS-EN036","name":"Justi-Break","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"62271284","code":"36","tcg":33634,"grp":323,"idx":35},
+    {"id":"037","section":"main","num":"037","printed":"SDWS-EN037","name":"Birthright","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"35539880","code":"37","tcg":33635,"grp":323,"idx":36},
+    {"id":"038","section":"main","num":"038","printed":"SDWS-EN038","name":"Gemini Trap Hole","ctype":"trap","keywords":"Hole Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"67045174","code":"38","tcg":33636,"grp":323,"idx":37}
+  ]
+}

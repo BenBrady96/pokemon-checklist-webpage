@@ -1,0 +1,86 @@
+{
+  "id": "yugioh/astral-pack-five",
+  "game": "yugioh",
+  "slug": "astral-pack-five",
+  "name": "Astral Pack Five",
+  "series": "ZEXAL",
+  "kind": "pack",
+  "code": "AP05",
+  "syncKey": "YAP05",
+  "released": "2014-07-25",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "AP05-EN001–AP05-EN026",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from AP05-EN001 to AP05-EN026."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Astral Pack Five Checklist · All 26 Cards",
+    "description": "Free Yu-Gi-Oh! Astral Pack Five checklist with no ads, no sign-up and no tracking. Track all 26 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Astral Pack Five Checklist",
+    "ogDescription": "Track all 26 cards in Yu-Gi-Oh! Astral Pack Five. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 26 cards in Yu-Gi-Oh! Astral Pack Five. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Astral Pack Five",
+    "paragraphs": [
+      "Astral Pack Five is a Yu-Gi-Oh! TCG pack released on 25 July 2014, in the ZEXAL era. It has 26 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Astral Pack Five"
+    ],
+    "tcgplayer": [
+      1479
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"AP05-EN001","name":"Bujin Yamato","ctype":"monster","keywords":"Bujin Beast-Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Beast-Warrior / Effect","atk":1800,"def":200},"rarity":"UtR","img":"32339440","code":"1","tcg":91656,"grp":1479,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"AP05-EN002","name":"Gagaga Cowboy","ctype":"monster","keywords":"Gagaga Warrior EARTH Xyz Monster","stats":{"a":"EARTH","l":"Rank 4","t":"Warrior / Xyz","atk":1500,"def":2400},"rarity":"UtR","img":"12014404","code":"2","tcg":91657,"grp":1479,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"AP05-EN003","name":"Pot of Duality","ctype":"spell","keywords":"Greed Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UtR","img":"98645731","code":"3","tcg":91658,"grp":1479,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"AP05-EN004","name":"Card Trooper","ctype":"monster","keywords":"Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Machine / Effect","atk":400,"def":400},"rarity":"SR","img":"85087012","code":"4","tcg":91659,"grp":1479,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"AP05-EN005","name":"Jenis, Lightsworn Mender","ctype":"monster","keywords":"Lightsworn Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Effect","atk":300,"def":2100},"rarity":"SR","img":"83725008","code":"5","tcg":91660,"grp":1479,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"AP05-EN006","name":"Geargiarsenal","ctype":"monster","keywords":"Geargia Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Machine / Effect","atk":1500,"def":500},"rarity":"SR","img":"73428497","code":"6","tcg":91661,"grp":1479,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"AP05-EN007","name":"Mermail Abysspike","ctype":"monster","keywords":"Mermail Fish WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Fish / Effect","atk":1600,"def":800},"rarity":"SR","img":"58471134","code":"7","tcg":91662,"grp":1479,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"AP05-EN008","name":"Star Drawing","ctype":"monster","keywords":"Spellcaster EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Spellcaster / Effect","atk":1600,"def":1000},"rarity":"SR","img":"24610207","code":"8","tcg":91663,"grp":1479,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"AP05-EN009","name":"Bujingi Turtle","ctype":"monster","keywords":"Bujin Beast LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Beast / Effect","atk":1700,"def":1200},"rarity":"SR","img":"5818294","code":"9","tcg":91664,"grp":1479,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"AP05-EN010","name":"Advanced Ritual Art","ctype":"spell","keywords":"Ritual Spell","stats":{"t":"Ritual Spell"},"rarity":"SR","img":"46052429","code":"10","tcg":91665,"grp":1479,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"AP05-EN011","name":"Charge of the Light Brigade","ctype":"spell","keywords":"Lightsworn Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"94886282","code":"11","tcg":91666,"grp":1479,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"AP05-EN012","name":"Overworked","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"71272951","code":"12","tcg":91667,"grp":1479,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"AP05-EN013","name":"Full House","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"45178472","code":"13","tcg":91668,"grp":1479,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"AP05-EN014","name":"Blackland Fire Dragon","ctype":"monster","keywords":"Dragon DARK Normal Monster","stats":{"a":"DARK","l":"Level 4","t":"Dragon / Normal","atk":1500,"def":800},"rarity":"SP","img":"87564352","code":"14","tcg":91669,"grp":1479,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"AP05-EN015","name":"Copy Plant","ctype":"monster","keywords":"Plant WIND Tuner Monster","stats":{"a":"WIND","l":"Level 1","t":"Plant / Tuner","atk":0,"def":0},"rarity":"C","img":"66457407","code":"15","tcg":91670,"grp":1479,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"AP05-EN016","name":"Hanewata","ctype":"monster","keywords":"Fairy LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Fairy / Tuner","atk":200,"def":300},"rarity":"C","img":"20450925","code":"16","tcg":91671,"grp":1479,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"AP05-EN017","name":"Rinyan, Lightsworn Rogue","ctype":"monster","keywords":"Lightsworn Beast LIGHT Flip Effect Monster","stats":{"a":"LIGHT","l":"Level 2","t":"Beast / Flip / Effect","atk":100,"def":100},"rarity":"C","img":"38815069","code":"17","tcg":91672,"grp":1479,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"AP05-EN018","name":"Skelgon","ctype":"monster","keywords":"Zombie DARK Fusion Monster","stats":{"a":"DARK","l":"Level 6","t":"Zombie / Fusion","atk":1700,"def":1900},"rarity":"SP","img":"32355828","code":"18","tcg":91673,"grp":1479,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"AP05-EN019","name":"Queen of Thorns","ctype":"monster","keywords":"Plant LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Plant / Synchro","atk":2200,"def":1800},"rarity":"C","img":"45500495","code":"19","tcg":91674,"grp":1479,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"AP05-EN020","name":"Empress of Prophecy","ctype":"monster","keywords":"Spellbook Spellcaster LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 5","t":"Spellcaster / Xyz","atk":2000,"def":1700},"rarity":"C","img":"770365","code":"20","tcg":91675,"grp":1479,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"AP05-EN021","name":"Soul Exchange","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"68005187","code":"21","tcg":91676,"grp":1479,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"AP05-EN022","name":"Book of Moon","ctype":"spell","keywords":"Book of Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"14087893","code":"22","tcg":91677,"grp":1479,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"AP05-EN023","name":"Lightsworn Sabre","ctype":"spell","keywords":"Lightsworn Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"30502181","code":"23","tcg":91678,"grp":1479,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"AP05-EN024","name":"Spiritual Forest","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"69112325","code":"24","tcg":91679,"grp":1479,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"AP05-EN025","name":"Spellbook Library of the Heliosphere","ctype":"spell","keywords":"Spellbook Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"20822520","code":"25","tcg":91680,"grp":1479,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"AP05-EN026","name":"Jurrac Impact","ctype":"trap","keywords":"Jurrac Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"5479217","code":"26","tcg":91681,"grp":1479,"idx":25}
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "id": "yugioh/the-chronicles-deck-spirit-charmers-all-foil-edition",
+  "game": "yugioh",
+  "slug": "the-chronicles-deck-spirit-charmers-all-foil-edition",
+  "name": "THE CHRONICLES DECK: Spirit Charmers (All-Foil Edition)",
+  "series": "SEVENS & GO RUSH!!",
+  "kind": "deck",
+  "code": "CH02",
+  "syncKey": "YCH02",
+  "released": "2026-01-22",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "CH02-EN001–CH02-EN050",
+      "tier": "standard"
+    },
+    {
+      "id": "rarities",
+      "name": "Other Rarities",
+      "short": "Other Rarities",
+      "range": "8 cards",
+      "tier": "master"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Main set"
+    ],
+    [
+      "rarities",
+      "Other rarities"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, SCR12, 60x2",
+    "example": "1-20, 45x2, SCR12",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies. Other rarities use their short name and number: <b>SCR12</b> is card 12’s Secret Rare, and ranges work too (<b>QCSR1-QCSR20</b>).",
+    "empty": "Cards run from CH02-EN001 to CH02-EN050."
+  },
+  "help": {
+    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 50 cards, each in its main rarity. Master adds the 8 other rarities. Cards you’ve marked are kept when you switch."
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! THE CHRONICLES DECK: Spirit Charmers (All-Foil Edition) Checklist · All 50 Cards",
+    "description": "Free Yu-Gi-Oh! THE CHRONICLES DECK: Spirit Charmers (All-Foil Edition) checklist with no ads, no sign-up and no tracking. Track all 50 cards, or every rarity for a master set, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! THE CHRONICLES DECK: Spirit Charmers (All-Foil Edition) Checklist",
+    "ogDescription": "Track all 50 cards in Yu-Gi-Oh! THE CHRONICLES DECK: Spirit Charmers (All-Foil Edition), plus 8 other rarities. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 50 cards in Yu-Gi-Oh! THE CHRONICLES DECK: Spirit Charmers (All-Foil Edition). Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About THE CHRONICLES DECK: Spirit Charmers (All-Foil Edition)",
+    "paragraphs": [
+      "THE CHRONICLES DECK: Spirit Charmers (All-Foil Edition) is a Yu-Gi-Oh! TCG deck released on 22 January 2026, in the SEVENS &amp; GO RUSH!! era. It has 50 cards, and with the 8 other rarities there are 58 to collect in all.",
+      "Choose what you’re collecting: the <b>Standard set</b> (the 50 cards, each in its main rarity) or the <b>Master set</b> (all 58, adding the 8 other rarities).",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "THE CHRONICLES DECK: Spirit Charmers (All-Foil Edition)"
+    ],
+    "tcgplayer": [
+      24486
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"CH02-EN001","name":"Eria the Water Charmer","ctype":"monster","keywords":"Charmer Spellcaster WATER Flip Effect Monster","stats":{"a":"WATER","l":"Level 3","t":"Spellcaster / Flip / Effect","atk":500,"def":1500},"rarity":"UR","img":"74364659","code":"1","tcg":672309,"grp":24486,"idx":0},
+    {"id":"001-scr","section":"rarities","num":"001","printed":"CH02-EN001","name":"Eria the Water Charmer","ctype":"monster","keywords":"Charmer Spellcaster WATER Flip Effect Monster","stats":{"a":"WATER","l":"Level 3","t":"Spellcaster / Flip / Effect","atk":500,"def":1500},"rarity":"ScR","img":"74364659","badge":"ScR","variant":"Secret Rare","code":"SCR1","tcg":672297,"grp":24486,"idx":1},
+    {"id":"001-str","section":"rarities","num":"001","printed":"CH02-EN001","name":"Eria the Water Charmer","ctype":"monster","keywords":"Charmer Spellcaster WATER Flip Effect Monster","stats":{"a":"WATER","l":"Level 3","t":"Spellcaster / Flip / Effect","atk":500,"def":1500},"rarity":"StR","img":"74364659","badge":"StR","variant":"Starlight Rare","code":"STR1","tcg":672298,"grp":24486,"idx":2},
+    {"id":"002","section":"main","num":"002","printed":"CH02-EN002","name":"Hiita the Fire Charmer","ctype":"monster","keywords":"Charmer Spellcaster FIRE Flip Effect Monster","stats":{"a":"FIRE","l":"Level 3","t":"Spellcaster / Flip / Effect","atk":500,"def":1500},"rarity":"UR","img":"759393","code":"2","tcg":672310,"grp":24486,"idx":3},
+    {"id":"002-scr","section":"rarities","num":"002","printed":"CH02-EN002","name":"Hiita the Fire Charmer","ctype":"monster","keywords":"Charmer Spellcaster FIRE Flip Effect Monster","stats":{"a":"FIRE","l":"Level 3","t":"Spellcaster / Flip / Effect","atk":500,"def":1500},"rarity":"ScR","img":"759393","badge":"ScR","variant":"Secret Rare","code":"SCR2","tcg":672299,"grp":24486,"idx":4},
+    {"id":"002-str","section":"rarities","num":"002","printed":"CH02-EN002","name":"Hiita the Fire Charmer","ctype":"monster","keywords":"Charmer Spellcaster FIRE Flip Effect Monster","stats":{"a":"FIRE","l":"Level 3","t":"Spellcaster / Flip / Effect","atk":500,"def":1500},"rarity":"StR","img":"759393","badge":"StR","variant":"Starlight Rare","code":"STR2","tcg":672300,"grp":24486,"idx":5},
+    {"id":"003","section":"main","num":"003","printed":"CH02-EN003","name":"Wynn the Wind Charmer","ctype":"monster","keywords":"Charmer Spellcaster WIND Flip Effect Monster","stats":{"a":"WIND","l":"Level 3","t":"Spellcaster / Flip / Effect","atk":500,"def":1500},"rarity":"UR","img":"37744402","code":"3","tcg":672311,"grp":24486,"idx":6},
+    {"id":"003-scr","section":"rarities","num":"003","printed":"CH02-EN003","name":"Wynn the Wind Charmer","ctype":"monster","keywords":"Charmer Spellcaster WIND Flip Effect Monster","stats":{"a":"WIND","l":"Level 3","t":"Spellcaster / Flip / Effect","atk":500,"def":1500},"rarity":"ScR","img":"37744402","badge":"ScR","variant":"Secret Rare","code":"SCR3","tcg":672301,"grp":24486,"idx":7},
+    {"id":"003-str","section":"rarities","num":"003","printed":"CH02-EN003","name":"Wynn the Wind Charmer","ctype":"monster","keywords":"Charmer Spellcaster WIND Flip Effect Monster","stats":{"a":"WIND","l":"Level 3","t":"Spellcaster / Flip / Effect","atk":500,"def":1500},"rarity":"StR","img":"37744402","badge":"StR","variant":"Starlight Rare","code":"STR3","tcg":672302,"grp":24486,"idx":8},
+    {"id":"004","section":"main","num":"004","printed":"CH02-EN004","name":"Aussa the Earth Charmer","ctype":"monster","keywords":"Charmer Spellcaster EARTH Flip Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Spellcaster / Flip / Effect","atk":500,"def":1500},"rarity":"UR","img":"37970940","code":"4","tcg":672312,"grp":24486,"idx":9},
+    {"id":"004-scr","section":"rarities","num":"004","printed":"CH02-EN004","name":"Aussa the Earth Charmer","ctype":"monster","keywords":"Charmer Spellcaster EARTH Flip Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Spellcaster / Flip / Effect","atk":500,"def":1500},"rarity":"ScR","img":"37970940","badge":"ScR","variant":"Secret Rare","code":"SCR4","tcg":672303,"grp":24486,"idx":10},
+    {"id":"004-str","section":"rarities","num":"004","printed":"CH02-EN004","name":"Aussa the Earth Charmer","ctype":"monster","keywords":"Charmer Spellcaster EARTH Flip Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Spellcaster / Flip / Effect","atk":500,"def":1500},"rarity":"StR","img":"37970940","badge":"StR","variant":"Starlight Rare","code":"STR4","tcg":672304,"grp":24486,"idx":11},
+    {"id":"005","section":"main","num":"005","printed":"CH02-EN005","name":"Familiar-Possessed - Eria","ctype":"monster","keywords":"Charmer Spellcaster WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Spellcaster / Effect","atk":1850,"def":1500},"rarity":"UR","img":"68881650","code":"5","tcg":672313,"grp":24486,"idx":12},
+    {"id":"006","section":"main","num":"006","printed":"CH02-EN006","name":"Familiar-Possessed - Hiita","ctype":"monster","keywords":"Charmer Spellcaster FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Spellcaster / Effect","atk":1850,"def":1500},"rarity":"UR","img":"4376659","code":"6","tcg":672314,"grp":24486,"idx":13},
+    {"id":"007","section":"main","num":"007","printed":"CH02-EN007","name":"Familiar-Possessed - Wynn","ctype":"monster","keywords":"Charmer Spellcaster WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Spellcaster / Effect","atk":1850,"def":1500},"rarity":"UR","img":"31764354","code":"7","tcg":672315,"grp":24486,"idx":14},
+    {"id":"008","section":"main","num":"008","printed":"CH02-EN008","name":"Familiar-Possessed - Aussa","ctype":"monster","keywords":"Charmer Spellcaster EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Spellcaster / Effect","atk":1850,"def":1500},"rarity":"UR","img":"31887906","code":"8","tcg":672316,"grp":24486,"idx":15},
+    {"id":"009","section":"main","num":"009","printed":"CH02-EN009","name":"Eria the Water Channeler","ctype":"monster","keywords":"Charmer Spellcaster WATER Effect Monster","stats":{"a":"WATER","l":"Level 5","t":"Spellcaster / Effect","atk":1850,"def":1500},"rarity":"UR","img":"15746348","code":"9","tcg":672317,"grp":24486,"idx":16},
+    {"id":"010","section":"main","num":"010","printed":"CH02-EN010","name":"Hiita the Fire Channeler","ctype":"monster","keywords":"Charmer Spellcaster FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 5","t":"Spellcaster / Effect","atk":1850,"def":1500},"rarity":"UR","img":"76615300","code":"10","tcg":672318,"grp":24486,"idx":17},
+    {"id":"011","section":"main","num":"011","printed":"CH02-EN011","name":"Wynn the Wind Channeler","ctype":"monster","keywords":"Charmer Spellcaster WIND Effect Monster","stats":{"a":"WIND","l":"Level 5","t":"Spellcaster / Effect","atk":1850,"def":1500},"rarity":"UR","img":"86395581","code":"11","tcg":672319,"grp":24486,"idx":18},
+    {"id":"012","section":"main","num":"012","printed":"CH02-EN012","name":"Aussa the Earth Channeler","ctype":"monster","keywords":"Charmer Spellcaster EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 5","t":"Spellcaster / Effect","atk":1850,"def":1500},"rarity":"UR","img":"62803464","code":"12","tcg":672320,"grp":24486,"idx":19},
+    {"id":"013","section":"main","num":"013","printed":"CH02-EN013","name":"Jigabyte","ctype":"monster","keywords":"Reptile WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Reptile / Effect","atk":1500,"def":200},"rarity":"UR","img":"40894584","code":"13","tcg":672321,"grp":24486,"idx":20},
+    {"id":"014","section":"main","num":"014","printed":"CH02-EN014","name":"Inari Fire","ctype":"monster","keywords":"Pyro FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Pyro / Effect","atk":1500,"def":200},"rarity":"UR","img":"62953041","code":"14","tcg":672322,"grp":24486,"idx":21},
+    {"id":"015","section":"main","num":"015","printed":"CH02-EN015","name":"Ranryu","ctype":"monster","keywords":"Dragon WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Dragon / Effect","atk":1500,"def":200},"rarity":"UR","img":"44680819","code":"15","tcg":672323,"grp":24486,"idx":22},
+    {"id":"016","section":"main","num":"016","printed":"CH02-EN016","name":"Nefarious Archfiend Eater of Nefariousness","ctype":"monster","keywords":"Archfiend Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Beast / Effect","atk":1500,"def":200},"rarity":"UR","img":"60666820","code":"16","tcg":672324,"grp":24486,"idx":23},
+    {"id":"017","section":"main","num":"017","printed":"CH02-EN017","name":"Awakening of the Possessed - Gagigobyte","ctype":"monster","keywords":"Possessed Reptile WATER Effect Monster","stats":{"a":"WATER","l":"Level 5","t":"Reptile / Effect","atk":2000,"def":200},"rarity":"UR","img":"74426895","code":"17","tcg":672325,"grp":24486,"idx":24},
+    {"id":"018","section":"main","num":"018","printed":"CH02-EN018","name":"Awakening of the Possessed - Greater Inari Fire","ctype":"monster","keywords":"Possessed Pyro FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 5","t":"Pyro / Effect","atk":2000,"def":200},"rarity":"UR","img":"92652813","code":"18","tcg":672326,"grp":24486,"idx":25},
+    {"id":"019","section":"main","num":"019","printed":"CH02-EN019","name":"Awakening of the Possessed - Rasenryu","ctype":"monster","keywords":"Possessed Dragon WIND Effect Monster","stats":{"a":"WIND","l":"Level 5","t":"Dragon / Effect","atk":2000,"def":200},"rarity":"UR","img":"410904","code":"19","tcg":672327,"grp":24486,"idx":26},
+    {"id":"020","section":"main","num":"020","printed":"CH02-EN020","name":"Awakening of the Possessed - Nefariouser Archfiend","ctype":"monster","keywords":"Possessed Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 5","t":"Beast / Effect","atk":2000,"def":200},"rarity":"UR","img":"65268179","code":"20","tcg":672328,"grp":24486,"idx":27},
+    {"id":"021","section":"main","num":"021","printed":"CH02-EN021","name":"Lord of the Heavenly Prison","ctype":"monster","keywords":"Rock DARK Effect Monster","stats":{"a":"DARK","l":"Level 10","t":"Rock / Effect","atk":3000,"def":3000},"rarity":"UR","img":"9822220","code":"21","tcg":672329,"grp":24486,"idx":28},
+    {"id":"022","section":"main","num":"022","printed":"CH02-EN022","name":"Imsety, Glory of Horus","ctype":"monster","keywords":"Horus Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Spellcaster / Effect","atk":3000,"def":1800},"rarity":"UR","img":"84941194","code":"22","tcg":672330,"grp":24486,"idx":29},
+    {"id":"023","section":"main","num":"023","printed":"CH02-EN023","name":"Duamutef, Blessing of Horus","ctype":"monster","keywords":"Horus Beast WATER Effect Monster","stats":{"a":"WATER","l":"Level 8","t":"Beast / Effect","atk":0,"def":0},"rarity":"UR","img":"11335209","code":"23","tcg":672331,"grp":24486,"idx":30},
+    {"id":"024","section":"main","num":"024","printed":"CH02-EN024","name":"Hapi, Guidance of Horus","ctype":"monster","keywords":"Horus Beast-Warrior WIND Effect Monster","stats":{"a":"WIND","l":"Level 8","t":"Beast-Warrior / Effect","atk":2400,"def":1600},"rarity":"UR","img":"47330808","code":"24","tcg":672332,"grp":24486,"idx":31},
+    {"id":"025","section":"main","num":"025","printed":"CH02-EN025","name":"Qebehsenuef, Protection of Horus","ctype":"monster","keywords":"Horus Winged Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 8","t":"Winged Beast / Effect","atk":2500,"def":2000},"rarity":"UR","img":"74725513","code":"25","tcg":672333,"grp":24486,"idx":32},
+    {"id":"026","section":"main","num":"026","printed":"CH02-EN026","name":"Fairy Tail - Luna","ctype":"monster","keywords":"Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Effect","atk":1850,"def":1000},"rarity":"UR","img":"86937530","code":"26","tcg":672334,"grp":24486,"idx":33},
+    {"id":"027","section":"main","num":"027","printed":"CH02-EN027","name":"Spellbook Magician of Prophecy","ctype":"monster","keywords":"Spellbook Spellcaster WATER Effect Monster","stats":{"a":"WATER","l":"Level 2","t":"Spellcaster / Effect","atk":500,"def":400},"rarity":"UR","img":"14824019","code":"27","tcg":672335,"grp":24486,"idx":34},
+    {"id":"028","section":"main","num":"028","printed":"CH02-EN028","name":"Spellbook of the Grand Circle","ctype":"spell","keywords":"Spellbook Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UR","img":"11911336","code":"28","tcg":672336,"grp":24486,"idx":35},
+    {"id":"029","section":"main","num":"029","printed":"CH02-EN029","name":"Spirit Charmers","ctype":"spell","keywords":"Spiritual Art Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"UR","img":"91530236","code":"29","tcg":672337,"grp":24486,"idx":36},
+    {"id":"030","section":"main","num":"030","printed":"CH02-EN030","name":"Grand Spiritual Art - Ichirin","ctype":"spell","keywords":"Spiritual Art Field Spell","stats":{"t":"Field Spell"},"rarity":"UR","img":"38057522","code":"30","tcg":672338,"grp":24486,"idx":37},
+    {"id":"031","section":"main","num":"031","printed":"CH02-EN031","name":"Awakening of the Possessed","ctype":"spell","keywords":"Charmer Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"UR","img":"62256492","code":"31","tcg":672339,"grp":24486,"idx":38},
+    {"id":"032","section":"main","num":"032","printed":"CH02-EN032","name":"Spellbook of Secrets","ctype":"spell","keywords":"Spellbook Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UR","img":"89739383","code":"32","tcg":672340,"grp":24486,"idx":39},
+    {"id":"033","section":"main","num":"033","printed":"CH02-EN033","name":"Spellbook of Knowledge","ctype":"spell","keywords":"Spellbook Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UR","img":"23314220","code":"33","tcg":672341,"grp":24486,"idx":40},
+    {"id":"034","section":"main","num":"034","printed":"CH02-EN034","name":"Magicalized Fusion","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UR","img":"11827244","code":"34","tcg":672342,"grp":24486,"idx":41},
+    {"id":"035","section":"main","num":"035","printed":"CH02-EN035","name":"Dark Ruler No More","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UR","img":"54693926","code":"35","tcg":672343,"grp":24486,"idx":42},
+    {"id":"036","section":"main","num":"036","printed":"CH02-EN036","name":"Sol and Luna","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"UR","img":"19739265","code":"36","tcg":672344,"grp":24486,"idx":43},
+    {"id":"037","section":"main","num":"037","printed":"CH02-EN037","name":"King's Sarcophagus","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"UR","img":"16528181","code":"37","tcg":672345,"grp":24486,"idx":44},
+    {"id":"038","section":"main","num":"038","printed":"CH02-EN038","name":"Possessed Partnerships","ctype":"trap","keywords":"Possessed Normal Trap","stats":{"t":"Normal Trap"},"rarity":"UR","img":"65046521","code":"38","tcg":672346,"grp":24486,"idx":45},
+    {"id":"039","section":"main","num":"039","printed":"CH02-EN039","name":"Unpossessed","ctype":"trap","keywords":"Charmer Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"UR","img":"25704359","code":"39","tcg":672347,"grp":24486,"idx":46},
+    {"id":"040","section":"main","num":"040","printed":"CH02-EN040","name":"Angel Statue - Azurune","ctype":"trap","keywords":"Trap Monster Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"UR","img":"44822037","code":"40","tcg":672348,"grp":24486,"idx":47},
+    {"id":"041","section":"main","num":"041","printed":"CH02-EN041","name":"Charmers of the Grand Circle","ctype":"monster","keywords":"Charmer Spellcaster LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Spellcaster / Fusion","atk":1850,"def":1500},"rarity":"UR","img":"48016074","code":"41","tcg":672349,"grp":24486,"idx":48},
+    {"id":"042","section":"main","num":"042","printed":"CH02-EN042","name":"Eria the Water Charmer, Gentle","ctype":"monster","keywords":"Charmer Spellcaster WATER Link Monster","stats":{"a":"WATER","l":"Link 2","t":"Spellcaster / Link","atk":1850},"rarity":"UR","img":"73309655","code":"42","tcg":672350,"grp":24486,"idx":49},
+    {"id":"043","section":"main","num":"043","printed":"CH02-EN043","name":"Hiita the Fire Charmer, Ablaze","ctype":"monster","keywords":"Charmer Spellcaster FIRE Link Monster","stats":{"a":"FIRE","l":"Link 2","t":"Spellcaster / Link","atk":1850},"rarity":"UR","img":"48815792","code":"43","tcg":672351,"grp":24486,"idx":50},
+    {"id":"044","section":"main","num":"044","printed":"CH02-EN044","name":"Wynn the Wind Charmer, Verdant","ctype":"monster","keywords":"Charmer Spellcaster WIND Link Monster","stats":{"a":"WIND","l":"Link 2","t":"Spellcaster / Link","atk":1850},"rarity":"UR","img":"30674956","code":"44","tcg":672352,"grp":24486,"idx":51},
+    {"id":"045","section":"main","num":"045","printed":"CH02-EN045","name":"Aussa the Earth Charmer, Immovable","ctype":"monster","keywords":"Charmer Spellcaster EARTH Link Monster","stats":{"a":"EARTH","l":"Link 2","t":"Spellcaster / Link","atk":1850},"rarity":"UR","img":"97661969","code":"45","tcg":672353,"grp":24486,"idx":52},
+    {"id":"046","section":"main","num":"046","printed":"CH02-EN046","name":"Quintet Magician","ctype":"monster","keywords":"Spellcaster DARK Fusion Monster","stats":{"a":"DARK","l":"Level 12","t":"Spellcaster / Fusion","atk":4500,"def":4500},"rarity":"UR","img":"84433295","code":"46","tcg":672354,"grp":24486,"idx":53},
+    {"id":"047","section":"main","num":"047","printed":"CH02-EN047","name":"The Zombie Vampire","ctype":"monster","keywords":"Vampire Zombie DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 8","t":"Zombie / Xyz","atk":3000,"def":2800},"rarity":"UR","img":"73082255","code":"47","tcg":672355,"grp":24486,"idx":54},
+    {"id":"048","section":"main","num":"048","printed":"CH02-EN048","name":"Silhouhatte Rabbit","ctype":"monster","keywords":"Illusion LIGHT Link Monster","stats":{"a":"LIGHT","l":"Link 2","t":"Illusion / Link","atk":1500},"rarity":"UR","img":"1528054","code":"48","tcg":672356,"grp":24486,"idx":55},
+    {"id":"049","section":"main","num":"049","printed":"CH02-EN049","name":"Selene, Queen of the Master Magicians","ctype":"monster","keywords":"Endymion Spellcaster LIGHT Link Monster","stats":{"a":"LIGHT","l":"Link 3","t":"Spellcaster / Link","atk":1850},"rarity":"UR","img":"45819647","code":"49","tcg":672357,"grp":24486,"idx":56},
+    {"id":"050","section":"main","num":"050","printed":"CH02-EN050","name":"Accesscode Talker","ctype":"monster","keywords":"Code Talker Cyberse DARK Link Monster","stats":{"a":"DARK","l":"Link 4","t":"Cyberse / Link","atk":2300},"rarity":"UR","img":"86066372","code":"50","tcg":672358,"grp":24486,"idx":57}
+  ]
+}

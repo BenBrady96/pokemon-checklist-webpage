@@ -1,0 +1,87 @@
+{
+  "id": "yugioh/astral-pack-eight",
+  "game": "yugioh",
+  "slug": "astral-pack-eight",
+  "name": "Astral Pack Eight",
+  "series": "ARC-V",
+  "kind": "pack",
+  "code": "AP08",
+  "syncKey": "YAP08",
+  "released": "2015-10-23",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "AP08-EN001–AP08-EN027",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from AP08-EN001 to AP08-EN027."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Astral Pack Eight Checklist · All 27 Cards",
+    "description": "Free Yu-Gi-Oh! Astral Pack Eight checklist with no ads, no sign-up and no tracking. Track all 27 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Astral Pack Eight Checklist",
+    "ogDescription": "Track all 27 cards in Yu-Gi-Oh! Astral Pack Eight. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 27 cards in Yu-Gi-Oh! Astral Pack Eight. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Astral Pack Eight",
+    "paragraphs": [
+      "Astral Pack Eight is a Yu-Gi-Oh! TCG pack released on 23 October 2015, in the ARC-V era. It has 27 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Astral Pack Eight"
+    ],
+    "tcgplayer": [
+      1671
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"AP08-EN001","name":"Trishula, Dragon of the Ice Barrier","ctype":"monster","keywords":"Ice Barrier Dragon WATER Synchro Monster","stats":{"a":"WATER","l":"Level 9","t":"Dragon / Synchro","atk":2700,"def":2000},"rarity":"UtR","img":"52687916","code":"1","tcg":107518,"grp":1671,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"AP08-EN002","name":"Mystical Space Typhoon","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"UtR","img":"5318639","code":"2","tcg":107519,"grp":1671,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"AP08-EN003","name":"Fiendish Chain","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"UtR","img":"50078509","code":"3","tcg":107520,"grp":1671,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"AP08-EN004","name":"Igknight Margrave","ctype":"monster","keywords":"Igknight Warrior FIRE Pendulum Normal Monster","stats":{"a":"FIRE","l":"Level 5","t":"Warrior / Pendulum / Normal","atk":1500,"def":2500},"rarity":"SR","img":"50407691","code":"4","tcg":107521,"grp":1671,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"AP08-EN005","name":"Igknight Gallant","ctype":"monster","keywords":"Igknight Warrior FIRE Pendulum Normal Monster","stats":{"a":"FIRE","l":"Level 6","t":"Warrior / Pendulum / Normal","atk":2100,"def":2200},"rarity":"SR","img":"96802306","code":"5","tcg":107522,"grp":1671,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"AP08-EN006","name":"Toon Masked Sorcerer","ctype":"monster","keywords":"Toon Spellcaster DARK Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Toon","atk":900,"def":1400},"rarity":"SR","img":"16392422","code":"6","tcg":107523,"grp":1671,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"AP08-EN007","name":"Graff, Malebranche of the Burning Abyss","ctype":"monster","keywords":"Burning Abyss Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Fiend / Effect","atk":1000,"def":1500},"rarity":"SR","img":"20758643","code":"7","tcg":107524,"grp":1671,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"AP08-EN008","name":"Black Luster Soldier - Envoy of the Evening Twilight","ctype":"monster","keywords":"Black Luster Soldier Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Warrior / Effect","atk":3000,"def":2500},"rarity":"SR","img":"77498348","code":"8","tcg":107525,"grp":1671,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"AP08-EN009","name":"Spiritual Beast Rampengu","ctype":"monster","keywords":"Ritual Beast Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Beast / Effect","atk":1600,"def":400},"rarity":"SR","img":"88123329","code":"9","tcg":107526,"grp":1671,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"AP08-EN010","name":"Instant Fusion","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"1845204","code":"10","tcg":107527,"grp":1671,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"AP08-EN011","name":"Kozmotown","ctype":"spell","keywords":"Kozmo Field Spell","stats":{"t":"Field Spell"},"rarity":"SR","img":"67237709","code":"11","tcg":107528,"grp":1671,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"AP08-EN012","name":"Book of Eclipse","ctype":"spell","keywords":"Book of Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"SR","img":"35480699","code":"12","tcg":107529,"grp":1671,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"AP08-EN013","name":"Lose 1 Turn","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"SR","img":"24348804","code":"13","tcg":107530,"grp":1671,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"AP08-EN014","name":"Rhaimundos of the Red Sword","ctype":"monster","keywords":"Warrior EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Normal","atk":1200,"def":1300},"rarity":"SP","img":"62403074","code":"14","tcg":107531,"grp":1671,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"AP08-EN015","name":"Fireyarou","ctype":"monster","keywords":"Pyro FIRE Normal Monster","stats":{"a":"FIRE","l":"Level 4","t":"Pyro / Normal","atk":1300,"def":1000},"rarity":"SP","img":"71407486","code":"15","tcg":107532,"grp":1671,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"AP08-EN016","name":"Twin-Headed Behemoth","ctype":"monster","keywords":"Dragon WIND Effect Monster","stats":{"a":"WIND","l":"Level 3","t":"Dragon / Effect","atk":1500,"def":1200},"rarity":"C","img":"43586926","code":"16","tcg":107533,"grp":1671,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"AP08-EN017","name":"Swift Gaia the Fierce Knight","ctype":"monster","keywords":"Gaia The Fierce Knight Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Warrior / Effect","atk":2300,"def":2100},"rarity":"C","img":"16589042","code":"17","tcg":107534,"grp":1671,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"AP08-EN018","name":"Kinka-byo","ctype":"monster","keywords":"Beast DARK Spirit Monster","stats":{"a":"DARK","l":"Level 1","t":"Beast / Spirit","atk":400,"def":200},"rarity":"C","img":"45452224","code":"18","tcg":107535,"grp":1671,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"AP08-EN019","name":"Red-Eyes Wyvern","ctype":"monster","keywords":"Red-Eyes Dragon WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Dragon / Effect","atk":1800,"def":1600},"rarity":"C","img":"67300516","code":"19","tcg":107536,"grp":1671,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"AP08-EN020","name":"Gem-Knight Obsidian","ctype":"monster","keywords":"Gem- Rock EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Rock / Effect","atk":1500,"def":1200},"rarity":"C","img":"19163116","code":"20","tcg":107537,"grp":1671,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"AP08-EN021","name":"Vermillion Sparrow","ctype":"monster","keywords":"Pyro FIRE Fusion Monster","stats":{"a":"FIRE","l":"Level 5","t":"Pyro / Fusion","atk":1900,"def":1500},"rarity":"SP","img":"35752363","code":"21","tcg":107538,"grp":1671,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"AP08-EN022","name":"Masked HERO Koga","ctype":"monster","keywords":"Masked HERO Warrior LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Warrior / Fusion","atk":2500,"def":1800},"rarity":"C","img":"50608164","code":"22","tcg":107539,"grp":1671,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"AP08-EN023","name":"Machine Duplication","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"63995093","code":"23","tcg":107540,"grp":1671,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"AP08-EN024","name":"U.A. Stadium","ctype":"spell","keywords":"U.A. Field Spell","stats":{"t":"Field Spell"},"rarity":"C","img":"19814508","code":"24","tcg":107541,"grp":1671,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"AP08-EN025","name":"Black Horn of Heaven","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"C","img":"50323155","code":"25","tcg":107542,"grp":1671,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"AP08-EN026","name":"Safe Zone","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"38296564","code":"26","tcg":107543,"grp":1671,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"AP08-EN027","name":"Unpossessed","ctype":"trap","keywords":"Charmer Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"25704359","code":"27","tcg":107544,"grp":1671,"idx":26}
+  ]
+}

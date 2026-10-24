@@ -1,6 +1,7 @@
 import { COLLECTION } from '../core/collection.js';
 import * as store from './store.js';
 import { openDialog, closeDialog, reducedMotion, escapeHTML } from '../shared/ui.js';
+import { rarityIcon } from './render.js';
 const SWIPE_DISTANCE = 70;
 const SWIPE_VELOCITY = 0.45;
 
@@ -53,8 +54,7 @@ export function initViewer({ getOrder, onCommit }) {
 
     el.num.textContent = card.numberText;
     el.rarity.textContent = card.rarityName;
-    el.rarityIcon.querySelector('use').setAttribute('href', `#${card.rarityIcon}`);
-    el.rarityIcon.classList.toggle('rar--wide', card.wide);
+    el.rarityIcon.innerHTML = rarityIcon(card);
     el.name.textContent = card.name;
     el.note.textContent = card.note || '';
     el.note.hidden = !card.note;

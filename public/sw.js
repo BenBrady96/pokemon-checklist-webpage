@@ -4,11 +4,15 @@ const PAGE_CACHE = 'bt-pages-v1';
 const IMAGE_CACHE = 'bt-img-v1';
 const SCAN_CACHE = 'bt-scan-v1';
 const NETWORK_TIMEOUT_MS = 2500;
-const REMOTE_IMAGES = 'https://assets.tcgdex.net';
+const REMOTE_IMAGES = new Set(['https://assets.tcgdex.net', 'https://img.bindertracker.co.uk']);
 
 const SHELL = [
   './',
   'index.html',
+  'pokemon/',
+  'pokemon/index.html',
+  'yugioh/',
+  'yugioh/index.html',
   'portfolio/',
   'portfolio/index.html',
   'trade/',
@@ -47,7 +51,9 @@ const SHELL = [
   'js/shared/import.js',
   'js/shared/pwa.js',
   'js/shared/qr.js',
+  'js/shared/rarity.js',
   'js/shared/theme-init.js',
+  'js/shared/tiles.js',
   'js/shared/ui.js',
   'js/set/app.js',
   'js/set/gestures.js',
@@ -70,7 +76,9 @@ const SHELL = [
   'js/pages/home.js',
   'js/pages/portfolio.js',
   'js/pages/shared-collection.js',
+  'js/games/index.js',
   'js/games/pokemon.js',
+  'js/games/yugioh.js',
   'js/vendor/qrcode.js',
   'js/vendor/jsqr/jsQR.js',
   'img/icons/favicon.svg',
@@ -104,7 +112,7 @@ self.addEventListener('fetch', (event) => {
   const { request } = event;
   if (request.method !== 'GET') return;
   const url = new URL(request.url);
-  if (url.origin === REMOTE_IMAGES) {
+  if (REMOTE_IMAGES.has(url.origin)) {
     event.respondWith(cacheFirst(request, fetchRemoteImage));
     return;
   }

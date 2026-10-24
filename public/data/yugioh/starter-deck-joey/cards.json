@@ -1,0 +1,110 @@
+{
+  "id": "yugioh/starter-deck-joey",
+  "game": "yugioh",
+  "slug": "starter-deck-joey",
+  "name": "Starter Deck: Joey",
+  "series": "Duel Monsters",
+  "kind": "deck",
+  "code": "SDJ",
+  "syncKey": "YSDJ",
+  "released": "2003-03-30",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "SDJ-001–SDJ-050",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from SDJ-001 to SDJ-050."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Starter Deck: Joey Checklist · All 50 Cards",
+    "description": "Free Yu-Gi-Oh! Starter Deck: Joey checklist with no ads, no sign-up and no tracking. Track all 50 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Starter Deck: Joey Checklist",
+    "ogDescription": "Track all 50 cards in Yu-Gi-Oh! Starter Deck: Joey. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 50 cards in Yu-Gi-Oh! Starter Deck: Joey. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Starter Deck: Joey",
+    "paragraphs": [
+      "Starter Deck: Joey is a Yu-Gi-Oh! TCG deck released on 30 March 2003, in the Duel Monsters era. It has 50 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Starter Deck: Joey"
+    ],
+    "tcgplayer": [
+      293
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"SDJ-001","name":"Red-Eyes Black Dragon","ctype":"monster","keywords":"Red-Eyes Dragon DARK Normal Monster","stats":{"a":"DARK","l":"Level 7","t":"Dragon / Normal","atk":2400,"def":2000},"rarity":"UR","img":"74677422","code":"1","tcg":22984,"grp":293,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"SDJ-002","name":"Swordsman of Landstar","ctype":"monster","keywords":"Warrior EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 3","t":"Warrior / Normal","atk":500,"def":1200},"rarity":"C","img":"3573512","code":"2","tcg":22985,"grp":293,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"SDJ-003","name":"Baby Dragon","ctype":"monster","keywords":"Dragon WIND Normal Monster","stats":{"a":"WIND","l":"Level 3","t":"Dragon / Normal","atk":1200,"def":700},"rarity":"C","img":"88819587","code":"3","tcg":22986,"grp":293,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"SDJ-004","name":"Spirit of the Harp","ctype":"monster","keywords":"Fairy LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fairy / Normal","atk":800,"def":2000},"rarity":"C","img":"80770678","code":"4","tcg":22987,"grp":293,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"SDJ-005","name":"Island Turtle","ctype":"monster","keywords":"Aqua WATER Normal Monster","stats":{"a":"WATER","l":"Level 4","t":"Aqua / Normal","atk":1100,"def":2000},"rarity":"C","img":"4042268","code":"5","tcg":22988,"grp":293,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"SDJ-006","name":"Flame Manipulator","ctype":"monster","keywords":"Spellcaster FIRE Normal Monster","stats":{"a":"FIRE","l":"Level 3","t":"Spellcaster / Normal","atk":900,"def":1000},"rarity":"C","img":"34460851","code":"6","tcg":22989,"grp":293,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"SDJ-007","name":"Masaki the Legendary Swordsman","ctype":"monster","keywords":"Warrior EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Normal","atk":1100,"def":1100},"rarity":"C","img":"44287299","code":"7","tcg":22990,"grp":293,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"SDJ-008","name":"7 Colored Fish","ctype":"monster","keywords":"Fish WATER Normal Monster","stats":{"a":"WATER","l":"Level 4","t":"Fish / Normal","atk":1800,"def":800},"rarity":"C","img":"23771716","code":"8","tcg":22991,"grp":293,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"SDJ-009","name":"Armored Lizard","ctype":"monster","keywords":"Reptile EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 4","t":"Reptile / Normal","atk":1500,"def":1200},"rarity":"C","img":"15480588","code":"9","tcg":22992,"grp":293,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"SDJ-010","name":"Darkfire Soldier #1","ctype":"monster","keywords":"Pyro FIRE Normal Monster","stats":{"a":"FIRE","l":"Level 4","t":"Pyro / Normal","atk":1700,"def":1150},"rarity":"C","img":"5388481","code":"10","tcg":22993,"grp":293,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"SDJ-011","name":"Sky Scout","ctype":"monster","keywords":"Winged Beast WIND Normal Monster","stats":{"a":"WIND","l":"Level 4","t":"Winged Beast / Normal","atk":1800,"def":600},"rarity":"C","img":"30532390","code":"11","tcg":22994,"grp":293,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"SDJ-012","name":"Gearfried the Iron Knight","ctype":"monster","keywords":"Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Effect","atk":1800,"def":1600},"rarity":"C","img":"423705","code":"12","tcg":22995,"grp":293,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"SDJ-013","name":"Karate Man","ctype":"monster","keywords":"Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Warrior / Effect","atk":1000,"def":1000},"rarity":"C","img":"23289281","code":"13","tcg":22996,"grp":293,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"SDJ-014","name":"Milus Radiant","ctype":"monster","keywords":"Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 1","t":"Beast / Effect","atk":300,"def":250},"rarity":"C","img":"7489323","code":"14","tcg":22997,"grp":293,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"SDJ-015","name":"Time Wizard","ctype":"monster","keywords":"Magician Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 2","t":"Spellcaster / Effect","atk":500,"def":400},"rarity":"C","img":"71625222","code":"15","tcg":22998,"grp":293,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"SDJ-016","name":"Maha Vailo","ctype":"monster","keywords":"Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Effect","atk":1550,"def":1400},"rarity":"C","img":"93013676","code":"16","tcg":22999,"grp":293,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"SDJ-017","name":"Magician of Faith","ctype":"monster","keywords":"Spellcaster LIGHT Flip Effect Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Spellcaster / Flip / Effect","atk":300,"def":400},"rarity":"C","img":"31560081","code":"17","tcg":23000,"grp":293,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"SDJ-018","name":"Big Eye","ctype":"monster","keywords":"Fiend DARK Flip Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Flip / Effect","atk":1200,"def":1000},"rarity":"C","img":"16768387","code":"18","tcg":23001,"grp":293,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"SDJ-019","name":"Sangan","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Fiend / Effect","atk":1000,"def":600},"rarity":"C","img":"26202165","code":"19","tcg":23002,"grp":293,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"SDJ-020","name":"Princess of Tsurugi","ctype":"monster","keywords":"Warrior WIND Flip Effect Monster","stats":{"a":"WIND","l":"Level 3","t":"Warrior / Flip / Effect","atk":900,"def":700},"rarity":"C","img":"51371017","code":"20","tcg":23003,"grp":293,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"SDJ-021","name":"White Magical Hat","ctype":"monster","keywords":"Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Spellcaster / Effect","atk":1000,"def":700},"rarity":"C","img":"15150365","code":"21","tcg":23004,"grp":293,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"SDJ-022","name":"Penguin Soldier","ctype":"monster","keywords":"Penguin Aqua WATER Flip Effect Monster","stats":{"a":"WATER","l":"Level 2","t":"Aqua / Flip / Effect","atk":750,"def":500},"rarity":"SR","img":"93920745","code":"22","tcg":23005,"grp":293,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"SDJ-023","name":"Thousand Dragon","ctype":"monster","keywords":"Dragon WIND Fusion Monster","stats":{"a":"WIND","l":"Level 7","t":"Dragon / Fusion","atk":2400,"def":2000},"rarity":"C","img":"41462083","code":"23","tcg":23006,"grp":293,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"SDJ-024","name":"Flame Swordsman","ctype":"monster","keywords":"Warrior FIRE Fusion Monster","stats":{"a":"FIRE","l":"Level 5","t":"Warrior / Fusion","atk":1800,"def":1600},"rarity":"C","img":"45231177","code":"24","tcg":23007,"grp":293,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"SDJ-025","name":"Malevolent Nuzzler","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"99597615","code":"25","tcg":23008,"grp":293,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"SDJ-026","name":"Dark Hole","ctype":"spell","keywords":"Hole Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"53129443","code":"26","tcg":23009,"grp":293,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"SDJ-027","name":"Dian Keto the Cure Master","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"84257640","code":"27","tcg":23010,"grp":293,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"SDJ-028","name":"Fissure","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"66788016","code":"28","tcg":23011,"grp":293,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"SDJ-029","name":"De-Spell","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"19159413","code":"29","tcg":23012,"grp":293,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"SDJ-030","name":"Change of Heart","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"4031928","code":"30","tcg":23013,"grp":293,"idx":29},
+    {"id":"031","section":"main","num":"031","printed":"SDJ-031","name":"Block Attack","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"25880422","code":"31","tcg":23014,"grp":293,"idx":30},
+    {"id":"032","section":"main","num":"032","printed":"SDJ-032","name":"Giant Trunade","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"42703248","code":"32","tcg":23015,"grp":293,"idx":31},
+    {"id":"033","section":"main","num":"033","printed":"SDJ-033","name":"The Reliable Guardian","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"16430187","code":"33","tcg":23016,"grp":293,"idx":32},
+    {"id":"034","section":"main","num":"034","printed":"SDJ-034","name":"Remove Trap","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"51482758","code":"34","tcg":23017,"grp":293,"idx":33},
+    {"id":"035","section":"main","num":"035","printed":"SDJ-035","name":"Monster Reborn","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"83764719","code":"35","tcg":23018,"grp":293,"idx":34},
+    {"id":"036","section":"main","num":"036","printed":"SDJ-036","name":"Polymerization","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"24094653","code":"36","tcg":23019,"grp":293,"idx":35},
+    {"id":"037","section":"main","num":"037","printed":"SDJ-037","name":"Mountain","ctype":"spell","keywords":"Field Spell","stats":{"t":"Field Spell"},"rarity":"C","img":"50913601","code":"37","tcg":23020,"grp":293,"idx":36},
+    {"id":"038","section":"main","num":"038","printed":"SDJ-038","name":"Dragon Treasure","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"1435851","code":"38","tcg":23021,"grp":293,"idx":37},
+    {"id":"039","section":"main","num":"039","printed":"SDJ-039","name":"Eternal Rest","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"95051344","code":"39","tcg":23022,"grp":293,"idx":38},
+    {"id":"040","section":"main","num":"040","printed":"SDJ-040","name":"Shield & Sword","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"52097679","code":"40","tcg":23023,"grp":293,"idx":39},
+    {"id":"041","section":"main","num":"041","printed":"SDJ-041","name":"Scapegoat","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"SR","img":"73915051","code":"41","tcg":23024,"grp":293,"idx":40},
+    {"id":"042","section":"main","num":"042","printed":"SDJ-042","name":"Just Desserts","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"24068492","code":"42","tcg":23025,"grp":293,"idx":41},
+    {"id":"043","section":"main","num":"043","printed":"SDJ-043","name":"Trap Hole","ctype":"trap","keywords":"Hole Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"4206964","code":"43","tcg":23026,"grp":293,"idx":42},
+    {"id":"044","section":"main","num":"044","printed":"SDJ-044","name":"Reinforcements","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"17814387","code":"44","tcg":23027,"grp":293,"idx":43},
+    {"id":"045","section":"main","num":"045","printed":"SDJ-045","name":"Castle Walls","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"44209392","code":"45","tcg":23028,"grp":293,"idx":44},
+    {"id":"046","section":"main","num":"046","printed":"SDJ-046","name":"Waboku","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"12607053","code":"46","tcg":23029,"grp":293,"idx":45},
+    {"id":"047","section":"main","num":"047","printed":"SDJ-047","name":"Ultimate Offering","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"80604092","code":"47","tcg":23030,"grp":293,"idx":46},
+    {"id":"048","section":"main","num":"048","printed":"SDJ-048","name":"Seven Tools of the Bandit","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"C","img":"3819470","code":"48","tcg":23031,"grp":293,"idx":47},
+    {"id":"049","section":"main","num":"049","printed":"SDJ-049","name":"Fake Trap","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"3027001","code":"49","tcg":23032,"grp":293,"idx":48},
+    {"id":"050","section":"main","num":"050","printed":"SDJ-050","name":"Reverse Trap","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"77622396","code":"50","tcg":23033,"grp":293,"idx":49}
+  ]
+}

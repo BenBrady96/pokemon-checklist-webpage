@@ -1,0 +1,110 @@
+{
+  "id": "yugioh/duel-terminal-6a",
+  "game": "yugioh",
+  "slug": "duel-terminal-6a",
+  "name": "Duel Terminal 6a",
+  "series": "ZEXAL",
+  "kind": "set",
+  "code": "DT06",
+  "syncKey": "YDT06",
+  "released": "2012-02-03",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Main Set",
+      "range": "DT06-EN001–DT06-EN050",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from DT06-EN001 to DT06-EN050."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Duel Terminal 6a Checklist · All 50 Cards",
+    "description": "Free Yu-Gi-Oh! Duel Terminal 6a checklist with no ads, no sign-up and no tracking. Track all 50 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Duel Terminal 6a Checklist",
+    "ogDescription": "Track all 50 cards in Yu-Gi-Oh! Duel Terminal 6a. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 50 cards in Yu-Gi-Oh! Duel Terminal 6a. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About the Duel Terminal 6a set",
+    "paragraphs": [
+      "Duel Terminal 6a is a Yu-Gi-Oh! TCG special set released on 3 February 2012, in the ZEXAL era. It has 50 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Duel Terminal 6a"
+    ],
+    "tcgplayer": [
+      1332
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"DT06-EN001","name":"Silent Swordsman LV7","ctype":"monster","keywords":"Silent Swordsman Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 7","t":"Warrior / Effect","atk":2800,"def":1000},"rarity":"DSPR","img":"37267041","code":"1","tcg":81432,"grp":1332,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"DT06-EN002","name":"Arcana Force EX - The Light Ruler","ctype":"monster","keywords":"Arcana Force Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 10","t":"Fairy / Effect","atk":4000,"def":4000},"rarity":"DRPR","img":"5861892","code":"2","tcg":81433,"grp":1332,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"DT06-EN003","name":"Elemental HERO Voltic","ctype":"monster","keywords":"Elemental HERO Thunder LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Thunder / Effect","atk":1000,"def":1500},"rarity":"DNPR","img":"9327502","code":"3","tcg":81434,"grp":1332,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"DT06-EN004","name":"Athena","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 7","t":"Fairy / Effect","atk":2600,"def":800},"rarity":"DNPR","img":"48964966","code":"4","tcg":81435,"grp":1332,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"DT06-EN005","name":"Mystic Tomato","ctype":"monster","keywords":"Plant DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Plant / Effect","atk":1400,"def":1100},"rarity":"DNPR","img":"83011278","code":"5","tcg":81436,"grp":1332,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"DT06-EN006","name":"Freed the Brave Wanderer","ctype":"monster","keywords":"Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Effect","atk":1700,"def":1200},"rarity":"DNPR","img":"16556849","code":"6","tcg":81437,"grp":1332,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"DT06-EN007","name":"Guardian Angel Joan","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 7","t":"Fairy / Effect","atk":2800,"def":2000},"rarity":"DNPR","img":"68007326","code":"7","tcg":81438,"grp":1332,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"DT06-EN008","name":"Manju of the Ten Thousand Hands","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fairy / Effect","atk":1400,"def":1000},"rarity":"DNPR","img":"95492061","code":"8","tcg":81439,"grp":1332,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"DT06-EN009","name":"Sacred Phoenix of Nephthys","ctype":"monster","keywords":"Nephthys Winged Beast FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 8","t":"Winged Beast / Effect","atk":2400,"def":1600},"rarity":"DRPR","img":"61441708","code":"9","tcg":81440,"grp":1332,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"DT06-EN010","name":"Hand of Nephthys","ctype":"monster","keywords":"Nephthys Spellcaster WIND Effect Monster","stats":{"a":"WIND","l":"Level 2","t":"Spellcaster / Effect","atk":600,"def":600},"rarity":"DNPR","img":"98446407","code":"10","tcg":81441,"grp":1332,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"DT06-EN011","name":"Eria the Water Charmer","ctype":"monster","keywords":"Charmer Spellcaster WATER Flip Effect Monster","stats":{"a":"WATER","l":"Level 3","t":"Spellcaster / Flip / Effect","atk":500,"def":1500},"rarity":"DNPR","img":"74364659","code":"11","tcg":81442,"grp":1332,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"DT06-EN012","name":"Copycat","ctype":"monster","keywords":"Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Spellcaster / Effect","atk":0,"def":0},"rarity":"DNPR","img":"26376390","code":"12","tcg":81443,"grp":1332,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"DT06-EN013","name":"Timeater","ctype":"monster","keywords":"Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Machine / Effect","atk":1900,"def":1700},"rarity":"DNPR","img":"44913552","code":"13","tcg":81444,"grp":1332,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"DT06-EN014","name":"Arcana Force 0 - The Fool","ctype":"monster","keywords":"Arcana Force Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Fairy / Effect","atk":0,"def":0},"rarity":"DNPR","img":"62892347","code":"14","tcg":81445,"grp":1332,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"DT06-EN015","name":"Battle Fader","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Fiend / Effect","atk":0,"def":0},"rarity":"DNPR","img":"19665973","code":"15","tcg":81446,"grp":1332,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"DT06-EN016","name":"Gem-Knight Crystal","ctype":"monster","keywords":"Gem- Rock EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 7","t":"Rock / Normal","atk":2450,"def":1950},"rarity":"DRPR","img":"76908448","code":"16","tcg":81447,"grp":1332,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"DT06-EN017","name":"Laval Volcano Handmaiden","ctype":"monster","keywords":"Laval Pyro FIRE Tuner Monster","stats":{"a":"FIRE","l":"Level 1","t":"Pyro / Tuner","atk":100,"def":200},"rarity":"DNPR","img":"2407147","code":"17","tcg":81448,"grp":1332,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"DT06-EN018","name":"Laval Cannon","ctype":"monster","keywords":"Laval Warrior FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Warrior / Effect","atk":1600,"def":900},"rarity":"DRPR","img":"38492752","code":"18","tcg":81449,"grp":1332,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"DT06-EN019","name":"Vylon Sphere","ctype":"monster","keywords":"Vylon Machine LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Machine / Tuner","atk":400,"def":400},"rarity":"DRPR","img":"75886890","code":"19","tcg":81450,"grp":1332,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"DT06-EN020","name":"Vylon Tetra","ctype":"monster","keywords":"Vylon Machine LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 2","t":"Machine / Tuner","atk":900,"def":900},"rarity":"DNPR","img":"1281505","code":"20","tcg":81451,"grp":1332,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"DT06-EN021","name":"Vylon Stella","ctype":"monster","keywords":"Vylon Fairy LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Fairy / Tuner","atk":1400,"def":200},"rarity":"DNPR","img":"38679204","code":"21","tcg":81452,"grp":1332,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"DT06-EN022","name":"Vylon Prism","ctype":"monster","keywords":"Vylon Thunder LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Thunder / Tuner","atk":1500,"def":1500},"rarity":"DRPR","img":"74064212","code":"22","tcg":81453,"grp":1332,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"DT06-EN023","name":"Vylon Hept","ctype":"monster","keywords":"Vylon Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fairy / Effect","atk":1800,"def":800},"rarity":"DRPR","img":"168917","code":"23","tcg":81454,"grp":1332,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"DT06-EN024","name":"Gishki Reliever","ctype":"monster","keywords":"Gishki Aqua WATER Effect Monster","stats":{"a":"WATER","l":"Level 2","t":"Aqua / Effect","atk":500,"def":800},"rarity":"DNPR","img":"37557626","code":"24","tcg":81455,"grp":1332,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"DT06-EN025","name":"Gishki Noellia","ctype":"monster","keywords":"Gishki Spellcaster WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Spellcaster / Effect","atk":1700,"def":1000},"rarity":"DRPR","img":"63942761","code":"25","tcg":81456,"grp":1332,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"DT06-EN026","name":"Gusto Squirro","ctype":"monster","keywords":"Gusto Thunder WIND Tuner Monster","stats":{"a":"WIND","l":"Level 2","t":"Thunder / Tuner","atk":0,"def":1800},"rarity":"DRPR","img":"336369","code":"26","tcg":81457,"grp":1332,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"DT06-EN027","name":"Reeze, Whirlwind of Gusto","ctype":"monster","keywords":"Gusto Psychic WIND Effect Monster","stats":{"a":"WIND","l":"Level 5","t":"Psychic / Effect","atk":1900,"def":1400},"rarity":"DNPR","img":"36331074","code":"27","tcg":81458,"grp":1332,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"DT06-EN028","name":"Steelswarm Genome","ctype":"monster","keywords":"Steelswarm Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 2","t":"Fiend / Effect","atk":1000,"def":0},"rarity":"DNPR","img":"62729173","code":"28","tcg":81459,"grp":1332,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"DT06-EN029","name":"Steelswarm Sentinel","ctype":"monster","keywords":"Steelswarm Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Fiend / Effect","atk":1100,"def":0},"rarity":"DNPR","img":"99214782","code":"29","tcg":81460,"grp":1332,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"DT06-EN030","name":"Steelswarm Sting","ctype":"monster","keywords":"Steelswarm Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Effect","atk":1850,"def":0},"rarity":"DRPR","img":"35618486","code":"30","tcg":81461,"grp":1332,"idx":29},
+    {"id":"031","section":"main","num":"031","printed":"DT06-EN031","name":"Steelswarm Longhorn","ctype":"monster","keywords":"Steelswarm Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 9","t":"Fiend / Effect","atk":3000,"def":0},"rarity":"DSPR","img":"62007535","code":"31","tcg":81462,"grp":1332,"idx":30},
+    {"id":"032","section":"main","num":"032","printed":"DT06-EN032","name":"Steelswarm Hercules","ctype":"monster","keywords":"Steelswarm Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 10","t":"Fiend / Effect","atk":3200,"def":0},"rarity":"DUPR","img":"94092230","code":"32","tcg":81463,"grp":1332,"idx":31},
+    {"id":"033","section":"main","num":"033","printed":"DT06-EN033","name":"Evigishki Tetrogre","ctype":"monster","keywords":"Gishki Aqua WATER Ritual Effect Monster","stats":{"a":"WATER","l":"Level 6","t":"Aqua / Ritual / Effect","atk":2600,"def":2100},"rarity":"DUPR","img":"21496848","code":"33","tcg":81464,"grp":1332,"idx":32},
+    {"id":"034","section":"main","num":"034","printed":"DT06-EN034","name":"Elemental HERO Gaia","ctype":"monster","keywords":"Elemental HERO Warrior EARTH Fusion Monster","stats":{"a":"EARTH","l":"Level 6","t":"Warrior / Fusion","atk":2200,"def":2600},"rarity":"DNPR","img":"16304628","code":"34","tcg":81465,"grp":1332,"idx":33},
+    {"id":"035","section":"main","num":"035","printed":"DT06-EN035","name":"Gem-Knight Citrine","ctype":"monster","keywords":"Gem- Pyro EARTH Fusion Monster","stats":{"a":"EARTH","l":"Level 7","t":"Pyro / Fusion","atk":2200,"def":1950},"rarity":"DSPR","img":"67985943","code":"35","tcg":81466,"grp":1332,"idx":34},
+    {"id":"036","section":"main","num":"036","printed":"DT06-EN036","name":"Gem-Knight Prismaura","ctype":"monster","keywords":"Gem- Thunder EARTH Fusion Monster","stats":{"a":"EARTH","l":"Level 7","t":"Thunder / Fusion","atk":2450,"def":1400},"rarity":"DSPR","img":"93379652","code":"36","tcg":81467,"grp":1332,"idx":35},
+    {"id":"037","section":"main","num":"037","printed":"DT06-EN037","name":"Laval Stennon","ctype":"monster","keywords":"Laval Pyro FIRE Synchro Monster","stats":{"a":"FIRE","l":"Level 7","t":"Pyro / Synchro","atk":2700,"def":1800},"rarity":"DSPR","img":"20374351","code":"37","tcg":81468,"grp":1332,"idx":36},
+    {"id":"038","section":"main","num":"038","printed":"DT06-EN038","name":"Vylon Alpha","ctype":"monster","keywords":"Vylon Machine LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 9","t":"Machine / Synchro","atk":2200,"def":1100},"rarity":"DUPR","img":"56768355","code":"38","tcg":81469,"grp":1332,"idx":37},
+    {"id":"039","section":"main","num":"039","printed":"DT06-EN039","name":"Vylon Omega","ctype":"monster","keywords":"Vylon Fairy LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 10","t":"Fairy / Synchro","atk":3200,"def":1900},"rarity":"DUPR","img":"93157004","code":"39","tcg":81470,"grp":1332,"idx":38},
+    {"id":"040","section":"main","num":"040","printed":"DT06-EN040","name":"Daigusto Sphreez","ctype":"monster","keywords":"Gusto Psychic WIND Synchro Monster","stats":{"a":"WIND","l":"Level 6","t":"Psychic / Synchro","atk":2000,"def":1300},"rarity":"DSPR","img":"29552709","code":"40","tcg":81471,"grp":1332,"idx":39},
+    {"id":"041","section":"main","num":"041","printed":"DT06-EN041","name":"Future Fusion","ctype":"spell","keywords":"Magician Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"DNPR","img":"77565204","code":"41","tcg":81472,"grp":1332,"idx":40},
+    {"id":"042","section":"main","num":"042","printed":"DT06-EN042","name":"Advanced Ritual Art","ctype":"spell","keywords":"Ritual Spell","stats":{"t":"Ritual Spell"},"rarity":"DNPR","img":"46052429","code":"42","tcg":81473,"grp":1332,"idx":41},
+    {"id":"043","section":"main","num":"043","printed":"DT06-EN043","name":"Vylon Component","ctype":"spell","keywords":"Vylon Equip Spell","stats":{"t":"Equip Spell"},"rarity":"DNPR","img":"55046718","code":"43","tcg":81474,"grp":1332,"idx":42},
+    {"id":"044","section":"main","num":"044","printed":"DT06-EN044","name":"Vylon Element","ctype":"spell","keywords":"Vylon Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"DNPR","img":"92035412","code":"44","tcg":81475,"grp":1332,"idx":43},
+    {"id":"045","section":"main","num":"045","printed":"DT06-EN045","name":"Forbidden Arts of the Gishki","ctype":"spell","keywords":"Gishki Ritual Spell","stats":{"t":"Ritual Spell"},"rarity":"DNPR","img":"28429121","code":"45","tcg":81476,"grp":1332,"idx":44},
+    {"id":"046","section":"main","num":"046","printed":"DT06-EN046","name":"Wall of Revealing Light","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"DNPR","img":"17078030","code":"46","tcg":81477,"grp":1332,"idx":45},
+    {"id":"047","section":"main","num":"047","printed":"DT06-EN047","name":"Drastic Drop Off","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"DNPR","img":"4440873","code":"47","tcg":81478,"grp":1332,"idx":46},
+    {"id":"048","section":"main","num":"048","printed":"DT06-EN048","name":"Pyroxene Fusion","ctype":"trap","keywords":"Gem- Normal Trap","stats":{"t":"Normal Trap"},"rarity":"DNPR","img":"55824220","code":"48","tcg":81479,"grp":1332,"idx":47},
+    {"id":"049","section":"main","num":"049","printed":"DT06-EN049","name":"Infestation Ripples","ctype":"trap","keywords":"Infestation Normal Trap","stats":{"t":"Normal Trap"},"rarity":"DNPR","img":"81218874","code":"49","tcg":81480,"grp":1332,"idx":48},
+    {"id":"050","section":"main","num":"050","printed":"DT06-EN050","name":"Infestation Tool","ctype":"trap","keywords":"Infestation Normal Trap","stats":{"t":"Normal Trap"},"rarity":"DNPR","img":"27207573","code":"50","tcg":81481,"grp":1332,"idx":49}
+  ]
+}

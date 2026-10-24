@@ -1,0 +1,87 @@
+{
+  "id": "yugioh/ots-tournament-pack-24",
+  "game": "yugioh",
+  "slug": "ots-tournament-pack-24",
+  "name": "OTS Tournament Pack 24",
+  "series": "SEVENS & GO RUSH!!",
+  "kind": "pack",
+  "code": "OP24",
+  "syncKey": "YOP24",
+  "released": "2024-02-14",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "OP24-EN001–OP24-EN027",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from OP24-EN001 to OP24-EN027."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! OTS Tournament Pack 24 Checklist · All 27 Cards",
+    "description": "Free Yu-Gi-Oh! OTS Tournament Pack 24 checklist with no ads, no sign-up and no tracking. Track all 27 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! OTS Tournament Pack 24 Checklist",
+    "ogDescription": "Track all 27 cards in Yu-Gi-Oh! OTS Tournament Pack 24. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 27 cards in Yu-Gi-Oh! OTS Tournament Pack 24. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About OTS Tournament Pack 24",
+    "paragraphs": [
+      "OTS Tournament Pack 24 is a Yu-Gi-Oh! TCG pack released on 14 February 2024, in the SEVENS &amp; GO RUSH!! era. It has 27 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "OTS Tournament Pack 24"
+    ],
+    "tcgplayer": [
+      23427
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"OP24-EN001","name":"Chaos Angel","ctype":"monster","keywords":"Chaos Fiend DARK Synchro Monster","stats":{"a":"DARK","l":"Level 10","t":"Fiend / Synchro","atk":3500,"def":2800},"rarity":"UtR","img":"22850702","code":"1","tcg":538688,"grp":23427,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"OP24-EN002","name":"Rock of the Vanquisher","ctype":"monster","keywords":"Vanquish Soul Rock DARK Link Monster","stats":{"a":"DARK","l":"Link 1","t":"Rock / Link","atk":0},"rarity":"UtR","img":"28168628","code":"2","tcg":538689,"grp":23427,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"OP24-EN003","name":"Harpie's Feather Duster","ctype":"spell","keywords":"Harpie Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UtR","img":"18144507","code":"3","tcg":538690,"grp":23427,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"OP24-EN004","name":"King Tiger Wanghu","ctype":"monster","keywords":"Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Beast / Effect","atk":1700,"def":1000},"rarity":"SR","img":"83986578","code":"4","tcg":538693,"grp":23427,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"OP24-EN005","name":"Unchained Twins - Aruha","ctype":"monster","keywords":"Unchained Fiend FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 3","t":"Fiend / Effect","atk":1500,"def":1500},"rarity":"SR","img":"26236560","code":"5","tcg":538694,"grp":23427,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"OP24-EN006","name":"Labrynth Chandraglier","ctype":"monster","keywords":"Labrynth Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Fiend / Effect","atk":1500,"def":0},"rarity":"SR","img":"37629703","code":"6","tcg":538695,"grp":23427,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"OP24-EN007","name":"Cornfield Coatl","ctype":"monster","keywords":"Illusion WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Illusion / Effect","atk":500,"def":1700},"rarity":"SR","img":"92565383","code":"7","tcg":538696,"grp":23427,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"OP24-EN008","name":"Unchained Soul of Sharvara","ctype":"monster","keywords":"Unchained Fiend FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 6","t":"Fiend / Effect","atk":2000,"def":1500},"rarity":"SR","img":"41165831","code":"8","tcg":538697,"grp":23427,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"OP24-EN009","name":"D/D/D Wave High King Caesar","ctype":"monster","keywords":"D/D Fiend WATER Xyz Monster","stats":{"a":"WATER","l":"Rank 6","t":"Fiend / Xyz","atk":2800,"def":1800},"rarity":"SR","img":"79559912","code":"9","tcg":538698,"grp":23427,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"OP24-EN010","name":"Purrely Sleepy Memory","ctype":"spell","keywords":"Purrely Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"SR","img":"21347668","code":"10","tcg":538699,"grp":23427,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"OP24-EN011","name":"Terrors of the Overroot","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"63086455","code":"11","tcg":538700,"grp":23427,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"OP24-EN012","name":"Purrelyeap!?","ctype":"trap","keywords":"Purrely Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"82983267","code":"12","tcg":538701,"grp":23427,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"OP24-EN013","name":"Mannadium Reframing","ctype":"trap","keywords":"Mannadium Counter Trap","stats":{"t":"Counter Trap"},"rarity":"SR","img":"18158393","code":"13","tcg":538702,"grp":23427,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"OP24-EN014","name":"Byser Shock","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 5","t":"Fiend / Effect","atk":800,"def":600},"rarity":"C","img":"17597059","code":"14","tcg":538703,"grp":23427,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"OP24-EN015","name":"Electric Virus","ctype":"monster","keywords":"Thunder LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Thunder / Effect","atk":1000,"def":1000},"rarity":"C","img":"24725825","code":"15","tcg":538704,"grp":23427,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"OP24-EN016","name":"Puppet Plant","ctype":"monster","keywords":"Plant EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Plant / Effect","atk":1000,"def":1000},"rarity":"C","img":"51119924","code":"16","tcg":538706,"grp":23427,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"OP24-EN017","name":"Marionette Mite","ctype":"monster","keywords":"Insect DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Insect / Effect","atk":1000,"def":1000},"rarity":"C","img":"87514539","code":"17","tcg":538707,"grp":23427,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"OP24-EN018","name":"Raidraptor - Tribute Lanius","ctype":"monster","keywords":"Raidraptor Winged Beast DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Winged Beast / Effect","atk":1800,"def":400},"rarity":"C","img":"83236601","code":"18","tcg":538709,"grp":23427,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"OP24-EN019","name":"Fire Flint Lady","ctype":"monster","keywords":"Warrior FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 1","t":"Warrior / Effect","atk":100,"def":100},"rarity":"C","img":"42052439","code":"19","tcg":538711,"grp":23427,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"OP24-EN020","name":"Raider's Wing","ctype":"monster","keywords":"Raidraptor Winged Beast DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Winged Beast / Effect","atk":0,"def":2000},"rarity":"C","img":"52159691","code":"20","tcg":538712,"grp":23427,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"OP24-EN021","name":"Saffira, Queen of Dragons","ctype":"monster","keywords":"Dragon LIGHT Ritual Effect Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Dragon / Ritual / Effect","atk":2500,"def":2400},"rarity":"C","img":"56350972","code":"21","tcg":538713,"grp":23427,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"OP24-EN022","name":"Raidraptor - Force Strix","ctype":"monster","keywords":"Raidraptor Winged Beast DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 4","t":"Winged Beast / Xyz","atk":100,"def":2000},"rarity":"C","img":"73347079","code":"22","tcg":538714,"grp":23427,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"OP24-EN023","name":"Hymn of Light","ctype":"spell","keywords":"Ritual Spell","stats":{"t":"Ritual Spell"},"rarity":"C","img":"80566312","code":"23","tcg":538715,"grp":23427,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"OP24-EN024","name":"Raidraptor - Call","ctype":"spell","keywords":"Raidraptor Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"50692511","code":"24","tcg":538716,"grp":23427,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"OP24-EN025","name":"Cynet Mining","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"57160136","code":"25","tcg":538717,"grp":23427,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"OP24-EN026","name":"Majespecter Tornado","ctype":"trap","keywords":"Majespecter Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"36183881","code":"26","tcg":538718,"grp":23427,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"OP24-EN027","name":"Majespecter Tempest","ctype":"trap","keywords":"Majespecter Counter Trap","stats":{"t":"Counter Trap"},"rarity":"C","img":"2572890","code":"27","tcg":538719,"grp":23427,"idx":26}
+  ]
+}

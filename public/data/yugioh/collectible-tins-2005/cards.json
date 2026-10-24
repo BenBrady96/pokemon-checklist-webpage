@@ -1,0 +1,66 @@
+{
+  "id": "yugioh/collectible-tins-2005",
+  "game": "yugioh",
+  "slug": "collectible-tins-2005",
+  "name": "Collectible Tins 2005",
+  "series": "GX",
+  "kind": "tin",
+  "code": "CT2",
+  "syncKey": "YCT2",
+  "released": "2005-09-01",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "CT2-EN001–CT2-EN006",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from CT2-EN001 to CT2-EN006."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Collectible Tins 2005 Checklist · All 6 Cards",
+    "description": "Free Yu-Gi-Oh! Collectible Tins 2005 checklist with no ads, no sign-up and no tracking. Track all 6 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Collectible Tins 2005 Checklist",
+    "ogDescription": "Track all 6 cards in Yu-Gi-Oh! Collectible Tins 2005. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 6 cards in Yu-Gi-Oh! Collectible Tins 2005. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Collectible Tins 2005",
+    "paragraphs": [
+      "Collectible Tins 2005 is a Yu-Gi-Oh! TCG tin released on 1 September 2005, in the GX era. It has 6 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Collectible Tins 2005"
+    ],
+    "tcgplayer": [
+      128
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"CT2-EN001","name":"Gilford the Lightning","ctype":"monster","keywords":"Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Warrior / Effect","atk":2800,"def":1400},"rarity":"ScR","img":"36354007","code":"1","tcg":24511,"grp":128,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"CT2-EN002","name":"Exarion Universe","ctype":"monster","keywords":"Beast-Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Beast-Warrior / Effect","atk":1800,"def":1900},"rarity":"ScR","img":"63749102","code":"2","tcg":24512,"grp":128,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"CT2-EN003","name":"Vorse Raider","ctype":"monster","keywords":"Beast-Warrior DARK Normal Monster","stats":{"a":"DARK","l":"Level 4","t":"Beast-Warrior / Normal","atk":1900,"def":1200},"rarity":"ScR","img":"14898066","code":"3","tcg":24513,"grp":128,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"CT2-EN004","name":"Dark Magician Girl","ctype":"monster","keywords":"Dark Magician Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Spellcaster / Effect","atk":2000,"def":1700},"rarity":"ScR","img":"38033123","code":"4","tcg":24514,"grp":128,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"CT2-EN005","name":"Rocket Warrior","ctype":"monster","keywords":"Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Effect","atk":1500,"def":1300},"rarity":"ScR","img":"30860696","code":"5","tcg":24515,"grp":128,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"CT2-EN006","name":"Panther Warrior","ctype":"monster","keywords":"Beast-Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Beast-Warrior / Effect","atk":2000,"def":1600},"rarity":"ScR","img":"42035044","code":"6","tcg":24516,"grp":128,"idx":5}
+  ]
+}

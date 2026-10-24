@@ -1,0 +1,116 @@
+{
+  "id": "yugioh/legendary-duelists-sisters-of-the-rose",
+  "game": "yugioh",
+  "slug": "legendary-duelists-sisters-of-the-rose",
+  "name": "Legendary Duelists: Sisters of the Rose",
+  "series": "VRAINS",
+  "kind": "set",
+  "code": "LED4",
+  "syncKey": "YLED4",
+  "released": "2019-01-10",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Main Set",
+      "range": "LED4-EN000–LED4-EN055",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from LED4-EN000 to LED4-EN055."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Legendary Duelists: Sisters of the Rose Checklist · All 56 Cards",
+    "description": "Free Yu-Gi-Oh! Legendary Duelists: Sisters of the Rose checklist with no ads, no sign-up and no tracking. Track all 56 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Legendary Duelists: Sisters of the Rose Checklist",
+    "ogDescription": "Track all 56 cards in Yu-Gi-Oh! Legendary Duelists: Sisters of the Rose. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 56 cards in Yu-Gi-Oh! Legendary Duelists: Sisters of the Rose. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About the Legendary Duelists: Sisters of the Rose set",
+    "paragraphs": [
+      "Legendary Duelists: Sisters of the Rose is a Yu-Gi-Oh! TCG special set released on 10 January 2019, in the VRAINS era. It has 56 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Legendary Duelists: Sisters of the Rose"
+    ],
+    "tcgplayer": [
+      2365
+    ]
+  },
+  "cards": [
+    {"id":"000","section":"main","num":"000","printed":"LED4-EN000","name":"Harpie's Feather Storm","ctype":"trap","keywords":"Harpie Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"87639778","code":"0","tcg":183117,"grp":2365,"idx":0},
+    {"id":"001","section":"main","num":"001","printed":"LED4-EN001","name":"Harpie Perfumer","ctype":"monster","keywords":"Harpie Winged Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Winged Beast / Effect","atk":1400,"def":1300},"rarity":"UR","img":"39392286","code":"1","tcg":183118,"grp":2365,"idx":1},
+    {"id":"002","section":"main","num":"002","printed":"LED4-EN002","name":"Harpie Oracle","ctype":"monster","keywords":"Harpie Winged Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Winged Beast / Effect","atk":1300,"def":1400},"rarity":"SR","img":"66386380","code":"2","tcg":183119,"grp":2365,"idx":2},
+    {"id":"003","section":"main","num":"003","printed":"LED4-EN003","name":"Alluring Mirror Split","ctype":"spell","keywords":"Harpie Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"UR","img":"92881099","code":"3","tcg":183120,"grp":2365,"idx":3},
+    {"id":"004","section":"main","num":"004","printed":"LED4-EN004","name":"Harpie's Feather Rest","ctype":"spell","keywords":"Harpie Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UR","img":"39275698","code":"4","tcg":183121,"grp":2365,"idx":4},
+    {"id":"005","section":"main","num":"005","printed":"LED4-EN005","name":"Harpie Lady Elegance","ctype":"trap","keywords":"Harpie Normal Trap","stats":{"t":"Normal Trap"},"rarity":"R","img":"65664792","code":"5","tcg":183122,"grp":2365,"idx":5},
+    {"id":"006","section":"main","num":"006","printed":"LED4-EN006","name":"Harpie Lady Sisters","ctype":"monster","keywords":"Harpie Winged Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 6","t":"Winged Beast / Effect","atk":1950,"def":2100},"rarity":"C","img":"12206212","code":"6","tcg":183123,"grp":2365,"idx":6},
+    {"id":"007","section":"main","num":"007","printed":"LED4-EN007","name":"Harpie Queen","ctype":"monster","keywords":"Harpie Winged Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Winged Beast / Effect","atk":1900,"def":1200},"rarity":"C","img":"75064463","code":"7","tcg":183124,"grp":2365,"idx":7},
+    {"id":"008","section":"main","num":"008","printed":"LED4-EN008","name":"Elegant Egotist","ctype":"spell","keywords":"Harpie Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"90219263","code":"8","tcg":183125,"grp":2365,"idx":8},
+    {"id":"009","section":"main","num":"009","printed":"LED4-EN009","name":"Harpies' Hunting Ground","ctype":"spell","keywords":"Harpie Field Spell","stats":{"t":"Field Spell"},"rarity":"C","img":"75782277","code":"9","tcg":183126,"grp":2365,"idx":9},
+    {"id":"010","section":"main","num":"010","printed":"LED4-EN010","name":"Harpie Lady Phoenix Formation","ctype":"spell","keywords":"Harpie Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"86308219","code":"10","tcg":183127,"grp":2365,"idx":10},
+    {"id":"011","section":"main","num":"011","printed":"LED4-EN011","name":"Triangle Ecstasy Spark","ctype":"spell","keywords":"Harpie Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"12181376","code":"11","tcg":183128,"grp":2365,"idx":11},
+    {"id":"012","section":"main","num":"012","printed":"LED4-EN012","name":"Cyber Angel Izana","ctype":"monster","keywords":"Cyber Angel Fairy LIGHT Ritual Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Fairy / Ritual / Effect","atk":2500,"def":2600},"rarity":"SR","img":"91668401","code":"12","tcg":183129,"grp":2365,"idx":12},
+    {"id":"013","section":"main","num":"013","printed":"LED4-EN013","name":"Cyber Egg Angel","ctype":"monster","keywords":"Cyber Angel Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 2","t":"Fairy / Effect","atk":200,"def":300},"rarity":"R","img":"28053106","code":"13","tcg":183130,"grp":2365,"idx":13},
+    {"id":"014","section":"main","num":"014","printed":"LED4-EN014","name":"Merciful Machine Angel","ctype":"spell","keywords":"Cyber Angel Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"64442155","code":"14","tcg":183131,"grp":2365,"idx":14},
+    {"id":"015","section":"main","num":"015","printed":"LED4-EN015","name":"Incarnated Machine Angel","ctype":"spell","keywords":"Cyber Angel Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"R","img":"91946859","code":"15","tcg":183132,"grp":2365,"idx":15},
+    {"id":"016","section":"main","num":"016","printed":"LED4-EN016","name":"Magnificent Machine Angel","ctype":"spell","keywords":"Cyber Angel Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"R","img":"27331568","code":"16","tcg":183133,"grp":2365,"idx":16},
+    {"id":"017","section":"main","num":"017","printed":"LED4-EN017","name":"Cyber Petit Angel","ctype":"monster","keywords":"Cyber Angel Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 2","t":"Fairy / Effect","atk":300,"def":200},"rarity":"C","img":"76103404","code":"17","tcg":183134,"grp":2365,"idx":17},
+    {"id":"018","section":"main","num":"018","printed":"LED4-EN018","name":"Cyber Angel Benten","ctype":"monster","keywords":"Cyber Angel Fairy LIGHT Ritual Effect Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Fairy / Ritual / Effect","atk":1800,"def":1500},"rarity":"C","img":"77235086","code":"18","tcg":183135,"grp":2365,"idx":18},
+    {"id":"019","section":"main","num":"019","printed":"LED4-EN019","name":"Cyber Angel Idaten","ctype":"monster","keywords":"Cyber Angel Fairy LIGHT Ritual Effect Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Fairy / Ritual / Effect","atk":1600,"def":2000},"rarity":"C","img":"3629090","code":"19","tcg":183136,"grp":2365,"idx":19},
+    {"id":"020","section":"main","num":"020","printed":"LED4-EN020","name":"Cyber Angel Dakini","ctype":"monster","keywords":"Cyber Angel Fairy LIGHT Ritual Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Fairy / Ritual / Effect","atk":2700,"def":2400},"rarity":"C","img":"39618799","code":"20","tcg":183137,"grp":2365,"idx":20},
+    {"id":"021","section":"main","num":"021","printed":"LED4-EN021","name":"Machine Angel Ritual","ctype":"spell","keywords":"Cyber Angel Ritual Spell","stats":{"t":"Ritual Spell"},"rarity":"C","img":"39996157","code":"21","tcg":183138,"grp":2365,"idx":21},
+    {"id":"022","section":"main","num":"022","printed":"LED4-EN022","name":"Ritual Sanctuary","ctype":"spell","keywords":"Field Spell","stats":{"t":"Field Spell"},"rarity":"C","img":"20250830","code":"22","tcg":183139,"grp":2365,"idx":22},
+    {"id":"023","section":"main","num":"023","printed":"LED4-EN023","name":"Garden Rose Maiden","ctype":"monster","keywords":"Rose Dragon Plant DARK Synchro Monster","stats":{"a":"DARK","l":"Level 5","t":"Plant / Synchro","atk":1600,"def":2400},"rarity":"UR","img":"53325667","code":"23","tcg":183140,"grp":2365,"idx":23},
+    {"id":"024","section":"main","num":"024","printed":"LED4-EN024","name":"Dark Rose Fairy","ctype":"monster","keywords":"Fairy DARK Effect Monster","stats":{"a":"DARK","l":"Level 2","t":"Fairy / Effect","atk":800,"def":1000},"rarity":"R","img":"90724272","code":"24","tcg":183141,"grp":2365,"idx":24},
+    {"id":"025","section":"main","num":"025","printed":"LED4-EN025","name":"Red Rose Dragon","ctype":"monster","keywords":"Rose Dragon Dragon DARK Tuner Monster","stats":{"a":"DARK","l":"Level 3","t":"Dragon / Tuner","atk":1000,"def":1800},"rarity":"R","img":"26118970","code":"25","tcg":183142,"grp":2365,"idx":25},
+    {"id":"026","section":"main","num":"026","printed":"LED4-EN026","name":"Frozen Rose","ctype":"spell","keywords":"Rose Dragon Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"UR","img":"53503015","code":"26","tcg":183143,"grp":2365,"idx":26},
+    {"id":"027","section":"main","num":"027","printed":"LED4-EN027","name":"Blooming of the Darkest Rose","ctype":"trap","keywords":"Rose Dragon Normal Trap","stats":{"t":"Normal Trap"},"rarity":"R","img":"99092624","code":"27","tcg":183144,"grp":2365,"idx":27},
+    {"id":"028","section":"main","num":"028","printed":"LED4-EN028","name":"Black Rose Dragon","ctype":"monster","keywords":"Rose Dragon Dragon FIRE Synchro Monster","stats":{"a":"FIRE","l":"Level 7","t":"Dragon / Synchro","atk":2400,"def":1800},"rarity":"C","img":"73580471","code":"28","tcg":183145,"grp":2365,"idx":28},
+    {"id":"029","section":"main","num":"029","printed":"LED4-EN029","name":"Twilight Rose Knight","ctype":"monster","keywords":"Rose Dragon Warrior DARK Tuner Monster","stats":{"a":"DARK","l":"Level 3","t":"Warrior / Tuner","atk":1000,"def":1000},"rarity":"C","img":"2986553","code":"29","tcg":183146,"grp":2365,"idx":29},
+    {"id":"030","section":"main","num":"030","printed":"LED4-EN030","name":"Witch of the Black Rose","ctype":"monster","keywords":"Rose Dragon Spellcaster DARK Tuner Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Tuner","atk":1700,"def":1200},"rarity":"C","img":"17720747","code":"30","tcg":183147,"grp":2365,"idx":30},
+    {"id":"031","section":"main","num":"031","printed":"LED4-EN031","name":"Blue Rose Dragon","ctype":"monster","keywords":"Rose Dragon Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Dragon / Effect","atk":1600,"def":1200},"rarity":"C","img":"98884569","code":"31","tcg":183148,"grp":2365,"idx":31},
+    {"id":"032","section":"main","num":"032","printed":"LED4-EN032","name":"Black Garden","ctype":"spell","keywords":"Rose Dragon Field Spell","stats":{"t":"Field Spell"},"rarity":"C","img":"71645242","code":"32","tcg":183149,"grp":2365,"idx":32},
+    {"id":"033","section":"main","num":"033","printed":"LED4-EN033","name":"Mark of the Rose","ctype":"spell","keywords":"Rose Dragon Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"45247637","code":"33","tcg":183150,"grp":2365,"idx":33},
+    {"id":"034","section":"main","num":"034","printed":"LED4-EN034","name":"Superdreadnought Rail Cannon Juggernaut Liebe","ctype":"monster","keywords":"Train Machine EARTH Xyz Monster","stats":{"a":"EARTH","l":"Rank 11","t":"Machine / Xyz","atk":4000,"def":4000},"rarity":"UR","img":"26096328","code":"34","tcg":183151,"grp":2365,"idx":34},
+    {"id":"035","section":"main","num":"035","printed":"LED4-EN035","name":"Super Express Bullet Train","ctype":"monster","keywords":"Train Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 10","t":"Machine / Effect","atk":3000,"def":0},"rarity":"UR","img":"52481437","code":"35","tcg":183152,"grp":2365,"idx":35},
+    {"id":"036","section":"main","num":"036","printed":"LED4-EN036","name":"Flying Pegasus Railroad Stampede","ctype":"monster","keywords":"Train Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Machine / Effect","atk":1800,"def":1000},"rarity":"SR","img":"88875132","code":"36","tcg":183153,"grp":2365,"idx":36},
+    {"id":"037","section":"main","num":"037","printed":"LED4-EN037","name":"Urgent Schedule","ctype":"spell","keywords":"Train Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"UR","img":"25274141","code":"37","tcg":183154,"grp":2365,"idx":37},
+    {"id":"038","section":"main","num":"038","printed":"LED4-EN038","name":"Barrage Blast","ctype":"trap","keywords":"Train Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"UR","img":"51369889","code":"38","tcg":183155,"grp":2365,"idx":38},
+    {"id":"039","section":"main","num":"039","printed":"LED4-EN039","name":"Superdreadnought Rail Cannon Gustav Max","ctype":"monster","keywords":"Train Machine EARTH Xyz Monster","stats":{"a":"EARTH","l":"Rank 10","t":"Machine / Xyz","atk":3000,"def":3000},"rarity":"R","img":"56910167","code":"39","tcg":183156,"grp":2365,"idx":39},
+    {"id":"040","section":"main","num":"040","printed":"LED4-EN040","name":"Night Express Knight","ctype":"monster","keywords":"Train Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 10","t":"Machine / Effect","atk":3000,"def":3000},"rarity":"C","img":"51126152","code":"40","tcg":183157,"grp":2365,"idx":40},
+    {"id":"041","section":"main","num":"041","printed":"LED4-EN041","name":"Snow Plow Hustle Rustle","ctype":"monster","keywords":"Train Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 10","t":"Machine / Effect","atk":2500,"def":3000},"rarity":"C","img":"24731453","code":"41","tcg":183158,"grp":2365,"idx":41},
+    {"id":"042","section":"main","num":"042","printed":"LED4-EN042","name":"Ruffian Railcar","ctype":"monster","keywords":"Train Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Machine / Effect","atk":1800,"def":1000},"rarity":"C","img":"24919805","code":"42","tcg":183159,"grp":2365,"idx":42},
+    {"id":"043","section":"main","num":"043","printed":"LED4-EN043","name":"Construction Train Signal Red","ctype":"monster","keywords":"Train Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Machine / Effect","atk":1000,"def":1300},"rarity":"C","img":"34475451","code":"43","tcg":183160,"grp":2365,"idx":43},
+    {"id":"044","section":"main","num":"044","printed":"LED4-EN044","name":"Special Schedule","ctype":"spell","keywords":"Train Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"97520701","code":"44","tcg":183161,"grp":2365,"idx":44},
+    {"id":"045","section":"main","num":"045","printed":"LED4-EN045","name":"Lunalight Sabre Dancer","ctype":"monster","keywords":"Lunalight Beast-Warrior DARK Fusion Monster","stats":{"a":"DARK","l":"Level 9","t":"Beast-Warrior / Fusion","atk":3000,"def":2600},"rarity":"SR","img":"88753594","code":"45","tcg":183162,"grp":2365,"idx":45},
+    {"id":"046","section":"main","num":"046","printed":"LED4-EN046","name":"Lunalight Emerald Bird","ctype":"monster","keywords":"Lunalight Beast-Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Beast-Warrior / Effect","atk":1200,"def":1000},"rarity":"R","img":"14152693","code":"46","tcg":183163,"grp":2365,"idx":46},
+    {"id":"047","section":"main","num":"047","printed":"LED4-EN047","name":"Lunalight Yellow Marten","ctype":"monster","keywords":"Lunalight Beast-Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Beast-Warrior / Effect","atk":800,"def":2000},"rarity":"R","img":"50546208","code":"47","tcg":183164,"grp":2365,"idx":47},
+    {"id":"048","section":"main","num":"048","printed":"LED4-EN048","name":"Lunalight Fusion","ctype":"spell","keywords":"Lunalight Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"87931906","code":"48","tcg":183165,"grp":2365,"idx":48},
+    {"id":"049","section":"main","num":"049","printed":"LED4-EN049","name":"Lunalight Serenade Dance","ctype":"trap","keywords":"Lunalight Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"SR","img":"13935001","code":"49","tcg":183166,"grp":2365,"idx":49},
+    {"id":"050","section":"main","num":"050","printed":"LED4-EN050","name":"Lunalight Blue Cat","ctype":"monster","keywords":"Lunalight Beast-Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Beast-Warrior / Effect","atk":1600,"def":1200},"rarity":"C","img":"11439455","code":"50","tcg":183167,"grp":2365,"idx":50},
+    {"id":"051","section":"main","num":"051","printed":"LED4-EN051","name":"Lunalight Kaleido Chick","ctype":"monster","keywords":"Lunalight Beast-Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Beast-Warrior / Effect","atk":1400,"def":800},"rarity":"C","img":"35618217","code":"51","tcg":183168,"grp":2365,"idx":51},
+    {"id":"052","section":"main","num":"052","printed":"LED4-EN052","name":"Lunalight Cat Dancer","ctype":"monster","keywords":"Lunalight Beast-Warrior DARK Fusion Monster","stats":{"a":"DARK","l":"Level 7","t":"Beast-Warrior / Fusion","atk":2400,"def":2000},"rarity":"C","img":"51777272","code":"52","tcg":183169,"grp":2365,"idx":52},
+    {"id":"053","section":"main","num":"053","printed":"LED4-EN053","name":"Lunalight Panther Dancer","ctype":"monster","keywords":"Lunalight Beast-Warrior DARK Fusion Monster","stats":{"a":"DARK","l":"Level 8","t":"Beast-Warrior / Fusion","atk":2800,"def":2500},"rarity":"C","img":"97165977","code":"53","tcg":183170,"grp":2365,"idx":53},
+    {"id":"054","section":"main","num":"054","printed":"LED4-EN054","name":"Lunalight Leo Dancer","ctype":"monster","keywords":"Lunalight Beast-Warrior DARK Fusion Monster","stats":{"a":"DARK","l":"Level 10","t":"Beast-Warrior / Fusion","atk":3500,"def":3000},"rarity":"C","img":"24550676","code":"54","tcg":183171,"grp":2365,"idx":54},
+    {"id":"055","section":"main","num":"055","printed":"LED4-EN055","name":"Luna Light Perfume","ctype":"spell","keywords":"Lunalight Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"48444114","code":"55","tcg":183172,"grp":2365,"idx":55}
+  ]
+}

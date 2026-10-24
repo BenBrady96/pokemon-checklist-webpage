@@ -1,0 +1,104 @@
+{
+  "id": "yugioh/structure-deck-seto-kaiba",
+  "game": "yugioh",
+  "slug": "structure-deck-seto-kaiba",
+  "name": "Structure Deck: Seto Kaiba",
+  "series": "ARC-V",
+  "kind": "deck",
+  "code": "SDKS",
+  "syncKey": "YSDKS",
+  "released": "2016-10-20",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "SDKS-EN001–SDKS-EN044",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from SDKS-EN001 to SDKS-EN044."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Structure Deck: Seto Kaiba Checklist · All 44 Cards",
+    "description": "Free Yu-Gi-Oh! Structure Deck: Seto Kaiba checklist with no ads, no sign-up and no tracking. Track all 44 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Structure Deck: Seto Kaiba Checklist",
+    "ogDescription": "Track all 44 cards in Yu-Gi-Oh! Structure Deck: Seto Kaiba. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 44 cards in Yu-Gi-Oh! Structure Deck: Seto Kaiba. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Structure Deck: Seto Kaiba",
+    "paragraphs": [
+      "Structure Deck: Seto Kaiba is a Yu-Gi-Oh! TCG deck released on 20 October 2016, in the ARC-V era. It has 44 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Structure Deck: Seto Kaiba"
+    ],
+    "tcgplayer": [
+      1845
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"SDKS-EN001","name":"A-Assault Core","ctype":"monster","keywords":"ABC Machine LIGHT Union Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Machine / Union / Effect","atk":1900,"def":200},"rarity":"SR","img":"30012506","code":"1","tcg":123754,"grp":1845,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"SDKS-EN002","name":"B-Buster Drake","ctype":"monster","keywords":"ABC Machine LIGHT Union Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Machine / Union / Effect","atk":1500,"def":1800},"rarity":"SR","img":"77411244","code":"2","tcg":123755,"grp":1845,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"SDKS-EN003","name":"C-Crush Wyvern","ctype":"monster","keywords":"ABC Machine LIGHT Union Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Machine / Union / Effect","atk":1200,"def":2000},"rarity":"SR","img":"3405259","code":"3","tcg":123756,"grp":1845,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"SDKS-EN004","name":"Heavy Mech Support Armor","ctype":"monster","keywords":"Machine LIGHT Union Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Machine / Union / Effect","atk":500,"def":500},"rarity":"C","img":"39890958","code":"4","tcg":123757,"grp":1845,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"SDKS-EN005","name":"X-Head Cannon","ctype":"monster","keywords":"ABC Machine LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Machine / Normal","atk":1800,"def":1500},"rarity":"C","img":"62651957","code":"5","tcg":123758,"grp":1845,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"SDKS-EN006","name":"Y-Dragon Head","ctype":"monster","keywords":"ABC Machine LIGHT Union Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Machine / Union / Effect","atk":1500,"def":1600},"rarity":"C","img":"65622692","code":"6","tcg":123759,"grp":1845,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"SDKS-EN007","name":"Z-Metal Tank","ctype":"monster","keywords":"ABC Machine LIGHT Union Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Machine / Union / Effect","atk":1500,"def":1300},"rarity":"C","img":"64500000","code":"7","tcg":123760,"grp":1845,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"SDKS-EN008","name":"Heavy Mech Support Platform","ctype":"monster","keywords":"Machine DARK Union Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Machine / Union / Effect","atk":500,"def":500},"rarity":"C","img":"23265594","code":"8","tcg":123761,"grp":1845,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"SDKS-EN009","name":"Blue-Eyes White Dragon","ctype":"monster","keywords":"Blue-Eyes Dragon LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Normal","atk":3000,"def":2500},"rarity":"C","img":"89631142","code":"9","tcg":123762,"grp":1845,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"SDKS-EN010","name":"Kaiser Glider","ctype":"monster","keywords":"Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Dragon / Effect","atk":2400,"def":2200},"rarity":"C","img":"52824910","code":"10","tcg":123763,"grp":1845,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"SDKS-EN011","name":"Lord of D.","ctype":"monster","keywords":"Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Effect","atk":1200,"def":1100},"rarity":"C","img":"17985575","code":"11","tcg":123764,"grp":1845,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"SDKS-EN012","name":"Vampire Lord","ctype":"monster","keywords":"Vampire Zombie DARK Effect Monster","stats":{"a":"DARK","l":"Level 5","t":"Zombie / Effect","atk":2000,"def":1500},"rarity":"C","img":"53839837","code":"12","tcg":123765,"grp":1845,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"SDKS-EN013","name":"Enraged Battle Ox","ctype":"monster","keywords":"Beast-Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Beast-Warrior / Effect","atk":1700,"def":1000},"rarity":"C","img":"76909279","code":"13","tcg":123766,"grp":1845,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"SDKS-EN014","name":"Des Feral Imp","ctype":"monster","keywords":"Reptile DARK Flip Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Reptile / Flip / Effect","atk":1600,"def":1800},"rarity":"C","img":"81985784","code":"14","tcg":123767,"grp":1845,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"SDKS-EN015","name":"Peten the Dark Clown","ctype":"monster","keywords":"Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Spellcaster / Effect","atk":500,"def":1200},"rarity":"C","img":"52624755","code":"15","tcg":123768,"grp":1845,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"SDKS-EN016","name":"Interplanetarypurplythorny Dragon","ctype":"monster","keywords":"Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 5","t":"Dragon / Effect","atk":2200,"def":1100},"rarity":"C","img":"25206027","code":"16","tcg":123769,"grp":1845,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"SDKS-EN017","name":"Blizzard Dragon","ctype":"monster","keywords":"Dragon WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Dragon / Effect","atk":1800,"def":1000},"rarity":"C","img":"61802346","code":"17","tcg":123770,"grp":1845,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"SDKS-EN018","name":"Keeper of the Shrine","ctype":"monster","keywords":"Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Dragon / Effect","atk":0,"def":2100},"rarity":"C","img":"66752837","code":"18","tcg":123771,"grp":1845,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"SDKS-EN019","name":"Luster Dragon","ctype":"monster","keywords":"Dragon WIND Normal Monster","stats":{"a":"WIND","l":"Level 4","t":"Dragon / Normal","atk":1900,"def":1600},"rarity":"C","img":"11091375","code":"19","tcg":123772,"grp":1845,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"SDKS-EN020","name":"Union Hangar","ctype":"spell","keywords":"Field Spell","stats":{"t":"Field Spell"},"rarity":"C","img":"66399653","code":"20","tcg":123773,"grp":1845,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"SDKS-EN021","name":"Majesty with Eyes of Blue","ctype":"spell","keywords":"Blue-Eyes Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"2783661","code":"21","tcg":123774,"grp":1845,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"SDKS-EN022","name":"Burst Stream of Destruction","ctype":"spell","keywords":"Blue-Eyes Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"17655904","code":"22","tcg":123775,"grp":1845,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"SDKS-EN023","name":"The Flute of Summoning Dragon","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"43973174","code":"23","tcg":123776,"grp":1845,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"SDKS-EN024","name":"Silent Doom","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"42534368","code":"24","tcg":123777,"grp":1845,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"SDKS-EN025","name":"Shrink","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"55713623","code":"25","tcg":123778,"grp":1845,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"SDKS-EN026","name":"Enemy Controller","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"98045062","code":"26","tcg":123779,"grp":1845,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"SDKS-EN027","name":"Megamorph","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"22046459","code":"27","tcg":123780,"grp":1845,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"SDKS-EN028","name":"Limiter Removal","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"23171610","code":"28","tcg":123781,"grp":1845,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"SDKS-EN029","name":"Frontline Base","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"46181000","code":"29","tcg":123782,"grp":1845,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"SDKS-EN030","name":"Union Scramble","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"39778366","code":"30","tcg":123783,"grp":1845,"idx":29},
+    {"id":"031","section":"main","num":"031","printed":"SDKS-EN031","name":"Crush Card Virus","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"57728570","code":"31","tcg":123784,"grp":1845,"idx":30},
+    {"id":"032","section":"main","num":"032","printed":"SDKS-EN032","name":"Negate Attack","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"C","img":"14315573","code":"32","tcg":123785,"grp":1845,"idx":31},
+    {"id":"033","section":"main","num":"033","printed":"SDKS-EN033","name":"Ring of Destruction","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"83555667","code":"33","tcg":123786,"grp":1845,"idx":32},
+    {"id":"034","section":"main","num":"034","printed":"SDKS-EN034","name":"Interdimensional Matter Transporter","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"36261276","code":"34","tcg":123787,"grp":1845,"idx":33},
+    {"id":"035","section":"main","num":"035","printed":"SDKS-EN035","name":"Cloning","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"86871614","code":"35","tcg":123788,"grp":1845,"idx":34},
+    {"id":"036","section":"main","num":"036","printed":"SDKS-EN036","name":"Final Attack Orders","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"52503575","code":"36","tcg":123789,"grp":1845,"idx":35},
+    {"id":"037","section":"main","num":"037","printed":"SDKS-EN037","name":"Call of the Haunted","ctype":"trap","keywords":"Call of the Haunted Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"97077563","code":"37","tcg":123790,"grp":1845,"idx":36},
+    {"id":"038","section":"main","num":"038","printed":"SDKS-EN038","name":"Roll Out!","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"91597389","code":"38","tcg":123791,"grp":1845,"idx":37},
+    {"id":"039","section":"main","num":"039","printed":"SDKS-EN039","name":"Fiendish Chain","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"50078509","code":"39","tcg":123792,"grp":1845,"idx":38},
+    {"id":"040","section":"main","num":"040","printed":"SDKS-EN040","name":"A-to-Z-Dragon Buster Cannon","ctype":"monster","keywords":"ABC Machine LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 10","t":"Machine / Fusion","atk":4000,"def":4000},"rarity":"UR","img":"65172015","code":"40","tcg":123793,"grp":1845,"idx":39},
+    {"id":"041","section":"main","num":"041","printed":"SDKS-EN041","name":"ABC-Dragon Buster","ctype":"monster","keywords":"ABC Machine LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Machine / Fusion","atk":3000,"def":2800},"rarity":"UR","img":"1561110","code":"41","tcg":123794,"grp":1845,"idx":40},
+    {"id":"042","section":"main","num":"042","printed":"SDKS-EN042","name":"XYZ-Dragon Cannon","ctype":"monster","keywords":"ABC Machine LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Machine / Fusion","atk":2800,"def":2600},"rarity":"C","img":"91998120","code":"42","tcg":123795,"grp":1845,"idx":41},
+    {"id":"043","section":"main","num":"043","printed":"SDKS-EN043","name":"XY-Dragon Cannon","ctype":"monster","keywords":"ABC Machine LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Machine / Fusion","atk":2200,"def":1900},"rarity":"C","img":"2111707","code":"43","tcg":123796,"grp":1845,"idx":42},
+    {"id":"044","section":"main","num":"044","printed":"SDKS-EN044","name":"XZ-Tank Cannon","ctype":"monster","keywords":"ABC Machine LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Machine / Fusion","atk":2400,"def":2100},"rarity":"C","img":"99724761","code":"44","tcg":123797,"grp":1845,"idx":43}
+  ]
+}

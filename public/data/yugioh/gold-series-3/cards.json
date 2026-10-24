@@ -1,0 +1,110 @@
+{
+  "id": "yugioh/gold-series-3",
+  "game": "yugioh",
+  "slug": "gold-series-3",
+  "name": "Gold Series 3",
+  "series": "5D’s",
+  "kind": "set",
+  "code": "GLD3",
+  "syncKey": "YGLD3",
+  "released": "2010-06-18",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Main Set",
+      "range": "GLD3-EN001–GLD3-EN050",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from GLD3-EN001 to GLD3-EN050."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Gold Series 3 Checklist · All 50 Cards",
+    "description": "Free Yu-Gi-Oh! Gold Series 3 checklist with no ads, no sign-up and no tracking. Track all 50 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Gold Series 3 Checklist",
+    "ogDescription": "Track all 50 cards in Yu-Gi-Oh! Gold Series 3. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 50 cards in Yu-Gi-Oh! Gold Series 3. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About the Gold Series 3 set",
+    "paragraphs": [
+      "Gold Series 3 is a Yu-Gi-Oh! TCG special set released on 18 June 2010, in the 5D’s era. It has 50 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Gold Series 3"
+    ],
+    "tcgplayer": [
+      216
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"GLD3-EN001","name":"Mist Valley Watcher","ctype":"monster","keywords":"Mist Valley Spellcaster WIND Normal Monster","stats":{"a":"WIND","l":"Level 4","t":"Spellcaster / Normal","atk":1500,"def":1900},"rarity":"C","img":"29054481","code":"1","tcg":35456,"grp":216,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"GLD3-EN002","name":"Vice Dragon","ctype":"monster","keywords":"Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 5","t":"Dragon / Effect","atk":2000,"def":2400},"rarity":"GUR","img":"54343893","code":"2","tcg":35457,"grp":216,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"GLD3-EN003","name":"Amazoness Archer","ctype":"monster","keywords":"Amazoness Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Effect","atk":1400,"def":1000},"rarity":"C","img":"91869203","code":"3","tcg":35458,"grp":216,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"GLD3-EN004","name":"Amazoness Paladin","ctype":"monster","keywords":"Amazoness Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Effect","atk":1700,"def":300},"rarity":"C","img":"47480070","code":"4","tcg":35459,"grp":216,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"GLD3-EN005","name":"Amazoness Fighter","ctype":"monster","keywords":"Amazoness Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Effect","atk":1500,"def":1300},"rarity":"C","img":"55821894","code":"5","tcg":35460,"grp":216,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"GLD3-EN006","name":"Amazoness Swords Woman","ctype":"monster","keywords":"Amazoness Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Effect","atk":1500,"def":1600},"rarity":"C","img":"94004268","code":"6","tcg":35461,"grp":216,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"GLD3-EN007","name":"Amazoness Blowpiper","ctype":"monster","keywords":"Amazoness Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Warrior / Effect","atk":800,"def":1500},"rarity":"C","img":"73574678","code":"7","tcg":35462,"grp":216,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"GLD3-EN008","name":"Amazoness Tiger","ctype":"monster","keywords":"Amazoness Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Beast / Effect","atk":1100,"def":1500},"rarity":"C","img":"10979723","code":"8","tcg":35463,"grp":216,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"GLD3-EN009","name":"Destiny HERO - Malicious","ctype":"monster","keywords":"Destiny HERO Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Warrior / Effect","atk":800,"def":800},"rarity":"C","img":"9411399","code":"9","tcg":35464,"grp":216,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"GLD3-EN010","name":"Freya, Spirit of Victory","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Fairy / Effect","atk":100,"def":100},"rarity":"C","img":"12398280","code":"10","tcg":35465,"grp":216,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"GLD3-EN011","name":"Nova Summoner","ctype":"monster","keywords":"Parshath Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fairy / Effect","atk":1400,"def":800},"rarity":"C","img":"48783998","code":"11","tcg":35466,"grp":216,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"GLD3-EN012","name":"Exploder Dragon","ctype":"monster","keywords":"Dragon EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Dragon / Effect","atk":1000,"def":0},"rarity":"GUR","img":"20586572","code":"12","tcg":35467,"grp":216,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"GLD3-EN013","name":"Goblin Zombie","ctype":"monster","keywords":"Zombie DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Zombie / Effect","atk":1100,"def":1050},"rarity":"C","img":"63665875","code":"13","tcg":35468,"grp":216,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"GLD3-EN014","name":"Elemental HERO Prisma","ctype":"monster","keywords":"Elemental HERO Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Effect","atk":1700,"def":1100},"rarity":"GUR","img":"89312388","code":"14","tcg":35469,"grp":216,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"GLD3-EN015","name":"Dimensional Alchemist","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fairy / Effect","atk":1300,"def":200},"rarity":"GUR","img":"36733451","code":"15","tcg":35470,"grp":216,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"GLD3-EN016","name":"Judgment Dragon","ctype":"monster","keywords":"Lightsworn Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Effect","atk":3000,"def":2600},"rarity":"GUR","img":"57774843","code":"16","tcg":35471,"grp":216,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"GLD3-EN017","name":"Amazoness Chain Master","ctype":"monster","keywords":"Amazoness Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Effect","atk":1500,"def":1300},"rarity":"C","img":"29654737","code":"17","tcg":35472,"grp":216,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"GLD3-EN018","name":"Mezuki","ctype":"monster","keywords":"Zombie EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Zombie / Effect","atk":1700,"def":800},"rarity":"GUR","img":"92826944","code":"18","tcg":35473,"grp":216,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"GLD3-EN019","name":"Plaguespreader Zombie","ctype":"monster","keywords":"Zombie DARK Tuner Monster","stats":{"a":"DARK","l":"Level 2","t":"Zombie / Tuner","atk":400,"def":200},"rarity":"GUR","img":"33420078","code":"19","tcg":35474,"grp":216,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"GLD3-EN020","name":"Thunder King Rai-Oh","ctype":"monster","keywords":"Thunder LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Thunder / Effect","atk":1900,"def":800},"rarity":"GUR","img":"71564252","code":"20","tcg":35475,"grp":216,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"GLD3-EN021","name":"Blackwing - Gale the Whirlwind","ctype":"monster","keywords":"Blackwing Winged Beast DARK Tuner Monster","stats":{"a":"DARK","l":"Level 3","t":"Winged Beast / Tuner","atk":1300,"def":400},"rarity":"GUR","img":"2009101","code":"21","tcg":35476,"grp":216,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"GLD3-EN022","name":"Blackwing - Bora the Spear","ctype":"monster","keywords":"Blackwing Winged Beast DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Winged Beast / Effect","atk":1700,"def":800},"rarity":"C","img":"49003716","code":"22","tcg":35477,"grp":216,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"GLD3-EN023","name":"Blackwing - Sirocco the Dawn","ctype":"monster","keywords":"Blackwing Winged Beast DARK Effect Monster","stats":{"a":"DARK","l":"Level 5","t":"Winged Beast / Effect","atk":2000,"def":900},"rarity":"C","img":"75498415","code":"23","tcg":35478,"grp":216,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"GLD3-EN024","name":"Blackwing - Blizzard the Far North","ctype":"monster","keywords":"Blackwing Winged Beast DARK Tuner Monster","stats":{"a":"DARK","l":"Level 2","t":"Winged Beast / Tuner","atk":1300,"def":0},"rarity":"C","img":"22835145","code":"24","tcg":35479,"grp":216,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"GLD3-EN025","name":"Blackwing - Shura the Blue Flame","ctype":"monster","keywords":"Blackwing Winged Beast DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Winged Beast / Effect","atk":1800,"def":1200},"rarity":"C","img":"58820853","code":"25","tcg":35480,"grp":216,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"GLD3-EN026","name":"Blackwing - Kalut the Moon Shadow","ctype":"monster","keywords":"Blackwing Winged Beast DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Winged Beast / Effect","atk":1400,"def":1000},"rarity":"C","img":"85215458","code":"26","tcg":35481,"grp":216,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"GLD3-EN027","name":"Infernity Archfiend","ctype":"monster","keywords":"Archfiend Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Effect","atk":1800,"def":1200},"rarity":"GUR","img":"99177923","code":"27","tcg":35482,"grp":216,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"GLD3-EN028","name":"Infernity Dwarf","ctype":"monster","keywords":"Infernity Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 2","t":"Warrior / Effect","atk":800,"def":500},"rarity":"C","img":"25171661","code":"28","tcg":35483,"grp":216,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"GLD3-EN029","name":"Infernity Guardian","ctype":"monster","keywords":"Infernity Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Effect","atk":1200,"def":1700},"rarity":"C","img":"51566770","code":"29","tcg":35484,"grp":216,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"GLD3-EN030","name":"Reese the Ice Mistress","ctype":"monster","keywords":"Sea Serpent WATER Tuner Monster","stats":{"a":"WATER","l":"Level 2","t":"Sea Serpent / Tuner","atk":800,"def":800},"rarity":"C","img":"30276969","code":"30","tcg":35485,"grp":216,"idx":29},
+    {"id":"031","section":"main","num":"031","printed":"GLD3-EN031","name":"Numbing Grub in the Ice Barrier","ctype":"monster","keywords":"Ice Barrier Insect WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Insect / Effect","atk":1300,"def":1800},"rarity":"C","img":"92065772","code":"31","tcg":35486,"grp":216,"idx":30},
+    {"id":"032","section":"main","num":"032","printed":"GLD3-EN032","name":"Mist Condor","ctype":"monster","keywords":"Mist Valley Winged Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Winged Beast / Effect","atk":1400,"def":400},"rarity":"C","img":"65549080","code":"32","tcg":35487,"grp":216,"idx":31},
+    {"id":"033","section":"main","num":"033","printed":"GLD3-EN033","name":"Mist Valley Windmaster","ctype":"monster","keywords":"Mist Valley Winged Beast WIND Tuner Monster","stats":{"a":"WIND","l":"Level 2","t":"Winged Beast / Tuner","atk":400,"def":800},"rarity":"C","img":"92933195","code":"33","tcg":35488,"grp":216,"idx":32},
+    {"id":"034","section":"main","num":"034","printed":"GLD3-EN034","name":"Worm Falco","ctype":"monster","keywords":"Worm Reptile LIGHT Flip Effect Monster","stats":{"a":"LIGHT","l":"Level 2","t":"Reptile / Flip / Effect","atk":500,"def":800},"rarity":"C","img":"58760121","code":"34","tcg":35489,"grp":216,"idx":33},
+    {"id":"035","section":"main","num":"035","printed":"GLD3-EN035","name":"Worm Gulse","ctype":"monster","keywords":"Worm Reptile LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Reptile / Effect","atk":1500,"def":300},"rarity":"C","img":"85754829","code":"35","tcg":35490,"grp":216,"idx":34},
+    {"id":"036","section":"main","num":"036","printed":"GLD3-EN036","name":"Worm Hope","ctype":"monster","keywords":"Worm Reptile LIGHT Flip Effect Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Reptile / Flip / Effect","atk":800,"def":1500},"rarity":"C","img":"11159464","code":"36","tcg":35491,"grp":216,"idx":35},
+    {"id":"037","section":"main","num":"037","printed":"GLD3-EN037","name":"Stardust Dragon","ctype":"monster","keywords":"Stardust Dragon WIND Synchro Monster","stats":{"a":"WIND","l":"Level 8","t":"Dragon / Synchro","atk":2500,"def":2000},"rarity":"GUR","img":"44508094","code":"37","tcg":35492,"grp":216,"idx":36},
+    {"id":"038","section":"main","num":"038","printed":"GLD3-EN038","name":"Blackwing Armor Master","ctype":"monster","keywords":"Blackwing Winged Beast DARK Synchro Monster","stats":{"a":"DARK","l":"Level 7","t":"Winged Beast / Synchro","atk":2500,"def":1500},"rarity":"GUR","img":"69031175","code":"38","tcg":35493,"grp":216,"idx":37},
+    {"id":"039","section":"main","num":"039","printed":"GLD3-EN039","name":"Blackwing Armed Wing","ctype":"monster","keywords":"Blackwing Winged Beast DARK Synchro Monster","stats":{"a":"DARK","l":"Level 6","t":"Winged Beast / Synchro","atk":2300,"def":1000},"rarity":"GUR","img":"76913983","code":"39","tcg":35494,"grp":216,"idx":38},
+    {"id":"040","section":"main","num":"040","printed":"GLD3-EN040","name":"Mystical Space Typhoon","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"GUR","img":"5318639","code":"40","tcg":35495,"grp":216,"idx":39},
+    {"id":"041","section":"main","num":"041","printed":"GLD3-EN041","name":"My Body as a Shield","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"GUR","img":"69279219","code":"41","tcg":35496,"grp":216,"idx":40},
+    {"id":"042","section":"main","num":"042","printed":"GLD3-EN042","name":"Smashing Ground","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"GUR","img":"97169186","code":"42","tcg":35497,"grp":216,"idx":41},
+    {"id":"043","section":"main","num":"043","printed":"GLD3-EN043","name":"Enemy Controller","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"GUR","img":"98045062","code":"43","tcg":35498,"grp":216,"idx":42},
+    {"id":"044","section":"main","num":"044","printed":"GLD3-EN044","name":"Destiny Draw","ctype":"spell","keywords":"Destiny HERO Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"45809008","code":"44","tcg":35499,"grp":216,"idx":43},
+    {"id":"045","section":"main","num":"045","printed":"GLD3-EN045","name":"Black Whirlwind","ctype":"spell","keywords":"Blackwing Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"91351370","code":"45","tcg":35500,"grp":216,"idx":44},
+    {"id":"046","section":"main","num":"046","printed":"GLD3-EN046","name":"Amazoness Archers","ctype":"trap","keywords":"Amazoness Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"67987611","code":"46","tcg":35501,"grp":216,"idx":45},
+    {"id":"047","section":"main","num":"047","printed":"GLD3-EN047","name":"Dramatic Rescue","ctype":"trap","keywords":"Amazoness Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"80193356","code":"47","tcg":35502,"grp":216,"idx":46},
+    {"id":"048","section":"main","num":"048","printed":"GLD3-EN048","name":"Magical Arm Shield","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"96008713","code":"48","tcg":35503,"grp":216,"idx":47},
+    {"id":"049","section":"main","num":"049","printed":"GLD3-EN049","name":"Icarus Attack","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"GUR","img":"53567095","code":"49","tcg":35504,"grp":216,"idx":48},
+    {"id":"050","section":"main","num":"050","printed":"GLD3-EN050","name":"Aegis of Gaia","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"47060347","code":"50","tcg":35505,"grp":216,"idx":49}
+  ]
+}

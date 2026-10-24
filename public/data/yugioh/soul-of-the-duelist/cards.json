@@ -1,0 +1,169 @@
+{
+  "id": "yugioh/soul-of-the-duelist",
+  "game": "yugioh",
+  "slug": "soul-of-the-duelist",
+  "name": "Soul of the Duelist",
+  "series": "Duel Monsters",
+  "kind": "expansion",
+  "code": "SOD",
+  "syncKey": "YSOD",
+  "released": "2004-10-01",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Main Set",
+      "range": "SOD-EN001–SOD-EN060",
+      "tier": "standard"
+    },
+    {
+      "id": "rarities",
+      "name": "Other Rarities",
+      "short": "Other Rarities",
+      "range": "37 cards",
+      "tier": "master"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Main set"
+    ],
+    [
+      "rarities",
+      "Other rarities"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, SCR12, 60x2",
+    "example": "1-20, 45x2, SCR12",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies. Other rarities use their short name and number: <b>SCR12</b> is card 12’s Secret Rare, and ranges work too (<b>QCSR1-QCSR20</b>).",
+    "empty": "Cards run from SOD-EN001 to SOD-EN060."
+  },
+  "help": {
+    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 60 cards, each in its main rarity. Master adds the 37 other rarities. Cards you’ve marked are kept when you switch."
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Soul of the Duelist Checklist · All 60 Cards",
+    "description": "Free Yu-Gi-Oh! Soul of the Duelist checklist with no ads, no sign-up and no tracking. Track all 60 cards, or every rarity for a master set, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Soul of the Duelist Checklist",
+    "ogDescription": "Track all 60 cards in Yu-Gi-Oh! Soul of the Duelist, plus 37 other rarities. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 60 cards in Yu-Gi-Oh! Soul of the Duelist. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About the Soul of the Duelist set",
+    "paragraphs": [
+      "Soul of the Duelist is a Yu-Gi-Oh! TCG booster set released on 1 October 2004, in the Duel Monsters era. It has 60 cards, and with the 37 other rarities there are 97 to collect in all.",
+      "Choose what you’re collecting: the <b>Standard set</b> (the 60 cards, each in its main rarity) or the <b>Master set</b> (all 97, adding the 37 other rarities).",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Soul of the Duelist"
+    ],
+    "tcgplayer": [
+      285
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"SOD-EN001","name":"Charcoal Inpachi","ctype":"monster","keywords":"Pyro FIRE Normal Monster","stats":{"a":"FIRE","l":"Level 1","t":"Pyro / Normal","atk":100,"def":2100},"rarity":"R","img":"13179332","code":"1","tcg":23346,"grp":285,"idx":0},
+    {"id":"001-utr","section":"rarities","num":"001","printed":"SOD-EN001","name":"Charcoal Inpachi","ctype":"monster","keywords":"Pyro FIRE Normal Monster","stats":{"a":"FIRE","l":"Level 1","t":"Pyro / Normal","atk":100,"def":2100},"rarity":"UtR","img":"13179332","badge":"UtR","variant":"Ultimate Rare","code":"UTR1","tcg":58812,"grp":285,"idx":1},
+    {"id":"002","section":"main","num":"002","printed":"SOD-EN002","name":"Neo Aqua Madoor","ctype":"monster","keywords":"Madoor Spellcaster WATER Normal Monster","stats":{"a":"WATER","l":"Level 6","t":"Spellcaster / Normal","atk":1200,"def":3000},"rarity":"C","img":"49563947","code":"2","tcg":23347,"grp":285,"idx":2},
+    {"id":"003","section":"main","num":"003","printed":"SOD-EN003","name":"Skull Dog Marron","ctype":"monster","keywords":"Beast EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 4","t":"Beast / Normal","atk":1350,"def":2000},"rarity":"C","img":"86652646","code":"3","tcg":23348,"grp":285,"idx":3},
+    {"id":"004","section":"main","num":"004","printed":"SOD-EN004","name":"Goblin Calligrapher","ctype":"monster","keywords":"Fiend DARK Normal Monster","stats":{"a":"DARK","l":"Level 1","t":"Fiend / Normal","atk":400,"def":400},"rarity":"C","img":"12057781","code":"4","tcg":23349,"grp":285,"idx":4},
+    {"id":"005","section":"main","num":"005","printed":"SOD-EN005","name":"Ultimate Insect LV1","ctype":"monster","keywords":"Insect WIND Effect Monster","stats":{"a":"WIND","l":"Level 1","t":"Insect / Effect","atk":0,"def":0},"rarity":"R","img":"49441499","code":"5","tcg":23350,"grp":285,"idx":5},
+    {"id":"005-utr","section":"rarities","num":"005","printed":"SOD-EN005","name":"Ultimate Insect LV1","ctype":"monster","keywords":"Insect WIND Effect Monster","stats":{"a":"WIND","l":"Level 1","t":"Insect / Effect","atk":0,"def":0},"rarity":"UtR","img":"49441499","badge":"UtR","variant":"Ultimate Rare","code":"UTR5","tcg":58813,"grp":285,"idx":6},
+    {"id":"006","section":"main","num":"006","printed":"SOD-EN006","name":"Horus the Black Flame Dragon LV4","ctype":"monster","keywords":"Horus the Black Flame Dragon Dragon FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Dragon / Effect","atk":1600,"def":1000},"rarity":"R","img":"75830094","code":"6","tcg":23351,"grp":285,"idx":7},
+    {"id":"006-utr","section":"rarities","num":"006","printed":"SOD-EN006","name":"Horus the Black Flame Dragon LV4","ctype":"monster","keywords":"Horus the Black Flame Dragon Dragon FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Dragon / Effect","atk":1600,"def":1000},"rarity":"UtR","img":"75830094","badge":"UtR","variant":"Ultimate Rare","code":"UTR6","tcg":58814,"grp":285,"idx":8},
+    {"id":"007","section":"main","num":"007","printed":"SOD-EN007","name":"Horus the Black Flame Dragon LV6","ctype":"monster","keywords":"Horus the Black Flame Dragon Dragon FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 6","t":"Dragon / Effect","atk":2300,"def":1600},"rarity":"SR","img":"11224103","code":"7","tcg":23352,"grp":285,"idx":9},
+    {"id":"007-utr","section":"rarities","num":"007","printed":"SOD-EN007","name":"Horus the Black Flame Dragon LV6","ctype":"monster","keywords":"Horus the Black Flame Dragon Dragon FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 6","t":"Dragon / Effect","atk":2300,"def":1600},"rarity":"UtR","img":"11224103","badge":"UtR","variant":"Ultimate Rare","code":"UTR7","tcg":58815,"grp":285,"idx":10},
+    {"id":"008","section":"main","num":"008","printed":"SOD-EN008","name":"Horus the Black Flame Dragon LV8","ctype":"monster","keywords":"Horus the Black Flame Dragon Dragon FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 8","t":"Dragon / Effect","atk":3000,"def":1800},"rarity":"UR","img":"48229808","code":"8","tcg":23353,"grp":285,"idx":11},
+    {"id":"008-utr","section":"rarities","num":"008","printed":"SOD-EN008","name":"Horus the Black Flame Dragon LV8","ctype":"monster","keywords":"Horus the Black Flame Dragon Dragon FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 8","t":"Dragon / Effect","atk":3000,"def":1800},"rarity":"UtR","img":"48229808","badge":"UtR","variant":"Ultimate Rare","code":"UTR8","tcg":58816,"grp":285,"idx":12},
+    {"id":"009","section":"main","num":"009","printed":"SOD-EN009","name":"Dark Mimic LV1","ctype":"monster","keywords":"Fiend DARK Flip Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Fiend / Flip / Effect","atk":100,"def":1000},"rarity":"C","img":"74713516","code":"9","tcg":23354,"grp":285,"idx":13},
+    {"id":"010","section":"main","num":"010","printed":"SOD-EN010","name":"Dark Mimic LV3","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Fiend / Effect","atk":1000,"def":1000},"rarity":"R","img":"1102515","code":"10","tcg":23355,"grp":285,"idx":14},
+    {"id":"010-utr","section":"rarities","num":"010","printed":"SOD-EN010","name":"Dark Mimic LV3","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Fiend / Effect","atk":1000,"def":1000},"rarity":"UtR","img":"1102515","badge":"UtR","variant":"Ultimate Rare","code":"UTR10","tcg":58817,"grp":285,"idx":15},
+    {"id":"011","section":"main","num":"011","printed":"SOD-EN011","name":"Mystic Swordsman LV2","ctype":"monster","keywords":"Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 2","t":"Warrior / Effect","atk":900,"def":0},"rarity":"R","img":"47507260","code":"11","tcg":23356,"grp":285,"idx":16},
+    {"id":"011-utr","section":"rarities","num":"011","printed":"SOD-EN011","name":"Mystic Swordsman LV2","ctype":"monster","keywords":"Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 2","t":"Warrior / Effect","atk":900,"def":0},"rarity":"UtR","img":"47507260","badge":"UtR","variant":"Ultimate Rare","code":"UTR11","tcg":58818,"grp":285,"idx":17},
+    {"id":"012","section":"main","num":"012","printed":"SOD-EN012","name":"Mystic Swordsman LV4","ctype":"monster","keywords":"Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Effect","atk":1900,"def":1600},"rarity":"UR","img":"74591968","code":"12","tcg":23357,"grp":285,"idx":18},
+    {"id":"012-utr","section":"rarities","num":"012","printed":"SOD-EN012","name":"Mystic Swordsman LV4","ctype":"monster","keywords":"Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Effect","atk":1900,"def":1600},"rarity":"UtR","img":"74591968","badge":"UtR","variant":"Ultimate Rare","code":"UTR12","tcg":58819,"grp":285,"idx":19},
+    {"id":"013","section":"main","num":"013","printed":"SOD-EN013","name":"Armed Dragon LV3","ctype":"monster","keywords":"Armed Dragon Dragon WIND Effect Monster","stats":{"a":"WIND","l":"Level 3","t":"Dragon / Effect","atk":1200,"def":900},"rarity":"C","img":"980973","code":"13","tcg":23358,"grp":285,"idx":20},
+    {"id":"014","section":"main","num":"014","printed":"SOD-EN014","name":"Armed Dragon LV5","ctype":"monster","keywords":"Armed Dragon Dragon WIND Effect Monster","stats":{"a":"WIND","l":"Level 5","t":"Dragon / Effect","atk":2400,"def":1700},"rarity":"R","img":"46384672","code":"14","tcg":23359,"grp":285,"idx":21},
+    {"id":"014-utr","section":"rarities","num":"014","printed":"SOD-EN014","name":"Armed Dragon LV5","ctype":"monster","keywords":"Armed Dragon Dragon WIND Effect Monster","stats":{"a":"WIND","l":"Level 5","t":"Dragon / Effect","atk":2400,"def":1700},"rarity":"UtR","img":"46384672","badge":"UtR","variant":"Ultimate Rare","code":"UTR14","tcg":58820,"grp":285,"idx":22},
+    {"id":"015","section":"main","num":"015","printed":"SOD-EN015","name":"Armed Dragon LV7","ctype":"monster","keywords":"Armed Dragon Dragon WIND Effect Monster","stats":{"a":"WIND","l":"Level 7","t":"Dragon / Effect","atk":2800,"def":1000},"rarity":"UR","img":"73879377","code":"15","tcg":23360,"grp":285,"idx":23},
+    {"id":"015-utr","section":"rarities","num":"015","printed":"SOD-EN015","name":"Armed Dragon LV7","ctype":"monster","keywords":"Armed Dragon Dragon WIND Effect Monster","stats":{"a":"WIND","l":"Level 7","t":"Dragon / Effect","atk":2800,"def":1000},"rarity":"UtR","img":"73879377","badge":"UtR","variant":"Ultimate Rare","code":"UTR15","tcg":58821,"grp":285,"idx":24},
+    {"id":"016","section":"main","num":"016","printed":"SOD-EN016","name":"Horus' Servant","ctype":"monster","keywords":"Horus the Black Flame Dragon Beast-Warrior FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 1","t":"Beast-Warrior / Effect","atk":100,"def":100},"rarity":"C","img":"9264485","code":"16","tcg":23361,"grp":285,"idx":25},
+    {"id":"017","section":"main","num":"017","printed":"SOD-EN017","name":"Black Dragon's Chick","ctype":"monster","keywords":"Red-Eyes Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Dragon / Effect","atk":800,"def":500},"rarity":"C","img":"36262024","code":"17","tcg":23362,"grp":285,"idx":26},
+    {"id":"018","section":"main","num":"018","printed":"SOD-EN018","name":"Malice Doll of Demise","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Effect","atk":1600,"def":1700},"rarity":"C","img":"72657739","code":"18","tcg":23363,"grp":285,"idx":27},
+    {"id":"019","section":"main","num":"019","printed":"SOD-EN019","name":"Ninja Grandmaster Sasuke","ctype":"monster","keywords":"Ninja Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Effect","atk":1800,"def":1000},"rarity":"R","img":"4041838","code":"19","tcg":23364,"grp":285,"idx":28},
+    {"id":"019-utr","section":"rarities","num":"019","printed":"SOD-EN019","name":"Ninja Grandmaster Sasuke","ctype":"monster","keywords":"Ninja Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Effect","atk":1800,"def":1000},"rarity":"UtR","img":"4041838","badge":"UtR","variant":"Ultimate Rare","code":"UTR19","tcg":58822,"grp":285,"idx":29},
+    {"id":"020","section":"main","num":"020","printed":"SOD-EN020","name":"Rafflesia Seduction","ctype":"monster","keywords":"Plant EARTH Flip Effect Monster","stats":{"a":"EARTH","l":"Level 2","t":"Plant / Flip / Effect","atk":300,"def":900},"rarity":"R","img":"31440542","code":"20","tcg":23365,"grp":285,"idx":30},
+    {"id":"020-utr","section":"rarities","num":"020","printed":"SOD-EN020","name":"Rafflesia Seduction","ctype":"monster","keywords":"Plant EARTH Flip Effect Monster","stats":{"a":"EARTH","l":"Level 2","t":"Plant / Flip / Effect","atk":300,"def":900},"rarity":"UtR","img":"31440542","badge":"UtR","variant":"Ultimate Rare","code":"UTR20","tcg":58823,"grp":285,"idx":31},
+    {"id":"021","section":"main","num":"021","printed":"SOD-EN021","name":"Ultimate Baseball Kid","ctype":"monster","keywords":"Warrior FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 3","t":"Warrior / Effect","atk":500,"def":1000},"rarity":"C","img":"67934141","code":"21","tcg":23366,"grp":285,"idx":32},
+    {"id":"022","section":"main","num":"022","printed":"SOD-EN022","name":"Mobius the Frost Monarch","ctype":"monster","keywords":"Monarch Aqua WATER Effect Monster","stats":{"a":"WATER","l":"Level 6","t":"Aqua / Effect","atk":2400,"def":1000},"rarity":"SR","img":"4929256","code":"22","tcg":23367,"grp":285,"idx":33},
+    {"id":"022-utr","section":"rarities","num":"022","printed":"SOD-EN022","name":"Mobius the Frost Monarch","ctype":"monster","keywords":"Monarch Aqua WATER Effect Monster","stats":{"a":"WATER","l":"Level 6","t":"Aqua / Effect","atk":2400,"def":1000},"rarity":"UtR","img":"4929256","badge":"UtR","variant":"Ultimate Rare","code":"UTR22","tcg":58824,"grp":285,"idx":34},
+    {"id":"023","section":"main","num":"023","printed":"SOD-EN023","name":"Element Dragon","ctype":"monster","keywords":"Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Dragon / Effect","atk":1500,"def":1200},"rarity":"C","img":"30314994","code":"23","tcg":23368,"grp":285,"idx":35},
+    {"id":"024","section":"main","num":"024","printed":"SOD-EN024","name":"Element Soldier","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Effect","atk":1500,"def":1200},"rarity":"C","img":"66712593","code":"24","tcg":23369,"grp":285,"idx":36},
+    {"id":"025","section":"main","num":"025","printed":"SOD-EN025","name":"Howling Insect","ctype":"monster","keywords":"Insect EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Insect / Effect","atk":1200,"def":1300},"rarity":"C","img":"93107608","code":"25","tcg":23370,"grp":285,"idx":37},
+    {"id":"026","section":"main","num":"026","printed":"SOD-EN026","name":"Masked Dragon","ctype":"monster","keywords":"Dragon FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 3","t":"Dragon / Effect","atk":1400,"def":1100},"rarity":"C","img":"39191307","code":"26","tcg":23371,"grp":285,"idx":38},
+    {"id":"027","section":"main","num":"027","printed":"SOD-EN027","name":"Mind on Air","ctype":"monster","keywords":"Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Spellcaster / Effect","atk":1000,"def":1600},"rarity":"R","img":"66690411","code":"27","tcg":23372,"grp":285,"idx":39},
+    {"id":"027-utr","section":"rarities","num":"027","printed":"SOD-EN027","name":"Mind on Air","ctype":"monster","keywords":"Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Spellcaster / Effect","atk":1000,"def":1600},"rarity":"UtR","img":"66690411","badge":"UtR","variant":"Ultimate Rare","code":"UTR27","tcg":58825,"grp":285,"idx":40},
+    {"id":"028","section":"main","num":"028","printed":"SOD-EN028","name":"Unshaven Angler","ctype":"monster","keywords":"Fish WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Fish / Effect","atk":1500,"def":1600},"rarity":"C","img":"92084010","code":"28","tcg":23373,"grp":285,"idx":41},
+    {"id":"029","section":"main","num":"029","printed":"SOD-EN029","name":"The Trojan Horse","ctype":"monster","keywords":"Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Beast / Effect","atk":1600,"def":1200},"rarity":"C","img":"38479725","code":"29","tcg":23374,"grp":285,"idx":42},
+    {"id":"030","section":"main","num":"030","printed":"SOD-EN030","name":"Nobleman-Eater Bug","ctype":"monster","keywords":"Insect EARTH Flip Effect Monster","stats":{"a":"EARTH","l":"Level 5","t":"Insect / Flip / Effect","atk":900,"def":1200},"rarity":"C","img":"65878864","code":"30","tcg":23375,"grp":285,"idx":43},
+    {"id":"031","section":"main","num":"031","printed":"SOD-EN031","name":"Enraged Muka Muka","ctype":"monster","keywords":"Rock EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 5","t":"Rock / Effect","atk":1200,"def":600},"rarity":"C","img":"91862578","code":"31","tcg":23376,"grp":285,"idx":44},
+    {"id":"032","section":"main","num":"032","printed":"SOD-EN032","name":"Hade-Hane","ctype":"monster","keywords":"Beast EARTH Flip Effect Monster","stats":{"a":"EARTH","l":"Level 5","t":"Beast / Flip / Effect","atk":900,"def":1000},"rarity":"C","img":"28357177","code":"32","tcg":23377,"grp":285,"idx":45},
+    {"id":"033","section":"main","num":"033","printed":"SOD-EN033","name":"Penumbral Soldier Lady","ctype":"monster","keywords":"Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Warrior / Effect","atk":2100,"def":1400},"rarity":"SR","img":"64751286","code":"33","tcg":23378,"grp":285,"idx":46},
+    {"id":"033-utr","section":"rarities","num":"033","printed":"SOD-EN033","name":"Penumbral Soldier Lady","ctype":"monster","keywords":"Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Warrior / Effect","atk":2100,"def":1400},"rarity":"UtR","img":"64751286","badge":"UtR","variant":"Ultimate Rare","code":"UTR33","tcg":58826,"grp":285,"idx":47},
+    {"id":"034","section":"main","num":"034","printed":"SOD-EN034","name":"Ojama King","ctype":"monster","keywords":"Ojama Beast LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Beast / Fusion","atk":0,"def":3000},"rarity":"R","img":"90140980","code":"34","tcg":23379,"grp":285,"idx":48},
+    {"id":"034-utr","section":"rarities","num":"034","printed":"SOD-EN034","name":"Ojama King","ctype":"monster","keywords":"Ojama Beast LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Beast / Fusion","atk":0,"def":3000},"rarity":"UtR","img":"90140980","badge":"UtR","variant":"Ultimate Rare","code":"UTR34","tcg":58827,"grp":285,"idx":49},
+    {"id":"035","section":"main","num":"035","printed":"SOD-EN035","name":"Master of Oz","ctype":"monster","keywords":"Koala Beast EARTH Fusion Monster","stats":{"a":"EARTH","l":"Level 9","t":"Beast / Fusion","atk":4200,"def":3700},"rarity":"R","img":"27134689","code":"35","tcg":23380,"grp":285,"idx":50},
+    {"id":"035-utr","section":"rarities","num":"035","printed":"SOD-EN035","name":"Master of Oz","ctype":"monster","keywords":"Koala Beast EARTH Fusion Monster","stats":{"a":"EARTH","l":"Level 9","t":"Beast / Fusion","atk":4200,"def":3700},"rarity":"UtR","img":"27134689","badge":"UtR","variant":"Ultimate Rare","code":"UTR35","tcg":58828,"grp":285,"idx":51},
+    {"id":"036","section":"main","num":"036","printed":"SOD-EN036","name":"Sanwitch","ctype":"monster","keywords":"Spellcaster DARK Fusion Monster","stats":{"a":"DARK","l":"Level 6","t":"Spellcaster / Fusion","atk":2100,"def":1800},"rarity":"C","img":"53539634","code":"36","tcg":23381,"grp":285,"idx":52},
+    {"id":"037","section":"main","num":"037","printed":"SOD-EN037","name":"Dark Factory of Mass Production","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"90928333","code":"37","tcg":23382,"grp":285,"idx":53},
+    {"id":"038","section":"main","num":"038","printed":"SOD-EN038","name":"Hammer Shot","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"R","img":"26412047","code":"38","tcg":23383,"grp":285,"idx":54},
+    {"id":"038-utr","section":"rarities","num":"038","printed":"SOD-EN038","name":"Hammer Shot","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UtR","img":"26412047","badge":"UtR","variant":"Ultimate Rare","code":"UTR38","tcg":58829,"grp":285,"idx":55},
+    {"id":"039","section":"main","num":"039","printed":"SOD-EN039","name":"Mind Wipe","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"52817046","code":"39","tcg":23384,"grp":285,"idx":56},
+    {"id":"039-sp","section":"rarities","num":"039","printed":"SOD-EN039","name":"Mind Wipe","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"SP","img":"52817046","badge":"SP","variant":"Short Print","code":"SP39","tcg":23384,"grp":285,"idx":57},
+    {"id":"040","section":"main","num":"040","printed":"SOD-EN040","name":"Abyssal Designator","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"89801755","code":"40","tcg":23385,"grp":285,"idx":58},
+    {"id":"040-sp","section":"rarities","num":"040","printed":"SOD-EN040","name":"Abyssal Designator","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SP","img":"89801755","badge":"SP","variant":"Short Print","code":"SP40","tcg":23385,"grp":285,"idx":59},
+    {"id":"041","section":"main","num":"041","printed":"SOD-EN041","name":"Level Up!","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"25290459","code":"41","tcg":23386,"grp":285,"idx":60},
+    {"id":"042","section":"main","num":"042","printed":"SOD-EN042","name":"Inferno Fire Blast","ctype":"spell","keywords":"Red-Eyes Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UR","img":"52684508","code":"42","tcg":23387,"grp":285,"idx":61},
+    {"id":"042-utr","section":"rarities","num":"042","printed":"SOD-EN042","name":"Inferno Fire Blast","ctype":"spell","keywords":"Red-Eyes Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UtR","img":"52684508","badge":"UtR","variant":"Ultimate Rare","code":"UTR42","tcg":58830,"grp":285,"idx":62},
+    {"id":"043","section":"main","num":"043","printed":"SOD-EN043","name":"Ectoplasmer","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"SR","img":"97342942","code":"43","tcg":23388,"grp":285,"idx":63},
+    {"id":"043-utr","section":"rarities","num":"043","printed":"SOD-EN043","name":"Ectoplasmer","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"UtR","img":"97342942","badge":"UtR","variant":"Ultimate Rare","code":"UTR43","tcg":58831,"grp":285,"idx":64},
+    {"id":"044","section":"main","num":"044","printed":"SOD-EN044","name":"The Graveyard in the Fourth Dimension","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"88089103","code":"44","tcg":23389,"grp":285,"idx":65},
+    {"id":"044-sp","section":"rarities","num":"044","printed":"SOD-EN044","name":"The Graveyard in the Fourth Dimension","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SP","img":"88089103","badge":"SP","variant":"Short Print","code":"SP44","tcg":23389,"grp":285,"idx":66},
+    {"id":"045","section":"main","num":"045","printed":"SOD-EN045","name":"Two-Man Cell Battle","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"25578802","code":"45","tcg":23390,"grp":285,"idx":67},
+    {"id":"045-sp","section":"rarities","num":"045","printed":"SOD-EN045","name":"Two-Man Cell Battle","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"SP","img":"25578802","badge":"SP","variant":"Short Print","code":"SP45","tcg":23390,"grp":285,"idx":68},
+    {"id":"046","section":"main","num":"046","printed":"SOD-EN046","name":"Big Wave Small Wave","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"51562916","code":"46","tcg":23391,"grp":285,"idx":69},
+    {"id":"047","section":"main","num":"047","printed":"SOD-EN047","name":"Fusion Weapon","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"SP","img":"27967615","code":"47","tcg":23392,"grp":285,"idx":70},
+    {"id":"048","section":"main","num":"048","printed":"SOD-EN048","name":"Ritual Weapon","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"54351224","code":"48","tcg":23393,"grp":285,"idx":71},
+    {"id":"048-sp","section":"rarities","num":"048","printed":"SOD-EN048","name":"Ritual Weapon","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"SP","img":"54351224","badge":"SP","variant":"Short Print","code":"SP48","tcg":23393,"grp":285,"idx":72},
+    {"id":"049","section":"main","num":"049","printed":"SOD-EN049","name":"Taunt","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"90740330","code":"49","tcg":23394,"grp":285,"idx":73},
+    {"id":"049-sp","section":"rarities","num":"049","printed":"SOD-EN049","name":"Taunt","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SP","img":"90740330","badge":"SP","variant":"Short Print","code":"SP49","tcg":23394,"grp":285,"idx":74},
+    {"id":"050","section":"main","num":"050","printed":"SOD-EN050","name":"Absolute End","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"27744077","code":"50","tcg":23395,"grp":285,"idx":75},
+    {"id":"050-sp","section":"rarities","num":"050","printed":"SOD-EN050","name":"Absolute End","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SP","img":"27744077","badge":"SP","variant":"Short Print","code":"SP50","tcg":23395,"grp":285,"idx":76},
+    {"id":"051","section":"main","num":"051","printed":"SOD-EN051","name":"Spirit Barrier","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"R","img":"53239672","code":"51","tcg":23396,"grp":285,"idx":77},
+    {"id":"051-utr","section":"rarities","num":"051","printed":"SOD-EN051","name":"Spirit Barrier","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"UtR","img":"53239672","badge":"UtR","variant":"Ultimate Rare","code":"UTR51","tcg":58832,"grp":285,"idx":78},
+    {"id":"052","section":"main","num":"052","printed":"SOD-EN052","name":"Ninjitsu Art of Decoy","ctype":"trap","keywords":"Ninja Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"89628781","code":"52","tcg":23397,"grp":285,"idx":79},
+    {"id":"052-sp","section":"rarities","num":"052","printed":"SOD-EN052","name":"Ninjitsu Art of Decoy","ctype":"trap","keywords":"Ninja Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"SP","img":"89628781","badge":"SP","variant":"Short Print","code":"SP52","tcg":23397,"grp":285,"idx":80},
+    {"id":"053","section":"main","num":"053","printed":"SOD-EN053","name":"Enervating Mist","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"R","img":"26022485","code":"53","tcg":23398,"grp":285,"idx":81},
+    {"id":"053-utr","section":"rarities","num":"053","printed":"SOD-EN053","name":"Enervating Mist","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"UtR","img":"26022485","badge":"UtR","variant":"Ultimate Rare","code":"UTR53","tcg":58833,"grp":285,"idx":82},
+    {"id":"054","section":"main","num":"054","printed":"SOD-EN054","name":"Heavy Slump","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"52417194","code":"54","tcg":23399,"grp":285,"idx":83},
+    {"id":"054-sp","section":"rarities","num":"054","printed":"SOD-EN054","name":"Heavy Slump","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SP","img":"52417194","badge":"SP","variant":"Short Print","code":"SP54","tcg":23399,"grp":285,"idx":84},
+    {"id":"055","section":"main","num":"055","printed":"SOD-EN055","name":"Greed","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"SR","img":"89405199","code":"55","tcg":23400,"grp":285,"idx":85},
+    {"id":"055-utr","section":"rarities","num":"055","printed":"SOD-EN055","name":"Greed","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"UtR","img":"89405199","badge":"UtR","variant":"Ultimate Rare","code":"UTR55","tcg":58834,"grp":285,"idx":86},
+    {"id":"056","section":"main","num":"056","printed":"SOD-EN056","name":"Mind Crush","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"15800838","code":"56","tcg":23401,"grp":285,"idx":87},
+    {"id":"056-sp","section":"rarities","num":"056","printed":"SOD-EN056","name":"Mind Crush","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SP","img":"15800838","badge":"SP","variant":"Short Print","code":"SP56","tcg":23401,"grp":285,"idx":88},
+    {"id":"057","section":"main","num":"057","printed":"SOD-EN057","name":"Muko","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"80863132","code":"57","tcg":23402,"grp":285,"idx":89},
+    {"id":"057-utr","section":"rarities","num":"057","printed":"SOD-EN057","name":"Muko","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"UtR","img":"80863132","badge":"UtR","variant":"Ultimate Rare","code":"UTR57","tcg":58835,"grp":285,"idx":90},
+    {"id":"058","section":"main","num":"058","printed":"SOD-EN058","name":"Gorgon's Eye","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"52648457","code":"58","tcg":23403,"grp":285,"idx":91},
+    {"id":"058-sp","section":"rarities","num":"058","printed":"SOD-EN058","name":"Gorgon's Eye","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SP","img":"52648457","badge":"SP","variant":"Short Print","code":"SP58","tcg":23403,"grp":285,"idx":92},
+    {"id":"059","section":"main","num":"059","printed":"SOD-EN059","name":"Cemetary Bomb","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"51394546","code":"59","tcg":23404,"grp":285,"idx":93},
+    {"id":"059-sp","section":"rarities","num":"059","printed":"SOD-EN059","name":"Cemetary Bomb","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SP","img":"51394546","badge":"SP","variant":"Short Print","code":"SP59","tcg":23404,"grp":285,"idx":94},
+    {"id":"060","section":"main","num":"060","printed":"SOD-EN060","name":"Hallowed Life Barrier","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"88789641","code":"60","tcg":23405,"grp":285,"idx":95},
+    {"id":"060-utr","section":"rarities","num":"060","printed":"SOD-EN060","name":"Hallowed Life Barrier","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"UtR","img":"88789641","badge":"UtR","variant":"Ultimate Rare","code":"UTR60","tcg":58836,"grp":285,"idx":96}
+  ]
+}

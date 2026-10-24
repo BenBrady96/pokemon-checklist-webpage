@@ -1,0 +1,105 @@
+{
+  "id": "yugioh/structure-deck-yugi-muto",
+  "game": "yugioh",
+  "slug": "structure-deck-yugi-muto",
+  "name": "Structure Deck: Yugi Muto",
+  "series": "ARC-V",
+  "kind": "deck",
+  "code": "SDMY",
+  "syncKey": "YSDMY",
+  "released": "2016-10-20",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "SDMY-EN001–SDMY-EN045",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from SDMY-EN001 to SDMY-EN045."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Structure Deck: Yugi Muto Checklist · All 45 Cards",
+    "description": "Free Yu-Gi-Oh! Structure Deck: Yugi Muto checklist with no ads, no sign-up and no tracking. Track all 45 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Structure Deck: Yugi Muto Checklist",
+    "ogDescription": "Track all 45 cards in Yu-Gi-Oh! Structure Deck: Yugi Muto. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 45 cards in Yu-Gi-Oh! Structure Deck: Yugi Muto. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Structure Deck: Yugi Muto",
+    "paragraphs": [
+      "Structure Deck: Yugi Muto is a Yu-Gi-Oh! TCG deck released on 20 October 2016, in the ARC-V era. It has 45 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Structure Deck: Yugi Muto"
+    ],
+    "tcgplayer": [
+      1846
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"SDMY-EN001","name":"Alpha The Electromagnet Warrior","ctype":"monster","keywords":"Magnet Rock EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Rock / Effect","atk":1700,"def":1100},"rarity":"SR","img":"42023223","code":"1","tcg":123799,"grp":1846,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"SDMY-EN002","name":"Beta The Electromagnet Warrior","ctype":"monster","keywords":"Magnet Rock EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Rock / Effect","atk":1500,"def":1500},"rarity":"SR","img":"79418928","code":"2","tcg":123800,"grp":1846,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"SDMY-EN003","name":"Gamma The Electromagnet Warrior","ctype":"monster","keywords":"Magnet Rock EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Rock / Effect","atk":800,"def":2000},"rarity":"SR","img":"15502037","code":"3","tcg":123801,"grp":1846,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"SDMY-EN004","name":"Berserkion the Electromagna Warrior","ctype":"monster","keywords":"Magnet Warrior Rock EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 8","t":"Rock / Effect","atk":3000,"def":2800},"rarity":"UR","img":"42901635","code":"4","tcg":123802,"grp":1846,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"SDMY-EN005","name":"Kuribohrn","ctype":"monster","keywords":"Kuriboh Fiend LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Fiend / Effect","atk":300,"def":200},"rarity":"C","img":"78355370","code":"5","tcg":123803,"grp":1846,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"SDMY-EN006","name":"Valkyrion the Magna Warrior","ctype":"monster","keywords":"Magnet Warrior Rock EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 8","t":"Rock / Effect","atk":3500,"def":3850},"rarity":"C","img":"75347539","code":"6","tcg":123804,"grp":1846,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"SDMY-EN007","name":"Alpha The Magnet Warrior","ctype":"monster","keywords":"Magnet Warrior Rock EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 4","t":"Rock / Normal","atk":1400,"def":1700},"rarity":"C","img":"99785935","code":"7","tcg":123805,"grp":1846,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"SDMY-EN008","name":"Beta The Magnet Warrior","ctype":"monster","keywords":"Magnet Warrior Rock EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 4","t":"Rock / Normal","atk":1700,"def":1600},"rarity":"C","img":"39256679","code":"8","tcg":123806,"grp":1846,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"SDMY-EN009","name":"Gamma the Magnet Warrior","ctype":"monster","keywords":"Magnet Warrior Rock EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 4","t":"Rock / Normal","atk":1500,"def":1800},"rarity":"C","img":"11549357","code":"9","tcg":123807,"grp":1846,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"SDMY-EN010","name":"Dark Magician","ctype":"monster","keywords":"Dark Magician Spellcaster DARK Normal Monster","stats":{"a":"DARK","l":"Level 7","t":"Spellcaster / Normal","atk":2500,"def":2100},"rarity":"C","img":"46986418","code":"10","tcg":123808,"grp":1846,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"SDMY-EN011","name":"Dark Magician Girl","ctype":"monster","keywords":"Dark Magician Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Spellcaster / Effect","atk":2000,"def":1700},"rarity":"C","img":"38033121","code":"11","tcg":123809,"grp":1846,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"SDMY-EN012","name":"Buster Blader","ctype":"monster","keywords":"Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 7","t":"Warrior / Effect","atk":2600,"def":2300},"rarity":"C","img":"78193831","code":"12","tcg":123810,"grp":1846,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"SDMY-EN013","name":"Jack's Knight","ctype":"monster","keywords":"Knight Warrior LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 5","t":"Warrior / Normal","atk":1900,"def":1000},"rarity":"C","img":"90876561","code":"13","tcg":123811,"grp":1846,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"SDMY-EN014","name":"Queen's Knight","ctype":"monster","keywords":"Knight Warrior LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Normal","atk":1500,"def":1600},"rarity":"C","img":"25652259","code":"14","tcg":123812,"grp":1846,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"SDMY-EN015","name":"King's Knight","ctype":"monster","keywords":"Knight Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Effect","atk":1600,"def":1400},"rarity":"C","img":"64788463","code":"15","tcg":123813,"grp":1846,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"SDMY-EN016","name":"Berfomet","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 5","t":"Fiend / Effect","atk":1400,"def":1800},"rarity":"C","img":"77207191","code":"16","tcg":123814,"grp":1846,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"SDMY-EN017","name":"Gazelle the King of Mythical Beasts","ctype":"monster","keywords":"Beast EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 4","t":"Beast / Normal","atk":1500,"def":1200},"rarity":"C","img":"5818798","code":"17","tcg":123815,"grp":1846,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"SDMY-EN018","name":"Obnoxious Celtic Guard","ctype":"monster","keywords":"Celtic Guard Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Effect","atk":1400,"def":1200},"rarity":"C","img":"52077741","code":"18","tcg":123816,"grp":1846,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"SDMY-EN019","name":"Giant Soldier of Stone","ctype":"monster","keywords":"Rock EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 3","t":"Rock / Normal","atk":1300,"def":2000},"rarity":"C","img":"13039848","code":"19","tcg":123817,"grp":1846,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"SDMY-EN020","name":"Kuriboh","ctype":"monster","keywords":"Kuriboh Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Fiend / Effect","atk":300,"def":200},"rarity":"C","img":"40640057","code":"20","tcg":123818,"grp":1846,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"SDMY-EN021","name":"Skilled Dark Magician","ctype":"monster","keywords":"Dark Magician Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Effect","atk":1900,"def":1700},"rarity":"C","img":"73752131","code":"21","tcg":123819,"grp":1846,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"SDMY-EN022","name":"Skilled White Magician","ctype":"monster","keywords":"Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Effect","atk":1700,"def":1900},"rarity":"C","img":"46363422","code":"22","tcg":123820,"grp":1846,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"SDMY-EN023","name":"Twin-Headed Behemoth","ctype":"monster","keywords":"Dragon WIND Effect Monster","stats":{"a":"WIND","l":"Level 3","t":"Dragon / Effect","atk":1500,"def":1200},"rarity":"C","img":"43586926","code":"23","tcg":123821,"grp":1846,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"SDMY-EN024","name":"Magnetic Field","ctype":"spell","keywords":"Magnet Field Spell","stats":{"t":"Field Spell"},"rarity":"C","img":"4740489","code":"24","tcg":123822,"grp":1846,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"SDMY-EN025","name":"Dark Magic Inheritance","ctype":"spell","keywords":"Dark Magician Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"41735184","code":"25","tcg":123823,"grp":1846,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"SDMY-EN026","name":"Dark Magic Attack","ctype":"spell","keywords":"Dark Magician Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"2314238","code":"26","tcg":123824,"grp":1846,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"SDMY-EN027","name":"Dark Magic Curtain","ctype":"spell","keywords":"Dark Magician Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"99789342","code":"27","tcg":123825,"grp":1846,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"SDMY-EN028","name":"Mystic Box","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"25774450","code":"28","tcg":123826,"grp":1846,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"SDMY-EN029","name":"Swords of Revealing Light","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"72302403","code":"29","tcg":123827,"grp":1846,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"SDMY-EN030","name":"Spell Shattering Arrow","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"93260132","code":"30","tcg":123828,"grp":1846,"idx":29},
+    {"id":"031","section":"main","num":"031","printed":"SDMY-EN031","name":"Polymerization","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"24094653","code":"31","tcg":123829,"grp":1846,"idx":30},
+    {"id":"032","section":"main","num":"032","printed":"SDMY-EN032","name":"De-Fusion","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"95286165","code":"32","tcg":123830,"grp":1846,"idx":31},
+    {"id":"033","section":"main","num":"033","printed":"SDMY-EN033","name":"Swords of Concealing Light","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"12923641","code":"33","tcg":123831,"grp":1846,"idx":32},
+    {"id":"034","section":"main","num":"034","printed":"SDMY-EN034","name":"Attack the Moon!","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"83715234","code":"34","tcg":123832,"grp":1846,"idx":33},
+    {"id":"035","section":"main","num":"035","printed":"SDMY-EN035","name":"Magnet Conversion","ctype":"trap","keywords":"Magnet Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"77133792","code":"35","tcg":123833,"grp":1846,"idx":34},
+    {"id":"036","section":"main","num":"036","printed":"SDMY-EN036","name":"Magician's Circle","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"50755","code":"36","tcg":123834,"grp":1846,"idx":35},
+    {"id":"037","section":"main","num":"037","printed":"SDMY-EN037","name":"Mirror Force","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"44095762","code":"37","tcg":123835,"grp":1846,"idx":36},
+    {"id":"038","section":"main","num":"038","printed":"SDMY-EN038","name":"Magic Cylinder","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"62279055","code":"38","tcg":123836,"grp":1846,"idx":37},
+    {"id":"039","section":"main","num":"039","printed":"SDMY-EN039","name":"Soul Rope","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"37383714","code":"39","tcg":123837,"grp":1846,"idx":38},
+    {"id":"040","section":"main","num":"040","printed":"SDMY-EN040","name":"Rock Bombardment","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"20781762","code":"40","tcg":123838,"grp":1846,"idx":39},
+    {"id":"041","section":"main","num":"041","printed":"SDMY-EN041","name":"Imperion Magnum the Superconductive Battlebot","ctype":"monster","keywords":"Magnet Warrior Rock EARTH Fusion Monster","stats":{"a":"EARTH","l":"Level 10","t":"Rock / Fusion","atk":4000,"def":4000},"rarity":"UR","img":"4628897","code":"41","tcg":123839,"grp":1846,"idx":40},
+    {"id":"042","section":"main","num":"042","printed":"SDMY-EN042","name":"Arcana Knight Joker","ctype":"monster","keywords":"Knight Warrior LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 9","t":"Warrior / Fusion","atk":3800,"def":2500},"rarity":"C","img":"6150044","code":"42","tcg":123840,"grp":1846,"idx":41},
+    {"id":"043","section":"main","num":"043","printed":"SDMY-EN043","name":"Dark Paladin","ctype":"monster","keywords":"Dark Magician Spellcaster DARK Fusion Monster","stats":{"a":"DARK","l":"Level 8","t":"Spellcaster / Fusion","atk":2900,"def":2400},"rarity":"C","img":"98502114","code":"43","tcg":123841,"grp":1846,"idx":42},
+    {"id":"044","section":"main","num":"044","printed":"SDMY-EN044","name":"Chimera the Flying Mythical Beast","ctype":"monster","keywords":"Beast WIND Fusion Monster","stats":{"a":"WIND","l":"Level 6","t":"Beast / Fusion","atk":2100,"def":1800},"rarity":"C","img":"4796100","code":"44","tcg":123842,"grp":1846,"idx":43},
+    {"id":"045","section":"main","num":"045","printed":"SDMY-EN045","name":"Buster Blader, the Dragon Destroyer Swordsman","ctype":"monster","keywords":"Warrior LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Warrior / Fusion","atk":2800,"def":2500},"rarity":"C","img":"86240887","code":"45","tcg":123843,"grp":1846,"idx":44}
+  ]
+}

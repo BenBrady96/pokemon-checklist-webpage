@@ -1,0 +1,102 @@
+{
+  "id": "yugioh/structure-deck-wave-of-light",
+  "game": "yugioh",
+  "slug": "structure-deck-wave-of-light",
+  "name": "Structure Deck: Wave of Light",
+  "series": "VRAINS",
+  "kind": "deck",
+  "code": "SR05",
+  "syncKey": "YSR05",
+  "released": "2018-01-18",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "SR05-EN000–SR05-ENTKN",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from SR05-EN000 to SR05-ENTKN."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Structure Deck: Wave of Light Checklist · All 42 Cards",
+    "description": "Free Yu-Gi-Oh! Structure Deck: Wave of Light checklist with no ads, no sign-up and no tracking. Track all 42 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Structure Deck: Wave of Light Checklist",
+    "ogDescription": "Track all 42 cards in Yu-Gi-Oh! Structure Deck: Wave of Light. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 42 cards in Yu-Gi-Oh! Structure Deck: Wave of Light. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Structure Deck: Wave of Light",
+    "paragraphs": [
+      "Structure Deck: Wave of Light is a Yu-Gi-Oh! TCG deck released on 18 January 2018, in the VRAINS era. It has 42 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Structure Deck: Wave of Light"
+    ],
+    "tcgplayer": [
+      2146
+    ]
+  },
+  "cards": [
+    {"id":"000","section":"main","num":"000","printed":"SR05-EN000","name":"Eva","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Fairy / Effect","atk":500,"def":200},"rarity":"UR","img":"40177746","code":"0","tcg":155987,"grp":2146,"idx":0},
+    {"id":"001","section":"main","num":"001","printed":"SR05-EN001","name":"Sacred Arch-Airknight Parshath","ctype":"monster","keywords":"Parshath Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 9","t":"Fairy / Effect","atk":2800,"def":2300},"rarity":"UR","img":"16261341","code":"1","tcg":155988,"grp":2146,"idx":1},
+    {"id":"002","section":"main","num":"002","printed":"SR05-EN002","name":"Minerva, Scholar of the Sky","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fairy / Effect","atk":1700,"def":400},"rarity":"C","img":"53666449","code":"2","tcg":155992,"grp":2146,"idx":2},
+    {"id":"003","section":"main","num":"003","printed":"SR05-EN003","name":"Power Angel Valkyria","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fairy / Effect","atk":1800,"def":1050},"rarity":"SR","img":"89055154","code":"3","tcg":155993,"grp":2146,"idx":3},
+    {"id":"004","section":"main","num":"004","printed":"SR05-EN004","name":"Neo-Parshath, the Sky Paladin","ctype":"monster","keywords":"Parshath Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 7","t":"Fairy / Effect","atk":2300,"def":2000},"rarity":"C","img":"12510878","code":"4","tcg":155994,"grp":2146,"idx":4},
+    {"id":"005","section":"main","num":"005","printed":"SR05-EN005","name":"Airknight Parshath","ctype":"monster","keywords":"Parshath Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 5","t":"Fairy / Effect","atk":1900,"def":1400},"rarity":"C","img":"18036057","code":"5","tcg":155995,"grp":2146,"idx":5},
+    {"id":"006","section":"main","num":"006","printed":"SR05-EN006","name":"Meltiel, Sage of the Sky","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fairy / Effect","atk":1600,"def":1200},"rarity":"C","img":"49905576","code":"6","tcg":155996,"grp":2146,"idx":6},
+    {"id":"007","section":"main","num":"007","printed":"SR05-EN007","name":"Harvest Angel of Wisdom","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fairy / Effect","atk":1800,"def":1000},"rarity":"C","img":"85399281","code":"7","tcg":155997,"grp":2146,"idx":7},
+    {"id":"008","section":"main","num":"008","printed":"SR05-EN008","name":"Bountiful Artemis","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fairy / Effect","atk":1600,"def":1700},"rarity":"C","img":"32296881","code":"8","tcg":155998,"grp":2146,"idx":8},
+    {"id":"009","section":"main","num":"009","printed":"SR05-EN009","name":"Layard the Liberator","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fairy / Effect","atk":1400,"def":1500},"rarity":"C","img":"67468948","code":"9","tcg":155999,"grp":2146,"idx":9},
+    {"id":"010","section":"main","num":"010","printed":"SR05-EN010","name":"Guiding Ariadne","ctype":"monster","keywords":"Counter Fairy Fairy LIGHT Pendulum Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fairy / Pendulum / Effect","atk":1700,"def":800},"rarity":"C","img":"98301564","code":"10","tcg":156000,"grp":2146,"idx":10},
+    {"id":"011","section":"main","num":"011","printed":"SR05-EN011","name":"Archlord Kristya","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Fairy / Effect","atk":2800,"def":2300},"rarity":"C","img":"59509952","code":"11","tcg":156001,"grp":2146,"idx":11},
+    {"id":"012","section":"main","num":"012","printed":"SR05-EN012","name":"Splendid Venus","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Fairy / Effect","atk":2800,"def":2400},"rarity":"C","img":"5645210","code":"12","tcg":156002,"grp":2146,"idx":12},
+    {"id":"013","section":"main","num":"013","printed":"SR05-EN013","name":"Athena","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 7","t":"Fairy / Effect","atk":2600,"def":800},"rarity":"C","img":"48964966","code":"13","tcg":156003,"grp":2146,"idx":13},
+    {"id":"014","section":"main","num":"014","printed":"SR05-EN014","name":"Tethys, Goddess of Light","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 5","t":"Fairy / Effect","atk":2400,"def":1800},"rarity":"C","img":"87148330","code":"14","tcg":156004,"grp":2146,"idx":14},
+    {"id":"015","section":"main","num":"015","printed":"SR05-EN015","name":"Hecatrice","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fairy / Effect","atk":1500,"def":1100},"rarity":"C","img":"74968065","code":"15","tcg":156005,"grp":2146,"idx":15},
+    {"id":"016","section":"main","num":"016","printed":"SR05-EN016","name":"Gellenduo","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fairy / Effect","atk":1700,"def":0},"rarity":"C","img":"11662742","code":"16","tcg":156006,"grp":2146,"idx":16},
+    {"id":"017","section":"main","num":"017","printed":"SR05-EN017","name":"Nova Summoner","ctype":"monster","keywords":"Parshath Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fairy / Effect","atk":1400,"def":800},"rarity":"C","img":"48783998","code":"17","tcg":156007,"grp":2146,"idx":17},
+    {"id":"018","section":"main","num":"018","printed":"SR05-EN018","name":"Honest","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fairy / Effect","atk":1100,"def":1900},"rarity":"C","img":"37742478","code":"18","tcg":156008,"grp":2146,"idx":18},
+    {"id":"019","section":"main","num":"019","printed":"SR05-EN019","name":"Herald of Orange Light","ctype":"monster","keywords":"Herald Fairy LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 2","t":"Fairy / Tuner","atk":300,"def":500},"rarity":"C","img":"17266660","code":"19","tcg":156009,"grp":2146,"idx":19},
+    {"id":"020","section":"main","num":"020","printed":"SR05-EN020","name":"Herald of Green Light","ctype":"monster","keywords":"Herald Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 2","t":"Fairy / Effect","atk":300,"def":500},"rarity":"C","img":"21074344","code":"20","tcg":156010,"grp":2146,"idx":20},
+    {"id":"021","section":"main","num":"021","printed":"SR05-EN021","name":"Herald of Purple Light","ctype":"monster","keywords":"Herald Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 2","t":"Fairy / Effect","atk":300,"def":500},"rarity":"C","img":"94689635","code":"21","tcg":156011,"grp":2146,"idx":21},
+    {"id":"022","section":"main","num":"022","printed":"SR05-EN022","name":"Guiding Light","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Fairy / Effect","atk":0,"def":0},"rarity":"C","img":"69865139","code":"22","tcg":156012,"grp":2146,"idx":22},
+    {"id":"023","section":"main","num":"023","printed":"SR05-EN023","name":"D.D. Sprite","ctype":"monster","keywords":"D.D. Fairy LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Fairy / Tuner","atk":0,"def":100},"rarity":"C","img":"16638212","code":"23","tcg":156013,"grp":2146,"idx":23},
+    {"id":"024","section":"main","num":"024","printed":"SR05-EN024","name":"Hanewata","ctype":"monster","keywords":"Fairy LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Fairy / Tuner","atk":200,"def":300},"rarity":"C","img":"20450925","code":"24","tcg":156014,"grp":2146,"idx":24},
+    {"id":"025","section":"main","num":"025","printed":"SR05-EN025","name":"The Sanctum of Parshath","ctype":"spell","keywords":"Parshath Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"SR","img":"15449853","code":"25","tcg":156015,"grp":2146,"idx":25},
+    {"id":"026","section":"main","num":"026","printed":"SR05-EN026","name":"The Sanctuary in the Sky","ctype":"spell","keywords":"The Agent Field Spell","stats":{"t":"Field Spell"},"rarity":"C","img":"56433456","code":"26","tcg":156016,"grp":2146,"idx":26},
+    {"id":"027","section":"main","num":"027","printed":"SR05-EN027","name":"Cards from the Sky","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"54977057","code":"27","tcg":156017,"grp":2146,"idx":27},
+    {"id":"028","section":"main","num":"028","printed":"SR05-EN028","name":"Celestial Transformation","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"28890974","code":"28","tcg":156018,"grp":2146,"idx":28},
+    {"id":"029","section":"main","num":"029","printed":"SR05-EN029","name":"Valhalla, Hall of the Fallen","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"1353770","code":"29","tcg":156019,"grp":2146,"idx":29},
+    {"id":"030","section":"main","num":"030","printed":"SR05-EN030","name":"Ties of the Brethren","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"40450317","code":"30","tcg":156020,"grp":2146,"idx":30},
+    {"id":"031","section":"main","num":"031","printed":"SR05-EN031","name":"Rebirth of Parshath","ctype":"trap","keywords":"Parshath Counter Trap","stats":{"t":"Counter Trap"},"rarity":"SR","img":"42444868","code":"31","tcg":156021,"grp":2146,"idx":31},
+    {"id":"032","section":"main","num":"032","printed":"SR05-EN032","name":"Light of Judgment","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"44595286","code":"32","tcg":156022,"grp":2146,"idx":32},
+    {"id":"033","section":"main","num":"033","printed":"SR05-EN033","name":"Miraculous Descent","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"80551130","code":"33","tcg":156023,"grp":2146,"idx":33},
+    {"id":"034","section":"main","num":"034","printed":"SR05-EN034","name":"Synthetic Seraphim","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"16946849","code":"34","tcg":156024,"grp":2146,"idx":34},
+    {"id":"035","section":"main","num":"035","printed":"SR05-EN035","name":"Divine Punishment","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"C","img":"81066751","code":"35","tcg":156025,"grp":2146,"idx":35},
+    {"id":"036","section":"main","num":"036","printed":"SR05-EN036","name":"Dark Bribe","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"C","img":"77538567","code":"36","tcg":156026,"grp":2146,"idx":36},
+    {"id":"037","section":"main","num":"037","printed":"SR05-EN037","name":"Solemn Warning","ctype":"trap","keywords":"Solemn Counter Trap","stats":{"t":"Counter Trap"},"rarity":"C","img":"84749824","code":"37","tcg":156027,"grp":2146,"idx":37},
+    {"id":"038","section":"main","num":"038","printed":"SR05-EN038","name":"Ultimate Providence","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"C","img":"38891741","code":"38","tcg":156028,"grp":2146,"idx":38},
+    {"id":"039","section":"main","num":"039","printed":"SR05-EN039","name":"Drastic Drop Off","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"C","img":"4440873","code":"39","tcg":156029,"grp":2146,"idx":39},
+    {"id":"040","section":"main","num":"040","printed":"SR05-EN040","name":"Recall","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"C","img":"96404912","code":"40","tcg":156030,"grp":2146,"idx":40},
+    {"id":"TKN","section":"main","num":"TKN","printed":"SR05-ENTKN","name":"Synthetic Seraphim Token","ctype":"token","keywords":"Counter Fairy Fairy Token","stats":{"t":"Fairy / Token"},"rarity":"C","img":"16946850","tcg":155986,"grp":2146,"idx":41}
+  ]
+}

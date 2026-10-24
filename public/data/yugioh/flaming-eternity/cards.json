@@ -1,0 +1,157 @@
+{
+  "id": "yugioh/flaming-eternity",
+  "game": "yugioh",
+  "slug": "flaming-eternity",
+  "name": "Flaming Eternity",
+  "series": "Duel Monsters",
+  "kind": "expansion",
+  "code": "FET",
+  "syncKey": "YFET",
+  "released": "2005-03-01",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Main Set",
+      "range": "FET-EN001–FET-EN060",
+      "tier": "standard"
+    },
+    {
+      "id": "rarities",
+      "name": "Other Rarities",
+      "short": "Other Rarities",
+      "range": "25 cards",
+      "tier": "master"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Main set"
+    ],
+    [
+      "rarities",
+      "Other rarities"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, SCR12, 60x2",
+    "example": "1-20, 45x2, SCR12",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies. Other rarities use their short name and number: <b>SCR12</b> is card 12’s Secret Rare, and ranges work too (<b>QCSR1-QCSR20</b>).",
+    "empty": "Cards run from FET-EN001 to FET-EN060."
+  },
+  "help": {
+    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 60 cards, each in its main rarity. Master adds the 25 other rarities. Cards you’ve marked are kept when you switch."
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Flaming Eternity Checklist · All 60 Cards",
+    "description": "Free Yu-Gi-Oh! Flaming Eternity checklist with no ads, no sign-up and no tracking. Track all 60 cards, or every rarity for a master set, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Flaming Eternity Checklist",
+    "ogDescription": "Track all 60 cards in Yu-Gi-Oh! Flaming Eternity, plus 25 other rarities. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 60 cards in Yu-Gi-Oh! Flaming Eternity. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About the Flaming Eternity set",
+    "paragraphs": [
+      "Flaming Eternity is a Yu-Gi-Oh! TCG booster set released on 1 March 2005, in the Duel Monsters era. It has 60 cards, and with the 25 other rarities there are 85 to collect in all.",
+      "Choose what you’re collecting: the <b>Standard set</b> (the 60 cards, each in its main rarity) or the <b>Master set</b> (all 85, adding the 25 other rarities).",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Flaming Eternity"
+    ],
+    "tcgplayer": [
+      204
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"FET-EN001","name":"Space Mambo","ctype":"monster","keywords":"Fish WATER Normal Monster","stats":{"a":"WATER","l":"Level 4","t":"Fish / Normal","atk":1700,"def":1000},"rarity":"C","img":"36119641","code":"1","tcg":23477,"grp":204,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"FET-EN002","name":"Divine Dragon Ragnarok","ctype":"monster","keywords":"Dragon LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Dragon / Normal","atk":1500,"def":1000},"rarity":"C","img":"62113340","code":"2","tcg":23478,"grp":204,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"FET-EN003","name":"Chu-Ske the Mouse Fighter","ctype":"monster","keywords":"Beast EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 3","t":"Beast / Normal","atk":1200,"def":0},"rarity":"C","img":"8508055","code":"3","tcg":23479,"grp":204,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"FET-EN004","name":"Insect Knight","ctype":"monster","keywords":"Insect EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 4","t":"Insect / Normal","atk":1900,"def":1500},"rarity":"C","img":"35052053","code":"4","tcg":23480,"grp":204,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"FET-EN005","name":"Sacred Phoenix of Nephthys","ctype":"monster","keywords":"Nephthys Winged Beast FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 8","t":"Winged Beast / Effect","atk":2400,"def":1600},"rarity":"UR","img":"61441708","code":"5","tcg":23481,"grp":204,"idx":4},
+    {"id":"005-utr","section":"rarities","num":"005","printed":"FET-EN005","name":"Sacred Phoenix of Nephthys","ctype":"monster","keywords":"Nephthys Winged Beast FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 8","t":"Winged Beast / Effect","atk":2400,"def":1600},"rarity":"UtR","img":"61441708","badge":"UtR","variant":"Ultimate Rare","code":"UTR5","tcg":58762,"grp":204,"idx":5},
+    {"id":"006","section":"main","num":"006","printed":"FET-EN006","name":"Hand of Nephthys","ctype":"monster","keywords":"Nephthys Spellcaster WIND Effect Monster","stats":{"a":"WIND","l":"Level 2","t":"Spellcaster / Effect","atk":600,"def":600},"rarity":"C","img":"98446407","code":"6","tcg":23482,"grp":204,"idx":6},
+    {"id":"007","section":"main","num":"007","printed":"FET-EN007","name":"Ultimate Insect LV5","ctype":"monster","keywords":"Insect WIND Effect Monster","stats":{"a":"WIND","l":"Level 5","t":"Insect / Effect","atk":2300,"def":900},"rarity":"R","img":"34830502","code":"7","tcg":23483,"grp":204,"idx":7},
+    {"id":"007-utr","section":"rarities","num":"007","printed":"FET-EN007","name":"Ultimate Insect LV5","ctype":"monster","keywords":"Insect WIND Effect Monster","stats":{"a":"WIND","l":"Level 5","t":"Insect / Effect","atk":2300,"def":900},"rarity":"UtR","img":"34830502","badge":"UtR","variant":"Ultimate Rare","code":"UTR7","tcg":58763,"grp":204,"idx":8},
+    {"id":"008","section":"main","num":"008","printed":"FET-EN008","name":"Silent Swordsman LV5","ctype":"monster","keywords":"Silent Swordsman Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 5","t":"Warrior / Effect","atk":2300,"def":1000},"rarity":"UR","img":"74388798","code":"8","tcg":23484,"grp":204,"idx":9},
+    {"id":"008-utr","section":"rarities","num":"008","printed":"FET-EN008","name":"Silent Swordsman LV5","ctype":"monster","keywords":"Silent Swordsman Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 5","t":"Warrior / Effect","atk":2300,"def":1000},"rarity":"UtR","img":"74388798","badge":"UtR","variant":"Ultimate Rare","code":"UTR8","tcg":58764,"grp":204,"idx":10},
+    {"id":"009","section":"main","num":"009","printed":"FET-EN009","name":"Granmarg the Rock Monarch","ctype":"monster","keywords":"Monarch Rock EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 6","t":"Rock / Effect","atk":2400,"def":1000},"rarity":"SR","img":"60229110","code":"9","tcg":23485,"grp":204,"idx":11},
+    {"id":"009-utr","section":"rarities","num":"009","printed":"FET-EN009","name":"Granmarg the Rock Monarch","ctype":"monster","keywords":"Monarch Rock EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 6","t":"Rock / Effect","atk":2400,"def":1000},"rarity":"UtR","img":"60229110","badge":"UtR","variant":"Ultimate Rare","code":"UTR9","tcg":58765,"grp":204,"idx":12},
+    {"id":"010","section":"main","num":"010","printed":"FET-EN010","name":"Element Valkyrie","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fairy / Effect","atk":1500,"def":1200},"rarity":"C","img":"97623219","code":"10","tcg":23486,"grp":204,"idx":13},
+    {"id":"011","section":"main","num":"011","printed":"FET-EN011","name":"Element Doom","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Effect","atk":1500,"def":1200},"rarity":"C","img":"23118924","code":"11","tcg":23487,"grp":204,"idx":14},
+    {"id":"012","section":"main","num":"012","printed":"FET-EN012","name":"Maji-Gire Panda","ctype":"monster","keywords":"Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Beast / Effect","atk":1000,"def":800},"rarity":"C","img":"60102563","code":"12","tcg":23488,"grp":204,"idx":15},
+    {"id":"013","section":"main","num":"013","printed":"FET-EN013","name":"Catnipped Kitty","ctype":"monster","keywords":"Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 2","t":"Beast / Effect","atk":0,"def":500},"rarity":"C","img":"96501677","code":"13","tcg":23489,"grp":204,"idx":16},
+    {"id":"014","section":"main","num":"014","printed":"FET-EN014","name":"Behemoth the King of All Animals","ctype":"monster","keywords":"Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 7","t":"Beast / Effect","atk":2700,"def":1500},"rarity":"SR","img":"22996376","code":"14","tcg":23490,"grp":204,"idx":17},
+    {"id":"014-utr","section":"rarities","num":"014","printed":"FET-EN014","name":"Behemoth the King of All Animals","ctype":"monster","keywords":"Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 7","t":"Beast / Effect","atk":2700,"def":1500},"rarity":"UtR","img":"22996376","badge":"UtR","variant":"Ultimate Rare","code":"UTR14","tcg":58766,"grp":204,"idx":18},
+    {"id":"015","section":"main","num":"015","printed":"FET-EN015","name":"Big-Tusked Mammoth","ctype":"monster","keywords":"Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 5","t":"Beast / Effect","atk":2000,"def":1000},"rarity":"R","img":"59380081","code":"15","tcg":23491,"grp":204,"idx":19},
+    {"id":"015-utr","section":"rarities","num":"015","printed":"FET-EN015","name":"Big-Tusked Mammoth","ctype":"monster","keywords":"Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 5","t":"Beast / Effect","atk":2000,"def":1000},"rarity":"UtR","img":"59380081","badge":"UtR","variant":"Ultimate Rare","code":"UTR15","tcg":58767,"grp":204,"idx":20},
+    {"id":"016","section":"main","num":"016","printed":"FET-EN016","name":"Kangaroo Champ","ctype":"monster","keywords":"Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Beast / Effect","atk":800,"def":700},"rarity":"C","img":"95789089","code":"16","tcg":23492,"grp":204,"idx":21},
+    {"id":"017","section":"main","num":"017","printed":"FET-EN017","name":"Hyena","ctype":"monster","keywords":"Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Beast / Effect","atk":1000,"def":300},"rarity":"C","img":"22873798","code":"17","tcg":23493,"grp":204,"idx":22},
+    {"id":"018","section":"main","num":"018","printed":"FET-EN018","name":"Blade Rabbit","ctype":"monster","keywords":"Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 2","t":"Beast / Effect","atk":400,"def":300},"rarity":"C","img":"58268433","code":"18","tcg":23494,"grp":204,"idx":23},
+    {"id":"019","section":"main","num":"019","printed":"FET-EN019","name":"Mecha-Dog Marron","ctype":"monster","keywords":"Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Machine / Effect","atk":1000,"def":1000},"rarity":"C","img":"94667532","code":"19","tcg":23495,"grp":204,"idx":24},
+    {"id":"020","section":"main","num":"020","printed":"FET-EN020","name":"Blast Magician","ctype":"monster","keywords":"Spellcaster FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Spellcaster / Effect","atk":1400,"def":1700},"rarity":"SR","img":"21051146","code":"20","tcg":23496,"grp":204,"idx":25},
+    {"id":"020-utr","section":"rarities","num":"020","printed":"FET-EN020","name":"Blast Magician","ctype":"monster","keywords":"Spellcaster FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Spellcaster / Effect","atk":1400,"def":1700},"rarity":"UtR","img":"21051146","badge":"UtR","variant":"Ultimate Rare","code":"UTR20","tcg":58768,"grp":204,"idx":26},
+    {"id":"021","section":"main","num":"021","printed":"FET-EN021","name":"Chiron the Mage","ctype":"monster","keywords":"Beast-Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Beast-Warrior / Effect","atk":1800,"def":1000},"rarity":"R","img":"16956455","code":"21","tcg":23497,"grp":204,"idx":27},
+    {"id":"021-utr","section":"rarities","num":"021","printed":"FET-EN021","name":"Chiron the Mage","ctype":"monster","keywords":"Beast-Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Beast-Warrior / Effect","atk":1800,"def":1000},"rarity":"UtR","img":"16956455","badge":"UtR","variant":"Ultimate Rare","code":"UTR21","tcg":58769,"grp":204,"idx":28},
+    {"id":"022","section":"main","num":"022","printed":"FET-EN022","name":"Gearfried the Swordmaster","ctype":"monster","keywords":"Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 7","t":"Warrior / Effect","atk":2600,"def":2200},"rarity":"UR","img":"57046845","code":"22","tcg":23498,"grp":204,"idx":29},
+    {"id":"022-utr","section":"rarities","num":"022","printed":"FET-EN022","name":"Gearfried the Swordmaster","ctype":"monster","keywords":"Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 7","t":"Warrior / Effect","atk":2600,"def":2200},"rarity":"UtR","img":"57046845","badge":"UtR","variant":"Ultimate Rare","code":"UTR22","tcg":58770,"grp":204,"idx":30},
+    {"id":"023","section":"main","num":"023","printed":"FET-EN023","name":"Armed Samurai - Ben Kei","ctype":"monster","keywords":"Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Warrior / Effect","atk":500,"def":800},"rarity":"C","img":"84430950","code":"23","tcg":23499,"grp":204,"idx":31},
+    {"id":"024","section":"main","num":"024","printed":"FET-EN024","name":"Shadowslayer","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Effect","atk":1400,"def":200},"rarity":"R","img":"20939559","code":"24","tcg":23500,"grp":204,"idx":32},
+    {"id":"024-utr","section":"rarities","num":"024","printed":"FET-EN024","name":"Shadowslayer","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Effect","atk":1400,"def":200},"rarity":"UtR","img":"20939559","badge":"UtR","variant":"Ultimate Rare","code":"UTR24","tcg":58771,"grp":204,"idx":33},
+    {"id":"025","section":"main","num":"025","printed":"FET-EN025","name":"Golem Sentry","ctype":"monster","keywords":"Rock EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Rock / Effect","atk":800,"def":1800},"rarity":"C","img":"52323207","code":"25","tcg":23501,"grp":204,"idx":34},
+    {"id":"026","section":"main","num":"026","printed":"FET-EN026","name":"Abare Ushioni","ctype":"monster","keywords":"Beast-Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Beast-Warrior / Effect","atk":1200,"def":1200},"rarity":"C","img":"89718302","code":"26","tcg":23502,"grp":204,"idx":35},
+    {"id":"027","section":"main","num":"027","printed":"FET-EN027","name":"The Light - Hex-Sealed Fusion","ctype":"monster","keywords":"Rock LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Rock / Effect","atk":1000,"def":1600},"rarity":"C","img":"15717011","code":"27","tcg":23503,"grp":204,"idx":36},
+    {"id":"028","section":"main","num":"028","printed":"FET-EN028","name":"The Dark - Hex-Sealed Fusion","ctype":"monster","keywords":"Rock DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Rock / Effect","atk":1000,"def":1600},"rarity":"C","img":"52101615","code":"28","tcg":23504,"grp":204,"idx":37},
+    {"id":"029","section":"main","num":"029","printed":"FET-EN029","name":"The Earth - Hex-Sealed Fusion","ctype":"monster","keywords":"Rock EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Rock / Effect","atk":1000,"def":1600},"rarity":"C","img":"88696724","code":"29","tcg":23505,"grp":204,"idx":38},
+    {"id":"030","section":"main","num":"030","printed":"FET-EN030","name":"Whirlwind Prodigy","ctype":"monster","keywords":"Fairy WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Fairy / Effect","atk":1500,"def":1600},"rarity":"C","img":"15090429","code":"30","tcg":23506,"grp":204,"idx":39},
+    {"id":"031","section":"main","num":"031","printed":"FET-EN031","name":"Flame Ruler","ctype":"monster","keywords":"Pyro FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Pyro / Effect","atk":1500,"def":1600},"rarity":"C","img":"41089128","code":"31","tcg":23507,"grp":204,"idx":40},
+    {"id":"032","section":"main","num":"032","printed":"FET-EN032","name":"Firebird","ctype":"monster","keywords":"Winged Beast FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Winged Beast / Effect","atk":1000,"def":800},"rarity":"C","img":"87473172","code":"32","tcg":23508,"grp":204,"idx":41},
+    {"id":"033","section":"main","num":"033","printed":"FET-EN033","name":"Rescue Cat","ctype":"monster","keywords":"Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Beast / Effect","atk":300,"def":100},"rarity":"C","img":"14878871","code":"33","tcg":23509,"grp":204,"idx":42},
+    {"id":"034","section":"main","num":"034","printed":"FET-EN034","name":"Brain Jacker","ctype":"monster","keywords":"Fiend DARK Flip Effect Monster","stats":{"a":"DARK","l":"Level 2","t":"Fiend / Flip / Effect","atk":200,"def":900},"rarity":"R","img":"40267580","code":"34","tcg":23510,"grp":204,"idx":43},
+    {"id":"034-utr","section":"rarities","num":"034","printed":"FET-EN034","name":"Brain Jacker","ctype":"monster","keywords":"Fiend DARK Flip Effect Monster","stats":{"a":"DARK","l":"Level 2","t":"Fiend / Flip / Effect","atk":200,"def":900},"rarity":"UtR","img":"40267580","badge":"UtR","variant":"Ultimate Rare","code":"UTR34","tcg":58772,"grp":204,"idx":44},
+    {"id":"035","section":"main","num":"035","printed":"FET-EN035","name":"Gatling Dragon","ctype":"monster","keywords":"Machine DARK Fusion Monster","stats":{"a":"DARK","l":"Level 8","t":"Machine / Fusion","atk":2600,"def":1200},"rarity":"UR","img":"87751584","code":"35","tcg":23511,"grp":204,"idx":45},
+    {"id":"035-utr","section":"rarities","num":"035","printed":"FET-EN035","name":"Gatling Dragon","ctype":"monster","keywords":"Machine DARK Fusion Monster","stats":{"a":"DARK","l":"Level 8","t":"Machine / Fusion","atk":2600,"def":1200},"rarity":"UtR","img":"87751584","badge":"UtR","variant":"Ultimate Rare","code":"UTR35","tcg":58773,"grp":204,"idx":46},
+    {"id":"036","section":"main","num":"036","printed":"FET-EN036","name":"King Dragun","ctype":"monster","keywords":"Dragon DARK Fusion Monster","stats":{"a":"DARK","l":"Level 7","t":"Dragon / Fusion","atk":2400,"def":1100},"rarity":"SR","img":"13756293","code":"36","tcg":23512,"grp":204,"idx":47},
+    {"id":"036-utr","section":"rarities","num":"036","printed":"FET-EN036","name":"King Dragun","ctype":"monster","keywords":"Dragon DARK Fusion Monster","stats":{"a":"DARK","l":"Level 7","t":"Dragon / Fusion","atk":2400,"def":1100},"rarity":"UtR","img":"13756293","badge":"UtR","variant":"Ultimate Rare","code":"UTR36","tcg":58774,"grp":204,"idx":48},
+    {"id":"037","section":"main","num":"037","printed":"FET-EN037","name":"A Feather of the Phoenix","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"49140998","code":"37","tcg":23513,"grp":204,"idx":49},
+    {"id":"037-utr","section":"rarities","num":"037","printed":"FET-EN037","name":"A Feather of the Phoenix","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UtR","img":"49140998","badge":"UtR","variant":"Ultimate Rare","code":"UTR37","tcg":58775,"grp":204,"idx":50},
+    {"id":"038","section":"main","num":"038","printed":"FET-EN038","name":"Poison Fangs","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"76539047","code":"38","tcg":23514,"grp":204,"idx":51},
+    {"id":"039","section":"main","num":"039","printed":"FET-EN039","name":"Spell Absorption","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"R","img":"51481927","code":"39","tcg":23515,"grp":204,"idx":52},
+    {"id":"039-utr","section":"rarities","num":"039","printed":"FET-EN039","name":"Spell Absorption","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"UtR","img":"51481927","badge":"UtR","variant":"Ultimate Rare","code":"UTR39","tcg":58776,"grp":204,"idx":53},
+    {"id":"040","section":"main","num":"040","printed":"FET-EN040","name":"Lightning Vortex","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"69162969","code":"40","tcg":23516,"grp":204,"idx":54},
+    {"id":"040-utr","section":"rarities","num":"040","printed":"FET-EN040","name":"Lightning Vortex","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UtR","img":"69162969","badge":"UtR","variant":"Ultimate Rare","code":"UTR40","tcg":58777,"grp":204,"idx":55},
+    {"id":"041","section":"main","num":"041","printed":"FET-EN041","name":"Meteor of Destruction","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"R","img":"33767325","code":"41","tcg":23517,"grp":204,"idx":56},
+    {"id":"041-utr","section":"rarities","num":"041","printed":"FET-EN041","name":"Meteor of Destruction","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UtR","img":"33767325","badge":"UtR","variant":"Ultimate Rare","code":"UTR41","tcg":58778,"grp":204,"idx":57},
+    {"id":"042","section":"main","num":"042","printed":"FET-EN042","name":"Swords of Concealing Light","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"R","img":"12923641","code":"42","tcg":23518,"grp":204,"idx":58},
+    {"id":"042-utr","section":"rarities","num":"042","printed":"FET-EN042","name":"Swords of Concealing Light","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"UtR","img":"12923641","badge":"UtR","variant":"Ultimate Rare","code":"UTR42","tcg":58779,"grp":204,"idx":59},
+    {"id":"043","section":"main","num":"043","printed":"FET-EN043","name":"Spiral Spear Strike","ctype":"spell","keywords":"Gaia The Fierce Knight Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"R","img":"49328340","code":"43","tcg":23519,"grp":204,"idx":60},
+    {"id":"043-utr","section":"rarities","num":"043","printed":"FET-EN043","name":"Spiral Spear Strike","ctype":"spell","keywords":"Gaia The Fierce Knight Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"UtR","img":"49328340","badge":"UtR","variant":"Ultimate Rare","code":"UTR43","tcg":58780,"grp":204,"idx":61},
+    {"id":"044","section":"main","num":"044","printed":"FET-EN044","name":"Release Restraint","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"75417459","code":"44","tcg":23520,"grp":204,"idx":62},
+    {"id":"045","section":"main","num":"045","printed":"FET-EN045","name":"Centrifugal Field","ctype":"spell","keywords":"Field Spell","stats":{"t":"Field Spell"},"rarity":"C","img":"1801154","code":"45","tcg":23521,"grp":204,"idx":63},
+    {"id":"046","section":"main","num":"046","printed":"FET-EN046","name":"Fulfillment of the Contract","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"48206762","code":"46","tcg":23522,"grp":204,"idx":64},
+    {"id":"047","section":"main","num":"047","printed":"FET-EN047","name":"Re-Fusion","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"74694807","code":"47","tcg":23523,"grp":204,"idx":65},
+    {"id":"048","section":"main","num":"048","printed":"FET-EN048","name":"The Big March of Animals","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"1689516","code":"48","tcg":23524,"grp":204,"idx":66},
+    {"id":"049","section":"main","num":"049","printed":"FET-EN049","name":"Cross Counter","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"R","img":"37083210","code":"49","tcg":23525,"grp":204,"idx":67},
+    {"id":"049-utr","section":"rarities","num":"049","printed":"FET-EN049","name":"Cross Counter","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"UtR","img":"37083210","badge":"UtR","variant":"Ultimate Rare","code":"UTR49","tcg":58781,"grp":204,"idx":68},
+    {"id":"050","section":"main","num":"050","printed":"FET-EN050","name":"Pole Position","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"73578229","code":"50","tcg":23526,"grp":204,"idx":69},
+    {"id":"051","section":"main","num":"051","printed":"FET-EN051","name":"Penalty Game!","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"R","img":"967928","code":"51","tcg":23527,"grp":204,"idx":70},
+    {"id":"051-utr","section":"rarities","num":"051","printed":"FET-EN051","name":"Penalty Game!","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"UtR","img":"967928","badge":"UtR","variant":"Ultimate Rare","code":"UTR51","tcg":58782,"grp":204,"idx":71},
+    {"id":"052","section":"main","num":"052","printed":"FET-EN052","name":"Threatening Roar","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"36361633","code":"52","tcg":23528,"grp":204,"idx":72},
+    {"id":"053","section":"main","num":"053","printed":"FET-EN053","name":"Phoenix Wing Wind Blast","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"R","img":"63356631","code":"53","tcg":23529,"grp":204,"idx":73},
+    {"id":"053-utr","section":"rarities","num":"053","printed":"FET-EN053","name":"Phoenix Wing Wind Blast","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"UtR","img":"63356631","badge":"UtR","variant":"Ultimate Rare","code":"UTR53","tcg":58783,"grp":204,"idx":74},
+    {"id":"054","section":"main","num":"054","printed":"FET-EN054","name":"Good Goblin Housekeeping","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"9744376","code":"54","tcg":23530,"grp":204,"idx":75},
+    {"id":"055","section":"main","num":"055","printed":"FET-EN055","name":"Beast Soul Swap","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"35149085","code":"55","tcg":23531,"grp":204,"idx":76},
+    {"id":"056","section":"main","num":"056","printed":"FET-EN056","name":"Assault on GHQ","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"R","img":"62633180","code":"56","tcg":23532,"grp":204,"idx":77},
+    {"id":"056-utr","section":"rarities","num":"056","printed":"FET-EN056","name":"Assault on GHQ","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"UtR","img":"62633180","badge":"UtR","variant":"Ultimate Rare","code":"UTR56","tcg":58784,"grp":204,"idx":78},
+    {"id":"057","section":"main","num":"057","printed":"FET-EN057","name":"D.D. Dynamite","ctype":"trap","keywords":"D.D. Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"8628798","code":"57","tcg":23533,"grp":204,"idx":79},
+    {"id":"058","section":"main","num":"058","printed":"FET-EN058","name":"Deck Devastation Virus","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"35027493","code":"58","tcg":23534,"grp":204,"idx":80},
+    {"id":"058-utr","section":"rarities","num":"058","printed":"FET-EN058","name":"Deck Devastation Virus","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"UtR","img":"35027493","badge":"UtR","variant":"Ultimate Rare","code":"UTR58","tcg":58785,"grp":204,"idx":81},
+    {"id":"059","section":"main","num":"059","printed":"FET-EN059","name":"Elemental Burst","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"61411502","code":"59","tcg":23535,"grp":204,"idx":82},
+    {"id":"060","section":"main","num":"060","printed":"FET-EN060","name":"Forced Ceasefire","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"R","img":"97806240","code":"60","tcg":23536,"grp":204,"idx":83},
+    {"id":"060-utr","section":"rarities","num":"060","printed":"FET-EN060","name":"Forced Ceasefire","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"UtR","img":"97806240","badge":"UtR","variant":"Ultimate Rare","code":"UTR60","tcg":58786,"grp":204,"idx":84}
+  ]
+}

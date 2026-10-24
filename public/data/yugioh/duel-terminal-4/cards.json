@@ -1,0 +1,173 @@
+{
+  "id": "yugioh/duel-terminal-4",
+  "game": "yugioh",
+  "slug": "duel-terminal-4",
+  "name": "Duel Terminal 4",
+  "series": "5D’s",
+  "kind": "set",
+  "code": "DT04",
+  "syncKey": "YDT04",
+  "released": "2011-01-25",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Main Set",
+      "range": "DT04-EN001–DT04-EN100",
+      "tier": "standard"
+    },
+    {
+      "id": "rarities",
+      "name": "Other Rarities",
+      "short": "Other Rarities",
+      "range": "1 card",
+      "tier": "master"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Main set"
+    ],
+    [
+      "rarities",
+      "Other rarities"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, SCR12, 60x2",
+    "example": "1-20, 45x2, SCR12",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies. Other rarities use their short name and number: <b>SCR12</b> is card 12’s Secret Rare, and ranges work too (<b>QCSR1-QCSR20</b>).",
+    "empty": "Cards run from DT04-EN001 to DT04-EN100."
+  },
+  "help": {
+    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 100 cards, each in its main rarity. Master adds the 1 other rarity. Cards you’ve marked are kept when you switch."
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Duel Terminal 4 Checklist · All 100 Cards",
+    "description": "Free Yu-Gi-Oh! Duel Terminal 4 checklist with no ads, no sign-up and no tracking. Track all 100 cards, or every rarity for a master set, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Duel Terminal 4 Checklist",
+    "ogDescription": "Track all 100 cards in Yu-Gi-Oh! Duel Terminal 4, plus 1 other rarity. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 100 cards in Yu-Gi-Oh! Duel Terminal 4. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About the Duel Terminal 4 set",
+    "paragraphs": [
+      "Duel Terminal 4 is a Yu-Gi-Oh! TCG special set released on 25 January 2011, in the 5D’s era. It has 100 cards, and with the 1 other rarity there are 101 to collect in all.",
+      "Choose what you’re collecting: the <b>Standard set</b> (the 100 cards, each in its main rarity) or the <b>Master set</b> (all 101, adding the 1 other rarity).",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Duel Terminal 4"
+    ],
+    "tcgplayer": [
+      1330
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"DT04-EN001","name":"Jester Lord","ctype":"monster","keywords":"Jester Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Spellcaster / Effect","atk":0,"def":0},"rarity":"DNPR","img":"72992744","code":"1","tcg":81203,"grp":1330,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"DT04-EN002","name":"Cyberdark Horn","ctype":"monster","keywords":"Cyberdark Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Machine / Effect","atk":800,"def":800},"rarity":"DNPR","img":"41230939","code":"2","tcg":81204,"grp":1330,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"DT04-EN003","name":"Blade Knight","ctype":"monster","keywords":"Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Effect","atk":1600,"def":1000},"rarity":"DRPR","img":"39507162","code":"3","tcg":81206,"grp":1330,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"DT04-EN004","name":"Different Dimension Dragon","ctype":"monster","keywords":"Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 5","t":"Dragon / Effect","atk":1200,"def":1500},"rarity":"DNPR","img":"50939127","code":"4","tcg":81205,"grp":1330,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"DT04-EN005","name":"Nightmare Penguin","ctype":"monster","keywords":"Penguin Aqua WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Aqua / Effect","atk":900,"def":1800},"rarity":"DNPR","img":"81306586","code":"5","tcg":81207,"grp":1330,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"DT04-EN006","name":"Warrior Lady of the Wasteland","ctype":"monster","keywords":"Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Effect","atk":1100,"def":1200},"rarity":"DNPR","img":"5438492","code":"6","tcg":81208,"grp":1330,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"DT04-EN007","name":"Elemental HERO Necroshade","ctype":"monster","keywords":"Elemental HERO Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 5","t":"Warrior / Effect","atk":1600,"def":1800},"rarity":"DNPR","img":"89252153","code":"7","tcg":81209,"grp":1330,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"DT04-EN008","name":"Rigorous Reaver","ctype":"monster","keywords":"Plant FIRE Flip Effect Monster","stats":{"a":"FIRE","l":"Level 3","t":"Plant / Flip / Effect","atk":1600,"def":100},"rarity":"DNPR","img":"39180960","code":"8","tcg":81210,"grp":1330,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"DT04-EN009","name":"Botanical Lion","ctype":"monster","keywords":"Plant EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Plant / Effect","atk":1600,"def":2000},"rarity":"DNPR","img":"20546916","code":"9","tcg":81211,"grp":1330,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"DT04-EN010","name":"White Night Dragon","ctype":"monster","keywords":"Dragon WATER Effect Monster","stats":{"a":"WATER","l":"Level 8","t":"Dragon / Effect","atk":3000,"def":2500},"rarity":"DSPR","img":"79473793","code":"10","tcg":81212,"grp":1330,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"DT04-EN011","name":"Genex Ally Remote","ctype":"monster","keywords":"Genex Machine DARK Tuner Monster","stats":{"a":"DARK","l":"Level 3","t":"Machine / Tuner","atk":500,"def":1800},"rarity":"DRPR","img":"57238939","code":"11","tcg":81213,"grp":1330,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"DT04-EN012","name":"Genex Ally Powercell","ctype":"monster","keywords":"Genex Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Machine / Effect","atk":1700,"def":0},"rarity":"DSPR","img":"94622638","code":"12","tcg":81214,"grp":1330,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"DT04-EN013","name":"Genex Ally Changer","ctype":"monster","keywords":"Genex Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Machine / Effect","atk":1200,"def":1800},"rarity":"DNPR","img":"20127343","code":"13","tcg":81215,"grp":1330,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"DT04-EN014","name":"Genex Ally Volcannon","ctype":"monster","keywords":"Genex Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Machine / Effect","atk":1700,"def":600},"rarity":"DNPR","img":"56511382","code":"14","tcg":81216,"grp":1330,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"DT04-EN015","name":"Genex Ally Solid","ctype":"monster","keywords":"Genex Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 2","t":"Machine / Effect","atk":500,"def":1200},"rarity":"DNPR","img":"83500096","code":"15","tcg":81217,"grp":1330,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"DT04-EN016","name":"The Fabled Chawa","ctype":"monster","keywords":"Fabled Beast LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Beast / Tuner","atk":200,"def":100},"rarity":"DNPR","img":"29905795","code":"16","tcg":81218,"grp":1330,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"DT04-EN017","name":"The Fabled Catsith","ctype":"monster","keywords":"Fabled Beast LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Beast / Tuner","atk":800,"def":600},"rarity":"DRPR","img":"56399890","code":"17","tcg":81219,"grp":1330,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"DT04-EN018","name":"The Fabled Cerburrel","ctype":"monster","keywords":"Fabled Beast LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 2","t":"Beast / Tuner","atk":1000,"def":400},"rarity":"DSPR","img":"82888408","code":"18","tcg":81220,"grp":1330,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"DT04-EN019","name":"The Fabled Ganashia","ctype":"monster","keywords":"Fabled Beast LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Beast / Effect","atk":1600,"def":1000},"rarity":"DNPR","img":"18282103","code":"19","tcg":81221,"grp":1330,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"DT04-EN020","name":"The Fabled Nozoochee","ctype":"monster","keywords":"Fabled Beast LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 2","t":"Beast / Effect","atk":1200,"def":800},"rarity":"DNPR","img":"55277252","code":"20","tcg":81222,"grp":1330,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"DT04-EN021","name":"Dragunity Militum","ctype":"monster","keywords":"Dragunity Winged Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Winged Beast / Effect","atk":1700,"def":1200},"rarity":"DRPR","img":"81661951","code":"21","tcg":81223,"grp":1330,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"DT04-EN022","name":"Dragunity Primus Pilus","ctype":"monster","keywords":"Dragunity Winged Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 5","t":"Winged Beast / Effect","atk":2200,"def":1600},"rarity":"DSPR","img":"18060565","code":"22","tcg":81224,"grp":1330,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"DT04-EN023","name":"Dragunity Brandistock","ctype":"monster","keywords":"Dragunity Dragon WIND Tuner Monster","stats":{"a":"WIND","l":"Level 1","t":"Dragon / Tuner","atk":600,"def":400},"rarity":"DNPR","img":"54455664","code":"23","tcg":81225,"grp":1330,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"DT04-EN024","name":"Dragunity Javelin","ctype":"monster","keywords":"Dragunity Dragon WIND Tuner Monster","stats":{"a":"WIND","l":"Level 2","t":"Dragon / Tuner","atk":1200,"def":800},"rarity":"DNPR","img":"80549379","code":"24","tcg":81226,"grp":1330,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"DT04-EN025","name":"Jurrac Dino","ctype":"monster","keywords":"Jurrac Dinosaur FIRE Tuner Monster","stats":{"a":"FIRE","l":"Level 3","t":"Dinosaur / Tuner","atk":1700,"def":800},"rarity":"DNPR","img":"17948378","code":"25","tcg":81227,"grp":1330,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"DT04-EN026","name":"Jurrac Gallim","ctype":"monster","keywords":"Jurrac Dinosaur FIRE Tuner Monster","stats":{"a":"FIRE","l":"Level 2","t":"Dinosaur / Tuner","atk":1200,"def":0},"rarity":"DNPR","img":"43332022","code":"26","tcg":81228,"grp":1330,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"DT04-EN027","name":"Jurrac Aeolo","ctype":"monster","keywords":"Jurrac Dinosaur FIRE Tuner Monster","stats":{"a":"FIRE","l":"Level 1","t":"Dinosaur / Tuner","atk":200,"def":200},"rarity":"DNPR","img":"80727721","code":"27","tcg":81229,"grp":1330,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"DT04-EN028","name":"Jurrac Herra","ctype":"monster","keywords":"Jurrac Dinosaur FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 6","t":"Dinosaur / Effect","atk":2300,"def":1500},"rarity":"DRPR","img":"16111820","code":"28","tcg":81230,"grp":1330,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"DT04-EN029","name":"Naturia Butterfly","ctype":"monster","keywords":"Naturia Insect EARTH Tuner Monster","stats":{"a":"EARTH","l":"Level 3","t":"Insect / Tuner","atk":500,"def":1200},"rarity":"DRPR","img":"42110434","code":"29","tcg":81231,"grp":1330,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"DT04-EN030","name":"Naturia Ladybug","ctype":"monster","keywords":"Naturia Insect EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 1","t":"Insect / Effect","atk":100,"def":100},"rarity":"DNPR","img":"19605133","code":"30","tcg":81232,"grp":1330,"idx":29},
+    {"id":"031","section":"main","num":"031","printed":"DT04-EN031","name":"Naturia Strawberry","ctype":"monster","keywords":"Naturia Plant EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Plant / Effect","atk":1600,"def":1200},"rarity":"DNPR","img":"55099248","code":"31","tcg":81233,"grp":1330,"idx":30},
+    {"id":"032","section":"main","num":"032","printed":"DT04-EN032","name":"Defender of the Ice Barrier","ctype":"monster","keywords":"Ice Barrier Aqua WATER Tuner Monster","stats":{"a":"WATER","l":"Level 3","t":"Aqua / Tuner","atk":200,"def":1600},"rarity":"DRPR","img":"82498947","code":"32","tcg":81234,"grp":1330,"idx":31},
+    {"id":"033","section":"main","num":"033","printed":"DT04-EN033","name":"Warlock of the Ice Barrier","ctype":"monster","keywords":"Ice Barrier Spellcaster WATER Effect Monster","stats":{"a":"WATER","l":"Level 3","t":"Spellcaster / Effect","atk":400,"def":1000},"rarity":"DNPR","img":"18482591","code":"33","tcg":81235,"grp":1330,"idx":32},
+    {"id":"034","section":"main","num":"034","printed":"DT04-EN034","name":"Sacred Spirit of the Ice Barrier","ctype":"monster","keywords":"Ice Barrier Zombie WATER Spirit Monster","stats":{"a":"WATER","l":"Level 4","t":"Zombie / Spirit","atk":1600,"def":1200},"rarity":"DNPR","img":"44877690","code":"34","tcg":81236,"grp":1330,"idx":33},
+    {"id":"035","section":"main","num":"035","printed":"DT04-EN035","name":"General Raiho of the Ice Barrier","ctype":"monster","keywords":"Ice Barrier Warrior WATER Effect Monster","stats":{"a":"WATER","l":"Level 6","t":"Warrior / Effect","atk":2100,"def":2300},"rarity":"DSPR","img":"81275309","code":"35","tcg":81237,"grp":1330,"idx":34},
+    {"id":"036","section":"main","num":"036","printed":"DT04-EN036","name":"Elemental HERO Darkbright","ctype":"monster","keywords":"Elemental HERO Warrior DARK Fusion Monster","stats":{"a":"DARK","l":"Level 6","t":"Warrior / Fusion","atk":2000,"def":1000},"rarity":"DNPR","img":"41517968","code":"36","tcg":81238,"grp":1330,"idx":35},
+    {"id":"037","section":"main","num":"037","printed":"DT04-EN037","name":"Arcana Knight Joker","ctype":"monster","keywords":"Knight Warrior LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 9","t":"Warrior / Fusion","atk":3800,"def":2500},"rarity":"DRPR","img":"6150044","code":"37","tcg":81239,"grp":1330,"idx":36},
+    {"id":"038","section":"main","num":"038","printed":"DT04-EN038","name":"Genex Ally Triarm","ctype":"monster","keywords":"Genex Machine DARK Synchro Monster","stats":{"a":"DARK","l":"Level 6","t":"Machine / Synchro","atk":2400,"def":1600},"rarity":"DUPR","img":"17760003","code":"38","tcg":81240,"grp":1330,"idx":37},
+    {"id":"039","section":"main","num":"039","printed":"DT04-EN039","name":"The Fabled Unicore","ctype":"monster","keywords":"Fabled Beast LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Beast / Synchro","atk":2300,"def":1000},"rarity":"DSPR","img":"44155002","code":"39","tcg":81241,"grp":1330,"idx":38},
+    {"id":"040","section":"main","num":"040","printed":"DT04-EN040","name":"Dragunity Knight - Trident","ctype":"monster","keywords":"Dragunity Dragon WIND Synchro Monster","stats":{"a":"WIND","l":"Level 7","t":"Dragon / Synchro","atk":2400,"def":1700},"rarity":"DUPR","img":"80159717","code":"40","tcg":81242,"grp":1330,"idx":39},
+    {"id":"041","section":"main","num":"041","printed":"DT04-EN041","name":"Jurrac Meteor","ctype":"monster","keywords":"Jurrac Dinosaur FIRE Synchro Monster","stats":{"a":"FIRE","l":"Level 10","t":"Dinosaur / Synchro","atk":2800,"def":2000},"rarity":"DUPR","img":"17548456","code":"41","tcg":81243,"grp":1330,"idx":40},
+    {"id":"042","section":"main","num":"042","printed":"DT04-EN042","name":"Naturia Landoise","ctype":"monster","keywords":"Naturia Rock EARTH Synchro Monster","stats":{"a":"EARTH","l":"Level 7","t":"Rock / Synchro","atk":2350,"def":1600},"rarity":"DUPR","img":"43932460","code":"42","tcg":81244,"grp":1330,"idx":41},
+    {"id":"043","section":"main","num":"043","printed":"DT04-EN043","name":"Polymerization","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"DNPR","img":"27847700","code":"43","tcg":81245,"grp":1330,"idx":42},
+    {"id":"044","section":"main","num":"044","printed":"DT04-EN044","name":"Megamorph","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"DNPR","img":"22046459","code":"44","tcg":81246,"grp":1330,"idx":43},
+    {"id":"045","section":"main","num":"045","printed":"DT04-EN045","name":"Limiter Removal","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"DNPR","img":"23171610","code":"45","tcg":81247,"grp":1330,"idx":44},
+    {"id":"046","section":"main","num":"046","printed":"DT04-EN046","name":"The Flute of Summoning Kuriboh","ctype":"spell","keywords":"Kuriboh Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"DNPR","img":"20065322","code":"46","tcg":81248,"grp":1330,"idx":45},
+    {"id":"047","section":"main","num":"047","printed":"DT04-EN047","name":"Discord","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"DNPR","img":"46480475","code":"47","tcg":81249,"grp":1330,"idx":46},
+    {"id":"048","section":"main","num":"048","printed":"DT04-EN048","name":"Royal Oppression","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"DNPR","img":"93016201","code":"48","tcg":81250,"grp":1330,"idx":47},
+    {"id":"049","section":"main","num":"049","printed":"DT04-EN049","name":"Icarus Attack","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"DRPR","img":"53567095","code":"49","tcg":81251,"grp":1330,"idx":48},
+    {"id":"050","section":"main","num":"050","printed":"DT04-EN050","name":"Divine Wrath","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"DNPR","img":"49010598","code":"50","tcg":81252,"grp":1330,"idx":49},
+    {"id":"051","section":"main","num":"051","printed":"DT04-EN051","name":"Snipe Hunter","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Effect","atk":1500,"def":600},"rarity":"DNPR","img":"84290642","code":"51","tcg":81253,"grp":1330,"idx":50},
+    {"id":"052","section":"main","num":"052","printed":"DT04-EN052","name":"Infernity Necromancer","ctype":"monster","keywords":"Infernity Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Fiend / Effect","atk":0,"def":2000},"rarity":"DNPR","img":"56209279","code":"52","tcg":81254,"grp":1330,"idx":51},
+    {"id":"053","section":"main","num":"053","printed":"DT04-EN053","name":"Cyberdark Edge","ctype":"monster","keywords":"Cyberdark Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Machine / Effect","atk":800,"def":800},"rarity":"DNPR","img":"77625948","code":"53","tcg":81255,"grp":1330,"idx":52},
+    {"id":"054","section":"main","num":"054","printed":"DT04-EN054","name":"Grave Squirmer","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Fiend / Effect","atk":0,"def":0},"rarity":"DRPR","img":"48343627","code":"54","tcg":81256,"grp":1330,"idx":53},
+    {"id":"055","section":"main","num":"055","printed":"DT04-EN055","name":"King of the Swamp","ctype":"monster","keywords":"Aqua WATER Effect Monster","stats":{"a":"WATER","l":"Level 3","t":"Aqua / Effect","atk":500,"def":1100},"rarity":"DNPR","img":"79109599","code":"55","tcg":81257,"grp":1330,"idx":54},
+    {"id":"056","section":"main","num":"056","printed":"DT04-EN056","name":"Masked Dragon","ctype":"monster","keywords":"Dragon FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 3","t":"Dragon / Effect","atk":1400,"def":1100},"rarity":"DNPR","img":"39191307","code":"56","tcg":81258,"grp":1330,"idx":55},
+    {"id":"057","section":"main","num":"057","printed":"DT04-EN057","name":"Wall of Illusion","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Effect","atk":1000,"def":1850},"rarity":"DNPR","img":"13945283","code":"57","tcg":81259,"grp":1330,"idx":56},
+    {"id":"058","section":"main","num":"058","printed":"DT04-EN058","name":"Elemental HERO Woodsman","ctype":"monster","keywords":"Elemental HERO Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Effect","atk":1000,"def":2000},"rarity":"DRPR","img":"75434695","code":"58","tcg":81260,"grp":1330,"idx":57},
+    {"id":"059","section":"main","num":"059","printed":"DT04-EN059","name":"Exploder Dragon","ctype":"monster","keywords":"Dragon EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Dragon / Effect","atk":1000,"def":0},"rarity":"DNPR","img":"20586572","code":"59","tcg":81261,"grp":1330,"idx":58},
+    {"id":"060","section":"main","num":"060","printed":"DT04-EN060","name":"Red-Eyes Darkness Metal Dragon","ctype":"monster","keywords":"Red-Eyes Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 10","t":"Dragon / Effect","atk":2800,"def":2400},"rarity":"DNPR","img":"88264978","code":"60","tcg":81262,"grp":1330,"idx":59},
+    {"id":"061","section":"main","num":"061","printed":"DT04-EN061","name":"Neo Flamvell Origin","ctype":"monster","keywords":"Flamvell Pyro FIRE Tuner Monster","stats":{"a":"FIRE","l":"Level 2","t":"Pyro / Tuner","atk":500,"def":200},"rarity":"DNPR","img":"66378485","code":"61","tcg":81263,"grp":1330,"idx":60},
+    {"id":"062","section":"main","num":"062","printed":"DT04-EN062","name":"Neo Flamvell Hedgehog","ctype":"monster","keywords":"Flamvell Pyro FIRE Tuner Monster","stats":{"a":"FIRE","l":"Level 3","t":"Pyro / Tuner","atk":800,"def":200},"rarity":"DRPR","img":"2377034","code":"62","tcg":81264,"grp":1330,"idx":61},
+    {"id":"063","section":"main","num":"063","printed":"DT04-EN063","name":"Neo Flamvell Shaman","ctype":"monster","keywords":"Flamvell Pyro FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 3","t":"Pyro / Effect","atk":1700,"def":200},"rarity":"DNPR","img":"39761138","code":"63","tcg":81265,"grp":1330,"idx":62},
+    {"id":"064","section":"main","num":"064","printed":"DT04-EN064","name":"Neo Flamvell Garuda","ctype":"monster","keywords":"Flamvell Pyro FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 3","t":"Pyro / Effect","atk":1200,"def":1800},"rarity":"DNPR","img":"65156847","code":"64","tcg":81266,"grp":1330,"idx":63},
+    {"id":"065","section":"main","num":"065","printed":"DT04-EN065","name":"Neo Flamvell Sabre","ctype":"monster","keywords":"Flamvell Pyro FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Pyro / Effect","atk":1500,"def":200},"rarity":"DSPR","img":"91554542","code":"65","tcg":81267,"grp":1330,"idx":64},
+    {"id":"066","section":"main","num":"066","printed":"DT04-EN066","name":"Genex Ally Chemistrer","ctype":"monster","keywords":"Genex Machine DARK Tuner Monster","stats":{"a":"DARK","l":"Level 2","t":"Machine / Tuner","atk":200,"def":500},"rarity":"DNPR","img":"38049541","code":"66","tcg":81268,"grp":1330,"idx":65},
+    {"id":"067","section":"main","num":"067","printed":"DT04-EN067","name":"Genex Ally Birdman","ctype":"monster","keywords":"Genex Machine DARK Tuner Monster","stats":{"a":"DARK","l":"Level 3","t":"Machine / Tuner","atk":1400,"def":400},"rarity":"DNPR","img":"64034255","code":"67","tcg":81269,"grp":1330,"idx":66},
+    {"id":"068","section":"main","num":"068","printed":"DT04-EN068","name":"Genex Ally Bellflame","ctype":"monster","keywords":"Genex Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Machine / Effect","atk":1700,"def":1000},"rarity":"DRPR","img":"91438994","code":"68","tcg":81270,"grp":1330,"idx":67},
+    {"id":"069","section":"main","num":"069","printed":"DT04-EN069","name":"Genex Ally Crusher","ctype":"monster","keywords":"Genex Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Machine / Effect","atk":1000,"def":2000},"rarity":"DNPR","img":"27827903","code":"69","tcg":81271,"grp":1330,"idx":68},
+    {"id":"070","section":"main","num":"070","printed":"DT04-EN070","name":"Genex Ally Reliever","ctype":"monster","keywords":"Genex Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 5","t":"Machine / Effect","atk":2200,"def":1000},"rarity":"DSPR","img":"63211608","code":"70","tcg":81272,"grp":1330,"idx":69},
+    {"id":"071","section":"main","num":"071","printed":"DT04-EN071","name":"The Fabled Peggulsus","ctype":"monster","keywords":"Fabled Beast LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Beast / Tuner","atk":100,"def":1600},"rarity":"DNPR","img":"90616316","code":"71","tcg":81273,"grp":1330,"idx":70},
+    {"id":"072","section":"main","num":"072","printed":"DT04-EN072","name":"The Fabled Kokkator","ctype":"monster","keywords":"Fabled Beast LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Beast / Effect","atk":1700,"def":1500},"rarity":"DNPR","img":"26704411","code":"72","tcg":81274,"grp":1330,"idx":71},
+    {"id":"073","section":"main","num":"073","printed":"DT04-EN073","name":"Fabled Dianaira","ctype":"monster","keywords":"Fabled Fiend LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Fiend / Effect","atk":2800,"def":100},"rarity":"DRPR","img":"53199020","code":"73","tcg":81275,"grp":1330,"idx":72},
+    {"id":"074","section":"main","num":"074","printed":"DT04-EN074","name":"Dragunity Corsesca","ctype":"monster","keywords":"Dragunity Dragon WIND Tuner Monster","stats":{"a":"WIND","l":"Level 1","t":"Dragon / Tuner","atk":800,"def":700},"rarity":"DNPR","img":"99594764","code":"74","tcg":81276,"grp":1330,"idx":73},
+    {"id":"075","section":"main","num":"075","printed":"DT04-EN075","name":"Dragunity Partisan","ctype":"monster","keywords":"Dragunity Dragon WIND Tuner Monster","stats":{"a":"WIND","l":"Level 2","t":"Dragon / Tuner","atk":1200,"def":800},"rarity":"DNPR","img":"25988873","code":"75","tcg":81277,"grp":1330,"idx":74},
+    {"id":"076","section":"main","num":"076","printed":"DT04-EN076","name":"Dragunity Pilum","ctype":"monster","keywords":"Dragunity Dragon WIND Tuner Monster","stats":{"a":"WIND","l":"Level 3","t":"Dragon / Tuner","atk":1400,"def":1000},"rarity":"DRPR","img":"52977572","code":"76","tcg":81278,"grp":1330,"idx":75},
+    {"id":"077","section":"main","num":"077","printed":"DT04-EN077","name":"Dragunity Angusticlavii","ctype":"monster","keywords":"Dragunity Winged Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 5","t":"Winged Beast / Effect","atk":2100,"def":1000},"rarity":"DNPR","img":"88361177","code":"77","tcg":81279,"grp":1330,"idx":76},
+    {"id":"078","section":"main","num":"078","printed":"DT04-EN078","name":"Naturia Stinkbug","ctype":"monster","keywords":"Naturia Insect EARTH Tuner Monster","stats":{"a":"EARTH","l":"Level 3","t":"Insect / Tuner","atk":200,"def":500},"rarity":"DNPR","img":"25866285","code":"78","tcg":81280,"grp":1330,"idx":77},
+    {"id":"079","section":"main","num":"079","printed":"DT04-EN079","name":"Naturia Mantis","ctype":"monster","keywords":"Insect EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Insect / Effect","atk":1700,"def":1500},"rarity":"DNPR","img":"51254980","code":"79","tcg":81281,"grp":1330,"idx":78},
+    {"id":"080","section":"main","num":"080","printed":"DT04-EN080","name":"Naturia Ragweed","ctype":"monster","keywords":"Naturia Plant EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Plant / Effect","atk":1200,"def":2000},"rarity":"DNPR","img":"87649699","code":"80","tcg":81282,"grp":1330,"idx":79},
+    {"id":"081","section":"main","num":"081","printed":"DT04-EN081","name":"Naturia White Oak","ctype":"monster","keywords":"Naturia Plant EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Plant / Effect","atk":1800,"def":1400},"rarity":"DSPR","img":"24644634","code":"81","tcg":81283,"grp":1330,"idx":80},
+    {"id":"082","section":"main","num":"082","printed":"DT04-EN082","name":"Strategist of the Ice Barrier","ctype":"monster","keywords":"Ice Barrier Spellcaster WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Spellcaster / Effect","atk":1600,"def":1600},"rarity":"DNPR","img":"50032342","code":"82","tcg":81284,"grp":1330,"idx":81},
+    {"id":"083","section":"main","num":"083","printed":"DT04-EN083","name":"Secret Guards of the Ice Barrier","ctype":"monster","keywords":"Ice Barrier Aqua WATER Effect Monster","stats":{"a":"WATER","l":"Level 2","t":"Aqua / Effect","atk":100,"def":1600},"rarity":"DNPR","img":"27527047","code":"83","tcg":81285,"grp":1330,"idx":82},
+    {"id":"084","section":"main","num":"084","printed":"DT04-EN084","name":"General Gantala of the Ice Barrier","ctype":"monster","keywords":"Ice Barrier Warrior WATER Effect Monster","stats":{"a":"WATER","l":"Level 7","t":"Warrior / Effect","atk":2700,"def":2000},"rarity":"DSPR","img":"53921056","code":"84","tcg":81286,"grp":1330,"idx":83},
+    {"id":"085","section":"main","num":"085","printed":"DT04-EN085","name":"Naturia Exterio","ctype":"monster","keywords":"Naturia Beast EARTH Fusion Monster","stats":{"a":"EARTH","l":"Level 10","t":"Beast / Fusion","atk":2800,"def":2400},"rarity":"DUPR","img":"99916754","code":"85","tcg":81287,"grp":1330,"idx":84},
+    {"id":"086","section":"main","num":"086","printed":"DT04-EN086","name":"Alligator's Sword Dragon","ctype":"monster","keywords":"Alligator Dragon WIND Fusion Monster","stats":{"a":"WIND","l":"Level 5","t":"Dragon / Fusion","atk":1700,"def":1500},"rarity":"DNPR","img":"3366982","code":"86","tcg":81288,"grp":1330,"idx":85},
+    {"id":"087","section":"main","num":"087","printed":"DT04-EN087","name":"Elemental HERO Terra Firma","ctype":"monster","keywords":"Elemental HERO Warrior EARTH Fusion Monster","stats":{"a":"EARTH","l":"Level 8","t":"Warrior / Fusion","atk":2500,"def":2000},"rarity":"DNPR","img":"74711057","code":"87","tcg":81289,"grp":1330,"idx":86},
+    {"id":"087-drpr","section":"rarities","num":"087","printed":"DT04-EN087","name":"Elemental HERO Terra Firma","ctype":"monster","keywords":"Elemental HERO Warrior EARTH Fusion Monster","stats":{"a":"EARTH","l":"Level 8","t":"Warrior / Fusion","atk":2500,"def":2000},"rarity":"DRPR","img":"74711057","badge":"DRPR","variant":"Duel Terminal Rare Parallel Rare","code":"DRPR87","tcg":81289,"grp":1330,"idx":87},
+    {"id":"088","section":"main","num":"088","printed":"DT04-EN088","name":"Ancient Flamvell Deity","ctype":"monster","keywords":"Flamvell Pyro FIRE Synchro Monster","stats":{"a":"FIRE","l":"Level 7","t":"Pyro / Synchro","atk":2500,"def":200},"rarity":"DUPR","img":"26304459","code":"88","tcg":81290,"grp":1330,"idx":88},
+    {"id":"089","section":"main","num":"089","printed":"DT04-EN089","name":"Genex Ally Triforce","ctype":"monster","keywords":"Genex Machine DARK Synchro Monster","stats":{"a":"DARK","l":"Level 7","t":"Machine / Synchro","atk":2500,"def":2100},"rarity":"DUPR","img":"52709508","code":"89","tcg":81291,"grp":1330,"idx":89},
+    {"id":"090","section":"main","num":"090","printed":"DT04-EN090","name":"The Fabled Kudabbi","ctype":"monster","keywords":"Fabled Beast LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Beast / Synchro","atk":2200,"def":1100},"rarity":"DSPR","img":"89194103","code":"90","tcg":81292,"grp":1330,"idx":90},
+    {"id":"091","section":"main","num":"091","printed":"DT04-EN091","name":"Dragunity Knight - Barcha","ctype":"monster","keywords":"Dragunity Dragon WIND Synchro Monster","stats":{"a":"WIND","l":"Level 8","t":"Dragon / Synchro","atk":2000,"def":1200},"rarity":"DSPR","img":"25682811","code":"91","tcg":81293,"grp":1330,"idx":91},
+    {"id":"092","section":"main","num":"092","printed":"DT04-EN092","name":"Trishula, Dragon of the Ice Barrier","ctype":"monster","keywords":"Ice Barrier Dragon WATER Synchro Monster","stats":{"a":"WATER","l":"Level 9","t":"Dragon / Synchro","atk":2700,"def":2000},"rarity":"DUPR","img":"52687916","code":"92","tcg":81294,"grp":1330,"idx":92},
+    {"id":"093","section":"main","num":"093","printed":"DT04-EN093","name":"Instant Fusion","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"DNPR","img":"1845204","code":"93","tcg":81295,"grp":1330,"idx":93},
+    {"id":"094","section":"main","num":"094","printed":"DT04-EN094","name":"De-Fusion","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"DNPR","img":"95286165","code":"94","tcg":81296,"grp":1330,"idx":94},
+    {"id":"095","section":"main","num":"095","printed":"DT04-EN095","name":"Monster Reincarnation","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"DNPR","img":"74848038","code":"95","tcg":81297,"grp":1330,"idx":95},
+    {"id":"096","section":"main","num":"096","printed":"DT04-EN096","name":"Assault Armor","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"DRPR","img":"88190790","code":"96","tcg":81298,"grp":1330,"idx":96},
+    {"id":"097","section":"main","num":"097","printed":"DT04-EN097","name":"Hate Buster","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"DNPR","img":"93895605","code":"97","tcg":81299,"grp":1330,"idx":97},
+    {"id":"098","section":"main","num":"098","printed":"DT04-EN098","name":"Trap Dustshoot","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"DNPR","img":"64697231","code":"98","tcg":81300,"grp":1330,"idx":98},
+    {"id":"099","section":"main","num":"099","printed":"DT04-EN099","name":"Phoenix Wing Wind Blast","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"DNPR","img":"63356631","code":"99","tcg":81301,"grp":1330,"idx":99},
+    {"id":"100","section":"main","num":"100","printed":"DT04-EN100","name":"Anti-Spell Fragrance","ctype":"trap","keywords":"Anti Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"DRPR","img":"58921041","code":"100","tcg":81302,"grp":1330,"idx":100}
+  ]
+}

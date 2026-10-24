@@ -1,0 +1,108 @@
+{
+  "id": "yugioh/structure-deck-sacred-beasts",
+  "game": "yugioh",
+  "slug": "structure-deck-sacred-beasts",
+  "name": "Structure Deck: Sacred Beasts",
+  "series": "VRAINS",
+  "kind": "deck",
+  "code": "SDSA",
+  "syncKey": "YSDSA",
+  "released": "2020-07-09",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "SDSA-EN001–SDSA-EN048",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from SDSA-EN001 to SDSA-EN048."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Structure Deck: Sacred Beasts Checklist · All 48 Cards",
+    "description": "Free Yu-Gi-Oh! Structure Deck: Sacred Beasts checklist with no ads, no sign-up and no tracking. Track all 48 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Structure Deck: Sacred Beasts Checklist",
+    "ogDescription": "Track all 48 cards in Yu-Gi-Oh! Structure Deck: Sacred Beasts. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 48 cards in Yu-Gi-Oh! Structure Deck: Sacred Beasts. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Structure Deck: Sacred Beasts",
+    "paragraphs": [
+      "Structure Deck: Sacred Beasts is a Yu-Gi-Oh! TCG deck released on 9 July 2020, in the VRAINS era. It has 48 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Structure Deck: Sacred Beasts"
+    ],
+    "tcgplayer": [
+      2659
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"SDSA-EN001","name":"Raviel, Lord of Phantasms - Shimmering Scraper","ctype":"monster","keywords":"Sacred Beast Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 10","t":"Fiend / Effect","atk":4000,"def":4000},"rarity":"UR","img":"28651380","code":"1","tcg":217692,"grp":2659,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"SDSA-EN002","name":"Chaos Core","ctype":"monster","keywords":"Sacred Beast Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Fiend / Effect","atk":0,"def":0},"rarity":"C","img":"54040484","code":"2","tcg":217693,"grp":2659,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"SDSA-EN003","name":"Dark Beckoning Beast","ctype":"monster","keywords":"Sacred Beast Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 2","t":"Fiend / Effect","atk":0,"def":0},"rarity":"C","img":"81034083","code":"3","tcg":217694,"grp":2659,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"SDSA-EN004","name":"Chaos Summoning Beast","ctype":"monster","keywords":"Sacred Beast Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Fiend / Effect","atk":0,"def":0},"rarity":"C","img":"27439792","code":"4","tcg":217695,"grp":2659,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"SDSA-EN005","name":"Dark Summoning Beast","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 5","t":"Fiend / Effect","atk":0,"def":0},"rarity":"C","img":"87917187","code":"5","tcg":217696,"grp":2659,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"SDSA-EN006","name":"Phantom of Chaos","ctype":"monster","keywords":"Chaos Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Effect","atk":0,"def":0},"rarity":"C","img":"30312361","code":"6","tcg":217697,"grp":2659,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"SDSA-EN007","name":"Phantom Skyblaster","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Effect","atk":1100,"def":800},"rarity":"C","img":"12958919","code":"7","tcg":217698,"grp":2659,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"SDSA-EN008","name":"Mad Reloader","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Fiend / Effect","atk":0,"def":0},"rarity":"C","img":"31034919","code":"8","tcg":217699,"grp":2659,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"SDSA-EN009","name":"Grave Squirmer","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Fiend / Effect","atk":0,"def":0},"rarity":"C","img":"48343627","code":"9","tcg":217700,"grp":2659,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"SDSA-EN010","name":"Rainbow Dark Dragon","ctype":"monster","keywords":"Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 10","t":"Dragon / Effect","atk":4000,"def":0},"rarity":"C","img":"79407975","code":"10","tcg":217701,"grp":2659,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"SDSA-EN011","name":"Tragoedia","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 10","t":"Fiend / Effect","atk":-1,"def":-1},"rarity":"C","img":"98777036","code":"11","tcg":217702,"grp":2659,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"SDSA-EN012","name":"Radian, the Multidimensional Kaiju","ctype":"monster","keywords":"Kaiju Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Fiend / Effect","atk":2800,"def":2500},"rarity":"C","img":"28674152","code":"12","tcg":217703,"grp":2659,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"SDSA-EN013","name":"Chaos Hunter","ctype":"monster","keywords":"Chaos Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Fiend / Effect","atk":2500,"def":1600},"rarity":"C","img":"97940434","code":"13","tcg":217704,"grp":2659,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"SDSA-EN014","name":"Puppet Master","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Fiend / Effect","atk":0,"def":0},"rarity":"C","img":"41442341","code":"14","tcg":217705,"grp":2659,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"SDSA-EN015","name":"Stygian Street Patrol","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Effect","atk":1600,"def":1200},"rarity":"C","img":"13521194","code":"15","tcg":217706,"grp":2659,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"SDSA-EN016","name":"Farfa, Malebranche of the Burning Abyss","ctype":"monster","keywords":"Burning Abyss Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Fiend / Effect","atk":1000,"def":1900},"rarity":"C","img":"36553319","code":"16","tcg":217707,"grp":2659,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"SDSA-EN017","name":"The Fabled Cerburrel","ctype":"monster","keywords":"Fabled Beast LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 2","t":"Beast / Tuner","atk":1000,"def":400},"rarity":"C","img":"82888408","code":"17","tcg":217708,"grp":2659,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"SDSA-EN018","name":"Danger! Chupacabra!","ctype":"monster","keywords":"Danger! Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Effect","atk":1500,"def":400},"rarity":"C","img":"16209941","code":"18","tcg":217709,"grp":2659,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"SDSA-EN019","name":"Cerulean Skyfire","ctype":"spell","keywords":"Sacred Beast Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"SR","img":"54828837","code":"19","tcg":217710,"grp":2659,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"SDSA-EN020","name":"Opening of the Spirit Gates","ctype":"spell","keywords":"Sacred Beast Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"80312545","code":"20","tcg":217711,"grp":2659,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"SDSA-EN021","name":"Fallen Paradise","ctype":"spell","keywords":"Sacred Beast Field Spell","stats":{"t":"Field Spell"},"rarity":"C","img":"13301895","code":"21","tcg":217712,"grp":2659,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"SDSA-EN022","name":"Phantasmal Martyrs","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"93224848","code":"22","tcg":217713,"grp":2659,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"SDSA-EN023","name":"Spell Chronicle","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"74402414","code":"23","tcg":217714,"grp":2659,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"SDSA-EN024","name":"Terraforming","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"73628505","code":"24","tcg":217715,"grp":2659,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"SDSA-EN025","name":"Set Rotation","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"73468603","code":"25","tcg":217716,"grp":2659,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"SDSA-EN026","name":"Mound of the Bound Creator","ctype":"spell","keywords":"Field Spell","stats":{"t":"Field Spell"},"rarity":"C","img":"269012","code":"26","tcg":217717,"grp":2659,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"SDSA-EN027","name":"One for One","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"2295440","code":"27","tcg":217718,"grp":2659,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"SDSA-EN028","name":"The Beginning of the End","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"73680966","code":"28","tcg":217719,"grp":2659,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"SDSA-EN029","name":"Pot of Desires","ctype":"spell","keywords":"Greed Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"35261759","code":"29","tcg":217720,"grp":2659,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"SDSA-EN030","name":"Owner's Seal","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"9720537","code":"30","tcg":217721,"grp":2659,"idx":29},
+    {"id":"031","section":"main","num":"031","printed":"SDSA-EN031","name":"Field Barrier","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"7153114","code":"31","tcg":217722,"grp":2659,"idx":30},
+    {"id":"032","section":"main","num":"032","printed":"SDSA-EN032","name":"Swords of Concealing Light","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"12923641","code":"32","tcg":217723,"grp":2659,"idx":31},
+    {"id":"033","section":"main","num":"033","printed":"SDSA-EN033","name":"Mystical Space Typhoon","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"5318639","code":"33","tcg":217724,"grp":2659,"idx":32},
+    {"id":"034","section":"main","num":"034","printed":"SDSA-EN034","name":"Hyper Blaze","ctype":"trap","keywords":"Sacred Beast Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"SR","img":"16317140","code":"34","tcg":217725,"grp":2659,"idx":33},
+    {"id":"035","section":"main","num":"035","printed":"SDSA-EN035","name":"Awakening of the Sacred Beasts","ctype":"trap","keywords":"Sacred Beast Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"53701259","code":"35","tcg":217726,"grp":2659,"idx":34},
+    {"id":"036","section":"main","num":"036","printed":"SDSA-EN036","name":"Escape from the Dark Dimension","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"31550470","code":"36","tcg":217727,"grp":2659,"idx":35},
+    {"id":"037","section":"main","num":"037","printed":"SDSA-EN037","name":"Shapesister","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"92099232","code":"37","tcg":217728,"grp":2659,"idx":36},
+    {"id":"038","section":"main","num":"038","printed":"SDSA-EN038","name":"Imperial Custom","ctype":"trap","keywords":"Royal Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"9995766","code":"38","tcg":217729,"grp":2659,"idx":37},
+    {"id":"039","section":"main","num":"039","printed":"SDSA-EN039","name":"Mistake","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"59305593","code":"39","tcg":217730,"grp":2659,"idx":38},
+    {"id":"040","section":"main","num":"040","printed":"SDSA-EN040","name":"Dark Factory of More Production","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"9064354","code":"40","tcg":217731,"grp":2659,"idx":39},
+    {"id":"041","section":"main","num":"041","printed":"SDSA-EN041","name":"Phantasm Emperor Trilojig","ctype":"monster","keywords":"Chaos Phantom Fiend DARK Fusion Monster","stats":{"a":"DARK","l":"Level 10","t":"Fiend / Fusion","atk":4000,"def":4000},"rarity":"C","img":"95463814","code":"41","tcg":217732,"grp":2659,"idx":40},
+    {"id":"042","section":"main","num":"042","printed":"SDSA-EN042","name":"Uria, Lord of Searing Flames","ctype":"monster","keywords":"Sacred Beast Pyro FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 10","t":"Pyro / Effect","atk":0,"def":0},"rarity":"UR","img":"6007213","code":"42","tcg":217733,"grp":2659,"idx":41},
+    {"id":"043","section":"main","num":"043","printed":"SDSA-EN043","name":"Hamon, Lord of Striking Thunder","ctype":"monster","keywords":"Sacred Beast Thunder LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 10","t":"Thunder / Effect","atk":4000,"def":4000},"rarity":"UR","img":"32491822","code":"43","tcg":217734,"grp":2659,"idx":42},
+    {"id":"044","section":"main","num":"044","printed":"SDSA-EN044","name":"Raviel, Lord of Phantasms","ctype":"monster","keywords":"Sacred Beast Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 10","t":"Fiend / Effect","atk":4000,"def":4000},"rarity":"UR","img":"69890967","code":"44","tcg":217735,"grp":2659,"idx":43},
+    {"id":"045","section":"main","num":"045","printed":"SDSA-EN045","name":"Armityle the Chaos Phantasm","ctype":"monster","keywords":"Chaos Phantom Fiend DARK Fusion Monster","stats":{"a":"DARK","l":"Level 12","t":"Fiend / Fusion","atk":0,"def":0},"rarity":"UR","img":"43378048","code":"45","tcg":217736,"grp":2659,"idx":44},
+    {"id":"046","section":"main","num":"046","printed":"SDSA-EN046","name":"Dimension Fusion Destruction","ctype":"spell","keywords":"Chaos Phantom Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"89190953","code":"46","tcg":217737,"grp":2659,"idx":45},
+    {"id":"047","section":"main","num":"047","printed":"SDSA-EN047","name":"Phantasmal Martyr Token","ctype":"token","keywords":"Phantasm Fiend Token","stats":{"t":"Fiend / Token"},"rarity":"C","img":"93224849","code":"47","tcg":217739,"grp":2659,"idx":46},
+    {"id":"048","section":"main","num":"048","printed":"SDSA-EN048","name":"Phantasm Token","ctype":"token","keywords":"Phantasm Fiend Token","stats":{"t":"Fiend / Token"},"rarity":"C","img":"69890968","code":"48","tcg":217738,"grp":2659,"idx":47}
+  ]
+}

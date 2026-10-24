@@ -1,0 +1,124 @@
+{
+  "id": "yugioh/duel-terminal-7a",
+  "game": "yugioh",
+  "slug": "duel-terminal-7a",
+  "name": "Duel Terminal 7a",
+  "series": "ZEXAL",
+  "kind": "set",
+  "code": "DT07",
+  "syncKey": "YDT07",
+  "released": "2012-09-28",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Main Set",
+      "range": "DT07-EN001–DT07-EN069",
+      "tier": "standard"
+    },
+    {
+      "id": "rarities",
+      "name": "Other Rarities",
+      "short": "Other Rarities",
+      "range": "1 card",
+      "tier": "master"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Main set"
+    ],
+    [
+      "rarities",
+      "Other rarities"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, SCR12, 60x2",
+    "example": "1-20, 45x2, SCR12",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies. Other rarities use their short name and number: <b>SCR12</b> is card 12’s Secret Rare, and ranges work too (<b>QCSR1-QCSR20</b>).",
+    "empty": "Cards run from DT07-EN001 to DT07-EN069."
+  },
+  "help": {
+    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 51 cards, each in its main rarity. Master adds the 1 other rarity. Cards you’ve marked are kept when you switch."
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Duel Terminal 7a Checklist · All 51 Cards",
+    "description": "Free Yu-Gi-Oh! Duel Terminal 7a checklist with no ads, no sign-up and no tracking. Track all 51 cards, or every rarity for a master set, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Duel Terminal 7a Checklist",
+    "ogDescription": "Track all 51 cards in Yu-Gi-Oh! Duel Terminal 7a, plus 1 other rarity. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 51 cards in Yu-Gi-Oh! Duel Terminal 7a. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About the Duel Terminal 7a set",
+    "paragraphs": [
+      "Duel Terminal 7a is a Yu-Gi-Oh! TCG special set released on 28 September 2012, in the ZEXAL era. It has 51 cards, and with the 1 other rarity there are 52 to collect in all.",
+      "Choose what you’re collecting: the <b>Standard set</b> (the 51 cards, each in its main rarity) or the <b>Master set</b> (all 52, adding the 1 other rarity).",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Duel Terminal 7a"
+    ],
+    "tcgplayer": [
+      1333
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"DT07-EN001","name":"Gogogo Golem","ctype":"monster","keywords":"Gogogo Rock EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Rock / Effect","atk":1800,"def":1500},"rarity":"DNPR","img":"62476815","code":"1","tcg":81532,"grp":1333,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"DT07-EN002","name":"Big Jaws","ctype":"monster","keywords":"Fish WATER Effect Monster","stats":{"a":"WATER","l":"Level 3","t":"Fish / Effect","atk":1800,"def":300},"rarity":"DNPR","img":"51254277","code":"2","tcg":81533,"grp":1333,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"DT07-EN003","name":"Daybreaker","ctype":"monster","keywords":"Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Effect","atk":1700,"def":0},"rarity":"DNPR","img":"29116732","code":"3","tcg":81534,"grp":1333,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"DT07-EN004","name":"Amazoness Chain Master","ctype":"monster","keywords":"Amazoness Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Effect","atk":1500,"def":1300},"rarity":"DNPR","img":"29654737","code":"4","tcg":81535,"grp":1333,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"DT07-EN005","name":"Honest","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fairy / Effect","atk":1100,"def":1900},"rarity":"DRPR","img":"37742478","code":"5","tcg":81536,"grp":1333,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"DT07-EN006","name":"Neo-Spacian Grand Mole","ctype":"monster","keywords":"Neo-Spacian Rock EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Rock / Effect","atk":900,"def":300},"rarity":"DNPR","img":"80344569","code":"6","tcg":81537,"grp":1333,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"DT07-EN007","name":"Quillbolt Hedgehog","ctype":"monster","keywords":"Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 2","t":"Machine / Effect","atk":800,"def":800},"rarity":"DNPR","img":"23571046","code":"7","tcg":81538,"grp":1333,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"DT07-EN008","name":"Meklord Emperor Wisel","ctype":"monster","keywords":"Meklord Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Machine / Effect","atk":2500,"def":2500},"rarity":"DRPR","img":"68140974","code":"8","tcg":81539,"grp":1333,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"DT07-EN009","name":"White-Horned Dragon","ctype":"monster","keywords":"Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Dragon / Effect","atk":2200,"def":1400},"rarity":"DRPR","img":"73891874","code":"9","tcg":81540,"grp":1333,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"DT07-EN010","name":"Blizzard Dragon","ctype":"monster","keywords":"Dragon WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Dragon / Effect","atk":1800,"def":1000},"rarity":"DNPR","img":"61802346","code":"10","tcg":81541,"grp":1333,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"DT07-EN011","name":"Mezuki","ctype":"monster","keywords":"Zombie EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Zombie / Effect","atk":1700,"def":800},"rarity":"DNPR","img":"92826944","code":"11","tcg":81542,"grp":1333,"idx":10},
+    {"id":"011-dnrpr","section":"rarities","num":"011","printed":"DT07-EN011","name":"Mezuki","ctype":"monster","keywords":"Zombie EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Zombie / Effect","atk":1700,"def":800},"rarity":"DNRPR","img":"92826944","badge":"DNRPR","variant":"Duel Terminal Normal Rare Parallel Rare","code":"DNRPR11","tcg":81542,"grp":1333,"idx":11},
+    {"id":"012","section":"main","num":"012","printed":"DT07-EN012","name":"Fabled Raven","ctype":"monster","keywords":"Fabled Fiend LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 2","t":"Fiend / Tuner","atk":1300,"def":1000},"rarity":"DNPR","img":"47217354","code":"12","tcg":81543,"grp":1333,"idx":12},
+    {"id":"013","section":"main","num":"013","printed":"DT07-EN013","name":"XX-Saber Faultroll","ctype":"monster","keywords":"X-Saber Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 6","t":"Warrior / Effect","atk":2400,"def":1800},"rarity":"DNPR","img":"51808422","code":"13","tcg":81544,"grp":1333,"idx":13},
+    {"id":"014","section":"main","num":"014","printed":"DT07-EN014","name":"Gem-Knight Sardonyx","ctype":"monster","keywords":"Gem- Pyro EARTH Gemini Monster","stats":{"a":"EARTH","l":"Level 4","t":"Pyro / Gemini","atk":1800,"def":900},"rarity":"DNPR","img":"43114901","code":"14","tcg":81545,"grp":1333,"idx":14},
+    {"id":"015","section":"main","num":"015","printed":"DT07-EN015","name":"Laval Phlogis","ctype":"monster","keywords":"Laval Pyro FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Pyro / Effect","atk":1700,"def":800},"rarity":"DNPR","img":"89609515","code":"15","tcg":81546,"grp":1333,"idx":15},
+    {"id":"016","section":"main","num":"016","printed":"DT07-EN016","name":"Gishki Avance","ctype":"monster","keywords":"Gishki Spellcaster WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Spellcaster / Effect","atk":1500,"def":800},"rarity":"DNPR","img":"16693254","code":"16","tcg":81547,"grp":1333,"idx":16},
+    {"id":"017","section":"main","num":"017","printed":"DT07-EN017","name":"Gusto Griffin","ctype":"monster","keywords":"Gusto Winged Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 2","t":"Winged Beast / Effect","atk":800,"def":300},"rarity":"DNPR","img":"42082363","code":"17","tcg":81548,"grp":1333,"idx":17},
+    {"id":"018","section":"main","num":"018","printed":"DT07-EN018","name":"Constellar Sheratan","ctype":"monster","keywords":"Constellar Beast LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Beast / Effect","atk":700,"def":1900},"rarity":"DNPR","img":"78486968","code":"18","tcg":81549,"grp":1333,"idx":18},
+    {"id":"019","section":"main","num":"019","printed":"DT07-EN019","name":"Constellar Aldebaran","ctype":"monster","keywords":"Constellar Beast-Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Beast-Warrior / Effect","atk":1300,"def":800},"rarity":"DNPR","img":"15871676","code":"19","tcg":81550,"grp":1333,"idx":19},
+    {"id":"020","section":"main","num":"020","printed":"DT07-EN020","name":"Constellar Algiedi","ctype":"monster","keywords":"Constellar Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Effect","atk":1600,"def":1400},"rarity":"DNPR","img":"41269771","code":"20","tcg":81551,"grp":1333,"idx":20},
+    {"id":"021","section":"main","num":"021","printed":"DT07-EN021","name":"Constellar Pollux","ctype":"monster","keywords":"Constellar Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Effect","atk":1700,"def":600},"rarity":"DRPR","img":"78364470","code":"21","tcg":81552,"grp":1333,"idx":21},
+    {"id":"022","section":"main","num":"022","printed":"DT07-EN022","name":"Constellar Zubeneschamali","ctype":"monster","keywords":"Constellar Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 5","t":"Machine / Effect","atk":2100,"def":1400},"rarity":"DRPR","img":"14759024","code":"22","tcg":81553,"grp":1333,"idx":22},
+    {"id":"023","section":"main","num":"023","printed":"DT07-EN023","name":"Constellar Virgo","ctype":"monster","keywords":"Constellar Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 5","t":"Fairy / Effect","atk":2300,"def":1600},"rarity":"DSPR","img":"40143123","code":"23","tcg":81554,"grp":1333,"idx":23},
+    {"id":"024","section":"main","num":"024","printed":"DT07-EN024","name":"Evilswarm Heliotrope","ctype":"monster","keywords":"Lswarm Rock DARK Normal Monster","stats":{"a":"DARK","l":"Level 4","t":"Rock / Normal","atk":1950,"def":650},"rarity":"DNPR","img":"77542832","code":"24","tcg":81555,"grp":1333,"idx":24},
+    {"id":"025","section":"main","num":"025","printed":"DT07-EN025","name":"Evilswarm Zahak","ctype":"monster","keywords":"Lswarm Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Dragon / Effect","atk":1850,"def":850},"rarity":"DRPR","img":"3536537","code":"25","tcg":81556,"grp":1333,"idx":25},
+    {"id":"026","section":"main","num":"026","printed":"DT07-EN026","name":"Evilswarm Ketos","ctype":"monster","keywords":"Lswarm Aqua DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Aqua / Effect","atk":1750,"def":1050},"rarity":"DRPR","img":"40921545","code":"26","tcg":81557,"grp":1333,"idx":26},
+    {"id":"027","section":"main","num":"027","printed":"DT07-EN027","name":"Evilswarm O'lantern","ctype":"monster","keywords":"Lswarm Pyro DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Pyro / Effect","atk":1650,"def":1250},"rarity":"DNPR","img":"72429240","code":"27","tcg":81558,"grp":1333,"idx":27},
+    {"id":"028","section":"main","num":"028","printed":"DT07-EN028","name":"Evilswarm Mandragora","ctype":"monster","keywords":"Lswarm Plant DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Plant / Effect","atk":1550,"def":1450},"rarity":"DNPR","img":"8814959","code":"28","tcg":81559,"grp":1333,"idx":28},
+    {"id":"029","section":"main","num":"029","printed":"DT07-EN029","name":"Evilswarm Hraesvelg","ctype":"monster","keywords":"Lswarm Winged Beast DARK Flip Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Winged Beast / Flip / Effect","atk":1150,"def":1850},"rarity":"DRPR","img":"35209994","code":"29","tcg":81560,"grp":1333,"idx":29},
+    {"id":"030","section":"main","num":"030","printed":"DT07-EN030","name":"Black Luster Soldier","ctype":"monster","keywords":"Black Luster Soldier Warrior EARTH Ritual Monster","stats":{"a":"EARTH","l":"Level 8","t":"Warrior / Ritual","atk":3000,"def":2500},"rarity":"DRPR","img":"5405694","code":"30","tcg":81561,"grp":1333,"idx":30},
+    {"id":"031","section":"main","num":"031","printed":"DT07-EN031","name":"Evigishki Levianima","ctype":"monster","keywords":"Gishki Aqua WATER Ritual Effect Monster","stats":{"a":"WATER","l":"Level 8","t":"Aqua / Ritual / Effect","atk":2700,"def":1500},"rarity":"DSPR","img":"71203602","code":"31","tcg":81562,"grp":1333,"idx":31},
+    {"id":"032","section":"main","num":"032","printed":"DT07-EN032","name":"Chimeratech Overdragon","ctype":"monster","keywords":"Machine DARK Fusion Monster","stats":{"a":"DARK","l":"Level 9","t":"Machine / Fusion","atk":-1,"def":-1},"rarity":"DRPR","img":"64599569","code":"32","tcg":81563,"grp":1333,"idx":32},
+    {"id":"033","section":"main","num":"033","printed":"DT07-EN033","name":"Gem-Knight Zirconia","ctype":"monster","keywords":"Gem- Rock EARTH Fusion Monster","stats":{"a":"EARTH","l":"Level 8","t":"Rock / Fusion","atk":2900,"def":2500},"rarity":"DSPR","img":"8692301","code":"33","tcg":81564,"grp":1333,"idx":33},
+    {"id":"034","section":"main","num":"034","printed":"DT07-EN034","name":"Number 39: Utopia","ctype":"monster","keywords":"Utopia Warrior LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 4","t":"Warrior / Xyz","atk":2500,"def":2000},"rarity":"DSPR","img":"84013237","code":"34","tcg":81565,"grp":1333,"idx":34},
+    {"id":"035","section":"main","num":"035","printed":"DT07-EN035","name":"Lavalval Chain","ctype":"monster","keywords":"Laval Sea Serpent FIRE Xyz Monster","stats":{"a":"FIRE","l":"Rank 4","t":"Sea Serpent / Xyz","atk":1800,"def":1000},"rarity":"DUPR","img":"34086406","code":"35","tcg":81566,"grp":1333,"idx":35},
+    {"id":"036","section":"main","num":"036","printed":"DT07-EN036","name":"Daigusto Emeral","ctype":"monster","keywords":"Gusto Rock WIND Xyz Monster","stats":{"a":"WIND","l":"Rank 4","t":"Rock / Xyz","atk":1800,"def":800},"rarity":"DUPR","img":"581014","code":"36","tcg":81567,"grp":1333,"idx":36},
+    {"id":"037","section":"main","num":"037","printed":"DT07-EN037","name":"Constellar Hyades","ctype":"monster","keywords":"Constellar Beast-Warrior LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 3","t":"Beast-Warrior / Xyz","atk":1900,"def":1100},"rarity":"DSPR","img":"47579719","code":"37","tcg":81568,"grp":1333,"idx":37},
+    {"id":"038","section":"main","num":"038","printed":"DT07-EN038","name":"Constellar Pleiades","ctype":"monster","keywords":"Constellar Warrior LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 5","t":"Warrior / Xyz","atk":2500,"def":1500},"rarity":"DUPR","img":"73964868","code":"38","tcg":81569,"grp":1333,"idx":38},
+    {"id":"039","section":"main","num":"039","printed":"DT07-EN039","name":"Evilswarm Nightmare","ctype":"monster","keywords":"Lswarm Fiend DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 4","t":"Fiend / Xyz","atk":950,"def":1950},"rarity":"DSPR","img":"359563","code":"39","tcg":81570,"grp":1333,"idx":39},
+    {"id":"040","section":"main","num":"040","printed":"DT07-EN040","name":"Evilswarm Bahamut","ctype":"monster","keywords":"Lswarm Dragon DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 4","t":"Dragon / Xyz","atk":2350,"def":1350},"rarity":"DUPR","img":"36757171","code":"40","tcg":81571,"grp":1333,"idx":40},
+    {"id":"041","section":"main","num":"041","printed":"DT07-EN041","name":"Black Luster Ritual","ctype":"spell","keywords":"Black Luster Soldier Ritual Spell","stats":{"t":"Ritual Spell"},"rarity":"DNPR","img":"55761792","code":"41","tcg":81572,"grp":1333,"idx":41},
+    {"id":"042","section":"main","num":"042","printed":"DT07-EN042","name":"Overload Fusion","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"DNPR","img":"3659803","code":"42","tcg":81573,"grp":1333,"idx":42},
+    {"id":"043","section":"main","num":"043","printed":"DT07-EN043","name":"Molten Conduction Field","ctype":"spell","keywords":"Laval Normal Spell","stats":{"t":"Normal Spell"},"rarity":"DNPR","img":"72142276","code":"43","tcg":81574,"grp":1333,"idx":43},
+    {"id":"044","section":"main","num":"044","printed":"DT07-EN044","name":"Gishki Photomirror","ctype":"spell","keywords":"Gishki Ritual Spell","stats":{"t":"Ritual Spell"},"rarity":"DNPR","img":"9236985","code":"44","tcg":81575,"grp":1333,"idx":44},
+    {"id":"045","section":"main","num":"045","printed":"DT07-EN045","name":"Constellar Star Chart","ctype":"spell","keywords":"Constellar Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"DNPR","img":"35631584","code":"45","tcg":81576,"grp":1333,"idx":45},
+    {"id":"046","section":"main","num":"046","printed":"DT07-EN046","name":"Scrap-Iron Scarecrow","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"DNPR","img":"98427577","code":"46","tcg":81578,"grp":1333,"idx":46},
+    {"id":"047","section":"main","num":"047","printed":"DT07-EN047","name":"Gottoms' Emergency Call","ctype":"trap","keywords":"X-Saber Normal Trap","stats":{"t":"Normal Trap"},"rarity":"DNPR","img":"13504844","code":"47","tcg":81577,"grp":1333,"idx":47},
+    {"id":"048","section":"main","num":"048","printed":"DT07-EN048","name":"Fragment Fusion","ctype":"trap","keywords":"Gem- Normal Trap","stats":{"t":"Normal Trap"},"rarity":"DNPR","img":"72029628","code":"48","tcg":81579,"grp":1333,"idx":48},
+    {"id":"049","section":"main","num":"049","printed":"DT07-EN049","name":"Dust Storm of Gusto","ctype":"trap","keywords":"Gusto Normal Trap","stats":{"t":"Normal Trap"},"rarity":"DNPR","img":"8414337","code":"49","tcg":81580,"grp":1333,"idx":49},
+    {"id":"050","section":"main","num":"050","printed":"DT07-EN050","name":"Infestation Infection","ctype":"trap","keywords":"Infestation Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"DNPR","img":"35419032","code":"50","tcg":81581,"grp":1333,"idx":50},
+    {"id":"069","section":"main","num":"069","printed":"DT07-EN069","name":"Constellar Kaus","ctype":"monster","keywords":"Constellar Beast-Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Beast-Warrior / Effect","atk":1800,"def":700},"rarity":"DRPR","img":"70908596","code":"69","tcg":81601,"grp":1333,"idx":51}
+  ]
+}

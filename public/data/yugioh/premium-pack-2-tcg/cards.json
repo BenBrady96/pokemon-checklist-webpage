@@ -1,0 +1,102 @@
+{
+  "id": "yugioh/premium-pack-2-tcg",
+  "game": "yugioh",
+  "slug": "premium-pack-2-tcg",
+  "name": "Premium Pack 2 (TCG)",
+  "series": "GX",
+  "kind": "pack",
+  "code": "PP02",
+  "syncKey": "YPP02",
+  "released": "2008-07-31",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "PP02-EN001–PP02-EN020",
+      "tier": "standard"
+    },
+    {
+      "id": "rarities",
+      "name": "Other Rarities",
+      "short": "Other Rarities",
+      "range": "10 cards",
+      "tier": "master"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Main set"
+    ],
+    [
+      "rarities",
+      "Other rarities"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, SCR12, 60x2",
+    "example": "1-20, 45x2, SCR12",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies. Other rarities use their short name and number: <b>SCR12</b> is card 12’s Secret Rare, and ranges work too (<b>QCSR1-QCSR20</b>).",
+    "empty": "Cards run from PP02-EN001 to PP02-EN020."
+  },
+  "help": {
+    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 20 cards, each in its main rarity. Master adds the 10 other rarities. Cards you’ve marked are kept when you switch."
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Premium Pack 2 (TCG) Checklist · All 20 Cards",
+    "description": "Free Yu-Gi-Oh! Premium Pack 2 (TCG) checklist with no ads, no sign-up and no tracking. Track all 20 cards, or every rarity for a master set, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Premium Pack 2 (TCG) Checklist",
+    "ogDescription": "Track all 20 cards in Yu-Gi-Oh! Premium Pack 2 (TCG), plus 10 other rarities. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 20 cards in Yu-Gi-Oh! Premium Pack 2 (TCG). Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Premium Pack 2 (TCG)",
+    "paragraphs": [
+      "Premium Pack 2 (TCG) is a Yu-Gi-Oh! TCG pack released on 31 July 2008, in the GX era. It has 20 cards, and with the 10 other rarities there are 30 to collect in all.",
+      "Choose what you’re collecting: the <b>Standard set</b> (the 20 cards, each in its main rarity) or the <b>Master set</b> (all 30, adding the 10 other rarities).",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Premium Pack 2 (TCG)"
+    ],
+    "tcgplayer": [
+      267
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"PP02-EN001","name":"Super War-Lion","ctype":"monster","keywords":"Beast EARTH Ritual Monster","stats":{"a":"EARTH","l":"Level 7","t":"Beast / Ritual","atk":2300,"def":2100},"rarity":"SR","img":"33951077","code":"1","tcg":32126,"grp":267,"idx":0},
+    {"id":"001-scr","section":"rarities","num":"001","printed":"PP02-EN001","name":"Super War-Lion","ctype":"monster","keywords":"Beast EARTH Ritual Monster","stats":{"a":"EARTH","l":"Level 7","t":"Beast / Ritual","atk":2300,"def":2100},"rarity":"ScR","img":"33951077","badge":"ScR","variant":"Secret Rare","code":"SCR1","tcg":90822,"grp":267,"idx":1},
+    {"id":"002","section":"main","num":"002","printed":"PP02-EN002","name":"War-Lion Ritual","ctype":"spell","keywords":"Ritual Spell","stats":{"t":"Ritual Spell"},"rarity":"SR","img":"54539105","code":"2","tcg":32208,"grp":267,"idx":2},
+    {"id":"002-scr","section":"rarities","num":"002","printed":"PP02-EN002","name":"War-Lion Ritual","ctype":"spell","keywords":"Ritual Spell","stats":{"t":"Ritual Spell"},"rarity":"ScR","img":"54539105","badge":"ScR","variant":"Secret Rare","code":"SCR2","tcg":90824,"grp":267,"idx":3},
+    {"id":"003","section":"main","num":"003","printed":"PP02-EN003","name":"Sengenjin","ctype":"monster","keywords":"Beast-Warrior EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 8","t":"Beast-Warrior / Normal","atk":2750,"def":2500},"rarity":"SR","img":"76232340","code":"3","tcg":32205,"grp":267,"idx":4},
+    {"id":"003-scr","section":"rarities","num":"003","printed":"PP02-EN003","name":"Sengenjin","ctype":"monster","keywords":"Beast-Warrior EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 8","t":"Beast-Warrior / Normal","atk":2750,"def":2500},"rarity":"ScR","img":"76232340","badge":"ScR","variant":"Secret Rare","code":"SCR3","tcg":90821,"grp":267,"idx":5},
+    {"id":"004","section":"main","num":"004","printed":"PP02-EN004","name":"Elemental HERO Woodsman","ctype":"monster","keywords":"Elemental HERO Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Effect","atk":1000,"def":2000},"rarity":"ScR","img":"75434695","code":"4","tcg":32200,"grp":267,"idx":6},
+    {"id":"005","section":"main","num":"005","printed":"PP02-EN005","name":"Elemental HERO Knospe","ctype":"monster","keywords":"Elemental HERO Plant EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Plant / Effect","atk":600,"def":1000},"rarity":"SR","img":"62107981","code":"5","tcg":32195,"grp":267,"idx":7},
+    {"id":"005-scr","section":"rarities","num":"005","printed":"PP02-EN005","name":"Elemental HERO Knospe","ctype":"monster","keywords":"Elemental HERO Plant EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Plant / Effect","atk":600,"def":1000},"rarity":"ScR","img":"62107981","badge":"ScR","variant":"Secret Rare","code":"SCR5","tcg":90812,"grp":267,"idx":8},
+    {"id":"006","section":"main","num":"006","printed":"PP02-EN006","name":"Elemental HERO Poison Rose","ctype":"monster","keywords":"Elemental HERO Plant EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 6","t":"Plant / Effect","atk":1900,"def":2000},"rarity":"SR","img":"51085303","code":"6","tcg":32197,"grp":267,"idx":9},
+    {"id":"006-scr","section":"rarities","num":"006","printed":"PP02-EN006","name":"Elemental HERO Poison Rose","ctype":"monster","keywords":"Elemental HERO Plant EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 6","t":"Plant / Effect","atk":1900,"def":2000},"rarity":"ScR","img":"51085303","badge":"ScR","variant":"Secret Rare","code":"SCR6","tcg":90814,"grp":267,"idx":10},
+    {"id":"007","section":"main","num":"007","printed":"PP02-EN007","name":"Elemental HERO Heat","ctype":"monster","keywords":"Elemental HERO Pyro FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Pyro / Effect","atk":1600,"def":1200},"rarity":"SR","img":"98266377","code":"7","tcg":27497,"grp":267,"idx":11},
+    {"id":"007-scr","section":"rarities","num":"007","printed":"PP02-EN007","name":"Elemental HERO Heat","ctype":"monster","keywords":"Elemental HERO Pyro FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Pyro / Effect","atk":1600,"def":1200},"rarity":"ScR","img":"98266377","badge":"ScR","variant":"Secret Rare","code":"SCR7","tcg":90811,"grp":267,"idx":12},
+    {"id":"008","section":"main","num":"008","printed":"PP02-EN008","name":"Elemental HERO Lady Heat","ctype":"monster","keywords":"Elemental HERO Pyro FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Pyro / Effect","atk":1300,"def":1000},"rarity":"SR","img":"95362816","code":"8","tcg":32196,"grp":267,"idx":13},
+    {"id":"008-scr","section":"rarities","num":"008","printed":"PP02-EN008","name":"Elemental HERO Lady Heat","ctype":"monster","keywords":"Elemental HERO Pyro FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Pyro / Effect","atk":1300,"def":1000},"rarity":"ScR","img":"95362816","badge":"ScR","variant":"Secret Rare","code":"SCR8","tcg":90813,"grp":267,"idx":14},
+    {"id":"009","section":"main","num":"009","printed":"PP02-EN009","name":"Elemental HERO Terra Firma","ctype":"monster","keywords":"Elemental HERO Warrior EARTH Fusion Monster","stats":{"a":"EARTH","l":"Level 8","t":"Warrior / Fusion","atk":2500,"def":2000},"rarity":"ScR","img":"74711057","code":"9","tcg":32198,"grp":267,"idx":15},
+    {"id":"010","section":"main","num":"010","printed":"PP02-EN010","name":"Elemental HERO Inferno","ctype":"monster","keywords":"Elemental HERO Pyro FIRE Fusion Monster","stats":{"a":"FIRE","l":"Level 8","t":"Pyro / Fusion","atk":2300,"def":1600},"rarity":"ScR","img":"68745629","code":"10","tcg":28390,"grp":267,"idx":16},
+    {"id":"011","section":"main","num":"011","printed":"PP02-EN011","name":"Rose Bud","ctype":"spell","keywords":"Elemental HERO Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"25090294","code":"11","tcg":32204,"grp":267,"idx":17},
+    {"id":"011-scr","section":"rarities","num":"011","printed":"PP02-EN011","name":"Rose Bud","ctype":"spell","keywords":"Elemental HERO Normal Spell","stats":{"t":"Normal Spell"},"rarity":"ScR","img":"25090294","badge":"ScR","variant":"Secret Rare","code":"SCR11","tcg":90820,"grp":267,"idx":18},
+    {"id":"012","section":"main","num":"012","printed":"PP02-EN012","name":"HERO's Bond","ctype":"spell","keywords":"Elemental HERO Normal Spell","stats":{"t":"Normal Spell"},"rarity":"ScR","img":"76442616","code":"12","tcg":32203,"grp":267,"idx":19},
+    {"id":"013","section":"main","num":"013","printed":"PP02-EN013","name":"Terra Firma Gravity","ctype":"trap","keywords":"Elemental HERO Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"26509612","code":"13","tcg":32206,"grp":267,"idx":20},
+    {"id":"013-scr","section":"rarities","num":"013","printed":"PP02-EN013","name":"Terra Firma Gravity","ctype":"trap","keywords":"Elemental HERO Normal Trap","stats":{"t":"Normal Trap"},"rarity":"ScR","img":"26509612","badge":"ScR","variant":"Secret Rare","code":"SCR13","tcg":90823,"grp":267,"idx":21},
+    {"id":"014","section":"main","num":"014","printed":"PP02-EN014","name":"Elemental HERO Voltic","ctype":"monster","keywords":"Elemental HERO Thunder LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Thunder / Effect","atk":1000,"def":1500},"rarity":"ScR","img":"9327502","code":"14","tcg":32199,"grp":267,"idx":22},
+    {"id":"015","section":"main","num":"015","printed":"PP02-EN015","name":"Carrierroid","ctype":"monster","keywords":"Roid Machine WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Machine / Effect","atk":1000,"def":800},"rarity":"ScR","img":"46848859","code":"15","tcg":32194,"grp":267,"idx":23},
+    {"id":"016","section":"main","num":"016","printed":"PP02-EN016","name":"Mezuki","ctype":"monster","keywords":"Zombie EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Zombie / Effect","atk":1700,"def":800},"rarity":"ScR","img":"92826944","code":"16","tcg":27457,"grp":267,"idx":24},
+    {"id":"017","section":"main","num":"017","printed":"PP02-EN017","name":"Evil Dragon Ananta","ctype":"monster","keywords":"Reptile DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Reptile / Effect","atk":-1,"def":-1},"rarity":"ScR","img":"8400623","code":"17","tcg":32201,"grp":267,"idx":25},
+    {"id":"018","section":"main","num":"018","printed":"PP02-EN018","name":"Athena","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 7","t":"Fairy / Effect","atk":2600,"def":800},"rarity":"ScR","img":"48964966","code":"18","tcg":32193,"grp":267,"idx":26},
+    {"id":"019","section":"main","num":"019","printed":"PP02-EN019","name":"Hecatrice","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fairy / Effect","atk":1500,"def":1100},"rarity":"SR","img":"74968065","code":"19","tcg":32202,"grp":267,"idx":27},
+    {"id":"019-scr","section":"rarities","num":"019","printed":"PP02-EN019","name":"Hecatrice","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fairy / Effect","atk":1500,"def":1100},"rarity":"ScR","img":"74968065","badge":"ScR","variant":"Secret Rare","code":"SCR19","tcg":90819,"grp":267,"idx":28},
+    {"id":"020","section":"main","num":"020","printed":"PP02-EN020","name":"Valhalla, Hall of the Fallen","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"ScR","img":"1353770","code":"20","tcg":32207,"grp":267,"idx":29}
+  ]
+}

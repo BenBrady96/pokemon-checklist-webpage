@@ -1,0 +1,87 @@
+{
+  "id": "yugioh/ots-tournament-pack-23",
+  "game": "yugioh",
+  "slug": "ots-tournament-pack-23",
+  "name": "OTS Tournament Pack 23",
+  "series": "SEVENS & GO RUSH!!",
+  "kind": "pack",
+  "code": "OP23",
+  "syncKey": "YOP23",
+  "released": "2023-10-25",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "OP23-EN001–OP23-EN027",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from OP23-EN001 to OP23-EN027."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! OTS Tournament Pack 23 Checklist · All 27 Cards",
+    "description": "Free Yu-Gi-Oh! OTS Tournament Pack 23 checklist with no ads, no sign-up and no tracking. Track all 27 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! OTS Tournament Pack 23 Checklist",
+    "ogDescription": "Track all 27 cards in Yu-Gi-Oh! OTS Tournament Pack 23. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 27 cards in Yu-Gi-Oh! OTS Tournament Pack 23. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About OTS Tournament Pack 23",
+    "paragraphs": [
+      "OTS Tournament Pack 23 is a Yu-Gi-Oh! TCG pack released on 25 October 2023, in the SEVENS &amp; GO RUSH!! era. It has 27 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "OTS Tournament Pack 23"
+    ],
+    "tcgplayer": [
+      23334
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"OP23-EN001","name":"Kurikara Divincarnate","ctype":"monster","keywords":"Fairy FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 1","t":"Fairy / Effect","atk":1500,"def":1500},"rarity":"UtR","img":"35405755","code":"1","tcg":524323,"grp":23334,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"OP23-EN002","name":"Enemy Controller","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"UtR","img":"98045062","code":"2","tcg":524324,"grp":23334,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"OP23-EN003","name":"Big Welcome Labrynth","ctype":"trap","keywords":"Labrynth Normal Trap","stats":{"t":"Normal Trap"},"rarity":"UtR","img":"92714517","code":"3","tcg":524325,"grp":23334,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"OP23-EN004","name":"Labrynth Stovie Torbie","ctype":"monster","keywords":"Labrynth Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 2","t":"Fiend / Effect","atk":0,"def":2000},"rarity":"SR","img":"74018812","code":"4","tcg":524379,"grp":23334,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"OP23-EN005","name":"Labrynth Cooclock","ctype":"monster","keywords":"Labrynth Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Fiend / Effect","atk":0,"def":0},"rarity":"SR","img":"2511","code":"5","tcg":524380,"grp":23334,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"OP23-EN006","name":"Superheavy Samurai Motorbike","ctype":"monster","keywords":"Superheavy Samurai Machine EARTH Tuner Monster","stats":{"a":"EARTH","l":"Level 2","t":"Machine / Tuner","atk":800,"def":1200},"rarity":"SR","img":"83334932","code":"6","tcg":524381,"grp":23334,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"OP23-EN007","name":"Rescue-ACE Preventer","ctype":"monster","keywords":"Rescue-ACE Machine FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 8","t":"Machine / Effect","atk":2800,"def":2800},"rarity":"SR","img":"41443249","code":"7","tcg":524326,"grp":23334,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"OP23-EN008","name":"T.G. Star Guardian","ctype":"monster","keywords":"T.G. Warrior LIGHT Synchro Tuner Monster","stats":{"a":"LIGHT","l":"Level 5","t":"Warrior / Synchro / Tuner","atk":100,"def":2200},"rarity":"SR","img":"99937842","code":"8","tcg":524327,"grp":23334,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"OP23-EN009","name":"T.G. Trident Launcher","ctype":"monster","keywords":"T.G. Machine EARTH Link Monster","stats":{"a":"EARTH","l":"Link 3","t":"Machine / Link","atk":2200},"rarity":"SR","img":"50750868","code":"9","tcg":524328,"grp":23334,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"OP23-EN010","name":"EMERGENCY!","ctype":"spell","keywords":"Rescue-ACE Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"SR","img":"61292243","code":"10","tcg":524329,"grp":23334,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"OP23-EN011","name":"Pulling the Rug","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"SR","img":"34717238","code":"11","tcg":524382,"grp":23334,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"OP23-EN012","name":"Soul of the Supreme King","ctype":"trap","keywords":"Supreme King Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"92428405","code":"12","tcg":524383,"grp":23334,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"OP23-EN013","name":"Dinomorphia Intact","ctype":"trap","keywords":"Dinomorphia Counter Trap","stats":{"t":"Counter Trap"},"rarity":"SR","img":"7336745","code":"13","tcg":524384,"grp":23334,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"OP23-EN014","name":"D.D. Crow","ctype":"monster","keywords":"D.D. Winged Beast DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Winged Beast / Effect","atk":100,"def":100},"rarity":"C","img":"24508238","code":"14","tcg":524334,"grp":23334,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"OP23-EN015","name":"Wattgiraffe","ctype":"monster","keywords":"Watt Thunder LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Thunder / Effect","atk":1200,"def":100},"rarity":"C","img":"402568","code":"15","tcg":524385,"grp":23334,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"OP23-EN016","name":"Supreme King Gate Zero","ctype":"monster","keywords":"Supreme King Fiend DARK Pendulum Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Fiend / Pendulum / Effect","atk":0,"def":0},"rarity":"C","img":"96227613","code":"16","tcg":524337,"grp":23334,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"OP23-EN017","name":"Supreme King Gate Infinity","ctype":"monster","keywords":"Supreme King Fiend DARK Pendulum Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Fiend / Pendulum / Effect","atk":0,"def":0},"rarity":"C","img":"22211622","code":"17","tcg":524339,"grp":23334,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"OP23-EN018","name":"Supreme King Dragon Darkwurm","ctype":"monster","keywords":"Supreme King Dragon DARK Pendulum Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Dragon / Pendulum / Effect","atk":1800,"def":1200},"rarity":"C","img":"69610326","code":"18","tcg":524386,"grp":23334,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"OP23-EN019","name":"T.G. Booster Raptor","ctype":"monster","keywords":"T.G. Dinosaur WIND Effect Monster","stats":{"a":"WIND","l":"Level 1","t":"Dinosaur / Effect","atk":400,"def":300},"rarity":"C","img":"48633301","code":"19","tcg":524387,"grp":23334,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"OP23-EN020","name":"Nauya, the Ogdoadic Remnant","ctype":"monster","keywords":"Ogdoadic Reptile DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Reptile / Effect","atk":0,"def":2000},"rarity":"C","img":"62405028","code":"20","tcg":524388,"grp":23334,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"OP23-EN021","name":"Wattchimera","ctype":"monster","keywords":"Watt Thunder LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Thunder / Synchro","atk":1400,"def":1200},"rarity":"C","img":"2772236","code":"21","tcg":524390,"grp":23334,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"OP23-EN022","name":"T.G. Hyper Librarian","ctype":"monster","keywords":"T.G. Spellcaster DARK Synchro Monster","stats":{"a":"DARK","l":"Level 5","t":"Spellcaster / Synchro","atk":2400,"def":1800},"rarity":"C","img":"90953320","code":"22","tcg":524392,"grp":23334,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"OP23-EN023","name":"Dark Hole","ctype":"spell","keywords":"Hole Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"53129443","code":"23","tcg":524395,"grp":23334,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"OP23-EN024","name":"TGX1-HL","ctype":"spell","keywords":"T.G. Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"11264180","code":"24","tcg":524340,"grp":23334,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"OP23-EN025","name":"Shinobird's Calling","ctype":"spell","keywords":"Shinobird Ritual Spell","stats":{"t":"Ritual Spell"},"rarity":"C","img":"73055622","code":"25","tcg":524396,"grp":23334,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"OP23-EN026","name":"Ogdoadic Water Lily","ctype":"spell","keywords":"Ogdoadic Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"24050692","code":"26","tcg":524397,"grp":23334,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"OP23-EN027","name":"TG1-EM1","ctype":"trap","keywords":"T.G. Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"76641981","code":"27","tcg":524343,"grp":23334,"idx":26}
+  ]
+}

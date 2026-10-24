@@ -1,0 +1,61 @@
+{
+  "id": "yugioh/promos-2001",
+  "game": "yugioh",
+  "slug": "promos-2001",
+  "name": "Promos 2001",
+  "series": "Promos",
+  "kind": "promo",
+  "code": "P2001",
+  "syncKey": "YP2001",
+  "released": "2001-01-01",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "SDY-004",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. Numbers count down the list in order: <b>1-5</b> is the first five cards and <b>3x2</b> is two copies of the third.",
+    "empty": "Cards run from SDY-004 to SDY-004."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Promos 2001 Checklist · All 1 Cards",
+    "description": "Free Yu-Gi-Oh! Promos 2001 checklist with no ads, no sign-up and no tracking. Track all 1 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Promos 2001 Checklist",
+    "ogDescription": "Track all 1 cards in Yu-Gi-Oh! Promos 2001. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 1 cards in Yu-Gi-Oh! Promos 2001. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Promos 2001",
+    "paragraphs": [
+      "Promos 2001 is a Yu-Gi-Oh! TCG promo list released on 1 January 2001. It has 1 card.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Summoned Skull Sample promotional card"
+    ],
+    "tcgplayer": [
+      298
+    ]
+  },
+  "cards": [
+    {"id":"SDY-004","section":"main","num":"SDY-004","printed":"SDY-004","name":"Summoned Skull","ctype":"monster","keywords":"Archfiend Fiend DARK Normal Monster","stats":{"a":"DARK","l":"Level 6","t":"Fiend / Normal","atk":2500,"def":1200},"note":"Summoned Skull Sample promotional card","rarity":"C","img":"70781052","code":"1","tcg":22610,"grp":298,"idx":0}
+  ]
+}

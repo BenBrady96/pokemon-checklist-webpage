@@ -1,0 +1,92 @@
+{
+  "id": "yugioh/structure-deck-invincible-fortress",
+  "game": "yugioh",
+  "slug": "structure-deck-invincible-fortress",
+  "name": "Structure Deck: Invincible Fortress",
+  "series": "GX",
+  "kind": "deck",
+  "code": "SD7",
+  "syncKey": "YSD7",
+  "released": "2006-05-15",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "SD7-EN001–SD7-EN032",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from SD7-EN001 to SD7-EN032."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Structure Deck: Invincible Fortress Checklist · All 32 Cards",
+    "description": "Free Yu-Gi-Oh! Structure Deck: Invincible Fortress checklist with no ads, no sign-up and no tracking. Track all 32 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Structure Deck: Invincible Fortress Checklist",
+    "ogDescription": "Track all 32 cards in Yu-Gi-Oh! Structure Deck: Invincible Fortress. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 32 cards in Yu-Gi-Oh! Structure Deck: Invincible Fortress. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Structure Deck: Invincible Fortress",
+    "paragraphs": [
+      "Structure Deck: Invincible Fortress is a Yu-Gi-Oh! TCG deck released on 15 May 2006, in the GX era. It has 32 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Structure Deck: Invincible Fortress"
+    ],
+    "tcgplayer": [
+      309
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"SD7-EN001","name":"Exxod, Master of The Guard","ctype":"monster","keywords":"Sphinx Rock EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 8","t":"Rock / Effect","atk":0,"def":4000},"rarity":"UR","img":"55737443","code":"1","tcg":25027,"grp":309,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"SD7-EN002","name":"Great Spirit","ctype":"monster","keywords":"Rock EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Rock / Effect","atk":500,"def":1500},"rarity":"C","img":"92736188","code":"2","tcg":25028,"grp":309,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"SD7-EN003","name":"Giant Rat","ctype":"monster","keywords":"Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Beast / Effect","atk":1400,"def":1450},"rarity":"C","img":"97017120","code":"3","tcg":25029,"grp":309,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"SD7-EN004","name":"Maharaghi","ctype":"monster","keywords":"Rock EARTH Spirit Monster","stats":{"a":"EARTH","l":"Level 4","t":"Rock / Spirit","atk":1200,"def":1700},"rarity":"C","img":"40695128","code":"4","tcg":25030,"grp":309,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"SD7-EN005","name":"Guardian Sphinx","ctype":"monster","keywords":"Sphinx Rock EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 5","t":"Rock / Effect","atk":1700,"def":2400},"rarity":"C","img":"40659562","code":"5","tcg":25032,"grp":309,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"SD7-EN006","name":"Gigantes","ctype":"monster","keywords":"Rock EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Rock / Effect","atk":1900,"def":1300},"rarity":"C","img":"47606319","code":"6","tcg":25031,"grp":309,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"SD7-EN007","name":"Stone Statue of the Aztecs","ctype":"monster","keywords":"Rock EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Rock / Effect","atk":300,"def":2000},"rarity":"C","img":"31812496","code":"7","tcg":25033,"grp":309,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"SD7-EN008","name":"Golem Sentry","ctype":"monster","keywords":"Rock EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Rock / Effect","atk":800,"def":1800},"rarity":"C","img":"52323207","code":"8","tcg":25034,"grp":309,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"SD7-EN009","name":"Hieracosphinx","ctype":"monster","keywords":"Sphinx Rock EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 6","t":"Rock / Effect","atk":2400,"def":1200},"rarity":"C","img":"82260502","code":"9","tcg":25035,"grp":309,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"SD7-EN010","name":"Criosphinx","ctype":"monster","keywords":"Sphinx Rock EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 6","t":"Rock / Effect","atk":1200,"def":2400},"rarity":"C","img":"18654201","code":"10","tcg":25036,"grp":309,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"SD7-EN011","name":"Moai Interceptor Cannons","ctype":"monster","keywords":"Rock EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Rock / Effect","atk":1100,"def":2000},"rarity":"C","img":"45159319","code":"11","tcg":25037,"grp":309,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"SD7-EN012","name":"Megarock Dragon","ctype":"monster","keywords":"Rock EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 7","t":"Rock / Effect","atk":-1,"def":-1},"rarity":"C","img":"71544954","code":"12","tcg":25038,"grp":309,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"SD7-EN013","name":"Guardian Statue","ctype":"monster","keywords":"Guardian Rock EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Rock / Effect","atk":800,"def":1400},"rarity":"C","img":"75209824","code":"13","tcg":25039,"grp":309,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"SD7-EN014","name":"Medusa Worm","ctype":"monster","keywords":"Worm Rock EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 2","t":"Rock / Effect","atk":500,"def":600},"rarity":"C","img":"2694423","code":"14","tcg":25040,"grp":309,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"SD7-EN015","name":"Sand Moth","ctype":"monster","keywords":"Rock EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Rock / Effect","atk":1000,"def":2000},"rarity":"C","img":"73648243","code":"15","tcg":25041,"grp":309,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"SD7-EN016","name":"Canyon","ctype":"spell","keywords":"Field Spell","stats":{"t":"Field Spell"},"rarity":"C","img":"28120197","code":"16","tcg":25042,"grp":309,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"SD7-EN017","name":"Mystical Space Typhoon","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"5318639","code":"17","tcg":25043,"grp":309,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"SD7-EN018","name":"Premature Burial","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"70828912","code":"18","tcg":25044,"grp":309,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"SD7-EN019","name":"Swords of Revealing Light","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"72302403","code":"19","tcg":25045,"grp":309,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"SD7-EN020","name":"Shield & Sword","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"52097679","code":"20","tcg":25046,"grp":309,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"SD7-EN021","name":"Magical Mallet","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"85852291","code":"21","tcg":25047,"grp":309,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"SD7-EN022","name":"Hammer Shot","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"26412047","code":"22","tcg":25048,"grp":309,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"SD7-EN023","name":"Ectoplasmer","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"97342942","code":"23","tcg":25049,"grp":309,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"SD7-EN024","name":"Brain Control","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"87910978","code":"24","tcg":25050,"grp":309,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"SD7-EN025","name":"Shifting Shadows","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"59237154","code":"25","tcg":25051,"grp":309,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"SD7-EN026","name":"Waboku","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"12607053","code":"26","tcg":25052,"grp":309,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"SD7-EN027","name":"Ultimate Offering","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"80604092","code":"27","tcg":25053,"grp":309,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"SD7-EN028","name":"Magic Drain","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"C","img":"59344077","code":"28","tcg":25054,"grp":309,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"SD7-EN029","name":"Robbin' Goblin","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"88279736","code":"29","tcg":25055,"grp":309,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"SD7-EN030","name":"Ordeal of a Traveler","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"39537362","code":"30","tcg":25056,"grp":309,"idx":29},
+    {"id":"031","section":"main","num":"031","printed":"SD7-EN031","name":"Reckless Greed","ctype":"trap","keywords":"Greed Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"37576645","code":"31","tcg":25057,"grp":309,"idx":30},
+    {"id":"032","section":"main","num":"032","printed":"SD7-EN032","name":"Compulsory Evacuation Device","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"94192409","code":"32","tcg":25058,"grp":309,"idx":31}
+  ]
+}

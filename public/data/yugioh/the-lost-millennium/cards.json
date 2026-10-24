@@ -1,0 +1,157 @@
+{
+  "id": "yugioh/the-lost-millennium",
+  "game": "yugioh",
+  "slug": "the-lost-millennium",
+  "name": "The Lost Millennium",
+  "series": "GX",
+  "kind": "expansion",
+  "code": "TLM",
+  "syncKey": "YTLM",
+  "released": "2005-06-01",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Main Set",
+      "range": "TLM-EN001–TLM-EN060",
+      "tier": "standard"
+    },
+    {
+      "id": "rarities",
+      "name": "Other Rarities",
+      "short": "Other Rarities",
+      "range": "25 cards",
+      "tier": "master"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Main set"
+    ],
+    [
+      "rarities",
+      "Other rarities"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, SCR12, 60x2",
+    "example": "1-20, 45x2, SCR12",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies. Other rarities use their short name and number: <b>SCR12</b> is card 12’s Secret Rare, and ranges work too (<b>QCSR1-QCSR20</b>).",
+    "empty": "Cards run from TLM-EN001 to TLM-EN060."
+  },
+  "help": {
+    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 60 cards, each in its main rarity. Master adds the 25 other rarities. Cards you’ve marked are kept when you switch."
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! The Lost Millennium Checklist · All 60 Cards",
+    "description": "Free Yu-Gi-Oh! The Lost Millennium checklist with no ads, no sign-up and no tracking. Track all 60 cards, or every rarity for a master set, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! The Lost Millennium Checklist",
+    "ogDescription": "Track all 60 cards in Yu-Gi-Oh! The Lost Millennium, plus 25 other rarities. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 60 cards in Yu-Gi-Oh! The Lost Millennium. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About the The Lost Millennium set",
+    "paragraphs": [
+      "The Lost Millennium is a Yu-Gi-Oh! TCG booster set released on 1 June 2005, in the GX era. It has 60 cards, and with the 25 other rarities there are 85 to collect in all.",
+      "Choose what you’re collecting: the <b>Standard set</b> (the 60 cards, each in its main rarity) or the <b>Master set</b> (all 85, adding the 25 other rarities).",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "The Lost Millennium"
+    ],
+    "tcgplayer": [
+      248
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"TLM-EN001","name":"Elemental HERO Avian","ctype":"monster","keywords":"Elemental HERO Warrior WIND Normal Monster","stats":{"a":"WIND","l":"Level 3","t":"Warrior / Normal","atk":1000,"def":1000},"rarity":"C","img":"21844576","code":"1","tcg":24055,"grp":248,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"TLM-EN002","name":"Elemental HERO Burstinatrix","ctype":"monster","keywords":"Elemental HERO Warrior FIRE Normal Monster","stats":{"a":"FIRE","l":"Level 3","t":"Warrior / Normal","atk":1200,"def":800},"rarity":"C","img":"58932615","code":"2","tcg":24056,"grp":248,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"TLM-EN003","name":"Elemental HERO Clayman","ctype":"monster","keywords":"Elemental HERO Warrior EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Normal","atk":800,"def":2000},"rarity":"C","img":"84327329","code":"3","tcg":24057,"grp":248,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"TLM-EN004","name":"Elemental HERO Sparkman","ctype":"monster","keywords":"Elemental HERO Warrior LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Normal","atk":1600,"def":1400},"rarity":"C","img":"20721928","code":"4","tcg":24058,"grp":248,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"TLM-EN005","name":"Winged Kuriboh","ctype":"monster","keywords":"Kuriboh Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Fairy / Effect","atk":300,"def":200},"rarity":"SR","img":"57116033","code":"5","tcg":24059,"grp":248,"idx":4},
+    {"id":"005-utr","section":"rarities","num":"005","printed":"TLM-EN005","name":"Winged Kuriboh","ctype":"monster","keywords":"Kuriboh Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Fairy / Effect","atk":300,"def":200},"rarity":"UtR","img":"57116033","badge":"UtR","variant":"Ultimate Rare","code":"UTR5","tcg":58737,"grp":248,"idx":5},
+    {"id":"006","section":"main","num":"006","printed":"TLM-EN006","name":"Ancient Gear Golem","ctype":"monster","keywords":"Ancient Gear Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 8","t":"Machine / Effect","atk":3000,"def":3000},"rarity":"UR","img":"83104731","code":"6","tcg":24060,"grp":248,"idx":6},
+    {"id":"006-utr","section":"rarities","num":"006","printed":"TLM-EN006","name":"Ancient Gear Golem","ctype":"monster","keywords":"Ancient Gear Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 8","t":"Machine / Effect","atk":3000,"def":3000},"rarity":"UtR","img":"83104731","badge":"UtR","variant":"Ultimate Rare","code":"UTR6","tcg":58738,"grp":248,"idx":7},
+    {"id":"007","section":"main","num":"007","printed":"TLM-EN007","name":"Ancient Gear Beast","ctype":"monster","keywords":"Ancient Gear Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 6","t":"Machine / Effect","atk":2000,"def":2000},"rarity":"R","img":"10509340","code":"7","tcg":24061,"grp":248,"idx":8},
+    {"id":"007-utr","section":"rarities","num":"007","printed":"TLM-EN007","name":"Ancient Gear Beast","ctype":"monster","keywords":"Ancient Gear Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 6","t":"Machine / Effect","atk":2000,"def":2000},"rarity":"UtR","img":"10509340","badge":"UtR","variant":"Ultimate Rare","code":"UTR7","tcg":58739,"grp":248,"idx":9},
+    {"id":"008","section":"main","num":"008","printed":"TLM-EN008","name":"Ancient Gear Soldier","ctype":"monster","keywords":"Ancient Gear Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Machine / Effect","atk":1300,"def":1300},"rarity":"C","img":"56094445","code":"8","tcg":24062,"grp":248,"idx":10},
+    {"id":"009","section":"main","num":"009","printed":"TLM-EN009","name":"Millennium Scorpion","ctype":"monster","keywords":"Insect EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 5","t":"Insect / Effect","atk":2000,"def":1800},"rarity":"R","img":"82482194","code":"9","tcg":24063,"grp":248,"idx":11},
+    {"id":"009-utr","section":"rarities","num":"009","printed":"TLM-EN009","name":"Millennium Scorpion","ctype":"monster","keywords":"Insect EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 5","t":"Insect / Effect","atk":2000,"def":1800},"rarity":"UtR","img":"82482194","badge":"UtR","variant":"Ultimate Rare","code":"UTR9","tcg":58740,"grp":248,"idx":12},
+    {"id":"010","section":"main","num":"010","printed":"TLM-EN010","name":"Ultimate Insect LV7","ctype":"monster","keywords":"Insect WIND Effect Monster","stats":{"a":"WIND","l":"Level 7","t":"Insect / Effect","atk":2600,"def":1200},"rarity":"SR","img":"19877898","code":"10","tcg":24064,"grp":248,"idx":13},
+    {"id":"010-utr","section":"rarities","num":"010","printed":"TLM-EN010","name":"Ultimate Insect LV7","ctype":"monster","keywords":"Insect WIND Effect Monster","stats":{"a":"WIND","l":"Level 7","t":"Insect / Effect","atk":2600,"def":1200},"rarity":"UtR","img":"19877898","badge":"UtR","variant":"Ultimate Rare","code":"UTR10","tcg":58741,"grp":248,"idx":14},
+    {"id":"011","section":"main","num":"011","printed":"TLM-EN011","name":"Lost Guardian","ctype":"monster","keywords":"Guardian Rock EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Rock / Effect","atk":100,"def":-1},"rarity":"C","img":"45871897","code":"11","tcg":24065,"grp":248,"idx":15},
+    {"id":"012","section":"main","num":"012","printed":"TLM-EN012","name":"Hieracosphinx","ctype":"monster","keywords":"Sphinx Rock EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 6","t":"Rock / Effect","atk":2400,"def":1200},"rarity":"SR","img":"82260502","code":"12","tcg":24066,"grp":248,"idx":16},
+    {"id":"012-utr","section":"rarities","num":"012","printed":"TLM-EN012","name":"Hieracosphinx","ctype":"monster","keywords":"Sphinx Rock EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 6","t":"Rock / Effect","atk":2400,"def":1200},"rarity":"UtR","img":"82260502","badge":"UtR","variant":"Ultimate Rare","code":"UTR12","tcg":80105,"grp":248,"idx":17},
+    {"id":"013","section":"main","num":"013","printed":"TLM-EN013","name":"Criosphinx","ctype":"monster","keywords":"Sphinx Rock EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 6","t":"Rock / Effect","atk":1200,"def":2400},"rarity":"R","img":"18654201","code":"13","tcg":24067,"grp":248,"idx":18},
+    {"id":"013-utr","section":"rarities","num":"013","printed":"TLM-EN013","name":"Criosphinx","ctype":"monster","keywords":"Sphinx Rock EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 6","t":"Rock / Effect","atk":1200,"def":2400},"rarity":"UtR","img":"18654201","badge":"UtR","variant":"Ultimate Rare","code":"UTR13","tcg":58743,"grp":248,"idx":19},
+    {"id":"014","section":"main","num":"014","printed":"TLM-EN014","name":"Moai Interceptor Cannons","ctype":"monster","keywords":"Rock EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Rock / Effect","atk":1100,"def":2000},"rarity":"C","img":"45159319","code":"14","tcg":24068,"grp":248,"idx":20},
+    {"id":"015","section":"main","num":"015","printed":"TLM-EN015","name":"Megarock Dragon","ctype":"monster","keywords":"Rock EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 7","t":"Rock / Effect","atk":-1,"def":-1},"rarity":"SR","img":"71544954","code":"15","tcg":58744,"grp":248,"idx":21},
+    {"id":"015-utr","section":"rarities","num":"015","printed":"TLM-EN015","name":"Megarock Dragon","ctype":"monster","keywords":"Rock EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 7","t":"Rock / Effect","atk":-1,"def":-1},"rarity":"UtR","img":"71544954","badge":"UtR","variant":"Ultimate Rare","code":"UTR15","tcg":24069,"grp":248,"idx":22},
+    {"id":"016","section":"main","num":"016","printed":"TLM-EN016","name":"Dummy Golem","ctype":"monster","keywords":"Rock EARTH Flip Effect Monster","stats":{"a":"EARTH","l":"Level 2","t":"Rock / Flip / Effect","atk":800,"def":800},"rarity":"C","img":"13532663","code":"16","tcg":24070,"grp":248,"idx":23},
+    {"id":"017","section":"main","num":"017","printed":"TLM-EN017","name":"Grave Ohja","ctype":"monster","keywords":"Rock EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Rock / Effect","atk":1600,"def":1500},"rarity":"R","img":"40937767","code":"17","tcg":24071,"grp":248,"idx":24},
+    {"id":"017-utr","section":"rarities","num":"017","printed":"TLM-EN017","name":"Grave Ohja","ctype":"monster","keywords":"Rock EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Rock / Effect","atk":1600,"def":1500},"rarity":"UtR","img":"40937767","badge":"UtR","variant":"Ultimate Rare","code":"UTR17","tcg":58745,"grp":248,"idx":25},
+    {"id":"018","section":"main","num":"018","printed":"TLM-EN018","name":"Mine Golem","ctype":"monster","keywords":"Rock EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Rock / Effect","atk":1000,"def":1900},"rarity":"C","img":"76321376","code":"18","tcg":24072,"grp":248,"idx":26},
+    {"id":"019","section":"main","num":"019","printed":"TLM-EN019","name":"Monk Fighter","ctype":"monster","keywords":"Rock EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Rock / Effect","atk":1300,"def":1000},"rarity":"C","img":"3810071","code":"19","tcg":24073,"grp":248,"idx":27},
+    {"id":"020","section":"main","num":"020","printed":"TLM-EN020","name":"Master Monk","ctype":"monster","keywords":"Rock EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 5","t":"Rock / Effect","atk":1900,"def":1000},"rarity":"SR","img":"49814180","code":"20","tcg":24074,"grp":248,"idx":28},
+    {"id":"020-utr","section":"rarities","num":"020","printed":"TLM-EN020","name":"Master Monk","ctype":"monster","keywords":"Rock EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 5","t":"Rock / Effect","atk":1900,"def":1000},"rarity":"UtR","img":"49814180","badge":"UtR","variant":"Ultimate Rare","code":"UTR20","tcg":58746,"grp":248,"idx":29},
+    {"id":"021","section":"main","num":"021","printed":"TLM-EN021","name":"Guardian Statue","ctype":"monster","keywords":"Guardian Rock EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Rock / Effect","atk":800,"def":1400},"rarity":"C","img":"75209824","code":"21","tcg":24075,"grp":248,"idx":30},
+    {"id":"022","section":"main","num":"022","printed":"TLM-EN022","name":"Medusa Worm","ctype":"monster","keywords":"Worm Rock EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 2","t":"Rock / Effect","atk":500,"def":600},"rarity":"C","img":"2694423","code":"22","tcg":24076,"grp":248,"idx":31},
+    {"id":"023","section":"main","num":"023","printed":"TLM-EN023","name":"D.D. Survivor","ctype":"monster","keywords":"D.D. Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Warrior / Effect","atk":1800,"def":200},"rarity":"R","img":"48092532","code":"23","tcg":24077,"grp":248,"idx":32},
+    {"id":"023-utr","section":"rarities","num":"023","printed":"TLM-EN023","name":"D.D. Survivor","ctype":"monster","keywords":"D.D. Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Warrior / Effect","atk":1800,"def":200},"rarity":"UtR","img":"48092532","badge":"UtR","variant":"Ultimate Rare","code":"UTR23","tcg":58753,"grp":248,"idx":33},
+    {"id":"024","section":"main","num":"024","printed":"TLM-EN024","name":"Mid Shield Gardna","ctype":"monster","keywords":"Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Effect","atk":100,"def":1800},"rarity":"R","img":"75487237","code":"24","tcg":24078,"grp":248,"idx":34},
+    {"id":"024-utr","section":"rarities","num":"024","printed":"TLM-EN024","name":"Mid Shield Gardna","ctype":"monster","keywords":"Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Effect","atk":100,"def":1800},"rarity":"UtR","img":"75487237","badge":"UtR","variant":"Ultimate Rare","code":"UTR24","tcg":58754,"grp":248,"idx":35},
+    {"id":"025","section":"main","num":"025","printed":"TLM-EN025","name":"White Ninja","ctype":"monster","keywords":"Ninja Warrior LIGHT Flip Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Flip / Effect","atk":1500,"def":800},"rarity":"C","img":"1571945","code":"25","tcg":24079,"grp":248,"idx":36},
+    {"id":"026","section":"main","num":"026","printed":"TLM-EN026","name":"Aussa the Earth Charmer","ctype":"monster","keywords":"Charmer Spellcaster EARTH Flip Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Spellcaster / Flip / Effect","atk":500,"def":1500},"rarity":"C","img":"37970940","code":"26","tcg":24080,"grp":248,"idx":37},
+    {"id":"027","section":"main","num":"027","printed":"TLM-EN027","name":"Eria the Water Charmer","ctype":"monster","keywords":"Charmer Spellcaster WATER Flip Effect Monster","stats":{"a":"WATER","l":"Level 3","t":"Spellcaster / Flip / Effect","atk":500,"def":1500},"rarity":"C","img":"74364659","code":"27","tcg":24081,"grp":248,"idx":38},
+    {"id":"028","section":"main","num":"028","printed":"TLM-EN028","name":"Hiita the Fire Charmer","ctype":"monster","keywords":"Charmer Spellcaster FIRE Flip Effect Monster","stats":{"a":"FIRE","l":"Level 3","t":"Spellcaster / Flip / Effect","atk":500,"def":1500},"rarity":"C","img":"759393","code":"28","tcg":24082,"grp":248,"idx":39},
+    {"id":"029","section":"main","num":"029","printed":"TLM-EN029","name":"Wynn the Wind Charmer","ctype":"monster","keywords":"Charmer Spellcaster WIND Flip Effect Monster","stats":{"a":"WIND","l":"Level 3","t":"Spellcaster / Flip / Effect","atk":500,"def":1500},"rarity":"C","img":"37744402","code":"29","tcg":24083,"grp":248,"idx":40},
+    {"id":"030","section":"main","num":"030","printed":"TLM-EN030","name":"Batteryman AA","ctype":"monster","keywords":"Batteryman Thunder LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Thunder / Effect","atk":0,"def":0},"rarity":"C","img":"63142001","code":"30","tcg":24084,"grp":248,"idx":41},
+    {"id":"031","section":"main","num":"031","printed":"TLM-EN031","name":"Des Wombat","ctype":"monster","keywords":"Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Beast / Effect","atk":1600,"def":300},"rarity":"C","img":"9637706","code":"31","tcg":24085,"grp":248,"idx":42},
+    {"id":"032","section":"main","num":"032","printed":"TLM-EN032","name":"King of the Skull Servants","ctype":"monster","keywords":"Skull Servant Zombie DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Zombie / Effect","atk":-1,"def":0},"rarity":"C","img":"36021814","code":"32","tcg":24086,"grp":248,"idx":43},
+    {"id":"033","section":"main","num":"033","printed":"TLM-EN033","name":"Reshef the Dark Being","ctype":"monster","keywords":"Fiend LIGHT Ritual Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Fiend / Ritual / Effect","atk":2500,"def":1500},"rarity":"UR","img":"62420419","code":"33","tcg":24087,"grp":248,"idx":44},
+    {"id":"033-utr","section":"rarities","num":"033","printed":"TLM-EN033","name":"Reshef the Dark Being","ctype":"monster","keywords":"Fiend LIGHT Ritual Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Fiend / Ritual / Effect","atk":2500,"def":1500},"rarity":"UtR","img":"62420419","badge":"UtR","variant":"Ultimate Rare","code":"UTR33","tcg":58755,"grp":248,"idx":45},
+    {"id":"034","section":"main","num":"034","printed":"TLM-EN034","name":"Elemental Mistress Doriado","ctype":"monster","keywords":"Doriado Spellcaster LIGHT Ritual Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Spellcaster / Ritual / Effect","atk":1200,"def":1400},"rarity":"R","img":"99414168","code":"34","tcg":24088,"grp":248,"idx":46},
+    {"id":"034-utr","section":"rarities","num":"034","printed":"TLM-EN034","name":"Elemental Mistress Doriado","ctype":"monster","keywords":"Doriado Spellcaster LIGHT Ritual Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Spellcaster / Ritual / Effect","atk":1200,"def":1400},"rarity":"UtR","img":"99414168","badge":"UtR","variant":"Ultimate Rare","code":"UTR34","tcg":58761,"grp":248,"idx":47},
+    {"id":"035","section":"main","num":"035","printed":"TLM-EN035","name":"Elemental HERO Flame Wingman","ctype":"monster","keywords":"Elemental HERO Warrior WIND Fusion Monster","stats":{"a":"WIND","l":"Level 6","t":"Warrior / Fusion","atk":2100,"def":1200},"rarity":"UR","img":"35809262","code":"35","tcg":24089,"grp":248,"idx":48},
+    {"id":"035-utr","section":"rarities","num":"035","printed":"TLM-EN035","name":"Elemental HERO Flame Wingman","ctype":"monster","keywords":"Elemental HERO Warrior WIND Fusion Monster","stats":{"a":"WIND","l":"Level 6","t":"Warrior / Fusion","atk":2100,"def":1200},"rarity":"UtR","img":"35809262","badge":"UtR","variant":"Ultimate Rare","code":"UTR35","tcg":58747,"grp":248,"idx":49},
+    {"id":"036","section":"main","num":"036","printed":"TLM-EN036","name":"Elemental HERO Thunder Giant","ctype":"monster","keywords":"Elemental HERO Warrior LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Warrior / Fusion","atk":2400,"def":1500},"rarity":"UR","img":"61204971","code":"36","tcg":24090,"grp":248,"idx":50},
+    {"id":"036-utr","section":"rarities","num":"036","printed":"TLM-EN036","name":"Elemental HERO Thunder Giant","ctype":"monster","keywords":"Elemental HERO Warrior LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Warrior / Fusion","atk":2400,"def":1500},"rarity":"UtR","img":"61204971","badge":"UtR","variant":"Ultimate Rare","code":"UTR36","tcg":58748,"grp":248,"idx":51},
+    {"id":"037","section":"main","num":"037","printed":"TLM-EN037","name":"Card of Sanctity","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"42664989","code":"37","tcg":24091,"grp":248,"idx":52},
+    {"id":"037-utr","section":"rarities","num":"037","printed":"TLM-EN037","name":"Card of Sanctity","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UtR","img":"42664989","badge":"UtR","variant":"Ultimate Rare","code":"UTR37","tcg":58756,"grp":248,"idx":53},
+    {"id":"038","section":"main","num":"038","printed":"TLM-EN038","name":"Brain Control","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"87910978","code":"38","tcg":24092,"grp":248,"idx":54},
+    {"id":"038-utr","section":"rarities","num":"038","printed":"TLM-EN038","name":"Brain Control","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UtR","img":"87910978","badge":"UtR","variant":"Ultimate Rare","code":"UTR38","tcg":58749,"grp":248,"idx":55},
+    {"id":"039","section":"main","num":"039","printed":"TLM-EN039","name":"Gift of the Martyr","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"98792570","code":"39","tcg":24093,"grp":248,"idx":56},
+    {"id":"040","section":"main","num":"040","printed":"TLM-EN040","name":"Double Attack","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"34187685","code":"40","tcg":24094,"grp":248,"idx":57},
+    {"id":"041","section":"main","num":"041","printed":"TLM-EN041","name":"Battery Charger","ctype":"spell","keywords":"Batteryman Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"61181383","code":"41","tcg":24095,"grp":248,"idx":58},
+    {"id":"042","section":"main","num":"042","printed":"TLM-EN042","name":"Kaminote Blow","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"97570038","code":"42","tcg":24096,"grp":248,"idx":59},
+    {"id":"043","section":"main","num":"043","printed":"TLM-EN043","name":"Doriado's Blessing","ctype":"spell","keywords":"Doriado Ritual Spell","stats":{"t":"Ritual Spell"},"rarity":"C","img":"23965037","code":"43","tcg":24097,"grp":248,"idx":60},
+    {"id":"044","section":"main","num":"044","printed":"TLM-EN044","name":"Final Ritual of the Ancients","ctype":"spell","keywords":"Ritual Spell","stats":{"t":"Ritual Spell"},"rarity":"C","img":"60369732","code":"44","tcg":24098,"grp":248,"idx":61},
+    {"id":"045","section":"main","num":"045","printed":"TLM-EN045","name":"Legendary Black Belt","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"R","img":"96458440","code":"45","tcg":24099,"grp":248,"idx":62},
+    {"id":"045-utr","section":"rarities","num":"045","printed":"TLM-EN045","name":"Legendary Black Belt","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"UtR","img":"96458440","badge":"UtR","variant":"Ultimate Rare","code":"UTR45","tcg":58750,"grp":248,"idx":63},
+    {"id":"046","section":"main","num":"046","printed":"TLM-EN046","name":"Nitro Unit","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"R","img":"23842445","code":"46","tcg":24100,"grp":248,"idx":64},
+    {"id":"046-utr","section":"rarities","num":"046","printed":"TLM-EN046","name":"Nitro Unit","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"UtR","img":"23842445","badge":"UtR","variant":"Ultimate Rare","code":"UTR46","tcg":58751,"grp":248,"idx":65},
+    {"id":"047","section":"main","num":"047","printed":"TLM-EN047","name":"Shifting Shadows","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"59237154","code":"47","tcg":24101,"grp":248,"idx":66},
+    {"id":"048","section":"main","num":"048","printed":"TLM-EN048","name":"Impenetrable Formation","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"96631852","code":"48","tcg":24102,"grp":248,"idx":67},
+    {"id":"049","section":"main","num":"049","printed":"TLM-EN049","name":"Hero Signal","ctype":"trap","keywords":"Elemental HERO Normal Trap","stats":{"t":"Normal Trap"},"rarity":"R","img":"22020907","code":"49","tcg":24103,"grp":248,"idx":68},
+    {"id":"049-utr","section":"rarities","num":"049","printed":"TLM-EN049","name":"Hero Signal","ctype":"trap","keywords":"Elemental HERO Normal Trap","stats":{"t":"Normal Trap"},"rarity":"UtR","img":"22020907","badge":"UtR","variant":"Ultimate Rare","code":"UTR49","tcg":58752,"grp":248,"idx":69},
+    {"id":"050","section":"main","num":"050","printed":"TLM-EN050","name":"Pikeru's Second Sight","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"58015506","code":"50","tcg":24104,"grp":248,"idx":70},
+    {"id":"051","section":"main","num":"051","printed":"TLM-EN051","name":"Minefield Eruption","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"85519211","code":"51","tcg":24105,"grp":248,"idx":71},
+    {"id":"052","section":"main","num":"052","printed":"TLM-EN052","name":"Kozaky's Self-Destruct Button","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"R","img":"21908319","code":"52","tcg":24106,"grp":248,"idx":72},
+    {"id":"052-utr","section":"rarities","num":"052","printed":"TLM-EN052","name":"Kozaky's Self-Destruct Button","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"UtR","img":"21908319","badge":"UtR","variant":"Ultimate Rare","code":"UTR52","tcg":58757,"grp":248,"idx":73},
+    {"id":"053","section":"main","num":"053","printed":"TLM-EN053","name":"Mispolymerization","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"58392024","code":"53","tcg":24107,"grp":248,"idx":74},
+    {"id":"054","section":"main","num":"054","printed":"TLM-EN054","name":"Level Conversion Lab","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"84397023","code":"54","tcg":24108,"grp":248,"idx":75},
+    {"id":"055","section":"main","num":"055","printed":"TLM-EN055","name":"Rock Bombardment","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"20781762","code":"55","tcg":24109,"grp":248,"idx":76},
+    {"id":"056","section":"main","num":"056","printed":"TLM-EN056","name":"Grave Lure","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"57270476","code":"56","tcg":24110,"grp":248,"idx":77},
+    {"id":"057","section":"main","num":"057","printed":"TLM-EN057","name":"Token Feastevil","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"R","img":"83675475","code":"57","tcg":24111,"grp":248,"idx":78},
+    {"id":"057-utr","section":"rarities","num":"057","printed":"TLM-EN057","name":"Token Feastevil","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"UtR","img":"83675475","badge":"UtR","variant":"Ultimate Rare","code":"UTR57","tcg":58758,"grp":248,"idx":79},
+    {"id":"058","section":"main","num":"058","printed":"TLM-EN058","name":"Spell-Stopping Statute","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"R","img":"10069180","code":"58","tcg":24112,"grp":248,"idx":80},
+    {"id":"058-utr","section":"rarities","num":"058","printed":"TLM-EN058","name":"Spell-Stopping Statute","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"UtR","img":"10069180","badge":"UtR","variant":"Ultimate Rare","code":"UTR58","tcg":58759,"grp":248,"idx":81},
+    {"id":"059","section":"main","num":"059","printed":"TLM-EN059","name":"Royal Surrender","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"R","img":"56058888","code":"59","tcg":24113,"grp":248,"idx":82},
+    {"id":"059-utr","section":"rarities","num":"059","printed":"TLM-EN059","name":"Royal Surrender","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"UtR","img":"56058888","badge":"UtR","variant":"Ultimate Rare","code":"UTR59","tcg":58760,"grp":248,"idx":83},
+    {"id":"060","section":"main","num":"060","printed":"TLM-EN060","name":"Lone Wolf","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"82452993","code":"60","tcg":24114,"grp":248,"idx":84}
+  ]
+}

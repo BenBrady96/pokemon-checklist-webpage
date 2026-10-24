@@ -1,0 +1,106 @@
+{
+  "id": "yugioh/structure-deck-beware-of-traptrix",
+  "game": "yugioh",
+  "slug": "structure-deck-beware-of-traptrix",
+  "name": "Structure Deck: Beware of Traptrix",
+  "series": "SEVENS & GO RUSH!!",
+  "kind": "deck",
+  "code": "SDBT",
+  "syncKey": "YSDBT",
+  "released": "2023-02-23",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "SDBT-EN001–SDBT-EN046",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from SDBT-EN001 to SDBT-EN046."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Structure Deck: Beware of Traptrix Checklist · All 46 Cards",
+    "description": "Free Yu-Gi-Oh! Structure Deck: Beware of Traptrix checklist with no ads, no sign-up and no tracking. Track all 46 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Structure Deck: Beware of Traptrix Checklist",
+    "ogDescription": "Track all 46 cards in Yu-Gi-Oh! Structure Deck: Beware of Traptrix. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 46 cards in Yu-Gi-Oh! Structure Deck: Beware of Traptrix. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Structure Deck: Beware of Traptrix",
+    "paragraphs": [
+      "Structure Deck: Beware of Traptrix is a Yu-Gi-Oh! TCG deck released on 23 February 2023, in the SEVENS &amp; GO RUSH!! era. It has 46 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Structure Deck: Beware of Traptrix"
+    ],
+    "tcgplayer": [
+      17682
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"SDBT-EN001","name":"Traptrix Pudica","ctype":"monster","keywords":"Traptrix Plant EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Plant / Effect","atk":900,"def":1900},"rarity":"UR","img":"49027020","code":"1","tcg":483631,"grp":17682,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"SDBT-EN002","name":"Traptrix Arachnocampa","ctype":"monster","keywords":"Traptrix Insect EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Insect / Effect","atk":1300,"def":1500},"rarity":"SR","img":"75416738","code":"2","tcg":483633,"grp":17682,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"SDBT-EN003","name":"Traptrix Atrax","ctype":"monster","keywords":"Traptrix Insect EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Insect / Effect","atk":1800,"def":1000},"rarity":"C","img":"55428242","code":"3","tcg":483651,"grp":17682,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"SDBT-EN004","name":"Traptrix Myrmeleo","ctype":"monster","keywords":"Traptrix Insect EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Insect / Effect","atk":1600,"def":1200},"rarity":"C","img":"91812341","code":"4","tcg":483653,"grp":17682,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"SDBT-EN005","name":"Traptrix Nepenthes","ctype":"monster","keywords":"Traptrix Plant EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Plant / Effect","atk":800,"def":2000},"rarity":"C","img":"28201945","code":"5","tcg":483654,"grp":17682,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"SDBT-EN006","name":"Traptrix Dionaea","ctype":"monster","keywords":"Traptrix Plant EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Plant / Effect","atk":1700,"def":1100},"rarity":"C","img":"45803070","code":"6","tcg":483846,"grp":17682,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"SDBT-EN007","name":"Traptrix Genlisea","ctype":"monster","keywords":"Traptrix Plant EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Plant / Effect","atk":1200,"def":1600},"rarity":"C","img":"88078306","code":"7","tcg":483845,"grp":17682,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"SDBT-EN008","name":"Traptrix Vesiculo","ctype":"monster","keywords":"Traptrix Plant EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Plant / Effect","atk":1400,"def":1400},"rarity":"C","img":"28868394","code":"8","tcg":483844,"grp":17682,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"SDBT-EN009","name":"Gadarla, the Mystery Dust Kaiju","ctype":"monster","keywords":"Kaiju Insect WIND Effect Monster","stats":{"a":"WIND","l":"Level 8","t":"Insect / Effect","atk":2700,"def":1600},"rarity":"C","img":"36956512","code":"9","tcg":483666,"grp":17682,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"SDBT-EN010","name":"Kumongous, the Sticky String Kaiju","ctype":"monster","keywords":"Kaiju Insect EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 7","t":"Insect / Effect","atk":2400,"def":2500},"rarity":"C","img":"29726552","code":"10","tcg":483671,"grp":17682,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"SDBT-EN011","name":"Retaliating \"C\"","ctype":"monster","keywords":"\"C\" Insect EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Insect / Effect","atk":1400,"def":1400},"rarity":"C","img":"46502744","code":"11","tcg":483676,"grp":17682,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"SDBT-EN012","name":"Resonance Insect","ctype":"monster","keywords":"Insect EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Insect / Effect","atk":1000,"def":700},"rarity":"C","img":"96938986","code":"12","tcg":483677,"grp":17682,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"SDBT-EN013","name":"Lonefire Blossom","ctype":"monster","keywords":"Plant FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 3","t":"Plant / Effect","atk":500,"def":1400},"rarity":"C","img":"48686504","code":"13","tcg":483679,"grp":17682,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"SDBT-EN014","name":"Ash Blossom & Joyous Spring","ctype":"monster","keywords":"Zombie FIRE Tuner Monster","stats":{"a":"FIRE","l":"Level 3","t":"Zombie / Tuner","atk":0,"def":1800},"rarity":"C","img":"14558127","code":"14","tcg":483683,"grp":17682,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"SDBT-EN015","name":"Rose Lover","ctype":"monster","keywords":"Rose Dragon Plant EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 1","t":"Plant / Effect","atk":800,"def":800},"rarity":"C","img":"89252157","code":"15","tcg":483687,"grp":17682,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"SDBT-EN016","name":"Sauge de Fleur","ctype":"monster","keywords":"Fleur Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Spellcaster / Effect","atk":2900,"def":0},"rarity":"C","img":"85032782","code":"16","tcg":483691,"grp":17682,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"SDBT-EN017","name":"Mekk-Knight Purple Nightfall","ctype":"monster","keywords":"Mekk-Knight Psychic LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Psychic / Effect","atk":2500,"def":2000},"rarity":"C","img":"28692962","code":"17","tcg":483694,"grp":17682,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"SDBT-EN018","name":"Mekk-Knight Blue Sky","ctype":"monster","keywords":"Mekk-Knight Psychic LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 5","t":"Psychic / Effect","atk":2000,"def":2500},"rarity":"C","img":"20537097","code":"18","tcg":483697,"grp":17682,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"SDBT-EN019","name":"Artifact Moralltach","ctype":"monster","keywords":"Artifact Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 5","t":"Fairy / Effect","atk":2100,"def":1400},"rarity":"C","img":"85103922","code":"19","tcg":483699,"grp":17682,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"SDBT-EN020","name":"Fire Hand","ctype":"monster","keywords":"Pyro FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Pyro / Effect","atk":1600,"def":1000},"rarity":"C","img":"68535320","code":"20","tcg":483703,"grp":17682,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"SDBT-EN021","name":"Ice Hand","ctype":"monster","keywords":"Aqua WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Aqua / Effect","atk":1400,"def":1600},"rarity":"C","img":"95929069","code":"21","tcg":483715,"grp":17682,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"SDBT-EN022","name":"Thunder Hand","ctype":"monster","keywords":"Thunder LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Thunder / Effect","atk":1600,"def":1600},"rarity":"C","img":"16223761","code":"22","tcg":483718,"grp":17682,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"SDBT-EN023","name":"Traptrip Garden","ctype":"spell","keywords":"Traptrix Field Spell","stats":{"t":"Field Spell"},"rarity":"UR","img":"12801833","code":"23","tcg":483635,"grp":17682,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"SDBT-EN024","name":"Traptantalizing Tune","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UR","img":"48805472","code":"24","tcg":483638,"grp":17682,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"SDBT-EN025","name":"Raigeki","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"12580477","code":"25","tcg":483720,"grp":17682,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"SDBT-EN026","name":"Harpie's Feather Duster","ctype":"spell","keywords":"Harpie Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"18144507","code":"26","tcg":483723,"grp":17682,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"SDBT-EN027","name":"Terrifying Trap Hole Nightmare","ctype":"trap","keywords":"Trap Hole Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"75294187","code":"27","tcg":483639,"grp":17682,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"SDBT-EN028","name":"Trap Hole","ctype":"trap","keywords":"Hole Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"4206964","code":"28","tcg":483726,"grp":17682,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"SDBT-EN029","name":"Bottomless Trap Hole","ctype":"trap","keywords":"Hole Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"29401950","code":"29","tcg":483727,"grp":17682,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"SDBT-EN030","name":"Void Trap Hole","ctype":"trap","keywords":"Hole Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"1005587","code":"30","tcg":483728,"grp":17682,"idx":29},
+    {"id":"031","section":"main","num":"031","printed":"SDBT-EN031","name":"Traptrix Trap Hole Nightmare","ctype":"trap","keywords":"Traptrix Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"29616929","code":"31","tcg":483729,"grp":17682,"idx":30},
+    {"id":"032","section":"main","num":"032","printed":"SDBT-EN032","name":"Floodgate Trap Hole","ctype":"trap","keywords":"Hole Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"69599136","code":"32","tcg":483730,"grp":17682,"idx":31},
+    {"id":"033","section":"main","num":"033","printed":"SDBT-EN033","name":"Gravedigger's Trap Hole","ctype":"trap","keywords":"Hole Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"31548215","code":"33","tcg":483731,"grp":17682,"idx":32},
+    {"id":"034","section":"main","num":"034","printed":"SDBT-EN034","name":"Trap Trick","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"80101899","code":"34","tcg":483732,"grp":17682,"idx":33},
+    {"id":"035","section":"main","num":"035","printed":"SDBT-EN035","name":"The Phantom Knights of Shade Brigandine","ctype":"trap","keywords":"Phantom Knights Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"98827725","code":"35","tcg":483734,"grp":17682,"idx":34},
+    {"id":"036","section":"main","num":"036","printed":"SDBT-EN036","name":"Artifact Sanctum","ctype":"trap","keywords":"Artifact Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"12444060","code":"36","tcg":483737,"grp":17682,"idx":35},
+    {"id":"037","section":"main","num":"037","printed":"SDBT-EN037","name":"Naturia Sacred Tree","ctype":"trap","keywords":"Naturia Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"3734202","code":"37","tcg":483739,"grp":17682,"idx":36},
+    {"id":"038","section":"main","num":"038","printed":"SDBT-EN038","name":"Evenly Matched","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"15693423","code":"38","tcg":483741,"grp":17682,"idx":37},
+    {"id":"039","section":"main","num":"039","printed":"SDBT-EN039","name":"Traptrix Rafflesia","ctype":"monster","keywords":"Traptrix Plant EARTH Xyz Monster","stats":{"a":"EARTH","l":"Rank 4","t":"Plant / Xyz","atk":300,"def":2500},"rarity":"C","img":"6511113","code":"39","tcg":483744,"grp":17682,"idx":38},
+    {"id":"040","section":"main","num":"040","printed":"SDBT-EN040","name":"Traptrix Allomerus","ctype":"monster","keywords":"Traptrix Insect EARTH Xyz Monster","stats":{"a":"EARTH","l":"Rank 4","t":"Insect / Xyz","atk":2200,"def":600},"rarity":"C","img":"59071624","code":"40","tcg":483745,"grp":17682,"idx":39},
+    {"id":"041","section":"main","num":"041","printed":"SDBT-EN041","name":"Traptrix Cularia","ctype":"monster","keywords":"Traptrix Plant EARTH Link Monster","stats":{"a":"EARTH","l":"Link 2","t":"Plant / Link","atk":1800},"rarity":"C","img":"952523","code":"41","tcg":483746,"grp":17682,"idx":40},
+    {"id":"042","section":"main","num":"042","printed":"SDBT-EN042","name":"Traptrix Pinguicula","ctype":"monster","keywords":"Traptrix Plant EARTH Xyz Monster","stats":{"a":"EARTH","l":"Rank 4","t":"Plant / Xyz","atk":2500,"def":300},"rarity":"UR","img":"1688285","code":"42","tcg":483641,"grp":17682,"idx":41},
+    {"id":"043","section":"main","num":"043","printed":"SDBT-EN043","name":"Traptrix Atypus","ctype":"monster","keywords":"Traptrix Insect EARTH Link Monster","stats":{"a":"EARTH","l":"Link 3","t":"Insect / Link","atk":1800},"rarity":"UR","img":"48183890","code":"43","tcg":483645,"grp":17682,"idx":42},
+    {"id":"044","section":"main","num":"044","printed":"SDBT-EN044","name":"Traptrix Sera","ctype":"monster","keywords":"Traptrix Plant EARTH Link Monster","stats":{"a":"EARTH","l":"Link 1","t":"Plant / Link","atk":800},"rarity":"C","img":"73639099","code":"44","tcg":483747,"grp":17682,"idx":43},
+    {"id":"045","section":"main","num":"045","printed":"SDBT-EN045","name":"Traptrix Mantis","ctype":"monster","keywords":"Traptrix Insect EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Insect / Effect","atk":1500,"def":1300},"rarity":"C","img":"82738277","code":"45","tcg":483748,"grp":17682,"idx":44},
+    {"id":"046","section":"main","num":"046","printed":"SDBT-EN046","name":"Traptrix Holeutea","ctype":"trap","keywords":"Hole Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"74577599","code":"46","tcg":483646,"grp":17682,"idx":45}
+  ]
+}

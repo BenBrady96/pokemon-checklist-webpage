@@ -1,10 +1,10 @@
 import { readFile } from 'node:fs/promises';
 import { join } from 'node:path';
-import { COMING_SOON, CONFIG, GAMES, dataDir, loadCatalog, loadModel, loadRaw } from './collections.mjs';
+import { COMING_SOON, CONFIG, GAMES, GAME_PAGES, LIVE_GAMES, dataDir, loadCatalog, loadModel, loadRaw } from './collections.mjs';
 import { GUIDES } from '../../config/guides/index.mjs';
 import { ANALYTICS_TOKEN, DEFAULT_URL, PUBLIC, TEMPLATES, exists, readJson } from './util.mjs';
-import { TIER_DEFS } from '../../public/js/core/model.js';
-import { formatMoney, priceDate, ratesOf } from '../../public/js/core/pricing.js';
+import { formatMoney, priceDate, ratesOf, tierValues } from '../../public/js/core/pricing.js';
+import { releaseText, tileHtml } from '../../public/js/shared/tiles.js';
 
 const escapeHtml = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
 
@@ -45,7 +45,7 @@ async function ogImageFor(id) {
 
 const LONG_DATE = new Intl.DateTimeFormat('en-GB', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' });
 const longDate = (date) => LONG_DATE.format(new Date(`${date}T00:00:00Z`));
-const plural = (n, one) => `${n} ${n === 1 ? one : `${one}s`}`;
+const plural = (n, one, many = `${one}s`) => `${n} ${n === 1 ? one : many}`;
 const list = (items) => (items.length < 2 ? items.join('') : `${items.slice(0, -1).join(', ')} and ${items.at(-1)}`);
 const capitalise = (s) => `${s[0].toUpperCase()}${s.slice(1)}`;
 const TOP_CARDS = 10;
@@ -86,9 +86,10 @@ function faqHtml(model, sections) {
   const name = escapeHtml(model.name);
   const count = (s) => model.cardsBySection.get(s.id).length;
   const variants = model.cards.length - model.cardCount;
+  const [variantOne, variantMany] = model.game.VARIANT_NOUN || ['variant', 'variants'];
   const items = [[
     `How many cards are in ${name}?`,
-    `<p>${name} has ${plural(model.cardCount, 'card')}${variants ? `, plus ${plural(variants, 'variant')}, so there are ${model.cards.length} to collect in all` : ''}.</p>`
+    `<p>${name} has ${plural(model.cardCount, 'card')}${variants ? `, plus ${plural(variants, variantOne, variantMany)}, so there are ${model.cards.length} to collect in all` : ''}.</p>`
       + (sections.length > 1 ? tally(sections.map((s) => [s.name, count(s)])) : ''),
   ]];
   if (model.visibleTiers.length > 1) {
@@ -105,9 +106,9 @@ function faqHtml(model, sections) {
     ]);
   }
   const rarities = rarityRows(model, model.cards.filter((c) => !c.variant));
-  if (rarities.length > 1) items.push([`What rarities are in ${name}?`, `<p>Counting each card once, without variants:</p>${tally(rarities)}`]);
-  if (model.released && (model.kind === 'expansion' || model.kind === 'collection')) {
-    const series = model.kind === 'expansion' && model.series && model.series !== 'Other' ? `, as part of the ${escapeHtml(model.series)} series` : '';
+  if (rarities.length > 1) items.push([`What rarities are in ${name}?`, `<p>Counting each card once, without ${variantMany}:</p>${tally(rarities)}`]);
+  if (model.released && !['promo', 'energy'].includes(model.kind)) {
+    const series = model.kind === 'expansion' && model.series && model.series !== 'Other' ? `, as part of the ${escapeHtml(model.series)} ${model.game.SERIES_NOUN || 'series'}` : '';
     items.push([`When did ${name} come out?`, `<p>${name} was released on ${longDate(model.released)}${series}.</p>`]);
   }
   items.push([`Is this ${name} checklist free?`, '<p>Yes. Binder Tracker is free, with <b>no ads, no sign-up and no tracking</b>. Your collection is saved on your own device and works offline, and <b>Export or share</b> moves it to another device as a link, code, QR code or file.</p>']);
@@ -393,7 +394,8 @@ export async function collectionPage(id, { siteUrl = DEFAULT_URL, today = isoTod
         '@type': 'BreadcrumbList', '@id': `${url}#breadcrumb`,
         itemListElement: [
           { '@type': 'ListItem', position: 1, name: 'Binder Tracker', item: siteUrl },
-          { '@type': 'ListItem', position: 2, name: `${game.name} ${raw.name}`, item: url },
+          { '@type': 'ListItem', position: 2, name: game.name, item: `${siteUrl}${raw.game}/` },
+          { '@type': 'ListItem', position: 3, name: `${game.name} ${raw.name}`, item: url },
         ],
       },
       {
@@ -422,53 +424,25 @@ export async function collectionPage(id, { siteUrl = DEFAULT_URL, today = isoTod
     setGuide: [setGuideHtml(model, prices), launchGuide, relatedSetsHtml(id, catalog, today)].filter(Boolean).join('\n  '),
     robots: model.cards.length ? 'index, follow, max-image-preview:large' : 'noindex',
     disclaimer: game.disclaimer,
+    game: raw.game,
+    gameHome: `${raw.game}/`,
+    footerGuides: footerGuides([raw.game]),
+    menuGuides: menuGuides([raw.game]),
+    helpGuides: helpGuides([raw.game]),
     setArt: (await exists(join(PUBLIC, `img/sets/${id}/logo.webp`))) ? `<img class="set-hero__logo" src="img/sets/${id}/logo.webp" alt="" decoding="async">` : '',
-    setMeta: [game.name, model.released ? releaseText(model.released) : '', `${complete} cards`].filter(Boolean).join(' · '),
+    setMeta: [`<a href="${raw.game}/">${escapeHtml(game.name)}</a>`, model.released ? releaseText(model.released) : '', `${complete} cards`].filter(Boolean).join(' · '),
   });
   return prefixUrls(html, '../'.repeat(id.split('/').length));
 }
-
-const MONTH = new Intl.DateTimeFormat('en-GB', { month: 'short', year: 'numeric', timeZone: 'UTC' });
-const releaseText = (date) => MONTH.format(new Date(`${date}T00:00:00Z`));
-
-const PRICED_SHARE = 0.7;
 
 export async function setValues(catalog) {
   const values = new Map();
   await Promise.all(catalog.collections.map(async (c) => {
     const [model, prices] = await Promise.all([loadModel(c.id), readJson(join(dataDir(c.id), 'prices.json'))]);
-    if (!prices?.cards || !prices.gbpPerUsd) return;
-    const tiers = {};
-    for (const def of TIER_DEFS) {
-      const { cards } = model.getTier(def.id);
-      let usd = 0;
-      let priced = 0;
-      for (const card of cards) {
-        const price = prices.cards[card.id]?.usd;
-        if (price == null) continue;
-        usd += price;
-        priced++;
-      }
-      if (cards.length && priced >= cards.length * PRICED_SHARE) tiers[def.id] = Math.round(usd * 100) / 100;
-    }
-    if (Object.keys(tiers).length) values.set(c.id, { rates: ratesOf(prices), tiers });
+    const value = tierValues(model, prices);
+    if (value) values.set(c.id, value);
   }));
   return values;
-}
-
-function tileHtml(c, value) {
-  const total = value?.tiers[c.defaultTier];
-  const art = c.logo
-    ? `<img class="set-tile__logo" src="${c.logo}" alt="" loading="lazy" decoding="async">`
-    : `<span class="set-tile__wordmark">${escapeHtml(c.name)}</span>`;
-  return `<a class="set-tile" href="${c.id}/" data-id="${escapeHtml(c.id)}"${value ? ` data-values="${escapeHtml(JSON.stringify(value))}"` : ''}>`
-    + `<span class="set-tile__art">${art}</span>`
-    + '<span class="set-tile__body">'
-    + `<span class="set-tile__name">${escapeHtml(c.name)}</span>`
-    + `<span class="set-tile__meta">${releaseText(c.released)} · ${c.total} cards</span>`
-    + '<span class="set-tile__progress"><span class="bar" aria-hidden="true"><i></i></span><span class="set-tile__count"></span><span class="set-tile__none">No cards collected</span></span>'
-    + `<span class="set-tile__value value-pill"${total == null ? ' hidden>' : `>${formatMoney(total, { rates: value.rates, short: true, approx: true })}`}</span>`
-    + '</span></a>';
 }
 
 function soonTileHtml({ entry, logo }, today) {
@@ -497,8 +471,9 @@ function collectionsHtml(catalog, values = new Map(), soon = [], today = isoToda
     const sets = catalog.collections.filter((c) => c.game === game.id);
     const upcoming = soon.filter((s) => s.entry.game === game.id);
     if (!sets.length && !upcoming.length) continue;
+    const tagline = GAMES[game.id]?.tagline;
     const title = game.logo
-      ? `<img class="home-game__logo" src="${game.logo}" alt="${escapeHtml(game.name)}"><span class="home-game__tagline" aria-hidden="true">Trading Card Game</span>`
+      ? `<img class="home-game__logo" src="${game.logo}" alt="${escapeHtml(game.name)}">${tagline ? `<span class="home-game__tagline" aria-hidden="true">${escapeHtml(tagline)}</span>` : ''}`
       : escapeHtml(game.name);
     parts.push(`<section class="home-game" aria-labelledby="game-${game.id}"><h2 class="home-game__title" id="game-${game.id}">${title}</h2>`);
     let shown = 0;
@@ -506,15 +481,26 @@ function collectionsHtml(catalog, values = new Map(), soon = [], today = isoToda
       const inSeries = sets.filter((c) => c.series === series);
       const soonTiles = upcoming.filter((s) => s.entry.series === series).map((s) => soonTileHtml(s, today));
       if (!inSeries.length && !soonTiles.length) continue;
-      const expansions = inSeries.filter((c) => c.kind === 'expansion');
-      const main = expansions.length ? expansions : inSeries;
-      const extras = expansions.length ? inSeries.filter((c) => c.kind !== 'expansion') : [];
       const open = shown++ < OPEN_SERIES;
       const count = inSeries.length + soonTiles.length;
+      const tiles = (list) => list.map((c) => tileHtml(c, values.get(c.id))).join('');
+      let body;
+      const kindGroups = GAMES[game.id]?.KIND_GROUPS;
+      if (kindGroups) {
+        const blocks = kindGroups.map(([kind, heading]) => [heading, inSeries.filter((c) => c.kind === kind), kind === 'expansion']).filter(([, list]) => list.length);
+        body = blocks.length === 1
+          ? `<div class="set-grid">${soonTiles.join('')}${tiles(blocks[0][1])}</div>`
+          : blocks.map(([heading, list, main]) => `<h4 class="home-series__sub">${escapeHtml(heading)}</h4><div class="set-grid${main ? '' : ' set-grid--small'}">${main ? soonTiles.join('') : ''}${tiles(list)}</div>`).join('');
+      } else {
+        const expansions = inSeries.filter((c) => c.kind === 'expansion');
+        const main = expansions.length ? expansions : inSeries;
+        const extras = expansions.length ? inSeries.filter((c) => c.kind !== 'expansion') : [];
+        body = `<div class="set-grid">${soonTiles.join('')}${tiles(main)}</div>`
+          + (extras.length ? `<h4 class="home-series__sub">${[...new Set(extras.map((c) => KIND_HEADINGS[c.kind] || 'More'))].join(' &amp; ')}</h4><div class="set-grid set-grid--small">${tiles(extras)}</div>` : '');
+      }
       parts.push(`<details class="home-series" data-series${open ? ' open data-open' : ''}>`
         + `<summary class="home-series__head"><h3 class="home-series__title">${escapeHtml(series)}</h3><span class="home-series__count">${count === 1 ? '1 set' : `${count} sets`}</span></summary>`
-        + `<div class="set-grid">${soonTiles.join('')}${main.map((c) => tileHtml(c, values.get(c.id))).join('')}</div>`
-        + (extras.length ? `<h4 class="home-series__sub">${[...new Set(extras.map((c) => KIND_HEADINGS[c.kind] || 'More'))].join(' &amp; ')}</h4><div class="set-grid set-grid--small">${extras.map((c) => tileHtml(c, values.get(c.id))).join('')}</div>` : '')
+        + body
         + '</details>');
     }
     parts.push('</section>');
@@ -522,35 +508,158 @@ function collectionsHtml(catalog, values = new Map(), soon = [], today = isoToda
   return parts.join('\n');
 }
 
-export async function homePage({ siteUrl = DEFAULT_URL, today = isoToday() } = {}) {
+const guidesFor = (games) => GUIDES.filter((g) => games.includes(g.game));
+const footerGuides = (games, full = false) => guidesFor(games).map((g) => `    <a href="${g.id}/">${escapeHtml(full ? g.labelFull || g.label : g.label)}</a>\n`).join('');
+const menuGuides = (games) => guidesFor(games)
+  .map((g) => `        <a class="menu__item" href="${g.id}/"><svg><use href="#i-shield"/></svg><span><b>${escapeHtml(g.label)}</b><small>${escapeHtml(g.menu)}</small></span></a>\n`)
+  .join('');
+function helpGuides(games) {
+  const items = guidesFor(games).map((g) => `        <li>Not sure a card is real? Read <a href="${g.id}/">${escapeHtml(g.help)}</a> before you buy or trade.</li>\n`).join('');
+  return items ? `      <h3>Buying and trading cards</h3>\n      <ul>\n${items}      </ul>\n` : '';
+}
+const disclaimers = (games) => games.map((g) => GAMES[g].disclaimer).join(' ');
+
+const liveGames = (catalog) => LIVE_GAMES.map((id) => catalog.games.find((g) => g.id === id)).filter(Boolean);
+const gameNames = (catalog) => list(liveGames(catalog).map((g) => GAMES[g.id].shortName));
+
+const FEATURES = [
+  'No ads, no sign-up and no tracking',
+  'Copy counts for duplicates and trades',
+  'Grid, list and binder page views',
+  'Card scanner that runs on your device',
+  'Collection value from TCGplayer market prices',
+  'Trade codes to compare collections with friends',
+  'Works offline',
+  'Export and import by link, code, QR code or file',
+];
+
+function gameButtonsHtml(catalog) {
+  return liveGames(catalog).map((g) => {
+    const count = catalog.collections.filter((c) => c.game === g.id).length;
+    const logo = g.logo ? `<img class="game-btn__logo" src="${g.logo}" alt="" decoding="async">` : '';
+    return `      <a class="game-btn" href="${g.id}/" data-game="${g.id}">`
+      + `<span class="game-btn__art">${logo}</span>`
+      + `<span class="game-btn__name">${escapeHtml(g.name)}</span>`
+      + `<span class="game-btn__meta">${count} checklists · ${escapeHtml(GAME_PAGES[g.id].span)}</span>`
+      + '<span class="game-btn__mine" hidden></span>'
+      + '</a>';
+  }).join('\n');
+}
+
+export async function rootPage({ siteUrl = DEFAULT_URL } = {}) {
   const [template, catalog] = await Promise.all([readFile(join(TEMPLATES, 'index.html'), 'utf8'), loadCatalog()]);
-  const setCount = catalog.collections.filter((c) => c.kind === 'expansion').length;
-  const soon = await Promise.all(COMING_SOON.map(async (entry) => {
+  const games = liveGames(catalog).map((g) => g.id);
+  const names = gameNames(catalog);
+  const description = `Free ${names} card checklists for every English set, with no ads, no sign-up and no tracking. Tick off your cards, chase master sets, count duplicates, scan cards with your camera and see what your collection is worth.`;
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      { '@type': 'Organization', '@id': `${siteUrl}#organization`, name: 'Binder Tracker', url: siteUrl, logo: `${siteUrl}img/icons/icon-512.png` },
+      {
+        '@type': 'WebSite', '@id': `${siteUrl}#website`, url: siteUrl, name: 'Binder Tracker', alternateName: `Binder Tracker ${names} Checklists`,
+        description: `Free ${names} card checklists and collection tracker, with no ads, no sign-up and no tracking.`, inLanguage: 'en-GB', publisher: { '@id': `${siteUrl}#organization` },
+      },
+      {
+        '@type': 'WebApplication', '@id': `${siteUrl}#app`, name: 'Binder Tracker', url: siteUrl,
+        description: `Checklists for every English ${names} set, with copy counts, binder pages, a card scanner and collection values.`,
+        applicationCategory: 'UtilitiesApplication', operatingSystem: 'Any', browserRequirements: 'Requires JavaScript', isAccessibleForFree: true, inLanguage: 'en-GB',
+        image: `${siteUrl}img/og-image.jpg`, offers: { '@type': 'Offer', price: '0', priceCurrency: 'GBP' },
+        featureList: [FEATURES[0], ...liveGames(catalog).map((g) => `${g.name} checklists, ${GAME_PAGES[g.id].span}`), ...FEATURES.slice(1)],
+      },
+    ],
+  };
+  const about = [
+    `Binder Tracker is a free card checklist and collection tracker for ${escapeHtml(names)}. Every set has its own checklist, with card images, rarities and TCGplayer prices.`,
+    ...liveGames(catalog).map((g) => `<a href="${g.id}/"><b>${escapeHtml(g.name)} checklists</b></a>: ${GAME_PAGES[g.id].rootText}`),
+    'Scan a card with your camera to add it, count your duplicates, see what your collection is worth in pounds, dollars or euros, and swap trade codes with friends to check a trade is fair.',
+    'There are <b>no ads, no sign-up and no tracking</b>. Your collection stays on your device, it works on phones and computers even offline, and <b>Export or share</b> moves it to another device as a link, code, QR code or file.',
+  ];
+  return fill(template, {
+    title: `Free ${names} Card Checklists & Collection Tracker | Binder Tracker`,
+    description,
+    ogTitle: `Binder Tracker · Free ${names} Card Checklists & Collection Tracker`,
+    ogDescription: description,
+    twitterDescription: `Free checklists for every English ${names} set. No ads, no sign-up, no tracking.`,
+    imageAlt: `Binder Tracker: card checklists for ${names}`,
+    jsonLd: jsonScript(jsonLd),
+    heroText: `Free checklists for every English ${names} set. Tick off what you own, track spare copies and see what your collection is worth. No ads, no sign-up, no tracking.`,
+    games: gameButtonsHtml(catalog),
+    aboutTitle: 'About Binder Tracker',
+    aboutHtml: about.map((p) => `  <p>${p}</p>`).join('\n'),
+    footerGuides: footerGuides(games, games.length > 1),
+    menuGuides: menuGuides(games),
+    disclaimer: disclaimers(games),
+  }).split(DEFAULT_URL).join(siteUrl);
+}
+
+async function sitePage(file, siteUrl) {
+  const [template, catalog] = await Promise.all([readFile(join(TEMPLATES, file), 'utf8'), loadCatalog()]);
+  const games = liveGames(catalog).map((g) => g.id);
+  const html = fill(template, {
+    names: gameNames(catalog),
+    tcg: games.length > 1 ? gameNames(catalog) : `${GAMES[games[0]].shortName} TCG`,
+    disclaimer: disclaimers(games),
+    footerGuides: footerGuides(games, games.length > 1),
+  });
+  return prefixUrls(html.split(DEFAULT_URL).join(siteUrl), '../');
+}
+
+export async function gamePage(gameId, { siteUrl = DEFAULT_URL, today = isoToday() } = {}) {
+  const [template, full] = await Promise.all([readFile(join(TEMPLATES, 'game.html'), 'utf8'), loadCatalog()]);
+  const game = GAMES[gameId];
+  const page = GAME_PAGES[gameId];
+  const catalog = { games: full.games.filter((g) => g.id === gameId), collections: full.collections.filter((c) => c.game === gameId) };
+  const counts = { expansions: catalog.collections.filter((c) => c.kind === 'expansion').length, total: catalog.collections.length };
+  const soon = await Promise.all(COMING_SOON.filter((e) => e.game === gameId).map(async (entry) => {
     const logo = `img/sets/${entry.id}/logo.webp`;
     return { entry, logo: (await exists(join(PUBLIC, logo))) ? logo : null };
   }));
-  return fill(template, { collections: collectionsHtml(catalog, await setValues(catalog), soon, today), setCount }).split(DEFAULT_URL).join(siteUrl);
+  const url = `${siteUrl}${gameId}/`;
+  const ogImage = `${siteUrl}${await ogImageFor(gameId)}`;
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'CollectionPage', '@id': `${url}#page`, url, name: page.pageName, description: page.description, inLanguage: 'en-GB',
+        isPartOf: { '@id': `${siteUrl}#website` }, breadcrumb: { '@id': `${url}#breadcrumb` }, primaryImageOfPage: ogImage,
+      },
+      {
+        '@type': 'BreadcrumbList', '@id': `${url}#breadcrumb`,
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'Binder Tracker', item: siteUrl },
+          { '@type': 'ListItem', position: 2, name: game.name, item: url },
+        ],
+      },
+    ],
+  };
+  const html = fill(template, {
+    title: `${page.title} | Binder Tracker`,
+    description: page.description,
+    url,
+    ogTitle: page.ogTitle,
+    ogDescription: page.ogDescription,
+    twitterDescription: page.twitterDescription,
+    ogImage,
+    imageAlt: page.imageAlt,
+    jsonLd: jsonScript(jsonLd),
+    game: gameId,
+    heroTitle: page.heroTitle,
+    heroText: page.heroText(counts),
+    searchPlaceholder: page.search,
+    collections: collectionsHtml(catalog, await setValues(catalog), soon, today),
+    aboutTitle: page.aboutTitle,
+    aboutHtml: page.about.map((p) => `  <p>${p}</p>`).join('\n'),
+    footerGuides: footerGuides([gameId]),
+    menuGuides: menuGuides([gameId]),
+    disclaimer: game.disclaimer,
+  });
+  return prefixUrls(html, '../');
 }
 
-export async function portfolioPage({ siteUrl = DEFAULT_URL } = {}) {
-  const template = await readFile(join(TEMPLATES, 'portfolio.html'), 'utf8');
-  return prefixUrls(template.split(DEFAULT_URL).join(siteUrl), '../');
-}
-
-export async function tradePage({ siteUrl = DEFAULT_URL } = {}) {
-  const template = await readFile(join(TEMPLATES, 'trade.html'), 'utf8');
-  return prefixUrls(template.split(DEFAULT_URL).join(siteUrl), '../');
-}
-
-export async function listPage({ siteUrl = DEFAULT_URL } = {}) {
-  const template = await readFile(join(TEMPLATES, 'list.html'), 'utf8');
-  return prefixUrls(template.split(DEFAULT_URL).join(siteUrl), '../');
-}
-
-export async function sharedPage({ siteUrl = DEFAULT_URL } = {}) {
-  const template = await readFile(join(TEMPLATES, 'shared.html'), 'utf8');
-  return prefixUrls(template.split(DEFAULT_URL).join(siteUrl), '../');
-}
+export const portfolioPage = ({ siteUrl = DEFAULT_URL } = {}) => sitePage('portfolio.html', siteUrl);
+export const tradePage = ({ siteUrl = DEFAULT_URL } = {}) => sitePage('trade.html', siteUrl);
+export const listPage = ({ siteUrl = DEFAULT_URL } = {}) => sitePage('list.html', siteUrl);
+export const sharedPage = ({ siteUrl = DEFAULT_URL } = {}) => sitePage('shared.html', siteUrl);
 
 async function docUpdated(file) {
   const m = /Last updated: (\d{1,2}) (\w+) (\d{4})/.exec(await readFile(join(PUBLIC, file), 'utf8'));
@@ -568,6 +677,7 @@ export async function sitemap({ siteUrl = DEFAULT_URL, today = new Date().toISOS
   }));
   const urls = [
     ['', 'weekly', '1.0', today],
+    ...liveGames(catalog).map((g) => [`${g.id}/`, 'weekly', '0.9', today]),
     ...soon,
     ...GUIDES.map((g) => [`${g.id}/`, 'monthly', '0.8', g.updated]),
     ['trade/', 'monthly', '0.7', today],
