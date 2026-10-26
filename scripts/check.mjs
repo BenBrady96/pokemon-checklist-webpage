@@ -409,7 +409,7 @@ if (meg) {
     const name = relative(ROOT, file).split(sep).join('/');
     check(withAnalytics(page, 'http://localhost:8080/') === page, `${name}: analytics is left out of local previews`);
     check(/script-src [^;]*https:\/\/static\.cloudflareinsights\.com;/.test(live) && /connect-src [^;]*https:\/\/cloudflareinsights\.com;/.test(live), `${name}: the live CSP allows Cloudflare Web Analytics`);
-    check(live.includes('<script src="https://bindertracker.co.uk/js/shared/analytics.js" data-token="') && !live.includes('beacon.min.js'), `${name}: the live page loads the analytics loader, never the beacon directly`);
+    check(/<script src="https:\/\/bindertracker\.co\.uk\/js\/shared\/analytics\.js" data-token="/.test(live) && !live.includes('beacon.min.js'), `${name}: the live page loads the analytics loader, never the beacon directly`);
   }
   const loader = await readFile(join(PUBLIC, 'js', 'shared', 'analytics.js'), 'utf8');
   check(loader.includes("location.hash.includes('=')") && loader.includes('spa: false'), 'the analytics loader skips links that carry a code, and doesn’t follow URL changes');
