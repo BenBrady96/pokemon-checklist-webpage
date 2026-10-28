@@ -63,6 +63,7 @@ const DEFAULT_PREFS = {
   sharedView: 'list',
   currency: 'gbp',
   installBanner: null,
+  motionTilt: false,
 };
 
 let prefs = { ...DEFAULT_PREFS, ...(read(PREFS_KEY) || {}) };

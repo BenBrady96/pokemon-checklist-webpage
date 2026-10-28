@@ -1,4 +1,5 @@
 import { COLLECTION } from '../core/collection.js';
+import * as storage from '../core/storage.js';
 import * as store from './store.js';
 import { openDialog, closeDialog, reducedMotion, escapeHTML } from '../shared/ui.js';
 import { rarityIcon } from './render.js';
@@ -259,9 +260,19 @@ export function initViewer({ getOrder, onCommit }) {
     motionBase = null;
     window.addEventListener('deviceorientation', onOrientation);
     clearTimeout(motionTimer);
+    if (canRequestPermission && !motionSeen && storage.getPrefs().motionTilt) {
+      requestMotion();
+      return;
+    }
     motionTimer = setTimeout(() => {
       if (!motionSeen && canRequestPermission && dlg.open) el.motion.hidden = false;
     }, 700);
+  }
+
+  async function requestMotion() {
+    try {
+      storage.setPref('motionTilt', (await DeviceOrientationEvent.requestPermission()) === 'granted');
+    } catch {}
   }
 
   function stopMotion() {
@@ -270,11 +281,9 @@ export function initViewer({ getOrder, onCommit }) {
     window.removeEventListener('deviceorientation', onOrientation);
   }
 
-  el.motion.addEventListener('click', async () => {
+  el.motion.addEventListener('click', () => {
     el.motion.hidden = true;
-    try {
-      await DeviceOrientationEvent.requestPermission();
-    } catch {}
+    requestMotion();
   });
 
   dlg.addEventListener('close', () => {
