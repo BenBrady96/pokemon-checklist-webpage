@@ -2,6 +2,7 @@ import { COLLECTION } from '../core/collection.js';
 import { getQty, getPrefs } from './store.js';
 import { rarityIconById } from './render.js';
 import { marketUsd, formatPrice, formatUsd, pricesUpdated, hasPrices, isConverted } from '../core/pricing.js';
+import { HANDLE, socialButtons } from '../shared/socials.js';
 
 const currentTier = () => COLLECTION.getTier(getPrefs().tier);
 
@@ -80,9 +81,12 @@ export function renderStats(s) {
   const circumference = 2 * Math.PI * 52;
   const offset = circumference * (1 - set.owned / set.total);
   const main = s.byGroup.main;
-  const headline = set.owned === set.total ? `${s.tier.name} complete!`
-    : main && main.total < set.total && main.owned === main.total ? 'Main set complete!'
-      : `${set.total - set.owned} cards to go`;
+  const setDone = set.owned === set.total;
+  const mainDone = main && main.total < set.total && main.owned === main.total;
+  const headline = setDone ? `${s.tier.name} complete!` : mainDone ? 'Main set complete!' : `${set.total - set.owned} cards to go`;
+  const showOff = setDone || mainDone
+    ? `<div class="show-off"><p><b>Show it off!</b> Screenshot this and tag ${HANDLE}</p>${socialButtons()}</div>`
+    : '';
   const progress = SUMMARY.map(([id, name]) => [name, s.byGroup[id]])
     .filter(([, g]) => g?.total)
     .map(([name, g]) => `${name} ${g.owned}/${g.total}`);
@@ -110,6 +114,7 @@ export function renderStats(s) {
         <p>${summary}</p>
       </div>
     </div>
+    ${showOff}
     <div class="stat-tiles">
       <div class="stat-tile"><b>${s.owned}</b><small>Unique cards</small></div>
       <div class="stat-tile"><b>${s.copies}</b><small>Total copies</small></div>

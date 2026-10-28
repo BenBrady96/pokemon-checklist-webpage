@@ -390,7 +390,7 @@ function checkMilestones(s) {
     if (fresh.length) {
       const best = fresh[fresh.length - 1];
       const name = best.id === 'set' ? s.tier.name : best.name;
-      toast(`${name} complete! Congratulations!`, { icon: 'i-sparkle', timeout: 6000 });
+      toast(`${name} complete! Congratulations!`, { icon: 'i-sparkle', timeout: 8000, action: { label: 'Show it off', onClick: () => openNamed('stats') } });
       announce(`${name} complete`);
       if (!reducedMotion()) celebrate();
     }

@@ -52,6 +52,7 @@ const SHELL = [
   'js/shared/pwa.js',
   'js/shared/qr.js',
   'js/shared/rarity.js',
+  'js/shared/socials.js',
   'js/shared/theme-init.js',
   'js/shared/tiles.js',
   'js/shared/ui.js',

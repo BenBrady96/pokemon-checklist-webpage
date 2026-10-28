@@ -415,5 +415,21 @@ if (meg) {
   check(loader.includes("location.hash.includes('=')") && loader.includes('spa: false'), 'the analytics loader skips links that carry a code, and doesn’t follow URL changes');
 }
 
+{
+  const { footerSocials, rootPage } = await import('./lib/pages.mjs');
+  const { SOCIALS } = await import('../public/js/shared/socials.js');
+  for (const name of ['index', 'game', 'collection', 'list', 'portfolio', 'shared', 'trade', 'guide']) {
+    const page = await readFile(join(TEMPLATES, `${name}.html`), 'utf8');
+    check(/<footer class="site-footer[\s\S]*\{\{\{footerSocials\}\}\}[\s\S]*<\/footer>/.test(page), `templates/${name}.html: the footer has the social links`);
+    if (page.includes('id="dlg-menu"')) check(page.includes('{{{menuSocials}}}'), `templates/${name}.html: the menu has a Follow us group`);
+  }
+  for (const name of ['privacy.html', 'terms.html']) {
+    check((await readFile(join(PUBLIC, name), 'utf8')).includes(footerSocials), `public/${name}: the footer social links match socials.js`);
+  }
+  const ld = JSON.parse(/<script type="application\/ld\+json">(.*?)<\/script>/s.exec(await rootPage())[1]);
+  const org = ld['@graph'].find((n) => n['@type'] === 'Organization');
+  check(JSON.stringify(org.sameAs) === JSON.stringify(SOCIALS.map((s) => s.url)), 'the home page JSON-LD lists the social profiles in sameAs');
+}
+
 console.log(failures ? `\n${failures} of ${checks} checks failed` : `All ${checks} checks passed (${models.size} collections)`);
 process.exitCode = failures ? 1 : 0;

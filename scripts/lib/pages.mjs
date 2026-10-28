@@ -5,6 +5,7 @@ import { GUIDES } from '../../config/guides/index.mjs';
 import { ANALYTICS_TOKEN, DEFAULT_URL, PUBLIC, TEMPLATES, exists, readJson } from './util.mjs';
 import { formatMoney, priceDate, ratesOf, tierValues } from '../../public/js/core/pricing.js';
 import { releaseText, tileHtml } from '../../public/js/shared/tiles.js';
+import { SOCIALS, socialButtons, socialMenuItems } from '../../public/js/shared/socials.js';
 
 const escapeHtml = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
 
@@ -316,6 +317,7 @@ export async function comingSoonPage(entry, { siteUrl = DEFAULT_URL, today = iso
     jsonLd: jsonScript(jsonLd),
     body,
     disclaimer: game.disclaimer,
+    footerSocials,
   });
   return prefixUrls(html, '../'.repeat(entry.id.split('/').length));
 }
@@ -357,6 +359,7 @@ export async function guidePage(guide, { siteUrl = DEFAULT_URL } = {}) {
     jsonLd: jsonScript(articleJsonLd({ url, siteUrl, crumb: guide.label, headline: guide.title, description: guide.description, image: ogImage, published: guide.published, modified: guide.updated })),
     body,
     disclaimer: game.disclaimer,
+    footerSocials,
   }).replace(`<a href="${guide.id}/">`, `<a href="${guide.id}/" aria-current="page">`);
   return prefixUrls(html, '../'.repeat(guide.id.split('/').length));
 }
@@ -427,7 +430,9 @@ export async function collectionPage(id, { siteUrl = DEFAULT_URL, today = isoTod
     game: raw.game,
     gameHome: `${raw.game}/`,
     footerGuides: footerGuides([raw.game]),
+    footerSocials,
     menuGuides: menuGuides([raw.game]),
+    menuSocials,
     helpGuides: helpGuides([raw.game]),
     setArt: (await exists(join(PUBLIC, `img/sets/${id}/logo.webp`))) ? `<img class="set-hero__logo" src="img/sets/${id}/logo.webp" alt="" decoding="async">` : '',
     setMeta: [`<a href="${raw.game}/">${escapeHtml(game.name)}</a>`, model.released ? releaseText(model.released) : '', `${complete} cards`].filter(Boolean).join(' · '),
@@ -513,6 +518,8 @@ const footerGuides = (games, full = false) => guidesFor(games).map((g) => `    <
 const menuGuides = (games) => guidesFor(games)
   .map((g) => `        <a class="menu__item" href="${g.id}/"><svg><use href="#i-shield"/></svg><span><b>${escapeHtml(g.label)}</b><small>${escapeHtml(g.menu)}</small></span></a>\n`)
   .join('');
+export const footerSocials = `  <div class="footer-social"><span class="footer-social__label">Follow Binder Tracker</span>${socialButtons()}</div>`;
+const menuSocials = `      <div class="menu__group">\n        <h3 class="menu__label">Follow us</h3>\n${socialMenuItems().map((a) => `        ${a}\n`).join('')}      </div>`;
 function helpGuides(games) {
   const items = guidesFor(games).map((g) => `        <li>Not sure a card is real? Read <a href="${g.id}/">${escapeHtml(g.help)}</a> before you buy or trade.</li>\n`).join('');
   return items ? `      <h3>Buying and trading cards</h3>\n      <ul>\n${items}      </ul>\n` : '';
@@ -554,7 +561,7 @@ export async function rootPage({ siteUrl = DEFAULT_URL } = {}) {
   const jsonLd = {
     '@context': 'https://schema.org',
     '@graph': [
-      { '@type': 'Organization', '@id': `${siteUrl}#organization`, name: 'Binder Tracker', url: siteUrl, logo: `${siteUrl}img/icons/icon-512.png` },
+      { '@type': 'Organization', '@id': `${siteUrl}#organization`, name: 'Binder Tracker', url: siteUrl, logo: `${siteUrl}img/icons/icon-512.png`, sameAs: SOCIALS.map((s) => s.url) },
       {
         '@type': 'WebSite', '@id': `${siteUrl}#website`, url: siteUrl, name: 'Binder Tracker', alternateName: `Binder Tracker ${names} Checklists`,
         description: `Free ${names} card checklists and collection tracker, with no ads, no sign-up and no tracking.`, inLanguage: 'en-GB', publisher: { '@id': `${siteUrl}#organization` },
@@ -587,7 +594,9 @@ export async function rootPage({ siteUrl = DEFAULT_URL } = {}) {
     aboutTitle: 'About Binder Tracker',
     aboutHtml: about.map((p) => `  <p>${p}</p>`).join('\n'),
     footerGuides: footerGuides(games, games.length > 1),
+    footerSocials,
     menuGuides: menuGuides(games),
+    menuSocials,
     disclaimer: disclaimers(games),
   }).split(DEFAULT_URL).join(siteUrl);
 }
@@ -600,6 +609,7 @@ async function sitePage(file, siteUrl) {
     tcg: games.length > 1 ? gameNames(catalog) : `${GAMES[games[0]].shortName} TCG`,
     disclaimer: disclaimers(games),
     footerGuides: footerGuides(games, games.length > 1),
+    footerSocials,
   });
   return prefixUrls(html.split(DEFAULT_URL).join(siteUrl), '../');
 }
@@ -650,7 +660,9 @@ export async function gamePage(gameId, { siteUrl = DEFAULT_URL, today = isoToday
     aboutTitle: page.aboutTitle,
     aboutHtml: page.about.map((p) => `  <p>${p}</p>`).join('\n'),
     footerGuides: footerGuides([gameId]),
+    footerSocials,
     menuGuides: menuGuides([gameId]),
+    menuSocials,
     disclaimer: game.disclaimer,
   });
   return prefixUrls(html, '../');
