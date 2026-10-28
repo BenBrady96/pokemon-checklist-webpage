@@ -13,7 +13,7 @@ export default {
   rootText: 'every English booster set, structure deck, tin and promo since Legend of Blue Eyes White Dragon, with every rarity of each card.',
   aboutTitle: 'About Binder Tracker',
   about: [
-    'Binder Tracker is a free Yu-Gi-Oh! card checklist and collection tracker. Every English Yu-Gi-Oh! TCG product since Legend of Blue Eyes White Dragon has its own checklist, from booster sets and reprint sets to structure decks, tins, Duelist Packs and Speed Duel, with card images, rarities and TCGplayer prices. Promo cards are grouped by year.',
+    'Binder Tracker is a free card checklist and collection tracker for trading card games, Yu-Gi-Oh! included. Every English Yu-Gi-Oh! TCG product since Legend of Blue Eyes White Dragon has its own checklist, from booster sets and reprint sets to structure decks, tins, Duelist Packs and Speed Duel, with card images, rarities and TCGplayer prices. Promo cards are grouped by year.',
     'Pick what you’re collecting in each set: the <b>Standard set</b> (every card number once, in its main rarity) or the <b>Master set</b> (every rarity of every card, such as the Starlight, Quarter Century and Collector’s Rares).',
     'Scan a card with your camera to add it, count your duplicates, see what your collection is worth in pounds, dollars or euros, and swap trade codes with friends to check a trade is fair.',
     'There are <b>no ads, no sign-up and no tracking</b>. Your collection stays on your device, it works on phones and computers even offline, and <b>Export or share</b> moves it to another device as a link, code, QR code or file.',

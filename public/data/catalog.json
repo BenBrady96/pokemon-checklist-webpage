@@ -41,6 +41,18 @@
         "Promos"
       ],
       "logo": "img/games/yugioh/logo.webp"
+    },
+    {
+      "id": "lorcana",
+      "name": "Disney Lorcana TCG",
+      "series": [
+        "2027",
+        "2026",
+        "2025",
+        "2024",
+        "2023"
+      ],
+      "logo": "img/games/lorcana/logo.webp"
     }
   ],
   "collections": [
@@ -18280,6 +18292,776 @@
       ],
       "defaultTier": "standard",
       "logo": "img/sets/yugioh/promos-2001/logo.webp"
+    },
+    {
+      "id": "lorcana/hyperia-city",
+      "game": "lorcana",
+      "slug": "hyperia-city",
+      "name": "Hyperia City",
+      "series": "2026",
+      "kind": "expansion",
+      "code": "I14",
+      "syncKey": "I14",
+      "released": "2026-10-23",
+      "total": 242,
+      "tiers": [
+        {
+          "id": "standard",
+          "label": "Standard",
+          "count": 204
+        },
+        {
+          "id": "master",
+          "label": "Master",
+          "count": 408
+        },
+        {
+          "id": "grand",
+          "label": "Grand Master",
+          "count": 446
+        }
+      ],
+      "defaultTier": "grand",
+      "logo": "img/sets/lorcana/hyperia-city/logo.webp"
+    },
+    {
+      "id": "lorcana/attack-of-the-vine",
+      "game": "lorcana",
+      "slug": "attack-of-the-vine",
+      "name": "Attack of the Vine!",
+      "series": "2026",
+      "kind": "expansion",
+      "code": "I13",
+      "syncKey": "I13",
+      "released": "2026-07-24",
+      "total": 247,
+      "tiers": [
+        {
+          "id": "standard",
+          "label": "Standard",
+          "count": 207
+        },
+        {
+          "id": "master",
+          "label": "Master",
+          "count": 414
+        },
+        {
+          "id": "grand",
+          "label": "Grand Master",
+          "count": 454
+        }
+      ],
+      "defaultTier": "grand",
+      "logo": "img/sets/lorcana/attack-of-the-vine/logo.webp"
+    },
+    {
+      "id": "lorcana/wilds-unknown",
+      "game": "lorcana",
+      "slug": "wilds-unknown",
+      "name": "Wilds Unknown",
+      "series": "2026",
+      "kind": "expansion",
+      "code": "I12",
+      "syncKey": "I12",
+      "released": "2026-05-15",
+      "total": 243,
+      "tiers": [
+        {
+          "id": "standard",
+          "label": "Standard",
+          "count": 204
+        },
+        {
+          "id": "master",
+          "label": "Master",
+          "count": 408
+        },
+        {
+          "id": "grand",
+          "label": "Grand Master",
+          "count": 447
+        }
+      ],
+      "defaultTier": "grand",
+      "logo": "img/sets/lorcana/wilds-unknown/logo.webp"
+    },
+    {
+      "id": "lorcana/winterspell",
+      "game": "lorcana",
+      "slug": "winterspell",
+      "name": "Winterspell",
+      "series": "2026",
+      "kind": "expansion",
+      "code": "I11",
+      "syncKey": "I11",
+      "released": "2026-02-20",
+      "total": 243,
+      "tiers": [
+        {
+          "id": "standard",
+          "label": "Standard",
+          "count": 204
+        },
+        {
+          "id": "master",
+          "label": "Master",
+          "count": 408
+        },
+        {
+          "id": "grand",
+          "label": "Grand Master",
+          "count": 447
+        }
+      ],
+      "defaultTier": "grand",
+      "logo": "img/sets/lorcana/winterspell/logo.webp"
+    },
+    {
+      "id": "lorcana/rph-promos",
+      "game": "lorcana",
+      "slug": "rph-promos",
+      "name": "RPH Promos",
+      "series": "2026",
+      "kind": "promo",
+      "code": "IRPH",
+      "syncKey": "IRPH",
+      "released": "2026-10-16",
+      "total": 7,
+      "tiers": [
+        {
+          "id": "standard",
+          "label": "All cards",
+          "count": 7
+        }
+      ],
+      "defaultTier": "standard",
+      "logo": "img/sets/lorcana/rph-promos/logo.webp"
+    },
+    {
+      "id": "lorcana/c3-promos",
+      "game": "lorcana",
+      "slug": "c3-promos",
+      "name": "C3 Promos",
+      "series": "2026",
+      "kind": "promo",
+      "code": "IC3",
+      "syncKey": "IC3",
+      "released": "2026-10-01",
+      "total": 2,
+      "tiers": [
+        {
+          "id": "standard",
+          "label": "All cards",
+          "count": 2
+        }
+      ],
+      "defaultTier": "standard",
+      "logo": "img/sets/lorcana/c3-promos/logo.webp"
+    },
+    {
+      "id": "lorcana/curators-collection-beauty-and-the-beast",
+      "game": "lorcana",
+      "slug": "curators-collection-beauty-and-the-beast",
+      "name": "Curator’s Collection: Beauty and the Beast Edition",
+      "series": "2026",
+      "kind": "promo",
+      "code": "ICC2",
+      "syncKey": "ICC2",
+      "released": "2026-10-01",
+      "total": 6,
+      "tiers": [
+        {
+          "id": "standard",
+          "label": "All cards",
+          "count": 6
+        }
+      ],
+      "defaultTier": "standard",
+      "logo": "img/sets/lorcana/curators-collection-beauty-and-the-beast/logo.webp"
+    },
+    {
+      "id": "lorcana/pd1-promos",
+      "game": "lorcana",
+      "slug": "pd1-promos",
+      "name": "PD1 Promos",
+      "series": "2026",
+      "kind": "promo",
+      "code": "IPD1",
+      "syncKey": "IPD1",
+      "released": "2026-07-28",
+      "total": 19,
+      "tiers": [
+        {
+          "id": "standard",
+          "label": "All cards",
+          "count": 19
+        }
+      ],
+      "defaultTier": "standard",
+      "logo": "img/sets/lorcana/pd1-promos/logo.webp"
+    },
+    {
+      "id": "lorcana/curators-collection-heroines",
+      "game": "lorcana",
+      "slug": "curators-collection-heroines",
+      "name": "Curator’s Collection: Heroines Edition",
+      "series": "2026",
+      "kind": "promo",
+      "code": "ICC1",
+      "syncKey": "ICC1",
+      "released": "2026-07-17",
+      "total": 6,
+      "tiers": [
+        {
+          "id": "standard",
+          "label": "All cards",
+          "count": 6
+        }
+      ],
+      "defaultTier": "standard",
+      "logo": "img/sets/lorcana/curators-collection-heroines/logo.webp"
+    },
+    {
+      "id": "lorcana/promo-set-4",
+      "game": "lorcana",
+      "slug": "promo-set-4",
+      "name": "Promo Set 4",
+      "series": "2026",
+      "kind": "promo",
+      "code": "IP4",
+      "syncKey": "IP4",
+      "released": "2026-07-17",
+      "total": 8,
+      "tiers": [
+        {
+          "id": "standard",
+          "label": "All cards",
+          "count": 8
+        }
+      ],
+      "defaultTier": "standard",
+      "logo": "img/sets/lorcana/promo-set-4/logo.webp"
+    },
+    {
+      "id": "lorcana/disney-parks-promos",
+      "game": "lorcana",
+      "slug": "disney-parks-promos",
+      "name": "Disney Parks Promos",
+      "series": "2026",
+      "kind": "promo",
+      "code": "IDIS",
+      "syncKey": "IDIS",
+      "released": "2026-01-16",
+      "total": 8,
+      "tiers": [
+        {
+          "id": "standard",
+          "label": "All cards",
+          "count": 8
+        }
+      ],
+      "defaultTier": "standard",
+      "logo": "img/sets/lorcana/disney-parks-promos/logo.webp"
+    },
+    {
+      "id": "lorcana/challenge-promos-year-3",
+      "game": "lorcana",
+      "slug": "challenge-promos-year-3",
+      "name": "Lorcana Challenge Year 3 Promos",
+      "series": "2026",
+      "kind": "promo",
+      "code": "IC2",
+      "syncKey": "IC2",
+      "released": "2026-01-16",
+      "total": 18,
+      "tiers": [
+        {
+          "id": "standard",
+          "label": "All cards",
+          "count": 18
+        }
+      ],
+      "defaultTier": "standard",
+      "logo": "img/sets/lorcana/challenge-promos-year-3/logo.webp"
+    },
+    {
+      "id": "lorcana/the-great-hunny-rescue",
+      "game": "lorcana",
+      "slug": "the-great-hunny-rescue",
+      "name": "Illumineer’s Quest: The Great Hunny Rescue",
+      "series": "2026",
+      "kind": "quest",
+      "code": "IQ3",
+      "syncKey": "IQ3",
+      "released": "2026-10-02",
+      "total": 37,
+      "tiers": [
+        {
+          "id": "standard",
+          "label": "All cards",
+          "count": 37
+        }
+      ],
+      "defaultTier": "standard",
+      "logo": "img/sets/lorcana/the-great-hunny-rescue/logo.webp"
+    },
+    {
+      "id": "lorcana/whispers-in-the-well",
+      "game": "lorcana",
+      "slug": "whispers-in-the-well",
+      "name": "Whispers in the Well",
+      "series": "2025",
+      "kind": "expansion",
+      "code": "I10",
+      "syncKey": "I10",
+      "released": "2025-11-14",
+      "total": 242,
+      "tiers": [
+        {
+          "id": "standard",
+          "label": "Standard",
+          "count": 204
+        },
+        {
+          "id": "master",
+          "label": "Master",
+          "count": 408
+        },
+        {
+          "id": "grand",
+          "label": "Grand Master",
+          "count": 446
+        }
+      ],
+      "defaultTier": "grand",
+      "logo": "img/sets/lorcana/whispers-in-the-well/logo.webp"
+    },
+    {
+      "id": "lorcana/fabled",
+      "game": "lorcana",
+      "slug": "fabled",
+      "name": "Fabled",
+      "series": "2025",
+      "kind": "expansion",
+      "code": "I9",
+      "syncKey": "I9",
+      "released": "2025-09-05",
+      "total": 243,
+      "tiers": [
+        {
+          "id": "standard",
+          "label": "Standard",
+          "count": 205
+        },
+        {
+          "id": "master",
+          "label": "Master",
+          "count": 410
+        },
+        {
+          "id": "grand",
+          "label": "Grand Master",
+          "count": 448
+        }
+      ],
+      "defaultTier": "grand",
+      "logo": "img/sets/lorcana/fabled/logo.webp"
+    },
+    {
+      "id": "lorcana/reign-of-jafar",
+      "game": "lorcana",
+      "slug": "reign-of-jafar",
+      "name": "Reign of Jafar",
+      "series": "2025",
+      "kind": "expansion",
+      "code": "I8",
+      "syncKey": "I8",
+      "released": "2025-06-06",
+      "total": 224,
+      "tiers": [
+        {
+          "id": "standard",
+          "label": "Standard",
+          "count": 204
+        },
+        {
+          "id": "master",
+          "label": "Master",
+          "count": 408
+        },
+        {
+          "id": "grand",
+          "label": "Grand Master",
+          "count": 428
+        }
+      ],
+      "defaultTier": "grand",
+      "logo": "img/sets/lorcana/reign-of-jafar/logo.webp"
+    },
+    {
+      "id": "lorcana/archazias-island",
+      "game": "lorcana",
+      "slug": "archazias-island",
+      "name": "Archazia’s Island",
+      "series": "2025",
+      "kind": "expansion",
+      "code": "I7",
+      "syncKey": "I7",
+      "released": "2025-03-21",
+      "total": 224,
+      "tiers": [
+        {
+          "id": "standard",
+          "label": "Standard",
+          "count": 204
+        },
+        {
+          "id": "master",
+          "label": "Master",
+          "count": 408
+        },
+        {
+          "id": "grand",
+          "label": "Grand Master",
+          "count": 428
+        }
+      ],
+      "defaultTier": "grand",
+      "logo": "img/sets/lorcana/archazias-island/logo.webp"
+    },
+    {
+      "id": "lorcana/promo-set-3",
+      "game": "lorcana",
+      "slug": "promo-set-3",
+      "name": "Promo Set 3",
+      "series": "2025",
+      "kind": "promo",
+      "code": "IP3",
+      "syncKey": "IP3",
+      "released": "2025-08-18",
+      "total": 59,
+      "tiers": [
+        {
+          "id": "standard",
+          "label": "All cards",
+          "count": 59
+        }
+      ],
+      "defaultTier": "standard",
+      "logo": "img/sets/lorcana/promo-set-3/logo.webp"
+    },
+    {
+      "id": "lorcana/palace-heist",
+      "game": "lorcana",
+      "slug": "palace-heist",
+      "name": "Illumineer’s Quest: Palace Heist",
+      "series": "2025",
+      "kind": "quest",
+      "code": "IQ2",
+      "syncKey": "IQ2",
+      "released": "2025-06-06",
+      "total": 35,
+      "tiers": [
+        {
+          "id": "standard",
+          "label": "All cards",
+          "count": 35
+        }
+      ],
+      "defaultTier": "standard",
+      "logo": "img/sets/lorcana/palace-heist/logo.webp"
+    },
+    {
+      "id": "lorcana/azurite-sea",
+      "game": "lorcana",
+      "slug": "azurite-sea",
+      "name": "Azurite Sea",
+      "series": "2024",
+      "kind": "expansion",
+      "code": "I6",
+      "syncKey": "I6",
+      "released": "2024-11-25",
+      "total": 222,
+      "tiers": [
+        {
+          "id": "standard",
+          "label": "Standard",
+          "count": 204
+        },
+        {
+          "id": "master",
+          "label": "Master",
+          "count": 408
+        },
+        {
+          "id": "grand",
+          "label": "Grand Master",
+          "count": 426
+        }
+      ],
+      "defaultTier": "grand",
+      "logo": "img/sets/lorcana/azurite-sea/logo.webp"
+    },
+    {
+      "id": "lorcana/shimmering-skies",
+      "game": "lorcana",
+      "slug": "shimmering-skies",
+      "name": "Shimmering Skies",
+      "series": "2024",
+      "kind": "expansion",
+      "code": "I5",
+      "syncKey": "I5",
+      "released": "2024-08-23",
+      "total": 223,
+      "tiers": [
+        {
+          "id": "standard",
+          "label": "Standard",
+          "count": 204
+        },
+        {
+          "id": "master",
+          "label": "Master",
+          "count": 408
+        },
+        {
+          "id": "grand",
+          "label": "Grand Master",
+          "count": 427
+        }
+      ],
+      "defaultTier": "grand",
+      "logo": "img/sets/lorcana/shimmering-skies/logo.webp"
+    },
+    {
+      "id": "lorcana/ursulas-return",
+      "game": "lorcana",
+      "slug": "ursulas-return",
+      "name": "Ursula’s Return",
+      "series": "2024",
+      "kind": "expansion",
+      "code": "I4",
+      "syncKey": "I4",
+      "released": "2024-05-31",
+      "total": 225,
+      "tiers": [
+        {
+          "id": "standard",
+          "label": "Standard",
+          "count": 204
+        },
+        {
+          "id": "master",
+          "label": "Master",
+          "count": 408
+        },
+        {
+          "id": "grand",
+          "label": "Grand Master",
+          "count": 429
+        }
+      ],
+      "defaultTier": "grand",
+      "logo": "img/sets/lorcana/ursulas-return/logo.webp"
+    },
+    {
+      "id": "lorcana/into-the-inklands",
+      "game": "lorcana",
+      "slug": "into-the-inklands",
+      "name": "Into the Inklands",
+      "series": "2024",
+      "kind": "expansion",
+      "code": "I3",
+      "syncKey": "I3",
+      "released": "2024-03-08",
+      "total": 227,
+      "tiers": [
+        {
+          "id": "standard",
+          "label": "Standard",
+          "count": 208
+        },
+        {
+          "id": "master",
+          "label": "Master",
+          "count": 416
+        },
+        {
+          "id": "grand",
+          "label": "Grand Master",
+          "count": 435
+        }
+      ],
+      "defaultTier": "grand",
+      "logo": "img/sets/lorcana/into-the-inklands/logo.webp"
+    },
+    {
+      "id": "lorcana/d23-collection",
+      "game": "lorcana",
+      "slug": "d23-collection",
+      "name": "D23 Collection",
+      "series": "2024",
+      "kind": "promo",
+      "code": "ID23",
+      "syncKey": "ID23",
+      "released": "2024-08-09",
+      "total": 16,
+      "tiers": [
+        {
+          "id": "standard",
+          "label": "All cards",
+          "count": 16
+        }
+      ],
+      "defaultTier": "standard",
+      "logo": "img/sets/lorcana/d23-collection/logo.webp"
+    },
+    {
+      "id": "lorcana/promo-set-2",
+      "game": "lorcana",
+      "slug": "promo-set-2",
+      "name": "Promo Set 2",
+      "series": "2024",
+      "kind": "promo",
+      "code": "IP2",
+      "syncKey": "IP2",
+      "released": "2024-08-09",
+      "total": 38,
+      "tiers": [
+        {
+          "id": "standard",
+          "label": "All cards",
+          "count": 38
+        }
+      ],
+      "defaultTier": "standard",
+      "logo": "img/sets/lorcana/promo-set-2/logo.webp"
+    },
+    {
+      "id": "lorcana/challenge-promos",
+      "game": "lorcana",
+      "slug": "challenge-promos",
+      "name": "Lorcana Challenge Promos",
+      "series": "2024",
+      "kind": "promo",
+      "code": "IC1",
+      "syncKey": "IC1",
+      "released": "2024-05-17",
+      "total": 10,
+      "tiers": [
+        {
+          "id": "standard",
+          "label": "All cards",
+          "count": 10
+        }
+      ],
+      "defaultTier": "standard",
+      "logo": "img/sets/lorcana/challenge-promos/logo.webp"
+    },
+    {
+      "id": "lorcana/deep-trouble",
+      "game": "lorcana",
+      "slug": "deep-trouble",
+      "name": "Illumineer’s Quest: Deep Trouble",
+      "series": "2024",
+      "kind": "quest",
+      "code": "IQ1",
+      "syncKey": "IQ1",
+      "released": "2024-05-31",
+      "total": 31,
+      "tiers": [
+        {
+          "id": "standard",
+          "label": "All cards",
+          "count": 31
+        }
+      ],
+      "defaultTier": "standard",
+      "logo": "img/sets/lorcana/deep-trouble/logo.webp"
+    },
+    {
+      "id": "lorcana/rise-of-the-floodborn",
+      "game": "lorcana",
+      "slug": "rise-of-the-floodborn",
+      "name": "Rise of the Floodborn",
+      "series": "2023",
+      "kind": "expansion",
+      "code": "I2",
+      "syncKey": "I2",
+      "released": "2023-12-01",
+      "total": 216,
+      "tiers": [
+        {
+          "id": "standard",
+          "label": "Standard",
+          "count": 204
+        },
+        {
+          "id": "master",
+          "label": "Master",
+          "count": 408
+        },
+        {
+          "id": "grand",
+          "label": "Grand Master",
+          "count": 422
+        }
+      ],
+      "defaultTier": "grand",
+      "logo": "img/sets/lorcana/rise-of-the-floodborn/logo.webp"
+    },
+    {
+      "id": "lorcana/the-first-chapter",
+      "game": "lorcana",
+      "slug": "the-first-chapter",
+      "name": "The First Chapter",
+      "series": "2023",
+      "kind": "expansion",
+      "code": "I1",
+      "syncKey": "I1",
+      "released": "2023-09-01",
+      "total": 216,
+      "tiers": [
+        {
+          "id": "standard",
+          "label": "Standard",
+          "count": 204
+        },
+        {
+          "id": "master",
+          "label": "Master",
+          "count": 408
+        },
+        {
+          "id": "grand",
+          "label": "Grand Master",
+          "count": 420
+        }
+      ],
+      "defaultTier": "grand",
+      "logo": "img/sets/lorcana/the-first-chapter/logo.webp"
+    },
+    {
+      "id": "lorcana/promo-set-1",
+      "game": "lorcana",
+      "slug": "promo-set-1",
+      "name": "Promo Set 1",
+      "series": "2023",
+      "kind": "promo",
+      "code": "IP1",
+      "syncKey": "IP1",
+      "released": "2023-08-18",
+      "total": 39,
+      "tiers": [
+        {
+          "id": "standard",
+          "label": "All cards",
+          "count": 39
+        }
+      ],
+      "defaultTier": "standard",
+      "logo": "img/sets/lorcana/promo-set-1/logo.webp"
     }
   ]
 }

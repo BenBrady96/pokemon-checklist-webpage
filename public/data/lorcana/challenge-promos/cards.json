@@ -1,0 +1,84 @@
+{
+  "id": "lorcana/challenge-promos",
+  "game": "lorcana",
+  "slug": "challenge-promos",
+  "name": "Lorcana Challenge Promos",
+  "series": "2024",
+  "kind": "promo",
+  "code": "IC1",
+  "syncKey": "IC1",
+  "released": "2024-05-17",
+  "rarities": [
+    {
+      "id": "P",
+      "icon": "l-promo-op"
+    }
+  ],
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Promos",
+      "range": "1/C1–10/C1",
+      "tier": "standard",
+      "display": {
+        "number": "{printed}",
+        "label": "{printed}",
+        "list": "{printed} {name}",
+        "chip": "{printed} {name}",
+        "search": "Lorcana {name} {printed} promo"
+      }
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Promos"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-5, 12, 8x2",
+    "example": "1-5, 8x2",
+    "hint": "Separate with commas or spaces. Use the promo numbers: <b>1-5</b> is a range and <b>8x2</b> is two copies.",
+    "empty": "Promos run from 1/C1 to 10/C1."
+  },
+  "info": {
+    "packSections": [],
+    "sectionText": {}
+  },
+  "seo": {
+    "title": "Lorcana Lorcana Challenge Promos Checklist · All 10 Cards",
+    "description": "Free checklist for the 10 Disney Lorcana Lorcana Challenge Promos cards, with images, prices and binder pages. No ads, no sign-up, no tracking.",
+    "ogTitle": "Disney Lorcana Lorcana Challenge Promos Checklist",
+    "ogDescription": "Track all 10 Disney Lorcana Lorcana Challenge Promos cards. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About the Lorcana Challenge Promos",
+    "paragraphs": [
+      "Lorcana Challenge Promos lists the 10 Disney Lorcana promo cards numbered 1/C1 to 10/C1, from Disney Lorcana Challenge events.",
+      "They come from Disney Lorcana Challenge events and Serial numbered.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details come from LorcanaJSON, card images from Lorcast and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "lorcana": "C1",
+    "tcgplayer": [
+      23234,
+      17690,
+      23305
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"1","printed":"1/C1","code":"1","name":"Dragon Fire","rarity":"P","ctype":"ruby","keywords":"Sleeping Beauty Action Ruby Luis Huerta","stats":{"i":"Ruby","t":"Action","c":5,"k":0},"foil":true,"tcg":544498,"grp":23234,"note":"Disney Lorcana Challenge events","idx":0},
+    {"id":"002","section":"main","num":"2","printed":"2/C1","code":"2","name":"Let It Go","rarity":"P","ctype":"sapphire","keywords":"Frozen Song Action Sapphire Milica Celikovic","stats":{"i":"Sapphire","t":"Action · Song","c":5,"k":1},"foil":true,"tcg":544501,"grp":23234,"note":"Disney Lorcana Challenge events","idx":1},
+    {"id":"003","section":"main","num":"3","printed":"3/C1","code":"3","name":"Cinderella - Stouthearted","rarity":"P","ctype":"steel","keywords":"Cinderella Floodborn Hero Princess Knight Shift Resist Character Steel Alice Pisoni","stats":{"i":"Steel","t":"Character · Floodborn, Hero, Princess, Knight","c":7,"k":1,"s":5,"w":5,"l":3},"foil":true,"tcg":544502,"grp":23234,"note":"Disney Lorcana Challenge events","idx":2},
+    {"id":"004","section":"main","num":"4","printed":"4/C1","code":"4","name":"Rapunzel - Gifted with Healing","rarity":"P","ctype":"amber","keywords":"Tangled Storyborn Hero Princess Character Amber Grace Tran","stats":{"i":"Amber","t":"Character · Storyborn, Hero, Princess","c":4,"k":1,"s":1,"w":5,"l":2},"foil":true,"tcg":544503,"grp":23234,"note":"Disney Lorcana Challenge events","idx":3},
+    {"id":"005","section":"main","num":"5","printed":"5/C1","code":"5","name":"Mickey Mouse - Brave Little Tailor","rarity":"P","ctype":"ruby","keywords":"Dreamborn Hero Character Ruby","stats":{"i":"Ruby","t":"Character · Dreamborn, Hero","c":8,"k":1,"s":5,"w":5,"l":4},"tcg":554628,"grp":23234,"note":"Serial numbered","idx":9},
+    {"id":"006","section":"main","num":"6","printed":"6/C1","code":"6","name":"Invited to the Ball","rarity":"P","ctype":"amber","keywords":"Cinderella Action Amber Taraneh","stats":{"i":"Amber","t":"Action","c":2,"k":0},"foil":true,"tcg":595440,"grp":23234,"note":"Disney Lorcana Challenge events","idx":4},
+    {"id":"007","section":"main","num":"7","printed":"7/C1","code":"7","name":"Elsa's Ice Palace - Place of Solitude","rarity":"P","ctype":"amethyst","keywords":"Frozen Location Amethyst Wietse Treurniet","stats":{"i":"Amethyst","t":"Location","c":3,"k":0,"w":4,"l":1,"m":1},"foil":true,"tcg":595441,"grp":23234,"note":"Disney Lorcana Challenge events","idx":5},
+    {"id":"008","section":"main","num":"8","printed":"8/C1","code":"8","name":"Kuzco - Temperamental Emperor","rarity":"P","ctype":"emerald","keywords":"The Emperor's New Groove Storyborn King Ward Character Emerald Koni","stats":{"i":"Emerald","t":"Character · Storyborn, King","c":5,"k":0,"s":2,"w":4,"l":3},"foil":true,"tcg":595438,"grp":23234,"note":"Disney Lorcana Challenge events","idx":6},
+    {"id":"009","section":"main","num":"9","printed":"9/C1","code":"9","name":"Baymax - Armored Companion","rarity":"P","ctype":"sapphire","keywords":"Big Hero 6 Storyborn Hero Robot Character Sapphire Amber Kommavongsa","stats":{"i":"Sapphire","t":"Character · Storyborn, Hero, Robot","c":5,"k":1,"s":2,"w":6,"l":2},"foil":true,"tcg":595439,"grp":23234,"note":"Disney Lorcana Challenge events","idx":7},
+    {"id":"010","section":"main","num":"10","printed":"10/C1","code":"10","name":"A Whole New World","rarity":"P","ctype":"steel","keywords":"Aladdin Song Action Steel Ian MacDonald","stats":{"i":"Steel","t":"Action · Song","c":5,"k":0},"foil":true,"tcg":654595,"grp":23234,"note":"Disney Lorcana Challenge events","idx":8}
+  ]
+}

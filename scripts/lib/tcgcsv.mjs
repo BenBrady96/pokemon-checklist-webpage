@@ -1,6 +1,6 @@
 import { cachedJson, download } from './util.mjs';
 
-export const CATEGORY = { pokemon: 3, yugioh: 2 };
+export const CATEGORY = { pokemon: 3, yugioh: 2, lorcana: 71 };
 
 const base = (category) => `https://tcgcsv.com/tcgplayer/${category}`;
 

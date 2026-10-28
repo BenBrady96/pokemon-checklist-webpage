@@ -1,0 +1,91 @@
+{
+  "id": "lorcana/challenge-promos-year-3",
+  "game": "lorcana",
+  "slug": "challenge-promos-year-3",
+  "name": "Lorcana Challenge Year 3 Promos",
+  "series": "2026",
+  "kind": "promo",
+  "code": "IC2",
+  "syncKey": "IC2",
+  "released": "2026-01-16",
+  "rarities": [
+    {
+      "id": "P",
+      "icon": "l-promo-op"
+    }
+  ],
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Promos",
+      "range": "1/C2–20/C2",
+      "tier": "standard",
+      "display": {
+        "number": "{printed}",
+        "label": "{printed}",
+        "list": "{printed} {name}",
+        "chip": "{printed} {name}",
+        "search": "Lorcana {name} {printed} promo"
+      }
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Promos"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-5, 12, 8x2",
+    "example": "1-5, 8x2",
+    "hint": "Separate with commas or spaces. Use the promo numbers: <b>1-5</b> is a range and <b>8x2</b> is two copies.",
+    "empty": "Promos run from 1/C2 to 20/C2."
+  },
+  "info": {
+    "packSections": [],
+    "sectionText": {}
+  },
+  "seo": {
+    "title": "Lorcana Lorcana Challenge Year 3 Promos Checklist",
+    "description": "Free checklist for the 18 Disney Lorcana Lorcana Challenge Year 3 Promos cards, with images, prices and binder pages. No ads, no sign-up, no tracking.",
+    "ogTitle": "Disney Lorcana Lorcana Challenge Year 3 Promos Checklist",
+    "ogDescription": "Track all 18 Disney Lorcana Lorcana Challenge Year 3 Promos cards. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About the Lorcana Challenge Year 3 Promos",
+    "paragraphs": [
+      "Lorcana Challenge Year 3 Promos lists the 18 Disney Lorcana promo cards numbered 1/C2 to 20/C2, from Disney Lorcana Challenge events.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details come from LorcanaJSON, card images from Lorcast and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "lorcana": "C2",
+    "tcgplayer": [
+      23234,
+      17690,
+      23305
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"1","printed":"1/C2","code":"1","name":"Pegasus - Gift for Hercules","rarity":"P","ctype":"emerald","keywords":"Hercules Storyborn Ally Evasive Character Emerald Kenneth Anderson","stats":{"i":"Emerald","t":"Character · Storyborn, Ally","c":1,"k":1,"s":1,"w":1,"l":1},"foil":true,"tcg":655961,"grp":23234,"note":"Disney Lorcana Challenge events","idx":0},
+    {"id":"002","section":"main","num":"2","printed":"2/C2","code":"2","name":"Elsa - Ice Maker","rarity":"P","ctype":"dual","keywords":"Frozen Floodborn Hero Queen Sorcerer Shift Character Amethyst Sapphire Malia Ewart","stats":{"i":"Amethyst and Sapphire","t":"Character · Floodborn, Hero, Queen, Sorcerer","c":7,"k":0,"s":5,"w":5,"l":2},"foil":true,"tcg":672472,"grp":23234,"note":"Disney Lorcana Challenge events","idx":1},
+    {"id":"003","section":"main","num":"3","printed":"3/C2","code":"3","name":"Mulan - Charging Ahead","rarity":"P","ctype":"dual","keywords":"Mulan Storyborn Hero Princess Reckless Character Ruby Steel LadyShalirin","stats":{"i":"Ruby and Steel","t":"Character · Storyborn, Hero, Princess","c":4,"k":0,"s":3,"w":3,"l":0},"foil":true,"tcg":655960,"grp":23234,"note":"Disney Lorcana Challenge events","idx":2},
+    {"id":"004","section":"main","num":"4","printed":"4/C2","code":"4","name":"Simba - Pride Protector","rarity":"P","ctype":"amber","keywords":"The Lion King Floodborn Hero Prince Shift Character Amber Jeanne Plounevez","stats":{"i":"Amber","t":"Character · Floodborn, Hero, Prince","c":5,"k":0,"s":4,"w":4,"l":2},"foil":true,"tcg":695330,"grp":23234,"note":"Disney Lorcana Challenge events","idx":3},
+    {"id":"005","section":"main","num":"5","printed":"5/C2","code":"5","name":"Pegasus - Gift for Hercules","rarity":"P","ctype":"emerald","keywords":"Hercules Storyborn Ally Evasive Character Emerald Kenneth Anderson","stats":{"i":"Emerald","t":"Character · Storyborn, Ally","c":1,"k":1,"s":1,"w":1,"l":1},"tcg":686340,"grp":23234,"note":"Disney Lorcana Challenge events","idx":4},
+    {"id":"006","section":"main","num":"6","printed":"6/C2","code":"6","name":"Elsa - Ice Maker","rarity":"P","ctype":"dual","keywords":"Frozen Floodborn Hero Queen Sorcerer Shift Character Amethyst Sapphire Malia Ewart","stats":{"i":"Amethyst and Sapphire","t":"Character · Floodborn, Hero, Queen, Sorcerer","c":7,"k":0,"s":5,"w":5,"l":2},"tcg":655962,"grp":23234,"note":"Disney Lorcana Challenge events","idx":5},
+    {"id":"007","section":"main","num":"7","printed":"7/C2","code":"7","name":"Mulan - Charging Ahead","rarity":"P","ctype":"dual","keywords":"Mulan Storyborn Hero Princess Reckless Character Ruby Steel LadyShalirin","stats":{"i":"Ruby and Steel","t":"Character · Storyborn, Hero, Princess","c":4,"k":0,"s":3,"w":3,"l":0},"tcg":672467,"grp":23234,"note":"Disney Lorcana Challenge events","idx":6},
+    {"id":"008","section":"main","num":"8","printed":"8/C2","code":"8","name":"Simba - Pride Protector","rarity":"P","ctype":"amber","keywords":"The Lion King Floodborn Hero Prince Shift Character Amber Jeanne Plounevez","stats":{"i":"Amber","t":"Character · Floodborn, Hero, Prince","c":5,"k":0,"s":4,"w":4,"l":2},"tcg":655963,"grp":23234,"note":"Disney Lorcana Challenge events","idx":7},
+    {"id":"009","section":"main","num":"9","printed":"9/C2","code":"9","name":"Dragon Fire","rarity":"P","ctype":"ruby","keywords":"Sleeping Beauty Action Ruby Luis Huerta","stats":{"i":"Ruby","t":"Action","c":5,"k":0},"tcg":693401,"grp":23234,"note":"Disney Lorcana Challenge events","idx":8},
+    {"id":"010","section":"main","num":"10","printed":"10/C2","code":"10","name":"Let it Go","rarity":"P","ctype":"sapphire","keywords":"Frozen Song Action Sapphire Milica Celikovic","stats":{"i":"Sapphire","t":"Action · Song","c":5,"k":1},"tcg":672385,"grp":23234,"note":"Disney Lorcana Challenge events","idx":9},
+    {"id":"011","section":"main","num":"11","printed":"11/C2","code":"11","name":"Stand Out","rarity":"P","ctype":"emerald","keywords":"Song Action Emerald","stats":{"i":"Emerald","t":"Action · Song","c":3,"k":1},"foil":true,"tcg":714566,"grp":23234,"idx":10},
+    {"id":"012","section":"main","num":"12","printed":"12/C2","code":"12","name":"Down in New Orleans","rarity":"P","ctype":"sapphire","keywords":"Song Action Sapphire","stats":{"i":"Sapphire","t":"Action · Song","c":6,"k":0},"foil":true,"tcg":715979,"grp":23234,"idx":11},
+    {"id":"014","section":"main","num":"14","printed":"14/C2","code":"14","name":"Tinker Bell - Insistent Fairy","rarity":"P","ctype":"ruby","keywords":"Storyborn Ally Fairy Character Ruby","stats":{"i":"Ruby","t":"Character · Storyborn, Ally, Fairy","c":2,"k":1,"s":1,"w":1,"l":1},"foil":true,"tcg":715981,"grp":23234,"idx":12},
+    {"id":"015","section":"main","num":"15","printed":"15/C2","code":"15","name":"Stand Out","rarity":"P","ctype":"emerald","keywords":"Song Action Emerald","stats":{"i":"Emerald","t":"Action · Song","c":3,"k":1},"tcg":712024,"grp":23234,"idx":13},
+    {"id":"016","section":"main","num":"16","printed":"16/C2","code":"16","name":"Down in New Orleans","rarity":"P","ctype":"sapphire","keywords":"Song Action Sapphire","stats":{"i":"Sapphire","t":"Action · Song","c":6,"k":0},"tcg":712025,"grp":23234,"idx":14},
+    {"id":"017","section":"main","num":"17","printed":"17/C2","code":"17","name":"The Headless Horseman - Cursed Rider","rarity":"P","ctype":"steel","keywords":"Floodborn Villain Character Steel","stats":{"i":"Steel","t":"Character · Floodborn, Villain","c":8,"k":1,"s":5,"w":7,"l":2},"tcg":712026,"grp":23234,"idx":15},
+    {"id":"018","section":"main","num":"18","printed":"18/C2","code":"18","name":"Tinker Bell - Insistent Fairy","rarity":"P","ctype":"ruby","keywords":"Storyborn Ally Fairy Character Ruby","stats":{"i":"Ruby","t":"Character · Storyborn, Ally, Fairy","c":2,"k":1,"s":1,"w":1,"l":1},"tcg":712027,"grp":23234,"idx":16},
+    {"id":"020","section":"main","num":"20","printed":"20/C2","code":"20","name":"Minnie Mouse - Amethyst Champion","rarity":"P","ctype":"amethyst","keywords":"Dreamborn Hero Character Amethyst","stats":{"i":"Amethyst","t":"Character · Dreamborn, Hero","c":4,"k":1,"s":2,"w":3,"l":2},"tcg":718568,"grp":23234,"idx":17}
+  ]
+}

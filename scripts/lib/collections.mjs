@@ -4,6 +4,8 @@ import pokemonSets, { LOGO as POKEMON_LOGO, SERIES as POKEMON_SERIES, UPCOMING a
 import pokemonPage from '../../config/pokemon/page.mjs';
 import yugiohSets, { LIVE as YUGIOH_LIVE, LOGO as YUGIOH_LOGO, SERIES as YUGIOH_SERIES } from '../../config/yugioh/sets.mjs';
 import yugiohPage from '../../config/yugioh/page.mjs';
+import lorcanaSets, { LIVE as LORCANA_LIVE, LOGO as LORCANA_LOGO, LOGO_OUTLINE as LORCANA_LOGO_OUTLINE, SERIES as LORCANA_SERIES, UPCOMING as LORCANA_UPCOMING } from '../../config/lorcana/sets.mjs';
+import lorcanaPage from '../../config/lorcana/page.mjs';
 import { GAMES as ALL_GAMES } from '../../public/js/games/index.js';
 import { buildCollection } from '../../public/js/core/model.js';
 import { CACHE, IMAGE_HOST, IMAGES_REPO, PUBLIC, download, exists, readJson } from './util.mjs';
@@ -11,6 +13,7 @@ import { CACHE, IMAGE_HOST, IMAGES_REPO, PUBLIC, download, exists, readJson } fr
 const GAME_CONFIG = {
   pokemon: { sets: pokemonSets, series: POKEMON_SERIES, logo: POKEMON_LOGO, upcoming: POKEMON_UPCOMING, page: pokemonPage, live: true },
   yugioh: { sets: yugiohSets, series: YUGIOH_SERIES, logo: YUGIOH_LOGO, upcoming: [], page: yugiohPage, live: YUGIOH_LIVE },
+  lorcana: { sets: lorcanaSets, series: LORCANA_SERIES, logo: LORCANA_LOGO, logoOutline: LORCANA_LOGO_OUTLINE, upcoming: LORCANA_UPCOMING, page: lorcanaPage, live: LORCANA_LIVE },
 };
 
 export const LIVE_GAMES = Object.keys(GAME_CONFIG).filter((g) => GAME_CONFIG[g].live || process.env.BT_PREVIEW);
@@ -19,6 +22,7 @@ const perGame = (key) => Object.fromEntries(LIVE_GAMES.map((g) => [g, GAME_CONFI
 export const GAMES = Object.fromEntries(LIVE_GAMES.map((g) => [g, ALL_GAMES[g]]));
 export const SERIES = perGame('series');
 export const GAME_LOGOS = perGame('logo');
+export const GAME_LOGO_OUTLINES = perGame('logoOutline');
 export const GAME_PAGES = perGame('page');
 export const gameLogoPath = (game) => `img/games/${game}/logo.webp`;
 

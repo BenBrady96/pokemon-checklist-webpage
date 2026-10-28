@@ -1,0 +1,100 @@
+{
+  "id": "lorcana/the-great-hunny-rescue",
+  "game": "lorcana",
+  "slug": "the-great-hunny-rescue",
+  "name": "Illumineer’s Quest: The Great Hunny Rescue",
+  "series": "2026",
+  "kind": "quest",
+  "code": "IQ3",
+  "syncKey": "IQ3",
+  "released": "2026-10-02",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "1–37/37",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards are 1–37."
+  },
+  "info": {
+    "packSections": [],
+    "sectionText": {
+      "main": [
+        "<p><b>From Illumineer’s Quest: The Great Hunny Rescue.</b></p>"
+      ]
+    }
+  },
+  "seo": {
+    "title": "Lorcana Illumineer’s Quest: The Great Hunny Rescue Checklist",
+    "description": "Free Disney Lorcana Illumineer’s Quest: The Great Hunny Rescue checklist: all 37 cards, with images, prices and binder pages. No ads, no sign-up, no tracking.",
+    "ogTitle": "Disney Lorcana Illumineer’s Quest: The Great Hunny Rescue Checklist",
+    "ogDescription": "Track all 37 cards in Disney Lorcana Illumineer’s Quest: The Great Hunny Rescue. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Illumineer’s Quest: The Great Hunny Rescue",
+    "paragraphs": [
+      "Illumineer’s Quest: The Great Hunny Rescue is a Disney Lorcana co-operative boxed game, released on 2 October 2026. Its checklist has the 37 cards numbered 1/37 to 37/37.",
+      "The box also has 4 bonus cards numbered in booster sets, so they’re in those sets’ checklists: Sven - Leaping Reindeer (Winterspell 243/204), Christopher Robin - Hunny Sage (Attack of the Vine! 246/207), Mr. Incredible - Super Strong (Wilds Unknown 243/204) and Violet Parr - Super Resilient (Attack of the Vine! 247/207).",
+      "This free checklist lets you tick off the cards you own, count spare copies and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details come from LorcanaJSON, card images from Lorcast and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "lorcana": "Q3",
+    "tcgplayer": [
+      24734
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"1","printed":"1/37","code":"1","name":"Mickey Mouse - Rescued from the Entrance","rarity":"S","keywords":"Mickey Mouse & Friends Storyborn Hero Support Character Gonzalo Kenny","stats":{"t":"Character · Storyborn, Hero","c":3,"k":0,"s":3,"w":3,"l":2},"tcg":722201,"grp":24734,"sub":"Normal","idx":0},
+    {"id":"002","section":"main","num":"2","printed":"2/37","code":"2","name":"Rapunzel - Rescued from the Darkness","rarity":"S","keywords":"Tangled Storyborn Hero Princess Character Maria Dresden","stats":{"t":"Character · Storyborn, Hero, Princess","c":4,"k":0,"s":4,"w":4,"l":2},"tcg":722203,"grp":24734,"sub":"Normal","idx":1},
+    {"id":"003","section":"main","num":"3","printed":"3/37","code":"3","name":"Chamber Guardian - Vine Protector","rarity":"S","keywords":"Lorcana Boss Vineling Ward Character Rubin Chung / Leonardo Giammichele","stats":{"t":"Character · Boss, Vineling","c":5,"k":0,"s":5,"w":20,"l":1},"tcg":722204,"grp":24734,"sub":"Normal","idx":2},
+    {"id":"004","section":"main","num":"4","printed":"4/37","code":"4","name":"Sulley - Rescued from the Garden","rarity":"S","keywords":"Monsters, Inc. Storyborn Hero Monster Reckless Character Chemène de Heus / Denny Minonne","stats":{"t":"Character · Storyborn, Hero, Monster","c":2,"k":0,"s":4,"w":4,"l":0},"tcg":722207,"grp":24734,"sub":"Normal","idx":3},
+    {"id":"005","section":"main","num":"5","printed":"5/37","code":"5","name":"Maleficent - Rescued from the Staircase","rarity":"S","keywords":"Sleeping Beauty Storyborn Villain Sorcerer Challenger Character Luigi Aimè","stats":{"t":"Character · Storyborn, Villain, Sorcerer","c":5,"k":0,"s":3,"w":6,"l":3},"tcg":722208,"grp":24734,"sub":"Normal","idx":4},
+    {"id":"006","section":"main","num":"6","printed":"6/37","code":"6","name":"The Vine Maw - Final Foe","rarity":"S","keywords":"Lorcana Boss Vineling Ward Character Federico Maria Cugliari","stats":{"t":"Character · Boss, Vineling","c":5,"k":0,"s":6,"w":30,"l":2},"tcg":722209,"grp":24734,"sub":"Normal","idx":5},
+    {"id":"007","section":"main","num":"7","printed":"7/37","code":"7","name":"Yzma - Made by the Vine","rarity":"S","keywords":"The Emperor's New Groove Floodborn Sorcerer Vineling Character Alice Pisoni","stats":{"t":"Character · Floodborn, Sorcerer, Vineling","c":6,"k":1,"s":3,"w":6,"l":2},"tcg":722244,"grp":24734,"sub":"Normal","idx":6},
+    {"id":"008","section":"main","num":"8","printed":"8/37","code":"8","name":"Kronk - Made by the Vine","rarity":"S","keywords":"The Emperor's New Groove Floodborn Vineling Bodyguard Character Serena Wade","stats":{"t":"Character · Floodborn, Vineling","c":6,"k":1,"s":3,"w":8,"l":1},"tcg":722263,"grp":24734,"sub":"Normal","idx":7},
+    {"id":"009","section":"main","num":"9","printed":"9/37","code":"9","name":"Flynn Rider - Made by the Vine","rarity":"S","keywords":"Tangled Floodborn Prince Vineling Evasive Character Diogo Saito","stats":{"t":"Character · Floodborn, Prince, Vineling","c":5,"k":1,"s":4,"w":3,"l":2},"tcg":722265,"grp":24734,"sub":"Normal","idx":8},
+    {"id":"010","section":"main","num":"10","printed":"10/37","code":"10","name":"Bramble Bully - Protecting the Stalk","rarity":"S","keywords":"Lorcana Vineling Character Max Grecke","stats":{"t":"Character · Vineling","c":7,"k":1,"s":7,"w":8,"l":3},"tcg":709875,"grp":24734,"sub":"Normal","idx":9},
+    {"id":"011","section":"main","num":"11","printed":"11/37","code":"11","name":"Vine Sprout - Thrasher","rarity":"S","keywords":"Lorcana Vineling Character \"Yano\" / L. Giammichele","stats":{"t":"Character · Vineling","c":1,"k":1,"s":4,"w":2,"l":1},"tcg":722274,"grp":24734,"sub":"Normal","idx":10},
+    {"id":"012","section":"main","num":"12","printed":"12/37","code":"12","name":"Isabela Madrigal - Made by the Vine","rarity":"S","keywords":"Encanto Floodborn Madrigal Vineling Character Rodrigo Camilo","stats":{"t":"Character · Floodborn, Madrigal, Vineling","c":2,"k":1,"s":1,"w":1,"l":3},"tcg":722668,"grp":24734,"sub":"Normal","idx":11},
+    {"id":"013","section":"main","num":"13","printed":"13/37","code":"13","name":"Sulley - Made by the Vine","rarity":"S","keywords":"Monsters, Inc. Floodborn Monster Vineling Character Denny Minonne","stats":{"t":"Character · Floodborn, Monster, Vineling","c":5,"k":1,"s":6,"w":3,"l":2},"tcg":722669,"grp":24734,"sub":"Normal","idx":12},
+    {"id":"014","section":"main","num":"14","printed":"14/37","code":"14","name":"Pete - Made by the Vine","rarity":"S","keywords":"Mickey Mouse & Friends Floodborn Vineling Ward Character Tom Bancroft / Melody Te","stats":{"t":"Character · Floodborn, Vineling","c":3,"k":1,"s":3,"w":3,"l":2},"tcg":709862,"grp":24734,"sub":"Normal","idx":13},
+    {"id":"015","section":"main","num":"15","printed":"15/37","code":"15","name":"Cruella De Vil - Made by the Vine","rarity":"S","keywords":"101 Dalmatians Floodborn Vineling Character Eri Welli","stats":{"t":"Character · Floodborn, Vineling","c":4,"k":1,"s":4,"w":5,"l":1},"tcg":709874,"grp":24734,"sub":"Normal","idx":14},
+    {"id":"016","section":"main","num":"16","printed":"16/37","code":"16","name":"Budding Stalk - Mass of Tendrils","rarity":"S","keywords":"Lorcana Vineling Character Roberto Gatto","stats":{"t":"Character · Vineling","c":5,"k":1,"s":0,"w":13,"l":3},"tcg":722670,"grp":24734,"sub":"Normal","idx":15},
+    {"id":"017","section":"main","num":"17","printed":"17/37","code":"17","name":"Rapunzel - Made by the Vine","rarity":"S","keywords":"Tangled Floodborn Princess Vineling Character Maria Dresden","stats":{"t":"Character · Floodborn, Princess, Vineling","c":3,"k":1,"s":4,"w":4,"l":1},"tcg":722671,"grp":24734,"sub":"Normal","idx":16},
+    {"id":"018","section":"main","num":"18","printed":"18/37","code":"18","name":"Vine Sprout - Buzzer","rarity":"S","keywords":"Lorcana Vineling Evasive Character Max Grecke","stats":{"t":"Character · Vineling","c":2,"k":1,"s":3,"w":2,"l":1},"tcg":709870,"grp":24734,"sub":"Normal","idx":17},
+    {"id":"019","section":"main","num":"19","printed":"19/37","code":"19","name":"Ming Lee - Made by the Vine","rarity":"S","keywords":"Turning Red Floodborn Red Panda Vineling Character Jin Yung Kim","stats":{"t":"Character · Floodborn, Red Panda, Vineling","c":7,"k":1,"s":10,"w":10,"l":2},"tcg":722672,"grp":24734,"sub":"Normal","idx":18},
+    {"id":"020","section":"main","num":"20","printed":"20/37","code":"20","name":"Vine Cluster - Aggressive Chomper","rarity":"S","keywords":"Lorcana Vineling Character Ricardo Caria","stats":{"t":"Character · Vineling","c":4,"k":1,"s":4,"w":4,"l":2},"tcg":722673,"grp":24734,"sub":"Normal","idx":19},
+    {"id":"021","section":"main","num":"21","printed":"21/37","code":"21","name":"Vine Sprout - Flicker","rarity":"S","keywords":"Lorcana Vineling Character Julien Vandois / Leonardo Giammichele","stats":{"t":"Character · Vineling","c":2,"k":1,"s":3,"w":3,"l":1},"tcg":722674,"grp":24734,"sub":"Normal","idx":20},
+    {"id":"022","section":"main","num":"22","printed":"22/37","code":"22","name":"4*Town - Made by the Vine","rarity":"S","keywords":"Turning Red Floodborn Vineling Character Jin Yung Kim","stats":{"t":"Character · Floodborn, Vineling","c":4,"k":1,"s":5,"w":5,"l":2},"tcg":722675,"grp":24734,"sub":"Normal","idx":21},
+    {"id":"023","section":"main","num":"23","printed":"23/37","code":"23","name":"Vine Sprout - Bruiser","rarity":"S","keywords":"Lorcana Vineling Bodyguard Character Max Grecke","stats":{"t":"Character · Vineling","c":1,"k":1,"s":1,"w":4,"l":1},"tcg":722676,"grp":24734,"sub":"Normal","idx":22},
+    {"id":"024","section":"main","num":"24","printed":"24/37","code":"24","name":"Accelerated Growth","rarity":"S","keywords":"Lorcana Action Camila Luciarte","stats":{"t":"Action","c":2,"k":1},"tcg":722678,"grp":24734,"sub":"Normal","idx":23},
+    {"id":"025","section":"main","num":"25","printed":"25/37","code":"25","name":"Overwhelm","rarity":"S","keywords":"Lorcana Action Mario Oscar Gabriele","stats":{"t":"Action","c":4,"k":1},"tcg":722680,"grp":24734,"sub":"Normal","idx":24},
+    {"id":"026","section":"main","num":"26","printed":"26/37","code":"26","name":"Catastrophic Rupture","rarity":"S","keywords":"Lorcana Action Luigi Aimè","stats":{"t":"Action","c":7,"k":1},"tcg":722681,"grp":24734,"sub":"Normal","idx":25},
+    {"id":"027","section":"main","num":"27","printed":"27/37","code":"27","name":"Wild Growth","rarity":"S","keywords":"Lorcana Action Leonardo Giammichele","stats":{"t":"Action","c":6,"k":1},"tcg":722682,"grp":24734,"sub":"Normal","idx":26},
+    {"id":"028","section":"main","num":"28","printed":"28/37","code":"28","name":"Tightening Grip","rarity":"S","keywords":"Lorcana Action Alex Accorsi / Leonardo Giammichele","stats":{"t":"Action","c":3,"k":1},"tcg":722683,"grp":24734,"sub":"Normal","idx":27},
+    {"id":"029","section":"main","num":"29","printed":"29/37","code":"29","name":"Uproot","rarity":"S","keywords":"Lorcana Action Valerio Buonfantino","stats":{"t":"Action","c":4,"k":1},"tcg":722684,"grp":24734,"sub":"Normal","idx":28},
+    {"id":"030","section":"main","num":"30","printed":"30/37","code":"30","name":"Regenerate","rarity":"S","keywords":"Lorcana Action Julien Vandois","stats":{"t":"Action","c":5,"k":1},"tcg":722685,"grp":24734,"sub":"Normal","idx":29},
+    {"id":"031","section":"main","num":"31","printed":"31/37","code":"31","name":"Ink Vortex","rarity":"S","keywords":"Lorcana Action Ha Jung Song","stats":{"t":"Action","c":5,"k":1},"tcg":722686,"grp":24734,"sub":"Normal","idx":30},
+    {"id":"032","section":"main","num":"32","printed":"32/37","code":"32","name":"Unseen Attack","rarity":"S","keywords":"Lorcana Action Sam Burley","stats":{"t":"Action","c":4,"k":1},"tcg":722687,"grp":24734,"sub":"Normal","idx":31},
+    {"id":"033","section":"main","num":"33","printed":"33/37","code":"33","name":"Overprune","rarity":"S","keywords":"Lorcana Action Luigi Aimè","stats":{"t":"Action","c":1,"k":1},"tcg":722688,"grp":24734,"sub":"Normal","idx":32},
+    {"id":"034","section":"main","num":"34","printed":"34/37","code":"34","name":"Cut Down","rarity":"S","keywords":"Lorcana Action Diogo Saito","stats":{"t":"Action","c":5,"k":1},"tcg":722689,"grp":24734,"sub":"Normal","idx":33},
+    {"id":"035","section":"main","num":"35","printed":"35/37","code":"35","name":"Overgrown Defenses","rarity":"S","keywords":"Lorcana Item Mario Oscar Gabriele","stats":{"t":"Item","c":3,"k":1},"tcg":722691,"grp":24734,"sub":"Normal","idx":34},
+    {"id":"036","section":"main","num":"36","printed":"36/37","code":"36","name":"Sprouting Seed","rarity":"S","keywords":"Lorcana Item Douglas De La Hoz","stats":{"t":"Item","c":3,"k":1},"tcg":722692,"grp":24734,"sub":"Normal","idx":35},
+    {"id":"037","section":"main","num":"37","printed":"37/37","code":"37","name":"Story Star Cage","rarity":"S","keywords":"Lorcana Ward Item Roberto Gatto","stats":{"t":"Item","c":3,"k":1},"tcg":722693,"grp":24734,"sub":"Normal","idx":36}
+  ]
+}

@@ -2,7 +2,7 @@
 <html lang="en-GB" data-collection="{{id}}" data-game="{{game}}">
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'wasm-unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https://assets.tcgdex.net https://img.bindertracker.co.uk; media-src 'self' blob:; connect-src 'self' https://assets.tcgdex.net https://img.bindertracker.co.uk; worker-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self';">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'wasm-unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https://assets.tcgdex.net https://img.bindertracker.co.uk https://cards.lorcast.io; media-src 'self' blob:; connect-src 'self' https://assets.tcgdex.net https://img.bindertracker.co.uk; worker-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self';">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>{{title}}</title>
   <meta name="description" content="{{description}}">
@@ -134,7 +134,7 @@
     <symbol id="e-fighting" viewBox="0 0 16 16"><circle cx="8" cy="8" r="7.5" fill="#BE652E"/><rect x="4.4" y="5" width="7.2" height="6.4" rx="1.8" fill="#fff"/><path d="M6.8 5v3M9.2 5v3" stroke="#BE652E" stroke-width="1" stroke-linecap="round"/></symbol>
     <symbol id="e-darkness" viewBox="0 0 16 16"><circle cx="8" cy="8" r="7.5" fill="#26394A"/><path d="M10.2 3.4a4.9 4.9 0 1 0 2.4 8.2 4 4 0 1 1-2.4-8.2z" fill="#fff"/></symbol>
     <symbol id="e-metal" viewBox="0 0 16 16"><circle cx="8" cy="8" r="7.5" fill="#8A97A5"/><path d="M8 3.4l4.4 7.8H3.6z M8 6.3l-2 3.6h4z" fill="#fff" fill-rule="evenodd"/></symbol>
-  </defs>
+{{{gameSymbols}}}  </defs>
 </svg>
 
 <a class="skip-link" href="#collection">Skip to cards</a>
@@ -442,7 +442,8 @@
     <div class="sheet__body menu">
       <div class="menu__group">
         <button type="button" class="menu__item" data-open="scan"><svg><use href="#i-camera"/></svg><span><b>Scan a card</b><small>Point your camera at a card to add it</small></span></button>
-        <button type="button" class="menu__item" data-open="quickadd"><svg><use href="#i-bolt"/></svg><span><b>Quick add</b><small>Type card numbers, e.g. 1-22, 55x2</small></span></button>
+        <a class="menu__item" href="https://brtradingpost.co.uk/shop/" rel="noopener"><svg><use href="#i-bag"/></svg><span><b>Visit our shop</b><small>BR Trading Post: cards and custom painted binders</small></span></a>
+{{{menuGuides}}}        <button type="button" class="menu__item" data-open="quickadd"><svg><use href="#i-bolt"/></svg><span><b>Quick add</b><small>Type card numbers, e.g. 1-22, 55x2</small></span></button>
         <button type="button" class="menu__item" data-open="stats"><svg><use href="#i-chart"/></svg><span><b>Statistics</b><small>Progress by section and rarity</small></span></button>
       </div>
       <div class="menu__group">
@@ -459,7 +460,6 @@
 {{{menuSocials}}}
       <div class="menu__group">
         <button type="button" class="menu__item" data-open="help"><svg><use href="#i-help"/></svg><span><b>Help &amp; shortcuts</b><small>Gestures, keyboard shortcuts and tips</small></span></button>
-{{{menuGuides}}}        <a class="menu__item" href="https://brtradingpost.co.uk/shop/" rel="noopener"><svg><use href="#i-bag"/></svg><span><b>Visit our shop</b><small>BR Trading Post: cards and custom painted binders</small></span></a>
         <button type="button" class="menu__item menu__item--danger" data-action="reset"><svg><use href="#i-trash"/></svg><span><b>Reset this set</b><small>Unmark every card in it (you can undo)</small></span></button>
       </div>
     </div>

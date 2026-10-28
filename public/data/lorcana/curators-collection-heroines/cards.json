@@ -1,0 +1,73 @@
+{
+  "id": "lorcana/curators-collection-heroines",
+  "game": "lorcana",
+  "slug": "curators-collection-heroines",
+  "name": "Curator’s Collection: Heroines Edition",
+  "series": "2026",
+  "kind": "promo",
+  "code": "ICC1",
+  "syncKey": "ICC1",
+  "released": "2026-07-17",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Promos",
+      "range": "1/CC1–6/CC1",
+      "tier": "standard",
+      "display": {
+        "number": "{printed}",
+        "label": "{printed}",
+        "list": "{printed} {name}",
+        "chip": "{printed} {name}",
+        "search": "Lorcana {name} {printed} promo"
+      }
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Promos"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-5, 12, 8x2",
+    "example": "1-5, 8x2",
+    "hint": "Separate with commas or spaces. Use the promo numbers: <b>1-5</b> is a range and <b>8x2</b> is two copies.",
+    "empty": "Promos run from 1/CC1 to 6/CC1."
+  },
+  "info": {
+    "packSections": [],
+    "sectionText": {}
+  },
+  "seo": {
+    "title": "Lorcana Curator’s Collection: Heroines Edition Checklist",
+    "description": "Free checklist for the 6 Disney Lorcana Curator’s Collection: Heroines Edition cards, with images, prices and binder pages. No ads, no sign-up, no tracking.",
+    "ogTitle": "Disney Lorcana Curator’s Collection: Heroines Edition Checklist",
+    "ogDescription": "Track all 6 Disney Lorcana Curator’s Collection: Heroines Edition cards. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About the Curator’s Collection: Heroines Edition",
+    "paragraphs": [
+      "Curator’s Collection: Heroines Edition lists the 6 Disney Lorcana promo cards numbered 1/CC1 to 6/CC1, from products and promotions.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details come from LorcanaJSON, card images from Lorcast and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "lorcana": "CC1",
+    "tcgplayer": [
+      23234,
+      17690,
+      23305
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"1","printed":"1/CC1","code":"1","name":"Ariel - Spectacular Singer","rarity":"P","ctype":"amber","keywords":"The Little Mermaid Storyborn Hero Princess Singer Character Amber Jane Pica","stats":{"i":"Amber","t":"Character · Storyborn, Hero, Princess","c":3,"k":1,"s":2,"w":3,"l":1},"foil":true,"tcg":702517,"grp":23234,"note":"Curator’s Collection: Heroines Edition","idx":0},
+    {"id":"002","section":"main","num":"2","printed":"2/CC1","code":"2","name":"Elsa - Trusted Sister","rarity":"P","ctype":"amethyst","keywords":"Frozen Storyborn Hero Queen Sorcerer Character Amethyst John John Bajet","stats":{"i":"Amethyst","t":"Character · Storyborn, Hero, Queen, Sorcerer","c":2,"k":1,"s":2,"w":3,"l":1},"foil":true,"tcg":702518,"grp":23234,"note":"Curator’s Collection: Heroines Edition","idx":1},
+    {"id":"003","section":"main","num":"3","printed":"3/CC1","code":"3","name":"Jasmine - Royal Seafarer","rarity":"P","ctype":"emerald","keywords":"Aladdin Storyborn Hero Princess Character Emerald Aubrey Archer","stats":{"i":"Emerald","t":"Character · Storyborn, Hero, Princess","c":3,"k":1,"s":2,"w":3,"l":1},"foil":true,"tcg":702519,"grp":23234,"note":"Curator’s Collection: Heroines Edition","idx":2},
+    {"id":"004","section":"main","num":"4","printed":"4/CC1","code":"4","name":"Mulan - Elite Archer","rarity":"P","ctype":"ruby","keywords":"Mulan Floodborn Hero Princess Shift Character Ruby Bill Robinson","stats":{"i":"Ruby","t":"Character · Floodborn, Hero, Princess","c":6,"k":1,"s":2,"w":6,"l":2},"foil":true,"tcg":702520,"grp":23234,"note":"Curator’s Collection: Heroines Edition","idx":3},
+    {"id":"005","section":"main","num":"5","printed":"5/CC1","code":"5","name":"Anna - Trusting Sister","rarity":"P","ctype":"sapphire","keywords":"Frozen Storyborn Hero Queen Character Sapphire John John Bajet","stats":{"i":"Sapphire","t":"Character · Storyborn, Hero, Queen","c":3,"k":1,"s":2,"w":2,"l":2},"foil":true,"tcg":702521,"grp":23234,"note":"Curator’s Collection: Heroines Edition","idx":4},
+    {"id":"006","section":"main","num":"6","printed":"6/CC1","code":"6","name":"Tinker Bell - Giant Fairy","rarity":"P","ctype":"steel","keywords":"Peter Pan Floodborn Ally Fairy Shift Character Steel Kim Kha","stats":{"i":"Steel","t":"Character · Floodborn, Ally, Fairy","c":6,"k":1,"s":4,"w":5,"l":2},"foil":true,"tcg":702603,"grp":23234,"note":"Curator’s Collection: Heroines Edition","idx":5}
+  ]
+}

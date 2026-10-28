@@ -8,9 +8,11 @@ const TIER_RANK = new Map(TIER_DEFS.map((t, i) => [t.id, i]));
 export const normalize = (s) =>
   s.normalize('NFD').replace(/\p{M}/gu, '').replace(/[‘’]/g, "'").toLowerCase();
 
-export const cardImageUrl = ({ imageBase, imageId, remoteBase, remoteId }, size = 'sm') => (remoteId
-  ? `${remoteBase}/${remoteId}/${size === 'lg' ? 'high' : 'low'}.webp`
-  : `${imageBase}/${size}/${imageId}.webp`);
+export const cardImageUrl = ({ imageBase, imageId, remoteBase, remoteId, remoteSizes }, size = 'sm') => {
+  if (!remoteId) return `${imageBase}/${size}/${imageId}.webp`;
+  if (remoteSizes) return `${remoteBase}/${remoteSizes[size === 'lg' ? 'lg' : 'sm']}/${remoteId}`;
+  return `${remoteBase}/${remoteId}/${size === 'lg' ? 'high' : 'low'}.webp`;
+};
 
 const fill = (template, fields) => template.replace(/\{(\w+)\}/g, (_, key) => fields[key] ?? '');
 
@@ -143,7 +145,8 @@ export function buildCollection(raw, { game, colors = {}, imageBase = '', remote
     hasImage: (card) => Object.hasOwn(colors, card.imageId),
     imageColor: (card, fallback = '#6a6f8f') => colors[card.imageId] || fallback,
     remoteBase: remote?.base || null,
+    remoteSizes: remote?.sizes || null,
     remoteImageId: (card) => remote?.ids?.[card.imageId] || null,
-    imageUrl: (card, size = 'sm') => cardImageUrl({ imageBase, imageId: card.imageId, remoteBase: remote?.base, remoteId: remote?.ids?.[card.imageId] }, size),
+    imageUrl: (card, size = 'sm') => cardImageUrl({ imageBase, imageId: card.imageId, remoteBase: remote?.base, remoteId: remote?.ids?.[card.imageId], remoteSizes: remote?.sizes }, size),
   };
 }

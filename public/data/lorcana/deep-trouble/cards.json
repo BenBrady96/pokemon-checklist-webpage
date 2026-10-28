@@ -1,0 +1,94 @@
+{
+  "id": "lorcana/deep-trouble",
+  "game": "lorcana",
+  "slug": "deep-trouble",
+  "name": "Illumineer’s Quest: Deep Trouble",
+  "series": "2024",
+  "kind": "quest",
+  "code": "IQ1",
+  "syncKey": "IQ1",
+  "released": "2024-05-31",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "1–31/31",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards are 1–31."
+  },
+  "info": {
+    "packSections": [],
+    "sectionText": {
+      "main": [
+        "<p><b>From Illumineer’s Quest: Deep Trouble.</b></p>"
+      ]
+    }
+  },
+  "seo": {
+    "title": "Lorcana Illumineer’s Quest: Deep Trouble Checklist",
+    "description": "Free Disney Lorcana Illumineer’s Quest: Deep Trouble checklist: all 31 cards, with images, prices and binder pages. No ads, no sign-up, no tracking.",
+    "ogTitle": "Disney Lorcana Illumineer’s Quest: Deep Trouble Checklist",
+    "ogDescription": "Track all 31 cards in Disney Lorcana Illumineer’s Quest: Deep Trouble. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Illumineer’s Quest: Deep Trouble",
+    "paragraphs": [
+      "Illumineer’s Quest: Deep Trouble is a Disney Lorcana co-operative boxed game, released on 31 May 2024. Its checklist has the 31 cards numbered 1/31 to 31/31.",
+      "The box also has 4 bonus cards numbered in booster sets, so they’re in those sets’ checklists: Piglet - Pooh Pirate Captain (Into the Inklands 223/204), Mulan - Elite Archer (Ursula’s Return 224/204), Yen Sid - Powerful Sorcerer (Ursula’s Return 223/204) and Mickey Mouse - Playful Sorcerer (Ursula’s Return 225/204).",
+      "This free checklist lets you tick off the cards you own, count spare copies and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details come from LorcanaJSON, card images from Lorcast and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "lorcana": "Q1",
+    "tcgplayer": [
+      23528
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"1","printed":"1/31","code":"1","name":"Anna - Ensnared Sister","rarity":"S","keywords":"Frozen Entangled Hero Queen Evasive Character Dustin Panzino","stats":{"t":"Character · Entangled, Hero, Queen","c":6,"k":1,"s":5,"w":6,"l":2},"tcg":552746,"grp":23528,"sub":"Normal","idx":0},
+    {"id":"002","section":"main","num":"2","printed":"2/31","code":"2","name":"Bruno Madrigal - Unspeakable Seer","rarity":"S","keywords":"Encanto Entangled Ally Madrigal Character Brian Kesinger","stats":{"t":"Character · Entangled, Ally, Madrigal","c":2,"k":1,"s":4,"w":4,"l":1},"tcg":552747,"grp":23528,"sub":"Normal","idx":1},
+    {"id":"003","section":"main","num":"3","printed":"3/31","code":"3","name":"Captain Hook - Devious Duelist","rarity":"S","keywords":"Peter Pan Entangled Villain Pirate Captain Character Gonzalo Kenny","stats":{"t":"Character · Entangled, Villain, Pirate, Captain","c":5,"k":1,"s":7,"w":4,"l":2},"tcg":552748,"grp":23528,"sub":"Normal","idx":2},
+    {"id":"004","section":"main","num":"4","printed":"4/31","code":"4","name":"Flotsam - Wicked Defender","rarity":"S","keywords":"The Little Mermaid Ally Bodyguard Character Jeanne Plounevez","stats":{"t":"Character · Ally","c":4,"k":1,"s":5,"w":5,"l":2},"tcg":552749,"grp":23528,"sub":"Normal","idx":3},
+    {"id":"005","section":"main","num":"5","printed":"5/31","code":"5","name":"Gaston - Egotistical Bully","rarity":"S","keywords":"Beauty and the Beast Entangled Villain Character Leonardo Giammichele","stats":{"t":"Character · Entangled, Villain","c":2,"k":1,"s":2,"w":4,"l":1},"tcg":552750,"grp":23528,"sub":"Normal","idx":4},
+    {"id":"006","section":"main","num":"6","printed":"6/31","code":"6","name":"HeiHei - Peckish Pal","rarity":"S","keywords":"Moana Ally Evasive Character Veronica Di Lorenzo / Livio Cacciatore","stats":{"t":"Character · Ally","c":3,"k":1,"s":3,"w":2,"l":1},"tcg":552751,"grp":23528,"sub":"Normal","idx":5},
+    {"id":"007","section":"main","num":"7","printed":"7/31","code":"7","name":"Hercules - Manipulated Hero","rarity":"S","keywords":"Hercules Entangled Hero Prince Bodyguard Character Mario Oscar Gabriele","stats":{"t":"Character · Entangled, Hero, Prince","c":4,"k":1,"s":3,"w":7,"l":2},"tcg":552752,"grp":23528,"sub":"Normal","idx":6},
+    {"id":"008","section":"main","num":"8","printed":"8/31","code":"8","name":"Jafar - Double-Crossing Vizier","rarity":"S","keywords":"Aladdin Entangled Villain Sorcerer Character Ilaria Sposetti","stats":{"t":"Character · Entangled, Villain, Sorcerer","c":7,"k":1,"s":9,"w":9,"l":3},"tcg":552753,"grp":23528,"sub":"Normal","idx":7},
+    {"id":"009","section":"main","num":"9","printed":"9/31","code":"9","name":"Jetsam - Wicked Whisperer","rarity":"S","keywords":"The Little Mermaid Ally Character Jeanne Plounevez","stats":{"t":"Character · Ally","c":2,"k":1,"s":5,"w":3,"l":1},"tcg":552754,"grp":23528,"sub":"Normal","idx":8},
+    {"id":"010","section":"main","num":"10","printed":"10/31","code":"10","name":"Mad Hatter - Sinister Host","rarity":"S","keywords":"Alice In Wonderland Entangled Ally Character John Loren","stats":{"t":"Character · Entangled, Ally","c":2,"k":1,"s":3,"w":5,"l":1},"tcg":552755,"grp":23528,"sub":"Normal","idx":9},
+    {"id":"011","section":"main","num":"11","printed":"11/31","code":"11","name":"Magica De Spell - Shadowy Sorceress","rarity":"S","keywords":"DuckTales Entangled Villain Sorcerer Character Gonzalo Kenny","stats":{"t":"Character · Entangled, Villain, Sorcerer","c":3,"k":1,"s":4,"w":4,"l":2},"tcg":552756,"grp":23528,"sub":"Normal","idx":10},
+    {"id":"012","section":"main","num":"12","printed":"12/31","code":"12","name":"Minnie Mouse - Wild-Eyed Diver","rarity":"S","keywords":"Mickey Mouse & Friends Entangled Hero Character Gonzalo Kenny","stats":{"t":"Character · Entangled, Hero","c":7,"k":1,"s":6,"w":7,"l":2},"tcg":552757,"grp":23528,"sub":"Normal","idx":11},
+    {"id":"013","section":"main","num":"13","printed":"13/31","code":"13","name":"Prince Eric - Grim Groom","rarity":"S","keywords":"The Little Mermaid Entangled Hero Prince Bodyguard Character Jared Nickerl","stats":{"t":"Character · Entangled, Hero, Prince","c":1,"k":1,"s":2,"w":5,"l":1},"tcg":552758,"grp":23528,"sub":"Normal","idx":12},
+    {"id":"014","section":"main","num":"14","printed":"14/31","code":"14","name":"Shark - Toothy Terror","rarity":"S","keywords":"The Little Mermaid Entangled Ally Character Jared Nickerl","stats":{"t":"Character · Entangled, Ally","c":5,"k":1,"s":4,"w":7,"l":1},"tcg":552759,"grp":23528,"sub":"Normal","idx":13},
+    {"id":"015","section":"main","num":"15","printed":"15/31","code":"15","name":"Tamatoa - Grabby Crab","rarity":"S","keywords":"Moana Entangled Villain Character Luigi Aimé","stats":{"t":"Character · Entangled, Villain","c":4,"k":1,"s":3,"w":6,"l":2},"tcg":552760,"grp":23528,"sub":"Normal","idx":14},
+    {"id":"016","section":"main","num":"16","printed":"16/31","code":"16","name":"Triton's Daughters - Discordant Chorus","rarity":"S","keywords":"The Little Mermaid Entangled Ally Princess Character Jenna Gray","stats":{"t":"Character · Entangled, Ally, Princess","c":0,"k":1,"s":2,"w":3,"l":1},"tcg":552761,"grp":23528,"sub":"Normal","idx":15},
+    {"id":"017","section":"main","num":"17","printed":"17/31","code":"17","name":"Capsize","rarity":"S","keywords":"Lorcana Action Javi Salas","stats":{"t":"Action","c":3,"k":1},"tcg":552762,"grp":23528,"sub":"Normal","idx":16},
+    {"id":"018","section":"main","num":"18","printed":"18/31","code":"18","name":"Choppy Waters","rarity":"S","keywords":"Lorcana Action Ilaria Sposetti","stats":{"t":"Action","c":3,"k":1},"tcg":552763,"grp":23528,"sub":"Normal","idx":17},
+    {"id":"019","section":"main","num":"19","printed":"19/31","code":"19","name":"Crushing Wave","rarity":"S","keywords":"Lorcana Action Luca Pisanu","stats":{"t":"Action","c":4,"k":1},"tcg":552764,"grp":23528,"sub":"Normal","idx":18},
+    {"id":"020","section":"main","num":"20","printed":"20/31","code":"20","name":"Entangling Magic","rarity":"S","keywords":"Lorcana Action Luca Pisanu","stats":{"t":"Action","c":2,"k":1},"tcg":552765,"grp":23528,"sub":"Normal","idx":19},
+    {"id":"021","section":"main","num":"21","printed":"21/31","code":"21","name":"Fortunate Hit","rarity":"S","keywords":"Lorcana Action Luigi Aimé","stats":{"t":"Action","c":0,"k":1},"tcg":552766,"grp":23528,"sub":"Normal","idx":20},
+    {"id":"022","section":"main","num":"22","printed":"22/31","code":"22","name":"Lash Out","rarity":"S","keywords":"Lorcana Action Luigi Aimé","stats":{"t":"Action","c":2,"k":1},"tcg":552767,"grp":23528,"sub":"Normal","idx":21},
+    {"id":"023","section":"main","num":"23","printed":"23/31","code":"23","name":"Lightning Storm","rarity":"S","keywords":"Lorcana Action Mario Oscar Gabriele","stats":{"t":"Action","c":6,"k":1},"tcg":552768,"grp":23528,"sub":"Normal","idx":22},
+    {"id":"024","section":"main","num":"24","printed":"24/31","code":"24","name":"Riptide","rarity":"S","keywords":"Lorcana Action Ilaria Sposetti","stats":{"t":"Action","c":6,"k":1},"tcg":552769,"grp":23528,"sub":"Normal","idx":23},
+    {"id":"025","section":"main","num":"25","printed":"25/31","code":"25","name":"Tentacle Swipe","rarity":"S","keywords":"Lorcana Action Mario Oscar Gabriele","stats":{"t":"Action","c":2,"k":1},"tcg":552770,"grp":23528,"sub":"Normal","idx":24},
+    {"id":"026","section":"main","num":"26","printed":"26/31","code":"26","name":"Tsunami","rarity":"S","keywords":"Lorcana Action Luigi Aimé","stats":{"t":"Action","c":7,"k":1},"tcg":552771,"grp":23528,"sub":"Normal","idx":25},
+    {"id":"027","section":"main","num":"27","printed":"27/31","code":"27","name":"Typhoon","rarity":"S","keywords":"Lorcana Action Leonardo Giammichele","stats":{"t":"Action","c":5,"k":1},"tcg":552772,"grp":23528,"sub":"Normal","idx":26},
+    {"id":"028","section":"main","num":"28","printed":"28/31","code":"28","name":"Whirlpool","rarity":"S","keywords":"Lorcana Action Veronica Di Lorenzo / Livio Cacciatore","stats":{"t":"Action","c":4,"k":1},"tcg":552773,"grp":23528,"sub":"Normal","idx":27},
+    {"id":"029","section":"main","num":"29","printed":"29/31","code":"29","name":"The Hexwell Crown","rarity":"S","keywords":"Lorcana Item Veronica Di Lorenzo / Livio Cacciatore","stats":{"t":"Item","c":3,"k":1},"tcg":552774,"grp":23528,"sub":"Normal","idx":28},
+    {"id":"030","section":"main","num":"30","printed":"30/31","code":"30","name":"Ursula's Contract","rarity":"S","keywords":"Lorcana Item Luca Pisanu","stats":{"t":"Item","c":0,"k":1},"tcg":552775,"grp":23528,"sub":"Normal","idx":29},
+    {"id":"031","section":"main","num":"31","printed":"31/31","code":"31","name":"Ursula's Stolen Trident","rarity":"S","keywords":"Lorcana Item Jonathan Livslyst","stats":{"t":"Item","c":0,"k":1},"tcg":552776,"grp":23528,"sub":"Normal","idx":30}
+  ]
+}

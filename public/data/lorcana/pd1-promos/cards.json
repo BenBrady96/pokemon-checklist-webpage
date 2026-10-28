@@ -1,0 +1,87 @@
+{
+  "id": "lorcana/pd1-promos",
+  "game": "lorcana",
+  "slug": "pd1-promos",
+  "name": "PD1 Promos",
+  "series": "2026",
+  "kind": "promo",
+  "code": "IPD1",
+  "syncKey": "IPD1",
+  "released": "2026-07-28",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Promos",
+      "range": "1/PD1–19/PD1",
+      "tier": "standard",
+      "display": {
+        "number": "{printed}",
+        "label": "{printed}",
+        "list": "{printed} {name}",
+        "chip": "{printed} {name}",
+        "search": "Lorcana {name} {printed} promo"
+      }
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Promos"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-5, 12, 8x2",
+    "example": "1-5, 8x2",
+    "hint": "Separate with commas or spaces. Use the promo numbers: <b>1-5</b> is a range and <b>8x2</b> is two copies.",
+    "empty": "Promos run from 1/PD1 to 19/PD1."
+  },
+  "info": {
+    "packSections": [],
+    "sectionText": {}
+  },
+  "seo": {
+    "title": "Disney Lorcana PD1 Promos Checklist · All 19 Cards",
+    "description": "Free checklist for the 19 Disney Lorcana PD1 Promos cards, with images, prices and binder pages. No ads, no sign-up, no tracking.",
+    "ogTitle": "Disney Lorcana PD1 Promos Checklist",
+    "ogDescription": "Track all 19 Disney Lorcana PD1 Promos cards. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About the PD1 Promos",
+    "paragraphs": [
+      "PD1 Promos lists the 19 Disney Lorcana promo cards numbered 1/PD1 to 19/PD1, from products and promotions and books.",
+      "They come from Products and promotions, Attack of the Vine! Prerelease Pack, Hyperia City Prerelease Pack, ’Quest of Wonders: An Illumineer’s Lorebook’ and ’Illumineer’s Quest: The Great Hunny Rescue’ victory card.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details come from LorcanaJSON, card images from Lorcast and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "lorcana": "PD1",
+    "tcgplayer": [
+      23234,
+      17690,
+      23305
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"1","printed":"1/PD1","code":"1","name":"Beast - Snowfield Troublemaker","rarity":"P","ctype":"ruby","keywords":"Beauty and the Beast Storyborn Hero Prince Rush Character Ruby Ian MacDonald","stats":{"i":"Ruby","t":"Character · Storyborn, Hero, Prince","c":2,"k":1,"s":3,"w":1,"l":1},"foil":true,"note":"Products and promotions","idx":0},
+    {"id":"002","section":"main","num":"2","printed":"2/PD1","code":"2","name":"Rapunzel - Ethereal Protector","rarity":"P","ctype":"steel","keywords":"Tangled Storyborn Hero Princess Whisper Boost Character Steel Grace Tran","stats":{"i":"Steel","t":"Character · Storyborn, Hero, Princess, Whisper","c":3,"k":0,"s":3,"w":3,"l":2},"foil":true,"tcg":711443,"grp":23234,"note":"Products and promotions","idx":1},
+    {"id":"003","section":"main","num":"3","printed":"3/PD1","code":"3","name":"Pocahontas - Guiding the Tribe","rarity":"P","ctype":"amber","keywords":"Pocahontas Storyborn Hero Princess Character Amber Kendall Hale","stats":{"i":"Amber","t":"Character · Storyborn, Hero, Princess","c":2,"k":1,"s":2,"w":3,"l":1},"foil":true,"tcg":705068,"grp":23234,"note":"Attack of the Vine! Prerelease Pack","idx":2},
+    {"id":"004","section":"main","num":"4","printed":"4/PD1","code":"4","name":"Vixey - Expert Fisher","rarity":"P","ctype":"amethyst","keywords":"The Fox and the Hound Storyborn Ally Character Amethyst Oggy Christiansson","stats":{"i":"Amethyst","t":"Character · Storyborn, Ally","c":3,"k":1,"s":2,"w":4,"l":1},"foil":true,"tcg":705072,"grp":23234,"note":"Attack of the Vine! Prerelease Pack","idx":3},
+    {"id":"005","section":"main","num":"5","printed":"5/PD1","code":"5","name":"Buzz Lightyear - Providing Cover","rarity":"P","ctype":"emerald","keywords":"Toy Story Storyborn Hero Toy Captain Character Emerald Marcel Berg","stats":{"i":"Emerald","t":"Character · Storyborn, Hero, Toy, Captain","c":4,"k":0,"s":4,"w":2,"l":2},"foil":true,"tcg":705073,"grp":23234,"note":"Attack of the Vine! Prerelease Pack","idx":4},
+    {"id":"006","section":"main","num":"6","printed":"6/PD1","code":"6","name":"Boo - Energetic Child","rarity":"P","ctype":"ruby","keywords":"Monsters, Inc. Storyborn Hero Rush Character Ruby Malia Ewart","stats":{"i":"Ruby","t":"Character · Storyborn, Hero","c":3,"k":0,"s":0,"w":1,"l":1},"foil":true,"tcg":702706,"grp":23234,"note":"Attack of the Vine! Prerelease Pack","idx":5},
+    {"id":"007","section":"main","num":"7","printed":"7/PD1","code":"7","name":"Merlin - Envisioning the Future","rarity":"P","ctype":"sapphire","keywords":"The Sword in the Stone Dreamborn Mentor Sorcerer Character Sapphire Carmine Pucci","stats":{"i":"Sapphire","t":"Character · Dreamborn, Mentor, Sorcerer","c":4,"k":0,"s":1,"w":4,"l":2},"foil":true,"tcg":705074,"grp":23234,"note":"Attack of the Vine! Prerelease Pack","idx":6},
+    {"id":"008","section":"main","num":"8","printed":"8/PD1","code":"8","name":"Maximus - Relentless Stallion","rarity":"P","ctype":"steel","keywords":"Tangled Storyborn Ally Character Steel Therese Vildefall","stats":{"i":"Steel","t":"Character · Storyborn, Ally","c":5,"k":0,"s":4,"w":5,"l":1},"foil":true,"tcg":702707,"grp":23234,"note":"Attack of the Vine! Prerelease Pack","idx":7},
+    {"id":"009","section":"main","num":"9","printed":"9/PD1","code":"9","name":"Nick Wilde - Inquisitive Harbormaster","rarity":"P","ctype":"amber","keywords":"Zootopia Dreamborn Ally Detective Shift Character Amber Gianluca Barone","stats":{"i":"Amber","t":"Character · Dreamborn, Ally, Detective","c":6,"k":1,"s":3,"w":5,"l":3},"foil":true,"tcg":722990,"grp":23234,"note":"Hyperia City Prerelease Pack","idx":8},
+    {"id":"010","section":"main","num":"10","printed":"10/PD1","code":"10","name":"Merlin - Ink Drop Tinkerer","rarity":"P","ctype":"amethyst","keywords":"The Sword in the Stone Dreamborn Mentor Sorcerer Shift Character Amethyst Kiersten Hale","stats":{"i":"Amethyst","t":"Character · Dreamborn, Mentor, Sorcerer","c":7,"k":0,"s":6,"w":8,"l":3},"foil":true,"tcg":722992,"grp":23234,"note":"Hyperia City Prerelease Pack","idx":9},
+    {"id":"011","section":"main","num":"11","printed":"11/PD1","code":"11","name":"Above the Crowd","rarity":"P","ctype":"emerald","keywords":"A Goofy Movie Song Action Emerald Raquel Villanueva","stats":{"i":"Emerald","t":"Action · Song","c":5,"k":1},"foil":true,"tcg":722993,"grp":23234,"note":"Hyperia City Prerelease Pack","idx":10},
+    {"id":"012","section":"main","num":"12","printed":"12/PD1","code":"12","name":"Goofy - Dancing Superstar","rarity":"P","ctype":"ruby","keywords":"A Goofy Movie Dreamborn Hero Shift Singer Character Ruby Koni","stats":{"i":"Ruby","t":"Character · Dreamborn, Hero","c":5,"k":1,"s":5,"w":4,"l":2},"foil":true,"tcg":722994,"grp":23234,"note":"Hyperia City Prerelease Pack","idx":11},
+    {"id":"013","section":"main","num":"13","printed":"13/PD1","code":"13","name":"Judy Hopps - Day Camp Instructor","rarity":"P","ctype":"sapphire","keywords":"Zootopia Storyborn Hero Detective Support Character Sapphire Jared M. / Amber K.","stats":{"i":"Sapphire","t":"Character · Storyborn, Hero, Detective","c":2,"k":0,"s":2,"w":2,"l":1},"foil":true,"tcg":722995,"grp":23234,"note":"Hyperia City Prerelease Pack","idx":12},
+    {"id":"014","section":"main","num":"14","printed":"14/PD1","code":"14","name":"Berlioz - Tiny Rascal","rarity":"P","ctype":"steel","keywords":"The Aristocats Storyborn Ally Character Steel Brian Weisz","stats":{"i":"Steel","t":"Character · Storyborn, Ally","c":1,"k":1,"s":0,"w":1,"l":1},"foil":true,"tcg":722996,"grp":23234,"note":"Hyperia City Prerelease Pack","idx":13},
+    {"id":"015","section":"main","num":"15","printed":"15/PD1","code":"15","name":"Pegasus - Searching High and Low","rarity":"P","ctype":"ruby","keywords":"Hercules Dreamborn Ally Evasive Character Ruby Daniel Rodriguez","stats":{"i":"Ruby","t":"Character · Dreamborn, Ally","c":6,"k":1,"s":6,"w":7,"l":1},"foil":true,"tcg":711485,"grp":23234,"note":"’Quest of Wonders: An Illumineer’s Lorebook’","idx":14},
+    {"id":"016","section":"main","num":"16","printed":"16/PD1","code":"16","name":"With a Few Good Friends","rarity":"P","ctype":"amethyst","keywords":"Winnie the Pooh Song Sing Together Action Amethyst Cam Kendell","stats":{"i":"Amethyst","t":"Action · Song","c":6,"k":1},"foil":true,"tcg":709896,"grp":24734,"note":"’Illumineer’s Quest: The Great Hunny Rescue’ victory card","idx":15},
+    {"id":"017","section":"main","num":"17","printed":"17/PD1","code":"17","name":"The Beanstalk - Onward and Upward","rarity":"P","ctype":"emerald","keywords":"Mickey and the Beanstalk Location Emerald Alyssa Lee","stats":{"i":"Emerald","t":"Location","c":1,"k":1,"w":6,"l":0,"m":1},"foil":true,"tcg":722667,"grp":24734,"note":"’Illumineer’s Quest: The Great Hunny Rescue’ victory card","idx":16},
+    {"id":"018","section":"main","num":"18","printed":"18/PD1","code":"18","name":"Sulley - Protective Monster","rarity":"P","ctype":"ruby","keywords":"Monsters, Inc. Storyborn Hero Monster Character Ruby Simone Tentoni","stats":{"i":"Ruby","t":"Character · Storyborn, Hero, Monster","c":3,"k":1,"s":2,"w":5,"l":1},"foil":true,"tcg":719967,"grp":23234,"note":"Products and promotions","idx":17},
+    {"id":"019","section":"main","num":"19","printed":"19/PD1","code":"19","name":"Violet Parr - Super Resilient","rarity":"P","ctype":"steel","keywords":"The Incredibles Storyborn Super Hero Shift Resist Character Steel Mike Parker","stats":{"i":"Steel","t":"Character · Storyborn, Super, Hero","c":5,"k":1,"s":4,"w":4,"l":2},"foil":true,"tcg":719968,"grp":23234,"note":"Products and promotions","idx":18}
+  ]
+}

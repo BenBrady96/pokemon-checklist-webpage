@@ -1,0 +1,82 @@
+{
+  "id": "lorcana/promo-set-4",
+  "game": "lorcana",
+  "slug": "promo-set-4",
+  "name": "Promo Set 4",
+  "series": "2026",
+  "kind": "promo",
+  "code": "IP4",
+  "syncKey": "IP4",
+  "released": "2026-07-17",
+  "rarities": [
+    {
+      "id": "P",
+      "icon": "l-promo-op"
+    }
+  ],
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Promos",
+      "range": "9/P4–16/P4",
+      "tier": "standard",
+      "display": {
+        "number": "{printed}",
+        "label": "{printed}",
+        "list": "{printed} {name}",
+        "chip": "{printed} {name}",
+        "search": "Lorcana {name} {printed} promo"
+      }
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Promos"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-5, 12, 8x2",
+    "example": "1-5, 8x2",
+    "hint": "Separate with commas or spaces. Use the promo numbers: <b>1-5</b> is a range and <b>8x2</b> is two copies.",
+    "empty": "Promos run from 9/P4 to 16/P4."
+  },
+  "info": {
+    "packSections": [],
+    "sectionText": {}
+  },
+  "seo": {
+    "title": "Disney Lorcana Promo Set 4 Checklist · All 8 Cards",
+    "description": "Free checklist for the 8 Disney Lorcana Promo Set 4 cards, with images, prices and binder pages. No ads, no sign-up, no tracking.",
+    "ogTitle": "Disney Lorcana Promo Set 4 Checklist",
+    "ogDescription": "Track all 8 Disney Lorcana Promo Set 4 cards. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About the Promo Set 4",
+    "paragraphs": [
+      "Promo Set 4 lists the 8 Disney Lorcana promo cards numbered 9/P4 to 16/P4, from organised play and products and promotions.",
+      "They come from Organised play and Products and promotions.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details come from LorcanaJSON, card images from Lorcast and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "lorcana": "P4",
+    "tcgplayer": [
+      23234,
+      17690,
+      23305
+    ]
+  },
+  "cards": [
+    {"id":"009","section":"main","num":"9","printed":"9/P4","code":"9","name":"Morph - Little Imitator","rarity":"P","ctype":"amethyst","keywords":"Treasure Planet Storyborn Ally Alien Character Amethyst Brian Weisz","stats":{"i":"Amethyst","t":"Character · Storyborn, Ally, Alien","c":2,"k":1,"s":1,"w":2,"l":1},"foil":true,"tcg":705078,"grp":23234,"note":"Organised play","idx":0},
+    {"id":"010","section":"main","num":"10","printed":"10/P4","code":"10","name":"Meilin Lee - Lead Vocalist","rarity":"P","ctype":"amber","keywords":"Turning Red Dreamborn Hero Red Panda Singer Character Amber Denny Minonne","stats":{"i":"Amber","t":"Character · Dreamborn, Hero, Red Panda","c":1,"k":1,"s":0,"w":3,"l":1},"foil":true,"tcg":705080,"grp":23234,"note":"Organised play","idx":1},
+    {"id":"011","section":"main","num":"11","printed":"11/P4","code":"11","name":"Randall Boggs - Scary Smart","rarity":"P","ctype":"sapphire","keywords":"Monsters, Inc. Dreamborn Villain Monster Character Sapphire Kendall Hale","stats":{"i":"Sapphire","t":"Character · Dreamborn, Villain, Monster","c":4,"k":1,"s":3,"w":3,"l":2},"foil":true,"tcg":705079,"grp":23234,"note":"Organised play","idx":2},
+    {"id":"012","section":"main","num":"12","printed":"12/P4","code":"12","name":"Tigger - Hunny Barbarian","rarity":"P","ctype":"ruby","keywords":"Winnie the Pooh Dreamborn Ally Tigger Hunny Reckless Character Ruby Simone Giovanardi","stats":{"i":"Ruby","t":"Character · Dreamborn, Ally, Tigger, Hunny","c":4,"k":1,"s":5,"w":4,"l":0},"foil":true,"tcg":705083,"grp":23234,"note":"Products and promotions","idx":3},
+    {"id":"013","section":"main","num":"13","printed":"13/P4","code":"13","name":"Belle - Always Reading","rarity":"P","ctype":"sapphire","keywords":"Beauty and the Beast Storyborn Hero Princess Character Sapphire Pauline Voss","stats":{"i":"Sapphire","t":"Character · Storyborn, Hero, Princess","c":2,"k":1,"s":2,"w":3,"l":1},"foil":true,"tcg":705082,"grp":23234,"note":"Organised play","idx":4},
+    {"id":"014","section":"main","num":"14","printed":"14/P4","code":"14","name":"If I Didn't Have You","rarity":"P","ctype":"amber","keywords":"Monsters, Inc. Song Action Amber Saulo Nate","stats":{"i":"Amber","t":"Action · Song","c":3,"k":1},"foil":true,"tcg":705081,"grp":23234,"note":"Organised play","idx":5},
+    {"id":"015","section":"main","num":"15","printed":"15/P4","code":"15","name":"Rapunzel - Escaping the Tower","rarity":"P","ctype":"emerald","keywords":"Tangled Storyborn Hero Princess Character Emerald Lisanne Koeteeuw","stats":{"i":"Emerald","t":"Character · Storyborn, Hero, Princess","c":1,"k":1,"s":2,"w":1,"l":1},"tcg":705084,"grp":23234,"note":"Organised play","idx":6},
+    {"id":"016","section":"main","num":"16","printed":"16/P4","code":"16","name":"Rapunzel - Escaping the Tower","rarity":"P","ctype":"emerald","keywords":"Tangled Storyborn Hero Princess Character Emerald Lisanne Koeteeuw","stats":{"i":"Emerald","t":"Character · Storyborn, Hero, Princess","c":1,"k":1,"s":2,"w":1,"l":1},"foil":true,"tcg":705085,"grp":23234,"note":"Organised play","idx":7}
+  ]
+}

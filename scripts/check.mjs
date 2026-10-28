@@ -179,11 +179,17 @@ for (const entry of [...COMING_SOON, ...CONFIG.filter((e) => e.guide)]) {
     ...guide.products.flatMap((p) => (p.rrp || []).map((r) => r.source)),
   ].filter(Boolean));
   check(guide.releaseSource && (guide.dates || []).every((d) => isDate(d.date) && d.source), `${id}: the release date and every key date have a source`);
-  check(guide.products.length && guide.products.every((p) => Number.isInteger(p.tcg) && p.name && p.contents && (p.rrp || []).every((r) => r.price > 0 && /^(gbp|usd|eur)$/.test(r.currency) && r.store && r.source)), `${id}: every guide product has a TCGplayer id, a name and contents, and shop prices name a store and a source`);
+  check(Array.isArray(guide.products) && guide.products.every((p) => Number.isInteger(p.tcg) && p.name && p.contents && (p.rrp || []).every((r) => r.price > 0 && /^(gbp|usd|eur)$/.test(r.currency) && r.store && r.source)), `${id}: every guide product has a TCGplayer id, a name and contents, and shop prices name a store and a source`);
+  check(!guide.products.length || guide.productsSource, `${id}: a guide with products names the source of their contents (productsSource)`);
+  check(!guide.releaseWindow || (guide.releaseWindow.short && guide.releaseWindow.long), `${id}: a release window has a short and a long form`);
   check(new Set(guide.products.map((p) => p.tcg)).size === guide.products.length, `${id}: guide products aren't listed twice`);
   if (!live) {
     check(/^[A-Za-z0-9]{1,16}$/.test(entry.syncKey) && !syncKeys.has(entry.syncKey), `${id}: sync key ${entry.syncKey} is valid and not used by ${syncKeys.get(entry.syncKey)}`);
-    if (today >= guide.released) console.warn(`⚠ ${id} came out on ${guide.released}. When TCGdex has ${entry.tcgdex}, move it from UPCOMING to HAND in config/pokemon/sets.mjs and run npm run sets -- --only ${entry.slug}`);
+    if (today >= guide.released) {
+      console.warn(entry.game === 'lorcana'
+        ? `⚠ ${id} came out on ${guide.released}. When LorcanaJSON lists its cards, move it from UPCOMING into the set list in config/lorcana/sets.mjs and run npm run sets -- --only ${id}`
+        : `⚠ ${id} came out on ${guide.released}. When TCGdex has ${entry.tcgdex}, move it from UPCOMING to HAND in config/pokemon/sets.mjs and run npm run sets -- --only ${entry.slug}`);
+    }
   }
 }
 for (const guide of GUIDES) {
@@ -308,11 +314,24 @@ if (tradeSets.length >= 2) {
   check((await readTradeText(`#p=${code}`))?.kind === 'proposal' && await decodeTrade(code) === null, 'a proposed trade link is read, and isn’t a trade code');
 }
 
-const ygo = [...models.values()].filter((m) => m.game.id === 'yugioh');
+const allModels = [...models.values()];
+const keys = allModels.map((m) => m.syncKey.toUpperCase());
+check(new Set(keys).size === keys.length, 'sync keys are unique across games, ignoring case');
+const KEY_PREFIX = { yugioh: 'Y', lorcana: 'I' };
+for (const [game, prefix] of Object.entries(KEY_PREFIX)) {
+  if (!allModels.some((m) => m.game.id === game)) continue;
+  check(allModels.every((m) => (m.game.id === game) === m.syncKey.toUpperCase().startsWith(prefix)), `${GAMES[game].shortName} sync keys start with ${prefix} and no other game's do`);
+}
+
+const mixedSet = (model) => {
+  const counts = {};
+  for (const card of model.cards) if (random() < 0.3) counts[card.id] = 1 + Math.floor(random() * 3);
+  return { model, counts, tier: 'master' };
+};
+
+const ygo = allModels.filter((m) => m.game.id === 'yugioh');
+const lor = allModels.filter((m) => m.game.id === 'lorcana');
 if (ygo.length) {
-  const keys = [...models.values()].map((m) => m.syncKey.toUpperCase());
-  check(new Set(keys).size === keys.length, 'sync keys are unique across games, ignoring case');
-  check(ygo.every((m) => m.syncKey.startsWith('Y')) && ![...models.values()].some((m) => m.game.id === 'pokemon' && m.syncKey.toUpperCase().startsWith('Y')), 'Yu-Gi-Oh! sync keys start with Y and no Pokémon key does');
   const repo = await exists(IMAGES_REPO);
   const missingArt = new Set();
   for (const m of ygo) {
@@ -329,19 +348,44 @@ if (ygo.length) {
     check(!r.invalid.length && r.counts.get(rich.codes.get('1')) === 2 && r.counts.get(scr.id) === 1, `${rich.id}: Yu-Gi-Oh! quick add reads numbers and rarity codes`);
     check(parseQuickAdd('QCSR9999', rich).invalid.length === 1, `${rich.id}: Yu-Gi-Oh! quick add rejects codes that aren't in the set`);
   }
-  const mixed = [tradeSets[0], ...ygo.slice(0, 2).map((model) => {
-    const counts = {};
-    for (const card of model.cards) if (random() < 0.3) counts[card.id] = 1 + Math.floor(random() * 3);
-    return { model, counts, tier: 'master' };
-  })].filter(Boolean);
-  const mixedCode = await encodeTrade({ name: 'Mixed', created, sets: mixed });
-  const mixedBack = await readTradeText(`https://example.com/#sync=${mixedCode}`);
-  check(mixedBack?.sets.length === mixed.length && mixedBack.sets.every((s, i) => s.decoded.key === mixed[i].model.syncKey && sameCounts(resolveCode(s.decoded, mixed[i].model), capped(mixed[i].counts))), 'an Export link with Pokémon and Yu-Gi-Oh! sets round-trips');
-  const mixedFile = parseBackup(JSON.stringify(backupFile(mixed.map((s) => ({ id: s.model.id, counts: s.counts, tier: s.tier })), { exported: new Date(created) })));
-  check(mixed.every((s) => sameCounts(mixedFile?.entries.find((e) => e.id === s.model.id)?.counts || {}, capped(s.counts))), 'a backup file with both games round-trips');
   const ygoList = ygo[0];
   const listBack = await decodeList(await encodeList({ key: ygoList.syncKey, n: ygoList.maxIdx + 1, tier: 'master', have: [[ygoList.cards[0].idx, 2]], missing: [ygoList.cards.at(-1).idx] }));
   check(listBack?.key === ygoList.syncKey && listBack.have.get(ygoList.cards[0].idx) === 2, `${ygoList.id}: Yu-Gi-Oh! trade list round trip`);
+}
+
+const LORCANA_SECTIONS = new Set(['main', 'foil', 'epic', 'enchanted', 'iconic', 'quest', 'errata']);
+if (lor.length) {
+  for (const m of lor) {
+    check(m.sections.every((s) => LORCANA_SECTIONS.has(s.id)), `${m.id}: only main set, foil, Epic, Enchanted, Iconic, Illumineer's Quest and errata sections`);
+    const mains = new Set(m.cards.filter((c) => !c.variant).map((c) => c.printed));
+    check(m.cards.filter((c) => c.variant).every((c) => mains.has(c.printed)), `${m.id}: every foil and errata print has its main card`);
+    if (m.kind === 'expansion') check(m.cardsBySection.get('main').every((c) => ['C', 'U', 'R', 'SR', 'L'].includes(c.rarity)), `${m.id}: the main set is Common to Legendary`);
+    check(m.remoteSizes?.sm && m.remoteSizes?.lg, `${m.id}: card images link to Lorcast's size folders`);
+  }
+  const lorCards = lor.flatMap((m) => m.cards.filter((c) => !c.img).map((c) => Boolean(m.remoteImageId(c))));
+  check(lorCards.filter(Boolean).length > lorCards.length * 0.9, `most Lorcana card images are linked from Lorcast rather than stored: ${lorCards.filter(Boolean).length} of ${lorCards.length}`);
+  const sizes = (id) => models.get(id)?.visibleTiers.map((t) => t.cards.length).join();
+  check(sizes('lorcana/the-first-chapter') === '204,408,420', `The First Chapter tiers are 204, 408 and 420: ${sizes('lorcana/the-first-chapter')}`);
+  check(sizes('lorcana/fabled') === '205,410,448', `Fabled tiers are 205, 410 and 448: ${sizes('lorcana/fabled')}`);
+  const fabled = models.get('lorcana/fabled');
+  const foil = fabled?.cards.find((c) => c.code === 'F12');
+  if (foil) {
+    const r = parseQuickAdd('1-3, 12x2, F12', fabled);
+    check(!r.invalid.length && r.counts.get(fabled.codes.get('12')) === 2 && r.counts.get(foil.id) === 1, 'Lorcana quick add reads numbers and foil codes');
+    check(parseQuickAdd('F999', fabled).invalid.length === 1, 'Lorcana quick add rejects codes that aren\'t in the set');
+  }
+  const lorList = lor[0];
+  const lorBack = await decodeList(await encodeList({ key: lorList.syncKey, n: lorList.maxIdx + 1, tier: 'grand', have: [[lorList.cards[0].idx, 3]], missing: [lorList.cards.at(-1).idx] }));
+  check(lorBack?.key === lorList.syncKey && lorBack.have.get(lorList.cards[0].idx) === 3, `${lorList.id}: Lorcana trade list round trip`);
+}
+
+if (ygo.length || lor.length) {
+  const mixed = [tradeSets[0], ...[...ygo.slice(0, 2), ...lor.slice(0, 2)].map(mixedSet)].filter(Boolean);
+  const mixedCode = await encodeTrade({ name: 'Mixed', created, sets: mixed });
+  const mixedBack = await readTradeText(`https://example.com/#sync=${mixedCode}`);
+  check(mixedBack?.sets.length === mixed.length && mixedBack.sets.every((s, i) => s.decoded.key === mixed[i].model.syncKey && sameCounts(resolveCode(s.decoded, mixed[i].model), capped(mixed[i].counts))), 'an Export link with sets from every game round-trips');
+  const mixedFile = parseBackup(JSON.stringify(backupFile(mixed.map((s) => ({ id: s.model.id, counts: s.counts, tier: s.tier })), { exported: new Date(created) })));
+  check(mixed.every((s) => sameCounts(mixedFile?.entries.find((e) => e.id === s.model.id)?.counts || {}, capped(s.counts))), 'a backup file with every game round-trips');
 }
 
 const byIdx = (a, b) => a[0] - b[0];

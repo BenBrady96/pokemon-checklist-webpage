@@ -1,0 +1,84 @@
+{
+  "id": "lorcana/d23-collection",
+  "game": "lorcana",
+  "slug": "d23-collection",
+  "name": "D23 Collection",
+  "series": "2024",
+  "kind": "promo",
+  "code": "ID23",
+  "syncKey": "ID23",
+  "released": "2024-08-09",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Promos",
+      "range": "01/D23–16/D23",
+      "tier": "standard",
+      "display": {
+        "number": "{printed}",
+        "label": "{printed}",
+        "list": "{printed} {name}",
+        "chip": "{printed} {name}",
+        "search": "Lorcana {name} {printed} promo"
+      }
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Promos"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-5, 12, 8x2",
+    "example": "1-5, 8x2",
+    "hint": "Separate with commas or spaces. Use the promo numbers: <b>1-5</b> is a range and <b>8x2</b> is two copies.",
+    "empty": "Promos run from 01/D23 to 16/D23."
+  },
+  "info": {
+    "packSections": [],
+    "sectionText": {}
+  },
+  "seo": {
+    "title": "Disney Lorcana D23 Collection Checklist · All 16 Cards",
+    "description": "Free checklist for the 16 Disney Lorcana D23 Collection cards, with images, prices and binder pages. No ads, no sign-up, no tracking.",
+    "ogTitle": "Disney Lorcana D23 Collection Checklist",
+    "ogDescription": "Track all 16 Disney Lorcana D23 Collection cards. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About the D23 Collection",
+    "paragraphs": [
+      "D23 Collection lists the 16 Disney Lorcana promo cards numbered 01/D23 to 16/D23, from D23 Expo.",
+      "They come from D23 Expo 2024 Collector’s Set, D23 Expo 2024, D23 Gold Membership and D23 Expo.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details come from LorcanaJSON, card images from Lorcast and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "lorcana": "D23",
+    "tcgplayer": [
+      23234,
+      17690,
+      23305
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"1","printed":"01/D23","code":"1","name":"Mickey Mouse - Brave Little Tailor","rarity":"P","ctype":"ruby","keywords":"Brave Little Tailor Dreamborn Hero Evasive Character Ruby Nicholas Kole","stats":{"i":"Ruby","t":"Character · Dreamborn, Hero","c":8,"k":1,"s":5,"w":5,"l":4},"foil":true,"tcg":559532,"grp":17690,"note":"D23 Expo 2024 Collector’s Set","idx":0},
+    {"id":"002","section":"main","num":"2","printed":"02/D23","code":"2","name":"Cinderella - Stouthearted","rarity":"P","ctype":"steel","keywords":"Cinderella Floodborn Hero Princess Knight Shift Resist Character Steel Grace Tran","stats":{"i":"Steel","t":"Character · Floodborn, Hero, Princess, Knight","c":7,"k":1,"s":5,"w":5,"l":3},"foil":true,"tcg":559533,"grp":17690,"note":"D23 Expo 2024 Collector’s Set","idx":1},
+    {"id":"003","section":"main","num":"3","printed":"03/D23","code":"3","name":"Ursula - Deceiver","rarity":"P","ctype":"emerald","keywords":"The Little Mermaid Storyborn Villain Sorcerer Character Emerald Lisanne Koeteeuw","stats":{"i":"Emerald","t":"Character · Storyborn, Villain, Sorcerer","c":2,"k":1,"s":1,"w":3,"l":1},"foil":true,"tcg":559534,"grp":17690,"note":"D23 Expo 2024 Collector’s Set","idx":2},
+    {"id":"004","section":"main","num":"4","printed":"04/D23","code":"4","name":"Bruno Madrigal - Undetected Uncle","rarity":"P","ctype":"amethyst","keywords":"Encanto Storyborn Ally Madrigal Evasive Character Amethyst Juan Diego Leon","stats":{"i":"Amethyst","t":"Character · Storyborn, Ally, Madrigal","c":4,"k":1,"s":3,"w":3,"l":1},"foil":true,"tcg":559535,"grp":17690,"note":"D23 Expo 2024 Collector’s Set","idx":3},
+    {"id":"005","section":"main","num":"5","printed":"05/D23","code":"5","name":"Vanellope von Schweetz - Sugar Rush Princess","rarity":"P","ctype":"amber","keywords":"Wreck-It Ralph Floodborn Hero Princess Racer Shift Character Amber Vanessa Morales","stats":{"i":"Amber","t":"Character · Floodborn, Hero, Princess, Racer","c":4,"k":1,"s":2,"w":4,"l":2},"foil":true,"tcg":559537,"grp":17690,"note":"D23 Expo 2024 Collector’s Set","idx":4},
+    {"id":"006","section":"main","num":"6","printed":"06/D23","code":"6","name":"Oswald - The Lucky Rabbit","rarity":"P","ctype":"sapphire","keywords":"Oswald the Lucky Rabbit Storyborn Hero Character Sapphire Tom Bancroft","stats":{"i":"Sapphire","t":"Character · Storyborn, Hero","c":2,"k":0,"s":2,"w":1,"l":2},"foil":true,"tcg":559538,"grp":17690,"note":"D23 Expo 2024 Collector’s Set","idx":5},
+    {"id":"007","section":"main","num":"7","printed":"07/D23","code":"7","name":"Mickey Mouse - Playful Sorcerer","rarity":"P","ctype":"steel","keywords":"The Sorcerer's Apprentice Floodborn Hero Sorcerer Shift Resist Character Steel Alice Pisoni","stats":{"i":"Steel","t":"Character · Floodborn, Hero, Sorcerer","c":5,"k":1,"s":3,"w":4,"l":2},"foil":true,"tcg":559564,"grp":17690,"note":"D23 Expo 2024","idx":6},
+    {"id":"008","section":"main","num":"8","printed":"8/D23","code":"8","name":"Iago - Out of Reach","rarity":"P","ctype":"steel","keywords":"Aladdin Storyborn Ally Character Steel Carlos Luzzi","stats":{"i":"Steel","t":"Character · Storyborn, Ally","c":4,"k":1,"s":3,"w":3,"l":2},"foil":true,"tcg":630086,"grp":17690,"note":"D23 Gold Membership","idx":7},
+    {"id":"009","section":"main","num":"9","printed":"9/D23","code":"9","name":"Woody - Leader of the Toys","rarity":"P","ctype":"amber","keywords":"Toy Story Storyborn Hero Toy Character Amber Max Ulichney","stats":{"i":"Amber","t":"Character · Storyborn, Hero, Toy","c":4,"k":1,"s":3,"w":4,"l":1},"foil":true,"tcg":711367,"grp":17690,"note":"D23 Expo","idx":8},
+    {"id":"010","section":"main","num":"10","printed":"10/D23","code":"10","name":"Angel - Siren Singer","rarity":"P","ctype":"amber","keywords":"Lilo & Stitch Storyborn Ally Alien Singer Character Amber Oggy Christiansson","stats":{"i":"Amber","t":"Character · Storyborn, Ally, Alien","c":2,"k":1,"s":2,"w":2,"l":1},"foil":true,"tcg":711353,"grp":17690,"note":"D23 Expo","idx":9},
+    {"id":"011","section":"main","num":"11","printed":"11/D23","code":"11","name":"Pocahontas - Following the Wind","rarity":"P","ctype":"amethyst","keywords":"Pocahontas Dreamborn Hero Princess Character Amethyst Malia Ewart","stats":{"i":"Amethyst","t":"Character · Dreamborn, Hero, Princess","c":2,"k":0,"s":3,"w":2,"l":1},"foil":true,"tcg":711355,"grp":17690,"note":"D23 Expo","idx":10},
+    {"id":"012","section":"main","num":"12","printed":"12/D23","code":"12","name":"Mushu - Stealthy Dragon","rarity":"P","ctype":"emerald","keywords":"Mulan Storyborn Ally Dragon Evasive Character Emerald Tom Bancroft / Kristen Breshears","stats":{"i":"Emerald","t":"Character · Storyborn, Ally, Dragon","c":3,"k":1,"s":3,"w":2,"l":1},"foil":true,"tcg":711358,"grp":17690,"note":"D23 Expo","idx":11},
+    {"id":"013","section":"main","num":"13","printed":"13/D23","code":"13","name":"Héctor Rivera - Gone to Pieces","rarity":"P","ctype":"ruby","keywords":"Coco Storyborn Mentor Singer Character Ruby César Vergara","stats":{"i":"Ruby","t":"Character · Storyborn, Mentor","c":4,"k":1,"s":5,"w":3,"l":1},"foil":true,"tcg":711361,"grp":17690,"note":"D23 Expo","idx":12},
+    {"id":"014","section":"main","num":"14","printed":"14/D23","code":"14","name":"Judy Hopps - Uncovering Clues","rarity":"P","ctype":"sapphire","keywords":"Zootopia Storyborn Hero Detective Character Sapphire Jennifer Park","stats":{"i":"Sapphire","t":"Character · Storyborn, Hero, Detective","c":4,"k":1,"s":3,"w":3,"l":1},"foil":true,"tcg":711359,"grp":17690,"note":"D23 Expo","idx":13},
+    {"id":"015","section":"main","num":"15","printed":"15/D23","code":"15","name":"Mr. Incredible - Taking Out the Trash","rarity":"P","ctype":"steel","keywords":"The Incredibles Storyborn Super Hero Character Steel French Carlomagno","stats":{"i":"Steel","t":"Character · Storyborn, Super, Hero","c":4,"k":1,"s":4,"w":4,"l":1},"foil":true,"tcg":711360,"grp":17690,"note":"D23 Expo","idx":14},
+    {"id":"016","section":"main","num":"16","printed":"16/D23","code":"16","name":"Mad Hatter - Unruly Eccentric","rarity":"P","ctype":"dual","keywords":"Alice In Wonderland Storyborn Character Emerald Ruby John Loren / Nicholas Kole","stats":{"i":"Emerald and Ruby","t":"Character · Storyborn","c":6,"k":1,"s":3,"w":5,"l":2},"foil":true,"tcg":679565,"grp":17690,"note":"D23 Expo","idx":15}
+  ]
+}

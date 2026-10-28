@@ -1,0 +1,107 @@
+{
+  "id": "lorcana/promo-set-1",
+  "game": "lorcana",
+  "slug": "promo-set-1",
+  "name": "Promo Set 1",
+  "series": "2023",
+  "kind": "promo",
+  "code": "IP1",
+  "syncKey": "IP1",
+  "released": "2023-08-18",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Promos",
+      "range": "1 TFC–40/P1",
+      "tier": "standard",
+      "display": {
+        "number": "{printed}",
+        "label": "{printed}",
+        "list": "{printed} {name}",
+        "chip": "{printed} {name}",
+        "search": "Lorcana {name} {printed} promo"
+      }
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Promos"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-5, 12, 8x2",
+    "example": "1-5, 8x2",
+    "hint": "Separate with commas or spaces. Use the promo numbers: <b>1-5</b> is a range and <b>8x2</b> is two copies.",
+    "empty": "Promos run from 1 TFC to 40/P1."
+  },
+  "info": {
+    "packSections": [],
+    "sectionText": {}
+  },
+  "seo": {
+    "title": "Disney Lorcana Promo Set 1 Checklist · All 39 Cards",
+    "description": "Free checklist for the 39 Disney Lorcana Promo Set 1 cards, with images, prices and binder pages. No ads, no sign-up, no tracking.",
+    "ogTitle": "Disney Lorcana Promo Set 1 Checklist",
+    "ogDescription": "Track all 39 Disney Lorcana Promo Set 1 cards. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About the Promo Set 1",
+    "paragraphs": [
+      "Promo Set 1 lists the 39 Disney Lorcana promo cards numbered 1 TFC to 40/P1, from D23 Expo, organised play, products and promotions and the Disney100 celebrations.",
+      "They come from D23 Expo 2022, D23 Expo 2022 Collector’s Set, Organised play, Gen Con 2023, Gamescom 2023, Spiel Essen 2023, Disney 100 Collector’s Set and Products and promotions.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details come from LorcanaJSON, card images from Lorcast and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "lorcana": "P1",
+    "tcgplayer": [
+      23234,
+      17690,
+      23305
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"1","printed":"1 TFC","code":"1","name":"Mickey Mouse - Brave Little Tailor","rarity":"P","ctype":"ruby","keywords":"Brave Little Tailor Dreamborn Hero Evasive Character Ruby Nicholas Kole","stats":{"i":"Ruby","t":"Character · Dreamborn, Hero","c":8,"k":1,"s":5,"w":5,"l":4},"tcg":454233,"grp":17690,"note":"D23 Expo 2022","idx":0},
+    {"id":"002","section":"main","num":"2","printed":"1 TFC","code":"2","name":"Stitch - Rock Star","rarity":"P","ctype":"amber","keywords":"Lilo & Stitch Floodborn Hero Alien Shift Character Amber Simangaliso Sibaya","stats":{"i":"Amber","t":"Character · Floodborn, Hero, Alien","c":6,"k":1,"s":3,"w":5,"l":3},"foil":true,"tcg":454245,"grp":17690,"note":"D23 Expo 2022 Collector’s Set","idx":1},
+    {"id":"003","section":"main","num":"3","printed":"1 TFC","code":"3","name":"Elsa - Snow Queen","rarity":"P","ctype":"amethyst","keywords":"Frozen Dreamborn Hero Queen Sorcerer Character Amethyst Nicholas Kole","stats":{"i":"Amethyst","t":"Character · Dreamborn, Hero, Queen, Sorcerer","c":3,"k":1,"s":2,"w":3,"l":1},"foil":true,"tcg":454230,"grp":17690,"note":"D23 Expo 2022 Collector’s Set","idx":2},
+    {"id":"004","section":"main","num":"4","printed":"1 TFC","code":"4","name":"Cruella De Vil - Miserable As Usual","rarity":"P","ctype":"emerald","keywords":"101 Dalmatians Storyborn Villain Character Emerald Nicholas Kole","stats":{"i":"Emerald","t":"Character · Storyborn, Villain","c":2,"k":1,"s":1,"w":3,"l":1},"foil":true,"tcg":454229,"grp":17690,"note":"D23 Expo 2022 Collector’s Set","idx":3},
+    {"id":"005","section":"main","num":"5","printed":"1 TFC","code":"5","name":"Maleficent - Monstrous Dragon","rarity":"P","ctype":"ruby","keywords":"Sleeping Beauty Storyborn Villain Dragon Character Ruby Luis Huerta","stats":{"i":"Ruby","t":"Character · Storyborn, Villain, Dragon","c":9,"k":1,"s":7,"w":5,"l":2},"foil":true,"tcg":454232,"grp":17690,"note":"D23 Expo 2022 Collector’s Set","idx":4},
+    {"id":"006","section":"main","num":"6","printed":"1 TFC","code":"6","name":"Robin Hood - Unrivaled Archer","rarity":"P","ctype":"sapphire","keywords":"Robin Hood Storyborn Hero Character Sapphire John Loren","stats":{"i":"Sapphire","t":"Character · Storyborn, Hero","c":6,"k":1,"s":4,"w":4,"l":2},"foil":true,"tcg":454234,"grp":17690,"note":"D23 Expo 2022 Collector’s Set","idx":5},
+    {"id":"007","section":"main","num":"7","printed":"1 TFC","code":"7","name":"Captain Hook - Forceful Duelist","rarity":"P","ctype":"steel","keywords":"Peter Pan Dreamborn Villain Pirate Captain Challenger Character Steel Marcel Berg","stats":{"i":"Steel","t":"Character · Dreamborn, Villain, Pirate, Captain","c":1,"k":1,"s":1,"w":2,"l":1},"foil":true,"tcg":454231,"grp":17690,"note":"D23 Expo 2022 Collector’s Set","idx":6},
+    {"id":"008","section":"main","num":"8","printed":"8/P1","code":"8","name":"Mickey Mouse - Detective","rarity":"P","ctype":"sapphire","keywords":"Mickey Mouse & Friends Dreamborn Hero Detective Character Sapphire Jared Nickerl","stats":{"i":"Sapphire","t":"Character · Dreamborn, Hero, Detective","c":3,"k":0,"s":1,"w":3,"l":1},"foil":true,"tcg":501773,"grp":23234,"note":"Organised play","idx":7},
+    {"id":"009","section":"main","num":"9","printed":"9/P1","code":"9","name":"HeiHei - Boat Snack","rarity":"P","ctype":"amber","keywords":"Moana Storyborn Ally Support Character Amber Jenna Gray","stats":{"i":"Amber","t":"Character · Storyborn, Ally","c":1,"k":1,"s":1,"w":2,"l":1},"foil":true,"tcg":502012,"grp":23234,"note":"Organised play","idx":8},
+    {"id":"010","section":"main","num":"10","printed":"10/P1","code":"10","name":"Yzma - Alchemist","rarity":"P","ctype":"amethyst","keywords":"The Emperor's New Groove Dreamborn Villain Sorcerer Character Amethyst Hadjie Joos","stats":{"i":"Amethyst","t":"Character · Dreamborn, Villain, Sorcerer","c":2,"k":1,"s":2,"w":2,"l":1},"foil":true,"tcg":502013,"grp":23234,"note":"Organised play","idx":9},
+    {"id":"011","section":"main","num":"11","printed":"11/P1","code":"11","name":"Mickey Mouse - Musketeer","rarity":"P","ctype":"steel","keywords":"The Three Musketeers Dreamborn Hero Musketeer Bodyguard Character Steel Jochem Van Gool","stats":{"i":"Steel","t":"Character · Dreamborn, Hero, Musketeer","c":6,"k":1,"s":2,"w":7,"l":2},"tcg":510149,"grp":23234,"note":"Gen Con 2023","idx":10},
+    {"id":"012","section":"main","num":"12","printed":"12/P1","code":"12","name":"Goofy - Musketeer","rarity":"P","ctype":"amber","keywords":"The Three Musketeers Dreamborn Hero Musketeer Bodyguard Character Amber Jochem Van Gool","stats":{"i":"Amber","t":"Character · Dreamborn, Hero, Musketeer","c":5,"k":1,"s":3,"w":6,"l":1},"tcg":501777,"grp":23234,"note":"Gamescom 2023","idx":11},
+    {"id":"013","section":"main","num":"13","printed":"13/P1","code":"13","name":"Donald Duck - Musketeer","rarity":"P","ctype":"steel","keywords":"The Three Musketeers Dreamborn Hero Musketeer Bodyguard Character Steel Dav Augereau","stats":{"i":"Steel","t":"Character · Dreamborn, Hero, Musketeer","c":4,"k":1,"s":2,"w":5,"l":1},"tcg":518895,"grp":23234,"note":"Spiel Essen 2023","idx":12},
+    {"id":"014","section":"main","num":"14","printed":"14/P1","code":"14","name":"Cinderella - Knight in Training","rarity":"P","ctype":"steel","keywords":"Cinderella Dreamborn Hero Princess Knight Character Steel Grace Tran","stats":{"i":"Steel","t":"Character · Dreamborn, Hero, Princess, Knight","c":2,"k":1,"s":2,"w":2,"l":1},"foil":true,"tcg":518408,"grp":23234,"note":"Organised play","idx":13},
+    {"id":"015","section":"main","num":"15","printed":"15/P1","code":"15","name":"Bucky - Squirrel Squeak Tutor","rarity":"P","ctype":"emerald","keywords":"The Emperor's New Groove Storyborn Ally Character Emerald Alex Accorsi","stats":{"i":"Emerald","t":"Character · Storyborn, Ally","c":3,"k":1,"s":1,"w":1,"l":1},"foil":true,"tcg":518411,"grp":23234,"note":"Organised play","idx":14},
+    {"id":"016","section":"main","num":"16","printed":"16/P1","code":"16","name":"Minnie Mouse - Wide-Eyed Diver","rarity":"P","ctype":"ruby","keywords":"Mickey Mouse & Friends Floodborn Hero Shift Evasive Character Ruby Adam Fenton","stats":{"i":"Ruby","t":"Character · Floodborn, Hero","c":4,"k":1,"s":2,"w":3,"l":1},"foil":true,"tcg":518412,"grp":23234,"note":"Organised play","idx":15},
+    {"id":"017","section":"main","num":"17","printed":"17/P1","code":"17","name":"Robin Hood - Capable Fighter","rarity":"P","ctype":"steel","keywords":"Robin Hood Dreamborn Hero Character Steel Noukah","stats":{"i":"Steel","t":"Character · Dreamborn, Hero","c":2,"k":0,"s":1,"w":3,"l":1},"foil":true,"tcg":518413,"grp":23234,"note":"Organised play","idx":16},
+    {"id":"018","section":"main","num":"18","printed":"18/P1","code":"18","name":"Mickey Mouse - Friendly Face","rarity":"P","ctype":"amber","keywords":"Mickey Mouse & Friends Storyborn Hero Character Amber Mark Henn","stats":{"i":"Amber","t":"Character · Storyborn, Hero","c":6,"k":1,"s":1,"w":6,"l":3},"foil":true,"tcg":516448,"grp":23305,"note":"Disney 100 Collector’s Set","idx":17},
+    {"id":"019","section":"main","num":"19","printed":"19/P1","code":"19","name":"Elsa - Gloves Off","rarity":"P","ctype":"amethyst","keywords":"Frozen Storyborn Hero Queen Sorcerer Challenger Character Amethyst Brittney Lee","stats":{"i":"Amethyst","t":"Character · Storyborn, Hero, Queen, Sorcerer","c":4,"k":1,"s":3,"w":4,"l":1},"foil":true,"tcg":516452,"grp":23305,"note":"Disney 100 Collector’s Set","idx":18},
+    {"id":"020","section":"main","num":"20","printed":"20/P1","code":"20","name":"Genie - Powers Unleashed","rarity":"P","ctype":"emerald","keywords":"Aladdin Floodborn Hero Shift Evasive Character Emerald Eric Goldberg","stats":{"i":"Emerald","t":"Character · Floodborn, Hero","c":8,"k":0,"s":3,"w":5,"l":3},"foil":true,"tcg":516454,"grp":23305,"note":"Disney 100 Collector’s Set","idx":19},
+    {"id":"021","section":"main","num":"21","printed":"21/P1","code":"21","name":"Stitch - Abomination","rarity":"P","ctype":"ruby","keywords":"Lilo & Stitch Storyborn Hero Alien Character Ruby Alex Kupershmidt","stats":{"i":"Ruby","t":"Character · Storyborn, Hero, Alien","c":6,"k":1,"s":4,"w":6,"l":3},"foil":true,"tcg":516456,"grp":23305,"note":"Disney 100 Collector’s Set","idx":20},
+    {"id":"022","section":"main","num":"22","printed":"22/P1","code":"22","name":"Maleficent - Uninvited","rarity":"P","ctype":"sapphire","keywords":"Sleeping Beauty Dreamborn Villain Sorcerer Character Sapphire Lorelay Bové","stats":{"i":"Sapphire","t":"Character · Dreamborn, Villain, Sorcerer","c":5,"k":1,"s":3,"w":6,"l":3},"foil":true,"tcg":516459,"grp":23305,"note":"Disney 100 Collector’s Set","idx":21},
+    {"id":"023","section":"main","num":"23","printed":"23/P1","code":"23","name":"Maui - Demigod","rarity":"P","ctype":"steel","keywords":"Moana Storyborn Hero Deity Character Steel Bill Schwab","stats":{"i":"Steel","t":"Character · Storyborn, Hero, Deity","c":8,"k":1,"s":8,"w":8,"l":3},"foil":true,"tcg":516460,"grp":23305,"note":"Disney 100 Collector’s Set","idx":22},
+    {"id":"024","section":"main","num":"24","printed":"24/P1","code":"24","name":"Gaston - Arrogant Hunter","rarity":"P","ctype":"ruby","keywords":"Beauty and the Beast Storyborn Villain Reckless Character Ruby Matthew Robert Davies","stats":{"i":"Ruby","t":"Character · Storyborn, Villain","c":2,"k":1,"s":4,"w":2,"l":0},"foil":true,"tcg":520857,"grp":23234,"note":"Products and promotions","idx":23},
+    {"id":"026","section":"main","num":"26","printed":"26/P1","code":"26","name":"Kit Cloudkicker - Tough Guy","rarity":"P","ctype":"emerald","keywords":"TaleSpin Storyborn Ally Character Emerald Jake Parker","stats":{"i":"Emerald","t":"Character · Storyborn, Ally","c":3,"k":1,"s":2,"w":2,"l":1},"foil":true,"tcg":538265,"grp":23234,"note":"Organised play","idx":24},
+    {"id":"027","section":"main","num":"27","printed":"27/P1","code":"27","name":"Jolly Roger - Hook's Ship","rarity":"P","ctype":"ruby","keywords":"Peter Pan Location Ruby Nicolas Ky","stats":{"i":"Ruby","t":"Location","c":1,"k":0,"w":5,"l":0,"m":2},"foil":true,"tcg":538275,"grp":23234,"note":"Organised play","idx":25},
+    {"id":"028","section":"main","num":"28","printed":"28/P1","code":"28","name":"How Far I'll Go","rarity":"P","ctype":"sapphire","keywords":"Moana Song Action Sapphire Anna Rud / Anna Stosik","stats":{"i":"Sapphire","t":"Action · Song","c":4,"k":0},"foil":true,"tcg":538249,"grp":23234,"note":"Organised play","idx":26},
+    {"id":"029","section":"main","num":"29","printed":"29/P1","code":"29","name":"John Silver - Greedy Treasure Seeker","rarity":"P","ctype":"steel","keywords":"Treasure Planet Dreamborn Villain Alien Pirate Captain Character Steel Kumatori Gaku","stats":{"i":"Steel","t":"Character · Dreamborn, Villain, Alien, Pirate, Captain","c":3,"k":1,"s":3,"w":3,"l":1},"foil":true,"tcg":538264,"grp":23234,"note":"Organised play","idx":27},
+    {"id":"030","section":"main","num":"30","printed":"30/P1","code":"30","name":"Stitch - Rock Star","rarity":"P","ctype":"amber","keywords":"Lilo & Stitch Floodborn Hero Alien Shift Character Amber Nicholas Kole","stats":{"i":"Amber","t":"Character · Floodborn, Hero, Alien","c":6,"k":1,"s":3,"w":5,"l":3},"foil":true,"tcg":533447,"grp":23234,"note":"Organised play","idx":28},
+    {"id":"031","section":"main","num":"31","printed":"31/P1","code":"31","name":"Rapunzel - Gifted Artist","rarity":"P","ctype":"amber","keywords":"Tangled Floodborn Hero Princess Shift Character Amber Aubrey Archer","stats":{"i":"Amber","t":"Character · Floodborn, Hero, Princess","c":5,"k":1,"s":0,"w":6,"l":2},"foil":true,"tcg":525095,"grp":23234,"note":"Products and promotions","idx":29},
+    {"id":"032","section":"main","num":"32","printed":"32/P1","code":"32","name":"Pinocchio - Talkative Puppet","rarity":"P","ctype":"amethyst","keywords":"Pinocchio Storyborn Hero Character Amethyst Juan Diego Leon","stats":{"i":"Amethyst","t":"Character · Storyborn, Hero","c":2,"k":0,"s":1,"w":1,"l":1},"foil":true,"tcg":525093,"grp":23234,"note":"Products and promotions","idx":30},
+    {"id":"033","section":"main","num":"33","printed":"33/P1","code":"33","name":"Four Dozen Eggs","rarity":"P","ctype":"sapphire","keywords":"Beauty and the Beast Song Action Sapphire Jochem Van Gool","stats":{"i":"Sapphire","t":"Action · Song","c":4,"k":1},"foil":true,"tcg":525096,"grp":23234,"note":"Products and promotions","idx":31},
+    {"id":"034","section":"main","num":"34","printed":"34/P1","code":"34","name":"Mickey Mouse - Leader of the Band","rarity":"P","ctype":"amber","keywords":"Mickey Mouse & Friends Storyborn Hero Support Character Amber Filipe Laurentino","stats":{"i":"Amber","t":"Character · Storyborn, Hero","c":4,"k":1,"s":2,"w":5,"l":1},"foil":true,"tcg":551695,"grp":23234,"note":"Organised play","idx":32},
+    {"id":"035","section":"main","num":"35","printed":"35/P1","code":"35","name":"Ursula's Lair - Eye of the Storm","rarity":"P","ctype":"amethyst","keywords":"The Little Mermaid Location Amethyst Eri Welli / Sam Burley","stats":{"i":"Amethyst","t":"Location","c":3,"k":0,"w":6,"l":1,"m":2},"foil":true,"tcg":551696,"grp":23234,"note":"Organised play","idx":33},
+    {"id":"036","section":"main","num":"36","printed":"36/P1","code":"36","name":"Hidden Inkcaster","rarity":"P","ctype":"emerald","keywords":"Lorcana Item Emerald Adam Fenton","stats":{"i":"Emerald","t":"Item","c":2,"k":0},"foil":true,"tcg":551697,"grp":23234,"note":"Organised play","idx":34},
+    {"id":"037","section":"main","num":"37","printed":"37/P1","code":"37","name":"Mulan - Enemy of Entanglement","rarity":"P","ctype":"ruby","keywords":"Mulan Storyborn Hero Princess Character Ruby Jared Mathews","stats":{"i":"Ruby","t":"Character · Storyborn, Hero, Princess","c":2,"k":1,"s":1,"w":3,"l":1},"foil":true,"tcg":551698,"grp":23234,"note":"Organised play","idx":35},
+    {"id":"038","section":"main","num":"38","printed":"38/P1","code":"38","name":"Ursula - Sea Witch Queen","rarity":"P","ctype":"amethyst","keywords":"The Little Mermaid Floodborn Villain Queen Sorcerer Shift Character Amethyst John Loren","stats":{"i":"Amethyst","t":"Character · Floodborn, Villain, Queen, Sorcerer","c":7,"k":1,"s":4,"w":7,"l":3},"foil":true,"tcg":551699,"grp":23234,"note":"Organised play","idx":36},
+    {"id":"039","section":"main","num":"39","printed":"39/P1","code":"39","name":"Scrooge McDuck - Uncle Moneybags","rarity":"P","ctype":"sapphire","keywords":"DuckTales Dreamborn Hero Character Sapphire Stefano Zanchi","stats":{"i":"Sapphire","t":"Character · Dreamborn, Hero","c":2,"k":1,"s":1,"w":3,"l":1},"foil":true,"tcg":538247,"grp":23234,"note":"Products and promotions","idx":37},
+    {"id":"040","section":"main","num":"40","printed":"40/P1","code":"40","name":"Flotsam & Jetsam - Entangling Eels","rarity":"P","ctype":"amethyst","keywords":"The Little Mermaid Floodborn Ally Shift Character Amethyst Brian Kesinger","stats":{"i":"Amethyst","t":"Character · Floodborn, Ally","c":6,"k":1,"s":5,"w":5,"l":2},"foil":true,"tcg":551693,"grp":23234,"note":"Products and promotions","idx":38}
+  ]
+}

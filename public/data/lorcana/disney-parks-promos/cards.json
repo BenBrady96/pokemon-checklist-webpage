@@ -1,0 +1,75 @@
+{
+  "id": "lorcana/disney-parks-promos",
+  "game": "lorcana",
+  "slug": "disney-parks-promos",
+  "name": "Disney Parks Promos",
+  "series": "2026",
+  "kind": "promo",
+  "code": "IDIS",
+  "syncKey": "IDIS",
+  "released": "2026-01-16",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Promos",
+      "range": "1/DIS–8/DIS",
+      "tier": "standard",
+      "display": {
+        "number": "{printed}",
+        "label": "{printed}",
+        "list": "{printed} {name}",
+        "chip": "{printed} {name}",
+        "search": "Lorcana {name} {printed} promo"
+      }
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Promos"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-5, 12, 8x2",
+    "example": "1-5, 8x2",
+    "hint": "Separate with commas or spaces. Use the promo numbers: <b>1-5</b> is a range and <b>8x2</b> is two copies.",
+    "empty": "Promos run from 1/DIS to 8/DIS."
+  },
+  "info": {
+    "packSections": [],
+    "sectionText": {}
+  },
+  "seo": {
+    "title": "Disney Lorcana Disney Parks Promos Checklist · All 8 Cards",
+    "description": "Free checklist for the 8 Disney Lorcana Disney Parks Promos cards, with images, prices and binder pages. No ads, no sign-up, no tracking.",
+    "ogTitle": "Disney Lorcana Disney Parks Promos Checklist",
+    "ogDescription": "Track all 8 Disney Lorcana Disney Parks Promos cards. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About the Disney Parks Promos",
+    "paragraphs": [
+      "Disney Parks Promos lists the 8 Disney Lorcana promo cards numbered 1/DIS to 8/DIS, from Disney parks and stores.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details come from LorcanaJSON, card images from Lorcast and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "lorcana": "DIS",
+    "tcgplayer": [
+      23234,
+      17690,
+      23305
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"1","printed":"1/DIS","code":"1","name":"Rapunzel - Appreciative Artist","rarity":"P","ctype":"sapphire","keywords":"Tangled Dreamborn Hero Princess Character Sapphire Aubrey Archer","stats":{"i":"Sapphire","t":"Character · Dreamborn, Hero, Princess","c":5,"k":1,"s":3,"w":5,"l":3},"foil":true,"tcg":668574,"grp":23234,"note":"Disney parks and stores","idx":0},
+    {"id":"002","section":"main","num":"2","printed":"2/DIS","code":"2","name":"Donald Duck - Pie Slinger","rarity":"P","ctype":"ruby","keywords":"Mickey Mouse & Friends Floodborn Hero Knight Shift Character Ruby César Vergara","stats":{"i":"Ruby","t":"Character · Floodborn, Hero, Knight","c":5,"k":1,"s":3,"w":6,"l":1},"foil":true,"tcg":668573,"grp":23234,"note":"Disney parks and stores","idx":1},
+    {"id":"003","section":"main","num":"3","printed":"3/DIS","code":"3","name":"Stitch - Rock Star","rarity":"P","ctype":"amber","keywords":"Lilo & Stitch Floodborn Hero Alien Shift Character Amber Simangaliso Sibaya","stats":{"i":"Amber","t":"Character · Floodborn, Hero, Alien","c":6,"k":1,"s":3,"w":5,"l":3},"foil":true,"tcg":668575,"grp":23234,"note":"Disney parks and stores","idx":2},
+    {"id":"004","section":"main","num":"4","printed":"4/DIS","code":"4","name":"Maleficent - Exultant Spellcaster","rarity":"P","ctype":"amethyst","keywords":"Sleeping Beauty Storyborn Villain Sorcerer Character Amethyst Ornella Savarese","stats":{"i":"Amethyst","t":"Character · Storyborn, Villain, Sorcerer","c":1,"k":1,"s":2,"w":2,"l":1},"foil":true,"tcg":705086,"grp":23234,"note":"Disney parks and stores","idx":3},
+    {"id":"005","section":"main","num":"5","printed":"5/DIS","code":"5","name":"Baymax - Lab Assistant","rarity":"P","ctype":"emerald","keywords":"Storyborn Hero Robot Super Character Emerald","stats":{"i":"Emerald","t":"Character · Storyborn, Hero, Robot, Super","c":4,"k":1,"s":3,"w":4,"l":1},"tcg":723001,"grp":23234,"idx":7},
+    {"id":"006","section":"main","num":"6","printed":"6/DIS","code":"6","name":"Mickey Mouse - Amber Champion","rarity":"P","ctype":"amber","keywords":"Mickey Mouse & Friends Dreamborn Hero Character Amber Lisa Parfenova","stats":{"i":"Amber","t":"Character · Dreamborn, Hero","c":4,"k":1,"s":2,"w":5,"l":1},"foil":true,"tcg":712042,"grp":23234,"note":"Disney parks and stores","idx":4},
+    {"id":"007","section":"main","num":"7","printed":"7/DIS","code":"7","name":"Elsa - The Fifth Spirit","rarity":"P","ctype":"amethyst","keywords":"Frozen Dreamborn Hero Queen Sorcerer Rush Evasive Character Amethyst Lisanne Koeteeuw","stats":{"i":"Amethyst","t":"Character · Dreamborn, Hero, Queen, Sorcerer","c":5,"k":1,"s":2,"w":5,"l":1},"foil":true,"tcg":712044,"grp":23234,"note":"Disney parks and stores","idx":5},
+    {"id":"008","section":"main","num":"8","printed":"8/DIS","code":"8","name":"Buzz Lightyear - Providing Cover","rarity":"P","ctype":"emerald","keywords":"Toy Story Storyborn Hero Toy Captain Character Emerald Marcel Berg","stats":{"i":"Emerald","t":"Character · Storyborn, Hero, Toy, Captain","c":4,"k":0,"s":4,"w":2,"l":2},"foil":true,"tcg":712043,"grp":23234,"note":"Disney parks and stores","idx":6}
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "id": "lorcana/promo-set-2",
+  "game": "lorcana",
+  "slug": "promo-set-2",
+  "name": "Promo Set 2",
+  "series": "2024",
+  "kind": "promo",
+  "code": "IP2",
+  "syncKey": "IP2",
+  "released": "2024-08-09",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Promos",
+      "range": "1/P2–36/P2",
+      "tier": "standard",
+      "display": {
+        "number": "{printed}",
+        "label": "{printed}",
+        "list": "{printed} {name}",
+        "chip": "{printed} {name}",
+        "search": "Lorcana {name} {printed} promo"
+      }
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Promos"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-5, 12, 8x2",
+    "example": "1-5, 8x2",
+    "hint": "Separate with commas or spaces. Use the promo numbers: <b>1-5</b> is a range and <b>8x2</b> is two copies.",
+    "empty": "Promos run from 1/P2 to 36/P2."
+  },
+  "info": {
+    "packSections": [],
+    "sectionText": {}
+  },
+  "seo": {
+    "title": "Disney Lorcana Promo Set 2 Checklist · All 38 Cards",
+    "description": "Free checklist for the 38 Disney Lorcana Promo Set 2 cards, with images, prices and binder pages. No ads, no sign-up, no tracking.",
+    "ogTitle": "Disney Lorcana Promo Set 2 Checklist",
+    "ogDescription": "Track all 38 Disney Lorcana Promo Set 2 cards. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About the Promo Set 2",
+    "paragraphs": [
+      "Promo Set 2 lists the 38 Disney Lorcana promo cards numbered 1/P2 to 36/P2, from products and promotions and organised play.",
+      "They come from Disney Villainous: Introduction to Evil boardgame, Products and promotions, Organised play, Stitch Gift Set, Into the Inklands bundle, Lilo Gift Set, Moana 2 release and ’Illumineer’s Quest: Palace Heist’ victory card.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details come from LorcanaJSON, card images from Lorcast and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "lorcana": "P2",
+    "tcgplayer": [
+      23234,
+      17690,
+      23305
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"1","printed":"1/P2","code":"1","name":"Prince John - Gold Lover","rarity":"P","ctype":"sapphire","keywords":"Robin Hood Storyborn Villain Prince Character Sapphire Yuri Cameirana","stats":{"i":"Sapphire","t":"Character · Storyborn, Villain, Prince","c":4,"k":1,"s":3,"w":4,"l":1},"foil":true,"tcg":556435,"grp":23234,"note":"Disney Villainous: Introduction to Evil boardgame","idx":0},
+    {"id":"002","section":"main","num":"2","printed":"2/P2","code":"2","name":"Kristoff - Reindeer Keeper","rarity":"P","ctype":"amber","keywords":"Frozen Dreamborn Ally Bodyguard Character Amber Jochem Van Gool","stats":{"i":"Amber","t":"Character · Dreamborn, Ally","c":9,"k":0,"s":3,"w":7,"l":3},"foil":true,"tcg":555689,"grp":23234,"note":"Products and promotions","idx":1},
+    {"id":"003","section":"main","num":"3","printed":"3/P2","code":"3","name":"Nala - Mischievous Cub","rarity":"P","ctype":"amber","keywords":"The Lion King Storyborn Ally Character Amber Shannon Hallstein","stats":{"i":"Amber","t":"Character · Storyborn, Ally","c":1,"k":1,"s":0,"w":4,"l":1},"foil":true,"tcg":561996,"grp":23234,"note":"Organised play","idx":2},
+    {"id":"004","section":"main","num":"4","printed":"4/P2","code":"4","name":"Finders Keepers","rarity":"P","ctype":"amethyst","keywords":"Aladdin Action Amethyst Andy Estrada / Stefano Zanchi","stats":{"i":"Amethyst","t":"Action","c":5,"k":1},"foil":true,"tcg":561997,"grp":23234,"note":"Organised play","idx":3},
+    {"id":"005","section":"main","num":"5","printed":"5/P2","code":"5","name":"Chicha - Dedicated Mother","rarity":"P","ctype":"sapphire","keywords":"The Emperor's New Groove Storyborn Ally Support Character Sapphire Grace Tran","stats":{"i":"Sapphire","t":"Character · Storyborn, Ally","c":2,"k":0,"s":2,"w":1,"l":1},"foil":true,"tcg":561998,"grp":23234,"note":"Organised play","idx":4},
+    {"id":"006","section":"main","num":"6","printed":"6/P2","code":"6","name":"Stitch - Team Underdog","rarity":"P","ctype":"steel","keywords":"Lilo & Stitch Storyborn Hero Alien Character Steel Karen Hallion","stats":{"i":"Steel","t":"Character · Storyborn, Hero, Alien","c":4,"k":0,"s":1,"w":4,"l":1},"foil":true,"tcg":561999,"grp":23234,"note":"Organised play","idx":5},
+    {"id":"007","section":"main","num":"7","printed":"7/P2","code":"7","name":"Mirabel Madrigal - Family Gatherer","rarity":"P","ctype":"amber","keywords":"Encanto Storyborn Hero Madrigal Character Amber Hyuna Lee","stats":{"i":"Amber","t":"Character · Storyborn, Hero, Madrigal","c":5,"k":1,"s":5,"w":5,"l":5},"foil":true,"tcg":561210,"grp":23234,"note":"Organised play","idx":6},
+    {"id":"008","section":"main","num":"8","printed":"8/P2","code":"8","name":"Stitch - Alien Buccaneer","rarity":"P","ctype":"emerald","keywords":"Lilo & Stitch Floodborn Hero Alien Pirate Shift Character Emerald Cristian Romero","stats":{"i":"Emerald","t":"Character · Floodborn, Hero, Alien, Pirate","c":4,"k":0,"s":3,"w":4,"l":2},"foil":true,"tcg":578236,"grp":23234,"note":"Stitch Gift Set","idx":7},
+    {"id":"009","section":"main","num":"9","printed":"9/P2","code":"9","name":"Aladdin - Intrepid Commander","rarity":"P","ctype":"ruby","keywords":"Aladdin Floodborn Hero Prince Shift Character Ruby Alice Pisoni","stats":{"i":"Ruby","t":"Character · Floodborn, Hero, Prince","c":4,"k":1,"s":1,"w":4,"l":2},"foil":true,"tcg":588076,"grp":23234,"note":"Products and promotions","idx":8},
+    {"id":"010","section":"main","num":"10","printed":"10/P2","code":"10","name":"Rescue Rangers Away!","rarity":"P","ctype":"amber","keywords":"Chip 'n Dale: Rescue Rangers Action Amber Mariana Moreno","stats":{"i":"Amber","t":"Action","c":2,"k":1},"foil":true,"tcg":593836,"grp":23234,"note":"Organised play","idx":9},
+    {"id":"011","section":"main","num":"11","printed":"11/P2","code":"11","name":"Honey Lemon - Chemical Genius","rarity":"P","ctype":"emerald","keywords":"Big Hero 6 Storyborn Hero Inventor Character Emerald Aristeidis Zentelis","stats":{"i":"Emerald","t":"Character · Storyborn, Hero, Inventor","c":2,"k":1,"s":1,"w":1,"l":2},"foil":true,"tcg":593833,"grp":23234,"note":"Organised play","idx":10},
+    {"id":"012","section":"main","num":"12","printed":"12/P2","code":"12","name":"Minnie Mouse - Pirate Lookout","rarity":"P","ctype":"ruby","keywords":"Mickey Mouse & Friends Dreamborn Hero Pirate Character Ruby Alice Pisoni","stats":{"i":"Ruby","t":"Character · Dreamborn, Hero, Pirate","c":3,"k":0,"s":3,"w":2,"l":1},"foil":true,"tcg":593834,"grp":23234,"note":"Organised play","idx":11},
+    {"id":"013","section":"main","num":"13","printed":"13/P2","code":"13","name":"Wasabi - Methodical Engineer","rarity":"P","ctype":"sapphire","keywords":"Big Hero 6 Storyborn Hero Inventor Character Sapphire Taraneh","stats":{"i":"Sapphire","t":"Character · Storyborn, Hero, Inventor","c":4,"k":1,"s":3,"w":3,"l":1},"foil":true,"tcg":593835,"grp":23234,"note":"Organised play","idx":12},
+    {"id":"014","section":"main","num":"14","printed":"14/P2","code":"14","name":"Scar - Heartless Hunter","rarity":"P","ctype":"ruby","keywords":"The Lion King Storyborn Villain Character Ruby Alexandria Neonakis","stats":{"i":"Ruby","t":"Character · Storyborn, Villain","c":5,"k":0,"s":4,"w":2,"l":3},"foil":true,"tcg":593837,"grp":23234,"note":"Organised play","idx":13},
+    {"id":"015","section":"main","num":"15","printed":"15/P2","code":"15","name":"Mickey Mouse - True Friend","rarity":"P","ctype":"amber","keywords":"Storyborn Hero Character Amber","stats":{"i":"Amber","t":"Character · Storyborn, Hero","c":3,"k":1,"s":3,"w":3,"l":2},"tcg":616373,"grp":23234,"idx":35},
+    {"id":"016","section":"main","num":"16","printed":"16/P2","code":"16","name":"Elsa - Queen Regent","rarity":"P","ctype":"amethyst","keywords":"Storyborn Hero Queen Sorcerer Character Amethyst","stats":{"i":"Amethyst","t":"Character · Storyborn, Hero, Queen, Sorcerer","c":4,"k":1,"s":4,"w":4,"l":1},"tcg":647091,"grp":23234,"idx":36},
+    {"id":"017","section":"main","num":"17","printed":"17/P2","code":"17","name":"Anna - Braving the Storm","rarity":"P","ctype":"sapphire","keywords":"Dreamborn Hero Queen Character Sapphire","stats":{"i":"Sapphire","t":"Character · Dreamborn, Hero, Queen","c":2,"k":1,"s":1,"w":4,"l":1},"tcg":636354,"grp":23234,"idx":37},
+    {"id":"018","section":"main","num":"18","printed":"18/P2","code":"18","name":"Mickey Mouse - Pirate Captain","rarity":"P","ctype":"ruby","keywords":"Mickey Mouse & Friends Floodborn Hero Pirate Captain Shift Character Ruby Koni","stats":{"i":"Ruby","t":"Character · Floodborn, Hero, Pirate, Captain","c":5,"k":1,"s":4,"w":4,"l":2},"foil":true,"tcg":614149,"grp":23234,"note":"Into the Inklands bundle","idx":14},
+    {"id":"019","section":"main","num":"19","printed":"19/P2","code":"19","name":"Anna - Ice Breaker","rarity":"P","ctype":"dual","keywords":"Frozen Dreamborn Hero Queen Sorcerer Support Character Amethyst Sapphire Ian MacDonald","stats":{"i":"Amethyst and Sapphire","t":"Character · Dreamborn, Hero, Queen, Sorcerer","c":4,"k":1,"s":2,"w":3,"l":2},"foil":true,"tcg":622945,"grp":23234,"note":"Products and promotions","idx":15},
+    {"id":"020","section":"main","num":"20","printed":"20/P2","code":"20","name":"Kronk - Laid Back","rarity":"P","ctype":"dual","keywords":"The Emperor's New Groove Storyborn Ally Ward Character Amethyst Emerald Tony Bancroft / Lindsay Weyman","stats":{"i":"Amethyst and Emerald","t":"Character · Storyborn, Ally","c":5,"k":0,"s":4,"w":4,"l":2},"foil":true,"tcg":620242,"grp":23234,"note":"Organised play","idx":16},
+    {"id":"021","section":"main","num":"21","printed":"21/P2","code":"21","name":"Perdita - Playful Mother","rarity":"P","ctype":"dual","keywords":"101 Dalmatians Storyborn Hero Character Amber Sapphire Cécile Carre","stats":{"i":"Amber and Sapphire","t":"Character · Storyborn, Hero","c":4,"k":1,"s":1,"w":4,"l":2},"foil":true,"tcg":620243,"grp":23234,"note":"Organised play","idx":17},
+    {"id":"022","section":"main","num":"22","printed":"22/P2","code":"22","name":"Li Shang - Newly Promoted","rarity":"P","ctype":"dual","keywords":"Mulan Storyborn Hero Captain Character Ruby Steel Ian MacDonald","stats":{"i":"Ruby and Steel","t":"Character · Storyborn, Hero, Captain","c":3,"k":0,"s":2,"w":3,"l":1},"foil":true,"tcg":620272,"grp":23234,"note":"Organised play","idx":18},
+    {"id":"023","section":"main","num":"23","printed":"23/P2","code":"23","name":"Snow White - Fairest in the Land","rarity":"P","ctype":"amber","keywords":"Snow White and the Seven Dwarfs Storyborn Hero Princess Character Amber Mario Manzanares","stats":{"i":"Amber","t":"Character · Storyborn, Hero, Princess","c":4,"k":1,"s":2,"w":2,"l":2},"foil":true,"tcg":620274,"grp":23234,"note":"Organised play","idx":19},
+    {"id":"024a","section":"main","num":"24A","printed":"24A/P2","code":"24A","name":"Hiro Hamada - Armor Designer","rarity":"P","ctype":"dual","keywords":"Big Hero 6 Floodborn Hero Inventor Shift Character Emerald Sapphire Max Grecke","stats":{"i":"Emerald and Sapphire","t":"Character · Floodborn, Hero, Inventor","c":7,"k":1,"s":4,"w":6,"l":3},"tcg":620277,"grp":23234,"note":"Organised play","idx":20},
+    {"id":"024b","section":"main","num":"24B","printed":"24B/P2","code":"24B","name":"Hiro Hamada - Armor Designer","rarity":"P","ctype":"dual","keywords":"Big Hero 6 Floodborn Hero Inventor Shift Character Emerald Sapphire Max Grecke","stats":{"i":"Emerald and Sapphire","t":"Character · Floodborn, Hero, Inventor","c":7,"k":1,"s":4,"w":6,"l":3},"foil":true,"tcg":620276,"grp":23234,"note":"Organised play","idx":21},
+    {"id":"025","section":"main","num":"25","printed":"25/P2","code":"25","name":"Lilo - Escape Artist","rarity":"P","ctype":"amber","keywords":"Lilo & Stitch Storyborn Hero Character Amber Grace Tran","stats":{"i":"Amber","t":"Character · Storyborn, Hero","c":2,"k":1,"s":1,"w":2,"l":2},"foil":true,"tcg":619355,"grp":23234,"note":"Lilo Gift Set","idx":22},
+    {"id":"026","section":"main","num":"26","printed":"26/P2","code":"26","name":"Moana - Adventurer of Land and Sea","rarity":"P","ctype":"sapphire","keywords":"Moana Storyborn Hero Princess Character Sapphire Anna Stosik","stats":{"i":"Sapphire","t":"Character · Storyborn, Hero, Princess","c":3,"k":1,"s":1,"w":6,"l":1},"foil":true,"tcg":601112,"grp":23234,"note":"Moana 2 release","idx":23},
+    {"id":"026-vaiana","section":"main","num":"26","printed":"26/P2","name":"Vaiana - Adventurer of Land and Sea","rarity":"P","ctype":"sapphire","keywords":"Moana Storyborn Hero Princess Character Sapphire Anna Stosik","stats":{"i":"Sapphire","t":"Character · Storyborn, Hero, Princess","c":3,"k":1,"s":1,"w":6,"l":1},"foil":true,"tcg":601112,"grp":23234,"note":"Moana 2 release","idx":24},
+    {"id":"027","section":"main","num":"27","printed":"27/P2","code":"27","name":"Pluto - Tried and True","rarity":"P","ctype":"dual","keywords":"Mickey Mouse & Friends Storyborn Ally Character Amber Steel Raquel Villanueva","stats":{"i":"Amber and Steel","t":"Character · Storyborn, Ally","c":6,"k":1,"s":2,"w":7,"l":2},"foil":true,"tcg":648265,"grp":23234,"note":"Products and promotions","idx":25},
+    {"id":"028","section":"main","num":"28","printed":"28/P2","code":"28","name":"Lady - Decisive Dog","rarity":"P","ctype":"dual","keywords":"Lady and the Tramp Storyborn Hero Character Amber Emerald Therese Vildefall","stats":{"i":"Amber and Emerald","t":"Character · Storyborn, Hero","c":1,"k":1,"s":0,"w":3,"l":1},"foil":true,"tcg":638040,"grp":23234,"note":"Organised play","idx":26},
+    {"id":"029","section":"main","num":"29","printed":"29/P2","code":"29","name":"Aladdin - Vigilant Guard","rarity":"P","ctype":"dual","keywords":"Aladdin Dreamborn Hero Prince Bodyguard Character Sapphire Steel Marcel Berg","stats":{"i":"Sapphire and Steel","t":"Character · Dreamborn, Hero, Prince","c":6,"k":1,"s":1,"w":9,"l":1},"foil":true,"tcg":643122,"grp":23234,"note":"Organised play","idx":27},
+    {"id":"030","section":"main","num":"30","printed":"30/P2","code":"30","name":"Patch - Playful Pup","rarity":"P","ctype":"dual","keywords":"101 Dalmatians Storyborn Puppy Ward Character Amber Sapphire Oggy Christiansson","stats":{"i":"Amber and Sapphire","t":"Character · Storyborn, Puppy","c":1,"k":0,"s":0,"w":2,"l":1},"foil":true,"tcg":647092,"grp":23234,"note":"Organised play","idx":28},
+    {"id":"031","section":"main","num":"31","printed":"31/P2","code":"31","name":"Pull the Lever!","rarity":"P","ctype":"dual","keywords":"The Emperor's New Groove Action Amethyst Emerald Mario Manzanares","stats":{"i":"Amethyst and Emerald","t":"Action","c":3,"k":1},"foil":true,"tcg":637635,"grp":23234,"note":"Organised play","idx":29},
+    {"id":"032","section":"main","num":"32","printed":"32/P2","code":"32","name":"Jafar - High Sultan of Lorcana","rarity":"P","ctype":"dual","keywords":"Aladdin Dreamborn Villain King Sorcerer Character Amethyst Steel John Loren / Cristian Romero","stats":{"i":"Amethyst and Steel","t":"Character · Dreamborn, Villain, King, Sorcerer","c":5,"k":0,"s":4,"w":4,"l":3},"tcg":634260,"grp":23234,"note":"Organised play","idx":30},
+    {"id":"033","section":"main","num":"33","printed":"33/P2","code":"33","name":"Jafar - High Sultan of Lorcana","rarity":"P","ctype":"dual","keywords":"Aladdin Dreamborn Villain King Sorcerer Character Amethyst Steel John Loren / Cristian Romero","stats":{"i":"Amethyst and Steel","t":"Character · Dreamborn, Villain, King, Sorcerer","c":5,"k":0,"s":4,"w":4,"l":3},"foil":true,"tcg":634261,"grp":23234,"note":"Organised play","idx":31},
+    {"id":"034","section":"main","num":"34","printed":"34/P2","code":"34","name":"Archimedes - Resourceful Owl","rarity":"P","ctype":"emerald","keywords":"The Sword in the Stone Storyborn Ally Character Emerald Luis Huerta","stats":{"i":"Emerald","t":"Character · Storyborn, Ally","c":3,"k":1,"s":2,"w":2,"l":2},"foil":true,"tcg":648600,"grp":23234,"note":"’Illumineer’s Quest: Palace Heist’ victory card","idx":32},
+    {"id":"035","section":"main","num":"35","printed":"35/P2","code":"35","name":"Minnie Mouse - Daring Defender","rarity":"P","ctype":"dual","keywords":"Mickey Mouse & Friends Dreamborn Hero Bodyguard Character Amber Ruby Aubrey Archer","stats":{"i":"Amber and Ruby","t":"Character · Dreamborn, Hero","c":4,"k":1,"s":0,"w":8,"l":1},"foil":true,"tcg":644838,"grp":23234,"note":"Products and promotions","idx":33},
+    {"id":"036","section":"main","num":"36","printed":"36/P2","code":"36","name":"Mickey Mouse - True Friend","rarity":"P","ctype":"amber","keywords":"Mickey Mouse & Friends Storyborn Hero Character Amber Dave Beauchene","stats":{"i":"Amber","t":"Character · Storyborn, Hero","c":3,"k":1,"s":3,"w":3,"l":2},"foil":true,"tcg":653906,"grp":23234,"note":"Products and promotions","idx":34}
+  ]
+}

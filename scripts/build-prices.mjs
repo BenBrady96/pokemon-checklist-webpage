@@ -148,7 +148,7 @@ await mapLimit(entries, 4, async (entry) => {
     console.error(`${entry.id}: ${err.message}`);
   }
 });
-for (const entry of [...entries.filter((e) => e.guide), ...COMING_SOON.filter(picked)]) {
+for (const entry of [...entries.filter((e) => e.guide), ...COMING_SOON.filter(picked)].filter((e) => e.guide.products.length)) {
   try {
     await priceSealed(entry, { updated: day, rates });
   } catch (err) {

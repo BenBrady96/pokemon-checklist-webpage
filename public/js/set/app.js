@@ -463,7 +463,7 @@ const setText = (selector, text) => {
 async function prepareMenu() {
   const last = store.getPrefs().lastBackup;
   setText('[data-last-backup]', last ? `Last backup ${formatAgo(last)}` : 'A set or your whole collection, as a link, code, QR code or file');
-  const supported = offlineSupported();
+  const supported = offlineSupported() && COLLECTION.game.OFFLINE_IMAGES !== false;
   for (const item of document.querySelectorAll('[data-offline-item]')) item.hidden = !supported;
   if (supported) {
     const urls = imageUrls();
@@ -708,6 +708,7 @@ function buildFilterChips() {
     .map(([id, t]) => `<button type="button" class="chip" data-filter-toggle="ctype" data-value="${id}"><span>${t.name}</span><span class="chip__count" data-ctype-count="${id}"></span></button>`)
     .join('');
   document.getElementById('ctype-field').hidden = ctypeChips.length < 2;
+  document.querySelector('#ctype-field .field__label').textContent = COLLECTION.game.CARD_TYPE_LABEL || 'Card type';
 }
 
 function fillHelp() {

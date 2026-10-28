@@ -13,7 +13,7 @@ export default {
   rootText: 'every English set from Base Set to Mega Evolution, with reverse holos, promos and secret rares.',
   aboutTitle: 'About Binder Tracker',
   about: [
-    'Binder Tracker is a free Pokémon card checklist and collection tracker. Every English Pokémon TCG expansion from Base Set to Mega Evolution has its own checklist, with card images, rarities and TCGplayer prices, plus the Black Star promos, trainer kits, McDonald’s collections, World Championships Decks and more.',
+    'Binder Tracker is a free card checklist and collection tracker for trading card games, Pokémon included. Every English Pokémon TCG expansion from Base Set to Mega Evolution has its own checklist, with card images, rarities and TCGplayer prices, plus the Black Star promos, trainer kits, McDonald’s collections, World Championships Decks and more.',
     'Pick what you’re collecting in each set: the <b>Standard set</b> (the main set), the <b>Master set</b> (the main set plus each reverse holo and Poké Ball or Master Ball pattern) or the <b>Grand Master set</b> (every card, adding the secret rares).',
     'Scan a card with your camera to add it, count your duplicates, see what your collection is worth in pounds, dollars or euros, and swap trade codes with friends to check a trade is fair.',
     'There are <b>no ads, no sign-up and no tracking</b>. Your collection stays on your device, it works on phones and computers even offline, and <b>Export or share</b> moves it to another device as a link, code, QR code or file.',

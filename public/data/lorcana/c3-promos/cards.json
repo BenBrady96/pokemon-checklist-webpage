@@ -1,0 +1,75 @@
+{
+  "id": "lorcana/c3-promos",
+  "game": "lorcana",
+  "slug": "c3-promos",
+  "name": "C3 Promos",
+  "series": "2026",
+  "kind": "promo",
+  "code": "IC3",
+  "syncKey": "IC3",
+  "released": "2026-10-01",
+  "rarities": [
+    {
+      "id": "P",
+      "icon": "l-promo-op"
+    }
+  ],
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Promos",
+      "range": "1/C3–13/C3",
+      "tier": "standard",
+      "display": {
+        "number": "{printed}",
+        "label": "{printed}",
+        "list": "{printed} {name}",
+        "chip": "{printed} {name}",
+        "search": "Lorcana {name} {printed} promo"
+      }
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Promos"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-5, 12, 8x2",
+    "example": "1-5, 8x2",
+    "hint": "Separate with commas or spaces. Use the promo numbers: <b>1-5</b> is a range and <b>8x2</b> is two copies.",
+    "empty": "Promos run from 1/C3 to 13/C3."
+  },
+  "info": {
+    "packSections": [],
+    "sectionText": {}
+  },
+  "seo": {
+    "title": "Disney Lorcana C3 Promos Checklist · All 2 Cards",
+    "description": "Free checklist for the 2 Disney Lorcana C3 Promos cards, with images, prices and binder pages. No ads, no sign-up, no tracking.",
+    "ogTitle": "Disney Lorcana C3 Promos Checklist",
+    "ogDescription": "Track all 2 Disney Lorcana C3 Promos cards. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About the C3 Promos",
+    "paragraphs": [
+      "C3 Promos lists the 2 Disney Lorcana promo cards numbered 1/C3 to 13/C3.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details come from LorcanaJSON, card images from Lorcast and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "lorcana": "C3",
+    "tcgplayer": [
+      23234,
+      17690,
+      23305
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"1","printed":"1/C3","code":"1","name":"Mother Knows Best","rarity":"P","ctype":"emerald","keywords":"Song Action Emerald","stats":{"i":"Emerald","t":"Action · Song","c":3,"k":0},"tcg":711519,"grp":23234,"idx":0},
+    {"id":"013","section":"main","num":"13","printed":"13/C3","code":"13","name":"Mother Knows Best","rarity":"P","ctype":"emerald","keywords":"Song Action Emerald","stats":{"i":"Emerald","t":"Action · Song","c":3,"k":0},"foil":true,"tcg":711520,"grp":23234,"idx":1}
+  ]
+}

@@ -109,7 +109,7 @@ function faqHtml(model, sections) {
   const rarities = rarityRows(model, model.cards.filter((c) => !c.variant));
   if (rarities.length > 1) items.push([`What rarities are in ${name}?`, `<p>Counting each card once, without ${variantMany}:</p>${tally(rarities)}`]);
   if (model.released && !['promo', 'energy'].includes(model.kind)) {
-    const series = model.kind === 'expansion' && model.series && model.series !== 'Other' ? `, as part of the ${escapeHtml(model.series)} ${model.game.SERIES_NOUN || 'series'}` : '';
+    const series = model.kind === 'expansion' && model.series && model.series !== 'Other' && model.game.SERIES_NOUN !== 'year' ? `, as part of the ${escapeHtml(model.series)} ${model.game.SERIES_NOUN || 'series'}` : '';
     items.push([`When did ${name} come out?`, `<p>${name} was released on ${longDate(model.released)}${series}.</p>`]);
   }
   items.push([`Is this ${name} checklist free?`, '<p>Yes. Binder Tracker is free, with <b>no ads, no sign-up and no tracking</b>. Your collection is saved on your own device and works offline, and <b>Export or share</b> moves it to another device as a link, code, QR code or file.</p>']);
@@ -129,11 +129,15 @@ const SHORT_DATE = new Intl.DateTimeFormat('en-GB', { day: 'numeric', month: 'sh
 const retailPrice = (amount, currency) => new Intl.NumberFormat('en-GB', { style: 'currency', currency: currency.toUpperCase() }).format(amount);
 const sealedPrices = (id) => readJson(join(dataDir(id), 'sealed.json'));
 const isOut = (guide, today) => today >= guide.released;
+const whenText = (guide, out, format = DAY_DATE) => (guide.releaseWindow && !out ? `comes out ${guide.releaseWindow.long}` : `${out ? 'came' : 'comes'} out on ${format.format(utcDate(guide.released))}`);
+const whenShort = (guide) => guide.releaseWindow?.short || SHORT_DATE.format(utcDate(guide.released));
+const guideTopic = (guide) => (guide.products.length ? 'release date, products and prices' : 'release date and what we know so far');
 
 const sourceListHtml = (sources) => `<ol class="guide-sources">${sources.map((s) => `<li id="source-${s.id}">${escapeHtml(s.publisher)}: <a href="${escapeHtml(s.url)}" rel="noopener">${escapeHtml(s.title)}</a>${s.date ? `, ${longDate(s.date)}` : ''}</li>`).join('')}</ol>`;
 
-function articleJsonLd({ url, siteUrl, crumb, headline, description, image, published, modified }) {
+function articleJsonLd({ url, siteUrl, crumb, parent, headline, description, image, published, modified }) {
   const publisher = { '@type': 'Organization', name: 'Binder Tracker', url: siteUrl };
+  const crumbs = [{ name: 'Binder Tracker', item: siteUrl }, ...(parent ? [parent] : []), { name: crumb, item: url }];
   return {
     '@context': 'https://schema.org',
     '@graph': [
@@ -144,10 +148,7 @@ function articleJsonLd({ url, siteUrl, crumb, headline, description, image, publ
       },
       {
         '@type': 'BreadcrumbList', '@id': `${url}#breadcrumb`,
-        itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Binder Tracker', item: siteUrl },
-          { '@type': 'ListItem', position: 2, name: crumb, item: url },
-        ],
+        itemListElement: crumbs.map((c, i) => ({ '@type': 'ListItem', position: i + 1, name: c.name, item: c.item })),
       },
       {
         '@type': 'Article', '@id': `${url}#article`, headline, description, image, inLanguage: 'en-GB',
@@ -198,6 +199,10 @@ function guideSectionsHtml(entry, sealed, { today, sub = false, parts }) {
         + `<ol class="card-index__list guide-cards">${guide.previews.map((c) => `<li><span>No. ${c.num}</span> ${escapeHtml(c.name)}${c.rarity ? ` <small>${escapeHtml(c.rarity)}</small>` : ''}</li>`).join('')}</ol>`;
     },
     products: () => {
+      if (!guide.products.length) {
+        return heading('guide-products', `${name} products`)
+          + `<p>No ${name} products have been announced yet. They’ll be listed here, with what’s inside each one and its price, as soon as they are.</p>`;
+      }
       const notes = [];
       if (productsSource) notes.push(`What’s inside each product comes from ${escapeHtml(productsSource.publisher)}’s product listings${cite.link(productsSource.id)}.`);
       if (hasRetail) notes.push('Shop prices are official retail prices from the store named.');
@@ -216,7 +221,7 @@ function guideSectionsHtml(entry, sealed, { today, sub = false, parts }) {
     japanese: () => guide.japanese?.length && heading('guide-japan', `${name} in Japan`) + paragraphs(guide.japanese),
     faq: () => {
       const items = [
-        [`When ${out ? 'did' : 'does'} ${name} come out?`, `${name} ${out ? 'came' : 'comes'} out on ${DAY_DATE.format(utcDate(guide.released))}${cite.link(guide.releaseSource)}.`],
+        [`When ${out ? 'did' : 'does'} ${name} come out?`, `${name} ${whenText(guide, out)}${cite.link(guide.releaseSource)}.${guide.releaseWindow && !out ? ' The exact date hasn’t been announced yet.' : ''}`],
         [`Is there a ${name} checklist?`, `Yes. Binder Tracker’s free ${name} checklist opens on this page as soon as the full card list is published. Like every checklist here, it has <b>no ads, no sign-up and no tracking</b>, works offline and keeps your collection on your own device.`],
         ...(guide.faq || []).map(({ q, a }) => [q, cite.text(a)]),
       ];
@@ -231,19 +236,20 @@ function guideSectionsHtml(entry, sealed, { today, sub = false, parts }) {
 
 const linkMeta = (c, today) => {
   if (!c.soon) return `${releaseText(c.released)} · ${c.total} cards`;
-  return `${today >= c.released ? 'Out now' : `Out ${SHORT_DATE.format(utcDate(c.released))}`} · checklist coming soon`;
+  return `${today >= c.released ? 'Out now' : `Out ${c.when || SHORT_DATE.format(utcDate(c.released))}`} · checklist coming soon`;
 };
 const setLinkHtml = (c, today) => `<li><a href="${c.id}/">${escapeHtml(c.name)}</a> <small>${linkMeta(c, today)}</small></li>`;
 
 function moreSetsHtml(entry, catalog) {
-  const sets = (catalog?.collections || [])
-    .filter((c) => c.game === entry.game && c.series === entry.series && c.kind === 'expansion')
+  const expansions = (catalog?.collections || []).filter((c) => c.game === entry.game && c.kind === 'expansion');
+  const inSeries = expansions.filter((c) => c.series === entry.series);
+  const sets = (inSeries.length ? inSeries : expansions)
     .sort((a, b) => b.released.localeCompare(a.released))
     .slice(0, 6);
   if (!sets.length) return '';
-  const series = escapeHtml(entry.series);
+  const series = escapeHtml(inSeries.length ? entry.series : GAMES[entry.game].name);
   return `<h2 id="guide-more">More ${series} checklists</h2>`
-    + `<p>These ${series} sets already have free checklists:</p>`
+    + `<p>These ${inSeries.length ? `${series} ` : ''}sets already have free checklists:</p>`
     + `<ul class="guide-more">${sets.map((c) => setLinkHtml(c)).join('')}</ul>`;
 }
 
@@ -253,7 +259,7 @@ const byRelease = (a, b) => a.released.localeCompare(b.released) || a.name.local
 function relatedSetsHtml(id, catalog, today) {
   const current = catalog?.collections.find((c) => c.id === id);
   if (!current) return '';
-  const soon = COMING_SOON.map((e) => ({ id: e.id, game: e.game, name: e.guide.name, series: e.series, kind: 'expansion', released: e.guide.released, soon: true }));
+  const soon = COMING_SOON.map((e) => ({ id: e.id, game: e.game, name: e.guide.name, series: e.series, kind: 'expansion', released: e.guide.released, when: e.guide.releaseWindow?.short, soon: true }));
   const pool = [...catalog.collections.filter((c) => c.total > 0), ...soon].filter((c) => c.game === current.game && c.id !== id);
   const inSeries = pool.filter((c) => c.series === current.series);
   const others = inSeries.length ? inSeries : pool.filter((c) => c.kind === current.kind);
@@ -290,16 +296,21 @@ export async function comingSoonPage(entry, { siteUrl = DEFAULT_URL, today = iso
   const cite = citations(guide);
   const name = escapeHtml(guide.name);
   const seo = guide.seo || {};
-  const headline = `${game.name} ${guide.name}: release date, products and prices`;
-  const title = seo.title || `${game.name} ${guide.name} Release Date, Products & Prices · Checklist Coming Soon`;
-  const description = seo.description || `${game.name} ${guide.name} ${out ? 'came' : 'comes'} out on ${longDate(guide.released)}. Every product, what’s inside and today’s prices, plus a free checklist at launch with no ads, no sign-up and no tracking.`;
+  const topic = guideTopic(guide);
+  const headline = `${game.name} ${guide.name}: ${topic}`;
+  const title = seo.title || (guide.products.length
+    ? `${game.name} ${guide.name} Release Date, Products & Prices · Checklist Coming Soon`
+    : `${game.name} ${guide.name} Release Date & What We Know · Checklist Coming Soon`);
+  const description = seo.description || (guide.products.length
+    ? `${game.name} ${guide.name} ${whenText(guide, out, LONG_DATE)}. Every product, what’s inside and today’s prices, plus a free checklist at launch with no ads, no sign-up and no tracking.`
+    : `${game.name} ${guide.name} ${whenText(guide, out, LONG_DATE)}. Everything revealed so far, plus a free checklist at launch with no ads, no sign-up and no tracking.`);
   const modified = [guide.updated, sealed?.updated].filter(Boolean).sort().at(-1);
-  const jsonLd = articleJsonLd({ url, siteUrl, crumb: `${game.name} ${guide.name}`, headline, description, image: ogImage, published: guide.published, modified });
+  const jsonLd = articleJsonLd({ url, siteUrl, crumb: guide.name, parent: { name: game.name, item: `${siteUrl}${entry.game}/` }, headline, description, image: ogImage, published: guide.published, modified });
   const body = [
     `<p class="guide-kicker"><span class="soon-pill">${out ? 'Out now · checklist coming soon' : 'Checklist coming soon'}</span></p>`,
-    `<h1>${name}: release date, products and prices</h1>`,
-    `<p class="doc__updated">${escapeHtml(game.name)} · ${escapeHtml(entry.series)} series · Facts checked ${longDate(guide.updated)}</p>`,
-    `<p class="doc__lead"><b>${name} ${out ? 'came' : 'comes'} out on ${DAY_DATE.format(utcDate(guide.released))}.</b>${cite.link(guide.releaseSource)} The free ${name} checklist opens on this page as soon as the full card list is published, with no ads, no sign-up and no tracking.</p>`,
+    `<h1>${name}: ${topic}</h1>`,
+    `<p class="doc__updated">${escapeHtml(game.name)} · ${game.SERIES_NOUN === 'year' ? '' : `${escapeHtml(entry.series)} ${game.SERIES_NOUN || 'series'} · `}Facts checked ${longDate(guide.updated)}</p>`,
+    `<p class="doc__lead"><b>${name} ${whenText(guide, out)}.</b>${cite.link(guide.releaseSource)} The free ${name} checklist opens on this page as soon as the full card list is published, with no ads, no sign-up and no tracking.</p>`,
     guideSectionsHtml(entry, sealed, { today, parts: ['dates', 'about', 'previews', 'products', 'japanese', 'faq'] }),
     moreSetsHtml(entry, catalog),
     guideSectionsHtml(entry, sealed, { today, parts: ['sources'] }),
@@ -313,10 +324,11 @@ export async function comingSoonPage(entry, { siteUrl = DEFAULT_URL, today = iso
     ogDescription: description,
     twitterDescription: description,
     ogImage,
-    imageAlt: `${guide.name} release date, products and prices`,
+    imageAlt: `${guide.name} ${topic}`,
     jsonLd: jsonScript(jsonLd),
     body,
     disclaimer: game.disclaimer,
+    footerGuides: footerGuides([entry.game]),
     footerSocials,
   });
   return prefixUrls(html, '../'.repeat(entry.id.split('/').length));
@@ -359,6 +371,7 @@ export async function guidePage(guide, { siteUrl = DEFAULT_URL } = {}) {
     jsonLd: jsonScript(articleJsonLd({ url, siteUrl, crumb: guide.label, headline: guide.title, description: guide.description, image: ogImage, published: guide.published, modified: guide.updated })),
     body,
     disclaimer: game.disclaimer,
+    footerGuides: footerGuides([guide.game]),
     footerSocials,
   }).replace(`<a href="${guide.id}/">`, `<a href="${guide.id}/" aria-current="page">`);
   return prefixUrls(html, '../'.repeat(guide.id.split('/').length));
@@ -434,6 +447,7 @@ export async function collectionPage(id, { siteUrl = DEFAULT_URL, today = isoTod
     menuGuides: menuGuides([raw.game]),
     menuSocials,
     helpGuides: helpGuides([raw.game]),
+    gameSymbols: await readFile(join(TEMPLATES, 'symbols', `${raw.game}.svg`), 'utf8').catch(() => ''),
     setArt: (await exists(join(PUBLIC, `img/sets/${id}/logo.webp`))) ? `<img class="set-hero__logo" src="img/sets/${id}/logo.webp" alt="" decoding="async">` : '',
     setMeta: [`<a href="${raw.game}/">${escapeHtml(game.name)}</a>`, model.released ? releaseText(model.released) : '', `${complete} cards`].filter(Boolean).join(' · '),
   });
@@ -462,7 +476,7 @@ function soonTileHtml({ entry, logo }, today) {
     + `<span class="set-tile__art">${art}</span>`
     + '<span class="set-tile__body">'
     + `<span class="set-tile__name">${name}</span>`
-    + `<span class="set-tile__meta">${out ? 'Out now' : `Out ${SHORT_DATE.format(utcDate(guide.released))}`}</span>`
+    + `<span class="set-tile__meta">${out ? 'Out now' : `Out ${whenShort(guide)}`}</span>`
     + `<span class="set-tile__soon"><span class="soon-pill">${out ? 'Checklist coming soon' : 'Coming soon'}</span></span>`
     + '</span></a>';
 }
@@ -493,8 +507,8 @@ function collectionsHtml(catalog, values = new Map(), soon = [], today = isoToda
       const kindGroups = GAMES[game.id]?.KIND_GROUPS;
       if (kindGroups) {
         const blocks = kindGroups.map(([kind, heading]) => [heading, inSeries.filter((c) => c.kind === kind), kind === 'expansion']).filter(([, list]) => list.length);
-        body = blocks.length === 1
-          ? `<div class="set-grid">${soonTiles.join('')}${tiles(blocks[0][1])}</div>`
+        body = blocks.length <= 1
+          ? `<div class="set-grid">${soonTiles.join('')}${tiles(blocks[0]?.[1] || [])}</div>`
           : blocks.map(([heading, list, main]) => `<h4 class="home-series__sub">${escapeHtml(heading)}</h4><div class="set-grid${main ? '' : ' set-grid--small'}">${main ? soonTiles.join('') : ''}${tiles(list)}</div>`).join('');
       } else {
         const expansions = inSeries.filter((c) => c.kind === 'expansion');
@@ -557,7 +571,8 @@ export async function rootPage({ siteUrl = DEFAULT_URL } = {}) {
   const [template, catalog] = await Promise.all([readFile(join(TEMPLATES, 'index.html'), 'utf8'), loadCatalog()]);
   const games = liveGames(catalog).map((g) => g.id);
   const names = gameNames(catalog);
-  const description = `Free ${names} card checklists for every English set, with no ads, no sign-up and no tracking. Tick off your cards, chase master sets, count duplicates, scan cards with your camera and see what your collection is worth.`;
+  const description = `Free ${names} card checklists for every English set. Track master sets, duplicates and your collection’s value. No ads, no sign-up.`;
+  const ogDescription = `Free ${names} card checklists for every English set, with no ads, no sign-up and no tracking. Tick off your cards, chase master sets, count duplicates, scan cards with your camera and see what your collection is worth.`;
   const jsonLd = {
     '@context': 'https://schema.org',
     '@graph': [
@@ -585,7 +600,7 @@ export async function rootPage({ siteUrl = DEFAULT_URL } = {}) {
     title: `Free ${names} Card Checklists & Collection Tracker | Binder Tracker`,
     description,
     ogTitle: `Binder Tracker · Free ${names} Card Checklists & Collection Tracker`,
-    ogDescription: description,
+    ogDescription,
     twitterDescription: `Free checklists for every English ${names} set. No ads, no sign-up, no tracking.`,
     imageAlt: `Binder Tracker: card checklists for ${names}`,
     jsonLd: jsonScript(jsonLd),

@@ -1,0 +1,81 @@
+{
+  "id": "lorcana/rph-promos",
+  "game": "lorcana",
+  "slug": "rph-promos",
+  "name": "RPH Promos",
+  "series": "2026",
+  "kind": "promo",
+  "code": "IRPH",
+  "syncKey": "IRPH",
+  "released": "2026-10-16",
+  "rarities": [
+    {
+      "id": "P",
+      "icon": "l-promo-op"
+    }
+  ],
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Promos",
+      "range": "1/RPH–7/RPH",
+      "tier": "standard",
+      "display": {
+        "number": "{printed}",
+        "label": "{printed}",
+        "list": "{printed} {name}",
+        "chip": "{printed} {name}",
+        "search": "Lorcana {name} {printed} promo"
+      }
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Promos"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-5, 12, 8x2",
+    "example": "1-5, 8x2",
+    "hint": "Separate with commas or spaces. Use the promo numbers: <b>1-5</b> is a range and <b>8x2</b> is two copies.",
+    "empty": "Promos run from 1/RPH to 7/RPH."
+  },
+  "info": {
+    "packSections": [],
+    "sectionText": {}
+  },
+  "seo": {
+    "title": "Disney Lorcana RPH Promos Checklist · All 7 Cards",
+    "description": "Free checklist for the 7 Disney Lorcana RPH Promos cards, with images, prices and binder pages. No ads, no sign-up, no tracking.",
+    "ogTitle": "Disney Lorcana RPH Promos Checklist",
+    "ogDescription": "Track all 7 Disney Lorcana RPH Promos cards. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About the RPH Promos",
+    "paragraphs": [
+      "RPH Promos lists the 7 Disney Lorcana promo cards numbered 1/RPH to 7/RPH, from Disney Lorcana Challenge events and products and promotions.",
+      "They come from Disney Lorcana Challenge events and Products and promotions.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details come from LorcanaJSON, card images from Lorcast and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "lorcana": "RPH",
+    "tcgplayer": [
+      23234,
+      17690,
+      23305
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"1","printed":"1/RPH","code":"1","name":"Everyone Knows Juanita","rarity":"P","ctype":"amethyst","keywords":"Coco Song Action Amethyst Julian del Rey","stats":{"i":"Amethyst","t":"Action · Song","c":5,"k":0},"foil":true,"tcg":722997,"grp":23234,"note":"Disney Lorcana Challenge events","idx":0},
+    {"id":"002","section":"main","num":"2","printed":"2/RPH","code":"2","name":"Tramp - Quick on His Feet","rarity":"P","ctype":"ruby","keywords":"Lady and the Tramp Storyborn Hero Character Ruby Dani Fdez / Greg Shrader","stats":{"i":"Ruby","t":"Character · Storyborn, Hero","c":2,"k":1,"s":2,"w":2,"l":1},"foil":true,"tcg":722998,"grp":23234,"note":"Disney Lorcana Challenge events","idx":1},
+    {"id":"003","section":"main","num":"3","printed":"3/RPH","code":"3","name":"Arthur - Novice Blacksmith","rarity":"P","ctype":"steel","keywords":"The Sword in the Stone Dreamborn Hero Character Steel Leonardo Giammichele","stats":{"i":"Steel","t":"Character · Dreamborn, Hero","c":2,"k":1,"s":2,"w":3,"l":1},"foil":true,"tcg":722999,"grp":23234,"note":"Disney Lorcana Challenge events","idx":2},
+    {"id":"004","section":"main","num":"4","printed":"4/RPH","code":"4","name":"Minnie Mouse - Urban Visionary","rarity":"P","ctype":"sapphire","keywords":"Mickey Mouse & Friends Dreamborn Hero Ward Character Sapphire Federico Maria Cugliari","stats":{"i":"Sapphire","t":"Character · Dreamborn, Hero","c":8,"k":1,"s":6,"w":6,"l":3},"foil":true,"tcg":723000,"grp":23234,"note":"Products and promotions","idx":3},
+    {"id":"005","section":"main","num":"5","printed":"5/RPH","code":"5","name":"Nick Wilde - Providing Backup","rarity":"P","ctype":"amber","keywords":"Zootopia Storyborn Ally Detective Character Amber Otto Paredes","stats":{"i":"Amber","t":"Character · Storyborn, Ally, Detective","c":2,"k":1,"s":3,"w":2,"l":1},"foil":true,"tcg":723002,"grp":23234,"note":"Disney Lorcana Challenge events","idx":4},
+    {"id":"006","section":"main","num":"6","printed":"6/RPH","code":"6","name":"Honey Lemon - Testing the Limits","rarity":"P","ctype":"emerald","keywords":"Big Hero 6 Storyborn Super Hero Inventor Character Emerald Maxine Vee","stats":{"i":"Emerald","t":"Character · Storyborn, Super, Hero, Inventor","c":3,"k":1,"s":2,"w":2,"l":1},"note":"Disney Lorcana Challenge events","idx":5},
+    {"id":"007","section":"main","num":"7","printed":"7/RPH","code":"7","name":"Honey Lemon - Testing the Limits","rarity":"P","ctype":"emerald","keywords":"Big Hero 6 Storyborn Super Hero Inventor Character Emerald Maxine Vee","stats":{"i":"Emerald","t":"Character · Storyborn, Super, Hero, Inventor","c":3,"k":1,"s":2,"w":2,"l":1},"foil":true,"note":"Disney Lorcana Challenge events","idx":6}
+  ]
+}

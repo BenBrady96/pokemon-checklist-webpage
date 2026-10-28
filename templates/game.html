@@ -2,7 +2,7 @@
 <html lang="en-GB">
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'wasm-unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https://assets.tcgdex.net https://img.bindertracker.co.uk; media-src 'self' blob:; connect-src 'self' https://assets.tcgdex.net https://img.bindertracker.co.uk; worker-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self';">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'wasm-unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https://assets.tcgdex.net https://img.bindertracker.co.uk https://cards.lorcast.io; media-src 'self' blob:; connect-src 'self' https://assets.tcgdex.net https://img.bindertracker.co.uk; worker-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self';">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>{{title}}</title>
   <meta name="description" content="{{description}}">
@@ -177,7 +177,8 @@
     <div class="sheet__body menu">
       <div class="menu__group">
         <button type="button" class="menu__item" data-open="scan"><svg><use href="#i-camera"/></svg><span><b>Scan a card</b><small>Point your camera at a card to add it to its set</small></span></button>
-      </div>
+        <a class="menu__item" href="https://brtradingpost.co.uk/shop/" rel="noopener"><svg><use href="#i-bag"/></svg><span><b>Visit our shop</b><small>BR Trading Post: cards and custom painted binders</small></span></a>
+{{{menuGuides}}}      </div>
       <div class="menu__group">
         <h3 class="menu__label">Trade</h3>
         <a class="menu__item" href="trade/"><svg><use href="#i-swap"/></svg><span><b>Trade with a friend</b><small>Compare collections and check a trade is fair</small></span></a>
@@ -188,9 +189,6 @@
         <button type="button" class="menu__item" data-open="import"><svg><use href="#i-download"/></svg><span><b>Import</b><small>Open a link, code, QR code or file</small></span></button>
       </div>
 {{{menuSocials}}}
-      <div class="menu__group">
-{{{menuGuides}}}        <a class="menu__item" href="https://brtradingpost.co.uk/shop/" rel="noopener"><svg><use href="#i-bag"/></svg><span><b>Visit our shop</b><small>BR Trading Post: cards and custom painted binders</small></span></a>
-      </div>
     </div>
   </div>
 </dialog>

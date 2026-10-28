@@ -1,0 +1,73 @@
+{
+  "id": "lorcana/curators-collection-beauty-and-the-beast",
+  "game": "lorcana",
+  "slug": "curators-collection-beauty-and-the-beast",
+  "name": "Curator’s Collection: Beauty and the Beast Edition",
+  "series": "2026",
+  "kind": "promo",
+  "code": "ICC2",
+  "syncKey": "ICC2",
+  "released": "2026-10-01",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Promos",
+      "range": "1/CC2–6/CC2",
+      "tier": "standard",
+      "display": {
+        "number": "{printed}",
+        "label": "{printed}",
+        "list": "{printed} {name}",
+        "chip": "{printed} {name}",
+        "search": "Lorcana {name} {printed} promo"
+      }
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Promos"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-5, 12, 8x2",
+    "example": "1-5, 8x2",
+    "hint": "Separate with commas or spaces. Use the promo numbers: <b>1-5</b> is a range and <b>8x2</b> is two copies.",
+    "empty": "Promos run from 1/CC2 to 6/CC2."
+  },
+  "info": {
+    "packSections": [],
+    "sectionText": {}
+  },
+  "seo": {
+    "title": "Lorcana Curator’s Collection: Beauty and the Beast Checklist",
+    "description": "Free checklist for the 6 Disney Lorcana Curator’s Collection: Beauty and the Beast cards, with images, prices and binder pages. No ads, no sign-up, no tracking.",
+    "ogTitle": "Disney Lorcana Curator’s Collection: Beauty and the Beast Edition Checklist",
+    "ogDescription": "Track all 6 Disney Lorcana Curator’s Collection: Beauty and the Beast Edition cards. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About the Curator’s Collection: Beauty and the Beast Edition",
+    "paragraphs": [
+      "Curator’s Collection: Beauty and the Beast Edition lists the 6 Disney Lorcana promo cards numbered 1/CC2 to 6/CC2.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details come from LorcanaJSON, card images from Lorcast and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "lorcana": "CC2",
+    "tcgplayer": [
+      23234,
+      17690,
+      23305
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"1","printed":"1/CC2","code":"1","name":"Be Our Guest","rarity":"P","ctype":"amber","keywords":"Song Action Amber","stats":{"i":"Amber","t":"Action · Song","c":2,"k":1},"tcg":723031,"grp":23234,"idx":0},
+    {"id":"002","section":"main","num":"2","printed":"2/CC2","code":"2","name":"Mrs. Potts - Enchanted Teapot","rarity":"P","ctype":"amethyst","keywords":"Storyborn Ally Character Amethyst","stats":{"i":"Amethyst","t":"Character · Storyborn, Ally","c":4,"k":1,"s":3,"w":4,"l":2},"tcg":723034,"grp":23234,"idx":1},
+    {"id":"003","section":"main","num":"3","printed":"3/CC2","code":"3","name":"Belle - Hidden Archer","rarity":"P","ctype":"emerald","keywords":"Floodborn Hero Princess Character Emerald","stats":{"i":"Emerald","t":"Character · Floodborn, Hero, Princess","c":5,"k":0,"s":3,"w":3,"l":3},"tcg":723035,"grp":23234,"idx":2},
+    {"id":"004","section":"main","num":"4","printed":"4/CC2","code":"4","name":"Lumiere - Fiery Friend","rarity":"P","ctype":"ruby","keywords":"Dreamborn Ally Character Ruby","stats":{"i":"Ruby","t":"Character · Dreamborn, Ally","c":2,"k":1,"s":2,"w":2,"l":1},"tcg":723036,"grp":23234,"idx":3},
+    {"id":"005","section":"main","num":"5","printed":"5/CC2","code":"5","name":"Gaston - Intellectual Powerhouse","rarity":"P","ctype":"sapphire","keywords":"Floodborn Villain Character Sapphire","stats":{"i":"Sapphire","t":"Character · Floodborn, Villain","c":6,"k":0,"s":4,"w":4,"l":3},"tcg":723037,"grp":23234,"idx":4},
+    {"id":"006","section":"main","num":"6","printed":"6/CC2","code":"6","name":"Beast - Tragic Hero","rarity":"P","ctype":"steel","keywords":"Floodborn Hero Prince Character Steel","stats":{"i":"Steel","t":"Character · Floodborn, Hero, Prince","c":5,"k":1,"s":3,"w":5,"l":2},"tcg":723038,"grp":23234,"idx":5}
+  ]
+}

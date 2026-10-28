@@ -1,0 +1,21 @@
+export default {
+  title: 'Free Disney Lorcana Card Checklist & Collection Tracker',
+  description: 'Free Disney Lorcana checklists for every English set since The First Chapter. Track foils, Enchanted cards, duplicates and value. No ads, no sign-up.',
+  ogTitle: 'Binder Tracker · Free Disney Lorcana Card Checklist & Collection Tracker',
+  ogDescription: 'Free checklists for every English Disney Lorcana set, from The First Chapter to today, plus Illumineer’s Quest and promos, with no ads, no sign-up and no tracking. Track standard, master and grand master sets with foils, Epic, Enchanted and Iconic cards. Works offline.',
+  twitterDescription: 'Free checklists for every English Disney Lorcana set. No ads, no sign-up, no tracking.',
+  imageAlt: 'Binder Tracker: card checklists for Disney Lorcana sets',
+  pageName: 'Disney Lorcana TCG Checklists',
+  heroTitle: 'Every Lorcana card in your binder, <span class="brand__gold">ticked off</span>',
+  heroText: ({ expansions }) => `Free Disney Lorcana card checklists for all ${expansions} sets, from The First Chapter to today. Tick off what you own, track spare copies and see what your collection is worth. No ads, no sign-up, no tracking.`,
+  search: 'Find a set, e.g. Fabled or Hyperia City',
+  span: 'The First Chapter to today',
+  rootText: 'every English set from The First Chapter to today, with foils, Epic, Enchanted and Iconic cards, Illumineer’s Quest and promos.',
+  aboutTitle: 'About Binder Tracker',
+  about: [
+    'Binder Tracker is a free card checklist and collection tracker, with a checklist for every English Disney Lorcana set since The First Chapter. Each one has card images, rarities and TCGplayer prices, and there are checklists for Illumineer’s Quest and the numbered promo series too.',
+    'Pick what you’re collecting in each set: the <b>Standard set</b> (the main set), the <b>Master set</b> (the main set plus the foil of each card) or the <b>Grand Master set</b> (every card, adding the Epic, Enchanted and Iconic cards).',
+    'Scan a card with your camera to add it, count your duplicates, see what your collection is worth in pounds, dollars or euros, and swap trade codes with friends to check a trade is fair.',
+    'There are <b>no ads, no sign-up and no tracking</b>. Your collection stays on your device, it works on phones and computers even offline, and <b>Export or share</b> moves it to another device as a link, code, QR code or file.',
+  ],
+};

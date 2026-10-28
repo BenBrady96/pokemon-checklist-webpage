@@ -1,0 +1,98 @@
+{
+  "id": "lorcana/palace-heist",
+  "game": "lorcana",
+  "slug": "palace-heist",
+  "name": "Illumineer’s Quest: Palace Heist",
+  "series": "2025",
+  "kind": "quest",
+  "code": "IQ2",
+  "syncKey": "IQ2",
+  "released": "2025-06-06",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "1–35/35",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards are 1–35."
+  },
+  "info": {
+    "packSections": [],
+    "sectionText": {
+      "main": [
+        "<p><b>From Illumineer’s Quest: Palace Heist.</b></p>"
+      ]
+    }
+  },
+  "seo": {
+    "title": "Lorcana Illumineer’s Quest: Palace Heist Checklist",
+    "description": "Free Disney Lorcana Illumineer’s Quest: Palace Heist checklist: all 35 cards, with images, prices and binder pages. No ads, no sign-up, no tracking.",
+    "ogTitle": "Disney Lorcana Illumineer’s Quest: Palace Heist Checklist",
+    "ogDescription": "Track all 35 cards in Disney Lorcana Illumineer’s Quest: Palace Heist. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Illumineer’s Quest: Palace Heist",
+    "paragraphs": [
+      "Illumineer’s Quest: Palace Heist is a Disney Lorcana co-operative boxed game, released on 6 June 2025. Its checklist has the 35 cards numbered 1/35 to 35/35.",
+      "The box also has 4 bonus cards numbered in booster sets, so they’re in those sets’ checklists: Bolt - Superdog (Archazia’s Island 223/204), Goofy - Groundbreaking Chef (Reign of Jafar 223/204), Elsa - Ice Maker (Archazia’s Island 224/204) and Pinocchio - Strings Attached (Reign of Jafar 224/204).",
+      "This free checklist lets you tick off the cards you own, count spare copies and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details come from LorcanaJSON, card images from Lorcast and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "lorcana": "Q2",
+    "tcgplayer": [
+      24257
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"1","printed":"1/35","code":"1","name":"Metal Scorpion - Deadly Statue","rarity":"S","keywords":"Lorcana Colossus Evasive Character Carlos Ruiz","stats":{"t":"Character · Colossus","c":7,"k":1,"s":8,"w":5,"l":2},"tcg":634273,"grp":24257,"sub":"Normal","idx":0},
+    {"id":"002","section":"main","num":"2","printed":"2/35","code":"2","name":"Palace Guard - Crown Hunter","rarity":"S","keywords":"Aladdin Storyborn Ally Character Anderson Mahanski","stats":{"t":"Character · Storyborn, Ally","c":3,"k":1,"s":2,"w":6,"l":1},"tcg":634279,"grp":24257,"sub":"Normal","idx":1},
+    {"id":"003","section":"main","num":"3","printed":"3/35","code":"3","name":"Iago - Raucous Lookout","rarity":"S","keywords":"Aladdin Dreamborn Ally Bodyguard Character Diogo Saito","stats":{"t":"Character · Dreamborn, Ally","c":4,"k":1,"s":4,"w":5,"l":1},"tcg":634284,"grp":24257,"sub":"Normal","idx":2},
+    {"id":"004","section":"main","num":"4","printed":"4/35","code":"4","name":"Razoul - Unyielding Guard","rarity":"S","keywords":"Aladdin Dreamborn Ally Captain Bodyguard Character Omar Lozano","stats":{"t":"Character · Dreamborn, Ally, Captain","c":2,"k":1,"s":4,"w":4,"l":1},"tcg":634286,"grp":24257,"sub":"Normal","idx":3},
+    {"id":"005","section":"main","num":"5","printed":"5/35","code":"5","name":"Treasure Guardian - Illusionary Protector","rarity":"S","keywords":"Aladdin Illusion Character Stefano Zanchi","stats":{"t":"Character · Illusion","c":2,"k":1,"s":3,"w":5,"l":1},"tcg":634288,"grp":24257,"sub":"Normal","idx":4},
+    {"id":"006","section":"main","num":"6","printed":"6/35","code":"6","name":"Jafar - Spectral Sorcerer","rarity":"S","keywords":"Aladdin Villain Illusion Sorcerer Character Luigi Aimè","stats":{"t":"Character · Villain, Illusion, Sorcerer","c":4,"k":1,"s":5,"w":4,"l":1},"tcg":634293,"grp":24257,"sub":"Normal","idx":5},
+    {"id":"007","section":"main","num":"7","printed":"7/35","code":"7","name":"Genie - Towering Phantasm","rarity":"S","keywords":"Aladdin Ally Illusion Character Gonzalo Kenny","stats":{"t":"Character · Ally, Illusion","c":5,"k":1,"s":3,"w":5,"l":2},"tcg":634294,"grp":24257,"sub":"Normal","idx":6},
+    {"id":"008","section":"main","num":"8","printed":"8/35","code":"8","name":"The Sultan - Spectral Ruler","rarity":"S","keywords":"Aladdin Ally King Illusion Character Grace Woo","stats":{"t":"Character · Ally, King, Illusion","c":4,"k":1,"s":3,"w":5,"l":2},"tcg":634295,"grp":24257,"sub":"Normal","idx":7},
+    {"id":"009","section":"main","num":"9","printed":"9/35","code":"9","name":"Jasmine - Ephemeral Princess","rarity":"S","keywords":"Aladdin Hero Princess Illusion Character Ian MacDonald","stats":{"t":"Character · Hero, Princess, Illusion","c":4,"k":1,"s":2,"w":7,"l":1},"tcg":634297,"grp":24257,"sub":"Normal","idx":8},
+    {"id":"010","section":"main","num":"10","printed":"10/35","code":"10","name":"Gazeem - Ruthless Ruffian","rarity":"S","keywords":"Aladdin Dreamborn Character James Rey Sanchez","stats":{"t":"Character · Dreamborn","c":5,"k":1,"s":4,"w":5,"l":2},"tcg":634299,"grp":24257,"sub":"Normal","idx":9},
+    {"id":"011","section":"main","num":"11","printed":"11/35","code":"11","name":"Iago - Crown Seeker","rarity":"S","keywords":"Aladdin Dreamborn Ally Evasive Character Eva Widermann","stats":{"t":"Character · Dreamborn, Ally","c":6,"k":1,"s":3,"w":5,"l":2},"tcg":631973,"grp":24257,"sub":"Normal","idx":10},
+    {"id":"012","section":"main","num":"12","printed":"12/35","code":"12","name":"Monumental Scarab - Skittering Statue","rarity":"S","keywords":"Lorcana Colossus Character Carlos Ruiz","stats":{"t":"Character · Colossus","c":5,"k":1,"s":8,"w":8,"l":2},"tcg":634304,"grp":24257,"sub":"Normal","idx":11},
+    {"id":"013","section":"main","num":"13","printed":"13/35","code":"13","name":"Gargantuan Cobra - Slithering Statue","rarity":"S","keywords":"Lorcana Colossus Character Diego Machuca","stats":{"t":"Character · Colossus","c":7,"k":1,"s":7,"w":5,"l":3},"tcg":634306,"grp":24257,"sub":"Normal","idx":12},
+    {"id":"014","section":"main","num":"14","printed":"14/35","code":"14","name":"Tiger Behemoth - Hulking Statue","rarity":"S","keywords":"Lorcana Colossus Character Diego Machuca","stats":{"t":"Character · Colossus","c":7,"k":1,"s":7,"w":8,"l":3},"tcg":634308,"grp":24257,"sub":"Normal","idx":13},
+    {"id":"015","section":"main","num":"15","printed":"15/35","code":"15","name":"Abu - Cheeky Phantasm","rarity":"S","keywords":"Aladdin Ally Illusion Character Shutianyi Li","stats":{"t":"Character · Ally, Illusion","c":5,"k":1,"s":6,"w":6,"l":2},"tcg":634407,"grp":24257,"sub":"Normal","idx":14},
+    {"id":"016","section":"main","num":"16","printed":"16/35","code":"16","name":"Aladdin - Misleading Phantom","rarity":"S","keywords":"Aladdin Hero Illusion Evasive Character Malia Ewart","stats":{"t":"Character · Hero, Illusion","c":3,"k":1,"s":4,"w":2,"l":1},"tcg":634411,"grp":24257,"sub":"Normal","idx":15},
+    {"id":"017","section":"main","num":"17","printed":"17/35","code":"17","name":"Basil - Shadow Sleuth","rarity":"S","keywords":"The Great Mouse Detective Hero Illusion Detective Character Marc Perez","stats":{"t":"Character · Hero, Illusion, Detective","c":1,"k":1,"s":3,"w":2,"l":1},"tcg":634414,"grp":24257,"sub":"Normal","idx":16},
+    {"id":"018","section":"main","num":"18","printed":"18/35","code":"18","name":"Sandblast","rarity":"S","keywords":"Lorcana Action Jonathan Livslyst","stats":{"t":"Action","c":2,"k":1},"tcg":634432,"grp":24257,"sub":"Normal","idx":17},
+    {"id":"019","section":"main","num":"19","printed":"19/35","code":"19","name":"Destructive Misstep","rarity":"S","keywords":"Lorcana Action Diogo Saito","stats":{"t":"Action","c":3,"k":1},"tcg":634433,"grp":24257,"sub":"Normal","idx":18},
+    {"id":"020","section":"main","num":"20","printed":"20/35","code":"20","name":"Disastrous Sandstorm","rarity":"S","keywords":"Lorcana Action Pietro B. Zemelo / Theonidas","stats":{"t":"Action","c":4,"k":1},"tcg":634437,"grp":24257,"sub":"Normal","idx":19},
+    {"id":"021","section":"main","num":"21","printed":"21/35","code":"21","name":"Sudden Power","rarity":"S","keywords":"Lorcana Action Gonzalo Kenny","stats":{"t":"Action","c":3,"k":1},"tcg":634435,"grp":24257,"sub":"Normal","idx":20},
+    {"id":"022","section":"main","num":"22","printed":"22/35","code":"22","name":"Arcane Quake","rarity":"S","keywords":"Lorcana Action French Carlomagno","stats":{"t":"Action","c":4,"k":1},"tcg":634444,"grp":24257,"sub":"Normal","idx":21},
+    {"id":"023","section":"main","num":"23","printed":"23/35","code":"23","name":"Cataclysmic Cyclone","rarity":"S","keywords":"Lorcana Action Douglas De La Hoz","stats":{"t":"Action","c":6,"k":1},"tcg":634439,"grp":24257,"sub":"Normal","idx":22},
+    {"id":"024","section":"main","num":"24","printed":"24/35","code":"24","name":"Sand Wave","rarity":"S","keywords":"Lorcana Action Simone Tentoni","stats":{"t":"Action","c":5,"k":1},"tcg":634434,"grp":24257,"sub":"Normal","idx":23},
+    {"id":"025","section":"main","num":"25","printed":"25/35","code":"25","name":"Mechanical Snake","rarity":"S","keywords":"Lorcana Item Carlos Ruiz","stats":{"t":"Item","c":0,"k":1},"tcg":634426,"grp":24257,"sub":"Normal","idx":24},
+    {"id":"026","section":"main","num":"26","printed":"26/35","code":"26","name":"Fiery Basin","rarity":"S","keywords":"Lorcana Item Ilaria Sposetti / Rodney Bills","stats":{"t":"Item","c":2,"k":1},"tcg":634400,"grp":24257,"sub":"Normal","idx":25},
+    {"id":"027","section":"main","num":"27","printed":"27/35","code":"27","name":"Giant Hourglass","rarity":"S","keywords":"Lorcana Item Veronica Di Lorenzo / Livio Cacciatore","stats":{"t":"Item","c":6,"k":1},"tcg":634429,"grp":24257,"sub":"Normal","idx":26},
+    {"id":"028","section":"main","num":"28","printed":"28/35","code":"28","name":"Cobra Pit - Seething Serpents","rarity":"S","keywords":"Lorcana Obstacle Location French Carlomagno","stats":{"t":"Location · Obstacle","c":2,"k":1,"w":8,"l":1,"m":0},"tcg":634405,"grp":24257,"sub":"Normal","idx":27},
+    {"id":"029","section":"main","num":"29","printed":"29/35","code":"29","name":"Endless Staircase - Perilous Ascent","rarity":"S","keywords":"Lorcana Obstacle Location Douglas De La Hoz","stats":{"t":"Location · Obstacle","c":4,"k":1,"w":9,"l":1,"m":0},"tcg":634427,"grp":24257,"sub":"Normal","idx":28},
+    {"id":"030","section":"main","num":"30","printed":"30/35","code":"30","name":"Royal Armory - Heavily Guarded","rarity":"S","keywords":"Lorcana Obstacle Resist Location Veronica Di Lorenzo","stats":{"t":"Location · Obstacle","c":2,"k":1,"w":6,"l":1,"m":0},"tcg":634421,"grp":24257,"sub":"Normal","idx":29},
+    {"id":"031","section":"main","num":"31","printed":"31/35","code":"31","name":"Crystal Gate - Unbreakable Boundary","rarity":"S","keywords":"Lorcana Obstacle Ward Location Elodie Mondoloni","stats":{"t":"Location · Obstacle","c":6,"k":1,"w":10,"l":2,"m":0},"tcg":634446,"grp":24257,"sub":"Normal","idx":30},
+    {"id":"032","section":"main","num":"32","printed":"32/35","code":"32","name":"Deepwell Labyrinth - Mystifying Halls","rarity":"S","keywords":"Lorcana Obstacle Location Giuseppe di Maio","stats":{"t":"Location · Obstacle","c":3,"k":1,"w":6,"l":1,"m":0},"tcg":634417,"grp":24257,"sub":"Normal","idx":31},
+    {"id":"033","section":"main","num":"33","printed":"33/35","code":"33","name":"Hall of Illusions - Mysterious Chamber","rarity":"S","keywords":"Lorcana Obstacle Location Sylvain Sarrailh","stats":{"t":"Location · Obstacle","c":4,"k":1,"w":8,"l":2,"m":0},"tcg":631974,"grp":24257,"sub":"Normal","idx":32},
+    {"id":"034","section":"main","num":"34","printed":"34/35","code":"34","name":"Clockwork Sawblades - Treacherous Trap","rarity":"S","keywords":"Lorcana Obstacle Ward Location Michela Cacciatore / Giulia Priori","stats":{"t":"Location · Obstacle","c":6,"k":1,"w":9,"l":0,"m":0},"tcg":634283,"grp":24257,"sub":"Normal","idx":33},
+    {"id":"035","section":"main","num":"35","printed":"35/35","code":"35","name":"Ink Moat - First Line of Defense","rarity":"S","keywords":"Lorcana Obstacle Location Kaluba","stats":{"t":"Location · Obstacle","c":0,"k":1,"w":5,"l":0,"m":0},"tcg":634271,"grp":24257,"sub":"Normal","idx":34}
+  ]
+}

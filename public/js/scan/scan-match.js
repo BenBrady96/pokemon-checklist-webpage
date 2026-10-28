@@ -78,7 +78,7 @@ async function load(game, onProgress) {
     imageId,
     name,
     printed,
-    image: cardImageUrl({ imageBase: asset(`img/cards/${index.sets[set]}`), imageId, remoteBase: index.remote?.[set], remoteId }),
+    image: cardImageUrl({ imageBase: asset(`img/cards/${index.sets[set]}`), imageId, remoteBase: index.remote?.[set], remoteId, remoteSizes: index.sizes }),
     search: ` ${normalize(`${name} ${printed}`)} `,
   }));
   const byCode = new Map();
