@@ -1729,8 +1729,9 @@ label.rcv-set { cursor: pointer; }
   outline: 2px solid rgba(255, 255, 255, .85);
   box-shadow: 0 0 0 100vmax rgba(3, 5, 14, .5);
 }
+.scanner__guide:not(.qr-scan__guide) { --fill: .6; width: min(calc(100cqw * var(--fill)), calc(100cqh * var(--fill) * 0.7159), 520px); }
 .scanner:not(.has-camera) .scanner__guide { box-shadow: none; outline-style: dashed; outline-color: rgba(255, 255, 255, .3); }
-.scanner[data-game="yugioh"] .scanner__guide:not(.qr-scan__guide) { width: min(calc(100cqw - 48px), calc((100cqh - 48px) * 0.686), 520px); aspect-ratio: 59 / 86; }
+.scanner[data-game="yugioh"] .scanner__guide:not(.qr-scan__guide) { width: min(calc(100cqw * var(--fill)), calc(100cqh * var(--fill) * 0.686), 520px); aspect-ratio: 59 / 86; }
 .scanner__status {
   position: absolute; left: 16px; right: 16px; bottom: 14px;
   margin: 0 auto; max-width: 460px; padding: 10px 14px;

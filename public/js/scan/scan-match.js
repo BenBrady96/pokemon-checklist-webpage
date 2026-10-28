@@ -1,10 +1,11 @@
 import * as ort from '../vendor/ort/ort.wasm.min.mjs';
 import { asset } from '../core/paths.js';
 import { cardImageUrl, normalize } from '../core/model.js';
-import { pixelTensor, embed } from './scan-features.js';
+import { pixelTensor, embed, sharpness } from './scan-features.js';
 
 const SAME_ART = 0.04;
 const HOME_BONUS = 0.015;
+const BLURRY = 0.04;
 
 const runtimes = new Map();
 const matchers = new Map();
@@ -140,7 +141,7 @@ export async function match(matcher, canvas, { prefer = null, within = null, top
   if (!best) return { candidates: [], sameArt: [], confident: false };
   const candidates = scored.slice(0, top).map(({ row, score }) => ({ ...row, score }));
   const sameArt = index.layout === 'printings' ? [] : candidates.filter((c) => c.name === best.row.name && best.score - c.score <= SAME_ART);
-  return { candidates, sameArt, confident: best.score >= index.threshold };
+  return { candidates, sameArt, confident: best.score >= index.threshold, blurry: sharpness(pixels, width, height) < BLURRY };
 }
 
 export function search(matcher, text, { within = null, limit = 40 } = {}) {

@@ -11,6 +11,33 @@ export function pixelTensor(pixels, width, height, channels = 4) {
   return out;
 }
 
+const variance = (sum, sq, n) => sq / n - (sum / n) ** 2;
+
+export function sharpness(pixels, width, height, channels = 4) {
+  const grey = new Float32Array(width * height);
+  let sum = 0;
+  let sq = 0;
+  for (let i = 0; i < grey.length; i++) {
+    const p = i * channels;
+    const g = 0.299 * pixels[p] + 0.587 * pixels[p + 1] + 0.114 * pixels[p + 2];
+    grey[i] = g;
+    sum += g;
+    sq += g * g;
+  }
+  let lapSum = 0;
+  let lapSq = 0;
+  for (let y = 1; y < height - 1; y++) {
+    for (let x = 1; x < width - 1; x++) {
+      const i = y * width + x;
+      const lap = grey[i - 1] + grey[i + 1] + grey[i - width] + grey[i + width] - 4 * grey[i];
+      lapSum += lap;
+      lapSq += lap * lap;
+    }
+  }
+  const contrast = variance(sum, sq, grey.length);
+  return contrast > 0 ? variance(lapSum, lapSq, (width - 2) * (height - 2)) / contrast : 0;
+}
+
 export function unit(vec) {
   let sum = 0;
   for (let i = 0; i < vec.length; i++) sum += vec[i] * vec[i];

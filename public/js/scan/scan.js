@@ -280,8 +280,9 @@ async function showMatches(result, narrowed) {
   const hint = twins && result.confident
     ? 'Check the set code and number at the bottom of your card, then pick the matching set.'
     : result.confident ? ''
-      : narrowed ? `Only ${scopeName()} cards were checked. Try all sets if it’s from somewhere else, or scan again with less glare.`
-        : 'Try again with the card filling the frame and less glare, or search by name.';
+      : result.blurry ? 'Looks blurry. Hold the phone a little further back so it can focus, then scan again.'
+        : narrowed ? `Only ${scopeName()} cards were checked. Try all sets if it’s from somewhere else, or scan again with less glare.`
+          : 'Try again with the card filling the frame and less glare, or search by name.';
   openPanel({ title, hint, list, selected: 0, widen: narrowed && !result.confident });
 }
 
