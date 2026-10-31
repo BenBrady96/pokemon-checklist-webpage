@@ -3,7 +3,7 @@ import { join } from 'node:path';
 import { COMING_SOON, CONFIG, GAMES, GAME_PAGES, LIVE_GAMES, dataDir, loadCatalog, loadModel, loadRaw } from './collections.mjs';
 import { GUIDES } from '../../config/guides/index.mjs';
 import { ANALYTICS_TOKEN, DEFAULT_URL, PUBLIC, TEMPLATES, exists, readJson } from './util.mjs';
-import { formatMoney, priceDate, ratesOf, tierValues } from '../../public/js/core/pricing.js';
+import { formatAmount, formatMoney, priceDate, ratesOf, sourceCurrency, sourceOf, tierValues, valueUsd } from '../../public/js/core/pricing.js';
 import { releaseText, tileHtml } from '../../public/js/shared/tiles.js';
 import { SOCIALS, socialButtons, socialMenuItems } from '../../public/js/shared/socials.js';
 
@@ -63,18 +63,26 @@ function rarityRows(model, cards) {
 function topCardsHtml(model, prices) {
   const rates = ratesOf(prices);
   const top = model.cards
-    .map((card) => ({ card, usd: prices?.cards?.[card.id]?.usd }))
+    .map((card) => {
+      const entry = prices?.cards?.[card.id];
+      return { card, entry, usd: valueUsd(entry, rates) };
+    })
     .filter((p) => p.usd > 0)
     .sort((a, b) => b.usd - a.usd)
     .slice(0, TOP_CARDS);
   if (top.length < 3) return '';
-  const rows = top.map(({ card, usd }) => '<li>'
+  const original = (entry, usd) => (sourceOf(entry, rates) === 'cardmarket' ? formatAmount(entry.eur, 'eur') : formatAmount(usd, 'usd'));
+  const rows = top.map(({ card, entry, usd }) => '<li>'
     + `<span class="top-cards__card"><b>${escapeHtml(card.name)}</b><small>${escapeHtml(card.printed || card.num)} · ${escapeHtml(card.rarityShort)}</small></span>`
-    + `<span class="top-cards__price">${formatMoney(usd, { currency: 'gbp', rates })}<small>${formatMoney(usd, { currency: 'usd' })}</small></span>`
+    + `<span class="top-cards__price">${formatMoney(usd, { currency: 'gbp', rates })}<small>${original(entry, usd)}</small></span>`
     + '</li>').join('');
+  const cardmarket = sourceCurrency(prices) === 'eur';
+  const note = cardmarket
+    ? `Cardmarket prices${prices.cmUpdated ? `, updated ${priceDate(prices.cmUpdated)}` : ''}, or TCGplayer’s where Cardmarket has none. Pounds are converted from euros or US dollars.`
+    : `TCGplayer market prices${prices.updated ? `, updated ${priceDate(prices.updated)}` : ''}. Pounds are converted from US dollars.`;
   return `<h3 class="about__sub">Most valuable ${escapeHtml(model.name)} cards</h3>`
     + `<ol class="top-cards">${rows}</ol>`
-    + `<p class="about__note">TCGplayer market prices${prices.updated ? `, updated ${priceDate(prices.updated)}` : ''}. Pounds are converted from US dollars.</p>`;
+    + `<p class="about__note">${note}</p>`;
 }
 
 function cardListHtml(model, sections) {
@@ -548,7 +556,7 @@ const FEATURES = [
   'Copy counts for duplicates and trades',
   'Grid, list and binder page views',
   'Card scanner that runs on your device',
-  'Collection value from TCGplayer market prices',
+  'Collection value from Cardmarket and TCGplayer market prices',
   'Trade codes to compare collections with friends',
   'Works offline',
   'Export and import by link, code, QR code or file',
@@ -591,7 +599,7 @@ export async function rootPage({ siteUrl = DEFAULT_URL } = {}) {
     ],
   };
   const about = [
-    `Binder Tracker is a free card checklist and collection tracker for ${escapeHtml(names)}. Every set has its own checklist, with card images, rarities and TCGplayer prices.`,
+    `Binder Tracker is a free card checklist and collection tracker for ${escapeHtml(names)}. Every set has its own checklist, with card images, rarities and Cardmarket and TCGplayer prices.`,
     ...liveGames(catalog).map((g) => `<a href="${g.id}/"><b>${escapeHtml(g.name)} checklists</b></a>: ${GAME_PAGES[g.id].rootText}`),
     'Scan a card with your camera to add it, count your duplicates, see what your collection is worth in pounds, dollars or euros, and swap trade codes with friends to check a trade is fair.',
     'There are <b>no ads, no sign-up and no tracking</b>. Your collection stays on your device, it works on phones and computers even offline, and <b>Export or share</b> moves it to another device as a link, code, QR code or file.',

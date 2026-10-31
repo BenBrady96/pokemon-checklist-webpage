@@ -2,7 +2,7 @@ import { loadCatalog, groupByGame } from '../core/catalog.js';
 import { asset } from '../core/paths.js';
 import { normalize } from '../core/model.js';
 import * as storage from '../core/storage.js';
-import { convert, formatAmount, priceDate } from '../core/pricing.js';
+import { convert, formatAmount, priceNotes } from '../core/pricing.js';
 import { renderQr, scanQr } from '../shared/qr.js';
 import { initDialogs, openDialog, closeDialog, confirmAction, toast, announce, copyText, hideLoader, reducedMotion } from '../shared/ui.js';
 import { initHeader } from '../shared/header.js';
@@ -27,7 +27,6 @@ const SIDE_TEXT = {
   give: { title: 'You give', add: 'Give', empty: 'Tap Give on a card, or scan one.' },
   get: { title: 'You get', add: 'Get', empty: 'Tap Get on a card, or scan one.' },
 };
-const CONVERTED = { gbp: 'Pound', eur: 'Euro' };
 
 const $ = (name) => document.querySelector(`[data-tr="${name}"]`);
 const percent = new Intl.NumberFormat('en-GB', { style: 'percent', maximumFractionDigits: 0 });
@@ -492,9 +491,7 @@ function renderHistory() {
 }
 
 function renderNote() {
-  const parts = [];
-  if (valuer.updated) parts.push(`Market prices from TCGplayer, updated ${priceDate(valuer.updated)}.`);
-  if (CONVERTED[valuer.cur]) parts.push(`${CONVERTED[valuer.cur]} values are converted from US dollars, so they’re approximate.`);
+  const parts = priceNotes(valuer, valuer.cur);
   parts.push('Condition isn’t counted, so agree the final values together.');
   $('note').textContent = parts.join(' ');
 }

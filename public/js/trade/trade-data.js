@@ -4,7 +4,7 @@ import { applyEntries, findEntry } from '../core/transfer.js';
 import { entryBySyncKey } from '../core/catalog.js';
 import { cleanName } from './trade-code.js';
 import * as storage from '../core/storage.js';
-import { convert, ratesOf, shownCurrency } from '../core/pricing.js';
+import { convert, ratesOf, shownCurrency, sourceCurrency, valueUsd } from '../core/pricing.js';
 
 const KEY = 'bt:v1:trade';
 const LISTS_KEY = 'bt:v1:lists';
@@ -233,19 +233,23 @@ export function makeValuer(sets, currency) {
   const fallback = latest?.rates || { gbp: 0, eur: 0 };
   const cur = shownCurrency(currency, fallback);
   const updated = loaded.map((s) => s.prices.updated || '').sort().at(-1) || '';
+  const cmUpdated = loaded.map((s) => s.prices.cmUpdated || '').sort().at(-1) || '';
   return {
     cur,
     rates: fallback,
     updated,
+    cmUpdated,
+    cardmarket: loaded.some((s) => sourceCurrency(s.prices) === 'eur'),
     of(setId, cardId) {
       const s = sets.get(setId);
       const entry = s?.prices?.cards?.[cardId];
       if (!entry) return { value: null, from: null, usd: null };
       const rates = convert(1, cur, s.rates) != null ? s.rates : fallback;
+      const usd = valueUsd(entry, s.rates);
       return {
-        value: entry.usd != null ? convert(entry.usd, cur, rates) : null,
-        from: entry.from != null ? convert(entry.from, cur, rates) : null,
-        usd: entry.usd ?? null,
+        value: usd != null ? convert(usd, cur, rates) : null,
+        from: usd == null && entry.from != null ? convert(entry.from, cur, rates) : null,
+        usd,
       };
     },
   };

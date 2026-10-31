@@ -2,7 +2,7 @@ import { openDialog, closeDialog, vibrate } from '../shared/ui.js';
 import { asset } from '../core/paths.js';
 import { loadCatalog, entryById } from '../core/catalog.js';
 import { GAMES, fetchCollection, fetchPrices } from '../core/collection.js';
-import { formatMoney, formatUsd, ratesOf, shownCurrency } from '../core/pricing.js';
+import { formatEur, formatMoney, formatUsd, ratesOf, shownCurrency, sourceOf, valueUsd } from '../core/pricing.js';
 import * as storage from '../core/storage.js';
 import { codeKey, findCode, loadMatcher, match, search } from './scan-match.js';
 import { el, icon } from '../shared/dom.js';
@@ -513,7 +513,11 @@ function priceLine(prices, id) {
   const rates = ratesOf(prices);
   const shown = (usd) => formatMoney(usd, { currency, rates, approx: true });
   const dollars = (usd) => (shownCurrency(currency, rates) === 'usd' ? '' : ` (${formatUsd(usd)})`);
-  if (entry?.usd != null) return ['Market price ', el('b', { text: shown(entry.usd) }), dollars(entry.usd)];
+  if (sourceOf(entry, rates) === 'cardmarket') {
+    const euros = shownCurrency(currency, rates) === 'eur';
+    return ['Cardmarket price ', el('b', { text: euros ? formatEur(entry.eur) : shown(valueUsd(entry, rates)) }), euros ? '' : ` (${formatEur(entry.eur)})`];
+  }
+  if (entry?.usd != null) return ['TCGplayer price ', el('b', { text: shown(entry.usd) }), dollars(entry.usd)];
   if (entry?.from != null) return [`No sales yet. Listed from ${shown(entry.from)}${dollars(entry.from)}.`];
   return prices ? ['No price yet.'] : [];
 }

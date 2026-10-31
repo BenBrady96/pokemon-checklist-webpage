@@ -1,7 +1,7 @@
 import { COLLECTION } from '../core/collection.js';
 import { getQty } from './store.js';
 import { rarityIcon } from './render.js';
-import { priceOf, formatPrice, formatUsd, pricesUpdated, isConverted, priceCurrency, SYMBOLS } from '../core/pricing.js';
+import { priceOf, marketUsd, formatPrice, formatUsd, formatEur, pricesUpdated, cardmarketUpdated, hasCardmarket, priceCurrency, SYMBOLS } from '../core/pricing.js';
 import { openDialog, escapeHTML } from '../shared/ui.js';
 
 const INFO = COLLECTION.info;
@@ -40,19 +40,25 @@ function pullOdds(card) {
 
 function price(card) {
   const entry = priceOf(card.id);
-  const converted = isConverted();
+  const shown = priceCurrency();
+  const dollars = shown !== 'usd';
+  const money = (usd) => (dollars ? formatPrice(usd, { approx: true }) : formatUsd(usd));
   let figure;
-  if (entry?.usd != null) {
+  if (entry?.eur != null) {
+    const euros = shown !== 'eur';
+    figure = `<p class="info__price">${euros ? `${formatPrice(marketUsd(card.id), { approx: true })}<small>${formatEur(entry.eur)}</small>` : formatEur(entry.eur)}</p>`
+      + (entry.usd != null ? `<p class="info__also">TCGplayer market price <b>${money(entry.usd)}</b>${dollars ? ` (${formatUsd(entry.usd)})` : ''}</p>` : '')
+      + `<p class="hint hint--small">Cardmarket price trend, ${cardmarketUpdated}.${euros ? ` The ${SYMBOLS[shown]} figure is converted from euros, so it’s approximate.` : ''}</p>`;
+  } else if (entry?.usd != null) {
     const editions = entry.ed ? (COLLECTION.game.EDITIONS || []).filter((e) => entry.ed[e.id] != null) : [];
-    const money = (usd) => (converted ? formatPrice(usd, { approx: true }) : formatUsd(usd));
-    figure = `<p class="info__price">${converted ? `${formatPrice(entry.usd, { approx: true })}<small>${formatUsd(entry.usd)}</small>` : formatUsd(entry.usd)}</p>`
+    figure = `<p class="info__price">${dollars ? `${formatPrice(entry.usd, { approx: true })}<small>${formatUsd(entry.usd)}</small>` : formatUsd(entry.usd)}</p>`
       + (editions.length ? `<p class="info__editions">${editions.map((e) => `${escapeHTML(e.name)} <b>${money(entry.ed[e.id])}</b>`).join(' · ')}</p>` : '')
-      + `<p class="hint hint--small">${editions.length ? 'Lowest TCGplayer market price of its editions' : 'TCGplayer market price'}, ${pricesUpdated}.${converted ? ` The ${SYMBOLS[priceCurrency()]} figure is converted, so it’s approximate.` : ''}</p>`;
+      + `<p class="hint hint--small">${editions.length ? 'Lowest TCGplayer market price of its editions' : 'TCGplayer market price'}, ${pricesUpdated}.${hasCardmarket() ? ' Cardmarket has no price for it yet.' : ''}${dollars ? ` The ${SYMBOLS[shown]} figure is converted from US dollars, so it’s approximate.` : ''}</p>`;
   } else if (entry?.from != null) {
     figure = '<p class="info__price">No sales yet</p>'
-      + `<p class="hint hint--small">Listed on TCGplayer from ${converted ? `${formatPrice(entry.from, { approx: true })} (${formatUsd(entry.from)})` : formatUsd(entry.from)}, ${pricesUpdated}.</p>`;
+      + `<p class="hint hint--small">Listed on TCGplayer from ${dollars ? `${formatPrice(entry.from, { approx: true })} (${formatUsd(entry.from)})` : formatUsd(entry.from)}, ${pricesUpdated}.</p>`;
   } else {
-    figure = '<p class="info__price">No price yet</p><p class="hint hint--small">TCGplayer doesn’t list this card yet.</p>';
+    figure = `<p class="info__price">No price yet</p><p class="hint hint--small">${hasCardmarket() ? 'Cardmarket and TCGplayer don’t' : 'TCGplayer doesn’t'} list this card yet.</p>`;
   }
   const links = COLLECTION.game.priceLinks(card, entry, card.searchQuery)
     .map((l) => `<a class="btn btn--ghost btn--sm" href="${l.href}" target="_blank" rel="noopener noreferrer">${l.label}<svg><use href="#i-external"/></svg></a>`);

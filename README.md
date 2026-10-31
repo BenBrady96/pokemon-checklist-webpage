@@ -22,7 +22,7 @@ Your collection is saved in your own browser, and the site works offline once yo
 - Grid, list and binder page views, with copy counts for duplicates
 - Quick add for marking lots of cards at once, with undo
 - A card scanner that recognises cards through your camera, on your device
-- Collection value and cost to complete, from TCGplayer market prices
+- Collection value and cost to complete, from Cardmarket and TCGplayer market prices
 - Trade codes and trade lists for comparing collections with friends
 - Export or share a set, chosen sets or your whole collection, and import one, by link, code, QR code or file
 - A page to view a collection someone sends you, or compare it side by side with your own
@@ -37,7 +37,7 @@ The site sets no cookies and has no advertising or tracking. Visitor numbers are
 The code is released under the [MIT Licence](LICENSE). That doesn't cover:
 
 - card images, names and logos, which belong to their owners
-- card data from [TCGdex](https://tcgdex.dev), [YGOPRODeck](https://ygoprodeck.com) and [LorcanaJSON](https://lorcanajson.org), Lorcana card images from [Lorcast](https://lorcast.com), and prices from TCGplayer via [tcgcsv.com](https://tcgcsv.com)
+- card data from [TCGdex](https://tcgdex.dev), [YGOPRODeck](https://ygoprodeck.com) and [LorcanaJSON](https://lorcanajson.org), Lorcana card images from [Lorcast](https://lorcast.com), and prices from [Cardmarket](https://www.cardmarket.com)'s price guide and from TCGplayer via [tcgcsv.com](https://tcgcsv.com)
 - the Outfit font ([SIL Open Font License](public/fonts/OFL.txt))
 - `qrcode.js` (MIT, © Kazuhiko Arase)
 - jsQR ([Apache License 2.0](public/js/vendor/jsqr/LICENSE))

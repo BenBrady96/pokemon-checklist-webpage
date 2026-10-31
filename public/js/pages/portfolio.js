@@ -4,7 +4,7 @@ import { asset } from '../core/paths.js';
 import * as storage from '../core/storage.js';
 import { collectionWorth } from '../core/worth.js';
 import { readHistory, recordSnapshot, today, addDays, parseDay } from '../core/history.js';
-import { convert, formatAmount, formatMoney, priceDate, ratesOf, shownCurrency } from '../core/pricing.js';
+import { convert, formatAmount, formatMoney, priceNotes, ratesOf, shownCurrency, valueUsd } from '../core/pricing.js';
 import { lineChart } from '../shared/chart.js';
 import { hideLoader } from '../shared/ui.js';
 import { initHeader } from '../shared/header.js';
@@ -33,7 +33,6 @@ let points = [];
 let top = null;
 let range = '1m';
 
-const CONVERTED = { gbp: 'Pound', eur: 'Euro' };
 const chosen = () => storage.getPrefs().currency;
 const pointRates = (p) => ({ gbp: p?.r || worth?.rates.gbp || 0, eur: p?.e || worth?.rates.eur || 0 });
 const currency = () => shownCurrency(chosen(), worth?.loaded ? worth.rates : pointRates(points.at(-1)));
@@ -189,8 +188,9 @@ async function loadTop(ids) {
     if (!model || !prices?.cards) return;
     for (const [cardId, n] of Object.entries(storage.readCounts(id))) {
       const card = model.cardById.get(cardId);
-      const usd = prices.cards[cardId]?.usd;
-      if (card && usd != null) items.push({ id, model, card, n, usd, rates: ratesOf(prices) });
+      const rates = ratesOf(prices);
+      const usd = valueUsd(prices.cards[cardId], rates);
+      if (card && usd != null) items.push({ id, model, card, n, usd, rates });
     }
   }));
   return items.sort((a, b) => b.usd - a.usd || b.n - a.n).slice(0, TOP);
@@ -259,9 +259,7 @@ function renderSets() {
 }
 
 function renderNote() {
-  const parts = [];
-  if (worth?.updated) parts.push(`Market prices from TCGplayer, updated ${priceDate(worth.updated)}.`);
-  if (CONVERTED[currency()]) parts.push(`${CONVERTED[currency()]} values are converted from US dollars, so they’re approximate.`);
+  const parts = worth ? priceNotes(worth, currency()) : [];
   if (worth?.unpriced) parts.push(`${plural(worth.unpriced, 'card has', 'cards have')} no price yet and ${worth.unpriced === 1 ? 'isn’t' : 'aren’t'} counted.`);
   parts.push('Your history is saved on this device whenever you open the site: daily for the past week, weekly for the past month, then monthly. It’s included when you export your whole collection as a file.');
   $('note').textContent = parts.join(' ');

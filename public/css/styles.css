@@ -1434,8 +1434,8 @@ a.menu__item { color: inherit; text-decoration: none; }
 .info__block p { margin: 0 0 8px; }
 .info__price { display: flex; align-items: baseline; gap: 10px; font-size: 1.5rem; font-weight: 700; font-variant-numeric: tabular-nums; }
 .info__price small { color: var(--text-3); font-size: .95rem; font-weight: 600; }
-.info__editions { margin: 4px 0 0; color: var(--text-2); font-size: .88rem; font-variant-numeric: tabular-nums; }
-.info__editions b { color: var(--text); font-weight: 600; }
+.info__editions, .info__also { margin: 4px 0 0; color: var(--text-2); font-size: .88rem; font-variant-numeric: tabular-nums; }
+.info__editions b, .info__also b { color: var(--text); font-weight: 600; }
 .info__links { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
 .info__links .btn svg { width: 15px; height: 15px; }
 .stat-group { margin: 0 0 20px; }

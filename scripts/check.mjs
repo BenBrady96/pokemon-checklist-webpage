@@ -76,6 +76,9 @@ for (const entry of CONFIG) {
     const moved = before.filter((c) => now.has(c.id) && now.get(c.id) !== c.idx).map((c) => c.id);
     check(!moved.length, `${entry.id}: cards changed position since the last commit, which breaks existing share links: ${moved.slice(0, 8).join(', ')}`);
   }
+  check(raw.cards.every((c) => (c.cm == null || (Number.isInteger(c.cm) && c.cm > 0)) && (!c.cmFoil || c.cm)), `${entry.id}: Cardmarket ids are whole numbers, and only cards with one are marked as foil copies`);
+  const prices = await readJson(join(dataDir(entry.id), 'prices.json'));
+  if (prices) check(Object.values(prices.cards).every((p) => p.eur == null || (Number.isFinite(p.eur) && p.eur >= 0 && Number.isInteger(p.cm))), `${entry.id}: Cardmarket prices are numbers with a product id`);
 
   for (let i = 1; i < model.visibleTiers.length; i++) {
     const [a, b] = [model.visibleTiers[i - 1], model.visibleTiers[i]];

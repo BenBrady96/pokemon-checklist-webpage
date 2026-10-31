@@ -2,6 +2,7 @@ import { join } from 'node:path';
 import { COMING_SOON, dataDir, loadModel, loadRaw, selectEntries } from './lib/collections.mjs';
 import { normalize } from '../public/js/core/model.js';
 import { CATEGORY, lastUpdated, loadPrices, loadProducts, productNumber } from './lib/tcgcsv.mjs';
+import { loadPriceGuide, priceFrom } from './lib/cardmarket.mjs';
 import { args, download, mapLimit, readJson, writeJson } from './lib/util.mjs';
 
 const FX_SOURCES = [
@@ -63,7 +64,7 @@ function priceRow(rows, productId, sub) {
     || mine[0];
 }
 
-async function priceCollection(entry, { updated, rates }) {
+async function priceCollection(entry, { updated, rates, guide }) {
   const raw = await loadRaw(entry.id);
   if (!raw) return;
   const model = await loadModel(entry.id, { raw });
@@ -74,41 +75,50 @@ async function priceCollection(entry, { updated, rates }) {
   const groups = Object.fromEntries(await Promise.all(Object.entries(groupIds).map(async ([key, id]) => [key, await loadGroup(id, entry.game)])));
   const rows = Object.values(groups).flatMap((g) => g.prices);
 
+  const file = join(dataDir(entry.id), 'prices.json');
+  const previous = await readJson(file);
   const cards = {};
   const unmatched = [];
   const editions = model.game.EDITIONS;
   let priced = 0;
+  let fromCardmarket = 0;
   for (const card of model.cards) {
     const tcg = curated ? curated.productFor(card, groups, helpers) : card.tcg;
-    if (!tcg) {
-      unmatched.push(card.id);
-      continue;
-    }
-    let price;
-    if (editions) {
+    const price = {};
+    if (!tcg) unmatched.push(card.id);
+    else if (editions) {
       const found = editionPrice(rows, tcg, editions);
-      price = { tcg, usd: found.usd };
+      Object.assign(price, { tcg, usd: found.usd });
       if (found.ed) price.ed = found.ed;
       if (found.from != null) price.from = found.from;
     } else {
       const row = priceRow(rows, tcg, card.sub);
-      price = { tcg, usd: row?.marketPrice ?? null };
+      Object.assign(price, { tcg, usd: row?.marketPrice ?? null });
       if (price.usd == null && row?.lowPrice != null) price.from = row.lowPrice;
     }
-    if (price.usd != null) priced++;
+    if (card.cm) {
+      const kept = previous?.cards[card.id];
+      const eur = guide ? priceFrom(guide.rows.get(card.cm), { foil: card.cmFoil }) : kept?.cm === card.cm ? kept.eur ?? null : null;
+      if (eur != null) {
+        Object.assign(price, { cm: card.cm, eur });
+        fromCardmarket++;
+      }
+    }
+    if (!Object.keys(price).length) continue;
+    if (price.usd != null || price.eur != null) priced++;
     cards[card.id] = price;
   }
 
-  const file = join(dataDir(entry.id), 'prices.json');
-  const previous = await readJson(file);
-  const previousPriced = previous ? Object.values(previous.cards).filter((p) => p.usd != null).length : 0;
+  const fxRates = { gbpPerUsd: fx(rates.gbp), eurPerUsd: fx(rates.eur) };
+  const previousPriced = previous ? Object.values(previous.cards).filter((p) => p.usd != null || p.eur != null).length : 0;
   if (priced < model.cards.length * MIN_SHARE && previousPriced > priced) {
     console.warn(`${entry.id}: only ${priced} of ${model.cards.length} cards priced; keeping the previous prices (${previousPriced} priced)`);
-    await writeJson(file, { updated: previous.updated, gbpPerUsd: fx(rates.gbp), eurPerUsd: fx(rates.eur), cards: previous.cards }, { lines: ['cards'] });
+    await writeJson(file, { updated: previous.updated, ...(previous.cmUpdated ? { cmUpdated: previous.cmUpdated } : {}), ...fxRates, cards: previous.cards }, { lines: ['cards'] });
     return;
   }
-  await writeJson(file, { updated, gbpPerUsd: fx(rates.gbp), eurPerUsd: fx(rates.eur), cards }, { lines: ['cards'] });
-  console.log(`${entry.id}: ${priced} of ${model.cards.length} priced${unmatched.length ? `, ${unmatched.length} not on TCGplayer` : ''}`);
+  const cmUpdated = fromCardmarket ? guide?.updated || previous?.cmUpdated : null;
+  await writeJson(file, { updated, ...(cmUpdated ? { cmUpdated } : {}), ...fxRates, cards }, { lines: ['cards'] });
+  console.log(`${entry.id}: ${priced} of ${model.cards.length} priced${fromCardmarket ? `, ${fromCardmarket} from Cardmarket` : ''}${unmatched.length ? `, ${unmatched.length} not on TCGplayer` : ''}`);
 }
 
 async function priceSealed(entry, { updated, rates }) {
@@ -139,10 +149,21 @@ console.log(`Prices from ${updated}, $1 = £${rates.gbp.toFixed(4)} = €${rates
 const opts = args();
 const entries = selectEntries(opts.list('only'), opts.get('game'));
 const picked = (e) => entries.includes(e) || (!opts.list('only').length && (!opts.get('game') || e.game === opts.get('game')));
+const guides = new Map(await Promise.all([...new Set(entries.map((e) => e.game))].map(async (game) => {
+  try {
+    const guide = await loadPriceGuide(game);
+    if (guide) console.log(`Cardmarket ${game} prices from ${guide.updated}, ${guide.rows.size} products`);
+    return [game, guide];
+  } catch (err) {
+    process.exitCode = 1;
+    console.warn(`Cardmarket ${game}: ${err.message}; keeping the previous Cardmarket prices`);
+    return [game, null];
+  }
+})));
 let failed = 0;
 await mapLimit(entries, 4, async (entry) => {
   try {
-    await priceCollection(entry, { updated: day, rates });
+    await priceCollection(entry, { updated: day, rates, guide: guides.get(entry.game) });
   } catch (err) {
     failed++;
     console.error(`${entry.id}: ${err.message}`);

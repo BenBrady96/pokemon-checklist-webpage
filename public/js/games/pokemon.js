@@ -74,7 +74,8 @@ export const rarityFromName = (text) => RARITY_BY_ALIAS.get(String(text || '').t
 export function priceLinks(card, entry, query) {
   const q = encodeURIComponent(query);
   return [
-    { label: 'TCGplayer', href: entry ? `https://www.tcgplayer.com/product/${entry.tcg}` : `https://www.tcgplayer.com/search/pokemon/product?q=${q}` },
+    { label: 'Cardmarket', href: `https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=${encodeURIComponent(card.name)}` },
+    { label: 'TCGplayer', href: entry?.tcg ? `https://www.tcgplayer.com/product/${entry.tcg}` : `https://www.tcgplayer.com/search/pokemon/product?q=${q}` },
     { label: 'eBay UK sold', href: `https://www.ebay.co.uk/sch/i.html?_nkw=${q}&LH_Sold=1&LH_Complete=1` },
     { label: 'BR Trading Post', href: `https://brtradingpost.co.uk/shop/pokemon/?q=${encodeURIComponent(card.name)}` },
   ];

@@ -1,7 +1,7 @@
 import { COLLECTION } from '../core/collection.js';
 import { getQty, getPrefs } from './store.js';
 import { rarityIconById } from './render.js';
-import { marketUsd, formatPrice, formatUsd, pricesUpdated, hasPrices, isConverted } from '../core/pricing.js';
+import { marketUsd, formatPrice, formatBase, pricesUpdated, cardmarketUpdated, hasCardmarket, hasPrices, isConverted } from '../core/pricing.js';
 import { HANDLE, socialButtons } from '../shared/socials.js';
 
 const currentTier = () => COLLECTION.getTier(getPrefs().tier);
@@ -62,8 +62,8 @@ function row(name, { owned, total }, icon = '') {
 }
 
 const valueTile = (usd, label) => (isConverted()
-  ? `<div class="stat-tile"><b>${formatPrice(usd, { approx: true })}</b><small>${label} · ${formatUsd(usd)}</small></div>`
-  : `<div class="stat-tile"><b>${formatUsd(usd)}</b><small>${label}</small></div>`);
+  ? `<div class="stat-tile"><b>${formatPrice(usd, { approx: true })}</b><small>${label} · ${formatBase(usd)}</small></div>`
+  : `<div class="stat-tile"><b>${formatBase(usd)}</b><small>${label}</small></div>`);
 
 function valueTiles(s) {
   if (!hasPrices()) return '<p class="hint hint--small stat-note">No prices yet for this set.</p>';
@@ -72,7 +72,7 @@ function valueTiles(s) {
       ${valueTile(s.value, 'Collection value')}
       ${valueTile(s.toComplete, 'Cost to complete')}
     </div>
-    <p class="hint hint--small stat-note">TCGplayer market prices from ${pricesUpdated}, counting every copy you own.${s.unpriced ? ` ${s.unpriced} card${s.unpriced === 1 ? ' has' : 's have'} no price yet and ${s.unpriced === 1 ? 'isn’t' : 'aren’t'} included.` : ''}</p>`;
+    <p class="hint hint--small stat-note">${hasCardmarket() ? `Cardmarket prices from ${cardmarketUpdated}, or TCGplayer’s where Cardmarket has none` : `TCGplayer market prices from ${pricesUpdated}`}, counting every copy you own.${s.unpriced ? ` ${s.unpriced} card${s.unpriced === 1 ? ' has' : 's have'} no price yet and ${s.unpriced === 1 ? 'isn’t' : 'aren’t'} included.` : ''}</p>`;
 }
 
 export function renderStats(s) {

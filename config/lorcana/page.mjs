@@ -13,7 +13,7 @@ export default {
   rootText: 'every English set from The First Chapter to today, with foils, Epic, Enchanted and Iconic cards, Illumineer’s Quest and promos.',
   aboutTitle: 'About Binder Tracker',
   about: [
-    'Binder Tracker is a free card checklist and collection tracker, with a checklist for every English Disney Lorcana set since The First Chapter. Each one has card images, rarities and TCGplayer prices, and there are checklists for Illumineer’s Quest and the numbered promo series too.',
+    'Binder Tracker is a free card checklist and collection tracker, with a checklist for every English Disney Lorcana set since The First Chapter. Each one has card images, rarities and Cardmarket and TCGplayer prices, and there are checklists for Illumineer’s Quest and the numbered promo series too.',
     'Pick what you’re collecting in each set: the <b>Standard set</b> (the main set), the <b>Master set</b> (the main set plus the foil of each card) or the <b>Grand Master set</b> (every card, adding the Epic, Enchanted and Iconic cards).',
     'Scan a card with your camera to add it, count your duplicates, see what your collection is worth in pounds, dollars or euros, and swap trade codes with friends to check a trade is fair.',
     'There are <b>no ads, no sign-up and no tracking</b>. Your collection stays on your device, it works on phones and computers even offline, and <b>Export or share</b> moves it to another device as a link, code, QR code or file.',

@@ -1,7 +1,7 @@
 import { loadCatalog, entryBySyncKey } from '../core/catalog.js';
 import { normalize } from '../core/model.js';
 import * as storage from '../core/storage.js';
-import { formatAmount, priceDate } from '../core/pricing.js';
+import { convert, formatAmount, priceDate, priceNotes, ratesOf, sourceCurrency } from '../core/pricing.js';
 import { decodeList, UNSUPPORTED } from './trade-code.js';
 import { loadSets, makeValuer, readListPrefs, saveListPrefs } from './trade-data.js';
 import { initDialogs, openDialog, hideLoader } from '../shared/ui.js';
@@ -15,7 +15,7 @@ const TABS = [
   { id: 'have', label: 'Up for trade', empty: 'Nothing is up for trade in this list.' },
   { id: 'missing', label: 'Looking for', empty: 'Nothing on the wanted list. This set might be complete!' },
 ];
-const CONVERTED = { gbp: 'Pound', eur: 'Euro' };
+const FROM = { eur: 'euros', usd: 'US dollars' };
 const MESSAGES = {
   none: ['There’s no trade list here', 'This page shows a trade list someone has shared with you. Ask them to send you the full link.'],
   invalid: ['This link isn’t complete', 'It may have been cut off when it was copied or sent. Ask for the link again.'],
@@ -180,9 +180,7 @@ function renderCards() {
 }
 
 function renderNote() {
-  const parts = [];
-  if (valuer.updated) parts.push(`Market prices from TCGplayer, updated ${priceDate(valuer.updated)}.`);
-  if (CONVERTED[valuer.cur]) parts.push(`${CONVERTED[valuer.cur]} values are converted from US dollars, so they’re approximate.`);
+  const parts = priceNotes(valuer, valuer.cur);
   parts.push('Prices don’t account for condition, so agree the final values with the person you’re trading with.');
   $('note').textContent = parts.join(' ');
 }
@@ -196,25 +194,35 @@ function render() {
 
 function priceBlock(card) {
   const price = priceOf(card);
-  const entry = page.sets.get(page.id).prices?.cards?.[card.id] || null;
-  const updated = priceDate(page.sets.get(page.id).prices?.updated);
-  const converted = CONVERTED[valuer.cur] ? ' Converted from US dollars, so it’s approximate.' : '';
+  const prices = page.sets.get(page.id).prices;
+  const entry = prices?.cards?.[card.id] || null;
+  const updated = priceDate(prices?.updated);
+  const converted = (from) => (valuer.cur !== from ? ` Converted from ${FROM[from]}, so it’s approximate.` : '');
+  const cardmarket = sourceCurrency(prices) === 'eur';
   let figure;
   let hint;
-  if (price.value != null) {
+  let also = null;
+  if (entry?.eur != null && price.value != null) {
+    const cmUpdated = priceDate(prices.cmUpdated);
     figure = money(price.value);
-    hint = `TCGplayer market price${updated ? `, ${updated}` : ''}.${converted}`;
+    hint = `Cardmarket price trend${cmUpdated ? `, ${cmUpdated}` : ''}.${converted('eur')}`;
+    const tcg = entry.usd != null ? convert(entry.usd, valuer.cur, ratesOf(prices)) : null;
+    if (tcg != null) also = el('p', { class: 'info__also' }, 'TCGplayer market price ', el('b', { text: money(tcg) }));
+  } else if (price.value != null) {
+    figure = money(price.value);
+    hint = `TCGplayer market price${updated ? `, ${updated}` : ''}.${cardmarket ? ' Cardmarket has no price for it yet.' : ''}${converted('usd')}`;
   } else if (price.from != null) {
     figure = 'No sales yet';
-    hint = `Listed on TCGplayer from ${money(price.from)}${updated ? `, ${updated}` : ''}.${converted}`;
+    hint = `Listed on TCGplayer from ${money(price.from)}${updated ? `, ${updated}` : ''}.${converted('usd')}`;
   } else {
     figure = 'No price yet';
-    hint = 'TCGplayer doesn’t list this card yet.';
+    hint = `${cardmarket ? 'Cardmarket and TCGplayer don’t' : 'TCGplayer doesn’t'} list this card yet.`;
   }
   const links = page.model.game?.priceLinks?.(card, entry, card.searchQuery) || [];
   return el('section', { class: 'info__block' },
     el('h3', { class: 'field__label', text: 'Market price' }),
     el('p', { class: 'info__price', text: figure }),
+    also,
     el('p', { class: 'hint hint--small', text: hint }),
     links.length ? el('div', { class: 'info__links' }, ...links.map((l) => el('a', { class: 'btn btn--ghost btn--sm', href: l.href, target: '_blank', rel: 'noopener noreferrer' }, l.label, icon('i-external')))) : null);
 }
