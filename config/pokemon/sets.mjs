@@ -113,7 +113,7 @@ const CARDS = [
   })),
   ...RGB_MEWS.map(([letter, colour], i) => {
     const num = `${letter.toUpperCase()}/RGB`;
-    return { id: `rgb-${letter}`, section: 'secret', num, printed: num, code: num, name: 'Mew', rarity: 'RGB', keywords: colour, idx: IDX.rgb + i };
+    return { id: `rgb-${letter}`, section: 'rgb', num, printed: num, code: num, name: 'Mew', rarity: 'RGB', keywords: colour, idx: IDX.rgb + i };
   }),
 ];
 
@@ -129,6 +129,8 @@ const promoDetails = {
   '099': 'The box also has an oversize Jumbo version of this card.',
   '100': 'The box also has an oversize Jumbo version of this card.',
   '101': 'The Pokémon Center Elite Trainer Box has this card as well as a Pokémon Center-stamped version.',
+  '102': 'The deck’s 60 cards are all foil, each with its original set number and a 30th Celebration stamp.',
+  '103': 'The deck’s 60 cards are all foil, each with its original set number and a 30th Celebration stamp.',
   '104': 'The collection also has an oversize Jumbo version of this card and a Mewtwo figure.',
   '105': 'The collection also has an oversize Jumbo version of this card and a Mew figure.',
 };
@@ -163,25 +165,28 @@ const THIRTIETH_CELEBRATION = {
     defaultTier: 'grand',
     sections: [
       { id: 'main', name: 'Main Set', range: '001–128', tier: 'standard' },
-      { id: 'secret', name: 'Secret Rares', range: '129–158 + RGB', tier: 'grand' },
+      { id: 'secret', name: 'Secret Rares', range: '129–158', tier: 'master' },
       {
-        id: 'classic', name: 'Classic Collection', range: '30 reprints', tier: 'grand',
+        id: 'classic', name: 'Classic Collection', range: '30 reprints', tier: 'master',
         display: { number: 'Classic Collection · No. {num}', label: 'Classic Collection {num}', list: '{name} ({num})', chip: '{code} {name}', pocket: '{code}', search: 'Pokemon 30th Celebration Classic Collection {name}' },
       },
+      { id: 'rgb', name: 'RGB Mews', range: 'R, G and B', tier: 'grand' },
     ],
     groups: [
       { id: 'main', name: 'Main Set', match: { section: 'main' } },
       { id: 'pikachu', name: 'Pikachu Rares', match: { rarity: 'PR' }, stat: true },
       { id: 'secret', name: 'Secret Rares', match: { section: 'secret' } },
       { id: 'classic', name: 'Classic Collection', match: { section: 'classic' } },
+      { id: 'rgb', name: 'RGB Mews', match: { section: 'rgb' } },
     ],
     jumps: [
       { id: 'main', label: 'Main Set' },
       { id: 'pikachu', label: 'Pikachu Rares', icon: 'r-pikachu', section: 'main', from: 'm023', to: 'm052' },
       { id: 'secret', label: 'Secret Rares' },
       { id: 'classic', label: 'Classic' },
+      { id: 'rgb', label: 'RGB Mews' },
     ],
-    summary: [['main', 'Main set'], ['secret', 'Secret rares'], ['classic', 'Classic Collection']],
+    summary: [['main', 'Main set'], ['secret', 'Secret rares'], ['classic', 'Classic Collection'], ['rgb', 'RGB Mews']],
     searchAliases: {
       'Nidoran♀': 'female',
       'Metagross δ': 'delta',
@@ -205,10 +210,10 @@ const THIRTIETH_CELEBRATION = {
       },
     },
     help: {
-      tiers: '<b>Standard or Grand Master:</b> pick what you’re collecting above the cards. Standard is the 128 main set cards and Grand Master is all 191 cards. Cards you’ve marked are kept when you switch.',
+      tiers: '<b>Standard, Master or Grand Master:</b> pick what you’re collecting above the cards. Standard is the 128 main set cards, Master adds the secret rares and Classic Collection (188 cards), and Grand Master adds the 3 RGB Mews (all 191 cards). Cards you’ve marked are kept when you switch.',
     },
     info: {
-      packSections: ['main', 'secret', 'classic'],
+      packSections: ['main', 'secret', 'classic', 'rgb'],
       packText: '<p><b>30th Celebration booster packs.</b> Every pack has 6 foil cards: a Pikachu Rare, four more cards from the set and a Basic Energy (listed in ME Energy).</p>',
       sectionText: {
         classic: [
@@ -235,13 +240,13 @@ const THIRTIETH_CELEBRATION = {
       ogDescription: 'Track all 191 cards in the Pokémon TCG 30th Celebration set, including secret rares, the RGB Mews and the Classic Collection. Free, with no ads, no sign-up and no tracking.',
       twitterDescription: 'Track all 191 cards in the Pokémon TCG 30th Celebration set. Free, with no ads, no sign-up and no tracking.',
       imageAlt: '30th Celebration Card Checklist with Pikachu ex, Mew ex, Mewtwo ex and Charizard cards',
-      appDescription: 'Track all 191 cards in the Pokémon TCG 30th Celebration set: the main set, secret rares and Classic Collection.',
+      appDescription: 'Track all 191 cards in the Pokémon TCG 30th Celebration set: the main set, secret rares, Classic Collection and the RGB Mews.',
     },
     about: {
       title: 'About the 30th Celebration set',
       paragraphs: [
-        'Pokémon TCG: 30th Celebration marks 30 years of Pokémon. The set has 191 cards: 128 main set cards, including 30 special Pikachu Rares; 33 secret rares (18 Illustration Rares, 10 Special Illustration Rares, 2 Futuristic Rares and the 3 ultra-rare RGB Mews); and 30 Classic Collection reprints of iconic cards from the game’s history. Its 8 Basic Energy cards are listed in <a href="pokemon/me-energy/">ME Energy</a>, and the promos from 30th Celebration products in <a href="pokemon/me-black-star-promos/">ME Black Star Promos</a>.',
-        'Choose what you’re collecting: the <b>Standard set</b> (the 128 main set cards) or the <b>Grand Master set</b> (all 191 cards).',
+        'Pokémon TCG: 30th Celebration marks 30 years of Pokémon. The set has 191 cards: 128 main set cards, including 30 special Pikachu Rares; 30 secret rares (18 Illustration Rares, 10 Special Illustration Rares and 2 Futuristic Rares); 30 Classic Collection reprints of iconic cards from the game’s history; and the 3 ultra-rare RGB Mews. Its 8 Basic Energy cards are listed in <a href="pokemon/me-energy/">ME Energy</a>, and the promos from 30th Celebration products in <a href="pokemon/me-black-star-promos/">ME Black Star Promos</a>.',
+        'Choose what you’re collecting: the <b>Standard set</b> (the 128 main set cards), the <b>Master set</b> (188 cards, adding the secret rares and the Classic Collection) or the <b>Grand Master set</b> (all 191 cards, adding the RGB Mews).',
         'This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.',
       ],
     },

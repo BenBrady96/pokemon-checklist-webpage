@@ -20,14 +20,14 @@
     {
       "id": "secret",
       "name": "Secret Rares",
-      "range": "129–158 + RGB",
-      "tier": "grand"
+      "range": "129–158",
+      "tier": "master"
     },
     {
       "id": "classic",
       "name": "Classic Collection",
       "range": "30 reprints",
-      "tier": "grand",
+      "tier": "master",
       "display": {
         "number": "Classic Collection · No. {num}",
         "label": "Classic Collection {num}",
@@ -36,6 +36,12 @@
         "pocket": "{code}",
         "search": "Pokemon 30th Celebration Classic Collection {name}"
       }
+    },
+    {
+      "id": "rgb",
+      "name": "RGB Mews",
+      "range": "R, G and B",
+      "tier": "grand"
     }
   ],
   "groups": [
@@ -67,6 +73,13 @@
       "match": {
         "section": "classic"
       }
+    },
+    {
+      "id": "rgb",
+      "name": "RGB Mews",
+      "match": {
+        "section": "rgb"
+      }
     }
   ],
   "jumps": [
@@ -89,6 +102,10 @@
     {
       "id": "classic",
       "label": "Classic"
+    },
+    {
+      "id": "rgb",
+      "label": "RGB Mews"
     }
   ],
   "summary": [
@@ -103,6 +120,10 @@
     [
       "classic",
       "Classic Collection"
+    ],
+    [
+      "rgb",
+      "RGB Mews"
     ]
   ],
   "searchAliases": {
@@ -148,13 +169,14 @@
     }
   },
   "help": {
-    "tiers": "<b>Standard or Grand Master:</b> pick what you’re collecting above the cards. Standard is the 128 main set cards and Grand Master is all 191 cards. Cards you’ve marked are kept when you switch."
+    "tiers": "<b>Standard, Master or Grand Master:</b> pick what you’re collecting above the cards. Standard is the 128 main set cards, Master adds the secret rares and Classic Collection (188 cards), and Grand Master adds the 3 RGB Mews (all 191 cards). Cards you’ve marked are kept when you switch."
   },
   "info": {
     "packSections": [
       "main",
       "secret",
-      "classic"
+      "classic",
+      "rgb"
     ],
     "packText": "<p><b>30th Celebration booster packs.</b> Every pack has 6 foil cards: a Pikachu Rare, four more cards from the set and a Basic Energy (listed in ME Energy).</p>",
     "sectionText": {
@@ -202,13 +224,13 @@
     "ogDescription": "Track all 191 cards in the Pokémon TCG 30th Celebration set, including secret rares, the RGB Mews and the Classic Collection. Free, with no ads, no sign-up and no tracking.",
     "twitterDescription": "Track all 191 cards in the Pokémon TCG 30th Celebration set. Free, with no ads, no sign-up and no tracking.",
     "imageAlt": "30th Celebration Card Checklist with Pikachu ex, Mew ex, Mewtwo ex and Charizard cards",
-    "appDescription": "Track all 191 cards in the Pokémon TCG 30th Celebration set: the main set, secret rares and Classic Collection."
+    "appDescription": "Track all 191 cards in the Pokémon TCG 30th Celebration set: the main set, secret rares, Classic Collection and the RGB Mews."
   },
   "about": {
     "title": "About the 30th Celebration set",
     "paragraphs": [
-      "Pokémon TCG: 30th Celebration marks 30 years of Pokémon. The set has 191 cards: 128 main set cards, including 30 special Pikachu Rares; 33 secret rares (18 Illustration Rares, 10 Special Illustration Rares, 2 Futuristic Rares and the 3 ultra-rare RGB Mews); and 30 Classic Collection reprints of iconic cards from the game’s history. Its 8 Basic Energy cards are listed in <a href=\"pokemon/me-energy/\">ME Energy</a>, and the promos from 30th Celebration products in <a href=\"pokemon/me-black-star-promos/\">ME Black Star Promos</a>.",
-      "Choose what you’re collecting: the <b>Standard set</b> (the 128 main set cards) or the <b>Grand Master set</b> (all 191 cards).",
+      "Pokémon TCG: 30th Celebration marks 30 years of Pokémon. The set has 191 cards: 128 main set cards, including 30 special Pikachu Rares; 30 secret rares (18 Illustration Rares, 10 Special Illustration Rares and 2 Futuristic Rares); 30 Classic Collection reprints of iconic cards from the game’s history; and the 3 ultra-rare RGB Mews. Its 8 Basic Energy cards are listed in <a href=\"pokemon/me-energy/\">ME Energy</a>, and the promos from 30th Celebration products in <a href=\"pokemon/me-black-star-promos/\">ME Black Star Promos</a>.",
+      "Choose what you’re collecting: the <b>Standard set</b> (the 128 main set cards), the <b>Master set</b> (188 cards, adding the secret rares and the Classic Collection) or the <b>Grand Master set</b> (all 191 cards, adding the RGB Mews).",
       "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device."
     ]
   },
@@ -401,8 +423,8 @@
     {"id":"c28","section":"classic","num":"114","printed":"114","code":"C28","name":"Mew VMAX","rarity":"CC","idx":185},
     {"id":"c29","section":"classic","num":"123","printed":"123","code":"C29","name":"Arceus VSTAR","rarity":"CC","idx":186},
     {"id":"c30","section":"classic","num":"203","printed":"203","code":"C30","name":"Magikarp","rarity":"CC","idx":187},
-    {"id":"rgb-r","section":"secret","num":"R/RGB","printed":"R/RGB","code":"R/RGB","name":"Mew","rarity":"RGB","keywords":"Red","idx":196},
-    {"id":"rgb-g","section":"secret","num":"G/RGB","printed":"G/RGB","code":"G/RGB","name":"Mew","rarity":"RGB","keywords":"Green","idx":197},
-    {"id":"rgb-b","section":"secret","num":"B/RGB","printed":"B/RGB","code":"B/RGB","name":"Mew","rarity":"RGB","keywords":"Blue","idx":198}
+    {"id":"rgb-r","section":"rgb","num":"R/RGB","printed":"R/RGB","code":"R/RGB","name":"Mew","rarity":"RGB","keywords":"Red","idx":196},
+    {"id":"rgb-g","section":"rgb","num":"G/RGB","printed":"G/RGB","code":"G/RGB","name":"Mew","rarity":"RGB","keywords":"Green","idx":197},
+    {"id":"rgb-b","section":"rgb","num":"B/RGB","printed":"B/RGB","code":"B/RGB","name":"Mew","rarity":"RGB","keywords":"Blue","idx":198}
   ]
 }

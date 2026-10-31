@@ -104,7 +104,7 @@ for (const entry of CONFIG) {
 }
 
 const tiersOf = (id) => models.get(id)?.visibleTiers.map((t) => t.id).join(' ');
-check(tiersOf('pokemon/30th-celebration') === 'standard grand', `30th Celebration tiers: ${tiersOf('pokemon/30th-celebration')}`);
+check(tiersOf('pokemon/30th-celebration') === 'standard master grand', `30th Celebration tiers: ${tiersOf('pokemon/30th-celebration')}`);
 check(tiersOf('pokemon/mega-evolution') === 'standard master grand', `Mega Evolution tiers: ${tiersOf('pokemon/mega-evolution')}`);
 check(tiersOf('pokemon/sv-black-star-promos') === 'standard' && tiersOf('pokemon/me-black-star-promos') === 'standard', `Promo lists have no tiers: ${tiersOf('pokemon/sv-black-star-promos')} and ${tiersOf('pokemon/me-black-star-promos')}`);
 check(tiersOf('pokemon/me-energy') === 'standard' && tiersOf('pokemon/sv-energy') === 'standard', `Energy tiers: ${tiersOf('pokemon/me-energy')} and ${tiersOf('pokemon/sv-energy')}`);
@@ -113,9 +113,10 @@ for (const model of models.values()) {
   const ids = model.sections.map((s) => s.id);
   check(!ids.includes('special') && !ids.includes('variant') && !model.cards.some((c) => c.base), `${model.id}: no stamped or other special prints`);
   const tierCards = (tier) => model.sections.filter((s) => s.tier === tier).flatMap((s) => model.cardsBySection.get(s.id));
-  check(tierCards('master').every((c) => c.variant) && tierCards('standard').every((c) => !c.variant), `${model.id}: Master adds only variants (reverse holos, patterns and 1st Editions, or other rarities)`);
+  const thirtieth = model.id === 'pokemon/30th-celebration';
+  check((thirtieth || tierCards('master').every((c) => c.variant)) && tierCards('standard').every((c) => !c.variant), `${model.id}: Master adds only variants (reverse holos, patterns and 1st Editions, or other rarities)`);
   if (model.game.id !== 'pokemon') continue;
-  if (ids.includes('secret')) {
+  if (ids.includes('secret') && !thirtieth) {
     check(model.getTier('master').sections.every((s) => ids.indexOf(s.id) < ids.indexOf('secret')) && model.lowestTier('secret')?.id === 'grand', `${model.id}: secret rares come after the reverse holos and patterns, in Grand Master`);
   }
   if (model.kind === 'expansion' || model.kind === 'energy') check(!model.cards.some((c) => c.rarity === 'P'), `${model.id}: promos are only in the promo lists and special collections`);
@@ -125,8 +126,9 @@ check(models.get('pokemon/me-black-star-promos')?.cardById.get('094')?.note === 
 const meg = models.get('pokemon/mega-evolution');
 check(meg?.visibleTiers.map((t) => t.cards.length).join() === `${meg?.cardsBySection.get('main').length},${meg?.cards.length - meg?.cardsBySection.get('secret').length},${meg?.cards.length}`, 'Mega Evolution tiers are main set, then reverse holos, then secret rares');
 const thirty = models.get('pokemon/30th-celebration');
-check(thirty?.visibleTiers.map((t) => t.cards.length).join() === '128,191', '30th Celebration tier sizes are 128 and 191');
-check(thirty?.sections.map((s) => s.id).join() === 'main,secret,classic', '30th Celebration order is main set, secret rares, Classic Collection');
+check(thirty?.visibleTiers.map((t) => t.cards.length).join() === '128,188,191', '30th Celebration tier sizes are 128, 188 and 191');
+check(thirty?.sections.map((s) => s.id).join() === 'main,secret,classic,rgb', '30th Celebration order is main set, secret rares, Classic Collection, RGB Mews');
+check(thirty?.lowestTier('secret')?.id === 'master' && thirty.lowestTier('classic')?.id === 'master' && thirty.lowestTier('rgb')?.id === 'grand', '30th Celebration Master adds the secret rares and Classic Collection, and only Grand Master has the RGB Mews');
 
 const shareCode = thirty ? encodeCollection(thirty, { m001: 1, m005: 3, c08: 2 }) : '';
 check(parseSyncText(`https://example.com/pokemon/30th-celebration/#sync=${shareCode}`)?.source === 'link', 'a pasted link is read');
