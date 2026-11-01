@@ -17,9 +17,8 @@
       "tier": "standard"
     },
     {
-      "id": "rarities",
-      "name": "Other Rarities",
-      "short": "Other Rarities",
+      "id": "r-str",
+      "name": "Starlight Rares",
       "range": "4 cards",
       "tier": "master"
     }
@@ -30,8 +29,8 @@
       "Main set"
     ],
     [
-      "rarities",
-      "Other rarities"
+      "r-str",
+      "Starlight Rares"
     ]
   ],
   "quickAdd": {
@@ -76,7 +75,6 @@
     {"id":"005","section":"main","num":"005","printed":"DIFO-EN005","name":"Therion \"Duke\" Yul","ctype":"monster","keywords":"Therion Psychic LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Psychic / Effect","atk":2100,"def":2800},"rarity":"C","img":"57111330","code":"5","tcg":271644,"grp":3029,"idx":5},
     {"id":"006","section":"main","num":"006","printed":"DIFO-EN006","name":"Therion \"Lily\" Borea","ctype":"monster","keywords":"Therion Plant WIND Effect Monster","stats":{"a":"WIND","l":"Level 8","t":"Plant / Effect","atk":2400,"def":2500},"rarity":"ScR","img":"83610035","code":"6","tcg":271645,"grp":3029,"idx":6},
     {"id":"007","section":"main","num":"007","printed":"DIFO-EN007","name":"Therion \"King\" Regulus","ctype":"monster","keywords":"Therion Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 8","t":"Machine / Effect","atk":2800,"def":1600},"rarity":"ScR","img":"10604644","code":"7","tcg":271647,"grp":3029,"idx":7},
-    {"id":"007-str","section":"rarities","num":"007","printed":"DIFO-EN007","name":"Therion \"King\" Regulus","ctype":"monster","keywords":"Therion Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 8","t":"Machine / Effect","atk":2800,"def":1600},"rarity":"StR","img":"10604644","badge":"StR","variant":"Starlight Rare","code":"STR7","tcg":271651,"grp":3029,"idx":8},
     {"id":"008","section":"main","num":"008","printed":"DIFO-EN008","name":"Visas Starfrost","ctype":"monster","keywords":"Warrior LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Warrior / Tuner","atk":2100,"def":1500},"rarity":"ScR","img":"56099748","code":"8","tcg":271649,"grp":3029,"idx":9},
     {"id":"009","section":"main","num":"009","printed":"DIFO-EN009","name":"Scareclaw Astra","ctype":"monster","keywords":"Scareclaw Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Beast / Effect","atk":0,"def":1300},"rarity":"C","img":"83488497","code":"9","tcg":271652,"grp":3029,"idx":10},
     {"id":"010","section":"main","num":"010","printed":"DIFO-EN010","name":"Scareclaw Belone","ctype":"monster","keywords":"Scareclaw Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Beast / Effect","atk":0,"def":1700},"rarity":"C","img":"19882096","code":"10","tcg":271654,"grp":3029,"idx":11},
@@ -105,7 +103,6 @@
     {"id":"033","section":"main","num":"033","printed":"DIFO-EN033","name":"Devouring Sarcoughagus","ctype":"monster","keywords":"Zombie DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Zombie / Effect","atk":0,"def":0},"rarity":"C","img":"30037118","code":"33","tcg":271792,"grp":3029,"idx":34},
     {"id":"034","section":"main","num":"034","printed":"DIFO-EN034","name":"Odd-Eyes Pendulumgraph Dragon","ctype":"monster","keywords":"Odd-Eyes Dragon LIGHT Pendulum Effect Ritual Monster","stats":{"a":"LIGHT","l":"Level 7","t":"Dragon / Pendulum / Effect / Ritual","atk":2700,"def":2500},"rarity":"ScR","img":"66425726","code":"34","tcg":271703,"grp":3029,"idx":35},
     {"id":"035","section":"main","num":"035","printed":"DIFO-EN035","name":"Alba-Lenatus the Abyss Dragon","ctype":"monster","keywords":"Dragon DARK Fusion Monster","stats":{"a":"DARK","l":"Level 8","t":"Dragon / Fusion","atk":2500,"def":2500},"rarity":"ScR","img":"3410461","code":"35","tcg":271706,"grp":3029,"idx":36},
-    {"id":"035-str","section":"rarities","num":"035","printed":"DIFO-EN035","name":"Alba-Lenatus the Abyss Dragon","ctype":"monster","keywords":"Dragon DARK Fusion Monster","stats":{"a":"DARK","l":"Level 8","t":"Dragon / Fusion","atk":2500,"def":2500},"rarity":"StR","img":"3410461","badge":"StR","variant":"Starlight Rare","code":"STR35","tcg":272515,"grp":3029,"idx":37},
     {"id":"036","section":"main","num":"036","printed":"DIFO-EN036","name":"Starving Venom Predapower Fusion Dragon","ctype":"monster","keywords":"Predaplant Dragon DARK Fusion Monster","stats":{"a":"DARK","l":"Level 10","t":"Dragon / Fusion","atk":3600,"def":2500},"rarity":"UR","img":"39915560","code":"36","tcg":271708,"grp":3029,"idx":38},
     {"id":"037","section":"main","num":"037","printed":"DIFO-EN037","name":"Predaplant Ambulomelides","ctype":"monster","keywords":"Predaplant Plant DARK Fusion Monster","stats":{"a":"DARK","l":"Level 5","t":"Plant / Fusion","atk":1000,"def":2500},"rarity":"C","img":"66309175","code":"37","tcg":271725,"grp":3029,"idx":39},
     {"id":"038","section":"main","num":"038","printed":"DIFO-EN038","name":"Dinomorphia Rexterm","ctype":"monster","keywords":"Dinomorphia Dinosaur DARK Fusion Monster","stats":{"a":"DARK","l":"Level 8","t":"Dinosaur / Fusion","atk":3000,"def":0},"rarity":"UR","img":"92798873","code":"38","tcg":271726,"grp":3029,"idx":40},
@@ -117,7 +114,6 @@
     {"id":"044","section":"main","num":"044","printed":"DIFO-EN044","name":"Heroic Champion - Claivesolish","ctype":"monster","keywords":"Heroic Warrior LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 4","t":"Warrior / Xyz","atk":2500,"def":2000},"rarity":"SR","img":"97453744","code":"44","tcg":271731,"grp":3029,"idx":46},
     {"id":"045","section":"main","num":"045","printed":"DIFO-EN045","name":"Heroic Champion - Jarngreipr","ctype":"monster","keywords":"Heroic Warrior EARTH Xyz Monster","stats":{"a":"EARTH","l":"Rank 1","t":"Warrior / Xyz","atk":700,"def":1800},"rarity":"C","img":"23848752","code":"45","tcg":271732,"grp":3029,"idx":47},
     {"id":"046","section":"main","num":"046","printed":"DIFO-EN046","name":"Exosisters Magnifica","ctype":"monster","keywords":"Exosister Warrior LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 8","t":"Warrior / Xyz","atk":2800,"def":2800},"rarity":"UR","img":"59242457","code":"46","tcg":271733,"grp":3029,"idx":48},
-    {"id":"046-str","section":"rarities","num":"046","printed":"DIFO-EN046","name":"Exosisters Magnifica","ctype":"monster","keywords":"Exosister Warrior LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 8","t":"Warrior / Xyz","atk":2800,"def":2800},"rarity":"StR","img":"59242457","badge":"StR","variant":"Starlight Rare","code":"STR46","tcg":272516,"grp":3029,"idx":49},
     {"id":"047","section":"main","num":"047","printed":"DIFO-EN047","name":"Musical Sumo Dice Games","ctype":"monster","keywords":"Machine FIRE Xyz Monster","stats":{"a":"FIRE","l":"Rank 6","t":"Machine / Xyz","atk":600,"def":3000},"rarity":"C","img":"96637156","code":"47","tcg":271734,"grp":3029,"idx":50},
     {"id":"048","section":"main","num":"048","printed":"DIFO-EN048","name":"Beyond the Pendulum","ctype":"monster","keywords":"Pendulum Spellcaster DARK Link Monster","stats":{"a":"DARK","l":"Link 2","t":"Spellcaster / Link","atk":1200},"rarity":"ScR","img":"22125101","code":"48","tcg":271735,"grp":3029,"idx":51},
     {"id":"049","section":"main","num":"049","printed":"DIFO-EN049","name":"Scareclaw Tri-Heart","ctype":"monster","keywords":"Scareclaw Beast-Warrior DARK Link Monster","stats":{"a":"DARK","l":"Link 3","t":"Beast-Warrior / Link","atk":3000},"rarity":"ScR","img":"59120809","code":"49","tcg":271736,"grp":3029,"idx":52},
@@ -155,7 +151,6 @@
     {"id":"081","section":"main","num":"081","printed":"DIFO-EN081","name":"Colonel on C-String","ctype":"monster","keywords":"Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Effect","atk":1400,"def":1600},"rarity":"C","img":"54656181","code":"81","tcg":271800,"grp":3029,"idx":84},
     {"id":"082","section":"main","num":"082","printed":"DIFO-EN082","name":"Navy Dragon Mech","ctype":"monster","keywords":"Machine WATER Synchro Monster","stats":{"a":"WATER","l":"Level 9","t":"Machine / Synchro","atk":2700,"def":1800},"rarity":"SR","img":"80040886","code":"82","tcg":271801,"grp":3029,"idx":85},
     {"id":"083","section":"main","num":"083","printed":"DIFO-EN083","name":"Patissciel Couverture","ctype":"monster","keywords":"Patissciel Fairy DARK Pendulum Effect Fusion Monster","stats":{"a":"DARK","l":"Level 5","t":"Fairy / Pendulum / Effect / Fusion","atk":1700,"def":700},"rarity":"SR","img":"26435595","code":"83","tcg":271803,"grp":3029,"idx":86},
-    {"id":"083-str","section":"rarities","num":"083","printed":"DIFO-EN083","name":"Patissciel Couverture","ctype":"monster","keywords":"Patissciel Fairy DARK Pendulum Effect Fusion Monster","stats":{"a":"DARK","l":"Level 5","t":"Fairy / Pendulum / Effect / Fusion","atk":1700,"def":700},"rarity":"StR","img":"26435595","badge":"StR","variant":"Starlight Rare","code":"STR83","tcg":272517,"grp":3029,"idx":87},
     {"id":"084","section":"main","num":"084","printed":"DIFO-EN084","name":"Omega Judgment","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"53923690","code":"84","tcg":271804,"grp":3029,"idx":88},
     {"id":"085","section":"main","num":"085","printed":"DIFO-EN085","name":"Backup Team","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"89328238","code":"85","tcg":271806,"grp":3029,"idx":89},
     {"id":"086","section":"main","num":"086","printed":"DIFO-EN086","name":"Libromancer Mystigirl","ctype":"monster","keywords":"Libromancer Fairy LIGHT Ritual Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fairy / Ritual / Effect","atk":1400,"def":2100},"rarity":"SR","img":"52707042","code":"86","tcg":271807,"grp":3029,"idx":90},
@@ -172,6 +167,10 @@
     {"id":"097","section":"main","num":"097","printed":"DIFO-EN097","name":"Curse of Dragon, the Magical Knight Dragon","ctype":"monster","keywords":"Curse of Dragon Dragon DARK Fusion Monster","stats":{"a":"DARK","l":"Level 5","t":"Dragon / Fusion","atk":2000,"def":1500},"rarity":"SR","img":"72064891","code":"97","tcg":271820,"grp":3029,"idx":101},
     {"id":"098","section":"main","num":"098","printed":"DIFO-EN098","name":"Odd-Eyes Wing Dragon","ctype":"monster","keywords":"Clear Wing Dragon DARK Synchro Pendulum Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Dragon / Synchro / Pendulum / Effect","atk":3000,"def":2500},"rarity":"SR","img":"58074177","code":"98","tcg":271822,"grp":3029,"idx":102},
     {"id":"099","section":"main","num":"099","printed":"DIFO-EN099","name":"V-LAN Hydra","ctype":"monster","keywords":"Cyberse LIGHT Link Monster","stats":{"a":"LIGHT","l":"Link 3","t":"Cyberse / Link","atk":1900},"rarity":"C","img":"13536606","code":"99","tcg":271823,"grp":3029,"idx":103},
-    {"id":"100","section":"main","num":"100","printed":"DIFO-EN100","name":"Ghost Belle & Haunted Mansion","ctype":"monster","keywords":"Zombie EARTH Tuner Monster","stats":{"a":"EARTH","l":"Level 3","t":"Zombie / Tuner","atk":0,"def":1800},"rarity":"StR","img":"73642296","code":"100","tcg":271824,"grp":3029,"idx":104}
+    {"id":"100","section":"main","num":"100","printed":"DIFO-EN100","name":"Ghost Belle & Haunted Mansion","ctype":"monster","keywords":"Zombie EARTH Tuner Monster","stats":{"a":"EARTH","l":"Level 3","t":"Zombie / Tuner","atk":0,"def":1800},"rarity":"StR","img":"73642296","code":"100","tcg":271824,"grp":3029,"idx":104},
+    {"id":"007-str","section":"r-str","num":"007","printed":"DIFO-EN007","name":"Therion \"King\" Regulus","ctype":"monster","keywords":"Therion Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 8","t":"Machine / Effect","atk":2800,"def":1600},"rarity":"StR","img":"10604644","badge":"StR","variant":"Starlight Rare","code":"STR7","tcg":271651,"grp":3029,"idx":8},
+    {"id":"035-str","section":"r-str","num":"035","printed":"DIFO-EN035","name":"Alba-Lenatus the Abyss Dragon","ctype":"monster","keywords":"Dragon DARK Fusion Monster","stats":{"a":"DARK","l":"Level 8","t":"Dragon / Fusion","atk":2500,"def":2500},"rarity":"StR","img":"3410461","badge":"StR","variant":"Starlight Rare","code":"STR35","tcg":272515,"grp":3029,"idx":37},
+    {"id":"046-str","section":"r-str","num":"046","printed":"DIFO-EN046","name":"Exosisters Magnifica","ctype":"monster","keywords":"Exosister Warrior LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 8","t":"Warrior / Xyz","atk":2800,"def":2800},"rarity":"StR","img":"59242457","badge":"StR","variant":"Starlight Rare","code":"STR46","tcg":272516,"grp":3029,"idx":49},
+    {"id":"083-str","section":"r-str","num":"083","printed":"DIFO-EN083","name":"Patissciel Couverture","ctype":"monster","keywords":"Patissciel Fairy DARK Pendulum Effect Fusion Monster","stats":{"a":"DARK","l":"Level 5","t":"Fairy / Pendulum / Effect / Fusion","atk":1700,"def":700},"rarity":"StR","img":"26435595","badge":"StR","variant":"Starlight Rare","code":"STR83","tcg":272517,"grp":3029,"idx":87}
   ]
 }

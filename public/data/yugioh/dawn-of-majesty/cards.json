@@ -17,9 +17,8 @@
       "tier": "standard"
     },
     {
-      "id": "rarities",
-      "name": "Other Rarities",
-      "short": "Other Rarities",
+      "id": "r-str",
+      "name": "Starlight Rares",
       "range": "4 cards",
       "tier": "master"
     }
@@ -30,8 +29,8 @@
       "Main set"
     ],
     [
-      "rarities",
-      "Other rarities"
+      "r-str",
+      "Starlight Rares"
     ]
   ],
   "quickAdd": {
@@ -78,7 +77,6 @@
     {"id":"007","section":"main","num":"007","printed":"DAMA-EN007","name":"Dramaturge of Despia","ctype":"monster","keywords":"Despia Fairy DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Fairy / Effect","atk":3000,"def":1500},"rarity":"UR","img":"99456344","code":"7","tcg":245703,"grp":2843,"idx":7},
     {"id":"008","section":"main","num":"008","printed":"DAMA-EN008","name":"Albion the Shrouded Dragon","ctype":"monster","keywords":"Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Dragon / Effect","atk":2500,"def":2000},"rarity":"SR","img":"25451383","code":"8","tcg":245775,"grp":2843,"idx":8},
     {"id":"009","section":"main","num":"009","printed":"DAMA-EN009","name":"The Iris Swordsoul","ctype":"monster","keywords":"Swordsoul Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Spellcaster / Effect","atk":2500,"def":2500},"rarity":"ScR","img":"62849088","code":"9","tcg":245704,"grp":2843,"idx":9},
-    {"id":"009-str","section":"rarities","num":"009","printed":"DAMA-EN009","name":"The Iris Swordsoul","ctype":"monster","keywords":"Swordsoul Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Spellcaster / Effect","atk":2500,"def":2500},"rarity":"StR","img":"62849088","badge":"StR","variant":"Starlight Rare","code":"STR9","tcg":246276,"grp":2843,"idx":10},
     {"id":"010","section":"main","num":"010","printed":"DAMA-EN010","name":"Clavkiys, the Magikey Skyblaster","ctype":"monster","keywords":"Magikey Warrior DARK Normal Monster","stats":{"a":"DARK","l":"Level 4","t":"Warrior / Normal","atk":1900,"def":1900},"rarity":"C","img":"98234196","code":"10","tcg":245705,"grp":2843,"idx":11},
     {"id":"011","section":"main","num":"011","printed":"DAMA-EN011","name":"Gunkan Suship Shari","ctype":"monster","keywords":"Gunkan Aqua FIRE Normal Monster","stats":{"a":"FIRE","l":"Level 4","t":"Aqua / Normal","atk":2000,"def":0},"rarity":"C","img":"24639891","code":"11","tcg":245706,"grp":2843,"idx":12},
     {"id":"012","section":"main","num":"012","printed":"DAMA-EN012","name":"Gunkan Suship Ikura","ctype":"monster","keywords":"Gunkan Aqua FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Aqua / Effect","atk":200,"def":300},"rarity":"C","img":"61027400","code":"12","tcg":245707,"grp":2843,"idx":13},
@@ -94,9 +92,7 @@
     {"id":"022","section":"main","num":"022","printed":"DAMA-EN022","name":"Carpiponica, Mystical Beast of the Forest","ctype":"monster","keywords":"Mystical Beast of the Forest Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 7","t":"Beast / Effect","atk":1000,"def":2600},"rarity":"C","img":"85055821","code":"22","tcg":245776,"grp":2843,"idx":23},
     {"id":"023","section":"main","num":"023","printed":"DAMA-EN023","name":"Glacier Aqua Madoor","ctype":"monster","keywords":"Madoor Spellcaster WATER Effect Monster","stats":{"a":"WATER","l":"Level 6","t":"Spellcaster / Effect","atk":1200,"def":3000},"rarity":"C","img":"11449436","code":"23","tcg":245777,"grp":2843,"idx":24},
     {"id":"024","section":"main","num":"024","printed":"DAMA-EN024","name":"Antihuman Intelligence ME-PSY-YA","ctype":"monster","keywords":"Cyberse LIGHT Pendulum Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Cyberse / Pendulum / Effect","atk":2500,"def":3000},"rarity":"ScR","img":"58844135","code":"24","tcg":245778,"grp":2843,"idx":25},
-    {"id":"024-str","section":"rarities","num":"024","printed":"DAMA-EN024","name":"Antihuman Intelligence ME-PSY-YA","ctype":"monster","keywords":"Cyberse LIGHT Pendulum Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Cyberse / Pendulum / Effect","atk":2500,"def":3000},"rarity":"StR","img":"58844135","badge":"StR","variant":"Starlight Rare","code":"STR24","tcg":246277,"grp":2843,"idx":26},
     {"id":"025","section":"main","num":"025","printed":"DAMA-EN025","name":"Protecting Spirit Loagaeth","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 7","t":"Fairy / Effect","atk":2400,"def":2100},"rarity":"UR","img":"84339249","code":"25","tcg":245779,"grp":2843,"idx":27},
-    {"id":"025-str","section":"rarities","num":"025","printed":"DAMA-EN025","name":"Protecting Spirit Loagaeth","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 7","t":"Fairy / Effect","atk":2400,"def":2100},"rarity":"StR","img":"84339249","badge":"StR","variant":"Starlight Rare","code":"STR25","tcg":246278,"grp":2843,"idx":28},
     {"id":"026","section":"main","num":"026","printed":"DAMA-EN026","name":"Master's Diploman","ctype":"monster","keywords":"Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 5","t":"Machine / Effect","atk":2000,"def":2000},"rarity":"C","img":"11327848","code":"26","tcg":245780,"grp":2843,"idx":29},
     {"id":"027","section":"main","num":"027","printed":"DAMA-EN027","name":"Konohanasakuya","ctype":"monster","keywords":"Fairy EARTH Spirit Monster","stats":{"a":"EARTH","l":"Level 3","t":"Fairy / Spirit","atk":1300,"def":1300},"rarity":"C","img":"57722593","code":"27","tcg":245781,"grp":2843,"idx":30},
     {"id":"028","section":"main","num":"028","printed":"DAMA-EN028","name":"Doombearer Psychopompos","ctype":"monster","keywords":"Zombie EARTH Tuner Monster","stats":{"a":"EARTH","l":"Level 2","t":"Zombie / Tuner","atk":0,"def":0},"rarity":"C","img":"83116692","code":"28","tcg":245782,"grp":2843,"idx":31},
@@ -111,7 +107,6 @@
     {"id":"037","section":"main","num":"037","printed":"DAMA-EN037","name":"Magikey Dragon - Andrabime","ctype":"monster","keywords":"Magikey Dragon WIND Fusion Monster","stats":{"a":"WIND","l":"Level 8","t":"Dragon / Fusion","atk":2800,"def":2000},"rarity":"SR","img":"71159974","code":"37","tcg":245791,"grp":2843,"idx":40},
     {"id":"038","section":"main","num":"038","printed":"DAMA-EN038","name":"Allvain the Essence of Vanity","ctype":"monster","keywords":"Fairy DARK Fusion Monster","stats":{"a":"DARK","l":"Level 2","t":"Fairy / Fusion","atk":0,"def":2100},"rarity":"C","img":"3544583","code":"38","tcg":245792,"grp":2843,"idx":41},
     {"id":"039","section":"main","num":"039","printed":"DAMA-EN039","name":"Shooting Majestic Star Dragon","ctype":"monster","keywords":"Majestic Dragon WIND Synchro Monster","stats":{"a":"WIND","l":"Level 11","t":"Dragon / Synchro","atk":4000,"def":3300},"rarity":"ScR","img":"40939228","code":"39","tcg":245793,"grp":2843,"idx":42},
-    {"id":"039-str","section":"rarities","num":"039","printed":"DAMA-EN039","name":"Shooting Majestic Star Dragon","ctype":"monster","keywords":"Majestic Dragon WIND Synchro Monster","stats":{"a":"WIND","l":"Level 11","t":"Dragon / Synchro","atk":4000,"def":3300},"rarity":"StR","img":"40939228","badge":"StR","variant":"Starlight Rare","code":"STR39","tcg":246279,"grp":2843,"idx":43},
     {"id":"040","section":"main","num":"040","printed":"DAMA-EN040","name":"Daigusto Laplampilica","ctype":"monster","keywords":"Gusto Psychic WIND Synchro Monster","stats":{"a":"WIND","l":"Level 6","t":"Psychic / Synchro","atk":1900,"def":2600},"rarity":"SR","img":"76937326","code":"40","tcg":245794,"grp":2843,"idx":44},
     {"id":"041","section":"main","num":"041","printed":"DAMA-EN041","name":"Stellar Wind Wolfrayet","ctype":"monster","keywords":"Beast WIND Synchro Monster","stats":{"a":"WIND","l":"Level 9","t":"Beast / Synchro","atk":2500,"def":0},"rarity":"UR","img":"3322931","code":"41","tcg":245795,"grp":2843,"idx":45},
     {"id":"042","section":"main","num":"042","printed":"DAMA-EN042","name":"Gaiarmor Dragonshell","ctype":"monster","keywords":"Dragon EARTH Synchro Monster","stats":{"a":"EARTH","l":"Level 6","t":"Dragon / Synchro","atk":2000,"def":1300},"rarity":"C","img":"49816630","code":"42","tcg":245796,"grp":2843,"idx":46},
@@ -172,6 +167,10 @@
     {"id":"097","section":"main","num":"097","printed":"DAMA-EN097","name":"Two Toads with One Sting","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"6203182","code":"97","tcg":245851,"grp":2843,"idx":101},
     {"id":"098","section":"main","num":"098","printed":"DAMA-EN098","name":"Trickstar Festival","ctype":"spell","keywords":"Trickstar Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"62481203","code":"98","tcg":245852,"grp":2843,"idx":102},
     {"id":"099","section":"main","num":"099","printed":"DAMA-EN099","name":"Gouki Finishing Move","ctype":"spell","keywords":"Gouki Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"35870016","code":"99","tcg":245853,"grp":2843,"idx":103},
-    {"id":"100","section":"main","num":"100","printed":"DAMA-EN100","name":"Stardust Dragon","ctype":"monster","keywords":"Stardust Dragon WIND Synchro Monster","stats":{"a":"WIND","l":"Level 8","t":"Dragon / Synchro","atk":2500,"def":2000},"rarity":"StR","img":"44508094","code":"100","tcg":245854,"grp":2843,"idx":104}
+    {"id":"100","section":"main","num":"100","printed":"DAMA-EN100","name":"Stardust Dragon","ctype":"monster","keywords":"Stardust Dragon WIND Synchro Monster","stats":{"a":"WIND","l":"Level 8","t":"Dragon / Synchro","atk":2500,"def":2000},"rarity":"StR","img":"44508094","code":"100","tcg":245854,"grp":2843,"idx":104},
+    {"id":"009-str","section":"r-str","num":"009","printed":"DAMA-EN009","name":"The Iris Swordsoul","ctype":"monster","keywords":"Swordsoul Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Spellcaster / Effect","atk":2500,"def":2500},"rarity":"StR","img":"62849088","badge":"StR","variant":"Starlight Rare","code":"STR9","tcg":246276,"grp":2843,"idx":10},
+    {"id":"024-str","section":"r-str","num":"024","printed":"DAMA-EN024","name":"Antihuman Intelligence ME-PSY-YA","ctype":"monster","keywords":"Cyberse LIGHT Pendulum Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Cyberse / Pendulum / Effect","atk":2500,"def":3000},"rarity":"StR","img":"58844135","badge":"StR","variant":"Starlight Rare","code":"STR24","tcg":246277,"grp":2843,"idx":26},
+    {"id":"025-str","section":"r-str","num":"025","printed":"DAMA-EN025","name":"Protecting Spirit Loagaeth","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 7","t":"Fairy / Effect","atk":2400,"def":2100},"rarity":"StR","img":"84339249","badge":"StR","variant":"Starlight Rare","code":"STR25","tcg":246278,"grp":2843,"idx":28},
+    {"id":"039-str","section":"r-str","num":"039","printed":"DAMA-EN039","name":"Shooting Majestic Star Dragon","ctype":"monster","keywords":"Majestic Dragon WIND Synchro Monster","stats":{"a":"WIND","l":"Level 11","t":"Dragon / Synchro","atk":4000,"def":3300},"rarity":"StR","img":"40939228","badge":"StR","variant":"Starlight Rare","code":"STR39","tcg":246279,"grp":2843,"idx":43}
   ]
 }

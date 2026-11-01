@@ -17,10 +17,21 @@
       "tier": "standard"
     },
     {
-      "id": "rarities",
-      "name": "Other Rarities",
-      "short": "Other Rarities",
-      "range": "13 cards",
+      "id": "r-sp",
+      "name": "Short Prints",
+      "range": "2 cards",
+      "tier": "master"
+    },
+    {
+      "id": "r-utr",
+      "name": "Ultimate Rares",
+      "range": "10 cards",
+      "tier": "master"
+    },
+    {
+      "id": "r-gr",
+      "name": "Ghost Rares",
+      "range": "1 card",
       "tier": "master"
     }
   ],
@@ -30,8 +41,16 @@
       "Main set"
     ],
     [
-      "rarities",
-      "Other rarities"
+      "r-sp",
+      "Short Prints"
+    ],
+    [
+      "r-utr",
+      "Ultimate Rares"
+    ],
+    [
+      "r-gr",
+      "Ghost Rares"
     ]
   ],
   "quickAdd": {
@@ -92,7 +111,6 @@
     {"id":"021","section":"main","num":"021","printed":"GENF-EN021","name":"Airorca","ctype":"monster","keywords":"Sea Serpent WIND Effect Monster","stats":{"a":"WIND","l":"Level 3","t":"Sea Serpent / Effect","atk":1400,"def":300},"rarity":"R","img":"84747429","code":"21","tcg":48040,"grp":209,"idx":21},
     {"id":"022","section":"main","num":"022","printed":"GENF-EN022","name":"Wingtortoise","ctype":"monster","keywords":"Aqua WIND Effect Monster","stats":{"a":"WIND","l":"Level 3","t":"Aqua / Effect","atk":1500,"def":1400},"rarity":"R","img":"10132124","code":"22","tcg":48041,"grp":209,"idx":22},
     {"id":"023","section":"main","num":"023","printed":"GENF-EN023","name":"Space-Time Police","ctype":"monster","keywords":"Psychic WIND Effect Monster","stats":{"a":"WIND","l":"Level 5","t":"Psychic / Effect","atk":2300,"def":1500},"rarity":"UR","img":"47126872","code":"23","tcg":48042,"grp":209,"idx":23},
-    {"id":"023-utr","section":"rarities","num":"023","printed":"GENF-EN023","name":"Space-Time Police","ctype":"monster","keywords":"Psychic WIND Effect Monster","stats":{"a":"WIND","l":"Level 5","t":"Psychic / Effect","atk":2300,"def":1500},"rarity":"UtR","img":"47126872","badge":"UtR","variant":"Ultimate Rare","code":"UTR23","tcg":58394,"grp":209,"idx":24},
     {"id":"024","section":"main","num":"024","printed":"GENF-EN024","name":"Time Escaper","ctype":"monster","keywords":"Psychic EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 2","t":"Psychic / Effect","atk":500,"def":100},"rarity":"SR","img":"73625877","code":"24","tcg":48043,"grp":209,"idx":25},
     {"id":"025","section":"main","num":"025","printed":"GENF-EN025","name":"Gem-Elephant","ctype":"monster","keywords":"Gem- Rock EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Rock / Effect","atk":400,"def":1900},"rarity":"C","img":"19019586","code":"25","tcg":48044,"grp":209,"idx":26},
     {"id":"026","section":"main","num":"026","printed":"GENF-EN026","name":"Laval Magma Cannoneer","ctype":"monster","keywords":"Laval Pyro FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Pyro / Effect","atk":1700,"def":200},"rarity":"C","img":"46404281","code":"26","tcg":48045,"grp":209,"idx":27},
@@ -109,18 +127,12 @@
     {"id":"037","section":"main","num":"037","printed":"GENF-EN037","name":"The Great Emperor Penguin","ctype":"monster","keywords":"Penguin Aqua WATER Effect Monster","stats":{"a":"WATER","l":"Level 5","t":"Aqua / Effect","atk":1800,"def":1500},"rarity":"SP","img":"6836211","code":"37","tcg":48056,"grp":209,"idx":38},
     {"id":"038","section":"main","num":"038","printed":"GENF-EN038","name":"Milla the Temporal Magician","ctype":"monster","keywords":"Magician Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Effect","atk":1800,"def":1000},"rarity":"SP","img":"33225925","code":"38","tcg":48057,"grp":209,"idx":39},
     {"id":"039","section":"main","num":"039","printed":"GENF-EN039","name":"Number 17: Leviathan Dragon","ctype":"monster","keywords":"Dragon WATER Xyz Monster","stats":{"a":"WATER","l":"Rank 3","t":"Dragon / Xyz","atk":2000,"def":0},"rarity":"UR","img":"69610924","code":"39","tcg":48058,"grp":209,"idx":40},
-    {"id":"039-utr","section":"rarities","num":"039","printed":"GENF-EN039","name":"Number 17: Leviathan Dragon","ctype":"monster","keywords":"Dragon WATER Xyz Monster","stats":{"a":"WATER","l":"Rank 3","t":"Dragon / Xyz","atk":2000,"def":0},"rarity":"UtR","img":"69610924","badge":"UtR","variant":"Ultimate Rare","code":"UTR39","tcg":58395,"grp":209,"idx":41},
-    {"id":"039-gr","section":"rarities","num":"039","printed":"GENF-EN039","name":"Number 17: Leviathan Dragon","ctype":"monster","keywords":"Dragon WATER Xyz Monster","stats":{"a":"WATER","l":"Rank 3","t":"Dragon / Xyz","atk":2000,"def":0},"rarity":"GR","img":"69610924","badge":"GR","variant":"Ghost Rare","code":"GR39","tcg":48119,"grp":209,"idx":42},
     {"id":"040","section":"main","num":"040","printed":"GENF-EN040","name":"Submersible Carrier Aero Shark","ctype":"monster","keywords":"Fish WATER Xyz Monster","stats":{"a":"WATER","l":"Rank 3","t":"Fish / Xyz","atk":1900,"def":1000},"rarity":"SR","img":"5014629","code":"40","tcg":48059,"grp":209,"idx":43},
     {"id":"041","section":"main","num":"041","printed":"GENF-EN041","name":"Number 34: Terror-Byte","ctype":"monster","keywords":"Machine DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 3","t":"Machine / Xyz","atk":0,"def":2900},"rarity":"UR","img":"32003338","code":"41","tcg":48060,"grp":209,"idx":44},
-    {"id":"041-utr","section":"rarities","num":"041","printed":"GENF-EN041","name":"Number 34: Terror-Byte","ctype":"monster","keywords":"Machine DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 3","t":"Machine / Xyz","atk":0,"def":2900},"rarity":"UtR","img":"32003338","badge":"UtR","variant":"Ultimate Rare","code":"UTR41","tcg":58396,"grp":209,"idx":45},
     {"id":"042","section":"main","num":"042","printed":"GENF-EN042","name":"Wind-Up Zenmaister","ctype":"monster","keywords":"Wind-Up Machine EARTH Xyz Monster","stats":{"a":"EARTH","l":"Rank 4","t":"Machine / Xyz","atk":1900,"def":1500},"rarity":"UR","img":"68597372","code":"42","tcg":48061,"grp":209,"idx":46},
-    {"id":"042-utr","section":"rarities","num":"042","printed":"GENF-EN042","name":"Wind-Up Zenmaister","ctype":"monster","keywords":"Wind-Up Machine EARTH Xyz Monster","stats":{"a":"EARTH","l":"Rank 4","t":"Machine / Xyz","atk":1900,"def":1500},"rarity":"UtR","img":"68597372","badge":"UtR","variant":"Ultimate Rare","code":"UTR42","tcg":58397,"grp":209,"idx":47},
     {"id":"043","section":"main","num":"043","printed":"GENF-EN043","name":"Leviair the Sea Dragon","ctype":"monster","keywords":"Aqua WIND Xyz Monster","stats":{"a":"WIND","l":"Rank 3","t":"Aqua / Xyz","atk":1800,"def":1600},"rarity":"UR","img":"95992081","code":"43","tcg":48062,"grp":209,"idx":48},
-    {"id":"043-utr","section":"rarities","num":"043","printed":"GENF-EN043","name":"Leviair the Sea Dragon","ctype":"monster","keywords":"Aqua WIND Xyz Monster","stats":{"a":"WIND","l":"Rank 3","t":"Aqua / Xyz","atk":1800,"def":1600},"rarity":"UtR","img":"95992081","badge":"UtR","variant":"Ultimate Rare","code":"UTR43","tcg":58398,"grp":209,"idx":49},
     {"id":"044","section":"main","num":"044","printed":"GENF-EN044","name":"Tiras, Keeper of Genesis","ctype":"monster","keywords":"Fairy LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 5","t":"Fairy / Xyz","atk":2600,"def":1700},"rarity":"ScR","img":"31386180","code":"44","tcg":48063,"grp":209,"idx":50},
     {"id":"045","section":"main","num":"045","printed":"GENF-EN045","name":"Wonder Wand","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"UR","img":"67775894","code":"45","tcg":48064,"grp":209,"idx":51},
-    {"id":"045-utr","section":"rarities","num":"045","printed":"GENF-EN045","name":"Wonder Wand","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"UtR","img":"67775894","badge":"UtR","variant":"Ultimate Rare","code":"UTR45","tcg":58399,"grp":209,"idx":52},
     {"id":"046","section":"main","num":"046","printed":"GENF-EN046","name":"Double or Nothing!","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"94770493","code":"46","tcg":48065,"grp":209,"idx":53},
     {"id":"047","section":"main","num":"047","printed":"GENF-EN047","name":"Thunder Short","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"20264508","code":"47","tcg":48066,"grp":209,"idx":54},
     {"id":"048","section":"main","num":"048","printed":"GENF-EN048","name":"Aqua Jet","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"7653207","code":"48","tcg":48067,"grp":209,"idx":55},
@@ -138,7 +150,6 @@
     {"id":"060","section":"main","num":"060","printed":"GENF-EN060","name":"Oni-Gami Combo","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"90470931","code":"60","tcg":48079,"grp":209,"idx":67},
     {"id":"061","section":"main","num":"061","printed":"GENF-EN061","name":"Resonance Device","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"R","img":"26864586","code":"61","tcg":48080,"grp":209,"idx":68},
     {"id":"062","section":"main","num":"062","printed":"GENF-EN062","name":"Peeking Goblin","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"52263685","code":"62","tcg":48081,"grp":209,"idx":69},
-    {"id":"062-sp","section":"rarities","num":"062","printed":"GENF-EN062","name":"Peeking Goblin","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SP","img":"52263685","badge":"SP","variant":"Short Print","code":"SP62","tcg":48081,"grp":209,"idx":70},
     {"id":"063","section":"main","num":"063","printed":"GENF-EN063","name":"Asleep at the Switch","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"99657399","code":"63","tcg":48082,"grp":209,"idx":71},
     {"id":"064","section":"main","num":"064","printed":"GENF-EN064","name":"Poseidon Wave","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"25642998","code":"64","tcg":48083,"grp":209,"idx":72},
     {"id":"065","section":"main","num":"065","printed":"GENF-EN065","name":"Explosive Urchin","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"52140003","code":"65","tcg":48084,"grp":209,"idx":73},
@@ -156,12 +167,9 @@
     {"id":"077","section":"main","num":"077","printed":"GENF-EN077","name":"Tyrant's Tummyache","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"48357738","code":"77","tcg":48096,"grp":209,"idx":85},
     {"id":"078","section":"main","num":"078","printed":"GENF-EN078","name":"Attention!","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"R","img":"85352446","code":"78","tcg":48097,"grp":209,"idx":86},
     {"id":"079","section":"main","num":"079","printed":"GENF-EN079","name":"Raigeki Bottle","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"UR","img":"11741041","code":"79","tcg":48098,"grp":209,"idx":87},
-    {"id":"079-utr","section":"rarities","num":"079","printed":"GENF-EN079","name":"Raigeki Bottle","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"UtR","img":"11741041","badge":"UtR","variant":"Ultimate Rare","code":"UTR79","tcg":58400,"grp":209,"idx":88},
     {"id":"080","section":"main","num":"080","printed":"GENF-EN080","name":"Gravelstorm","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"48135190","code":"80","tcg":48099,"grp":209,"idx":89},
-    {"id":"080-sp","section":"rarities","num":"080","printed":"GENF-EN080","name":"Gravelstorm","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SP","img":"48135190","badge":"SP","variant":"Short Print","code":"SP80","tcg":48099,"grp":209,"idx":90},
     {"id":"081","section":"main","num":"081","printed":"GENF-EN081","name":"Sea Lancer","ctype":"monster","keywords":"Beast-Warrior WATER Effect Monster","stats":{"a":"WATER","l":"Level 5","t":"Beast-Warrior / Effect","atk":1300,"def":1000},"rarity":"R","img":"22842214","code":"81","tcg":48100,"grp":209,"idx":91},
     {"id":"082","section":"main","num":"082","printed":"GENF-EN082","name":"Piercing Moray","ctype":"monster","keywords":"Fish WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Fish / Effect","atk":1500,"def":500},"rarity":"UR","img":"69846323","code":"82","tcg":48101,"grp":209,"idx":92},
-    {"id":"082-utr","section":"rarities","num":"082","printed":"GENF-EN082","name":"Piercing Moray","ctype":"monster","keywords":"Fish WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Fish / Effect","atk":1500,"def":500},"rarity":"UtR","img":"69846323","badge":"UtR","variant":"Ultimate Rare","code":"UTR82","tcg":58401,"grp":209,"idx":93},
     {"id":"083","section":"main","num":"083","printed":"GENF-EN083","name":"Lost Blue Breaker","ctype":"monster","keywords":"Sea Serpent WATER Effect Monster","stats":{"a":"WATER","l":"Level 3","t":"Sea Serpent / Effect","atk":1400,"def":0},"rarity":"ScR","img":"95231062","code":"83","tcg":48102,"grp":209,"idx":94},
     {"id":"084","section":"main","num":"084","printed":"GENF-EN084","name":"Pain Painter","ctype":"monster","keywords":"Zombie DARK Tuner Monster","stats":{"a":"DARK","l":"Level 2","t":"Zombie / Tuner","atk":400,"def":200},"rarity":"ScR","img":"21620076","code":"84","tcg":48103,"grp":209,"idx":95},
     {"id":"085","section":"main","num":"085","printed":"GENF-EN085","name":"Orient Dragon","ctype":"monster","keywords":"Dragon WIND Synchro Monster","stats":{"a":"WIND","l":"Level 6","t":"Dragon / Synchro","atk":2300,"def":1000},"rarity":"ScR","img":"68124775","code":"85","tcg":48104,"grp":209,"idx":96},
@@ -173,13 +181,24 @@
     {"id":"091","section":"main","num":"091","printed":"GENF-EN091","name":"Vision HERO Trinity","ctype":"monster","keywords":"Vision HERO Warrior DARK Fusion Monster","stats":{"a":"DARK","l":"Level 8","t":"Warrior / Fusion","atk":2500,"def":2000},"rarity":"SR","img":"46759931","code":"91","tcg":48110,"grp":209,"idx":102},
     {"id":"092","section":"main","num":"092","printed":"GENF-EN092","name":"Phantom Magician","ctype":"monster","keywords":"HERO Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Spellcaster / Effect","atk":600,"def":700},"rarity":"C","img":"24103628","code":"92","tcg":48111,"grp":209,"idx":103},
     {"id":"093","section":"main","num":"093","printed":"GENF-EN093","name":"Elemental HERO Nova Master","ctype":"monster","keywords":"Elemental HERO Warrior FIRE Fusion Monster","stats":{"a":"FIRE","l":"Level 8","t":"Warrior / Fusion","atk":2600,"def":2100},"rarity":"UR","img":"1945387","code":"93","tcg":48112,"grp":209,"idx":104},
-    {"id":"093-utr","section":"rarities","num":"093","printed":"GENF-EN093","name":"Elemental HERO Nova Master","ctype":"monster","keywords":"Elemental HERO Warrior FIRE Fusion Monster","stats":{"a":"FIRE","l":"Level 8","t":"Warrior / Fusion","atk":2600,"def":2100},"rarity":"UtR","img":"1945387","badge":"UtR","variant":"Ultimate Rare","code":"UTR93","tcg":58402,"grp":209,"idx":105},
     {"id":"094","section":"main","num":"094","printed":"GENF-EN094","name":"Masked HERO Goka","ctype":"monster","keywords":"Masked HERO Warrior FIRE Fusion Monster","stats":{"a":"FIRE","l":"Level 6","t":"Warrior / Fusion","atk":2200,"def":1800},"rarity":"R","img":"58147549","code":"94","tcg":48113,"grp":209,"idx":106},
     {"id":"095","section":"main","num":"095","printed":"GENF-EN095","name":"Masked HERO Vapor","ctype":"monster","keywords":"Masked HERO Warrior WATER Fusion Monster","stats":{"a":"WATER","l":"Level 6","t":"Warrior / Fusion","atk":2400,"def":2000},"rarity":"SR","img":"10920352","code":"95","tcg":48114,"grp":209,"idx":107},
     {"id":"096","section":"main","num":"096","printed":"GENF-EN096","name":"Vision HERO Adoration","ctype":"monster","keywords":"Vision HERO Warrior DARK Fusion Monster","stats":{"a":"DARK","l":"Level 8","t":"Warrior / Fusion","atk":2800,"def":2100},"rarity":"ScR","img":"45170821","code":"96","tcg":48115,"grp":209,"idx":108},
     {"id":"097","section":"main","num":"097","printed":"GENF-EN097","name":"Mask Change","ctype":"spell","keywords":"Change Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"21143940","code":"97","tcg":48116,"grp":209,"idx":109},
     {"id":"098","section":"main","num":"098","printed":"GENF-EN098","name":"A Hero Lives","ctype":"spell","keywords":"Elemental HERO Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UR","img":"8949584","code":"98","tcg":48117,"grp":209,"idx":110},
-    {"id":"098-utr","section":"rarities","num":"098","printed":"GENF-EN098","name":"A Hero Lives","ctype":"spell","keywords":"Elemental HERO Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UtR","img":"8949584","badge":"UtR","variant":"Ultimate Rare","code":"UTR98","tcg":58403,"grp":209,"idx":111},
-    {"id":"099","section":"main","num":"099","printed":"GENF-EN099","name":"Steelswarm Roach","ctype":"monster","keywords":"Steelswarm Fiend DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 4","t":"Fiend / Xyz","atk":1900,"def":0},"rarity":"ScR","img":"37926346","code":"99","tcg":48118,"grp":209,"idx":112}
+    {"id":"099","section":"main","num":"099","printed":"GENF-EN099","name":"Steelswarm Roach","ctype":"monster","keywords":"Steelswarm Fiend DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 4","t":"Fiend / Xyz","atk":1900,"def":0},"rarity":"ScR","img":"37926346","code":"99","tcg":48118,"grp":209,"idx":112},
+    {"id":"062-sp","section":"r-sp","num":"062","printed":"GENF-EN062","name":"Peeking Goblin","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SP","img":"52263685","badge":"SP","variant":"Short Print","code":"SP62","tcg":48081,"grp":209,"idx":70},
+    {"id":"080-sp","section":"r-sp","num":"080","printed":"GENF-EN080","name":"Gravelstorm","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SP","img":"48135190","badge":"SP","variant":"Short Print","code":"SP80","tcg":48099,"grp":209,"idx":90},
+    {"id":"023-utr","section":"r-utr","num":"023","printed":"GENF-EN023","name":"Space-Time Police","ctype":"monster","keywords":"Psychic WIND Effect Monster","stats":{"a":"WIND","l":"Level 5","t":"Psychic / Effect","atk":2300,"def":1500},"rarity":"UtR","img":"47126872","badge":"UtR","variant":"Ultimate Rare","code":"UTR23","tcg":58394,"grp":209,"idx":24},
+    {"id":"039-utr","section":"r-utr","num":"039","printed":"GENF-EN039","name":"Number 17: Leviathan Dragon","ctype":"monster","keywords":"Dragon WATER Xyz Monster","stats":{"a":"WATER","l":"Rank 3","t":"Dragon / Xyz","atk":2000,"def":0},"rarity":"UtR","img":"69610924","badge":"UtR","variant":"Ultimate Rare","code":"UTR39","tcg":58395,"grp":209,"idx":41},
+    {"id":"041-utr","section":"r-utr","num":"041","printed":"GENF-EN041","name":"Number 34: Terror-Byte","ctype":"monster","keywords":"Machine DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 3","t":"Machine / Xyz","atk":0,"def":2900},"rarity":"UtR","img":"32003338","badge":"UtR","variant":"Ultimate Rare","code":"UTR41","tcg":58396,"grp":209,"idx":45},
+    {"id":"042-utr","section":"r-utr","num":"042","printed":"GENF-EN042","name":"Wind-Up Zenmaister","ctype":"monster","keywords":"Wind-Up Machine EARTH Xyz Monster","stats":{"a":"EARTH","l":"Rank 4","t":"Machine / Xyz","atk":1900,"def":1500},"rarity":"UtR","img":"68597372","badge":"UtR","variant":"Ultimate Rare","code":"UTR42","tcg":58397,"grp":209,"idx":47},
+    {"id":"043-utr","section":"r-utr","num":"043","printed":"GENF-EN043","name":"Leviair the Sea Dragon","ctype":"monster","keywords":"Aqua WIND Xyz Monster","stats":{"a":"WIND","l":"Rank 3","t":"Aqua / Xyz","atk":1800,"def":1600},"rarity":"UtR","img":"95992081","badge":"UtR","variant":"Ultimate Rare","code":"UTR43","tcg":58398,"grp":209,"idx":49},
+    {"id":"045-utr","section":"r-utr","num":"045","printed":"GENF-EN045","name":"Wonder Wand","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"UtR","img":"67775894","badge":"UtR","variant":"Ultimate Rare","code":"UTR45","tcg":58399,"grp":209,"idx":52},
+    {"id":"079-utr","section":"r-utr","num":"079","printed":"GENF-EN079","name":"Raigeki Bottle","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"UtR","img":"11741041","badge":"UtR","variant":"Ultimate Rare","code":"UTR79","tcg":58400,"grp":209,"idx":88},
+    {"id":"082-utr","section":"r-utr","num":"082","printed":"GENF-EN082","name":"Piercing Moray","ctype":"monster","keywords":"Fish WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Fish / Effect","atk":1500,"def":500},"rarity":"UtR","img":"69846323","badge":"UtR","variant":"Ultimate Rare","code":"UTR82","tcg":58401,"grp":209,"idx":93},
+    {"id":"093-utr","section":"r-utr","num":"093","printed":"GENF-EN093","name":"Elemental HERO Nova Master","ctype":"monster","keywords":"Elemental HERO Warrior FIRE Fusion Monster","stats":{"a":"FIRE","l":"Level 8","t":"Warrior / Fusion","atk":2600,"def":2100},"rarity":"UtR","img":"1945387","badge":"UtR","variant":"Ultimate Rare","code":"UTR93","tcg":58402,"grp":209,"idx":105},
+    {"id":"098-utr","section":"r-utr","num":"098","printed":"GENF-EN098","name":"A Hero Lives","ctype":"spell","keywords":"Elemental HERO Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UtR","img":"8949584","badge":"UtR","variant":"Ultimate Rare","code":"UTR98","tcg":58403,"grp":209,"idx":111},
+    {"id":"039-gr","section":"r-gr","num":"039","printed":"GENF-EN039","name":"Number 17: Leviathan Dragon","ctype":"monster","keywords":"Dragon WATER Xyz Monster","stats":{"a":"WATER","l":"Rank 3","t":"Dragon / Xyz","atk":2000,"def":0},"rarity":"GR","img":"69610924","badge":"GR","variant":"Ghost Rare","code":"GR39","tcg":48119,"grp":209,"idx":42}
   ]
 }

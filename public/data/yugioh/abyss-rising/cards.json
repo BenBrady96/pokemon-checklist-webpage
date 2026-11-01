@@ -17,10 +17,15 @@
       "tier": "standard"
     },
     {
-      "id": "rarities",
-      "name": "Other Rarities",
-      "short": "Other Rarities",
-      "range": "11 cards",
+      "id": "r-utr",
+      "name": "Ultimate Rares",
+      "range": "10 cards",
+      "tier": "master"
+    },
+    {
+      "id": "r-gr",
+      "name": "Ghost Rares",
+      "range": "1 card",
       "tier": "master"
     }
   ],
@@ -30,8 +35,12 @@
       "Main set"
     ],
     [
-      "rarities",
-      "Other rarities"
+      "r-utr",
+      "Ultimate Rares"
+    ],
+    [
+      "r-gr",
+      "Ghost Rares"
     ]
   ],
   "quickAdd": {
@@ -83,7 +92,6 @@
     {"id":"012","section":"main","num":"012","printed":"ABYR-EN012","name":"Heraldic Beast Aberconway","ctype":"monster","keywords":"Heraldic Dragon WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Dragon / Effect","atk":1800,"def":900},"rarity":"C","img":"60316373","code":"12","tcg":67204,"grp":573,"idx":12},
     {"id":"013","section":"main","num":"013","printed":"ABYR-EN013","name":"Heraldic Beast Berners Falcon","ctype":"monster","keywords":"Heraldic Winged Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Winged Beast / Effect","atk":1000,"def":1600},"rarity":"C","img":"96704018","code":"13","tcg":67205,"grp":573,"idx":13},
     {"id":"014","section":"main","num":"014","printed":"ABYR-EN014","name":"Mermail Abysslinde","ctype":"monster","keywords":"Mermail Aqua WATER Effect Monster","stats":{"a":"WATER","l":"Level 3","t":"Aqua / Effect","atk":1500,"def":1200},"rarity":"UR","img":"23899727","code":"14","tcg":67206,"grp":573,"idx":14},
-    {"id":"014-utr","section":"rarities","num":"014","printed":"ABYR-EN014","name":"Mermail Abysslinde","ctype":"monster","keywords":"Mermail Aqua WATER Effect Monster","stats":{"a":"WATER","l":"Level 3","t":"Aqua / Effect","atk":1500,"def":1200},"rarity":"UtR","img":"23899727","badge":"UtR","variant":"Ultimate Rare","code":"UTR14","tcg":67207,"grp":573,"idx":15},
     {"id":"015","section":"main","num":"015","printed":"ABYR-EN015","name":"Mermail Abyssgunde","ctype":"monster","keywords":"Mermail Aqua WATER Effect Monster","stats":{"a":"WATER","l":"Level 3","t":"Aqua / Effect","atk":1400,"def":800},"rarity":"R","img":"69293721","code":"15","tcg":67208,"grp":573,"idx":16},
     {"id":"016","section":"main","num":"016","printed":"ABYR-EN016","name":"Mermail Abysshilde","ctype":"monster","keywords":"Mermail Aqua WATER Effect Monster","stats":{"a":"WATER","l":"Level 3","t":"Aqua / Effect","atk":1300,"def":400},"rarity":"C","img":"96682430","code":"16","tcg":67209,"grp":573,"idx":17},
     {"id":"017","section":"main","num":"017","printed":"ABYR-EN017","name":"Mermail Abyssturge","ctype":"monster","keywords":"Mermail Fish WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Fish / Effect","atk":1700,"def":1100},"rarity":"R","img":"22076135","code":"17","tcg":67210,"grp":573,"idx":18},
@@ -109,22 +117,15 @@
     {"id":"037","section":"main","num":"037","printed":"ABYR-EN037","name":"Puny Penguin","ctype":"monster","keywords":"Penguin Aqua WATER Effect Monster","stats":{"a":"WATER","l":"Level 1","t":"Aqua / Effect","atk":400,"def":200},"rarity":"SP","img":"76442347","code":"37","tcg":67230,"grp":573,"idx":38},
     {"id":"038","section":"main","num":"038","printed":"ABYR-EN038","name":"Missing Force","ctype":"monster","keywords":"Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Warrior / Effect","atk":1500,"def":1000},"rarity":"SP","img":"12836042","code":"38","tcg":67231,"grp":573,"idx":39},
     {"id":"039","section":"main","num":"039","printed":"ABYR-EN039","name":"Number C32: Shark Drake Veiss","ctype":"monster","keywords":"Shark Sea Serpent WATER Xyz Monster","stats":{"a":"WATER","l":"Rank 4","t":"Sea Serpent / Xyz","atk":2800,"def":2100},"rarity":"UR","img":"49221191","code":"39","tcg":67232,"grp":573,"idx":40},
-    {"id":"039-utr","section":"rarities","num":"039","printed":"ABYR-EN039","name":"Number C32: Shark Drake Veiss","ctype":"monster","keywords":"Shark Sea Serpent WATER Xyz Monster","stats":{"a":"WATER","l":"Rank 4","t":"Sea Serpent / Xyz","atk":2800,"def":2100},"rarity":"UtR","img":"49221191","badge":"UtR","variant":"Ultimate Rare","code":"UTR39","tcg":67233,"grp":573,"idx":41},
-    {"id":"039-gr","section":"rarities","num":"039","printed":"ABYR-EN039","name":"Number C32: Shark Drake Veiss","ctype":"monster","keywords":"Shark Sea Serpent WATER Xyz Monster","stats":{"a":"WATER","l":"Rank 4","t":"Sea Serpent / Xyz","atk":2800,"def":2100},"rarity":"GR","img":"49221191","badge":"GR","variant":"Ghost Rare","code":"GR39","tcg":67234,"grp":573,"idx":42},
     {"id":"040","section":"main","num":"040","printed":"ABYR-EN040","name":"One-Eyed Skill Gainer","ctype":"monster","keywords":"Warrior LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 4","t":"Warrior / Xyz","atk":2500,"def":2600},"rarity":"SR","img":"75620895","code":"40","tcg":67235,"grp":573,"idx":43},
     {"id":"041","section":"main","num":"041","printed":"ABYR-EN041","name":"Gagaga Cowboy","ctype":"monster","keywords":"Gagaga Warrior EARTH Xyz Monster","stats":{"a":"EARTH","l":"Rank 4","t":"Warrior / Xyz","atk":1500,"def":2400},"rarity":"SR","img":"12014404","code":"41","tcg":67236,"grp":573,"idx":44},
     {"id":"042","section":"main","num":"042","printed":"ABYR-EN042","name":"Heroic Champion - Gandiva","ctype":"monster","keywords":"Heroic Warrior EARTH Xyz Monster","stats":{"a":"EARTH","l":"Rank 4","t":"Warrior / Xyz","atk":2100,"def":1800},"rarity":"UR","img":"48009503","code":"42","tcg":67237,"grp":573,"idx":45},
-    {"id":"042-utr","section":"rarities","num":"042","printed":"ABYR-EN042","name":"Heroic Champion - Gandiva","ctype":"monster","keywords":"Heroic Warrior EARTH Xyz Monster","stats":{"a":"EARTH","l":"Rank 4","t":"Warrior / Xyz","atk":2100,"def":1800},"rarity":"UtR","img":"48009503","badge":"UtR","variant":"Ultimate Rare","code":"UTR42","tcg":67238,"grp":573,"idx":46},
     {"id":"043","section":"main","num":"043","printed":"ABYR-EN043","name":"Heroic Champion - Kusanagi","ctype":"monster","keywords":"Heroic Warrior EARTH Xyz Monster","stats":{"a":"EARTH","l":"Rank 4","t":"Warrior / Xyz","atk":2500,"def":2400},"rarity":"SR","img":"74593218","code":"43","tcg":67239,"grp":573,"idx":47},
     {"id":"044","section":"main","num":"044","printed":"ABYR-EN044","name":"Number 9: Dyson Sphere","ctype":"monster","keywords":"Machine LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 9","t":"Machine / Xyz","atk":2800,"def":3000},"rarity":"UR","img":"1992816","code":"44","tcg":67240,"grp":573,"idx":48},
-    {"id":"044-utr","section":"rarities","num":"044","printed":"ABYR-EN044","name":"Number 9: Dyson Sphere","ctype":"monster","keywords":"Machine LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 9","t":"Machine / Xyz","atk":2800,"def":3000},"rarity":"UtR","img":"1992816","badge":"UtR","variant":"Ultimate Rare","code":"UTR44","tcg":67241,"grp":573,"idx":49},
     {"id":"045","section":"main","num":"045","printed":"ABYR-EN045","name":"Number 8: Heraldic King Genom-Heritage","ctype":"monster","keywords":"Heraldic Psychic LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 4","t":"Psychic / Xyz","atk":2400,"def":1800},"rarity":"SR","img":"47387961","code":"45","tcg":67242,"grp":573,"idx":50},
     {"id":"046","section":"main","num":"046","printed":"ABYR-EN046","name":"Mermail Abyssgaios","ctype":"monster","keywords":"Mermail Aqua WATER Xyz Monster","stats":{"a":"WATER","l":"Rank 7","t":"Aqua / Xyz","atk":2800,"def":1600},"rarity":"UR","img":"74371660","code":"46","tcg":67243,"grp":573,"idx":51},
-    {"id":"046-utr","section":"rarities","num":"046","printed":"ABYR-EN046","name":"Mermail Abyssgaios","ctype":"monster","keywords":"Mermail Aqua WATER Xyz Monster","stats":{"a":"WATER","l":"Rank 7","t":"Aqua / Xyz","atk":2800,"def":1600},"rarity":"UtR","img":"74371660","badge":"UtR","variant":"Ultimate Rare","code":"UTR46","tcg":67244,"grp":573,"idx":52},
     {"id":"047","section":"main","num":"047","printed":"ABYR-EN047","name":"Empress of Prophecy","ctype":"monster","keywords":"Spellbook Spellcaster LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 5","t":"Spellcaster / Xyz","atk":2000,"def":1700},"rarity":"UR","img":"770365","code":"47","tcg":67245,"grp":573,"idx":53},
-    {"id":"047-utr","section":"rarities","num":"047","printed":"ABYR-EN047","name":"Empress of Prophecy","ctype":"monster","keywords":"Spellbook Spellcaster LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 5","t":"Spellcaster / Xyz","atk":2000,"def":1700},"rarity":"UtR","img":"770365","badge":"UtR","variant":"Ultimate Rare","code":"UTR47","tcg":67246,"grp":573,"idx":54},
     {"id":"048","section":"main","num":"048","printed":"ABYR-EN048","name":"Madolche Queen Tiaramisu","ctype":"monster","keywords":"Madolche Fairy EARTH Xyz Monster","stats":{"a":"EARTH","l":"Rank 4","t":"Fairy / Xyz","atk":2200,"def":2100},"rarity":"UR","img":"37164373","code":"48","tcg":67248,"grp":573,"idx":55},
-    {"id":"048-utr","section":"rarities","num":"048","printed":"ABYR-EN048","name":"Madolche Queen Tiaramisu","ctype":"monster","keywords":"Madolche Fairy EARTH Xyz Monster","stats":{"a":"EARTH","l":"Rank 4","t":"Fairy / Xyz","atk":2200,"def":2100},"rarity":"UtR","img":"37164373","badge":"UtR","variant":"Ultimate Rare","code":"UTR48","tcg":67247,"grp":573,"idx":56},
     {"id":"049","section":"main","num":"049","printed":"ABYR-EN049","name":"Snowdust Giant","ctype":"monster","keywords":"Beast-Warrior WATER Xyz Monster","stats":{"a":"WATER","l":"Rank 4","t":"Beast-Warrior / Xyz","atk":2200,"def":800},"rarity":"R","img":"73659078","code":"49","tcg":67249,"grp":573,"idx":57},
     {"id":"050","section":"main","num":"050","printed":"ABYR-EN050","name":"Gagagigo the Risen","ctype":"monster","keywords":"Reptile WATER Xyz Monster","stats":{"a":"WATER","l":"Rank 4","t":"Reptile / Xyz","atk":2950,"def":2800},"rarity":"R","img":"9053187","code":"50","tcg":67250,"grp":573,"idx":58},
     {"id":"051","section":"main","num":"051","printed":"ABYR-EN051","name":"One-Shot Wand","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"36042825","code":"51","tcg":67251,"grp":573,"idx":59},
@@ -136,7 +137,6 @@
     {"id":"057","section":"main","num":"057","printed":"ABYR-EN057","name":"Lemuria, the Forgotten City","ctype":"spell","keywords":"Umi Field Spell","stats":{"t":"Field Spell"},"rarity":"C","img":"34103656","code":"57","tcg":67257,"grp":573,"idx":65},
     {"id":"058","section":"main","num":"058","printed":"ABYR-EN058","name":"Spellbook of Eternity","ctype":"spell","keywords":"Spellbook Normal Spell","stats":{"t":"Normal Spell"},"rarity":"R","img":"61592395","code":"58","tcg":67258,"grp":573,"idx":66},
     {"id":"059","section":"main","num":"059","printed":"ABYR-EN059","name":"Spellbook of Fate","ctype":"spell","keywords":"Spellbook Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"UR","img":"97997309","code":"59","tcg":67259,"grp":573,"idx":67},
-    {"id":"059-utr","section":"rarities","num":"059","printed":"ABYR-EN059","name":"Spellbook of Fate","ctype":"spell","keywords":"Spellbook Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"UtR","img":"97997309","badge":"UtR","variant":"Ultimate Rare","code":"UTR59","tcg":67260,"grp":573,"idx":68},
     {"id":"060","section":"main","num":"060","printed":"ABYR-EN060","name":"The Grand Spellbook Tower","ctype":"spell","keywords":"Spellbook Field Spell","stats":{"t":"Field Spell"},"rarity":"ScR","img":"33981008","code":"60","tcg":67261,"grp":573,"idx":69},
     {"id":"061","section":"main","num":"061","printed":"ABYR-EN061","name":"Madolche Ticket","ctype":"spell","keywords":"Madolche Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"60470713","code":"61","tcg":67262,"grp":573,"idx":70},
     {"id":"062","section":"main","num":"062","printed":"ABYR-EN062","name":"Forbidden Dress","ctype":"spell","keywords":"Forbidden Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"SR","img":"96864811","code":"62","tcg":67263,"grp":573,"idx":71},
@@ -150,13 +150,11 @@
     {"id":"070","section":"main","num":"070","printed":"ABYR-EN070","name":"Xyz Xtreme !!","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"57319935","code":"70","tcg":67271,"grp":573,"idx":79},
     {"id":"071","section":"main","num":"071","printed":"ABYR-EN071","name":"Abyss-squall","ctype":"trap","keywords":"Mermail Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"34707034","code":"71","tcg":67272,"grp":573,"idx":80},
     {"id":"072","section":"main","num":"072","printed":"ABYR-EN072","name":"Abyss-sphere","ctype":"trap","keywords":"Mermail Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"UR","img":"60202749","code":"72","tcg":67273,"grp":573,"idx":81},
-    {"id":"072-utr","section":"rarities","num":"072","printed":"ABYR-EN072","name":"Abyss-sphere","ctype":"trap","keywords":"Mermail Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"UtR","img":"60202749","badge":"UtR","variant":"Ultimate Rare","code":"UTR72","tcg":67274,"grp":573,"idx":82},
     {"id":"073","section":"main","num":"073","printed":"ABYR-EN073","name":"Abyss-strom","ctype":"trap","keywords":"Umi Normal Trap","stats":{"t":"Normal Trap"},"rarity":"R","img":"97697447","code":"73","tcg":67275,"grp":573,"idx":83},
     {"id":"074","section":"main","num":"074","printed":"ABYR-EN074","name":"Madolchepalooza","ctype":"trap","keywords":"Madolche Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"23681456","code":"74","tcg":67276,"grp":573,"idx":84},
     {"id":"075","section":"main","num":"075","printed":"ABYR-EN075","name":"Memory of an Adversary","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"60080151","code":"75","tcg":67277,"grp":573,"idx":85},
     {"id":"076","section":"main","num":"076","printed":"ABYR-EN076","name":"Magic Deflector","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"96474800","code":"76","tcg":67278,"grp":573,"idx":86},
     {"id":"077","section":"main","num":"077","printed":"ABYR-EN077","name":"That Wacky Alchemy!","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"UR","img":"22869904","code":"77","tcg":67279,"grp":573,"idx":87},
-    {"id":"077-utr","section":"rarities","num":"077","printed":"ABYR-EN077","name":"That Wacky Alchemy!","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"UtR","img":"22869904","badge":"UtR","variant":"Ultimate Rare","code":"UTR77","tcg":67280,"grp":573,"idx":88},
     {"id":"078","section":"main","num":"078","printed":"ABYR-EN078","name":"Cash Back","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"SP","img":"59957503","code":"78","tcg":67281,"grp":573,"idx":89},
     {"id":"079","section":"main","num":"079","printed":"ABYR-EN079","name":"Unification","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"95352218","code":"79","tcg":67282,"grp":573,"idx":90},
     {"id":"080","section":"main","num":"080","printed":"ABYR-EN080","name":"Retort","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"ScR","img":"22747316","code":"80","tcg":67283,"grp":573,"idx":91},
@@ -178,6 +176,17 @@
     {"id":"096","section":"main","num":"096","printed":"ABYR-EN096","name":"Fishborg Launcher","ctype":"monster","keywords":"Fishborg Fish WATER Tuner Monster","stats":{"a":"WATER","l":"Level 1","t":"Fish / Tuner","atk":200,"def":100},"rarity":"C","img":"66853752","code":"96","tcg":67299,"grp":573,"idx":107},
     {"id":"097","section":"main","num":"097","printed":"ABYR-EN097","name":"Papa-Corn","ctype":"monster","keywords":"Plant EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Plant / Effect","atk":1200,"def":800},"rarity":"R","img":"73776643","code":"97","tcg":67300,"grp":573,"idx":108},
     {"id":"098","section":"main","num":"098","printed":"ABYR-EN098","name":"Thunder Sea Horse","ctype":"monster","keywords":"Thunder LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Thunder / Effect","atk":1600,"def":1200},"rarity":"ScR","img":"48049769","code":"98","tcg":67301,"grp":573,"idx":109},
-    {"id":"099","section":"main","num":"099","printed":"ABYR-EN099","name":"Bahamut Shark","ctype":"monster","keywords":"Sea Serpent WATER Xyz Monster","stats":{"a":"WATER","l":"Rank 4","t":"Sea Serpent / Xyz","atk":2600,"def":2100},"rarity":"ScR","img":"440556","code":"99","tcg":67302,"grp":573,"idx":110}
+    {"id":"099","section":"main","num":"099","printed":"ABYR-EN099","name":"Bahamut Shark","ctype":"monster","keywords":"Sea Serpent WATER Xyz Monster","stats":{"a":"WATER","l":"Rank 4","t":"Sea Serpent / Xyz","atk":2600,"def":2100},"rarity":"ScR","img":"440556","code":"99","tcg":67302,"grp":573,"idx":110},
+    {"id":"014-utr","section":"r-utr","num":"014","printed":"ABYR-EN014","name":"Mermail Abysslinde","ctype":"monster","keywords":"Mermail Aqua WATER Effect Monster","stats":{"a":"WATER","l":"Level 3","t":"Aqua / Effect","atk":1500,"def":1200},"rarity":"UtR","img":"23899727","badge":"UtR","variant":"Ultimate Rare","code":"UTR14","tcg":67207,"grp":573,"idx":15},
+    {"id":"039-utr","section":"r-utr","num":"039","printed":"ABYR-EN039","name":"Number C32: Shark Drake Veiss","ctype":"monster","keywords":"Shark Sea Serpent WATER Xyz Monster","stats":{"a":"WATER","l":"Rank 4","t":"Sea Serpent / Xyz","atk":2800,"def":2100},"rarity":"UtR","img":"49221191","badge":"UtR","variant":"Ultimate Rare","code":"UTR39","tcg":67233,"grp":573,"idx":41},
+    {"id":"042-utr","section":"r-utr","num":"042","printed":"ABYR-EN042","name":"Heroic Champion - Gandiva","ctype":"monster","keywords":"Heroic Warrior EARTH Xyz Monster","stats":{"a":"EARTH","l":"Rank 4","t":"Warrior / Xyz","atk":2100,"def":1800},"rarity":"UtR","img":"48009503","badge":"UtR","variant":"Ultimate Rare","code":"UTR42","tcg":67238,"grp":573,"idx":46},
+    {"id":"044-utr","section":"r-utr","num":"044","printed":"ABYR-EN044","name":"Number 9: Dyson Sphere","ctype":"monster","keywords":"Machine LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 9","t":"Machine / Xyz","atk":2800,"def":3000},"rarity":"UtR","img":"1992816","badge":"UtR","variant":"Ultimate Rare","code":"UTR44","tcg":67241,"grp":573,"idx":49},
+    {"id":"046-utr","section":"r-utr","num":"046","printed":"ABYR-EN046","name":"Mermail Abyssgaios","ctype":"monster","keywords":"Mermail Aqua WATER Xyz Monster","stats":{"a":"WATER","l":"Rank 7","t":"Aqua / Xyz","atk":2800,"def":1600},"rarity":"UtR","img":"74371660","badge":"UtR","variant":"Ultimate Rare","code":"UTR46","tcg":67244,"grp":573,"idx":52},
+    {"id":"047-utr","section":"r-utr","num":"047","printed":"ABYR-EN047","name":"Empress of Prophecy","ctype":"monster","keywords":"Spellbook Spellcaster LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 5","t":"Spellcaster / Xyz","atk":2000,"def":1700},"rarity":"UtR","img":"770365","badge":"UtR","variant":"Ultimate Rare","code":"UTR47","tcg":67246,"grp":573,"idx":54},
+    {"id":"048-utr","section":"r-utr","num":"048","printed":"ABYR-EN048","name":"Madolche Queen Tiaramisu","ctype":"monster","keywords":"Madolche Fairy EARTH Xyz Monster","stats":{"a":"EARTH","l":"Rank 4","t":"Fairy / Xyz","atk":2200,"def":2100},"rarity":"UtR","img":"37164373","badge":"UtR","variant":"Ultimate Rare","code":"UTR48","tcg":67247,"grp":573,"idx":56},
+    {"id":"059-utr","section":"r-utr","num":"059","printed":"ABYR-EN059","name":"Spellbook of Fate","ctype":"spell","keywords":"Spellbook Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"UtR","img":"97997309","badge":"UtR","variant":"Ultimate Rare","code":"UTR59","tcg":67260,"grp":573,"idx":68},
+    {"id":"072-utr","section":"r-utr","num":"072","printed":"ABYR-EN072","name":"Abyss-sphere","ctype":"trap","keywords":"Mermail Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"UtR","img":"60202749","badge":"UtR","variant":"Ultimate Rare","code":"UTR72","tcg":67274,"grp":573,"idx":82},
+    {"id":"077-utr","section":"r-utr","num":"077","printed":"ABYR-EN077","name":"That Wacky Alchemy!","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"UtR","img":"22869904","badge":"UtR","variant":"Ultimate Rare","code":"UTR77","tcg":67280,"grp":573,"idx":88},
+    {"id":"039-gr","section":"r-gr","num":"039","printed":"ABYR-EN039","name":"Number C32: Shark Drake Veiss","ctype":"monster","keywords":"Shark Sea Serpent WATER Xyz Monster","stats":{"a":"WATER","l":"Rank 4","t":"Sea Serpent / Xyz","atk":2800,"def":2100},"rarity":"GR","img":"49221191","badge":"GR","variant":"Ghost Rare","code":"GR39","tcg":67234,"grp":573,"idx":42}
   ]
 }

@@ -17,9 +17,8 @@
       "tier": "standard"
     },
     {
-      "id": "rarities",
-      "name": "Other Rarities",
-      "short": "Other Rarities",
+      "id": "r-str",
+      "name": "Starlight Rares",
       "range": "4 cards",
       "tier": "master"
     }
@@ -30,8 +29,8 @@
       "Main set"
     ],
     [
-      "rarities",
-      "Other rarities"
+      "r-str",
+      "Starlight Rares"
     ]
   ],
   "quickAdd": {
@@ -77,7 +76,6 @@
     {"id":"006","section":"main","num":"006","printed":"CHIM-EN006","name":"Dinowrestler Martial Ampelo","ctype":"monster","keywords":"Dinowrestler Dinosaur EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 1","t":"Dinosaur / Effect","atk":600,"def":0},"rarity":"C","img":"54446813","code":"6","tcg":200812,"grp":2527,"idx":6},
     {"id":"007","section":"main","num":"007","printed":"CHIM-EN007","name":"Dinowrestler Valeonyx","ctype":"monster","keywords":"Dinowrestler Dinosaur EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Dinosaur / Effect","atk":1600,"def":0},"rarity":"C","img":"80831552","code":"7","tcg":200813,"grp":2527,"idx":7},
     {"id":"008","section":"main","num":"008","printed":"CHIM-EN008","name":"Unchained Twins - Aruha","ctype":"monster","keywords":"Unchained Fiend FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 3","t":"Fiend / Effect","atk":1500,"def":1500},"rarity":"R","img":"26236560","code":"8","tcg":200814,"grp":2527,"idx":8},
-    {"id":"008-str","section":"rarities","num":"008","printed":"CHIM-EN008","name":"Unchained Twins - Aruha","ctype":"monster","keywords":"Unchained Fiend FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 3","t":"Fiend / Effect","atk":1500,"def":1500},"rarity":"StR","img":"26236560","badge":"StR","variant":"Starlight Rare","code":"STR8","tcg":201100,"grp":2527,"idx":9},
     {"id":"009","section":"main","num":"009","printed":"CHIM-EN009","name":"Unchained Twins - Rakea","ctype":"monster","keywords":"Unchained Fiend WATER Effect Monster","stats":{"a":"WATER","l":"Level 3","t":"Fiend / Effect","atk":1500,"def":1500},"rarity":"R","img":"53624265","code":"9","tcg":200815,"grp":2527,"idx":10},
     {"id":"010","section":"main","num":"010","printed":"CHIM-EN010","name":"Unchained Soul of Disaster","ctype":"monster","keywords":"Unchained Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Fiend / Effect","atk":0,"def":3000},"rarity":"ScR","img":"89019964","code":"10","tcg":200816,"grp":2527,"idx":11},
     {"id":"011","section":"main","num":"011","printed":"CHIM-EN011","name":"Gladiator Beast Sagittarii","ctype":"monster","keywords":"Gladiator Beast Winged Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 3","t":"Winged Beast / Effect","atk":1400,"def":1000},"rarity":"R","img":"16003979","code":"11","tcg":200817,"grp":2527,"idx":12},
@@ -109,7 +107,6 @@
     {"id":"037","section":"main","num":"037","printed":"CHIM-EN037","name":"Firewall Dragon Darkfluid","ctype":"monster","keywords":"Cyberse DARK Link Monster","stats":{"a":"DARK","l":"Link 5","t":"Cyberse / Link","atk":3000},"rarity":"ScR","img":"68934651","code":"37","tcg":200843,"grp":2527,"idx":38},
     {"id":"038","section":"main","num":"038","printed":"CHIM-EN038","name":"Protocol Gardna","ctype":"monster","keywords":"Cyberse DARK Link Monster","stats":{"a":"DARK","l":"Link 2","t":"Cyberse / Link","atk":1000},"rarity":"C","img":"5329790","code":"38","tcg":200844,"grp":2527,"idx":39},
     {"id":"039","section":"main","num":"039","printed":"CHIM-EN039","name":"Salamangreat Pyro Phoenix","ctype":"monster","keywords":"Salamangreat Cyberse FIRE Link Monster","stats":{"a":"FIRE","l":"Link 4","t":"Cyberse / Link","atk":2800},"rarity":"ScR","img":"31313405","code":"39","tcg":200845,"grp":2527,"idx":40},
-    {"id":"039-str","section":"rarities","num":"039","printed":"CHIM-EN039","name":"Salamangreat Pyro Phoenix","ctype":"monster","keywords":"Salamangreat Cyberse FIRE Link Monster","stats":{"a":"FIRE","l":"Link 4","t":"Cyberse / Link","atk":2800},"rarity":"StR","img":"31313405","badge":"StR","variant":"Starlight Rare","code":"STR39","tcg":201015,"grp":2527,"idx":41},
     {"id":"040","section":"main","num":"040","printed":"CHIM-EN040","name":"Marincess Crystal Heart","ctype":"monster","keywords":"Marincess Cyberse WATER Link Monster","stats":{"a":"WATER","l":"Link 2","t":"Cyberse / Link","atk":0},"rarity":"SR","img":"67712104","code":"40","tcg":200846,"grp":2527,"idx":42},
     {"id":"041","section":"main","num":"041","printed":"CHIM-EN041","name":"Marincess Wonder Heart","ctype":"monster","keywords":"Marincess Cyberse WATER Link Monster","stats":{"a":"WATER","l":"Link 4","t":"Cyberse / Link","atk":2400},"rarity":"C","img":"94207108","code":"41","tcg":200847,"grp":2527,"idx":43},
     {"id":"042","section":"main","num":"042","printed":"CHIM-EN042","name":"Marincess Sea Angel","ctype":"monster","keywords":"Marincess Cyberse WATER Link Monster","stats":{"a":"WATER","l":"Link 1","t":"Cyberse / Link","atk":1000},"rarity":"C","img":"30691817","code":"42","tcg":200848,"grp":2527,"idx":44},
@@ -119,9 +116,7 @@
     {"id":"046","section":"main","num":"046","printed":"CHIM-EN046","name":"Test Panther","ctype":"monster","keywords":"Gladiator Beast Beast EARTH Link Monster","stats":{"a":"EARTH","l":"Link 2","t":"Beast / Link","atk":800},"rarity":"UR","img":"66863374","code":"46","tcg":200852,"grp":2527,"idx":48},
     {"id":"047","section":"main","num":"047","printed":"CHIM-EN047","name":"Galaxy Satellite Dragon","ctype":"monster","keywords":"Dragon DARK Link Monster","stats":{"a":"DARK","l":"Link 2","t":"Dragon / Link","atk":2000},"rarity":"SR","img":"92362073","code":"47","tcg":200853,"grp":2527,"idx":49},
     {"id":"048","section":"main","num":"048","printed":"CHIM-EN048","name":"Gorgon, Empress of the Evil Eyed","ctype":"monster","keywords":"Evil Eye Fiend DARK Link Monster","stats":{"a":"DARK","l":"Link 2","t":"Fiend / Link","atk":1900},"rarity":"SR","img":"29357687","code":"48","tcg":200854,"grp":2527,"idx":50},
-    {"id":"048-str","section":"rarities","num":"048","printed":"CHIM-EN048","name":"Gorgon, Empress of the Evil Eyed","ctype":"monster","keywords":"Evil Eye Fiend DARK Link Monster","stats":{"a":"DARK","l":"Link 2","t":"Fiend / Link","atk":1900},"rarity":"StR","img":"29357687","badge":"StR","variant":"Starlight Rare","code":"STR48","tcg":200950,"grp":2527,"idx":51},
     {"id":"049","section":"main","num":"049","printed":"CHIM-EN049","name":"I:P Masquerena","ctype":"monster","keywords":"Cyberse DARK Link Monster","stats":{"a":"DARK","l":"Link 2","t":"Cyberse / Link","atk":800},"rarity":"UR","img":"65741786","code":"49","tcg":200855,"grp":2527,"idx":52},
-    {"id":"049-str","section":"rarities","num":"049","printed":"CHIM-EN049","name":"I:P Masquerena","ctype":"monster","keywords":"Cyberse DARK Link Monster","stats":{"a":"DARK","l":"Link 2","t":"Cyberse / Link","atk":800},"rarity":"StR","img":"65741786","badge":"StR","variant":"Starlight Rare","code":"STR49","tcg":200948,"grp":2527,"idx":53},
     {"id":"050","section":"main","num":"050","printed":"CHIM-EN050","name":"Seraphim Papillion","ctype":"monster","keywords":"Insect WIND Link Monster","stats":{"a":"WIND","l":"Link 3","t":"Insect / Link","atk":2100},"rarity":"C","img":"91140491","code":"50","tcg":200856,"grp":2527,"idx":54},
     {"id":"051","section":"main","num":"051","printed":"CHIM-EN051","name":"Salamangreat Burning Shell","ctype":"spell","keywords":"Salamangreat Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"28534130","code":"51","tcg":200857,"grp":2527,"idx":55},
     {"id":"052","section":"main","num":"052","printed":"CHIM-EN052","name":"Salamangreat Transcendence","ctype":"spell","keywords":"Salamangreat Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"R","img":"54529134","code":"52","tcg":200858,"grp":2527,"idx":56},
@@ -171,6 +166,10 @@
     {"id":"096","section":"main","num":"096","printed":"CHIM-EN096","name":"Bye Bye Damage","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"20735371","code":"96","tcg":200902,"grp":2527,"idx":100},
     {"id":"097","section":"main","num":"097","printed":"CHIM-EN097","name":"Dances with Beasts","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"33298291","code":"97","tcg":200903,"grp":2527,"idx":101},
     {"id":"098","section":"main","num":"098","printed":"CHIM-EN098","name":"Striker Dragon","ctype":"monster","keywords":"Dragon DARK Link Monster","stats":{"a":"DARK","l":"Link 1","t":"Dragon / Link","atk":1000},"rarity":"UR","img":"73539069","code":"98","tcg":200904,"grp":2527,"idx":102},
-    {"id":"099","section":"main","num":"099","printed":"CHIM-EN099","name":"Draco Masters of the Tenyi","ctype":"monster","keywords":"Tenyi Wyrm LIGHT Link Monster","stats":{"a":"LIGHT","l":"Link 3","t":"Wyrm / Link","atk":2600},"rarity":"UR","img":"23935886","code":"99","tcg":200905,"grp":2527,"idx":103}
+    {"id":"099","section":"main","num":"099","printed":"CHIM-EN099","name":"Draco Masters of the Tenyi","ctype":"monster","keywords":"Tenyi Wyrm LIGHT Link Monster","stats":{"a":"LIGHT","l":"Link 3","t":"Wyrm / Link","atk":2600},"rarity":"UR","img":"23935886","code":"99","tcg":200905,"grp":2527,"idx":103},
+    {"id":"008-str","section":"r-str","num":"008","printed":"CHIM-EN008","name":"Unchained Twins - Aruha","ctype":"monster","keywords":"Unchained Fiend FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 3","t":"Fiend / Effect","atk":1500,"def":1500},"rarity":"StR","img":"26236560","badge":"StR","variant":"Starlight Rare","code":"STR8","tcg":201100,"grp":2527,"idx":9},
+    {"id":"039-str","section":"r-str","num":"039","printed":"CHIM-EN039","name":"Salamangreat Pyro Phoenix","ctype":"monster","keywords":"Salamangreat Cyberse FIRE Link Monster","stats":{"a":"FIRE","l":"Link 4","t":"Cyberse / Link","atk":2800},"rarity":"StR","img":"31313405","badge":"StR","variant":"Starlight Rare","code":"STR39","tcg":201015,"grp":2527,"idx":41},
+    {"id":"048-str","section":"r-str","num":"048","printed":"CHIM-EN048","name":"Gorgon, Empress of the Evil Eyed","ctype":"monster","keywords":"Evil Eye Fiend DARK Link Monster","stats":{"a":"DARK","l":"Link 2","t":"Fiend / Link","atk":1900},"rarity":"StR","img":"29357687","badge":"StR","variant":"Starlight Rare","code":"STR48","tcg":200950,"grp":2527,"idx":51},
+    {"id":"049-str","section":"r-str","num":"049","printed":"CHIM-EN049","name":"I:P Masquerena","ctype":"monster","keywords":"Cyberse DARK Link Monster","stats":{"a":"DARK","l":"Link 2","t":"Cyberse / Link","atk":800},"rarity":"StR","img":"65741786","badge":"StR","variant":"Starlight Rare","code":"STR49","tcg":200948,"grp":2527,"idx":53}
   ]
 }

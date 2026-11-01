@@ -17,10 +17,21 @@
       "tier": "standard"
     },
     {
-      "id": "rarities",
-      "name": "Other Rarities",
-      "short": "Other Rarities",
-      "range": "6 cards",
+      "id": "r-utr",
+      "name": "Ultimate Rares",
+      "range": "3 cards",
+      "tier": "master"
+    },
+    {
+      "id": "r-scr",
+      "name": "Secret Rares",
+      "range": "2 cards",
+      "tier": "master"
+    },
+    {
+      "id": "r-gr",
+      "name": "Ghost Rares",
+      "range": "1 card",
       "tier": "master"
     }
   ],
@@ -30,8 +41,16 @@
       "Main set"
     ],
     [
-      "rarities",
-      "Other rarities"
+      "r-utr",
+      "Ultimate Rares"
+    ],
+    [
+      "r-scr",
+      "Secret Rares"
+    ],
+    [
+      "r-gr",
+      "Ghost Rares"
     ]
   ],
   "quickAdd": {
@@ -88,7 +107,6 @@
     {"id":"017","section":"main","num":"017","printed":"SECE-EN017","name":"Infernoid Seitsemas","ctype":"monster","keywords":"Infernoid Fiend FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 7","t":"Fiend / Effect","atk":2600,"def":0},"rarity":"C","img":"51316684","code":"17","tcg":95527,"grp":1505,"idx":17},
     {"id":"018","section":"main","num":"018","printed":"SECE-EN018","name":"Infernoid Attondel","ctype":"monster","keywords":"Infernoid Fiend FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 8","t":"Fiend / Effect","atk":2800,"def":0},"rarity":"C","img":"88301393","code":"18","tcg":95528,"grp":1505,"idx":18},
     {"id":"019","section":"main","num":"019","printed":"SECE-EN019","name":"Infernoid Onuncu","ctype":"monster","keywords":"Infernoid Fiend FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 10","t":"Fiend / Effect","atk":3000,"def":3000},"rarity":"UtR","img":"14799437","code":"19","tcg":95481,"grp":1505,"idx":19},
-    {"id":"019-scr","section":"rarities","num":"019","printed":"SECE-EN019","name":"Infernoid Onuncu","ctype":"monster","keywords":"Infernoid Fiend FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 10","t":"Fiend / Effect","atk":3000,"def":3000},"rarity":"ScR","img":"14799437","badge":"ScR","variant":"Secret Rare","code":"SCR19","tcg":95480,"grp":1505,"idx":20},
     {"id":"020","section":"main","num":"020","printed":"SECE-EN020","name":"Qliphort Monolith","ctype":"monster","keywords":"Qli Machine EARTH Pendulum Normal Monster","stats":{"a":"EARTH","l":"Level 5","t":"Machine / Pendulum / Normal","atk":2400,"def":1000},"rarity":"ScR","img":"51194046","code":"20","tcg":95529,"grp":1505,"idx":21},
     {"id":"021","section":"main","num":"021","printed":"SECE-EN021","name":"Qliphort Cephalopod","ctype":"monster","keywords":"Qli Machine EARTH Pendulum Effect Monster","stats":{"a":"EARTH","l":"Level 7","t":"Machine / Pendulum / Effect","atk":2800,"def":1000},"rarity":"SR","img":"87588741","code":"21","tcg":95493,"grp":1505,"idx":22},
     {"id":"022","section":"main","num":"022","printed":"SECE-EN022","name":"Qliphort Stealth","ctype":"monster","keywords":"Qli Machine EARTH Pendulum Effect Monster","stats":{"a":"EARTH","l":"Level 8","t":"Machine / Pendulum / Effect","atk":2800,"def":1000},"rarity":"UR","img":"13073850","code":"22","tcg":95494,"grp":1505,"idx":23},
@@ -114,17 +132,13 @@
     {"id":"042","section":"main","num":"042","printed":"SECE-EN042","name":"Legendary Maju Garzett","ctype":"monster","keywords":"Maju Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Fiend / Effect","atk":0,"def":0},"rarity":"SP","img":"12338068","code":"42","tcg":95544,"grp":1505,"idx":43},
     {"id":"043","section":"main","num":"043","printed":"SECE-EN043","name":"Marmiting Captain","ctype":"monster","keywords":"Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Warrior / Effect","atk":1200,"def":400},"rarity":"SP","img":"48737767","code":"43","tcg":95545,"grp":1505,"idx":44},
     {"id":"044","section":"main","num":"044","printed":"SECE-EN044","name":"Nekroz of Gungnir","ctype":"monster","keywords":"Nekroz Spellcaster WATER Ritual Effect Monster","stats":{"a":"WATER","l":"Level 7","t":"Spellcaster / Ritual / Effect","atk":2500,"def":1700},"rarity":"UtR","img":"74122412","code":"44","tcg":95491,"grp":1505,"idx":45},
-    {"id":"044-scr","section":"rarities","num":"044","printed":"SECE-EN044","name":"Nekroz of Gungnir","ctype":"monster","keywords":"Nekroz Spellcaster WATER Ritual Effect Monster","stats":{"a":"WATER","l":"Level 7","t":"Spellcaster / Ritual / Effect","atk":2500,"def":1700},"rarity":"ScR","img":"74122412","badge":"ScR","variant":"Secret Rare","code":"SCR44","tcg":95490,"grp":1505,"idx":46},
     {"id":"045","section":"main","num":"045","printed":"SECE-EN045","name":"Rune-Eyes Pendulum Dragon","ctype":"monster","keywords":"Odd-Eyes Dragon DARK Fusion Monster","stats":{"a":"DARK","l":"Level 8","t":"Dragon / Fusion","atk":3000,"def":2000},"rarity":"UR","img":"1516510","code":"45","tcg":95576,"grp":1505,"idx":47},
     {"id":"046","section":"main","num":"046","printed":"SECE-EN046","name":"Gem-Knight Lady Lapis Lazuli","ctype":"monster","keywords":"Gem- Rock EARTH Fusion Monster","stats":{"a":"EARTH","l":"Level 5","t":"Rock / Fusion","atk":2400,"def":1000},"rarity":"R","img":"47611119","code":"46","tcg":95546,"grp":1505,"idx":48},
     {"id":"047","section":"main","num":"047","printed":"SECE-EN047","name":"El Shaddoll Wendigo","ctype":"monster","keywords":"Shaddoll Psychic WIND Fusion Monster","stats":{"a":"WIND","l":"Level 6","t":"Psychic / Fusion","atk":200,"def":2800},"rarity":"SR","img":"74009824","code":"47","tcg":95473,"grp":1505,"idx":49},
     {"id":"048","section":"main","num":"048","printed":"SECE-EN048","name":"Superheavy Samurai Warlord Susanowo","ctype":"monster","keywords":"Superheavy Machine EARTH Synchro Monster","stats":{"a":"EARTH","l":"Level 10","t":"Machine / Synchro","atk":2400,"def":3800},"rarity":"SR","img":"494922","code":"48","tcg":95503,"grp":1505,"idx":50},
-    {"id":"048-utr","section":"rarities","num":"048","printed":"SECE-EN048","name":"Superheavy Samurai Warlord Susanowo","ctype":"monster","keywords":"Superheavy Machine EARTH Synchro Monster","stats":{"a":"EARTH","l":"Level 10","t":"Machine / Synchro","atk":2400,"def":3800},"rarity":"UtR","img":"494922","badge":"UtR","variant":"Ultimate Rare","code":"UTR48","tcg":95504,"grp":1505,"idx":51},
     {"id":"049","section":"main","num":"049","printed":"SECE-EN049","name":"Metaphys Horus","ctype":"monster","keywords":"Metaphys Wyrm LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Wyrm / Synchro","atk":2300,"def":1600},"rarity":"UR","img":"36898537","code":"49","tcg":95488,"grp":1505,"idx":52},
-    {"id":"049-utr","section":"rarities","num":"049","printed":"SECE-EN049","name":"Metaphys Horus","ctype":"monster","keywords":"Metaphys Wyrm LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Wyrm / Synchro","atk":2300,"def":1600},"rarity":"UtR","img":"36898537","badge":"UtR","variant":"Ultimate Rare","code":"UTR49","tcg":95487,"grp":1505,"idx":53},
     {"id":"050","section":"main","num":"050","printed":"SECE-EN050","name":"Raidraptor - Rise Falcon","ctype":"monster","keywords":"Raidraptor Winged Beast DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 4","t":"Winged Beast / Xyz","atk":100,"def":2000},"rarity":"C","img":"73887236","code":"50","tcg":95547,"grp":1505,"idx":54},
     {"id":"051","section":"main","num":"051","printed":"SECE-EN051","name":"Stellarknight Constellar Diamond","ctype":"monster","keywords":"Stellarknight Wyrm LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 5","t":"Wyrm / Xyz","atk":2700,"def":2000},"rarity":"UR","img":"9272381","code":"51","tcg":95501,"grp":1505,"idx":55},
-    {"id":"051-utr","section":"rarities","num":"051","printed":"SECE-EN051","name":"Stellarknight Constellar Diamond","ctype":"monster","keywords":"Stellarknight Wyrm LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 5","t":"Wyrm / Xyz","atk":2700,"def":2000},"rarity":"UtR","img":"9272381","badge":"UtR","variant":"Ultimate Rare","code":"UTR51","tcg":95500,"grp":1505,"idx":56},
     {"id":"052","section":"main","num":"052","printed":"SECE-EN052","name":"Sky Cavalry Centaurea","ctype":"monster","keywords":"Beast-Warrior LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 2","t":"Beast-Warrior / Xyz","atk":2000,"def":0},"rarity":"UR","img":"36776089","code":"52","tcg":95498,"grp":1505,"idx":57},
     {"id":"053","section":"main","num":"053","printed":"SECE-EN053","name":"Illusion Balloons","ctype":"spell","keywords":"Performapal Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"62161698","code":"53","tcg":95548,"grp":1505,"idx":58},
     {"id":"054","section":"main","num":"054","printed":"SECE-EN054","name":"Raidraptor - Nest","ctype":"spell","keywords":"Raidraptor Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"R","img":"8559793","code":"54","tcg":95549,"grp":1505,"idx":59},
@@ -159,7 +173,6 @@
     {"id":"083","section":"main","num":"083","printed":"SECE-EN083","name":"Libic, Malebranche of the Burning Abyss","ctype":"monster","keywords":"Burning Abyss Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Fiend / Effect","atk":1300,"def":700},"rarity":"R","img":"62957424","code":"83","tcg":95484,"grp":1505,"idx":88},
     {"id":"084","section":"main","num":"084","printed":"SECE-EN084","name":"Cagna, Malebranche of the Burning Abyss","ctype":"monster","keywords":"Burning Abyss Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Fiend / Effect","atk":1500,"def":300},"rarity":"R","img":"9342162","code":"84","tcg":95469,"grp":1505,"idx":89},
     {"id":"085","section":"main","num":"085","printed":"SECE-EN085","name":"Malacoda, Netherlord of the Burning Abyss","ctype":"monster","keywords":"Burning Abyss Fiend DARK Ritual Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Fiend / Ritual / Effect","atk":2700,"def":2200},"rarity":"ScR","img":"35330871","code":"85","tcg":95486,"grp":1505,"idx":90},
-    {"id":"085-gr","section":"rarities","num":"085","printed":"SECE-EN085","name":"Malacoda, Netherlord of the Burning Abyss","ctype":"monster","keywords":"Burning Abyss Fiend DARK Ritual Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Fiend / Ritual / Effect","atk":2700,"def":2200},"rarity":"GR","img":"35330871","badge":"GR","variant":"Ghost Rare","code":"GR85","tcg":95485,"grp":1505,"idx":91},
     {"id":"086","section":"main","num":"086","printed":"SECE-EN086","name":"Good & Evil in the Burning Abyss","ctype":"spell","keywords":"Burning Abyss Ritual Spell","stats":{"t":"Ritual Spell"},"rarity":"SR","img":"62835876","code":"86","tcg":95478,"grp":1505,"idx":92},
     {"id":"087","section":"main","num":"087","printed":"SECE-EN087","name":"U.A. Playmaker","ctype":"monster","keywords":"U.A. Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 8","t":"Warrior / Effect","atk":2600,"def":2000},"rarity":"R","img":"98229575","code":"87","tcg":95512,"grp":1505,"idx":93},
     {"id":"088","section":"main","num":"088","printed":"SECE-EN088","name":"U.A. Blockbacker","ctype":"monster","keywords":"U.A. Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 7","t":"Warrior / Effect","atk":1600,"def":2700},"rarity":"R","img":"34614289","code":"88","tcg":95513,"grp":1505,"idx":94},
@@ -173,6 +186,12 @@
     {"id":"096","section":"main","num":"096","printed":"SECE-EN096","name":"Doggy Diver","ctype":"monster","keywords":"Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Warrior / Effect","atk":1000,"def":1000},"rarity":"R","img":"1003028","code":"96","tcg":95472,"grp":1505,"idx":102},
     {"id":"097","section":"main","num":"097","printed":"SECE-EN097","name":"Level Lifter","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"37198732","code":"97","tcg":95483,"grp":1505,"idx":103},
     {"id":"098","section":"main","num":"098","printed":"SECE-EN098","name":"Gogogo Talisman","ctype":"spell","keywords":"Gogogo Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"63583431","code":"98","tcg":95477,"grp":1505,"idx":104},
-    {"id":"099","section":"main","num":"099","printed":"SECE-EN099","name":"Soul Strike","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"36376145","code":"99","tcg":95499,"grp":1505,"idx":105}
+    {"id":"099","section":"main","num":"099","printed":"SECE-EN099","name":"Soul Strike","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"36376145","code":"99","tcg":95499,"grp":1505,"idx":105},
+    {"id":"048-utr","section":"r-utr","num":"048","printed":"SECE-EN048","name":"Superheavy Samurai Warlord Susanowo","ctype":"monster","keywords":"Superheavy Machine EARTH Synchro Monster","stats":{"a":"EARTH","l":"Level 10","t":"Machine / Synchro","atk":2400,"def":3800},"rarity":"UtR","img":"494922","badge":"UtR","variant":"Ultimate Rare","code":"UTR48","tcg":95504,"grp":1505,"idx":51},
+    {"id":"049-utr","section":"r-utr","num":"049","printed":"SECE-EN049","name":"Metaphys Horus","ctype":"monster","keywords":"Metaphys Wyrm LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Wyrm / Synchro","atk":2300,"def":1600},"rarity":"UtR","img":"36898537","badge":"UtR","variant":"Ultimate Rare","code":"UTR49","tcg":95487,"grp":1505,"idx":53},
+    {"id":"051-utr","section":"r-utr","num":"051","printed":"SECE-EN051","name":"Stellarknight Constellar Diamond","ctype":"monster","keywords":"Stellarknight Wyrm LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 5","t":"Wyrm / Xyz","atk":2700,"def":2000},"rarity":"UtR","img":"9272381","badge":"UtR","variant":"Ultimate Rare","code":"UTR51","tcg":95500,"grp":1505,"idx":56},
+    {"id":"019-scr","section":"r-scr","num":"019","printed":"SECE-EN019","name":"Infernoid Onuncu","ctype":"monster","keywords":"Infernoid Fiend FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 10","t":"Fiend / Effect","atk":3000,"def":3000},"rarity":"ScR","img":"14799437","badge":"ScR","variant":"Secret Rare","code":"SCR19","tcg":95480,"grp":1505,"idx":20},
+    {"id":"044-scr","section":"r-scr","num":"044","printed":"SECE-EN044","name":"Nekroz of Gungnir","ctype":"monster","keywords":"Nekroz Spellcaster WATER Ritual Effect Monster","stats":{"a":"WATER","l":"Level 7","t":"Spellcaster / Ritual / Effect","atk":2500,"def":1700},"rarity":"ScR","img":"74122412","badge":"ScR","variant":"Secret Rare","code":"SCR44","tcg":95490,"grp":1505,"idx":46},
+    {"id":"085-gr","section":"r-gr","num":"085","printed":"SECE-EN085","name":"Malacoda, Netherlord of the Burning Abyss","ctype":"monster","keywords":"Burning Abyss Fiend DARK Ritual Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Fiend / Ritual / Effect","atk":2700,"def":2200},"rarity":"GR","img":"35330871","badge":"GR","variant":"Ghost Rare","code":"GR85","tcg":95485,"grp":1505,"idx":91}
   ]
 }

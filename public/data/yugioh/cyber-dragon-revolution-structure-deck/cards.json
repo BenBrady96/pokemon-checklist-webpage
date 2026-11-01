@@ -15,34 +15,45 @@
       "name": "Cards",
       "range": "SDCR-EN001–SDCR-EN038",
       "tier": "standard"
+    },
+    {
+      "id": "r-c",
+      "name": "Commons (White)",
+      "range": "1 card",
+      "tier": "master"
     }
   ],
   "summary": [
     [
       "main",
-      "Cards"
+      "Main set"
+    ],
+    [
+      "r-c",
+      "Commons (White)"
     ]
   ],
   "quickAdd": {
-    "placeholder": "e.g. 1-20, 45, 60x2",
-    "example": "1-20, 45x2",
-    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "placeholder": "e.g. 1-20, 45, SCR12, 60x2",
+    "example": "1-20, 45x2, SCR12",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies. Other rarities use their short name and number: <b>SCR12</b> is card 12’s Secret Rare, and ranges work too (<b>QCSR1-QCSR20</b>). Special prints add their own letters: <b>CWH3</b> is card 3’s White Common.",
     "empty": "Cards run from SDCR-EN001 to SDCR-EN038."
   },
   "help": {
-    "tiers": ""
+    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 38 cards, each in its main rarity. Master adds the 1 other rarity. Cards you’ve marked are kept when you switch."
   },
   "seo": {
     "title": "Yu-Gi-Oh! Cyber Dragon Revolution Structure Deck Checklist · All 38 Cards",
-    "description": "Free Yu-Gi-Oh! Cyber Dragon Revolution Structure Deck checklist with no ads, no sign-up and no tracking. Track all 38 cards, with images, copy counts, binder pages and prices.",
+    "description": "Free Yu-Gi-Oh! Cyber Dragon Revolution Structure Deck checklist with no ads, no sign-up and no tracking. Track all 38 cards, or every rarity for a master set, with images, copy counts, binder pages and prices.",
     "ogTitle": "Yu-Gi-Oh! Cyber Dragon Revolution Structure Deck Checklist",
-    "ogDescription": "Track all 38 cards in Yu-Gi-Oh! Cyber Dragon Revolution Structure Deck. Free, with no ads, no sign-up and no tracking.",
+    "ogDescription": "Track all 38 cards in Yu-Gi-Oh! Cyber Dragon Revolution Structure Deck, plus 1 other rarity. Free, with no ads, no sign-up and no tracking.",
     "twitterDescription": "Track all 38 cards in Yu-Gi-Oh! Cyber Dragon Revolution Structure Deck. Free, with no ads, no sign-up and no tracking."
   },
   "about": {
     "title": "About Cyber Dragon Revolution Structure Deck",
     "paragraphs": [
-      "Cyber Dragon Revolution Structure Deck is a Yu-Gi-Oh! TCG deck released on 6 February 2014, in the ZEXAL era. It has 38 cards.",
+      "Cyber Dragon Revolution Structure Deck is a Yu-Gi-Oh! TCG deck released on 6 February 2014, in the ZEXAL era. It has 38 cards, and with the 1 other rarity there are 39 to collect in all.",
+      "Choose what you’re collecting: the <b>Standard set</b> (the 38 cards, each in its main rarity) or the <b>Master set</b> (all 39, adding the 1 other rarity).",
       "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
       "Card details and images come from YGOPRODeck, and prices from TCGplayer."
     ]
@@ -58,7 +69,7 @@
   "cards": [
     {"id":"001","section":"main","num":"001","printed":"SDCR-EN001","name":"Cyber Dragon Core","ctype":"monster","keywords":"Cyber Dragon Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 2","t":"Machine / Effect","atk":400,"def":1500},"rarity":"SR","img":"23893227","code":"1","tcg":79482,"grp":1307,"idx":0},
     {"id":"002","section":"main","num":"002","printed":"SDCR-EN002","name":"Cyber Dragon Drei","ctype":"monster","keywords":"Cyber Dragon Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Machine / Effect","atk":1800,"def":800},"rarity":"SR","img":"59281922","code":"2","tcg":79483,"grp":1307,"idx":1},
-    {"id":"003","section":"main","num":"003","printed":"SDCR-EN003","name":"Cyber Dragon","ctype":"monster","keywords":"Cyber Dragon Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 5","t":"Machine / Effect","atk":2100,"def":1600},"rarity":"C","img":"70095154","code":"3","tcg":79484,"grp":1307,"idx":2},
+    {"id":"003","section":"main","num":"003","printed":"SDCR-EN003","name":"Cyber Dragon","ctype":"monster","keywords":"Cyber Dragon Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 5","t":"Machine / Effect","atk":2100,"def":1600},"rarity":"C","img":"70095155","print":"Black","code":"3","tcg":79485,"grp":1307,"idx":2},
     {"id":"004","section":"main","num":"004","printed":"SDCR-EN004","name":"Cyber Dragon Zwei","ctype":"monster","keywords":"Cyber Dragon Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Machine / Effect","atk":1500,"def":1000},"rarity":"C","img":"5373478","code":"4","tcg":79486,"grp":1307,"idx":3},
     {"id":"005","section":"main","num":"005","printed":"SDCR-EN005","name":"Proto-Cyber Dragon","ctype":"monster","keywords":"Cyber Dragon Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Machine / Effect","atk":1100,"def":600},"rarity":"C","img":"26439287","code":"5","tcg":79487,"grp":1307,"idx":4},
     {"id":"006","section":"main","num":"006","printed":"SDCR-EN006","name":"Cyber Valley","ctype":"monster","keywords":"Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Machine / Effect","atk":0,"def":0},"rarity":"C","img":"3657444","code":"6","tcg":79488,"grp":1307,"idx":5},
@@ -93,6 +104,7 @@
     {"id":"035","section":"main","num":"035","printed":"SDCR-EN035","name":"Waboku","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"12607053","code":"35","tcg":79517,"grp":1307,"idx":34},
     {"id":"036","section":"main","num":"036","printed":"SDCR-EN036","name":"Call of the Haunted","ctype":"trap","keywords":"Call of the Haunted Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"97077563","code":"36","tcg":79518,"grp":1307,"idx":35},
     {"id":"037","section":"main","num":"037","printed":"SDCR-EN037","name":"Cyber Twin Dragon","ctype":"monster","keywords":"Machine LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Machine / Fusion","atk":2800,"def":2100},"rarity":"UR","img":"74157028","code":"37","tcg":79519,"grp":1307,"idx":36},
-    {"id":"038","section":"main","num":"038","printed":"SDCR-EN038","name":"Cyber Dragon Nova","ctype":"monster","keywords":"Cyber Dragon Machine LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 5","t":"Machine / Xyz","atk":2100,"def":1600},"rarity":"UR","img":"58069384","code":"38","tcg":79520,"grp":1307,"idx":37}
+    {"id":"038","section":"main","num":"038","printed":"SDCR-EN038","name":"Cyber Dragon Nova","ctype":"monster","keywords":"Cyber Dragon Machine LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 5","t":"Machine / Xyz","atk":2100,"def":1600},"rarity":"UR","img":"58069384","code":"38","tcg":79520,"grp":1307,"idx":37},
+    {"id":"003-c-white","section":"r-c","num":"003","printed":"SDCR-EN003","name":"Cyber Dragon","ctype":"monster","keywords":"Cyber Dragon Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 5","t":"Machine / Effect","atk":2100,"def":1600},"rarity":"C","img":"70095154","badge":"C WH","variant":"White Common","print":"White","tag":"white","code":"CWH3","tcg":79484,"grp":1307,"idx":38}
   ]
 }

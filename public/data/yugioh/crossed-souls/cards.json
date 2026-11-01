@@ -17,10 +17,21 @@
       "tier": "standard"
     },
     {
-      "id": "rarities",
-      "name": "Other Rarities",
-      "short": "Other Rarities",
-      "range": "6 cards",
+      "id": "r-utr",
+      "name": "Ultimate Rares",
+      "range": "3 cards",
+      "tier": "master"
+    },
+    {
+      "id": "r-scr",
+      "name": "Secret Rares",
+      "range": "2 cards",
+      "tier": "master"
+    },
+    {
+      "id": "r-gr",
+      "name": "Ghost Rares",
+      "range": "1 card",
       "tier": "master"
     }
   ],
@@ -30,8 +41,16 @@
       "Main set"
     ],
     [
-      "rarities",
-      "Other rarities"
+      "r-utr",
+      "Ultimate Rares"
+    ],
+    [
+      "r-scr",
+      "Secret Rares"
+    ],
+    [
+      "r-gr",
+      "Ghost Rares"
     ]
   ],
   "quickAdd": {
@@ -107,24 +126,18 @@
     {"id":"036","section":"main","num":"036","printed":"CROS-EN036","name":"Doomdog Octhros","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Fiend / Effect","atk":800,"def":800},"rarity":"C","img":"58616392","code":"36","tcg":98435,"grp":1537,"idx":36},
     {"id":"037","section":"main","num":"037","printed":"CROS-EN037","name":"Putrid Pudding Body Buddies","ctype":"monster","keywords":"Fiend WATER Effect Monster","stats":{"a":"WATER","l":"Level 1","t":"Fiend / Effect","atk":300,"def":300},"rarity":"SP","img":"85101097","code":"37","tcg":98436,"grp":1537,"idx":37},
     {"id":"038","section":"main","num":"038","printed":"CROS-EN038","name":"Nekroz of Sophia","ctype":"monster","keywords":"Nekroz Spellcaster LIGHT Ritual Effect Monster","stats":{"a":"LIGHT","l":"Level 11","t":"Spellcaster / Ritual / Effect","atk":3600,"def":3400},"rarity":"UtR","img":"21105106","code":"38","tcg":98438,"grp":1537,"idx":38},
-    {"id":"038-scr","section":"rarities","num":"038","printed":"CROS-EN038","name":"Nekroz of Sophia","ctype":"monster","keywords":"Nekroz Spellcaster LIGHT Ritual Effect Monster","stats":{"a":"LIGHT","l":"Level 11","t":"Spellcaster / Ritual / Effect","atk":3600,"def":3400},"rarity":"ScR","img":"21105106","badge":"ScR","variant":"Secret Rare","code":"SCR38","tcg":98437,"grp":1537,"idx":39},
     {"id":"039","section":"main","num":"039","printed":"CROS-EN039","name":"Schuberta the Melodious Maestra","ctype":"monster","keywords":"Melodious Fairy LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Fairy / Fusion","atk":2400,"def":2000},"rarity":"R","img":"57594700","code":"39","tcg":98439,"grp":1537,"idx":40},
     {"id":"040","section":"main","num":"040","printed":"CROS-EN040","name":"Bloom Diva the Melodious Choir","ctype":"monster","keywords":"Melodious Fairy LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Fairy / Fusion","atk":1000,"def":2000},"rarity":"UR","img":"84988419","code":"40","tcg":98440,"grp":1537,"idx":41},
     {"id":"041","section":"main","num":"041","printed":"CROS-EN041","name":"Frightfur Leo","ctype":"monster","keywords":"Edge Imp Fiend DARK Fusion Monster","stats":{"a":"DARK","l":"Level 7","t":"Fiend / Fusion","atk":2400,"def":2000},"rarity":"SR","img":"10383554","code":"41","tcg":98441,"grp":1537,"idx":42},
     {"id":"042","section":"main","num":"042","printed":"CROS-EN042","name":"Frightfur Sheep","ctype":"monster","keywords":"Edge Imp Fiend DARK Fusion Monster","stats":{"a":"DARK","l":"Level 5","t":"Fiend / Fusion","atk":2000,"def":2000},"rarity":"SR","img":"57477163","code":"42","tcg":98442,"grp":1537,"idx":43},
     {"id":"043","section":"main","num":"043","printed":"CROS-EN043","name":"Frightfur Chimera","ctype":"monster","keywords":"Frightfur Fiend DARK Fusion Monster","stats":{"a":"DARK","l":"Level 8","t":"Fiend / Fusion","atk":2800,"def":2000},"rarity":"R","img":"83866861","code":"43","tcg":98443,"grp":1537,"idx":44},
-    {"id":"043-utr","section":"rarities","num":"043","printed":"CROS-EN043","name":"Frightfur Chimera","ctype":"monster","keywords":"Frightfur Fiend DARK Fusion Monster","stats":{"a":"DARK","l":"Level 8","t":"Fiend / Fusion","atk":2800,"def":2000},"rarity":"UtR","img":"83866861","badge":"UtR","variant":"Ultimate Rare","code":"UTR43","tcg":98444,"grp":1537,"idx":45},
     {"id":"044","section":"main","num":"044","printed":"CROS-EN044","name":"El Shaddoll Anoyatyllis","ctype":"monster","keywords":"Shaddoll Fiend WATER Fusion Monster","stats":{"a":"WATER","l":"Level 9","t":"Fiend / Fusion","atk":2700,"def":2000},"rarity":"ScR","img":"19261966","code":"44","tcg":98445,"grp":1537,"idx":46},
     {"id":"045","section":"main","num":"045","printed":"CROS-EN045","name":"Ritual Beast Ulti-Gaiapelio","ctype":"monster","keywords":"Ritual Beast Psychic LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 10","t":"Psychic / Fusion","atk":3200,"def":2100},"rarity":"UR","img":"56655675","code":"45","tcg":98446,"grp":1537,"idx":47},
-    {"id":"045-utr","section":"rarities","num":"045","printed":"CROS-EN045","name":"Ritual Beast Ulti-Gaiapelio","ctype":"monster","keywords":"Ritual Beast Psychic LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 10","t":"Psychic / Fusion","atk":3200,"def":2100},"rarity":"UtR","img":"56655675","badge":"UtR","variant":"Ultimate Rare","code":"UTR45","tcg":98447,"grp":1537,"idx":48},
     {"id":"046","section":"main","num":"046","printed":"CROS-EN046","name":"Clear Wing Synchro Dragon","ctype":"monster","keywords":"Clear Wing Dragon WIND Synchro Monster","stats":{"a":"WIND","l":"Level 7","t":"Dragon / Synchro","atk":2500,"def":2000},"rarity":"UtR","img":"82044279","code":"46","tcg":98449,"grp":1537,"idx":49},
-    {"id":"046-scr","section":"rarities","num":"046","printed":"CROS-EN046","name":"Clear Wing Synchro Dragon","ctype":"monster","keywords":"Clear Wing Dragon WIND Synchro Monster","stats":{"a":"WIND","l":"Level 7","t":"Dragon / Synchro","atk":2500,"def":2000},"rarity":"ScR","img":"82044279","badge":"ScR","variant":"Secret Rare","code":"SCR46","tcg":98448,"grp":1537,"idx":50},
-    {"id":"046-gr","section":"rarities","num":"046","printed":"CROS-EN046","name":"Clear Wing Synchro Dragon","ctype":"monster","keywords":"Clear Wing Dragon WIND Synchro Monster","stats":{"a":"WIND","l":"Level 7","t":"Dragon / Synchro","atk":2500,"def":2000},"rarity":"GR","img":"82044279","badge":"GR","variant":"Ghost Rare","code":"GR46","tcg":98450,"grp":1537,"idx":51},
     {"id":"047","section":"main","num":"047","printed":"CROS-EN047","name":"Chaofeng, Phantom of the Yang Zing","ctype":"monster","keywords":"Yang Zing Wyrm LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 9","t":"Wyrm / Synchro","atk":2800,"def":2200},"rarity":"SR","img":"19048328","code":"47","tcg":98451,"grp":1537,"idx":52},
     {"id":"048","section":"main","num":"048","printed":"CROS-EN048","name":"Raidraptor - Blaze Falcon","ctype":"monster","keywords":"Raidraptor Winged Beast DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 5","t":"Winged Beast / Xyz","atk":1000,"def":2000},"rarity":"R","img":"45533023","code":"48","tcg":98452,"grp":1537,"idx":53},
     {"id":"049","section":"main","num":"049","printed":"CROS-EN049","name":"Raidraptor - Revolution Falcon","ctype":"monster","keywords":"Raidraptor Winged Beast DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 6","t":"Winged Beast / Xyz","atk":2000,"def":3000},"rarity":"R","img":"81927732","code":"49","tcg":98453,"grp":1537,"idx":54},
     {"id":"050","section":"main","num":"050","printed":"CROS-EN050","name":"Tellarknight Ptolemaeus","ctype":"monster","keywords":"Stellarknight Warrior LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 4","t":"Warrior / Xyz","atk":550,"def":2600},"rarity":"UR","img":"18326736","code":"50","tcg":98454,"grp":1537,"idx":55},
-    {"id":"050-utr","section":"rarities","num":"050","printed":"CROS-EN050","name":"Tellarknight Ptolemaeus","ctype":"monster","keywords":"Stellarknight Warrior LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 4","t":"Warrior / Xyz","atk":550,"def":2600},"rarity":"UtR","img":"18326736","badge":"UtR","variant":"Ultimate Rare","code":"UTR50","tcg":98455,"grp":1537,"idx":56},
     {"id":"051","section":"main","num":"051","printed":"CROS-EN051","name":"Madolche Puddingcess Chocolat-a-la-Mode","ctype":"monster","keywords":"Madolche Fairy EARTH Xyz Monster","stats":{"a":"EARTH","l":"Rank 5","t":"Fairy / Xyz","atk":2500,"def":2200},"rarity":"UR","img":"44311445","code":"51","tcg":98456,"grp":1537,"idx":57},
     {"id":"052","section":"main","num":"052","printed":"CROS-EN052","name":"Performapal Recasting","ctype":"spell","keywords":"Performapal Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"71705144","code":"52","tcg":98921,"grp":1537,"idx":58},
     {"id":"053","section":"main","num":"053","printed":"CROS-EN053","name":"Fusion Conscription","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"R","img":"17194258","code":"53","tcg":98457,"grp":1537,"idx":59},
@@ -173,6 +186,12 @@
     {"id":"096","section":"main","num":"096","printed":"CROS-EN096","name":"Performapal Thunderhino","ctype":"monster","keywords":"Performapal Rock LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Rock / Effect","atk":200,"def":1800},"rarity":"C","img":"70458081","code":"96","tcg":98492,"grp":1537,"idx":102},
     {"id":"097","section":"main","num":"097","printed":"CROS-EN097","name":"Primitive Butterfly","ctype":"monster","keywords":"Butterfly Insect WIND Effect Monster","stats":{"a":"WIND","l":"Level 5","t":"Insect / Effect","atk":1200,"def":900},"rarity":"C","img":"98154550","code":"97","tcg":98493,"grp":1537,"idx":103},
     {"id":"098","section":"main","num":"098","printed":"CROS-EN098","name":"Junk Anchor","ctype":"monster","keywords":"Junk Warrior EARTH Tuner Monster","stats":{"a":"EARTH","l":"Level 2","t":"Warrior / Tuner","atk":0,"def":0},"rarity":"R","img":"25148255","code":"98","tcg":98494,"grp":1537,"idx":104},
-    {"id":"099","section":"main","num":"099","printed":"CROS-EN099","name":"Harpie Harpist","ctype":"monster","keywords":"Harpie Winged Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Winged Beast / Effect","atk":1700,"def":600},"rarity":"SR","img":"56585883","code":"99","tcg":98495,"grp":1537,"idx":105}
+    {"id":"099","section":"main","num":"099","printed":"CROS-EN099","name":"Harpie Harpist","ctype":"monster","keywords":"Harpie Winged Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Winged Beast / Effect","atk":1700,"def":600},"rarity":"SR","img":"56585883","code":"99","tcg":98495,"grp":1537,"idx":105},
+    {"id":"043-utr","section":"r-utr","num":"043","printed":"CROS-EN043","name":"Frightfur Chimera","ctype":"monster","keywords":"Frightfur Fiend DARK Fusion Monster","stats":{"a":"DARK","l":"Level 8","t":"Fiend / Fusion","atk":2800,"def":2000},"rarity":"UtR","img":"83866861","badge":"UtR","variant":"Ultimate Rare","code":"UTR43","tcg":98444,"grp":1537,"idx":45},
+    {"id":"045-utr","section":"r-utr","num":"045","printed":"CROS-EN045","name":"Ritual Beast Ulti-Gaiapelio","ctype":"monster","keywords":"Ritual Beast Psychic LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 10","t":"Psychic / Fusion","atk":3200,"def":2100},"rarity":"UtR","img":"56655675","badge":"UtR","variant":"Ultimate Rare","code":"UTR45","tcg":98447,"grp":1537,"idx":48},
+    {"id":"050-utr","section":"r-utr","num":"050","printed":"CROS-EN050","name":"Tellarknight Ptolemaeus","ctype":"monster","keywords":"Stellarknight Warrior LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 4","t":"Warrior / Xyz","atk":550,"def":2600},"rarity":"UtR","img":"18326736","badge":"UtR","variant":"Ultimate Rare","code":"UTR50","tcg":98455,"grp":1537,"idx":56},
+    {"id":"038-scr","section":"r-scr","num":"038","printed":"CROS-EN038","name":"Nekroz of Sophia","ctype":"monster","keywords":"Nekroz Spellcaster LIGHT Ritual Effect Monster","stats":{"a":"LIGHT","l":"Level 11","t":"Spellcaster / Ritual / Effect","atk":3600,"def":3400},"rarity":"ScR","img":"21105106","badge":"ScR","variant":"Secret Rare","code":"SCR38","tcg":98437,"grp":1537,"idx":39},
+    {"id":"046-scr","section":"r-scr","num":"046","printed":"CROS-EN046","name":"Clear Wing Synchro Dragon","ctype":"monster","keywords":"Clear Wing Dragon WIND Synchro Monster","stats":{"a":"WIND","l":"Level 7","t":"Dragon / Synchro","atk":2500,"def":2000},"rarity":"ScR","img":"82044279","badge":"ScR","variant":"Secret Rare","code":"SCR46","tcg":98448,"grp":1537,"idx":50},
+    {"id":"046-gr","section":"r-gr","num":"046","printed":"CROS-EN046","name":"Clear Wing Synchro Dragon","ctype":"monster","keywords":"Clear Wing Dragon WIND Synchro Monster","stats":{"a":"WIND","l":"Level 7","t":"Dragon / Synchro","atk":2500,"def":2000},"rarity":"GR","img":"82044279","badge":"GR","variant":"Ghost Rare","code":"GR46","tcg":98450,"grp":1537,"idx":51}
   ]
 }

@@ -17,10 +17,21 @@
       "tier": "standard"
     },
     {
-      "id": "rarities",
-      "name": "Other Rarities",
-      "short": "Other Rarities",
-      "range": "6 cards",
+      "id": "r-utr",
+      "name": "Ultimate Rares",
+      "range": "4 cards",
+      "tier": "master"
+    },
+    {
+      "id": "r-scr",
+      "name": "Secret Rares",
+      "range": "1 card",
+      "tier": "master"
+    },
+    {
+      "id": "r-gr",
+      "name": "Ghost Rares",
+      "range": "1 card",
       "tier": "master"
     }
   ],
@@ -30,8 +41,16 @@
       "Main set"
     ],
     [
-      "rarities",
-      "Other rarities"
+      "r-utr",
+      "Ultimate Rares"
+    ],
+    [
+      "r-scr",
+      "Secret Rares"
+    ],
+    [
+      "r-gr",
+      "Ghost Rares"
     ]
   ],
   "quickAdd": {
@@ -115,22 +134,16 @@
     {"id":"044","section":"main","num":"044","printed":"SHSP-EN044","name":"Risebell the Star Psycher","ctype":"monster","keywords":"Psychic WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Psychic / Effect","atk":1500,"def":1500},"rarity":"SP","img":"14812659","code":"44","tcg":72424,"grp":1156,"idx":44},
     {"id":"045","section":"main","num":"045","printed":"SHSP-EN045","name":"Blue Duston","ctype":"monster","keywords":"Duston Fiend WATER Effect Monster","stats":{"a":"WATER","l":"Level 1","t":"Fiend / Effect","atk":0,"def":1000},"rarity":"SP","img":"40217358","code":"45","tcg":72425,"grp":1156,"idx":45},
     {"id":"046","section":"main","num":"046","printed":"SHSP-EN046","name":"Number C96: Dark Storm","ctype":"monster","keywords":"Fiend DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 3","t":"Fiend / Xyz","atk":1000,"def":1000},"rarity":"SR","img":"77205367","code":"46","tcg":72427,"grp":1156,"idx":46},
-    {"id":"046-utr","section":"rarities","num":"046","printed":"SHSP-EN046","name":"Number C96: Dark Storm","ctype":"monster","keywords":"Fiend DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 3","t":"Fiend / Xyz","atk":1000,"def":1000},"rarity":"UtR","img":"77205367","badge":"UtR","variant":"Ultimate Rare","code":"UTR46","tcg":72456,"grp":1156,"idx":47},
     {"id":"047","section":"main","num":"047","printed":"SHSP-EN047","name":"Number 65: Djinn Buster","ctype":"monster","keywords":"Djinn Fiend DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 2","t":"Fiend / Xyz","atk":1300,"def":0},"rarity":"R","img":"3790062","code":"47","tcg":72428,"grp":1156,"idx":48},
     {"id":"048","section":"main","num":"048","printed":"SHSP-EN048","name":"Number C65: King Overfiend","ctype":"monster","keywords":"Fiend DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 3","t":"Fiend / Xyz","atk":1600,"def":0},"rarity":"R","img":"49195710","code":"48","tcg":72430,"grp":1156,"idx":49},
     {"id":"049","section":"main","num":"049","printed":"SHSP-EN049","name":"Battlin' Boxer Cheat Commissioner","ctype":"monster","keywords":"Battlin' Boxer Warrior FIRE Xyz Monster","stats":{"a":"FIRE","l":"Rank 3","t":"Warrior / Xyz","atk":0,"def":1300},"rarity":"R","img":"76589815","code":"49","tcg":72433,"grp":1156,"idx":50},
     {"id":"050","section":"main","num":"050","printed":"SHSP-EN050","name":"Number 46: Dragluon","ctype":"monster","keywords":"Dragon LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 8","t":"Dragon / Xyz","atk":3000,"def":3000},"rarity":"SR","img":"2978414","code":"50","tcg":72435,"grp":1156,"idx":51},
-    {"id":"050-utr","section":"rarities","num":"050","printed":"SHSP-EN050","name":"Number 46: Dragluon","ctype":"monster","keywords":"Dragon LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 8","t":"Dragon / Xyz","atk":3000,"def":3000},"rarity":"UtR","img":"2978414","badge":"UtR","variant":"Ultimate Rare","code":"UTR50","tcg":72457,"grp":1156,"idx":52},
     {"id":"051","section":"main","num":"051","printed":"SHSP-EN051","name":"Number 64: Ronin Raccoon Sandayu","ctype":"monster","keywords":"Beast EARTH Xyz Monster","stats":{"a":"EARTH","l":"Rank 2","t":"Beast / Xyz","atk":1000,"def":1000},"rarity":"R","img":"39972129","code":"51","tcg":72437,"grp":1156,"idx":53},
     {"id":"052","section":"main","num":"052","printed":"SHSP-EN052","name":"Ghostrick Alucard","ctype":"monster","keywords":"Ghostrick Zombie DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 3","t":"Zombie / Xyz","atk":1800,"def":1600},"rarity":"UR","img":"75367227","code":"52","tcg":72439,"grp":1156,"idx":54},
-    {"id":"052-utr","section":"rarities","num":"052","printed":"SHSP-EN052","name":"Ghostrick Alucard","ctype":"monster","keywords":"Ghostrick Zombie DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 3","t":"Zombie / Xyz","atk":1800,"def":1600},"rarity":"UtR","img":"75367227","badge":"UtR","variant":"Ultimate Rare","code":"UTR52","tcg":72458,"grp":1156,"idx":55},
     {"id":"053","section":"main","num":"053","printed":"SHSP-EN053","name":"Bujintei Kagutsuchi","ctype":"monster","keywords":"Bujin Beast-Warrior LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 4","t":"Beast-Warrior / Xyz","atk":2500,"def":2000},"rarity":"UR","img":"1855932","code":"53","tcg":72441,"grp":1156,"idx":56},
-    {"id":"053-utr","section":"rarities","num":"053","printed":"SHSP-EN053","name":"Bujintei Kagutsuchi","ctype":"monster","keywords":"Bujin Beast-Warrior LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 4","t":"Beast-Warrior / Xyz","atk":2500,"def":2000},"rarity":"UtR","img":"1855932","badge":"UtR","variant":"Ultimate Rare","code":"UTR53","tcg":72459,"grp":1156,"idx":57},
     {"id":"054","section":"main","num":"054","printed":"SHSP-EN054","name":"Crimson Knight Vampire Bram","ctype":"monster","keywords":"Vampire Zombie DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 5","t":"Zombie / Xyz","atk":2500,"def":0},"rarity":"UR","img":"38250531","code":"54","tcg":72442,"grp":1156,"idx":58},
     {"id":"055","section":"main","num":"055","printed":"SHSP-EN055","name":"Meliae of the Trees","ctype":"monster","keywords":"Plant EARTH Xyz Monster","stats":{"a":"EARTH","l":"Rank 3","t":"Plant / Xyz","atk":1700,"def":900},"rarity":"ScR","img":"64245689","code":"55","tcg":72443,"grp":1156,"idx":59},
     {"id":"056","section":"main","num":"056","printed":"SHSP-EN056","name":"Divine Dragon Knight Felgrand","ctype":"monster","keywords":"Warrior LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 8","t":"Warrior / Xyz","atk":2800,"def":1800},"rarity":"UtR","img":"1639384","code":"56","tcg":72460,"grp":1156,"idx":60},
-    {"id":"056-scr","section":"rarities","num":"056","printed":"SHSP-EN056","name":"Divine Dragon Knight Felgrand","ctype":"monster","keywords":"Warrior LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 8","t":"Warrior / Xyz","atk":2800,"def":1800},"rarity":"ScR","img":"1639384","badge":"ScR","variant":"Secret Rare","code":"SCR56","tcg":72445,"grp":1156,"idx":61},
-    {"id":"056-gr","section":"rarities","num":"056","printed":"SHSP-EN056","name":"Divine Dragon Knight Felgrand","ctype":"monster","keywords":"Warrior LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 8","t":"Warrior / Xyz","atk":2800,"def":1800},"rarity":"GR","img":"1639384","badge":"GR","variant":"Ghost Rare","code":"GR56","tcg":72448,"grp":1156,"idx":62},
     {"id":"057","section":"main","num":"057","printed":"SHSP-EN057","name":"Puralis, the Purple Pyrotile","ctype":"monster","keywords":"Reptile FIRE Synchro Tuner Monster","stats":{"a":"FIRE","l":"Level 2","t":"Reptile / Synchro / Tuner","atk":800,"def":1400},"rarity":"R","img":"37038993","code":"57","tcg":72449,"grp":1156,"idx":63},
     {"id":"058","section":"main","num":"058","printed":"SHSP-EN058","name":"Giganticastle","ctype":"monster","keywords":"Rock EARTH Synchro Monster","stats":{"a":"EARTH","l":"Level 9","t":"Rock / Synchro","atk":2900,"def":2800},"rarity":"R","img":"63422098","code":"58","tcg":72452,"grp":1156,"idx":64},
     {"id":"059","section":"main","num":"059","printed":"SHSP-EN059","name":"Gagagatag","ctype":"spell","keywords":"Gagaga Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"917796","code":"59","tcg":72454,"grp":1156,"idx":65},
@@ -173,6 +186,12 @@
     {"id":"096","section":"main","num":"096","printed":"SHSP-EN096","name":"Black Dragon Collapserpent","ctype":"monster","keywords":"Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Dragon / Effect","atk":1800,"def":1700},"rarity":"C","img":"61901281","code":"96","tcg":72371,"grp":1156,"idx":102},
     {"id":"097","section":"main","num":"097","printed":"SHSP-EN097","name":"Armored Kappa","ctype":"monster","keywords":"Psychic WATER Xyz Monster","stats":{"a":"WATER","l":"Rank 2","t":"Psychic / Xyz","atk":400,"def":1000},"rarity":"SR","img":"50789693","code":"97","tcg":72369,"grp":1156,"idx":103},
     {"id":"098","section":"main","num":"098","printed":"SHSP-EN098","name":"Oh Tokenbaum!","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"R","img":"97173708","code":"98","tcg":72368,"grp":1156,"idx":104},
-    {"id":"099","section":"main","num":"099","printed":"SHSP-EN099","name":"Vivid Knight","ctype":"monster","keywords":"Beast-Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Beast-Warrior / Effect","atk":1700,"def":800},"rarity":"R","img":"52575195","code":"99","tcg":72363,"grp":1156,"idx":105}
+    {"id":"099","section":"main","num":"099","printed":"SHSP-EN099","name":"Vivid Knight","ctype":"monster","keywords":"Beast-Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Beast-Warrior / Effect","atk":1700,"def":800},"rarity":"R","img":"52575195","code":"99","tcg":72363,"grp":1156,"idx":105},
+    {"id":"046-utr","section":"r-utr","num":"046","printed":"SHSP-EN046","name":"Number C96: Dark Storm","ctype":"monster","keywords":"Fiend DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 3","t":"Fiend / Xyz","atk":1000,"def":1000},"rarity":"UtR","img":"77205367","badge":"UtR","variant":"Ultimate Rare","code":"UTR46","tcg":72456,"grp":1156,"idx":47},
+    {"id":"050-utr","section":"r-utr","num":"050","printed":"SHSP-EN050","name":"Number 46: Dragluon","ctype":"monster","keywords":"Dragon LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 8","t":"Dragon / Xyz","atk":3000,"def":3000},"rarity":"UtR","img":"2978414","badge":"UtR","variant":"Ultimate Rare","code":"UTR50","tcg":72457,"grp":1156,"idx":52},
+    {"id":"052-utr","section":"r-utr","num":"052","printed":"SHSP-EN052","name":"Ghostrick Alucard","ctype":"monster","keywords":"Ghostrick Zombie DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 3","t":"Zombie / Xyz","atk":1800,"def":1600},"rarity":"UtR","img":"75367227","badge":"UtR","variant":"Ultimate Rare","code":"UTR52","tcg":72458,"grp":1156,"idx":55},
+    {"id":"053-utr","section":"r-utr","num":"053","printed":"SHSP-EN053","name":"Bujintei Kagutsuchi","ctype":"monster","keywords":"Bujin Beast-Warrior LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 4","t":"Beast-Warrior / Xyz","atk":2500,"def":2000},"rarity":"UtR","img":"1855932","badge":"UtR","variant":"Ultimate Rare","code":"UTR53","tcg":72459,"grp":1156,"idx":57},
+    {"id":"056-scr","section":"r-scr","num":"056","printed":"SHSP-EN056","name":"Divine Dragon Knight Felgrand","ctype":"monster","keywords":"Warrior LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 8","t":"Warrior / Xyz","atk":2800,"def":1800},"rarity":"ScR","img":"1639384","badge":"ScR","variant":"Secret Rare","code":"SCR56","tcg":72445,"grp":1156,"idx":61},
+    {"id":"056-gr","section":"r-gr","num":"056","printed":"SHSP-EN056","name":"Divine Dragon Knight Felgrand","ctype":"monster","keywords":"Warrior LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 8","t":"Warrior / Xyz","atk":2800,"def":1800},"rarity":"GR","img":"1639384","badge":"GR","variant":"Ghost Rare","code":"GR56","tcg":72448,"grp":1156,"idx":62}
   ]
 }

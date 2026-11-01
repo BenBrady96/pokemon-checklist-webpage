@@ -17,9 +17,8 @@
       "tier": "standard"
     },
     {
-      "id": "rarities",
-      "name": "Other Rarities",
-      "short": "Other Rarities",
+      "id": "r-ssp",
+      "name": "Super Short Prints",
       "range": "1 card",
       "tier": "master"
     }
@@ -30,8 +29,8 @@
       "Main set"
     ],
     [
-      "rarities",
-      "Other rarities"
+      "r-ssp",
+      "Super Short Prints"
     ]
   ],
   "quickAdd": {
@@ -144,7 +143,6 @@
     {"id":"072","section":"main","num":"072","printed":"SRL-072","name":"Toon Mermaid","ctype":"monster","keywords":"Toon Aqua WATER Monster SRL-EN072","stats":{"a":"WATER","l":"Level 4","t":"Aqua / Toon","atk":1400,"def":1500},"rarity":"UR","img":"65458948","code":"72","tcg":120660,"grp":1819,"idx":72},
     {"id":"073","section":"main","num":"073","printed":"SRL-073","name":"Toon Summoned Skull","ctype":"monster","keywords":"Toon Fiend DARK Monster SRL-EN073","stats":{"a":"DARK","l":"Level 6","t":"Fiend / Toon","atk":2500,"def":1200},"rarity":"UR","img":"91842653","code":"73","tcg":120661,"grp":1819,"idx":73},
     {"id":"074","section":"main","num":"074","printed":"SRL-074","name":"Jigen Bakudan","ctype":"monster","keywords":"Pyro FIRE Flip Effect Monster SRL-EN074","stats":{"a":"FIRE","l":"Level 2","t":"Pyro / Flip / Effect","atk":200,"def":1000},"rarity":"SP","img":"90020065","code":"74","tcg":120662,"grp":1819,"idx":74},
-    {"id":"074-ssp","section":"rarities","num":"074","printed":"SRL-074","name":"Jigen Bakudan","ctype":"monster","keywords":"Pyro FIRE Flip Effect Monster SRL-EN074","stats":{"a":"FIRE","l":"Level 2","t":"Pyro / Flip / Effect","atk":200,"def":1000},"rarity":"SSP","img":"90020065","badge":"SSP","variant":"Super Short Print","code":"SSP74","tcg":120662,"grp":1819,"idx":75},
     {"id":"075","section":"main","num":"075","printed":"SRL-075","name":"Hyozanryu","ctype":"monster","keywords":"Dragon LIGHT Normal Monster SRL-EN075","stats":{"a":"LIGHT","l":"Level 7","t":"Dragon / Normal","atk":2100,"def":2800},"rarity":"R","img":"62397231","code":"75","tcg":120663,"grp":1819,"idx":76},
     {"id":"076","section":"main","num":"076","printed":"SRL-076","name":"Toon World","ctype":"spell","keywords":"Toon Continuous Spell SRL-EN076","stats":{"t":"Continuous Spell"},"rarity":"SR","img":"15259703","code":"76","tcg":120664,"grp":1819,"idx":77},
     {"id":"077","section":"main","num":"077","printed":"SRL-077","name":"Cyber Jar","ctype":"monster","keywords":"Rock DARK Flip Effect Monster SRL-EN077","stats":{"a":"DARK","l":"Level 3","t":"Rock / Flip / Effect","atk":900,"def":900},"rarity":"R","img":"34124316","code":"77","tcg":120665,"grp":1819,"idx":78},
@@ -173,6 +171,7 @@
     {"id":"100","section":"main","num":"100","printed":"SRL-100","name":"Luminous Spark","ctype":"spell","keywords":"Field Spell SRL-EN100","stats":{"t":"Field Spell"},"rarity":"SP","img":"81777047","code":"100","tcg":120688,"grp":1819,"idx":101},
     {"id":"101","section":"main","num":"101","printed":"SRL-101","name":"Mystic Plasma Zone","ctype":"spell","keywords":"Field Spell SRL-EN101","stats":{"t":"Field Spell"},"rarity":"C","img":"18161786","code":"101","tcg":120689,"grp":1819,"idx":102},
     {"id":"102","section":"main","num":"102","printed":"SRL-102","name":"Messenger of Peace","ctype":"spell","keywords":"Continuous Spell SRL-EN102","stats":{"t":"Continuous Spell"},"rarity":"SR","img":"44656491","code":"102","tcg":120690,"grp":1819,"idx":103},
-    {"id":"103","section":"main","num":"103","printed":"SRL-103","name":"Serpent Night Dragon","ctype":"monster","keywords":"Dragon DARK Normal Monster SRL-EN103","stats":{"a":"DARK","l":"Level 7","t":"Dragon / Normal","atk":2350,"def":2400},"rarity":"ScR","img":"66516792","code":"103","tcg":120691,"grp":1819,"idx":104}
+    {"id":"103","section":"main","num":"103","printed":"SRL-103","name":"Serpent Night Dragon","ctype":"monster","keywords":"Dragon DARK Normal Monster SRL-EN103","stats":{"a":"DARK","l":"Level 7","t":"Dragon / Normal","atk":2350,"def":2400},"rarity":"ScR","img":"66516792","code":"103","tcg":120691,"grp":1819,"idx":104},
+    {"id":"074-ssp","section":"r-ssp","num":"074","printed":"SRL-074","name":"Jigen Bakudan","ctype":"monster","keywords":"Pyro FIRE Flip Effect Monster SRL-EN074","stats":{"a":"FIRE","l":"Level 2","t":"Pyro / Flip / Effect","atk":200,"def":1000},"rarity":"SSP","img":"90020065","badge":"SSP","variant":"Super Short Print","code":"SSP74","tcg":120662,"grp":1819,"idx":75}
   ]
 }

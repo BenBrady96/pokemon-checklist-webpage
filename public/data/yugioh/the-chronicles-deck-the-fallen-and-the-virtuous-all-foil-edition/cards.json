@@ -17,10 +17,15 @@
       "tier": "standard"
     },
     {
-      "id": "rarities",
-      "name": "Other Rarities",
-      "short": "Other Rarities",
-      "range": "8 cards",
+      "id": "r-scr",
+      "name": "Secret Rares",
+      "range": "6 cards",
+      "tier": "master"
+    },
+    {
+      "id": "r-str",
+      "name": "Starlight Rares",
+      "range": "6 cards",
       "tier": "master"
     }
   ],
@@ -30,8 +35,12 @@
       "Main set"
     ],
     [
-      "rarities",
-      "Other rarities"
+      "r-scr",
+      "Secret Rares"
+    ],
+    [
+      "r-str",
+      "Starlight Rares"
     ]
   ],
   "quickAdd": {
@@ -41,20 +50,20 @@
     "empty": "Cards run from CH01-EN001 to CH01-EN050."
   },
   "help": {
-    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 50 cards, each in its main rarity. Master adds the 8 other rarities. Cards you’ve marked are kept when you switch."
+    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 50 cards, each in its main rarity. Master adds the 12 other rarities. Cards you’ve marked are kept when you switch."
   },
   "seo": {
     "title": "Yu-Gi-Oh! THE CHRONICLES DECK: The Fallen & The Virtuous (All-Foil Edition) Checklist · All 50 Cards",
     "description": "Free Yu-Gi-Oh! THE CHRONICLES DECK: The Fallen & The Virtuous (All-Foil Edition) checklist with no ads, no sign-up and no tracking. Track all 50 cards, or every rarity for a master set, with images, copy counts, binder pages and prices.",
     "ogTitle": "Yu-Gi-Oh! THE CHRONICLES DECK: The Fallen & The Virtuous (All-Foil Edition) Checklist",
-    "ogDescription": "Track all 50 cards in Yu-Gi-Oh! THE CHRONICLES DECK: The Fallen & The Virtuous (All-Foil Edition), plus 8 other rarities. Free, with no ads, no sign-up and no tracking.",
+    "ogDescription": "Track all 50 cards in Yu-Gi-Oh! THE CHRONICLES DECK: The Fallen & The Virtuous (All-Foil Edition), plus 12 other rarities. Free, with no ads, no sign-up and no tracking.",
     "twitterDescription": "Track all 50 cards in Yu-Gi-Oh! THE CHRONICLES DECK: The Fallen & The Virtuous (All-Foil Edition). Free, with no ads, no sign-up and no tracking."
   },
   "about": {
     "title": "About THE CHRONICLES DECK: The Fallen & The Virtuous (All-Foil Edition)",
     "paragraphs": [
-      "THE CHRONICLES DECK: The Fallen &amp; The Virtuous (All-Foil Edition) is a Yu-Gi-Oh! TCG deck released on 24 October 2025, in the SEVENS &amp; GO RUSH!! era. It has 50 cards, and with the 8 other rarities there are 58 to collect in all.",
-      "Choose what you’re collecting: the <b>Standard set</b> (the 50 cards, each in its main rarity) or the <b>Master set</b> (all 58, adding the 8 other rarities).",
+      "THE CHRONICLES DECK: The Fallen &amp; The Virtuous (All-Foil Edition) is a Yu-Gi-Oh! TCG deck released on 24 October 2025, in the SEVENS &amp; GO RUSH!! era. It has 50 cards, and with the 12 other rarities there are 62 to collect in all.",
+      "Choose what you’re collecting: the <b>Standard set</b> (the 50 cards, each in its main rarity) or the <b>Master set</b> (all 62, adding the 12 other rarities).",
       "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
       "Card details and images come from YGOPRODeck, and prices from TCGplayer."
     ]
@@ -82,11 +91,7 @@
     {"id":"012","section":"main","num":"012","printed":"CH01-EN012","name":"Bystial Saronir","ctype":"monster","keywords":"Bystial Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Dragon / Effect","atk":2500,"def":2000},"rarity":"UR","img":"60242223","code":"12","tcg":658238,"grp":24392,"idx":11},
     {"id":"013","section":"main","num":"013","printed":"CH01-EN013","name":"Bystial Druiswurm","ctype":"monster","keywords":"Bystial Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Dragon / Effect","atk":2500,"def":2000},"rarity":"UR","img":"6637331","code":"13","tcg":658239,"grp":24392,"idx":12},
     {"id":"014","section":"main","num":"014","printed":"CH01-EN014","name":"Dogmatika Ecclesia, the Virtuous","ctype":"monster","keywords":"Dogmatika Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Effect","atk":1500,"def":1500},"rarity":"UR","img":"60303688","code":"14","tcg":658242,"grp":24392,"idx":13},
-    {"id":"014-scr","section":"rarities","num":"014","printed":"CH01-EN014","name":"Dogmatika Ecclesia, the Virtuous","ctype":"monster","keywords":"Dogmatika Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Effect","atk":1500,"def":1500},"rarity":"ScR","img":"60303688","badge":"ScR","variant":"Secret Rare","code":"SCR14","tcg":658240,"grp":24392,"idx":14},
-    {"id":"014-str","section":"rarities","num":"014","printed":"CH01-EN014","name":"Dogmatika Ecclesia, the Virtuous","ctype":"monster","keywords":"Dogmatika Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Effect","atk":1500,"def":1500},"rarity":"StR","img":"60303688","badge":"StR","variant":"Starlight Rare","code":"STR14","tcg":658241,"grp":24392,"idx":15},
     {"id":"015","section":"main","num":"015","printed":"CH01-EN015","name":"Dogmatika Fleurdelis, the Knighted","ctype":"monster","keywords":"Dogmatika Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Spellcaster / Effect","atk":2500,"def":2500},"rarity":"UR","img":"69680031","code":"15","tcg":658245,"grp":24392,"idx":16},
-    {"id":"015-scr","section":"rarities","num":"015","printed":"CH01-EN015","name":"Dogmatika Fleurdelis, the Knighted","ctype":"monster","keywords":"Dogmatika Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Spellcaster / Effect","atk":2500,"def":2500},"rarity":"ScR","img":"69680031","badge":"ScR","variant":"Secret Rare","code":"SCR15","tcg":658243,"grp":24392,"idx":17},
-    {"id":"015-str","section":"rarities","num":"015","printed":"CH01-EN015","name":"Dogmatika Fleurdelis, the Knighted","ctype":"monster","keywords":"Dogmatika Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Spellcaster / Effect","atk":2500,"def":2500},"rarity":"StR","img":"69680031","badge":"StR","variant":"Starlight Rare","code":"STR15","tcg":658244,"grp":24392,"idx":18},
     {"id":"016","section":"main","num":"016","printed":"CH01-EN016","name":"Dogmatika Maximus","ctype":"monster","keywords":"Dogmatika Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Spellcaster / Effect","atk":1500,"def":3000},"rarity":"UR","img":"95679145","code":"16","tcg":658246,"grp":24392,"idx":19},
     {"id":"017","section":"main","num":"017","printed":"CH01-EN017","name":"Nibiru, the Primal Being","ctype":"monster","keywords":"Rock LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 11","t":"Rock / Effect","atk":3000,"def":600},"rarity":"UR","img":"27204311","code":"17","tcg":658247,"grp":24392,"idx":20},
     {"id":"018","section":"main","num":"018","printed":"CH01-EN018","name":"Keeper of Dragon Magic","ctype":"monster","keywords":"Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Dragon / Effect","atk":1800,"def":1300},"rarity":"UR","img":"48048590","code":"18","tcg":658248,"grp":24392,"idx":21},
@@ -101,11 +106,7 @@
     {"id":"027","section":"main","num":"027","printed":"CH01-EN027","name":"Nadir Servant","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UR","img":"1984618","code":"27","tcg":658259,"grp":24392,"idx":30},
     {"id":"028","section":"main","num":"028","printed":"CH01-EN028","name":"Branded Bond","ctype":"spell","keywords":"Branded Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UR","img":"62022479","code":"28","tcg":658260,"grp":24392,"idx":31},
     {"id":"029","section":"main","num":"029","printed":"CH01-EN029","name":"Fusion Deployment","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UR","img":"6498706","code":"29","tcg":658263,"grp":24392,"idx":32},
-    {"id":"029-scr","section":"rarities","num":"029","printed":"CH01-EN029","name":"Fusion Deployment","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"ScR","img":"6498706","badge":"ScR","variant":"Secret Rare","code":"SCR29","tcg":658261,"grp":24392,"idx":33},
-    {"id":"029-str","section":"rarities","num":"029","printed":"CH01-EN029","name":"Fusion Deployment","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"StR","img":"6498706","badge":"StR","variant":"Starlight Rare","code":"STR29","tcg":658262,"grp":24392,"idx":34},
     {"id":"030","section":"main","num":"030","printed":"CH01-EN030","name":"Triple Tactics Thrust","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UR","img":"35269904","code":"30","tcg":658266,"grp":24392,"idx":35},
-    {"id":"030-scr","section":"rarities","num":"030","printed":"CH01-EN030","name":"Triple Tactics Thrust","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"ScR","img":"35269904","badge":"ScR","variant":"Secret Rare","code":"SCR30","tcg":658264,"grp":24392,"idx":36},
-    {"id":"030-str","section":"rarities","num":"030","printed":"CH01-EN030","name":"Triple Tactics Thrust","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"StR","img":"35269904","badge":"StR","variant":"Starlight Rare","code":"STR30","tcg":658265,"grp":24392,"idx":37},
     {"id":"031","section":"main","num":"031","printed":"CH01-EN031","name":"Foolish Burial","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UR","img":"81439174","code":"31","tcg":658267,"grp":24392,"idx":38},
     {"id":"032","section":"main","num":"032","printed":"CH01-EN032","name":"Gold Sarcophagus","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UR","img":"75500286","code":"32","tcg":658268,"grp":24392,"idx":39},
     {"id":"033","section":"main","num":"033","printed":"CH01-EN033","name":"Super Polymerization","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"UR","img":"48130397","code":"33","tcg":658269,"grp":24392,"idx":40},
@@ -125,6 +126,18 @@
     {"id":"047","section":"main","num":"047","printed":"CH01-EN047","name":"Brigrand the Glory Dragon","ctype":"monster","keywords":"Beast DARK Fusion Monster","stats":{"a":"DARK","l":"Level 8","t":"Beast / Fusion","atk":2500,"def":2000},"rarity":"UR","img":"34848821","code":"47","tcg":658285,"grp":24392,"idx":54},
     {"id":"048","section":"main","num":"048","printed":"CH01-EN048","name":"Sprind the Irondash Dragon","ctype":"monster","keywords":"Machine DARK Fusion Monster","stats":{"a":"DARK","l":"Level 8","t":"Machine / Fusion","atk":2500,"def":2000},"rarity":"UR","img":"1906812","code":"48","tcg":658286,"grp":24392,"idx":55},
     {"id":"049","section":"main","num":"049","printed":"CH01-EN049","name":"Rindbrumm the Striking Dragon","ctype":"monster","keywords":"Albaz Dragon Winged Beast DARK Fusion Monster","stats":{"a":"DARK","l":"Level 8","t":"Winged Beast / Fusion","atk":2500,"def":2000},"rarity":"UR","img":"51409648","code":"49","tcg":658287,"grp":24392,"idx":56},
-    {"id":"050","section":"main","num":"050","printed":"CH01-EN050","name":"Granguignol the Dusk Dragon","ctype":"monster","keywords":"Spellcaster LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Spellcaster / Fusion","atk":2500,"def":2500},"rarity":"UR","img":"24915933","code":"50","tcg":658288,"grp":24392,"idx":57}
+    {"id":"050","section":"main","num":"050","printed":"CH01-EN050","name":"Granguignol the Dusk Dragon","ctype":"monster","keywords":"Spellcaster LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Spellcaster / Fusion","atk":2500,"def":2500},"rarity":"UR","img":"24915933","code":"50","tcg":658288,"grp":24392,"idx":57},
+    {"id":"014-scr","section":"r-scr","num":"014","printed":"CH01-EN014","name":"Dogmatika Ecclesia, the Virtuous","ctype":"monster","keywords":"Dogmatika Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Effect","atk":1500,"def":1500},"rarity":"ScR","img":"60303688","badge":"ScR","variant":"Secret Rare","code":"SCR14","tcg":658240,"grp":24392,"idx":14},
+    {"id":"015-scr","section":"r-scr","num":"015","printed":"CH01-EN015","name":"Dogmatika Fleurdelis, the Knighted","ctype":"monster","keywords":"Dogmatika Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Spellcaster / Effect","atk":2500,"def":2500},"rarity":"ScR","img":"69680031","badge":"ScR","variant":"Secret Rare","code":"SCR15","tcg":658243,"grp":24392,"idx":17},
+    {"id":"019-scr","section":"r-scr","num":"019","printed":"CH01-EN019","name":"The Fallen & The Virtuous","ctype":"spell","keywords":"Branded Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"ScR","img":"30271097","badge":"ScR","variant":"Secret Rare","code":"SCR19","tcg":658249,"grp":24392,"idx":58},
+    {"id":"029-scr","section":"r-scr","num":"029","printed":"CH01-EN029","name":"Fusion Deployment","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"ScR","img":"6498706","badge":"ScR","variant":"Secret Rare","code":"SCR29","tcg":658261,"grp":24392,"idx":33},
+    {"id":"030-scr","section":"r-scr","num":"030","printed":"CH01-EN030","name":"Triple Tactics Thrust","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"ScR","img":"35269904","badge":"ScR","variant":"Secret Rare","code":"SCR30","tcg":658264,"grp":24392,"idx":36},
+    {"id":"041-scr","section":"r-scr","num":"041","printed":"CH01-EN041","name":"The Dragon that Devours the Dogma","ctype":"monster","keywords":"Albaz Dragon Beast DARK Fusion Monster","stats":{"a":"DARK","l":"Level 8","t":"Beast / Fusion","atk":3000,"def":2500},"rarity":"ScR","img":"76666602","badge":"ScR","variant":"Secret Rare","code":"SCR41","tcg":658277,"grp":24392,"idx":59},
+    {"id":"014-str","section":"r-str","num":"014","printed":"CH01-EN014","name":"Dogmatika Ecclesia, the Virtuous","ctype":"monster","keywords":"Dogmatika Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Effect","atk":1500,"def":1500},"rarity":"StR","img":"60303688","badge":"StR","variant":"Starlight Rare","code":"STR14","tcg":658241,"grp":24392,"idx":15},
+    {"id":"015-str","section":"r-str","num":"015","printed":"CH01-EN015","name":"Dogmatika Fleurdelis, the Knighted","ctype":"monster","keywords":"Dogmatika Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Spellcaster / Effect","atk":2500,"def":2500},"rarity":"StR","img":"69680031","badge":"StR","variant":"Starlight Rare","code":"STR15","tcg":658244,"grp":24392,"idx":18},
+    {"id":"019-str","section":"r-str","num":"019","printed":"CH01-EN019","name":"The Fallen & The Virtuous","ctype":"spell","keywords":"Branded Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"StR","img":"30271097","badge":"StR","variant":"Starlight Rare","code":"STR19","tcg":658250,"grp":24392,"idx":60},
+    {"id":"029-str","section":"r-str","num":"029","printed":"CH01-EN029","name":"Fusion Deployment","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"StR","img":"6498706","badge":"StR","variant":"Starlight Rare","code":"STR29","tcg":658262,"grp":24392,"idx":34},
+    {"id":"030-str","section":"r-str","num":"030","printed":"CH01-EN030","name":"Triple Tactics Thrust","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"StR","img":"35269904","badge":"StR","variant":"Starlight Rare","code":"STR30","tcg":658265,"grp":24392,"idx":37},
+    {"id":"041-str","section":"r-str","num":"041","printed":"CH01-EN041","name":"The Dragon that Devours the Dogma","ctype":"monster","keywords":"Albaz Dragon Beast DARK Fusion Monster","stats":{"a":"DARK","l":"Level 8","t":"Beast / Fusion","atk":3000,"def":2500},"rarity":"StR","img":"76666602","badge":"StR","variant":"Starlight Rare","code":"STR41","tcg":658278,"grp":24392,"idx":61}
   ]
 }

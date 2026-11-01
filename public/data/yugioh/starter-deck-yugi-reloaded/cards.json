@@ -17,9 +17,8 @@
       "tier": "standard"
     },
     {
-      "id": "rarities",
-      "name": "Other Rarities",
-      "short": "Other Rarities",
+      "id": "r-utr",
+      "name": "Ultimate Rares",
       "range": "1 card",
       "tier": "master"
     }
@@ -30,8 +29,8 @@
       "Main set"
     ],
     [
-      "rarities",
-      "Other rarities"
+      "r-utr",
+      "Ultimate Rares"
     ]
   ],
   "quickAdd": {
@@ -69,7 +68,6 @@
   },
   "cards": [
     {"id":"001","section":"main","num":"001","printed":"YSYR-EN001","name":"Dark Magician","ctype":"monster","keywords":"Dark Magician Spellcaster DARK Normal Monster","stats":{"a":"DARK","l":"Level 7","t":"Spellcaster / Normal","atk":2500,"def":2100},"rarity":"C","img":"46986416","code":"1","tcg":77787,"grp":1283,"idx":0},
-    {"id":"001-utr","section":"rarities","num":"001","printed":"YSYR-EN001","name":"Dark Magician","ctype":"monster","keywords":"Dark Magician Spellcaster DARK Normal Monster","stats":{"a":"DARK","l":"Level 7","t":"Spellcaster / Normal","atk":2500,"def":2100},"rarity":"UtR","img":"46986416","badge":"UtR","variant":"Ultimate Rare","code":"UTR1","tcg":77788,"grp":1283,"idx":1},
     {"id":"002","section":"main","num":"002","printed":"YSYR-EN002","name":"Mystical Elf","ctype":"monster","keywords":"Spellcaster LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Normal","atk":800,"def":2000},"rarity":"C","img":"15025844","code":"2","tcg":77789,"grp":1283,"idx":2},
     {"id":"003","section":"main","num":"003","printed":"YSYR-EN003","name":"Giant Soldier of Stone","ctype":"monster","keywords":"Rock EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 3","t":"Rock / Normal","atk":1300,"def":2000},"rarity":"C","img":"13039848","code":"3","tcg":77790,"grp":1283,"idx":3},
     {"id":"004","section":"main","num":"004","printed":"YSYR-EN004","name":"Summoned Skull","ctype":"monster","keywords":"Archfiend Fiend DARK Normal Monster","stats":{"a":"DARK","l":"Level 6","t":"Fiend / Normal","atk":2500,"def":1200},"rarity":"C","img":"70781052","code":"4","tcg":77791,"grp":1283,"idx":4},
@@ -114,6 +112,7 @@
     {"id":"043","section":"main","num":"043","printed":"YSYR-EN043","name":"Magic Cylinder","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"62279055","code":"43","tcg":77830,"grp":1283,"idx":43},
     {"id":"044","section":"main","num":"044","printed":"YSYR-EN044","name":"Miracle Restoring","ctype":"trap","keywords":"Dark Magician Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"68334074","code":"44","tcg":77831,"grp":1283,"idx":44},
     {"id":"045","section":"main","num":"045","printed":"YSYR-EN045","name":"Zero Gravity","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"83133491","code":"45","tcg":77832,"grp":1283,"idx":45},
-    {"id":"046","section":"main","num":"046","printed":"YSYR-EN046","name":"Rising Energy","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"78211862","code":"46","tcg":77833,"grp":1283,"idx":46}
+    {"id":"046","section":"main","num":"046","printed":"YSYR-EN046","name":"Rising Energy","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"78211862","code":"46","tcg":77833,"grp":1283,"idx":46},
+    {"id":"001-utr","section":"r-utr","num":"001","printed":"YSYR-EN001","name":"Dark Magician","ctype":"monster","keywords":"Dark Magician Spellcaster DARK Normal Monster","stats":{"a":"DARK","l":"Level 7","t":"Spellcaster / Normal","atk":2500,"def":2100},"rarity":"UtR","img":"46986416","badge":"UtR","variant":"Ultimate Rare","code":"UTR1","tcg":77788,"grp":1283,"idx":1}
   ]
 }

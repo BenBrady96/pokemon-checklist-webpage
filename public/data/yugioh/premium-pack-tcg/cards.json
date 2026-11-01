@@ -17,9 +17,8 @@
       "tier": "standard"
     },
     {
-      "id": "rarities",
-      "name": "Other Rarities",
-      "short": "Other Rarities",
+      "id": "r-scr",
+      "name": "Secret Rares",
       "range": "7 cards",
       "tier": "master"
     }
@@ -30,8 +29,8 @@
       "Main set"
     ],
     [
-      "rarities",
-      "Other rarities"
+      "r-scr",
+      "Secret Rares"
     ]
   ],
   "quickAdd": {
@@ -77,18 +76,18 @@
     {"id":"007","section":"main","num":"007","printed":"PP01-EN007","name":"Shield Crush","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"ScR","img":"30683373","code":"7","tcg":26348,"grp":266,"idx":6},
     {"id":"008","section":"main","num":"008","printed":"PP01-EN008","name":"Dark Magic Curtain","ctype":"spell","keywords":"Dark Magician Normal Spell","stats":{"t":"Normal Spell"},"rarity":"ScR","img":"99789342","code":"8","tcg":26349,"grp":266,"idx":7},
     {"id":"009","section":"main","num":"009","printed":"PP01-EN009","name":"Legacy of Yata-Garasu","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"30461781","code":"9","tcg":26350,"grp":266,"idx":8},
-    {"id":"009-scr","section":"rarities","num":"009","printed":"PP01-EN009","name":"Legacy of Yata-Garasu","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"ScR","img":"30461781","badge":"ScR","variant":"Secret Rare","code":"SCR9","tcg":80147,"grp":266,"idx":9},
     {"id":"010","section":"main","num":"010","printed":"PP01-EN010","name":"Zera Ritual","ctype":"spell","keywords":"Ritual Spell","stats":{"t":"Ritual Spell"},"rarity":"SR","img":"81756897","code":"10","tcg":26351,"grp":266,"idx":10},
-    {"id":"010-scr","section":"rarities","num":"010","printed":"PP01-EN010","name":"Zera Ritual","ctype":"spell","keywords":"Ritual Spell","stats":{"t":"Ritual Spell"},"rarity":"ScR","img":"81756897","badge":"ScR","variant":"Secret Rare","code":"SCR10","tcg":80148,"grp":266,"idx":11},
     {"id":"011","section":"main","num":"011","printed":"PP01-EN011","name":"Zera the Mant","ctype":"monster","keywords":"Fiend DARK Ritual Monster","stats":{"a":"DARK","l":"Level 8","t":"Fiend / Ritual","atk":2800,"def":2300},"rarity":"SR","img":"69123138","code":"11","tcg":26352,"grp":266,"idx":12},
-    {"id":"011-scr","section":"rarities","num":"011","printed":"PP01-EN011","name":"Zera the Mant","ctype":"monster","keywords":"Fiend DARK Ritual Monster","stats":{"a":"DARK","l":"Level 8","t":"Fiend / Ritual","atk":2800,"def":2300},"rarity":"ScR","img":"69123138","badge":"ScR","variant":"Secret Rare","code":"SCR11","tcg":80149,"grp":266,"idx":13},
     {"id":"012","section":"main","num":"012","printed":"PP01-EN012","name":"Javelin Beetle Pact","ctype":"spell","keywords":"Ritual Spell","stats":{"t":"Ritual Spell"},"rarity":"SR","img":"41182875","code":"12","tcg":26353,"grp":266,"idx":14},
-    {"id":"012-scr","section":"rarities","num":"012","printed":"PP01-EN012","name":"Javelin Beetle Pact","ctype":"spell","keywords":"Ritual Spell","stats":{"t":"Ritual Spell"},"rarity":"ScR","img":"41182875","badge":"ScR","variant":"Secret Rare","code":"SCR12","tcg":80150,"grp":266,"idx":15},
     {"id":"013","section":"main","num":"013","printed":"PP01-EN013","name":"Javelin Beetle","ctype":"monster","keywords":"Insect EARTH Ritual Monster","stats":{"a":"EARTH","l":"Level 8","t":"Insect / Ritual","atk":2450,"def":2550},"rarity":"SR","img":"26932788","code":"13","tcg":26354,"grp":266,"idx":16},
-    {"id":"013-scr","section":"rarities","num":"013","printed":"PP01-EN013","name":"Javelin Beetle","ctype":"monster","keywords":"Insect EARTH Ritual Monster","stats":{"a":"EARTH","l":"Level 8","t":"Insect / Ritual","atk":2450,"def":2550},"rarity":"ScR","img":"26932788","badge":"ScR","variant":"Secret Rare","code":"SCR13","tcg":80151,"grp":266,"idx":17},
     {"id":"014","section":"main","num":"014","printed":"PP01-EN014","name":"Metalmorph","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"68540059","code":"14","tcg":26355,"grp":266,"idx":18},
-    {"id":"014-scr","section":"rarities","num":"014","printed":"PP01-EN014","name":"Metalmorph","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"ScR","img":"68540059","badge":"ScR","variant":"Secret Rare","code":"SCR14","tcg":80154,"grp":266,"idx":19},
     {"id":"015","section":"main","num":"015","printed":"PP01-EN015","name":"Red-Eyes Black Metal Dragon","ctype":"monster","keywords":"Red-Eyes Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Machine / Effect","atk":2800,"def":2400},"rarity":"SR","img":"64335805","code":"15","tcg":26356,"grp":266,"idx":20},
-    {"id":"015-scr","section":"rarities","num":"015","printed":"PP01-EN015","name":"Red-Eyes Black Metal Dragon","ctype":"monster","keywords":"Red-Eyes Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Machine / Effect","atk":2800,"def":2400},"rarity":"ScR","img":"64335805","badge":"ScR","variant":"Secret Rare","code":"SCR15","tcg":80156,"grp":266,"idx":21}
+    {"id":"009-scr","section":"r-scr","num":"009","printed":"PP01-EN009","name":"Legacy of Yata-Garasu","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"ScR","img":"30461781","badge":"ScR","variant":"Secret Rare","code":"SCR9","tcg":80147,"grp":266,"idx":9},
+    {"id":"010-scr","section":"r-scr","num":"010","printed":"PP01-EN010","name":"Zera Ritual","ctype":"spell","keywords":"Ritual Spell","stats":{"t":"Ritual Spell"},"rarity":"ScR","img":"81756897","badge":"ScR","variant":"Secret Rare","code":"SCR10","tcg":80148,"grp":266,"idx":11},
+    {"id":"011-scr","section":"r-scr","num":"011","printed":"PP01-EN011","name":"Zera the Mant","ctype":"monster","keywords":"Fiend DARK Ritual Monster","stats":{"a":"DARK","l":"Level 8","t":"Fiend / Ritual","atk":2800,"def":2300},"rarity":"ScR","img":"69123138","badge":"ScR","variant":"Secret Rare","code":"SCR11","tcg":80149,"grp":266,"idx":13},
+    {"id":"012-scr","section":"r-scr","num":"012","printed":"PP01-EN012","name":"Javelin Beetle Pact","ctype":"spell","keywords":"Ritual Spell","stats":{"t":"Ritual Spell"},"rarity":"ScR","img":"41182875","badge":"ScR","variant":"Secret Rare","code":"SCR12","tcg":80150,"grp":266,"idx":15},
+    {"id":"013-scr","section":"r-scr","num":"013","printed":"PP01-EN013","name":"Javelin Beetle","ctype":"monster","keywords":"Insect EARTH Ritual Monster","stats":{"a":"EARTH","l":"Level 8","t":"Insect / Ritual","atk":2450,"def":2550},"rarity":"ScR","img":"26932788","badge":"ScR","variant":"Secret Rare","code":"SCR13","tcg":80151,"grp":266,"idx":17},
+    {"id":"014-scr","section":"r-scr","num":"014","printed":"PP01-EN014","name":"Metalmorph","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"ScR","img":"68540059","badge":"ScR","variant":"Secret Rare","code":"SCR14","tcg":80154,"grp":266,"idx":19},
+    {"id":"015-scr","section":"r-scr","num":"015","printed":"PP01-EN015","name":"Red-Eyes Black Metal Dragon","ctype":"monster","keywords":"Red-Eyes Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Machine / Effect","atk":2800,"def":2400},"rarity":"ScR","img":"64335805","badge":"ScR","variant":"Secret Rare","code":"SCR15","tcg":80156,"grp":266,"idx":21}
   ]
 }

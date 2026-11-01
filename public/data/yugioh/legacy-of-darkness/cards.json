@@ -17,10 +17,15 @@
       "tier": "standard"
     },
     {
-      "id": "rarities",
-      "name": "Other Rarities",
-      "short": "Other Rarities",
-      "range": "7 cards",
+      "id": "r-sp",
+      "name": "Short Prints",
+      "range": "6 cards",
+      "tier": "master"
+    },
+    {
+      "id": "r-ssp",
+      "name": "Super Short Prints",
+      "range": "1 card",
       "tier": "master"
     }
   ],
@@ -30,8 +35,12 @@
       "Main set"
     ],
     [
-      "rarities",
-      "Other rarities"
+      "r-sp",
+      "Short Prints"
+    ],
+    [
+      "r-ssp",
+      "Super Short Prints"
     ]
   ],
   "quickAdd": {
@@ -110,7 +119,6 @@
     {"id":"038","section":"main","num":"038","printed":"LOD-038","name":"Lizard Soldier","ctype":"monster","keywords":"Dragon WIND Normal Monster LOD-EN038","stats":{"a":"WIND","l":"Level 3","t":"Dragon / Normal","atk":1100,"def":800},"rarity":"C","img":"20831168","code":"38","tcg":22164,"grp":243,"idx":38},
     {"id":"039","section":"main","num":"039","printed":"LOD-039","name":"Fiend Skull Dragon","ctype":"monster","keywords":"Archfiend Dragon WIND Fusion Monster LOD-EN039","stats":{"a":"WIND","l":"Level 5","t":"Dragon / Fusion","atk":2000,"def":1200},"rarity":"SR","img":"66235877","code":"39","tcg":21966,"grp":243,"idx":39},
     {"id":"040","section":"main","num":"040","printed":"LOD-040","name":"Cave Dragon","ctype":"monster","keywords":"Dragon WIND Effect Monster LOD-EN040","stats":{"a":"WIND","l":"Level 4","t":"Dragon / Effect","atk":2000,"def":100},"rarity":"C","img":"93220472","code":"40","tcg":21821,"grp":243,"idx":40},
-    {"id":"040-sp","section":"rarities","num":"040","printed":"LOD-040","name":"Cave Dragon","ctype":"monster","keywords":"Dragon WIND Effect Monster LOD-EN040","stats":{"a":"WIND","l":"Level 4","t":"Dragon / Effect","atk":2000,"def":100},"rarity":"SP","img":"93220472","badge":"SP","variant":"Short Print","code":"SP40","tcg":21821,"grp":243,"idx":41},
     {"id":"041","section":"main","num":"041","printed":"LOD-041","name":"Gray Wing","ctype":"monster","keywords":"Dragon WIND Effect Monster LOD-EN041","stats":{"a":"WIND","l":"Level 3","t":"Dragon / Effect","atk":1300,"def":700},"rarity":"C","img":"29618570","code":"41","tcg":22045,"grp":243,"idx":42},
     {"id":"042","section":"main","num":"042","printed":"LOD-042","name":"Troop Dragon","ctype":"monster","keywords":"Dragon WIND Effect Monster LOD-EN042","stats":{"a":"WIND","l":"Level 2","t":"Dragon / Effect","atk":700,"def":800},"rarity":"C","img":"55013285","code":"42","tcg":22544,"grp":243,"idx":43},
     {"id":"043","section":"main","num":"043","printed":"LOD-043","name":"The Dragon's Bead","ctype":"trap","keywords":"Continuous Trap LOD-EN043","stats":{"t":"Continuous Trap"},"rarity":"R","img":"92408984","code":"43","tcg":22487,"grp":243,"idx":44},
@@ -135,15 +143,11 @@
     {"id":"062","section":"main","num":"062","printed":"LOD-062","name":"Airknight Parshath","ctype":"monster","keywords":"Parshath Fairy LIGHT Effect Monster LOD-EN062","stats":{"a":"LIGHT","l":"Level 5","t":"Fairy / Effect","atk":1900,"def":1400},"rarity":"UR","img":"18036057","code":"62","tcg":21726,"grp":243,"idx":63},
     {"id":"063","section":"main","num":"063","printed":"LOD-063","name":"Twin-Headed Behemoth","ctype":"monster","keywords":"Dragon WIND Effect Monster LOD-EN063","stats":{"a":"WIND","l":"Level 3","t":"Dragon / Effect","atk":1500,"def":1200},"rarity":"SR","img":"43586926","code":"63","tcg":22549,"grp":243,"idx":64},
     {"id":"064","section":"main","num":"064","printed":"LOD-064","name":"Maharaghi","ctype":"monster","keywords":"Rock EARTH Spirit Monster LOD-EN064","stats":{"a":"EARTH","l":"Level 4","t":"Rock / Spirit","atk":1200,"def":1700},"rarity":"C","img":"40695128","code":"64","tcg":22185,"grp":243,"idx":65},
-    {"id":"064-sp","section":"rarities","num":"064","printed":"LOD-064","name":"Maharaghi","ctype":"monster","keywords":"Rock EARTH Spirit Monster LOD-EN064","stats":{"a":"EARTH","l":"Level 4","t":"Rock / Spirit","atk":1200,"def":1700},"rarity":"SP","img":"40695128","badge":"SP","variant":"Short Print","code":"SP64","tcg":22185,"grp":243,"idx":66},
     {"id":"065","section":"main","num":"065","printed":"LOD-065","name":"Inaba White Rabbit","ctype":"monster","keywords":"Beast EARTH Spirit Monster LOD-EN065","stats":{"a":"EARTH","l":"Level 3","t":"Beast / Spirit","atk":700,"def":500},"rarity":"C","img":"77084837","code":"65","tcg":22094,"grp":243,"idx":67},
-    {"id":"065-sp","section":"rarities","num":"065","printed":"LOD-065","name":"Inaba White Rabbit","ctype":"monster","keywords":"Beast EARTH Spirit Monster LOD-EN065","stats":{"a":"EARTH","l":"Level 3","t":"Beast / Spirit","atk":700,"def":500},"rarity":"SP","img":"77084837","badge":"SP","variant":"Short Print","code":"SP65","tcg":22094,"grp":243,"idx":68},
     {"id":"066","section":"main","num":"066","printed":"LOD-066","name":"Susa Soldier","ctype":"monster","keywords":"Thunder EARTH Spirit Monster LOD-EN066","stats":{"a":"EARTH","l":"Level 4","t":"Thunder / Spirit","atk":2000,"def":1600},"rarity":"R","img":"40473581","code":"66","tcg":22468,"grp":243,"idx":69},
     {"id":"067","section":"main","num":"067","printed":"LOD-067","name":"Yamata Dragon","ctype":"monster","keywords":"Dragon FIRE Spirit Monster LOD-EN067","stats":{"a":"FIRE","l":"Level 7","t":"Dragon / Spirit","atk":2600,"def":3100},"rarity":"UR","img":"76862289","code":"67","tcg":22599,"grp":243,"idx":70},
     {"id":"068","section":"main","num":"068","printed":"LOD-068","name":"Great Long Nose","ctype":"monster","keywords":"Beast-Warrior DARK Spirit Monster LOD-EN068","stats":{"a":"DARK","l":"Level 5","t":"Beast-Warrior / Spirit","atk":1900,"def":1700},"rarity":"C","img":"2356994","code":"68","tcg":22048,"grp":243,"idx":71},
-    {"id":"068-sp","section":"rarities","num":"068","printed":"LOD-068","name":"Great Long Nose","ctype":"monster","keywords":"Beast-Warrior DARK Spirit Monster LOD-EN068","stats":{"a":"DARK","l":"Level 5","t":"Beast-Warrior / Spirit","atk":1900,"def":1700},"rarity":"SP","img":"2356994","badge":"SP","variant":"Short Print","code":"SP68","tcg":22048,"grp":243,"idx":72},
     {"id":"069","section":"main","num":"069","printed":"LOD-069","name":"Otohime","ctype":"monster","keywords":"Spellcaster LIGHT Spirit Monster LOD-EN069","stats":{"a":"LIGHT","l":"Level 3","t":"Spellcaster / Spirit","atk":0,"def":100},"rarity":"C","img":"39751094","code":"69","tcg":22284,"grp":243,"idx":73},
-    {"id":"069-ssp","section":"rarities","num":"069","printed":"LOD-069","name":"Otohime","ctype":"monster","keywords":"Spellcaster LIGHT Spirit Monster LOD-EN069","stats":{"a":"LIGHT","l":"Level 3","t":"Spellcaster / Spirit","atk":0,"def":100},"rarity":"SSP","img":"39751094","badge":"SSP","variant":"Super Short Print","code":"SSP69","tcg":22284,"grp":243,"idx":74},
     {"id":"070","section":"main","num":"070","printed":"LOD-070","name":"Hino-Kagu-Tsuchi","ctype":"monster","keywords":"Pyro FIRE Spirit Monster LOD-EN070","stats":{"a":"FIRE","l":"Level 8","t":"Pyro / Spirit","atk":2800,"def":2900},"rarity":"UR","img":"75745607","code":"70","tcg":22075,"grp":243,"idx":75},
     {"id":"071","section":"main","num":"071","printed":"LOD-071","name":"Asura Priest","ctype":"monster","keywords":"Fairy LIGHT Spirit Monster LOD-EN071","stats":{"a":"LIGHT","l":"Level 4","t":"Fairy / Spirit","atk":1700,"def":1200},"rarity":"SR","img":"2134346","code":"71","tcg":21758,"grp":243,"idx":76},
     {"id":"072","section":"main","num":"072","printed":"LOD-072","name":"Fushi No Tori","ctype":"monster","keywords":"Winged Beast FIRE Spirit Monster LOD-EN072","stats":{"a":"FIRE","l":"Level 4","t":"Winged Beast / Spirit","atk":1200,"def":0},"rarity":"C","img":"38538445","code":"72","tcg":21995,"grp":243,"idx":77},
@@ -155,7 +159,6 @@
     {"id":"078","section":"main","num":"078","printed":"LOD-078","name":"A Legendary Ocean","ctype":"spell","keywords":"Umi Field Spell LOD-EN078","stats":{"t":"Field Spell"},"rarity":"C","img":"295517","code":"78","tcg":21721,"grp":243,"idx":83},
     {"id":"079","section":"main","num":"079","printed":"LOD-079","name":"Fusion Sword Murasame Blade","ctype":"spell","keywords":"Equip Spell LOD-EN079","stats":{"t":"Equip Spell"},"rarity":"R","img":"37684215","code":"79","tcg":21998,"grp":243,"idx":84},
     {"id":"080","section":"main","num":"080","printed":"LOD-080","name":"Smoke Grenade of the Thief","ctype":"spell","keywords":"Equip Spell LOD-EN080","stats":{"t":"Equip Spell"},"rarity":"C","img":"63789924","code":"80","tcg":22414,"grp":243,"idx":85},
-    {"id":"080-sp","section":"rarities","num":"080","printed":"LOD-080","name":"Smoke Grenade of the Thief","ctype":"spell","keywords":"Equip Spell LOD-EN080","stats":{"t":"Equip Spell"},"rarity":"SP","img":"63789924","badge":"SP","variant":"Short Print","code":"SP80","tcg":22414,"grp":243,"idx":86},
     {"id":"081","section":"main","num":"081","printed":"LOD-081","name":"Creature Swap","ctype":"spell","keywords":"Normal Spell LOD-EN081","stats":{"t":"Normal Spell"},"rarity":"UR","img":"31036355","code":"81","tcg":21847,"grp":243,"idx":87},
     {"id":"082","section":"main","num":"082","printed":"LOD-082","name":"Spiritual Energy Settle Machine","ctype":"spell","keywords":"Continuous Spell LOD-EN082","stats":{"t":"Continuous Spell"},"rarity":"C","img":"99173029","code":"82","tcg":22447,"grp":243,"idx":88},
     {"id":"083","section":"main","num":"083","printed":"LOD-083","name":"Second Coin Toss","ctype":"spell","keywords":"Continuous Spell LOD-EN083","stats":{"t":"Continuous Spell"},"rarity":"R","img":"36562627","code":"83","tcg":22384,"grp":243,"idx":89},
@@ -165,7 +168,6 @@
     {"id":"087","section":"main","num":"087","printed":"LOD-087","name":"Magic Reflector","ctype":"spell","keywords":"Normal Spell LOD-EN087","stats":{"t":"Normal Spell"},"rarity":"R","img":"61844784","code":"87","tcg":22176,"grp":243,"idx":93},
     {"id":"088","section":"main","num":"088","printed":"LOD-088","name":"Blast with Chain","ctype":"trap","keywords":"Normal Trap LOD-EN088","stats":{"t":"Normal Trap"},"rarity":"R","img":"98239899","code":"88","tcg":21788,"grp":243,"idx":94},
     {"id":"089","section":"main","num":"089","printed":"LOD-089","name":"Disappear","ctype":"trap","keywords":"Normal Trap LOD-EN089","stats":{"t":"Normal Trap"},"rarity":"C","img":"24623598","code":"89","tcg":21910,"grp":243,"idx":95},
-    {"id":"089-sp","section":"rarities","num":"089","printed":"LOD-089","name":"Disappear","ctype":"trap","keywords":"Normal Trap LOD-EN089","stats":{"t":"Normal Trap"},"rarity":"SP","img":"24623598","badge":"SP","variant":"Short Print","code":"SP89","tcg":21910,"grp":243,"idx":96},
     {"id":"090","section":"main","num":"090","printed":"LOD-090","name":"Bubble Crash","ctype":"trap","keywords":"Normal Trap LOD-EN090","stats":{"t":"Normal Trap"},"rarity":"C","img":"61622107","code":"90","tcg":21805,"grp":243,"idx":97},
     {"id":"091","section":"main","num":"091","printed":"LOD-091","name":"Royal Oppression","ctype":"trap","keywords":"Continuous Trap LOD-EN091","stats":{"t":"Continuous Trap"},"rarity":"R","img":"93016201","code":"91","tcg":22370,"grp":243,"idx":98},
     {"id":"092","section":"main","num":"092","printed":"LOD-092","name":"Bottomless Trap Hole","ctype":"trap","keywords":"Hole Normal Trap LOD-EN092","stats":{"t":"Normal Trap"},"rarity":"R","img":"29401950","code":"92","tcg":21803,"grp":243,"idx":99},
@@ -176,6 +178,13 @@
     {"id":"097","section":"main","num":"097","printed":"LOD-097","name":"Drop Off","ctype":"trap","keywords":"Normal Trap LOD-EN097","stats":{"t":"Normal Trap"},"rarity":"SR","img":"55773067","code":"97","tcg":21935,"grp":243,"idx":104},
     {"id":"098","section":"main","num":"098","printed":"LOD-098","name":"Fiend Comedian","ctype":"trap","keywords":"Normal Trap LOD-EN098","stats":{"t":"Normal Trap"},"rarity":"C","img":"81172177","code":"98","tcg":21964,"grp":243,"idx":105},
     {"id":"099","section":"main","num":"099","printed":"LOD-099","name":"Last Turn","ctype":"trap","keywords":"Normal Trap LOD-EN099","stats":{"t":"Normal Trap"},"rarity":"UR","img":"28566710","code":"99","tcg":22145,"grp":243,"idx":106},
-    {"id":"100","section":"main","num":"100","printed":"LOD-100","name":"Injection Fairy Lily","ctype":"monster","keywords":"Spellcaster EARTH Effect Monster LOD-EN100","stats":{"a":"EARTH","l":"Level 3","t":"Spellcaster / Effect","atk":400,"def":1500},"rarity":"ScR","img":"79575620","code":"100","tcg":22975,"grp":243,"idx":107}
+    {"id":"100","section":"main","num":"100","printed":"LOD-100","name":"Injection Fairy Lily","ctype":"monster","keywords":"Spellcaster EARTH Effect Monster LOD-EN100","stats":{"a":"EARTH","l":"Level 3","t":"Spellcaster / Effect","atk":400,"def":1500},"rarity":"ScR","img":"79575620","code":"100","tcg":22975,"grp":243,"idx":107},
+    {"id":"040-sp","section":"r-sp","num":"040","printed":"LOD-040","name":"Cave Dragon","ctype":"monster","keywords":"Dragon WIND Effect Monster LOD-EN040","stats":{"a":"WIND","l":"Level 4","t":"Dragon / Effect","atk":2000,"def":100},"rarity":"SP","img":"93220472","badge":"SP","variant":"Short Print","code":"SP40","tcg":21821,"grp":243,"idx":41},
+    {"id":"064-sp","section":"r-sp","num":"064","printed":"LOD-064","name":"Maharaghi","ctype":"monster","keywords":"Rock EARTH Spirit Monster LOD-EN064","stats":{"a":"EARTH","l":"Level 4","t":"Rock / Spirit","atk":1200,"def":1700},"rarity":"SP","img":"40695128","badge":"SP","variant":"Short Print","code":"SP64","tcg":22185,"grp":243,"idx":66},
+    {"id":"065-sp","section":"r-sp","num":"065","printed":"LOD-065","name":"Inaba White Rabbit","ctype":"monster","keywords":"Beast EARTH Spirit Monster LOD-EN065","stats":{"a":"EARTH","l":"Level 3","t":"Beast / Spirit","atk":700,"def":500},"rarity":"SP","img":"77084837","badge":"SP","variant":"Short Print","code":"SP65","tcg":22094,"grp":243,"idx":68},
+    {"id":"068-sp","section":"r-sp","num":"068","printed":"LOD-068","name":"Great Long Nose","ctype":"monster","keywords":"Beast-Warrior DARK Spirit Monster LOD-EN068","stats":{"a":"DARK","l":"Level 5","t":"Beast-Warrior / Spirit","atk":1900,"def":1700},"rarity":"SP","img":"2356994","badge":"SP","variant":"Short Print","code":"SP68","tcg":22048,"grp":243,"idx":72},
+    {"id":"080-sp","section":"r-sp","num":"080","printed":"LOD-080","name":"Smoke Grenade of the Thief","ctype":"spell","keywords":"Equip Spell LOD-EN080","stats":{"t":"Equip Spell"},"rarity":"SP","img":"63789924","badge":"SP","variant":"Short Print","code":"SP80","tcg":22414,"grp":243,"idx":86},
+    {"id":"089-sp","section":"r-sp","num":"089","printed":"LOD-089","name":"Disappear","ctype":"trap","keywords":"Normal Trap LOD-EN089","stats":{"t":"Normal Trap"},"rarity":"SP","img":"24623598","badge":"SP","variant":"Short Print","code":"SP89","tcg":21910,"grp":243,"idx":96},
+    {"id":"069-ssp","section":"r-ssp","num":"069","printed":"LOD-069","name":"Otohime","ctype":"monster","keywords":"Spellcaster LIGHT Spirit Monster LOD-EN069","stats":{"a":"LIGHT","l":"Level 3","t":"Spellcaster / Spirit","atk":0,"def":100},"rarity":"SSP","img":"39751094","badge":"SSP","variant":"Super Short Print","code":"SSP69","tcg":22284,"grp":243,"idx":74}
   ]
 }

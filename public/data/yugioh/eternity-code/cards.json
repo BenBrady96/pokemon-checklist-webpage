@@ -17,9 +17,8 @@
       "tier": "standard"
     },
     {
-      "id": "rarities",
-      "name": "Other Rarities",
-      "short": "Other Rarities",
+      "id": "r-str",
+      "name": "Starlight Rares",
       "range": "4 cards",
       "tier": "master"
     }
@@ -30,8 +29,8 @@
       "Main set"
     ],
     [
-      "rarities",
-      "Other rarities"
+      "r-str",
+      "Starlight Rares"
     ]
   ],
   "quickAdd": {
@@ -95,7 +94,6 @@
     {"id":"024","section":"main","num":"024","printed":"ETCO-EN024","name":"Girsu, the Orcust Mekk-Knight","ctype":"monster","keywords":"Mekk-Knight Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Machine / Effect","atk":1800,"def":0},"rarity":"ScR","img":"69811710","code":"24","tcg":213327,"grp":2625,"idx":24},
     {"id":"025","section":"main","num":"025","printed":"ETCO-EN025","name":"Thunder Dragonlord","ctype":"monster","keywords":"Thunder Dragon Thunder LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 9","t":"Thunder / Effect","atk":3000,"def":2000},"rarity":"C","img":"5206415","code":"25","tcg":213329,"grp":2625,"idx":25},
     {"id":"026","section":"main","num":"026","printed":"ETCO-EN026","name":"Chamber Dragonmaid","ctype":"monster","keywords":"Dragonmaid Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Dragon / Effect","atk":500,"def":1800},"rarity":"ScR","img":"32600024","code":"26","tcg":213330,"grp":2625,"idx":26},
-    {"id":"026-str","section":"rarities","num":"026","printed":"ETCO-EN026","name":"Chamber Dragonmaid","ctype":"monster","keywords":"Dragonmaid Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Dragon / Effect","atk":500,"def":1800},"rarity":"StR","img":"32600024","badge":"StR","variant":"Starlight Rare","code":"STR26","tcg":213331,"grp":2625,"idx":27},
     {"id":"027","section":"main","num":"027","printed":"ETCO-EN027","name":"Harr, Generaider Boss of Storms","ctype":"monster","keywords":"Generaider Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 9","t":"Spellcaster / Effect","atk":3000,"def":3000},"rarity":"SR","img":"68199168","code":"27","tcg":213333,"grp":2625,"idx":28},
     {"id":"028","section":"main","num":"028","printed":"ETCO-EN028","name":"Loptr, Shadow of the Generaider Bosses","ctype":"monster","keywords":"Generaider Fairy FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Fairy / Effect","atk":1500,"def":1500},"rarity":"UR","img":"94183877","code":"28","tcg":213335,"grp":2625,"idx":29},
     {"id":"029","section":"main","num":"029","printed":"ETCO-EN029","name":"Unchained Twins - Sarama","ctype":"monster","keywords":"Unchained Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Fiend / Effect","atk":1500,"def":1500},"rarity":"C","img":"31588572","code":"29","tcg":213336,"grp":2625,"idx":30},
@@ -106,7 +104,6 @@
     {"id":"034","section":"main","num":"034","printed":"ETCO-EN034","name":"Union Driver","ctype":"monster","keywords":"ABC Machine LIGHT Union Effect Monster","stats":{"a":"LIGHT","l":"Level 5","t":"Machine / Union / Effect","atk":2100,"def":1000},"rarity":"UR","img":"99249638","code":"34","tcg":213343,"grp":2625,"idx":35},
     {"id":"035","section":"main","num":"035","printed":"ETCO-EN035","name":"Malice, Lady of Lament","ctype":"monster","keywords":"Lady of Lament Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Fiend / Effect","atk":1000,"def":1000},"rarity":"SR","img":"25643346","code":"35","tcg":213345,"grp":2625,"idx":36},
     {"id":"036","section":"main","num":"036","printed":"ETCO-EN036","name":"Ghost Mourner & Moonlit Chill","ctype":"monster","keywords":"Zombie WIND Tuner Monster","stats":{"a":"WIND","l":"Level 3","t":"Zombie / Tuner","atk":0,"def":1800},"rarity":"ScR","img":"52038441","code":"36","tcg":213346,"grp":2625,"idx":37},
-    {"id":"036-str","section":"rarities","num":"036","printed":"ETCO-EN036","name":"Ghost Mourner & Moonlit Chill","ctype":"monster","keywords":"Zombie WIND Tuner Monster","stats":{"a":"WIND","l":"Level 3","t":"Zombie / Tuner","atk":0,"def":1800},"rarity":"StR","img":"52038441","badge":"StR","variant":"Starlight Rare","code":"STR36","tcg":213347,"grp":2625,"idx":38},
     {"id":"037","section":"main","num":"037","printed":"ETCO-EN037","name":"Animadorned Archosaur","ctype":"monster","keywords":"Dinosaur LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Dinosaur / Effect","atk":0,"def":0},"rarity":"ScR","img":"98022050","code":"37","tcg":213348,"grp":2625,"idx":39},
     {"id":"038","section":"main","num":"038","printed":"ETCO-EN038","name":"Goldilocks the Battle Landscaper","ctype":"monster","keywords":"Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 10","t":"Machine / Effect","atk":0,"def":3000},"rarity":"C","img":"24521754","code":"38","tcg":213350,"grp":2625,"idx":40},
     {"id":"039","section":"main","num":"039","printed":"ETCO-EN039","name":"Magical Hound","ctype":"monster","keywords":"Machine EARTH Tuner Monster","stats":{"a":"EARTH","l":"Level 1","t":"Machine / Tuner","atk":500,"def":800},"rarity":"C","img":"51916853","code":"39","tcg":213351,"grp":2625,"idx":41},
@@ -116,7 +113,6 @@
     {"id":"043","section":"main","num":"043","printed":"ETCO-EN043","name":"Ravenous Crocodragon Archethys","ctype":"monster","keywords":"Fish WATER Synchro Monster","stats":{"a":"WATER","l":"Level 9","t":"Fish / Synchro","atk":1000,"def":1000},"rarity":"UR","img":"87188910","code":"43","tcg":213360,"grp":2625,"idx":45},
     {"id":"044","section":"main","num":"044","printed":"ETCO-EN044","name":"Valiant Shark Lancer","ctype":"monster","keywords":"Beast-Warrior WATER Xyz Monster","stats":{"a":"WATER","l":"Rank 5","t":"Beast-Warrior / Xyz","atk":2500,"def":1600},"rarity":"SR","img":"23672629","code":"44","tcg":213362,"grp":2625,"idx":46},
     {"id":"045","section":"main","num":"045","printed":"ETCO-EN045","name":"Traptrix Allomerus","ctype":"monster","keywords":"Traptrix Insect EARTH Xyz Monster","stats":{"a":"EARTH","l":"Rank 4","t":"Insect / Xyz","atk":2200,"def":600},"rarity":"UR","img":"59071624","code":"45","tcg":213363,"grp":2625,"idx":47},
-    {"id":"045-str","section":"rarities","num":"045","printed":"ETCO-EN045","name":"Traptrix Allomerus","ctype":"monster","keywords":"Traptrix Insect EARTH Xyz Monster","stats":{"a":"EARTH","l":"Rank 4","t":"Insect / Xyz","atk":2200,"def":600},"rarity":"StR","img":"59071624","badge":"StR","variant":"Starlight Rare","code":"STR45","tcg":213364,"grp":2625,"idx":48},
     {"id":"046","section":"main","num":"046","printed":"ETCO-EN046","name":"Accesscode Talker","ctype":"monster","keywords":"Code Talker Cyberse DARK Link Monster","stats":{"a":"DARK","l":"Link 4","t":"Cyberse / Link","atk":2300},"rarity":"ScR","img":"86066372","code":"46","tcg":213365,"grp":2625,"idx":49},
     {"id":"047","section":"main","num":"047","printed":"ETCO-EN047","name":"Proxy F Magician","ctype":"monster","keywords":"Cyberse FIRE Link Monster","stats":{"a":"FIRE","l":"Link 2","t":"Cyberse / Link","atk":1400},"rarity":"C","img":"12450071","code":"47","tcg":213366,"grp":2625,"idx":50},
     {"id":"048","section":"main","num":"048","printed":"ETCO-EN048","name":"Splash Mage","ctype":"monster","keywords":"Cyberse WATER Link Monster","stats":{"a":"WATER","l":"Link 2","t":"Cyberse / Link","atk":1100},"rarity":"C","img":"59859086","code":"48","tcg":213367,"grp":2625,"idx":51},
@@ -127,7 +123,6 @@
     {"id":"053","section":"main","num":"053","printed":"ETCO-EN053","name":"Gouki The Powerload Ogre","ctype":"monster","keywords":"Gouki Warrior EARTH Link Monster","stats":{"a":"EARTH","l":"Link 4","t":"Warrior / Link","atk":2800},"rarity":"C","img":"11516241","code":"53","tcg":213295,"grp":2625,"idx":56},
     {"id":"054","section":"main","num":"054","printed":"ETCO-EN054","name":"Marincess Great Bubble Reef","ctype":"monster","keywords":"Marincess Cyberse WATER Link Monster","stats":{"a":"WATER","l":"Link 4","t":"Cyberse / Link","atk":2600},"rarity":"SR","img":"47910940","code":"54","tcg":213304,"grp":2625,"idx":57},
     {"id":"055","section":"main","num":"055","printed":"ETCO-EN055","name":"Eria the Water Charmer, Gentle","ctype":"monster","keywords":"Charmer Spellcaster WATER Link Monster","stats":{"a":"WATER","l":"Link 2","t":"Spellcaster / Link","atk":1850},"rarity":"SR","img":"73309655","code":"55","tcg":213305,"grp":2625,"idx":58},
-    {"id":"055-str","section":"rarities","num":"055","printed":"ETCO-EN055","name":"Eria the Water Charmer, Gentle","ctype":"monster","keywords":"Charmer Spellcaster WATER Link Monster","stats":{"a":"WATER","l":"Link 2","t":"Spellcaster / Link","atk":1850},"rarity":"StR","img":"73309655","badge":"StR","variant":"Starlight Rare","code":"STR55","tcg":213306,"grp":2625,"idx":59},
     {"id":"056","section":"main","num":"056","printed":"ETCO-EN056","name":"A.I. Contact","ctype":"spell","keywords":"@Ignister Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"10493654","code":"56","tcg":213307,"grp":2625,"idx":60},
     {"id":"057","section":"main","num":"057","printed":"ETCO-EN057","name":"Burning Draw","ctype":"spell","keywords":"Salamangreat Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"46898368","code":"57","tcg":213308,"grp":2625,"idx":61},
     {"id":"058","section":"main","num":"058","printed":"ETCO-EN058","name":"Link Burst","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"73287067","code":"58","tcg":213309,"grp":2625,"idx":62},
@@ -172,6 +167,10 @@
     {"id":"097","section":"main","num":"097","printed":"ETCO-EN097","name":"Gatchiri @Ignister","ctype":"monster","keywords":"@Ignister Cyberse EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 8","t":"Cyberse / Effect","atk":0,"def":3000},"rarity":"SR","img":"82257671","code":"97","tcg":213393,"grp":2625,"idx":101},
     {"id":"098","section":"main","num":"098","printed":"ETCO-EN098","name":"Machina Metalcruncher","ctype":"monster","keywords":"Machina Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 9","t":"Machine / Effect","atk":2800,"def":0},"rarity":"UR","img":"69838761","code":"98","tcg":213394,"grp":2625,"idx":102},
     {"id":"099","section":"main","num":"099","printed":"ETCO-EN099","name":"Superheavy Samurai Swordmaster Musashi","ctype":"monster","keywords":"Superheavy Machine EARTH Synchro Monster","stats":{"a":"EARTH","l":"Level 5","t":"Machine / Synchro","atk":300,"def":2300},"rarity":"C","img":"75988594","code":"99","tcg":213395,"grp":2625,"idx":103},
-    {"id":"100","section":"main","num":"100","printed":"ETCO-EN100","name":"Effect Veiler","ctype":"monster","keywords":"Spellcaster LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Spellcaster / Tuner","atk":0,"def":0},"rarity":"StR","img":"97268402","code":"100","tcg":213396,"grp":2625,"idx":104}
+    {"id":"100","section":"main","num":"100","printed":"ETCO-EN100","name":"Effect Veiler","ctype":"monster","keywords":"Spellcaster LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Spellcaster / Tuner","atk":0,"def":0},"rarity":"StR","img":"97268402","code":"100","tcg":213396,"grp":2625,"idx":104},
+    {"id":"026-str","section":"r-str","num":"026","printed":"ETCO-EN026","name":"Chamber Dragonmaid","ctype":"monster","keywords":"Dragonmaid Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Dragon / Effect","atk":500,"def":1800},"rarity":"StR","img":"32600024","badge":"StR","variant":"Starlight Rare","code":"STR26","tcg":213331,"grp":2625,"idx":27},
+    {"id":"036-str","section":"r-str","num":"036","printed":"ETCO-EN036","name":"Ghost Mourner & Moonlit Chill","ctype":"monster","keywords":"Zombie WIND Tuner Monster","stats":{"a":"WIND","l":"Level 3","t":"Zombie / Tuner","atk":0,"def":1800},"rarity":"StR","img":"52038441","badge":"StR","variant":"Starlight Rare","code":"STR36","tcg":213347,"grp":2625,"idx":38},
+    {"id":"045-str","section":"r-str","num":"045","printed":"ETCO-EN045","name":"Traptrix Allomerus","ctype":"monster","keywords":"Traptrix Insect EARTH Xyz Monster","stats":{"a":"EARTH","l":"Rank 4","t":"Insect / Xyz","atk":2200,"def":600},"rarity":"StR","img":"59071624","badge":"StR","variant":"Starlight Rare","code":"STR45","tcg":213364,"grp":2625,"idx":48},
+    {"id":"055-str","section":"r-str","num":"055","printed":"ETCO-EN055","name":"Eria the Water Charmer, Gentle","ctype":"monster","keywords":"Charmer Spellcaster WATER Link Monster","stats":{"a":"WATER","l":"Link 2","t":"Spellcaster / Link","atk":1850},"rarity":"StR","img":"73309655","badge":"StR","variant":"Starlight Rare","code":"STR55","tcg":213306,"grp":2625,"idx":59}
   ]
 }

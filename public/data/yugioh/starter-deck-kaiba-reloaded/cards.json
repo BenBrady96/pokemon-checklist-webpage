@@ -17,9 +17,8 @@
       "tier": "standard"
     },
     {
-      "id": "rarities",
-      "name": "Other Rarities",
-      "short": "Other Rarities",
+      "id": "r-utr",
+      "name": "Ultimate Rares",
       "range": "1 card",
       "tier": "master"
     }
@@ -30,8 +29,8 @@
       "Main set"
     ],
     [
-      "rarities",
-      "Other rarities"
+      "r-utr",
+      "Ultimate Rares"
     ]
   ],
   "quickAdd": {
@@ -69,7 +68,6 @@
   },
   "cards": [
     {"id":"001","section":"main","num":"001","printed":"YSKR-EN001","name":"Blue-Eyes White Dragon","ctype":"monster","keywords":"Blue-Eyes Dragon LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Normal","atk":3000,"def":2500},"rarity":"C","img":"89631141","code":"1","tcg":77786,"grp":1282,"idx":0},
-    {"id":"001-utr","section":"rarities","num":"001","printed":"YSKR-EN001","name":"Blue-Eyes White Dragon","ctype":"monster","keywords":"Blue-Eyes Dragon LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Normal","atk":3000,"def":2500},"rarity":"UtR","img":"89631141","badge":"UtR","variant":"Ultimate Rare","code":"UTR1","tcg":77739,"grp":1282,"idx":1},
     {"id":"002","section":"main","num":"002","printed":"YSKR-EN002","name":"Aqua Madoor","ctype":"monster","keywords":"Madoor Spellcaster WATER Normal Monster","stats":{"a":"WATER","l":"Level 4","t":"Spellcaster / Normal","atk":1200,"def":2000},"rarity":"C","img":"85639257","code":"2","tcg":77740,"grp":1282,"idx":2},
     {"id":"003","section":"main","num":"003","printed":"YSKR-EN003","name":"La Jinn the Mystical Genie of the Lamp","ctype":"monster","keywords":"Fiend DARK Normal Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Normal","atk":1800,"def":1000},"rarity":"C","img":"97590747","code":"3","tcg":77741,"grp":1282,"idx":3},
     {"id":"004","section":"main","num":"004","printed":"YSKR-EN004","name":"Battle Ox","ctype":"monster","keywords":"Beast-Warrior EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 4","t":"Beast-Warrior / Normal","atk":1700,"def":1000},"rarity":"C","img":"5053103","code":"4","tcg":77742,"grp":1282,"idx":4},
@@ -116,6 +114,7 @@
     {"id":"045","section":"main","num":"045","printed":"YSKR-EN045","name":"Widespread Ruin","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"77754944","code":"45","tcg":77782,"grp":1282,"idx":45},
     {"id":"046","section":"main","num":"046","printed":"YSKR-EN046","name":"Threatening Roar","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"36361633","code":"46","tcg":77783,"grp":1282,"idx":46},
     {"id":"047","section":"main","num":"047","printed":"YSKR-EN047","name":"Birthright","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"35539880","code":"47","tcg":77784,"grp":1282,"idx":47},
-    {"id":"048","section":"main","num":"048","printed":"YSKR-EN048","name":"Damage Gate","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"87106146","code":"48","tcg":77785,"grp":1282,"idx":48}
+    {"id":"048","section":"main","num":"048","printed":"YSKR-EN048","name":"Damage Gate","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"87106146","code":"48","tcg":77785,"grp":1282,"idx":48},
+    {"id":"001-utr","section":"r-utr","num":"001","printed":"YSKR-EN001","name":"Blue-Eyes White Dragon","ctype":"monster","keywords":"Blue-Eyes Dragon LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Normal","atk":3000,"def":2500},"rarity":"UtR","img":"89631141","badge":"UtR","variant":"Ultimate Rare","code":"UTR1","tcg":77739,"grp":1282,"idx":1}
   ]
 }

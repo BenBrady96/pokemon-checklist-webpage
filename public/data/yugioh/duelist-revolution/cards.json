@@ -17,10 +17,15 @@
       "tier": "standard"
     },
     {
-      "id": "rarities",
-      "name": "Other Rarities",
-      "short": "Other Rarities",
-      "range": "11 cards",
+      "id": "r-utr",
+      "name": "Ultimate Rares",
+      "range": "10 cards",
+      "tier": "master"
+    },
+    {
+      "id": "r-gr",
+      "name": "Ghost Rares",
+      "range": "1 card",
       "tier": "master"
     }
   ],
@@ -30,8 +35,12 @@
       "Main set"
     ],
     [
-      "rarities",
-      "Other rarities"
+      "r-utr",
+      "Ultimate Rares"
+    ],
+    [
+      "r-gr",
+      "Ghost Rares"
     ]
   ],
   "quickAdd": {
@@ -71,7 +80,6 @@
     {"id":"000","section":"main","num":"000","printed":"DREV-EN000","name":"Scrap Archfiend","ctype":"monster","keywords":"Archfiend Fiend EARTH Synchro Monster","stats":{"a":"EARTH","l":"Level 7","t":"Fiend / Synchro","atk":2700,"def":1800},"rarity":"SR","img":"45815891","code":"0","tcg":35753,"grp":198,"idx":0},
     {"id":"001","section":"main","num":"001","printed":"DREV-EN001","name":"Earthquake Giant","ctype":"monster","keywords":"Rock EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 5","t":"Rock / Effect","atk":1600,"def":2100},"rarity":"C","img":"61864793","code":"1","tcg":35754,"grp":198,"idx":1},
     {"id":"002","section":"main","num":"002","printed":"DREV-EN002","name":"Effect Veiler","ctype":"monster","keywords":"Spellcaster LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Spellcaster / Tuner","atk":0,"def":0},"rarity":"UR","img":"97268402","code":"2","tcg":35755,"grp":198,"idx":2},
-    {"id":"002-utr","section":"rarities","num":"002","printed":"DREV-EN002","name":"Effect Veiler","ctype":"monster","keywords":"Spellcaster LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Spellcaster / Tuner","atk":0,"def":0},"rarity":"UtR","img":"97268402","badge":"UtR","variant":"Ultimate Rare","code":"UTR2","tcg":58434,"grp":198,"idx":3},
     {"id":"003","section":"main","num":"003","printed":"DREV-EN003","name":"Dash Warrior","ctype":"monster","keywords":"Warrior WIND Effect Monster","stats":{"a":"WIND","l":"Level 3","t":"Warrior / Effect","atk":600,"def":1200},"rarity":"C","img":"34257001","code":"3","tcg":35756,"grp":198,"idx":4},
     {"id":"004","section":"main","num":"004","printed":"DREV-EN004","name":"Damage Eater","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 2","t":"Fiend / Effect","atk":100,"def":800},"rarity":"C","img":"60741115","code":"4","tcg":35757,"grp":198,"idx":5},
     {"id":"005","section":"main","num":"005","printed":"DREV-EN005","name":"A/D Changer","ctype":"monster","keywords":"Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Warrior / Effect","atk":100,"def":100},"rarity":"C","img":"96146814","code":"5","tcg":35758,"grp":198,"idx":6},
@@ -99,7 +107,6 @@
     {"id":"027","section":"main","num":"027","printed":"DREV-EN027","name":"Naturia Mosquito","ctype":"monster","keywords":"Naturia Insect EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 1","t":"Insect / Effect","atk":200,"def":300},"rarity":"C","img":"17285476","code":"27","tcg":35780,"grp":198,"idx":28},
     {"id":"028","section":"main","num":"028","printed":"DREV-EN028","name":"Naturia Beans","ctype":"monster","keywords":"Naturia Plant EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 2","t":"Plant / Effect","atk":100,"def":1200},"rarity":"C","img":"44789585","code":"28","tcg":35781,"grp":198,"idx":29},
     {"id":"029","section":"main","num":"029","printed":"DREV-EN029","name":"Naturia Bamboo Shoot","ctype":"monster","keywords":"Naturia Plant EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 5","t":"Plant / Effect","atk":2000,"def":2000},"rarity":"UR","img":"20174189","code":"29","tcg":35782,"grp":198,"idx":30},
-    {"id":"029-utr","section":"rarities","num":"029","printed":"DREV-EN029","name":"Naturia Bamboo Shoot","ctype":"monster","keywords":"Naturia Plant EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 5","t":"Plant / Effect","atk":2000,"def":2000},"rarity":"UtR","img":"20174189","badge":"UtR","variant":"Ultimate Rare","code":"UTR29","tcg":58435,"grp":198,"idx":31},
     {"id":"030","section":"main","num":"030","printed":"DREV-EN030","name":"Amazoness Sage","ctype":"monster","keywords":"Amazoness Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Effect","atk":1400,"def":700},"rarity":"C","img":"53162898","code":"30","tcg":35783,"grp":198,"idx":32},
     {"id":"031","section":"main","num":"031","printed":"DREV-EN031","name":"Amazoness Trainee","ctype":"monster","keywords":"Amazoness Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Effect","atk":1500,"def":1300},"rarity":"C","img":"89567993","code":"31","tcg":35784,"grp":198,"idx":33},
     {"id":"032","section":"main","num":"032","printed":"DREV-EN032","name":"Amazoness Queen","ctype":"monster","keywords":"Amazoness Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 6","t":"Warrior / Effect","atk":2400,"def":1800},"rarity":"SR","img":"15951532","code":"32","tcg":35785,"grp":198,"idx":34},
@@ -109,19 +116,12 @@
     {"id":"036","section":"main","num":"036","printed":"DREV-EN036","name":"Ambitious Gofer","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Fiend / Effect","atk":2400,"def":100},"rarity":"R","img":"41224658","code":"36","tcg":35789,"grp":198,"idx":38},
     {"id":"037","section":"main","num":"037","printed":"DREV-EN037","name":"Final Psychic Ogre","ctype":"monster","keywords":"Psychic EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 5","t":"Psychic / Effect","atk":2200,"def":1700},"rarity":"SP","img":"87622767","code":"37","tcg":35790,"grp":198,"idx":39},
     {"id":"038","section":"main","num":"038","printed":"DREV-EN038","name":"Dragon Knight Draco-Equiste","ctype":"monster","keywords":"Dragon WIND Fusion Monster","stats":{"a":"WIND","l":"Level 10","t":"Dragon / Fusion","atk":3200,"def":2000},"rarity":"UR","img":"14017402","code":"38","tcg":35791,"grp":198,"idx":40},
-    {"id":"038-utr","section":"rarities","num":"038","printed":"DREV-EN038","name":"Dragon Knight Draco-Equiste","ctype":"monster","keywords":"Dragon WIND Fusion Monster","stats":{"a":"WIND","l":"Level 10","t":"Dragon / Fusion","atk":3200,"def":2000},"rarity":"UtR","img":"14017402","badge":"UtR","variant":"Ultimate Rare","code":"UTR38","tcg":58436,"grp":198,"idx":41},
-    {"id":"038-gr","section":"rarities","num":"038","printed":"DREV-EN038","name":"Dragon Knight Draco-Equiste","ctype":"monster","keywords":"Dragon WIND Fusion Monster","stats":{"a":"WIND","l":"Level 10","t":"Dragon / Fusion","atk":3200,"def":2000},"rarity":"GR","img":"14017402","badge":"GR","variant":"Ghost Rare","code":"GR38","tcg":57792,"grp":198,"idx":42},
     {"id":"039","section":"main","num":"039","printed":"DREV-EN039","name":"Ultimate Axon Kicker","ctype":"monster","keywords":"Psychic LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 10","t":"Psychic / Fusion","atk":2900,"def":1700},"rarity":"SR","img":"40101111","code":"39","tcg":35792,"grp":198,"idx":43},
     {"id":"040","section":"main","num":"040","printed":"DREV-EN040","name":"Thunder Unicorn","ctype":"monster","keywords":"Beast LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 5","t":"Beast / Synchro","atk":2200,"def":1800},"rarity":"UR","img":"77506119","code":"40","tcg":35793,"grp":198,"idx":44},
-    {"id":"040-utr","section":"rarities","num":"040","printed":"DREV-EN040","name":"Thunder Unicorn","ctype":"monster","keywords":"Beast LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 5","t":"Beast / Synchro","atk":2200,"def":1800},"rarity":"UtR","img":"77506119","badge":"UtR","variant":"Ultimate Rare","code":"UTR40","tcg":58437,"grp":198,"idx":45},
     {"id":"041","section":"main","num":"041","printed":"DREV-EN041","name":"Voltic Bicorn","ctype":"monster","keywords":"Beast LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 7","t":"Beast / Synchro","atk":2500,"def":2000},"rarity":"UR","img":"13995824","code":"41","tcg":35794,"grp":198,"idx":46},
-    {"id":"041-utr","section":"rarities","num":"041","printed":"DREV-EN041","name":"Voltic Bicorn","ctype":"monster","keywords":"Beast LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 7","t":"Beast / Synchro","atk":2500,"def":2000},"rarity":"UtR","img":"13995824","badge":"UtR","variant":"Ultimate Rare","code":"UTR41","tcg":58438,"grp":198,"idx":47},
     {"id":"042","section":"main","num":"042","printed":"DREV-EN042","name":"Lightning Tricorn","ctype":"monster","keywords":"Beast LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Beast / Synchro","atk":2800,"def":2000},"rarity":"UR","img":"49389523","code":"42","tcg":35795,"grp":198,"idx":48},
-    {"id":"042-utr","section":"rarities","num":"042","printed":"DREV-EN042","name":"Lightning Tricorn","ctype":"monster","keywords":"Beast LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Beast / Synchro","atk":2800,"def":2000},"rarity":"UtR","img":"49389523","badge":"UtR","variant":"Ultimate Rare","code":"UTR42","tcg":58439,"grp":198,"idx":49},
     {"id":"043","section":"main","num":"043","printed":"DREV-EN043","name":"Scrap Dragon","ctype":"monster","keywords":"Scrap Dragon EARTH Synchro Monster","stats":{"a":"EARTH","l":"Level 8","t":"Dragon / Synchro","atk":2800,"def":2000},"rarity":"UR","img":"76774528","code":"43","tcg":35796,"grp":198,"idx":50},
-    {"id":"043-utr","section":"rarities","num":"043","printed":"DREV-EN043","name":"Scrap Dragon","ctype":"monster","keywords":"Scrap Dragon EARTH Synchro Monster","stats":{"a":"EARTH","l":"Level 8","t":"Dragon / Synchro","atk":2800,"def":2000},"rarity":"UtR","img":"76774528","badge":"UtR","variant":"Ultimate Rare","code":"UTR43","tcg":58440,"grp":198,"idx":51},
     {"id":"044","section":"main","num":"044","printed":"DREV-EN044","name":"Wattchimera","ctype":"monster","keywords":"Watt Thunder LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Thunder / Synchro","atk":1400,"def":1200},"rarity":"UR","img":"2772236","code":"44","tcg":35797,"grp":198,"idx":52},
-    {"id":"044-utr","section":"rarities","num":"044","printed":"DREV-EN044","name":"Wattchimera","ctype":"monster","keywords":"Watt Thunder LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Thunder / Synchro","atk":1400,"def":1200},"rarity":"UtR","img":"2772236","badge":"UtR","variant":"Ultimate Rare","code":"UTR44","tcg":58441,"grp":198,"idx":53},
     {"id":"045","section":"main","num":"045","printed":"DREV-EN045","name":"Blind Spot Strike","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"49267971","code":"45","tcg":35798,"grp":198,"idx":54},
     {"id":"046","section":"main","num":"046","printed":"DREV-EN046","name":"Double Cyclone","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"75652080","code":"46","tcg":35799,"grp":198,"idx":55},
     {"id":"047","section":"main","num":"047","printed":"DREV-EN047","name":"Scrapyard","ctype":"spell","keywords":"Scrap Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"1050684","code":"47","tcg":35800,"grp":198,"idx":56},
@@ -155,10 +155,8 @@
     {"id":"075","section":"main","num":"075","printed":"DREV-EN075","name":"Horn of the Phantom Beast","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"R","img":"21350571","code":"75","tcg":35828,"grp":198,"idx":84},
     {"id":"076","section":"main","num":"076","printed":"DREV-EN076","name":"Paradox Fusion","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"SR","img":"57355219","code":"76","tcg":35829,"grp":198,"idx":85},
     {"id":"077","section":"main","num":"077","printed":"DREV-EN077","name":"Solemn Warning","ctype":"trap","keywords":"Solemn Counter Trap","stats":{"t":"Counter Trap"},"rarity":"UR","img":"84749824","code":"77","tcg":35830,"grp":198,"idx":86},
-    {"id":"077-utr","section":"rarities","num":"077","printed":"DREV-EN077","name":"Solemn Warning","ctype":"trap","keywords":"Solemn Counter Trap","stats":{"t":"Counter Trap"},"rarity":"UtR","img":"84749824","badge":"UtR","variant":"Ultimate Rare","code":"UTR77","tcg":58442,"grp":198,"idx":87},
     {"id":"078","section":"main","num":"078","printed":"DREV-EN078","name":"Anti-Magic Prism","ctype":"trap","keywords":"Anti Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"20138923","code":"78","tcg":35831,"grp":198,"idx":88},
     {"id":"079","section":"main","num":"079","printed":"DREV-EN079","name":"Chivalry","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"UR","img":"56532632","code":"79","tcg":35832,"grp":198,"idx":89},
-    {"id":"079-utr","section":"rarities","num":"079","printed":"DREV-EN079","name":"Chivalry","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"UtR","img":"56532632","badge":"UtR","variant":"Ultimate Rare","code":"UTR79","tcg":58443,"grp":198,"idx":90},
     {"id":"080","section":"main","num":"080","printed":"DREV-EN080","name":"Light of Destruction","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"SP","img":"83027236","code":"80","tcg":35833,"grp":198,"idx":91},
     {"id":"081","section":"main","num":"081","printed":"DREV-EN081","name":"Amazoness Scouts","ctype":"monster","keywords":"Amazoness Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 2","t":"Warrior / Effect","atk":500,"def":1100},"rarity":"R","img":"71209500","code":"81","tcg":35834,"grp":198,"idx":92},
     {"id":"082","section":"main","num":"082","printed":"DREV-EN082","name":"Naturia Pineapple","ctype":"monster","keywords":"Naturia Plant EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 2","t":"Plant / Effect","atk":100,"def":100},"rarity":"ScR","img":"7304544","code":"82","tcg":35835,"grp":198,"idx":93},
@@ -178,6 +176,17 @@
     {"id":"096","section":"main","num":"096","printed":"DREV-EN096","name":"Flamvell Fiend","ctype":"monster","keywords":"Flamvell Fiend FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 5","t":"Fiend / Effect","atk":2100,"def":1200},"rarity":"C","img":"91711547","code":"96","tcg":35849,"grp":198,"idx":107},
     {"id":"097","section":"main","num":"097","printed":"DREV-EN097","name":"Genex Worker","ctype":"monster","keywords":"Genex Machine WIND Effect Monster","stats":{"a":"WIND","l":"Level 3","t":"Machine / Effect","atk":1200,"def":1200},"rarity":"C","img":"93882364","code":"97","tcg":35850,"grp":198,"idx":108},
     {"id":"098","section":"main","num":"098","printed":"DREV-EN098","name":"Genex Power Planner","ctype":"monster","keywords":"Genex Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Spellcaster / Effect","atk":300,"def":200},"rarity":"C","img":"30399511","code":"98","tcg":35851,"grp":198,"idx":109},
-    {"id":"099","section":"main","num":"099","printed":"DREV-EN099","name":"Stygian Street Patrol","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Effect","atk":1600,"def":1200},"rarity":"ScR","img":"13521194","code":"99","tcg":35852,"grp":198,"idx":110}
+    {"id":"099","section":"main","num":"099","printed":"DREV-EN099","name":"Stygian Street Patrol","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Effect","atk":1600,"def":1200},"rarity":"ScR","img":"13521194","code":"99","tcg":35852,"grp":198,"idx":110},
+    {"id":"002-utr","section":"r-utr","num":"002","printed":"DREV-EN002","name":"Effect Veiler","ctype":"monster","keywords":"Spellcaster LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Spellcaster / Tuner","atk":0,"def":0},"rarity":"UtR","img":"97268402","badge":"UtR","variant":"Ultimate Rare","code":"UTR2","tcg":58434,"grp":198,"idx":3},
+    {"id":"029-utr","section":"r-utr","num":"029","printed":"DREV-EN029","name":"Naturia Bamboo Shoot","ctype":"monster","keywords":"Naturia Plant EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 5","t":"Plant / Effect","atk":2000,"def":2000},"rarity":"UtR","img":"20174189","badge":"UtR","variant":"Ultimate Rare","code":"UTR29","tcg":58435,"grp":198,"idx":31},
+    {"id":"038-utr","section":"r-utr","num":"038","printed":"DREV-EN038","name":"Dragon Knight Draco-Equiste","ctype":"monster","keywords":"Dragon WIND Fusion Monster","stats":{"a":"WIND","l":"Level 10","t":"Dragon / Fusion","atk":3200,"def":2000},"rarity":"UtR","img":"14017402","badge":"UtR","variant":"Ultimate Rare","code":"UTR38","tcg":58436,"grp":198,"idx":41},
+    {"id":"040-utr","section":"r-utr","num":"040","printed":"DREV-EN040","name":"Thunder Unicorn","ctype":"monster","keywords":"Beast LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 5","t":"Beast / Synchro","atk":2200,"def":1800},"rarity":"UtR","img":"77506119","badge":"UtR","variant":"Ultimate Rare","code":"UTR40","tcg":58437,"grp":198,"idx":45},
+    {"id":"041-utr","section":"r-utr","num":"041","printed":"DREV-EN041","name":"Voltic Bicorn","ctype":"monster","keywords":"Beast LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 7","t":"Beast / Synchro","atk":2500,"def":2000},"rarity":"UtR","img":"13995824","badge":"UtR","variant":"Ultimate Rare","code":"UTR41","tcg":58438,"grp":198,"idx":47},
+    {"id":"042-utr","section":"r-utr","num":"042","printed":"DREV-EN042","name":"Lightning Tricorn","ctype":"monster","keywords":"Beast LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Beast / Synchro","atk":2800,"def":2000},"rarity":"UtR","img":"49389523","badge":"UtR","variant":"Ultimate Rare","code":"UTR42","tcg":58439,"grp":198,"idx":49},
+    {"id":"043-utr","section":"r-utr","num":"043","printed":"DREV-EN043","name":"Scrap Dragon","ctype":"monster","keywords":"Scrap Dragon EARTH Synchro Monster","stats":{"a":"EARTH","l":"Level 8","t":"Dragon / Synchro","atk":2800,"def":2000},"rarity":"UtR","img":"76774528","badge":"UtR","variant":"Ultimate Rare","code":"UTR43","tcg":58440,"grp":198,"idx":51},
+    {"id":"044-utr","section":"r-utr","num":"044","printed":"DREV-EN044","name":"Wattchimera","ctype":"monster","keywords":"Watt Thunder LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Thunder / Synchro","atk":1400,"def":1200},"rarity":"UtR","img":"2772236","badge":"UtR","variant":"Ultimate Rare","code":"UTR44","tcg":58441,"grp":198,"idx":53},
+    {"id":"077-utr","section":"r-utr","num":"077","printed":"DREV-EN077","name":"Solemn Warning","ctype":"trap","keywords":"Solemn Counter Trap","stats":{"t":"Counter Trap"},"rarity":"UtR","img":"84749824","badge":"UtR","variant":"Ultimate Rare","code":"UTR77","tcg":58442,"grp":198,"idx":87},
+    {"id":"079-utr","section":"r-utr","num":"079","printed":"DREV-EN079","name":"Chivalry","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"UtR","img":"56532632","badge":"UtR","variant":"Ultimate Rare","code":"UTR79","tcg":58443,"grp":198,"idx":90},
+    {"id":"038-gr","section":"r-gr","num":"038","printed":"DREV-EN038","name":"Dragon Knight Draco-Equiste","ctype":"monster","keywords":"Dragon WIND Fusion Monster","stats":{"a":"WIND","l":"Level 10","t":"Dragon / Fusion","atk":3200,"def":2000},"rarity":"GR","img":"14017402","badge":"GR","variant":"Ghost Rare","code":"GR38","tcg":57792,"grp":198,"idx":42}
   ]
 }

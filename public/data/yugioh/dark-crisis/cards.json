@@ -17,9 +17,8 @@
       "tier": "standard"
     },
     {
-      "id": "rarities",
-      "name": "Other Rarities",
-      "short": "Other Rarities",
+      "id": "r-sp",
+      "name": "Short Prints",
       "range": "7 cards",
       "tier": "master"
     }
@@ -30,8 +29,8 @@
       "Main set"
     ],
     [
-      "rarities",
-      "Other rarities"
+      "r-sp",
+      "Short Prints"
     ]
   ],
   "quickAdd": {
@@ -81,7 +80,6 @@
     {"id":"009","section":"main","num":"009","printed":"DCR-009","name":"Guardian Kay'est","ctype":"monster","keywords":"Guardian Sea Serpent WATER Effect Monster DCR-EN009","stats":{"a":"WATER","l":"Level 4","t":"Sea Serpent / Effect","atk":1000,"def":1800},"rarity":"C","img":"9633505","code":"9","tcg":22827,"grp":165,"idx":9},
     {"id":"010","section":"main","num":"010","printed":"DCR-010","name":"Guardian Tryce","ctype":"monster","keywords":"Guardian Thunder LIGHT Effect Monster DCR-EN010","stats":{"a":"LIGHT","l":"Level 5","t":"Thunder / Effect","atk":1900,"def":1700},"rarity":"R","img":"46037213","code":"10","tcg":22828,"grp":165,"idx":10},
     {"id":"011","section":"main","num":"011","printed":"DCR-011","name":"Cyber Raider","ctype":"monster","keywords":"Machine DARK Effect Monster DCR-EN011","stats":{"a":"DARK","l":"Level 4","t":"Machine / Effect","atk":1400,"def":1000},"rarity":"C","img":"39978267","code":"11","tcg":22829,"grp":165,"idx":11},
-    {"id":"011-sp","section":"rarities","num":"011","printed":"DCR-011","name":"Cyber Raider","ctype":"monster","keywords":"Machine DARK Effect Monster DCR-EN011","stats":{"a":"DARK","l":"Level 4","t":"Machine / Effect","atk":1400,"def":1000},"rarity":"SP","img":"39978267","badge":"SP","variant":"Short Print","code":"SP11","tcg":22829,"grp":165,"idx":12},
     {"id":"012","section":"main","num":"012","printed":"DCR-012","name":"Reflect Bounder","ctype":"monster","keywords":"Machine LIGHT Effect Monster DCR-EN012","stats":{"a":"LIGHT","l":"Level 4","t":"Machine / Effect","atk":1700,"def":1000},"rarity":"UR","img":"2851070","code":"12","tcg":22830,"grp":165,"idx":13},
     {"id":"013","section":"main","num":"013","printed":"DCR-013","name":"Little-Winguard","ctype":"monster","keywords":"Warrior WIND Effect Monster DCR-EN013","stats":{"a":"WIND","l":"Level 4","t":"Warrior / Effect","atk":1400,"def":1800},"rarity":"C","img":"90790253","code":"13","tcg":22831,"grp":165,"idx":14},
     {"id":"014","section":"main","num":"014","printed":"DCR-014","name":"Des Feral Imp","ctype":"monster","keywords":"Reptile DARK Flip Effect Monster DCR-EN014","stats":{"a":"DARK","l":"Level 4","t":"Reptile / Flip / Effect","atk":1600,"def":1800},"rarity":"R","img":"81985784","code":"14","tcg":22832,"grp":165,"idx":15},
@@ -94,7 +92,6 @@
     {"id":"021","section":"main","num":"021","printed":"DCR-021","name":"Gyaku-Gire Panda","ctype":"monster","keywords":"Beast EARTH Effect Monster DCR-EN021","stats":{"a":"EARTH","l":"Level 3","t":"Beast / Effect","atk":800,"def":1600},"rarity":"C","img":"9817927","code":"21","tcg":22839,"grp":165,"idx":22},
     {"id":"022","section":"main","num":"022","printed":"DCR-022","name":"Blindly Loyal Goblin","ctype":"monster","keywords":"Warrior EARTH Effect Monster DCR-EN022","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Effect","atk":1800,"def":1500},"rarity":"C","img":"35215622","code":"22","tcg":22840,"grp":165,"idx":23},
     {"id":"023","section":"main","num":"023","printed":"DCR-023","name":"Despair from the Dark","ctype":"monster","keywords":"Zombie DARK Effect Monster DCR-EN023","stats":{"a":"DARK","l":"Level 8","t":"Zombie / Effect","atk":2800,"def":3000},"rarity":"C","img":"71200730","code":"23","tcg":22841,"grp":165,"idx":24},
-    {"id":"023-sp","section":"rarities","num":"023","printed":"DCR-023","name":"Despair from the Dark","ctype":"monster","keywords":"Zombie DARK Effect Monster DCR-EN023","stats":{"a":"DARK","l":"Level 8","t":"Zombie / Effect","atk":2800,"def":3000},"rarity":"SP","img":"71200730","badge":"SP","variant":"Short Print","code":"SP23","tcg":22841,"grp":165,"idx":25},
     {"id":"024","section":"main","num":"024","printed":"DCR-024","name":"Maju Garzett","ctype":"monster","keywords":"Maju Fiend DARK Effect Monster DCR-EN024","stats":{"a":"DARK","l":"Level 7","t":"Fiend / Effect","atk":-1,"def":0},"rarity":"SP","img":"8794435","code":"24","tcg":22842,"grp":165,"idx":26},
     {"id":"025","section":"main","num":"025","printed":"DCR-025","name":"Fear from the Dark","ctype":"monster","keywords":"Zombie DARK Effect Monster DCR-EN025","stats":{"a":"DARK","l":"Level 4","t":"Zombie / Effect","atk":1700,"def":1500},"rarity":"R","img":"34193084","code":"25","tcg":22843,"grp":165,"idx":27},
     {"id":"026","section":"main","num":"026","printed":"DCR-026","name":"Dark Scorpion - Chick the Yellow","ctype":"monster","keywords":"Dark Scorpion Warrior DARK Effect Monster DCR-EN026","stats":{"a":"DARK","l":"Level 3","t":"Warrior / Effect","atk":1000,"def":1000},"rarity":"C","img":"61587183","code":"26","tcg":22844,"grp":165,"idx":28},
@@ -119,7 +116,6 @@
     {"id":"045","section":"main","num":"045","printed":"DCR-045","name":"Final Attack Orders","ctype":"trap","keywords":"Continuous Trap DCR-EN045","stats":{"t":"Continuous Trap"},"rarity":"C","img":"52503575","code":"45","tcg":22863,"grp":165,"idx":47},
     {"id":"046","section":"main","num":"046","printed":"DCR-046","name":"Staunch Defender","ctype":"trap","keywords":"Normal Trap DCR-EN046","stats":{"t":"Normal Trap"},"rarity":"C","img":"92854392","code":"46","tcg":22864,"grp":165,"idx":48},
     {"id":"047","section":"main","num":"047","printed":"DCR-047","name":"Ojama Trio","ctype":"trap","keywords":"Ojama Normal Trap DCR-EN047","stats":{"t":"Normal Trap"},"rarity":"C","img":"29843091","code":"47","tcg":22865,"grp":165,"idx":49},
-    {"id":"047-sp","section":"rarities","num":"047","printed":"DCR-047","name":"Ojama Trio","ctype":"trap","keywords":"Ojama Normal Trap DCR-EN047","stats":{"t":"Normal Trap"},"rarity":"SP","img":"29843091","badge":"SP","variant":"Short Print","code":"SP47","tcg":22865,"grp":165,"idx":50},
     {"id":"048","section":"main","num":"048","printed":"DCR-048","name":"Arsenal Robber","ctype":"trap","keywords":"Normal Trap DCR-EN048","stats":{"t":"Normal Trap"},"rarity":"C","img":"55348096","code":"48","tcg":22866,"grp":165,"idx":51},
     {"id":"049","section":"main","num":"049","printed":"DCR-049","name":"Skill Drain","ctype":"trap","keywords":"Continuous Trap DCR-EN049","stats":{"t":"Continuous Trap"},"rarity":"R","img":"82732705","code":"49","tcg":22867,"grp":165,"idx":52},
     {"id":"050","section":"main","num":"050","printed":"DCR-050","name":"Really Eternal Rest","ctype":"trap","keywords":"Normal Trap DCR-EN050","stats":{"t":"Normal Trap"},"rarity":"C","img":"28121403","code":"50","tcg":22868,"grp":165,"idx":53},
@@ -135,7 +131,6 @@
     {"id":"060","section":"main","num":"060","printed":"DCR-060","name":"Dark Scorpion - Gorg the Strong","ctype":"monster","keywords":"Dark Scorpion Warrior DARK Effect Monster DCR-EN060","stats":{"a":"DARK","l":"Level 5","t":"Warrior / Effect","atk":1800,"def":1500},"rarity":"C","img":"48768179","code":"60","tcg":22878,"grp":165,"idx":63},
     {"id":"061","section":"main","num":"061","printed":"DCR-061","name":"Dark Scorpion - Meanae the Thorn","ctype":"monster","keywords":"Dark Scorpion Warrior DARK Effect Monster DCR-EN061","stats":{"a":"DARK","l":"Level 4","t":"Warrior / Effect","atk":1000,"def":1800},"rarity":"C","img":"74153887","code":"61","tcg":22879,"grp":165,"idx":64},
     {"id":"062","section":"main","num":"062","printed":"DCR-062","name":"Outstanding Dog Marron","ctype":"monster","keywords":"Beast LIGHT Effect Monster DCR-EN062","stats":{"a":"LIGHT","l":"Level 1","t":"Beast / Effect","atk":100,"def":100},"rarity":"C","img":"11548522","code":"62","tcg":22880,"grp":165,"idx":65},
-    {"id":"062-sp","section":"rarities","num":"062","printed":"DCR-062","name":"Outstanding Dog Marron","ctype":"monster","keywords":"Beast LIGHT Effect Monster DCR-EN062","stats":{"a":"LIGHT","l":"Level 1","t":"Beast / Effect","atk":100,"def":100},"rarity":"SP","img":"11548522","badge":"SP","variant":"Short Print","code":"SP62","tcg":22880,"grp":165,"idx":66},
     {"id":"063","section":"main","num":"063","printed":"DCR-063","name":"Great Maju Garzett","ctype":"monster","keywords":"Maju Fiend DARK Effect Monster DCR-EN063","stats":{"a":"DARK","l":"Level 6","t":"Fiend / Effect","atk":0,"def":0},"rarity":"R","img":"47942531","code":"63","tcg":22881,"grp":165,"idx":67},
     {"id":"064","section":"main","num":"064","printed":"DCR-064","name":"Iron Blacksmith Kotetsu","ctype":"monster","keywords":"Beast-Warrior FIRE Flip Effect Monster DCR-EN064","stats":{"a":"FIRE","l":"Level 2","t":"Beast-Warrior / Flip / Effect","atk":500,"def":500},"rarity":"C","img":"73431236","code":"64","tcg":22882,"grp":165,"idx":68},
     {"id":"065","section":"main","num":"065","printed":"DCR-065","name":"Goblin of Greed","ctype":"monster","keywords":"Greed Fiend EARTH Effect Monster DCR-EN065","stats":{"a":"EARTH","l":"Level 4","t":"Fiend / Effect","atk":1000,"def":1800},"rarity":"C","img":"425934","code":"65","tcg":22883,"grp":165,"idx":69},
@@ -162,25 +157,29 @@
     {"id":"086","section":"main","num":"086","printed":"DCR-086","name":"Contract with the Abyss","ctype":"spell","keywords":"Ritual Spell DCR-EN086","stats":{"t":"Ritual Spell"},"rarity":"R","img":"69035382","code":"86","tcg":22904,"grp":165,"idx":90},
     {"id":"087","section":"main","num":"087","printed":"DCR-087","name":"Contract with the Dark Master","ctype":"spell","keywords":"Ritual Spell DCR-EN087","stats":{"t":"Ritual Spell"},"rarity":"C","img":"96420087","code":"87","tcg":22905,"grp":165,"idx":91},
     {"id":"088","section":"main","num":"088","printed":"DCR-088","name":"Falling Down","ctype":"spell","keywords":"Archfiend Equip Spell DCR-EN088","stats":{"t":"Equip Spell"},"rarity":"C","img":"32919136","code":"88","tcg":22906,"grp":165,"idx":92},
-    {"id":"088-sp","section":"rarities","num":"088","printed":"DCR-088","name":"Falling Down","ctype":"spell","keywords":"Archfiend Equip Spell DCR-EN088","stats":{"t":"Equip Spell"},"rarity":"SP","img":"32919136","badge":"SP","variant":"Short Print","code":"SP88","tcg":22906,"grp":165,"idx":93},
     {"id":"089","section":"main","num":"089","printed":"DCR-089","name":"Checkmate","ctype":"spell","keywords":"Archfiend Normal Spell DCR-EN089","stats":{"t":"Normal Spell"},"rarity":"C","img":"69313735","code":"89","tcg":22907,"grp":165,"idx":94},
     {"id":"090","section":"main","num":"090","printed":"DCR-090","name":"Cestus of Dagla","ctype":"spell","keywords":"Equip Spell DCR-EN090","stats":{"t":"Equip Spell"},"rarity":"C","img":"28106077","code":"90","tcg":22908,"grp":165,"idx":95},
     {"id":"091","section":"main","num":"091","printed":"DCR-091","name":"Final Countdown","ctype":"spell","keywords":"Normal Spell DCR-EN091","stats":{"t":"Normal Spell"},"rarity":"C","img":"95308449","code":"91","tcg":22909,"grp":165,"idx":96},
     {"id":"092","section":"main","num":"092","printed":"DCR-092","name":"Archfiend's Oath","ctype":"spell","keywords":"Archfiend Continuous Spell DCR-EN092","stats":{"t":"Continuous Spell"},"rarity":"C","img":"22796548","code":"92","tcg":22910,"grp":165,"idx":97},
     {"id":"093","section":"main","num":"093","printed":"DCR-093","name":"Mustering of the Dark Scorpions","ctype":"spell","keywords":"Dark Scorpion Normal Spell DCR-EN093","stats":{"t":"Normal Spell"},"rarity":"C","img":"68191243","code":"93","tcg":22911,"grp":165,"idx":98},
     {"id":"094","section":"main","num":"094","printed":"DCR-094","name":"Pandemonium","ctype":"spell","keywords":"Archfiend Field Spell DCR-EN094","stats":{"t":"Field Spell"},"rarity":"C","img":"94585852","code":"94","tcg":22912,"grp":165,"idx":99},
-    {"id":"094-sp","section":"rarities","num":"094","printed":"DCR-094","name":"Pandemonium","ctype":"spell","keywords":"Archfiend Field Spell DCR-EN094","stats":{"t":"Field Spell"},"rarity":"SP","img":"94585852","badge":"SP","variant":"Short Print","code":"SP94","tcg":22912,"grp":165,"idx":100},
     {"id":"095","section":"main","num":"095","printed":"DCR-095","name":"Altar for Tribute","ctype":"trap","keywords":"Normal Trap DCR-EN095","stats":{"t":"Normal Trap"},"rarity":"C","img":"21070956","code":"95","tcg":22913,"grp":165,"idx":101},
     {"id":"096","section":"main","num":"096","printed":"DCR-096","name":"Frozen Soul","ctype":"trap","keywords":"Normal Trap DCR-EN096","stats":{"t":"Normal Trap"},"rarity":"C","img":"57069605","code":"96","tcg":22914,"grp":165,"idx":102},
     {"id":"097","section":"main","num":"097","printed":"DCR-097","name":"Battle-Scarred","ctype":"trap","keywords":"Archfiend Continuous Trap DCR-EN097","stats":{"t":"Continuous Trap"},"rarity":"C","img":"94463200","code":"97","tcg":22915,"grp":165,"idx":103},
     {"id":"098","section":"main","num":"098","printed":"DCR-098","name":"Dark Scorpion Combination","ctype":"trap","keywords":"Dark Scorpion Normal Trap DCR-EN098","stats":{"t":"Normal Trap"},"rarity":"R","img":"20858318","code":"98","tcg":22916,"grp":165,"idx":104},
     {"id":"099","section":"main","num":"099","printed":"DCR-099","name":"Archfiend's Roar","ctype":"trap","keywords":"Archfiend Normal Trap DCR-EN099","stats":{"t":"Normal Trap"},"rarity":"C","img":"56246017","code":"99","tcg":22917,"grp":165,"idx":105},
     {"id":"100","section":"main","num":"100","printed":"DCR-100","name":"Dice Re-Roll","ctype":"trap","keywords":"Dice Normal Trap DCR-EN100","stats":{"t":"Normal Trap"},"rarity":"C","img":"83241722","code":"100","tcg":22918,"grp":165,"idx":106},
-    {"id":"100-sp","section":"rarities","num":"100","printed":"DCR-100","name":"Dice Re-Roll","ctype":"trap","keywords":"Dice Normal Trap DCR-EN100","stats":{"t":"Normal Trap"},"rarity":"SP","img":"83241722","badge":"SP","variant":"Short Print","code":"SP100","tcg":22918,"grp":165,"idx":107},
     {"id":"101","section":"main","num":"101","printed":"DCR-101","name":"Spell Vanishing","ctype":"trap","keywords":"Counter Trap DCR-EN101","stats":{"t":"Counter Trap"},"rarity":"SR","img":"29735721","code":"101","tcg":22919,"grp":165,"idx":108},
     {"id":"102","section":"main","num":"102","printed":"DCR-102","name":"Sakuretsu Armor","ctype":"trap","keywords":"Normal Trap DCR-EN102","stats":{"t":"Normal Trap"},"rarity":"C","img":"56120475","code":"102","tcg":22920,"grp":165,"idx":109},
     {"id":"103","section":"main","num":"103","printed":"DCR-103","name":"Ray of Hope","ctype":"trap","keywords":"Normal Trap DCR-EN103","stats":{"t":"Normal Trap"},"rarity":"C","img":"82529174","code":"103","tcg":22921,"grp":165,"idx":110},
     {"id":"104","section":"main","num":"104","printed":"DCR-104","name":"Blast Held by a Tribute","ctype":"trap","keywords":"Normal Trap DCR-EN104","stats":{"t":"Normal Trap"},"rarity":"UR","img":"89041555","code":"104","tcg":22922,"grp":165,"idx":111},
-    {"id":"105","section":"main","num":"105","printed":"DCR-105","name":"Judgment of Anubis","ctype":"trap","keywords":"Counter Trap DCR-EN105","stats":{"t":"Counter Trap"},"rarity":"ScR","img":"55256016","code":"105","tcg":22923,"grp":165,"idx":112}
+    {"id":"105","section":"main","num":"105","printed":"DCR-105","name":"Judgment of Anubis","ctype":"trap","keywords":"Counter Trap DCR-EN105","stats":{"t":"Counter Trap"},"rarity":"ScR","img":"55256016","code":"105","tcg":22923,"grp":165,"idx":112},
+    {"id":"011-sp","section":"r-sp","num":"011","printed":"DCR-011","name":"Cyber Raider","ctype":"monster","keywords":"Machine DARK Effect Monster DCR-EN011","stats":{"a":"DARK","l":"Level 4","t":"Machine / Effect","atk":1400,"def":1000},"rarity":"SP","img":"39978267","badge":"SP","variant":"Short Print","code":"SP11","tcg":22829,"grp":165,"idx":12},
+    {"id":"023-sp","section":"r-sp","num":"023","printed":"DCR-023","name":"Despair from the Dark","ctype":"monster","keywords":"Zombie DARK Effect Monster DCR-EN023","stats":{"a":"DARK","l":"Level 8","t":"Zombie / Effect","atk":2800,"def":3000},"rarity":"SP","img":"71200730","badge":"SP","variant":"Short Print","code":"SP23","tcg":22841,"grp":165,"idx":25},
+    {"id":"047-sp","section":"r-sp","num":"047","printed":"DCR-047","name":"Ojama Trio","ctype":"trap","keywords":"Ojama Normal Trap DCR-EN047","stats":{"t":"Normal Trap"},"rarity":"SP","img":"29843091","badge":"SP","variant":"Short Print","code":"SP47","tcg":22865,"grp":165,"idx":50},
+    {"id":"062-sp","section":"r-sp","num":"062","printed":"DCR-062","name":"Outstanding Dog Marron","ctype":"monster","keywords":"Beast LIGHT Effect Monster DCR-EN062","stats":{"a":"LIGHT","l":"Level 1","t":"Beast / Effect","atk":100,"def":100},"rarity":"SP","img":"11548522","badge":"SP","variant":"Short Print","code":"SP62","tcg":22880,"grp":165,"idx":66},
+    {"id":"088-sp","section":"r-sp","num":"088","printed":"DCR-088","name":"Falling Down","ctype":"spell","keywords":"Archfiend Equip Spell DCR-EN088","stats":{"t":"Equip Spell"},"rarity":"SP","img":"32919136","badge":"SP","variant":"Short Print","code":"SP88","tcg":22906,"grp":165,"idx":93},
+    {"id":"094-sp","section":"r-sp","num":"094","printed":"DCR-094","name":"Pandemonium","ctype":"spell","keywords":"Archfiend Field Spell DCR-EN094","stats":{"t":"Field Spell"},"rarity":"SP","img":"94585852","badge":"SP","variant":"Short Print","code":"SP94","tcg":22912,"grp":165,"idx":100},
+    {"id":"100-sp","section":"r-sp","num":"100","printed":"DCR-100","name":"Dice Re-Roll","ctype":"trap","keywords":"Dice Normal Trap DCR-EN100","stats":{"t":"Normal Trap"},"rarity":"SP","img":"83241722","badge":"SP","variant":"Short Print","code":"SP100","tcg":22918,"grp":165,"idx":107}
   ]
 }

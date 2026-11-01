@@ -17,9 +17,8 @@
       "tier": "standard"
     },
     {
-      "id": "rarities",
-      "name": "Other Rarities",
-      "short": "Other Rarities",
+      "id": "r-ur",
+      "name": "Ultra Rares",
       "range": "3 cards",
       "tier": "master"
     }
@@ -30,8 +29,8 @@
       "Main set"
     ],
     [
-      "rarities",
-      "Other rarities"
+      "r-ur",
+      "Ultra Rares"
     ]
   ],
   "quickAdd": {
@@ -73,7 +72,6 @@
     {"id":"A02","section":"main","num":"A02","printed":"LEHD-ENA02","name":"Destiny HERO - Plasma","ctype":"monster","keywords":"Destiny HERO Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Warrior / Effect","atk":1900,"def":600},"rarity":"C","img":"83965310","code":"A2","tcg":177588,"grp":2336,"idx":2},
     {"id":"A03","section":"main","num":"A03","printed":"LEHD-ENA03","name":"Destiny HERO - Dreadmaster","ctype":"monster","keywords":"Destiny HERO Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Warrior / Effect","atk":-1,"def":-1},"rarity":"C","img":"40591390","code":"A3","tcg":177589,"grp":2336,"idx":3},
     {"id":"A04","section":"main","num":"A04","printed":"LEHD-ENA04","name":"Destiny HERO - Malicious","ctype":"monster","keywords":"Destiny HERO Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Warrior / Effect","atk":800,"def":800},"rarity":"C","img":"9411399","code":"A4","tcg":177590,"grp":2336,"idx":4},
-    {"id":"A04-ur","section":"rarities","num":"A04","printed":"LEHD-ENA04","name":"Destiny HERO - Malicious","ctype":"monster","keywords":"Destiny HERO Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Warrior / Effect","atk":800,"def":800},"rarity":"UR","img":"9411399","badge":"UR","variant":"Ultra Rare","code":"URA4","tcg":177591,"grp":2336,"idx":5},
     {"id":"A05","section":"main","num":"A05","printed":"LEHD-ENA05","name":"Destiny HERO - Celestial","ctype":"monster","keywords":"Destiny HERO Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Warrior / Effect","atk":1600,"def":1400},"rarity":"C","img":"63362460","code":"A5","tcg":177592,"grp":2336,"idx":6},
     {"id":"A06","section":"main","num":"A06","printed":"LEHD-ENA06","name":"Destiny HERO - Diamond Dude","ctype":"monster","keywords":"Destiny HERO Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Warrior / Effect","atk":1400,"def":1600},"rarity":"C","img":"13093792","code":"A6","tcg":177593,"grp":2336,"idx":7},
     {"id":"A07","section":"main","num":"A07","printed":"LEHD-ENA07","name":"Destiny HERO - Dread Servant","ctype":"monster","keywords":"Destiny HERO Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Warrior / Effect","atk":400,"def":700},"rarity":"C","img":"36625827","code":"A7","tcg":177594,"grp":2336,"idx":8},
@@ -87,7 +85,6 @@
     {"id":"A15","section":"main","num":"A15","printed":"LEHD-ENA15","name":"Elemental HERO Shadow Mist","ctype":"monster","keywords":"Elemental HERO Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Warrior / Effect","atk":1000,"def":1500},"rarity":"C","img":"50720316","code":"A15","tcg":177602,"grp":2336,"idx":16},
     {"id":"A16","section":"main","num":"A16","printed":"LEHD-ENA16","name":"Elemental HERO Blazeman","ctype":"monster","keywords":"Elemental HERO Warrior FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Warrior / Effect","atk":1200,"def":1800},"rarity":"C","img":"63060238","code":"A16","tcg":177603,"grp":2336,"idx":17},
     {"id":"A17","section":"main","num":"A17","printed":"LEHD-ENA17","name":"Destiny Draw","ctype":"spell","keywords":"Destiny HERO Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"45809008","code":"A17","tcg":177604,"grp":2336,"idx":18},
-    {"id":"A17-ur","section":"rarities","num":"A17","printed":"LEHD-ENA17","name":"Destiny Draw","ctype":"spell","keywords":"Destiny HERO Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UR","img":"45809008","badge":"UR","variant":"Ultra Rare","code":"URA17","tcg":177605,"grp":2336,"idx":19},
     {"id":"A18","section":"main","num":"A18","printed":"LEHD-ENA18","name":"Over Destiny","ctype":"spell","keywords":"Destiny HERO Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"72204747","code":"A18","tcg":177606,"grp":2336,"idx":20},
     {"id":"A19","section":"main","num":"A19","printed":"LEHD-ENA19","name":"Clock Tower Prison","ctype":"spell","keywords":"Destiny HERO Field Spell","stats":{"t":"Field Spell"},"rarity":"C","img":"75041269","code":"A19","tcg":177607,"grp":2336,"idx":21},
     {"id":"A20","section":"main","num":"A20","printed":"LEHD-ENA20","name":"Dark City","ctype":"spell","keywords":"Destiny HERO Field Spell","stats":{"t":"Field Spell"},"rarity":"C","img":"53527835","code":"A20","tcg":177608,"grp":2336,"idx":22},
@@ -110,7 +107,6 @@
     {"id":"A37","section":"main","num":"A37","printed":"LEHD-ENA37","name":"Xtra HERO Wonder Driver","ctype":"monster","keywords":"Elemental HERO Warrior LIGHT Link Monster","stats":{"a":"LIGHT","l":"Link 2","t":"Warrior / Link","atk":1900},"rarity":"UR","img":"1948619","code":"A37","tcg":177627,"grp":2336,"idx":39},
     {"id":"B00","section":"main","num":"B00","printed":"LEHD-ENB00","name":"Gullveig of the Nordic Ascendant","ctype":"monster","keywords":"Nordic Fairy LIGHT Link Monster","stats":{"a":"LIGHT","l":"Link 1","t":"Fairy / Link","atk":800},"rarity":"UR","img":"90207654","code":"B0","tcg":177628,"grp":2336,"idx":40},
     {"id":"B01","section":"main","num":"B01","printed":"LEHD-ENB01","name":"Tanngrisnir of the Nordic Beasts","ctype":"monster","keywords":"Nordic Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Beast / Effect","atk":1200,"def":800},"rarity":"C","img":"15394083","code":"B1","tcg":177629,"grp":2336,"idx":41},
-    {"id":"B01-ur","section":"rarities","num":"B01","printed":"LEHD-ENB01","name":"Tanngrisnir of the Nordic Beasts","ctype":"monster","keywords":"Nordic Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Beast / Effect","atk":1200,"def":800},"rarity":"UR","img":"15394083","badge":"UR","variant":"Ultra Rare","code":"URB1","tcg":177630,"grp":2336,"idx":42},
     {"id":"B02","section":"main","num":"B02","printed":"LEHD-ENB02","name":"Tanngnjostr of the Nordic Beasts","ctype":"monster","keywords":"Nordic Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Beast / Effect","atk":800,"def":1100},"rarity":"C","img":"14677495","code":"B2","tcg":177631,"grp":2336,"idx":43},
     {"id":"B03","section":"main","num":"B03","printed":"LEHD-ENB03","name":"Garmr of the Nordic Beasts","ctype":"monster","keywords":"Nordic Beast DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Beast / Effect","atk":800,"def":1900},"rarity":"C","img":"88283496","code":"B3","tcg":177632,"grp":2336,"idx":44},
     {"id":"B04","section":"main","num":"B04","printed":"LEHD-ENB04","name":"Guldfaxe of the Nordic Beasts","ctype":"monster","keywords":"Nordic Beast LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Beast / Tuner","atk":1600,"def":1000},"rarity":"C","img":"41788781","code":"B4","tcg":177633,"grp":2336,"idx":45},
@@ -187,6 +183,9 @@
     {"id":"C36","section":"main","num":"C36","printed":"LEHD-ENC36","name":"Evilswarm Thanatos","ctype":"monster","keywords":"Lswarm Fiend DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 4","t":"Fiend / Xyz","atk":2350,"def":1350},"rarity":"C","img":"65884091","code":"C36","tcg":177702,"grp":2336,"idx":116},
     {"id":"C37","section":"main","num":"C37","printed":"LEHD-ENC37","name":"Number 86: Heroic Champion - Rhongomyniad","ctype":"monster","keywords":"Heroic Warrior DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 4","t":"Warrior / Xyz","atk":1500,"def":1500},"rarity":"UR","img":"63504681","code":"C37","tcg":177703,"grp":2336,"idx":117},
     {"id":"C38","section":"main","num":"C38","printed":"LEHD-ENC38","name":"Leviair the Sea Dragon","ctype":"monster","keywords":"Aqua WIND Xyz Monster","stats":{"a":"WIND","l":"Rank 3","t":"Aqua / Xyz","atk":1800,"def":1600},"rarity":"C","img":"95992081","code":"C38","tcg":177704,"grp":2336,"idx":118},
-    {"id":"C39","section":"main","num":"C39","printed":"LEHD-ENC39","name":"Dante, Traveler of the Burning Abyss","ctype":"monster","keywords":"Burning Abyss Warrior LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 3","t":"Warrior / Xyz","atk":1000,"def":2500},"rarity":"C","img":"83531441","code":"C39","tcg":177705,"grp":2336,"idx":119}
+    {"id":"C39","section":"main","num":"C39","printed":"LEHD-ENC39","name":"Dante, Traveler of the Burning Abyss","ctype":"monster","keywords":"Burning Abyss Warrior LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 3","t":"Warrior / Xyz","atk":1000,"def":2500},"rarity":"C","img":"83531441","code":"C39","tcg":177705,"grp":2336,"idx":119},
+    {"id":"A04-ur","section":"r-ur","num":"A04","printed":"LEHD-ENA04","name":"Destiny HERO - Malicious","ctype":"monster","keywords":"Destiny HERO Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Warrior / Effect","atk":800,"def":800},"rarity":"UR","img":"9411399","badge":"UR","variant":"Ultra Rare","code":"URA4","tcg":177591,"grp":2336,"idx":5},
+    {"id":"A17-ur","section":"r-ur","num":"A17","printed":"LEHD-ENA17","name":"Destiny Draw","ctype":"spell","keywords":"Destiny HERO Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UR","img":"45809008","badge":"UR","variant":"Ultra Rare","code":"URA17","tcg":177605,"grp":2336,"idx":19},
+    {"id":"B01-ur","section":"r-ur","num":"B01","printed":"LEHD-ENB01","name":"Tanngrisnir of the Nordic Beasts","ctype":"monster","keywords":"Nordic Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Beast / Effect","atk":1200,"def":800},"rarity":"UR","img":"15394083","badge":"UR","variant":"Ultra Rare","code":"URB1","tcg":177630,"grp":2336,"idx":42}
   ]
 }

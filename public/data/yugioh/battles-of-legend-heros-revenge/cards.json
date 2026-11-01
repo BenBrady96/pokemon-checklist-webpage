@@ -17,9 +17,8 @@
       "tier": "standard"
     },
     {
-      "id": "rarities",
-      "name": "Other Rarities",
-      "short": "Other Rarities",
+      "id": "r-scr",
+      "name": "Secret Rares",
       "range": "1 card",
       "tier": "master"
     }
@@ -30,8 +29,8 @@
       "Main set"
     ],
     [
-      "rarities",
-      "Other rarities"
+      "r-scr",
+      "Secret Rares"
     ]
   ],
   "quickAdd": {
@@ -130,7 +129,6 @@
     {"id":"059","section":"main","num":"059","printed":"BLHR-EN059","name":"Vision HERO Vyon","ctype":"monster","keywords":"Vision HERO Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Warrior / Effect","atk":1000,"def":1200},"rarity":"ScR","img":"27780618","code":"59","tcg":193646,"grp":2459,"idx":59},
     {"id":"060","section":"main","num":"060","printed":"BLHR-EN060","name":"Vision HERO Witch Raider","ctype":"monster","keywords":"Vision HERO Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Warrior / Effect","atk":2700,"def":1900},"rarity":"UR","img":"82697428","code":"60","tcg":193647,"grp":2459,"idx":60},
     {"id":"061","section":"main","num":"061","printed":"BLHR-EN061","name":"Elemental HERO Stratos","ctype":"monster","keywords":"Elemental HERO Warrior WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Warrior / Effect","atk":1800,"def":300},"rarity":"UR","img":"40044918","code":"61","tcg":193648,"grp":2459,"idx":61},
-    {"id":"061-scr","section":"rarities","num":"061","printed":"BLHR-EN061","name":"Elemental HERO Stratos","ctype":"monster","keywords":"Elemental HERO Warrior WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Warrior / Effect","atk":1800,"def":300},"rarity":"ScR","img":"40044918","badge":"ScR","variant":"Secret Rare","code":"SCR61","tcg":193648,"grp":2459,"idx":62},
     {"id":"062","section":"main","num":"062","printed":"BLHR-EN062","name":"Vision HERO Trinity","ctype":"monster","keywords":"Vision HERO Warrior DARK Fusion Monster","stats":{"a":"DARK","l":"Level 8","t":"Warrior / Fusion","atk":2500,"def":2000},"rarity":"UR","img":"46759931","code":"62","tcg":193649,"grp":2459,"idx":63},
     {"id":"063","section":"main","num":"063","printed":"BLHR-EN063","name":"Destiny HERO - Dangerous","ctype":"monster","keywords":"Destiny HERO Warrior DARK Fusion Monster","stats":{"a":"DARK","l":"Level 6","t":"Warrior / Fusion","atk":2000,"def":2600},"rarity":"UR","img":"30757127","code":"63","tcg":193650,"grp":2459,"idx":64},
     {"id":"064","section":"main","num":"064","printed":"BLHR-EN064","name":"Elemental HERO Neos Knight","ctype":"monster","keywords":"Elemental HERO Warrior LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 7","t":"Warrior / Fusion","atk":2500,"def":1000},"rarity":"ScR","img":"72926163","code":"64","tcg":193651,"grp":2459,"idx":65},
@@ -162,6 +160,7 @@
     {"id":"090","section":"main","num":"090","printed":"BLHR-EN090","name":"Sky Striker Mobilize - Engage!","ctype":"spell","keywords":"Sky Striker Normal Spell","stats":{"t":"Normal Spell"},"rarity":"ScR","img":"63166095","code":"90","tcg":193677,"grp":2459,"idx":91},
     {"id":"091","section":"main","num":"091","printed":"BLHR-EN091","name":"Sky Striker Maneuver - Afterburners!","ctype":"spell","keywords":"Sky Striker Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UR","img":"99550630","code":"91","tcg":193678,"grp":2459,"idx":92},
     {"id":"092","section":"main","num":"092","printed":"BLHR-EN092","name":"Sky Striker Mecha - Widow Anchor","ctype":"spell","keywords":"Sky Striker Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"ScR","img":"98338152","code":"92","tcg":193679,"grp":2459,"idx":93},
-    {"id":"093","section":"main","num":"093","printed":"BLHR-EN093","name":"Number 93: Utopia Kaiser","ctype":"monster","keywords":"Utopia Warrior LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 12","t":"Warrior / Xyz","atk":2500,"def":2000},"rarity":"ScR","img":"23187256","code":"93","tcg":193680,"grp":2459,"idx":94}
+    {"id":"093","section":"main","num":"093","printed":"BLHR-EN093","name":"Number 93: Utopia Kaiser","ctype":"monster","keywords":"Utopia Warrior LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 12","t":"Warrior / Xyz","atk":2500,"def":2000},"rarity":"ScR","img":"23187256","code":"93","tcg":193680,"grp":2459,"idx":94},
+    {"id":"061-scr","section":"r-scr","num":"061","printed":"BLHR-EN061","name":"Elemental HERO Stratos","ctype":"monster","keywords":"Elemental HERO Warrior WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Warrior / Effect","atk":1800,"def":300},"rarity":"ScR","img":"40044918","badge":"ScR","variant":"Secret Rare","code":"SCR61","tcg":193648,"grp":2459,"idx":62}
   ]
 }

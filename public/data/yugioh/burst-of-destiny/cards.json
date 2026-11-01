@@ -17,9 +17,8 @@
       "tier": "standard"
     },
     {
-      "id": "rarities",
-      "name": "Other Rarities",
-      "short": "Other Rarities",
+      "id": "r-str",
+      "name": "Starlight Rares",
       "range": "4 cards",
       "tier": "master"
     }
@@ -30,8 +29,8 @@
       "Main set"
     ],
     [
-      "rarities",
-      "Other rarities"
+      "r-str",
+      "Starlight Rares"
     ]
   ],
   "quickAdd": {
@@ -76,13 +75,11 @@
     {"id":"005","section":"main","num":"005","printed":"BODE-EN005","name":"Swordsoul Strategist Longyuan","ctype":"monster","keywords":"Swordsoul Wyrm FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 6","t":"Wyrm / Effect","atk":1200,"def":2300},"rarity":"UR","img":"93490856","code":"5","tcg":252538,"grp":2879,"idx":5},
     {"id":"006","section":"main","num":"006","printed":"BODE-EN006","name":"Swordsoul Auspice Chunjun","ctype":"monster","keywords":"Swordsoul Wyrm EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 6","t":"Wyrm / Effect","atk":2400,"def":1800},"rarity":"SR","img":"29884951","code":"6","tcg":252539,"grp":2879,"idx":6},
     {"id":"007","section":"main","num":"007","printed":"BODE-EN007","name":"Incredible Ecclesia, the Virtuous","ctype":"monster","keywords":"Spellcaster LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Tuner","atk":1500,"def":1500},"rarity":"ScR","img":"55273560","code":"7","tcg":252540,"grp":2879,"idx":7},
-    {"id":"007-str","section":"rarities","num":"007","printed":"BODE-EN007","name":"Incredible Ecclesia, the Virtuous","ctype":"monster","keywords":"Spellcaster LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Tuner","atk":1500,"def":1500},"rarity":"StR","img":"55273560","badge":"StR","variant":"Starlight Rare","code":"STR7","tcg":252598,"grp":2879,"idx":8},
     {"id":"008","section":"main","num":"008","printed":"BODE-EN008","name":"Icejade Acti","ctype":"monster","keywords":"Icejade Aqua WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Aqua / Effect","atk":1000,"def":1000},"rarity":"C","img":"82777208","code":"8","tcg":252541,"grp":2879,"idx":9},
     {"id":"009","section":"main","num":"009","printed":"BODE-EN009","name":"Icejade Tinola","ctype":"monster","keywords":"Icejade Aqua WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Aqua / Effect","atk":1000,"def":1000},"rarity":"C","img":"28762303","code":"9","tcg":252542,"grp":2879,"idx":10},
     {"id":"010","section":"main","num":"010","printed":"BODE-EN010","name":"Icejade Tremora","ctype":"monster","keywords":"Icejade Aqua WATER Effect Monster","stats":{"a":"WATER","l":"Level 5","t":"Aqua / Effect","atk":1500,"def":1500},"rarity":"ScR","img":"55151012","code":"10","tcg":252543,"grp":2879,"idx":11},
     {"id":"011","section":"main","num":"011","printed":"BODE-EN011","name":"Ad Libitum of Despia","ctype":"monster","keywords":"Despia Fairy DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Fairy / Effect","atk":1500,"def":2000},"rarity":"SR","img":"81555617","code":"11","tcg":252544,"grp":2879,"idx":12},
     {"id":"012","section":"main","num":"012","printed":"BODE-EN012","name":"Floowandereeze & Snowl","ctype":"monster","keywords":"Floowandereeze Winged Beast WATER Effect Monster","stats":{"a":"WATER","l":"Level 10","t":"Winged Beast / Effect","atk":2900,"def":800},"rarity":"ScR","img":"53212882","code":"12","tcg":252545,"grp":2879,"idx":13},
-    {"id":"012-str","section":"rarities","num":"012","printed":"BODE-EN012","name":"Floowandereeze & Snowl","ctype":"monster","keywords":"Floowandereeze Winged Beast WATER Effect Monster","stats":{"a":"WATER","l":"Level 10","t":"Winged Beast / Effect","atk":2900,"def":800},"rarity":"StR","img":"53212882","badge":"StR","variant":"Starlight Rare","code":"STR12","tcg":252546,"grp":2879,"idx":14},
     {"id":"013","section":"main","num":"013","printed":"BODE-EN013","name":"Floowandereeze & Robina","ctype":"monster","keywords":"Floowandereeze Winged Beast WATER Effect Monster","stats":{"a":"WATER","l":"Level 1","t":"Winged Beast / Effect","atk":600,"def":1200},"rarity":"SR","img":"18940725","code":"13","tcg":252547,"grp":2879,"idx":15},
     {"id":"014","section":"main","num":"014","printed":"BODE-EN014","name":"Floowandereeze & Eglen","ctype":"monster","keywords":"Floowandereeze Winged Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 1","t":"Winged Beast / Effect","atk":800,"def":1000},"rarity":"SR","img":"54334420","code":"14","tcg":252548,"grp":2879,"idx":16},
     {"id":"015","section":"main","num":"015","printed":"BODE-EN015","name":"Floowandereeze & Stri","ctype":"monster","keywords":"Floowandereeze Winged Beast WATER Effect Monster","stats":{"a":"WATER","l":"Level 1","t":"Winged Beast / Effect","atk":700,"def":1100},"rarity":"C","img":"80433039","code":"15","tcg":252549,"grp":2879,"idx":17},
@@ -112,7 +109,6 @@
     {"id":"039","section":"main","num":"039","printed":"BODE-EN039","name":"Destiny HERO - Destroyer Phoenix Enforcer","ctype":"monster","keywords":"Destiny HERO Warrior DARK Fusion Monster","stats":{"a":"DARK","l":"Level 8","t":"Warrior / Fusion","atk":2500,"def":2100},"rarity":"ScR","img":"60461804","code":"39","tcg":252578,"grp":2879,"idx":41},
     {"id":"040","section":"main","num":"040","printed":"BODE-EN040","name":"Ultimate Flagship Ursatron","ctype":"monster","keywords":"Ursarctic Machine WATER Fusion Monster","stats":{"a":"WATER","l":"Level 7","t":"Machine / Fusion","atk":2000,"def":700},"rarity":"SR","img":"33250142","code":"40","tcg":252579,"grp":2879,"idx":42},
     {"id":"041","section":"main","num":"041","printed":"BODE-EN041","name":"Swordsoul Grandmaster - Chixiao","ctype":"monster","keywords":"Swordsoul Wyrm LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Wyrm / Synchro","atk":2800,"def":1000},"rarity":"ScR","img":"69248256","code":"41","tcg":252580,"grp":2879,"idx":43},
-    {"id":"041-str","section":"rarities","num":"041","printed":"BODE-EN041","name":"Swordsoul Grandmaster - Chixiao","ctype":"monster","keywords":"Swordsoul Wyrm LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Wyrm / Synchro","atk":2800,"def":1000},"rarity":"StR","img":"69248256","badge":"StR","variant":"Starlight Rare","code":"STR41","tcg":252600,"grp":2879,"idx":44},
     {"id":"042","section":"main","num":"042","printed":"BODE-EN042","name":"Swordsoul Supreme Sovereign - Chengying","ctype":"monster","keywords":"Swordsoul Wyrm WATER Synchro Monster","stats":{"a":"WATER","l":"Level 10","t":"Wyrm / Synchro","atk":3000,"def":3000},"rarity":"UR","img":"96633955","code":"42","tcg":252581,"grp":2879,"idx":45},
     {"id":"043","section":"main","num":"043","printed":"BODE-EN043","name":"Reptilianne Melusine","ctype":"monster","keywords":"Reptilianne Reptile DARK Synchro Monster","stats":{"a":"DARK","l":"Level 8","t":"Reptile / Synchro","atk":2500,"def":2800},"rarity":"SR","img":"32138660","code":"43","tcg":252582,"grp":2879,"idx":46},
     {"id":"044","section":"main","num":"044","printed":"BODE-EN044","name":"Magikey Fiend - Transfurlmine","ctype":"monster","keywords":"Magikey Thunder FIRE Synchro Monster","stats":{"a":"FIRE","l":"Level 8","t":"Thunder / Synchro","atk":2800,"def":2800},"rarity":"SR","img":"69522668","code":"44","tcg":252583,"grp":2879,"idx":47},
@@ -123,7 +119,6 @@
     {"id":"049","section":"main","num":"049","printed":"BODE-EN049","name":"Gunkan Suship Shirauo-class Carrier","ctype":"monster","keywords":"Gunkan Aqua FIRE Xyz Monster","stats":{"a":"FIRE","l":"Rank 4","t":"Aqua / Xyz","atk":2200,"def":250},"rarity":"C","img":"21293424","code":"49","tcg":252588,"grp":2879,"idx":52},
     {"id":"050","section":"main","num":"050","printed":"BODE-EN050","name":"Borrelcode Dragon","ctype":"monster","keywords":"Borrel Dragon DARK Link Monster","stats":{"a":"DARK","l":"Link 3","t":"Dragon / Link","atk":2500},"rarity":"UR","img":"67288539","code":"50","tcg":252589,"grp":2879,"idx":53},
     {"id":"051","section":"main","num":"051","printed":"BODE-EN051","name":"Evil★Twin's Trouble Sunny","ctype":"monster","keywords":"Evil★Twin Fiend LIGHT Link Monster","stats":{"a":"LIGHT","l":"Link 4","t":"Fiend / Link","atk":3300},"rarity":"UR","img":"93672138","code":"51","tcg":252590,"grp":2879,"idx":54},
-    {"id":"051-str","section":"rarities","num":"051","printed":"BODE-EN051","name":"Evil★Twin's Trouble Sunny","ctype":"monster","keywords":"Evil★Twin Fiend LIGHT Link Monster","stats":{"a":"LIGHT","l":"Link 4","t":"Fiend / Link","atk":3300},"rarity":"StR","img":"93672138","badge":"StR","variant":"Starlight Rare","code":"STR51","tcg":252601,"grp":2879,"idx":55},
     {"id":"052","section":"main","num":"052","printed":"BODE-EN052","name":"Heavy Interlock","ctype":"spell","keywords":"Ritual Spell","stats":{"t":"Ritual Spell"},"rarity":"SR","img":"20071842","code":"52","tcg":252592,"grp":2879,"idx":56},
     {"id":"053","section":"main","num":"053","printed":"BODE-EN053","name":"Swordsoul Emergence","ctype":"spell","keywords":"Swordsoul Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UR","img":"56465981","code":"53","tcg":252594,"grp":2879,"idx":57},
     {"id":"054","section":"main","num":"054","printed":"BODE-EN054","name":"Swordsoul Sacred Summit","ctype":"spell","keywords":"Swordsoul Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"93850690","code":"54","tcg":252595,"grp":2879,"idx":58},
@@ -172,6 +167,10 @@
     {"id":"097","section":"main","num":"097","printed":"BODE-EN097","name":"Danger! Disturbance! Disorder!","ctype":"spell","keywords":"Danger! Field Spell","stats":{"t":"Field Spell"},"rarity":"C","img":"23213239","code":"97","tcg":252649,"grp":2879,"idx":101},
     {"id":"098","section":"main","num":"098","printed":"BODE-EN098","name":"Bayonet Punisher","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"SR","img":"36092504","code":"98","tcg":252650,"grp":2879,"idx":102},
     {"id":"099","section":"main","num":"099","printed":"BODE-EN099","name":"Cynet Cascade","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"4433488","code":"99","tcg":252651,"grp":2879,"idx":103},
-    {"id":"100","section":"main","num":"100","printed":"BODE-EN100","name":"Elemental HERO Stratos","ctype":"monster","keywords":"Elemental HERO Warrior WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Warrior / Effect","atk":1800,"def":300},"rarity":"StR","img":"40044918","code":"100","tcg":252652,"grp":2879,"idx":104}
+    {"id":"100","section":"main","num":"100","printed":"BODE-EN100","name":"Elemental HERO Stratos","ctype":"monster","keywords":"Elemental HERO Warrior WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Warrior / Effect","atk":1800,"def":300},"rarity":"StR","img":"40044918","code":"100","tcg":252652,"grp":2879,"idx":104},
+    {"id":"007-str","section":"r-str","num":"007","printed":"BODE-EN007","name":"Incredible Ecclesia, the Virtuous","ctype":"monster","keywords":"Spellcaster LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Tuner","atk":1500,"def":1500},"rarity":"StR","img":"55273560","badge":"StR","variant":"Starlight Rare","code":"STR7","tcg":252598,"grp":2879,"idx":8},
+    {"id":"012-str","section":"r-str","num":"012","printed":"BODE-EN012","name":"Floowandereeze & Snowl","ctype":"monster","keywords":"Floowandereeze Winged Beast WATER Effect Monster","stats":{"a":"WATER","l":"Level 10","t":"Winged Beast / Effect","atk":2900,"def":800},"rarity":"StR","img":"53212882","badge":"StR","variant":"Starlight Rare","code":"STR12","tcg":252546,"grp":2879,"idx":14},
+    {"id":"041-str","section":"r-str","num":"041","printed":"BODE-EN041","name":"Swordsoul Grandmaster - Chixiao","ctype":"monster","keywords":"Swordsoul Wyrm LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Wyrm / Synchro","atk":2800,"def":1000},"rarity":"StR","img":"69248256","badge":"StR","variant":"Starlight Rare","code":"STR41","tcg":252600,"grp":2879,"idx":44},
+    {"id":"051-str","section":"r-str","num":"051","printed":"BODE-EN051","name":"Evil★Twin's Trouble Sunny","ctype":"monster","keywords":"Evil★Twin Fiend LIGHT Link Monster","stats":{"a":"LIGHT","l":"Link 4","t":"Fiend / Link","atk":3300},"rarity":"StR","img":"93672138","badge":"StR","variant":"Starlight Rare","code":"STR51","tcg":252601,"grp":2879,"idx":55}
   ]
 }

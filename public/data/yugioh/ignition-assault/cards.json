@@ -17,9 +17,8 @@
       "tier": "standard"
     },
     {
-      "id": "rarities",
-      "name": "Other Rarities",
-      "short": "Other Rarities",
+      "id": "r-str",
+      "name": "Starlight Rares",
       "range": "4 cards",
       "tier": "master"
     }
@@ -30,8 +29,8 @@
       "Main set"
     ],
     [
-      "rarities",
-      "Other rarities"
+      "r-str",
+      "Starlight Rares"
     ]
   ],
   "quickAdd": {
@@ -89,7 +88,6 @@
     {"id":"018","section":"main","num":"018","printed":"IGAS-EN018","name":"Time Thief Chronocorder","ctype":"monster","keywords":"Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Machine / Effect","atk":1000,"def":1000},"rarity":"C","img":"74578720","code":"18","tcg":207897,"grp":2578,"idx":18},
     {"id":"019","section":"main","num":"019","printed":"IGAS-EN019","name":"Abominable Unchained Soul","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Fiend / Effect","atk":3000,"def":1500},"rarity":"SR","img":"1966438","code":"19","tcg":207898,"grp":2578,"idx":19},
     {"id":"020","section":"main","num":"020","printed":"IGAS-EN020","name":"Sky Striker Ace - Roze","ctype":"monster","keywords":"Sky Striker Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Effect","atk":1500,"def":1500},"rarity":"UR","img":"37351133","code":"20","tcg":207899,"grp":2578,"idx":20},
-    {"id":"020-str","section":"rarities","num":"020","printed":"IGAS-EN020","name":"Sky Striker Ace - Roze","ctype":"monster","keywords":"Sky Striker Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Effect","atk":1500,"def":1500},"rarity":"StR","img":"37351133","badge":"StR","variant":"Starlight Rare","code":"STR20","tcg":207900,"grp":2578,"idx":21},
     {"id":"021","section":"main","num":"021","printed":"IGAS-EN021","name":"Witchcrafter Genni","ctype":"monster","keywords":"Witchcrafter Spellcaster WIND Effect Monster","stats":{"a":"WIND","l":"Level 1","t":"Spellcaster / Effect","atk":300,"def":500},"rarity":"SR","img":"64756282","code":"21","tcg":207901,"grp":2578,"idx":22},
     {"id":"022","section":"main","num":"022","printed":"IGAS-EN022","name":"Utgarda, Generaider Boss of Delusion","ctype":"monster","keywords":"Generaider Rock LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 9","t":"Rock / Effect","atk":2200,"def":2700},"rarity":"SR","img":"744887","code":"22","tcg":207902,"grp":2578,"idx":23},
     {"id":"023","section":"main","num":"023","printed":"IGAS-EN023","name":"Ghostrick Fairy","ctype":"monster","keywords":"Ghostrick Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 2","t":"Spellcaster / Effect","atk":900,"def":1000},"rarity":"C","img":"36239585","code":"23","tcg":207904,"grp":2578,"idx":24},
@@ -118,7 +116,6 @@
     {"id":"046","section":"main","num":"046","printed":"IGAS-EN046","name":"Fire Phoenix @Ignister","ctype":"monster","keywords":"@Ignister Cyberse FIRE Link Monster","stats":{"a":"FIRE","l":"Link 3","t":"Cyberse / Link","atk":2300},"rarity":"R","img":"24882256","code":"46","tcg":207928,"grp":2578,"idx":47},
     {"id":"047","section":"main","num":"047","printed":"IGAS-EN047","name":"Cross-Sheep","ctype":"monster","keywords":"Beast EARTH Link Monster","stats":{"a":"EARTH","l":"Link 2","t":"Beast / Link","atk":700},"rarity":"R","img":"50277355","code":"47","tcg":207929,"grp":2578,"idx":48},
     {"id":"048","section":"main","num":"048","printed":"IGAS-EN048","name":"Aussa the Earth Charmer, Immovable","ctype":"monster","keywords":"Charmer Spellcaster EARTH Link Monster","stats":{"a":"EARTH","l":"Link 2","t":"Spellcaster / Link","atk":1850},"rarity":"R","img":"97661969","code":"48","tcg":207930,"grp":2578,"idx":49},
-    {"id":"048-str","section":"rarities","num":"048","printed":"IGAS-EN048","name":"Aussa the Earth Charmer, Immovable","ctype":"monster","keywords":"Charmer Spellcaster EARTH Link Monster","stats":{"a":"EARTH","l":"Link 2","t":"Spellcaster / Link","atk":1850},"rarity":"StR","img":"97661969","badge":"StR","variant":"Starlight Rare","code":"STR48","tcg":207931,"grp":2578,"idx":50},
     {"id":"049","section":"main","num":"049","printed":"IGAS-EN049","name":"Gravity Controller","ctype":"monster","keywords":"Psychic DARK Link Monster","stats":{"a":"DARK","l":"Link 1","t":"Psychic / Link","atk":1000},"rarity":"C","img":"23656668","code":"49","tcg":207932,"grp":2578,"idx":51},
     {"id":"050","section":"main","num":"050","printed":"IGAS-EN050","name":"Ignister A.I.Land","ctype":"spell","keywords":"@Ignister Field Spell","stats":{"t":"Field Spell"},"rarity":"ScR","img":"59054773","code":"50","tcg":207933,"grp":2578,"idx":52},
     {"id":"051","section":"main","num":"051","printed":"IGAS-EN051","name":"TA.I. Strike","ctype":"spell","keywords":"@Ignister Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"86449372","code":"51","tcg":207934,"grp":2578,"idx":53},
@@ -138,7 +135,6 @@
     {"id":"065","section":"main","num":"065","printed":"IGAS-EN065","name":"Disposable Learner Device","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"42149850","code":"65","tcg":207948,"grp":2578,"idx":67},
     {"id":"066","section":"main","num":"066","printed":"IGAS-EN066","name":"Kuji-Kiri Curse","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"78543464","code":"66","tcg":207949,"grp":2578,"idx":68},
     {"id":"067","section":"main","num":"067","printed":"IGAS-EN067","name":"Lightning Storm","ctype":"spell","keywords":"Cyclone Normal Spell","stats":{"t":"Normal Spell"},"rarity":"ScR","img":"14532163","code":"67","tcg":207950,"grp":2578,"idx":69},
-    {"id":"067-str","section":"rarities","num":"067","printed":"IGAS-EN067","name":"Lightning Storm","ctype":"spell","keywords":"Cyclone Normal Spell","stats":{"t":"Normal Spell"},"rarity":"StR","img":"14532163","badge":"StR","variant":"Starlight Rare","code":"STR67","tcg":207951,"grp":2578,"idx":70},
     {"id":"068","section":"main","num":"068","printed":"IGAS-EN068","name":"Double-Edged Sword","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"41927278","code":"68","tcg":207952,"grp":2578,"idx":71},
     {"id":"069","section":"main","num":"069","printed":"IGAS-EN069","name":"A.I. Shadow","ctype":"trap","keywords":"@Ignister Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"77421977","code":"69","tcg":207953,"grp":2578,"idx":72},
     {"id":"070","section":"main","num":"070","printed":"IGAS-EN070","name":"Ancient Warriors Saga - Defense of Changban","ctype":"trap","keywords":"Ancient Warriors Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"R","img":"4810585","code":"70","tcg":207954,"grp":2578,"idx":73},
@@ -166,11 +162,14 @@
     {"id":"092","section":"main","num":"092","printed":"IGAS-EN092","name":"Shiny Black \"C\" Squadder","ctype":"monster","keywords":"\"C\" Insect EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 4","t":"Insect / Normal","atk":2000,"def":0},"rarity":"C","img":"4148264","code":"92","tcg":207976,"grp":2578,"idx":95},
     {"id":"093","section":"main","num":"093","printed":"IGAS-EN093","name":"Marincess Pascalus","ctype":"monster","keywords":"Marincess Cyberse WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Cyberse / Effect","atk":1200,"def":2000},"rarity":"SR","img":"99885917","code":"93","tcg":207977,"grp":2578,"idx":96},
     {"id":"094","section":"main","num":"094","printed":"IGAS-EN094","name":"Time Thief Perpetua","ctype":"monster","keywords":"Time Thief Psychic DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 4","t":"Psychic / Xyz","atk":1900,"def":2500},"rarity":"SR","img":"59208943","code":"94","tcg":207978,"grp":2578,"idx":97},
-    {"id":"094-str","section":"rarities","num":"094","printed":"IGAS-EN094","name":"Time Thief Perpetua","ctype":"monster","keywords":"Time Thief Psychic DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 4","t":"Psychic / Xyz","atk":1900,"def":2500},"rarity":"StR","img":"59208943","badge":"StR","variant":"Starlight Rare","code":"STR94","tcg":207979,"grp":2578,"idx":98},
     {"id":"095","section":"main","num":"095","printed":"IGAS-EN095","name":"Bellcat Fighter","ctype":"monster","keywords":"Machine WIND Link Monster","stats":{"a":"WIND","l":"Link 3","t":"Machine / Link","atk":2000},"rarity":"C","img":"22953211","code":"95","tcg":207980,"grp":2578,"idx":99},
     {"id":"096","section":"main","num":"096","printed":"IGAS-EN096","name":"Code Talker Inverted","ctype":"monster","keywords":"Code Talker Cyberse LIGHT Link Monster","stats":{"a":"LIGHT","l":"Link 2","t":"Cyberse / Link","atk":1300},"rarity":"SR","img":"45462149","code":"96","tcg":207981,"grp":2578,"idx":100},
     {"id":"097","section":"main","num":"097","printed":"IGAS-EN097","name":"Linguriboh","ctype":"monster","keywords":"Kuriboh Cyberse DARK Link Monster","stats":{"a":"DARK","l":"Link 1","t":"Cyberse / Link","atk":300},"rarity":"UR","img":"24842059","code":"97","tcg":207982,"grp":2578,"idx":101},
     {"id":"098","section":"main","num":"098","printed":"IGAS-EN098","name":"Link Party","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"68957925","code":"98","tcg":207983,"grp":2578,"idx":102},
-    {"id":"099","section":"main","num":"099","printed":"IGAS-EN099","name":"Matching Outfits","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"94446564","code":"99","tcg":207984,"grp":2578,"idx":103}
+    {"id":"099","section":"main","num":"099","printed":"IGAS-EN099","name":"Matching Outfits","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"94446564","code":"99","tcg":207984,"grp":2578,"idx":103},
+    {"id":"020-str","section":"r-str","num":"020","printed":"IGAS-EN020","name":"Sky Striker Ace - Roze","ctype":"monster","keywords":"Sky Striker Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Effect","atk":1500,"def":1500},"rarity":"StR","img":"37351133","badge":"StR","variant":"Starlight Rare","code":"STR20","tcg":207900,"grp":2578,"idx":21},
+    {"id":"048-str","section":"r-str","num":"048","printed":"IGAS-EN048","name":"Aussa the Earth Charmer, Immovable","ctype":"monster","keywords":"Charmer Spellcaster EARTH Link Monster","stats":{"a":"EARTH","l":"Link 2","t":"Spellcaster / Link","atk":1850},"rarity":"StR","img":"97661969","badge":"StR","variant":"Starlight Rare","code":"STR48","tcg":207931,"grp":2578,"idx":50},
+    {"id":"067-str","section":"r-str","num":"067","printed":"IGAS-EN067","name":"Lightning Storm","ctype":"spell","keywords":"Cyclone Normal Spell","stats":{"t":"Normal Spell"},"rarity":"StR","img":"14532163","badge":"StR","variant":"Starlight Rare","code":"STR67","tcg":207951,"grp":2578,"idx":70},
+    {"id":"094-str","section":"r-str","num":"094","printed":"IGAS-EN094","name":"Time Thief Perpetua","ctype":"monster","keywords":"Time Thief Psychic DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 4","t":"Psychic / Xyz","atk":1900,"def":2500},"rarity":"StR","img":"59208943","badge":"StR","variant":"Starlight Rare","code":"STR94","tcg":207979,"grp":2578,"idx":98}
   ]
 }

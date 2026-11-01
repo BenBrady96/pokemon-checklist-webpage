@@ -17,9 +17,8 @@
       "tier": "standard"
     },
     {
-      "id": "rarities",
-      "name": "Other Rarities",
-      "short": "Other Rarities",
+      "id": "r-drpr",
+      "name": "Duel Terminal Rare Parallel Rares",
       "range": "1 card",
       "tier": "master"
     }
@@ -30,8 +29,8 @@
       "Main set"
     ],
     [
-      "rarities",
-      "Other rarities"
+      "r-drpr",
+      "Duel Terminal Rare Parallel Rares"
     ]
   ],
   "quickAdd": {
@@ -155,7 +154,6 @@
     {"id":"085","section":"main","num":"085","printed":"DT04-EN085","name":"Naturia Exterio","ctype":"monster","keywords":"Naturia Beast EARTH Fusion Monster","stats":{"a":"EARTH","l":"Level 10","t":"Beast / Fusion","atk":2800,"def":2400},"rarity":"DUPR","img":"99916754","code":"85","tcg":81287,"grp":1330,"idx":84},
     {"id":"086","section":"main","num":"086","printed":"DT04-EN086","name":"Alligator's Sword Dragon","ctype":"monster","keywords":"Alligator Dragon WIND Fusion Monster","stats":{"a":"WIND","l":"Level 5","t":"Dragon / Fusion","atk":1700,"def":1500},"rarity":"DNPR","img":"3366982","code":"86","tcg":81288,"grp":1330,"idx":85},
     {"id":"087","section":"main","num":"087","printed":"DT04-EN087","name":"Elemental HERO Terra Firma","ctype":"monster","keywords":"Elemental HERO Warrior EARTH Fusion Monster","stats":{"a":"EARTH","l":"Level 8","t":"Warrior / Fusion","atk":2500,"def":2000},"rarity":"DNPR","img":"74711057","code":"87","tcg":81289,"grp":1330,"idx":86},
-    {"id":"087-drpr","section":"rarities","num":"087","printed":"DT04-EN087","name":"Elemental HERO Terra Firma","ctype":"monster","keywords":"Elemental HERO Warrior EARTH Fusion Monster","stats":{"a":"EARTH","l":"Level 8","t":"Warrior / Fusion","atk":2500,"def":2000},"rarity":"DRPR","img":"74711057","badge":"DRPR","variant":"Duel Terminal Rare Parallel Rare","code":"DRPR87","tcg":81289,"grp":1330,"idx":87},
     {"id":"088","section":"main","num":"088","printed":"DT04-EN088","name":"Ancient Flamvell Deity","ctype":"monster","keywords":"Flamvell Pyro FIRE Synchro Monster","stats":{"a":"FIRE","l":"Level 7","t":"Pyro / Synchro","atk":2500,"def":200},"rarity":"DUPR","img":"26304459","code":"88","tcg":81290,"grp":1330,"idx":88},
     {"id":"089","section":"main","num":"089","printed":"DT04-EN089","name":"Genex Ally Triforce","ctype":"monster","keywords":"Genex Machine DARK Synchro Monster","stats":{"a":"DARK","l":"Level 7","t":"Machine / Synchro","atk":2500,"def":2100},"rarity":"DUPR","img":"52709508","code":"89","tcg":81291,"grp":1330,"idx":89},
     {"id":"090","section":"main","num":"090","printed":"DT04-EN090","name":"The Fabled Kudabbi","ctype":"monster","keywords":"Fabled Beast LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Beast / Synchro","atk":2200,"def":1100},"rarity":"DSPR","img":"89194103","code":"90","tcg":81292,"grp":1330,"idx":90},
@@ -168,6 +166,7 @@
     {"id":"097","section":"main","num":"097","printed":"DT04-EN097","name":"Hate Buster","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"DNPR","img":"93895605","code":"97","tcg":81299,"grp":1330,"idx":97},
     {"id":"098","section":"main","num":"098","printed":"DT04-EN098","name":"Trap Dustshoot","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"DNPR","img":"64697231","code":"98","tcg":81300,"grp":1330,"idx":98},
     {"id":"099","section":"main","num":"099","printed":"DT04-EN099","name":"Phoenix Wing Wind Blast","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"DNPR","img":"63356631","code":"99","tcg":81301,"grp":1330,"idx":99},
-    {"id":"100","section":"main","num":"100","printed":"DT04-EN100","name":"Anti-Spell Fragrance","ctype":"trap","keywords":"Anti Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"DRPR","img":"58921041","code":"100","tcg":81302,"grp":1330,"idx":100}
+    {"id":"100","section":"main","num":"100","printed":"DT04-EN100","name":"Anti-Spell Fragrance","ctype":"trap","keywords":"Anti Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"DRPR","img":"58921041","code":"100","tcg":81302,"grp":1330,"idx":100},
+    {"id":"087-drpr","section":"r-drpr","num":"087","printed":"DT04-EN087","name":"Elemental HERO Terra Firma","ctype":"monster","keywords":"Elemental HERO Warrior EARTH Fusion Monster","stats":{"a":"EARTH","l":"Level 8","t":"Warrior / Fusion","atk":2500,"def":2000},"rarity":"DRPR","img":"74711057","badge":"DRPR","variant":"Duel Terminal Rare Parallel Rare","code":"DRPR87","tcg":81289,"grp":1330,"idx":87}
   ]
 }

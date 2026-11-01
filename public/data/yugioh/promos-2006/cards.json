@@ -17,9 +17,8 @@
       "tier": "standard"
     },
     {
-      "id": "rarities",
-      "name": "Other Rarities",
-      "short": "Other Rarities",
+      "id": "r-scr",
+      "name": "Secret Rares",
       "range": "4 cards",
       "tier": "master"
     }
@@ -30,8 +29,8 @@
       "Main set"
     ],
     [
-      "rarities",
-      "Other rarities"
+      "r-scr",
+      "Secret Rares"
     ]
   ],
   "quickAdd": {
@@ -188,21 +187,17 @@
     {"id":"SD09-SS1","section":"main","num":"SD09-ENSS1","printed":"SD09-ENSS1","name":"Five-Headed Dragon","ctype":"monster","keywords":"Dragon DARK Fusion Monster","stats":{"a":"DARK","l":"Level 12","t":"Dragon / Fusion","atk":5000,"def":5000},"note":"Structure Deck: Dinosaur's Rage Special Set","rarity":"UR","img":"99267150","code":"52","tcg":26209,"grp":306,"idx":51},
     {"id":"SJC-003","section":"main","num":"SJC-EN003","printed":"SJC-EN003","name":"Shrink","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"note":"Shonen Jump Championship 2006 Prize Card","rarity":"UR","img":"55713623","code":"53","tcg":25554,"grp":280,"idx":52},
     {"id":"SOI-SE1","section":"main","num":"SOI-ENSE1","printed":"SOI-ENSE1","name":"Acid Trap Hole","ctype":"trap","keywords":"Hole Normal Trap","stats":{"t":"Normal Trap"},"note":"Shadow of Infinity: Special Edition","rarity":"UR","img":"41356845","code":"54","tcg":245377,"grp":277,"idx":53},
-    {"id":"SOI-SE1-scr","section":"rarities","num":"SOI-ENSE1","printed":"SOI-ENSE1","name":"Acid Trap Hole","ctype":"trap","keywords":"Hole Normal Trap","stats":{"t":"Normal Trap"},"note":"Shadow of Infinity: Special Edition","rarity":"ScR","img":"41356845","badge":"ScR","variant":"Secret Rare","code":"SCR54","tcg":26362,"grp":277,"idx":54},
     {"id":"SOI-SE2","section":"main","num":"SOI-ENSE2","printed":"SOI-ENSE2","name":"Riryoku","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"note":"Shadow of Infinity: Special Edition","rarity":"UR","img":"34016756","code":"55","tcg":245378,"grp":277,"idx":55},
-    {"id":"SOI-SE2-scr","section":"rarities","num":"SOI-ENSE2","printed":"SOI-ENSE2","name":"Riryoku","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"note":"Shadow of Infinity: Special Edition","rarity":"ScR","img":"34016756","badge":"ScR","variant":"Secret Rare","code":"SCR55","tcg":26363,"grp":277,"idx":56},
     {"id":"SOI-SE3","section":"main","num":"SOI-ENSE3","printed":"SOI-ENSE3","name":"Windstorm of Etaqua","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"note":"Shadow of Infinity: Special Edition","rarity":"UR","img":"59744639","code":"56","tcg":245379,"grp":277,"idx":57},
-    {"id":"SOI-SE3-scr","section":"rarities","num":"SOI-ENSE3","printed":"SOI-ENSE3","name":"Windstorm of Etaqua","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"note":"Shadow of Infinity: Special Edition","rarity":"ScR","img":"59744639","badge":"ScR","variant":"Secret Rare","code":"SCR56","tcg":26364,"grp":277,"idx":58},
     {"id":"SOI-SE4","section":"main","num":"SOI-ENSE4","printed":"SOI-ENSE4","name":"Mesmeric Control","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"note":"Shadow of Infinity: Special Edition","rarity":"UR","img":"48642904","code":"57","tcg":245381,"grp":277,"idx":59},
-    {"id":"SOI-SE4-scr","section":"rarities","num":"SOI-ENSE4","printed":"SOI-ENSE4","name":"Mesmeric Control","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"note":"Shadow of Infinity: Special Edition","rarity":"ScR","img":"48642904","badge":"ScR","variant":"Secret Rare","code":"SCR57","tcg":26365,"grp":277,"idx":60},
     {"id":"SP02-003","section":"main","num":"SP02-EN003","printed":"SP02-EN003","name":"Hidden Soldiers","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"note":"Power of the Duelist Sneak Peek Participation Card","rarity":"UR","img":"2047519","code":"58","tcg":26590,"grp":283,"idx":61},
     {"id":"SP02-004","section":"main","num":"SP02-EN004","printed":"SP02-EN004","name":"Justi-Break","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"note":"Cyberdark Impact Sneak Peek Participation Card","rarity":"UR","img":"62271284","code":"59","tcg":26591,"grp":283,"idx":62},
     {"id":"SP2-001","section":"main","num":"SP2-EN001","printed":"SP2-EN001","name":"Ancient Lamp","ctype":"monster","keywords":"Spellcaster WIND Effect Monster","stats":{"a":"WIND","l":"Level 3","t":"Spellcaster / Effect","atk":900,"def":1400},"note":"Shadow of Infinity Sneak Peek Participation Card","rarity":"UR","img":"54912977","code":"60","tcg":24933,"grp":283,"idx":63},
     {"id":"SP2-002","section":"main","num":"SP2-EN002","printed":"SP2-EN002","name":"Toon Dark Magician Girl","ctype":"monster","keywords":"Toon Spellcaster DARK Monster","stats":{"a":"DARK","l":"Level 6","t":"Spellcaster / Toon","atk":2000,"def":1700},"note":"Enemy of Justice Sneak Peek Participation Card","rarity":"UR","img":"90960358","code":"61","tcg":25367,"grp":283,"idx":64},
-    {"id":"TKN1-001","section":"main","num":"TKN1-EN001","printed":"TKN1-EN001","name":"Sheep Token","ctype":"token","keywords":"Beast Token","stats":{"t":"Beast / Token"},"note":"San Diego Comic-Con promotional cards","rarity":"C","img":"73915052","code":"62","tcg":81303,"grp":1322,"idx":65},
-    {"id":"TKN1-002","section":"main","num":"TKN1-EN002","printed":"TKN1-EN002","name":"Sheep Token","ctype":"token","keywords":"Beast Token","stats":{"t":"Beast / Token"},"note":"San Diego Comic-Con promotional cards","rarity":"C","img":"73915054","code":"63","tcg":81304,"grp":1322,"idx":66},
+    {"id":"TKN1-001","section":"main","num":"TKN1-EN001","printed":"TKN1-EN001","name":"Sheep Token","ctype":"token","keywords":"Beast Token","stats":{"t":"Beast / Token"},"note":"San Diego Comic-Con promotional cards","rarity":"C","img":"73915052","print":"Blue","code":"62","tcg":81303,"grp":1322,"idx":65},
+    {"id":"TKN1-002","section":"main","num":"TKN1-EN002","printed":"TKN1-EN002","name":"Sheep Token","ctype":"token","keywords":"Beast Token","stats":{"t":"Beast / Token"},"note":"San Diego Comic-Con promotional cards","rarity":"C","img":"73915054","print":"Yellow","code":"63","tcg":81304,"grp":1322,"idx":66},
     {"id":"TKN1-003","section":"main","num":"TKN1-EN003","printed":"TKN1-EN003","name":"Sheep Token","ctype":"token","keywords":"Beast Token","stats":{"t":"Beast / Token"},"note":"San Diego Comic-Con promotional cards","rarity":"C","img":"73915053","code":"64","tcg":81305,"grp":1322,"idx":67},
-    {"id":"TKN1-004","section":"main","num":"TKN1-EN004","printed":"TKN1-EN004","name":"Sheep Token","ctype":"token","keywords":"Beast Token","stats":{"t":"Beast / Token"},"note":"San Diego Comic-Con promotional cards","rarity":"C","img":"73915052","code":"65","tcg":81306,"grp":1322,"idx":68},
+    {"id":"TKN1-004","section":"main","num":"TKN1-EN004","printed":"TKN1-EN004","name":"Sheep Token","ctype":"token","keywords":"Beast Token","stats":{"t":"Beast / Token"},"note":"San Diego Comic-Con promotional cards","rarity":"C","img":"73915052","print":"Red","code":"65","tcg":81306,"grp":1322,"idx":68},
     {"id":"UBP1-001","section":"main","num":"UBP1-EN001","printed":"UBP1-EN001","name":"Right Leg of the Forbidden One","ctype":"monster","keywords":"Exodia Spellcaster DARK Normal Monster","stats":{"a":"DARK","l":"Level 1","t":"Spellcaster / Normal","atk":200,"def":300},"note":"Yu-Gi-Oh! GX Ultimate Beginner's Pack","rarity":"ScR","img":"8124921","code":"66","tcg":26537,"grp":223,"idx":69},
     {"id":"UBP1-002","section":"main","num":"UBP1-EN002","printed":"UBP1-EN002","name":"Left Leg of the Forbidden One","ctype":"monster","keywords":"Exodia Spellcaster DARK Normal Monster","stats":{"a":"DARK","l":"Level 1","t":"Spellcaster / Normal","atk":200,"def":300},"note":"Yu-Gi-Oh! GX Ultimate Beginner's Pack","rarity":"ScR","img":"44519536","code":"67","tcg":26538,"grp":223,"idx":70},
     {"id":"UBP1-003","section":"main","num":"UBP1-EN003","printed":"UBP1-EN003","name":"Right Arm of the Forbidden One","ctype":"monster","keywords":"Exodia Spellcaster DARK Normal Monster","stats":{"a":"DARK","l":"Level 1","t":"Spellcaster / Normal","atk":200,"def":300},"note":"Yu-Gi-Oh! GX Ultimate Beginner's Pack","rarity":"ScR","img":"70903634","code":"68","tcg":26539,"grp":223,"idx":71},
@@ -213,6 +208,10 @@
     {"id":"WC6-002","section":"main","num":"WC6-EN002","printed":"WC6-EN002","name":"Helios - The Primordial Sun","ctype":"monster","keywords":"Pyro LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Pyro / Effect","atk":-1,"def":-1},"note":"Yu-Gi-Oh! Ultimate Masters: World Championship Tournament 2006 promotional cards","rarity":"SR","img":"54493213","code":"73","tcg":25354,"grp":347,"idx":76},
     {"id":"WC6-003","section":"main","num":"WC6-EN003","printed":"WC6-EN003","name":"Helios Duo Megistus","ctype":"monster","keywords":"Pyro LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Pyro / Effect","atk":-1,"def":-1},"note":"Yu-Gi-Oh! Ultimate Masters: World Championship Tournament 2006 promotional cards","rarity":"SR","img":"80887952","code":"74","tcg":25355,"grp":347,"idx":77},
     {"id":"WCPS-601","section":"main","num":"WCPS-EN601","printed":"WCPS-EN601","name":"Testament of the Arcane Lords","ctype":"monster","keywords":"Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 10","t":"Spellcaster / Effect","atk":3000,"def":3000},"note":"Yu-Gi-Oh! World Championship 2006 prize cards","rarity":"UR","img":"501000004","code":"75","tcg":26596,"grp":351,"idx":78},
-    {"id":"YSD-S01","section":"main","num":"YSD-ENS01","printed":"YSD-ENS01","name":"Elemental HERO Sparkman","ctype":"monster","keywords":"Elemental HERO Warrior LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Normal","atk":1600,"def":1400},"note":"Starter Deck 2006: Special Edition","rarity":"UR","img":"20721929","code":"76","tcg":25161,"grp":291,"idx":79}
+    {"id":"YSD-S01","section":"main","num":"YSD-ENS01","printed":"YSD-ENS01","name":"Elemental HERO Sparkman","ctype":"monster","keywords":"Elemental HERO Warrior LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Normal","atk":1600,"def":1400},"note":"Starter Deck 2006: Special Edition","rarity":"UR","img":"20721929","code":"76","tcg":25161,"grp":291,"idx":79},
+    {"id":"SOI-SE1-scr","section":"r-scr","num":"SOI-ENSE1","printed":"SOI-ENSE1","name":"Acid Trap Hole","ctype":"trap","keywords":"Hole Normal Trap","stats":{"t":"Normal Trap"},"note":"Shadow of Infinity: Special Edition","rarity":"ScR","img":"41356845","badge":"ScR","variant":"Secret Rare","code":"SCR54","tcg":26362,"grp":277,"idx":54},
+    {"id":"SOI-SE2-scr","section":"r-scr","num":"SOI-ENSE2","printed":"SOI-ENSE2","name":"Riryoku","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"note":"Shadow of Infinity: Special Edition","rarity":"ScR","img":"34016756","badge":"ScR","variant":"Secret Rare","code":"SCR55","tcg":26363,"grp":277,"idx":56},
+    {"id":"SOI-SE3-scr","section":"r-scr","num":"SOI-ENSE3","printed":"SOI-ENSE3","name":"Windstorm of Etaqua","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"note":"Shadow of Infinity: Special Edition","rarity":"ScR","img":"59744639","badge":"ScR","variant":"Secret Rare","code":"SCR56","tcg":26364,"grp":277,"idx":58},
+    {"id":"SOI-SE4-scr","section":"r-scr","num":"SOI-ENSE4","printed":"SOI-ENSE4","name":"Mesmeric Control","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"note":"Shadow of Infinity: Special Edition","rarity":"ScR","img":"48642904","badge":"ScR","variant":"Secret Rare","code":"SCR57","tcg":26365,"grp":277,"idx":60}
   ]
 }

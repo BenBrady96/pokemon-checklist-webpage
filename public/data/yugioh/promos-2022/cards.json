@@ -13,13 +13,12 @@
     {
       "id": "main",
       "name": "Cards",
-      "range": "LART-EN043–YCSW-EN013",
+      "range": "BACH-ENSP1–YCSW-EN013",
       "tier": "standard"
     },
     {
-      "id": "rarities",
-      "name": "Other Rarities",
-      "short": "Other Rarities",
+      "id": "r-ur",
+      "name": "Ultra Rares",
       "range": "1 card",
       "tier": "master"
     }
@@ -30,37 +29,41 @@
       "Main set"
     ],
     [
-      "rarities",
-      "Other rarities"
+      "r-ur",
+      "Ultra Rares"
     ]
   ],
   "quickAdd": {
     "placeholder": "e.g. 1-20, 45, SCR12, 60x2",
     "example": "1-20, 45x2, SCR12",
     "hint": "Separate with commas or spaces. Numbers count down the list in order: <b>1-5</b> is the first five cards and <b>3x2</b> is two copies of the third.",
-    "empty": "Cards run from LART-EN043 to YCSW-EN013."
+    "empty": "Cards run from BACH-ENSP1 to YCSW-EN013."
   },
   "help": {
-    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 4 cards, each in its main rarity. Master adds the 1 other rarity. Cards you’ve marked are kept when you switch."
+    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 8 cards, each in its main rarity. Master adds the 1 other rarity. Cards you’ve marked are kept when you switch."
   },
   "seo": {
-    "title": "Yu-Gi-Oh! Promos 2022 Checklist · All 4 Cards",
-    "description": "Free Yu-Gi-Oh! Promos 2022 checklist with no ads, no sign-up and no tracking. Track all 4 cards, or every rarity for a master set, with images, copy counts, binder pages and prices.",
+    "title": "Yu-Gi-Oh! Promos 2022 Checklist · All 8 Cards",
+    "description": "Free Yu-Gi-Oh! Promos 2022 checklist with no ads, no sign-up and no tracking. Track all 8 cards, or every rarity for a master set, with images, copy counts, binder pages and prices.",
     "ogTitle": "Yu-Gi-Oh! Promos 2022 Checklist",
-    "ogDescription": "Track all 4 cards in Yu-Gi-Oh! Promos 2022, plus 1 other rarity. Free, with no ads, no sign-up and no tracking.",
-    "twitterDescription": "Track all 4 cards in Yu-Gi-Oh! Promos 2022. Free, with no ads, no sign-up and no tracking."
+    "ogDescription": "Track all 8 cards in Yu-Gi-Oh! Promos 2022, plus 1 other rarity. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 8 cards in Yu-Gi-Oh! Promos 2022. Free, with no ads, no sign-up and no tracking."
   },
   "about": {
     "title": "About Promos 2022",
     "paragraphs": [
-      "Promos 2022 gathers the 4 promo cards from 4 products released in 2022: The Lost Art Promotion 2022 A, The Lost Art Promotion 2022 G, The Lost Art Promotion 2022 K and Yu-Gi-Oh! Championship Series 2022 prize card.",
-      "Choose what you’re collecting: the <b>Standard set</b> (the 4 cards, each in its main rarity) or the <b>Master set</b> (all 5, adding the 1 other rarity).",
+      "Promos 2022 gathers the 8 promo cards from 8 products released in 2022: Battle of Chaos Premiere! promotional card, Darkwing Blast Premiere! promotional card, Dimension Force Premiere! promotional card, The Lost Art Promotion 2022 A, The Lost Art Promotion 2022 G, The Lost Art Promotion 2022 K, Power of the Elements Premiere! promotional card and Yu-Gi-Oh! Championship Series 2022 prize card.",
+      "Choose what you’re collecting: the <b>Standard set</b> (the 8 cards, each in its main rarity) or the <b>Master set</b> (all 9, adding the 1 other rarity).",
       "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
       "Card details and images come from YGOPRODeck, and prices from TCGplayer."
     ]
   },
   "source": {
     "ygoprodeck": [
+      "Battle of Chaos Premiere! promotional card",
+      "Darkwing Blast Premiere! promotional card",
+      "Dimension Force Premiere! promotional card",
+      "Power of the Elements Premiere! promotional card",
       "The Lost Art Promotion 2022 A",
       "The Lost Art Promotion 2022 G",
       "The Lost Art Promotion 2022 K",
@@ -68,14 +71,22 @@
     ],
     "tcgplayer": [
       2196,
-      1347
+      1347,
+      3029,
+      3104,
+      2969,
+      3111
     ]
   },
   "cards": [
-    {"id":"LART-043","section":"main","num":"LART-EN043","printed":"LART-EN043","name":"Parasite Paracide","ctype":"monster","keywords":"Parasite Insect EARTH Flip Effect Monster","stats":{"a":"EARTH","l":"Level 2","t":"Insect / Flip / Effect","atk":500,"def":300},"note":"The Lost Art Promotion 2022 A","rarity":"UR","img":"27911549","code":"1","tcg":261778,"grp":2196,"idx":0},
-    {"id":"LART-049","section":"main","num":"LART-EN049","printed":"LART-EN049","name":"Cyber Angel Benten","ctype":"monster","keywords":"Cyber Angel Fairy LIGHT Ritual Effect Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Fairy / Ritual / Effect","atk":1800,"def":1500},"note":"The Lost Art Promotion 2022 G","rarity":"UR","img":"77235086","code":"2","tcg":279480,"grp":2196,"idx":1},
-    {"id":"LART-053","section":"main","num":"LART-EN053","printed":"LART-EN053","name":"Tribute Burial","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"note":"The Lost Art Promotion 2022 K","rarity":"UR","img":"80230510","code":"3","tcg":287170,"grp":2196,"idx":2},
-    {"id":"YCSW-013","section":"main","num":"YCSW-EN013","printed":"YCSW-EN013","name":"Anotherverse Dragon","ctype":"monster","keywords":"Dragon LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Normal","atk":2500,"def":2000},"note":"Yu-Gi-Oh! Championship Series 2022 prize card","rarity":"SR","img":"47484352","code":"4","tcg":284862,"grp":1347,"idx":3},
-    {"id":"YCSW-013-ur","section":"rarities","num":"YCSW-EN013","printed":"YCSW-EN013","name":"Anotherverse Dragon","ctype":"monster","keywords":"Dragon LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Normal","atk":2500,"def":2000},"note":"Yu-Gi-Oh! Championship Series 2022 prize card","rarity":"UR","img":"47484352","badge":"UR","variant":"Ultra Rare","code":"UR4","tcg":284861,"grp":1347,"idx":4}
+    {"id":"BACH-SP1","section":"main","num":"BACH-ENSP1","printed":"BACH-ENSP1","name":"Libromancer Geek Boy","ctype":"monster","keywords":"Libromancer Psychic WIND Effect Monster","stats":{"a":"WIND","l":"Level 3","t":"Psychic / Effect","atk":800,"def":800},"note":"Battle of Chaos Premiere! promotional card","rarity":"UR","img":"46123974","code":"1","tcg":265398,"grp":2969,"idx":5},
+    {"id":"DABL-SP1","section":"main","num":"DABL-ENSP1","printed":"DABL-ENSP1","name":"Muckraker From the Underworld","ctype":"monster","keywords":"From the Underworld Fiend DARK Link Monster","stats":{"a":"DARK","l":"Link 2","t":"Fiend / Link","atk":1000},"note":"Darkwing Blast Premiere! promotional card","rarity":"UR","img":"71607202","code":"2","tcg":450437,"grp":3111,"idx":6},
+    {"id":"DIFO-SP1","section":"main","num":"DIFO-ENSP1","printed":"DIFO-ENSP1","name":"Visas Starfrost","ctype":"monster","keywords":"Warrior LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Warrior / Tuner","atk":2100,"def":1500},"note":"Dimension Force Premiere! promotional card","rarity":"UR","img":"56099748","code":"3","tcg":272513,"grp":3029,"idx":7},
+    {"id":"LART-043","section":"main","num":"LART-EN043","printed":"LART-EN043","name":"Parasite Paracide","ctype":"monster","keywords":"Parasite Insect EARTH Flip Effect Monster","stats":{"a":"EARTH","l":"Level 2","t":"Insect / Flip / Effect","atk":500,"def":300},"note":"The Lost Art Promotion 2022 A","rarity":"UR","img":"27911549","code":"4","tcg":261778,"grp":2196,"idx":0},
+    {"id":"LART-049","section":"main","num":"LART-EN049","printed":"LART-EN049","name":"Cyber Angel Benten","ctype":"monster","keywords":"Cyber Angel Fairy LIGHT Ritual Effect Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Fairy / Ritual / Effect","atk":1800,"def":1500},"note":"The Lost Art Promotion 2022 G","rarity":"UR","img":"77235086","code":"5","tcg":279480,"grp":2196,"idx":1},
+    {"id":"LART-053","section":"main","num":"LART-EN053","printed":"LART-EN053","name":"Tribute Burial","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"note":"The Lost Art Promotion 2022 K","rarity":"UR","img":"80230510","code":"6","tcg":287170,"grp":2196,"idx":2},
+    {"id":"POTE-SP1","section":"main","num":"POTE-ENSP1","printed":"POTE-ENSP1","name":"Ghoti of the Deep Beyond","ctype":"monster","keywords":"Ghoti Fish WATER Synchro Monster","stats":{"a":"WATER","l":"Level 10","t":"Fish / Synchro","atk":-1,"def":0},"note":"Power of the Elements Premiere! promotional card","rarity":"UR","img":"72309040","code":"7","tcg":448628,"grp":3104,"idx":8},
+    {"id":"YCSW-013","section":"main","num":"YCSW-EN013","printed":"YCSW-EN013","name":"Anotherverse Dragon","ctype":"monster","keywords":"Dragon LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Normal","atk":2500,"def":2000},"note":"Yu-Gi-Oh! Championship Series 2022 prize card","rarity":"SR","img":"47484352","code":"8","tcg":284862,"grp":1347,"idx":3},
+    {"id":"YCSW-013-ur","section":"r-ur","num":"YCSW-EN013","printed":"YCSW-EN013","name":"Anotherverse Dragon","ctype":"monster","keywords":"Dragon LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Normal","atk":2500,"def":2000},"note":"Yu-Gi-Oh! Championship Series 2022 prize card","rarity":"UR","img":"47484352","badge":"UR","variant":"Ultra Rare","code":"UR8","tcg":284861,"grp":1347,"idx":4}
   ]
 }

@@ -17,10 +17,15 @@
       "tier": "standard"
     },
     {
-      "id": "rarities",
-      "name": "Other Rarities",
-      "short": "Other Rarities",
-      "range": "3 cards",
+      "id": "r-sp",
+      "name": "Short Prints",
+      "range": "1 card",
+      "tier": "master"
+    },
+    {
+      "id": "r-ssp",
+      "name": "Super Short Prints",
+      "range": "2 cards",
       "tier": "master"
     }
   ],
@@ -30,8 +35,12 @@
       "Main set"
     ],
     [
-      "rarities",
-      "Other rarities"
+      "r-sp",
+      "Short Prints"
+    ],
+    [
+      "r-ssp",
+      "Super Short Prints"
     ]
   ],
   "quickAdd": {
@@ -163,14 +172,11 @@
     {"id":"091","section":"main","num":"091","printed":"LOB-091","name":"Silver Bow and Arrow","ctype":"spell","keywords":"Equip Spell LOB-E071 LOB-EN091","stats":{"t":"Equip Spell"},"rarity":"SP","img":"1557499","code":"91","tcg":22402,"grp":330,"idx":91},
     {"id":"092","section":"main","num":"092","printed":"LOB-092","name":"Dragon Treasure","ctype":"spell","keywords":"Equip Spell LOB-E072 LOB-EN092","stats":{"t":"Equip Spell"},"rarity":"SP","img":"1435851","code":"92","tcg":21924,"grp":330,"idx":92},
     {"id":"093","section":"main","num":"093","printed":"LOB-093","name":"Electro-Whip","ctype":"spell","keywords":"Equip Spell LOB-E073 LOB-EN093","stats":{"t":"Equip Spell"},"rarity":"C","img":"37820550","code":"93","tcg":21943,"grp":330,"idx":93},
-    {"id":"093-sp","section":"rarities","num":"093","printed":"LOB-093","name":"Electro-Whip","ctype":"spell","keywords":"Equip Spell LOB-E073 LOB-EN093","stats":{"t":"Equip Spell"},"rarity":"SP","img":"37820550","badge":"SP","variant":"Short Print","code":"SP93","tcg":21943,"grp":330,"idx":94},
     {"id":"094","section":"main","num":"094","printed":"LOB-094","name":"Mystical Moon","ctype":"spell","keywords":"Equip Spell LOB-E074 LOB-EN094","stats":{"t":"Equip Spell"},"rarity":"SP","img":"36607978","code":"94","tcg":22253,"grp":330,"idx":95},
     {"id":"095","section":"main","num":"095","printed":"LOB-095","name":"Stop Defense","ctype":"spell","keywords":"Normal Spell LOB-E075 LOB-EN095","stats":{"t":"Normal Spell"},"rarity":"R","img":"63102017","code":"95","tcg":22459,"grp":330,"idx":96},
     {"id":"096","section":"main","num":"096","printed":"LOB-096","name":"Machine Conversion Factory","ctype":"spell","keywords":"Equip Spell LOB-E076 LOB-EN096","stats":{"t":"Equip Spell"},"rarity":"SP","img":"25769732","code":"96","tcg":22170,"grp":330,"idx":97},
     {"id":"097","section":"main","num":"097","printed":"LOB-097","name":"Raise Body Heat","ctype":"spell","keywords":"Equip Spell LOB-E077 LOB-EN097","stats":{"t":"Equip Spell"},"rarity":"SP","img":"51267887","code":"97","tcg":22331,"grp":330,"idx":98},
-    {"id":"097-ssp","section":"rarities","num":"097","printed":"LOB-097","name":"Raise Body Heat","ctype":"spell","keywords":"Equip Spell LOB-E077 LOB-EN097","stats":{"t":"Equip Spell"},"rarity":"SSP","img":"51267887","badge":"SSP","variant":"Super Short Print","code":"SSP97","tcg":22331,"grp":330,"idx":99},
     {"id":"098","section":"main","num":"098","printed":"LOB-098","name":"Follow Wind","ctype":"spell","keywords":"Equip Spell LOB-E078 LOB-EN098","stats":{"t":"Equip Spell"},"rarity":"SP","img":"98252586","code":"98","tcg":21986,"grp":330,"idx":100},
-    {"id":"098-ssp","section":"rarities","num":"098","printed":"LOB-098","name":"Follow Wind","ctype":"spell","keywords":"Equip Spell LOB-E078 LOB-EN098","stats":{"t":"Equip Spell"},"rarity":"SSP","img":"98252586","badge":"SSP","variant":"Super Short Print","code":"SSP98","tcg":21986,"grp":330,"idx":101},
     {"id":"099","section":"main","num":"099","printed":"LOB-099","name":"Goblin's Secret Remedy","ctype":"spell","keywords":"Normal Spell LOB-E079 LOB-EN099","stats":{"t":"Normal Spell"},"rarity":"R","img":"11868825","code":"99","tcg":22026,"grp":330,"idx":102},
     {"id":"100","section":"main","num":"100","printed":"LOB-100","name":"Final Flame","ctype":"spell","keywords":"Normal Spell LOB-E080 LOB-EN100","stats":{"t":"Normal Spell"},"rarity":"R","img":"73134082","code":"100","tcg":21968,"grp":330,"idx":103},
     {"id":"101","section":"main","num":"101","printed":"LOB-101","name":"Swords of Revealing Light","ctype":"spell","keywords":"Normal Spell LOB-E081 LOB-EN101","stats":{"t":"Normal Spell"},"rarity":"SR","img":"72302403","code":"101","tcg":22474,"grp":330,"idx":104},
@@ -197,6 +203,9 @@
     {"id":"122","section":"main","num":"122","printed":"LOB-122","name":"Right Arm of the Forbidden One","ctype":"monster","keywords":"Exodia Spellcaster DARK Normal Monster LOB-E099 LOB-EN122","stats":{"a":"DARK","l":"Level 1","t":"Spellcaster / Normal","atk":200,"def":300},"rarity":"UR","img":"70903634","code":"122","tcg":22351,"grp":330,"idx":125},
     {"id":"123","section":"main","num":"123","printed":"LOB-123","name":"Left Arm of the Forbidden One","ctype":"monster","keywords":"Exodia Spellcaster DARK Normal Monster LOB-E100 LOB-EN123","stats":{"a":"DARK","l":"Level 1","t":"Spellcaster / Normal","atk":200,"def":300},"rarity":"UR","img":"7902349","code":"123","tcg":22149,"grp":330,"idx":126},
     {"id":"124","section":"main","num":"124","printed":"LOB-124","name":"Exodia the Forbidden One","ctype":"monster","keywords":"Exodia Spellcaster DARK Effect Monster LOB-E101 LOB-EN124","stats":{"a":"DARK","l":"Level 3","t":"Spellcaster / Effect","atk":1000,"def":1000},"rarity":"UR","img":"33396948","code":"124","tcg":21954,"grp":330,"idx":127},
-    {"id":"125","section":"main","num":"125","printed":"LOB-125","name":"Gaia the Dragon Champion","ctype":"monster","keywords":"Gaia The Fierce Knight Dragon WIND Fusion Monster LOB-E102 LOB-EN125","stats":{"a":"WIND","l":"Level 7","t":"Dragon / Fusion","atk":2600,"def":2100},"rarity":"ScR","img":"66889139","code":"125","tcg":22002,"grp":330,"idx":128}
+    {"id":"125","section":"main","num":"125","printed":"LOB-125","name":"Gaia the Dragon Champion","ctype":"monster","keywords":"Gaia The Fierce Knight Dragon WIND Fusion Monster LOB-E102 LOB-EN125","stats":{"a":"WIND","l":"Level 7","t":"Dragon / Fusion","atk":2600,"def":2100},"rarity":"ScR","img":"66889139","code":"125","tcg":22002,"grp":330,"idx":128},
+    {"id":"093-sp","section":"r-sp","num":"093","printed":"LOB-093","name":"Electro-Whip","ctype":"spell","keywords":"Equip Spell LOB-E073 LOB-EN093","stats":{"t":"Equip Spell"},"rarity":"SP","img":"37820550","badge":"SP","variant":"Short Print","code":"SP93","tcg":21943,"grp":330,"idx":94},
+    {"id":"097-ssp","section":"r-ssp","num":"097","printed":"LOB-097","name":"Raise Body Heat","ctype":"spell","keywords":"Equip Spell LOB-E077 LOB-EN097","stats":{"t":"Equip Spell"},"rarity":"SSP","img":"51267887","badge":"SSP","variant":"Super Short Print","code":"SSP97","tcg":22331,"grp":330,"idx":99},
+    {"id":"098-ssp","section":"r-ssp","num":"098","printed":"LOB-098","name":"Follow Wind","ctype":"spell","keywords":"Equip Spell LOB-E078 LOB-EN098","stats":{"t":"Equip Spell"},"rarity":"SSP","img":"98252586","badge":"SSP","variant":"Super Short Print","code":"SSP98","tcg":21986,"grp":330,"idx":101}
   ]
 }

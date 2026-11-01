@@ -17,10 +17,21 @@
       "tier": "standard"
     },
     {
-      "id": "rarities",
-      "name": "Other Rarities",
-      "short": "Other Rarities",
-      "range": "6 cards",
+      "id": "r-utr",
+      "name": "Ultimate Rares",
+      "range": "4 cards",
+      "tier": "master"
+    },
+    {
+      "id": "r-scr",
+      "name": "Secret Rares",
+      "range": "1 card",
+      "tier": "master"
+    },
+    {
+      "id": "r-gr",
+      "name": "Ghost Rares",
+      "range": "1 card",
       "tier": "master"
     }
   ],
@@ -30,8 +41,16 @@
       "Main set"
     ],
     [
-      "rarities",
-      "Other rarities"
+      "r-utr",
+      "Ultimate Rares"
+    ],
+    [
+      "r-scr",
+      "Secret Rares"
+    ],
+    [
+      "r-gr",
+      "Ghost Rares"
     ]
   ],
   "quickAdd": {
@@ -116,10 +135,7 @@
     {"id":"045","section":"main","num":"045","printed":"JOTL-EN045","name":"Armades, Keeper of Boundaries","ctype":"monster","keywords":"Fiend LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 5","t":"Fiend / Synchro","atk":2300,"def":1500},"rarity":"ScR","img":"88033975","code":"45","tcg":70843,"grp":1142,"idx":45},
     {"id":"046","section":"main","num":"046","printed":"JOTL-EN046","name":"HTS Psyhemuth","ctype":"monster","keywords":"Psychic EARTH Synchro Monster","stats":{"a":"EARTH","l":"Level 6","t":"Psychic / Synchro","atk":2400,"def":1800},"rarity":"SR","img":"15028680","code":"46","tcg":70844,"grp":1142,"idx":46},
     {"id":"047","section":"main","num":"047","printed":"JOTL-EN047","name":"Star Eater","ctype":"monster","keywords":"Dragon LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 11","t":"Dragon / Synchro","atk":3200,"def":2800},"rarity":"UtR","img":"41517789","code":"47","tcg":70899,"grp":1142,"idx":47},
-    {"id":"047-scr","section":"rarities","num":"047","printed":"JOTL-EN047","name":"Star Eater","ctype":"monster","keywords":"Dragon LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 11","t":"Dragon / Synchro","atk":3200,"def":2800},"rarity":"ScR","img":"41517789","badge":"ScR","variant":"Secret Rare","code":"SCR47","tcg":70845,"grp":1142,"idx":48},
-    {"id":"047-gr","section":"rarities","num":"047","printed":"JOTL-EN047","name":"Star Eater","ctype":"monster","keywords":"Dragon LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 11","t":"Dragon / Synchro","atk":3200,"def":2800},"rarity":"GR","img":"41517789","badge":"GR","variant":"Ghost Rare","code":"GR47","tcg":70898,"grp":1142,"idx":49},
     {"id":"048","section":"main","num":"048","printed":"JOTL-EN048","name":"Number C39: Utopia Ray Victory","ctype":"monster","keywords":"Utopia Warrior LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 5","t":"Warrior / Xyz","atk":2800,"def":2500},"rarity":"SR","img":"87911394","code":"48","tcg":70846,"grp":1142,"idx":50},
-    {"id":"048-utr","section":"rarities","num":"048","printed":"JOTL-EN048","name":"Number C39: Utopia Ray Victory","ctype":"monster","keywords":"Utopia Warrior LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 5","t":"Warrior / Xyz","atk":2800,"def":2500},"rarity":"UtR","img":"87911394","badge":"UtR","variant":"Ultimate Rare","code":"UTR48","tcg":70900,"grp":1142,"idx":51},
     {"id":"049","section":"main","num":"049","printed":"JOTL-EN049","name":"Shark Caesar","ctype":"monster","keywords":"Shark Fish WATER Xyz Monster","stats":{"a":"WATER","l":"Rank 3","t":"Fish / Xyz","atk":1800,"def":2000},"rarity":"C","img":"14306092","code":"49","tcg":70847,"grp":1142,"idx":52},
     {"id":"050","section":"main","num":"050","printed":"JOTL-EN050","name":"Starliege Lord Galaxion","ctype":"monster","keywords":"Galaxy-Eyes Warrior LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 4","t":"Warrior / Xyz","atk":2000,"def":2100},"rarity":"SR","img":"40390147","code":"50","tcg":70848,"grp":1142,"idx":53},
     {"id":"051","section":"main","num":"051","printed":"JOTL-EN051","name":"Googly-Eyes Drum Dragon","ctype":"monster","keywords":"Super Defense Robot Machine EARTH Xyz Monster","stats":{"a":"EARTH","l":"Rank 8","t":"Machine / Xyz","atk":3000,"def":2500},"rarity":"C","img":"77799846","code":"51","tcg":70849,"grp":1142,"idx":54},
@@ -128,12 +144,9 @@
     {"id":"054","section":"main","num":"054","printed":"JOTL-EN054","name":"Number 66: Master Key Beetle","ctype":"monster","keywords":"Insect DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 4","t":"Insect / Xyz","atk":2500,"def":800},"rarity":"SR","img":"76067258","code":"54","tcg":70852,"grp":1142,"idx":57},
     {"id":"055","section":"main","num":"055","printed":"JOTL-EN055","name":"Number 104: Masquerade","ctype":"monster","keywords":"Spellcaster LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 4","t":"Spellcaster / Xyz","atk":2700,"def":1200},"rarity":"R","img":"2061963","code":"55","tcg":70853,"grp":1142,"idx":58},
     {"id":"056","section":"main","num":"056","printed":"JOTL-EN056","name":"Number C104: Umbral Horror Masquerade","ctype":"monster","keywords":"Umbral Horror Spellcaster DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 5","t":"Spellcaster / Xyz","atk":3000,"def":1500},"rarity":"SR","img":"49456901","code":"56","tcg":70854,"grp":1142,"idx":59},
-    {"id":"056-utr","section":"rarities","num":"056","printed":"JOTL-EN056","name":"Number C104: Umbral Horror Masquerade","ctype":"monster","keywords":"Umbral Horror Spellcaster DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 5","t":"Spellcaster / Xyz","atk":3000,"def":1500},"rarity":"UtR","img":"49456901","badge":"UtR","variant":"Ultimate Rare","code":"UTR56","tcg":70901,"grp":1142,"idx":60},
     {"id":"057","section":"main","num":"057","printed":"JOTL-EN057","name":"Bujintei Susanowo","ctype":"monster","keywords":"Bujin Beast-Warrior LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 4","t":"Beast-Warrior / Xyz","atk":2400,"def":1600},"rarity":"UR","img":"75840616","code":"57","tcg":70855,"grp":1142,"idx":61},
-    {"id":"057-utr","section":"rarities","num":"057","printed":"JOTL-EN057","name":"Bujintei Susanowo","ctype":"monster","keywords":"Bujin Beast-Warrior LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 4","t":"Beast-Warrior / Xyz","atk":2400,"def":1600},"rarity":"UtR","img":"75840616","badge":"UtR","variant":"Ultimate Rare","code":"UTR57","tcg":70902,"grp":1142,"idx":62},
     {"id":"058","section":"main","num":"058","printed":"JOTL-EN058","name":"Herald of Pure Light","ctype":"monster","keywords":"Herald Fairy LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 2","t":"Fairy / Xyz","atk":600,"def":1000},"rarity":"SR","img":"1249315","code":"58","tcg":70856,"grp":1142,"idx":63},
     {"id":"059","section":"main","num":"059","printed":"JOTL-EN059","name":"Rank-Up-Magic Numeron Force","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UR","img":"48333324","code":"59","tcg":70857,"grp":1142,"idx":64},
-    {"id":"059-utr","section":"rarities","num":"059","printed":"JOTL-EN059","name":"Rank-Up-Magic Numeron Force","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UtR","img":"48333324","badge":"UtR","variant":"Ultimate Rare","code":"UTR59","tcg":70903,"grp":1142,"idx":65},
     {"id":"060","section":"main","num":"060","printed":"JOTL-EN060","name":"Xyz Reception","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"74728028","code":"60","tcg":70858,"grp":1142,"idx":66},
     {"id":"061","section":"main","num":"061","printed":"JOTL-EN061","name":"Sargasso the D.D. Battlefield","ctype":"spell","keywords":"D.D. Field Spell","stats":{"t":"Field Spell"},"rarity":"C","img":"1127737","code":"61","tcg":70859,"grp":1142,"idx":67},
     {"id":"062","section":"main","num":"062","printed":"JOTL-EN062","name":"Sargasso Lighthouse","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"37511832","code":"62","tcg":70860,"grp":1142,"idx":68},
@@ -173,6 +186,12 @@
     {"id":"096","section":"main","num":"096","printed":"JOTL-EN096","name":"Fishborg Archer","ctype":"monster","keywords":"Fishborg Fish WATER Tuner Monster","stats":{"a":"WATER","l":"Level 3","t":"Fish / Tuner","atk":300,"def":300},"rarity":"C","img":"62023839","code":"96","tcg":70894,"grp":1142,"idx":102},
     {"id":"097","section":"main","num":"097","printed":"JOTL-EN097","name":"Fencing Fire Ferret","ctype":"monster","keywords":"Beast FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Beast / Effect","atk":1700,"def":600},"rarity":"C","img":"97396380","code":"97","tcg":70895,"grp":1142,"idx":103},
     {"id":"098","section":"main","num":"098","printed":"JOTL-EN098","name":"Kujakujaku","ctype":"monster","keywords":"Winged Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 3","t":"Winged Beast / Effect","atk":1200,"def":900},"rarity":"C","img":"24384095","code":"98","tcg":70896,"grp":1142,"idx":104},
-    {"id":"099","section":"main","num":"099","printed":"JOTL-EN099","name":"Madolche Chickolates","ctype":"monster","keywords":"Madolche Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Beast / Effect","atk":800,"def":1500},"rarity":"C","img":"26570480","code":"99","tcg":70897,"grp":1142,"idx":105}
+    {"id":"099","section":"main","num":"099","printed":"JOTL-EN099","name":"Madolche Chickolates","ctype":"monster","keywords":"Madolche Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Beast / Effect","atk":800,"def":1500},"rarity":"C","img":"26570480","code":"99","tcg":70897,"grp":1142,"idx":105},
+    {"id":"048-utr","section":"r-utr","num":"048","printed":"JOTL-EN048","name":"Number C39: Utopia Ray Victory","ctype":"monster","keywords":"Utopia Warrior LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 5","t":"Warrior / Xyz","atk":2800,"def":2500},"rarity":"UtR","img":"87911394","badge":"UtR","variant":"Ultimate Rare","code":"UTR48","tcg":70900,"grp":1142,"idx":51},
+    {"id":"056-utr","section":"r-utr","num":"056","printed":"JOTL-EN056","name":"Number C104: Umbral Horror Masquerade","ctype":"monster","keywords":"Umbral Horror Spellcaster DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 5","t":"Spellcaster / Xyz","atk":3000,"def":1500},"rarity":"UtR","img":"49456901","badge":"UtR","variant":"Ultimate Rare","code":"UTR56","tcg":70901,"grp":1142,"idx":60},
+    {"id":"057-utr","section":"r-utr","num":"057","printed":"JOTL-EN057","name":"Bujintei Susanowo","ctype":"monster","keywords":"Bujin Beast-Warrior LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 4","t":"Beast-Warrior / Xyz","atk":2400,"def":1600},"rarity":"UtR","img":"75840616","badge":"UtR","variant":"Ultimate Rare","code":"UTR57","tcg":70902,"grp":1142,"idx":62},
+    {"id":"059-utr","section":"r-utr","num":"059","printed":"JOTL-EN059","name":"Rank-Up-Magic Numeron Force","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UtR","img":"48333324","badge":"UtR","variant":"Ultimate Rare","code":"UTR59","tcg":70903,"grp":1142,"idx":65},
+    {"id":"047-scr","section":"r-scr","num":"047","printed":"JOTL-EN047","name":"Star Eater","ctype":"monster","keywords":"Dragon LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 11","t":"Dragon / Synchro","atk":3200,"def":2800},"rarity":"ScR","img":"41517789","badge":"ScR","variant":"Secret Rare","code":"SCR47","tcg":70845,"grp":1142,"idx":48},
+    {"id":"047-gr","section":"r-gr","num":"047","printed":"JOTL-EN047","name":"Star Eater","ctype":"monster","keywords":"Dragon LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 11","t":"Dragon / Synchro","atk":3200,"def":2800},"rarity":"GR","img":"41517789","badge":"GR","variant":"Ghost Rare","code":"GR47","tcg":70898,"grp":1142,"idx":49}
   ]
 }

@@ -17,9 +17,8 @@
       "tier": "standard"
     },
     {
-      "id": "rarities",
-      "name": "Other Rarities",
-      "short": "Other Rarities",
+      "id": "r-ur",
+      "name": "Ultra Rares",
       "range": "1 card",
       "tier": "master"
     }
@@ -30,8 +29,8 @@
       "Main set"
     ],
     [
-      "rarities",
-      "Other rarities"
+      "r-ur",
+      "Ultra Rares"
     ]
   ],
   "quickAdd": {
@@ -134,11 +133,11 @@
     {"id":"REDU-SP1","section":"main","num":"REDU-ENSP1","printed":"REDU-ENSP1","name":"Noble Knight Gawayn","ctype":"monster","keywords":"Noble Knight Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Effect","atk":1900,"def":500},"note":"Return of the Duelist Sneak Peek Participation Card","rarity":"UR","img":"19680539","code":"26","tcg":79696,"grp":587,"idx":25},
     {"id":"RYMP-SE1","section":"main","num":"RYMP-ENSE1","printed":"RYMP-ENSE1","name":"Legendary Six Samurai - Shi En","ctype":"monster","keywords":"Six Samurai Warrior DARK Synchro Monster","stats":{"a":"DARK","l":"Level 5","t":"Warrior / Synchro","atk":2500,"def":1400},"note":"Ra Yellow Mega Pack: Special Edition","rarity":"SR","img":"29981921","code":"27","tcg":60108,"grp":269,"idx":26},
     {"id":"YCSW-005","section":"main","num":"YCSW-EN005","printed":"YCSW-EN005","name":"Digvorzhak, King of Heavy Industry","ctype":"monster","keywords":"Machine EARTH Xyz Monster","stats":{"a":"EARTH","l":"Rank 5","t":"Machine / Xyz","atk":3200,"def":2000},"note":"Yu-Gi-Oh! Championship Series 2012 Prize Card","rarity":"SR","img":"29515122","code":"28","tcg":82272,"grp":1347,"idx":27},
-    {"id":"YCSW-005-ur","section":"rarities","num":"YCSW-EN005","printed":"YCSW-EN005","name":"Digvorzhak, King of Heavy Industry","ctype":"monster","keywords":"Machine EARTH Xyz Monster","stats":{"a":"EARTH","l":"Rank 5","t":"Machine / Xyz","atk":3200,"def":2000},"note":"Yu-Gi-Oh! Championship Series 2012 Prize Card","rarity":"UR","img":"29515122","badge":"UR","variant":"Ultra Rare","code":"UR28","tcg":82273,"grp":1347,"idx":28},
     {"id":"YF02-001","section":"main","num":"YF02-EN001","printed":"YF02-EN001","name":"Catapult Warrior","ctype":"monster","keywords":"Junk Warrior EARTH Synchro Monster","stats":{"a":"EARTH","l":"Level 5","t":"Warrior / Synchro","atk":1000,"def":1500},"note":"Yu-Gi-Oh! 5D's Volume 2 promotional card","rarity":"UR","img":"37474917","code":"29","tcg":78064,"grp":352,"idx":29},
     {"id":"YF03-001","section":"main","num":"YF03-EN001","printed":"YF03-EN001","name":"Infernity General","ctype":"monster","keywords":"Infernity Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Fiend / Effect","atk":2700,"def":1500},"note":"Yu-Gi-Oh! 5D's Volume 3 promotional card","rarity":"UR","img":"17502671","code":"30","tcg":77979,"grp":352,"idx":30},
     {"id":"YG08-001","section":"main","num":"YG08-EN001","printed":"YG08-EN001","name":"Barbaroid, the Ultimate Battle Machine","ctype":"monster","keywords":"Roid Machine EARTH Fusion Monster","stats":{"a":"EARTH","l":"Level 12","t":"Machine / Fusion","atk":4000,"def":4000},"note":"Yu-Gi-Oh! GX Volume 8 promotional card","rarity":"UR","img":"54702678","code":"31","tcg":79692,"grp":599,"idx":31},
     {"id":"YZ01-001","section":"main","num":"YZ01-EN001","printed":"YZ01-EN001","name":"Kachi Kochi Dragon","ctype":"monster","keywords":"Dragon EARTH Xyz Monster","stats":{"a":"EARTH","l":"Rank 4","t":"Dragon / Xyz","atk":2100,"def":1300},"note":"Yu-Gi-Oh! ZEXAL Volume 1 promotional card","rarity":"UR","img":"69069911","code":"32","tcg":66666,"grp":600,"idx":32},
-    {"id":"YZ02-001","section":"main","num":"YZ02-EN001","printed":"YZ02-EN001","name":"Number 50: Blackship of Corn","ctype":"monster","keywords":"Plant DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 4","t":"Plant / Xyz","atk":2100,"def":1500},"note":"Yu-Gi-Oh! ZEXAL Volume 2 promotional card","rarity":"UR","img":"51735257","code":"33","tcg":67335,"grp":600,"idx":33}
+    {"id":"YZ02-001","section":"main","num":"YZ02-EN001","printed":"YZ02-EN001","name":"Number 50: Blackship of Corn","ctype":"monster","keywords":"Plant DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 4","t":"Plant / Xyz","atk":2100,"def":1500},"note":"Yu-Gi-Oh! ZEXAL Volume 2 promotional card","rarity":"UR","img":"51735257","code":"33","tcg":67335,"grp":600,"idx":33},
+    {"id":"YCSW-005-ur","section":"r-ur","num":"YCSW-EN005","printed":"YCSW-EN005","name":"Digvorzhak, King of Heavy Industry","ctype":"monster","keywords":"Machine EARTH Xyz Monster","stats":{"a":"EARTH","l":"Rank 5","t":"Machine / Xyz","atk":3200,"def":2000},"note":"Yu-Gi-Oh! Championship Series 2012 Prize Card","rarity":"UR","img":"29515122","badge":"UR","variant":"Ultra Rare","code":"UR28","tcg":82273,"grp":1347,"idx":28}
   ]
 }

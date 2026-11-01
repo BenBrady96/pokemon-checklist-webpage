@@ -17,9 +17,8 @@
       "tier": "standard"
     },
     {
-      "id": "rarities",
-      "name": "Other Rarities",
-      "short": "Other Rarities",
+      "id": "r-sp",
+      "name": "Short Prints",
       "range": "1 card",
       "tier": "master"
     }
@@ -30,8 +29,8 @@
       "Main set"
     ],
     [
-      "rarities",
-      "Other rarities"
+      "r-sp",
+      "Short Prints"
     ]
   ],
   "quickAdd": {
@@ -104,7 +103,6 @@
     {"id":"033","section":"main","num":"033","printed":"MACR-EN033","name":"Pendulumucho","ctype":"monster","keywords":"Pendulum Winged Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 1","t":"Winged Beast / Pendulum / Effect","atk":0,"def":0},"rarity":"SR","img":"18210764","code":"33","tcg":131150,"grp":1922,"idx":33},
     {"id":"034","section":"main","num":"034","printed":"MACR-EN034","name":"Baobaboon","ctype":"monster","keywords":"Plant DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Plant / Effect","atk":1200,"def":1000},"rarity":"C","img":"55705473","code":"34","tcg":131151,"grp":1922,"idx":34},
     {"id":"035","section":"main","num":"035","printed":"MACR-EN035","name":"Fire Cracker","ctype":"monster","keywords":"Fiend FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Fiend / Effect","atk":1700,"def":200},"rarity":"C","img":"81109178","code":"35","tcg":131152,"grp":1922,"idx":35},
-    {"id":"035-sp","section":"rarities","num":"035","printed":"MACR-EN035","name":"Fire Cracker","ctype":"monster","keywords":"Fiend FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Fiend / Effect","atk":1700,"def":200},"rarity":"SP","img":"81109178","badge":"SP","variant":"Short Print","code":"SP35","tcg":131152,"grp":1922,"idx":36},
     {"id":"036","section":"main","num":"036","printed":"MACR-EN036","name":"Ash Blossom & Joyous Spring","ctype":"monster","keywords":"Zombie FIRE Tuner Monster","stats":{"a":"FIRE","l":"Level 3","t":"Zombie / Tuner","atk":0,"def":1800},"rarity":"ScR","img":"14558127","code":"36","tcg":131153,"grp":1922,"idx":37},
     {"id":"037","section":"main","num":"037","printed":"MACR-EN037","name":"Familiar-Possessed - Lyna","ctype":"monster","keywords":"Charmer Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Effect","atk":1850,"def":1500},"rarity":"SP","img":"40542825","code":"37","tcg":131154,"grp":1922,"idx":38},
     {"id":"038","section":"main","num":"038","printed":"MACR-EN038","name":"Fairy Tail - Luna","ctype":"monster","keywords":"Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Effect","atk":1850,"def":1000},"rarity":"SR","img":"86937530","code":"38","tcg":131155,"grp":1922,"idx":39},
@@ -168,6 +166,7 @@
     {"id":"096","section":"main","num":"096","printed":"MACR-EN096","name":"Ghost Beef","ctype":"monster","keywords":"Beast DARK Pendulum Normal Monster","stats":{"a":"DARK","l":"Level 7","t":"Beast / Pendulum / Normal","atk":2000,"def":1000},"rarity":"C","img":"84046493","code":"96","tcg":131213,"grp":1922,"idx":97},
     {"id":"097","section":"main","num":"097","printed":"MACR-EN097","name":"Vennu, Bright Bird of Divinity","ctype":"monster","keywords":"Fairy LIGHT Ritual Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Fairy / Ritual / Effect","atk":2800,"def":2000},"rarity":"C","img":"10441498","code":"97","tcg":131214,"grp":1922,"idx":98},
     {"id":"098","section":"main","num":"098","printed":"MACR-EN098","name":"Primal Cry","ctype":"spell","keywords":"Ritual Spell","stats":{"t":"Ritual Spell"},"rarity":"C","img":"47435107","code":"98","tcg":131215,"grp":1922,"idx":99},
-    {"id":"099","section":"main","num":"099","printed":"MACR-EN099","name":"Onikuji","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"73820802","code":"99","tcg":131216,"grp":1922,"idx":100}
+    {"id":"099","section":"main","num":"099","printed":"MACR-EN099","name":"Onikuji","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"73820802","code":"99","tcg":131216,"grp":1922,"idx":100},
+    {"id":"035-sp","section":"r-sp","num":"035","printed":"MACR-EN035","name":"Fire Cracker","ctype":"monster","keywords":"Fiend FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Fiend / Effect","atk":1700,"def":200},"rarity":"SP","img":"81109178","badge":"SP","variant":"Short Print","code":"SP35","tcg":131152,"grp":1922,"idx":36}
   ]
 }

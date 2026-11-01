@@ -17,9 +17,8 @@
       "tier": "standard"
     },
     {
-      "id": "rarities",
-      "name": "Other Rarities",
-      "short": "Other Rarities",
+      "id": "r-ur",
+      "name": "Ultra Rares",
       "range": "1 card",
       "tier": "master"
     }
@@ -30,8 +29,8 @@
       "Main set"
     ],
     [
-      "rarities",
-      "Other rarities"
+      "r-ur",
+      "Ultra Rares"
     ]
   ],
   "quickAdd": {
@@ -119,9 +118,9 @@
     {"id":"TDIL-SE4","section":"main","num":"TDIL-ENSE4","printed":"TDIL-ENSE4","name":"SPYRAL GEAR - Big Red","ctype":"spell","keywords":"SPYRAL Equip Spell","stats":{"t":"Equip Spell"},"note":"The Dark Illusion: Special Edition","rarity":"SR","img":"30979619","code":"25","tcg":123747,"grp":1807,"idx":24},
     {"id":"TDIL-SP1","section":"main","num":"TDIL-ENSP1","printed":"TDIL-ENSP1","name":"Magical Something","ctype":"monster","keywords":"Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Effect","atk":1800,"def":1300},"note":"The Dark Illusion Sneak Peek Participation Card","rarity":"UR","img":"43930492","code":"26","tcg":121257,"grp":1807,"idx":25},
     {"id":"YCSW-009","section":"main","num":"YCSW-EN009","printed":"YCSW-EN009","name":"Number 93: Utopia Kaiser","ctype":"monster","keywords":"Utopia Warrior LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 12","t":"Warrior / Xyz","atk":2500,"def":2000},"note":"Yu-Gi-Oh! Championship Series 2016 Prize Card","rarity":"SR","img":"23187256","code":"27","tcg":123743,"grp":1347,"idx":26},
-    {"id":"YCSW-009-ur","section":"rarities","num":"YCSW-EN009","printed":"YCSW-EN009","name":"Number 93: Utopia Kaiser","ctype":"monster","keywords":"Utopia Warrior LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 12","t":"Warrior / Xyz","atk":2500,"def":2000},"note":"Yu-Gi-Oh! Championship Series 2016 Prize Card","rarity":"UR","img":"23187256","badge":"UR","variant":"Ultra Rare","code":"UR27","tcg":123742,"grp":1347,"idx":27},
     {"id":"YF09-001","section":"main","num":"YF09-EN001","printed":"YF09-EN001","name":"Stardust Chronicle Spark Dragon","ctype":"monster","keywords":"Stardust Dragon LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 10","t":"Dragon / Synchro","atk":3000,"def":2500},"note":"Yu-Gi-Oh! 5D's Volume 9 promotional card","rarity":"UR","img":"89474727","code":"28","tcg":116940,"grp":352,"idx":28},
     {"id":"YZ08-001","section":"main","num":"YZ08-EN001","printed":"YZ08-EN001","name":"Number S39: Utopia the Lightning","ctype":"monster","keywords":"Utopia Warrior LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 5","t":"Warrior / Xyz","atk":2500,"def":2000},"note":"Yu-Gi-Oh! ZEXAL Volume 8 promotional card","rarity":"UR","img":"56832966","code":"29","tcg":115431,"grp":600,"idx":29},
-    {"id":"YZ09-001","section":"main","num":"YZ09-EN001","printed":"YZ09-EN001","name":"Gagaga Head","ctype":"monster","keywords":"Gagaga Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Spellcaster / Effect","atk":2100,"def":2000},"note":"Yu-Gi-Oh! ZEXAL Volume 9 promotional card","rarity":"UR","img":"67120578","code":"30","tcg":122706,"grp":600,"idx":30}
+    {"id":"YZ09-001","section":"main","num":"YZ09-EN001","printed":"YZ09-EN001","name":"Gagaga Head","ctype":"monster","keywords":"Gagaga Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Spellcaster / Effect","atk":2100,"def":2000},"note":"Yu-Gi-Oh! ZEXAL Volume 9 promotional card","rarity":"UR","img":"67120578","code":"30","tcg":122706,"grp":600,"idx":30},
+    {"id":"YCSW-009-ur","section":"r-ur","num":"YCSW-EN009","printed":"YCSW-EN009","name":"Number 93: Utopia Kaiser","ctype":"monster","keywords":"Utopia Warrior LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 12","t":"Warrior / Xyz","atk":2500,"def":2000},"note":"Yu-Gi-Oh! Championship Series 2016 Prize Card","rarity":"UR","img":"23187256","badge":"UR","variant":"Ultra Rare","code":"UR27","tcg":123742,"grp":1347,"idx":27}
   ]
 }

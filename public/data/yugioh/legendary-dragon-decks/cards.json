@@ -17,9 +17,8 @@
       "tier": "standard"
     },
     {
-      "id": "rarities",
-      "name": "Other Rarities",
-      "short": "Other Rarities",
+      "id": "r-ur",
+      "name": "Ultra Rares",
       "range": "4 cards",
       "tier": "master"
     }
@@ -30,8 +29,8 @@
       "Main set"
     ],
     [
-      "rarities",
-      "Other rarities"
+      "r-ur",
+      "Ultra Rares"
     ]
   ],
   "quickAdd": {
@@ -125,7 +124,6 @@
     {"id":"B10","section":"main","num":"B10","printed":"LEDD-ENB10","name":"Armored Cybern","ctype":"monster","keywords":"Cyber Dragon Machine WIND Union Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Machine / Union / Effect","atk":0,"def":2000},"rarity":"C","img":"67159705","code":"B10","tcg":147037,"grp":2055,"idx":54},
     {"id":"B11","section":"main","num":"B11","printed":"LEDD-ENB11","name":"Machina Fortress","ctype":"monster","keywords":"Machina Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 7","t":"Machine / Effect","atk":2500,"def":1600},"rarity":"C","img":"5556499","code":"B11","tcg":147038,"grp":2055,"idx":55},
     {"id":"B12","section":"main","num":"B12","printed":"LEDD-ENB12","name":"Cyber Repair Plant","ctype":"spell","keywords":"Cyber Dragon Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"86686671","code":"B12","tcg":147039,"grp":2055,"idx":56},
-    {"id":"B12-ur","section":"rarities","num":"B12","printed":"LEDD-ENB12","name":"Cyber Repair Plant","ctype":"spell","keywords":"Cyber Dragon Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UR","img":"86686671","badge":"UR","variant":"Ultra Rare","code":"URB12","tcg":147040,"grp":2055,"idx":57},
     {"id":"B13","section":"main","num":"B13","printed":"LEDD-ENB13","name":"Cybernetic Fusion Support","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"58199906","code":"B13","tcg":147041,"grp":2055,"idx":58},
     {"id":"B14","section":"main","num":"B14","printed":"LEDD-ENB14","name":"Evolution Burst","ctype":"spell","keywords":"Cyber Dragon Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"52875873","code":"B14","tcg":147042,"grp":2055,"idx":59},
     {"id":"B15","section":"main","num":"B15","printed":"LEDD-ENB15","name":"Power Bond","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"37630732","code":"B15","tcg":147043,"grp":2055,"idx":60},
@@ -134,7 +132,6 @@
     {"id":"B18","section":"main","num":"B18","printed":"LEDD-ENB18","name":"Limiter Removal","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"23171610","code":"B18","tcg":147046,"grp":2055,"idx":63},
     {"id":"B19","section":"main","num":"B19","printed":"LEDD-ENB19","name":"Machina Armored Unit","ctype":"spell","keywords":"Machina Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"31828916","code":"B19","tcg":147047,"grp":2055,"idx":64},
     {"id":"B20","section":"main","num":"B20","printed":"LEDD-ENB20","name":"Cyber Network","ctype":"trap","keywords":"Cyber Dragon Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"12670770","code":"B20","tcg":147048,"grp":2055,"idx":65},
-    {"id":"B20-ur","section":"rarities","num":"B20","printed":"LEDD-ENB20","name":"Cyber Network","ctype":"trap","keywords":"Cyber Dragon Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"UR","img":"12670770","badge":"UR","variant":"Ultra Rare","code":"URB20","tcg":147049,"grp":2055,"idx":66},
     {"id":"B21","section":"main","num":"B21","printed":"LEDD-ENB21","name":"Cyber Shadow Gardna","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"90440725","code":"B21","tcg":147050,"grp":2055,"idx":67},
     {"id":"B22","section":"main","num":"B22","printed":"LEDD-ENB22","name":"Storming Mirror Force","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"5650082","code":"B22","tcg":147051,"grp":2055,"idx":68},
     {"id":"B23","section":"main","num":"B23","printed":"LEDD-ENB23","name":"Quaking Mirror Force","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"40838625","code":"B23","tcg":147052,"grp":2055,"idx":69},
@@ -144,12 +141,10 @@
     {"id":"B27","section":"main","num":"B27","printed":"LEDD-ENB27","name":"Chimeratech Overdragon","ctype":"monster","keywords":"Machine DARK Fusion Monster","stats":{"a":"DARK","l":"Level 9","t":"Machine / Fusion","atk":-1,"def":-1},"rarity":"C","img":"64599569","code":"B27","tcg":147056,"grp":2055,"idx":73},
     {"id":"B28","section":"main","num":"B28","printed":"LEDD-ENB28","name":"Chimeratech Fortress Dragon","ctype":"monster","keywords":"Machine DARK Fusion Monster","stats":{"a":"DARK","l":"Level 8","t":"Machine / Fusion","atk":0,"def":0},"rarity":"C","img":"79229522","code":"B28","tcg":147057,"grp":2055,"idx":74},
     {"id":"B29","section":"main","num":"B29","printed":"LEDD-ENB29","name":"Chimeratech Rampage Dragon","ctype":"monster","keywords":"Machine DARK Fusion Monster","stats":{"a":"DARK","l":"Level 5","t":"Machine / Fusion","atk":2100,"def":1600},"rarity":"C","img":"84058253","code":"B29","tcg":147058,"grp":2055,"idx":75},
-    {"id":"B29-ur","section":"rarities","num":"B29","printed":"LEDD-ENB29","name":"Chimeratech Rampage Dragon","ctype":"monster","keywords":"Machine DARK Fusion Monster","stats":{"a":"DARK","l":"Level 5","t":"Machine / Fusion","atk":2100,"def":1600},"rarity":"UR","img":"84058253","badge":"UR","variant":"Ultra Rare","code":"URB29","tcg":147059,"grp":2055,"idx":76},
     {"id":"B30","section":"main","num":"B30","printed":"LEDD-ENB30","name":"Cyber Dragon Nova","ctype":"monster","keywords":"Cyber Dragon Machine LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 5","t":"Machine / Xyz","atk":2100,"def":1600},"rarity":"C","img":"58069384","code":"B30","tcg":147060,"grp":2055,"idx":77},
     {"id":"B31","section":"main","num":"B31","printed":"LEDD-ENB31","name":"Cyber Dragon Infinity","ctype":"monster","keywords":"Cyber Dragon Machine LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 6","t":"Machine / Xyz","atk":2100,"def":1600},"rarity":"UR","img":"10443957","code":"B31","tcg":147061,"grp":2055,"idx":78},
     {"id":"C00","section":"main","num":"C00","printed":"LEDD-ENC00","name":"Odd-Eyes Arc Pendulum Dragon","ctype":"monster","keywords":"-Eyes Dragon Dragon DARK Pendulum Normal Monster","stats":{"a":"DARK","l":"Level 7","t":"Dragon / Pendulum / Normal","atk":2700,"def":2000},"rarity":"UR","img":"14105623","code":"C0","tcg":147062,"grp":2055,"idx":79},
     {"id":"C01","section":"main","num":"C01","printed":"LEDD-ENC01","name":"Odd-Eyes Pendulum Dragon","ctype":"monster","keywords":"-Eyes Dragon Dragon DARK Pendulum Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Dragon / Pendulum / Effect","atk":2500,"def":2000},"rarity":"C","img":"16178682","code":"C1","tcg":147063,"grp":2055,"idx":80},
-    {"id":"C01-ur","section":"rarities","num":"C01","printed":"LEDD-ENC01","name":"Odd-Eyes Pendulum Dragon","ctype":"monster","keywords":"-Eyes Dragon Dragon DARK Pendulum Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Dragon / Pendulum / Effect","atk":2500,"def":2000},"rarity":"UR","img":"16178682","badge":"UR","variant":"Ultra Rare","code":"URC1","tcg":147064,"grp":2055,"idx":81},
     {"id":"C02","section":"main","num":"C02","printed":"LEDD-ENC02","name":"Supreme King Dragon Odd-Eyes","ctype":"monster","keywords":"Odd-Eyes Dragon DARK Pendulum Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Dragon / Pendulum / Effect","atk":2500,"def":2000},"rarity":"C","img":"96733134","code":"C2","tcg":147065,"grp":2055,"idx":82},
     {"id":"C03","section":"main","num":"C03","printed":"LEDD-ENC03","name":"Odd-Eyes Phantom Dragon","ctype":"monster","keywords":"-Eyes Dragon Dragon DARK Pendulum Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Dragon / Pendulum / Effect","atk":2500,"def":2000},"rarity":"C","img":"93149655","code":"C3","tcg":147066,"grp":2055,"idx":83},
     {"id":"C04","section":"main","num":"C04","printed":"LEDD-ENC04","name":"Odd-Eyes Persona Dragon","ctype":"monster","keywords":"-Eyes Dragon Dragon DARK Pendulum Effect Monster","stats":{"a":"DARK","l":"Level 5","t":"Dragon / Pendulum / Effect","atk":1200,"def":2400},"rarity":"C","img":"21250202","code":"C4","tcg":147067,"grp":2055,"idx":84},
@@ -182,6 +177,10 @@
     {"id":"C31","section":"main","num":"C31","printed":"LEDD-ENC31","name":"Odd-Eyes Meteorburst Dragon","ctype":"monster","keywords":"Odd-Eyes Dragon FIRE Synchro Monster","stats":{"a":"FIRE","l":"Level 7","t":"Dragon / Synchro","atk":2500,"def":2000},"rarity":"C","img":"80696379","code":"C31","tcg":147094,"grp":2055,"idx":111},
     {"id":"C32","section":"main","num":"C32","printed":"LEDD-ENC32","name":"Dark Rebellion Xyz Dragon","ctype":"monster","keywords":"Dragon DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 4","t":"Dragon / Xyz","atk":2500,"def":2000},"rarity":"UR","img":"16195942","code":"C32","tcg":147095,"grp":2055,"idx":112},
     {"id":"C33","section":"main","num":"C33","printed":"LEDD-ENC33","name":"Supreme King Dragon Dark Rebellion","ctype":"monster","keywords":"Supreme King Dragon DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 4","t":"Dragon / Xyz","atk":2500,"def":2000},"rarity":"C","img":"42160203","code":"C33","tcg":147096,"grp":2055,"idx":113},
-    {"id":"C34","section":"main","num":"C34","printed":"LEDD-ENC34","name":"Odd-Eyes Absolute Dragon","ctype":"monster","keywords":"Odd-Eyes Dragon WATER Xyz Monster","stats":{"a":"WATER","l":"Rank 7","t":"Dragon / Xyz","atk":2800,"def":2500},"rarity":"C","img":"16691074","code":"C34","tcg":147097,"grp":2055,"idx":114}
+    {"id":"C34","section":"main","num":"C34","printed":"LEDD-ENC34","name":"Odd-Eyes Absolute Dragon","ctype":"monster","keywords":"Odd-Eyes Dragon WATER Xyz Monster","stats":{"a":"WATER","l":"Rank 7","t":"Dragon / Xyz","atk":2800,"def":2500},"rarity":"C","img":"16691074","code":"C34","tcg":147097,"grp":2055,"idx":114},
+    {"id":"B12-ur","section":"r-ur","num":"B12","printed":"LEDD-ENB12","name":"Cyber Repair Plant","ctype":"spell","keywords":"Cyber Dragon Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UR","img":"86686671","badge":"UR","variant":"Ultra Rare","code":"URB12","tcg":147040,"grp":2055,"idx":57},
+    {"id":"B20-ur","section":"r-ur","num":"B20","printed":"LEDD-ENB20","name":"Cyber Network","ctype":"trap","keywords":"Cyber Dragon Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"UR","img":"12670770","badge":"UR","variant":"Ultra Rare","code":"URB20","tcg":147049,"grp":2055,"idx":66},
+    {"id":"B29-ur","section":"r-ur","num":"B29","printed":"LEDD-ENB29","name":"Chimeratech Rampage Dragon","ctype":"monster","keywords":"Machine DARK Fusion Monster","stats":{"a":"DARK","l":"Level 5","t":"Machine / Fusion","atk":2100,"def":1600},"rarity":"UR","img":"84058253","badge":"UR","variant":"Ultra Rare","code":"URB29","tcg":147059,"grp":2055,"idx":76},
+    {"id":"C01-ur","section":"r-ur","num":"C01","printed":"LEDD-ENC01","name":"Odd-Eyes Pendulum Dragon","ctype":"monster","keywords":"-Eyes Dragon Dragon DARK Pendulum Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Dragon / Pendulum / Effect","atk":2500,"def":2000},"rarity":"UR","img":"16178682","badge":"UR","variant":"Ultra Rare","code":"URC1","tcg":147064,"grp":2055,"idx":81}
   ]
 }

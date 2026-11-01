@@ -17,10 +17,15 @@
       "tier": "standard"
     },
     {
-      "id": "rarities",
-      "name": "Other Rarities",
-      "short": "Other Rarities",
-      "range": "2 cards",
+      "id": "r-r",
+      "name": "Rares",
+      "range": "1 card",
+      "tier": "master"
+    },
+    {
+      "id": "r-pscr",
+      "name": "Prismatic Secret Rares",
+      "range": "1 card",
       "tier": "master"
     }
   ],
@@ -30,8 +35,12 @@
       "Main set"
     ],
     [
-      "rarities",
-      "Other rarities"
+      "r-r",
+      "Rares"
+    ],
+    [
+      "r-pscr",
+      "Prismatic Secret Rares"
     ]
   ],
   "quickAdd": {
@@ -41,20 +50,20 @@
     "empty": "Cards run from MP22-EN001 to MP22-EN275."
   },
   "help": {
-    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 272 cards, each in its main rarity. Master adds the 2 other rarities. Cards you’ve marked are kept when you switch."
+    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 275 cards, each in its main rarity. Master adds the 2 other rarities. Cards you’ve marked are kept when you switch."
   },
   "seo": {
-    "title": "Yu-Gi-Oh! 2022 Tin of the Pharaoh's Gods Checklist · All 272 Cards",
-    "description": "Free Yu-Gi-Oh! 2022 Tin of the Pharaoh's Gods checklist with no ads, no sign-up and no tracking. Track all 272 cards, or every rarity for a master set, with images, copy counts, binder pages and prices.",
+    "title": "Yu-Gi-Oh! 2022 Tin of the Pharaoh's Gods Checklist · All 275 Cards",
+    "description": "Free Yu-Gi-Oh! 2022 Tin of the Pharaoh's Gods checklist with no ads, no sign-up and no tracking. Track all 275 cards, or every rarity for a master set, with images, copy counts, binder pages and prices.",
     "ogTitle": "Yu-Gi-Oh! 2022 Tin of the Pharaoh's Gods Checklist",
-    "ogDescription": "Track all 272 cards in Yu-Gi-Oh! 2022 Tin of the Pharaoh's Gods, plus 2 other rarities. Free, with no ads, no sign-up and no tracking.",
-    "twitterDescription": "Track all 272 cards in Yu-Gi-Oh! 2022 Tin of the Pharaoh's Gods. Free, with no ads, no sign-up and no tracking."
+    "ogDescription": "Track all 275 cards in Yu-Gi-Oh! 2022 Tin of the Pharaoh's Gods, plus 2 other rarities. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 275 cards in Yu-Gi-Oh! 2022 Tin of the Pharaoh's Gods. Free, with no ads, no sign-up and no tracking."
   },
   "about": {
     "title": "About 2022 Tin of the Pharaoh's Gods",
     "paragraphs": [
-      "2022 Tin of the Pharaoh&#39;s Gods is a Yu-Gi-Oh! TCG tin released on 14 September 2022, in the SEVENS &amp; GO RUSH!! era. It has 272 cards, and with the 2 other rarities there are 274 to collect in all.",
-      "Choose what you’re collecting: the <b>Standard set</b> (the 272 cards, each in its main rarity) or the <b>Master set</b> (all 274, adding the 2 other rarities).",
+      "2022 Tin of the Pharaoh&#39;s Gods is a Yu-Gi-Oh! TCG tin released on 14 September 2022, in the SEVENS &amp; GO RUSH!! era. It has 275 cards, and with the 2 other rarities there are 277 to collect in all.",
+      "Choose what you’re collecting: the <b>Standard set</b> (the 275 cards, each in its main rarity) or the <b>Master set</b> (all 277, adding the 2 other rarities).",
       "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
       "Card details and images come from YGOPRODeck, and prices from TCGplayer."
     ]
@@ -134,7 +143,6 @@
     {"id":"064","section":"main","num":"064","printed":"MP22-EN064","name":"Live☆Twin Ki-sikil Frost","ctype":"monster","keywords":"Ki-sikil Aqua LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 2","t":"Aqua / Effect","atk":500,"def":0},"rarity":"SR","img":"54257392","code":"64","tcg":284986,"grp":3101,"idx":63},
     {"id":"065","section":"main","num":"065","printed":"MP22-EN065","name":"Blackeyes, the Plunder Patroll Seaguide","ctype":"monster","keywords":"Plunder Patroll Fiend WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Fiend / Effect","atk":1000,"def":1000},"rarity":"C","img":"91642007","code":"65","tcg":284988,"grp":3101,"idx":64},
     {"id":"066","section":"main","num":"066","printed":"MP22-EN066","name":"Judge of the Ice Barrier","ctype":"monster","keywords":"Ice Barrier Warrior WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Warrior / Effect","atk":1800,"def":900},"rarity":"C","img":"53535814","code":"66","tcg":284989,"grp":3101,"idx":65},
-    {"id":"066-r","section":"rarities","num":"066","printed":"MP22-EN066","name":"Judge of the Ice Barrier","ctype":"monster","keywords":"Ice Barrier Warrior WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Warrior / Effect","atk":1800,"def":900},"rarity":"R","img":"53535814","badge":"R","variant":"Rare","code":"R66","tcg":284989,"grp":3101,"idx":66},
     {"id":"067","section":"main","num":"067","printed":"MP22-EN067","name":"Scrap Raptor","ctype":"monster","keywords":"Scrap Dinosaur EARTH Tuner Monster","stats":{"a":"EARTH","l":"Level 4","t":"Dinosaur / Tuner","atk":1400,"def":1000},"rarity":"UR","img":"80529459","code":"67","tcg":284990,"grp":3101,"idx":67},
     {"id":"068","section":"main","num":"068","printed":"MP22-EN068","name":"Dark Honest","ctype":"monster","keywords":"Fairy DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fairy / Effect","atk":1100,"def":1900},"rarity":"UR","img":"26914168","code":"68","tcg":284992,"grp":3101,"idx":68},
     {"id":"069","section":"main","num":"069","printed":"MP22-EN069","name":"Bahalutiya, the Grand Radiance","ctype":"monster","keywords":"Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 7","t":"Dragon / Effect","atk":2000,"def":2400},"rarity":"R","img":"53318263","code":"69","tcg":284993,"grp":3101,"idx":69},
@@ -150,7 +158,6 @@
     {"id":"079","section":"main","num":"079","printed":"MP22-EN079","name":"Lavalval Exlord","ctype":"monster","keywords":"Laval Warrior FIRE Synchro Monster","stats":{"a":"FIRE","l":"Level 8","t":"Warrior / Synchro","atk":2900,"def":200},"rarity":"R","img":"12018201","code":"79","tcg":285019,"grp":3101,"idx":79},
     {"id":"080","section":"main","num":"080","printed":"MP22-EN080","name":"Star Mine","ctype":"monster","keywords":"Pyro FIRE Synchro Monster","stats":{"a":"FIRE","l":"Level 4","t":"Pyro / Synchro","atk":2000,"def":200},"rarity":"C","img":"49407319","code":"80","tcg":285021,"grp":3101,"idx":80},
     {"id":"081","section":"main","num":"081","printed":"MP22-EN081","name":"Ultimate Dragonic Utopia Ray","ctype":"monster","keywords":"Number Warrior LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 5","t":"Warrior / Xyz","atk":2500,"def":2000},"rarity":"R","img":"75402014","code":"81","tcg":285025,"grp":3101,"idx":81},
-    {"id":"081-pscr","section":"rarities","num":"081","printed":"MP22-EN081","name":"Ultimate Dragonic Utopia Ray","ctype":"monster","keywords":"Number Warrior LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 5","t":"Warrior / Xyz","atk":2500,"def":2000},"rarity":"PScR","img":"75402014","badge":"PScR","variant":"Prismatic Secret Rare","code":"PSCR81","tcg":285025,"grp":3101,"idx":82},
     {"id":"082","section":"main","num":"082","printed":"MP22-EN082","name":"ZW - Dragonic Halberd","ctype":"monster","keywords":"Zexal Dragon DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 5","t":"Dragon / Xyz","atk":3000,"def":1200},"rarity":"R","img":"2896663","code":"82","tcg":285027,"grp":3101,"idx":83},
     {"id":"083","section":"main","num":"083","printed":"MP22-EN083","name":"Rilliona, the Wondrous Magistus Witch Wardrobe","ctype":"monster","keywords":"Magistus Spellcaster LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 4","t":"Spellcaster / Xyz","atk":1000,"def":2800},"rarity":"R","img":"74689476","code":"83","tcg":285029,"grp":3101,"idx":84},
     {"id":"084","section":"main","num":"084","printed":"MP22-EN084","name":"Drytron Mu Beta Fafnir","ctype":"monster","keywords":"Drytron Machine LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 1","t":"Machine / Xyz","atk":2000,"def":0},"rarity":"PScR","img":"1174075","code":"84","tcg":285033,"grp":3101,"idx":85},
@@ -324,16 +331,19 @@
     {"id":"252","section":"main","num":"252","printed":"MP22-EN252","name":"Sprite's Blessing","ctype":"spell","keywords":"Ritual Spell","stats":{"t":"Ritual Spell"},"rarity":"UR","img":"37626500","code":"252","tcg":285203,"grp":3101,"idx":253},
     {"id":"253","section":"main","num":"253","printed":"MP22-EN253","name":"Lightning Storm","ctype":"spell","keywords":"Cyclone Normal Spell","stats":{"t":"Normal Spell"},"rarity":"PScR","img":"14532163","code":"253","tcg":285204,"grp":3101,"idx":254},
     {"id":"254","section":"main","num":"254","printed":"MP22-EN254","name":"Forbidden Droplet","ctype":"spell","keywords":"Forbidden Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"PScR","img":"24299458","code":"254","tcg":285206,"grp":3101,"idx":255},
+    {"id":"255","section":"main","num":"255","printed":"MP22-EN255","name":"Ghost Ogre & Snow Rabbit","ctype":"monster","keywords":"Psychic LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Psychic / Tuner","atk":0,"def":1800},"rarity":"PScR","img":"59438930","code":"255","tcg":285207,"grp":3101,"idx":274},
     {"id":"256","section":"main","num":"256","printed":"MP22-EN256","name":"Ghost Reaper & Winter Cherries","ctype":"monster","keywords":"Zombie DARK Tuner Monster","stats":{"a":"DARK","l":"Level 3","t":"Zombie / Tuner","atk":0,"def":1800},"rarity":"SR","img":"62015408","code":"256","tcg":285214,"grp":3101,"idx":256},
     {"id":"257","section":"main","num":"257","printed":"MP22-EN257","name":"Ash Blossom & Joyous Spring","ctype":"monster","keywords":"Zombie FIRE Tuner Monster","stats":{"a":"FIRE","l":"Level 3","t":"Zombie / Tuner","atk":0,"def":1800},"rarity":"PScR","img":"14558127","code":"257","tcg":285217,"grp":3101,"idx":257},
     {"id":"258","section":"main","num":"258","printed":"MP22-EN258","name":"Ghost Belle & Haunted Mansion","ctype":"monster","keywords":"Zombie EARTH Tuner Monster","stats":{"a":"EARTH","l":"Level 3","t":"Zombie / Tuner","atk":0,"def":1800},"rarity":"PScR","img":"73642296","code":"258","tcg":285220,"grp":3101,"idx":258},
     {"id":"259","section":"main","num":"259","printed":"MP22-EN259","name":"Ghost Sister & Spooky Dogwood","ctype":"monster","keywords":"Zombie WATER Tuner Monster","stats":{"a":"WATER","l":"Level 3","t":"Zombie / Tuner","atk":0,"def":1800},"rarity":"SR","img":"60643553","code":"259","tcg":285221,"grp":3101,"idx":259},
+    {"id":"260","section":"main","num":"260","printed":"MP22-EN260","name":"Ghost Mourner & Moonlit Chill","ctype":"monster","keywords":"Zombie WIND Tuner Monster","stats":{"a":"WIND","l":"Level 3","t":"Zombie / Tuner","atk":0,"def":1800},"rarity":"SR","img":"52038441","code":"260","tcg":285222,"grp":3101,"idx":275},
     {"id":"261","section":"main","num":"261","printed":"MP22-EN261","name":"Nibiru, the Primal Being","ctype":"monster","keywords":"Rock LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 11","t":"Rock / Effect","atk":3000,"def":600},"rarity":"UR","img":"27204311","code":"261","tcg":285223,"grp":3101,"idx":260},
     {"id":"262","section":"main","num":"262","printed":"MP22-EN262","name":"Dark Ruler No More","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UR","img":"54693926","code":"262","tcg":285224,"grp":3101,"idx":261},
     {"id":"263","section":"main","num":"263","printed":"MP22-EN263","name":"Dimension Shifter","ctype":"monster","keywords":"Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Spellcaster / Effect","atk":1200,"def":2200},"rarity":"UR","img":"91800273","code":"263","tcg":285225,"grp":3101,"idx":262},
     {"id":"264","section":"main","num":"264","printed":"MP22-EN264","name":"Red-Eyes Dark Dragoon","ctype":"monster","keywords":"Red-Eyes Spellcaster DARK Fusion Monster","stats":{"a":"DARK","l":"Level 8","t":"Spellcaster / Fusion","atk":3000,"def":2500},"rarity":"PScR","img":"37818794","code":"264","tcg":285226,"grp":3101,"idx":263},
     {"id":"265","section":"main","num":"265","printed":"MP22-EN265","name":"Crossout Designator","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"PScR","img":"65681983","code":"265","tcg":285205,"grp":3101,"idx":264},
     {"id":"266","section":"main","num":"266","printed":"MP22-EN266","name":"Blue-Eyes White Dragon","ctype":"monster","keywords":"Blue-Eyes Dragon LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Normal","atk":3000,"def":2500},"rarity":"PScR","img":"89631139","code":"266","tcg":285208,"grp":3101,"idx":265},
+    {"id":"267","section":"main","num":"267","printed":"MP22-EN267","name":"Red-Eyes Black Dragon","ctype":"monster","keywords":"Red-Eyes Dragon DARK Normal Monster","stats":{"a":"DARK","l":"Level 7","t":"Dragon / Normal","atk":2400,"def":2000},"rarity":"PScR","img":"74677422","code":"267","tcg":285209,"grp":3101,"idx":276},
     {"id":"268","section":"main","num":"268","printed":"MP22-EN268","name":"Dark Magician Girl","ctype":"monster","keywords":"Dark Magician Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Spellcaster / Effect","atk":2000,"def":1700},"rarity":"PScR","img":"38033126","code":"268","tcg":285210,"grp":3101,"idx":266},
     {"id":"269","section":"main","num":"269","printed":"MP22-EN269","name":"Duel Tower","ctype":"spell","keywords":"Field Spell","stats":{"t":"Field Spell"},"rarity":"PScR","img":"43940008","code":"269","tcg":285211,"grp":3101,"idx":267},
     {"id":"270","section":"main","num":"270","printed":"MP22-EN270","name":"Rainbow Bridge of Salvation","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"PScR","img":"5611760","code":"270","tcg":285212,"grp":3101,"idx":268},
@@ -341,6 +351,8 @@
     {"id":"272","section":"main","num":"272","printed":"MP22-EN272","name":"Soul Energy MAX!!!","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"UR","img":"79339613","code":"272","tcg":285215,"grp":3101,"idx":270},
     {"id":"273","section":"main","num":"273","printed":"MP22-EN273","name":"The Revived Sky God","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"UR","img":"59094601","code":"273","tcg":285216,"grp":3101,"idx":271},
     {"id":"274","section":"main","num":"274","printed":"MP22-EN274","name":"The Breaking Ruin God","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"UR","img":"85182315","code":"274","tcg":285218,"grp":3101,"idx":272},
-    {"id":"275","section":"main","num":"275","printed":"MP22-EN275","name":"The True Sun God","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"UR","img":"11587414","code":"275","tcg":285219,"grp":3101,"idx":273}
+    {"id":"275","section":"main","num":"275","printed":"MP22-EN275","name":"The True Sun God","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"UR","img":"11587414","code":"275","tcg":285219,"grp":3101,"idx":273},
+    {"id":"066-r","section":"r-r","num":"066","printed":"MP22-EN066","name":"Judge of the Ice Barrier","ctype":"monster","keywords":"Ice Barrier Warrior WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Warrior / Effect","atk":1800,"def":900},"rarity":"R","img":"53535814","badge":"R","variant":"Rare","code":"R66","tcg":284989,"grp":3101,"idx":66},
+    {"id":"081-pscr","section":"r-pscr","num":"081","printed":"MP22-EN081","name":"Ultimate Dragonic Utopia Ray","ctype":"monster","keywords":"Number Warrior LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 5","t":"Warrior / Xyz","atk":2500,"def":2000},"rarity":"PScR","img":"75402014","badge":"PScR","variant":"Prismatic Secret Rare","code":"PSCR81","tcg":285025,"grp":3101,"idx":82}
   ]
 }

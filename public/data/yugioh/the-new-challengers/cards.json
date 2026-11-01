@@ -17,10 +17,21 @@
       "tier": "standard"
     },
     {
-      "id": "rarities",
-      "name": "Other Rarities",
-      "short": "Other Rarities",
-      "range": "6 cards",
+      "id": "r-utr",
+      "name": "Ultimate Rares",
+      "range": "2 cards",
+      "tier": "master"
+    },
+    {
+      "id": "r-scr",
+      "name": "Secret Rares",
+      "range": "3 cards",
+      "tier": "master"
+    },
+    {
+      "id": "r-gr",
+      "name": "Ghost Rares",
+      "range": "1 card",
       "tier": "master"
     }
   ],
@@ -30,8 +41,16 @@
       "Main set"
     ],
     [
-      "rarities",
-      "Other rarities"
+      "r-utr",
+      "Ultimate Rares"
+    ],
+    [
+      "r-scr",
+      "Secret Rares"
+    ],
+    [
+      "r-gr",
+      "Ghost Rares"
     ]
   ],
   "quickAdd": {
@@ -115,20 +134,14 @@
     {"id":"044","section":"main","num":"044","printed":"NECH-EN044","name":"Scrounging Goblin","ctype":"monster","keywords":"Fiend EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Fiend / Effect","atk":1000,"def":2000},"rarity":"SP","img":"12152769","code":"44","tcg":94560,"grp":1493,"idx":44},
     {"id":"045","section":"main","num":"045","printed":"NECH-EN045","name":"Herald of Ultimateness","ctype":"monster","keywords":"Herald Fairy LIGHT Ritual Effect Monster","stats":{"a":"LIGHT","l":"Level 12","t":"Fairy / Ritual / Effect","atk":2000,"def":3000},"rarity":"UR","img":"48546368","code":"45","tcg":94561,"grp":1493,"idx":45},
     {"id":"046","section":"main","num":"046","printed":"NECH-EN046","name":"Frightfur Bear","ctype":"monster","keywords":"Edge Imp Fiend DARK Fusion Monster","stats":{"a":"DARK","l":"Level 6","t":"Fiend / Fusion","atk":2200,"def":1800},"rarity":"R","img":"85545073","code":"46","tcg":94562,"grp":1493,"idx":46},
-    {"id":"046-utr","section":"rarities","num":"046","printed":"NECH-EN046","name":"Frightfur Bear","ctype":"monster","keywords":"Edge Imp Fiend DARK Fusion Monster","stats":{"a":"DARK","l":"Level 6","t":"Fiend / Fusion","atk":2200,"def":1800},"rarity":"UtR","img":"85545073","badge":"UtR","variant":"Ultimate Rare","code":"UTR46","tcg":94563,"grp":1493,"idx":47},
     {"id":"047","section":"main","num":"047","printed":"NECH-EN047","name":"Frightfur Wolf","ctype":"monster","keywords":"Edge Imp Fiend DARK Fusion Monster","stats":{"a":"DARK","l":"Level 6","t":"Fiend / Fusion","atk":2000,"def":1500},"rarity":"R","img":"11039171","code":"47","tcg":94564,"grp":1493,"idx":48},
     {"id":"048","section":"main","num":"048","printed":"NECH-EN048","name":"El Shaddoll Grysta","ctype":"monster","keywords":"Shaddoll Rock FIRE Fusion Monster","stats":{"a":"FIRE","l":"Level 7","t":"Rock / Fusion","atk":2450,"def":1950},"rarity":"ScR","img":"48424886","code":"48","tcg":94565,"grp":1493,"idx":49},
     {"id":"049","section":"main","num":"049","printed":"NECH-EN049","name":"El Shaddoll Shekhinaga","ctype":"monster","keywords":"Shaddoll Machine EARTH Fusion Monster","stats":{"a":"EARTH","l":"Level 10","t":"Machine / Fusion","atk":2600,"def":3000},"rarity":"UtR","img":"74822425","code":"49","tcg":94567,"grp":1493,"idx":50},
-    {"id":"049-scr","section":"rarities","num":"049","printed":"NECH-EN049","name":"El Shaddoll Shekhinaga","ctype":"monster","keywords":"Shaddoll Machine EARTH Fusion Monster","stats":{"a":"EARTH","l":"Level 10","t":"Machine / Fusion","atk":2600,"def":3000},"rarity":"ScR","img":"74822425","badge":"ScR","variant":"Secret Rare","code":"SCR49","tcg":94566,"grp":1493,"idx":51},
     {"id":"050","section":"main","num":"050","printed":"NECH-EN050","name":"First of the Dragons","ctype":"monster","keywords":"Dragon DARK Fusion Monster","stats":{"a":"DARK","l":"Level 9","t":"Dragon / Fusion","atk":2700,"def":2000},"rarity":"SR","img":"10817524","code":"50","tcg":94568,"grp":1493,"idx":52},
     {"id":"051","section":"main","num":"051","printed":"NECH-EN051","name":"Yazi, Evil of the Yang Zing","ctype":"monster","keywords":"Yang Zing Wyrm DARK Synchro Monster","stats":{"a":"DARK","l":"Level 7","t":"Wyrm / Synchro","atk":2600,"def":2100},"rarity":"UtR","img":"43202238","code":"51","tcg":94570,"grp":1493,"idx":53},
-    {"id":"051-scr","section":"rarities","num":"051","printed":"NECH-EN051","name":"Yazi, Evil of the Yang Zing","ctype":"monster","keywords":"Yang Zing Wyrm DARK Synchro Monster","stats":{"a":"DARK","l":"Level 7","t":"Wyrm / Synchro","atk":2600,"def":2100},"rarity":"ScR","img":"43202238","badge":"ScR","variant":"Secret Rare","code":"SCR51","tcg":94569,"grp":1493,"idx":54},
     {"id":"052","section":"main","num":"052","printed":"NECH-EN052","name":"Herald of the Arc Light","ctype":"monster","keywords":"Herald Fairy LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fairy / Synchro","atk":600,"def":1000},"rarity":"SR","img":"79606837","code":"52","tcg":94571,"grp":1493,"idx":55},
     {"id":"053","section":"main","num":"053","printed":"NECH-EN053","name":"Dark Rebellion Xyz Dragon","ctype":"monster","keywords":"Dragon DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 4","t":"Dragon / Xyz","atk":2500,"def":2000},"rarity":"UtR","img":"16195942","code":"53","tcg":94573,"grp":1493,"idx":56},
-    {"id":"053-scr","section":"rarities","num":"053","printed":"NECH-EN053","name":"Dark Rebellion Xyz Dragon","ctype":"monster","keywords":"Dragon DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 4","t":"Dragon / Xyz","atk":2500,"def":2000},"rarity":"ScR","img":"16195942","badge":"ScR","variant":"Secret Rare","code":"SCR53","tcg":94572,"grp":1493,"idx":57},
-    {"id":"053-gr","section":"rarities","num":"053","printed":"NECH-EN053","name":"Dark Rebellion Xyz Dragon","ctype":"monster","keywords":"Dragon DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 4","t":"Dragon / Xyz","atk":2500,"def":2000},"rarity":"GR","img":"16195942","badge":"GR","variant":"Ghost Rare","code":"GR53","tcg":94574,"grp":1493,"idx":58},
     {"id":"054","section":"main","num":"054","printed":"NECH-EN054","name":"Stellarknight Triverr","ctype":"monster","keywords":"Stellarknight Warrior LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 4","t":"Warrior / Xyz","atk":2100,"def":2500},"rarity":"UR","img":"42589641","code":"54","tcg":94575,"grp":1493,"idx":59},
-    {"id":"054-utr","section":"rarities","num":"054","printed":"NECH-EN054","name":"Stellarknight Triverr","ctype":"monster","keywords":"Stellarknight Warrior LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 4","t":"Warrior / Xyz","atk":2100,"def":2500},"rarity":"UtR","img":"42589641","badge":"UtR","variant":"Ultimate Rare","code":"UTR54","tcg":94576,"grp":1493,"idx":60},
     {"id":"055","section":"main","num":"055","printed":"NECH-EN055","name":"Wonder Balloons","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"78574395","code":"55","tcg":94577,"grp":1493,"idx":61},
     {"id":"056","section":"main","num":"056","printed":"NECH-EN056","name":"Mimiclay","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"5972394","code":"56","tcg":94578,"grp":1493,"idx":62},
     {"id":"057","section":"main","num":"057","printed":"NECH-EN057","name":"Draw Muscle","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"R","img":"41367003","code":"57","tcg":94579,"grp":1493,"idx":63},
@@ -173,6 +186,12 @@
     {"id":"096","section":"main","num":"096","printed":"NECH-EN096","name":"CXyz Barian Hope","ctype":"monster","keywords":"CXyz Warrior LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 7","t":"Warrior / Xyz","atk":0,"def":0},"rarity":"SR","img":"67926903","code":"96","tcg":94618,"grp":1493,"idx":102},
     {"id":"097","section":"main","num":"097","printed":"NECH-EN097","name":"Shogi Lance","ctype":"monster","keywords":"Beast-Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Beast-Warrior / Effect","atk":500,"def":500},"rarity":"C","img":"32476434","code":"97","tcg":94619,"grp":1493,"idx":103},
     {"id":"098","section":"main","num":"098","printed":"NECH-EN098","name":"Guiding Light","ctype":"monster","keywords":"Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Fairy / Effect","atk":0,"def":0},"rarity":"C","img":"69865139","code":"98","tcg":94620,"grp":1493,"idx":104},
-    {"id":"099","section":"main","num":"099","printed":"NECH-EN099","name":"Number 99: Utopic Dragon","ctype":"monster","keywords":"Utopia Dragon LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 10","t":"Dragon / Xyz","atk":4000,"def":2000},"rarity":"ScR","img":"51543904","code":"99","tcg":94621,"grp":1493,"idx":105}
+    {"id":"099","section":"main","num":"099","printed":"NECH-EN099","name":"Number 99: Utopic Dragon","ctype":"monster","keywords":"Utopia Dragon LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 10","t":"Dragon / Xyz","atk":4000,"def":2000},"rarity":"ScR","img":"51543904","code":"99","tcg":94621,"grp":1493,"idx":105},
+    {"id":"046-utr","section":"r-utr","num":"046","printed":"NECH-EN046","name":"Frightfur Bear","ctype":"monster","keywords":"Edge Imp Fiend DARK Fusion Monster","stats":{"a":"DARK","l":"Level 6","t":"Fiend / Fusion","atk":2200,"def":1800},"rarity":"UtR","img":"85545073","badge":"UtR","variant":"Ultimate Rare","code":"UTR46","tcg":94563,"grp":1493,"idx":47},
+    {"id":"054-utr","section":"r-utr","num":"054","printed":"NECH-EN054","name":"Stellarknight Triverr","ctype":"monster","keywords":"Stellarknight Warrior LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 4","t":"Warrior / Xyz","atk":2100,"def":2500},"rarity":"UtR","img":"42589641","badge":"UtR","variant":"Ultimate Rare","code":"UTR54","tcg":94576,"grp":1493,"idx":60},
+    {"id":"049-scr","section":"r-scr","num":"049","printed":"NECH-EN049","name":"El Shaddoll Shekhinaga","ctype":"monster","keywords":"Shaddoll Machine EARTH Fusion Monster","stats":{"a":"EARTH","l":"Level 10","t":"Machine / Fusion","atk":2600,"def":3000},"rarity":"ScR","img":"74822425","badge":"ScR","variant":"Secret Rare","code":"SCR49","tcg":94566,"grp":1493,"idx":51},
+    {"id":"051-scr","section":"r-scr","num":"051","printed":"NECH-EN051","name":"Yazi, Evil of the Yang Zing","ctype":"monster","keywords":"Yang Zing Wyrm DARK Synchro Monster","stats":{"a":"DARK","l":"Level 7","t":"Wyrm / Synchro","atk":2600,"def":2100},"rarity":"ScR","img":"43202238","badge":"ScR","variant":"Secret Rare","code":"SCR51","tcg":94569,"grp":1493,"idx":54},
+    {"id":"053-scr","section":"r-scr","num":"053","printed":"NECH-EN053","name":"Dark Rebellion Xyz Dragon","ctype":"monster","keywords":"Dragon DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 4","t":"Dragon / Xyz","atk":2500,"def":2000},"rarity":"ScR","img":"16195942","badge":"ScR","variant":"Secret Rare","code":"SCR53","tcg":94572,"grp":1493,"idx":57},
+    {"id":"053-gr","section":"r-gr","num":"053","printed":"NECH-EN053","name":"Dark Rebellion Xyz Dragon","ctype":"monster","keywords":"Dragon DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 4","t":"Dragon / Xyz","atk":2500,"def":2000},"rarity":"GR","img":"16195942","badge":"GR","variant":"Ghost Rare","code":"GR53","tcg":94574,"grp":1493,"idx":58}
   ]
 }

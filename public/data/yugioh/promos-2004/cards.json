@@ -17,9 +17,8 @@
       "tier": "standard"
     },
     {
-      "id": "rarities",
-      "name": "Other Rarities",
-      "short": "Other Rarities",
+      "id": "r-pscr",
+      "name": "Prismatic Secret Rares",
       "range": "2 cards",
       "tier": "master"
     }
@@ -30,8 +29,8 @@
       "Main set"
     ],
     [
-      "rarities",
-      "Other rarities"
+      "r-pscr",
+      "Prismatic Secret Rares"
     ]
   ],
   "quickAdd": {
@@ -108,9 +107,7 @@
     {"id":"DL6-001","section":"main","num":"DL6-EN001","printed":"DL6-EN001","name":"Toon Gemini Elf","ctype":"monster","keywords":"Toon Spellcaster EARTH Monster","stats":{"a":"EARTH","l":"Level 4","t":"Spellcaster / Toon","atk":1900,"def":900},"note":"Duelist League Series 6 participation card","rarity":"SR","img":"42386471","code":"7","tcg":25393,"grp":182,"idx":6},
     {"id":"DOD-001","section":"main","num":"DOD-EN001","printed":"DOD-EN001","name":"Mesmeric Control","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"note":"Yu-Gi-Oh! The Dawn of Destiny promotional cards","rarity":"SR","img":"48642904","code":"8","tcg":123750,"grp":175,"idx":7},
     {"id":"DOD-002","section":"main","num":"DOD-002","printed":"DOD-002","name":"Dark Sage","ctype":"monster","keywords":"Dark Magician Spellcaster DARK Effect Monster DOD-EN002","stats":{"a":"DARK","l":"Level 9","t":"Spellcaster / Effect","atk":2800,"def":3200},"note":"Yu-Gi-Oh! The Dawn of Destiny promotional cards","rarity":"SR","img":"92377303","code":"9","tcg":214602,"grp":175,"idx":8},
-    {"id":"DOD-002-pscr","section":"rarities","num":"DOD-002","printed":"DOD-002","name":"Dark Sage","ctype":"monster","keywords":"Dark Magician Spellcaster DARK Effect Monster DOD-EN002","stats":{"a":"DARK","l":"Level 9","t":"Spellcaster / Effect","atk":2800,"def":3200},"note":"Yu-Gi-Oh! The Dawn of Destiny promotional cards","rarity":"PScR","img":"92377303","badge":"PScR","variant":"Prismatic Secret Rare","code":"PSCR9","tcg":23200,"grp":175,"idx":9},
     {"id":"DOD-003","section":"main","num":"DOD-003","printed":"DOD-003","name":"Widespread Ruin","ctype":"trap","keywords":"Normal Trap DOD-EN003","stats":{"t":"Normal Trap"},"note":"Yu-Gi-Oh! The Dawn of Destiny promotional cards","rarity":"SR","img":"77754944","code":"10","tcg":214603,"grp":175,"idx":10},
-    {"id":"DOD-003-pscr","section":"rarities","num":"DOD-003","printed":"DOD-003","name":"Widespread Ruin","ctype":"trap","keywords":"Normal Trap DOD-EN003","stats":{"t":"Normal Trap"},"note":"Yu-Gi-Oh! The Dawn of Destiny promotional cards","rarity":"PScR","img":"77754944","badge":"PScR","variant":"Prismatic Secret Rare","code":"PSCR10","tcg":23201,"grp":175,"idx":11},
     {"id":"EM1-001","section":"main","num":"EM1-EN001","printed":"EM1-EN001","name":"Machine King","ctype":"monster","keywords":"Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 6","t":"Machine / Effect","atk":2200,"def":2000},"note":"Yu-Gi-Oh! Trading Card Game Tour 2004 promotional card","rarity":"UR","img":"46700124","code":"11","tcg":223736,"grp":2718,"idx":12},
     {"id":"EP1-000","section":"main","num":"EP1-EN000","printed":"EP1-EN000","name":"Card of Sanctity","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"note":"Kids WB Duel of Destiny promotional card","rarity":"C","img":"42664989","code":"12","tcg":26600,"grp":357,"idx":13},
     {"id":"HL1-001","section":"main","num":"HL1-EN001","printed":"HL1-EN001","name":"Lord of the Lamp","ctype":"monster","keywords":"Fiend DARK Normal Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Normal","atk":1400,"def":1200},"note":"Hobby League 1 participation cards A","rarity":"C","img":"99510761","code":"13","tcg":25383,"grp":232,"idx":14},
@@ -145,6 +142,8 @@
     {"id":"WC4-E003","section":"main","num":"WC4-E003","printed":"WC4-E003","name":"Harpie's Feather Duster","ctype":"spell","keywords":"Harpie Normal Spell","stats":{"t":"Normal Spell"},"note":"Yu-Gi-Oh! World Championship Tournament 2004 promotional cards","rarity":"PScR","img":"18144507","code":"42","tcg":210910,"grp":345,"idx":43},
     {"id":"WCS-401","section":"main","num":"WCS-EN401","printed":"WCS-EN401","name":"Ulevo","ctype":"monster","keywords":"Winged Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 10","t":"Winged Beast / Effect","atk":3000,"def":2500},"note":"Yu-Gi-Oh! World Championship 2004 prize cards","rarity":"UR","img":"501000000","code":"43","idx":44},
     {"id":"WCS-402","section":"main","num":"WCS-EN402","printed":"WCS-EN402","name":"Meteo the Matchless","ctype":"monster","keywords":"Beast-Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Beast-Warrior / Effect","atk":2400,"def":2000},"note":"Yu-Gi-Oh! World Championship 2004 prize cards","rarity":"UR","img":"501000001","code":"44","idx":45},
-    {"id":"WCS-403","section":"main","num":"WCS-EN403","printed":"WCS-EN403","name":"Sengenjin","ctype":"monster","keywords":"Beast-Warrior EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 8","t":"Beast-Warrior / Normal","atk":2750,"def":2500},"note":"Yu-Gi-Oh! World Championship 2004 prize cards","rarity":"SR","img":"76232340","code":"45","tcg":25352,"grp":351,"idx":46}
+    {"id":"WCS-403","section":"main","num":"WCS-EN403","printed":"WCS-EN403","name":"Sengenjin","ctype":"monster","keywords":"Beast-Warrior EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 8","t":"Beast-Warrior / Normal","atk":2750,"def":2500},"note":"Yu-Gi-Oh! World Championship 2004 prize cards","rarity":"SR","img":"76232340","code":"45","tcg":25352,"grp":351,"idx":46},
+    {"id":"DOD-002-pscr","section":"r-pscr","num":"DOD-002","printed":"DOD-002","name":"Dark Sage","ctype":"monster","keywords":"Dark Magician Spellcaster DARK Effect Monster DOD-EN002","stats":{"a":"DARK","l":"Level 9","t":"Spellcaster / Effect","atk":2800,"def":3200},"note":"Yu-Gi-Oh! The Dawn of Destiny promotional cards","rarity":"PScR","img":"92377303","badge":"PScR","variant":"Prismatic Secret Rare","code":"PSCR9","tcg":23200,"grp":175,"idx":9},
+    {"id":"DOD-003-pscr","section":"r-pscr","num":"DOD-003","printed":"DOD-003","name":"Widespread Ruin","ctype":"trap","keywords":"Normal Trap DOD-EN003","stats":{"t":"Normal Trap"},"note":"Yu-Gi-Oh! The Dawn of Destiny promotional cards","rarity":"PScR","img":"77754944","badge":"PScR","variant":"Prismatic Secret Rare","code":"PSCR10","tcg":23201,"grp":175,"idx":11}
   ]
 }

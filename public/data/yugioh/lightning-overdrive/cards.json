@@ -17,9 +17,8 @@
       "tier": "standard"
     },
     {
-      "id": "rarities",
-      "name": "Other Rarities",
-      "short": "Other Rarities",
+      "id": "r-str",
+      "name": "Starlight Rares",
       "range": "4 cards",
       "tier": "master"
     }
@@ -30,8 +29,8 @@
       "Main set"
     ],
     [
-      "rarities",
-      "Other rarities"
+      "r-str",
+      "Starlight Rares"
     ]
   ],
   "quickAdd": {
@@ -86,14 +85,12 @@
     {"id":"015","section":"main","num":"015","printed":"LIOV-EN015","name":"S-Force Edge Razor","ctype":"monster","keywords":"S-Force Cyberse DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Cyberse / Effect","atk":1500,"def":1300},"rarity":"SR","img":"91864689","code":"15","tcg":239469,"grp":2779,"idx":15},
     {"id":"016","section":"main","num":"016","printed":"LIOV-EN016","name":"Traptrix Vesiculo","ctype":"monster","keywords":"Traptrix Plant EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Plant / Effect","atk":1400,"def":1400},"rarity":"UR","img":"28868394","code":"16","tcg":239470,"grp":2779,"idx":16},
     {"id":"017","section":"main","num":"017","printed":"LIOV-EN017","name":"Live☆Twin Ki-sikil Frost","ctype":"monster","keywords":"Ki-sikil Aqua LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 2","t":"Aqua / Effect","atk":500,"def":0},"rarity":"UR","img":"54257392","code":"17","tcg":239471,"grp":2779,"idx":17},
-    {"id":"017-str","section":"rarities","num":"017","printed":"LIOV-EN017","name":"Live☆Twin Ki-sikil Frost","ctype":"monster","keywords":"Ki-sikil Aqua LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 2","t":"Aqua / Effect","atk":500,"def":0},"rarity":"StR","img":"54257392","badge":"StR","variant":"Starlight Rare","code":"STR17","tcg":240475,"grp":2779,"idx":18},
     {"id":"018","section":"main","num":"018","printed":"LIOV-EN018","name":"Blackeyes, the Plunder Patroll Seaguide","ctype":"monster","keywords":"Plunder Patroll Fiend WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Fiend / Effect","atk":1000,"def":1000},"rarity":"C","img":"91642007","code":"18","tcg":239472,"grp":2779,"idx":19},
     {"id":"019","section":"main","num":"019","printed":"LIOV-EN019","name":"Starry Knight Ciel","ctype":"monster","keywords":"Starry Knight Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fairy / Effect","atk":1700,"def":800},"rarity":"C","img":"27036706","code":"19","tcg":239473,"grp":2779,"idx":20},
     {"id":"020","section":"main","num":"020","printed":"LIOV-EN020","name":"Judge of the Ice Barrier","ctype":"monster","keywords":"Ice Barrier Warrior WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Warrior / Effect","atk":1800,"def":900},"rarity":"C","img":"53535814","code":"20","tcg":239474,"grp":2779,"idx":21},
     {"id":"021","section":"main","num":"021","printed":"LIOV-EN021","name":"Scrap Raptor","ctype":"monster","keywords":"Scrap Dinosaur EARTH Tuner Monster","stats":{"a":"EARTH","l":"Level 4","t":"Dinosaur / Tuner","atk":1400,"def":1000},"rarity":"C","img":"80529459","code":"21","tcg":239475,"grp":2779,"idx":22},
     {"id":"022","section":"main","num":"022","printed":"LIOV-EN022","name":"Dark Honest","ctype":"monster","keywords":"Fairy DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fairy / Effect","atk":1100,"def":1900},"rarity":"ScR","img":"26914168","code":"22","tcg":239476,"grp":2779,"idx":23},
     {"id":"023","section":"main","num":"023","printed":"LIOV-EN023","name":"Bahalutiya, the Grand Radiance","ctype":"monster","keywords":"Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 7","t":"Dragon / Effect","atk":2000,"def":2400},"rarity":"ScR","img":"53318263","code":"23","tcg":239477,"grp":2779,"idx":24},
-    {"id":"023-str","section":"rarities","num":"023","printed":"LIOV-EN023","name":"Bahalutiya, the Grand Radiance","ctype":"monster","keywords":"Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 7","t":"Dragon / Effect","atk":2000,"def":2400},"rarity":"StR","img":"53318263","badge":"StR","variant":"Starlight Rare","code":"STR23","tcg":240474,"grp":2779,"idx":25},
     {"id":"024","section":"main","num":"024","printed":"LIOV-EN024","name":"Pharaonic Guardian Sphinx","ctype":"monster","keywords":"Sphinx Rock EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 8","t":"Rock / Effect","atk":2300,"def":3000},"rarity":"C","img":"89707961","code":"24","tcg":239478,"grp":2779,"idx":26},
     {"id":"025","section":"main","num":"025","printed":"LIOV-EN025","name":"Sky Scourge Cidhels","ctype":"monster","keywords":"Sky Scourge Fiend EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 6","t":"Fiend / Effect","atk":2200,"def":1600},"rarity":"C","img":"15792576","code":"25","tcg":239479,"grp":2779,"idx":27},
     {"id":"026","section":"main","num":"026","printed":"LIOV-EN026","name":"Anchamoufrite","ctype":"monster","keywords":"Spellcaster LIGHT Pendulum Effect Monster","stats":{"a":"LIGHT","l":"Level 5","t":"Spellcaster / Pendulum / Effect","atk":1800,"def":0},"rarity":"C","img":"52296675","code":"26","tcg":239480,"grp":2779,"idx":28},
@@ -120,7 +117,6 @@
     {"id":"047","section":"main","num":"047","printed":"LIOV-EN047","name":"Paleozoic Cambroraster","ctype":"monster","keywords":"Paleozoic Aqua WATER Link Monster","stats":{"a":"WATER","l":"Link 2","t":"Aqua / Link","atk":1200},"rarity":"C","img":"36346532","code":"47","tcg":239511,"grp":2779,"idx":49},
     {"id":"048","section":"main","num":"048","printed":"LIOV-EN048","name":"Benghalancer the Resurgent","ctype":"monster","keywords":"Plant LIGHT Link Monster","stats":{"a":"LIGHT","l":"Link 4","t":"Plant / Link","atk":2500},"rarity":"ScR","img":"73345237","code":"48","tcg":239512,"grp":2779,"idx":50},
     {"id":"049","section":"main","num":"049","printed":"LIOV-EN049","name":"Lyna the Light Charmer, Lustrous","ctype":"monster","keywords":"Charmer Spellcaster LIGHT Link Monster","stats":{"a":"LIGHT","l":"Link 2","t":"Spellcaster / Link","atk":1850},"rarity":"SR","img":"9839945","code":"49","tcg":239513,"grp":2779,"idx":51},
-    {"id":"049-str","section":"rarities","num":"049","printed":"LIOV-EN049","name":"Lyna the Light Charmer, Lustrous","ctype":"monster","keywords":"Charmer Spellcaster LIGHT Link Monster","stats":{"a":"LIGHT","l":"Link 2","t":"Spellcaster / Link","atk":1850},"rarity":"StR","img":"9839945","badge":"StR","variant":"Starlight Rare","code":"STR49","tcg":239514,"grp":2779,"idx":52},
     {"id":"050","section":"main","num":"050","printed":"LIOV-EN050","name":"Rank-Up-Magic Zexal Force","ctype":"spell","keywords":"Rank-Up-Magic Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"36224040","code":"50","tcg":239515,"grp":2779,"idx":53},
     {"id":"051","section":"main","num":"051","printed":"LIOV-EN051","name":"Zexal Construction","ctype":"spell","keywords":"Zexal Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"62623659","code":"51","tcg":239516,"grp":2779,"idx":54},
     {"id":"052","section":"main","num":"052","printed":"LIOV-EN052","name":"Zexal Entrust","ctype":"spell","keywords":"Zexal Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"4017398","code":"52","tcg":239517,"grp":2779,"idx":55},
@@ -136,7 +132,6 @@
     {"id":"062","section":"main","num":"062","printed":"LIOV-EN062","name":"Bujincandescence","ctype":"spell","keywords":"Bujin Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"68045685","code":"62","tcg":239528,"grp":2779,"idx":65},
     {"id":"063","section":"main","num":"063","printed":"LIOV-EN063","name":"Birth of the Prominence Flame","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"5439384","code":"63","tcg":239529,"grp":2779,"idx":66},
     {"id":"064","section":"main","num":"064","printed":"LIOV-EN064","name":"Book of Lunar Eclipse","ctype":"spell","keywords":"Book of Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"ScR","img":"31834488","code":"64","tcg":239530,"grp":2779,"idx":67},
-    {"id":"064-str","section":"rarities","num":"064","printed":"LIOV-EN064","name":"Book of Lunar Eclipse","ctype":"spell","keywords":"Book of Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"StR","img":"31834488","badge":"StR","variant":"Starlight Rare","code":"STR64","tcg":240473,"grp":2779,"idx":68},
     {"id":"065","section":"main","num":"065","printed":"LIOV-EN065","name":"One-Kuri-Way","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"68223137","code":"65","tcg":239531,"grp":2779,"idx":69},
     {"id":"066","section":"main","num":"066","printed":"LIOV-EN066","name":"Hidden Springs of the Far East","ctype":"spell","keywords":"Field Spell","stats":{"t":"Field Spell"},"rarity":"C","img":"94317736","code":"66","tcg":239532,"grp":2779,"idx":70},
     {"id":"067","section":"main","num":"067","printed":"LIOV-EN067","name":"Zexal Alliance","ctype":"trap","keywords":"Zexal Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"31712840","code":"67","tcg":239533,"grp":2779,"idx":71},
@@ -172,6 +167,10 @@
     {"id":"097","section":"main","num":"097","printed":"LIOV-EN097","name":"Sunavalon Daphne","ctype":"monster","keywords":"Sunavalon Plant EARTH Link Monster","stats":{"a":"EARTH","l":"Link 2","t":"Plant / Link","atk":0},"rarity":"C","img":"7984540","code":"97","tcg":239578,"grp":2779,"idx":101},
     {"id":"098","section":"main","num":"098","printed":"LIOV-EN098","name":"Sunavalon Melias","ctype":"monster","keywords":"Sunavalon Plant EARTH Link Monster","stats":{"a":"EARTH","l":"Link 3","t":"Plant / Link","atk":0},"rarity":"SR","img":"44478599","code":"98","tcg":239553,"grp":2779,"idx":102},
     {"id":"099","section":"main","num":"099","printed":"LIOV-EN099","name":"Sunvine Cross Breed","ctype":"spell","keywords":"Sunvine Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"70473293","code":"99","tcg":239549,"grp":2779,"idx":103},
-    {"id":"100","section":"main","num":"100","printed":"LIOV-EN100","name":"Black Rose Dragon","ctype":"monster","keywords":"Rose Dragon Dragon FIRE Synchro Monster","stats":{"a":"FIRE","l":"Level 7","t":"Dragon / Synchro","atk":2400,"def":1800},"rarity":"StR","img":"73580471","code":"100","tcg":239543,"grp":2779,"idx":104}
+    {"id":"100","section":"main","num":"100","printed":"LIOV-EN100","name":"Black Rose Dragon","ctype":"monster","keywords":"Rose Dragon Dragon FIRE Synchro Monster","stats":{"a":"FIRE","l":"Level 7","t":"Dragon / Synchro","atk":2400,"def":1800},"rarity":"StR","img":"73580471","code":"100","tcg":239543,"grp":2779,"idx":104},
+    {"id":"017-str","section":"r-str","num":"017","printed":"LIOV-EN017","name":"Live☆Twin Ki-sikil Frost","ctype":"monster","keywords":"Ki-sikil Aqua LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 2","t":"Aqua / Effect","atk":500,"def":0},"rarity":"StR","img":"54257392","badge":"StR","variant":"Starlight Rare","code":"STR17","tcg":240475,"grp":2779,"idx":18},
+    {"id":"023-str","section":"r-str","num":"023","printed":"LIOV-EN023","name":"Bahalutiya, the Grand Radiance","ctype":"monster","keywords":"Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 7","t":"Dragon / Effect","atk":2000,"def":2400},"rarity":"StR","img":"53318263","badge":"StR","variant":"Starlight Rare","code":"STR23","tcg":240474,"grp":2779,"idx":25},
+    {"id":"049-str","section":"r-str","num":"049","printed":"LIOV-EN049","name":"Lyna the Light Charmer, Lustrous","ctype":"monster","keywords":"Charmer Spellcaster LIGHT Link Monster","stats":{"a":"LIGHT","l":"Link 2","t":"Spellcaster / Link","atk":1850},"rarity":"StR","img":"9839945","badge":"StR","variant":"Starlight Rare","code":"STR49","tcg":239514,"grp":2779,"idx":52},
+    {"id":"064-str","section":"r-str","num":"064","printed":"LIOV-EN064","name":"Book of Lunar Eclipse","ctype":"spell","keywords":"Book of Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"StR","img":"31834488","badge":"StR","variant":"Starlight Rare","code":"STR64","tcg":240473,"grp":2779,"idx":68}
   ]
 }

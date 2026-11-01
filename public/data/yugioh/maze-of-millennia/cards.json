@@ -17,10 +17,15 @@
       "tier": "standard"
     },
     {
-      "id": "rarities",
-      "name": "Other Rarities",
-      "short": "Other Rarities",
-      "range": "6 cards",
+      "id": "r-r",
+      "name": "Rares",
+      "range": "1 card",
+      "tier": "master"
+    },
+    {
+      "id": "r-cr",
+      "name": "Collector’s Rares",
+      "range": "16 cards",
       "tier": "master"
     }
   ],
@@ -30,8 +35,12 @@
       "Main set"
     ],
     [
-      "rarities",
-      "Other rarities"
+      "r-r",
+      "Rares"
+    ],
+    [
+      "r-cr",
+      "Collector’s Rares"
     ]
   ],
   "quickAdd": {
@@ -41,20 +50,20 @@
     "empty": "Cards run from MZMI-EN000 to MZMI-EN084."
   },
   "help": {
-    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 85 cards, each in its main rarity. Master adds the 6 other rarities. Cards you’ve marked are kept when you switch."
+    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 85 cards, each in its main rarity. Master adds the 17 other rarities. Cards you’ve marked are kept when you switch."
   },
   "seo": {
     "title": "Yu-Gi-Oh! Maze of Millennia Checklist · All 85 Cards",
     "description": "Free Yu-Gi-Oh! Maze of Millennia checklist with no ads, no sign-up and no tracking. Track all 85 cards, or every rarity for a master set, with images, copy counts, binder pages and prices.",
     "ogTitle": "Yu-Gi-Oh! Maze of Millennia Checklist",
-    "ogDescription": "Track all 85 cards in Yu-Gi-Oh! Maze of Millennia, plus 6 other rarities. Free, with no ads, no sign-up and no tracking.",
+    "ogDescription": "Track all 85 cards in Yu-Gi-Oh! Maze of Millennia, plus 17 other rarities. Free, with no ads, no sign-up and no tracking.",
     "twitterDescription": "Track all 85 cards in Yu-Gi-Oh! Maze of Millennia. Free, with no ads, no sign-up and no tracking."
   },
   "about": {
     "title": "About the Maze of Millennia set",
     "paragraphs": [
-      "Maze of Millennia is a Yu-Gi-Oh! TCG booster set released on 18 January 2024, in the SEVENS &amp; GO RUSH!! era. It has 85 cards, and with the 6 other rarities there are 91 to collect in all.",
-      "Choose what you’re collecting: the <b>Standard set</b> (the 85 cards, each in its main rarity) or the <b>Master set</b> (all 91, adding the 6 other rarities).",
+      "Maze of Millennia is a Yu-Gi-Oh! TCG booster set released on 18 January 2024, in the SEVENS &amp; GO RUSH!! era. It has 85 cards, and with the 17 other rarities there are 102 to collect in all.",
+      "Choose what you’re collecting: the <b>Standard set</b> (the 85 cards, each in its main rarity) or the <b>Master set</b> (all 102, adding the 17 other rarities).",
       "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
       "Card details and images come from YGOPRODeck, and prices from TCGplayer."
     ]
@@ -91,7 +100,6 @@
     {"id":"020","section":"main","num":"020","printed":"MZMI-EN020","name":"Triangle O","ctype":"spell","keywords":"Ancient Treasure Normal Spell","stats":{"t":"Normal Spell"},"rarity":"R","img":"11489642","code":"20","tcg":532236,"grp":23315,"idx":20},
     {"id":"021","section":"main","num":"021","printed":"MZMI-EN021","name":"Totem Pole","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"R","img":"47873397","code":"21","tcg":532237,"grp":23315,"idx":21},
     {"id":"022","section":"main","num":"022","printed":"MZMI-EN022","name":"Earthbound Release","ctype":"trap","keywords":"Earthbound Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"84262395","code":"22","tcg":532238,"grp":23315,"idx":22},
-    {"id":"022-r","section":"rarities","num":"022","printed":"MZMI-EN022","name":"Earthbound Release","ctype":"trap","keywords":"Earthbound Normal Trap","stats":{"t":"Normal Trap"},"rarity":"R","img":"84262395","badge":"R","variant":"Rare","code":"R22","tcg":532238,"grp":23315,"idx":23},
     {"id":"023","section":"main","num":"023","printed":"MZMI-EN023","name":"Number 1: Infection Buzzking","ctype":"monster","keywords":"Number Fiend DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 8","t":"Fiend / Xyz","atk":3000,"def":2500},"rarity":"UR","img":"10666000","code":"23","tcg":532239,"grp":23315,"idx":24},
     {"id":"024","section":"main","num":"024","printed":"MZMI-EN024","name":"Photon Delta Wing","ctype":"monster","keywords":"Photon Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Machine / Effect","atk":1800,"def":900},"rarity":"UR","img":"47051709","code":"24","tcg":532241,"grp":23315,"idx":25},
     {"id":"025","section":"main","num":"025","printed":"MZMI-EN025","name":"Armored Xyz","ctype":"spell","keywords":"Xyz Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"73046708","code":"25","tcg":532242,"grp":23315,"idx":26},
@@ -110,12 +118,10 @@
     {"id":"038","section":"main","num":"038","printed":"MZMI-EN038","name":"Transaction Rollback","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"UR","img":"6351147","code":"38","tcg":532267,"grp":23315,"idx":39},
     {"id":"039","section":"main","num":"039","printed":"MZMI-EN039","name":"Code Hack","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"R","img":"33750856","code":"39","tcg":532271,"grp":23315,"idx":40},
     {"id":"040","section":"main","num":"040","printed":"MZMI-EN040","name":"Chimera the Flying Mythical Beast","ctype":"monster","keywords":"Beast WIND Fusion Monster","stats":{"a":"WIND","l":"Level 6","t":"Beast / Fusion","atk":2100,"def":1800},"rarity":"R","img":"4796100","code":"40","tcg":532272,"grp":23315,"idx":41},
-    {"id":"040-cr","section":"rarities","num":"040","printed":"MZMI-EN040","name":"Chimera the Flying Mythical Beast","ctype":"monster","keywords":"Beast WIND Fusion Monster","stats":{"a":"WIND","l":"Level 6","t":"Beast / Fusion","atk":2100,"def":1800},"rarity":"CR","img":"4796100","badge":"CR","variant":"Collector’s Rare","code":"CR40","tcg":532855,"grp":23315,"idx":42},
     {"id":"041","section":"main","num":"041","printed":"MZMI-EN041","name":"Gazelle the King of Mythical Beasts","ctype":"monster","keywords":"Beast EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 4","t":"Beast / Normal","atk":1500,"def":1200},"rarity":"R","img":"5818798","code":"41","tcg":532273,"grp":23315,"idx":43},
     {"id":"042","section":"main","num":"042","printed":"MZMI-EN042","name":"Berfomet","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 5","t":"Fiend / Effect","atk":1400,"def":1800},"rarity":"R","img":"77207191","code":"42","tcg":532274,"grp":23315,"idx":44},
     {"id":"043","section":"main","num":"043","printed":"MZMI-EN043","name":"Doppelwarrior","ctype":"monster","keywords":"Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 2","t":"Warrior / Effect","atk":800,"def":800},"rarity":"R","img":"53855409","code":"43","tcg":532275,"grp":23315,"idx":45},
     {"id":"044","section":"main","num":"044","printed":"MZMI-EN044","name":"Jet Synchron","ctype":"monster","keywords":"Junk Machine FIRE Tuner Monster","stats":{"a":"FIRE","l":"Level 1","t":"Machine / Tuner","atk":500,"def":0},"rarity":"R","img":"9742784","code":"44","tcg":532276,"grp":23315,"idx":46},
-    {"id":"044-cr","section":"rarities","num":"044","printed":"MZMI-EN044","name":"Jet Synchron","ctype":"monster","keywords":"Junk Machine FIRE Tuner Monster","stats":{"a":"FIRE","l":"Level 1","t":"Machine / Tuner","atk":500,"def":0},"rarity":"CR","img":"9742784","badge":"CR","variant":"Collector’s Rare","code":"CR44","tcg":532277,"grp":23315,"idx":47},
     {"id":"045","section":"main","num":"045","printed":"MZMI-EN045","name":"Satellite Synchron","ctype":"monster","keywords":"Synchron Machine DARK Tuner Monster","stats":{"a":"DARK","l":"Level 2","t":"Machine / Tuner","atk":700,"def":100},"rarity":"R","img":"57458399","code":"45","tcg":532279,"grp":23315,"idx":48},
     {"id":"046","section":"main","num":"046","printed":"MZMI-EN046","name":"De-Synchro","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"R","img":"32441317","code":"46","tcg":532281,"grp":23315,"idx":49},
     {"id":"047","section":"main","num":"047","printed":"MZMI-EN047","name":"Synchro Chase","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"R","img":"23442438","code":"47","tcg":532283,"grp":23315,"idx":50},
@@ -137,16 +143,13 @@
     {"id":"063","section":"main","num":"063","printed":"MZMI-EN063","name":"Altergeist Silquitous","ctype":"monster","keywords":"Altergeist Spellcaster WIND Effect Monster","stats":{"a":"WIND","l":"Level 2","t":"Spellcaster / Effect","atk":800,"def":1500},"rarity":"R","img":"89538537","code":"63","tcg":532339,"grp":23315,"idx":66},
     {"id":"064","section":"main","num":"064","printed":"MZMI-EN064","name":"Altergeist Meluseek","ctype":"monster","keywords":"Altergeist Spellcaster WATER Effect Monster","stats":{"a":"WATER","l":"Level 1","t":"Spellcaster / Effect","atk":500,"def":300},"rarity":"R","img":"25533642","code":"64","tcg":532341,"grp":23315,"idx":67},
     {"id":"065","section":"main","num":"065","printed":"MZMI-EN065","name":"Altergeist Multifaker","ctype":"monster","keywords":"Altergeist Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Spellcaster / Effect","atk":1200,"def":800},"rarity":"R","img":"42790071","code":"65","tcg":532343,"grp":23315,"idx":68},
-    {"id":"065-cr","section":"rarities","num":"065","printed":"MZMI-EN065","name":"Altergeist Multifaker","ctype":"monster","keywords":"Altergeist Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Spellcaster / Effect","atk":1200,"def":800},"rarity":"CR","img":"42790071","badge":"CR","variant":"Collector’s Rare","code":"CR65","tcg":532856,"grp":23315,"idx":69},
     {"id":"066","section":"main","num":"066","printed":"MZMI-EN066","name":"Altergeist Hexstia","ctype":"monster","keywords":"Altergeist Spellcaster FIRE Link Monster","stats":{"a":"FIRE","l":"Link 2","t":"Spellcaster / Link","atk":1500},"rarity":"R","img":"1508649","code":"66","tcg":532347,"grp":23315,"idx":70},
     {"id":"067","section":"main","num":"067","printed":"MZMI-EN067","name":"Altergeist Primebanshee","ctype":"monster","keywords":"Altergeist Spellcaster DARK Link Monster","stats":{"a":"DARK","l":"Link 3","t":"Spellcaster / Link","atk":2100},"rarity":"R","img":"93503294","code":"67","tcg":532349,"grp":23315,"idx":71},
     {"id":"068","section":"main","num":"068","printed":"MZMI-EN068","name":"Altergeist Protocol","ctype":"trap","keywords":"Altergeist Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"R","img":"27541563","code":"68","tcg":532352,"grp":23315,"idx":72},
     {"id":"069","section":"main","num":"069","printed":"MZMI-EN069","name":"Ancient Chant","ctype":"spell","keywords":"Egyptian God Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UR","img":"78665705","code":"69","tcg":532353,"grp":23315,"idx":73},
-    {"id":"069-cr","section":"rarities","num":"069","printed":"MZMI-EN069","name":"Ancient Chant","ctype":"spell","keywords":"Egyptian God Normal Spell","stats":{"t":"Normal Spell"},"rarity":"CR","img":"78665705","badge":"CR","variant":"Collector’s Rare","code":"CR69","tcg":532355,"grp":23315,"idx":74},
     {"id":"070","section":"main","num":"070","printed":"MZMI-EN070","name":"Millennium Revelation","ctype":"spell","keywords":"Egyptian God Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"R","img":"41044418","code":"70","tcg":532356,"grp":23315,"idx":75},
     {"id":"071","section":"main","num":"071","printed":"MZMI-EN071","name":"Sun God Unification","ctype":"trap","keywords":"Egyptian God Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"R","img":"77432167","code":"71","tcg":532358,"grp":23315,"idx":76},
     {"id":"072","section":"main","num":"072","printed":"MZMI-EN072","name":"Majespecter Raccoon - Bunbuku","ctype":"monster","keywords":"Majespecter Spellcaster WIND Pendulum Effect Monster","stats":{"a":"WIND","l":"Level 3","t":"Spellcaster / Pendulum / Effect","atk":1200,"def":900},"rarity":"SR","img":"31991800","code":"72","tcg":532360,"grp":23315,"idx":77},
-    {"id":"072-cr","section":"rarities","num":"072","printed":"MZMI-EN072","name":"Majespecter Raccoon - Bunbuku","ctype":"monster","keywords":"Majespecter Spellcaster WIND Pendulum Effect Monster","stats":{"a":"WIND","l":"Level 3","t":"Spellcaster / Pendulum / Effect","atk":1200,"def":900},"rarity":"CR","img":"31991800","badge":"CR","variant":"Collector’s Rare","code":"CR72","tcg":533000,"grp":23315,"idx":78},
     {"id":"073","section":"main","num":"073","printed":"MZMI-EN073","name":"Majespecter Crow - Yata","ctype":"monster","keywords":"Majespecter Spellcaster WIND Pendulum Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Spellcaster / Pendulum / Effect","atk":1000,"def":1500},"rarity":"R","img":"68395509","code":"73","tcg":532362,"grp":23315,"idx":79},
     {"id":"074","section":"main","num":"074","printed":"MZMI-EN074","name":"Majespecter Toad - Ogama","ctype":"monster","keywords":"Majespecter Spellcaster WIND Pendulum Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Spellcaster / Pendulum / Effect","atk":1300,"def":500},"rarity":"R","img":"645794","code":"74","tcg":532366,"grp":23315,"idx":80},
     {"id":"075","section":"main","num":"075","printed":"MZMI-EN075","name":"Majespecter Cyclone","ctype":"spell","keywords":"Majespecter Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"R","img":"49366157","code":"75","tcg":532367,"grp":23315,"idx":81},
@@ -158,6 +161,23 @@
     {"id":"081","section":"main","num":"081","printed":"MZMI-EN081","name":"EMERGENCY!","ctype":"spell","keywords":"Rescue-ACE Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"R","img":"61292243","code":"81","tcg":532373,"grp":23315,"idx":87},
     {"id":"082","section":"main","num":"082","printed":"MZMI-EN082","name":"CONTAIN!","ctype":"trap","keywords":"Rescue-ACE Normal Trap","stats":{"t":"Normal Trap"},"rarity":"R","img":"62777823","code":"82","tcg":532374,"grp":23315,"idx":88},
     {"id":"083","section":"main","num":"083","printed":"MZMI-EN083","name":"ALERT!","ctype":"spell","keywords":"Rescue-ACE Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"R","img":"26372118","code":"83","tcg":532375,"grp":23315,"idx":89},
-    {"id":"084","section":"main","num":"084","printed":"MZMI-EN084","name":"Triple Tactics Thrust","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UR","img":"35269904","code":"84","tcg":532376,"grp":23315,"idx":90}
+    {"id":"084","section":"main","num":"084","printed":"MZMI-EN084","name":"Triple Tactics Thrust","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UR","img":"35269904","code":"84","tcg":532376,"grp":23315,"idx":90},
+    {"id":"022-r","section":"r-r","num":"022","printed":"MZMI-EN022","name":"Earthbound Release","ctype":"trap","keywords":"Earthbound Normal Trap","stats":{"t":"Normal Trap"},"rarity":"R","img":"84262395","badge":"R","variant":"Rare","code":"R22","tcg":532238,"grp":23315,"idx":23},
+    {"id":"001-cr","section":"r-cr","num":"001","printed":"MZMI-EN001","name":"Fighting Flame Swordsman","ctype":"monster","keywords":"Flame Swordsman Warrior FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Warrior / Effect","atk":1800,"def":1600},"rarity":"CR","img":"1047075","badge":"CR","variant":"Collector’s Rare","code":"CR1","tcg":532192,"grp":23315,"idx":91},
+    {"id":"004-cr","section":"r-cr","num":"004","printed":"MZMI-EN004","name":"Ultimate Flame Swordsman","ctype":"monster","keywords":"Flame Swordsman Warrior FIRE Fusion Monster","stats":{"a":"FIRE","l":"Level 8","t":"Warrior / Fusion","atk":2800,"def":1600},"rarity":"CR","img":"324483","badge":"CR","variant":"Collector’s Rare","code":"CR4","tcg":532205,"grp":23315,"idx":92},
+    {"id":"011-cr","section":"r-cr","num":"011","printed":"MZMI-EN011","name":"Eye of Illusion","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"CR","img":"23446369","badge":"CR","variant":"Collector’s Rare","code":"CR11","tcg":532850,"grp":23315,"idx":93},
+    {"id":"016-cr","section":"r-cr","num":"016","printed":"MZMI-EN016","name":"Bonfire","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"CR","img":"85106525","badge":"CR","variant":"Collector’s Rare","code":"CR16","tcg":532851,"grp":23315,"idx":94},
+    {"id":"023-cr","section":"r-cr","num":"023","printed":"MZMI-EN023","name":"Number 1: Infection Buzzking","ctype":"monster","keywords":"Number Fiend DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 8","t":"Fiend / Xyz","atk":3000,"def":2500},"rarity":"CR","img":"10666000","badge":"CR","variant":"Collector’s Rare","code":"CR23","tcg":532240,"grp":23315,"idx":95},
+    {"id":"024-cr","section":"r-cr","num":"024","printed":"MZMI-EN024","name":"Photon Delta Wing","ctype":"monster","keywords":"Photon Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Machine / Effect","atk":1800,"def":900},"rarity":"CR","img":"47051709","badge":"CR","variant":"Collector’s Rare","code":"CR24","tcg":532852,"grp":23315,"idx":96},
+    {"id":"025-cr","section":"r-cr","num":"025","printed":"MZMI-EN025","name":"Armored Xyz","ctype":"spell","keywords":"Xyz Normal Spell","stats":{"t":"Normal Spell"},"rarity":"CR","img":"73046708","badge":"CR","variant":"Collector’s Rare","code":"CR25","tcg":533001,"grp":23315,"idx":97},
+    {"id":"031-cr","section":"r-cr","num":"031","printed":"MZMI-EN031","name":"Earthbound Servant Geo Grasha","ctype":"monster","keywords":"Earthbound Fiend DARK Fusion Monster","stats":{"a":"DARK","l":"Level 10","t":"Fiend / Fusion","atk":3000,"def":1800},"rarity":"CR","img":"71101678","badge":"CR","variant":"Collector’s Rare","code":"CR31","tcg":532250,"grp":23315,"idx":98},
+    {"id":"035-cr","section":"r-cr","num":"035","printed":"MZMI-EN035","name":"Harmonic Synchro Fusion","ctype":"spell","keywords":"Fusion Normal Spell","stats":{"t":"Normal Spell"},"rarity":"CR","img":"7473735","badge":"CR","variant":"Collector’s Rare","code":"CR35","tcg":532854,"grp":23315,"idx":99},
+    {"id":"037-cr","section":"r-cr","num":"037","printed":"MZMI-EN037","name":"Drastic Draw","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"CR","img":"70366448","badge":"CR","variant":"Collector’s Rare","code":"CR37","tcg":532266,"grp":23315,"idx":100},
+    {"id":"038-cr","section":"r-cr","num":"038","printed":"MZMI-EN038","name":"Transaction Rollback","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"CR","img":"6351147","badge":"CR","variant":"Collector’s Rare","code":"CR38","tcg":532268,"grp":23315,"idx":101},
+    {"id":"040-cr","section":"r-cr","num":"040","printed":"MZMI-EN040","name":"Chimera the Flying Mythical Beast","ctype":"monster","keywords":"Beast WIND Fusion Monster","stats":{"a":"WIND","l":"Level 6","t":"Beast / Fusion","atk":2100,"def":1800},"rarity":"CR","img":"4796100","badge":"CR","variant":"Collector’s Rare","code":"CR40","tcg":532855,"grp":23315,"idx":42},
+    {"id":"044-cr","section":"r-cr","num":"044","printed":"MZMI-EN044","name":"Jet Synchron","ctype":"monster","keywords":"Junk Machine FIRE Tuner Monster","stats":{"a":"FIRE","l":"Level 1","t":"Machine / Tuner","atk":500,"def":0},"rarity":"CR","img":"9742784","badge":"CR","variant":"Collector’s Rare","code":"CR44","tcg":532277,"grp":23315,"idx":47},
+    {"id":"065-cr","section":"r-cr","num":"065","printed":"MZMI-EN065","name":"Altergeist Multifaker","ctype":"monster","keywords":"Altergeist Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Spellcaster / Effect","atk":1200,"def":800},"rarity":"CR","img":"42790071","badge":"CR","variant":"Collector’s Rare","code":"CR65","tcg":532856,"grp":23315,"idx":69},
+    {"id":"069-cr","section":"r-cr","num":"069","printed":"MZMI-EN069","name":"Ancient Chant","ctype":"spell","keywords":"Egyptian God Normal Spell","stats":{"t":"Normal Spell"},"rarity":"CR","img":"78665705","badge":"CR","variant":"Collector’s Rare","code":"CR69","tcg":532355,"grp":23315,"idx":74},
+    {"id":"072-cr","section":"r-cr","num":"072","printed":"MZMI-EN072","name":"Majespecter Raccoon - Bunbuku","ctype":"monster","keywords":"Majespecter Spellcaster WIND Pendulum Effect Monster","stats":{"a":"WIND","l":"Level 3","t":"Spellcaster / Pendulum / Effect","atk":1200,"def":900},"rarity":"CR","img":"31991800","badge":"CR","variant":"Collector’s Rare","code":"CR72","tcg":533000,"grp":23315,"idx":78}
   ]
 }

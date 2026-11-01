@@ -1,0 +1,70 @@
+{
+  "id": "yugioh/promos-2026",
+  "game": "yugioh",
+  "slug": "promos-2026",
+  "name": "Promos 2026",
+  "series": "Promos",
+  "kind": "promo",
+  "code": "P2026",
+  "syncKey": "YP2026",
+  "released": "2026-02-05",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "BETB-ENSP1–CORI-ENSP1",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. Numbers count down the list in order: <b>1-5</b> is the first five cards and <b>3x2</b> is two copies of the third.",
+    "empty": "Cards run from BETB-ENSP1 to CORI-ENSP1."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Promos 2026 Checklist · All 4 Cards",
+    "description": "Free Yu-Gi-Oh! Promos 2026 checklist with no ads, no sign-up and no tracking. Track all 4 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Promos 2026 Checklist",
+    "ogDescription": "Track all 4 cards in Yu-Gi-Oh! Promos 2026. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 4 cards in Yu-Gi-Oh! Promos 2026. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Promos 2026",
+    "paragraphs": [
+      "Promos 2026 gathers the 4 promo cards from 4 products released in 2026: Beyond the Brave Premiere! promotional card, Blazing Dominion Premiere! promotional card, Burst Protocol Premiere! promotional card and Chaos Origins Premiere! promotional card.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Beyond the Brave Premiere! promotional card",
+      "Blazing Dominion Premiere! promotional card",
+      "Burst Protocol Premiere! promotional card",
+      "Chaos Origins Premiere! promotional card"
+    ],
+    "tcgplayer": [
+      24675,
+      24815,
+      24581,
+      24558
+    ]
+  },
+  "cards": [
+    {"id":"BETB-SP1","section":"main","num":"BETB-ENSP1","printed":"BETB-ENSP1","name":"Dark Time Wizard","ctype":"spell","keywords":"Magician Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"note":"Beyond the Brave Premiere! promotional card","rarity":"ScR","img":"40235813","code":"1","tcg":723339,"grp":24815,"idx":0},
+    {"id":"BLZD-SP1","section":"main","num":"BLZD-ENSP1","printed":"BLZD-ENSP1","name":"Charmer Quartet in Bloom","ctype":"monster","keywords":"Charmer Spellcaster LIGHT Link Monster","stats":{"a":"LIGHT","l":"Link 4","t":"Spellcaster / Link","atk":1850},"note":"Blazing Dominion Premiere! promotional card","rarity":"ScR","img":"27519978","code":"2","tcg":696530,"grp":24581,"idx":1},
+    {"id":"BPRO-SP1","section":"main","num":"BPRO-ENSP1","printed":"BPRO-ENSP1","name":"K9-X \"Ripper/M\"","ctype":"monster","keywords":"K9 Beast WIND Xyz Monster","stats":{"a":"WIND","l":"Rank 9","t":"Beast / Xyz","atk":3100,"def":2600},"note":"Burst Protocol Premiere! promotional card","rarity":"ScR","img":"31286915","code":"3","tcg":675336,"grp":24558,"idx":2},
+    {"id":"CORI-SP1","section":"main","num":"CORI-ENSP1","printed":"CORI-ENSP1","name":"Griffoh","ctype":"monster","keywords":"Light and Darkness Ritual Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Fiend / Effect","atk":300,"def":200},"note":"Chaos Origins Premiere! promotional card","rarity":"ScR","img":"97462632","code":"4","tcg":707537,"grp":24675,"idx":3}
+  ]
+}

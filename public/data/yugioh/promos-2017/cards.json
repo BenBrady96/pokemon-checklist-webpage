@@ -17,10 +17,15 @@
       "tier": "standard"
     },
     {
-      "id": "rarities",
-      "name": "Other Rarities",
-      "short": "Other Rarities",
-      "range": "2 cards",
+      "id": "r-ur",
+      "name": "Ultra Rares",
+      "range": "1 card",
+      "tier": "master"
+    },
+    {
+      "id": "r-gscr",
+      "name": "Gold Secret Rares",
+      "range": "1 card",
       "tier": "master"
     }
   ],
@@ -30,8 +35,12 @@
       "Main set"
     ],
     [
-      "rarities",
-      "Other rarities"
+      "r-ur",
+      "Ultra Rares"
+    ],
+    [
+      "r-gscr",
+      "Gold Secret Rares"
     ]
   ],
   "quickAdd": {
@@ -118,7 +127,6 @@
     {"id":"MACR-SE4","section":"main","num":"MACR-ENSE4","printed":"MACR-ENSE4","name":"Boogie Trap","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"note":"Maximum Crisis: Special Edition","rarity":"SR","img":"96704974","code":"22","tcg":133445,"grp":1922,"idx":21},
     {"id":"MACR-SP1","section":"main","num":"MACR-ENSP1","printed":"MACR-ENSP1","name":"Pendulum Switch","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"note":"Maximum Crisis Sneak Peek Participation Card","rarity":"UR","img":"42378577","code":"23","tcg":131360,"grp":1922,"idx":22},
     {"id":"MVPC-001","section":"main","num":"MVPC-EN001","printed":"MVPC-EN001","name":"Obelisk the Tormentor","ctype":"monster","keywords":"Egyptian God Divine-Beast DIVINE Effect Monster","stats":{"a":"DIVINE","l":"Level 10","t":"Divine-Beast / Effect","atk":4000,"def":4000},"note":"Yu-Gi-Oh! The Dark Side of Dimensions Blu-ray & DVD promotional card","rarity":"GUR","img":"10000002","code":"24","tcg":243265,"grp":1877,"idx":23},
-    {"id":"MVPC-001-gscr","section":"rarities","num":"MVPC-EN001","printed":"MVPC-EN001","name":"Obelisk the Tormentor","ctype":"monster","keywords":"Egyptian God Divine-Beast DIVINE Effect Monster","stats":{"a":"DIVINE","l":"Level 10","t":"Divine-Beast / Effect","atk":4000,"def":4000},"note":"Yu-Gi-Oh! The Dark Side of Dimensions Blu-ray & DVD promotional card","rarity":"GScR","img":"10000002","badge":"GScR","variant":"Gold Secret Rare","code":"GSCR24","tcg":127416,"grp":1877,"idx":24},
     {"id":"RATE-SE1","section":"main","num":"RATE-ENSE1","printed":"RATE-ENSE1","name":"Number 22: Zombiestein","ctype":"monster","keywords":"Zombie DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 8","t":"Zombie / Xyz","atk":4500,"def":1000},"note":"Raging Tempest: Special Edition","rarity":"SR","img":"73445448","code":"25","tcg":129304,"grp":1880,"idx":25},
     {"id":"RATE-SE2","section":"main","num":"RATE-ENSE2","printed":"RATE-ENSE2","name":"Masked HERO Blast","ctype":"monster","keywords":"Masked HERO Warrior WIND Fusion Monster","stats":{"a":"WIND","l":"Level 6","t":"Warrior / Fusion","atk":2200,"def":1800},"note":"Raging Tempest: Special Edition","rarity":"SR","img":"89870349","code":"26","tcg":129305,"grp":1880,"idx":26},
     {"id":"RATE-SE3","section":"main","num":"RATE-ENSE3","printed":"RATE-ENSE3","name":"Zoodiac Kataroost","ctype":"monster","keywords":"Zoodiac Beast-Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Beast-Warrior / Effect","atk":800,"def":1200},"note":"Raging Tempest: Special Edition","rarity":"SR","img":"20155904","code":"27","tcg":129306,"grp":1880,"idx":27},
@@ -127,6 +135,7 @@
     {"id":"YA01-001","section":"main","num":"YA01-EN001","printed":"YA01-EN001","name":"Odd-Eyes Phantom Dragon","ctype":"monster","keywords":"-Eyes Dragon Dragon DARK Pendulum Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Dragon / Pendulum / Effect","atk":2500,"def":2000},"note":"Yu-Gi-Oh! ARC-V Volume 1 promotional card","rarity":"UR","img":"93149655","code":"30","tcg":129805,"grp":1918,"idx":30},
     {"id":"YA02-001","section":"main","num":"YA02-EN001","printed":"YA02-EN001","name":"Clear Wing Fast Dragon","ctype":"monster","keywords":"Clear Wing Dragon WIND Synchro Pendulum Effect Monster","stats":{"a":"WIND","l":"Level 7","t":"Dragon / Synchro / Pendulum / Effect","atk":2500,"def":2000},"note":"Yu-Gi-Oh! ARC-V Volume 2 promotional card","rarity":"UR","img":"90036274","code":"31","tcg":145260,"grp":1918,"idx":31},
     {"id":"YCSW-010","section":"main","num":"YCSW-EN010","printed":"YCSW-EN010","name":"Number 89: Diablosis the Mind Hacker","ctype":"monster","keywords":"Psychic DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 7","t":"Psychic / Xyz","atk":2800,"def":1200},"note":"Yu-Gi-Oh! Championship Series 2017 prize card","rarity":"SR","img":"95474755","code":"32","tcg":166416,"grp":1347,"idx":32},
-    {"id":"YCSW-010-ur","section":"rarities","num":"YCSW-EN010","printed":"YCSW-EN010","name":"Number 89: Diablosis the Mind Hacker","ctype":"monster","keywords":"Psychic DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 7","t":"Psychic / Xyz","atk":2800,"def":1200},"note":"Yu-Gi-Oh! Championship Series 2017 prize card","rarity":"UR","img":"95474755","badge":"UR","variant":"Ultra Rare","code":"UR32","tcg":166417,"grp":1347,"idx":33}
+    {"id":"YCSW-010-ur","section":"r-ur","num":"YCSW-EN010","printed":"YCSW-EN010","name":"Number 89: Diablosis the Mind Hacker","ctype":"monster","keywords":"Psychic DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 7","t":"Psychic / Xyz","atk":2800,"def":1200},"note":"Yu-Gi-Oh! Championship Series 2017 prize card","rarity":"UR","img":"95474755","badge":"UR","variant":"Ultra Rare","code":"UR32","tcg":166417,"grp":1347,"idx":33},
+    {"id":"MVPC-001-gscr","section":"r-gscr","num":"MVPC-EN001","printed":"MVPC-EN001","name":"Obelisk the Tormentor","ctype":"monster","keywords":"Egyptian God Divine-Beast DIVINE Effect Monster","stats":{"a":"DIVINE","l":"Level 10","t":"Divine-Beast / Effect","atk":4000,"def":4000},"note":"Yu-Gi-Oh! The Dark Side of Dimensions Blu-ray & DVD promotional card","rarity":"GScR","img":"10000002","badge":"GScR","variant":"Gold Secret Rare","code":"GSCR24","tcg":127416,"grp":1877,"idx":24}
   ]
 }

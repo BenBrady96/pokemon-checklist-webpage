@@ -17,9 +17,8 @@
       "tier": "standard"
     },
     {
-      "id": "rarities",
-      "name": "Other Rarities",
-      "short": "Other Rarities",
+      "id": "r-gr",
+      "name": "Ghost Rares",
       "range": "1 card",
       "tier": "master"
     }
@@ -30,8 +29,8 @@
       "Main set"
     ],
     [
-      "rarities",
-      "Other rarities"
+      "r-gr",
+      "Ghost Rares"
     ]
   ],
   "quickAdd": {
@@ -68,8 +67,7 @@
     ]
   },
   "cards": [
-    {"id":"000","section":"main","num":"000","printed":"LED7-EN000","name":"The Winged Dragon of Ra","ctype":"monster","keywords":"Egyptian God Divine-Beast DIVINE Effect Monster","stats":{"a":"DIVINE","l":"Level 10","t":"Divine-Beast / Effect","atk":-1,"def":-1},"rarity":"UR","img":"10000012","code":"0","tcg":223693,"grp":2690,"idx":0},
-    {"id":"000-gr","section":"rarities","num":"000","printed":"LED7-EN000","name":"The Winged Dragon of Ra","ctype":"monster","keywords":"Egyptian God Divine-Beast DIVINE Effect Monster","stats":{"a":"DIVINE","l":"Level 10","t":"Divine-Beast / Effect","atk":-1,"def":-1},"rarity":"GR","img":"10000010","badge":"GR","variant":"Ghost Rare","code":"GR0","tcg":222770,"grp":2690,"idx":1},
+    {"id":"000","section":"main","num":"000","printed":"LED7-EN000","name":"The Winged Dragon of Ra","ctype":"monster","keywords":"Egyptian God Divine-Beast DIVINE Effect Monster","stats":{"a":"DIVINE","l":"Level 10","t":"Divine-Beast / Effect","atk":-1,"def":-1},"rarity":"UR","img":"10000012","print":"Alternate Art","code":"0","tcg":223693,"grp":2690,"idx":0},
     {"id":"001","section":"main","num":"001","printed":"LED7-EN001","name":"Egyptian God Slime","ctype":"monster","keywords":"Egyptian God Aqua WATER Fusion Monster","stats":{"a":"WATER","l":"Level 10","t":"Aqua / Fusion","atk":3000,"def":3000},"rarity":"UR","img":"42166000","code":"1","tcg":222771,"grp":2690,"idx":2},
     {"id":"002","section":"main","num":"002","printed":"LED7-EN002","name":"Reactor Slime","ctype":"monster","keywords":"Egyptian God Aqua WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Aqua / Effect","atk":500,"def":500},"rarity":"R","img":"79387392","code":"2","tcg":222772,"grp":2690,"idx":3},
     {"id":"003","section":"main","num":"003","printed":"LED7-EN003","name":"Guardian Slime","ctype":"monster","keywords":"Egyptian God Aqua WATER Effect Monster","stats":{"a":"WATER","l":"Level 10","t":"Aqua / Effect","atk":0,"def":0},"rarity":"UR","img":"15771991","code":"3","tcg":222773,"grp":2690,"idx":4},
@@ -125,6 +123,7 @@
     {"id":"053","section":"main","num":"053","printed":"LED7-EN053","name":"Mound of the Bound Creator","ctype":"spell","keywords":"Field Spell","stats":{"t":"Field Spell"},"rarity":"R","img":"269012","code":"53","tcg":222837,"grp":2690,"idx":54},
     {"id":"054","section":"main","num":"054","printed":"LED7-EN054","name":"Token Sundae","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"52971673","code":"54","tcg":222838,"grp":2690,"idx":55},
     {"id":"055","section":"main","num":"055","printed":"LED7-EN055","name":"Token Stampede","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"14342283","code":"55","tcg":222839,"grp":2690,"idx":56},
-    {"id":"056","section":"main","num":"056","printed":"LED7-EN056","name":"White Aura Bihamut","ctype":"monster","keywords":"White Fish WATER Synchro Monster","stats":{"a":"WATER","l":"Level 10","t":"Fish / Synchro","atk":3300,"def":3000},"rarity":"UR","img":"89907227","code":"56","tcg":222840,"grp":2690,"idx":57}
+    {"id":"056","section":"main","num":"056","printed":"LED7-EN056","name":"White Aura Bihamut","ctype":"monster","keywords":"White Fish WATER Synchro Monster","stats":{"a":"WATER","l":"Level 10","t":"Fish / Synchro","atk":3300,"def":3000},"rarity":"UR","img":"89907227","code":"56","tcg":222840,"grp":2690,"idx":57},
+    {"id":"000-gr","section":"r-gr","num":"000","printed":"LED7-EN000","name":"The Winged Dragon of Ra","ctype":"monster","keywords":"Egyptian God Divine-Beast DIVINE Effect Monster","stats":{"a":"DIVINE","l":"Level 10","t":"Divine-Beast / Effect","atk":-1,"def":-1},"rarity":"GR","img":"10000010","badge":"GR","variant":"Ghost Rare","code":"GR0","tcg":222770,"grp":2690,"idx":1}
   ]
 }

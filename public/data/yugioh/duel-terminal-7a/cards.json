@@ -17,9 +17,8 @@
       "tier": "standard"
     },
     {
-      "id": "rarities",
-      "name": "Other Rarities",
-      "short": "Other Rarities",
+      "id": "r-dnrpr",
+      "name": "Duel Terminal Normal Rare Parallel Rares",
       "range": "1 card",
       "tier": "master"
     }
@@ -30,8 +29,8 @@
       "Main set"
     ],
     [
-      "rarities",
-      "Other rarities"
+      "r-dnrpr",
+      "Duel Terminal Normal Rare Parallel Rares"
     ]
   ],
   "quickAdd": {
@@ -79,7 +78,6 @@
     {"id":"009","section":"main","num":"009","printed":"DT07-EN009","name":"White-Horned Dragon","ctype":"monster","keywords":"Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Dragon / Effect","atk":2200,"def":1400},"rarity":"DRPR","img":"73891874","code":"9","tcg":81540,"grp":1333,"idx":8},
     {"id":"010","section":"main","num":"010","printed":"DT07-EN010","name":"Blizzard Dragon","ctype":"monster","keywords":"Dragon WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Dragon / Effect","atk":1800,"def":1000},"rarity":"DNPR","img":"61802346","code":"10","tcg":81541,"grp":1333,"idx":9},
     {"id":"011","section":"main","num":"011","printed":"DT07-EN011","name":"Mezuki","ctype":"monster","keywords":"Zombie EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Zombie / Effect","atk":1700,"def":800},"rarity":"DNPR","img":"92826944","code":"11","tcg":81542,"grp":1333,"idx":10},
-    {"id":"011-dnrpr","section":"rarities","num":"011","printed":"DT07-EN011","name":"Mezuki","ctype":"monster","keywords":"Zombie EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Zombie / Effect","atk":1700,"def":800},"rarity":"DNRPR","img":"92826944","badge":"DNRPR","variant":"Duel Terminal Normal Rare Parallel Rare","code":"DNRPR11","tcg":81542,"grp":1333,"idx":11},
     {"id":"012","section":"main","num":"012","printed":"DT07-EN012","name":"Fabled Raven","ctype":"monster","keywords":"Fabled Fiend LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 2","t":"Fiend / Tuner","atk":1300,"def":1000},"rarity":"DNPR","img":"47217354","code":"12","tcg":81543,"grp":1333,"idx":12},
     {"id":"013","section":"main","num":"013","printed":"DT07-EN013","name":"XX-Saber Faultroll","ctype":"monster","keywords":"X-Saber Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 6","t":"Warrior / Effect","atk":2400,"def":1800},"rarity":"DNPR","img":"51808422","code":"13","tcg":81544,"grp":1333,"idx":13},
     {"id":"014","section":"main","num":"014","printed":"DT07-EN014","name":"Gem-Knight Sardonyx","ctype":"monster","keywords":"Gem- Pyro EARTH Gemini Monster","stats":{"a":"EARTH","l":"Level 4","t":"Pyro / Gemini","atk":1800,"def":900},"rarity":"DNPR","img":"43114901","code":"14","tcg":81545,"grp":1333,"idx":14},
@@ -119,6 +117,7 @@
     {"id":"048","section":"main","num":"048","printed":"DT07-EN048","name":"Fragment Fusion","ctype":"trap","keywords":"Gem- Normal Trap","stats":{"t":"Normal Trap"},"rarity":"DNPR","img":"72029628","code":"48","tcg":81579,"grp":1333,"idx":48},
     {"id":"049","section":"main","num":"049","printed":"DT07-EN049","name":"Dust Storm of Gusto","ctype":"trap","keywords":"Gusto Normal Trap","stats":{"t":"Normal Trap"},"rarity":"DNPR","img":"8414337","code":"49","tcg":81580,"grp":1333,"idx":49},
     {"id":"050","section":"main","num":"050","printed":"DT07-EN050","name":"Infestation Infection","ctype":"trap","keywords":"Infestation Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"DNPR","img":"35419032","code":"50","tcg":81581,"grp":1333,"idx":50},
-    {"id":"069","section":"main","num":"069","printed":"DT07-EN069","name":"Constellar Kaus","ctype":"monster","keywords":"Constellar Beast-Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Beast-Warrior / Effect","atk":1800,"def":700},"rarity":"DRPR","img":"70908596","code":"69","tcg":81601,"grp":1333,"idx":51}
+    {"id":"069","section":"main","num":"069","printed":"DT07-EN069","name":"Constellar Kaus","ctype":"monster","keywords":"Constellar Beast-Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Beast-Warrior / Effect","atk":1800,"def":700},"rarity":"DRPR","img":"70908596","code":"69","tcg":81601,"grp":1333,"idx":51},
+    {"id":"011-dnrpr","section":"r-dnrpr","num":"011","printed":"DT07-EN011","name":"Mezuki","ctype":"monster","keywords":"Zombie EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Zombie / Effect","atk":1700,"def":800},"rarity":"DNRPR","img":"92826944","badge":"DNRPR","variant":"Duel Terminal Normal Rare Parallel Rare","code":"DNRPR11","tcg":81542,"grp":1333,"idx":11}
   ]
 }

@@ -17,9 +17,8 @@
       "tier": "standard"
     },
     {
-      "id": "rarities",
-      "name": "Other Rarities",
-      "short": "Other Rarities",
+      "id": "r-ur",
+      "name": "Ultra Rares",
       "range": "1 card",
       "tier": "master"
     }
@@ -30,8 +29,8 @@
       "Main set"
     ],
     [
-      "rarities",
-      "Other rarities"
+      "r-ur",
+      "Ultra Rares"
     ]
   ],
   "quickAdd": {
@@ -112,10 +111,10 @@
     {"id":"JUMP-074","section":"main","num":"JUMP-EN074","printed":"JUMP-EN074","name":"Beast-Eyes Pendulum Dragon","ctype":"monster","keywords":"Pendulum Dragon Dragon EARTH Fusion Monster","stats":{"a":"EARTH","l":"Level 8","t":"Dragon / Fusion","atk":3000,"def":2000},"note":"Weekly Shonen Jump October 2015 membership promotional card","rarity":"UR","img":"72378329","code":"19","tcg":107841,"grp":281,"idx":18},
     {"id":"SECE-SP1","section":"main","num":"SECE-ENSP1","printed":"SECE-ENSP1","name":"Dragoons of Draconia","ctype":"monster","keywords":"Draconia Beast-Warrior FIRE Pendulum Normal Monster","stats":{"a":"FIRE","l":"Level 4","t":"Beast-Warrior / Pendulum / Normal","atk":1800,"def":200},"note":"Secrets of Eternity Sneak Peek Participation Card","rarity":"UR","img":"73779005","code":"20","tcg":95327,"grp":1505,"idx":19},
     {"id":"YCSW-008","section":"main","num":"YCSW-EN008","printed":"YCSW-EN008","name":"Minerva, the Exalted Lightsworn","ctype":"monster","keywords":"Lightsworn Fairy LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 4","t":"Fairy / Xyz","atk":2000,"def":800},"note":"Yu-Gi-Oh! Championship Series 2015 Prize Card","rarity":"SR","img":"30100551","code":"21","tcg":106208,"grp":1347,"idx":20},
-    {"id":"YCSW-008-ur","section":"rarities","num":"YCSW-EN008","printed":"YCSW-EN008","name":"Minerva, the Exalted Lightsworn","ctype":"monster","keywords":"Lightsworn Fairy LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 4","t":"Fairy / Xyz","atk":2000,"def":800},"note":"Yu-Gi-Oh! Championship Series 2015 Prize Card","rarity":"UR","img":"30100551","badge":"UR","variant":"Ultra Rare","code":"UR21","tcg":106209,"grp":1347,"idx":21},
     {"id":"YF07-001","section":"main","num":"YF07-EN001","printed":"YF07-EN001","name":"Black Rose Moonlight Dragon","ctype":"monster","keywords":"Rose Dragon Dragon LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 7","t":"Dragon / Synchro","atk":2400,"def":1800},"note":"Yu-Gi-Oh! 5D's Volume 7 promotional card","rarity":"UR","img":"33698022","code":"22","tcg":96464,"grp":352,"idx":22},
     {"id":"YF08-001","section":"main","num":"YF08-EN001","printed":"YF08-EN001","name":"Beelzeus of the Diabolic Dragons","ctype":"monster","keywords":"Dragon DARK Synchro Monster","stats":{"a":"DARK","l":"Level 10","t":"Dragon / Synchro","atk":4000,"def":4000},"note":"Yu-Gi-Oh! 5D's volume 8 promotional card","rarity":"UR","img":"8763963","code":"23","tcg":108430,"grp":352,"idx":23},
     {"id":"YZ06-001","section":"main","num":"YZ06-EN001","printed":"YZ06-EN001","name":"Number 52: Diamond Crab King","ctype":"monster","keywords":"Rock EARTH Xyz Monster","stats":{"a":"EARTH","l":"Rank 4","t":"Rock / Xyz","atk":0,"def":3000},"note":"Yu-Gi-Oh! ZEXAL Volume 6 promotional card","rarity":"UR","img":"7194917","code":"24","tcg":96281,"grp":600,"idx":24},
-    {"id":"YZ07-001","section":"main","num":"YZ07-EN001","printed":"YZ07-EN001","name":"Number 23: Lancelot, Dark Knight of the Underworld","ctype":"monster","keywords":"Zombie DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 8","t":"Zombie / Xyz","atk":2000,"def":1500},"note":"Yu-Gi-Oh! ZEXAL Volume 7 promotional card","rarity":"UR","img":"66547759","code":"25","tcg":104733,"grp":600,"idx":25}
+    {"id":"YZ07-001","section":"main","num":"YZ07-EN001","printed":"YZ07-EN001","name":"Number 23: Lancelot, Dark Knight of the Underworld","ctype":"monster","keywords":"Zombie DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 8","t":"Zombie / Xyz","atk":2000,"def":1500},"note":"Yu-Gi-Oh! ZEXAL Volume 7 promotional card","rarity":"UR","img":"66547759","code":"25","tcg":104733,"grp":600,"idx":25},
+    {"id":"YCSW-008-ur","section":"r-ur","num":"YCSW-EN008","printed":"YCSW-EN008","name":"Minerva, the Exalted Lightsworn","ctype":"monster","keywords":"Lightsworn Fairy LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 4","t":"Fairy / Xyz","atk":2000,"def":800},"note":"Yu-Gi-Oh! Championship Series 2015 Prize Card","rarity":"UR","img":"30100551","badge":"UR","variant":"Ultra Rare","code":"UR21","tcg":106209,"grp":1347,"idx":21}
   ]
 }

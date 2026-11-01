@@ -340,12 +340,24 @@ if (ygo.length) {
   const repo = await exists(IMAGES_REPO);
   const missingArt = new Set();
   for (const m of ygo) {
-    check(m.sections.every((s) => s.id === 'main' || s.id === 'rarities'), `${m.id}: only main set and other rarities sections`);
+    const others = m.sections.filter((s) => s.id !== 'main');
+    check(m.sections[0]?.id === 'main' && others.every((s) => /^r-/.test(s.id)), `${m.id}: a main section, then one section per rarity`);
+    check(others.every((s) => m.cardsBySection.get(s.id).every((c) => `r-${c.rarity.toLowerCase()}` === s.id)), `${m.id}: each rarity section holds only its rarity`);
+    check(others.every((s) => (s.tier === 'grand') === Boolean(m.rarityById.get(m.cardsBySection.get(s.id)[0]?.rarity)?.serial)), `${m.id}: only serial-numbered rarities are in Grand Master`);
     const mains = new Set(m.cards.filter((c) => !c.variant).map((c) => c.printed));
     check(m.cards.filter((c) => c.variant).every((c) => mains.has(c.printed)), `${m.id}: every other rarity has its main card`);
     if (repo) for (const c of m.cards) if (m.hasImage(c) && !(await exists(join(IMAGES_REPO, 'yugioh', c.imageId, 'low.webp')))) missingArt.add(c.imageId);
   }
   if (repo) check(!missingArt.size, `every Yu-Gi-Oh! artwork with a colour has its images in ${IMAGES_REPO} (run npm run images -- --game yugioh): ${[...missingArt].slice(0, 6).join(', ')}`);
+  const mamo = ygo.find((m) => m.id === 'yugioh/magnificent-monsters');
+  if (mamo) {
+    const tiers = mamo.visibleTiers.map((t) => t.cards.length).join();
+    check(tiers === '126,210,228', `Magnificent Monsters tiers are 126, 210 and 228: ${tiers}`);
+    const prints = mamo.cards.filter((c) => c.printed === 'MAMO-EN016').map((c) => [c.rarity, c.print].filter(Boolean).join(' ')).join(', ');
+    check(prints === 'UR, UR Extended Art, StR Extended Art, GMR', `MAMO-EN016 comes as Ultra Rare, Extended Art Ultra Rare, Extended Art Starlight Rare and Grand Master Rare: ${prints}`);
+  }
+  const duad = ygo.find((m) => m.id === 'yugioh/duelists-advance')?.cardsBySection.get('main');
+  if (duad) check(duad.length === 101 && duad[0].printed === 'DUAD-EN001' && duad.at(-1).printed === 'DUAD-EN101', `Duelist's Advance runs DUAD-EN001 to DUAD-EN101: ${duad.length} cards`);
   const rich = ygo.find((m) => m.cards.some((c) => c.variant && c.code?.startsWith('SCR')) && m.codes.has('1'));
   if (rich) {
     const scr = rich.cards.find((c) => c.variant && c.code?.startsWith('SCR'));

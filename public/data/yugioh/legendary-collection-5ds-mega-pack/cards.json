@@ -17,9 +17,8 @@
       "tier": "standard"
     },
     {
-      "id": "rarities",
-      "name": "Other Rarities",
-      "short": "Other Rarities",
+      "id": "r-ur",
+      "name": "Ultra Rares",
       "range": "4 cards",
       "tier": "master"
     }
@@ -30,8 +29,8 @@
       "Main set"
     ],
     [
-      "rarities",
-      "Other rarities"
+      "r-ur",
+      "Ultra Rares"
     ]
   ],
   "quickAdd": {
@@ -99,7 +98,6 @@
     {"id":"029","section":"main","num":"029","printed":"LC5D-EN029","name":"Junk Warrior","ctype":"monster","keywords":"Junk Warrior DARK Synchro Monster","stats":{"a":"DARK","l":"Level 5","t":"Warrior / Synchro","atk":2300,"def":1300},"rarity":"SR","img":"60800381","code":"29","tcg":93862,"grp":1491,"idx":28},
     {"id":"030","section":"main","num":"030","printed":"LC5D-EN030","name":"Colossal Fighter","ctype":"monster","keywords":"Warrior DARK Synchro Monster","stats":{"a":"DARK","l":"Level 8","t":"Warrior / Synchro","atk":2800,"def":1000},"rarity":"ScR","img":"23693634","code":"30","tcg":93863,"grp":1491,"idx":29},
     {"id":"031","section":"main","num":"031","printed":"LC5D-EN031","name":"Stardust Dragon","ctype":"monster","keywords":"Stardust Dragon WIND Synchro Monster","stats":{"a":"WIND","l":"Level 8","t":"Dragon / Synchro","atk":2500,"def":2000},"rarity":"C","img":"44508094","code":"31","tcg":93864,"grp":1491,"idx":30},
-    {"id":"031-ur","section":"rarities","num":"031","printed":"LC5D-EN031","name":"Stardust Dragon","ctype":"monster","keywords":"Stardust Dragon WIND Synchro Monster","stats":{"a":"WIND","l":"Level 8","t":"Dragon / Synchro","atk":2500,"def":2000},"rarity":"UR","img":"44508094","badge":"UR","variant":"Ultra Rare","code":"UR31","tcg":93865,"grp":1491,"idx":31},
     {"id":"032","section":"main","num":"032","printed":"LC5D-EN032","name":"Nitro Warrior","ctype":"monster","keywords":"Warrior FIRE Synchro Monster","stats":{"a":"FIRE","l":"Level 7","t":"Warrior / Synchro","atk":2800,"def":1800},"rarity":"C","img":"18013090","code":"32","tcg":93866,"grp":1491,"idx":32},
     {"id":"033","section":"main","num":"033","printed":"LC5D-EN033","name":"Turbo Warrior","ctype":"monster","keywords":"Warrior WIND Synchro Monster","stats":{"a":"WIND","l":"Level 6","t":"Warrior / Synchro","atk":2500,"def":1500},"rarity":"C","img":"46195773","code":"33","tcg":93867,"grp":1491,"idx":33},
     {"id":"034","section":"main","num":"034","printed":"LC5D-EN034","name":"Armory Arm","ctype":"monster","keywords":"Machine LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Machine / Synchro","atk":1800,"def":1200},"rarity":"ScR","img":"29071332","code":"34","tcg":93868,"grp":1491,"idx":34},
@@ -138,7 +136,6 @@
     {"id":"067","section":"main","num":"067","printed":"LC5D-EN067","name":"Force Resonator","ctype":"monster","keywords":"Resonator Fiend WATER Tuner Monster","stats":{"a":"WATER","l":"Level 2","t":"Fiend / Tuner","atk":500,"def":500},"rarity":"C","img":"40583194","code":"67","tcg":93901,"grp":1491,"idx":67},
     {"id":"068","section":"main","num":"068","printed":"LC5D-EN068","name":"Clock Resonator","ctype":"monster","keywords":"Resonator Fiend EARTH Tuner Monster","stats":{"a":"EARTH","l":"Level 3","t":"Fiend / Tuner","atk":1200,"def":600},"rarity":"C","img":"77087109","code":"68","tcg":93902,"grp":1491,"idx":68},
     {"id":"069","section":"main","num":"069","printed":"LC5D-EN069","name":"Red Dragon Archfiend","ctype":"monster","keywords":"Archfiend Dragon DARK Synchro Monster","stats":{"a":"DARK","l":"Level 8","t":"Dragon / Synchro","atk":3000,"def":2000},"rarity":"C","img":"70902743","code":"69","tcg":93903,"grp":1491,"idx":69},
-    {"id":"069-ur","section":"rarities","num":"069","printed":"LC5D-EN069","name":"Red Dragon Archfiend","ctype":"monster","keywords":"Archfiend Dragon DARK Synchro Monster","stats":{"a":"DARK","l":"Level 8","t":"Dragon / Synchro","atk":3000,"def":2000},"rarity":"UR","img":"70902743","badge":"UR","variant":"Ultra Rare","code":"UR69","tcg":93904,"grp":1491,"idx":70},
     {"id":"070","section":"main","num":"070","printed":"LC5D-EN070","name":"Exploder Dragonwing","ctype":"monster","keywords":"Dragon DARK Synchro Monster","stats":{"a":"DARK","l":"Level 7","t":"Dragon / Synchro","atk":2400,"def":1600},"rarity":"R","img":"40529384","code":"70","tcg":93905,"grp":1491,"idx":71},
     {"id":"071","section":"main","num":"071","printed":"LC5D-EN071","name":"Majestic Red Dragon","ctype":"monster","keywords":"Archfiend Dragon DARK Synchro Monster","stats":{"a":"DARK","l":"Level 10","t":"Dragon / Synchro","atk":4000,"def":3000},"rarity":"SR","img":"67030233","code":"71","tcg":93906,"grp":1491,"idx":72},
     {"id":"072","section":"main","num":"072","printed":"LC5D-EN072","name":"Chaos King Archfiend","ctype":"monster","keywords":"Archfiend Fiend DARK Synchro Monster","stats":{"a":"DARK","l":"Level 7","t":"Fiend / Synchro","atk":2600,"def":2600},"rarity":"SR","img":"36407615","code":"72","tcg":93907,"grp":1491,"idx":73},
@@ -205,7 +202,6 @@
     {"id":"133","section":"main","num":"133","printed":"LC5D-EN133","name":"Blackwing Armed Wing","ctype":"monster","keywords":"Blackwing Winged Beast DARK Synchro Monster","stats":{"a":"DARK","l":"Level 6","t":"Winged Beast / Synchro","atk":2300,"def":1000},"rarity":"UR","img":"76913983","code":"133","tcg":93968,"grp":1491,"idx":134},
     {"id":"134","section":"main","num":"134","printed":"LC5D-EN134","name":"Blackwing - Silverwind the Ascendant","ctype":"monster","keywords":"Blackwing Winged Beast DARK Synchro Monster","stats":{"a":"DARK","l":"Level 8","t":"Winged Beast / Synchro","atk":2800,"def":2000},"rarity":"SR","img":"33236860","code":"134","tcg":93969,"grp":1491,"idx":135},
     {"id":"135","section":"main","num":"135","printed":"LC5D-EN135","name":"Black-Winged Dragon","ctype":"monster","keywords":"Dragon DARK Synchro Monster","stats":{"a":"DARK","l":"Level 8","t":"Dragon / Synchro","atk":2800,"def":1600},"rarity":"C","img":"9012916","code":"135","tcg":93970,"grp":1491,"idx":136},
-    {"id":"135-ur","section":"rarities","num":"135","printed":"LC5D-EN135","name":"Black-Winged Dragon","ctype":"monster","keywords":"Dragon DARK Synchro Monster","stats":{"a":"DARK","l":"Level 8","t":"Dragon / Synchro","atk":2800,"def":1600},"rarity":"UR","img":"9012916","badge":"UR","variant":"Ultra Rare","code":"UR135","tcg":93971,"grp":1491,"idx":137},
     {"id":"136","section":"main","num":"136","printed":"LC5D-EN136","name":"De-Synchro","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"32441317","code":"136","tcg":93972,"grp":1491,"idx":138},
     {"id":"137","section":"main","num":"137","printed":"LC5D-EN137","name":"Raptor Wing Strike","ctype":"spell","keywords":"Blackwing Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"94681654","code":"137","tcg":93973,"grp":1491,"idx":139},
     {"id":"138","section":"main","num":"138","printed":"LC5D-EN138","name":"Black Whirlwind","ctype":"spell","keywords":"Blackwing Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"UR","img":"91351370","code":"138","tcg":93974,"grp":1491,"idx":140},
@@ -309,7 +305,6 @@
     {"id":"236","section":"main","num":"236","printed":"LC5D-EN236","name":"Power Tool Dragon","ctype":"monster","keywords":"Power Tool Machine EARTH Synchro Monster","stats":{"a":"EARTH","l":"Level 7","t":"Machine / Synchro","atk":2300,"def":2500},"rarity":"C","img":"2403771","code":"236","tcg":94071,"grp":1491,"idx":238},
     {"id":"237","section":"main","num":"237","printed":"LC5D-EN237","name":"Trident Dragion","ctype":"monster","keywords":"Dragon FIRE Synchro Monster","stats":{"a":"FIRE","l":"Level 10","t":"Dragon / Synchro","atk":3000,"def":2800},"rarity":"ScR","img":"39402797","code":"237","tcg":94072,"grp":1491,"idx":239},
     {"id":"238","section":"main","num":"238","printed":"LC5D-EN238","name":"Ancient Fairy Dragon","ctype":"monster","keywords":"Dragon LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 7","t":"Dragon / Synchro","atk":2100,"def":3000},"rarity":"C","img":"25862681","code":"238","tcg":94073,"grp":1491,"idx":240},
-    {"id":"238-ur","section":"rarities","num":"238","printed":"LC5D-EN238","name":"Ancient Fairy Dragon","ctype":"monster","keywords":"Dragon LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 7","t":"Dragon / Synchro","atk":2100,"def":3000},"rarity":"UR","img":"25862681","badge":"UR","variant":"Ultra Rare","code":"UR238","tcg":94074,"grp":1491,"idx":241},
     {"id":"239","section":"main","num":"239","printed":"LC5D-EN239","name":"Ancient Sacred Wyvern","ctype":"monster","keywords":"Fairy LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 7","t":"Fairy / Synchro","atk":2100,"def":2000},"rarity":"ScR","img":"25958491","code":"239","tcg":94075,"grp":1491,"idx":242},
     {"id":"240","section":"main","num":"240","printed":"LC5D-EN240","name":"Mist Wurm","ctype":"monster","keywords":"Thunder WIND Synchro Monster","stats":{"a":"WIND","l":"Level 9","t":"Thunder / Synchro","atk":2500,"def":1500},"rarity":"UR","img":"27315304","code":"240","tcg":94076,"grp":1491,"idx":243},
     {"id":"241","section":"main","num":"241","printed":"LC5D-EN241","name":"Sun Dragon Inti","ctype":"monster","keywords":"Dragon LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Synchro","atk":3000,"def":2800},"rarity":"C","img":"39823987","code":"241","tcg":94077,"grp":1491,"idx":244},
@@ -327,6 +322,10 @@
     {"id":"253","section":"main","num":"253","printed":"LC5D-EN253","name":"Vanity's Emptiness","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"ScR","img":"5851097","code":"253","tcg":94089,"grp":1491,"idx":256},
     {"id":"254","section":"main","num":"254","printed":"LC5D-EN254","name":"Roaring Earth","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"4587638","code":"254","tcg":94090,"grp":1491,"idx":257},
     {"id":"255","section":"main","num":"255","printed":"LC5D-EN255","name":"Debunk","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"ScR","img":"65703851","code":"255","tcg":94091,"grp":1491,"idx":258},
-    {"id":"256","section":"main","num":"256","printed":"LC5D-EN256","name":"Full House","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"ScR","img":"45178472","code":"256","tcg":94092,"grp":1491,"idx":259}
+    {"id":"256","section":"main","num":"256","printed":"LC5D-EN256","name":"Full House","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"ScR","img":"45178472","code":"256","tcg":94092,"grp":1491,"idx":259},
+    {"id":"031-ur","section":"r-ur","num":"031","printed":"LC5D-EN031","name":"Stardust Dragon","ctype":"monster","keywords":"Stardust Dragon WIND Synchro Monster","stats":{"a":"WIND","l":"Level 8","t":"Dragon / Synchro","atk":2500,"def":2000},"rarity":"UR","img":"44508094","badge":"UR","variant":"Ultra Rare","code":"UR31","tcg":93865,"grp":1491,"idx":31},
+    {"id":"069-ur","section":"r-ur","num":"069","printed":"LC5D-EN069","name":"Red Dragon Archfiend","ctype":"monster","keywords":"Archfiend Dragon DARK Synchro Monster","stats":{"a":"DARK","l":"Level 8","t":"Dragon / Synchro","atk":3000,"def":2000},"rarity":"UR","img":"70902743","badge":"UR","variant":"Ultra Rare","code":"UR69","tcg":93904,"grp":1491,"idx":70},
+    {"id":"135-ur","section":"r-ur","num":"135","printed":"LC5D-EN135","name":"Black-Winged Dragon","ctype":"monster","keywords":"Dragon DARK Synchro Monster","stats":{"a":"DARK","l":"Level 8","t":"Dragon / Synchro","atk":2800,"def":1600},"rarity":"UR","img":"9012916","badge":"UR","variant":"Ultra Rare","code":"UR135","tcg":93971,"grp":1491,"idx":137},
+    {"id":"238-ur","section":"r-ur","num":"238","printed":"LC5D-EN238","name":"Ancient Fairy Dragon","ctype":"monster","keywords":"Dragon LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 7","t":"Dragon / Synchro","atk":2100,"def":3000},"rarity":"UR","img":"25862681","badge":"UR","variant":"Ultra Rare","code":"UR238","tcg":94074,"grp":1491,"idx":241}
   ]
 }

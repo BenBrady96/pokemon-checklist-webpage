@@ -17,10 +17,15 @@
       "tier": "standard"
     },
     {
-      "id": "rarities",
-      "name": "Other Rarities",
-      "short": "Other Rarities",
-      "range": "11 cards",
+      "id": "r-utr",
+      "name": "Ultimate Rares",
+      "range": "10 cards",
+      "tier": "master"
+    },
+    {
+      "id": "r-gr",
+      "name": "Ghost Rares",
+      "range": "1 card",
       "tier": "master"
     }
   ],
@@ -30,8 +35,12 @@
       "Main set"
     ],
     [
-      "rarities",
-      "Other rarities"
+      "r-utr",
+      "Ultimate Rares"
+    ],
+    [
+      "r-gr",
+      "Ghost Rares"
     ]
   ],
   "quickAdd": {
@@ -72,7 +81,6 @@
     {"id":"001","section":"main","num":"001","printed":"TSHD-EN001","name":"Blackwing - Ghibli the Searing Wind","ctype":"monster","keywords":"Blackwing Winged Beast DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Winged Beast / Effect","atk":0,"def":1600},"rarity":"C","img":"26775203","code":"1","tcg":34948,"grp":332,"idx":1},
     {"id":"002","section":"main","num":"002","printed":"TSHD-EN002","name":"Blackwing - Gust the Backblast","ctype":"monster","keywords":"Blackwing Winged Beast DARK Effect Monster","stats":{"a":"DARK","l":"Level 2","t":"Winged Beast / Effect","atk":900,"def":1400},"rarity":"R","img":"52869807","code":"2","tcg":34949,"grp":332,"idx":2},
     {"id":"003","section":"main","num":"003","printed":"TSHD-EN003","name":"Blackwing - Breeze the Zephyr","ctype":"monster","keywords":"Blackwing Winged Beast DARK Tuner Monster","stats":{"a":"DARK","l":"Level 3","t":"Winged Beast / Tuner","atk":1100,"def":300},"rarity":"UR","img":"89258906","code":"3","tcg":34950,"grp":332,"idx":3},
-    {"id":"003-utr","section":"rarities","num":"003","printed":"TSHD-EN003","name":"Blackwing - Breeze the Zephyr","ctype":"monster","keywords":"Blackwing Winged Beast DARK Tuner Monster","stats":{"a":"DARK","l":"Level 3","t":"Winged Beast / Tuner","atk":1100,"def":300},"rarity":"UtR","img":"89258906","badge":"UtR","variant":"Ultimate Rare","code":"UTR3","tcg":58444,"grp":332,"idx":4},
     {"id":"004","section":"main","num":"004","printed":"TSHD-EN004","name":"Changer Synchron","ctype":"monster","keywords":"Synchron Machine DARK Tuner Monster","stats":{"a":"DARK","l":"Level 1","t":"Machine / Tuner","atk":0,"def":0},"rarity":"C","img":"25652655","code":"4","tcg":34951,"grp":332,"idx":5},
     {"id":"005","section":"main","num":"005","printed":"TSHD-EN005","name":"Card Breaker","ctype":"monster","keywords":"Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 2","t":"Warrior / Effect","atk":100,"def":900},"rarity":"C","img":"51047350","code":"5","tcg":34952,"grp":332,"idx":6},
     {"id":"006","section":"main","num":"006","printed":"TSHD-EN006","name":"Second Booster","ctype":"monster","keywords":"Machine FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 3","t":"Machine / Effect","atk":1000,"def":500},"rarity":"C","img":"88032368","code":"6","tcg":34953,"grp":332,"idx":7},
@@ -109,26 +117,17 @@
     {"id":"037","section":"main","num":"037","printed":"TSHD-EN037","name":"Ally of Justice Core Destroyer","ctype":"monster","keywords":"Ally of Justice Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Machine / Effect","atk":1200,"def":200},"rarity":"R","img":"36629203","code":"37","tcg":34984,"grp":332,"idx":38},
     {"id":"038","section":"main","num":"038","printed":"TSHD-EN038","name":"Hunter of Black Feathers","ctype":"monster","keywords":"Beast-Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Beast-Warrior / Effect","atk":1700,"def":1000},"rarity":"SP","img":"73018302","code":"38","tcg":34985,"grp":332,"idx":39},
     {"id":"039","section":"main","num":"039","printed":"TSHD-EN039","name":"Herald of Perfection","ctype":"monster","keywords":"Herald Fairy LIGHT Ritual Effect Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Fairy / Ritual / Effect","atk":1800,"def":2800},"rarity":"UR","img":"44665365","code":"39","tcg":34986,"grp":332,"idx":40},
-    {"id":"039-utr","section":"rarities","num":"039","printed":"TSHD-EN039","name":"Herald of Perfection","ctype":"monster","keywords":"Herald Fairy LIGHT Ritual Effect Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Fairy / Ritual / Effect","atk":1800,"def":2800},"rarity":"UtR","img":"44665365","badge":"UtR","variant":"Ultimate Rare","code":"UTR39","tcg":58445,"grp":332,"idx":41},
     {"id":"040","section":"main","num":"040","printed":"TSHD-EN040","name":"Black-Winged Dragon","ctype":"monster","keywords":"Dragon DARK Synchro Monster","stats":{"a":"DARK","l":"Level 8","t":"Dragon / Synchro","atk":2800,"def":1600},"rarity":"UR","img":"9012916","code":"40","tcg":34987,"grp":332,"idx":42},
-    {"id":"040-utr","section":"rarities","num":"040","printed":"TSHD-EN040","name":"Black-Winged Dragon","ctype":"monster","keywords":"Dragon DARK Synchro Monster","stats":{"a":"DARK","l":"Level 8","t":"Dragon / Synchro","atk":2800,"def":1600},"rarity":"UtR","img":"9012916","badge":"UtR","variant":"Ultimate Rare","code":"UTR40","tcg":58446,"grp":332,"idx":43},
-    {"id":"040-gr","section":"rarities","num":"040","printed":"TSHD-EN040","name":"Black-Winged Dragon","ctype":"monster","keywords":"Dragon DARK Synchro Monster","stats":{"a":"DARK","l":"Level 8","t":"Dragon / Synchro","atk":2800,"def":1600},"rarity":"GR","img":"9012916","badge":"GR","variant":"Ghost Rare","code":"GR40","tcg":35047,"grp":332,"idx":44},
     {"id":"041","section":"main","num":"041","printed":"TSHD-EN041","name":"Chaos King Archfiend","ctype":"monster","keywords":"Archfiend Fiend DARK Synchro Monster","stats":{"a":"DARK","l":"Level 7","t":"Fiend / Synchro","atk":2600,"def":2600},"rarity":"UR","img":"36407615","code":"41","tcg":34988,"grp":332,"idx":45},
-    {"id":"041-utr","section":"rarities","num":"041","printed":"TSHD-EN041","name":"Chaos King Archfiend","ctype":"monster","keywords":"Archfiend Fiend DARK Synchro Monster","stats":{"a":"DARK","l":"Level 7","t":"Fiend / Synchro","atk":2600,"def":2600},"rarity":"UtR","img":"36407615","badge":"UtR","variant":"Ultimate Rare","code":"UTR41","tcg":58447,"grp":332,"idx":46},
     {"id":"042","section":"main","num":"042","printed":"TSHD-EN042","name":"Infernity Doom Dragon","ctype":"monster","keywords":"Infernity Dragon DARK Synchro Monster","stats":{"a":"DARK","l":"Level 8","t":"Dragon / Synchro","atk":3000,"def":2400},"rarity":"UR","img":"72896720","code":"42","tcg":34989,"grp":332,"idx":47},
-    {"id":"042-utr","section":"rarities","num":"042","printed":"TSHD-EN042","name":"Infernity Doom Dragon","ctype":"monster","keywords":"Infernity Dragon DARK Synchro Monster","stats":{"a":"DARK","l":"Level 8","t":"Dragon / Synchro","atk":3000,"def":2400},"rarity":"UtR","img":"72896720","badge":"UtR","variant":"Ultimate Rare","code":"UTR42","tcg":58448,"grp":332,"idx":48},
     {"id":"043","section":"main","num":"043","printed":"TSHD-EN043","name":"Splendid Rose","ctype":"monster","keywords":"Rose Dragon Plant WIND Synchro Monster","stats":{"a":"WIND","l":"Level 6","t":"Plant / Synchro","atk":2200,"def":2000},"rarity":"UR","img":"4290468","code":"43","tcg":34990,"grp":332,"idx":49},
-    {"id":"043-utr","section":"rarities","num":"043","printed":"TSHD-EN043","name":"Splendid Rose","ctype":"monster","keywords":"Rose Dragon Plant WIND Synchro Monster","stats":{"a":"WIND","l":"Level 6","t":"Plant / Synchro","atk":2200,"def":2000},"rarity":"UtR","img":"4290468","badge":"UtR","variant":"Ultimate Rare","code":"UTR43","tcg":58449,"grp":332,"idx":50},
     {"id":"044","section":"main","num":"044","printed":"TSHD-EN044","name":"Chaos Goddess","ctype":"monster","keywords":"Chaos Fairy LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Fairy / Synchro","atk":2500,"def":1800},"rarity":"ScR","img":"31385077","code":"44","tcg":34991,"grp":332,"idx":51},
     {"id":"045","section":"main","num":"045","printed":"TSHD-EN045","name":"Black-Winged Strafe","ctype":"spell","keywords":"Blackwing Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"67779172","code":"45","tcg":34992,"grp":332,"idx":52},
     {"id":"046","section":"main","num":"046","printed":"TSHD-EN046","name":"Cards for Black Feathers","ctype":"spell","keywords":"Blackwing Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UR","img":"4168871","code":"46","tcg":34993,"grp":332,"idx":53},
-    {"id":"046-utr","section":"rarities","num":"046","printed":"TSHD-EN046","name":"Cards for Black Feathers","ctype":"spell","keywords":"Blackwing Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UtR","img":"4168871","badge":"UtR","variant":"Ultimate Rare","code":"UTR46","tcg":58450,"grp":332,"idx":54},
     {"id":"047","section":"main","num":"047","printed":"TSHD-EN047","name":"ZERO-MAX","ctype":"spell","keywords":"Infernity Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"30562585","code":"47","tcg":34994,"grp":332,"idx":55},
     {"id":"048","section":"main","num":"048","printed":"TSHD-EN048","name":"Infernity Launcher","ctype":"spell","keywords":"Infernity Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"SR","img":"66957584","code":"48","tcg":34995,"grp":332,"idx":56},
     {"id":"049","section":"main","num":"049","printed":"TSHD-EN049","name":"Into the Void","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UR","img":"93946239","code":"49","tcg":34996,"grp":332,"idx":57},
-    {"id":"049-utr","section":"rarities","num":"049","printed":"TSHD-EN049","name":"Into the Void","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UtR","img":"93946239","badge":"UtR","variant":"Ultimate Rare","code":"UTR49","tcg":58451,"grp":332,"idx":58},
     {"id":"050","section":"main","num":"050","printed":"TSHD-EN050","name":"Intercept Wave","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"UR","img":"39440937","code":"50","tcg":34997,"grp":332,"idx":59},
-    {"id":"050-utr","section":"rarities","num":"050","printed":"TSHD-EN050","name":"Intercept Wave","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"UtR","img":"39440937","badge":"UtR","variant":"Ultimate Rare","code":"UTR50","tcg":58452,"grp":332,"idx":60},
     {"id":"051","section":"main","num":"051","printed":"TSHD-EN051","name":"Pyramid of Wonders","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"R","img":"66835946","code":"51","tcg":34998,"grp":332,"idx":61},
     {"id":"052","section":"main","num":"052","printed":"TSHD-EN052","name":"The Fountain in the Sky","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"R","img":"92223641","code":"52","tcg":34999,"grp":332,"idx":62},
     {"id":"053","section":"main","num":"053","printed":"TSHD-EN053","name":"Dragon Laser","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"29228350","code":"53","tcg":35000,"grp":332,"idx":63},
@@ -160,7 +159,6 @@
     {"id":"079","section":"main","num":"079","printed":"TSHD-EN079","name":"Synchro Ejection","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"75105429","code":"79","tcg":35026,"grp":332,"idx":89},
     {"id":"080","section":"main","num":"080","printed":"TSHD-EN080","name":"Chaos Trap Hole","ctype":"trap","keywords":"Chaos Counter Trap","stats":{"t":"Counter Trap"},"rarity":"SP","img":"11593137","code":"80","tcg":35027,"grp":332,"idx":90},
     {"id":"081","section":"main","num":"081","printed":"TSHD-EN081","name":"XX-Saber Darksoul","ctype":"monster","keywords":"X-Saber Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Beast / Effect","atk":100,"def":100},"rarity":"UR","img":"31383545","code":"81","tcg":35028,"grp":332,"idx":91},
-    {"id":"081-utr","section":"rarities","num":"081","printed":"TSHD-EN081","name":"XX-Saber Darksoul","ctype":"monster","keywords":"X-Saber Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Beast / Effect","atk":100,"def":100},"rarity":"UtR","img":"31383545","badge":"UtR","variant":"Ultimate Rare","code":"UTR81","tcg":58453,"grp":332,"idx":92},
     {"id":"082","section":"main","num":"082","printed":"TSHD-EN082","name":"Koa'ki Meiru Prototype","ctype":"monster","keywords":"Koa'ki Meiru Rock EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Rock / Effect","atk":1800,"def":1800},"rarity":"R","img":"176392","code":"82","tcg":35029,"grp":332,"idx":93},
     {"id":"083","section":"main","num":"083","printed":"TSHD-EN083","name":"Snyffus","ctype":"monster","keywords":"Beast EARTH Tuner Monster","stats":{"a":"EARTH","l":"Level 1","t":"Beast / Tuner","atk":100,"def":100},"rarity":"ScR","img":"35448319","code":"83","tcg":35030,"grp":332,"idx":94},
     {"id":"084","section":"main","num":"084","printed":"TSHD-EN084","name":"Nimble Sunfish","ctype":"monster","keywords":"Nimble Fish WATER Effect Monster","stats":{"a":"WATER","l":"Level 2","t":"Fish / Effect","atk":1000,"def":100},"rarity":"SR","img":"2843014","code":"84","tcg":35031,"grp":332,"idx":95},
@@ -178,6 +176,17 @@
     {"id":"096","section":"main","num":"096","printed":"TSHD-EN096","name":"Ally of Justice Light Gazer","ctype":"monster","keywords":"Ally of Justice Machine DARK Synchro Monster","stats":{"a":"DARK","l":"Level 8","t":"Machine / Synchro","atk":2400,"def":1600},"rarity":"SR","img":"19204398","code":"96","tcg":35043,"grp":332,"idx":107},
     {"id":"097","section":"main","num":"097","printed":"TSHD-EN097","name":"Genex Neutron","ctype":"monster","keywords":"Genex Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Machine / Effect","atk":1800,"def":1200},"rarity":"ScR","img":"19182751","code":"97","tcg":35044,"grp":332,"idx":108},
     {"id":"098","section":"main","num":"098","printed":"TSHD-EN098","name":"Infernity Destroyer","ctype":"monster","keywords":"Infernity Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Fiend / Effect","atk":2300,"def":1000},"rarity":"ScR","img":"98954375","code":"98","tcg":35045,"grp":332,"idx":109},
-    {"id":"099","section":"main","num":"099","printed":"TSHD-EN099","name":"Koa'ki Meiru Bergzak","ctype":"monster","keywords":"Koa'ki Meiru Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Effect","atk":2000,"def":200},"rarity":"ScR","img":"80367387","code":"99","tcg":35046,"grp":332,"idx":110}
+    {"id":"099","section":"main","num":"099","printed":"TSHD-EN099","name":"Koa'ki Meiru Bergzak","ctype":"monster","keywords":"Koa'ki Meiru Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Effect","atk":2000,"def":200},"rarity":"ScR","img":"80367387","code":"99","tcg":35046,"grp":332,"idx":110},
+    {"id":"003-utr","section":"r-utr","num":"003","printed":"TSHD-EN003","name":"Blackwing - Breeze the Zephyr","ctype":"monster","keywords":"Blackwing Winged Beast DARK Tuner Monster","stats":{"a":"DARK","l":"Level 3","t":"Winged Beast / Tuner","atk":1100,"def":300},"rarity":"UtR","img":"89258906","badge":"UtR","variant":"Ultimate Rare","code":"UTR3","tcg":58444,"grp":332,"idx":4},
+    {"id":"039-utr","section":"r-utr","num":"039","printed":"TSHD-EN039","name":"Herald of Perfection","ctype":"monster","keywords":"Herald Fairy LIGHT Ritual Effect Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Fairy / Ritual / Effect","atk":1800,"def":2800},"rarity":"UtR","img":"44665365","badge":"UtR","variant":"Ultimate Rare","code":"UTR39","tcg":58445,"grp":332,"idx":41},
+    {"id":"040-utr","section":"r-utr","num":"040","printed":"TSHD-EN040","name":"Black-Winged Dragon","ctype":"monster","keywords":"Dragon DARK Synchro Monster","stats":{"a":"DARK","l":"Level 8","t":"Dragon / Synchro","atk":2800,"def":1600},"rarity":"UtR","img":"9012916","badge":"UtR","variant":"Ultimate Rare","code":"UTR40","tcg":58446,"grp":332,"idx":43},
+    {"id":"041-utr","section":"r-utr","num":"041","printed":"TSHD-EN041","name":"Chaos King Archfiend","ctype":"monster","keywords":"Archfiend Fiend DARK Synchro Monster","stats":{"a":"DARK","l":"Level 7","t":"Fiend / Synchro","atk":2600,"def":2600},"rarity":"UtR","img":"36407615","badge":"UtR","variant":"Ultimate Rare","code":"UTR41","tcg":58447,"grp":332,"idx":46},
+    {"id":"042-utr","section":"r-utr","num":"042","printed":"TSHD-EN042","name":"Infernity Doom Dragon","ctype":"monster","keywords":"Infernity Dragon DARK Synchro Monster","stats":{"a":"DARK","l":"Level 8","t":"Dragon / Synchro","atk":3000,"def":2400},"rarity":"UtR","img":"72896720","badge":"UtR","variant":"Ultimate Rare","code":"UTR42","tcg":58448,"grp":332,"idx":48},
+    {"id":"043-utr","section":"r-utr","num":"043","printed":"TSHD-EN043","name":"Splendid Rose","ctype":"monster","keywords":"Rose Dragon Plant WIND Synchro Monster","stats":{"a":"WIND","l":"Level 6","t":"Plant / Synchro","atk":2200,"def":2000},"rarity":"UtR","img":"4290468","badge":"UtR","variant":"Ultimate Rare","code":"UTR43","tcg":58449,"grp":332,"idx":50},
+    {"id":"046-utr","section":"r-utr","num":"046","printed":"TSHD-EN046","name":"Cards for Black Feathers","ctype":"spell","keywords":"Blackwing Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UtR","img":"4168871","badge":"UtR","variant":"Ultimate Rare","code":"UTR46","tcg":58450,"grp":332,"idx":54},
+    {"id":"049-utr","section":"r-utr","num":"049","printed":"TSHD-EN049","name":"Into the Void","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UtR","img":"93946239","badge":"UtR","variant":"Ultimate Rare","code":"UTR49","tcg":58451,"grp":332,"idx":58},
+    {"id":"050-utr","section":"r-utr","num":"050","printed":"TSHD-EN050","name":"Intercept Wave","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"UtR","img":"39440937","badge":"UtR","variant":"Ultimate Rare","code":"UTR50","tcg":58452,"grp":332,"idx":60},
+    {"id":"081-utr","section":"r-utr","num":"081","printed":"TSHD-EN081","name":"XX-Saber Darksoul","ctype":"monster","keywords":"X-Saber Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Beast / Effect","atk":100,"def":100},"rarity":"UtR","img":"31383545","badge":"UtR","variant":"Ultimate Rare","code":"UTR81","tcg":58453,"grp":332,"idx":92},
+    {"id":"040-gr","section":"r-gr","num":"040","printed":"TSHD-EN040","name":"Black-Winged Dragon","ctype":"monster","keywords":"Dragon DARK Synchro Monster","stats":{"a":"DARK","l":"Level 8","t":"Dragon / Synchro","atk":2800,"def":1600},"rarity":"GR","img":"9012916","badge":"GR","variant":"Ghost Rare","code":"GR40","tcg":35047,"grp":332,"idx":44}
   ]
 }

@@ -17,10 +17,15 @@
       "tier": "standard"
     },
     {
-      "id": "rarities",
-      "name": "Other Rarities",
-      "short": "Other Rarities",
-      "range": "2 cards",
+      "id": "r-drpr",
+      "name": "Duel Terminal Rare Parallel Rares",
+      "range": "1 card",
+      "tier": "master"
+    },
+    {
+      "id": "r-dspr",
+      "name": "Duel Terminal Super Parallel Rares",
+      "range": "1 card",
       "tier": "master"
     }
   ],
@@ -30,8 +35,12 @@
       "Main set"
     ],
     [
-      "rarities",
-      "Other rarities"
+      "r-drpr",
+      "Duel Terminal Rare Parallel Rares"
+    ],
+    [
+      "r-dspr",
+      "Duel Terminal Super Parallel Rares"
     ]
   ],
   "quickAdd": {
@@ -78,7 +87,6 @@
     {"id":"008","section":"main","num":"008","printed":"DT01-EN008","name":"Winged Kuriboh","ctype":"monster","keywords":"Kuriboh Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Fairy / Effect","atk":300,"def":200},"rarity":"DNPR","img":"57116033","code":"8","tcg":80903,"grp":1327,"idx":7},
     {"id":"009","section":"main","num":"009","printed":"DT01-EN009","name":"Cyber Dragon","ctype":"monster","keywords":"Cyber Dragon Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 5","t":"Machine / Effect","atk":2100,"def":1600},"rarity":"DRPR","img":"70095154","code":"9","tcg":80904,"grp":1327,"idx":8},
     {"id":"010","section":"main","num":"010","printed":"DT01-EN010","name":"Blizzed, Defender of the Ice Barrier","ctype":"monster","keywords":"Ice Barrier Aqua WATER Effect Monster","stats":{"a":"WATER","l":"Level 1","t":"Aqua / Effect","atk":300,"def":500},"rarity":"DNPR","img":"60161788","code":"10","tcg":80905,"grp":1327,"idx":9},
-    {"id":"010-dspr","section":"rarities","num":"010","printed":"DT01-EN010","name":"Blizzed, Defender of the Ice Barrier","ctype":"monster","keywords":"Ice Barrier Aqua WATER Effect Monster","stats":{"a":"WATER","l":"Level 1","t":"Aqua / Effect","atk":300,"def":500},"rarity":"DSPR","img":"60161788","badge":"DSPR","variant":"Duel Terminal Super Parallel Rare","code":"DSPR10","tcg":80905,"grp":1327,"idx":10},
     {"id":"011","section":"main","num":"011","printed":"DT01-EN011","name":"Blizzard Warrior","ctype":"monster","keywords":"Warrior WATER Effect Monster","stats":{"a":"WATER","l":"Level 3","t":"Warrior / Effect","atk":1400,"def":400},"rarity":"DNPR","img":"96565487","code":"11","tcg":80907,"grp":1327,"idx":11},
     {"id":"012","section":"main","num":"012","printed":"DT01-EN012","name":"Cryomancer of the Ice Barrier","ctype":"monster","keywords":"Ice Barrier Aqua WATER Tuner Monster","stats":{"a":"WATER","l":"Level 2","t":"Aqua / Tuner","atk":1300,"def":0},"rarity":"DRPR","img":"23950192","code":"12","tcg":80906,"grp":1327,"idx":12},
     {"id":"013","section":"main","num":"013","printed":"DT01-EN013","name":"Mist Valley Thunderbird","ctype":"monster","keywords":"Mist Valley Thunder WIND Effect Monster","stats":{"a":"WIND","l":"Level 3","t":"Thunder / Effect","atk":1100,"def":700},"rarity":"DNPR","img":"69448290","code":"13","tcg":80908,"grp":1327,"idx":13},
@@ -153,7 +161,6 @@
     {"id":"082","section":"main","num":"082","printed":"DT01-EN082","name":"Worm Hope","ctype":"monster","keywords":"Worm Reptile LIGHT Flip Effect Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Reptile / Flip / Effect","atk":800,"def":1500},"rarity":"DNPR","img":"11159464","code":"82","tcg":80984,"grp":1327,"idx":82},
     {"id":"083","section":"main","num":"083","printed":"DT01-EN083","name":"Worm Illidan","ctype":"monster","keywords":"Worm Reptile LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 5","t":"Reptile / Effect","atk":2000,"def":1800},"rarity":"DSPR","img":"57543573","code":"83","tcg":80985,"grp":1327,"idx":83},
     {"id":"084","section":"main","num":"084","printed":"DT01-EN084","name":"Worm Jetelikpse","ctype":"monster","keywords":"Worm Reptile LIGHT Flip Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Reptile / Flip / Effect","atk":1200,"def":0},"rarity":"DNPR","img":"84932271","code":"84","tcg":80986,"grp":1327,"idx":84},
-    {"id":"084-drpr","section":"rarities","num":"084","printed":"DT01-EN084","name":"Worm Jetelikpse","ctype":"monster","keywords":"Worm Reptile LIGHT Flip Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Reptile / Flip / Effect","atk":1200,"def":0},"rarity":"DRPR","img":"84932271","badge":"DRPR","variant":"Duel Terminal Rare Parallel Rare","code":"DRPR84","tcg":80986,"grp":1327,"idx":85},
     {"id":"085","section":"main","num":"085","printed":"DT01-EN085","name":"Worm King","ctype":"monster","keywords":"Worm Reptile LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Reptile / Effect","atk":2700,"def":1100},"rarity":"DUPR","img":"10026986","code":"85","tcg":80987,"grp":1327,"idx":86},
     {"id":"086","section":"main","num":"086","printed":"DT01-EN086","name":"Nitro Warrior","ctype":"monster","keywords":"Warrior FIRE Synchro Monster","stats":{"a":"FIRE","l":"Level 7","t":"Warrior / Synchro","atk":2800,"def":1800},"rarity":"DSPR","img":"18013090","code":"86","tcg":80988,"grp":1327,"idx":87},
     {"id":"087","section":"main","num":"087","printed":"DT01-EN087","name":"Goyo Guardian","ctype":"monster","keywords":"Guardian Warrior EARTH Synchro Monster","stats":{"a":"EARTH","l":"Level 6","t":"Warrior / Synchro","atk":2800,"def":2000},"rarity":"DSPR","img":"7391448","code":"87","tcg":80989,"grp":1327,"idx":88},
@@ -169,6 +176,8 @@
     {"id":"097","section":"main","num":"097","printed":"DT01-EN097","name":"Shadow of Eyes","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"DNPR","img":"58621589","code":"97","tcg":80999,"grp":1327,"idx":98},
     {"id":"098","section":"main","num":"098","printed":"DT01-EN098","name":"Adhesion Trap Hole","ctype":"trap","keywords":"Hole Normal Trap","stats":{"t":"Normal Trap"},"rarity":"DNPR","img":"62325062","code":"98","tcg":81000,"grp":1327,"idx":99},
     {"id":"099","section":"main","num":"099","printed":"DT01-EN099","name":"Crystal Raigeki","ctype":"trap","keywords":"Crystal Beast Normal Trap","stats":{"t":"Normal Trap"},"rarity":"DNPR","img":"96331676","code":"99","tcg":81001,"grp":1327,"idx":100},
-    {"id":"100","section":"main","num":"100","printed":"DT01-EN100","name":"Black Horn of Heaven","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"DNPR","img":"50323155","code":"100","tcg":81002,"grp":1327,"idx":101}
+    {"id":"100","section":"main","num":"100","printed":"DT01-EN100","name":"Black Horn of Heaven","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"DNPR","img":"50323155","code":"100","tcg":81002,"grp":1327,"idx":101},
+    {"id":"084-drpr","section":"r-drpr","num":"084","printed":"DT01-EN084","name":"Worm Jetelikpse","ctype":"monster","keywords":"Worm Reptile LIGHT Flip Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Reptile / Flip / Effect","atk":1200,"def":0},"rarity":"DRPR","img":"84932271","badge":"DRPR","variant":"Duel Terminal Rare Parallel Rare","code":"DRPR84","tcg":80986,"grp":1327,"idx":85},
+    {"id":"010-dspr","section":"r-dspr","num":"010","printed":"DT01-EN010","name":"Blizzed, Defender of the Ice Barrier","ctype":"monster","keywords":"Ice Barrier Aqua WATER Effect Monster","stats":{"a":"WATER","l":"Level 1","t":"Aqua / Effect","atk":300,"def":500},"rarity":"DSPR","img":"60161788","badge":"DSPR","variant":"Duel Terminal Super Parallel Rare","code":"DSPR10","tcg":80905,"grp":1327,"idx":10}
   ]
 }

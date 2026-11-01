@@ -15,34 +15,45 @@
       "name": "Cards",
       "range": "LCKC-EN001–LCKC-EN110",
       "tier": "standard"
+    },
+    {
+      "id": "r-ur",
+      "name": "Ultra Rares",
+      "range": "4 cards",
+      "tier": "master"
     }
   ],
   "summary": [
     [
       "main",
-      "Cards"
+      "Main set"
+    ],
+    [
+      "r-ur",
+      "Ultra Rares"
     ]
   ],
   "quickAdd": {
-    "placeholder": "e.g. 1-20, 45, 60x2",
-    "example": "1-20, 45x2",
-    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "placeholder": "e.g. 1-20, 45, SCR12, 60x2",
+    "example": "1-20, 45x2, SCR12",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies. Other rarities use their short name and number: <b>SCR12</b> is card 12’s Secret Rare, and ranges work too (<b>QCSR1-QCSR20</b>).",
     "empty": "Cards run from LCKC-EN001 to LCKC-EN110."
   },
   "help": {
-    "tiers": ""
+    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 110 cards, each in its main rarity. Master adds the 4 other rarities. Cards you’ve marked are kept when you switch."
   },
   "seo": {
     "title": "Yu-Gi-Oh! Legendary Collection Kaiba Mega Pack Checklist · All 110 Cards",
-    "description": "Free Yu-Gi-Oh! Legendary Collection Kaiba Mega Pack checklist with no ads, no sign-up and no tracking. Track all 110 cards, with images, copy counts, binder pages and prices.",
+    "description": "Free Yu-Gi-Oh! Legendary Collection Kaiba Mega Pack checklist with no ads, no sign-up and no tracking. Track all 110 cards, or every rarity for a master set, with images, copy counts, binder pages and prices.",
     "ogTitle": "Yu-Gi-Oh! Legendary Collection Kaiba Mega Pack Checklist",
-    "ogDescription": "Track all 110 cards in Yu-Gi-Oh! Legendary Collection Kaiba Mega Pack. Free, with no ads, no sign-up and no tracking.",
+    "ogDescription": "Track all 110 cards in Yu-Gi-Oh! Legendary Collection Kaiba Mega Pack, plus 4 other rarities. Free, with no ads, no sign-up and no tracking.",
     "twitterDescription": "Track all 110 cards in Yu-Gi-Oh! Legendary Collection Kaiba Mega Pack. Free, with no ads, no sign-up and no tracking."
   },
   "about": {
     "title": "About Legendary Collection Kaiba Mega Pack",
     "paragraphs": [
-      "Legendary Collection Kaiba Mega Pack is a Yu-Gi-Oh! TCG tin released on 8 March 2018, in the VRAINS era. It has 110 cards.",
+      "Legendary Collection Kaiba Mega Pack is a Yu-Gi-Oh! TCG tin released on 8 March 2018, in the VRAINS era. It has 110 cards, and with the 4 other rarities there are 114 to collect in all.",
+      "Choose what you’re collecting: the <b>Standard set</b> (the 110 cards, each in its main rarity) or the <b>Master set</b> (all 114, adding the 4 other rarities).",
       "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
       "Card details and images come from YGOPRODeck, and prices from TCGplayer."
     ]
@@ -56,7 +67,7 @@
     ]
   },
   "cards": [
-    {"id":"001","section":"main","num":"001","printed":"LCKC-EN001","name":"Blue-Eyes White Dragon","ctype":"monster","keywords":"Blue-Eyes Dragon LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Normal","atk":3000,"def":2500},"rarity":"UR","img":"89631140","code":"1","tcg":161927,"grp":2195,"idx":0},
+    {"id":"001","section":"main","num":"001","printed":"LCKC-EN001","name":"Blue-Eyes White Dragon","ctype":"monster","keywords":"Blue-Eyes Dragon LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Normal","atk":3000,"def":2500},"rarity":"UR","img":"89631140","print":"Version 1","code":"1","tcg":161927,"grp":2195,"idx":0},
     {"id":"002","section":"main","num":"002","printed":"LCKC-EN002","name":"La Jinn the Mystical Genie of the Lamp","ctype":"monster","keywords":"Fiend DARK Normal Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Normal","atk":1800,"def":1000},"rarity":"UR","img":"97590747","code":"2","tcg":161928,"grp":2195,"idx":1},
     {"id":"003","section":"main","num":"003","printed":"LCKC-EN003","name":"Vorse Raider","ctype":"monster","keywords":"Beast-Warrior DARK Normal Monster","stats":{"a":"DARK","l":"Level 4","t":"Beast-Warrior / Normal","atk":1900,"def":1200},"rarity":"UR","img":"14898067","code":"3","tcg":161929,"grp":2195,"idx":2},
     {"id":"004","section":"main","num":"004","printed":"LCKC-EN004","name":"Judge Man","ctype":"monster","keywords":"Warrior EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 6","t":"Warrior / Normal","atk":2200,"def":1500},"rarity":"UR","img":"30113682","code":"4","tcg":161930,"grp":2195,"idx":3},
@@ -101,7 +112,7 @@
     {"id":"043","section":"main","num":"043","printed":"LCKC-EN043","name":"Shrink","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"UR","img":"55713623","code":"43","tcg":161969,"grp":2195,"idx":42},
     {"id":"044","section":"main","num":"044","printed":"LCKC-EN044","name":"De-Fusion","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"ScR","img":"95286165","code":"44","tcg":161970,"grp":2195,"idx":43},
     {"id":"045","section":"main","num":"045","printed":"LCKC-EN045","name":"Spell Reproduction","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UR","img":"29228529","code":"45","tcg":161971,"grp":2195,"idx":44},
-    {"id":"046","section":"main","num":"046","printed":"LCKC-EN046","name":"Crush Card Virus","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"UR","img":"57728570","code":"46","tcg":161972,"grp":2195,"idx":45},
+    {"id":"046","section":"main","num":"046","printed":"LCKC-EN046","name":"Crush Card Virus","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"UR","img":"57728570","print":"Version 1","code":"46","tcg":161972,"grp":2195,"idx":45},
     {"id":"047","section":"main","num":"047","printed":"LCKC-EN047","name":"Deck Devastation Virus","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"UR","img":"35027493","code":"47","tcg":161973,"grp":2195,"idx":46},
     {"id":"048","section":"main","num":"048","printed":"LCKC-EN048","name":"Eradicator Epidemic Virus","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"UR","img":"54974237","code":"48","tcg":161974,"grp":2195,"idx":47},
     {"id":"049","section":"main","num":"049","printed":"LCKC-EN049","name":"Full Force Virus","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"UR","img":"4931121","code":"49","tcg":161975,"grp":2195,"idx":48},
@@ -165,6 +176,10 @@
     {"id":"107","section":"main","num":"107","printed":"LCKC-EN107","name":"The King of D.","ctype":"monster","keywords":"Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Effect","atk":1200,"def":1100},"rarity":"ScR","img":"8978197","code":"107","tcg":162033,"grp":2195,"idx":106},
     {"id":"108","section":"main","num":"108","printed":"LCKC-EN108","name":"Destruction Dragon","ctype":"monster","keywords":"Legendary Knight Dragon FIRE Fusion Monster","stats":{"a":"FIRE","l":"Level 8","t":"Dragon / Fusion","atk":2000,"def":3000},"rarity":"ScR","img":"44373896","code":"108","tcg":162034,"grp":2195,"idx":107},
     {"id":"109","section":"main","num":"109","printed":"LCKC-EN109","name":"Dragon Revival Rhapsody","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"ScR","img":"71867500","code":"109","tcg":162035,"grp":2195,"idx":108},
-    {"id":"110","section":"main","num":"110","printed":"LCKC-EN110","name":"Loop of Destruction","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"ScR","img":"7852510","code":"110","tcg":162036,"grp":2195,"idx":109}
+    {"id":"110","section":"main","num":"110","printed":"LCKC-EN110","name":"Loop of Destruction","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"ScR","img":"7852510","code":"110","tcg":162036,"grp":2195,"idx":109},
+    {"id":"001-ur-v2","section":"r-ur","num":"001","printed":"LCKC-EN001","name":"Blue-Eyes White Dragon","ctype":"monster","keywords":"Blue-Eyes Dragon LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Normal","atk":3000,"def":2500},"rarity":"UR","img":"89631139","badge":"UR V2","variant":"Version 2 Ultra Rare","print":"Version 2","tag":"v2","tcg":162087,"grp":2195,"idx":110},
+    {"id":"001-ur-v3","section":"r-ur","num":"001","printed":"LCKC-EN001","name":"Blue-Eyes White Dragon","ctype":"monster","keywords":"Blue-Eyes Dragon LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Normal","atk":3000,"def":2500},"rarity":"UR","img":"89631142","badge":"UR V3","variant":"Version 3 Ultra Rare","print":"Version 3","tag":"v3","tcg":162088,"grp":2195,"idx":111},
+    {"id":"001-ur-v4","section":"r-ur","num":"001","printed":"LCKC-EN001","name":"Blue-Eyes White Dragon","ctype":"monster","keywords":"Blue-Eyes Dragon LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Normal","atk":3000,"def":2500},"rarity":"UR","img":"89631141","badge":"UR V4","variant":"Version 4 Ultra Rare","print":"Version 4","tag":"v4","tcg":162089,"grp":2195,"idx":112},
+    {"id":"046-ur-v2","section":"r-ur","num":"046","printed":"LCKC-EN046","name":"Crush Card Virus","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"UR","img":"57728570","badge":"UR V2","variant":"Version 2 Ultra Rare","print":"Version 2","tag":"v2","tcg":162086,"grp":2195,"idx":113}
   ]
 }

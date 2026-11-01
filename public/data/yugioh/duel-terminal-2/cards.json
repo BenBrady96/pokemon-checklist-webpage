@@ -17,9 +17,8 @@
       "tier": "standard"
     },
     {
-      "id": "rarities",
-      "name": "Other Rarities",
-      "short": "Other Rarities",
+      "id": "r-drpr",
+      "name": "Duel Terminal Rare Parallel Rares",
       "range": "1 card",
       "tier": "master"
     }
@@ -30,8 +29,8 @@
       "Main set"
     ],
     [
-      "rarities",
-      "Other rarities"
+      "r-drpr",
+      "Duel Terminal Rare Parallel Rares"
     ]
   ],
   "quickAdd": {
@@ -89,7 +88,6 @@
     {"id":"019","section":"main","num":"019","printed":"DT02-EN019","name":"Mist Valley Baby Roc","ctype":"monster","keywords":"Winged Beast WIND Tuner Monster","stats":{"a":"WIND","l":"Level 2","t":"Winged Beast / Tuner","atk":400,"def":600},"rarity":"DNPR","img":"14983497","code":"19","tcg":81022,"grp":1328,"idx":18},
     {"id":"020","section":"main","num":"020","printed":"DT02-EN020","name":"Mist Valley Executor","ctype":"monster","keywords":"Mist Valley Thunder WIND Effect Monster","stats":{"a":"WIND","l":"Level 5","t":"Thunder / Effect","atk":2100,"def":1600},"rarity":"DNPR","img":"41978142","code":"20","tcg":81772,"grp":1328,"idx":19},
     {"id":"021","section":"main","num":"021","printed":"DT02-EN021","name":"Flamvell Grunika","ctype":"monster","keywords":"Flamvell Dragon FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Dragon / Effect","atk":1700,"def":200},"rarity":"DNPR","img":"77372241","code":"21","tcg":81023,"grp":1328,"idx":20},
-    {"id":"021-drpr","section":"rarities","num":"021","printed":"DT02-EN021","name":"Flamvell Grunika","ctype":"monster","keywords":"Flamvell Dragon FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Dragon / Effect","atk":1700,"def":200},"rarity":"DRPR","img":"77372241","badge":"DRPR","variant":"Duel Terminal Rare Parallel Rare","code":"DRPR21","tcg":81023,"grp":1328,"idx":21},
     {"id":"022","section":"main","num":"022","printed":"DT02-EN022","name":"Flamvell Baby","ctype":"monster","keywords":"Flamvell Pyro FIRE Tuner Monster","stats":{"a":"FIRE","l":"Level 1","t":"Pyro / Tuner","atk":800,"def":200},"rarity":"DNPR","img":"13761956","code":"22","tcg":81024,"grp":1328,"idx":22},
     {"id":"023","section":"main","num":"023","printed":"DT02-EN023","name":"Ally Mind","ctype":"monster","keywords":"Ally of Justice Machine DARK Normal Tuner Monster","stats":{"a":"DARK","l":"Level 5","t":"Machine / Normal / Tuner","atk":1800,"def":1400},"rarity":"DNPR","img":"40155554","code":"23","tcg":81025,"grp":1328,"idx":23},
     {"id":"024","section":"main","num":"024","printed":"DT02-EN024","name":"Ally of Justice Nullfier","ctype":"monster","keywords":"Ally of Justice Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Machine / Effect","atk":1600,"def":1200},"rarity":"DNPR","img":"76650663","code":"24","tcg":81026,"grp":1328,"idx":24},
@@ -168,6 +166,7 @@
     {"id":"097","section":"main","num":"097","printed":"DT02-EN097","name":"Prideful Roar","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"DNPR","img":"66518841","code":"97","tcg":81099,"grp":1328,"idx":97},
     {"id":"098","section":"main","num":"098","printed":"DT02-EN098","name":"Ivy Shackles","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"DNPR","img":"14730606","code":"98","tcg":81100,"grp":1328,"idx":98},
     {"id":"099","section":"main","num":"099","printed":"DT02-EN099","name":"Destruction Punch","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"DNPR","img":"5616412","code":"99","tcg":81101,"grp":1328,"idx":99},
-    {"id":"100","section":"main","num":"100","printed":"DT02-EN100","name":"Trap Hole","ctype":"trap","keywords":"Hole Normal Trap","stats":{"t":"Normal Trap"},"rarity":"DNPR","img":"4206964","code":"100","tcg":81102,"grp":1328,"idx":100}
+    {"id":"100","section":"main","num":"100","printed":"DT02-EN100","name":"Trap Hole","ctype":"trap","keywords":"Hole Normal Trap","stats":{"t":"Normal Trap"},"rarity":"DNPR","img":"4206964","code":"100","tcg":81102,"grp":1328,"idx":100},
+    {"id":"021-drpr","section":"r-drpr","num":"021","printed":"DT02-EN021","name":"Flamvell Grunika","ctype":"monster","keywords":"Flamvell Dragon FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Dragon / Effect","atk":1700,"def":200},"rarity":"DRPR","img":"77372241","badge":"DRPR","variant":"Duel Terminal Rare Parallel Rare","code":"DRPR21","tcg":81023,"grp":1328,"idx":21}
   ]
 }

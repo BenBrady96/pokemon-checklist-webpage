@@ -17,9 +17,8 @@
       "tier": "standard"
     },
     {
-      "id": "rarities",
-      "name": "Other Rarities",
-      "short": "Other Rarities",
+      "id": "r-str",
+      "name": "Starlight Rares",
       "range": "4 cards",
       "tier": "master"
     }
@@ -30,8 +29,8 @@
       "Main set"
     ],
     [
-      "rarities",
-      "Other rarities"
+      "r-str",
+      "Starlight Rares"
     ]
   ],
   "quickAdd": {
@@ -70,7 +69,6 @@
   "cards": [
     {"id":"000","section":"main","num":"000","printed":"BLVO-EN000","name":"War Rock Mountain","ctype":"spell","keywords":"War Rock Field Spell","stats":{"t":"Field Spell"},"rarity":"ScR","img":"45943516","code":"0","tcg":231313,"grp":2749,"idx":0},
     {"id":"001","section":"main","num":"001","printed":"BLVO-EN001","name":"Armed Dragon Thunder LV10","ctype":"monster","keywords":"Armed Dragon Dragon WIND Effect Monster","stats":{"a":"WIND","l":"Level 10","t":"Dragon / Effect","atk":3000,"def":2000},"rarity":"ScR","img":"58153103","code":"1","tcg":231314,"grp":2749,"idx":1},
-    {"id":"001-str","section":"rarities","num":"001","printed":"BLVO-EN001","name":"Armed Dragon Thunder LV10","ctype":"monster","keywords":"Armed Dragon Dragon WIND Effect Monster","stats":{"a":"WIND","l":"Level 10","t":"Dragon / Effect","atk":3000,"def":2000},"rarity":"StR","img":"58153103","badge":"StR","variant":"Starlight Rare","code":"STR1","tcg":231638,"grp":2749,"idx":2},
     {"id":"002","section":"main","num":"002","printed":"BLVO-EN002","name":"Armed Dragon Thunder LV7","ctype":"monster","keywords":"Armed Dragon Dragon WIND Effect Monster","stats":{"a":"WIND","l":"Level 7","t":"Dragon / Effect","atk":2800,"def":1000},"rarity":"UR","img":"94141712","code":"2","tcg":231315,"grp":2749,"idx":3},
     {"id":"003","section":"main","num":"003","printed":"BLVO-EN003","name":"Armed Dragon Thunder LV5","ctype":"monster","keywords":"Armed Dragon Dragon WIND Effect Monster","stats":{"a":"WIND","l":"Level 5","t":"Dragon / Effect","atk":2400,"def":1700},"rarity":"SR","img":"21546416","code":"3","tcg":231316,"grp":2749,"idx":4},
     {"id":"004","section":"main","num":"004","printed":"BLVO-EN004","name":"Armed Dragon Thunder LV3","ctype":"monster","keywords":"Armed Dragon Dragon WIND Effect Monster","stats":{"a":"WIND","l":"Level 3","t":"Dragon / Effect","atk":1200,"def":900},"rarity":"SR","img":"57030525","code":"4","tcg":231317,"grp":2749,"idx":5},
@@ -98,9 +96,7 @@
     {"id":"026","section":"main","num":"026","printed":"BLVO-EN026","name":"Neiroy, the Dream Mirror Disciple","ctype":"monster","keywords":"Dream Mirror Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Fairy / Effect","atk":1000,"def":1000},"rarity":"C","img":"18189187","code":"26","tcg":231338,"grp":2749,"idx":27},
     {"id":"027","section":"main","num":"027","printed":"BLVO-EN027","name":"Machina Unclaspare","ctype":"monster","keywords":"Machina Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Machine / Effect","atk":1800,"def":800},"rarity":"C","img":"45674286","code":"27","tcg":231340,"grp":2749,"idx":28},
     {"id":"028","section":"main","num":"028","printed":"BLVO-EN028","name":"Live☆Twin Lil-la Treat","ctype":"monster","keywords":"Lil-la Zombie DARK Effect Monster","stats":{"a":"DARK","l":"Level 2","t":"Zombie / Effect","atk":500,"def":0},"rarity":"UR","img":"81078880","code":"28","tcg":231341,"grp":2749,"idx":29},
-    {"id":"028-str","section":"rarities","num":"028","printed":"BLVO-EN028","name":"Live☆Twin Lil-la Treat","ctype":"monster","keywords":"Lil-la Zombie DARK Effect Monster","stats":{"a":"DARK","l":"Level 2","t":"Zombie / Effect","atk":500,"def":0},"rarity":"StR","img":"81078880","badge":"StR","variant":"Starlight Rare","code":"STR28","tcg":231644,"grp":2749,"idx":30},
     {"id":"029","section":"main","num":"029","printed":"BLVO-EN029","name":"Heavenly Zephyr - Miradora","ctype":"monster","keywords":"Dragon WIND Effect Monster","stats":{"a":"WIND","l":"Level 7","t":"Dragon / Effect","atk":2000,"def":2600},"rarity":"ScR","img":"17063599","code":"29","tcg":231342,"grp":2749,"idx":31},
-    {"id":"029-str","section":"rarities","num":"029","printed":"BLVO-EN029","name":"Heavenly Zephyr - Miradora","ctype":"monster","keywords":"Dragon WIND Effect Monster","stats":{"a":"WIND","l":"Level 7","t":"Dragon / Effect","atk":2000,"def":2600},"rarity":"StR","img":"17063599","badge":"StR","variant":"Starlight Rare","code":"STR29","tcg":231641,"grp":2749,"idx":32},
     {"id":"030","section":"main","num":"030","printed":"BLVO-EN030","name":"Fairy Archer Ingunar","ctype":"monster","keywords":"Plant EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 6","t":"Plant / Effect","atk":2400,"def":1200},"rarity":"C","img":"44451698","code":"30","tcg":231343,"grp":2749,"idx":33},
     {"id":"031","section":"main","num":"031","printed":"BLVO-EN031","name":"Radiant Vouirescence","ctype":"monster","keywords":"Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Dragon / Effect","atk":1600,"def":800},"rarity":"C","img":"70856343","code":"31","tcg":231344,"grp":2749,"idx":34},
     {"id":"032","section":"main","num":"032","printed":"BLVO-EN032","name":"Gigathunder Giclops","ctype":"monster","keywords":"Thunder WIND Pendulum Tuner Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Thunder / Pendulum / Tuner / Effect","atk":1400,"def":1700},"rarity":"C","img":"17241941","code":"32","tcg":231345,"grp":2749,"idx":35},
@@ -137,7 +133,6 @@
     {"id":"063","section":"main","num":"063","printed":"BLVO-EN063","name":"Archfiend's Staff of Despair","ctype":"spell","keywords":"Archfiend Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"21438286","code":"63","tcg":231376,"grp":2749,"idx":66},
     {"id":"064","section":"main","num":"064","printed":"BLVO-EN064","name":"Armor Dragon Ritual","ctype":"spell","keywords":"Ritual Spell","stats":{"t":"Ritual Spell"},"rarity":"C","img":"58827995","code":"64","tcg":231377,"grp":2749,"idx":67},
     {"id":"065","section":"main","num":"065","printed":"BLVO-EN065","name":"Pot of Prosperity","ctype":"spell","keywords":"Greed Normal Spell","stats":{"t":"Normal Spell"},"rarity":"ScR","img":"84211599","code":"65","tcg":231378,"grp":2749,"idx":68},
-    {"id":"065-str","section":"rarities","num":"065","printed":"BLVO-EN065","name":"Pot of Prosperity","ctype":"spell","keywords":"Greed Normal Spell","stats":{"t":"Normal Spell"},"rarity":"StR","img":"84211599","badge":"StR","variant":"Starlight Rare","code":"STR65","tcg":231645,"grp":2749,"idx":69},
     {"id":"066","section":"main","num":"066","printed":"BLVO-EN066","name":"Tilted Try","ctype":"spell","keywords":"Field Spell","stats":{"t":"Field Spell"},"rarity":"C","img":"20216608","code":"66","tcg":231379,"grp":2749,"idx":70},
     {"id":"067","section":"main","num":"067","printed":"BLVO-EN067","name":"Armed Dragon Thunderbolt","ctype":"trap","keywords":"Armed Dragon Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"57605303","code":"67","tcg":231381,"grp":2749,"idx":71},
     {"id":"068","section":"main","num":"068","printed":"BLVO-EN068","name":"Springans Call!","ctype":"trap","keywords":"Springans Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"83199011","code":"68","tcg":231380,"grp":2749,"idx":72},
@@ -172,6 +167,10 @@
     {"id":"097","section":"main","num":"097","printed":"BLVO-EN097","name":"War Rock Bashileos","ctype":"monster","keywords":"War Rock Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 8","t":"Warrior / Effect","atk":2700,"def":2700},"rarity":"UR","img":"18558867","code":"97","tcg":231410,"grp":2749,"idx":101},
     {"id":"098","section":"main","num":"098","printed":"BLVO-EN098","name":"War Rock Ordeal","ctype":"spell","keywords":"War Rock Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"71331215","code":"98","tcg":231411,"grp":2749,"idx":102},
     {"id":"099","section":"main","num":"099","printed":"BLVO-EN099","name":"Virtual World Oto-Hime - Toutou","ctype":"monster","keywords":"Virtual World Wyrm EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 6","t":"Wyrm / Effect","atk":1200,"def":1800},"rarity":"SR","img":"20799347","code":"99","tcg":231412,"grp":2749,"idx":103},
-    {"id":"100","section":"main","num":"100","printed":"BLVO-EN100","name":"Trishula, Dragon of the Ice Barrier","ctype":"monster","keywords":"Ice Barrier Dragon WATER Synchro Monster","stats":{"a":"WATER","l":"Level 9","t":"Dragon / Synchro","atk":2700,"def":2000},"rarity":"StR","img":"52687916","code":"100","tcg":231413,"grp":2749,"idx":104}
+    {"id":"100","section":"main","num":"100","printed":"BLVO-EN100","name":"Trishula, Dragon of the Ice Barrier","ctype":"monster","keywords":"Ice Barrier Dragon WATER Synchro Monster","stats":{"a":"WATER","l":"Level 9","t":"Dragon / Synchro","atk":2700,"def":2000},"rarity":"StR","img":"52687916","code":"100","tcg":231413,"grp":2749,"idx":104},
+    {"id":"001-str","section":"r-str","num":"001","printed":"BLVO-EN001","name":"Armed Dragon Thunder LV10","ctype":"monster","keywords":"Armed Dragon Dragon WIND Effect Monster","stats":{"a":"WIND","l":"Level 10","t":"Dragon / Effect","atk":3000,"def":2000},"rarity":"StR","img":"58153103","badge":"StR","variant":"Starlight Rare","code":"STR1","tcg":231638,"grp":2749,"idx":2},
+    {"id":"028-str","section":"r-str","num":"028","printed":"BLVO-EN028","name":"Live☆Twin Lil-la Treat","ctype":"monster","keywords":"Lil-la Zombie DARK Effect Monster","stats":{"a":"DARK","l":"Level 2","t":"Zombie / Effect","atk":500,"def":0},"rarity":"StR","img":"81078880","badge":"StR","variant":"Starlight Rare","code":"STR28","tcg":231644,"grp":2749,"idx":30},
+    {"id":"029-str","section":"r-str","num":"029","printed":"BLVO-EN029","name":"Heavenly Zephyr - Miradora","ctype":"monster","keywords":"Dragon WIND Effect Monster","stats":{"a":"WIND","l":"Level 7","t":"Dragon / Effect","atk":2000,"def":2600},"rarity":"StR","img":"17063599","badge":"StR","variant":"Starlight Rare","code":"STR29","tcg":231641,"grp":2749,"idx":32},
+    {"id":"065-str","section":"r-str","num":"065","printed":"BLVO-EN065","name":"Pot of Prosperity","ctype":"spell","keywords":"Greed Normal Spell","stats":{"t":"Normal Spell"},"rarity":"StR","img":"84211599","badge":"StR","variant":"Starlight Rare","code":"STR65","tcg":231645,"grp":2749,"idx":69}
   ]
 }

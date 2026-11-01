@@ -13,7 +13,7 @@
     {
       "id": "main",
       "name": "Cards",
-      "range": "YGLD-ENA00–YGLD-ENC41",
+      "range": "YGLD-ENA00–YGLD-ENG03",
       "tier": "standard"
     }
   ],
@@ -27,22 +27,22 @@
     "placeholder": "e.g. 1-20, 45, 60x2",
     "example": "1-20, 45x2",
     "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
-    "empty": "Cards run from YGLD-ENA00 to YGLD-ENC41."
+    "empty": "Cards run from YGLD-ENA00 to YGLD-ENG03."
   },
   "help": {
     "tiers": ""
   },
   "seo": {
-    "title": "Yu-Gi-Oh! Yugi's Legendary Decks Checklist · All 125 Cards",
-    "description": "Free Yu-Gi-Oh! Yugi's Legendary Decks checklist with no ads, no sign-up and no tracking. Track all 125 cards, with images, copy counts, binder pages and prices.",
+    "title": "Yu-Gi-Oh! Yugi's Legendary Decks Checklist · All 129 Cards",
+    "description": "Free Yu-Gi-Oh! Yugi's Legendary Decks checklist with no ads, no sign-up and no tracking. Track all 129 cards, with images, copy counts, binder pages and prices.",
     "ogTitle": "Yu-Gi-Oh! Yugi's Legendary Decks Checklist",
-    "ogDescription": "Track all 125 cards in Yu-Gi-Oh! Yugi's Legendary Decks. Free, with no ads, no sign-up and no tracking.",
-    "twitterDescription": "Track all 125 cards in Yu-Gi-Oh! Yugi's Legendary Decks. Free, with no ads, no sign-up and no tracking."
+    "ogDescription": "Track all 129 cards in Yu-Gi-Oh! Yugi's Legendary Decks. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 129 cards in Yu-Gi-Oh! Yugi's Legendary Decks. Free, with no ads, no sign-up and no tracking."
   },
   "about": {
     "title": "About Yugi's Legendary Decks",
     "paragraphs": [
-      "Yugi&#39;s Legendary Decks is a Yu-Gi-Oh! TCG deck released on 12 November 2015, in the ARC-V era. It has 125 cards.",
+      "Yugi&#39;s Legendary Decks is a Yu-Gi-Oh! TCG deck released on 12 November 2015, in the ARC-V era. It has 129 cards.",
       "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
       "Card details and images come from YGOPRODeck, and prices from TCGplayer."
     ]
@@ -100,6 +100,7 @@
     {"id":"A41","section":"main","num":"A41","printed":"YGLD-ENA41","name":"Gaia the Dragon Champion","ctype":"monster","keywords":"Gaia The Fierce Knight Dragon WIND Fusion Monster","stats":{"a":"WIND","l":"Level 7","t":"Dragon / Fusion","atk":2600,"def":2100},"rarity":"C","img":"66889139","code":"A41","tcg":108243,"grp":1672,"idx":41},
     {"id":"B00","section":"main","num":"B00","printed":"YGLD-ENB00","name":"Dark Renewal","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"ScR","img":"9287078","code":"B0","tcg":108327,"grp":1672,"idx":42},
     {"id":"B01","section":"main","num":"B01","printed":"YGLD-ENB01","name":"Valkyrion the Magna Warrior","ctype":"monster","keywords":"Magnet Warrior Rock EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 8","t":"Rock / Effect","atk":3500,"def":3850},"rarity":"UR","img":"75347539","code":"B1","tcg":108244,"grp":1672,"idx":43},
+    {"id":"B02","section":"main","num":"B02","printed":"YGLD-ENB02","name":"Dark Magician","ctype":"monster","keywords":"Dark Magician Spellcaster DARK Normal Monster","stats":{"a":"DARK","l":"Level 7","t":"Spellcaster / Normal","atk":2500,"def":2100},"rarity":"UR","img":"46986415","code":"B2","tcg":108245,"grp":1672,"idx":125},
     {"id":"B03","section":"main","num":"B03","printed":"YGLD-ENB03","name":"Dark Magician Girl","ctype":"monster","keywords":"Dark Magician Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Spellcaster / Effect","atk":2000,"def":1700},"rarity":"UR","img":"38033122","code":"B3","tcg":108246,"grp":1672,"idx":44},
     {"id":"B04","section":"main","num":"B04","printed":"YGLD-ENB04","name":"Buster Blader","ctype":"monster","keywords":"Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 7","t":"Warrior / Effect","atk":2600,"def":2300},"rarity":"C","img":"78193831","code":"B4","tcg":108247,"grp":1672,"idx":45},
     {"id":"B05","section":"main","num":"B05","printed":"YGLD-ENB05","name":"Archfiend of Gilfer","ctype":"monster","keywords":"Archfiend Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Fiend / Effect","atk":2200,"def":2500},"rarity":"C","img":"50287060","code":"B5","tcg":108248,"grp":1672,"idx":46},
@@ -180,6 +181,9 @@
     {"id":"C38","section":"main","num":"C38","printed":"YGLD-ENC38","name":"Shattered Axe","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"12117532","code":"C38","tcg":108322,"grp":1672,"idx":121},
     {"id":"C39","section":"main","num":"C39","printed":"YGLD-ENC39","name":"Stronghold the Moving Fortress","ctype":"trap","keywords":"Gadget Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"13955608","code":"C39","tcg":108323,"grp":1672,"idx":122},
     {"id":"C40","section":"main","num":"C40","printed":"YGLD-ENC40","name":"Miracle Restoring","ctype":"trap","keywords":"Dark Magician Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"68334074","code":"C40","tcg":108324,"grp":1672,"idx":123},
-    {"id":"C41","section":"main","num":"C41","printed":"YGLD-ENC41","name":"Dark Paladin","ctype":"monster","keywords":"Dark Magician Spellcaster DARK Fusion Monster","stats":{"a":"DARK","l":"Level 8","t":"Spellcaster / Fusion","atk":2900,"def":2400},"rarity":"C","img":"98502114","code":"C41","tcg":108325,"grp":1672,"idx":124}
+    {"id":"C41","section":"main","num":"C41","printed":"YGLD-ENC41","name":"Dark Paladin","ctype":"monster","keywords":"Dark Magician Spellcaster DARK Fusion Monster","stats":{"a":"DARK","l":"Level 8","t":"Spellcaster / Fusion","atk":2900,"def":2400},"rarity":"C","img":"98502114","code":"C41","tcg":108325,"grp":1672,"idx":124},
+    {"id":"G01","section":"main","num":"G01","printed":"YGLD-ENG01","name":"Slifer the Sky Dragon","ctype":"monster","keywords":"Egyptian God Divine-Beast DIVINE Effect Monster","stats":{"a":"DIVINE","l":"Level 10","t":"Divine-Beast / Effect","atk":-1,"def":-1},"rarity":"UR","img":"10000020","code":"G1","tcg":108329,"grp":1672,"idx":126},
+    {"id":"G02","section":"main","num":"G02","printed":"YGLD-ENG02","name":"Obelisk the Tormentor","ctype":"monster","keywords":"Egyptian God Divine-Beast DIVINE Effect Monster","stats":{"a":"DIVINE","l":"Level 10","t":"Divine-Beast / Effect","atk":4000,"def":4000},"rarity":"UR","img":"10000000","code":"G2","tcg":108330,"grp":1672,"idx":127},
+    {"id":"G03","section":"main","num":"G03","printed":"YGLD-ENG03","name":"The Winged Dragon of Ra","ctype":"monster","keywords":"Egyptian God Divine-Beast DIVINE Effect Monster","stats":{"a":"DIVINE","l":"Level 10","t":"Divine-Beast / Effect","atk":-1,"def":-1},"rarity":"UR","img":"10000010","code":"G3","tcg":108331,"grp":1672,"idx":128}
   ]
 }

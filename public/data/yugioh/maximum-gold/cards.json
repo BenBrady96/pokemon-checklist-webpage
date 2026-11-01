@@ -15,34 +15,45 @@
       "name": "Main Set",
       "range": "MAGO-EN001–MAGO-EN162",
       "tier": "standard"
+    },
+    {
+      "id": "r-pg",
+      "name": "Premium Gold Rares (Alternate Art)",
+      "range": "9 cards",
+      "tier": "master"
     }
   ],
   "summary": [
     [
       "main",
-      "Cards"
+      "Main set"
+    ],
+    [
+      "r-pg",
+      "Premium Gold Rares (Alternate Art)"
     ]
   ],
   "quickAdd": {
-    "placeholder": "e.g. 1-20, 45, 60x2",
-    "example": "1-20, 45x2",
-    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "placeholder": "e.g. 1-20, 45, SCR12, 60x2",
+    "example": "1-20, 45x2, SCR12",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies. Other rarities use their short name and number: <b>SCR12</b> is card 12’s Secret Rare, and ranges work too (<b>QCSR1-QCSR20</b>). Special prints add their own letters: <b>PGAA7</b> is card 7’s Alternate Art Premium Gold Rare.",
     "empty": "Cards run from MAGO-EN001 to MAGO-EN162."
   },
   "help": {
-    "tiers": ""
+    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 162 cards, each in its main rarity. Master adds the 9 other rarities. Cards you’ve marked are kept when you switch."
   },
   "seo": {
     "title": "Yu-Gi-Oh! Maximum Gold Checklist · All 162 Cards",
-    "description": "Free Yu-Gi-Oh! Maximum Gold checklist with no ads, no sign-up and no tracking. Track all 162 cards, with images, copy counts, binder pages and prices.",
+    "description": "Free Yu-Gi-Oh! Maximum Gold checklist with no ads, no sign-up and no tracking. Track all 162 cards, or every rarity for a master set, with images, copy counts, binder pages and prices.",
     "ogTitle": "Yu-Gi-Oh! Maximum Gold Checklist",
-    "ogDescription": "Track all 162 cards in Yu-Gi-Oh! Maximum Gold. Free, with no ads, no sign-up and no tracking.",
+    "ogDescription": "Track all 162 cards in Yu-Gi-Oh! Maximum Gold, plus 9 other rarities. Free, with no ads, no sign-up and no tracking.",
     "twitterDescription": "Track all 162 cards in Yu-Gi-Oh! Maximum Gold. Free, with no ads, no sign-up and no tracking."
   },
   "about": {
     "title": "About the Maximum Gold set",
     "paragraphs": [
-      "Maximum Gold is a Yu-Gi-Oh! TCG special set released on 12 November 2020, in the SEVENS &amp; GO RUSH!! era. It has 162 cards.",
+      "Maximum Gold is a Yu-Gi-Oh! TCG special set released on 12 November 2020, in the SEVENS &amp; GO RUSH!! era. It has 162 cards, and with the 9 other rarities there are 171 to collect in all.",
+      "Choose what you’re collecting: the <b>Standard set</b> (the 162 cards, each in its main rarity) or the <b>Master set</b> (all 171, adding the 9 other rarities).",
       "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
       "Card details and images come from YGOPRODeck, and prices from TCGplayer."
     ]
@@ -71,9 +82,9 @@
     {"id":"013","section":"main","num":"013","printed":"MAGO-EN013","name":"Ghost Sister & Spooky Dogwood","ctype":"monster","keywords":"Zombie WATER Tuner Monster","stats":{"a":"WATER","l":"Level 3","t":"Zombie / Tuner","atk":0,"def":1800},"rarity":"PG","img":"60643553","code":"13","tcg":227431,"grp":2693,"idx":12},
     {"id":"014","section":"main","num":"014","printed":"MAGO-EN014","name":"Kozmo Dark Destroyer","ctype":"monster","keywords":"Kozmo Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Machine / Effect","atk":3000,"def":1800},"rarity":"PG","img":"55885348","code":"14","tcg":227433,"grp":2693,"idx":13},
     {"id":"015","section":"main","num":"015","printed":"MAGO-EN015","name":"Miscellaneousaurus","ctype":"monster","keywords":"Dinosaur FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Dinosaur / Effect","atk":1800,"def":1000},"rarity":"PG","img":"38572779","code":"15","tcg":227434,"grp":2693,"idx":14},
-    {"id":"016","section":"main","num":"016","printed":"MAGO-EN016","name":"Aleister the Invoker","ctype":"monster","keywords":"Invoked Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Effect","atk":1000,"def":1800},"rarity":"PG","img":"86120752","code":"16","tcg":227435,"grp":2693,"idx":15},
+    {"id":"016","section":"main","num":"016","printed":"MAGO-EN016","name":"Aleister the Invoker","ctype":"monster","keywords":"Invoked Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Effect","atk":1000,"def":1800},"rarity":"PG","img":"86120752","print":"Alternate Art","code":"16","tcg":227435,"grp":2693,"idx":15},
     {"id":"017","section":"main","num":"017","printed":"MAGO-EN017","name":"Chaos Dragon Levianeer","ctype":"monster","keywords":"Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Dragon / Effect","atk":3000,"def":0},"rarity":"PG","img":"55878038","code":"17","tcg":227436,"grp":2693,"idx":16},
-    {"id":"018","section":"main","num":"018","printed":"MAGO-EN018","name":"Fantastical Dragon Phantazmay","ctype":"monster","keywords":"Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Dragon / Effect","atk":2400,"def":1800},"rarity":"PG","img":"78661339","code":"18","tcg":227438,"grp":2693,"idx":17},
+    {"id":"018","section":"main","num":"018","printed":"MAGO-EN018","name":"Fantastical Dragon Phantazmay","ctype":"monster","keywords":"Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Dragon / Effect","atk":2400,"def":1800},"rarity":"PG","img":"78661339","print":"Alternate Art","code":"18","tcg":227438,"grp":2693,"idx":17},
     {"id":"019","section":"main","num":"019","printed":"MAGO-EN019","name":"Nibiru, the Primal Being","ctype":"monster","keywords":"Rock LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 11","t":"Rock / Effect","atk":3000,"def":600},"rarity":"PG","img":"27204311","code":"19","tcg":227439,"grp":2693,"idx":18},
     {"id":"020","section":"main","num":"020","printed":"MAGO-EN020","name":"Nurse Dragonmaid","ctype":"monster","keywords":"Dragonmaid Dragon EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 2","t":"Dragon / Effect","atk":500,"def":1600},"rarity":"PG","img":"40398073","code":"20","tcg":227440,"grp":2693,"idx":19},
     {"id":"021","section":"main","num":"021","printed":"MAGO-EN021","name":"Laundry Dragonmaid","ctype":"monster","keywords":"Dragonmaid Dragon WATER Effect Monster","stats":{"a":"WATER","l":"Level 2","t":"Dragon / Effect","atk":500,"def":1600},"rarity":"PG","img":"13171876","code":"21","tcg":227441,"grp":2693,"idx":20},
@@ -94,9 +105,9 @@
     {"id":"036","section":"main","num":"036","printed":"MAGO-EN036","name":"Zoodiac Drident","ctype":"monster","keywords":"Zoodiac Beast-Warrior EARTH Xyz Monster","stats":{"a":"EARTH","l":"Rank 4","t":"Beast-Warrior / Xyz","atk":-1,"def":-1},"rarity":"PG","img":"48905153","code":"36","tcg":227457,"grp":2693,"idx":35},
     {"id":"037","section":"main","num":"037","printed":"MAGO-EN037","name":"Zoodiac Chakanine","ctype":"monster","keywords":"Zoodiac Beast-Warrior EARTH Xyz Monster","stats":{"a":"EARTH","l":"Rank 4","t":"Beast-Warrior / Xyz","atk":-1,"def":-1},"rarity":"PG","img":"41375811","code":"37","tcg":227458,"grp":2693,"idx":36},
     {"id":"038","section":"main","num":"038","printed":"MAGO-EN038","name":"Sky Striker Ace - Kagari","ctype":"monster","keywords":"Sky Striker Machine FIRE Link Monster","stats":{"a":"FIRE","l":"Link 1","t":"Machine / Link","atk":1500},"rarity":"PG","img":"63288573","code":"38","tcg":227459,"grp":2693,"idx":37},
-    {"id":"039","section":"main","num":"039","printed":"MAGO-EN039","name":"Borrelsword Dragon","ctype":"monster","keywords":"Borrel Dragon DARK Link Monster","stats":{"a":"DARK","l":"Link 4","t":"Dragon / Link","atk":3000},"rarity":"PG","img":"85289966","code":"39","tcg":227461,"grp":2693,"idx":38},
+    {"id":"039","section":"main","num":"039","printed":"MAGO-EN039","name":"Borrelsword Dragon","ctype":"monster","keywords":"Borrel Dragon DARK Link Monster","stats":{"a":"DARK","l":"Link 4","t":"Dragon / Link","atk":3000},"rarity":"PG","img":"85289966","print":"Alternate Art","code":"39","tcg":227461,"grp":2693,"idx":38},
     {"id":"040","section":"main","num":"040","printed":"MAGO-EN040","name":"The Phantom Knights of Rusty Bardiche","ctype":"monster","keywords":"Phantom Knights Warrior DARK Link Monster","stats":{"a":"DARK","l":"Link 3","t":"Warrior / Link","atk":2100},"rarity":"PG","img":"26692769","code":"40","tcg":227462,"grp":2693,"idx":39},
-    {"id":"041","section":"main","num":"041","printed":"MAGO-EN041","name":"Apollousa, Bow of the Goddess","ctype":"monster","keywords":"Fairy WIND Link Monster","stats":{"a":"WIND","l":"Link 4","t":"Fairy / Link","atk":-1},"rarity":"PG","img":"4280259","code":"41","tcg":227463,"grp":2693,"idx":40},
+    {"id":"041","section":"main","num":"041","printed":"MAGO-EN041","name":"Apollousa, Bow of the Goddess","ctype":"monster","keywords":"Fairy WIND Link Monster","stats":{"a":"WIND","l":"Link 4","t":"Fairy / Link","atk":-1},"rarity":"PG","img":"4280259","print":"Alternate Art","code":"41","tcg":227463,"grp":2693,"idx":40},
     {"id":"042","section":"main","num":"042","printed":"MAGO-EN042","name":"Harpie's Feather Duster","ctype":"spell","keywords":"Harpie Normal Spell","stats":{"t":"Normal Spell"},"rarity":"PG","img":"18144507","code":"42","tcg":227465,"grp":2693,"idx":41},
     {"id":"043","section":"main","num":"043","printed":"MAGO-EN043","name":"Anti-Magic Arrows","ctype":"spell","keywords":"Anti Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"PG","img":"97120394","code":"43","tcg":227466,"grp":2693,"idx":42},
     {"id":"044","section":"main","num":"044","printed":"MAGO-EN044","name":"Polymerization","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"PG","img":"24094653","code":"44","tcg":227467,"grp":2693,"idx":43},
@@ -217,6 +228,15 @@
     {"id":"159","section":"main","num":"159","printed":"MAGO-EN159","name":"Tachyon Transmigration","ctype":"trap","keywords":"Galaxy-Eyes Counter Trap","stats":{"t":"Counter Trap"},"rarity":"R","img":"8038143","code":"159","tcg":227585,"grp":2693,"idx":158},
     {"id":"160","section":"main","num":"160","printed":"MAGO-EN160","name":"Lose 1 Turn","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"R","img":"24348804","code":"160","tcg":227586,"grp":2693,"idx":159},
     {"id":"161","section":"main","num":"161","printed":"MAGO-EN161","name":"Trickstar Reincarnation","ctype":"trap","keywords":"Trickstar Normal Trap","stats":{"t":"Normal Trap"},"rarity":"R","img":"21076084","code":"161","tcg":227587,"grp":2693,"idx":160},
-    {"id":"162","section":"main","num":"162","printed":"MAGO-EN162","name":"There Can Be Only One","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"R","img":"24207889","code":"162","tcg":227588,"grp":2693,"idx":161}
+    {"id":"162","section":"main","num":"162","printed":"MAGO-EN162","name":"There Can Be Only One","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"R","img":"24207889","code":"162","tcg":227588,"grp":2693,"idx":161},
+    {"id":"007-pg-alt","section":"r-pg","num":"007","printed":"MAGO-EN007","name":"Tour Guide From the Underworld","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Fiend / Effect","atk":1000,"def":600},"rarity":"PG","img":"10802916","badge":"PG AA","variant":"Alternate Art Premium Gold Rare","print":"Alternate Art","tag":"alt","code":"PGAA7","tcg":227421,"grp":2693,"idx":162},
+    {"id":"009-pg-alt","section":"r-pg","num":"009","printed":"MAGO-EN009","name":"Ghost Ogre & Snow Rabbit","ctype":"monster","keywords":"Psychic LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Psychic / Tuner","atk":0,"def":1800},"rarity":"PG","img":"59438931","badge":"PG AA","variant":"Alternate Art Premium Gold Rare","print":"Alternate Art","tag":"alt","code":"PGAA9","tcg":227424,"grp":2693,"idx":163},
+    {"id":"010-pg-alt","section":"r-pg","num":"010","printed":"MAGO-EN010","name":"Ghost Reaper & Winter Cherries","ctype":"monster","keywords":"Zombie DARK Tuner Monster","stats":{"a":"DARK","l":"Level 3","t":"Zombie / Tuner","atk":0,"def":1800},"rarity":"PG","img":"62015409","badge":"PG AA","variant":"Alternate Art Premium Gold Rare","print":"Alternate Art","tag":"alt","code":"PGAA10","tcg":227426,"grp":2693,"idx":164},
+    {"id":"011-pg-alt","section":"r-pg","num":"011","printed":"MAGO-EN011","name":"Ash Blossom & Joyous Spring","ctype":"monster","keywords":"Zombie FIRE Tuner Monster","stats":{"a":"FIRE","l":"Level 3","t":"Zombie / Tuner","atk":0,"def":1800},"rarity":"PG","img":"14558128","badge":"PG AA","variant":"Alternate Art Premium Gold Rare","print":"Alternate Art","tag":"alt","code":"PGAA11","tcg":227428,"grp":2693,"idx":165},
+    {"id":"012-pg-alt","section":"r-pg","num":"012","printed":"MAGO-EN012","name":"Ghost Belle & Haunted Mansion","ctype":"monster","keywords":"Zombie EARTH Tuner Monster","stats":{"a":"EARTH","l":"Level 3","t":"Zombie / Tuner","atk":0,"def":1800},"rarity":"PG","img":"73642297","badge":"PG AA","variant":"Alternate Art Premium Gold Rare","print":"Alternate Art","tag":"alt","code":"PGAA12","tcg":227430,"grp":2693,"idx":166},
+    {"id":"013-pg-alt","section":"r-pg","num":"013","printed":"MAGO-EN013","name":"Ghost Sister & Spooky Dogwood","ctype":"monster","keywords":"Zombie WATER Tuner Monster","stats":{"a":"WATER","l":"Level 3","t":"Zombie / Tuner","atk":0,"def":1800},"rarity":"PG","img":"60643554","badge":"PG AA","variant":"Alternate Art Premium Gold Rare","print":"Alternate Art","tag":"alt","code":"PGAA13","tcg":227432,"grp":2693,"idx":167},
+    {"id":"017-pg-alt","section":"r-pg","num":"017","printed":"MAGO-EN017","name":"Chaos Dragon Levianeer","ctype":"monster","keywords":"Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Dragon / Effect","atk":3000,"def":0},"rarity":"PG","img":"55878039","badge":"PG AA","variant":"Alternate Art Premium Gold Rare","print":"Alternate Art","tag":"alt","code":"PGAA17","tcg":227437,"grp":2693,"idx":168},
+    {"id":"033-pg-alt","section":"r-pg","num":"033","printed":"MAGO-EN033","name":"Cyber Dragon Infinity","ctype":"monster","keywords":"Cyber Dragon Machine LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 6","t":"Machine / Xyz","atk":2100,"def":1600},"rarity":"PG","img":"10443958","badge":"PG AA","variant":"Alternate Art Premium Gold Rare","print":"Alternate Art","tag":"alt","code":"PGAA33","tcg":227454,"grp":2693,"idx":169},
+    {"id":"038-pg-alt","section":"r-pg","num":"038","printed":"MAGO-EN038","name":"Sky Striker Ace - Kagari","ctype":"monster","keywords":"Sky Striker Machine FIRE Link Monster","stats":{"a":"FIRE","l":"Link 1","t":"Machine / Link","atk":1500},"rarity":"PG","img":"63288574","badge":"PG AA","variant":"Alternate Art Premium Gold Rare","print":"Alternate Art","tag":"alt","code":"PGAA38","tcg":227460,"grp":2693,"idx":170}
   ]
 }

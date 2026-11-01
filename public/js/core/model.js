@@ -57,12 +57,13 @@ export function buildCollection(raw, { game, colors = {}, imageBase = '', remote
     };
     const fmt = { ...section.display, ...c.display };
     const typed = rarity.typed && c.type;
-    const variantText = c.variant && c.variant !== rarity.name ? c.variant : '';
+    const variantText = c.print || (c.variant && c.variant !== rarity.name ? c.variant : '');
     const words = [
       c.num, /^\d+$/.test(c.num) ? String(Number(c.num)) : '', c.code, c.printed, c.name,
       searchAliases[c.name] || '', rarity.name, c.rarity, section.name, c.note || '', c.keywords || '',
     ];
     if (c.variant) words.push(c.variant);
+    if (c.print) words.push(c.print);
     return {
       ...c,
       imageId: c.img || c.id,

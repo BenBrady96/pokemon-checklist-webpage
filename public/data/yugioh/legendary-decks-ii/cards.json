@@ -15,34 +15,45 @@
       "name": "Cards",
       "range": "LDK2-ENJ01–LDK2-ENY40",
       "tier": "standard"
+    },
+    {
+      "id": "r-c",
+      "name": "Commons",
+      "range": "2 cards",
+      "tier": "master"
     }
   ],
   "summary": [
     [
       "main",
-      "Cards"
+      "Main set"
+    ],
+    [
+      "r-c",
+      "Commons"
     ]
   ],
   "quickAdd": {
-    "placeholder": "e.g. 1-20, 45, 60x2",
-    "example": "1-20, 45x2",
-    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "placeholder": "e.g. 1-20, 45, SCR12, 60x2",
+    "example": "1-20, 45x2, SCR12",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies. Other rarities use their short name and number: <b>SCR12</b> is card 12’s Secret Rare, and ranges work too (<b>QCSR1-QCSR20</b>).",
     "empty": "Cards run from LDK2-ENJ01 to LDK2-ENY40."
   },
   "help": {
-    "tiers": ""
+    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 130 cards, each in its main rarity. Master adds the 2 other rarities. Cards you’ve marked are kept when you switch."
   },
   "seo": {
     "title": "Yu-Gi-Oh! Legendary Decks II Checklist · All 130 Cards",
-    "description": "Free Yu-Gi-Oh! Legendary Decks II checklist with no ads, no sign-up and no tracking. Track all 130 cards, with images, copy counts, binder pages and prices.",
+    "description": "Free Yu-Gi-Oh! Legendary Decks II checklist with no ads, no sign-up and no tracking. Track all 130 cards, or every rarity for a master set, with images, copy counts, binder pages and prices.",
     "ogTitle": "Yu-Gi-Oh! Legendary Decks II Checklist",
-    "ogDescription": "Track all 130 cards in Yu-Gi-Oh! Legendary Decks II. Free, with no ads, no sign-up and no tracking.",
+    "ogDescription": "Track all 130 cards in Yu-Gi-Oh! Legendary Decks II, plus 2 other rarities. Free, with no ads, no sign-up and no tracking.",
     "twitterDescription": "Track all 130 cards in Yu-Gi-Oh! Legendary Decks II. Free, with no ads, no sign-up and no tracking."
   },
   "about": {
     "title": "About Legendary Decks II",
     "paragraphs": [
-      "Legendary Decks II is a Yu-Gi-Oh! TCG deck released on 6 October 2016, in the ARC-V era. It has 130 cards.",
+      "Legendary Decks II is a Yu-Gi-Oh! TCG deck released on 6 October 2016, in the ARC-V era. It has 130 cards, and with the 2 other rarities there are 132 to collect in all.",
+      "Choose what you’re collecting: the <b>Standard set</b> (the 130 cards, each in its main rarity) or the <b>Master set</b> (all 132, adding the 2 other rarities).",
       "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
       "Card details and images come from YGOPRODeck, and prices from TCGplayer."
     ]
@@ -99,7 +110,7 @@
     {"id":"J41","section":"main","num":"J41","printed":"LDK2-ENJ41","name":"Red-Eyes Flare Metal Dragon","ctype":"monster","keywords":"Red-Eyes Dragon DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 7","t":"Dragon / Xyz","atk":2800,"def":2400},"rarity":"UR","img":"44405066","code":"J41","tcg":123607,"grp":1841,"idx":40},
     {"id":"J42","section":"main","num":"J42","printed":"LDK2-ENJ42","name":"Archfiend Black Skull Dragon","ctype":"monster","keywords":"Archfiend Dragon DARK Fusion Monster","stats":{"a":"DARK","l":"Level 9","t":"Dragon / Fusion","atk":3200,"def":2500},"rarity":"C","img":"45349196","code":"J42","tcg":123608,"grp":1841,"idx":41},
     {"id":"J43","section":"main","num":"J43","printed":"LDK2-ENJ43","name":"Alligator's Sword Dragon","ctype":"monster","keywords":"Alligator Dragon WIND Fusion Monster","stats":{"a":"WIND","l":"Level 5","t":"Dragon / Fusion","atk":1700,"def":1500},"rarity":"C","img":"3366982","code":"J43","tcg":123609,"grp":1841,"idx":42},
-    {"id":"K01","section":"main","num":"K01","printed":"LDK2-ENK01","name":"Blue-Eyes White Dragon","ctype":"monster","keywords":"Blue-Eyes Dragon LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Normal","atk":3000,"def":2500},"rarity":"C","img":"89631139","code":"K1","tcg":123525,"grp":1841,"idx":43},
+    {"id":"K01","section":"main","num":"K01","printed":"LDK2-ENK01","name":"Blue-Eyes White Dragon","ctype":"monster","keywords":"Blue-Eyes Dragon LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Normal","atk":3000,"def":2500},"rarity":"C","img":"89631140","print":"Version 1","code":"K1","tcg":123621,"grp":1841,"idx":43},
     {"id":"K02","section":"main","num":"K02","printed":"LDK2-ENK02","name":"Dragon Spirit of White","ctype":"monster","keywords":"Blue-Eyes Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Effect","atk":2500,"def":2000},"rarity":"C","img":"45467446","code":"K2","tcg":123526,"grp":1841,"idx":44},
     {"id":"K03","section":"main","num":"K03","printed":"LDK2-ENK03","name":"Kaibaman","ctype":"monster","keywords":"Blue-Eyes Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Warrior / Effect","atk":200,"def":700},"rarity":"C","img":"34627841","code":"K3","tcg":123527,"grp":1841,"idx":45},
     {"id":"K04","section":"main","num":"K04","printed":"LDK2-ENK04","name":"The White Stone of Legend","ctype":"monster","keywords":"Blue-Eyes Dragon LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Dragon / Tuner","atk":300,"def":250},"rarity":"C","img":"79814787","code":"K4","tcg":123528,"grp":1841,"idx":46},
@@ -185,6 +196,8 @@
     {"id":"Y37","section":"main","num":"Y37","printed":"LDK2-ENY37","name":"Magic Cylinder","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"62279055","code":"Y37","tcg":123520,"grp":1841,"idx":126},
     {"id":"Y38","section":"main","num":"Y38","printed":"LDK2-ENY38","name":"Magician's Circle","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"50755","code":"Y38","tcg":123521,"grp":1841,"idx":127},
     {"id":"Y39","section":"main","num":"Y39","printed":"LDK2-ENY39","name":"Backup Soldier","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"36280194","code":"Y39","tcg":123522,"grp":1841,"idx":128},
-    {"id":"Y40","section":"main","num":"Y40","printed":"LDK2-ENY40","name":"Gravity Bind","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"85742772","code":"Y40","tcg":123523,"grp":1841,"idx":129}
+    {"id":"Y40","section":"main","num":"Y40","printed":"LDK2-ENY40","name":"Gravity Bind","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"85742772","code":"Y40","tcg":123523,"grp":1841,"idx":129},
+    {"id":"K01-c-v2","section":"r-c","num":"K01","printed":"LDK2-ENK01","name":"Blue-Eyes White Dragon","ctype":"monster","keywords":"Blue-Eyes Dragon LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Normal","atk":3000,"def":2500},"rarity":"C","img":"89631139","badge":"C V2","variant":"Version 2 Common","print":"Version 2","tag":"v2","tcg":123525,"grp":1841,"idx":130},
+    {"id":"K01-c-v4","section":"r-c","num":"K01","printed":"LDK2-ENK01","name":"Blue-Eyes White Dragon","ctype":"monster","keywords":"Blue-Eyes Dragon LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Normal","atk":3000,"def":2500},"rarity":"C","img":"89631141","badge":"C V4","variant":"Version 4 Common","print":"Version 4","tag":"v4","tcg":123620,"grp":1841,"idx":131}
   ]
 }

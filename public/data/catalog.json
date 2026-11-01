@@ -6071,7 +6071,7 @@
         {
           "id": "master",
           "label": "Master",
-          "count": 127
+          "count": 130
         }
       ],
       "defaultTier": "master",
@@ -6097,7 +6097,7 @@
         {
           "id": "master",
           "label": "Master",
-          "count": 129
+          "count": 130
         }
       ],
       "defaultTier": "master",
@@ -6269,17 +6269,17 @@
       "code": "DUAD",
       "syncKey": "YDUAD",
       "released": "2025-07-03",
-      "total": 48,
+      "total": 101,
       "tiers": [
         {
           "id": "standard",
           "label": "Standard",
-          "count": 48
+          "count": 101
         },
         {
           "id": "master",
           "label": "Master",
-          "count": 63
+          "count": 125
         }
       ],
       "defaultTier": "master",
@@ -6295,17 +6295,17 @@
       "code": "ALIN",
       "syncKey": "YALIN",
       "released": "2025-05-01",
-      "total": 100,
+      "total": 101,
       "tiers": [
         {
           "id": "standard",
           "label": "Standard",
-          "count": 100
+          "count": 101
         },
         {
           "id": "master",
           "label": "Master",
-          "count": 124
+          "count": 125
         }
       ],
       "defaultTier": "master",
@@ -6487,7 +6487,7 @@
         {
           "id": "master",
           "label": "Master",
-          "count": 91
+          "count": 102
         }
       ],
       "defaultTier": "master",
@@ -6555,17 +6555,17 @@
       "code": "DUNE",
       "syncKey": "YDUNE",
       "released": "2023-07-27",
-      "total": 99,
+      "total": 100,
       "tiers": [
         {
           "id": "standard",
           "label": "Standard",
-          "count": 99
+          "count": 100
         },
         {
           "id": "master",
           "label": "Master",
-          "count": 123
+          "count": 124
         }
       ],
       "defaultTier": "master",
@@ -6711,17 +6711,17 @@
       "code": "TAMA",
       "syncKey": "YTAMA",
       "released": "2022-08-25",
-      "total": 59,
+      "total": 60,
       "tiers": [
         {
           "id": "standard",
           "label": "Standard",
-          "count": 59
+          "count": 60
         },
         {
           "id": "master",
           "label": "Master",
-          "count": 73
+          "count": 75
         }
       ],
       "defaultTier": "master",
@@ -7033,10 +7033,15 @@
         {
           "id": "master",
           "label": "Master",
+          "count": 48
+        },
+        {
+          "id": "grand",
+          "label": "Grand Master",
           "count": 66
         }
       ],
-      "defaultTier": "master",
+      "defaultTier": "grand",
       "logo": "img/sets/yugioh/magnificent-maestros/logo.webp"
     },
     {
@@ -7060,9 +7065,14 @@
           "id": "master",
           "label": "Master",
           "count": 210
+        },
+        {
+          "id": "grand",
+          "label": "Grand Master",
+          "count": 228
         }
       ],
-      "defaultTier": "master",
+      "defaultTier": "grand",
       "logo": "img/sets/yugioh/magnificent-monsters/logo.webp"
     },
     {
@@ -7085,7 +7095,7 @@
         {
           "id": "master",
           "label": "Master",
-          "count": 150
+          "count": 158
         }
       ],
       "defaultTier": "master",
@@ -7205,7 +7215,7 @@
         {
           "id": "master",
           "label": "Master",
-          "count": 143
+          "count": 154
         }
       ],
       "defaultTier": "master",
@@ -7231,7 +7241,7 @@
         {
           "id": "master",
           "label": "Master",
-          "count": 692
+          "count": 693
         }
       ],
       "defaultTier": "master",
@@ -7278,7 +7288,7 @@
         {
           "id": "master",
           "label": "Master",
-          "count": 58
+          "count": 62
         }
       ],
       "defaultTier": "master",
@@ -7304,7 +7314,7 @@
         {
           "id": "master",
           "label": "Master",
-          "count": 114
+          "count": 115
         }
       ],
       "defaultTier": "master",
@@ -7330,7 +7340,7 @@
         {
           "id": "master",
           "label": "Master",
-          "count": 58
+          "count": 62
         }
       ],
       "defaultTier": "master",
@@ -7398,7 +7408,7 @@
         {
           "id": "master",
           "label": "Master",
-          "count": 41
+          "count": 82
         }
       ],
       "defaultTier": "master",
@@ -7471,7 +7481,7 @@
         {
           "id": "master",
           "label": "Master",
-          "count": 965
+          "count": 986
         }
       ],
       "defaultTier": "master",
@@ -7570,7 +7580,7 @@
         {
           "id": "master",
           "label": "Master",
-          "count": 936
+          "count": 967
         }
       ],
       "defaultTier": "master",
@@ -7685,7 +7695,7 @@
         {
           "id": "master",
           "label": "Master",
-          "count": 553
+          "count": 567
         }
       ],
       "defaultTier": "master",
@@ -7722,15 +7732,20 @@
       "code": "BLC1",
       "syncKey": "YBLC1",
       "released": "2024-02-22",
-      "total": 159,
+      "total": 163,
       "tiers": [
         {
           "id": "standard",
-          "label": "All cards",
-          "count": 159
+          "label": "Standard",
+          "count": 163
+        },
+        {
+          "id": "master",
+          "label": "Master",
+          "count": 199
         }
       ],
-      "defaultTier": "standard",
+      "defaultTier": "master",
       "logo": "img/sets/yugioh/battles-of-legend-chapter-1/logo.webp"
     },
     {
@@ -7764,12 +7779,12 @@
       "code": "STAS",
       "syncKey": "YSTAS",
       "released": "2024-01-26",
-      "total": 87,
+      "total": 88,
       "tiers": [
         {
           "id": "standard",
           "label": "All cards",
-          "count": 87
+          "count": 88
         }
       ],
       "defaultTier": "standard",
@@ -7785,12 +7800,12 @@
       "code": "SR14",
       "syncKey": "YSR14",
       "released": "2023-12-07",
-      "total": 47,
+      "total": 48,
       "tiers": [
         {
           "id": "standard",
           "label": "All cards",
-          "count": 47
+          "count": 48
         }
       ],
       "defaultTier": "standard",
@@ -7816,7 +7831,7 @@
         {
           "id": "master",
           "label": "Master",
-          "count": 553
+          "count": 567
         }
       ],
       "defaultTier": "master",
@@ -7874,12 +7889,12 @@
       "code": "TN23",
       "syncKey": "YTN23",
       "released": "2023-09-07",
-      "total": 8,
+      "total": 16,
       "tiers": [
         {
           "id": "standard",
           "label": "All cards",
-          "count": 8
+          "count": 16
         }
       ],
       "defaultTier": "standard",
@@ -7958,17 +7973,17 @@
       "code": "SBC1",
       "syncKey": "YSBC1",
       "released": "2023-08-24",
-      "total": 191,
+      "total": 195,
       "tiers": [
         {
           "id": "standard",
           "label": "Standard",
-          "count": 191
+          "count": 195
         },
         {
           "id": "master",
           "label": "Master",
-          "count": 211
+          "count": 217
         }
       ],
       "defaultTier": "master",
@@ -7984,12 +7999,12 @@
       "code": "LD10",
       "syncKey": "YLD10",
       "released": "2023-08-10",
-      "total": 61,
+      "total": 62,
       "tiers": [
         {
           "id": "standard",
           "label": "All cards",
-          "count": 61
+          "count": 62
         }
       ],
       "defaultTier": "standard",
@@ -8026,21 +8041,63 @@
       "code": "BLMR",
       "syncKey": "YBLMR",
       "released": "2023-06-22",
-      "total": 103,
+      "total": 104,
       "tiers": [
         {
           "id": "standard",
           "label": "Standard",
-          "count": 103
+          "count": 104
         },
         {
           "id": "master",
           "label": "Master",
-          "count": 125
+          "count": 127
         }
       ],
       "defaultTier": "master",
       "logo": "img/sets/yugioh/battles-of-legend-monstrous-revenge/logo.webp"
+    },
+    {
+      "id": "yugioh/dark-crisis-25th-anniversary-edition",
+      "game": "yugioh",
+      "slug": "dark-crisis-25th-anniversary-edition",
+      "name": "Dark Crisis (25th Anniversary Edition)",
+      "series": "SEVENS & GO RUSH!!",
+      "kind": "set",
+      "code": "DCR",
+      "syncKey": "YDCR2",
+      "released": "2023-04-20",
+      "total": 105,
+      "tiers": [
+        {
+          "id": "standard",
+          "label": "All cards",
+          "count": 105
+        }
+      ],
+      "defaultTier": "standard",
+      "logo": "img/sets/yugioh/dark-crisis-25th-anniversary-edition/logo.webp"
+    },
+    {
+      "id": "yugioh/invasion-of-chaos-25th-anniversary-edition",
+      "game": "yugioh",
+      "slug": "invasion-of-chaos-25th-anniversary-edition",
+      "name": "Invasion of Chaos (25th Anniversary Edition)",
+      "series": "SEVENS & GO RUSH!!",
+      "kind": "set",
+      "code": "IOC",
+      "syncKey": "YIOC2",
+      "released": "2023-04-20",
+      "total": 112,
+      "tiers": [
+        {
+          "id": "standard",
+          "label": "All cards",
+          "count": 112
+        }
+      ],
+      "defaultTier": "standard",
+      "logo": "img/sets/yugioh/invasion-of-chaos-25th-anniversary-edition/logo.webp"
     },
     {
       "id": "yugioh/legend-of-blue-eyes-white-dragon-25th-anniversary-edition",
@@ -8052,12 +8109,12 @@
       "code": "LOB",
       "syncKey": "YLOB2",
       "released": "2023-04-20",
-      "total": 14,
+      "total": 126,
       "tiers": [
         {
           "id": "standard",
           "label": "All cards",
-          "count": 14
+          "count": 126
         }
       ],
       "defaultTier": "standard",
@@ -8073,16 +8130,37 @@
       "code": "MRD",
       "syncKey": "YMRD2",
       "released": "2023-04-20",
-      "total": 14,
+      "total": 144,
       "tiers": [
         {
           "id": "standard",
           "label": "All cards",
-          "count": 14
+          "count": 144
         }
       ],
       "defaultTier": "standard",
       "logo": "img/sets/yugioh/metal-raiders-25th-anniversary-edition/logo.webp"
+    },
+    {
+      "id": "yugioh/pharaohs-servant-25th-anniversary-edition",
+      "game": "yugioh",
+      "slug": "pharaohs-servant-25th-anniversary-edition",
+      "name": "Pharaoh's Servant (25th Anniversary Edition)",
+      "series": "SEVENS & GO RUSH!!",
+      "kind": "set",
+      "code": "PSV",
+      "syncKey": "YPSV2",
+      "released": "2023-04-20",
+      "total": 105,
+      "tiers": [
+        {
+          "id": "standard",
+          "label": "All cards",
+          "count": 105
+        }
+      ],
+      "defaultTier": "standard",
+      "logo": "img/sets/yugioh/pharaohs-servant-25th-anniversary-edition/logo.webp"
     },
     {
       "id": "yugioh/spell-ruler-25th-anniversary-edition",
@@ -8094,12 +8172,12 @@
       "code": "SRL",
       "syncKey": "YSRL2",
       "released": "2023-04-20",
-      "total": 14,
+      "total": 104,
       "tiers": [
         {
           "id": "standard",
           "label": "All cards",
-          "count": 14
+          "count": 104
         }
       ],
       "defaultTier": "standard",
@@ -8115,17 +8193,17 @@
       "code": "SGX3",
       "syncKey": "YSGX3",
       "released": "2023-03-30",
-      "total": 220,
+      "total": 221,
       "tiers": [
         {
           "id": "standard",
           "label": "Standard",
-          "count": 220
+          "count": 221
         },
         {
           "id": "master",
           "label": "Master",
-          "count": 245
+          "count": 246
         }
       ],
       "defaultTier": "master",
@@ -8277,17 +8355,17 @@
       "code": "MAMA",
       "syncKey": "YMAMA",
       "released": "2022-11-03",
-      "total": 111,
+      "total": 114,
       "tiers": [
         {
           "id": "standard",
           "label": "Standard",
-          "count": 111
+          "count": 114
         },
         {
           "id": "master",
           "label": "Master",
-          "count": 117
+          "count": 138
         }
       ],
       "defaultTier": "master",
@@ -8392,17 +8470,17 @@
       "code": "MP22",
       "syncKey": "YMP22",
       "released": "2022-09-14",
-      "total": 272,
+      "total": 275,
       "tiers": [
         {
           "id": "standard",
           "label": "Standard",
-          "count": 272
+          "count": 275
         },
         {
           "id": "master",
           "label": "Master",
-          "count": 274
+          "count": 277
         }
       ],
       "defaultTier": "master",
@@ -8422,11 +8500,16 @@
       "tiers": [
         {
           "id": "standard",
-          "label": "All cards",
+          "label": "Standard",
           "count": 138
+        },
+        {
+          "id": "master",
+          "label": "Master",
+          "count": 198
         }
       ],
-      "defaultTier": "standard",
+      "defaultTier": "master",
       "logo": "img/sets/yugioh/legendary-duelists-season-3/logo.webp"
     },
     {
@@ -8481,12 +8564,12 @@
       "code": "GFP2",
       "syncKey": "YGFP2",
       "released": "2022-05-05",
-      "total": 185,
+      "total": 186,
       "tiers": [
         {
           "id": "standard",
           "label": "All cards",
-          "count": 185
+          "count": 186
         }
       ],
       "defaultTier": "standard",
@@ -8544,17 +8627,17 @@
       "code": "SGX1",
       "syncKey": "YSGX1",
       "released": "2022-03-17",
-      "total": 216,
+      "total": 218,
       "tiers": [
         {
           "id": "standard",
           "label": "Standard",
-          "count": 216
+          "count": 218
         },
         {
           "id": "master",
           "label": "Master",
-          "count": 239
+          "count": 242
         }
       ],
       "defaultTier": "master",
@@ -8570,17 +8653,17 @@
       "code": "HAC1",
       "syncKey": "YHAC1",
       "released": "2022-02-24",
-      "total": 173,
+      "total": 178,
       "tiers": [
         {
           "id": "standard",
           "label": "Standard",
-          "count": 173
+          "count": 178
         },
         {
           "id": "master",
           "label": "Master",
-          "count": 313
+          "count": 320
         }
       ],
       "defaultTier": "master",
@@ -8638,15 +8721,20 @@
       "code": "MGED",
       "syncKey": "YMGED",
       "released": "2021-11-18",
-      "total": 151,
+      "total": 152,
       "tiers": [
         {
           "id": "standard",
-          "label": "All cards",
-          "count": 151
+          "label": "Standard",
+          "count": 152
+        },
+        {
+          "id": "master",
+          "label": "Master",
+          "count": 161
         }
       ],
-      "defaultTier": "standard",
+      "defaultTier": "master",
       "logo": "img/sets/yugioh/maximum-gold-el-dorado/logo.webp"
     },
     {
@@ -8758,7 +8846,7 @@
         {
           "id": "master",
           "label": "Master",
-          "count": 83
+          "count": 86
         }
       ],
       "defaultTier": "master",
@@ -8904,11 +8992,16 @@
       "tiers": [
         {
           "id": "standard",
-          "label": "All cards",
+          "label": "Standard",
           "count": 131
+        },
+        {
+          "id": "master",
+          "label": "Master",
+          "count": 221
         }
       ],
-      "defaultTier": "standard",
+      "defaultTier": "master",
       "logo": "img/sets/yugioh/legendary-duelists-season-2/logo.webp"
     },
     {
@@ -8931,7 +9024,7 @@
         {
           "id": "master",
           "label": "Master",
-          "count": 74
+          "count": 75
         }
       ],
       "defaultTier": "master",
@@ -8977,11 +9070,16 @@
       "tiers": [
         {
           "id": "standard",
-          "label": "All cards",
+          "label": "Standard",
           "count": 162
+        },
+        {
+          "id": "master",
+          "label": "Master",
+          "count": 171
         }
       ],
-      "defaultTier": "standard",
+      "defaultTier": "master",
       "logo": "img/sets/yugioh/maximum-gold/logo.webp"
     },
     {
@@ -9071,11 +9169,16 @@
       "tiers": [
         {
           "id": "standard",
-          "label": "All cards",
+          "label": "Standard",
           "count": 149
+        },
+        {
+          "id": "master",
+          "label": "Master",
+          "count": 240
         }
       ],
-      "defaultTier": "standard",
+      "defaultTier": "master",
       "logo": "img/sets/yugioh/dragons-of-legend-the-complete-series/logo.webp"
     },
     {
@@ -9511,11 +9614,16 @@
       "tiers": [
         {
           "id": "standard",
-          "label": "All cards",
+          "label": "Standard",
           "count": 121
+        },
+        {
+          "id": "master",
+          "label": "Master",
+          "count": 153
         }
       ],
-      "defaultTier": "standard",
+      "defaultTier": "master",
       "logo": "img/sets/yugioh/legendary-duelists-season-1/logo.webp"
     },
     {
@@ -10591,11 +10699,16 @@
       "tiers": [
         {
           "id": "standard",
-          "label": "All cards",
+          "label": "Standard",
           "count": 110
+        },
+        {
+          "id": "master",
+          "label": "Master",
+          "count": 114
         }
       ],
-      "defaultTier": "standard",
+      "defaultTier": "master",
       "logo": "img/sets/yugioh/legendary-collection-kaiba-mega-pack/logo.webp"
     },
     {
@@ -11497,11 +11610,16 @@
       "tiers": [
         {
           "id": "standard",
-          "label": "All cards",
+          "label": "Standard",
           "count": 130
+        },
+        {
+          "id": "master",
+          "label": "Master",
+          "count": 132
         }
       ],
-      "defaultTier": "standard",
+      "defaultTier": "master",
       "logo": "img/sets/yugioh/legendary-decks-ii/logo.webp"
     },
     {
@@ -11808,12 +11926,12 @@
       "code": "YGLD",
       "syncKey": "YYGLD",
       "released": "2015-11-12",
-      "total": 125,
+      "total": 129,
       "tiers": [
         {
           "id": "standard",
           "label": "All cards",
-          "count": 125
+          "count": 129
         }
       ],
       "defaultTier": "standard",
@@ -12837,11 +12955,16 @@
       "tiers": [
         {
           "id": "standard",
-          "label": "All cards",
+          "label": "Standard",
           "count": 38
+        },
+        {
+          "id": "master",
+          "label": "Master",
+          "count": 39
         }
       ],
-      "defaultTier": "standard",
+      "defaultTier": "master",
       "logo": "img/sets/yugioh/cyber-dragon-revolution-structure-deck/logo.webp"
     },
     {
@@ -16454,11 +16577,16 @@
       "tiers": [
         {
           "id": "standard",
-          "label": "All cards",
+          "label": "Standard",
           "count": 108
+        },
+        {
+          "id": "master",
+          "label": "Master",
+          "count": 109
         }
       ],
-      "defaultTier": "standard",
+      "defaultTier": "master",
       "logo": "img/sets/yugioh/magicians-force/logo.webp"
     },
     {
@@ -16627,7 +16755,7 @@
         {
           "id": "master",
           "label": "Master",
-          "count": 146
+          "count": 148
         }
       ],
       "defaultTier": "master",
@@ -17122,6 +17250,27 @@
       "logo": "img/sets/yugioh/starter-deck-yugi/logo.webp"
     },
     {
+      "id": "yugioh/promos-2026",
+      "game": "yugioh",
+      "slug": "promos-2026",
+      "name": "Promos 2026",
+      "series": "Promos",
+      "kind": "promo",
+      "code": "P2026",
+      "syncKey": "YP2026",
+      "released": "2026-02-05",
+      "total": 4,
+      "tiers": [
+        {
+          "id": "standard",
+          "label": "All cards",
+          "count": 4
+        }
+      ],
+      "defaultTier": "standard",
+      "logo": "img/sets/yugioh/promos-2026/logo.webp"
+    },
+    {
       "id": "yugioh/yu-gi-oh-championship-series-2025-prize-cards",
       "game": "yugioh",
       "slug": "yu-gi-oh-championship-series-2025-prize-cards",
@@ -17156,18 +17305,18 @@
       "kind": "promo",
       "code": "P2025",
       "syncKey": "YP2025",
-      "released": "2025-07-16",
-      "total": 7,
+      "released": "2025-01-23",
+      "total": 11,
       "tiers": [
         {
           "id": "standard",
           "label": "Standard",
-          "count": 7
+          "count": 11
         },
         {
           "id": "master",
           "label": "Master",
-          "count": 8
+          "count": 12
         }
       ],
       "defaultTier": "master",
@@ -17204,12 +17353,12 @@
       "code": "P2024",
       "syncKey": "YP2024",
       "released": "2024-01-01",
-      "total": 10,
+      "total": 14,
       "tiers": [
         {
           "id": "standard",
           "label": "All cards",
-          "count": 10
+          "count": 14
         }
       ],
       "defaultTier": "standard",
@@ -17224,18 +17373,18 @@
       "kind": "promo",
       "code": "P2023",
       "syncKey": "YP2023",
-      "released": "2023-04-20",
-      "total": 13,
+      "released": "2023-02-09",
+      "total": 18,
       "tiers": [
         {
           "id": "standard",
           "label": "Standard",
-          "count": 13
+          "count": 18
         },
         {
           "id": "master",
           "label": "Master",
-          "count": 14
+          "count": 22
         }
       ],
       "defaultTier": "master",
@@ -17251,17 +17400,17 @@
       "code": "P2022",
       "syncKey": "YP2022",
       "released": "2022-01-01",
-      "total": 4,
+      "total": 8,
       "tiers": [
         {
           "id": "standard",
           "label": "Standard",
-          "count": 4
+          "count": 8
         },
         {
           "id": "master",
           "label": "Master",
-          "count": 5
+          "count": 9
         }
       ],
       "defaultTier": "master",
@@ -17298,12 +17447,12 @@
       "code": "P2021",
       "syncKey": "YP2021",
       "released": "2021-01-01",
-      "total": 19,
+      "total": 20,
       "tiers": [
         {
           "id": "standard",
           "label": "All cards",
-          "count": 19
+          "count": 20
         }
       ],
       "defaultTier": "standard",
@@ -17663,11 +17812,16 @@
       "tiers": [
         {
           "id": "standard",
-          "label": "All cards",
+          "label": "Standard",
           "count": 20
+        },
+        {
+          "id": "master",
+          "label": "Master",
+          "count": 80
         }
       ],
-      "defaultTier": "standard",
+      "defaultTier": "master",
       "logo": "img/sets/yugioh/duelist-league-18-participation-cards/logo.webp"
     },
     {
@@ -17710,11 +17864,16 @@
       "tiers": [
         {
           "id": "standard",
-          "label": "All cards",
+          "label": "Standard",
           "count": 20
+        },
+        {
+          "id": "master",
+          "label": "Master",
+          "count": 80
         }
       ],
-      "defaultTier": "standard",
+      "defaultTier": "master",
       "logo": "img/sets/yugioh/duelist-league-17-participation-cards/logo.webp"
     },
     {
@@ -17731,11 +17890,16 @@
       "tiers": [
         {
           "id": "standard",
-          "label": "All cards",
+          "label": "Standard",
           "count": 20
+        },
+        {
+          "id": "master",
+          "label": "Master",
+          "count": 80
         }
       ],
-      "defaultTier": "standard",
+      "defaultTier": "master",
       "logo": "img/sets/yugioh/duelist-league-16-participation-cards/logo.webp"
     },
     {
@@ -17778,11 +17942,16 @@
       "tiers": [
         {
           "id": "standard",
-          "label": "All cards",
+          "label": "Standard",
           "count": 20
+        },
+        {
+          "id": "master",
+          "label": "Master",
+          "count": 80
         }
       ],
-      "defaultTier": "standard",
+      "defaultTier": "master",
       "logo": "img/sets/yugioh/duelist-league-15-participation-cards/logo.webp"
     },
     {
@@ -17799,11 +17968,16 @@
       "tiers": [
         {
           "id": "standard",
-          "label": "All cards",
+          "label": "Standard",
           "count": 20
+        },
+        {
+          "id": "master",
+          "label": "Master",
+          "count": 80
         }
       ],
-      "defaultTier": "standard",
+      "defaultTier": "master",
       "logo": "img/sets/yugioh/duelist-league-14-participation-cards/logo.webp"
     },
     {
@@ -17867,11 +18041,16 @@
       "tiers": [
         {
           "id": "standard",
-          "label": "All cards",
+          "label": "Standard",
           "count": 20
+        },
+        {
+          "id": "master",
+          "label": "Master",
+          "count": 80
         }
       ],
-      "defaultTier": "standard",
+      "defaultTier": "master",
       "logo": "img/sets/yugioh/duelist-league-13-participation-cards/logo.webp"
     },
     {
@@ -17888,11 +18067,16 @@
       "tiers": [
         {
           "id": "standard",
-          "label": "All cards",
+          "label": "Standard",
           "count": 19
+        },
+        {
+          "id": "master",
+          "label": "Master",
+          "count": 76
         }
       ],
-      "defaultTier": "standard",
+      "defaultTier": "master",
       "logo": "img/sets/yugioh/duelist-league-3-participation-cards/logo.webp"
     },
     {
@@ -17956,11 +18140,16 @@
       "tiers": [
         {
           "id": "standard",
-          "label": "All cards",
+          "label": "Standard",
           "count": 21
+        },
+        {
+          "id": "master",
+          "label": "Master",
+          "count": 84
         }
       ],
-      "defaultTier": "standard",
+      "defaultTier": "master",
       "logo": "img/sets/yugioh/duelist-league-2-participation-cards/logo.webp"
     },
     {
@@ -17973,17 +18162,17 @@
       "code": "P2010",
       "syncKey": "YP2010",
       "released": "2010-01-01",
-      "total": 42,
+      "total": 45,
       "tiers": [
         {
           "id": "standard",
           "label": "Standard",
-          "count": 42
+          "count": 45
         },
         {
           "id": "master",
           "label": "Master",
-          "count": 48
+          "count": 51
         }
       ],
       "defaultTier": "master",
@@ -18003,11 +18192,16 @@
       "tiers": [
         {
           "id": "standard",
-          "label": "All cards",
+          "label": "Standard",
           "count": 20
+        },
+        {
+          "id": "master",
+          "label": "Master",
+          "count": 80
         }
       ],
-      "defaultTier": "standard",
+      "defaultTier": "master",
       "logo": "img/sets/yugioh/duelist-league-2010-participation-cards/logo.webp"
     },
     {

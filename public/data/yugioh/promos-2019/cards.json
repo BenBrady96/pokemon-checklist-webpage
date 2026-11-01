@@ -17,9 +17,8 @@
       "tier": "standard"
     },
     {
-      "id": "rarities",
-      "name": "Other Rarities",
-      "short": "Other Rarities",
+      "id": "r-ur",
+      "name": "Ultra Rares",
       "range": "1 card",
       "tier": "master"
     }
@@ -30,8 +29,8 @@
       "Main set"
     ],
     [
-      "rarities",
-      "Other rarities"
+      "r-ur",
+      "Ultra Rares"
     ]
   ],
   "quickAdd": {
@@ -141,7 +140,7 @@
     {"id":"YA05-001","section":"main","num":"YA05-EN001","printed":"YA05-EN001","name":"Odd-Eyes Phantasma Dragon","ctype":"monster","keywords":"-Eyes Dragon Dragon DARK Pendulum Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Dragon / Pendulum / Effect","atk":3000,"def":2500},"note":"Yu-Gi-Oh! ARC-V Volume 5 promotional card","rarity":"UR","img":"21770839","code":"36","tcg":186011,"grp":1918,"idx":35},
     {"id":"YA06-001","section":"main","num":"YA06-EN001","printed":"YA06-EN001","name":"Timelord Progenitor Vorpgate","ctype":"monster","keywords":"Timelord Fairy DARK Synchro Monster","stats":{"a":"DARK","l":"Level 10","t":"Fairy / Synchro","atk":0,"def":0},"note":"Yu-Gi-Oh! ARC-V Volume 6 promotional card","rarity":"UR","img":"67508932","code":"37","tcg":198355,"grp":1918,"idx":36},
     {"id":"YCSW-012","section":"main","num":"YCSW-EN012","printed":"YCSW-EN012","name":"Duel Link Dragon, the Duel Dragon","ctype":"monster","keywords":"Power Tool Dragon DARK Link Monster","stats":{"a":"DARK","l":"Link 4","t":"Dragon / Link","atk":0},"note":"Yu-Gi-Oh! Championship Series 2019 prize card","rarity":"SR","img":"60025883","code":"38","tcg":198236,"grp":1347,"idx":37},
-    {"id":"YCSW-012-ur","section":"rarities","num":"YCSW-EN012","printed":"YCSW-EN012","name":"Duel Link Dragon, the Duel Dragon","ctype":"monster","keywords":"Power Tool Dragon DARK Link Monster","stats":{"a":"DARK","l":"Link 4","t":"Dragon / Link","atk":0},"note":"Yu-Gi-Oh! Championship Series 2019 prize card","rarity":"UR","img":"60025883","badge":"UR","variant":"Ultra Rare","code":"UR38","tcg":198237,"grp":1347,"idx":38},
-    {"id":"YDPR-S01","section":"main","num":"YDPR-ENS01","printed":"YDPR-ENS01","name":"Destiny Draw (Skill Card)","ctype":"skill","keywords":"Yugi Skill","stats":{"t":"Skill · Yugi"},"note":"Yu-Gi-Oh! Day April 2019 promotional card","rarity":"UR","img":"300201002","code":"39","tcg":188713,"grp":2443,"idx":39}
+    {"id":"YDPR-S01","section":"main","num":"YDPR-ENS01","printed":"YDPR-ENS01","name":"Destiny Draw (Skill Card)","ctype":"skill","keywords":"Yugi Skill","stats":{"t":"Skill · Yugi"},"note":"Yu-Gi-Oh! Day April 2019 promotional card","rarity":"UR","img":"300201002","code":"39","tcg":188713,"grp":2443,"idx":39},
+    {"id":"YCSW-012-ur","section":"r-ur","num":"YCSW-EN012","printed":"YCSW-EN012","name":"Duel Link Dragon, the Duel Dragon","ctype":"monster","keywords":"Power Tool Dragon DARK Link Monster","stats":{"a":"DARK","l":"Link 4","t":"Dragon / Link","atk":0},"note":"Yu-Gi-Oh! Championship Series 2019 prize card","rarity":"UR","img":"60025883","badge":"UR","variant":"Ultra Rare","code":"UR38","tcg":198237,"grp":1347,"idx":38}
   ]
 }

@@ -17,10 +17,15 @@
       "tier": "standard"
     },
     {
-      "id": "rarities",
-      "name": "Other Rarities",
-      "short": "Other Rarities",
-      "range": "11 cards",
+      "id": "r-utr",
+      "name": "Ultimate Rares",
+      "range": "10 cards",
+      "tier": "master"
+    },
+    {
+      "id": "r-gr",
+      "name": "Ghost Rares",
+      "range": "1 card",
       "tier": "master"
     }
   ],
@@ -30,8 +35,12 @@
       "Main set"
     ],
     [
-      "rarities",
-      "Other rarities"
+      "r-utr",
+      "Ultimate Rares"
+    ],
+    [
+      "r-gr",
+      "Ghost Rares"
     ]
   ],
   "quickAdd": {
@@ -69,7 +78,6 @@
   },
   "cards": [
     {"id":"000","section":"main","num":"000","printed":"CSOC-EN000","name":"Rose, Warrior of Revenge","ctype":"monster","keywords":"Rose Dragon Warrior FIRE Tuner Monster","stats":{"a":"FIRE","l":"Level 4","t":"Warrior / Tuner","atk":1600,"def":600},"rarity":"UR","img":"1557341","code":"0","tcg":28393,"grp":158,"idx":0},
-    {"id":"000-utr","section":"rarities","num":"000","printed":"CSOC-EN000","name":"Rose, Warrior of Revenge","ctype":"monster","keywords":"Rose Dragon Warrior FIRE Tuner Monster","stats":{"a":"FIRE","l":"Level 4","t":"Warrior / Tuner","atk":1600,"def":600},"rarity":"UtR","img":"1557341","badge":"UtR","variant":"Ultimate Rare","code":"UTR0","tcg":58504,"grp":158,"idx":1},
     {"id":"001","section":"main","num":"001","printed":"CSOC-EN001","name":"Healing Wave Generator","ctype":"monster","keywords":"Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Machine / Effect","atk":800,"def":1600},"rarity":"C","img":"31281980","code":"1","tcg":28394,"grp":158,"idx":2},
     {"id":"002","section":"main","num":"002","printed":"CSOC-EN002","name":"Turbo Synchron","ctype":"monster","keywords":"Synchron Machine WIND Tuner Monster","stats":{"a":"WIND","l":"Level 1","t":"Machine / Tuner","atk":100,"def":500},"rarity":"R","img":"67270095","code":"2","tcg":28395,"grp":158,"idx":3},
     {"id":"003","section":"main","num":"003","printed":"CSOC-EN003","name":"Mad Archfiend","ctype":"monster","keywords":"Archfiend Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Effect","atk":1800,"def":0},"rarity":"R","img":"94664694","code":"3","tcg":28396,"grp":158,"idx":4},
@@ -99,10 +107,8 @@
     {"id":"027","section":"main","num":"027","printed":"CSOC-EN027","name":"Botanical Girl","ctype":"monster","keywords":"Plant WATER Effect Monster","stats":{"a":"WATER","l":"Level 3","t":"Plant / Effect","atk":1300,"def":1100},"rarity":"C","img":"84824601","code":"27","tcg":28420,"grp":158,"idx":28},
     {"id":"028","section":"main","num":"028","printed":"CSOC-EN028","name":"Cursed Fig","ctype":"monster","keywords":"Plant WATER Effect Monster","stats":{"a":"WATER","l":"Level 1","t":"Plant / Effect","atk":200,"def":200},"rarity":"SP","img":"18489208","code":"28","tcg":28421,"grp":158,"idx":29},
     {"id":"029","section":"main","num":"029","printed":"CSOC-EN029","name":"Tytannial, Princess of Camellias","ctype":"monster","keywords":"Plant WIND Effect Monster","stats":{"a":"WIND","l":"Level 8","t":"Plant / Effect","atk":2800,"def":2600},"rarity":"UR","img":"11819616","code":"29","tcg":28422,"grp":158,"idx":30},
-    {"id":"029-utr","section":"rarities","num":"029","printed":"CSOC-EN029","name":"Tytannial, Princess of Camellias","ctype":"monster","keywords":"Plant WIND Effect Monster","stats":{"a":"WIND","l":"Level 8","t":"Plant / Effect","atk":2800,"def":2600},"rarity":"UtR","img":"11819616","badge":"UtR","variant":"Ultimate Rare","code":"UTR29","tcg":58505,"grp":158,"idx":31},
     {"id":"030","section":"main","num":"030","printed":"CSOC-EN030","name":"Zombie Mammoth","ctype":"monster","keywords":"Zombie EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Zombie / Effect","atk":1900,"def":0},"rarity":"C","img":"43642620","code":"30","tcg":28423,"grp":158,"idx":32},
     {"id":"031","section":"main","num":"031","printed":"CSOC-EN031","name":"Plaguespreader Zombie","ctype":"monster","keywords":"Zombie DARK Tuner Monster","stats":{"a":"DARK","l":"Level 2","t":"Zombie / Tuner","atk":400,"def":200},"rarity":"UR","img":"33420078","code":"31","tcg":28424,"grp":158,"idx":33},
-    {"id":"031-utr","section":"rarities","num":"031","printed":"CSOC-EN031","name":"Plaguespreader Zombie","ctype":"monster","keywords":"Zombie DARK Tuner Monster","stats":{"a":"DARK","l":"Level 2","t":"Zombie / Tuner","atk":400,"def":200},"rarity":"UtR","img":"33420078","badge":"UtR","variant":"Ultimate Rare","code":"UTR31","tcg":58506,"grp":158,"idx":34},
     {"id":"032","section":"main","num":"032","printed":"CSOC-EN032","name":"Goblin Decoy Squad","ctype":"monster","keywords":"Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Warrior / Effect","atk":1000,"def":0},"rarity":"C","img":"18960169","code":"32","tcg":28425,"grp":158,"idx":35},
     {"id":"033","section":"main","num":"033","printed":"CSOC-EN033","name":"Comrade Swordsman of Landstar","ctype":"monster","keywords":"Warrior EARTH Tuner Monster","stats":{"a":"EARTH","l":"Level 3","t":"Warrior / Tuner","atk":500,"def":1200},"rarity":"C","img":"83602069","code":"33","tcg":28426,"grp":158,"idx":36},
     {"id":"034","section":"main","num":"034","printed":"CSOC-EN034","name":"Hanewata","ctype":"monster","keywords":"Fairy LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Fairy / Tuner","atk":200,"def":300},"rarity":"SR","img":"20450925","code":"34","tcg":28427,"grp":158,"idx":37},
@@ -110,21 +116,15 @@
     {"id":"036","section":"main","num":"036","printed":"CSOC-EN036","name":"Tiger Dragon","ctype":"monster","keywords":"Dragon EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 6","t":"Dragon / Effect","atk":2400,"def":1800},"rarity":"R","img":"10097168","code":"36","tcg":28429,"grp":158,"idx":39},
     {"id":"037","section":"main","num":"037","printed":"CSOC-EN037","name":"Jade Knight","ctype":"monster","keywords":"Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Machine / Effect","atk":1000,"def":1800},"rarity":"SP","img":"44364207","code":"37","tcg":28430,"grp":158,"idx":40},
     {"id":"038","section":"main","num":"038","printed":"CSOC-EN038","name":"Turbo Warrior","ctype":"monster","keywords":"Warrior WIND Synchro Monster","stats":{"a":"WIND","l":"Level 6","t":"Warrior / Synchro","atk":2500,"def":1500},"rarity":"UR","img":"46195773","code":"38","tcg":28431,"grp":158,"idx":41},
-    {"id":"038-utr","section":"rarities","num":"038","printed":"CSOC-EN038","name":"Turbo Warrior","ctype":"monster","keywords":"Warrior WIND Synchro Monster","stats":{"a":"WIND","l":"Level 6","t":"Warrior / Synchro","atk":2500,"def":1500},"rarity":"UtR","img":"46195773","badge":"UtR","variant":"Ultimate Rare","code":"UTR38","tcg":58507,"grp":158,"idx":42},
     {"id":"039","section":"main","num":"039","printed":"CSOC-EN039","name":"Black Rose Dragon","ctype":"monster","keywords":"Rose Dragon Dragon FIRE Synchro Monster","stats":{"a":"FIRE","l":"Level 7","t":"Dragon / Synchro","atk":2400,"def":1800},"rarity":"UR","img":"73580471","code":"39","tcg":31947,"grp":158,"idx":43},
-    {"id":"039-utr","section":"rarities","num":"039","printed":"CSOC-EN039","name":"Black Rose Dragon","ctype":"monster","keywords":"Rose Dragon Dragon FIRE Synchro Monster","stats":{"a":"FIRE","l":"Level 7","t":"Dragon / Synchro","atk":2400,"def":1800},"rarity":"UtR","img":"73580471","badge":"UtR","variant":"Ultimate Rare","code":"UTR39","tcg":58508,"grp":158,"idx":44},
-    {"id":"039-gr","section":"rarities","num":"039","printed":"CSOC-EN039","name":"Black Rose Dragon","ctype":"monster","keywords":"Rose Dragon Dragon FIRE Synchro Monster","stats":{"a":"FIRE","l":"Level 7","t":"Dragon / Synchro","atk":2400,"def":1800},"rarity":"GR","img":"73580471","badge":"GR","variant":"Ghost Rare","code":"GR39","tcg":28432,"grp":158,"idx":45},
     {"id":"040","section":"main","num":"040","printed":"CSOC-EN040","name":"Iron Chain Dragon","ctype":"monster","keywords":"Iron Chain Dragon EARTH Synchro Monster","stats":{"a":"EARTH","l":"Level 6","t":"Dragon / Synchro","atk":2500,"def":1300},"rarity":"R","img":"19974580","code":"40","tcg":28433,"grp":158,"idx":46},
     {"id":"041","section":"main","num":"041","printed":"CSOC-EN041","name":"Psychic Lifetrancer","ctype":"monster","keywords":"Psychic EARTH Synchro Monster","stats":{"a":"EARTH","l":"Level 7","t":"Psychic / Synchro","atk":2400,"def":2000},"rarity":"R","img":"45379225","code":"41","tcg":28434,"grp":158,"idx":47},
     {"id":"042","section":"main","num":"042","printed":"CSOC-EN042","name":"Queen of Thorns","ctype":"monster","keywords":"Plant LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Plant / Synchro","atk":2200,"def":1800},"rarity":"SR","img":"45500495","code":"42","tcg":28435,"grp":158,"idx":48},
     {"id":"043","section":"main","num":"043","printed":"CSOC-EN043","name":"Doomkaiser Dragon","ctype":"monster","keywords":"Zombie FIRE Synchro Monster","stats":{"a":"FIRE","l":"Level 6","t":"Zombie / Synchro","atk":2400,"def":1500},"rarity":"UR","img":"6021033","code":"43","tcg":28436,"grp":158,"idx":49},
-    {"id":"043-utr","section":"rarities","num":"043","printed":"CSOC-EN043","name":"Doomkaiser Dragon","ctype":"monster","keywords":"Zombie FIRE Synchro Monster","stats":{"a":"FIRE","l":"Level 6","t":"Zombie / Synchro","atk":2400,"def":1500},"rarity":"UtR","img":"6021033","badge":"UtR","variant":"Ultimate Rare","code":"UTR43","tcg":58509,"grp":158,"idx":50},
     {"id":"044","section":"main","num":"044","printed":"CSOC-EN044","name":"Revived King Ha Des","ctype":"monster","keywords":"Zombie DARK Synchro Monster","stats":{"a":"DARK","l":"Level 6","t":"Zombie / Synchro","atk":2450,"def":0},"rarity":"UR","img":"5309481","code":"44","tcg":28437,"grp":158,"idx":51},
-    {"id":"044-utr","section":"rarities","num":"044","printed":"CSOC-EN044","name":"Revived King Ha Des","ctype":"monster","keywords":"Zombie DARK Synchro Monster","stats":{"a":"DARK","l":"Level 6","t":"Zombie / Synchro","atk":2450,"def":0},"rarity":"UtR","img":"5309481","badge":"UtR","variant":"Ultimate Rare","code":"UTR44","tcg":58510,"grp":158,"idx":52},
     {"id":"045","section":"main","num":"045","printed":"CSOC-EN045","name":"Card Rotator","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"72767833","code":"45","tcg":28438,"grp":158,"idx":53},
     {"id":"046","section":"main","num":"046","printed":"CSOC-EN046","name":"Seed of Deception","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"18752938","code":"46","tcg":28439,"grp":158,"idx":54},
     {"id":"047","section":"main","num":"047","printed":"CSOC-EN047","name":"Mark of the Rose","ctype":"spell","keywords":"Rose Dragon Equip Spell","stats":{"t":"Equip Spell"},"rarity":"UR","img":"45247637","code":"47","tcg":28440,"grp":158,"idx":55},
-    {"id":"047-utr","section":"rarities","num":"047","printed":"CSOC-EN047","name":"Mark of the Rose","ctype":"spell","keywords":"Rose Dragon Equip Spell","stats":{"t":"Equip Spell"},"rarity":"UtR","img":"45247637","badge":"UtR","variant":"Ultimate Rare","code":"UTR47","tcg":58511,"grp":158,"idx":56},
     {"id":"048","section":"main","num":"048","printed":"CSOC-EN048","name":"Black Garden","ctype":"spell","keywords":"Rose Dragon Field Spell","stats":{"t":"Field Spell"},"rarity":"SR","img":"71645242","code":"48","tcg":28441,"grp":158,"idx":57},
     {"id":"049","section":"main","num":"049","printed":"CSOC-EN049","name":"Factory of 100 Machines","ctype":"spell","keywords":"Morphtronic Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"7030340","code":"49","tcg":28442,"grp":158,"idx":58},
     {"id":"050","section":"main","num":"050","printed":"CSOC-EN050","name":"Morphtronic Accelerator","ctype":"spell","keywords":"Morphtronic Normal Spell","stats":{"t":"Normal Spell"},"rarity":"R","img":"44424095","code":"50","tcg":28443,"grp":158,"idx":59},
@@ -134,7 +134,6 @@
     {"id":"054","section":"main","num":"054","printed":"CSOC-EN054","name":"Paralyzing Chain","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"R","img":"79707116","code":"54","tcg":28447,"grp":158,"idx":63},
     {"id":"055","section":"main","num":"055","printed":"CSOC-EN055","name":"Teleport","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"6795211","code":"55","tcg":28448,"grp":158,"idx":64},
     {"id":"056","section":"main","num":"056","printed":"CSOC-EN056","name":"Psychokinesis","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UR","img":"32180819","code":"56","tcg":28449,"grp":158,"idx":65},
-    {"id":"056-utr","section":"rarities","num":"056","printed":"CSOC-EN056","name":"Psychokinesis","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UtR","img":"32180819","badge":"UtR","variant":"Ultimate Rare","code":"UTR56","tcg":58512,"grp":158,"idx":66},
     {"id":"057","section":"main","num":"057","printed":"CSOC-EN057","name":"Miracle Fertilizer","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"R","img":"44887817","code":"57","tcg":28450,"grp":158,"idx":67},
     {"id":"058","section":"main","num":"058","printed":"CSOC-EN058","name":"Fragrance Storm","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"69584564","code":"58","tcg":28451,"grp":158,"idx":68},
     {"id":"059","section":"main","num":"059","printed":"CSOC-EN059","name":"The World Tree","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"R","img":"5973663","code":"59","tcg":28452,"grp":158,"idx":69},
@@ -160,7 +159,6 @@
     {"id":"079","section":"main","num":"079","printed":"CSOC-EN079","name":"Gozen Match","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"53334471","code":"79","tcg":28472,"grp":158,"idx":89},
     {"id":"080","section":"main","num":"080","printed":"CSOC-EN080","name":"Giant Trap Hole","ctype":"trap","keywords":"Hole Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"80723580","code":"80","tcg":28473,"grp":158,"idx":90},
     {"id":"081","section":"main","num":"081","printed":"CSOC-EN081","name":"Seed of Flame","ctype":"monster","keywords":"Plant FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 3","t":"Plant / Effect","atk":1600,"def":1200},"rarity":"UR","img":"38041940","code":"81","tcg":28474,"grp":158,"idx":91},
-    {"id":"081-utr","section":"rarities","num":"081","printed":"CSOC-EN081","name":"Seed of Flame","ctype":"monster","keywords":"Plant FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 3","t":"Plant / Effect","atk":1600,"def":1200},"rarity":"UtR","img":"38041940","badge":"UtR","variant":"Ultimate Rare","code":"UTR81","tcg":58513,"grp":158,"idx":92},
     {"id":"082","section":"main","num":"082","printed":"CSOC-EN082","name":"Cactus Fighter","ctype":"monster","keywords":"Plant EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Plant / Effect","atk":1900,"def":400},"rarity":"R","img":"74440055","code":"82","tcg":28475,"grp":158,"idx":93},
     {"id":"083","section":"main","num":"083","printed":"CSOC-EN083","name":"Overdrive Teleporter","ctype":"monster","keywords":"Psychic LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Psychic / Effect","atk":2100,"def":1200},"rarity":"ScR","img":"1834753","code":"83","tcg":28476,"grp":158,"idx":94},
     {"id":"084","section":"main","num":"084","printed":"CSOC-EN084","name":"Rai-Jin","ctype":"monster","keywords":"Thunder LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Thunder / Effect","atk":-1,"def":1000},"rarity":"SR","img":"37829468","code":"84","tcg":28477,"grp":158,"idx":95},
@@ -178,6 +176,17 @@
     {"id":"096","section":"main","num":"096","printed":"CSOC-EN096","name":"Red Ogre","ctype":"monster","keywords":"Zombie EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 7","t":"Zombie / Effect","atk":2800,"def":2100},"rarity":"SR","img":"68722455","code":"96","tcg":28489,"grp":158,"idx":107},
     {"id":"097","section":"main","num":"097","printed":"CSOC-EN097","name":"Neos Wiseman","ctype":"monster","keywords":"Elemental HERO Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 10","t":"Spellcaster / Effect","atk":3000,"def":3000},"rarity":"ScR","img":"5126490","code":"97","tcg":28490,"grp":158,"idx":108},
     {"id":"098","section":"main","num":"098","printed":"CSOC-EN098","name":"Elemental HERO Divine Neos","ctype":"monster","keywords":"Elemental HERO Warrior LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 12","t":"Warrior / Fusion","atk":2500,"def":2500},"rarity":"ScR","img":"31111109","code":"98","tcg":28491,"grp":158,"idx":109},
-    {"id":"099","section":"main","num":"099","printed":"CSOC-EN099","name":"Botanical Lion","ctype":"monster","keywords":"Plant EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Plant / Effect","atk":1600,"def":2000},"rarity":"SR","img":"20546916","code":"99","tcg":28492,"grp":158,"idx":110}
+    {"id":"099","section":"main","num":"099","printed":"CSOC-EN099","name":"Botanical Lion","ctype":"monster","keywords":"Plant EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Plant / Effect","atk":1600,"def":2000},"rarity":"SR","img":"20546916","code":"99","tcg":28492,"grp":158,"idx":110},
+    {"id":"000-utr","section":"r-utr","num":"000","printed":"CSOC-EN000","name":"Rose, Warrior of Revenge","ctype":"monster","keywords":"Rose Dragon Warrior FIRE Tuner Monster","stats":{"a":"FIRE","l":"Level 4","t":"Warrior / Tuner","atk":1600,"def":600},"rarity":"UtR","img":"1557341","badge":"UtR","variant":"Ultimate Rare","code":"UTR0","tcg":58504,"grp":158,"idx":1},
+    {"id":"029-utr","section":"r-utr","num":"029","printed":"CSOC-EN029","name":"Tytannial, Princess of Camellias","ctype":"monster","keywords":"Plant WIND Effect Monster","stats":{"a":"WIND","l":"Level 8","t":"Plant / Effect","atk":2800,"def":2600},"rarity":"UtR","img":"11819616","badge":"UtR","variant":"Ultimate Rare","code":"UTR29","tcg":58505,"grp":158,"idx":31},
+    {"id":"031-utr","section":"r-utr","num":"031","printed":"CSOC-EN031","name":"Plaguespreader Zombie","ctype":"monster","keywords":"Zombie DARK Tuner Monster","stats":{"a":"DARK","l":"Level 2","t":"Zombie / Tuner","atk":400,"def":200},"rarity":"UtR","img":"33420078","badge":"UtR","variant":"Ultimate Rare","code":"UTR31","tcg":58506,"grp":158,"idx":34},
+    {"id":"038-utr","section":"r-utr","num":"038","printed":"CSOC-EN038","name":"Turbo Warrior","ctype":"monster","keywords":"Warrior WIND Synchro Monster","stats":{"a":"WIND","l":"Level 6","t":"Warrior / Synchro","atk":2500,"def":1500},"rarity":"UtR","img":"46195773","badge":"UtR","variant":"Ultimate Rare","code":"UTR38","tcg":58507,"grp":158,"idx":42},
+    {"id":"039-utr","section":"r-utr","num":"039","printed":"CSOC-EN039","name":"Black Rose Dragon","ctype":"monster","keywords":"Rose Dragon Dragon FIRE Synchro Monster","stats":{"a":"FIRE","l":"Level 7","t":"Dragon / Synchro","atk":2400,"def":1800},"rarity":"UtR","img":"73580471","badge":"UtR","variant":"Ultimate Rare","code":"UTR39","tcg":58508,"grp":158,"idx":44},
+    {"id":"043-utr","section":"r-utr","num":"043","printed":"CSOC-EN043","name":"Doomkaiser Dragon","ctype":"monster","keywords":"Zombie FIRE Synchro Monster","stats":{"a":"FIRE","l":"Level 6","t":"Zombie / Synchro","atk":2400,"def":1500},"rarity":"UtR","img":"6021033","badge":"UtR","variant":"Ultimate Rare","code":"UTR43","tcg":58509,"grp":158,"idx":50},
+    {"id":"044-utr","section":"r-utr","num":"044","printed":"CSOC-EN044","name":"Revived King Ha Des","ctype":"monster","keywords":"Zombie DARK Synchro Monster","stats":{"a":"DARK","l":"Level 6","t":"Zombie / Synchro","atk":2450,"def":0},"rarity":"UtR","img":"5309481","badge":"UtR","variant":"Ultimate Rare","code":"UTR44","tcg":58510,"grp":158,"idx":52},
+    {"id":"047-utr","section":"r-utr","num":"047","printed":"CSOC-EN047","name":"Mark of the Rose","ctype":"spell","keywords":"Rose Dragon Equip Spell","stats":{"t":"Equip Spell"},"rarity":"UtR","img":"45247637","badge":"UtR","variant":"Ultimate Rare","code":"UTR47","tcg":58511,"grp":158,"idx":56},
+    {"id":"056-utr","section":"r-utr","num":"056","printed":"CSOC-EN056","name":"Psychokinesis","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UtR","img":"32180819","badge":"UtR","variant":"Ultimate Rare","code":"UTR56","tcg":58512,"grp":158,"idx":66},
+    {"id":"081-utr","section":"r-utr","num":"081","printed":"CSOC-EN081","name":"Seed of Flame","ctype":"monster","keywords":"Plant FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 3","t":"Plant / Effect","atk":1600,"def":1200},"rarity":"UtR","img":"38041940","badge":"UtR","variant":"Ultimate Rare","code":"UTR81","tcg":58513,"grp":158,"idx":92},
+    {"id":"039-gr","section":"r-gr","num":"039","printed":"CSOC-EN039","name":"Black Rose Dragon","ctype":"monster","keywords":"Rose Dragon Dragon FIRE Synchro Monster","stats":{"a":"FIRE","l":"Level 7","t":"Dragon / Synchro","atk":2400,"def":1800},"rarity":"GR","img":"73580471","badge":"GR","variant":"Ghost Rare","code":"GR39","tcg":28432,"grp":158,"idx":45}
   ]
 }

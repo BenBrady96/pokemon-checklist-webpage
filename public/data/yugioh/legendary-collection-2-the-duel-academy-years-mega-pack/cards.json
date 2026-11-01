@@ -17,9 +17,8 @@
       "tier": "standard"
     },
     {
-      "id": "rarities",
-      "name": "Other Rarities",
-      "short": "Other Rarities",
+      "id": "r-scr",
+      "name": "Secret Rares",
       "range": "3 cards",
       "tier": "master"
     }
@@ -30,8 +29,8 @@
       "Main set"
     ],
     [
-      "rarities",
-      "Other rarities"
+      "r-scr",
+      "Secret Rares"
     ]
   ],
   "quickAdd": {
@@ -69,15 +68,12 @@
   },
   "cards": [
     {"id":"001","section":"main","num":"001","printed":"LCGX-EN001","name":"Elemental HERO Avian","ctype":"monster","keywords":"Elemental HERO Warrior WIND Normal Monster","stats":{"a":"WIND","l":"Level 3","t":"Warrior / Normal","atk":1000,"def":1000},"rarity":"C","img":"21844576","code":"1","tcg":56799,"grp":245,"idx":0},
-    {"id":"001-scr","section":"rarities","num":"001","printed":"LCGX-EN001","name":"Elemental HERO Avian","ctype":"monster","keywords":"Elemental HERO Warrior WIND Normal Monster","stats":{"a":"WIND","l":"Level 3","t":"Warrior / Normal","atk":1000,"def":1000},"rarity":"ScR","img":"21844576","badge":"ScR","variant":"Secret Rare","code":"SCR1","tcg":56799,"grp":245,"idx":1},
-    {"id":"002","section":"main","num":"002","printed":"LCGX-EN002","name":"Elemental HERO Avian","ctype":"monster","keywords":"Elemental HERO Warrior WIND Normal Monster","stats":{"a":"WIND","l":"Level 3","t":"Warrior / Normal","atk":1000,"def":1000},"rarity":"ScR","img":"21844577","code":"2","tcg":56800,"grp":245,"idx":2},
+    {"id":"002","section":"main","num":"002","printed":"LCGX-EN002","name":"Elemental HERO Avian","ctype":"monster","keywords":"Elemental HERO Warrior WIND Normal Monster","stats":{"a":"WIND","l":"Level 3","t":"Warrior / Normal","atk":1000,"def":1000},"rarity":"ScR","img":"21844577","print":"Alternate Art","code":"2","tcg":56800,"grp":245,"idx":2},
     {"id":"003","section":"main","num":"003","printed":"LCGX-EN003","name":"Elemental HERO Burstinatrix","ctype":"monster","keywords":"Elemental HERO Warrior FIRE Normal Monster","stats":{"a":"FIRE","l":"Level 3","t":"Warrior / Normal","atk":1200,"def":800},"rarity":"C","img":"58932615","code":"3","tcg":56803,"grp":245,"idx":3},
-    {"id":"003-scr","section":"rarities","num":"003","printed":"LCGX-EN003","name":"Elemental HERO Burstinatrix","ctype":"monster","keywords":"Elemental HERO Warrior FIRE Normal Monster","stats":{"a":"FIRE","l":"Level 3","t":"Warrior / Normal","atk":1200,"def":800},"rarity":"ScR","img":"58932615","badge":"ScR","variant":"Secret Rare","code":"SCR3","tcg":56803,"grp":245,"idx":4},
-    {"id":"004","section":"main","num":"004","printed":"LCGX-EN004","name":"Elemental HERO Burstinatrix","ctype":"monster","keywords":"Elemental HERO Warrior FIRE Normal Monster","stats":{"a":"FIRE","l":"Level 3","t":"Warrior / Normal","atk":1200,"def":800},"rarity":"ScR","img":"58932616","code":"4","tcg":56804,"grp":245,"idx":5},
+    {"id":"004","section":"main","num":"004","printed":"LCGX-EN004","name":"Elemental HERO Burstinatrix","ctype":"monster","keywords":"Elemental HERO Warrior FIRE Normal Monster","stats":{"a":"FIRE","l":"Level 3","t":"Warrior / Normal","atk":1200,"def":800},"rarity":"ScR","img":"58932616","print":"Alternate Art","code":"4","tcg":56804,"grp":245,"idx":5},
     {"id":"005","section":"main","num":"005","printed":"LCGX-EN005","name":"Elemental HERO Clayman","ctype":"monster","keywords":"Elemental HERO Warrior EARTH Normal Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Normal","atk":800,"def":2000},"rarity":"C","img":"84327329","code":"5","tcg":56807,"grp":245,"idx":6},
     {"id":"006","section":"main","num":"006","printed":"LCGX-EN006","name":"Elemental HERO Sparkman","ctype":"monster","keywords":"Elemental HERO Warrior LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Normal","atk":1600,"def":1400},"rarity":"C","img":"20721928","code":"6","tcg":56837,"grp":245,"idx":7},
-    {"id":"006-scr","section":"rarities","num":"006","printed":"LCGX-EN006","name":"Elemental HERO Sparkman","ctype":"monster","keywords":"Elemental HERO Warrior LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Normal","atk":1600,"def":1400},"rarity":"ScR","img":"20721928","badge":"ScR","variant":"Secret Rare","code":"SCR6","tcg":56837,"grp":245,"idx":8},
-    {"id":"007","section":"main","num":"007","printed":"LCGX-EN007","name":"Elemental HERO Sparkman","ctype":"monster","keywords":"Elemental HERO Warrior LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Normal","atk":1600,"def":1400},"rarity":"ScR","img":"20721928","code":"7","tcg":56838,"grp":245,"idx":9},
+    {"id":"007","section":"main","num":"007","printed":"LCGX-EN007","name":"Elemental HERO Sparkman","ctype":"monster","keywords":"Elemental HERO Warrior LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Normal","atk":1600,"def":1400},"rarity":"ScR","img":"20721928","print":"Alternate Art","code":"7","tcg":56838,"grp":245,"idx":9},
     {"id":"008","section":"main","num":"008","printed":"LCGX-EN008","name":"Elemental HERO Neos","ctype":"monster","keywords":"Elemental HERO Warrior LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 7","t":"Warrior / Normal","atk":2500,"def":2000},"rarity":"C","img":"89943723","code":"8","tcg":56827,"grp":245,"idx":10},
     {"id":"009","section":"main","num":"009","printed":"LCGX-EN009","name":"Winged Kuriboh","ctype":"monster","keywords":"Kuriboh Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Fairy / Effect","atk":300,"def":200},"rarity":"C","img":"57116033","code":"9","tcg":56979,"grp":245,"idx":11},
     {"id":"010","section":"main","num":"010","printed":"LCGX-EN010","name":"Winged Kuriboh LV10","ctype":"monster","keywords":"Kuriboh Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 10","t":"Fairy / Effect","atk":300,"def":200},"rarity":"C","img":"98585345","code":"10","tcg":56980,"grp":245,"idx":12},
@@ -246,13 +242,13 @@
     {"id":"173","section":"main","num":"173","printed":"LCGX-EN173","name":"Rainbow Path","ctype":"trap","keywords":"Crystal Beast Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"7617253","code":"173","tcg":56947,"grp":245,"idx":175},
     {"id":"174","section":"main","num":"174","printed":"LCGX-EN174","name":"Rainbow Gravity","ctype":"trap","keywords":"Crystal Beast Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"63806265","code":"174","tcg":56945,"grp":245,"idx":176},
     {"id":"175","section":"main","num":"175","printed":"LCGX-EN175","name":"Cyber Dragon","ctype":"monster","keywords":"Cyber Dragon Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 5","t":"Machine / Effect","atk":2100,"def":1600},"rarity":"UR","img":"70095154","code":"175","tcg":56742,"grp":245,"idx":177},
-    {"id":"176","section":"main","num":"176","printed":"LCGX-EN176","name":"Cyber Dragon","ctype":"monster","keywords":"Cyber Dragon Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 5","t":"Machine / Effect","atk":2100,"def":1600},"rarity":"ScR","img":"70095155","code":"176","tcg":56743,"grp":245,"idx":178},
+    {"id":"176","section":"main","num":"176","printed":"LCGX-EN176","name":"Cyber Dragon","ctype":"monster","keywords":"Cyber Dragon Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 5","t":"Machine / Effect","atk":2100,"def":1600},"rarity":"ScR","img":"70095155","print":"Alternate Art","code":"176","tcg":56743,"grp":245,"idx":178},
     {"id":"177","section":"main","num":"177","printed":"LCGX-EN177","name":"Proto-Cyber Dragon","ctype":"monster","keywords":"Cyber Dragon Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Machine / Effect","atk":1100,"def":600},"rarity":"UR","img":"26439287","code":"177","tcg":56941,"grp":245,"idx":179},
     {"id":"178","section":"main","num":"178","printed":"LCGX-EN178","name":"Cyber Phoenix","ctype":"monster","keywords":"Machine FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Machine / Effect","atk":1200,"def":1600},"rarity":"UR","img":"3370104","code":"178","tcg":56747,"grp":245,"idx":180},
     {"id":"179","section":"main","num":"179","printed":"LCGX-EN179","name":"Cyber Valley","ctype":"monster","keywords":"Machine LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Machine / Effect","atk":0,"def":0},"rarity":"UR","img":"3657444","code":"179","tcg":56749,"grp":245,"idx":181},
     {"id":"180","section":"main","num":"180","printed":"LCGX-EN180","name":"Cyber Twin Dragon","ctype":"monster","keywords":"Machine LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Machine / Fusion","atk":2800,"def":2100},"rarity":"ScR","img":"74157028","code":"180","tcg":56748,"grp":245,"idx":182},
     {"id":"181","section":"main","num":"181","printed":"LCGX-EN181","name":"Cyber End Dragon","ctype":"monster","keywords":"Machine LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 10","t":"Machine / Fusion","atk":4000,"def":2800},"rarity":"ScR","img":"1546123","code":"181","tcg":56744,"grp":245,"idx":183},
-    {"id":"182","section":"main","num":"182","printed":"LCGX-EN182","name":"Cyber End Dragon","ctype":"monster","keywords":"Machine LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 10","t":"Machine / Fusion","atk":4000,"def":2800},"rarity":"ScR","img":"1546124","code":"182","tcg":56745,"grp":245,"idx":184},
+    {"id":"182","section":"main","num":"182","printed":"LCGX-EN182","name":"Cyber End Dragon","ctype":"monster","keywords":"Machine LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 10","t":"Machine / Fusion","atk":4000,"def":2800},"rarity":"ScR","img":"1546124","print":"Alternate Art","code":"182","tcg":56745,"grp":245,"idx":184},
     {"id":"183","section":"main","num":"183","printed":"LCGX-EN183","name":"Chimeratech Overdragon","ctype":"monster","keywords":"Machine DARK Fusion Monster","stats":{"a":"DARK","l":"Level 9","t":"Machine / Fusion","atk":-1,"def":-1},"rarity":"ScR","img":"64599569","code":"183","tcg":56719,"grp":245,"idx":185},
     {"id":"184","section":"main","num":"184","printed":"LCGX-EN184","name":"Power Bond","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"ScR","img":"37630732","code":"184","tcg":56940,"grp":245,"idx":186},
     {"id":"185","section":"main","num":"185","printed":"LCGX-EN185","name":"Overload Fusion","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"R","img":"3659803","code":"185","tcg":56936,"grp":245,"idx":187},
@@ -336,6 +332,9 @@
     {"id":"263","section":"main","num":"263","printed":"LCGX-EN263","name":"Swiftstrike Armor","ctype":"trap","keywords":"Six Samurai Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"R","img":"84613836","code":"263","tcg":56961,"grp":245,"idx":265},
     {"id":"264","section":"main","num":"264","printed":"LCGX-EN264","name":"Double-Edged Sword Technique","ctype":"trap","keywords":"Six Samurai Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"21007444","code":"264","tcg":56794,"grp":245,"idx":266},
     {"id":"265","section":"main","num":"265","printed":"LCGX-EN265","name":"Defensive Tactics","ctype":"trap","keywords":"Gladiator Beast Normal Trap","stats":{"t":"Normal Trap"},"rarity":"UR","img":"28877100","code":"265","tcg":56771,"grp":245,"idx":267},
-    {"id":"266","section":"main","num":"266","printed":"LCGX-EN266","name":"Gladiator Beast War Chariot","ctype":"trap","keywords":"Gladiator Beast Counter Trap","stats":{"t":"Counter Trap"},"rarity":"ScR","img":"96216229","code":"266","tcg":56881,"grp":245,"idx":268}
+    {"id":"266","section":"main","num":"266","printed":"LCGX-EN266","name":"Gladiator Beast War Chariot","ctype":"trap","keywords":"Gladiator Beast Counter Trap","stats":{"t":"Counter Trap"},"rarity":"ScR","img":"96216229","code":"266","tcg":56881,"grp":245,"idx":268},
+    {"id":"001-scr","section":"r-scr","num":"001","printed":"LCGX-EN001","name":"Elemental HERO Avian","ctype":"monster","keywords":"Elemental HERO Warrior WIND Normal Monster","stats":{"a":"WIND","l":"Level 3","t":"Warrior / Normal","atk":1000,"def":1000},"rarity":"ScR","img":"21844576","badge":"ScR","variant":"Secret Rare","code":"SCR1","tcg":56799,"grp":245,"idx":1},
+    {"id":"003-scr","section":"r-scr","num":"003","printed":"LCGX-EN003","name":"Elemental HERO Burstinatrix","ctype":"monster","keywords":"Elemental HERO Warrior FIRE Normal Monster","stats":{"a":"FIRE","l":"Level 3","t":"Warrior / Normal","atk":1200,"def":800},"rarity":"ScR","img":"58932615","badge":"ScR","variant":"Secret Rare","code":"SCR3","tcg":56803,"grp":245,"idx":4},
+    {"id":"006-scr","section":"r-scr","num":"006","printed":"LCGX-EN006","name":"Elemental HERO Sparkman","ctype":"monster","keywords":"Elemental HERO Warrior LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Normal","atk":1600,"def":1400},"rarity":"ScR","img":"20721928","badge":"ScR","variant":"Secret Rare","code":"SCR6","tcg":56837,"grp":245,"idx":8}
   ]
 }

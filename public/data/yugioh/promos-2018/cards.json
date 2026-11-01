@@ -17,9 +17,8 @@
       "tier": "standard"
     },
     {
-      "id": "rarities",
-      "name": "Other Rarities",
-      "short": "Other Rarities",
+      "id": "r-ur",
+      "name": "Ultra Rares",
       "range": "1 card",
       "tier": "master"
     }
@@ -30,8 +29,8 @@
       "Main set"
     ],
     [
-      "rarities",
-      "Other rarities"
+      "r-ur",
+      "Ultra Rares"
     ]
   ],
   "quickAdd": {
@@ -156,6 +155,6 @@
     {"id":"YA03-001","section":"main","num":"YA03-EN001","printed":"YA03-EN001","name":"D/D/D Destiny King Zero Laplace","ctype":"monster","keywords":"D/D Fiend DARK Pendulum Effect Monster","stats":{"a":"DARK","l":"Level 10","t":"Fiend / Pendulum / Effect","atk":-1,"def":0},"note":"Yu-Gi-Oh! ARC-V Volume 3 promotional card","rarity":"UR","img":"21686473","code":"49","tcg":162085,"grp":1918,"idx":48},
     {"id":"YA04-001","section":"main","num":"YA04-EN001","printed":"YA04-EN001","name":"White Aura Bihamut","ctype":"monster","keywords":"White Fish WATER Synchro Monster","stats":{"a":"WATER","l":"Level 10","t":"Fish / Synchro","atk":3300,"def":3000},"note":"Yu-Gi-Oh! ARC-V Volume 4 promotional card","rarity":"UR","img":"89907227","code":"50","tcg":180303,"grp":1918,"idx":49},
     {"id":"YCSW-011","section":"main","num":"YCSW-EN011","printed":"YCSW-EN011","name":"Chaos Emperor, the Dragon of Armageddon","ctype":"monster","keywords":"Chaos Dragon DARK Pendulum Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Dragon / Pendulum / Effect","atk":3000,"def":2500},"note":"Yu-Gi-Oh! Championship Series 2018 prize card","rarity":"SR","img":"4538826","code":"51","tcg":177153,"grp":1347,"idx":50},
-    {"id":"YCSW-011-ur","section":"rarities","num":"YCSW-EN011","printed":"YCSW-EN011","name":"Chaos Emperor, the Dragon of Armageddon","ctype":"monster","keywords":"Chaos Dragon DARK Pendulum Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Dragon / Pendulum / Effect","atk":3000,"def":2500},"note":"Yu-Gi-Oh! Championship Series 2018 prize card","rarity":"UR","img":"4538826","badge":"UR","variant":"Ultra Rare","code":"UR51","tcg":177154,"grp":1347,"idx":51}
+    {"id":"YCSW-011-ur","section":"r-ur","num":"YCSW-EN011","printed":"YCSW-EN011","name":"Chaos Emperor, the Dragon of Armageddon","ctype":"monster","keywords":"Chaos Dragon DARK Pendulum Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Dragon / Pendulum / Effect","atk":3000,"def":2500},"note":"Yu-Gi-Oh! Championship Series 2018 prize card","rarity":"UR","img":"4538826","badge":"UR","variant":"Ultra Rare","code":"UR51","tcg":177154,"grp":1347,"idx":51}
   ]
 }

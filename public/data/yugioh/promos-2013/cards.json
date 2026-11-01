@@ -17,9 +17,8 @@
       "tier": "standard"
     },
     {
-      "id": "rarities",
-      "name": "Other Rarities",
-      "short": "Other Rarities",
+      "id": "r-ur",
+      "name": "Ultra Rares",
       "range": "1 card",
       "tier": "master"
     }
@@ -30,8 +29,8 @@
       "Main set"
     ],
     [
-      "rarities",
-      "Other rarities"
+      "r-ur",
+      "Ultra Rares"
     ]
   ],
   "quickAdd": {
@@ -114,9 +113,9 @@
     {"id":"SHSP-SE2","section":"main","num":"SHSP-ENSE2","printed":"SHSP-ENSE2","name":"Tuning","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"note":"Shadow Specters: Special Edition","rarity":"SR","img":"96363153","code":"20","tcg":77452,"grp":1156,"idx":19},
     {"id":"SHSP-SP1","section":"main","num":"SHSP-ENSP1","printed":"SHSP-ENSP1","name":"Ghostrick Ghoul","ctype":"monster","keywords":"Ghostrick Zombie DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Zombie / Effect","atk":1100,"def":1200},"note":"Shadow Specters Sneak Peek Participation Card","rarity":"UR","img":"85463083","code":"21","tcg":72462,"grp":1156,"idx":20},
     {"id":"YCSW-006","section":"main","num":"YCSW-EN006","printed":"YCSW-EN006","name":"Number 106: Giant Hand","ctype":"monster","keywords":"Rock EARTH Xyz Monster","stats":{"a":"EARTH","l":"Rank 4","t":"Rock / Xyz","atk":2000,"def":2000},"note":"Yu-Gi-Oh! Championship Series 2013 Prize Card","rarity":"SR","img":"63746411","code":"22","tcg":82260,"grp":1347,"idx":21},
-    {"id":"YCSW-006-ur","section":"rarities","num":"YCSW-EN006","printed":"YCSW-EN006","name":"Number 106: Giant Hand","ctype":"monster","keywords":"Rock EARTH Xyz Monster","stats":{"a":"EARTH","l":"Rank 4","t":"Rock / Xyz","atk":2000,"def":2000},"note":"Yu-Gi-Oh! Championship Series 2013 Prize Card","rarity":"UR","img":"63746411","badge":"UR","variant":"Ultra Rare","code":"UR22","tcg":82261,"grp":1347,"idx":22},
     {"id":"YF04-001","section":"main","num":"YF04-EN001","printed":"YF04-EN001","name":"Blackwing - Gram the Shining Star","ctype":"monster","keywords":"Blackwing Winged Beast DARK Synchro Monster","stats":{"a":"DARK","l":"Level 5","t":"Winged Beast / Synchro","atk":2200,"def":1500},"note":"Yu-Gi-Oh! 5D's Volume 4 promotional card","rarity":"UR","img":"17377751","code":"23","tcg":71057,"grp":352,"idx":23},
     {"id":"YF05-001","section":"main","num":"YF05-EN001","printed":"YF05-EN001","name":"Stardust Spark Dragon","ctype":"monster","keywords":"Stardust Dragon LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Synchro","atk":2500,"def":2000},"note":"Yu-Gi-Oh! 5D's Volume 5 promotional card","rarity":"UR","img":"83994433","code":"24","tcg":77307,"grp":352,"idx":24},
-    {"id":"YZ03-001","section":"main","num":"YZ03-EN001","printed":"YZ03-EN001","name":"Number 22: Zombiestein","ctype":"monster","keywords":"Zombie DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 8","t":"Zombie / Xyz","atk":4500,"def":1000},"note":"Yu-Gi-Oh! ZEXAL Volume 3 promotional card","rarity":"UR","img":"73445448","code":"25","tcg":71056,"grp":600,"idx":25}
+    {"id":"YZ03-001","section":"main","num":"YZ03-EN001","printed":"YZ03-EN001","name":"Number 22: Zombiestein","ctype":"monster","keywords":"Zombie DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 8","t":"Zombie / Xyz","atk":4500,"def":1000},"note":"Yu-Gi-Oh! ZEXAL Volume 3 promotional card","rarity":"UR","img":"73445448","code":"25","tcg":71056,"grp":600,"idx":25},
+    {"id":"YCSW-006-ur","section":"r-ur","num":"YCSW-EN006","printed":"YCSW-EN006","name":"Number 106: Giant Hand","ctype":"monster","keywords":"Rock EARTH Xyz Monster","stats":{"a":"EARTH","l":"Rank 4","t":"Rock / Xyz","atk":2000,"def":2000},"note":"Yu-Gi-Oh! Championship Series 2013 Prize Card","rarity":"UR","img":"63746411","badge":"UR","variant":"Ultra Rare","code":"UR22","tcg":82261,"grp":1347,"idx":22}
   ]
 }

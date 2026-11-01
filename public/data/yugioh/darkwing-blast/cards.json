@@ -17,9 +17,8 @@
       "tier": "standard"
     },
     {
-      "id": "rarities",
-      "name": "Other Rarities",
-      "short": "Other Rarities",
+      "id": "r-str",
+      "name": "Starlight Rares",
       "range": "4 cards",
       "tier": "master"
     }
@@ -30,8 +29,8 @@
       "Main set"
     ],
     [
-      "rarities",
-      "Other rarities"
+      "r-str",
+      "Starlight Rares"
     ]
   ],
   "quickAdd": {
@@ -80,13 +79,11 @@
     {"id":"009","section":"main","num":"009","printed":"DABL-EN009","name":"The Bystial Lubellion","ctype":"monster","keywords":"Bystial Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Effect","atk":2500,"def":3000},"rarity":"ScR","img":"32731036","code":"9","tcg":450163,"grp":3111,"idx":9},
     {"id":"010","section":"main","num":"010","printed":"DABL-EN010","name":"The Bystial Alba Los","ctype":"monster","keywords":"Bystial Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 12","t":"Dragon / Effect","atk":3500,"def":3500},"rarity":"UR","img":"69120785","code":"10","tcg":450165,"grp":3111,"idx":10},
     {"id":"011","section":"main","num":"011","printed":"DABL-EN011","name":"Blazing Cartesia, the Virtuous","ctype":"monster","keywords":"Spellcaster LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Tuner","atk":1500,"def":1500},"rarity":"ScR","img":"95515789","code":"11","tcg":450170,"grp":3111,"idx":11},
-    {"id":"011-str","section":"rarities","num":"011","printed":"DABL-EN011","name":"Blazing Cartesia, the Virtuous","ctype":"monster","keywords":"Spellcaster LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Tuner","atk":1500,"def":1500},"rarity":"StR","img":"95515789","badge":"StR","variant":"Starlight Rare","code":"STR11","tcg":450172,"grp":3111,"idx":12},
     {"id":"012","section":"main","num":"012","printed":"DABL-EN012","name":"Kashtira Fenrir","ctype":"monster","keywords":"Kashtira Psychic EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 7","t":"Psychic / Effect","atk":2400,"def":2400},"rarity":"UR","img":"32909498","code":"12","tcg":450182,"grp":3111,"idx":13},
     {"id":"013","section":"main","num":"013","printed":"DABL-EN013","name":"Kashtira Unicorn","ctype":"monster","keywords":"Kashtira Psychic WIND Effect Monster","stats":{"a":"WIND","l":"Level 7","t":"Psychic / Effect","atk":2500,"def":2100},"rarity":"UR","img":"68304193","code":"13","tcg":450202,"grp":3111,"idx":14},
     {"id":"014","section":"main","num":"014","printed":"DABL-EN014","name":"Kashtira Ogre","ctype":"monster","keywords":"Kashtira Psychic WATER Effect Monster","stats":{"a":"WATER","l":"Level 7","t":"Psychic / Effect","atk":2800,"def":1000},"rarity":"C","img":"94392192","code":"14","tcg":450203,"grp":3111,"idx":15},
     {"id":"015","section":"main","num":"015","printed":"DABL-EN015","name":"Tobari the Sky Ninja","ctype":"monster","keywords":"Ninja Winged Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 1","t":"Winged Beast / Effect","atk":0,"def":0},"rarity":"C","img":"31887806","code":"15","tcg":450204,"grp":3111,"idx":16},
     {"id":"016","section":"main","num":"016","printed":"DABL-EN016","name":"Mitsu the Insect Ninja","ctype":"monster","keywords":"Ninja Insect WATER Effect Monster","stats":{"a":"WATER","l":"Level 2","t":"Insect / Effect","atk":200,"def":2100},"rarity":"UR","img":"67282505","code":"16","tcg":450206,"grp":3111,"idx":17},
-    {"id":"016-str","section":"rarities","num":"016","printed":"DABL-EN016","name":"Mitsu the Insect Ninja","ctype":"monster","keywords":"Ninja Insect WATER Effect Monster","stats":{"a":"WATER","l":"Level 2","t":"Insect / Effect","atk":200,"def":2100},"rarity":"StR","img":"67282505","badge":"StR","variant":"Starlight Rare","code":"STR16","tcg":450659,"grp":3111,"idx":18},
     {"id":"017","section":"main","num":"017","printed":"DABL-EN017","name":"Baku the Beast Ninja","ctype":"monster","keywords":"Ninja Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 3","t":"Beast / Effect","atk":1500,"def":600},"rarity":"SR","img":"94670654","code":"17","tcg":450205,"grp":3111,"idx":19},
     {"id":"018","section":"main","num":"018","printed":"DABL-EN018","name":"Kagero the Cannon Ninja","ctype":"monster","keywords":"Ninja Warrior FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Warrior / Effect","atk":1600,"def":2000},"rarity":"C","img":"20065259","code":"18","tcg":450207,"grp":3111,"idx":20},
     {"id":"019","section":"main","num":"019","printed":"DABL-EN019","name":"Prediction Princess Bibliomuse","ctype":"monster","keywords":"Prediction Princess Fairy EARTH Flip Effect Monster","stats":{"a":"EARTH","l":"Level 9","t":"Fairy / Flip / Effect","atk":2500,"def":2500},"rarity":"C","img":"66069967","code":"19","tcg":450208,"grp":3111,"idx":21},
@@ -101,7 +98,6 @@
     {"id":"028","section":"main","num":"028","printed":"DABL-EN028","name":"Celestial Apparatus Tesea","ctype":"monster","keywords":"Adventurer Fairy EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Fairy / Effect","atk":1000,"def":1000},"rarity":"C","img":"54092240","code":"28","tcg":450217,"grp":3111,"idx":30},
     {"id":"029","section":"main","num":"029","printed":"DABL-EN029","name":"Soul Scissors","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 2","t":"Fiend / Effect","atk":550,"def":350},"rarity":"C","img":"12061457","code":"29","tcg":450218,"grp":3111,"idx":31},
     {"id":"030","section":"main","num":"030","printed":"DABL-EN030","name":"Lady Labrynth of the Silver Castle","ctype":"monster","keywords":"Labrynth Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Fiend / Effect","atk":3000,"def":2900},"rarity":"ScR","img":"81497285","code":"30","tcg":450219,"grp":3111,"idx":32},
-    {"id":"030-str","section":"rarities","num":"030","printed":"DABL-EN030","name":"Lady Labrynth of the Silver Castle","ctype":"monster","keywords":"Labrynth Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Fiend / Effect","atk":3000,"def":2900},"rarity":"StR","img":"81497285","badge":"StR","variant":"Starlight Rare","code":"STR30","tcg":450220,"grp":3111,"idx":33},
     {"id":"031","section":"main","num":"031","printed":"DABL-EN031","name":"Infernalqueen Salmon","ctype":"monster","keywords":"Fish WATER Effect Monster","stats":{"a":"WATER","l":"Level 5","t":"Fish / Effect","atk":2400,"def":1000},"rarity":"C","img":"27882993","code":"31","tcg":450221,"grp":3111,"idx":34},
     {"id":"032","section":"main","num":"032","printed":"DABL-EN032","name":"Han-Shi Kyudo Spirit","ctype":"monster","keywords":"Martial Art Spirit Warrior WIND Spirit Monster","stats":{"a":"WIND","l":"Level 5","t":"Warrior / Spirit","atk":2400,"def":1000},"rarity":"C","img":"53270092","code":"32","tcg":450222,"grp":3111,"idx":35},
     {"id":"033","section":"main","num":"033","printed":"DABL-EN033","name":"Laughing Puffin","ctype":"monster","keywords":"Winged Beast DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Winged Beast / Effect","atk":1000,"def":1700},"rarity":"C","img":"80275707","code":"33","tcg":450223,"grp":3111,"idx":36},
@@ -111,7 +107,6 @@
     {"id":"037","section":"main","num":"037","printed":"DABL-EN037","name":"Silent Wolf Calupo","ctype":"monster","keywords":"Beast-Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Beast-Warrior / Effect","atk":1400,"def":1400},"rarity":"C","img":"15947754","code":"37","tcg":450227,"grp":3111,"idx":40},
     {"id":"038","section":"main","num":"038","printed":"DABL-EN038","name":"Prediction Princess Tarotreith","ctype":"monster","keywords":"Prediction Princess Fairy DARK Ritual Effect Monster","stats":{"a":"DARK","l":"Level 9","t":"Fairy / Ritual / Effect","atk":1200,"def":2700},"rarity":"SR","img":"42932862","code":"38","tcg":450228,"grp":3111,"idx":41},
     {"id":"039","section":"main","num":"039","printed":"DABL-EN039","name":"Tearlaments Rulkallos","ctype":"monster","keywords":"Tearlaments Aqua WATER Fusion Monster","stats":{"a":"WATER","l":"Level 8","t":"Aqua / Fusion","atk":3000,"def":2500},"rarity":"ScR","img":"84330567","code":"39","tcg":450229,"grp":3111,"idx":42},
-    {"id":"039-str","section":"rarities","num":"039","printed":"DABL-EN039","name":"Tearlaments Rulkallos","ctype":"monster","keywords":"Tearlaments Aqua WATER Fusion Monster","stats":{"a":"WATER","l":"Level 8","t":"Aqua / Fusion","atk":3000,"def":2500},"rarity":"StR","img":"84330567","badge":"StR","variant":"Starlight Rare","code":"STR39","tcg":450230,"grp":3111,"idx":43},
     {"id":"040","section":"main","num":"040","printed":"DABL-EN040","name":"Meizen the Battle Ninja","ctype":"monster","keywords":"Ninja Warrior DARK Fusion Monster","stats":{"a":"DARK","l":"Level 6","t":"Warrior / Fusion","atk":2500,"def":1500},"rarity":"UR","img":"11825276","code":"40","tcg":450231,"grp":3111,"idx":44},
     {"id":"041","section":"main","num":"041","printed":"DABL-EN041","name":"Freki the Runick Fangs","ctype":"monster","keywords":"Runick Beast DARK Fusion Monster","stats":{"a":"DARK","l":"Level 5","t":"Beast / Fusion","atk":2000,"def":0},"rarity":"C","img":"47219274","code":"41","tcg":450232,"grp":3111,"idx":45},
     {"id":"042","section":"main","num":"042","printed":"DABL-EN042","name":"Black-Winged Assault Dragon","ctype":"monster","keywords":"Dragon DARK Synchro Monster","stats":{"a":"DARK","l":"Level 10","t":"Dragon / Synchro","atk":3200,"def":2800},"rarity":"UR","img":"73218989","code":"42","tcg":450233,"grp":3111,"idx":46},
@@ -172,6 +167,10 @@
     {"id":"097","section":"main","num":"097","printed":"DABL-EN097","name":"Amazoness Augusta","ctype":"monster","keywords":"Amazoness Warrior EARTH Fusion Monster","stats":{"a":"EARTH","l":"Level 10","t":"Warrior / Fusion","atk":3200,"def":2800},"rarity":"C","img":"23965033","code":"97","tcg":450252,"grp":3111,"idx":101},
     {"id":"098","section":"main","num":"098","printed":"DABL-EN098","name":"Amazoness Pet Liger King","ctype":"monster","keywords":"Amazoness Beast EARTH Fusion Monster","stats":{"a":"EARTH","l":"Level 9","t":"Beast / Fusion","atk":2900,"def":2800},"rarity":"C","img":"59353647","code":"98","tcg":450253,"grp":3111,"idx":102},
     {"id":"099","section":"main","num":"099","printed":"DABL-EN099","name":"Amazoness Secret Arts","ctype":"spell","keywords":"Amazoness Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"86758746","code":"99","tcg":450254,"grp":3111,"idx":103},
-    {"id":"100","section":"main","num":"100","printed":"DABL-EN100","name":"Black-Winged Dragon","ctype":"monster","keywords":"Dragon DARK Synchro Monster","stats":{"a":"DARK","l":"Level 8","t":"Dragon / Synchro","atk":2800,"def":1600},"rarity":"StR","img":"9012916","code":"100","tcg":450255,"grp":3111,"idx":104}
+    {"id":"100","section":"main","num":"100","printed":"DABL-EN100","name":"Black-Winged Dragon","ctype":"monster","keywords":"Dragon DARK Synchro Monster","stats":{"a":"DARK","l":"Level 8","t":"Dragon / Synchro","atk":2800,"def":1600},"rarity":"StR","img":"9012916","code":"100","tcg":450255,"grp":3111,"idx":104},
+    {"id":"011-str","section":"r-str","num":"011","printed":"DABL-EN011","name":"Blazing Cartesia, the Virtuous","ctype":"monster","keywords":"Spellcaster LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Tuner","atk":1500,"def":1500},"rarity":"StR","img":"95515789","badge":"StR","variant":"Starlight Rare","code":"STR11","tcg":450172,"grp":3111,"idx":12},
+    {"id":"016-str","section":"r-str","num":"016","printed":"DABL-EN016","name":"Mitsu the Insect Ninja","ctype":"monster","keywords":"Ninja Insect WATER Effect Monster","stats":{"a":"WATER","l":"Level 2","t":"Insect / Effect","atk":200,"def":2100},"rarity":"StR","img":"67282505","badge":"StR","variant":"Starlight Rare","code":"STR16","tcg":450659,"grp":3111,"idx":18},
+    {"id":"030-str","section":"r-str","num":"030","printed":"DABL-EN030","name":"Lady Labrynth of the Silver Castle","ctype":"monster","keywords":"Labrynth Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Fiend / Effect","atk":3000,"def":2900},"rarity":"StR","img":"81497285","badge":"StR","variant":"Starlight Rare","code":"STR30","tcg":450220,"grp":3111,"idx":33},
+    {"id":"039-str","section":"r-str","num":"039","printed":"DABL-EN039","name":"Tearlaments Rulkallos","ctype":"monster","keywords":"Tearlaments Aqua WATER Fusion Monster","stats":{"a":"WATER","l":"Level 8","t":"Aqua / Fusion","atk":3000,"def":2500},"rarity":"StR","img":"84330567","badge":"StR","variant":"Starlight Rare","code":"STR39","tcg":450230,"grp":3111,"idx":43}
   ]
 }

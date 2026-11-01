@@ -17,9 +17,8 @@
       "tier": "standard"
     },
     {
-      "id": "rarities",
-      "name": "Other Rarities",
-      "short": "Other Rarities",
+      "id": "r-scr",
+      "name": "Secret Rares",
       "range": "1 card",
       "tier": "master"
     }
@@ -30,8 +29,8 @@
       "Main set"
     ],
     [
-      "rarities",
-      "Other rarities"
+      "r-scr",
+      "Secret Rares"
     ]
   ],
   "quickAdd": {
@@ -79,7 +78,6 @@
     {"id":"009","section":"main","num":"009","printed":"DASA-EN009","name":"Vampire's Domain","ctype":"spell","keywords":"Vampire Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"ScR","img":"5795882","code":"9","tcg":167170,"grp":2231,"idx":8},
     {"id":"010","section":"main","num":"010","printed":"DASA-EN010","name":"Vampire Awakening","ctype":"trap","keywords":"Vampire Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"31189536","code":"10","tcg":167171,"grp":2231,"idx":9},
     {"id":"011","section":"main","num":"011","printed":"DASA-EN011","name":"Vampire Domination","ctype":"trap","keywords":"Vampire Counter Trap","stats":{"t":"Counter Trap"},"rarity":"SR","img":"68688135","code":"11","tcg":167172,"grp":2231,"idx":10},
-    {"id":"011-scr","section":"rarities","num":"011","printed":"DASA-EN011","name":"Vampire Domination","ctype":"trap","keywords":"Vampire Counter Trap","stats":{"t":"Counter Trap"},"rarity":"ScR","img":"68688135","badge":"ScR","variant":"Secret Rare","code":"SCR11","tcg":167172,"grp":2231,"idx":11},
     {"id":"012","section":"main","num":"012","printed":"DASA-EN012","name":"Shadow Vampire","ctype":"monster","keywords":"Vampire Zombie DARK Effect Monster","stats":{"a":"DARK","l":"Level 5","t":"Zombie / Effect","atk":2000,"def":0},"rarity":"SR","img":"14212201","code":"12","tcg":167173,"grp":2231,"idx":12},
     {"id":"013","section":"main","num":"013","printed":"DASA-EN013","name":"Crimson Knight Vampire Bram","ctype":"monster","keywords":"Vampire Zombie DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 5","t":"Zombie / Xyz","atk":2500,"def":0},"rarity":"SR","img":"38250531","code":"13","tcg":167174,"grp":2231,"idx":13},
     {"id":"014","section":"main","num":"014","printed":"DASA-EN014","name":"Donpa, Marksman Fur Hire","ctype":"monster","keywords":"Fur Hire Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 2","t":"Beast / Effect","atk":500,"def":1000},"rarity":"SR","img":"94073244","code":"14","tcg":167175,"grp":2231,"idx":14},
@@ -128,6 +126,7 @@
     {"id":"057","section":"main","num":"057","printed":"DASA-EN057","name":"Quick Booster","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"SR","img":"45869829","code":"57","tcg":167218,"grp":2231,"idx":57},
     {"id":"058","section":"main","num":"058","printed":"DASA-EN058","name":"Foolish Burial Goods","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"35726888","code":"58","tcg":167219,"grp":2231,"idx":58},
     {"id":"059","section":"main","num":"059","printed":"DASA-EN059","name":"Mirror Force","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"44095762","code":"59","tcg":167220,"grp":2231,"idx":59},
-    {"id":"060","section":"main","num":"060","printed":"DASA-EN060","name":"Horn of the Phantom Beast","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"21350571","code":"60","tcg":167221,"grp":2231,"idx":60}
+    {"id":"060","section":"main","num":"060","printed":"DASA-EN060","name":"Horn of the Phantom Beast","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"21350571","code":"60","tcg":167221,"grp":2231,"idx":60},
+    {"id":"011-scr","section":"r-scr","num":"011","printed":"DASA-EN011","name":"Vampire Domination","ctype":"trap","keywords":"Vampire Counter Trap","stats":{"t":"Counter Trap"},"rarity":"ScR","img":"68688135","badge":"ScR","variant":"Secret Rare","code":"SCR11","tcg":167172,"grp":2231,"idx":11}
   ]
 }

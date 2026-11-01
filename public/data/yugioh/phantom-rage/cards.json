@@ -17,9 +17,8 @@
       "tier": "standard"
     },
     {
-      "id": "rarities",
-      "name": "Other Rarities",
-      "short": "Other Rarities",
+      "id": "r-str",
+      "name": "Starlight Rares",
       "range": "4 cards",
       "tier": "master"
     }
@@ -30,8 +29,8 @@
       "Main set"
     ],
     [
-      "rarities",
-      "Other rarities"
+      "r-str",
+      "Starlight Rares"
     ]
   ],
   "quickAdd": {
@@ -72,7 +71,6 @@
     {"id":"001","section":"main","num":"001","printed":"PHRA-EN001","name":"Raider's Wing","ctype":"monster","keywords":"Raidraptor Winged Beast DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Winged Beast / Effect","atk":0,"def":2000},"rarity":"UR","img":"52159691","code":"1","tcg":226153,"grp":2694,"idx":1},
     {"id":"002","section":"main","num":"002","printed":"PHRA-EN002","name":"The Phantom Knights of Stained Greaves","ctype":"monster","keywords":"Phantom Knights Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Warrior / Effect","atk":1200,"def":600},"rarity":"C","img":"88544390","code":"2","tcg":226154,"grp":2694,"idx":2},
     {"id":"003","section":"main","num":"003","printed":"PHRA-EN003","name":"The Phantom Knights of Torn Scales","ctype":"monster","keywords":"Phantom Knights Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Warrior / Effect","atk":600,"def":1600},"rarity":"ScR","img":"25538345","code":"3","tcg":226155,"grp":2694,"idx":3},
-    {"id":"003-str","section":"rarities","num":"003","printed":"PHRA-EN003","name":"The Phantom Knights of Torn Scales","ctype":"monster","keywords":"Phantom Knights Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Warrior / Effect","atk":600,"def":1600},"rarity":"StR","img":"25538345","badge":"StR","variant":"Starlight Rare","code":"STR3","tcg":226608,"grp":2694,"idx":4},
     {"id":"004","section":"main","num":"004","printed":"PHRA-EN004","name":"Raidraptor - Heel Eagle","ctype":"monster","keywords":"Raidraptor Winged Beast DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Winged Beast / Effect","atk":700,"def":700},"rarity":"C","img":"51933043","code":"4","tcg":226156,"grp":2694,"idx":5},
     {"id":"005","section":"main","num":"005","printed":"PHRA-EN005","name":"Raidraptor - Strangle Lanius","ctype":"monster","keywords":"Raidraptor Winged Beast DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Winged Beast / Effect","atk":1600,"def":1100},"rarity":"SR","img":"87321742","code":"5","tcg":226157,"grp":2694,"idx":6},
     {"id":"006","section":"main","num":"006","printed":"PHRA-EN006","name":"Tri-Brigade Nervall","ctype":"monster","keywords":"Tri-Brigade Winged Beast WIND Effect Monster","stats":{"a":"WIND","l":"Level 1","t":"Winged Beast / Effect","atk":0,"def":2000},"rarity":"C","img":"14816857","code":"6","tcg":226158,"grp":2694,"idx":7},
@@ -93,7 +91,6 @@
     {"id":"021","section":"main","num":"021","printed":"PHRA-EN021","name":"Awakening of the Possessed - Rasenryu","ctype":"monster","keywords":"Possessed Dragon WIND Effect Monster","stats":{"a":"WIND","l":"Level 5","t":"Dragon / Effect","atk":2000,"def":200},"rarity":"C","img":"410904","code":"21","tcg":226173,"grp":2694,"idx":22},
     {"id":"022","section":"main","num":"022","printed":"PHRA-EN022","name":"Gizmek Makami, the Ferocious Fanged Fortress","ctype":"monster","keywords":"Gizmek Machine WIND Effect Monster","stats":{"a":"WIND","l":"Level 6","t":"Machine / Effect","atk":2150,"def":2150},"rarity":"SR","img":"46809548","code":"22","tcg":226174,"grp":2694,"idx":23},
     {"id":"023","section":"main","num":"023","printed":"PHRA-EN023","name":"Alpha, the Master of Beasts","ctype":"monster","keywords":"Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 8","t":"Beast / Effect","atk":3000,"def":2500},"rarity":"ScR","img":"73304257","code":"23","tcg":226175,"grp":2694,"idx":24},
-    {"id":"023-str","section":"rarities","num":"023","printed":"PHRA-EN023","name":"Alpha, the Master of Beasts","ctype":"monster","keywords":"Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 8","t":"Beast / Effect","atk":3000,"def":2500},"rarity":"StR","img":"73304257","badge":"StR","variant":"Starlight Rare","code":"STR23","tcg":226610,"grp":2694,"idx":25},
     {"id":"024","section":"main","num":"024","printed":"PHRA-EN024","name":"Prufinesse, the Tactical Trapper","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Effect","atk":1800,"def":0},"rarity":"C","img":"9798352","code":"24","tcg":226176,"grp":2694,"idx":26},
     {"id":"025","section":"main","num":"025","printed":"PHRA-EN025","name":"Rock Band Xenoguitar","ctype":"monster","keywords":"Rock EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Rock / Effect","atk":1000,"def":2000},"rarity":"SR","img":"36187051","code":"25","tcg":226177,"grp":2694,"idx":27},
     {"id":"026","section":"main","num":"026","printed":"PHRA-EN026","name":"Magical Broker","ctype":"monster","keywords":"Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Spellcaster / Effect","atk":1500,"def":200},"rarity":"C","img":"72171665","code":"26","tcg":226178,"grp":2694,"idx":28},
@@ -116,9 +113,7 @@
     {"id":"043","section":"main","num":"043","printed":"PHRA-EN043","name":"Virtual World Phoenix - Fanfan","ctype":"monster","keywords":"Virtual World Wyrm EARTH Xyz Monster","stats":{"a":"EARTH","l":"Rank 6","t":"Wyrm / Xyz","atk":2600,"def":2000},"rarity":"UR","img":"27069566","code":"43","tcg":226195,"grp":2694,"idx":45},
     {"id":"044","section":"main","num":"044","printed":"PHRA-EN044","name":"Joyous Melffys","ctype":"monster","keywords":"Melffy Beast EARTH Xyz Monster","stats":{"a":"EARTH","l":"Rank 2","t":"Beast / Xyz","atk":2000,"def":500},"rarity":"SR","img":"53054164","code":"44","tcg":226196,"grp":2694,"idx":46},
     {"id":"045","section":"main","num":"045","printed":"PHRA-EN045","name":"Divine Arsenal AA-ZEUS - Sky Thunder","ctype":"monster","keywords":"Machine LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 12","t":"Machine / Xyz","atk":3000,"def":3000},"rarity":"ScR","img":"90448279","code":"45","tcg":226197,"grp":2694,"idx":47},
-    {"id":"045-str","section":"rarities","num":"045","printed":"PHRA-EN045","name":"Divine Arsenal AA-ZEUS - Sky Thunder","ctype":"monster","keywords":"Machine LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 12","t":"Machine / Xyz","atk":3000,"def":3000},"rarity":"StR","img":"90448279","badge":"StR","variant":"Starlight Rare","code":"STR45","tcg":226609,"grp":2694,"idx":48},
     {"id":"046","section":"main","num":"046","printed":"PHRA-EN046","name":"Tri-Brigade Ferrijit the Barren Blossom","ctype":"monster","keywords":"Tri-Brigade Beast EARTH Link Monster","stats":{"a":"EARTH","l":"Link 2","t":"Beast / Link","atk":1600},"rarity":"UR","img":"26847978","code":"46","tcg":226198,"grp":2694,"idx":49},
-    {"id":"046-str","section":"rarities","num":"046","printed":"PHRA-EN046","name":"Tri-Brigade Ferrijit the Barren Blossom","ctype":"monster","keywords":"Tri-Brigade Beast EARTH Link Monster","stats":{"a":"EARTH","l":"Link 2","t":"Beast / Link","atk":1600},"rarity":"StR","img":"26847978","badge":"StR","variant":"Starlight Rare","code":"STR46","tcg":226611,"grp":2694,"idx":50},
     {"id":"047","section":"main","num":"047","printed":"PHRA-EN047","name":"Tri-Brigade Rugal the Silver Sheller","ctype":"monster","keywords":"Tri-Brigade Beast-Warrior EARTH Link Monster","stats":{"a":"EARTH","l":"Link 3","t":"Beast-Warrior / Link","atk":2300},"rarity":"C","img":"52331012","code":"47","tcg":226199,"grp":2694,"idx":51},
     {"id":"048","section":"main","num":"048","printed":"PHRA-EN048","name":"Tri-Brigade Shuraig the Ominous Omen","ctype":"monster","keywords":"Tri-Brigade Winged Beast DARK Link Monster","stats":{"a":"DARK","l":"Link 4","t":"Winged Beast / Link","atk":3000},"rarity":"ScR","img":"99726621","code":"48","tcg":226200,"grp":2694,"idx":52},
     {"id":"049","section":"main","num":"049","printed":"PHRA-EN049","name":"Prank-Kids Meow-Meow-Mu","ctype":"monster","keywords":"Prank-Kids Rock EARTH Link Monster","stats":{"a":"EARTH","l":"Link 1","t":"Rock / Link","atk":1000},"rarity":"SR","img":"25725326","code":"49","tcg":226201,"grp":2694,"idx":53},
@@ -172,6 +167,10 @@
     {"id":"097","section":"main","num":"097","printed":"PHRA-EN097","name":"Virtual World Beast - Jiujiu","ctype":"monster","keywords":"Virtual World Psychic WIND Synchro Monster","stats":{"a":"WIND","l":"Level 6","t":"Psychic / Synchro","atk":2400,"def":1700},"rarity":"SR","img":"35252119","code":"97","tcg":226250,"grp":2694,"idx":101},
     {"id":"098","section":"main","num":"098","printed":"PHRA-EN098","name":"Virtual World Dragon - Longlong","ctype":"monster","keywords":"Virtual World Wyrm EARTH Xyz Monster","stats":{"a":"EARTH","l":"Rank 3","t":"Wyrm / Xyz","atk":2400,"def":2000},"rarity":"SR","img":"61641818","code":"98","tcg":226251,"grp":2694,"idx":102},
     {"id":"099","section":"main","num":"099","printed":"PHRA-EN099","name":"Virtual World Hime - Nyannyan","ctype":"monster","keywords":"Virtual World Psychic WIND Effect Monster","stats":{"a":"WIND","l":"Level 3","t":"Psychic / Effect","atk":1500,"def":1500},"rarity":"SR","img":"8736823","code":"99","tcg":226253,"grp":2694,"idx":103},
-    {"id":"100","section":"main","num":"100","printed":"PHRA-EN100","name":"Hiita the Fire Charmer, Ablaze","ctype":"monster","keywords":"Charmer Spellcaster FIRE Link Monster","stats":{"a":"FIRE","l":"Link 2","t":"Spellcaster / Link","atk":1850},"rarity":"StR","img":"48815792","code":"100","tcg":226254,"grp":2694,"idx":104}
+    {"id":"100","section":"main","num":"100","printed":"PHRA-EN100","name":"Hiita the Fire Charmer, Ablaze","ctype":"monster","keywords":"Charmer Spellcaster FIRE Link Monster","stats":{"a":"FIRE","l":"Link 2","t":"Spellcaster / Link","atk":1850},"rarity":"StR","img":"48815792","code":"100","tcg":226254,"grp":2694,"idx":104},
+    {"id":"003-str","section":"r-str","num":"003","printed":"PHRA-EN003","name":"The Phantom Knights of Torn Scales","ctype":"monster","keywords":"Phantom Knights Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Warrior / Effect","atk":600,"def":1600},"rarity":"StR","img":"25538345","badge":"StR","variant":"Starlight Rare","code":"STR3","tcg":226608,"grp":2694,"idx":4},
+    {"id":"023-str","section":"r-str","num":"023","printed":"PHRA-EN023","name":"Alpha, the Master of Beasts","ctype":"monster","keywords":"Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 8","t":"Beast / Effect","atk":3000,"def":2500},"rarity":"StR","img":"73304257","badge":"StR","variant":"Starlight Rare","code":"STR23","tcg":226610,"grp":2694,"idx":25},
+    {"id":"045-str","section":"r-str","num":"045","printed":"PHRA-EN045","name":"Divine Arsenal AA-ZEUS - Sky Thunder","ctype":"monster","keywords":"Machine LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 12","t":"Machine / Xyz","atk":3000,"def":3000},"rarity":"StR","img":"90448279","badge":"StR","variant":"Starlight Rare","code":"STR45","tcg":226609,"grp":2694,"idx":48},
+    {"id":"046-str","section":"r-str","num":"046","printed":"PHRA-EN046","name":"Tri-Brigade Ferrijit the Barren Blossom","ctype":"monster","keywords":"Tri-Brigade Beast EARTH Link Monster","stats":{"a":"EARTH","l":"Link 2","t":"Beast / Link","atk":1600},"rarity":"StR","img":"26847978","badge":"StR","variant":"Starlight Rare","code":"STR46","tcg":226611,"grp":2694,"idx":50}
   ]
 }

@@ -17,10 +17,15 @@
       "tier": "standard"
     },
     {
-      "id": "rarities",
-      "name": "Other Rarities",
-      "short": "Other Rarities",
+      "id": "r-urpr",
+      "name": "Ultra Rares (Pharaoh’s Rare)",
       "range": "6 cards",
+      "tier": "master"
+    },
+    {
+      "id": "r-scpr",
+      "name": "Secret Rares (Pharaoh’s Rare)",
+      "range": "18 cards",
       "tier": "master"
     }
   ],
@@ -30,8 +35,12 @@
       "Main set"
     ],
     [
-      "rarities",
-      "Other rarities"
+      "r-urpr",
+      "Ultra Rares (Pharaoh’s Rare)"
+    ],
+    [
+      "r-scpr",
+      "Secret Rares (Pharaoh’s Rare)"
     ]
   ],
   "quickAdd": {
@@ -41,20 +50,20 @@
     "empty": "Cards run from MAMA-EN001 to MAMA-EN115."
   },
   "help": {
-    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 111 cards, each in its main rarity. Master adds the 6 other rarities. Cards you’ve marked are kept when you switch."
+    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 114 cards, each in its main rarity. Master adds the 24 other rarities. Cards you’ve marked are kept when you switch."
   },
   "seo": {
-    "title": "Yu-Gi-Oh! Magnificent Mavens Checklist · All 111 Cards",
-    "description": "Free Yu-Gi-Oh! Magnificent Mavens checklist with no ads, no sign-up and no tracking. Track all 111 cards, or every rarity for a master set, with images, copy counts, binder pages and prices.",
+    "title": "Yu-Gi-Oh! Magnificent Mavens Checklist · All 114 Cards",
+    "description": "Free Yu-Gi-Oh! Magnificent Mavens checklist with no ads, no sign-up and no tracking. Track all 114 cards, or every rarity for a master set, with images, copy counts, binder pages and prices.",
     "ogTitle": "Yu-Gi-Oh! Magnificent Mavens Checklist",
-    "ogDescription": "Track all 111 cards in Yu-Gi-Oh! Magnificent Mavens, plus 6 other rarities. Free, with no ads, no sign-up and no tracking.",
-    "twitterDescription": "Track all 111 cards in Yu-Gi-Oh! Magnificent Mavens. Free, with no ads, no sign-up and no tracking."
+    "ogDescription": "Track all 114 cards in Yu-Gi-Oh! Magnificent Mavens, plus 24 other rarities. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 114 cards in Yu-Gi-Oh! Magnificent Mavens. Free, with no ads, no sign-up and no tracking."
   },
   "about": {
     "title": "About the Magnificent Mavens set",
     "paragraphs": [
-      "Magnificent Mavens is a Yu-Gi-Oh! TCG special set released on 3 November 2022, in the SEVENS &amp; GO RUSH!! era. It has 111 cards, and with the 6 other rarities there are 117 to collect in all.",
-      "Choose what you’re collecting: the <b>Standard set</b> (the 111 cards, each in its main rarity) or the <b>Master set</b> (all 117, adding the 6 other rarities).",
+      "Magnificent Mavens is a Yu-Gi-Oh! TCG special set released on 3 November 2022, in the SEVENS &amp; GO RUSH!! era. It has 114 cards, and with the 24 other rarities there are 138 to collect in all.",
+      "Choose what you’re collecting: the <b>Standard set</b> (the 114 cards, each in its main rarity) or the <b>Master set</b> (all 138, adding the 24 other rarities).",
       "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
       "Card details and images come from YGOPRODeck, and prices from TCGplayer."
     ]
@@ -97,7 +106,6 @@
     {"id":"027","section":"main","num":"027","printed":"MAMA-EN027","name":"Kelbek the Ancient Vanguard","ctype":"monster","keywords":"Exchange of the Spirit Fairy EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Fairy / Effect","atk":1500,"def":1800},"rarity":"UR","img":"25926710","code":"27","tcg":451016,"grp":3154,"idx":26},
     {"id":"028","section":"main","num":"028","printed":"MAMA-EN028","name":"Agido the Ancient Sentinel","ctype":"monster","keywords":"Exchange of the Spirit Fairy EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Fairy / Effect","atk":1500,"def":1300},"rarity":"UR","img":"62320425","code":"28","tcg":451017,"grp":3154,"idx":27},
     {"id":"029","section":"main","num":"029","printed":"MAMA-EN029","name":"Gravekeeper's Trap","ctype":"trap","keywords":"Gravekeeper's Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"UR","img":"98715423","code":"29","tcg":451019,"grp":3154,"idx":28},
-    {"id":"029-urpr","section":"rarities","num":"029","printed":"MAMA-EN029","name":"Gravekeeper's Trap","ctype":"trap","keywords":"Gravekeeper's Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"URPR","img":"98715423","badge":"URPR","variant":"Ultra Rare (Pharaoh’s Rare)","code":"URPR29","tcg":452536,"grp":3154,"idx":29},
     {"id":"030","section":"main","num":"030","printed":"MAMA-EN030","name":"Exchange of Despair and Hope","ctype":"trap","keywords":"Exchange of the Spirit Normal Trap","stats":{"t":"Normal Trap"},"rarity":"UR","img":"25209168","code":"30","tcg":451020,"grp":3154,"idx":30},
     {"id":"031","section":"main","num":"031","printed":"MAMA-EN031","name":"Blast Held by Destiny","ctype":"trap","keywords":"Exchange of the Spirit Normal Trap","stats":{"t":"Normal Trap"},"rarity":"UR","img":"51208877","code":"31","tcg":451021,"grp":3154,"idx":31},
     {"id":"032","section":"main","num":"032","printed":"MAMA-EN032","name":"Exchange of the Spirit","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"UR","img":"17484499","code":"32","tcg":451024,"grp":3154,"idx":32},
@@ -133,7 +141,6 @@
     {"id":"062","section":"main","num":"062","printed":"MAMA-EN062","name":"Dragonecro Nethersoul Dragon","ctype":"monster","keywords":"Dragon DARK Fusion Monster","stats":{"a":"DARK","l":"Level 8","t":"Dragon / Fusion","atk":3000,"def":0},"rarity":"UR","img":"8198620","code":"62","tcg":451041,"grp":3154,"idx":62},
     {"id":"063","section":"main","num":"063","printed":"MAMA-EN063","name":"Elder Entity N'tss","ctype":"monster","keywords":"Fairy LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Fairy / Fusion","atk":2500,"def":1200},"rarity":"UR","img":"80532587","code":"63","tcg":451043,"grp":3154,"idx":63},
     {"id":"064","section":"main","num":"064","printed":"MAMA-EN064","name":"Millennium-Eyes Restrict","ctype":"monster","keywords":"Eyes Restrict Spellcaster DARK Fusion Monster","stats":{"a":"DARK","l":"Level 1","t":"Spellcaster / Fusion","atk":0,"def":0},"rarity":"UR","img":"41578483","code":"64","tcg":451044,"grp":3154,"idx":64},
-    {"id":"064-urpr","section":"rarities","num":"064","printed":"MAMA-EN064","name":"Millennium-Eyes Restrict","ctype":"monster","keywords":"Eyes Restrict Spellcaster DARK Fusion Monster","stats":{"a":"DARK","l":"Level 1","t":"Spellcaster / Fusion","atk":0,"def":0},"rarity":"URPR","img":"41578483","badge":"URPR","variant":"Ultra Rare (Pharaoh’s Rare)","code":"URPR64","tcg":452537,"grp":3154,"idx":65},
     {"id":"065","section":"main","num":"065","printed":"MAMA-EN065","name":"Predaplant Ambulomelides","ctype":"monster","keywords":"Predaplant Plant DARK Fusion Monster","stats":{"a":"DARK","l":"Level 5","t":"Plant / Fusion","atk":1000,"def":2500},"rarity":"UR","img":"66309175","code":"65","tcg":451045,"grp":3154,"idx":66},
     {"id":"066","section":"main","num":"066","printed":"MAMA-EN066","name":"Cat Shark","ctype":"monster","keywords":"Beast WATER Xyz Monster","stats":{"a":"WATER","l":"Rank 2","t":"Beast / Xyz","atk":500,"def":500},"rarity":"UR","img":"84224627","code":"66","tcg":451046,"grp":3154,"idx":67},
     {"id":"067","section":"main","num":"067","printed":"MAMA-EN067","name":"Number 93: Utopia Kaiser","ctype":"monster","keywords":"Utopia Warrior LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 12","t":"Warrior / Xyz","atk":2500,"def":2000},"rarity":"UR","img":"23187256","code":"67","tcg":451047,"grp":3154,"idx":68},
@@ -141,14 +148,13 @@
     {"id":"069","section":"main","num":"069","printed":"MAMA-EN069","name":"Onibimaru Soul Sweeper","ctype":"monster","keywords":"Fiend DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 2","t":"Fiend / Xyz","atk":1900,"def":1600},"rarity":"UR","img":"9486959","code":"69","tcg":451049,"grp":3154,"idx":70},
     {"id":"070","section":"main","num":"070","printed":"MAMA-EN070","name":"Knightmare Cerberus","ctype":"monster","keywords":"Knightmare Fiend EARTH Link Monster","stats":{"a":"EARTH","l":"Link 2","t":"Fiend / Link","atk":1600},"rarity":"UR","img":"75452921","code":"70","tcg":451050,"grp":3154,"idx":71},
     {"id":"071","section":"main","num":"071","printed":"MAMA-EN071","name":"Knightmare Phoenix","ctype":"monster","keywords":"Knightmare Fiend FIRE Link Monster","stats":{"a":"FIRE","l":"Link 2","t":"Fiend / Link","atk":1900},"rarity":"UR","img":"2857636","code":"71","tcg":451051,"grp":3154,"idx":72},
+    {"id":"072","section":"main","num":"072","printed":"MAMA-EN072","name":"Borrelsword Dragon","ctype":"monster","keywords":"Borrel Dragon DARK Link Monster","stats":{"a":"DARK","l":"Link 4","t":"Dragon / Link","atk":3000},"rarity":"UR","img":"85289965","code":"72","tcg":451052,"grp":3154,"idx":117},
     {"id":"073","section":"main","num":"073","printed":"MAMA-EN073","name":"Black Luster Soldier - Soldier of Chaos","ctype":"monster","keywords":"Black Luster Soldier Warrior EARTH Link Monster","stats":{"a":"EARTH","l":"Link 3","t":"Warrior / Link","atk":3000},"rarity":"UR","img":"49202162","code":"73","tcg":451053,"grp":3154,"idx":73},
-    {"id":"073-urpr","section":"rarities","num":"073","printed":"MAMA-EN073","name":"Black Luster Soldier - Soldier of Chaos","ctype":"monster","keywords":"Black Luster Soldier Warrior EARTH Link Monster","stats":{"a":"EARTH","l":"Link 3","t":"Warrior / Link","atk":3000},"rarity":"URPR","img":"49202162","badge":"URPR","variant":"Ultra Rare (Pharaoh’s Rare)","code":"URPR73","tcg":452801,"grp":3154,"idx":74},
     {"id":"074","section":"main","num":"074","printed":"MAMA-EN074","name":"Traptrix Sera","ctype":"monster","keywords":"Traptrix Plant EARTH Link Monster","stats":{"a":"EARTH","l":"Link 1","t":"Plant / Link","atk":800},"rarity":"UR","img":"73639099","code":"74","tcg":451054,"grp":3154,"idx":75},
     {"id":"075","section":"main","num":"075","printed":"MAMA-EN075","name":"Apollousa, Bow of the Goddess","ctype":"monster","keywords":"Fairy WIND Link Monster","stats":{"a":"WIND","l":"Link 4","t":"Fairy / Link","atk":-1},"rarity":"UR","img":"4280259","code":"75","tcg":451055,"grp":3154,"idx":76},
     {"id":"076","section":"main","num":"076","printed":"MAMA-EN076","name":"Harpie's Feather Duster","ctype":"spell","keywords":"Harpie Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UR","img":"18144506","code":"76","tcg":451056,"grp":3154,"idx":77},
     {"id":"077","section":"main","num":"077","printed":"MAMA-EN077","name":"Scapegoat","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"UR","img":"73915051","code":"77","tcg":451057,"grp":3154,"idx":78},
     {"id":"078","section":"main","num":"078","printed":"MAMA-EN078","name":"Change of Heart","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UR","img":"4031928","code":"78","tcg":451058,"grp":3154,"idx":79},
-    {"id":"078-urpr","section":"rarities","num":"078","printed":"MAMA-EN078","name":"Change of Heart","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"URPR","img":"4031928","badge":"URPR","variant":"Ultra Rare (Pharaoh’s Rare)","code":"URPR78","tcg":452539,"grp":3154,"idx":80},
     {"id":"079","section":"main","num":"079","printed":"MAMA-EN079","name":"A Legendary Ocean","ctype":"spell","keywords":"Umi Field Spell","stats":{"t":"Field Spell"},"rarity":"UR","img":"295517","code":"79","tcg":451059,"grp":3154,"idx":81},
     {"id":"080","section":"main","num":"080","printed":"MAMA-EN080","name":"Instant Fusion","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UR","img":"1845204","code":"80","tcg":451060,"grp":3154,"idx":82},
     {"id":"081","section":"main","num":"081","printed":"MAMA-EN081","name":"A Hero Lives","ctype":"spell","keywords":"Elemental HERO Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UR","img":"8949584","code":"81","tcg":451061,"grp":3154,"idx":83},
@@ -160,9 +166,7 @@
     {"id":"087","section":"main","num":"087","printed":"MAMA-EN087","name":"Cyber Revsystem","ctype":"spell","keywords":"Cyber Dragon Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UR","img":"33041277","code":"87","tcg":451067,"grp":3154,"idx":89},
     {"id":"088","section":"main","num":"088","printed":"MAMA-EN088","name":"Dragonmaid Changeover","ctype":"spell","keywords":"Dragonmaid Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UR","img":"40110009","code":"88","tcg":451068,"grp":3154,"idx":90},
     {"id":"089","section":"main","num":"089","printed":"MAMA-EN089","name":"Lightning Storm","ctype":"spell","keywords":"Cyclone Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UR","img":"14532163","code":"89","tcg":451069,"grp":3154,"idx":91},
-    {"id":"089-urpr","section":"rarities","num":"089","printed":"MAMA-EN089","name":"Lightning Storm","ctype":"spell","keywords":"Cyclone Normal Spell","stats":{"t":"Normal Spell"},"rarity":"URPR","img":"14532163","badge":"URPR","variant":"Ultra Rare (Pharaoh’s Rare)","code":"URPR89","tcg":452540,"grp":3154,"idx":92},
     {"id":"090","section":"main","num":"090","printed":"MAMA-EN090","name":"Triple Tactics Talent","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UR","img":"25311006","code":"90","tcg":451070,"grp":3154,"idx":93},
-    {"id":"090-urpr","section":"rarities","num":"090","printed":"MAMA-EN090","name":"Triple Tactics Talent","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"URPR","img":"25311006","badge":"URPR","variant":"Ultra Rare (Pharaoh’s Rare)","code":"URPR90","tcg":452541,"grp":3154,"idx":94},
     {"id":"091","section":"main","num":"091","printed":"MAMA-EN091","name":"Dracoback, the Rideable Dragon","ctype":"spell","keywords":"Adventurer Token Equip Spell","stats":{"t":"Equip Spell"},"rarity":"UR","img":"38745520","code":"91","tcg":451071,"grp":3154,"idx":95},
     {"id":"092","section":"main","num":"092","printed":"MAMA-EN092","name":"Anti-Spell Fragrance","ctype":"trap","keywords":"Anti Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"UR","img":"58921041","code":"92","tcg":451072,"grp":3154,"idx":96},
     {"id":"093","section":"main","num":"093","printed":"MAMA-EN093","name":"Metal Reflect Slime","ctype":"trap","keywords":"Slime Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"UR","img":"26905245","code":"93","tcg":451073,"grp":3154,"idx":97},
@@ -176,6 +180,8 @@
     {"id":"101","section":"main","num":"101","printed":"MAMA-EN101","name":"Ice Dragon's Prison","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"UR","img":"20899496","code":"101","tcg":451082,"grp":3154,"idx":105},
     {"id":"102","section":"main","num":"102","printed":"MAMA-EN102","name":"Dark Soul Token","ctype":"token","keywords":"Zombie Token","stats":{"t":"Zombie / Token"},"rarity":"UR","img":"8198621","code":"102","tcg":452544,"grp":3154,"idx":106},
     {"id":"104","section":"main","num":"104","printed":"MAMA-EN104","name":"Blue-Eyes White Dragon","ctype":"monster","keywords":"Blue-Eyes Dragon LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Normal","atk":3000,"def":2500},"rarity":"URPR","img":"89631140","code":"104","tcg":452548,"grp":3154,"idx":107},
+    {"id":"105","section":"main","num":"105","printed":"MAMA-EN105","name":"Red-Eyes Black Dragon","ctype":"monster","keywords":"Red-Eyes Dragon DARK Normal Monster","stats":{"a":"DARK","l":"Level 7","t":"Dragon / Normal","atk":2400,"def":2000},"rarity":"URPR","img":"74677425","code":"105","tcg":453062,"grp":3154,"idx":118},
+    {"id":"106","section":"main","num":"106","printed":"MAMA-EN106","name":"Elemental HERO Neos","ctype":"monster","keywords":"Elemental HERO Warrior LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 7","t":"Warrior / Normal","atk":2500,"def":2000},"rarity":"URPR","img":"89943723","code":"106","tcg":452549,"grp":3154,"idx":119},
     {"id":"107","section":"main","num":"107","printed":"MAMA-EN107","name":"Dark Magician Girl","ctype":"monster","keywords":"Dark Magician Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Spellcaster / Effect","atk":2000,"def":1700},"rarity":"URPR","img":"38033121","code":"107","tcg":452921,"grp":3154,"idx":108},
     {"id":"108","section":"main","num":"108","printed":"MAMA-EN108","name":"Reinforcement of the Army","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"URPR","img":"32807846","code":"108","tcg":452551,"grp":3154,"idx":109},
     {"id":"109","section":"main","num":"109","printed":"MAMA-EN109","name":"Necrovalley","ctype":"spell","keywords":"Gravekeeper's Field Spell","stats":{"t":"Field Spell"},"rarity":"URPR","img":"47355498","code":"109","tcg":452552,"grp":3154,"idx":110},
@@ -184,6 +190,30 @@
     {"id":"112","section":"main","num":"112","printed":"MAMA-EN112","name":"Toon Kingdom","ctype":"spell","keywords":"Toon Field Spell","stats":{"t":"Field Spell"},"rarity":"URPR","img":"43175858","code":"112","tcg":452560,"grp":3154,"idx":113},
     {"id":"113","section":"main","num":"113","printed":"MAMA-EN113","name":"The True Name","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"URPR","img":"39913299","code":"113","tcg":452562,"grp":3154,"idx":114},
     {"id":"114","section":"main","num":"114","printed":"MAMA-EN114","name":"Crystal Bond","ctype":"spell","keywords":"Crystal Beast Normal Spell","stats":{"t":"Normal Spell"},"rarity":"URPR","img":"9334391","code":"114","tcg":452563,"grp":3154,"idx":115},
-    {"id":"115","section":"main","num":"115","printed":"MAMA-EN115","name":"Mirror Force","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"URPR","img":"44095762","code":"115","tcg":452564,"grp":3154,"idx":116}
+    {"id":"115","section":"main","num":"115","printed":"MAMA-EN115","name":"Mirror Force","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"URPR","img":"44095762","code":"115","tcg":452564,"grp":3154,"idx":116},
+    {"id":"029-urpr","section":"r-urpr","num":"029","printed":"MAMA-EN029","name":"Gravekeeper's Trap","ctype":"trap","keywords":"Gravekeeper's Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"URPR","img":"98715423","badge":"URPR","variant":"Ultra Rare (Pharaoh’s Rare)","code":"URPR29","tcg":452536,"grp":3154,"idx":29},
+    {"id":"064-urpr","section":"r-urpr","num":"064","printed":"MAMA-EN064","name":"Millennium-Eyes Restrict","ctype":"monster","keywords":"Eyes Restrict Spellcaster DARK Fusion Monster","stats":{"a":"DARK","l":"Level 1","t":"Spellcaster / Fusion","atk":0,"def":0},"rarity":"URPR","img":"41578483","badge":"URPR","variant":"Ultra Rare (Pharaoh’s Rare)","code":"URPR64","tcg":452537,"grp":3154,"idx":65},
+    {"id":"073-urpr","section":"r-urpr","num":"073","printed":"MAMA-EN073","name":"Black Luster Soldier - Soldier of Chaos","ctype":"monster","keywords":"Black Luster Soldier Warrior EARTH Link Monster","stats":{"a":"EARTH","l":"Link 3","t":"Warrior / Link","atk":3000},"rarity":"URPR","img":"49202162","badge":"URPR","variant":"Ultra Rare (Pharaoh’s Rare)","code":"URPR73","tcg":452801,"grp":3154,"idx":74},
+    {"id":"078-urpr","section":"r-urpr","num":"078","printed":"MAMA-EN078","name":"Change of Heart","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"URPR","img":"4031928","badge":"URPR","variant":"Ultra Rare (Pharaoh’s Rare)","code":"URPR78","tcg":452539,"grp":3154,"idx":80},
+    {"id":"089-urpr","section":"r-urpr","num":"089","printed":"MAMA-EN089","name":"Lightning Storm","ctype":"spell","keywords":"Cyclone Normal Spell","stats":{"t":"Normal Spell"},"rarity":"URPR","img":"14532163","badge":"URPR","variant":"Ultra Rare (Pharaoh’s Rare)","code":"URPR89","tcg":452540,"grp":3154,"idx":92},
+    {"id":"090-urpr","section":"r-urpr","num":"090","printed":"MAMA-EN090","name":"Triple Tactics Talent","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"URPR","img":"25311006","badge":"URPR","variant":"Ultra Rare (Pharaoh’s Rare)","code":"URPR90","tcg":452541,"grp":3154,"idx":94},
+    {"id":"029-scpr","section":"r-scpr","num":"029","printed":"MAMA-EN029","name":"Gravekeeper's Trap","ctype":"trap","keywords":"Gravekeeper's Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"ScPR","img":"98715423","badge":"ScPR","variant":"Secret Rare (Pharaoh’s Rare)","code":"SCPR29","tcg":453043,"grp":3154,"idx":120},
+    {"id":"064-scpr","section":"r-scpr","num":"064","printed":"MAMA-EN064","name":"Millennium-Eyes Restrict","ctype":"monster","keywords":"Eyes Restrict Spellcaster DARK Fusion Monster","stats":{"a":"DARK","l":"Level 1","t":"Spellcaster / Fusion","atk":0,"def":0},"rarity":"ScPR","img":"41578483","badge":"ScPR","variant":"Secret Rare (Pharaoh’s Rare)","code":"SCPR64","tcg":453045,"grp":3154,"idx":121},
+    {"id":"073-scpr","section":"r-scpr","num":"073","printed":"MAMA-EN073","name":"Black Luster Soldier - Soldier of Chaos","ctype":"monster","keywords":"Black Luster Soldier Warrior EARTH Link Monster","stats":{"a":"EARTH","l":"Link 3","t":"Warrior / Link","atk":3000},"rarity":"ScPR","img":"49202162","badge":"ScPR","variant":"Secret Rare (Pharaoh’s Rare)","code":"SCPR73","tcg":453036,"grp":3154,"idx":122},
+    {"id":"078-scpr","section":"r-scpr","num":"078","printed":"MAMA-EN078","name":"Change of Heart","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"ScPR","img":"4031928","badge":"ScPR","variant":"Secret Rare (Pharaoh’s Rare)","code":"SCPR78","tcg":453038,"grp":3154,"idx":123},
+    {"id":"089-scpr","section":"r-scpr","num":"089","printed":"MAMA-EN089","name":"Lightning Storm","ctype":"spell","keywords":"Cyclone Normal Spell","stats":{"t":"Normal Spell"},"rarity":"ScPR","img":"14532163","badge":"ScPR","variant":"Secret Rare (Pharaoh’s Rare)","code":"SCPR89","tcg":453044,"grp":3154,"idx":124},
+    {"id":"090-scpr","section":"r-scpr","num":"090","printed":"MAMA-EN090","name":"Triple Tactics Talent","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"ScPR","img":"25311006","badge":"ScPR","variant":"Secret Rare (Pharaoh’s Rare)","code":"SCPR90","tcg":453052,"grp":3154,"idx":125},
+    {"id":"104-scpr","section":"r-scpr","num":"104","printed":"MAMA-EN104","name":"Blue-Eyes White Dragon","ctype":"monster","keywords":"Blue-Eyes Dragon LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Normal","atk":3000,"def":2500},"rarity":"ScPR","img":"89631140","badge":"ScPR","variant":"Secret Rare (Pharaoh’s Rare)","code":"SCPR104","tcg":453037,"grp":3154,"idx":126},
+    {"id":"105-scpr","section":"r-scpr","num":"105","printed":"MAMA-EN105","name":"Red-Eyes Black Dragon","ctype":"monster","keywords":"Red-Eyes Dragon DARK Normal Monster","stats":{"a":"DARK","l":"Level 7","t":"Dragon / Normal","atk":2400,"def":2000},"rarity":"ScPR","img":"74677425","badge":"ScPR","variant":"Secret Rare (Pharaoh’s Rare)","code":"SCPR105","tcg":453060,"grp":3154,"idx":127},
+    {"id":"106-scpr","section":"r-scpr","num":"106","printed":"MAMA-EN106","name":"Elemental HERO Neos","ctype":"monster","keywords":"Elemental HERO Warrior LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 7","t":"Warrior / Normal","atk":2500,"def":2000},"rarity":"ScPR","img":"89943723","badge":"ScPR","variant":"Secret Rare (Pharaoh’s Rare)","code":"SCPR106","tcg":453041,"grp":3154,"idx":128},
+    {"id":"107-scpr","section":"r-scpr","num":"107","printed":"MAMA-EN107","name":"Dark Magician Girl","ctype":"monster","keywords":"Dark Magician Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Spellcaster / Effect","atk":2000,"def":1700},"rarity":"ScPR","img":"38033121","badge":"ScPR","variant":"Secret Rare (Pharaoh’s Rare)","code":"SCPR107","tcg":453040,"grp":3154,"idx":129},
+    {"id":"108-scpr","section":"r-scpr","num":"108","printed":"MAMA-EN108","name":"Reinforcement of the Army","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"ScPR","img":"32807846","badge":"ScPR","variant":"Secret Rare (Pharaoh’s Rare)","code":"SCPR108","tcg":453048,"grp":3154,"idx":130},
+    {"id":"109-scpr","section":"r-scpr","num":"109","printed":"MAMA-EN109","name":"Necrovalley","ctype":"spell","keywords":"Gravekeeper's Field Spell","stats":{"t":"Field Spell"},"rarity":"ScPR","img":"47355498","badge":"ScPR","variant":"Secret Rare (Pharaoh’s Rare)","code":"SCPR109","tcg":453047,"grp":3154,"idx":131},
+    {"id":"110-scpr","section":"r-scpr","num":"110","printed":"MAMA-EN110","name":"Gold Sarcophagus","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"ScPR","img":"75500286","badge":"ScPR","variant":"Secret Rare (Pharaoh’s Rare)","code":"SCPR110","tcg":453042,"grp":3154,"idx":132},
+    {"id":"111-scpr","section":"r-scpr","num":"111","printed":"MAMA-EN111","name":"The Seal of Orichalcos","ctype":"spell","keywords":"Field Spell","stats":{"t":"Field Spell"},"rarity":"ScPR","img":"48179391","badge":"ScPR","variant":"Secret Rare (Pharaoh’s Rare)","code":"SCPR111","tcg":453049,"grp":3154,"idx":133},
+    {"id":"112-scpr","section":"r-scpr","num":"112","printed":"MAMA-EN112","name":"Toon Kingdom","ctype":"spell","keywords":"Toon Field Spell","stats":{"t":"Field Spell"},"rarity":"ScPR","img":"43175858","badge":"ScPR","variant":"Secret Rare (Pharaoh’s Rare)","code":"SCPR112","tcg":453051,"grp":3154,"idx":134},
+    {"id":"113-scpr","section":"r-scpr","num":"113","printed":"MAMA-EN113","name":"The True Name","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"ScPR","img":"39913299","badge":"ScPR","variant":"Secret Rare (Pharaoh’s Rare)","code":"SCPR113","tcg":453050,"grp":3154,"idx":135},
+    {"id":"114-scpr","section":"r-scpr","num":"114","printed":"MAMA-EN114","name":"Crystal Bond","ctype":"spell","keywords":"Crystal Beast Normal Spell","stats":{"t":"Normal Spell"},"rarity":"ScPR","img":"9334391","badge":"ScPR","variant":"Secret Rare (Pharaoh’s Rare)","code":"SCPR114","tcg":453039,"grp":3154,"idx":136},
+    {"id":"115-scpr","section":"r-scpr","num":"115","printed":"MAMA-EN115","name":"Mirror Force","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"ScPR","img":"44095762","badge":"ScPR","variant":"Secret Rare (Pharaoh’s Rare)","code":"SCPR115","tcg":453046,"grp":3154,"idx":137}
   ]
 }

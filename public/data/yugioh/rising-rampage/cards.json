@@ -17,9 +17,8 @@
       "tier": "standard"
     },
     {
-      "id": "rarities",
-      "name": "Other Rarities",
-      "short": "Other Rarities",
+      "id": "r-str",
+      "name": "Starlight Rares",
       "range": "4 cards",
       "tier": "master"
     }
@@ -30,8 +29,8 @@
       "Main set"
     ],
     [
-      "rarities",
-      "Other rarities"
+      "r-str",
+      "Starlight Rares"
     ]
   ],
   "quickAdd": {
@@ -72,7 +71,6 @@
     {"id":"001","section":"main","num":"001","printed":"RIRA-EN001","name":"Rescue Interlacer","ctype":"monster","keywords":"Cyberse LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Cyberse / Effect","atk":1000,"def":1200},"rarity":"C","img":"63009228","code":"1","tcg":194609,"grp":2462,"idx":1},
     {"id":"002","section":"main","num":"002","printed":"RIRA-EN002","name":"Cross Debug","ctype":"monster","keywords":"Cyberse DARK Effect Monster","stats":{"a":"DARK","l":"Level 2","t":"Cyberse / Effect","atk":900,"def":600},"rarity":"C","img":"9097866","code":"2","tcg":194610,"grp":2462,"idx":2},
     {"id":"003","section":"main","num":"003","printed":"RIRA-EN003","name":"Marincess Sea Horse","ctype":"monster","keywords":"Marincess Cyberse WATER Effect Monster","stats":{"a":"WATER","l":"Level 3","t":"Cyberse / Effect","atk":1400,"def":1000},"rarity":"UR","img":"36492575","code":"3","tcg":194611,"grp":2462,"idx":3},
-    {"id":"003-str","section":"rarities","num":"003","printed":"RIRA-EN003","name":"Marincess Sea Horse","ctype":"monster","keywords":"Marincess Cyberse WATER Effect Monster","stats":{"a":"WATER","l":"Level 3","t":"Cyberse / Effect","atk":1400,"def":1000},"rarity":"StR","img":"36492575","badge":"StR","variant":"Starlight Rare","code":"STR3","tcg":194848,"grp":2462,"idx":4},
     {"id":"004","section":"main","num":"004","printed":"RIRA-EN004","name":"Marincess Sea Star","ctype":"monster","keywords":"Marincess Cyberse WATER Effect Monster","stats":{"a":"WATER","l":"Level 2","t":"Cyberse / Effect","atk":800,"def":400},"rarity":"C","img":"62886670","code":"4","tcg":194612,"grp":2462,"idx":5},
     {"id":"005","section":"main","num":"005","printed":"RIRA-EN005","name":"DMZ Dragon","ctype":"monster","keywords":"Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Dragon / Effect","atk":0,"def":2000},"rarity":"C","img":"98371278","code":"5","tcg":194613,"grp":2462,"idx":6},
     {"id":"006","section":"main","num":"006","printed":"RIRA-EN006","name":"Dinowrestler Martial Ankylo","ctype":"monster","keywords":"Dinowrestler Dinosaur EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 2","t":"Dinosaur / Effect","atk":1000,"def":0},"rarity":"C","img":"35770983","code":"6","tcg":194614,"grp":2462,"idx":7},
@@ -116,10 +114,8 @@
     {"id":"044","section":"main","num":"044","printed":"RIRA-EN044","name":"Shaman of the Tenyi","ctype":"monster","keywords":"Tenyi Wyrm FIRE Link Monster","stats":{"a":"FIRE","l":"Link 2","t":"Wyrm / Link","atk":1600},"rarity":"UR","img":"78917791","code":"44","tcg":194652,"grp":2462,"idx":45},
     {"id":"045","section":"main","num":"045","printed":"RIRA-EN045","name":"Berserker of the Tenyi","ctype":"monster","keywords":"Tenyi Wyrm DARK Link Monster","stats":{"a":"DARK","l":"Link 3","t":"Wyrm / Link","atk":3000},"rarity":"R","img":"5402805","code":"45","tcg":194653,"grp":2462,"idx":46},
     {"id":"046","section":"main","num":"046","printed":"RIRA-EN046","name":"Wynn the Wind Charmer, Verdant","ctype":"monster","keywords":"Charmer Spellcaster WIND Link Monster","stats":{"a":"WIND","l":"Link 2","t":"Spellcaster / Link","atk":1850},"rarity":"R","img":"30674956","code":"46","tcg":194654,"grp":2462,"idx":47},
-    {"id":"046-str","section":"rarities","num":"046","printed":"RIRA-EN046","name":"Wynn the Wind Charmer, Verdant","ctype":"monster","keywords":"Charmer Spellcaster WIND Link Monster","stats":{"a":"WIND","l":"Link 2","t":"Spellcaster / Link","atk":1850},"rarity":"StR","img":"30674956","badge":"StR","variant":"Starlight Rare","code":"STR46","tcg":194846,"grp":2462,"idx":48},
     {"id":"047","section":"main","num":"047","printed":"RIRA-EN047","name":"Linkmail Archfiend","ctype":"monster","keywords":"Archfiend Cyberse DARK Link Monster","stats":{"a":"DARK","l":"Link 4","t":"Cyberse / Link","atk":2800},"rarity":"SR","img":"68295149","code":"47","tcg":194655,"grp":2462,"idx":49},
     {"id":"048","section":"main","num":"048","printed":"RIRA-EN048","name":"Apollousa, Bow of the Goddess","ctype":"monster","keywords":"Fairy WIND Link Monster","stats":{"a":"WIND","l":"Link 4","t":"Fairy / Link","atk":-1},"rarity":"ScR","img":"4280258","code":"48","tcg":194656,"grp":2462,"idx":50},
-    {"id":"048-str","section":"rarities","num":"048","printed":"RIRA-EN048","name":"Apollousa, Bow of the Goddess","ctype":"monster","keywords":"Fairy WIND Link Monster","stats":{"a":"WIND","l":"Link 4","t":"Fairy / Link","atk":-1},"rarity":"StR","img":"4280258","badge":"StR","variant":"Starlight Rare","code":"STR48","tcg":194843,"grp":2462,"idx":51},
     {"id":"049","section":"main","num":"049","printed":"RIRA-EN049","name":"Defender of the Labyrinth","ctype":"monster","keywords":"Warrior EARTH Link Monster","stats":{"a":"EARTH","l":"Link 2","t":"Warrior / Link","atk":1400},"rarity":"C","img":"31897444","code":"49","tcg":194657,"grp":2462,"idx":52},
     {"id":"050","section":"main","num":"050","printed":"RIRA-EN050","name":"Baba Barber","ctype":"monster","keywords":"Fiend DARK Link Monster","stats":{"a":"DARK","l":"Link 2","t":"Fiend / Link","atk":200},"rarity":"C","img":"67073561","code":"50","tcg":194658,"grp":2462,"idx":53},
     {"id":"051","section":"main","num":"051","printed":"RIRA-EN051","name":"Link Back","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"3567660","code":"51","tcg":194659,"grp":2462,"idx":54},
@@ -149,7 +145,6 @@
     {"id":"075","section":"main","num":"075","printed":"RIRA-EN075","name":"The Return to the Normal","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"56001930","code":"75","tcg":194683,"grp":2462,"idx":78},
     {"id":"076","section":"main","num":"076","printed":"RIRA-EN076","name":"Get Out!","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"ScR","img":"22373487","code":"76","tcg":194684,"grp":2462,"idx":79},
     {"id":"077","section":"main","num":"077","printed":"RIRA-EN077","name":"Storm Dragon's Return","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"83195035","code":"77","tcg":194685,"grp":2462,"idx":80},
-    {"id":"077-str","section":"rarities","num":"077","printed":"RIRA-EN077","name":"Storm Dragon's Return","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"StR","img":"83195035","badge":"StR","variant":"Starlight Rare","code":"STR77","tcg":195148,"grp":2462,"idx":81},
     {"id":"078","section":"main","num":"078","printed":"RIRA-EN078","name":"Setuppercut","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"19590644","code":"78","tcg":194686,"grp":2462,"idx":82},
     {"id":"079","section":"main","num":"079","printed":"RIRA-EN079","name":"Dwimmered Glimmer","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"46984349","code":"79","tcg":194687,"grp":2462,"idx":83},
     {"id":"080","section":"main","num":"080","printed":"RIRA-EN080","name":"Fighting Dirty","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"85862791","code":"80","tcg":194688,"grp":2462,"idx":84},
@@ -171,6 +166,10 @@
     {"id":"096","section":"main","num":"096","printed":"RIRA-EN096","name":"White Howling","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"62487836","code":"96","tcg":194703,"grp":2462,"idx":100},
     {"id":"097","section":"main","num":"097","printed":"RIRA-EN097","name":"F.A. Shining Star GT","ctype":"monster","keywords":"F.A. Machine LIGHT Link Monster","stats":{"a":"LIGHT","l":"Link 2","t":"Machine / Link","atk":0},"rarity":"C","img":"37414347","code":"97","tcg":194704,"grp":2462,"idx":101},
     {"id":"098","section":"main","num":"098","printed":"RIRA-EN098","name":"Dragunity Knight - Romulus","ctype":"monster","keywords":"Dragunity Dragon WIND Link Monster","stats":{"a":"WIND","l":"Link 2","t":"Dragon / Link","atk":1200},"rarity":"UR","img":"11969228","code":"98","tcg":194705,"grp":2462,"idx":102},
-    {"id":"099","section":"main","num":"099","printed":"RIRA-EN099","name":"Rogue of Endymion","ctype":"monster","keywords":"Endymion Spellcaster FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 3","t":"Spellcaster / Effect","atk":1500,"def":200},"rarity":"C","img":"44640691","code":"99","tcg":194706,"grp":2462,"idx":103}
+    {"id":"099","section":"main","num":"099","printed":"RIRA-EN099","name":"Rogue of Endymion","ctype":"monster","keywords":"Endymion Spellcaster FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 3","t":"Spellcaster / Effect","atk":1500,"def":200},"rarity":"C","img":"44640691","code":"99","tcg":194706,"grp":2462,"idx":103},
+    {"id":"003-str","section":"r-str","num":"003","printed":"RIRA-EN003","name":"Marincess Sea Horse","ctype":"monster","keywords":"Marincess Cyberse WATER Effect Monster","stats":{"a":"WATER","l":"Level 3","t":"Cyberse / Effect","atk":1400,"def":1000},"rarity":"StR","img":"36492575","badge":"StR","variant":"Starlight Rare","code":"STR3","tcg":194848,"grp":2462,"idx":4},
+    {"id":"046-str","section":"r-str","num":"046","printed":"RIRA-EN046","name":"Wynn the Wind Charmer, Verdant","ctype":"monster","keywords":"Charmer Spellcaster WIND Link Monster","stats":{"a":"WIND","l":"Link 2","t":"Spellcaster / Link","atk":1850},"rarity":"StR","img":"30674956","badge":"StR","variant":"Starlight Rare","code":"STR46","tcg":194846,"grp":2462,"idx":48},
+    {"id":"048-str","section":"r-str","num":"048","printed":"RIRA-EN048","name":"Apollousa, Bow of the Goddess","ctype":"monster","keywords":"Fairy WIND Link Monster","stats":{"a":"WIND","l":"Link 4","t":"Fairy / Link","atk":-1},"rarity":"StR","img":"4280258","badge":"StR","variant":"Starlight Rare","code":"STR48","tcg":194843,"grp":2462,"idx":51},
+    {"id":"077-str","section":"r-str","num":"077","printed":"RIRA-EN077","name":"Storm Dragon's Return","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"StR","img":"83195035","badge":"StR","variant":"Starlight Rare","code":"STR77","tcg":195148,"grp":2462,"idx":81}
   ]
 }

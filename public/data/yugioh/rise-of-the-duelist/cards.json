@@ -17,9 +17,8 @@
       "tier": "standard"
     },
     {
-      "id": "rarities",
-      "name": "Other Rarities",
-      "short": "Other Rarities",
+      "id": "r-str",
+      "name": "Starlight Rares",
       "range": "4 cards",
       "tier": "master"
     }
@@ -30,8 +29,8 @@
       "Main set"
     ],
     [
-      "rarities",
-      "Other rarities"
+      "r-str",
+      "Starlight Rares"
     ]
   ],
   "quickAdd": {
@@ -74,7 +73,6 @@
     {"id":"003","section":"main","num":"003","printed":"ROTD-EN003","name":"Artillery Catapult Turtle","ctype":"monster","keywords":"Gaia The Fierce Knight Aqua WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Aqua / Effect","atk":1000,"def":2000},"rarity":"UR","img":"7913375","code":"3","tcg":218877,"grp":2674,"idx":3},
     {"id":"004","section":"main","num":"004","printed":"ROTD-EN004","name":"Soldier Gaia the Fierce Knight","ctype":"monster","keywords":"Gaia The Fierce Knight Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Warrior / Effect","atk":2600,"def":2100},"rarity":"SR","img":"33318980","code":"4","tcg":218878,"grp":2674,"idx":4},
     {"id":"005","section":"main","num":"005","printed":"ROTD-EN005","name":"Dogmatika Ecclesia, the Virtuous","ctype":"monster","keywords":"Dogmatika Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Effect","atk":1500,"def":1500},"rarity":"UR","img":"60303688","code":"5","tcg":218879,"grp":2674,"idx":5},
-    {"id":"005-str","section":"rarities","num":"005","printed":"ROTD-EN005","name":"Dogmatika Ecclesia, the Virtuous","ctype":"monster","keywords":"Dogmatika Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Effect","atk":1500,"def":1500},"rarity":"StR","img":"60303688","badge":"StR","variant":"Starlight Rare","code":"STR5","tcg":219019,"grp":2674,"idx":6},
     {"id":"006","section":"main","num":"006","printed":"ROTD-EN006","name":"Dogmatika Theo, the Iron Punch","ctype":"monster","keywords":"Dogmatika Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Effect","atk":1800,"def":1500},"rarity":"C","img":"96891787","code":"6","tcg":218881,"grp":2674,"idx":7},
     {"id":"007","section":"main","num":"007","printed":"ROTD-EN007","name":"Dogmatika Adin, the Enlightened","ctype":"monster","keywords":"Dogmatika Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Effect","atk":1000,"def":1800},"rarity":"SR","img":"33296432","code":"7","tcg":218882,"grp":2674,"idx":8},
     {"id":"008","section":"main","num":"008","printed":"ROTD-EN008","name":"Dogmatika Fleurdelis, the Knighted","ctype":"monster","keywords":"Dogmatika Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Spellcaster / Effect","atk":2500,"def":2500},"rarity":"ScR","img":"69680031","code":"8","tcg":218883,"grp":2674,"idx":9},
@@ -107,7 +105,6 @@
     {"id":"035","section":"main","num":"035","printed":"ROTD-EN035","name":"Dracoon Lamp","ctype":"monster","keywords":"Wyrm FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Wyrm / Effect","atk":500,"def":2000},"rarity":"C","img":"42596828","code":"35","tcg":218911,"grp":2674,"idx":36},
     {"id":"036","section":"main","num":"036","printed":"ROTD-EN036","name":"Megalith Phul","ctype":"monster","keywords":"Megalith Rock EARTH Ritual Effect Monster","stats":{"a":"EARTH","l":"Level 2","t":"Rock / Ritual / Effect","atk":500,"def":2000},"rarity":"C","img":"78990927","code":"36","tcg":218912,"grp":2674,"idx":37},
     {"id":"037","section":"main","num":"037","printed":"ROTD-EN037","name":"Gaia the Magical Knight of Dragons","ctype":"monster","keywords":"Gaia The Fierce Knight Dragon WIND Fusion Monster","stats":{"a":"WIND","l":"Level 7","t":"Dragon / Fusion","atk":2600,"def":2100},"rarity":"SR","img":"15989522","code":"37","tcg":218913,"grp":2674,"idx":38},
-    {"id":"037-str","section":"rarities","num":"037","printed":"ROTD-EN037","name":"Gaia the Magical Knight of Dragons","ctype":"monster","keywords":"Gaia The Fierce Knight Dragon WIND Fusion Monster","stats":{"a":"WIND","l":"Level 7","t":"Dragon / Fusion","atk":2600,"def":2100},"rarity":"StR","img":"15989522","badge":"StR","variant":"Starlight Rare","code":"STR37","tcg":219020,"grp":2674,"idx":39},
     {"id":"038","section":"main","num":"038","printed":"ROTD-EN038","name":"Titaniklad the Ash Dragon","ctype":"monster","keywords":"Dragon DARK Fusion Monster","stats":{"a":"DARK","l":"Level 8","t":"Dragon / Fusion","atk":2500,"def":2500},"rarity":"ScR","img":"41373230","code":"38","tcg":218914,"grp":2674,"idx":40},
     {"id":"039","section":"main","num":"039","printed":"ROTD-EN039","name":"Frightfur Cruel Whale","ctype":"monster","keywords":"Frightfur Fiend WATER Fusion Monster","stats":{"a":"WATER","l":"Level 9","t":"Fiend / Fusion","atk":2600,"def":2400},"rarity":"C","img":"78778375","code":"39","tcg":218915,"grp":2674,"idx":41},
     {"id":"040","section":"main","num":"040","printed":"ROTD-EN040","name":"The First Darklord","ctype":"monster","keywords":"Darklord Fairy DARK Fusion Monster","stats":{"a":"DARK","l":"Level 12","t":"Fairy / Fusion","atk":4000,"def":4000},"rarity":"SR","img":"4167084","code":"40","tcg":218916,"grp":2674,"idx":42},
@@ -133,7 +130,6 @@
     {"id":"060","section":"main","num":"060","printed":"ROTD-EN060","name":"Ancient Warriors Saga - East-by-South Winds","ctype":"spell","keywords":"Ancient Warriors Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"62528292","code":"60","tcg":218957,"grp":2674,"idx":62},
     {"id":"061","section":"main","num":"061","printed":"ROTD-EN061","name":"Adamancipator Friends","ctype":"spell","keywords":"Adamancipator Normal Spell","stats":{"t":"Normal Spell"},"rarity":"ScR","img":"99927991","code":"61","tcg":218958,"grp":2674,"idx":63},
     {"id":"062","section":"main","num":"062","printed":"ROTD-EN062","name":"Triple Tactics Talent","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"ScR","img":"25311006","code":"62","tcg":218959,"grp":2674,"idx":64},
-    {"id":"062-str","section":"rarities","num":"062","printed":"ROTD-EN062","name":"Triple Tactics Talent","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"StR","img":"25311006","badge":"StR","variant":"Starlight Rare","code":"STR62","tcg":219021,"grp":2674,"idx":65},
     {"id":"063","section":"main","num":"063","printed":"ROTD-EN063","name":"Blizzard","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"SR","img":"51706604","code":"63","tcg":218960,"grp":2674,"idx":66},
     {"id":"064","section":"main","num":"064","printed":"ROTD-EN064","name":"Fury of Kairyu-Shin","ctype":"spell","keywords":"Umi Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"98804359","code":"64","tcg":218961,"grp":2674,"idx":67},
     {"id":"065","section":"main","num":"065","printed":"ROTD-EN065","name":"Forbidden Droplet","ctype":"spell","keywords":"Forbidden Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"ScR","img":"24299458","code":"65","tcg":218962,"grp":2674,"idx":68},
@@ -158,7 +154,6 @@
     {"id":"084","section":"main","num":"084","printed":"ROTD-EN084","name":"D/D Ark","ctype":"monster","keywords":"D/D Fiend DARK Pendulum Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Pendulum / Effect","atk":0,"def":2000},"rarity":"C","img":"36614113","code":"84","tcg":218982,"grp":2674,"idx":87},
     {"id":"085","section":"main","num":"085","printed":"ROTD-EN085","name":"D/D Evil","ctype":"monster","keywords":"D/D Fiend DARK Pendulum Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fiend / Pendulum / Effect","atk":2000,"def":0},"rarity":"C","img":"55415564","code":"85","tcg":218983,"grp":2674,"idx":88},
     {"id":"086","section":"main","num":"086","printed":"ROTD-EN086","name":"Wynn the Wind Channeler","ctype":"monster","keywords":"Charmer Spellcaster WIND Effect Monster","stats":{"a":"WIND","l":"Level 5","t":"Spellcaster / Effect","atk":1850,"def":1500},"rarity":"UR","img":"86395581","code":"86","tcg":218984,"grp":2674,"idx":89},
-    {"id":"086-str","section":"rarities","num":"086","printed":"ROTD-EN086","name":"Wynn the Wind Channeler","ctype":"monster","keywords":"Charmer Spellcaster WIND Effect Monster","stats":{"a":"WIND","l":"Level 5","t":"Spellcaster / Effect","atk":1850,"def":1500},"rarity":"StR","img":"86395581","badge":"StR","variant":"Starlight Rare","code":"STR86","tcg":219024,"grp":2674,"idx":90},
     {"id":"087","section":"main","num":"087","printed":"ROTD-EN087","name":"Seleglare the Luminous Lunar Dragon","ctype":"monster","keywords":"Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Dragon / Effect","atk":2400,"def":1000},"rarity":"UR","img":"29303524","code":"87","tcg":218985,"grp":2674,"idx":91},
     {"id":"088","section":"main","num":"088","printed":"ROTD-EN088","name":"Ret-time Reviver Emit-ter","ctype":"monster","keywords":"Fairy DARK Tuner Monster","stats":{"a":"DARK","l":"Level 2","t":"Fairy / Tuner","atk":800,"def":0},"rarity":"SR","img":"55702233","code":"88","tcg":218986,"grp":2674,"idx":92},
     {"id":"089","section":"main","num":"089","printed":"ROTD-EN089","name":"Speedroid Block-n-Roll","ctype":"monster","keywords":"Speedroid Machine WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Machine / Effect","atk":1000,"def":1800},"rarity":"SR","img":"69550259","code":"89","tcg":218987,"grp":2674,"idx":93},
@@ -172,6 +167,10 @@
     {"id":"097","section":"main","num":"097","printed":"ROTD-EN097","name":"Superheavy Samurai Scarecrow","ctype":"monster","keywords":"Superheavy Machine EARTH Link Monster","stats":{"a":"EARTH","l":"Link 1","t":"Machine / Link","atk":0},"rarity":"C","img":"33918636","code":"97","tcg":218995,"grp":2674,"idx":101},
     {"id":"098","section":"main","num":"098","printed":"ROTD-EN098","name":"Yaminabe Party","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"SR","img":"24181936","code":"98","tcg":218996,"grp":2674,"idx":102},
     {"id":"099","section":"main","num":"099","printed":"ROTD-EN099","name":"Revenge Rally","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"51686645","code":"99","tcg":218997,"grp":2674,"idx":103},
-    {"id":"100","section":"main","num":"100","printed":"ROTD-EN100","name":"D.D. Crow","ctype":"monster","keywords":"D.D. Winged Beast DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Winged Beast / Effect","atk":100,"def":100},"rarity":"StR","img":"24508238","code":"100","tcg":218998,"grp":2674,"idx":104}
+    {"id":"100","section":"main","num":"100","printed":"ROTD-EN100","name":"D.D. Crow","ctype":"monster","keywords":"D.D. Winged Beast DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Winged Beast / Effect","atk":100,"def":100},"rarity":"StR","img":"24508238","code":"100","tcg":218998,"grp":2674,"idx":104},
+    {"id":"005-str","section":"r-str","num":"005","printed":"ROTD-EN005","name":"Dogmatika Ecclesia, the Virtuous","ctype":"monster","keywords":"Dogmatika Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Effect","atk":1500,"def":1500},"rarity":"StR","img":"60303688","badge":"StR","variant":"Starlight Rare","code":"STR5","tcg":219019,"grp":2674,"idx":6},
+    {"id":"037-str","section":"r-str","num":"037","printed":"ROTD-EN037","name":"Gaia the Magical Knight of Dragons","ctype":"monster","keywords":"Gaia The Fierce Knight Dragon WIND Fusion Monster","stats":{"a":"WIND","l":"Level 7","t":"Dragon / Fusion","atk":2600,"def":2100},"rarity":"StR","img":"15989522","badge":"StR","variant":"Starlight Rare","code":"STR37","tcg":219020,"grp":2674,"idx":39},
+    {"id":"062-str","section":"r-str","num":"062","printed":"ROTD-EN062","name":"Triple Tactics Talent","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"StR","img":"25311006","badge":"StR","variant":"Starlight Rare","code":"STR62","tcg":219021,"grp":2674,"idx":65},
+    {"id":"086-str","section":"r-str","num":"086","printed":"ROTD-EN086","name":"Wynn the Wind Channeler","ctype":"monster","keywords":"Charmer Spellcaster WIND Effect Monster","stats":{"a":"WIND","l":"Level 5","t":"Spellcaster / Effect","atk":1850,"def":1500},"rarity":"StR","img":"86395581","badge":"StR","variant":"Starlight Rare","code":"STR86","tcg":219024,"grp":2674,"idx":90}
   ]
 }

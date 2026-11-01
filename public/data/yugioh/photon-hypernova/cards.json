@@ -17,9 +17,8 @@
       "tier": "standard"
     },
     {
-      "id": "rarities",
-      "name": "Other Rarities",
-      "short": "Other Rarities",
+      "id": "r-str",
+      "name": "Starlight Rares",
       "range": "4 cards",
       "tier": "master"
     }
@@ -30,8 +29,8 @@
       "Main set"
     ],
     [
-      "rarities",
-      "Other rarities"
+      "r-str",
+      "Starlight Rares"
     ]
   ],
   "quickAdd": {
@@ -102,7 +101,6 @@
     {"id":"031","section":"main","num":"031","printed":"PHHY-EN031","name":"Dogmatika Alba Zoa","ctype":"monster","keywords":"Dogmatika Spellcaster LIGHT Ritual Effect Monster","stats":{"a":"LIGHT","l":"Level 12","t":"Spellcaster / Ritual / Effect","atk":4000,"def":4000},"rarity":"SR","img":"51522296","code":"31","tcg":480278,"grp":17680,"idx":31},
     {"id":"032","section":"main","num":"032","printed":"PHHY-EN032","name":"Evigishki Neremanas","ctype":"monster","keywords":"Gishki Spellcaster WATER Ritual Effect Monster","stats":{"a":"WATER","l":"Level 10","t":"Spellcaster / Ritual / Effect","atk":3000,"def":1800},"rarity":"SR","img":"88926295","code":"32","tcg":480282,"grp":17680,"idx":32},
     {"id":"033","section":"main","num":"033","printed":"PHHY-EN033","name":"Granguignol the Dusk Dragon","ctype":"monster","keywords":"Spellcaster LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Spellcaster / Fusion","atk":2500,"def":2500},"rarity":"UR","img":"24915933","code":"33","tcg":480283,"grp":17680,"idx":33},
-    {"id":"033-str","section":"rarities","num":"033","printed":"PHHY-EN033","name":"Granguignol the Dusk Dragon","ctype":"monster","keywords":"Spellcaster LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Spellcaster / Fusion","atk":2500,"def":2500},"rarity":"StR","img":"24915933","badge":"StR","variant":"Starlight Rare","code":"STR33","tcg":480284,"grp":17680,"idx":34},
     {"id":"034","section":"main","num":"034","printed":"PHHY-EN034","name":"Rindbrumm the Striking Dragon","ctype":"monster","keywords":"Albaz Dragon Winged Beast DARK Fusion Monster","stats":{"a":"DARK","l":"Level 8","t":"Winged Beast / Fusion","atk":2500,"def":2000},"rarity":"UR","img":"51409648","code":"34","tcg":480287,"grp":17680,"idx":35},
     {"id":"035","section":"main","num":"035","printed":"PHHY-EN035","name":"Ultimate Great Insect","ctype":"monster","keywords":"Insect EARTH Fusion Monster","stats":{"a":"EARTH","l":"Level 9","t":"Insect / Fusion","atk":3000,"def":2600},"rarity":"SR","img":"87804747","code":"35","tcg":480288,"grp":17680,"idx":36},
     {"id":"036","section":"main","num":"036","printed":"PHHY-EN036","name":"Yaguramaru the Armor Ninja","ctype":"monster","keywords":"Ninja Machine DARK Fusion Monster","stats":{"a":"DARK","l":"Level 5","t":"Machine / Fusion","atk":2000,"def":2000},"rarity":"C","img":"13298352","code":"36","tcg":480290,"grp":17680,"idx":37},
@@ -116,10 +114,8 @@
     {"id":"044","section":"main","num":"044","printed":"PHHY-EN044","name":"Galaxy Photon Dragon","ctype":"monster","keywords":"Galaxy Dragon LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 4","t":"Dragon / Xyz","atk":2000,"def":0},"rarity":"ScR","img":"85747929","code":"44","tcg":480303,"grp":17680,"idx":45},
     {"id":"045","section":"main","num":"045","printed":"PHHY-EN045","name":"Gigantic \"Champion\" Sargas","ctype":"monster","keywords":"Machine FIRE Xyz Monster","stats":{"a":"FIRE","l":"Rank 8","t":"Machine / Xyz","atk":2800,"def":1500},"rarity":"ScR","img":"11132674","code":"45","tcg":480304,"grp":17680,"idx":46},
     {"id":"046","section":"main","num":"046","printed":"PHHY-EN046","name":"Kashtira Arise-Heart","ctype":"monster","keywords":"Heart Machine DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 7","t":"Machine / Xyz","atk":3000,"def":3000},"rarity":"ScR","img":"48626373","code":"46","tcg":480305,"grp":17680,"idx":47},
-    {"id":"046-str","section":"rarities","num":"046","printed":"PHHY-EN046","name":"Kashtira Arise-Heart","ctype":"monster","keywords":"Heart Machine DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 7","t":"Machine / Xyz","atk":3000,"def":3000},"rarity":"StR","img":"48626373","badge":"StR","variant":"Starlight Rare","code":"STR46","tcg":480306,"grp":17680,"idx":48},
     {"id":"047","section":"main","num":"047","printed":"PHHY-EN047","name":"Laevatein, Generaider Boss of Shadows","ctype":"monster","keywords":"Generaider Fairy FIRE Xyz Monster","stats":{"a":"FIRE","l":"Rank 9","t":"Fairy / Xyz","atk":2500,"def":2500},"rarity":"UR","img":"74615388","code":"47","tcg":480307,"grp":17680,"idx":49},
     {"id":"048","section":"main","num":"048","printed":"PHHY-EN048","name":"Tri-Brigade Arms Bucephalus II","ctype":"monster","keywords":"Tri-Brigade Winged Beast DARK Link Monster","stats":{"a":"DARK","l":"Link 5","t":"Winged Beast / Link","atk":3500},"rarity":"SR","img":"10019086","code":"48","tcg":480308,"grp":17680,"idx":50},
-    {"id":"048-str","section":"rarities","num":"048","printed":"PHHY-EN048","name":"Tri-Brigade Arms Bucephalus II","ctype":"monster","keywords":"Tri-Brigade Winged Beast DARK Link Monster","stats":{"a":"DARK","l":"Link 5","t":"Winged Beast / Link","atk":3500},"rarity":"StR","img":"10019086","badge":"StR","variant":"Starlight Rare","code":"STR48","tcg":480309,"grp":17680,"idx":51},
     {"id":"049","section":"main","num":"049","printed":"PHHY-EN049","name":"Abyss Actor - Super Producer","ctype":"monster","keywords":"Abyss Actor Fiend DARK Link Monster","stats":{"a":"DARK","l":"Link 2","t":"Fiend / Link","atk":1600},"rarity":"C","img":"47404795","code":"49","tcg":480311,"grp":17680,"idx":52},
     {"id":"050","section":"main","num":"050","printed":"PHHY-EN050","name":"Dyna Mondo","ctype":"monster","keywords":"Cyberse EARTH Link Monster","stats":{"a":"EARTH","l":"Link 2","t":"Cyberse / Link","atk":2200},"rarity":"C","img":"73898890","code":"50","tcg":480312,"grp":17680,"idx":53},
     {"id":"051","section":"main","num":"051","printed":"PHHY-EN051","name":"Galaxy Hundred","ctype":"spell","keywords":"Galaxy Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"897409","code":"51","tcg":480321,"grp":17680,"idx":54},
@@ -160,7 +156,6 @@
     {"id":"086","section":"main","num":"086","printed":"PHHY-EN086","name":"Gold Pride - Leon","ctype":"monster","keywords":"Gold Pride Warrior WIND Tuner Monster","stats":{"a":"WIND","l":"Level 3","t":"Warrior / Tuner","atk":1500,"def":1200},"rarity":"ScR","img":"23512906","code":"86","tcg":480371,"grp":17680,"idx":89},
     {"id":"087","section":"main","num":"087","printed":"PHHY-EN087","name":"Gold Pride - Nytro Head","ctype":"monster","keywords":"Gold Pride Pyro FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 8","t":"Pyro / Effect","atk":2300,"def":2600},"rarity":"SR","img":"59900655","code":"87","tcg":480373,"grp":17680,"idx":90},
     {"id":"088","section":"main","num":"088","printed":"PHHY-EN088","name":"Gold Pride - Captain Carrie","ctype":"monster","keywords":"Gold Pride Fiend WATER Effect Monster","stats":{"a":"WATER","l":"Level 3","t":"Fiend / Effect","atk":900,"def":1700},"rarity":"UR","img":"96305350","code":"88","tcg":480375,"grp":17680,"idx":91},
-    {"id":"088-str","section":"rarities","num":"088","printed":"PHHY-EN088","name":"Gold Pride - Captain Carrie","ctype":"monster","keywords":"Gold Pride Fiend WATER Effect Monster","stats":{"a":"WATER","l":"Level 3","t":"Fiend / Effect","atk":900,"def":1700},"rarity":"StR","img":"96305350","badge":"StR","variant":"Starlight Rare","code":"STR88","tcg":480615,"grp":17680,"idx":92},
     {"id":"089","section":"main","num":"089","printed":"PHHY-EN089","name":"Gold Pride - Star Leon","ctype":"monster","keywords":"Gold Pride Thunder LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Thunder / Synchro","atk":2000,"def":2000},"rarity":"UR","img":"22390469","code":"89","tcg":480380,"grp":17680,"idx":93},
     {"id":"090","section":"main","num":"090","printed":"PHHY-EN090","name":"Gold Pride - Nytro Blaster","ctype":"monster","keywords":"Gold Pride Pyro DARK Link Monster","stats":{"a":"DARK","l":"Link 2","t":"Pyro / Link","atk":2300},"rarity":"SR","img":"58884063","code":"90","tcg":480381,"grp":17680,"idx":94},
     {"id":"091","section":"main","num":"091","printed":"PHHY-EN091","name":"Gold Pride - The Crowd Goes Wild!","ctype":"spell","keywords":"Gold Pride Normal Spell","stats":{"t":"Normal Spell"},"rarity":"ScR","img":"95283172","code":"91","tcg":480383,"grp":17680,"idx":95},
@@ -172,6 +167,10 @@
     {"id":"097","section":"main","num":"097","printed":"PHHY-EN097","name":"Apophis the Swamp Deity","ctype":"trap","keywords":"Trap Monster Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"SR","img":"85888377","code":"97","tcg":480398,"grp":17680,"idx":101},
     {"id":"098","section":"main","num":"098","printed":"PHHY-EN098","name":"Green Ninja","ctype":"monster","keywords":"Ninja Warrior WIND Effect Monster","stats":{"a":"WIND","l":"Level 2","t":"Warrior / Effect","atk":600,"def":600},"rarity":"SR","img":"15198996","code":"98","tcg":480403,"grp":17680,"idx":102},
     {"id":"099","section":"main","num":"099","printed":"PHHY-EN099","name":"Humongous Hive Hegemon - Zexstagger","ctype":"monster","keywords":"Insect WIND Effect Monster","stats":{"a":"WIND","l":"Level 8","t":"Insect / Effect","atk":1500,"def":2600},"rarity":"SR","img":"9627468","code":"99","tcg":480405,"grp":17680,"idx":103},
-    {"id":"100","section":"main","num":"100","printed":"PHHY-EN100","name":"Mirrorjade the Iceblade Dragon","ctype":"monster","keywords":"Albaz Dragon Wyrm DARK Fusion Monster","stats":{"a":"DARK","l":"Level 8","t":"Wyrm / Fusion","atk":3000,"def":2500},"rarity":"StR","img":"44146295","code":"100","tcg":480407,"grp":17680,"idx":104}
+    {"id":"100","section":"main","num":"100","printed":"PHHY-EN100","name":"Mirrorjade the Iceblade Dragon","ctype":"monster","keywords":"Albaz Dragon Wyrm DARK Fusion Monster","stats":{"a":"DARK","l":"Level 8","t":"Wyrm / Fusion","atk":3000,"def":2500},"rarity":"StR","img":"44146295","code":"100","tcg":480407,"grp":17680,"idx":104},
+    {"id":"033-str","section":"r-str","num":"033","printed":"PHHY-EN033","name":"Granguignol the Dusk Dragon","ctype":"monster","keywords":"Spellcaster LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Spellcaster / Fusion","atk":2500,"def":2500},"rarity":"StR","img":"24915933","badge":"StR","variant":"Starlight Rare","code":"STR33","tcg":480284,"grp":17680,"idx":34},
+    {"id":"046-str","section":"r-str","num":"046","printed":"PHHY-EN046","name":"Kashtira Arise-Heart","ctype":"monster","keywords":"Heart Machine DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 7","t":"Machine / Xyz","atk":3000,"def":3000},"rarity":"StR","img":"48626373","badge":"StR","variant":"Starlight Rare","code":"STR46","tcg":480306,"grp":17680,"idx":48},
+    {"id":"048-str","section":"r-str","num":"048","printed":"PHHY-EN048","name":"Tri-Brigade Arms Bucephalus II","ctype":"monster","keywords":"Tri-Brigade Winged Beast DARK Link Monster","stats":{"a":"DARK","l":"Link 5","t":"Winged Beast / Link","atk":3500},"rarity":"StR","img":"10019086","badge":"StR","variant":"Starlight Rare","code":"STR48","tcg":480309,"grp":17680,"idx":51},
+    {"id":"088-str","section":"r-str","num":"088","printed":"PHHY-EN088","name":"Gold Pride - Captain Carrie","ctype":"monster","keywords":"Gold Pride Fiend WATER Effect Monster","stats":{"a":"WATER","l":"Level 3","t":"Fiend / Effect","atk":900,"def":1700},"rarity":"StR","img":"96305350","badge":"StR","variant":"Starlight Rare","code":"STR88","tcg":480615,"grp":17680,"idx":92}
   ]
 }

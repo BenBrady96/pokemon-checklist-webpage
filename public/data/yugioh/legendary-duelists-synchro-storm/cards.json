@@ -17,9 +17,8 @@
       "tier": "standard"
     },
     {
-      "id": "rarities",
-      "name": "Other Rarities",
-      "short": "Other Rarities",
+      "id": "r-gr",
+      "name": "Ghost Rares",
       "range": "1 card",
       "tier": "master"
     }
@@ -30,8 +29,8 @@
       "Main set"
     ],
     [
-      "rarities",
-      "Other rarities"
+      "r-gr",
+      "Ghost Rares"
     ]
   ],
   "quickAdd": {
@@ -73,7 +72,6 @@
     {"id":"003","section":"main","num":"003","printed":"LED8-EN003","name":"Speedroid Ultra Hound","ctype":"monster","keywords":"Speedroid Machine WIND Effect Monster","stats":{"a":"WIND","l":"Level 3","t":"Machine / Effect","atk":800,"def":800},"rarity":"SR","img":"86976918","code":"3","tcg":251318,"grp":2829,"idx":2},
     {"id":"004","section":"main","num":"004","printed":"LED8-EN004","name":"Hi-Speedroid Cork Shooter","ctype":"monster","keywords":"Speedroid Machine WIND Synchro Tuner Monster","stats":{"a":"WIND","l":"Level 3","t":"Machine / Synchro / Tuner","atk":500,"def":1000},"rarity":"UR","img":"23361526","code":"4","tcg":251319,"grp":2829,"idx":3},
     {"id":"005","section":"main","num":"005","printed":"LED8-EN005","name":"Crystal Clear Wing Synchro Dragon","ctype":"monster","keywords":"Clear Wing Dragon WIND Synchro Monster","stats":{"a":"WIND","l":"Level 10","t":"Dragon / Synchro","atk":3000,"def":2500},"rarity":"UR","img":"59765225","code":"5","tcg":251320,"grp":2829,"idx":4},
-    {"id":"005-gr","section":"rarities","num":"005","printed":"LED8-EN005","name":"Crystal Clear Wing Synchro Dragon","ctype":"monster","keywords":"Clear Wing Dragon WIND Synchro Monster","stats":{"a":"WIND","l":"Level 10","t":"Dragon / Synchro","atk":3000,"def":2500},"rarity":"GR","img":"59765225","badge":"GR","variant":"Ghost Rare","code":"GR5","tcg":251321,"grp":2829,"idx":5},
     {"id":"006","section":"main","num":"006","printed":"LED8-EN006","name":"Hi-Speedroid Clear Wing Rider","ctype":"monster","keywords":"Speedroid Machine WIND Synchro Monster","stats":{"a":"WIND","l":"Level 11","t":"Machine / Synchro","atk":3500,"def":2000},"rarity":"UR","img":"86154370","code":"6","tcg":251323,"grp":2829,"idx":6},
     {"id":"007","section":"main","num":"007","printed":"LED8-EN007","name":"Speedroid Wheel","ctype":"spell","keywords":"Speedroid Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"SR","img":"12148078","code":"7","tcg":251592,"grp":2829,"idx":7},
     {"id":"008","section":"main","num":"008","printed":"LED8-EN008","name":"Speedroid Dupligate","ctype":"trap","keywords":"Speedroid Normal Trap","stats":{"t":"Normal Trap"},"rarity":"R","img":"58543073","code":"8","tcg":251325,"grp":2829,"idx":8},
@@ -124,6 +122,7 @@
     {"id":"053","section":"main","num":"053","printed":"LED8-EN053","name":"Stardust Assault Warrior","ctype":"monster","keywords":"Junk Warrior WIND Synchro Monster","stats":{"a":"WIND","l":"Level 6","t":"Warrior / Synchro","atk":2100,"def":1200},"rarity":"C","img":"97792247","code":"53","tcg":251418,"grp":2829,"idx":53},
     {"id":"054","section":"main","num":"054","printed":"LED8-EN054","name":"Totem Bird","ctype":"monster","keywords":"Winged Beast WIND Xyz Monster","stats":{"a":"WIND","l":"Rank 3","t":"Winged Beast / Xyz","atk":1900,"def":1400},"rarity":"R","img":"71068247","code":"54","tcg":251419,"grp":2829,"idx":54},
     {"id":"055","section":"main","num":"055","printed":"LED8-EN055","name":"Tornado Dragon","ctype":"monster","keywords":"Wyrm WIND Xyz Monster","stats":{"a":"WIND","l":"Rank 4","t":"Wyrm / Xyz","atk":2100,"def":2000},"rarity":"C","img":"6983839","code":"55","tcg":251421,"grp":2829,"idx":55},
-    {"id":"056","section":"main","num":"056","printed":"LED8-EN056","name":"Quill Pen of Gulldos","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"27980138","code":"56","tcg":251423,"grp":2829,"idx":56}
+    {"id":"056","section":"main","num":"056","printed":"LED8-EN056","name":"Quill Pen of Gulldos","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"27980138","code":"56","tcg":251423,"grp":2829,"idx":56},
+    {"id":"005-gr","section":"r-gr","num":"005","printed":"LED8-EN005","name":"Crystal Clear Wing Synchro Dragon","ctype":"monster","keywords":"Clear Wing Dragon WIND Synchro Monster","stats":{"a":"WIND","l":"Level 10","t":"Dragon / Synchro","atk":3000,"def":2500},"rarity":"GR","img":"59765225","badge":"GR","variant":"Ghost Rare","code":"GR5","tcg":251321,"grp":2829,"idx":5}
   ]
 }

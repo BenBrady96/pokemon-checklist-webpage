@@ -17,9 +17,14 @@
       "tier": "standard"
     },
     {
-      "id": "rarities",
-      "name": "Other Rarities",
-      "short": "Other Rarities",
+      "id": "r-c",
+      "name": "Commons (Alternate Art)",
+      "range": "1 card",
+      "tier": "master"
+    },
+    {
+      "id": "r-ur",
+      "name": "Ultra Rares",
       "range": "3 cards",
       "tier": "master"
     }
@@ -30,31 +35,35 @@
       "Main set"
     ],
     [
-      "rarities",
-      "Other rarities"
+      "r-c",
+      "Commons (Alternate Art)"
+    ],
+    [
+      "r-ur",
+      "Ultra Rares"
     ]
   ],
   "quickAdd": {
     "placeholder": "e.g. 1-20, 45, SCR12, 60x2",
     "example": "1-20, 45x2, SCR12",
-    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies. Other rarities use their short name and number: <b>SCR12</b> is card 12’s Secret Rare, and ranges work too (<b>QCSR1-QCSR20</b>).",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies. Other rarities use their short name and number: <b>SCR12</b> is card 12’s Secret Rare, and ranges work too (<b>QCSR1-QCSR20</b>). Special prints add their own letters: <b>CAAY20</b> is card Y20’s Alternate Art Common.",
     "empty": "Cards run from L5DD-ENA01 to L5DD-ENY41."
   },
   "help": {
-    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 111 cards, each in its main rarity. Master adds the 3 other rarities. Cards you’ve marked are kept when you switch."
+    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 111 cards, each in its main rarity. Master adds the 4 other rarities. Cards you’ve marked are kept when you switch."
   },
   "seo": {
     "title": "Yu-Gi-Oh! Legendary 5D's Decks Checklist · All 111 Cards",
     "description": "Free Yu-Gi-Oh! Legendary 5D's Decks checklist with no ads, no sign-up and no tracking. Track all 111 cards, or every rarity for a master set, with images, copy counts, binder pages and prices.",
     "ogTitle": "Yu-Gi-Oh! Legendary 5D's Decks Checklist",
-    "ogDescription": "Track all 111 cards in Yu-Gi-Oh! Legendary 5D's Decks, plus 3 other rarities. Free, with no ads, no sign-up and no tracking.",
+    "ogDescription": "Track all 111 cards in Yu-Gi-Oh! Legendary 5D's Decks, plus 4 other rarities. Free, with no ads, no sign-up and no tracking.",
     "twitterDescription": "Track all 111 cards in Yu-Gi-Oh! Legendary 5D's Decks. Free, with no ads, no sign-up and no tracking."
   },
   "about": {
     "title": "About Legendary 5D's Decks",
     "paragraphs": [
-      "Legendary 5D&#39;s Decks is a Yu-Gi-Oh! TCG deck released on 6 November 2025, in the SEVENS &amp; GO RUSH!! era. It has 111 cards, and with the 3 other rarities there are 114 to collect in all.",
-      "Choose what you’re collecting: the <b>Standard set</b> (the 111 cards, each in its main rarity) or the <b>Master set</b> (all 114, adding the 3 other rarities).",
+      "Legendary 5D&#39;s Decks is a Yu-Gi-Oh! TCG deck released on 6 November 2025, in the SEVENS &amp; GO RUSH!! era. It has 111 cards, and with the 4 other rarities there are 115 to collect in all.",
+      "Choose what you’re collecting: the <b>Standard set</b> (the 111 cards, each in its main rarity) or the <b>Master set</b> (all 115, adding the 4 other rarities).",
       "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
       "Card details and images come from YGOPRODeck, and prices from TCGplayer."
     ]
@@ -85,15 +94,12 @@
     {"id":"A15","section":"main","num":"A15","printed":"L5DD-ENA15","name":"Monster Reborn","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"83764719","code":"A15","tcg":661313,"grp":24396,"idx":14},
     {"id":"A16","section":"main","num":"A16","printed":"L5DD-ENA16","name":"Terraforming","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"73628505","code":"A16","tcg":661314,"grp":24396,"idx":15},
     {"id":"A17","section":"main","num":"A17","printed":"L5DD-ENA17","name":"Miracle Fertilizer","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"44887817","code":"A17","tcg":661316,"grp":24396,"idx":16},
-    {"id":"A17-ur","section":"rarities","num":"A17","printed":"L5DD-ENA17","name":"Miracle Fertilizer","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"UR","img":"44887817","badge":"UR","variant":"Ultra Rare","code":"URA17","tcg":661315,"grp":24396,"idx":17},
     {"id":"A18","section":"main","num":"A18","printed":"L5DD-ENA18","name":"Black Garden","ctype":"spell","keywords":"Rose Dragon Field Spell","stats":{"t":"Field Spell"},"rarity":"C","img":"71645242","code":"A18","tcg":661318,"grp":24396,"idx":18},
-    {"id":"A18-ur","section":"rarities","num":"A18","printed":"L5DD-ENA18","name":"Black Garden","ctype":"spell","keywords":"Rose Dragon Field Spell","stats":{"t":"Field Spell"},"rarity":"UR","img":"71645242","badge":"UR","variant":"Ultra Rare","code":"URA18","tcg":661317,"grp":24396,"idx":19},
     {"id":"A19","section":"main","num":"A19","printed":"L5DD-ENA19","name":"Fragrance Storm","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"69584564","code":"A19","tcg":661319,"grp":24396,"idx":20},
     {"id":"A20","section":"main","num":"A20","printed":"L5DD-ENA20","name":"Thorn of Malice","ctype":"spell","keywords":"Rose Dragon Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"65079854","code":"A20","tcg":661320,"grp":24396,"idx":21},
     {"id":"A21","section":"main","num":"A21","printed":"L5DD-ENA21","name":"Frozen Rose","ctype":"spell","keywords":"Rose Dragon Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"53503015","code":"A21","tcg":661321,"grp":24396,"idx":22},
     {"id":"A22","section":"main","num":"A22","printed":"L5DD-ENA22","name":"White Rose Cloister","ctype":"spell","keywords":"Rose Dragon Field Spell","stats":{"t":"Field Spell"},"rarity":"C","img":"84335863","code":"A22","tcg":661322,"grp":24396,"idx":23},
     {"id":"A23","section":"main","num":"A23","printed":"L5DD-ENA23","name":"Basal Rose Shoot","ctype":"spell","keywords":"Rose Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"69167267","code":"A23","tcg":661324,"grp":24396,"idx":24},
-    {"id":"A23-ur","section":"rarities","num":"A23","printed":"L5DD-ENA23","name":"Basal Rose Shoot","ctype":"spell","keywords":"Rose Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"UR","img":"69167267","badge":"UR","variant":"Ultra Rare","code":"URA23","tcg":661323,"grp":24396,"idx":25},
     {"id":"A24","section":"main","num":"A24","printed":"L5DD-ENA24","name":"Infinite Impermanence","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"10045474","code":"A24","tcg":661325,"grp":24396,"idx":26},
     {"id":"A25","section":"main","num":"A25","printed":"L5DD-ENA25","name":"Blooming of the Darkest Rose","ctype":"trap","keywords":"Rose Dragon Normal Trap","stats":{"t":"Normal Trap"},"rarity":"UR","img":"99092624","code":"A25","tcg":661326,"grp":24396,"idx":27},
     {"id":"A26","section":"main","num":"A26","printed":"L5DD-ENA26","name":"Black Rose Dragon","ctype":"monster","keywords":"Rose Dragon Dragon FIRE Synchro Monster","stats":{"a":"FIRE","l":"Level 7","t":"Dragon / Synchro","atk":2400,"def":1800},"rarity":"C","img":"73580471","code":"A26","tcg":661327,"grp":24396,"idx":28},
@@ -181,6 +187,10 @@
     {"id":"Y38","section":"main","num":"Y38","printed":"L5DD-ENY38","name":"Formula Synchron","ctype":"monster","keywords":"Synchron Machine LIGHT Synchro Tuner Monster","stats":{"a":"LIGHT","l":"Level 2","t":"Machine / Synchro / Tuner","atk":200,"def":1500},"rarity":"C","img":"50091196","code":"Y38","tcg":661293,"grp":24396,"idx":110},
     {"id":"Y39","section":"main","num":"Y39","printed":"L5DD-ENY39","name":"Stardust Warrior","ctype":"monster","keywords":"Stardust Warrior WIND Synchro Monster","stats":{"a":"WIND","l":"Level 10","t":"Warrior / Synchro","atk":3000,"def":2500},"rarity":"C","img":"74892653","code":"Y39","tcg":661294,"grp":24396,"idx":111},
     {"id":"Y40","section":"main","num":"Y40","printed":"L5DD-ENY40","name":"Shooting Star Dragon","ctype":"monster","keywords":"Dragon WIND Synchro Monster","stats":{"a":"WIND","l":"Level 10","t":"Dragon / Synchro","atk":3300,"def":2500},"rarity":"C","img":"24696097","code":"Y40","tcg":661295,"grp":24396,"idx":112},
-    {"id":"Y41","section":"main","num":"Y41","printed":"L5DD-ENY41","name":"Crimson Dragon","ctype":"monster","keywords":"Dragon LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 12","t":"Dragon / Synchro","atk":0,"def":0},"rarity":"C","img":"63436931","code":"Y41","tcg":661296,"grp":24396,"idx":113}
+    {"id":"Y41","section":"main","num":"Y41","printed":"L5DD-ENY41","name":"Crimson Dragon","ctype":"monster","keywords":"Dragon LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 12","t":"Dragon / Synchro","atk":0,"def":0},"rarity":"C","img":"63436931","code":"Y41","tcg":661296,"grp":24396,"idx":113},
+    {"id":"Y20-c-alt","section":"r-c","num":"Y20","printed":"L5DD-ENY20","name":"Tuning","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"96363153","badge":"C AA","variant":"Alternate Art Common","print":"Alternate Art","tag":"alt","code":"CAAY20","tcg":661275,"grp":24396,"idx":114},
+    {"id":"A17-ur","section":"r-ur","num":"A17","printed":"L5DD-ENA17","name":"Miracle Fertilizer","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"UR","img":"44887817","badge":"UR","variant":"Ultra Rare","code":"URA17","tcg":661315,"grp":24396,"idx":17},
+    {"id":"A18-ur","section":"r-ur","num":"A18","printed":"L5DD-ENA18","name":"Black Garden","ctype":"spell","keywords":"Rose Dragon Field Spell","stats":{"t":"Field Spell"},"rarity":"UR","img":"71645242","badge":"UR","variant":"Ultra Rare","code":"URA18","tcg":661317,"grp":24396,"idx":19},
+    {"id":"A23-ur","section":"r-ur","num":"A23","printed":"L5DD-ENA23","name":"Basal Rose Shoot","ctype":"spell","keywords":"Rose Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"UR","img":"69167267","badge":"UR","variant":"Ultra Rare","code":"URA23","tcg":661323,"grp":24396,"idx":25}
   ]
 }

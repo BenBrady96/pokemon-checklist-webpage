@@ -17,9 +17,8 @@
       "tier": "standard"
     },
     {
-      "id": "rarities",
-      "name": "Other Rarities",
-      "short": "Other Rarities",
+      "id": "r-str",
+      "name": "Starlight Rares",
       "range": "4 cards",
       "tier": "master"
     }
@@ -30,8 +29,8 @@
       "Main set"
     ],
     [
-      "rarities",
-      "Other rarities"
+      "r-str",
+      "Starlight Rares"
     ]
   ],
   "quickAdd": {
@@ -74,13 +73,11 @@
     {"id":"BACH-002","section":"main","num":"002","printed":"BACH-EN002","name":"Dimension Conjurer","ctype":"monster","keywords":"Dark Magician Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Spellcaster / Effect","atk":500,"def":500},"rarity":"C","img":"77683371","code":"2","tcg":262250,"grp":2969,"idx":3},
     {"id":"BACH-003","section":"main","num":"003","printed":"BACH-EN003","name":"Timaeus the United Dragon","ctype":"monster","keywords":"Legendary Knight Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Effect","atk":2800,"def":1800},"rarity":"UR","img":"3078380","code":"3","tcg":262251,"grp":2969,"idx":4},
     {"id":"BACH-004","section":"main","num":"004","printed":"BACH-EN004","name":"Blue-Eyes Jet Dragon","ctype":"monster","keywords":"Blue-Eyes Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Effect","atk":3000,"def":0},"rarity":"ScR","img":"30576089","code":"4","tcg":262252,"grp":2969,"idx":5},
-    {"id":"BACH-004-str","section":"rarities","num":"004","printed":"BACH-EN004","name":"Blue-Eyes Jet Dragon","ctype":"monster","keywords":"Blue-Eyes Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Effect","atk":3000,"def":0},"rarity":"StR","img":"30576089","badge":"StR","variant":"Starlight Rare","code":"STR4","tcg":262302,"grp":2969,"idx":6},
     {"id":"BACH-005","section":"main","num":"005","printed":"BACH-EN005","name":"Dictator of D.","ctype":"monster","keywords":"Blue-Eyes Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Effect","atk":1200,"def":1100},"rarity":"SR","img":"66961194","code":"5","tcg":262253,"grp":2969,"idx":7},
     {"id":"BACH-006","section":"main","num":"006","printed":"BACH-EN006","name":"Icejade Kosmochlor","ctype":"monster","keywords":"Icejade Aqua WATER Effect Monster","stats":{"a":"WATER","l":"Level 10","t":"Aqua / Effect","atk":1500,"def":3000},"rarity":"ScR","img":"3355732","code":"6","tcg":262260,"grp":2969,"idx":8},
     {"id":"BACH-007","section":"main","num":"007","printed":"BACH-EN007","name":"Icejade Aegirine","ctype":"monster","keywords":"Icejade Aqua WATER Effect Monster","stats":{"a":"WATER","l":"Level 3","t":"Aqua / Effect","atk":1000,"def":2000},"rarity":"UR","img":"39354437","code":"7","tcg":262261,"grp":2969,"idx":9},
     {"id":"BACH-008","section":"main","num":"008","printed":"BACH-EN008","name":"Icejade Creation Kingfisher","ctype":"monster","keywords":"Icejade Aqua WATER Effect Monster","stats":{"a":"WATER","l":"Level 9","t":"Aqua / Effect","atk":2500,"def":2500},"rarity":"SR","img":"66749546","code":"8","tcg":262262,"grp":2969,"idx":10},
     {"id":"BACH-009","section":"main","num":"009","printed":"BACH-EN009","name":"Dinomorphia Therizia","ctype":"monster","keywords":"Dinomorphia Dinosaur DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Dinosaur / Effect","atk":1500,"def":0},"rarity":"ScR","img":"92133240","code":"9","tcg":262263,"grp":2969,"idx":11},
-    {"id":"BACH-009-str","section":"rarities","num":"009","printed":"BACH-EN009","name":"Dinomorphia Therizia","ctype":"monster","keywords":"Dinomorphia Dinosaur DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Dinosaur / Effect","atk":1500,"def":0},"rarity":"StR","img":"92133240","badge":"StR","variant":"Starlight Rare","code":"STR9","tcg":262264,"grp":2969,"idx":12},
     {"id":"BACH-010","section":"main","num":"010","printed":"BACH-EN010","name":"Dinomorphia Diplos","ctype":"monster","keywords":"Dinomorphia Dinosaur DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Dinosaur / Effect","atk":1000,"def":0},"rarity":"C","img":"38628859","code":"10","tcg":262265,"grp":2969,"idx":13},
     {"id":"BACH-011","section":"main","num":"011","printed":"BACH-EN011","name":"Nordic Beast Gullinbursti","ctype":"monster","keywords":"Nordic Beast LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 3","t":"Beast / Tuner","atk":300,"def":100},"rarity":"SR","img":"65626958","code":"11","tcg":262266,"grp":2969,"idx":14},
     {"id":"BACH-012","section":"main","num":"012","printed":"BACH-EN012","name":"Nordic Smith Ivaldi","ctype":"monster","keywords":"Nordic Warrior EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Effect","atk":1500,"def":700},"rarity":"SR","img":"91011603","code":"12","tcg":262268,"grp":2969,"idx":15},
@@ -106,7 +103,6 @@
     {"id":"BACH-032","section":"main","num":"032","printed":"BACH-EN032","name":"Shining Piecephilia","ctype":"monster","keywords":"Rock LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Rock / Effect","atk":700,"def":2000},"rarity":"C","img":"49776811","code":"32","tcg":262290,"grp":2969,"idx":35},
     {"id":"BACH-033","section":"main","num":"033","printed":"BACH-EN033","name":"Darton the Mechanical Monstrosity","ctype":"monster","keywords":"Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Machine / Effect","atk":-1,"def":0},"rarity":"C","img":"86271510","code":"33","tcg":262291,"grp":2969,"idx":36},
     {"id":"BACH-034","section":"main","num":"034","printed":"BACH-EN034","name":"Illusion of Chaos","ctype":"monster","keywords":"Chaos Spellcaster DARK Ritual Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Spellcaster / Ritual / Effect","atk":2100,"def":2500},"rarity":"ScR","img":"12266229","code":"34","tcg":262292,"grp":2969,"idx":37},
-    {"id":"BACH-034-str","section":"rarities","num":"034","printed":"BACH-EN034","name":"Illusion of Chaos","ctype":"monster","keywords":"Chaos Spellcaster DARK Ritual Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Spellcaster / Ritual / Effect","atk":2100,"def":2500},"rarity":"StR","img":"12266229","badge":"StR","variant":"Starlight Rare","code":"STR34","tcg":263155,"grp":2969,"idx":38},
     {"id":"BACH-035","section":"main","num":"035","printed":"BACH-EN035","name":"White Relic of Dogmatika","ctype":"monster","keywords":"Dogmatika Spellcaster LIGHT Ritual Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Ritual / Effect","atk":500,"def":2500},"rarity":"SR","img":"48654323","code":"35","tcg":262293,"grp":2969,"idx":39},
     {"id":"BACH-036","section":"main","num":"036","printed":"BACH-EN036","name":"Master of Chaos","ctype":"monster","keywords":"Chaos Spellcaster DARK Fusion Monster","stats":{"a":"DARK","l":"Level 8","t":"Spellcaster / Fusion","atk":3000,"def":2500},"rarity":"UR","img":"85059922","code":"36","tcg":262294,"grp":2969,"idx":40},
     {"id":"BACH-037","section":"main","num":"037","printed":"BACH-EN037","name":"Blue-Eyes Tyrant Dragon","ctype":"monster","keywords":"Blue-Eyes Dragon LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Fusion","atk":3400,"def":2900},"rarity":"UR","img":"11443677","code":"37","tcg":262296,"grp":2969,"idx":41},
@@ -122,7 +118,6 @@
     {"id":"BACH-047","section":"main","num":"047","printed":"BACH-EN047","name":"Ghostrick Festival","ctype":"monster","keywords":"Ghostrick Spellcaster DARK Link Monster","stats":{"a":"DARK","l":"Link 1","t":"Spellcaster / Link","atk":0},"rarity":"C","img":"35871958","code":"47","tcg":262312,"grp":2969,"idx":51},
     {"id":"BACH-048","section":"main","num":"048","printed":"BACH-EN048","name":"Vampire Fascinator","ctype":"monster","keywords":"Vampire Zombie DARK Link Monster","stats":{"a":"DARK","l":"Link 3","t":"Zombie / Link","atk":2400},"rarity":"SR","img":"72860663","code":"48","tcg":262313,"grp":2969,"idx":52},
     {"id":"BACH-049","section":"main","num":"049","printed":"BACH-EN049","name":"Dharc the Dark Charmer, Gloomy","ctype":"monster","keywords":"Charmer Spellcaster DARK Link Monster","stats":{"a":"DARK","l":"Link 2","t":"Spellcaster / Link","atk":1850},"rarity":"SR","img":"8264361","code":"49","tcg":262314,"grp":2969,"idx":53},
-    {"id":"BACH-049-str","section":"rarities","num":"049","printed":"BACH-EN049","name":"Dharc the Dark Charmer, Gloomy","ctype":"monster","keywords":"Charmer Spellcaster DARK Link Monster","stats":{"a":"DARK","l":"Link 2","t":"Spellcaster / Link","atk":1850},"rarity":"StR","img":"8264361","badge":"StR","variant":"Starlight Rare","code":"STR49","tcg":263154,"grp":2969,"idx":54},
     {"id":"BACH-050","section":"main","num":"050","printed":"BACH-EN050","name":"Vision with Eyes of Blue","ctype":"spell","keywords":"with Eyes of Blue Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"SR","img":"35659410","code":"50","tcg":262315,"grp":2969,"idx":55},
     {"id":"BACH-051","section":"main","num":"051","printed":"BACH-EN051","name":"Ultimate Fusion","ctype":"spell","keywords":"Blue-Eyes Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"SR","img":"71143015","code":"51","tcg":262316,"grp":2969,"idx":56},
     {"id":"BACH-052","section":"main","num":"052","printed":"BACH-EN052","name":"Icejade Cenote Enion Cradle","ctype":"spell","keywords":"Icejade Field Spell","stats":{"t":"Field Spell"},"rarity":"SR","img":"7142724","code":"52","tcg":262317,"grp":2969,"idx":57},
@@ -173,6 +168,10 @@
     {"id":"BACH-097","section":"main","num":"097","printed":"BACH-EN097","name":"Groza, Tyrant of Thunder","ctype":"monster","keywords":"Fiend DARK Synchro Monster","stats":{"a":"DARK","l":"Level 8","t":"Fiend / Synchro","atk":2800,"def":2800},"rarity":"C","img":"45420955","code":"97","tcg":262364,"grp":2969,"idx":102},
     {"id":"BACH-098","section":"main","num":"098","printed":"BACH-EN098","name":"Doll Happiness","ctype":"spell","keywords":"Doll Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"71595845","code":"98","tcg":262365,"grp":2969,"idx":103},
     {"id":"BACH-099","section":"main","num":"099","printed":"BACH-EN099","name":"Smile Potion","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"16720314","code":"99","tcg":262366,"grp":2969,"idx":104},
-    {"id":"BACH-100","section":"main","num":"100","printed":"BACH-EN100","name":"The Dark Magicians","ctype":"monster","keywords":"Dark Magician Spellcaster DARK Fusion Monster","stats":{"a":"DARK","l":"Level 8","t":"Spellcaster / Fusion","atk":2800,"def":2300},"rarity":"StR","img":"50237654","code":"100","tcg":262367,"grp":2969,"idx":105}
+    {"id":"BACH-100","section":"main","num":"100","printed":"BACH-EN100","name":"The Dark Magicians","ctype":"monster","keywords":"Dark Magician Spellcaster DARK Fusion Monster","stats":{"a":"DARK","l":"Level 8","t":"Spellcaster / Fusion","atk":2800,"def":2300},"rarity":"StR","img":"50237654","code":"100","tcg":262367,"grp":2969,"idx":105},
+    {"id":"BACH-004-str","section":"r-str","num":"004","printed":"BACH-EN004","name":"Blue-Eyes Jet Dragon","ctype":"monster","keywords":"Blue-Eyes Dragon LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Effect","atk":3000,"def":0},"rarity":"StR","img":"30576089","badge":"StR","variant":"Starlight Rare","code":"STR4","tcg":262302,"grp":2969,"idx":6},
+    {"id":"BACH-009-str","section":"r-str","num":"009","printed":"BACH-EN009","name":"Dinomorphia Therizia","ctype":"monster","keywords":"Dinomorphia Dinosaur DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Dinosaur / Effect","atk":1500,"def":0},"rarity":"StR","img":"92133240","badge":"StR","variant":"Starlight Rare","code":"STR9","tcg":262264,"grp":2969,"idx":12},
+    {"id":"BACH-034-str","section":"r-str","num":"034","printed":"BACH-EN034","name":"Illusion of Chaos","ctype":"monster","keywords":"Chaos Spellcaster DARK Ritual Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Spellcaster / Ritual / Effect","atk":2100,"def":2500},"rarity":"StR","img":"12266229","badge":"StR","variant":"Starlight Rare","code":"STR34","tcg":263155,"grp":2969,"idx":38},
+    {"id":"BACH-049-str","section":"r-str","num":"049","printed":"BACH-EN049","name":"Dharc the Dark Charmer, Gloomy","ctype":"monster","keywords":"Charmer Spellcaster DARK Link Monster","stats":{"a":"DARK","l":"Link 2","t":"Spellcaster / Link","atk":1850},"rarity":"StR","img":"8264361","badge":"StR","variant":"Starlight Rare","code":"STR49","tcg":263154,"grp":2969,"idx":54}
   ]
 }

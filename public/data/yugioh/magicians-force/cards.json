@@ -15,34 +15,45 @@
       "name": "Main Set",
       "range": "MFC-000–MFC-107",
       "tier": "standard"
+    },
+    {
+      "id": "r-ur",
+      "name": "Ultra Rares (Reprint Artwork)",
+      "range": "1 card",
+      "tier": "master"
     }
   ],
   "summary": [
     [
       "main",
-      "Cards"
+      "Main set"
+    ],
+    [
+      "r-ur",
+      "Ultra Rares (Reprint Artwork)"
     ]
   ],
   "quickAdd": {
-    "placeholder": "e.g. 1-20, 45, 60x2",
-    "example": "1-20, 45x2",
-    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "placeholder": "e.g. 1-20, 45, SCR12, 60x2",
+    "example": "1-20, 45x2, SCR12",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies. Other rarities use their short name and number: <b>SCR12</b> is card 12’s Secret Rare, and ranges work too (<b>QCSR1-QCSR20</b>). Special prints add their own letters: <b>URRA105</b> is card 105’s Reprint Artwork Ultra Rare.",
     "empty": "Cards run from MFC-000 to MFC-107."
   },
   "help": {
-    "tiers": ""
+    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 108 cards, each in its main rarity. Master adds the 1 other rarity. Cards you’ve marked are kept when you switch."
   },
   "seo": {
     "title": "Yu-Gi-Oh! Magician's Force Checklist · All 108 Cards",
-    "description": "Free Yu-Gi-Oh! Magician's Force checklist with no ads, no sign-up and no tracking. Track all 108 cards, with images, copy counts, binder pages and prices.",
+    "description": "Free Yu-Gi-Oh! Magician's Force checklist with no ads, no sign-up and no tracking. Track all 108 cards, or every rarity for a master set, with images, copy counts, binder pages and prices.",
     "ogTitle": "Yu-Gi-Oh! Magician's Force Checklist",
-    "ogDescription": "Track all 108 cards in Yu-Gi-Oh! Magician's Force. Free, with no ads, no sign-up and no tracking.",
+    "ogDescription": "Track all 108 cards in Yu-Gi-Oh! Magician's Force, plus 1 other rarity. Free, with no ads, no sign-up and no tracking.",
     "twitterDescription": "Track all 108 cards in Yu-Gi-Oh! Magician's Force. Free, with no ads, no sign-up and no tracking."
   },
   "about": {
     "title": "About the Magician's Force set",
     "paragraphs": [
-      "Magician&#39;s Force is a Yu-Gi-Oh! TCG booster set released on 10 October 2003, in the Duel Monsters era. It has 108 cards.",
+      "Magician&#39;s Force is a Yu-Gi-Oh! TCG booster set released on 10 October 2003, in the Duel Monsters era. It has 108 cards, and with the 1 other rarity there are 109 to collect in all.",
+      "Choose what you’re collecting: the <b>Standard set</b> (the 108 cards, each in its main rarity) or the <b>Master set</b> (all 109, adding the 1 other rarity).",
       "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
       "Card details and images come from YGOPRODeck, and prices from TCGplayer."
     ]
@@ -161,8 +172,9 @@
     {"id":"102","section":"main","num":"102","printed":"MFC-102","name":"Disarmament","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"20727787","code":"102","tcg":21911,"grp":250,"idx":102},
     {"id":"103","section":"main","num":"103","printed":"MFC-103","name":"Anti-Spell","ctype":"trap","keywords":"Anti Counter Trap","stats":{"t":"Counter Trap"},"rarity":"C","img":"53112492","code":"103","tcg":21744,"grp":250,"idx":103},
     {"id":"104","section":"main","num":"104","printed":"MFC-104","name":"The Spell Absorbing Life","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"99517131","code":"104","tcg":22510,"grp":250,"idx":104},
-    {"id":"105","section":"main","num":"105","printed":"MFC-105","name":"Dark Paladin","ctype":"monster","keywords":"Dark Magician Spellcaster DARK Fusion Monster","stats":{"a":"DARK","l":"Level 8","t":"Spellcaster / Fusion","atk":2900,"def":2400},"rarity":"UR","img":"98502115","code":"105","tcg":21879,"grp":250,"idx":105},
+    {"id":"105","section":"main","num":"105","printed":"MFC-105","name":"Dark Paladin","ctype":"monster","keywords":"Dark Magician Spellcaster DARK Fusion Monster","stats":{"a":"DARK","l":"Level 8","t":"Spellcaster / Fusion","atk":2900,"def":2400},"rarity":"UR","img":"98502115","print":"1st Edition Artwork","code":"105","tcg":21879,"grp":250,"idx":105},
     {"id":"106","section":"main","num":"106","printed":"MFC-106","name":"Double Spell","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UR","img":"24096228","code":"106","tcg":21920,"grp":250,"idx":106},
-    {"id":"107","section":"main","num":"107","printed":"MFC-107","name":"Diffusion Wave-Motion","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"ScR","img":"87880531","code":"107","tcg":21907,"grp":250,"idx":107}
+    {"id":"107","section":"main","num":"107","printed":"MFC-107","name":"Diffusion Wave-Motion","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"ScR","img":"87880531","code":"107","tcg":21907,"grp":250,"idx":107},
+    {"id":"105-ur-reprint-art","section":"r-ur","num":"105","printed":"MFC-105","name":"Dark Paladin","ctype":"monster","keywords":"Dark Magician Spellcaster DARK Fusion Monster","stats":{"a":"DARK","l":"Level 8","t":"Spellcaster / Fusion","atk":2900,"def":2400},"rarity":"UR","img":"98502113","badge":"UR RA","variant":"Reprint Artwork Ultra Rare","print":"Reprint Artwork","tag":"reprint-art","code":"URRA105","tcg":155991,"grp":250,"idx":108}
   ]
 }

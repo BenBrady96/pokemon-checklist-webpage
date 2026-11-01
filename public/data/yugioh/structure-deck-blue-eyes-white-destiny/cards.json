@@ -17,10 +17,15 @@
       "tier": "standard"
     },
     {
-      "id": "rarities",
-      "name": "Other Rarities",
-      "short": "Other Rarities",
-      "range": "6 cards",
+      "id": "r-scr",
+      "name": "Secret Rares",
+      "range": "3 cards",
+      "tier": "master"
+    },
+    {
+      "id": "r-qcsr",
+      "name": "Quarter Century Secret Rares",
+      "range": "3 cards",
       "tier": "master"
     }
   ],
@@ -30,8 +35,12 @@
       "Main set"
     ],
     [
-      "rarities",
-      "Other rarities"
+      "r-scr",
+      "Secret Rares"
+    ],
+    [
+      "r-qcsr",
+      "Quarter Century Secret Rares"
     ]
   ],
   "quickAdd": {
@@ -109,13 +118,13 @@
     {"id":"039","section":"main","num":"039","printed":"SDWD-EN039","name":"Azure-Eyes Silver Dragon","ctype":"monster","keywords":"Dragon LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 9","t":"Dragon / Synchro","atk":2500,"def":3000},"rarity":"C","img":"40908371","code":"39","tcg":616596,"grp":23768,"idx":38},
     {"id":"040","section":"main","num":"040","printed":"SDWD-EN040","name":"Hieratic Seal of the Heavenly Spheres","ctype":"monster","keywords":"Hieratic Dragon LIGHT Link Monster","stats":{"a":"LIGHT","l":"Link 2","t":"Dragon / Link","atk":0},"rarity":"C","img":"24361622","code":"40","tcg":616597,"grp":23768,"idx":39},
     {"id":"041","section":"main","num":"041","printed":"SDWD-EN041","name":"Maiden of White","ctype":"monster","keywords":"Spellcaster LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Spellcaster / Tuner","atk":0,"def":0},"rarity":"UR","img":"17947697","code":"41","tcg":616598,"grp":23768,"idx":40},
-    {"id":"041-scr","section":"rarities","num":"041","printed":"SDWD-EN041","name":"Maiden of White","ctype":"monster","keywords":"Spellcaster LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Spellcaster / Tuner","atk":0,"def":0},"rarity":"ScR","img":"17947697","badge":"ScR","variant":"Secret Rare","code":"SCR41","tcg":616552,"grp":23768,"idx":41},
-    {"id":"041-qcsr","section":"rarities","num":"041","printed":"SDWD-EN041","name":"Maiden of White","ctype":"monster","keywords":"Spellcaster LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Spellcaster / Tuner","atk":0,"def":0},"rarity":"QCSR","img":"17947697","badge":"QCSR","variant":"Quarter Century Secret Rare","code":"QCSR41","tcg":616553,"grp":23768,"idx":42},
     {"id":"042","section":"main","num":"042","printed":"SDWD-EN042","name":"Wishes for Eyes of Blue","ctype":"spell","keywords":"with Eyes of Blue Normal Spell","stats":{"t":"Normal Spell"},"rarity":"UR","img":"80326401","code":"42","tcg":616599,"grp":23768,"idx":43},
-    {"id":"042-scr","section":"rarities","num":"042","printed":"SDWD-EN042","name":"Wishes for Eyes of Blue","ctype":"spell","keywords":"with Eyes of Blue Normal Spell","stats":{"t":"Normal Spell"},"rarity":"ScR","img":"80326401","badge":"ScR","variant":"Secret Rare","code":"SCR42","tcg":616554,"grp":23768,"idx":44},
-    {"id":"042-qcsr","section":"rarities","num":"042","printed":"SDWD-EN042","name":"Wishes for Eyes of Blue","ctype":"spell","keywords":"with Eyes of Blue Normal Spell","stats":{"t":"Normal Spell"},"rarity":"QCSR","img":"80326401","badge":"QCSR","variant":"Quarter Century Secret Rare","code":"QCSR42","tcg":616555,"grp":23768,"idx":45},
     {"id":"043","section":"main","num":"043","printed":"SDWD-EN043","name":"Blue-Eyes Ultimate Spirit Dragon","ctype":"monster","keywords":"Blue-Eyes Dragon LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 12","t":"Dragon / Synchro","atk":3500,"def":4000},"rarity":"UR","img":"89604813","code":"43","tcg":616600,"grp":23768,"idx":46},
-    {"id":"043-scr","section":"rarities","num":"043","printed":"SDWD-EN043","name":"Blue-Eyes Ultimate Spirit Dragon","ctype":"monster","keywords":"Blue-Eyes Dragon LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 12","t":"Dragon / Synchro","atk":3500,"def":4000},"rarity":"ScR","img":"89604813","badge":"ScR","variant":"Secret Rare","code":"SCR43","tcg":616556,"grp":23768,"idx":47},
-    {"id":"043-qcsr","section":"rarities","num":"043","printed":"SDWD-EN043","name":"Blue-Eyes Ultimate Spirit Dragon","ctype":"monster","keywords":"Blue-Eyes Dragon LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 12","t":"Dragon / Synchro","atk":3500,"def":4000},"rarity":"QCSR","img":"89604813","badge":"QCSR","variant":"Quarter Century Secret Rare","code":"QCSR43","tcg":616557,"grp":23768,"idx":48}
+    {"id":"041-scr","section":"r-scr","num":"041","printed":"SDWD-EN041","name":"Maiden of White","ctype":"monster","keywords":"Spellcaster LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Spellcaster / Tuner","atk":0,"def":0},"rarity":"ScR","img":"17947697","badge":"ScR","variant":"Secret Rare","code":"SCR41","tcg":616552,"grp":23768,"idx":41},
+    {"id":"042-scr","section":"r-scr","num":"042","printed":"SDWD-EN042","name":"Wishes for Eyes of Blue","ctype":"spell","keywords":"with Eyes of Blue Normal Spell","stats":{"t":"Normal Spell"},"rarity":"ScR","img":"80326401","badge":"ScR","variant":"Secret Rare","code":"SCR42","tcg":616554,"grp":23768,"idx":44},
+    {"id":"043-scr","section":"r-scr","num":"043","printed":"SDWD-EN043","name":"Blue-Eyes Ultimate Spirit Dragon","ctype":"monster","keywords":"Blue-Eyes Dragon LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 12","t":"Dragon / Synchro","atk":3500,"def":4000},"rarity":"ScR","img":"89604813","badge":"ScR","variant":"Secret Rare","code":"SCR43","tcg":616556,"grp":23768,"idx":47},
+    {"id":"041-qcsr","section":"r-qcsr","num":"041","printed":"SDWD-EN041","name":"Maiden of White","ctype":"monster","keywords":"Spellcaster LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Spellcaster / Tuner","atk":0,"def":0},"rarity":"QCSR","img":"17947697","badge":"QCSR","variant":"Quarter Century Secret Rare","code":"QCSR41","tcg":616553,"grp":23768,"idx":42},
+    {"id":"042-qcsr","section":"r-qcsr","num":"042","printed":"SDWD-EN042","name":"Wishes for Eyes of Blue","ctype":"spell","keywords":"with Eyes of Blue Normal Spell","stats":{"t":"Normal Spell"},"rarity":"QCSR","img":"80326401","badge":"QCSR","variant":"Quarter Century Secret Rare","code":"QCSR42","tcg":616555,"grp":23768,"idx":45},
+    {"id":"043-qcsr","section":"r-qcsr","num":"043","printed":"SDWD-EN043","name":"Blue-Eyes Ultimate Spirit Dragon","ctype":"monster","keywords":"Blue-Eyes Dragon LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 12","t":"Dragon / Synchro","atk":3500,"def":4000},"rarity":"QCSR","img":"89604813","badge":"QCSR","variant":"Quarter Century Secret Rare","code":"QCSR43","tcg":616557,"grp":23768,"idx":48}
   ]
 }

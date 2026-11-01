@@ -17,10 +17,15 @@
       "tier": "standard"
     },
     {
-      "id": "rarities",
-      "name": "Other Rarities",
-      "short": "Other Rarities",
-      "range": "11 cards",
+      "id": "r-utr",
+      "name": "Ultimate Rares",
+      "range": "10 cards",
+      "tier": "master"
+    },
+    {
+      "id": "r-gr",
+      "name": "Ghost Rares",
+      "range": "1 card",
       "tier": "master"
     }
   ],
@@ -30,8 +35,12 @@
       "Main set"
     ],
     [
-      "rarities",
-      "Other rarities"
+      "r-utr",
+      "Ultimate Rares"
+    ],
+    [
+      "r-gr",
+      "Ghost Rares"
     ]
   ],
   "quickAdd": {
@@ -90,7 +99,6 @@
     {"id":"019","section":"main","num":"019","printed":"ORCS-EN019","name":"Inzektor Centipede","ctype":"monster","keywords":"Inzektor Insect DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Insect / Effect","atk":1600,"def":1200},"rarity":"C","img":"21790410","code":"19","tcg":57709,"grp":257,"idx":19},
     {"id":"020","section":"main","num":"020","printed":"ORCS-EN020","name":"Inzektor Dragonfly","ctype":"monster","keywords":"Inzektor Insect DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Insect / Effect","atk":1000,"def":1800},"rarity":"R","img":"68184115","code":"20","tcg":57710,"grp":257,"idx":20},
     {"id":"021","section":"main","num":"021","printed":"ORCS-EN021","name":"Inzektor Giga-Mantis","ctype":"monster","keywords":"Inzektor Insect DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Insect / Effect","atk":2400,"def":0},"rarity":"UR","img":"94573223","code":"21","tcg":57711,"grp":257,"idx":21},
-    {"id":"021-utr","section":"rarities","num":"021","printed":"ORCS-EN021","name":"Inzektor Giga-Mantis","ctype":"monster","keywords":"Inzektor Insect DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Insect / Effect","atk":2400,"def":0},"rarity":"UtR","img":"94573223","badge":"UtR","variant":"Ultimate Rare","code":"UTR21","tcg":58374,"grp":257,"idx":22},
     {"id":"022","section":"main","num":"022","printed":"ORCS-EN022","name":"Inzektor Giga-Weevil","ctype":"monster","keywords":"Inzektor Insect DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Insect / Effect","atk":0,"def":2600},"rarity":"C","img":"21977828","code":"22","tcg":57712,"grp":257,"idx":23},
     {"id":"023","section":"main","num":"023","printed":"ORCS-EN023","name":"Wind-Up Rat","ctype":"monster","keywords":"Wind-Up Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Beast / Effect","atk":600,"def":600},"rarity":"SR","img":"57962537","code":"23","tcg":57713,"grp":257,"idx":24},
     {"id":"024","section":"main","num":"024","printed":"ORCS-EN024","name":"Wind-Up Honeybee","ctype":"monster","keywords":"Wind-Up Insect EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 1","t":"Insect / Effect","atk":100,"def":300},"rarity":"C","img":"93451636","code":"24","tcg":57714,"grp":257,"idx":25},
@@ -99,7 +107,6 @@
     {"id":"027","section":"main","num":"027","printed":"ORCS-EN027","name":"Evolsaur Elias","ctype":"monster","keywords":"Evolsaur Dinosaur FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 6","t":"Dinosaur / Effect","atk":100,"def":2400},"rarity":"C","img":"23234094","code":"27","tcg":57717,"grp":257,"idx":28},
     {"id":"028","section":"main","num":"028","printed":"ORCS-EN028","name":"Evolsaur Terias","ctype":"monster","keywords":"Evolsaur Dinosaur FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 6","t":"Dinosaur / Effect","atk":2400,"def":600},"rarity":"C","img":"69633792","code":"28","tcg":57718,"grp":257,"idx":29},
     {"id":"029","section":"main","num":"029","printed":"ORCS-EN029","name":"Ninja Grandmaster Hanzo","ctype":"monster","keywords":"Ninja Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Warrior / Effect","atk":1800,"def":1000},"rarity":"UR","img":"95027497","code":"29","tcg":57719,"grp":257,"idx":30},
-    {"id":"029-utr","section":"rarities","num":"029","printed":"ORCS-EN029","name":"Ninja Grandmaster Hanzo","ctype":"monster","keywords":"Ninja Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Warrior / Effect","atk":1800,"def":1000},"rarity":"UtR","img":"95027497","badge":"UtR","variant":"Ultimate Rare","code":"UTR29","tcg":58375,"grp":257,"idx":31},
     {"id":"030","section":"main","num":"030","printed":"ORCS-EN030","name":"Masked Ninja Ebisu","ctype":"monster","keywords":"Ninja Warrior WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Warrior / Effect","atk":1200,"def":1800},"rarity":"C","img":"22512406","code":"30","tcg":57720,"grp":257,"idx":32},
     {"id":"031","section":"main","num":"031","printed":"ORCS-EN031","name":"Upstart Golden Ninja","ctype":"monster","keywords":"Ninja Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Effect","atk":500,"def":1800},"rarity":"C","img":"58911105","code":"31","tcg":57721,"grp":257,"idx":33},
     {"id":"032","section":"main","num":"032","printed":"ORCS-EN032","name":"Chow Len the Prophet","ctype":"monster","keywords":"Spellcaster FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Spellcaster / Effect","atk":1800,"def":200},"rarity":"C","img":"95905259","code":"32","tcg":57722,"grp":257,"idx":34},
@@ -110,19 +117,12 @@
     {"id":"037","section":"main","num":"037","printed":"ORCS-EN037","name":"Darkstorm Dragon","ctype":"monster","keywords":"Dragon DARK Gemini Monster","stats":{"a":"DARK","l":"Level 8","t":"Dragon / Gemini","atk":2700,"def":2500},"rarity":"SR","img":"57662975","code":"37","tcg":57727,"grp":257,"idx":39},
     {"id":"038","section":"main","num":"038","printed":"ORCS-EN038","name":"Numen erat Testudo","ctype":"monster","keywords":"Aqua WATER Effect Monster","stats":{"a":"WATER","l":"Level 5","t":"Aqua / Effect","atk":1800,"def":0},"rarity":"SP","img":"83061014","code":"38","tcg":57728,"grp":257,"idx":40},
     {"id":"039","section":"main","num":"039","printed":"ORCS-EN039","name":"Twin Photon Lizard","ctype":"monster","keywords":"Photon Dragon LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Dragon / Fusion","atk":2400,"def":1000},"rarity":"UR","img":"29455728","code":"39","tcg":57729,"grp":257,"idx":41},
-    {"id":"039-utr","section":"rarities","num":"039","printed":"ORCS-EN039","name":"Twin Photon Lizard","ctype":"monster","keywords":"Photon Dragon LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Dragon / Fusion","atk":2400,"def":1000},"rarity":"UtR","img":"29455728","badge":"UtR","variant":"Ultimate Rare","code":"UTR39","tcg":58376,"grp":257,"idx":42},
     {"id":"040","section":"main","num":"040","printed":"ORCS-EN040","name":"Number C39: Utopia Ray","ctype":"monster","keywords":"Utopia Warrior LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 4","t":"Warrior / Xyz","atk":2500,"def":2000},"rarity":"UR","img":"56840427","code":"40","tcg":57730,"grp":257,"idx":43},
-    {"id":"040-utr","section":"rarities","num":"040","printed":"ORCS-EN040","name":"Number C39: Utopia Ray","ctype":"monster","keywords":"Utopia Warrior LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 4","t":"Warrior / Xyz","atk":2500,"def":2000},"rarity":"UtR","img":"56840427","badge":"UtR","variant":"Ultimate Rare","code":"UTR40","tcg":58377,"grp":257,"idx":44},
-    {"id":"040-gr","section":"rarities","num":"040","printed":"ORCS-EN040","name":"Number C39: Utopia Ray","ctype":"monster","keywords":"Utopia Warrior LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 4","t":"Warrior / Xyz","atk":2500,"def":2000},"rarity":"GR","img":"56840427","badge":"GR","variant":"Ghost Rare","code":"GR40","tcg":57790,"grp":257,"idx":45},
     {"id":"041","section":"main","num":"041","printed":"ORCS-EN041","name":"Blade Armor Ninja","ctype":"monster","keywords":"Ninja Warrior WIND Xyz Monster","stats":{"a":"WIND","l":"Rank 4","t":"Warrior / Xyz","atk":2200,"def":1000},"rarity":"SR","img":"82944432","code":"41","tcg":57731,"grp":257,"idx":46},
     {"id":"042","section":"main","num":"042","printed":"ORCS-EN042","name":"Number 12: Crimson Shadow Armor Ninja","ctype":"monster","keywords":"Ninja Warrior EARTH Xyz Monster","stats":{"a":"EARTH","l":"Rank 5","t":"Warrior / Xyz","atk":2400,"def":1700},"rarity":"UR","img":"19333131","code":"42","tcg":57732,"grp":257,"idx":47},
-    {"id":"042-utr","section":"rarities","num":"042","printed":"ORCS-EN042","name":"Number 12: Crimson Shadow Armor Ninja","ctype":"monster","keywords":"Ninja Warrior EARTH Xyz Monster","stats":{"a":"EARTH","l":"Rank 5","t":"Warrior / Xyz","atk":2400,"def":1700},"rarity":"UtR","img":"19333131","badge":"UtR","variant":"Ultimate Rare","code":"UTR42","tcg":58378,"grp":257,"idx":48},
     {"id":"043","section":"main","num":"043","printed":"ORCS-EN043","name":"Number 96: Dark Mist","ctype":"monster","keywords":"Fiend DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 2","t":"Fiend / Xyz","atk":100,"def":1000},"rarity":"UR","img":"55727845","code":"43","tcg":57733,"grp":257,"idx":49},
-    {"id":"043-utr","section":"rarities","num":"043","printed":"ORCS-EN043","name":"Number 96: Dark Mist","ctype":"monster","keywords":"Fiend DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 2","t":"Fiend / Xyz","atk":100,"def":1000},"rarity":"UtR","img":"55727845","badge":"UtR","variant":"Ultimate Rare","code":"UTR43","tcg":58379,"grp":257,"idx":50},
     {"id":"044","section":"main","num":"044","printed":"ORCS-EN044","name":"Wind-Up Carrier Zenmaity","ctype":"monster","keywords":"Wind-Up Machine WATER Xyz Monster","stats":{"a":"WATER","l":"Rank 3","t":"Machine / Xyz","atk":1500,"def":1500},"rarity":"UR","img":"81122844","code":"44","tcg":57734,"grp":257,"idx":51},
-    {"id":"044-utr","section":"rarities","num":"044","printed":"ORCS-EN044","name":"Wind-Up Carrier Zenmaity","ctype":"monster","keywords":"Wind-Up Machine WATER Xyz Monster","stats":{"a":"WATER","l":"Rank 3","t":"Machine / Xyz","atk":1500,"def":1500},"rarity":"UtR","img":"81122844","badge":"UtR","variant":"Ultimate Rare","code":"UTR44","tcg":58380,"grp":257,"idx":52},
     {"id":"045","section":"main","num":"045","printed":"ORCS-EN045","name":"Evolzar Solda","ctype":"monster","keywords":"Evolzar Dragon FIRE Xyz Monster","stats":{"a":"FIRE","l":"Rank 6","t":"Dragon / Xyz","atk":2600,"def":1000},"rarity":"UR","img":"18511599","code":"45","tcg":57735,"grp":257,"idx":53},
-    {"id":"045-utr","section":"rarities","num":"045","printed":"ORCS-EN045","name":"Evolzar Solda","ctype":"monster","keywords":"Evolzar Dragon FIRE Xyz Monster","stats":{"a":"FIRE","l":"Rank 6","t":"Dragon / Xyz","atk":2600,"def":1000},"rarity":"UtR","img":"18511599","badge":"UtR","variant":"Ultimate Rare","code":"UTR45","tcg":58381,"grp":257,"idx":54},
     {"id":"046","section":"main","num":"046","printed":"ORCS-EN046","name":"Inzektor Exa-Beetle","ctype":"monster","keywords":"Inzektor Insect DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 6","t":"Insect / Xyz","atk":1000,"def":1000},"rarity":"ScR","img":"44505297","code":"46","tcg":57736,"grp":257,"idx":55},
     {"id":"047","section":"main","num":"047","printed":"ORCS-EN047","name":"Full-Force Strike","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"81000306","code":"47","tcg":57737,"grp":257,"idx":56},
     {"id":"048","section":"main","num":"048","printed":"ORCS-EN048","name":"Gagagabolt","ctype":"spell","keywords":"Gagaga Normal Spell","stats":{"t":"Normal Spell"},"rarity":"R","img":"17494901","code":"48","tcg":57738,"grp":257,"idx":57},
@@ -132,7 +132,6 @@
     {"id":"052","section":"main","num":"052","printed":"ORCS-EN052","name":"Star Light, Star Bright","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"43661068","code":"52","tcg":57742,"grp":257,"idx":61},
     {"id":"053","section":"main","num":"053","printed":"ORCS-EN053","name":"Armor Blast","ctype":"spell","keywords":"Inzektor Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"79155167","code":"53","tcg":57743,"grp":257,"idx":62},
     {"id":"054","section":"main","num":"054","printed":"ORCS-EN054","name":"Inzektor Sword - Zektkaliber","ctype":"spell","keywords":"Inzektor Equip Spell","stats":{"t":"Equip Spell"},"rarity":"UR","img":"16550875","code":"54","tcg":57744,"grp":257,"idx":63},
-    {"id":"054-utr","section":"rarities","num":"054","printed":"ORCS-EN054","name":"Inzektor Sword - Zektkaliber","ctype":"spell","keywords":"Inzektor Equip Spell","stats":{"t":"Equip Spell"},"rarity":"UtR","img":"16550875","badge":"UtR","variant":"Ultimate Rare","code":"UTR54","tcg":58382,"grp":257,"idx":64},
     {"id":"055","section":"main","num":"055","printed":"ORCS-EN055","name":"Weights & Zenmaisures","ctype":"spell","keywords":"Wind-Up Normal Spell","stats":{"t":"Normal Spell"},"rarity":"R","img":"42548470","code":"55","tcg":57745,"grp":257,"idx":65},
     {"id":"056","section":"main","num":"056","printed":"ORCS-EN056","name":"Primordial Soup","ctype":"spell","keywords":"Evolsaur Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"C","img":"78933589","code":"56","tcg":57746,"grp":257,"idx":66},
     {"id":"057","section":"main","num":"057","printed":"ORCS-EN057","name":"Evo-Force","ctype":"spell","keywords":"Evolsaur Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"5338223","code":"57","tcg":57747,"grp":257,"idx":67},
@@ -145,7 +144,6 @@
     {"id":"064","section":"main","num":"064","printed":"ORCS-EN064","name":"Counterforce","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"30488793","code":"64","tcg":57754,"grp":257,"idx":74},
     {"id":"065","section":"main","num":"065","printed":"ORCS-EN065","name":"Gagagaguard","ctype":"trap","keywords":"Gagaga Normal Trap","stats":{"t":"Normal Trap"},"rarity":"R","img":"76972801","code":"65","tcg":57755,"grp":257,"idx":75},
     {"id":"066","section":"main","num":"066","printed":"ORCS-EN066","name":"Xyz Reflect","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"UR","img":"2371506","code":"66","tcg":57756,"grp":257,"idx":76},
-    {"id":"066-utr","section":"rarities","num":"066","printed":"ORCS-EN066","name":"Xyz Reflect","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"UtR","img":"2371506","badge":"UtR","variant":"Ultimate Rare","code":"UTR66","tcg":58383,"grp":257,"idx":77},
     {"id":"067","section":"main","num":"067","printed":"ORCS-EN067","name":"Splash Capture","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"39765115","code":"67","tcg":57757,"grp":257,"idx":78},
     {"id":"068","section":"main","num":"068","printed":"ORCS-EN068","name":"Armor Ninjitsu Art of Freezing","ctype":"trap","keywords":"Ninja Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"65150219","code":"68","tcg":57758,"grp":257,"idx":79},
     {"id":"069","section":"main","num":"069","printed":"ORCS-EN069","name":"Armor Ninjitsu Art of Rust Mist","ctype":"trap","keywords":"Ninja Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"SR","img":"2148918","code":"69","tcg":57759,"grp":257,"idx":80},
@@ -178,6 +176,17 @@
     {"id":"096","section":"main","num":"096","printed":"ORCS-EN096","name":"Dark Flattop","ctype":"monster","keywords":"Machine DARK Synchro Monster","stats":{"a":"DARK","l":"Level 8","t":"Machine / Synchro","atk":0,"def":3000},"rarity":"R","img":"67904682","code":"96","tcg":57786,"grp":257,"idx":107},
     {"id":"097","section":"main","num":"097","printed":"ORCS-EN097","name":"Driven Daredevil","ctype":"monster","keywords":"Warrior EARTH Synchro Monster","stats":{"a":"EARTH","l":"Level 7","t":"Warrior / Synchro","atk":2400,"def":2100},"rarity":"ScR","img":"93353691","code":"97","tcg":57787,"grp":257,"idx":108},
     {"id":"098","section":"main","num":"098","printed":"ORCS-EN098","name":"Wind-Up Arsenal Zenmaioh","ctype":"monster","keywords":"Wind-Up Machine WIND Xyz Monster","stats":{"a":"WIND","l":"Rank 5","t":"Machine / Xyz","atk":2600,"def":1900},"rarity":"ScR","img":"77334267","code":"98","tcg":57788,"grp":257,"idx":109},
-    {"id":"099","section":"main","num":"099","printed":"ORCS-EN099","name":"M-X-Saber Invoker","ctype":"monster","keywords":"X-Saber Warrior EARTH Xyz Monster","stats":{"a":"EARTH","l":"Rank 3","t":"Warrior / Xyz","atk":1600,"def":500},"rarity":"ScR","img":"4423206","code":"99","tcg":57789,"grp":257,"idx":110}
+    {"id":"099","section":"main","num":"099","printed":"ORCS-EN099","name":"M-X-Saber Invoker","ctype":"monster","keywords":"X-Saber Warrior EARTH Xyz Monster","stats":{"a":"EARTH","l":"Rank 3","t":"Warrior / Xyz","atk":1600,"def":500},"rarity":"ScR","img":"4423206","code":"99","tcg":57789,"grp":257,"idx":110},
+    {"id":"021-utr","section":"r-utr","num":"021","printed":"ORCS-EN021","name":"Inzektor Giga-Mantis","ctype":"monster","keywords":"Inzektor Insect DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Insect / Effect","atk":2400,"def":0},"rarity":"UtR","img":"94573223","badge":"UtR","variant":"Ultimate Rare","code":"UTR21","tcg":58374,"grp":257,"idx":22},
+    {"id":"029-utr","section":"r-utr","num":"029","printed":"ORCS-EN029","name":"Ninja Grandmaster Hanzo","ctype":"monster","keywords":"Ninja Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Warrior / Effect","atk":1800,"def":1000},"rarity":"UtR","img":"95027497","badge":"UtR","variant":"Ultimate Rare","code":"UTR29","tcg":58375,"grp":257,"idx":31},
+    {"id":"039-utr","section":"r-utr","num":"039","printed":"ORCS-EN039","name":"Twin Photon Lizard","ctype":"monster","keywords":"Photon Dragon LIGHT Fusion Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Dragon / Fusion","atk":2400,"def":1000},"rarity":"UtR","img":"29455728","badge":"UtR","variant":"Ultimate Rare","code":"UTR39","tcg":58376,"grp":257,"idx":42},
+    {"id":"040-utr","section":"r-utr","num":"040","printed":"ORCS-EN040","name":"Number C39: Utopia Ray","ctype":"monster","keywords":"Utopia Warrior LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 4","t":"Warrior / Xyz","atk":2500,"def":2000},"rarity":"UtR","img":"56840427","badge":"UtR","variant":"Ultimate Rare","code":"UTR40","tcg":58377,"grp":257,"idx":44},
+    {"id":"042-utr","section":"r-utr","num":"042","printed":"ORCS-EN042","name":"Number 12: Crimson Shadow Armor Ninja","ctype":"monster","keywords":"Ninja Warrior EARTH Xyz Monster","stats":{"a":"EARTH","l":"Rank 5","t":"Warrior / Xyz","atk":2400,"def":1700},"rarity":"UtR","img":"19333131","badge":"UtR","variant":"Ultimate Rare","code":"UTR42","tcg":58378,"grp":257,"idx":48},
+    {"id":"043-utr","section":"r-utr","num":"043","printed":"ORCS-EN043","name":"Number 96: Dark Mist","ctype":"monster","keywords":"Fiend DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 2","t":"Fiend / Xyz","atk":100,"def":1000},"rarity":"UtR","img":"55727845","badge":"UtR","variant":"Ultimate Rare","code":"UTR43","tcg":58379,"grp":257,"idx":50},
+    {"id":"044-utr","section":"r-utr","num":"044","printed":"ORCS-EN044","name":"Wind-Up Carrier Zenmaity","ctype":"monster","keywords":"Wind-Up Machine WATER Xyz Monster","stats":{"a":"WATER","l":"Rank 3","t":"Machine / Xyz","atk":1500,"def":1500},"rarity":"UtR","img":"81122844","badge":"UtR","variant":"Ultimate Rare","code":"UTR44","tcg":58380,"grp":257,"idx":52},
+    {"id":"045-utr","section":"r-utr","num":"045","printed":"ORCS-EN045","name":"Evolzar Solda","ctype":"monster","keywords":"Evolzar Dragon FIRE Xyz Monster","stats":{"a":"FIRE","l":"Rank 6","t":"Dragon / Xyz","atk":2600,"def":1000},"rarity":"UtR","img":"18511599","badge":"UtR","variant":"Ultimate Rare","code":"UTR45","tcg":58381,"grp":257,"idx":54},
+    {"id":"054-utr","section":"r-utr","num":"054","printed":"ORCS-EN054","name":"Inzektor Sword - Zektkaliber","ctype":"spell","keywords":"Inzektor Equip Spell","stats":{"t":"Equip Spell"},"rarity":"UtR","img":"16550875","badge":"UtR","variant":"Ultimate Rare","code":"UTR54","tcg":58382,"grp":257,"idx":64},
+    {"id":"066-utr","section":"r-utr","num":"066","printed":"ORCS-EN066","name":"Xyz Reflect","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"UtR","img":"2371506","badge":"UtR","variant":"Ultimate Rare","code":"UTR66","tcg":58383,"grp":257,"idx":77},
+    {"id":"040-gr","section":"r-gr","num":"040","printed":"ORCS-EN040","name":"Number C39: Utopia Ray","ctype":"monster","keywords":"Utopia Warrior LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 4","t":"Warrior / Xyz","atk":2500,"def":2000},"rarity":"GR","img":"56840427","badge":"GR","variant":"Ghost Rare","code":"GR40","tcg":57790,"grp":257,"idx":45}
   ]
 }

@@ -17,9 +17,8 @@
       "tier": "standard"
     },
     {
-      "id": "rarities",
-      "name": "Other Rarities",
-      "short": "Other Rarities",
+      "id": "r-ur",
+      "name": "Ultra Rares (Alternate Art)",
       "range": "4 cards",
       "tier": "master"
     }
@@ -30,8 +29,8 @@
       "Main set"
     ],
     [
-      "rarities",
-      "Other rarities"
+      "r-ur",
+      "Ultra Rares (Alternate Art)"
     ]
   ],
   "quickAdd": {
@@ -105,13 +104,13 @@
     {"id":"035","section":"main","num":"035","printed":"SDCH-EN035","name":"Dimensional Barrier","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"83326048","code":"35","tcg":225000,"grp":2695,"idx":34},
     {"id":"036","section":"main","num":"036","printed":"SDCH-EN036","name":"Solemn Warning","ctype":"trap","keywords":"Solemn Counter Trap","stats":{"t":"Counter Trap"},"rarity":"C","img":"84749824","code":"36","tcg":225001,"grp":2695,"idx":35},
     {"id":"037","section":"main","num":"037","printed":"SDCH-EN037","name":"Familiar-Possessed - Aussa","ctype":"monster","keywords":"Charmer Spellcaster EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Spellcaster / Effect","atk":1850,"def":1500},"rarity":"C","img":"31887905","code":"37","tcg":225002,"grp":2695,"idx":36},
-    {"id":"037-ur","section":"rarities","num":"037","printed":"SDCH-EN037","name":"Familiar-Possessed - Aussa","ctype":"monster","keywords":"Charmer Spellcaster EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Spellcaster / Effect","atk":1850,"def":1500},"rarity":"UR","img":"31887906","badge":"UR","variant":"Ultra Rare","code":"UR37","tcg":225003,"grp":2695,"idx":37},
     {"id":"038","section":"main","num":"038","printed":"SDCH-EN038","name":"Familiar-Possessed - Eria","ctype":"monster","keywords":"Charmer Spellcaster WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Spellcaster / Effect","atk":1850,"def":1500},"rarity":"C","img":"68881649","code":"38","tcg":225005,"grp":2695,"idx":38},
-    {"id":"038-ur","section":"rarities","num":"038","printed":"SDCH-EN038","name":"Familiar-Possessed - Eria","ctype":"monster","keywords":"Charmer Spellcaster WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Spellcaster / Effect","atk":1850,"def":1500},"rarity":"UR","img":"68881650","badge":"UR","variant":"Ultra Rare","code":"UR38","tcg":225004,"grp":2695,"idx":39},
     {"id":"039","section":"main","num":"039","printed":"SDCH-EN039","name":"Familiar-Possessed - Hiita","ctype":"monster","keywords":"Charmer Spellcaster FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Spellcaster / Effect","atk":1850,"def":1500},"rarity":"C","img":"4376658","code":"39","tcg":225006,"grp":2695,"idx":40},
-    {"id":"039-ur","section":"rarities","num":"039","printed":"SDCH-EN039","name":"Familiar-Possessed - Hiita","ctype":"monster","keywords":"Charmer Spellcaster FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Spellcaster / Effect","atk":1850,"def":1500},"rarity":"UR","img":"4376659","badge":"UR","variant":"Ultra Rare","code":"UR39","tcg":225007,"grp":2695,"idx":41},
     {"id":"040","section":"main","num":"040","printed":"SDCH-EN040","name":"Familiar-Possessed - Wynn","ctype":"monster","keywords":"Charmer Spellcaster WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Spellcaster / Effect","atk":1850,"def":1500},"rarity":"C","img":"31764353","code":"40","tcg":225009,"grp":2695,"idx":42},
-    {"id":"040-ur","section":"rarities","num":"040","printed":"SDCH-EN040","name":"Familiar-Possessed - Wynn","ctype":"monster","keywords":"Charmer Spellcaster WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Spellcaster / Effect","atk":1850,"def":1500},"rarity":"UR","img":"31764354","badge":"UR","variant":"Ultra Rare","code":"UR40","tcg":225008,"grp":2695,"idx":43},
-    {"id":"041","section":"main","num":"041","printed":"SDCH-EN041","name":"Spirit Charmers","ctype":"spell","keywords":"Spiritual Art Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"UR","img":"91530236","code":"41","tcg":225010,"grp":2695,"idx":44}
+    {"id":"041","section":"main","num":"041","printed":"SDCH-EN041","name":"Spirit Charmers","ctype":"spell","keywords":"Spiritual Art Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"UR","img":"91530236","code":"41","tcg":225010,"grp":2695,"idx":44},
+    {"id":"037-ur","section":"r-ur","num":"037","printed":"SDCH-EN037","name":"Familiar-Possessed - Aussa","ctype":"monster","keywords":"Charmer Spellcaster EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Spellcaster / Effect","atk":1850,"def":1500},"rarity":"UR","img":"31887906","badge":"UR AA","variant":"Alternate Art Ultra Rare","print":"Alternate Art","code":"UR37","tcg":225003,"grp":2695,"idx":37},
+    {"id":"038-ur","section":"r-ur","num":"038","printed":"SDCH-EN038","name":"Familiar-Possessed - Eria","ctype":"monster","keywords":"Charmer Spellcaster WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Spellcaster / Effect","atk":1850,"def":1500},"rarity":"UR","img":"68881650","badge":"UR AA","variant":"Alternate Art Ultra Rare","print":"Alternate Art","code":"UR38","tcg":225004,"grp":2695,"idx":39},
+    {"id":"039-ur","section":"r-ur","num":"039","printed":"SDCH-EN039","name":"Familiar-Possessed - Hiita","ctype":"monster","keywords":"Charmer Spellcaster FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Spellcaster / Effect","atk":1850,"def":1500},"rarity":"UR","img":"4376659","badge":"UR AA","variant":"Alternate Art Ultra Rare","print":"Alternate Art","code":"UR39","tcg":225007,"grp":2695,"idx":41},
+    {"id":"040-ur","section":"r-ur","num":"040","printed":"SDCH-EN040","name":"Familiar-Possessed - Wynn","ctype":"monster","keywords":"Charmer Spellcaster WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Spellcaster / Effect","atk":1850,"def":1500},"rarity":"UR","img":"31764354","badge":"UR AA","variant":"Alternate Art Ultra Rare","print":"Alternate Art","code":"UR40","tcg":225008,"grp":2695,"idx":43}
   ]
 }

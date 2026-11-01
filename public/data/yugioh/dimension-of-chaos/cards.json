@@ -17,10 +17,21 @@
       "tier": "standard"
     },
     {
-      "id": "rarities",
-      "name": "Other Rarities",
-      "short": "Other Rarities",
-      "range": "6 cards",
+      "id": "r-utr",
+      "name": "Ultimate Rares",
+      "range": "3 cards",
+      "tier": "master"
+    },
+    {
+      "id": "r-scr",
+      "name": "Secret Rares",
+      "range": "2 cards",
+      "tier": "master"
+    },
+    {
+      "id": "r-gr",
+      "name": "Ghost Rares",
+      "range": "1 card",
       "tier": "master"
     }
   ],
@@ -30,8 +41,16 @@
       "Main set"
     ],
     [
-      "rarities",
-      "Other rarities"
+      "r-utr",
+      "Ultimate Rares"
+    ],
+    [
+      "r-scr",
+      "Secret Rares"
+    ],
+    [
+      "r-gr",
+      "Ghost Rares"
     ]
   ],
   "quickAdd": {
@@ -111,22 +130,16 @@
     {"id":"040","section":"main","num":"040","printed":"DOCS-EN040","name":"Pot of The Forbidden","ctype":"monster","keywords":"Greed Rock EARTH Flip Effect Monster","stats":{"a":"EARTH","l":"Level 9","t":"Rock / Flip / Effect","atk":2000,"def":3000},"rarity":"SP","img":"91501248","code":"40","tcg":107671,"grp":1660,"idx":40},
     {"id":"041","section":"main","num":"041","printed":"DOCS-EN041","name":"Dr. Frankenderp","ctype":"monster","keywords":"Psychic DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Psychic / Effect","atk":300,"def":300},"rarity":"SP","img":"27995943","code":"41","tcg":107672,"grp":1660,"idx":41},
     {"id":"042","section":"main","num":"042","printed":"DOCS-EN042","name":"Black Luster Soldier - Super Soldier","ctype":"monster","keywords":"Black Luster Soldier Warrior EARTH Ritual Effect Monster","stats":{"a":"EARTH","l":"Level 8","t":"Warrior / Ritual / Effect","atk":3000,"def":2500},"rarity":"UR","img":"54484652","code":"42","tcg":107673,"grp":1660,"idx":42},
-    {"id":"042-utr","section":"rarities","num":"042","printed":"DOCS-EN042","name":"Black Luster Soldier - Super Soldier","ctype":"monster","keywords":"Black Luster Soldier Warrior EARTH Ritual Effect Monster","stats":{"a":"EARTH","l":"Level 8","t":"Warrior / Ritual / Effect","atk":3000,"def":2500},"rarity":"UtR","img":"54484652","badge":"UtR","variant":"Ultimate Rare","code":"UTR42","tcg":107674,"grp":1660,"idx":43},
     {"id":"043","section":"main","num":"043","printed":"DOCS-EN043","name":"Frightfur Sabre-Tooth","ctype":"monster","keywords":"Edge Imp Fiend DARK Fusion Monster","stats":{"a":"DARK","l":"Level 8","t":"Fiend / Fusion","atk":2400,"def":2000},"rarity":"UR","img":"80889750","code":"43","tcg":107675,"grp":1660,"idx":44},
     {"id":"044","section":"main","num":"044","printed":"DOCS-EN044","name":"D/D/D Wave Oblivion King Caesar Ragnarok","ctype":"monster","keywords":"D/D Fiend DARK Fusion Monster","stats":{"a":"DARK","l":"Level 10","t":"Fiend / Fusion","atk":3200,"def":3000},"rarity":"SR","img":"27873305","code":"44","tcg":107676,"grp":1660,"idx":45},
     {"id":"045","section":"main","num":"045","printed":"DOCS-EN045","name":"Odd-Eyes Vortex Dragon","ctype":"monster","keywords":"Odd-Eyes Dragon WIND Fusion Monster","stats":{"a":"WIND","l":"Level 7","t":"Dragon / Fusion","atk":2500,"def":3000},"rarity":"UtR","img":"53262004","code":"45","tcg":107678,"grp":1660,"idx":46},
-    {"id":"045-scr","section":"rarities","num":"045","printed":"DOCS-EN045","name":"Odd-Eyes Vortex Dragon","ctype":"monster","keywords":"Odd-Eyes Dragon WIND Fusion Monster","stats":{"a":"WIND","l":"Level 7","t":"Dragon / Fusion","atk":2500,"def":3000},"rarity":"ScR","img":"53262004","badge":"ScR","variant":"Secret Rare","code":"SCR45","tcg":107677,"grp":1660,"idx":47},
     {"id":"046","section":"main","num":"046","printed":"DOCS-EN046","name":"Scarlight Red Dragon Archfiend","ctype":"monster","keywords":"Archfiend Dragon DARK Synchro Monster","stats":{"a":"DARK","l":"Level 8","t":"Dragon / Synchro","atk":3000,"def":2500},"rarity":"UtR","img":"80666118","code":"46","tcg":107681,"grp":1660,"idx":48},
-    {"id":"046-scr","section":"rarities","num":"046","printed":"DOCS-EN046","name":"Scarlight Red Dragon Archfiend","ctype":"monster","keywords":"Archfiend Dragon DARK Synchro Monster","stats":{"a":"DARK","l":"Level 8","t":"Dragon / Synchro","atk":3000,"def":2500},"rarity":"ScR","img":"80666118","badge":"ScR","variant":"Secret Rare","code":"SCR46","tcg":107680,"grp":1660,"idx":49},
-    {"id":"046-gr","section":"rarities","num":"046","printed":"DOCS-EN046","name":"Scarlight Red Dragon Archfiend","ctype":"monster","keywords":"Archfiend Dragon DARK Synchro Monster","stats":{"a":"DARK","l":"Level 8","t":"Dragon / Synchro","atk":3000,"def":2500},"rarity":"GR","img":"80666118","badge":"GR","variant":"Ghost Rare","code":"GR46","tcg":107679,"grp":1660,"idx":50},
     {"id":"047","section":"main","num":"047","printed":"DOCS-EN047","name":"Assault Blackwing - Raikiri the Rain Shower","ctype":"monster","keywords":"Blackwing Winged Beast DARK Synchro Monster","stats":{"a":"DARK","l":"Level 7","t":"Winged Beast / Synchro","atk":2600,"def":2000},"rarity":"UR","img":"16051717","code":"47","tcg":107682,"grp":1660,"idx":51},
-    {"id":"047-utr","section":"rarities","num":"047","printed":"DOCS-EN047","name":"Assault Blackwing - Raikiri the Rain Shower","ctype":"monster","keywords":"Blackwing Winged Beast DARK Synchro Monster","stats":{"a":"DARK","l":"Level 7","t":"Winged Beast / Synchro","atk":2600,"def":2000},"rarity":"UtR","img":"16051717","badge":"UtR","variant":"Ultimate Rare","code":"UTR47","tcg":107683,"grp":1660,"idx":52},
     {"id":"048","section":"main","num":"048","printed":"DOCS-EN048","name":"Graydle Dragon","ctype":"monster","keywords":"Graydle Aqua WATER Synchro Monster","stats":{"a":"WATER","l":"Level 8","t":"Aqua / Synchro","atk":3000,"def":2000},"rarity":"SR","img":"52145422","code":"48","tcg":107684,"grp":1660,"idx":53},
     {"id":"049","section":"main","num":"049","printed":"DOCS-EN049","name":"Deskbot Jet","ctype":"monster","keywords":"Deskbot Machine EARTH Synchro Monster","stats":{"a":"EARTH","l":"Level 10","t":"Machine / Synchro","atk":500,"def":500},"rarity":"C","img":"89544521","code":"49","tcg":107685,"grp":1660,"idx":54},
     {"id":"050","section":"main","num":"050","printed":"DOCS-EN050","name":"D/D/D Duo-Dawn King Kali Yuga","ctype":"monster","keywords":"D/D Fiend DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 8","t":"Fiend / Xyz","atk":3500,"def":3000},"rarity":"SR","img":"15939229","code":"50","tcg":107686,"grp":1660,"idx":55},
     {"id":"051","section":"main","num":"051","printed":"DOCS-EN051","name":"Raidraptor - Fiend Eagle","ctype":"monster","keywords":"Raidraptor Winged Beast DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 3","t":"Winged Beast / Xyz","atk":1000,"def":0},"rarity":"R","img":"52323874","code":"51","tcg":107687,"grp":1660,"idx":56},
     {"id":"052","section":"main","num":"052","printed":"DOCS-EN052","name":"Majester Paladin, the Ascending Dracoslayer","ctype":"monster","keywords":"Dracoslayer Dragon WIND Xyz Monster","stats":{"a":"WIND","l":"Rank 4","t":"Dragon / Xyz","atk":1850,"def":2000},"rarity":"UR","img":"88722973","code":"52","tcg":107688,"grp":1660,"idx":57},
-    {"id":"052-utr","section":"rarities","num":"052","printed":"DOCS-EN052","name":"Majester Paladin, the Ascending Dracoslayer","ctype":"monster","keywords":"Dracoslayer Dragon WIND Xyz Monster","stats":{"a":"WIND","l":"Rank 4","t":"Dragon / Xyz","atk":1850,"def":2000},"rarity":"UtR","img":"88722973","badge":"UtR","variant":"Ultimate Rare","code":"UTR52","tcg":107689,"grp":1660,"idx":58},
     {"id":"053","section":"main","num":"053","printed":"DOCS-EN053","name":"Shuffle Reborn","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"14816688","code":"53","tcg":107690,"grp":1660,"idx":59},
     {"id":"054","section":"main","num":"054","printed":"DOCS-EN054","name":"Rank-Up-Magic Raid Force","ctype":"spell","keywords":"Raidraptor Normal Spell","stats":{"t":"Normal Spell"},"rarity":"R","img":"41201386","code":"54","tcg":107691,"grp":1660,"idx":60},
     {"id":"055","section":"main","num":"055","printed":"DOCS-EN055","name":"Raptor's Ultimate Mace","ctype":"spell","keywords":"Raidraptor Equip Spell","stats":{"t":"Equip Spell"},"rarity":"C","img":"87609391","code":"55","tcg":107692,"grp":1660,"idx":61},
@@ -173,6 +186,12 @@
     {"id":"096","section":"main","num":"096","printed":"DOCS-EN096","name":"Contract Laundering","ctype":"trap","keywords":"Dark Contract Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"46259438","code":"96","tcg":107733,"grp":1660,"idx":102},
     {"id":"097","section":"main","num":"097","printed":"DOCS-EN097","name":"D/D/D Human Resources","ctype":"trap","keywords":"D/D Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"72648577","code":"97","tcg":107734,"grp":1660,"idx":103},
     {"id":"098","section":"main","num":"098","printed":"DOCS-EN098","name":"D/D/D Rebel King Leonidas","ctype":"monster","keywords":"D/D Fiend DARK Pendulum Effect Monster","stats":{"a":"DARK","l":"Level 7","t":"Fiend / Pendulum / Effect","atk":2600,"def":1200},"rarity":"SR","img":"92536468","code":"98","tcg":107735,"grp":1660,"idx":104},
-    {"id":"099","section":"main","num":"099","printed":"DOCS-EN099","name":"D/D/D Oblivion King Abyss Ragnarok","ctype":"monster","keywords":"D/D Fiend DARK Pendulum Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Fiend / Pendulum / Effect","atk":2200,"def":3000},"rarity":"R","img":"74069667","code":"99","tcg":107736,"grp":1660,"idx":105}
+    {"id":"099","section":"main","num":"099","printed":"DOCS-EN099","name":"D/D/D Oblivion King Abyss Ragnarok","ctype":"monster","keywords":"D/D Fiend DARK Pendulum Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Fiend / Pendulum / Effect","atk":2200,"def":3000},"rarity":"R","img":"74069667","code":"99","tcg":107736,"grp":1660,"idx":105},
+    {"id":"042-utr","section":"r-utr","num":"042","printed":"DOCS-EN042","name":"Black Luster Soldier - Super Soldier","ctype":"monster","keywords":"Black Luster Soldier Warrior EARTH Ritual Effect Monster","stats":{"a":"EARTH","l":"Level 8","t":"Warrior / Ritual / Effect","atk":3000,"def":2500},"rarity":"UtR","img":"54484652","badge":"UtR","variant":"Ultimate Rare","code":"UTR42","tcg":107674,"grp":1660,"idx":43},
+    {"id":"047-utr","section":"r-utr","num":"047","printed":"DOCS-EN047","name":"Assault Blackwing - Raikiri the Rain Shower","ctype":"monster","keywords":"Blackwing Winged Beast DARK Synchro Monster","stats":{"a":"DARK","l":"Level 7","t":"Winged Beast / Synchro","atk":2600,"def":2000},"rarity":"UtR","img":"16051717","badge":"UtR","variant":"Ultimate Rare","code":"UTR47","tcg":107683,"grp":1660,"idx":52},
+    {"id":"052-utr","section":"r-utr","num":"052","printed":"DOCS-EN052","name":"Majester Paladin, the Ascending Dracoslayer","ctype":"monster","keywords":"Dracoslayer Dragon WIND Xyz Monster","stats":{"a":"WIND","l":"Rank 4","t":"Dragon / Xyz","atk":1850,"def":2000},"rarity":"UtR","img":"88722973","badge":"UtR","variant":"Ultimate Rare","code":"UTR52","tcg":107689,"grp":1660,"idx":58},
+    {"id":"045-scr","section":"r-scr","num":"045","printed":"DOCS-EN045","name":"Odd-Eyes Vortex Dragon","ctype":"monster","keywords":"Odd-Eyes Dragon WIND Fusion Monster","stats":{"a":"WIND","l":"Level 7","t":"Dragon / Fusion","atk":2500,"def":3000},"rarity":"ScR","img":"53262004","badge":"ScR","variant":"Secret Rare","code":"SCR45","tcg":107677,"grp":1660,"idx":47},
+    {"id":"046-scr","section":"r-scr","num":"046","printed":"DOCS-EN046","name":"Scarlight Red Dragon Archfiend","ctype":"monster","keywords":"Archfiend Dragon DARK Synchro Monster","stats":{"a":"DARK","l":"Level 8","t":"Dragon / Synchro","atk":3000,"def":2500},"rarity":"ScR","img":"80666118","badge":"ScR","variant":"Secret Rare","code":"SCR46","tcg":107680,"grp":1660,"idx":49},
+    {"id":"046-gr","section":"r-gr","num":"046","printed":"DOCS-EN046","name":"Scarlight Red Dragon Archfiend","ctype":"monster","keywords":"Archfiend Dragon DARK Synchro Monster","stats":{"a":"DARK","l":"Level 8","t":"Dragon / Synchro","atk":3000,"def":2500},"rarity":"GR","img":"80666118","badge":"GR","variant":"Ghost Rare","code":"GR46","tcg":107679,"grp":1660,"idx":50}
   ]
 }

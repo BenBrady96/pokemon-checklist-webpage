@@ -17,9 +17,8 @@
       "tier": "standard"
     },
     {
-      "id": "rarities",
-      "name": "Other Rarities",
-      "short": "Other Rarities",
+      "id": "r-ur",
+      "name": "Ultra Rares",
       "range": "1 card",
       "tier": "master"
     }
@@ -30,8 +29,8 @@
       "Main set"
     ],
     [
-      "rarities",
-      "Other rarities"
+      "r-ur",
+      "Ultra Rares"
     ]
   ],
   "quickAdd": {
@@ -117,12 +116,12 @@
     {"id":"PRIO-PL1","section":"main","num":"PRIO-ENPL1","printed":"PRIO-ENPL1","name":"Sylvan Snapdrassinagon","ctype":"monster","keywords":"Sylvan Plant DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Plant / Effect","atk":900,"def":400},"note":"Primal Origin Plus","rarity":"SFR","img":"47741109","code":"21","tcg":213636,"grp":1353,"idx":20},
     {"id":"PRIO-SP1","section":"main","num":"PRIO-ENSP1","printed":"PRIO-ENSP1","name":"Artifact Scythe","ctype":"monster","keywords":"Artifact Fairy LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 5","t":"Fairy / Effect","atk":2200,"def":900},"note":"Primal Origin Sneak Peek Participation Card","rarity":"UR","img":"20292186","code":"22","tcg":82546,"grp":1353,"idx":21},
     {"id":"YCSW-007","section":"main","num":"YCSW-EN007","printed":"YCSW-EN007","name":"Ascension Sky Dragon","ctype":"monster","keywords":"Dragon LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 10","t":"Dragon / Synchro","atk":-1,"def":3000},"note":"Yu-Gi-Oh! Championship Series 2014 Prize Card","rarity":"SR","img":"37910722","code":"23","tcg":97963,"grp":1347,"idx":22},
-    {"id":"YCSW-007-ur","section":"rarities","num":"YCSW-EN007","printed":"YCSW-EN007","name":"Ascension Sky Dragon","ctype":"monster","keywords":"Dragon LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 10","t":"Dragon / Synchro","atk":-1,"def":3000},"note":"Yu-Gi-Oh! Championship Series 2014 Prize Card","rarity":"UR","img":"37910722","badge":"UR","variant":"Ultra Rare","code":"UR23","tcg":97962,"grp":1347,"idx":23},
     {"id":"YF06-001","section":"main","num":"YF06-EN001","printed":"YF06-EN001","name":"Hot Red Dragon Archfiend","ctype":"monster","keywords":"Archfiend Dragon DARK Synchro Monster","stats":{"a":"DARK","l":"Level 8","t":"Dragon / Synchro","atk":3000,"def":2000},"note":"Yu-Gi-Oh! 5D's Volume 6 promotional card","rarity":"UR","img":"39765958","code":"24","tcg":93336,"grp":352,"idx":24},
     {"id":"YZ04-001","section":"main","num":"YZ04-EN001","printed":"YZ04-EN001","name":"Number 47: Nightmare Shark","ctype":"monster","keywords":"Sea Serpent WATER Xyz Monster","stats":{"a":"WATER","l":"Rank 3","t":"Sea Serpent / Xyz","atk":2000,"def":2000},"note":"Yu-Gi-Oh! ZEXAL Volume 4 promotional card","rarity":"UR","img":"31320433","code":"25","tcg":77973,"grp":600,"idx":25},
     {"id":"YZ05-001","section":"main","num":"YZ05-EN001","printed":"YZ05-EN001","name":"Number 72: Shogi Rook","ctype":"monster","keywords":"Beast-Warrior EARTH Xyz Monster","stats":{"a":"EARTH","l":"Rank 6","t":"Beast-Warrior / Xyz","atk":2500,"def":1200},"note":"Yu-Gi-Oh! ZEXAL Volume 5 promotional card","rarity":"UR","img":"75253697","code":"26","tcg":92495,"grp":600,"idx":26},
     {"id":"ZDC1-001","section":"main","num":"ZDC1-EN001","printed":"ZDC1-EN001","name":"Snow Plow Hustle Rustle","ctype":"monster","keywords":"Train Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 10","t":"Machine / Effect","atk":2500,"def":3000},"note":"Yu-Gi-Oh! ZEXAL World Duel Carnival promotional cards","rarity":"UR","img":"24731453","code":"27","tcg":114843,"grp":1743,"idx":27},
     {"id":"ZDC1-002","section":"main","num":"ZDC1-EN002","printed":"ZDC1-EN002","name":"Night Express Knight","ctype":"monster","keywords":"Train Machine EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 10","t":"Machine / Effect","atk":3000,"def":3000},"note":"Yu-Gi-Oh! ZEXAL World Duel Carnival promotional cards","rarity":"UR","img":"51126152","code":"28","tcg":114844,"grp":1743,"idx":28},
-    {"id":"ZDC1-003","section":"main","num":"ZDC1-EN003","printed":"ZDC1-EN003","name":"Special Schedule","ctype":"spell","keywords":"Train Normal Spell","stats":{"t":"Normal Spell"},"note":"Yu-Gi-Oh! ZEXAL World Duel Carnival promotional cards","rarity":"UR","img":"97520701","code":"29","tcg":114845,"grp":1743,"idx":29}
+    {"id":"ZDC1-003","section":"main","num":"ZDC1-EN003","printed":"ZDC1-EN003","name":"Special Schedule","ctype":"spell","keywords":"Train Normal Spell","stats":{"t":"Normal Spell"},"note":"Yu-Gi-Oh! ZEXAL World Duel Carnival promotional cards","rarity":"UR","img":"97520701","code":"29","tcg":114845,"grp":1743,"idx":29},
+    {"id":"YCSW-007-ur","section":"r-ur","num":"YCSW-EN007","printed":"YCSW-EN007","name":"Ascension Sky Dragon","ctype":"monster","keywords":"Dragon LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 10","t":"Dragon / Synchro","atk":-1,"def":3000},"note":"Yu-Gi-Oh! Championship Series 2014 Prize Card","rarity":"UR","img":"37910722","badge":"UR","variant":"Ultra Rare","code":"UR23","tcg":97962,"grp":1347,"idx":23}
   ]
 }

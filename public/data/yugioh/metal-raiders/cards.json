@@ -17,9 +17,14 @@
       "tier": "standard"
     },
     {
-      "id": "rarities",
-      "name": "Other Rarities",
-      "short": "Other Rarities",
+      "id": "r-c",
+      "name": "Commons",
+      "range": "2 cards",
+      "tier": "master"
+    },
+    {
+      "id": "r-ssp",
+      "name": "Super Short Prints",
       "range": "2 cards",
       "tier": "master"
     }
@@ -30,31 +35,35 @@
       "Main set"
     ],
     [
-      "rarities",
-      "Other rarities"
+      "r-c",
+      "Commons"
+    ],
+    [
+      "r-ssp",
+      "Super Short Prints"
     ]
   ],
   "quickAdd": {
     "placeholder": "e.g. 1-20, 45, SCR12, 60x2",
     "example": "1-20, 45x2, SCR12",
-    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies. Other rarities use their short name and number: <b>SCR12</b> is card 12’s Secret Rare, and ranges work too (<b>QCSR1-QCSR20</b>).",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies. Other rarities use their short name and number: <b>SCR12</b> is card 12’s Secret Rare, and ranges work too (<b>QCSR1-QCSR20</b>). Special prints add their own letters: <b>COA8</b> is card 8’s Original Artwork Common.",
     "empty": "Cards run from MRD-000 to MRD-143."
   },
   "help": {
-    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 144 cards, each in its main rarity. Master adds the 2 other rarities. Cards you’ve marked are kept when you switch."
+    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 144 cards, each in its main rarity. Master adds the 4 other rarities. Cards you’ve marked are kept when you switch."
   },
   "seo": {
     "title": "Yu-Gi-Oh! Metal Raiders Checklist · All 144 Cards",
     "description": "Free Yu-Gi-Oh! Metal Raiders checklist with no ads, no sign-up and no tracking. Track all 144 cards, or every rarity for a master set, with images, copy counts, binder pages and prices.",
     "ogTitle": "Yu-Gi-Oh! Metal Raiders Checklist",
-    "ogDescription": "Track all 144 cards in Yu-Gi-Oh! Metal Raiders, plus 2 other rarities. Free, with no ads, no sign-up and no tracking.",
+    "ogDescription": "Track all 144 cards in Yu-Gi-Oh! Metal Raiders, plus 4 other rarities. Free, with no ads, no sign-up and no tracking.",
     "twitterDescription": "Track all 144 cards in Yu-Gi-Oh! Metal Raiders. Free, with no ads, no sign-up and no tracking."
   },
   "about": {
     "title": "About the Metal Raiders set",
     "paragraphs": [
-      "Metal Raiders is a Yu-Gi-Oh! TCG booster set released on 26 June 2002, in the Duel Monsters era. It has 144 cards, and with the 2 other rarities there are 146 to collect in all.",
-      "Choose what you’re collecting: the <b>Standard set</b> (the 144 cards, each in its main rarity) or the <b>Master set</b> (all 146, adding the 2 other rarities).",
+      "Metal Raiders is a Yu-Gi-Oh! TCG booster set released on 26 June 2002, in the Duel Monsters era. It has 144 cards, and with the 4 other rarities there are 148 to collect in all.",
+      "Choose what you’re collecting: the <b>Standard set</b> (the 144 cards, each in its main rarity) or the <b>Master set</b> (all 148, adding the 4 other rarities).",
       "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
       "Card details and images come from YGOPRODeck, and prices from TCGplayer."
     ]
@@ -77,11 +86,10 @@
     {"id":"005","section":"main","num":"005","printed":"MRD-005","name":"Armored Lizard","ctype":"monster","keywords":"Reptile EARTH Normal Monster MRD-E005 MRD-EN005","stats":{"a":"EARTH","l":"Level 4","t":"Reptile / Normal","atk":1500,"def":1200},"rarity":"C","img":"15480588","code":"5","tcg":21753,"grp":255,"idx":5},
     {"id":"006","section":"main","num":"006","printed":"MRD-006","name":"Killer Needle","ctype":"monster","keywords":"Insect WIND Normal Monster MRD-E006 MRD-EN006","stats":{"a":"WIND","l":"Level 4","t":"Insect / Normal","atk":1200,"def":1000},"rarity":"C","img":"88979991","code":"6","tcg":22123,"grp":255,"idx":6},
     {"id":"007","section":"main","num":"007","printed":"MRD-007","name":"Larvae Moth","ctype":"monster","keywords":"Insect EARTH Effect Monster MRD-E007 MRD-EN007","stats":{"a":"EARTH","l":"Level 2","t":"Insect / Effect","atk":500,"def":400},"rarity":"C","img":"87756343","code":"7","tcg":22142,"grp":255,"idx":7},
-    {"id":"008","section":"main","num":"008","printed":"MRD-008","name":"Harpie Lady","ctype":"monster","keywords":"Harpie Winged Beast WIND Normal Monster MRD-E008 MRD-EN008","stats":{"a":"WIND","l":"Level 4","t":"Winged Beast / Normal","atk":1300,"def":1400},"rarity":"C","img":"76812113","code":"8","tcg":22062,"grp":255,"idx":8},
+    {"id":"008","section":"main","num":"008","printed":"MRD-008","name":"Harpie Lady","ctype":"monster","keywords":"Harpie Winged Beast WIND Normal Monster MRD-E008 MRD-EN008","stats":{"a":"WIND","l":"Level 4","t":"Winged Beast / Normal","atk":1300,"def":1400},"rarity":"C","img":"76812113","code":"8","tcg":476262,"grp":22882,"idx":8},
     {"id":"009","section":"main","num":"009","printed":"MRD-009","name":"Harpie Lady Sisters","ctype":"monster","keywords":"Harpie Winged Beast WIND Effect Monster MRD-E009 MRD-EN009","stats":{"a":"WIND","l":"Level 6","t":"Winged Beast / Effect","atk":1950,"def":2100},"rarity":"SR","img":"12206212","code":"9","tcg":22063,"grp":255,"idx":9},
     {"id":"010","section":"main","num":"010","printed":"MRD-010","name":"Kojikocy","ctype":"monster","keywords":"Warrior EARTH Normal Monster MRD-E010 MRD-EN010","stats":{"a":"EARTH","l":"Level 4","t":"Warrior / Normal","atk":1500,"def":1200},"rarity":"C","img":"1184620","code":"10","tcg":22131,"grp":255,"idx":10},
     {"id":"011","section":"main","num":"011","printed":"MRD-011","name":"Cocoon of Evolution","ctype":"monster","keywords":"Insect EARTH Effect Monster MRD-E011 MRD-EN011","stats":{"a":"EARTH","l":"Level 3","t":"Insect / Effect","atk":0,"def":2000},"rarity":"SP","img":"40240595","code":"11","tcg":21835,"grp":255,"idx":11},
-    {"id":"011-ssp","section":"rarities","num":"011","printed":"MRD-011","name":"Cocoon of Evolution","ctype":"monster","keywords":"Insect EARTH Effect Monster MRD-E011 MRD-EN011","stats":{"a":"EARTH","l":"Level 3","t":"Insect / Effect","atk":0,"def":2000},"rarity":"SSP","img":"40240595","badge":"SSP","variant":"Super Short Print","code":"SSP11","tcg":21835,"grp":255,"idx":12},
     {"id":"012","section":"main","num":"012","printed":"MRD-012","name":"Crawling Dragon","ctype":"monster","keywords":"Dragon EARTH Normal Monster MRD-E012 MRD-EN012","stats":{"a":"EARTH","l":"Level 5","t":"Dragon / Normal","atk":1600,"def":1400},"rarity":"C","img":"67494157","code":"12","tcg":21846,"grp":255,"idx":13},
     {"id":"013","section":"main","num":"013","printed":"MRD-013","name":"Armored Zombie","ctype":"monster","keywords":"Zombie DARK Normal Monster MRD-E013 MRD-EN013","stats":{"a":"DARK","l":"Level 3","t":"Zombie / Normal","atk":1500,"def":0},"rarity":"C","img":"20277860","code":"13","tcg":21755,"grp":255,"idx":14},
     {"id":"014","section":"main","num":"014","printed":"MRD-014","name":"Mask of Darkness","ctype":"monster","keywords":"Mask Fiend DARK Flip Effect Monster MRD-E014 MRD-EN014","stats":{"a":"DARK","l":"Level 2","t":"Fiend / Flip / Effect","atk":900,"def":400},"rarity":"R","img":"28933734","code":"14","tcg":22198,"grp":255,"idx":15},
@@ -195,7 +203,6 @@
     {"id":"122","section":"main","num":"122","printed":"MRD-122","name":"Blue-Winged Crown","ctype":"monster","keywords":"Winged Beast WIND Normal Monster MRD-E122 MRD-EN122","stats":{"a":"WIND","l":"Level 4","t":"Winged Beast / Normal","atk":1600,"def":1200},"rarity":"C","img":"41396436","code":"122","tcg":21793,"grp":255,"idx":123},
     {"id":"123","section":"main","num":"123","printed":"MRD-123","name":"Skull Knight","ctype":"monster","keywords":"Spellcaster DARK Fusion Monster MRD-E123 MRD-EN123","stats":{"a":"DARK","l":"Level 7","t":"Spellcaster / Fusion","atk":2650,"def":2250},"rarity":"C","img":"2504891","code":"123","tcg":22407,"grp":255,"idx":124},
     {"id":"124","section":"main","num":"124","printed":"MRD-124","name":"Gazelle the King of Mythical Beasts","ctype":"monster","keywords":"Beast EARTH Normal Monster MRD-E124 MRD-EN124","stats":{"a":"EARTH","l":"Level 4","t":"Beast / Normal","atk":1500,"def":1200},"rarity":"SP","img":"5818798","code":"124","tcg":22009,"grp":255,"idx":125},
-    {"id":"124-ssp","section":"rarities","num":"124","printed":"MRD-124","name":"Gazelle the King of Mythical Beasts","ctype":"monster","keywords":"Beast EARTH Normal Monster MRD-E124 MRD-EN124","stats":{"a":"EARTH","l":"Level 4","t":"Beast / Normal","atk":1500,"def":1200},"rarity":"SSP","img":"5818798","badge":"SSP","variant":"Super Short Print","code":"SSP124","tcg":22009,"grp":255,"idx":126},
     {"id":"125","section":"main","num":"125","printed":"MRD-125","name":"Garnecia Elefantis","ctype":"monster","keywords":"Beast-Warrior EARTH Normal Monster MRD-E125 MRD-EN125","stats":{"a":"EARTH","l":"Level 7","t":"Beast-Warrior / Normal","atk":2400,"def":2000},"rarity":"SR","img":"49888191","code":"125","tcg":22005,"grp":255,"idx":127},
     {"id":"126","section":"main","num":"126","printed":"MRD-126","name":"Barrel Dragon","ctype":"monster","keywords":"Machine DARK Effect Monster MRD-E126 MRD-EN126","stats":{"a":"DARK","l":"Level 7","t":"Machine / Effect","atk":2600,"def":2200},"rarity":"UR","img":"81480461","code":"126","tcg":21770,"grp":255,"idx":128},
     {"id":"127","section":"main","num":"127","printed":"MRD-127","name":"Solemn Judgment","ctype":"trap","keywords":"Solemn Counter Trap MRD-E127 MRD-EN127","stats":{"t":"Counter Trap"},"rarity":"UR","img":"41420027","code":"127","tcg":22418,"grp":255,"idx":129},
@@ -214,6 +221,10 @@
     {"id":"140","section":"main","num":"140","printed":"MRD-140","name":"Share the Pain","ctype":"spell","keywords":"Normal Spell MRD-E140 MRD-EN140","stats":{"t":"Normal Spell"},"rarity":"C","img":"56830749","code":"140","tcg":22397,"grp":255,"idx":142},
     {"id":"141","section":"main","num":"141","printed":"MRD-141","name":"Stim-Pack","ctype":"spell","keywords":"Equip Spell MRD-E141 MRD-EN141","stats":{"t":"Equip Spell"},"rarity":"SP","img":"83225447","code":"141","tcg":22457,"grp":255,"idx":143},
     {"id":"142","section":"main","num":"142","printed":"MRD-142","name":"Heavy Storm","ctype":"spell","keywords":"Normal Spell MRD-E142 MRD-EN142","stats":{"t":"Normal Spell"},"rarity":"SR","img":"19613556","code":"142","tcg":22068,"grp":255,"idx":144},
-    {"id":"143","section":"main","num":"143","printed":"MRD-143","name":"Thousand Dragon","ctype":"monster","keywords":"Dragon WIND Fusion Monster MRD-E143 MRD-EN143","stats":{"a":"WIND","l":"Level 7","t":"Dragon / Fusion","atk":2400,"def":2000},"rarity":"ScR","img":"41462083","code":"143","tcg":22977,"grp":255,"idx":145}
+    {"id":"143","section":"main","num":"143","printed":"MRD-143","name":"Thousand Dragon","ctype":"monster","keywords":"Dragon WIND Fusion Monster MRD-E143 MRD-EN143","stats":{"a":"WIND","l":"Level 7","t":"Dragon / Fusion","atk":2400,"def":2000},"rarity":"ScR","img":"41462083","code":"143","tcg":22977,"grp":255,"idx":145},
+    {"id":"008-c-orig","section":"r-c","num":"008","printed":"MRD-008","name":"Harpie Lady","ctype":"monster","keywords":"Harpie Winged Beast WIND Normal Monster MRD-E008 MRD-EN008","stats":{"a":"WIND","l":"Level 4","t":"Winged Beast / Normal","atk":1300,"def":1400},"rarity":"C","img":"76812113","badge":"C OA","variant":"Original Artwork Common","print":"Original Artwork","tag":"orig","code":"COA8","tcg":22062,"grp":255,"idx":146},
+    {"id":"008-c-new-art","section":"r-c","num":"008","printed":"MRD-008","name":"Harpie Lady","ctype":"monster","keywords":"Harpie Winged Beast WIND Normal Monster MRD-E008 MRD-EN008","stats":{"a":"WIND","l":"Level 4","t":"Winged Beast / Normal","atk":1300,"def":1400},"rarity":"C","img":"76812113","badge":"C NA","variant":"New Artwork Common","print":"New Artwork","tag":"new-art","code":"CNA8","tcg":173924,"grp":255,"idx":147},
+    {"id":"011-ssp","section":"r-ssp","num":"011","printed":"MRD-011","name":"Cocoon of Evolution","ctype":"monster","keywords":"Insect EARTH Effect Monster MRD-E011 MRD-EN011","stats":{"a":"EARTH","l":"Level 3","t":"Insect / Effect","atk":0,"def":2000},"rarity":"SSP","img":"40240595","badge":"SSP","variant":"Super Short Print","code":"SSP11","tcg":21835,"grp":255,"idx":12},
+    {"id":"124-ssp","section":"r-ssp","num":"124","printed":"MRD-124","name":"Gazelle the King of Mythical Beasts","ctype":"monster","keywords":"Beast EARTH Normal Monster MRD-E124 MRD-EN124","stats":{"a":"EARTH","l":"Level 4","t":"Beast / Normal","atk":1500,"def":1200},"rarity":"SSP","img":"5818798","badge":"SSP","variant":"Super Short Print","code":"SSP124","tcg":22009,"grp":255,"idx":126}
   ]
 }

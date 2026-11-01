@@ -48,13 +48,14 @@ export const RARITIES = [
   { id: 'PlScR', name: 'Platinum Secret Rare', abbr: 'PlScR', tone: 'rainbow', rank: 63, foil: true, aliases: ['platinum secret rare', 'ps'] },
   { id: 'EScR', name: 'Extra Secret Rare', abbr: 'EScR', tone: 'rainbow', rank: 64, foil: true, aliases: ['extra secret rare', 'extra secret'] },
   { id: 'UScR', name: 'Ultra Secret Rare', abbr: 'UScR', tone: 'rainbow', rank: 65, foil: true, aliases: ['ultra secret rare'] },
+  { id: 'ScPR', name: 'Secret Rare (Pharaoh’s Rare)', abbr: 'ScPR', tone: 'rainbow', rank: 66, foil: true, aliases: ["secret rare (pharaoh's rare)", 'secret rare (pharaoh’s rare)', "secret pharaoh's rare", 'secret pharaoh’s rare'] },
   { id: 'QCSR', name: 'Quarter Century Secret Rare', abbr: 'QCSR', tone: 'rainbow', rank: 70, foil: true, aliases: ['quarter century secret rare'] },
   { id: 'CR', name: 'Collector’s Rare', abbr: 'CR', tone: 'rainbow', rank: 72, foil: true, aliases: ["collector's rare", 'collector’s rare', 'collectors rare'] },
   { id: 'StR', name: 'Starlight Rare', abbr: 'StR', tone: 'rainbow', rank: 74, foil: true, aliases: ['starlight rare'] },
-  { id: 'GMR', name: 'Grand Master Rare', abbr: 'GMR', tone: 'rainbow', rank: 75, foil: true, aliases: ['grand master rare'] },
+  { id: 'GMR', name: 'Grand Master Rare', abbr: 'GMR', tone: 'rainbow', rank: 75, foil: true, serial: true, aliases: ['grand master rare'] },
   { id: 'GR', name: 'Ghost Rare', abbr: 'GR', tone: 'rainbow', rank: 76, foil: true, aliases: ['ghost rare'] },
   { id: 'GGR', name: 'Ghost/Gold Rare', abbr: 'GGR', tone: 'rainbow', rank: 77, foil: true, aliases: ['ghost/gold rare', 'ghost gold rare'] },
-  { id: '10000ScR', name: '10000 Secret Rare', abbr: '10000', tone: 'rainbow', rank: 80, foil: true, aliases: ['10000 secret rare'] },
+  { id: '10000ScR', name: '10000 Secret Rare', abbr: '10000', tone: 'rainbow', rank: 80, foil: true, serial: true, aliases: ['10000 secret rare'] },
 ];
 
 export const CARD_TYPES = {

@@ -15,34 +15,55 @@
       "name": "Main Set",
       "range": "MGED-EN001–MGED-EN152",
       "tier": "standard"
+    },
+    {
+      "id": "r-r",
+      "name": "Rares",
+      "range": "2 cards",
+      "tier": "master"
+    },
+    {
+      "id": "r-pg",
+      "name": "Premium Gold Rares (Alternate Art)",
+      "range": "7 cards",
+      "tier": "master"
     }
   ],
   "summary": [
     [
       "main",
-      "Cards"
+      "Main set"
+    ],
+    [
+      "r-r",
+      "Rares"
+    ],
+    [
+      "r-pg",
+      "Premium Gold Rares (Alternate Art)"
     ]
   ],
   "quickAdd": {
-    "placeholder": "e.g. 1-20, 45, 60x2",
-    "example": "1-20, 45x2",
-    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "placeholder": "e.g. 1-20, 45, SCR12, 60x2",
+    "example": "1-20, 45x2, SCR12",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies. Other rarities use their short name and number: <b>SCR12</b> is card 12’s Secret Rare, and ranges work too (<b>QCSR1-QCSR20</b>). Special prints add their own letters: <b>RPAA141</b> is card 141’s Purple Alternate Art Rare.",
     "empty": "Cards run from MGED-EN001 to MGED-EN152."
   },
   "help": {
-    "tiers": ""
+    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 152 cards, each in its main rarity. Master adds the 9 other rarities. Cards you’ve marked are kept when you switch."
   },
   "seo": {
-    "title": "Yu-Gi-Oh! Maximum Gold: El Dorado Checklist · All 151 Cards",
-    "description": "Free Yu-Gi-Oh! Maximum Gold: El Dorado checklist with no ads, no sign-up and no tracking. Track all 151 cards, with images, copy counts, binder pages and prices.",
+    "title": "Yu-Gi-Oh! Maximum Gold: El Dorado Checklist · All 152 Cards",
+    "description": "Free Yu-Gi-Oh! Maximum Gold: El Dorado checklist with no ads, no sign-up and no tracking. Track all 152 cards, or every rarity for a master set, with images, copy counts, binder pages and prices.",
     "ogTitle": "Yu-Gi-Oh! Maximum Gold: El Dorado Checklist",
-    "ogDescription": "Track all 151 cards in Yu-Gi-Oh! Maximum Gold: El Dorado. Free, with no ads, no sign-up and no tracking.",
-    "twitterDescription": "Track all 151 cards in Yu-Gi-Oh! Maximum Gold: El Dorado. Free, with no ads, no sign-up and no tracking."
+    "ogDescription": "Track all 152 cards in Yu-Gi-Oh! Maximum Gold: El Dorado, plus 9 other rarities. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 152 cards in Yu-Gi-Oh! Maximum Gold: El Dorado. Free, with no ads, no sign-up and no tracking."
   },
   "about": {
     "title": "About the Maximum Gold: El Dorado set",
     "paragraphs": [
-      "Maximum Gold: El Dorado is a Yu-Gi-Oh! TCG special set released on 18 November 2021, in the SEVENS &amp; GO RUSH!! era. It has 151 cards.",
+      "Maximum Gold: El Dorado is a Yu-Gi-Oh! TCG special set released on 18 November 2021, in the SEVENS &amp; GO RUSH!! era. It has 152 cards, and with the 9 other rarities there are 161 to collect in all.",
+      "Choose what you’re collecting: the <b>Standard set</b> (the 152 cards, each in its main rarity) or the <b>Master set</b> (all 161, adding the 9 other rarities).",
       "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
       "Card details and images come from YGOPRODeck, and prices from TCGplayer."
     ]
@@ -57,10 +78,11 @@
   },
   "cards": [
     {"id":"001","section":"main","num":"001","printed":"MGED-EN001","name":"Blue-Eyes White Dragon","ctype":"monster","keywords":"Blue-Eyes Dragon LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Normal","atk":3000,"def":2500},"rarity":"PG","img":"89631140","code":"1","tcg":253906,"grp":2896,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"MGED-EN002","name":"Dark Magician","ctype":"monster","keywords":"Dark Magician Spellcaster DARK Normal Monster","stats":{"a":"DARK","l":"Level 7","t":"Spellcaster / Normal","atk":2500,"def":2100},"rarity":"PG","img":"36996508","code":"2","tcg":253907,"grp":2896,"idx":151},
     {"id":"003","section":"main","num":"003","printed":"MGED-EN003","name":"Red-Eyes Black Dragon","ctype":"monster","keywords":"Red-Eyes Dragon DARK Normal Monster","stats":{"a":"DARK","l":"Level 7","t":"Dragon / Normal","atk":2400,"def":2000},"rarity":"PG","img":"74677427","code":"3","tcg":253908,"grp":2896,"idx":1},
     {"id":"004","section":"main","num":"004","printed":"MGED-EN004","name":"Elemental HERO Neos","ctype":"monster","keywords":"Elemental HERO Warrior LIGHT Normal Monster","stats":{"a":"LIGHT","l":"Level 7","t":"Warrior / Normal","atk":2500,"def":2000},"rarity":"PG","img":"89943723","code":"4","tcg":253909,"grp":2896,"idx":2},
     {"id":"005","section":"main","num":"005","printed":"MGED-EN005","name":"Exodia the Forbidden One","ctype":"monster","keywords":"Exodia Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 3","t":"Spellcaster / Effect","atk":1000,"def":1000},"rarity":"PG","img":"33396948","code":"5","tcg":253910,"grp":2896,"idx":3},
-    {"id":"006","section":"main","num":"006","printed":"MGED-EN006","name":"Rescue Cat","ctype":"monster","keywords":"Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Beast / Effect","atk":300,"def":100},"rarity":"PG","img":"14878872","code":"6","tcg":253911,"grp":2896,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"MGED-EN006","name":"Rescue Cat","ctype":"monster","keywords":"Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Beast / Effect","atk":300,"def":100},"rarity":"PG","img":"14878871","code":"6","tcg":256078,"grp":2896,"idx":4},
     {"id":"007","section":"main","num":"007","printed":"MGED-EN007","name":"Destiny HERO - Plasma","ctype":"monster","keywords":"Destiny HERO Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Warrior / Effect","atk":1900,"def":600},"rarity":"PG","img":"83965311","code":"7","tcg":253912,"grp":2896,"idx":5},
     {"id":"008","section":"main","num":"008","printed":"MGED-EN008","name":"Fossil Dyna Pachycephalo","ctype":"monster","keywords":"Rock EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Rock / Effect","atk":1200,"def":1300},"rarity":"PG","img":"42009836","code":"8","tcg":253913,"grp":2896,"idx":6},
     {"id":"009","section":"main","num":"009","printed":"MGED-EN009","name":"Red-Eyes Darkness Metal Dragon","ctype":"monster","keywords":"Red-Eyes Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 10","t":"Dragon / Effect","atk":2800,"def":2400},"rarity":"PG","img":"88264978","code":"9","tcg":253914,"grp":2896,"idx":7},
@@ -195,7 +217,7 @@
     {"id":"138","section":"main","num":"138","printed":"MGED-EN138","name":"Ultimaya Tzolkin","ctype":"monster","keywords":"Power Tool Dragon DARK Synchro Monster","stats":{"a":"DARK","l":"Level 0","t":"Dragon / Synchro","atk":0,"def":0},"rarity":"R","img":"1686814","code":"138","tcg":254463,"grp":2896,"idx":136},
     {"id":"139","section":"main","num":"139","printed":"MGED-EN139","name":"Constellar Ptolemy M7","ctype":"monster","keywords":"Constellar Machine LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 6","t":"Machine / Xyz","atk":2700,"def":2000},"rarity":"R","img":"38495396","code":"139","tcg":254465,"grp":2896,"idx":137},
     {"id":"140","section":"main","num":"140","printed":"MGED-EN140","name":"Raidraptor - Ultimate Falcon","ctype":"monster","keywords":"Raidraptor Winged Beast DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 10","t":"Winged Beast / Xyz","atk":3500,"def":2000},"rarity":"R","img":"86221741","code":"140","tcg":254466,"grp":2896,"idx":138},
-    {"id":"141","section":"main","num":"141","printed":"MGED-EN141","name":"Firewall Dragon","ctype":"monster","keywords":"Cyberse LIGHT Link Monster","stats":{"a":"LIGHT","l":"Link 4","t":"Cyberse / Link","atk":2500},"rarity":"R","img":"5043010","code":"141","tcg":254481,"grp":2896,"idx":139},
+    {"id":"141","section":"main","num":"141","printed":"MGED-EN141","name":"Firewall Dragon","ctype":"monster","keywords":"Cyberse LIGHT Link Monster","stats":{"a":"LIGHT","l":"Link 4","t":"Cyberse / Link","atk":2500},"rarity":"R","img":"5043010","print":"Teal Original Art","code":"141","tcg":254481,"grp":2896,"idx":139},
     {"id":"142","section":"main","num":"142","printed":"MGED-EN142","name":"Dragunity Knight - Romulus","ctype":"monster","keywords":"Dragunity Dragon WIND Link Monster","stats":{"a":"WIND","l":"Link 2","t":"Dragon / Link","atk":1200},"rarity":"R","img":"11969228","code":"142","tcg":254391,"grp":2896,"idx":140},
     {"id":"143","section":"main","num":"143","printed":"MGED-EN143","name":"Battle Shogun of the Six Samurai","ctype":"monster","keywords":"Six Samurai Warrior EARTH Link Monster","stats":{"a":"EARTH","l":"Link 2","t":"Warrior / Link","atk":1000},"rarity":"R","img":"74752631","code":"143","tcg":254424,"grp":2896,"idx":141},
     {"id":"144","section":"main","num":"144","printed":"MGED-EN144","name":"Salamangreat Almiraj","ctype":"monster","keywords":"Salamangreat Cyberse FIRE Link Monster","stats":{"a":"FIRE","l":"Link 1","t":"Cyberse / Link","atk":0},"rarity":"R","img":"60303245","code":"144","tcg":254435,"grp":2896,"idx":142},
@@ -206,6 +228,15 @@
     {"id":"149","section":"main","num":"149","printed":"MGED-EN149","name":"Dragonmaid Hospitality","ctype":"spell","keywords":"Dragonmaid Normal Spell","stats":{"t":"Normal Spell"},"rarity":"R","img":"78231355","code":"149","tcg":254447,"grp":2896,"idx":147},
     {"id":"150","section":"main","num":"150","printed":"MGED-EN150","name":"Summon Limit","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"R","img":"23516703","code":"150","tcg":254451,"grp":2896,"idx":148},
     {"id":"151","section":"main","num":"151","printed":"MGED-EN151","name":"Broken Line","ctype":"trap","keywords":"Counter Trap","stats":{"t":"Counter Trap"},"rarity":"R","img":"88086137","code":"151","tcg":254452,"grp":2896,"idx":149},
-    {"id":"152","section":"main","num":"152","printed":"MGED-EN152","name":"Trap Trick","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"R","img":"80101899","code":"152","tcg":254456,"grp":2896,"idx":150}
+    {"id":"152","section":"main","num":"152","printed":"MGED-EN152","name":"Trap Trick","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"R","img":"80101899","code":"152","tcg":254456,"grp":2896,"idx":150},
+    {"id":"141-r-purple-alt","section":"r-r","num":"141","printed":"MGED-EN141","name":"Firewall Dragon","ctype":"monster","keywords":"Cyberse LIGHT Link Monster","stats":{"a":"LIGHT","l":"Link 4","t":"Cyberse / Link","atk":2500},"rarity":"R","img":"5043012","badge":"R PAA","variant":"Purple Alternate Art Rare","print":"Purple Alternate Art","tag":"purple-alt","code":"RPAA141","tcg":254482,"grp":2896,"idx":152},
+    {"id":"141-r-red-alt","section":"r-r","num":"141","printed":"MGED-EN141","name":"Firewall Dragon","ctype":"monster","keywords":"Cyberse LIGHT Link Monster","stats":{"a":"LIGHT","l":"Link 4","t":"Cyberse / Link","atk":2500},"rarity":"R","img":"5043011","badge":"R RAA","variant":"Red Alternate Art Rare","print":"Red Alternate Art","tag":"red-alt","code":"RRAA141","tcg":254483,"grp":2896,"idx":153},
+    {"id":"006-pg-alt","section":"r-pg","num":"006","printed":"MGED-EN006","name":"Rescue Cat","ctype":"monster","keywords":"Beast EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Beast / Effect","atk":300,"def":100},"rarity":"PG","img":"14878872","badge":"PG AA","variant":"Alternate Art Premium Gold Rare","print":"Alternate Art","tag":"alt","code":"PGAA6","tcg":253911,"grp":2896,"idx":154},
+    {"id":"009-pg-alt","section":"r-pg","num":"009","printed":"MGED-EN009","name":"Red-Eyes Darkness Metal Dragon","ctype":"monster","keywords":"Red-Eyes Dragon DARK Effect Monster","stats":{"a":"DARK","l":"Level 10","t":"Dragon / Effect","atk":2800,"def":2400},"rarity":"PG","img":"88264979","badge":"PG AA","variant":"Alternate Art Premium Gold Rare","print":"Alternate Art","tag":"alt","code":"PGAA9","tcg":253915,"grp":2896,"idx":155},
+    {"id":"018-pg-alt","section":"r-pg","num":"018","printed":"MGED-EN018","name":"Danger! Bigfoot!","ctype":"monster","keywords":"Danger! Beast DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Beast / Effect","atk":3000,"def":0},"rarity":"PG","img":"43316238","badge":"PG AA","variant":"Alternate Art Premium Gold Rare","print":"Alternate Art","tag":"alt","code":"PGAA18","tcg":253925,"grp":2896,"idx":156},
+    {"id":"023-pg-alt","section":"r-pg","num":"023","printed":"MGED-EN023","name":"Ghost Mourner & Moonlit Chill","ctype":"monster","keywords":"Zombie WIND Tuner Monster","stats":{"a":"WIND","l":"Level 3","t":"Zombie / Tuner","atk":0,"def":1800},"rarity":"PG","img":"52038442","badge":"PG AA","variant":"Alternate Art Premium Gold Rare","print":"Alternate Art","tag":"alt","code":"PGAA23","tcg":256127,"grp":2896,"idx":157},
+    {"id":"026-pg-alt","section":"r-pg","num":"026","printed":"MGED-EN026","name":"Black Rose Dragon","ctype":"monster","keywords":"Rose Dragon Dragon FIRE Synchro Monster","stats":{"a":"FIRE","l":"Level 7","t":"Dragon / Synchro","atk":2400,"def":1800},"rarity":"PG","img":"73580472","badge":"PG AA","variant":"Alternate Art Premium Gold Rare","print":"Alternate Art","tag":"alt","code":"PGAA26","tcg":256126,"grp":2896,"idx":158},
+    {"id":"034-pg-alt","section":"r-pg","num":"034","printed":"MGED-EN034","name":"Knightmare Unicorn","ctype":"monster","keywords":"Knightmare Fiend DARK Link Monster","stats":{"a":"DARK","l":"Link 3","t":"Fiend / Link","atk":2200},"rarity":"PG","img":"38342336","badge":"PG AA","variant":"Alternate Art Premium Gold Rare","print":"Alternate Art","tag":"alt","code":"PGAA34","tcg":253945,"grp":2896,"idx":159},
+    {"id":"035-pg-alt","section":"r-pg","num":"035","printed":"MGED-EN035","name":"I:P Masquerena","ctype":"monster","keywords":"Cyberse DARK Link Monster","stats":{"a":"DARK","l":"Link 2","t":"Cyberse / Link","atk":800},"rarity":"PG","img":"65741787","badge":"PG AA","variant":"Alternate Art Premium Gold Rare","print":"Alternate Art","tag":"alt","code":"PGAA35","tcg":253946,"grp":2896,"idx":160}
   ]
 }

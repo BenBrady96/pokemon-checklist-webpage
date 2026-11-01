@@ -17,9 +17,8 @@
       "tier": "standard"
     },
     {
-      "id": "rarities",
-      "name": "Other Rarities",
-      "short": "Other Rarities",
+      "id": "r-str",
+      "name": "Starlight Rares",
       "range": "4 cards",
       "tier": "master"
     }
@@ -30,8 +29,8 @@
       "Main set"
     ],
     [
-      "rarities",
-      "Other rarities"
+      "r-str",
+      "Starlight Rares"
     ]
   ],
   "quickAdd": {
@@ -80,7 +79,6 @@
     {"id":"009","section":"main","num":"009","printed":"CYAC-EN009","name":"Fallen of Argyros","ctype":"monster","keywords":"Thunder DARK Effect Monster","stats":{"a":"DARK","l":"Level 2","t":"Thunder / Effect","atk":700,"def":700},"rarity":"C","img":"82090807","code":"9","tcg":493834,"grp":22896,"idx":9},
     {"id":"010","section":"main","num":"010","printed":"CYAC-EN010","name":"Icejade Ran Aegirine","ctype":"monster","keywords":"Icejade Aqua WATER Tuner Monster","stats":{"a":"WATER","l":"Level 7","t":"Aqua / Tuner","atk":1500,"def":2500},"rarity":"UR","img":"18494511","code":"10","tcg":493836,"grp":22896,"idx":10},
     {"id":"011","section":"main","num":"011","printed":"CYAC-EN011","name":"Guiding Quem, the Virtuous","ctype":"monster","keywords":"Despia Spellcaster LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Tuner","atk":1500,"def":1500},"rarity":"ScR","img":"45883110","code":"11","tcg":493837,"grp":22896,"idx":11},
-    {"id":"011-str","section":"rarities","num":"011","printed":"CYAC-EN011","name":"Guiding Quem, the Virtuous","ctype":"monster","keywords":"Despia Spellcaster LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Tuner","atk":1500,"def":1500},"rarity":"StR","img":"45883110","badge":"StR","variant":"Starlight Rare","code":"STR11","tcg":495592,"grp":22896,"idx":12},
     {"id":"012","section":"main","num":"012","printed":"CYAC-EN012","name":"Mannadium Riumheart","ctype":"monster","keywords":"Mannadium Warrior LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Warrior / Effect","atk":1500,"def":2100},"rarity":"UR","img":"71277255","code":"12","tcg":493838,"grp":22896,"idx":13},
     {"id":"013","section":"main","num":"013","printed":"CYAC-EN013","name":"Mannadium Fearless","ctype":"monster","keywords":"Mannadium Fairy EARTH Tuner Monster","stats":{"a":"EARTH","l":"Level 2","t":"Fairy / Tuner","atk":0,"def":2000},"rarity":"SR","img":"17272964","code":"13","tcg":493839,"grp":22896,"idx":14},
     {"id":"014","section":"main","num":"014","printed":"CYAC-EN014","name":"Mannadium Meek","ctype":"monster","keywords":"Mannadium Fairy WATER Tuner Monster","stats":{"a":"WATER","l":"Level 2","t":"Fairy / Tuner","atk":0,"def":1800},"rarity":"SR","img":"44760562","code":"14","tcg":493840,"grp":22896,"idx":15},
@@ -112,13 +110,11 @@
     {"id":"040","section":"main","num":"040","printed":"CYAC-EN040","name":"Superheavy Samurai Commander Shanawo","ctype":"monster","keywords":"Superheavy Samurai Machine DARK Synchro Pendulum Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Machine / Synchro / Pendulum / Effect","atk":2000,"def":2500},"rarity":"SR","img":"90587641","code":"40","tcg":493889,"grp":22896,"idx":41},
     {"id":"041","section":"main","num":"041","printed":"CYAC-EN041","name":"Bystial Dis Pater","ctype":"monster","keywords":"Bystial Dragon DARK Synchro Monster","stats":{"a":"DARK","l":"Level 10","t":"Dragon / Synchro","atk":3500,"def":3500},"rarity":"UR","img":"27572350","code":"41","tcg":493890,"grp":22896,"idx":42},
     {"id":"042","section":"main","num":"042","printed":"CYAC-EN042","name":"Despian Luluwalilith","ctype":"monster","keywords":"Despia Spellcaster LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 12","t":"Spellcaster / Synchro","atk":2500,"def":2500},"rarity":"ScR","img":"53971455","code":"42","tcg":493891,"grp":22896,"idx":43},
-    {"id":"042-str","section":"rarities","num":"042","printed":"CYAC-EN042","name":"Despian Luluwalilith","ctype":"monster","keywords":"Despia Spellcaster LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 12","t":"Spellcaster / Synchro","atk":2500,"def":2500},"rarity":"StR","img":"53971455","badge":"StR","variant":"Starlight Rare","code":"STR42","tcg":495593,"grp":22896,"idx":44},
     {"id":"043","section":"main","num":"043","printed":"CYAC-EN043","name":"Mannadium Prime-Heart","ctype":"monster","keywords":"Heart Fairy LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 10","t":"Fairy / Synchro","atk":3000,"def":3000},"rarity":"UR","img":"90465153","code":"43","tcg":493893,"grp":22896,"idx":45},
     {"id":"044","section":"main","num":"044","printed":"CYAC-EN044","name":"Chaos Angel","ctype":"monster","keywords":"Chaos Fiend DARK Synchro Monster","stats":{"a":"DARK","l":"Level 10","t":"Fiend / Synchro","atk":3500,"def":2800},"rarity":"ScR","img":"22850702","code":"44","tcg":493894,"grp":22896,"idx":46},
     {"id":"045","section":"main","num":"045","printed":"CYAC-EN045","name":"Tellarknight Constellar Caduceus","ctype":"monster","keywords":"Constellar Spellcaster LIGHT Xyz Monster","stats":{"a":"LIGHT","l":"Rank 4","t":"Spellcaster / Xyz","atk":2500,"def":1650},"rarity":"UR","img":"58858807","code":"45","tcg":493895,"grp":22896,"idx":47},
     {"id":"046","section":"main","num":"046","printed":"CYAC-EN046","name":"Virtual World Tiger - Fufu","ctype":"monster","keywords":"Virtual World Wyrm EARTH Xyz Monster","stats":{"a":"EARTH","l":"Rank 9","t":"Wyrm / Xyz","atk":2600,"def":2800},"rarity":"C","img":"95243515","code":"46","tcg":493897,"grp":22896,"idx":48},
     {"id":"047","section":"main","num":"047","printed":"CYAC-EN047","name":"Firewall Dragon Singularity","ctype":"monster","keywords":"Firewall Cyberse DARK Link Monster","stats":{"a":"DARK","l":"Link 6","t":"Cyberse / Link","atk":3500},"rarity":"ScR","img":"21637210","code":"47","tcg":493900,"grp":22896,"idx":49},
-    {"id":"047-str","section":"rarities","num":"047","printed":"CYAC-EN047","name":"Firewall Dragon Singularity","ctype":"monster","keywords":"Firewall Cyberse DARK Link Monster","stats":{"a":"DARK","l":"Link 6","t":"Cyberse / Link","atk":3500},"rarity":"StR","img":"21637210","badge":"StR","variant":"Starlight Rare","code":"STR47","tcg":495594,"grp":22896,"idx":50},
     {"id":"048","section":"main","num":"048","printed":"CYAC-EN048","name":"Protectcode Talker","ctype":"monster","keywords":"Code Talker Cyberse DARK Link Monster","stats":{"a":"DARK","l":"Link 3","t":"Cyberse / Link","atk":2300},"rarity":"SR","img":"58036229","code":"48","tcg":493901,"grp":22896,"idx":51},
     {"id":"049","section":"main","num":"049","printed":"CYAC-EN049","name":"GranSolfachord Coolia","ctype":"monster","keywords":"GranSolfachord Fairy LIGHT Link Monster","stats":{"a":"LIGHT","l":"Link 3","t":"Fairy / Link","atk":2700},"rarity":"SR","img":"84521924","code":"49","tcg":493902,"grp":22896,"idx":52},
     {"id":"050","section":"main","num":"050","printed":"CYAC-EN050","name":"S-Force Nightchaser","ctype":"monster","keywords":"S-Force Cyberse DARK Link Monster","stats":{"a":"DARK","l":"Link 1","t":"Cyberse / Link","atk":800},"rarity":"SR","img":"20515672","code":"50","tcg":493903,"grp":22896,"idx":53},
@@ -160,7 +156,6 @@
     {"id":"086","section":"main","num":"086","printed":"CYAC-EN086","name":"Gold Pride - Roller Baller","ctype":"monster","keywords":"Gold Pride Psychic EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 5","t":"Psychic / Effect","atk":1800,"def":1600},"rarity":"ScR","img":"92003832","code":"86","tcg":493943,"grp":22896,"idx":89},
     {"id":"087","section":"main","num":"087","printed":"CYAC-EN087","name":"Gold Pride - Pin Baller","ctype":"monster","keywords":"Gold Pride Machine DARK Fusion Monster","stats":{"a":"DARK","l":"Level 9","t":"Machine / Fusion","atk":3000,"def":0},"rarity":"UR","img":"28497830","code":"87","tcg":493944,"grp":22896,"idx":90},
     {"id":"088","section":"main","num":"088","printed":"CYAC-EN088","name":"Gold Pride - Chariot Carrie","ctype":"monster","keywords":"Gold Pride Aqua WATER Xyz Monster","stats":{"a":"WATER","l":"Rank 3","t":"Aqua / Xyz","atk":1900,"def":2700},"rarity":"UR","img":"65892585","code":"88","tcg":493945,"grp":22896,"idx":91},
-    {"id":"088-str","section":"rarities","num":"088","printed":"CYAC-EN088","name":"Gold Pride - Chariot Carrie","ctype":"monster","keywords":"Gold Pride Aqua WATER Xyz Monster","stats":{"a":"WATER","l":"Rank 3","t":"Aqua / Xyz","atk":1900,"def":2700},"rarity":"StR","img":"65892585","badge":"StR","variant":"Starlight Rare","code":"STR88","tcg":495596,"grp":22896,"idx":92},
     {"id":"089","section":"main","num":"089","printed":"CYAC-EN089","name":"Gold Pride - That Came Out of Nowhere!","ctype":"spell","keywords":"Gold Pride Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"UR","img":"91286284","code":"89","tcg":493946,"grp":22896,"idx":93},
     {"id":"090","section":"main","num":"090","printed":"CYAC-EN090","name":"Gold Pride - Pedal to the Metal!","ctype":"spell","keywords":"Gold Pride Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"27275398","code":"90","tcg":493947,"grp":22896,"idx":94},
     {"id":"091","section":"main","num":"091","printed":"CYAC-EN091","name":"Gold Pride - Better Luck Next Time!","ctype":"spell","keywords":"Gold Pride Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"ScR","img":"54670997","code":"91","tcg":493948,"grp":22896,"idx":95},
@@ -172,6 +167,10 @@
     {"id":"097","section":"main","num":"097","printed":"CYAC-EN097","name":"Baromet the Sacred Sheep Shrub","ctype":"monster","keywords":"Plant EARTH Xyz Monster","stats":{"a":"EARTH","l":"Rank 4","t":"Plant / Xyz","atk":1900,"def":2000},"rarity":"SR","img":"62967433","code":"97","tcg":493954,"grp":22896,"idx":101},
     {"id":"098","section":"main","num":"098","printed":"CYAC-EN098","name":"Reincarnation of the Seventh Emperors","ctype":"trap","keywords":"Seventh Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"57499304","code":"98","tcg":493955,"grp":22896,"idx":102},
     {"id":"099","section":"main","num":"099","printed":"CYAC-EN099","name":"Rebirth of the Seventh Emperors","ctype":"trap","keywords":"Seventh Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"83888009","code":"99","tcg":493956,"grp":22896,"idx":103},
-    {"id":"100","section":"main","num":"100","printed":"CYAC-EN100","name":"Visas Starfrost","ctype":"monster","keywords":"Warrior LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Warrior / Tuner","atk":2100,"def":1500},"rarity":"StR","img":"56099748","code":"100","tcg":493958,"grp":22896,"idx":104}
+    {"id":"100","section":"main","num":"100","printed":"CYAC-EN100","name":"Visas Starfrost","ctype":"monster","keywords":"Warrior LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 6","t":"Warrior / Tuner","atk":2100,"def":1500},"rarity":"StR","img":"56099748","code":"100","tcg":493958,"grp":22896,"idx":104},
+    {"id":"011-str","section":"r-str","num":"011","printed":"CYAC-EN011","name":"Guiding Quem, the Virtuous","ctype":"monster","keywords":"Despia Spellcaster LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Tuner","atk":1500,"def":1500},"rarity":"StR","img":"45883110","badge":"StR","variant":"Starlight Rare","code":"STR11","tcg":495592,"grp":22896,"idx":12},
+    {"id":"042-str","section":"r-str","num":"042","printed":"CYAC-EN042","name":"Despian Luluwalilith","ctype":"monster","keywords":"Despia Spellcaster LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 12","t":"Spellcaster / Synchro","atk":2500,"def":2500},"rarity":"StR","img":"53971455","badge":"StR","variant":"Starlight Rare","code":"STR42","tcg":495593,"grp":22896,"idx":44},
+    {"id":"047-str","section":"r-str","num":"047","printed":"CYAC-EN047","name":"Firewall Dragon Singularity","ctype":"monster","keywords":"Firewall Cyberse DARK Link Monster","stats":{"a":"DARK","l":"Link 6","t":"Cyberse / Link","atk":3500},"rarity":"StR","img":"21637210","badge":"StR","variant":"Starlight Rare","code":"STR47","tcg":495594,"grp":22896,"idx":50},
+    {"id":"088-str","section":"r-str","num":"088","printed":"CYAC-EN088","name":"Gold Pride - Chariot Carrie","ctype":"monster","keywords":"Gold Pride Aqua WATER Xyz Monster","stats":{"a":"WATER","l":"Rank 3","t":"Aqua / Xyz","atk":1900,"def":2700},"rarity":"StR","img":"65892585","badge":"StR","variant":"Starlight Rare","code":"STR88","tcg":495596,"grp":22896,"idx":92}
   ]
 }

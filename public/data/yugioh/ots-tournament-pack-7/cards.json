@@ -17,9 +17,8 @@
       "tier": "standard"
     },
     {
-      "id": "rarities",
-      "name": "Other Rarities",
-      "short": "Other Rarities",
+      "id": "r-sp",
+      "name": "Short Prints",
       "range": "1 card",
       "tier": "master"
     }
@@ -30,8 +29,8 @@
       "Main set"
     ],
     [
-      "rarities",
-      "Other rarities"
+      "r-sp",
+      "Short Prints"
     ]
   ],
   "quickAdd": {
@@ -94,6 +93,6 @@
     {"id":"024","section":"main","num":"024","printed":"OP07-EN024","name":"Lucky Chance","ctype":"trap","keywords":"Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"C","img":"96012004","code":"24","tcg":164888,"grp":2228,"idx":23},
     {"id":"025","section":"main","num":"025","printed":"OP07-EN025","name":"Blowback Dragon","ctype":"monster","keywords":"Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Machine / Effect","atk":2300,"def":1200},"rarity":"SP","img":"25551951","code":"25","tcg":164889,"grp":2228,"idx":24},
     {"id":"026","section":"main","num":"026","printed":"OP07-EN026","name":"Gatling Dragon","ctype":"monster","keywords":"Machine DARK Fusion Monster","stats":{"a":"DARK","l":"Level 8","t":"Machine / Fusion","atk":2600,"def":1200},"rarity":"C","img":"87751584","code":"26","tcg":164891,"grp":2228,"idx":25},
-    {"id":"026-sp","section":"rarities","num":"026","printed":"OP07-EN026","name":"Gatling Dragon","ctype":"monster","keywords":"Machine DARK Fusion Monster","stats":{"a":"DARK","l":"Level 8","t":"Machine / Fusion","atk":2600,"def":1200},"rarity":"SP","img":"87751584","badge":"SP","variant":"Short Print","code":"SP26","tcg":164891,"grp":2228,"idx":26}
+    {"id":"026-sp","section":"r-sp","num":"026","printed":"OP07-EN026","name":"Gatling Dragon","ctype":"monster","keywords":"Machine DARK Fusion Monster","stats":{"a":"DARK","l":"Level 8","t":"Machine / Fusion","atk":2600,"def":1200},"rarity":"SP","img":"87751584","badge":"SP","variant":"Short Print","code":"SP26","tcg":164891,"grp":2228,"idx":26}
   ]
 }
