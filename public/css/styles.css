@@ -308,6 +308,7 @@ a.btn { text-decoration: none; }
 .seg__btn svg { width: 18px; height: 18px; }
 .seg__btn:hover { color: var(--text); }
 .seg__btn[aria-pressed="true"] { background: var(--theme); color: var(--on-theme); font-weight: 600; }
+.seg__btn[aria-current="page"] { background: var(--theme); color: var(--on-theme); font-weight: 600; }
 .seg__btn[aria-pressed="true"] small { color: inherit; opacity: .75; }
 .seg--compact .seg__btn { min-width: 34px; padding: 0 10px; }
 .seg--full { display: flex; width: 100%; }
@@ -1051,6 +1052,8 @@ a.btn { text-decoration: none; }
 .home-hero__title { margin: 0 0 var(--space-4); font-size: clamp(2rem, 5.2vw, 3.1rem); font-weight: 700; line-height: 1.08; letter-spacing: -.025em; text-wrap: balance; }
 .home-hero__title .brand__gold { color: var(--theme-ink); }
 .home-hero__text { max-width: 540px; margin: 0 auto var(--space-6); color: var(--text-2); font-size: 1.05rem; line-height: 1.6; text-wrap: pretty; }
+.browse-toggle { display: inline-flex; margin-bottom: var(--space-5); }
+.browse-toggle .seg__btn { justify-content: center; min-width: 116px; min-height: 42px; text-decoration: none; }
 .home-search { max-width: 520px; margin: 0 auto; }
 .home-search .search__input { height: 52px; background: var(--surface); }
 .home-scan { margin-top: var(--space-3); border-color: transparent; color: var(--text-2); }
@@ -2474,4 +2477,25 @@ button.lst-tab { cursor: pointer; }
     animation-iteration-count: 1 !important;
     transition-duration: .01ms !important;
   }
+}
+
+.card__set { flex: 1 0 100%; order: 5; min-width: 0; overflow: hidden; color: var(--text-3); font-size: .72rem; white-space: nowrap; text-overflow: ellipsis; }
+[data-view-id] .card__cap { flex-wrap: wrap; }
+[data-view="list"] .card__set { grid-row: 3; grid-column: 2 / -1; }
+.binder .card__set { text-align: center; }
+.view-actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: var(--space-3); }
+.view-actions .btn[aria-pressed="true"] { border-color: var(--theme); color: var(--theme-ink); }
+.view-banner a { color: inherit; font-weight: 600; text-decoration: underline; }
+[data-readonly] .card__stepper { display: none; }
+[data-readonly] .toolbar .seg[aria-label="Tap mode"] { visibility: hidden; }
+[data-large] .sec { content-visibility: auto; contain-intrinsic-size: auto 1500px; }
+.view-tile .set-tile__art { aspect-ratio: 3 / 2; }
+.view-tile .set-tile__body { padding-bottom: 12px; }
+.info__view-list { display: grid; gap: 6px; margin: 0; padding: 0; list-style: none; }
+.info__view-list small { color: var(--text-3); }
+.home-more { display: flex; margin: 14px auto 0; }
+.card.is-flash { animation: card-flash 1.8s ease-out; }
+@keyframes card-flash {
+  0%, 60% { outline: 3px solid var(--accent); outline-offset: 2px; }
+  100% { outline: 3px solid transparent; outline-offset: 2px; }
 }

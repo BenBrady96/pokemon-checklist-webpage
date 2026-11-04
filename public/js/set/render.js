@@ -30,6 +30,7 @@ function cardMarkup(card) {
     + '<img alt="" width="330" height="460" loading="lazy" decoding="async" draggable="false">'
     + `${card.badge ? `<span class="card__badge">${escapeHTML(card.badge)}</span>` : ''}</span>`
     + `<span class="card__cap"><span class="card__num">${card.num}</span><span class="card__name">${name}</span>`
+    + `${card.setName ? `<span class="card__set">${escapeHTML(card.setName)}</span>` : ''}`
     + `<span class="card__rarname">${escapeHTML(card.rarityShort)}</span>${rarityIcon(card)}`
     + `${usd == null ? '' : `<span class="card__price">${formatPrice(usd)}</span>`}</span>`
     + '</button>'

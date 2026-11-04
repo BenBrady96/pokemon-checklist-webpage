@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en-GB" data-view-id="{{id}}" data-game="{{game}}">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'wasm-unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https://assets.tcgdex.net https://img.bindertracker.co.uk https://cards.lorcast.io; media-src 'self' blob:; connect-src 'self' https://assets.tcgdex.net https://img.bindertracker.co.uk; worker-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self';">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>{{title}}</title>
+  <meta name="description" content="{{description}}">
+  <meta name="robots" content="{{robots}}">
+  <link rel="canonical" href="{{url}}">
+  <meta name="theme-color" content="#F7F7F8" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0B0B0D" media="(prefers-color-scheme: dark)">
+  <meta name="color-scheme" content="light dark">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Binder Tracker">
+  <meta property="og:title" content="{{ogTitle}}">
+  <meta property="og:description" content="{{description}}">
+  <meta property="og:url" content="{{url}}">
+  <meta property="og:image" content="{{ogImage}}">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="{{imageAlt}}">
+  <meta property="og:locale" content="en_GB">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ogTitle}}">
+  <meta name="twitter:description" content="{{description}}">
+  <meta name="twitter:image" content="{{ogImage}}">
+  <meta name="twitter:image:alt" content="{{imageAlt}}">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="img/icons/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="img/icons/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="img/icons/apple-touch-icon.png">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Binder Tracker">
+  <link rel="preload" href="fonts/outfit-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/styles.css">
+  <script type="application/ld+json">{{{jsonLd}}}</script>
+  <script src="js/shared/theme-init.js"></script>
+  <script type="module" src="js/view/main.js"></script>
+  <noscript><style>.page-loader { display: none; }</style></noscript>
+</head>
+<body class="set-page">
+<div class="page-loader" id="page-loader" role="status">
+  <p class="page-loader__text">Loading {{name}}…</p>
+</div>
+<section class="set-hero wrap" data-view-hero aria-labelledby="set-title">
+  <div class="set-hero__id">
+    {{{setArt}}}
+    <h1 class="set-hero__title" id="set-title">{{name}} <span class="set-hero__suffix">{{suffix}}</span></h1>
+    <p class="set-hero__meta">{{{setMeta}}}</p>
+    <div class="view-actions">
+      <button type="button" class="btn btn--ghost btn--sm" data-view-pin aria-pressed="false"><svg aria-hidden="true"><use href="#i-pin"/></svg><span>Pin to home</span></button>
+      <button type="button" class="btn btn--ghost btn--sm" data-open="list"><svg aria-hidden="true"><use href="#i-link"/></svg>Share</button>
+    </div>
+  </div>
+</section>
+<p class="banner banner--error" id="view-load-error" role="alert" hidden>This page couldn’t be loaded. Check your connection, then reload the page.</p>
+<section class="about wrap" data-view-about aria-labelledby="about-title">
+  <h2 class="about__title" id="about-title">{{aboutTitle}}</h2>
+  {{{aboutHtml}}}
+  {{{viewGuide}}}
+</section>
+<noscript><p class="noscript">This checklist needs JavaScript to run. Please enable it and reload the page.</p></noscript>
+</body>
+</html>

@@ -52,7 +52,7 @@ export function buildCollection(raw, { game, colors = {}, imageBase = '', remote
     if (!rarity) throw new Error(`${raw.id}: card ${c.id} has unknown rarity "${c.rarity}"`);
     const base = c.base ? rawById.get(c.base) : null;
     const fields = {
-      num: c.num, printed: c.printed, code: c.code, name: c.name, badge: c.badge || '', set: raw.name,
+      num: c.num, printed: c.printed, code: c.code, name: c.name, badge: c.badge || '', set: c.setName || raw.name,
       baseName: base?.name || '', basePrinted: base?.printed || '',
     };
     const fmt = { ...section.display, ...c.display };

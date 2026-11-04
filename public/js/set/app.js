@@ -22,6 +22,8 @@ import {
 } from '../shared/ui.js';
 import { formatAgo } from '../shared/format.js';
 
+const viewChrome = COLLECTION.isView ? await import('../view/chrome.js') : null;
+
 const html = document.documentElement;
 const root = document.getElementById('collection');
 const topbar = document.getElementById('topbar');
@@ -36,7 +38,7 @@ const bottombar = document.querySelector('.bottombar');
 
 const DIALOGS = {
   filters: 'dlg-filters', menu: 'dlg-menu', stats: 'dlg-stats',
-  quickadd: 'dlg-quickadd', help: 'dlg-help', import: 'dlg-import', list: 'dlg-list',
+  quickadd: 'dlg-quickadd', help: 'dlg-help', import: 'dlg-import', list: 'dlg-list', 'view-share': 'dlg-view-share',
 };
 const RANGE_JUMPS = COLLECTION.jumps.filter((j) => j.from && j.to);
 
@@ -452,6 +454,7 @@ const importHooks = {
   undoCurrent(result) {
     if (result.currentEntry && store.lastEntry() === result.currentEntry) store.undo();
   },
+  refresh: COLLECTION.isView ? store.reloadFromStorage : undefined,
 };
 
 const imageUrls = () => [...new Set(COLLECTION.cards.filter((c) => COLLECTION.hasImage(c)).map((c) => COLLECTION.imageUrl(c, 'sm')))];
@@ -537,8 +540,11 @@ const actions = {
 };
 
 function openScanner() {
+  const inView = COLLECTION.isView
+    ? { game: html.dataset.game, route: (set, cardId) => COLLECTION.cards.find((c) => COLLECTION.viewSets[c.s].id === set && c.c === cardId)?.id || null }
+    : { prefer: COLLECTION.id };
   import('../scan/scan.js').then((m) => m.openScanner({
-    prefer: COLLECTION.id,
+    ...inView,
     current(id, delta) {
       const from = store.getQty(id);
       store.set(id, from + delta);
@@ -564,9 +570,14 @@ function selectSheetTab(name, { focus = false } = {}) {
   dlg.querySelector('.sheet__panes').scrollTop = 0;
 }
 
-function openNamed(name) {
+function openNamed(requested) {
+  let name = requested;
   if (name === 'scan') return openScanner();
   if (name === 'export') return openExport();
+  if (name === 'list' && viewChrome) {
+    viewChrome.prepareViewShare();
+    name = 'view-share';
+  }
   const dlg = document.getElementById(DIALOGS[name]);
   if (!dlg) return;
   if (name === 'filters') selectSheetTab('filter');
@@ -657,7 +668,7 @@ function wireControls() {
       e.preventDefault();
       if (isDesktop()) document.querySelector('.search--desktop input').focus();
       else actions['open-search']();
-    } else if (e.key === 'q' || e.key === 'Q') {
+    } else if ((e.key === 'q' || e.key === 'Q') && !COLLECTION.isView) {
       e.preventDefault();
       openNamed('quickadd');
     } else if (e.key === 'm' || e.key === 'M') {
@@ -726,6 +737,25 @@ function fillHelp() {
   if (example) qaHelp.innerHTML = `<b>Quick add</b> takes card numbers such as <code>${example}</code>.`;
 }
 
+let linkedCardNotice = false;
+
+function showLinkedCard() {
+  const m = /^#card-(.+)$/.exec(location.hash);
+  if (!m) return;
+  const r = refs.get(decodeURIComponent(m[1]));
+  if (!r) return;
+  if (!r.li.isConnected) {
+    linkedCardNotice = true;
+    toast('That card isn’t in the tier you’re collecting here. Switch tier to see it.');
+    return;
+  }
+  requestAnimationFrame(() => {
+    scrollToElement(r.li, { smooth: false });
+    r.li.classList.add('is-flash');
+    r.li.addEventListener('animationend', () => r.li.classList.remove('is-flash'), { once: true });
+  });
+}
+
 function init() {
   initDialogs();
   initHeader();
@@ -753,7 +783,7 @@ function init() {
     getOrder: () => shownIds(),
     onCommit,
   });
-  initQuickAdd({
+  if (!COLLECTION.isView) initQuickAdd({
     onApply(action, counts) {
       const entry = store.update([...counts].map(([id, n]) => {
         const q = store.getQty(id);
@@ -765,9 +795,11 @@ function init() {
       return true;
     },
   });
-  initListShare();
-  initExport({ currentId: COLLECTION.id });
+  if (!COLLECTION.isView) initListShare();
+  initExport(COLLECTION.isView ? {} : { currentId: COLLECTION.id });
   initImport(importHooks);
+
+  viewChrome?.initViewChrome();
 
   const p = store.getPrefs();
   mount(root, { view: p.view, sort: p.sort, pockets: p.pockets, tier: p.tier });
@@ -787,10 +819,11 @@ function init() {
   initInstallBanner();
   checkIncomingLink();
   initPWA();
+  showLinkedCard();
 
   if (!p.tipSeen) {
     setTimeout(() => {
-      if (openDialogs().length) return;
+      if (openDialogs().length || linkedCardNotice) return;
       toast(isTouch
         ? 'Tip: tap a card to mark it. Press and hold, then drag, to mark lots at once.'
         : 'Tip: click a card to mark it. Click and drag, or Shift-click, to mark lots at once.', {

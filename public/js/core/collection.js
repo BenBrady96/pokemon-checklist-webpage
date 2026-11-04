@@ -2,6 +2,7 @@ import { buildCollection } from './model.js';
 import { GAMES } from '../games/index.js';
 import { asset } from './paths.js';
 import { setPrices } from './pricing.js';
+import { viewDataPath } from './view.js';
 
 export { GAMES };
 
@@ -51,7 +52,30 @@ export function fetchPrices(id) {
   return priceCache.get(id);
 }
 
+const viewCache = new Map();
+
+export function fetchView(id) {
+  if (!viewCache.has(id)) {
+    const promise = getJson(viewDataPath(id));
+    viewCache.set(id, promise);
+    promise.catch(() => viewCache.delete(id));
+  }
+  return viewCache.get(id);
+}
+
+const setViewCache = new Map();
+
+export function fetchSetViews(id) {
+  if (!setViewCache.has(id)) setViewCache.set(id, getJson(`data/${id}/views.json`, null));
+  return setViewCache.get(id);
+}
+
 export let COLLECTION = null;
+
+export function useView(model, prices) {
+  setPrices(prices);
+  COLLECTION = model;
+}
 
 export async function loadCollection(id) {
   const [model, prices] = await Promise.all([

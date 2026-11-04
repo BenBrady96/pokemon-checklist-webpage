@@ -5,6 +5,22 @@ const escape = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;'
 const MONTH = new Intl.DateTimeFormat('en-GB', { month: 'short', year: 'numeric', timeZone: 'UTC' });
 export const releaseText = (date) => MONTH.format(new Date(`${date}T00:00:00Z`));
 
+export function viewTileHtml({ href, name, thumb, meta, search, progress = null }) {
+  const art = thumb
+    ? `<img class="set-tile__logo" src="${escape(thumb)}" alt="" loading="lazy" decoding="async">`
+    : `<span class="set-tile__wordmark">${escape(name)}</span>`;
+  const complete = progress && progress.total > 0 && progress.owned === progress.total;
+  const row = progress
+    ? `<span class="set-tile__progress${progress.owned ? ' has-cards' : ''}"><span class="bar" aria-hidden="true"><i style="--p:${progress.total ? progress.owned / progress.total : 0}"></i></span><span class="set-tile__count">${progress.owned}/${progress.total}</span><span class="set-tile__none">No cards collected</span></span>`
+    : '';
+  return `<a class="set-tile view-tile${complete ? ' is-complete' : ''}" href="${escape(href)}"${search ? ` data-search="${escape(search)}"` : ''}>`
+    + `<span class="set-tile__art">${art}</span>`
+    + '<span class="set-tile__body">'
+    + `<span class="set-tile__name">${escape(name)}</span>`
+    + `<span class="set-tile__meta">${escape(meta)}</span>${row}`
+    + '</span></a>';
+}
+
 export function tileHtml(c, value, { base = '' } = {}) {
   const total = value?.tiers[c.defaultTier];
   const art = c.logo

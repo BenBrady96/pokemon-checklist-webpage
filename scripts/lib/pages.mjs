@@ -4,7 +4,9 @@ import { COMING_SOON, CONFIG, GAMES, GAME_PAGES, LIVE_GAMES, dataDir, loadCatalo
 import { GUIDES } from '../../config/guides/index.mjs';
 import { ANALYTICS_TOKEN, DEFAULT_URL, PUBLIC, TEMPLATES, exists, readJson } from './util.mjs';
 import { formatAmount, formatMoney, priceDate, ratesOf, sourceCurrency, sourceOf, tierValues, valueUsd } from '../../public/js/core/pricing.js';
-import { releaseText, tileHtml } from '../../public/js/shared/tiles.js';
+import { releaseText, tileHtml, viewTileHtml } from '../../public/js/shared/tiles.js';
+import { buildView, viewPrices } from '../../public/js/core/view.js';
+import { loadViews } from './views.mjs';
 import { SOCIALS, socialButtons, socialMenuItems } from '../../public/js/shared/socials.js';
 
 const escapeHtml = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
@@ -73,7 +75,7 @@ function topCardsHtml(model, prices) {
   if (top.length < 3) return '';
   const original = (entry, usd) => (sourceOf(entry, rates) === 'cardmarket' ? formatAmount(entry.eur, 'eur') : formatAmount(usd, 'usd'));
   const rows = top.map(({ card, entry, usd }) => '<li>'
-    + `<span class="top-cards__card"><b>${escapeHtml(card.name)}</b><small>${escapeHtml(card.printed || card.num)} · ${escapeHtml(card.rarityShort)}</small></span>`
+    + `<span class="top-cards__card"><b>${escapeHtml(card.name)}</b><small>${card.setName ? `${escapeHtml(card.setName)} · ` : ''}${escapeHtml(card.printed || card.num)} · ${escapeHtml(card.rarityShort)}</small></span>`
     + `<span class="top-cards__price">${formatMoney(usd, { currency: 'gbp', rates })}<small>${original(entry, usd)}</small></span>`
     + '</li>').join('');
   const cardmarket = sourceCurrency(prices) === 'eur';
@@ -87,7 +89,7 @@ function topCardsHtml(model, prices) {
 
 function cardListHtml(model, sections) {
   const lists = sections.map((s) => `<h4 class="card-index__title">${escapeHtml(s.name)}${s.range ? ` <small>${escapeHtml(s.range)}</small>` : ''}</h4>`
-    + `<ol class="card-index__list">${model.cardsBySection.get(s.id).map((c) => `<li><span>${escapeHtml(c.printed || c.num)}</span> ${escapeHtml(c.name)} <small>${escapeHtml(c.rarityShort)}</small></li>`).join('')}</ol>`);
+    + `<ol class="card-index__list">${model.cardsBySection.get(s.id).map((c) => `<li><span>${escapeHtml(c.printed || c.num)}</span> ${escapeHtml(c.name)} <small>${c.setName ? `${escapeHtml(c.setName)} · ` : ''}${escapeHtml(c.rarityShort)}</small></li>`).join('')}</ol>`);
   return `<details class="card-index"><summary>${escapeHtml(model.name)} card list <small>${plural(model.cards.length, 'card')}</small></summary>${lists.join('')}</details>`;
 }
 
@@ -395,7 +397,7 @@ export async function guidePage(guide, { siteUrl = DEFAULT_URL } = {}) {
 }
 
 export async function collectionPage(id, { siteUrl = DEFAULT_URL, today = isoToday() } = {}) {
-  const [template, raw, prices, catalog] = await Promise.all([readFile(join(TEMPLATES, 'collection.html'), 'utf8'), loadRaw(id), readJson(join(dataDir(id), 'prices.json')), loadCatalog()]);
+  const [template, body, raw, prices, catalog] = await Promise.all([readFile(join(TEMPLATES, 'collection.html'), 'utf8'), collectionBody(), loadRaw(id), readJson(join(dataDir(id), 'prices.json')), loadCatalog()]);
   const entry = CONFIG.find((e) => e.id === id);
   const launchGuide = entry?.guide ? guideSectionsHtml(entry, await sealedPrices(id), { today, sub: true, parts: ['dates', 'products', 'sources'] }) : '';
   const model = await loadModel(id, { raw });
@@ -439,7 +441,7 @@ export async function collectionPage(id, { siteUrl = DEFAULT_URL, today = isoTod
       },
     ],
   };
-  const html = fill(template, {
+  const html = fill(template.replace('{{{collectionBody}}}', () => body), {
     id,
     title: `${title} | Binder Tracker`,
     description,
@@ -454,7 +456,7 @@ export async function collectionPage(id, { siteUrl = DEFAULT_URL, today = isoTod
     name: raw.name,
     aboutTitle: raw.about?.title || `About the ${raw.name} set`,
     aboutHtml: (raw.about?.paragraphs || []).map((p) => `<p>${p}</p>`).join('\n  '),
-    setGuide: [setGuideHtml(model, prices), launchGuide, relatedSetsHtml(id, catalog, today)].filter(Boolean).join('\n  '),
+    setGuide: [setGuideHtml(model, prices), await setViewLinksHtml(id, raw.name), launchGuide, relatedSetsHtml(id, catalog, today)].filter(Boolean).join('\n  '),
     robots: model.cards.length ? 'index, follow, max-image-preview:large' : 'noindex',
     disclaimer: game.disclaimer,
     game: raw.game,
@@ -469,6 +471,260 @@ export async function collectionPage(id, { siteUrl = DEFAULT_URL, today = isoTod
     setMeta: [`<a href="${raw.game}/">${escapeHtml(game.name)}</a>`, model.released ? releaseText(model.released) : '', `${complete} cards`].filter(Boolean).join(' · '),
   });
   return prefixUrls(html, '../'.repeat(id.split('/').length));
+}
+
+const collectionBody = () => readFile(join(TEMPLATES, 'partials', 'collection-body.html'), 'utf8');
+
+const SET_VIEW_LINKS = 8;
+
+async function setViewLinksHtml(id, name) {
+  const { setIndex } = await loadViews();
+  const index = setIndex.get(id);
+  if (!index) return '';
+  const counts = new Map();
+  for (const slots of Object.values(index.cards)) for (const slot of slots) counts.set(slot, (counts.get(slot) || 0) + 1);
+  const top = [...counts]
+    .map(([slot, n]) => ({ view: index.views[slot], n }))
+    .filter(({ view }) => view.kind === 'characters' && view.indexed)
+    .sort((a, b) => b.n - a.n || b.view.total - a.view.total)
+    .slice(0, SET_VIEW_LINKS);
+  if (!top.length) return '';
+  const links = top.map(({ view }) => `<a href="${view.id}/">${escapeHtml(view.name)}</a>`);
+  return `<h3 class="about__sub">Characters in ${escapeHtml(name)}</h3><p>Collect every card of a character, across all sets: ${list(links)}.</p>`;
+}
+
+const VIEW_TITLES = {
+  characters: (name, short) => `${name} ${short} cards`,
+  groups: (name, short) => `${name} ${short} cards`,
+  artists: (name, short) => `${short} cards by ${name}`,
+};
+const TITLE_LIMIT = 60;
+const titleCase = (s) => s.replace(/ cards\b/, ' Cards').replace(/ by /, ' by ');
+
+function viewTitle(entry, game) {
+  const what = titleCase(VIEW_TITLES[entry.kind](entry.name, game.shortName));
+  const full = `${entry.kind === 'artists' ? '' : 'All '}${what}: Checklist of ${entry.standard}`;
+  if (full.length <= TITLE_LIMIT) return full;
+  const short = `${what} Checklist`;
+  return short.length <= TITLE_LIMIT ? short : `${entry.name} Checklist`;
+}
+
+const yearOf = (date) => String(date || '').slice(0, 4);
+
+function viewFaqHtml(entry, model, sets, prices, game) {
+  const name = escapeHtml(entry.name);
+  const [, variantMany] = game.VARIANT_NOUN || ['variant', 'variants'];
+  const variants = entry.total - entry.standard - entry.featuring;
+  const eras = model.sections.filter((s) => s.tier === 'standard').map((s) => [s.name, model.cardsBySection.get(s.id).length]);
+  const items = [[
+    `How many ${name} cards are there?`,
+    `<p>Binder Tracker lists ${plural(entry.standard, `${name} card`, `${name} cards`)}${variants ? `, plus ${plural(variants, variantMany.replace(/s$/, ''), variantMany)}, so there are ${entry.total - entry.featuring} to collect in all` : ''}, across ${plural(ownSetCount(entry), 'set')}.</p>`
+      + (eras.length > 1 ? tally(eras) : ''),
+  ]];
+  const rates = ratesOf(prices);
+  const top = model.cards
+    .filter((card) => !card.feat)
+    .map((card) => ({ card, usd: valueUsd(prices?.cards?.[card.id], rates) }))
+    .filter((p) => p.usd > 0)
+    .sort((a, b) => b.usd - a.usd)[0];
+  if (top) {
+    items.push([
+      `What is the most valuable ${name} card?`,
+      `<p>Going by market prices, it’s ${escapeHtml(top.card.name)} from ${escapeHtml(top.card.setName)}, at about ${formatMoney(top.usd, { currency: 'gbp', rates })}. Prices are updated every day.</p>`,
+    ]);
+  }
+  if (entry.featuring) {
+    const others = [...new Set(model.cards.filter((card) => card.feat).map((card) => card.name))];
+    items.push([
+      `Which other cards feature ${name}?`,
+      `<p>${plural(others.length, 'card')} without ${name} in the title show or name them: ${list(others.map(escapeHtml))}. Together they have ${plural(entry.featuring, 'print')}. They count on the <b>Grand Master</b> tier, and <b>Master</b> leaves them out.</p>`,
+    ]);
+  }
+  items.push([
+    `Do the ${name} cards I mark here count towards my sets?`,
+    '<p>Yes. It’s the same collection, so a card you mark here is marked in its own set’s checklist too, and the other way round. Nothing is counted twice in your Portfolio.</p>',
+  ]);
+  items.push([`Is this ${name} checklist free?`, '<p>Yes. Binder Tracker is free, with <b>no ads, no sign-up and no tracking</b>. Your collection is saved on your own device and works offline.</p>']);
+  return `<h3 class="about__sub">${name} FAQ</h3>${items.map(([q, a]) => `<h4 class="about__q">${q}</h4>${a}`).join('')}`;
+}
+
+export async function viewShell(gameId) {
+  const game = GAMES[gameId];
+  const [body, extras] = await Promise.all([collectionBody(), readFile(join(TEMPLATES, 'partials', 'view-extras.html'), 'utf8')]);
+  const html = fill(body + extras, {
+    name: '',
+    setArt: '',
+    setMeta: '',
+    aboutTitle: '',
+    aboutHtml: '',
+    setGuide: '',
+    disclaimer: game.disclaimer,
+    gameHome: `${gameId}/`,
+    gameName: game.name,
+    footerGuides: footerGuides([gameId]),
+    footerSocials,
+    menuGuides: menuGuides([gameId]),
+    menuSocials,
+    helpGuides: helpGuides([gameId]),
+    gameSymbols: await readFile(join(TEMPLATES, 'symbols', `${gameId}.svg`), 'utf8').catch(() => ''),
+  });
+  return prefixUrls(html, '../../../');
+}
+
+const browseToggle = (gameId, active) => '    <nav class="seg browse-toggle" aria-label="Browse by" data-browse-toggle>'
+  + `<a class="seg__btn" href="${gameId}/"${active === 'sets' ? ' aria-current="page"' : ''}>Sets</a>`
+  + `<a class="seg__btn" href="${gameId}/characters/"${active === 'characters' ? ' aria-current="page"' : ''}>Characters</a>`
+  + '</nav>';
+
+const ownSetCount = (entry) => new Set(entry.data.cards.filter((c) => !c.feat).map((c) => c.s)).size;
+
+const VIEW_INTROS = {
+  characters: (name, short) => `every English ${short} card of ${name}`,
+  groups: (name, short) => `every English ${name} ${short} card`,
+  artists: (name, short) => `every English ${short} card illustrated by ${name}`,
+};
+
+export async function viewPage(entry, { siteUrl = DEFAULT_URL } = {}) {
+  const template = await readFile(join(TEMPLATES, 'view.html'), 'utf8');
+  const game = GAMES[entry.game];
+  const model = buildView(entry.data, { game });
+  const prices = viewPrices(entry.data, model);
+  const url = `${siteUrl}${entry.id}/`;
+  const browse = `${entry.game}/characters/`;
+  const ogImage = `${siteUrl}${await ogImageFor(entry.game)}`;
+  const sets = entry.data.sets;
+  const years = [yearOf(sets[0]?.released), yearOf(sets.at(-1)?.released)].filter(Boolean);
+  const span = years.length === 2 && years[0] !== years[1] ? `, from ${years[0]} to ${years[1]}` : '';
+  const title = viewTitle(entry, game);
+  const what = VIEW_TITLES[entry.kind](entry.name, game.shortName);
+  const ownSets = ownSetCount(entry);
+  const description = `Free checklist of ${what}: ${plural(entry.standard, 'card')} across ${plural(ownSets, 'set')}. Cards you mark here save to each set too. No ads, no sign-up.`;
+  const [, variantMany] = game.VARIANT_NOUN || ['variant', 'variants'];
+  const variants = entry.total - entry.standard - entry.featuring;
+  const tierWords = [
+    variants ? `<b>Master</b> adds the ${plural(variants, variantMany.replace(/s$/, ''), variantMany)}` : '',
+    entry.featuring ? `<b>Grand Master</b> adds ${plural(entry.featuring, 'print')} of cards that feature ${escapeHtml(entry.name)} without having the name in their title` : '',
+  ].filter(Boolean);
+  const about = [
+    `This checklist has ${VIEW_INTROS[entry.kind](escapeHtml(entry.name), escapeHtml(game.shortName))} on Binder Tracker: ${plural(entry.standard, 'card')} across ${plural(ownSets, 'set')}${span}.`,
+    `Mark a card here and it’s marked in its own set’s checklist too, and the other way round, so your sets, Portfolio and trades stay in step.${tierWords.length ? ` <b>Standard</b> counts each card once, ${list(tierWords)}.` : ''}`,
+  ];
+  const setLinks = sets.map((s) => `<a href="${s.id}/">${escapeHtml(s.name)}</a>`);
+  const sections = model.sections.filter((s) => model.cardsBySection.get(s.id).length);
+  const guide = [
+    topCardsHtml(model, prices),
+    cardListHtml(model, sections),
+    `<h3 class="about__sub">Sets with ${escapeHtml(entry.name)} cards</h3><p>${list(setLinks)}.</p>`,
+    viewFaqHtml(entry, model, sets, prices, game),
+  ];
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'CollectionPage', '@id': `${url}#page`, url, name: title, description, inLanguage: 'en-GB',
+        isPartOf: { '@id': `${siteUrl}#website` }, breadcrumb: { '@id': `${url}#breadcrumb` }, primaryImageOfPage: ogImage,
+      },
+      {
+        '@type': 'BreadcrumbList', '@id': `${url}#breadcrumb`,
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'Binder Tracker', item: siteUrl },
+          { '@type': 'ListItem', position: 2, name: game.name, item: `${siteUrl}${entry.game}/` },
+          { '@type': 'ListItem', position: 3, name: 'Browse by character', item: `${siteUrl}${browse}` },
+          { '@type': 'ListItem', position: 4, name: entry.name, item: url },
+        ],
+      },
+    ],
+  };
+  const html = fill(template, {
+    id: entry.id,
+    game: entry.game,
+    title: `${title} | Binder Tracker`,
+    description,
+    robots: entry.indexed ? 'index, follow, max-image-preview:large' : 'noindex',
+    url,
+    ogTitle: title,
+    ogImage,
+    imageAlt: `${what} checklist`,
+    jsonLd: jsonScript(jsonLd),
+    name: entry.name,
+    suffix: 'cards',
+    setArt: entry.thumb ? `<img class="set-hero__logo" src="${escapeHtml(entry.thumb)}" alt="" decoding="async">` : '',
+    setMeta: [`<a href="${browse}">Browse by character</a>`, plural(entry.standard, 'card'), plural(ownSets, 'set')].join(' · '),
+    aboutTitle: `About ${entry.name} cards`,
+    aboutHtml: about.map((p) => `<p>${p}</p>`).join('\n  '),
+    viewGuide: guide.filter(Boolean).join('\n  '),
+  });
+  return prefixUrls(html, '../'.repeat(entry.id.split('/').length));
+}
+
+const BROWSE_GROUPS = {
+  pokemon: [['Pokémon', (v) => v.kind === 'characters' && !v.role], ['Trainers', (v) => v.role === 'trainer'], ['Groups and teams', (v) => v.kind === 'groups'], ['Artists', (v) => v.kind === 'artists']],
+  yugioh: [['Characters', (v) => v.kind === 'characters'], ['Archetypes', (v) => v.kind === 'groups']],
+  lorcana: [['Characters', (v) => v.kind === 'characters'], ['Franchises', (v) => v.kind === 'groups'], ['Artists', (v) => v.kind === 'artists']],
+};
+const BROWSE_OPEN = 1;
+
+export async function viewBrowsePage(gameId, { siteUrl = DEFAULT_URL } = {}) {
+  const template = await readFile(join(TEMPLATES, 'game.html'), 'utf8');
+  const game = GAMES[gameId];
+  const { views } = await loadViews();
+  const mine = views.filter((v) => v.game === gameId);
+  const url = `${siteUrl}${gameId}/characters/`;
+  const ogImage = `${siteUrl}${await ogImageFor(gameId)}`;
+  const groups = BROWSE_GROUPS[gameId].map(([heading, test]) => [heading, mine.filter(test).sort((a, b) => b.total - a.total || a.name.localeCompare(b.name, 'en'))]).filter(([, list2]) => list2.length);
+  const body = groups.map(([heading, list2], i) => `<details class="home-series" data-series${i < BROWSE_OPEN ? ' open data-open' : ''}>`
+    + `<summary class="home-series__head"><h3 class="home-series__title">${escapeHtml(heading)}</h3><span class="home-series__count">${list2.length}</span></summary>`
+    + `<div class="set-grid set-grid--small">${list2.map((v) => viewTileHtml({ href: `${v.id}/`, name: v.name, thumb: v.thumb, meta: plural(v.standard, 'card'), search: `${v.name} ${v.slug.replace(/-/g, ' ')}` })).join('')}</div>`
+    + '</details>').join('\n');
+  const description = `Collect every ${game.shortName} card of one character, across all sets. ${mine.length} free checklists that stay in step with your sets. No ads, no sign-up.`;
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'CollectionPage', '@id': `${url}#page`, url, name: `${game.shortName} cards by character`, description, inLanguage: 'en-GB',
+        isPartOf: { '@id': `${siteUrl}#website` }, breadcrumb: { '@id': `${url}#breadcrumb` }, primaryImageOfPage: ogImage,
+      },
+      {
+        '@type': 'BreadcrumbList', '@id': `${url}#breadcrumb`,
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'Binder Tracker', item: siteUrl },
+          { '@type': 'ListItem', position: 2, name: game.name, item: `${siteUrl}${gameId}/` },
+          { '@type': 'ListItem', position: 3, name: 'Browse by character', item: url },
+        ],
+      },
+    ],
+  };
+  const about = [
+    `Some collectors chase a character rather than a set. Pick one here to see every card of them in one checklist, whichever set it came from.`,
+    'Cards you mark are saved to their own sets, so your set checklists, Portfolio and trades all stay in step, and nothing is counted twice.',
+  ];
+  const html = fill(template, {
+    title: `${game.shortName} Cards by Character: Free Checklists | Binder Tracker`,
+    description,
+    url,
+    ogTitle: `${game.shortName} cards by character`,
+    ogDescription: description,
+    twitterDescription: description,
+    ogImage,
+    imageAlt: `${game.shortName} cards by character`,
+    jsonLd: jsonScript(jsonLd),
+    game: gameId,
+    heroTitle: 'Browse by character',
+    heroText: `Every ${game.shortName} card of one character, across all sets. Cards you mark here save to their own sets too.`,
+    searchPlaceholder: 'Find a character…',
+    searchLabel: 'Find a character',
+    noMatchText: 'Nothing matches',
+    browseToggle: browseToggle(gameId, 'characters'),
+    collections: body,
+    aboutTitle: `About ${game.shortName} character checklists`,
+    aboutHtml: about.map((p) => `  <p>${p}</p>`).join('\n'),
+    footerGuides: footerGuides([gameId]),
+    footerSocials,
+    menuGuides: menuGuides([gameId]),
+    menuSocials,
+    disclaimer: game.disclaimer,
+  });
+  return prefixUrls(html, '../../');
 }
 
 export async function setValues(catalog) {
@@ -688,6 +944,9 @@ export async function gamePage(gameId, { siteUrl = DEFAULT_URL, today = isoToday
     heroTitle: page.heroTitle,
     heroText: page.heroText(counts),
     searchPlaceholder: page.search,
+    searchLabel: 'Find a set',
+    noMatchText: 'No sets match',
+    browseToggle: browseToggle(gameId, 'sets'),
     collections: collectionsHtml(catalog, await setValues(catalog), soon, today),
     aboutTitle: page.aboutTitle,
     aboutHtml: page.about.map((p) => `  <p>${p}</p>`).join('\n'),
@@ -715,6 +974,7 @@ async function docUpdated(file) {
 
 export async function sitemap({ siteUrl = DEFAULT_URL, today = new Date().toISOString().slice(0, 10) } = {}) {
   const catalog = await loadCatalog();
+  const { views } = await loadViews();
   const soon = await Promise.all(COMING_SOON.map(async (entry) => {
     const sealed = await sealedPrices(entry.id);
     return [`${entry.id}/`, 'weekly', '0.9', [entry.guide.updated, sealed?.updated].filter(Boolean).sort().at(-1)];
@@ -725,6 +985,8 @@ export async function sitemap({ siteUrl = DEFAULT_URL, today = new Date().toISOS
     ...soon,
     ...GUIDES.map((g) => [`${g.id}/`, 'monthly', '0.8', g.updated]),
     ['trade/', 'monthly', '0.7', today],
+    ...LIVE_GAMES.map((g) => [`${g}/characters/`, 'weekly', '0.8', today]),
+    ...views.filter((v) => v.indexed).map((v) => [`${v.id}/`, 'weekly', '0.7', today]),
     ...catalog.collections.filter((c) => c.total > 0).map((c) => [`${c.id}/`, 'weekly', '0.9', today]),
     ['privacy.html', 'yearly', '0.3', await docUpdated('privacy.html')],
     ['terms.html', 'yearly', '0.3', await docUpdated('terms.html')],

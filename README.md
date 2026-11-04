@@ -19,6 +19,7 @@ Your collection is saved in your own browser, and the site works offline once yo
 ## Features
 
 - Standard, Master and Grand Master tiers, covering each game's extra versions: reverse holos, patterns and 1st Editions for Pokémon, every rarity for Yu-Gi-Oh!, and foils, Epic, Enchanted and Iconic cards for Lorcana
+- Character pages that collect every card of one character across all sets, such as every Mew, Dark Magician Girl or Mickey Mouse, plus artists, groups, archetypes and franchises. Cards marked there show in their own set too
 - Grid, list and binder page views, with copy counts for duplicates
 - Quick add for marking lots of cards at once, with undo
 - A card scanner that recognises cards through your camera, on your device

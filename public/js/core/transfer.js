@@ -3,12 +3,30 @@ import { entryBySyncKey } from './catalog.js';
 
 export const findEntry = (catalog, decoded) => entryBySyncKey(catalog, decoded.key);
 
-export function backupFile(sets, { name = '', history = null, exported = new Date() } = {}) {
+const VIEW_ID = /^[a-z]+\/(?:characters|artists|groups)\/[a-z0-9-]+$/;
+
+export function backupFile(sets, { name = '', history = null, pinned = null, exported = new Date() } = {}) {
   const data = { app: 'binder-tracker', version: 2, exported: exported.toISOString() };
   if (name) data.name = name;
   data.collections = Object.fromEntries(sets.map(({ id, counts, tier }) => [id, tier ? { cards: counts, tier } : { cards: counts }]));
   if (history) data.history = history;
+  if (pinned?.length) data.pinned = pinned;
   return data;
+}
+
+export function mergeBackupPins(text) {
+  let pinned;
+  try {
+    pinned = JSON.parse(text)?.pinned;
+  } catch {
+    return false;
+  }
+  if (!Array.isArray(pinned)) return false;
+  const mine = storage.getPrefs().pinned;
+  const added = pinned.filter((id) => typeof id === 'string' && VIEW_ID.test(id) && !mine.includes(id));
+  if (!added.length) return false;
+  storage.setPref('pinned', [...mine, ...added]);
+  return true;
 }
 
 const sameCounts = (a, b) => {

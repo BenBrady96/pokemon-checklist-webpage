@@ -192,6 +192,7 @@ const actions = {
     const data = backupFile(result.sets.map(({ id, counts, tier }) => ({ id, counts, tier })), {
       name: result.name,
       history: result.whole ? readHistory() : null,
+      pinned: result.whole ? storage.getPrefs().pinned : null,
     });
     download(data, fileName());
     markBackup();

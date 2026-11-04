@@ -2,8 +2,17 @@ import { COLLECTION } from '../core/collection.js';
 import * as storage from '../core/storage.js';
 
 const ID = COLLECTION.id;
-const DATA_KEY = storage.collectionKey(ID);
 const UNDO_LIMIT = 50;
+const backend = COLLECTION.backend || {
+  keys: new Set([storage.collectionKey(ID)]),
+  load: () => storage.readCounts(ID),
+  save(values) {
+    const counts = {};
+    for (const card of COLLECTION.cards) if (values.has(card.id)) counts[card.id] = values.get(card.id);
+    storage.writeCounts(ID, counts, COLLECTION);
+  },
+};
+let tierOverride = backend.readOnly ? backend.tier : null;
 
 export const { MAX_QTY, clampQty, isStorageOk } = storage;
 
@@ -11,19 +20,18 @@ const qty = new Map();
 
 function loadQty() {
   qty.clear();
-  for (const [id, n] of Object.entries(storage.readCounts(ID))) {
+  for (const [id, n] of Object.entries(backend.load())) {
     if (COLLECTION.cardById.has(id)) qty.set(id, n);
   }
 }
 
-function persist() {
-  const counts = {};
-  for (const card of COLLECTION.cards) if (qty.has(card.id)) counts[card.id] = qty.get(card.id);
-  storage.writeCounts(ID, counts, COLLECTION);
+function persist(changed) {
+  backend.save(qty, changed);
 }
 
 export const getQty = (id) => qty.get(id) || 0;
 export const ownedCount = () => qty.size;
+export const isReadOnly = () => Boolean(backend.readOnly);
 
 const listeners = new Set();
 
@@ -46,6 +54,10 @@ export function begin() {
 }
 
 export function set(id, value) {
+  if (backend.readOnly) {
+    backend.onBlocked?.();
+    return false;
+  }
   const to = clampQty(value);
   const from = getQty(id);
   if (to === from) return false;
@@ -56,7 +68,7 @@ export function set(id, value) {
     tx.set(id, { from: prev ? prev.from : from, to });
   } else {
     record(new Map([[id, { from, to }]]));
-    persist();
+    persist([id]);
   }
   emit([id], { source: 'set' });
   return true;
@@ -69,7 +81,7 @@ export function commit() {
   for (const [id, d] of diffs) if (d.from === d.to) diffs.delete(id);
   if (!diffs.size) return null;
   const entry = record(diffs);
-  persist();
+  persist([...diffs.keys()]);
   return entry;
 }
 
@@ -86,7 +98,7 @@ function applyEntry(entry, key) {
     if (d[key]) qty.set(id, d[key]);
     else qty.delete(id);
   }
-  persist();
+  persist([...entry.diffs.keys()]);
   emit([...entry.diffs.keys()], { source: key === 'from' ? 'undo' : 'redo' });
 }
 
@@ -151,7 +163,7 @@ export function getPrefs() {
   const p = storage.getPrefs();
   if (p !== prefsSource) {
     prefsSource = p;
-    prefsView = { ...p, tier: COLLECTION.getTier(p.tiers[ID]).id };
+    prefsView = { ...p, tier: COLLECTION.getTier(tierOverride ?? p.tiers[ID]).id };
   }
   return prefsView;
 }
@@ -161,26 +173,42 @@ export function setPref(key, value) {
     storage.setPref(key, value);
     return;
   }
+  if (backend.readOnly) {
+    tierOverride = value;
+    prefsSource = null;
+    for (const fn of tierListeners) fn('tier', value);
+    return;
+  }
   const tiers = storage.getPrefs().tiers;
   if (tiers[ID] === value) return;
   storage.setPref('tiers', { ...tiers, [ID]: value });
 }
 
+const tierListeners = new Set();
+
 export function onPrefChange(fn) {
+  tierListeners.add(fn);
   return storage.onPrefChange((key, value) => fn(key === 'tiers' ? 'tier' : key, value));
 }
 
 storage.onPrefChange((key) => {
-  if (key === 'tiers' && qty.size) persist();
+  if (key === 'tiers' && qty.size && !COLLECTION.backend) persist();
 });
 
-window.addEventListener('storage', (e) => {
-  if (e.key !== DATA_KEY) return;
+export function reloadFromStorage() {
   loadQty();
   undoStack.length = 0;
   redoStack.length = 0;
   emit(null, { source: 'external' });
+}
+
+window.addEventListener('storage', (e) => {
+  if (backend.keys.has(e.key)) reloadFromStorage();
+});
+
+window.addEventListener('pageshow', (e) => {
+  if (e.persisted) reloadFromStorage();
 });
 
 loadQty();
-if (storage.getPrefs().lastCollection !== ID) storage.setPref('lastCollection', ID);
+if (!COLLECTION.backend && storage.getPrefs().lastCollection !== ID) storage.setPref('lastCollection', ID);

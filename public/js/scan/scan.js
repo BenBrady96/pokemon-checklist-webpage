@@ -524,6 +524,8 @@ function priceLine(prices, id) {
 
 async function writeOne(set, cardId, delta) {
   if (set === options.prefer && options.current) return options.current(cardId, delta);
+  const routed = options.route?.(set, cardId);
+  if (routed) return options.current(routed, delta);
   const model = await fetchCollection(set).catch(() => null);
   const counts = storage.readCounts(set);
   const from = counts[cardId] || 0;

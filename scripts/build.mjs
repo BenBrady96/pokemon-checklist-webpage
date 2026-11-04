@@ -2,7 +2,8 @@ import { access, cp, mkdir, readdir, readFile, rm, stat, writeFile } from 'node:
 import { dirname, join, relative, sep } from 'node:path';
 import { COMING_SOON, CONFIG, LIVE_GAMES } from './lib/collections.mjs';
 import { GUIDES } from '../config/guides/index.mjs';
-import { collectionPage, comingSoonPage, gamePage, guidePage, listPage, portfolioPage, rootPage, sharedPage, sitemap, tradePage, withAnalytics } from './lib/pages.mjs';
+import { collectionPage, comingSoonPage, gamePage, guidePage, listPage, portfolioPage, rootPage, sharedPage, sitemap, tradePage, viewBrowsePage, viewPage, viewShell, withAnalytics } from './lib/pages.mjs';
+import { loadViews, viewDataPath } from './lib/views.mjs';
 import { DEFAULT_URL, INDEXNOW_KEY, PUBLIC, ROOT } from './lib/util.mjs';
 
 const OUT = join(ROOT, 'dist');
@@ -52,6 +53,16 @@ await emit('shared/index.html', await sharedPage({ siteUrl: SITE_URL }));
 for (const entry of CONFIG) await emit(`${entry.id}/index.html`, await collectionPage(entry.id, { siteUrl: SITE_URL, today: TODAY }));
 for (const entry of COMING_SOON) await emit(`${entry.id}/index.html`, await comingSoonPage(entry, { siteUrl: SITE_URL, today: TODAY }));
 for (const guide of GUIDES) await emit(`${guide.id}/index.html`, await guidePage(guide, { siteUrl: SITE_URL }));
+const { views, setIndex } = await loadViews();
+for (const game of LIVE_GAMES) {
+  await emit(`data/${game}/views/shell.txt`, await viewShell(game));
+  await emit(`${game}/characters/index.html`, await viewBrowsePage(game, { siteUrl: SITE_URL }));
+}
+for (const view of views) {
+  await emit(viewDataPath(view.id), JSON.stringify(view.data));
+  await emit(`${view.id}/index.html`, await viewPage(view, { siteUrl: SITE_URL }));
+}
+for (const [setId, index] of setIndex) await emit(`data/${setId}/views.json`, JSON.stringify(index));
 await emit('sitemap.xml', await sitemap({ siteUrl: SITE_URL, today: TODAY }));
 await emit(`${INDEXNOW_KEY}.txt`, INDEXNOW_KEY);
 
@@ -68,7 +79,7 @@ const missing = [];
 for (const path of shell) if (!(await exists(join(OUT, path)))) missing.push(path);
 if (missing.length) throw new Error(`sw.js SHELL lists files that don't exist: ${missing.join(', ')}`);
 
-const setPages = new Set([...CONFIG, ...COMING_SOON].map((e) => `${e.id}/index.html`));
+const setPages = new Set([...CONFIG, ...COMING_SOON, ...views, ...LIVE_GAMES.map((g) => ({ id: `${g}/characters` }))].map((e) => `${e.id}/index.html`));
 const files = await listFiles(OUT);
 const unlisted = files
   .map((file) => relative(OUT, file).split(sep).join('/'))
@@ -84,7 +95,7 @@ for (const file of files) {
   if (folder.startsWith('img/cards/')) byFolder.set(folder, (byFolder.get(folder) || 0) + size);
 }
 const mb = (n) => `${(n / 1048576).toFixed(1)} MB`;
-console.log(`Built dist/: ${files.length} files, ${mb(bytes)} (${CONFIG.length} collections${COMING_SOON.length ? `, ${COMING_SOON.length} coming soon` : ''})`);
+console.log(`Built dist/: ${files.length} files, ${mb(bytes)} (${CONFIG.length} collections${COMING_SOON.length ? `, ${COMING_SOON.length} coming soon` : ''}, ${views.length} character pages, ${views.filter((v) => v.indexed).length} indexed)`);
 console.log(`Site URL: ${SITE_URL}`);
 console.log(`Service worker version: ${VERSION}`);
 if (process.argv.includes('--sizes')) {

@@ -1,5 +1,7 @@
 import { loadCatalog, entryById } from '../core/catalog.js';
-import { fetchCollection, fetchPrices } from '../core/collection.js';
+import { fetchCollection, fetchPrices, fetchView } from '../core/collection.js';
+import { viewThumb } from '../core/view.js';
+import { progressOf } from '../view/progress.js';
 import { normalize } from '../core/model.js';
 import { asset } from '../core/paths.js';
 import * as storage from '../core/storage.js';
@@ -12,12 +14,26 @@ import { formatMoney, tierValues } from '../core/pricing.js';
 import { collectionWorth } from '../core/worth.js';
 import { initHeader, showWorth } from '../shared/header.js';
 import { plural, formatAgo } from '../shared/format.js';
-import { tileHtml } from '../shared/tiles.js';
+import { tileHtml, viewTileHtml } from '../shared/tiles.js';
 
 const search = document.getElementById('set-search');
 const continueSection = document.getElementById('continue');
 const continueGrid = document.getElementById('continue-grid');
 const noMatch = document.getElementById('no-match');
+const pinnedSection = document.getElementById('pinned');
+const pinnedGrid = document.getElementById('pinned-grid');
+const continueMore = document.getElementById('continue-more');
+const browseToggle = document.querySelector('[data-browse-toggle]');
+const browsePages = new Map();
+const pageKey = (url) => {
+  const { origin, pathname } = new URL(url);
+  return `${origin}${pathname.replace(/index\.html$/, '')}`;
+};
+let shownBrowsePage = pageKey(location.href);
+let browseRun = 0;
+const CONTINUE_CAP = 12;
+let continueOpen = false;
+let pinnedRun = 0;
 const isRoot = !document.getElementById('catalog');
 let catalog = { games: [], collections: [] };
 
@@ -98,6 +114,36 @@ async function refreshSummaries(ids) {
   if (results.some((r) => r.value)) showProgress();
 }
 
+function capContinue() {
+  if (!continueMore) return;
+  const tiles = [...continueGrid.children];
+  tiles.forEach((tile, i) => {
+    tile.hidden = !continueOpen && i >= CONTINUE_CAP;
+  });
+  continueMore.hidden = continueOpen || tiles.length <= CONTINUE_CAP;
+  continueMore.textContent = `Show all ${tiles.length}`;
+}
+
+async function showPinned() {
+  if (!pinnedGrid) return;
+  const run = ++pinnedRun;
+  const game = document.body.dataset.game;
+  const pins = storage.getPrefs().pinned.filter((id) => !game || id.startsWith(`${game}/`));
+  const tiles = await Promise.all(pins.map(async (id) => {
+    try {
+      const raw = await fetchView(id);
+      return viewTileHtml({
+        href: asset(`${id}/`), name: raw.name, thumb: viewThumb(raw, asset), meta: `${raw.sets.length} ${raw.sets.length === 1 ? 'set' : 'sets'}`, progress: progressOf(raw),
+      });
+    } catch {
+      return '';
+    }
+  }));
+  if (run !== pinnedRun) return;
+  pinnedGrid.innerHTML = tiles.join('');
+  pinnedSection.hidden = Boolean(search?.value.trim()) || !pinnedGrid.children.length;
+}
+
 function paintGames(stored) {
   for (const button of document.querySelectorAll('.game-btn[data-game]')) {
     const n = stored.filter(({ id }) => entryById(catalog, id)?.game === button.dataset.game).length;
@@ -140,11 +186,77 @@ function showProgress() {
       return tile ? tile.cloneNode(true) : null;
     }).filter(Boolean));
   }
+  capContinue();
+  showPinned();
   continueSection.hidden = !continueGrid.children.length;
   paintValues();
   refreshWorth();
   if (isRoot) loadRootValues(stored.map(({ id }) => id));
   if (stale.length) refreshSummaries(stale);
+}
+
+function absoluteLinks(root, base) {
+  for (const link of root.querySelectorAll('a[href], link[rel~="icon"], link[rel="apple-touch-icon"], link[rel="manifest"]')) {
+    const href = link.getAttribute('href');
+    if (!href.startsWith('#')) link.setAttribute('href', new URL(href, base).href);
+  }
+  for (const img of root.querySelectorAll('img[src]')) img.setAttribute('src', new URL(img.getAttribute('src'), base).href);
+}
+
+function readBrowsePage(doc) {
+  const input = doc.getElementById('set-search');
+  return {
+    title: doc.title,
+    description: doc.querySelector('meta[name="description"]').getAttribute('content'),
+    canonical: doc.querySelector('link[rel="canonical"]').getAttribute('href'),
+    heroTitle: doc.querySelector('.home-hero__title').innerHTML,
+    heroText: doc.querySelector('.home-hero__text').textContent,
+    placeholder: input.getAttribute('placeholder'),
+    label: input.getAttribute('aria-label'),
+    noMatch: doc.getElementById('no-match').firstChild.textContent,
+    catalog: doc.getElementById('catalog'),
+    about: doc.querySelector('.about'),
+  };
+}
+
+async function loadBrowsePage(url) {
+  const key = pageKey(url);
+  if (browsePages.has(key)) return browsePages.get(key);
+  const res = await fetch(url);
+  if (!res.ok) throw new Error(`${url}: HTTP ${res.status}`);
+  const doc = new DOMParser().parseFromString(await res.text(), 'text/html');
+  absoluteLinks(doc, url);
+  const page = readBrowsePage(doc);
+  browsePages.set(key, page);
+  return page;
+}
+
+async function showBrowsePage(url, { push = true } = {}) {
+  const run = ++browseRun;
+  if (!browsePages.size) {
+    absoluteLinks(document, location.href);
+    browsePages.set(pageKey(location.href), readBrowsePage(document));
+  }
+  const page = await loadBrowsePage(url);
+  if (run !== browseRun) return;
+  document.getElementById('catalog').replaceWith(page.catalog);
+  document.querySelector('.about').replaceWith(page.about);
+  document.title = page.title;
+  document.querySelector('meta[name="description"]').setAttribute('content', page.description);
+  document.querySelector('link[rel="canonical"]').setAttribute('href', page.canonical);
+  document.querySelector('.home-hero__title').innerHTML = page.heroTitle;
+  document.querySelector('.home-hero__text').textContent = page.heroText;
+  search.setAttribute('placeholder', page.placeholder);
+  search.setAttribute('aria-label', page.label);
+  noMatch.firstChild.textContent = page.noMatch;
+  shownBrowsePage = pageKey(url);
+  for (const link of browseToggle.querySelectorAll('a')) {
+    if (pageKey(link.href) === shownBrowsePage) link.setAttribute('aria-current', 'page');
+    else link.removeAttribute('aria-current');
+  }
+  if (push) history.pushState(null, '', url);
+  showProgress();
+  filterSets();
 }
 
 function filterSets() {
@@ -168,6 +280,7 @@ function filterSets() {
     sub.hidden = !sub.nextElementSibling?.querySelector('.set-tile:not([hidden])');
   }
   continueSection.hidden = Boolean(tokens.length) || !continueGrid.children.length;
+  if (pinnedSection) pinnedSection.hidden = Boolean(tokens.length) || !pinnedGrid.children.length;
   noMatch.hidden = shown > 0;
   noMatch.querySelector('span').textContent = search.value.trim();
 }
@@ -203,6 +316,24 @@ function wire() {
   storage.onPrefChange((key) => {
     if (key === 'currency') paintValues();
     if (key === 'lastBackup') paintLastBackup();
+  });
+  continueMore?.addEventListener('click', () => {
+    continueOpen = true;
+    capContinue();
+  });
+  browseToggle?.addEventListener('click', (e) => {
+    const link = e.target.closest('a');
+    if (!link || e.ctrlKey || e.metaKey || e.shiftKey || e.altKey) return;
+    e.preventDefault();
+    if (link.getAttribute('aria-current') === 'page') return;
+    const { href } = link;
+    showBrowsePage(href).catch(() => {
+      location.href = href;
+    });
+  });
+  window.addEventListener('popstate', () => {
+    if (!browseToggle || pageKey(location.href) === shownBrowsePage) return;
+    showBrowsePage(location.href, { push: false }).catch(() => location.reload());
   });
   search?.addEventListener('input', filterSets);
   search?.addEventListener('keydown', (e) => {

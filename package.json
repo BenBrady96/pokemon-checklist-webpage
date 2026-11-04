@@ -17,7 +17,8 @@
     "images:force": "node scripts/local/build-images.mjs --force",
     "prices": "node scripts/build-prices.mjs",
     "scan-index": "node scripts/local/build-scan-index.mjs",
-    "scan-eval": "node scripts/local/scan-eval.mjs"
+    "scan-eval": "node scripts/local/scan-eval.mjs",
+    "tags": "node scripts/local/build-tags.mjs"
   },
   "devDependencies": {
     "onnxruntime-node": "1.30.0",

@@ -24,7 +24,7 @@ Object.defineProperty(globalThis, 'localStorage', {
 });
 
 const { encodeCollection, decodeCode, resolveCode, parseSyncText, parseBackup, collectionBytes, toBase64Url } = await import('../public/js/core/codec.js');
-const { backupFile } = await import('../public/js/core/transfer.js');
+const { backupFile, mergeBackupPins } = await import('../public/js/core/transfer.js');
 const { parseQuickAdd } = await import('../public/js/set/quickadd.js');
 
 let failures = 0;
@@ -253,7 +253,7 @@ for (const path of ['js/vendor/ort/ort.wasm.min.mjs', 'js/vendor/ort/ort-wasm-si
 const big = models.get('pokemon/ascended-heroes');
 check(big && big.cards.length > 255, 'a set with more than 255 entries exists and round-trips (Ascended Heroes)');
 
-const { encodeTrade, decodeTrade, encodeProposal, decodeProposal, encodeList, decodeList, readTradeText, cleanName, inflate } = await import('../public/js/trade/trade-code.js');
+const { encodeTrade, decodeTrade, encodeProposal, decodeProposal, encodeList, decodeList, encodeViewShare, decodeViewShare, readTradeText, cleanName, inflate } = await import('../public/js/trade/trade-code.js');
 const { balance, standing, spareOf, buildLists, bump, emptyDraft } = await import('../public/js/trade/trade-data.js');
 const tradeSets = ['pokemon/151', 'pokemon/mega-evolution', 'pokemon/30th-celebration'].map((id, i) => {
   const model = models.get(id);
@@ -480,7 +480,7 @@ if (meg) {
   const { footerSocials, rootPage } = await import('./lib/pages.mjs');
   const { SOCIALS } = await import('../public/js/shared/socials.js');
   for (const name of ['index', 'game', 'collection', 'list', 'portfolio', 'shared', 'trade', 'guide']) {
-    const page = await readFile(join(TEMPLATES, `${name}.html`), 'utf8');
+    const page = `${await readFile(join(TEMPLATES, `${name}.html`), 'utf8')}${name === 'collection' ? await readFile(join(TEMPLATES, 'partials', 'collection-body.html'), 'utf8') : ''}`;
     check(/<footer class="site-footer[\s\S]*\{\{\{footerSocials\}\}\}[\s\S]*<\/footer>/.test(page), `templates/${name}.html: the footer has the social links`);
     if (page.includes('id="dlg-menu"')) check(page.includes('{{{menuSocials}}}'), `templates/${name}.html: the menu has a Follow us group`);
   }
@@ -490,6 +490,149 @@ if (meg) {
   const ld = JSON.parse(/<script type="application\/ld\+json">(.*?)<\/script>/s.exec(await rootPage())[1]);
   const org = ld['@graph'].find((n) => n['@type'] === 'Organization');
   check(JSON.stringify(org.sameAs) === JSON.stringify(SOCIALS.map((s) => s.url)), 'the home page JSON-LD lists the social profiles in sameAs');
+}
+
+{
+  const { loadViews, VIEW_FOLDERS, INDEX_MIN, MIN_ARTIST_CARDS, slugify } = await import('./lib/views.mjs');
+  const { buildView, viewDataPath, viewPrices } = await import('../public/js/core/view.js');
+  const { viewBackend, sharedBackend } = await import('../public/js/view/backend.js');
+  const { TRAINERS, GROUPS } = await import('../config/views/pokemon.mjs');
+  const { CHARACTERS } = await import('../config/views/yugioh.mjs');
+  const { gamePage, sitemap, viewBrowsePage, viewPage, viewShell } = await import('./lib/pages.mjs');
+  const { views, byId, setIndex, reservedClash } = await loadViews();
+
+  check(!reservedClash.length, `no set uses a slug the character pages need (${VIEW_FOLDERS.join(', ')}): ${reservedClash.join(', ')}`);
+  check(new Set(views.map((v) => v.id)).size === views.length && views.every((v) => /^[a-z0-9-]+$/.test(v.slug)), 'character pages have unique ids and clean slugs');
+  check(viewDataPath('pokemon/characters/mew') === 'data/pokemon/views/characters/mew.json', 'character data path');
+
+  const rawCards = new Map();
+  const cardsOf = async (setId) => {
+    if (!rawCards.has(setId)) rawCards.set(setId, new Map((await loadRaw(setId)).cards.map((c) => [c.id, c])));
+    return rawCards.get(setId);
+  };
+  for (const view of views) {
+    const game = GAMES[view.game];
+    let model;
+    try {
+      model = buildView(view.data, { game });
+    } catch (err) {
+      check(false, `${view.id}: ${err.message}`);
+      continue;
+    }
+    check(view.total > 0 && model.cards.length === view.total, `${view.id}: has cards`);
+    check(model.getTier('standard').cards.every((c) => !c.variant && !c.feat) && model.getTier('master').cards.length === view.total - view.featuring && model.getTier('grand').cards.length === view.total, `${view.id}: Standard has no variants, Master adds every print and Grand Master adds cards featuring the character`);
+    let resolved = true;
+    for (const card of view.data.cards) {
+      const real = (await cardsOf(view.data.sets[card.s].id)).get(card.c);
+      if (!real || real.idx !== card.x || real.name !== card.name) resolved = false;
+    }
+    check(resolved, `${view.id}: every card points at a real card in its set`);
+    check(view.indexed === (view.total >= INDEX_MIN), `${view.id}: indexed only with ${INDEX_MIN} or more cards`);
+    if (view.kind === 'artists') check(view.total >= MIN_ARTIST_CARDS, `${view.id}: artists need ${MIN_ARTIST_CARDS} or more cards`);
+  }
+
+  const tags = { pokemon: await readJson(join(ROOT, 'config', 'views', 'tags-pokemon.json')), lorcana: await readJson(join(ROOT, 'config', 'views', 'tags-lorcana.json')), yugioh: await readJson(join(ROOT, 'config', 'views', 'tags-yugioh.json')) };
+  for (const entry of CONFIG) {
+    const raw = await loadRaw(entry.id);
+    if (!raw?.cards?.length) continue;
+    const missing = raw.cards.filter((c) => (entry.game === 'yugioh' ? tags.yugioh?.[String(c.img)] === undefined : tags[entry.game]?.[entry.slug]?.[c.img || c.id] === undefined));
+    check(!missing.length, `${entry.id}: ${missing.length} card(s) have no tags (run npm run tags)`);
+  }
+
+  for (const t of TRAINERS) check(byId.has(`pokemon/characters/${slugify(t.name)}`), `trainer ${t.name} has cards`);
+  for (const g of GROUPS) check(byId.has(`pokemon/groups/${slugify(g.name)}`), `group ${g.name} has cards`);
+  for (const c of CHARACTERS) check(byId.has(`yugioh/characters/${slugify(c.name)}`), `Yu-Gi-Oh! character ${c.name} has cards`);
+
+  const namesIn = (id) => new Set(byId.get(id)?.data.cards.map((c) => c.name));
+  const mew = namesIn('pokemon/characters/mew');
+  const mewtwo = namesIn('pokemon/characters/mewtwo');
+  check(mew.has('Mew') && mew.has('Mew ex'), 'Mew has Mew and Mew ex');
+  check([...mew].some((n) => /Mewtwo & Mew/.test(n)) && [...mewtwo].some((n) => /Mewtwo & Mew/.test(n)), 'Mewtwo & Mew GX is on both Mew and Mewtwo');
+  check(![...mew].some((n) => /Mewtwo/.test(n) && !/&/.test(n)), 'Mewtwo alone isn’t on Mew');
+  check(!namesIn('pokemon/characters/charizard').has('Charizard Spirit Link'), 'Charizard Spirit Link isn’t on Charizard');
+  check(namesIn('pokemon/characters/misty').has('Misty\'s Psyduck') && namesIn('pokemon/characters/psyduck').has('Misty\'s Psyduck'), 'Misty’s Psyduck counts for Misty and Psyduck');
+  check(!namesIn('pokemon/characters/n').has('Unown [N]') && namesIn('pokemon/characters/n').has('N'), 'N doesn’t pick up Unown [N]');
+  check(namesIn('pokemon/characters/chimchar').has('Chimchar') && !namesIn('pokemon/characters/monferno').has('Chimchar'), 'TCGdex’s wrong Pokédex number for one Chimchar is corrected');
+  check(!namesIn('lorcana/characters/mickey-mouse').has('Pluto - Mickey\'s Clever Friend'), 'Pluto - Mickey’s Clever Friend isn’t on Mickey Mouse');
+  check(namesIn('lorcana/characters/mickey-mouse').has('Mickey Mouse & Minnie Mouse - Adventuring Duo') && namesIn('lorcana/characters/minnie-mouse').has('Mickey Mouse & Minnie Mouse - Adventuring Duo'), 'a card with two Lorcana characters is on both');
+  check(namesIn('yugioh/characters/dark-magician-girl').has('Toon Dark Magician Girl'), 'Toon Dark Magician Girl is on Dark Magician Girl');
+  check(!namesIn('yugioh/characters/dark-magician').has('Dark Magician Girl'), 'Dark Magician Girl isn’t on Dark Magician');
+
+  const girl = byId.get('yugioh/characters/dark-magician-girl');
+  const girlModel = buildView(girl.data, { game: GAMES.yugioh });
+  const featuredNames = new Set(girl.data.cards.filter((c) => c.feat).map((c) => c.name));
+  check(['Dark Magical Curtain', 'The Dark Magicians', "Magician's Salvation"].every((n) => featuredNames.has(n)), 'cards naming Dark Magician Girl in their text are on her page');
+  check(['Magician Navigation', "Magicians' Defense"].every((n) => featuredNames.has(n)), 'cards showing Dark Magician Girl only in their artwork are on her page');
+  check(![...featuredNames].some((n) => /Dark Magician Girl/.test(n)), 'cards named after Dark Magician Girl aren’t also counted as featuring her');
+  check(girl.standard === 53 && girlModel.getTier('master').cards.length === 80 && girlModel.getTier('grand').cards.length === girl.total && girl.total > 80, `Dark Magician Girl tiers: ${girl.standard} / ${girlModel.getTier('master').cards.length} / ${girl.total}`);
+  check(girlModel.defaultTier === 'grand' && girlModel.visibleTiers.length === 3, 'Dark Magician Girl opens on Grand Master, with all three tiers');
+  check(!girl.data.cards[girl.data.thumb].feat, 'a character page’s picture is one of its own cards');
+  const mewModel = buildView(byId.get('pokemon/characters/mew').data, { game: GAMES.pokemon });
+  check(mewModel.visibleTiers.map((t) => t.id).join() === 'standard,master' && mewModel.defaultTier === 'master', 'pages with no featured cards still have just Standard and Master');
+  check(setIndex.get(girl.data.sets[girl.data.cards.find((c) => c.feat).s].id).views.some((v) => v.id === girl.id), 'a featured card’s info panel links to the character');
+
+  const sample = byId.get('pokemon/characters/mew');
+  const sampleModel = buildView(sample.data, { game: GAMES.pokemon });
+  const twoSets = sampleModel.cards.filter((c, i, all) => all.findIndex((x) => x.s === c.s) === i).slice(0, 2);
+  const setId = sample.data.sets[twoSets[0].s].id;
+  localStorage.setItem(`bt:v1:c:${setId}`, JSON.stringify({ v: 1, q: { 'not-in-this-view': 3 }, updated: 1 }));
+  const backend = viewBackend(sampleModel);
+  check(backend.keys.has(`bt:v1:c:${setId}`), 'a character page watches every set it uses');
+  backend.save(new Map([[twoSets[0].id, 2]]), [twoSets[0].id]);
+  const saved = JSON.parse(localStorage.getItem(`bt:v1:c:${setId}`)).q;
+  check(saved[twoSets[0].c] === 2 && saved['not-in-this-view'] === 3, 'marking on a character page keeps the set’s other cards');
+  check(backend.load()[twoSets[0].id] === 2, 'a character page reads what it saved');
+  backend.save(new Map(), [twoSets[0].id]);
+  check(!JSON.parse(localStorage.getItem(`bt:v1:c:${setId}`)).q[twoSets[0].c], 'unmarking on a character page removes the card from its set');
+  localStorage.removeItem(`bt:v1:c:${setId}`);
+
+  const prices = viewPrices(sample.data, sampleModel);
+  check(Object.keys(prices.cards).length > 0 && Object.keys(prices.cards).every((id) => sampleModel.cardById.has(id)), 'character page prices use its own card ids');
+
+  const lines = twoSets.map((c) => ({ key: sample.data.sets[c.s].key, lines: [[c.x, 2]] }));
+  for (const compress of [true, false]) {
+    const code = await encodeViewShare({ name: ' Sam ', tier: 'standard', sets: lines }, { compress });
+    const back = await decodeViewShare(code);
+    check(back?.kind === 'view' && back.name === 'Sam' && back.tier === 'standard' && JSON.stringify(back.sets) === JSON.stringify(lines), `share link round trip (compress ${compress})`);
+    check(/^[A-Za-z0-9_-]+$/.test(code), 'share link code is URL safe');
+    const shared = sharedBackend(sampleModel, back).load();
+    check(shared[twoSets[0].id] === 2 && shared[twoSets[1].id] === 2, 'a share link marks the right cards');
+    check(await decodeList(code) === null && await decodeTrade(code) === null, 'a share link isn’t read as another kind of code');
+  }
+  check(await decodeViewShare('notacode') === null && await decodeViewShare('') === null, 'broken share links are rejected');
+  const big = await encodeViewShare({ tier: 'master', sets: [{ key: 'MEG', lines: Array.from({ length: 16385 }, (_, i) => [i, 1]) }] }, { compress: false });
+  check(await decodeViewShare(big) === null, 'share links with too many cards are rejected');
+  check(sharedBackend(sampleModel, { tier: 'master', sets: [{ key: 'NOPE', lines: [[1, 1]] }] }).readOnly === true, 'a shared page can’t save');
+
+  const file = backupFile([{ id: 'pokemon/151', counts: { '001': 1 }, tier: 'grand' }], { pinned: ['pokemon/characters/mew'] });
+  check(file.pinned?.[0] === 'pokemon/characters/mew' && parseBackup(JSON.stringify(file)), 'Whole collection files carry pinned pages and still read');
+  check(!backupFile([{ id: 'pokemon/151', counts: { '001': 1 } }], { pinned: [] }).pinned, 'a file with no pins leaves the field out');
+  const { getPrefs, setPref } = await import('../public/js/core/storage.js');
+  setPref('pinned', []);
+  check(mergeBackupPins(JSON.stringify({ pinned: ['pokemon/characters/mew', 'javascript:alert(1)', 5] })) && JSON.stringify(getPrefs().pinned) === '["pokemon/characters/mew"]', 'importing a file adds valid pins and ignores anything else');
+  check(!mergeBackupPins(JSON.stringify({ pinned: ['pokemon/characters/mew'] })) && !mergeBackupPins('not json'), 'importing pins twice changes nothing');
+  setPref('pinned', []);
+
+  for (const [setKey, index] of setIndex) {
+    const known = await cardsOf(setKey);
+    check(Object.keys(index.cards).every((id) => known.has(id)) && Object.values(index.cards).every((slots) => slots.every((slot) => index.views[slot])), `${setKey}: the card to character index is valid`);
+  }
+
+  const page = await viewPage(sample);
+  check(page.includes('index, follow') && page.includes('Mew') && !page.includes('\u2014'), 'a large character page is indexed, and its text has no em dashes');
+  const small = views.find((v) => !v.indexed);
+  check(small && (await viewPage(small)).includes('content="noindex"'), 'a small character page is noindex');
+  const shell = await viewShell('pokemon');
+  check(shell.includes('id="dlg-view-share"') && shell.includes('id="collection"') && !shell.includes('{{'), 'the character page shell is complete');
+  const browse = await viewBrowsePage('lorcana');
+  check(browse.includes('characters/mickey-mouse/'), 'the browse page links to character pages');
+  const toggleOf = (html) => /<nav class="seg browse-toggle"[^]*?<\/nav>/.exec(html)?.[0] || '';
+  const setsPage = await gamePage('lorcana');
+  check(/aria-current="page">Sets</.test(toggleOf(setsPage)) && !/aria-current="page">Characters</.test(toggleOf(setsPage)), 'a game page opens with Sets selected in the toggle');
+  check(/aria-current="page">Characters</.test(toggleOf(browse)) && !/aria-current="page">Sets</.test(toggleOf(browse)), 'the browse page has Characters selected in the toggle');
+  check(!setsPage.includes('home-scan" href="../lorcana/characters/"'), 'the toggle replaces the Browse by character button');
+  const map = await sitemap();
+  check(map.includes('pokemon/characters/mew/') && !map.includes(`${small.id}/`), 'the sitemap lists indexed character pages only');
 }
 
 console.log(failures ? `\n${failures} of ${checks} checks failed` : `All ${checks} checks passed (${models.size} collections)`);

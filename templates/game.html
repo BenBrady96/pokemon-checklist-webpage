@@ -132,23 +132,30 @@
   <section class="home-hero">
     <h1 class="home-hero__title">{{{heroTitle}}}</h1>
     <p class="home-hero__text">{{heroText}}</p>
+{{{browseToggle}}}
     <label class="search home-search">
       <svg class="search__icon" aria-hidden="true"><use href="#i-search"/></svg>
-      <input type="search" class="search__input" id="set-search" placeholder="{{searchPlaceholder}}" aria-label="Find a set" autocomplete="off" enterkeyhint="search">
+      <input type="search" class="search__input" id="set-search" placeholder="{{searchPlaceholder}}" aria-label="{{searchLabel}}" autocomplete="off" enterkeyhint="search">
     </label>
     <button type="button" class="btn btn--ghost home-scan" data-open="scan"><svg><use href="#i-camera"/></svg>Scan a card to add it</button>
     <a class="btn btn--ghost home-scan" href="trade/"><svg><use href="#i-swap"/></svg>Trade with a friend</a>
   </section>
 
+  <section class="home-continue" id="pinned" hidden aria-labelledby="pinned-title">
+    <h2 class="home__heading" id="pinned-title">Pinned</h2>
+    <div class="set-grid" id="pinned-grid"></div>
+  </section>
+
   <section class="home-continue" id="continue" hidden aria-labelledby="continue-title">
     <h2 class="home__heading" id="continue-title">Continue collecting</h2>
     <div class="set-grid" id="continue-grid"></div>
+    <button type="button" class="btn btn--ghost home-more" id="continue-more" hidden></button>
   </section>
 
   <div id="catalog">
 {{{collections}}}
   </div>
-  <p class="home-empty" id="no-match" hidden>No sets match “<span></span>”.</p>
+  <p class="home-empty" id="no-match" hidden>{{noMatchText}} “<span></span>”.</p>
 </main>
 
 <section class="about wrap" aria-labelledby="about-title">
@@ -158,6 +165,7 @@
 
 <footer class="site-footer wrap">
   <nav class="footer-links" aria-label="Site">
+    <a href="{{game}}/characters/">Browse by character</a>
 {{{footerGuides}}}    <a href="privacy.html">Privacy &amp; cookies</a>
     <a href="terms.html">Terms of use</a>
     <a href="https://github.com/BenBrady96/pokemon-checklist-webpage" rel="noopener">Source on GitHub</a>

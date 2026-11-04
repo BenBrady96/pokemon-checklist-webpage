@@ -1,0 +1,35 @@
+<svg class="sprite" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M12 17v5M9 3h6l-1 7 4 4H6l4-4z"/></symbol>
+  </defs>
+</svg>
+<dialog class="sheet" id="dlg-view-share" aria-labelledby="view-share-title">
+  <div class="sheet__inner">
+    <header class="sheet__head">
+      <h2 class="sheet__title" id="view-share-title">Share this page</h2>
+      <button type="button" class="icon-btn" data-close aria-label="Close"><svg><use href="#i-close"/></svg></button>
+    </header>
+    <div class="sheet__body ls">
+      <p class="hint" data-vs="intro"></p>
+      <label class="field ls-name">
+        <span class="field__label">Your name (optional)</span>
+        <input class="input" data-vs="name" maxlength="24" autocomplete="nickname" placeholder="So they know whose cards these are">
+      </label>
+      <p class="ls-empty" data-vs="empty" hidden>There are no cards to show yet. Mark the cards you own, then share the page.</p>
+      <section class="ls-link" data-vs="link-box" aria-labelledby="view-share-link" hidden>
+        <h3 class="ls-group__title" id="view-share-link">Your link</h3>
+        <input class="input" data-vs="url" readonly aria-label="Link to this page with your cards">
+        <details class="ls-qr" data-vs="qr-box">
+          <summary>Show a QR code</summary>
+          <div class="share__qr tr-qr" data-vs="qr" role="img" aria-label="QR code of your link"></div>
+        </details>
+        <p class="hint hint--small">The link is a snapshot of your cards. Make a new one after you change your collection.</p>
+      </section>
+    </div>
+    <footer class="sheet__foot sheet__foot--wrap ls-foot">
+      <a class="btn btn--ghost" data-vs="open" target="_blank" rel="noopener" aria-disabled="true"><svg><use href="#i-external"/></svg>Preview</a>
+      <button type="button" class="btn btn--ghost" data-vs="share" hidden><svg><use href="#i-share"/></svg>Share…</button>
+      <button type="button" class="btn btn--primary" data-vs="copy" disabled><svg><use href="#i-copy"/></svg>Copy link</button>
+    </footer>
+  </div>
+</dialog>

@@ -64,10 +64,12 @@ const DEFAULT_PREFS = {
   currency: 'gbp',
   installBanner: null,
   motionTilt: false,
+  pinned: [],
 };
 
 let prefs = { ...DEFAULT_PREFS, ...(read(PREFS_KEY) || {}) };
 if (!prefs.tiers || typeof prefs.tiers !== 'object') prefs.tiers = {};
+if (!Array.isArray(prefs.pinned)) prefs.pinned = [];
 const prefListeners = new Set();
 
 export const getPrefs = () => prefs;

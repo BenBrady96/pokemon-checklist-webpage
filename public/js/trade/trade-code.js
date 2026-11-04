@@ -4,6 +4,7 @@ import { MAX_QTY } from '../core/storage.js';
 const TRADE = 0x54;
 const PROPOSAL = 0x50;
 const LIST = 0x4C;
+const VIEW = 0x56;
 const VERSION = 1;
 const DEFLATED = 0x80;
 const TIERS = ['standard', 'master', 'grand'];
@@ -13,6 +14,7 @@ const LIST_HAVE = 1;
 const LIST_MISSING = 2;
 const LIST_NO_COUNTS = 4;
 const MAX_LINES = 500;
+const MAX_VIEW_LINES = 16384;
 const MAX_NAME_BYTES = 96;
 const MAX_NAME_CHARS = 24;
 const MAX_INFLATED = 512 * 1024;
@@ -284,7 +286,52 @@ function readList(body) {
   return { kind: 'list', created, name, key, n, tier, have, missing, counts };
 }
 
-const READERS = { [TRADE]: readTrade, [PROPOSAL]: readProposal, [LIST]: readList };
+export function encodeViewShare({ name = '', created = Date.now(), tier, sets }, { compress = true } = {}) {
+  const out = [];
+  pushVarint(out, minutes(created));
+  pushName(out, name);
+  out.push(Math.max(0, TIERS.indexOf(tier)));
+  pushVarint(out, sets.length);
+  for (const { key, lines } of sets) {
+    pushKey(out, key);
+    pushVarint(out, lines.length);
+    for (const [idx, q] of lines) {
+      pushVarint(out, idx);
+      out.push(Math.max(1, Math.min(MAX_QTY, q)));
+    }
+  }
+  return pack(VIEW, out, compress);
+}
+
+function readViewShare(body) {
+  const r = reader(body);
+  const created = r.varint() * MINUTE;
+  const name = readName(r);
+  const tier = TIERS[r.byte()];
+  if (!tier) throw BAD;
+  const count = r.varint();
+  if (count > MAX_SETS) throw BAD;
+  const sets = [];
+  let total = 0;
+  for (let i = 0; i < count; i++) {
+    const key = readKey(r);
+    const n = r.varint();
+    total += n;
+    if (total > MAX_VIEW_LINES) throw BAD;
+    const lines = [];
+    for (let j = 0; j < n; j++) {
+      const idx = r.varint();
+      const q = r.byte();
+      if (q < 1 || q > MAX_QTY) throw BAD;
+      lines.push([idx, q]);
+    }
+    sets.push({ key, lines });
+  }
+  if (!r.done()) throw BAD;
+  return { kind: 'view', created, name, tier, sets };
+}
+
+const READERS = { [TRADE]: readTrade, [PROPOSAL]: readProposal, [LIST]: readList, [VIEW]: readViewShare };
 
 async function decodeAs(kind, code) {
   const body = await unpack(fromBase64Url(code), kind);
@@ -299,6 +346,7 @@ async function decodeAs(kind, code) {
 export const decodeTrade = (code) => decodeAs(TRADE, code);
 export const decodeProposal = (code) => decodeAs(PROPOSAL, code);
 export const decodeList = (code) => decodeAs(LIST, code);
+export const decodeViewShare = (code) => decodeAs(VIEW, code);
 
 const KIND_OF = { t: TRADE, p: PROPOSAL };
 

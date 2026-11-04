@@ -3,7 +3,7 @@ import { fetchCollection } from '../core/collection.js';
 import { asset } from '../core/paths.js';
 import * as storage from '../core/storage.js';
 import { parseBackup } from '../core/codec.js';
-import { applyEntries, findEntry } from '../core/transfer.js';
+import { applyEntries, findEntry, mergeBackupPins } from '../core/transfer.js';
 import { mergeBackupHistory } from '../core/history.js';
 import { encodeTrade, readTradeText, UNSUPPORTED } from '../trade/trade-code.js';
 import { resolveFriend, resolveBackupFile } from '../trade/trade-data.js';
@@ -56,7 +56,10 @@ export async function applyReceived(received, ids, choice, { names, current, und
     return;
   }
   storage.requestPersistence();
-  if (fileText) mergeBackupHistory(fileText);
+  if (fileText) {
+    mergeBackupHistory(fileText);
+    mergeBackupPins(fileText);
+  }
   toast(`${choice === 'merge' ? 'Merged' : 'Replaced'} ${listNames(names)}`, {
     icon: 'i-check',
     action: {

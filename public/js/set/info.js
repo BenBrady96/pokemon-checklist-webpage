@@ -1,8 +1,13 @@
-import { COLLECTION } from '../core/collection.js';
+import { COLLECTION, fetchSetViews, fetchView } from '../core/collection.js';
+import { asset } from '../core/paths.js';
+import { getPrefs as getSitePrefs } from '../core/storage.js';
+import { TIER_DEFS } from '../core/model.js';
+import { progressOf } from '../view/progress.js';
 import { getQty } from './store.js';
 import { rarityIcon } from './render.js';
 import { priceOf, marketUsd, formatPrice, formatUsd, formatEur, pricesUpdated, cardmarketUpdated, hasCardmarket, priceCurrency, SYMBOLS } from '../core/pricing.js';
 import { openDialog, escapeHTML } from '../shared/ui.js';
+import { plural } from '../shared/format.js';
 
 const INFO = COLLECTION.info;
 const PACK_SECTIONS = new Set(INFO.packSections || []);
@@ -73,6 +78,55 @@ function tierText(card) {
   return ` · ${escapeHTML(tier.name)}${tier === last ? '' : ' and up'}`;
 }
 
+const TIER_RANK = new Map(TIER_DEFS.map((t, i) => [t.id, i]));
+
+function setLine(card, section) {
+  if (!COLLECTION.isView) return `<p>${escapeHTML(section.name)}${tierText(card)}</p>`;
+  const set = COLLECTION.viewSets[card.s];
+  const chosen = getSitePrefs().tiers[set.id];
+  const hidden = chosen && TIER_RANK.get(card.st || 'standard') > TIER_RANK.get(chosen);
+  return `<p><a href="${asset(`${set.id}/`)}#card-${encodeURIComponent(card.c)}">${escapeHTML(set.name)}</a> · ${escapeHTML(section.name)}${tierText(card)}</p>`
+    + (hidden ? `<p class="hint hint--small">This card is saved, but it’s hidden on the ${escapeHTML(set.name)} page because you’re collecting a smaller tier there.</p>` : '');
+}
+
+const VIEW_LABEL = {
+  characters: (name) => `All ${name} cards`,
+  artists: (name) => `Cards by ${name}`,
+  groups: (name) => `${name} cards`,
+};
+const VIEW_ORDER = ['characters', 'groups', 'artists'];
+const MAX_VIEW_LINKS = 4;
+let viewRun = 0;
+
+function viewRow(view, text) {
+  return `<li><a href="${asset(`${view.id}/`)}">${escapeHTML(VIEW_LABEL[view.kind](view.name))}</a> <small>${escapeHTML(text)}</small></li>`;
+}
+
+async function showViews(card, body) {
+  const run = ++viewRun;
+  if (COLLECTION.isView) return;
+  const index = await fetchSetViews(COLLECTION.id);
+  const slots = index?.cards?.[card.id];
+  if (!slots?.length || run !== viewRun) return;
+  const views = slots.map((i) => index.views[i])
+    .sort((a, b) => VIEW_ORDER.indexOf(a.kind) - VIEW_ORDER.indexOf(b.kind) || a.total - b.total)
+    .slice(0, MAX_VIEW_LINKS);
+  const rows = await Promise.all(views.map(async (view) => {
+    if (view.kind !== 'characters') return viewRow(view, plural(view.total, 'card', 'cards'));
+    try {
+      const { owned, total } = progressOf(await fetchView(view.id));
+      return viewRow(view, `you have ${owned} of ${total}`);
+    } catch {
+      return viewRow(view, plural(view.total, 'card', 'cards'));
+    }
+  }));
+  if (run !== viewRun) return;
+  const block = document.createElement('section');
+  block.className = 'info__block info__views';
+  block.innerHTML = `<h3 class="field__label">Collect by character</h3><ul class="info__view-list">${rows.join('')}</ul>`;
+  body.append(block);
+}
+
 function render(card) {
   const section = COLLECTION.sectionById.get(card.section);
   const q = getQty(card.id);
@@ -84,7 +138,7 @@ function render(card) {
     + '<div class="info__facts">'
     + `<p class="info__meta"><span>${escapeHTML(card.numberText)}</span><span class="info__rarity">${rarityIcon(card)}${escapeHTML(card.rarityName)}</span></p>`
     + (stats ? `<p class="info__stats">${escapeHTML(stats)}</p>` : '')
-    + `<p>${escapeHTML(section.name)}${tierText(card)}</p>`
+    + setLine(card, section)
     + `<p class="info__owned${q ? ' is-owned' : ''}">${q ? `In your collection${q > 1 ? ` · ${q} copies` : ''}` : 'Not in your collection yet'}</p>`
     + '</div></div>'
     + (where ? `<section class="info__block"><h3 class="field__label">Where to get it</h3>${where}</section>` : '')
@@ -102,6 +156,7 @@ export function initInfo() {
       title.textContent = card.name;
       body.innerHTML = render(card);
       openDialog(dlg);
+      showViews(card, body);
     },
   };
 }
