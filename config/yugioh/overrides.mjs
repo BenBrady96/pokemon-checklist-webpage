@@ -24,6 +24,7 @@ export const KIND_RULES = [
 export const FORCE = {
   "Pharaoh's Servant (25th Anniversary Edition)": { promo: false, kind: 'set', slug: 'pharaohs-servant-25th-anniversary-edition', syncKey: 'YPSV2', tcgplayer: [23054] },
   'Dark Crisis (25th Anniversary Edition)': { promo: false, kind: 'set', slug: 'dark-crisis-25th-anniversary-edition', syncKey: 'YDCR2', tcgplayer: [23055] },
+  'Maze of Machines': { skip: 'only 1 card listed so far; remove this once YGOPRODeck has the full set' },
 };
 
 export const EXTRA_SETS = [

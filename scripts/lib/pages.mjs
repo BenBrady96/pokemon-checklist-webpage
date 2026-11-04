@@ -172,6 +172,8 @@ function citations(guide) {
   return { link, text: (html) => html.replace(/\s*\[([a-z0-9-]+)\]/g, (match, id) => (number.has(id) ? link(id) : match)) };
 }
 
+const checklistOpens = (guide) => (guide.fullList ? 'the card images are available' : 'the full card list is published');
+
 function guideSectionsHtml(entry, sealed, { today, sub = false, parts }) {
   const { guide } = entry;
   const cite = citations(guide);
@@ -202,9 +204,16 @@ function guideSectionsHtml(entry, sealed, { today, sub = false, parts }) {
     previews: () => {
       if (!guide.previews?.length) return '';
       const sources = guide.sources.map((s) => s.id).filter((id) => guide.previews.some((c) => c.source === id));
+      const count = plural(guide.previews.length, 'card');
+      const list = `<ol class="card-index__list guide-cards">${guide.previews.map((c) => `<li><span>No. ${c.num}</span> ${escapeHtml(c.name)}${c.rarity ? ` <small>${escapeHtml(c.rarity)}</small>` : ''}</li>`).join('')}</ol>`;
+      if (guide.fullList) {
+        return heading('guide-cards', `${name} card list`)
+          + `<p>Here are all ${count}, by card number${sources.map(cite.link).join('')}.${out ? '' : ' These come from listings made before release, so names can still change.'}</p>`
+          + `<details class="card-index"><summary>Full card list <small>${count}</small></summary>${list}</details>`;
+      }
       return heading('guide-cards', `${name} cards revealed so far`)
-        + `<p>These are the ${plural(guide.previews.length, 'card')} shown so far, by card number${sources.map(cite.link).join('')}. The full list will be in the checklist.</p>`
-        + `<ol class="card-index__list guide-cards">${guide.previews.map((c) => `<li><span>No. ${c.num}</span> ${escapeHtml(c.name)}${c.rarity ? ` <small>${escapeHtml(c.rarity)}</small>` : ''}</li>`).join('')}</ol>`;
+        + `<p>These are the ${count} shown so far, by card number${sources.map(cite.link).join('')}. The full list will be in the checklist.</p>`
+        + list;
     },
     products: () => {
       if (!guide.products.length) {
@@ -230,7 +239,7 @@ function guideSectionsHtml(entry, sealed, { today, sub = false, parts }) {
     faq: () => {
       const items = [
         [`When ${out ? 'did' : 'does'} ${name} come out?`, `${name} ${whenText(guide, out)}${cite.link(guide.releaseSource)}.${guide.releaseWindow && !out ? ' The exact date hasn’t been announced yet.' : ''}`],
-        [`Is there a ${name} checklist?`, `Yes. Binder Tracker’s free ${name} checklist opens on this page as soon as the full card list is published. Like every checklist here, it has <b>no ads, no sign-up and no tracking</b>, works offline and keeps your collection on your own device.`],
+        [`Is there a ${name} checklist?`, `Yes. Binder Tracker’s free ${name} checklist opens on this page as soon as ${checklistOpens(guide)}. Like every checklist here, it has <b>no ads, no sign-up and no tracking</b>, works offline and keeps your collection on your own device.`],
         ...(guide.faq || []).map(({ q, a }) => [q, cite.text(a)]),
       ];
       return heading('guide-faq', `${name} FAQ`) + items.map(([q, a]) => `<h3 class="guide-q">${q}</h3><p>${a}</p>`).join('\n  ');
@@ -318,7 +327,7 @@ export async function comingSoonPage(entry, { siteUrl = DEFAULT_URL, today = iso
     `<p class="guide-kicker"><span class="soon-pill">${out ? 'Out now · checklist coming soon' : 'Checklist coming soon'}</span></p>`,
     `<h1>${name}: ${topic}</h1>`,
     `<p class="doc__updated">${escapeHtml(game.name)} · ${game.SERIES_NOUN === 'year' ? '' : `${escapeHtml(entry.series)} ${game.SERIES_NOUN || 'series'} · `}Facts checked ${longDate(guide.updated)}</p>`,
-    `<p class="doc__lead"><b>${name} ${whenText(guide, out)}.</b>${cite.link(guide.releaseSource)} The free ${name} checklist opens on this page as soon as the full card list is published, with no ads, no sign-up and no tracking.</p>`,
+    `<p class="doc__lead"><b>${name} ${whenText(guide, out)}.</b>${cite.link(guide.releaseSource)} The free ${name} checklist opens on this page as soon as ${checklistOpens(guide)}, with no ads, no sign-up and no tracking.</p>`,
     guideSectionsHtml(entry, sealed, { today, parts: ['dates', 'about', 'previews', 'products', 'japanese', 'faq'] }),
     moreSetsHtml(entry, catalog),
     guideSectionsHtml(entry, sealed, { today, parts: ['sources'] }),
