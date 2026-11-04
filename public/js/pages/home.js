@@ -127,8 +127,13 @@ function capContinue() {
 async function showPinned() {
   if (!pinnedGrid) return;
   const run = ++pinnedRun;
+  if (!shownBrowsePage.endsWith('/characters/')) {
+    pinnedGrid.replaceChildren();
+    pinnedSection.hidden = true;
+    return;
+  }
   const game = document.body.dataset.game;
-  const pins = storage.getPrefs().pinned.filter((id) => !game || id.startsWith(`${game}/`));
+  const pins = storage.getPrefs().pinned.filter((id) => id.startsWith(`${game}/`));
   const tiles = await Promise.all(pins.map(async (id) => {
     try {
       const raw = await fetchView(id);

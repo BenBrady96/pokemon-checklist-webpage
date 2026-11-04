@@ -16,7 +16,7 @@ function paintPin() {
   if (!button) return;
   const pinned = isPinned();
   button.setAttribute('aria-pressed', String(pinned));
-  button.querySelector('span').textContent = pinned ? 'Pinned' : 'Pin to home';
+  button.querySelector('span').textContent = pinned ? 'Pinned' : 'Pin';
 }
 
 function togglePin() {
@@ -24,7 +24,7 @@ function togglePin() {
   const on = isPinned();
   storage.setPref('pinned', on ? pinned.filter((id) => id !== COLLECTION.id) : [...pinned, COLLECTION.id]);
   paintPin();
-  toast(on ? `Unpinned ${COLLECTION.name}.` : `Pinned ${COLLECTION.name} to your home page.`, { icon: 'i-check' });
+  toast(on ? `Unpinned ${COLLECTION.name}.` : `Pinned ${COLLECTION.name} to the top of the Characters page.`, { icon: 'i-check' });
 }
 
 function relabelShare() {

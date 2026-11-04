@@ -631,6 +631,7 @@ if (meg) {
   check(/aria-current="page">Sets</.test(toggleOf(setsPage)) && !/aria-current="page">Characters</.test(toggleOf(setsPage)), 'a game page opens with Sets selected in the toggle');
   check(/aria-current="page">Characters</.test(toggleOf(browse)) && !/aria-current="page">Sets</.test(toggleOf(browse)), 'the browse page has Characters selected in the toggle');
   check(!setsPage.includes('home-scan" href="../lorcana/characters/"'), 'the toggle replaces the Browse by character button');
+  check(!(await readFile(join(TEMPLATES, 'index.html'), 'utf8')).includes('id="pinned"') && (await readFile(join(TEMPLATES, 'game.html'), 'utf8')).includes('id="pinned"'), 'the root page has no Pinned row, and the game template does');
   const map = await sitemap();
   check(map.includes('pokemon/characters/mew/') && !map.includes(`${small.id}/`), 'the sitemap lists indexed character pages only');
 }
