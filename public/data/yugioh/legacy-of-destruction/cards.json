@@ -21,6 +21,12 @@
       "name": "Quarter Century Secret Rares",
       "range": "24 cards",
       "tier": "master"
+    },
+    {
+      "id": "tokens",
+      "name": "Tokens",
+      "range": "5 tokens",
+      "tier": "master"
     }
   ],
   "summary": [
@@ -31,6 +37,10 @@
     [
       "r-qcsr",
       "Quarter Century Secret Rares"
+    ],
+    [
+      "tokens",
+      "Tokens"
     ]
   ],
   "quickAdd": {
@@ -40,7 +50,7 @@
     "empty": "Cards run from LEDE-EN000 to LEDE-EN100."
   },
   "help": {
-    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 101 cards, each in its main rarity. Master adds the 24 other rarities. Cards you’ve marked are kept when you switch."
+    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 101 cards, each in its main rarity. Master adds the 24 other rarities and 5 tokens. Cards you’ve marked are kept when you switch."
   },
   "seo": {
     "title": "Yu-Gi-Oh! Legacy of Destruction Checklist · All 101 Cards",
@@ -52,8 +62,8 @@
   "about": {
     "title": "About the Legacy of Destruction set",
     "paragraphs": [
-      "Legacy of Destruction is a Yu-Gi-Oh! TCG booster set released on 25 April 2024, in the SEVENS &amp; GO RUSH!! era. It has 101 cards, and with the 24 other rarities there are 125 to collect in all.",
-      "Choose what you’re collecting: the <b>Standard set</b> (the 101 cards, each in its main rarity) or the <b>Master set</b> (all 125, adding the 24 other rarities).",
+      "Legacy of Destruction is a Yu-Gi-Oh! TCG booster set released on 25 April 2024, in the SEVENS &amp; GO RUSH!! era. It has 101 cards, and with the 24 other rarities and 5 tokens there are 130 to collect in all.",
+      "Choose what you’re collecting: the <b>Standard set</b> (the 101 cards, each in its main rarity) or the <b>Master set</b> (all 130, adding the 24 other rarities and 5 tokens).",
       "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
       "Card details and images come from YGOPRODeck, and prices from TCGplayer."
     ]
@@ -191,6 +201,11 @@
     {"id":"061-qcsr","section":"r-qcsr","num":"061","printed":"LEDE-EN061","name":"Nightmare Throne","ctype":"spell","keywords":"Field Spell","stats":{"t":"Field Spell"},"rarity":"QCSR","img":"93729896","badge":"QCSR","variant":"Quarter Century Secret Rare","code":"QCSR61","tcg":546846,"grp":23383,"idx":82},
     {"id":"064-qcsr","section":"r-qcsr","num":"064","printed":"LEDE-EN064","name":"Wake Up Centur-Ion!","ctype":"spell","keywords":"Centur-Ion Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"QCSR","img":"92907248","badge":"QCSR","variant":"Quarter Century Secret Rare","code":"QCSR64","tcg":546850,"grp":23383,"idx":86},
     {"id":"087-qcsr","section":"r-qcsr","num":"087","printed":"LEDE-EN087","name":"Vouiburial, the Dragon Undertaker","ctype":"monster","keywords":"Illusion DARK Effect Monster","stats":{"a":"DARK","l":"Level 10","t":"Illusion / Effect","atk":3000,"def":0},"rarity":"QCSR","img":"36974120","badge":"QCSR","variant":"Quarter Century Secret Rare","code":"QCSR87","tcg":546874,"grp":23383,"idx":110},
-    {"id":"092-qcsr","section":"r-qcsr","num":"092","printed":"LEDE-EN092","name":"Veidos the Dragon of Endless Darkness","ctype":"monster","keywords":"Pyro DARK Fusion Monster","stats":{"a":"DARK","l":"Level 10","t":"Pyro / Fusion","atk":3000,"def":1700},"rarity":"QCSR","img":"8540986","badge":"QCSR","variant":"Quarter Century Secret Rare","code":"QCSR92","tcg":546880,"grp":23383,"idx":116}
+    {"id":"092-qcsr","section":"r-qcsr","num":"092","printed":"LEDE-EN092","name":"Veidos the Dragon of Endless Darkness","ctype":"monster","keywords":"Pyro DARK Fusion Monster","stats":{"a":"DARK","l":"Level 10","t":"Pyro / Fusion","atk":3000,"def":1700},"rarity":"QCSR","img":"8540986","badge":"QCSR","variant":"Quarter Century Secret Rare","code":"QCSR92","tcg":546880,"grp":23383,"idx":116},
+    {"id":"TKN5-001","section":"tokens","num":"TKN5-EN001","printed":"TKN5-EN001","name":"Token: Yugi Muto and Gandora-X the Dragon of Demolition","ctype":"token","keywords":"Token","stats":{"t":"Token"},"rarity":"SR","img":"tcg547753","tcg":547753,"grp":23383,"idx":125},
+    {"id":"TKN5-002","section":"tokens","num":"TKN5-EN002","printed":"TKN5-EN002","name":"Token: Dr. Crowler and Ancient Gear Golem","ctype":"token","keywords":"Token","stats":{"t":"Token"},"rarity":"SR","img":"tcg547755","tcg":547755,"grp":23383,"idx":126},
+    {"id":"TKN5-003","section":"tokens","num":"TKN5-EN003","printed":"TKN5-EN003","name":"Token: Zuzu and Bloom Diva the Melodious Choir","ctype":"token","keywords":"Token","stats":{"t":"Token"},"rarity":"SR","img":"tcg547758","tcg":547758,"grp":23383,"idx":127},
+    {"id":"TKN5-004","section":"tokens","num":"TKN5-EN004","printed":"TKN5-EN004","name":"Token: Shay and Raidraptor - Ultimate Falcon","ctype":"token","keywords":"Token","stats":{"t":"Token"},"rarity":"SR","img":"tcg547759","tcg":547759,"grp":23383,"idx":128},
+    {"id":"TKN5-005","section":"tokens","num":"TKN5-EN005","printed":"TKN5-EN005","name":"Token: Yugi Muto and Silent Magician and Silent Swordsman","ctype":"token","keywords":"Token","stats":{"t":"Token"},"rarity":"SR","img":"tcg547760","tcg":547760,"grp":23383,"idx":129}
   ]
 }

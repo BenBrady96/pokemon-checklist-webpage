@@ -21,6 +21,12 @@
       "name": "Starlight Rares",
       "range": "24 cards",
       "tier": "master"
+    },
+    {
+      "id": "tokens",
+      "name": "Tokens",
+      "range": "5 tokens",
+      "tier": "master"
     }
   ],
   "summary": [
@@ -31,6 +37,10 @@
     [
       "r-str",
       "Starlight Rares"
+    ],
+    [
+      "tokens",
+      "Tokens"
     ]
   ],
   "quickAdd": {
@@ -40,7 +50,7 @@
     "empty": "Cards run from DUAD-EN001 to DUAD-EN101."
   },
   "help": {
-    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 101 cards, each in its main rarity. Master adds the 24 other rarities. Cards you’ve marked are kept when you switch."
+    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 101 cards, each in its main rarity. Master adds the 24 other rarities and 5 tokens. Cards you’ve marked are kept when you switch."
   },
   "seo": {
     "title": "Yu-Gi-Oh! Duelist's Advance Checklist · All 101 Cards",
@@ -52,8 +62,8 @@
   "about": {
     "title": "About the Duelist's Advance set",
     "paragraphs": [
-      "Duelist&#39;s Advance is a Yu-Gi-Oh! TCG booster set released on 3 July 2025, in the SEVENS &amp; GO RUSH!! era. It has 101 cards, and with the 24 other rarities there are 125 to collect in all.",
-      "Choose what you’re collecting: the <b>Standard set</b> (the 101 cards, each in its main rarity) or the <b>Master set</b> (all 125, adding the 24 other rarities).",
+      "Duelist&#39;s Advance is a Yu-Gi-Oh! TCG booster set released on 3 July 2025, in the SEVENS &amp; GO RUSH!! era. It has 101 cards, and with the 24 other rarities and 5 tokens there are 130 to collect in all.",
+      "Choose what you’re collecting: the <b>Standard set</b> (the 101 cards, each in its main rarity) or the <b>Master set</b> (all 130, adding the 24 other rarities and 5 tokens).",
       "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
       "Card details and images come from YGOPRODeck, and prices from TCGplayer."
     ]
@@ -191,6 +201,11 @@
     {"id":"078-str","section":"r-str","num":"078","printed":"DUAD-EN078","name":"Trap Holic","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"StR","img":"22377092","badge":"StR","variant":"Starlight Rare","code":"STR78","tcg":641285,"grp":24265,"idx":121},
     {"id":"093-str","section":"r-str","num":"093","printed":"DUAD-EN093","name":"R.B. VALCan Booster","ctype":"monster","keywords":"R.B. Machine FIRE Link Monster","stats":{"a":"FIRE","l":"Link 2","t":"Machine / Link","atk":500},"rarity":"StR","img":"6821579","badge":"StR","variant":"Starlight Rare","code":"STR93","tcg":641286,"grp":24265,"idx":122},
     {"id":"094-str","section":"r-str","num":"094","printed":"DUAD-EN094","name":"R.B. The Brute Blues","ctype":"monster","keywords":"R.B. Machine WIND Link Monster","stats":{"a":"WIND","l":"Link 3","t":"Machine / Link","atk":1500},"rarity":"StR","img":"32216688","badge":"StR","variant":"Starlight Rare","code":"STR94","tcg":641287,"grp":24265,"idx":123},
-    {"id":"096-str","section":"r-str","num":"096","printed":"DUAD-EN096","name":"R.B. Stage Landing","ctype":"spell","keywords":"R.B. Normal Spell","stats":{"t":"Normal Spell"},"rarity":"StR","img":"5109321","badge":"StR","variant":"Starlight Rare","code":"STR96","tcg":641289,"grp":24265,"idx":124}
+    {"id":"096-str","section":"r-str","num":"096","printed":"DUAD-EN096","name":"R.B. Stage Landing","ctype":"spell","keywords":"R.B. Normal Spell","stats":{"t":"Normal Spell"},"rarity":"StR","img":"5109321","badge":"StR","variant":"Starlight Rare","code":"STR96","tcg":641289,"grp":24265,"idx":124},
+    {"id":"TKN5-027","section":"tokens","num":"TKN5-EN027","printed":"TKN5-EN027","name":"Token: Alexis & Cyber Angel Dakini","ctype":"token","keywords":"Token","stats":{"t":"Token"},"rarity":"SR","img":"tcg641889","tcg":641889,"grp":24265,"idx":125},
+    {"id":"TKN5-028","section":"tokens","num":"TKN5-EN028","printed":"TKN5-EN028","name":"Token: Leo & Life Stream Dragon","ctype":"token","keywords":"Token","stats":{"t":"Token"},"rarity":"SR","img":"tcg641891","tcg":641891,"grp":24265,"idx":126},
+    {"id":"TKN5-029","section":"tokens","num":"TKN5-EN029","printed":"TKN5-EN029","name":"Token: Yuma & Number F0: Utopic Future","ctype":"token","keywords":"Token","stats":{"t":"Token"},"rarity":"SR","img":"tcg641894","tcg":641894,"grp":24265,"idx":127},
+    {"id":"TKN5-030","section":"tokens","num":"TKN5-EN030","printed":"TKN5-EN030","name":"Token: Yuya & Performapal Show Down","ctype":"token","keywords":"Token","stats":{"t":"Token"},"rarity":"SR","img":"tcg641934","tcg":641934,"grp":24265,"idx":128},
+    {"id":"TKN5-031","section":"tokens","num":"TKN5-EN031","printed":"TKN5-EN031","name":"Token: Blue Gal & Trickstar Band Sweet Guitar","ctype":"token","keywords":"Token","stats":{"t":"Token"},"rarity":"SR","img":"tcg641951","tcg":641951,"grp":24265,"idx":129}
   ]
 }

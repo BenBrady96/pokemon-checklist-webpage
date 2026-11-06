@@ -21,6 +21,12 @@
       "name": "Starlight Rares",
       "range": "24 cards",
       "tier": "master"
+    },
+    {
+      "id": "tokens",
+      "name": "Tokens",
+      "range": "5 tokens",
+      "tier": "master"
     }
   ],
   "summary": [
@@ -31,6 +37,10 @@
     [
       "r-str",
       "Starlight Rares"
+    ],
+    [
+      "tokens",
+      "Tokens"
     ]
   ],
   "quickAdd": {
@@ -40,7 +50,7 @@
     "empty": "Cards run from BPRO-EN001 to BPRO-EN101."
   },
   "help": {
-    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 101 cards, each in its main rarity. Master adds the 24 other rarities. Cards you’ve marked are kept when you switch."
+    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 101 cards, each in its main rarity. Master adds the 24 other rarities and 5 tokens. Cards you’ve marked are kept when you switch."
   },
   "seo": {
     "title": "Yu-Gi-Oh! Burst Protocol Checklist · All 101 Cards",
@@ -52,8 +62,8 @@
   "about": {
     "title": "About the Burst Protocol set",
     "paragraphs": [
-      "Burst Protocol is a Yu-Gi-Oh! TCG booster set released on 5 February 2026, in the SEVENS &amp; GO RUSH!! era. It has 101 cards, and with the 24 other rarities there are 125 to collect in all.",
-      "Choose what you’re collecting: the <b>Standard set</b> (the 101 cards, each in its main rarity) or the <b>Master set</b> (all 125, adding the 24 other rarities).",
+      "Burst Protocol is a Yu-Gi-Oh! TCG booster set released on 5 February 2026, in the SEVENS &amp; GO RUSH!! era. It has 101 cards, and with the 24 other rarities and 5 tokens there are 130 to collect in all.",
+      "Choose what you’re collecting: the <b>Standard set</b> (the 101 cards, each in its main rarity) or the <b>Master set</b> (all 130, adding the 24 other rarities and 5 tokens).",
       "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
       "Card details and images come from YGOPRODeck, and prices from TCGplayer."
     ]
@@ -191,6 +201,11 @@
     {"id":"067-str","section":"r-str","num":"067","printed":"BPRO-EN067","name":"Forbidden Crown","ctype":"spell","keywords":"Forbidden Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"StR","img":"98829635","badge":"StR","variant":"Starlight Rare","code":"STR67","tcg":674758,"grp":24558,"idx":87},
     {"id":"084-str","section":"r-str","num":"084","printed":"BPRO-EN084","name":"Mercurium the Living Quicksilver","ctype":"monster","keywords":"Aqua DARK Xyz Monster","stats":{"a":"DARK","l":"Rank 10","t":"Aqua / Xyz","atk":3000,"def":3000},"rarity":"StR","img":"101303084","badge":"StR","variant":"Starlight Rare","code":"STR84","tcg":674761,"grp":24558,"idx":105},
     {"id":"098-str","section":"r-str","num":"098","printed":"BPRO-EN098","name":"Spenta, the Magistus Sealer","ctype":"monster","keywords":"Magistus Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Effect","atk":1000,"def":1000},"rarity":"StR","img":"42544773","badge":"StR","variant":"Starlight Rare","code":"STR98","tcg":674766,"grp":24558,"idx":120},
-    {"id":"100-str","section":"r-str","num":"100","printed":"BPRO-EN100","name":"Invoked Magistus Omega","ctype":"monster","keywords":"Invoked Beast DARK Fusion Monster","stats":{"a":"DARK","l":"Level 8","t":"Beast / Fusion","atk":2800,"def":2000},"rarity":"StR","img":"38423248","badge":"StR","variant":"Starlight Rare","code":"STR100","tcg":674759,"grp":24558,"idx":123}
+    {"id":"100-str","section":"r-str","num":"100","printed":"BPRO-EN100","name":"Invoked Magistus Omega","ctype":"monster","keywords":"Invoked Beast DARK Fusion Monster","stats":{"a":"DARK","l":"Level 8","t":"Beast / Fusion","atk":2800,"def":2000},"rarity":"StR","img":"38423248","badge":"StR","variant":"Starlight Rare","code":"STR100","tcg":674759,"grp":24558,"idx":123},
+    {"id":"TKN5-037","section":"tokens","num":"TKN5-EN037","printed":"TKN5-EN037","name":"Token: Yami Yugi & Magicians Combination","ctype":"token","keywords":"Token","stats":{"t":"Token"},"rarity":"SR","img":"tcg680670","tcg":680670,"grp":24558,"idx":125},
+    {"id":"TKN5-038","section":"tokens","num":"TKN5-EN038","printed":"TKN5-EN038","name":"Token: Bastion & Water Dragon","ctype":"token","keywords":"Token","stats":{"t":"Token"},"rarity":"SR","img":"tcg680660","tcg":680660,"grp":24558,"idx":126},
+    {"id":"TKN5-039","section":"tokens","num":"TKN5-EN039","printed":"TKN5-EN039","name":"Token: Carly & Fortune Fairy","ctype":"token","keywords":"Token","stats":{"t":"Token"},"rarity":"SR","img":"tcg680661","tcg":680661,"grp":24558,"idx":127},
+    {"id":"TKN5-040","section":"tokens","num":"TKN5-EN040","printed":"TKN5-EN040","name":"Token: Vector & Number C104: Umbral Horror Masquerade","ctype":"token","keywords":"Token","stats":{"t":"Token"},"rarity":"SR","img":"tcg680663","tcg":680663,"grp":24558,"idx":128},
+    {"id":"TKN5-041","section":"tokens","num":"TKN5-EN041","printed":"TKN5-EN041","name":"Token: Varis & Borreload Dragon","ctype":"token","keywords":"Token","stats":{"t":"Token"},"rarity":"R","img":"tcg680669","tcg":680669,"grp":24558,"idx":129}
   ]
 }

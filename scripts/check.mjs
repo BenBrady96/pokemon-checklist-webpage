@@ -117,7 +117,7 @@ for (const model of models.values()) {
   check(!ids.includes('special') && !ids.includes('variant') && !model.cards.some((c) => c.base), `${model.id}: no stamped or other special prints`);
   const tierCards = (tier) => model.sections.filter((s) => s.tier === tier).flatMap((s) => model.cardsBySection.get(s.id));
   const thirtieth = model.id === 'pokemon/30th-celebration';
-  check((thirtieth || tierCards('master').every((c) => c.variant)) && tierCards('standard').every((c) => !c.variant), `${model.id}: Master adds only variants (reverse holos, patterns and 1st Editions, or other rarities)`);
+  check((thirtieth || tierCards('master').every((c) => c.variant || (c.section === 'tokens' && c.ctype === 'token'))) && tierCards('standard').every((c) => !c.variant), `${model.id}: Master adds only variants (reverse holos, patterns and 1st Editions, or other rarities) and tokens`);
   if (model.game.id !== 'pokemon') continue;
   if (ids.includes('secret') && !thirtieth) {
     check(model.getTier('master').sections.every((s) => ids.indexOf(s.id) < ids.indexOf('secret')) && model.lowestTier('secret')?.id === 'grand', `${model.id}: secret rares come after the reverse holos and patterns, in Grand Master`);
@@ -340,10 +340,12 @@ if (ygo.length) {
   const repo = await exists(IMAGES_REPO);
   const missingArt = new Set();
   for (const m of ygo) {
-    const others = m.sections.filter((s) => s.id !== 'main');
-    check(m.sections[0]?.id === 'main' && others.every((s) => /^r-/.test(s.id)), `${m.id}: a main section, then one section per rarity`);
+    const others = m.sections.filter((s) => /^r-/.test(s.id));
+    const tokens = m.sections.find((s) => s.id === 'tokens');
+    check(m.sections.map((s) => s.id).join() === ['main', ...others.map((s) => s.id), ...(tokens ? ['tokens'] : [])].join(), `${m.id}: a main section, then one section per rarity, then any tokens`);
     check(others.every((s) => m.cardsBySection.get(s.id).every((c) => `r-${c.rarity.toLowerCase()}` === s.id)), `${m.id}: each rarity section holds only its rarity`);
     check(others.every((s) => (s.tier === 'grand') === Boolean(m.rarityById.get(m.cardsBySection.get(s.id)[0]?.rarity)?.serial)), `${m.id}: only serial-numbered rarities are in Grand Master`);
+    if (tokens) check(tokens.tier === 'master' && m.cardsBySection.get('tokens').every((c) => c.ctype === 'token' && !c.variant && /^TKN\d+-EN\d+$/.test(c.printed)), `${m.id}: the Tokens section is Master and holds only English TKN tokens`);
     const mains = new Set(m.cards.filter((c) => !c.variant).map((c) => c.printed));
     check(m.cards.filter((c) => c.variant).every((c) => mains.has(c.printed)), `${m.id}: every other rarity has its main card`);
     if (repo) for (const c of m.cards) if (m.hasImage(c) && !(await exists(join(IMAGES_REPO, 'yugioh', c.imageId, 'low.webp')))) missingArt.add(c.imageId);
@@ -356,6 +358,10 @@ if (ygo.length) {
     const prints = mamo.cards.filter((c) => c.printed === 'MAMO-EN016').map((c) => [c.rarity, c.print].filter(Boolean).join(' ')).join(', ');
     check(prints === 'UR, UR Extended Art, StR Extended Art, GMR', `MAMO-EN016 comes as Ultra Rare, Extended Art Ultra Rare, Extended Art Starlight Rare and Grand Master Rare: ${prints}`);
   }
+  const alin = ygo.find((m) => m.id === 'yugioh/alliance-insight');
+  if (alin) check(alin.getTier('standard').cards.length === 101 && alin.cardsBySection.get('tokens')?.some((c) => c.printed === 'TKN5-EN022' && c.name === 'Token: Tea & Dark Magician Girl' && c.rarity === 'SR'), `Alliance Insight keeps 101 Standard cards and lists the TKN5-EN022 token in its Tokens section: ${alin.getTier('standard').cards.length}`);
+  const bp = ygo.find((m) => m.id === 'yugioh/burst-protocol');
+  if (bp) check(bp.cardsBySection.get('tokens')?.some((c) => c.printed === 'TKN5-EN037'), 'Burst Protocol lists TKN5-EN037, which TCGplayer numbers TKN4-EN037');
   const duad = ygo.find((m) => m.id === 'yugioh/duelists-advance')?.cardsBySection.get('main');
   if (duad) check(duad.length === 101 && duad[0].printed === 'DUAD-EN001' && duad.at(-1).printed === 'DUAD-EN101', `Duelist's Advance runs DUAD-EN001 to DUAD-EN101: ${duad.length} cards`);
   const rich = ygo.find((m) => m.cards.some((c) => c.variant && c.code?.startsWith('SCR')) && m.codes.has('1'));
@@ -563,7 +569,10 @@ if (meg) {
   const featuredNames = new Set(girl.data.cards.filter((c) => c.feat).map((c) => c.name));
   check(['Dark Magical Curtain', 'The Dark Magicians', "Magician's Salvation"].every((n) => featuredNames.has(n)), 'cards naming Dark Magician Girl in their text are on her page');
   check(['Magician Navigation', "Magicians' Defense"].every((n) => featuredNames.has(n)), 'cards showing Dark Magician Girl only in their artwork are on her page');
-  check(![...featuredNames].some((n) => /Dark Magician Girl/.test(n)), 'cards named after Dark Magician Girl aren’t also counted as featuring her');
+  check(!girl.data.cards.some((c) => c.feat && c.ctype !== 'token' && /Dark Magician Girl/.test(c.name)), 'cards named after Dark Magician Girl aren’t also counted as featuring her');
+  check(!["Sage's Stone", 'Magic Formula', 'Soul Servant', 'Magikuriboh', 'The Gaze of Timaeus'].some((n) => featuredNames.has(n)), 'cards that only name Dark Magician Girl in their text, without her in the artwork, aren’t on her page');
+  check(featuredNames.size === 15, `Dark Magician Girl is in the artwork of 15 other cards (got ${featuredNames.size})`);
+  check(['Token: Tea & Dark Magician Girl', 'Token: Yami Yugi & Magicians Combination'].every((n) => girl.data.cards.some((c) => c.feat && c.ctype === 'token' && c.name === n)), 'the Téa and Yami Yugi tokens showing Dark Magician Girl are featured on her page');
   check(girl.standard === 53 && girlModel.getTier('master').cards.length === 80 && girlModel.getTier('grand').cards.length === girl.total && girl.total > 80, `Dark Magician Girl tiers: ${girl.standard} / ${girlModel.getTier('master').cards.length} / ${girl.total}`);
   check(girlModel.defaultTier === 'grand' && girlModel.visibleTiers.length === 3, 'Dark Magician Girl opens on Grand Master, with all three tiers');
   check(!girl.data.cards[girl.data.thumb].feat, 'a character page’s picture is one of its own cards');

@@ -21,6 +21,12 @@
       "name": "Quarter Century Secret Rares",
       "range": "24 cards",
       "tier": "master"
+    },
+    {
+      "id": "tokens",
+      "name": "Tokens",
+      "range": "5 tokens",
+      "tier": "master"
     }
   ],
   "summary": [
@@ -31,6 +37,10 @@
     [
       "r-qcsr",
       "Quarter Century Secret Rares"
+    ],
+    [
+      "tokens",
+      "Tokens"
     ]
   ],
   "quickAdd": {
@@ -40,7 +50,7 @@
     "empty": "Cards run from SUDA-EN000 to SUDA-EN100."
   },
   "help": {
-    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 101 cards, each in its main rarity. Master adds the 24 other rarities. Cards you’ve marked are kept when you switch."
+    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 101 cards, each in its main rarity. Master adds the 24 other rarities and 5 tokens. Cards you’ve marked are kept when you switch."
   },
   "seo": {
     "title": "Yu-Gi-Oh! Supreme Darkness Checklist · All 101 Cards",
@@ -52,8 +62,8 @@
   "about": {
     "title": "About the Supreme Darkness set",
     "paragraphs": [
-      "Supreme Darkness is a Yu-Gi-Oh! TCG booster set released on 23 January 2025, in the SEVENS &amp; GO RUSH!! era. It has 101 cards, and with the 24 other rarities there are 125 to collect in all.",
-      "Choose what you’re collecting: the <b>Standard set</b> (the 101 cards, each in its main rarity) or the <b>Master set</b> (all 125, adding the 24 other rarities).",
+      "Supreme Darkness is a Yu-Gi-Oh! TCG booster set released on 23 January 2025, in the SEVENS &amp; GO RUSH!! era. It has 101 cards, and with the 24 other rarities and 5 tokens there are 130 to collect in all.",
+      "Choose what you’re collecting: the <b>Standard set</b> (the 101 cards, each in its main rarity) or the <b>Master set</b> (all 130, adding the 24 other rarities and 5 tokens).",
       "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
       "Card details and images come from YGOPRODeck, and prices from TCGplayer."
     ]
@@ -191,6 +201,11 @@
     {"id":"050-qcsr","section":"r-qcsr","num":"050","printed":"SUDA-EN050","name":"Clockwork Knight","ctype":"monster","keywords":"Machine EARTH Link Monster","stats":{"a":"EARTH","l":"Link 1","t":"Machine / Link","atk":500},"rarity":"QCSR","img":"41739381","badge":"QCSR","variant":"Quarter Century Secret Rare","code":"QCSR50","tcg":610875,"grp":23758,"idx":71},
     {"id":"071-qcsr","section":"r-qcsr","num":"071","printed":"SUDA-EN071","name":"Argostars - Lightning Tydeu","ctype":"trap","keywords":"Argostars Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"QCSR","img":"65889305","badge":"QCSR","variant":"Quarter Century Secret Rare","code":"QCSR71","tcg":610897,"grp":23758,"idx":93},
     {"id":"092-qcsr","section":"r-qcsr","num":"092","printed":"SUDA-EN092","name":"Ame no Murakumo no Mitsurugi","ctype":"monster","keywords":"Mitsurugi Reptile DARK Ritual Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Reptile / Ritual / Effect","atk":3200,"def":800},"rarity":"QCSR","img":"19899073","badge":"QCSR","variant":"Quarter Century Secret Rare","code":"QCSR92","tcg":610919,"grp":23758,"idx":115},
-    {"id":"095-qcsr","section":"r-qcsr","num":"095","printed":"SUDA-EN095","name":"Mitsurugi Ritual","ctype":"spell","keywords":"Mitsurugi Ritual Spell","stats":{"t":"Ritual Spell"},"rarity":"QCSR","img":"81560239","badge":"QCSR","variant":"Quarter Century Secret Rare","code":"QCSR95","tcg":610923,"grp":23758,"idx":119}
+    {"id":"095-qcsr","section":"r-qcsr","num":"095","printed":"SUDA-EN095","name":"Mitsurugi Ritual","ctype":"spell","keywords":"Mitsurugi Ritual Spell","stats":{"t":"Ritual Spell"},"rarity":"QCSR","img":"81560239","badge":"QCSR","variant":"Quarter Century Secret Rare","code":"QCSR95","tcg":610923,"grp":23758,"idx":119},
+    {"id":"TKN5-017","section":"tokens","num":"TKN5-EN017","printed":"TKN5-EN017","name":"Token: Kaiba & Blue-Eyes Ultimate Dragon","ctype":"token","keywords":"Token","stats":{"t":"Token"},"rarity":"SR","img":"tcg626547","tcg":626547,"grp":23758,"idx":125},
+    {"id":"TKN5-018","section":"tokens","num":"TKN5-EN018","printed":"TKN5-EN018","name":"Token: Odion & Embodiment of Apophis","ctype":"token","keywords":"Token","stats":{"t":"Token"},"rarity":"SR","img":"tcg626548","tcg":626548,"grp":23758,"idx":126},
+    {"id":"TKN5-019","section":"tokens","num":"TKN5-EN019","printed":"TKN5-EN019","name":"Token: Supreme King Jaden & Supreme King's Castle","ctype":"token","keywords":"Token","stats":{"t":"Token"},"rarity":"SR","img":"tcg626549","tcg":626549,"grp":23758,"idx":127},
+    {"id":"TKN5-020","section":"tokens","num":"TKN5-EN020","printed":"TKN5-EN020","name":"Token: Shark & Number 32: Shark Drake","ctype":"token","keywords":"Token","stats":{"t":"Token"},"rarity":"SR","img":"tcg626550","tcg":626550,"grp":23758,"idx":128},
+    {"id":"TKN5-021","section":"tokens","num":"TKN5-EN021","printed":"TKN5-EN021","name":"Token: Vizor & T.G. Blade Blaster","ctype":"token","keywords":"Token","stats":{"t":"Token"},"rarity":"SR","img":"tcg626551","tcg":626551,"grp":23758,"idx":129}
   ]
 }

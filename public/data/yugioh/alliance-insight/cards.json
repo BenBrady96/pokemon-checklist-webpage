@@ -21,6 +21,12 @@
       "name": "Quarter Century Secret Rares",
       "range": "24 cards",
       "tier": "master"
+    },
+    {
+      "id": "tokens",
+      "name": "Tokens",
+      "range": "5 tokens",
+      "tier": "master"
     }
   ],
   "summary": [
@@ -31,6 +37,10 @@
     [
       "r-qcsr",
       "Quarter Century Secret Rares"
+    ],
+    [
+      "tokens",
+      "Tokens"
     ]
   ],
   "quickAdd": {
@@ -40,7 +50,7 @@
     "empty": "Cards run from ALIN-EN000 to ALIN-EN100."
   },
   "help": {
-    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 101 cards, each in its main rarity. Master adds the 24 other rarities. Cards you’ve marked are kept when you switch."
+    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 101 cards, each in its main rarity. Master adds the 24 other rarities and 5 tokens. Cards you’ve marked are kept when you switch."
   },
   "seo": {
     "title": "Yu-Gi-Oh! Alliance Insight Checklist · All 101 Cards",
@@ -52,8 +62,8 @@
   "about": {
     "title": "About the Alliance Insight set",
     "paragraphs": [
-      "Alliance Insight is a Yu-Gi-Oh! TCG booster set released on 1 May 2025, in the SEVENS &amp; GO RUSH!! era. It has 101 cards, and with the 24 other rarities there are 125 to collect in all.",
-      "Choose what you’re collecting: the <b>Standard set</b> (the 101 cards, each in its main rarity) or the <b>Master set</b> (all 125, adding the 24 other rarities).",
+      "Alliance Insight is a Yu-Gi-Oh! TCG booster set released on 1 May 2025, in the SEVENS &amp; GO RUSH!! era. It has 101 cards, and with the 24 other rarities and 5 tokens there are 130 to collect in all.",
+      "Choose what you’re collecting: the <b>Standard set</b> (the 101 cards, each in its main rarity) or the <b>Master set</b> (all 130, adding the 24 other rarities and 5 tokens).",
       "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
       "Card details and images come from YGOPRODeck, and prices from TCGplayer."
     ]
@@ -191,6 +201,11 @@
     {"id":"058-qcsr","section":"r-qcsr","num":"058","printed":"ALIN-EN058","name":"Witch of the White Forest","ctype":"spell","keywords":"White Forest Field Spell","stats":{"t":"Field Spell"},"rarity":"QCSR","img":"4398189","badge":"QCSR","variant":"Quarter Century Secret Rare","code":"QCSR58","tcg":629447,"grp":23995,"idx":79},
     {"id":"059-qcsr","section":"r-qcsr","num":"059","printed":"ALIN-EN059","name":"Regenesis","ctype":"spell","keywords":"Regenesis Normal Spell","stats":{"t":"Normal Spell"},"rarity":"QCSR","img":"31786838","badge":"QCSR","variant":"Quarter Century Secret Rare","code":"QCSR59","tcg":629449,"grp":23995,"idx":81},
     {"id":"066-qcsr","section":"r-qcsr","num":"066","printed":"ALIN-EN066","name":"Gordian Slicer","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"QCSR","img":"66236707","badge":"QCSR","variant":"Quarter Century Secret Rare","code":"QCSR66","tcg":629457,"grp":23995,"idx":89},
-    {"id":"078-qcsr","section":"r-qcsr","num":"078","printed":"ALIN-EN078","name":"Songs of the Dominators","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"QCSR","img":"58053438","badge":"QCSR","variant":"Quarter Century Secret Rare","code":"QCSR78","tcg":629470,"grp":23995,"idx":102}
+    {"id":"078-qcsr","section":"r-qcsr","num":"078","printed":"ALIN-EN078","name":"Songs of the Dominators","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"QCSR","img":"58053438","badge":"QCSR","variant":"Quarter Century Secret Rare","code":"QCSR78","tcg":629470,"grp":23995,"idx":102},
+    {"id":"TKN5-022","section":"tokens","num":"TKN5-EN022","printed":"TKN5-EN022","name":"Token: Tea & Dark Magician Girl","ctype":"token","keywords":"Token","stats":{"t":"Token"},"rarity":"SR","img":"tcg630024","tcg":630024,"grp":23995,"idx":125},
+    {"id":"TKN5-023","section":"tokens","num":"TKN5-EN023","printed":"TKN5-EN023","name":"Token: Luna & Ancient Fairy Dragon","ctype":"token","keywords":"Token","stats":{"t":"Token"},"rarity":"SR","img":"tcg630025","tcg":630025,"grp":23995,"idx":126},
+    {"id":"TKN5-024","section":"tokens","num":"TKN5-EN024","printed":"TKN5-EN024","name":"Token: Playmaker & Ai & Decode Talker","ctype":"token","keywords":"Token","stats":{"t":"Token"},"rarity":"SR","img":"tcg630026","tcg":630026,"grp":23995,"idx":127},
+    {"id":"TKN5-025","section":"tokens","num":"TKN5-EN025","printed":"TKN5-EN025","name":"Token: Playmaker & Cyberse Quantum Dragon","ctype":"token","keywords":"Token","stats":{"t":"Token"},"rarity":"SR","img":"tcg630027","tcg":630027,"grp":23995,"idx":128},
+    {"id":"TKN5-026","section":"tokens","num":"TKN5-EN026","printed":"TKN5-EN026","name":"Token: Ai & The Arrival Cyberse @Ignister","ctype":"token","keywords":"Token","stats":{"t":"Token"},"rarity":"SR","img":"tcg630028","tcg":630028,"grp":23995,"idx":129}
   ]
 }

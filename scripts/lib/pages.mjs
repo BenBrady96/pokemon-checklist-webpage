@@ -537,7 +537,7 @@ function viewFaqHtml(entry, model, sets, prices, game) {
     const others = [...new Set(model.cards.filter((card) => card.feat).map((card) => card.name))];
     items.push([
       `Which other cards feature ${name}?`,
-      `<p>${plural(others.length, 'card')} without ${name} in the title show or name them: ${list(others.map(escapeHtml))}. Together they have ${plural(entry.featuring, 'print')}. They count on the <b>Grand Master</b> tier, and <b>Master</b> leaves them out.</p>`,
+      `<p>${plural(others.length, 'other card')} show them in the artwork: ${list(others.map(escapeHtml))}. Together they have ${plural(entry.featuring, 'print')}. They count on the <b>Grand Master</b> tier, and <b>Master</b> leaves them out.</p>`,
     ]);
   }
   items.push([
@@ -603,7 +603,7 @@ export async function viewPage(entry, { siteUrl = DEFAULT_URL } = {}) {
   const variants = entry.total - entry.standard - entry.featuring;
   const tierWords = [
     variants ? `<b>Master</b> adds the ${plural(variants, variantMany.replace(/s$/, ''), variantMany)}` : '',
-    entry.featuring ? `<b>Grand Master</b> adds ${plural(entry.featuring, 'print')} of cards that feature ${escapeHtml(entry.name)} without having the name in their title` : '',
+    entry.featuring ? `<b>Grand Master</b> adds ${plural(entry.featuring, 'print')} of other cards that show ${escapeHtml(entry.name)} in the artwork` : '',
   ].filter(Boolean);
   const about = [
     `This checklist has ${VIEW_INTROS[entry.kind](escapeHtml(entry.name), escapeHtml(game.shortName))} on Binder Tracker: ${plural(entry.standard, 'card')} across ${plural(ownSets, 'set')}${span}.`,

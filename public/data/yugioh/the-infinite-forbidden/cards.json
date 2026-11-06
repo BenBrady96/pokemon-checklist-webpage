@@ -21,6 +21,12 @@
       "name": "Quarter Century Secret Rares",
       "range": "24 cards",
       "tier": "master"
+    },
+    {
+      "id": "tokens",
+      "name": "Tokens",
+      "range": "4 tokens",
+      "tier": "master"
     }
   ],
   "summary": [
@@ -31,6 +37,10 @@
     [
       "r-qcsr",
       "Quarter Century Secret Rares"
+    ],
+    [
+      "tokens",
+      "Tokens"
     ]
   ],
   "quickAdd": {
@@ -40,7 +50,7 @@
     "empty": "Cards run from INFO-EN000 to INFO-EN100."
   },
   "help": {
-    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 101 cards, each in its main rarity. Master adds the 24 other rarities. Cards you’ve marked are kept when you switch."
+    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 101 cards, each in its main rarity. Master adds the 24 other rarities and 4 tokens. Cards you’ve marked are kept when you switch."
   },
   "seo": {
     "title": "Yu-Gi-Oh! The Infinite Forbidden Checklist · All 101 Cards",
@@ -52,8 +62,8 @@
   "about": {
     "title": "About the The Infinite Forbidden set",
     "paragraphs": [
-      "The Infinite Forbidden is a Yu-Gi-Oh! TCG booster set released on 18 July 2024, in the SEVENS &amp; GO RUSH!! era. It has 101 cards, and with the 24 other rarities there are 125 to collect in all.",
-      "Choose what you’re collecting: the <b>Standard set</b> (the 101 cards, each in its main rarity) or the <b>Master set</b> (all 125, adding the 24 other rarities).",
+      "The Infinite Forbidden is a Yu-Gi-Oh! TCG booster set released on 18 July 2024, in the SEVENS &amp; GO RUSH!! era. It has 101 cards, and with the 24 other rarities and 4 tokens there are 129 to collect in all.",
+      "Choose what you’re collecting: the <b>Standard set</b> (the 101 cards, each in its main rarity) or the <b>Master set</b> (all 129, adding the 24 other rarities and 4 tokens).",
       "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
       "Card details and images come from YGOPRODeck, and prices from TCGplayer."
     ]
@@ -191,6 +201,10 @@
     {"id":"078-qcsr","section":"r-qcsr","num":"078","printed":"INFO-EN078","name":"Dominus Purge","ctype":"trap","keywords":"Dominus Normal Trap","stats":{"t":"Normal Trap"},"rarity":"QCSR","img":"97045737","badge":"QCSR","variant":"Quarter Century Secret Rare","code":"QCSR78","tcg":559268,"grp":23458,"idx":99},
     {"id":"079-qcsr","section":"r-qcsr","num":"079","printed":"INFO-EN079","name":"Silhouhatte Trick","ctype":"trap","keywords":"Trap Monster Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"QCSR","img":"24440742","badge":"QCSR","variant":"Quarter Century Secret Rare","code":"QCSR79","tcg":559270,"grp":23458,"idx":101},
     {"id":"090-qcsr","section":"r-qcsr","num":"090","printed":"INFO-EN090","name":"Mimighoul Master","ctype":"monster","keywords":"Mimighoul Zombie EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Zombie / Effect","atk":1800,"def":1200},"rarity":"QCSR","img":"55537983","badge":"QCSR","variant":"Quarter Century Secret Rare","code":"QCSR90","tcg":559282,"grp":23458,"idx":113},
-    {"id":"094-qcsr","section":"r-qcsr","num":"094","printed":"INFO-EN094","name":"Mimighoul Dungeon","ctype":"spell","keywords":"Mimighoul Field Spell","stats":{"t":"Field Spell"},"rarity":"QCSR","img":"86809440","badge":"QCSR","variant":"Quarter Century Secret Rare","code":"QCSR94","tcg":559287,"grp":23458,"idx":118}
+    {"id":"094-qcsr","section":"r-qcsr","num":"094","printed":"INFO-EN094","name":"Mimighoul Dungeon","ctype":"spell","keywords":"Mimighoul Field Spell","stats":{"t":"Field Spell"},"rarity":"QCSR","img":"86809440","badge":"QCSR","variant":"Quarter Century Secret Rare","code":"QCSR94","tcg":559287,"grp":23458,"idx":118},
+    {"id":"TKN5-007","section":"tokens","num":"TKN5-EN007","printed":"TKN5-EN007","name":"Token: Chazz & Armed Dragon Thunder LV10","ctype":"token","keywords":"Token","stats":{"t":"Token"},"rarity":"SR","img":"tcg561846","tcg":561846,"grp":23458,"idx":125},
+    {"id":"TKN5-008","section":"tokens","num":"TKN5-EN008","printed":"TKN5-EN008","name":"Token: Akiza & Black Rose Dragon","ctype":"token","keywords":"Token","stats":{"t":"Token"},"rarity":"SR","img":"tcg561847","tcg":561847,"grp":23458,"idx":126},
+    {"id":"TKN5-009","section":"tokens","num":"TKN5-EN009","printed":"TKN5-EN009","name":"Token: Quattro & Puppet Parade","ctype":"token","keywords":"Token","stats":{"t":"Token"},"rarity":"SR","img":"tcg561849","tcg":561849,"grp":23458,"idx":127},
+    {"id":"TKN5-010","section":"tokens","num":"TKN5-EN010","printed":"TKN5-EN010","name":"Token: Varis and Borreload Dragon","ctype":"token","keywords":"Token","stats":{"t":"Token"},"rarity":"SR","img":"tcg561852","tcg":561852,"grp":23458,"idx":128}
   ]
 }

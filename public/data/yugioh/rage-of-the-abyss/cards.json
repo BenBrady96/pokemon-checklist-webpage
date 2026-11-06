@@ -21,6 +21,12 @@
       "name": "Quarter Century Secret Rares",
       "range": "24 cards",
       "tier": "master"
+    },
+    {
+      "id": "tokens",
+      "name": "Tokens",
+      "range": "6 tokens",
+      "tier": "master"
     }
   ],
   "summary": [
@@ -31,6 +37,10 @@
     [
       "r-qcsr",
       "Quarter Century Secret Rares"
+    ],
+    [
+      "tokens",
+      "Tokens"
     ]
   ],
   "quickAdd": {
@@ -40,7 +50,7 @@
     "empty": "Cards run from ROTA-EN000 to ROTA-EN100."
   },
   "help": {
-    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 101 cards, each in its main rarity. Master adds the 24 other rarities. Cards you’ve marked are kept when you switch."
+    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 101 cards, each in its main rarity. Master adds the 24 other rarities and 6 tokens. Cards you’ve marked are kept when you switch."
   },
   "seo": {
     "title": "Yu-Gi-Oh! Rage of the Abyss Checklist · All 101 Cards",
@@ -52,8 +62,8 @@
   "about": {
     "title": "About the Rage of the Abyss set",
     "paragraphs": [
-      "Rage of the Abyss is a Yu-Gi-Oh! TCG booster set released on 10 October 2024, in the SEVENS &amp; GO RUSH!! era. It has 101 cards, and with the 24 other rarities there are 125 to collect in all.",
-      "Choose what you’re collecting: the <b>Standard set</b> (the 101 cards, each in its main rarity) or the <b>Master set</b> (all 125, adding the 24 other rarities).",
+      "Rage of the Abyss is a Yu-Gi-Oh! TCG booster set released on 10 October 2024, in the SEVENS &amp; GO RUSH!! era. It has 101 cards, and with the 24 other rarities and 6 tokens there are 131 to collect in all.",
+      "Choose what you’re collecting: the <b>Standard set</b> (the 101 cards, each in its main rarity) or the <b>Master set</b> (all 131, adding the 24 other rarities and 6 tokens).",
       "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
       "Card details and images come from YGOPRODeck, and prices from TCGplayer."
     ]
@@ -191,6 +201,12 @@
     {"id":"093-qcsr","section":"r-qcsr","num":"093","printed":"ROTA-EN093","name":"Giant Mimighoul","ctype":"monster","keywords":"Mimighoul Rock EARTH Xyz Monster","stats":{"a":"EARTH","l":"Rank 1","t":"Rock / Xyz","atk":1300,"def":2000},"rarity":"QCSR","img":"16955631","badge":"QCSR","variant":"Quarter Century Secret Rare","code":"QCSR93","tcg":584353,"grp":23539,"idx":114},
     {"id":"094-qcsr","section":"r-qcsr","num":"094","printed":"ROTA-EN094","name":"Mimighoul Throne","ctype":"monster","keywords":"Mimighoul Rock EARTH Xyz Monster","stats":{"a":"EARTH","l":"Rank 1","t":"Rock / Xyz","atk":0,"def":1000},"rarity":"QCSR","img":"42940335","badge":"QCSR","variant":"Quarter Century Secret Rare","code":"QCSR94","tcg":584355,"grp":23539,"idx":116},
     {"id":"096-qcsr","section":"r-qcsr","num":"096","printed":"ROTA-EN096","name":"Mimighoul Charm","ctype":"spell","keywords":"Mimighoul Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"QCSR","img":"55733143","badge":"QCSR","variant":"Quarter Century Secret Rare","code":"QCSR96","tcg":584358,"grp":23539,"idx":119},
-    {"id":"098-qcsr","section":"r-qcsr","num":"098","printed":"ROTA-EN098","name":"Fire King Courtier Ulcanix","ctype":"monster","keywords":"Fire King Winged Beast FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Winged Beast / Effect","atk":800,"def":2000},"rarity":"QCSR","img":"44455560","badge":"QCSR","variant":"Quarter Century Secret Rare","code":"QCSR98","tcg":584361,"grp":23539,"idx":122}
+    {"id":"098-qcsr","section":"r-qcsr","num":"098","printed":"ROTA-EN098","name":"Fire King Courtier Ulcanix","ctype":"monster","keywords":"Fire King Winged Beast FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 4","t":"Winged Beast / Effect","atk":800,"def":2000},"rarity":"QCSR","img":"44455560","badge":"QCSR","variant":"Quarter Century Secret Rare","code":"QCSR98","tcg":584361,"grp":23539,"idx":122},
+    {"id":"TKN5-011","section":"tokens","num":"TKN5-EN011","printed":"TKN5-EN011","name":"Token: Yugi","ctype":"token","keywords":"Token","stats":{"t":"Token"},"rarity":"SR","img":"tcg599699","tcg":599699,"grp":23539,"idx":125},
+    {"id":"TKN5-012","section":"tokens","num":"TKN5-EN012","printed":"TKN5-EN012","name":"Token: Jaden","ctype":"token","keywords":"Token","stats":{"t":"Token"},"rarity":"SR","img":"tcg599700","tcg":599700,"grp":23539,"idx":126},
+    {"id":"TKN5-013","section":"tokens","num":"TKN5-EN013","printed":"TKN5-EN013","name":"Token: Yusei","ctype":"token","keywords":"Token","stats":{"t":"Token"},"rarity":"SR","img":"tcg593972","tcg":593972,"grp":23539,"idx":127},
+    {"id":"TKN5-014","section":"tokens","num":"TKN5-EN014","printed":"TKN5-EN014","name":"Token: Yuma","ctype":"token","keywords":"Token","stats":{"t":"Token"},"rarity":"SR","img":"tcg599697","tcg":599697,"grp":23539,"idx":128},
+    {"id":"TKN5-015","section":"tokens","num":"TKN5-EN015","printed":"TKN5-EN015","name":"Token: Yuya","ctype":"token","keywords":"Token","stats":{"t":"Token"},"rarity":"SR","img":"tcg593971","tcg":593971,"grp":23539,"idx":129},
+    {"id":"TKN5-016","section":"tokens","num":"TKN5-EN016","printed":"TKN5-EN016","name":"Token: Playmaker","ctype":"token","keywords":"Token","stats":{"t":"Token"},"rarity":"SR","img":"tcg599698","tcg":599698,"grp":23539,"idx":130}
   ]
 }

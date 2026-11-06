@@ -80,6 +80,10 @@ export const TCG_IGNORE = new Set([
   '5DS1-EN043|C',
 ]);
 
+export const TCG_NUMBER_FIX = {
+  680670: 'TKN5-EN037',
+};
+
 export const TCG_CARD = {
   'DUAD-EN068': 'Layer 19: "Preventing the Invasion! The Pitch-Black Super Quantum!!"',
 };

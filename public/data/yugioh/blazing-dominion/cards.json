@@ -21,6 +21,12 @@
       "name": "Starlight Rares",
       "range": "24 cards",
       "tier": "master"
+    },
+    {
+      "id": "tokens",
+      "name": "Tokens",
+      "range": "5 tokens",
+      "tier": "master"
     }
   ],
   "summary": [
@@ -31,6 +37,10 @@
     [
       "r-str",
       "Starlight Rares"
+    ],
+    [
+      "tokens",
+      "Tokens"
     ]
   ],
   "quickAdd": {
@@ -40,7 +50,7 @@
     "empty": "Cards run from BLZD-EN001 to BLZD-EN101."
   },
   "help": {
-    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 101 cards, each in its main rarity. Master adds the 24 other rarities. Cards you’ve marked are kept when you switch."
+    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 101 cards, each in its main rarity. Master adds the 24 other rarities and 5 tokens. Cards you’ve marked are kept when you switch."
   },
   "seo": {
     "title": "Yu-Gi-Oh! Blazing Dominion Checklist · All 101 Cards",
@@ -52,8 +62,8 @@
   "about": {
     "title": "About the Blazing Dominion set",
     "paragraphs": [
-      "Blazing Dominion is a Yu-Gi-Oh! TCG booster set released on 7 May 2026, in the SEVENS &amp; GO RUSH!! era. It has 101 cards, and with the 24 other rarities there are 125 to collect in all.",
-      "Choose what you’re collecting: the <b>Standard set</b> (the 101 cards, each in its main rarity) or the <b>Master set</b> (all 125, adding the 24 other rarities).",
+      "Blazing Dominion is a Yu-Gi-Oh! TCG booster set released on 7 May 2026, in the SEVENS &amp; GO RUSH!! era. It has 101 cards, and with the 24 other rarities and 5 tokens there are 130 to collect in all.",
+      "Choose what you’re collecting: the <b>Standard set</b> (the 101 cards, each in its main rarity) or the <b>Master set</b> (all 130, adding the 24 other rarities and 5 tokens).",
       "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
       "Card details and images come from YGOPRODeck, and prices from TCGplayer."
     ]
@@ -191,6 +201,11 @@
     {"id":"083-str","section":"r-str","num":"083","printed":"BLZD-EN083","name":"Shade the Obscure","ctype":"monster","keywords":"| supports_archetypes    Power Patron Fairy DARK Pendulum Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Fairy / Pendulum / Effect","atk":1000,"def":1000},"rarity":"StR","img":"77157846","badge":"StR","variant":"Starlight Rare","code":"STR83","tcg":692340,"grp":24581,"idx":103},
     {"id":"090-str","section":"r-str","num":"090","printed":"BLZD-EN090","name":"GMX Partner Selandea","ctype":"monster","keywords":"GMX Warrior FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 5","t":"Warrior / Effect","atk":1500,"def":1900},"rarity":"StR","img":"2618725","badge":"StR","variant":"Starlight Rare","code":"STR90","tcg":692347,"grp":24581,"idx":111},
     {"id":"093-str","section":"r-str","num":"093","printed":"BLZD-EN093","name":"GMX - COMPREX","ctype":"monster","keywords":"GMX Dinosaur DARK Fusion Monster","stats":{"a":"DARK","l":"Level 10","t":"Dinosaur / Fusion","atk":3700,"def":2300},"rarity":"StR","img":"75191028","badge":"StR","variant":"Starlight Rare","code":"STR93","tcg":692351,"grp":24581,"idx":115},
-    {"id":"094-str","section":"r-str","num":"094","printed":"BLZD-EN094","name":"GMX 55th Experiment Report","ctype":"spell","keywords":"GMX Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"StR","img":"38984832","badge":"StR","variant":"Starlight Rare","code":"STR94","tcg":692353,"grp":24581,"idx":117}
+    {"id":"094-str","section":"r-str","num":"094","printed":"BLZD-EN094","name":"GMX 55th Experiment Report","ctype":"spell","keywords":"GMX Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"StR","img":"38984832","badge":"StR","variant":"Starlight Rare","code":"STR94","tcg":692353,"grp":24581,"idx":117},
+    {"id":"TKN5-042","section":"tokens","num":"TKN5-EN042","printed":"TKN5-EN042","name":"Token: Syrus Truesdale (Sho) & Super Vehicroid","ctype":"token","keywords":"Token","stats":{"t":"Token"},"rarity":"SR","img":"tcg694074","tcg":694074,"grp":24581,"idx":125},
+    {"id":"TKN5-043","section":"tokens","num":"TKN5-EN043","printed":"TKN5-EN043","name":"Token: Jack Atlas & Red Dragon Archfiend","ctype":"token","keywords":"Token","stats":{"t":"Token"},"rarity":"SR","img":"tcg694070","tcg":694070,"grp":24581,"idx":126},
+    {"id":"TKN5-044","section":"tokens","num":"TKN5-EN044","printed":"TKN5-EN044","name":"Token: Anna Kaboom & Superdreadnought Rail Cannon Gustav Max","ctype":"token","keywords":"Token","stats":{"t":"Token"},"rarity":"SR","img":"tcg694072","tcg":694072,"grp":24581,"idx":127},
+    {"id":"TKN5-045","section":"tokens","num":"TKN5-EN045","printed":"TKN5-EN045","name":"Token: Yuri & Starving Venom Fusion Dragon","ctype":"token","keywords":"Token","stats":{"t":"Token"},"rarity":"SR","img":"tcg694073","tcg":694073,"grp":24581,"idx":128},
+    {"id":"TKN5-046","section":"tokens","num":"TKN5-EN046","printed":"TKN5-EN046","name":"Token: Soulburner & Salamangreat Heatleo","ctype":"token","keywords":"Token","stats":{"t":"Token"},"rarity":"SR","img":"tcg694071","tcg":694071,"grp":24581,"idx":129}
   ]
 }

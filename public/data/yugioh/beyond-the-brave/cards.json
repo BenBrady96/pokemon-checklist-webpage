@@ -33,6 +33,12 @@
       "name": "Starlight Rares",
       "range": "25 cards",
       "tier": "master"
+    },
+    {
+      "id": "tokens",
+      "name": "Tokens",
+      "range": "5 tokens",
+      "tier": "master"
     }
   ],
   "summary": [
@@ -51,6 +57,10 @@
     [
       "r-str",
       "Starlight Rares"
+    ],
+    [
+      "tokens",
+      "Tokens"
     ]
   ],
   "quickAdd": {
@@ -60,7 +70,7 @@
     "empty": "Cards run from BETB-EN001 to BETB-EN100."
   },
   "help": {
-    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 100 cards, each in its main rarity. Master adds the 30 other rarities. Cards you’ve marked are kept when you switch."
+    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 100 cards, each in its main rarity. Master adds the 30 other rarities and 5 tokens. Cards you’ve marked are kept when you switch."
   },
   "seo": {
     "title": "Yu-Gi-Oh! Beyond the Brave Checklist · All 100 Cards",
@@ -72,8 +82,8 @@
   "about": {
     "title": "About the Beyond the Brave set",
     "paragraphs": [
-      "Beyond the Brave is a Yu-Gi-Oh! TCG booster set released on 8 October 2026, in the SEVENS &amp; GO RUSH!! era. It has 100 cards, and with the 30 other rarities there are 130 to collect in all.",
-      "Choose what you’re collecting: the <b>Standard set</b> (the 100 cards, each in its main rarity) or the <b>Master set</b> (all 130, adding the 30 other rarities).",
+      "Beyond the Brave is a Yu-Gi-Oh! TCG booster set released on 8 October 2026, in the SEVENS &amp; GO RUSH!! era. It has 100 cards, and with the 30 other rarities and 5 tokens there are 135 to collect in all.",
+      "Choose what you’re collecting: the <b>Standard set</b> (the 100 cards, each in its main rarity) or the <b>Master set</b> (all 135, adding the 30 other rarities and 5 tokens).",
       "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
       "Card details and images come from YGOPRODeck, and prices from TCGplayer."
     ]
@@ -216,6 +226,11 @@
     {"id":"062-str","section":"r-str","num":"062","printed":"BETB-EN062","name":"Dark City at Midnight","ctype":"spell","keywords":"Field Spell","stats":{"t":"Field Spell"},"rarity":"StR","img":"4663194","badge":"StR","variant":"Starlight Rare","code":"STR62","tcg":722655,"grp":24815,"idx":85},
     {"id":"068-str","section":"r-str","num":"068","printed":"BETB-EN068","name":"Hey, Space Trunade!","ctype":"spell","keywords":"Cyclone Normal Spell","stats":{"t":"Normal Spell"},"rarity":"StR","img":"2729965","badge":"StR","variant":"Starlight Rare","code":"STR68","tcg":722991,"grp":24815,"idx":92},
     {"id":"081-str","section":"r-str","num":"081","printed":"BETB-EN081","name":"Audhumla, Progenitor of the Frozen Expanse","ctype":"monster","keywords":"Aqua WATER Effect Monster","stats":{"a":"WATER","l":"Level 9","t":"Aqua / Effect","atk":2500,"def":3200},"rarity":"StR","img":"52245126","badge":"StR EA","variant":"Extended Art Starlight Rare","print":"Extended Art","code":"STR81","tcg":719928,"grp":24815,"idx":106},
-    {"id":"098-str","section":"r-str","num":"098","printed":"BETB-EN098","name":"Verre, the Maid of Endymion","ctype":"monster","keywords":"Endymion Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Effect","atk":500,"def":1400},"rarity":"StR","img":"22623509","badge":"StR","variant":"Starlight Rare","code":"STR98","tcg":719946,"grp":24815,"idx":124}
+    {"id":"098-str","section":"r-str","num":"098","printed":"BETB-EN098","name":"Verre, the Maid of Endymion","ctype":"monster","keywords":"Endymion Spellcaster LIGHT Effect Monster","stats":{"a":"LIGHT","l":"Level 4","t":"Spellcaster / Effect","atk":500,"def":1400},"rarity":"StR","img":"22623509","badge":"StR","variant":"Starlight Rare","code":"STR98","tcg":719946,"grp":24815,"idx":124},
+    {"id":"TKN5-052","section":"tokens","num":"TKN5-EN052","printed":"TKN5-EN052","name":"Token: Joey and Red-Eyes Black Dragon","ctype":"token","keywords":"Token","stats":{"t":"Token"},"rarity":"SR","img":"tcg719829","tcg":719829,"grp":24815,"idx":130},
+    {"id":"TKN5-053","section":"tokens","num":"TKN5-EN053","printed":"TKN5-EN053","name":"Token: Aster and \"Destiny HERO - Plasma\"","ctype":"token","keywords":"Token","stats":{"t":"Token"},"rarity":"SR","img":"tcg719830","tcg":719830,"grp":24815,"idx":131},
+    {"id":"TKN5-054","section":"tokens","num":"TKN5-EN054","printed":"TKN5-EN054","name":"Token: Kalin and \"Infernity Doom Dragon\"","ctype":"token","keywords":"Token","stats":{"t":"Token"},"rarity":"SR","img":"tcg719831","tcg":719831,"grp":24815,"idx":132},
+    {"id":"TKN5-055","section":"tokens","num":"TKN5-EN055","printed":"TKN5-EN055","name":"Token: Nash and \"Number C101: Silent Honor DARK\"","ctype":"token","keywords":"Token","stats":{"t":"Token"},"rarity":"SR","img":"tcg719832","tcg":719832,"grp":24815,"idx":133},
+    {"id":"TKN5-056","section":"tokens","num":"TKN5-EN056","printed":"TKN5-EN056","name":"Token: Gong Strong and \"Superheavy Samurai Warlord Susanowo\"","ctype":"token","keywords":"Token","stats":{"t":"Token"},"rarity":"SR","img":"tcg719833","tcg":719833,"grp":24815,"idx":134}
   ]
 }

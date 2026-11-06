@@ -33,6 +33,12 @@
       "name": "Starlight Rares",
       "range": "25 cards",
       "tier": "master"
+    },
+    {
+      "id": "tokens",
+      "name": "Tokens",
+      "range": "5 tokens",
+      "tier": "master"
     }
   ],
   "summary": [
@@ -51,6 +57,10 @@
     [
       "r-str",
       "Starlight Rares"
+    ],
+    [
+      "tokens",
+      "Tokens"
     ]
   ],
   "quickAdd": {
@@ -60,7 +70,7 @@
     "empty": "Cards run from CORI-EN001 to CORI-EN100."
   },
   "help": {
-    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 100 cards, each in its main rarity. Master adds the 30 other rarities. Cards you’ve marked are kept when you switch."
+    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 100 cards, each in its main rarity. Master adds the 30 other rarities and 5 tokens. Cards you’ve marked are kept when you switch."
   },
   "seo": {
     "title": "Yu-Gi-Oh! Chaos Origins Checklist · All 100 Cards",
@@ -72,8 +82,8 @@
   "about": {
     "title": "About the Chaos Origins set",
     "paragraphs": [
-      "Chaos Origins is a Yu-Gi-Oh! TCG booster set released on 2 July 2026, in the SEVENS &amp; GO RUSH!! era. It has 100 cards, and with the 30 other rarities there are 130 to collect in all.",
-      "Choose what you’re collecting: the <b>Standard set</b> (the 100 cards, each in its main rarity) or the <b>Master set</b> (all 130, adding the 30 other rarities).",
+      "Chaos Origins is a Yu-Gi-Oh! TCG booster set released on 2 July 2026, in the SEVENS &amp; GO RUSH!! era. It has 100 cards, and with the 30 other rarities and 5 tokens there are 135 to collect in all.",
+      "Choose what you’re collecting: the <b>Standard set</b> (the 100 cards, each in its main rarity) or the <b>Master set</b> (all 135, adding the 30 other rarities and 5 tokens).",
       "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
       "Card details and images come from YGOPRODeck, and prices from TCGplayer."
     ]
@@ -216,6 +226,11 @@
     {"id":"050-str","section":"r-str","num":"050","printed":"CORI-EN050","name":"Hideout in the Sky, Coulomb","ctype":"spell","keywords":"Field Spell","stats":{"t":"Field Spell"},"rarity":"StR","img":"37654623","badge":"StR","variant":"Starlight Rare","code":"STR50","tcg":703794,"grp":24675,"idx":75},
     {"id":"053-str","section":"r-str","num":"053","printed":"CORI-EN053","name":"Invocation - \"Sword\"","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"StR","img":"37432075","badge":"StR","variant":"Starlight Rare","code":"STR53","tcg":702417,"grp":24675,"idx":79},
     {"id":"061-str","section":"r-str","num":"061","printed":"CORI-EN061","name":"Pot of Sloth","ctype":"spell","keywords":"Greed Normal Spell","stats":{"t":"Normal Spell"},"rarity":"StR","img":"98476659","badge":"StR","variant":"Starlight Rare","code":"STR61","tcg":703795,"grp":24675,"idx":88},
-    {"id":"081-str","section":"r-str","num":"081","printed":"CORI-EN081","name":"Witness of the Ancient","ctype":"monster","keywords":"Machine LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Machine / Tuner","atk":0,"def":3000},"rarity":"StR","img":"54577949","badge":"StR EA","variant":"Extended Art Starlight Rare","print":"Extended Art","code":"STR81","tcg":702447,"grp":24675,"idx":109}
+    {"id":"081-str","section":"r-str","num":"081","printed":"CORI-EN081","name":"Witness of the Ancient","ctype":"monster","keywords":"Machine LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Machine / Tuner","atk":0,"def":3000},"rarity":"StR","img":"54577949","badge":"StR EA","variant":"Extended Art Starlight Rare","print":"Extended Art","code":"STR81","tcg":702447,"grp":24675,"idx":109},
+    {"id":"TKN5-047","section":"tokens","num":"TKN5-EN047","printed":"TKN5-EN047","name":"Token: Yugi","ctype":"token","keywords":"Token","stats":{"t":"Token"},"rarity":"SR","img":"tcg702468","tcg":702468,"grp":24675,"idx":130},
+    {"id":"TKN5-048","section":"tokens","num":"TKN5-EN048","printed":"TKN5-EN048","name":"Token: Aporia and \"Meklord Astro Mekanikle\"","ctype":"token","keywords":"Token","stats":{"t":"Token"},"rarity":"SR","img":"tcg702469","tcg":702469,"grp":24675,"idx":131},
+    {"id":"TKN5-049","section":"tokens","num":"TKN5-EN049","printed":"TKN5-EN049","name":"Token: Kite and \"Number 62: Galaxy-Eyes Prime Photon Dragon\"","ctype":"token","keywords":"Token","stats":{"t":"Token"},"rarity":"SR","img":"tcg702470","tcg":702470,"grp":24675,"idx":132},
+    {"id":"TKN5-050","section":"tokens","num":"TKN5-EN050","printed":"TKN5-EN050","name":"Token: Yuto and \"Dark Rebellion Xyz Dragon\"","ctype":"token","keywords":"Token","stats":{"t":"Token"},"rarity":"SR","img":"tcg702471","tcg":702471,"grp":24675,"idx":133},
+    {"id":"TKN5-051","section":"tokens","num":"TKN5-EN051","printed":"TKN5-EN051","name":"Token: Ghost Gal and \"Altergeist Primebanshee\"","ctype":"token","keywords":"Token","stats":{"t":"Token"},"rarity":"SR","img":"tcg702472","tcg":702472,"grp":24675,"idx":134}
   ]
 }

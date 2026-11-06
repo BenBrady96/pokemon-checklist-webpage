@@ -56,7 +56,16 @@ export const CHARACTERS = [
 export const FEATURING = {
   'Dark Magician Girl': {
     text: /\bDark Magician Girl\b/,
-    also: ['Magician Navigation', "Magicians' Defense"],
-    not: [],
+    also: ['Magician Navigation', "Magicians' Defense", 'Token: Tea & Dark Magician Girl', 'Token: Yami Yugi & Magicians Combination'],
+    not: [
+      'Magic Formula',
+      'Magikuriboh',
+      'Palladium Oracle Mana',
+      "Sage's Stone",
+      'Secrets of Dark Magic',
+      'Soul Servant',
+      'The Gaze of Timaeus',
+      'Timaeus the United Magical Dragon',
+    ],
   },
 };

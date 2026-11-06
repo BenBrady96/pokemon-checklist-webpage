@@ -21,6 +21,12 @@
       "name": "Starlight Rares",
       "range": "24 cards",
       "tier": "master"
+    },
+    {
+      "id": "tokens",
+      "name": "Tokens",
+      "range": "5 tokens",
+      "tier": "master"
     }
   ],
   "summary": [
@@ -31,6 +37,10 @@
     [
       "r-str",
       "Starlight Rares"
+    ],
+    [
+      "tokens",
+      "Tokens"
     ]
   ],
   "quickAdd": {
@@ -40,7 +50,7 @@
     "empty": "Cards run from DOOD-EN001 to DOOD-EN101."
   },
   "help": {
-    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 101 cards, each in its main rarity. Master adds the 24 other rarities. Cards you’ve marked are kept when you switch."
+    "tiers": "<b>Standard or Master:</b> pick what you’re collecting above the cards. Standard is the 101 cards, each in its main rarity. Master adds the 24 other rarities and 5 tokens. Cards you’ve marked are kept when you switch."
   },
   "seo": {
     "title": "Yu-Gi-Oh! Doom of Dimensions Checklist · All 101 Cards",
@@ -52,8 +62,8 @@
   "about": {
     "title": "About the Doom of Dimensions set",
     "paragraphs": [
-      "Doom of Dimensions is a Yu-Gi-Oh! TCG booster set released on 25 September 2025, in the SEVENS &amp; GO RUSH!! era. It has 101 cards, and with the 24 other rarities there are 125 to collect in all.",
-      "Choose what you’re collecting: the <b>Standard set</b> (the 101 cards, each in its main rarity) or the <b>Master set</b> (all 125, adding the 24 other rarities).",
+      "Doom of Dimensions is a Yu-Gi-Oh! TCG booster set released on 25 September 2025, in the SEVENS &amp; GO RUSH!! era. It has 101 cards, and with the 24 other rarities and 5 tokens there are 130 to collect in all.",
+      "Choose what you’re collecting: the <b>Standard set</b> (the 101 cards, each in its main rarity) or the <b>Master set</b> (all 130, adding the 24 other rarities and 5 tokens).",
       "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
       "Card details and images come from YGOPRODeck, and prices from TCGplayer."
     ]
@@ -191,6 +201,11 @@
     {"id":"064-str","section":"r-str","num":"064","printed":"DOOD-EN064","name":"Draco Awakening","ctype":"spell","keywords":"Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"StR","img":"66092596","badge":"StR","variant":"Starlight Rare","code":"STR64","tcg":654299,"grp":24357,"idx":84},
     {"id":"079-str","section":"r-str","num":"079","printed":"DOOD-EN079","name":"Dominus Spiral","ctype":"trap","keywords":"Dominus Normal Trap","stats":{"t":"Normal Trap"},"rarity":"StR","img":"42091632","badge":"StR","variant":"Starlight Rare","code":"STR79","tcg":654315,"grp":24357,"idx":100},
     {"id":"090-str","section":"r-str","num":"090","printed":"DOOD-EN090","name":"R.B. Lambda Cannon","ctype":"monster","keywords":"R.B. Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Machine / Effect","atk":1200,"def":1200},"rarity":"StR","img":"81794107","badge":"StR","variant":"Starlight Rare","code":"STR90","tcg":654327,"grp":24357,"idx":112},
-    {"id":"093-str","section":"r-str","num":"093","printed":"DOOD-EN093","name":"R.B. Shepherd's Crook","ctype":"monster","keywords":"R.B. Machine DARK Link Monster","stats":{"a":"DARK","l":"Link 3","t":"Machine / Link","atk":1500},"rarity":"StR","img":"80071619","badge":"StR","variant":"Starlight Rare","code":"STR93","tcg":654331,"grp":24357,"idx":116}
+    {"id":"093-str","section":"r-str","num":"093","printed":"DOOD-EN093","name":"R.B. Shepherd's Crook","ctype":"monster","keywords":"R.B. Machine DARK Link Monster","stats":{"a":"DARK","l":"Link 3","t":"Machine / Link","atk":1500},"rarity":"StR","img":"80071619","badge":"StR","variant":"Starlight Rare","code":"STR93","tcg":654331,"grp":24357,"idx":116},
+    {"id":"TKN5-032","section":"tokens","num":"TKN5-EN032","printed":"TKN5-EN032","name":"Token: Pegasus & Toon Summoned Skull","ctype":"token","keywords":"Token","stats":{"t":"Token"},"rarity":"SR","img":"tcg656610","tcg":656610,"grp":24357,"idx":125},
+    {"id":"TKN5-033","section":"tokens","num":"TKN5-EN033","printed":"TKN5-EN033","name":"Token: Axel & Volcanic Doomfire","ctype":"token","keywords":"Token","stats":{"t":"Token"},"rarity":"SR","img":"tcg656611","tcg":656611,"grp":24357,"idx":126},
+    {"id":"TKN5-034","section":"tokens","num":"TKN5-EN034","printed":"TKN5-EN034","name":"Token: Yusei & Junk Warrior","ctype":"token","keywords":"Token","stats":{"t":"Token"},"rarity":"SR","img":"tcg656612","tcg":656612,"grp":24357,"idx":127},
+    {"id":"TKN5-035","section":"tokens","num":"TKN5-EN035","printed":"TKN5-EN035","name":"Token: Declan & D/D/D Doom King Armageddon","ctype":"token","keywords":"Token","stats":{"t":"Token"},"rarity":"SR","img":"tcg656613","tcg":656613,"grp":24357,"idx":128},
+    {"id":"TKN5-036","section":"tokens","num":"TKN5-EN036","printed":"TKN5-EN036","name":"Token: The Gore & Gouki The Great Ogre","ctype":"token","keywords":"Token","stats":{"t":"Token"},"rarity":"SR","img":"tcg656614","tcg":656614,"grp":24357,"idx":129}
   ]
 }
