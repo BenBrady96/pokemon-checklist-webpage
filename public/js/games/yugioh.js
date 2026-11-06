@@ -101,7 +101,7 @@ export function priceLinks(card, entry, query) {
     { label: 'Cardmarket', href: `https://www.cardmarket.com/en/YuGiOh/Products/Search?searchString=${encodeURIComponent(card.name)}` },
     { label: 'TCGplayer', href: entry?.tcg ? `https://www.tcgplayer.com/product/${entry.tcg}` : `https://www.tcgplayer.com/search/yugioh/product?q=${q}` },
     { label: 'eBay UK sold', href: `https://www.ebay.co.uk/sch/i.html?_nkw=${q}&LH_Sold=1&LH_Complete=1` },
-    { label: 'BR Trading Post', href: `https://brtradingpost.co.uk/shop/yu-gi-oh/?q=${encodeURIComponent(card.name)}` },
+    // { label: 'BR Trading Post', href: `https://brtradingpost.co.uk/shop/yu-gi-oh/?q=${encodeURIComponent(card.name)}` },
   ];
 }
 
