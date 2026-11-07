@@ -8,7 +8,7 @@ export const curatedLocalId = (slug, id) => {
 
 export const SPECIES_FIX = { 412: 'Burmy', 892: 'Urshifu', 898: 'Calyrex', 901: 'Ursaluna', 1017: 'Ogerpon' };
 
-export const DEX_FIX = { 'ecard3-47': [] };
+export const DEX_FIX = { 'ecard3-47': [], 'me06-100': [] };
 
 const team = (name, pattern) => ({ name, match: new RegExp(pattern) });
 

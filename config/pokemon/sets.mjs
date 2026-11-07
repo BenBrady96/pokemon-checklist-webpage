@@ -280,6 +280,7 @@ const THIRTIETH_CELEBRATION = {
 
 export const HAND = [
   { slug: '30th-celebration', curated: THIRTIETH_CELEBRATION, theme: { preset: 'default' } },
+  { slug: 'delta-reign', tcgdex: 'me06', untilTcgdex: true, series: MEGA, syncKey: 'DLR', tcgplayer: [24831], theme: { accent: '#2FB57E', chrome: '#0D2620' }, guide: DELTA_REIGN },
   { slug: 'pitch-black', tcgdex: 'me05', series: MEGA, syncKey: 'PBL', tcgplayer: [24688], theme: { accent: '#C465E8', chrome: '#150C1F' } },
   { slug: 'chaos-rising', tcgdex: 'me04', series: MEGA, syncKey: 'CRI', tcgplayer: [24655], theme: { accent: '#4FB6E0', chrome: '#1A1250' } },
   { slug: 'perfect-order', tcgdex: 'me03', series: MEGA, syncKey: 'POR', tcgplayer: [24587], theme: { accent: '#8DBA3F', chrome: '#172412' } },
@@ -313,8 +314,6 @@ export const HAND = [
   { slug: 'sv-energy', tcgdex: 'sve', series: SV, kind: 'energy', name: 'SV Energy', syncKey: 'SVE', tcgplayer: [24382], theme: { accent: '#6CC24A', chrome: '#13261A' } },
 ];
 
-export const UPCOMING = [
-  { slug: 'delta-reign', tcgdex: 'me06', series: MEGA, syncKey: 'DLR', tcgplayer: [24831], theme: { accent: '#2FB57E', chrome: '#0D2620' }, guide: DELTA_REIGN },
-];
+export const UPCOMING = [];
 
 export default [...HAND, ...generated.filter((g) => !HAND.some((h) => h.slug === g.slug))];

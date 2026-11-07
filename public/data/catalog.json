@@ -57,6 +57,37 @@
   ],
   "collections": [
     {
+      "id": "pokemon/delta-reign",
+      "game": "pokemon",
+      "slug": "delta-reign",
+      "name": "Delta Reign",
+      "series": "Mega Evolution",
+      "kind": "expansion",
+      "code": "DLR",
+      "syncKey": "DLR",
+      "released": "2026-11-06",
+      "total": 141,
+      "tiers": [
+        {
+          "id": "standard",
+          "label": "Standard",
+          "count": 103
+        },
+        {
+          "id": "master",
+          "label": "Master",
+          "count": 190
+        },
+        {
+          "id": "grand",
+          "label": "Grand Master",
+          "count": 228
+        }
+      ],
+      "defaultTier": "grand",
+      "logo": "img/sets/pokemon/delta-reign/logo.webp"
+    },
+    {
       "id": "pokemon/30th-celebration",
       "game": "pokemon",
       "slug": "30th-celebration",
