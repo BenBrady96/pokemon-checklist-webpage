@@ -907,6 +907,21 @@ a.btn { text-decoration: none; }
   [data-view="list"][data-mode="count"] .card__info { width: 32px; margin-left: 0; }
 }
 [data-view="list"][data-dim="on"][data-has-owned] .card:not(.is-owned) .card__art { opacity: .55; }
+[data-game="yugioh"][data-view="list"] .card__cap { display: flex; flex-wrap: wrap; align-items: center; gap: 2px 8px; }
+[data-game="yugioh"][data-view="list"] .card__name {
+  flex: 1 0 100%; order: 1;
+  display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; line-clamp: 2;
+  white-space: normal; overflow-wrap: anywhere;
+}
+[data-game="yugioh"][data-view="list"] .card__num { order: 2; min-width: 0; font-size: .8rem; }
+[data-game="yugioh"][data-view="list"] .card__cap .rar { order: 3; }
+[data-game="yugioh"][data-view="list"] .card__rarname { order: 4; }
+[data-game="yugioh"][data-view="list"] .card__price { order: 5; }
+[data-game="yugioh"][data-view="list"] .card__set {
+  order: 6;
+  display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; line-clamp: 2;
+  white-space: normal; overflow-wrap: anywhere;
+}
 
 .binder { display: grid; gap: 22px; }
 .spread { display: grid; border-radius: 18px; background: var(--page-bg); box-shadow: inset 0 0 0 1px var(--line); }
