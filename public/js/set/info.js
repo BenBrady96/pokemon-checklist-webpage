@@ -81,6 +81,7 @@ function tierText(card) {
 const TIER_RANK = new Map(TIER_DEFS.map((t, i) => [t.id, i]));
 
 function setLine(card, section) {
+  if (card.link) return `<p>${escapeHTML(section.name)}${tierText(card)}</p><p>Also in <a href="${asset(`${card.link.set}/`)}#card-${encodeURIComponent(card.link.id)}">${escapeHTML(card.setName)}</a></p>`;
   if (!COLLECTION.isView) return `<p>${escapeHTML(section.name)}${tierText(card)}</p>`;
   const set = COLLECTION.viewSets[card.s];
   const chosen = getSitePrefs().tiers[set.id];
@@ -105,8 +106,8 @@ function viewRow(view, text) {
 async function showViews(card, body) {
   const run = ++viewRun;
   if (COLLECTION.isView) return;
-  const index = await fetchSetViews(COLLECTION.id);
-  const slots = index?.cards?.[card.id];
+  const index = await fetchSetViews(card.link ? card.link.set : COLLECTION.id);
+  const slots = index?.cards?.[card.link ? card.link.id : card.id];
   if (!slots?.length || run !== viewRun) return;
   const views = slots.map((i) => index.views[i])
     .sort((a, b) => VIEW_ORDER.indexOf(a.kind) - VIEW_ORDER.indexOf(b.kind) || a.total - b.total)

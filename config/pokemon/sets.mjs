@@ -100,7 +100,86 @@ const FIRST_PARTNERS = [
   ['7 Aug 2026', ['Treecko', 'Torchic', 'Mudkip', 'Chespin', 'Fennekin', 'Froakie', 'Sprigatito', 'Fuecoco', 'Quaxly']],
 ];
 
-const IDX = { main: 0, classic: 158, rgb: 196 };
+const WYF = 'What’s Your Favorite? stamp';
+const PITCH_BLACK_GIFT = ['Shop gift with a Pokémon TCG purchase · from 17 Jul 2026', 'Given with Pokémon TCG purchases of $15 or more at participating shops to celebrate Pitch Black, while stocks last.'];
+const DELTA_REIGN_GIFT = ['Shop gift with a Pokémon TCG purchase · from 6 Nov 2026', 'Given with Pokémon TCG purchases of $15 or more at participating shops to celebrate Delta Reign, while stocks last.'];
+
+const STAMPED = [
+  ['v01', 216, 'Mewtwo', '30th Celebration', '063', '063/128', 'R', WYF, 'Stamped', 'Pokémon x Target family event · 27 Sep 2026', 'A Cosmos Holo Mewtwo 063/128 with the What’s Your Favorite? stamp, given out at a Pokémon event in Target shops.', 717729, '30th-063'],
+  ['s01', 218, 'Nidorina', 'ME Black Star Promos', '101', 'MEP 101', 'P', 'Pokémon Center stamp', 'Pokémon Center', 'Pokémon Center Elite Trainer Box', 'The regular Nidorina, MEP 101, is in ME Black Star Promos.', 713261, 'mep-101'],
+  ['s02', 219, 'Armarouge', 'Pitch Black', '012', '012/084', 'R', WYF, 'Stamped', ...PITCH_BLACK_GIFT, 705528, 'me05-012'],
+  ['s03', 220, 'Primarina', 'Pitch Black', '020', '020/084', 'R', WYF, 'Stamped', ...PITCH_BLACK_GIFT, 705526, 'me05-020'],
+  ['s04', 221, 'Zarude', 'Pitch Black', '056', '056/084', 'R', WYF, 'Stamped', ...PITCH_BLACK_GIFT, 705527, 'me05-056'],
+  ['s05', 222, 'Kyogre', 'Delta Reign', '026', '026/103', 'R', WYF, 'Stamped', ...DELTA_REIGN_GIFT, null, 'me06-026'],
+  ['s06', 223, 'Giratina', 'Delta Reign', '045', '045/103', 'R', WYF, 'Stamped', ...DELTA_REIGN_GIFT, null, 'me06-045'],
+  ['s07', 224, 'Groudon', 'Delta Reign', '053', '053/103', 'R', WYF, 'Stamped', ...DELTA_REIGN_GIFT, null, 'me06-053'],
+  ['s08', 225, 'Pikachu', 'Temporal Forces', '051', '051/162', 'C', 'Pokémon Day 2026 stamp', 'Pokémon Day', 'Pokémon Day 2026 Collection', null, 673358, 'sv05-051'],
+  ['s09', 226, 'Bulbasaur', 'Mega Evolution', '001', '001/132', 'C', 'Pokémon Day 2026 stamp · Reverse Holo', 'Pokémon Day', 'Pokémon League events for Pokémon Day · 27 Feb 2026', 'Given to players at Pokémon League events, while stocks last.', 678169, 'me01-001'],
+];
+
+const COSMOS = [
+  ['v02', 217, 'Eevee', '30th Celebration', '116', '116/128', 'C', 'Cosmos Holo', 'Cosmos Holo', 'Knock Out Collection · 2-Pack Blister', 'The Cosmos Holo version only comes in these two products. The regular Eevee 116 is found in booster packs.', 717879, '30th-116'],
+];
+
+const ESPEON_DECK ='Espeon ex Battle Deck';
+const UMBREON_DECK = 'Umbreon ex Battle Deck';
+const DECK_ENERGY = { fire: ['002', 656264], psychic: ['005', 656267], lightning: ['004', 656266], darkness: ['007', 656269] };
+
+const DECKS = [
+  ['Espeon ex', '30th Celebration', '070/128', 'RR', 2, 0, null],
+  ['Eevee', '30th Celebration', '117/128', 'C', 3, 0, 729916],
+  ['Fennekin', 'Chaos Rising', '011/086', 'C', 3, 0, 729911, 'me04-011'],
+  ['Braixen', 'Chaos Rising', '012/086', 'C', 2, 0, 729912, 'me04-012'],
+  ['Delphox', 'Chaos Rising', '013/086', 'R', 2, 0, 729910, 'me04-013'],
+  ['Kangaskhan', '30th Celebration', '114/128', 'C', 1, 0, 729920],
+  ['Victini', '30th Celebration', '013/128', 'C', 1, 0, null],
+  ['Zacian', 'Phantasmal Flames', '045/094', 'R', 1, 0, 729914, 'me02-045'],
+  ['Moltres', 'Phantasmal Flames', '014/094', 'R', 1, 0, 729915, 'me02-014'],
+  ['Dawn', 'Phantasmal Flames', '087/094', 'U', 2, 0, 729913, 'me02-087'],
+  ['Rosa’s Encouragement', 'Perfect Order', '084/088', 'U', 2, 0, 729928, 'me03-084'],
+  ['Rare Candy', 'Mega Evolution', '125/132', 'C', 2, 0, 729926, 'me01-125'],
+  ['Basic Fire Energy', null, null, 'E', 8, 0, null, 'fire'],
+  ['Basic Psychic Energy', null, null, 'E', 4, 0, null, 'psychic'],
+  ['Umbreon ex', '30th Celebration', '092/128', 'RR', 0, 2, null],
+  ['Eevee', '30th Celebration', '118/128', 'C', 0, 3, 729819],
+  ['Toxel', 'Phantasmal Flames', '067/094', 'C', 0, 3, 729902, 'me02-067'],
+  ['Toxtricity', 'Phantasmal Flames', '068/094', 'R', 0, 2, 731781, 'me02-068'],
+  ['Zeraora', '30th Celebration', '057/128', 'C', 0, 3, 729907],
+  ['Chi-Yu', 'Pitch Black', '059/084', 'R', 0, 2, 729903, 'me05-059'],
+  ['Yveltal', 'Mega Evolution', '088/132', 'R', 0, 1, 729909, 'me01-088'],
+  ['Emolga', 'Chaos Rising', '030/086', 'C', 0, 1, 729908, 'me04-030'],
+  ['Hilda', 'White Flare', '084/086', 'U', 0, 2, 729905, 'sv10.5w-084'],
+  ['Brock’s Scouting', 'Journey Together', '146/159', 'U', 0, 1, 729906, 'sv09-146'],
+  ['Voltaic Lightning Energy', 'Pitch Black', '084/084', 'R', 0, 2, 729904, 'me05-084'],
+  ['Basic Darkness Energy', null, null, 'E', 0, 8, null, 'darkness'],
+  ['Basic Lightning Energy', null, null, 'E', 0, 3, null, 'lightning'],
+  ['Lillie’s Determination', 'Mega Evolution', '119/132', 'U', 4, 4, 729924, 'me01-119'],
+  ['Boss’s Orders', 'Ascended Heroes', '183/217', 'U', 3, 3, 729934, 'me02.5-183'],
+  ['Iris’s Fighting Spirit', 'Journey Together', '149/159', 'U', 2, 2, 729922, 'sv09-149'],
+  ['Poké Pad', '30th Celebration', '126/128', 'C', 4, 4, 729919],
+  ['Ultra Ball', '30th Celebration', '128/128', 'C', 3, 4, 729917],
+  ['Buddy-Buddy Poffin', 'Ascended Heroes', '184/217', 'C', 2, 2, 729931, 'me02.5-184'],
+  ['Night Stretcher', 'Ascended Heroes', '196/217', 'C', 2, 2, 729932, 'me02.5-196'],
+  ['Pokégear 3.0', 'Black Bolt', '084/086', 'U', 2, 2, 729923, 'sv10.5b-084'],
+  ['Switch', '30th Celebration', '127/128', 'C', 2, 2, 729918],
+  ['Air Balloon', 'Black Bolt', '079/086', 'U', 2, 2, 729927, 'sv10.5b-079'],
+];
+
+const deckSection = (espeon, umbreon) => (espeon && umbreon ? 'deck-both' : espeon ? 'deck-espeon' : 'deck-umbreon');
+const deckNote = (espeon, umbreon) => [espeon && `${espeon} in the ${ESPEON_DECK}`, umbreon && `${umbreon} in the ${UMBREON_DECK}`].filter(Boolean).join(' · ');
+const copies = (n) => (n === 1 ? 'a copy' : `${n} copies`);
+const deckDetail = (espeon, umbreon) => (espeon && umbreon
+  ? `The Battle Decks also have this card as a foil with a 30th Celebration stamp: ${espeon} in the Espeon ex deck and ${umbreon} in the Umbreon ex deck.`
+  : `The ${espeon ? ESPEON_DECK : UMBREON_DECK} also has ${copies(espeon || umbreon)} of this card as ${(espeon || umbreon) === 1 ? 'a foil' : 'foils'} with a 30th Celebration stamp.`);
+const inThisSet = (setName) => setName === '30th Celebration';
+
+const LINKS = [
+  { section: 'promos', set: 'pokemon/me-black-star-promos', ids: PROMOS.map(([n]) => pad(n)) },
+  { section: 'partners', set: 'pokemon/me-black-star-promos', ids: Array.from({ length: 27 }, (_, i) => pad(37 + i)) },
+  { section: 'energy', set: 'pokemon/me-energy', ids: Array.from({ length: 8 }, (_, i) => pad(9 + i)) },
+];
+
+const IDX = { main: 0, classic: 158, rgb: 196, deck: 227 };
 
 const CARDS = [
   ...MAIN_NAMES.map((name, i) => {
@@ -115,7 +194,34 @@ const CARDS = [
     const num = `${letter.toUpperCase()}/RGB`;
     return { id: `rgb-${letter}`, section: 'rgb', num, printed: num, code: num, name: 'Mew', rarity: 'RGB', keywords: colour, idx: IDX.rgb + i };
   }),
+  ...[...COSMOS.map((row) => ['cosmos', row]), ...STAMPED.map((row) => ['stamped', row])].map(([section, [id, idx, name, setName, num, printed, rarity, variant, badge, note, , tcg, tcgdex]]) => ({
+    id, section, num, printed, name, rarity, setName, badge, variant, foil: true, note, ...(tcg && { tcg }), tcgdex, idx,
+  })),
+  ...DECKS.filter(([, setName]) => !inThisSet(setName)).map(([name, setName, printed, rarity, espeon, umbreon, tcg, from], i) => {
+    const energy = rarity === 'E';
+    return {
+      id: `d${String(i + 1).padStart(2, '0')}`, section: deckSection(espeon, umbreon), num: energy ? '' : printed.slice(0, 3), printed: printed || '', name, rarity,
+      ...(energy ? { type: from, display: { number: 'Basic Energy', label: 'Battle Deck', list: '{name}', chip: '{name}', pocket: '' } } : { setName }),
+      badge: '30th Stamp', variant: '30th Celebration stamp', foil: true, note: deckNote(espeon, umbreon),
+      ...(tcg && { tcg }), tcgdex: energy ? `mee-${DECK_ENERGY[from][0]}` : from, idx: IDX.deck + i,
+    };
+  }),
 ];
+
+const STAMPED_DETAILS = Object.fromEntries([...COSMOS, ...STAMPED].filter((row) => row[10]).map((row) => [row[0], row[10]]));
+const DECK_DETAILS = Object.fromEntries(DECKS.filter(([, setName]) => inThisSet(setName)).map(([, , printed, , espeon, umbreon]) => [`m${printed.slice(0, 3)}`, deckDetail(espeon, umbreon)]));
+const LINKED_COUNT = LINKS.reduce((n, link) => n + link.ids.length, 0);
+const GRAND_TOTAL = CARDS.length + LINKED_COUNT;
+const deckCount = (section) => CARDS.filter((c) => c.section === section).length;
+const ORIGINAL_PHOTO = {
+  s05: 726519, s06: 726527, s07: 726529,
+  ...Object.fromEntries(CARDS.filter((c) => c.section.startsWith('deck-') && c.type).map((c) => [c.id, DECK_ENERGY[c.type][1]])),
+};
+const DECK_TOTAL = CARDS.filter((c) => c.section.startsWith('deck-')).length;
+const LINKED_PROMO = { number: '{printed}', label: '{printed}', list: '{printed} {name}', chip: '{printed} {name}', pocket: '{num}', search: 'Pokemon {name} {printed} promo' };
+const STAMPED_DISPLAY = { number: '{set} · {printed}', label: '{set} {printed}', list: '{printed} {name}', chip: '{num} {name}', pocket: '{num}', search: 'Pokemon {set} {name} {printed} {badge}' };
+const DECK_TEXT = '<p><b>30th Celebration Battle Decks</b> (30 Oct 2026). The Espeon ex and Umbreon ex decks each have 60 foil cards, every one with its original set number and a 30th Celebration stamp. Each card is listed once, with how many copies each deck has. Deck cards that are 30th Celebration’s own, such as Espeon ex, Umbreon ex and the Eevees, are only in the main set. The decks’ promos, Victini MEP 102 and Zeraora MEP 103, are listed with the 30th Celebration promos.</p>';
+const LINKED_TEXT = (list) => `<p>This card belongs to ${list}, so marking it here marks it there too, and it’s only counted once in your collection’s value.</p>`;
 
 const promoNotes = Object.fromEntries([
   ...PROMOS.map(([n, , product]) => [pad(n), `30th Celebration ${product}`]),
@@ -128,9 +234,9 @@ const promoDetails = {
   ]))),
   '099': 'The box also has an oversize Jumbo version of this card.',
   '100': 'The box also has an oversize Jumbo version of this card.',
-  '101': 'The Pokémon Center Elite Trainer Box has this card as well as a Pokémon Center-stamped version.',
-  '102': 'The deck’s 60 cards are all foil, each with its original set number and a 30th Celebration stamp.',
-  '103': 'The deck’s 60 cards are all foil, each with its original set number and a 30th Celebration stamp.',
+  '101': 'The Pokémon Center Elite Trainer Box has this card as well as a Pokémon Center-stamped version, which is in 30th Celebration’s Grand Master set.',
+  '102': 'The deck’s 60 cards are all foil, each with its original set number and a 30th Celebration stamp. They’re in 30th Celebration’s Grand Master set.',
+  '103': 'The deck’s 60 cards are all foil, each with its original set number and a 30th Celebration stamp. They’re in 30th Celebration’s Grand Master set.',
   '104': 'The collection also has an oversize Jumbo version of this card and a Mewtwo figure.',
   '105': 'The collection also has an oversize Jumbo version of this card and a Mew figure.',
 };
@@ -138,6 +244,8 @@ const promoDetails = {
 const energyNotes = Object.fromEntries(Array.from({ length: 8 }, (_, i) => [pad(9 + i), '30th Celebration booster packs (one in every pack)']));
 
 const CDN = 'https://dz3we2x72f7ol.cloudfront.net/expansions/30th-celebration/en-us';
+const TCGPLAYER_PHOTO = 'https://tcgplayer-cdn.tcgplayer.com/product';
+const SET_SECTIONS = new Set(['main', 'secret', 'classic', 'rgb']);
 const RGB_GALLERY = 'https://miketendo64.com/wp-content/uploads/2026/09/30th-Celebration_';
 const RGB_SOURCES = {
   'rgb-r': `${RGB_GALLERY}Red-Mew.jpg`,
@@ -162,6 +270,7 @@ const THIRTIETH_CELEBRATION = {
     syncKey: '30C',
     released: '2026-09-16',
     printedTotal: PRINTED_TOTAL,
+    cardCount: GRAND_TOTAL,
     defaultTier: 'grand',
     sections: [
       { id: 'main', name: 'Main Set', range: '001–128', tier: 'standard' },
@@ -171,13 +280,33 @@ const THIRTIETH_CELEBRATION = {
         display: { number: 'Classic Collection · No. {num}', label: 'Classic Collection {num}', list: '{name} ({num})', chip: '{code} {name}', pocket: '{code}', search: 'Pokemon 30th Celebration Classic Collection {name}' },
       },
       { id: 'rgb', name: 'RGB Mews', range: 'R, G and B', tier: 'grand' },
+      { id: 'promos', name: '30th Celebration Promos', range: 'MEP 094–110', tier: 'grand', display: LINKED_PROMO },
+      { id: 'partners', name: 'First Partner Promos', range: 'MEP 037–063', tier: 'grand', display: LINKED_PROMO },
+      {
+        id: 'energy', name: 'Basic Energy', range: 'MEE 009–016', tier: 'grand',
+        display: { number: 'ME Energy {printed}', label: 'ME Energy {printed}', list: '{name}', chip: '{name}', pocket: '{num}', search: 'Pokemon 30th Celebration {name}' },
+      },
+      { id: 'cosmos', name: 'Cosmos Holos', range: `${COSMOS.length} print${COSMOS.length === 1 ? '' : 's'}`, tier: 'grand', display: STAMPED_DISPLAY },
+      { id: 'stamped', name: 'Stamped Prints', range: `${STAMPED.length} prints`, tier: 'grand', display: STAMPED_DISPLAY },
+      { id: 'deck-espeon', name: ESPEON_DECK, range: `${deckCount('deck-espeon')} cards`, tier: 'grand', display: STAMPED_DISPLAY },
+      { id: 'deck-umbreon', name: UMBREON_DECK, range: `${deckCount('deck-umbreon')} cards`, tier: 'grand', display: STAMPED_DISPLAY },
+      { id: 'deck-both', name: 'In Both Battle Decks', range: `${deckCount('deck-both')} cards`, tier: 'grand', display: STAMPED_DISPLAY },
     ],
+    links: LINKS,
     groups: [
       { id: 'main', name: 'Main Set', match: { section: 'main' } },
       { id: 'pikachu', name: 'Pikachu Rares', match: { rarity: 'PR' }, stat: true },
       { id: 'secret', name: 'Secret Rares', match: { section: 'secret' } },
       { id: 'classic', name: 'Classic Collection', match: { section: 'classic' } },
       { id: 'rgb', name: 'RGB Mews', match: { section: 'rgb' } },
+      { id: 'promos', name: '30th Celebration Promos', match: { section: 'promos' } },
+      { id: 'partners', name: 'First Partner Promos', match: { section: 'partners' } },
+      { id: 'energy', name: 'Basic Energy', match: { section: 'energy' } },
+      { id: 'cosmos', name: 'Cosmos Holos', match: { section: 'cosmos' } },
+      { id: 'stamped', name: 'Stamped Prints', match: { section: 'stamped' } },
+      { id: 'deck-espeon', name: ESPEON_DECK, match: { section: 'deck-espeon' } },
+      { id: 'deck-umbreon', name: UMBREON_DECK, match: { section: 'deck-umbreon' } },
+      { id: 'deck-both', name: 'In Both Battle Decks', match: { section: 'deck-both' } },
     ],
     jumps: [
       { id: 'main', label: 'Main Set' },
@@ -185,8 +314,16 @@ const THIRTIETH_CELEBRATION = {
       { id: 'secret', label: 'Secret Rares' },
       { id: 'classic', label: 'Classic' },
       { id: 'rgb', label: 'RGB Mews' },
+      { id: 'promos', label: 'Promos' },
+      { id: 'partners', label: 'First Partners' },
+      { id: 'energy', label: 'Energy' },
+      { id: 'cosmos', label: 'Cosmos Holos' },
+      { id: 'stamped', label: 'Stamped' },
+      { id: 'deck-espeon', label: 'Espeon Deck' },
+      { id: 'deck-umbreon', label: 'Umbreon Deck' },
+      { id: 'deck-both', label: 'Both Decks' },
     ],
-    summary: [['main', 'Main set'], ['secret', 'Secret rares'], ['classic', 'Classic Collection'], ['rgb', 'RGB Mews']],
+    summary: [['main', 'Main set'], ['secret', 'Secret rares'], ['classic', 'Classic Collection'], ['rgb', 'RGB Mews'], ['promos', '30th Celebration promos'], ['partners', 'First Partner promos'], ['energy', 'Basic Energy'], ['cosmos', 'Cosmos Holos'], ['stamped', 'Stamped prints'], ['deck-espeon', 'Espeon ex Battle Deck'], ['deck-umbreon', 'Umbreon ex Battle Deck'], ['deck-both', 'In both Battle Decks']],
     searchAliases: {
       'Nidoran♀': 'female',
       'Metagross δ': 'delta',
@@ -210,17 +347,29 @@ const THIRTIETH_CELEBRATION = {
       },
     },
     help: {
-      tiers: '<b>Standard, Master or Grand Master:</b> pick what you’re collecting above the cards. Standard is the 128 main set cards, Master adds the secret rares and Classic Collection (188 cards), and Grand Master adds the 3 RGB Mews (all 191 cards). Cards you’ve marked are kept when you switch.',
+      tiers: `<b>Standard, Master or Grand Master:</b> pick what you’re collecting above the cards. Standard is the 128 main set cards, Master adds the secret rares and Classic Collection (188 cards), and Grand Master adds every other card with the 30th Celebration stamp: the 3 RGB Mews, the promos and Basic Energy, the Cosmos Holo and stamped prints, and the Battle Deck foils (all ${GRAND_TOTAL} cards). Cards you’ve marked are kept when you switch.`,
     },
     info: {
       packSections: ['main', 'secret', 'classic', 'rgb'],
-      packText: '<p><b>30th Celebration booster packs.</b> Every pack has 6 foil cards: a Pikachu Rare, four more cards from the set and a Basic Energy (listed in ME Energy).</p>',
+      packText: '<p><b>30th Celebration booster packs.</b> Every pack has 6 foil cards: a Pikachu Rare, four more cards from the set and a Basic Energy (listed in this checklist’s Grand Master set and in ME Energy).</p>',
       sectionText: {
         classic: [
           '<p><b>Classic Collection Packs</b>, which have 3 of the 30 cards each. There’s one in each Ultra-Premium Collection (Day and Night, 6 Nov 2026).</p>',
           '<p>They also turn up in about 1 in 10 regular 30th Celebration booster packs.</p>',
         ],
+        promos: [LINKED_TEXT('ME Black Star Promos')],
+        partners: [
+          '<p><b>First Partner Illustration Collections</b>, released in three series of 9 for the 30th anniversary. Each has a promo pack with 3 of its series’ cards at random, plus 2 booster packs.</p>',
+          LINKED_TEXT('ME Black Star Promos'),
+        ],
+        energy: ['<p><b>30th Celebration booster packs</b>, one in every pack.</p>', LINKED_TEXT('ME Energy')],
+        cosmos: ['<p>A Cosmos Holo print of a 30th Celebration card, found only in certain products rather than in booster packs.</p>'],
+        stamped: ['<p>A print of a card with the 30th Celebration logo in its stamp, given away at events and shops or sold in a single product.</p>'],
+        'deck-espeon': [DECK_TEXT],
+        'deck-umbreon': [DECK_TEXT],
+        'deck-both': [DECK_TEXT],
       },
+      details: { ...STAMPED_DETAILS, ...DECK_DETAILS },
       packProducts: [
         'Elite Trainer Box (9 packs)', 'Pokémon Center Elite Trainer Box (11)', 'Booster Bundle (6)',
         'Ultra-Premium Collections (29)', 'Ditto Premium Collection (8)', 'Figure Collections (5)', 'Pokémon ex Boxes (4)',
@@ -234,19 +383,20 @@ const THIRTIETH_CELEBRATION = {
       },
     },
     seo: {
-      title: 'Pokémon TCG 30th Celebration Checklist · All 191 Cards',
-      description: 'Free Pokémon TCG 30th Celebration checklist with no ads, no sign-up and no tracking. Track all 191 cards, including the Classic Collection and the RGB Mews, with images, copy counts, binder pages and offline use.',
+      title: `Pokémon TCG 30th Celebration Checklist · All ${GRAND_TOTAL} Cards`,
+      description: `Free Pokémon TCG 30th Celebration checklist with no ads, no sign-up and no tracking. Track all ${GRAND_TOTAL} cards, including the Classic Collection, the RGB Mews, promos and Battle Deck foils, with images, copy counts and binder pages.`,
       ogTitle: 'Pokémon TCG 30th Celebration Checklist',
-      ogDescription: 'Track all 191 cards in the Pokémon TCG 30th Celebration set, including secret rares, the RGB Mews and the Classic Collection. Free, with no ads, no sign-up and no tracking.',
-      twitterDescription: 'Track all 191 cards in the Pokémon TCG 30th Celebration set. Free, with no ads, no sign-up and no tracking.',
+      ogDescription: `Track all ${GRAND_TOTAL} Pokémon TCG 30th Celebration cards: secret rares, the RGB Mews, the Classic Collection, promos and every stamped print. Free, with no ads, no sign-up and no tracking.`,
+      twitterDescription: `Track all ${GRAND_TOTAL} cards in the Pokémon TCG 30th Celebration set. Free, with no ads, no sign-up and no tracking.`,
       imageAlt: '30th Celebration Card Checklist with Pikachu ex, Mew ex, Mewtwo ex and Charizard cards',
-      appDescription: 'Track all 191 cards in the Pokémon TCG 30th Celebration set: the main set, secret rares, Classic Collection and the RGB Mews.',
+      appDescription: `Track all ${GRAND_TOTAL} cards in the Pokémon TCG 30th Celebration set: the main set, secret rares, Classic Collection, RGB Mews, promos and stamped prints.`,
     },
     about: {
       title: 'About the 30th Celebration set',
       paragraphs: [
-        'Pokémon TCG: 30th Celebration marks 30 years of Pokémon. The set has 191 cards: 128 main set cards, including 30 special Pikachu Rares; 30 secret rares (18 Illustration Rares, 10 Special Illustration Rares and 2 Futuristic Rares); 30 Classic Collection reprints of iconic cards from the game’s history; and the 3 ultra-rare RGB Mews. Its 8 Basic Energy cards are listed in <a href="pokemon/me-energy/">ME Energy</a>, and the promos from 30th Celebration products in <a href="pokemon/me-black-star-promos/">ME Black Star Promos</a>.',
-        'Choose what you’re collecting: the <b>Standard set</b> (the 128 main set cards), the <b>Master set</b> (188 cards, adding the secret rares and the Classic Collection) or the <b>Grand Master set</b> (all 191 cards, adding the RGB Mews).',
+        'Pokémon TCG: 30th Celebration marks 30 years of Pokémon. The set has 191 cards: 128 main set cards, including 30 special Pikachu Rares; 30 secret rares (18 Illustration Rares, 10 Special Illustration Rares and 2 Futuristic Rares); 30 Classic Collection reprints of iconic cards from the game’s history; and the 3 ultra-rare RGB Mews.',
+        `This checklist’s Grand Master set also has every other card with the 30th Celebration logo: ${PROMOS.length} promos from 30th Celebration products and the 27 First Partner promos (also listed in <a href="pokemon/me-black-star-promos/">ME Black Star Promos</a>), the 8 Basic Energy (also in <a href="pokemon/me-energy/">ME Energy</a>), the Cosmos Holo Eevee from the Knock Out Collection and 2-Pack Blister, ${STAMPED.length} stamped prints from events and shops, and the ${DECK_TOTAL} stamped foils from other sets in the Espeon ex and Umbreon ex Battle Decks. Promos and Energy marked here are marked in their own lists too.`,
+        `Choose what you’re collecting: the <b>Standard set</b> (the 128 main set cards), the <b>Master set</b> (188 cards, adding the secret rares and the Classic Collection) or the <b>Grand Master set</b> (all ${GRAND_TOTAL} cards).`,
         'This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.',
       ],
     },
@@ -255,10 +405,12 @@ const THIRTIETH_CELEBRATION = {
   imageSource(card) {
     if (card.section === 'classic') return `${CDN}/2M6P_Classic_EN_${CLASSIC_IMAGE[card.id]}-2x.png`;
     if (card.rarity === 'RGB') return RGB_SOURCES[card.id];
+    if (card.tcgdex) return [card.tcg, ORIGINAL_PHOTO[card.id]].filter(Boolean).map((id) => `${TCGPLAYER_PHOTO}/${id}_in_1000x1000.jpg`);
     return `${CDN}/2M6P_EN_${Number(card.id.slice(1))}-2x.png`;
   },
-  tcgplayerGroups: { set: 24722, classic: 24837 },
+  tcgplayerGroups: { set: 24722, classic: 24837, promo: 24451, energy: 24461, misc: 2374, blister: 2289, deck: 1840 },
   productFor(card, groups, { number, firstWord, only }) {
+    if (card.tcg || !SET_SECTIONS.has(card.section)) return card.tcg || null;
     if (card.section === 'classic') {
       const sameNumber = groups.classic.products.filter((p) => parseInt(number(p), 10) === Number(card.num));
       return only(sameNumber.length > 1 ? sameNumber.filter((p) => firstWord(p.name) === firstWord(card.name)) : sameNumber);
@@ -267,7 +419,7 @@ const THIRTIETH_CELEBRATION = {
   },
   og: {
     emblem: 'emblem-30',
-    blurb: 'Track all 191 cards: main set, secret rares, RGB Mews &amp; the Classic Collection.',
+    blurb: `Track all ${GRAND_TOTAL} cards, from the main set to every promo &amp; stamped print.`,
     showcase: [
       { id: 'c02', width: 196, angle: -16, x: 752, y: 352 },
       { id: 'c01', width: 196, angle: 16, x: 1082, y: 352 },

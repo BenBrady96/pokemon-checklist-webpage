@@ -35,6 +35,8 @@ const SHELL = [
   'js/core/codec.js',
   'js/core/collection.js',
   'js/core/history.js',
+  'js/core/links.js',
+  'js/core/linked-backend.js',
   'js/core/model.js',
   'js/core/paths.js',
   'js/core/pricing.js',

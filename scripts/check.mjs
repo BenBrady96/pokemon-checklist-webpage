@@ -84,6 +84,7 @@ for (const entry of CONFIG) {
     const [a, b] = [model.visibleTiers[i - 1], model.visibleTiers[i]];
     check(a.cards.length < b.cards.length && a.cards.every((c) => b.cards.includes(c)), `${entry.id}: ${a.label} is inside ${b.label}`);
   }
+  check(model.jumps.every((j) => model.groups.some((g) => g.id === j.id)), `${entry.id}: every jump bar button has a group to count its cards`);
   const codes = model.cards.map((c) => c.code).filter(Boolean);
   check(new Set(codes.map((c) => c.toUpperCase())).size === codes.length, `${entry.id}: quick-add codes are unique`);
   check(model.syncKey && /^[A-Za-z0-9]{1,16}$/.test(model.syncKey), `${entry.id}: sync key`);
@@ -122,16 +123,33 @@ for (const model of models.values()) {
   if (ids.includes('secret') && !thirtieth) {
     check(model.getTier('master').sections.every((s) => ids.indexOf(s.id) < ids.indexOf('secret')) && model.lowestTier('secret')?.id === 'grand', `${model.id}: secret rares come after the reverse holos and patterns, in Grand Master`);
   }
-  if (model.kind === 'expansion' || model.kind === 'energy') check(!model.cards.some((c) => c.rarity === 'P'), `${model.id}: promos are only in the promo lists and special collections`);
+  if (model.kind === 'expansion' || model.kind === 'energy') check(!model.cards.some((c) => c.rarity === 'P' && !(thirtieth && c.section === 'stamped')), `${model.id}: promos are only in the promo lists, special collections and 30th Celebration’s stamped prints`);
   if (model.kind === 'energy') check(model.sections.every((s) => s.id === 'main'), `${model.id}: energy lists have only their numbered cards`);
 }
 check(models.get('pokemon/me-black-star-promos')?.cardById.get('094')?.note === '30th Celebration Tech Sticker Collection', 'ME Black Star Promos have the 30th Celebration product notes');
 const meg = models.get('pokemon/mega-evolution');
 check(meg?.visibleTiers.map((t) => t.cards.length).join() === `${meg?.cardsBySection.get('main').length},${meg?.cards.length - meg?.cardsBySection.get('secret').length},${meg?.cards.length}`, 'Mega Evolution tiers are main set, then reverse holos, then secret rares');
 const thirty = models.get('pokemon/30th-celebration');
-check(thirty?.visibleTiers.map((t) => t.cards.length).join() === '128,188,191', '30th Celebration tier sizes are 128, 188 and 191');
-check(thirty?.sections.map((s) => s.id).join() === 'main,secret,classic,rgb', '30th Celebration order is main set, secret rares, Classic Collection, RGB Mews');
-check(thirty?.lowestTier('secret')?.id === 'master' && thirty.lowestTier('classic')?.id === 'master' && thirty.lowestTier('rgb')?.id === 'grand', '30th Celebration Master adds the secret rares and Classic Collection, and only Grand Master has the RGB Mews');
+const thirtyFull = thirty ? await loadModel('pokemon/30th-celebration', { links: true }) : null;
+const THIRTY_EXTRA = ['rgb', 'promos', 'partners', 'energy', 'cosmos', 'stamped', 'deck-espeon', 'deck-umbreon', 'deck-both'];
+const tierSizes = (model) => model?.visibleTiers.map((t) => t.cards.length).join();
+check(tierSizes(thirtyFull) === '128,188,281', `30th Celebration tier sizes with its linked promos and Energy are 128, 188 and 281 (got ${tierSizes(thirtyFull)})`);
+check(tierSizes(thirty) === '128,188,229', `30th Celebration’s own cards are 128, 188 and 229 (got ${tierSizes(thirty)})`);
+check(thirtyFull?.cardCount === 281 && thirty?.cardCount === 281, '30th Celebration says it has 281 cards');
+check(thirtyFull?.sections.map((s) => s.id).join() === ['main', 'secret', 'classic', ...THIRTY_EXTRA].join(), '30th Celebration order is main set, secret rares, Classic Collection, RGB Mews, promos, First Partners, Energy, Cosmos Holos, stamped prints, then the Battle Decks');
+check(thirty?.cardsBySection.get('cosmos').every((c) => c.variant === 'Cosmos Holo') && thirty.cardsBySection.get('stamped').every((c) => /stamp/.test(c.variant)), '30th Celebration keeps its Cosmos Holos apart from its stamped prints');
+check(thirty?.cards.filter((c) => c.section.startsWith('deck-')).every((c) => c.setName !== '30th Celebration'), '30th Celebration’s Battle Deck sections don’t repeat its own cards');
+check(thirtyFull?.lowestTier('secret')?.id === 'master' && thirtyFull.lowestTier('classic')?.id === 'master' && THIRTY_EXTRA.every((id) => thirtyFull.lowestTier(id)?.id === 'grand'), '30th Celebration Master adds the secret rares and Classic Collection, and everything else is Grand Master only');
+if (thirtyFull) {
+  const linked = thirtyFull.cards.filter((c) => c.link);
+  const homeCard = (c) => models.get(c.link.set)?.cardById.get(c.link.id);
+  check(linked.length === 52 && linked.every((c) => homeCard(c)?.name === c.name && c.idx == null && !thirty.cardById.has(c.id)), '30th Celebration links MEP 037–063, MEP 094–110 and MEE 009–016, with no positions of its own');
+  check(linked.every((c) => thirtyFull.imageUrl(c) === models.get(c.link.set).imageUrl(homeCard(c))), '30th Celebration’s linked cards use their own list’s images');
+  check(thirty.cardById.get('v01')?.idx === 216 && thirty.cardById.get('v01').name === 'Mewtwo' && thirty.cardById.get('v02')?.idx === 217 && thirty.cardById.get('v02').name === 'Eevee', 'the stamped Mewtwo and Cosmos Holo Eevee are back at positions 216 and 217');
+  const own = { m001: 1, m070: 2, v01: 1, d05: 3 };
+  check(encodeCollection(thirtyFull, own) === encodeCollection(thirty, own) && thirtyFull.maxIdx === thirty.maxIdx, 'linked cards never change a 30th Celebration share code');
+  check(thirtyFull.linkedId('pokemon/me-black-star-promos', '094') === 'MEP_094' && thirtyFull.linkedId('pokemon/me-energy', '009') === 'MEE_009', '30th Celebration finds a linked card from its own list');
+}
 
 const shareCode = thirty ? encodeCollection(thirty, { m001: 1, m005: 3, c08: 2 }) : '';
 check(parseSyncText(`https://example.com/pokemon/30th-celebration/#sync=${shareCode}`)?.source === 'link', 'a pasted link is read');
@@ -594,6 +612,26 @@ if (meg) {
   backend.save(new Map(), [twoSets[0].id]);
   check(!JSON.parse(localStorage.getItem(`bt:v1:c:${setId}`)).q[twoSets[0].c], 'unmarking on a character page removes the card from its set');
   localStorage.removeItem(`bt:v1:c:${setId}`);
+
+  if (thirtyFull) {
+    const { linkedBackend } = await import('../public/js/core/linked-backend.js');
+    const mepKey = 'bt:v1:c:pokemon/me-black-star-promos';
+    const ownKey = 'bt:v1:c:pokemon/30th-celebration';
+    localStorage.setItem(mepKey, JSON.stringify({ v: 1, q: { '001': 2 }, updated: 1 }));
+    const linked = linkedBackend(thirtyFull);
+    check(linked.keys.has(mepKey) && linked.keys.has(ownKey) && linked.keys.has('bt:v1:c:pokemon/me-energy'), '30th Celebration watches the lists its linked cards belong to');
+    const qty = new Map([['MEP_094', 1], ['m001', 3]]);
+    linked.save(qty, ['MEP_094', 'm001']);
+    const mep = JSON.parse(localStorage.getItem(mepKey));
+    const ownRecord = JSON.parse(localStorage.getItem(ownKey));
+    check(mep.q['094'] === 1 && mep.q['001'] === 2 && !ownRecord.q.MEP_094 && ownRecord.q.m001 === 3, 'marking MEP 094 on 30th Celebration saves it to ME Black Star Promos and keeps that list’s other cards');
+    check(ownRecord.summary?.owned === 2 && ownRecord.summary.total === 281, `30th Celebration’s progress counts its linked cards (got ${JSON.stringify(ownRecord.summary)})`);
+    check(linked.load().MEP_094 === 1 && linked.load().m001 === 3, '30th Celebration reads linked cards from their own list');
+    linked.save(new Map([['m001', 3]]), ['MEP_094']);
+    check(!JSON.parse(localStorage.getItem(mepKey)).q['094'], 'unmarking MEP 094 on 30th Celebration removes it from ME Black Star Promos');
+    localStorage.removeItem(mepKey);
+    localStorage.removeItem(ownKey);
+  }
 
   const prices = viewPrices(sample.data, sampleModel);
   check(Object.keys(prices.cards).length > 0 && Object.keys(prices.cards).every((id) => sampleModel.cardById.has(id)), 'character page prices use its own card ids');

@@ -67,7 +67,7 @@ function priceRow(rows, productId, sub) {
 async function priceCollection(entry, { updated, rates, guide }) {
   const raw = await loadRaw(entry.id);
   if (!raw) return;
-  const model = await loadModel(entry.id, { raw });
+  const model = await loadModel(entry.id, { raw, links: true });
   const { curated } = entry;
   const groupIds = curated
     ? curated.tcgplayerGroups

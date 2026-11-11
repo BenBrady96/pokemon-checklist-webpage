@@ -18,6 +18,23 @@ async function setWorth(id) {
   return worth;
 }
 
+export async function withLinkedWorth(worth, homes) {
+  const prices = await fetchPrices(worth.id);
+  const out = { ...worth };
+  for (const home of homes) {
+    for (const [cardId, n] of Object.entries(storage.readCounts(home.id))) {
+      const entry = prices?.cards?.[`${home.syncKey}_${cardId}`];
+      if (!entry) continue;
+      out.unique++;
+      out.copies += n;
+      const usd = valueUsd(entry, out.rates);
+      if (usd == null) out.unpriced++;
+      else out.usd += usd * n;
+    }
+  }
+  return out;
+}
+
 export async function collectionWorth(ids) {
   const sets = await Promise.all(ids.map(setWorth));
   const total = { sets, usd: 0, rates: {}, unique: 0, copies: 0, unpriced: 0, loaded: sets.every((s) => s.loaded), updated: null, cmUpdated: null, cardmarket: false };

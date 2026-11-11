@@ -8,6 +8,7 @@ import lorcanaSets, { LIVE as LORCANA_LIVE, LOGO as LORCANA_LOGO, LOGO_OUTLINE a
 import lorcanaPage from '../../config/lorcana/page.mjs';
 import { GAMES as ALL_GAMES } from '../../public/js/games/index.js';
 import { buildCollection } from '../../public/js/core/model.js';
+import { linkedSets, withLinks } from '../../public/js/core/links.js';
 import { CACHE, IMAGE_HOST, IMAGES_REPO, PUBLIC, download, exists, readJson } from './util.mjs';
 
 const GAME_CONFIG = {
@@ -68,11 +69,14 @@ export function selectEntries(only = [], game = null) {
 
 export const loadRaw = (id) => readJson(join(dataDir(id), 'cards.json'));
 
-export async function loadModel(id, { raw } = {}) {
+export async function loadModel(id, { raw, links = false } = {}) {
   const data = raw || await loadRaw(id);
   if (!data) throw new Error(`${id}: no data yet. Run npm run sets first.`);
   const images = (await readJson(join(dataDir(id), 'images.json'))) || {};
-  return buildCollection(data, { game: ALL_GAMES[data.game], colors: images.colors || {}, remote: images.remote || null, imageBase: join(imageDir(id)) });
+  const options = { game: ALL_GAMES[data.game], colors: images.colors || {}, remote: images.remote || null, imageBase: join(imageDir(id)) };
+  if (!links || !data.links?.length) return buildCollection(data, options);
+  const homes = await Promise.all(linkedSets(data).map(async (home) => [home, await loadModel(home)]));
+  return withLinks(data, options, new Map(homes));
 }
 
 export const loadCatalog = () => readJson(join(PUBLIC, 'data', 'catalog.json'));

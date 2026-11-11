@@ -400,7 +400,7 @@ export async function collectionPage(id, { siteUrl = DEFAULT_URL, today = isoTod
   const [template, body, raw, prices, catalog] = await Promise.all([readFile(join(TEMPLATES, 'collection.html'), 'utf8'), collectionBody(), loadRaw(id), readJson(join(dataDir(id), 'prices.json')), loadCatalog()]);
   const entry = CONFIG.find((e) => e.id === id);
   const launchGuide = entry?.guide ? guideSectionsHtml(entry, await sealedPrices(id), { today, sub: true, parts: ['dates', 'products', 'sources'] }) : '';
-  const model = await loadModel(id, { raw });
+  const model = await loadModel(id, { raw, links: true });
   const game = GAMES[raw.game];
   const url = `${siteUrl}${id}/`;
   const ogImage = `${siteUrl}${await ogImageFor(id)}`;
@@ -730,7 +730,7 @@ export async function viewBrowsePage(gameId, { siteUrl = DEFAULT_URL } = {}) {
 export async function setValues(catalog) {
   const values = new Map();
   await Promise.all(catalog.collections.map(async (c) => {
-    const [model, prices] = await Promise.all([loadModel(c.id), readJson(join(dataDir(c.id), 'prices.json'))]);
+    const [model, prices] = await Promise.all([loadModel(c.id, { links: true }), readJson(join(dataDir(c.id), 'prices.json'))]);
     const value = tierValues(model, prices);
     if (value) values.set(c.id, value);
   }));

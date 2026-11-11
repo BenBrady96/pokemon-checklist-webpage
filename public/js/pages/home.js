@@ -11,7 +11,7 @@ import { initDialogs, openDialog, toast, hideLoader } from '../shared/ui.js';
 import { initPWA, initInstallBanner } from '../shared/pwa.js';
 import { recordSnapshot } from '../core/history.js';
 import { formatMoney, tierValues } from '../core/pricing.js';
-import { collectionWorth } from '../core/worth.js';
+import { collectionWorth, withLinkedWorth } from '../core/worth.js';
 import { initHeader, showWorth } from '../shared/header.js';
 import { plural, formatAgo } from '../shared/format.js';
 import { tileHtml, viewTileHtml } from '../shared/tiles.js';
@@ -59,7 +59,7 @@ async function loadRootValues(ids) {
   if (!missing.length) return;
   await Promise.all(missing.map(async (id) => {
     try {
-      const [model, prices] = await Promise.all([fetchCollection(id), fetchPrices(id)]);
+      const [model, prices] = await Promise.all([fetchCollection(id, { links: true }), fetchPrices(id)]);
       setValues.set(id, tierValues(model, prices));
     } catch {
       setValues.set(id, null);
@@ -97,8 +97,13 @@ async function refreshWorth() {
   const ids = storage.storedCollections().map(({ id }) => id).filter((id) => entryById(catalog, id));
   const worth = await collectionWorth(ids);
   if (run !== worthRun) return;
+  const linked = await Promise.all(worth.sets.map((s) => {
+    const homes = entryById(catalog, s.id)?.linked?.map((id) => entryById(catalog, id)).filter(Boolean);
+    return homes?.length ? withLinkedWorth(s, homes) : s;
+  }));
+  if (run !== worthRun) return;
   worthById.clear();
-  for (const s of worth.sets) worthById.set(s.id, s);
+  for (const s of linked) worthById.set(s.id, s);
   paintValues();
   if (worth.loaded) recordSnapshot(worth);
   showWorth(worth);
@@ -110,7 +115,7 @@ const cardsOwned = ({ record }) => record.summary?.owned ?? Object.keys(record.q
 
 async function refreshSummaries(ids) {
   for (const id of ids) summaryTried.add(id);
-  const results = await Promise.allSettled(ids.map(async (id) => storage.refreshSummary(id, await fetchCollection(id))));
+  const results = await Promise.allSettled(ids.map(async (id) => storage.refreshSummary(id, await fetchCollection(id, { links: true }))));
   if (results.some((r) => r.value)) showProgress();
 }
 
@@ -171,7 +176,7 @@ function showProgress() {
   for (const c of catalog.collections) {
     const summary = storage.readRecord(c.id)?.summary;
     const owned = Object.keys(storage.readCounts(c.id)).length;
-    if (owned && !summaryTried.has(c.id) && !summaryIsCurrent(c, summary)) stale.push(c.id);
+    if (owned && !summaryTried.has(c.id) && (c.linked || !summaryIsCurrent(c, summary))) stale.push(c.id);
     for (const tile of tilesFor(c.id)) {
       const progress = tile.querySelector('.set-tile__progress');
       progress.classList.toggle('has-cards', Boolean(owned));

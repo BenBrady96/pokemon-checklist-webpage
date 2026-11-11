@@ -97,7 +97,7 @@
       "code": "30C",
       "syncKey": "30C",
       "released": "2026-09-16",
-      "total": 191,
+      "total": 281,
       "tiers": [
         {
           "id": "standard",
@@ -112,10 +112,14 @@
         {
           "id": "grand",
           "label": "Grand Master",
-          "count": 191
+          "count": 281
         }
       ],
       "defaultTier": "grand",
+      "linked": [
+        "pokemon/me-black-star-promos",
+        "pokemon/me-energy"
+      ],
       "logo": "img/sets/pokemon/30th-celebration/logo.webp"
     },
     {

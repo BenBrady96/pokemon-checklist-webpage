@@ -40,7 +40,7 @@ export function collectionBytes(model, counts, n = model.maxIdx + 1) {
   const bits = new Uint8Array(Math.ceil(n / 8));
   const extras = [];
   for (const card of model.cards) {
-    if (card.idx >= n) continue;
+    if (card.idx == null || card.idx >= n) continue;
     const q = clampQty(counts[card.id]);
     if (q > 0) bits[card.idx >> 3] |= 1 << (card.idx & 7);
     if (q > 1) {

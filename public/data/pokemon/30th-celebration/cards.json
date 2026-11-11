@@ -9,6 +9,7 @@
   "syncKey": "30C",
   "released": "2026-09-16",
   "printedTotal": 128,
+  "cardCount": 281,
   "defaultTier": "grand",
   "sections": [
     {
@@ -42,6 +43,190 @@
       "name": "RGB Mews",
       "range": "R, G and B",
       "tier": "grand"
+    },
+    {
+      "id": "promos",
+      "name": "30th Celebration Promos",
+      "range": "MEP 094–110",
+      "tier": "grand",
+      "display": {
+        "number": "{printed}",
+        "label": "{printed}",
+        "list": "{printed} {name}",
+        "chip": "{printed} {name}",
+        "pocket": "{num}",
+        "search": "Pokemon {name} {printed} promo"
+      }
+    },
+    {
+      "id": "partners",
+      "name": "First Partner Promos",
+      "range": "MEP 037–063",
+      "tier": "grand",
+      "display": {
+        "number": "{printed}",
+        "label": "{printed}",
+        "list": "{printed} {name}",
+        "chip": "{printed} {name}",
+        "pocket": "{num}",
+        "search": "Pokemon {name} {printed} promo"
+      }
+    },
+    {
+      "id": "energy",
+      "name": "Basic Energy",
+      "range": "MEE 009–016",
+      "tier": "grand",
+      "display": {
+        "number": "ME Energy {printed}",
+        "label": "ME Energy {printed}",
+        "list": "{name}",
+        "chip": "{name}",
+        "pocket": "{num}",
+        "search": "Pokemon 30th Celebration {name}"
+      }
+    },
+    {
+      "id": "cosmos",
+      "name": "Cosmos Holos",
+      "range": "1 print",
+      "tier": "grand",
+      "display": {
+        "number": "{set} · {printed}",
+        "label": "{set} {printed}",
+        "list": "{printed} {name}",
+        "chip": "{num} {name}",
+        "pocket": "{num}",
+        "search": "Pokemon {set} {name} {printed} {badge}"
+      }
+    },
+    {
+      "id": "stamped",
+      "name": "Stamped Prints",
+      "range": "10 prints",
+      "tier": "grand",
+      "display": {
+        "number": "{set} · {printed}",
+        "label": "{set} {printed}",
+        "list": "{printed} {name}",
+        "chip": "{num} {name}",
+        "pocket": "{num}",
+        "search": "Pokemon {set} {name} {printed} {badge}"
+      }
+    },
+    {
+      "id": "deck-espeon",
+      "name": "Espeon ex Battle Deck",
+      "range": "10 cards",
+      "tier": "grand",
+      "display": {
+        "number": "{set} · {printed}",
+        "label": "{set} {printed}",
+        "list": "{printed} {name}",
+        "chip": "{num} {name}",
+        "pocket": "{num}",
+        "search": "Pokemon {set} {name} {printed} {badge}"
+      }
+    },
+    {
+      "id": "deck-umbreon",
+      "name": "Umbreon ex Battle Deck",
+      "range": "10 cards",
+      "tier": "grand",
+      "display": {
+        "number": "{set} · {printed}",
+        "label": "{set} {printed}",
+        "list": "{printed} {name}",
+        "chip": "{num} {name}",
+        "pocket": "{num}",
+        "search": "Pokemon {set} {name} {printed} {badge}"
+      }
+    },
+    {
+      "id": "deck-both",
+      "name": "In Both Battle Decks",
+      "range": "7 cards",
+      "tier": "grand",
+      "display": {
+        "number": "{set} · {printed}",
+        "label": "{set} {printed}",
+        "list": "{printed} {name}",
+        "chip": "{num} {name}",
+        "pocket": "{num}",
+        "search": "Pokemon {set} {name} {printed} {badge}"
+      }
+    }
+  ],
+  "links": [
+    {
+      "section": "promos",
+      "set": "pokemon/me-black-star-promos",
+      "ids": [
+        "094",
+        "095",
+        "096",
+        "097",
+        "098",
+        "099",
+        "100",
+        "101",
+        "102",
+        "103",
+        "104",
+        "105",
+        "106",
+        "107",
+        "108",
+        "109",
+        "110"
+      ]
+    },
+    {
+      "section": "partners",
+      "set": "pokemon/me-black-star-promos",
+      "ids": [
+        "037",
+        "038",
+        "039",
+        "040",
+        "041",
+        "042",
+        "043",
+        "044",
+        "045",
+        "046",
+        "047",
+        "048",
+        "049",
+        "050",
+        "051",
+        "052",
+        "053",
+        "054",
+        "055",
+        "056",
+        "057",
+        "058",
+        "059",
+        "060",
+        "061",
+        "062",
+        "063"
+      ]
+    },
+    {
+      "section": "energy",
+      "set": "pokemon/me-energy",
+      "ids": [
+        "009",
+        "010",
+        "011",
+        "012",
+        "013",
+        "014",
+        "015",
+        "016"
+      ]
     }
   ],
   "groups": [
@@ -80,6 +265,62 @@
       "match": {
         "section": "rgb"
       }
+    },
+    {
+      "id": "promos",
+      "name": "30th Celebration Promos",
+      "match": {
+        "section": "promos"
+      }
+    },
+    {
+      "id": "partners",
+      "name": "First Partner Promos",
+      "match": {
+        "section": "partners"
+      }
+    },
+    {
+      "id": "energy",
+      "name": "Basic Energy",
+      "match": {
+        "section": "energy"
+      }
+    },
+    {
+      "id": "cosmos",
+      "name": "Cosmos Holos",
+      "match": {
+        "section": "cosmos"
+      }
+    },
+    {
+      "id": "stamped",
+      "name": "Stamped Prints",
+      "match": {
+        "section": "stamped"
+      }
+    },
+    {
+      "id": "deck-espeon",
+      "name": "Espeon ex Battle Deck",
+      "match": {
+        "section": "deck-espeon"
+      }
+    },
+    {
+      "id": "deck-umbreon",
+      "name": "Umbreon ex Battle Deck",
+      "match": {
+        "section": "deck-umbreon"
+      }
+    },
+    {
+      "id": "deck-both",
+      "name": "In Both Battle Decks",
+      "match": {
+        "section": "deck-both"
+      }
     }
   ],
   "jumps": [
@@ -106,6 +347,38 @@
     {
       "id": "rgb",
       "label": "RGB Mews"
+    },
+    {
+      "id": "promos",
+      "label": "Promos"
+    },
+    {
+      "id": "partners",
+      "label": "First Partners"
+    },
+    {
+      "id": "energy",
+      "label": "Energy"
+    },
+    {
+      "id": "cosmos",
+      "label": "Cosmos Holos"
+    },
+    {
+      "id": "stamped",
+      "label": "Stamped"
+    },
+    {
+      "id": "deck-espeon",
+      "label": "Espeon Deck"
+    },
+    {
+      "id": "deck-umbreon",
+      "label": "Umbreon Deck"
+    },
+    {
+      "id": "deck-both",
+      "label": "Both Decks"
     }
   ],
   "summary": [
@@ -124,6 +397,38 @@
     [
       "rgb",
       "RGB Mews"
+    ],
+    [
+      "promos",
+      "30th Celebration promos"
+    ],
+    [
+      "partners",
+      "First Partner promos"
+    ],
+    [
+      "energy",
+      "Basic Energy"
+    ],
+    [
+      "cosmos",
+      "Cosmos Holos"
+    ],
+    [
+      "stamped",
+      "Stamped prints"
+    ],
+    [
+      "deck-espeon",
+      "Espeon ex Battle Deck"
+    ],
+    [
+      "deck-umbreon",
+      "Umbreon ex Battle Deck"
+    ],
+    [
+      "deck-both",
+      "In both Battle Decks"
     ]
   ],
   "searchAliases": {
@@ -169,7 +474,7 @@
     }
   },
   "help": {
-    "tiers": "<b>Standard, Master or Grand Master:</b> pick what you’re collecting above the cards. Standard is the 128 main set cards, Master adds the secret rares and Classic Collection (188 cards), and Grand Master adds the 3 RGB Mews (all 191 cards). Cards you’ve marked are kept when you switch."
+    "tiers": "<b>Standard, Master or Grand Master:</b> pick what you’re collecting above the cards. Standard is the 128 main set cards, Master adds the secret rares and Classic Collection (188 cards), and Grand Master adds every other card with the 30th Celebration stamp: the 3 RGB Mews, the promos and Basic Energy, the Cosmos Holo and stamped prints, and the Battle Deck foils (all 281 cards). Cards you’ve marked are kept when you switch."
   },
   "info": {
     "packSections": [
@@ -178,12 +483,60 @@
       "classic",
       "rgb"
     ],
-    "packText": "<p><b>30th Celebration booster packs.</b> Every pack has 6 foil cards: a Pikachu Rare, four more cards from the set and a Basic Energy (listed in ME Energy).</p>",
+    "packText": "<p><b>30th Celebration booster packs.</b> Every pack has 6 foil cards: a Pikachu Rare, four more cards from the set and a Basic Energy (listed in this checklist’s Grand Master set and in ME Energy).</p>",
     "sectionText": {
       "classic": [
         "<p><b>Classic Collection Packs</b>, which have 3 of the 30 cards each. There’s one in each Ultra-Premium Collection (Day and Night, 6 Nov 2026).</p>",
         "<p>They also turn up in about 1 in 10 regular 30th Celebration booster packs.</p>"
+      ],
+      "promos": [
+        "<p>This card belongs to ME Black Star Promos, so marking it here marks it there too, and it’s only counted once in your collection’s value.</p>"
+      ],
+      "partners": [
+        "<p><b>First Partner Illustration Collections</b>, released in three series of 9 for the 30th anniversary. Each has a promo pack with 3 of its series’ cards at random, plus 2 booster packs.</p>",
+        "<p>This card belongs to ME Black Star Promos, so marking it here marks it there too, and it’s only counted once in your collection’s value.</p>"
+      ],
+      "energy": [
+        "<p><b>30th Celebration booster packs</b>, one in every pack.</p>",
+        "<p>This card belongs to ME Energy, so marking it here marks it there too, and it’s only counted once in your collection’s value.</p>"
+      ],
+      "cosmos": [
+        "<p>A Cosmos Holo print of a 30th Celebration card, found only in certain products rather than in booster packs.</p>"
+      ],
+      "stamped": [
+        "<p>A print of a card with the 30th Celebration logo in its stamp, given away at events and shops or sold in a single product.</p>"
+      ],
+      "deck-espeon": [
+        "<p><b>30th Celebration Battle Decks</b> (30 Oct 2026). The Espeon ex and Umbreon ex decks each have 60 foil cards, every one with its original set number and a 30th Celebration stamp. Each card is listed once, with how many copies each deck has. Deck cards that are 30th Celebration’s own, such as Espeon ex, Umbreon ex and the Eevees, are only in the main set. The decks’ promos, Victini MEP 102 and Zeraora MEP 103, are listed with the 30th Celebration promos.</p>"
+      ],
+      "deck-umbreon": [
+        "<p><b>30th Celebration Battle Decks</b> (30 Oct 2026). The Espeon ex and Umbreon ex decks each have 60 foil cards, every one with its original set number and a 30th Celebration stamp. Each card is listed once, with how many copies each deck has. Deck cards that are 30th Celebration’s own, such as Espeon ex, Umbreon ex and the Eevees, are only in the main set. The decks’ promos, Victini MEP 102 and Zeraora MEP 103, are listed with the 30th Celebration promos.</p>"
+      ],
+      "deck-both": [
+        "<p><b>30th Celebration Battle Decks</b> (30 Oct 2026). The Espeon ex and Umbreon ex decks each have 60 foil cards, every one with its original set number and a 30th Celebration stamp. Each card is listed once, with how many copies each deck has. Deck cards that are 30th Celebration’s own, such as Espeon ex, Umbreon ex and the Eevees, are only in the main set. The decks’ promos, Victini MEP 102 and Zeraora MEP 103, are listed with the 30th Celebration promos.</p>"
       ]
+    },
+    "details": {
+      "v02": "The Cosmos Holo version only comes in these two products. The regular Eevee 116 is found in booster packs.",
+      "v01": "A Cosmos Holo Mewtwo 063/128 with the What’s Your Favorite? stamp, given out at a Pokémon event in Target shops.",
+      "s01": "The regular Nidorina, MEP 101, is in ME Black Star Promos.",
+      "s02": "Given with Pokémon TCG purchases of $15 or more at participating shops to celebrate Pitch Black, while stocks last.",
+      "s03": "Given with Pokémon TCG purchases of $15 or more at participating shops to celebrate Pitch Black, while stocks last.",
+      "s04": "Given with Pokémon TCG purchases of $15 or more at participating shops to celebrate Pitch Black, while stocks last.",
+      "s05": "Given with Pokémon TCG purchases of $15 or more at participating shops to celebrate Delta Reign, while stocks last.",
+      "s06": "Given with Pokémon TCG purchases of $15 or more at participating shops to celebrate Delta Reign, while stocks last.",
+      "s07": "Given with Pokémon TCG purchases of $15 or more at participating shops to celebrate Delta Reign, while stocks last.",
+      "s09": "Given to players at Pokémon League events, while stocks last.",
+      "m070": "The Espeon ex Battle Deck also has 2 copies of this card as foils with a 30th Celebration stamp.",
+      "m117": "The Espeon ex Battle Deck also has 3 copies of this card as foils with a 30th Celebration stamp.",
+      "m114": "The Espeon ex Battle Deck also has a copy of this card as a foil with a 30th Celebration stamp.",
+      "m013": "The Espeon ex Battle Deck also has a copy of this card as a foil with a 30th Celebration stamp.",
+      "m092": "The Umbreon ex Battle Deck also has 2 copies of this card as foils with a 30th Celebration stamp.",
+      "m118": "The Umbreon ex Battle Deck also has 3 copies of this card as foils with a 30th Celebration stamp.",
+      "m057": "The Umbreon ex Battle Deck also has 3 copies of this card as foils with a 30th Celebration stamp.",
+      "m126": "The Battle Decks also have this card as a foil with a 30th Celebration stamp: 4 in the Espeon ex deck and 4 in the Umbreon ex deck.",
+      "m128": "The Battle Decks also have this card as a foil with a 30th Celebration stamp: 3 in the Espeon ex deck and 4 in the Umbreon ex deck.",
+      "m127": "The Battle Decks also have this card as a foil with a 30th Celebration stamp: 2 in the Espeon ex deck and 2 in the Umbreon ex deck."
     },
     "packProducts": [
       "Elite Trainer Box (9 packs)",
@@ -218,19 +571,20 @@
     }
   },
   "seo": {
-    "title": "Pokémon TCG 30th Celebration Checklist · All 191 Cards",
-    "description": "Free Pokémon TCG 30th Celebration checklist with no ads, no sign-up and no tracking. Track all 191 cards, including the Classic Collection and the RGB Mews, with images, copy counts, binder pages and offline use.",
+    "title": "Pokémon TCG 30th Celebration Checklist · All 281 Cards",
+    "description": "Free Pokémon TCG 30th Celebration checklist with no ads, no sign-up and no tracking. Track all 281 cards, including the Classic Collection, the RGB Mews, promos and Battle Deck foils, with images, copy counts and binder pages.",
     "ogTitle": "Pokémon TCG 30th Celebration Checklist",
-    "ogDescription": "Track all 191 cards in the Pokémon TCG 30th Celebration set, including secret rares, the RGB Mews and the Classic Collection. Free, with no ads, no sign-up and no tracking.",
-    "twitterDescription": "Track all 191 cards in the Pokémon TCG 30th Celebration set. Free, with no ads, no sign-up and no tracking.",
+    "ogDescription": "Track all 281 Pokémon TCG 30th Celebration cards: secret rares, the RGB Mews, the Classic Collection, promos and every stamped print. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 281 cards in the Pokémon TCG 30th Celebration set. Free, with no ads, no sign-up and no tracking.",
     "imageAlt": "30th Celebration Card Checklist with Pikachu ex, Mew ex, Mewtwo ex and Charizard cards",
-    "appDescription": "Track all 191 cards in the Pokémon TCG 30th Celebration set: the main set, secret rares, Classic Collection and the RGB Mews."
+    "appDescription": "Track all 281 cards in the Pokémon TCG 30th Celebration set: the main set, secret rares, Classic Collection, RGB Mews, promos and stamped prints."
   },
   "about": {
     "title": "About the 30th Celebration set",
     "paragraphs": [
-      "Pokémon TCG: 30th Celebration marks 30 years of Pokémon. The set has 191 cards: 128 main set cards, including 30 special Pikachu Rares; 30 secret rares (18 Illustration Rares, 10 Special Illustration Rares and 2 Futuristic Rares); 30 Classic Collection reprints of iconic cards from the game’s history; and the 3 ultra-rare RGB Mews. Its 8 Basic Energy cards are listed in <a href=\"pokemon/me-energy/\">ME Energy</a>, and the promos from 30th Celebration products in <a href=\"pokemon/me-black-star-promos/\">ME Black Star Promos</a>.",
-      "Choose what you’re collecting: the <b>Standard set</b> (the 128 main set cards), the <b>Master set</b> (188 cards, adding the secret rares and the Classic Collection) or the <b>Grand Master set</b> (all 191 cards, adding the RGB Mews).",
+      "Pokémon TCG: 30th Celebration marks 30 years of Pokémon. The set has 191 cards: 128 main set cards, including 30 special Pikachu Rares; 30 secret rares (18 Illustration Rares, 10 Special Illustration Rares and 2 Futuristic Rares); 30 Classic Collection reprints of iconic cards from the game’s history; and the 3 ultra-rare RGB Mews.",
+      "This checklist’s Grand Master set also has every other card with the 30th Celebration logo: 17 promos from 30th Celebration products and the 27 First Partner promos (also listed in <a href=\"pokemon/me-black-star-promos/\">ME Black Star Promos</a>), the 8 Basic Energy (also in <a href=\"pokemon/me-energy/\">ME Energy</a>), the Cosmos Holo Eevee from the Knock Out Collection and 2-Pack Blister, 10 stamped prints from events and shops, and the 27 stamped foils from other sets in the Espeon ex and Umbreon ex Battle Decks. Promos and Energy marked here are marked in their own lists too.",
+      "Choose what you’re collecting: the <b>Standard set</b> (the 128 main set cards), the <b>Master set</b> (188 cards, adding the secret rares and the Classic Collection) or the <b>Grand Master set</b> (all 281 cards).",
       "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device."
     ]
   },
@@ -425,6 +779,44 @@
     {"id":"c30","section":"classic","num":"203","printed":"203","code":"C30","name":"Magikarp","rarity":"CC","idx":187},
     {"id":"rgb-r","section":"rgb","num":"R/RGB","printed":"R/RGB","code":"R/RGB","name":"Mew","rarity":"RGB","keywords":"Red","idx":196},
     {"id":"rgb-g","section":"rgb","num":"G/RGB","printed":"G/RGB","code":"G/RGB","name":"Mew","rarity":"RGB","keywords":"Green","idx":197},
-    {"id":"rgb-b","section":"rgb","num":"B/RGB","printed":"B/RGB","code":"B/RGB","name":"Mew","rarity":"RGB","keywords":"Blue","idx":198}
+    {"id":"rgb-b","section":"rgb","num":"B/RGB","printed":"B/RGB","code":"B/RGB","name":"Mew","rarity":"RGB","keywords":"Blue","idx":198},
+    {"id":"v02","section":"cosmos","num":"116","printed":"116/128","name":"Eevee","rarity":"C","setName":"30th Celebration","badge":"Cosmos Holo","variant":"Cosmos Holo","foil":true,"note":"Knock Out Collection · 2-Pack Blister","tcg":717879,"tcgdex":"30th-116","idx":217},
+    {"id":"v01","section":"stamped","num":"063","printed":"063/128","name":"Mewtwo","rarity":"R","setName":"30th Celebration","badge":"Stamped","variant":"What’s Your Favorite? stamp","foil":true,"note":"Pokémon x Target family event · 27 Sep 2026","tcg":717729,"tcgdex":"30th-063","idx":216},
+    {"id":"s01","section":"stamped","num":"101","printed":"MEP 101","name":"Nidorina","rarity":"P","setName":"ME Black Star Promos","badge":"Pokémon Center","variant":"Pokémon Center stamp","foil":true,"note":"Pokémon Center Elite Trainer Box","tcg":713261,"tcgdex":"mep-101","idx":218},
+    {"id":"s02","section":"stamped","num":"012","printed":"012/084","name":"Armarouge","rarity":"R","setName":"Pitch Black","badge":"Stamped","variant":"What’s Your Favorite? stamp","foil":true,"note":"Shop gift with a Pokémon TCG purchase · from 17 Jul 2026","tcg":705528,"tcgdex":"me05-012","idx":219},
+    {"id":"s03","section":"stamped","num":"020","printed":"020/084","name":"Primarina","rarity":"R","setName":"Pitch Black","badge":"Stamped","variant":"What’s Your Favorite? stamp","foil":true,"note":"Shop gift with a Pokémon TCG purchase · from 17 Jul 2026","tcg":705526,"tcgdex":"me05-020","idx":220},
+    {"id":"s04","section":"stamped","num":"056","printed":"056/084","name":"Zarude","rarity":"R","setName":"Pitch Black","badge":"Stamped","variant":"What’s Your Favorite? stamp","foil":true,"note":"Shop gift with a Pokémon TCG purchase · from 17 Jul 2026","tcg":705527,"tcgdex":"me05-056","idx":221},
+    {"id":"s05","section":"stamped","num":"026","printed":"026/103","name":"Kyogre","rarity":"R","setName":"Delta Reign","badge":"Stamped","variant":"What’s Your Favorite? stamp","foil":true,"note":"Shop gift with a Pokémon TCG purchase · from 6 Nov 2026","tcgdex":"me06-026","idx":222},
+    {"id":"s06","section":"stamped","num":"045","printed":"045/103","name":"Giratina","rarity":"R","setName":"Delta Reign","badge":"Stamped","variant":"What’s Your Favorite? stamp","foil":true,"note":"Shop gift with a Pokémon TCG purchase · from 6 Nov 2026","tcgdex":"me06-045","idx":223},
+    {"id":"s07","section":"stamped","num":"053","printed":"053/103","name":"Groudon","rarity":"R","setName":"Delta Reign","badge":"Stamped","variant":"What’s Your Favorite? stamp","foil":true,"note":"Shop gift with a Pokémon TCG purchase · from 6 Nov 2026","tcgdex":"me06-053","idx":224},
+    {"id":"s08","section":"stamped","num":"051","printed":"051/162","name":"Pikachu","rarity":"C","setName":"Temporal Forces","badge":"Pokémon Day","variant":"Pokémon Day 2026 stamp","foil":true,"note":"Pokémon Day 2026 Collection","tcg":673358,"tcgdex":"sv05-051","idx":225},
+    {"id":"s09","section":"stamped","num":"001","printed":"001/132","name":"Bulbasaur","rarity":"C","setName":"Mega Evolution","badge":"Pokémon Day","variant":"Pokémon Day 2026 stamp · Reverse Holo","foil":true,"note":"Pokémon League events for Pokémon Day · 27 Feb 2026","tcg":678169,"tcgdex":"me01-001","idx":226},
+    {"id":"d01","section":"deck-espeon","num":"011","printed":"011/086","name":"Fennekin","rarity":"C","setName":"Chaos Rising","badge":"30th Stamp","variant":"30th Celebration stamp","foil":true,"note":"3 in the Espeon ex Battle Deck","tcg":729911,"tcgdex":"me04-011","idx":227},
+    {"id":"d02","section":"deck-espeon","num":"012","printed":"012/086","name":"Braixen","rarity":"C","setName":"Chaos Rising","badge":"30th Stamp","variant":"30th Celebration stamp","foil":true,"note":"2 in the Espeon ex Battle Deck","tcg":729912,"tcgdex":"me04-012","idx":228},
+    {"id":"d03","section":"deck-espeon","num":"013","printed":"013/086","name":"Delphox","rarity":"R","setName":"Chaos Rising","badge":"30th Stamp","variant":"30th Celebration stamp","foil":true,"note":"2 in the Espeon ex Battle Deck","tcg":729910,"tcgdex":"me04-013","idx":229},
+    {"id":"d04","section":"deck-espeon","num":"045","printed":"045/094","name":"Zacian","rarity":"R","setName":"Phantasmal Flames","badge":"30th Stamp","variant":"30th Celebration stamp","foil":true,"note":"1 in the Espeon ex Battle Deck","tcg":729914,"tcgdex":"me02-045","idx":230},
+    {"id":"d05","section":"deck-espeon","num":"014","printed":"014/094","name":"Moltres","rarity":"R","setName":"Phantasmal Flames","badge":"30th Stamp","variant":"30th Celebration stamp","foil":true,"note":"1 in the Espeon ex Battle Deck","tcg":729915,"tcgdex":"me02-014","idx":231},
+    {"id":"d06","section":"deck-espeon","num":"087","printed":"087/094","name":"Dawn","rarity":"U","setName":"Phantasmal Flames","badge":"30th Stamp","variant":"30th Celebration stamp","foil":true,"note":"2 in the Espeon ex Battle Deck","tcg":729913,"tcgdex":"me02-087","idx":232},
+    {"id":"d07","section":"deck-espeon","num":"084","printed":"084/088","name":"Rosa’s Encouragement","rarity":"U","setName":"Perfect Order","badge":"30th Stamp","variant":"30th Celebration stamp","foil":true,"note":"2 in the Espeon ex Battle Deck","tcg":729928,"tcgdex":"me03-084","idx":233},
+    {"id":"d08","section":"deck-espeon","num":"125","printed":"125/132","name":"Rare Candy","rarity":"C","setName":"Mega Evolution","badge":"30th Stamp","variant":"30th Celebration stamp","foil":true,"note":"2 in the Espeon ex Battle Deck","tcg":729926,"tcgdex":"me01-125","idx":234},
+    {"id":"d09","section":"deck-espeon","num":"","printed":"","name":"Basic Fire Energy","rarity":"E","type":"fire","display":{"number":"Basic Energy","label":"Battle Deck","list":"{name}","chip":"{name}","pocket":""},"badge":"30th Stamp","variant":"30th Celebration stamp","foil":true,"note":"8 in the Espeon ex Battle Deck","tcgdex":"mee-002","idx":235},
+    {"id":"d10","section":"deck-espeon","num":"","printed":"","name":"Basic Psychic Energy","rarity":"E","type":"psychic","display":{"number":"Basic Energy","label":"Battle Deck","list":"{name}","chip":"{name}","pocket":""},"badge":"30th Stamp","variant":"30th Celebration stamp","foil":true,"note":"4 in the Espeon ex Battle Deck","tcgdex":"mee-005","idx":236},
+    {"id":"d11","section":"deck-umbreon","num":"067","printed":"067/094","name":"Toxel","rarity":"C","setName":"Phantasmal Flames","badge":"30th Stamp","variant":"30th Celebration stamp","foil":true,"note":"3 in the Umbreon ex Battle Deck","tcg":729902,"tcgdex":"me02-067","idx":237},
+    {"id":"d12","section":"deck-umbreon","num":"068","printed":"068/094","name":"Toxtricity","rarity":"R","setName":"Phantasmal Flames","badge":"30th Stamp","variant":"30th Celebration stamp","foil":true,"note":"2 in the Umbreon ex Battle Deck","tcg":731781,"tcgdex":"me02-068","idx":238},
+    {"id":"d13","section":"deck-umbreon","num":"059","printed":"059/084","name":"Chi-Yu","rarity":"R","setName":"Pitch Black","badge":"30th Stamp","variant":"30th Celebration stamp","foil":true,"note":"2 in the Umbreon ex Battle Deck","tcg":729903,"tcgdex":"me05-059","idx":239},
+    {"id":"d14","section":"deck-umbreon","num":"088","printed":"088/132","name":"Yveltal","rarity":"R","setName":"Mega Evolution","badge":"30th Stamp","variant":"30th Celebration stamp","foil":true,"note":"1 in the Umbreon ex Battle Deck","tcg":729909,"tcgdex":"me01-088","idx":240},
+    {"id":"d15","section":"deck-umbreon","num":"030","printed":"030/086","name":"Emolga","rarity":"C","setName":"Chaos Rising","badge":"30th Stamp","variant":"30th Celebration stamp","foil":true,"note":"1 in the Umbreon ex Battle Deck","tcg":729908,"tcgdex":"me04-030","idx":241},
+    {"id":"d16","section":"deck-umbreon","num":"084","printed":"084/086","name":"Hilda","rarity":"U","setName":"White Flare","badge":"30th Stamp","variant":"30th Celebration stamp","foil":true,"note":"2 in the Umbreon ex Battle Deck","tcg":729905,"tcgdex":"sv10.5w-084","idx":242},
+    {"id":"d17","section":"deck-umbreon","num":"146","printed":"146/159","name":"Brock’s Scouting","rarity":"U","setName":"Journey Together","badge":"30th Stamp","variant":"30th Celebration stamp","foil":true,"note":"1 in the Umbreon ex Battle Deck","tcg":729906,"tcgdex":"sv09-146","idx":243},
+    {"id":"d18","section":"deck-umbreon","num":"084","printed":"084/084","name":"Voltaic Lightning Energy","rarity":"R","setName":"Pitch Black","badge":"30th Stamp","variant":"30th Celebration stamp","foil":true,"note":"2 in the Umbreon ex Battle Deck","tcg":729904,"tcgdex":"me05-084","idx":244},
+    {"id":"d19","section":"deck-umbreon","num":"","printed":"","name":"Basic Darkness Energy","rarity":"E","type":"darkness","display":{"number":"Basic Energy","label":"Battle Deck","list":"{name}","chip":"{name}","pocket":""},"badge":"30th Stamp","variant":"30th Celebration stamp","foil":true,"note":"8 in the Umbreon ex Battle Deck","tcgdex":"mee-007","idx":245},
+    {"id":"d20","section":"deck-umbreon","num":"","printed":"","name":"Basic Lightning Energy","rarity":"E","type":"lightning","display":{"number":"Basic Energy","label":"Battle Deck","list":"{name}","chip":"{name}","pocket":""},"badge":"30th Stamp","variant":"30th Celebration stamp","foil":true,"note":"3 in the Umbreon ex Battle Deck","tcgdex":"mee-004","idx":246},
+    {"id":"d21","section":"deck-both","num":"119","printed":"119/132","name":"Lillie’s Determination","rarity":"U","setName":"Mega Evolution","badge":"30th Stamp","variant":"30th Celebration stamp","foil":true,"note":"4 in the Espeon ex Battle Deck · 4 in the Umbreon ex Battle Deck","tcg":729924,"tcgdex":"me01-119","idx":247},
+    {"id":"d22","section":"deck-both","num":"183","printed":"183/217","name":"Boss’s Orders","rarity":"U","setName":"Ascended Heroes","badge":"30th Stamp","variant":"30th Celebration stamp","foil":true,"note":"3 in the Espeon ex Battle Deck · 3 in the Umbreon ex Battle Deck","tcg":729934,"tcgdex":"me02.5-183","idx":248},
+    {"id":"d23","section":"deck-both","num":"149","printed":"149/159","name":"Iris’s Fighting Spirit","rarity":"U","setName":"Journey Together","badge":"30th Stamp","variant":"30th Celebration stamp","foil":true,"note":"2 in the Espeon ex Battle Deck · 2 in the Umbreon ex Battle Deck","tcg":729922,"tcgdex":"sv09-149","idx":249},
+    {"id":"d24","section":"deck-both","num":"184","printed":"184/217","name":"Buddy-Buddy Poffin","rarity":"C","setName":"Ascended Heroes","badge":"30th Stamp","variant":"30th Celebration stamp","foil":true,"note":"2 in the Espeon ex Battle Deck · 2 in the Umbreon ex Battle Deck","tcg":729931,"tcgdex":"me02.5-184","idx":250},
+    {"id":"d25","section":"deck-both","num":"196","printed":"196/217","name":"Night Stretcher","rarity":"C","setName":"Ascended Heroes","badge":"30th Stamp","variant":"30th Celebration stamp","foil":true,"note":"2 in the Espeon ex Battle Deck · 2 in the Umbreon ex Battle Deck","tcg":729932,"tcgdex":"me02.5-196","idx":251},
+    {"id":"d26","section":"deck-both","num":"084","printed":"084/086","name":"Pokégear 3.0","rarity":"U","setName":"Black Bolt","badge":"30th Stamp","variant":"30th Celebration stamp","foil":true,"note":"2 in the Espeon ex Battle Deck · 2 in the Umbreon ex Battle Deck","tcg":729923,"tcgdex":"sv10.5b-084","idx":252},
+    {"id":"d27","section":"deck-both","num":"079","printed":"079/086","name":"Air Balloon","rarity":"U","setName":"Black Bolt","badge":"30th Stamp","variant":"30th Celebration stamp","foil":true,"note":"2 in the Espeon ex Battle Deck · 2 in the Umbreon ex Battle Deck","tcg":729927,"tcgdex":"sv10.5b-079","idx":253}
   ]
 }

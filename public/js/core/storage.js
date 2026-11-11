@@ -123,8 +123,14 @@ export function writeCounts(id, counts, model) {
 
 function summarise(model, q) {
   const tier = model.getTier(prefs.tiers[model.id]);
+  const homes = new Map();
+  const has = (card) => {
+    if (!card.link) return q[card.id] > 0;
+    if (!homes.has(card.link.set)) homes.set(card.link.set, readCounts(card.link.set));
+    return homes.get(card.link.set)[card.link.id] > 0;
+  };
   let owned = 0;
-  for (const card of tier.cards) if (q[card.id] > 0) owned++;
+  for (const card of tier.cards) if (has(card)) owned++;
   return { tier: tier.id, owned, total: tier.cards.length };
 }
 

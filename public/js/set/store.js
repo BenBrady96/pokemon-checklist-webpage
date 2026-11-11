@@ -148,12 +148,16 @@ export function describe(entry) {
   return `Updated ${cards(n)}`;
 }
 
+const OWN_CARDS = COLLECTION.cards.filter((c) => !c.link);
+
+export const ownedOwnCount = () => OWN_CARDS.filter((c) => qty.has(c.id)).length;
+
 export function replaceAll(counts) {
-  return update(COLLECTION.cards.map((c) => [c.id, counts[c.id] || 0]));
+  return update(OWN_CARDS.map((c) => [c.id, counts[c.id] || 0]));
 }
 
 export function mergeAll(counts) {
-  return update(COLLECTION.cards.filter((c) => (counts[c.id] || 0) > getQty(c.id)).map((c) => [c.id, counts[c.id]]));
+  return update(OWN_CARDS.filter((c) => (counts[c.id] || 0) > getQty(c.id)).map((c) => [c.id, counts[c.id]]));
 }
 
 let prefsSource = null;
@@ -192,7 +196,7 @@ export function onPrefChange(fn) {
 }
 
 storage.onPrefChange((key) => {
-  if (key === 'tiers' && qty.size && !COLLECTION.backend) persist();
+  if (key === 'tiers' && qty.size && !COLLECTION.isView) persist();
 });
 
 export function reloadFromStorage() {
@@ -211,4 +215,4 @@ window.addEventListener('pageshow', (e) => {
 });
 
 loadQty();
-if (!COLLECTION.backend && storage.getPrefs().lastCollection !== ID) storage.setPref('lastCollection', ID);
+if (!COLLECTION.isView && storage.getPrefs().lastCollection !== ID) storage.setPref('lastCollection', ID);

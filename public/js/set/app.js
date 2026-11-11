@@ -496,14 +496,17 @@ async function saveOffline() {
 }
 
 async function doReset() {
-  const owned = store.ownedCount();
+  const owned = store.ownedOwnCount();
   if (!owned) {
-    toast('Your collection is already empty.');
+    toast(store.ownedCount() ? 'Only cards from other lists are marked here, so there’s nothing to reset.' : 'Your collection is already empty.');
     return;
   }
+  const linkedNote = COLLECTION.linkedSets
+    ? ` Cards that belong to ${COLLECTION.linkedSets.map((id) => COLLECTION.linkHomes.get(id).name).join(' and ')} stay marked.`
+    : '';
   const ok = await confirmAction({
     title: `Reset ${COLLECTION.name}?`,
-    text: `This unmarks all ${owned} cards in this set on this device. Your other sets aren’t affected, and you can undo it straight away.`,
+    text: `This unmarks all ${owned} cards in this set on this device.${linkedNote} Your other sets aren’t affected, and you can undo it straight away.`,
     confirmLabel: 'Reset',
   });
   if (!ok) return;
@@ -549,7 +552,7 @@ const actions = {
 function openScanner() {
   const inView = COLLECTION.isView
     ? { game: html.dataset.game, route: (set, cardId) => COLLECTION.cards.find((c) => COLLECTION.viewSets[c.s].id === set && c.c === cardId)?.id || null }
-    : { prefer: COLLECTION.id };
+    : { prefer: COLLECTION.id, route: COLLECTION.linkedId };
   import('../scan/scan.js').then((m) => m.openScanner({
     ...inView,
     current(id, delta) {

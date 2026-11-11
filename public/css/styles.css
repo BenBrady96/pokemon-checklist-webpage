@@ -632,6 +632,11 @@ a.btn { text-decoration: none; }
 .jump[aria-current="true"] { color: var(--text); box-shadow: inset 0 -2px 0 var(--theme); }
 .jump.is-complete .jump__count { color: var(--theme-ink); font-weight: 600; }
 .jump .rar { width: 14px; height: 14px; color: currentColor; }
+@media (min-width: 900px) {
+  .jumpbar__inner { flex-wrap: wrap; overflow-x: visible; padding-left: calc(max(var(--gutter), env(safe-area-inset-left)) - 10px); }
+  .jump { min-height: 40px; }
+  .jump:first-child { padding-left: 12px; }
+}
 
 .banner { background: #FFF3CD; color: #5A4300; border-bottom: 1px solid rgba(0, 0, 0, .08); font-size: .88rem; }
 .banner .wrap { padding-block: 10px; }
