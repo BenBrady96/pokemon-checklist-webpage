@@ -293,6 +293,7 @@ export const HAND = [
     details: promoDetails,
   },
   { slug: 'me-energy', tcgdex: 'mee', series: MEGA, kind: 'energy', name: 'ME Energy', syncKey: 'MEE', tcgplayer: [24461], notes: energyNotes, theme: { accent: '#F3C433', chrome: '#1C1F2A' } },
+  { slug: 'mcdonalds-collection-2026', name: "McDonald's Collection 2026", series: "McDonald's", kind: 'collection', tcgdex: '2026me', untilTcgdex: true, tcgplayer: [24938], released: '2026-11-10', syncKey: 'M26', theme: { accent: '#E24A3B', chrome: '#290B08' } },
 
   { slug: 'white-flare', tcgdex: 'sv10.5w', series: SV, syncKey: 'WHT', tcgplayer: [24326], theme: { accent: '#E0356E', chrome: '#3A3542' } },
   { slug: 'black-bolt', tcgdex: 'sv10.5b', series: SV, syncKey: 'BLK', tcgplayer: [24325], theme: { accent: '#1BA3D6', chrome: '#0C0E13' } },
