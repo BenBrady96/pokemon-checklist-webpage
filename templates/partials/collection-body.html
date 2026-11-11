@@ -158,9 +158,13 @@
         </span>
         <span class="flyout-host">
           <button type="button" class="seg__btn" data-pref="view" data-value="binder" title="Binder"><svg><use href="#i-binder"/></svg><span>Binder</span></button>
-          <span class="flyout" role="group" aria-label="Binder options">
-            <span class="flyout__label">Pockets per page</span>
-            <span class="seg seg--compact" role="group" aria-label="Pockets per page"><button type="button" class="seg__btn" data-pref="pockets" data-value="4" data-set-view="binder" title="4-pocket pages">4</button><button type="button" class="seg__btn" data-pref="pockets" data-value="9" data-set-view="binder" title="9-pocket pages">9</button><button type="button" class="seg__btn" data-pref="pockets" data-value="12" data-set-view="binder" title="12-pocket pages">12</button></span>
+          <span class="flyout flyout--stack" role="group" aria-label="Binder options">
+            <span class="flyout__row">
+              <span class="flyout__label">Pockets per page</span>
+              <span class="seg seg--compact" role="group" aria-label="Pockets per page"><button type="button" class="seg__btn" data-pref="pockets" data-value="4" data-set-view="binder" title="4-pocket pages">4</button><button type="button" class="seg__btn" data-pref="pockets" data-value="9" data-set-view="binder" title="9-pocket pages">9</button><button type="button" class="seg__btn" data-pref="pockets" data-value="12" data-set-view="binder" title="12-pocket pages">12</button></span>
+            </span>
+            <span class="flyout__sep" data-needs-sections></span>
+            <span class="switch-row" data-needs-sections title="Start each section straight after the last, with no empty pockets"><span>Fill gaps</span><button type="button" class="switch" role="switch" data-pref-toggle="fillGaps" data-set-view="binder" aria-label="Fill gaps between sections"></button></span>
           </span>
         </span>
       </div>
@@ -368,6 +372,10 @@
               <button type="button" class="seg__btn" data-pref="pockets" data-value="4">4</button>
               <button type="button" class="seg__btn" data-pref="pockets" data-value="9">9</button>
               <button type="button" class="seg__btn" data-pref="pockets" data-value="12">12</button>
+            </div>
+            <div class="switch-row" data-needs-sections>
+              <span><b>Fill gaps</b><small>Start each section straight after the last, with no empty pockets</small></span>
+              <button type="button" class="switch" role="switch" data-pref-toggle="fillGaps" aria-label="Fill gaps between sections"></button>
             </div>
           </section>
         </div>

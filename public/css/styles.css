@@ -562,10 +562,16 @@ a.btn { text-decoration: none; }
 .flyout .switch::after { width: 18px; height: 18px; }
 .flyout .switch[aria-checked="true"]::after { transform: translateX(16px); }
 .flyout__sep { width: 1px; height: 24px; background: var(--line); }
+.flyout--stack { flex-direction: column; align-items: stretch; }
+.flyout--stack .switch-row { padding: 0; }
+.flyout--stack > .flyout__sep { display: none; }
+.flyout__row { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
 @media (hover: none) {
   .flyout { display: none; }
   .flyout-host:has(> [aria-pressed="true"]) > .flyout { position: static; display: flex; margin: 0 6px; padding: 0; border: 0; background: none; box-shadow: none; opacity: 1; visibility: visible; translate: none; }
   .flyout-host:has(> [aria-pressed="true"]) > .flyout::before { content: none; }
+  .flyout-host:has(> [aria-pressed="true"]) > .flyout--stack { flex-direction: row; align-items: center; }
+  .flyout-host:has(> [aria-pressed="true"]) > .flyout--stack > .flyout__sep { display: block; }
 }
 
 .search { position: relative; display: flex; align-items: center; flex: 1; min-width: 0; }
@@ -953,6 +959,17 @@ a.btn { text-decoration: none; }
   border: 2px dashed var(--line-2); border-radius: inherit;
 }
 .binder .card.is-dim { opacity: .28; }
+.binder .card[data-divider] .card__hit { box-shadow: inset 0 0 0 1px var(--line), inset 3px 0 0 var(--theme); }
+.binder .card[data-divider]::before {
+  content: attr(data-divider);
+  position: absolute; top: -7px; left: 8px; z-index: 5;
+  max-width: calc(100% - 16px); overflow: hidden; text-overflow: ellipsis;
+  padding: 0 7px; border-radius: 999px;
+  background: var(--theme); color: var(--on-theme);
+  box-shadow: 0 0 0 2px var(--page-bg);
+  font-size: .64rem; font-weight: 700; line-height: 15px; white-space: nowrap;
+  pointer-events: none;
+}
 .binder .card__check { width: 22px; height: 22px; }
 .binder .card__check svg { width: 13px; height: 13px; }
 .binder .card__zoom, .binder .card__info { width: 24px; height: 24px; }
@@ -1354,6 +1371,7 @@ dialog { color: var(--text); }
 .sheet__panes > .sheet__body { grid-area: 1 / 1; overflow: visible; }
 .sheet__panes > [data-inactive] { visibility: hidden; }
 .view-options { display: grid; }
+.view-options .switch-row { margin-top: 6px; padding-bottom: 0; border-bottom: 0; }
 .sheet .view-options > [data-show-for] { grid-area: 1 / 1; display: block !important; }
 :root:not([data-view="grid"]) .view-options > [data-show-for="grid"],
 :root:not([data-view="binder"]) .view-options > [data-show-for="binder"] { visibility: hidden; }

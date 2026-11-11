@@ -3,6 +3,7 @@ import { getQty } from './store.js';
 import { escapeHTML } from '../shared/ui.js';
 import { marketUsd, formatPrice } from '../core/pricing.js';
 import { rarityMark } from '../shared/rarity.js';
+import { plural } from '../shared/format.js';
 
 export const refs = new Map();
 
@@ -140,9 +141,7 @@ function coverMarkup() {
   return `<svg class="page__mark"><use href="#logo-mark"/></svg>${title}`;
 }
 
-function binderSection(section, pockets, firstPage, lastSection) {
-  const cards = SECTION_CARDS.get(section.id);
-  const sec = sectionShell(section.id, section.name, section.range, cards.length);
+function binderPages(cards, pockets, firstPage, last) {
   const binder = document.createElement('div');
   binder.className = 'binder';
   binder.style.setProperty('--pcols', pockets === 4 ? 2 : pockets === 12 ? 4 : 3);
@@ -158,16 +157,44 @@ function binderSection(section, pockets, firstPage, lastSection) {
     }
     spread.append(binderPage(cards.slice(i, i + pockets), number, pockets));
   }
-  if (number % 2 === 1) spread.append(blankPage(lastSection, `Page ${number} ↓`));
-  sec.append(binder);
-  return { sec, pages: number - firstPage };
+  if (number % 2 === 1) spread.append(blankPage(last, `Page ${number} ↓`));
+  return { binder, pages: number - firstPage };
 }
 
-export function mount(root, { view, sort, pockets, tier }) {
+function binderSection(section, pockets, firstPage, lastSection) {
+  const cards = SECTION_CARDS.get(section.id);
+  const sec = sectionShell(section.id, section.name, section.range, cards.length);
+  const { binder, pages } = binderPages(cards, pockets, firstPage, lastSection);
+  sec.append(binder);
+  return { sec, pages };
+}
+
+function filledBinder(sections, pockets) {
+  const cards = [];
+  for (const section of sections) {
+    const own = SECTION_CARDS.get(section.id);
+    const { li } = refs.get(own[0].id);
+    li.dataset.starts = section.id;
+    if (sections.length > 1) li.dataset.divider = section.name;
+    cards.push(...own);
+  }
+  const { binder, pages } = binderPages(cards, pockets, 1, true);
+  const sec = sectionShell('all', 'All cards', plural(pages, 'page', 'pages'), cards.length);
+  sec.append(binder);
+  return sec;
+}
+
+export function mount(root, { view, sort, pockets, fillGaps, tier }) {
   const { sections, cards } = COLLECTION.getTier(tier);
   mountedCards = cards;
+  for (const { li } of refs.values()) {
+    delete li.dataset.starts;
+    delete li.dataset.divider;
+  }
   const frag = document.createDocumentFragment();
-  if (view === 'binder') {
+  if (view === 'binder' && fillGaps) {
+    frag.append(filledBinder(sections, pockets));
+  } else if (view === 'binder') {
     let page = 1;
     for (const [i, section] of sections.entries()) {
       const { sec, pages } = binderSection(section, pockets, page, i === sections.length - 1);

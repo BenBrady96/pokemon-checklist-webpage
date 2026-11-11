@@ -52,6 +52,7 @@ const DEFAULT_PREFS = {
   mode: 'check',
   sort: 'set',
   pockets: 9,
+  fillGaps: false,
   dim: true,
   theme: 'system',
   tipSeen: false,

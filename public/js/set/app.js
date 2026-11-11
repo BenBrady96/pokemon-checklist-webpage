@@ -167,7 +167,7 @@ function syncControls() {
 store.onPrefChange((key) => {
   applyPrefs();
   if (key === 'tier') changeTier();
-  else if (key === 'view' || key === 'sort' || key === 'pockets') remount(true);
+  else if (key === 'view' || key === 'sort' || key === 'pockets' || key === 'fillGaps') remount(true);
   else if (key === 'currency') {
     updatePrices();
     queueStats();
@@ -233,6 +233,7 @@ function updateTierChrome() {
   for (const id of filters.rarities) if (!rarities.has(id)) filters.rarities.delete(id);
   for (const id of filters.ctypes) if (!ctypes.has(id)) filters.ctypes.delete(id);
   for (const j of COLLECTION.jumps) jumpbar.querySelector(`[data-jump="${j.id}"]`).hidden = !tier.sectionIds.has(j.section || j.id);
+  for (const el of document.querySelectorAll('[data-needs-sections]')) el.hidden = tier.sections.length < 2;
   const present = { rarity: rarities, section: tier.sectionIds, ctype: ctypes };
   for (const chip of document.querySelectorAll('[data-filter-toggle]')) {
     chip.hidden = !present[chip.dataset.filterToggle].has(chip.dataset.value);
@@ -269,10 +270,14 @@ function updateScrollSpy() {
     if (jumpbar.closest('.jumpbar').hidden) return;
     const line = stickyTop() + 72;
     let active = null;
-    for (const sec of root.querySelectorAll('.sec:not([hidden])')) {
-      if (sec.getBoundingClientRect().top <= line) active = sec.dataset.section;
+    const starts = root.querySelectorAll('.card[data-starts]');
+    const marks = starts.length ? starts : root.querySelectorAll('.sec:not([hidden])');
+    const markLine = starts.length ? line + sectionHeadHeight() : line;
+    const sectionOf = (el) => el.dataset.starts || el.dataset.section;
+    for (const el of marks) {
+      if (el.getBoundingClientRect().top <= markLine) active = sectionOf(el);
     }
-    active ||= root.querySelector('.sec:not([hidden])')?.dataset.section;
+    active ||= marks[0] && sectionOf(marks[0]);
     for (const j of RANGE_JUMPS) {
       if (j.section !== active) continue;
       const first = refs.get(j.from).li;
@@ -306,7 +311,9 @@ function scrollToElement(el, { smooth = true } = {}) {
 
 function jumpTo(id) {
   const jump = COLLECTION.jumps.find((j) => j.id === id);
-  const target = jump?.from ? refs.get(jump.from).li : document.getElementById(`sec-${id}`);
+  const target = jump?.from
+    ? refs.get(jump.from).li
+    : document.getElementById(`sec-${id}`) || root.querySelector(`.card[data-starts="${id}"]`);
   if (!target || target.hidden || target.closest('[hidden]')) {
     toast('That part of the set is hidden by your filters.', {
       action: { label: 'Clear filters', onClick: () => { clearFilters(); jumpTo(id); } },
@@ -328,7 +335,7 @@ function firstCardInView() {
 function remount(keepPosition = false) {
   const anchor = keepPosition ? firstCardInView() : null;
   const p = store.getPrefs();
-  mount(root, { view: p.view, sort: p.sort, pockets: p.pockets, tier: p.tier });
+  mount(root, { view: p.view, sort: p.sort, pockets: p.pockets, fillGaps: p.fillGaps, tier: p.tier });
   updateJumpbarVisibility();
   applyFilters();
   updateSectionCounts(root);
@@ -598,6 +605,7 @@ function wireControls() {
     } else if (t.matches('[data-pref-toggle]')) {
       const key = t.dataset.prefToggle;
       store.setPref(key, !store.getPrefs()[key]);
+      if (t.dataset.setView) store.setPref('view', t.dataset.setView);
     } else if (t.matches('[data-filter]')) {
       filters.status = t.dataset.value;
       filtersChanged();
@@ -802,7 +810,7 @@ function init() {
   viewChrome?.initViewChrome();
 
   const p = store.getPrefs();
-  mount(root, { view: p.view, sort: p.sort, pockets: p.pockets, tier: p.tier });
+  mount(root, { view: p.view, sort: p.sort, pockets: p.pockets, fillGaps: p.fillGaps, tier: p.tier });
   updateJumpbarVisibility();
   applyFilters();
   refreshStats();
