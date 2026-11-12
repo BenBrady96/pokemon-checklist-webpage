@@ -60,6 +60,7 @@ const DEFAULT_PREFS = {
   lastBackup: 0,
   lastCollection: null,
   tiers: {},
+  sectionOrders: {},
   scanScope: 'set',
   sharedView: 'list',
   currency: 'gbp',
@@ -70,6 +71,7 @@ const DEFAULT_PREFS = {
 
 let prefs = { ...DEFAULT_PREFS, ...(read(PREFS_KEY) || {}) };
 if (!prefs.tiers || typeof prefs.tiers !== 'object') prefs.tiers = {};
+if (!isObject(prefs.sectionOrders)) prefs.sectionOrders = {};
 if (!Array.isArray(prefs.pinned)) prefs.pinned = [];
 const prefListeners = new Set();
 

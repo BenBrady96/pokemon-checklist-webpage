@@ -188,6 +188,15 @@ export function setPref(key, value) {
   storage.setPref('tiers', { ...tiers, [ID]: value });
 }
 
+export const getSectionOrder = () => storage.getPrefs().sectionOrders[ID] || null;
+
+export function setSectionOrder(ids) {
+  const orders = { ...storage.getPrefs().sectionOrders };
+  if (ids) orders[ID] = ids;
+  else delete orders[ID];
+  storage.setPref('sectionOrders', orders);
+}
+
 const tierListeners = new Set();
 
 export function onPrefChange(fn) {

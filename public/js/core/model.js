@@ -24,6 +24,16 @@ function matcher(match = {}) {
   return (card) => (!sections || sections.has(card.section)) && (!rarities || rarities.has(card.rarity));
 }
 
+export function sectionOrder(ids, saved) {
+  if (!Array.isArray(saved)) return ids;
+  const known = new Set(ids);
+  const out = [...new Set(saved.filter((id) => known.has(id)))];
+  ids.forEach((id, i) => {
+    if (!out.includes(id)) out.splice(i ? out.indexOf(ids[i - 1]) + 1 : 0, 0, id);
+  });
+  return out;
+}
+
 function tierVisibility(tiers) {
   let shown = null;
   for (const t of tiers) {
@@ -42,6 +52,7 @@ export function buildCollection(raw, { game, colors = {}, imageBase = '', remote
   const display = { ...game.DISPLAY, ...raw.display };
   const sections = raw.sections.map((s) => ({ ...s, display: { ...display, ...s.display } }));
   const sectionById = new Map(sections.map((s) => [s.id, s]));
+  const sectionIds = sections.map((s) => s.id);
   const searchAliases = raw.searchAliases || {};
 
   const rawById = new Map(raw.cards.map((c) => [c.id, c]));
@@ -128,6 +139,12 @@ export function buildCollection(raw, { game, colors = {}, imageBase = '', remote
     cardById,
     cardCount: raw.cardCount ?? cards.filter((c) => !c.variant).length,
     cardsBySection: new Map(sections.map((s) => [s.id, cards.filter((c) => c.section === s.id)])),
+    sectionOrder: (saved) => sectionOrder(sectionIds, saved),
+    arrangeSections(list, saved, key = (item) => item.id) {
+      const rank = new Map(sectionOrder(sectionIds, saved).map((id, i) => [id, i]));
+      const at = (item) => rank.get(key(item)) ?? rank.size;
+      return [...list].sort((a, b) => at(a) - at(b));
+    },
     tiers,
     visibleTiers,
     single,

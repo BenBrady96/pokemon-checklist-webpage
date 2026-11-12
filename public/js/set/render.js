@@ -184,8 +184,9 @@ function filledBinder(sections, pockets) {
   return sec;
 }
 
-export function mount(root, { view, sort, pockets, fillGaps, tier }) {
-  const { sections, cards } = COLLECTION.getTier(tier);
+export function mount(root, { view, sort, pockets, fillGaps, tier, order }) {
+  const { cards, sections: tierSections } = COLLECTION.getTier(tier);
+  const sections = COLLECTION.arrangeSections(tierSections, order);
   mountedCards = cards;
   for (const { li } of refs.values()) {
     delete li.dataset.starts;

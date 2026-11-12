@@ -51,6 +51,10 @@
     <symbol id="i-sparkle" viewBox="0 0 24 24"><path d="M12 3l1.9 5.6L19.5 10l-5.6 1.9L12 17.5l-1.9-5.6L4.5 10l5.6-1.4z" fill="currentColor"/></symbol>
     <symbol id="i-chevron-left" viewBox="0 0 24 24"><path d="M14.5 5.5L8 12l6.5 6.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></symbol>
     <symbol id="i-chevron-right" viewBox="0 0 24 24"><path d="M9.5 5.5L16 12l-6.5 6.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-chevron-up" viewBox="0 0 24 24"><path d="M5.5 14.5L12 8l6.5 6.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-chevron-down" viewBox="0 0 24 24"><path d="M5.5 9.5L12 16l6.5-6.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-grip" viewBox="0 0 24 24"><g fill="currentColor"><circle cx="9" cy="6" r="1.7"/><circle cx="15" cy="6" r="1.7"/><circle cx="9" cy="12" r="1.7"/><circle cx="15" cy="12" r="1.7"/><circle cx="9" cy="18" r="1.7"/><circle cx="15" cy="18" r="1.7"/></g></symbol>
+    <symbol id="i-reorder" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 19V5M4.5 8.5L8 5l3.5 3.5"/><path d="M16 5v14M12.5 15.5L16 19l3.5-3.5"/></g></symbol>
     <symbol id="i-home" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 10.5L12 4l8 6.5"/><path d="M6 9v10.5h4.5V14h3v5.5H18V9"/></g></symbol>
     <symbol id="i-caret" viewBox="0 0 24 24"><path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
     <symbol id="i-swap" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 8h15M15 4l4 4-4 4"/><path d="M20 16H5M9 12l-4 4 4 4"/></g></symbol>
@@ -139,6 +143,7 @@
           <option value="rarity">Rarity</option>
         </select>
       </label>
+      <button type="button" class="btn btn--ghost toolbar__order" data-open="order" data-needs-sections title="Change the order the sections run in"><svg><use href="#i-reorder"/></svg><span>Sections</span></button>
       <span class="toolbar__spacer"></span>
       <div class="seg" role="group" aria-label="Layout">
         <span class="flyout-host">
@@ -382,6 +387,10 @@
         <div class="switch-row">
           <span><b>Fade missing cards</b><small>Owned cards stay in full colour</small></span>
           <button type="button" class="switch" role="switch" data-pref-toggle="dim" aria-label="Fade missing cards"></button>
+        </div>
+        <div class="switch-row" data-needs-sections>
+          <span><b>Section order</b><small>Choose the order the sections run in</small></span>
+          <button type="button" class="btn btn--ghost btn--sm" data-open="order">Change</button>
         </div>
       </div>
     </div>
@@ -677,6 +686,23 @@
   </div>
 </dialog>
 
+<dialog class="sheet sheet--small" id="dlg-order" aria-labelledby="order-title" aria-describedby="order-hint">
+  <div class="sheet__inner">
+    <header class="sheet__head">
+      <h2 class="sheet__title" id="order-title">Section order</h2>
+      <button type="button" class="icon-btn" data-close aria-label="Close"><svg><use href="#i-close"/></svg></button>
+    </header>
+    <div class="sheet__body">
+      <p class="hint" id="order-hint">Drag a section by its handle, or use the arrows, to set the order your binder runs in. Cards stay in set order within each section. This changes binder view and Set order, not the Name or Rarity sorts.</p>
+      <ol class="order-list" id="order-list"></ol>
+    </div>
+    <footer class="sheet__foot">
+      <button type="button" class="btn btn--ghost" data-order-reset>Reset to set order</button>
+      <button type="button" class="btn btn--primary" data-close data-order-done>Done</button>
+    </footer>
+  </div>
+</dialog>
+
 <dialog class="sheet" id="dlg-help" aria-labelledby="help-title">
   <div class="sheet__inner">
     <header class="sheet__head">
@@ -692,6 +718,7 @@
         <li><b>Count mode</b> (<svg class="inline-icon"><use href="#i-mode-count"/></svg>) makes each tap add a copy, which is handy when logging packs. Use <b>−</b> to remove one.</li>
         <li data-help="quickadd"><b>Quick add</b> takes card numbers such as <code>1-22, 55x2</code>.</li>
         <li data-help="tiers"></li>
+        <li data-needs-sections><b>Section order</b> (<svg class="inline-icon"><use href="#i-reorder"/></svg>) lets you move whole sections, say the secret rares before the reverse holos, to match your binder. Cards keep their set order within each section.</li>
         <li><b>Card info</b> (<svg class="inline-icon"><use href="#i-info"/></svg>) shows where to get a card, rough pull odds and its market price, with links to check live prices.</li>
         <li>Every change can be undone from the pop-up or with <kbd>Ctrl</kbd>+<kbd>Z</kbd>.</li>
       </ul>

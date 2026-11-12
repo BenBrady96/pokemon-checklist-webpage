@@ -10,6 +10,7 @@ import { initViewer } from './viewer.js';
 import { initInfo } from './info.js';
 import { compute, percent, renderStats, missingText, duplicatesText } from './stats.js';
 import { initQuickAdd } from './quickadd.js';
+import { initOrder } from './order.js';
 import { initExport, openExport } from '../shared/export.js';
 import { initImport, checkIncomingLink } from '../shared/import.js';
 import { celebrate } from '../shared/confetti.js';
@@ -39,6 +40,7 @@ const bottombar = document.querySelector('.bottombar');
 const DIALOGS = {
   filters: 'dlg-filters', menu: 'dlg-menu', stats: 'dlg-stats',
   quickadd: 'dlg-quickadd', help: 'dlg-help', import: 'dlg-import', list: 'dlg-list', 'view-share': 'dlg-view-share',
+  order: 'dlg-order',
 };
 const RANGE_JUMPS = COLLECTION.jumps.filter((j) => j.from && j.to);
 
@@ -51,6 +53,7 @@ const toggleSet = (kind) => ({ rarity: filters.rarities, section: filters.sectio
 let gestures;
 let viewer;
 let info;
+let order;
 let completedGroups = null;
 let celebrateNext = false;
 
@@ -67,7 +70,7 @@ function matches(card) {
 }
 
 function shownIds() {
-  return [...refs.values()].filter((r) => !r.li.hidden && !r.li.classList.contains('is-dim')).map((r) => r.card.id);
+  return [...root.querySelectorAll('.card:not([hidden]):not(.is-dim)')].map((li) => li.dataset.id);
 }
 
 function applyFilters() {
@@ -168,6 +171,10 @@ store.onPrefChange((key) => {
   applyPrefs();
   if (key === 'tier') changeTier();
   else if (key === 'view' || key === 'sort' || key === 'pockets' || key === 'fillGaps') remount(true);
+  else if (key === 'sectionOrders') {
+    arrangeJumpbar();
+    remount(true);
+  }
   else if (key === 'currency') {
     updatePrices();
     queueStats();
@@ -254,6 +261,12 @@ function buildJumpbar() {
   jumpbar.innerHTML = COLLECTION.jumps.map((j) => `<button type="button" class="jump" data-jump="${j.id}" aria-current="false">`
     + `${j.icon ? `<svg class="rar" aria-hidden="true"><use href="#${j.icon}"/></svg>` : ''}`
     + `<span>${j.label}</span><span class="jump__count" data-jump-count="${j.id}"></span></button>`).join('');
+  arrangeJumpbar();
+}
+
+function arrangeJumpbar() {
+  const jumps = COLLECTION.arrangeSections(COLLECTION.jumps, store.getSectionOrder(), (j) => j.section || j.id);
+  jumpbar.append(...jumps.map((j) => jumpbar.querySelector(`[data-jump="${j.id}"]`)));
 }
 
 function updateJumpbarVisibility() {
@@ -332,10 +345,14 @@ function firstCardInView() {
   return null;
 }
 
+function mountCollection() {
+  const p = store.getPrefs();
+  mount(root, { view: p.view, sort: p.sort, pockets: p.pockets, fillGaps: p.fillGaps, tier: p.tier, order: store.getSectionOrder() });
+}
+
 function remount(keepPosition = false) {
   const anchor = keepPosition ? firstCardInView() : null;
-  const p = store.getPrefs();
-  mount(root, { view: p.view, sort: p.sort, pockets: p.pockets, fillGaps: p.fillGaps, tier: p.tier });
+  mountCollection();
   updateJumpbarVisibility();
   applyFilters();
   updateSectionCounts(root);
@@ -594,6 +611,7 @@ function openNamed(requested) {
   if (name === 'stats') document.getElementById('stats-body').innerHTML = renderStats(compute());
   if (name === 'list') prepareListShare();
   if (name === 'menu') prepareMenu();
+  if (name === 'order') order.prepare();
   openDialog(dlg);
 }
 
@@ -780,6 +798,7 @@ function init() {
   applyPrefs();
 
   info = initInfo();
+  order = initOrder();
   gestures = initGestures(root, {
     getMode: () => store.getPrefs().mode,
     getInsets: () => ({
@@ -813,7 +832,7 @@ function init() {
   viewChrome?.initViewChrome();
 
   const p = store.getPrefs();
-  mount(root, { view: p.view, sort: p.sort, pockets: p.pockets, fillGaps: p.fillGaps, tier: p.tier });
+  mountCollection();
   updateJumpbarVisibility();
   applyFilters();
   refreshStats();

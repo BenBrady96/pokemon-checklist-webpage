@@ -683,5 +683,22 @@ if (meg) {
   check(map.includes('pokemon/characters/mew/') && !map.includes(`${small.id}/`), 'the sitemap lists indexed character pages only');
 }
 
+{
+  const { sectionOrder } = await import('../public/js/core/model.js');
+  const ids = ['main', 'reverse', 'secret'];
+  const same = (a, b) => JSON.stringify(a) === JSON.stringify(b);
+  check(same(sectionOrder(ids, null), ids) && same(sectionOrder(ids, 'main'), ids), 'no saved section order keeps set order');
+  check(same(sectionOrder(ids, ['secret', 'main', 'reverse']), ['secret', 'main', 'reverse']), 'a saved section order is used');
+  check(same(sectionOrder(ids, ['secret', 'gone', 'secret', 'main']), ['secret', 'main', 'reverse']), 'a saved section order drops unknown and repeated sections, and a missing one follows its set order neighbour');
+  check(same(sectionOrder(['new', ...ids], ['secret', 'main', 'reverse']), ['new', 'secret', 'main', 'reverse']), 'a new first section goes to the top of a saved order');
+  const thirtyModel = models.get('pokemon/30th-celebration');
+  if (thirtyModel) {
+    const saved = ['classic', 'main', 'secret'];
+    check(same(thirtyModel.arrangeSections(thirtyModel.getTier('master').sections, saved).map((s) => s.id), saved), '30th Celebration: a saved section order arranges the Master tier');
+    const jumps = thirtyModel.arrangeSections(thirtyModel.jumps, saved, (j) => j.section || j.id).map((j) => j.id);
+    check(jumps.indexOf('classic') < jumps.indexOf('main') && jumps.indexOf('pikachu') === jumps.indexOf('main') + 1, '30th Celebration: jumps follow the section order, and Pikachu stays with the main set');
+  }
+}
+
 console.log(failures ? `\n${failures} of ${checks} checks failed` : `All ${checks} checks passed (${models.size} collections)`);
 process.exitCode = failures ? 1 : 0;

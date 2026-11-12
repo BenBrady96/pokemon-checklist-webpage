@@ -70,6 +70,7 @@ const SHELL = [
   'js/set/gestures.js',
   'js/set/info.js',
   'js/set/main.js',
+  'js/set/order.js',
   'js/set/quickadd.js',
   'js/set/render.js',
   'js/set/stats.js',
