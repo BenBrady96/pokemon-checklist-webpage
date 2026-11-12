@@ -1377,11 +1377,8 @@ dialog { color: var(--text); }
 .sheet__panes { display: grid; flex: 1 1 auto; min-height: 0; overflow: auto; overscroll-behavior: contain; }
 .sheet__panes > .sheet__body { grid-area: 1 / 1; overflow: visible; }
 .sheet__panes > [data-inactive] { visibility: hidden; }
-.view-options { display: grid; }
+.view-options > .field, .view-picker ~ .switch-row { margin: 0; padding: 14px 0; border-top: 1px solid var(--line); border-bottom: 0; }
 .view-options .switch-row { margin-top: 6px; padding-bottom: 0; border-bottom: 0; }
-.sheet .view-options > [data-show-for] { grid-area: 1 / 1; display: block !important; }
-:root:not([data-view="grid"]) .view-options > [data-show-for="grid"],
-:root:not([data-view="binder"]) .view-options > [data-show-for="binder"] { visibility: hidden; }
 .sheet__foot {
   display: flex; gap: 10px; justify-content: flex-end;
   padding: 12px 20px calc(12px + env(safe-area-inset-bottom));
@@ -1451,7 +1448,7 @@ a.menu__item { color: inherit; text-decoration: none; }
 .menu .switch-row { padding: 10px 4px; border: 0; }
 .menu .seg { margin-top: 4px; }
 
-.view-picker { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-bottom: 18px; }
+.view-picker { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-bottom: 6px; }
 .view-picker__btn {
   display: flex; flex-direction: column; align-items: center; gap: 6px;
   padding: 14px 8px;
@@ -2544,7 +2541,7 @@ button.lst-tab { cursor: pointer; }
 }
 
 .card__set { flex: 1 0 100%; order: 5; min-width: 0; overflow: hidden; color: var(--text-3); font-size: .72rem; white-space: nowrap; text-overflow: ellipsis; }
-[data-view-id] .card__cap { flex-wrap: wrap; }
+.card__cap:has(> .card__set) { flex-wrap: wrap; }
 [data-view="list"] .card__set { grid-row: 3; grid-column: 2 / -1; }
 .binder .card__set { text-align: center; }
 .view-actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: var(--space-3); }
