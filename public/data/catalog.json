@@ -7079,26 +7079,47 @@
       "code": "MAMS",
       "syncKey": "YMAMS",
       "released": "2026-11-12",
-      "total": 24,
+      "total": 125,
       "tiers": [
         {
           "id": "standard",
           "label": "Standard",
-          "count": 24
+          "count": 125
         },
         {
           "id": "master",
           "label": "Master",
-          "count": 48
+          "count": 249
         },
         {
           "id": "grand",
           "label": "Grand Master",
-          "count": 66
+          "count": 267
         }
       ],
       "defaultTier": "grand",
       "logo": "img/sets/yugioh/magnificent-maestros/logo.webp"
+    },
+    {
+      "id": "yugioh/ultimate-tournament-pack-2",
+      "game": "yugioh",
+      "slug": "ultimate-tournament-pack-2",
+      "name": "Ultimate Tournament Pack 2",
+      "series": "SEVENS & GO RUSH!!",
+      "kind": "pack",
+      "code": "UP02",
+      "syncKey": "YUP02",
+      "released": "2026-11-05",
+      "total": 49,
+      "tiers": [
+        {
+          "id": "standard",
+          "label": "All cards",
+          "count": 49
+        }
+      ],
+      "defaultTier": "standard",
+      "logo": "img/sets/yugioh/ultimate-tournament-pack-2/logo.webp"
     },
     {
       "id": "yugioh/magnificent-monsters",

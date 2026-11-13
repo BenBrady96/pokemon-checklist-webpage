@@ -1,0 +1,109 @@
+{
+  "id": "yugioh/ultimate-tournament-pack-2",
+  "game": "yugioh",
+  "slug": "ultimate-tournament-pack-2",
+  "name": "Ultimate Tournament Pack 2",
+  "series": "SEVENS & GO RUSH!!",
+  "kind": "pack",
+  "code": "UP02",
+  "syncKey": "YUP02",
+  "released": "2026-11-05",
+  "defaultTier": "grand",
+  "sections": [
+    {
+      "id": "main",
+      "name": "Cards",
+      "range": "UP02-EN001–UP02-EN049",
+      "tier": "standard"
+    }
+  ],
+  "summary": [
+    [
+      "main",
+      "Cards"
+    ]
+  ],
+  "quickAdd": {
+    "placeholder": "e.g. 1-20, 45, 60x2",
+    "example": "1-20, 45x2",
+    "hint": "Separate with commas or spaces. <b>1-20</b> is a range and <b>45x2</b> is two copies.",
+    "empty": "Cards run from UP02-EN001 to UP02-EN049."
+  },
+  "help": {
+    "tiers": ""
+  },
+  "seo": {
+    "title": "Yu-Gi-Oh! Ultimate Tournament Pack 2 Checklist · All 49 Cards",
+    "description": "Free Yu-Gi-Oh! Ultimate Tournament Pack 2 checklist with no ads, no sign-up and no tracking. Track all 49 cards, with images, copy counts, binder pages and prices.",
+    "ogTitle": "Yu-Gi-Oh! Ultimate Tournament Pack 2 Checklist",
+    "ogDescription": "Track all 49 cards in Yu-Gi-Oh! Ultimate Tournament Pack 2. Free, with no ads, no sign-up and no tracking.",
+    "twitterDescription": "Track all 49 cards in Yu-Gi-Oh! Ultimate Tournament Pack 2. Free, with no ads, no sign-up and no tracking."
+  },
+  "about": {
+    "title": "About Ultimate Tournament Pack 2",
+    "paragraphs": [
+      "Ultimate Tournament Pack 2 is a Yu-Gi-Oh! TCG pack released on 5 November 2026, in the SEVENS &amp; GO RUSH!! era. It has 49 cards.",
+      "This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.",
+      "Card details and images come from YGOPRODeck, and prices from TCGplayer."
+    ]
+  },
+  "source": {
+    "ygoprodeck": [
+      "Ultimate Tournament Pack 2"
+    ],
+    "tcgplayer": [
+      24806
+    ]
+  },
+  "cards": [
+    {"id":"001","section":"main","num":"001","printed":"UP02-EN001","name":"Red-Eyes Black Dragon","ctype":"monster","keywords":"Red-Eyes Dragon DARK Normal Monster","stats":{"a":"DARK","l":"Level 7","t":"Dragon / Normal","atk":2400,"def":2000},"rarity":"UtR","img":"74677422","code":"1","tcg":731109,"grp":24806,"idx":0},
+    {"id":"002","section":"main","num":"002","printed":"UP02-EN002","name":"Miracle Ejector","ctype":"monster","keywords":"HERO Spellcaster EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Spellcaster / Effect","atk":400,"def":400},"rarity":"UtR","img":"30875635","code":"2","tcg":731110,"grp":24806,"idx":1},
+    {"id":"003","section":"main","num":"003","printed":"UP02-EN003","name":"Crackle Blitzclique","ctype":"monster","keywords":"Blitzclique Thunder EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 3","t":"Thunder / Effect","atk":1500,"def":900},"rarity":"UtR","img":"58916810","code":"3","tcg":731111,"grp":24806,"idx":2},
+    {"id":"004","section":"main","num":"004","printed":"UP02-EN004","name":"Dark Magician of Destruction","ctype":"monster","keywords":"Magician Spellcaster DARK Fusion Monster","stats":{"a":"DARK","l":"Level 8","t":"Spellcaster / Fusion","atk":2800,"def":2600},"rarity":"UtR","img":"59400890","code":"4","tcg":731112,"grp":24806,"idx":3},
+    {"id":"005","section":"main","num":"005","printed":"UP02-EN005","name":"Zalen the Shackled Dragon","ctype":"monster","keywords":"Dragon DARK Synchro Tuner Monster","stats":{"a":"DARK","l":"Level 7","t":"Dragon / Synchro / Tuner","atk":2800,"def":2100},"rarity":"UtR","img":"4891376","code":"5","tcg":731113,"grp":24806,"idx":4},
+    {"id":"006","section":"main","num":"006","printed":"UP02-EN006","name":"Light and Darkness Ritual","ctype":"spell","keywords":"Light and Darkness Ritual Ritual Spell","stats":{"t":"Ritual Spell"},"rarity":"UtR","img":"33599853","code":"6","tcg":731114,"grp":24806,"idx":5},
+    {"id":"007","section":"main","num":"007","printed":"UP02-EN007","name":"Crystron Smiger","ctype":"monster","keywords":"Crystron Machine WATER Effect Monster","stats":{"a":"WATER","l":"Level 3","t":"Machine / Effect","atk":1000,"def":1800},"rarity":"SR","img":"83443619","code":"7","tcg":731115,"grp":24806,"idx":6},
+    {"id":"008","section":"main","num":"008","printed":"UP02-EN008","name":"GMX Suppression Squad","ctype":"monster","keywords":"GMX Beast-Warrior WIND Effect Monster","stats":{"a":"WIND","l":"Level 4","t":"Beast-Warrior / Effect","atk":1900,"def":0},"rarity":"SR","img":"39706423","code":"8","tcg":731116,"grp":24806,"idx":7},
+    {"id":"009","section":"main","num":"009","printed":"UP02-EN009","name":"Muddy Mudragon","ctype":"monster","keywords":"Dragon DARK Synchro Monster","stats":{"a":"DARK","l":"Level 6","t":"Dragon / Synchro","atk":500,"def":2200},"rarity":"SR","img":"84040113","code":"9","tcg":731117,"grp":24806,"idx":8},
+    {"id":"010","section":"main","num":"010","printed":"UP02-EN010","name":"Angelechy Bastion","ctype":"monster","keywords":"Angelechy Fairy LIGHT Synchro Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Fairy / Synchro","atk":3000,"def":2500},"rarity":"SR","img":"28904860","code":"10","tcg":731118,"grp":24806,"idx":9},
+    {"id":"011","section":"main","num":"011","printed":"UP02-EN011","name":"Premature Burial","ctype":"spell","keywords":"Equip Spell","stats":{"t":"Equip Spell"},"rarity":"SR","img":"70828912","code":"11","tcg":731119,"grp":24806,"idx":10},
+    {"id":"012","section":"main","num":"012","printed":"UP02-EN012","name":"Secrets of Dark Magic","ctype":"spell","keywords":"Dark Magician Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"SR","img":"59514116","code":"12","tcg":731120,"grp":24806,"idx":11},
+    {"id":"013","section":"main","num":"013","printed":"UP02-EN013","name":"Ancient Chant","ctype":"spell","keywords":"Egyptian God Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"78665705","code":"13","tcg":731121,"grp":24806,"idx":12},
+    {"id":"014","section":"main","num":"014","printed":"UP02-EN014","name":"Graverobber","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"61705417","code":"14","tcg":731122,"grp":24806,"idx":13},
+    {"id":"015","section":"main","num":"015","printed":"UP02-EN015","name":"Elfnotes: Rhapsodia of Madness","ctype":"trap","keywords":"Elfnote Continuous Trap","stats":{"t":"Continuous Trap"},"rarity":"SR","img":"24092792","code":"15","tcg":731123,"grp":24806,"idx":14},
+    {"id":"016","section":"main","num":"016","printed":"UP02-EN016","name":"Fire Formation - Tenki","ctype":"spell","keywords":"Fire Formation Continuous Spell","stats":{"t":"Continuous Spell"},"rarity":"SR","img":"57103969","code":"16","tcg":731124,"grp":24806,"idx":15},
+    {"id":"017","section":"main","num":"017","printed":"UP02-EN017","name":"Seventh Ascension","ctype":"spell","keywords":"Seventh Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"23153227","code":"17","tcg":731125,"grp":24806,"idx":16},
+    {"id":"018","section":"main","num":"018","printed":"UP02-EN018","name":"Fish Sonar","ctype":"spell","keywords":"Umi Normal Spell","stats":{"t":"Normal Spell"},"rarity":"SR","img":"22819092","code":"18","tcg":731126,"grp":24806,"idx":17},
+    {"id":"019","section":"main","num":"019","printed":"UP02-EN019","name":"Trap Trick","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"SR","img":"80101899","code":"19","tcg":731127,"grp":24806,"idx":18},
+    {"id":"020","section":"main","num":"020","printed":"UP02-EN020","name":"Toon Mermaid","ctype":"monster","keywords":"Toon Aqua WATER Monster","stats":{"a":"WATER","l":"Level 4","t":"Aqua / Toon","atk":1400,"def":1500},"rarity":"C","img":"65458948","code":"20","tcg":731128,"grp":24806,"idx":19},
+    {"id":"021","section":"main","num":"021","printed":"UP02-EN021","name":"Blue-Eyes Toon Dragon","ctype":"monster","keywords":"Toon Dragon LIGHT Monster","stats":{"a":"LIGHT","l":"Level 8","t":"Dragon / Toon","atk":3000,"def":2500},"rarity":"C","img":"53183600","code":"21","tcg":731129,"grp":24806,"idx":20},
+    {"id":"022","section":"main","num":"022","printed":"UP02-EN022","name":"Lava Golem","ctype":"monster","keywords":"Fiend FIRE Effect Monster","stats":{"a":"FIRE","l":"Level 8","t":"Fiend / Effect","atk":3000,"def":2500},"rarity":"C","img":"102380","code":"22","tcg":731130,"grp":24806,"idx":21},
+    {"id":"023","section":"main","num":"023","printed":"UP02-EN023","name":"Gravekeeper's Watcher","ctype":"monster","keywords":"Gravekeeper's Spellcaster DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Spellcaster / Effect","atk":1000,"def":1000},"rarity":"C","img":"26084285","code":"23","tcg":731131,"grp":24806,"idx":22},
+    {"id":"024","section":"main","num":"024","printed":"UP02-EN024","name":"Destiny HERO - Dreadmaster","ctype":"monster","keywords":"Destiny HERO Warrior DARK Effect Monster","stats":{"a":"DARK","l":"Level 8","t":"Warrior / Effect","atk":-1,"def":-1},"rarity":"C","img":"40591390","code":"24","tcg":731132,"grp":24806,"idx":23},
+    {"id":"025","section":"main","num":"025","printed":"UP02-EN025","name":"D.D. Crow","ctype":"monster","keywords":"D.D. Winged Beast DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Winged Beast / Effect","atk":100,"def":100},"rarity":"C","img":"24508238","code":"25","tcg":731133,"grp":24806,"idx":24},
+    {"id":"026","section":"main","num":"026","printed":"UP02-EN026","name":"Mind Master","ctype":"monster","keywords":"Psychic LIGHT Tuner Monster","stats":{"a":"LIGHT","l":"Level 1","t":"Psychic / Tuner","atk":100,"def":200},"rarity":"C","img":"96782886","code":"26","tcg":731134,"grp":24806,"idx":25},
+    {"id":"027","section":"main","num":"027","printed":"UP02-EN027","name":"Dimension Fortress Weapon","ctype":"monster","keywords":"Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 4","t":"Machine / Effect","atk":1700,"def":200},"rarity":"C","img":"1596508","code":"27","tcg":731135,"grp":24806,"idx":26},
+    {"id":"028","section":"main","num":"028","printed":"UP02-EN028","name":"Battle Fader","ctype":"monster","keywords":"Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 1","t":"Fiend / Effect","atk":0,"def":0},"rarity":"C","img":"19665973","code":"28","tcg":731136,"grp":24806,"idx":27},
+    {"id":"029","section":"main","num":"029","printed":"UP02-EN029","name":"Trifortressops","ctype":"monster","keywords":"Machine DARK Effect Monster","stats":{"a":"DARK","l":"Level 6","t":"Machine / Effect","atk":1600,"def":2800},"rarity":"C","img":"12275533","code":"29","tcg":731137,"grp":24806,"idx":28},
+    {"id":"030","section":"main","num":"030","printed":"UP02-EN030","name":"Umbral Horror Ghost","ctype":"monster","keywords":"Umbral Horror Fiend DARK Effect Monster","stats":{"a":"DARK","l":"Level 2","t":"Fiend / Effect","atk":200,"def":200},"rarity":"C","img":"59708927","code":"30","tcg":731138,"grp":24806,"idx":29},
+    {"id":"031","section":"main","num":"031","printed":"UP02-EN031","name":"Mathmech Division","ctype":"monster","keywords":"Mathmech Cyberse EARTH Effect Monster","stats":{"a":"EARTH","l":"Level 4","t":"Cyberse / Effect","atk":1500,"def":1000},"rarity":"C","img":"89743495","code":"31","tcg":731139,"grp":24806,"idx":30},
+    {"id":"032","section":"main","num":"032","printed":"UP02-EN032","name":"Ocean Dragon Lord - Kairyu-Shin","ctype":"monster","keywords":"Kairyu-Shin Sea Serpent WATER Effect Monster","stats":{"a":"WATER","l":"Level 5","t":"Sea Serpent / Effect","atk":2000,"def":1700},"rarity":"C","img":"23931679","code":"32","tcg":731140,"grp":24806,"idx":31},
+    {"id":"033","section":"main","num":"033","printed":"UP02-EN033","name":"Doom Kraken","ctype":"monster","keywords":"Umi Aqua WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Aqua / Effect","atk":1400,"def":1600},"rarity":"C","img":"69436288","code":"33","tcg":731141,"grp":24806,"idx":32},
+    {"id":"034","section":"main","num":"034","printed":"UP02-EN034","name":"Electric Jellyfish","ctype":"monster","keywords":"Umi Aqua WATER Effect Monster","stats":{"a":"WATER","l":"Level 4","t":"Aqua / Effect","atk":1400,"def":1700},"rarity":"C","img":"95824983","code":"34","tcg":731142,"grp":24806,"idx":33},
+    {"id":"035","section":"main","num":"035","printed":"UP02-EN035","name":"Veidos the Eruption Dragon of Extinction","ctype":"monster","keywords":"Pyro DARK Effect Monster","stats":{"a":"DARK","l":"Level 9","t":"Pyro / Effect","atk":2800,"def":1500},"rarity":"C","img":"78783557","code":"35","tcg":731143,"grp":24806,"idx":34},
+    {"id":"036","section":"main","num":"036","printed":"UP02-EN036","name":"Elder Entity Norden","ctype":"monster","keywords":"Fairy WATER Fusion Monster","stats":{"a":"WATER","l":"Level 4","t":"Fairy / Fusion","atk":2000,"def":2200},"rarity":"C","img":"17412721","code":"36","tcg":731144,"grp":24806,"idx":35},
+    {"id":"037","section":"main","num":"037","printed":"UP02-EN037","name":"Monster Reborn","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"83764719","code":"37","tcg":731145,"grp":24806,"idx":36},
+    {"id":"038","section":"main","num":"038","printed":"UP02-EN038","name":"Mystical Space Typhoon","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"5318639","code":"38","tcg":731146,"grp":24806,"idx":37},
+    {"id":"039","section":"main","num":"039","printed":"UP02-EN039","name":"Book of Moon","ctype":"spell","keywords":"Book of Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"14087893","code":"39","tcg":731147,"grp":24806,"idx":38},
+    {"id":"040","section":"main","num":"040","printed":"UP02-EN040","name":"Metamorphosis","ctype":"spell","keywords":"Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"46411259","code":"40","tcg":731148,"grp":24806,"idx":39},
+    {"id":"041","section":"main","num":"041","printed":"UP02-EN041","name":"Clock Tower Prison","ctype":"spell","keywords":"Destiny HERO Field Spell","stats":{"t":"Field Spell"},"rarity":"C","img":"75041269","code":"41","tcg":731149,"grp":24806,"idx":40},
+    {"id":"042","section":"main","num":"042","printed":"UP02-EN042","name":"Advanced Ritual Art","ctype":"spell","keywords":"Ritual Spell","stats":{"t":"Ritual Spell"},"rarity":"C","img":"46052429","code":"42","tcg":731150,"grp":24806,"idx":41},
+    {"id":"043","section":"main","num":"043","printed":"UP02-EN043","name":"Book of Eclipse","ctype":"spell","keywords":"Book of Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"35480699","code":"43","tcg":731151,"grp":24806,"idx":42},
+    {"id":"044","section":"main","num":"044","printed":"UP02-EN044","name":"Pot of Desires","ctype":"spell","keywords":"Greed Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"35261759","code":"44","tcg":731152,"grp":24806,"idx":43},
+    {"id":"045","section":"main","num":"045","printed":"UP02-EN045","name":"Set Rotation","ctype":"spell","keywords":"Quick-Play Spell","stats":{"t":"Quick-Play Spell"},"rarity":"C","img":"73468603","code":"45","tcg":731153,"grp":24806,"idx":44},
+    {"id":"046","section":"main","num":"046","printed":"UP02-EN046","name":"Witchcrafter Creation","ctype":"spell","keywords":"Witchcrafter Normal Spell","stats":{"t":"Normal Spell"},"rarity":"C","img":"57916305","code":"46","tcg":731154,"grp":24806,"idx":45},
+    {"id":"047","section":"main","num":"047","printed":"UP02-EN047","name":"Jar of Greed","ctype":"trap","keywords":"Greed Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"83968380","code":"47","tcg":731155,"grp":24806,"idx":46},
+    {"id":"048","section":"main","num":"048","printed":"UP02-EN048","name":"Scrap-Iron Scarecrow","ctype":"trap","keywords":"Normal Trap","stats":{"t":"Normal Trap"},"rarity":"C","img":"98427577","code":"48","tcg":731156,"grp":24806,"idx":47},
+    {"id":"049","section":"main","num":"049","printed":"UP02-EN049","name":"Toon Terror","ctype":"trap","keywords":"Toon Counter Trap","stats":{"t":"Counter Trap"},"rarity":"C","img":"53094821","code":"49","tcg":731157,"grp":24806,"idx":48}
+  ]
+}
