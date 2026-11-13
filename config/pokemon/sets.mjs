@@ -121,56 +121,54 @@ const COSMOS = [
   ['v02', 217, 'Eevee', '30th Celebration', '116', '116/128', 'C', 'Cosmos Holo', 'Cosmos Holo', 'Knock Out Collection · 2-Pack Blister', 'The Cosmos Holo version only comes in these two products. The regular Eevee 116 is found in booster packs.', 717879, '30th-116'],
 ];
 
-const ESPEON_DECK ='Espeon ex Battle Deck';
+const ESPEON_DECK = 'Espeon ex Battle Deck';
 const UMBREON_DECK = 'Umbreon ex Battle Deck';
 const DECK_ENERGY = { fire: ['002', 656264], psychic: ['005', 656267], lightning: ['004', 656266], darkness: ['007', 656269] };
 
 const DECKS = [
-  ['Espeon ex', '30th Celebration', '070/128', 'RR', 2, 0, null],
-  ['Eevee', '30th Celebration', '117/128', 'C', 3, 0, 729916],
-  ['Fennekin', 'Chaos Rising', '011/086', 'C', 3, 0, 729911, 'me04-011'],
-  ['Braixen', 'Chaos Rising', '012/086', 'C', 2, 0, 729912, 'me04-012'],
-  ['Delphox', 'Chaos Rising', '013/086', 'R', 2, 0, 729910, 'me04-013'],
-  ['Kangaskhan', '30th Celebration', '114/128', 'C', 1, 0, 729920],
-  ['Victini', '30th Celebration', '013/128', 'C', 1, 0, null],
-  ['Zacian', 'Phantasmal Flames', '045/094', 'R', 1, 0, 729914, 'me02-045'],
-  ['Moltres', 'Phantasmal Flames', '014/094', 'R', 1, 0, 729915, 'me02-014'],
-  ['Dawn', 'Phantasmal Flames', '087/094', 'U', 2, 0, 729913, 'me02-087'],
-  ['Rosa’s Encouragement', 'Perfect Order', '084/088', 'U', 2, 0, 729928, 'me03-084'],
-  ['Rare Candy', 'Mega Evolution', '125/132', 'C', 2, 0, 729926, 'me01-125'],
-  ['Basic Fire Energy', null, null, 'E', 8, 0, null, 'fire'],
-  ['Basic Psychic Energy', null, null, 'E', 4, 0, null, 'psychic'],
-  ['Umbreon ex', '30th Celebration', '092/128', 'RR', 0, 2, null],
-  ['Eevee', '30th Celebration', '118/128', 'C', 0, 3, 729819],
-  ['Toxel', 'Phantasmal Flames', '067/094', 'C', 0, 3, 729902, 'me02-067'],
-  ['Toxtricity', 'Phantasmal Flames', '068/094', 'R', 0, 2, 731781, 'me02-068'],
-  ['Zeraora', '30th Celebration', '057/128', 'C', 0, 3, 729907],
-  ['Chi-Yu', 'Pitch Black', '059/084', 'R', 0, 2, 729903, 'me05-059'],
-  ['Yveltal', 'Mega Evolution', '088/132', 'R', 0, 1, 729909, 'me01-088'],
-  ['Emolga', 'Chaos Rising', '030/086', 'C', 0, 1, 729908, 'me04-030'],
-  ['Hilda', 'White Flare', '084/086', 'U', 0, 2, 729905, 'sv10.5w-084'],
-  ['Brock’s Scouting', 'Journey Together', '146/159', 'U', 0, 1, 729906, 'sv09-146'],
-  ['Voltaic Lightning Energy', 'Pitch Black', '084/084', 'R', 0, 2, 729904, 'me05-084'],
-  ['Basic Darkness Energy', null, null, 'E', 0, 8, null, 'darkness'],
-  ['Basic Lightning Energy', null, null, 'E', 0, 3, null, 'lightning'],
-  ['Lillie’s Determination', 'Mega Evolution', '119/132', 'U', 4, 4, 729924, 'me01-119'],
-  ['Boss’s Orders', 'Ascended Heroes', '183/217', 'U', 3, 3, 729934, 'me02.5-183'],
-  ['Iris’s Fighting Spirit', 'Journey Together', '149/159', 'U', 2, 2, 729922, 'sv09-149'],
-  ['Poké Pad', '30th Celebration', '126/128', 'C', 4, 4, 729919],
-  ['Ultra Ball', '30th Celebration', '128/128', 'C', 3, 4, 729917],
-  ['Buddy-Buddy Poffin', 'Ascended Heroes', '184/217', 'C', 2, 2, 729931, 'me02.5-184'],
-  ['Night Stretcher', 'Ascended Heroes', '196/217', 'C', 2, 2, 729932, 'me02.5-196'],
-  ['Pokégear 3.0', 'Black Bolt', '084/086', 'U', 2, 2, 729923, 'sv10.5b-084'],
-  ['Switch', '30th Celebration', '127/128', 'C', 2, 2, 729918],
-  ['Air Balloon', 'Black Bolt', '079/086', 'U', 2, 2, 729927, 'sv10.5b-079'],
+  [null, 'Espeon ex', '30th Celebration', '070/128', 'RR', 2, 0, null],
+  [null, 'Umbreon ex', '30th Celebration', '092/128', 'RR', 0, 2, null],
+  ['d28', 'Eevee', '30th Celebration', '117/128', 'C', 3, 0, 729916],
+  ['d01', 'Fennekin', 'Chaos Rising', '011/086', 'C', 3, 0, 729911, 'me04-011'],
+  ['d02', 'Braixen', 'Chaos Rising', '012/086', 'C', 2, 0, 729912, 'me04-012'],
+  ['d03', 'Delphox', 'Chaos Rising', '013/086', 'R', 2, 0, 729910, 'me04-013'],
+  ['d30', 'Kangaskhan', '30th Celebration', '114/128', 'C', 1, 0, 729920],
+  ['d04', 'Zacian', 'Phantasmal Flames', '045/094', 'R', 1, 0, 729914, 'me02-045'],
+  ['d05', 'Moltres', 'Phantasmal Flames', '014/094', 'R', 1, 0, 729915, 'me02-014'],
+  ['d29', 'Eevee', '30th Celebration', '118/128', 'C', 0, 3, 729819],
+  ['d11', 'Toxel', 'Phantasmal Flames', '067/094', 'C', 0, 3, 729902, 'me02-067'],
+  ['d12', 'Toxtricity', 'Phantasmal Flames', '068/094', 'R', 0, 2, 731781, 'me02-068'],
+  ['d31', 'Zeraora', '30th Celebration', '057/128', 'C', 0, 3, 729907],
+  ['d13', 'Chi-Yu', 'Pitch Black', '059/084', 'R', 0, 2, 729903, 'me05-059'],
+  ['d14', 'Yveltal', 'Mega Evolution', '088/132', 'R', 0, 1, 729909, 'me01-088'],
+  ['d15', 'Emolga', 'Chaos Rising', '030/086', 'C', 0, 1, 729908, 'me04-030'],
+  ['d21', 'Lillie’s Determination', 'Mega Evolution', '119/132', 'U', 4, 4, 729924, 'me01-119'],
+  ['d22', 'Boss’s Orders', 'Ascended Heroes', '183/217', 'U', 3, 3, 729934, 'me02.5-183'],
+  ['d23', 'Iris’s Fighting Spirit', 'Journey Together', '149/159', 'U', 2, 2, 729922, 'sv09-149'],
+  ['d06', 'Dawn', 'Phantasmal Flames', '087/094', 'U', 2, 0, 729913, 'me02-087'],
+  ['d07', 'Rosa’s Encouragement', 'Perfect Order', '084/088', 'U', 2, 0, 729928, 'me03-084'],
+  ['d16', 'Hilda', 'White Flare', '084/086', 'U', 0, 2, 729905, 'sv10.5w-084'],
+  ['d17', 'Brock’s Scouting', 'Journey Together', '146/159', 'U', 0, 1, 729906, 'sv09-146'],
+  ['d32', 'Poké Pad', '30th Celebration', '126/128', 'C', 4, 4, 729919],
+  ['d33', 'Ultra Ball', '30th Celebration', '128/128', 'C', 3, 4, 729917],
+  ['d24', 'Buddy-Buddy Poffin', 'Ascended Heroes', '184/217', 'C', 2, 2, 729931, 'me02.5-184'],
+  ['d25', 'Night Stretcher', 'Ascended Heroes', '196/217', 'C', 2, 2, 729932, 'me02.5-196'],
+  ['d26', 'Pokégear 3.0', 'Black Bolt', '084/086', 'U', 2, 2, 729923, 'sv10.5b-084'],
+  ['d34', 'Switch', '30th Celebration', '127/128', 'C', 2, 2, 729918],
+  ['d08', 'Rare Candy', 'Mega Evolution', '125/132', 'C', 2, 0, 729926, 'me01-125'],
+  ['d27', 'Air Balloon', 'Black Bolt', '079/086', 'U', 2, 2, 729927, 'sv10.5b-079'],
+  ['d09', 'Basic Fire Energy', null, null, 'E', 8, 0, null, 'fire'],
+  ['d10', 'Basic Psychic Energy', null, null, 'E', 4, 0, null, 'psychic'],
+  ['d19', 'Basic Darkness Energy', null, null, 'E', 0, 8, null, 'darkness'],
+  ['d20', 'Basic Lightning Energy', null, null, 'E', 0, 3, null, 'lightning'],
+  ['d18', 'Voltaic Lightning Energy', 'Pitch Black', '084/084', 'R', 0, 2, 729904, 'me05-084'],
 ];
 
-const deckSection = (espeon, umbreon) => (espeon && umbreon ? 'deck-both' : espeon ? 'deck-espeon' : 'deck-umbreon');
 const deckNote = (espeon, umbreon) => [espeon && `${espeon} in the ${ESPEON_DECK}`, umbreon && `${umbreon} in the ${UMBREON_DECK}`].filter(Boolean).join(' · ');
 const copies = (n) => (n === 1 ? 'a copy' : `${n} copies`);
 const deckDetail = (espeon, umbreon) => (espeon && umbreon
-  ? `The Battle Decks also have this card as a foil with a 30th Celebration stamp: ${espeon} in the Espeon ex deck and ${umbreon} in the Umbreon ex deck.`
-  : `The ${espeon ? ESPEON_DECK : UMBREON_DECK} also has ${copies(espeon || umbreon)} of this card as ${(espeon || umbreon) === 1 ? 'a foil' : 'foils'} with a 30th Celebration stamp.`);
+  ? `The Battle Decks also have this card: ${espeon} in the Espeon ex deck and ${umbreon} in the Umbreon ex deck.`
+  : `The ${espeon ? ESPEON_DECK : UMBREON_DECK} also has ${copies(espeon || umbreon)} of this card.`);
 const inThisSet = (setName) => setName === '30th Celebration';
 
 const LINKS = [
@@ -197,30 +195,32 @@ const CARDS = [
   ...[...COSMOS.map((row) => ['cosmos', row]), ...STAMPED.map((row) => ['stamped', row])].map(([section, [id, idx, name, setName, num, printed, rarity, variant, badge, note, , tcg, tcgdex]]) => ({
     id, section, num, printed, name, rarity, setName, badge, variant, foil: true, note, ...(tcg && { tcg }), tcgdex, idx,
   })),
-  ...DECKS.filter(([, setName]) => !inThisSet(setName)).map(([name, setName, printed, rarity, espeon, umbreon, tcg, from], i) => {
+  ...DECKS.filter(([id]) => id).map(([id, name, setName, printed, rarity, espeon, umbreon, tcg, from]) => {
     const energy = rarity === 'E';
+    const own = inThisSet(setName);
     return {
-      id: `d${String(i + 1).padStart(2, '0')}`, section: deckSection(espeon, umbreon), num: energy ? '' : printed.slice(0, 3), printed: printed || '', name, rarity,
+      id, section: 'decks', num: energy ? '' : printed.slice(0, 3), printed: printed || '', name, rarity,
       ...(energy ? { type: from, display: { number: 'Basic Energy', label: 'Battle Deck', list: '{name}', chip: '{name}', pocket: '' } } : { setName }),
-      badge: '30th Stamp', variant: '30th Celebration stamp', foil: true, note: deckNote(espeon, umbreon),
-      ...(tcg && { tcg }), tcgdex: energy ? `mee-${DECK_ENERGY[from][0]}` : from, idx: IDX.deck + i,
+      badge: energy ? '30th Stamp' : 'Reverse Holo', variant: energy ? '30th Celebration stamp' : own ? 'Reverse Holo' : 'Reverse Holo · 30th Celebration stamp',
+      foil: true, note: deckNote(espeon, umbreon), ...(tcg && { tcg }),
+      ...(own ? { img: `m${printed.slice(0, 3)}` } : { tcgdex: energy ? `mee-${DECK_ENERGY[from][0]}` : from }),
+      idx: IDX.deck + Number(id.slice(1)) - 1,
     };
   }),
 ];
 
 const STAMPED_DETAILS = Object.fromEntries([...COSMOS, ...STAMPED].filter((row) => row[10]).map((row) => [row[0], row[10]]));
-const DECK_DETAILS = Object.fromEntries(DECKS.filter(([, setName]) => inThisSet(setName)).map(([, , printed, , espeon, umbreon]) => [`m${printed.slice(0, 3)}`, deckDetail(espeon, umbreon)]));
+const DECK_DETAILS = Object.fromEntries(DECKS.filter(([id]) => !id).map(([, , , printed, , espeon, umbreon]) => [`m${printed.slice(0, 3)}`, deckDetail(espeon, umbreon)]));
 const LINKED_COUNT = LINKS.reduce((n, link) => n + link.ids.length, 0);
 const GRAND_TOTAL = CARDS.length + LINKED_COUNT;
-const deckCount = (section) => CARDS.filter((c) => c.section === section).length;
 const ORIGINAL_PHOTO = {
   s05: 726519, s06: 726527, s07: 726529,
-  ...Object.fromEntries(CARDS.filter((c) => c.section.startsWith('deck-') && c.type).map((c) => [c.id, DECK_ENERGY[c.type][1]])),
+  ...Object.fromEntries(CARDS.filter((c) => c.section === 'decks' && c.type).map((c) => [c.id, DECK_ENERGY[c.type][1]])),
 };
-const DECK_TOTAL = CARDS.filter((c) => c.section.startsWith('deck-')).length;
+const DECK_TOTAL = CARDS.filter((c) => c.section === 'decks').length;
 const LINKED_PROMO = { number: '{printed}', label: '{printed}', list: '{printed} {name}', chip: '{printed} {name}', pocket: '{num}', search: 'Pokemon {name} {printed} promo' };
 const STAMPED_DISPLAY = { number: '{set} · {printed}', label: '{set} {printed}', list: '{printed} {name}', chip: '{num} {name}', pocket: '{num}', search: 'Pokemon {set} {name} {printed} {badge}' };
-const DECK_TEXT = '<p><b>30th Celebration Battle Decks</b> (30 Oct 2026). The Espeon ex and Umbreon ex decks each have 60 foil cards, every one with its original set number and a 30th Celebration stamp. Each card is listed once, with how many copies each deck has. Deck cards that are 30th Celebration’s own, such as Espeon ex, Umbreon ex and the Eevees, are only in the main set. The decks’ promos, Victini MEP 102 and Zeraora MEP 103, are listed with the 30th Celebration promos.</p>';
+const DECK_TEXT = '<p><b>30th Celebration Battle Decks</b> (30 Oct 2026). Each card is listed once, with how many copies the Espeon ex and Umbreon ex decks have. Apart from the Basic Energy, every card here is a reverse holo with its original set number. That includes the 30th Celebration cards, which booster packs don’t have as reverse holos, and the cards from other sets also carry a 30th Celebration stamp. Espeon ex and Umbreon ex are the same as the main set cards, and the decks’ promos, Victini MEP 102 and Zeraora MEP 103, are listed with the 30th Celebration promos.</p>';
 const LINKED_TEXT = (list) => `<p>This card belongs to ${list}, so marking it here marks it there too, and it’s only counted once in your collection’s value.</p>`;
 
 const promoNotes = Object.fromEntries([
@@ -288,9 +288,7 @@ const THIRTIETH_CELEBRATION = {
       },
       { id: 'cosmos', name: 'Cosmos Holos', range: `${COSMOS.length} print${COSMOS.length === 1 ? '' : 's'}`, tier: 'grand', display: STAMPED_DISPLAY },
       { id: 'stamped', name: 'Stamped Prints', range: `${STAMPED.length} prints`, tier: 'grand', display: STAMPED_DISPLAY },
-      { id: 'deck-espeon', name: ESPEON_DECK, range: `${deckCount('deck-espeon')} cards`, tier: 'grand', display: STAMPED_DISPLAY },
-      { id: 'deck-umbreon', name: UMBREON_DECK, range: `${deckCount('deck-umbreon')} cards`, tier: 'grand', display: STAMPED_DISPLAY },
-      { id: 'deck-both', name: 'In Both Battle Decks', range: `${deckCount('deck-both')} cards`, tier: 'grand', display: STAMPED_DISPLAY },
+      { id: 'decks', name: 'Battle Decks', range: `${DECK_TOTAL} cards`, tier: 'grand', display: STAMPED_DISPLAY },
     ],
     links: LINKS,
     groups: [
@@ -304,9 +302,7 @@ const THIRTIETH_CELEBRATION = {
       { id: 'energy', name: 'Basic Energy', match: { section: 'energy' } },
       { id: 'cosmos', name: 'Cosmos Holos', match: { section: 'cosmos' } },
       { id: 'stamped', name: 'Stamped Prints', match: { section: 'stamped' } },
-      { id: 'deck-espeon', name: ESPEON_DECK, match: { section: 'deck-espeon' } },
-      { id: 'deck-umbreon', name: UMBREON_DECK, match: { section: 'deck-umbreon' } },
-      { id: 'deck-both', name: 'In Both Battle Decks', match: { section: 'deck-both' } },
+      { id: 'decks', name: 'Battle Decks', match: { section: 'decks' } },
     ],
     jumps: [
       { id: 'main', label: 'Main Set' },
@@ -319,11 +315,9 @@ const THIRTIETH_CELEBRATION = {
       { id: 'energy', label: 'Energy' },
       { id: 'cosmos', label: 'Cosmos Holos' },
       { id: 'stamped', label: 'Stamped' },
-      { id: 'deck-espeon', label: 'Espeon Deck' },
-      { id: 'deck-umbreon', label: 'Umbreon Deck' },
-      { id: 'deck-both', label: 'Both Decks' },
+      { id: 'decks', label: 'Battle Decks' },
     ],
-    summary: [['main', 'Main set'], ['secret', 'Secret rares'], ['classic', 'Classic Collection'], ['rgb', 'RGB Mews'], ['promos', '30th Celebration promos'], ['partners', 'First Partner promos'], ['energy', 'Basic Energy'], ['cosmos', 'Cosmos Holos'], ['stamped', 'Stamped prints'], ['deck-espeon', 'Espeon ex Battle Deck'], ['deck-umbreon', 'Umbreon ex Battle Deck'], ['deck-both', 'In both Battle Decks']],
+    summary: [['main', 'Main set'], ['secret', 'Secret rares'], ['classic', 'Classic Collection'], ['rgb', 'RGB Mews'], ['promos', '30th Celebration promos'], ['partners', 'First Partner promos'], ['energy', 'Basic Energy'], ['cosmos', 'Cosmos Holos'], ['stamped', 'Stamped prints'], ['decks', 'Battle Decks']],
     searchAliases: {
       'Nidoran♀': 'female',
       'Metagross δ': 'delta',
@@ -365,9 +359,7 @@ const THIRTIETH_CELEBRATION = {
         energy: ['<p><b>30th Celebration booster packs</b>, one in every pack.</p>', LINKED_TEXT('ME Energy')],
         cosmos: ['<p>A Cosmos Holo print of a 30th Celebration card, found only in certain products rather than in booster packs.</p>'],
         stamped: ['<p>A print of a card with the 30th Celebration logo in its stamp, given away at events and shops or sold in a single product.</p>'],
-        'deck-espeon': [DECK_TEXT],
-        'deck-umbreon': [DECK_TEXT],
-        'deck-both': [DECK_TEXT],
+        decks: [DECK_TEXT],
       },
       details: { ...STAMPED_DETAILS, ...DECK_DETAILS },
       packProducts: [
@@ -395,7 +387,7 @@ const THIRTIETH_CELEBRATION = {
       title: 'About the 30th Celebration set',
       paragraphs: [
         'Pokémon TCG: 30th Celebration marks 30 years of Pokémon. The set has 191 cards: 128 main set cards, including 30 special Pikachu Rares; 30 secret rares (18 Illustration Rares, 10 Special Illustration Rares and 2 Futuristic Rares); 30 Classic Collection reprints of iconic cards from the game’s history; and the 3 ultra-rare RGB Mews.',
-        `This checklist’s Grand Master set also has every other card with the 30th Celebration logo: ${PROMOS.length} promos from 30th Celebration products and the 27 First Partner promos (also listed in <a href="pokemon/me-black-star-promos/">ME Black Star Promos</a>), the 8 Basic Energy (also in <a href="pokemon/me-energy/">ME Energy</a>), the Cosmos Holo Eevee from the Knock Out Collection and 2-Pack Blister, ${STAMPED.length} stamped prints from events and shops, and the ${DECK_TOTAL} stamped foils from other sets in the Espeon ex and Umbreon ex Battle Decks. Promos and Energy marked here are marked in their own lists too.`,
+        `This checklist’s Grand Master set also has every other card with the 30th Celebration logo: ${PROMOS.length} promos from 30th Celebration products and the 27 First Partner promos (also listed in <a href="pokemon/me-black-star-promos/">ME Black Star Promos</a>), the 8 Basic Energy (also in <a href="pokemon/me-energy/">ME Energy</a>), the Cosmos Holo Eevee from the Knock Out Collection and 2-Pack Blister, ${STAMPED.length} stamped prints from events and shops, and ${DECK_TOTAL} reverse holos and Energy from the Espeon ex and Umbreon ex Battle Decks. Promos and Energy marked here are marked in their own lists too.`,
         `Choose what you’re collecting: the <b>Standard set</b> (the 128 main set cards), the <b>Master set</b> (188 cards, adding the secret rares and the Classic Collection) or the <b>Grand Master set</b> (all ${GRAND_TOTAL} cards).`,
         'This free checklist lets you tick off the cards you own, count spare copies for trading, see your progress by rarity and plan your binder pages. It works on phones and computers, even offline, and your collection stays on your device.',
       ],

@@ -131,14 +131,20 @@ const meg = models.get('pokemon/mega-evolution');
 check(meg?.visibleTiers.map((t) => t.cards.length).join() === `${meg?.cardsBySection.get('main').length},${meg?.cards.length - meg?.cardsBySection.get('secret').length},${meg?.cards.length}`, 'Mega Evolution tiers are main set, then reverse holos, then secret rares');
 const thirty = models.get('pokemon/30th-celebration');
 const thirtyFull = thirty ? await loadModel('pokemon/30th-celebration', { links: true }) : null;
-const THIRTY_EXTRA = ['rgb', 'promos', 'partners', 'energy', 'cosmos', 'stamped', 'deck-espeon', 'deck-umbreon', 'deck-both'];
+const THIRTY_EXTRA = ['rgb', 'promos', 'partners', 'energy', 'cosmos', 'stamped', 'decks'];
 const tierSizes = (model) => model?.visibleTiers.map((t) => t.cards.length).join();
-check(tierSizes(thirtyFull) === '128,188,281', `30th Celebration tier sizes with its linked promos and Energy are 128, 188 and 281 (got ${tierSizes(thirtyFull)})`);
-check(tierSizes(thirty) === '128,188,229', `30th Celebration’s own cards are 128, 188 and 229 (got ${tierSizes(thirty)})`);
-check(thirtyFull?.cardCount === 281 && thirty?.cardCount === 281, '30th Celebration says it has 281 cards');
+check(tierSizes(thirtyFull) === '128,188,288', `30th Celebration tier sizes with its linked promos and Energy are 128, 188 and 288 (got ${tierSizes(thirtyFull)})`);
+check(tierSizes(thirty) === '128,188,236', `30th Celebration’s own cards are 128, 188 and 236 (got ${tierSizes(thirty)})`);
+check(thirtyFull?.cardCount === 288 && thirty?.cardCount === 288, '30th Celebration says it has 288 cards');
 check(thirtyFull?.sections.map((s) => s.id).join() === ['main', 'secret', 'classic', ...THIRTY_EXTRA].join(), '30th Celebration order is main set, secret rares, Classic Collection, RGB Mews, promos, First Partners, Energy, Cosmos Holos, stamped prints, then the Battle Decks');
 check(thirty?.cardsBySection.get('cosmos').every((c) => c.variant === 'Cosmos Holo') && thirty.cardsBySection.get('stamped').every((c) => /stamp/.test(c.variant)), '30th Celebration keeps its Cosmos Holos apart from its stamped prints');
-check(thirty?.cards.filter((c) => c.section.startsWith('deck-')).every((c) => c.setName !== '30th Celebration'), '30th Celebration’s Battle Deck sections don’t repeat its own cards');
+if (thirty) {
+  const deck = thirty.cardsBySection.get('decks');
+  const energyFrom = deck.findIndex((c) => /Energy$/.test(c.name));
+  check(deck.length === 34 && deck.slice(energyFrom).every((c) => /Energy$/.test(c.name)), `30th Celebration’s Battle Decks are one section of 34 cards with the Energy last (got ${deck.length})`);
+  check(deck.filter((c) => c.setName === '30th Celebration').every((c) => c.variant === 'Reverse Holo' && c.img) && deck.filter((c) => c.rarity !== 'E').every((c) => c.badge === 'Reverse Holo'), '30th Celebration’s Battle Deck cards say they’re reverse holos, and its own cards there use the main set image');
+  check(!deck.some((c) => /^(Espeon ex|Umbreon ex|Victini)$/.test(c.name)), 'Espeon ex, Umbreon ex and Victini aren’t repeated in the Battle Decks section');
+}
 check(thirtyFull?.lowestTier('secret')?.id === 'master' && thirtyFull.lowestTier('classic')?.id === 'master' && THIRTY_EXTRA.every((id) => thirtyFull.lowestTier(id)?.id === 'grand'), '30th Celebration Master adds the secret rares and Classic Collection, and everything else is Grand Master only');
 if (thirtyFull) {
   const linked = thirtyFull.cards.filter((c) => c.link);
@@ -625,7 +631,7 @@ if (meg) {
     const mep = JSON.parse(localStorage.getItem(mepKey));
     const ownRecord = JSON.parse(localStorage.getItem(ownKey));
     check(mep.q['094'] === 1 && mep.q['001'] === 2 && !ownRecord.q.MEP_094 && ownRecord.q.m001 === 3, 'marking MEP 094 on 30th Celebration saves it to ME Black Star Promos and keeps that list’s other cards');
-    check(ownRecord.summary?.owned === 2 && ownRecord.summary.total === 281, `30th Celebration’s progress counts its linked cards (got ${JSON.stringify(ownRecord.summary)})`);
+    check(ownRecord.summary?.owned === 2 && ownRecord.summary.total === 288, `30th Celebration’s progress counts its linked cards (got ${JSON.stringify(ownRecord.summary)})`);
     check(linked.load().MEP_094 === 1 && linked.load().m001 === 3, '30th Celebration reads linked cards from their own list');
     linked.save(new Map([['m001', 3]]), ['MEP_094']);
     check(!JSON.parse(localStorage.getItem(mepKey)).q['094'], 'unmarking MEP 094 on 30th Celebration removes it from ME Black Star Promos');
