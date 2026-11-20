@@ -1,4 +1,4 @@
-import { loadCatalog, entryById, groupByGame } from '../core/catalog.js';
+import { loadCatalog, entryById } from '../core/catalog.js';
 import { fetchCollection } from '../core/collection.js';
 import { asset } from '../core/paths.js';
 import * as storage from '../core/storage.js';
@@ -8,7 +8,7 @@ import { encodeTrade, cleanName } from '../trade/trade-code.js';
 import { readTrade, saveTrade } from '../trade/trade-data.js';
 import { renderQr } from './qr.js';
 import { openDialog, toast, copyText } from './ui.js';
-import { el } from './dom.js';
+import { paintSetChips } from './set-chips.js';
 import { plural } from './format.js';
 
 const dlg = document.getElementById('dlg-export');
@@ -60,22 +60,7 @@ function paintControls() {
     paintControls();
     build();
   };
-  const chip = (id) => el('button', {
-    type: 'button',
-    class: 'chip',
-    'aria-pressed': String(chosen.has(id)),
-    onclick: () => toggle([id], !chosen.has(id)),
-  }, nameOf(id));
-  const groups = groupByGame(catalog, started || []);
-  chips.replaceChildren(...(groups.length > 1
-    ? groups.flatMap(({ game, ids }) => [
-      el('div', { class: 'xp-game' },
-        el('span', { class: 'xp-game__name', text: game.name }),
-        el('button', { type: 'button', class: 'link-btn', onclick: () => toggle(ids, true) }, 'All'),
-        el('button', { type: 'button', class: 'link-btn', onclick: () => toggle(ids, false) }, 'None')),
-      ...ids.map(chip),
-    ])
-    : (started || []).map(chip)));
+  paintSetChips(chips, { catalog, ids: started || [], chosen, nameOf, onToggle: toggle });
 }
 
 function paintResult() {

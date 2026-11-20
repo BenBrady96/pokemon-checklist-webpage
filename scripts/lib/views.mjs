@@ -16,7 +16,7 @@ const OTHER_SECTION = 'other';
 const OTHER_NAME = 'Other prints';
 const FEATURING_SECTION = 'featuring';
 const THUMB_SKIP = new Set(['RGB']);
-const CARD_KEEP = ['num', 'printed', 'name', 'rarity', 'type', 'ctype', 'variant', 'print', 'badge', 'foil', 'note', 'keywords', 'stats'];
+const CARD_KEEP = ['num', 'printed', 'name', 'rarity', 'type', 'ctype', 'variant', 'print', 'badge', 'foil', 'cm', 'cmFoil', 'note', 'keywords', 'stats'];
 const PRICE_KEEP = ['tcg', 'usd', 'ed', 'from', 'eur'];
 
 export const slugify = (name) => name

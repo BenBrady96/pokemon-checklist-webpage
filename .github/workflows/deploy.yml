@@ -38,6 +38,10 @@ jobs:
         run: npm run prices
         continue-on-error: true
 
+      - name: Update Cardmarket wants data
+        run: npm run wants
+        continue-on-error: true
+
       - name: Check collection data
         run: npm test
 

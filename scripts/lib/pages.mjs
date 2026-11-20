@@ -11,15 +11,18 @@ import { SOCIALS, socialButtons, socialMenuItems } from '../../public/js/shared/
 
 const escapeHtml = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
 
+const PARTIALS = { wantsDialog: await readFile(join(TEMPLATES, 'partials', 'wants-dialog.html'), 'utf8') };
+
 export function fill(template, values) {
+  const all = { ...PARTIALS, ...values };
   return template
     .replace(/\{\{\{(\w+)\}\}\}/g, (_, key) => {
-      if (!(key in values)) throw new Error(`Template value missing: ${key}`);
-      return values[key] ?? '';
+      if (!(key in all)) throw new Error(`Template value missing: ${key}`);
+      return all[key] ?? '';
     })
     .replace(/\{\{(\w+)\}\}/g, (_, key) => {
-      if (!(key in values)) throw new Error(`Template value missing: ${key}`);
-      return escapeHtml(values[key]);
+      if (!(key in all)) throw new Error(`Template value missing: ${key}`);
+      return escapeHtml(all[key]);
     });
 }
 

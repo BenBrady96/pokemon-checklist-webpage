@@ -1,0 +1,24 @@
+<dialog class="sheet" id="dlg-wants" aria-labelledby="wants-title">
+  <div class="sheet__inner">
+    <header class="sheet__head">
+      <h2 class="sheet__title" id="wants-title">Cardmarket wants list</h2>
+      <button type="button" class="icon-btn" data-close aria-label="Close"><svg><use href="#i-close"/></svg></button>
+    </header>
+    <div class="sheet__body xp wl">
+      <p class="hint">Copy the cards you’re missing, then add them to a wants list on Cardmarket. Go to <b>Buying</b>, then <b>My Wants</b>, open a list, choose <b>Add Deck List</b> and paste.</p>
+      <section class="field">
+        <h3 class="field__label">Which cards</h3>
+        <div class="seg seg--full xp-seg" role="group" aria-label="Which cards">
+          <button type="button" class="seg__btn" data-wl-scope="set">This set</button>
+          <button type="button" class="seg__btn" data-wl-scope="choose">Choose sets</button>
+          <button type="button" class="seg__btn" data-wl-scope="all">Whole collection</button>
+        </div>
+        <div class="chips xp-sets" data-wl="sets" hidden></div>
+        <p class="hint hint--small xp-summary" data-wl="summary"></p>
+      </section>
+      <p class="hint xp-status" data-wl="status" role="status"></p>
+      <div data-wl="games"></div>
+      <p class="hint hint--small">Cardmarket keeps a separate wants list for each game. This list is a snapshot, so make it again after you mark more cards.</p>
+    </div>
+  </div>
+</dialog>

@@ -12,6 +12,7 @@ import { compute, percent, renderStats, missingText, duplicatesText } from './st
 import { initQuickAdd } from './quickadd.js';
 import { initOrder } from './order.js';
 import { initExport, openExport } from '../shared/export.js';
+import { initWants, openWants } from '../shared/wants.js';
 import { initImport, checkIncomingLink } from '../shared/import.js';
 import { celebrate } from '../shared/confetti.js';
 import { initPWA, initInstallBanner, offlineSupported, countSavedImages, saveImagesOffline } from '../shared/pwa.js';
@@ -601,6 +602,7 @@ function openNamed(requested) {
   let name = requested;
   if (name === 'scan') return openScanner();
   if (name === 'export') return openExport();
+  if (name === 'wants') return openWants();
   if (name === 'list' && viewChrome) {
     viewChrome.prepareViewShare();
     name = 'view-share';
@@ -827,6 +829,15 @@ function init() {
   });
   if (!COLLECTION.isView) initListShare();
   initExport(COLLECTION.isView ? {} : { currentId: COLLECTION.id });
+  initWants(COLLECTION.isView
+    ? {
+      page: {
+        model: COLLECTION,
+        counts: () => Object.fromEntries(COLLECTION.cards.map((c) => [c.id, store.getQty(c.id)]).filter(([, n]) => n > 0)),
+        tier: () => COLLECTION.getTier(store.getPrefs().tier),
+      },
+    }
+    : { currentId: COLLECTION.id });
   initImport(importHooks);
 
   viewChrome?.initViewChrome();

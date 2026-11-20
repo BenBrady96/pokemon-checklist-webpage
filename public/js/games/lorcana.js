@@ -1,6 +1,7 @@
 export const id = 'lorcana';
 export const name = 'Disney Lorcana TCG';
 export const shortName = 'Lorcana';
+export const CARDMARKET = 'Lorcana';
 export const tagline = 'Trading Card Game';
 export const CARD_ASPECT = 63 / 88;
 export const SCAN_SEARCH = 'Card name or number, e.g. Stitch or 21/204';
@@ -68,7 +69,7 @@ export function statsText(card) {
 export function priceLinks(card, entry, query) {
   const q = encodeURIComponent(query);
   return [
-    { label: 'Cardmarket', href: `https://www.cardmarket.com/en/Lorcana/Products/Search?searchString=${encodeURIComponent(card.name)}` },
+    { label: 'Cardmarket', href: `https://www.cardmarket.com/en/${CARDMARKET}/Products/Search?searchString=${encodeURIComponent(card.name)}` },
     { label: 'TCGplayer', href: entry?.tcg ? `https://www.tcgplayer.com/product/${entry.tcg}` : `https://www.tcgplayer.com/search/lorcana-tcg/product?q=${q}` },
     { label: 'eBay UK sold', href: `https://www.ebay.co.uk/sch/i.html?_nkw=${q}&LH_Sold=1&LH_Complete=1` },
     // { label: 'BR Trading Post', href: `https://brtradingpost.co.uk/shop/lorcana/?q=${encodeURIComponent(card.name)}` },

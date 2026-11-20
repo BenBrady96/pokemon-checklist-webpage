@@ -1,6 +1,7 @@
 export const id = 'pokemon';
 export const name = 'Pokémon TCG';
 export const shortName = 'Pokémon';
+export const CARDMARKET = 'Pokemon';
 export const tagline = 'Trading Card Game';
 export const CARD_ASPECT = 63 / 88;
 export const SCAN_SEARCH = 'Card name or number, e.g. Pikachu or 025/165';
@@ -74,7 +75,7 @@ export const rarityFromName = (text) => RARITY_BY_ALIAS.get(String(text || '').t
 export function priceLinks(card, entry, query) {
   const q = encodeURIComponent(query);
   return [
-    { label: 'Cardmarket', href: `https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=${encodeURIComponent(card.name)}` },
+    { label: 'Cardmarket', href: `https://www.cardmarket.com/en/${CARDMARKET}/Products/Search?searchString=${encodeURIComponent(card.name)}` },
     { label: 'TCGplayer', href: entry?.tcg ? `https://www.tcgplayer.com/product/${entry.tcg}` : `https://www.tcgplayer.com/search/pokemon/product?q=${q}` },
     { label: 'eBay UK sold', href: `https://www.ebay.co.uk/sch/i.html?_nkw=${q}&LH_Sold=1&LH_Complete=1` },
     // { label: 'BR Trading Post', href: `https://brtradingpost.co.uk/shop/pokemon/?q=${encodeURIComponent(card.name)}` },

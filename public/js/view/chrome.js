@@ -58,7 +58,7 @@ function sharedBanner() {
 function readOnlyChrome() {
   const who = COLLECTION.shared.name ? `${COLLECTION.shared.name}’s` : 'someone else’s';
   document.documentElement.toggleAttribute('data-readonly', true);
-  for (const item of document.querySelectorAll('[data-open="scan"], [data-open="list"], [data-action="toggle-mode"]')) item.hidden = true;
+  for (const item of document.querySelectorAll('[data-open="scan"], [data-open="list"], [data-open="wants"], [data-action="toggle-mode"]')) item.hidden = true;
   pinButton()?.remove();
   sharedBanner();
   let last = 0;

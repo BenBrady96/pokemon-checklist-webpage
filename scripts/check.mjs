@@ -706,5 +706,105 @@ if (meg) {
   }
 }
 
+{
+  const { wantsName, nameCandidates, sealedPrefixes, resolveExpansions, indexProducts, lineForCard, nameIndex, nameLines, sameCard, sharedProducts } = await import('./lib/wants.mjs');
+  const { wantsBlocks, cardsIn, chunkLines, WANTS_LIMIT } = await import('../public/js/core/wants.js');
+  const same = (a, b) => JSON.stringify(a) === JSON.stringify(b);
+
+  check(wantsName('Durant ex [Sudden Shearing | Vengeful Crush]') === 'Durant ex Sudden Shearing Vengeful Crush', 'Cardmarket wants: attacks lose their brackets and bars');
+  check(wantsName('Lillie’s  Determination') === "Lillie's Determination", 'Cardmarket wants: curly apostrophes become straight and spaces collapse');
+  check(same(nameCandidates('Astral Radiance (Trainer Gallery)'), ['Astral Radiance (Trainer Gallery)', 'Astral Radiance']) && nameCandidates('Machine Reactor Structure Deck').includes('Structure Deck: Machine Reactor'), 'Cardmarket wants: set name candidates drop a trailing bracket and turn Structure Decks around');
+  const prefixes = sealedPrefixes(['2-Player Starter Deck Yuya & Declan', 'Surging Sparks Booster Box', 'Spirit Charmers (OCG)']);
+  check(prefixes.get('2-player starter deck yuya & declan')?.text === '2-Player Starter Deck Yuya & Declan' && prefixes.get('surging sparks')?.text === 'Surging Sparks' && !prefixes.has('surging spark'), 'Cardmarket wants: sealed product names give expansion names at word boundaries');
+  check(prefixes.get('spirit charmers')?.clean === false, 'Cardmarket wants: a name followed by a bracket isn’t taken as the whole expansion name');
+  const retro = resolveExpansions({
+    sets: [
+      { id: 'y/rp1', name: 'Retro Pack', expansions: new Map([[9, 10]]) },
+      { id: 'y/rp2', name: 'Retro Pack 2', expansions: new Map([[9, 90]]) },
+    ],
+    sealed: new Map([[9, ['Retro Pack 2 Booster', 'Retro Pack 2 (2025 Reprint) Booster']]]),
+  });
+  check(retro.get(9)?.set === 'y/rp2' && retro.get(9).name === 'Retro Pack 2', 'Cardmarket wants: a longer set name wins when it covers the same sealed products');
+
+  const sets = [
+    { id: 'y/lob', name: 'Legend of Blue Eyes White Dragon', expansions: new Map([[1, 10], [2, 10]]) },
+    { id: 'y/lob25', name: 'Legend of Blue Eyes White Dragon (25th Anniversary Edition)', expansions: new Map([[1, 10], [2, 10]]) },
+    { id: 'y/promo', name: 'Some Promos', expansions: new Map([[3, 5]]) },
+    { id: 'y/fixed', name: 'Fixed Promos', expansions: new Map([[4, 5], [6, 1]]) },
+  ];
+  const sealed = new Map([[1, ['Legend of Blue Eyes White Dragon Booster']], [2, ['Legend of Blue-Eyes White Dragon 25th Anniversary Edition Booster Box']], [3, ['Other Thing Booster']]]);
+  const resolved = resolveExpansions({ sets, sealed, overrides: { 'y/fixed': 'Fixed Promos’ Name' } });
+  check(resolved.get(1)?.set === 'y/lob' && resolved.get(1).name === 'Legend of Blue Eyes White Dragon', 'Cardmarket wants: a full set name beats a reprint’s shortened name');
+  check(!resolved.has(2) && !resolved.has(3) && !resolved.has(6), 'Cardmarket wants: expansions that match no set name stay unverified');
+  check(resolved.get(4)?.name === "Fixed Promos' Name" && resolved.get(4).override, 'Cardmarket wants: an override names a set’s main expansion');
+  const deluxe = resolveExpansions({
+    sets: [
+      { id: 'y/da', name: 'Duelist Alliance', expansions: new Map([[8, 100]]) },
+      { id: 'y/da-deluxe', name: 'Duelist Alliance: Deluxe Edition', expansions: new Map([[8, 60]]) },
+    ],
+    sealed: new Map([[8, ['Duelist Alliance Booster', 'Duelist Alliance Booster Box', 'Duelist Alliance: Deluxe Edition']]]),
+  });
+  check(deluxe.get(8)?.set === 'y/da' && deluxe.get(8).name === 'Duelist Alliance', 'Cardmarket wants: the name most of an expansion’s sealed products start with wins over a longer one');
+
+  const index = indexProducts([
+    { idProduct: 10, name: 'Exeggcute [Precocious Evolution]', idExpansion: 7 },
+    { idProduct: 11, name: 'Exeggcute [Precocious Evolution]', idExpansion: 7 },
+    { idProduct: 12, name: 'Pikachu (Top Deck)', idExpansion: 7 },
+    { idProduct: 13, name: 'Armaldo [Primal Veil | Blade Arms]', idExpansion: 7 },
+  ]);
+  const exps = new Map([[7, { name: 'Surging Sparks' }]]);
+  check(lineForCard({ cm: 10, name: 'Exeggcute' }, index, exps) === 'Exeggcute Precocious Evolution (Surging Sparks)', 'Cardmarket wants: the first version of a card is pasted');
+  check(lineForCard({ cm: 11, name: 'Exeggcute' }, index, exps) === null, 'Cardmarket wants: later versions of a card are added by hand');
+  check(lineForCard({ cm: 12, name: 'Pikachu' }, index, exps) === null, 'Cardmarket wants: names with round brackets are added by hand');
+  check(lineForCard({ cm: 13, name: 'Team Aqua’s Cacturne' }, index, exps) === null && sameCard('Basic Grass Energy', 'Grass Energy'), 'Cardmarket wants: a Cardmarket id that points at another card is ignored');
+  check(lineForCard({ cm: 10, name: 'Exeggcute' }, index, new Map()) === null, 'Cardmarket wants: cards from unverified expansions are added by hand');
+  check(sameCard('Tweedledee & Tweedledum - Strange Storytellers', 'Tweedle Dee & Tweedle Dum - Strange Storytellers') && sameCard('M Sceptile EX', 'MSceptile EX [Jagged Saber]') && !sameCard('Erika’s Gloom', 'Erika'), 'Cardmarket wants: names that differ only in spaces and punctuation are the same card');
+
+  check(same([...sharedProducts([{ cm: 1 }, { cm: 1 }, { cm: 1, cmFoil: true }, { cm: 2 }, { cm: 3 }, { cm: 3, cmFoil: true }])], [1]), 'Cardmarket wants: two printings in a set with the same Cardmarket id are added by hand');
+
+  const byName = nameIndex([{ idProduct: 1, name: 'Dark Magician', idExpansion: 5 }, { idProduct: 2, name: 'Dark Magician', idExpansion: 5 }, { idProduct: 3, name: 'Kuriboh', idExpansion: 5 }]);
+  const ygo = nameLines([{ id: 'a', name: 'Dark Magician' }, { id: 'b', name: 'Kuriboh' }, { id: 'c', name: 'Kuriboh' }], byName, { id: 5, name: 'Legend of Blue Eyes White Dragon' });
+  check(same(ygo, { a: 'Dark Magician (Legend of Blue Eyes White Dragon)' }), 'Cardmarket wants: Yu-Gi-Oh! cards are pasted by name, and names repeated in a set are added by hand');
+
+  const game = { id: 'pokemon', name: 'Pokémon TCG', CARDMARKET: 'Pokemon' };
+  const line = 'Exeggcute Precocious Evolution (Surging Sparks)';
+  const blocks = wantsBlocks([
+    {
+      model: { id: 'pokemon/a', name: 'A', game },
+      counts: { '002': 1 },
+      tier: { cards: [
+        { id: '001', name: 'Exeggcute', cm: 10 },
+        { id: '001-rh', name: 'Exeggcute', cm: 10, cmFoil: true, variant: 'Reverse Holo' },
+        { id: '192', name: 'Exeggcute', cm: 11 },
+        { id: '002', name: 'Owned', cm: 14 },
+        { id: '010', name: 'Twin', cm: 20 },
+        { id: '011', name: 'Twin', cm: 20 },
+        { id: 'X_5', name: 'Linked', link: { set: 'pokemon/b', id: '005' } },
+      ] },
+      lines: { '001': line, '001-rh': line, '010': 'Twin (S)', '011': 'Twin (S)', X_5: 'Linked (B)' },
+    },
+    { model: { id: 'pokemon/b', name: 'B', game }, counts: {}, tier: { cards: [{ id: '005', name: 'Linked' }] }, lines: { '005': 'Linked (B)' } },
+  ]);
+  const [pk] = blocks;
+  check(blocks.length === 1 && pk.missing === 6, 'Cardmarket wants: owned cards are left out, and a linked card is counted once');
+  check(same(pk.paste, [`1 ${line}`, '2 Twin (S)', '1 Linked (B)']) && cardsIn(pk.paste) === 4, 'Cardmarket wants: matching lines add up');
+  check(same(pk.foil, [`1 ${line}`]) && pk.foilLabel === 'Reverse Holo', 'Cardmarket wants: reverse holos get their own list');
+  check(pk.hand.length === 1 && pk.hand[0].href === 'https://www.cardmarket.com/en/Pokemon/Products?idProduct=11', 'Cardmarket wants: cards that can’t be pasted link straight to their Cardmarket page');
+  const many = Array.from({ length: 203 }, (_, i) => `1 Card ${i} (Set)`);
+  check(WANTS_LIMIT === 150 && same(chunkLines(many).map((p) => p.length), [150, 53]), 'Cardmarket wants: a list longer than a wants list holds (150 cards) is split into parts');
+  check(same(chunkLines(['100 A (S)', '60 B (S)', '1 C (S)']), [['100 A (S)'], ['60 B (S)', '1 C (S)']]) && same(chunkLines([]), []), 'Cardmarket wants: parts are counted in cards, not lines');
+
+  const broken = [];
+  for (const [id, model] of models) {
+    const data = await readJson(join(dataDir(id), 'cardmarket.json'));
+    if (!data) continue;
+    const known = (await loadRaw(id)).links?.length ? (await loadModel(id, { links: true })).cardById : model.cardById;
+    const bad = !isDate(data.updated) || !data.lines || typeof data.lines !== 'object'
+      || Object.entries(data.lines).some(([cardId, text]) => !known.has(cardId) || typeof text !== 'string' || !/^[^()\n]+ \([^()\n]+\)$/.test(text));
+    if (bad) broken.push(id);
+  }
+  check(!broken.length, `cardmarket.json files have a date, real card ids and one “Name (Expansion)” line each (run npm run wants): ${broken.slice(0, 6).join(', ')}`);
+}
+
 console.log(failures ? `\n${failures} of ${checks} checks failed` : `All ${checks} checks passed (${models.size} collections)`);
 process.exitCode = failures ? 1 : 0;

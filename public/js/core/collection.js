@@ -57,6 +57,17 @@ export function fetchPrices(id) {
   return priceCache.get(id);
 }
 
+const wantsCache = new Map();
+
+export function fetchWants(id) {
+  if (!wantsCache.has(id)) {
+    const promise = getJson(`data/${id}/cardmarket.json`, null);
+    wantsCache.set(id, promise);
+    promise.then((data) => { if (!data) wantsCache.delete(id); });
+  }
+  return wantsCache.get(id);
+}
+
 const viewCache = new Map();
 
 export function fetchView(id) {

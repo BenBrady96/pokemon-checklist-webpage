@@ -6,6 +6,7 @@ import { normalize } from '../core/model.js';
 import { asset } from '../core/paths.js';
 import * as storage from '../core/storage.js';
 import { initExport, openExport } from '../shared/export.js';
+import { initWants, openWants } from '../shared/wants.js';
 import { initImport, checkIncomingLink } from '../shared/import.js';
 import { initDialogs, openDialog, toast, hideLoader } from '../shared/ui.js';
 import { initPWA, initInstallBanner } from '../shared/pwa.js';
@@ -312,6 +313,7 @@ function paintLastBackup() {
 function openNamed(name) {
   if (name === 'scan') return openScanner();
   if (name === 'export') return openExport();
+  if (name === 'wants') return openWants();
   const dlg = document.getElementById(`dlg-${name}`);
   if (!dlg) return;
   if (name === 'menu') paintLastBackup();
@@ -371,6 +373,7 @@ async function init() {
   if (!storage.isStorageOk()) document.getElementById('storage-banner').hidden = false;
   initInstallBanner();
   initExport();
+  initWants();
   initImport({ refresh: showProgress });
   try {
     catalog = await loadCatalog();
